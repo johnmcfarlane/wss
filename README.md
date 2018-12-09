@@ -1,0 +1,2 @@
+# wss
+Wordscapes Solver
