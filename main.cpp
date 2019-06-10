@@ -17,14 +17,16 @@ using std::array;
 using std::begin;
 using std::cout;
 using std::cin;
-using std::distance;
 using std::end;
 using std::experimental::string_view;
 using std::fill;
-using std::make_tuple;
+using std::max;
 using std::numeric_limits;
 using std::setw;
 using std::string;
+
+//constexpr auto num_columns = 79;
+constexpr auto num_columns = 1;
 
 using histogram = array<int, numeric_limits<char>::max()+1>;
 
@@ -110,9 +112,8 @@ int main(int argc, char const* const* argv)
 
     auto finds = solve(lexicon, letters);
 
-    int const max_column = 79/(letters.length()+1);
+    int const max_column = std::max(1, num_columns/(int(letters.length())+1));
     int column = 0;
-    finds.sort();
     finds.for_each([&](auto find) {
         cout << ((column++%max_column) ? ' ' : '\n')
              << find
