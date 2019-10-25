@@ -1,7 +1,7 @@
+#include "trie.h"
+
 #include <algorithm>
 #include <cassert>
-
-#include "trie.h"
 
 namespace {
     using std::begin;
@@ -10,91 +10,65 @@ namespace {
     using std::find_if;
     using std::make_unique;
     using std::sort;
-}
 
-namespace {
-    auto find(trie::node& n, char l)
+    auto find(node& n, char l)
     {
-        return find_if(begin(n.edges), end(n.edges), [l](auto const& edge) { return edge.letter==l; });
+        return find_if(begin(n.edges), end(n.edges),
+                [l](auto const& edge) { return edge==l; });
     }
 
-    auto find(trie::node const& n, char l)
-    {
-        return find_if(begin(n.edges), end(n.edges), [l](auto const& edge) { return edge.letter==l; });
-    }
-
-    bool terminal(trie::node& n)
-    {
-        return n.word!=nullptr;
-    }
-
-    void terminate(trie::node& n, string_view word)
-    {
-        assert(!terminal(n));
-        n.word = word.data();
-    }
-
-    auto& insert(trie::node& n, char l)
+    auto& insert(node& n, char l)
     {
         auto found = find(n, l);
         if (found!=end(n.edges)) {
-            return *found->next;
+            return found->get_next();
         }
 
-        trie::edge e{l, make_unique<trie::node>()};
+        edge e{l, make_unique<node>()};
         n.edges.emplace_back(std::move(e));
-        return *n.edges.back().next;
+        return n.edges.back().get_next();
     }
 
-    string_view find(trie::node const& n, string_view ending)
-    {
-        if (ending.empty()) {
-            return n.word;
-        }
-
-        auto found = find(n, ending.front());
-        if (found==end(n.edges)) {
-            return nullptr;
-        }
-
-        return find(*found->next, ending.substr(1));
-    }
-
-    bool insert(trie::node& n, string_view word, string_view ending)
+    bool insert(node& n, string_view word, string_view ending)
     {
         assert(word.size()>=ending.size());
         assert(&word.back()==&ending.back());
 
         if (ending.empty()) {
-            if (terminal(n)) {
+            if (n.is_terminator) {
                 return false;
             }
 
-            terminate(n, word);
+            assert(!n.is_terminator);
+            n.is_terminator = true;
             return true;
         }
         auto letter = ending.front();
         auto& next_node = insert(n, letter);
         return insert(next_node, word, ending.substr(1));
     }
-
-    void sort(trie::node& n)
-    {
-        sort(begin(n.edges), end(n.edges), [](auto const& a, auto const& b) {
-            return a.letter<b.letter;
-        });
-        for (auto& edge : n.edges) {
-            sort(*edge.next);
-        }
-    }
-
 }
 
-// trie::node
+// node
 
-trie::node::node() = default;
+node::node() = default;
 
-trie::node::~node() = default;
+node::~node() = default;
+
+node::edge_vector::const_iterator node::begin() const { return edges.begin(); }
+
+node::edge_vector::const_iterator node::end() const { return edges.end(); }
+
+// edge
+
+edge::edge(char l, std::unique_ptr<node> n)
+        :letter(l), next(std::move(n)) { }
+
+edge::operator char() const { return letter; }
+
+node& edge::get_next() { return *next; }
+
+node const& edge::get_next() const { return *next; }
 
 // trie
 
@@ -107,17 +81,17 @@ trie::size_type trie::size() const
     return count;
 }
 
-trie::string_view trie::find(string_view word) const
+trie::edge_const_iterator trie::begin() const
 {
-    return ::find(root, word);
+    return std::begin(root.edges);
+}
+
+trie::edge_const_iterator trie::end() const
+{
+    return std::end(root.edges);
 }
 
 void trie::insert(string_view word)
 {
     count += ::insert(root, word, word);
-}
-
-void trie::sort()
-{
-    ::sort(root);
 }
