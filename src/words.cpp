@@ -1,6 +1,11 @@
 #include "words.h"
 
-char const* const words[] = {
+#include <array>
+
+namespace {
+constexpr auto num_words{178691};
+std::array<char const*, num_words> word_literals
+{
     "aa",
     "aah",
     "aahed",
@@ -178691,6 +178696,8 @@ char const* const words[] = {
     "zymurgy",
     "zyzzyva",
     "zyzzyvas",
-    "zzz",
-    nullptr
+    "zzz"
 };
+}  // namespace
+
+gsl::span<char const*> const words{word_literals};

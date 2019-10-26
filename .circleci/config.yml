@@ -12,8 +12,18 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Run static analyser
-          command: . /root/project/linux/analyse.sh
+          name: Set up system
+          command: /root/project/.circleci/setup.sh
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run analyser
+          command: bash -c /root/project/linux/analyse.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
 
   "sanitize":
     docker:
@@ -21,12 +31,22 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Run static analyser
-          command: . /root/project/linux/sanitize.sh
+          name: Set up system
+          command: /root/project/.circleci/setup.sh
+      - restore_cache:
+          key: cache
+      - run:
+            name: Run sanitizer
+            command: bash -c /root/project/linux/sanitize.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
 
 workflows:
   version: 2
-  build:
+  test:
     jobs:
       - "analyse"
       - "sanitize"

@@ -1,0 +1,11 @@
+---
+Checks: >
+  *,
+  -bugprone-exception-escape,
+  -fuchsia-*,
+  -google-runtime-references,
+WarningsAsErrors: '*'
+HeaderFilterRegex: '*'
+AnalyzeTemporaryDtors: false
+FormatStyle:     none
+...
