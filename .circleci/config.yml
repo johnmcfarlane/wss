@@ -1,0 +1,32 @@
+version: 2
+
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+jobs:
+  "analyse":
+    docker:
+      - image: gcc:latest
+    steps:
+      - checkout
+      - run:
+          name: Run static analyser
+          command: . /root/project/linux/analyse.sh
+
+  "sanitize":
+    docker:
+      - image: gcc:latest
+    steps:
+      - checkout
+      - run:
+          name: Run static analyser
+          command: . /root/project/linux/sanitize.sh
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - "analyse"
+      - "sanitize"
