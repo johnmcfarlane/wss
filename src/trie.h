@@ -23,7 +23,7 @@ struct node {
     edge_vector::const_iterator end() const;
 
     edge_vector edges;
-    bool is_terminator;
+    bool is_terminator{false};
 };
 
 class edge {
