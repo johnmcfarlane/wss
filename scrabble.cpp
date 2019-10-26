@@ -1,9 +1,11 @@
 #include <algorithm>
 #include <array>
+#include <cassert>
 #include <cstdlib>
 #include <experimental/string_view>
 #include <cstdio>
 #include <cstdlib>
+#include <iterator>
 #include <limits>
 #include <numeric>
 #include <string>
@@ -23,7 +25,9 @@ using std::max;
 using std::numeric_limits;
 using std::pair;
 using std::string;
+using std::tie;
 using std::unique;
+using std::unordered_map;
 using std::vector;
 
 using letter_counts = array<int, numeric_limits<char>::max()+1>;
@@ -109,8 +113,9 @@ void search(trie::edge_const_iterator first, trie::edge_const_iterator last,
                 }
 
                 if (n.is_terminator) {
-                    state.finds.emplace_back(string{begin(state.word),
-                            end(state.word)}, score);
+                    state.finds.emplace_back(
+                            string{begin(state.word), end(state.word)},
+                            score);
                 }
 
                 --counter;
@@ -127,6 +132,24 @@ void search(trie::edge_const_iterator first, trie::edge_const_iterator last,
     });
 }
 
+void refine_results(vector<pair<string, int>>& finds)
+{
+    // group by words, highest-scoring first
+    sort(begin(finds), end(finds), [](auto a, auto b) {
+        return tie(a.first, b.second)<tie(b.first, a.second);
+    });
+
+    // eliminate lower-scoring entries with the same word
+    finds.erase(unique(begin(finds), end(finds), [](auto a, auto b) {
+        return a.first==b.first;
+    }), end(finds));
+
+    sort(begin(finds), end(finds), [](auto a, auto b) {
+        return tie(b.second, a.first)
+                <tie(a.second, b.first);
+    });
+}
+
 auto solve(trie const& lexicon, string_view letters)
 {
     search_state state;
@@ -140,6 +163,7 @@ auto solve(trie const& lexicon, string_view letters)
 
     search(begin(lexicon), end(lexicon), state, 0);
 
+    refine_results(state.finds);
     return move(state.finds);
 }
 
@@ -174,30 +198,15 @@ int main(int argc, char const* const* argv)
                 "Please provide your letters (or wildcards with '?').\n");
         return EXIT_FAILURE;
     }
-    auto const letters{argv[1]};
+
+    auto letters{string{argv[1]}};
+    transform(begin(letters), end(letters), begin(letters), tolower);
 
     auto const lexicon{get_lexicon(letters)};
 
     auto finds{solve(lexicon, letters)};
 
-    sort(begin(finds), end(finds), [](auto a, auto b) {
-        auto score_diff{b.second-a.second};
-        if (score_diff) {
-            return score_diff<0;
-        }
-
-        auto size_diff{ptrdiff_t(b.first.size())-ptrdiff_t(a.first.size())};
-        if (size_diff) {
-            return size_diff<0;
-        }
-
-        return a.first<b.first;
-    });
-    finds.erase(unique(begin(finds), end(finds)), end(finds));
-
     for (auto const& find : finds) {
         puts(find.first.c_str());
     };
-
-    return EXIT_SUCCESS;
 }

@@ -9,8 +9,8 @@ set_target_properties(scrabble PROPERTIES CXX_STANDARD 17)
 
 # ASan
 #target_compile_options(scrabble PRIVATE "-lib=libc++")
-target_compile_options(scrabble PRIVATE "-fsanitize=address")
-target_link_options(scrabble PRIVATE "-lasan")
+#target_compile_options(scrabble PRIVATE "-fsanitize=address")
+#target_link_options(scrabble PRIVATE "-lasan")
 
 # UBSan
 #target_compile_options(scrabble PRIVATE "-fsanitize=undefined")

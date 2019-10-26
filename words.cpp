@@ -135342,7 +135342,7 @@ char const* const words[] = {
     "rodeo",
     "rodeoed",
     "rodeoing",
-    "rodeos",
+    "rodeos",   // not in WWF
     "rodes",
     "rodless",
     "rodlike",
