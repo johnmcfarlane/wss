@@ -29,7 +29,7 @@ using std::tie;
 using std::unique;
 using std::vector;
 
-using letter_counts = array<int, numeric_limits<char>::max()+1>;
+using letter_values = array<int, numeric_limits<char>::max()+1>;
 
 template<typename Container>
 inline auto ssize(Container&& c)
@@ -37,7 +37,7 @@ inline auto ssize(Container&& c)
     return std::ptrdiff_t(c.size());
 }
 
-constexpr letter_counts scrabble_scores()
+constexpr letter_values scrabble_scores()
 {
     constexpr auto letter_score_a = 1;
     constexpr auto letter_score_b = 3;
@@ -66,7 +66,7 @@ constexpr letter_counts scrabble_scores()
     constexpr auto letter_score_y = 4;
     constexpr auto letter_score_z = 10;
 
-    letter_counts scores{};
+    letter_values scores{};
     scores['a'] = scores['A'] = letter_score_a;
     scores['b'] = scores['B'] = letter_score_b;
     scores['c'] = scores['C'] = letter_score_c;
@@ -96,7 +96,7 @@ constexpr letter_counts scrabble_scores()
     return scores;
 }
 
-constexpr letter_counts wwf_scores()
+constexpr letter_values wwf_scores()
 {
     constexpr auto letter_score_a = 1;
     constexpr auto letter_score_b = 4;
@@ -125,7 +125,7 @@ constexpr letter_counts wwf_scores()
     constexpr auto letter_score_y = 3;
     constexpr auto letter_score_z = 10;
 
-    letter_counts scores{};
+    letter_values scores{};
     scores['a'] = scores['A'] = letter_score_a;
     scores['b'] = scores['B'] = letter_score_b;
     scores['c'] = scores['C'] = letter_score_c;
@@ -157,9 +157,10 @@ constexpr letter_counts wwf_scores()
 }
 
 struct search_state {
-    letter_counts rack{};
-    vector<char> word;
-    vector<pair<string, int>> finds;
+    letter_values const letter_scores;
+    letter_values rack{};
+    vector<char> word{};
+    vector<pair<string, int>> finds{};
 };
 
 void search(trie::edge_const_iterator first, trie::edge_const_iterator last,
@@ -186,7 +187,7 @@ void search(trie::edge_const_iterator first, trie::edge_const_iterator last,
     for_each(first, last, [&](auto const& edge) {
         state.word.push_back(edge);
         recurse(edge.get_next(), state.rack[edge], state,
-                score+scrabble_scores()[edge]);
+                score+state.letter_scores[edge]);
         recurse(edge.get_next(), state.rack['?'], state, score);
         state.word.pop_back();
     });
@@ -210,9 +211,9 @@ void refine_results(vector<pair<string, int>>& finds)
     });
 }
 
-auto solve(trie const& lexicon, string_view letters)
+auto solve(trie const& lexicon, letter_values const& letter_scores, string_view letters)
 {
-    search_state state;
+    search_state state{letter_scores};
 
     fill(begin(state.rack), end(state.rack), 0);
     for (auto letter : letters) {
@@ -295,7 +296,7 @@ int main(int argc, char const* const* argv)
 
     auto const lexicon{get_lexicon(min_length, letters.size())};
 
-    auto finds{solve(lexicon, letters)};
+    auto finds{solve(lexicon, wwf_scores(), letters)};
 
     for (auto const& find : finds) {
         puts(find.first.c_str());

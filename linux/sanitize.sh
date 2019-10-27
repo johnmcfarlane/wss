@@ -14,6 +14,6 @@ cmake \
   "${PROJECT_DIR}"
 cmake --build . -- --jobs ${NUM_CPUS}
 
-./scrabble abcdefghijklmnopqrstuvwxyz? --min-length 8 > /dev/null
+./rack abcdefghijklmnopqrstuvwxyz? --min-length 8 > /dev/null
 
 echo success

@@ -12,10 +12,10 @@ cmake --build .
 
 ## Invocation
 
-Produces all words of 3 or more letters in descending order of scrabble score.
+Produces all words of 3 or more letters in descending order of Scrabble score.
 Words must contain no more than one of each of *a*, *b*, *c* and any additional
 letter.
 
 ```sh
-./scrabble --min-length 3 abc?
+./rack --min-length 3 abc?
 ```
