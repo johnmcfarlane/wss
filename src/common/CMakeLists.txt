@@ -1,0 +1,5 @@
+add_library(common trie.cpp words.cpp)
+target_compile_options(common PUBLIC "-Werror" "-Wall" "-Wextra" "-Wpedantic")
+set_target_properties(common PROPERTIES CXX_STANDARD 17)
+target_link_libraries(common "${CONAN_LIBS}")
+target_include_directories(common INTERFACE "${CMAKE_CURRENT_LIST_DIR}")

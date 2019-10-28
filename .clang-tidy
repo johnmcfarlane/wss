@@ -1,12 +1,13 @@
 ---
 Checks: >
   *,
+  -android-cloexec-fopen,
   -bugprone-exception-escape,
   -fuchsia-*,
   -google-runtime-references,
-WarningsAsErrors: '*'
-HeaderFilterRegex: '*'
-AnalyzeTemporaryDtors: false
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+AnalyzeTemporaryDtors: true
 FormatStyle:     none
 CheckOptions:
   - key:             cert-dcl16-c.NewSuffixes

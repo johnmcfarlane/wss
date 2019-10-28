@@ -2,18 +2,13 @@
 
 # run in build directory to perform dynamic analysis
 
-set -e
+set -ex
 
 PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
-NUM_CPUS=$(nproc)
 
-"${PROJECT_DIR}/linux/init-build-dir.sh"
-cmake \
-  -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
-  -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fsanitize-undefined-trap-on-error" \
-  "${PROJECT_DIR}"
-cmake --build . -- --jobs ${NUM_CPUS}
+"${PROJECT_DIR}/linux/config-cmake.sh" \
+  -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fsanitize-undefined-trap-on-error -DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
 
-./rack abcdefghijklmnopqrstuvwxyz? --min-length 8 > /dev/null
+LSAN_OPTIONS=verbosity=1:log_threads=1
 
-echo success
+"${PROJECT_DIR}/linux/test.sh"

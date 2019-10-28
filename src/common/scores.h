@@ -1,41 +1,14 @@
-#include "trie.h"
-#include "words.h"
+//
+// Created by john on 27/10/2019.
+//
 
-#include <clara.hpp>
-#include <fmt/printf.h>
+#ifndef WSS_SCORES_H
+#define WSS_SCORES_H
 
-#include <algorithm>
 #include <array>
-#include <cassert>
-#include <cstdlib>
-#include <cstdlib>
-#include <experimental/string_view>
-#include <iterator>
 #include <limits>
-#include <numeric>
-#include <string>
-#include <vector>
 
-using std::array;
-using std::begin;
-using std::end;
-using std::experimental::string_view;
-using std::fill;
-using std::for_each;
-using std::numeric_limits;
-using std::pair;
-using std::string;
-using std::tie;
-using std::unique;
-using std::vector;
-
-using letter_values = array<int, numeric_limits<char>::max()+1>;
-
-template<typename Container>
-inline auto ssize(Container&& c)
-{
-    return std::ptrdiff_t(c.size());
-}
+using letter_values = std::array<int, std::numeric_limits<char>::max()+1>;
 
 constexpr letter_values scrabble_scores()
 {
@@ -156,149 +129,4 @@ constexpr letter_values wwf_scores()
     return scores;
 }
 
-struct search_state {
-    letter_values const letter_scores;
-    letter_values rack{};
-    vector<char> word{};
-    vector<pair<string, int>> finds{};
-};
-
-void search(trie::edge_const_iterator first, trie::edge_const_iterator last,
-        search_state& state, int score) noexcept
-{
-    auto const recurse{
-            [&](node const& n, int& counter, search_state& state,
-                    int score) noexcept {
-                if (counter==0) {
-                    return;
-                }
-
-                if (n.is_terminator) {
-                    state.finds.emplace_back(
-                            string{begin(state.word), end(state.word)},
-                            score);
-                }
-
-                --counter;
-                ::search(begin(n), end(n), state, score);
-                ++counter;
-            }};
-
-    for_each(first, last, [&](auto const& edge) {
-        state.word.push_back(edge);
-        recurse(edge.get_next(), state.rack[edge], state,
-                score+state.letter_scores[edge]);
-        recurse(edge.get_next(), state.rack['?'], state, score);
-        state.word.pop_back();
-    });
-}
-
-void refine_results(vector<pair<string, int>>& finds)
-{
-    // group by words, highest-scoring first
-    sort(begin(finds), end(finds), [](auto a, auto b) {
-        return tie(a.first, b.second)<tie(b.first, a.second);
-    });
-
-    // eliminate lower-scoring entries with the same word
-    finds.erase(unique(begin(finds), end(finds), [](auto a, auto b) {
-        return a.first==b.first;
-    }), end(finds));
-
-    sort(begin(finds), end(finds), [](auto a, auto b) {
-        return tie(b.second, a.first)
-                <tie(a.second, b.first);
-    });
-}
-
-auto solve(trie const& lexicon, letter_values const& letter_scores, string_view letters)
-{
-    search_state state{letter_scores};
-
-    fill(begin(state.rack), end(state.rack), 0);
-    for (auto letter : letters) {
-        ++state.rack[letter];
-    }
-
-    state.word.reserve(letters.size());
-
-    search(begin(lexicon), end(lexicon), state, 0);
-
-    refine_results(state.finds);
-    return move(state.finds);
-}
-
-auto get_lexicon(int min_letters, int max_letters)
-{
-    trie lexicon;
-
-    for (auto word_ptr : words) {
-        auto word{std::string{word_ptr}};
-
-        if (ssize(word)<min_letters) {
-            continue;
-        }
-
-        if (ssize(word)>max_letters) {
-            continue;
-        }
-
-        lexicon.insert(word);
-    }
-
-    return lexicon;
-}
-
-int main(int argc, char const* const* argv)
-{
-    using clara::Arg;
-    using clara::Args;
-    using clara::Help;
-    using clara::Opt;
-
-    auto help{false};
-    auto min_length{2};
-    auto letters{string{}};
-    auto cli{
-            Opt(min_length, "minimum length")["-n"]["--min-length"](
-                    "minimum number of letters in words suggested")
-                    | Arg(letters, "letters")(
-                            "Letter \"rack\" including wildcards as '?'")
-                    | Help(help)};
-    auto result = cli.parse(Args(argc, argv));
-
-    if (!result) {
-        fmt::fprintf(stderr, "Error in command line: %s\n",
-                result.errorMessage().c_str());
-        return EXIT_FAILURE;
-    }
-
-    if (help) {
-        fmt::printf("wss scrabble word suggester\n"
-                    "(C)2019 John McFarlane\n\n"
-                    "-n, --min-length   minimum word length for suggestions\n");
-        return EXIT_FAILURE;
-    }
-
-    if (letters.empty()) {
-        fmt::fprintf(stderr, "Please provide a 'rack' of letters\n");
-        return EXIT_FAILURE;
-    }
-
-    if (min_length>ssize(letters)) {
-        fmt::fprintf(stderr,
-                "Too few letters, %zd, to achieve minimum word length, %d\n",
-                letters.size(), min_length);
-        return EXIT_FAILURE;
-    }
-
-    transform(begin(letters), end(letters), begin(letters), tolower);
-
-    auto const lexicon{get_lexicon(min_length, letters.size())};
-
-    auto finds{solve(lexicon, wwf_scores(), letters)};
-
-    for (auto const& find : finds) {
-        puts(find.first.c_str());
-    };
-}
+#endif //WSS_SCORES_H
