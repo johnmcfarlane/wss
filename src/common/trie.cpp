@@ -7,7 +7,7 @@
 namespace {
     using std::begin;
     using std::end;
-    using std::experimental::string_view;
+    using std::string_view;
 
     auto find(node& n, char l)
     {
@@ -79,14 +79,8 @@ trie::size_type trie::size() const
     return count;
 }
 
-trie::edge_const_iterator trie::begin() const
-{
-    return std::begin(root.edges);
-}
-
-trie::edge_const_iterator trie::end() const
-{
-    return std::end(root.edges);
+node const& trie::root_node() const {
+    return root;
 }
 
 void trie::insert(string_view word)

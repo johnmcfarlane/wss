@@ -1,7 +1,9 @@
 #ifndef WSS_TRIE_H
 #define WSS_TRIE_H
 
-#include <experimental/string_view>
+#include <gsl/gsl_assert>
+
+#include <string_view>
 #include <memory>
 #include <vector>
 
@@ -28,6 +30,8 @@ struct node {
 
 class edge {
 public:
+    edge(edge const&) { Expects(false); }
+    edge(edge&& that) = default;
     edge(char l, std::unique_ptr<node> n);
 
     operator char() const;
@@ -42,7 +46,7 @@ private:
 };
 
 class trie {
-    using string_view = std::experimental::string_view;
+    using string_view = std::string_view;
 
 public:
     using size_type = std::ptrdiff_t;
@@ -50,9 +54,19 @@ public:
     class edge_const_iterator {
         using const_iterator = node::edge_vector::const_iterator;
     public:
+        using difference_type = const_iterator::difference_type;
+        using value_type = const_iterator::value_type;
+        using pointer = const_iterator::pointer;
+        using reference = const_iterator::reference;
+        using iterator_category = const_iterator::iterator_category;
+
         edge_const_iterator(const_iterator i)
                 :pos(i) { }
 
+        friend auto operator==(edge_const_iterator a, edge_const_iterator b)
+        {
+            return a.pos==b.pos;
+        }
         friend auto operator!=(edge_const_iterator a, edge_const_iterator b)
         {
             return a.pos!=b.pos;
@@ -63,10 +77,19 @@ public:
             ++that.pos;
             return that;
         }
+        friend auto operator-(
+                edge_const_iterator& lhs, edge_const_iterator& rhs)
+        {
+            return lhs.pos-rhs.pos;
+        }
 
         friend auto& operator*(edge_const_iterator const& that)
         {
-            return *that.pos;
+            return that.pos.operator*();
+        }
+        auto* operator->() const
+        {
+            return pos.operator->();
         }
 
     private:
@@ -82,10 +105,8 @@ public:
     ~trie();
 
     size_type size() const;
-
-    edge_const_iterator begin() const;
-
-    edge_const_iterator end() const;
+    
+    node const& root_node() const;
 
     void insert(string_view word);
 

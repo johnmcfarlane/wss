@@ -19,3 +19,6 @@ letter.
 ```sh
 ./rack --min-length 3 abc?
 ```
+
+Blanks can be represented by underscure (`_`). They are the same as wildcards
+(`?`) except that they have a score of zero.

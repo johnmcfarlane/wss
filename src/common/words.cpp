@@ -3,6 +3,7 @@
 #include <array>
 
 namespace {
+#if 1
 constexpr auto num_words{178691};
 std::array<char const*, num_words> word_literals
 {
@@ -178698,6 +178699,13 @@ std::array<char const*, num_words> word_literals
     "zyzzyvas",
     "zzz"
 };
+#else
+constexpr auto num_words{1};
+std::array<char const*, num_words> word_literals
+{
+    "zaps"
+};
+#endif
 }  // namespace
 
 gsl::span<char const*> const words{word_literals};
