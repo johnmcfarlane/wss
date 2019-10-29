@@ -6,6 +6,27 @@ general:
       - gh-pages
 
 jobs:
+  "coverage-gcc":
+    docker:
+      - image: ubuntu:19.10
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run coverage
+          command: bash -c /root/project/linux/coverage.sh
+      - store_artifacts:
+          path: /tmp/coverage-report
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "analyze-gcc":
     docker:
       - image: gcc:latest
@@ -107,6 +128,7 @@ workflows:
   version: 2
   test:
     jobs:
+      - "coverage-gcc"
       - "analyze-gcc"
       - "clang-tidy-gcc"
       - "sanitize-gcc"
