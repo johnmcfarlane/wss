@@ -5,7 +5,6 @@
 
 #include <scores.h>
 #include <trie.h>
-#include <words.h>
 
 #include <clara.hpp>
 #include <fmt/printf.h>
@@ -351,7 +350,7 @@ namespace {
                     state.start[0]!=state.board_tiles.size();
                     ++state.start[0]) {
                 state.pos = state.start;
-                //search(lexicon, state, {1, 0});
+                search(lexicon, state, {1, 0});
                 search(lexicon, state, {0, 1});
             }
         }
@@ -360,26 +359,6 @@ namespace {
         return move(state.finds);
     }
 
-    auto get_lexicon(int min_letters, int max_letters)
-    {
-        trie lexicon;
-
-        for (auto word_ptr : words) {
-            auto word{std::string{word_ptr}};
-
-            if (ssize(word)<min_letters) {
-                continue;
-            }
-
-            if (ssize(word)>max_letters) {
-                continue;
-            }
-
-            lexicon.insert(word);
-        }
-
-        return lexicon;
-    }
 }  // namespace
 
 int main(int argc, char const* const* argv)
@@ -391,14 +370,17 @@ int main(int argc, char const* const* argv)
 
     auto help{false};
     auto min_length{2};
-    auto premiums_filename{string{}};
+    auto lexicon_filename{string{}};
     auto board_filename{string{}};
+    auto premiums_filename{string{}};
     auto letters{string{}};
     auto cli{
             Opt(min_length, "minimum length")["-n"]["--min-length"](
                     "minimum number of letters in words suggested")
                     | Arg(letters, "letters")(
                             "Letter \"rack\" including wildcards as '?'")
+                    | Arg(lexicon_filename, "lexicon")(
+                            "text file containing list of words")
                     | Arg(board_filename, "board")(
                             "CSV file containing played letters")
                     | Arg(premiums_filename, "premiums")(
@@ -443,8 +425,15 @@ int main(int argc, char const* const* argv)
 
     auto const board_tiles{load_board_tiles(board_filename)};
     if (!board_tiles) {
-        fmt::print(stderr, "error: failed to load board files from {}\n",
+        fmt::print(stderr, "error: failed to load board tiles from {}\n",
                 board_filename);
+        return EXIT_FAILURE;
+    }
+
+    auto const lexicon{load_lexicon(lexicon_filename, min_length, ssize(*board_tiles))};
+    if (!lexicon) {
+        fmt::print(stderr, "error: failed to lexicon from {}\n",
+                lexicon_filename);
         return EXIT_FAILURE;
     }
 
@@ -460,10 +449,8 @@ int main(int argc, char const* const* argv)
         }
     }
 
-    auto const lexicon{get_lexicon(min_length, ssize(*board_tiles))};
-
     auto finds{
-            solve(lexicon, wwf_scores(), letters, *board_tiles,
+            solve(*lexicon, wwf_scores(), letters, *board_tiles,
                     *board_premiums)};
 
     for (auto const& find : finds) {

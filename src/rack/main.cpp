@@ -2,7 +2,6 @@
 #include <ssize.h>
 #include <tile.h>
 #include <trie.h>
-#include <words.h>
 
 #include <clara.hpp>
 #include <fmt/printf.h>
@@ -101,27 +100,6 @@ auto solve(trie const& lexicon, letter_values const& letter_scores,
     return move(state.finds);
 }
 
-auto get_lexicon(int min_letters, int max_letters)
-{
-    trie lexicon;
-
-    for (auto word_ptr : words) {
-        auto word{std::string{word_ptr}};
-
-        if (ssize(word)<min_letters) {
-            continue;
-        }
-
-        if (ssize(word)>max_letters) {
-            continue;
-        }
-
-        lexicon.insert(word);
-    }
-
-    return lexicon;
-}
-
 int main(int argc, char const* const* argv)
 {
     using clara::Arg;
@@ -131,12 +109,15 @@ int main(int argc, char const* const* argv)
 
     auto help{false};
     auto min_length{2};
+    auto lexicon_filename{string{}};
     auto letters{string{}};
     auto cli{
             Opt(min_length, "minimum length")["-n"]["--min-length"](
                     "minimum number of letters in words suggested")
                     | Arg(letters, "letters")(
                             "Letter \"rack\" including wildcards as '?'")
+                    | Arg(lexicon_filename, "lexicon")(
+                            "text file containing list of words")
                     | Help(help)};
     auto result = cli.parse(Args(argc, argv));
 
@@ -169,9 +150,14 @@ int main(int argc, char const* const* argv)
 
     transform(begin(letters), end(letters), begin(letters), tolower);
 
-    auto const lexicon{get_lexicon(min_length, letters.size())};
+    auto const lexicon{load_lexicon(lexicon_filename, min_length, ssize(letters))};
+    if (!lexicon) {
+        fmt::print(stderr, "error: failed to lexicon from {}\n",
+                lexicon_filename);
+        return EXIT_FAILURE;
+    }
 
-    auto finds{solve(lexicon, wwf_scores(), letters)};
+    auto finds{solve(*lexicon, wwf_scores(), letters)};
 
     for (auto const& find : finds) {
         puts(find.first.c_str());
