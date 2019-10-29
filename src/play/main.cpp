@@ -310,16 +310,6 @@ namespace {
 
     void refine_results(std::vector<result>& finds)
     {
-        // group by words, highest-scoring first
-        sort(begin(finds), end(finds), [](auto a, auto b) {
-            return tie(a.word, b.score)<tie(b.word, a.score);
-        });
-
-        // eliminate lower-scoring entries with the same word
-        finds.erase(std::unique(begin(finds), end(finds), [](auto a, auto b) {
-            return a.word==b.word;
-        }), end(finds));
-
         sort(begin(finds), end(finds), [](auto a, auto b) {
             return tie(b.score, a.word)
                     <tie(a.score, b.word);
