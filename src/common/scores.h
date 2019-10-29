@@ -91,7 +91,7 @@ constexpr letter_values wwf_scores()
     constexpr auto letter_score_r = 1;
     constexpr auto letter_score_s = 1;
     constexpr auto letter_score_t = 1;
-    constexpr auto letter_score_u = 1;
+    constexpr auto letter_score_u = 2;
     constexpr auto letter_score_v = 5;
     constexpr auto letter_score_w = 4;
     constexpr auto letter_score_x = 8;

@@ -36,6 +36,9 @@ run_acceptance_test "play/game3/7"
 run_acceptance_test "play/game3/8"
 run_acceptance_test "play/game3/9"
 
+run_acceptance_test "play/game4/1"
+run_acceptance_test "play/game4/2"
+
 run_acceptance_test "rack/1"
 
 echo Tests passed
