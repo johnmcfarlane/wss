@@ -3,6 +3,7 @@
 
 #include <gsl/gsl_assert>
 
+#include <optional>
 #include <string_view>
 #include <memory>
 #include <vector>
@@ -115,5 +116,8 @@ private:
     node root;
     size_type count = 0;
 };
+
+auto load_lexicon(std::string_view filename, int min_letters, int max_letters)
+-> std::optional<trie>;
 
 #endif //WSS_TRIE_H
