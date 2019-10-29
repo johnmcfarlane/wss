@@ -11,4 +11,4 @@ PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
 
 LSAN_OPTIONS=verbosity=1:log_threads=1
 
-"${PROJECT_DIR}/linux/acceptance_tests.sh"
+"${PROJECT_DIR}/linux/run-acceptance-tests.sh"
