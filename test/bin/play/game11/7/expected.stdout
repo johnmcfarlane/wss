@@ -1,23 +1,19 @@
- 44  7,1  - EXEc
- 43  2,11 - MEWl
- 43  4,8  | MaW
- 43  4,8  | MoW
+ 42  4,8  | MaW
+ 42  4,8  | MoW
  42  2,11 - WaME
  42  3,11 - aXE
- 37  4,8  | MaE
+ 41  2,11 - MEWl
+ 40  7,1  - EXEc
+ 36  4,8  | MaE
  35  7,6  | AXE
  35  4,8  - QOPh
- 35  7,5  - bEMIX
- 34  7,6  | AXe
- 34  2,11 - WEEl
+ 33  7,6  | AXe
  33  3,11 - EME
  33  3,11 - EWE
  33  2,11 - MEmE
  33  2,11 - MErE
  33  2,11 - MEtE
  33  2,11 - MEzE
- 33  4,8  | Ma
- 33  4,8  | Mo
  33  3,11 - WEE
  33  2,11 - WErE
  33  2,11 - WhEE
@@ -29,12 +25,12 @@
  33  2,11 - sEME
  33  2,11 - tWEE
  32  7,5  | MAX
+ 32  4,8  | Ma
+ 32  4,8  | Mo
  32  7,5  | WAX
- 31  3,11 - MEl
- 30  3,11 - EMe
- 30  3,11 - EWe
+ 32  2,11 - WEEl
+ 31  7,5  - bEMIX
  30  3,11 - MaE
- 30  3,11 - WEe
  30  3,11 - WaE
  30  3,11 - WeE
  30  3,11 - WoE
@@ -43,9 +39,11 @@
  30  3,11 - eME
  30  3,11 - eWE
  30  3,11 - oWE
- 29  7,6  | AgEE
+ 29  3,11 - EMe
+ 29  3,11 - EWe
+ 29  3,11 - MEl
+ 29  3,11 - WEe
  28  7,6  | AX
- 28  7,3  | SEWAgE
  28  5,7  - ZAX
  28  7,5  | fAX
  28  7,5  | lAX
@@ -56,34 +54,26 @@
  28  7,5  | tAX
  28  7,5  | wAX
  28  7,5  | zAX
- 27  7,6  | AxE
  27  8,6  | DEX
  27  8,6  | DEXy
  27  7,9  | WEB
+ 26  7,6  | AgEE
  26  8,6  | DeX
  26  9,1  | EMU
- 26  7,5  | MAgE
  26  9,5  - MIX
- 26  7,5  | WAgE
- 26  7,9  | WeB
- 26  7,5  - nEWIE
- 25  9,5  | MEtE
- 24  7,5  | MAx
- 24  9,5  | MEt
- 24  7,5  | WAx
- 23  7,6  | ApE
+ 25  7,3  | SEWAgE
+ 25  7,9  | WeB
+ 24  7,5  - nEWIE
+ 23  7,5  | MAgE
+ 23  9,5  | MEtE
+ 23  7,5  | WAgE
  23  9,1  | aMU
  23 11,1  | aXLE
  23  9,1  | eMU
- 22  7,6  | AgE
- 22  3,11 - EEl
  22  8,5  - EMIc
  22  8,5  - EMIr
  22  8,5  - EMIt
- 22  6,2  - Qi
- 22 11,1  | WyLE
- 22  8,5  - aMIE
- 21  7,5  | EAsE
+ 22  9,5  | MEt
  21  3,11 - EkE
  21  3,11 - EmE
  21  3,11 - ErE
@@ -91,8 +81,9 @@
  21  3,11 - EwE
  21  3,11 - EyE
  21  9,9  - QaT
+ 21  6,2  - Qi
  21  9,9  | QiS
- 21  8,5  - aMI
+ 21  8,5  - aMIE
  21  3,11 - bEE
  21  3,11 - cEE
  21  3,11 - dEE
@@ -108,31 +99,27 @@
  21  3,11 - vEE
  21  3,11 - wEE
  21  3,11 - zEE
- 20  7,6  | Ax
+ 20  7,5  | EAsE
  20 10,9  | EEK
+ 20  3,11 - EEl
  20  2,9  - EXiNE
- 20  7,5  | MAp
  20  4,11 - ME
- 20 11,1  | MiLE
- 20  7,5  | WAp
  20  4,11 - WE
  20  4,2  - WaME
- 20 11,1  | WiLE
- 20  5,7  - ZAx
+ 20  8,5  - aMI
  20  5,2  - aXE
- 19  5,10 - ARaME
+ 19  7,6  | AgE
+ 19  7,6  | ApE
+ 19  7,6  | AxE
  19  9,8  | EXES
- 19  7,5  | MAg
- 19  4,11 - Me
+ 19 11,1  | MiLE
  19  5,9  - NEXt
- 19  7,5  | WAg
- 19  4,11 - We
- 19  6,2  - Xu
- 19  7,9  | wEB
+ 19 11,1  | WiLE
+ 19 11,1  | WyLE
+ 18  5,10 - ARaME
  18  8,1  | EXCEeD
  18  9,8  | EXeS
  18  8,9  - EXiT
- 18 10,9  | EeK
  18  9,5  | ME
  18  9,5  - MI
  18  9,5  - MIb
@@ -149,36 +136,40 @@
  18  4,8  - MOPEr
  18  4,8  - MOPEs
  18  4,8  - MOPEy
+ 18  4,11 - Me
  18  9,5  - WIg
  18  9,5  - WIn
  18  9,5  - WIs
  18  9,5  - WIt
  18  9,5  - WIz
- 18  6,2  - Xi
+ 18  4,11 - We
  18  9,8  | aXES
- 18 10,9  | eEK
  18  8,1  | eXCEED
  18  9,8  | eXES
- 18  9,5  - fIX
- 18  9,5  - mIX
  18  9,8  | oXES
- 17  7,9  | EbB
- 17  4,11 - El
- 17  7,5  | MAs
  17 11,1  | MEL
  17  4,8  - MOP
  17  4,8  - MOPe
  17  4,8  - MOPs
  17  4,8  - MOPy
- 17  7,5  | WAs
  17  4,8  - WOPs
+ 17  6,2  - Xi
  17  9,9  | XiS
+ 17  6,2  - Xu
+ 17 10,9  | eEK
  17  3,8  - sWOP
  16  8,6  | DEME
  16  8,5  | EDEMa
  16  8,1  | EXCeED
- 16 11,1  | MeL
- 16 11,1  | MiL
+ 16 10,9  | EeK
+ 16  7,5  | MAg
+ 16  7,5  | MAp
+ 16  7,5  | MAs
+ 16  7,5  | MAx
+ 16  7,5  | WAg
+ 16  7,5  | WAp
+ 16  7,5  | WAs
+ 16  7,5  | WAx
  16  4,11 - aE
  16  4,11 - bE
  16  4,11 - dE
@@ -191,7 +182,6 @@
  16  1,10 - rEWEAR
  16  4,11 - wE
  16  4,11 - yE
- 15  7,6  | Ag
  15  8,6  | DEMe
  15  8,6  | DEMo
  15  8,6  | DEMy
@@ -202,13 +192,11 @@
  15  8,6  | DeME
  15  8,6  | DiME
  15  8,6  | DoME
- 15  4,2  - EMEu
- 15  9,6  | EtWEES
- 15  5,7  - ZAg
+ 15  4,11 - El
+ 15 11,1  | MeL
+ 15 11,1  | MiL
  15  5,7  | ZONAE
- 15  4,9  | aWE
  15  8,5  | iDEM
- 15  4,9  | oWE
  14  8,6  | DaM
  14  8,6  | DaW
  14  8,6  | DeW
@@ -219,21 +207,18 @@
  14  5,2  - EME
  14  2,10 - EMbAR
  14  5,2  - EWE
- 14  9,1  | EmU
  14  4,2  - MEmE
  14  8,8  | MEmO
  14  8,8  | MEnO
  14  4,2  - MErE
  14  4,2  - MEtE
  14  4,2  - MEzE
- 14  9,2  - MOa
  14  5,2  - WEE
  14  4,2  - WErE
  14  4,2  - WhEE
  14  5,7  | ZONAe
  14  5,7  | ZONAl
- 14  4,9  | aM
- 14  4,9  | aW
+ 14  4,9  | aWE
  14  4,2  - aWEE
  14  4,2  - dEME
  14  2,10 - dEWAR
@@ -241,144 +226,144 @@
  14  4,2  - fEME
  14  4,2  - hEME
  14  4,2  - mEME
- 14  9,5  - mIM
- 14  9,5  - nIX
- 14  4,9  | oM
- 14  4,9  | oW
+ 14  4,9  | oWE
  14  4,2  - sEME
  14  2,10 - sEWAR
  14  2,10 - sMEAR
  14  2,10 - sWEAR
  14  4,2  - tWEE
- 13  7,6  | As
- 13  5,2  - EMu
+ 13  4,2  - EMEu
+ 13  7,9  | EbB
+ 13  9,6  | EtWEES
  13  7,5  - ME
+ 13  9,2  - MOa
  13  8,9  - MiXT
  13  5,9  - NEWiE
- 13  5,7  - ZAs
+ 13  4,9  | aM
+ 13  4,9  | aW
  13  9,8  | cWMS
+ 13  4,9  | oM
+ 13  4,9  | oW
+ 12  7,6  | Ag
+ 12  7,6  | As
+ 12  7,6  | Ax
  12  8,1  | EMCeED
- 12  5,2  - EMe
  12  4,9  - ENEMa
  12  4,9  - ENEMy
- 12  5,2  - EWe
  12  4,10 | EX
  12  8,8  | EXpO
- 12  7,8  | Et
  12  6,2  - ME
  12  8,10 - ME
- 12  7,5  - Ma
  12  5,2  - MaE
- 12  7,5  - Me
- 12  7,5  - Mi
- 12  7,5  - Mo
- 12  8,10 - Mu
  12  5,9  - NEWEl
  12  5,9  - NEWEr
- 12  6,4  - Qi
  12  6,2  - WE
  12  8,10 - WE
- 12  5,2  - WEe
  12  5,2  - WaE
  12  5,2  - WeE
  12  5,2  - WoE
  12  5,2  - WyE
+ 12  5,7  - ZAg
+ 12  5,7  - ZAs
+ 12  5,7  - ZAx
  12  5,2  - aWE
  12  5,2  - eME
  12  5,2  - eWE
- 12  9,5  - hIM
  12  5,2  - oWE
  12  3,9  - rENEW
  11  9,8  | EMES
+ 11  5,2  - EMe
+ 11  5,2  - EMu
  11  9,8  | EWES
- 11  4,10 - MARa
+ 11  5,2  - EWe
  11  4,10 | ME
  11  9,8  | MEWS
  11  2,8  - MEtOPE
  11  9,2  - MO
  11  9,2  | MU
- 11  8,10 - Ma
+ 11  7,5  - Ma
  11  8,1  | MaCE
  11  3,9  - MaNE
- 11  8,10 - Me
- 11  8,10 - Mi
+ 11  7,5  - Me
+ 11  7,5  - Mi
  11  8,1  | MiCE
  11  3,9  - MiNE
- 11  8,10 - Mo
- 11  6,2  - Mu
+ 11  7,5  - Mo
  11  5,9  - NEMa
  11  5,9  - NEW
  11  5,9  - NEWs
  11  5,9  - NEWt
+ 11  6,4  - Qi
  11  7,1  | QiS
  11  4,10 | WE
+ 11  5,2  - WEe
  11  3,9  - WaNE
- 11  8,10 - We
  11  3,9  - WiNE
- 11  8,10 - Wo
  11  4,9  - aNEW
  11 11,1  | aWL
- 11  4,10 | eX
- 11  9,5  - fIE
  11  4,9  - kNEW
  11  8,9  - nEXT
  11 11,1  | oWL
- 11  4,10 | oX
  11  8,9  - sEXT
  11  8,9  - tEXT
  11  8,9  - vEXT
+ 11  7,9  | wEB
  10  8,6  | DEEM
  10  9,8  | EMeS
  10  8,9  - EMiT
  10  9,8  | EMuS
  10  9,8  | EWeS
+ 10  9,1  | EmU
+ 10  7,8  | Et
+ 10  4,10 - MARa
  10  9,9  - MET
- 10  6,2  - Ma
  10  4,10 | Ma
- 10  6,2  - Me
+ 10  8,10 - Ma
  10  4,10 | Me
- 10  6,2  - Mi
+ 10  8,10 - Me
  10  4,10 | Mi
+ 10  8,10 - Mi
  10  4,10 | Mm
- 10  6,2  - Mo
  10  4,10 | Mo
+ 10  8,10 - Mo
  10  4,10 | Mu
+ 10  8,10 - Mu
  10  4,10 | My
  10  3,8  - MyOPE
  10  2,9  - WEENEd
  10  9,9  - WET
- 10  6,2  - We
  10  4,10 | We
- 10  6,2  - Wo
+ 10  8,10 - We
  10  4,10 | Wo
- 10  6,4  - Xi
+ 10  8,10 - Wo
  10  8,5  | aDEEM
  10  9,8  | aWES
- 10  9,5  | bE
- 10  9,5  - bI
  10 10,1  | cOLDISH
- 10  9,5  - dIM
  10  9,8  | eMES
  10  9,8  | eWES
- 10  9,2  | hUE
- 10  9,5  | mE
- 10  9,5  - mI
- 10  4,10 | mM
- 10  9,5  - nIM
+ 10  4,10 | eX
+ 10  9,5  - fIX
+ 10  9,5  - mIX
+ 10  9,5  - nIX
  10  9,8  | oWES
+ 10  4,10 | oX
   9  8,6  | DeEM
   9  8,6  | DrEW
-  9 11,3  | LEd
   9  2,9  - MEsNE
+  9  6,2  - Ma
   9  9,9  | MaS
   9  9,9  - MaT
   9  9,8  | MaWS
+  9  6,2  - Me
   9  9,9  - MeT
   9  9,8  | MeWS
+  9  6,2  - Mi
   9  9,9  | MiS
+  9  6,2  - Mo
   9  9,9  | MoS
   9  9,9  - MoT
   9  9,8  | MoWS
+  9  6,2  - Mu
   9  9,9  | MuS
   9  9,9  - MuT
   9  5,9  - NEEM
@@ -386,19 +371,17 @@
   9  5,9  - NEuME
   9  9,9  | WaS
   9  9,9  - WaT
+  9  6,2  - We
   9  9,9  - WeT
   9  3,8  - WhOP
   9  9,9  | WiS
   9  9,9  - WiT
+  9  6,2  - Wo
   9  9,9  | WoS
   9  9,9  - WoT
+  9  6,4  - Xi
   9  7,1  | XiS
-  9  7,5  - bE
   9 11,1  | dELE
-  9  9,2  | dUE
-  9  7,5  - fE
-  9  9,5  - hIE
-  9  7,5  - mE
   9  8,9  | oXO
   9 11,1  | pELE
   9 11,1  | tELE
@@ -406,8 +389,6 @@
   8  8,2  | EChED
   8 11,1  | EEL
   8  4,10 | EM
-  8 11,3  | LEs
-  8 11,3  | LEt
   8  8,9  - MEET
   8  8,1  | MaC
   8  8,1  | MiC
@@ -415,29 +396,17 @@
   8  8,1  | MyC
   8  9,8  | WEES
   8  8,9  - WEET
-  8  4,9  | aE
-  8  9,5  - aIM
-  8  8,10 - bE
-  8  7,5  - hE
-  8  9,5  | hE
-  8  9,5  - hI
-  8  8,10 - mE
-  8  4,9  | oE
   8  7,1  | pESEWA
-  8  9,5  - rIM
-  8  9,2  | sUE
-  8  8,10 - wE
-  8  7,5  - yE
   7  8,3  | CoED
   7  8,3  | CrED
   7  8,3  | CuED
   7  8,6  | DEeM
   7  8,6  | DErM
   7  9,9  | EMS
-  7 11,1  | EeL
   7  3,8  - ElOPE
-  7  9,6  | Es
-  7  9,6  | Et
+  7 11,3  | LEd
+  7 11,3  | LEs
+  7 11,3  | LEt
   7  8,9  - MEaT
   7  9,8  | MEdS
   7  8,9  - MEeT
@@ -463,36 +432,26 @@
   7  8,9  - WEsT
   7  9,8  | WEtS
   7  8,2  | aCE
-  7  4,10 | bE
+  7  4,9  | aE
   7  9,8  | dEWS
-  7  9,5  - dIE
-  7  4,10 | eM
-  7  4,10 | fE
+  7  9,2  | dUE
   7  9,8  | fEMS
   7  9,8  | gEMS
-  7  8,10 - hE
   7  9,8  | hEMS
   7  9,8  | hEWS
+  7  9,2  | hUE
   7  8,2  | iCE
   7  9,8  | jEWS
-  7  4,10 | mE
   7  9,8  | mEMS
   7  9,8  | mEWS
-  7  9,2  - mO
-  7  9,2  | mU
-  7  7,5  - nE
   7  9,8  | nEWS
   7  8,9  - nEWT
-  7  4,10 | oM
-  7  4,10 | oW
+  7  4,9  | oE
   7  9,8  | pEWS
   7  9,8  | rEMS
   7  9,8  | sEWS
-  7  9,7  - sHE
+  7  9,2  | sUE
   7  9,8  | tEWS
-  7  9,7  - tHE
-  7  4,10 | wE
-  7  8,10 - yE
   7  9,8  | yEWS
   6  8,6  | DEE
   6  8,6  | DEEd
@@ -504,6 +463,7 @@
   6  8,6  | DrEE
   6  8,5  | EDgE
   6  7,1  | EMS
+  6 11,1  | EeL
   6  5,2  - EkE
   6  9,8  | ElMS
   6  5,2  - EmE
@@ -518,9 +478,7 @@
   6  3,10 - MaAR
   6  9,8  | MaES
   6  8,9  - MeET
-  6  6,4  - Mi
   6  7,1  | MiSE
-  6  6,4  - Mo
   6  7,1  | MuSE
   6  5,8  - OPE
   6  5,8  - OPEd
@@ -537,58 +495,64 @@
   6  8,9  - WeET
   6  8,9  - WhET
   6  7,1  | WiSE
-  6  6,4  - Wo
   6  9,8  | WoES
   6  9,8  | WyES
-  6  7,5  - aE
+  6  9,5  - aIM
   6  5,2  - bEE
   6  5,2  - cEE
   6  4,8  - cOPE
-  6  8,10 - dE
   6  5,2  - dEE
   6  8,8  | dEMO
+  6  9,5  - dIM
   6  4,8  - dOPE
+  6  4,10 | eM
   6  5,2  - fEE
   6  5,2  - gEE
+  6  9,5  - hIM
   6  4,8  - hOPE
   6  5,2  - jEE
   6  5,2  - lEE
   6  4,8  - lOPE
   6  8,8  | mEMO
+  6  9,5  - mIM
+  6  4,10 | mM
   6  4,8  - mOPE
-  6  8,10 - nE
   6  5,2  - nEE
+  6  9,5  - nIM
   6  4,8  - nOPE
+  6  4,10 | oM
+  6  4,10 | oW
   6  7,1  | oWSE
   6  5,2  - pEE
   6  4,8  - pOPE
   6  5,2  - rEE
+  6  9,5  - rIM
   6  4,8  - rOPE
   6  5,2  - sEE
   6  5,2  - tEE
   6  4,8  - tOPE
   6  5,2  - vEE
   6  5,2  - wEE
-  6  4,10 | yE
   6  5,2  - zEE
   5  8,6  | DeE
   5  8,6  | DiE
-  5 10,4  - Do
   5  8,6  | DoE
   5  8,6  | DuE
   5  8,6  | DyE
   5  8,2  | ECu
   5 11,2  | EL
-  5  6,4  - Eh
   5  3,9  - ErNE
+  5  9,6  | Es
   5  3,9  - EsNE
+  5  9,6  | Et
   5  3,9  - EyNE
-  5 11,3  | Lo
   5  7,5  | MA
   5  8,10 | MO
   5  7,1  | MaS
   5  8,9  | MhO
+  5  6,4  - Mi
   5  7,1  | MiS
+  5  6,4  - Mo
   5  8,9  | MoO
   5  7,1  | MoS
   5  7,1  | MuS
@@ -604,8 +568,11 @@
   5  7,1  | WaS
   5  8,9  | WhO
   5  7,1  | WiS
+  5  6,4  - Wo
   5  8,9  | WoO
   5  7,1  | WoS
+  5  7,5  - aE
+  5  7,5  - bE
   5 11,1  | bEL
   5  4,8  - bOP
   5 11,1  | cEL
@@ -614,17 +581,19 @@
   5 11,1  | eEL
   5  7,1  | eMS
   5  9,9  | eMS
+  5  7,5  - fE
   5  4,8  - fOP
   5 11,1  | gEL
+  5  7,5  - hE
   5  4,8  - hOP
   5  7,2  | iSM
   5  4,9  - kNEE
   5  4,8  - kOP
   5  4,8  - lOP
+  5  7,5  - mE
   5 11,1  | mEL
   5  4,8  - mOP
-  5  9,2  - nO
-  5  9,2  | nU
+  5  7,5  - nE
   5  7,1  | oMS
   5  9,9  | oMS
   5  8,1  | pEC
@@ -632,15 +601,19 @@
   5  8,1  | rEC
   5  8,1  | sEC
   5 11,1  | sEL
+  5  9,7  - sHE
   5  4,8  - sOP
   5 11,1  | tEL
+  5  9,7  - tHE
   5  4,8  - tOP
   5  8,9  | tWO
+  5  7,5  - yE
   4  8,6  | DEkE
   4  8,6  | DElE
   4  8,6  | DEmE
   4  8,6  | DEnE
   4  8,6  | DErE
+  4 10,4  - Do
   4  9,8  | EElS
   4  4,10 | Ed
   4  4,10 | Ef
@@ -652,40 +625,39 @@
   4  4,10 | Es
   4  4,10 | Et
   4  4,10 | Ex
+  4 11,3  | Lo
   4  5,9  - NEnE
   4  5,9  - NEvE
-  4 10,2  - Oe
   4  6,2  - aE
-  4  9,5  | aE
-  4  9,5  - aI
   4  6,2  - bE
+  4  8,10 - bE
   4  9,8  | bEES
   4  8,9  - bEET
   4  3,9  - bENE
   4  9,8  | cEES
   4  6,2  - dE
+  4  8,10 - dE
   4  9,8  | dEES
   4  8,9  - dEET
   4  3,9  - dENE
-  4 11,2  | eL
   4  6,2  - fE
   4  9,8  | fEES
   4  8,9  - fEET
   4  9,8  | gEES
   4  3,9  - gENE
   4  6,2  - hE
+  4  8,10 - hE
   4  9,8  | jEES
   4  8,9  - kEET
   4  9,8  | lEES
   4  8,9  - lEET
   4  6,2  - mE
+  4  8,10 - mE
   4  8,9  - mEET
   4  6,2  - nE
+  4  8,10 - nE
   4  3,9  - nENE
   4  6,2  - oE
-  4  9,5  | oE
-  4  4,10 | oE
-  4  9,5  - oI
   4  9,8  | pEES
   4  6,2  - rE
   4  9,8  | rEES
@@ -694,9 +666,11 @@
   4  9,8  | tEES
   4  9,8  | vEES
   4  6,2  - wE
+  4  8,10 - wE
   4  9,8  | wEES
   4  8,9  - wEET
   4  6,2  - yE
+  4  8,10 - yE
   4  9,8  | zEES
   3  8,6  | DE
   3  8,6  | DEb
@@ -735,24 +709,39 @@
   3  5,9  - NEg
   3  5,9  - NEt
   3  5,9  - NEw
+  3 10,2  - Oe
   3  7,3  | SErA
   3  7,3  | SEtA
   3  7,3  | ShEA
   3  4,9  - aNE
+  3  4,10 | bE
   3  3,10 - bEAR
   3  3,10 - dEAR
+  3  9,5  - dIE
+  3 11,2  | eL
+  3  4,10 | fE
   3  3,10 - fEAR
+  3  9,5  - fIE
   3  3,10 - gEAR
   3  3,10 - hEAR
+  3  9,5  - hIE
   3  3,10 - lEAR
+  3  4,10 | mE
+  3  9,2  - mO
+  3  9,2  | mU
   3  3,10 - nEAR
+  3  9,2  - nO
+  3  9,2  | nU
   3  8,5  | oDE
+  3  4,10 | oE
   3  4,9  - oNE
   3  3,10 - pEAR
   3  3,10 - rEAR
   3  3,10 - sEAR
   3  3,10 - tEAR
+  3  4,10 | wE
   3  3,10 - wEAR
+  3  4,10 | yE
   3  3,10 - yEAR
   2  8,6  | De
   2  8,6  | Do
@@ -763,16 +752,21 @@
   2  7,1  | EdS
   2  7,1  | EfS
   2  8,9  | EgO
+  2  6,4  - Eh
   2  7,1  | ElS
   2  7,1  | EmS
   2  7,1  | EnS
   2  7,1  | ErS
   2  7,1  | EsS
   2  8,5  | aD
+  2  9,5  | aE
+  2  9,5  - aI
   2  4,10 - bAR
+  2  9,5  | bE
   2  7,1  | bES
   2  9,9  | bES
   2  9,9  - bET
+  2  9,5  - bI
   2  4,10 - cAR
   2  4,10 - eAR
   2  8,5  | eD
@@ -782,9 +776,11 @@
   2  9,9  - fET
   2  4,10 - gAR
   2  9,9  - gET
+  2  9,5  | hE
   2  7,1  | hES
   2  9,9  | hES
   2  9,9  - hET
+  2  9,5  - hI
   2  8,5  | iD
   2  4,10 - jAR
   2  9,9  - jET
@@ -793,12 +789,16 @@
   2  9,9  | lES
   2  9,9  - lET
   2  4,10 - mAR
+  2  9,5  | mE
   2  9,9  - mET
+  2  9,5  - mI
   2  9,9  - nET
   2  4,10 - oAR
   2  8,5  | oD
+  2  9,5  | oE
   2  7,1  | oES
   2  9,9  | oES
+  2  9,5  - oI
   2  7,2  | oSE
   2  4,10 - pAR
   2  7,1  | pES
