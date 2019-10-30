@@ -445,8 +445,10 @@ int main(int argc, char const* const* argv)
                     *board_premiums)};
 
     for (auto const& find : finds) {
-        fmt::print("{},{}:{}={}\n", find.start[0], find.start[1],
+        fmt::print("{1:3} {2:5} {3} {0}\n",
                 find.word.c_str(),
-                find.score);
+                find.score,
+                fmt::format("{:2},{:1}", find.start[0]+1, find.start[1]+1),
+                find.direction[0]?'-':'|');
     };
 }  // namespace

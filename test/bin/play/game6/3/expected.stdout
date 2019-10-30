@@ -1,100 +1,100 @@
-9,0:EX=49
-7,5:VEXER=32
-7,5:VEX=30
-7,1:BOX=26
-4,6:LEX=23
-4,6:REX=22
-5,6:EX=21
-5,0:RELEND=18
-7,1:BOLE=16
-7,1:BONE=16
-7,1:BORN=16
-6,1:EBON=16
-7,1:BORE=14
-5,2:EXED=12
-5,5:DEX=11
-6,3:LEER=11
-6,4:LEX=11
-8,4:LEX=11
-8,0:MEL=11
-8,0:MEN=11
-2,4:NENE=11
-2,6:NENE=11
-3,6:REEL=11
-4,6:EEL=10
-6,3:LEE=10
-3,4:LEER=10
-3,6:LEER=10
-6,3:REEL=10
-6,4:REX=10
-7,5:VEER=10
-5,6:EL=9
-5,4:EN=9
-5,6:EN=9
-2,4:ERNE=9
-2,6:ERNE=9
-6,5:EX=9
-5,2:LENDER=9
-7,5:VEE=9
-6,3:ERE=8
-6,3:REE=8
-5,3:ELDER=7
-5,3:ENDER=7
-5,4:ER=7
-5,6:ER=7
-6,3:EYEN=7
-3,4:LEE=7
-3,6:LEE=7
-5,2:LEND=7
-3,4:NEE=7
-3,6:NEE=7
-5,5:DELE=6
-5,5:DENE=6
-3,4:ERE=6
-3,6:ERE=6
-6,5:ERNE=6
-6,3:EYER=6
-6,3:LYE=6
-4,4:NE=6
-4,6:NE=6
-5,2:NEED=6
-6,4:NENE=6
-5,2:NERD=6
-3,4:REE=6
-3,6:REE=6
-5,2:REND=6
-7,3:YEN=6
-5,5:DEER=5
-5,5:DEL=5
-5,5:DEN=5
-5,5:DERE=5
-5,5:DREE=5
-5,3:ELD=5
-5,3:END=5
-6,3:EYE=5
-5,3:LED=5
-6,4:LEER=5
-8,0:ME=5
-4,4:RE=5
-4,6:RE=5
-5,3:REDE=5
-5,2:REED=5
-6,4:REEL=5
-6,3:RYE=5
-5,5:DEE=4
-6,4:EEL=4
-6,5:EEL=4
-6,5:ERN=4
-6,4:LEE=4
-8,4:LEE=4
-6,4:NEE=4
-5,3:RED=4
-5,5:DE=3
-5,4:ED=3
-6,5:EL=3
-6,5:EN=3
-6,5:ERE=3
-6,4:NE=3
-6,4:REE=3
-6,5:ER=2
-6,4:RE=2
+ 49 10,1  | EX
+ 32  8,6  | VEXER
+ 30  8,6  | VEX
+ 26  8,2  - BOX
+ 23  5,7  - LEX
+ 22  5,7  - REX
+ 21  6,7  - EX
+ 18  6,1  | RELEND
+ 16  8,2  - BOLE
+ 16  8,2  - BONE
+ 16  8,2  - BORN
+ 16  7,2  - EBON
+ 14  8,2  - BORE
+ 12  6,3  | EXED
+ 11  6,6  | DEX
+ 11  7,4  | LEER
+ 11  7,5  | LEX
+ 11  9,5  - LEX
+ 11  9,1  - MEL
+ 11  9,1  - MEN
+ 11  3,5  - NENE
+ 11  3,7  - NENE
+ 11  4,7  - REEL
+ 10  5,7  - EEL
+ 10  7,4  | LEE
+ 10  4,5  - LEER
+ 10  4,7  - LEER
+ 10  7,4  | REEL
+ 10  7,5  | REX
+ 10  8,6  | VEER
+  9  6,7  - EL
+  9  6,5  - EN
+  9  6,7  - EN
+  9  3,5  - ERNE
+  9  3,7  - ERNE
+  9  7,6  | EX
+  9  6,3  | LENDER
+  9  8,6  | VEE
+  8  7,4  | ERE
+  8  7,4  | REE
+  7  6,4  | ELDER
+  7  6,4  | ENDER
+  7  6,5  - ER
+  7  6,7  - ER
+  7  7,4  - EYEN
+  7  4,5  - LEE
+  7  4,7  - LEE
+  7  6,3  | LEND
+  7  4,5  - NEE
+  7  4,7  - NEE
+  6  6,6  | DELE
+  6  6,6  | DENE
+  6  4,5  - ERE
+  6  4,7  - ERE
+  6  7,6  | ERNE
+  6  7,4  - EYER
+  6  7,4  - LYE
+  6  5,5  - NE
+  6  5,7  - NE
+  6  6,3  | NEED
+  6  7,5  | NENE
+  6  6,3  | NERD
+  6  4,5  - REE
+  6  4,7  - REE
+  6  6,3  | REND
+  6  8,4  - YEN
+  5  6,6  | DEER
+  5  6,6  | DEL
+  5  6,6  | DEN
+  5  6,6  | DERE
+  5  6,6  | DREE
+  5  6,4  | ELD
+  5  6,4  | END
+  5  7,4  - EYE
+  5  6,4  | LED
+  5  7,5  | LEER
+  5  9,1  - ME
+  5  5,5  - RE
+  5  5,7  - RE
+  5  6,4  | REDE
+  5  6,3  | REED
+  5  7,5  | REEL
+  5  7,4  - RYE
+  4  6,6  | DEE
+  4  7,5  | EEL
+  4  7,6  | EEL
+  4  7,6  | ERN
+  4  7,5  | LEE
+  4  9,5  - LEE
+  4  7,5  | NEE
+  4  6,4  | RED
+  3  6,6  | DE
+  3  6,5  | ED
+  3  7,6  | EL
+  3  7,6  | EN
+  3  7,6  | ERE
+  3  7,5  | NE
+  3  7,5  | REE
+  2  7,6  | ER
+  2  7,5  | RE
