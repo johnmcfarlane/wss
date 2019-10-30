@@ -3,6 +3,7 @@
 #include "board_tiles.h"
 #include "coord.h"
 
+#include <load_lexicon.h>
 #include <scores.h>
 #include <trie.h>
 
@@ -13,6 +14,7 @@
 
 #include <algorithm>
 #include <cassert>
+#include <cctype>
 #include <cstdlib>
 #include <cstdlib>
 #include <iterator>
@@ -247,7 +249,7 @@ namespace {
                 begin(n),
                 end(n),
                 [board_tile](auto const& c) {
-                    return c==board_tile;
+                    return c==std::toupper(board_tile);
                 })
         };
         if (found==end(n)) {
@@ -411,7 +413,8 @@ int main(int argc, char const* const* argv)
         return EXIT_FAILURE;
     }
 
-    transform(begin(letters), end(letters), begin(letters), tolower);
+    std::transform(begin(letters), end(letters), begin(letters),
+            [](auto c) { return std::toupper(c); });
 
     auto const board_tiles{load_board_tiles(board_filename)};
     if (!board_tiles) {
