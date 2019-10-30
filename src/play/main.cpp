@@ -94,38 +94,45 @@ namespace {
             fmt::print("\n");
         }
     }
-
-    auto calc_score(
-            search_state const& state,
+    
+    auto word_extent(
+            board<char> const& board_tiles,
             coord const part_start,
-            coord const part_end,
-            coord const cross_direction,
-            std::vector<char> const& word_part)
-    -> std::optional<int>
+            int const part_length,
+            coord const cross_direction)
     {
         Expects((std::abs(cross_direction[0])==1)
                 !=(std::abs(cross_direction[1])==1));
 
-        // word_part corresponds to the given span of cells.
-        Expects((part_end[0]-part_start[0])+(part_end[1]-part_start[1])
-                ==ssize(word_part));
-
-        auto pre_word_part{0};
-        auto word_start{part_start};
-        while (get(state.board_tiles, word_start-cross_direction, vacant)
-                !=vacant) {
-            word_start -= cross_direction;
-            ++pre_word_part;
+        auto pre_word_part{-1};
+        while (get(
+                board_tiles,
+                part_start+cross_direction*pre_word_part,
+                vacant) != vacant) {
+            --pre_word_part;
         }
+        ++pre_word_part;
 
-        auto post_word_part{0};
-        auto word_end{part_end};
-        while (get(state.board_tiles, word_end, vacant)!=vacant) {
-            word_end += cross_direction;
+        auto post_word_part{part_length};
+        while (get(
+                board_tiles,
+                part_start+cross_direction*post_word_part,
+                vacant)!=vacant) {
             ++post_word_part;
         }
         
-        auto const word_size{pre_word_part+ssize(word_part)+post_word_part};
+        return std::make_pair(pre_word_part, post_word_part);
+    }
+
+    auto calc_score(
+            search_state const& state,
+            coord const part_start,
+            coord const cross_direction,
+            std::pair<int, int> extents,
+            std::vector<char> const& word_part)
+    -> std::optional<int>
+    {
+        auto const word_size{extents.second-extents.first};
         if (word_size==1) {
             return 0;
         }
@@ -133,8 +140,8 @@ namespace {
         int word_multiplier{1};
         int score{0};
         auto* node{&state.lexicon.root_node()};
-        for (auto i{0}; i!=word_size; ++i) {
-            auto const pos{word_start+cross_direction*i};
+        for (auto i{extents.first}; i!=extents.second; ++i) {
+            auto const pos{part_start+cross_direction*(i)};
             auto const tile{state.board_tiles[pos[1]][pos[0]]};
             auto const cell_premium{state.board_premiums[pos[1]][pos[0]]};
 
@@ -146,9 +153,9 @@ namespace {
                 // mutation!!
                 word_multiplier *= gsl::at(::word_multiplier, int(cell_premium));
 
-                Expects(i-pre_word_part>=0);
-                Expects(i-pre_word_part<ssize(word_part));
-                auto const letter{gsl::at(word_part, i-pre_word_part)};
+                Expects(i>=0);
+                Expects(i<ssize(word_part));
+                auto const letter{gsl::at(word_part, i)};
 
                 auto const letter_multiplier{
                         gsl::at(::letter_multiplier, int(cell_premium))};
@@ -177,11 +184,7 @@ namespace {
                 state.board_neighbours[state.pos[1]][state.pos[0]] ? 1 : 0};
 
         auto const recurse{
-                [&](node const& n, int& counter, char letter, search_state& state) noexcept {
-                    if (counter==0) {
-                        return;
-                    }
-
+                [&](node const& n, char letter, search_state& state) noexcept {
                     state.word.push_back(letter);
                     state.num_neighbours += neighbour_count;
                     state.pos += state.direction;
@@ -190,11 +193,16 @@ namespace {
                             && state.rack_used>0
                             && get(state.board_tiles, state.pos, vacant)
                                     ==vacant) {
+                        auto const extents{word_extent(
+                                state.board_tiles, 
+                                state.start, 
+                                ssize(state.word),
+                                state.direction)};
                         auto const word_score{calc_score(
                                 state,
                                 state.start,
-                                state.pos,
                                 state.direction,
+                                extents,
                                 state.word)};
                         Expects(word_score);
 
@@ -207,9 +215,7 @@ namespace {
 
                     if (state.pos[0]<state.board_tiles.size()
                             && state.pos[1]<state.board_tiles.size()) {
-                        --counter;
                         ::search(n, state);
-                        ++counter;
                     }
                     state.pos -= state.direction;
                     state.num_neighbours -= neighbour_count;
@@ -218,30 +224,49 @@ namespace {
 
         auto& board_tile{state.board_tiles[state.pos[1]][state.pos[0]]};
         if (board_tile==vacant) {
-            std::for_each(begin(n), end(n), [&](auto const& letter) {
+            ++state.rack_used;
+
+            auto const n_end(end(n));
+            for (auto i{begin(n)}; i!=n_end; ++ i) {
+                auto const& edge(*i);
+                auto const letter{char{edge}};
                 coord const cross_direction{state.direction[1],
                         state.direction[0]};
-                auto const cross_score{calc_score(
-                        state,
+                auto const extents{word_extent(
+                        state.board_tiles,
                         state.pos,
-                        state.pos+cross_direction,
-                        cross_direction,
-                        {letter})};
+                        1,
+                        cross_direction)};
+                
+                auto const fill_square{[&](int& counter, char letter) {
+                    if (counter==0) {
+                        return;
+                    }
+                    
+                    auto const cross_score{calc_score(
+                            state,
+                            state.pos,
+                            cross_direction,
+                            extents,
+                            {letter})};
 
-                // Cross-word is not a valid word in the lexicon.
-                if (!cross_score) {
-                    return;
-                }
+                    // Cross-word is not a valid word in the lexicon.
+                    if (!cross_score) {
+                        return;
+                    }
 
-                state.cross_scores += *cross_score;
-                ++state.rack_used;
+                    --counter;
+                    state.cross_scores += *cross_score;
+                    recurse(edge.get_next(), letter, state);
+                    state.cross_scores -= *cross_score;
+                    ++counter;
+                }};
+                
+                fill_square(state.rack[letter], letter);
+                fill_square(state.rack[blank], std::tolower(letter));
+            }
 
-                recurse(letter.get_next(), state.rack[letter], letter, state);
-                recurse(letter.get_next(), state.rack[blank], std::tolower(letter), state);
-
-                --state.rack_used;
-                state.cross_scores -= *cross_score;
-            });
+            --state.rack_used;
             return;
         }
 
@@ -256,8 +281,7 @@ namespace {
             return;
         }
 
-        auto dummy_counter{1};
-        recurse(found->get_next(), dummy_counter, board_tile, state);
+        recurse(found->get_next(), board_tile, state);
     }
 
     void search(trie const& lexicon, search_state& state, coord direction)
