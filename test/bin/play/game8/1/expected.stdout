@@ -219,7 +219,6 @@
  28 10,2  | AZoLE
  28  6,2  | ErSATZ
  28 10,1  | SlEAZE
- 28  5,5  - ZEtAS
  28 10,2  | bLAZE
  28 10,2  | fEAZES
  28 10,5  | fEAZES
@@ -280,6 +279,7 @@
  27 11,5  | SELECt
  27  3,5  - ZAxES
  27  3,5  - ZEtAS
+ 27  5,5  - ZEtAS
  27  3,7  - ZEtAS
  27  3,5  - ZoEAS
  27  3,7  - ZoEAS
@@ -302,15 +302,10 @@
  26  9,2  | ZiLCHES
  26 10,2  | ZoEAE
  26 10,2  | fEAZE
- 26  7,7  - mEALS
- 26  7,7  - pEALS
  26 10,2  | rAZEE
- 26  7,7  - wEALS
  25  4,5  - ChELAS
- 25  7,7  - hEALS
  24 11,2  | ACkEES
  24 11,3  | ACkEES
- 24  5,5  - CALoS
  24 11,2  | CALvE
  24 11,2  | CAbLE
  24 11,3  | CAmEL
@@ -379,7 +374,6 @@
  24  3,5  - ZoEA
  24  3,7  - ZoEA
  24 11,5  | cECAL
- 24  7,7  - dEALS
  24 11,5  | dECAL
  24 11,2  | fAECES
  24 11,4  | fAECES
@@ -391,34 +385,33 @@
  24 11,5  | pEACES
  24 11,2  | pLACE
  24 11,2  | sCALE
+ 23  5,5  - CALoS
  23  9,5  | CHEZ
- 23  7,7  - SEALs
  23  7,3  | ZErOS
  23  9,2  | ZiLCH
  23  7,1  | ZoCALOS
- 23  7,7  - fEAL
- 23  7,7  - mEAL
- 23  7,7  - pEAL
- 23  7,7  - rEALS
- 23  7,7  - sEALS
- 23  7,7  - wEAL
- 22  3,5  - CALESa
  22  7,2  | CALZOnES
  22  3,5  - CaLESA
  22  2,5  - CoLZAS
  22  2,7  - CoLZAS
- 22  7,5  - LASh
  22  7,6  | OyEZ
- 22  5,7  - ZAx
+ 22  7,7  - SEALs
  22  7,3  | ZErO
  22  7,1  | ZoCALO
- 22  7,7  - hEAL
+ 22  7,7  - dEALS
+ 22  7,7  - hEALS
+ 22  7,7  - mEALS
+ 22  7,7  - pEALS
+ 22  7,7  - rEALS
+ 22  7,7  - sEALS
+ 22  7,7  - wEALS
  21 11,3  | AChES
  21 11,2  | ACkEE
  21 11,3  | ACkEE
  21 11,3  | ACmES
  21 11,3  | ACnES
  21 11,3  | ACrES
+ 21  3,5  - CALESa
  21 11,3  | CASE
  21 11,3  | CASEd
  21 11,3  | CASEs
@@ -465,7 +458,6 @@
  21 11,6  | ESCAr
  21 11,6  | ExECS
  21  3,5  - LAZES
- 21  3,5  - LAZEd
  21 11,3  | LaCE
  21 11,3  | LiCE
  21 11,3  | LuCE
@@ -478,17 +470,14 @@
  21 11,2  | SCrEE
  21 11,3  | SCrEE
  21  7,7  - SEAL
- 21  7,7  - SEAm
  21 11,5  | SErAC
  21 11,2  | SpACE
  21 11,2  | SyCEE
  21 11,3  | SyCEE
  21  8,6  | WALtZ
- 21  5,5  - ZEtA
  21  7,5  | ZOCALoS
  21  2,5  - bLAZES
  21 11,3  | dACES
- 21  7,7  - dEAL
  21 11,3  | fACES
  21 11,3  | fECES
  21 11,5  | fECES
@@ -498,12 +487,8 @@
  21 11,3  | pACES
  21 11,2  | pEACE
  21 11,5  | pEACE
- 21  7,7  - pEAS
  21 11,3  | rACES
  21 11,3  | tACES
- 20  6,5  - ALaE
- 20  6,5  - ALaS
- 20  6,5  - ALoE
  20  7,2  | CALZOnE
  20 10,1  | CALlEES
  20 10,2  | CALlEES
@@ -527,16 +512,11 @@
  20  6,1  | CeLESTA
  20  6,1  | ChALETS
  20  6,2  | CrESTAL
- 20  8,7  - EArL
  20  6,2  | ECLATS
  20  6,2  | ELASTiC
- 20  8,7  - EmS
  20 10,1  | EnLACES
- 20  6,5  - EyAS
  20  6,4  | LATChES
  20  6,4  | LATiCES
- 20  3,5  - LAZEs
- 20  3,5  - LAZeS
  20  2,5  - LAZiES
  20  6,1  | LAnCETS
  20 10,1  | LEAChES
@@ -545,37 +525,45 @@
  20  6,2  | LoCATES
  20  6,4  | SATChEL
  20 10,2  | SCALEnE
- 20  7,7  - SeAL
- 20  7,7  - SeEL
  20  6,1  | SuLCATE
+ 20  5,5  - ZEtA
  20  7,5  | ZOCALo
- 20  6,5  - aLAE
- 20  6,5  - aLAS
- 20  8,7  - eELS
  20  6,1  | pLACETS
- 20  7,7  - rEAL
  20 10,1  | rELACES
  20 10,5  | rELACES
  20 10,5  | rESCALE
- 20  7,7  - sEAL
- 20  7,7  - yEAS
+ 19  6,5  - ALaE
+ 19  6,5  - ALaS
+ 19  6,5  - ALoE
  19  7,4  | CLOZeS
  19  7,5  | COLZA
  19  7,5  | COLZAs
- 19  4,7  - CZAr
  19  2,5  - CoLZA
  19  2,7  - CoLZA
- 19  8,7  - EeLS
+ 19  8,7  - EArL
  19  9,6  | HAZEL
  19  9,3  | LACHES
- 19  4,7  - SCApE
+ 19  7,5  - LASh
+ 19  3,5  - LAZEd
+ 19  3,5  - LAZEs
+ 19  3,5  - LAZeS
  19  8,3  | SCoWL
- 19  7,7  - SEAl
- 19  7,7  - SEaL
- 19  7,7  - SEeL
+ 19  7,7  - SeAL
+ 19  7,7  - SeEL
  19  8,6  | WACkES
  19  4,5  - ZEAL
+ 19  6,5  - aLAE
+ 19  6,5  - aLAS
+ 19  7,7  - dEAL
+ 19  8,7  - eELS
+ 19  7,7  - fEAL
  19  3,5  - hAZEL
+ 19  7,7  - hEAL
+ 19  7,7  - mEAL
+ 19  7,7  - pEAL
+ 19  7,7  - rEAL
+ 19  7,7  - sEAL
+ 19  7,7  - wEAL
  18 11,3  | AChE
  18 11,3  | ACmE
  18 11,3  | ACnE
@@ -592,7 +580,6 @@
  18 11,3  | AlLEES
  18 11,2  | AnELES
  18 11,4  | AnELES
- 18  6,7  - AxE
  18 10,2  | CALcES
  18 10,1  | CALlEE
  18 10,2  | CALlEE
@@ -606,18 +593,15 @@
  18  6,1  | CAbLET
  18 11,3  | CAdE
  18 11,3  | CAfE
- 18  5,7  - CAfE
  18 11,3  | CAgE
  18 11,3  | CAkE
  18 10,1  | CAlLEE
  18 10,2  | CAlLEE
  18  6,1  | CAlLET
  18 11,3  | CAmE
- 18  5,7  - CAmE
  18  6,1  | CAmLET
  18 11,3  | CAnE
  18 11,3  | CApE
- 18  5,7  - CApE
  18  6,1  | CApLET
  18 11,3  | CArE
  18 10,2  | CArLES
@@ -639,7 +623,6 @@
  18  6,2  | CLAST
  18  6,2  | CLASTs
  18  6,1  | CLASpT
- 18  4,7  - CLAdE
  18 10,2  | CLAdES
  18  6,1  | CLArET
  18  6,2  | CLAsTS
@@ -661,6 +644,7 @@
  18  7,5  | COZzES
  18  7,5  | COlZAS
  18  7,5  | COzZES
+ 18  4,7  - CZAr
  18 11,3  | CaSE
  18  6,1  | ChALET
  18  4,5  - ChELA
@@ -675,11 +659,8 @@
  18 11,6  | EASEL
  18 11,3  | EASELs
  18 11,6  | EASELs
- 18  8,7  - EASt
  18 11,2  | EAgLES
- 18  8,7  - EArS
  18 11,3  | EAsELS
- 18  8,7  - EAtS
  18  6,2  | ECLAT
  18  6,2  | ECLATs
  18 10,6  | ECLAtS
@@ -693,7 +674,6 @@
  18  6,2  | ELeCTS
  18 10,1  | EnLACE
  18 10,6  | EnLACE
- 18  6,5  - EtAS
  18 10,6  | ExCELS
  18 11,6  | ExEC
  18  9,6  | HAZES
@@ -730,7 +710,6 @@
  18  9,2  | SAtCHEL
  18 10,2  | SCALE
  18 10,2  | SCALEd
- 18  2,5  - SCALEd
  18 10,2  | SCALEr
  18 10,2  | SCALEs
  18  8,3  | SChWA
@@ -738,13 +717,8 @@
  18 11,5  | SEALEd
  18 11,2  | SEALEr
  18 11,5  | SEALEr
- 18  7,7  - SEAr
- 18  7,7  - SEAs
- 18  7,7  - SEAt
  18 10,5  | SELECt
  18  6,1  | SELeCT
- 18  1,5  - SLEAZe
- 18  1,7  - SLEAZo
  18 11,4  | SLEAvE
  18 11,4  | SLEAzE
  18  6,5  | STELiC
@@ -762,11 +736,7 @@
  18  6,6  | TiCALS
  18  8,6  | WACkE
  18  8,6  | WACkS
- 18  5,7  - ZAp
- 18  4,5  - ZEaL
  18  4,5  - ZeAL
- 18  6,7  - aSEA
- 18  7,5  - bAS
  18  2,5  - bLAZE
  18 10,2  | cALCES
  18  9,2  | cLACHS
@@ -781,13 +751,10 @@
  18 11,3  | lACE
  18 11,3  | mACE
  18 10,2  | mACLES
- 18  7,5  - mAE
- 18  7,5  - mAS
  18 11,1  | mEASLE
  18 11,5  | mEASLE
  18 10,5  | mESCAL
  18 11,3  | pACE
- 18  7,7  - pEA
  18 10,2  | pLACES
  18  6,1  | pLACET
  18 11,1  | pLEASE
@@ -802,18 +769,12 @@
  18 11,3  | rESEAL
  18 11,5  | rESEAL
  18 10,2  | sCALES
- 18  7,7  - sEAS
  18 11,3  | tACE
  18 11,2  | tEASEL
  18 11,5  | tEASEL
- 18  7,5  - wAE
- 18  7,5  - wAS
  18 11,2  | wEASEL
  18 11,5  | wEASEL
- 17  6,7  - ASEa
- 17  8,5  - ASh
  17  7,4  | AZOLES
- 17  5,5  - CALo
  17  8,4  | CAW
  17  8,4  | CAWs
  17  3,5  - CAmEL
@@ -826,10 +787,7 @@
  17  9,5  | CHELAs
  17  9,5  | CHiELS
  17  8,3  | CLAWErS
- 17  3,5  - CLEAn
- 17  3,7  - CLEAn
  17  7,4  | CLOZe
- 17  4,7  - CLoSE
  17  7,5  | COLZa
  17  7,5  | COZEnS
  17  7,5  | COZEyS
@@ -838,10 +796,13 @@
  17  7,5  | COlZA
  17  8,4  | CaWS
  17  8,4  | CoWS
+ 17  8,7  - EASt
+ 17  8,7  - EArS
+ 17  8,7  - EAtS
  17 10,3  | ECZEmA
- 17  9,7  - ELf
- 17  9,7  - ELm
- 17  8,7  - Em
+ 17  8,7  - EeLS
+ 17  6,5  - EtAS
+ 17  6,5  - EyAS
  17  9,6  | HAZE
  17  9,6  | HAZEd
  17  9,6  | HAZEl
@@ -850,44 +811,46 @@
  17  9,6  | HAZeL
  17  9,6  | HaZEL
  17  9,3  | LACHeS
- 17  3,5  - LAZe
  17  9,2  | LAiCHS
  17  9,2  | LEACHeS
  17  9,3  | LECHeS
- 17  7,5  - LaS
  17  3,5  - LaZE
  17  9,2  | LeACHES
  17  9,2  | LoACHES
  17  9,3  | LoCHS
- 17  2,5  - SCALEs
- 17  4,5  - SCEnA
  17  9,4  | SCHLEp
  17  8,3  | SCoW
+ 17  7,7  - SEAl
+ 17  7,7  - SEAm
+ 17  7,7  - SEAr
+ 17  7,7  - SEAs
+ 17  7,7  - SEAt
+ 17  7,7  - SEaL
+ 17  7,7  - SEeL
  17  7,1  | SLEAZO
+ 17  1,5  - SLEAZe
+ 17  1,7  - SLEAZo
  17  1,5  - SLeAZE
  17  8,6  | WACk
- 17  5,5  - ZAg
  17  7,2  | ZEALOtS
  17  7,2  | ZEALOuS
- 17  4,5  - ZEAl
+ 17  4,5  - ZEaL
  17 10,3  | ZEbECS
  17  7,5  | ZOEAL
  17  7,5  | ZOECiA
+ 17  6,7  - aSEA
  17  3,5  - dAZES
  17  8,1  | dECLAWS
- 17  8,7  - eEL
  17  3,5  - fAZES
- 17  7,5  - gAE
- 17  7,5  - gAS
  17  3,5  - gAZES
- 17  7,5  - hAE
- 17  7,5  - hAS
  17  3,5  - hAZES
  17  3,5  - lAZES
  17  3,5  - mAZES
+ 17  7,7  - pEAS
  17  3,5  - rAZES
  17  2,5  - sCALES
- 17  7,7  - yEA
+ 17  7,7  - sEAS
+ 17  7,7  - yEAS
  16 10,2  | ACkEES
  16  6,1  | ASCEnT
  16  6,1  | ASpECT
@@ -895,19 +858,15 @@
  16  7,4  | AZOLeS
  16  7,4  | AZOiC
  16  9,3  | ArCHES
- 16  9,7  - Ax
- 16  3,7  - CALoS
+ 16  5,5  - CALo
  16 10,2  | CALvE
  16  5,7  - CASE
- 16  3,5  - CASEd
  16  9,3  | CASHEd
  16  9,3  | CASHEs
  16  9,3  | CASHEw
  16  6,1  | CASkET
  16 10,2  | CAbLE
- 16  5,7  - CAdE
  16  6,2  | CAdETS
- 16  5,7  - CAnE
  16  6,2  | CArETS
  16 10,2  | CArLE
  16 10,2  | CEASE
@@ -915,7 +874,6 @@
  16 10,5  | CEASEd
  16 10,2  | CEASEs
  16 10,5  | CEASEs
- 16  4,7  - CEASe
  16 10,2  | CEAsES
  16 10,5  | CEAsES
  16  9,5  | CHALkS
@@ -945,11 +903,10 @@
  16  8,3  | CLAWEr
  16  8,3  | CLAWS
  16 10,2  | CLAdE
+ 16  4,7  - CLAdE
  16  6,2  | CLApT
  16  6,2  | CLAsT
  16 10,2  | CLAvE
- 16  3,7  - CLEAr
- 16  3,5  - CLEAt
  16  8,3  | CLEWS
  16  6,2  | CLEaT
  16  6,2  | CLEfT
@@ -958,6 +915,7 @@
  16  6,2  | CLaST
  16  6,2  | CLeAT
  16 10,2  | CLoSE
+ 16  4,7  - CLoSE
  16  3,5  - CLuES
  16  7,5  | COZEn
  16  7,5  | COZEs
@@ -986,31 +944,28 @@
  16 10,1  | ESCApE
  16 10,6  | ESCApE
  16  9,3  | ESCHAr
- 16  8,7  - EeL
  16  6,2  | EnACTS
  16 10,1  | EnCASE
  16 10,6  | EnCASE
  16  6,2  | EpACTS
- 16  9,7  - Ex
  16  6,2  | ExACTS
  16 10,6  | ExCEL
  16  9,6  | HAZeS
  16  9,6  | HaZES
- 16  3,5  - LACEy
- 16  5,7  - LAmE
+ 16  3,5  - LAZe
  16 10,2  | LAnCE
- 16  7,5  - LAs
  16  9,2  | LEACH
  16  9,2  | LEACHy
  16  9,3  | LECH
+ 16  7,5  - LaS
  16 10,2  | LyCEE
  16  7,6  | OuZELS
  16  9,3  | SACHEm
  16  9,3  | SACHEt
  16  6,1  | SAChET
  16  7,5  - SAE
- 16  7,5  - SAu
- 16  4,7  - SCArE
+ 16  2,5  - SCALEd
+ 16  2,5  - SCALEs
  16  9,4  | SCHEmA
  16 10,2  | SCaLE
  16  7,7  - SEA
@@ -1039,8 +994,6 @@
  16  7,2  | ZEALOt
  16 10,3  | ZEbEC
  16 10,5  | ZEbEC
- 16  5,5  - ZEd
- 16  4,5  - ZEeS
  16  7,5  | ZOEaL
  16  7,5  | ZOeAL
  16  7,5  | ZOnAL
@@ -1051,14 +1004,13 @@
  16  7,5  | cOLZAS
  16  8,1  | dECLAW
  16  6,2  | eCLAT
+ 16  8,7  - eEL
  16  6,2  | eLECT
  16  6,2  | fACETS
  16 10,2  | fAECES
  16 10,2  | gLACE
  16  7,4  | gLOZES
- 16  7,5  - lAS
  16 10,2  | mACLE
- 16  7,5  - nAE
  16 10,2  | pEACES
  16 10,5  | pEACES
  16 10,2  | pLACE
@@ -1070,11 +1022,11 @@
  15  9,4  | ACHES
  15 11,3  | ALEE
  15  9,7  - ALS
- 15  9,7  - ALl
  15 11,2  | ALlEE
  15 11,3  | ALlEE
  15 11,3  | ALmES
  15 11,3  | ALoES
+ 15  6,7  - ASEa
  15  7,3  | AZLOn
  15  7,4  | AZOLE
  15  7,4  | AZOLEs
@@ -1086,15 +1038,12 @@
  15 11,2  | AgLEE
  15 11,3  | AgLEE
  15 11,2  | AiSLE
- 15  9,7  - AlL
  15 11,2  | AlLEE
  15 11,3  | AlLEE
  15 11,2  | AnELE
  15 11,3  | ArLES
  15 11,3  | AxLES
- 15  3,5  - CASEs
- 15  5,5  - CASa
- 15  5,7  - CASe
+ 15  3,7  - CALoS
  15  9,3  | CAcHES
  15  3,5  - CAdES
  15  3,5  - CAfES
@@ -1104,13 +1053,12 @@
  15  3,5  - CAmES
  15  3,5  - CAnES
  15  3,5  - CApES
- 15  5,7  - CArE
  15  3,5  - CArES
- 15  5,7  - CAsE
  15  3,5  - CAsES
  15  9,3  | CAsHES
  15  3,5  - CAtES
  15  3,5  - CAvES
+ 15  4,7  - CEASe
  15  7,3  | CELOSiA
  15  9,5  | CHALk
  15  9,5  | CHASsE
@@ -1144,24 +1092,24 @@
  15  2,5  - CLAdES
  15  9,2  | CLAsHES
  15  2,5  - CLAvES
+ 15  3,5  - CLEAn
+ 15  3,7  - CLEAn
+ 15  3,7  - CLEAr
+ 15  3,5  - CLEAt
  15  8,3  | CLEW
  15  8,3  | CLEWs
  15  8,3  | CLaWS
  15  8,3  | CLeWS
  15  7,5  | COZ
  15  7,5  | COZy
- 15  5,5  - CaSA
- 15  5,7  - CaSE
  15 10,4  | ChEZ
  15 11,4  | ChEZ
  15 11,6  | EASeL
  15 11,2  | EAgLE
  15 11,6  | EAgLE
- 15  8,7  - EAr
  15 11,6  | EArLS
  15 11,3  | EAsEL
  15 11,6  | EAsEL
- 15  8,7  - EAt
  15 11,6  | EELS
  15 11,6  | ELAnS
  15 11,2  | ELAtE
@@ -1169,20 +1117,14 @@
  15  9,7  - ELS
  15 11,3  | ELSE
  15 11,6  | ELSE
- 15  9,7  - ELd
- 15  9,7  - ELl
  15 11,3  | ELvES
  15 11,6  | ELvES
  15 11,3  | EaSEL
  15 11,6  | EaSEL
- 15  9,7  - EfS
- 15  9,7  - ElL
- 15  9,7  - EmS
  15  9,6  | HAZe
  15  9,6  | HAZy
  15  9,6  | HaZE
  15  3,5  - LACES
- 15  3,5  - LACEd
  15 11,3  | LASE
  15 11,3  | LASEd
  15 11,3  | LASEr
@@ -1249,13 +1191,12 @@
  15 11,3  | SALEp
  15 11,3  | SALEs
  15 11,2  | SALvE
- 15  9,5  - SAb
  15 11,2  | SAbLE
- 15  5,7  - SAfE
- 15  5,7  - SAmE
- 15  9,5  - SAw
  15  2,5  - SCALE
+ 15  4,7  - SCApE
+ 15  4,7  - SCArE
  15  9,2  | SCAtHE
+ 15  4,5  - SCEnA
  15 11,5  | SEALs
  15 11,5  | SEELs
  15 11,5  | SEELy
@@ -1279,10 +1220,7 @@
  15 11,3  | SLEEt
  15 10,4  | SLEaZE
  15  7,1  | SLeAZO
- 15  7,5  - SaE
  15 11,2  | ScALE
- 15  7,7  - SeA
- 15  7,7  - SeE
  15 11,2  | ShALE
  15  3,5  - SiZE
  15  7,1  | SlEAZO
@@ -1295,13 +1233,11 @@
  15 11,2  | StELE
  15 11,2  | SwALE
  15  8,6  | WELCh
- 15  5,5  - ZAs
- 15  5,7  - ZAs
  15 10,5  | ZEALS
+ 15  4,5  - ZEAl
+ 15  4,5  - ZEeS
  15  7,5  | ZOEAS
  15  7,5  | ZOiC
- 15  5,5  - ZaS
- 15  5,7  - ZaS
  15  9,3  | bACHES
  15 11,3  | bALES
  15  9,2  | bELCH
@@ -1333,7 +1269,6 @@
  15 11,5  | mEALS
  15  2,5  - mESCAL
  15  9,3  | nACHES
- 15  8,7  - oES
  15 11,3  | pALES
  15 11,5  | pEALS
  15 11,5  | pEELS
@@ -1343,16 +1278,12 @@
  15 11,3  | rALES
  15 11,5  | rEALS
  15 11,5  | rEELS
- 15  7,5  - sAE
  15 11,3  | sALES
- 15  7,7  - sEA
  15 11,5  | sEALS
  15 11,5  | sEELS
  15 10,4  | sLEAZE
  15  9,3  | tACHES
- 15  7,5  - tAE
  15 11,3  | tALES
- 15  7,5  - tAS
  15 11,5  | tEALS
  15 11,5  | tEELS
  15 11,2  | tELAE
@@ -1371,28 +1302,34 @@
  14  9,4  | ACHEd
  14  9,4  | ACHEs
  14 10,2  | ACkEE
- 14  9,7  - ALs
- 14  9,7  - ALt
  14  6,2  | ASCoT
- 14  9,7  - ASh
+ 14  8,5  - ASh
  14  7,4  | AZOLe
  14  6,3  | AZoTES
- 14  9,7  - AhS
- 14  6,7  - ApE
- 14  6,7  - AwE
  14  2,5  - CALcES
  14  2,5  - CALvES
  14  2,5  - CALxES
+ 14  3,5  - CASEd
+ 14  3,5  - CASEs
  14  9,3  | CASH
+ 14  5,5  - CASa
+ 14  5,7  - CASe
  14 10,2  | CAStE
  14  2,5  - CAbLES
  14  9,3  | CAcHE
+ 14  5,7  - CAdE
  14  6,2  | CAdET
+ 14  5,7  - CAfE
+ 14  5,7  - CAmE
+ 14  5,7  - CAnE
  14  6,2  | CAnST
+ 14  5,7  - CApE
  14  9,3  | CApHS
+ 14  5,7  - CArE
  14  6,2  | CArET
  14  2,5  - CArLES
  14 10,2  | CArSE
+ 14  5,7  - CAsE
  14  2,5  - CAuLES
  14 10,2  | CAuSE
  14 10,2  | CEAsE
@@ -1409,14 +1346,10 @@
  14  9,5  | CHoSE
  14  9,2  | CLASH
  14  9,2  | CLAcHS
- 14  4,5  - CLAm
- 14  4,7  - CLAm
- 14  4,7  - CLAp
- 14  4,5  - CLAw
- 14  4,7  - CLAw
- 14  4,5  - CLEw
  14  8,3  | CLaW
  14  8,3  | CLeW
+ 14  5,5  - CaSA
+ 14  5,7  - CaSE
  14 10,2  | CeASE
  14 10,2  | ChASE
  14  6,2  | ChEAT
@@ -1428,30 +1361,27 @@
  14  8,3  | CrAWLS
  14  6,2  | CrEST
  14  9,3  | EACH
+ 14  8,7  - EAr
+ 14  8,7  - EAt
  14 10,6  | EChES
  14  6,2  | EClAT
- 14  9,7  - ELs
  14  7,1  | ESCALOp
  14 10,6  | ESCAr
  14  6,2  | ESCoT
+ 14  8,7  - EeL
  14  6,2  | EnACT
  14  6,2  | EpACT
  14  6,2  | ExACT
  14 10,6  | ExECS
  14  9,6  | HAnCE
- 14  3,5  - LACEs
- 14  3,5  - LACeS
  14  2,5  - LAChES
  14  5,7  - LASE
  14  8,4  | LAWnS
  14 10,3  | LAZE
  14 10,3  | LAZEd
  14 10,3  | LAZEs
- 14  5,7  - LAdE
  14  2,5  - LAnCES
- 14  5,7  - LAnE
- 14  5,7  - LAx
- 14  4,7  - LEASe
+ 14  7,5  - LAs
  14  8,4  | LEWiS
  14  3,5  - LaCES
  14 10,3  | LaZES
@@ -1464,12 +1394,9 @@
  14  3,5  - LuCES
  14  4,7  - LyASE
  14  7,6  | OoZES
- 14  7,5  - SAe
  14 10,2  | SAiCE
  14 10,2  | SAuCE
  14  9,2  | SAuCH
- 14  9,5  - SAy
- 14  2,5  - SCALe
  14 10,2  | SCAlE
  14  6,2  | SCAnT
  14 10,2  | SCApE
@@ -1482,14 +1409,13 @@
  14  9,4  | SCHuL
  14  2,5  - SCaLE
  14 10,2  | SCrEE
- 14  7,7  - SEa
- 14  7,7  - SEe
- 14  7,7  - SEi
  14  7,5  | SOLACE
  14  7,5  | SOLACEd
  14  7,5  | SOLACEr
  14  7,5  | SOLACEs
- 14  9,5  - ShA
+ 14  7,5  - SaE
+ 14  7,7  - SeA
+ 14  7,7  - SeE
  14 10,4  | SlEAZE
  14 10,2  | SpACE
  14 10,2  | SyCEE
@@ -1508,11 +1434,17 @@
  14  6,6  | TaCES
  14  6,6  | ThECA
  14  6,6  | TrACE
+ 14  5,5  - ZAg
+ 14  5,7  - ZAp
+ 14  5,5  - ZAs
+ 14  5,7  - ZAs
+ 14  5,7  - ZAx
  14 10,5  | ZEAL
  14 11,5  | ZEAL
  14 10,5  | ZEALs
  14  6,4  | ZETAS
  14 10,5  | ZEaLS
+ 14  5,5  - ZEd
  14  7,4  | ZLOtE
  14  6,3  | ZLoTE
  14  7,5  | ZOEaS
@@ -1520,10 +1452,13 @@
  14  7,5  | ZOeAS
  14  7,5  | ZOnAE
  14  7,5  | ZOnES
+ 14  5,5  - ZaS
+ 14  5,7  - ZaS
  14 10,4  | ZoEAL
  14 11,4  | ZoEAL
  14  9,4  | aCHES
  14  7,4  | aZOLE
+ 14  7,5  - bAS
  14  9,2  | bEACH
  14 10,3  | bEZEL
  14 10,5  | bEZEL
@@ -1538,17 +1473,27 @@
  14  6,2  | fACET
  14  2,5  - fALCES
  14  3,5  - fAZE
+ 14  7,5  - gAE
+ 14  7,5  - gAS
  14  3,5  - gAZE
  14  7,4  | gLOZE
+ 14  7,5  - hAE
+ 14  7,5  - hAS
  14  3,5  - hAZE
  14 10,3  | hAZEL
+ 14  7,5  - lAS
  14  3,5  - lAZE
  14  9,2  | lEACH
  14  9,3  | mACHE
  14  9,3  | mACHS
  14  2,5  - mACLES
+ 14  7,5  - mAE
+ 14  7,5  - mAS
  14  3,5  - mAZE
+ 14  7,5  - nAE
+ 14  8,7  - oES
  14  7,5  | oOZES
+ 14  7,7  - pEA
  14 10,2  | pEACE
  14  9,2  | pEACH
  14  9,3  | pECHS
@@ -1556,40 +1501,42 @@
  14 10,3  | rAZEES
  14  9,2  | rEACH
  14  6,2  | rEACT
+ 14  7,5  - sAE
  14  2,5  - sCALE
+ 14  7,7  - sEA
  14  7,5  | sOLACES
  14  6,2  | tACET
  14  9,3  | tACHE
  14  9,3  | tACHS
+ 14  7,5  - tAE
+ 14  7,5  - tAS
  14  9,2  | tEACH
  14  9,3  | tECHS
  14  5,5  - tELA
  14  5,5  - vELA
+ 14  7,5  - wAE
  14  6,3  | wALTZ
+ 14  7,5  - wAS
+ 14  7,7  - yEA
  14  9,3  | yECHS
  13  9,4  | ACHeS
  13  8,5  - AE
- 13  6,5  - ALa
+ 13  9,7  - ALl
+ 13  9,7  - ALs
+ 13  9,7  - ALt
  13  8,5  - AS
  13  7,4  | AZOlE
  13  7,4  | AZOnS
  13  7,4  | AZOtE
- 13  4,7  - AZo
  13  6,3  | AZoTE
  13  7,4  | AdOZE
- 13  9,7  - AdS
  13 10,3  | AdZES
- 13  9,7  - AlS
+ 13  9,7  - AlL
  13  9,3  | ArCH
- 13  6,7  - AyE
- 13  1,5  - CALESa
- 13  1,7  - CALESa
  13  7,3  | CALOS
- 13  3,7  - CALo
  13  3,5  - CASE
  13  7,3  | CAjOLE
  13  7,3  | CArOLS
- 13  4,5  - CAuL
  13  7,3  | CELOmS
  13  9,5  | CHAd
  13  9,5  | CHAi
@@ -1603,9 +1550,6 @@
  13  9,5  | CHEf
  13  9,5  | CHEw
  13  9,5  | CHEz
- 13  4,5  - CLAg
- 13  4,5  - CLAy
- 13  4,7  - CLAy
  13  9,2  | CLaSH
  13  3,5  - CLuE
  13  1,5  - CaLESA
@@ -1619,28 +1563,25 @@
  13  9,3  | CoSH
  13  9,4  | ECHeS
  13  9,4  | ECHoS
- 13  3,5  - ECLAt
+ 13  9,7  - ELd
+ 13  9,7  - ELf
+ 13  9,7  - ELl
+ 13  9,7  - ELm
+ 13  9,7  - ELs
  13  9,3  | EaCH
- 13  9,7  - EdS
- 13  9,7  - ElS
- 13  9,7  - EnS
+ 13  9,7  - ElL
  13  9,3  | EtCH
- 13  5,7  - LASe
- 13  5,7  - LAsE
- 13  5,7  - LaSE
+ 13  3,5  - LACEd
+ 13  3,5  - LACEs
+ 13  3,5  - LACEy
+ 13  3,5  - LACeS
+ 13  4,7  - LEASe
  13 10,3  | LaZE
- 13  5,7  - LoSE
  13  6,4  | LuTZ
  13  7,6  | OoZE
  13  7,6  | OrACLE
- 13  9,5  - SAd
- 13  5,7  - SAdE
- 13  5,7  - SAnE
- 13  5,7  - SAx
- 13  4,5  - SCAb
+ 13  2,5  - SCALe
  13  2,5  - SCAlE
- 13  4,5  - SCAm
- 13  4,7  - SCAm
  13  2,5  - SCApE
  13  2,5  - SCArE
  13  2,5  - SCEnA
@@ -1675,7 +1616,6 @@
  13  6,4  | ZETaS
  13 10,5  | ZEaL
  13 11,5  | ZEaL
- 13  4,5  - ZEe
  13  6,3  | ZEsTS
  13 10,5  | ZEtAS
  13  7,5  | ZOEA
@@ -1691,13 +1631,10 @@
  13 10,4  | ZoEAS
  13 11,4  | ZoEAS
  13  9,4  | aCHE
- 13  6,5  - aLA
- 13  9,7  - aLS
  13  3,5  - cECAL
  13 10,3  | dAZES
  13  3,5  - dECAL
  13  9,4  | eCHE
- 13  9,7  - eLS
  13 10,3  | fAZES
  13 10,5  | fEAZE
  13  3,5  - fECAL
@@ -1726,6 +1663,7 @@
  12  9,7  - AL
  12  7,3  | ALCOvES
  12  6,2  | ALErTS
+ 12  6,5  - ALa
  12 11,3  | ALaE
  12 11,3  | ALeE
  12 10,2  | ALlEES
@@ -1733,11 +1671,10 @@
  12  9,2  | ALmEHS
  12 11,3  | ALoE
  12 10,2  | ASLEEp
- 12  9,7  - ASs
  12  8,5  | AWoLS
  12  7,4  | AZO
  12  7,4  | AZOn
- 12  9,5  - Ab
+ 12  4,7  - AZo
  12 10,2  | AbELES
  12 11,3  | AbLE
  12  6,1  | AbLEST
@@ -1745,32 +1682,21 @@
  12  6,2  | AgLETS
  12 11,3  | AkEES
  12 10,2  | AlLEES
- 12  9,5  - Am
- 12  9,7  - Am
- 12  6,7  - AnE
  12 10,2  | AnELES
- 12  9,7  - ArS
- 12  9,7  - AsS
- 12  9,5  - Aw
- 12  6,7  - Ax
  12 11,3  | AxLE
+ 12  1,5  - CALESa
+ 12  1,7  - CALESa
  12  7,3  | CALO
  12  7,3  | CALOs
- 12  3,5  - CASa
- 12  3,7  - CASa
- 12  3,5  - CASe
+ 12  3,7  - CALo
  12  1,5  - CAStLE
- 12  5,5  - CAb
  12  3,5  - CAdE
  12  3,5  - CAfE
  12  3,5  - CAgE
  12  3,5  - CAkE
- 12  5,5  - CAm
- 12  5,7  - CAm
  12  3,5  - CAmE
  12  3,5  - CAnE
  12  7,3  | CAnOES
- 12  5,7  - CAp
  12  3,5  - CApE
  12  9,3  | CApH
  12  3,5  - CArE
@@ -1779,21 +1705,14 @@
  12  9,3  | CAsH
  12  3,5  - CAtE
  12  3,5  - CAvE
- 12  5,5  - CAw
- 12  5,7  - CAw
  12  5,5  - CEL
  12  7,3  | CELOm
  12  3,5  - CEcA
  12  3,7  - CEcA
- 12  4,5  - CEiL
  12  9,5  | CHiA
  12  9,5  | CHiS
  12  9,2  | CLAcH
- 12  4,5  - CLAd
- 12  4,7  - CLAd
  12  2,5  - CLAdE
- 12  4,5  - CLAn
- 12  4,7  - CLAn
  12  7,2  | CLArOES
  12  9,2  | CLAsH
  12  1,5  - CLAuSE
@@ -1814,10 +1733,8 @@
  12 11,6  | EASEl
  12 11,3  | EASEs
  12 11,6  | EASEs
- 12  5,7  - EASe
  12 10,2  | EAgLES
  12 10,6  | EAgLES
- 12  9,5  - EAr
  12 11,6  | EArL
  12 10,6  | EAsELS
  12 11,3  | EAsES
@@ -1827,6 +1744,7 @@
  12  9,4  | ECHe
  12  9,4  | ECHo
  12  9,4  | ECHt
+ 12  3,5  - ECLAt
  12 11,6  | EELs
  12 11,6  | EELy
  12  9,7  - EL
@@ -1842,37 +1760,33 @@
  12 11,6  | ELmS
  12 11,3  | ELsE
  12 11,6  | ELsE
- 12  3,7  - ESCAr
- 12  9,7  - ESs
  12  6,2  | EcLATS
  12 11,6  | EeLS
- 12  9,5  - Ef
- 12  9,7  - Ef
  12 11,6  | EgAL
  12 11,6  | ElLS
- 12  9,5  - Em
- 12  9,7  - Em
- 12  9,5  - ErA
+ 12  8,7  - EmS
  12 11,2  | ErASE
  12 11,6  | ErASE
- 12  9,7  - ErS
- 12  9,7  - EsS
  12  6,2  | ExALTS
  12  3,5  - LACE
- 12  3,5  - LASEd
  12  9,3  | LASHEd
  12  9,3  | LASHEr
  12  9,3  | LASHEs
+ 12  5,7  - LASe
  12  8,4  | LAWEd
  12  8,4  | LAWS
  12 11,3  | LAcE
  12 11,3  | LAdE
+ 12  5,7  - LAdE
  12 11,3  | LAkE
  12 11,3  | LAmE
+ 12  5,7  - LAmE
  12  6,1  | LAmEST
  12 11,3  | LAnE
+ 12  5,7  - LAnE
  12 10,2  | LArEES
  12 11,3  | LAsE
+ 12  5,7  - LAsE
  12 11,3  | LAtE
  12  6,1  | LAtEST
  12 11,3  | LAvE
@@ -1894,24 +1808,27 @@
  12 10,5  | LEAvES
  12 11,3  | LEkE
  12 11,3  | LaSE
+ 12  5,7  - LaSE
  12 11,3  | LoSE
+ 12  5,7  - LoSE
  12  6,2  | LySATE
  12 11,3  | LySE
  12  6,1  | SALlET
  12  6,2  | SALuTE
+ 12  7,5  - SAe
  12  6,1  | SAlLET
  12  6,1  | SAmLET
  12 11,2  | SArEE
  12 11,3  | SArEE
- 12  4,5  - SCAg
+ 12  7,5  - SAu
  12  8,2  | SCrAWL
  12 10,2  | SEALEd
  12 10,5  | SEALEd
  12 10,2  | SEALEr
  12 10,5  | SEALEr
- 12  3,5  - SELAh
- 12  3,7  - SELAh
- 12  5,5  - SEtA
+ 12  7,7  - SEa
+ 12  7,7  - SEe
+ 12  7,7  - SEi
  12 11,2  | SEtAE
  12 11,5  | SEtAE
  12  9,5  | SHEAL
@@ -1991,6 +1908,7 @@
  12  6,4  | ZETa
  12 10,5  | ZEdS
  12 11,5  | ZEdS
+ 12  4,5  - ZEe
  12 10,5  | ZEeS
  12 11,5  | ZEeS
  12 10,5  | ZEkS
@@ -2006,8 +1924,6 @@
  12  7,5  | ZOnA
  12  7,5  | ZOnE
  12  7,5  | ZOoS
- 12  5,5  - Za
- 12  5,7  - Za
  12 10,4  | ZeES
  12 11,4  | ZeES
  12  6,3  | ZeST
@@ -2016,11 +1932,9 @@
  12 10,4  | ZoEA
  12 11,4  | ZoEA
  12  7,4  | ZoOS
- 12  8,5  - aA
- 12  8,5  - aE
+ 12  6,5  - aLA
  12 11,3  | aLAE
  12 11,3  | aLEE
- 12  8,5  - aS
  12  9,3  | bACH
  12 11,3  | bALE
  12  5,7  - bASE
@@ -2080,10 +1994,7 @@
  12 10,3  | mEZE
  12 10,5  | mEZE
  12 11,5  | mEZE
- 12  8,5  - oE
- 12  8,7  - oE
  12  7,5  | oOZE
- 12  8,5  - oS
  12 11,3  | pALE
  12  6,1  | pALEST
  12  6,2  | pALETS
@@ -2126,22 +2037,24 @@
  12 10,5  | wEASEL
  12  9,3  | yECH
  11  4,5  - ACES
- 11  4,5  - ACEd
  11  9,2  | ALEpHS
  11  8,3  | ALoW
  11  9,4  | ASHLEr
+ 11  9,7  - ASh
+ 11  9,7  - ASs
  11  8,5  | AWLESs
  11  8,5  | AWLEsS
  11  8,5  | AWoL
- 11  8,5  - Aa
- 11  8,5  - Ae
- 11  9,5  - Ah
- 11  9,7  - Ah
- 11  6,7  - ArE
- 11  8,5  - As
- 11  9,5  - Ay
+ 11  9,7  - AdS
+ 11  9,7  - AhS
+ 11  9,7  - AlS
+ 11  9,7  - ArS
+ 11  9,7  - AsS
  11  7,2  | CALlOSE
  11  2,5  - CALvE
+ 11  3,5  - CASa
+ 11  3,7  - CASa
+ 11  3,5  - CASe
  11  8,1  | CAShEW
  11  2,5  - CAbLE
  11  7,2  | CAlLOSE
@@ -2150,10 +2063,10 @@
  11  7,3  | CAnOE
  11  7,3  | CApOS
  11  2,5  - CArLE
- 11  5,5  - CAy
- 11  5,7  - CAy
+ 11  4,5  - CAuL
  11  2,5  - CELlA
  11  2,7  - CELlA
+ 11  4,5  - CEiL
  11  2,5  - CElLA
  11  2,7  - CElLA
  11  7,3  | CErOS
@@ -2166,21 +2079,25 @@
  11  7,5  | COrALS
  11  8,5  | CWmS
  11  7,3  | CaLO
- 11  5,5  - CeL
  11  7,3  | ChAOS
  11  8,3  | CrAWL
- 11  3,5  - EASeL
- 11  4,5  - ECuS
+ 11  5,7  - EASe
+ 11  9,5  - EAr
+ 11  3,7  - ESCAr
  11  7,3  | ESCOLAr
- 11  9,5  - Eh
- 11  9,7  - Eh
- 11  6,5  - EtA
+ 11  9,7  - ESs
+ 11  9,7  - EdS
+ 11  9,7  - EfS
+ 11  9,7  - ElS
+ 11  9,7  - EmS
+ 11  9,7  - EnS
+ 11  9,5  - ErA
+ 11  9,7  - ErS
+ 11  9,7  - EsS
  11  9,6  | HACEk
  11  9,6  | HEALS
  11  7,5  - LA
- 11  3,5  - LACe
  11  7,2  | LACtOSE
- 11  3,5  - LASEs
  11  8,4  | LAW
  11  8,4  | LAWn
  11  8,4  | LAWs
@@ -2198,8 +2115,6 @@
  11  3,5  - LAvES
  11  3,5  - LAxES
  11  3,5  - LAzES
- 11  4,7  - LEAf
- 11  4,7  - LEAp
  11  8,4  | LEWd
  11  3,5  - LaCE
  11  8,4  | LaWS
@@ -2210,12 +2125,17 @@
  11  8,4  | LoWE
  11  8,4  | LoWS
  11  3,5  - LuCE
- 11  4,5  - SCAd
- 11  4,7  - SCAd
- 11  4,5  - SCAn
- 11  4,7  - SCAn
+ 11  9,5  - SAb
+ 11  9,5  - SAd
+ 11  5,7  - SAdE
+ 11  5,7  - SAfE
+ 11  5,7  - SAmE
+ 11  5,7  - SAnE
+ 11  9,5  - SAw
+ 11  9,5  - SAy
  11  3,5  - SEpAL
  11  3,5  - SErAL
+ 11  5,5  - SEtA
  11  3,5  - SEtAL
  11  9,5  | SHACk
  11  9,5  | SHALE
@@ -2228,17 +2148,10 @@
  11  9,5  | SHEaL
  11  9,5  | SHElL
  11  9,5  | SHEoL
- 11  4,5  - SLAb
- 11  4,5  - SLAm
- 11  4,7  - SLAm
- 11  4,7  - SLAp
- 11  4,5  - SLAw
- 11  4,7  - SLAw
- 11  4,5  - SLEw
  11  8,3  | SLaW
  11  8,3  | SLeW
  11  8,3  | SLoW
- 11  9,5  - Sh
+ 11  9,5  - ShA
  11  3,5  - ShEAL
  11  3,5  - StEAL
  11  8,6  | WALe
@@ -2267,12 +2180,17 @@
  11 11,5  | ZEp
  11  7,5  | ZOa
  11  7,5  | ZOo
+ 11  5,5  - Za
+ 11  5,7  - Za
  11 10,4  | ZeE
  11 11,4  | ZeE
  11  6,4  | ZiT
  11  7,4  | ZoO
+ 11  8,5  - aA
+ 11  8,5  - aE
+ 11  9,7  - aLS
+ 11  8,5  - aS
  11  7,4  | aZO
- 11  7,5  - bA
  11  8,3  | bLAW
  11  8,3  | bLEW
  11  8,3  | cLAW
@@ -2280,8 +2198,8 @@
  11  7,5  | cOSEC
  11  7,5  | cOZ
  11  3,5  - dACES
+ 11  9,7  - eLS
  11  3,5  - fACES
- 11  7,7  - fE
  11 10,5  | fEZ
  11 11,5  | fEZ
  11  8,3  | fLAW
@@ -2290,11 +2208,11 @@
  11  3,5  - lACES
  11  7,5  | lOCALE
  11  7,5  | lOCALS
- 11  7,5  - mA
  11  3,5  - mACES
  11  2,5  - mACLE
- 11  7,7  - mE
- 11  6,7  - oSE
+ 11  8,5  - oE
+ 11  8,7  - oE
+ 11  8,5  - oS
  11  3,5  - pACES
  11  8,3  | pLEW
  11  3,5  - rACES
@@ -2307,12 +2225,9 @@
  11  7,2  | tALCOSE
  11  9,5  | tHECA
  11  7,5  | vOCALS
- 11  7,7  - wE
  11  9,5  | wHEALS
  10  6,3  | ACETaLS
  10  6,3  | ACETyLS
- 10  4,5  - ACEs
- 10  4,5  - ACeS
  10  7,3  | ALCOvE
  10  6,2  | ALErT
  10  6,2  | ALiST
@@ -2324,47 +2239,54 @@
  10  8,5  | AWLS
  10 10,2  | AbELE
  10  3,5  - AbLES
- 10  9,5  - Ad
- 10  9,7  - Ad
  10 10,2  | AgLEE
  10  6,2  | AgLET
  10 10,2  | AiSLE
- 10  9,7  - Al
  10 10,2  | AlLEE
- 10  9,5  - An
- 10  9,7  - An
+ 10  6,7  - AnE
  10 10,2  | AnELE
+ 10  6,7  - ApE
+ 10  6,7  - ArE
  10  3,5  - ArLES
+ 10  6,7  - AwE
+ 10  6,7  - AxE
  10  3,5  - AxLES
+ 10  6,7  - AyE
  10  6,3  | CASTLE
  10  6,3  | CASTLEd
  10  6,3  | CASTLEs
  10  2,5  - CAStE
- 10  5,5  - CAd
- 10  5,7  - CAd
  10  7,3  | CAlO
  10  7,3  | CAmO
- 10  5,5  - CAn
- 10  5,7  - CAn
  10  6,3  | CAnTLES
  10  7,3  | CApO
  10  2,5  - CArSE
  10  6,3  | CArTELS
  10  6,3  | CAsTLES
  10  2,5  - CAuSE
- 10  2,5  - CEASe
  10 10,3  | CELEStA
  10  7,2  | CELlOS
  10  7,4  | CEOrLS
  10  2,5  - CEStA
  10  2,7  - CEStA
- 10  4,5  - CEeS
- 10  5,5  - CEl
  10  7,2  | CElLOS
  10  6,3  | CEnTALS
  10 10,3  | CErEALS
  10  7,3  | CErO
+ 10  4,5  - CLAd
+ 10  4,7  - CLAd
+ 10  4,5  - CLAg
+ 10  4,5  - CLAm
+ 10  4,7  - CLAm
+ 10  4,5  - CLAn
+ 10  4,7  - CLAn
+ 10  4,7  - CLAp
  10  7,2  | CLArO
+ 10  4,5  - CLAw
+ 10  4,7  - CLAw
+ 10  4,5  - CLAy
+ 10  4,7  - CLAy
+ 10  4,5  - CLEw
  10  7,4  | CLOAkS
  10  7,4  | CLOnES
  10  7,4  | CLOsES
@@ -2387,6 +2309,7 @@
  10  7,5  | COrAL
  10  7,5  | COxAL
  10  4,5  - CeES
+ 10  5,5  - CeL
  10  7,3  | ChAO
  10  8,3  | ChAWS
  10  2,5  - ChELA
@@ -2401,6 +2324,7 @@
  10  8,3  | CrAWS
  10  8,3  | CrEWS
  10  4,5  - CuES
+ 10  3,5  - EASeL
  10 10,6  | EASeL
  10 10,2  | EAgLE
  10 10,6  | EAgLE
@@ -2413,11 +2337,7 @@
  10  9,7  - ES
  10 10,6  | EaSEL
  10  6,2  | EcLAT
- 10  9,5  - Ed
- 10  9,7  - Ed
- 10  9,7  - El
- 10  9,5  - En
- 10  9,7  - En
+ 10  6,5  - EtA
  10  6,2  | ExALT
  10  9,6  | HACkS
  10  9,6  | HALES
@@ -2436,18 +2356,15 @@
  10  9,6  | HErLS
  10  6,3  | LACTaSE
  10  6,3  | LACToSE
+ 10  3,5  - LACe
+ 10  3,5  - LASEd
+ 10  3,5  - LASEs
  10  9,3  | LASH
- 10  5,5  - LAb
  10  9,3  | LAkHS
- 10  5,5  - LAm
- 10  5,7  - LAm
- 10  5,7  - LAp
  10 10,2  | LApSE
  10 10,2  | LArEE
  10  9,3  | LAtHE
  10  9,3  | LAtHS
- 10  5,5  - LAw
- 10  5,7  - LAw
  10  9,2  | LEASH
  10  6,2  | LEAnT
  10  6,2  | LEApT
@@ -2462,31 +2379,23 @@
  10  7,5  | LOCAlES
  10  7,5  | LOCAtES
  10  7,5  | LOCoES
- 10  7,5  - La
  10  6,3  | LaCTASE
  10  8,4  | LaW
  10 10,2  | LeASE
  10  6,2  | LeAST
- 10  7,5  - Lo
  10  7,3  | LoCOS
  10  8,4  | LoW
  10 10,2  | LyASE
  10  2,5  - LyCEA
  10  2,7  - LyCEA
- 10  3,5  - SALEs
  10 10,2  | SALvE
  10 10,2  | SAbLE
  10  2,5  - SAiCE
  10  2,5  - SAuCE
- 10  4,5  - SAuL
  10  6,2  | SAuLT
- 10  4,7  - SCAr
- 10  4,5  - SCAt
  10 10,3  | SCLErAE
  10  8,2  | SCrEW
  10  4,5  - SEAL
- 10  4,5  - SEAm
- 10  4,7  - SEAm
  10  9,2  | SELAH
  10  9,2  | SELAHs
  10 10,2  | SELlE
@@ -2496,13 +2405,10 @@
  10  9,5  | SHeAL
  10  9,5  | SHiEL
  10  9,5  | SHoAL
- 10  4,5  - SLAg
  10 10,2  | SLAkE
  10  6,2  | SLAnT
  10 10,2  | SLAtE
  10 10,2  | SLAvE
- 10  4,5  - SLAy
- 10  4,7  - SLAy
  10  6,2  | SLEeT
  10  6,2  | SLEpT
  10  6,2  | SLeET
@@ -2566,7 +2472,6 @@
  10  8,6  | WhEAL
  10  4,5  - aCES
  10  6,3  | aCETALS
- 10  9,7  - aL
  10  8,4  | bAWLS
  10 10,2  | bLASE
  10  6,2  | bLAST
@@ -2579,19 +2484,17 @@
  10  9,4  | dAHLS
  10  6,2  | dEALT
  10  3,5  - eASEL
- 10  9,7  - eL
  10 10,2  | fALSE
  10  9,2  | fLASH
  10  9,2  | fLESH
  10  7,5  | fOCAL
- 10  7,5  - hA
- 10  7,7  - hE
  10  4,5  - iCES
  10  6,2  | iSLET
  10  7,5  | lOCAL
  10  8,4  | mEWLS
  10  4,5  - oCAS
  10  4,7  - oCAS
+ 10  6,7  - oSE
  10  6,2  | pALET
  10  8,4  | pAWLS
  10  9,2  | pLASH
@@ -2608,11 +2511,12 @@
  10  8,4  | wAWLS
  10  9,5  | wHALES
  10  9,5  | wHEAL
- 10  7,5  - yA
  10  8,4  | yAWLS
- 10  7,7  - yE
   9  6,3  | ACETaL
   9  6,3  | ACETyL
+  9  4,5  - ACEd
+  9  4,5  - ACEs
+  9  4,5  - ACeS
   9  3,5  - AChE
   9  3,5  - ACmE
   9  3,5  - ACnE
@@ -2621,20 +2525,16 @@
   9 11,4  | ALECS
   9  4,5  - ALES
   9  9,2  | ALEpH
-  9  3,5  - ASCi
-  9  3,7  - ASCi
   9  8,5  | AWES
-  9  9,5  - Aa
+  9  8,5  - Aa
+  9  8,5  - Ae
   9 11,3  | AgEE
   9 11,3  | AjEE
   9 11,3  | AkEE
   9 11,3  | AlEE
   9 11,3  | ApSE
-  9  9,5  - Ar
-  9  9,7  - Ar
   9 11,3  | ArSE
-  9  9,7  - As
-  9  9,7  - At
+  9  8,5  - As
   9 11,3  | AwEE
   9  4,5  - AxEL
   9 10,3  | CALESa
@@ -2643,14 +2543,14 @@
   9 10,3  | CAmELS
   9  7,2  | CAmEOS
   9  6,3  | CAnTLE
-  9  5,7  - CAr
   9  6,3  | CArTEL
   9  6,3  | CAsTLE
-  9  5,5  - CAt
   9  6,3  | CAtTLE
+  9  2,5  - CEASe
   9 10,3  | CELEbS
   9  6,3  | CELTS
   9  7,2  | CELlO
+  9  4,5  - CEeS
   9  7,2  | CElLO
   9  6,3  | CEnTAL
   9 10,3  | CErEAL
@@ -2690,11 +2590,8 @@
   9 10,4  | ChELAE
   9 10,4  | ChELAS
   9  8,3  | ChEW
-  9  5,5  - CiS
-  9  5,7  - CiS
   9  8,3  | ClAW
   9  8,3  | ClEW
-  9  5,7  - CoS
   9  6,3  | CoSTAL
   9  8,3  | CrAW
   9 10,3  | CrEELS
@@ -2711,9 +2608,8 @@
   9 11,6  | EAtS
   9 11,3  | EAvE
   9 11,6  | EAvE
+  9  4,5  - ECuS
   9 11,6  | EElS
-  9  4,5  - ELAn
-  9  4,7  - ELAn
   9 10,4  | ELECtS
   9 11,6  | ESEs
   9 11,3  | ESnE
@@ -2724,13 +2620,10 @@
   9 11,6  | EkES
   9 11,3  | ElSE
   9 11,6  | ElSE
+  9  8,7  - Em
   9 11,6  | EmES
-  9  9,5  - Er
-  9  9,7  - Er
   9 11,6  | ErAS
-  9  9,7  - Es
   9 11,6  | EsES
-  9  9,7  - Et
   9 11,6  | EtAS
   9 11,6  | EvES
   9 11,6  | EwES
@@ -2760,19 +2653,9 @@
   9 10,3  | LACES
   9 10,3  | LACErS
   9  3,5  - LASE
-  9  5,5  - LAg
-  9  5,5  - LAy
-  9  5,7  - LAy
   9  4,5  - LEAS
   9  4,7  - LEAS
-  9  4,5  - LEAd
-  9  4,7  - LEAd
-  9  4,5  - LEAl
-  9  4,5  - LEAn
-  9  4,7  - LEAn
   9  9,2  | LEaSH
-  9  5,5  - LEg
-  9  5,5  - LEy
   9  7,5  | LOCAlE
   9  7,5  | LOCAlS
   9  7,5  | LOCAtE
@@ -2780,7 +2663,9 @@
   9  7,5  | LOCkS
   9  7,5  | LOCoS
   9  7,5  | LOCuS
+  9  7,5  - La
   9  9,3  | LaSH
+  9  7,5  - Lo
   9  7,3  | LoCO
   9  9,3  | LuSH
   9 10,3  | LyCEES
@@ -2789,35 +2674,40 @@
   9  7,6  | OSCuLA
   9  7,6  | OSCuLE
   9  5,5  - SAL
+  9  3,5  - SALEs
   9  8,4  | SAWEd
   9  8,4  | SAWEr
-  9  5,5  - SAb
   9 11,3  | SAbE
   9 11,3  | SAdE
   9 11,3  | SAfE
   9 11,3  | SAgE
-  9  4,5  - SAiL
   9 11,3  | SAkE
   9 11,3  | SAlE
   9 11,3  | SAmE
   9 11,3  | SAnE
-  9  5,7  - SAp
   9 11,3  | SAtE
   9 11,3  | SAvE
-  9  5,5  - SAw
-  9  5,7  - SAw
+  9  4,5  - SCAb
+  9  4,5  - SCAd
+  9  4,7  - SCAd
+  9  4,5  - SCAg
+  9  4,5  - SCAm
+  9  4,7  - SCAm
+  9  4,5  - SCAn
+  9  4,7  - SCAn
+  9  4,7  - SCAr
+  9  4,5  - SCAt
   9 10,3  | SCLErA
   9  7,4  | SCOLEx
   9  5,5  - SEL
+  9  3,5  - SELAh
+  9  3,7  - SELAh
   9 10,3  | SELECt
   9  8,4  | SEWAn
   9  8,4  | SEWAr
-  9  4,5  - SEaL
-  9  4,5  - SEeL
   9 11,3  | SEmE
   9 11,3  | SEnE
   9 11,3  | SErE
-  9  5,5  - SEw
   9  9,5  | SHALe
   9  9,5  | SHALl
   9  9,5  | SHALt
@@ -2837,7 +2727,6 @@
   9  9,2  | SLAsH
   9  2,5  - SLAtE
   9  2,5  - SLAvE
-  9  4,5  - SLEd
   9  8,5  | SWEAr
   9  8,5  | SWEAt
   9  4,5  - SeAL
@@ -2845,7 +2734,6 @@
   9  4,5  - SiAL
   9  3,5  - SiCE
   9 11,3  | SkEE
-  9  9,5  - So
   9  3,5  - SoCA
   9  3,7  - SoCA
   9  2,5  - SpACE
@@ -2869,7 +2757,6 @@
   9  9,5  | cHELA
   9  9,4  | dAHL
   9  3,5  - dALES
-  9  7,7  - dE
   9  4,5  - dEAL
   9  9,5  | dHALS
   9  7,5  | dOLCE
@@ -2882,13 +2769,10 @@
   9  8,4  | hAWSE
   9  4,5  - hEAL
   9  3,5  - kALES
-  9  7,5  - lA
   9 11,3  | lASE
   9  4,5  - lEAL
   9  3,5  - mALES
   9  4,5  - mEAL
-  9  7,5  - nA
-  9  7,7  - nE
   9  8,5  | oWLS
   9  3,5  - pALES
   9 11,3  | pASE
@@ -2930,13 +2814,9 @@
   8 11,4  | ALEC
   8 10,4  | ALECs
   8 11,4  | ALECs
-  8  4,5  - ALEs
-  8  4,7  - ALaE
-  8  4,5  - ALaS
-  8  4,7  - ALaS
-  8  4,5  - ALeS
-  8  4,7  - ALoE
   8  7,3  | ASCOt
+  8  3,5  - ASCi
+  8  3,7  - ASCi
   8  9,4  | ASHEd
   8  9,4  | ASHEn
   8  9,4  | ASHEs
@@ -2945,28 +2825,50 @@
   8  8,5  | AWeS
   8  8,5  | AWlS
   8  8,5  | AWnS
-  8  5,5  - AaL
-  8  6,5  - Ab
-  8 10,5  - Ab
-  8  5,5  - AiL
-  8  6,5  - Am
-  8 10,5  - Am
-  8  6,7  - Am
+  8  9,5  - Aa
+  8  9,5  - Ab
+  8  9,5  - Ad
+  8  9,7  - Ad
+  8  9,5  - Ah
+  8  9,7  - Ah
+  8  9,7  - Al
+  8  9,5  - Am
+  8  9,7  - Am
+  8  9,5  - An
+  8  9,7  - An
+  8  9,5  - Ar
+  8  9,7  - Ar
+  8  9,7  - As
   8  6,2  | AsSET
-  8  6,5  - Aw
-  8 10,5  - Aw
-  8  6,7  - Aw
+  8  9,7  - At
+  8  9,5  - Aw
+  8  9,7  - Ax
+  8  9,5  - Ay
   8  6,3  | CASTE
   8  6,3  | CASTEr
   8  6,3  | CASTEs
   8  6,3  | CASTlE
   8  6,4  | CATES
   8  6,4  | CATErS
+  8  5,5  - CAb
+  8  5,5  - CAd
+  8  5,7  - CAd
+  8  5,5  - CAm
+  8  5,7  - CAm
   8 10,3  | CAmEL
   8  7,2  | CAmEO
+  8  5,5  - CAn
+  8  5,7  - CAn
   8  7,2  | CAnSO
+  8  5,7  - CAp
+  8  5,7  - CAr
   8  6,3  | CArTES
   8  6,3  | CAsTES
+  8  5,5  - CAt
+  8  5,5  - CAw
+  8  5,7  - CAw
+  8  5,5  - CAy
+  8  5,7  - CAy
   8 10,5  | CEASE
   8 10,3  | CELEb
   8 10,5  | CELEb
@@ -2982,6 +2884,7 @@
   8  6,3  | CESTAs
   8 10,5  | CEcAL
   8 10,5  | CEiLS
+  8  5,5  - CEl
   8 10,5  | CElLA
   8 10,5  | CElLS
   8  6,3  | CEnTAS
@@ -3055,9 +2958,12 @@
   8 10,4  | ChELA
   8 11,4  | ChELA
   8  7,4  | ChOLA
+  8  5,5  - CiS
+  8  5,7  - CiS
   8 10,3  | CoLES
   8  6,3  | CoLTS
   8  7,4  | CoOLS
+  8  5,7  - CoS
   8  6,3  | CoSTAE
   8  6,3  | CrATES
   8 10,4  | CrEASE
@@ -3071,17 +2977,30 @@
   8 10,6  | EAsES
   8 10,6  | EAvES
   8  7,3  | EChOS
-  8  4,5  - ECu
   8  6,5  - EL
   8 10,4  | ELECt
   8 11,4  | ELECt
   8  9,4  | ELHi
   8  7,3  | ESCOt
   8  8,5  | EWeS
-  8  5,5  - EeL
-  8  6,5  - Em
+  8  9,5  - Ed
+  8  9,7  - Ed
+  8  9,5  - Ef
+  8  9,7  - Ef
+  8  9,5  - Eh
+  8  9,7  - Eh
+  8  9,7  - El
+  8  9,5  - Em
+  8  9,7  - Em
+  8  9,5  - En
+  8  9,7  - En
+  8  9,5  - Er
+  8  9,7  - Er
   8 10,2  | ErASE
   8 10,6  | ErASE
+  8  9,7  - Es
+  8  9,7  - Et
+  8  9,7  - Ex
   8 10,3  | ExCEL
   8  9,6  | HAES
   8  9,6  | HALeS
@@ -3119,11 +3038,8 @@
   8 10,3  | LACEy
   8  5,5  - LAS
   8  5,7  - LAS
-  8  3,5  - LASe
   8  6,4  | LATCh
   8  3,5  - LAcE
-  8  5,5  - LAd
-  8  5,7  - LAd
   8  3,5  - LAdE
   8  3,5  - LAkE
   8  9,3  | LAkH
@@ -3138,11 +3054,7 @@
   8  3,5  - LAvE
   8  3,5  - LAzE
   8 10,5  | LEACh
-  8  2,5  - LEASe
   8  9,2  | LEAcH
-  8  4,7  - LEAr
-  8  4,5  - LEAs
-  8  4,7  - LEAs
   8  9,2  | LEAsH
   8 10,4  | LEECh
   8 11,4  | LEECh
@@ -3151,13 +3063,7 @@
   8  9,4  | LEHuA
   8  5,5  - LES
   8  6,4  | LETCh
-  8  4,5  - LEaS
-  8  4,7  - LEaS
   8  9,3  | LEcH
-  8  5,5  - LEd
-  8  4,5  - LEeS
-  8  4,5  - LEiS
-  8  4,7  - LEiS
   8  3,5  - LEvA
   8  3,7  - LEvA
   8  7,5  | LOACh
@@ -3190,14 +3096,12 @@
   8  8,4  | SAWs
   8  2,5  - SAbLE
   8  9,3  | SAdHE
-  8  5,5  - SAg
+  8  4,5  - SAiL
   8 10,2  | SArEE
-  8  5,5  - SAy
-  8  5,7  - SAy
+  8  4,5  - SAuL
   8  6,3  | SCAThE
   8  7,4  | SCOLd
   8  7,4  | SCOwL
-  8  4,5  - SEAl
   8  7,2  | SECcO
   8  9,2  | SELaH
   8  2,5  - SELvA
@@ -3205,8 +3109,9 @@
   8  8,4  | SEW
   8  8,4  | SEWn
   8  8,4  | SEWs
+  8  4,5  - SEaL
   8  7,2  | SEcCO
-  8  5,5  - SEg
+  8  4,5  - SEeL
   8  9,2  | SElAH
   8 10,3  | SEnECA
   8 10,2  | SEtAE
@@ -3215,20 +3120,16 @@
   8  9,5  | SHEAl
   8  9,5  | SHEAr
   8  9,5  | SHEAs
-  8  4,5  - SLAt
-  8  4,7  - SLoE
   8  7,5  | SOCAgE
   8  7,5  | SOCLe
   8  7,5  | SOClE
   8  8,5  | SWAiL
   8  8,5  | SWElL
-  8  5,5  - SaL
-  8  5,5  - SeL
   8  9,2  | SeLAH
+  8  9,5  - Sh
   8  8,3  | ShAWL
   8  8,4  | ShWA
-  8  7,5  - So
-  8  7,7  - So
+  8  9,5  - So
   8  6,2  | SwEAT
   8  6,6  | TAElS
   8  6,6  | TALC
@@ -3282,17 +3183,15 @@
   8  8,6  | WiSE
   8  8,6  | WoES
   8  8,6  | WyES
-  8  9,5  - aA
   8  5,5  - aAL
+  8  9,7  - aL
   8  4,7  - aLAE
   8  4,5  - aLAS
   8  4,7  - aLAS
   8 10,4  | aLECS
   8 11,4  | aLECS
   8  4,5  - aLES
-  8  9,7  - aS
   8  8,5  | aWES
-  8 10,5  - bA
   8  5,5  - bAL
   8  6,2  | bEAST
   8  5,5  - bEL
@@ -3311,9 +3210,8 @@
   8 10,5  | dECAL
   8  5,5  - dEL
   8  5,5  - eEL
-  8  9,7  - eS
+  8  9,7  - eL
   8  8,5  | eWES
-  8 10,5  - fA
   8  3,5  - fACE
   8 10,4  | fAECES
   8  2,5  - fALSE
@@ -3325,17 +3223,14 @@
   8  5,5  - gEL
   8 10,4  | iLEAC
   8 11,4  | iLEAC
-  8  9,7  - iS
   8  3,5  - lACE
   8 10,2  | lEASE
   8  9,2  | lEASH
   8  6,2  | lEAST
-  8 10,5  - mA
   8  3,5  - mACE
   8  5,5  - mEL
   8  6,4  | oCTAL
   8  4,5  - oLES
-  8  9,7  - oS
   8  8,5  | oWES
   8  8,5  | oWSE
   8  3,5  - pACE
@@ -3343,14 +3238,12 @@
   8 10,2  | pEASE
   8  9,5  | pHASE
   8  3,5  - rACE
-  8  7,7  - rE
   8  6,2  | rESAT
   8  9,5  | rHEAS
   8  5,5  - sAL
   8  5,5  - sEL
   8  9,5  | sHEAS
   8  7,5  | sOCAS
-  8  7,5  - tA
   8  3,5  - tACE
   8 10,2  | tEASE
   8  5,5  - tEL
@@ -3367,7 +3260,6 @@
   7  6,3  | ACETa
   7  6,4  | ACTEd
   7  6,4  | ACTS
-  7  4,5  - ACe
   7 10,3  | AChES
   7 10,3  | ACkEE
   7 10,3  | ACmES
@@ -3377,25 +3269,27 @@
   7  9,5  | AHEd
   7  9,5  | AHEm
   7  9,5  | AHS
-  7  3,5  - ALEe
-  7  3,7  - ALSo
+  7  4,5  - ALEs
   7  3,5  - ALaE
+  7  4,7  - ALaE
+  7  4,5  - ALaS
+  7  4,7  - ALaS
   7  7,3  | ALdOSE
   7  3,5  - ALeE
+  7  4,5  - ALeS
   7  3,5  - ALmE
   7  3,5  - ALoE
+  7  4,7  - ALoE
   7  7,3  | ASLOpE
   7  8,2  | ASkEW
   7  8,5  | AWL
   7  8,5  | AWLs
+  7  5,5  - AaL
   7  3,5  - AbLE
   7  4,5  - AcES
   7  9,4  | AcHES
-  7  6,5  - Ag
   7  4,5  - AgES
-  7  6,5  - Ah
-  7 10,5  - Ah
-  7  6,7  - Ah
+  7  5,5  - AiL
   7  2,5  - AiSLE
   7 10,4  | AlECS
   7 11,4  | AlECS
@@ -3412,9 +3306,6 @@
   7  4,5  - AwES
   7  4,5  - AxES
   7  3,5  - AxLE
-  7  6,5  - Ay
-  7 10,5  - Ay
-  7  6,7  - Ay
   7  4,5  - AyES
   7  7,4  | AzOLES
   7 10,3  | CASE
@@ -3465,7 +3356,6 @@
   7 10,5  | CEaSE
   7 10,3  | CEdES
   7 10,5  | CEdES
-  7  4,5  - CEe
   7 10,5  | CEiL
   7 11,5  | CEiL
   7 10,5  | CElL
@@ -3530,8 +3420,9 @@
   7  6,4  | CuTES
   7 10,3  | EChES
   7  7,3  | EChO
-  7  3,5  - ELSe
-  7  6,5  - Eh
+  7  4,5  - ELAn
+  7  4,7  - ELAn
+  7  5,5  - EeL
   7  9,4  | EpHAS
   7  4,5  - ErAS
   7  4,7  - ErAS
@@ -3589,16 +3480,27 @@
   7  9,6  | HoLS
   7  9,6  | HuLA
   7  9,6  | HyLA
-  7  5,7  - LAr
-  7  5,5  - LAs
-  7  5,7  - LAs
-  7  5,5  - LAt
+  7  3,5  - LASe
+  7  2,5  - LEASe
+  7  4,5  - LEAd
+  7  4,7  - LEAd
+  7  4,7  - LEAf
+  7  4,5  - LEAl
+  7  4,5  - LEAn
+  7  4,7  - LEAn
+  7  4,7  - LEAp
+  7  4,7  - LEAr
+  7  4,5  - LEAs
+  7  4,7  - LEAs
   7 10,5  | LECh
   7 11,5  | LECh
   7  9,4  | LEHr
+  7  4,5  - LEaS
+  7  4,7  - LEaS
+  7  4,5  - LEeS
+  7  4,5  - LEiS
+  7  4,7  - LEiS
   7  7,3  | LEnOS
-  7  5,5  - LEs
-  7  5,5  - LEt
   7  7,5  | LOAvES
   7  7,5  | LOCa
   7  7,5  | LOCh
@@ -3607,14 +3509,8 @@
   7  7,5  | LOCo
   7  8,5  | LWEi
   7 10,3  | LaCE
-  7  5,5  - LaS
-  7  5,7  - LaS
   7  2,5  - LeASE
-  7  5,5  - LeS
   7 10,3  | LiCE
-  7  5,7  - LiE
-  7  5,5  - LiS
-  7  5,7  - LiS
   7 10,3  | LuCE
   7  2,5  - LyASE
   7  7,6  | OCaS
@@ -3626,10 +3522,6 @@
   7  7,6  | OrCS
   7  7,6  | OvALS
   7  5,7  - SAE
-  7  3,5  - SALe
-  7  5,5  - SAd
-  7  5,7  - SAd
-  7  5,5  - SAl
   7  6,3  | SCAT
   7  6,3  | SCATs
   7  6,3  | SCATt
@@ -3643,14 +3535,8 @@
   7 10,3  | SCrEE
   7  6,3  | SCuTA
   7  6,3  | SCuTE
-  7  4,7  - SEAr
-  7  4,5  - SEAs
-  7  4,7  - SEAs
-  7  4,5  - SEAt
   7  6,3  | SECT
   7  6,3  | SECTs
-  7  5,5  - SEl
-  7  5,5  - SEn
   7 10,5  | SErAC
   7  9,5  | SHA
   7  9,5  | SHAd
@@ -3666,8 +3552,21 @@
   7  9,5  | SHEs
   7  9,5  | SHEw
   7  9,5  | SHuL
+  7  4,5  - SLAb
+  7  4,5  - SLAg
+  7  4,5  - SLAm
+  7  4,7  - SLAm
+  7  4,7  - SLAp
+  7  4,5  - SLAt
+  7  4,5  - SLAw
+  7  4,7  - SLAw
+  7  4,5  - SLAy
+  7  4,7  - SLAy
   7  7,1  | SLEAzO
+  7  4,5  - SLEd
+  7  4,5  - SLEw
   7  3,5  - SLoE
+  7  4,7  - SLoE
   7  3,5  - SLuE
   7  7,5  | SOCA
   7  7,5  | SOCAs
@@ -3676,13 +3575,16 @@
   7  8,5  | SWAgE
   7  8,5  | SWAlE
   7  8,5  | SWArE
+  7  5,5  - SaL
   7  3,5  - SaLE
   7  8,4  | SaW
   7  2,5  - ScALE
+  7  5,5  - SeL
   7  8,4  | SeW
-  7 10,7  - Sh
   7  9,3  | ShAH
   7  2,5  - ShALE
+  7  7,5  - So
+  7  7,7  - So
   7  3,5  - SoLA
   7  3,7  - SoLA
   7  3,5  - SoLE
@@ -3724,41 +3626,48 @@
   7  9,4  | aAHS
   7  4,5  - aCE
   7  6,3  | aCETA
-  7  6,5  - aL
   7 10,4  | aLEC
   7 11,4  | aLEC
+  7  7,5  - bA
   7  8,4  | bAWL
   7  9,3  | bLAH
   7  7,4  | bLOC
   7 10,3  | dACES
   7  9,4  | dAHS
+  7  7,7  - dE
   7  7,3  | dECOS
   7  9,5  | dHAL
-  7  6,5  - eL
   7 10,3  | fACES
   7  6,3  | fACTS
+  7  7,7  - fE
   7 10,3  | fECES
   7 10,5  | fECES
   7  9,4  | fEHS
   7  7,4  | fLOC
   7  4,5  - gAES
-  7 10,5  - hA
+  7  7,5  - hA
   7  4,5  - hAES
   7  9,4  | hAHS
   7  7,4  | hAOLES
+  7  7,7  - hE
   7  9,4  | hEHS
   7  7,5  | hOSEL
   7  4,5  - iCE
   7  4,5  - kAES
   7  4,5  - kEAS
   7  4,7  - kEAS
+  7  7,5  - lA
   7 10,3  | lACES
   7  4,5  - lEAS
   7  4,7  - lEAS
   7  7,5  | lOSEL
+  7  7,5  - mA
   7 10,3  | mACES
   7  4,5  - mAES
+  7  7,7  - mE
   7  8,4  | mEWL
+  7  7,5  - nA
+  7  7,7  - nE
   7  4,5  - oCA
   7  4,7  - oCA
   7 10,3  | pACES
@@ -3769,11 +3678,13 @@
   7  4,7  - pEAS
   7  9,4  | pEHS
   7 10,3  | rACES
+  7  7,7  - rE
   7  6,3  | rECTA
   7  6,3  | sCATS
   7  4,5  - sEAS
   7  4,7  - sEAS
   7  6,3  | sECTS
+  7  7,5  - tA
   7 10,3  | tACES
   7  7,3  | tACOS
   7  6,3  | tACTS
@@ -3782,8 +3693,10 @@
   7  6,3  | tECTA
   7  4,5  - wAES
   7  8,4  | wAWL
-  7 10,5  - yA
+  7  7,7  - wE
+  7  7,5  - yA
   7  8,4  | yAWL
+  7  7,7  - yE
   7  4,5  - yEAS
   7  4,7  - yEAS
   7  7,5  | zOEAL
@@ -3796,6 +3709,7 @@
   6  6,4  | ACT
   6  6,4  | ACTa
   6  6,4  | ACTs
+  6  4,5  - ACe
   6 10,3  | AChE
   6 10,3  | ACmE
   6 10,3  | ACnE
@@ -3803,16 +3717,16 @@
   6  6,7  - AE
   6  9,5  | AHiS
   6  4,5  - ALE
+  6  3,5  - ALEe
   6  7,4  | ALOES
   6  7,3  | ALSO
+  6  3,7  - ALSo
   6  6,4  | ALTErS
   6  6,3  | ALaTES
   6 10,3  | ALlEES
   6  7,3  | ALtOS
   6  6,5  - AS
   6  6,7  - AS
-  6  3,5  - ASEa
-  6  3,7  - ASEa
   6  9,4  | ASH
   6  9,4  | ASHy
   6 10,3  | ASLEEp
@@ -3821,22 +3735,11 @@
   6  8,5  | AWEe
   6  8,5  | AWEs
   6  9,4  | AaHS
-  6  5,5  - AaS
-  6  5,7  - AaS
   6 10,4  | AbELES
   6  9,4  | AcHE
-  6  6,5  - Ad
-  6 10,5  - Ad
-  6  6,7  - Ad
-  6  5,5  - AiS
-  6  5,7  - AiS
-  6  6,5  - Al
   6 10,4  | AlEC
   6 11,4  | AlEC
   6 10,3  | AlLEES
-  6  6,5  - An
-  6 10,5  - An
-  6  6,7  - An
   6 10,4  | AnELES
   6  8,3  | AnEW
   6  3,5  - ApSE
@@ -3875,6 +3778,7 @@
   6 10,3  | CEdE
   6 10,5  | CEdE
   6 11,5  | CEdE
+  6  4,5  - CEe
   6 10,5  | CEeS
   6 11,5  | CEeS
   6 10,5  | CElS
@@ -3952,25 +3856,21 @@
   6 10,6  | EACh
   6 10,3  | EASEL
   6 10,3  | EASELs
-  6  3,5  - EASe
   6  9,3  | EAcH
-  6  5,7  - EAr
   6 10,3  | EAsELS
-  6  5,5  - EAt
   6  9,3  | EAtH
   6 10,3  | EChE
   6 10,6  | EChE
   6  6,3  | EChT
+  6  4,5  - ECu
   6 10,6  | ECuS
   6  6,3  | ELATeS
+  6  3,5  - ELSe
   6  6,5  - ES
   6  6,4  | ESTrAL
   6  6,5  | ETCh
   6  6,5  | ETiC
-  6  6,5  - Ed
   6  9,4  | EdHS
-  6  6,5  - El
-  6  6,5  - En
   6  9,4  | EpHA
   6  9,4  | EtHS
   6 10,4  | ExEC
@@ -4007,16 +3907,36 @@
   6  6,4  | LAThES
   6  6,4  | LATkES
   6  6,4  | LATtES
+  6  5,5  - LAb
+  6  5,5  - LAd
+  6  5,7  - LAd
+  6  5,5  - LAg
+  6  5,5  - LAm
+  6  5,7  - LAm
+  6  5,7  - LAp
+  6  5,7  - LAr
   6 10,3  | LArEES
+  6  5,5  - LAs
+  6  5,7  - LAs
   6  7,2  | LAsSO
+  6  5,5  - LAt
   6  6,3  | LAtTES
+  6  5,5  - LAw
+  6  5,7  - LAw
+  6  5,7  - LAx
+  6  5,5  - LAy
+  6  5,7  - LAy
   6  4,5  - LEA
   6  4,7  - LEA
   6 10,5  | LEASE
   6  7,2  | LESbO
+  6  5,5  - LEd
+  6  5,5  - LEg
   6  7,3  | LEnO
-  6  4,5  - LEu
+  6  5,5  - LEs
+  6  5,5  - LEt
   6  7,3  | LEvO
+  6  5,5  - LEy
   6  7,5  | LOAdS
   6  7,5  | LOAfS
   6  7,5  | LOAmS
@@ -4035,6 +3955,12 @@
   6  7,5  | LOwES
   6  7,5  | LOwSE
   6  7,5  | LOxES
+  6  5,5  - LaS
+  6  5,7  - LaS
+  6  5,5  - LeS
+  6  5,7  - LiE
+  6  5,5  - LiS
+  6  5,7  - LiS
   6  7,6  | OCA
   6  7,6  | OCAs
   6  7,6  | OLEA
@@ -4052,10 +3978,10 @@
   6  6,3  | SALTEd
   6  6,3  | SALTEr
   6  6,3  | SALTiE
+  6  3,5  - SALe
   6  7,2  | SALvO
   6  3,5  - SAbE
   6  3,5  - SAdE
-  6  5,7  - SAe
   6  3,5  - SAfE
   6  3,5  - SAgE
   6  3,5  - SAkE
@@ -4064,7 +3990,6 @@
   6  3,5  - SAmE
   6  3,5  - SAnE
   6  9,3  | SAsH
-  6  5,5  - SAt
   6  3,5  - SAtE
   6  3,5  - SAvE
   6  7,4  | SCOp
@@ -4073,6 +3998,13 @@
   6  6,3  | SCaT
   6  6,3  | SCoT
   6  6,3  | SCuT
+  6  4,5  - SEAl
+  6  4,5  - SEAm
+  6  4,7  - SEAm
+  6  4,7  - SEAr
+  6  4,5  - SEAs
+  6  4,7  - SEAs
+  6  4,5  - SEAt
   6 10,5  | SEC
   6 11,5  | SEC
   6 10,5  | SECs
@@ -4083,7 +4015,6 @@
   6  6,3  | SEpTAL
   6  3,5  - SErA
   6  3,7  - SErA
-  6  5,5  - SEt
   6  3,5  - SEtA
   6  3,7  - SEtA
   6  9,5  | SHeA
@@ -4112,7 +4043,6 @@
   6  8,5  | SWAp
   6  8,5  | SWAt
   6  8,5  | SWAy
-  6  5,7  - SaE
   6  6,3  | SeCT
   6  8,3  | ShAW
   6  3,5  - ShEA
@@ -4166,14 +4096,17 @@
   6  8,6  | WEkA
   6  8,6  | WEnS
   6  8,6  | WEtS
+  6  9,5  - aA
   6  5,5  - aAS
   6  5,7  - aAS
   6 10,4  | aCES
   6 11,4  | aCES
   6  6,4  | aCTA
   6  6,4  | aCTS
+  6  6,5  - aL
   6  3,5  - aLAE
   6  6,3  | aLATES
+  6  9,7  - aS
   6  8,5  | aWL
   6  3,5  - bALE
   6  5,5  - bAS
@@ -4201,8 +4134,10 @@
   6  8,4  | dEWS
   6  7,5  | dOCS
   6  7,5  | dOLES
+  6  6,5  - eL
   6  6,3  | eLATES
   6  3,5  - eLSE
+  6  9,7  - eS
   6 10,3  | fACE
   6  6,3  | fACT
   6  5,5  - fAS
@@ -4233,6 +4168,7 @@
   6 11,4  | iCES
   6  3,5  - iLEA
   6  3,7  - iLEA
+  6  9,7  - iS
   6  3,5  - iSLE
   6  8,4  | jAWS
   6  8,4  | jEWS
@@ -4263,13 +4199,13 @@
   6  7,5  | mOCS
   6  7,5  | mOLAS
   6  7,5  | mOLES
-  6 10,5  - nA
   6  5,7  - nAE
   6  8,4  | nEWS
   6  7,5  | nOELS
   6  5,5  - oES
   6  3,5  - oLEA
   6  3,7  - oLEA
+  6  9,7  - oS
   6  6,4  | oSTEAL
   6  8,5  | oWL
   6 10,3  | pACE
@@ -4333,7 +4269,6 @@
   6  9,5  | tHAE
   6  7,5  | tOLAS
   6  7,5  | tOLES
-  6  6,5  - uS
   6  3,5  - vALE
   6  5,5  - vAS
   6  5,7  - vAS
@@ -4374,40 +4309,35 @@
   5  6,4  | ALTEr
   5  6,4  | ALTS
   5  6,4  | ALToS
-  5  4,5  - ALa
-  5  4,7  - ALa
   5  6,3  | ALaTE
-  5  4,5  - ALe
   5 10,3  | ALlEE
   5 10,3  | ALmES
   5 10,3  | ALoES
   5  7,3  | ALsO
   5  7,3  | ALtO
+  5  3,5  - ASEa
+  5  3,7  - ASEa
   5  6,5  | ATLaS
   5  8,5  | AW
   5  8,5  | AWa
   5  8,5  | AWe
   5  8,5  | AWl
   5  8,5  | AWn
-  5 10,5  - Aa
+  5  5,5  - AaS
+  5  5,7  - AaS
   5 10,4  | AbELE
   5 11,4  | AbELE
   5 10,3  | AbLES
-  5  6,7  - Ae
   5 10,3  | AgLEE
-  5  6,7  - Ai
+  5  5,5  - AiS
+  5  5,7  - AiS
   5 10,3  | AlLEE
   5  7,4  | AmOLE
   5 10,4  | AnELE
   5 11,4  | AnELE
   5  7,4  | AnOLE
-  5 10,5  - Ar
-  5  6,7  - Ar
   5 10,3  | ArLES
   5  6,4  | ArTEL
-  5  6,5  - As
-  5  6,7  - As
-  5  6,5  - At
   5  7,4  | AwOLS
   5 10,4  | AxELS
   5 11,4  | AxELS
@@ -4441,8 +4371,10 @@
   5 10,4  | CuE
   5 11,4  | CuE
   5  6,4  | CuT
+  5  3,5  - EASe
+  5  5,7  - EAr
   5 10,3  | EAsEL
-  5  4,5  - EAu
+  5  5,5  - EAt
   5 10,6  | ECu
   5 11,6  | ECu
   5 10,5  | EELS
@@ -4456,8 +4388,6 @@
   5  8,5  | EWe
   5 10,3  | EaSEL
   5  7,4  | EnOLS
-  5  6,5  - Es
-  5  6,5  - Et
   5  9,6  | HA
   5  9,6  | HAd
   5  9,6  | HAe
@@ -4543,16 +4473,11 @@
   5 10,5  | LESEs
   5  6,3  | LEST
   5  6,4  | LETS
-  5  4,5  - LEa
-  5  4,7  - LEa
   5 10,5  | LEaSE
-  5  4,5  - LEe
   5  6,3  | LEeTS
   5  6,3  | LEfTS
   5 10,3  | LEgES
   5 10,5  | LEgES
-  5  4,5  - LEi
-  5  4,7  - LEi
   5 10,3  | LEnES
   5 10,5  | LEnES
   5 10,5  | LEnSE
@@ -4599,7 +4524,19 @@
   5  6,3  | SALT
   5  6,3  | SALTs
   5  6,3  | SALTy
-  5  4,5  - SAu
+  5  5,5  - SAb
+  5  5,5  - SAd
+  5  5,7  - SAd
+  5  5,7  - SAe
+  5  5,5  - SAg
+  5  5,5  - SAl
+  5  5,7  - SAp
+  5  5,5  - SAt
+  5  5,5  - SAw
+  5  5,7  - SAw
+  5  5,7  - SAx
+  5  5,5  - SAy
+  5  5,7  - SAy
   5  4,5  - SEA
   5  4,7  - SEA
   5 10,5  | SEAL
@@ -4619,10 +4556,15 @@
   5 10,5  | SELlE
   5 10,5  | SELvA
   5  6,4  | SETaL
+  5  5,5  - SEg
+  5  5,5  - SEl
   5 10,5  | SElLE
+  5  5,5  - SEn
   5 10,5  | SEpAL
   5 10,5  | SErAL
+  5  5,5  - SEt
   5 10,5  | SEtAL
+  5  5,5  - SEw
   5  9,5  | SH
   5  9,5  | SHa
   5  9,5  | SHe
@@ -4669,6 +4611,7 @@
   5  6,5  | STiLE
   5  6,5  | SToLE
   5  6,5  | STyLE
+  5  5,7  - SaE
   5  6,4  | SeTAL
   5 10,4  | ShEAL
   5 11,4  | ShEAL
@@ -4713,12 +4656,10 @@
   5  8,6  | WEe
   5  8,6  | WEn
   5  8,6  | WEt
-  5 10,5  - aA
   5  9,4  | aAH
   5 10,4  | aCE
   5 11,4  | aCE
   5  6,4  | aCT
-  5  6,7  - aE
   5  9,5  | aHA
   5  9,5  | aHS
   5  4,5  - aLA
@@ -4726,8 +4667,6 @@
   5  6,3  | aLATE
   5  4,5  - aLE
   5  7,4  | aLOES
-  5  6,5  - aS
-  5  6,7  - aS
   5  3,5  - aSEA
   5  3,7  - aSEA
   5  9,4  | aSH
@@ -4759,7 +4698,6 @@
   5  3,5  - eASE
   5 10,3  | eASEL
   5  6,3  | eLATE
-  5  6,5  - eS
   5  8,5  | eWE
   5 10,4  | fEELS
   5 11,4  | fEELS
@@ -4796,8 +4734,6 @@
   5  8,4  | hEW
   5 10,4  | iCE
   5 11,4  | iCE
-  5  6,5  - iS
-  5  6,7  - iS
   5  6,4  | iSTLE
   5  8,4  | jAW
   5  8,4  | jEW
@@ -4821,11 +4757,9 @@
   5  9,4  | nAH
   5  8,4  | nAW
   5  8,4  | nEW
-  5  6,7  - oE
   5  9,5  | oHS
   5  4,5  - oLE
   5  7,3  | oLEOS
-  5  6,7  - oS
   5  8,5  | oWE
   5  9,4  | pAH
   5 10,3  | pALES
@@ -4931,38 +4865,72 @@
   4  6,4  | ALT
   4  6,4  | ALTo
   4  6,4  | ALTs
+  4  4,5  - ALa
+  4  4,7  - ALa
   4 10,3  | ALaE
+  4  4,5  - ALe
   4 10,3  | ALeE
   4  6,3  | ALiT
   4 10,3  | ALmE
   4 10,3  | ALoE
   4  6,4  | ASTEr
   4  6,5  | ATES
+  4 10,5  - Aa
   4  9,4  | AaH
+  4  6,5  - Ab
+  4 10,5  - Ab
   4  6,3  | AbETS
   4 10,3  | AbLE
   4  4,5  - AcE
+  4  6,5  - Ad
+  4 10,5  - Ad
+  4  6,7  - Ad
+  4  6,7  - Ae
+  4  6,5  - Ag
   4  4,5  - AgE
+  4  6,5  - Ah
+  4 10,5  - Ah
+  4  6,7  - Ah
+  4  6,7  - Ai
   4 10,3  | AkEES
   4 10,4  | AkEES
   4 11,4  | AkEES
+  4  6,5  - Al
   4  4,5  - AlE
   4  7,4  | AlOES
   4  7,3  | AlSO
+  4  6,5  - Am
+  4 10,5  - Am
+  4  6,7  - Am
+  4  6,5  - An
+  4 10,5  - An
+  4  6,7  - An
   4  4,5  - AnE
   4  6,4  | AnTES
   4  4,5  - ApE
+  4 10,5  - Ar
+  4  6,7  - Ar
   4  4,5  - ArE
   4  7,4  | ArOSE
+  4  6,5  - As
+  4  6,7  - As
   4  9,4  | AsH
+  4  6,5  - At
   4  4,5  - AtE
   4  4,5  - AvE
+  4  6,5  - Aw
+  4 10,5  - Aw
+  4  6,7  - Aw
   4  4,5  - AwE
   4  7,4  | AwOL
+  4  6,7  - Ax
   4  4,5  - AxE
   4 10,4  | AxEL
   4 11,4  | AxEL
   4 10,3  | AxLE
+  4  6,5  - Ay
+  4 10,5  - Ay
+  4  6,7  - Ay
   4  4,5  - AyE
   4 10,3  | EASE
   4 10,6  | EASE
@@ -4998,13 +4966,20 @@
   4 10,6  | ELsE
   4  6,5  | ETAS
   4  6,5  | ETnAS
+  4  6,5  - Ed
   4  9,4  | EdH
   4 10,6  | EeLS
   4 10,6  | EgAL
+  4  6,5  - Eh
+  4  6,5  - El
   4 10,6  | ElLS
+  4  6,5  - Em
+  4  6,5  - En
   4  7,4  | EnOL
   4  4,5  - ErA
   4  4,7  - ErA
+  4  6,5  - Es
+  4  6,5  - Et
   4  4,5  - EtA
   4  4,7  - EtA
   4  9,4  | EtH
@@ -5078,14 +5053,19 @@
   4 11,5  | LESt
   4  6,4  | LET
   4  6,4  | LETs
+  4  4,5  - LEa
+  4  4,7  - LEa
   4 10,5  | LEaS
   4 11,5  | LEaS
+  4  4,5  - LEe
   4 10,5  | LEeS
   4 11,5  | LEeS
   4  6,3  | LEeT
   4  6,3  | LEfT
   4 10,5  | LEgS
   4 11,5  | LEgS
+  4  4,5  - LEi
+  4  4,7  - LEi
   4 10,5  | LEiS
   4 11,5  | LEiS
   4 10,3  | LEkE
@@ -5102,6 +5082,7 @@
   4  6,3  | LEsT
   4 10,5  | LEtS
   4 11,5  | LEtS
+  4  4,5  - LEu
   4 10,5  | LEvA
   4 11,5  | LEvA
   4 10,5  | LEyS
@@ -5131,8 +5112,6 @@
   4  7,5  | LOvE
   4  7,5  | LOwE
   4  7,5  | LOwS
-  4  5,5  - La
-  4  5,7  - La
   4 10,3  | LaSE
   4  6,3  | LaST
   4  6,4  | LaTE
@@ -5142,14 +5121,11 @@
   4  6,3  | LeET
   4  6,3  | LeST
   4  6,4  | LeTS
-  4  5,5  - Li
-  4  5,7  - Li
   4 10,4  | LiES
   4 11,4  | LiES
   4  6,3  | LiST
   4  6,4  | LiTE
   4  6,4  | LiTS
-  4  5,7  - Lo
   4  7,4  | LoOS
   4 10,3  | LoSE
   4  6,3  | LoST
@@ -5194,7 +5170,6 @@
   4  6,4  | SATEd
   4  6,4  | SATEm
   4  6,4  | SATEs
-  4  4,5  - SAe
   4  7,3  | SAgO
   4 10,3  | SArEE
   4  6,3  | SAuTE
@@ -5211,16 +5186,11 @@
   4  6,4  | SETA
   4  6,4  | SETAe
   4  6,4  | SETAl
-  4  4,5  - SEa
-  4  4,7  - SEa
   4 10,5  | SEaL
   4 11,5  | SEaL
-  4  4,5  - SEe
   4 10,5  | SEeL
   4 11,5  | SEeL
   4  7,3  | SEgO
-  4  4,5  - SEi
-  4  4,7  - SEi
   4 10,5  | SElL
   4 11,5  | SElL
   4  6,3  | SEpTA
@@ -5273,6 +5243,7 @@
   4 10,4  | SeEL
   4 11,4  | SeEL
   4  6,4  | SeTAE
+  4 10,7  - Sh
   4  4,5  - ShA
   4  4,7  - ShA
   4  4,5  - ShE
@@ -5322,6 +5293,8 @@
   4  6,6  | TuLE
   4  8,6  | We
   4  8,6  | Wo
+  4 10,5  - aA
+  4  6,7  - aE
   4 10,3  | aLAE
   4 10,3  | aLEE
   4 10,4  | aLEE
@@ -5331,7 +5304,10 @@
   4  7,4  | aLOE
   4  7,3  | aLSO
   4  6,4  | aLTS
+  4  6,5  - aS
+  4  6,7  - aS
   4  8,5  | aW
+  4 10,5  - bA
   4 10,3  | bALE
   4  6,3  | bASTE
   4  6,4  | bATES
@@ -5372,6 +5348,8 @@
   4 10,5  | eELS
   4 11,5  | eELS
   4 10,3  | eLSE
+  4  6,5  - eS
+  4 10,5  - fA
   4  6,4  | fATES
   4 10,5  | fEAL
   4 11,5  | fEAL
@@ -5403,6 +5381,7 @@
   4 10,4  | gLEE
   4 11,4  | gLEE
   4  7,5  | gOAL
+  4 10,5  - hA
   4  4,5  - hAE
   4  6,3  | hAETS
   4 10,3  | hALE
@@ -5422,6 +5401,8 @@
   4  7,5  | hOLS
   4 10,4  | iLEA
   4 11,4  | iLEA
+  4  6,5  - iS
+  4  6,7  - iS
   4 10,3  | iSLE
   4  7,5  | jOLE
   4  4,5  - kAE
@@ -5440,6 +5421,7 @@
   4 10,5  | lEAL
   4 11,5  | lEAL
   4 10,5  | lEASE
+  4 10,5  - mA
   4  4,5  - mAE
   4 10,3  | mALE
   4  6,3  | mALT
@@ -5453,15 +5435,18 @@
   4  7,5  | mOLA
   4  7,5  | mOLE
   4  7,5  | mOLS
+  4 10,5  - nA
   4  4,5  - nAE
   4  6,4  | nATES
   4  6,3  | nEATS
   4  7,5  | nOEL
+  4  6,7  - oE
   4 10,4  | oLEA
   4 11,4  | oLEA
   4  7,3  | oLEO
   4 10,4  | oLES
   4 11,4  | oLES
+  4  6,7  - oS
   4  4,5  - oSE
   4  8,5  | oW
   4 10,3  | pALE
@@ -5542,6 +5527,7 @@
   4  6,3  | tESTA
   4  7,5  | tOLA
   4  7,5  | tOLE
+  4  6,5  - uS
   4  4,5  - uSE
   4 10,3  | vALE
   4 10,5  | vEAL
@@ -5560,6 +5546,7 @@
   4 10,5  | wEEL
   4 11,5  | wEEL
   4  6,3  | wELT
+  4 10,5  - yA
   4  4,5  - yEA
   4  4,7  - yEA
   4 10,5  | zEAL
@@ -5571,22 +5558,17 @@
   3  6,5  | ATE
   3  6,5  | ATEs
   3  6,5  | ATeS
-  3  5,5  - Aa
-  3  5,7  - Aa
   3  6,3  | AbET
   3  7,4  | AbOS
   3 10,4  | AcES
   3 11,4  | AcES
   3  6,4  | AcTS
   3  7,4  | AdOS
-  3  5,5  - Ae
   3 10,3  | AgEE
   3 10,4  | AgEE
   3 11,4  | AgEE
   3 10,4  | AgES
   3 11,4  | AgES
-  3  5,5  - Ai
-  3  5,7  - Ai
   3  6,4  | AiTS
   3 10,3  | AjEE
   3 10,4  | AjEE
@@ -5638,6 +5620,7 @@
   3 10,6  | EAsE
   3  6,3  | EAsT
   3 10,6  | EAtS
+  3  4,5  - EAu
   3 10,3  | EAvE
   3 10,6  | EAvE
   3 10,5  | EElS
@@ -5744,13 +5727,18 @@
   3  7,5  | LOt
   3  7,5  | LOw
   3  7,5  | LOx
+  3  5,5  - La
+  3  5,7  - La
   3  6,4  | LaT
   3 10,4  | LeE
   3 11,4  | LeE
   3  6,4  | LeT
+  3  5,5  - Li
+  3  5,7  - Li
   3 10,4  | LiE
   3 11,4  | LiE
   3  6,4  | LiT
+  3  5,7  - Lo
   3  7,4  | LoO
   3  6,4  | LoT
   3 10,4  | LyE
@@ -5771,6 +5759,7 @@
   3  6,4  | SATi
   3 10,3  | SAbE
   3 10,3  | SAdE
+  3  4,5  - SAe
   3 10,3  | SAfE
   3 10,3  | SAgE
   3 10,3  | SAkE
@@ -5779,6 +5768,7 @@
   3 10,3  | SAmE
   3 10,3  | SAnE
   3 10,3  | SAtE
+  3  4,5  - SAu
   3 10,3  | SAvE
   3 10,5  | SEA
   3 11,5  | SEA
@@ -5832,8 +5822,13 @@
   3  6,4  | SETa
   3  6,4  | SETs
   3  6,4  | SETt
+  3  4,5  - SEa
+  3  4,7  - SEa
   3  6,3  | SEaT
   3  6,3  | SEcT
+  3  4,5  - SEe
+  3  4,5  - SEi
+  3  4,7  - SEi
   3 10,3  | SEmE
   3 10,5  | SEmE
   3 11,5  | SEmE
@@ -5889,8 +5884,6 @@
   3 10,4  | ShEA
   3 11,4  | ShEA
   3  7,4  | ShOE
-  3  5,5  - Si
-  3  5,7  - Si
   3  6,4  | SiTE
   3  6,3  | SkAT
   3 10,3  | SkEE
@@ -5898,7 +5891,6 @@
   3 11,4  | SkEE
   3  6,3  | SlAT
   3  7,4  | SlOE
-  3  5,7  - So
   3 10,3  | SpAE
   3  6,3  | SpAT
   3  6,3  | StAT
@@ -6232,15 +6224,20 @@
   2  6,5  | AT
   2  6,5  | ATe
   2  6,5  | ATt
+  2  5,5  - Aa
+  2  5,7  - Aa
   2  7,4  | AbO
   2 10,4  | AcE
   2 11,4  | AcE
   2  6,4  | AcT
   2  7,4  | AdO
+  2  5,5  - Ae
   2  6,4  | AfT
   2 10,4  | AgE
   2 11,4  | AgE
   2  7,4  | AgO
+  2  5,5  - Ai
+  2  5,7  - Ai
   2  6,4  | AiT
   2 10,4  | AlE
   2 11,4  | AlE
@@ -6409,7 +6406,10 @@
   2  6,4  | SeT
   2 10,4  | ShE
   2 11,4  | ShE
+  2  5,5  - Si
+  2  5,7  - Si
   2  6,4  | SiT
+  2  5,7  - So
   2  6,4  | SoT
   2 10,4  | SuE
   2 11,4  | SuE
