@@ -17,9 +17,9 @@ std::optional<board<char>> load_board_tiles(gsl::cstring_span<> filename)
             return std::nullopt;
         }
 
-        auto letter{*std::begin(field)};
+        auto letter{field[0]};
         if (std::isalpha(letter)) {
-            return std::tolower(letter);
+            return letter;
         }
 
         if (letter==vacant) {

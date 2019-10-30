@@ -1,3 +1,4 @@
+#include <load_lexicon.h>
 #include <scores.h>
 #include <ssize.h>
 #include <tile.h>
@@ -7,6 +8,7 @@
 #include <fmt/printf.h>
 
 #include <algorithm>
+#include <cctype>
 #include <cstdlib>
 #include <iterator>
 #include <numeric>
@@ -148,9 +150,11 @@ int main(int argc, char const* const* argv)
         return EXIT_FAILURE;
     }
 
-    transform(begin(letters), end(letters), begin(letters), tolower);
+    std::transform(begin(letters), end(letters), begin(letters),
+            [](auto c) { return std::toupper(c); });
 
-    auto const lexicon{load_lexicon(lexicon_filename, min_length, ssize(letters))};
+    auto const lexicon{
+            load_lexicon(lexicon_filename, min_length, ssize(letters))};
     if (!lexicon) {
         fmt::print(stderr, "error: failed to lexicon from {}\n",
                 lexicon_filename);

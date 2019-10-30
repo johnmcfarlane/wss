@@ -1,4 +1,4 @@
-add_library(common trie.cpp)
+add_library(common load_lexicon.cpp trie.cpp)
 target_compile_options(common PUBLIC "-Werror" "-Wall" "-Wextra" "-Wpedantic")
 set_target_properties(common PROPERTIES CXX_STANDARD 17)
 target_link_libraries(common "${CONAN_LIBS}")
