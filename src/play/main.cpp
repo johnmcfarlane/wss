@@ -156,7 +156,7 @@ namespace {
                 return std::make_tuple(letter, letter_multiplier);
             }();
 
-            auto const found{std::find(begin(*node), end(*node), letter)};
+            auto const found{std::find(begin(*node), end(*node), std::toupper(letter))};
             if (found==end(*node)) {
                 return std::nullopt;
             }
@@ -177,11 +177,12 @@ namespace {
                 state.board_neighbours[state.pos[1]][state.pos[0]] ? 1 : 0};
 
         auto const recurse{
-                [&](node const& n, int& counter, search_state& state) noexcept {
+                [&](node const& n, int& counter, char letter, search_state& state) noexcept {
                     if (counter==0) {
                         return;
                     }
 
+                    state.word.push_back(letter);
                     state.num_neighbours += neighbour_count;
                     state.pos += state.direction;
                     if (n.is_terminator
@@ -212,6 +213,7 @@ namespace {
                     }
                     state.pos -= state.direction;
                     state.num_neighbours -= neighbour_count;
+                    state.word.pop_back();
                 }};
 
         auto& board_tile{state.board_tiles[state.pos[1]][state.pos[0]]};
@@ -231,16 +233,14 @@ namespace {
                     return;
                 }
 
-                state.word.push_back(letter);
                 state.cross_scores += *cross_score;
                 ++state.rack_used;
 
-                recurse(letter.get_next(), state.rack[letter], state);
-                recurse(letter.get_next(), state.rack[blank], state);
+                recurse(letter.get_next(), state.rack[letter], letter, state);
+                recurse(letter.get_next(), state.rack[blank], std::tolower(letter), state);
 
                 --state.rack_used;
                 state.cross_scores -= *cross_score;
-                state.word.pop_back();
             });
             return;
         }
@@ -256,10 +256,8 @@ namespace {
             return;
         }
 
-        state.word.push_back(board_tile);
         auto dummy_counter{1};
-        recurse(found->get_next(), dummy_counter, state);
-        state.word.pop_back();
+        recurse(found->get_next(), dummy_counter, board_tile, state);
     }
 
     void search(trie const& lexicon, search_state& state, coord direction)
