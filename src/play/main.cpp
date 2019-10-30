@@ -311,8 +311,8 @@ namespace {
     void refine_results(std::vector<result>& finds)
     {
         sort(begin(finds), end(finds), [](auto a, auto b) {
-            return tie(b.score, a.word)
-                    <tie(a.score, b.word);
+            return tie(b.score, a.word, a.start[1], a.start[0], a.direction[1], a.direction[0])
+                    <tie(a.score, b.word, b.start[1], b.start[0], b.direction[1], b.direction[0]);
         });
     }
 
