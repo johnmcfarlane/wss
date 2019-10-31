@@ -1,80 +1,80 @@
-0,4:IONONE=24
-0,4:INTONE=23
-2,4:NONE=22
-1,4:ATONE=21
-2,4:NOTE=20
-2,4:TONE=20
-4,0:NONA=18
-3,4:ONE=18
-0,4:INTO=17
-3,3:JOINT=17
-1,4:ONO=17
-0,4:ONTO=17
-3,0:NINJA=16
-2,4:NO=16
-1,4:NOO=16
-3,3:JINN=15
-4,2:NAN=15
-1,4:TAO=15
-1,4:TOO=15
-3,3:JOIN=14
-4,0:NOTA=14
-2,4:TO=14
-4,0:IOTA=13
-3,3:JATO=13
-3,3:JIAO=13
-3,3:JIN=13
-3,3:JOTA=13
-7,5:VINA=13
-7,5:VINO=13
-3,3:JOT=12
-3,1:TAJ=12
-7,5:VAN=12
-3,3:JO=11
-4,2:TAN=11
-6,4:TENON=11
-7,5:VAIN=11
-4,2:NA=10
-4,2:NA=10
-7,5:VITA=10
-6,5:EONIAN=9
-6,4:NEON=9
-4,2:TAO=9
-4,4:TEN=9
-6,4:TENIA=9
-7,5:VAT=9
-7,5:VIA=9
-6,4:NEAT=8
-4,0:NO=8
-2,1:ATOP=7
-6,5:ENTIA=7
-3,1:NAP=7
-6,4:NET=7
-3,1:NIP=7
-4,4:TEA=7
-4,0:TO=7
-4,2:AA=6
-4,2:AA=6
-4,3:AN=6
-5,4:EN=6
-6,5:ETNA=6
-6,4:NE=6
-4,4:NE=6
-4,2:TA=6
-4,2:TA=6
-3,1:TAP=6
-6,4:TEN=6
-3,1:TIP=6
-3,1:TOP=6
-4,1:OP=5
-6,4:TEA=5
-4,3:AA=4
-4,4:AE=4
-6,5:EON=4
-6,5:EAT=3
-6,5:EN=3
-6,5:ETA=3
-8,4:LA=3
-8,4:LI=3
-8,4:LO=3
-6,5:ET=2
+ 24  1,5  - IONONE
+ 23  1,5  - INTONE
+ 22  3,5  - NONE
+ 21  2,5  - ATONE
+ 20  3,5  - NOTE
+ 20  3,5  - TONE
+ 18  5,1  | NONA
+ 18  4,5  - ONE
+ 17  1,5  - INTO
+ 17  4,4  | JOINT
+ 17  2,5  - ONO
+ 17  1,5  - ONTO
+ 16  4,1  | NINJA
+ 16  3,5  - NO
+ 16  2,5  - NOO
+ 15  4,4  | JINN
+ 15  5,3  | NAN
+ 15  2,5  - TAO
+ 15  2,5  - TOO
+ 14  4,4  | JOIN
+ 14  5,1  | NOTA
+ 14  3,5  - TO
+ 13  5,1  | IOTA
+ 13  4,4  | JATO
+ 13  4,4  | JIAO
+ 13  4,4  | JIN
+ 13  4,4  | JOTA
+ 13  8,6  | VINA
+ 13  8,6  | VINO
+ 12  4,4  | JOT
+ 12  4,2  | TAJ
+ 12  8,6  | VAN
+ 11  4,4  | JO
+ 11  5,3  | TAN
+ 11  7,5  | TENON
+ 11  8,6  | VAIN
+ 10  5,3  - NA
+ 10  5,3  | NA
+ 10  8,6  | VITA
+  9  7,6  | EONIAN
+  9  7,5  | NEON
+  9  5,3  | TAO
+  9  5,5  - TEN
+  9  7,5  | TENIA
+  9  8,6  | VAT
+  9  8,6  | VIA
+  8  7,5  | NEAT
+  8  5,1  | NO
+  7  3,2  - ATOP
+  7  7,6  | ENTIA
+  7  4,2  - NAP
+  7  7,5  | NET
+  7  4,2  - NIP
+  7  5,5  - TEA
+  7  5,1  | TO
+  6  5,3  - AA
+  6  5,3  | AA
+  6  5,4  | AN
+  6  6,5  - EN
+  6  7,6  | ETNA
+  6  5,5  - NE
+  6  7,5  | NE
+  6  5,3  - TA
+  6  5,3  | TA
+  6  4,2  - TAP
+  6  7,5  | TEN
+  6  4,2  - TIP
+  6  4,2  - TOP
+  5  5,2  - OP
+  5  7,5  | TEA
+  4  5,4  | AA
+  4  5,5  - AE
+  4  7,6  | EON
+  3  7,6  | EAT
+  3  7,6  | EN
+  3  7,6  | ETA
+  3  9,5  - LA
+  3  9,5  - LI
+  3  9,5  - LO
+  2  7,6  | ET

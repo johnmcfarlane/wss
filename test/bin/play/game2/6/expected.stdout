@@ -1,161 +1,161 @@
-6,0:VERB=33
-7,0:DEBT=30
-3,7:VERT=28
-5,5:PAVED=26
-5,5:PARVE=24
-5,5:PAVER=24
-8,5:SORTED=24
-3,7:VET=23
-7,0:DEB=21
-8,5:SORTER=21
-5,5:PARRED=20
-5,5:PARTED=20
-6,7:TED=20
-10,5:DEV=19
-5,5:PADRE=18
-5,5:PARED=18
-5,5:PATED=18
-7,0:REB=18
-10,5:REV=17
-5,5:PARER=16
-5,5:PATER=16
-2,7:VERT=16
-7,7:ED=15
-10,0:ED=15
-5,7:DE=14
-10,5:DE=14
-10,5:RED=14
-10,0:ER=13
-10,0:ET=13
-7,7:ET=13
-3,7:RED=13
-10,5:RET=13
-3,7:TED=13
-8,7:DEV=12
-8,3:QAT=12
-10,5:RE=12
-5,7:RE=12
-6,3:DEVA=11
-3,7:ERR=11
-5,5:PAUSED=11
-5,5:PAVE=11
-3,7:RET=11
-6,4:VALET=11
-5,3:DEPART=10
-6,2:DREG=10
-4,7:ED=10
-5,5:PAUSER=10
-7,4:RUTTED=10
-7,2:VEG=10
-6,3:VERA=10
-7,3:DEAR=9
-7,3:DRAT=9
-6,1:REVET=9
-6,4:VALE=9
-6,3:VEAL=9
-6,5:ALDER=8
-6,3:DERAT=8
-8,1:DEV=8
-6,3:DREAR=8
-4,7:ER=8
-4,7:ET=8
-7,1:EVER=8
-5,5:PARD=8
-6,1:RETRAL=8
-6,3:TREAD=8
-7,5:UTTER=8
-7,1:VEER=8
-6,5:ALERT=7
-6,5:ALTER=7
-9,0:BE=7
-8,7:DE=7
-6,3:DEALT=7
-7,1:EVE=7
-5,5:PAD=7
-5,5:PARE=7
-5,5:PARR=7
-5,5:PART=7
-5,5:PATE=7
-7,3:READ=7
-8,1:REV=7
-8,5:SORD=7
-8,5:SORED=7
-6,4:TALER=7
-8,3:TAV=7
-8,7:TED=7
-5,3:TEPA=7
-5,3:TERRA=7
-7,3:TRAD=7
-8,3:VAR=7
-8,3:VAT=7
-7,1:VEE=7
-8,1:VEE=7
-8,1:VET=7
-6,4:DALE=6
-6,3:DEAL=6
-6,1:DETER=6
-7,2:ERG=6
-6,1:ERRED=6
-5,5:PAR=6
-5,5:PAT=6
-7,3:REAR=6
-7,2:REG=6
-8,5:SORER=6
-7,3:TEAR=6
-7,2:TEG=6
-6,1:TREED=6
-7,5:UTE=6
-6,4:DAL=5
-7,1:DEER=5
-7,1:DEET=5
-6,1:DERE=5
-7,1:DREE=5
-6,1:DREE=5
-7,3:ERA=5
-7,3:ETA=5
-6,4:RALE=5
-6,3:REAL=5
-6,1:REDE=5
-7,1:REED=5
-8,5:SORE=5
-8,5:SORT=5
-6,4:TALE=5
-7,3:TEA=5
-6,3:TEAL=5
-7,1:TEED=5
-6,5:ALE=4
-6,5:ALT=4
-7,1:DEE=4
-8,1:DEE=4
-8,3:RAD=4
-8,1:RED=4
-6,1:RETE=4
-7,4:RUT=4
-8,5:SOD=4
-8,3:TAD=4
-8,1:TED=4
-6,1:TREE=4
-7,1:TREE=4
-7,4:TUT=4
-9,3:AD=3
-8,1:DE=3
-8,3:EAR=3
-8,3:EAT=3
-9,1:ED=3
-7,1:ERE=3
-8,3:RAT=3
-8,1:REE=3
-7,1:REE=3
-8,1:RET=3
-8,5:SOT=3
-8,3:TAE=3
-8,3:TAR=3
-7,1:TEE=3
-8,1:TEE=3
-9,3:AE=2
-9,3:AR=2
-9,3:AT=2
-9,1:ER=2
-9,1:ET=2
-8,1:RE=2
-8,3:TA=2
+ 33  7,1  - VERB
+ 30  8,1  - DEBT
+ 28  4,8  - VERT
+ 26  6,6  | PAVED
+ 24  6,6  | PARVE
+ 24  6,6  | PAVER
+ 24  9,6  | SORTED
+ 23  4,8  - VET
+ 21  8,1  - DEB
+ 21  9,6  | SORTER
+ 20  6,6  | PARRED
+ 20  6,6  | PARTED
+ 20  7,8  - TED
+ 19 11,6  | DEV
+ 18  6,6  | PADRE
+ 18  6,6  | PARED
+ 18  6,6  | PATED
+ 18  8,1  - REB
+ 17 11,6  | REV
+ 16  6,6  | PARER
+ 16  6,6  | PATER
+ 16  3,8  - VERT
+ 15 11,1  | ED
+ 15  8,8  - ED
+ 14 11,6  | DE
+ 14  6,8  - DE
+ 14 11,6  | RED
+ 13 11,1  | ER
+ 13 11,1  | ET
+ 13  8,8  - ET
+ 13  4,8  - RED
+ 13 11,6  | RET
+ 13  4,8  - TED
+ 12  9,8  - DEV
+ 12  9,4  - QAT
+ 12 11,6  | RE
+ 12  6,8  - RE
+ 11  7,4  - DEVA
+ 11  4,8  - ERR
+ 11  6,6  - PAUSED
+ 11  6,6  | PAVE
+ 11  4,8  - RET
+ 11  7,5  | VALET
+ 10  6,4  | DEPART
+ 10  7,3  - DREG
+ 10  5,8  - ED
+ 10  6,6  - PAUSER
+ 10  8,5  | RUTTED
+ 10  8,3  - VEG
+ 10  7,4  - VERA
+  9  8,4  - DEAR
+  9  8,4  - DRAT
+  9  7,2  - REVET
+  9  7,5  | VALE
+  9  7,4  | VEAL
+  8  7,6  | ALDER
+  8  7,4  - DERAT
+  8  9,2  - DEV
+  8  7,4  - DREAR
+  8  5,8  - ER
+  8  5,8  - ET
+  8  8,2  - EVER
+  8  6,6  | PARD
+  8  7,2  | RETRAL
+  8  7,4  - TREAD
+  8  8,6  | UTTER
+  8  8,2  - VEER
+  7  7,6  | ALERT
+  7  7,6  | ALTER
+  7 10,1  - BE
+  7  9,8  - DE
+  7  7,4  | DEALT
+  7  8,2  - EVE
+  7  6,6  | PAD
+  7  6,6  | PARE
+  7  6,6  | PARR
+  7  6,6  | PART
+  7  6,6  | PATE
+  7  8,4  - READ
+  7  9,2  - REV
+  7  9,6  | SORD
+  7  9,6  | SORED
+  7  7,5  | TALER
+  7  9,4  - TAV
+  7  9,8  - TED
+  7  6,4  | TEPA
+  7  6,4  - TERRA
+  7  8,4  - TRAD
+  7  9,4  - VAR
+  7  9,4  - VAT
+  7  8,2  - VEE
+  7  9,2  - VEE
+  7  9,2  - VET
+  6  7,5  | DALE
+  6  7,4  | DEAL
+  6  7,2  - DETER
+  6  8,3  - ERG
+  6  7,2  - ERRED
+  6  6,6  | PAR
+  6  6,6  | PAT
+  6  8,4  - REAR
+  6  8,3  - REG
+  6  9,6  | SORER
+  6  8,4  - TEAR
+  6  8,3  - TEG
+  6  7,2  - TREED
+  6  8,6  | UTE
+  5  7,5  | DAL
+  5  8,2  - DEER
+  5  8,2  - DEET
+  5  7,2  - DERE
+  5  7,2  - DREE
+  5  8,2  - DREE
+  5  8,4  - ERA
+  5  8,4  - ETA
+  5  7,5  | RALE
+  5  7,4  | REAL
+  5  7,2  - REDE
+  5  8,2  - REED
+  5  9,6  | SORE
+  5  9,6  | SORT
+  5  7,5  | TALE
+  5  8,4  - TEA
+  5  7,4  | TEAL
+  5  8,2  - TEED
+  4  7,6  | ALE
+  4  7,6  | ALT
+  4  8,2  - DEE
+  4  9,2  - DEE
+  4  9,4  - RAD
+  4  9,2  - RED
+  4  7,2  - RETE
+  4  8,5  | RUT
+  4  9,6  | SOD
+  4  9,4  - TAD
+  4  9,2  - TED
+  4  7,2  - TREE
+  4  8,2  - TREE
+  4  8,5  | TUT
+  3 10,4  - AD
+  3  9,2  - DE
+  3  9,4  - EAR
+  3  9,4  - EAT
+  3 10,2  - ED
+  3  8,2  - ERE
+  3  9,4  - RAT
+  3  8,2  - REE
+  3  9,2  - REE
+  3  9,2  - RET
+  3  9,6  | SOT
+  3  9,4  - TAE
+  3  9,4  - TAR
+  3  8,2  - TEE
+  3  9,2  - TEE
+  2 10,4  - AE
+  2 10,4  - AR
+  2 10,4  - AT
+  2 10,2  - ER
+  2 10,2  - ET
+  2  9,2  - RE
+  2  9,4  - TA

@@ -311,8 +311,8 @@ namespace {
     void refine_results(std::vector<result>& finds)
     {
         sort(begin(finds), end(finds), [](auto a, auto b) {
-            return tie(b.score, a.word)
-                    <tie(a.score, b.word);
+            return tie(b.score, a.word, a.start[1], a.start[0], a.direction[1], a.direction[0])
+                    <tie(a.score, b.word, b.start[1], b.start[0], b.direction[1], b.direction[0]);
         });
     }
 
@@ -445,8 +445,10 @@ int main(int argc, char const* const* argv)
                     *board_premiums)};
 
     for (auto const& find : finds) {
-        fmt::print("{},{}:{}={}\n", find.start[0], find.start[1],
+        fmt::print("{1:3} {2:5} {3} {0}\n",
                 find.word.c_str(),
-                find.score);
+                find.score,
+                fmt::format("{:2},{:1}", find.start[0]+1, find.start[1]+1),
+                find.direction[0]?'-':'|');
     };
 }  // namespace
