@@ -7,4 +7,9 @@ set -e
 
 apt update --yes --quiet
 apt upgrade --yes --quiet
-apt install --yes --quiet ccache clang-tidy cmake python3-pip
+apt install --yes --quiet \
+    ccache \
+    clang-tidy \
+    cmake \
+    linux-tools-common \
+    python3-pip
