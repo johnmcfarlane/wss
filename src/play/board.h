@@ -126,7 +126,8 @@ std::optional<board<CellType>> make_board(
         auto const& line{lines[row_index]};
         auto const num_fields{ssize(line)};
         if (num_fields!=edge) {
-            fmt::print("Input row #{} has {} fields, expected {}.\n",
+            fmt::print(stderr,
+                    "error: input row #{} has {} fields, expected {}.\n",
                     row_index+1, num_fields, edge);
             return std::nullopt;
         }
