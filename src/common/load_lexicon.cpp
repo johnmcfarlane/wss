@@ -46,5 +46,7 @@ auto load_lexicon(std::string_view filename, int min_letters, int max_letters)
         lexicon.insert(word);
     }
 
+    lexicon.compress();
+
     return lexicon;
 }
