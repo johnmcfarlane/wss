@@ -7,6 +7,7 @@
 
 #include <algorithm>
 #include <array>
+#include <map>
 
 namespace {
     using std::begin;
@@ -53,10 +54,6 @@ namespace {
 
 // node
 
-node::node() = default;
-
-node::~node() = default;
-
 node::edge_vector::const_iterator node::begin() const { return edges.begin(); }
 
 node::edge_vector::const_iterator node::end() const { return edges.end(); }
@@ -68,9 +65,16 @@ edge::edge(char l, std::unique_ptr<node> n)
 
 edge::operator char() const { return letter; }
 
+std::shared_ptr<node> const& edge::ptr() const { return next; }
+
 node& edge::get_next() { return *next; }
 
 node const& edge::get_next() const { return *next; }
+
+void edge::set_next(std::shared_ptr<node> n) { 
+    Expects(n);
+    next = move(n); 
+}
 
 // trie
 
@@ -91,4 +95,45 @@ node const& trie::root_node() const
 void trie::insert(string_view word)
 {
     count += ::insert(root, word, word) ? 1 : 0;
+}
+
+bool operator<(edge const& lhs, edge const& rhs)
+{
+    return std::tie(static_cast<char const&>(lhs), lhs.ptr())
+            <std::tie(static_cast<char const&>(rhs), rhs.ptr());
+}
+
+bool operator<(node const& lhs, node const& rhs)
+{
+    return std::tie(lhs.edges, lhs.is_terminator)
+            <std::tie(rhs.edges, rhs.is_terminator);
+}
+
+using node_map = std::map<node, std::shared_ptr<node>>;
+
+int compress(node& n, node_map& nodes)
+{
+    auto sum{0};
+    for (auto& edge : n.edges) {
+        auto& child{edge.get_next()};
+        sum+=compress(child, nodes);
+
+        auto found{nodes.equal_range(child)};
+        if (found.first==found.second) {
+            Expects(edge.ptr());
+            nodes.emplace_hint(found.first,
+                    std::make_pair(edge.get_next(), edge.ptr()));
+            continue;
+        }
+
+        edge.set_next(found.first->second);
+        ++sum;
+    }
+    return sum;
+}
+
+void trie::compress()
+{
+    node_map nodes;
+    ::compress(root, nodes);
 }

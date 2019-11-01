@@ -13,14 +13,6 @@ class edge;
 struct node {
     using edge_vector = std::vector<edge>;
 
-    node();
-
-    node(node const&) = delete;
-
-    node(node&&) = default;
-
-    ~node();
-
     edge_vector::const_iterator begin() const;
 
     edge_vector::const_iterator end() const;
@@ -31,19 +23,22 @@ struct node {
 
 class edge {
 public:
-    edge(edge const&) { Expects(false); }
+    edge(edge const&) = default;
     edge(edge&& that) = default;
     edge(char l, std::unique_ptr<node> n);
 
     operator char() const;
 
-    node& get_next();
+    std::shared_ptr<node> const& ptr() const;
 
+    node& get_next();
     node const& get_next() const;
+
+    void set_next(std::shared_ptr<node> n);
 
 private:
     char letter;
-    std::unique_ptr<node> next;
+    std::shared_ptr<node> next;
 };
 
 class trie {
@@ -110,6 +105,8 @@ public:
     node const& root_node() const;
 
     void insert(string_view word);
+    
+    void compress();
 
 private:
 
