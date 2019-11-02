@@ -5,7 +5,7 @@ Checks: >
   -bugprone-exception-escape,
   -fuchsia-*,
   -google-runtime-references,
-WarningsAsErrors: ''
+WarningsAsErrors: '*'
 HeaderFilterRegex: ''
 AnalyzeTemporaryDtors: true
 FormatStyle:     none
