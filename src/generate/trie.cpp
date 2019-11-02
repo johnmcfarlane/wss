@@ -1,12 +1,11 @@
 #include "trie.h"
 
-#include "ssize.h"
+#include <ssize.h>
 
 #include <fmt/printf.h>
 #include <gsl/gsl_assert>
 
 #include <algorithm>
-#include <array>
 #include <map>
 
 namespace {
@@ -27,17 +26,18 @@ namespace {
             return found->get_next();
         }
 
-        edge e{l, std::make_unique<node>()};
-        n.edges.emplace_back(std::move(e));
+        n.edges.emplace_back(l, std::make_unique<node>());
         return n.edges.back().get_next();
     }
 
-    bool insert(node& n, string_view word, string_view ending)
+    bool insert(
+            node& n, 
+            string_view::const_iterator pos,
+            string_view::const_iterator end)
     {
-        Expects(word.size()>=ending.size());
-        Expects(&word.back()==&ending.back());
+        Expects(pos<=end);
 
-        if (ending.empty()) {
+        if (pos==end) {
             if (n.is_terminator) {
                 return false;
             }
@@ -46,9 +46,9 @@ namespace {
             n.is_terminator = true;
             return true;
         }
-        auto letter = ending.front();
+        auto letter = *pos;
         auto& next_node = insert(n, letter);
-        return insert(next_node, word, ending.substr(1));
+        return insert(next_node, pos+1, end);
     }
 }  // namespace
 
@@ -78,15 +78,6 @@ void edge::set_next(std::shared_ptr<node> n) {
 
 // trie
 
-trie::trie() = default;
-
-trie::~trie() = default;
-
-trie::size_type trie::size() const
-{
-    return count;
-}
-
 node const& trie::root_node() const
 {
     return root;
@@ -94,19 +85,7 @@ node const& trie::root_node() const
 
 void trie::insert(string_view word)
 {
-    count += ::insert(root, word, word) ? 1 : 0;
-}
-
-bool operator<(edge const& lhs, edge const& rhs)
-{
-    return std::tie(static_cast<char const&>(lhs), lhs.ptr())
-            <std::tie(static_cast<char const&>(rhs), rhs.ptr());
-}
-
-bool operator<(node const& lhs, node const& rhs)
-{
-    return std::tie(lhs.edges, lhs.is_terminator)
-            <std::tie(rhs.edges, rhs.is_terminator);
+    ::insert(root, begin(word), end(word));
 }
 
 using node_map = std::map<node, std::shared_ptr<node>>;

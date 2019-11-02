@@ -8,5 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(src/common)
 
+add_subdirectory(src/generate)
+add_subdirectory(src/lexicon)
 add_subdirectory(src/play)
 add_subdirectory(src/rack)

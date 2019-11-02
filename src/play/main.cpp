@@ -3,9 +3,8 @@
 #include "board_tiles.h"
 #include "coord.h"
 
-#include <load_lexicon.h>
 #include <scores.h>
-#include <trie.h>
+#include <wwf_lexicon.h>
 
 #include <clara.hpp>
 #include <fmt/printf.h>
@@ -29,7 +28,7 @@ namespace {
     using std::end;
     using std::string;
     using std::tie;
-
+    
     struct result {
         std::string word;
         int score;
@@ -42,7 +41,7 @@ namespace {
         board<char> const& board_tiles;
         board<premium> const& board_premiums;
         board<bool> const& board_neighbours;
-        trie const& lexicon;
+        node const& lexicon;
         int const edge;
 
         // letters from the rack on the board used in this word
@@ -94,7 +93,7 @@ namespace {
             fmt::print("\n");
         }
     }
-    
+
     auto word_extent(
             board<char> const& board_tiles,
             coord const part_start,
@@ -108,7 +107,7 @@ namespace {
         while (get(
                 board_tiles,
                 part_start+cross_direction*pre_word_part,
-                vacant) != vacant) {
+                vacant)!=vacant) {
             --pre_word_part;
         }
         ++pre_word_part;
@@ -120,7 +119,7 @@ namespace {
                 vacant)!=vacant) {
             ++post_word_part;
         }
-        
+
         return std::make_pair(pre_word_part, post_word_part);
     }
 
@@ -139,7 +138,7 @@ namespace {
 
         int word_multiplier{1};
         int score{0};
-        auto* node{&state.lexicon.root_node()};
+        auto* node{&state.lexicon};
         for (auto i{extents.first}; i!=extents.second; ++i) {
             auto const pos{part_start+cross_direction*(i)};
             auto const tile{state.board_tiles[pos[1]][pos[0]]};
@@ -151,7 +150,8 @@ namespace {
                 }
 
                 // mutation!!
-                word_multiplier *= gsl::at(::word_multiplier, int(cell_premium));
+                word_multiplier *= gsl::at(::word_multiplier,
+                        int(cell_premium));
 
                 Expects(i>=0);
                 Expects(i<ssize(word_part));
@@ -163,11 +163,12 @@ namespace {
                 return std::make_tuple(letter, letter_multiplier);
             }();
 
-            auto const found{std::find(begin(*node), end(*node), std::toupper(letter))};
+            auto const found{
+                    std::find(begin(*node), end(*node), std::toupper(letter))};
             if (found==end(*node)) {
                 return std::nullopt;
             }
-            node = &found->get_next();
+            node = &found.child();
 
             auto const letter_score{state.letter_scores[letter]};
             score += letter_multiplier*letter_score;
@@ -184,7 +185,8 @@ namespace {
                 state.board_neighbours[state.pos[1]][state.pos[0]] ? 1 : 0};
 
         auto const recurse{
-                [&](node const& n, char letter, search_state& state) noexcept {
+                [&](node const& n, char letter,
+                        search_state& state) noexcept {
                     state.word.push_back(letter);
                     state.num_neighbours += neighbour_count;
                     state.pos += state.direction;
@@ -194,8 +196,8 @@ namespace {
                             && get(state.board_tiles, state.pos, vacant)
                                     ==vacant) {
                         auto const extents{word_extent(
-                                state.board_tiles, 
-                                state.start, 
+                                state.board_tiles,
+                                state.start,
                                 ssize(state.word),
                                 state.direction)};
                         auto const word_score{calc_score(
@@ -227,9 +229,9 @@ namespace {
             ++state.rack_used;
 
             auto const n_end(end(n));
-            for (auto i{begin(n)}; i!=n_end; ++ i) {
-                auto const& edge(*i);
-                auto const letter{char{edge}};
+            for (auto i{begin(n)}; i!=n_end; ++i) {
+                auto const& edge(i.child());
+                auto const letter{i.letter()};
                 coord const cross_direction{state.direction[1],
                         state.direction[0]};
                 auto const extents{word_extent(
@@ -237,12 +239,12 @@ namespace {
                         state.pos,
                         1,
                         cross_direction)};
-                
+
                 auto const fill_square{[&](int& counter, char letter) {
                     if (counter==0) {
                         return;
                     }
-                    
+
                     auto const cross_score{calc_score(
                             state,
                             state.pos,
@@ -257,13 +259,13 @@ namespace {
 
                     --counter;
                     state.cross_scores += *cross_score;
-                    recurse(edge.get_next(), letter, state);
+                    recurse(edge, letter, state);
                     state.cross_scores -= *cross_score;
                     ++counter;
                 }};
-                
+
                 fill_square(state.rack[letter], letter);
-                fill_square(state.rack[blank], std::tolower(letter));
+                fill_square(state.rack[blank], char(std::tolower(letter)));
             }
 
             --state.rack_used;
@@ -281,10 +283,10 @@ namespace {
             return;
         }
 
-        recurse(found->get_next(), board_tile, state);
+        recurse(found.child(), board_tile, state);
     }
 
-    void search(trie const& lexicon, search_state& state, coord direction)
+    void search(node const& lexicon, search_state& state, coord direction)
     {
         if (state.board_neighbours[state.start[1]][state.start[0]]) {
             auto const preceding{get(
@@ -299,7 +301,7 @@ namespace {
         }
 
         state.direction = direction;
-        search(lexicon.root_node(), state);
+        search(lexicon, state);
     }
 
     board<bool> make_board_neighbours(board<char> const& board_tiles)
@@ -335,12 +337,14 @@ namespace {
     void refine_results(std::vector<result>& finds)
     {
         sort(begin(finds), end(finds), [](auto a, auto b) {
-            return tie(b.score, a.word, a.start[1], a.start[0], a.direction[1], a.direction[0])
-                    <tie(a.score, b.word, b.start[1], b.start[0], b.direction[1], b.direction[0]);
+            return tie(b.score, a.word, a.start[1], a.start[0], a.direction[1],
+                    a.direction[0])
+                    <tie(a.score, b.word, b.start[1], b.start[0],
+                            b.direction[1], b.direction[0]);
         });
     }
 
-    auto solve(trie const& lexicon, letter_values const& letter_scores,
+    auto solve(node const& lexicon, letter_values const& letter_scores,
             std::string_view letters, board<char> const& board_tiles,
             board<premium> const& board_premiums)
     {
@@ -393,8 +397,6 @@ int main(int argc, char const* const* argv)
                     "minimum number of letters in words suggested")
                     | Arg(letters, "letters")(
                             "Letter \"rack\" including wildcards as '?'")
-                    | Arg(lexicon_filename, "lexicon")(
-                            "text file containing list of words")
                     | Arg(board_filename, "board")(
                             "CSV file containing played letters")
                     | Arg(premiums_filename, "premiums")(
@@ -445,13 +447,6 @@ int main(int argc, char const* const* argv)
         return EXIT_FAILURE;
     }
 
-    auto const lexicon{load_lexicon(lexicon_filename, min_length, ssize(*board_tiles))};
-    if (!lexicon) {
-        fmt::print(stderr, "error: failed to lexicon from {}\n",
-                lexicon_filename);
-        return EXIT_FAILURE;
-    }
-
     auto board_premiums{load_board_premiums(premiums_filename)};
     if (!board_premiums) {
         if (premiums_filename.empty()) {
@@ -465,7 +460,7 @@ int main(int argc, char const* const* argv)
     }
 
     auto finds{
-            solve(*lexicon, wwf_scores(), letters, *board_tiles,
+            solve(wwf_lexicon, wwf_scores(), letters, *board_tiles,
                     *board_premiums)};
 
     for (auto const& find : finds) {
@@ -473,6 +468,6 @@ int main(int argc, char const* const* argv)
                 find.word.c_str(),
                 find.score,
                 fmt::format("{:2},{:1}", find.start[0]+1, find.start[1]+1),
-                find.direction[0]?'-':'|');
+                (find.direction[0]!=0) ? '-' : '|');
     };
 }  // namespace
