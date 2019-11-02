@@ -311,16 +311,17 @@ namespace {
         board<bool> board_neighbours(board_tiles.size());
 
         auto const populate_board_neighbours{
-                [&](int offset_x, int offset_y, int begin_x, int begin_y,
-                        int end_x, int end_y) {
-                    for (auto x{begin_x}; x!=end_x; ++x) {
-                        for (auto y{begin_y}; y!=end_y; ++y) {
-                            Expects(y+offset_y>=0);
-                            Expects(y+offset_y<edge);
-                            Expects(x+offset_x>=0);
-                            Expects(x+offset_x<edge);
+                [&](coord offset, coord first, coord last) {
+                    for (auto y{first[1]}; y!=last[1]; ++y) {
+                        Expects(y+offset[1]>=0);
+                        Expects(y+offset[1]<edge);
+
+                        for (auto x{first[0]}; x!=last[0]; ++x) {
+                            Expects(x+offset[0]>=0);
+                            Expects(x+offset[0]<edge);
+
                             // NOLINTNEXTLINE(clang-analyzer-core.CallAndMessage)
-                            if (board_tiles[y+offset_y][x+offset_x]!=vacant) {
+                            if (board_tiles[y+offset[1]][x+offset[0]]!=vacant) {
                                 board_neighbours[y][x] = true;
                             }
                         }
@@ -329,10 +330,10 @@ namespace {
         };
 
         if (edge>0) {
-            populate_board_neighbours(-1, 0, 1, 0, edge, edge);
-            populate_board_neighbours(1, 0, 0, 0, edge-1, edge);
-            populate_board_neighbours(0, -1, 0, 1, edge, edge);
-            populate_board_neighbours(0, 1, 0, 0, edge, edge-1);
+            populate_board_neighbours({-1, 0}, {1, 0}, {edge, edge});
+            populate_board_neighbours({1, 0}, {0, 0}, {edge-1, edge});
+            populate_board_neighbours({0, -1}, {0, 1}, {edge, edge});
+            populate_board_neighbours({0, 1}, {0, 0}, {edge, edge-1});
         }
 
         return board_neighbours;
