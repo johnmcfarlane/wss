@@ -1,6 +1,6 @@
 #include "load_lexicon.h"
 
-#include "ssize.h"
+#include "../common/ssize.h"
 
 #include <fmt/printf.h>
 

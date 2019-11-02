@@ -4,4 +4,4 @@ add_executable(play
         csv.cpp
         load_buffer.cpp
         main.cpp)
-target_link_libraries(play common)
+target_link_libraries(play common lexicon)

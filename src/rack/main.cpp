@@ -1,8 +1,7 @@
-#include <load_lexicon.h>
 #include <scores.h>
 #include <ssize.h>
 #include <tile.h>
-#include <trie.h>
+#include <wwf_lexicon.h>
 
 #include <clara.hpp>
 #include <fmt/printf.h>
@@ -20,7 +19,6 @@ using std::begin;
 using std::end;
 using std::string_view;
 using std::fill;
-using std::for_each;
 using std::pair;
 using std::string;
 using std::tie;
@@ -34,8 +32,10 @@ struct search_state {
     vector<pair<string, int>> finds{};
 };
 
-void search(node const& n, search_state& state, int score) noexcept
+void search(node const& n, search_state& state, int score, 
+        int min_length) noexcept
 {
+    -- min_length;
     auto const recurse{
             [&](node const& n, int& counter, search_state& state,
                     int score) noexcept {
@@ -43,27 +43,30 @@ void search(node const& n, search_state& state, int score) noexcept
                     return;
                 }
 
-                if (n.is_terminator) {
+                if (n.is_terminator && min_length<=0) {
                     state.finds.emplace_back(
                             string{begin(state.word), end(state.word)},
                             score);
                 }
 
                 --counter;
-                ::search(n, state, score);
+                ::search(n, state, score, min_length);
                 ++counter;
             }};
 
-    for_each(begin(n), end(n), [&](auto const& edge) {
-        state.word.push_back(edge);
-        auto const letter_score{state.letter_scores[edge]};
-        recurse(edge.get_next(), state.rack[edge], state,
+    for (auto i{begin(n)}; i!=end(n); ++i) {
+        auto letter{i.letter()};
+        auto const& child{i.child()};
+        state.word.push_back(letter);
+        auto const letter_score{state.letter_scores[letter]};
+        recurse(child, state.rack[letter], state,
                 score+letter_score);
-        recurse(edge.get_next(), state.rack[wildcard], state,
+        recurse(child, state.rack[wildcard], state,
                 score+letter_score);
-        recurse(edge.get_next(), state.rack[blank], state, score);
+        recurse(child, state.rack[blank], state, score);
         state.word.pop_back();
-    });
+    }
+    ++ min_length;
 }
 
 void refine_results(vector<pair<string, int>>& finds)
@@ -84,8 +87,8 @@ void refine_results(vector<pair<string, int>>& finds)
     });
 }
 
-auto solve(trie const& lexicon, letter_values const& letter_scores,
-        string_view letters)
+auto solve(node const& node, letter_values const& letter_scores,
+        string_view letters, int min_length)
 {
     search_state state{letter_scores};
 
@@ -96,7 +99,7 @@ auto solve(trie const& lexicon, letter_values const& letter_scores,
 
     state.word.reserve(letters.size());
 
-    search(lexicon.root_node(), state, 0);
+    search(node, state, 0, min_length);
 
     refine_results(state.finds);
     return move(state.finds);
@@ -111,15 +114,12 @@ int main(int argc, char const* const* argv)
 
     auto help{false};
     auto min_length{2};
-    auto lexicon_filename{string{}};
     auto letters{string{}};
     auto cli{
             Opt(min_length, "minimum length")["-n"]["--min-length"](
                     "minimum number of letters in words suggested")
                     | Arg(letters, "letters")(
                             "Letter \"rack\" including wildcards as '?'")
-                    | Arg(lexicon_filename, "lexicon")(
-                            "text file containing list of words")
                     | Help(help)};
     auto result = cli.parse(Args(argc, argv));
 
@@ -153,15 +153,7 @@ int main(int argc, char const* const* argv)
     std::transform(begin(letters), end(letters), begin(letters),
             [](auto c) { return std::toupper(c); });
 
-    auto const lexicon{
-            load_lexicon(lexicon_filename, min_length, ssize(letters))};
-    if (!lexicon) {
-        fmt::print(stderr, "error: failed to lexicon from {}\n",
-                lexicon_filename);
-        return EXIT_FAILURE;
-    }
-
-    auto finds{solve(*lexicon, wwf_scores(), letters)};
+    auto finds{solve(wwf_lexicon, wwf_scores(), letters, min_length)};
 
     for (auto const& find : finds) {
         puts(find.first.c_str());

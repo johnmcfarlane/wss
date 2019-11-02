@@ -1,4 +1,5 @@
-add_library(common load_lexicon.cpp trie.cpp)
+add_library(common scores.h ssize.h tile.h)
+set_target_properties(common PROPERTIES LINKER_LANGUAGE CXX)
 target_compile_options(common PUBLIC "-Werror" "-Wall" "-Wextra" "-Wpedantic")
 set_target_properties(common PROPERTIES CXX_STANDARD 17)
 target_link_libraries(common "${CONAN_LIBS}")
