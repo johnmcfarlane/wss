@@ -326,10 +326,12 @@ namespace {
                 }
         };
 
-        populate_board_neighbours(-1, 0, 1, 0, edge, edge);
-        populate_board_neighbours(1, 0, 0, 0, edge-1, edge);
-        populate_board_neighbours(0, -1, 0, 1, edge, edge);
-        populate_board_neighbours(0, 1, 0, 0, edge, edge-1);
+        if (edge>0) {
+            populate_board_neighbours(-1, 0, 1, 0, edge, edge);
+            populate_board_neighbours(1, 0, 0, 0, edge-1, edge);
+            populate_board_neighbours(0, -1, 0, 1, edge, edge);
+            populate_board_neighbours(0, 1, 0, 0, edge, edge-1);
+        }
 
         return board_neighbours;
     }
