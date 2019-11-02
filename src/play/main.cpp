@@ -128,7 +128,7 @@ namespace {
             coord const part_start,
             coord const cross_direction,
             std::pair<int, int> extents,
-            std::vector<char> const& word_part)
+            gsl::span<char> word_part)
     -> std::optional<int>
     {
         auto const word_size{extents.second-extents.first};
@@ -250,7 +250,7 @@ namespace {
                             state.pos,
                             cross_direction,
                             extents,
-                            {letter})};
+                            gsl::span<char>(&letter, 1))};
 
                     // Cross-word is not a valid word in the lexicon.
                     if (!cross_score) {
