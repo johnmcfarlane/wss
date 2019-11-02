@@ -248,7 +248,7 @@ namespace {
                     auto const cross_score{calc_score(
                             state,
                             state.pos,
-                            cross_direction,
+                            cross_direction,  // NOLINTNEXTLINE(clang-analyzer-core.NonNullParamChecker)
                             extents,
                             gsl::span<char>(&letter, 1))};
 
@@ -318,6 +318,7 @@ namespace {
                             Expects(y+offset_y<edge);
                             Expects(x+offset_x>=0);
                             Expects(x+offset_x<edge);
+                            // NOLINTNEXTLINE(clang-analyzer-core.CallAndMessage)
                             if (board_tiles[y+offset_y][x+offset_x]!=vacant) {
                                 board_neighbours[y][x] = true;
                             }
