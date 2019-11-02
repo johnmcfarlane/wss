@@ -102,7 +102,7 @@ void dump_lexicon(
     source_h << "extern node const& " << name << ";\n";
 }
 
-int main(int argc, char const* const* argv)
+auto main(int argc, char const* const* argv) -> int
 {
     using clara::Arg;
     using clara::Args;

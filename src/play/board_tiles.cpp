@@ -7,7 +7,8 @@
 #include <cctype>
 #include <unordered_map>
 
-std::optional<board<char>> load_board_tiles(gsl::cstring_span<> filename)
+auto load_board_tiles(gsl::cstring_span<> filename)
+-> std::optional<board<char>>
 {
     return load_board<char>(filename, [](auto field) -> std::optional<char> {
         if (field.empty()) {

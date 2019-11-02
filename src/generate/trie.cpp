@@ -19,7 +19,7 @@ namespace {
                 [l](auto const& edge) { return edge==l; });
     }
 
-    auto& insert(node& n, char l)
+    auto insert(node& n, char l) -> node&
     {
         auto found = find(n, l);
         if (found!=end(n.edges)) {
@@ -30,8 +30,8 @@ namespace {
         return n.edges.back().get_next();
     }
 
-    bool insert(
-            node& n, 
+    auto insert(
+            node& n,
             string_view::const_iterator pos,
             string_view::const_iterator end)
     {
@@ -54,9 +54,11 @@ namespace {
 
 // node
 
-node::edge_vector::const_iterator node::begin() const { return edges.begin(); }
+auto node::begin() const
+-> node::edge_vector::const_iterator { return edges.begin(); }
 
-node::edge_vector::const_iterator node::end() const { return edges.end(); }
+auto node::end() const
+-> node::edge_vector::const_iterator { return edges.end(); }
 
 // edge
 
@@ -65,20 +67,21 @@ edge::edge(char l, std::unique_ptr<node> n)
 
 edge::operator char() const { return letter; }
 
-std::shared_ptr<node> const& edge::ptr() const { return next; }
+auto edge::ptr() const -> std::shared_ptr<node> const& { return next; }
 
-node& edge::get_next() { return *next; }
+auto edge::get_next() -> node& { return *next; }
 
-node const& edge::get_next() const { return *next; }
+auto edge::get_next() const -> node const& { return *next; }
 
-void edge::set_next(std::shared_ptr<node> n) { 
+void edge::set_next(std::shared_ptr<node> n)
+{
     Expects(n);
-    next = move(n); 
+    next = move(n);
 }
 
 // trie
 
-node const& trie::root_node() const
+auto trie::root_node() const -> node const&
 {
     return root;
 }
@@ -90,12 +93,12 @@ void trie::insert(string_view word)
 
 using node_map = std::map<node, std::shared_ptr<node>>;
 
-int compress(node& n, node_map& nodes)
+auto compress(node& n, node_map& nodes) -> int
 {
     auto sum{0};
     for (auto& edge : n.edges) {
         auto& child{edge.get_next()};
-        sum+=compress(child, nodes);
+        sum += compress(child, nodes);
 
         auto found{nodes.equal_range(child)};
         if (found.first==found.second) {

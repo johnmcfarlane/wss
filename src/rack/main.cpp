@@ -105,7 +105,7 @@ auto solve(node const& node, letter_values const& letter_scores,
     return move(state.finds);
 }
 
-int main(int argc, char const* const* argv)
+auto main(int argc, char const* const* argv) -> int
 {
     using clara::Arg;
     using clara::Args;
