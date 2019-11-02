@@ -128,7 +128,7 @@ namespace {
             coord const part_start,
             coord const cross_direction,
             std::pair<int, int> extents,
-            std::vector<char> const& word_part)
+            gsl::span<char> word_part)
     -> std::optional<int>
     {
         auto const word_size{extents.second-extents.first};
@@ -248,9 +248,9 @@ namespace {
                     auto const cross_score{calc_score(
                             state,
                             state.pos,
-                            cross_direction,
+                            cross_direction,  // NOLINTNEXTLINE(clang-analyzer-core.NonNullParamChecker)
                             extents,
-                            {letter})};
+                            gsl::span<char>(&letter, 1))};
 
                     // Cross-word is not a valid word in the lexicon.
                     if (!cross_score) {
@@ -318,6 +318,7 @@ namespace {
                             Expects(y+offset_y<edge);
                             Expects(x+offset_x>=0);
                             Expects(x+offset_x<edge);
+                            // NOLINTNEXTLINE(clang-analyzer-core.CallAndMessage)
                             if (board_tiles[y+offset_y][x+offset_x]!=vacant) {
                                 board_neighbours[y][x] = true;
                             }
@@ -326,10 +327,12 @@ namespace {
                 }
         };
 
-        populate_board_neighbours(-1, 0, 1, 0, edge, edge);
-        populate_board_neighbours(1, 0, 0, 0, edge-1, edge);
-        populate_board_neighbours(0, -1, 0, 1, edge, edge);
-        populate_board_neighbours(0, 1, 0, 0, edge, edge-1);
+        if (edge>0) {
+            populate_board_neighbours(-1, 0, 1, 0, edge, edge);
+            populate_board_neighbours(1, 0, 0, 0, edge-1, edge);
+            populate_board_neighbours(0, -1, 0, 1, edge, edge);
+            populate_board_neighbours(0, 1, 0, 0, edge, edge-1);
+        }
 
         return board_neighbours;
     }
