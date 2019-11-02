@@ -63,7 +63,7 @@ namespace {
     };
 
     template<typename T>
-    T get(board<T> const& b, coord pos, T oob)
+    auto get(board<T> const& b, coord pos, T oob) -> T
     {
         if (pos[0]<0) {
             return oob;
@@ -304,7 +304,7 @@ namespace {
         search(lexicon, state);
     }
 
-    board<bool> make_board_neighbours(board<char> const& board_tiles)
+    auto make_board_neighbours(board<char> const& board_tiles) -> board<bool>
     {
         auto const edge{board_tiles.size()};
         board<bool> board_neighbours(board_tiles.size());
@@ -382,7 +382,7 @@ namespace {
 
 }  // namespace
 
-int main(int argc, char const* const* argv)
+auto main(int argc, char const* const* argv) -> int
 {
     using clara::Arg;
     using clara::Args;

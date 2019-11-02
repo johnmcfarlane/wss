@@ -11,7 +11,7 @@ class edge;
 struct node {
     using edge_vector = std::vector<edge>;
 
-    edge_vector::const_iterator begin() const;
+    auto begin() const -> edge_vector::const_iterator;
 
     edge_vector::const_iterator end() const;
 

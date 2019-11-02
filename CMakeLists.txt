@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.12.1)
 project(wss)
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
