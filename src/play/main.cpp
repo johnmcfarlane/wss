@@ -35,6 +35,7 @@ namespace {
         board<premium> premiums;
         board<bool> neighbours;
         node lexicon;
+        coord center;
         int edge;
     };
 
@@ -189,7 +190,8 @@ namespace {
     void search(node const& n, search_state& state) noexcept
     {
         auto const neighbour_count{
-                state.board.neighbours[state.pos[1]][state.pos[0]] ? 1 : 0};
+                (state.board.neighbours[state.pos[1]][state.pos[0]] ||
+                        state.pos==state.board.center) ? 1 : 0};
 
         auto const recurse{
                 [&](node const& n, char letter,
@@ -293,12 +295,12 @@ namespace {
         recurse(found.child(), board_tile, state);
     }
 
-    void search(node const& lexicon, search_state& state, coord direction)
+    void search(search_state& state)
     {
         if (state.board.neighbours[state.move.start[1]][state.move.start[0]]) {
             auto const preceding{get(
                     state.board.tiles,
-                    state.move.start-direction,
+                    state.move.start-state.move.direction,
                     vacant)};
             if (preceding!=vacant) {
                 // The start of a word cannot go on the board here
@@ -307,8 +309,8 @@ namespace {
             }
         }
 
-        state.move.direction = direction;
-        search(lexicon, state);
+        state.move.direction = state.move.direction;
+        search(state.board.lexicon, state);
     }
 
     auto make_board_neighbours(board<char> const& board_tiles) -> board<bool>
@@ -368,6 +370,7 @@ namespace {
                         std::move(premiums),
                         std::move(neighbours),
                         lexicon,
+                        {edge/2, edge/2},
                         edge
                 },
                 {}
@@ -379,24 +382,26 @@ namespace {
         }
 
         for (auto bearing{0}; bearing!=2; ++bearing) {
-            coord const direction{1-bearing, bearing};
-            for (state.move.start[direction[0]] = edge-1;
-                    state.move.start[direction[0]]>=0;
-                    --state.move.start[direction[0]]) {
+            state.move.direction[0]=1-bearing;
+            state.move.direction[1]=bearing;
+            for (state.move.start[state.move.direction[0]] = edge-1;
+                    state.move.start[state.move.direction[0]]>=0;
+                    --state.move.start[state.move.direction[0]]) {
                 auto count_back{0};
-                for (state.move.start[direction[1]] = edge-1;
-                        state.move.start[direction[1]]>=0;
-                        --state.move.start[direction[1]]) {
+                for (state.move.start[state.move.direction[1]] = edge-1;
+                        state.move.start[state.move.direction[1]]>=0;
+                        --state.move.start[state.move.direction[1]]) {
                     state.pos = state.move.start;
                     if (state.board.neighbours
-                                [state.move.start[1]][state.move.start[0]]) {
+                    [state.move.start[1]][state.move.start[0]]
+                            || state.move.start==state.board.center) {
                         count_back = ssize(letters);
                     }
                     else {
                         --count_back;
                     }
                     if (count_back>0) {
-                        search(lexicon, state, direction);
+                        search(state);
                     }
                 }
             }
