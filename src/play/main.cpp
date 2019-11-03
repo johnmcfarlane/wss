@@ -421,15 +421,12 @@ auto main(int argc, char const* const* argv) -> int
     using clara::Opt;
 
     auto help{false};
-    auto min_length{2};
     auto lexicon_filename{string{}};
     auto board_filename{string{}};
     auto premiums_filename{string{}};
     auto letters{string{}};
     auto cli{
-            Opt(min_length, "minimum length")["-n"]["--min-length"](
-                    "minimum number of letters in words suggested")
-                    | Arg(letters, "letters")(
+            Arg(letters, "letters")(
                             "Letter \"rack\" including wildcards as ? and blanks as _")
                     | Arg(board_filename, "board")(
                             "CSV file containing played letters")
@@ -461,13 +458,6 @@ auto main(int argc, char const* const* argv) -> int
 
     if (board_filename.empty()) {
         fmt::fprintf(stderr, "Please provide a board layout file\n");
-        return EXIT_FAILURE;
-    }
-
-    if (min_length>ssize(letters)) {
-        fmt::fprintf(stderr,
-                "error: too few letters, %zd, to achieve minimum word length, %d\n",
-                letters.size(), min_length);
         return EXIT_FAILURE;
     }
 
