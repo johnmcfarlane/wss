@@ -488,6 +488,13 @@ auto main(int argc, char const* const* argv) -> int
         }
     }
 
+    if (ssize(*board_premiums)!=ssize(*board_tiles)) {
+        fmt::print(stderr,
+                "error: premium and tile boards are different sizes ({} and {})\n",
+                ssize(*board_premiums), ssize(*board_tiles));
+        return EXIT_FAILURE;
+    }
+
     auto finds{
             solve(wwf_lexicon, wwf_scores(), letters, std::move(*board_tiles),
                     std::move(*board_premiums))};
