@@ -348,8 +348,8 @@ namespace {
     void refine_results(std::vector<result>& finds)
     {
         sort(begin(finds), end(finds), [](auto a, auto b) {
-            return tie(b.score, a.word, a.move.start[1], a.move.start[0], a.move.direction[1],
-                    a.move.direction[0])
+            return tie(b.score, a.word, a.move.start[1], a.move.start[0],
+                    a.move.direction[1], a.move.direction[0])
                     <tie(a.score, b.word, b.move.start[1], b.move.start[0],
                             b.move.direction[1], b.move.direction[0]);
         });
@@ -503,7 +503,8 @@ auto main(int argc, char const* const* argv) -> int
         fmt::print("{1:3} {2:5} {3} {0}\n",
                 find.word.c_str(),
                 find.score,
-                fmt::format("{:2},{:1}", find.move.start[0]+1, find.move.start[1]+1),
+                fmt::format("{:2},{:1}", find.move.start[0]+1,
+                        find.move.start[1]+1),
                 (find.move.direction[0]!=0) ? '-' : '|');
     };
 }  // namespace
