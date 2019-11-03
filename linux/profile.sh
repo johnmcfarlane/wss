@@ -12,5 +12,5 @@ NUM_CPUS=$(nproc)
 
 cmake --build . -- --jobs ${NUM_CPUS}
 
-perf record -g ./src/play/play abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_ ../test/bin/play/game14/9/tiles.csv
+perf record -g ./src/play/play abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_ ${PROJECT_DIR}/test/bin/play/game14/9/tiles.csv
 perf report -g 'graph,0.5,caller'
