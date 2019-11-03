@@ -366,15 +366,28 @@ namespace {
             ++state.rack[letter];
         }
 
-        for (state.start[1] = 0;
-                state.start[1]!=state.board_tiles.size();
-                ++state.start[1]) {
-            for (state.start[0] = 0;
-                    state.start[0]!=state.board_tiles.size();
-                    ++state.start[0]) {
-                state.pos = state.start;
-                search(lexicon, state, {1, 0});
-                search(lexicon, state, {0, 1});
+        auto const edge{state.board_tiles.size()};
+
+        for (auto bearing{0}; bearing!=2; ++bearing) {
+            coord const direction{1-bearing, bearing};
+            for (state.start[direction[0]] = edge-1;
+                    state.start[direction[0]]>=0;
+                    --state.start[direction[0]]) {
+                auto count_back{0};
+                for (state.start[direction[1]] = edge-1;
+                        state.start[direction[1]]>=0;
+                        --state.start[direction[1]]) {
+                    state.pos = state.start;
+                    if (state.board_neighbours[state.start[1]][state.start[0]]) {
+                        count_back = ssize(letters);
+                    }
+                    else {
+                        --count_back;
+                    }
+                    if (count_back>0) {
+                        search(lexicon, state, direction);
+                    }
+                }
             }
         }
 
