@@ -266,6 +266,7 @@ namespace {
 
                 fill_square(state.rack[letter], letter);
                 fill_square(state.rack[blank], char(std::tolower(letter)));
+                fill_square(state.rack[wildcard], letter);
             }
 
             --state.rack_used;
