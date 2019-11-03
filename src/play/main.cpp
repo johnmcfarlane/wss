@@ -425,7 +425,7 @@ auto main(int argc, char const* const* argv) -> int
             Opt(min_length, "minimum length")["-n"]["--min-length"](
                     "minimum number of letters in words suggested")
                     | Arg(letters, "letters")(
-                            "Letter \"rack\" including wildcards as '?'")
+                            "Letter \"rack\" including wildcards as ? and blanks as _")
                     | Arg(board_filename, "board")(
                             "CSV file containing played letters")
                     | Arg(premiums_filename, "premiums")(
