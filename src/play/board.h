@@ -5,6 +5,7 @@
 #ifndef WSS_BOARD_H
 #define WSS_BOARD_H
 
+#include "coord.h"
 #include "csv.h"
 #include "load_buffer.h"
 
@@ -28,72 +29,6 @@ public:
     int size() const
     {
         return edge;
-    }
-
-    class iterator {
-    public:
-        iterator(T* p, int e)
-                :pos(p), edge(e) { }
-
-        iterator(iterator const& that) = default;
-
-        friend bool operator!=(iterator lhs, iterator rhs)
-        {
-            Expects(lhs.edge==rhs.edge);
-            return lhs.pos!=rhs.pos;
-        }
-
-        friend iterator& operator++(iterator& rhs)
-        {
-            std::advance(rhs.pos, rhs.edge);
-            return rhs;
-        }
-
-    private:
-        T* pos;
-        int edge;
-    };
-
-    class const_iterator {
-    public:
-        const_iterator(T const* p, int e)
-                :pos(p), edge(e) { }
-
-        friend bool operator!=(const_iterator lhs, const_iterator rhs)
-        {
-            Expects(lhs.edge==rhs.edge);
-            return lhs.pos!=rhs.pos;
-        }
-
-        friend const_iterator& operator++(const_iterator& rhs)
-        {
-            std::advance(rhs.pos, rhs.edge);
-            return rhs;
-        }
-
-    private:
-        T const* pos;
-        int edge;
-    };
-
-    auto begin()
-    {
-        return iterator(begin(cells), edge);
-    }
-
-    auto begin() const
-    {
-        return const_iterator(begin(cells), edge);
-    }
-
-    auto end()
-    {
-        return iterator(end(cells), edge);
-    }
-
-    auto end() const
-    {
-        return const_iterator(end(cells), edge);
     }
 
     gsl::span<T const> operator[](int y) const
