@@ -31,18 +31,22 @@ public:
         return edge;
     }
 
-    gsl::span<T const> operator[](int y) const
+    T const* cell(coord c) const
     {
-        Expects(y>=0);
-        Expects(y<edge);
-        return {cells.get()+y*edge, edge};
+        Expects(c[0]>=0);
+        Expects(c[0]<edge);
+        Expects(c[1]>=0);
+        Expects(c[1]<edge);
+        return &cells.get()[c[0]+c[1]*edge];
     }
 
-    gsl::span<T> operator[](int y)
+    T* cell(coord c)
     {
-        Expects(y>=0);
-        Expects(y<edge);
-        return {cells.get()+y*edge, edge};
+        Expects(c[0]>=0);
+        Expects(c[0]<edge);
+        Expects(c[1]>=0);
+        Expects(c[1]<edge);
+        return &cells.get()[c[0]+c[1]*edge];
     }
 
 private:
@@ -79,7 +83,7 @@ std::optional<board<CellType>> make_board(
                 return std::nullopt;
             }
 
-            result[row_index][column_index] = *cell_found;
+            *result.cell(coord{column_index,row_index}) = *cell_found;
         }
     }
 
