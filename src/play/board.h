@@ -7,7 +7,8 @@
 
 #include "csv.h"
 #include "load_buffer.h"
-#include "../common/ssize.h"
+
+#include <ssize.h>
 
 #include <fmt/printf.h>
 #include <gsl/string_span>
