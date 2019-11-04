@@ -35,6 +35,7 @@ namespace {
         board<premium> premiums;
         board<bool> neighbours;
         node lexicon;
+        coord center;
         int edge;
     };
 
@@ -189,7 +190,8 @@ namespace {
     void search(node const& n, search_state& state) noexcept
     {
         auto const neighbour_count{
-                state.board.neighbours[state.pos[1]][state.pos[0]] ? 1 : 0};
+                (state.board.neighbours[state.pos[1]][state.pos[0]] ||
+                        state.pos==state.board.center) ? 1 : 0};
 
         auto const recurse{
                 [&](node const& n, char letter,
@@ -293,12 +295,12 @@ namespace {
         recurse(found.child(), board_tile, state);
     }
 
-    void search(node const& lexicon, search_state& state, coord direction)
+    void search(search_state& state)
     {
         if (state.board.neighbours[state.move.start[1]][state.move.start[0]]) {
             auto const preceding{get(
                     state.board.tiles,
-                    state.move.start-direction,
+                    state.move.start-state.move.direction,
                     vacant)};
             if (preceding!=vacant) {
                 // The start of a word cannot go on the board here
@@ -307,8 +309,8 @@ namespace {
             }
         }
 
-        state.move.direction = direction;
-        search(lexicon, state);
+        state.move.direction = state.move.direction;
+        search(state.board.lexicon, state);
     }
 
     auto make_board_neighbours(board<char> const& board_tiles) -> board<bool>
@@ -348,8 +350,8 @@ namespace {
     void refine_results(std::vector<result>& finds)
     {
         sort(begin(finds), end(finds), [](auto a, auto b) {
-            return tie(b.score, a.word, a.move.start[1], a.move.start[0], a.move.direction[1],
-                    a.move.direction[0])
+            return tie(b.score, a.word, a.move.start[1], a.move.start[0],
+                    a.move.direction[1], a.move.direction[0])
                     <tie(a.score, b.word, b.move.start[1], b.move.start[0],
                             b.move.direction[1], b.move.direction[0]);
         });
@@ -368,6 +370,7 @@ namespace {
                         std::move(premiums),
                         std::move(neighbours),
                         lexicon,
+                        {edge/2, edge/2},
                         edge
                 },
                 {}
@@ -379,24 +382,26 @@ namespace {
         }
 
         for (auto bearing{0}; bearing!=2; ++bearing) {
-            coord const direction{1-bearing, bearing};
-            for (state.move.start[direction[0]] = edge-1;
-                    state.move.start[direction[0]]>=0;
-                    --state.move.start[direction[0]]) {
+            state.move.direction[0]=1-bearing;
+            state.move.direction[1]=bearing;
+            for (state.move.start[state.move.direction[0]] = edge-1;
+                    state.move.start[state.move.direction[0]]>=0;
+                    --state.move.start[state.move.direction[0]]) {
                 auto count_back{0};
-                for (state.move.start[direction[1]] = edge-1;
-                        state.move.start[direction[1]]>=0;
-                        --state.move.start[direction[1]]) {
+                for (state.move.start[state.move.direction[1]] = edge-1;
+                        state.move.start[state.move.direction[1]]>=0;
+                        --state.move.start[state.move.direction[1]]) {
                     state.pos = state.move.start;
                     if (state.board.neighbours
-                                [state.move.start[1]][state.move.start[0]]) {
+                    [state.move.start[1]][state.move.start[0]]
+                            || state.move.start==state.board.center) {
                         count_back = ssize(letters);
                     }
                     else {
                         --count_back;
                     }
                     if (count_back>0) {
-                        search(lexicon, state, direction);
+                        search(state);
                     }
                 }
             }
@@ -416,16 +421,13 @@ auto main(int argc, char const* const* argv) -> int
     using clara::Opt;
 
     auto help{false};
-    auto min_length{2};
     auto lexicon_filename{string{}};
     auto board_filename{string{}};
     auto premiums_filename{string{}};
     auto letters{string{}};
     auto cli{
-            Opt(min_length, "minimum length")["-n"]["--min-length"](
-                    "minimum number of letters in words suggested")
-                    | Arg(letters, "letters")(
-                            "Letter \"rack\" including wildcards as '?'")
+            Arg(letters, "letters")(
+                            "Letter \"rack\" including wildcards as ? and blanks as _")
                     | Arg(board_filename, "board")(
                             "CSV file containing played letters")
                     | Arg(premiums_filename, "premiums")(
@@ -459,13 +461,6 @@ auto main(int argc, char const* const* argv) -> int
         return EXIT_FAILURE;
     }
 
-    if (min_length>ssize(letters)) {
-        fmt::fprintf(stderr,
-                "error: too few letters, %zd, to achieve minimum word length, %d\n",
-                letters.size(), min_length);
-        return EXIT_FAILURE;
-    }
-
     std::transform(begin(letters), end(letters), begin(letters),
             [](auto c) { return std::toupper(c); });
 
@@ -488,6 +483,13 @@ auto main(int argc, char const* const* argv) -> int
         }
     }
 
+    if (ssize(*board_premiums)!=ssize(*board_tiles)) {
+        fmt::print(stderr,
+                "error: premium and tile boards are different sizes ({} and {})\n",
+                ssize(*board_premiums), ssize(*board_tiles));
+        return EXIT_FAILURE;
+    }
+
     auto finds{
             solve(wwf_lexicon, wwf_scores(), letters, std::move(*board_tiles),
                     std::move(*board_premiums))};
@@ -496,7 +498,8 @@ auto main(int argc, char const* const* argv) -> int
         fmt::print("{1:3} {2:5} {3} {0}\n",
                 find.word.c_str(),
                 find.score,
-                fmt::format("{:2},{:1}", find.move.start[0]+1, find.move.start[1]+1),
+                fmt::format("{:2},{:1}", find.move.start[0]+1,
+                        find.move.start[1]+1),
                 (find.move.direction[0]!=0) ? '-' : '|');
     };
 }  // namespace
