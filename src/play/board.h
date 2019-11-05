@@ -5,9 +5,11 @@
 #ifndef WSS_BOARD_H
 #define WSS_BOARD_H
 
+#include "coord.h"
 #include "csv.h"
 #include "load_buffer.h"
-#include "../common/ssize.h"
+
+#include <ssize.h>
 
 #include <fmt/printf.h>
 #include <gsl/string_span>
@@ -29,84 +31,22 @@ public:
         return edge;
     }
 
-    class iterator {
-    public:
-        iterator(T* p, int e)
-                :pos(p), edge(e) { }
-
-        iterator(iterator const& that) = default;
-
-        friend bool operator!=(iterator lhs, iterator rhs)
-        {
-            Expects(lhs.edge==rhs.edge);
-            return lhs.pos!=rhs.pos;
-        }
-
-        friend iterator& operator++(iterator& rhs)
-        {
-            std::advance(rhs.pos, rhs.edge);
-            return rhs;
-        }
-
-    private:
-        T* pos;
-        int edge;
-    };
-
-    class const_iterator {
-    public:
-        const_iterator(T const* p, int e)
-                :pos(p), edge(e) { }
-
-        friend bool operator!=(const_iterator lhs, const_iterator rhs)
-        {
-            Expects(lhs.edge==rhs.edge);
-            return lhs.pos!=rhs.pos;
-        }
-
-        friend const_iterator& operator++(const_iterator& rhs)
-        {
-            std::advance(rhs.pos, rhs.edge);
-            return rhs;
-        }
-
-    private:
-        T const* pos;
-        int edge;
-    };
-
-    auto begin()
+    T const* cell(coord c) const
     {
-        return iterator(begin(cells), edge);
+        Expects(c[0]>=0);
+        Expects(c[0]<edge);
+        Expects(c[1]>=0);
+        Expects(c[1]<edge);
+        return &cells.get()[c[0]+c[1]*edge];
     }
 
-    auto begin() const
+    T* cell(coord c)
     {
-        return const_iterator(begin(cells), edge);
-    }
-
-    auto end()
-    {
-        return iterator(end(cells), edge);
-    }
-
-    auto end() const
-    {
-        return const_iterator(end(cells), edge);
-    }
-
-    gsl::span<T const> operator[](int y) const
-    {
-        Expects(y>=0);
-        Expects(y<edge);
-        return {cells.get()+y*edge, edge};
-    }
-
-    gsl::span<T> operator[](int y)
-    {
-        Expects(y>=0);
-        Expects(y<edge);
-        return {cells.get()+y*edge, edge};
+        Expects(c[0]>=0);
+        Expects(c[0]<edge);
+        Expects(c[1]>=0);
+        Expects(c[1]<edge);
+        return &cells.get()[c[0]+c[1]*edge];
     }
 
 private:
@@ -143,7 +83,7 @@ std::optional<board<CellType>> make_board(
                 return std::nullopt;
             }
 
-            result[row_index][column_index] = *cell_found;
+            *result.cell(coord{column_index,row_index}) = *cell_found;
         }
     }
 

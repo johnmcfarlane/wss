@@ -86,7 +86,7 @@ namespace {
         if (pos[1]>=edge) {
             return oob;
         }
-        return b[pos[1]][pos[0]];
+        return *b.cell(pos);
     }
 
     template<typename T>
@@ -149,8 +149,8 @@ namespace {
         auto* node{&state.board.lexicon};
         for (auto i{extents.first}; i!=extents.second; ++i) {
             auto const pos{part_start+cross_direction*(i)};
-            auto const tile{state.board.tiles[pos[1]][pos[0]]};
-            auto const cell_premium{state.board.premiums[pos[1]][pos[0]]};
+            auto const tile{*state.board.tiles.cell(pos)};
+            auto const cell_premium{*state.board.premiums.cell(pos)};
 
             auto[letter, letter_multiplier] = [&]() {
                 if (tile!=vacant) {
@@ -190,7 +190,7 @@ namespace {
     void search(node const& n, search_state& state) noexcept
     {
         auto const neighbour_count{
-                (state.board.neighbours[state.pos[1]][state.pos[0]] ||
+                (*state.board.neighbours.cell(state.pos) ||
                         state.pos==state.board.center) ? 1 : 0};
 
         auto const recurse{
@@ -232,7 +232,7 @@ namespace {
                     state.word.pop_back();
                 }};
 
-        auto& board_tile{state.board.tiles[state.pos[1]][state.pos[0]]};
+        auto const board_tile{*state.board.tiles.cell(state.pos)};
         if (board_tile==vacant) {
             ++state.rack_used;
 
@@ -297,7 +297,7 @@ namespace {
 
     void search(search_state& state)
     {
-        if (state.board.neighbours[state.move.start[1]][state.move.start[0]]) {
+        if (*state.board.neighbours.cell(state.move.start)) {
             auto const preceding{get(
                     state.board.tiles,
                     state.move.start-state.move.direction,
@@ -320,17 +320,18 @@ namespace {
 
         auto const populate_board_neighbours{
                 [&](coord offset, coord first, coord last) {
-                    for (auto y{first[1]}; y!=last[1]; ++y) {
-                        Expects(y+offset[1]>=0);
-                        Expects(y+offset[1]<edge);
+                    coord pos;
+                    for (pos[1] = first[1]; pos[1]!=last[1]; ++pos[1]) {
+                        Expects(pos[1]+offset[1]>=0);
+                        Expects(pos[1]+offset[1]<edge);
 
-                        for (auto x{first[0]}; x!=last[0]; ++x) {
-                            Expects(x+offset[0]>=0);
-                            Expects(x+offset[0]<edge);
+                        for (pos[0] = first[0]; pos[0]!=last[0]; ++pos[0]) {
+                            Expects(pos[0]+offset[0]>=0);
+                            Expects(pos[0]+offset[0]<edge);
 
                             // NOLINTNEXTLINE(clang-analyzer-core.CallAndMessage)
-                            if (board_tiles[y+offset[1]][x+offset[0]]!=vacant) {
-                                board_neighbours[y][x] = true;
+                            if (*board_tiles.cell(pos+offset)!=vacant) {
+                                *board_neighbours.cell(pos) = true;
                             }
                         }
                     }
@@ -392,8 +393,7 @@ namespace {
                         state.move.start[state.move.direction[1]]>=0;
                         --state.move.start[state.move.direction[1]]) {
                     state.pos = state.move.start;
-                    if (state.board.neighbours
-                    [state.move.start[1]][state.move.start[0]]
+                    if (*state.board.neighbours.cell(state.move.start)
                             || state.move.start==state.board.center) {
                         count_back = ssize(letters);
                     }
