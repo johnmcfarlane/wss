@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to perform static analysis
+# run in build directory to invoke Clang-Tidy
 
 set -e
 
