@@ -42,6 +42,7 @@ namespace {
     struct move_start {
         coord start{};
         coord direction{};
+        coord cross_direction{};
     };
 
     struct result {
@@ -134,7 +135,7 @@ namespace {
     auto calc_score(
             search_state const& state,
             coord const part_start,
-            coord const cross_direction,
+            coord const direction,
             std::pair<int, int> extents,
             gsl::span<char> word_part)
     -> std::optional<int>
@@ -148,7 +149,7 @@ namespace {
         int score{0};
         auto* node{&state.board.lexicon};
         for (auto i{extents.first}; i!=extents.second; ++i) {
-            auto const pos{part_start+cross_direction*(i)};
+            auto const pos{part_start+direction*(i)};
             auto const tile{*state.board.tiles.cell(pos)};
             auto const cell_premium{*state.board.premiums.cell(pos)};
 
@@ -229,8 +230,8 @@ namespace {
     }
 
     auto fill_square(search_state& state, node const& edge,
-            coord cross_direction, std::pair<int, int> extents,
-            int neighbour_count, int& counter, char letter)
+            std::pair<int, int> extents, int neighbour_count, int& counter,
+            char letter)
     {
         if (counter==0) {
             return;
@@ -239,7 +240,7 @@ namespace {
         auto const cross_score{calc_score(
                 state,
                 state.pos,
-                cross_direction,  // NOLINTNEXTLINE(clang-analyzer-core.NonNullParamChecker)
+                state.move.cross_direction,
                 extents,
                 gsl::span<char>(&letter, 1))};
 
@@ -273,14 +274,11 @@ namespace {
             auto& blank_count{state.rack[blank]};
             auto& wildcard_count{state.rack[wildcard]};
 
-            coord const cross_direction{
-                    state.move.direction[1],
-                    state.move.direction[0]};
             auto const extents{word_extent(
                     state.board.tiles,
                     state.pos,
                     1,
-                    cross_direction)};
+                    state.move.cross_direction)};
 
             do {
                 auto const letter{i.letter()};
@@ -292,14 +290,14 @@ namespace {
                     continue;
                 }
 
-                fill_square(state, edge, cross_direction, extents,
-                        neighbour_count, letter_count, letter);
-                fill_square(state, edge, cross_direction, extents,
-                        neighbour_count, blank_count,
+                fill_square(state, edge, extents, neighbour_count, letter_count,
+                        letter);
+                fill_square(state, edge, extents, neighbour_count, blank_count,
                         char(std::tolower(letter)));
-                fill_square(state, edge, cross_direction, extents,
-                        neighbour_count, wildcard_count, letter);
-            } while (i!=n_end);
+                fill_square(state, edge, extents, neighbour_count,
+                        wildcard_count, letter);
+            }
+            while (i!=n_end);
 
             --state.rack_used;
             return;
@@ -401,8 +399,8 @@ namespace {
         }
 
         for (auto bearing{0}; bearing!=2; ++bearing) {
-            state.move.direction[0] = 1-bearing;
-            state.move.direction[1] = bearing;
+            state.move.direction[0] = state.move.cross_direction[1] = 1-bearing;
+            state.move.direction[1] = state.move.cross_direction[0] = bearing;
             for (state.move.start[state.move.direction[0]] = edge-1;
                     state.move.start[state.move.direction[0]]>=0;
                     --state.move.start[state.move.direction[0]]) {
