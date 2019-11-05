@@ -6,7 +6,7 @@ general:
       - gh-pages
 
 jobs:
-  "analyse-gcc":
+  "clang-tidy-gcc":
     docker:
       - image: gcc:latest
     steps:
@@ -17,8 +17,8 @@ jobs:
       - restore_cache:
           key: cache
       - run:
-          name: Run analyser
-          command: bash -c /root/project/linux/analyse.sh
+          name: Run Clang-Tidy
+          command: bash -c /root/project/linux/clang-tidy.sh
       - save_cache:
           key: cache
           paths:
@@ -44,7 +44,7 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
-  "analyse-clang":
+  "clang-tidy-clang":
     docker:
       - image: clangbuiltlinux/ubuntu
     steps:
@@ -55,8 +55,8 @@ jobs:
       - restore_cache:
           key: cache
       - run:
-          name: Run analyser
-          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/linux/analyse.sh
+          name: Run Clang-Tidy
+          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/linux/clang-tidy.sh
       - save_cache:
           key: cache
           paths:
@@ -86,7 +86,7 @@ workflows:
   version: 2
   test:
     jobs:
-      - "analyse-gcc"
+      - "clang-tidy-gcc"
       - "sanitize-gcc"
-      - "analyse-clang"
+      - "clang-tidy-clang"
       - "sanitize-clang"
