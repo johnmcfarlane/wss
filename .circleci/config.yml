@@ -6,6 +6,25 @@ general:
       - gh-pages
 
 jobs:
+  "analyze-gcc":
+    docker:
+      - image: gcc:latest
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tools
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run analyzer
+          command: bash -c /root/project/linux/analyze.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "clang-tidy-gcc":
     docker:
       - image: gcc:latest
@@ -38,6 +57,25 @@ jobs:
       - run:
             name: Run sanitizer
             command: bash -c /root/project/linux/sanitize.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
+  "analyze-clang":
+    docker:
+      - image: clangbuiltlinux/ubuntu
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tools
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run analyzer
+          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/linux/analyze.sh
       - save_cache:
           key: cache
           paths:
@@ -86,7 +124,9 @@ workflows:
   version: 2
   test:
     jobs:
+      - "analyze-gcc"
       - "clang-tidy-gcc"
       - "sanitize-gcc"
+      - "analyze-clang"
       - "clang-tidy-clang"
       - "sanitize-clang"
