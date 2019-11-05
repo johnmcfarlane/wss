@@ -6,6 +6,27 @@ general:
       - gh-pages
 
 jobs:
+  "analyze-gcc":
+    docker:
+      - image: gcc:latest
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tools
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run analyzer
+          command: bash -c /root/project/linux/analyze.sh
+      - store_artifacts:
+          path: /tmp/scan-build
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "clang-tidy-gcc":
     docker:
       - image: gcc:latest
@@ -86,6 +107,7 @@ workflows:
   version: 2
   test:
     jobs:
+      - "analyze-gcc"
       - "clang-tidy-gcc"
       - "sanitize-gcc"
       - "clang-tidy-clang"
