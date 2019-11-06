@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to perform dynamic analysis
+# run in build directory to measure performance using perf
 
 set -e
 

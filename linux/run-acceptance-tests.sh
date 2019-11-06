@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to perform dynamic analysis
+# run in build directory to test output of acceptance tests
 
 set -e
 
