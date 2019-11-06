@@ -5,7 +5,7 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
+PROJECT_DIR=$(cd $(dirname "$0")/../..; pwd)
 
 pip3 install --quiet conan
 conan remote add --force my-conan-repo https://api.bintray.com/conan/bincrafters/public-conan

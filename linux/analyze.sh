@@ -7,7 +7,7 @@ set -e
 PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
 NUM_CPUS=$(nproc)
 
-"${PROJECT_DIR}/linux/init-build-dir.sh"
+"${PROJECT_DIR}/linux/bits/init.sh"
 
 scan-build \
   -o /tmp/scan-build \
@@ -19,9 +19,6 @@ scan-build \
 scan-build \
   -o /tmp/scan-build \
   --status-bugs \
-    cmake \
-      --build . \
-        -- \
-        --jobs ${NUM_CPUS}
+    "${PROJECT_DIR}/linux/bits/build.sh"
 
 echo success
