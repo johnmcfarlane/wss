@@ -4,12 +4,14 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
+BITS_DIR=$(cd $(dirname "$0")/bits; pwd)
 NUM_CPUS=$(nproc)
 
-"${PROJECT_DIR}/linux/config-cmake.sh"
+"${BITS_DIR}/init.sh"
 
-cmake --build . --target lexicon -- --jobs ${NUM_CPUS}
+"${BITS_DIR}/config.sh"
+
+"${BITS_DIR}/build.sh" --target lexicon
 
 run-clang-tidy -p . -j ${NUM_CPUS}
 
