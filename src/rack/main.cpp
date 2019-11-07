@@ -77,9 +77,11 @@ void refine_results(vector<pair<string, int>>& finds)
     });
 
     // eliminate lower-scoring entries with the same word
-    finds.erase(unique(begin(finds), end(finds), [](auto a, auto b) {
-        return a.first==b.first;
-    }), end(finds));
+    auto const first_erased{unique(begin(finds), end(finds),
+            [](auto a, auto b) {
+                return a.first==b.first;
+            })};
+    finds.erase(first_erased, end(finds));
 
     sort(begin(finds), end(finds), [](auto a, auto b) {
         return tie(b.second, a.first)

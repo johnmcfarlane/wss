@@ -6,7 +6,7 @@
 
 #include "trie.h"
 
-auto load_lexicon(std::string_view filename, int min_letters, int max_letters)
+auto load_lexicon(std::string_view filename)
 -> std::optional<trie>;
 
 #endif //WSS_LOAD_LEXICON_H

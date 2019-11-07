@@ -5,11 +5,9 @@
 set -e
 
 PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
-NUM_CPUS=$(nproc)
 
 "${PROJECT_DIR}/linux/build.sh"
 
-find "${PROJECT_DIR}/test/bin" -name "test.sh" | while read TEST; do
-  TEST_DIR="$(dirname $TEST)"
-  "${TEST}" "${PROJECT_DIR}" > "${TEST_DIR}/expected.stdout" 
-done;
+"${PROJECT_DIR}/linux/bits/generate-acceptance-tests.sh"
+
+echo success

@@ -135,8 +135,7 @@ auto main(int argc, char const* const* argv) -> int
         return EXIT_FAILURE;
     }
 
-    auto const lexicon{
-            load_lexicon(lexicon_filename, 0, std::numeric_limits<int>::max())};
+    auto const lexicon{load_lexicon(lexicon_filename)};
     if (!lexicon) {
         fmt::print(stderr, "error: failed to lexicon from {}\n",
                 lexicon_filename);

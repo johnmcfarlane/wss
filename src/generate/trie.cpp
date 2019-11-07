@@ -42,7 +42,6 @@ namespace {
                 return false;
             }
 
-            Expects(!n.is_terminator);
             n.is_terminator = true;
             return true;
         }
