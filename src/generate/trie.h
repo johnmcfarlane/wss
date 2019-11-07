@@ -21,8 +21,6 @@ struct node {
 
 class edge {
 public:
-//    edge(edge const&) = default;
-//    edge(edge&& that) = default;
     edge(char l, std::unique_ptr<node> n);
 
     operator char() const;
