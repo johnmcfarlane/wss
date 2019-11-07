@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <cctype>
 
-auto load_lexicon(std::string_view filename, int min_letters, int max_letters)
+auto load_lexicon(std::string_view filename)
 -> std::optional<trie>
 {
     trie lexicon;
@@ -25,7 +25,7 @@ auto load_lexicon(std::string_view filename, int min_letters, int max_letters)
     while (std::fgets(line.data(), max_word, f.get())!=nullptr) {
         auto const newline{std::find(begin(line), end(line), '\n')};
         if (newline==end(line)) {
-            fmt::print("error: missing newline at end of '{}'", line.data());
+            fmt::print(stderr, "error: missing newline at end of '{}'\n", line.data());
             return std::nullopt;
         }
 
@@ -34,14 +34,6 @@ auto load_lexicon(std::string_view filename, int min_letters, int max_letters)
 
         auto word{std::string_view{line.data(),
                 std::size_t(std::distance(begin(line), newline))}};
-
-        if (ssize(word)<min_letters) {
-            continue;
-        }
-
-        if (ssize(word)>max_letters) {
-            continue;
-        }
 
         lexicon.insert(word);
     }

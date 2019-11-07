@@ -12,17 +12,19 @@
 auto load_board_premiums(gsl::cstring_span<> filename)
 -> std::optional<board<premium>>
 {
-    if (filename.empty()) {
-        return std::nullopt;
-    }
-    
     std::unordered_map<std::string, premium> const token_to_premium{
-            {"  ",   premium::normal},
+            // LCOV_EXCL_START - 
+            {"  ", premium::normal},
             {"dl", premium::dl},
             {"tl", premium::tl},
             {"dw", premium::dw},
             {"tw", premium::tw}
+            // LCOV_EXCL_STOP
     };
+
+    if (filename.empty()) {
+        return std::nullopt;
+    }
 
     return load_board<premium>(
             filename,
