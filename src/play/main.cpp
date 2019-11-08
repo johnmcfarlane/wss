@@ -33,9 +33,8 @@ namespace {
         letter_values letter_scores;
         board<char> tiles;
         board<premium> premiums;
-        board<bool> neighbours;
+        board<bool> qualifying_cells;
         node lexicon;
-        coord center;
         int rack_size;
         int edge;
     };
@@ -60,7 +59,7 @@ namespace {
         int rack_remaining{0};
 
         // letters already on the board touching this word
-        int num_neighbours{0};
+        int num_qualifying_cells{0};
 
         letter_values rack{};
         coord pos{};
@@ -191,14 +190,14 @@ namespace {
 
     void search(node const& n, search_state& state);
 
-    void recurse(node const& n, char letter, int neighbour_count,
+    void recurse(node const& n, char letter, int qualifying_cells_count,
             search_state& state)
     {
         state.word.push_back(letter);
-        state.num_neighbours += neighbour_count;
+        state.num_qualifying_cells += qualifying_cells_count;
         state.pos += state.move.direction;
         if (n.is_terminator
-                && state.num_neighbours>0
+                && state.num_qualifying_cells>0
                 && state.rack_remaining<state.board.rack_size
                 && get(state.board.tiles, state.pos, vacant)
                         ==vacant) {
@@ -226,12 +225,12 @@ namespace {
             ::search(n, state);
         }
         state.pos -= state.move.direction;
-        state.num_neighbours -= neighbour_count;
+        state.num_qualifying_cells -= qualifying_cells_count;
         state.word.pop_back();
     }
 
     auto fill_square(search_state& state, node const& edge,
-            std::pair<int, int> extents, int neighbour_count, int& counter,
+            std::pair<int, int> extents, int qualifying_cells_count, int& counter,
             char letter)
     {
         if (counter==0) {
@@ -252,7 +251,7 @@ namespace {
 
         --counter;
         state.cross_scores += *cross_score;
-        recurse(edge, letter, neighbour_count, state);
+        recurse(edge, letter, qualifying_cells_count, state);
         state.cross_scores -= *cross_score;
         ++counter;
     }
@@ -261,9 +260,8 @@ namespace {
     {
         Expects(state.rack_remaining>=0);
 
-        auto const neighbour_count{
-                (state.board.neighbours.cell(state.pos) ||
-                        state.pos==state.board.center) ? 1 : 0};
+        auto const qualifying_cells_count{
+                state.board.qualifying_cells.cell(state.pos) ? 1 : 0};
 
         auto const board_tile{state.board.tiles.cell(state.pos)};
         if (board_tile==vacant && state.rack_remaining>0) {
@@ -293,11 +291,11 @@ namespace {
                     continue;
                 }
 
-                fill_square(state, edge, extents, neighbour_count, letter_count,
+                fill_square(state, edge, extents, qualifying_cells_count, letter_count,
                         letter);
-                fill_square(state, edge, extents, neighbour_count, blank_count,
+                fill_square(state, edge, extents, qualifying_cells_count, blank_count,
                         char(std::tolower(letter)));
-                fill_square(state, edge, extents, neighbour_count,
+                fill_square(state, edge, extents, qualifying_cells_count,
                         wildcard_count, letter);
             }
             while (i!=n_end);
@@ -317,12 +315,12 @@ namespace {
             return;
         }
 
-        recurse(found.child(), board_tile, neighbour_count, state);
+        recurse(found.child(), board_tile, qualifying_cells_count, state);
     }
 
     void search(search_state& state)
     {
-        if (state.board.neighbours.cell(state.move.start)) {
+        if (state.board.qualifying_cells.cell(state.move.start)) {
             auto const preceding{get(
                     state.board.tiles,
                     state.move.start-state.move.direction,
@@ -338,7 +336,7 @@ namespace {
         search(state.board.lexicon, state);
     }
 
-    auto populate_board_neighbours(board<bool>& board_neighbours,
+    auto populate_qualifying_cells(board<bool>& qualifying_cells,
             board<char> const& board_tiles, coord offset, coord first,
             coord last)
     {
@@ -346,25 +344,27 @@ namespace {
         for (pos[1] = first[1]; pos[1]!=last[1]; ++pos[1]) {
             for (pos[0] = first[0]; pos[0]!=last[0]; ++pos[0]) {
                 if (board_tiles.cell(pos+offset)!=vacant) {
-                    board_neighbours.cell(pos) = true;
+                    qualifying_cells.cell(pos) = true;
                 }
             }
         }
     }
 
-    auto make_board_neighbours(board<char> const& board_tiles) -> board<bool>
+    auto make_qualifying_cells(board<char> const& board_tiles) -> board<bool>
     {
         auto const edge{ssize(board_tiles)};
-        board<bool> board_neighbours(edge);
+        board<bool> qualifying_cells(edge);
 
         if (edge>0) {  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
-            populate_board_neighbours(board_neighbours, board_tiles, {-1, 0}, {1, 0}, {edge, edge});
-            populate_board_neighbours(board_neighbours, board_tiles, {1, 0}, {0, 0}, {edge-1, edge});
-            populate_board_neighbours(board_neighbours, board_tiles, {0, -1}, {0, 1}, {edge, edge});
-            populate_board_neighbours(board_neighbours, board_tiles, {0, 1}, {0, 0}, {edge, edge-1});
+            populate_qualifying_cells(qualifying_cells, board_tiles, {-1, 0}, {1, 0}, {edge, edge});
+            populate_qualifying_cells(qualifying_cells, board_tiles, {1, 0}, {0, 0}, {edge-1, edge});
+            populate_qualifying_cells(qualifying_cells, board_tiles, {0, -1}, {0, 1}, {edge, edge});
+            populate_qualifying_cells(qualifying_cells, board_tiles, {0, 1}, {0, 0}, {edge, edge-1});
         }
 
-        return board_neighbours;
+        qualifying_cells.cell({edge/2, edge/2}) = true;
+
+        return qualifying_cells;
     }
 
     void refine_results(std::vector<result>& finds)
@@ -381,16 +381,15 @@ namespace {
             std::string_view letters, board<char> tiles,
             board<premium> premiums)
     {
-        auto neighbours{make_board_neighbours(tiles)};
+        auto qualifying_cells{make_qualifying_cells(tiles)};
         auto const edge{ssize(tiles)};
         search_state state{
                 board_state{
                         letter_scores,
                         std::move(tiles),
                         std::move(premiums),
-                        std::move(neighbours),
+                        std::move(qualifying_cells),
                         lexicon,
-                        {edge/2, edge/2},
                         ssize(letters),
                         edge
                 },
@@ -414,8 +413,7 @@ namespace {
                         state.move.start[state.move.direction[1]]>=0;
                         --state.move.start[state.move.direction[1]]) {
                     state.pos = state.move.start;
-                    if (state.board.neighbours.cell(state.move.start)
-                            || state.move.start==state.board.center) {
+                    if (state.board.qualifying_cells.cell(state.move.start)) {
                         count_back = ssize(letters);
                     }
                     else {
