@@ -30,13 +30,14 @@ auto load_buffer(gsl::cstring_span<> filename)
     std::vector<char> buffer(file_size);
     auto const read{std::ptrdiff_t(
             std::fread(buffer.data(), 1, file_size, f.get()))};
+
+    // LCOV_EXCL_START - can only happen if file changes size mid-test
     if (read!=file_size) {
-        // LCOV_EXCL_START - can only happen if file changes size mid-test
         fmt::print(stderr, "error: could not read, '{}'.\n",
                 gsl::to_string(filename));
         return std::nullopt;
-        // LCOV_EXCL_STOP
     }
+    // LCOV_EXCL_STOP
 
     return buffer;
 }

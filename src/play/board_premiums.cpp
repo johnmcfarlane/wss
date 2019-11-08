@@ -13,7 +13,7 @@ auto load_board_premiums(gsl::cstring_span<> filename)
 -> std::optional<board<premium>>
 {
     std::unordered_map<std::string, premium> const token_to_premium{
-            // LCOV_EXCL_START - 
+            // LCOV_EXCL_START - statically defined
             {"  ", premium::normal},
             {"dl", premium::dl},
             {"tl", premium::tl},
