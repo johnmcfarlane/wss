@@ -30,8 +30,28 @@ genhtml \
   --branch-coverage \
   --output-directory /tmp/coverage-report | tee coverage-log
 
-grep "functions..: 100.0%" coverage-log > /dev/null || echo missing function coverage
-grep "lines......: 100.0%" coverage-log > /dev/null || echo missing line coverage
+SUCCESS=1
 
-echo '
-success'
+set +e
+
+grep "functions..: 100.0%" coverage-log
+if [[ $? -ne 0 ]] ; then
+  echo error: missing function coverage
+  SUCCESS=0
+fi
+
+grep "lines......: 100.0%" coverage-log
+if [[ $? -ne 0 ]] ; then
+  echo error: missing line coverage
+  SUCCESS=0
+fi
+
+set -e
+
+if [[ ${SUCCESS} -eq 0 ]] ; then
+  echo failure
+  exit 1
+else
+  echo success
+  exit 0
+fi
