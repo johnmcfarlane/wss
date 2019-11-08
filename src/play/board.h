@@ -31,7 +31,7 @@ public:
         return edge;
     }
 
-    T const* cell(coord c) const
+    T const& cell(coord c) const
     {
         // LCOV_EXCL_START
         Expects(c[0]>=0);
@@ -39,10 +39,10 @@ public:
         Expects(c[1]>=0);
         Expects(c[1]<edge);
         // LCOV_EXCL_STOP
-        return &cells.get()[c[0]+c[1]*edge];
+        return cells.get()[c[0]+c[1]*edge];
     }
 
-    T* cell(coord c)
+    T& cell(coord c)
     {
         // LCOV_EXCL_START
         Expects(c[0]>=0);
@@ -50,7 +50,7 @@ public:
         Expects(c[1]>=0);
         Expects(c[1]<edge);
         // LCOV_EXCL_STOP
-        return &cells.get()[c[0]+c[1]*edge];
+        return cells.get()[c[0]+c[1]*edge];
     }
 
 private:
@@ -87,7 +87,7 @@ std::optional<board<CellType>> make_board(
                 return std::nullopt;
             }
 
-            *result.cell(coord{column_index,row_index}) = *cell_found;
+            result.cell(coord{column_index,row_index}) = *cell_found;
         }
     }
 
