@@ -33,19 +33,23 @@ public:
 
     T const* cell(coord c) const
     {
+        // LCOV_EXCL_START
         Expects(c[0]>=0);
         Expects(c[0]<edge);
         Expects(c[1]>=0);
         Expects(c[1]<edge);
+        // LCOV_EXCL_STOP
         return &cells.get()[c[0]+c[1]*edge];
     }
 
     T* cell(coord c)
     {
+        // LCOV_EXCL_START
         Expects(c[0]>=0);
         Expects(c[0]<edge);
         Expects(c[1]>=0);
         Expects(c[1]<edge);
+        // LCOV_EXCL_STOP
         return &cells.get()[c[0]+c[1]*edge];
     }
 

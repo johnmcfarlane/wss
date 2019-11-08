@@ -10,7 +10,7 @@ PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
 
 "${PROJECT_DIR}/linux/bits/config.sh" \
   -DCMAKE_BUILD_TYPE=Debug \
-  -DCMAKE_CXX_FLAGS="-coverage"
+  -DCMAKE_CXX_FLAGS="-coverage -fno-exceptions"
 
 "${PROJECT_DIR}/linux/bits/build.sh"
 
@@ -43,6 +43,12 @@ fi
 grep "lines......: 100.0%" coverage-log
 if [[ $? -ne 0 ]] ; then
   echo error: missing line coverage
+  SUCCESS=0
+fi
+
+grep "branches...: 100.0%" coverage-log
+if [[ $? -ne 0 ]] ; then
+  echo error: missing branch coverage
   SUCCESS=0
 fi
 
