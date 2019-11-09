@@ -20,7 +20,7 @@ jobs:
           name: Run coverage
           command: bash -c /root/project/linux/coverage.sh
       - store_artifacts:
-          path: /tmp/coverage-report
+          path: coverage-report
       - save_cache:
           key: cache
           paths:
@@ -41,7 +41,7 @@ jobs:
           name: Run analyzer
           command: bash -c /root/project/linux/analyze.sh
       - store_artifacts:
-          path: /tmp/scan-build
+          path: scan-build
       - save_cache:
           key: cache
           paths:

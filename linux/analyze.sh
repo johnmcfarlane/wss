@@ -17,8 +17,9 @@ scan-build \
       -DCMAKE_CXX_FLAGS="-DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
 
 scan-build \
-  -o /tmp/scan-build \
+  -o scan-build \
   --status-bugs \
-    "${PROJECT_DIR}/linux/bits/build.sh"
+    "${PROJECT_DIR}/linux/bits/build.sh" \
+      --clean-first
 
 echo success
