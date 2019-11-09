@@ -9,7 +9,8 @@ NUM_CPUS=$(nproc)
 
 "${BITS_DIR}/init.sh"
 
-"${BITS_DIR}/config.sh"
+"${BITS_DIR}/config.sh" \
+  -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 
 "${BITS_DIR}/build.sh" --target lexicon
 
