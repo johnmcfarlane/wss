@@ -19,6 +19,7 @@ scan-build \
 scan-build \
   -o scan-build \
   --status-bugs \
-    "${PROJECT_DIR}/linux/bits/build.sh"
+    "${PROJECT_DIR}/linux/bits/build.sh" \
+      --clean-first
 
 echo success
