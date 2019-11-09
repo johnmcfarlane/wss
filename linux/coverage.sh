@@ -28,7 +28,7 @@ lcov \
 genhtml \
   coverage-info \
   --branch-coverage \
-  --output-directory /tmp/coverage-report | tee coverage-log
+  --output-directory coverage-report | tee coverage-log
 
 SUCCESS=1
 
@@ -53,6 +53,8 @@ if [[ $? -ne 0 ]] ; then
 fi
 
 set -e
+
+echo report generated in ./coverage-report/
 
 if [[ ${SUCCESS} -eq 0 ]] ; then
   echo failure
