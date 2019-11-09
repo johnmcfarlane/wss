@@ -10,7 +10,8 @@ NUM_CPUS=$(nproc)
 "${PROJECT_DIR}/linux/bits/init.sh"
 
 "${PROJECT_DIR}/linux/bits/config.sh" \
-  -DCMAKE_CXX_FLAGS="-DCMAKE_BUILD_TYPE=RelWithDebInfo -g -DGSL_UNENFORCED_ON_CONTRACT_VIOLATION -fno-omit-frame-pointer"
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_FLAGS_RELEASE="-g -DGSL_UNENFORCED_ON_CONTRACT_VIOLATION -fno-omit-frame-pointer"
 
 "${PROJECT_DIR}/linux/bits/build.sh"
 

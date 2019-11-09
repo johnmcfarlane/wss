@@ -10,7 +10,8 @@ LSAN_OPTIONS=verbosity=1:log_threads=1
 "${BITS_DIR}/init.sh"
 
 "${BITS_DIR}/config.sh" \
-  -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fsanitize-undefined-trap-on-error -DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_FLAGS_RELEASE="-g -fsanitize=address,undefined -fsanitize-undefined-trap-on-error -DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
 
 "${BITS_DIR}/build.sh"
 

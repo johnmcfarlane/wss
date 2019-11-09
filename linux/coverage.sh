@@ -9,8 +9,8 @@ PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
 "${PROJECT_DIR}/linux/bits/init.sh"
 
 "${PROJECT_DIR}/linux/bits/config.sh" \
-  -DCMAKE_BUILD_TYPE=Debug \
-  -DCMAKE_CXX_FLAGS="-coverage -fno-exceptions"
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_FLAGS_RELEASE="-coverage -fno-exceptions"
 
 "${PROJECT_DIR}/linux/bits/build.sh"
 
