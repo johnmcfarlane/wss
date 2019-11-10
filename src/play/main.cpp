@@ -36,6 +36,7 @@ namespace {
         board<bool> neighbours;
         node lexicon;
         coord center;
+        int rack_size;
         int edge;
     };
 
@@ -56,7 +57,7 @@ namespace {
         move_start move;
 
         // letters from the rack on the board used in this word
-        int rack_used{0};
+        int rack_remaining{0};
 
         // letters already on the board touching this word
         int num_neighbours{0};
@@ -198,7 +199,7 @@ namespace {
         state.pos += state.move.direction;
         if (n.is_terminator
                 && state.num_neighbours>0
-                && state.rack_used>0
+                && state.rack_remaining<state.board.rack_size
                 && get(state.board.tiles, state.pos, vacant)
                         ==vacant) {
             auto const extents{word_extent(
@@ -258,19 +259,21 @@ namespace {
 
     void search(node const& n, search_state& state)
     {
+        Expects(state.rack_remaining>=0);
+
         auto const neighbour_count{
                 (*state.board.neighbours.cell(state.pos) ||
                         state.pos==state.board.center) ? 1 : 0};
 
         auto const board_tile{*state.board.tiles.cell(state.pos)};
-        if (board_tile==vacant) {
+        if (board_tile==vacant && state.rack_remaining>0) {
             auto i{begin(n)};
             auto const n_end{end(n)};
             if (i==n_end) {
                 return;
             }
 
-            ++state.rack_used;
+            --state.rack_remaining;
             auto& blank_count{state.rack[blank]};
             auto& wildcard_count{state.rack[wildcard]};
 
@@ -299,7 +302,7 @@ namespace {
             }
             while (i!=n_end);
 
-            --state.rack_used;
+            ++state.rack_remaining;
             return;
         }
 
@@ -388,10 +391,13 @@ namespace {
                         std::move(neighbours),
                         lexicon,
                         {edge/2, edge/2},
+                        ssize(letters),
                         edge
                 },
                 {}
         };
+        
+        state.rack_remaining = state.board.rack_size;
 
         std::fill(begin(state.rack), end(state.rack), 0);
         for (auto letter : letters) {
