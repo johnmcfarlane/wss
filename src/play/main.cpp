@@ -393,7 +393,6 @@ namespace {
                 {}
         };
 
-        std::fill(begin(state.rack), end(state.rack), 0);
         for (auto letter : letters) {
             ++state.rack[letter];
         }
