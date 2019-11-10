@@ -10,8 +10,11 @@
 
 using letter_values = std::array<int, std::numeric_limits<char>::max()+1>;
 
+constexpr auto score_index_empty_rack = '\0';
+
 constexpr letter_values scrabble_scores()
 {
+    constexpr auto empty_rack_bonus = 0;
     constexpr auto letter_score_a = 1;
     constexpr auto letter_score_b = 3;
     constexpr auto letter_score_c = 3;
@@ -40,6 +43,7 @@ constexpr letter_values scrabble_scores()
     constexpr auto letter_score_z = 10;
 
     letter_values scores{};
+    scores['\0'] = empty_rack_bonus;
     scores['A'] = letter_score_a;
     scores['B'] = letter_score_b;
     scores['C'] = letter_score_c;
@@ -71,6 +75,7 @@ constexpr letter_values scrabble_scores()
 
 constexpr letter_values wwf_scores()
 {
+    constexpr auto empty_rack_bonus = 35;
     constexpr auto letter_score_a = 1;
     constexpr auto letter_score_b = 4;
     constexpr auto letter_score_c = 4;
@@ -99,6 +104,7 @@ constexpr letter_values wwf_scores()
     constexpr auto letter_score_z = 10;
 
     letter_values scores{};
+    scores['\0'] = empty_rack_bonus;
     scores['A'] = letter_score_a;
     scores['B'] = letter_score_b;
     scores['C'] = letter_score_c;

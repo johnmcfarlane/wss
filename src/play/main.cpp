@@ -218,9 +218,14 @@ namespace {
                     gsl::span<char>{&*state.init.word, &*state.step.word_end})};
             Expects(word_score);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
 
+            auto play_score{state.step.cross_scores+*word_score};
+            if (state.step.rack_remaining==0) {
+                play_score += state.init.letter_scores[score_index_empty_rack];
+            }
+
             state.step.finds.emplace_back(result{
                     std::string{state.init.word, state.step.word_end},
-                    state.step.cross_scores+*word_score,
+                    play_score,
                     state.init.pos});
         }
 
