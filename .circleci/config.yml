@@ -86,6 +86,27 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
+  "analyze-clang":
+    docker:
+      - image: clangbuiltlinux/ubuntu
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tools
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run analyzer
+          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/linux/analyze.sh
+      - store_artifacts:
+          path: scan-build
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "clang-tidy-clang":
     docker:
       - image: clangbuiltlinux/ubuntu
@@ -132,5 +153,6 @@ workflows:
       - "clang-static-analyzer-gcc"
       - "clang-tidy-gcc"
       - "sanitize-gcc"
+      - "analyze-clang"
       - "clang-tidy-clang"
       - "sanitize-clang"
