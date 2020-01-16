@@ -27,7 +27,7 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
-  "analyze-gcc":
+  "clang-static-analyzer-gcc":
     docker:
       - image: gcc:latest
     steps:
@@ -39,7 +39,7 @@ jobs:
           key: cache
       - run:
           name: Run analyzer
-          command: bash -c /root/project/linux/analyze.sh
+          command: bash -c /root/project/linux/clang-static-analyzer.sh
       - store_artifacts:
           path: scan-build
       - save_cache:
@@ -129,7 +129,7 @@ workflows:
   test:
     jobs:
       - "coverage-gcc"
-      - "analyze-gcc"
+      - "clang-static-analyzer-gcc"
       - "clang-tidy-gcc"
       - "sanitize-gcc"
       - "clang-tidy-clang"
