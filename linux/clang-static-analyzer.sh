@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to perform static analysis
+# Run in build directory to perform static analysis using LLVM.
 
 set -e
 
