@@ -27,6 +27,27 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
+  "gcc-analyzer-gcc":
+    docker:
+      - image: johnmcfarlane/cnl_ci:gcc-10
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run analyzer
+          command: bash -c /root/project/scripts/gcc-analyzer.sh
+      - store_artifacts:
+          path: scan-build
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "clang-static-analyzer":
     docker:
       - image: johnmcfarlane/cnl_ci:clang-10
@@ -168,6 +189,7 @@ workflows:
   test:
     jobs:
       - "coverage-gcc"
+      - "gcc-analyzer-gcc"
       - "clang-static-analyzer"
       - "cppcheck-gcc"
       - "sanitize-gcc"
