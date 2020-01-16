@@ -23,7 +23,7 @@ auto load_lexicon(std::string_view filename)
     constexpr auto max_word{1024};
     std::array<char, max_word+1> line{};
     while (std::fgets(line.data(), max_word, f.get())!=nullptr) {
-        auto const newline{std::find(begin(line), end(line), '\n')};
+        auto* const newline{std::find(begin(line), end(line), '\n')};
         if (newline==end(line)) {
             fmt::print(stderr, "error: missing newline at end of '{}'\n", line.data());
             return std::nullopt;

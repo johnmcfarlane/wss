@@ -150,7 +150,7 @@ namespace {
 
         int word_multiplier{1};
         int score{0};
-        auto* node{&init.lexicon};
+        auto const* node{&init.lexicon};
         for (auto i{extents.first}; i!=extents.second; ++i) {
             auto const pos{part_start+direction*(i)};
             auto const tile{init.tiles.cell(pos)};
