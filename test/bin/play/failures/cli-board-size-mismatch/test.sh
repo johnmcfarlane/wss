@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SCRIPT_DIR=$(cd $(dirname "$0"); pwd)
+SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
 
 ./src/play/play \
-  ? \
+  "?" \
   "${SCRIPT_DIR}/tiles.csv" \
   "${SCRIPT_DIR}/premiums.csv"
 

@@ -2,9 +2,9 @@
 
 # run in build directory to reset expected output of approval tests
 
-set -e
+set -eo pipefail
 
-PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
 "${PROJECT_DIR}/linux/build.sh"
 

@@ -3,7 +3,7 @@
 # installs tools necessary to execute project scripts on Debian;
 # tested on Buster and Ubuntu 19.04
 
-set -e
+set -eo pipefail
 
 apt update --yes --quiet
 apt upgrade --yes --quiet

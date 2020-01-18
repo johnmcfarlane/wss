@@ -1,8 +1,6 @@
 #!/bin/bash
 
-set -e
-
-SCRIPT_DIR=$(cd $(dirname "$0"); pwd)
+set -eo pipefail
 
 ./src/rack/rack \
   abcdefghijklmnopqrstuvwxyz? \

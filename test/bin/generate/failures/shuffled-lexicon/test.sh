@@ -1,7 +1,7 @@
 #!/bin/bash
 
-set -e
+set -eo pipefail
 
-SCRIPT_DIR=$(cd $(dirname "$0"); pwd)
+SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
 
-./src/generate/generate ${SCRIPT_DIR}/lexicon.txt
+./src/generate/generate "${SCRIPT_DIR}"/lexicon.txt

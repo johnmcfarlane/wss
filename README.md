@@ -52,10 +52,11 @@ correctness of the code include:
 * [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html),
 * [Clang](https://clang.llvm.org/) and [GCC](https://gcc.gnu.org/) compilers,
 * [Clang Static Analyzer](https://clang-analyzer.llvm.org/),
-* [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) linter and static
+* [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) C++ linter and static
   analyser,
 * [LCOV](http://ltp.sourceforge.net/coverage/lcov.php) /
   [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html) code coverage tester, and
+* [ShellCheck](https://www.shellcheck.net/) shell script linter
 * [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
 
 These tools are available via scripts in the *linux* directory and are used as

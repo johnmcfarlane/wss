@@ -2,10 +2,10 @@
 
 # run in build directory to perform dynamic analysis
 
-set -e
+set -eo pipefail
 
-BITS_DIR=$(cd $(dirname "$0")/bits; pwd)
-LSAN_OPTIONS=verbosity=1:log_threads=1
+BITS_DIR=$(cd "$(dirname "$0")"/bits; pwd)
+export LSAN_OPTIONS=verbosity=1:log_threads=1
 
 "${BITS_DIR}/init.sh"
 
