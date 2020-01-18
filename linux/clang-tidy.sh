@@ -2,7 +2,7 @@
 
 # run in build directory to invoke Clang-Tidy
 
-set -e
+set -eo pipefail
 
 BITS_DIR=$(cd "$(dirname "$0")"/bits; pwd)
 NUM_CPUS=$(nproc)

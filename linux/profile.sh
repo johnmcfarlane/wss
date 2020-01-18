@@ -2,7 +2,7 @@
 
 # run in build directory to measure performance using perf
 
-set -e
+set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 

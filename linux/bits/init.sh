@@ -3,7 +3,7 @@
 # run in fresh build directory to prepare Conan;
 # requires that PROJECT_DIR is set to project directory
 
-set -e
+set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 

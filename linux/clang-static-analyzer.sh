@@ -2,7 +2,7 @@
 
 # Run in build directory to perform static analysis using LLVM.
 
-set -e
+set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 

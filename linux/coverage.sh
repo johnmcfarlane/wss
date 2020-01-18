@@ -2,7 +2,7 @@
 
 # run in build directory to measure test code coverage
 
-set -e
+set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/.. || exit; pwd)
 
@@ -52,7 +52,7 @@ if [[ $? -ne 0 ]] ; then
   SUCCESS=0
 fi
 
-set -e
+set -eo pipefail
 
 echo report generated in ./coverage-report/
 
