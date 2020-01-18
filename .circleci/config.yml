@@ -124,6 +124,21 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
+  "shellcheck":
+    docker:
+      - image: ubuntu:19.10
+    steps:
+      - checkout
+      - run:
+          name: Install ShellCheck linter
+          command: |
+            apt update --yes --quiet
+            apt upgrade --yes --quiet
+            apt install --yes --quiet shellcheck
+      - run:
+          name: Run ShellCheck
+          command: /root/project/linux/shellcheck.sh
+
 workflows:
   version: 2
   test:
@@ -134,3 +149,4 @@ workflows:
       - "sanitize-gcc"
       - "clang-tidy-clang"
       - "sanitize-clang"
+      - "shellcheck"

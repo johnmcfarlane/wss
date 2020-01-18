@@ -56,6 +56,7 @@ correctness of the code include:
   analyser,
 * [LCOV](http://ltp.sourceforge.net/coverage/lcov.php) /
   [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html) code coverage tester, and
+* [ShellCheck](https://www.shellcheck.net/) shell script linter
 * [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
 
 These tools are available via scripts in the *linux* directory and are used as
