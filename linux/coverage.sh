@@ -14,7 +14,7 @@ PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
 
 "${PROJECT_DIR}/linux/bits/build.sh"
 
-"${PROJECT_DIR}/linux/bits/run-acceptance-tests.sh"
+"${PROJECT_DIR}/linux/bits/run-approval-tests.sh"
 
 lcov \
   --capture \
