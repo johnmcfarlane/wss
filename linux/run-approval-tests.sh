@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to test output of acceptance tests
+# run in build directory to test output of approval tests
 
 set -e
 

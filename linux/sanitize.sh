@@ -15,4 +15,4 @@ LSAN_OPTIONS=verbosity=1:log_threads=1
 
 "${BITS_DIR}/build.sh"
 
-"${BITS_DIR}/run-acceptance-tests.sh"
+"${BITS_DIR}/run-approval-tests.sh"

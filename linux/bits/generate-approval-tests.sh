@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to reset expected output of acceptance tests
+# run in build directory to reset expected output of approval tests
 
 set -e
 
