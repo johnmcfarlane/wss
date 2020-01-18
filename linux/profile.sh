@@ -4,8 +4,7 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
-NUM_CPUS=$(nproc)
+PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
 "${PROJECT_DIR}/linux/bits/init.sh"
 
@@ -15,5 +14,9 @@ NUM_CPUS=$(nproc)
 
 "${PROJECT_DIR}/linux/bits/build.sh"
 
-perf record -g ./src/play/play abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_ ${PROJECT_DIR}/test/bin/play/game14/9/tiles.csv
+perf \
+  record -g \
+  ./src/play/play \
+    abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_ \
+    "${PROJECT_DIR}"/test/bin/play/game14/9/tiles.csv
 perf report -g 'graph,0.5,caller'

@@ -5,11 +5,10 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/../..; pwd)
 NUM_CPUS=$(nproc)
 
 cmake \
   --build . \
   "$@" \
     -- \
-    --jobs ${NUM_CPUS}
+    --jobs "${NUM_CPUS}"

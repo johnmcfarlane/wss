@@ -5,7 +5,7 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/../..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 cmake \
   -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \

@@ -4,7 +4,7 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/.. || exit; pwd)
 
 "${PROJECT_DIR}/linux/bits/init.sh"
 
@@ -18,7 +18,7 @@ PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
 
 lcov \
   --capture \
-  --base-directory ${PROJECT_DIR} \
+  --base-directory "${PROJECT_DIR}" \
   --directory . \
   --gcov gcov-9 \
   --include "${PROJECT_DIR}/*" \

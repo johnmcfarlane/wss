@@ -2,7 +2,7 @@
 
 set -e
 
-SCRIPT_DIR=$(cd $(dirname "$0"); pwd)
+SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
 
 # TODO: Should be 72, not 80, because L is a blank.
 ./src/play/play \

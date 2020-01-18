@@ -5,7 +5,7 @@
 
 set -e
 
-PROJECT_DIR=$(cd $(dirname "$0")/..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
 "${PROJECT_DIR}/linux/bits/init.sh"
 
