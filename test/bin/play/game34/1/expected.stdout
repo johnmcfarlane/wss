@@ -10344,6 +10344,7 @@
  11  7,5  | fE
  11  4,1  | fEELINg
  11  2,5  - fEEb
+ 11  2,7  - fEEb
  11  2,7  - fEEd
  11  7,3  | fEEl
  11  2,5  - fEEl
@@ -11688,6 +11689,7 @@
  10  6,4  | bEAsTIE
  10  2,5  - bEE
  10  2,5  | bEETLe
+ 10  5,7  - bEETLe
  10  2,1  | bEEtLE
  10  2,5  | bEEtLE
  10  4,2  | bEIgNET
@@ -11709,12 +11711,15 @@
  10  2,5  | bELTEd
  10  2,2  | bELTEr
  10  2,5  | bELTEr
+ 10  5,7  - bETEL
  10  2,5  | bETELs
+ 10  5,7  - bETELs
  10  2,2  | bEThEL
  10  2,5  | bEThEL
  10  7,4  | bEe
  10  2,1  | bEeTLE
  10  2,5  | bEeTLE
+ 10  5,7  - bEeTLE
  10  6,1  | bEfLEA
  10  7,4  | bEl
  10  4,1  | bErLIN
@@ -11727,8 +11732,10 @@
  10  4,3  | bLINTz
  10  2,2  | bLITE
  10  5,5  - bLITE
+ 10  5,7  - bLITE
  10  2,2  | bLITEs
  10  5,5  - bLITEs
+ 10  5,7  - bLITEs
  10  2,1  | bLIThE
  10  2,1  | baILEE
  10  2,2  | baILEE
@@ -13084,7 +13091,9 @@
   9  4,5  | aNoLE
   9  5,5  - aTELIc
   9  3,4  | aTRIaL
+  9  4,7  - abELE
   9  4,5  - abLE
+  9  4,7  - abLE
   9  7,5  | ae
   9  7,5  | al
   9  1,7  - alE
@@ -13101,32 +13110,57 @@
   9  1,7  - axE
   9  4,5  - axLE
   9  1,5  - ayE
+  9  5,7  - bELIE
+  9  5,7  - bELIEd
+  9  5,7  - bELIEf
+  9  5,7  - bELIEr
+  9  5,7  - bELIEs
+  9  5,7  - bELTEd
+  9  5,7  - bELTEr
   9  4,1  | bELTINg
   9  4,2  | bELoN
   9  3,4  | bERLInE
+  9  5,7  - bETeL
+  9  5,7  - bEThEL
   9  4,3  | bEaNIE
+  9  5,7  - bEdEL
   9  4,3  | bEnNET
+  9  5,7  - bEtEL
+  9  5,7  - bEvEL
+  9  5,7  - bEzEL
+  9  5,7  - bEzIL
+  9  5,7  - bILlET
   9  4,4  | bINaL
+  9  5,7  - bIlLET
   9  4,3  | bLENd
   9  4,3  | bLENt
   9  5,5  - bLEaT
+  9  5,7  - bLEaT
   9  5,5  - bLEnT
+  9  5,7  - bLEnT
   9  5,5  - bLEsT
+  9  5,7  - bLEsT
   9  4,3  | bLIN
   9  4,3  | bLINd
   9  4,3  | bLINi
   9  4,3  | bLINk
   9  5,5  - bLIThE
+  9  5,7  - bLIThE
   9  5,5  - bLItE
+  9  5,7  - bLItE
   9  5,5  - bLaTE
+  9  5,7  - bLaTE
   9  4,3  | bLeNT
   9  4,3  | bLiNI
   9  5,5  - bLiTE
+  9  5,7  - bLiTE
   9  5,5  - bLuET
+  9  5,7  - bLuET
   9  4,3  | bLuNT
   9  2,5  - baIT
   9  7,5  | be
   9  2,5  - beET
+  9  5,7  - beETLE
   9  4,4  | cENTILe
   9  4,4  | cENtILE
   9  3,4  | cEREaL
@@ -13284,6 +13318,7 @@
   9  5,5  - oLdIE
   9  1,7  - oLe
   9  1,5  - obE
+  9  4,7  - obELI
   9  1,5  - odE
   9  1,7  - odE
   9  7,5  | oe
@@ -13709,6 +13744,7 @@
   8  3,5  - Eat
   8  3,7  - Eat
   8  4,5  - EbbET
+  8  4,7  - EbbET
   8  4,3  | EboNITE
   8  2,6  | EcLaT
   8  2,6  | EdILe
@@ -14641,9 +14677,13 @@
   8  6,5  | bAwTIE
   8  2,1  | bEETlE
   8  2,5  | bEETlE
+  8  5,7  - bELIkE
+  8  5,7  - bELIvE
   8  6,2  | bELgA
   8  2,2  | bELiE
+  8  5,7  - bELiE
   8  2,2  | bELlE
+  8  5,7  - bELlE
   8  3,4  | bERLIn
   8  2,1  | bETIdE
   8  2,5  | bETIdE
@@ -14653,21 +14693,31 @@
   8  2,5  | bETIsE
   8  2,5  - bEe
   8  2,2  | bElLE
+  8  5,7  - bElLE
   8  2,2  | bILgE
+  8  5,7  - bILgE
   8  3,4  | bIRLE
   8  3,4  | bIRLEd
   8  3,4  | bIRLEr
   8  3,4  | bIRLEs
   8  2,2  | bIbLE
+  8  5,7  - bIbLE
   8  6,5  - bIlLET
   8  6,7  - bIlLET
   8  2,2  | bIrLE
+  8  5,7  - bIrLE
   8  5,5  - bLEEd
+  8  5,7  - bLEEd
   8  5,5  - bLEEp
+  8  5,7  - bLEEp
   8  5,5  - bLET
+  8  5,7  - bLET
   8  5,5  - bLETs
+  8  5,7  - bLETs
   8  5,5  - bLITe
+  8  5,7  - bLITe
   8  5,5  - bLITz
+  8  5,7  - bLITz
   8  2,2  | bLItE
   8  2,2  | bLaTE
   8  4,3  | bLiN
@@ -14675,9 +14725,11 @@
   8  3,5  | bRIdLE
   8  5,5  - baILEE
   8  6,5  - baILEE
+  8  5,7  - baILEE
   8  6,7  - baILEE
   8  4,1  | baLEEN
   8  2,2  | beLIE
+  8  5,7  - beTEL
   8  2,2  | buTLE
   8  6,5  | cATtIE
   8  6,5  | cAtTIE
@@ -16421,6 +16473,7 @@
   7  5,5  - abELE
   7  6,5  - abELE
   7  6,7  - abELE
+  7  4,7  - abET
   7  4,1  | acETIN
   7  4,7  - adIT
   7  6,5  - agILE
@@ -16444,6 +16497,8 @@
   7  6,7  - axILE
   7  6,5  - bEETLe
   7  6,7  - bEETLe
+  7  5,7  - bEEdI
+  7  5,7  - bEIgE
   7  4,2  | bEIgNE
   7  6,5  - bELIE
   7  6,7  - bELIE
@@ -16455,14 +16510,17 @@
   7  6,7  - bELIEr
   7  6,5  - bELIEs
   7  6,7  - bELIEs
+  7  5,7  - bELIe
   7  6,5  - bELIkE
   7  6,7  - bELIkE
   7  6,5  - bELIvE
   7  6,7  - bELIvE
+  7  5,7  - bELT
   7  6,5  - bELTEd
   7  6,7  - bELTEd
   7  6,5  - bELTEr
   7  6,7  - bELTEr
+  7  5,7  - bELTs
   7  4,4  | bENnET
   7  3,4  | bEREfT
   7  3,4  | bERImE
@@ -16470,15 +16528,26 @@
   7  6,7  - bETEL
   7  6,5  - bETELs
   7  6,7  - bETELs
+  7  5,7  - bETIdE
+  7  5,7  - bETImE
+  7  5,7  - bETIsE
   7  4,1  | bEaTEN
   7  6,5  - bEeTLE
   7  6,7  - bEeTLE
+  7  5,7  - bEfIT
+  7  5,7  - bEgET
   7  3,2  | bEgIRT
+  7  5,7  - bElIE
   7  6,5  - bElLE
   7  6,7  - bElLE
   7  3,2  | bEmIRE
+  7  5,7  - bErET
+  7  5,7  - bEsET
   7  6,5  - bIELd
+  7  5,7  - bIELd
   7  6,7  - bIELd
+  7  5,7  - bILE
+  7  5,7  - bILEs
   7  4,4  | bINaTE
   7  3,4  | bIREmE
   7  3,4  | bIRL
@@ -16486,14 +16555,19 @@
   7  3,4  | bIRLs
   7  6,5  - bIbLE
   7  6,7  - bIbLE
+  7  5,7  - bIdET
   7  6,5  - bIrLE
   7  6,7  - bIrLE
   7  3,2  | bIsTRE
   7  4,1  | bItTEN
   7  5,5  - bLEb
+  7  5,7  - bLEb
   7  5,5  - bLEd
+  7  5,7  - bLEd
   7  5,5  - bLEt
+  7  5,7  - bLEt
   7  5,5  - bLEw
+  7  5,7  - bLEw
   7  6,5  - bLITE
   7  6,7  - bLITE
   7  6,5  - bLITEs
@@ -16501,16 +16575,24 @@
   7  6,5  - bLIThE
   7  6,7  - bLIThE
   7  5,5  - bLIn
+  7  5,7  - bLIn
   7  5,5  - bLIp
+  7  5,7  - bLIp
   7  5,5  - bLaE
+  7  5,7  - bLaE
   7  5,5  - bLaT
+  7  5,7  - bLaT
   7  5,5  - bLeT
+  7  5,7  - bLeT
   7  5,5  - bLoT
+  7  5,7  - bLoT
   7  5,5  - bLuE
+  7  5,7  - bLuE
   7  3,2  | bLuER
   7  3,5  | bRIlL
   7  6,5  - beETLE
   7  6,7  - beETLE
+  7  5,7  - beLIE
   7  6,5  - boLETE
   7  6,7  - boLETE
   7  5,1  | boLETI
@@ -16924,6 +17006,7 @@
   7  3,2  | oLdER
   7  3,5  | oRIeL
   7  5,5  - obELI
+  7  4,7  - obIT
   7  4,2  | olEINE
   7  4,2  | orIENT
   7  4,2  | pEEINg
@@ -17577,6 +17660,7 @@
   6  4,2  | EaTeN
   6  4,5  - Eat
   6  4,5  - Ebb
+  6  4,7  - Ebb
   6  2,6  | EbbET
   6  6,7  - EbbET
   6  6,7  - EcLaT
@@ -19125,9 +19209,12 @@
   6  2,2  | axITE
   6  2,5  - bE
   6  4,3  | bEEN
+  6  5,7  - bEET
   6  2,4  | bEETLE
+  6  5,7  - bEETs
   6  4,3  | bEINg
   6  2,2  | bEIgE
+  6  5,7  - bEL
   6  6,3  | bELATEd
   6  6,5  - bELIe
   6  6,7  - bELIe
@@ -19135,12 +19222,16 @@
   6  6,7  - bELT
   6  6,5  - bELTs
   6  6,7  - bELTs
+  6  5,7  - bELl
+  6  5,7  - bELs
+  6  5,7  - bELt
   6  4,4  | bENEfIT
   6  4,4  | bENnE
   6  4,4  | bENnI
   6  3,4  | bERET
   6  3,4  | bERETs
   6  3,4  | bERaTE
+  6  5,7  - bETEl
   6  6,5  - bETIdE
   6  6,7  - bETIdE
   6  6,5  - bETImE
@@ -19156,6 +19247,7 @@
   6  6,7  - bEdEL
   6  2,2  | bElIE
   6  6,5  - bElL
+  6  5,7  - bElL
   6  6,7  - bElL
   6  4,3  | bEnNE
   6  4,3  | bEnNI
@@ -19172,6 +19264,9 @@
   6  6,7  - bILE
   6  6,5  - bILEs
   6  6,7  - bILEs
+  6  5,7  - bILe
+  6  5,7  - bILk
+  6  5,7  - bILl
   6  5,5  | bILlET
   6  6,5  - bILlET
   6  6,7  - bILlET
@@ -19180,9 +19275,13 @@
   6  4,4  | bINgE
   6  4,4  | bINiT
   6  6,3  | bITAbLE
+  6  5,7  - bITE
   6  3,2  | bITER
   6  3,2  | bITERs
+  6  5,7  - bITEr
+  6  5,7  - bITEs
   6  6,5  - bIlL
+  6  5,7  - bIlL
   6  6,7  - bIlL
   6  5,5  | bIlLET
   6  5,2  | bIlLIE
@@ -19190,6 +19289,7 @@
   6  4,3  | bIoNT
   6  6,2  | bIoTA
   6  6,5  - bIrL
+  6  5,7  - bIrL
   6  6,7  - bIrL
   6  6,3  | bLEATEd
   6  6,3  | bLEATEr
@@ -19232,6 +19332,7 @@
   6  3,4  | biRLE
   6  2,2  | blITE
   6  5,5  - blITE
+  6  5,7  - blITE
   6  6,5  - boIL
   6  6,7  - boIL
   6  2,2  | boITE
@@ -19908,6 +20009,8 @@
   6  3,5  - oaT
   6  4,5  - oaT
   6  4,2  | oaTEN
+  6  4,7  - obE
+  6  4,7  - obI
   6  4,7  - odE
   6  4,7  - ofT
   6  4,2  | ofTEN
@@ -20858,6 +20961,7 @@
   5  6,7  - ITEms
   5  1,4  | ITHer
   5  2,3  | ITsELf
+  5  4,5  - Ib
   5  4,1  | IcEmEN
   5  5,4  | IcIEsT
   5  5,6  | IcIEsT
@@ -22210,11 +22314,18 @@
   5  6,7  - axLE
   5  6,4  | bEAdLE
   5  6,4  | bEAgLE
+  5  5,7  - bEE
   5  6,5  - bEET
   5  6,7  - bEET
   5  2,4  | bEETLe
   5  6,5  - bEETs
   5  6,7  - bEETs
+  5  5,7  - bEEf
+  5  5,7  - bEEn
+  5  5,7  - bEEp
+  5  5,7  - bEEr
+  5  5,7  - bEEs
+  5  5,7  - bEEt
   5  2,4  | bEEtLE
   5  5,3  | bELIE
   5  2,5  | bELIE
@@ -22231,16 +22342,22 @@
   5  3,4  | bEREt
   5  3,4  | bERTh
   5  3,4  | bERyL
+  5  5,7  - bET
   5  6,3  | bETAInE
   5  2,3  | bETEL
   5  2,5  | bETEL
   5  2,3  | bETELs
   5  6,5  - bETEl
   5  6,7  - bETEl
+  5  5,7  - bETa
   5  6,5  - bETeL
   5  6,7  - bETeL
+  5  5,7  - bETh
+  5  5,7  - bETs
   5  4,3  | bEaN
+  5  5,7  - bEaT
   5  4,3  | bEeN
+  5  5,7  - bEeT
   5  6,5  - bEfIT
   5  6,7  - bEfIT
   5  3,3  | bEfRET
@@ -22248,32 +22365,51 @@
   5  6,7  - bEgET
   5  6,5  - bElIE
   5  6,7  - bElIE
+  5  5,7  - bElT
+  5  5,7  - bEnE
+  5  5,7  - bEnT
   5  6,5  - bErET
   5  6,7  - bErET
   5  6,5  - bEsET
   5  6,7  - bEsET
+  5  5,7  - bEsT
   5  6,3  | bEwAIL
+  5  5,7  - bIEr
   5  5,5  | bILgE
   5  6,5  - bILgE
   5  6,7  - bILgE
   5  3,4  | bIRTh
+  5  5,7  - bIT
   5  6,5  - bITE
   5  6,7  - bITE
   5  6,5  - bITEr
   5  6,7  - bITEr
   5  6,5  - bITEs
   5  6,7  - bITEs
+  5  5,7  - bITe
+  5  5,7  - bITs
+  5  5,7  - bITt
   5  4,1  | bITtEN
   5  5,2  | bIaLI
   5  5,5  | bIaLI
   5  5,5  | bIbLE
+  5  5,7  - bIcE
+  5  5,7  - bIdE
   5  3,2  | bIdER
   5  6,5  - bIdET
   5  6,7  - bIdET
+  5  5,7  - bIkE
   5  3,2  | bIkER
+  5  5,7  - bIlE
+  5  5,7  - bInE
   5  3,2  | bInER
+  5  5,7  - bInT
   5  5,5  | bIrLE
+  5  5,7  - bIsE
+  5  5,7  - bItE
   5  3,2  | bItER
+  5  5,7  - bItT
+  5  5,7  - bIzE
   5  6,4  | bLATE
   5  6,3  | bLEAT
   5  6,3  | bLEATs
@@ -22309,15 +22445,19 @@
   5  3,5  | bRInE
   5  3,5  | bRItT
   5  5,5  - baIL
+  5  5,7  - baIL
   5  5,2  | baILIE
   5  5,5  - baLE
   5  6,5  - baLE
+  5  5,7  - baLE
   5  6,7  - baLE
   5  3,2  | baLER
   5  2,4  | beETLE
   5  6,5  - beLT
+  5  5,7  - beLT
   5  6,7  - beLT
   5  6,5  - biLE
+  5  5,7  - biLE
   5  6,7  - biLE
   5  3,4  | biRL
   5  6,5  - blITE
@@ -25620,6 +25760,7 @@
   4  6,5  | bAbEL
   4  6,5  | bAgEL
   4  6,5  | bAsIL
+  4  5,7  - bE
   4  6,4  | bEATEn
   4  6,4  | bEATEr
   4  6,4  | bEAnIE
@@ -25661,30 +25802,39 @@
   4  2,5  | bETeL
   4  6,5  - bEaT
   4  6,7  - bEaT
+  4  5,7  - bEd
   4  2,3  | bEdEL
   4  2,5  | bEdEL
+  4  5,7  - bEe
   4  6,5  - bEeT
   4  6,7  - bEeT
+  4  5,7  - bEg
   4  4,2  | bEgIN
+  4  5,7  - bEl
   4  2,5  | bElLE
   4  6,5  - bElT
   4  6,7  - bElT
+  4  5,7  - bEn
   4  6,5  - bEnE
   4  6,7  - bEnE
   4  6,5  - bEnT
   4  6,7  - bEnT
   4  6,3  | bErATE
+  4  5,7  - bEs
   4  6,5  - bEsT
   4  6,7  - bEsT
+  4  5,7  - bEt
   4  2,3  | bEtEL
   4  2,5  | bEtEL
   4  2,3  | bEvEL
   4  2,5  | bEvEL
+  4  5,7  - bEy
   4  2,3  | bEzEL
   4  2,5  | bEzEL
   4  5,3  | bEzIL
   4  2,5  | bEzIL
   4  1,5  | bHuT
+  4  5,7  - bI
   4  6,4  | bIALi
   4  6,4  | bIALy
   4  2,4  | bIELd
@@ -25709,16 +25859,20 @@
   4  3,4  | bIRlE
   4  3,4  | bIRsE
   4  3,2  | bITeR
+  4  5,7  - bIb
   4  6,5  - bIcE
   4  6,7  - bIcE
+  4  5,7  - bId
   4  6,5  - bIdE
   4  6,7  - bIdE
   4  5,5  | bIdET
+  4  5,7  - bIg
   4  6,5  - bIkE
   4  6,7  - bIkE
   4  5,5  | bIkIE
   4  6,5  - bIlE
   4  6,7  - bIlE
+  4  5,7  - bIn
   4  6,3  | bInAL
   4  6,3  | bInATE
   4  6,5  - bInE
@@ -25726,12 +25880,16 @@
   4  5,5  | bInIT
   4  6,5  - bInT
   4  6,7  - bInT
+  4  5,7  - bIo
+  4  5,7  - bIs
   4  6,5  - bIsE
   4  6,7  - bIsE
+  4  5,7  - bIt
   4  6,5  - bItE
   4  6,7  - bItE
   4  6,5  - bItT
   4  6,7  - bItT
+  4  5,7  - bIz
   4  6,5  - bIzE
   4  6,7  - bIzE
   4  6,4  | bLAE
@@ -25793,34 +25951,44 @@
   4  1,4  | baHT
   4  5,5  - baIT
   4  6,5  - baIT
+  4  5,7  - baIT
   4  6,7  - baIT
   4  5,5  - baL
+  4  5,7  - baL
   4  5,5  - baTE
   4  6,5  - baTE
+  4  5,7  - baTE
   4  6,7  - baTE
   4  6,5  - beET
+  4  5,7  - beET
   4  6,7  - beET
+  4  5,7  - beL
   4  5,3  | beLIE
   4  3,4  | beRET
   4  2,3  | beTEL
   4  6,4  | biALI
   4  6,5  - biTE
+  4  5,7  - biTE
   4  6,7  - biTE
   4  3,2  | biTER
   4  4,3  | blENT
   4  5,5  - blET
   4  6,5  - blET
+  4  5,7  - blET
   4  6,7  - blET
   4  2,3  | boTEL
   4  6,4  | brAIL
   4  6,5  - brEE
+  4  5,7  - brEE
   4  6,7  - brEE
   4  4,3  | brENT
   4  6,5  - brIE
+  4  5,7  - brIE
   4  6,7  - brIE
   4  3,2  | brIER
   4  4,3  | brINE
   4  6,5  - brIT
+  4  5,7  - brIT
   4  6,7  - brIT
   4  5,4  | buILT
   4  3,4  | buRET
@@ -25828,6 +25996,7 @@
   4  6,7  - buTE
   4  5,5  - byTE
   4  6,5  - byTE
+  4  5,7  - byTE
   4  6,7  - byTE
   4  6,5  | cALIf
   4  6,5  | cALIx
@@ -28627,6 +28796,7 @@
   3  2,4  | ITEms
   3  5,6  | ITEms
   3  2,3  | IThEr
+  3  6,7  - Ib
   3  5,4  | IcIEr
   3  6,7  - Ice
   3  6,7  - Ich
@@ -29787,6 +29957,7 @@
   3  6,5  - aaL
   3  6,7  - aaL
   3  4,5  - ab
+  3  4,7  - ab
   3  6,4  | abATE
   3  2,3  | abLE
   3  3,4  | abRI
@@ -30002,16 +30173,20 @@
   3  4,4  | baNI
   3  3,4  | baRE
   3  5,5  - baT
+  3  5,7  - baT
+  3  5,7  - beE
   3  4,3  | beEN
   3  3,3  | beER
   3  6,5  - beL
   3  6,7  - beL
   3  4,4  | beNE
   3  4,4  | beNT
+  3  5,7  - beT
   3  3,3  | biER
   3  2,3  | biLE
   3  4,4  | biNE
   3  4,4  | biNT
+  3  5,7  - biT
   3  6,4  | blATE
   3  6,3  | blEAT
   3  4,3  | blIN
@@ -30027,6 +30202,7 @@
   3  4,3  | brIN
   3  4,4  | buNT
   3  5,5  - byE
+  3  5,7  - byE
   3  3,4  | byRE
   3  6,5  | cALf
   3  6,5  | cALk
@@ -30720,6 +30896,7 @@
   3  3,5  | iRId
   3  3,5  | iRIs
   3  6,7  - iTEm
+  3  4,5  - ib
   3  1,4  | icH
   3  2,3  | idLE
   3  6,7  - ilL
@@ -33219,12 +33396,14 @@
   2  3,5  | bRuT
   2  2,5  - ba
   2  5,5  - ba
+  2  5,7  - ba
   2  5,4  | baIT
   2  4,4  | baN
   2  6,5  - baT
   2  6,7  - baT
   2  2,3  | baTE
   2  2,5  - be
+  2  5,7  - be
   2  6,4  | beAT
   2  6,5  - beE
   2  6,7  - beE
@@ -33233,6 +33412,7 @@
   2  6,5  - beT
   2  6,7  - beT
   2  6,3  | beTA
+  2  5,7  - bi
   2  4,4  | biN
   2  6,5  - biT
   2  6,7  - biT
@@ -33257,6 +33437,7 @@
   2  6,7  - buT
   2  2,3  | buTE
   2  5,5  - by
+  2  5,7  - by
   2  6,5  - byE
   2  6,7  - byE
   2  2,3  | byTE
@@ -35605,6 +35786,7 @@
   1  2,6  | Ewe
   1  2,6  | Ex
   1  2,6  | Eye
+  1  5,6  | Ib
   1  5,6  | Ice
   1  5,6  | Ich
   1  5,6  | Ick
@@ -36032,6 +36214,7 @@
   1  2,4  | huE
   1  3,5  | iRe
   1  3,5  | iRk
+  1  6,7  - ib
   1  2,4  | icE
   1  6,7  - id
   1  6,7  - if
