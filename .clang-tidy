@@ -3,7 +3,10 @@ Checks: >
   *,
   -android-cloexec-fopen,
   -bugprone-exception-escape,
-  -fuchsia-*,
+  -fuchsia-default-arguments,
+  -fuchsia-default-arguments-calls,
+  -fuchsia-statically-constructed-objects,
+  -fuchsia-trailing-return,
   -google-runtime-references,
 WarningsAsErrors: '*'
 HeaderFilterRegex: ''
