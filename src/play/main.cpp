@@ -108,9 +108,9 @@ namespace {
 
     auto word_extent(
             board<char> const& board_tiles,
-            coord const part_start,
+            coord const& part_start,
             int const part_length,
-            coord const cross_direction)
+            coord const& cross_direction)
     {
         Expects((std::abs(cross_direction[0])==1)  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
                 !=(std::abs(cross_direction[1])==1));
@@ -137,8 +137,8 @@ namespace {
 
     auto calc_score(
             initial_state const& init,
-            coord const part_start,
-            coord const direction,
+            coord const& part_start,
+            coord const& direction,
             std::pair<int, int> extents,
             gsl::span<char> word_part)
     -> std::optional<int>
@@ -162,7 +162,7 @@ namespace {
                 }
 
                 // mutation!!
-                word_multiplier *= gsl::at(::word_multiplier,
+                word_multiplier *= gsl::at(word_multipliers,
                         int(cell_premium));
 
                 Expects(i>=0);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
@@ -170,7 +170,7 @@ namespace {
                 auto const letter{gsl::at(word_part, i)};
 
                 auto const letter_multiplier{
-                        gsl::at(::letter_multiplier, int(cell_premium))};
+                        gsl::at(letter_multipliers, int(cell_premium))};
 
                 return std::make_tuple(letter, letter_multiplier);
             }();
@@ -346,8 +346,8 @@ namespace {
     }
 
     auto populate_qualifying_cells(board<bool>& qualifying_cells,
-            board<char> const& board_tiles, coord offset, coord first,
-            coord last)
+            board<char> const& board_tiles, coord const& offset,
+            coord const& first, coord const& last)
     {
         coord pos;
         for (pos[1] = first[1]; pos[1]!=last[1]; ++pos[1]) {

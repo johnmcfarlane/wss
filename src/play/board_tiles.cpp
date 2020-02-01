@@ -18,6 +18,8 @@ auto load_board_tiles(gsl::cstring_span<> filename)
             return std::nullopt;
         }
 
+        // Tool won't tell me where the other identifier is.
+        // cppcheck-suppress shadowVar
         auto letter{field[0]};
         if (std::isalpha(letter)) {
             return letter;

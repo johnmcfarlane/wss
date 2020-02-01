@@ -17,7 +17,7 @@ enum class premium {
     tw
 };
 
-constexpr std::array<int, 5> letter_multiplier {
+constexpr std::array<int, 5> letter_multipliers {
         1,
         2,
         3,
@@ -25,7 +25,7 @@ constexpr std::array<int, 5> letter_multiplier {
         1
 };
 
-constexpr std::array<int, 5> word_multiplier {
+constexpr std::array<int, 5> word_multipliers {
         1,
         1,
         1,

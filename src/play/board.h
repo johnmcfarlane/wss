@@ -23,7 +23,7 @@ class board {
 public:
     board(board&&) = default;
 
-    board(int init_edge)
+    explicit board(int init_edge)
             :edge{init_edge}, cells{std::make_unique<T[]>(edge*edge)} { }
 
     int size() const
