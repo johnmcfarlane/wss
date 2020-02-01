@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to test output of approval tests
+# run after build.sh to test output of approval tests
 
 set -eo pipefail
 

@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# run in fresh build directory to prepare Conan and CMake;
-# requires that PROJECT_DIR is set to project directory
+# run after init.sh and before build.sh to configure build system
 
 set -eo pipefail
 
