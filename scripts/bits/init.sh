@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# run in fresh build directory to prepare Conan;
-# requires that PROJECT_DIR is set to project directory
+# run first before config.sh to build dependencies
 
 set -eo pipefail
 

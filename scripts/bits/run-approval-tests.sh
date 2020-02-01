@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# run in build directory to test output of approval tests
+# run after build.sh to test output of approval tests
 
 set -eo pipefail
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
-
-"${PROJECT_DIR}/linux/build.sh"
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 find "${PROJECT_DIR}/test/bin" -name "test.sh" | while read -r TEST; do
   echo testing "$TEST"...

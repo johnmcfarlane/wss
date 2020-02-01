@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run in build directory to reset expected output of approval tests
+# run after build.sh to generate expected output of approval tests
 
 set -eo pipefail
 
