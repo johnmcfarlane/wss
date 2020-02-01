@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh
+          command: /root/project/.circleci/setup.sh lcov
       - restore_cache:
           key: cache
       - run:
@@ -34,7 +34,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tools
+          command: /root/project/.circleci/setup.sh clang-tools
       - restore_cache:
           key: cache
       - run:
@@ -55,7 +55,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tidy
+          command: /root/project/.circleci/setup.sh clang-tidy
       - restore_cache:
           key: cache
       - run:
@@ -93,7 +93,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh && apt install --yes --quiet clang-tidy
+          command: /root/project/.circleci/setup.sh clang-tidy
       - restore_cache:
           key: cache
       - run:
@@ -146,7 +146,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh && apt install --yes --quiet cppcheck
+          command: /root/project/.circleci/setup.sh cppcheck
       - restore_cache:
           key: cache
       - run:
