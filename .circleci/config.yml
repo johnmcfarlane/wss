@@ -18,7 +18,7 @@ jobs:
           key: cache
       - run:
           name: Run coverage
-          command: bash -c /root/project/linux/coverage.sh
+          command: bash -c /root/project/scripts/coverage.sh
       - store_artifacts:
           path: coverage-report
       - save_cache:
@@ -39,7 +39,7 @@ jobs:
           key: cache
       - run:
           name: Run analyzer
-          command: bash -c /root/project/linux/clang-static-analyzer.sh
+          command: bash -c /root/project/scripts/clang-static-analyzer.sh
       - store_artifacts:
           path: scan-build
       - save_cache:
@@ -60,7 +60,7 @@ jobs:
           key: cache
       - run:
           name: Run Clang-Tidy
-          command: bash -c /root/project/linux/clang-tidy.sh
+          command: bash -c /root/project/scripts/clang-tidy.sh
       - save_cache:
           key: cache
           paths:
@@ -79,7 +79,7 @@ jobs:
           key: cache
       - run:
             name: Run sanitizer
-            command: bash -c /root/project/linux/sanitize.sh
+            command: bash -c /root/project/scripts/sanitize.sh
       - save_cache:
           key: cache
           paths:
@@ -98,7 +98,7 @@ jobs:
           key: cache
       - run:
           name: Run Clang-Tidy
-          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/linux/clang-tidy.sh
+          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/scripts/clang-tidy.sh
       - save_cache:
           key: cache
           paths:
@@ -117,7 +117,7 @@ jobs:
           key: cache
       - run:
           name: Run sanitizer
-          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/linux/sanitize.sh
+          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/scripts/sanitize.sh
       - save_cache:
           key: cache
           paths:
@@ -137,7 +137,7 @@ jobs:
             apt install --yes --quiet shellcheck
       - run:
           name: Run ShellCheck
-          command: /root/project/linux/shellcheck.sh
+          command: /root/project/scripts/shellcheck.sh
 
 workflows:
   version: 2

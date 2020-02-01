@@ -6,7 +6,7 @@ set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
-"${PROJECT_DIR}/linux/bits/init.sh"
+"${PROJECT_DIR}/scripts/bits/init.sh"
 
 scan-build \
   -o /tmp/scan-build \
@@ -18,7 +18,7 @@ scan-build \
 scan-build \
   -o scan-build \
   --status-bugs \
-    "${PROJECT_DIR}/linux/bits/build.sh" \
+    "${PROJECT_DIR}/scripts/bits/build.sh" \
       --clean-first
 
 echo success

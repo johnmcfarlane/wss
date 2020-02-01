@@ -8,6 +8,6 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 cmake \
   -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
-  -DCMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}"/linux/bits/toolchain.cmake \
+  -DCMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}"/scripts/bits/toolchain.cmake \
   "$@" \
   "${PROJECT_DIR}"

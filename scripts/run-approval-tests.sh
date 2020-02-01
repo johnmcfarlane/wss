@@ -6,7 +6,7 @@ set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
-"${PROJECT_DIR}/linux/build.sh"
+"${PROJECT_DIR}/scripts/build.sh"
 
 find "${PROJECT_DIR}/test/bin" -name "test.sh" | while read -r TEST; do
   echo testing "$TEST"...

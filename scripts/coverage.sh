@@ -6,15 +6,15 @@ set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/.. || exit; pwd)
 
-"${PROJECT_DIR}/linux/bits/init.sh"
+"${PROJECT_DIR}/scripts/bits/init.sh"
 
-"${PROJECT_DIR}/linux/bits/config.sh" \
+"${PROJECT_DIR}/scripts/bits/config.sh" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_CXX_FLAGS_RELEASE="-coverage -fno-exceptions"
 
-"${PROJECT_DIR}/linux/bits/build.sh"
+"${PROJECT_DIR}/scripts/bits/build.sh"
 
-"${PROJECT_DIR}/linux/bits/run-approval-tests.sh"
+"${PROJECT_DIR}/scripts/bits/run-approval-tests.sh"
 
 lcov \
   --capture \

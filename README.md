@@ -59,7 +59,7 @@ correctness of the code include:
 * [ShellCheck](https://www.shellcheck.net/) shell script linter
 * [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
 
-These tools are available via scripts in the *linux* directory and are used as
+These tools are available via scripts in the *scripts* directory and are used as
 part of a continuous integration pipeline built from 
 [CircleCI](https://circleci.com/gh/johnmcfarlane/wss) and
 [GitHub repository](https://github.com/johnmcfarlane/wss). Developers are
