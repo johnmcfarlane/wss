@@ -5,13 +5,11 @@
 set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
+NUM_CPUS=$(nproc)
 
-find "$1" -name "test.sh" | while read -r TEST; do
-  echo testing "$TEST"...
-  TEST_DIR="$(dirname "$TEST")"
-  "${TEST}" "${PROJECT_DIR}" | \
-     diff "${TEST_DIR}/expected.stdout" - 
-  echo ... success
-done;
+find "$1" -name "test.sh" | \
+  parallel \
+    -j "${NUM_CPUS}" \
+    "${PROJECT_DIR}"/scripts/bits/run-approval-test.sh
 
 echo Tests passed

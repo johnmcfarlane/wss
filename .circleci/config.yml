@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh lcov
+          command: /root/project/.circleci/setup.sh lcov parallel
       - restore_cache:
           key: cache
       - run:
@@ -74,7 +74,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh
+          command: /root/project/.circleci/setup.sh parallel
       - restore_cache:
           key: cache
       - run:
@@ -112,7 +112,7 @@ jobs:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh
+          command: /root/project/.circleci/setup.sh parallel
       - restore_cache:
           key: cache
       - run:
