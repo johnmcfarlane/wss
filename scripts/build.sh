@@ -6,6 +6,8 @@ set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
+ccache --show-stats
+
 "${PROJECT_DIR}/scripts/bits/init.sh"
 
 "${PROJECT_DIR}/scripts/bits/config.sh" \
@@ -13,3 +15,5 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
   -DCMAKE_CXX_FLAGS_RELEASE="-DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
 
 "${PROJECT_DIR}/scripts/bits/build.sh"
+
+ccache --show-stats

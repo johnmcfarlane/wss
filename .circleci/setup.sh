@@ -8,4 +8,3 @@ set -eo pipefail
 apt update --yes --quiet
 apt upgrade --yes --quiet
 apt install --yes --quiet ccache cmake python3-pip "$@"
-ccache --show-stats
