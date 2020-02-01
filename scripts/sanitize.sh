@@ -4,7 +4,8 @@
 
 set -eo pipefail
 
-BITS_DIR=$(cd "$(dirname "$0")"/bits; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
+BITS_DIR=${PROJECT_DIR}/scripts/bits
 export LSAN_OPTIONS=verbosity=1:log_threads=1
 
 "${BITS_DIR}/init.sh"
@@ -15,4 +16,5 @@ export LSAN_OPTIONS=verbosity=1:log_threads=1
 
 "${BITS_DIR}/build.sh"
 
-"${BITS_DIR}/run-approval-tests.sh"
+"${BITS_DIR}/run-approval-tests.sh" \
+  "${PROJECT_DIR}/test/bin"
