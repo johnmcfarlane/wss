@@ -66,7 +66,6 @@ void search(node const& n, search_state& state, int score,
         recurse(child, state.rack[blank], state, score);
         state.word.pop_back();
     }
-    ++ min_length;
 }
 
 void refine_results(vector<pair<string, int>>& finds)
