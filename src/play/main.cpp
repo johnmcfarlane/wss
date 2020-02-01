@@ -162,7 +162,7 @@ namespace {
                 }
 
                 // mutation!!
-                word_multiplier *= gsl::at(::word_multiplier,
+                word_multiplier *= gsl::at(word_multipliers,
                         int(cell_premium));
 
                 Expects(i>=0);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
@@ -170,7 +170,7 @@ namespace {
                 auto const letter{gsl::at(word_part, i)};
 
                 auto const letter_multiplier{
-                        gsl::at(::letter_multiplier, int(cell_premium))};
+                        gsl::at(letter_multipliers, int(cell_premium))};
 
                 return std::make_tuple(letter, letter_multiplier);
             }();
