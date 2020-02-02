@@ -11,4 +11,3 @@ echo testing "$TEST"...
 TEST_DIR="$(dirname "$TEST")"
 "${TEST}" "${PROJECT_DIR}" | \
    diff "${TEST_DIR}/expected.stdout" - 
-echo ... success
