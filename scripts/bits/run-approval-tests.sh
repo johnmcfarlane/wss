@@ -11,5 +11,3 @@ find "$1" -name "test.sh" | \
   parallel \
     -j "${NUM_CPUS}" \
     "${PROJECT_DIR}"/scripts/bits/run-approval-test.sh
-
-echo Tests passed
