@@ -110,6 +110,25 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
+  "valgrind-gcc":
+    docker:
+      - image: gcc:latest
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh parallel valgrind
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run Valgrind Memcheck
+          command: bash -c /root/project/scripts/valgrind.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "clang-tidy-clang":
     docker:
       - image: clangbuiltlinux/ubuntu
@@ -172,6 +191,7 @@ workflows:
       - "clang-tidy-gcc"
       - "cppcheck-gcc"
       - "sanitize-gcc"
+      - "valgrind-gcc"
       - "clang-tidy-clang"
       - "sanitize-clang"
       - "shellcheck"
