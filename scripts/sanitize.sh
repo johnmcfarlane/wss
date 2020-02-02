@@ -7,6 +7,7 @@ set -eo pipefail
 PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 BITS_DIR=${PROJECT_DIR}/scripts/bits
 export LSAN_OPTIONS=verbosity=1:log_threads=1
+export ASAN_OPTIONS=verify_asan_link_order=0
 
 "${BITS_DIR}/init.sh"
 
