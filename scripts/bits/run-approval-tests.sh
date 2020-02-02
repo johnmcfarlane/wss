@@ -9,3 +9,5 @@ TESTS_PATH=$1
 
 "${BITS_DIR}/invoke-approval-tests.sh" \
   "${BITS_DIR}/run-approval-test.sh" "${TESTS_PATH}"
+
+echo Tests passed
