@@ -3,9 +3,10 @@
 set -eo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
+PROJECT_DIR=$1
+shift
 
-# TODO: Should be 72, not 80, because L is a blank.
-./src/play/play \
+"$@" ./src/play/play \
   zp_jdoe \
   "${SCRIPT_DIR}/tiles.csv" \
-  "$1/boards/wwf_challenge.csv" 
+  "${PROJECT_DIR}/boards/wwf_challenge.csv" 

@@ -2,6 +2,8 @@
 
 set -eo pipefail
 
-./src/rack/rack \
+shift
+
+"$@" ./src/rack/rack \
   abcdefghijklmnopqrstuvwxyz? \
   --min-length 8

@@ -1,6 +1,8 @@
 #!/bin/bash
 
-./src/play/play abcd
+shift
+
+"$@" ./src/play/play abcd
 
 if [[ $? -eq 0 ]] ; then
     exit 1

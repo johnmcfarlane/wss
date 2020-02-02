@@ -3,8 +3,10 @@
 set -eo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
+PROJECT_DIR=$1
+shift
 
-./src/play/play \
+"$@" ./src/play/play \
   ueosawd \
   "${SCRIPT_DIR}/tiles.csv" \
-  "$1/boards/wwf_challenge.csv" 
+  "${PROJECT_DIR}/boards/wwf_challenge.csv" 

@@ -1,6 +1,8 @@
 #!/bin/bash
 
-./src/rack/rack --help
+shift
+
+"$@" ./src/rack/rack --help
 
 if [[ $? -eq 0 ]] ; then
     exit 1
