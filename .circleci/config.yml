@@ -102,8 +102,8 @@ jobs:
       - restore_cache:
           key: cache
       - run:
-            name: Run sanitizer
-            command: bash -c /root/project/scripts/sanitize.sh
+          name: Run sanitizer
+          command: bash -c /root/project/scripts/sanitize.sh
       - save_cache:
           key: cache
           paths:
