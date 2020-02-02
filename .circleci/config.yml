@@ -67,6 +67,30 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
+  "cppcheck-gcc":
+    docker:
+      - image: gcc:latest
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh cppcheck
+      - restore_cache:
+          key: cache
+      - run:
+          name: Generate cppcheck error list
+          command: cppcheck --errorlist > cppcheck-errors.xml
+      - store_artifacts:
+          path: cppcheck-errors.xml
+      - run:
+          name: Run cppcheck
+          command: bash -c /root/project/scripts/cppcheck.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "sanitize-gcc":
     docker:
       - image: gcc:latest
@@ -139,30 +163,6 @@ jobs:
           name: Run ShellCheck
           command: /root/project/scripts/shellcheck.sh
 
-  "cppcheck-gcc":
-    docker:
-      - image: gcc:latest
-    steps:
-      - checkout
-      - run:
-          name: Set up system
-          command: /root/project/.circleci/setup.sh cppcheck
-      - restore_cache:
-          key: cache
-      - run:
-          name: Generate cppcheck error list
-          command: cppcheck --errorlist > cppcheck-errors.xml
-      - store_artifacts:
-          path: cppcheck-errors.xml
-      - run:
-          name: Run cppcheck
-          command: bash -c /root/project/scripts/cppcheck.sh
-      - save_cache:
-          key: cache
-          paths:
-            - ~/.ccache
-            - ~/.conan/data
-
 workflows:
   version: 2
   test:
@@ -170,8 +170,8 @@ workflows:
       - "coverage-gcc"
       - "clang-static-analyzer-gcc"
       - "clang-tidy-gcc"
+      - "cppcheck-gcc"
       - "sanitize-gcc"
       - "clang-tidy-clang"
       - "sanitize-clang"
       - "shellcheck"
-      - "cppcheck-gcc"
