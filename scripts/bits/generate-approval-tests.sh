@@ -4,10 +4,8 @@
 
 set -eo pipefail
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
-NUM_CPUS=$(nproc)
+BITS_DIR=$(cd "$(dirname "$0")"; pwd)
+TESTS_PATH=$1
 
-find "$1" -name "test.sh" | \
-  parallel \
-    -j "${NUM_CPUS}" \
-    "${PROJECT_DIR}"/scripts/bits/generate-approval-test.sh
+"${BITS_DIR}/invoke-approval-tests.sh" \
+  "${BITS_DIR}/generate-approval-test.sh" "${TESTS_PATH}"
