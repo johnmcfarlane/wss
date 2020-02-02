@@ -5,9 +5,8 @@
 set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
-NUM_CPUS=$(nproc)
+TEST=$1
 
-find "$1" -name "test.sh" | \
-  parallel \
-    -j "${NUM_CPUS}" \
-    "${PROJECT_DIR}"/scripts/bits/generate-approval-test.sh
+TEST_DIR="$(dirname "$TEST")"
+"${TEST}" "${PROJECT_DIR}" > \
+  "${TEST_DIR}/expected.stdout" 
