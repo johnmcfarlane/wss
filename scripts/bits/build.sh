@@ -6,8 +6,14 @@ set -eo pipefail
 
 NUM_CPUS=$(nproc)
 
+echo Before build:
+ccache --show-stats
+
 cmake \
   --build . \
   "$@" \
     -- \
     --jobs "${NUM_CPUS}"
+
+echo After build:
+ccache --show-stats

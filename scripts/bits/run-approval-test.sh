@@ -9,6 +9,14 @@ TEST=$1
 
 echo testing "$TEST"...
 TEST_DIR="$(dirname "$TEST")"
-"${TEST}" "${PROJECT_DIR}" | \
+
+set +e
+stdbuf -o0 "${TEST}" "${PROJECT_DIR}" | \
    diff "${TEST_DIR}/expected.stdout" - 
-echo ... success
+
+if [[ $? -ne 0 ]] ; then
+  printf "\033[0;31mFAILED\033[0m\n"
+  exit 1
+fi
+
+printf "\033[0;32mPASSED\033[0m\n"

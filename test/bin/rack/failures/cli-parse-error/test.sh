@@ -1,6 +1,8 @@
 #!/bin/bash
 
-./src/rack/rack -rf /usr/bin
+shift
+
+"$@" ./src/rack/rack -rf /usr/bin
 
 if [[ $? -eq 0 ]] ; then
     exit 1

@@ -10,5 +10,3 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 
 "${PROJECT_DIR}/scripts/bits/run-approval-tests.sh" \
   "${PROJECT_DIR}/test/bin"
-
-echo Tests passed
