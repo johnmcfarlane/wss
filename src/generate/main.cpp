@@ -130,7 +130,7 @@ auto main(int argc, char const* const* argv) -> int
         fmt::printf("wss lexicon source file generator\n"
                     "(C)2019 John McFarlane\n\n");
         for (auto const& help_column : cli.getHelpColumns()) {
-            fmt::printf("{10}   {}\n", help_column.left, help_column.right);
+            fmt::printf("%.10s   %s\n", help_column.left, help_column.right);
         }
         return EXIT_FAILURE;
     }
