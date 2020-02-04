@@ -495,7 +495,7 @@ auto main(int argc, char const* const* argv) -> int
                     "(C)2019 John McFarlane\n\n"
                     "play [options] <rack> <board>\n");
         for (auto const& help_column : cli.getHelpColumns()) {
-            fmt::printf("{10}   {}\n", help_column.left, help_column.right);
+            fmt::printf("%.10s   %s\n", help_column.left, help_column.right);
         }
         return EXIT_FAILURE;
     }
