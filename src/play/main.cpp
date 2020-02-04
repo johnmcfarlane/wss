@@ -6,10 +6,10 @@
 #include <scores.h>
 #include <wwf_lexicon.h>
 
-#include <clara.hpp>
 #include <fmt/printf.h>
 #include <gsl/gsl_assert>
 #include <gsl/gsl_util>
+#include <lyra/lyra.hpp>
 
 #include <algorithm>
 #include <cassert>
@@ -464,25 +464,18 @@ namespace {
 
 auto main(int argc, char const* const* argv) -> int
 {
-    using clara::Arg;
-    using clara::Args;
-    using clara::Help;
-    using clara::Opt;
-
     auto help{false};
     auto lexicon_filename{string{}};
     auto board_filename{string{}};
     auto premiums_filename{string{}};
     auto letters{string{}};
     auto cli{
-            Arg(letters, "letters")(
-                    "Letter \"rack\" including wildcards as ? and blanks as _")
-                    | Arg(board_filename, "board")(
-                            "CSV file containing played letters")
-                    | Arg(premiums_filename, "premiums")(
-                            "CSV file describing premium tiles (see 'boards' directory)")
-                    | Help(help)};
-    auto result = cli.parse(Args(argc, argv));
+        lyra::help(help)
+        | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")
+        | lyra::arg(board_filename, "board")("CSV file containing played letters")
+        | lyra::arg(premiums_filename, "premiums")("CSV file describing premium tiles (see 'boards' directory)")
+    };
+    auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {
         fmt::fprintf(stderr, "error: in command line: %s\n",
@@ -494,8 +487,8 @@ auto main(int argc, char const* const* argv) -> int
         fmt::printf("wss scrabble board suggester\n"
                     "(C)2019 John McFarlane\n\n"
                     "play [options] <rack> <board>\n");
-        for (auto const& help_column : cli.getHelpColumns()) {
-            fmt::printf("%.10s   %s\n", help_column.left, help_column.right);
+        for (auto const& help_column : cli.get_help_text()) {
+            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
         }
         return EXIT_FAILURE;
     }

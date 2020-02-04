@@ -2,8 +2,8 @@
 
 #include <ssize.h>
 
-#include <clara.hpp>
 #include <fmt/printf.h>
+#include <lyra/lyra.hpp>
 
 #include <fstream>
 #include <iostream>
@@ -104,21 +104,15 @@ void dump_lexicon(
 
 auto main(int argc, char const* const* argv) -> int
 {
-    using clara::Arg;
-    using clara::Args;
-    using clara::Help;
-    using clara::Opt;
-
     auto lexicon_filename{std::string{}};
     auto name{std::string{}};
-    auto help{false};
+    bool help{false};
     auto cli{
-            Arg(lexicon_filename, "lexicon")(
-                    "text file containing list of words")
-                    | Arg(name, "name")(
-                            "Name of lexicon / source filename")
-                    | Help(help)};
-    auto result = cli.parse(Args(argc, argv));
+        lyra::help(help)
+        | lyra::arg(lexicon_filename, "lexicon")("text file containing list of words")
+        | lyra::arg(name, "name")("Name of lexicon / source filename")
+    };
+    auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {
         fmt::print(stderr, "Error in command line: {}\n",
@@ -129,8 +123,8 @@ auto main(int argc, char const* const* argv) -> int
     if (help) {
         fmt::printf("wss lexicon source file generator\n"
                     "(C)2019 John McFarlane\n\n");
-        for (auto const& help_column : cli.getHelpColumns()) {
-            fmt::printf("%.10s   %s\n", help_column.left, help_column.right);
+        for (auto const& help_column : cli.get_help_text()) {
+            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
         }
         return EXIT_FAILURE;
     }
