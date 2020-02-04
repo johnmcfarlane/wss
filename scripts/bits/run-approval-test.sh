@@ -6,16 +6,17 @@ set -eo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 TEST=$1
-
-echo testing "$TEST"...
 TEST_DIR="$(dirname "$TEST")"
+RELATIVE_PATH=$(realpath "$TEST_DIR" --relative-to "$PROJECT_DIR")
+
+echo testing "$RELATIVE_PATH" ...
 
 set +e
-stdbuf -o0 "${TEST}" "${PROJECT_DIR}" | \
+"${TEST}" "${PROJECT_DIR}" | \
    diff "${TEST_DIR}/expected.stdout" - 
 
 if [[ $? -ne 0 ]] ; then
-  printf "\033[0;31mFAILED\033[0m\n"
+  printf "\033[0;31mFAILED\033[0m %s\n" "$RELATIVE_PATH"
   exit 1
 fi
 
