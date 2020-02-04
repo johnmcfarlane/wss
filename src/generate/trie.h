@@ -4,6 +4,7 @@
 #include <gsl/gsl_assert>
 
 #include <memory>
+#include <string_view>
 #include <vector>
 
 class edge;

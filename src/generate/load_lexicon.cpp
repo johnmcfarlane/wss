@@ -5,6 +5,7 @@
 #include <fmt/printf.h>
 
 #include <algorithm>
+#include <array>
 #include <cctype>
 
 auto load_lexicon(std::string_view filename)
