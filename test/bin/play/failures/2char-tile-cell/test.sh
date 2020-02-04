@@ -8,6 +8,6 @@ shift
   "${SCRIPT_DIR}/tiles.csv" \
   "${SCRIPT_DIR}/premiums.csv"
 
-if [[ $? -eq 0 ]] ; then
+if [[ $? -ne 1 ]] ; then
     exit 1
 fi
