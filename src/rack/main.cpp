@@ -3,8 +3,8 @@
 #include <tile.h>
 #include <wwf_lexicon.h>
 
-#include <clara.hpp>
 #include <fmt/printf.h>
+#include <lyra/lyra.hpp>
 
 #include <algorithm>
 #include <cctype>
@@ -108,21 +108,15 @@ auto solve(node const& node, letter_values const& letter_scores,
 
 auto main(int argc, char const* const* argv) -> int
 {
-    using clara::Arg;
-    using clara::Args;
-    using clara::Help;
-    using clara::Opt;
-
     auto help{false};
     auto min_length{2};
     auto letters{string{}};
     auto cli{
-            Opt(min_length, "minimum length")["-n"]["--min-length"](
-                    "minimum number of letters in words suggested")
-                    | Arg(letters, "letters")(
-                            "Letter \"rack\" including wildcards as '?'")
-                    | Help(help)};
-    auto result = cli.parse(Args(argc, argv));
+        lyra::help(help)
+        | lyra::opt(min_length, "minimum length")["-n"]["--min-length"]("minimum number of letters in words suggested")
+        | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as '?'")
+    };
+    auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {
         fmt::print(stderr, "Error in command line: {}\n",
@@ -133,8 +127,8 @@ auto main(int argc, char const* const* argv) -> int
     if (help) {
         fmt::printf("wss scrabble word suggester\n"
                     "(C)2019 John McFarlane\n\n");
-        for (auto const& help_column : cli.getHelpColumns()) {
-            fmt::printf("%.10s   %s\n", help_column.left, help_column.right);
+        for (auto const& help_column : cli.get_help_text()) {
+            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
         }
         return EXIT_FAILURE;
     }
