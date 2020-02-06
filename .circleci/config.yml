@@ -129,6 +129,25 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
+  "memory-sanitizer-clang":
+    docker:
+      - image: clangbuiltlinux/ubuntu
+    steps:
+      - checkout
+      - run:
+          name: Set up system
+          command: /root/project/.circleci/setup.sh libc++-dev libc++abi-dev parallel
+      - restore_cache:
+          key: cache
+      - run:
+          name: Run memory sanitizer
+          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/scripts/memory-sanitizer.sh
+      - save_cache:
+          key: cache
+          paths:
+            - ~/.ccache
+            - ~/.conan/data
+
   "sanitize-clang":
     docker:
       - image: johnmcfarlane/cnl_ci:clang-9
@@ -167,11 +186,4 @@ workflows:
   version: 2
   test:
     jobs:
-      - "coverage-gcc"
-      - "clang-static-analyzer-gcc"
-      - "cppcheck-gcc"
-      - "sanitize-gcc"
-      - "valgrind-gcc"
-      - "clang-tidy"
-      - "sanitize-clang"
-      - "shellcheck"
+      - "memory-sanitizer-clang"
