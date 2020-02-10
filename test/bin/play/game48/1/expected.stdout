@@ -422,6 +422,7 @@
  23  7,3  | ABOs
  23  7,4  | ABS
  23  7,4  | BAS
+ 23  1,7  - BASS
  23  7,4  | BASe
  23  7,4  | BASh
  23  7,4  | BASk
@@ -683,6 +684,8 @@
  21  7,3  | AwES
  21  7,3  | AxES
  21  7,3  | AyES
+ 21  1,7  - BASs
+ 21  1,7  - BASt
  21  7,4  | BAd
  21  7,4  | BAr
  21  7,4  | BAs
@@ -691,6 +694,7 @@
  21  1,7  - BOSs
  21  7,4  | BOd
  21  7,4  | BOs
+ 21  1,7  - BaSS
  21  1,7  - BoSS
  21  7,5  | BrA
  21  7,5  | BrO
@@ -910,6 +914,7 @@
  20  7,4  | AlSO
  20  7,4  | ApSE
  20  7,4  | ArSE
+ 20  1,7  - BAS
  20  1,7  - BOS
  20  7,4  | EASe
  20  7,4  | EASt
@@ -1059,6 +1064,7 @@
  20  7,3  | yEAS
  19  7,4  | AErO
  19  7,5  | AS
+ 19  2,7  - ASS
  19  7,5  | ASh
  19  7,5  | ASk
  19  7,5  | ASp
@@ -1076,6 +1082,11 @@
  19  7,5  | ArSE
  19  7,4  | AsS
  19  7,4  | AyS
+ 19  1,7  - BAmS
+ 19  1,7  - BAnS
+ 19  1,7  - BApS
+ 19  1,7  - BAsS
+ 19  1,7  - BAtS
  19  1,7  - BOpS
  19  1,7  - BOsS
  19  1,7  - BOtS
@@ -1168,6 +1179,7 @@
  19  7,4  | aSS
  19  7,5  | aSS
  19  7,4  | bAS
+ 19  1,7  - bASS
  19  7,4  | bES
  19  7,4  | bOS
  19  1,7  - bOSS
@@ -1188,20 +1200,25 @@
  19  7,4  | kOS
  19  1,7  - kOSS
  19  7,4  | lAS
+ 19  1,7  - lASS
  19  7,4  | lES
  19  1,7  - lOSS
  19  7,4  | mAS
+ 19  1,7  - mASS
  19  7,4  | mOS
  19  1,7  - mOSS
  19  7,4  | nOS
  19  7,4  | oES
  19  7,5  | oSE
  19  7,4  | pAS
+ 19  1,7  - pASS
  19  7,4  | pES
  19  7,4  | rAS
  19  7,4  | rES
+ 19  1,7  - sASS
  19  7,4  | sOS
  19  7,4  | tAS
+ 19  1,7  - tASS
  19  1,7  - tOSS
  19  7,5  | uSE
  19  7,4  | vAS
@@ -1222,14 +1239,17 @@
  18  2,3  | BAnJOES
  18  4,4  | BOItES
  18  6,1  | BOlASES
+ 18  1,7  - BaS
  18  1,7  - BoS
  18  4,4  | BrISES
+ 18  1,7  - EASt
  18  7,4  | EAr
  18  7,4  | ESs
  18  7,5  | EdS
  18  7,5  | ErA
  18  7,5  | ErS
  18  7,5  | EsS
+ 18  1,7  - OASt
  18  7,4  | OAr
  18  7,4  | OEs
  18  7,5  | OdA
@@ -1239,6 +1259,7 @@
  18  7,5  | OrE
  18  7,5  | OrS
  18  7,5  | OsE
+ 18  1,7  - SASs
  18  7,4  | SAd
  18  6,2  | SEABEdS
  18  6,5  | SEABEdS
@@ -1264,6 +1285,7 @@
  18  7,6  | sOS
  18  7,5  | uS
  18  3,6  | uSnEAS
+ 17  2,7  - ASs
  17  7,5  | Ad
  17  7,5  | Ar
  17  7,5  | As
@@ -1289,6 +1311,7 @@
  17  7,5  | Or
  17  7,5  | Os
  17  1,7  - SOS
+ 17  2,7  - aSS
  17  7,6  | dE
  17  7,6  | dO
  17  7,6  | rE
@@ -1300,15 +1323,23 @@
  16  6,2  | ABuSES
  16  6,1  | AErOBE
  16  6,5  | AErOBE
+ 16  2,7  - AS
  16  6,2  | AdOBES
+ 16  1,7  - BA
  16  6,2  | BASSEs
  16  6,2  | BASSEt
  16  6,2  | BAShES
  16  6,2  | BASsES
  16  6,2  | BAStES
  16  6,2  | BAaSES
+ 16  1,7  - BAh
+ 16  1,7  - BAm
+ 16  1,7  - BAn
  16  2,3  | BAnJO
+ 16  1,7  - BAp
+ 16  1,7  - BAs
  16  6,2  | BAsSES
+ 16  1,7  - BAt
  16  6,5  | BEAStS
  16  6,5  | BEAnOS
  16  6,5  | BESEtS
@@ -1328,6 +1359,7 @@
  16  6,2  | BaASES
  16  6,2  | BiASES
  16  6,2  | BrOSES
+ 16  1,7  - EAtS
  16  1,7  - EOnS
  16  6,6  | EmBOSS
  16  4,6  | ISBAS
@@ -1336,11 +1368,15 @@
  16  2,6  - JuICEd
  16  2,6  - JuICEr
  16  2,6  - JuICEs
+ 16  1,7  - OAtS
  16  6,2  | OBESE
  16  2,4  | OBJEt
  16  2,7  - OS
  16  6,2  | SABlES
  16  6,2  | SABrES
+ 16  1,7  - SAnS
+ 16  1,7  - SApS
+ 16  1,7  - SAsS
  16  6,2  | SEABEd
  16  6,5  | SEABEd
  16  4,2  | SOBEIt
@@ -1349,21 +1385,38 @@
  16  1,7  - SOtS
  16  6,2  | SuBSEA
  16  6,2  | SyBOES
+ 16  1,7  - aAS
  16  6,2  | aBASES
+ 16  1,7  - bAS
  16  1,7  - bOS
  16  1,7  - cOS
  16  6,1  | dEBASE
  16  6,5  | dEBASE
  16  1,7  - dOS
+ 16  1,7  - fAS
+ 16  1,7  - gAS
+ 16  1,7  - hAS
  16  1,7  - hOS
+ 16  1,7  - kAS
  16  1,7  - kOS
+ 16  1,7  - lAS
  16  6,5  | lESBOS
+ 16  1,7  - mAS
  16  1,7  - mOS
  16  1,7  - nOS
+ 16  1,7  - pAS
+ 16  1,7  - rAS
  16  1,7  - sOS
+ 16  1,7  - tAS
+ 16  1,7  - vAS
+ 16  1,7  - wAS
  16  1,7  - wOS
+ 16  1,7  - zAS
  15  4,3  | ABOIl
  15  4,3  | ABrIS
+ 15  1,7  - AaS
+ 15  2,7  - AhS
+ 15  2,7  - AsS
  15  3,3  | AuSuBOS
  15  5,3  | BAnCOS
  15  5,3  | BEACOn
@@ -1443,6 +1496,7 @@
  14  6,5  - BOuSES
  14  6,2  | BOwSE
  14  6,5  - BOwSES
+ 14  1,7  - Ba
  14  6,5  - BaASES
  14  6,5  - BiASES
  14  6,2  | BlASE
@@ -1477,6 +1531,7 @@
  14  3,4  | SOuBiSE
  14  3,5  | SuBSEA
  14  6,2  | aBASE
+ 14  2,7  - aS
  14  6,2  | oBESE
  14  2,7  - oS
  13  4,4  | ABIOSEs
@@ -1559,14 +1614,18 @@
  13  5,6  | CObB
  13  5,6  | COmB
  13  5,6  | CrAB
+ 13  1,7  - EAt
  13  1,7  - EOn
  13  2,6  | JESS
  13  2,6  | JOES
  13  2,6  | JOSS
+ 13  1,7  - OAt
  13  4,2  | OBElIAS
  13  4,3  | SABInES
  13  2,4  | SAJOu
  13  6,7  - SAmBO
+ 13  1,7  - SAp
+ 13  1,7  - SAt
  13  1,7  - SO
  13  1,7  - SOm
  13  1,7  - SOn
@@ -1601,6 +1660,11 @@
  12  3,4  | ABusES
  12  2,5  | AJEe
  12  2,5  | AJeE
+ 12  2,7  - Ah
+ 12  2,7  - Am
+ 12  2,7  - An
+ 12  2,7  - As
+ 12  2,7  - At
  12  5,4  | BACOnS
  12  5,4  | BAChES
  12  4,3  | BASIcS
@@ -1780,29 +1844,42 @@
  12  3,5  | SuBaS
  12  6,7  - SwAB
  12  6,7  - SwOB
+ 12  1,7  - aA
+ 12  1,7  - bA
  12  4,3  | bABIES
  12  1,7  - bO
  12  3,5  | buBOES
  12  4,3  | cOBIAS
  12  1,7  - dO
  12  4,3  | dOBIES
+ 12  1,7  - fA
  12  4,3  | gABIES
  12  1,7  - gO
  12  4,3  | gOBIES
+ 12  1,7  - hA
  12  1,7  - hO
+ 12  1,7  - jA
  12  1,7  - jO
+ 12  1,7  - kA
+ 12  1,7  - lA
  12  6,7  - lESBO
  12  1,7  - lO
+ 12  1,7  - mA
  12  1,7  - mO
+ 12  1,7  - nA
  12  1,7  - nO
+ 12  1,7  - pA
  12  4,3  | rABIES
  12  1,7  - sO
  12  3,5  | suBSEA
+ 12  1,7  - tA
  12  1,7  - tO
  12  4,3  | tOBIES
  12  5,4  | vOCABS
  12  1,7  - wO
+ 12  1,7  - yA
  12  1,7  - yO
+ 12  1,7  - zA
  11  4,4  | ABIOsES
  11  4,4  | ABIdE
  11  6,5  - ABaSES
@@ -1810,6 +1887,7 @@
  11  4,1  | ABiOSIS
  11  6,5  - ABuSES
  11  3,4  | ABuSe
+ 11  1,7  - Aa
  11  6,5  - AbBESS
  11  6,5  - BAS
  11  4,3  | BASIOnS
@@ -1878,6 +1956,7 @@
  11  5,6  | COBlES
  11  5,6  | COBrAS
  11  5,6  | CuBES
+ 11  2,6  | JA
  11  2,6  | JAb
  11  2,6  | JAg
  11  2,6  | JAm
@@ -2067,6 +2146,7 @@
  10  6,2  | EyASES
  10  6,6  | EyASES
  10  4,6  | ISOBAr
+ 10  2,6  | Ja
  10  2,6  | Jo
  10  6,5  - OBAS
  10  6,5  - OBEAh
@@ -4811,6 +4891,7 @@
   1  4,5  | bI
   1  6,5  | dE
   1  6,5  | fE
+  1  4,5  | gI
   1  6,5  | hE
   1  4,5  | hI
   1  4,5  | kI

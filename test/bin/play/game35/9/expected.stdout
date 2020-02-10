@@ -4,10 +4,12 @@
  84  1,6  | InSPAN
  84  1,5  | QuIPS
  81  1,7  | ASPeN
+ 81  1,4  | NIQAbS
  81  1,8  | SPAN
  81  1,8  | SPIN
  81  1,7  | lAPIN
  78  1,7  | NIPAS
+ 78  1,5  | NIQAbS
  78  1,9  | PAN
  78  1,9  | PIN
  78  1,5  | QuINS
@@ -21,6 +23,7 @@
  75  1,7  | NAPaS
  75  1,7  | NAPeS
  75  1,7  | NIPaS
+ 75  1,5  | NIQAb
  75  1,7  | NaPAS
  75  1,7  | NiPAS
  75  1,6  | PAISaN
@@ -885,6 +888,7 @@
  17  1,8  - NAPa
  17  1,8  - NAPe
  17  8,2  | NIPAS
+ 17  8,1  | NIQAbS
  17  3,8  - PA
  17  3,8  - PI
  17  8,1  | SNIPeS
@@ -1236,6 +1240,7 @@
   9  3,8  - bA
   9  3,8  - bI
   9  8,2  | gASPS
+  9  3,8  - gI
   9  3,8  - hA
   9  8,2  | hASPS
   9  3,8  - hI
@@ -1382,6 +1387,7 @@
   8  2,7  | fILS
   8  2,7  | gALS
   8  8,3  | gAPS
+  8  1,10 - gI
   8  8,3  | gIPS
   8  9,1  | hA
   8  1,10 - hA
@@ -1390,6 +1396,8 @@
   8  1,10 - hI
   8  2,7  | hILA
   8  8,3  | hIPS
+  8  9,1  | jA
+  8  1,10 - jA
   8  2,6  | jAIL
   8  9,1  | kA
   8  1,10 - kA
@@ -1471,6 +1479,7 @@
   7  8,2  | NAIfS
   7  8,2  | NAIlS
   7  1,8  - NAb
+  7  1,8  - NAg
   7  1,8  - NAh
   7  1,8  - NAm
   7  1,8  - NAp
@@ -1608,6 +1617,7 @@
   6  8,2  | SAIlS
   6  8,2  | SAInS
   6  1,8  - SAb
+  6  1,8  - SAg
   6  1,8  - SAl
   6  1,8  - SAp
   6  1,8  - SAt
@@ -1678,6 +1688,7 @@
   5  3,8  - Aa
   5  2,8  - Ab
   5  3,8  - Ae
+  5  2,8  - Ag
   5  2,8  - Ah
   5  3,8  - Ai
   5  2,8  - Al
@@ -1806,6 +1817,7 @@
   4  1,8  - fA
   4  9,2  - gHI
   4  1,8  - hA
+  4  1,8  - jA
   4  1,8  - kA
   4  9,2  - kHI
   4  1,8  - lA
@@ -1921,6 +1933,7 @@
   1  8,5  | aS
   1  3,8  | bI
   1  8,5  | eS
+  1  3,8  | gI
   1  3,8  | hI
   1  8,5  | iS
   1  3,8  | kI
