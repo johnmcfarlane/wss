@@ -689,6 +689,7 @@
  21  7,4  | BAd
  21  7,4  | BAr
  21  7,4  | BAs
+ 21  1,7  - BESt
  21  7,4  | BEd
  21  7,4  | BEs
  21  1,7  - BOSs
@@ -915,6 +916,7 @@
  20  7,4  | ApSE
  20  7,4  | ArSE
  20  1,7  - BAS
+ 20  1,7  - BES
  20  1,7  - BOS
  20  7,4  | EASe
  20  7,4  | EASt
@@ -1087,11 +1089,14 @@
  19  1,7  - BApS
  19  1,7  - BAsS
  19  1,7  - BAtS
+ 19  1,7  - BEnS
+ 19  1,7  - BEtS
  19  1,7  - BOpS
  19  1,7  - BOsS
  19  1,7  - BOtS
  19  7,4  | EArS
  19  7,5  | ES
+ 19  2,7  - ESS
  19  7,5  | ESs
  19  7,4  | EdS
  19  7,4  | EfS
@@ -1183,6 +1188,7 @@
  19  7,4  | bES
  19  7,4  | bOS
  19  1,7  - bOSS
+ 19  1,7  - cESS
  19  7,4  | cOS
  19  1,7  - cOSS
  19  7,4  | dOS
@@ -1190,11 +1196,13 @@
  19  7,4  | eSS
  19  7,5  | eSS
  19  7,4  | fAS
+ 19  1,7  - fESS
  19  1,7  - fOSS
  19  7,4  | gAS
  19  7,4  | hAS
  19  7,4  | hES
  19  7,4  | hOS
+ 19  1,7  - jESS
  19  1,7  - jOSS
  19  7,4  | kAS
  19  7,4  | kOS
@@ -1202,11 +1210,14 @@
  19  7,4  | lAS
  19  1,7  - lASS
  19  7,4  | lES
+ 19  1,7  - lESS
  19  1,7  - lOSS
  19  7,4  | mAS
  19  1,7  - mASS
+ 19  1,7  - mESS
  19  7,4  | mOS
  19  1,7  - mOSS
+ 19  1,7  - nESS
  19  7,4  | nOS
  19  7,4  | oES
  19  7,5  | oSE
@@ -1240,6 +1251,7 @@
  18  4,4  | BOItES
  18  6,1  | BOlASES
  18  1,7  - BaS
+ 18  1,7  - BeS
  18  1,7  - BoS
  18  4,4  | BrISES
  18  1,7  - EASt
@@ -1301,12 +1313,14 @@
  17  4,4  | BrIES
  17  4,4  | BrIOS
  17  4,4  | BrISS
+ 17  2,7  - ESs
  17  7,5  | Ed
  17  7,5  | Er
  17  7,5  | Es
  17  2,6  - JuICES
  17  2,6  - JuICErS
  17  2,4  | OBJEtS
+ 17  1,7  - OES
  17  7,5  | Od
  17  7,5  | Or
  17  7,5  | Os
@@ -1314,6 +1328,7 @@
  17  2,7  - aSS
  17  7,6  | dE
  17  7,6  | dO
+ 17  2,7  - eSS
  17  7,6  | rE
  17  7,6  | sO
  16  6,2  | ABElES
@@ -1340,11 +1355,15 @@
  16  1,7  - BAs
  16  6,2  | BAsSES
  16  1,7  - BAt
+ 16  1,7  - BE
  16  6,5  | BEAStS
  16  6,5  | BEAnOS
  16  6,5  | BESEtS
  16  6,5  | BESOmS
  16  6,5  | BESOtS
+ 16  1,7  - BEn
+ 16  1,7  - BEs
+ 16  1,7  - BEt
  16  1,7  - BO
  16  6,2  | BOSSEd
  16  6,2  | BOSSEs
@@ -1361,6 +1380,7 @@
  16  6,2  | BrOSES
  16  1,7  - EAtS
  16  1,7  - EOnS
+ 16  2,7  - ES
  16  6,6  | EmBOSS
  16  4,6  | ISBAS
  16  2,6  | JABS
@@ -1379,6 +1399,7 @@
  16  1,7  - SAsS
  16  6,2  | SEABEd
  16  6,5  | SEABEd
+ 16  1,7  - SEtS
  16  4,2  | SOBEIt
  16  1,7  - SOnS
  16  1,7  - SOpS
@@ -1388,6 +1409,7 @@
  16  1,7  - aAS
  16  6,2  | aBASES
  16  1,7  - bAS
+ 16  1,7  - bES
  16  1,7  - bOS
  16  1,7  - cOS
  16  6,1  | dEBASE
@@ -1396,21 +1418,27 @@
  16  1,7  - fAS
  16  1,7  - gAS
  16  1,7  - hAS
+ 16  1,7  - hES
  16  1,7  - hOS
  16  1,7  - kAS
  16  1,7  - kOS
  16  1,7  - lAS
+ 16  1,7  - lES
  16  6,5  | lESBOS
  16  1,7  - mAS
  16  1,7  - mOS
  16  1,7  - nOS
+ 16  1,7  - oES
  16  1,7  - pAS
+ 16  1,7  - pES
  16  1,7  - rAS
+ 16  1,7  - rES
  16  1,7  - sOS
  16  1,7  - tAS
  16  1,7  - vAS
  16  1,7  - wAS
  16  1,7  - wOS
+ 16  1,7  - yES
  16  1,7  - zAS
  15  4,3  | ABOIl
  15  4,3  | ABrIS
@@ -1426,6 +1454,9 @@
  15  5,6  | CArBOS
  15  5,6  | CEiBAS
  15  5,6  | COmBES
+ 15  2,7  - EmS
+ 15  2,7  - EnS
+ 15  2,7  - EsS
  15  4,6  | ISBA
  15  4,6  | ISBAs
  15  4,6  | ISBaS
@@ -1441,6 +1472,7 @@
  15  2,6  | JoBS
  15  2,6  | JuBA
  15  2,6  | JuBE
+ 15  1,7  - OeS
  15  2,7  - OhS
  15  2,7  - OmS
  15  2,7  - OnS
@@ -1498,6 +1530,7 @@
  14  6,5  - BOwSES
  14  1,7  - Ba
  14  6,5  - BaASES
+ 14  1,7  - Be
  14  6,5  - BiASES
  14  6,2  | BlASE
  14  5,3  | BlOCS
@@ -1532,6 +1565,7 @@
  14  3,5  | SuBSEA
  14  6,2  | aBASE
  14  2,7  - aS
+ 14  2,7  - eS
  14  6,2  | oBESE
  14  2,7  - oS
  13  4,4  | ABIOSEs
@@ -1543,6 +1577,7 @@
  13  4,2  | ABScISE
  13  3,4  | ABuSErS
  13  3,4  | ABuSeS
+ 13  1,7  - AE
  13  6,5  - AdOBE
  13  3,3  | AuSuBO
  13  3,5  | AuSuBO
@@ -1621,11 +1656,15 @@
  13  2,6  | JOSS
  13  1,7  - OAt
  13  4,2  | OBElIAS
+ 13  1,7  - OE
+ 13  1,7  - OEs
  13  4,3  | SABInES
  13  2,4  | SAJOu
  13  6,7  - SAmBO
  13  1,7  - SAp
  13  1,7  - SAt
+ 13  1,7  - SEn
+ 13  1,7  - SEt
  13  1,7  - SO
  13  1,7  - SOm
  13  1,7  - SOn
@@ -1775,6 +1814,11 @@
  12  5,6  | CABObS
  12  5,6  | CAbOBS
  12  5,6  | CArOBS
+ 12  2,7  - Eh
+ 12  2,7  - Em
+ 12  2,7  - En
+ 12  2,7  - Es
+ 12  2,7  - Et
  12  2,6  | JAbS
  12  2,6  | JAdE
  12  2,6  | JAgS
@@ -1845,39 +1889,51 @@
  12  6,7  - SwAB
  12  6,7  - SwOB
  12  1,7  - aA
+ 12  1,7  - aE
  12  1,7  - bA
  12  4,3  | bABIES
+ 12  1,7  - bE
  12  1,7  - bO
  12  3,5  | buBOES
  12  4,3  | cOBIAS
+ 12  1,7  - dE
  12  1,7  - dO
  12  4,3  | dOBIES
  12  1,7  - fA
+ 12  1,7  - fE
  12  4,3  | gABIES
  12  1,7  - gO
  12  4,3  | gOBIES
  12  1,7  - hA
+ 12  1,7  - hE
  12  1,7  - hO
  12  1,7  - jA
+ 12  1,7  - jE
  12  1,7  - jO
  12  1,7  - kA
  12  1,7  - lA
  12  6,7  - lESBO
  12  1,7  - lO
  12  1,7  - mA
+ 12  1,7  - mE
  12  1,7  - mO
  12  1,7  - nA
+ 12  1,7  - nE
  12  1,7  - nO
+ 12  1,7  - oE
  12  1,7  - pA
  12  4,3  | rABIES
+ 12  1,7  - rE
  12  1,7  - sO
  12  3,5  | suBSEA
  12  1,7  - tA
  12  1,7  - tO
  12  4,3  | tOBIES
  12  5,4  | vOCABS
+ 12  1,7  - wE
  12  1,7  - wO
  12  1,7  - yA
+ 12  1,7  - yE
  12  1,7  - yO
  12  1,7  - zA
  11  4,4  | ABIOsES
@@ -1889,6 +1945,7 @@
  11  3,4  | ABuSe
  11  1,7  - Aa
  11  6,5  - AbBESS
+ 11  1,7  - Ae
  11  6,5  - BAS
  11  4,3  | BASIOnS
  11  6,5  - BASe
@@ -1963,6 +2020,7 @@
  11  2,6  | JAr
  11  2,6  | JAw
  11  2,6  | JAy
+ 11  2,6  | JE
  11  2,6  | JEe
  11  2,6  | JEt
  11  2,6  | JEu
@@ -1983,6 +2041,7 @@
  11  6,5  - OBSESs
  11  6,5  - OBSEsS
  11  6,5  - OBsESS
+ 11  1,7  - Oe
  11  6,7  - SABES
  11  6,7  - SABErS
  11  6,7  - SABOtS
@@ -2147,6 +2206,7 @@
  10  6,6  | EyASES
  10  4,6  | ISOBAr
  10  2,6  | Ja
+ 10  2,6  | Je
  10  2,6  | Jo
  10  6,5  - OBAS
  10  6,5  - OBEAh
@@ -2705,9 +2765,11 @@
   8  6,5  - hOBS
   8  6,7  - hOBS
   8  3,5  | huB
+  8  6,5  - jABS
   8  6,2  | jESSE
   8  4,5  | jIBE
   8  4,5  | jIBS
+  8  6,5  - jOBS
   8  4,5  | kIBE
   8  6,7  - lABS
   8  6,2  | lEASE
@@ -3465,6 +3527,8 @@
   6  4,4  | iBIS
   6  5,5  | iCES
   6  4,2  | iSSEI
+  6  6,5  - jAB
+  6  6,5  - jOB
   6  6,7  - lAB
   6  5,4  | lACE
   6  5,4  | lACS
@@ -3773,8 +3837,11 @@
   5  3,4  | hOuSE
   5  5,5  | iCE
   5  3,3  | iSSuE
+  5  6,5  - jESS
   5  4,5  | jIAO
   5  4,5  | jIB
+  5  6,5  - jOES
+  5  6,5  - jOSS
   5  4,5  | kISS
   5  3,5  | kuSSO
   5  5,4  | lAC
@@ -4475,6 +4542,7 @@
   3  6,4  | jEES
   3  6,5  | jEES
   3  6,5  | jESS
+  3  6,5  - jOE
   3  6,4  | jOES
   3  6,4  | kAES
   3  6,5  | kEAS
@@ -4754,9 +4822,12 @@
   2  6,7  - hO
   2  6,4  | hOE
   2  3,5  | huE
+  2  6,5  - jA
+  2  6,5  - jE
   2  6,4  | jEE
   2  6,5  | jEE
   2  3,4  | jEu
+  2  6,5  - jO
   2  6,4  | jOE
   2  3,5  | juS
   2  6,4  | kAE
@@ -4894,6 +4965,7 @@
   1  4,5  | gI
   1  6,5  | hE
   1  4,5  | hI
+  1  6,5  | jE
   1  4,5  | kI
   1  4,5  | lI
   1  6,5  | mE

@@ -1,43 +1,62 @@
  48  7,3  - JERID
+ 40  8,1  | LIEF
+ 39  8,2  | DEF
  39 11,2  | FOILED
  39 11,2  | RIFLED
  39 11,2  | ROLFED
  38 11,2  | FOLDER
+ 38  8,2  | REF
+ 37  8,3  | EF
  37  8,3  | OF
+ 36  8,2  | DELF
  36 11,3  | FILED
  36 11,3  | FLIED
+ 35  8,1  | FIELD
  35  8,2  | ROLF
+ 34  8,3  | ELF
  34  8,2  | FOLD
  33 11,3  | FIRED
  33 11,3  | FRIED
  32 11,3  | FILER
  32 11,3  | FLIER
  32 11,3  | LIFER
+ 31  8,1  | FLED
+ 30  8,3  | ELD
  30  8,1  | FEOD
  30  8,3  | OLD
  30 11,2  | RIFLE
  30 11,2  | ROILED
+ 29  8,2  | FED
  29  8,1  | FIORD
+ 28  8,1  | DIEL
  28  8,1  | DIOL
  28  8,2  | FORD
  28  8,1  | IDOL
+ 28  8,1  | LIED
+ 27  8,2  | DEL
  27  8,2  | DOL
  27 11,3  | FIDO
  27 11,3  | FILE
  27 11,3  | FILO
  27 11,3  | FLOE
+ 27  8,1  | IRED
+ 27  8,2  | LED
  27 11,3  | LIFE
  27 11,3  | OILED
+ 27  8,1  | RIEL
  27 11,3  | RILED
  26  9,3  | FELID
  26  9,3  | FILED
  26 11,3  | IDLER
  26  8,2  | LORD
  26 11,3  | OLDER
+ 26  8,2  | RED
  26  8,2  | ROD
  26  9,2  | ROLFED
  25  9,5  | DEF
  25  9,5  | DIF
+ 25  8,3  | ED
+ 25  8,3  | EL
  25  9,3  | FLIED
  25  9,4  | LIEF
  25  8,3  | OD
@@ -54,12 +73,14 @@
  24  9,4  | REIF
  24 11,3  | RIFE
  24  9,2  | RIFLED
+ 23  8,2  | FER
  23  8,2  | FOR
  23  4,3  - FRIJOLE
  23 11,3  | OILER
  23  9,5  | REF
  23  9,5  | RIF
  22  2,4  - DEFILER
+ 22  8,1  | DOER
  22  4,4  - FILED
  22  9,3  | FILER
  22  4,4  - FLIED
@@ -67,6 +88,7 @@
  22  4,3  - FRIJOL
  22  6,8  - LED
  22  6,8  - LID
+ 22  8,1  | LIER
  22  9,3  | LIFER
  21 11,3  | DOLE
  21  8,2  | DOR
@@ -101,6 +123,7 @@
  19  2,4  - DEFILE
  19  6,4  - DEFILE
  19 11,5  | DEFIs
+ 19  8,3  | ER
  19  4,4  | FEOD
  19  9,4  | FEOD
  19  4,4  - FILER
@@ -140,11 +163,13 @@
  17 11,7  | DOsER
  17  9,5  | FER
  17  9,3  | FIDO
+ 17  8,1  | FIE
  17  9,3  | FILE
  17  9,3  | FILO
  17  9,5  | FIR
  17  9,4  | FLIR
  17  4,3  | FLOOD
+ 17  8,1  | FOE
  17  3,4  - FOILED
  17  9,5  | FOR
  17  8,1  | FRO
@@ -171,6 +196,7 @@
  16  2,1  | EIDOLA
  16  7,8  - EL
  16  2,5  | FADO
+ 16  8,2  | FE
  16  2,2  | FERIA
  16  2,4  - FIELDER
  16  5,4  - FIELDER
@@ -192,6 +218,8 @@
  15  2,7  - DEF
  15  4,4  - DEFER
  15 11,5  | DELIs
+ 15  8,1  | DIE
+ 15  8,1  | DOE
  15  1,9  - DOR
  15  6,5  - FEED
  15  6,5  - FEEL
@@ -209,8 +237,11 @@
  15  4,4  - FREE
  15  9,3  | FROE
  15  4,4  - FROE
+ 15  8,1  | LIE
  15  1,7  - LIEF
  15  4,4  - LIFER
+ 15  8,1  | ODE
+ 15  8,1  | OLE
  15  5,8  - ORE
  15  9,5  | RED
  15  5,4  - REEF
@@ -223,6 +254,7 @@
  15  9,2  | RIFLE
  15  9,5  | ROD
  15  1,11 - ROPE
+ 14  8,2  | DE
  14  3,4  - DEFIER
  14  8,2  | DO
  14 11,7  | DOsE
@@ -232,10 +264,12 @@
  14  5,4  - FIELD
  14  6,4  | FREE
  14  4,4  | FRO
+ 14  8,1  | IRE
  14  3,4  - LIEFER
  14  8,2  | LO
  14  1,11 - LOP
  14 11,7  | LOsE
+ 14  8,1  | ORE
  14  4,6  | ORE
  14 11,5  | REDOs
  14  1,7  - REEF
@@ -243,6 +277,7 @@
  14 11,5  | REF
  14  3,4  - RELIED
  14  6,4  - RELIEF
+ 14  8,1  | ROE
  14  3,4  - ROILED
  14  4,4  | ROOF
  14  5,6  | VODKA
@@ -274,9 +309,11 @@
  13  9,3  | LODE
  13 11,5  | LORIs
  13  9,6  | OD
+ 13  8,2  | OE
  13 11,6  | OF
  13  4,4  - OILED
  13  9,2  | OLDIE
+ 13  8,2  | RE
  13  6,5  - REEF
  13  2,7  - REF
  13  6,5  - REIF
@@ -344,6 +381,7 @@
  11  4,4  - IDLER
  11  4,4  | IDOL
  11 11,4  | IRED
+ 11  7,3  - JE
  11  7,3  - JO
  11 11,5  | LED
  11  2,7  - LED
