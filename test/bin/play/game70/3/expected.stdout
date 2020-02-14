@@ -45,6 +45,7 @@
  27  9,1  | SpOKE
  27  9,1  | StOKE
  27  8,2  - aSK
+ 27  8,2  - tSK
  26  8,6  | EEK
  26  8,6  | dEKES
  25  8,6  | dEKE
@@ -675,6 +676,7 @@
   9  8,1  | sEES
   9  5,4  - sEES
   9  9,2  | sOKES
+  9  8,6  | tE
   9  8,1  | tEES
   9  5,4  - tEES
   9  8,1  | tIES
@@ -939,6 +941,8 @@
   7  4,4  - sIKE
   7  4,7  - sKAT
   7  4,4  - sKEE
+  7 10,2  - tE
+  7  5,5  | tE
   7  8,7  | tEES
   7 10,2  - tI
   7  8,7  | tIES
@@ -1275,6 +1279,8 @@
   5  5,7  - sATIS
   5 11,1  | sIDES
   5  5,7  - tATES
+  5 10,4  - tE
+  5  8,7  | tE
   5  8,7  | tI
   5 11,1  | tIDES
   5 11,1  | wIDES
@@ -1958,6 +1964,8 @@
   1  8,2  | rE
   1  6,4  - rE
   1  9,2  | sO
+  1  8,2  | tE
+  1  6,4  - tE
   1  9,2  | tO
   1  8,2  | wE
   1  6,4  - wE

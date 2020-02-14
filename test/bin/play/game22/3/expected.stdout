@@ -492,6 +492,7 @@
  13  6,7  - HaSTE
  13  4,8  - IXTlE
  13  8,1  - TAXI
+ 13  7,8  | TEXt
  13  3,8  - THEInE
  13  3,8  - THIEvE
  13  5,6  | VeX
@@ -630,6 +631,7 @@
  12  7,2  - THRoE
  12  5,2  - THeIR
  12  8,2  - TReF
+ 12  7,8  | TaXI
  12  6,7  - ToSH
  12  7,2  - TuRF
  12  6,7  - TuSH
@@ -659,6 +661,7 @@
  12  7,2  - sERF
  12  5,2  - sHIER
  12  8,1  - tAXI
+ 12  7,8  | tEXT
  12  5,2  - tHEIR
  12  6,2  | tHETA
  12  8,2  - tREF
@@ -749,7 +752,9 @@
  11  6,3  | TEXAs
  11  5,8  - TElEX
  11  7,8  - TElEX
+ 11  7,8  | TaX
  11  9,8  | TaX
+ 11  7,8  | TuX
  11  9,8  | TuX
  11  5,1  - XEnIA
  11  4,8  - aXITE
@@ -766,6 +771,7 @@
  11  8,1  - hATH
  11  7,8  | hEX
  11  9,8  | hEX
+ 11  7,5  | kNIT
  11  6,5  | lATEX
  11  8,1  - lATH
  11 10,1  | lEI
@@ -788,6 +794,7 @@
  11 10,5  | sHE
  11  9,8  | sIX
  11  4,8  - sIXTE
+ 11  7,5  | sNIT
  10  6,6  | AXE
  10  6,6  | AXEd
  10  6,6  | AXEl
@@ -885,6 +892,9 @@
  10  6,3  | IXiA
  10  6,8  - IbEX
  10  6,8  - IlEX
+ 10  7,6  | NITE
+ 10  7,6  | NITEr
+ 10  7,6  | NITEs
  10  7,6  | NaH
  10  7,6  | NoH
  10  9,2  - ReF
@@ -896,14 +906,27 @@
  10  6,5  | TAXa
  10  8,1  - TAXi
  10  6,5  | TAXi
+ 10 10,1  | TE
  10  6,5  - TEEN
  10  6,5  - TEENs
  10  6,5  - TEENy
  10  7,8  - TEXt
+ 10  7,8  | THE
  10  9,8  | THE
+ 10  7,8  | THEe
+ 10  7,8  | THEm
+ 10  7,8  | THEn
+ 10  7,8  | THEw
+ 10  7,8  | THEy
  10  5,8  - THIEF
+ 10  7,8  | THIn
+ 10  7,8  | THIo
+ 10  7,8  | THIr
+ 10  7,8  | THIs
  10  7,2  - THRo
  10  7,2  - THRu
+ 10  7,8  | THaE
+ 10  7,8  | THeE
  10  6,2  - THiR
  10  6,2  - TaHR
  10  6,1  - TaXA
@@ -1001,6 +1024,7 @@
   9  5,4  | HiVE
   9  5,4  | HoVE
   9  7,8  | HyTE
+  9  7,6  | NITrE
   9  9,3  - SEI
   9  9,3  - SET
   9  8,7  - SHIT
@@ -1009,12 +1033,19 @@
   9  8,7  - SeX
   9  8,7  - SiX
   9  8,7  - SoX
+  9  7,8  | TEFf
   9  3,8  - TEcHIE
+  9  7,8  | TEfF
   9  6,8  - THEFt
+  9  7,8  | THe
   9  9,8  | THe
   9  5,8  - THiEF
+  9  7,8  | THo
   9  9,8  | THo
+  9  7,8  | THy
   9  9,8  | THy
+  9  7,8  | TIFf
+  9  7,8  | TIfF
   9  7,7  - aSH
   9  6,8  - aXE
   9  6,4  | cHAFE
@@ -1122,10 +1153,20 @@
   8  9,7  | IdE
   8  5,2  - InTER
   8  9,7  | IrE
+  8  7,6  | NET
+  8  7,6  | NETs
+  8  7,6  | NETt
   8  7,6  | NEaT
+  8  7,6  | NEtT
   8  7,6  | NEwT
+  8  7,6  | NIT
+  8  7,6  | NITe
+  8  7,6  | NITs
   8  7,6  | NIdE
   8  7,6  | NInE
+  8  7,6  | NItE
+  8  7,6  | NiTE
+  8  7,6  | NoTE
   8  9,2  - RHo
   8  9,2  - RaH
   8  8,7  - SEIF
@@ -1148,8 +1189,10 @@
   8  8,7  - SIFT
   8  7,2  - TERaI
   8  6,7  - TESt
+  8  7,8  | TEcH
   8  6,2  | TElIA
   8  6,2  | TEnIA
+  8  7,8  | TEtH
   8  7,1  - THAnE
   8  4,8  - THEbE
   8  4,8  - THEmE
@@ -1169,6 +1212,7 @@
   8  4,8  - TItHE
   8  6,5  - TeEN
   8  5,2  - ThEIR
+  8  7,8  | TrEF
   8  5,2  - TrIER
   8  5,2  - TwIER
   8  5,6  | VEnT
@@ -1230,6 +1274,7 @@
   8  9,8  | sHE
   8  6,5  - tEEN
   8  6,7  - tEST
+  8  7,8  | tHE
   8  9,8  | tHE
   8  5,2  - tITER
   8  8,1  - wAFT
@@ -1371,6 +1416,8 @@
   7 10,5  | sET
   7  9,8  | sH
   7 10,5  | sIT
+  7 10,1  | tE
+  7  7,8  | tETH
   7  5,4  | vIVE
   7 10,1  | wE
   7  7,8  | wITH
@@ -1516,9 +1563,15 @@
   6  9,7  | Is
   6  9,7  | It
   6  7,6  | NEb
+  6  7,6  | NEt
   6  7,6  | NEw
   6  7,6  | NIb
   6  7,6  | NIm
+  6  7,6  | NIt
+  6  7,6  | NeT
+  6  7,6  | NiT
+  6  7,6  | NoT
+  6  7,6  | NuT
   6  9,2  - RET
   6  9,3  - SEa
   6  9,3  - SEc
@@ -1561,6 +1614,7 @@
   6  9,3  - SrI
   6  9,3  - SuE
   6  6,5  | TAcHE
+  6  8,1  | TE
   6  6,4  | TEAcH
   6  6,8  - TEEtH
   6  7,8  - TEEtH
@@ -1584,11 +1638,21 @@
   6  5,1  - THEtA
   6  5,8  - THIEf
   6  5,8  - THrEE
+  6  7,8  | TIE
   6  9,8  | TIE
+  6  7,8  | TIEd
+  6  7,8  | TIEr
+  6  7,8  | TIEs
   6  7,2  - TIRe
   6  7,2  - TIRl
   6  7,2  - TIRo
+  6  7,8  | TIdE
   6  6,2  - TIeR
+  6  7,8  | TIkE
+  6  7,8  | TIlE
+  6  7,8  | TImE
+  6  7,8  | TInE
+  6  7,8  | TIrE
   6  8,2  - TREe
   6  8,2  - TREf
   6  8,2  - TREk
@@ -1604,6 +1668,7 @@
   6  7,2  - TaRE
   6  6,7  - TaS
   6  5,4  | TaV
+  6 10,1  | Te
   6  6,2  - ThIR
   6  6,2  - TiER
   6  7,2  - TiRE
@@ -1920,15 +1985,25 @@
   5  8,1  - TArE
   5  8,1  - TAtE
   5  8,1  - TAxI
+  5  7,8  | TE
+  5  9,8  | TE
+  5  7,8  | TEa
   5  9,8  | TEa
   5  7,8  - TEcH
+  5  7,8  | TEd
   5  9,8  | TEd
+  5  7,8  | TEe
   5  9,8  | TEe
+  5  7,8  | TEg
   5  9,8  | TEg
+  5  7,8  | TEl
   5  9,8  | TEl
+  5  7,8  | TEn
   5  9,8  | TEn
+  5  7,8  | TEt
   5  9,8  | TEt
   5  7,8  - TEtH
+  5  7,8  | TEw
   5  9,8  | TEw
   5  7,1  - THAe
   5  6,4  | THAe
@@ -1946,13 +2021,21 @@
   5  6,8  - THEy
   5  5,8  - THaE
   5  5,8  - THeE
+  5  7,8  | TI
   5  9,8  | TI
+  5  7,8  | TIc
   5  9,8  | TIc
+  5  7,8  | TIe
   5  9,8  | TIe
+  5  7,8  | TIl
   5  9,8  | TIl
+  5  7,8  | TIn
   5  9,8  | TIn
+  5  7,8  | TIp
   5  9,8  | TIp
+  5  7,8  | TIs
   5  9,8  | TIs
+  5  7,8  | TIt
   5  9,8  | TIt
   5  6,5  | bAHT
   5  8,1  - bAIT
@@ -2203,13 +2286,21 @@
   4  5,1  - TInEA
   4  8,2  - TRy
   4  8,1  | Ta
+  4  7,8  | TaE
   4  9,8  | TaE
+  4  8,1  | Te
+  4  7,8  | TeE
   4  9,8  | TeE
+  4  7,8  | ThE
   4  9,8  | ThE
+  4  7,8  | TiE
   4  9,8  | TiE
   4  8,1  | To
+  4  7,8  | ToE
   4  9,8  | ToE
+  4  7,8  | TuI
   4  9,8  | TuI
+  4  7,8  | TyE
   4  9,8  | TyE
   4  8,1  - aAH
   4  6,5  | aAH
@@ -2290,9 +2381,13 @@
   4  6,8  - sHE
   4  9,8  | sIT
   4  8,2  - sRI
+  4  8,1  | tE
+  4  7,8  | tET
   4  9,8  | tET
   4  6,8  - tHE
+  4  7,8  | tIE
   4  9,8  | tIE
+  4  7,8  | tIT
   4  9,8  | tIT
   4  6,1  - vITAE
   4  6,3  | vITAE
@@ -2448,12 +2543,17 @@
   3  5,8  - TImE
   3  5,8  - TInE
   3  5,8  - TIrE
+  3  7,8  | Ta
   3  9,8  | Ta
+  3  7,8  | Te
+  3  9,8  | Te
   3  7,1  - ThAE
   3  6,4  | ThAE
   3  5,8  - ThEE
   3  6,8  - ThEE
+  3  7,8  | Ti
   3  9,8  | Ti
+  3  7,8  | To
   3  9,8  | To
   3  6,1  - ToEA
   3  6,3  | ToEA
@@ -2574,8 +2674,11 @@
   3  9,8  | sI
   3  5,8  - sITE
   3  6,5  | tATE
+  3  7,8  | tE
+  3  9,8  | tE
   3  7,1  - tEAT
   3  6,4  | tEAT
+  3  7,8  | tI
   3  9,8  | tI
   3  7,7  - uS
   3  6,1  - vITA
@@ -2720,6 +2823,7 @@
   2  6,5  | TAw
   2  8,1  - TAx
   2  6,5  | TAx
+  2  7,8  - TE
   2  7,8  - TEa
   2  7,8  - TEd
   2  7,8  - TEe
@@ -2963,6 +3067,7 @@
   1  7,8  - rE
   1  8,1  - tA
   1  6,5  | tA
+  1  7,8  - tE
   1  7,8  - wE
   1  8,1  - yA
   1  6,5  | yA

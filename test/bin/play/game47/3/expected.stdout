@@ -872,6 +872,7 @@
  13  5,3  | IdEm
  13  1,4  - InJuRE
  13  2,5  - InJuRE
+ 13  5,3  | ItEm
  13  4,5  - JERId
  13  4,5  - JERIds
  13  4,5  - JERRid
@@ -1065,12 +1066,17 @@
  12  5,1  | ShORe
  12  5,1  | ShOnE
  12  5,1  | ShOrE
+ 12  5,1  | ShOtE
  12  5,1  | SkImO
+ 12  5,1  | SkItE
  12  5,1  | SlIdE
  12  5,1  | SlImE
+ 12  5,1  | SmItE
+ 12  5,1  | SmOtE
  12  5,1  | SpIRe
  12  5,1  | SpInE
  12  5,1  | SpIrE
+ 12  5,1  | SpItE
  12  5,1  | SpORe
  12  5,1  | SpOdE
  12  5,1  | SpOrE
@@ -1760,30 +1766,41 @@
   9  5,1  | ShEw
   9  5,1  | ShIm
   9  5,1  | ShIn
+  9  5,1  | ShIt
   9  5,1  | ShOd
   9  5,1  | ShOo
+  9  5,1  | ShOt
   9  5,1  | ShOw
   9  5,1  | SkEw
   9  5,1  | SkId
   9  5,1  | SkIm
   9  5,1  | SkIn
+  9  5,1  | SkIt
   9  5,1  | SlEd
   9  5,1  | SlEw
   9  5,1  | SlId
   9  5,1  | SlIm
+  9  5,1  | SlIt
   9  5,1  | SlOb
+  9  5,1  | SlOt
   9  5,1  | SlOw
   9  5,1  | SmEw
+  9  5,1  | SmIt
   9  5,1  | SoOn
+  9  5,1  | SoOt
   9  5,1  | SpEd
   9  5,1  | SpEw
   9  5,1  | SpIn
+  9  5,1  | SpIt
+  9  5,1  | SpOt
   9  5,1  | StEm
+  9  5,1  | StEt
   9  5,1  | StEw
   9  5,1  | StEy
   9  5,1  | StIr
   9  5,1  | StOa
   9  5,1  | StOb
+  9  5,1  | StOt
   9  5,1  | StOw
   9  5,4  | aEOn
   9  4,3  - bONIER
@@ -1879,6 +1896,7 @@
   8  7,3  | Ere
   8  7,6  | ErrOR
   8  8,4  - EtIC
+  8  5,3  | Eta
   8  7,6  | EuRO
   8  7,6  | EuROs
   8  5,3  | Ewe
@@ -2332,9 +2350,11 @@
   8  4,3  - tENOuR
   8  3,4  - tEREdO
   8  3,3  - tERNIOn
+  8  5,4  | tEaR
   8  7,4  | tEaR
   8  2,2  - tElOI
   8  4,3  - tONIeR
+  8  5,4  | tOmE
   8  2,2  - tOrII
   8  2,3  - tOxINE
   8  8,5  - tREK
@@ -2412,6 +2432,7 @@
   7  3,3  - ErINgO
   7  7,6  | ErgO
   7  7,3  | Es
+  7  5,3  | Et
   7  7,3  | Et
   7  8,4  - EtiC
   7  7,6  | EtuI
@@ -2569,6 +2590,7 @@
   7  9,5  - IrK
   7  3,3  - IrONeR
   7  3,3  - IroNER
+  7  5,3  | It
   7  8,1  | NEROl
   7  8,1  | NEROli
   7  8,1  | NEROls
@@ -2830,6 +2852,7 @@
   7  2,3  - RusINE
   7  5,1  | SOar
   7  5,1  | SOon
+  7  5,1  | SOot
   7  5,1  | SOur
   7  5,1  | ShoO
   7  5,1  | SluR
@@ -3328,6 +3351,7 @@
   7  4,3  - tENOR
   7  4,3  - tENORs
   7  4,3  - tENsOR
+  7  5,4  | tEa
   7  7,4  | tEa
   7  8,5  - tEaK
   7  7,4  | tEe
@@ -3345,6 +3369,8 @@
   7  4,3  - tONiER
   7  4,3  - tONnER
   7  2,2  - tORiI
+  7  5,4  | tOm
+  7  5,4  | tOo
   7  8,5  - tOoK
   7  2,3  - tRIENe
   7  2,3  - tRIENs
@@ -3356,10 +3382,12 @@
   7  3,3  - tRONE
   7  3,3  - tRONEs
   7  8,5  - tReK
+  7  5,4  | taO
   7  7,4  | teE
   7  2,3  - thRONE
   7  4,3  - tiNIER
   7  4,3  - toNIER
+  7  5,4  | toO
   7  3,3  - toONIE
   7  3,3  - twINER
   7  3,3  - uRINE
@@ -4276,6 +4304,7 @@
   6  7,6  | apER
   6  5,3  | arE
   6  7,3  | arE
+  6  5,3  | atE
   6  7,3  | atE
   6  3,3  - atONE
   6  5,6  | avER
@@ -4953,6 +4982,7 @@
   6  5,3  | udO
   6  3,3  - urINE
   6  7,3  | usE
+  6  5,3  | utE
   6  7,3  | utE
   6  3,3  - vEINeR
   6  2,4  - vEIlER
@@ -10084,6 +10114,8 @@
   4  3,5  - stORER
   4  4,6  - stYE
   4  4,3  - syNE
+  4  5,4  | tE
+  4  7,4  | tE
   4  4,3  - tEN
   4  4,3  - tENd
   4  4,3  - tENs
@@ -10119,6 +10151,7 @@
   4  3,4  - tIrE
   4  2,5  - tItER
   4  3,6  - tIvY
+  4  5,4  | tO
   4  4,3  - tON
   4  4,3  - tONe
   4  4,3  - tONg
@@ -11095,6 +11128,7 @@
   3  7,3  | as
   3  5,6  | as
   3  7,6  | as
+  3  5,3  | at
   3  7,3  | at
   3  5,6  | at
   3  7,6  | at
@@ -11337,6 +11371,7 @@
   3  4,5  - erROR
   3  7,3  | es
   3  7,6  | es
+  3  5,3  | et
   3  7,3  | et
   3  7,6  | et
   3  7,3  | ex
@@ -11506,6 +11541,7 @@
   3  5,3  | id
   3  5,3  | if
   3  5,3  | in
+  3  5,3  | it
   3  4,6  - ivY
   3  4,4  - jEER
   3  4,4  - jEERs
@@ -11997,6 +12033,7 @@
   3  5,3  | un
   3  7,3  | un
   3  7,3  | us
+  3  5,3  | ut
   3  7,3  | ut
   3  3,5  - utERI
   3  4,4  - vEER
@@ -13658,11 +13695,14 @@
   2  5,5  - tReE
   2  5,5  - tRiO
   2  5,5  - tRuE
+  2  5,4  | ta
   2  4,3  - taN
   2  3,4  - taRE
   2  4,5  - taRE
   2  8,3  - taRO
   2  4,5  - taRO
+  2  5,4  | te
+  2  7,4  | te
   2  4,3  - teN
   2  3,4  - thEE
   2  4,4  - thEE
@@ -13677,6 +13717,7 @@
   2  4,5  - tiRE
   2  8,3  - tiRO
   2  4,5  - tiRO
+  2  5,4  | to
   2  4,3  - toN
   2  3,4  - toRE
   2  4,5  - toRE
@@ -14245,6 +14286,7 @@
   1  4,4  - shE
   1  4,5  - siR
   1  4,4  - suE
+  1  5,4  - tE
   1  5,4  - tEa
   1  5,4  - tEd
   1  5,4  - tEe

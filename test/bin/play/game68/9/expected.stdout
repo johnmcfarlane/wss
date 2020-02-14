@@ -186,6 +186,7 @@
  20  2,9  - Obe
  20  2,9  - Oes
  20  2,9  - Owe
+ 20  3,9  - Te
  20  3,9  - To
  20  2,9  - abO
  20  2,9  - abS
@@ -327,6 +328,7 @@
  17  5,5  | TrES
  17  5,5  | TyES
  17  2,9  - aT
+ 17  5,5  | aTES
  17  7,8  - foRDO
  17  5,5  | gOES
  17  5,5  | hOES
@@ -384,6 +386,7 @@
  16  7,8  - tORSo
  16  7,8  - tORTa
  16  7,8  - tORTe
+ 16  3,9  - te
  16  3,9  - to
  16  7,8  - wORSe
  16  3,9  - we
@@ -486,8 +489,10 @@
  15  1,5  | TunGS
  15  1,5  | TwiGS
  15  5,5  | TyEs
+ 15  5,5  | aTEs
  15  5,5  | anES
  15  5,5  | arES
+ 15  5,5  | atES
  15  5,5  | awES
  15  5,5  | ayES
  15  1,6  | bOGS
@@ -2149,6 +2154,11 @@
   7  8,1  | StOOD
   7  4,2  - SyCe
   7  4,3  | SysTEM
+  7  5,6  - TEStES
+  7  5,6  - TEaSES
+  7  5,6  - TEnSES
+  7  5,6  - TEnSESt
+  7  5,6  - TErSESt
   7  4,5  - THIrD
   7  1,5  - THOloI
   7  3,5  - THeISm
@@ -2724,7 +2734,15 @@
   6  4,5  | StEM
   6  4,5  | StEMs
   6  4,5  - SwITH
+  6  5,6  - TED
   6  4,6  | TEMp
+  6  5,6  - TEasES
+  6  5,6  - TEnsES
+  6  5,6  - TEnuES
+  6  5,6  - TEpeES
+  6  5,6  - TErcES
+  6  5,6  - TErnES
+  6  5,6  - TEstES
   6  4,5  - THIO
   6  4,5  - THIOl
   6  4,5  - THIS
@@ -2961,6 +2979,9 @@
   6  8,1  | snOOD
   6  4,5  | stEMS
   6  8,1  | stOOD
+  6  5,6  - tESTES
+  6  5,6  - tEnSEST
+  6  5,6  - tErSEST
   6  4,5  - tHIrD
   6  3,5  - tHeIST
   6  1,5  | tHuG
@@ -3456,6 +3477,7 @@
   5  4,5  - aHIS
   5  8,8  - aRS
   5  8,8  - aRT
+  5  5,5  | aTE
   5  8,1  | afOOT
   5  4,5  | ahEM
   5  7,8  - aiRS
@@ -3929,6 +3951,10 @@
   5  4,5  - swITH
   5  8,1  | swOTS
   5  4,6  | tEMp
+  5  5,6  - tEStES
+  5  5,6  - tEaSES
+  5  5,6  - tEnSES
+  5  5,6  - tEsTES
   5  4,5  - tHIO
   5  4,5  - tHIOl
   5  4,5  - tHIS
@@ -4397,6 +4423,16 @@
   4  1,5  | SwaG
   4  1,5  | SwiG
   4  8,5  | Syn
+  4  5,6  - TE
+  4  5,6  | TE
+  4  5,6  - TEa
+  4  5,6  - TEd
+  4  5,6  - TEe
+  4  5,6  - TEg
+  4  5,6  - TEl
+  4  5,6  - TEn
+  4  5,6  - TEt
+  4  5,6  - TEw
   4  5,5  - TIDe
   4  5,5  - TIDy
   4  5,5  - TIeD
@@ -4435,6 +4471,7 @@
   4  3,5  - TapIS
   4  1,5  - TatSOI
   4  3,5  - TaxIS
+  4  8,7  | Te
   4  1,6  | TeG
   4  4,5  - TeIiD
   4  4,5  - TeInD
@@ -4961,6 +4998,7 @@
   4  8,1  | spOT
   4  8,1  | stOT
   4  8,1  | swOT
+  4  5,6  - tED
   4  4,5  - tHIn
   4  4,5  - tHIo
   4  4,5  - tHIr
@@ -5481,6 +5519,7 @@
   3  3,5  - anTIS
   3  5,5  | arE
   3  4,5  - arID
+  3  5,5  | atE
   3  4,5  - avID
   3  4,5  - avISO
   3  5,5  | awE
@@ -5922,6 +5961,7 @@
   3  4,5  - spITS
   3  4,5  - suITS
   3  8,6  - tEST
+  3  5,6  - tET
   3  5,5  - tIDe
   3  5,5  - tIDy
   3  5,5  - tITS
@@ -6269,6 +6309,7 @@
   2  8,1  | SwOp
   2  8,1  | SwOt
   2  8,7  - TA
+  2  3,10 | TE
   2  5,5  - TI
   2  6,9  | TI
   2  5,5  - TIc
@@ -7209,7 +7250,17 @@
   2  4,5  - spIT
   2  4,5  - srIS
   2  4,5  - suIT
+  2  5,6  - tE
+  2  5,6  | tE
   2  8,6  - tESt
+  2  5,6  - tEa
+  2  5,6  - tEd
+  2  5,6  - tEe
+  2  5,6  - tEg
+  2  5,6  - tEl
+  2  5,6  - tEn
+  2  5,6  - tEt
+  2  5,6  - tEw
   2  5,5  - tIS
   2  5,5  - tIT
   2  5,5  - tITi
@@ -7255,6 +7306,7 @@
   2  8,2  | tOyO
   2  8,2  | tOyS
   2  8,7  | ta
+  2  8,7  | te
   2  4,5  - thIO
   2  4,5  - thIS
   2  3,5  - tiTI
@@ -7852,6 +7904,7 @@
   1  4,5  - skI
   1  4,5  - srI
   1  8,7  - tA
+  1  3,10 | tE
   1  5,5  - tI
   1  6,9  | tI
   1  5,5  - tIc

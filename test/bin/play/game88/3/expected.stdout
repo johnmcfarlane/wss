@@ -90,6 +90,7 @@
  22  3,7  | dEASH
  22  3,7  | oHIAS
  22  3,7  | rHEAS
+ 22  3,7  | tHESE
  22  3,7  | wISHA
  22  3,7  | yEAHS
  21  3,7  | AISlE
@@ -545,6 +546,7 @@
  16  1,8  - sEISE
  16  2,7  - sHEAS
  16  5,3  | tEAMS
+ 16  3,7  | tEASE
  16  1,8  - tEASE
  16  5,3  | tEEMS
  16  2,5  - yEAHS
@@ -2990,8 +2992,11 @@
   7  3,5  - tAE
   7  3,7  - tEA
   7  3,7  - tEE
+  7  3,7  | tHAE
   7  2,7  - tHE
+  7  3,7  | tHEE
   7  7,3  | tHERES
+  7  3,7  | tHIS
   7 10,4  | uH
   7  7,2  | uSHER
   7  3,7  - vEE
@@ -3466,9 +3471,11 @@
   6  5,3  | tA
   6  2,4  - tABS
   6  7,3  | tAHRS
+  6  5,3  | tE
   6  7,1  | tEASER
   6  7,4  | tERAIS
   6  1,7  - tHAE
+  6  3,7  | tHE
   6  1,7  - tHEE
   6  7,3  | tHERE
   6  7,4  | tHREE
@@ -3957,8 +3964,11 @@
   5  2,4  - sIB
   5  2,4  - tAB
   5  7,3  | tAHR
+  5  3,7  | tEAS
+  5  3,7  | tEES
   5  7,3  | tHIR
   5  6,4  | tHIS
+  5  3,7  | tIES
   5  7,5  | tREES
   5  7,5  | tRIES
   5  7,5  | uRAEI
@@ -4434,15 +4444,23 @@
   4  7,4  | sIRES
   4 10,3  | sIS
   4  6,5  - tA
+  4  3,7  | tAE
   4  7,4  | tARES
   4  7,4  | tARSI
   4 10,3  | tAS
+  4  3,7  | tAS
+  4  6,5  - tE
+  4  6,7  - tE
+  4  3,7  | tEA
   4  7,3  | tEARS
+  4  3,7  | tEE
   4  7,4  | tERAI
   4  7,4  | tERSE
+  4  3,7  | tIE
   4  7,3  | tIERS
   4  7,4  | tIRES
   4 10,3  | tIS
+  4  3,7  | tIS
   4  7,3  | vAIRS
   4 10,3  | vAS
   4  1,5  - vASA
@@ -5157,7 +5175,10 @@
   2  7,4  | sIR
   2  6,5  | sIS
   2  7,5  | sRI
+  2  3,7  | tA
   2  7,4  | tAR
+  2  3,7  | tE
+  2  3,7  | tI
   2  6,5  | tIE
   2  6,5  | tIS
   2  7,4  | vAR
@@ -5222,6 +5243,7 @@
   1  3,7  - rE
   1  6,5  | sI
   1  3,5  - tA
+  1  3,7  - tE
   1  6,5  | tI
   1  3,7  - wE
   1  6,5  | xI

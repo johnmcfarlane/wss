@@ -1927,6 +1927,7 @@
  12  1,7  - sO
  12  3,5  | suBSEA
  12  1,7  - tA
+ 12  1,7  - tE
  12  1,7  - tO
  12  4,3  | tOBIES
  12  5,4  | vOCABS
@@ -2491,6 +2492,7 @@
   9  6,7  - sOBAS
   9  3,5  | suBA
   9  3,5  | suBS
+  9  6,5  - tABES
   9  6,7  - tABES
   9  3,3  | tABu
   9  3,5  | tuBA
@@ -2814,6 +2816,7 @@
   8  6,7  - sOBA
   8  6,7  - sOBS
   8  3,5  | suB
+  8  6,5  - tABS
   8  6,7  - tABS
   8  6,2  | tASSE
   8  6,2  | tEASE
@@ -3602,10 +3605,13 @@
   6  4,5  | sISES
   6  6,7  - sOB
   6  5,4  | sOCA
+  6  6,5  - tAB
   6  6,7  - tAB
   6  5,4  | tACE
   6  5,4  | tACO
+  6  6,5  - tASSE
   6  6,7  - tASSE
+  6  6,5  - tOEAS
   6  6,7  - tOEAS
   6  3,6  | umBO
   6  3,6  | unBE
@@ -3924,12 +3930,18 @@
   5  5,4  | sEC
   5  4,5  | sIB
   5  3,4  | sOuSE
+  5  6,5  - tAOS
   5  6,7  - tAOS
+  5  6,5  - tASS
   5  6,7  - tASS
+  5  6,5  - tEAS
   5  6,7  - tEAS
   5  4,5  | tIES
+  5  6,5  - tOEA
   5  6,7  - tOEA
+  5  6,5  - tOES
   5  6,7  - tOES
+  5  6,5  - tOSS
   5  6,7  - tOSS
   5  3,4  | tOuSE
   5  3,6  | uSES
@@ -4621,13 +4633,18 @@
   3  6,7  - sOS
   3  3,5  | suES
   3  3,5  | suSS
+  3  6,5  - tAE
   3  6,7  - tAE
+  3  6,5  - tAO
   3  6,7  - tAO
+  3  6,5  - tAS
   3  6,7  - tAS
+  3  6,5  - tEA
   3  6,7  - tEA
   3  6,5  | tEAS
   3  6,4  | tEES
   3  6,5  | tEES
+  3  6,5  - tOE
   3  6,7  - tOE
   3  6,4  | tOEA
   3  6,4  | tOES
@@ -4901,14 +4918,18 @@
   2  6,7  - sO
   2  3,4  | sOu
   2  3,5  | suE
+  2  6,5  - tA
   2  6,7  - tA
   2  6,4  | tAE
   2  3,4  | tAu
+  2  6,5  - tE
+  2  6,7  - tE
   2  6,5  | tEA
   2  6,4  | tEE
   2  6,5  | tEE
   2  4,5  | tIE
   2  4,5  | tIS
+  2  6,5  - tO
   2  6,7  - tO
   2  6,4  | tOE
   2  3,6  | uS
@@ -4979,6 +5000,7 @@
   1  4,5  | qI
   1  6,5  | rE
   1  4,5  | sI
+  1  6,5  | tE
   1  4,5  | tI
   1  3,6  | udO
   1  3,6  | ukE

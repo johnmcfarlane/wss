@@ -47,9 +47,11 @@
  12  8,6  | LUNET
  12  5,1  | NOLO
  12  8,10 - TOLA
+ 12  8,8  - TOLU
  12  8,10 - TOOL
  12  8,10 - TOON
  12  8,10 - TUN
+ 12  8,8  - TUNA
  12  8,6  | UNLET
  11  8,5  | ALONE
  11  8,8  - ALTO
@@ -74,6 +76,10 @@
  11  6,5  - NOTAL
  11  6,7  - NOTAL
  11  8,8  - ONTO
+ 11  8,8  - TOLA
+ 11  8,8  - TOOL
+ 11  8,8  - TOON
+ 11  8,8  - TUN
  11  5,1  | UNTO
  10  8,8  - ALT
  10  5,1  | ALTO
@@ -97,13 +103,21 @@
  10  8,8  - ONO
  10  5,1  | ONTO
  10  8,8  - OUT
+ 10  6,5  - TALON
  10  6,7  - TALON
+ 10  8,8  - TAN
  10  8,10 - TAN
+ 10  8,8  - TAU
  10  8,10 - TAU
+ 10  6,5  - TAUON
  10  6,7  - TAUON
+ 10  6,5  - TOLAN
  10  6,7  - TOLAN
+ 10  6,5  - TOLU
  10  6,7  - TOLU
+ 10  8,8  - TON
  10  8,10 - TON
+ 10  6,5  - TONAL
  10  6,7  - TONAL
  10  8,6  | TULE
  10  8,6  | TUNE
@@ -140,12 +154,17 @@
   9  8,8  - OOT
   9  7,8  | OVAL
   9  8,6  | TALE
+  9  8,8  - TAO
   9  8,6  | TOLE
   9  8,6  | TONE
+  9  8,8  - TOO
+  9  6,5  - TOOL
   9  6,7  - TOOL
   9  1,7  - TOOM
+  9  6,5  - TOON
   9  6,7  - TOON
   9  2,8  - TOYO
+  9  6,5  - TUNA
   9  6,7  - TUNA
   9  2,4  - UNGOT
   9  3,2  | UTA
@@ -173,9 +192,12 @@
   8  8,7  | ONE
   8  6,5  - ONTO
   8  1,4  - OUTGO
+  8  8,8  - TA
   8  1,4  - TANGO
   8  5,2  | TAO
   8  8,10 - TAO
+  8  8,8  - TO
+  8  6,5  - TOLA
   8  6,7  - TOLA
   8  1,4  - TONGA
   8  5,2  | TOO
@@ -228,6 +250,7 @@
   7  8,8  | TELA
   7  5,3  | TO
   7  1,4  - TONG
+  7  6,5  - TUN
   7  6,7  - TUN
   7  7,9  | VAT
   6  6,5  - ALT
@@ -260,12 +283,15 @@
   6  6,3  | OATEN
   6  6,5  - ONO
   6  6,5  - OUT
+  6  6,5  - TAN
   6  6,7  - TAN
+  6  6,5  - TAU
   6  6,7  - TAU
   6  8,8  | TEL
   6  8,8  | TEN
   6  8,7  | TOEA
   6  2,4  - TOGA
+  6  6,5  - TON
   6  6,7  - TON
   6  2,4  - TUG
   6  6,3  | TULE
@@ -298,6 +324,7 @@
   5  6,4  | TAEL
   5  2,4  - TAG
   5  6,3  | TALE
+  5  6,5  - TAO
   5  6,7  - TAO
   5  2,3  | TAUT
   5  8,8  | TEA
@@ -305,6 +332,7 @@
   5  2,4  - TOG
   5  6,3  | TOLE
   5  6,3  | TONE
+  5  6,5  - TOO
   5  6,7  - TOO
   5  2,3  | TOUT
   5  2,8  - TOY
@@ -330,10 +358,13 @@
   4  6,4  | ONE
   4  2,4  | OUT
   4  1,5  - TA
+  4  6,5  - TA
   4  6,7  - TA
   4  8,10 - TA
+  4  8,8  | TE
   4  6,5  | TEL
   4  6,5  | TEN
+  4  6,5  - TO
   4  6,7  - TO
   4  8,10 - TO
   4  6,4  | TOEA
@@ -366,3 +397,4 @@
   2  8,9  | ET
   2  6,5  | OE
   2  6,8  | TA
+  2  6,5  | TE

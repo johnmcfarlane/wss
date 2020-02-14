@@ -24,6 +24,7 @@
  50  1,10 - sUQs
  48  9,1  - deV
  48  9,1  - reV
+ 48  9,1  - taV
  45  9,1  | rEVUE
  45  9,1  | rEVUEs
  42  9,1  | VEInUlE
@@ -354,6 +355,7 @@
  21  4,10 - sIEUr
  21  4,10 - sUItE
  21  3,8  | saVE
+ 21  9,1  - taU
  21  3,8  | waVE
  21  9,1  - yoU
  20  8,2  | DEVoUr
@@ -505,6 +507,7 @@
  18  9,1  - oVa
  18  9,1  | pErV
  18  9,1  - rUE
+ 18  9,1  - tUI
  18  3,4  - uBIQuE
  17  8,2  | DaVy
  17  8,2  | DeV
@@ -864,6 +867,7 @@
  15  4,10 - srI
  15  1,10 - suE
  15  4,10 - suE
+ 15  9,1  - tIE
  15  2,10 - tIs
  15  9,1  | vEnUE
  15  2,10 - vIs
@@ -1311,6 +1315,13 @@
  12 10,2  | srI
  12 10,2  | suE
  12  3,8  - tOQuE
+ 12  9,1  - taE
+ 12  9,1  - teE
+ 12  9,1  - thE
+ 12  9,1  - tiE
+ 12  9,1  - toE
+ 12  9,1  - tuI
+ 12  9,1  - tyE
  12  3,9  - uLVa
  12  6,5  | uSQuE
  12 10,1  | usE
@@ -1882,6 +1893,13 @@
   9  9,1  | tEEm
   9  9,1  | tEEn
   9  9,1  | tEEs
+  9  9,1  - tUb
+  9  9,1  - tUg
+  9  9,1  - tUi
+  9  9,1  - tUn
+  9  9,1  - tUp
+  9  9,1  - tUt
+  9  9,1  - tUx
   9  9,1  | vEE
   9  9,1  | vEEp
   9  9,1  | vEEr
@@ -1973,6 +1991,8 @@
   8  6,5  - EnnUI
   8  9,2  | ErVIl
   8  1,2  - GItE
+  8  2,6  | HEme
+  8  2,6  | HEre
   8  2,6  | HIde
   8  2,6  | HIre
   8  2,6  | HadE
@@ -1980,6 +2000,8 @@
   8  2,6  | HamE
   8  2,6  | HarE
   8  2,6  | HatE
+  8  2,6  | HemE
+  8  2,6  | HerE
   8  2,6  | HidE
   8  2,6  | HirE
   8  2,6  | HolE
@@ -2291,6 +2313,8 @@
   8  5,3  | sEnT
   8  5,3  | sEtT
   8  5,3  | sExT
+  8  2,5  | sHEd
+  8  2,5  | sHEs
   8  2,5  | sHIm
   8  2,5  | sHIn
   8  2,5  | sHIt
@@ -2309,6 +2333,8 @@
   8  5,3  | tEnT
   8  5,3  | tEsT
   8  5,3  | tExT
+  8  2,5  | tHEm
+  8  2,5  | tHEn
   8  2,5  | tHIn
   8  2,5  | tHIr
   8  2,5  | tHIs
@@ -2389,6 +2415,13 @@
   7  6,5  - EqUIp
   7  6,5  - EtUI
   7  6,5  - EtUIs
+  7  2,6  | HEh
+  7  2,6  | HEm
+  7  2,6  | HEn
+  7  2,6  | HEr
+  7  2,6  | HEs
+  7  2,6  | HEt
+  7  2,6  | HEx
   7  2,6  | HId
   7  2,6  | HIm
   7  2,6  | HIn
@@ -2798,6 +2831,7 @@
   7  3,8  | sEt
   7  3,8  | sEw
   7  3,8  | sEx
+  7  2,5  | sHE
   7  5,8  | sI
   7  5,8  | sIb
   7  5,8  | sIc
@@ -2822,6 +2856,7 @@
   7  9,3  - sUq
   7  9,3  - saU
   7  9,3  - soU
+  7  3,8  | tE
   7  3,8  | tEa
   7  3,8  | tEd
   7  3,8  | tEe
@@ -2830,6 +2865,7 @@
   7  3,8  | tEn
   7  3,8  | tEt
   7  3,8  | tEw
+  7  2,5  | tHE
   7  9,3  - tIE
   7  9,3  - tUb
   7  9,3  - tUg
@@ -3040,6 +3076,7 @@
   6  1,2  - GIst
   6  1,2  - GIte
   6  1,2  - GIts
+  6  2,6  | HE
   6  2,6  | HI
   6  3,4  - IBEx
   6  3,9  - ILEa
@@ -3297,6 +3334,7 @@
   6  6,6  | SwInE
   6  6,6  | SwIpE
   6  6,6  | SwIvE
+  6  1,7  - TE
   6  1,7  - TI
   6  1,7  - TarO
   6  1,7  - TirO
@@ -3646,8 +3684,26 @@
   6  5,5  | sTEy
   6  5,5  | sTIr
   6  5,5  | sTyE
+  6  9,1  - tE
+  6  5,3  | tE
+  6  9,1  - tEa
+  6  9,1  - tEd
+  6  9,1  - tEe
+  6  9,1  - tEg
+  6  9,1  - tEl
   6  9,1  | tElE
+  6  9,1  - tEn
+  6  9,1  - tEt
+  6  9,1  - tEw
+  6  9,1  - tI
   6  5,3  | tI
+  6  9,1  - tIc
+  6  9,1  - tIe
+  6  9,1  - tIl
+  6  9,1  - tIn
+  6  9,1  - tIp
+  6  9,1  - tIs
+  6  9,1  - tIt
   6  3,9  - uLU
   6  3,9  - uLUs
   6  9,1  - wE
@@ -3971,6 +4027,13 @@
   5  2,6  | Ham
   5  2,6  | Has
   5  2,6  | Hat
+  5  2,6  | Heh
+  5  2,6  | Hem
+  5  2,6  | Hen
+  5  2,6  | Her
+  5  2,6  | Hes
+  5  2,6  | Het
+  5  2,6  | Hex
   5  2,6  | Hid
   5  2,6  | Him
   5  2,6  | Hin
@@ -4180,6 +4243,7 @@
   5  2,8  | dEy
   5  6,4  | dISEUr
   5  6,4  | dISUsE
+  5  3,7  - dOE
   5  3,9  | eEk
   5  3,9  | eEl
   5  5,8  | eaU
@@ -4222,6 +4286,7 @@
   5  2,8  | hEw
   5  2,8  | hEx
   5  2,8  | hEy
+  5  3,7  - hOE
   5  6,7  - hUgE
   5  3,4  - iBEx
   5  3,4  - iBIs
@@ -4293,6 +4358,7 @@
   5  2,8  | rEx
   5  2,5  | rHo
   5  6,4  | rISqUE
+  5  3,7  - rOE
   5  6,4  | rUSInE
   5  2,8  | sEa
   5  2,8  | sEc
@@ -4306,6 +4372,7 @@
   5  2,8  | sEw
   5  2,8  | sEx
   5  2,5  | sHa
+  5  2,5  | sHe
   5  3,9  - sLIEr
   5  3,8  | saU
   5  5,8  | saU
@@ -4319,10 +4386,13 @@
   5  2,8  | tEn
   5  2,8  | tEt
   5  2,8  | tEw
+  5  2,5  | tHe
   5  2,5  | tHo
   5  6,4  | tISsUE
+  5  3,7  - tOE
   5  6,4  | tUShIE
   5  3,8  | taU
+  5  3,7  - wOE
   5  5,8  | yoU
   5  3,5  - zEE
   4  4,4  - Ba
@@ -4568,6 +4638,7 @@
   4  2,9  | Eye
   4  9,2  | EyrIE
   4  2,6  | Ha
+  4  2,6  | He
   4  2,6  | Hi
   4  2,6  | Ho
   4  3,9  - ILea
@@ -4778,6 +4849,7 @@
   4  4,9  - LweI
   4  4,9  - LyrE
   4  4,9  - LysE
+  4  4,7  - OE
   4  4,7  - OI
   4  4,8  - OUrIe
   4  4,8  - OUsEl
@@ -4815,8 +4887,10 @@
   4  6,6  | SUrE
   4  6,6  | SlUE
   4  6,6  | SpUE
+  4  5,6  | TE
   4  5,6  | TI
   4  1,7  - Ta
+  4  1,7  - Te
   4  1,7  - Ti
   4  1,7  - To
   4  6,5  | USE
@@ -5247,6 +5321,7 @@
   4  5,3  | so
   4  9,3  - srI
   4  9,3  - suE
+  4  2,8  | tE
   4  9,3  - tEa
   4  9,3  - tEd
   4  9,3  - tEe
@@ -5268,6 +5343,7 @@
   4  5,3  | ta
   4  9,3  - taE
   4  3,8  | taE
+  4  5,3  | te
   4  9,3  - teE
   4  2,8  | teE
   4  3,8  | teE
@@ -5972,6 +6048,7 @@
   3  3,8  - dOUr
   3  3,8  - dOUx
   3  3,8  - dObIE
+  3  3,7  - dOe
   3  3,8  - dOgIE
   3  3,8  - dOwIE
   3  3,8  - dOxIE
@@ -6086,6 +6163,7 @@
   3  6,7  - hIEs
   3  3,8  - hOIsE
   3  3,8  - hOUr
+  3  3,7  - hOe
   3  3,8  - hOmIE
   3  6,4  | hUSh
   3  6,4  | hUSk
@@ -6364,6 +6442,7 @@
   3  3,8  - rOUp
   3  3,8  - rOUt
   3  3,8  - rOUx
+  3  3,7  - rOe
   3  6,4  | rUSe
   3  6,4  | rUSh
   3  6,4  | rUSk
@@ -6394,6 +6473,16 @@
   3  6,4  | sUSs
   3  5,8  | si
   3  5,8  | so
+  3  3,5  | tAb
+  3  3,5  | tAd
+  3  3,5  | tAg
+  3  3,5  | tAj
+  3  3,5  | tAm
+  3  3,5  | tAn
+  3  3,5  | tAs
+  3  3,5  | tAt
+  3  3,5  | tAw
+  3  9,1  | tE
   3  9,1  | tEa
   3  3,5  - tEa
   3  9,1  | tEd
@@ -6407,13 +6496,19 @@
   3  3,8  - tOIlE
   3  3,8  - tOUr
   3  3,8  - tOUt
+  3  3,7  - tOe
   3  3,8  - tOfU
   3  3,8  - tOlU
   3  3,7  - tOo
   3  3,8  - tOwIE
   3  6,4  | tUSh
   3  6,4  | tUSk
+  3  9,1  - ta
   3  3,8  | ta
+  3  9,1  - te
+  3  3,8  | te
+  3  9,1  - ti
+  3  9,1  - to
   3  6,5  - ulU
   3  5,3  - um
   3  5,3  - up
@@ -6447,6 +6542,7 @@
   3  6,4  | wISEd
   3  6,4  | wISEr
   3  6,4  | wISEs
+  3  3,7  - wOe
   3  3,7  - wOo
   3  6,4  | wUSs
   3  9,1  - we
@@ -6688,6 +6784,7 @@
   2  4,8  - OdEa
   2  4,8  - OdEs
   2  4,8  - OdIc
+  2  4,7  - Oe
   2  4,8  - OgEe
   2  4,8  - OgeE
   2  4,8  - OglE
@@ -6951,6 +7048,7 @@
   2  6,6  | SykE
   2  6,6  | SylI
   2  6,6  | SynE
+  2  5,6  | Te
   2  5,6  | Ti
   2  3,5  | aA
   2  3,5  - aE
@@ -7398,6 +7496,9 @@
   2  3,8  - sOnE
   2  3,8  - sOrE
   2  3,8  - sOrI
+  2  3,5  | tA
+  2  9,3  - tE
+  2  3,5  - tE
   2  6,4  | tESt
   2  9,3  - tI
   2  6,4  | tIS
@@ -7417,6 +7518,7 @@
   2  3,8  - tOrE
   2  3,8  - tOrI
   2  3,8  - tOtE
+  2  2,8  | te
   2  3,9  - uLu
   2  6,5  | uSE
   2  6,5  | uSEd
@@ -8018,6 +8120,7 @@
   1  6,5  | tSk
   1  9,3  - ta
   1  6,4  | taS
+  1  9,3  - te
   1  9,3  - ti
   1  6,4  | tiS
   1  9,3  - to
