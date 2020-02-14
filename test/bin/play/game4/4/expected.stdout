@@ -105,6 +105,7 @@
   7  3,5  - ANE
   7  5,1  - EAR
   7  4,5  - EAT
+  7 10,7  - EN
   7  7,6  | INERT
   7  7,6  | INTER
   7  4,3  - NAE
@@ -146,11 +147,13 @@
   6  4,3  - ATE
   6  3,5  - ATE
   6  6,1  - ER
+  6 10,7  - ER
   6  3,5  - ERA
   6  5,3  | ERNS
   6  6,1  | ERRATA
   6  5,5  - ET
   6  6,7  - ET
+  6 10,7  - ET
   6  3,5  - ETA
   6  7,6  | IRATE
   6  4,1  - NAE
@@ -255,6 +258,7 @@
   4  6,1  | ERN
   4  5,4  | ERST
   4  7,2  | ETA
+  4 10,5  | IDE
   4  6,5  | NAE
   4  7,5  | NIT
   4  6,2  | RAN

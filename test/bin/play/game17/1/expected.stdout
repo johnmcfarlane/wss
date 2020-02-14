@@ -1488,6 +1488,10 @@
  11  8,4  | DuRES
  11  9,5  - EDS
  11  8,2  | ELDeRS
+ 11  6,5  - IDE
+ 11  9,5  - IDE
+ 11  6,7  - IDE
+ 11  9,7  - IDE
  11  3,5  - IDEaL
  11  8,2  | IDLER
  11  8,2  | IDLERs
@@ -1759,6 +1763,8 @@
  10  8,2  | IDLeR
  10  3,5  - IDLeS
  10 11,4  | IDS
+ 10  9,5  - IDe
+ 10  9,7  - IDe
  10  3,5  - IDlES
  10  9,5  - IDs
  10  9,7  - IDs
@@ -2088,6 +2094,8 @@
   9  3,7  - IDEaS
   9  3,5  - IDLE
   9  7,4  | IDOLiSE
+  9  6,5  - IDe
+  9  6,7  - IDe
   9  3,5  - ILEuS
   9  8,5  | IRED
   9  8,5  | IRaDE
@@ -2308,6 +2316,8 @@
   9  3,5  - hIDES
   9  4,5  - hIED
   9  8,4  | hIRED
+  9  6,5  - iDE
+  9  6,7  - iDE
   9  7,4  | iDOLISE
   9 11,4  | iDS
   9  8,5  | iRIDS
@@ -3019,6 +3029,10 @@
   7 10,3  | ISLED
   7  9,5  | ITEmS
   7  4,5  - IcES
+  7  6,5  - IdE
+  7  9,5  - IdE
+  7  6,7  - IdE
+  7  9,7  - IdE
   7  4,5  - IdES
   7  3,5  - IdLE
   7  9,5  - IdS
@@ -3341,6 +3355,8 @@
   7  7,5  | hOLIES
   7  7,5  | hOSED
   7  7,5  | hOSEL
+  7  9,5  - iDE
+  7  9,7  - iDE
   7  3,5  - iDLE
   7  9,5  - iDS
   7  9,7  - iDS
@@ -3574,6 +3590,7 @@
   6 11,5  | En
   6  9,5  - Er
   6 11,5  | Es
+  6  4,5  - IDE
   6  3,5  - IDEa
   6  3,7  - IDEa
   6 10,4  | IDEaL
@@ -4854,6 +4871,7 @@
   5  9,4  | hITS
   5  7,5  | hOISE
   5  7,5  | hOLD
+  5  4,5  - iDE
   5 10,3  | iDLE
   5  7,4  | iDOL
   5  8,5  | iRES
@@ -5173,10 +5191,12 @@
   4  6,3  | ExITS
   4 10,4  | EyED
   4 10,6  | EyED
+  4 10,4  | IDE
   4 10,4  | IDEa
   4 10,4  | IDEm
   4 10,4  | IDEs
   4  7,4  | IDOl
+  4  4,5  - IDe
   4 10,3  | IDlE
   4 10,4  | ILEa
   4 10,4  | ILEx
@@ -5186,6 +5206,7 @@
   4 10,4  | IcED
   4  6,5  - Id
   4  6,7  - Id
+  4  4,5  - IdE
   4 10,3  | IdLE
   4  7,4  | IdOL
   4  6,7  - If
@@ -6289,6 +6310,7 @@
   3  7,5  | hOD
   3  7,5  | hOES
   3  7,5  | hOSE
+  3 10,4  | iDE
   3  9,5  | iTS
   3  5,5  - jE
   3 10,4  | jEES
@@ -6502,6 +6524,7 @@
   2  6,5  | IT
   2  6,5  | ITs
   2 10,4  | IcE
+  2 10,4  | IdE
   2 10,4  | IrE
   2  7,6  | OE
   2  7,6  | OEs
