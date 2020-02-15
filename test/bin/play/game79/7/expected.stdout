@@ -103,6 +103,7 @@
  27  3,7  | WIgHT
  27  3,7  | WItHE
  27  3,7  | WOrTH
+ 26 10,2  | EMO
  26  1,8  - OkEH
  26  1,8  - dHOTI
  26  6,8  - sEI
@@ -156,6 +157,7 @@
  23 10,6  | COMtE
  23 10,6  | COmETH
  23 10,2  | EMe
+ 23 10,2  | EMo
  23  2,6  - HaM
  23  3,8  - eH
  23  2,8  - lOTI
@@ -172,6 +174,7 @@
  22  1,6  - ToOM
  22  1,6  - aTOM
  22 10,2  | eME
+ 22 10,2  | eMO
  21 10,6  | COuTH
  21  8,8  - IsM
  21  1,6  - MHO
@@ -206,6 +209,7 @@
  18 10,6  | CoOTIE
  18  6,1  | DIAZINEs
  18  9,3  - EME
+ 18  9,3  - EMO
  18  4,6  | HAMaTE
  18  4,6  | HAMlET
  18  1,6  - MEaT
@@ -230,6 +234,7 @@
  17 10,6  | COvET
  17 10,6  | COzIE
  17  7,8  - EM
+ 17  1,6  - EMO
  17  1,5  - ETHMOId
  17  8,8  - Es
  17  4,6  | HAME
@@ -319,6 +324,7 @@
  15  4,7  | AMnIO
  15  7,6  | ANTHEM
  15  9,3  - EMe
+ 15  9,3  - EMo
  15  9,3  - EMs
  15  9,3  - EMu
  15  9,3  - ETH
@@ -356,6 +362,7 @@
  15  4,6  | cAMEO
  15 10,2  | eM
  15  7,8  - eM
+ 15  1,6  - eMO
  15  4,6  | mAMIE
  15  4,6  | rAMET
  15  4,6  | rAMIE
@@ -380,7 +387,9 @@
  14  7,6  | ANTHeM
  14  7,6  | ANtHEM
  14  7,8  - EH
+ 14  1,6  - EMo
  14 10,2  | ETa
+ 14 10,2  | EmO
  14  4,5  | ExAM
  14  2,5  - HEMOId
  14  3,5  | HOWdIE
@@ -634,6 +643,7 @@
  11 10,6  | CaMO
  11 10,6  | CoME
  11  4,5  - EMIT
+ 11  1,8  - EMO
  11  5,1  | EMS
  11  4,6  | HAEM
  11  4,6  | HAEMs
@@ -824,6 +834,7 @@
  10  4,5  | dIATOM
  10  1,8  - eME
  10  4,5  - eMIT
+ 10  1,8  - eMO
  10  4,6  | fAH
  10  4,6  | hAH
  10  4,6  | nAH
@@ -880,7 +891,9 @@
   9  4,5  - EMIr
   9  4,5  - EMIt
   9  1,8  - EMe
+  9  1,8  - EMo
   9  1,6  - EgO
+  9  1,6  - EmO
   9  4,6  | HAkIM
   9  4,6  | HArEM
   9  2,8  - HE
@@ -919,6 +932,7 @@
   9  8,1  | OE
   9  4,5  - OMIt
   9  1,1  | SADIsM
+  9 10,3  | TE
   9  4,5  | THArM
   9 10,3  | TI
   9  1,8  - TIEd
@@ -1085,6 +1099,7 @@
   8  7,5  | TANgO
   8  7,5  | TANtO
   8  4,6  | TAmMIE
+  8  7,8  - TE
   8  3,5  - TEIId
   8  2,5  - TEMpI
   8  1,6  - TEa
@@ -1175,6 +1190,7 @@
   7 10,2  | Em
   7  3,8  - Em
   7  4,5  - EmIT
+  7  1,8  - EmO
   7 10,2  | En
   7  3,8  - En
   7 10,2  | Er
@@ -1215,6 +1231,7 @@
   7  4,5  | IMAgO
   7  3,5  - IMpI
   7  1,8  - IcE
+  7  1,8  - IdE
   7  1,8  - IrE
   7  4,6  | MAgOT
   7  4,6  | MAhOE
@@ -1275,6 +1292,7 @@
   7  9,1  - PyE
   7  1,1  | SADHe
   7  1,1  | SADHu
+  7  2,8  - TE
   7  3,5  | TEW
   7  3,5  | TEWs
   7  2,8  - TO
@@ -1290,6 +1308,7 @@
   7 10,3  | Ta
   7  1,8  - TaE
   7  1,8  - TaO
+  7 10,3  | Te
   7  1,8  - TeE
   7  1,8  - ThE
   7  1,8  - ThO
@@ -1385,6 +1404,7 @@
   7  2,6  - sO
   7  3,6  | sWOT
   7  7,5  | tANTO
+  7 10,3  | tE
   7  4,5  | tHAE
   7  4,5  | tHAT
   7 10,3  | tI
@@ -1440,6 +1460,7 @@
   6  9,3  - EkE
   6  3,5  - ElHI
   6  9,3  - EmE
+  6  9,3  - EmO
   6  9,3  - ErE
   6  9,3  - EvE
   6  9,3  - EwE
@@ -1643,6 +1664,8 @@
   6  3,5  - sEMI
   6  5,5  - sIT
   6  2,8  - sO
+  6  2,8  - tE
+  6  7,8  - tE
   6  7,8  - tI
   6  5,5  - tIT
   6  2,8  - tO
@@ -1857,6 +1880,8 @@
   5  3,6  | TWa
   5  3,6  | TWo
   5  7,8  - Ta
+  5  2,8  - Te
+  5  7,8  - Te
   5  4,5  | ThAE
   5  7,8  - Ti
   5  2,8  - To
@@ -2231,6 +2256,7 @@
   2  4,5  | ErA
   2  4,5  | EtA
   2  4,3  | IcE
+  2  4,3  | IdE
   2  4,3  | IrE
   2  4,6  | OAf
   2  4,6  | OAk

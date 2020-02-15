@@ -60,20 +60,26 @@
  25  7,1  - AIL
  25  3,3  - AXLES
  25  9,4  | IXTLES
+ 25  3,7  - SILEX
  24  6,6  | TAXES
  24  6,6  | TAXIS
  24  6,6  | TEXAS
  23  4,3  - AXE
  23  6,7  - AXE
  23  2,5  - AXILE
+ 23  2,7  - AXILE
+ 23  5,7  - HEX
+ 23  4,7  - ILEX
  23  9,4  | IXTLE
  23  3,1  - SHEA
  22  6,3  - AHI
  22  9,7  - AX
+ 22  9,7  - EX
  22  3,3  - HALES
  22  5,3  - LASH
  22  5,7  - LAX
  22  4,3  - LEASH
+ 22  5,7  - LEX
  22  3,3  - SHEAL
  22  3,3  - SHIEL
  22  5,3  - XI
@@ -82,12 +88,14 @@
  21  9,1  | HIES
  21  7,3  - HIS
  21  5,7  - SAX
+ 21  5,7  - SEX
  21  5,7  - SIX
  20  8,1  - AL
  20  6,7  - AX
  20  4,5  - AXILE
  20  3,3  - AXLE
  20  8,1  - EL
+ 20  6,7  - EX
  20  4,3  - HAIL
  20  4,3  - HEAL
  20  7,7  - HEAL
@@ -100,6 +108,7 @@
  19  6,3  - EH
  19  8,4  | HIRSLE
  19  3,5  - LAXES
+ 19  3,7  - LAXES
  19  7,1  | LEX
  19  3,5  - LEXIS
  19  3,7  - LEXIS
@@ -107,6 +116,7 @@
  18  9,1  | AIL
  18  6,3  - ASH
  18  3,5  - AXLES
+ 18  3,7  - AXLES
  18  9,1  | HIE
  18  9,1  | HIS
  18  9,1  | LIES
@@ -146,12 +156,15 @@
  16  7,7  - SEAL
  15  6,3  - AL
  15  4,5  - AXES
+ 15  4,7  - AXES
  15  4,5  - AXIS
  15  4,7  - AXIS
  15  3,5  - AXLE
+ 15  3,7  - AXLE
  15  6,3  - EL
  15  7,5  - HAE
  15  3,5  - HALES
+ 15  3,7  - HALES
  15  8,4  | HARES
  15 10,4  | HEELS
  15  8,4  | HIRES
@@ -209,17 +222,21 @@
  13  3,3  - SALE
  13  4,3  - SHA
  13  2,5  - SHALE
+ 13  2,7  - SHALE
  13  4,3  - SHE
  13  3,3  - SHEA
  13  9,6  | TAXI
  12  9,7  - AH
  12  9,1  | AIS
  12  4,5  - AXE
+ 12  4,7  - AXE
  12 10,6  | EASEL
+ 12  9,7  - EH
  12  5,3  - HA
  12 10,4  | HAE
  12  4,5  - HAIL
  12  3,5  - HALE
+ 12  3,7  - HALE
  12  8,4  | HARE
  12  5,3  - HE
  12  4,5  - HEAL
@@ -295,18 +312,22 @@
  10  8,4  | EARLS
  10  9,4  | EATH
  10  6,5  - EH
+ 10  6,7  - EH
+ 10  9,7  - EL
  10  3,5  - ELHI
  10  3,7  - ELHI
  10  9,5  | ETHS
  10  7,1  - HA
  10  7,5  - HA
  10  4,5  - HAES
+ 10  4,7  - HAES
  10  7,4  | HAOLES
  10  7,1  - HE
  10  7,5  - HE
  10  7,7  - HE
  10  7,1  - HI
  10  4,5  - HIES
+ 10  4,7  - HIES
  10  7,5  | HOLIES
  10  7,5  | HOSEL
  10  5,3  - LA
@@ -334,7 +355,9 @@
  10  9,6  | THIS
   9  5,5  - AIL
   9  2,5  - AISLE
+  9  2,7  - AISLE
   9  4,5  - ALES
+  9  4,7  - ALES
   9  8,5  | ARIELS
   9  8,5  | ARIL
   9  6,2  | BLAST
@@ -351,6 +374,7 @@
   9  5,7  - HAS
   9  9,4  | HATES
   9  5,5  - HES
+  9  5,7  - HES
   9  5,7  - HIE
   9  5,5  - HIS
   9  5,7  - HIS
@@ -359,6 +383,7 @@
   9  8,4  | LARI
   9  8,4  | LARS
   9  3,5  - LASE
+  9  3,7  - LASE
   9  6,4  | LATHES
   9  6,4  | LATHIS
   9  6,4  | LATISH
@@ -369,6 +394,7 @@
   9  4,7  - LEIS
   9  9,1  | LI
   9  4,5  - LIES
+  9  4,7  - LIES
   9  8,4  | LIRA
   9  8,4  | LIRE
   9  7,6  | OX
@@ -409,6 +435,7 @@
   8  6,2  | BEAST
   8 10,5  | EELS
   8  6,5  - EL
+  8  9,7  - ES
   8  7,4  | HAOLE
   8  9,4  | HATE
   8  9,4  | HATS
@@ -423,6 +450,7 @@
   8  8,3  - IS
   8  9,7  - IS
   8  3,5  - ISLE
+  8  3,7  - ISLE
   8  9,2  | ISLET
   8  5,1  - LA
   8  7,5  - LA
@@ -432,7 +460,9 @@
   8  6,4  | LATHE
   8  6,4  | LATHI
   8  6,4  | LATHS
+  8  5,7  - LEI
   8  5,5  - LES
+  8  5,7  - LES
   8  5,7  - LIE
   8  5,5  - LIS
   8  5,7  - LIS
@@ -449,6 +479,7 @@
   8 10,4  | SAE
   8  8,2  | SAL
   8  3,5  - SALE
+  8  3,7  - SALE
   8  4,1  - SEA
   8 10,4  | SEE
   8  8,2  | SEL
@@ -478,8 +509,10 @@
   7  7,2  | EH
   7 10,6  | ELHI
   7  4,5  - HAE
+  7  4,7  - HAE
   7  6,4  | HATES
   7  4,5  - HIE
+  7  4,7  - HIE
   7  7,5  | HOLE
   7  7,5  | HOLS
   7  8,1  | ISLE
@@ -497,11 +530,13 @@
   7  8,6  | RIAL
   7  8,6  | RIEL
   7  5,7  - SAE
+  7  5,7  - SEI
   7  8,2  | SHA
   7  4,5  - SHA
   7  4,7  - SHA
   7  8,2  | SHE
   7  4,5  - SHE
+  7  4,7  - SHE
   7  7,5  | SOLEI
   7  9,6  | TALE
   7  9,6  | TALI
@@ -518,6 +553,7 @@
   6  8,4  | AIRS
   6  9,4  | AITS
   6  4,5  - ALE
+  6  4,7  - ALE
   6  7,4  | ALOES
   6  9,4  | ALT
   6  8,5  | ARES
@@ -535,6 +571,7 @@
   6  7,2  | ELS
   6  8,5  | ERAS
   6  6,5  - ES
+  6  6,7  - ES
   6  9,5  | ETAS
   6  6,5  | ETHS
   6  5,5  - HA
@@ -543,6 +580,7 @@
   6  6,4  | HATE
   6  6,4  | HATS
   6  5,5  - HE
+  6  5,7  - HE
   6  7,1  | HES
   6  9,4  | HET
   6  6,4  | HETS
@@ -564,6 +602,7 @@
   6  4,7  - LEI
   6  7,1  | LEIS
   6  4,5  - LIE
+  6  4,7  - LIE
   6  6,4  | LITAS
   6  7,6  | OILS
   6  7,6  | OLEA
@@ -646,6 +685,7 @@
   5  8,6  | RIA
   5  8,2  | SAE
   5  4,5  - SAE
+  5  4,7  - SAE
   5  8,2  | SEA
   5  4,5  - SEA
   5  4,7  - SEA
@@ -673,6 +713,7 @@
   5  6,6  | TILE
   5  6,6  | TILS
   4  5,5  - AE
+  4  5,7  - AE
   4  5,5  - AI
   4  5,7  - AI
   4  9,4  | AIT
@@ -751,6 +792,7 @@
   3  9,6  | TA
   3  6,6  | TAE
   3  6,6  | TAS
+  3  9,6  | TE
   3  6,6  | TEA
   3  9,6  | TI
   3  6,6  | TIE
@@ -774,4 +816,5 @@
   2 10,4  - SI
   2  7,5  | SO
   2  6,6  | TA
+  2  6,6  | TE
   2  6,6  | TI

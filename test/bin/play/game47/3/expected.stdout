@@ -808,6 +808,7 @@
  14  1,5  - JOIneR
  14  1,4  - JOIntER
  14  4,3  - JONes
+ 14  4,3  - JONgs
  14  4,6  - JOY
  14  4,6  - JOYed
  14  4,6  - JOYs
@@ -871,6 +872,7 @@
  13  5,3  | IdEm
  13  1,4  - InJuRE
  13  2,5  - InJuRE
+ 13  5,3  | ItEm
  13  4,5  - JERId
  13  4,5  - JERIds
  13  4,5  - JERRid
@@ -1064,12 +1066,17 @@
  12  5,1  | ShORe
  12  5,1  | ShOnE
  12  5,1  | ShOrE
+ 12  5,1  | ShOtE
  12  5,1  | SkImO
+ 12  5,1  | SkItE
  12  5,1  | SlIdE
  12  5,1  | SlImE
+ 12  5,1  | SmItE
+ 12  5,1  | SmOtE
  12  5,1  | SpIRe
  12  5,1  | SpInE
  12  5,1  | SpIrE
+ 12  5,1  | SpItE
  12  5,1  | SpORe
  12  5,1  | SpOdE
  12  5,1  | SpOrE
@@ -1230,6 +1237,7 @@
  10  2,6  - EdIfY
  10 10,1  | Eh
  10 10,1  | Em
+ 10  5,3  | EmO
  10  2,6  - EmeRY
  10  2,6  - EnjOY
  10  2,6  - EntRY
@@ -1243,6 +1251,7 @@
  10  9,1  | GrOdIER
  10  5,3  | IRe
  10  2,6  - IRonY
+ 10  5,3  | IdE
  10  5,3  | IrE
  10  2,6  - IrOnY
  10  2,6  - IvOrY
@@ -1757,30 +1766,41 @@
   9  5,1  | ShEw
   9  5,1  | ShIm
   9  5,1  | ShIn
+  9  5,1  | ShIt
   9  5,1  | ShOd
   9  5,1  | ShOo
+  9  5,1  | ShOt
   9  5,1  | ShOw
   9  5,1  | SkEw
   9  5,1  | SkId
   9  5,1  | SkIm
   9  5,1  | SkIn
+  9  5,1  | SkIt
   9  5,1  | SlEd
   9  5,1  | SlEw
   9  5,1  | SlId
   9  5,1  | SlIm
+  9  5,1  | SlIt
   9  5,1  | SlOb
+  9  5,1  | SlOt
   9  5,1  | SlOw
   9  5,1  | SmEw
+  9  5,1  | SmIt
   9  5,1  | SoOn
+  9  5,1  | SoOt
   9  5,1  | SpEd
   9  5,1  | SpEw
   9  5,1  | SpIn
+  9  5,1  | SpIt
+  9  5,1  | SpOt
   9  5,1  | StEm
+  9  5,1  | StEt
   9  5,1  | StEw
   9  5,1  | StEy
   9  5,1  | StIr
   9  5,1  | StOa
   9  5,1  | StOb
+  9  5,1  | StOt
   9  5,1  | StOw
   9  5,4  | aEOn
   9  4,3  - bONIER
@@ -1863,6 +1883,7 @@
   8  7,6  | EmIRs
   8  5,3  | Eme
   8  7,3  | Eme
+  8  5,3  | Emo
   8  7,6  | EnORm
   8  7,6  | EnROl
   8  2,2  - EnvOI
@@ -1875,6 +1896,7 @@
   8  7,3  | Ere
   8  7,6  | ErrOR
   8  8,4  - EtIC
+  8  5,3  | Eta
   8  7,6  | EuRO
   8  7,6  | EuROs
   8  5,3  | Ewe
@@ -1961,6 +1983,7 @@
   8  3,3  - IRONiEs
   8  3,3  - IRONmEn
   8  3,3  - IcONEs
+  8  5,3  | Ide
   8  4,3  - IgNORE
   8  2,3  - IntONER
   8  3,3  - IrONE
@@ -2327,9 +2350,11 @@
   8  4,3  - tENOuR
   8  3,4  - tEREdO
   8  3,3  - tERNIOn
+  8  5,4  | tEaR
   8  7,4  | tEaR
   8  2,2  - tElOI
   8  4,3  - tONIeR
+  8  5,4  | tOmE
   8  2,2  - tOrII
   8  2,3  - tOxINE
   8  8,5  - tREK
@@ -2394,6 +2419,7 @@
   7  5,5  | EmIc
   7  5,5  | EmIr
   7  5,5  | EmIt
+  7  5,5  | EmO
   7  8,4  - EmiC
   7  5,5  | EmiR
   7  7,6  | EmiR
@@ -2406,6 +2432,7 @@
   7  3,3  - ErINgO
   7  7,6  | ErgO
   7  7,3  | Es
+  7  5,3  | Et
   7  7,3  | Et
   7  8,4  - EtiC
   7  7,6  | EtuI
@@ -2563,6 +2590,7 @@
   7  9,5  - IrK
   7  3,3  - IrONeR
   7  3,3  - IroNER
+  7  5,3  | It
   7  8,1  | NEROl
   7  8,1  | NEROli
   7  8,1  | NEROls
@@ -2824,6 +2852,7 @@
   7  2,3  - RusINE
   7  5,1  | SOar
   7  5,1  | SOon
+  7  5,1  | SOot
   7  5,1  | SOur
   7  5,1  | ShoO
   7  5,1  | SluR
@@ -3322,6 +3351,7 @@
   7  4,3  - tENOR
   7  4,3  - tENORs
   7  4,3  - tENsOR
+  7  5,4  | tEa
   7  7,4  | tEa
   7  8,5  - tEaK
   7  7,4  | tEe
@@ -3339,6 +3369,8 @@
   7  4,3  - tONiER
   7  4,3  - tONnER
   7  2,2  - tORiI
+  7  5,4  | tOm
+  7  5,4  | tOo
   7  8,5  - tOoK
   7  2,3  - tRIENe
   7  2,3  - tRIENs
@@ -3350,10 +3382,12 @@
   7  3,3  - tRONE
   7  3,3  - tRONEs
   7  8,5  - tReK
+  7  5,4  | taO
   7  7,4  | teE
   7  2,3  - thRONE
   7  4,3  - tiNIER
   7  4,3  - toNIER
+  7  5,4  | toO
   7  3,3  - toONIE
   7  3,3  - twINER
   7  3,3  - uRINE
@@ -3491,8 +3525,10 @@
   6  7,6  | EmIc
   6  7,6  | EmIr
   6  7,6  | EmIt
+  6  7,6  | EmO
   6  2,4  - EmOtER
   6  5,5  | Eme
+  6  5,5  | Emo
   6  1,4  - EmpIRE
   6  5,5  | Ems
   6  5,5  | Emu
@@ -3736,6 +3772,7 @@
   6  6,2  - IRe
   6  3,3  - IcON
   6  3,3  - IcONs
+  6  6,2  - IdE
   6  4,3  - IgNORe
   6  4,3  - IgNoRE
   6  1,4  - IgnORE
@@ -4267,6 +4304,7 @@
   6  7,6  | apER
   6  5,3  | arE
   6  7,3  | arE
+  6  5,3  | atE
   6  7,3  | atE
   6  3,3  - atONE
   6  5,6  | avER
@@ -4464,6 +4502,7 @@
   6  7,3  | emE
   6  5,5  | emIR
   6  7,6  | emIR
+  6  5,3  | emO
   6  5,3  | erE
   6  7,3  | erE
   6  7,6  | euRO
@@ -4560,6 +4599,7 @@
   6  2,3  - iOdIN
   6  9,5  - iRK
   6  5,3  | iRe
+  6  5,3  | idE
   6  3,3  - imINE
   6  3,3  - imINO
   6  5,3  | irE
@@ -4942,6 +4982,7 @@
   6  5,3  | udO
   6  3,3  - urINE
   6  7,3  | usE
+  6  5,3  | utE
   6  7,3  | utE
   6  3,3  - vEINeR
   6  2,4  - vEIlER
@@ -5106,6 +5147,7 @@
   5  6,4  - EmIR
   5  2,4  - EmOtE
   5  7,6  | Eme
+  5  7,6  | Emo
   5  7,6  | Ems
   5  7,6  | Emu
   5  7,6  | En
@@ -5327,6 +5369,7 @@
   5  3,3  - IRoNe
   5  3,3  - IRoNs
   5  3,3  - IRoNy
+  5  4,4  - IdEE
   5  2,5  - IgnORER
   5  4,4  - InERt
   5  4,3  - InNEd
@@ -6476,6 +6519,7 @@
   5  5,5  | emE
   5  4,4  - emEER
   5  8,4  - emIC
+  5  5,5  | emO
   5  8,4  - epIC
   5  8,4  - etIC
   5  8,4  - exEC
@@ -7608,6 +7652,7 @@
   4  1,4  - EmIgRE
   4  6,4  - EmIr
   4  6,4  - EmIt
+  4  6,4  - EmO
   4  4,6  - EmYd
   4  3,6  - EmmY
   4  4,3  - EnNuI
@@ -7864,10 +7909,13 @@
   4  4,6  - IcY
   4  3,6  - IckY
   4  3,3  - IcoN
+  4  4,4  - IdE
   4  4,4  - IdEa
+  4  4,4  - IdEe
   4  4,4  - IdEm
   4  4,4  - IdEs
   4  4,6  - IdYl
+  4  6,2  - Ide
   4  3,6  - IdlY
   4  3,6  - IffY
   4  2,5  - IgnORE
@@ -9076,6 +9124,7 @@
   4  7,6  | ekE
   4  5,5  | em
   4  7,6  | emE
+  4  7,6  | emO
   4  7,6  | erE
   4  4,3  - erNE
   4  7,6  | erR
@@ -10065,6 +10114,8 @@
   4  3,5  - stORER
   4  4,6  - stYE
   4  4,3  - syNE
+  4  5,4  | tE
+  4  7,4  | tE
   4  4,3  - tEN
   4  4,3  - tENd
   4  4,3  - tENs
@@ -10100,6 +10151,7 @@
   4  3,4  - tIrE
   4  2,5  - tItER
   4  3,6  - tIvY
+  4  5,4  | tO
   4  4,3  - tON
   4  4,3  - tONe
   4  4,3  - tONg
@@ -10405,6 +10457,7 @@
   3  3,4  - EldER
   3  3,2  - ElhI
   3  3,4  - ElvER
+  3  9,3  - EmO
   3  3,4  - EmbER
   3  3,4  - EmeER
   3  3,5  - EmiR
@@ -10507,6 +10560,7 @@
   3  2,5  - IciER
   3  3,4  - IckER
   3  2,5  - IckER
+  3  3,4  - IdEE
   3  3,4  - IdlER
   3  2,5  - IdlER
   3  3,4  - IllER
@@ -11074,6 +11128,7 @@
   3  7,3  | as
   3  5,6  | as
   3  7,6  | as
+  3  5,3  | at
   3  7,3  | at
   3  5,6  | at
   3  7,6  | at
@@ -11316,6 +11371,7 @@
   3  4,5  - erROR
   3  7,3  | es
   3  7,6  | es
+  3  5,3  | et
   3  7,3  | et
   3  7,6  | et
   3  7,3  | ex
@@ -11485,6 +11541,7 @@
   3  5,3  | id
   3  5,3  | if
   3  5,3  | in
+  3  5,3  | it
   3  4,6  - ivY
   3  4,4  - jEER
   3  4,4  - jEERs
@@ -11976,6 +12033,7 @@
   3  5,3  | un
   3  7,3  | un
   3  7,3  | us
+  3  5,3  | ut
   3  7,3  | ut
   3  3,5  - utERI
   3  4,4  - vEER
@@ -12164,6 +12222,7 @@
   2  5,5  - IRks
   2  5,5  - IRon
   2  6,2  - Id
+  2  3,4  - IdeE
   2  3,4  - IdlE
   2  6,2  - If
   2  6,2  - In
@@ -13119,6 +13178,8 @@
   2  5,5  - iRId
   2  5,5  - iRIs
   2  5,5  - iROn
+  2  3,4  - idEE
+  2  4,4  - idEE
   2  4,3  - inN
   2  8,3  - inRO
   2  4,5  - inRO
@@ -13634,11 +13695,14 @@
   2  5,5  - tReE
   2  5,5  - tRiO
   2  5,5  - tRuE
+  2  5,4  | ta
   2  4,3  - taN
   2  3,4  - taRE
   2  4,5  - taRE
   2  8,3  - taRO
   2  4,5  - taRO
+  2  5,4  | te
+  2  7,4  | te
   2  4,3  - teN
   2  3,4  - thEE
   2  4,4  - thEE
@@ -13653,6 +13717,7 @@
   2  4,5  - tiRE
   2  8,3  - tiRO
   2  4,5  - tiRO
+  2  5,4  | to
   2  4,3  - toN
   2  3,4  - toRE
   2  4,5  - toRE
@@ -13842,6 +13907,7 @@
   1  6,4  - Els
   1  6,4  - Em
   1  6,4  - Eme
+  1  6,4  - Emo
   1  6,4  - Ems
   1  6,4  - Emu
   1  6,4  - En
@@ -14007,6 +14073,7 @@
   1  9,3  - egO
   1  4,4  - ekE
   1  4,4  - emE
+  1  9,3  - emO
   1  4,4  - erE
   1  4,5  - erR
   1  4,4  - evE
@@ -14070,6 +14137,7 @@
   1  5,5  - iRe
   1  5,5  - iRk
   1  4,4  - icE
+  1  4,4  - idE
   1  4,4  - irE
   1  5,4  - jE
   1  5,4  - jEe
@@ -14218,6 +14286,7 @@
   1  4,4  - shE
   1  4,5  - siR
   1  4,4  - suE
+  1  5,4  - tE
   1  5,4  - tEa
   1  5,4  - tEd
   1  5,4  - tEe

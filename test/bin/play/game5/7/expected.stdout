@@ -479,6 +479,7 @@
  12  4,8  - HaEN
  12  4,8  - HiSN
  12 11,1  | LOWE
+ 12  8,8  | OES
  12  8,8  | OOhS
  12  8,8  | OOpS
  12  8,8  | OOtS
@@ -506,7 +507,9 @@
  11 10,1  | AGENESES
  11  7,4  | AMOUNTs
  11  8,8  | EOn
+ 11  8,8  | OE
  11  6,8  | OES
+ 11  8,8  | OEs
  11  8,8  | OOh
  11 11,6  | OOhS
  11 11,6  | OOpS
@@ -554,6 +557,7 @@
  10  5,9  - HaTES
  10 11,1  | LoWE
  10  3,8  - OcHONE
+ 10  8,8  | OeS
  10  4,8  - OzONES
  10  5,8  - SHNOOk
  10  3,9  - SHOOTEr
@@ -600,6 +604,7 @@
   9  7,8  - NOHOw
   9  7,8  - NOSH
   9  6,8  | OEs
+  9  8,8  | Oe
   9  8,8  | Oi
   9  4,8  - OmENS
   9  4,8  - OpENS
@@ -872,6 +877,7 @@
   7  6,9  | uH
   7  5,8  - zONES
   7  4,8  - zOONS
+  6  8,9  | EH
   6  6,8  - ENOl
   6  6,8  - ENOw
   6  6,8  - ENS
@@ -881,16 +887,19 @@
   6  6,9  - ETHoS
   6  5,9  - EaTH
   6  4,8  - EbON
+  6  8,9  | EdH
   6  6,9  | EdS
   6  6,9  | EfS
   6  6,9  | EgO
   6  6,9  | ElS
+  6  6,9  | EmO
   6  6,9  | EmS
   6  6,9  | EnS
   6  5,8  - EoNS
   6  5,8  - ErNS
   6  6,9  | ErS
   6  6,9  | EsS
+  6  8,9  | EtH
   6  4,8  - ExON
   6  5,8  - HEN
   6  5,8  - HENs
@@ -1031,6 +1040,7 @@
   6  5,8  - mONO
   6  5,8  - mONS
   6  5,8  - nONE
+  6  8,8  | oES
   6  6,8  - oNES
   6  6,8  - oNOS
   6  5,8  - pENS
@@ -1122,6 +1132,7 @@
   5  7,9  - TOpH
   5  7,9  - TOsH
   5  6,8  | aE
+  5  8,8  | aE
   5  8,9  | aHS
   5  6,8  - aNE
   5  8,9  | aSH
@@ -1156,6 +1167,7 @@
   5  5,9  - mOTH
   5  5,9  - nOTES
   5  6,8  | oE
+  5  8,8  | oE
   5 11,6  | oHO
   5  8,9  | oHO
   5 11,6  | oHS
@@ -1184,19 +1196,31 @@
   4  6,8  - ENgS
   4  5,8  - EON
   4  5,8  - EONs
+  4  8,9  | EOn
+  4  8,9  | ES
   4  5,8  - ESNe
+  4  8,9  | ESs
   4  6,9  - ETaS
   4  6,9  - EThS
   4  5,9  - EaTS
   4  6,9  | Ed
+  4  8,9  | EdS
   4  6,9  | Ef
+  4  8,9  | EfS
   4  5,9  - EfTS
+  4  8,9  | EgO
   4  6,9  | Eh
   4  6,9  | El
+  4  8,9  | ElS
   4  6,9  | Em
+  4  8,9  | EmO
+  4  8,9  | EmS
   4  6,9  | En
+  4  8,9  | EnS
   4  6,9  | Er
+  4  8,9  | ErS
   4  6,9  | Es
+  4  8,9  | EsS
   4  6,9  | Et
   4  6,9  | Ex
   4  7,8  - NaOS
@@ -1341,6 +1365,7 @@
   4  4,9  - cOOT
   4  4,9  - cOST
   4  4,9  - dOST
+  4  8,9  | eH
   4  6,9  - eTH
   4  4,9  - fEST
   4  4,9  - fOOT
@@ -1390,10 +1415,20 @@
   3  6,8  - ENs
   3  4,9  - EaST
   3  5,9  - EaT
+  3  8,9  | Ed
+  3  8,9  | Ef
   3  5,9  - EfT
+  3  8,9  | Eh
+  3  8,9  | El
+  3  8,9  | Em
+  3  8,9  | En
   3  5,8  - EoN
+  3  8,9  | Er
   3  5,8  - ErN
   3  4,9  - ErST
+  3  8,9  | Es
+  3  8,9  | Et
+  3  8,9  | Ex
   3  7,8  - NaE
   3  7,8  - NeE
   3  7,8  - NoO
@@ -1589,6 +1624,7 @@
   2  7,8  - Nu
   2 10,6  - SO
   2  6,9  - STy
+  2  7,9  - TE
   2  7,9  - TEa
   2  7,9  - TEd
   2  7,9  - TEe
@@ -1619,6 +1655,7 @@
   2  5,9  - cOT
   2  5,9  - dOT
   2  6,8  - eN
+  2  8,9  | eS
   2  5,9  - fET
   2  5,9  - gET
   2  5,9  - gOT
@@ -1664,6 +1701,7 @@
   1 10,6  - Si
   1 10,6  - So
   1  7,9  - Ta
+  1  7,9  - Te
   1  7,9  - Ti
   1  7,9  - To
   1  6,9  - aT

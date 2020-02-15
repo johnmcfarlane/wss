@@ -322,6 +322,7 @@
  28  1,3  - rEASON
  28  1,3  - sEASON
  28  5,10 - sNAILS
+ 28 10,5  | tAENIA
  28  5,10 - vINALS
  28  1,3  - wEASON
  27  6,9  - ANELeS
@@ -554,6 +555,7 @@
  24  1,2  - wINO
  24  1,2  - zINE
  24  1,2  - zONE
+ 23  8,2  | COINMAtE
  23  8,6  | MANa
  23  8,6  | MANe
  23  8,6  | MINa
@@ -999,10 +1001,13 @@
  18  9,1  | ERNe
  18  9,1  | ERNs
  18  2,2  - EgO
+ 18  2,2  - EmO
+ 18  8,4  | INMAtE
  18  9,1  | IRON
  18  7,9  - ISLEd
  18  7,9  - ISLEs
  18  7,9  - ISLEt
+ 18  2,2  - IdE
  18  7,9  - IdLES
  18  2,2  - IrE
  18  7,9  - IsLES
@@ -1144,10 +1149,12 @@
  17  6,7  - OpINE
  17  4,5  - OvINE
  17  3,3  - OwSEN
+ 17  8,4  | SAMItE
  17  5,5  - SANE
  17  2,3  - SEItAN
  17  8,4  | SEMInA
  17  5,5  - SINE
+ 17  8,4  | SOMItE
  17  5,5  - SONE
  17  4,5  - ScENA
  17  4,5  - ScONE
@@ -2091,6 +2098,8 @@
  14  4,3  - SIgN
  14  4,10 - SIgNAL
  14  4,10 - SImNEL
+ 14  8,5  | SMItE
+ 14  8,5  | SMOtE
  14  5,10 - SNAIL
  14  4,10 - SNIvEL
  14  1,2  - SO
@@ -2322,14 +2331,18 @@
  13  8,6  | MAdE
  13  8,6  | MAnE
  13  8,6  | MArE
+ 13  8,6  | MAtE
+ 13  8,6  | MEtA
  13  8,6  | MImE
  13  8,6  | MInA
  13  8,6  | MInE
  13  8,6  | MIrE
+ 13  8,6  | MItE
  13  8,6  | MOdE
  13  8,6  | MOmE
  13  8,6  | MOrA
  13  8,6  | MOrE
+ 13  8,6  | MOtE
  13  8,6  | MoA
  13  8,6  | MoO
  13  2,7  - NAIvES
@@ -2862,6 +2875,7 @@
  12  9,1  | ERS
  12  9,1  | ERSt
  12  4,10 - ESpIAL
+ 12  6,5  - EmO
  12  4,3  - EoNS
  12  4,8  - EoSINE
  12  4,3  - ErNS
@@ -3165,6 +3179,7 @@
  12  9,1  | sRIS
  12  1,2  - tA
  12  7,10 - tALON
+ 12  1,2  - tE
  12  1,2  - tI
  12  1,2  - tO
  12  3,3  - tOEAS
@@ -3908,6 +3923,7 @@
  10  4,3  - EArS
  10  8,10 - ELaN
  10  8,5  | EMIr
+ 10  8,5  | EMIt
  10  6,5  - EN
  10  6,7  - EN
  10  2,5  - ENOkI
@@ -4059,6 +4075,7 @@
  10  8,10 - OLES
  10  8,5  | OMEn
  10  8,5  | OMEr
+ 10  8,5  | OMIt
  10  6,5  - ON
  10  6,7  - ON
  10  3,3  - ONES
@@ -4176,6 +4193,7 @@
  10  5,10 - SIsAL
  10  8,10 - SLOE
  10  8,5  | SMEw
+ 10  8,5  | SMIt
  10  2,3  - SNAkE
  10  2,5  - SNAkE
  10  2,7  - SNAkE
@@ -4733,6 +4751,7 @@
   9  3,3  - EArN
   9  8,9  | EAu
   9  2,3  - EIdOS
+  9  8,5  | EMO
   9  7,8  - ENEmA
   9  5,9  - ENISLe
   9  6,9  - ENOLS
@@ -4869,11 +4888,13 @@
   9  8,6  | MAd
   9  8,6  | MAn
   9  8,6  | MAr
+  9  8,6  | MAt
   9  8,6  | MAw
   9  8,6  | MAy
   9  8,6  | MEd
   9  8,6  | MEm
   9  8,6  | MEn
+  9  8,6  | MEt
   9  8,6  | MEw
   9  8,6  | MIb
   9  8,6  | MId
@@ -4886,6 +4907,7 @@
   9  8,6  | MOn
   9  8,6  | MOo
   9  8,6  | MOr
+  9  8,6  | MOt
   9  8,6  | MOw
   9 10,8  | NA
   9  2,5  - NAEvI
@@ -5580,12 +5602,15 @@
   9  3,3  - sONS
   9  9,1  | sRI
   9  7,5  | sUASION
+  9  8,8  | tAE
   9  3,3  - tAIN
   9  8,4  | tAME
   9  3,3  - tANS
   9  5,4  - tANSIES
+  9 10,5  | tAOS
   9  4,7  - tAOS
   9  5,3  - tAS
+  9  8,8  | tEA
   9  4,9  - tENAIL
   9  2,5  - tENIA
   9  3,3  - tENS
@@ -6585,6 +6610,7 @@
   8  7,10 - eELS
   8  8,10 - eLSE
   8  8,5  | eME
+  8  8,5  | eMO
   8  6,5  - eN
   8  6,7  - eN
   8  5,9  - eNISLE
@@ -7129,6 +7155,7 @@
   7  3,3  - EAtS
   7  5,9  - EIdOLA
   7  8,5  | EMe
+  7  8,5  | EMo
   7  8,5  | EMu
   7  6,4  | ENDASh
   7  6,4  | ENDOwS
@@ -9151,8 +9178,10 @@
   6  6,9  - sOILS
   6  4,3  - sOS
   6  4,3  - tAE
+  6 10,5  | tAE
   6  6,9  - tAELS
   6  6,9  - tAILS
+  6 10,5  | tAO
   6  4,3  - tAS
   6  7,11 - tASSE
   6  7,4  | tAUON
@@ -9668,6 +9697,8 @@
   5  4,3  - ElS
   5  6,8  - ElSE
   5  6,3  - Em
+  5  4,5  - EmO
+  5  4,7  - EmO
   5  4,3  - EmS
   5  6,3  - En
   5  6,9  - EnOLS
@@ -9685,6 +9716,7 @@
   5  4,3  - EsS
   5  6,3  - Et
   5  4,3  - EtA
+  5 10,4  | EtA
   5  4,5  - EtA
   5  8,4  - EtAS
   5  7,4  - EtNAS
@@ -9725,6 +9757,10 @@
   5  8,4  - IcES
   5  7,4  - IcONS
   5  5,11 - IcONS
+  5  4,3  - IdE
+  5  4,5  - IdE
+  5  4,7  - IdE
+  5  6,8  - IdEE
   5  8,4  - IdES
   5  7,9  - IdLE
   5  6,9  - IdOLS
@@ -10721,6 +10757,7 @@
   5  5,11 - sONES
   5  7,4  | sOUSE
   5  7,5  | sUNS
+  5  8,8  | tA
   5 10,8  | tA
   5  4,5  - tAE
   5  4,7  - tAE
@@ -10730,6 +10767,8 @@
   5  8,4  | tAM
   5  4,5  - tAO
   5  4,7  - tAO
+  5  3,2  - tE
+  5  8,8  | tE
   5  4,5  - tEA
   5  6,9  - tEAL
   5  7,8  - tEES
@@ -11172,12 +11211,15 @@
   4  5,11 - EyASS
   4  6,11 - EyASS
   4  7,8  - EyEN
+  4  6,5  | IDE
   4  6,5  | IDEa
+  4  6,5  | IDEe
   4  6,5  | IDEm
   4  6,5  | IDEs
   4  6,5  | IDOl
   4  6,5  | IDS
   4  6,5  | IDeA
+  4  6,5  | IDeE
   4  6,5  | IDeS
   4  6,5  | IDlE
   4  9,4  - INS
@@ -11986,6 +12028,9 @@
   4  6,11 - tANS
   4  6,11 - tASSE
   4  7,4  | tAUS
+  4  5,3  - tE
+  4  5,5  - tE
+  4  5,7  - tE
   4  6,4  | tEDS
   4  7,8  - tEE
   4  8,8  - tEEN
@@ -12401,6 +12446,7 @@
   3  6,11 - EyAS
   3  7,8  - EyES
   3  6,5  | ID
+  3  6,5  | IDe
   3  6,5  | IDs
   3  8,9  - ILk
   3  8,9  - ILl
@@ -12410,6 +12456,7 @@
   3  7,8  - IcES
   3  6,11 - IcES
   3  7,8  - IdEA
+  3  7,8  - IdEE
   3  7,8  - IdES
   3  6,11 - IdES
   3  7,8  - IlEA
@@ -12779,6 +12826,7 @@
   3  6,11 - hOES
   3  7,11 - hOSE
   3  7,5  | hUE
+  3  6,5  | iDE
   3  6,5  | iDS
   3  9,4  - iNS
   3  7,11 - iNS
@@ -13122,6 +13170,8 @@
   2  7,2  | EmE
   2  7,8  - EmE
   2  9,8  - EmE
+  2  7,2  | EmO
+  2  9,8  - EmO
   2  7,2  | EmS
   2  9,4  - EmS
   2  9,8  - EmS
@@ -13158,6 +13208,7 @@
   2  8,11 - IS
   2  8,11 - ISm
   2  7,8  - IcE
+  2  7,8  - IdE
   2  9,4  - IdS
   2  7,11 - IdS
   2  9,4  - IfS
@@ -13400,8 +13451,10 @@
   2  7,11 - sIS
   2  9,4  - sOS
   2  7,11 - sOS
+  2 10,5  | tA
   2  9,4  - tAS
   2  7,11 - tAS
+  2 10,5  - tE
   2  8,8  - tEA
   2  8,8  - tEE
   2  9,4  - tIS
@@ -13490,6 +13543,7 @@
   1 10,4  - oS
   1  8,11 - oS
   1  8,8  - rE
+  1  8,8  - tE
   1 10,4  - uS
   1  8,11 - uS
   1  8,8  - wE

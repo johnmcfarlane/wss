@@ -132,6 +132,7 @@
  21  7,3  | FErE
  21  5,5  | FErREL
  21  7,3  | FEtA
+ 21  5,5  | FEtAL
  21  7,3  | FEtE
  21  1,8  - FLAREs
  21  5,2  | FLAkE
@@ -395,6 +396,7 @@
  17  5,5  | FAmE
  17  5,5  | FAnE
  17  5,5  | FArE
+ 17  5,5  | FAtE
  17  5,2  | FEAL
  17  7,3  | FEE
  17  7,2  | FEEL
@@ -403,6 +405,8 @@
  17  5,5  | FEaR
  17  5,5  | FEmE
  17  5,5  | FErE
+ 17  5,5  | FEtA
+ 17  5,5  | FEtE
  17  7,2  | FLEA
  17  7,2  | FLEE
  17  7,1  | FLEER
@@ -503,6 +507,7 @@
  16  5,5  | FAh
  16  5,5  | FAn
  16  5,5  | FAr
+ 16  5,5  | FAt
  16  5,5  | FAy
  16  5,1  | FERaL
  16  5,1  | FEcAL
@@ -513,6 +518,7 @@
  16  5,5  | FEn
  16  5,5  | FEr
  16  5,1  | FErAL
+ 16  5,5  | FEt
  16  5,1  | FEtAL
  16  5,5  | FEw
  16  5,5  | FEy
@@ -719,6 +725,7 @@
  15  5,5  | LArEE
  15  7,5  | LArEE
  15  7,5  | LAsER
+ 15  5,5  | LAtER
  15  7,5  | LAtER
  15  7,5  | LAxER
  15  5,5  | LAyER
@@ -1218,6 +1225,7 @@
  13  5,5  | LAnE
  13  7,5  | LAnE
  13  7,5  | LAsE
+ 13  5,5  | LAtE
  13  7,5  | LAtE
  13  7,3  | LEA
  13  7,3  | LEE
@@ -1565,6 +1573,7 @@
  12  7,1  | LArEE
  12  7,5  | LAs
  12  7,1  | LAsER
+ 12  5,5  | LAt
  12  7,5  | LAt
  12  7,1  | LAtER
  12  7,1  | LAvER
@@ -1582,6 +1591,7 @@
  12  7,1  | LEgER
  12  7,1  | LEpER
  12  7,5  | LEs
+ 12  5,5  | LEt
  12  7,5  | LEt
  12  7,1  | LEvER
  12  7,5  | LEx
@@ -2877,6 +2887,7 @@
   8  5,7  | AnELE
   8  5,6  | ArE
   8  7,6  | ArE
+  8  5,6  | AtE
   8  7,6  | AtE
   8  5,6  | AwE
   8  7,6  | AxE
@@ -2898,6 +2909,7 @@
   8  7,6  | ErE
   8  5,6  | ErR
   8  7,6  | ErR
+  8  5,6  | EtA
   8  7,6  | EtA
   8  5,6  | EwE
   8  5,6  | EyE
@@ -3211,10 +3223,13 @@
   8  7,2  | sEE
   8  7,7  | sERF
   8  7,2  | tAE
+  8  5,7  | tALER
   8  7,7  | tALER
   8  5,2  | tEA
   8  7,2  | tEE
+  8  5,7  | tELAE
   8  7,7  | tELAE
+  8  5,7  | tREF
   8  7,7  | tREF
   8  5,4  - tWAE
   8  5,4  - tWEE
@@ -3323,6 +3338,7 @@
   7  4,6  - ArMER
   7  7,6  | As
   7  5,4  | At
+  7  5,6  | At
   7  7,6  | At
   7  7,2  | AtE
   7  7,2  | AvE
@@ -3389,6 +3405,7 @@
   7  7,4  | Es
   7  7,6  | Es
   7  7,4  | Et
+  7  5,6  | Et
   7  7,6  | Et
   7  5,2  | EtA
   7  7,2  | EvE
@@ -3849,9 +3866,14 @@
   7  5,6  - sMEAR
   7  5,5  | tA
   7  7,5  | tA
+  7  5,7  | tALE
   7  7,7  | tALE
   7  4,6  - tAMER
+  7  5,5  | tE
+  7  7,5  | tE
+  7  5,7  | tELA
   7  7,7  | tELA
+  7  5,7  | tELE
   7  7,7  | tELE
   7  4,5  - vEALER
   7  2,7  - vEALER
@@ -4435,14 +4457,19 @@
   6  4,6  - sEME
   6  5,7  - sERF
   6  5,3  | tA
+  6  5,7  | tAEL
   6  7,7  | tAEL
   6  5,5  - tALAR
   6  5,5  - tALER
   6  4,6  - tAME
+  6  7,3  | tE
+  6  5,7  | tEAL
   6  7,7  | tEAL
   6  3,6  - tEAM
+  6  5,7  | tEEL
   6  7,7  | tEEL
   6  3,6  - tEEM
+  6  5,7  | tEL
   6  7,7  | tEL
   6  2,7  - tELAE
   6  5,7  - tELAE
@@ -4592,6 +4619,7 @@
   5  6,7  - ELsE
   5  5,6  - EM
   5  5,6  - EMe
+  5  5,6  - EMo
   5  5,6  - EMs
   5  5,6  - EMu
   5  2,7  - ERAsE
@@ -4915,11 +4943,14 @@
   5  3,5  - tALAR
   5  3,7  - tALER
   5  4,6  - tAM
+  5  5,7  | tARE
   5  7,7  | tARE
   5  4,4  - tAW
+  5  5,7  | tEAR
   5  7,7  | tEAR
   5  3,5  - tELAE
   5  4,4  - tEW
+  5  5,7  | tREE
   5  7,7  | tREE
   5  5,4  - tWA
   5  3,5  - uREAL
@@ -5332,6 +5363,7 @@
   4  4,7  - sEEL
   4  5,7  - sEEL
   4  7,7  | sER
+  4  5,7  | tAE
   4  7,7  | tAE
   4  5,5  - tAEL
   4  4,7  - tAEL
@@ -5339,10 +5371,13 @@
   4  5,5  - tALA
   4  5,5  - tALE
   4  3,7  - tALE
+  4  5,7  | tAR
   4  7,7  | tAR
+  4  5,7  | tEA
   4  7,7  | tEA
   4  4,5  - tEAL
   4  5,7  - tEAL
+  4  5,7  | tEE
   4  7,7  | tEE
   4  4,7  - tEEL
   4  5,7  - tEEL
@@ -5878,10 +5913,13 @@
   2  4,7  - sEE
   2  5,7  - sEE
   2  5,7  - sER
+  2  5,7  | tA
   2  7,7  | tA
   2  5,5  - tAE
   2  4,7  - tAE
   2  5,5  - tAR
+  2  5,7  | tE
+  2  7,7  | tE
   2  4,5  - tEA
   2  5,7  - tEA
   2  4,7  - tEE
@@ -5949,6 +5987,7 @@
   1  5,5  - pA
   1  5,7  - rE
   1  5,5  - tA
+  1  5,7  - tE
   1  5,7  - wE
   1  5,5  - yA
   1  5,7  - yE

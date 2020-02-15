@@ -560,6 +560,8 @@
  21  9,5  | dESISTs
  21  8,5  - eMe
  21  8,7  - eMe
+ 21  8,5  - eMo
+ 21  8,7  - eMo
  21  9,5  | hESSITe
  21  9,5  | jESuITS
  21  9,5  | kEToSIS
@@ -571,6 +573,7 @@
  21  9,5  | wESkITS
  20  9,5  - MaS
  20  9,5  - MaT
+ 20  6,5  - MauT
  20  9,5  - MeT
  20  9,7  - MeT
  20  6,7  - MeaT
@@ -582,8 +585,10 @@
  20  9,5  - MoT
  20  9,7  - MoT
  20  6,7  - MoaS
+ 20  6,5  - MoaT
  20  6,7  - MoaT
  20  6,7  - MooS
+ 20  6,5  - MooT
  20  6,7  - MooT
  20  3,7  - STIMe
  19  8,4  | MINSTer
@@ -1282,6 +1287,7 @@
  15  9,6  | ExiSTS
  15  8,3  | IMiNe
  15  8,3  | IMiNo
+ 15  8,5  - ITeM
  15  8,4  | MINa
  15  8,4  | MINae
  15  8,4  | MINas
@@ -1410,6 +1416,7 @@
  15  9,1  | bISTrE
  15  8,2  | cuMIN
  15  8,4  | deNIM
+ 15  5,5  - eMo
  15  8,2  | gaMIN
  15  8,2  | heMIN
  15  8,3  | iMINe
@@ -1808,6 +1815,7 @@
  14  6,1  | ahIMSA
  14  6,2  | anIMAS
  14  6,2  | bITMAp
+ 14  6,5  - baIT
  14  6,5  | cAMISa
  14  6,5  | cAMISe
  14  6,5  | cAMaSS
@@ -1888,6 +1896,7 @@
  14  6,2  | tITMAn
  14  9,4  | tMESIS
  14 10,2  | tiMID
+ 14  6,5  - toIT
  14 10,2  | tuMID
  14  6,1  | ulTIMA
  14  6,5  | zAMIaS
@@ -2067,8 +2076,10 @@
  13  7,6  | WhiMS
  13  7,6  | WorMS
  13  4,7  - aIM
+ 13  7,5  - aIT
  13  9,2  | aMuSES
  13  9,3  | aThEISM
+ 13  8,5  - aToM
  13  8,7  - aToM
  13  9,4  | agEISMS
  13  9,5  | bEMIST
@@ -2093,6 +2104,7 @@
  13  4,7  - hIM
  13  5,4  | hoLISMS
  13  9,2  | iMmIES
+ 13  8,5  - iTeM
  13  9,2  | kISMEtS
  13  9,2  | kIsMET
  13  9,2  | kiSMETS
@@ -2457,6 +2469,7 @@
  12  9,2  | TheMES
  12  9,2  | ThyMES
  12  9,3  | TiMErS
+ 12  6,5  - ToIt
  12  4,7  - ToM
  12  9,3  | TotEMS
  12  9,2  | TrIMErS
@@ -2606,10 +2619,12 @@
  11  9,3  | IMpETuS
  11  5,2  | IMpeL
  11  2,7  - IMpi
+ 11  8,5  - ITem
  11  8,5  - IdeM
  11  8,5  - ImaM
  11  9,3  | InSEaMS
  11  9,4  | ItEMS
+ 11  8,5  - IteM
  11  5,6  | LoaMS
  11  5,6  | LooMS
  11  9,5  | MEIny
@@ -2898,6 +2913,7 @@
  11  9,4  | TMEsIs
  11  1,7  - TMeSIs
  11  1,7  - TMeSiS
+ 11  9,5  - TaM
  11  9,3  | TaME
  11  9,3  | TaMEd
  11  9,3  | TaMEr
@@ -2908,6 +2924,7 @@
  11  9,3  | TiMEd
  11  9,3  | TiMEr
  11  9,3  | TiMEs
+ 11  9,5  - ToM
  11  9,7  - ToM
  11  9,3  | ToME
  11  9,3  | ToMEs
@@ -2925,6 +2942,7 @@
  11  9,3  | acMES
  11  2,7  - adMIT
  11  4,7  - aiM
+ 11  7,5  - aiT
  11  9,3  | alMES
  11  9,3  | arMET
  11  9,5  | bEMIsT
@@ -2973,6 +2991,7 @@
  11  8,1  | eMeTINS
  11  9,2  | eMoTE
  11  8,1  | eMpTINS
+ 11  8,5  - eTIc
  11  7,7  - eaT
  11  9,3  | emMET
  11  8,4  | eoNISMS
@@ -3049,9 +3068,13 @@
  11  9,3  | noMES
  11  5,7  - oM
  11  3,7  - oMIT
+ 11  8,5  - oTIc
+ 11  7,5  - oaT
  11  7,7  - oaT
  11  7,7  - oeS
+ 11  7,5  - ooT
  11  7,7  - ooT
+ 11  7,5  - ouT
  11  7,7  - ouT
  11  7,2  | ouTSWIM
  11  9,4  | pIETiSM
@@ -3551,6 +3574,7 @@
  10  2,7  - TIMid
  10  8,4  | TINMan
  10  8,4  | TINMen
+ 10  9,5  - TIS
  10  6,1  | TISSuAl
  10  8,2  | TISaNeS
  10  4,7  - TIde
@@ -3595,6 +3619,7 @@
  10  9,2  | aMIcE
  10  9,2  | aMIdE
  10  9,2  | aMInE
+ 10  8,5  - aTeS
  10  8,7  - aTeS
  10  9,2  | anIME
  10  6,1  | arISTAS
@@ -3637,6 +3662,7 @@
  10  8,5  | eNMITy
  10  9,3  | eSTEeMS
  10  8,7  - eSeS
+ 10  8,5  - eTaS
  10  9,4  | elEMI
  10  9,2  | elMIEST
  10  8,4  | eoNISM
@@ -3769,6 +3795,8 @@
  10  1,7  - teSTIS
  10  8,5  | uNMIxT
  10  8,7  - uSeS
+ 10  8,5  - uTaS
+ 10  8,5  - uTeS
  10  8,7  - uTeS
  10 10,2  | urSIDS
  10  9,3  | vIMEn
@@ -3788,6 +3816,7 @@
   9  9,6  | EMir
   9  9,6  | EMit
   9  9,6  | EMmy
+  9  9,6  | EMo
   9  9,6  | EMs
   9  9,6  | EMu
   9  9,6  | EMus
@@ -3802,6 +3831,8 @@
   9  8,5  | INSeaMS
   9  8,5  | INTiMaS
   9  8,5  | INToMbS
+  9  8,5  - IT
+  9  5,7  - Ide
   9  9,3  | InSEaM
   9  5,7  - Ire
   9  5,6  | LIMiTS
@@ -4159,12 +4190,20 @@
   9  9,5  | TEaMS
   9  9,5  | TEeMS
   9  9,5  | TErMS
+  9  9,5  - TI
   9  9,2  | TIMbErS
   9  2,5  - TIMe
   9  5,2  | TIMeLy
   9  8,4  | TINeS
   9  8,4  | TINgS
   9  8,4  | TINtS
+  9  9,5  - TIc
+  9  9,5  - TIe
+  9  9,5  - TIl
+  9  9,5  - TIn
+  9  9,5  - TIp
+  9  9,5  - TIs
+  9  9,5  - TIt
   9  1,7  - TSadIS
   9  1,7  - TSorIS
   9  1,7  - TSurIS
@@ -4207,6 +4246,7 @@
   9  7,5  - aIm
   9  7,5  - aIn
   9  7,5  - aIr
+  9  7,5  - aIt
   9  5,5  | aLMoST
   9  9,4  | aMEn
   9 10,3  | aMIDST
@@ -4220,6 +4260,7 @@
   9  3,7  - aMaS
   9  3,7  - aMiS
   9  2,7  - aSpIS
+  9  8,5  - aTe
   9  5,7  - aTe
   9  8,7  - aTe
   9  9,3  | acME
@@ -4256,6 +4297,7 @@
   9  3,7  - eMIt
   9  3,7  - eMiT
   9  5,5  - eTa
+  9  8,5  - eTa
   9  2,7  - eTuIS
   9  9,5  | fEM
   9  9,5  | fEMe
@@ -4367,6 +4409,8 @@
   9  8,5  | uNMIx
   9  8,5  | uNTrIMS
   9  8,7  - uSe
+  9  8,5  - uTa
+  9  8,5  - uTe
   9  8,7  - uTe
   9  1,7  - vISTaS
   9 10,3  | wISDoMS
@@ -5142,6 +5186,7 @@
   8  8,1  | TaMeIN
   8  8,4  | TaNgS
   8  8,4  | TaNkS
+  8  9,5  - TaS
   8  7,4  | TaWSeS
   8 10,2  | TabID
   8  6,2  | TafIAS
@@ -5165,6 +5210,7 @@
   8  8,4  | TiNeS
   8  8,4  | TiNgS
   8  8,4  | TiNtS
+  8  9,5  - TiS
   8  6,2  | TibIAS
   8  2,7  - TikIS
   8 10,2  | TimID
@@ -5587,6 +5633,7 @@
   7  9,3  | ISlETS
   7  5,7  - IT
   7  3,7  - IbiS
+  7  8,5  - Ide
   7  6,3  | IhrAMS
   7  3,5  - IkaT
   7  3,7  - IkaT
@@ -6345,6 +6392,7 @@
   7  7,5  | TWinS
   7  7,5  | TWitS
   7  6,5  - Ta
+  7  9,5  - Ta
   7  8,3  | TaINtS
   7  3,7  - TaIl
   7  3,7  - TaIn
@@ -6352,22 +6400,49 @@
   7  6,3  | TaMArI
   7  5,2  | TaMaL
   7  2,5  - TaMe
+  7  9,5  - Tab
+  7  9,5  - Tad
+  7  9,5  - Tae
+  7  9,5  - Tag
+  7  9,5  - Taj
+  7  9,5  - Tam
+  7  9,5  - Tan
+  7  9,5  - Tao
   7  3,7  - TaoS
+  7  9,5  - Tap
+  7  9,5  - Tar
+  7  9,5  - Tas
+  7  9,5  - Tat
   7  6,3  | TatAMI
+  7  9,5  - Tau
+  7  9,5  - Tav
+  7  9,5  - Taw
+  7  9,5  - Tax
+  7  9,5  - Te
+  7  6,7  - Te
+  7  9,7  - Te
   7  6,4  | TeAMS
   7  8,3  | TeINdS
   7  5,4  | TeLeSIS
   7  8,4  | TeNIaS
   7  8,4  | TeNSeS
+  7  9,5  - Tea
   7  9,7  - Tea
   7  3,7  - TeaS
+  7  9,5  - Ted
   7  9,7  - Ted
+  7  9,5  - Tee
   7  9,7  - Tee
+  7  9,5  - Teg
   7  9,7  - Teg
+  7  9,5  - Tel
   7  9,7  - Tel
+  7  9,5  - Ten
   7  9,7  - Ten
   7  8,3  | TenNIS
+  7  9,5  - Tet
   7  9,7  - Tet
+  7  9,5  - Tew
   7  9,7  - Tew
   7  6,4  | ThAIrM
   7  6,4  | ThArMS
@@ -6380,9 +6455,18 @@
   7  7,3  | ThaWS
   7  7,3  | TheWS
   7  3,7  - ThiS
+  7  9,5  - Ti
   7  2,5  - TiMe
+  7  9,5  - Tic
+  7  9,5  - Tie
+  7  9,5  - Til
+  7  9,5  - Tin
+  7  9,5  - Tip
+  7  9,5  - Tis
+  7  9,5  - Tit
   7  9,4  | TmESIS
   7  6,5  - To
+  7  9,5  - To
   7  6,7  - To
   7  9,7  - To
   7  3,7  - ToIl
@@ -6391,16 +6475,27 @@
   7  2,5  - ToMe
   7  8,4  | ToNIcS
   7  8,1  | TocSIN
+  7  9,5  - Tod
   7  9,7  - Tod
+  7  9,5  - Toe
   7  9,7  - Toe
+  7  9,5  - Tog
   7  9,7  - Tog
+  7  9,5  - Tom
   7  9,7  - Tom
+  7  9,5  - Ton
   7  9,7  - Ton
+  7  9,5  - Too
   7  9,7  - Too
+  7  9,5  - Top
   7  9,7  - Top
+  7  9,5  - Tor
   7  9,7  - Tor
+  7  9,5  - Tot
   7  9,7  - Tot
+  7  9,5  - Tow
   7  9,7  - Tow
+  7  9,5  - Toy
   7  9,7  - Toy
   7  6,4  | TrAMS
   7  6,4  | TrAMpS
@@ -6538,6 +6633,7 @@
   7  8,1  | aSSIgN
   7  1,7  - aSSaI
   7  8,2  | aSSeNT
+  7  8,5  - aT
   7  8,7  - aT
   7  6,3  | aTMAS
   7  6,3  | aTMAnS
@@ -6640,6 +6736,7 @@
   7  8,5  | eNoSIS
   7  8,7  - eS
   7  9,2  | eSpIES
+  7  8,5  - eT
   7  8,7  - eT
   7  6,4  | eTAMIn
   7  9,2  | eaSIEST
@@ -6718,6 +6815,7 @@
   7  8,5  | iNsIST
   7  1,7  - iSSeI
   7  8,1  | iSaTIN
+  7  8,5  - iT
   7  3,7  - ibIS
   7  5,1  | inSTILS
   7  3,7  - irIS
@@ -6922,11 +7020,13 @@
   7  7,5  | tWiST
   7  7,5  | tWiTS
   7  8,3  | taINTS
+  7  9,5  - taM
   7  8,4  | taNIST
   7  6,3  | taTAMI
   7  9,4  | thEISTS
   7  3,7  - thIS
   7  3,7  - toIT
+  7  9,5  - toM
   7  9,7  - toM
   7  3,7  - tuIS
   7  3,7  - twIT
@@ -6941,6 +7041,7 @@
   7  8,5  | uNfITS
   7  8,5  | uNwITS
   7  8,7  - uS
+  7  8,5  - uT
   7  8,7  - uT
   7  6,4  | umAMIS
   7  3,7  - unIT
@@ -8583,6 +8684,7 @@
   6 10,7  - eM
   6  6,4  | eMAIl
   6  3,5  - eMe
+  6  3,7  - eMo
   6 10,3  | eMyD
   6  8,5  | eNTIa
   6  8,5  | eNTaSIS
@@ -9071,6 +9173,8 @@
   6  8,4  | tINeS
   6  8,4  | tINgS
   6  8,4  | tINtS
+  6  9,5  - tIS
+  6  9,5  - tIT
   6  8,2  | tITaN
   6  9,2  | tIThES
   6  9,2  | tITlES
@@ -9295,6 +9399,7 @@
   5  9,2  | IsTlES
   5  9,3  | IslES
   5  9,3  | IslET
+  5  8,5  - It
   5  5,7  - It
   5  9,3  | IviES
   5  5,3  | IxTLe
@@ -11271,15 +11376,23 @@
   5  9,5  | tEeM
   5  9,5  | tErM
   5  9,5  | tEsTIS
+  5  9,5  - tI
   5  9,4  | tIES
   5  5,4  | tILTS
   5  9,3  | tITErS
   5  5,3  | tITLeS
   5  2,7  - tITi
+  5  9,5  - tIc
+  5  9,5  - tIe
   5  4,7  - tIe
+  5  9,5  - tIl
   5  4,7  - tIl
+  5  9,5  - tIn
   5  4,7  - tIn
+  5  9,5  - tIp
+  5  9,5  - tIs
   5  4,7  - tIs
+  5  9,5  - tIt
   5  4,7  - tIt
   5 10,3  | tSaDIS
   5  7,5  | tWIg
@@ -11295,6 +11408,7 @@
   5  4,7  - taT
   5  9,3  | taTES
   5  7,4  | taWS
+  5  6,7  - te
   5  6,4  | teAM
   5  4,5  - teT
   5  7,4  | teWS
@@ -11543,6 +11657,7 @@
   4 10,5  - Id
   4  9,4  | IdES
   4  5,4  | IdLeS
+  4  3,5  - Ide
   4  5,3  | IdoL
   4  5,3  | IdyL
   4 10,5  - If
@@ -13637,15 +13752,21 @@
   4  5,3  | taILS
   4  8,3  | taINS
   4  8,3  | taINT
+  4  9,5  - taS
   4  9,2  | taSSE
   4  9,2  | taSTE
+  4  9,5  - taT
   4  7,4  | taW
+  4  9,5  - teT
   4  9,7  - teT
   4  7,4  | teW
   4  8,3  | thINS
   4  5,4  | tiLTS
+  4  9,5  - tiS
+  4  9,5  - tiT
   4  6,4  | toASTS
   4  5,3  | toILS
+  4  9,5  - toT
   4  9,7  - toT
   4  7,4  | toW
   4  6,4  | trAITS
@@ -14054,7 +14175,9 @@
   3  9,6  | EyeS
   3  6,5  | IAmbS
   3 10,5  | ID
+  3 10,5  | IDe
   3 10,5  | IDea
+  3 10,5  | IDee
   3 10,5  | IDem
   3 10,5  | IDes
   3 10,5  | IDle
@@ -14094,6 +14217,7 @@
   3  5,4  | IdLe
   3  5,4  | IdLy
   3  6,3  | IdeAS
+  3  9,3  | IdeE
   3  9,3  | IdlE
   3  5,4  | IgLu
   3  6,4  | IkAT
@@ -14931,6 +15055,7 @@
   3  6,5  | TAxeS
   3  6,5  | TAxiS
   3  6,5  | TAxuS
+  3  9,5  | TE
   3  9,5  | TEa
   3  9,5  | TEak
   3  9,5  | TEal
@@ -15005,6 +15130,7 @@
   3  9,3  | TarE
   3  8,3  | TarN
   3  9,3  | TatE
+  3  4,5  - Te
   3  6,4  | TeAS
   3  6,4  | TeASe
   3  6,4  | TeAkS
@@ -15263,6 +15389,7 @@
   3  8,7  - as
   3  6,3  | asSAI
   3  5,5  - at
+  3  8,5  - at
   3  5,7  - at
   3  8,7  - at
   3  9,4  | atES
@@ -15599,6 +15726,7 @@
   3  8,7  - es
   3  9,4  | esES
   3  5,5  - et
+  3  8,5  - et
   3  8,7  - et
   3  9,4  | evES
   3  5,3  | evIL
@@ -15871,6 +15999,7 @@
   3  9,4  | irES
   3 10,3  | irID
   3  5,7  - is
+  3  8,5  - it
   3  5,7  - it
   3  6,3  | ixIAS
   3  6,5  | jAIlS
@@ -16634,12 +16763,15 @@
   3  5,3  | tIrL
   3  6,4  | tSAdI
   3  6,4  | tSArS
+  3  9,5  - ta
   3 10,4  | taDS
   3  5,3  | taIL
   3  8,3  | taIN
   3  5,4  | taLI
   3  8,4  | taNS
   3  9,3  | taTE
+  3  9,5  - te
+  3  9,7  - te
   3  6,4  | teATS
   3 10,4  | teDS
   3  9,4  | teES
@@ -16647,11 +16779,13 @@
   3  8,4  | teNS
   3  8,4  | teNT
   3  8,3  | thIN
+  3  9,5  - ti
   3  9,4  | tiES
   3  5,4  | tiLS
   3  5,4  | tiLT
   3  8,4  | tiNS
   3  8,4  | tiNT
+  3  9,5  - to
   3  9,7  - to
   3  6,4  | toAST
   3 10,4  | toDS
@@ -16697,6 +16831,7 @@
   3  8,4  | urNS
   3  8,7  - us
   3  9,4  | usES
+  3  8,5  - ut
   3  8,7  - ut
   3  9,4  | utES
   3  6,5  | vAIlS
@@ -17118,7 +17253,9 @@
   2  9,4  | IcE
   2  9,4  | IcEd
   2  9,4  | IcEs
+  2  9,4  | IdE
   2  9,4  | IdEa
+  2  9,4  | IdEe
   2  9,4  | IdEm
   2  9,4  | IdEs
   2  6,3  | IdeA
@@ -18007,6 +18144,7 @@
   2  8,4  | hoN
   2  8,4  | huN
   2 10,5  | iD
+  2 10,5  | iDe
   2 10,5  | iDs
   2  5,5  | iLk
   2  5,5  | iLl
@@ -18633,6 +18771,7 @@
   2  4,7  - ta
   2 10,4  | taD
   2  8,4  | taN
+  2  4,5  - te
   2  6,4  | teAS
   2  6,4  | teAT
   2 10,4  | teD
@@ -18921,6 +19060,7 @@
   1  9,6  | Els
   1  9,6  | Em
   1  9,6  | Eme
+  1  9,6  | Emo
   1  9,6  | Ems
   1  9,6  | Emu
   1  9,6  | En
@@ -19125,6 +19265,7 @@
   1  9,4  | hoE
   1  9,4  | huE
   1  9,4  | icE
+  1  9,4  | idE
   1  9,4  | irE
   1  6,5  | jA
   1  6,5  | jAb
@@ -19365,6 +19506,7 @@
   1  6,5  | tAv
   1  6,5  | tAw
   1  6,5  | tAx
+  1  9,5  | tE
   1  9,5  | tEa
   1  9,5  | tEd
   1  9,5  | tEe

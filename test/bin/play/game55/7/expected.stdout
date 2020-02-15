@@ -921,6 +921,7 @@
   9  5,2  | oNO
   9  6,5  - rONDO
   9  9,9  | sO
+  9  6,5  - tONDO
   9  5,2  | uDO
   9  9,6  | uN
   9  7,7  - yAULD
@@ -1029,6 +1030,8 @@
   8  7,7  - sALON
   8  7,7  - tALON
   8  7,7  - tAUON
+  8  6,5  - tOLD
+  8  6,5  - tOLU
   8  1,4  - vULGO
   8  6,5  - wOLD
   8  6,5  - yOND
@@ -1331,6 +1334,8 @@
   7  1,4  - sUNG
   7  6,7  - tOAD
   7  5,2  | tOO
+  7  6,5  - tOOL
+  7  6,5  - tOON
   7  6,3  | tUNED
   7  1,4  - tUNG
   7  6,3  | uNLED
@@ -1868,6 +1873,7 @@
   5  5,3  | tO
   5  2,4  - tUG
   5  6,3  | tULE
+  5  6,5  - tUN
   5  6,3  | tUNE
   5  6,3  | uNDE
   5  7,7  - vAN
@@ -2051,9 +2057,11 @@
   4  2,3  | sNOT
   4  6,3  | sOLE
   4  6,3  | sONE
+  4  6,5  - tOD
   4  6,4  | tOED
   4  2,4  - tOG
   4  6,3  | tOLE
+  4  6,5  - tON
   4  6,3  | tONE
   4  2,3  | tOUT
   4  6,3  | vOLE
@@ -2239,6 +2247,7 @@
   3  2,3  | hOOT
   3  6,4  | hUE
   3  2,4  | hUT
+  3  6,4  | iDE
   3  6,5  | jEU
   3  2,4  | jUT
   3  6,5  | kEN
@@ -2279,6 +2288,7 @@
   3  6,5  | tED
   3  6,5  | tEL
   3  6,5  | tEN
+  3  6,5  - tOO
   3  2,3  | tOOT
   3  2,4  | tUT
   3  6,5  | wED
@@ -2351,6 +2361,7 @@
   2  6,4  | rOE
   2  2,4  | rOT
   2  2,4  | sOT
+  2  6,5  - tO
   2  6,4  | tOE
   2  2,4  | tOT
   2  6,4  | vOE
@@ -2419,6 +2430,7 @@
   1  6,5  | rE
   1  7,7  - tA
   1  6,8  | tA
+  1  6,5  | tE
   1  2,5  | uT
   1  6,5  | wE
   1  7,7  - yA

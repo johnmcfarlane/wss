@@ -45,6 +45,7 @@
  27  9,1  | SpOKE
  27  9,1  | StOKE
  27  8,2  - aSK
+ 27  8,2  - tSK
  26  8,6  | EEK
  26  8,6  | dEKES
  25  8,6  | dEKE
@@ -350,6 +351,7 @@
  12  5,4  | ExES
  12  5,4  | EyES
  12  5,4  | IcES
+ 12  5,4  | IdEE
  12  5,4  | IdES
  12  5,4  | IrES
  12 10,2  | KI
@@ -498,6 +500,7 @@
  10  8,7  | ElKS
  10  5,3  | ElSE
  10  5,3  | ISlE
+ 10  5,3  | IdEE
  10  3,4  - KEEvE
  10  6,4  - KEfS
  10  6,4  - KEnS
@@ -673,6 +676,7 @@
   9  8,1  | sEES
   9  5,4  - sEES
   9  9,2  | sOKES
+  9  8,6  | tE
   9  8,1  | tEES
   9  5,4  - tEES
   9  8,1  | tIES
@@ -732,6 +736,8 @@
   8  4,7  - IKATs
   8 10,3  | ISsEI
   8  5,4  | IcE
+  8  5,4  | IdE
+  8  9,4  - IdE
   8  3,7  - IdEATES
   8  5,4  | IrE
   8 10,3  | IsSEI
@@ -935,6 +941,8 @@
   7  4,4  - sIKE
   7  4,7  - sKAT
   7  4,4  - sKEE
+  7 10,2  - tE
+  7  5,5  | tE
   7  8,7  | tEES
   7 10,2  - tI
   7  8,7  | tIES
@@ -976,6 +984,7 @@
   6  8,7  | ElSE
   6  8,3  | EmE
   6  8,7  | EmES
+  6  9,1  | EmO
   6  4,7  - EnATES
   6 11,1  | EnDS
   6  8,3  | ErE
@@ -991,6 +1000,7 @@
   6 10,3  | IcES
   6 10,3  | IcK
   6  3,7  - IdEATE
+  6 10,3  | IdEE
   6 10,3  | IdES
   6 10,3  | IlK
   6 10,3  | InK
@@ -1183,10 +1193,12 @@
   5  8,7  | EvE
   5  8,7  | EwE
   5  8,7  | EyE
+  5 11,2  | IDEE
   5 11,2  | IDES
   5 11,2  | IDEaS
   5 11,2  | IDlES
   5  4,4  - ISlE
+  5  4,4  - IdEE
   5  7,5  - NEE
   5  7,5  - NEEd
   5  7,5  - NEEm
@@ -1267,6 +1279,8 @@
   5  5,7  - sATIS
   5 11,1  | sIDES
   5  5,7  - tATES
+  5 10,4  - tE
+  5  8,7  | tE
   5  8,7  | tI
   5 11,1  | tIDES
   5 11,1  | wIDES
@@ -1356,10 +1370,13 @@
   4  9,4  - Et
   4  8,7  | Et
   4  8,7  | Ex
+  4 11,2  | IDE
   4 11,2  | IDEa
+  4 11,2  | IDEe
   4 11,2  | IDEm
   4 11,2  | IDEs
   4 11,2  | IDS
+  4 11,2  | IDeE
   4 11,2  | IDeS
   4 11,2  | IDlE
   4  9,2  | IOnS
@@ -1488,6 +1505,7 @@
   4 10,2  | hIS
   4  9,2  | hOES
   4  9,2  | hOSE
+  4 11,2  | iDEE
   4 11,2  | iDES
   4  9,4  - iS
   4  9,2  | jOES
@@ -1584,6 +1602,7 @@
   3  8,2  | EEl
   3  6,4  - EEl
   3 11,2  | ID
+  3 11,2  | IDe
   3 11,2  | IDs
   3  4,7  - IkAT
   3  7,5  - NE
@@ -1668,6 +1687,7 @@
   3  5,7  - hATS
   3  4,7  - hEAT
   3 11,1  | hID
+  3 11,2  | iDE
   3 11,2  | iDS
   3  5,7  - kATS
   3 11,1  | kID
@@ -1753,6 +1773,9 @@
   2  8,1  | IcE
   2 10,3  | IcE
   2  5,4  - IcE
+  2  8,1  | IdE
+  2 10,3  | IdE
+  2  5,4  - IdE
   2 10,3  | IdS
   2 10,3  | IfS
   2 10,3  | InS
@@ -1941,6 +1964,8 @@
   1  8,2  | rE
   1  6,4  - rE
   1  9,2  | sO
+  1  8,2  | tE
+  1  6,4  - tE
   1  9,2  | tO
   1  8,2  | wE
   1  6,4  - wE

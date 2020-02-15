@@ -178,6 +178,7 @@
  17  9,5  | ETa
  17  8,3  | EXUVIa
  17  8,3  | EXUvIATE
+ 17  1,3  - IdE
  17  4,2  | RAVe
  17  4,2  | REV
  17  4,2  | REVs
@@ -327,6 +328,7 @@
  15  9,6  | TAv
  15  9,6  | TAw
  15  9,6  | TAx
+ 15  9,6  | TE
  15  9,6  | TEa
  15  9,6  | TEd
  15  9,11 - TEd
@@ -453,6 +455,8 @@
  13  9,7  | EVe
  13  2,5  - EViTE
  13  9,7  | EtUI
+ 13  5,5  | TAE
+ 13  5,5  | TAEl
  13  9,6  | TaU
  13  4,5  - UVEa
  13  3,7  - UVuLAE
@@ -478,9 +482,11 @@
  13  9,6  | rE
  13  2,7  - rIVULET
  13  9,6  | tA
+ 13  9,6  | tE
  13  4,5  - uVEA
  13  9,6  | yA
  13  9,6  | yE
+ 12 10,9  | ATE
  12  9,7  | AUTo
  12  5,7  | AVErT
  12  7,7  | AVErT
@@ -512,6 +518,7 @@
  12  9,6  | TaE
  12  9,6  | TeA
  12  9,6  | TeE
+ 12  5,5  | ToEA
  12  3,7  - UVuLA
  12  1,7  - VATfUL
  12  3,5  - VAlE
@@ -593,11 +600,15 @@
  11  9,7  | ExIT
  11  6,7  - LAnUGO
  11  4,2  | RUInATE
+ 11  5,5  | TAe
  11  3,3  - TEd
  11  3,3  - TEn
  11  3,3  - TEt
  11  3,5  - TInEA
  11  9,6  | Ta
+ 11  5,5  | TaE
+ 11  9,6  | Te
+ 11  5,5  | ToE
  11  1,7  - TrAVEL
  11 10,11 - Us
  11  4,7  - VALUE
@@ -631,6 +642,7 @@
  11 10,9  | sAU
  11  3,3  - sET
  11  2,5  - sUAVE
+ 11  5,5  | tAE
  11 10,9  | tAU
  11  3,3  - tET
  11  3,7  - uVULAE
@@ -639,6 +651,9 @@
  10  5,6  | AE
  10  9,7  | AIdE
  10  9,7  | AIrT
+ 10 10,9  | AT
+ 10 10,9  | ATe
+ 10 10,9  | ATt
  10  9,7  | AUk
  10  1,5  - AVIaTE
  10  3,6  - AVoW
@@ -721,6 +736,7 @@
  10 10,9  | TAv
  10 10,9  | TAw
  10 10,9  | TAx
+ 10  3,3  - TE
  10  7,10 - TUbAE
  10  7,10 - TUtEE
  10 10,9  | TaU
@@ -841,6 +857,7 @@
   9 11,6  | MONIEd
   9 11,6  | MONIEs
   9  4,2  | RoUTE
+  9  5,5  | TA
   9  5,5  - TEA
   9  2,7  - TUIlLE
   9  4,5  - ToEA
@@ -878,6 +895,7 @@
   9  4,7  - VoLTI
   9  4,6  - VoW
   9  9,5  | aT
+  9 10,9  | aTE
   9  5,7  | aVA
   9  7,7  | aVA
   9  5,7  | aVE
@@ -971,6 +989,8 @@
   8 10,9  | ArT
   8  9,7  | As
   8  9,7  | At
+  8 10,9  | AtE
+  8 10,9  | AtT
   8  9,7  | Aw
   8 10,9  | AwE
   8  9,7  | Ax
@@ -1015,14 +1035,17 @@
   8  4,2  | RUTIlE
   8  4,2  | RoUE
   8  4,2  | RoUT
+  8 10,10 | TA
   8  4,6  - TAWIE
   8  2,7  - TAbULI
   8  7,10 - TAwIE
+  8 10,10 | TE
   8  7,10 - TEAsE
   8  4,5  - TEEd
   8  4,5  - TEEs
   8  7,10 - TElAE
   8  1,7  - TEqUILA
+  8 10,10 | TI
   8  4,5  - TIEd
   8  4,5  - TIEs
   8  3,7  - TUILlE
@@ -1031,6 +1054,7 @@
   8  8,10 - TUlE
   8  8,10 - TUnE
   8 10,9  | TaE
+  8  3,3  - Te
   8 10,9  | ThE
   8  3,7  - ThULIA
   8 10,9  | ToE
@@ -1170,7 +1194,9 @@
   7  3,7  - TUlLE
   7  2,5  - TUtEE
   7  5,6  - TWAE
+  7  5,5  | Ta
   7  4,6  - TaWIE
+  7  5,5  | To
   7  4,6  - ToWIE
   7 11,1  | Un
   7 11,1  | Us
@@ -1180,6 +1206,7 @@
   7  5,5  | aA
   7 10,9  | aA
   7  9,7  | aIT
+  7 10,9  | aT
   7  9,7  | aTE
   7  5,5  | bA
   7 10,9  | bA
@@ -1225,6 +1252,7 @@
   7  3,5  - rIVE
   7  3,5  - sAVE
   7  2,5  - sUITE
+  7  5,5  | tA
   7 10,9  | tA
   7  4,6  - tAWIE
   7  2,5  - tUTEE
@@ -1317,6 +1345,7 @@
   6  7,7  | ArT
   6  1,3  - As
   6 10,10 | As
+  6 10,9  | At
   6 10,10 | At
   6  5,7  | AtE
   6  7,7  | AtE
@@ -1382,7 +1411,9 @@
   6 11,1  | IT
   6  7,7  | IcE
   6  1,3  - Id
+  6  7,7  | IdE
   6  1,5  - IdEATE
+  6  8,10 - IdEE
   6  7,7  | IrE
   6  1,3  - Is
   6  3,7  - IsTLE
@@ -1479,11 +1510,15 @@
   6  5,6  - TWaE
   6  5,6  - TWeE
   6 10,9  | Ta
+  6 10,10 | Ta
+  6 10,10 | Te
   6  8,10 - ThAE
   6  3,6  - ThAW
   6  8,10 - ThEE
   6  3,6  - ThEW
+  6 10,10 | Ti
   6 10,9  | To
+  6 10,10 | To
   6  3,7  - ToILE
   6  8,6  - ToOM
   6  8,10 - TrEE
@@ -1590,6 +1625,7 @@
   6  9,10 - sUE
   6  5,6  - sWAT
   6  8,10 - tATE
+  6  3,3  - tE
   6  5,6  - tWAE
   6  5,6  - tWAT
   6  5,6  - tWIT
@@ -2060,6 +2096,8 @@
   4  9,10 - IcE
   4 11,1  | Id
   4  7,7  | Id
+  4  9,10 - IdE
+  4  3,5  - IdEE
   4  4,7  - IdLE
   4 11,1  | If
   4  7,7  | If
@@ -2133,6 +2171,7 @@
   4  3,5  - TArE
   4  3,5  - TAtE
   4  8,9  - TAxI
+  4 10,10 - TE
   4  4,7  - TEL
   4  4,7  - TELa
   4  4,7  - TELe
@@ -2330,14 +2369,17 @@
   4  5,7  - sLAT
   4  5,7  - sLIT
   4  5,1  - tA
+  4 10,10 | tA
   4  9,10 - tAE
   4  3,7  - tAEL
   4  3,7  - tAIL
   4  4,7  - tALE
   4  4,7  - tALI
+  4 10,10 | tE
   4  3,7  - tEAL
   4  9,10 - tEE
   4  4,7  - tELA
+  4 10,10 | tI
   4  9,10 - tIE
   4  4,7  - tILE
   4  4,7  - tILT
@@ -2632,6 +2674,7 @@
   2  4,5  - EyE
   2 10,2  - IT
   2  4,5  - IcE
+  2  4,5  - IdE
   2  4,5  - IrE
   2  6,7  - La
   2  6,7  - Li
@@ -2673,6 +2716,7 @@
   2  4,2  | RIn
   2  4,2  | RIp
   2  6,1  | TA
+  2  5,5  - TE
   2  5,1  | TI
   2 10,9  - TI
   2  5,1  | TIc
@@ -2730,6 +2774,7 @@
   2  4,5  - sEE
   2  9,9  - sEI
   2  4,5  - tAE
+  2 10,10 - tE
   2  4,5  - tEE
   2  4,5  - tIE
   2  4,5  - uTE
@@ -2807,6 +2852,7 @@
   1  5,1  | sI
   1 10,9  - sI
   1  6,1  | tA
+  1  5,5  - tE
   1  5,1  | tI
   1 10,9  - tI
   1  5,5  - wE

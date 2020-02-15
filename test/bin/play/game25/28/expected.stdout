@@ -1,29 +1,50 @@
+ 24  7,10 | ALDERS
+ 24  7,10 | ELDERS
+ 24  7,10 | ENDERS
  24  2,10 - RELABEL
+ 23  2,9  | ALLEE
+ 21  2,9  | LAREE
+ 21  2,9  | RANEE
  20  7,8  | ALAND
  20  5,7  | RELAND
+ 19  2,10 | ALEE
  18  3,14 - ALEE
  18  5,8  | ELAND
  17  7,10 | AND
  17  7,10 | ELD
  17  7,10 | END
  17  5,9  | LAND
+ 17  2,11 | LEARN
+ 16  2,8  | ALLEE
  16  5,1  | ANAL
+ 16  2,8  | ANELE
+ 15  2,12 | EARN
  15  5,9  | RAND
  15 10,6  | ZAP
  14  3,11 - AREAE
+ 14  2,8  | ARENE
+ 14  2,9  | LANE
+ 14  2,8  | LAREE
  14 11,5  - LINE
+ 14  2,8  | RANEE
  13  3,14 - AL
  13  3,14 - AN
  13  5,10 | AND
  13  3,13 - ARETE
  13  3,14 - EL
  13  3,14 - EN
+ 12  2,9  | ALEE
  12 13,6  | AN
  12  2,2  - ANELE
  12  5,1  | AREA
  12  5,12 | DEAL
  12  2,13 | ERN
+ 12  2,9  | ERNE
+ 12  2,11 | LEA
+ 12  2,11 | LEE
  12  2,11 | NAE
+ 12  2,11 | NEE
+ 12  2,9  | RALE
  12  5,8  - READOPTS
  12  3,11 | REALM
  12  4,13 - RETE
@@ -32,11 +53,16 @@
  11  5,1  | ANE
  11  7,12 | DALS
  11  7,12 | DANS
+ 11  7,12 | DELS
+ 11  7,12 | DENS
  11  3,10 - ENABLE
  11  3,2  - LANE
+ 11  2,11 | REE
  10  2,12 | AE
  10 12,2  - AHA
  10  5,3  | AL
+ 10  2,10 | ALE
+ 10  2,10 | ANE
  10  2,2  - ARENE
  10  5,3  | EL
  10  5,9  | LA
@@ -45,10 +71,13 @@
  10  2,10 | LEA
  10  1,3  - LEANER
  10  4,10 - LEBEN
+ 10  2,10 | LEE
  10  4,14 - LEE
  10  3,13 - LEET
  10  5,9  | NA
+ 10  2,10 | NAE
  10  4,14 - NAE
+ 10  2,10 | NEE
  10  4,14 - NEE
  10 12,1  | PA
  10  6,13 - TEN
@@ -77,8 +106,10 @@
   8 11,7  - AIN
   8  3,2  - ALEE
   8  7,8  | ARE
+  8  2,10 | ARE
   8  3,11 - AREA
   8  2,10 | ERA
+  8  2,10 | ERE
   8  1,13 - HAEN
   8  1,13 - HALE
   8  1,13 - HARL
@@ -94,6 +125,7 @@
   8 15,1  | NE
   8 14,15 - NE
   8  3,12 | REAM
+  8  2,10 | REE
   8  4,13 - RET
   7  6,11 - AA
   7  7,11 | AD
@@ -170,6 +202,7 @@
   5  4,2  - ARE
   5  6,10 - BA
   5  6,10 - BE
+  5  7,12 | DE
   5  6,14 - EAR
   5  2,14 | EN
   5  4,2  - ERE
@@ -180,14 +213,17 @@
   5  2,11 | LA
   5  4,3  - LAR
   5  2,11 | NA
+  5  2,11 | NE
   5  1,14 - OE
   5  4,4  - RAI
   5  3,3  - REAR
   5  4,2  - REE
   5 15,12 | TARN
+  5  6,13 - TE
   5 15,12 | TERN
   4  5,1  | AA
   4  5,2  - AE
+  4  2,11 | AE
   4  8,14 - ALE
   4  8,14 - ANE
   4  5,1  | AR
@@ -197,6 +233,7 @@
   4  8,14 - NAE
   4  8,14 - NEE
   4  5,2  - RE
+  4  2,11 | RE
   4  1,12 - TAN
   4 15,12 | TARE
   4  1,12 - TEL
@@ -242,3 +279,4 @@
   2  9,14 - RE
   2 15,14 | RE
   2  1,12 - TA
+  2  1,12 - TE

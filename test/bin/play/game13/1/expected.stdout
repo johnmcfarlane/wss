@@ -412,6 +412,7 @@
  14  6,2  | pARDY
  14  7,3  | rAZED
  14  6,2  | tARDY
+ 14  7,5  - tZAR
  14  7,7  - tZAR
  14  6,2  | uNARY
  14  5,7  - yARD
@@ -2378,6 +2379,7 @@
   6  6,7  - Ar
   6  6,4  | ArYL
   6  6,7  - As
+  6  6,5  - At
   6  6,7  - At
   6  6,5  - Aw
   6  2,5  - AwL
@@ -2836,11 +2838,15 @@
   6  7,3  | sANED
   6  7,7  - sARD
   6  6,3  | sLAY
+  6  7,5  - tAD
   6  7,7  - tAD
   6  4,3  | tALA
   6  4,5  | tALA
+  6  7,5  - tAN
   6  7,7  - tAN
+  6  7,5  - tARN
   6  7,7  - tARN
+  6  7,5  - tRAD
   6  7,7  - tRAD
   6  7,2  | tRADE
   6  7,4  | tREND
@@ -3684,6 +3690,7 @@
   4  7,5  | sEAL
   4  7,4  | tAEL
   4  7,3  | tALE
+  4  7,5  - tAR
   4  7,7  - tAR
   4  7,5  | tEAL
   4  7,5  | tELA
@@ -3951,6 +3958,7 @@
   3  7,3  | hARE
   3  7,5  | hEAR
   3  7,5  | hEN
+  3  7,4  | iDE
   3  3,5  - jA
   3  3,7  - jA
   3  3,5  - kA
@@ -4149,6 +4157,7 @@
   2  7,4  | sAE
   2  7,5  | sEA
   2  7,5  | sER
+  2  7,5  - tA
   2  7,7  - tA
   2  7,4  | tAE
   2  4,5  | tAR
@@ -4206,6 +4215,7 @@
   1  4,5  | pA
   1  7,5  | rE
   1  4,5  | tA
+  1  7,5  | tE
   1  7,5  | wE
   1  4,5  | yA
   1  7,5  | yE

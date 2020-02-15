@@ -7,6 +7,8 @@
  30  7,1  - RENT
  25  8,1  - ANT
  25  7,1  - RAN
+ 25  7,1  - TAN
+ 25  7,1  - TEN
  23  7,1  - NET
  20  8,1  - AN
  20  8,1  - EN
@@ -52,6 +54,7 @@
  10  9,3  - EAU
  10  7,7  - NA
  10  7,7  - NE
+ 10  5,1  - RATE
  10  5,3  - RET
  10 10,4  | RIDENT
  10  5,1  - TARE
@@ -60,10 +63,13 @@
   9  3,3  - ANTE
   9  2,5  - ANTE
   9  6,1  - ARE
+  9  6,1  - ATE
   9  5,5  - EAT
   9  6,1  - ERA
+  9  6,1  - ETA
   9  5,5  - ETA
   9  4,1  - NEAR
+  9  4,1  - NEAT
   9 10,4  | NIDE
   9  9,1  | NO
   9  5,1  - RAN
@@ -89,6 +95,7 @@
   8  6,5  - NA
   8  3,5  - NAE
   8  7,1  - NE
+  8  5,1  - NET
   8  4,5  - NET
   8 10,1  | RAN
   8  3,3  - RATE
@@ -97,6 +104,7 @@
   8  7,7  - TA
   8 10,1  | TAN
   8  3,3  - TARE
+  8  7,7  - TE
   8  4,1  - TEAR
   8  8,6  | YARE
   8  8,6  | YEAR
@@ -104,7 +112,9 @@
   7 10,2  | AN
   7  3,5  - ANE
   7  5,1  - EAR
+  7  5,1  - EAT
   7  4,5  - EAT
+  7 10,7  - EN
   7  7,6  | INERT
   7  7,6  | INTER
   7  4,3  - NAE
@@ -113,9 +123,11 @@
   7  7,5  | NITER
   7  7,5  | NITRE
   7 10,3  - NU
+  7  5,1  - RAT
   7  4,5  - RAT
   7  2,5  - RATE
   7  7,1  | RENT
+  7  5,1  - RET
   7  4,5  - RET
   7  7,5  | RIANT
   7 10,4  | RIDE
@@ -126,6 +138,7 @@
   7  2,5  - TARE
   7  5,1  - TEA
   7  4,5  - TEA
+  7 10,4  | TIDE
   7  7,5  | TINEA
   7  8,6  | YAR
   7  8,6  | YEA
@@ -140,17 +153,21 @@
   6  4,3  - ARE
   6  3,5  - ARE
   6  5,5  | ASTER
+  6  6,1  - AT
   6  5,5  - AT
   6  6,5  - AT
   6  6,7  - AT
   6  4,3  - ATE
   6  3,5  - ATE
   6  6,1  - ER
+  6 10,7  - ER
   6  3,5  - ERA
   6  5,3  | ERNS
   6  6,1  | ERRATA
+  6  6,1  - ET
   6  5,5  - ET
   6  6,7  - ET
+  6 10,7  - ET
   6  3,5  - ETA
   6  7,6  | IRATE
   6  4,1  - NAE
@@ -163,10 +180,12 @@
   6  5,6  | SANE
   6  5,6  | SENT
   6  5,6  | STARE
+  6  7,1  - TA
   6  6,5  - TA
   6  4,3  - TAE
   6  3,5  - TAE
   6  5,3  | TANS
+  6  7,1  - TE
   6  3,5  - TEA
   6  7,1  | TEEN
   6  7,1  | TEN
@@ -230,6 +249,7 @@
   5  7,4  | TAIN
   5  6,5  | TARN
   5  5,3  | TARS
+  5  5,3  - TE
   5  4,1  - TEA
   5  7,1  | TEAR
   5  5,3  | TEAS
@@ -255,6 +275,7 @@
   4  6,1  | ERN
   4  5,4  | ERST
   4  7,2  | ETA
+  4 10,5  | IDE
   4  6,5  | NAE
   4  7,5  | NIT
   4  6,2  | RAN
@@ -273,6 +294,8 @@
   4  4,5  - TA
   4  6,5  | TAN
   4  6,5  | TARE
+  4  5,1  - TE
+  4  4,5  - TE
   4  7,1  | TEA
   4  6,4  | TEAR
   4  7,1  | TEE
@@ -343,4 +366,5 @@
   2  6,2  | RE
   2 10,1  | TA
   2  6,5  | TA
+  2  7,1  | TE
   2  7,5  | TI
