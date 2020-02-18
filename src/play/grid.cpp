@@ -2,7 +2,7 @@
 // Created by john on 27/10/2019.
 //
 
-#include "csv.h"
+#include "grid.h"
 
 #include <gsl/string_span>
 
@@ -20,9 +20,6 @@ namespace {
                 pos!=end;) {
             auto const line_end{std::find(pos, end, delimiter)};
             fields.emplace_back(&*pos, std::distance(pos, line_end));
-            if (line_end==end) {
-                break;
-            }
             pos = std::next(line_end);
         }
 
@@ -30,16 +27,20 @@ namespace {
     }
 }  // namespace
 
-auto parse_csv(gsl::cstring_span<> buffer)
--> std::vector<std::vector<gsl::cstring_span<>>>
+auto parse_grid(gsl::cstring_span<> buffer)
+-> std::vector<std::vector<char>>
 {
-    std::vector<std::vector<gsl::cstring_span<>>> result;
-    auto lines{split(buffer, '\n')};
-    std::transform(
-            std::begin(lines), std::end(lines),
-            std::back_inserter(result),
-            [](auto line) {
-                return split(line, ',');
-            });
+	std::vector<std::vector<char>> result;
+	auto lines{split(buffer, '\n')};
+	std::transform(
+			std::begin(lines), std::end(lines),
+			std::back_inserter(result),
+			[](auto line) {
+				std::vector<char> squares;
+				std::copy(
+						std::begin(line), std::end(line),
+						std::back_inserter(squares));
+				return squares;
+			});
     return result;
 }

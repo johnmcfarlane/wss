@@ -11,22 +11,12 @@ auto load_board_tiles(gsl::cstring_span<> filename)
 -> std::optional<board<char>>
 {
     return load_board<char>(filename, [](auto field) -> std::optional<char> {
-        if (field.empty()) {
-            return std::optional<char>{'\0'};
-        }
-        if (field.size()>1) {
-            return std::nullopt;
+        if (std::isalpha(field)) {
+            return field;
         }
 
-        // Tool won't tell me where the other identifier is.
-        // cppcheck-suppress shadowVar
-        auto letter{field[0]};
-        if (std::isalpha(letter)) {
-            return letter;
-        }
-
-        if (letter==vacant) {
-            return letter;
+        if (field==vacant) {
+            return field;
         }
 
         return std::nullopt;
