@@ -6,7 +6,7 @@
 #define WSS_BOARD_H
 
 #include "coord.h"
-#include "csv.h"
+#include "grid.h"
 #include "load_buffer.h"
 
 #include <ssize.h>
@@ -60,7 +60,7 @@ private:
 
 template<typename CellType, typename TextToCell>
 std::optional<board<CellType>> make_board(
-        std::vector<std::vector<gsl::cstring_span<>>> const& lines,
+        std::vector<std::vector<char>> const& lines,
         TextToCell const& mapping)
 {
     auto edge{ssize(lines)};
@@ -82,7 +82,7 @@ std::optional<board<CellType>> make_board(
             if (!cell_found) {
                 fmt::print(
                         "Unrecognised field, '{}', in row #{}, column #{}.\n",
-                        std::string(std::begin(field), std::end(field)),
+						(char)field,
                         row_index+1, column_index+1);
                 return std::nullopt;
             }
@@ -104,7 +104,7 @@ std::optional<board<CellType>> load_board(
         return std::nullopt;
     }
     
-    auto const fields{parse_csv(*buffer)};
+    auto const fields{parse_grid(*buffer)};
     
     return make_board<CellType>(fields, mapping);
 }

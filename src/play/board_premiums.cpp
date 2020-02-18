@@ -12,13 +12,13 @@
 auto load_board_premiums(gsl::cstring_span<> filename)
 -> std::optional<board<premium>>
 {
-    std::unordered_map<std::string, premium> const token_to_premium{
+    std::unordered_map<char, premium> const token_to_premium{
             // LCOV_EXCL_START - statically defined
-            {"  ", premium::normal},
-            {"dl", premium::dl},
-            {"tl", premium::tl},
-            {"dw", premium::dw},
-            {"tw", premium::tw}
+            {' ', premium::normal},
+            {'d', premium::dl},
+            {'t', premium::tl},
+            {'D', premium::dw},
+            {'T', premium::tw}
             // LCOV_EXCL_STOP
     };
 
@@ -29,9 +29,7 @@ auto load_board_premiums(gsl::cstring_span<> filename)
     return load_board<premium>(
             filename,
             [&token_to_premium](auto field) -> std::optional<premium> {
-        auto found{token_to_premium.find(std::string(
-                std::begin(field),
-                std::end(field)))};
+        auto found{token_to_premium.find(field)};
         if (found==std::end(token_to_premium)) {
             return std::nullopt;
         }

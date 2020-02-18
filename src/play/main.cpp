@@ -472,8 +472,8 @@ auto main(int argc, char const* const* argv) -> int
     auto cli{
         lyra::help(help)
         | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")
-        | lyra::arg(board_filename, "board")("CSV file containing played letters")
-        | lyra::arg(premiums_filename, "premiums")("CSV file describing premium tiles (see 'boards' directory)")
+        | lyra::arg(board_filename, "board")("text file containing played letters")
+        | lyra::arg(premiums_filename, "premiums")("text file describing premium tiles (see 'boards' directory)")
     };
     auto result = cli.parse(lyra::args(argc, argv));
 
