@@ -355,6 +355,7 @@
  17  5,5  - ROPE
  17  5,5  - TOPE
  17  4,5  - TrOPE
+ 17  7,4  | aTAP
  17  6,9  - bEEN
  17  4,5  - cREPE
  17  3,5  - dEPONE
@@ -480,6 +481,7 @@
  15  8,9  - EbON
  15  2,5  - EsTRONE
  15  8,9  - EyEN
+ 15  7,5  | NAP
  15  3,5  - NOPE
  15  3,7  - NOPE
  15  6,2  - NOPe
@@ -597,6 +599,7 @@
  14  7,5  - PEa
  14  6,2  - PEpO
  14  6,2  - PEsO
+ 14  9,3  | PO
  14  3,5  - POEm
  14  3,7  - POEm
  14  2,5  - PONcE
@@ -825,6 +828,7 @@
  13  5,8  - PrOVEN
  13  2,5  - PuNTO
  13  2,7  - PuNTO
+ 13  7,5  | RAP
  13  3,5  - REPO
  13  3,7  - REPO
  13  6,2  - REPo
@@ -841,6 +845,7 @@
  13  4,9  - RaP
  13  2,11 - RaTO
  13  2,11 - RoTO
+ 13  7,5  | TAP
  13  6,4  | TEMPORAl
  13  6,2  - TEPa
  13  2,5  - TEmPO
@@ -992,6 +997,7 @@
  12  5,7  | PiNGO
  12  6,3  | PiTMEN
  12  5,8  - PlOVER
+ 12  9,3  | Po
  12  6,3  | PoTMEN
  12  5,8  - PrOVER
  12  5,7  - PyRO
@@ -1312,6 +1318,7 @@
  11  4,5  - aRETE
  11  2,5  - aTONE
  11  2,7  - aTONE
+ 11  7,5  | bAP
  11  2,5  - bENTO
  11  2,7  - bENTO
  11  2,5  - bORNE
@@ -1326,12 +1333,14 @@
  11  3,7  - cOPE
  11  2,5  - cRONE
  11  2,7  - cRONE
+ 11  7,5  | dAP
  11  3,5  - dOPE
  11  3,7  - dOPE
  11  2,5  - dRONE
  11  2,7  - dRONE
  11  2,5  - gENRO
  11  2,7  - gENRO
+ 11  7,5  | hAP
  11  3,5  - hOPE
  11  3,7  - hOPE
  11  2,5  - iRONE
@@ -1342,10 +1351,12 @@
  11  2,7  - lENTO
  11  3,5  - lOPE
  11  3,7  - lOPE
+ 11  7,5  | mAP
  11  2,5  - mONTE
  11  2,7  - mONTE
  11  3,5  - mOPE
  11  3,7  - mOPE
+ 11  7,5  | nAP
  11  3,5  - nOPE
  11  3,7  - nOPE
  11  3,5  - pEPO
@@ -1355,6 +1366,7 @@
  11  6,3  | pROMPT
  11  2,5  - pRONE
  11  2,7  - pRONE
+ 11  7,5  | rAP
  11  3,5  - rEPO
  11  3,7  - rEPO
  11  3,5  - rOPE
@@ -1363,12 +1375,15 @@
  11  2,7  - sTENO
  11  2,5  - sTONE
  11  2,7  - sTONE
+ 11  7,5  | tAP
  11  3,5  - tOPE
  11  3,7  - tOPE
  11  6,3  | tROMPE
  11  2,5  - tRONE
  11  2,7  - tRONE
+ 11  7,5  | wAP
  11  4,5  - wROTE
+ 11  7,5  | yAP
  10  8,9  - EN
  10  6,8  - ENViRO
  10 10,4  | ENaTe
@@ -1436,6 +1451,8 @@
  10  6,3  | PERMs
  10  7,2  | PEa
  10  5,8  - PErV
+ 10  5,5  - PO
+ 10  5,7  - PO
  10  6,3  | POEM
  10  6,3  | POEMs
  10  6,4  | POME
@@ -1799,6 +1816,7 @@
   9  4,5  - PEh
   9  5,7  | PEnGO
   9  6,3  | PErM
+  9  4,11 - PO
   9  5,8  | POGy
   9  6,4  | POM
   9  6,4  | POMe
@@ -2175,6 +2193,8 @@
   8  5,8  | PaGE
   8  6,4  | PaM
   8  5,7  - Pi
+  8  5,5  - Po
+  8  5,7  - Po
   8  6,4  | PoM
   8  6,4  - PuB
   8  9,3  | RE
@@ -2534,6 +2554,7 @@
   7  7,5  | NAh
   7  7,5  | NAm
   7  7,5  | NAn
+  7  7,5  | NAp
   7  7,5  | NAw
   7  7,5  | NAy
   7  6,4  - NEB
@@ -2617,6 +2638,7 @@
   7  6,8  | PEAR
   7  6,8  | PEAT
   7 10,8  | PERT
+  7  8,2  - PO
   7 10,8  | PORE
   7 10,8  | PORT
   7  6,8  | PRAO
@@ -2631,6 +2653,7 @@
   7  5,8  | PiG
   7 10,8  | PiRN
   7  6,8  | PlAN
+  7  4,11 - Po
   7  7,2  - PoO
   7 10,8  | PoRN
   7  7,2  - PrO
@@ -3269,6 +3292,9 @@
   6  5,11 - oR
   6  6,3  | pERM
   6 10,8  | pERP
+  6  9,3  | pO
+  6  5,5  - pO
+  6  5,7  - pO
   6  6,3  | pOEM
   6  6,4  | pOME
   6  5,7  | pROG
@@ -3467,6 +3493,7 @@
   5 10,8  | PeR
   5  8,2  - Pi
   5  6,8  | PiA
+  5  8,2  - Po
   5 10,8  | PuR
   5  6,8  | PyA
   5  7,5  | RAd
@@ -3475,6 +3502,7 @@
   5  7,5  | RAj
   5  7,5  | RAm
   5  7,5  | RAn
+  5  7,5  | RAp
   5  7,5  | RAs
   5  7,5  | RAt
   5  7,5  | RAw
@@ -3509,6 +3537,7 @@
   5  7,5  | TAj
   5  7,5  | TAm
   5  7,5  | TAn
+  5  7,5  | TAp
   5  7,5  | TAs
   5  7,5  | TAt
   5  7,5  | TAw
@@ -3643,6 +3672,7 @@
   5  6,4  - oRB
   5  6,9  | pAP
   5  5,8  | pEG
+  5  4,11 - pO
   5  6,4  | pOM
   5  6,9  | rAP
   5  7,5  | rAT
@@ -4247,6 +4277,7 @@
   3  6,8  | pEAR
   3  6,8  | pEAT
   3 10,8  | pERT
+  3  8,2  - pO
   3 10,8  | pORE
   3 10,8  | pORT
   3  6,8  | pRAO

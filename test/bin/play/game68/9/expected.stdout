@@ -644,6 +644,7 @@
  14 11,1  | yOKe
  13  6,2  - COD
  13  6,2  - COneY
+ 13  6,2  - COpaY
  13  6,2  - COseY
  13  6,2  - CoSeY
  13  6,2  - CuTeY
@@ -1125,6 +1126,7 @@
  10  8,5  | OoH
  10  4,2  - OrCaS
  10  7,10 | Qi
+ 10  5,2  - SCOp
  10  5,2  - SCOt
  10  5,2  - SCOw
  10  5,2  - SCaT
@@ -1257,6 +1259,7 @@
   9  6,2  - COg
   9  6,2  - COl
   9  6,2  - COn
+  9  6,2  - COp
   9  6,2  - COs
   9  6,2  - COt
   9  6,2  - COw
@@ -1504,6 +1507,7 @@
   9  4,6  - rOEs
   9  8,1  | rOODS
   9  4,4  | reHEMS
+  9  5,2  - sCOp
   9  5,2  - sCOt
   9  5,2  - sCOw
   9  5,2  - sCaT
@@ -1664,10 +1668,12 @@
   8  5,2  - SCam
   8  5,2  - SCan
   8  5,2  - SCat
+  8  5,2  - SCop
   8  5,2  - SCot
   8  5,2  - SCow
   8  5,2  - SCud
   8  5,2  - SCum
+  8  5,2  - SCup
   8  5,2  - SCut
   8  1,5  | SHOG
   8  8,1  | SHOO
@@ -1884,6 +1890,7 @@
   8  8,1  | pHOTO
   8  8,1  | pHOTS
   8  1,5  - pHyTOID
+  8  8,7  | pO
   8  8,2  | pODS
   8  8,1  | pOOD
   8  8,1  | pOODs
@@ -1971,10 +1978,12 @@
   7  6,2  - Cad
   7  6,2  - Cam
   7  6,2  - Can
+  7  6,2  - Cap
   7  6,2  - Cat
   7  6,2  - Caw
   7  6,2  - Cay
   7  6,2  - Cel
+  7  6,2  - Cep
   7  6,2  - Cig
   7  6,2  - Cis
   7  6,2  - Cob
@@ -1982,6 +1991,7 @@
   7  6,2  - Cog
   7  6,2  - Col
   7  6,2  - Con
+  7  6,2  - Cop
   7  6,2  - Cos
   7  6,2  - Cot
   7  6,2  - Cow
@@ -1989,6 +1999,7 @@
   7  6,2  - Cub
   7  6,2  - Cud
   7  6,2  - Cum
+  7  6,2  - Cup
   7  6,2  - Cut
   7  4,6  | DEMe
   7  4,6  | DEMo
@@ -2933,6 +2944,7 @@
   6 11,5  | oS
   6 11,5  | oSe
   6  9,1  | oaR
+  6  2,10 - pO
   6  4,5  | pOEM
   6  4,5  | pOEMs
   6  8,2  | pOOD
@@ -3830,6 +3842,7 @@
   5  2,5  - pTOsIS
   5  7,8  - paRS
   5  7,8  - paRT
+  5  8,2  - paY
   5  7,8  - peRT
   5  8,1  | phOTO
   5  8,1  | phOTS
@@ -4868,6 +4881,7 @@
   4  8,1  | pHOt
   4  5,5  - pIsH
   4  5,5  - pItH
+  4  8,5  | pO
   4  3,5  - pODIa
   4  4,5  - pOInD
   4  8,2  | pOO
@@ -5882,11 +5896,13 @@
   3  8,2  | pOoD
   3  3,5  - pOsIT
   3  8,6  | pa
+  3  2,10 - pa
   3  3,5  - paDI
   3  4,5  - paID
   3  3,5  - paTIO
   3  1,6  | peG
   3  1,6  | piG
+  3  2,10 - po
   3  3,5  - poSIT
   3  1,6  | puG
   3  5,5  | pyE
@@ -7105,6 +7121,7 @@
   2  5,5  - pIsO
   2  5,5  - pIsS
   2  5,5  - pItS
+  2  2,10 | pO
   2  4,5  - pOI
   2  4,5  - pOIs
   2  8,1  | pOO
@@ -7137,6 +7154,8 @@
   2  3,5  - pTuI
   2  8,7  | pa
   2  4,5  - phIS
+  2  8,5  | po
+  2  8,7  | po
   2  4,5  - poIS
   2  4,5  - psIS
   2  5,5  - qIS
@@ -7837,6 +7856,7 @@
   1  5,5  - pIt
   1  5,5  - pIu
   1  5,5  - pIx
+  1  8,2  | pO
   1  8,2  | pOd
   1  8,2  | pOh
   1  8,2  | pOi

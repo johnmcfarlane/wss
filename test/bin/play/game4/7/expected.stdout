@@ -106,6 +106,7 @@
  27  5,8  | JE
  27  5,8  | JO
  27  3,9  - JOiNED
+ 27  5,6  | SEPOy
  27  3,9  - ZOoNED
  27  3,1  | sPADE
  27  3,1  | sPADO
@@ -209,13 +210,18 @@
  20  5,3  | HOiSED
  20  5,3  | HOrSED
  20  5,3  | HOuSED
+ 20  5,8  | PED
  20  7,8  | PED
+ 20  5,8  | PEDs
  20  7,8  | PEDs
+ 20  5,8  | POD
  20  7,8  | POD
+ 20  5,8  | PODs
  20  7,8  | PODs
  20  4,8  - POOeD
  20  2,1  | POWEr
  20  4,8  - PoOED
+ 20  5,6  | SOP
  20  5,6  | SaDE
  20  3,2  | ZAPpED
  20  5,4  - aPED
@@ -269,19 +275,25 @@
  18  3,1  | PEAr
  18  3,1  | PEAs
  18  3,1  | PEAt
+ 18  5,8  | PEOn
  18  2,1  | PEW
  18  2,1  | PEWs
+ 18  5,8  | PEnD
  18  7,8  | PEnD
  18  4,11 - PEs
  18  2,1  | POW
  18  2,1  | POWs
+ 18  5,8  | POnD
  18  7,8  | POnD
+ 18  5,8  | POoD
  18  3,1  | PrAO
  18  5,6  | SEgO
  18  5,6  | SODa
  18  5,6  | SOlE
  18  5,6  | SOmE
  18  5,6  | SOnE
+ 18  5,6  | SaP
+ 18  5,6  | SoP
  18  2,3  | WEPt
  18  2,3  | WEeP
  18  2,3  | WOPs
@@ -327,8 +339,11 @@
  17  1,1  | POSED
  17  1,1  | POStED
  17  7,8  | POlE
+ 17  5,8  | POmE
  17  7,8  | POmE
+ 17  5,8  | POnE
  17  7,8  | POnE
+ 17  5,8  | POrE
  17  7,8  | POrE
  17  7,8  | POsE
  17  1,5  - aDOZE
@@ -386,33 +401,51 @@
  16  2,2  | OWED
  16  3,9  - OZoNE
  16  8,7  - Os
+ 16  5,8  | PEa
+ 16  5,8  | PEd
  16  7,8  | PEd
+ 16  5,8  | PEh
  16  7,8  | PEh
+ 16  5,8  | PEn
  16  7,8  | PEn
+ 16  5,8  | PEr
  16  7,8  | PEr
  16  7,8  | PEs
+ 16  5,8  | PEt
  16  7,8  | PEt
+ 16  5,8  | PEw
  16  4,8  - POOD
  16  4,8  - POODs
  16  1,1  | POSeD
+ 16  5,8  | POd
  16  7,8  | POd
+ 16  5,8  | POh
  16  7,8  | POh
  16  7,8  | POl
+ 16  5,8  | POm
  16  7,8  | POm
+ 16  5,8  | POo
+ 16  5,8  | POt
  16  7,8  | POt
+ 16  5,8  | POw
  16  7,8  | POx
  16  6,4  - PaD
+ 16  5,8  | PaD
  16  7,8  | PaD
  16  2,1  | PaW
  16  6,4  - PeD
+ 16  5,8  | PeD
  16  7,8  | PeD
  16  2,1  | PeW
  16  3,9  - PhONED
  16  6,4  - PoD
+ 16  5,8  | PoD
  16  7,8  | PoD
+ 16  5,8  | PoOD
  16  1,1  | PoSED
  16  2,1  | PoW
  16  6,4  - PuD
+ 16  5,8  | PuD
  16  7,8  | PuD
  16  5,6  | SOD
  16  2,3  | WODgE
@@ -505,6 +538,8 @@
  15  1,1  | PESOs
  15  1,1  | PEStO
  15  3,9  - PErNOD
+ 15  5,8  | PO
+ 15  7,8  | PO
  15  4,8  - POOEd
  15  1,1  | POSE
  15  1,1  | POSEd
@@ -629,6 +664,7 @@
  14  1,1  | PeSO
  14  3,9  - PhONE
  14  1,1  | PiSO
+ 14  5,8  | PoO
  14  1,1  | PoSE
  14  3,9  - PrONE
  14  7,1  | REdE
@@ -905,6 +941,7 @@
  12  5,6  | SOl
  12  5,6  | SOm
  12  5,6  | SOn
+ 12  5,6  | SOp
  12  5,6  | SOs
  12  5,6  | SOt
  12  5,6  | SOw
@@ -962,7 +999,9 @@
  12  5,8  | nOD
  12  7,8  | nOD
  12  3,10 - oOZE
+ 12  5,8  | pED
  12  7,8  | pED
+ 12  5,8  | pOD
  12  7,8  | pOD
  12  3,1  | rEAD
  12  7,8  | rED
@@ -1064,6 +1103,7 @@
  11  6,4  - PEs
  11  6,4  - PEt
  11  6,4  - PEw
+ 11  6,4  - PO
  11  5,8  - POOED
  11  6,4  - POd
  11  6,4  - POh
@@ -1079,10 +1119,14 @@
  11  6,4  - POt
  11  6,4  - POw
  11  6,4  - POx
+ 11  5,8  | Pa
  11  7,8  | Pa
  11  5,1  - PaRENT
  11  3,5  - PeE
+ 11  5,8  | Pi
  11  3,5  - PiE
+ 11  5,8  | Po
+ 11  7,8  | Po
  11  3,5  - PoO
  11  3,5  - PrO
  11  3,5  - PyE
@@ -1184,6 +1228,7 @@
  10  3,2  - Pi
  10  6,4  - Pi
  10  4,9  - PiNED
+ 10  6,4  - Po
  10  4,9  - PoND
  10  8,6  | YOD
  10  8,6  | YODh
@@ -1804,6 +1849,7 @@
   7  5,10 - PEeD
   7  5,10 - PEkOE
   7  5,10 - PEnD
+  7  4,5  - PO
   7  5,8  - POD
   7  5,8  - PODs
   7  5,8  - POOvE
@@ -1887,6 +1933,8 @@
   7  5,4  - oE
   7  3,5  - oPE
   7  4,10 - oPED
+  7  5,8  | pO
+  7  7,8  | pO
   7  5,8  - pOOED
   7  3,2  | rAPE
   7  7,8  | rE
@@ -2329,6 +2377,7 @@
   5  5,10 - PEt
   5  5,10 - PEw
   5  7,5  | PI
+  5  5,8  - PO
   5  5,8  - POd
   5  5,8  - POh
   5  5,8  - POi
@@ -2350,6 +2399,7 @@
   5  4,5  - Pi
   5  4,10 - PiE
   5  4,1  | PiT
+  5  4,5  - Po
   5  7,4  | PoI
   5  4,1  | PoT
   5  7,4  | PsI
@@ -3009,6 +3059,8 @@
   3  3,2  | pAD
   3  5,10 - pED
   3  1,1  | pESO
+  3  6,4  - pO
+  3  4,5  - pO
   3  5,8  - pOD
   3  1,1  | pOSE
   3  3,2  | rAD
@@ -3419,6 +3471,7 @@
   1  5,5  | oS
   1  3,2  | pA
   1  7,5  | pI
+  1  5,8  - pO
   1  7,5  | qI
   1  5,10 - rE
   1  7,5  | sI

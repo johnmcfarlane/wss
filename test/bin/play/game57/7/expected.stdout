@@ -84,6 +84,7 @@
  18  2,7  - BiNE
  18  3,3  | BlIP
  18  2,5  - BoDE
+ 18  2,7  - BoNE
  18  6,1  | dIABASE
  17  8,8  - ABO
  17  4,8  - JEAn
@@ -393,6 +394,8 @@
  10  3,4  | pEP
  10  6,3  | pIASABAS
  10  3,4  | pIP
+ 10  3,9  - pO
+ 10  3,9  | pOX
  10  3,4  | rAP
  10  3,4  | rEP
  10  3,4  | rIP
@@ -458,6 +461,8 @@
   9  8,8  - EgO
   9  8,5  | EmBAR
   9  8,8  - EmO
+  9  2,7  - EoN
+  9  2,7  - IoN
   9  6,5  - IsBA
   9  3,7  - aNE
   9  8,5  | cABER
@@ -476,6 +481,7 @@
   9  7,7  - oBELI
   9  3,5  - oDA
   9  3,5  - oDE
+  9  3,7  - oNE
   9  8,5  | rEBAR
   9  8,5  | sABER
   9  8,5  | sABIR
@@ -680,6 +686,7 @@
   7  5,5  | oRA
   7  5,5  | oRE
   7  1,4  | pAVE
+  7  9,8  | pIAL
   7  1,4  | rAVE
   7  1,4  | rIVE
   7  1,4  | sAVE
@@ -831,6 +838,7 @@
   6  2,3  | IsBA
   6  3,6  | Pa
   6  3,6  | Pi
+  6  3,6  | Po
   6  1,6  | VAc
   6  1,6  | VAn
   6  1,6  | VAr
@@ -918,6 +926,7 @@
   6  2,3  | oBIA
   6  6,3  | oBIS
   6  3,5  - oD
+  6  3,7  - oN
   6  3,5  | oP
   6  1,5  | oVA
   6  8,6  - pACA
@@ -1630,8 +1639,10 @@
   2  6,8  | pAS
   2  2,4  | pEA
   2  6,4  | pES
+  2  9,8  | pI
   2  2,4  | pIA
   2  6,4  | pIS
+  2  9,8  - pO
   2  6,5  | pSI
   2  6,4  | qIS
   2  2,5  | rAI
