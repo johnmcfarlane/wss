@@ -210,15 +210,16 @@ auto word_extent(
 void search(search_state state)
 {
     if (state.init.qualifying_cells.cell(state.init.pos)) {
-        auto const preceding{get(
+        auto const preceding{new char{get(
                 state.init.tiles,
                 state.init.pos - coord{1, 0},
-                vacant)};
-        if (preceding != vacant) {
+                vacant)}};
+        if (*preceding != vacant) {
             // The start of a word cannot go on the board here
             // because there's a tile in the preceding space.
             return;
         }
+        delete preceding;
     }
 
     search(state.init.lexicon, state, score_accumulator{});
