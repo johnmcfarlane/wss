@@ -5,8 +5,8 @@ shift
 
 "$@" ./src/play/play \
   "?" \
-  "${SCRIPT_DIR}/tiles.csv" \
-  "${SCRIPT_DIR}/premiums.csv"
+  "${SCRIPT_DIR}/tiles.txt" \
+  "${SCRIPT_DIR}/premiums.txt"
 
 if [[ $? -ne 1 ]] ; then
     exit 1

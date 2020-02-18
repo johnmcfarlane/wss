@@ -8,5 +8,5 @@ shift
 
 "$@" ./src/play/play \
   UZVIE_D \
-  "${SCRIPT_DIR}/tiles.csv" \
-  "${PROJECT_DIR}/boards/wwf_challenge.csv" 
+  "${SCRIPT_DIR}/tiles.txt" \
+  "${PROJECT_DIR}/boards/wwf_challenge.txt" 

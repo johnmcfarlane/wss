@@ -18,5 +18,5 @@ perf \
   record -g \
   ./src/play/play \
     abcdefghijklmnopqrstuvwxyz_abcdefghijklmnopqrstuvwxyz_ \
-    "${PROJECT_DIR}"/test/bin/play/game14/9/tiles.csv
+    "${PROJECT_DIR}"/test/bin/play/game14/9/tiles.txt
 perf report -g 'graph,0.5,caller'

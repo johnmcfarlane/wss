@@ -7,4 +7,4 @@ shift
 
 "$@" ./src/play/play \
   "?" \
-  "${SCRIPT_DIR}/tiles.csv"
+  "${SCRIPT_DIR}/tiles.txt"

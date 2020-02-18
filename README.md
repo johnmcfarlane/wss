@@ -22,7 +22,7 @@ cd build/
 conan install --build=missing ..
 cmake ..
 cmake --build .
-src/play/play abcd_ef ../test/bin/play/game1/1/tiles.csv ../boards/wwf_regular.csv
+src/play/play abcd_ef ../test/bin/play/game1/1/tiles.txt ../boards/wwf_regular.txt
 ```
 
 Results
