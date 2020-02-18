@@ -282,6 +282,7 @@
  24  9,1  | nErVE
  24  9,1  | pEEVe
  24  9,1  | pEeVE
+ 24  9,1  - pIU
  24  9,1  | rEEVe
  24  9,1  | rEIVe
  24  9,1  | rEaVE
@@ -353,6 +354,7 @@
  21  3,8  | neVE
  21  3,8  | neVI
  21  3,8  | paVE
+ 21  9,1  - piU
  21  9,1  | rEUsE
  21  4,10 - sIEUr
  21  4,10 - sUItE
@@ -799,6 +801,7 @@
  15  6,7  - oUtVIE
  15  9,1  | pEIsE
  15  2,10 - pEs
+ 15  9,1  - pIE
  15  2,10 - pIs
  15  2,10 - qIs
  15  9,1  | rEIvE
@@ -1253,7 +1256,13 @@
  12  9,1  - osE
  12 10,1  | osE
  12  9,1  - owE
+ 12  9,1  - peE
+ 12  9,1  - phI
+ 12  9,1  - piE
+ 12  9,1  - poI
+ 12  9,1  - psI
  12 10,1  | psI
+ 12  9,1  - pyE
  12 10,2  | rE
  12 10,2  | rEb
  12 10,2  | rEc
@@ -1859,6 +1868,15 @@
   9  7,3  - pEt
   9  5,8  | pIU
   9  3,9  - pLUtEI
+  9  9,1  - pUb
+  9  9,1  - pUd
+  9  9,1  - pUg
+  9  9,1  - pUl
+  9  9,1  - pUn
+  9  9,1  - pUp
+  9  9,1  - pUr
+  9  9,1  - pUs
+  9  9,1  - pUt
   9  5,8  | paVE
   9  9,1  | rEE
   9  9,1  | rEEd
@@ -2285,6 +2303,7 @@
   8  6,7  - oVInE
   8  6,5  - oVUm
   8  6,7  - oVUm
+  8  7,3  - pE
   8  5,3  | pElT
   8  5,3  | pEnT
   8  5,3  | pErT
@@ -2786,6 +2805,7 @@
   7  6,5  - oVEr
   7  6,7  - oVEr
   7  5,9  | oVa
+  7  3,8  | pE
   7  3,8  | pEa
   7  3,8  | pEc
   7  3,8  | pEd
@@ -3645,14 +3665,40 @@
   6  6,7  - oVa
   6  5,4  | ofT
   6  5,4  | orT
+  6  9,1  - pE
+  6  5,3  | pE
+  6  9,1  - pEa
+  6  9,1  - pEc
+  6  9,1  - pEd
+  6  9,1  - pEe
+  6  9,1  - pEg
+  6  9,1  - pEh
   6  9,1  | pEkE
   6  9,1  | pElE
+  6  9,1  - pEn
+  6  9,1  - pEp
+  6  9,1  - pEr
   6  9,1  | pErE
   6  9,1  | pErI
+  6  9,1  - pEs
+  6  9,1  - pEt
+  6  9,1  - pEw
+  6  9,1  - pI
   6  5,3  | pI
+  6  9,1  - pIa
+  6  9,1  - pIc
+  6  9,1  - pIe
+  6  9,1  - pIg
+  6  9,1  - pIn
+  6  9,1  - pIp
+  6  9,1  - pIs
+  6  9,1  - pIt
+  6  9,1  - pIu
+  6  9,1  - pIx
   6  3,9  - pLUg
   6  3,9  - pLUm
   6  3,9  - pLUs
+  6  7,3  - pe
   6  7,3  - po
   6  5,3  | qI
   6  9,1  - rE
@@ -5250,6 +5296,7 @@
   4  6,5  | pSEUd
   4  6,4  | pUSEs
   4  5,3  | pa
+  4  5,3  | pe
   4  3,8  | peE
   4  5,3  | pi
   4  5,8  | piE
@@ -6413,6 +6460,17 @@
   3  8,3  - ox
   3  9,1  - oy
   3  5,3  - oy
+  3  3,5  | pAd
+  3  3,5  | pAh
+  3  3,5  | pAl
+  3  3,5  | pAm
+  3  3,5  | pAn
+  3  3,5  | pAp
+  3  3,5  | pAs
+  3  3,5  | pAt
+  3  3,5  | pAw
+  3  3,5  | pAy
+  3  9,1  | pE
   3  9,1  | pEa
   3  3,5  - pEa
   3  9,1  | pEc
@@ -6436,9 +6494,14 @@
   3  6,4  | pUS
   3  6,4  | pUSh
   3  6,4  | pUSs
+  3  9,1  - pa
   3  3,8  | pa
   3  5,8  | pa
+  3  9,1  - pe
+  3  3,8  | pe
+  3  9,1  - pi
   3  5,8  | pi
+  3  9,1  - po
   3  5,8  | po
   3  3,5  | rAd
   3  3,5  | rAg
@@ -7473,6 +7536,8 @@
   2  6,4  | owSE
   2  5,9  | ox
   2  5,9  | oy
+  2  3,5  | pA
+  2  3,5  - pE
   2  6,4  | pES
   2  6,4  | pESo
   2  6,4  | pESt

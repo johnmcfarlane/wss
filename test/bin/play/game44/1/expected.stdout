@@ -6917,6 +6917,7 @@
   7  9,2  | pToSES
   7  8,3  | paINTS
   7  5,4  | paLMS
+  7  9,5  - paM
   7  5,1  | paSTILS
   7  8,2  | paTINS
   7  3,7  - phIS
@@ -6924,6 +6925,7 @@
   7  6,4  | plASMS
   7  8,3  | poINTS
   7  3,7  - poIS
+  7  9,5  - poM
   7  8,1  | poSTIN
   7  8,3  | prINTS
   7  3,7  - psIS
@@ -8993,6 +8995,7 @@
   6  8,4  | pINkS
   6  8,4  | pINoT
   6  8,4  | pINtS
+  6  9,5  - pIS
   6  9,2  | pISSEd
   6  9,2  | pISSEr
   6  9,2  | pISSEs
@@ -9004,6 +9007,7 @@
   6  9,2  | pIShES
   6  9,2  | pISsES
   6  9,2  | pIStES
+  6  9,5  - pIT
   6  9,2  | pITiES
   6  8,2  | pIToN
   6  6,2  | pITtA
@@ -11167,6 +11171,7 @@
   5  9,5  | pETtI
   5  9,5  | pErM
   5  9,5  | pEwITS
+  5  9,5  - pI
   5  9,4  | pIES
   5  9,4  | pIETa
   5  9,4  | pIETy
@@ -11175,17 +11180,27 @@
   5  2,7  - pISo
   5  2,5  - pITa
   5  2,7  - pITa
+  5  9,5  - pIa
   5  4,7  - pIa
   5  8,3  | pIaN
+  5  9,5  - pIc
+  5  9,5  - pIe
   5  4,7  - pIe
+  5  9,5  - pIg
   5  4,7  - pIg
+  5  9,5  - pIn
   5  4,7  - pIn
   5  8,3  | pIoN
+  5  9,5  - pIp
   5  9,3  | pIpETS
   5  8,3  | pIrN
+  5  9,5  - pIs
   5  4,7  - pIs
   5  9,2  | pIsTE
+  5  9,5  - pIt
   5  4,7  - pIt
+  5  9,5  - pIu
+  5  9,5  - pIx
   5  4,7  - pIx
   5  5,5  | pLIeS
   5  5,5  | pLaIT
@@ -13496,24 +13511,32 @@
   4  8,3  | paINS
   4  8,3  | paINT
   4  9,2  | paISE
+  4  9,5  - paS
   4  9,2  | paSSE
   4  9,2  | paSTE
+  4  9,5  - paT
   4  7,4  | paW
   4  8,3  | peINS
   4  9,2  | peISE
   4  5,4  | peLTS
+  4  9,5  - peS
+  4  9,5  - peT
   4  7,4  | peW
   4  6,4  | phASIS
   4  3,7  - phI
   4  5,4  | piLIS
+  4  9,5  - piS
   4  9,2  | piSTE
+  4  9,5  - piT
   4  6,4  | plAITS
   4  9,4  | poETS
+  4  9,5  - poI
   4  3,7  - poI
   4  8,3  | poINT
   4  9,2  | poISE
   4  5,4  | poLIS
   4  9,2  | poSSE
+  4  9,5  - poT
   4  7,4  | poW
   4  9,4  | prESS
   4  9,4  | prEST
@@ -16379,6 +16402,7 @@
   3  5,7  - on
   3  8,7  - on
   3  9,4  | onES
+  3  8,5  - op
   3  9,4  | opES
   3  8,5  - or
   3  5,7  - or
@@ -16474,6 +16498,7 @@
   3  3,7  - pSi
   3  6,3  | pSoAI
   3  6,3  | pSoAS
+  3  9,5  - pa
   3 10,4  | paDI
   3 10,4  | paDS
   3 10,3  | paID
@@ -16484,6 +16509,7 @@
   3  8,4  | paNT
   3  9,3  | paSE
   3  9,3  | paTE
+  3  9,5  - pe
   3  6,4  | peATS
   3 10,4  | peDS
   3  9,4  | peES
@@ -16491,6 +16517,7 @@
   3  5,4  | peLT
   3  8,4  | peNS
   3  8,4  | peNT
+  3  9,5  - pi
   3  9,4  | piES
   3  5,4  | piLI
   3  8,4  | piNS
@@ -16499,6 +16526,7 @@
   3  6,4  | plAIT
   3  6,4  | plATS
   3  9,3  | plIE
+  3  9,5  - po
   3 10,4  | poDS
   3  9,4  | poET
   3  5,4  | poLS
@@ -16831,6 +16859,7 @@
   3  8,5  - un
   3  8,7  - un
   3  6,4  | unAIS
+  3  8,5  - up
   3 10,4  | urDS
   3  8,4  | urNS
   3  8,7  - us
@@ -18553,6 +18582,7 @@
   2 10,4  | paD
   2  5,4  | paL
   2  8,4  | paN
+  2  4,5  - pe
   2  6,4  | peAS
   2  6,4  | peAT
   2 10,4  | peD
@@ -19412,6 +19442,7 @@
   1  6,5  | pAw
   1  6,5  | pAx
   1  6,5  | pAy
+  1  9,5  | pE
   1  9,5  | pEa
   1  9,5  | pEc
   1  9,5  | pEd

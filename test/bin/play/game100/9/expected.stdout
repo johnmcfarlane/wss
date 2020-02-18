@@ -862,6 +862,7 @@
  12  9,5  | nE
  12  9,5  | oE
  12  9,5  | pA
+ 12  9,5  | pE
  12 10,5  | pESADE
  12  9,5  | rE
  12  5,8  - rEAMS
@@ -877,11 +878,17 @@
  11  6,8  - ADMEn
  11  6,8  - AiMED
  11  6,8  - ArMED
+ 11  2,2  - DE
  11  1,7  | DEKeS
  11  2,11 - DEnSE
+ 11  1,2  - DeE
  11  1,7  | DeKES
+ 11  1,2  - DiE
  11  1,7  | DiKES
+ 11  1,2  - DoE
+ 11  1,2  - DuE
  11  1,7  | DuKES
+ 11  1,2  - DyE
  11  1,7  | DyKES
  11  4,8  | EF
  11  8,6  - JA
@@ -891,6 +898,7 @@
  11  7,7  - QI
  11  7,7  - QIs
  11  3,8  - RE
+ 11  1,2  - SAE
  11  1,2  - SEA
  11  5,10 - SEANCES
  11  5,3  - XIS
@@ -904,7 +912,9 @@
  11  6,4  - ZEk
  11  5,8  - bEAM
  11  5,8  - hAEM
+ 11  1,2  - iDE
  11  1,2  - oDA
+ 11  1,2  - oDE
  11  5,8  - rEAM
  10 10,6  | ADAgE
  10  1,2  - ADo
@@ -915,6 +925,7 @@
  10  6,8  - AlMES
  10  6,8  - AtMAS
  10 10,6  | DEAvE
+ 10  1,2  - DEe
  10 10,6  | DEnSE
  10  6,11 - DaY
  10  6,11 - DeY
@@ -957,27 +968,39 @@
  10  1,7  | wEKAS
   9  2,2  - AA
   9  7,7  | AA
+  9  2,2  - AE
   9  7,7  | AE
   9  1,8  | AKeE
   9  2,8  - ARe
   9  1,2  - AbA
+  9  1,2  - AcE
   9  6,8  - AcME
   9  1,2  - AgA
+  9  1,2  - AgE
   9  6,8  - AgMA
   9  1,2  - AhA
   9  6,8  - AiMS
   9  1,11 - AkEES
   9  1,2  - AlA
+  9  1,2  - AlE
   9  6,8  - AlMA
   9  6,8  - AlME
   9  6,8  - AlMS
   9  1,2  - AmA
   9  1,2  - AnA
+  9  1,2  - AnE
+  9  1,2  - ApE
+  9  1,2  - ArE
   9  1,11 - ArEAS
   9  6,8  - ArMS
+  9  1,2  - AtE
   9  6,8  - AtMA
   9  1,2  - AvA
+  9  1,2  - AvE
   9  1,2  - AwA
+  9  1,2  - AwE
+  9  1,2  - AxE
+  9  1,2  - AyE
   9  1,7  | DAKS
   9  1,11 - DEES
   9 10,9  - De
@@ -996,6 +1019,7 @@
   9  2,9  | NAh
   9  2,9  | NAm
   9  2,9  | NAn
+  9  2,9  | NAp
   9  2,9  | NAw
   9  2,9  | NAy
   9  2,9  | NEb
@@ -1004,30 +1028,44 @@
   9  1,11 - SEEDs
   9  1,8  | SKeE
   9  1,8  | SKuA
+  9  1,2  - SaE
   9  1,2  - SeA
+  9  1,2  - SeE
   9  1,2  - ShA
+  9  1,2  - ShE
   9  9,7  | Si
   9  1,2  - SkA
   9  9,7  | So
   9  1,2  - SpA
+  9  1,2  - SuE
   9  5,6  | WADES
   9  5,3  - XIs
   9  2,8  | aNA
   9  2,8  | aNE
   9  1,2  - bAA
   9  1,8  | eKES
+  9  1,2  - gAE
+  9  1,2  - hAE
   9  2,7  - hOS
+  9  1,2  - kAE
   9  1,2  - kEA
   9  1,2  - lEA
   9  4,2  - mABE
+  9  1,2  - mAE
+  9  1,2  - nAE
   9  1,8  | oKAS
   9  1,8  | oKES
   9  2,8  | oNE
+  9  1,2  - oSE
   9  1,2  - pEA
+  9  1,2  - sAE
   9  1,2  - sEA
   9  1,8  | sKAS
+  9  1,2  - tAE
   9  1,2  - tEA
   9  1,8  | uKES
+  9  1,2  - uSE
+  9  1,2  - wAE
   9  1,2  - yEA
   8  7,1  | AA
   8 10,9  - AA
@@ -1070,6 +1108,7 @@
   8  1,11 - DEEt
   8  1,7  | DEKe
   8  1,7  | DaKS
+  8  2,2  - De
   8  1,11 - DeES
   8  1,7  | DeKE
   8  1,11 - DiES
@@ -1108,8 +1147,10 @@
   8  1,7  | SAKE
   8  1,7  | SAKEr
   8  1,7  | SAKEs
+  8  1,2  - SAe
   8 10,6  | SArEE
   8  1,2  - SEa
+  8  1,2  - SEe
   8  1,2  - SEi
   8 10,6  | SEtAE
   8  6,11 - SaY
@@ -1273,6 +1314,7 @@
   7  2,2  - aA
   7  7,7  | aA
   7 10,9  - aD
+  7  2,2  - aE
   7  7,7  | aE
   7  7,7  - aIDES
   7  7,1  | aS
@@ -1280,17 +1322,20 @@
   7  2,2  - bA
   7  7,7  | bA
   7  1,7  | bAKE
+  7  2,2  - bE
   7  7,7  | bE
   7  2,11 - bEDS
   7  7,7  - bIDES
   7  1,7  | cAKE
   7  1,7  | dAKS
+  7  2,2  - dE
   7  9,7  | dE
   7  7,1  | eS
   7  7,1  | fA
   7  2,2  - fA
   7  9,7  | fA
   7  1,7  | fAKE
+  7  2,2  - fE
   7  9,7  | fE
   7  2,11 - fEDS
   7  2,11 - gEDS
@@ -1298,6 +1343,7 @@
   7  2,2  - hA
   7  7,7  | hA
   7  1,7  | hAKE
+  7  2,2  - hE
   7  7,7  | hE
   7  7,7  - hIDES
   7  7,1  | iS
@@ -1305,6 +1351,7 @@
   7  7,1  | jA
   7  2,2  - jA
   7  1,7  | jAKE
+  7  2,2  - jE
   7  7,1  | kA
   7  2,2  - kA
   7  7,7  | kA
@@ -1318,23 +1365,29 @@
   7  2,2  - mA
   7  7,7  | mA
   7  1,7  | mAKE
+  7  2,2  - mE
   7  7,7  | mE
   7  2,11 - mEDS
   7  7,1  | nA
   7  2,2  - nA
   7  9,7  | nA
+  7  2,2  - nE
   7  9,7  | nE
   7  7,7  - nIDES
   7  1,7  | oAKS
   7 10,9  - oD
+  7  2,2  - oE
   7  7,7  | oE
   7  7,8  - oMASA
   7  7,1  | oS
   7  7,1  | pA
   7  2,2  - pA
   7  7,7  | pA
+  7  2,2  - pE
+  7  7,7  | pE
   7  2,11 - pEDS
   7  1,7  | rAKE
+  7  2,2  - rE
   7  2,11 - rEDS
   7  7,7  - rIDES
   7  1,7  | sAKE
@@ -1345,18 +1398,21 @@
   7  9,7  | tA
   7  1,7  | tAKA
   7  1,7  | tAKE
+  7  2,2  - tE
   7  7,7  | tE
   7  9,7  | tE
   7  2,11 - tEDS
   7  7,7  - tIDES
   7  7,1  | uS
   7  1,7  | wAKE
+  7  2,2  - wE
   7  2,11 - wEDS
   7  1,7  | wEKA
   7  7,7  - wIDES
   7  7,1  | yA
   7  2,2  - yA
   7  1,7  | yAKS
+  7  2,2  - yE
   7  7,1  | zA
   7  2,2  - zA
   7  2,11 - zEDS
@@ -1394,6 +1450,7 @@
   6  2,2  - Aa
   6  1,11 - AbED
   6  1,11 - AcED
+  6  2,2  - Ae
   6  1,11 - AgED
   6  1,11 - AhED
   6  2,2  - Ai
@@ -1574,6 +1631,7 @@
   6  1,8  | oKA
   6  1,8  | oKE
   6  5,8  - pA
+  6  5,8  - pE
   6  2,11 - pEAS
   6  2,11 - pEES
   6  5,8  - rE
@@ -1759,6 +1817,7 @@
   5  8,8  - MoS
   5  8,8  - MuS
   5  3,1  | PA
+  5  3,1  | PE
   5  3,8  - Re
   5 10,7  | SADE
   5 10,7  | SADEs
@@ -1952,6 +2011,7 @@
   4  2,9  | No
   4  2,9  | Nu
   4  3,1  | Pa
+  4  3,1  | Pe
   4  3,1  | Pi
   4  3,1  | Po
   4  6,9  | RED
@@ -2058,6 +2118,8 @@
   4  7,8  - oM
   4 10,9  - oS
   4  2,10 - os
+  4 10,9  - pA
+  4 10,9  - pE
   4 10,8  | pEED
   4  1,11 - pEED
   4  7,7  - pIAS
@@ -2628,6 +2690,8 @@
   1 10,9  | oE
   1  2,11 - oE
   1  7,7  - oI
+  1 10,9  | pE
+  1  2,11 - pE
   1  7,7  - pI
   1  7,7  - qI
   1 10,9  | rE

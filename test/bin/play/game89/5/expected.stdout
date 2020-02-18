@@ -6,6 +6,7 @@
  38  5,3  - REX
  37  8,3  - EX
  37  8,3  - OX
+ 37  5,10 - VEXES
  36  6,3  - EX
  36  9,1  | REV
  35  3,3  - VEXER
@@ -14,25 +15,39 @@
  33  6,11 - VERTEX
  33  6,11 - VORTEX
  30 11,9  | KEX
+ 29  5,10 - RAXES
+ 29  5,10 - REXES
  28  7,11 - RETAX
+ 27  6,10 - AXES
  27  8,2  | DEX
+ 27  6,10 - EXES
+ 27  6,10 - OXES
  27  9,1  | VEER
  27  9,1  | VERA
  26  9,11 - TAX
  26  5,5  - VEX
  26  5,5  - VOX
  25 10,2  | MAX
+ 25  4,10 - REAVES
  24  9,1  | VEE
  24  4,3  - VEX
  24  4,3  - VOX
  23  5,10 - ARVOS
+ 23  5,10 - EAVES
+ 23  5,10 - OAVES
+ 23  5,10 - RAVES
+ 23  5,10 - ROVES
  22  5,5  - RAX
  22  5,5  - REX
  22  7,1  | VEX
+ 21  6,10 - AVES
  21  6,10 - AVOS
  21  6,5  - AX
+ 21  6,10 - EVES
  21  6,5  - EX
  21  6,5  - OX
+ 21  6,10 - VEES
+ 21  6,10 - VOES
  20  4,3  - AXE
  20  6,6  | NERVE
  20  6,6  | NEVER
@@ -73,15 +88,20 @@
  14  4,3  - EVE
  14  7,11 - EXTRA
  14 10,5  | OBA
+ 14 10,5  | OBE
  14  7,11 - OXTER
  14  9,3  - RAY
  14  6,1  | VOX
+ 13  6,10 - ARES
  13  4,5  - AXE
  13  4,7  - AXE
  13  6,10 - ERAS
  13  6,10 - EROS
+ 13  6,10 - ORES
  13  2,5  - REAVE
  13  2,7  - REAVE
+ 13  6,10 - REES
+ 13  6,10 - ROES
  12  3,5  - ARVO
  12  3,7  - ARVO
  12  3,3  - AVER
@@ -110,6 +130,7 @@
  10  4,5  - AVO
  10  4,7  - AVO
  10 10,6  | BA
+ 10 10,6  | BE
  10 10,6  | BO
  10  4,5  - EVE
  10  4,7  - EVE
@@ -118,6 +139,7 @@
  10  4,7  - OVA
  10  6,2  | OXO
  10  9,7  - PA
+ 10  9,7  - PE
  10  8,9  | PEA
  10  8,9  | PEE
  10  9,7  - PO
@@ -161,7 +183,9 @@
   8  3,7  - AERO
   8 10,5  - AN
   8  6,3  - ER
+  8  7,10 - OES
   8  7,10 - RAS
+  8  7,10 - RES
   8  7,5  | RIVE
   8  6,1  | ROVE
   8  7,4  | VAIR
@@ -176,6 +200,7 @@
   7  8,10 - AS
   7  7,11 - EATER
   7 11,8  | EKE
+  7  8,10 - ES
   7  7,11 - OATER
   7  8,1  | ODEA
   7  7,1  - OE
@@ -184,6 +209,7 @@
   7  8,10 - OS
   7  6,2  | OVA
   7  8,9  | PA
+  7  8,9  | PE
   7  8,9  | PO
   7  7,1  - RE
   7  7,11 - VAT

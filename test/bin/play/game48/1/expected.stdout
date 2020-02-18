@@ -1922,6 +1922,7 @@
  12  1,7  - nO
  12  1,7  - oE
  12  1,7  - pA
+ 12  1,7  - pE
  12  1,7  - pO
  12  4,3  | rABIES
  12  1,7  - rE
@@ -3140,6 +3141,7 @@
   7  6,4  | oBESE
   7  6,3  | oBOES
   7  5,4  | pACES
+  7  6,5  - pASEOS
   7  3,4  | pAuSES
   7  4,4  | pOISES
   7  5,4  | rACES
@@ -3581,10 +3583,18 @@
   6  5,4  | pACE
   6  5,4  | pACS
   6  4,4  | pAISE
+  6  6,5  - pASEO
+  6  6,5  - pASES
+  6  6,5  - pASSE
   6  5,4  | pECS
+  6  6,5  - pESOS
   6  4,5  | pISOS
   6  4,4  | pOISE
+  6  6,5  - pOSES
+  6  6,5  - pOSSE
+  6  6,5  - pSOAE
   6  4,2  | pSOAI
+  6  6,5  - pSOAS
   6  5,4  | rACE
   6  4,4  | rAISE
   6  6,5  - rASES
@@ -3902,13 +3912,18 @@
   5  6,5  - oSES
   5  6,5  - oSSA
   5  5,4  | pAC
+  5  6,5  - pASE
   5  6,3  | pASEOS
+  5  6,5  - pASS
   5  3,4  | pAuSE
+  5  6,5  - pEAS
   5  5,4  | pEC
+  5  6,5  - pESO
   5  4,5  | pIAS
   5  4,5  | pIES
   5  4,5  | pISO
   5  4,5  | pISS
+  5  6,5  - pOSE
   5  3,5  | puSES
   5  3,5  | quASS
   5  6,5  - rASE
@@ -4602,10 +4617,13 @@
   3  6,5  - oES
   3  6,5  - oSE
   3  6,4  | oSES
+  3  6,5  - pAS
   3  6,3  | pASE
+  3  6,5  - pEA
   3  6,5  | pEAS
   3  6,4  | pEES
   3  6,5  | pEES
+  3  6,5  - pES
   3  6,5  | pESO
   3  4,4  | pOIS
   3  6,3  | pOSE
@@ -4889,6 +4907,8 @@
   2  6,5  | oES
   2  6,5  - oS
   2  6,4  | oSE
+  2  6,5  - pA
+  2  6,5  - pE
   2  6,5  | pEA
   2  6,4  | pEE
   2  6,5  | pEE
@@ -4896,6 +4916,7 @@
   2  4,5  | pIA
   2  4,5  | pIE
   2  4,5  | pIS
+  2  6,5  - pO
   2  4,4  | pOI
   2  4,4  | pSI
   2  3,5  | puS
@@ -4998,6 +5019,7 @@
   1  6,5  | nE
   1  6,5  | oE
   1  4,5  | oI
+  1  6,5  | pE
   1  4,5  | pI
   1  4,5  | qI
   1  6,5  | rE

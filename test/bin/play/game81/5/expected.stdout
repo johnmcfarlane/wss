@@ -30,6 +30,9 @@
  46  9,11 - ReP
  44  9,11 - hEP
  44  9,11 - rEP
+ 41  8,9  - EPEe
+ 41  8,9  - EPOs
+ 40  8,9  - EPeE
  40  5,2  - TORPEdO
  40  1,11 - TaRPON
  39  1,11 - OPERoN
@@ -81,6 +84,7 @@
  30  1,11 - TENsOR
  30  3,11 - sPORE
  29  1,11 - ENROoT
+ 29  6,9  - NEEP
  29  9,11 - NET
  29  3,11 - PRObE
  29  3,11 - PROlE
@@ -123,6 +127,7 @@
  25  8,9  - ENOw
  25 11,8  | ERsT
  25  9,11 - NeE
+ 25  6,9  - NeEP
  25  9,11 - NeT
  25 11,8  | OPs
  25  6,9  - PEEN
@@ -134,10 +139,15 @@
  25 11,8  | ROsE
  25  3,11 - TrONE
  25  3,11 - aTONE
+ 25  6,9  - bEEP
  25  3,11 - cRONE
  25  3,11 - dRONE
  25  3,11 - iRONE
+ 25  6,9  - jEEP
+ 25  6,9  - kEEP
  25  3,11 - kRONE
+ 25  6,9  - nEEP
+ 25  6,9  - pEEP
  25  3,11 - pRONE
  25  1,11 - rEPRO
  25  3,11 - sTONE
@@ -187,6 +197,7 @@
  22  2,11 - REwON
  22  2,11 - RePO
  22  2,11 - TEnON
+ 22  7,2  | TRaPAN
  22  2,11 - ToPO
  22  2,11 - TyPO
  22  2,11 - bETON
@@ -280,6 +291,7 @@
  18  2,11 - ERgOT
  18  6,2  - NOPE
  18  5,5  - NOPE
+ 18  7,3  | NaPA
  18  5,2  - OPiNE
  18  1,5  - ORPiNE
  18  1,7  - ORPiNE
@@ -332,11 +344,13 @@
  17  3,11 - NEOn
  17  3,9  - NEaP
  17  3,11 - NOiR
+ 17 10,3  | NaPa
  17 10,9  - OP
  17  2,5  - OPiNE
  17  2,7  - OPiNE
  17  6,9  - PEEd
  17  6,9  - PEEn
+ 17  6,9  - PEEp
  17  6,9  - PEEr
  17  3,9  - PEaN
  17  6,9  - POEm
@@ -442,6 +456,7 @@
  16  5,2  - TRiPE
  16  5,2  - TRoPE
  16  4,5  - TRoPE
+ 16  7,3  | TaPA
  16  5,2  - TrOPE
  16  5,5  - cEPE
  16  5,5  - cOPE
@@ -490,6 +505,7 @@
  15  5,2  - OPERa
  15  2,5  - OPERa
  15  2,7  - OPERa
+ 15  7,5  | PAN
  15  1,5  - PERNiO
  15  1,7  - PERNiO
  15  3,9  - PEaT
@@ -573,6 +589,7 @@
  15  7,5  - lEONE
  15  2,7  - mONTERO
  15  3,11 - tROT
+ 14 10,4  | EPacT
  14  3,11 - EROs
  14  6,2  | EnORM
  14  6,2  - ExPO
@@ -589,6 +606,7 @@
  14  3,7  - NoPE
  14  5,11 - ONE
  14  4,2  - ORNaTE
+ 14  9,3  | PE
  14  2,5  - PENgO
  14  2,7  - PENgO
  14  3,5  - PERe
@@ -645,8 +663,12 @@
  14  2,5  - PRuNE
  14  2,7  - PRuNE
  14  5,5  - PaNE
+ 14 10,5  | PaNdORE
  14  6,2  - PaRE
  14  6,2  - PaTE
+ 14 10,5  | PaTtERN
+ 14 10,5  | PasTERN
+ 14 10,5  | PatTERN
  14  6,2  - PeRE
  14  4,7  - PhOTO
  14  5,5  - PoNE
@@ -762,6 +784,7 @@
  13  2,11 - EuRO
  13  6,9  - NEEd
  13  6,9  - NEEm
+ 13  6,9  - NEEp
  13  3,5  - NOPe
  13  3,7  - NOPe
  13  3,11 - NoO
@@ -769,6 +792,7 @@
  13  3,5  - ORNaTE
  13  1,7  - ORNaTE
  13 11,9  | Os
+ 13  7,5  | PAT
  13  5,7  | PENGO
  13  2,7  - PEONy
  13  6,2  - PERe
@@ -817,6 +841,13 @@
  13  5,8  - PRoVEN
  13  2,5  - PaNTO
  13  2,7  - PaNTO
+ 13 10,5  | PaNdER
+ 13 10,5  | PaNiER
+ 13 10,5  | PaNnER
+ 13 10,5  | PaNzER
+ 13 10,5  | PanNER
+ 13 10,5  | PawNER
+ 13 10,5  | PawNOR
  13  2,5  - PhONE
  13  2,7  - PhONE
  13  2,5  - PiNTO
@@ -879,6 +910,7 @@
  13  4,5  - TrONE
  13  2,11 - TyRO
  13  2,11 - aERO
+ 13 10,4  | aPaRT
  13  4,5  - aRENE
  13  4,5  - aTONE
  13  6,9  - bEER
@@ -986,9 +1018,21 @@
  12  7,3  | Pa
  12  9,3  | Pa
  12  4,9  - PaN
+ 12 10,5  | PaNE
+ 12 10,5  | PaNT
  12  2,5  - PaREO
  12  2,7  - PaREO
+ 12 10,5  | PaRkER
+ 12 10,5  | PaRlOR
+ 12 10,5  | PaRsER
  12  5,5  - PaTE
+ 12 10,5  | PaTtER
+ 12 10,5  | PaTzER
+ 12 10,5  | PalTER
+ 12 10,5  | PasTER
+ 12 10,5  | PasTOR
+ 12 10,5  | PatTER
+ 12  9,3  | Pe
  12  6,9  - PeE
  12  5,7  | PeNGO
  12  9,3  | Pi
@@ -1208,6 +1252,16 @@
  11  8,7  - OOT
  11  4,5  - OPE
  11  4,7  - OPE
+ 11  7,5  | PAd
+ 11  7,5  | PAh
+ 11  7,5  | PAl
+ 11  7,5  | PAm
+ 11  7,5  | PAn
+ 11  7,5  | PAp
+ 11  7,5  | PAs
+ 11  7,5  | PAt
+ 11  7,5  | PAw
+ 11  7,5  | PAy
  11  6,3  | PERMiT
  11  5,8  - PERV
  11  5,8  - PERVs
@@ -1220,10 +1274,20 @@
  11  5,8  - PROVe
  11  7,1  | PROa
  11  5,8  - PRoVE
+ 11 10,5  | PaN
  11  5,7  | PaNG
+ 11 10,5  | PaNe
+ 11 10,5  | PaNg
+ 11 10,5  | PaNs
+ 11 10,5  | PaNt
+ 11 10,5  | PaRE
+ 11 10,5  | PaRT
  11  5,8  - PaRVE
  11  5,8  - PaRVO
+ 11 10,5  | PaTE
  11  6,8  - PaVER
+ 11 10,5  | PaiN
+ 11 10,5  | PawN
  11  5,7  | PiNG
  11  6,8  - PiVOT
  11  5,7  | PoNG
@@ -1359,6 +1423,7 @@
  11  7,5  | nAP
  11  3,5  - nOPE
  11  3,7  - nOPE
+ 11  7,5  | pAP
  11  3,5  - pEPO
  11  3,7  - pEPO
  11  3,5  - pOPE
@@ -1447,6 +1512,10 @@
  10  5,11 - OsE
  10  5,2  - OuTRE
  10  5,11 - OwE
+ 10  7,5  | PA
+ 10  5,5  - PE
+ 10  7,5  - PE
+ 10  5,7  - PE
  10  6,3  | PERM
  10  6,3  | PERMs
  10  7,2  | PEa
@@ -1477,10 +1546,37 @@
  10  6,3  | PRiMO
  10  5,4  - PRoBE
  10  6,3  | PRoMO
+ 10 10,5  | PaR
  10  5,7  | PaRGE
  10  5,7  | PaRGO
+ 10 10,5  | PaRa
+ 10 10,5  | PaRd
+ 10 10,5  | PaRe
+ 10 10,5  | PaRk
+ 10 10,5  | PaRr
+ 10 10,5  | PaRs
+ 10 10,5  | PaRt
+ 10 10,5  | PaT
  10  4,9  - PaT
+ 10 10,5  | PaTe
+ 10 10,5  | PaTh
+ 10 10,5  | PaTs
+ 10 10,5  | PaTy
  10  6,8  - PaVE
+ 10 10,5  | PacE
+ 10 10,5  | PacT
+ 10 10,5  | PagE
+ 10 10,5  | PaiR
+ 10 10,5  | PalE
+ 10 10,5  | PanE
+ 10 10,5  | PanT
+ 10 10,5  | ParE
+ 10 10,5  | ParR
+ 10 10,5  | ParT
+ 10 10,5  | PasE
+ 10 10,5  | PasT
+ 10 10,5  | PatE
+ 10 10,5  | PavE
  10  4,5  - PeE
  10  4,7  - PeE
  10  5,8  - PeRV
@@ -1807,6 +1903,7 @@
   9  3,7  - OgRE
   9  2,5  - OuTRE
   9  2,7  - OuTRE
+  9 10,5  - PE
   9  5,8  | PEG
   9  5,8  | PEGs
   9  4,5  - PEa
@@ -1836,6 +1933,20 @@
   9  4,7  - PRo
   9  6,3  | PRoM
   9  4,7  - PRy
+  9 10,5  | Pa
+  9 10,5  | Pac
+  9 10,5  | Pad
+  9 10,5  | Pah
+  9 10,5  | Pal
+  9 10,5  | Pam
+  9 10,5  | Pan
+  9 10,5  | Pap
+  9 10,5  | Par
+  9 10,5  | Pas
+  9 10,5  | Pat
+  9 10,5  | Paw
+  9 10,5  | Pax
+  9 10,5  | Pay
   9  6,3  | PeRM
   9  5,4  - PlEB
   9  6,3  | PoEM
@@ -2192,6 +2303,8 @@
   8  5,7  - Pa
   8  5,8  | PaGE
   8  6,4  | PaM
+  8  5,5  - Pe
+  8  5,7  - Pe
   8  5,7  - Pi
   8  5,5  - Po
   8  5,7  - Po
@@ -2635,6 +2748,7 @@
   7  4,5  - OwE
   7  4,7  - OwE
   7  6,9  | PAN
+  7  8,2  - PE
   7  6,8  | PEAR
   7  6,8  | PEAT
   7 10,8  | PERT
@@ -2886,6 +3000,7 @@
   7  4,5  - oRE
   7  4,7  - oRE
   7  7,8  - oVER
+  7  7,5  | pAN
   7  5,8  - pERV
   7  4,5  - pRO
   7  4,7  - pRO
@@ -3290,6 +3405,9 @@
   6  5,11 - oE
   6  6,5  | oMER
   6  5,11 - oR
+  6  9,3  | pE
+  6  5,5  - pE
+  6  5,7  - pE
   6  6,3  | pERM
   6 10,8  | pERP
   6  9,3  | pO
@@ -3489,6 +3607,7 @@
   5 10,9  | PRy
   5  8,2  - Pa
   5 10,8  | PaR
+  5  8,2  - Pe
   5  6,8  | PeA
   5 10,8  | PeR
   5  8,2  - Pi
@@ -3671,9 +3790,11 @@
   5  7,2  - oNO
   5  6,4  - oRB
   5  6,9  | pAP
+  5  7,5  | pAT
   5  5,8  | pEG
   5  4,11 - pO
   5  6,4  | pOM
+  5 10,5  | paP
   5  6,9  | rAP
   5  7,5  | rAT
   5  6,11 - rE
@@ -3962,6 +4083,8 @@
   4  6,8  | pEAN
   4 10,8  | pORN
   4  7,2  - pRO
+  4 10,5  | paNE
+  4 10,5  | paNT
   4  6,8  | rOAN
   4  7,2  - rOE
   4 10,5  | raNT
@@ -4274,6 +4397,7 @@
   3  7,9  - oE
   3  7,9  | oN
   3  6,9  | pAN
+  3  8,2  - pE
   3  6,8  | pEAR
   3  6,8  | pEAT
   3 10,8  | pERT
@@ -4282,6 +4406,10 @@
   3 10,8  | pORT
   3  6,8  | pRAO
   3  6,8  | pRAT
+  3 10,5  | paN
+  3 10,5  | paRE
+  3 10,5  | paRT
+  3 10,5  | paTE
   3  6,9  | rAN
   3  8,2  - rE
   3  6,8  | rEAR
@@ -4568,11 +4696,15 @@
   2 10,9  | oRT
   2 10,5  | oaR
   2 10,5  | oaT
+  2  7,5  | pA
   2  6,9  | pAR
   2  6,9  | pAT
+  2  7,5  - pE
   2  6,8  | pEA
   2 10,8  | pER
   2 10,9  | pRO
+  2 10,5  | paR
+  2 10,5  | paT
   2  6,9  | qAT
   2  6,9  | rAT
   2  9,9  | rE
@@ -4701,6 +4833,8 @@
   1 10,5  | na
   1 10,9  | oR
   1  6,9  | pA
+  1 10,5  - pE
+  1 10,5  | pa
   1  6,9  | tA
   1 10,5  - tE
   1 10,5  | ta

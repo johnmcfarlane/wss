@@ -804,6 +804,7 @@
  10  9,5  | pOD
  10  9,5  | pOL
  10  5,1  | pOLO
+ 10  6,5  - pOUND
  10  9,5  | rOD
  10  6,5  - rOUND
  10  2,2  | sNOOT
@@ -1026,6 +1027,8 @@
   8  1,4  - mUNGO
   8  6,5  - mUON
   8  6,5  - nOUN
+  8  6,5  - pLOD
+  8  6,5  - pOND
   8  7,7  - rADON
   8  7,7  - sALON
   8  7,7  - tALON
@@ -1316,6 +1319,9 @@
   7  6,3  | oLDEN
   7  1,4  - pLUG
   7  5,2  | pOO
+  7  6,5  - pOOD
+  7  6,5  - pOOL
+  7  6,5  - pOON
   7  6,3  | pULED
   7  1,4  - pUNG
   7  7,7  - rAND
@@ -1534,6 +1540,7 @@
   6  6,5  - mONO
   6  6,5  - nOLO
   6  6,3  | pOLED
+  6  6,5  - pOLO
   6  1,4  - pONG
   6  2,9  | rE
   6  6,3  | rOUEN
@@ -1842,8 +1849,11 @@
   5  6,4  | pLED
   5  5,3  | pO
   5  6,3  | pOOED
+  5  6,5  - pUD
   5  2,4  - pUG
+  5  6,5  - pUL
   5  6,3  | pULE
+  5  6,5  - pUN
   5  2,3  | pUNT
   5  7,7  - rAD
   5  7,7  - rAN
@@ -2045,6 +2055,8 @@
   4  6,4  | oLEO
   4  6,5  - oNO
   4  2,3  | pLOT
+  4  6,5  - pOD
+  4  6,5  - pOL
   4  6,3  | pOLE
   4  6,3  | pONE
   4  2,3  | pOUT
@@ -2275,6 +2287,7 @@
   3  2,4  | oUT
   3  6,5  | pED
   3  6,5  | pEN
+  3  6,5  - pOO
   3  2,4  | pUT
   3  6,5  | rED
   3  2,3  | rOOT
@@ -2358,6 +2371,7 @@
   2  6,5  - nO
   2  2,4  | nOT
   2  2,4  | oOT
+  2  6,5  - pO
   2  2,4  | pOT
   2  6,4  | rOE
   2  2,4  | rOT
@@ -2428,6 +2442,7 @@
   1  6,5  | oE
   1  7,7  - pA
   1  6,8  | pA
+  1  6,5  | pE
   1  6,5  | rE
   1  7,7  - tA
   1  6,8  | tA

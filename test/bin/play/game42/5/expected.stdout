@@ -100,6 +100,7 @@
  28  8,4  | WHEEZE
  27  3,11 - SPRITeS
  25  6,10 - RASE
+ 25 10,1  | WIPe
  25  5,10 - eRASE
  25  5,10 - pRASE
  25  5,10 - uRASE
@@ -166,8 +167,12 @@
  22  6,1  | tWIRPS
  21  3,11 - CReST
  21  3,11 - CRuST
+ 21 10,1  | CaP
  21 10,1  | CaW
+ 21 10,1  | CeP
+ 21 10,1  | CoP
  21 10,1  | CoW
+ 21 10,1  | CuP
  21  3,11 - CuRST
  21  3,11 - PRInT
  21  3,11 - PReST
@@ -196,6 +201,7 @@
  21  3,11 - WReST
  21  3,11 - WRiST
  21  3,11 - WaIST
+ 21 10,1  | WaP
  21  3,11 - WhIST
  21  3,11 - WoRST
  21  3,11 - WrIST
@@ -247,7 +253,10 @@
  20  6,2  | sPICS
  20  8,4  | wHEEZER
  19  6,10 | Pa
+ 19  6,10 | Pe
  19  6,10 | Pi
+ 19 10,1  | RIPe
+ 19 10,1  | SIPe
  19  6,3  - SPICaE
  19  6,3  - SPeCIE
  19  6,3  - SWIPlE
@@ -267,7 +276,10 @@
  17  9,3  | CoIL
  17  5,3  - PReCISE
  17  9,3  | PaIL
+ 17 10,1  | RIP
+ 17 10,1  | SIP
  17  4,9  - SIlVEX
+ 17 10,2  | SPa
  17  9,3  | WaIL
  16 10,1  | CIRe
  16  7,3  - CRIPE
@@ -304,9 +316,13 @@
  16  8,4  | wHEEZE
  15  6,3  - CoRPSE
  15  7,3  - CrIPE
+ 15 10,1  | ImP
  15  9,2  | PICaL
  15  7,3  - PrICE
+ 15 10,1  | RaP
  15 10,1  | RaW
+ 15 10,1  | ReP
+ 15 10,1  | RiP
  15 10,1  | RoW
  15  6,3  - SCRaPE
  15  2,5  - SPICa
@@ -314,10 +330,28 @@
  15  9,2  | SPIeL
  15  6,3  - SPRuCE
  15  2,5  - SWIPe
+ 15 10,1  | SaP
  15 10,1  | SaW
  15 10,1  | SeW
+ 15 10,1  | SiP
+ 15 10,1  | SoP
  15 10,1  | SoW
+ 15 10,1  | SuP
  15  7,2  | WhISK
+ 15 10,1  | aSP
+ 15 10,1  | dIP
+ 15 10,1  | gIP
+ 15 10,1  | hIP
+ 15 10,1  | kIP
+ 15 10,1  | lIP
+ 15 10,1  | nIP
+ 15 10,1  | pIP
+ 15 10,1  | rIP
+ 15 10,1  | sIP
+ 15 10,1  | tIP
+ 15 10,1  | uRP
+ 15 10,1  | yIP
+ 15 10,1  | zIP
  14  3,10 - CIRcA
  14  6,2  | CIReS
  14  6,2  | CIStS
@@ -449,7 +483,9 @@
  13 10,2  | aW
  13  7,2  | bRISK
  13  7,2  | fRISK
+ 13 10,2  | oP
  13 10,2  | oW
+ 13 10,2  | uP
  13  6,3  - uPRISE
  12  2,5  - CRIPe
  12  6,3  | CRISPS
@@ -542,6 +578,7 @@
  11  3,7  - PISo
  11 10,1  | PIa
  11 10,1  | PIn
+ 11 10,1  | PIp
  11 10,1  | PIt
  11  7,3  - PRaSE
  11  7,3  - PReSE
@@ -550,6 +587,8 @@
  11  7,3  - PRoSE
  11 10,1  | PRy
  11 10,1  | PSt
+ 11 10,3  | Pa
+ 11 10,3  | Pe
  11  6,3  | RIPSaW
  11  7,3  | RIsK
  11  9,3  | RaIL
@@ -1124,11 +1163,13 @@
   5  8,5  - Ha
   5  8,5  - He
   5 10,1  | ISm
+  5 10,3  - PE
   5  6,5  | PSi
   5  6,5  | PSt
   5  5,5  - Pa
   5  6,4  | PaS
   5  5,11 - PaT
+  5  5,5  - Pe
   5  6,4  | PeS
   5  5,11 - PeT
   5  5,11 - PhT
@@ -1151,6 +1192,7 @@
   5 10,1  | RIm
   5 10,1  | RIn
   5  7,3  - RInSE
+  5 10,1  | RIp
   5 10,3  | Re
   5  9,11 - SIR
   5  8,3  - SIRE
@@ -1159,6 +1201,7 @@
   5 10,1  | SIb
   5 10,1  | SIm
   5 10,1  | SIn
+  5 10,1  | SIp
   5 10,1  | SIr
   5 10,1  | SIt
   5  6,6  | SPa
@@ -1613,6 +1656,7 @@
   1 10,3  - nE
   1 10,3  - oE
   1  6,5  | oS
+  1 10,3  - pE
   1 10,3  - rE
   1 10,3  - tE
   1  6,5  | uS

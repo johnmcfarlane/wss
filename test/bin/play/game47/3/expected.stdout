@@ -1073,6 +1073,8 @@
  12  5,1  | SkItE
  12  5,1  | SlIdE
  12  5,1  | SlImE
+ 12  5,1  | SlIpE
+ 12  5,1  | SlOpE
  12  5,1  | SmItE
  12  5,1  | SmOtE
  12  5,1  | SpIRe
@@ -1085,9 +1087,11 @@
  12  5,1  | StERe
  12  5,1  | StEnO
  12  5,1  | StImE
+ 12  5,1  | StIpE
  12  5,1  | StORe
  12  5,1  | StOaE
  12  5,1  | StOnE
+ 12  5,1  | StOpE
  12  5,1  | StOrE
  12  6,6  - YOREs
  12  6,6  - YOwIE
@@ -1273,6 +1277,7 @@
  10  2,6  - OneRY
  10  5,5  | OoRIE
  10  5,5  | OozIER
+ 10  5,3  | OpE
  10  5,3  | OrE
  10  7,3  | OrE
  10  7,3  | OsE
@@ -1768,22 +1773,28 @@
   9  5,1  | ShEw
   9  5,1  | ShIm
   9  5,1  | ShIn
+  9  5,1  | ShIp
   9  5,1  | ShIt
   9  5,1  | ShOd
   9  5,1  | ShOo
+  9  5,1  | ShOp
   9  5,1  | ShOt
   9  5,1  | ShOw
+  9  5,1  | SkEp
   9  5,1  | SkEw
   9  5,1  | SkId
   9  5,1  | SkIm
   9  5,1  | SkIn
+  9  5,1  | SkIp
   9  5,1  | SkIt
   9  5,1  | SlEd
   9  5,1  | SlEw
   9  5,1  | SlId
   9  5,1  | SlIm
+  9  5,1  | SlIp
   9  5,1  | SlIt
   9  5,1  | SlOb
+  9  5,1  | SlOp
   9  5,1  | SlOt
   9  5,1  | SlOw
   9  5,1  | SmEw
@@ -1796,12 +1807,14 @@
   9  5,1  | SpIt
   9  5,1  | SpOt
   9  5,1  | StEm
+  9  5,1  | StEp
   9  5,1  | StEt
   9  5,1  | StEw
   9  5,1  | StEy
   9  5,1  | StIr
   9  5,1  | StOa
   9  5,1  | StOb
+  9  5,1  | StOp
   9  5,1  | StOt
   9  5,1  | StOw
   9  5,4  | aEOn
@@ -1844,11 +1857,14 @@
   9  4,2  - nOIsE
   9  5,5  | oORiE
   9  5,5  | oOrIE
+  9  5,4  | pEOn
   9  3,4  - pEREIOn
   9  3,3  - pIONEeR
   9  2,4  - pIOnEER
   9  4,2  - pOIsE
+  9  5,4  | pOoRI
   9  3,3  - phONIER
+  9  5,4  | poORI
   9  4,3  - sENIOR
   9  4,2  - shIRE
   9  3,3  - stONIER
@@ -2110,6 +2126,7 @@
   8  3,3  - OpINE
   8  3,3  - OpINEd
   8  3,3  - OpINEs
+  8  5,3  | Ope
   8  5,6  | OrIEl
   8  7,6  | OrIEl
   8  5,6  | OrRIs
@@ -2331,13 +2348,17 @@
   8  5,5  | ooRIE
   8  8,5  - pERK
   8  3,3  - pERNIO
+  8  5,4  | pEaR
   8  2,3  - pEpINO
   8  4,3  - pINOlE
   8  3,3  - pIONeER
   8  3,3  - pOINtER
   8  8,5  - pORK
   8  3,3  - pORNIEr
+  8  5,4  | pOmE
+  8  5,4  | pOoR
   8  3,3  - pOrNIER
+  8  5,4  | poOR
   8  5,4  | rEaR
   8  7,4  | rEaR
   8  3,4  - rEzERO
@@ -2725,6 +2746,7 @@
   7  5,5  | OozE
   7  5,6  | OozE
   7  7,6  | OozE
+  7  5,3  | Op
   7  3,3  - OpENeR
   7  5,6  | OpInE
   7  7,6  | OpInE
@@ -2853,9 +2875,11 @@
   7  5,4  | Rob
   7  5,4  | Rom
   7  2,3  - RusINE
+  7  5,1  | SOap
   7  5,1  | SOar
   7  5,1  | SOon
   7  5,1  | SOot
+  7  5,1  | SOup
   7  5,1  | SOur
   7  5,1  | ShoO
   7  5,1  | SluR
@@ -3259,6 +3283,7 @@
   7  7,6  | ouRIE
   7  3,3  - pERNIo
   7  3,3  - pERNOd
+  7  5,4  | pEa
   7  8,5  - pEaK
   7  8,5  - pEcK
   7  8,5  - pEeK
@@ -3277,6 +3302,8 @@
   7  4,3  - pONdER
   7  2,3  - pORINg
   7  8,5  - pOcK
+  7  5,4  | pOm
+  7  5,4  | pOo
   7  8,5  - pOrK
   7  2,3  - pRION
   7  2,3  - pRIONs
@@ -3284,6 +3311,7 @@
   7  4,3  - paNIER
   7  3,3  - peRNIO
   7  4,3  - piNIER
+  7  5,4  | poO
   7  4,3  - puNIER
   7  2,3  - puRINE
   7  2,3  - pyRONE
@@ -4303,8 +4331,10 @@
   6  8,5  - amOK
   6  5,3  | anE
   6  7,3  | anE
+  6  5,3  | apE
   6  5,6  | apER
   6  7,6  | apER
+  6  5,3  | apO
   6  5,3  | arE
   6  7,3  | arE
   6  5,3  | atE
@@ -4793,6 +4823,7 @@
   6  5,3  | onE
   6  7,3  | onE
   6  5,3  | onO
+  6  5,3  | opE
   6  3,3  - opINE
   6  5,3  | orE
   6  7,3  | orE
@@ -4983,6 +5014,7 @@
   6  1,4  - uREIdE
   6  8,4  - uRIC
   6  5,3  | udO
+  6  5,3  | upO
   6  3,3  - urINE
   6  7,3  | usE
   6  5,3  | utE
@@ -9816,6 +9848,7 @@
   4  3,3  - oxEN
   4  5,6  | oxO
   4  7,6  | oxO
+  4  5,4  | pE
   4  4,3  - pEN
   4  4,3  - pENd
   4  4,3  - pENs
@@ -9856,6 +9889,7 @@
   4  3,6  - pIpY
   4  3,6  - pItY
   4  3,6  - pIxY
+  4  5,4  | pO
   4  4,2  - pOI
   4  4,3  - pONd
   4  4,3  - pONe
@@ -11750,6 +11784,7 @@
   3  5,6  | on
   3  7,6  | on
   3  4,5  - ooRIE
+  3  5,3  | op
   3  5,6  | op
   3  7,6  | op
   3  5,3  | or
@@ -12035,6 +12070,7 @@
   3  7,3  | um
   3  5,3  | un
   3  7,3  | un
+  3  5,3  | up
   3  7,3  | us
   3  5,3  | ut
   3  7,3  | ut
@@ -13495,12 +13531,14 @@
   2  5,5  - pROw
   2  5,5  - pRaO
   2  5,5  - pReE
+  2  5,4  | pa
   2  3,5  - paIR
   2  4,3  - paN
   2  3,4  - paRE
   2  4,5  - paRE
   2  3,5  - paRR
   2  4,5  - paRR
+  2  5,4  | pe
   2  4,4  - peER
   2  3,5  - peER
   2  4,3  - peN
@@ -13512,6 +13550,7 @@
   2  3,5  - piER
   2  4,3  - piN
   2  3,4  - plIE
+  2  5,4  | po
   2  4,2  - poI
   2  3,5  - poOR
   2  3,4  - poRE
@@ -14230,6 +14269,7 @@
   1  4,5  - ouR
   1  4,4  - owE
   1  9,3  - oxO
+  1  5,4  - pE
   1  5,4  - pEa
   1  5,4  - pEc
   1  5,4  - pEd

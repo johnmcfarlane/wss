@@ -2225,6 +2225,7 @@
   7  2,5  - pAN
   7  2,7  - pAN
   7  7,5  | pEARL
+  7  7,5  - pLAN
   7  6,5  | pYRAN
   7  2,7  - rAD
   7  4,3  | rADAR
@@ -2820,11 +2821,15 @@
   6  6,7  - oR
   6  7,5  - oRAD
   6  7,5  - oRAL
+  6  7,5  - pAD
   6  7,2  | pADRE
+  6  7,5  - pAL
   6  7,3  | pALED
   6  6,3  | pALY
+  6  7,5  - pAN
   6  7,3  | pANED
   6  7,3  | pANEL
+  6  7,5  - pARD
   6  7,2  | pARLE
   6  6,3  | pLAY
   6  7,4  | pLEAD
@@ -3672,6 +3677,7 @@
   4  7,3  | oRLE
   4  7,3  | pALE
   4  7,3  | pANE
+  4  7,5  - pAR
   4  6,4  | pAY
   4  7,5  | pEAL
   4  7,5  | pEAN
@@ -4151,6 +4157,7 @@
   2  7,5  - oR
   2  4,4  | oRA
   2  7,4  | oRE
+  2  7,5  - pA
   2  4,5  | pAR
   2  7,5  | pEA
   2  7,5  | pER
@@ -4213,6 +4220,7 @@
   1  7,5  | nE
   1  7,5  | oE
   1  4,5  | pA
+  1  7,5  | pE
   1  7,5  | rE
   1  4,5  | tA
   1  7,5  | tE

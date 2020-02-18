@@ -6,6 +6,7 @@
  23 10,3  | LETS
  23 10,15 - RELETS
  23 10,15 - STREEL
+ 23  5,15 - TEES
  23 11,11 | TELS
  22 11,12 | ELS
  22 11,11 | LEES
@@ -36,13 +37,17 @@
  20 10,15 - RELET
  20 11,12 | RES
  20 10,15 - RESTER
+ 20  5,15 - SEE
  20 10,15 - SLEET
  20 10,15 - STEEL
  20 10,15 - STELE
+ 20  5,15 - TEE
  20 10,15 - TEELS
  20 10,15 - TELES
  20 10,15 - TERSER
+ 19  3,15 - ELSE
  19 11,13 | ES
+ 19  2,15 - TERSE
  18  2,15 - EELS
  18 10,15 - LEER
  18  2,15 - LEES
@@ -79,7 +84,9 @@
  17 10,15 - TELS
  17 10,15 - TERSE
  17 10,15 - TREES
+ 16  3,15 - RETE
  16  6,2  | STEEP
+ 16  2,7  - STREEL
  16  6,2  | STREP
  16  5,14 - UpSIZES
  15 10,2  | EELS
@@ -97,39 +104,63 @@
  15 10,2  | LETS
  15  2,15 - REES
  15 10,1  | REEST
+ 15  3,7  - RELET
  15 10,1  | RESET
  15  2,15 - REST
  15  2,15 - RETS
+ 15  3,7  - STEEL
  15  2,15 - TEES
+ 15  3,7  - TELES
  15 10,2  | TELS
  15 10,1  | TREES
  15  2,15 - TRES
+ 14  4,7  - REEL
  14 11,10 | REEL
  14 10,15 - REES
  14 10,15 - REST
+ 14  2,7  - RESTER
  14 10,15 - RETE
  14 10,15 - RETS
+ 14  4,7  - SEEL
  14 11,10 | SEEL
  14 10,15 - SEER
  14 10,15 - SEL
  14 10,15 - SERE
+ 14  3,7  - SLEET
+ 14  4,7  - TEEL
  14 10,15 - TEES
  14 10,15 - TEL
+ 14  2,7  - TERSER
  14 10,15 - TREE
  14 10,15 - TRES
+ 13  5,7  - EEL
  13 10,2  | ERRS
  13 10,2  | ERST
+ 13  3,7  - ESTER
+ 13  4,7  - LEER
+ 13  4,7  - LEES
  13  7,1  | LEET
+ 13  4,7  - LEET
+ 13  5,7  - LES
+ 13  5,7  - LET
  13 10,2  | REES
+ 13  3,7  - RESET
  13 10,2  | REST
  13 10,2  | RETS
+ 13  5,7  - SEL
+ 13  3,7  - SERER
+ 13  3,7  - STEER
+ 13  2,7  - STELE
  13 10,2  | TEES
+ 13  5,7  - TEL
+ 13  3,7  - TREES
  13 10,2  | TRES
  13 10,9  - VERSER
  13 10,9  - VERSET
  13 10,9  - VERSTE
  12  3,15 - ERS
  12  7,1  | REEL
+ 12  4,7  - REES
  12 11,10 | REES
  12  3,15 - RES
  12 11,10 | REST
@@ -137,12 +168,18 @@
  12 11,10 | RETE
  12 11,10 | RETS
  12  7,1  | SEEL
+ 12  4,7  - SEER
  12 11,10 | SEER
  12 11,10 | SERE
  12  3,15 - SET
  12  7,1  | TEEL
+ 12  4,7  - TEES
+ 12  3,7  - TELE
+ 12  4,7  - TRES
  11  9,7  - ALERTER
  11  9,7  - ALTERER
+ 11  6,7  - EL
+ 11  3,7  - ELSE
  11  7,11 | MANSE
  11  6,6  | PEELS
  11  6,6  - PEENS
@@ -150,17 +187,24 @@
  11  6,6  | PELTS
  11 10,15 - REE
  11 10,13 - RELETS
+ 11  5,7  - RES
  11 10,15 - RES
  11  6,3  | RESPELT
+ 11  5,7  - RET
  11 10,15 - RET
  11 10,15 - SEE
  11 11,10 | SEL
+ 11  5,7  - SER
  11 10,15 - SER
+ 11  5,7  - SET
  11 10,15 - SET
+ 11  2,7  - STERE
  11 10,15 - TEE
+ 11  2,7  - TERSE
  11  5,3  - TRESSEL
  10  7,12 - ADORERS
  10  7,1  | LEE
+ 10  4,7  - LEE
  10  6,4  | LEPERS
  10  6,6  | PEERS
  10  6,6  | PERES
@@ -176,15 +220,18 @@
  10 11,10 | RES
  10 10,13 - RESTER
  10 11,10 | RET
+ 10  3,7  - RETE
  10 11,10 | SEE
  10 10,12 | SEEL
  10 11,10 | SER
+ 10  3,7  - SERE
  10 11,10 | SET
  10  2,3  - STREELS
  10  8,3  - STREELS
  10 10,13 - TEELS
  10 10,13 - TELES
  10 10,13 - TERSER
+ 10  3,7  - TREE
  10 10,9  - VEERS
  10 10,9  - VERSE
  10 10,9  - VERST
@@ -193,7 +240,11 @@
   9  7,12 - ADORES
   9  7,2  | EEL
   9 10,3  | ELS
+  9  6,7  - ER
+  9  4,7  - ERE
+  9  6,7  - ES
   9  4,15 - ES
+  9  6,7  - ET
   9  4,15 - ET
   9  6,4  | LEPER
   9 10,3  | LES
@@ -201,17 +252,20 @@
   9 10,3  | LET
   9  8,5  - NURSER
   9 11,10 | RE
+  9  4,7  - REE
   9 10,13 - REEST
   9  3,3  - RELETS
   9  6,4  | REPEL
   9 10,13 - RESET
   9  2,3  - RESTERS
+  9  4,7  - SEE
   9 10,12 | SEER
   9  7,2  | SEL
   9  6,3  | SLEPT
   9  6,5  | SPEEL
   9  6,5  | SPELT
   9  8,3  - STELES
+  9  4,7  - TEE
   9  7,2  | TEL
   9 10,13 - TERSE
   9 10,13 - TREES
@@ -234,6 +288,7 @@
   8  6,6  | PEEL
   8  6,6  | PELE
   8  6,6  | PELT
+  8  5,7  - RE
   8 10,13 - REEL
   8 10,3  | RES
   8  6,3  - RESTERS
@@ -254,6 +309,7 @@
   8  8,3  - STELE
   8  3,3  - STELES
   8  8,3  - STREEL
+  8  5,7  - TE
   8 10,13 - TEEL
   8 10,13 - TELE
   8 10,13 - TELS
@@ -361,6 +417,7 @@
   6  8,3  - SERES
   6  8,3  - STEER
   6  8,3  - STERE
+  6  5,15 - TE
   6 10,13 - TEE
   6  5,3  - TELS
   6  5,3  - TERSE
@@ -384,6 +441,7 @@
   5  6,3  - LEST
   5  8,5  - NUS
   5  8,5  - NUT
+  5  6,6  | PE
   5 10,13 - RE
   5  5,3  - REES
   5  6,3  - RESET
@@ -470,3 +528,4 @@
   2  7,4  - TA
   2 10,13 | TE
   2  7,9  - TO
+  1  6,14 | pE

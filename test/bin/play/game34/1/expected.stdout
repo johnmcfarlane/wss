@@ -1882,6 +1882,8 @@
  18  1,2  | saITHE
  18  1,2  | seETHE
  18  3,1  | smITER
+ 18  1,5  - spEEL
+ 18  1,5  - spEIL
  18  1,5  - stEEL
  18  3,1  | suITER
  18  1,2  | swITHE
@@ -4750,6 +4752,7 @@
  15  7,2  | orIEL
  15  7,4  | owLET
  15  7,3  | pEEL
+ 15  2,5  - pEEL
  15  7,3  | pEELs
  15  7,4  | pEEwIT
  15  7,5  | pEEwIT
@@ -6941,6 +6944,7 @@
  13  4,7  - EnTaIL
  13  4,7  - EnToIL
  13  7,2  | EnaTE
+ 13  1,5  - EpEe
  13  7,3  | EpeE
  13  7,6  | EpeE
  13  7,4  | ErEcT
@@ -7544,6 +7548,7 @@
  13  7,5  | elITE
  13  7,6  | elITE
  13  7,4  | elL
+ 13  1,5  - epEE
  13  7,2  | evITE
  13  7,6  | evITE
  13  7,4  | fEET
@@ -7757,7 +7762,9 @@
  13  7,3  | pETEr
  13  7,5  | pETEr
  13  7,5  | pETIt
+ 13  2,5  - pEaL
  13  7,5  | pEaL
+ 13  2,5  - pEeL
  13  7,5  | pEeL
  13  7,4  | pIETa
  13  7,4  | pIETy
@@ -10084,6 +10091,7 @@
  11  4,7  - EnsILE
  11  7,6  | Eon
  11  7,4  | EpeE
+ 11  1,5  - EpeE
  11  7,6  | Er
  11  1,5  - ErE
  11  1,7  - ErE
@@ -10665,13 +10673,19 @@
  11  7,4  | osE
  11  4,1  | ouTLINE
  11  7,4  | owE
+ 11  7,5  | pE
  11  4,1  | pEELINg
+ 11  2,5  - pEEk
  11  7,3  | pEEl
+ 11  2,5  - pEEl
+ 11  2,5  - pEEp
  11  7,3  | pEEs
+ 11  2,5  - pEEs
  11  4,4  | pENILE
  11  3,4  | pERLITE
  11  7,3  | pETs
  11  7,5  | pEa
+ 11  2,5  - pEaT
  11  7,5  | pEc
  11  7,5  | pEd
  11  7,5  | pEe
@@ -10692,7 +10706,9 @@
  11  7,3  | pITs
  11  7,4  | pIlE
  11  4,3  | pLENIsT
+ 11  2,5  - paIL
  11  7,4  | peE
+ 11  2,5  - peEL
  11  7,4  | piE
  11  7,5  | plIE
  11  4,1  | poTLINE
@@ -12264,6 +12280,7 @@
  10  6,5  | pAsTEL
  10  6,5  | pAsTIL
  10  6,4  | pEATIEr
+ 10  2,5  - pEE
  10  2,2  | pEELEd
  10  2,5  | pEELEd
  10  2,2  | pEELEr
@@ -13192,6 +13209,7 @@
   9  1,7  - anE
   9  4,7  - anELE
   9  4,7  - anILE
+  9  1,5  - apE
   9  1,5  - arE
   9  1,7  - arE
   9  7,5  | as
@@ -13402,6 +13420,7 @@
   9  1,7  - olE
   9  1,5  - onE
   9  1,7  - onE
+  9  1,5  - opE
   9  1,5  - orE
   9  1,7  - orE
   9  7,5  | os
@@ -13426,8 +13445,10 @@
   9  5,5  - pLaTE
   9  4,4  | paNEL
   9  4,4  | paNTILE
+  9  7,5  | pe
   9  4,4  | peNLITE
   9  3,4  | peRLITE
+  9  2,5  - poET
   9  3,3  | puERILE
   9  4,1  | rELIaNT
   9  4,4  | rENaL
@@ -15109,6 +15130,8 @@
   8  3,3  | pETRELs
   8  3,3  | pETRaLE
   8  6,2  | pETsAI
+  8  2,5  - pEa
+  8  2,5  - pEe
   8  2,1  | pElITE
   8  2,5  | pElITE
   8  6,5  - pElLET
@@ -20094,6 +20117,7 @@
   6  4,7  - osE
   6  6,2  | osTIA
   6  3,5  - ouT
+  6  2,5  - pE
   6  4,3  | pEEN
   6  4,3  | pEENs
   6  3,3  | pEERIe
@@ -20193,10 +20217,12 @@
   6  3,4  | paRLE
   6  4,2  | paTEN
   6  4,2  | paTIN
+  6  2,5  - peE
   6  6,5  - peEL
   6  3,3  | peERIE
   6  6,2  | piETA
   6  6,5  - piLEI
+  6  2,5  - poI
   6  4,2  | prEEN
   6  3,4  | pyRITE
   6  4,2  | quEEN
@@ -27339,6 +27365,7 @@
   4  1,5  - on
   4  1,7  - on
   4  3,4  | ooRIE
+  4  1,5  - op
   4  6,3  | opIATE
   4  4,3  | opINE
   4  1,5  - or
@@ -28236,6 +28263,7 @@
   4  2,3  | unLET
   4  5,3  | unLIT
   4  5,3  | unTIL
+  4  1,5  - up
   4  5,3  | upLIT
   4  6,3  | urEAL
   4  6,3  | urIAL
@@ -34817,6 +34845,7 @@
   2  6,5  | pAsT
   2  6,5  | pAtE
   2  6,5  | pAvE
+  2  6,5  - pE
   2  6,4  | pEA
   2  6,4  | pEAg
   2  6,4  | pEAk
@@ -34924,10 +34953,12 @@
   2  3,5  | pRaT
   2  3,5  | pReE
   2  5,3  | pTuI
+  2  2,5  - pa
   2  5,5  - pa
   2  4,4  | paN
   2  6,5  - paT
   2  2,3  | paTE
+  2  2,5  - pe
   2  6,4  | peAT
   2  6,5  - peE
   2  4,4  | peN
@@ -34943,6 +34974,7 @@
   2  6,3  | plEA
   2  2,3  | plIE
   2  5,4  | plIE
+  2  2,5  - po
   2  2,4  | poET
   2  6,5  - poI
   2  6,5  - poT
@@ -36547,6 +36579,7 @@
   1  6,5  | pAw
   1  6,5  | pAx
   1  6,5  | pAy
+  1  2,5  | pE
   1  2,5  | pEa
   1  2,5  | pEc
   1  2,5  | pEd
@@ -36574,6 +36607,7 @@
   1  3,5  | pRy
   1  6,5  - pa
   1  3,4  | paR
+  1  6,5  - pe
   1  6,4  | peA
   1  2,4  | peE
   1  3,4  | peR

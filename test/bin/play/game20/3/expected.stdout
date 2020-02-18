@@ -1919,6 +1919,7 @@
  11  5,9  - mOSK
  11  5,2  | mOTIVES
  11  5,8  | oKA
+ 11  6,5  - pOKIES
  11  5,8  | sKA
  11  6,7  - sKITES
  11  5,2  | vOTIVES
@@ -2138,6 +2139,8 @@
  10  2,11 - oPE
  10  6,1  | oTIOSE
  10  1,8  - pEWITS
+ 10  6,5  - pIKES
+ 10  6,5  - pOKES
  10  6,1  | pOSTIE
  10  5,9  - pOSTIE
  10  6,1  | pOTSIE
@@ -2495,9 +2498,11 @@
   9  1,9  - pER
   9  5,9  - pESTO
   9  1,8  - pEWIT
+  9  6,5  - pIKE
   9  5,9  - pISTE
   9  5,9  - pOETS
   9  5,9  - pOISE
+  9  6,5  - pOKE
   9  5,9  - pOSIT
   9  1,9  - sER
   9  6,7  - sIKE
@@ -2532,6 +2537,7 @@
   9  1,8  - zOWIE
   8  2,6  | AbO
   8  2,6  | AdO
+  8  2,6  | ApO
   8  4,3  | EIdOS
   8  6,9  - EIdOS
   8  6,4  | EKES
@@ -2600,6 +2606,7 @@
   8  6,3  | KnEES
   8  6,4  | KnEES
   8  6,3  | KyTES
+  8  4,10 | NE
   8  2,10 | NO
   8  4,10 | NO
   8  5,9  | OAK
@@ -2632,6 +2639,7 @@
   8  2,2  | OsSIA
   8  2,2  | OsTIA
   8  1,9  - OuR
+  8  3,11 - PE
   8  3,11 - PO
   8  3,9  - RaT
   8  3,9  - ReT
@@ -3569,7 +3577,9 @@
   7  6,3  | pOKE
   7  5,9  - pOSE
   7  5,9  - pOST
+  7  6,5  - pOSTIE
   7  5,9  - pOTS
+  7  6,5  - pOTSIE
   7  6,4  | rEEK
   7  6,5  | rEEK
   7  1,7  - rEES
@@ -3680,6 +3690,7 @@
   6  6,4  | KuE
   6  6,4  | KyE
   6  4,10 | Na
+  6  4,10 | Ne
   6  2,10 | No
   6  4,10 | No
   6  2,10 | Nu
@@ -3752,6 +3763,7 @@
   6  1,7  - OyES
   6  6,9  - OyES
   6  3,11 - Pa
+  6  3,11 - Pe
   6  3,11 - Po
   6  3,9  - REb
   6  3,9  - REf
@@ -4262,13 +4274,18 @@
   6  2,11 - oP
   6  5,9  - pES
   6  4,2  | pESTO
+  6  6,5  - pESTO
   6  5,9  - pET
   6  5,9  - pIE
   6  5,9  - pIS
+  6  6,5  - pISTE
   6  5,9  - pIT
   6  6,4  | pOESIES
   6  6,4  | pOETESS
+  6  6,5  - pOETS
   6  5,9  - pOI
+  6  6,5  - pOISE
+  6  6,5  - pOSIT
   6  5,9  - pOT
   6  2,3  | rESAT
   6  6,5  - rESIT
@@ -4708,10 +4725,21 @@
   5  2,4  | pEAT
   5  6,5  | pEISES
   5  4,3  | pESO
+  5  6,5  - pESO
+  5  6,5  - pEST
   5  6,5  | pESTOS
+  5  6,5  - pETS
   5  1,8  - pEW
+  5  6,5  - pIES
   5  4,3  | pISO
+  5  6,5  - pISO
+  5  6,5  - pITS
+  5  6,5  - pOET
+  5  6,5  - pOIS
   5  4,4  | pOOS
+  5  6,5  - pOSE
+  5  6,5  - pOST
+  5  6,5  - pOTS
   5  1,8  - pOW
   5  2,7  - rEE
   5  6,5  | rEESTS
@@ -5013,6 +5041,7 @@
   4  6,7  - SIx
   4  6,7  - SO
   4  5,8  | SOAk
+  4  2,4  | SOAp
   4  5,8  | SOAp
   4  2,4  | SOAr
   4  5,8  | SOAr
@@ -5357,6 +5386,7 @@
   4  6,9  - oSE
   4  2,8  - oW
   4  2,5  | pAT
+  4  5,9  - pE
   4  5,8  | pEAS
   4  5,8  | pEAT
   4  1,7  - pEE
@@ -5594,6 +5624,7 @@
   3  5,9  | SAe
   3  5,9  | SAg
   3  5,9  | SAl
+  3  2,5  | SAp
   3  5,9  | SAp
   3  2,5  | SAt
   3  5,9  | SAt
@@ -5726,6 +5757,7 @@
   3  5,9  | TAn
   3  2,5  | TAo
   3  5,9  | TAo
+  3  2,5  | TAp
   3  5,9  | TAp
   3  2,5  | TAr
   3  5,9  | TAr
@@ -6087,21 +6119,30 @@
   3  5,8  | pEA
   3  6,4  | pEES
   3  6,5  | pEES
+  3  6,5  - pES
   3  6,5  | pESO
   3  6,8  | pESO
   3  6,5  | pEST
   3  6,8  | pEST
+  3  6,5  - pET
   3  6,5  | pETS
   3  5,8  | pIA
+  3  6,5  - pIE
   3  6,4  | pIES
+  3  6,5  - pIS
   3  6,8  | pISO
   3  6,8  | pISS
+  3  6,5  - pIT
   3  2,3  | pITA
   3  6,4  | pOET
+  3  6,5  - pOI
   3  6,3  | pOSE
   3  6,8  | pOSE
   3  6,8  | pOST
+  3  6,5  - pOT
+  3  6,5  - pSI
   3  6,8  | pSST
+  3  6,5  - pST
   3  6,4  | rEES
   3  6,5  | rEES
   3  6,5  | rEIS
@@ -6557,15 +6598,18 @@
   2  6,9  | oSE
   2  5,9  | pAS
   2  5,9  | pAT
+  2  6,5  - pE
   2  2,4  | pEA
   2  6,4  | pEE
   2  6,5  | pEE
   2  6,5  | pES
   2  6,8  | pES
   2  6,5  | pET
+  2  6,5  - pI
   2  2,4  | pIA
   2  6,4  | pIE
   2  6,8  | pIS
+  2  6,5  - pO
   2  4,4  | pOO
   2  6,9  | pSI
   2  6,9  | pST
@@ -6725,6 +6769,7 @@
   1  6,9  | oS
   1  2,5  | pA
   1  5,9  | pA
+  1  6,5  | pE
   1  4,5  | pO
   1  6,5  | rE
   1  4,5  | sO
