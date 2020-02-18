@@ -4,5 +4,5 @@ wss scrabble board suggester
 play [options] <rack> <board>
 -?, -h, --   Display usage information.
    Letter "rack" including wildcards as ? and blanks as _
-   CSV file containing played letters
-   CSV file describing premium tiles (see 'boards' directory)
+   text file containing played letters
+   text file describing premium tiles (see 'boards' directory)
