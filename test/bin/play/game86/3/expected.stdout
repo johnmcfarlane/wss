@@ -1331,6 +1331,7 @@
   9  3,4  | CAnSO
   9  2,3  - CAnTO
   9  3,4  | CAnTO
+  9  1,7  - CAp
   9  1,7  - CAt
   9  9,4  | CAvY
   9  1,7  - CAw
@@ -1644,6 +1645,7 @@
   8  5,1  | CAd
   8  5,1  | CAm
   8  5,1  | CAn
+  8  5,1  | CAp
   8  5,1  | CAt
   8  5,1  | CAw
   8  5,1  | CAy
@@ -1691,6 +1693,7 @@
   8  1,7  - GAm
   8  9,4  | GAmY
   8  1,7  - GAn
+  8  1,7  - GAp
   8  9,4  | GApY
   8  1,7  - GAs
   8  1,7  - GAt
@@ -2118,6 +2121,7 @@
   7  5,1  | GAl
   7  5,1  | GAm
   7  5,1  | GAn
+  7  5,1  | GAp
   7  5,1  | GAs
   7  5,1  | GAt
   7  5,1  | GAy
@@ -2332,6 +2336,7 @@
   7  3,7  | nOG
   7  9,6  - oAT
   7  2,9  - oS
+  7  3,7  - pA
   7  9,3  | pASTY
   7  9,3  | pATSY
   7  9,3  | pATTY
@@ -2568,6 +2573,7 @@
   6  1,7  - SAl
   6  2,3  - SAnTO
   6  3,4  | SAnTO
+  6  1,7  - SAp
   6  1,7  - SAt
   6  1,7  - SAw
   6  1,7  - SAy
@@ -2665,6 +2671,7 @@
   6  3,5  - TAnIST
   6  2,3  - TAnTO
   6  3,4  | TAnTO
+  6  1,7  - TAp
   6  3,3  - TArOS
   6  3,5  | TArOS
   6  3,3  - TArOT
@@ -3047,6 +3054,7 @@
   5  5,1  | SAg
   5  5,1  | SAl
   5  6,2  - SAnG
+  5  5,1  | SAp
   5  5,1  | SAt
   5  5,1  | SAw
   5  5,1  | SAy
@@ -3139,6 +3147,7 @@
   5  5,1  | TAm
   5  3,5  - TAmIS
   5  5,1  | TAn
+  5  5,1  | TAp
   5  3,5  - TApIS
   5  2,5  - TArSI
   5  5,1  | TAs
@@ -4514,6 +4523,8 @@
   1  5,5  - oI
   1  5,2  - oS
   1  5,5  - pI
+  1  5,3  - pO
+  1  3,7  | pO
   1  5,5  - qI
   1  5,5  - sI
   1  5,3  - sO

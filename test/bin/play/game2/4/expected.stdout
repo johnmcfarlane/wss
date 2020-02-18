@@ -37,9 +37,11 @@
  13 11,5  | ART
  13  6,7  - ART
  13 11,4  | OAR
+ 13  6,7  - OAT
  13 11,5  | ORA
  13  4,7  - ORAL
  13 11,5  | ORT
+ 13  6,7  - ORT
  13  8,5  | QUA
  13 11,6  | RAT
  13 11,6  | ROT
@@ -55,9 +57,11 @@
  12  8,3  | TORULA
  11  6,7  - AL
  11  3,5  - ALTO
+ 11  3,7  - ALTO
  11  5,7  - LAR
  11  5,7  - LAT
  11  5,5  - LOT
+ 11  5,7  - LOT
  11  4,7  - ROAR
  11  9,4  | ROSTRAL
  11  3,7  - TOLA
@@ -70,11 +74,15 @@
  10  6,6  - PAUSER
  10  5,7  - RAT
  10  3,5  - RATO
+ 10  3,7  - RATO
  10  5,5  - ROT
+ 10  5,7  - ROT
  10  3,7  - ROTA
  10  5,7  - TAR
  10  3,5  - TARO
+ 10  3,7  - TARO
  10 10,2  | TARRE
+ 10  5,7  - TOR
  10  3,7  - TORA
   9  9,2  | ALTOS
   9  6,7  - AR
@@ -82,6 +90,7 @@
   9  6,7  - AT
   9  9,5  - OAR
   9  9,5  - OAT
+  9  6,7  - OR
   9  9,5  - ORA
   9  9,7  - ORA
   9  9,2  | ORALS
@@ -104,6 +113,7 @@
   8  9,3  | LATS
   8  8,3  | LATU
   8  5,5  - LO
+  8  5,7  - LO
   8  9,2  | LOTAS
   8  9,3  | LOTS
   8  6,5  | OPAL
@@ -118,6 +128,7 @@
   8  9,6  | SLOT
   8  9,6  | SOLAR
   8  4,5  - TAO
+  8  4,7  - TAO
   8  9,2  | TOLAS
   8  8,3  | TOLU
   7  6,4  | ALP
@@ -157,6 +168,7 @@
   7  9,2  | TAROS
   7  6,3  | TARP
   7  5,5  - TO
+  7  5,7  - TO
   7  7,3  | TOLAR
   7  9,2  | TORAS
   7  9,2  | TORRS
@@ -222,6 +234,7 @@
   5 10,3  | ORLE
   5  7,3  | ORRA
   5  6,6  | PA
+  5  6,6  | PO
   5 10,3  | RALE
   5 10,3  | RATER
   5 10,5  | REAL

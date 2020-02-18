@@ -2652,12 +2652,14 @@
   6  3,7  | SLIp
   6  3,7  | SLIt
   6  5,3  | SNIb
+  6  5,3  | SNIp
   6  7,3  | SNIp
   6  5,3  | SNIt
   6  4,6  - SNORT
   6  4,6  - SNORTs
   6  5,6  - SOFa
   6  5,6  - SOFt
+  6  5,2  | STIRp
   6  7,2  | STIRp
   6  5,2  | STIRs
   6  7,2  | STIRs
@@ -2666,6 +2668,7 @@
   6  4,6  - STONeR
   6  4,6  - STOtIN
   6  4,5  | STRINg
+  6  5,2  | STRIp
   6  7,2  | STRIp
   6  7,3  | STaR
   6  8,4  | STaRS
@@ -3251,6 +3254,7 @@
   5  5,3  | TRIg
   5  5,3  | TRIm
   5  7,3  | TRIm
+  5  5,3  | TRIp
   5  7,3  | TRIp
   5  4,6  - TROIS
   5  4,6  - TRONa
@@ -3640,6 +3644,7 @@
   4  8,5  | NImS
   4  4,7  | NImS
   4  3,10 - NImS
+  4  5,4  | NIp
   4  7,4  | NIp
   4  8,5  | NIpS
   4  4,7  | NIpS
@@ -4489,6 +4494,7 @@
   3  4,7  | RInS
   3  3,10 - RInS
   3  4,7  | RIoT
+  3  5,4  | RIp
   3  7,4  | RIp
   3  8,5  | RIpS
   3  4,7  | RIpS
@@ -4588,6 +4594,7 @@
   3  8,8  | SInS
   3  3,10 - SInS
   3  6,10 - SInS
+  3  5,4  | SIp
   3  7,4  | SIp
   3  8,5  | SIpS
   3  8,8  | SIpS
@@ -4762,6 +4769,7 @@
   3  8,5  | TInS
   3  4,7  | TInS
   3  3,10 - TInS
+  3  5,4  | TIp
   3  7,4  | TIp
   3  4,5  | TIpI
   3  4,7  | TIpI
@@ -5559,6 +5567,7 @@
   1  8,7  | oS
   1  5,10 - oS
   1  4,7  | pI
+  1  5,6  - pO
   1  4,7  | qI
   1  4,7  | sI
   1  5,6  - sO

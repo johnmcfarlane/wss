@@ -536,6 +536,7 @@
  25  4,11 - rESIDE
  25  4,11 - rESITES
  24  4,11 - DISS
+ 24  8,10 - DITE
  24  5,11 - ESpIES
  24  5,11 - ISTlES
  24  6,11 - SEDEr
@@ -712,6 +713,7 @@
  22  4,11 - wIST
  22  4,11 - zEST
  21  8,10 - DITa
+ 21  8,10 - DITe
  21  4,11 - DIs
  21 10,8  | DUST
  21  4,11 - EDs
@@ -732,6 +734,7 @@
  21  4,11 - InS
  21  4,11 - ItS
  21  6,11 - SI
+ 21  8,10 - SITE
  21  7,3  | STaDE
  21  4,11 - SiS
  21  4,11 - SoS
@@ -777,6 +780,9 @@
  21  4,11 - wIS
  21  4,11 - xIS
  21  4,11 - yES
+ 20  8,10 - DImE
+ 20  8,10 - DInE
+ 20  8,10 - DItE
  20  8,8  | DOST
  20  8,6  | EIDOs
  20  4,11 - ESs
@@ -819,12 +825,22 @@
  18  8,8  | DOsT
  18 10,8  | DUSt
  18  7,4  | DaTE
+ 18  8,10 - SITe
  18  6,5  | ZAREBAs
  18  8,6  | dIDO
+ 18  8,10 - dITE
  18  8,6  | fIDO
  18  8,6  | lIDO
+ 18  8,10 - mISE
+ 18  8,10 - mITE
  18  8,10 - nISI
+ 18  8,10 - nITE
  18  8,6  | rEDO
+ 18  8,10 - rISE
+ 18  8,10 - rITE
+ 18  8,10 - sITE
+ 18  8,10 - wISE
+ 18  8,10 - wITE
  17  8,10 - DIS
  17  8,10 - DIT
  17  3,5  - DITZEs
@@ -838,6 +854,9 @@
  17 10,8  | DUsT
  17  3,5  - DiTZES
  17  4,5  - DoZIEST
+ 17  8,10 - SInE
+ 17  8,10 - SIpE
+ 17  8,10 - SItE
  17 10,8  | SUdD
  17  7,4  | SaTE
  16  1,6  - DISSEAT
@@ -1114,6 +1133,7 @@
  11  7,6  | DElL
  11  8,6  | DEmOS
  11  8,4  | DEnI
+ 11  8,6  | DEpOT
  11 10,5  | DIE
  11  8,2  | DISuSE
  11  8,4  | DIcE
@@ -1339,6 +1359,7 @@
   9 10,5  | DyE
   9  8,7  | EgOS
   9  7,7  | ElLS
+  9  8,7  | EpOS
   9  3,8  - IDEE
   9  8,4  | IDeE
   9  8,4  | IDlE
@@ -1658,6 +1679,7 @@
   8  8,11 - pEED
   8  2,6  - pIETA
   8  2,10 - pIETA
+  8  8,8  | pOST
   8 11,5  | rEDIP
   8  8,11 - rEED
   8  1,8  - rESIDE
@@ -2496,6 +2518,7 @@
   5  8,9  | OaT
   5  8,9  | OoT
   5  8,9  | OpT
+  5 11,9  | PE
   5 11,9  | PEa
   5 11,9  | PEc
   5 11,9  | PEd
@@ -2845,6 +2868,7 @@
   5 11,8  | oPT
   5  8,5  | oSE
   5  2,7  - oSIER
+  5 10,6  | pE
   5  5,8  - pEE
   5  8,11 - pEES
   5 11,7  | pEP
@@ -2852,6 +2876,7 @@
   5  8,11 - pETS
   5  8,5  | pIE
   5 11,7  | pIP
+  5  8,8  | pOT
   5  5,7  - pRIED
   5  8,5  | pSI
   5  5,10 - rAI
@@ -3113,7 +3138,9 @@
   4  7,9  | LyE
   4  8,9  | OS
   4 11,9  | Pa
+  4 11,9  | Pe
   4 11,9  | Pi
+  4 11,9  | Po
   4  6,7  - REaD
   4  6,7  - REdD
   4  6,7  - REeD
@@ -3421,6 +3448,8 @@
   4  5,6  - pADI
   4  5,6  - pADS
   4  5,6  - pAID
+  4  5,6  | pE
+  4  8,6  | pE
   4  4,6  - pEATS
   4  7,11 - pEED
   4  8,6  | pI
@@ -4367,6 +4396,7 @@
   2  7,11 - oSE
   2  5,6  - pAS
   2  5,6  - pAT
+  2  5,10 | pE
   2  4,6  - pEA
   2  4,10 - pEA
   2  4,8  - pEE
@@ -4381,6 +4411,8 @@
   2  4,10 - pIA
   2  4,8  - pIE
   2  7,11 - pIE
+  2  8,8  - pO
+  2  8,8  | pO
   2  5,6  - qAT
   2  5,6  - rAI
   2  5,6  - rAS
@@ -4527,6 +4559,8 @@
   1  5,7  - oR
   1  5,6  - pA
   1  5,10 - pA
+  1  5,8  - pE
+  1  8,11 - pE
   1  5,8  - rE
   1  8,11 - rE
   1  5,6  - tA

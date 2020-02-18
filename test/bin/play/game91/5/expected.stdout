@@ -45,8 +45,10 @@
  20  7,5  | MAP
  20  5,7  | MEAN
  20  9,4  | MINA
+ 20  5,7  | NEAP
  20  3,9  - PA
  20  7,5  | PAM
+ 20  5,7  | PEAN
  20  7,3  | PIMA
  20  9,4  | PINA
  20  7,3  | SAVIN
@@ -86,6 +88,7 @@
  18  7,5  | NIP
  18  9,6  | PA
  18  7,3  - PANIC
+ 18  5,7  | PEAS
  18  2,9  - PIA
  18  2,10 - PIANO
  18  8,8  | PIMA
@@ -148,9 +151,11 @@
  15  5,7  - MOPS
  15  8,4  - NAVY
  15  9,2  | PAINS
+ 15  5,7  | PEA
  15  9,2  | PIANS
  15  9,3  | PIAS
  15  7,4  | PIAS
+ 15  5,7  - POMS
  15  9,3  - VAC
  15  7,5  | VAS
  15  9,2  | VINAS
@@ -170,6 +175,7 @@
  14  7,5  | PAS
  14  9,2  | PINAS
  14  7,5  | PIS
+ 14  5,7  - POM
  14  7,4  | SAIN
  14  7,3  | SIMA
  14  9,3  | SPAN
@@ -194,6 +200,7 @@
  13  7,4  - PANSY
  13  9,3  - PIC
  13  3,6  - PINKS
+ 13  5,7  - PONS
  13  9,4  | SAP
  13  9,4  | SIM
  13  7,5  | SIN
@@ -220,6 +227,7 @@
  12  4,6  - PIKAS
  12  9,4  | PIN
  12  3,6  - PINK
+ 12  5,7  - POIS
  12  7,4  | PSI
  12  7,4  | SPA
  11  9,3  | AINS
@@ -237,6 +245,7 @@
  11  3,6  - PAIK
  11  7,5  | PI
  11  4,6  - PIKA
+ 11  5,7  - POI
  11  9,3  | SAIN
  11  5,6  - SKIM
  11  5,6  - SKIP
@@ -257,7 +266,9 @@
  10  5,7  - NOM
  10  8,7  | PAISA
  10  9,4  | PAS
+ 10  5,7  | PE
  10  9,4  | PIS
+ 10  5,7  - PO
   9  9,4  | AIN
   9  5,6  - AKIN
   9  8,8  | AMIA
@@ -333,6 +344,7 @@
   5  6,7  - OM
   5  6,7  - OP
   5  8,10 | PA
+  5  5,10 - PO
   5  6,9  - RAN
   5  6,9  - RIN
   5  9,4  - SAY

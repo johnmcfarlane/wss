@@ -33,6 +33,7 @@
  37  6,10 - WASP
  36  9,9  | SAX
  36  9,9  | SEX
+ 34 10,8  | PAX
  34 10,8  | WAX
  31  5,10 - ACES
  31  5,10 - APES
@@ -55,13 +56,24 @@
  29  8,10 - SPA
  29  6,10 - WAS
  29  8,4  | WHEEZES
+ 28 10,1  | CAPE
+ 28 10,8  | PACE
+ 28 10,8  | PACS
+ 28 10,8  | PAWS
  28  5,9  - PAXES
+ 28 10,8  | PECS
+ 28 10,8  | PEWS
  28 10,8  | WAPS
  28 10,8  | WASP
  28  5,9  - WAXES
  28  8,4  | WHEEZE
  26  6,9  - APEX
  26  6,9  - EXEC
+ 26 10,8  | PAC
+ 26 10,8  | PAW
+ 26  7,9  | PAX
+ 26 10,8  | PEC
+ 26 10,8  | PEW
  26 10,8  | WAP
  26  7,9  | WAX
  25 10,8  | SAX
@@ -81,17 +93,26 @@
  24  6,6  | SPACES
  23  7,10 - ASP
  23 10,9  | AXE
+ 23 10,1  | CAP
  23 10,1  | CAW
+ 23 10,1  | CEP
  23 10,1  | PAW
  23  9,3  | PEALS
  23 10,1  | PEW
  23  8,10 - SAE
  23  8,10 - SEA
+ 23 10,1  | WAP
  23  9,3  | WEALS
  22  6,2  | CAPES
+ 22  7,9  | PAC
  22  6,2  | PACES
  22  9,10 - PAS
+ 22 10,8  | PASE
+ 22  7,9  | PAW
+ 22 10,8  | PEAS
+ 22  7,9  | PEC
  22  9,10 - PES
+ 22  7,9  | PEW
  22  6,6  | SCAPE
  22  6,6  | SPACE
  22  6,2  | SPECS
@@ -108,13 +129,18 @@
  21 10,9  | AX
  21  3,9  - ESCAPE
  21 10,9  | EX
+ 20 10,2  | APE
  20 10,2  | AWE
  20  6,9  - AXES
  20  5,9  - CAPES
  20  5,9  - CEPES
  20  6,9  - EXES
  20  5,9  - PACES
+ 20 10,8  | PAS
+ 20 10,8  | PEA
  20  7,9  - PECAN
+ 20 10,8  | PES
+ 20 10,2  | SPA
  20  7,2  | SPEAK
  20 10,8  | WAE
  20 10,8  | WAS
@@ -122,7 +148,10 @@
  19  9,3  | AXEL
  19  7,3  | CASK
  19  7,10 - ES
+ 19  7,9  | PAS
+ 19  7,9  | PEA
  19  7,3  | PEAK
+ 19  7,9  | PES
  19  4,9  - SCAPE
  19  7,9  - SEX
  19  4,9  - SPACE
@@ -134,8 +163,10 @@
  18  5,9  - CAPE
  18  9,4  | CELS
  18  5,9  - CEPE
+ 18  7,9  | PA
  18  5,9  - PACE
  18  9,4  | PALS
+ 18  7,9  | PE
  18  4,9  - PEACES
  18  9,3  | PEAL
  18  6,9  - SPEC
@@ -143,12 +174,14 @@
  18  7,9  | WE
  18  9,3  | WEAL
  17  9,8  | AS
+ 17 10,1  | ASP
  17  7,9  - CEP
  17  8,9  - EX
  17  8,5  | HEEZES
  17  7,9  - PEC
  17  7,9  - PEW
  17 10,8  | SAC
+ 17 10,1  | SAP
  17 10,8  | SAP
  17 10,1  | SAW
  17 10,8  | SAW
@@ -193,8 +226,12 @@
  13  3,5  - CASE
  13  7,3  - CEASE
  13  9,4  | CEL
+ 13 10,3  | PA
+ 13 10,8  | PA
  13  9,4  | PAL
  13  3,5  - PASE
+ 13 10,3  | PE
+ 13 10,8  | PE
  13  7,3  - PEASE
  13  7,3  - SCAPE
  13  7,5  | SKA
@@ -275,6 +312,7 @@
   9  9,5  | EL
   9  8,5  - HA
   9  8,5  - HE
+  9  7,9  - PE
   9  6,9  - PEES
   9  5,9  - SPAE
   9  6,9  - WAES
@@ -323,6 +361,7 @@
   7  6,4  | PASE
   7  6,3  | PASS
   7  6,4  | PASS
+  7  5,5  - PE
   7  6,3  | PEAS
   7  6,9  - PEE
   7  6,3  | SACS
@@ -356,6 +395,8 @@
   6  6,6  | SPA
   6  6,4  | WAS
   5  8,3  - EASE
+  5 10,3  - PE
+  5 10,8  - PO
   5  4,5  - SAE
   5  4,5  - SEA
   5  7,9  - SEA

@@ -1365,6 +1365,7 @@
  14 10,2  | ACkEE
  14  6,2  | ASCoT
  14  8,5  - ASh
+ 14  8,5  - ASp
  14  7,4  | AZOLe
  14  6,3  | AZoTES
  14  2,5  - CALcES
@@ -1509,6 +1510,7 @@
  14  6,6  | ThECA
  14  6,6  | TrACE
  14  5,5  - ZAg
+ 14  5,5  - ZAp
  14  5,7  - ZAp
  14  5,5  - ZAs
  14  5,7  - ZAs
@@ -1524,6 +1526,7 @@
  14  7,4  | ZLOtE
  14  6,3  | ZLoTE
  14  7,5  | ZOEaS
+ 14  7,5  | ZOLS
  14  7,5  | ZOeAE
  14  7,5  | ZOeAS
  14  7,5  | ZOnAE
@@ -1579,6 +1582,7 @@
  14  7,5  - nAE
  14  8,7  - oES
  14  7,5  | oOZES
+ 14  7,5  - pAS
  14  7,7  - pEA
  14 10,2  | pEACE
  14  9,2  | pEACH
@@ -1723,6 +1727,7 @@
  13  7,5  | ZOEAe
  13  7,5  | ZOEAl
  13  7,5  | ZOEAs
+ 13  7,5  | ZOLs
  13  4,5  - ZeE
  13  4,7  - ZeE
  13  6,4  | ZeTAS
@@ -2045,6 +2050,7 @@
  12  7,5  | ZOA
  12  7,5  | ZOEa
  12  7,5  | ZOeA
+ 12  7,5  | ZOlS
  12  7,5  | ZOnA
  12  7,5  | ZOnE
  12  7,5  | ZOoS
@@ -2278,6 +2284,7 @@
  11  5,7  - SAfE
  11  5,7  - SAmE
  11  5,7  - SAnE
+ 11  9,5  - SAp
  11  9,5  - SAt
  11  9,5  - SAw
  11  9,5  - SAy
@@ -2301,6 +2308,7 @@
  11  8,3  | SLoW
  11  9,5  - ShA
  11  3,5  - ShEAL
+ 11  9,5  - SpA
  11  3,5  - StEAL
  11  8,6  | WALe
  11  8,6  | WALk
@@ -2442,6 +2450,7 @@
  10  4,7  - CLAm
  10  4,5  - CLAn
  10  4,7  - CLAn
+ 10  4,5  - CLAp
  10  4,7  - CLAp
  10  7,2  | CLArO
  10  4,5  - CLAw
@@ -2862,6 +2871,7 @@
   9  7,6  | OSCuLA
   9  7,6  | OSCuLE
   9  5,5  - SAL
+  9  3,5  - SALEp
   9  3,7  - SALEp
   9  3,5  - SALEs
   9  3,7  - SALEs
@@ -3071,6 +3081,7 @@
   8  5,5  - CAn
   8  5,7  - CAn
   8  7,2  | CAnSO
+  8  5,5  - CAp
   8  5,7  - CAp
   8  5,7  - CAr
   8  6,3  | CArTES
@@ -3100,6 +3111,7 @@
   8 10,5  | CElLA
   8 10,5  | CElLS
   8  6,3  | CEnTAS
+  8  5,5  - CEp
   8  5,7  - CEp
   8  6,3  | CEsTAS
   8 10,4  | CLEAn
@@ -3762,6 +3774,7 @@
   7  4,5  - LEAl
   7  4,5  - LEAn
   7  4,7  - LEAn
+  7  4,5  - LEAp
   7  4,7  - LEAp
   7  4,7  - LEAr
   7  4,5  - LEAs
@@ -3833,6 +3846,7 @@
   7  4,5  - SLAg
   7  4,5  - SLAm
   7  4,7  - SLAm
+  7  4,5  - SLAp
   7  4,7  - SLAp
   7  4,5  - SLAt
   7  4,5  - SLAw
@@ -3965,9 +3979,11 @@
   7  7,7  - nE
   7  4,5  - oCA
   7  4,7  - oCA
+  7  7,5  - pA
   7 10,3  | pACES
   7  6,3  | pACTS
   7  8,4  | pAWL
+  7  7,7  - pE
   7 10,5  | pEACE
   7  4,5  - pEAS
   7  4,7  - pEAS
@@ -4217,6 +4233,7 @@
   6  5,5  - LAg
   6  5,5  - LAm
   6  5,7  - LAm
+  6  5,5  - LAp
   6  5,7  - LAp
   6  5,7  - LAr
   6 10,3  | LArEES
@@ -4881,6 +4898,7 @@
   5  5,7  - SAe
   5  5,5  - SAg
   5  5,5  - SAl
+  5  5,5  - SAp
   5  5,7  - SAp
   5  5,5  - SAt
   5  5,5  - SAw
@@ -5852,6 +5870,7 @@
   4  4,5  - oSE
   4  4,7  - oSE
   4  8,5  | oW
+  4 10,5  - pA
   4 10,3  | pALE
   4  6,3  | pASTE
   4  6,4  | pATES
@@ -5960,6 +5979,7 @@
   4 10,5  | zEAL
   4 11,5  | zEAL
   4  6,4  | zETAS
+  4  7,5  | zOLS
   3  7,4  | AEOn
   3 10,4  | ASEa
   3 11,4  | ASEa
@@ -6544,6 +6564,8 @@
   3  6,3  | pAST
   3  6,4  | pATE
   3  6,4  | pATS
+  3  5,5  - pE
+  3  5,7  - pE
   3 10,5  | pEAS
   3 11,5  | pEAS
   3  6,3  | pEAT
@@ -7113,6 +7135,9 @@
   1  7,5  | nO
   1 10,5  | oE
   1 11,5  | oE
+  1 10,5  | pE
+  1 11,5  | pE
+  1  7,5  | pO
   1 10,5  | rE
   1 11,5  | rE
   1  7,5  | sO

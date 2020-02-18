@@ -43,6 +43,8 @@
  34  3,11 - PODs
  34  6,11 - sPED
  33  4,1  | DiTZ
+ 33  5,8  | JaPE
+ 33  5,8  | JuPE
  33  6,8  - OOZE
  33  6,8  - OOZEd
  33  6,8  - OOZEs
@@ -106,6 +108,7 @@
  27  5,8  | JE
  27  5,8  | JO
  27  3,9  - JOiNED
+ 27  5,6  | SEPOy
  27  3,9  - ZOoNED
  27  3,1  | sPADE
  27  3,1  | sPADO
@@ -183,6 +186,7 @@
  22  1,5  - kOPJE
  21  3,3  | AdZ
  21  4,8  - DOOZEr
+ 21  5,8  | DOPE
  21  3,4  - DeEP
  21  3,2  | JAZz
  21  5,10 - JEeZ
@@ -205,17 +209,25 @@
  21  7,1  | REDs
  21  1,3  - SWATHED
  21  2,2  - oP
+ 20  5,8  | DOPa
+ 20  5,8  | DOPe
+ 20  5,8  | DOPy
  20  4,8  - DrOOP
  20  5,3  | HOiSED
  20  5,3  | HOrSED
  20  5,3  | HOuSED
+ 20  5,8  | PED
  20  7,8  | PED
+ 20  5,8  | PEDs
  20  7,8  | PEDs
+ 20  5,8  | POD
  20  7,8  | POD
+ 20  5,8  | PODs
  20  7,8  | PODs
  20  4,8  - POOeD
  20  2,1  | POWEr
  20  4,8  - PoOED
+ 20  5,6  | SOP
  20  5,6  | SaDE
  20  3,2  | ZAPpED
  20  5,4  - aPED
@@ -269,19 +281,25 @@
  18  3,1  | PEAr
  18  3,1  | PEAs
  18  3,1  | PEAt
+ 18  5,8  | PEOn
  18  2,1  | PEW
  18  2,1  | PEWs
+ 18  5,8  | PEnD
  18  7,8  | PEnD
  18  4,11 - PEs
  18  2,1  | POW
  18  2,1  | POWs
+ 18  5,8  | POnD
  18  7,8  | POnD
+ 18  5,8  | POoD
  18  3,1  | PrAO
  18  5,6  | SEgO
  18  5,6  | SODa
  18  5,6  | SOlE
  18  5,6  | SOmE
  18  5,6  | SOnE
+ 18  5,6  | SaP
+ 18  5,6  | SoP
  18  2,3  | WEPt
  18  2,3  | WEeP
  18  2,3  | WOPs
@@ -302,6 +320,8 @@
  17  3,4  - DOE
  17  2,5  - DOZE
  17  4,11 - DOsE
+ 17  5,8  | DoPE
+ 17  5,8  | DuPE
  17  1,2  - EOn
  17  3,2  | JAPE
  17  3,2  | JAPEd
@@ -320,6 +340,7 @@
  17  2,2  - OnE
  17  2,2  - OpE
  17  6,4  - PED
+ 17  5,8  | PEpO
  17  7,8  | PEsO
  17  6,4  - POD
  17  4,8  - POODlE
@@ -327,8 +348,12 @@
  17  1,1  | POSED
  17  1,1  | POStED
  17  7,8  | POlE
+ 17  5,8  | POmE
  17  7,8  | POmE
+ 17  5,8  | POnE
  17  7,8  | POnE
+ 17  5,8  | POpE
+ 17  5,8  | POrE
  17  7,8  | POrE
  17  7,8  | POsE
  17  1,5  - aDOZE
@@ -337,9 +362,17 @@
  17  2,5  - aDZE
  17  4,8  - bOOZED
  17  5,8  - cOOPED
+ 17  5,8  | dOPE
  17  5,8  - hOOPED
+ 17  5,8  | hOPE
  17  5,8  - lOOPED
+ 17  5,8  | lOPE
+ 17  5,8  | mOPE
+ 17  5,8  | nOPE
+ 17  5,8  | pEPO
  17  5,8  - pOOPED
+ 17  5,8  | pOPE
+ 17  5,8  | tOPE
  16  3,9  - DJiN
  16  3,8  - DOJO
  16  5,8  - DOJO
@@ -359,8 +392,11 @@
  16  5,8  | DOrP
  16  7,8  | DOrP
  16  4,11 - DOs
+ 16  5,8  | DaP
+ 16  5,8  | DiP
  16  2,9  - DiZEN
  16  2,9  - DoZEN
+ 16  5,8  | DuP
  16  4,11 - EDs
  16  6,10 - EPODe
  16  5,4  - EPOs
@@ -380,39 +416,60 @@
  16  5,8  - JOyED
  16  4,11 - ODs
  16  5,4  - OPE
+ 16  5,9  | OPE
  16  5,4  - OPEd
  16  5,4  - OPEn
  16  5,4  - OPEs
  16  2,2  | OWED
  16  3,9  - OZoNE
  16  8,7  - Os
+ 16  5,8  | PEa
+ 16  5,8  | PEd
  16  7,8  | PEd
+ 16  5,8  | PEh
  16  7,8  | PEh
+ 16  5,8  | PEn
  16  7,8  | PEn
+ 16  5,8  | PEp
+ 16  5,8  | PEr
  16  7,8  | PEr
  16  7,8  | PEs
+ 16  5,8  | PEt
  16  7,8  | PEt
+ 16  5,8  | PEw
  16  4,8  - POOD
  16  4,8  - POODs
  16  1,1  | POSeD
+ 16  5,8  | POd
  16  7,8  | POd
+ 16  5,8  | POh
  16  7,8  | POh
  16  7,8  | POl
+ 16  5,8  | POm
  16  7,8  | POm
+ 16  5,8  | POo
+ 16  5,8  | POp
+ 16  5,8  | POt
  16  7,8  | POt
+ 16  5,8  | POw
  16  7,8  | POx
  16  6,4  - PaD
+ 16  5,8  | PaD
  16  7,8  | PaD
  16  2,1  | PaW
  16  6,4  - PeD
+ 16  5,8  | PeD
  16  7,8  | PeD
  16  2,1  | PeW
  16  3,9  - PhONED
  16  6,4  - PoD
+ 16  5,8  | PoD
  16  7,8  | PoD
+ 16  5,8  | PoOD
  16  1,1  | PoSED
  16  2,1  | PoW
  16  6,4  - PuD
+ 16  5,8  | PuD
  16  7,8  | PuD
  16  5,6  | SOD
  16  2,3  | WODgE
@@ -430,6 +487,7 @@
  16  5,8  - ZOnED
  16  4,9  - ZoNED
  16  4,8  - aDOZE
+ 16  5,8  | bOP
  16  2,1  | bOWED
  16  2,1  | cOWED
  16  2,9  - cOZEN
@@ -437,20 +495,29 @@
  16  5,8  - dOZED
  16  2,9  - dOZEN
  16  2,10 - ePODE
+ 16  5,8  | hEP
+ 16  5,8  | hOP
  16  2,1  | jOWED
+ 16  5,8  | lOP
  16  2,1  | lOWED
+ 16  5,8  | mOP
  16  2,1  | mOWED
  16  2,4  - oDE
  16  5,8  - oOZED
  16  3,9  - oZONE
+ 16  5,8  | pEP
+ 16  5,8  | pOP
  16  2,1  | rOWED
  16  6,11 - sOD
+ 16  5,8  | sOP
  16  2,1  | sOWED
  16  2,10 - sPODE
+ 16  5,8  | tOP
  16  2,1  | tOWED
  16  5,5  | uSED
  16  2,1  | vOWED
  16  2,1  | wOWED
+ 16  5,8  | yEP
  16  2,1  | yOWED
  15  3,3  | ADOZe
  15  3,3  | ADoZE
@@ -496,15 +563,24 @@
  15  5,8  - OOZEd
  15  5,8  - OOZEs
  15  5,4  - OP
+ 15  5,9  | OP
  15  5,4  - OPe
+ 15  5,9  | OPe
  15  5,4  - OPs
+ 15  5,9  | OPs
  15  5,4  - OPt
+ 15  5,9  | OPt
  15  6,8  - OZOnE
  15  5,11 - OsE
+ 15  5,8  | PE
+ 15  7,8  | PE
  15  1,1  | PESO
  15  1,1  | PESOs
  15  1,1  | PEStO
  15  3,9  - PErNOD
+ 15 10,4  | PIDDlE
+ 15  5,8  | PO
+ 15  7,8  | PO
  15  4,8  - POOEd
  15  1,1  | POSE
  15  1,1  | POSEd
@@ -629,6 +705,7 @@
  14  1,1  | PeSO
  14  3,9  - PhONE
  14  1,1  | PiSO
+ 14  5,8  | PoO
  14  1,1  | PoSE
  14  3,9  - PrONE
  14  7,1  | REdE
@@ -703,6 +780,7 @@
  13  7,8  | DOmE
  13  5,8  | DOnE
  13  7,8  | DOnE
+ 13  5,8  | DOpE
  13  5,8  | DOrE
  13  7,8  | DOrE
  13  7,8  | DOsE
@@ -882,6 +960,7 @@
  12  3,8  - OrZO
  12  3,8  - OuZO
  12  4,10 - OyEZ
+ 12  3,2  - PE
  12  1,5  - PEDrO
  12  2,8  - PEDrO
  12  4,9  - PEND
@@ -905,6 +984,7 @@
  12  5,6  | SOl
  12  5,6  | SOm
  12  5,6  | SOn
+ 12  5,6  | SOp
  12  5,6  | SOs
  12  5,6  | SOt
  12  5,6  | SOw
@@ -930,6 +1010,8 @@
  12  4,9  - ZiN
  12  3,10 - aJEE
  12  4,10 - aJEE
+ 12  5,9  | aPE
+ 12  5,9  | aPO
  12  3,1  | bEAD
  12  5,8  | bED
  12  5,8  | bOD
@@ -962,7 +1044,10 @@
  12  5,8  | nOD
  12  7,8  | nOD
  12  3,10 - oOZE
+ 12  5,9  | oPE
+ 12  5,8  | pED
  12  7,8  | pED
+ 12  5,8  | pOD
  12  7,8  | pOD
  12  3,1  | rEAD
  12  7,8  | rED
@@ -975,6 +1060,7 @@
  12  3,1  | tOAD
  12  5,8  | tOD
  12  3,9  - uPEND
+ 12  5,9  | uPO
  12  5,8  | wED
  12  7,8  | wED
  12  3,1  | wOAD
@@ -1048,6 +1134,7 @@
  11  7,9  | ODs
  11  4,1  | OPTED
  11  5,7  - OX
+ 11  6,4  - PE
  11  6,4  - PEa
  11  3,9  - PEaN
  11  6,4  - PEc
@@ -1064,6 +1151,7 @@
  11  6,4  - PEs
  11  6,4  - PEt
  11  6,4  - PEw
+ 11  6,4  - PO
  11  5,8  - POOED
  11  6,4  - POd
  11  6,4  - POh
@@ -1079,10 +1167,16 @@
  11  6,4  - POt
  11  6,4  - POw
  11  6,4  - POx
+ 11  5,8  | Pa
  11  7,8  | Pa
  11  5,1  - PaRENT
+ 11  5,8  | Pe
+ 11  7,8  | Pe
  11  3,5  - PeE
+ 11  5,8  | Pi
  11  3,5  - PiE
+ 11  5,8  | Po
+ 11  7,8  | Po
  11  3,5  - PoO
  11  3,5  - PrO
  11  3,5  - PyE
@@ -1117,6 +1211,7 @@
  11  4,8  - hOOPED
  11  4,8  - lOOPED
  11  4,7  - lOX
+ 11  5,9  | oP
  11  5,5  | oSE
  11  4,8  - pOOPED
  11  4,7  - pOX
@@ -1124,6 +1219,7 @@
  11  4,7  - sOX
  11  1,5  - sPODE
  11  3,2  | tAJ
+ 11  5,9  | uP
  11  5,5  | uSE
  11  4,7  - vOX
  10  3,8  - DEPOt
@@ -1163,9 +1259,11 @@
  10  4,4  - Oe
  10  4,4  - Oi
  10  4,4  - Om
+ 10  5,10 | PE
  10  3,5  - PEa
  10  3,5  - PEe
  10  2,9  - PElON
+ 10  5,10 | PO
  10  4,9  - PONE
  10  4,9  - PONEs
  10  3,5  - POi
@@ -1180,10 +1278,13 @@
  10  6,4  - Pa
  10  4,9  - PaNED
  10  4,1  | PaTED
+ 10  3,2  - Pe
+ 10  6,4  - Pe
  10  4,9  - PeND
  10  3,2  - Pi
  10  6,4  - Pi
  10  4,9  - PiNED
+ 10  6,4  - Po
  10  4,9  - PoND
  10  8,6  | YOD
  10  8,6  | YODh
@@ -1307,8 +1408,12 @@
   9  2,5  - POrE
   9  2,5  - POsE
   9  1,2  | PSEuDO
+  9  5,10 | Pa
   9  2,9  - PaEON
+  9  5,10 | Pe
+  9  5,10 | Pi
   9  2,9  - PlEON
+  9  5,10 | Po
   9  1,3  | SOPpED
   9  1,3  | SOaPED
   9  1,3  | SOpPED
@@ -1455,6 +1560,7 @@
   8  5,9  | OnE
   8  7,9  | OnE
   8  5,4  - OpE
+  8  5,9  | OpE
   8  6,8  - OrDO
   8  5,9  | OrE
   8  7,9  | OrE
@@ -1770,6 +1876,7 @@
   7  5,9  | On
   7  7,9  | On
   7  5,4  - Op
+  7  5,9  | Op
   7  4,1  | OpTED
   7  2,4  - Or
   7  5,9  | Or
@@ -1798,12 +1905,14 @@
   7  3,2  | PAsE
   7  3,2  | PAtE
   7  3,2  | PAvE
+  7  4,5  - PE
   7  5,10 - PED
   7  5,10 - PEDs
   7  4,1  | PETtO
   7  5,10 - PEeD
   7  5,10 - PEkOE
   7  5,10 - PEnD
+  7  4,5  - PO
   7  5,8  - POD
   7  5,8  - PODs
   7  5,8  - POOvE
@@ -1887,6 +1996,10 @@
   7  5,4  - oE
   7  3,5  - oPE
   7  4,10 - oPED
+  7  5,8  | pE
+  7  7,8  | pE
+  7  5,8  | pO
+  7  7,8  | pO
   7  5,8  - pOOED
   7  3,2  | rAPE
   7  7,8  | rE
@@ -2316,6 +2429,7 @@
   5  3,2  | PAw
   5  3,2  | PAx
   5  3,2  | PAy
+  5  5,10 - PE
   5  5,10 - PEa
   5  5,10 - PEc
   5  5,10 - PEd
@@ -2329,6 +2443,7 @@
   5  5,10 - PEt
   5  5,10 - PEw
   5  7,5  | PI
+  5  5,8  - PO
   5  5,8  - POd
   5  5,8  - POh
   5  5,8  - POi
@@ -2343,6 +2458,7 @@
   5  1,2  | PSt
   5  4,5  - Pa
   5  4,1  | PaT
+  5  4,5  - Pe
   5  4,10 - PeE
   5  4,1  | PeT
   5  7,4  | PhI
@@ -2350,6 +2466,7 @@
   5  4,5  - Pi
   5  4,10 - PiE
   5  4,1  | PiT
+  5  4,5  - Po
   5  7,4  | PoI
   5  4,1  | PoT
   5  7,4  | PsI
@@ -2775,6 +2892,7 @@
   4 10,3  - nU
   4  5,9  - oNE
   4  5,9  - oNO
+  4  3,2  - pE
   4  4,10 - pEED
   4  5,10 - pEED
   4  4,9  - pEN
@@ -3007,8 +3125,12 @@
   3  1,1  | oDS
   3  4,5  - oE
   3  3,2  | pAD
+  3  6,4  - pE
+  3  4,5  - pE
   3  5,10 - pED
   3  1,1  | pESO
+  3  6,4  - pO
+  3  4,5  - pO
   3  5,8  - pOD
   3  1,1  | pOSE
   3  3,2  | rAD
@@ -3260,10 +3382,12 @@
   2  5,9  - oN
   2  4,1  | oOT
   2  1,2  | oSE
+  2  5,10 | pE
   2  4,10 - pEE
   2  5,10 - pEE
   2  1,1  | pES
   2  4,1  | pET
+  2  5,10 | pO
   2  7,4  | pOI
   2  4,8  - pOO
   2  5,8  - pOO
@@ -3418,7 +3542,9 @@
   1  1,2  | oS
   1  5,5  | oS
   1  3,2  | pA
+  1  5,10 - pE
   1  7,5  | pI
+  1  5,8  - pO
   1  7,5  | qI
   1  5,10 - rE
   1  7,5  | sI

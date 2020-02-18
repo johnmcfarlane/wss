@@ -734,6 +734,7 @@
  15  5,5  | LEARs
  15  5,5  | LEARy
  15  4,4  - LEWdER
+ 15  5,5  | LEpER
  15  5,5  | LaREE
  15  7,5  | LaREE
  15  7,7  | LiFER
@@ -1568,6 +1569,7 @@
  12  5,5  | LAm
  12  7,5  | LAm
  12  7,1  | LAmER
+ 12  5,5  | LAp
  12  5,5  | LAr
  12  7,5  | LAr
  12  7,1  | LArEE
@@ -2137,6 +2139,7 @@
  10  7,6  | AlEE
  10  6,5  - AlEF
  10  7,2  | ApER
+ 10  5,6  | ApER
  10  7,2  | AvER
  10  7,2  | AwEE
  10  5,6  | AwEE
@@ -2464,6 +2467,7 @@
  10  5,1  | oLEA
  10  5,5  | pAR
  10  5,5  | pEA
+ 10  5,7  | pELF
  10  5,5  | pER
  10  5,1  | pLEA
  10  3,6  - pREMEAL
@@ -2885,6 +2889,7 @@
   8  5,6  | AnE
   8  7,6  | AnE
   8  5,7  | AnELE
+  8  5,6  | ApE
   8  5,6  | ArE
   8  7,6  | ArE
   8  5,6  | AtE
@@ -3208,6 +3213,7 @@
   8  7,2  | oRE
   8  5,6  | oRE
   8  7,6  | oRE
+  8  5,7  | pALER
   8  5,2  | pEA
   8  7,2  | pEE
   8  3,6  - rEAMER
@@ -3834,14 +3840,19 @@
   7  7,6  | oR
   7  5,7  | oRLE
   7  5,5  | pA
+  7  5,7  | pALE
   7  2,5  - pALEAE
   7  5,5  - pALEAE
   7  3,6  - pALM
+  7  5,7  | pARLE
   7  4,4  - pAWL
+  7  5,5  | pE
   7  5,7  - pEARL
+  7  5,7  | pEARL
   7  2,7  - pEELER
   7  4,7  - pEELER
   7  5,7  - pEELER
+  7  5,7  | pELE
   7  5,7  - pELF
   7  5,7  | rALE
   7  7,7  | rALE
@@ -4429,12 +4440,18 @@
   6  5,7  | oRAL
   6  5,4  - oWL
   6  5,3  | pA
+  6  5,7  | pAL
   6  2,5  - pALEA
   6  5,5  - pALEA
   6  5,5  - pALER
   6  5,5  - pARLE
   6  2,7  - pARLE
+  6  7,3  | pE
+  6  5,7  | pEAL
+  6  5,7  | pEEL
+  6  5,7  | pEREA
   6  3,6  - pERM
+  6  5,7  | pLEA
   6  3,6  - pRAM
   6  7,3  | rE
   6  5,7  | rEAL
@@ -4918,11 +4935,16 @@
   5  3,7  - pALER
   5  4,6  - pAM
   5  5,5  - pARAE
+  5  5,7  | pARE
   5  4,4  - pAW
+  5  5,7  | pEAR
   5  4,5  - pEARL
+  5  5,7  | pEER
+  5  5,7  | pERE
   5  2,5  - pEREA
   5  5,7  - pEREA
   5  4,4  - pEW
+  5  5,7  | pREE
   5  4,6  - rAM
   5  5,7  | rARE
   5  7,7  | rARE
@@ -5334,13 +5356,17 @@
   4  5,4  - oW
   4  5,5  - pALE
   4  3,7  - pALE
+  4  5,7  | pAR
   4  3,5  - pARAE
+  4  5,7  | pEA
   4  4,5  - pEAL
   4  5,7  - pEAL
+  4  5,7  | pEE
   4  4,7  - pEEL
   4  5,7  - pEEL
   4  3,7  - pELE
   4  5,7  - pELE
+  4  5,7  | pER
   4  3,7  - pEREA
   4  3,5  - pLEA
   4  4,7  - pLEA
@@ -5896,7 +5922,9 @@
   2  5,7  | oR
   2  4,5  - oRA
   2  4,7  - oRE
+  2  5,7  | pA
   2  5,5  - pAR
+  2  5,7  | pE
   2  4,5  - pEA
   2  5,7  - pEA
   2  4,7  - pEE
@@ -5985,6 +6013,7 @@
   1  5,7  - nE
   1  5,7  - oE
   1  5,5  - pA
+  1  5,7  - pE
   1  5,7  - rE
   1  5,5  - tA
   1  5,7  - tE

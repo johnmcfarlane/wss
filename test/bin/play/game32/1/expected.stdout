@@ -1,16 +1,23 @@
+ 35  3,5  - BOP
  31  3,7  - PUT
  30  2,2  | COUPLET
  30  2,1  | OCTUPLE
  29  3,5  - BET
  29  3,5  - BOT
+ 29  3,5  - PET
+ 29  3,5  - POT
  28  2,2  | BOUCLE
  28  2,2  | COUPLE
  28  2,2  | PUEBLO
  27  3,5  - BE
  27  3,5  - BO
+ 27  3,5  - PE
+ 27  3,5  - PO
  26  6,1  | COUPES
  26  2,2  | CUPEL
+ 26  3,5  - TOPE
  25  1,7  - BOP
+ 25  1,5  - CEP
  25  1,7  - COP
  24  6,2  | COUPS
  24  6,2  | CUBES
@@ -18,6 +25,7 @@
  24  6,2  | PUCES
  23  3,3  | COPOUT
  23  3,5  | COPOUT
+ 23  3,5  - TOP
  22  6,2  | COPES
  22  6,6  | SCOPE
  22  1,7  - TOP
@@ -26,6 +34,7 @@
  21  4,4  | COX
  21  4,5  - OBE
  21  2,7  - OP
+ 21  4,5  - OPE
  21  4,4  | POX
  20  6,1  | BUTEOS
  20  2,6  | LETUP
@@ -37,9 +46,11 @@
  18  6,2  | BUTES
  18  3,5  | COPE
  18  6,2  | CUTES
+ 18  4,5  - OP
  18  3,3  | POCO
  18  3,5  | POCO
  18  6,2  | POUTS
+ 18  5,5  - PUCE
  18  6,6  | SCOUT
  18  6,6  | SCUTE
  18  6,6  | SETUP
@@ -53,6 +64,7 @@
  17  3,5  | COOPT
  17  3,5  | COP
  17  3,5  | COUP
+ 17  5,5  - PUB
  16  3,4  | COOPT
  16  6,2  | COTES
  16  4,5  | EXPO
@@ -63,6 +75,7 @@
  15  5,5  - BUTE
  15  3,4  | COOP
  15  3,5  | COOP
+ 15  5,5  - PEC
  15  3,5  - TE
  15  3,5  - TO
  14  3,5  | BOUT
@@ -70,12 +83,15 @@
  14  5,5  - BUT
  14  5,3  | CUBe
  14  3,5  | POUT
+ 14  5,5  - POUT
  14  5,3  | PUCe
+ 14  5,5  - PUT
  14  4,7  - UT
  13  1,5  - BET
  13  5,3  | CEPe
  13  5,3  | COPe
  13  1,5  - PET
+ 13  5,5  - POET
  13  4,4  | TUX
  12  5,5  - BET
  12  3,5  | BOOT
@@ -91,7 +107,9 @@
  12  4,5  - ET
  12  3,4  | OBOE
  12  3,6  | OBOE
+ 12  5,5  - PET
  12  3,5  | POET
+ 12  5,5  - POT
  12  3,5  | TOPE
  12  3,3  | TOPO
  12  3,5  | TOPO
@@ -110,7 +128,9 @@
  11  6,3  | CUPS
  11  6,4  | CUSP
  11  5,3  | CUTe
+ 11  5,5  - PE
  11  2,5  | PLEB
+ 11  5,5  - PO
  11  3,5  | POO
  11  3,5  | POT
  11  6,3  | PUBS
@@ -163,6 +183,7 @@
   9  2,7  - OE
   9  3,6  | OP
   9  4,5  | OX
+  9  3,5  | PO
   9  2,4  | PULE
   9  2,4  | TELCO
   9  5,5  - TOP
@@ -201,9 +222,11 @@
   8  6,7  - OPT
   8  6,3  | OPUS
   8  5,5  - OUT
+  8  1,5  - PE
   8  2,4  | PELT
   8  6,4  | PESTO
   8  2,5  | PLOT
+  8  1,7  - PO
   8  2,4  | POLE
   8  2,4  | PUL
   8  6,3  | PUTS
@@ -319,6 +342,7 @@
   4  6,7  - OE
   4  2,5  | OLE
   4  3,6  | OOT
+  4  5,5  | Pe
   4  6,6  | SOU
   4  6,6  | SUE
   4  2,4  | TEL

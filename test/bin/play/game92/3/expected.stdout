@@ -14,12 +14,17 @@
  20  2,1  | AY
  20  6,2  | PAYEE
  20  2,2  | YA
+ 19  2,4  | PE
+ 19  6,5  - POSY
  18  5,5  | OXY
+ 18  6,5  - POESY
  18  6,7  - SOAPY
  17  5,5  | AXES
  17  5,5  | OXES
+ 17  6,5  - PAYS
  17  2,4  | YE
  16  5,5  | AXE
+ 16  6,5  - PASEO
  16  6,2  | PEASE
  16  1,1  - PEG
  16  2,3  - PLAYAS
@@ -33,6 +38,11 @@
  15  3,5  - MOA
  15  3,5  - MOO
  15  5,5  | OX
+ 15  6,5  - PASE
+ 15  6,5  - PAY
+ 15  6,5  - PEAS
+ 15  6,5  - PESO
+ 15  6,5  - POSE
  15  7,3  | PYOSES
  15  7,1  | SEPOYS
  15  6,7  - SOAP
@@ -45,7 +55,10 @@
  14  7,2  | SPAYS
  14  6,5  - YAP
  14  6,5  - YEP
+ 13  6,5  - PAS
  13  7,3  | PAYS
+ 13  6,5  - PEA
+ 13  6,5  - PES
  13  2,3  - PLAY
  13  7,3  | PYAS
  13  7,3  | PYES
@@ -56,7 +69,10 @@
  12  2,1  | AS
  12  7,5  - ASP
  12  3,3  - LAPS
+ 12  6,5  - PA
  12  7,3  | PASSE
+ 12  6,5  - PE
+ 12  6,5  - PO
  12  7,3  | POSSE
  12  2,2  - POmE
  12  2,2  - POmO
@@ -242,6 +258,7 @@
   5  3,3  - LAS
   5  7,4  | OASES
   5  7,3  | OSES
+  5  6,5  | PE
   5  7,6  | SAY
   5  7,3  | SEAS
   5  7,6  | SEAS

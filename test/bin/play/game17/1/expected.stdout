@@ -2017,6 +2017,7 @@
  10  4,5  - SLImE
  10  4,7  - SLImE
  10 10,2  | SLIpE
+ 10  4,5  - SLIpE
  10  4,7  - SLIpE
  10  6,2  | SLIpT
  10  6,2  | SLeET
@@ -2317,6 +2318,7 @@
   9  5,5  - LInE
   9  5,7  - LInE
   9 11,4  | LInS
+  9  5,5  - LIpE
   9  5,7  - LIpE
   9  5,7  - LIrE
   9  5,5  - LItE
@@ -2964,6 +2966,7 @@
   8  5,5  - SInE
   8  5,7  - SInE
   8 11,6  | SIp
+  8  5,5  - SIpE
   8  5,7  - SIpE
   8 11,6  | SIr
   8  5,7  - SIrE
@@ -3513,6 +3516,7 @@
   7  8,2  | SLIeR
   7  4,5  - SLIm
   7  4,7  - SLIm
+  7  4,5  - SLIp
   7  4,7  - SLIp
   7  9,2  | SLIpT
   7  4,5  - SLIt
@@ -3875,6 +3879,7 @@
   6  8,2  | DInERS
   6  7,3  | DInO
   6  9,3  | DInT
+  6  5,5  - DIp
   6  5,7  - DIp
   6  7,2  | DIpSO
   6  9,3  | DIpT
@@ -4081,6 +4086,7 @@
   6  8,2  | LInERS
   6  7,3  | LInO
   6  9,3  | LInT
+  6  5,5  - LIp
   6  5,7  - LIp
   6  5,5  - LIs
   6  5,7  - LIs
@@ -5041,6 +5047,7 @@
   5  5,7  - SIm
   5  5,5  - SIn
   5  5,7  - SIn
+  5  5,5  - SIp
   5  5,7  - SIp
   5 10,3  | SIpED
   5  5,7  - SIr
@@ -6252,6 +6259,8 @@
   4  9,7  - oS
   4  4,5  - oSE
   4  4,7  - oSE
+  4  7,5  - pE
+  4  7,7  - pE
   4 10,5  | pEDS
   4 10,4  | pEED
   4 10,5  | pEED
@@ -6370,6 +6379,7 @@
   4  7,5  | yODS
   4 10,5  | zEDS
   4  9,3  | zEST
+  4  7,5  | zOLS
   3 10,5  | DE
   3 10,5  | DEb
   3 10,5  | DEe
@@ -6887,6 +6897,8 @@
   3  5,5  - oI
   3  5,7  - oI
   3 10,4  | oLE
+  3  5,5  - pE
+  3  5,7  - pE
   3 10,5  | pED
   3 10,4  | pEES
   3 10,5  | pEES
@@ -7263,11 +7275,13 @@
   2  8,5  | oRS
   2 10,5  - oS
   2 10,4  | oSE
+  2 10,5  - pE
   2 10,4  | pEE
   2 10,5  | pEE
   2  8,4  | pER
   2 10,5  | pES
   2  6,4  | pET
+  2 10,5  - pI
   2 10,4  | pIE
   2  6,4  | pIT
   2  7,5  | pOI
@@ -7379,6 +7393,8 @@
   1  7,5  | nO
   1 10,5  | oE
   1  8,5  | oR
+  1 10,5  | pE
+  1  7,5  | pO
   1 10,5  | rE
   1  7,5  | sO
   1 10,5  | tE

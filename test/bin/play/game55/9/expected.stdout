@@ -1,14 +1,18 @@
  48 11,8  | ZOnK
  48 11,8  | ZOuK
  45 11,9  | ZeK
+ 36  8,10 - LOP
  36 11,7  | PLOnK
  36  6,1  | POZoLE
  36  6,1  | PoZOLE
  33 11,8  | HOLK
+ 32  6,5  - PHiZ
  30 11,8  | HoLK
  30 11,8  | HuLK
  30 11,8  | POcK
  30 11,8  | POrK
+ 30  8,10 - lOP
+ 30  8,10 - sOP
  28  6,2  | ZLOtE
  28  6,2  | aZOLE
  28  6,2  | cLOZE
@@ -33,14 +37,18 @@
  22  6,1  | HOPpLE
  22  6,1  | HOpPLE
  22  6,2  | PHLOEm
+ 22  6,5  - PLOtZ
  21 11,9  | LeK
  21  8,6  | ZAXEs
  21 11,9  | eLK
  21 11,9  | iLK
  20  8,10 - LOb
  20  8,10 - LOo
+ 20  8,10 - LOp
  20  8,10 - LOt
  20  8,10 - LOw
+ 20  9,10 - OP
+ 20 10,10 | PE
  20  6,2  | PHyLE
  19  8,3  | POLeAXE
  19  2,3  | ZLOTy
@@ -65,8 +73,12 @@
  16  5,1  | HyPO
  16  6,2  | LOuPE
  16  9,10 - OH
+ 16  6,5  - PHLOx
+ 16  6,5  - POoH
+ 16  6,5  - POsH
  16  2,2  | POuLT
  16  2,2  | PiLOT
+ 16  6,5  - PoOH
  16  6,2  | PrOLE
  16  6,2  | eLOPE
  16  6,2  | sLOPE
@@ -85,6 +97,9 @@
  14  2,2  | HeLOT
  14  6,3  | OuZEL
  14  2,3  | PHOTs
+ 14  6,5  - POlL
+ 14  6,5  - POoL
+ 14  6,5  - PoOL
  14  6,4  | cHEZ
  14  6,2  | dHOLE
  14  6,2  | tHOLE
@@ -95,9 +110,14 @@
  13  6,3  | LaZE
  13  6,5  - OPaH
  13  6,5  - OuPH
+ 13  6,5  - PHOn
+ 13  6,5  - PHOt
  13  5,2  | PHi
  13  2,3  | PLOTs
+ 13  5,3  | PO
+ 13  6,5  - POH
  13  5,1  | PoLO
+ 13  6,5  - PoLO
  13  2,4  - ZaG
  13  2,4  - ZiG
  13  5,2  | aPO
@@ -112,7 +132,23 @@
  12  5,1  | HeLO
  12  6,3  | OoZE
  12  6,4  | OyEZ
+ 12  6,5  - PHi
+ 12  6,5  - PHt
+ 12  6,5  - PLOd
+ 12  6,5  - PLOp
+ 12  6,5  - PLOt
+ 12  6,5  - PLOw
+ 12  6,5  - PLOy
+ 12  6,5  - POL
+ 12  6,5  - POLe
+ 12  6,5  - POLl
  12  5,1  | POLo
+ 12  6,5  - POLo
+ 12  6,5  - POLs
+ 12  6,5  - POLy
+ 12  6,5  - PaH
+ 12  6,5  - PeH
+ 12  6,5  - PoH
  12  6,4  | ZOEa
  12  6,3  | ZOnE
  12  6,5  - aZO
@@ -120,6 +156,7 @@
  12  6,5  - fLOP
  12  6,5  - hOLP
  12  6,3  | oOZE
+ 12  6,5  - pLOP
  12  6,5  - tOPH
  11  8,7  | AXEd
  11  8,7  | AXEl
@@ -135,9 +172,14 @@
  11  6,5  - HyP
  11  2,4  | OPTs
  11  6,5  - OPaL
+ 11  6,5  - PLy
  11  2,4  | POTs
  11  3,3  | Pa
+ 11  6,5  - PaL
  11  5,3  | Pi
+ 11  5,3  | Po
+ 11  6,5  - PoL
+ 11  6,5  - PuL
  11  2,4  | QaT
  11  1,5  - Qi
  11  7,7  - ZA
@@ -169,6 +211,19 @@
  10  6,5  - HOLy
  10  2,4  | HOTs
  10  5,2  | OHo
+ 10  6,5  - PO
+ 10  6,5  - POd
+ 10  6,5  - POh
+ 10  6,5  - POi
+ 10  6,5  - POl
+ 10  6,5  - POm
+ 10  6,5  - POo
+ 10  6,5  - POp
+ 10  6,5  - POt
+ 10  6,5  - POw
+ 10  6,5  - POx
+ 10  6,5  - PoO
+ 10  6,5  - PrO
  10  2,4  - PuGH
  10  6,3  | sHLEP
   9  6,6  | EPHA
@@ -188,6 +243,10 @@
   9  1,4  - PLuG
   9  5,2  | POi
   9  5,2  | POo
+  9  6,5  - Pa
+  9  6,5  - Pe
+  9  6,5  - Pi
+  9  6,5  - Po
   9  5,2  | PoO
   9  5,2  | PrO
   8  4,4  - GOoP
@@ -364,6 +423,7 @@
   6  6,5  - mOP
   6  6,3  | mOPE
   6  6,3  | nOPE
+  6  6,5  - pOP
   6  6,3  | pOPE
   6  2,9  | rE
   6  6,3  | rOPE
@@ -407,6 +467,7 @@
   5  6,5  - OwL
   5  7,7  - PA
   5  6,8  | PA
+  5  6,5  | PE
   5  6,5  | PEa
   5  6,5  | PEc
   5  6,5  | PEd
@@ -421,6 +482,7 @@
   5  6,5  | PEw
   5  1,5  - Pa
   5  2,4  | PaT
+  5  1,5  - Pe
   5  6,4  | PeE
   5  2,4  | PeT
   5  2,4  | PhT
@@ -455,6 +517,8 @@
   5  2,4  | oPT
   5  6,5  | pEP
   5  2,3  | pHOT
+  5  5,3  | pO
+  5  6,5  - pOH
   5  6,5  | rEP
   5  6,5  - rHO
   5  5,11 - sH
@@ -530,6 +594,7 @@
   4  9,10 - Oh
   4  9,10 - Om
   4  9,10 - On
+  4  9,10 - Op
   4  9,10 - Or
   4  6,3  | OrLE
   4  9,10 - Ow
@@ -575,9 +640,11 @@
   4  2,4  - nOG
   4  6,5  - oH
   4  6,4  | oLEO
+  4 10,10 | pE
   4  6,5  | pEH
   4  2,4  | pHT
   4  2,3  | pLOT
+  4  6,5  - pOL
   4  6,3  | pOLE
   4 10,10 | rE
   4  6,3  | rOLE
@@ -690,6 +757,7 @@
   2  6,5  - nO
   2  2,4  | nOT
   2  2,4  | oOT
+  2  6,5  - pO
   2  2,4  | pOT
   2  6,4  | rOE
   2  2,4  | rOT
@@ -744,6 +812,7 @@
   1  6,5  | oE
   1  7,7  - pA
   1  6,8  | pA
+  1  6,5  | pE
   1  6,5  | rE
   1  7,7  - tA
   1  6,8  | tA

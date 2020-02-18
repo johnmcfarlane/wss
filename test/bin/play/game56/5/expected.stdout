@@ -390,6 +390,7 @@
  26  1,3  - NOESIs
  26  1,3  - NOISEs
  26  1,3  - NOSIEr
+ 26  1,3  - NOSIEs
  26  1,2  - SANE
  26  1,2  - SINE
  26  1,2  - SONE
@@ -471,6 +472,7 @@
  24  6,10 - NOeLS
  24  6,10 - NOiLS
  24  1,3  - NOrIAS
+ 24  1,3  - NOsIES
  24  1,3  - NOwISE
  24  6,10 - NaILS
  24  7,9  - NaLAS
@@ -1592,6 +1594,7 @@
  15  7,7  - NONa
  15  7,7  - NONe
  15  2,3  - NOrIAS
+ 15  2,3  - NOsIES
  15  8,8  | Na
  15  7,7  - NaNA
  15  7,7  - NaNS
@@ -2340,6 +2343,7 @@
  13  8,6  | MItE
  13  8,6  | MOdE
  13  8,6  | MOmE
+ 13  8,6  | MOpE
  13  8,6  | MOrA
  13  8,6  | MOrE
  13  8,6  | MOtE
@@ -2368,6 +2372,7 @@
  13  3,7  - NOmES
  13  3,7  - NOnES
  13  3,7  - NOsES
+ 13  2,7  - NOsIES
  13  3,7  - NOtES
  13  3,5  - OAkEN
  13  3,7  - OAkEN
@@ -2941,6 +2946,8 @@
  12  3,3  - NOSEs
  12  3,7  - NOSEs
  12  2,3  - NOSIEr
+ 12  2,3  - NOSIEs
+ 12  2,7  - NOSIEs
  12  5,10 - NOdAL
  12  5,10 - NOpAL
  12  5,10 - NOtAL
@@ -3152,11 +3159,13 @@
  12  3,5  - pAEON
  12  3,7  - pAEON
  12  5,10 - pANEL
+ 12  1,2  - pE
  12  7,10 - pELON
  12  5,10 - pENAL
  12  1,2  - pI
  12  8,9  - pLEA
  12  8,9  - pLIE
+ 12  1,2  - pO
  12  9,1  | pRAO
  12  9,1  | pROA
  12  9,1  | pROS
@@ -4887,6 +4896,7 @@
   9  9,9  - LyE
   9  8,6  | MAd
   9  8,6  | MAn
+  9  8,6  | MAp
   9  8,6  | MAr
   9  8,6  | MAt
   9  8,6  | MAw
@@ -4906,6 +4916,7 @@
   9  8,6  | MOm
   9  8,6  | MOn
   9  8,6  | MOo
+  9  8,6  | MOp
   9  8,6  | MOr
   9  8,6  | MOt
   9  8,6  | MOw
@@ -5017,6 +5028,7 @@
   9  2,5  - NOIsE
   9  2,7  - NOIsE
   9  2,3  - NOSEs
+  9  6,4  - NOSIES
   9  3,3  - NOSe
   9  4,3  - NOSh
   9  3,3  - NObS
@@ -5529,6 +5541,7 @@
   9  3,3  - pANS
   9  5,4  - pANSIES
   9  5,3  - pAS
+  9  8,8  | pEA
   9  3,3  - pEAN
   9  3,3  - pEIN
   9  6,8  - pENES
@@ -6170,9 +6183,12 @@
   8  7,4  - NOSES
   8  7,11 - NOSES
   8  5,8  - NOSIEr
+  8  5,8  - NOSIEs
+  8  6,4  - NOSIeS
   8  3,5  - NOSe
   8  3,7  - NOSe
   8  6,4  - NOShES
+  8  6,4  - NOSiES
   8  7,4  | NOUsES
   8  8,4  - NObS
   8  5,9  - NOdAL
@@ -6188,6 +6204,7 @@
   8  6,11 - NOoSES
   8  5,9  - NOpAL
   8  5,7  - NOs
+  8  5,8  - NOsIES
   8  5,7  - NOt
   8  5,9  - NOtAL
   8  8,4  - NOuS
@@ -6214,6 +6231,7 @@
   8  6,4  - NoOSES
   8  6,11 - NoOSES
   8  5,7  - NoS
+  8  6,4  - NoSIES
   8  2,3  - OASEs
   8  2,3  - OASIs
   8  4,3  - OASt
@@ -6915,6 +6933,7 @@
   8  6,10 - zEAL
   8  4,3  - zIN
   8  6,8  - zINE
+  8  7,10 - zOLS
   8  5,9  - zONAL
   8  6,8  - zONE
   7  8,1  | ACNe
@@ -7289,6 +7308,7 @@
   7  6,8  - NOSEd
   7  6,8  - NOSEs
   7  6,8  - NOSEy
+  7  4,11 - NOSIES
   7  4,11 - NOSIESt
   7  7,4  - NOSeS
   7  7,11 - NOSeS
@@ -7861,6 +7881,7 @@
   7  3,7  - nONE
   7  7,4  - nONES
   7  3,3  - nOSE
+  7  6,4  - nOSIES
   7  7,8  - oNE
   7  7,8  - pAEON
   7  7,4  - pAINS
@@ -8506,7 +8527,9 @@
   6  5,8  - NOIsES
   6  4,11 - NOIsES
   6  5,11 - NOSES
+  6  4,11 - NOSIeS
   6  4,11 - NOShES
+  6  4,11 - NOSiES
   6  7,4  | NOUS
   6  7,4  | NOUnS
   6  6,9  - NOeL
@@ -8522,6 +8545,8 @@
   6  6,4  - NOrIAS
   6  4,11 - NOrIAS
   6  4,3  - NOs
+  6  6,4  - NOsIES
+  6  4,11 - NOsIES
   6  6,4  - NOuSES
   6  4,11 - NOuSES
   6  5,11 - NOwISE
@@ -8548,6 +8573,7 @@
   6  4,11 - NoOSES
   6  4,3  - NoS
   6  6,8  - NoSE
+  6  4,11 - NoSIES
   6  6,4  | NuDES
   6  6,4  | NuDIE
   6  4,3  - NuS
@@ -10650,6 +10676,7 @@
   5  5,11 - nONAS
   5  5,11 - nONES
   5  6,8  - nOSE
+  5  4,11 - nOSIES
   5  7,4  | nOUN
   5  7,5  | nUNS
   5  8,1  | oCA
@@ -10659,6 +10686,7 @@
   5  4,7  - oSE
   5  8,11 - oSES
   5  8,11 - oSSA
+  5  8,8  | pA
   5  6,4  | pADIS
   5  6,9  - pAIL
   5  5,11 - pAINS
@@ -10667,6 +10695,7 @@
   5  6,8  - pASE
   5  4,11 - pASEOS
   5  7,4  | pAUSE
+  5  8,8  | pE
   5  4,5  - pEA
   5  6,9  - pEAL
   5  5,11 - pEANS
@@ -11933,6 +11962,9 @@
   4  6,11 - pANS
   4  5,11 - pASES
   4  6,11 - pASSE
+  4  5,3  - pE
+  4  5,5  - pE
+  4  5,7  - pE
   4  8,8  - pEAN
   4  6,4  | pEDS
   4  7,8  - pEE
@@ -11949,6 +11981,8 @@
   4  8,4  - pINS
   4  6,11 - pINS
   4  5,11 - pISOS
+  4  5,5  - pO
+  4  5,7  - pO
   4  6,4  | pODS
   4  6,11 - pOISE
   4  7,9  - pOLE
@@ -12129,6 +12163,7 @@
   4  8,4  - zINS
   4  6,11 - zINS
   4  5,11 - zOEAS
+  4  7,9  - zOLS
   3  3,1  | AAhS
   3  3,1  | AAlS
   3  6,5  | AD
@@ -13424,8 +13459,10 @@
   2  8,8  - oES
   2  7,11 - oES
   2  8,11 - oSE
+  2 10,5  | pA
   2  9,4  - pAS
   2  7,11 - pAS
+  2 10,5  - pE
   2  8,8  - pEA
   2  8,8  - pEE
   2  9,4  - pES
@@ -13542,6 +13579,7 @@
   1  8,8  - oE
   1 10,4  - oS
   1  8,11 - oS
+  1  8,8  - pE
   1  8,8  - rE
   1  8,8  - tE
   1 10,4  - uS

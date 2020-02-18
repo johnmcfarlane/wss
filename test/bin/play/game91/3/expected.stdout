@@ -376,6 +376,7 @@
  20  9,3  | AmITY
  20  7,5  | CAYs
  20 11,3  | CAnT
+ 20  9,4  | CApH
  20  7,5  | CApH
  20 11,3  | CArT
  20  7,5  | CAsH
@@ -438,6 +439,7 @@
  19  3,8  - CHAUnT
  19  9,3  | CHAnT
  19  7,4  | CHAnT
+ 19  9,3  | CHApT
  19  7,4  | CHApT
  19  9,3  | CHArT
  19  7,4  | CHArT
@@ -471,6 +473,7 @@
  19 11,3  | oATH
  19 11,3  | pATH
  19 11,3  | pITH
+ 19  9,6  | pYA
  19 11,3  | rATH
  19  9,6  | rYA
  19  9,3  | sAITH
@@ -937,6 +940,7 @@
  14  9,4  | CHAm
  14  9,2  | CHAnT
  14  9,3  | CHAo
+ 14  9,3  | CHAp
  14  9,4  | CHAp
  14  9,2  | CHApT
  14  9,3  | CHAr
@@ -960,6 +964,7 @@
  14  9,3  | CHId
  14  9,3  | CHIn
  14  9,2  | CHInA
+ 14  9,3  | CHIp
  14  9,3  | CHIt
  14  3,9  - CHaRT
  14  9,3  | CHaT
@@ -1562,6 +1567,7 @@
  10  9,3  | HIsT
  10 11,4  | HYTe
  10 11,4  | HYlA
+ 10  9,4  | HYp
  10  3,7  - HYpO
  10  3,6  - HaIKA
  10  9,4  | HaY
@@ -1962,6 +1968,7 @@
   8  7,4  | AnI
   8  9,5  | AnT
   8  9,4  | AnY
+  8  9,5  | ApT
   8  7,6  | Ar
   8  9,5  | ArT
   8  7,6  | As
@@ -2076,6 +2083,8 @@
   8  9,6  | TA
   8  3,7  - TACO
   8  3,7  - TACOs
+  8  3,6  - TAIKo
+  8  2,10 - TAIkO
   8  4,6  - TAKIn
   8  4,9  - TARoC
   8  3,7  - TArOC
@@ -2249,6 +2258,7 @@
   7  9,4  | CAd
   7  9,4  | CAm
   7  9,4  | CAn
+  7  9,4  | CAp
   7  9,4  | CAr
   7  9,4  | CAt
   7  9,4  | CAw
@@ -2547,6 +2557,7 @@
   6  9,4  | HAj
   6  9,4  | HAm
   6  9,4  | HAo
+  6  9,4  | HAp
   6  9,4  | HAt
   6  9,4  | HAw
   6  9,4  | HAy
@@ -2554,6 +2565,7 @@
   6  9,4  | HId
   6  9,4  | HIm
   6  9,4  | HIn
+  6  9,4  | HIp
   6  9,4  | HIt
   6  5,8  - HUIc
   6  5,8  - HUT
@@ -2664,12 +2676,14 @@
   6  4,9  - YARn
   6  9,4  | YAh
   6  9,4  | YAm
+  6  9,4  | YAp
   6  9,4  | YAr
   6  9,4  | YAw
   6  9,4  | YAy
   6  4,9  - YIRd
   6  4,9  - YIRr
   6  9,4  | YIn
+  6  9,4  | YIp
   6  5,8  - YUAn
   6  5,8  - YUTz
   6  9,4  | YeA
@@ -2731,6 +2745,7 @@
   6  9,7  | nA
   6  4,6  - oAK
   6  5,6  - oKA
+  6  9,6  | pA
   6  9,7  | pA
   6  8,8  | pACA
   6 11,4  | pHT
@@ -2895,6 +2910,7 @@
   5  6,9  - ReC
   5  6,9  - RoC
   5  9,5  | TA
+  5  2,7  - TAIkO
   5  4,9  - TARsI
   5  8,8  | TAkA
   5  8,8  | TAlA
@@ -3199,6 +3215,7 @@
   4  9,4  | TAm
   4  9,4  | TAn
   4  9,4  | TAo
+  4  9,4  | TAp
   4  9,4  | TAr
   4  3,7  - TArO
   4  9,4  | TAt
@@ -3208,6 +3225,7 @@
   4  4,9  - TIRo
   4  3,9  - TIeR
   4  9,4  | TIn
+  4  9,4  | TIp
   4  3,7  - TIrO
   4  9,4  | TIt
   4  5,8  - TUI
@@ -4024,6 +4042,9 @@
   1  5,9  - oR
   1  9,7  - pA
   1  8,10 | pA
+  1  9,6  - pE
+  1  5,7  - pO
+  1  5,10 - pO
   1  9,6  - rE
   1  5,7  - sO
   1  5,10 - sO

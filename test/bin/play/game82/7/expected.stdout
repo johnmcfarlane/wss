@@ -61,6 +61,7 @@
  31  2,8  - lIPS
  31  2,8  - mIPS
  31  2,8  - nIPS
+ 31  2,8  - pIPS
  31  2,8  - sIPS
  31  2,8  - tIPS
  31  2,8  - yIPS
@@ -77,6 +78,7 @@
  28  2,8  - hIP
  28  2,8  - lIP
  28  2,8  - nIP
+ 28  2,8  - pIP
  28  2,8  - sIP
  28  2,8  - tIP
  28  2,8  - yIP
@@ -169,6 +171,7 @@
  21  4,4  | PILOsE
  21  2,8  | POT
  21  2,8  - SILT
+ 21  1,6  - SLAP
  21  5,3  | SPIrIT
  21  2,8  - TILS
  21  7,4  | TaBS
@@ -200,6 +203,7 @@
  20  2,10 - PA
  20  2,3  | PIaL
  20  2,3  | PIlL
+ 20  2,8  - PInTS
  20  6,2  | PLaTEN
  20  2,3  | PaIL
  20  6,5  - PaL
@@ -230,8 +234,11 @@
  20  2,4  | tIP
  20  2,4  | yIP
  20  2,4  | zIP
+ 19  2,6  - LAP
  19  2,8  | LOTI
+ 19  1,6  - LeAP
  19  1,6  - PIAL
+ 19  2,8  - PISs
  19  2,8  - SILd
  19  2,8  - SILt
  19  5,5  - SPaT
@@ -239,6 +246,8 @@
  19  5,4  | STrIP
  19  2,8  - TILs
  19  2,8  - TILt
+ 19  1,6  - cLAP
+ 19  1,6  - fLAP
  19  2,8  - gILT
  19  2,8  - hILT
  19  2,8  - jILT
@@ -247,11 +256,13 @@
  19  2,8  - mILT
  19  2,8  - nILS
  19  2,8  - sILT
+ 19  1,6  - sLAP
  19  2,8  - tILS
  19  2,8  - tILT
  19  2,8  - wILT
  18  4,5  - LIPa
  18  2,3  | LePT
+ 18  2,8  - PIS
  18  6,2  | PITmEN
  18  1,6  - PLAT
  18  2,3  | PLaT
@@ -267,12 +278,15 @@
  18 10,2  | SLInK
  18  2,3  | SPIT
  18 10,2  | STaLK
+ 18  6,5  - SaP
  18  2,8  - TIL
  18 10,2  | TILaK
+ 18  6,5  - TaP
  18  5,5  | TrIP
  18  6,2  | mISPEN
  18  2,5  | oP
  18  2,5  | uP
+ 18  6,9  - uP
  17  2,8  - LIST
  17  2,6  - PAL
  17  4,4  | PISO
@@ -284,13 +298,21 @@
  17  2,8  | POt
  17  1,6  - PeAL
  17  1,6  - PiAL
+ 17  2,6  - SAP
  17  2,8  | SOLa
  17  2,8  | SOLe
  17  2,8  | SOLi
  17  2,8  | SOLo
+ 17  1,6  - SlAP
+ 17  1,6  - SnAP
+ 17  1,6  - SoAP
+ 17  1,6  - SwAP
+ 17  2,6  - TAP
  17  2,8  | TOLa
  17  2,8  | TOLe
  17  2,8  | TOLu
+ 17  1,6  - TrAP
+ 17  1,6  - aTAP
  17  1,6  - oPAL
  17  5,6  | rIP
  17  2,8  | sOLI
@@ -344,7 +366,11 @@
  15  2,8  | LOT
  15  2,8  | LOtI
  15  1,11 - PISS
+ 15  2,8  - PInS
+ 15  2,8  - PInT
+ 15  2,8  - PIpS
  15  4,4  | PIsO
+ 15  2,8  - PIsS
  15  1,6  - PLAn
  15  1,6  - PLAt
  15  1,6  - PLAy
@@ -354,9 +380,24 @@
  15  4,5  - QiS
  15  6,8  - SeLF
  15  4,4  | TrIOSE
+ 15  2,6  - bAP
+ 15  2,6  - cAP
+ 15  2,6  - dAP
  15  8,2  | dIPSO
  15  4,4  | fILOSE
+ 15  2,6  - gAP
+ 15  2,6  - hAP
+ 15  2,6  - lAP
+ 15  2,6  - mAP
+ 15  2,6  - nAP
+ 15  2,6  - pAP
  15  4,4  | pILOSE
+ 15  2,6  - rAP
+ 15  2,6  - sAP
+ 15  2,6  - tAP
+ 15  2,6  - wAP
+ 15  2,6  - yAP
+ 15  2,6  - zAP
  14  1,7  | LIMPS
  14  4,5  - LIP
  14  2,8  - LIS
@@ -489,7 +530,10 @@
  12  1,7  | PIMpS
  12  2,4  | PIa
  12  2,4  | PIn
+ 12  2,8  - PIn
  12  2,4  | PIp
+ 12  2,8  - PIp
+ 12  2,8  - PIs
  12  2,4  | PIt
  12  6,4  | PLENIST
  12  6,4  | PLENISTs
@@ -595,6 +639,7 @@
  11  2,6  - PAl
  11  2,6  - PAm
  11  2,6  - PAn
+ 11  2,6  - PAp
  11  2,6  - PAs
  11  2,6  - PAt
  11  2,6  - PAw
@@ -659,11 +704,13 @@
  10  6,5  | PENuLT
  10  7,9  | PES
  10  7,9  | PET
+ 10  2,8  - PI
  10  4,5  - PIS
  10  4,5  - PIT
  10 10,3  | PIcK
  10 10,3  | PInK
  10  1,6  | PLuM
+ 10  2,8  | PO
  10  4,5  - PST
  10  2,5  | Pa
  10 10,3  | PaIK
@@ -736,6 +783,7 @@
  10  4,6  | nOSE
  10  4,6  | nOTE
  10  7,8  | oPES
+ 10  2,8  - pIS
  10  1,6  - pLAT
  10  4,6  | rOSE
  10  4,6  | rOTE
@@ -761,6 +809,8 @@
   9  6,3  | LuTENIST
   9  4,7  | OSE
   9  8,6  | Oe
+  9  8,9  | PA
+  9  7,9  | PE
   9  7,9  | PEa
   9  7,9  | PEc
   9  7,9  | PEd
@@ -797,6 +847,7 @@
   9  4,5  - PhT
   9  4,5  - PiS
   9  4,5  - PiT
+  9  8,9  - Po
   9  1,7  | PoMS
   9  4,5  - PoT
   9  1,6  | PrIM
@@ -808,6 +859,7 @@
   9  1,6  - SLAb
   9  1,6  - SLAg
   9  1,6  - SLAm
+  9  1,6  - SLAp
   9  1,6  - SLAt
   9  1,6  - SLAw
   9  1,6  - SLAy
@@ -1022,6 +1074,7 @@
   7  2,6  - LAd
   7  2,6  - LAg
   7  2,6  - LAm
+  7  2,6  - LAp
   7  2,6  - LAs
   7  2,6  - LAt
   7  2,6  - LAw
@@ -1436,6 +1489,7 @@
   5  1,9  | MIr
   5  1,9  | MIs
   5  1,9  | MIx
+  5  8,5  | PO
   5  2,11 - PSi
   5  2,11 - PSt
   5  7,8  | PeE
@@ -1446,6 +1500,7 @@
   5  8,9  | SAe
   5  2,6  - SAg
   5  2,6  - SAl
+  5  2,6  - SAp
   5  2,6  - SAt
   5  2,6  - SAw
   5  2,6  - SAy
@@ -1484,6 +1539,7 @@
   5  2,6  - TAm
   5  2,6  - TAn
   5  8,9  | TAo
+  5  2,6  - TAp
   5  2,6  - TAs
   5  2,6  - TAt
   5  2,6  - TAw
@@ -1931,7 +1987,9 @@
   2  2,6  - pA
   2  7,9  | pES
   2  7,9  | pET
+  2  2,8  - pI
   2  1,11 - pIS
+  2  2,8  | pO
   2  2,11 - pSI
   2  2,11 - pST
   2  1,11 - qIS
@@ -2023,6 +2081,10 @@
   1  8,9  - no
   1  7,9  | oE
   1  2,11 - oS
+  1  8,9  | pA
+  1  7,9  | pE
+  1  8,5  | pO
+  1  8,9  - po
   1  7,9  | rE
   1  8,5  | sO
   1  8,9  | tA

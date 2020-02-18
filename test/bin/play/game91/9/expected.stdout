@@ -304,6 +304,8 @@
  12  7,5  | PIs
  12  6,2  - PItA
  12  7,5  | PIx
+ 12  5,7  - POIS
+ 12  5,7  - POSE
  12  1,6  | PaIL
  12  7,5  | PaS
  12  7,2  - PeAS
@@ -375,6 +377,30 @@
  11  4,6  - PIKE
  11  3,6  - PIcKS
  11  3,6  - PInKS
+ 11  5,7  - POEm
+ 11  5,7  - POEt
+ 11  5,7  - POI
+ 11  5,7  - POIs
+ 11  5,7  - POSe
+ 11  5,7  - POSh
+ 11  5,7  - POSt
+ 11  5,7  - POSy
+ 11  5,7  - POdS
+ 11  5,7  - POiS
+ 11  5,7  - POkE
+ 11  5,7  - POlE
+ 11  5,7  - POlS
+ 11  5,7  - POmE
+ 11  5,7  - POmS
+ 11  5,7  - POnE
+ 11  5,7  - POnS
+ 11  5,7  - POoS
+ 11  5,7  - POpE
+ 11  5,7  - POpS
+ 11  5,7  - POrE
+ 11  5,7  - POsE
+ 11  5,7  - POtS
+ 11  5,7  - POwS
  11  3,6  - PaIKS
  11  8,10 - PeE
  11  3,6  - PeEKS
@@ -412,6 +438,7 @@
  10  8,2  - PAw
  10  8,2  - PAx
  10  8,2  - PAy
+ 10  5,7  | PE
  10  4,6  - PEKe
  10  3,6  - PEaK
  10  3,6  - PEcK
@@ -423,6 +450,17 @@
  10  4,6  - PIKi
  10  3,6  - PIcK
  10  3,6  - PInK
+ 10  5,7  - PO
+ 10  5,7  - POd
+ 10  5,7  - POh
+ 10  5,7  - POi
+ 10  5,7  - POl
+ 10  5,7  - POm
+ 10  5,7  - POo
+ 10  5,7  - POp
+ 10  5,7  - POt
+ 10  5,7  - POw
+ 10  5,7  - POx
  10  3,6  - PaIK
  10  3,6  - PeEK
  10  4,6  - PeKE
@@ -736,6 +774,8 @@
   7  4,6  - pEKE
   7  7,5  | pI
   7  4,6  - pIKE
+  7  5,7  - pOPE
+  7  5,7  - pOPS
   7  7,5  | qI
   7  3,6  - rEEK
   7  3,6  - rISK
@@ -867,6 +907,7 @@
   6  5,6  - oKE
   6  7,2  - pEAS
   6  7,2  - pIAS
+  6  5,7  - pOP
   6  7,1  - rEMS
   6  7,2  - rIAS
   6  7,1  - rIME
@@ -925,6 +966,7 @@
   5  6,7  - OPt
   5  8,2  - PA
   5  8,10 | PA
+  5  5,10 - PO
   5  7,2  - PeA
   5  8,9  | PeA
   5  7,2  - PiA
@@ -1029,6 +1071,8 @@
   4  5,7  - nOSE
   4  8,1  - oM
   4  8,2  - pAS
+  4  5,7  - pOIS
+  4  5,7  - pOSE
   4  8,2  - rAI
   4  8,2  - rAS
   4  5,7  - rOES
@@ -1080,6 +1124,7 @@
   3  8,8  | mESA
   3  5,7  - mOS
   3  5,7  - nOS
+  3  5,7  - pOI
   3  5,7  - rOE
   3  5,7  - tOE
   3  8,8  | vISA
@@ -1164,10 +1209,12 @@
   2  5,7  - nO
   2  9,10 - oE
   2  9,10 | oR
+  2  5,7  | pE
   2  7,2  - pEA
   2  8,9  | pEA
   2  7,2  - pIA
   2  8,9  | pIA
+  2  5,7  - pO
   2  7,2  - rIA
   2  8,9  | rIA
   2  7,2  - sEA
@@ -1226,6 +1273,7 @@
   1  5,10 - nO
   1  8,2  - pA
   1  8,10 | pA
+  1  5,10 - pO
   1  5,10 - sO
   1  8,2  - tA
   1  8,10 | tA

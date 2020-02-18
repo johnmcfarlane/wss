@@ -140,8 +140,10 @@
  23  1,7  - cHIlI
  22  7,3  - DUomI
  22  9,4  | ShoJI
+ 21  2,7  - HIde
  21  2,7  - HIla
  21  2,7  - HIli
+ 21  2,7  - HIre
  21  9,1  | HeIShI
  21  3,4  | JUKIng
  21  9,1  | aaHS
@@ -398,6 +400,8 @@
  14  1,7  - HeIr
  14  4,3  | HiJAb
  14  6,2  | HoG
+ 14  3,7  - Ide
+ 14  3,7  - Ire
  14  4,3  | JIhAd
  14  2,5  | JOHn
  14  2,5  | JOHns
@@ -577,8 +581,11 @@
  12  9,1  | HayS
  12  9,1  | HehS
  12  9,1  | HemS
+ 12  4,7  - Hen
  12  9,1  | HenS
  12  9,1  | HerS
+ 12  4,7  - Hes
+ 12  4,7  - Het
  12  9,1  | HetS
  12  9,1  | HewS
  12  2,7  - Hi
@@ -594,12 +601,16 @@
  12  9,1  | HitS
  12  3,4  | HoKUm
  12  9,1  | HobS
+ 12  4,7  - Hod
  12  9,1  | HodS
  12  9,1  | HoeS
  12  9,1  | HogS
  12  9,1  | HolS
+ 12  4,7  - Hon
  12  9,1  | HonS
  12  9,1  | HopS
+ 12  4,7  - Hos
+ 12  4,7  - Hot
  12  9,1  | HotS
  12  9,1  | HowS
  12  9,1  | HoyS
@@ -723,10 +734,12 @@
  11  3,3  | HanK
  11  3,3  | HarK
  11  3,3  | HawK
+ 11  4,7  - He
  11  3,3  | HecK
  11  4,7  - Hi
  11  3,3  | HicK
  11  4,5  - Ho
+ 11  4,7  - Ho
  11  3,3  | HocK
  11  3,3  | HolK
  11  3,3  | HonK
@@ -1408,6 +1421,7 @@
   8  9,3  | IScHIa
   8  9,5  - IcH
   8  6,6  | IlIUm
+  8  4,7  - Ion
   8  3,6  | KIbbI
   8  3,6  | KIbeI
   8  3,6  | KaUrI
@@ -2575,6 +2589,7 @@
   5  6,3  | aG
   5  4,7  - aa
   5  5,7  - ad
+  5  4,7  - ae
   5  4,7  - ai
   5  5,7  - an
   5  3,4  | arK
@@ -2592,8 +2607,10 @@
   5  9,2  | bUSy
   5  4,7  - ba
   5  5,3  - baD
+  5  4,7  - be
   5  4,7  - bi
   5  4,5  - bo
+  5  4,7  - bo
   5  4,4  | cHAI
   5  4,4  | cHAIn
   5  4,4  | cHAIr
@@ -2609,10 +2626,17 @@
   5  9,2  | dUSt
   5  5,3  - daD
   5  3,4  | daK
+  5  4,7  - de
+  5  4,7  - do
   5  3,5  | eKe
   5  5,5  | ePIc
+  5  5,7  - ed
   5  3,4  | eeK
+  5  5,7  - ef
   5  3,4  | elK
+  5  5,7  - en
+  5  5,7  - es
+  5  5,7  - et
   5  4,5  | fAItH
   5  9,2  | fUSe
   5  9,2  | fUSs
@@ -2621,13 +2645,16 @@
   5  9,2  | gUSt
   5  5,3  - gaD
   5  4,7  - gi
+  5  4,7  - go
   5  6,5  - hE
   5  9,2  | hUSh
   5  9,2  | hUSk
   5  4,7  - ha
   5  5,3  - haD
+  5  4,7  - he
   5  4,7  - hi
   5  4,5  - ho
+  5  4,7  - ho
   5  3,4  | icK
   5  5,7  - id
   5  5,7  - if
@@ -2651,6 +2678,7 @@
   5  3,4  | leK
   5  4,7  - li
   5  4,5  - lo
+  5  4,7  - lo
   5  9,2  | mUS
   5  9,2  | mUSe
   5  9,2  | mUSh
@@ -2659,22 +2687,31 @@
   5  9,2  | mUSt
   5  4,7  - ma
   5  5,3  - maD
+  5  4,7  - me
   5  4,7  - mi
   5  4,5  - mo
+  5  4,7  - mo
   5  4,5  - mu
   5  9,2  | nISI
   5  9,2  | nUS
   5  4,7  - na
+  5  4,7  - ne
   5  4,5  - no
+  5  4,7  - no
   5  4,5  - nu
   5  3,5  | oKa
   5  3,5  | oKe
   5  9,2  | oUSt
   5  3,4  | oaK
+  5  5,7  - od
+  5  5,7  - of
+  5  5,7  - on
+  5  5,7  - os
   5  9,2  | pUS
   5  9,2  | pUSh
   5  9,2  | pUSs
   5  5,3  - paD
+  5  4,5  - po
   5  4,5  | rAdII
   5  2,5  | rOsHI
   5  9,2  | rUSe
@@ -2682,6 +2719,7 @@
   5  9,2  | rUSk
   5  9,2  | rUSt
   5  5,3  - raD
+  5  4,7  - re
   5  4,5  | sAItH
   5  2,4  | sHOgI
   5  2,4  | sHOjI
@@ -2696,6 +2734,7 @@
   5  9,2  | sUSs
   5  5,3  - saD
   5  4,7  - si
+  5  4,7  - so
   5  3,4  | suK
   5  2,3  | tHIO
   5  2,3  | tHIOl
@@ -2704,19 +2743,25 @@
   5  9,2  | tUSk
   5  4,7  - ta
   5  5,3  - taD
+  5  4,7  - te
   5  4,7  - ti
   5  4,5  - to
+  5  4,7  - to
   5  3,4  | tsK
   5  3,5  | uKe
   5  9,2  | vISIt
   5  4,2  | wIsHA
   5  9,2  | wUSs
   5  5,3  - waD
+  5  4,7  - we
+  5  4,7  - wo
   5  3,4  | woK
   5  4,7  - xi
   5  4,7  - ya
   5  3,4  | yaK
+  5  4,7  - ye
   5  4,5  - yo
+  5  4,7  - yo
   5  3,4  | yoK
   5  3,4  | yuK
   5  3,4  | zeK
@@ -2966,6 +3011,7 @@
   4  5,6  | Paw
   4  5,6  | Pax
   4  5,6  | Pay
+  4  5,6  | Pe
   4  5,6  | Pea
   4  5,6  | Pec
   4  5,6  | Ped
@@ -2992,6 +3038,7 @@
   4  5,6  | Piu
   4  5,6  | Pix
   4  5,6  | Ply
+  4  5,6  | Po
   4  5,6  | Pod
   4  5,6  | Poh
   4  5,6  | Poi
@@ -3415,6 +3462,7 @@
   3  2,3  | UncO
   3  2,3  | UndO
   3  2,3  | UntO
+  3  1,5  - Up
   3  1,7  - Up
   3  2,4  | UpO
   3  2,4  | UpOn
@@ -4650,6 +4698,7 @@
   1  2,4  | onO
   1  9,2  | onS
   1  9,3  - op
+  1  1,5  - op
   1  9,5  - op
   1  1,7  - op
   1  9,2  | opS
@@ -4689,6 +4738,7 @@
   1  4,5  | pAw
   1  4,5  | pAx
   1  4,5  | pAy
+  1  2,5  | pO
   1  2,5  | pOd
   1  2,5  | pOh
   1  2,5  | pOi
@@ -4702,6 +4752,7 @@
   1  9,3  | pSi
   1  9,3  | pSt
   1  9,2  | paS
+  1  1,7  - pe
   1  4,4  | peA
   1  9,2  | peS
   1  1,7  - pi
@@ -4829,6 +4880,7 @@
   1  1,7  - un
   1  9,2  | unS
   1  9,3  - up
+  1  1,5  - up
   1  1,7  - up
   1  2,4  | upO
   1  9,2  | upS
