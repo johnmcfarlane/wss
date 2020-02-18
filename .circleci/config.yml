@@ -48,25 +48,6 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
-  "clang-tidy-gcc":
-    docker:
-      - image: gcc:latest
-    steps:
-      - checkout
-      - run:
-          name: Set up system
-          command: /root/project/.circleci/setup.sh clang-tidy
-      - restore_cache:
-          key: cache
-      - run:
-          name: Run Clang-Tidy
-          command: bash -c /root/project/scripts/clang-tidy.sh
-      - save_cache:
-          key: cache
-          paths:
-            - ~/.ccache
-            - ~/.conan/data
-
   "cppcheck-gcc":
     docker:
       - image: gcc:latest
@@ -129,7 +110,7 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
-  "clang-tidy-clang":
+  "clang-tidy":
     docker:
       - image: clangbuiltlinux/ubuntu
     steps:
@@ -188,10 +169,9 @@ workflows:
     jobs:
       - "coverage-gcc"
       - "clang-static-analyzer-gcc"
-      - "clang-tidy-gcc"
       - "cppcheck-gcc"
       - "sanitize-gcc"
       - "valgrind-gcc"
-      - "clang-tidy-clang"
+      - "clang-tidy"
       - "sanitize-clang"
       - "shellcheck"
