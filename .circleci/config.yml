@@ -8,7 +8,7 @@ general:
 jobs:
   "coverage-gcc":
     docker:
-      - image: ubuntu:19.10
+      - image: johnmcfarlane/cnl_ci:base-19.10
     steps:
       - checkout
       - run:
@@ -29,7 +29,7 @@ jobs:
 
   "clang-static-analyzer-gcc":
     docker:
-      - image: gcc:latest
+      - image: johnmcfarlane/cnl_ci:gcc-9
     steps:
       - checkout
       - run:
@@ -50,7 +50,7 @@ jobs:
 
   "cppcheck-gcc":
     docker:
-      - image: gcc:latest
+      - image: johnmcfarlane/cnl_ci:gcc-9
     steps:
       - checkout
       - run:
@@ -74,7 +74,7 @@ jobs:
 
   "sanitize-gcc":
     docker:
-      - image: gcc:latest
+      - image: johnmcfarlane/cnl_ci:gcc-9
     steps:
       - checkout
       - run:
@@ -93,7 +93,7 @@ jobs:
 
   "valgrind-gcc":
     docker:
-      - image: gcc:latest
+      - image: johnmcfarlane/cnl_ci:gcc-9
     steps:
       - checkout
       - run:
@@ -112,7 +112,7 @@ jobs:
 
   "clang-tidy":
     docker:
-      - image: clangbuiltlinux/ubuntu
+      - image: johnmcfarlane/cnl_ci:clang-9
     steps:
       - checkout
       - run:
@@ -131,7 +131,7 @@ jobs:
 
   "sanitize-clang":
     docker:
-      - image: clangbuiltlinux/ubuntu
+      - image: johnmcfarlane/cnl_ci:clang-9
     steps:
       - checkout
       - run:
@@ -150,7 +150,7 @@ jobs:
 
   "shellcheck":
     docker:
-      - image: ubuntu:19.10
+      - image: johnmcfarlane/cnl_ci:base-19.10
     steps:
       - checkout
       - run:
