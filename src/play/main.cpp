@@ -262,6 +262,7 @@ namespace {
         --counter;
         state.step.cross_scores += *cross_score;
         recurse(edge, letter, qualifying_cells_count, state);
+        // cppcheck-suppress unreadVariable
         state.step.cross_scores -= *cross_score;
         ++counter;
     }
