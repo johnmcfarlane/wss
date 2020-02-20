@@ -379,12 +379,19 @@ namespace {
 
     void refine_results(std::vector<result>& finds)
     {
-        sort(begin(finds), end(finds), [](auto a, auto b) {
+        sort(begin(finds), end(finds), [](auto const& a, auto const& b) {
             return tie(b.score, a.word, a.pos.start[1], a.pos.start[0],
                     a.pos.direction[1], a.pos.direction[0])
                     <tie(a.score, b.word, b.pos.start[1], b.pos.start[0],
                             b.pos.direction[1], b.pos.direction[0]);
         });
+
+        auto const last_unique = unique(begin(finds), end(finds),
+                [](auto const& a, auto const& b) {
+                    return tie(a.word, a.score, a.pos.start, a.pos.direction)
+                            ==tie(b.word, b.score, b.pos.start, b.pos.direction);
+                });
+        finds.erase(last_unique, end(finds));
     }
 
     auto make_start_state(node const& lexicon, letter_values const& letter_scores,
