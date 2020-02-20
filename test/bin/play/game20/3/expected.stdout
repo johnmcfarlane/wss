@@ -354,6 +354,7 @@
  22  7,2  | hIKES
  22  6,11 - hOKE
  22  7,2  | hOKES
+ 22  6,11 - hOKI
  22  7,2  | jOKES
  22  7,2  | kIKES
  22  7,2  | lIKES
@@ -1275,6 +1276,7 @@
  15  5,11 - hOISE
  15  5,11 - hOIST
  15  5,9  - hOKE
+ 15  5,9  - hOKI
  15  1,11 - hOPES
  15  7,4  | hOS
  15  7,4  | iTS
@@ -1284,7 +1286,6 @@
  15  1,9  - kORE
  15  7,4  | kOS
  15  5,9  - lEKS
- 15  7,4  | lES
  15  5,9  - lIKE
  15  1,9  - lIRE
  15  7,4  | lIS
@@ -2115,6 +2116,7 @@
  10  5,11 - hOKE
  10  6,5  - hOKES
  10  6,7  - hOKES
+ 10  5,11 - hOKI
  10  6,11 - hOSE
  10  6,11 - hOST
  10  6,11 - hOTS
@@ -2462,6 +2464,8 @@
   9  5,9  - hOIST
   9  6,5  - hOKE
   9  6,7  - hOKE
+  9  6,5  - hOKI
+  9  6,7  - hOKI
   9  1,8  - hOWES
   9  2,4  | iKAT
   9  5,9  - jOIST
@@ -4214,7 +4218,6 @@
   6  5,9  - kOS
   6  5,9  - lEI
   6  6,5  | lEK
-  6  5,9  - lES
   6  5,9  - lET
   6  5,4  | lEV
   6  5,9  - lIE
@@ -4660,7 +4663,6 @@
   5  2,7  - lEE
   5  2,7  - lEI
   5  6,7  - lEIS
-  5  2,7  - lES
   5  6,7  - lEST
   5  6,7  - lETS
   5  5,11 - lIE
@@ -6046,7 +6048,6 @@
   3  6,5  | lEET
   3  6,7  - lEI
   3  6,5  | lEIS
-  3  6,7  - lES
   3  6,8  | lESS
   3  6,5  | lEST
   3  6,8  | lEST
@@ -6553,8 +6554,6 @@
   2  6,4  | lEE
   2  6,5  | lEE
   2  6,5  | lEI
-  2  6,5  | lES
-  2  6,8  | lES
   2  6,5  | lET
   2  6,7  - lI
   2  6,4  | lIE
