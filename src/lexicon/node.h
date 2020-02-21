@@ -1,3 +1,6 @@
+#ifndef WSS_NODE_H
+#define WSS_NODE_H
+
 #include <cstring>
 #include <iterator>
 
@@ -63,3 +66,5 @@ inline const_node_iterator end(node const& n)
     auto const l{std::strlen(n.letters)};
     return const_node_iterator(n.letters+l, n.edges+l);
 }
+
+#endif // WSS_NODE_H
