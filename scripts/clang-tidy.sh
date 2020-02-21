@@ -5,15 +5,14 @@
 set -eo pipefail
 
 BITS_DIR=$(cd "$(dirname "$0")"/bits; pwd)
-NUM_CPUS=$(nproc)
 
 "${BITS_DIR}/init.sh"
 
 "${BITS_DIR}/config.sh" \
-  -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_CLANG_TIDY=clang-tidy \
+  -DCMAKE_CXX_FLAGS_RELEASE="-DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
 
-"${BITS_DIR}/build.sh" --target lexicon
-
-run-clang-tidy -p . -j "${NUM_CPUS}"
+"${BITS_DIR}/build.sh"
 
 echo success
