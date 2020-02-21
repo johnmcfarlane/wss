@@ -347,6 +347,7 @@
  15  5,3  | PUSEs
  15  7,3  | PUSEs
  15  8,4  | Pa
+ 15  8,2  | PaUA
  15  5,3  | PlEAS
  15  7,3  | PlEAS
  15  5,3  | PlIES
@@ -395,6 +396,7 @@
  14  5,3  | PASEo
  14  5,3  | PASEs
  14  7,3  | PASEs
+ 14  8,2  | PAUa
  14  5,2  | PAUsES
  14  7,2  | PAUsES
  14  2,6  - PAlET
@@ -521,6 +523,8 @@
  13  5,3  | PUrI
  13  7,3  | PUrI
  13  8,1  | PaISA
+ 13  5,3  | PaUA
+ 13  7,3  | PaUA
  13  5,3  | PfUI
  13  7,3  | PfUI
  13  8,1  | PrESA
@@ -614,6 +618,8 @@
  12  8,1  | PAISa
  12  5,2  | PAUSE
  12  7,2  | PAUSE
+ 12  5,3  | PAUa
+ 12  7,3  | PAUa
  12  5,3  | PAcE
  12  7,3  | PAcE
  12  5,3  | PAdI
@@ -672,6 +678,7 @@
  12  7,2  | PUrSE
  12  5,3  | PaSE
  12  7,3  | PaSE
+ 12  5,4  | PaUA
  12  8,2  | PlEA
  12  5,3  | PlEA
  12  7,3  | PlEA
@@ -793,6 +800,7 @@
  11  7,3  | PASe
  11  5,1  | PAStIE
  11  7,1  | PAStIE
+ 11  5,4  | PAUa
  11  5,2  | PAUsE
  11  7,2  | PAUsE
  11  3,7  - PAdIS
@@ -2055,8 +2063,6 @@
   6  7,5  | lAS
   6  5,5  | lEA
   6  3,6  - lEPT
-  6  5,5  | lES
-  6  7,5  | lES
   6  5,4  | lEU
   6  5,5  | lIS
   6  7,5  | lIS
@@ -2333,6 +2339,8 @@
   5  7,4  | qUA
   5  3,7  - qUAIS
   5  3,6  - qUATE
+  5  5,4  | qUI
+  5  7,4  | qUI
   5  3,6  - qUITE
   5  3,6  - qUITS
   5  5,3  | rASE
@@ -2988,6 +2996,7 @@
   3  4,6  - qATS
   3  5,5  | qI
   3  7,5  | qI
+  3  4,7  - qUI
   3  4,7  - rAIS
   3  4,6  - rATE
   3  4,6  - rATS
