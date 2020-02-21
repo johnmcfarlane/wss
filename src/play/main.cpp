@@ -551,4 +551,4 @@ auto main(int argc, char const* const* argv) -> int
                         find.pos.start[1]+1),
                 (find.pos.direction[0]!=0) ? '-' : '|');
     };
-}  // namespace
+}
