@@ -263,6 +263,8 @@
  14  2,5  - ClAVE
  14  2,5  - CrAVE
  14  2,5  - CuRVE
+ 14  7,5  | ESCHAR
+ 14  7,5  | ESCHARs
  14  3,5  - HAVe
  14  2,5  - HAlVE
  14  6,6  | LAHaR
@@ -322,6 +324,7 @@
  13  3,5  - CoRE
  13  6,4  | CuLVER
  13  3,5  - CuRE
+ 13  7,5  | ESCHAr
  13  8,5  - EVER
  13  2,5  - HAnCE
  13  2,5  - HEAVe
@@ -376,6 +379,7 @@
  12  5,4  - CaRK
  12  5,4  - CoRK
  12 11,1  | EAT
+ 12  7,5  | ESCHaR
  12  8,5  - EVE
  12  8,5  - EVEn
  12  8,5  - EVEr
@@ -406,6 +410,7 @@
  12  4,4  - cHARK
  12  2,5  - cRAVE
  12  2,5  - dRAVE
+ 12  7,5  | eSCHAR
  12  2,5  - gRAVE
  12  2,5  - pARVE
  12  2,5  - sHARE
@@ -439,6 +444,10 @@
  11  3,7  - ECHo
  11  2,5  - ERiCA
  11  2,7  - ERiCA
+ 11  7,5  | ESCAR
+ 11  7,5  | ESCARp
+ 11  7,5  | ESCARs
+ 11  7,5  | ESChAR
  11  6,4  | HALVa
  11  6,4  | HALVe
  11  3,5  - HAdE
@@ -521,6 +530,8 @@
  10  6,5  | CLAsH
  10  2,5  - ChARE
  10  3,5  - EAVe
+ 10  7,5  | ESCaR
+ 10  7,5  | EScHAR
  10 11,1  | EaT
  10  3,5  - HARe
  10  5,4  - HAiK
@@ -618,6 +629,7 @@
   9  6,1  - CuBE
   9  6,4  | ECLAiR
   9  6,5  | ELVeR
+  9  7,5  | ESCAr
   9 11,2  | ET
   9  3,5  - EpHA
   9  3,7  - EpHA
@@ -700,6 +712,7 @@
   9  5,4  - dREK
   9 11,1  | eAT
   9  6,5  | eLVER
+  9  7,5  | eSCAR
   9  4,5  - eVE
   9  3,5  - fACE
   9 11,1  | fAT
@@ -929,6 +942,8 @@
   7  6,5  | CLuE
   7  6,4  | CoLA
   7  6,4  | CoLE
+  7  7,5  | EScAR
+  7  7,5  | ESkAR
   7  6,4  - EeK
   7  6,4  - ElK
   7  3,5  - EyRA
@@ -1105,9 +1120,12 @@
   6  7,6  | SHoE
   6  7,6  | SHwA
   6 11,3  | TEd
+  6 11,3  | TEe
   6 11,3  | TEl
   6 11,3  | TEn
   6 11,3  | TEt
+  6 11,3  | TeE
+  6 11,3  | ToE
   6 11,3  | ToR
   6  3,5  - aREA
   6  3,7  - aREA
@@ -1288,12 +1306,15 @@
   4  7,5  | ASs
   4  6,4  | AbLE
   4  6,4  | AxLE
+  4  7,5  - EE
   4 10,5  - EH
   4  6,5  | ELAn
   4  8,5  - ERE
   4  4,5  - ERa
   4  4,7  - ERa
   4  4,5  - ERe
+  4  7,5  | ES
+  4  7,5  | ESs
   4  6,6  | LAR
   4  6,6  | LARd
   4  6,6  | LARi
@@ -1390,6 +1411,7 @@
   4  6,5  | bLAE
   4  6,4  | dALE
   4  5,5  - dE
+  4  5,5  - eE
   4  5,5  - fA
   4  5,7  - fA
   4  5,5  - fE
@@ -1467,6 +1489,7 @@
   3  6,5  | ELl
   3  6,5  | ELm
   3  6,5  | ELs
+  3  5,5  - Ee
   3  6,4  | EeL
   3  8,5  - EgER
   3  6,4  | ElL
@@ -1540,6 +1563,7 @@
   3  6,4  | sAL
   3  6,4  | sEL
   3  6,4  | tEL
+  2 10,5  - EE
   2 10,5  - ER
   2  8,5  - EkE
   2  8,5  - EmE
@@ -1587,10 +1611,13 @@
   2  7,5  - aE
   2  6,5  | aL
   2  7,5  | aS
+  2  7,5  - eE
   2  6,5  | eL
+  2  7,5  | eS
   2  7,5  - oE
   2  7,5  | oS
   1 10,5  - Ed
+  1 10,5  - Ee
   1 10,5  - Ef
   1 10,5  - Eh
   1 10,5  - El

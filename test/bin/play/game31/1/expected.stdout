@@ -14,6 +14,8 @@
  33 11,1  | TOBIES
  33  8,4  | ZEST
  32  9,3  | ZIBET
+ 31  3,5  - ZIBET
+ 31  3,7  - ZIBET
  30 11,3  | BITSY
  30  9,3  | BIZE
  30 11,2  | BYTES
@@ -21,6 +23,7 @@
  29  7,5  - ZIT
  28  6,5  - OBEY
  28  9,4  | OYEZ
+ 28  4,5  - OYEZ
  27 11,3  | BEYS
  27 11,3  | BOYS
  27 11,3  | BYES
@@ -36,6 +39,8 @@
  23  9,5  | ZEE
  23  7,3  | ZETA
  23  7,3  | ZOEA
+ 22  3,5  - BIZE
+ 22  3,7  - BIZE
  22  8,3  | OBESITY
  21  9,5  - BE
  21 11,3  | BETS
@@ -94,8 +99,12 @@
  15  8,4  | BISE
  15  5,4  | BITE
  15  8,3  | BYES
+ 15  3,5  - BYTE
+ 15  3,7  - BYTE
  15  6,5  - OBE
  15  8,3  | OBES
+ 15  4,5  - OBEY
+ 15  4,7  - OBEY
  15  6,5  - OBI
  15  8,3  | OBIS
  15  6,4  | OYEZ
@@ -105,6 +114,8 @@
  15 10,5  | ZLOTE
  14  8,4  | BES
  14  5,4  | BET
+ 14  5,5  - BEY
+ 14  5,7  - BEY
  14  8,4  | BIS
  14  5,4  | BIT
  14  8,4  | BOS
@@ -118,6 +129,8 @@
  14  5,4  | YETI
  14  4,5  - ZIT
  14  4,7  - ZIT
+ 13  3,5  - BITE
+ 13  3,7  - BITE
  13  4,7  - BYTE
  13  5,6  | TOY
  13  6,5  - TYE
@@ -145,6 +158,8 @@
  12 11,3  | TIES
  12 11,3  | TOES
  12  8,3  | TYES
+ 12  5,5  - YETI
+ 12  5,7  - YETI
  12  6,4  | ZEE
  12  6,5  | ZEE
  12  7,4  | ZOA
@@ -153,6 +168,8 @@
  11  7,3  | BETA
  11  8,3  | BEYS
  11  4,7  - BITE
+ 11  2,5  - BOITE
+ 11  2,7  - BOITE
  11  8,1  | BOITES
  11  7,3  | BOTA
  11  8,3  | BOYS
@@ -160,18 +177,26 @@
  11  9,4  | BYE
  11  8,6  | SOY
  11  8,6  | STY
+ 11  7,5  - TIE
  11  5,6  | TIE
+ 11  7,7  - TIE
  11  8,1  | TOBIES
+ 11  7,5  - TOE
  11  5,6  | TOE
+ 11  7,7  - TOE
  11  5,5  - TOY
  11  8,4  | YES
  11  8,3  | YOBS
  11  7,5  | ZA
  10  7,6  | ABYE
+ 10  5,5  - BET
+ 10  5,7  - BET
  10  8,2  | BITES
  10  9,2  | BOITE
  10 10,4  | BOLETI
  10  5,5  - BOT
+ 10  4,5  - BYE
+ 10  4,7  - BYE
  10  5,5  | ET
  10  5,5  | IT
  10  9,4  | OBE
@@ -205,7 +230,9 @@
   9  9,7  - TI
   9  9,7  - TO
   9  4,5  - TOY
+  9  5,5  - YET
   9  9,5  | YET
+  9  5,7  - YET
   9  8,2  | YETIS
   8  7,6  | ABET
   8  7,6  | ABY
@@ -234,7 +261,11 @@
   8  8,5  - IT
   8  8,7  - IT
   8 10,6  | LOBE
+  8  4,5  - OBE
+  8  4,7  - OBE
   8  7,3  | OBIA
+  8  8,5  - OE
+  8  8,7  - OE
   8  5,5  - OY
   8  8,6  | STEY
   8  5,6  - TEASELS
@@ -243,6 +274,8 @@
   8  9,3  | TYEE
   7  7,5  | BAIT
   7  7,5  | BATE
+  7  5,5  - BE
+  7  5,7  - BE
   7  7,4  | BEAT
   7  9,4  | BEE
   7  6,4  | BEET
@@ -257,6 +290,8 @@
   7 10,6  | LOB
   7 10,7  - OI
   7 10,4  | OILY
+  7  4,5  - TYE
+  7  4,7  - TYE
   7  9,5  | YE
   7  4,5  - YET
   7  4,7  - YET
@@ -269,6 +304,8 @@
   6 11,4  | BIS
   6  7,4  | BOA
   6 11,4  | BOS
+  6  6,5  - ET
+  6  6,7  - ET
   6 10,6  | LEY
   6 10,6  | LYE
   6  7,4  | OBA
@@ -290,6 +327,8 @@
   6 10,3  | TOILE
   6  6,3  | TYEE
   6  6,4  | TYEE
+  6  5,5  - YE
+  6  5,7  - YE
   6  6,5  | YETI
   6  5,5  - YO
   5  7,6  | AB
@@ -310,8 +349,12 @@
   5 11,6  | SOY
   5 11,6  | STY
   5  9,5  | TEE
+  5  4,5  - TIE
+  5  4,7  - TIE
   5 10,4  | TILE
   5  8,4  | TIS
+  5  4,5  - TOE
+  5  4,7  - TOE
   5  7,3  | TOEA
   5 10,3  | TOIL
   5 10,4  | TOLE
@@ -329,8 +372,12 @@
   4 10,6  | LIE
   4 10,6  | LIT
   4 10,6  | LOT
+  4  5,5  - OE
+  4  5,7  - OE
   4 10,4  | OIL
   4 10,5  | OLE
+  4  5,5  - TE
+  4  5,7  - TE
   4  9,4  | TEE
   4 10,4  | TEL
   4  9,4  | TIE
@@ -342,6 +389,8 @@
   3  7,6  | AIT
   3  7,6  | ATE
   3  7,5  | EAT
+  3  9,5  | EE
+  3  9,6  | EE
   3 10,5  | EL
   3  9,6  | ET
   3  7,4  | ETA
@@ -369,6 +418,8 @@
   2  7,6  | AE
   2  7,6  | AI
   2  7,6  | AT
+  2  6,5  | EE
+  2  6,6  | EE
   2  8,5  | ES
   2 11,5  | ES
   2  6,6  | ET

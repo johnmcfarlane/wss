@@ -240,6 +240,7 @@
  18  2,10 - HO
  18  4,4  - HOVer
  18  1,6  | HaGs
+ 18  4,6  - HeEDlESS
  18  1,6  | HiGh
  18  1,6  | HoGg
  18  1,6  | HoGs
@@ -324,6 +325,7 @@
  17  9,1  | TORa
  17  9,1  | TORo
  17  9,1  | TaRO
+ 17  5,5  | TeES
  17  5,5  | ToES
  17  9,1  | ToRO
  17  5,5  | TrES
@@ -371,6 +373,7 @@
  16  8,5  | coHO
  16  7,8  - dORSa
  16  2,2  - eTHiC
+ 16  3,9  - ee
  16  3,9  - es
  16  7,8  - fORTe
  16  7,8  - gORSe
@@ -415,6 +418,8 @@
  15  2,10 - Ha
  15  4,6  - HaED
  15  4,4  | HarEMS
+ 15  2,10 - He
+ 15  4,6  - HeED
  15  2,10 - Hm
  15  2,10 - Ho
  15  4,6  - HoED
@@ -449,6 +454,7 @@
  15 11,1  | SaKe
  15  1,5  | SarGO
  15  2,4  - ScHaV
+ 15  5,5  | SeEs
  15  1,6  | SeGO
  15  5,5  | ShEs
  15  1,5  | ShOGi
@@ -473,6 +479,7 @@
  15 11,1  | TaKe
  15  1,5  | TanGO
  15  1,5  | TanGS
+ 15  5,5  | TeEs
  15  1,6  | TeGS
  15  1,5  | TegGS
  15  1,5  | ThuGS
@@ -500,6 +507,7 @@
  15  5,5  | ayES
  15  1,6  | bOGS
  15  1,5  | bOnGS
+ 15  5,5  | beES
  15  1,5  | biOGS
  15  1,5  | blOGS
  15  5,5  | byES
@@ -517,6 +525,7 @@
  15  5,5  | gOEs
  15  1,5  | gOnGS
  15  5,5  | gaES
+ 15  5,5  | geES
  15  5,5  | goES
  15  1,5  | grOGS
  15  5,5  | hOEs
@@ -532,6 +541,7 @@
  15  1,6  | lOGS
  15  4,4  - lOVeS
  15  1,5  | lOnGS
+ 15  5,5  | leES
  15  5,5  | lyES
  15  1,6  | mOGS
  15  4,4  - mOVeS
@@ -550,12 +560,14 @@
  15  5,5  | oyES
  15  4,3  | pHlOEM
  15  1,5  | pOnGS
+ 15  5,5  | peES
  15  1,5  | prOGS
  15  5,5  | pyES
  15  4,4  - rOVeS
  15  1,5  | sOnGS
  15  1,5  | sTOGy
  15  1,5  | sTaGS
+ 15  5,5  | seES
  15  5,5  | shES
  15  1,5  | shOGS
  15  1,5  | slOGS
@@ -564,6 +576,7 @@
  15  5,5  | tOEs
  15  1,6  | tOGS
  15  1,5  | tOnGS
+ 15  5,5  | teES
  15  5,5  | toES
  15  7,8  - toRSO
  15  5,5  | trES
@@ -672,6 +685,8 @@
  13  4,6  - HaEn
  13  4,6  - HaEs
  13  4,6  - HaEt
+ 13  4,6  - HeEd
+ 13  4,6  - HeEl
  13  4,6  - HoE
  13  4,6  - HoEd
  13  4,6  - HoEr
@@ -950,6 +965,7 @@
  11  8,2  | DOetH
  11  8,2  | DOugH
  11  4,2  - DaCeS
+ 11  2,10 - De
  11  4,2  - DeCOs
  11  4,2  - DeCOy
  11  4,2  - DeCoS
@@ -1473,6 +1489,7 @@
   9  4,6  - fOEs
   9  8,1  | fOODS
   9 11,7  | fOX
+  9  4,6  - feED
   9  8,5  | foH
   9  4,6  - gOEr
   9  4,6  - gOEs
@@ -1480,12 +1497,14 @@
   9 11,7  | gOX
   9  2,5  - gOoDISH
   9  4,6  - gaED
+  9  4,6  - geED
   9  4,6  - hOE
   9  4,6  - hOEd
   9  4,6  - hOEr
   9  4,6  - hOEs
   9  8,1  | hOODS
   9  4,6  - haED
+  9  4,6  - heED
   9  4,6  - hoED
   9  5,2  - iCOn
   9  5,2  - iCeS
@@ -1498,6 +1517,7 @@
   9  4,4  | mODEMS
   9  8,1  | mOODS
   9  8,2  | mOTHy
+  9  4,6  - meED
   9  8,5  | noH
   9  5,2  - oCaS
   9  8,6  | oH
@@ -1513,6 +1533,7 @@
   9  4,6  - rOE
   9  4,6  - rOEs
   9  8,1  | rOODS
+  9  4,6  - reED
   9  4,4  | reHEMS
   9  5,2  - sCOp
   9  5,2  - sCOt
@@ -1810,6 +1831,8 @@
   8  8,1  | fOOTSy
   8  7,8  - fORT
   8 11,7  | faX
+  8  4,6  - feES
+  8  4,6  - feET
   8  8,1  | feODS
   8  4,2  - fiCO
   8 11,7  | fiX
@@ -1826,6 +1849,7 @@
   8  2,5  - gOTHIcS
   8  2,5  - gOaTISH
   8  4,6  - gaES
+  8  4,6  - geES
   8  4,6  - goES
   8  2,5  - goODISH
   8  8,1  | goODS
@@ -1880,6 +1904,7 @@
   8  4,4  - mOVe
   8  4,6  - maES
   8 11,7  | maX
+  8  4,6  - meET
   8 11,7  | miX
   8  4,4  | moDEMS
   8  8,1  | moODS
@@ -1921,6 +1946,7 @@
   8  8,5  | rOTo
   8  4,4  - rOVe
   8 11,7  | raX
+  8  4,6  - reES
   8  4,4  | reHEM
   8 11,7  | reX
   8  4,6  - roES
@@ -2219,6 +2245,7 @@
   7  2,10 - Ta
   7  4,2  - TaCe
   7  4,2  - TaCo
+  7  2,10 - Te
   7  4,5  | TeEMS
   7  2,10 - To
   7  8,2  - ToY
@@ -2289,6 +2316,7 @@
   7  8,2  | fOOTy
   7  8,2  | fOrDO
   7  7,8  - faRD
+  7  4,6  - feE
   7  8,1  | feOD
   7  4,6  - foE
   7  8,1  | foOD
@@ -2308,6 +2336,7 @@
   7  8,2  - gOY
   7  4,4  | gOlEMS
   7  4,6  - gaE
+  7  4,6  - geE
   7  7,8  - giRD
   7  8,1  | goOD
   7  8,2  | hOD
@@ -2409,6 +2438,7 @@
   7  8,2  | rOnDO
   7  2,5  - rOsHIS
   7  3,5  - raDISH
+  7  4,6  - reE
   7  4,4  | reTEMS
   7  4,6  - roE
   7  8,1  | roOD
@@ -2539,6 +2569,7 @@
   6  3,5  - DanIO
   6  2,5  - DasHI
   6  3,5  - DavIT
+  6  7,5  | De
   6  3,5  - DebIT
   6  3,5  - DefIS
   6  1,4  | DefOG
@@ -3334,6 +3365,7 @@
   5  8,1  | ScOT
   5  8,1  | ScOTs
   5  4,2  - SeC
+  5  5,5  | SeE
   5  5,5  | ShE
   5  1,5  | ShOG
   5  8,1  | ShOO
@@ -3466,6 +3498,7 @@
   5  8,1  | TaOS
   5  3,5  - TabID
   5  3,2  - TalC
+  5  5,5  | TeE
   5  3,5  - TeiID
   5  3,5  - TepID
   5  5,5  | ThE
@@ -4495,6 +4528,7 @@
   4  3,5  - TapIS
   4  1,5  - TatSOI
   4  3,5  - TaxIS
+  4  7,5  | Te
   4  8,7  | Te
   4  1,6  | TeG
   4  4,5  - TeIiD
@@ -5581,6 +5615,8 @@
   3  2,10 - ba
   3  1,6  | baG
   3  4,5  - baITS
+  3  2,10 - be
+  3  5,5  | beE
   3  1,6  | beG
   3  3,5  - biDI
   3  1,6  | biG
@@ -5630,6 +5666,7 @@
   3  8,1  | dOOmS
   3  8,1  | dOOrS
   3  1,6  | daG
+  3  2,10 - de
   3  4,5  - deIST
   3  2,5  - dhOTI
   3  1,6  | diG
@@ -5700,6 +5737,7 @@
   3  5,5  | gaE
   3  1,6  | gaG
   3  4,5  - gaITS
+  3  5,5  | geE
   3  1,6  | giG
   3  2,10 - go
   3  4,5  - grID
@@ -5731,6 +5769,7 @@
   3  2,10 - ha
   3  5,5  | haE
   3  1,6  | haG
+  3  2,10 - he
   3  4,5  - heIST
   3  8,6  | hm
   3  2,10 - hm
@@ -5755,6 +5794,7 @@
   3  4,5  - jOIsT
   3  2,10 - ja
   3  1,6  | jaG
+  3  2,10 - je
   3  1,6  | jiG
   3  2,10 - jo
   3  1,6  | joG
@@ -5800,6 +5840,7 @@
   3  2,10 - la
   3  1,6  | laG
   3  4,5  - laID
+  3  5,5  | leE
   3  1,6  | leG
   3  2,10 - lo
   3  1,6  | loG
@@ -5831,6 +5872,7 @@
   3  1,6  | maG
   3  4,5  - maID
   3  4,5  - maIST
+  3  2,10 - me
   3  1,6  | meG
   3  3,5  - meTIS
   3  3,5  - miDI
@@ -5858,6 +5900,7 @@
   3  3,5  - nOrIS
   3  2,10 - na
   3  1,6  | naG
+  3  2,10 - ne
   3  1,6  | neG
   3  4,5  - neIST
   3  3,5  - niDI
@@ -5917,6 +5960,8 @@
   3  3,5  - paDI
   3  4,5  - paID
   3  3,5  - paTIO
+  3  2,10 - pe
+  3  5,5  | peE
   3  1,6  | peG
   3  1,6  | piG
   3  2,10 - po
@@ -5981,6 +6026,7 @@
   3  1,6  | saG
   3  4,5  - saID
   3  3,5  - saTIS
+  3  5,5  | seE
   3  1,6  | seG
   3  2,10 - sh
   3  5,5  | shE
@@ -6014,6 +6060,8 @@
   3  2,10 - ta
   3  5,5  | taE
   3  1,6  | taG
+  3  2,10 - te
+  3  5,5  | teE
   3  1,6  | teG
   3  5,5  | thE
   3  3,5  - tiTIS
@@ -6066,6 +6114,7 @@
   3  1,6  | waG
   3  4,5  - waIST
   3  4,5  - waITS
+  3  2,10 - we
   3  4,5  - whID
   3  4,5  - whIST
   3  4,5  - whITS
@@ -6084,6 +6133,7 @@
   3  8,6  | ya
   3  2,10 - ya
   3  1,6  | yaG
+  3  2,10 - ye
   3  3,5  - yeTIS
   3  2,10 - yo
   3  8,6  - zEST
@@ -6694,9 +6744,14 @@
   2  8,2  | dOtS
   2  8,2  | dOwS
   2  4,5  - daIS
+  2  7,5  | de
   2  8,5  | do
   2  4,5  - doIT
   2  4,5  - duIT
+  2  5,6  - eE
+  2  5,6  | eE
+  2  5,6  - eEk
+  2  5,6  - eEl
   2  8,2  | eOnS
   2  4,5  - eTIc
   2  3,5  - eTuI
@@ -6757,6 +6812,7 @@
   2  8,2  | fOsS
   2  8,2  | fOyS
   2  8,7  | fa
+  2  7,5  | fe
   2  8,7  | fe
   2  4,5  - flIT
   2  4,5  - frIT
@@ -7092,6 +7148,7 @@
   2  8,2  | nOwT
   2  8,7  | na
   2  3,5  - naOI
+  2  7,5  | ne
   2  8,7  | ne
   2  3,5  - niSI
   2  8,5  | no
@@ -7356,6 +7413,7 @@
   2  8,2  | tOyO
   2  8,2  | tOyS
   2  8,7  | ta
+  2  7,5  | te
   2  8,7  | te
   2  4,5  - thIO
   2  4,5  - thIS
@@ -7476,6 +7534,7 @@
   2  8,7  | za
   2  3,5  - ziTI
   1  6,6  - Ed
+  1  6,6  - Ee
   1  6,6  - Ef
   1  6,6  - Eh
   1  6,6  - El
@@ -7671,6 +7730,7 @@
   1  7,8  - doR
   1  4,5  - duI
   1  8,1  | duO
+  1  3,10 | eE
   1  8,2  | eOn
   1  8,8  - eR
   1  7,8  - eaR

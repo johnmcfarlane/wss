@@ -4,18 +4,25 @@
  22  6,5  | FUSION
  22  6,6  | UNWISE
  22  7,5  - WIFES
+ 21  6,5  - NEIFS
+ 21  6,7  - NEIFS
  21  2,5  - OWSEN
  21  2,7  - OWSEN
  21  7,5  - WIFE
  20  7,5  - FEW
  20  3,7  - FOIN
+ 20  6,5  - NEIF
+ 20  6,7  - NEIF
+ 20  2,7  - NOWISE
  20  6,7  - SNOW
+ 20  3,7  - SWINE
  20  6,6  | UNSEW
  19  8,2  | WIFES
  19  1,5  - WIFES
  19  2,7  - WIFES
  19  1,7  - WINOES
  18  4,7  - FENS
+ 18  4,7  - FINE
  18  7,5  - FINES
  18  7,7  - FINES
  18  7,5  - FINOS
@@ -26,8 +33,10 @@
  18  8,4  | FOSSE
  18  2,7  - INFOS
  18  8,2  | NOWISE
+ 18  6,7  - SEIF
  18  8,6  | SOWENS
  18  4,7  - WENS
+ 18  4,7  - WINE
  18  7,5  - WINES
  18  7,5  - WINOS
  18  4,7  - WINS
@@ -51,6 +60,7 @@
  17  8,2  | INFOS
  17  1,5  - INFOS
  17  7,5  - NEWS
+ 17  3,7  - NOISE
  17  7,5  - NOWS
  17  7,7  - NOWS
  17  7,5  - WENS
@@ -80,6 +90,7 @@
  16  7,7  - SOWN
  16  7,5  - WEN
  16  7,5  - WIN
+ 16  4,7  - WISE
  16  7,5  - WON
  15  4,7  - EONS
  15  2,7  - EOSIN
@@ -105,7 +116,10 @@
  15  2,7  - OWSE
  15  8,4  | OWSEN
  15  8,6  | SEWS
+ 15  4,7  - SINE
  15  7,7  - SINEW
+ 15  4,5  - SONE
+ 15  4,7  - SONE
  15  8,6  | SOWS
  15  4,5  - WEN
  15  4,7  - WEN
@@ -140,7 +154,10 @@
  14  7,1  | NEWSIE
  14  6,5  - NOES
  14  3,7  - NOES
+ 14  4,7  - NOSE
  14  7,1  | NOWISE
+ 14  5,5  - ONE
+ 14  5,7  - ONE
  14  5,7  - ONS
  14  8,5  - OWNS
  14  8,7  - OWNS
@@ -221,6 +238,7 @@
  12  7,5  - NOISE
  12  7,7  - NOISE
  12  8,4  | NOSES
+ 12  5,7  - OSE
  12  8,5  - OWE
  12  8,7  - OWE
  12  4,5  - SEN
@@ -245,6 +263,10 @@
  11  5,5  - EN
  11  5,7  - EN
  11  8,2  | ENOWS
+ 11  7,5  - EONS
+ 11  7,7  - EONS
+ 11  7,5  - EOSIN
+ 11  7,7  - EOSIN
  11  8,4  | ESSOIN
  11  5,4  | FOHNS
  11  8,2  | FOINS
@@ -287,6 +309,8 @@
  11  5,5  | WHOSE
  11  7,2  | WINOES
  11  7,3  | WISE
+ 10  7,5  - EON
+ 10  7,7  - EON
  10  2,5  - EONS
  10  8,3  | FENS
  10  8,3  | FINS
@@ -310,6 +334,7 @@
  10  8,3  | NOWS
  10  4,7  - OES
  10  7,3  | OWSEN
+ 10  6,7  - SEI
  10  8,2  | SEIFS
  10  8,6  | SEIFS
  10  7,7  - SIN
@@ -351,6 +376,8 @@
   9  5,6  | HOSEN
   9  3,5  - INS
   9  5,7  - IS
+  9  6,5  - NE
+  9  6,7  - NE
   9  8,4  | NESS
   9  6,5  - NO
   9  8,1  | NOESIS
@@ -587,6 +614,8 @@
   3  7,5  | SEE
   3  7,5  | SEI
   3  6,6  | US
+  2  7,5  | EE
+  2  7,6  | EE
   2  8,5  | ES
   2  7,6  | ES
   2  8,5  | IS

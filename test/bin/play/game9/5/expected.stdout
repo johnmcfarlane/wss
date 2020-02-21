@@ -1,9 +1,15 @@
+ 50  9,1  | BAKE
+ 50  9,1  | BIKE
  47  2,11 - BRAKE
+ 47  9,1  | HAKE
+ 47  9,1  | HIKE
+ 47  9,1  | KIBE
  44  3,11 - BAKE
  44  3,11 - BIKE
  44  3,11 - KIBE
  41  3,11 - HAKE
  41  3,11 - HIKE
+ 41  9,1  | RAKE
  38  9,1  | KBAR
  35  3,11 - RAKE
  32  3,11 - BARE
@@ -14,11 +20,16 @@
  29  9,1  | KEIR
  29  9,1  | KIER
  29  3,11 - RHEA
+ 26  9,1  | BARE
  26  9,1  | BEAR
  26  9,1  | BIER
+ 26  9,1  | BRAE
+ 26  9,1  | BRIE
  23  9,1  | HAIR
+ 23  9,1  | HARE
  23  9,1  | HEAR
  23  9,1  | HEIR
+ 23  9,1  | HIRE
  21  4,4  - BEAKER
  20  4,6  - BEQUEST
  20  4,4  - BRAKE
@@ -26,14 +37,20 @@
  20  4,7  - KHI
  20  3,7  - RAKI
  19  3,7  - ABRI
+ 18  7,1  | BAKE
+ 18  7,1  | BIKE
  18  4,11 - KAE
  18  4,11 - KEA
  18 10,2  | KRAIT
  18 10,1  | REBAIT
+ 17  7,3  | BEAU
  17  4,11 - BRA
+ 17  7,1  | HAKE
+ 17  7,1  | HIKE
  17  5,11 - KA
  17  7,1  | KERB
  17  5,7  - KI
+ 17  7,1  | KIBE
  17  4,6  - REQUEST
  17 10,6  | TARED
  16  4,7  - AHI
@@ -50,6 +67,7 @@
  15  5,11 - HE
  15  7,1  | HERB
  15  5,7  - HI
+ 15  7,1  | RAKE
  14  4,11 - ARE
  14  4,11 - ERA
  14  6,8  | HAJ
@@ -80,6 +98,8 @@
  11  7,3  | AB
  11  7,3  | BA
  11  5,4  - BAKE
+ 11  7,3  | BE
+ 11  9,3  | BE
  11  7,4  - BEAK
  11  7,4  - BERK
  11  5,4  - BIKE
@@ -93,10 +113,15 @@
  11  7,1  | KIER
  11  6,6  | QI
  11  4,4  - RAKEE
+ 10  7,1  | BARE
  10  7,1  | BEAR
  10  7,1  | BIER
+ 10  7,1  | BRAE
+ 10  7,1  | BRIE
  10  5,4  - HAKE
  10  5,4  - HIKE
+ 10  7,2  | KAE
+ 10  9,2  | KAE
  10  7,2  | KEA
  10 10,3  | KHAT
  10 10,3  | KHET
@@ -112,16 +137,21 @@
   9  9,2  | BAR
   9  7,9  | BI
   9  7,2  | BRA
+  9  7,4  | EAU
   9  7,3  | EH
   9  9,3  | EH
   9 10,5  | ETA
   9  7,3  | HA
   9  7,1  | HAIR
+  9  7,1  | HARE
+  9  7,3  | HE
+  9  9,3  | HE
   9  7,1  | HEAR
   9  5,4  - HEBE
   9  7,4  - HEBE
   9  7,1  | HEIR
   9  7,4  - HERB
+  9  7,1  | HIRE
   9  8,7  - MOAI
   9  7,8  | RAI
   9  5,4  - RAKEE
@@ -130,9 +160,13 @@
   9  8,8  - YAR
   8  5,4  - AKEE
   8  6,4  - AKEE
+  8  7,2  | HAE
+  8  9,2  | HAE
   8  7,2  | HER
   8  9,2  | HER
   8 11,7  | HIC
+  8  7,2  | HIE
+  8  9,2  | HIE
   8  7,9  | HIE
   8 10,3  | IKAT
   8 10,3  | KART
@@ -174,6 +208,8 @@
   6  7,2  | AIR
   6  9,2  | AIR
   6 11,7  | ARC
+  6  7,2  | ARE
+  6  9,2  | ARE
   6 10,4  | BAT
   6  6,4  - BEE
   6  7,4  - BEE
@@ -192,11 +228,15 @@
   6  5,4  - HERE
   6  7,4  - HERE
   6  5,4  - HIRE
+  6  7,2  | IRE
+  6  9,2  | IRE
   6  6,8  - RAYA
   6  7,4  - REB
   6 11,7  | REC
   6  6,4  - RHEA
   6  7,2  | RIA
+  5  7,3  | AE
+  5  9,3  | AE
   5  7,4  - AERIE
   5  7,3  | AR
   5  9,3  | AR
@@ -209,6 +249,8 @@
   5 10,4  | HET
   5  6,4  - HIE
   5 10,4  | HIT
+  5  7,3  | RE
+  5  9,3  | RE
   5  7,8  - RYA
   4 10,5  - AE
   4 10,5  - AI
@@ -235,6 +277,8 @@
   3 10,4  | RET
   2  7,4  - AE
   2 10,5  | AT
+  2  7,4  - EE
+  2  8,4  - EE
   2  8,4  - ER
   2 10,5  | ET
   2 10,5  | IT

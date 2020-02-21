@@ -1897,6 +1897,7 @@
  12  1,7  - dE
  12  1,7  - dO
  12  4,3  | dOBIES
+ 12  1,7  - eE
  12  1,7  - fA
  12  1,7  - fE
  12  4,3  | gABIES
@@ -2014,6 +2015,9 @@
  11  5,6  | COBlES
  11  5,6  | COBrAS
  11  5,6  | CuBES
+ 11  1,7  - Ee
+ 11  6,5  - EmBOSS
+ 11  6,7  - EmBOSS
  11  2,6  | JA
  11  2,6  | JAb
  11  2,6  | JAg
@@ -2390,9 +2394,15 @@
   9  5,6  | CrASES
   9  5,6  | CrOSSE
   9  4,3  | EASIeS
+  9  6,5  - EBOnS
+  9  6,7  - EBOnS
+  9  6,5  - EBbS
+  9  6,7  - EBbS
   9  4,3  | EOSInS
   9  5,4  | ESCArS
   9  5,4  | ESCOtS
+  9  6,5  - EbBS
+  9  6,7  - EbBS
   9  4,2  | OBElI
   9  6,5  - OBEyS
   9  4,4  | OBIA
@@ -2649,6 +2659,8 @@
   8  6,6  | EAStS
   8  6,6  | EAsES
   8  6,6  | EAvES
+  8  6,5  - EBOn
+  8  6,7  - EBOn
   8  5,5  | EChOS
   8  6,6  | ESSAy
   8  6,6  | ESSEs
@@ -3007,10 +3019,18 @@
   7  5,6  | CoSS
   7  5,6  | CuES
   7  5,6  | CuSS
+  7  6,5  - EBb
+  7  6,7  - EBb
   7  5,4  | ESCAr
   7  5,4  | ESCOt
+  7  6,5  - ESSAy
+  7  6,7  - ESSAy
   7  4,2  | ESSOIn
+  7  6,5  - EbB
+  7  6,7  - EbB
   7  4,2  | EnOSIS
+  7  6,5  - EyASS
+  7  6,7  - EyASS
   7  4,6  | IAmBS
   7  6,5  - OASEs
   7  4,3  | OASIS
@@ -3287,13 +3307,37 @@
   6  5,6  | COSt
   6  5,6  | COSy
   6  5,4  | EACh
+  6  6,5  - EASeS
+  6  6,7  - EASeS
+  6  6,5  - EAStS
+  6  6,7  - EAStS
+  6  6,5  - EArS
+  6  6,7  - EArS
+  6  6,5  - EAtS
+  6  6,7  - EAtS
   6  6,6  | EBOn
   6  6,6  | EBbS
   6  5,5  | EChO
   6  5,5  | ECuS
   6  4,5  | EIdOS
   6  4,3  | EOSIn
+  6  6,5  - EOnS
+  6  6,7  - EOnS
+  6  6,5  - ESeS
+  6  6,7  - ESeS
   6  6,6  | EbBS
+  6  6,5  - EgOS
+  6  6,7  - EgOS
+  6  6,5  - EpOS
+  6  6,7  - EpOS
+  6  6,5  - ErAS
+  6  6,7  - ErAS
+  6  6,5  - ErOS
+  6  6,7  - ErOS
+  6  6,5  - EtAS
+  6  6,7  - EtAS
+  6  6,5  - EyAS
+  6  6,7  - EyAS
   6  4,6  | IAmB
   6  4,6  | IBiS
   6  4,6  | ISSEi
@@ -3511,6 +3555,8 @@
   6  5,4  | dOCS
   6  6,5  - dOSES
   6  6,7  - dOSES
+  6  6,5  - eASES
+  6  6,7  - eASES
   6  6,5  - fAB
   6  6,7  - fAB
   6  5,4  | fACE
@@ -3711,8 +3757,16 @@
   5  5,6  | CuE
   5  6,3  | EASES
   5  6,3  | EASElS
+  5  6,5  - EASe
+  5  6,7  - EASe
+  5  6,5  - EASt
+  5  6,7  - EASt
+  5  6,5  - EASy
+  5  6,7  - EASy
   5  6,6  | EBb
   5  5,5  | ECu
+  5  6,5  - ESS
+  5  6,7  - ESS
   5  6,6  | EbB
   5  4,4  | EgIS
   5  3,5  | EurOS
@@ -3830,6 +3884,10 @@
   5  6,5  - dOSS
   5  6,7  - dOSS
   5  3,4  | dOuSE
+  5  6,5  - eASE
+  5  6,7  - eASE
+  5  6,5  - eSES
+  5  6,7  - eSES
   5  6,5  - fESS
   5  6,7  - fESS
   5  4,5  | fIB
@@ -4033,16 +4091,50 @@
   4  6,3  | EASEd
   4  6,3  | EASEl
   4  6,3  | EASEs
+  4  6,5  - EAr
+  4  6,7  - EAr
   4  6,3  | EAsES
+  4  6,5  - EAt
+  4  6,7  - EAt
+  4  6,5  - EAu
+  4  6,7  - EAu
   4  6,3  | EAvES
+  4  6,5  - EOn
+  4  6,7  - EOn
+  4  6,5  - ES
+  4  6,7  - ES
   4  6,4  | ESES
   4  6,6  | ESES
   4  6,3  | ESSEs
   4  6,3  | ESnES
+  4  6,5  - ESs
+  4  6,7  - ESs
   4  6,3  | ESsES
   4  6,3  | EaSES
+  4  6,5  - EdS
+  4  6,7  - EdS
+  4  6,5  - EfS
+  4  6,7  - EfS
+  4  6,5  - EgO
+  4  6,7  - EgO
+  4  6,5  - ElS
+  4  6,7  - ElS
+  4  6,5  - EmO
+  4  6,7  - EmO
+  4  6,5  - EmS
+  4  6,7  - EmS
+  4  6,5  - EnS
+  4  6,7  - EnS
+  4  6,5  - ErA
+  4  6,7  - ErA
+  4  6,5  - ErS
+  4  6,7  - ErS
   4  6,3  | ErSES
+  4  6,5  - EsS
+  4  6,7  - EsS
   4  6,3  | EsSES
+  4  6,5  - EtA
+  4  6,7  - EtA
   4  4,6  | IOtAS
   4  4,6  | ISbAS
   4  4,6  | ISlES
@@ -4342,25 +4434,47 @@
   3  6,3  | EaSE
   3  6,6  | EaSE
   3  3,4  | EcuS
+  3  6,5  - Ed
+  3  6,7  - Ed
+  3  6,5  - Ee
+  3  6,7  - Ee
+  3  6,5  - Ef
+  3  6,7  - Ef
   3  6,6  | EgOS
+  3  6,5  - Eh
+  3  6,7  - Eh
   3  6,4  | EkES
   3  6,6  | EkES
+  3  6,5  - El
+  3  6,7  - El
   3  6,3  | ElSE
   3  6,6  | ElSE
+  3  6,5  - Em
+  3  6,7  - Em
   3  6,4  | EmES
   3  6,6  | EmES
   3  3,4  | EmuS
+  3  6,5  - En
+  3  6,7  - En
   3  6,6  | EpOS
+  3  6,5  - Er
+  3  6,7  - Er
   3  6,6  | ErAS
   3  6,6  | ErOS
+  3  6,5  - Es
+  3  6,7  - Es
   3  6,4  | EsES
   3  6,6  | EsES
+  3  6,5  - Et
+  3  6,7  - Et
   3  6,6  | EtAS
   3  3,5  | EurO
   3  6,4  | EvES
   3  6,6  | EvES
   3  6,4  | EwES
   3  6,6  | EwES
+  3  6,5  - Ex
+  3  6,7  - Ex
   3  6,4  | ExES
   3  6,6  | ExES
   3  6,6  | EyAS
@@ -4537,6 +4651,8 @@
   3  3,5  | duOS
   3  6,3  | eASE
   3  6,4  | eSES
+  3  6,5  - eSS
+  3  6,7  - eSS
   3  6,5  - fAS
   3  6,7  - fAS
   3  6,4  | fEES
@@ -4722,6 +4838,8 @@
   2  6,6  | EAr
   2  6,6  | EAt
   2  6,6  | EAu
+  2  6,5  | EE
+  2  6,6  | EE
   2  6,5  | EEk
   2  6,6  | EEk
   2  6,5  | EEl
@@ -4832,6 +4950,10 @@
   2  3,5  | duE
   2  3,5  | duO
   2  3,4  | eAu
+  2  6,5  - eE
+  2  6,7  - eE
+  2  6,5  - eS
+  2  6,7  - eS
   2  6,5  - fA
   2  6,7  - fA
   2  6,5  - fE
@@ -4981,6 +5103,7 @@
   1  3,4  | Eau
   1  3,4  | Ecu
   1  6,6  | Ed
+  1  6,6  | Ee
   1  6,6  | Ef
   1  6,6  | Eh
   1  6,6  | El
@@ -5003,6 +5126,7 @@
   1  6,5  | bE
   1  4,5  | bI
   1  6,5  | dE
+  1  6,5  | eE
   1  6,5  | fE
   1  4,5  | gI
   1  6,5  | hE

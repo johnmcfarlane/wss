@@ -179,6 +179,9 @@
  27  9,2  | EQUInE
  27  9,2  | EQUInEs
  27  9,2  | EQUItEs
+ 27  9,1  - EaU
+ 27  9,1  - EcU
+ 27  9,1  - EmU
  27  6,5  - UbIQuE
  27  6,5  - UnIQuE
  27  9,1  | VEgIE
@@ -189,6 +192,7 @@
  27  9,1  | VErIEr
  27  2,10 - VIsE
  27  9,1  - aVE
+ 27  9,1  - eVE
  27  4,10 - sIEVe
  27  4,10 - sIVEr
  27  4,10 - sIeVE
@@ -236,6 +240,8 @@
  25  4,10 - spIV
  25  6,5  - ubIQUE
  25  6,5  - unIQUE
+ 24  9,1  - EVe
+ 24  9,3  - EVe
  24 10,1  | ErVIl
  24  9,2  | ExEQUy
  24  5,3  | Qi
@@ -342,6 +348,9 @@
  21  9,1  | VExIl
  21  9,1  - amU
  21  9,1  | dEUcE
+ 21  9,1  - eaU
+ 21  9,1  - ecU
+ 21  9,1  - emU
  21  9,1  - feU
  21  9,1  - flU
  21  9,1  - foU
@@ -416,6 +425,7 @@
  19  3,9  - cLIQUEs
  19  3,9  - cLIQUEy
  19  9,3  - dEV
+ 19  9,3  - eVE
  19  2,10 - fUsE
  19  9,3  - lEV
  19  2,10 - mUsE
@@ -506,6 +516,7 @@
  18  3,9  - cLIQUy
  18  9,1  - dUE
  18  9,1  - dUI
+ 18  9,1  - eVe
  18  9,1  | fEUEd
  18  9,1  - hUE
  18  9,1  - oVa
@@ -680,6 +691,7 @@
  16 10,2  | dUrE
  16  9,3  - deV
  16  6,5  - eQUInE
+ 16  9,3  - eVe
  16 10,1  | grUE
  16  9,3  - laV
  16  9,3  - leV
@@ -723,10 +735,13 @@
  15  6,5  - EQuId
  15  6,5  - EQuIp
  15  9,2  | EVUlsE
+ 15  9,3  - EaU
+ 15  9,3  - EcU
  15  2,10 - Eds
  15  2,10 - Efs
  15  9,2  | ElUsIVE
  15  2,10 - Els
+ 15  9,3  - EmU
  15  2,10 - Ems
  15  2,10 - Ens
  15  2,10 - Ers
@@ -1220,9 +1235,15 @@
  12  9,1  - dyE
  12 10,2  | dyE
  12  9,1  | eErIE
+ 12  9,1  - ekE
+ 12  9,1  - emE
  12  8,3  - emEU
+ 12  9,1  - erE
  12 10,1  | erE
  12  8,3  - etUI
+ 12  9,1  - evE
+ 12  9,1  - ewE
+ 12  9,1  - eyE
  12  5,8  | fIVe
  12  9,1  - feE
  12  9,1  - fiE
@@ -1344,6 +1365,7 @@
  12  9,1  - weE
  12  9,1  - woE
  12  9,1  - wyE
+ 12  5,4  | yETIs
  11  1,3  - AXE
  11  4,4  - BEVIes
  11  4,4  - BIjoU
@@ -1404,18 +1426,23 @@
  11  3,9  - aLIVE
  11  5,3  | cEsTI
  11  3,9  - cLEVIs
+ 11  5,3  | dIETs
  11  2,9  | eVe
  11  3,8  - lOUVrE
+ 11  7,3  - neE
  11  3,9  - oLIVE
  11  3,9  - oLIVEs
  11  5,3  | pEtTI
+ 11  5,3  | pIETy
  11  5,3  | pIsTE
+ 11  7,3  - peE
  11  5,3  | sEnTI
  11  2,5  | sHInE
  11  2,5  | sHIrE
  11  5,3  | sIxTE
  11  3,9  - sLIVEr
  11  2,5  | tHInE
+ 11  5,4  | yETI
  11  3,8  - zOUaVE
  10  6,2  - AIDEd
  10  6,2  - AIDEr
@@ -1543,6 +1570,7 @@
  10 10,1  | ar
  10 10,1  | as
  10  3,8  - bOVInE
+ 10  5,3  | dIET
  10  9,3  - dUE
  10  9,3  - dUI
  10 10,2  | de
@@ -1611,12 +1639,106 @@
   9  6,5  - EVIl
   9  6,5  - EVIls
   9  6,5  - EVIte
+  9  9,1  - Ear
+  9  9,3  - Ear
+  9  9,1  - Eat
+  9  9,3  - Eat
+  9  9,1  - Eau
+  9  9,3  - Eau
+  9  9,1  - Ebb
+  9  9,3  - Ebb
+  9  9,1  - Ecu
+  9  9,3  - Ecu
+  9  9,1  - Ed
+  9  9,1  - Edh
+  9  9,3  - Edh
+  9  9,1  - Eds
+  9  9,3  - Eds
+  9  9,1  - Ee
+  9  9,1  - Eek
+  9  9,3  - Eek
+  9  9,1  - Eel
+  9  9,3  - Eel
+  9  9,1  - Ef
   9  5,4  | EfTs
+  9  9,1  - Eff
+  9  9,3  - Eff
+  9  9,1  - Efs
+  9  9,3  - Efs
+  9  9,1  - Eft
+  9  9,3  - Eft
+  9  9,1  - Egg
+  9  9,3  - Egg
+  9  9,1  - Ego
+  9  9,3  - Ego
+  9  9,1  - Eh
+  9  9,1  - Eke
+  9  9,3  - Eke
+  9  9,1  - El
+  9  9,1  - Eld
+  9  9,3  - Eld
+  9  9,1  - Elf
+  9  9,3  - Elf
+  9  9,1  - Elk
+  9  9,3  - Elk
+  9  9,1  - Ell
+  9  9,3  - Ell
+  9  9,1  - Elm
+  9  9,3  - Elm
+  9  9,1  - Els
+  9  9,3  - Els
+  9  9,1  - Em
+  9  9,1  - Eme
+  9  9,3  - Eme
+  9  9,1  - Emo
+  9  9,3  - Emo
+  9  9,1  - Ems
+  9  9,3  - Ems
+  9  9,1  - Emu
+  9  9,3  - Emu
+  9  9,1  - En
   9  9,2  | EnVIEd
   9  9,2  | EnVIEr
   9  9,2  | EnVIEs
   9  6,5  - EnVoI
+  9  9,1  - End
+  9  9,3  - End
+  9  9,1  - Eng
+  9  9,3  - Eng
+  9  9,1  - Ens
+  9  9,3  - Ens
+  9  9,1  - Eon
+  9  9,3  - Eon
+  9  9,1  - Er
+  9  9,1  - Era
+  9  9,3  - Era
+  9  9,1  - Ere
+  9  9,3  - Ere
+  9  9,1  - Erg
+  9  9,3  - Erg
+  9  9,1  - Ern
   9  5,3  - Ern
+  9  9,3  - Ern
+  9  9,1  - Err
+  9  9,3  - Err
+  9  9,1  - Ers
+  9  9,3  - Ers
+  9  9,1  - Es
+  9  9,1  - Ess
+  9  9,3  - Ess
+  9  9,1  - Et
+  9  9,1  - Eta
+  9  9,3  - Eta
+  9  9,1  - Eth
+  9  9,3  - Eth
+  9  9,1  - Eve
+  9  9,3  - Eve
+  9  9,1  - Ewe
+  9  9,3  - Ewe
+  9  9,1  - Ex
+  9  9,1  - Eye
+  9  9,3  - Eye
+  9  2,6  | HIE
   9  5,3  - Imp
   9  5,4  | InTi
   9  6,1  | LAVE
@@ -1838,6 +1960,7 @@
   9  9,1  | nEIf
   9  2,8  | nEUk
   9  2,8  | nEUm
+  9  7,3  - nEe
   9  7,3  - nEt
   9  9,1  - nU
   9  9,1  - nUb
@@ -1862,6 +1985,7 @@
   9  9,1  | pEEs
   9  9,1  | pEIn
   9  7,3  - pEd
+  9  7,3  - pEe
   9  7,3  - pEh
   9  7,3  - pEn
   9  7,3  - pEr
@@ -1944,9 +2068,11 @@
   9  5,8  | waVE
   9  5,8  | wiVE
   9  5,8  | woVE
+  9  5,4  | yETi
   9  9,1  - yUk
   9  9,1  - yUm
   9  9,1  - yUp
+  9  5,4  | yeTI
   9  9,1  | zEE
   9  9,1  | zEEs
   9  9,1  | zEIn
@@ -1990,6 +2116,10 @@
   8  8,2  | DraVE
   8  8,2  | DriVE
   8  8,2  | DroVE
+  8  3,5  | EAst
+  8  3,5  | EAsy
+  8  3,5  | EAth
+  8  3,5  | EAts
   8  3,9  - ELUde
   8  3,9  - ELUte
   8  6,5  - EVe
@@ -2014,6 +2144,9 @@
   8  6,5  - EnVy
   8  6,5  - EnnUI
   8  9,2  | ErVIl
+  8  1,2  - GIEd
+  8  1,2  - GIEn
+  8  1,2  - GIEs
   8  1,2  - GItE
   8  2,6  | HEme
   8  2,6  | HEre
@@ -2182,15 +2315,18 @@
   8  5,9  | aVE
   8  3,9  | amU
   8  3,5  - bEaU
+  8  5,3  | bEeT
   8  5,3  | bElT
   8  5,3  | bEnT
   8  5,3  | bEsT
   8  5,3  | bInT
   8  5,3  | bItT
   8  3,9  - bLUmE
+  8  5,3  | beET
   8  5,3  | cElT
   8  5,3  | cEnT
   8  5,3  | cIsT
+  8  5,3  | dEeT
   8  5,3  | dEfT
   8  5,3  | dElT
   8  5,3  | dEnT
@@ -2200,6 +2336,7 @@
   8  5,8  | dIEs
   8  5,8  | dIEt
   8  5,8  | dIcE
+  8  5,3  | dIeT
   8  5,8  | dIkE
   8  5,8  | dImE
   8  5,8  | dInE
@@ -2208,7 +2345,9 @@
   8  5,3  | dIrT
   8  5,8  | dItE
   8  5,8  | dIvE
+  8  5,3  | deET
   8  3,8  | deV
+  8  5,3  | diET
   8  5,8  | eIdE
   8  3,9  - eLUdE
   8  3,9  - eLUtE
@@ -2217,6 +2356,7 @@
   8  6,5  - eaVE
   8  3,9  | ecU
   8  3,9  | emU
+  8  5,3  | fEeT
   8  5,3  | fElT
   8  5,3  | fEsT
   8  5,8  | fIE
@@ -2232,6 +2372,7 @@
   8  3,9  - fLUkE
   8  3,9  - fLUmE
   8  3,9  - fLUtE
+  8  5,3  | feET
   8  5,3  | gElT
   8  5,3  | gEnT
   8  5,3  | gEsT
@@ -2254,17 +2395,21 @@
   8  5,8  | hIrE
   8  5,3  | hIsT
   8  5,8  | hIvE
+  8  5,3  | haET
   8  6,7  - haVE
   8  6,7  - hiVE
   8  6,7  - hoVE
   8  5,3  | jEsT
   8  5,3  | jIlT
+  8  5,3  | kEeT
   8  5,3  | kElT
   8  5,3  | kEnT
   8  5,3  | kIlT
   8  5,3  | kIsT
   8  3,9  - kLUgE
+  8  5,3  | keET
   8  3,8  | lEI
+  8  5,3  | lEeT
   8  5,3  | lEfT
   8  5,3  | lEnT
   8  5,3  | lEsT
@@ -2273,7 +2418,9 @@
   8  5,3  | lInT
   8  5,3  | lIsT
   8  3,8  | laV
+  8  5,3  | leET
   8  3,8  | leV
+  8  5,3  | mEeT
   8  5,3  | mElT
   8  5,8  | mIEn
   8  5,8  | mIcE
@@ -2291,6 +2438,7 @@
   8  5,3  | mIxT
   8  3,8  - mOVIE
   8  3,8  - mOVIEs
+  8  5,3  | meET
   8  7,3  - nE
   8  5,3  | nEsT
   8  5,3  | nEtT
@@ -2320,6 +2468,7 @@
   8  5,3  | pInT
   8  5,8  | pIpE
   8  3,9  - pLUmE
+  8  5,3  | poET
   8  5,3  | rEfT
   8  5,3  | rEnT
   8  5,3  | rEsT
@@ -2343,6 +2492,7 @@
   8  2,5  | sHIm
   8  2,5  | sHIn
   8  2,5  | sHIt
+  8  2,5  | sHoE
   8  5,8  | sIcE
   8  5,8  | sIdE
   8  5,3  | sIfT
@@ -2358,11 +2508,14 @@
   8  5,3  | tEnT
   8  5,3  | tEsT
   8  5,3  | tExT
+  8  2,5  | tHEe
   8  2,5  | tHEm
   8  2,5  | tHEn
   8  2,5  | tHIn
   8  2,5  | tHIr
   8  2,5  | tHIs
+  8  2,5  | tHaE
+  8  2,5  | tHeE
   8  5,3  | tIlT
   8  5,3  | tInT
   8  3,8  | taV
@@ -2372,6 +2525,7 @@
   8  5,3  | vExT
   8  6,4  | vISiVE
   8  6,4  | viSIVE
+  8  5,3  | wEeT
   8  5,3  | wEfT
   8  5,3  | wElT
   8  5,3  | wEnT
@@ -2388,6 +2542,8 @@
   8  5,3  | wIsT
   8  5,8  | wItE
   8  5,8  | wIvE
+  8  5,3  | weET
+  8  5,4  | yET
   8  5,3  | yEtT
   8  5,8  | yIpE
   8  5,3  | zEsT
@@ -2425,6 +2581,8 @@
   7  8,2  | DUI
   7  8,2  | DUIt
   7  8,2  | DUIts
+  7  3,5  | EAt
+  7  3,1  | EE
   7  4,5  - EaU
   7  5,8  | EaU
   7  4,5  - EaUx
@@ -2440,6 +2598,7 @@
   7  6,5  - EqUIp
   7  6,5  - EtUI
   7  6,5  - EtUIs
+  7  1,2  - GIE
   7  2,6  | HEh
   7  2,6  | HEm
   7  2,6  | HEn
@@ -2448,10 +2607,14 @@
   7  2,6  | HEt
   7  2,6  | HEx
   7  2,6  | HId
+  7  2,6  | HIe
   7  2,6  | HIm
   7  2,6  | HIn
   7  2,6  | HIs
   7  2,6  | HIt
+  7  2,6  | HaE
+  7  2,6  | HiE
+  7  2,6  | HoE
   7  3,9  - ILlUdE
   7  3,9  - ILlUmE
   7  5,9  | IcE
@@ -2640,11 +2803,17 @@
   7  9,3  - dUn
   7  9,3  - dUo
   7  9,3  - dUp
+  7  8,3  - eE
+  7  8,3  - eEk
+  7  8,3  - eEl
   7  6,5  - eVE
   7  6,5  - eVEn
   7  6,5  - eVEr
   7  6,5  - eVEs
   7  6,5  - eVIl
+  7  9,3  - eaU
+  7  9,3  - ecU
+  7  9,3  - emU
   7  3,5  - fEU
   7  9,3  - fIE
   7  5,8  | fIb
@@ -2800,6 +2969,8 @@
   7  9,3  - nUn
   7  9,3  - nUs
   7  9,3  - nUt
+  7  8,3  - oE
+  7  8,3  - oEs
   7  6,5  - oVEn
   7  6,7  - oVEn
   7  6,5  - oVEr
@@ -3073,17 +3244,23 @@
   6  8,2  | DrIEs
   6  8,2  | DrIvE
   6  8,2  | DwInE
+  6  9,1  | EE
+  6  1,5  - EE
   6  9,1  | EEk
   6  9,1  | EEl
   6  9,1  | EEls
   6  9,1  | EEly
   6  9,1  | EEry
+  6  2,5  | EH
   6  3,9  - ELIde
   6  3,9  - ELInt
   6  3,9  - ELIte
   6  3,9  - ELemI
+  6  5,5  | EThs
   6  9,2  | EaVe
   6  3,9  | Ed
+  6  5,3  | Ee
+  6  3,9  | Ee
   6  3,9  | Ef
   6  3,9  | Eh
   6  3,9  | El
@@ -3101,6 +3278,9 @@
   6  3,9  | Et
   6  3,9  | Ex
   6  1,2  - GIds
+  6  1,2  - GIed
+  6  1,2  - GIen
+  6  1,2  - GIes
   6  1,2  - GIft
   6  1,2  - GIld
   6  1,2  - GIll
@@ -3509,6 +3689,10 @@
   6  9,1  - dIs
   6  9,1  - dIt
   6  3,8  - dOVe
+  6  9,1  - eE
+  6  5,3  | eE
+  6  9,1  - eEk
+  6  9,1  - eEl
   6  3,9  - eLEmI
   6  3,9  - eLIdE
   6  3,9  - eLItE
@@ -3797,6 +3981,7 @@
   6  9,1  - yEw
   6  9,1  - yIn
   6  9,1  - yIp
+  6  5,4  | yeT
   5  4,4  - BE
   5  4,4  - BEad
   5  4,4  - BEak
@@ -4015,6 +4200,7 @@
   5  3,9  - ELfIn
   5  3,9  - ELhI
   5  3,9  - ELoIn
+  5  5,5  | ETh
   5  9,2  | EUro
   5  6,5  - EUro
   5  6,5  - EaU
@@ -4028,14 +4214,25 @@
   5  3,1  | Ed
   5  5,3  - Ed
   5  8,3  - Ed
+  5  9,3  - Ed
   5  8,3  - Edh
   5  8,3  - Eds
+  5  3,1  | Ee
+  5  8,3  - Ee
+  5  9,3  - Ee
+  5  8,3  - Eek
+  5  2,8  | Eek
+  5  8,3  - Eel
+  5  2,8  | Eel
   5  8,3  - Ef
+  5  9,3  - Ef
   5  8,3  - Eff
   5  8,3  - Efs
   5  8,3  - Eft
   5  8,3  - Eh
+  5  9,3  - Eh
   5  8,3  - El
+  5  9,3  - El
   5  8,3  - Eld
   5  8,3  - Elf
   5  6,5  - ElhI
@@ -4045,6 +4242,7 @@
   5  8,3  - Els
   5  5,3  - Em
   5  8,3  - Em
+  5  9,3  - Em
   5  6,5  - EmU
   5  6,5  - EmUs
   5  8,3  - Eme
@@ -4054,6 +4252,7 @@
   5  8,3  - Emu
   5  3,1  | En
   5  8,3  - En
+  5  9,3  - En
   5  6,5  - EnUf
   5  8,3  - End
   5  8,3  - Eng
@@ -4063,6 +4262,7 @@
   5  9,2  | EqUIp
   5  5,3  - Er
   5  8,3  - Er
+  5  9,3  - Er
   5  8,3  - Era
   5  8,3  - Ere
   5  8,3  - Erg
@@ -4071,10 +4271,12 @@
   5  8,3  - Ers
   5  5,3  - Es
   5  8,3  - Es
+  5  9,3  - Es
   5  8,3  - Ess
   5  3,1  | Et
   5  5,3  - Et
   5  8,3  - Et
+  5  9,3  - Et
   5  9,2  | EtUI
   5  9,2  | EtUIs
   5  6,5  - EtUi
@@ -4083,10 +4285,13 @@
   5  6,5  - EtuI
   5  5,3  - Ex
   5  8,3  - Ex
+  5  9,3  - Ex
   5  1,2  - GId
+  5  1,2  - GIe
   5  1,2  - GIn
   5  1,2  - GIt
   5  2,6  | Had
+  5  2,6  | Hae
   5  2,6  | Hah
   5  2,6  | Ham
   5  2,6  | Has
@@ -4099,11 +4304,13 @@
   5  2,6  | Het
   5  2,6  | Hex
   5  2,6  | Hid
+  5  2,6  | Hie
   5  2,6  | Him
   5  2,6  | Hin
   5  2,6  | His
   5  2,6  | Hit
   5  2,6  | Hod
+  5  2,6  | Hoe
   5  2,6  | Hon
   5  2,6  | Hos
   5  2,6  | Hot
@@ -4308,7 +4515,9 @@
   5  6,4  | dISEUr
   5  6,4  | dISUsE
   5  3,7  - dOE
+  5  2,8  | eEk
   5  3,9  | eEk
+  5  2,8  | eEl
   5  3,9  | eEl
   5  5,8  | eaU
   5  2,9  | eaU
@@ -4612,6 +4821,7 @@
   4  8,2  | DogIE
   4  8,2  | DowIE
   4  8,2  | DoxIE
+  4  4,5  - EE
   4  6,5  - EIde
   4  3,9  - EL
   4  3,9  - ELan
@@ -4628,6 +4838,7 @@
   4  3,9  - ELmy
   4  3,9  - ELs
   4  3,9  - ELse
+  4  5,5  | ET
   4  1,8  - EUrO
   4  1,8  - EUrOs
   4  2,9  | Ear
@@ -4640,6 +4851,9 @@
   4  9,2  | EdUcE
   4  2,9  | Edh
   4  2,9  | Eds
+  4  1,5  - Ee
+  4  2,8  | Ee
+  4  2,9  | Ee
   4  2,9  | Eek
   4  2,9  | Eel
   4  9,2  | EerIE
@@ -5056,10 +5270,21 @@
   4  9,3  - duI
   4  9,3  - dyE
   4  3,4  - eBb
+  4  2,8  | eE
+  4  9,3  - eEk
+  4  9,3  - eEl
+  4  2,5  | eH
   4  6,5  - eIdE
+  4  5,3  | ee
+  4  9,3  - ekE
   4  8,3  - emE
+  4  9,3  - emE
   4  6,4  | enSUE
   4  8,3  - erE
+  4  9,3  - erE
+  4  9,3  - evE
+  4  9,3  - ewE
+  4  9,3  - eyE
   4  2,8  | fE
   4  9,3  - fEd
   4  9,3  - fEe
@@ -5602,6 +5827,7 @@
   3  8,2  | DurE
   3  8,2  | DykE
   3  8,2  | DynE
+  3  9,2  | EE
   3  9,2  | EEk
   3  9,2  | EEl
   3  9,2  | EEls
@@ -5629,6 +5855,7 @@
   3  9,2  | EdgE
   3  6,5  - Edh
   3  6,5  - Eds
+  3  6,5  - Ee
   3  6,5  - Eek
   3  6,5  - Eel
   3  6,5  - Ef
@@ -6129,34 +6356,51 @@
   3  3,8  | de
   3  9,1  - do
   3  5,8  | do
+  3  3,5  | eAt
+  3  9,1  | eE
+  3  2,9  | eE
+  3  3,9  | eE
   3  9,1  | eEk
   3  2,9  | eEk
   3  9,1  | eEl
   3  2,9  | eEl
   3  3,9  - eLhI
   3  3,9  - eLsE
+  3  5,5  | eTh
   3  6,5  - eaU
   3  6,5  - ecU
+  3  9,1  - ed
   3  5,3  - ed
   3  8,3  - ed
+  3  9,1  - ee
+  3  8,3  - ee
+  3  9,1  - ef
   3  8,3  - ef
+  3  9,1  - eh
   3  8,3  - eh
   3  2,9  | ekE
+  3  9,1  - el
   3  8,3  - el
+  3  9,1  - em
   3  5,3  - em
   3  8,3  - em
   3  2,9  | emE
   3  6,5  - emU
+  3  9,1  - en
   3  8,3  - en
+  3  9,1  - er
   3  5,3  - er
   3  8,3  - er
   3  2,9  | erE
+  3  9,1  - es
   3  5,3  - es
   3  8,3  - es
+  3  9,1  - et
   3  5,3  - et
   3  8,3  - et
   3  2,9  | evE
   3  2,9  | ewE
+  3  9,1  - ex
   3  5,3  - ex
   3  8,3  - ex
   3  2,9  | eyE
@@ -6424,6 +6668,7 @@
   3  8,3  - od
   3  5,9  | odE
   3  9,1  - oe
+  3  8,3  - oe
   3  9,1  - of
   3  8,3  - of
   3  9,1  - oh
@@ -6744,6 +6989,7 @@
   2  8,2  | Duo
   2  8,2  | Dup
   2  8,2  | Dye
+  2  1,8  - EE
   2  3,8  - EOn
   2  3,8  - EOns
   2  6,5  | ES
@@ -6758,6 +7004,7 @@
   2  9,2  | EdIt
   2  6,4  | EdS
   2  1,8  - EddO
+  2  4,5  - Ee
   2  6,4  | EfS
   2  9,2  | EgEr
   2  9,2  | EgIs
@@ -7273,6 +7520,8 @@
   2  3,8  - dOzE
   2  2,8  | de
   2  6,4  | doSE
+  2  9,3  - eE
+  2  6,5  - eE
   2  6,5  - eEk
   2  6,5  - eEl
   2  3,9  - eL
@@ -7284,8 +7533,11 @@
   2  3,9  - eLs
   2  6,5  | eSEs
   2  6,5  | eSnE
+  2  5,5  | eT
   2  6,4  | eaSE
   2  3,9  | ed
+  2  2,8  | ee
+  2  3,9  | ee
   2  3,9  | ef
   2  3,9  | eh
   2  6,5  - ekE
@@ -7690,6 +7942,8 @@
   1  1,8  - Ed
   1  9,2  | Edh
   1  9,2  | Eds
+  1  9,2  | Ee
+  1  1,8  - Ee
   1  9,2  | Eek
   1  9,2  | Eel
   1  9,2  | Ef
@@ -7955,31 +8209,44 @@
   1  3,8  - eOn
   1  6,5  | eS
   1  6,5  | eSs
+  1  9,3  - ed
   1  6,5  - ed
   1  2,9  | ed
   1  6,4  | edS
+  1  9,3  - ee
+  1  6,5  - ee
+  1  2,9  | ee
+  1  9,3  - ef
   1  6,5  - ef
   1  2,9  | ef
   1  6,4  | efS
+  1  9,3  - eh
   1  6,5  - eh
   1  2,9  | eh
+  1  9,3  - el
   1  6,5  - el
   1  2,9  | el
   1  6,4  | elS
+  1  9,3  - em
   1  6,5  - em
   1  2,9  | em
   1  6,4  | emS
+  1  9,3  - en
   1  6,5  - en
   1  2,9  | en
   1  6,4  | enS
+  1  9,3  - er
   1  6,5  - er
   1  2,9  | er
   1  6,4  | erS
+  1  9,3  - es
   1  6,5  - es
   1  2,9  | es
   1  6,4  | esS
+  1  9,3  - et
   1  6,5  - et
   1  2,9  | et
+  1  9,3  - ex
   1  6,5  - ex
   1  2,9  | ex
   1  3,8  - fOb

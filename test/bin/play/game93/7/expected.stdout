@@ -105,6 +105,8 @@
  24  3,1  | IMIdO
  24  3,1  | IMInE
  24  3,1  | IMInO
+ 24  2,2  | MAE
+ 24  2,2  | MAEs
  24  3,1  | MAIlE
  24  3,1  | MAIzE
  24  3,1  | MOIrA
@@ -150,6 +152,7 @@
  21  4,4  - EME
  21  2,2  | IAMb
  21  2,2  | MAd
+ 21  2,2  | MAe
  21  2,2  | MAn
  21  2,2  | MAr
  21  2,2  | MAs
@@ -321,6 +324,7 @@
  16  6,6  | ROMAjI
  16  6,6  | ROoMIE
  16  6,6  | RoOMIE
+ 16  2,2  | hAEM
  16  6,5  | pREMIE
  16  3,4  - tOEA
  16  6,5  | uREMIA
@@ -493,6 +497,7 @@
  12  4,4  - AI
  12  6,1  - AM
  12  1,4  - EAsE
+ 12  4,4  - EE
  12  1,4  - EIdE
  12  6,7  - EM
  12  3,3  | IAMbI
@@ -628,6 +633,7 @@
  11  1,7  - AnOMIE
  11  2,2  | EAsE
  11  1,4  - EMs
+ 11  9,5  | EYrIE
  11  7,6  | EdEMA
  11  7,6  | ElEMI
  11  7,6  | EnEMA
@@ -670,8 +676,12 @@
  11  9,6  | YOmIM
  11  3,2  | bIOME
  11  6,5  - eME
+ 11  3,7  - rAMEE
  11  3,1  - tOEA
  11  3,1  - zOEA
+ 10  9,7  - AE
+ 10  2,3  | AEcIA
+ 10  2,3  | AErIE
  10  2,3  | AM
  10  3,5  - AMIE
  10  3,7  - AMIE
@@ -686,9 +696,17 @@
  10  4,4  - Ae
  10  4,4  - Ai
  10  4,4  - Am
+ 10  9,7  - EE
  10  1,4  - EM
  10  4,5  - EMOtE
  10  4,2  | ETAMIn
+ 10  9,5  | EYAs
+ 10  9,5  | EYE
+ 10  9,5  | EYEd
+ 10  9,5  | EYEn
+ 10  9,5  | EYEr
+ 10  9,5  | EYEs
+ 10  4,4  - Ee
  10  4,4  - Em
  10  7,6  | ExAM
  10  3,3  | IAMb
@@ -744,6 +762,7 @@
  10  3,2  - Me
  10  3,2  - Mi
  10  3,2  - Mu
+ 10  9,7  - OE
  10  6,5  | OREIdE
  10  4,4  - Oe
  10  4,4  - Oi
@@ -796,6 +815,9 @@
   9  2,2  | EAr
   9  2,2  | EAt
   9  4,7  - EMEs
+  9  9,5  | EYnE
+  9  9,5  | EYrA
+  9  9,5  | EYrE
   9  2,5  - EdEMA
   9  2,5  - EnEMA
   9  3,3  | IMAgE
@@ -899,7 +921,9 @@
   9  4,1  | tOTEM
   9  7,5  - yEA
   8  5,4  - AE
+  8  2,3  | AEOn
   8 10,5  | AEOn
+  8  2,3  | AErO
   8 10,5  | AErO
   8  3,2  | AIMEd
   8  3,2  | AIMEr
@@ -907,6 +931,7 @@
   8  3,5  - AMIe
   8  3,7  - AMIe
   8  9,7  - Ad
+  8  9,7  - Ae
   8  9,7  - Ah
   8  9,7  - Al
   8  9,7  - Am
@@ -915,6 +940,7 @@
   8  9,7  - As
   8  9,7  - At
   8  9,7  - Ax
+  8  5,4  - EE
   8 10,6  | EErIE
   8  7,6  | EMAIl
   8  4,5  - EME
@@ -922,7 +948,9 @@
   8  7,6  | EMEEr
   8  4,5  - EMO
   8  7,6  | EMcEE
+  8  9,5  | EYe
   8  9,7  - Ed
+  8  9,7  - Ee
   8  9,7  - Ef
   8  9,7  - Eh
   8  9,7  - El
@@ -962,6 +990,7 @@
   8  5,4  - OE
   8  1,2  - ObA
   8  9,7  - Od
+  8  9,7  - Oe
   8  9,7  - Of
   8  9,7  - Oh
   8  1,2  - OhO
@@ -1037,6 +1066,7 @@
   8 10,4  | fOE
   8  3,5  - gAME
   8  3,7  - gAME
+  8  2,2  | hAE
   8 10,4  | hAE
   8  3,5  - hAME
   8  3,7  - hAME
@@ -1055,6 +1085,7 @@
   8  3,5  - lIME
   8  3,7  - lIME
   8  3,5  - lIMO
+  8  2,2  | mAE
   8 10,4  | mAE
   8  3,5  - mEME
   8  3,7  - mEME
@@ -1065,6 +1096,7 @@
   8  3,5  - mOME
   8  3,7  - mOME
   8  3,4  - nA
+  8  2,2  | nAE
   8 10,4  | nAE
   8  3,5  - nAME
   8  3,7  - nAME
@@ -1080,6 +1112,7 @@
   8  3,5  - rIME
   8  3,7  - rIME
   8 10,4  | rOE
+  8  2,2  | sAE
   8  3,5  - sAME
   8  3,7  - sAME
   8  3,5  - sEME
@@ -1103,6 +1136,7 @@
   8 10,4  | tOE
   8  3,5  - tOME
   8  3,7  - tOME
+  8  2,2  | wAE
   8 10,4  | wAE
   8  3,5  - wAME
   8  3,7  - wAME
@@ -1119,8 +1153,12 @@
   7  6,5  | AROMa
   7  6,5  | ARaME
   7 10,5  - AW
+  7  4,7  - AgEE
+  7  4,7  - AjEE
+  7  4,7  - AkEE
   7  2,3  | AlAE
   7  2,3  | AlEE
+  7  4,7  - AlEE
   7  2,3  | AlOE
   7  2,3  | AmIA
   7  2,3  | AmIE
@@ -1128,6 +1166,8 @@
   7  2,3  | ArEA
   7  2,3  | ArIA
   7  2,3  | AsEA
+  7  4,7  - AwEE
+  7  7,5  | EErIE
   7  7,6  | EMOtE
   7  4,2  | ETOIlE
   7  4,2  | ETyMA
@@ -1140,6 +1180,7 @@
   7  5,3  | HuM
   7  3,3  | IMAm
   7  3,3  | IMId
+  7  4,7  - IdEE
   7  3,3  | IdEM
   7  3,3  | ImAM
   7  3,3  | ItEM
@@ -1179,6 +1220,7 @@
   7 10,5  | OEs
   7  6,5  | ORMEr
   7 10,5  - OW
+  7  4,7  - OgEE
   7  6,6  | RAMI
   7  6,6  | REAM
   7  6,6  | RIME
@@ -1292,6 +1334,7 @@
   6  3,7  - EAsE
   6  3,5  - EAvE
   6  3,7  - EAvE
+  6  6,7  - EE
   6  3,5  - EIdE
   6  3,7  - EIdE
   6  7,6  | EME
@@ -1314,6 +1357,7 @@
   6  4,1  - EMu
   6  4,2  | ETApE
   6  5,4  - Ed
+  6  5,4  - Ee
   6  5,4  - El
   6  5,4  - En
   6  4,1  | EnTIA
@@ -1425,45 +1469,66 @@
   6  5,4  - aA
   6  4,4  - aE
   6  5,4  - aE
+  6  9,7  - aE
   6  4,4  - aI
+  6  5,7  - bEE
   6  6,5  | bRIM
+  6  5,7  - cEE
   6  6,5  | cRAM
+  6  5,7  - dEE
   6  6,5  | dRAM
   6  9,5  | dYE
+  6  4,4  - eE
+  6  5,4  - eE
+  6  9,7  - eE
+  6  9,5  | eYE
+  6  5,7  - fEE
   6  7,5  | fEM
   6  6,5  | fROM
+  6  5,7  - gEE
   6  6,5  | gRAM
   6  6,5  | gRIM
   6  7,5  | hEM
+  6  5,7  - jEE
   6  3,1  | kOI
+  6  5,7  - lEE
   6  3,1  | lEI
   6  9,5  | lYE
   6  5,4  - mA
   6  5,4  - mE
   6  7,5  | mEM
+  6  5,7  - nEE
   6  4,4  - oE
   6  5,4  - oE
+  6  9,7  - oE
   6  4,4  - oI
   6  4,1  | pATIO
+  6  5,7  - pEE
   6  3,1  | pOI
   6  6,5  | pRAM
   6  6,5  | pRIM
   6  6,5  | pROM
   6  3,1  | rAI
   6  4,1  | rATIO
+  6  5,7  - rEE
   6  7,5  | rEM
   6  4,1  | rETIA
   6  4,1  | rETIE
   6  9,5  | rYA
   6  9,5  | rYE
+  6  5,7  - sEE
   6  3,1  | sEI
   6  4,1  | sETAE
   6  4,2  | sTOAE
   6  4,2  | sTOAI
+  6  5,7  - tEE
   6  6,5  | tRAM
   6  6,5  | tRIM
   6  9,5  | tYE
+  6  5,7  - vEE
   6  4,1  | vITAE
+  6  5,7  - wEE
+  6  5,7  - zEE
   5  7,5  | AEOn
   5  7,5  | AErO
   5  4,2  | ATE
@@ -1723,6 +1788,7 @@
   5  4,1  | yETI
   5  4,1  | zETA
   5  3,5  - zOEA
+  4  2,3  | AE
   4  5,5  - AE
   4  7,5  - AE
   4  7,5  | AE
@@ -1778,6 +1844,13 @@
   4  4,5  - AzO
   4  7,6  | EAsE
   4  7,6  | EAvE
+  4  1,4  - EE
+  4  5,5  - EE
+  4  7,5  - EE
+  4  7,5  | EE
+  4  5,7  - EE
+  4  7,5  | EEk
+  4  7,5  | EEl
   4  3,2  | EIdE
   4  7,6  | EIdE
   4  6,5  | ERAsE
@@ -1785,6 +1858,7 @@
   4  6,5  | EROdE
   4  6,5  | EROsE
   4  6,7  - Ed
+  4  6,7  - Ee
   4  6,7  - Ef
   4  4,5  - EgO
   4  6,7  - Eh
@@ -1994,6 +2068,7 @@
   4  4,7  - dIE
   4  4,5  - dOE
   4  4,7  - dOE
+  4  6,7  - eE
   4  4,2  | eTA
   4  2,2  | fA
   4  4,5  - fEE
@@ -2295,6 +2370,8 @@
   3  7,5  | dEE
   3  5,5  - dO
   3  6,5  | dREE
+  3  5,5  - eE
+  3  5,7  - eE
   3  5,1  - fA
   3  5,5  - fA
   3  5,5  - fE
@@ -2398,6 +2475,7 @@
   2  5,5  - Aa
   2  4,1  | AcT
   2  2,3  | Ad
+  2  2,3  | Ae
   2  5,5  - Ae
   2  5,7  - Ae
   2  4,1  | AfT
@@ -2421,6 +2499,9 @@
   2 10,6  | EAt
   2  7,6  | EAu
   2 10,6  | EAu
+  2 10,4  - EE
+  2  7,6  | EE
+  2 10,6  | EE
   2  7,6  | EEk
   2 10,6  | EEk
   2  7,6  | EEl
@@ -2439,6 +2520,9 @@
   2  4,2  | ETh
   2  4,1  | EaT
   2  1,4  - Ed
+  2  1,4  - Ee
+  2  5,5  - Ee
+  2  5,7  - Ee
   2  4,1  | EfT
   2  7,6  | EgO
   2 10,6  | EgO
@@ -2577,6 +2661,8 @@
   2  4,1  | dIT
   2  4,1  | dOT
   2  4,1  | eAT
+  2  7,5  - eE
+  2  7,5  | eE
   2  6,5  | eRA
   2  6,5  | eRE
   2  4,1  | fAT
@@ -2670,6 +2756,8 @@
   2  4,1  | zIT
   1  7,6  | Ed
   1 10,6  | Ed
+  1  7,6  | Ee
+  1 10,6  | Ee
   1  7,6  | Ef
   1 10,6  | Ef
   1  7,6  | Eh
@@ -2716,6 +2804,7 @@
   1 10,4  - bE
   1  3,2  | bI
   1 10,4  - dE
+  1 10,4  - eE
   1  6,5  | eR
   1  4,2  | eT
   1  7,1  | fA

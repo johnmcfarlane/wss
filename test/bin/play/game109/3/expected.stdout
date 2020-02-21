@@ -106,6 +106,7 @@
  24  2,2  | bARDS
  24  2,2  | bARNS
  24  2,2  | dARNS
+ 24  2,2  | eARNS
  24  4,1  | eDITS
  24  2,2  | fARDS
  24  2,2  | hARDS
@@ -765,6 +766,7 @@
  13  6,5  - ENaCTS
  13  3,1  | JETEs
  13  2,2  | NAb
+ 13  2,2  | NAe
  13  2,2  | NAh
  13  2,2  | NAm
  13  2,2  | NAn
@@ -924,6 +926,7 @@
  12  2,2  | bARD
  12  2,2  | bARN
  12  2,2  | dARN
+ 12  2,2  | eARN
  12  5,6  | eND
  12  8,2  - eNDS
  12  5,6  | eRST
@@ -1134,6 +1137,8 @@
  10  2,2  | dART
  10  4,2  | dIRT
  10  4,2  | dITS
+ 10  2,2  | eARS
+ 10  2,2  | eATS
  10  5,6  | eD
  10  5,6  | eN
  10  8,2  - eND
@@ -1205,6 +1210,7 @@
   9  5,5  - DECoR
   9  5,5  - DECoS
   9  4,2  | DIdST
+  9  4,2  | DIeTS
   9  4,2  | DInTS
   9  4,2  | DIrTS
   9  1,1  | DaRN
@@ -1258,6 +1264,7 @@
   9  8,1  | SuDD
   9  2,2  | TAb
   9  2,2  | TAd
+  9  2,2  | TAe
   9  2,2  | TAj
   9  2,2  | TAm
   9  2,2  | TAn
@@ -1365,6 +1372,8 @@
   8  5,5  - DECRy
   8  5,5  - DENTS
   8  5,5  - DENaRS
+  8  4,2  | DIeS
+  8  4,2  | DIeT
   8  4,2  | DIfS
   8  4,2  | DImS
   8  4,2  | DInS
@@ -1375,6 +1384,7 @@
   8  4,5  - DRECk
   8  5,2  - DUb
   8  5,2  - DUd
+  8  5,2  - DUe
   8  5,2  - DUh
   8  5,2  - DUn
   8  5,2  - DUo
@@ -1452,6 +1462,8 @@
   8  5,2  - bUN
   8  5,2  - dUD
   8  5,2  - dUN
+  8  2,2  | eAR
+  8  2,2  | eAT
   8  8,2  - eDS
   8  8,2  - eNS
   8  8,2  - eRN
@@ -1548,6 +1560,7 @@
   7  2,4  - DEf
   7  2,4  - DEn
   7  4,2  | DId
+  7  4,2  | DIe
   7  4,2  | DIf
   7  4,2  | DIm
   7  4,2  | DIn
@@ -1615,6 +1628,8 @@
   7  5,5  - TENoRS
   7  5,5  - TERCe
   7  5,5  - TERNS
+  7  4,2  | TIeD
+  7  4,2  | TIeRS
   7  4,5  - TREND
   7  4,5  - TRENDs
   7  4,5  - TRENDy
@@ -1786,6 +1801,7 @@
   6  4,5  - STERNa
   6  4,5  - STERNs
   6  5,2  - SUb
+  6  5,2  - SUe
   6  5,2  - SUm
   6  5,2  - SUn
   6  5,2  - SUp
@@ -1810,6 +1826,8 @@
   6  5,5  - TEeNS
   6  5,5  - TEnDS
   6  5,5  - TErNS
+  6  4,2  | TIeR
+  6  4,2  | TIeS
   6  4,2  | TIlS
   6  4,2  | TInS
   6  4,2  | TItS
@@ -2016,6 +2034,7 @@
   5  2,4  - TEd
   5  2,4  - TEn
   5  2,4  - TEt
+  5  4,2  | TIe
   5  4,2  | TIl
   5  4,2  | TIn
   5  4,2  | TIs
@@ -2631,6 +2650,7 @@
   2  2,3  | Aa
   2  2,3  | Ab
   2  2,3  | Ad
+  2  2,3  | Ae
   2  2,3  | Ah
   2  2,3  | Am
   2  2,3  | An
@@ -2751,6 +2771,7 @@
   2  1,2  | bRR
   2  2,4  - dE
   2  8,2  | eD
+  2  2,4  - eE
   2  4,5  - eRE
   2  1,1  | eRR
   2  1,2  | eRR
@@ -2803,6 +2824,7 @@
   2  5,5  - yES
   2  5,5  - yET
   1  6,5  - Ed
+  1  6,5  - Ee
   1  6,5  - Ef
   1  6,5  - Eh
   1  6,5  - El
@@ -2817,6 +2839,7 @@
   1  1,2  | aR
   1  5,5  - bE
   1  5,5  - dE
+  1  5,5  - eE
   1  1,2  | eR
   1  5,5  - fE
   1  5,5  - hE

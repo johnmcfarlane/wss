@@ -59,6 +59,7 @@
  30  5,11 - rEPEGS
  27  2,11 - EPOpEES
  27  2,11 - EpOPEES
+ 27  7,6  | ExPOSE
  27  5,5  | GOSPEl
  27  3,11 - GaPES
  27  2,11 - GrOPE
@@ -116,6 +117,7 @@
  22  4,10 - EPIGOnE
  22  4,10 - EPIGOnS
  22  4,10 - EPIlOGS
+ 22  7,7  | EPOdE
  22  5,6  | EdGES
  22  5,6  | OGlES
  22  5,8  | PEG
@@ -125,9 +127,11 @@
  22  5,10 - PIShOGE
  22  5,10 - PInGOES
  22  2,10 - POrGIES
+ 22  7,7  | PrOSE
  22  2,10 - SEEPInG
  22  2,10 - SErPIGO
  22  4,10 - SPIEGEl
+ 22  7,7  | SPOdE
  21  3,11 - EPEE
  21  6,11 - EPEE
  21  3,11 - EPEEs
@@ -151,6 +155,7 @@
  21  2,11 - GElEES
  21  3,11 - GElEES
  21  5,11 - GElEES
+ 21  5,8  | GaPE
  21  5,8  | GaSP
  21  6,9  - LEOnES
  21  3,11 - OGEES
@@ -192,6 +197,7 @@
  21  5,3  | POGEyS
  21  7,3  | POGEyS
  21  7,3  | POGiES
+ 21  7,8  | POSE
  21  3,11 - POSE
  21  3,11 - POSEd
  21  3,11 - POSEr
@@ -208,6 +214,7 @@
  21  2,11 - POsSE
  21  3,11 - POxES
  21  2,11 - PSOaE
+ 21  5,8  | PaGE
  21  3,11 - PaSEO
  21  3,11 - PrEES
  21  2,11 - PrESE
@@ -274,6 +281,8 @@
  20  6,6  - HOPES
  20  6,6  - HOPErS
  20  3,9  - PEGLESs
+ 20  7,7  | PEaSE
+ 20  7,7  | PEiSE
  20  7,3  | PEkOES
  20  5,6  - PHOEbE
  20  5,6  - PHOnES
@@ -301,14 +310,19 @@
  19  5,8  | PEOn
  19  5,8  | PESo
  19  5,8  | PESt
+ 19  5,8  | PEkE
+ 19  5,8  | PElE
  19  5,8  | PEpO
  19  5,8  | PEsO
  19  5,9  - PLEdGE
+ 19  7,8  | POSe
  19  7,8  | POSh
  19  5,5  | POSsE
  19  7,8  | POSt
  19  7,8  | POdS
+ 19  7,8  | POnE
  19  7,8  | POnS
+ 19  7,8  | POsE
  19  5,5  | POsSE
  19  7,8  | POtS
  19  5,3  | PaGES
@@ -578,8 +592,11 @@
  17  5,3  | POxES
  17  7,3  | POxES
  17  4,8  - PSOaE
+ 17  5,8  | PaSE
+ 17  7,8  | PaSE
  17  5,5  | PeGS
  17  5,8  | PeSO
+ 17  7,8  | PoSE
  17  5,3  | PrEES
  17  7,3  | PrEES
  17  3,9  - PrOLEG
@@ -661,6 +678,7 @@
  17  7,5  | yEPS
  16  5,9  | EGO
  16  5,5  | ESPy
+ 16  7,7  | ErOSE
  16  5,1  | ExPOSE
  16  7,1  | ExPOSE
  16  2,10 - GEnOISE
@@ -861,6 +879,7 @@
  15  5,2  | SPrEE
  15  7,2  | SPrEE
  15  5,6  | SPy
+ 15  5,8  | SaGE
  15  3,11 - SaGE
  15  5,8  | SaGO
  15  5,4  | ScOP
@@ -1146,6 +1165,7 @@
  14  5,8  | SaP
  14  3,9  - SkELP
  14  2,10 - StOGIE
+ 14  5,9  | aPE
  14  5,9  | aPO
  14  5,5  | aSP
  14  5,9  | aSP
@@ -1345,10 +1365,12 @@
  13  5,3  | SEPOy
  13  7,3  | SEPOy
  13  5,8  | SEgO
+ 13  5,8  | SEmE
  13  5,9  - SLEdGE
  13  5,9  - SLeEP
  13  5,9  - SLoOP
  13  4,9  - SOLfEGE
+ 13  7,8  | SOnE
  13  5,3  | SPEEd
  13  7,3  | SPEEd
  13  5,1  | SPEEdO
@@ -1378,26 +1400,31 @@
  13  7,3  | cOPES
  13  5,3  | dOPES
  13  7,3  | dOPES
+ 13  7,8  | dOSE
  13  5,3  | ePEES
  13  7,3  | ePEES
  13  4,9  - hELPS
  13  5,3  | hOPES
  13  7,3  | hOPES
+ 13  7,8  | hOSE
  13  4,9  - kELPS
  13  5,3  | lOPES
  13  7,3  | lOPES
  13  5,3  | mOPES
  13  7,3  | mOPES
+ 13  7,8  | nOSE
  13  5,2  | oGEES
  13  5,3  | pEPOS
  13  7,3  | pEPOS
  13  5,8  | pESO
  13  5,3  | pOPES
  13  7,3  | pOPES
+ 13  7,8  | pOSE
  13  5,3  | rEPOS
  13  7,3  | rEPOS
  13  5,3  | rOPES
  13  7,3  | rOPES
+ 13  7,8  | rOSE
  13  5,9  - sLEEP
  13  2,9  - sPEEL
  13  7,3  | tOPEE
@@ -1550,11 +1577,13 @@
  12  4,9  - OGLES
  12  5,10 | OP
  12  5,3  | OPES
+ 12  7,9  | OSE
  12  7,4  | ObESE
  12  2,11 - ObESE
  12  7,4  | OgEES
  12  3,11 - OgEES
  12  7,7  | PE
+ 12  5,10 | PE
  12  7,5  | PEE
  12  5,2  | PEEkS
  12  5,2  | PEElS
@@ -1655,6 +1684,7 @@
  12  5,8  | SaG
  12  5,8  | SeG
  12  2,10 - ShOGI
+ 12  5,9  | aGE
  12  5,9  | aGO
  12  5,4  | aPES
  12  7,4  | aPES
@@ -1760,6 +1790,7 @@
  11  5,3  | EPoS
  11  5,4  | EPoS
  11  7,4  | EPoS
+ 11  7,8  | EaSE
  11  5,2  | ElOPE
  11  7,2  | ElOPE
  11  4,8  - ElOPE
@@ -2051,6 +2082,8 @@
  10  5,2  | EdGES
  10  5,3  | EgGS
  10  5,9  | EgO
+ 10  5,9  | EkE
+ 10  5,9  | EmE
  10  7,5  | EmES
  10  7,7  | EmO
  10  5,9  | EmO
@@ -2130,9 +2163,13 @@
  10  5,3  | OPEs
  10  5,4  | OPS
  10  3,9  - OPaLS
+ 10  7,9  | OSe
+ 10  7,9  | OdE
  10  7,9  | OdS
+ 10  7,9  | OnE
  10  7,9  | OnS
  10  3,8  - OpPOSE
+ 10  7,9  | OsE
  10  3,6  - OuPHES
  10  5,4  | PEE
  10  7,4  | PEE
@@ -2198,6 +2235,7 @@
  10  5,5  | PaS
  10  7,5  | PaS
  10  7,7  | Pe
+ 10  5,10 | Pe
  10  7,5  | PeE
  10  5,5  | PeS
  10  7,5  | PeS
@@ -2805,6 +2843,7 @@
   9  5,8  - yOGEES
   9  5,4  | zEES
   9  7,4  | zEES
+  8  7,6  | EE
   8  5,3  | EElS
   8  4,8  - EGOS
   8  5,9  - ELOpE
@@ -3256,6 +3295,7 @@
   8  5,5  | oES
   8  7,5  | oES
   8  5,8  - oOPS
+  8  7,9  | oSE
   8  7,5  | pEE
   8  3,8  - pEPO
   8  5,5  | pES
@@ -3865,6 +3905,9 @@
   7  5,7  - yOGEE
   7  3,6  - yOGH
   7  5,3  | zEES
+  6  5,5  | EE
+  6  7,5  | EE
+  6  7,7  | EE
   6  4,11 - EGESt
   6  4,11 - EGErS
   6  4,10 - EGIS
@@ -3882,6 +3925,7 @@
   6  5,6  | Ed
   6  7,6  | Ed
   6  5,4  | EdS
+  6  7,6  | Ee
   6  7,6  | Ef
   6  5,4  | EfS
   6  5,4  | EgO
@@ -4017,6 +4061,7 @@
   6  6,9  - LoP
   6  5,5  | OE
   6  7,5  | OE
+  6  5,10 | OE
   6  4,11 - OGEE
   6  4,11 - OGEEs
   6  6,7  - OGEeS
@@ -4380,6 +4425,7 @@
   6  4,9  - dOLS
   6  5,7  - dOPE
   6  5,4  | dOS
+  6  7,6  | eE
   6  4,9  - eELS
   6  4,11 - ePEE
   6  4,7  - ePOS
@@ -4986,6 +5032,8 @@
   5  5,7  - dOGE
   5  5,7  - dOGS
   5  5,8  - dOSE
+  5  5,5  | eE
+  5  7,5  | eE
   5  4,10 - eGIS
   5  4,7  - eGOS
   5  4,8  - eGOS
@@ -5185,6 +5233,9 @@
   4  3,10 - EOSIn
   4  7,7  | Ed
   4  4,6  - EdH
+  4  5,5  | Ee
+  4  7,5  | Ee
+  4  7,7  | Ee
   4  7,7  | Ef
   4  6,11 - EgG
   4  4,8  - EgO
@@ -5315,6 +5366,7 @@
   4  6,8  - OdS
   4  5,5  | Oe
   4  7,5  | Oe
+  4  5,10 | Oe
   4  6,8  - OeS
   4  5,10 | Of
   4  6,7  - OgEE
@@ -5389,6 +5441,7 @@
   4  5,5  | So
   4  7,5  | So
   4  5,10 | So
+  4  5,10 | aE
   4  4,11 - aGE
   4  4,7  - aGO
   4  4,8  - aGO
@@ -5396,6 +5449,7 @@
   4  5,9  - aLE
   4  5,9  - aLS
   4  4,6  - aSH
+  4  5,10 | bE
   4  5,11 - bEG
   4  4,9  - bEL
   4  5,10 - bIG
@@ -5410,18 +5464,21 @@
   4  4,7  - cOOEE
   4  3,10 - cOSIE
   4  7,7  | dE
+  4  7,10 | dE
   4  4,9  - dEL
   4  5,10 - dIG
   4  5,7  - dOG
   4  5,8  - dOG
   4  4,6  - dOH
   4  4,9  - dOL
+  4  7,7  | eE
   4  4,9  - eEL
   4  4,7  - eGO
   4  4,8  - eGO
   4  5,9  - eLS
   4  7,7  | eS
   4  7,7  | fE
+  4  7,10 | fE
   4  4,6  - fEH
   4  5,10 - fIG
   4  5,7  - fOG
@@ -5433,6 +5490,7 @@
   4  5,10 | gO
   4  4,7  - gOOSE
   4  7,7  | hE
+  4  5,10 | hE
   4  4,6  - hEH
   4  5,10 | hO
   4  5,7  - hOG
@@ -5449,6 +5507,7 @@
   4  5,8  - lOG
   4  4,7  - lOOSE
   4  7,7  | mE
+  4  5,10 | mE
   4  5,11 - mEG
   4  4,9  - mEL
   4  5,6  - mHO
@@ -5459,17 +5518,20 @@
   4  4,9  - mOL
   4  4,7  - mOOSE
   4  7,7  | nE
+  4  7,10 | nE
   4  5,11 - nEG
   4  5,7  - nOG
   4  5,8  - nOG
   4  4,6  - nOH
   4  4,10 - nOISE
   4  4,7  - nOOSE
+  4  5,10 | oE
   4  5,6  - oHO
   4  5,6  - oHS
   4  5,9  - oLE
   4  4,6  - oOH
   4  7,7  | pE
+  4  5,10 | pE
   4  5,11 - pEG
   4  4,6  - pEH
   4  4,10 - pEISE
@@ -5489,6 +5551,8 @@
   4  5,6  - sHE
   4  5,10 | sO
   4  4,9  - sOL
+  4  5,10 | tE
+  4  7,10 | tE
   4  5,11 - tEG
   4  4,9  - tEL
   4  5,6  - tHE
@@ -5740,6 +5804,8 @@
   3  4,7  - zOOS
   3  5,7  - zOOS
   3  4,8  - zOOS
+  2  5,11 - EE
+  2  6,11 - EE
   2  5,11 - EEk
   2  6,11 - EEk
   2  5,11 - EEl
@@ -6043,6 +6109,7 @@
   2  4,8  - zOO
   2  5,8  - zOO
   1  6,11 - Ed
+  1  6,11 - Ee
   1  6,11 - Ef
   1  6,11 - Eh
   1  6,11 - El
@@ -6092,6 +6159,7 @@
   1  5,11 - dE
   1  5,7  - dO
   1  5,8  - dO
+  1  5,11 - eE
   1  5,11 - fE
   1  5,10 - gI
   1  5,7  - gO
