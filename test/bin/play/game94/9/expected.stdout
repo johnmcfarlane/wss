@@ -13,6 +13,7 @@
  47  1,7  | MAE
  47  1,8  | ME
  47  1,6  | THAE
+ 47  1,6  | THEE
  46  1,7  | THE
  45  1,9  - EXAM
  44  1,7  | HAE
@@ -21,8 +22,11 @@
  38  1,7  | ATE
  38  1,7  | ETA
  38  1,7  | TAE
+ 38  1,7  | TEA
+ 38  1,7  | TEE
  36  1,9  - EXIT
  35  1,8  | AE
+ 35  1,8  | EE
  35  1,8  | TA
  35  1,8  | TE
  34  4,9  - HAEM
@@ -43,9 +47,12 @@
  19  3,8  | HI
  19  7,5  | MOAT
  19  7,6  | OHM
+ 19  3,4  | THEME
  18  3,5  | HAEM
  18  6,2  | HAEMs
+ 18  3,5  | HAME
  18  6,2  | HAMEs
+ 18  3,5  | HEME
  18  6,2  | HEMEs
  18  4,9  - MAE
  18  3,5  | MATH
@@ -82,16 +89,20 @@
  14  3,6  | HIM
  14  3,5  | ITEM
  14  6,2  | ITEMs
+ 14  3,5  | MATE
  14  6,2  | MATEs
  14  3,5  | MEAT
  14  6,2  | MEATs
  14  3,5  | MEET
  14  6,2  | MEETs
+ 14  3,5  | METE
  14  6,2  | METEs
  14  6,2  | METIs
+ 14  3,5  | MITE
  14  6,2  | MITEs
  14  7,5  | MOA
  14  7,5  | MOT
+ 14  3,5  | TAME
  14  6,2  | TAMEs
  14  6,2  | TAMIs
  14  3,5  | TEAM
@@ -100,6 +111,7 @@
  14  6,2  | TEEMs
  14  1,5  | THEM
  14  2,5  - THEME
+ 14  3,5  | TIME
  14  6,2  | TIMEs
  13  6,5  - AMU
  13  6,5  - EMU
@@ -114,8 +126,10 @@
  13  7,8  | THAE
  12  3,6  | AIM
  12  3,5  | EATH
+ 12  3,6  | EME
  12  3,5  | HAET
  12  6,2  | HAETs
+ 12  3,5  | HATE
  12  6,2  | HATEs
  12  3,5  | HEAT
  12  6,2  | HEATs
@@ -131,13 +145,18 @@
  12  1,5  | TEAM
  12  7,8  | TEAM
  12  1,5  | TEEM
+ 12  1,4  | THEME
  11  1,6  | AIM
  11  3,7  | AM
+ 11  3,5  | AMIE
  11  3,7  | EM
  11  3,5  | EMIT
  11  2,8  - ETH
  11  7,9  | HAM
+ 11  1,5  | HAME
+ 11  1,5  | HEME
  11  1,8  - HEME
+ 11  3,7  | ME
  11 10,5  | MET
  11  6,4  | MEsHIER
  11  6,4  | MIsHEAR
@@ -159,17 +178,24 @@
  10  7,7  - MI
  10  7,6  | OM
  10  7,11 - TET
+ 10  3,5  | THAE
+ 10  3,6  | THE
+ 10  3,5  | THEE
  10  2,9  - XI
   9  5,9  | ABY
   9  3,7  | AH
+  9  1,5  | AMIE
   9  3,5  - AMIE
   9  3,7  | EH
   9  1,5  | EMIT
   9  2,8  - EMIT
   9  1,6  | ETH
+  9  3,7  | HE
   9 10,5  | HET
   9  7,9  | MA
+  9  3,6  | MAE
   9  3,6  | MAT
+  9  1,5  | MATE
   9  1,5  | MEAT
   9  1,8  - MEAT
   9  1,5  | MEET
@@ -177,23 +203,30 @@
   9  3,6  | MET
   9  1,5  | META
   9  1,8  - META
+  9  1,5  | METE
   9  1,8  - METE
+  9  1,5  | MITE
   9  7,6  | OAT
+  9  1,5  | TAME
   9  3,5  - TAME
+  9  1,5  | TIME
   9  3,5  - TIME
   8  1,7  | AH
   8  5,8  - AHEAD
   8  6,9  - AT
   8  2,8  - EATH
   8  1,7  | EH
+  8  1,6  | EME
   8  2,8  - EME
   8  6,9  - ET
   8  4,7  - ETH
+  8  3,6  | HAE
   8  7,9  | HAE
   8  1,5  | HAET
   8  6,3  | HAMs
   8  3,6  | HAT
   8  7,9  | HAT
+  8  1,5  | HATE
   8  6,4  | HAsTIER
   8 10,5  - HE
   8 10,5  | HE
@@ -203,9 +236,11 @@
   8  6,3  | HEMs
   8  3,6  | HET
   8  7,7  - HI
+  8  3,6  | HIE
   8  6,3  | HIMs
   8  3,6  | HIT
   8  7,8  - MADE
+  8  1,6  | MAE
   8  8,2  - MANA
   8  1,6  | MAT
   8  6,4  | MAsH
@@ -214,7 +249,9 @@
   8  6,4  | MEsH
   8  7,6  | OH
   8  7,8  | TEA
+  8  1,5  | THAE
   8  3,5  - THAE
+  8  1,5  | THEE
   8  3,5  - THEE
   7  5,7  - AH
   7  4,5  - AMI
@@ -225,15 +262,19 @@
   7  8,11 - ET
   7  7,9  | HA
   7  7,8  - HADE
+  7  1,6  | HAE
   7  1,6  | HAT
   7  6,8  - HEAD
   7  1,6  | HET
+  7  1,6  | HIE
   7  1,6  | HIT
   7  1,7  | MA
   7  7,8  - MAD
   7  4,5  - MAE
   7  6,3  | MAIsT
+  7  1,7  | ME
   7  7,9  | TAM
+  7  1,6  | THE
   7  9,11 - TIE
   7  9,11 - TIT
   7  8,10 | WE
@@ -245,12 +286,14 @@
   6  6,3  | AIMs
   6  3,6  | AIT
   6  6,3  | AMIs
+  6  3,6  | ATE
   6  3,6  | EAT
   6  6,3  | EMEs
   6  1,7  | HA
   6  7,8  - HAD
   6  4,5  - HAE
   6  6,4  | HAsTE
+  6  1,7  | HE
   6  6,3  | HEIsT
   6  4,5  - HIE
   6  5,5  - MA
@@ -266,19 +309,25 @@
   6  6,8  | MIR
   6  6,4  | MIsE
   6  6,4  | MIsT
+  6  3,6  | TAE
   6  6,3  | TAMs
+  6  3,6  | TEE
   6  4,5  - THE
   6  6,3  | THEsE
+  6  3,6  | TIE
   6  6,6  | sHEAR
   6  6,6  | sHEER
   6  6,6  | sHIER
   5  8,8  - ADIT
+  5  3,7  | AE
   5  6,3  | AHIs
   5  1,6  | AIT
   5  7,10 | AM
   5  3,7  | AT
+  5  1,6  | ATE
   5  1,6  | EAT
   5  2,8  - EAT
+  5  3,7  | EE
   5 10,6  | EM
   5  2,8  - EM
   5  6,4  | EMs
@@ -305,19 +354,27 @@
   5  6,4  | MAs
   5  1,8  - ME
   5  6,4  | MIs
+  5  1,6  | TAE
+  5  3,7  | TE
   5 10,5  | TEA
   5  1,6  | TEA
   5 10,5  | TEE
+  5  1,6  | TEE
   5  6,3  | THIs
+  5  1,6  | TIE
   5  6,6  | sIM
   4 10,5  - AE
   4 10,5  | AE
+  4  1,7  | AE
   4  7,10 | AH
   4  6,4  | AHs
   4  1,7  | AT
   4  4,5  - ATE
   4  6,5  | AsH
   4  7,9  | EAT
+  4 10,5  - EE
+  4 10,5  | EE
+  4  1,7  | EE
   4 10,6  | EH
   4  2,8  - EH
   4  1,7  | ET
@@ -334,6 +391,7 @@
   4  7,9  | TAE
   4 10,5  - TE
   4 10,5  | TE
+  4  1,7  | TE
   4  4,5  - TEA
   4  6,3  | TEAsE
   4  4,5  - TEE
@@ -355,6 +413,7 @@
   3  6,3  | EATs
   3  6,4  | EAsE
   3  6,4  | EAsT
+  3  5,5  - EE
   3  6,3  | ETAs
   3  5,5  - TA
   3  7,9  | TA
@@ -375,6 +434,9 @@
   2  6,4  | AIs
   2  6,9  | AR
   2  7,10 | AT
+  2 10,6  | EE
+  2  1,8  - EE
+  2  2,8  - EE
   2  6,9  | ER
   2 10,6  | ET
   2  2,8  - ET

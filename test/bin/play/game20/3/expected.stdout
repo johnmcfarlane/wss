@@ -866,6 +866,8 @@
  16  5,11 - EIdOS
  16  5,11 - EOSIn
  16  7,4  | EaST
+ 16  6,5  - EnOKIS
+ 16  6,7  - EnOKIS
  16  7,4  | ErST
  16  6,2  | EvOKE
  16  6,9  - IKaTS
@@ -1121,6 +1123,8 @@
  15  7,4  | EfS
  15  7,4  | ElS
  15  7,4  | EmS
+ 15  6,5  - EnOKI
+ 15  6,7  - EnOKI
  15  6,9  - EnOKI
  15  7,4  | EnS
  15  7,4  | ErS
@@ -1626,6 +1630,8 @@
  13  7,6  | sO
  12  2,6  - ABOVEs
  12  6,9  - EIKOn
+ 12  6,5  - EIKOnS
+ 12  6,7  - EIKOnS
  12  6,1  | ETOIlES
  12  5,8  | IKAt
  12  5,9  | KAE
@@ -1677,6 +1683,7 @@
  12  6,7  - SKITEd
  12  6,7  - SKITEs
  12  5,11 - SOKE
+ 12  2,2  | STrIAE
  12  6,7  - STrIKE
  12  6,7  - STrOKE
  12  5,9  - TIErS
@@ -1719,6 +1726,7 @@
  12  3,8  - WOrK
  12  3,8  - WOrSET
  12  1,11 - cOPE
+ 12  2,2  | cOSTAE
  12  1,11 - dOPE
  12  6,9  - eKE
  12  1,11 - hOPE
@@ -1739,6 +1747,8 @@
  12  1,11 - tOPE
  12  6,9  - uKE
  11  4,3  | EIKOn
+ 11  6,5  - EIKOn
+ 11  6,7  - EIKOn
  11  6,11 - IOTa
  11  6,11 - IOnS
  11  6,11 - ISlE
@@ -1925,9 +1935,13 @@
  11  5,8  | sKA
  11  6,7  - sKITES
  11  5,2  | vOTIVES
+ 10  6,5  - EKeS
+ 10  6,7  - EKeS
  10  6,1  | EOSInE
  10  6,1  | ETOIlE
  10  6,2  | ElITES
+ 10  6,5  - ElKS
+ 10  6,7  - ElKS
  10  6,9  - ElKS
  10  6,2  | EmOTES
  10  6,2  | EvITES
@@ -2181,6 +2195,7 @@
  10  1,8  - yOWIES
   9  2,3  | ESKAr
   9  2,9  - IRE
+  9  2,5  | KAE
   9  2,5  | KAT
   9  5,8  | KEAS
   9  6,4  | KEETS
@@ -2450,6 +2465,8 @@
   9  1,9  - dOR
   9  1,8  - dOWIE
   9  1,8  - dOWSE
+  9  6,5  - eKES
+  9  6,7  - eKES
   9  5,9  - fEIST
   9  1,9  - fER
   9  1,9  - fIR
@@ -2547,6 +2564,8 @@
   8  4,3  | EIdOS
   8  6,9  - EIdOS
   8  6,4  | EKES
+  8  6,5  - EKe
+  8  6,7  - EKe
   8  6,9  - EOSIn
   8  6,3  | ESKEr
   8  6,9  - ESTOp
@@ -2556,8 +2575,14 @@
   8  6,9  - EThOS
   8  6,9  - ETuIS
   8  1,9  - EaR
+  8  6,5  - EeK
+  8  6,7  - EeK
   8  6,9  - EeK
+  8  6,5  - EgOIST
+  8  6,7  - EgOIST
   8  6,2  | ElITE
+  8  6,5  - ElK
+  8  6,7  - ElK
   8  6,9  - ElK
   8  6,2  | EmOTE
   8  2,2  | EnTIA
@@ -2787,6 +2812,7 @@
   8  6,3  | TOKEn
   8  6,3  | TOKEr
   8  6,3  | TOKEs
+  8  1,8  - TOWaIS
   8  1,8  - TOWiES
   8  1,8  - TOWnIE
   8  6,5  - TObIES
@@ -3061,25 +3087,45 @@
   8  2,8  - yWIS
   7  6,5  | EEK
   7  6,6  | EEK
+  7  6,5  - EIdOS
+  7  6,7  - EIdOS
   7  6,4  | EKE
   7  6,6  | EKE
   7  6,4  | EKEd
   7  6,4  | EKEs
+  7  6,5  - EOSIn
+  7  6,7  - EOSIn
   7  6,9  - EOnS
   7  5,11 - EOnS
   7  2,9  - ERa
   7  2,9  - ERe
+  7  6,5  - ESTOp
+  7  6,7  - ESTOp
+  7  6,5  - EScOT
+  7  6,7  - EScOT
   7  6,9  - ETaS
+  7  6,5  - EThOS
+  7  6,7  - EThOS
   7  6,9  - EThS
   7  6,9  - ETuI
+  7  6,5  - ETuIS
+  7  6,7  - ETuIS
   7  5,5  | EVIl
   7  5,5  | EVeS
+  7  6,5  - EdITS
+  7  6,7  - EdITS
   7  6,9  - EdITS
   7  4,4  | EgOS
+  7  6,5  - EmITS
+  7  6,7  - EmITS
   7  6,9  - EmITS
   7  4,4  | EpOS
   7  4,4  | ErOS
+  7  6,5  - ExIST
+  7  6,7  - ExIST
   7  6,9  - ExIST
+  7  6,5  - ExITS
+  7  6,7  - ExITS
   7  6,9  - ExITS
   7  5,11 - IOTa
   7  6,9  - IOTaS
@@ -3092,6 +3138,7 @@
   7  2,3  | IlKA
   7  6,9  - InSET
   7  2,5  | KAb
+  7  2,5  | KAe
   7  2,5  | KAf
   7  2,5  | KAt
   7  2,5  | KAy
@@ -3182,6 +3229,7 @@
   7  2,8  - OWlET
   7  6,5  - ObITS
   7  6,9  - ObITS
+  7  4,4  | ObOE
   7  6,5  - OdIST
   7  6,9  - OdIST
   7  6,5  - OmITS
@@ -3241,6 +3289,7 @@
   7  6,7  - STEIn
   7  6,7  - STIEd
   7  6,7  - STIEs
+  7  2,3  | STOAE
   7  6,7  - STOIc
   7  4,3  | STOOd
   7  4,3  | STOOl
@@ -3250,11 +3299,13 @@
   7  5,4  | SaVE
   7  4,4  | ScOT
   7  6,4  | SeEK
+  7  4,4  | ShOE
   7  4,4  | ShOT
   7  6,7  - ShOTE
   7  2,3  | SiKA
   7  6,3  | SiKE
   7  6,7  - SkITE
+  7  4,4  | SlOE
   7  4,4  | SlOT
   7  6,7  - SmITE
   7  6,7  - SmOTE
@@ -3322,6 +3373,7 @@
   7  5,11 - TOSh
   7  5,11 - TOSs
   7  5,11 - TOSt
+  7  1,8  - TOWaI
   7  1,8  - TOWiE
   7  1,8  - TOWnS
   7  5,11 - TOdS
@@ -3467,6 +3519,10 @@
   7  6,8  | dISK
   7  5,4  | dIVE
   7  5,4  | dOVE
+  7  6,5  - eEK
+  7  6,7  - eEK
+  7  6,5  - eKE
+  7  6,7  - eKE
   7  6,4  | eKES
   7  2,9  - eRE
   7  5,5  | eVES
@@ -3640,26 +3696,56 @@
   7  5,9  - zITS
   6  6,6  | EKe
   6  5,11 - EOn
+  6  6,5  - EOnS
+  6  6,7  - EOnS
   6  1,7  - ESEs
   6  6,9  - ETIc
+  6  6,5  - ETaS
+  6  6,7  - ETaS
+  6  6,5  - EThS
+  6  6,7  - EThS
+  6  6,5  - ETuI
+  6  6,7  - ETuI
   6  5,5  | EVe
   6  2,8  - EWeS
+  6  6,5  - EaST
+  6  6,7  - EaST
   6  6,9  - EaST
+  6  6,5  - EaTS
+  6  6,7  - EaTS
   6  6,9  - EaTS
+  6  6,5  - EdIT
+  6  6,7  - EdIT
   6  6,9  - EdIT
   6  6,6  | EeK
+  6  6,5  - EfTS
+  6  6,7  - EfTS
   6  6,9  - EfTS
+  6  6,5  - EgIS
+  6  6,7  - EgIS
   6  6,9  - EgIS
+  6  6,5  - EgOS
+  6  6,7  - EgOS
   6  6,9  - EgOS
   6  6,6  | ElK
   6  1,7  - EmES
+  6  6,5  - EmIT
+  6  6,7  - EmIT
   6  6,9  - EmIT
+  6  6,5  - EpOS
+  6  6,7  - EpOS
   6  6,9  - EpOS
+  6  6,5  - ErOS
+  6  6,7  - ErOS
   6  6,9  - ErOS
+  6  6,5  - ErST
+  6  6,7  - ErST
   6  6,9  - ErST
   6  1,7  - EsES
   6  1,7  - EwES
   6  1,7  - ExES
+  6  6,5  - ExIT
+  6  6,7  - ExIT
   6  6,9  - ExIT
   6  1,7  - EyES
   6  6,9  - IOTa
@@ -3872,6 +3958,7 @@
   6  6,7  - STOrE
   6  4,4  | STOt
   6  6,7  - STOvE
+  6  2,3  | SToAE
   6  6,7  - STyE
   6  2,8  - SWaT
   6  2,8  - SWoT
@@ -3879,6 +3966,7 @@
   6  6,7  - SaTI
   6  4,3  | ScOOT
   6  6,7  - ScOT
+  6  2,3  | SeTAE
   6  6,7  - ShIT
   6  5,11 - ShIT
   6  2,3  | ShOAT
@@ -3902,6 +3990,7 @@
   6  6,7  - SpIT
   6  6,7  - SpOT
   6  6,7  - StET
+  6  2,3  | StOAE
   6  2,3  | StOAT
   6  6,7  - StOT
   6  6,7  - SuET
@@ -3995,6 +4084,7 @@
   6  6,5  - TOeS
   6  6,7  - TOeS
   6  5,11 - TOg
+  6  2,3  | TOgAE
   6  6,5  - TOgS
   6  6,7  - TOgS
   6  6,5  - TOkE
@@ -4292,6 +4382,7 @@
   6  6,5  - pOISE
   6  6,5  - pOSIT
   6  5,9  - pOT
+  6  2,3  | pSOAE
   6  2,3  | rESAT
   6  6,5  - rESIT
   6  6,7  - rESIT
@@ -4320,6 +4411,7 @@
   6  2,4  | sKA
   6  5,11 - sOTS
   6  6,7  - sTIES
+  6  2,3  | sTOAE
   6  5,9  - tET
   6  5,9  - tIE
   6  5,11 - tIES
@@ -4341,6 +4433,7 @@
   6  6,4  | uKE
   6  2,11 - uP
   6  6,9  - uTES
+  6  2,3  | vITAE
   6  5,11 - wISE
   6  5,11 - wIST
   6  5,11 - wITE
@@ -4364,6 +4457,8 @@
   5  6,9  - ESs
   5  6,9  - ET
   5  5,8  | ETAS
+  5  6,5  - ETIc
+  5  6,7  - ETIc
   5  6,9  - ETa
   5  6,9  - ETh
   5  2,8  - EWe
@@ -4398,6 +4493,7 @@
   5  2,8  - OWl
   5  2,8  - OWn
   5  3,9  - RE
+  5  2,5  | SAE
   5  2,5  | SAT
   5  5,8  | SEAT
   5  1,7  - SEE
@@ -4408,6 +4504,7 @@
   5  6,5  | SEIsES
   5  6,5  | SEIzES
   5  6,7  - SET
+  5  2,3  | SETAe
   5  6,5  | SETOnS
   5  6,5  | SETOuS
   5  6,7  - SETa
@@ -4443,6 +4540,7 @@
   5  6,7  - STEw
   5  6,7  - STEy
   5  6,7  - STIr
+  5  2,3  | STOAe
   5  2,3  | STOAt
   5  6,7  - STOa
   5  6,7  - STOb
@@ -4460,9 +4558,11 @@
   5  2,4  | SlAT
   5  5,11 - SoT
   5  1,8  - SoW
+  5  2,4  | SpAE
   5  2,4  | SpAT
   5  2,4  | StAT
   5  2,4  | SwAT
+  5  2,5  | TAE
   5  2,5  | TAO
   5  5,8  | TEAS
   5  1,7  - TEE
@@ -4488,6 +4588,7 @@
   5  6,5  - TIS
   5  6,7  - TIS
   5  4,3  | TIrO
+  5  4,5  | TOE
   5  6,5  - TOE
   5  6,7  - TOE
   5  6,5  - TOEa
@@ -4515,6 +4616,7 @@
   5  2,8  - TWo
   5  1,8  - TaW
   5  1,8  - TeW
+  5  2,4  | ThAE
   5  5,11 - ThE
   5  5,11 - ThO
   5  5,11 - TiE
@@ -4522,6 +4624,7 @@
   5  5,11 - ToE
   5  5,11 - ToO
   5  1,8  - ToW
+  5  2,4  | TwAE
   5  3,8  - WaE
   5  3,8  - WaS
   5  3,8  - WaT
@@ -4851,37 +4954,74 @@
   5  1,8  - yEW
   5  1,8  - yOW
   5  4,4  | zOOS
+  4  2,6  | AE
   4  2,6  | AT
   4  5,9  | EAT
+  4  2,7  - EE
+  4  3,7  - EE
   4  6,6  | EIdOS
+  4  6,5  - EOn
+  4  6,7  - EOn
+  4  6,5  - ES
   4  3,7  - ES
+  4  6,7  - ES
   4  6,3  | ESTEr
   4  6,6  | ESnES
+  4  6,5  - ESs
+  4  6,7  - ESs
   4  6,6  | ESsES
   4  1,5  - ET
+  4  6,5  - ET
+  4  6,7  - ET
   4  5,8  | ETA
   4  5,8  | ETAs
+  4  6,5  - ETa
+  4  6,7  - ETa
+  4  6,5  - ETh
+  4  6,7  - ETh
   4  6,6  | EThOS
   4  6,6  | ETuIS
   4  6,6  | EaSES
   4  6,6  | EaSTS
+  4  6,5  - EaT
+  4  6,7  - EaT
   4  6,9  - EaT
   4  6,6  | EdITS
+  4  6,5  - EdS
+  4  6,7  - EdS
   4  6,9  - EdS
+  4  6,5  - EfS
+  4  6,7  - EfS
   4  6,9  - EfS
+  4  6,5  - EfT
+  4  6,7  - EfT
   4  6,9  - EfT
   4  6,4  | EgEST
   4  4,4  | EgO
+  4  6,5  - EgO
+  4  6,7  - EgO
   4  6,9  - EgO
   4  5,11 - Eh
+  4  6,5  - ElS
+  4  6,7  - ElS
   4  6,9  - ElS
   4  6,6  | EmITS
   4  4,4  | EmO
+  4  6,5  - EmO
+  4  6,7  - EmO
   4  6,9  - EmO
+  4  6,5  - EmS
+  4  6,7  - EmS
   4  6,9  - EmS
+  4  6,5  - EnS
+  4  6,7  - EnS
   4  6,9  - EnS
+  4  6,5  - ErS
+  4  6,7  - ErS
   4  6,9  - ErS
   4  6,6  | ErSES
+  4  6,5  - EsS
+  4  6,7  - EsS
   4  6,9  - EsS
   4  6,6  | EsSES
   4  6,6  | ExITS
@@ -4911,6 +5051,7 @@
   4  6,11 - ItS
   4  5,9  | OAT
   4  6,5  - OE
+  4  4,6  | OE
   4  6,11 - OE
   4  6,5  - OEs
   4  6,11 - OEs
@@ -5299,6 +5440,7 @@
   4  6,3  | dITES
   4  5,11 - dO
   4  5,8  | dOAT
+  4  4,5  | dOE
   4  6,4  | dOEST
   4  4,5  | dOS
   4  4,5  | dOT
@@ -5312,6 +5454,8 @@
   4  6,3  | fETES
   4  5,8  | fIAT
   4  1,7  - fIE
+  4  4,5  | fOE
+  4  2,5  | gAE
   4  2,5  | gAT
   4  1,7  - gEE
   4  6,4  | gEEST
@@ -5322,6 +5466,7 @@
   4  5,8  | gOAS
   4  5,8  | gOAT
   4  4,5  | gOT
+  4  2,5  | hAE
   4  2,5  | hAO
   4  2,5  | hAT
   4  5,9  - hE
@@ -5331,6 +5476,7 @@
   4  1,7  - hIE
   4  5,9  - hO
   4  5,11 - hO
+  4  4,5  | hOE
   4  4,5  | hOS
   4  4,5  | hOT
   4  6,9  - iTS
@@ -5339,7 +5485,9 @@
   4  6,3  | jETES
   4  5,8  | jIAO
   4  5,9  - jO
+  4  4,5  | jOE
   4  4,5  | jOT
+  4  2,5  | kAE
   4  2,5  | kAT
   4  5,8  | kEAS
   4  6,4  | kEETS
@@ -5357,6 +5505,7 @@
   4  5,9  - lO
   4  5,11 - lO
   4  4,5  | lOT
+  4  2,5  | mAE
   4  2,5  | mAT
   4  5,9  - mE
   4  5,8  | mEAT
@@ -5373,6 +5522,7 @@
   4  4,5  | mOS
   4  4,5  | mOT
   4  6,3  | mOTES
+  4  2,5  | nAE
   4  5,9  - nE
   4  5,8  | nEAT
   4  1,7  - nEE
@@ -5407,9 +5557,11 @@
   4  6,3  | rESET
   4  5,8  | rIAS
   4  6,3  | rITES
+  4  4,5  | rOE
   4  6,3  | rOSET
   4  4,5  | rOT
   4  6,3  | rOTES
+  4  2,5  | sAE
   4  2,5  | sAT
   4  5,8  | sEAS
   4  5,8  | sEAT
@@ -5420,6 +5572,7 @@
   4  4,5  | sOS
   4  4,5  | sOT
   4  6,3  | sTIES
+  4  2,5  | tAE
   4  2,5  | tAO
   4  2,5  | tAT
   4  5,9  - tE
@@ -5431,6 +5584,7 @@
   4  1,7  - tIE
   4  5,9  - tO
   4  5,11 - tO
+  4  4,5  | tOE
   4  4,5  | tOT
   4  6,3  | tOTES
   4  1,7  - uSE
@@ -5442,13 +5596,16 @@
   4  2,5  | vAT
   4  1,7  - vEE
   4  1,7  - vIE
+  4  4,5  | vOE
   4  6,3  | vOTES
+  4  2,5  | wAE
   4  2,5  | wAT
   4  1,7  - wEE
   4  6,4  | wEEST
   4  6,4  | wEETS
   4  6,3  | wITES
   4  5,11 - wO
+  4  4,5  | wOE
   4  4,5  | wOS
   4  4,5  | wOT
   4  5,11 - xI
@@ -5473,27 +5630,50 @@
   3  2,3  | ETnA
   3  6,3  | EaSE
   3  6,8  | EaST
+  3  6,5  - Ed
+  3  6,7  - Ed
   3  6,9  - Ed
+  3  6,5  - Ee
+  3  6,7  - Ee
+  3  6,9  - Ee
+  3  6,5  - Ef
+  3  6,7  - Ef
   3  6,9  - Ef
+  3  6,5  - Eh
+  3  6,7  - Eh
   3  6,9  - Eh
   3  6,4  | EkES
+  3  6,5  - El
+  3  6,7  - El
   3  6,9  - El
   3  6,3  | ElSE
+  3  6,5  - Em
+  3  6,7  - Em
   3  6,9  - Em
   3  1,7  - EmE
   3  6,4  | EmES
+  3  6,5  - En
+  3  6,7  - En
   3  6,9  - En
+  3  6,5  - Er
+  3  6,7  - Er
   3  6,9  - Er
   3  5,8  | ErAS
   3  1,7  - ErE
   3  6,8  | ErST
+  3  6,5  - Es
+  3  6,7  - Es
   3  6,9  - Es
   3  6,4  | EsES
+  3  6,5  - Et
+  3  6,7  - Et
   3  6,9  - Et
   3  5,8  | EtAS
   3  6,4  | EvES
   3  1,7  - EwE
   3  6,4  | EwES
+  3  6,5  - Ex
+  3  6,7  - Ex
   3  6,9  - Ex
   3  6,4  | ExES
   3  5,8  | EyAS
@@ -5625,6 +5805,7 @@
   3  5,9  | SAc
   3  2,5  | SAd
   3  5,9  | SAd
+  3  2,5  | SAe
   3  5,9  | SAe
   3  5,9  | SAg
   3  5,9  | SAl
@@ -5751,6 +5932,7 @@
   3  5,9  | TAb
   3  2,5  | TAd
   3  5,9  | TAd
+  3  2,5  | TAe
   3  5,9  | TAe
   3  5,9  | TAg
   3  2,5  | TAj
@@ -5819,6 +6001,7 @@
   3  6,8  | TOSs
   3  6,8  | TOSt
   3  4,5  | TOd
+  3  4,5  | TOe
   3  2,3  | TOeA
   3  2,3  | TOgA
   3  6,3  | TOkE
@@ -5939,6 +6122,7 @@
   3  6,5  - dOT
   3  6,7  - dOT
   3  6,3  | dOTE
+  3  6,9  - eE
   3  2,9  | eN
   3  4,9  | eN
   3  2,9  - eR
@@ -6267,6 +6451,7 @@
   2  2,6  | Aa
   2  2,6  | Ab
   2  2,6  | Ad
+  2  2,6  | Ae
   2  2,6  | Ah
   2  2,6  | Am
   2  2,6  | An
@@ -6274,6 +6459,8 @@
   2  2,6  | At
   2  2,6  | Aw
   2  2,6  | Ay
+  2  6,5  | EE
+  2  6,6  | EE
   2  6,5  | EEk
   2  6,6  | EEk
   2  6,5  | EEl
@@ -6290,6 +6477,7 @@
   2  3,7  - Ed
   2  6,6  | EdS
   2  6,8  | EdS
+  2  3,7  - Ee
   2  1,5  - Ef
   2  3,7  - Ef
   2  6,6  | EfS
@@ -6360,6 +6548,7 @@
   2  5,8  | OdA
   2  6,4  | OdE
   2  6,8  | OdS
+  2  4,6  | Oe
   2  6,8  | OeS
   2  1,5  - Of
   2  4,6  | Of
@@ -6490,8 +6679,15 @@
   2  6,4  | dOE
   2  6,8  | dOS
   2  5,9  | eAT
+  2  6,5  - eE
+  2  2,7  - eE
+  2  6,7  - eE
+  2  6,5  - eS
+  2  6,7  - eS
   2  6,8  | eSS
   2  6,9  | eSS
+  2  6,5  - eT
+  2  6,7  - eT
   2  2,4  | eTA
   2  5,9  | fAS
   2  5,9  | fAT
@@ -6717,6 +6913,7 @@
   1  5,10 | Ax
   1  5,10 | Ay
   1  6,6  | Ed
+  1  6,6  | Ee
   1  6,6  | Ef
   1  6,6  | Eh
   1  6,6  | El
@@ -6739,6 +6936,7 @@
   1  4,5  | bO
   1  6,5  | dE
   1  4,5  | dO
+  1  6,5  | eE
   1  6,9  | eS
   1  2,5  | fA
   1  5,9  | fA

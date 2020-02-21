@@ -539,6 +539,7 @@
  24  8,10 - DITE
  24  5,11 - ESpIES
  24  5,11 - ISTlES
+ 24  8,5  | ISoDOSE
  24  6,11 - SEDEr
  24  6,11 - SErED
  24  6,11 - SEwED
@@ -782,7 +783,9 @@
  20  8,10 - DImE
  20  8,10 - DInE
  20  8,10 - DItE
+ 20  8,8  | DOSE
  20  8,8  | DOST
+ 20  8,8  | DOTE
  20  8,6  | EIDOs
  20  4,11 - ESs
  20  8,6  | EiDOS
@@ -808,20 +811,31 @@
  19  7,4  | SaDE
  19  6,5  | ZAREBAS
  19  8,7  | aDOS
+ 19 10,8  | dUDE
  19 10,8  | dUDS
  19 10,8  | fUDS
  19 10,8  | mUDS
+ 19 10,8  | nUDE
  19 10,8  | pUDS
+ 19 10,8  | rUDE
  19  6,11 - sI
  19 10,8  | sUDS
  18  3,5  - DITZES
  18  7,2  | DITaS
+ 18  8,8  | DOSe
  18  8,8  | DOSt
+ 18  8,8  | DOTe
  18  8,8  | DOTh
  18  8,8  | DOTy
  18  8,8  | DOaT
+ 18  8,8  | DOgE
+ 18  8,8  | DOlE
  18  8,8  | DOlT
+ 18  8,8  | DOmE
+ 18  8,8  | DOpE
+ 18  8,8  | DOsE
  18  8,8  | DOsT
+ 18  8,8  | DOtE
  18 10,8  | DUSt
  18  7,4  | DaTE
  18  8,10 - SITe
@@ -847,17 +861,21 @@
  17  3,5  - DItZES
  17  8,8  | DOS
  17  8,8  | DOT
+ 17 10,8  | DUdE
  17 10,8  | DUdS
+ 17 10,8  | DUnE
  17 10,8  | DUnS
  17 10,8  | DUnT
  17 10,8  | DUsT
  17  3,5  - DiTZES
  17  4,5  - DoZIEST
+ 17  8,6  | SETOSe
  17  8,10 - SInE
  17  8,10 - SIpE
  17  8,10 - SItE
  17 10,8  | SUdD
  17  7,4  | SaTE
+ 17  8,6  | SeTOSE
  16  1,6  - DISSEAT
  16  3,5  - DITZ
  16  3,5  - DITZy
@@ -909,12 +927,15 @@
  15 10,8  | dUD
  15 10,8  | dUST
  15 10,8  | fUD
+ 15 10,8  | fUSE
  15 10,8  | fUSS
  15 10,8  | hUTS
  15  8,6  | mISOS
  15 10,8  | mUD
+ 15 10,8  | mUSE
  15 10,8  | mUSS
  15 10,8  | mUST
+ 15 10,8  | mUTE
  15 10,8  | mUTS
  15 10,8  | nUTS
  15  8,6  | pESOS
@@ -922,6 +943,7 @@
  15 10,8  | pUD
  15 10,8  | pUSS
  15 10,8  | pUTS
+ 15 10,8  | rUSE
  15 10,8  | rUST
  15 10,8  | rUTS
  15 10,8  | sUSS
@@ -968,6 +990,8 @@
  14  8,8  | TOlD
  14  7,4  | TaE
  14  7,4  | TaS
+ 14 10,9  | USE
+ 14 10,9  | UTE
  14 10,9  | UTS
  14  6,5  - ZEST
  14  6,5  - ZESTs
@@ -1070,6 +1094,7 @@
  12  8,6  | DaTO
  12 11,7  | ImPED
  12  2,6  - SEITAnS
+ 12  7,6  | SEeLS
  12  7,6  | SElLS
  12  1,6  - SIESTA
  12  1,10 - SIESTA
@@ -1079,19 +1104,30 @@
  12  4,5  - SIZe
  12  4,5  - SIZy
  12  8,8  | SOTh
+ 12  8,8  | SOkE
+ 12  8,8  | SOlE
+ 12  8,8  | SOmE
  12  8,8  | SOoT
  12 11,8  | SPED
  12  1,6  - STaDIA
  12  1,10 - STaDIA
  12 11,7  | SaPID
+ 12  7,6  | SeELS
  12 11,7  | SiPED
  12  4,5  - SiZE
  12 11,7  | TEPiD
  12  7,6  | TESLa
+ 12  7,6  | TEeLS
  12  7,6  | TElLS
  12  8,8  | TOSh
  12  8,8  | TOSt
+ 12  8,8  | TOkE
+ 12  8,8  | TOlE
+ 12  8,8  | TOmE
+ 12  8,8  | TOpE
+ 12  8,8  | TOtE
  12 11,7  | TaPED
+ 12  7,6  | TeELS
  12 11,7  | TePID
  12 11,7  | ToPED
  12 11,7  | TyPED
@@ -1162,6 +1198,7 @@
  11  8,4  | DoTE
  11 10,4  | DoTE
  11  4,8  - DrEE
+ 11  7,8  | ELDS
  11 10,5  | IDE
  11 10,4  | IDeE
  11 10,4  | IDlE
@@ -1192,6 +1229,8 @@
  11  7,4  | Ta
  11 10,3  | TaSSE
  11 10,4  | TiDE
+ 11 10,9  | USe
+ 11 10,9  | UTe
  11 10,9  | UTs
  11  6,5  - ZEd
  11  6,5  - ZEe
@@ -1259,6 +1298,8 @@
  10 11,7  | DuPES
  10 10,4  | EIDe
  10  8,6  | EIdOS
+ 10  7,8  | ELD
+ 10  7,8  | ELDs
  10  4,8  - IDEE
  10 10,4  | IDEe
  10  9,10 - IS
@@ -1330,6 +1371,8 @@
  10 10,9  | US
  10 10,9  | UT
  10 10,9  | UnS
+ 10 10,9  | UsE
+ 10 10,9  | UtE
  10 10,9  | UtS
  10  6,5  - Za
  10  8,3  | aSIDE
@@ -1357,6 +1400,7 @@
   9 10,5  | DoE
   9 10,5  | DuE
   9 10,5  | DyE
+  9  7,7  | EeLS
   9  8,7  | EgOS
   9  7,7  | ElLS
   9  8,7  | EpOS
@@ -1370,6 +1414,7 @@
   9  2,8  - SEDgE
   9  8,11 - SEED
   9 11,7  | SEPtS
+  9  7,6  | SEeL
   9  7,6  | SElL
   9  8,3  | SEnTI
   9  2,8  - SIDhE
@@ -1409,6 +1454,7 @@
   9  8,4  | SaDE
   9  8,4  | SaDI
   9 10,4  | SaTE
+  9  7,6  | SeEL
   9 11,7  | SePTS
   9  8,4  | SiDE
   9 11,7  | SiPES
@@ -1419,6 +1465,7 @@
   9 11,7  | SuPES
   9  8,11 - TEED
   9 11,7  | TEPaS
+  9  7,6  | TEeL
   9  7,6  | TElL
   9  1,7  - TIDiERS
   9 10,5  | TIE
@@ -1438,6 +1485,7 @@
   9 11,7  | TaPES
   9 11,7  | TaPIS
   9  5,6  | TeD
+  9  7,6  | TeEL
   9  8,4  | TiDE
   9  1,7  - TiDIERS
   9 11,7  | TiPIS
@@ -1454,6 +1502,8 @@
   9  8,3  | cESTI
   9 10,4  | cITE
   9 10,4  | dITE
+  9  7,7  | eELS
+  9  7,8  | eLDS
   9  5,6  | fED
   9 10,4  | gITE
   9 10,5  | iDE
@@ -1524,6 +1574,8 @@
   8  1,7  - EDIToRS
   8  3,8  - EDgE
   8  8,4  | EIDe
+  8  7,8  | ELS
+  8  7,8  | ELSe
   8 11,8  | EPoS
   8 11,5  | ESToPS
   8  8,4  | ETuI
@@ -1658,18 +1710,26 @@
   8  2,6  - cESTA
   8  2,10 - cESTA
   8  8,11 - dEED
+  8  8,8  | dOSE
   8  8,8  | dOST
+  8  8,8  | dOTE
+  8  7,8  | eLD
   8  8,11 - fEED
   8  7,8  | fLED
   8  8,11 - gEED
   8  8,11 - hEED
+  8  8,8  | hOSE
   8  8,8  | hOST
   8  3,8  - iDEE
   8  8,11 - jEED
+  8  8,8  | lOSE
   8  8,8  | lOST
   8  8,11 - mEED
   8  8,8  | mOST
+  8  8,8  | mOTE
   8  8,11 - nEED
+  8  8,8  | nOSE
+  8  8,8  | nOTE
   8 11,8  | oPES
   8 11,8  | oPTS
   8  2,6  - oSSIA
@@ -1679,6 +1739,7 @@
   8  8,11 - pEED
   8  2,6  - pIETA
   8  2,10 - pIETA
+  8  8,8  | pOSE
   8  8,8  | pOST
   8 11,5  | rEDIP
   8  8,11 - rEED
@@ -1693,6 +1754,7 @@
   8  2,6  - tESTA
   8  2,10 - tESTA
   8  8,8  | tOST
+  8  8,8  | tOTE
   8  2,6  - vESTA
   8  2,10 - vESTA
   8  2,6  - vISTA
@@ -1773,6 +1835,10 @@
   7  2,8  - EDIlE
   7  3,8  - EIDE
   7  2,7  - EIDeRS
+  7  7,8  | ELdS
+  7  7,8  | ELhI
+  7  7,8  | ELlS
+  7  7,8  | ELmS
   7 11,5  | ESToP
   7  9,11 - ElD
   7  2,8  - ElIDE
@@ -1787,6 +1853,7 @@
   7 10,5  | IrE
   7  7,9  | LED
   7  7,9  | LID
+  7  8,9  | OSE
   7  8,9  | OlD
   7 11,9  | PaS
   7 11,9  | PaT
@@ -1901,6 +1968,7 @@
   7 11,7  | TEPId
   7  5,6  | TEa
   7  5,6  | TEd
+  7  5,6  | TEe
   7 11,6  | TEmPI
   7 11,6  | TEmPS
   7  5,6  | TEn
@@ -1914,13 +1982,16 @@
   7  1,7  - TInDERS
   7  5,7  - TRIoDES
   7 10,5  | TaE
+  7  5,6  | TaE
   7  8,3  | TaSSE
   7  1,8  - TaSSIE
   7 10,5  | TeE
+  7  5,6  | TeE
   7 10,5  | ThE
   7 11,5  | ThESP
   7 10,5  | TiE
   7 10,5  | ToE
+  7  5,6  | ToE
   7 11,6  | TrIPE
   7 11,6  | TrIPS
   7 10,5  | TyE
@@ -1944,6 +2015,7 @@
   7  1,7  - dISSERT
   7  8,4  | eIDE
   7  2,7  - eIDERS
+  7  7,8  | eLSE
   7  7,11 - fEEDS
   7  5,6  | fET
   7 10,5  | fIE
@@ -2078,10 +2150,15 @@
   6  3,7  - DyER
   6  9,11 - EDS
   6  2,7  - EIDeR
+  6  7,8  | ELd
+  6  7,8  | ELl
+  6  7,8  | ELm
+  6  7,8  | ELs
   6 11,8  | EPIc
   6 11,7  | ESPy
   6  2,7  - ESTeRS
   6  5,7  | ET
+  6  7,7  | EeL
   6  7,11 - EgEST
   6  8,7  | EgO
   6  2,8  - ElITE
@@ -2314,8 +2391,10 @@
   6 11,7  | dIPT
   6  8,4  | dITE
   6  5,7  | eD
+  6  7,7  | eEL
   6  3,8  - eIDE
   6  2,7  - eIDER
+  6  7,8  | eLS
   6  2,7  - eSTERS
   6  8,11 - fEDS
   6  2,8  - fESSE
@@ -2463,8 +2542,10 @@
   5  8,7  - EDDo
   5  8,7  - EDDy
   5  8,7  - EDIT
+  5  6,8  - EE
   5  8,11 - EElS
   5  3,8  - EIdE
+  5  7,8  | EL
   5  9,11 - ESS
   5  2,7  - ESTeR
   5  3,8  - ESnE
@@ -2513,9 +2594,15 @@
   5  7,9  | LaD
   5  7,9  | LeD
   5  7,9  | LiD
+  5  8,9  | OSe
   5  8,9  | OaT
+  5  8,9  | ObE
+  5  8,9  | OkE
+  5  8,9  | OlE
   5  8,9  | OoT
+  5  8,9  | OpE
   5  8,9  | OpT
+  5  8,9  | OsE
   5 11,9  | PE
   5 11,9  | PEa
   5 11,9  | PEc
@@ -2778,6 +2865,7 @@
   5  8,8  | dOS
   5  8,8  | dOT
   5  5,7  - dRIED
+  5 10,6  | eE
   5  2,7  - eSTER
   5 10,6  | fE
   5  5,8  - fEE
@@ -3065,6 +3153,9 @@
   4  9,11 - EaT
   4  5,7  | Ed
   4  9,11 - EdS
+  4  7,6  | Ee
+  4 10,6  | Ee
+  4  5,7  | Ee
   4  5,7  | Ef
   4  9,11 - EfS
   4  9,11 - EfT
@@ -3334,6 +3425,7 @@
   4  5,6  | aE
   4  7,6  | aE
   4  8,6  | aE
+  4  5,7  | aE
   4  8,6  | aI
   4  3,6  - aSSAI
   4  5,7  | aT
@@ -3361,6 +3453,9 @@
   4  7,11 - dIED
   4  3,6  - dITAS
   4  8,7  - eDIT
+  4  7,6  | eE
+  4  8,6  | eE
+  4  5,7  | eE
   4  5,7  | eT
   4  5,6  - fADE
   4  5,6  - fADS
@@ -3440,6 +3535,7 @@
   4  8,7  - oDES
   4  7,11 - oDES
   4  8,6  | oE
+  4  5,7  | oE
   4  8,6  | oI
   4 11,8  | oP
   4  5,6  - pADI
@@ -3600,6 +3696,8 @@
   3  3,10 - ETnA
   3  4,7  - EaRS
   3  3,8  - EaSE
+  3  8,6  | Ee
+  3  6,8  - Ee
   3  7,11 - EkES
   3  3,8  - ElSE
   3  7,11 - EmES
@@ -3911,6 +4009,7 @@
   3  5,6  - eAST
   3  5,6  - eATS
   3  8,7  - eDS
+  3  7,8  | eL
   3  7,11 - eSES
   3  4,6  - eTAS
   3  5,6  - fAD
@@ -4141,6 +4240,9 @@
   2  5,6  - EAr
   2  5,6  - EAt
   2  5,6  - EAu
+  2  5,8  - EE
+  2  8,11 - EE
+  2  9,11 - EE
   2  8,11 - EEk
   2  9,11 - EEk
   2  8,11 - EEl
@@ -4504,6 +4606,7 @@
   1  6,6  - Ax
   1  6,6  - Ay
   1  9,11 - Ed
+  1  9,11 - Ee
   1  9,11 - Ef
   1  9,11 - Eh
   1  9,11 - El
@@ -4525,6 +4628,8 @@
   1  8,11 - bE
   1  5,8  - dE
   1  8,11 - dE
+  1  5,8  - eE
+  1  8,11 - eE
   1  5,7  - eR
   1  5,6  - fA
   1  5,10 - fA

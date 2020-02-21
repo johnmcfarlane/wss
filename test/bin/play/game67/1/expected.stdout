@@ -183,9 +183,12 @@
  13  8,4  | ANISEED
  13  9,4  | ANTEED
  13  3,7  - AWEE
+ 13  8,7  - DEE
  13  3,7  - DENE
  13  2,7  - DENSE
  13  8,5  | DIWANS
+ 13  8,7  - NAE
+ 13  8,7  - NEE
  13  8,5  - SAD
  13  8,7  - SAD
  13  8,5  - SEN
@@ -246,10 +249,14 @@
  11  8,3  | NEWIE
  11  3,7  - SADE
  11  5,5  - SAE
+ 11  8,5  - SAE
+ 11  8,7  - SAE
  11  3,7  - SANE
  11  9,4  | SATEEN
  11  8,5  - SEA
  11  5,7  - SEA
+ 11  8,5  - SEE
+ 11  8,7  - SEE
  11  7,1  | SENDAL
  11  3,7  - SENE
  11  8,5  | SINEW
@@ -381,6 +388,8 @@
   9  8,5  | WISE
   8  6,5  | ABED
   8  8,5  - AE
+  8  9,5  - AE
+  8  9,7  - AE
   8  8,5  | AIDES
   8  7,3  | ANELE
   8 10,4  | ANEW
@@ -411,6 +420,8 @@
   8  8,5  | DINE
   8  8,5  | DINS
   8  9,4  | EATEN
+  8  9,5  - EE
+  8  9,7  - EE
   8  7,5  | ELANS
   8  9,7  - ES
   8  9,5  | ETNA
@@ -487,6 +498,7 @@
   7 10,5  | DEW
   7  8,5  | DIES
   7  7,2  | EASEL
+  7  5,7  - EE
   7  8,5  | EIDE
   7  7,5  - ES
   7 10,4  | EWES
@@ -553,6 +565,7 @@
   6 11,4  | EASED
   6  9,3  | EAST
   6  9,4  | EATS
+  6 10,5  - EE
   6  7,5  | ELAN
   6  7,5  | ELDS
   6 10,6  | ENDS
@@ -694,6 +707,8 @@
   2 10,5  | AE
   2  8,5  | AI
   2 11,5  | AS
+  2 10,5  | EE
+  2 10,6  | EE
   2 11,5  | ES
   2 10,6  | ES
   2  8,6  | IS

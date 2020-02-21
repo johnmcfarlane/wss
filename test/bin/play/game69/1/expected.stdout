@@ -18,9 +18,11 @@
  21  5,8  - TEED
  21  6,8  - TODS
  20  4,8  - DEE
+ 20  7,5  | DEETS
  20  3,8  - DEETS
  20  5,8  - DEETS
  20  4,8  - DOE
+ 20  7,5  | DOEST
  20  2,8  - DOEST
  20  4,8  - DOT
  20  7,5  | DOTES
@@ -41,6 +43,7 @@
  19  4,8  - ODES
  19  7,4  | SEED
  19  4,8  - SEED
+ 19  7,4  | STEED
  19  7,5  | TEDS
  19  5,8  - TEDS
  19  7,4  | TEED
@@ -51,8 +54,11 @@
  19  4,8  - TOED
  19  6,8  - TOED
  18  7,4  | DEES
+ 18  7,5  | DEES
  18  7,4  | DEET
+ 18  7,5  | DEET
  18  7,4  | DOES
+ 18  7,5  | DOES
  18  7,3  | DOSE
  18  7,5  | DOSE
  18  7,5  | DOST
@@ -65,14 +71,19 @@
  18  4,8  - ODE
  18  7,4  | ODES
  18  7,6  | ODS
+ 18  7,5  | SEED
  18  7,5  | SOD
  18  7,5  | TED
+ 18  7,5  | TEED
  18  4,8  - TEES
  18  5,8  - TEES
  18  6,8  - TEES
  18  7,5  | TOD
+ 18  7,5  | TOED
  18  4,8  - TOES
  18  6,8  - TOES
+ 17  7,5  | DEE
+ 17  7,5  | DOE
  17  7,5  | DOS
  17  7,5  | DOT
  17  7,6  | ED
@@ -84,22 +95,30 @@
  17  4,8  - TEE
  17  6,8  - TEE
  17  7,4  | TEES
+ 17  7,5  | TEES
  17  4,8  - TOE
  17  6,8  - TOE
  17  7,4  | TOES
+ 17  7,5  | TOES
  16  5,8  - DEE
  16  7,5  | OES
+ 16  7,6  | OES
  16  7,6  | OSE
+ 16  7,5  | SEE
  16  7,5  | SET
  16  7,5  | SOT
  16  5,8  - TED
+ 16  7,5  | TEE
+ 16  7,5  | TOE
  15  5,8  - DE
  15  7,4  | DEE
  15  7,4  | DOE
  15  6,8  - ED
+ 15  7,6  | EE
  15  7,6  | ES
  15  7,6  | ET
  15  7,4  | ODE
+ 15  7,6  | OE
  15  5,8  - OES
  15  7,6  | OS
  15  5,8  - SEE
@@ -107,6 +126,8 @@
  15  5,8  - TEE
  14  7,5  | DE
  14  7,5  | DO
+ 14  5,8  - EE
+ 14  6,8  - EE
  14  6,8  - ES
  14  5,8  - ET
  14  6,8  - ET
@@ -120,6 +141,7 @@
  14  7,4  | TEE
  14  6,8  - TO
  14  7,4  | TOE
+ 13  7,5  | EE
  13  6,6  - JEES
  13  6,6  | JEES
  13  6,6  - JEST
@@ -190,6 +212,8 @@
   7  5,7  - DEETS
   7  3,7  - DOSE
   7  3,7  - DOTE
+  7  5,7  | EDS
+  7  7,7  | EDS
   7  5,7  | ODE
   7  5,7  | ODS
   7  3,7  - STEED
@@ -218,6 +242,8 @@
   5  4,7  - DEET
   5  5,7  - DEET
   5  4,7  - DOES
+  5  5,7  | ED
+  5  7,7  | ED
   5  5,7  | OD
   5  4,7  - ODES
   5  4,7  - SEED
@@ -230,6 +256,12 @@
   4  5,7  - DEE
   4  4,7  - DOE
   4  6,7  - EDS
+  4  5,7  | EE
+  4  7,7  | EE
+  4  5,7  | ES
+  4  7,7  | ES
+  4  5,7  | ET
+  4  7,7  | ET
   4  4,7  - ODE
   4  5,7  | OE
   4  5,7  | OS
@@ -252,6 +284,8 @@
   3  4,7  - TEE
   3  5,7  - TEE
   3  4,7  - TOE
+  2  5,7  - EE
+  2  6,7  - EE
   2  6,7  - ES
   2  6,7  - ET
   2  5,7  - OE

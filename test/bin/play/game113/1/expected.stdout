@@ -7,6 +7,7 @@
  26  5,4  | CLOG
  26  5,4  | CLOSE
  26  5,5  | LOGE
+ 26  5,6  | OGEE
  24  5,3  | COLE
  23  4,8  - CONGEES
  23  5,3  | OGLES
@@ -47,6 +48,7 @@
  16  7,7  | EEL
  16  5,8  - ENCLOSE
  16  5,6  - EXCEL
+ 16  5,7  | GEE
  16  4,8  - GENES
  16  2,10 - GLEES
  16  2,10 - GLOSS
@@ -86,6 +88,7 @@
  14  3,9  - GELEE
  14  5,9  - GELEE
  14  4,6  - GOXES
+ 14  5,7  | LEE
  14  3,9  - LEGES
  14  5,9  - LEGES
  14  3,9  - LOGES
@@ -150,6 +153,8 @@
  12  7,2  | OGLE
  12  7,1  | OGLES
  12  3,9  - OGLES
+ 12  5,7  | SEE
+ 12  7,7  | SEE
  12  2,10 - SEELS
  12  6,10 - SEELS
  12  2,10 - SLOES
@@ -196,6 +201,7 @@
  10  5,7  - COOEES
  10  5,7  - COOLS
  10  5,5  - EAGLES
+ 10  5,9  | EEL
  10  6,9  - EGOS
  10  5,8  - ENOL
  10  7,3  | GEE
@@ -237,6 +243,8 @@
   9  5,7  - COOEE
   9  4,7  - COOLS
   9  5,5  - EAGLE
+  9  5,8  | EE
+  9  7,8  | EE
   9  7,2  | ELSE
   9  5,8  - ENGS
   9  7,8  | ES
@@ -254,6 +262,8 @@
   9  3,7  - LOGO
   9  5,7  - LOGOS
   9  6,8  - NOELS
+  9  5,8  | OE
+  9  7,8  | OE
   9  5,9  | OES
   9  6,7  - OGLES
   9  7,2  | OLES
@@ -280,6 +290,7 @@
   8  5,7  - COOL
   8  4,10 - COSES
   8  5,5  - EASEL
+  8  5,9  | EE
   8  5,3  | EEL
   8  7,3  | EEL
   8  7,2  | EELS
@@ -327,6 +338,7 @@
   7  5,7  - COOS
   7  3,10 - COSS
   7  4,10 - COSS
+  7  7,7  | EE
   7  5,9  - EEL
   7  6,9  - EELS
   7  4,5  - EGAL
@@ -475,6 +487,8 @@
   4  6,5  - ALE
   4  6,5  - ALS
   4  5,5  - EASE
+  4  7,4  | EE
+  4  5,10 | EE
   4  4,10 - ELS
   4  5,8  - ENS
   4  7,4  | ES
@@ -506,6 +520,8 @@
   4  5,7  - SOL
   4  6,10 - SOL
   3  6,5  - AL
+  3  5,9  - EE
+  3  6,9  - EE
   3  5,8  - EN
   3  6,9  - ES
   3  4,10 - ESS

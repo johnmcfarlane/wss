@@ -16,6 +16,7 @@
  16  2,2  - uNRIP
  16 11,2  | yE
  15  5,3  | LaR
+ 15  5,3  | NaE
  15  5,1  | NuN
  15  8,6  | VENIN
  15  8,6  | VENINe
@@ -153,6 +154,7 @@
  11  2,5  - aLINER
  11  2,5  - iNLIER
  11  2,4  - rENIG
+ 10  7,5  | EERILy
  10  2,5  - ELmIER
  10  1,5  - ELoINER
  10  2,5  - ENvIER
@@ -220,6 +222,7 @@
  10  2,4  - fLING
  10  2,5  - gINNER
  10  3,4  - gLEG
+ 10  2,5  - jINNEE
  10  1,5  - oNLINE
  10  2,5  - pENNER
  10  2,5  - pINNER
@@ -263,6 +266,7 @@
   9  3,5  - LItER
   9  3,5  - LIvER
   9  4,4  - LaG
+  9  3,5  - LaREE
   9  4,4  - LeG
   9  2,5  - LiNIER
   9  4,4  - LoG
@@ -364,6 +368,7 @@
   9  2,5  - wEINER
   9  2,5  - wIENER
   9  2,4  - wRING
+  8  7,5  | EELIeR
   8  7,6  | ELINt
   8  3,5  - ELdER
   8  3,5  - ELvER
@@ -427,6 +432,7 @@
   8  7,5  | RELIvE
   8  7,5  | RENtE
   8  2,3  - REgNA
+  8  3,5  - RaNEE
   8  8,6  | VEaL
   8  8,6  | VEiL
   8  8,6  | VEiN
@@ -449,6 +455,7 @@
   8  2,5  - cLINE
   8  7,5  | dENIER
   8  3,4  - dING
+  8  7,5  | eELIER
   8  7,5  | fERLIE
   8  2,3  - fRENA
   8  4,5  - gLEN
@@ -647,6 +654,10 @@
   7  4,5  - wREN
   7  2,3  - xENIA
   7  3,2  - yELP
+  6  7,5  | EEL
+  6  7,5  | EELs
+  6  7,5  | EELy
+  6  7,5  | EERIe
   6  7,6  | ELdER
   6  7,6  | ELvER
   6  6,5  - EN
@@ -672,6 +683,7 @@
   6  1,5  - INhERE
   6  2,5  - IRoNE
   6  4,4  - IgG
+  6  5,5  - LEE
   6  7,5  | LEa
   6  7,5  | LEd
   6  7,5  | LEe
@@ -712,6 +724,7 @@
   6  3,5  - LuRE
   6  3,5  - LyRE
   6  7,5  | NE
+  6  5,5  - NEE
   6  2,5  - NERvE
   6  7,5  | NEb
   6  7,5  | NEe
@@ -791,6 +804,8 @@
   6  8,4  - YENs
   6  8,4  - YEaN
   6  8,4  - YElL
+  6  5,4  | aE
+  6  4,5  - aLEE
   6  4,2  - aLP
   6  5,4  | aR
   6  2,5  - aRENE
@@ -802,18 +817,23 @@
   6  5,5  - dEN
   6  2,5  - dIENE
   6  3,2  - dRIP
+  6  7,5  | eERIE
   6  5,5  - fEN
   6  2,3  - fERIA
   6  3,3  - fILA
+  6  4,5  - fLEE
   6  5,5  - gEN
   6  2,5  - gENIE
   6  2,5  - gENRE
+  6  4,5  - gLEE
   6  3,2  - gRIP
   6  5,5  - hEN
   6  3,3  - hILA
+  6  3,5  - hIREE
   6  5,5  - kEN
   6  2,5  - kERNE
   6  3,3  - kINA
+  6  4,5  - kNEE
   6  5,5  - mEN
   6  2,5  - mERLE
   6  3,3  - mINA
@@ -823,6 +843,7 @@
   6  3,2  - pREP
   6  2,5  - sEINE
   6  5,5  - sEN
+  6  3,5  - sIREE
   6  3,3  - tELA
   6  5,5  - tEN
   6  2,5  - tERNE
@@ -835,6 +856,7 @@
   6  5,5  - wEN
   6  5,5  - yEN
   5  7,6  | EERIe
+  5  7,5  | EERy
   5  7,6  | EIdER
   5  7,6  | ELEmI
   5  7,6  | ELIdE
@@ -865,6 +887,7 @@
   5  3,3  - ILkA
   5  3,3  - INiA
   5  3,3  - IdEA
+  5  4,5  - IdEE
   5  3,5  - IdLE
   5  3,3  - IlEA
   5  4,2  - ImP
@@ -890,6 +913,7 @@
   5  4,5  - NEEd
   5  4,5  - NEEm
   5  4,5  - NEEp
+  5  5,5  - REE
   5  7,5  | REE
   5  7,5  | REEd
   5  7,5  | REEf
@@ -922,6 +946,7 @@
   5  4,3  - aNA
   5  4,5  - bEER
   5  4,5  - bIER
+  5  4,5  - bREE
   5  4,2  - cEP
   5  4,5  - dEER
   5  7,5  | dEIL
@@ -930,13 +955,16 @@
   5  7,5  | dENE
   5  7,5  | dENI
   5  4,2  - dIP
+  5  4,5  - dREE
   5  2,5  - eERIE
   5  4,4  - eNG
   5  7,5  | fEEL
   5  7,5  | fERN
   5  3,3  - fLEA
+  5  4,5  - fREE
   5  4,2  - gIP
   5  3,3  - gLIA
+  5  4,5  - gREE
   5  7,5  | hEEL
   5  7,5  | hEIL
   5  4,2  - hEP
@@ -963,6 +991,7 @@
   5  4,5  - pIER
   5  4,2  - pIP
   5  3,3  - pLEA
+  5  4,5  - pREE
   5  7,5  | rEEL
   5  7,5  | rEIN
   5  4,2  - rEP
@@ -979,6 +1008,7 @@
   5  7,5  | tERN
   5  4,5  - tIER
   5  4,2  - tIP
+  5  4,5  - tREE
   5  4,2  - uRP
   5  4,5  - vEER
   5  4,5  - vIER
@@ -986,9 +1016,13 @@
   5  4,2  - yEP
   5  4,2  - yIP
   5  4,2  - zIP
+  4  6,5  - EE
+  4  7,5  | EE
   4  7,6  | EEL
   4  7,6  | EELs
   4  7,6  | EELy
+  4  7,5  | EEk
+  4  7,5  | EEl
   4  3,5  - EIdE
   4  7,6  | EIdE
   4  6,5  - ER
@@ -1013,6 +1047,7 @@
   4  9,5  - LEI
   4  5,5  - LEa
   4  5,5  - LEd
+  4  5,5  - LEe
   4  5,5  - LEt
   4  5,5  - LEy
   4  4,5  - LIE
@@ -1020,6 +1055,7 @@
   4  9,5  - LiN
   4  4,5  - NEE
   4  5,5  - NEb
+  4  5,5  - NEe
   4  5,5  - NEt
   4  5,5  - NEw
   4  7,5  | RE
@@ -1059,13 +1095,16 @@
   4  3,5  - aLEE
   4  3,3  - aREA
   4  3,3  - aRIA
+  4  5,5  - bEE
   4  4,4  - bEG
   4  3,5  - bENE
   4  4,4  - bIG
   4  3,5  - bILE
   4  3,5  - bINE
+  4  5,5  - cEE
   4  4,4  - cIG
   4  3,5  - cINE
+  4  5,5  - dEE
   4  7,5  | dEER
   4  7,5  | dEL
   4  3,5  - dELE
@@ -1074,8 +1113,10 @@
   4  7,5  | dERE
   4  4,4  - dIG
   4  3,5  - dINE
+  4  7,5  | eEL
   4  4,4  - eRG
   4  3,5  - eRNE
+  4  5,5  - fEE
   4  7,5  | fEN
   4  5,5  - fER
   4  7,5  | fERE
@@ -1083,6 +1124,7 @@
   4  3,5  - fILE
   4  3,5  - fINE
   4  3,5  - fLEE
+  4  5,5  - gEE
   4  3,5  - gENE
   4  4,4  - gIG
   4  3,5  - gLEE
@@ -1090,10 +1132,12 @@
   4  7,5  | hEN
   4  5,5  - hER
   4  7,5  | hERE
+  4  5,5  - jEE
   4  4,4  - jIG
   4  4,4  - kEG
   4  3,5  - kINE
   4  3,5  - kNEE
+  4  5,5  - lEE
   4  7,5  | lEER
   4  4,4  - lEG
   4  3,5  - lINE
@@ -1105,11 +1149,13 @@
   4  4,4  - mIG
   4  3,5  - mILE
   4  3,5  - mINE
+  4  5,5  - nEE
   4  4,4  - nEG
   4  3,5  - nENE
   4  3,5  - nINE
   4  5,2  - oP
   4  3,5  - oRLE
+  4  5,5  - pEE
   4  4,4  - pEG
   4  3,5  - pELE
   4  5,5  - pER
@@ -1117,9 +1163,11 @@
   4  3,5  - pILE
   4  3,5  - pINE
   4  3,5  - pLIE
+  4  5,5  - rEE
   4  4,4  - rEG
   4  4,4  - rIG
   4  3,5  - rILE
+  4  5,5  - sEE
   4  7,5  | sEER
   4  4,4  - sEG
   4  7,5  | sEL
@@ -1129,6 +1177,7 @@
   4  3,3  - sERA
   4  7,5  | sERE
   4  3,5  - sINE
+  4  5,5  - tEE
   4  4,4  - tEG
   4  7,5  | tEL
   4  3,5  - tELE
@@ -1137,14 +1186,17 @@
   4  3,5  - tINE
   4  5,2  - uP
   4  3,3  - uREA
+  4  5,5  - vEE
   4  4,4  - vEG
   4  3,3  - vERA
   4  4,4  - vIG
   4  3,5  - vILE
   4  3,5  - vINE
+  4  5,5  - wEE
   4  4,4  - wIG
   4  3,5  - wILE
   4  3,5  - wINE
+  4  5,5  - zEE
   4  4,4  - zIG
   4  3,5  - zINE
   3  7,6  | EERy
@@ -1200,6 +1252,7 @@
   3  4,5  - REE
   3  5,5  - REb
   3  5,5  - REd
+  3  5,5  - REe
   3  5,5  - REf
   3  5,5  - REm
   3  5,5  - REp
@@ -1257,6 +1310,8 @@
   3  3,5  - wERE
   3  3,5  - wIRE
   3  4,3  - yEA
+  2  5,5  - EE
+  2  7,6  | EE
   2  7,6  | EEk
   2  7,6  | EEl
   2  7,6  | ER
@@ -1268,6 +1323,7 @@
   2  7,6  | ERs
   2  7,6  | EaR
   2  6,5  - Ed
+  2  6,5  - Ee
   2  6,5  - Ef
   2  6,5  - Eh
   2  4,5  - EkE
@@ -1308,6 +1364,7 @@
   2  7,5  | dE
   2  4,5  - dEE
   2  4,5  - dIE
+  2  7,5  | eE
   2  4,5  - eRE
   2  7,5  | fE
   2  4,5  - fEE
@@ -1337,6 +1394,7 @@
   2  4,5  - wEE
   2  4,5  - zEE
   1  7,6  | Ed
+  1  7,6  | Ee
   1  7,6  | Ef
   1  7,6  | Eh
   1  7,6  | El
@@ -1351,6 +1409,7 @@
   1  5,3  - bA
   1  5,5  - bE
   1  5,5  - dE
+  1  5,5  - eE
   1  5,3  - fA
   1  5,5  - fE
   1  5,3  - hA

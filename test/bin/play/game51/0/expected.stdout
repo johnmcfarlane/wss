@@ -62,7 +62,10 @@
  18  6,2  | SLEEP
  18  2,15 - TELS
  18  1,15 - TREES
+ 17 10,15 - EELS
+ 17 10,15 - ELSE
  17  7,15 - ES
+ 17 10,15 - ESTER
  17  7,15 - ET
  17 10,1  | LEERS
  17 10,1  | LEETS
@@ -83,6 +86,7 @@
  17 10,15 - TELS
  17 10,15 - TERSE
  17 10,15 - TREES
+ 16  6,15 - EE
  16  3,15 - RETE
  16  6,2  | STEEP
  16  2,7  - STREEL
@@ -111,6 +115,10 @@
  15 10,2  | TELS
  15 10,1  | TREES
  15  2,15 - TRES
+ 14 10,15 - EEL
+ 14 10,15 - ELS
+ 14 10,15 - ERRS
+ 14 10,15 - ERST
  14  4,7  - REEL
  14 11,10 | REEL
  14 10,15 - REES
@@ -134,6 +142,7 @@
  13 10,2  | ERRS
  13 10,2  | ERST
  13  3,7  - ESTER
+ 13  5,7  - LEE
  13  4,7  - LEER
  13  4,7  - LEES
  13  7,1  | LEET
@@ -154,6 +163,7 @@
  13 10,9  - VERSER
  13 10,9  - VERSET
  13 10,9  - VERSTE
+ 12  7,5  - ENURES
  12  3,15 - ERS
  12  7,1  | REEL
  12  4,7  - REES
@@ -171,16 +181,22 @@
  12  7,1  | TEEL
  12  4,7  - TEES
  12  3,7  - TELE
+ 12  4,7  - TREE
  12  4,7  - TRES
  11  9,7  - ALERTER
  11  9,7  - ALTERER
  11  6,7  - EL
  11  3,7  - ELSE
+ 11  7,5  - ENURE
+ 11 10,15 - ERE
+ 11 10,15 - ERR
+ 11 10,15 - ERS
  11  7,11 | MANSE
  11  6,6  | PEELS
  11  6,6  - PEENS
  11  6,6  | PELES
  11  6,6  | PELTS
+ 11  5,7  - REE
  11 10,15 - REE
  11 10,13 - RELETS
  11  5,7  - RES
@@ -188,6 +204,7 @@
  11  6,3  | RESPELT
  11  5,7  - RET
  11 10,15 - RET
+ 11  5,7  - SEE
  11 10,15 - SEE
  11 11,10 | SEL
  11  5,7  - SER
@@ -195,6 +212,7 @@
  11  5,7  - SET
  11 10,15 - SET
  11  2,7  - STERE
+ 11  5,7  - TEE
  11 10,15 - TEE
  11  2,7  - TERSE
  11  5,3  - TRESSEL
@@ -234,12 +252,15 @@
  10 10,9  - VERTS
   9  7,12 - ADORER
   9  7,12 - ADORES
+  9  6,7  - EE
   9  7,2  | EEL
   9 10,3  | ELS
+  9 10,13 - ELSE
   9  6,7  - ER
   9  4,7  - ERE
   9  6,7  - ES
   9  4,15 - ES
+  9 10,13 - ESTER
   9  6,7  - ET
   9  4,15 - ET
   9  6,4  | LEPER
@@ -274,7 +295,10 @@
   8  9,7  - ALTERS
   8  9,7  - ARLES
   8  9,7  - ARTELS
+  8  5,7  - EE
+  8 10,13 - EELS
   8  7,3  | EL
+  8 10,13 - ELS
   8 10,3  | ERS
   8  6,4  | LEPT
   8  6,3  - LESSER
@@ -318,7 +342,11 @@
   7  9,7  - ARETES
   7  9,7  - ARREST
   7  9,7  - ARTEL
+  7 10,13 - EEL
+  7 10,13 - EL
   7  7,1  | ERE
+  7 10,13 - ERRS
+  7 10,13 - ERST
   7 10,4  | ES
   7  3,3  - ESTERS
   7  7,3  - ESTERS
@@ -385,6 +413,9 @@
   6  9,7  - ARETE
   6  9,7  - ASTER
   6  5,3  - EELS
+  6 10,13 - ERE
+  6 10,13 - ERR
+  6 10,13 - ERS
   6  4,3  - ERSES
   6  7,3  - ESTER
   6  7,3  | ET
@@ -428,10 +459,15 @@
   5  9,7  - ARSE
   5  9,7  - ARTS
   5  9,7  - ATES
+  5 10,13 - EE
+  5 10,15 - EL
   5  6,3  - ELSE
+  5 10,13 - ER
   5  5,3  - ERRS
   5  6,3  - ERSES
+  5 10,13 - ES
   5  5,3  - ESES
+  5 10,13 - ET
   5  6,3  - LESS
   5  6,3  - LEST
   5  8,5  - NUS
@@ -461,10 +497,15 @@
   4  9,7  - ARS
   4  9,7  - ART
   4  9,7  - ATE
+  4  7,2  | EE
+  4 10,15 - EE
   4 10,13 | EEL
   4  6,3  - ELS
+  4 10,15 - ER
   4  6,3  - ERST
+  4 10,15 - ES
   4  7,3  - ESES
+  4 10,15 - ET
   4  6,4  - LEA
   4 10,13 | LEE
   4 10,13 | LET
@@ -507,6 +548,9 @@
   2  9,7  - AR
   2  9,7  - AS
   2  9,7  - AT
+  2  7,6  | EE
+  2 10,13 | EE
+  2 10,14 | EE
   2  7,6  | ER
   2 10,14 | ER
   2  7,3  - ES

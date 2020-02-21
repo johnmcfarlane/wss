@@ -98,10 +98,12 @@
  15  8,3  | OWES
  15  8,3  | OWL
  15  8,3  | OWSE
+ 15  5,5  | SEELY
  15  8,4  - SEL
  15  1,8  - SUE
  15  9,1  | SURE
  15  1,8  - USE
+ 15  4,6  - WEEL
  15  5,6  | WEEL
  15  4,4  | WISE
  15  2,8  - YE
@@ -109,6 +111,7 @@
  14  5,2  - ECUS
  14  9,2  - EL
  14  4,7  | EWE
+ 14  4,6  - EWES
  14  3,7  | JUS
  14 10,2  | LAW
  14 10,2  | LAYS
@@ -120,10 +123,12 @@
  14 10,1  | SLAY
  14  8,2  | SOW
  14 10,2  | WAES
+ 14  4,6  - WEES
  14  5,5  - WISELY
  14  5,6  | YEWS
  14  4,4  | YULE
  13  6,2  - CEL
+ 13  4,6  - EWE
  13 11,1  | LEKS
  13  4,6  | LEYS
  13 11,1  | LIKE
@@ -134,13 +139,17 @@
  13  9,3  | RILEY
  13  8,4  - SEI
  13  3,2  - SULCI
+ 13  4,6  - WEE
  13  5,6  - WEEL
  13  5,6  | WEES
  13  5,6  - YEWS
  12 10,3  | AISLE
  12 10,3  | AYES
  12 10,2  | EASY
+ 12  5,6  | EELY
+ 12  4,8  - EL
  12 10,1  | EYAS
+ 12  4,6  - EYES
  12  4,7  | EYES
  12  5,2  - ICES
  12 10,2  | LAY
@@ -171,6 +180,7 @@
  11  5,2  - ECU
  11  4,6  | EELY
  11 11,1  | ELKS
+ 11  4,6  - EYE
  11  4,7  | EYE
  11  4,5  | ILEUS
  11 11,1  | ILKS
@@ -195,11 +205,13 @@
  10 10,3  | AILS
  10 10,3  | ALES
  10 11,1  | ELK
+ 10  4,8  - ES
  10 11,1  | ILK
  10 11,3  | KEYS
  10 11,3  | KYES
  10 10,2  | LASE
  10 10,1  | LEAS
+ 10  5,5  | LEES
  10  4,5  | LIEU
  10  3,5  - LWEI
  10  4,5  | LWEI
@@ -227,6 +239,7 @@
  10 10,1  | YEA
  10  8,2  | YOU
   9  4,6  | EELS
+  9  5,6  - EELY
   9  4,7  | EELY
   9  5,7  | EELY
   9  4,7  | ELSE
@@ -236,6 +249,7 @@
   9 11,3  | KEY
   9 11,3  | KUES
   9 11,3  | KYE
+  9  5,5  | LEE
   9  4,6  | LEU
   9  4,5  | LYES
   9  8,3  | OILY
@@ -243,6 +257,7 @@
   9  9,3  | RELY
   9  9,3  | RILES
   9  4,5  | SEEL
+  9  5,5  | SEEL
   9  9,1  | SER
   9  9,1  | SIR
   9 11,2  | SKY
@@ -258,6 +273,7 @@
   9  4,5  - YWIS
   8 10,2  | EAU
   8  4,6  | EEL
+  8  5,6  | EELS
   8  9,4  - EL
   8  4,7  | ELS
   8  5,7  | EWES
@@ -289,6 +305,7 @@
   8  5,6  - YE
   8  5,6  | YE
   7 10,3  | AWL
+  7  5,6  - EELS
   7  4,7  | EELS
   7  5,7  | EELS
   7  6,6  - EELY
@@ -308,6 +325,7 @@
   7  8,3  | OILS
   7  9,3  | RILE
   7  9,3  | RYES
+  7  5,5  | SEE
   7  4,6  | SEEL
   7 11,2  | SKI
   7  8,1  | SLOE
@@ -315,6 +333,8 @@
   7  5,5  - WISE
   7  4,6  | YES
   6 10,3  | AWE
+  6  5,6  - EEL
+  6  5,6  | EEL
   6  4,7  | EEL
   6  5,7  | EEL
   6  5,7  | ELSE
@@ -365,6 +385,9 @@
   4 10,3  | ALE
   4 10,3  | ALS
   4 10,3  | AY
+  4  5,6  - EE
+  4  5,6  | EE
+  4  4,7  | EE
   4  6,6  - EEL
   4  6,6  - ELS
   4  4,7  | ES
@@ -395,6 +418,9 @@
   2 10,3  | AE
   2 10,3  | AI
   2 10,3  | AS
+  2  4,6  | EE
+  2  6,6  - EE
+  2  5,7  | EE
   2  9,2  | ER
   2  6,6  - ES
   2  5,7  | ES

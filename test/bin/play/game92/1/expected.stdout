@@ -126,9 +126,12 @@
  13  6,5  - MOS
  13  6,7  - MOS
  13  4,5  - OE
+ 13  5,5  - OE
  13  4,3  | OGEES
  13  4,3  | OGLE
  13  7,6  | SMOGS
+ 13  1,5  - SOME
+ 13  1,7  - SOME
  12  2,5  - EMO
  12  2,7  - EMS
  12  4,4  | GEES
@@ -138,12 +141,16 @@
  12  6,3  | GOLEMS
  12  5,4  | GOX
  12  1,7  - LEGS
+ 12  1,5  - LOGE
+ 12  1,7  - LOGE
  12  1,7  - LOGS
  12  6,5  - ME
  12  7,3  | MELS
  12  1,7  - MELS
  12  6,5  - MO
  12  6,7  - MO
+ 12  1,5  - MOLE
+ 12  1,7  - MOLE
  12  7,3  | MOLS
  12  1,7  - MOLS
  12  4,3  | OGEE
@@ -167,6 +174,8 @@
  11  6,7  - LOG
  11  6,7  - LOSE
  11  5,4  | LOX
+ 11  3,5  - ME
+ 11  3,7  - ME
  11  4,5  | MEGS
  11  2,7  - MEL
  11  7,3  | MESS
@@ -175,7 +184,9 @@
  11  4,3  | MOLES
  11  7,3  | MOSS
  11  4,4  | OGEES
+ 11  1,5  - OGLE
  11  7,5  - OGLE
+ 11  1,7  - OGLE
  11  7,7  - OGLE
  11  7,2  | OGLES
  11  3,5  - OM
@@ -232,6 +243,8 @@
   9  4,3  | SEME
   9  4,5  | SEME
   9  4,3  | SLOE
+  9  1,5  - SOLE
+  9  1,7  - SOLE
   9  4,3  | SOME
   8  4,6  | EEL
   8  7,5  - EGO
@@ -253,12 +266,16 @@
   8  6,7  - LO
   8  7,3  | LOESS
   8  6,3  | LOGES
+  8  1,5  - LOSE
+  8  1,7  - LOSE
   8  4,5  | MEG
   8  6,5  | MEG
   8  6,5  | MELS
   8  6,3  | MOLE
   8  4,4  | OGEE
   8  6,3  | OGLES
+  8  2,5  - OLE
+  8  2,7  - OLE
   8  7,5  - OLES
   8  1,7  - OLES
   8  7,7  - OLES
@@ -266,6 +283,8 @@
   8  7,2  | SEGOS
   8  7,6  | SEGOS
   8  2,7  - SEL
+  8  1,5  - SLOE
+  8  1,7  - SLOE
   8  7,2  | SLOES
   8  2,7  - SOL
   8  6,7  - SOL
@@ -344,7 +363,9 @@
   6  4,4  | OLE
   6  7,3  | OLES
   6  7,4  | OMS
+  6  2,5  - OSE
   6  7,5  - OSE
+  6  2,7  - OSE
   6  7,7  - OSE
   6  6,5  | SEGO
   6  7,3  | SELS
@@ -375,6 +396,8 @@
   5  7,4  | LOSS
   5  4,5  | ME
   5  6,5  | ME
+  5  3,5  - OE
+  5  3,7  - OE
   5  6,4  | OLES
   5  3,7  - OS
   5  4,4  | OSE
@@ -421,6 +444,10 @@
   3  6,5  | SEE
   3  7,4  | SOS
   3  7,6  | SOS
+  2  4,5  | EE
+  2  6,5  | EE
+  2  4,6  | EE
+  2  6,6  | EE
   2  7,5  | ES
   2  4,6  | ES
   2  6,6  | ES

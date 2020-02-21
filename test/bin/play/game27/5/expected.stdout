@@ -18,6 +18,7 @@
  21  7,5  | Id
  21  7,5  | Is
  21  7,6  | dOWIE
+ 20  2,9  - OWsE
  20  6,2  - PEWIt
  20  6,2  - PICOt
  20  6,2  - PIECe
@@ -39,6 +40,7 @@
  18  7,6  | sIC
  18  7,6  | sOW
  17  4,4  - QUACk
+ 17  2,9  - WIsE
  16  4,4  - QUAkE
  16  4,4  - QUAlE
  16  4,4  - QUArE
@@ -54,6 +56,8 @@
  15  7,6  | dIE
  15  7,6  | dOE
  15  7,6  | rOE
+ 15  4,9  - sEC
+ 15  4,9  - sEW
  14  3,2  - COWPEa
  14  3,2  - COWPIe
  14  3,2  - COWPiE
@@ -73,6 +77,7 @@
  14  7,6  | sI
  14  7,6  | sO
  13  7,1  | CeE
+ 13  3,9  - OsE
  13  4,4  - QUAd
  13  4,4  - QUAg
  13  4,4  - QUAi
@@ -99,11 +104,16 @@
  12  2,9  - WIs
  12  2,9  - WOs
  12  3,5  | jEFE
+ 12  4,9  - sEI
  11  7,1  | CEe
  11  4,2  - COPIEd
  11  4,2  - COPIEr
  11  4,2  - COPIEs
  11  3,2  - COwPIE
+ 11  5,9  - EmIC
+ 11  5,9  - EnOW
+ 11  5,9  - EpIC
+ 11  5,9  - EtIC
  11  3,7  - FEaSE
  11  7,2  | OE
  11  7,7  | OrC
@@ -161,6 +171,7 @@
  10  3,2  - CrIPE
  10  5,8  | EChE
  10  5,8  | EChO
+ 10  5,9  - EChO
  10  5,2  - EPIC
  10  5,2  - EPICs
  10  5,2  - EPOCh
@@ -246,8 +257,10 @@
   9  4,2  - CoPE
   9  3,2  - CrOP
   9  5,8  | ECu
+  9  5,9  - ECu
   9  5,2  - EPiC
   9  5,8  | EWe
+  9  5,9  - EWe
   9  7,7  | ICE
   9  7,7  | ICEd
   9  7,7  | ICEs
@@ -313,6 +326,7 @@
   9  6,5  - XI
   9  6,5  - XIs
   9  7,2  | aE
+  9  7,2  | eE
   9  5,2  - ePIC
   9  7,2  | oE
   9  3,2  - sCOP
@@ -359,6 +373,9 @@
   8  6,5  - Xu
   8  5,9  - lWEI
   8  5,9  - mEOW
+  7  7,2  | Ee
+  7  5,9  - EgO
+  7  5,9  - EmO
   7  7,7  | ICe
   7  7,7  | ICh
   7  7,7  | ICk
@@ -401,9 +418,11 @@
   7  6,7  - SWOrE
   7  6,7  - SiCE
   7  6,7  - SyCE
+  7  5,9  - eWE
   7  7,7  | iCE
   7  7,7  | oWE
   7  5,9  - tWO
+  6  5,9  - EOn
   6  5,2  - EPIc
   6  5,2  - EPOs
   6  5,8  | EmIC
@@ -484,6 +503,7 @@
   6  5,1  | dO
   6  7,1  | dO
   6  4,2  - dOPE
+  6  7,1  | eE
   6  7,1  | fE
   6  7,1  | gI
   6  5,1  | gO
@@ -548,6 +568,18 @@
   6  4,2  - yIPE
   6  5,1  | yO
   6  7,1  | yO
+  5  5,9  - Ed
+  5  7,1  | Ee
+  5  5,9  - Ee
+  5  5,9  - Ef
+  5  5,9  - Eh
+  5  5,9  - El
+  5  5,9  - Em
+  5  5,9  - En
+  5  5,9  - Er
+  5  5,9  - Es
+  5  5,9  - Et
+  5  5,9  - Ex
   5  7,7  | IcE
   5  7,7  | IdE
   5  4,2  - ImP
@@ -732,6 +764,7 @@
   4  5,9  - tIE
   4  5,9  - tOE
   4  5,2  - uP
+  3  5,8  | EE
   3  5,8  | EEk
   3  5,8  | EEl
   3  5,8  | EOn
@@ -842,6 +875,7 @@
   2  6,7  - SuE
   2  5,9  - dE
   2  5,9  - dO
+  2  5,9  - eE
   2  5,9  - fE
   2  7,7  | hE
   2  5,9  - hE
@@ -866,6 +900,7 @@
   2  5,9  - tO
   2  5,9  - xI
   1  5,8  | Ed
+  1  5,8  | Ee
   1  5,8  | Ef
   1  5,8  | Eh
   1  5,8  | El
