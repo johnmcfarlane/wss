@@ -442,9 +442,9 @@ namespace {
         for (auto bearing{0}; bearing!=2; ++bearing) {
             init.pos.direction[0] = init.cross_direction[1] = 1-bearing;
             init.pos.direction[1] = init.cross_direction[0] = bearing;
-            for (init.pos.start[init.pos.direction[0]] = edge-1;
-                    init.pos.start[init.pos.direction[0]]>=0;
-                    --init.pos.start[init.pos.direction[0]]) {
+            for (init.pos.start[init.pos.direction[0]] = 0;
+                    init.pos.start[init.pos.direction[0]]!=edge;
+                    ++init.pos.start[init.pos.direction[0]]) {
                 auto count_back{0};
                 for (init.pos.start[init.pos.direction[1]] = edge-1;
                         init.pos.start[init.pos.direction[1]]>=0;
