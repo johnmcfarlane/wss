@@ -28,6 +28,8 @@ namespace {
     using std::end;
     using std::tie;
 
+    constexpr auto full_rack_size{7};
+
     struct initial_state {
         ray pos;
         coord cross_direction{};
@@ -207,8 +209,9 @@ namespace {
             Expects(word_score);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
 
             auto play_score{state.step.cross_scores+*word_score};
-            if (state.step.rack_remaining==0) {
-                play_score += state.init.letter_scores[score_index_empty_rack];
+            if (state.step.rack_remaining==0
+                    && state.init.rack_size==full_rack_size) {
+                play_score += state.init.letter_scores[full_rack_score_index];
             }
 
             state.step.finds.emplace_back(result{
