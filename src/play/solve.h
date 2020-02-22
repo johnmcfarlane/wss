@@ -15,9 +15,8 @@
 #ifndef WSS_SOLVE_H
 #define WSS_SOLVE_H
 
-#include "board_premiums.h"
-
 #include "board.h"
+#include "board_premiums.h"
 #include "result.h"
 
 #include <scores.h>
