@@ -13,7 +13,7 @@ scan-build \
   --status-bugs \
     cmake \
       "${PROJECT_DIR}" \
-      -DCMAKE_CXX_FLAGS="-DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
+      -DCMAKE_CXX_FLAGS="-DNDEBUG"
 
 scan-build \
   -o scan-build \

@@ -20,10 +20,10 @@
 #include "tile.h"
 
 #include <scores.h>
+#include <wss_assert.h>
 #include <wwf_lexicon.h>
 
 #include <fmt/printf.h>
-#include <gsl/gsl_assert>
 #include <gsl/gsl_util>
 
 #include <algorithm>
@@ -116,7 +116,7 @@ namespace {
             int const part_length,
             coord const& cross_direction)
     {
-        Expects((std::abs(cross_direction[0])==1)  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+        WSS_ASSERT((std::abs(cross_direction[0])==1)
                 !=(std::abs(cross_direction[1])==1));
 
         auto pre_word_part{-1};
@@ -169,8 +169,8 @@ namespace {
                 word_multiplier *= gsl::at(word_multipliers,
                         int(cell_premium));
 
-                Expects(i>=0);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
-                Expects(i<ssize(word_part));  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+                WSS_ASSERT(i>=0);
+                WSS_ASSERT(i<ssize(word_part));
                 auto const letter{gsl::at(word_part, i)};
 
                 auto const letter_multiplier{
@@ -220,7 +220,7 @@ namespace {
                     state.init.pos.direction,
                     extents,
                     gsl::span<char>{&*state.init.word, &*state.step.word_end})};
-            Expects(word_score);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+            WSS_ASSERT(word_score);
 
             auto play_score{state.step.cross_scores+*word_score};
             if (state.step.rack_remaining==0
@@ -274,7 +274,7 @@ namespace {
 
     void search(node const& n, search_state state)
     {
-        Expects(state.step.rack_remaining>=0);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+        WSS_ASSERT(state.step.rack_remaining>=0);
 
         auto const qualifying_cells_count{
                 state.init.qualifying_cells.cell(state.step.pos) ? 1 : 0};
@@ -368,14 +368,14 @@ namespace {
     auto make_qualifying_cells(board<char> const& board_tiles) -> board<bool>
     {
         auto const edge{ssize(board_tiles)};
+        WSS_ASSERT(edge>0);
+        
         board<bool> qualifying_cells(edge);
 
-        if (edge>0) {  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
-            populate_qualifying_cells(qualifying_cells, board_tiles, {-1, 0}, {1, 0}, {edge, edge});
-            populate_qualifying_cells(qualifying_cells, board_tiles, {1, 0}, {0, 0}, {edge-1, edge});
-            populate_qualifying_cells(qualifying_cells, board_tiles, {0, -1}, {0, 1}, {edge, edge});
-            populate_qualifying_cells(qualifying_cells, board_tiles, {0, 1}, {0, 0}, {edge, edge-1});
-        }
+        populate_qualifying_cells(qualifying_cells, board_tiles, {-1, 0}, {1, 0}, {edge, edge});
+        populate_qualifying_cells(qualifying_cells, board_tiles, {1, 0}, {0, 0}, {edge-1, edge});
+        populate_qualifying_cells(qualifying_cells, board_tiles, {0, -1}, {0, 1}, {edge, edge});
+        populate_qualifying_cells(qualifying_cells, board_tiles, {0, 1}, {0, 0}, {edge, edge-1});
 
         qualifying_cells.cell({edge/2, edge/2}) = true;
 

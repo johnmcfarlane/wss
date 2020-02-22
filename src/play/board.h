@@ -20,6 +20,7 @@
 #include "load_buffer.h"
 
 #include <ssize.h>
+#include <wss_assert.h>
 
 #include <fmt/printf.h>
 #include <gsl/string_span>
@@ -43,23 +44,21 @@ public:
 
     T const& cell(coord c) const
     {
-        // LCOV_EXCL_START
-        Expects(c[0]>=0);
-        Expects(c[0]<edge);
-        Expects(c[1]>=0);
-        Expects(c[1]<edge);
-        // LCOV_EXCL_STOP
+        WSS_ASSERT(c[0]>=0);
+        WSS_ASSERT(c[0]<edge);
+        WSS_ASSERT(c[1]>=0);
+        WSS_ASSERT(c[1]<edge);
+
         return cells.get()[c[0]+c[1]*edge];
     }
 
     T& cell(coord c)
     {
-        // LCOV_EXCL_START
-        Expects(c[0]>=0);
-        Expects(c[0]<edge);
-        Expects(c[1]>=0);
-        Expects(c[1]<edge);
-        // LCOV_EXCL_STOP
+        WSS_ASSERT(c[0]>=0);
+        WSS_ASSERT(c[0]<edge);
+        WSS_ASSERT(c[1]>=0);
+        WSS_ASSERT(c[1]<edge);
+
         return cells.get()[c[0]+c[1]*edge];
     }
 
