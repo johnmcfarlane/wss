@@ -4,6 +4,7 @@ add_executable(play
         grid.cpp
         load_buffer.cpp
         main.cpp
+        search.cpp
         solve.cpp
 )
 target_link_libraries(play common lexicon)
