@@ -15,8 +15,6 @@
 #ifndef WSS_TRIE_H
 #define WSS_TRIE_H
 
-#include <gsl/gsl_assert>
-
 #include <memory>
 #include <string_view>
 #include <vector>

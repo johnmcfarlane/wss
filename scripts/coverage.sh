@@ -10,7 +10,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/.. || exit; pwd)
 
 "${PROJECT_DIR}/scripts/bits/config.sh" \
   -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_CXX_FLAGS_RELEASE="-coverage -fno-exceptions"
+  -DCMAKE_CXX_FLAGS_RELEASE="-coverage -fno-exceptions -DWSS_DISABLE_ASSERTS"
 
 "${PROJECT_DIR}/scripts/bits/build.sh"
 

@@ -15,11 +15,10 @@
 #include "trie.h"
 
 #include <ssize.h>
-
-#include <fmt/printf.h>
-#include <gsl/gsl_assert>
+#include <wss_assert.h>
 
 #include <algorithm>
+#include <fmt/printf.h>
 #include <map>
 
 namespace {
@@ -49,7 +48,7 @@ namespace {
             string_view::const_iterator pos,
             string_view::const_iterator end)
     {
-        Expects(pos<=end);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+        WSS_ASSERT(pos<=end);
 
         if (pos==end) {
             if (n.is_terminator) {
@@ -88,7 +87,7 @@ auto edge::get_next() const -> node const& { return *next; }
 
 void edge::set_next(std::shared_ptr<node> n)
 {
-    Expects(n);  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+    WSS_ASSERT(n);
     next = move(n);
 }
 
@@ -115,7 +114,7 @@ auto compress(node& n, node_map& nodes) -> int
 
         auto found{nodes.equal_range(child)};
         if (found.first==found.second) {
-            Expects(edge.ptr());  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
+            WSS_ASSERT(edge.ptr());
             nodes.emplace_hint(found.first,
                     std::make_pair(edge.get_next(), edge.ptr()));
             continue;

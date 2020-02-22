@@ -13,7 +13,7 @@ export ASAN_OPTIONS=verify_asan_link_order=0
 
 "${BITS_DIR}/config.sh" \
   -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_CXX_FLAGS_RELEASE="-g -fsanitize=address,undefined -fsanitize-undefined-trap-on-error -DGSL_UNENFORCED_ON_CONTRACT_VIOLATION"
+  -DCMAKE_CXX_FLAGS_RELEASE="-g -fsanitize=address,undefined -fsanitize-undefined-trap-on-error -DNDEBUG"
 
 "${BITS_DIR}/build.sh"
 
