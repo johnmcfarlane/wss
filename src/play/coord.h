@@ -49,4 +49,9 @@ constexpr coord& operator-=(coord& lhs, coord const& rhs)
     return lhs;
 }
 
+inline void transpose(coord& c)
+{
+    std::swap(c[0], c[1]);
+}
+
 #endif //WSS_COORD_H

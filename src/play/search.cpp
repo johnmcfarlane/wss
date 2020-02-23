@@ -179,8 +179,7 @@ namespace {
                     state.init.pos});
         }
 
-        if (state.step.pos[0] < state.init.tiles.size()
-            && state.step.pos[1] < state.init.tiles.size()) {
+        if (state.step.pos[0] < state.init.tiles.size()) {
             search(n, state);
         }
         

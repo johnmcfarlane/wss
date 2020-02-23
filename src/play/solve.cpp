@@ -154,10 +154,20 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
 
     auto results = std::vector<result>{};
 
+    // horizontal scan
     solve_axial(init, step, 0);
     std::swap(step.finds, results);
 
-    solve_axial(init, step, 1);
+    // vertical scan
+    transpose(init.tiles);
+    transpose(init.premiums);
+    transpose(init.qualifying_cells);
+    solve_axial(init, step, 0);
+    for (auto& result : step.finds)
+    {
+        transpose(result.pos.start);
+        transpose(result.pos.direction);
+    }
     std::move(begin(step.finds), end(step.finds), std::back_inserter(results));
 
     refine_results(results);
