@@ -111,14 +111,15 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
     step_state step{
             std::begin(word),
             finds,
-            rack
+            rack,
+            coord{},
+            init.rack_size
     };
+
     search_state const state{
             init,
             step
     };
-
-    state.step.rack_remaining = state.init.rack_size;
 
     for (auto letter : letters) {
         ++step.rack[letter];
