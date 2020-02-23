@@ -1298,6 +1298,7 @@
  14  8,4  | pAS
  14  2,4  | pHIZ
  14  5,4  | pHIZ
+ 14  8,4  | pOS
  14  8,4  | rAS
  14  3,4  | rOOKS
  14  2,5  - sH
@@ -2283,6 +2284,7 @@
   9  6,7  - pAS
   9  5,5  | pIKAS
   9  3,4  | pOOH
+  9  6,7  - pOS
   9  6,3  | rAKUS
   9  3,4  | rHOS
   9  5,7  - sH
@@ -2648,6 +2650,9 @@
   8  6,7  - pO
   8  5,4  | pOISHA
   8  3,5  | pOOHS
+  8  1,5  - pOS
+  8  3,5  - pOS
+  8  3,7  - pOS
   8  2,2  | pSOAI
   8  2,3  | rAKIS
   8  5,3  | rAKIS
@@ -4184,6 +4189,7 @@
   3  5,4  | pOIS
   3  3,4  | pOO
   3  3,5  | pOO
+  3  3,5  | pOS
   3  6,5  | pUS
   3  6,5  | qUA
   3  2,4  | rAIS
