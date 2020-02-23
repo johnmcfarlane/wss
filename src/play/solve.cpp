@@ -152,9 +152,14 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
         ++step.rack[letter];
     }
 
-    solve_axial(init, step, 0);
-    solve_axial(init, step, 1);
+    auto results = std::vector<result>{};
 
-    refine_results(step.finds);
-    return move(step.finds);
+    solve_axial(init, step, 0);
+    std::swap(step.finds, results);
+
+    solve_axial(init, step, 1);
+    std::move(begin(step.finds), end(step.finds), std::back_inserter(results));
+
+    refine_results(results);
+    return results;
 }
