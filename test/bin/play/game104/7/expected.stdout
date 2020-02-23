@@ -44,6 +44,7 @@
  24  8,2  | SEPAl
  24  8,3  | UPAs
  24  8,3  | UPaS
+ 24  5,7  | fUZES
  24  8,3  | sPAS
  24  8,3  | uPAS
  23  4,10 - PADi
@@ -52,6 +53,7 @@
  23  8,3  | SPAr
  23  8,3  | SPAs
  23  2,10 - SqUAD
+ 23  5,7  | fUZE
  22  8,4  | PAc
  22  8,4  | PAd
  22  8,4  | PAh
@@ -65,6 +67,7 @@
  22  8,6  | PoSh
  22  4,10 - SADI
  22  8,2  | SnEAP
+ 22  5,7  | fAZES
  22  5,7  | gAZES
  22  5,7  | hAZES
  22  5,7  | lAZES
@@ -74,6 +77,7 @@
  21  8,4  | SAP
  21  2,10 - StEAD
  21  4,10 - cADI
+ 21  5,7  | fAZE
  21  4,10 - gADI
  21  5,7  | gAZE
  21  5,7  | hAZE
@@ -202,6 +206,7 @@
  17  7,2  | UPAsES
  17  8,2  | UrEAS
  17  8,2  | UvEAS
+ 17  5,7  | fEZ
  17  8,3  | sPA
  16  5,2  | APIcES
  16  7,2  | APIcES
@@ -1953,6 +1958,7 @@
   6  7,4  | SEAs
   6  5,4  | SEAt
   6  7,4  | SEAt
+  6  5,4  | SEIf
   6  7,4  | SEIf
   6  5,4  | SEIs
   6  7,4  | SEIs
@@ -2444,6 +2450,7 @@
   4  3,6  - EAsTS
   4  7,6  | Ed
   4  3,6  - EdITS
+  4  5,6  | Ef
   4  7,6  | Ef
   4  7,5  - EgG
   4  5,6  | Eh
@@ -2468,6 +2475,7 @@
   4  7,6  | Id
   4  5,4  | IdE
   4  7,4  | IdE
+  4  5,6  | If
   4  7,6  | If
   4  7,5  - IgG
   4  3,6  - IkATS
@@ -2885,6 +2893,8 @@
   3  3,6  - fEST
   3  4,6  - fETA
   3  4,6  - fETS
+  3  5,5  | fI
+  3  7,5  | fI
   3  3,6  - fIAT
   3  3,6  - fIST
   3  4,6  - fITS
@@ -3224,6 +3234,7 @@
   1  5,6  - aT
   1  5,7  - bI
   1  5,6  - eT
+  1  5,7  - fI
   1  5,7  - gI
   1  5,7  - hI
   1  8,9  | haE

@@ -9,6 +9,7 @@
  36  3,1  | LIEFER
  36  3,6  | REFILE
  36  3,6  | RELIEF
+ 30  8,4  | FI
  25  2,8  | BEEF
  24  2,1  | EVIL
  24  3,3  | FEBRILE
@@ -63,6 +64,7 @@
  15  7,5  - GIVE
  15  6,4  - LOB
  15  4,6  | NEB
+ 15  4,6  | NEF
  15  4,6  | NIB
  15  3,6  | REIVE
  15  1,8  - aLEF
@@ -82,16 +84,19 @@
  13  5,3  | BELIE
  13  2,2  | BI
  13  4,3  | BLIN
+ 13  4,5  - EF
  13  4,7  - EF
  13  3,2  | ELVER
  13  1,4  - EVIL
  13  2,4  | FEE
+ 13  2,2  | FI
  13  3,2  | FIBER
  13  2,4  | FIE
  13  4,3  - FLIC
  13  3,3  | FLIR
  13  7,5  - GIBE
  13  2,3  | IF
+ 13  4,5  - IF
  13  1,3  - LEV
  13  4,4  - LEVO
  13  2,2  | LIE
@@ -106,6 +111,7 @@
  12  3,5  | BRIE
  12  7,3  - CLEF
  12  5,7  - FE
+ 12  5,7  - FI
  12  3,2  | FLEER
  12  3,2  | FLIER
  12  3,5  | FREE
@@ -181,6 +187,7 @@
   9  6,4  - VOE
   9  1,8  - aBLE
   9  1,9  - nEB
+  9  1,9  - nEF
   9  1,9  - nIB
   8  6,6  | ABLE
   8  6,6  | ALEF
@@ -237,6 +244,7 @@
   5  2,9  | EE
   5  1,4  - EF
   5  3,5  | ERE
+  5  5,5  | FI
   5  5,6  | IF
   5  3,5  | IRE
   5  1,3  - LEE

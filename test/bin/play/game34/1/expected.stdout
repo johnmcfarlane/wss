@@ -2444,6 +2444,7 @@
  16  7,6  | EvIL
  16  7,3  | EvILs
  16  7,6  | EvILs
+ 16  1,7  - ExEaT
  16  7,3  | ExILe
  16  7,6  | ExILe
  16  7,3  | ExaLT
@@ -6963,6 +6964,8 @@
  13  7,2  | EvItE
  13  7,6  | EvItE
  13  7,2  | EviTE
+ 13  7,4  | ExEaT
+ 13  7,6  | ExEaT
  13  7,4  | ExErT
  13  7,6  | ExErT
  13  7,2  | ExILe
@@ -10301,6 +10304,7 @@
  11  7,4  | ayE
  11  7,5  | bE
  11  4,1  | bEELINe
+ 11  2,5  - bEEf
  11  2,5  - bEEp
  11  7,3  | bEEs
  11  2,5  - bEEs
@@ -10641,11 +10645,13 @@
  11  2,7  - nEEd
  11  2,5  - nEEm
  11  2,5  - nEEp
+ 11  2,5  - nEIf
  11  7,3  | nETs
  11  2,5  - nEaT
  11  2,7  - nEaT
  11  7,5  | nEb
  11  7,5  | nEe
+ 11  7,5  | nEf
  11  7,5  | nEg
  11  7,4  | nEsT
  11  7,5  | nEt
@@ -10714,6 +10720,7 @@
  11  7,5  | rE
  11  4,1  | rEELINg
  11  2,7  - rEEd
+ 11  2,5  - rEEf
  11  2,7  - rEEf
  11  2,5  - rEEk
  11  7,3  | rEEl
@@ -10721,6 +10728,7 @@
  11  7,3  | rEEs
  11  2,5  - rEEs
  11  2,7  - rEEs
+ 11  2,5  - rEIf
  11  7,3  | rEIs
  11  2,5  - rEIs
  11  4,2  | rELENT
@@ -11991,17 +11999,22 @@
  10  7,4  | fIe
  10  7,4  | fIl
  10  2,2  | fIlLET
+ 10  5,5  - fLEET
  10  5,7  - fLEET
+ 10  5,5  - fLEETs
  10  5,7  - fLEETs
  10  2,1  | fLEEcE
  10  4,3  | fLINT
  10  4,3  | fLINTs
  10  4,3  | fLINTy
  10  2,2  | fLITE
+ 10  5,5  - fLITE
  10  5,7  - fLITE
  10  2,2  | fLITEd
+ 10  5,5  - fLITEd
  10  5,7  - fLITEd
  10  2,2  | fLITEs
+ 10  5,5  - fLITEs
  10  5,7  - fLITEs
  10  7,5  | feE
  10  4,2  | feLINE
@@ -13320,17 +13333,26 @@
   9  4,4  | fINaL
   9  5,7  - fIlLET
   9  4,1  | fLEEINg
+  9  5,5  - fLEeT
   9  5,7  - fLEeT
+  9  5,5  - fLIEsT
   9  5,7  - fLIEsT
   9  4,3  | fLINg
   9  4,3  | fLINt
+  9  5,5  - fLInT
   9  5,7  - fLInT
+  9  5,5  - fLIrT
   9  5,7  - fLIrT
+  9  5,5  - fLItE
   9  5,7  - fLItE
+  9  5,5  - fLeET
   9  5,7  - fLeET
   9  4,3  | fLiNT
+  9  5,5  - fLiTE
   9  5,7  - fLiTE
+  9  5,5  - fLuTE
   9  5,7  - fLuTE
+  9  5,5  - fLyTE
   9  5,7  - fLyTE
   9  7,5  | fe
   9  2,5  - feET
@@ -13868,7 +13890,9 @@
   8  5,3  | EeLIEsT
   8  3,5  - Eek
   8  3,5  - Eel
+  8  4,5  - EfT
   8  4,7  - EfT
+  8  4,5  - EfTs
   8  4,7  - EfTs
   8  2,1  | EffETE
   8  2,6  | EffETE
@@ -14942,21 +14966,31 @@
   8  5,7  - fIlLE
   8  6,5  - fIlLET
   8  5,5  | fIrELIT
+  8  5,5  - fLEE
   8  5,7  - fLEE
   8  3,2  | fLEER
   8  3,2  | fLEERs
+  8  5,5  - fLEEr
   8  5,7  - fLEEr
+  8  5,5  - fLEEs
   8  5,7  - fLEEs
+  8  5,5  - fLEEt
   8  5,7  - fLEEt
   8  3,2  | fLIER
   8  3,2  | fLIERs
+  8  5,5  - fLIEd
   8  5,7  - fLIEd
+  8  5,5  - fLIEr
   8  5,7  - fLIEr
+  8  5,5  - fLIEs
   8  5,7  - fLIEs
   8  3,3  | fLIRTEd
   8  3,3  | fLIRTEr
+  8  5,5  - fLIT
   8  5,7  - fLIT
+  8  5,5  - fLITe
   8  5,7  - fLITe
+  8  5,5  - fLITs
   8  5,7  - fLITs
   8  2,2  | fLItE
   8  4,3  | fLaN
@@ -16849,11 +16883,17 @@
   7  6,5  - fIlLE
   7  6,5  - fLEET
   7  6,5  - fLEETs
+  7  5,5  - fLEa
   7  5,7  - fLEa
+  7  5,5  - fLEd
   7  5,7  - fLEd
+  7  5,5  - fLEe
   7  5,7  - fLEe
+  7  5,5  - fLEw
   7  5,7  - fLEw
+  7  5,5  - fLEx
   7  5,7  - fLEx
+  7  5,5  - fLEy
   7  5,7  - fLEy
   7  6,5  - fLIEsT
   7  3,3  | fLIRT
@@ -16862,17 +16902,26 @@
   7  6,5  - fLITE
   7  6,5  - fLITEd
   7  6,5  - fLITEs
+  7  5,5  - fLIc
   7  5,7  - fLIc
+  7  5,5  - fLIp
   7  5,7  - fLIp
+  7  5,5  - fLIr
   7  5,7  - fLIr
+  7  5,5  - fLIt
   7  5,7  - fLIt
   7  3,2  | fLaIR
+  7  5,5  - fLaT
   7  5,7  - fLaT
+  7  5,5  - fLeE
   7  5,7  - fLeE
   7  3,2  | fLeER
   7  3,2  | fLiER
+  7  5,5  - fLiT
   7  5,7  - fLiT
+  7  5,5  - fLoE
   7  5,7  - fLoE
+  7  5,5  - fLuE
   7  5,7  - fLuE
   7  3,2  | fLyER
   7  3,5  | fRIlL
@@ -17792,7 +17841,9 @@
   6  6,7  - EerIE
   6  1,5  - Ef
   6  1,7  - Ef
+  6  4,5  - Eff
   6  4,7  - Efs
+  6  4,5  - Eft
   6  4,7  - Eft
   6  2,6  | EgEsT
   6  5,2  | EgaLITE
@@ -17905,6 +17956,7 @@
   6  2,6  | EviTE
   6  6,7  - EviTE
   6  1,7  - Ex
+  6  2,6  | ExEaT
   6  2,6  | ExErT
   6  6,7  - ExIT
   6  2,6  | ExITs
@@ -17981,6 +18033,7 @@
   6  3,2  | IdLERs
   6  5,6  | IdLEsT
   6  1,7  - If
+  6  4,5  - Iff
   6  6,7  - IlEaL
   6  3,2  | IlLER
   6  5,6  | IlLEsT
@@ -19292,6 +19345,7 @@
   6  6,2  | acETA
   6  4,2  | acTIN
   6  3,4  | afREET
+  6  4,5  - afT
   6  4,7  - afT
   6  6,2  | agITA
   6  6,5  - agLEE
@@ -19618,6 +19672,7 @@
   6  4,5  - eaT
   6  3,7  - eaT
   6  4,2  | eaTEN
+  6  4,5  - efT
   6  4,7  - efT
   6  2,2  | elITE
   6  6,2  | enTIA
@@ -19700,9 +19755,11 @@
   6  6,5  - fLeET
   6  6,5  - fLiTE
   6  3,3  | fLoRET
+  6  5,5  - fLu
   6  5,7  - fLu
   6  4,2  | fLuENT
   6  6,5  - fLuTE
+  6  5,5  - fLy
   6  5,7  - fLy
   6  6,5  - fLyTE
   6  3,5  | fRITEs
@@ -19715,8 +19772,10 @@
   6  2,7  - feE
   6  6,5  - feEL
   6  6,5  - fiLET
+  6  5,5  - flEET
   6  5,7  - flEET
   6  2,2  | flITE
+  6  5,5  - flITE
   6  5,7  - flITE
   6  2,5  - foE
   6  6,5  - foIL
@@ -20130,6 +20189,7 @@
   6  4,5  - oaT
   6  4,2  | oaTEN
   6  4,7  - odE
+  6  4,5  - ofT
   6  4,7  - ofT
   6  4,2  | ofTEN
   6  4,2  | olEIN
@@ -20909,6 +20969,7 @@
   5  6,7  - EeLy
   5  3,4  | EeRIE
   5  3,4  | EeRIEr
+  5  4,5  - Ef
   5  4,7  - Ef
   5  3,3  | EgER
   5  3,3  | EgERs
@@ -21009,6 +21070,7 @@
   5  6,4  | ExALT
   5  6,4  | ExALTs
   5  3,3  | ExERt
+  5  6,7  - ExEaT
   5  6,7  - ExErT
   5  5,4  | ExILE
   5  5,4  | ExILEd
@@ -21108,6 +21170,7 @@
   5  6,7  - IdlE
   5  5,6  | IdoL
   5  5,6  | IdyL
+  5  4,5  - If
   5  6,7  - IgLu
   5  5,3  | IgnITE
   5  5,6  | IgnITE
@@ -22895,6 +22958,7 @@
   5  3,5  | fRILl
   5  3,5  | fRIsE
   5  3,5  | fRItT
+  5  5,5  - faIL
   5  5,7  - faIL
   5  3,4  | faRL
   5  5,7  - feEL
@@ -24215,6 +24279,7 @@
   4  6,7  - EwEr
   4  6,7  - EwEs
   4  6,4  | ExALt
+  4  6,3  | ExEAT
   4  6,7  - ExEc
   4  6,7  - ExEd
   4  6,7  - ExEs
@@ -26459,6 +26524,7 @@
   4  5,7  - fEw
   4  5,7  - fEy
   4  5,7  - fEz
+  4  5,7  - fI
   4  2,4  | fIELd
   4  5,5  | fIELd
   4  3,3  | fIERy
@@ -26573,6 +26639,7 @@
   4  3,5  | fRuIT
   4  4,3  | faINT
   4  6,3  | faTAL
+  4  5,5  - faTE
   4  6,5  - faTE
   4  5,7  - faTE
   4  6,5  - feET
@@ -26584,11 +26651,13 @@
   4  5,7  - fiL
   4  2,3  | fiLET
   4  6,4  | flAIL
+  4  5,5  - flEE
   4  6,5  - flEE
   4  5,7  - flEE
   4  3,2  | flEER
   4  3,2  | flIER
   4  4,3  | flINT
+  4  5,5  - flIT
   4  6,5  - flIT
   4  5,7  - flIT
   4  3,4  | foRTE
@@ -27283,6 +27352,7 @@
   4  6,7  - nEaT
   4  5,7  - nEb
   4  5,7  - nEe
+  4  5,7  - nEf
   4  5,7  - nEg
   4  6,3  | nEgATE
   4  6,5  - nEnE
@@ -28804,6 +28874,8 @@
   3  6,7  - Ex
   3  6,4  | ExAcT
   3  6,4  | ExAlT
+  3  6,3  | ExEAt
+  3  2,4  | ExEaT
   3  2,4  | ExErT
   3  5,4  | ExIT
   3  2,6  | ExIT
@@ -28811,6 +28883,7 @@
   3  5,4  | ExIlE
   3  5,4  | ExInE
   3  5,4  | ExIsT
+  3  6,3  | ExeAT
   3  4,3  | ExoN
   3  6,3  | ExpAT
   3  3,4  | EyRiE
@@ -29270,6 +29343,7 @@
   3  4,6  | NEed
   3  4,6  | NEem
   3  4,6  | NEep
+  3  4,6  | NEf
   3  4,6  | NEg
   3  4,6  | NEgs
   3  4,6  | NEif
@@ -30586,6 +30660,7 @@
   3  3,5  - ee
   3  3,7  - ee
   3  6,7  - eeL
+  3  4,5  - ef
   3  4,7  - ef
   3  6,4  | egAL
   3  3,3  | egER
@@ -30611,6 +30686,7 @@
   3  5,4  | evITE
   3  3,3  | ewER
   3  4,5  - ex
+  3  6,3  | exEAT
   3  4,3  | eyEN
   3  3,3  | eyER
   3  4,4  | eyNE
@@ -30737,6 +30813,7 @@
   3  4,4  | faNE
   3  3,4  | faRE
   3  3,4  | faRT
+  3  5,5  - faT
   3  5,7  - faT
   3  6,4  | feAL
   3  5,7  - feE
@@ -31019,6 +31096,7 @@
   3  6,7  - iTEm
   3  1,4  | icH
   3  2,3  | idLE
+  3  4,5  - if
   3  6,7  - ilL
   3  6,4  | irATE
   3  4,5  - is
@@ -31513,6 +31591,7 @@
   3  5,5  - obI
   3  4,7  - od
   3  3,5  - oe
+  3  4,5  - of
   3  4,7  - of
   3  5,5  - ofT
   3  2,3  | ogLE
@@ -32916,6 +32995,7 @@
   2  4,6  | Ne
   2  4,6  | Neb
   2  4,6  | Nee
+  2  4,6  | Nef
   2  4,6  | Neg
   2  4,6  | Net
   2  4,6  | New
@@ -33889,6 +33969,7 @@
   2  6,5  - fEw
   2  6,5  - fEy
   2  6,5  - fEz
+  2  6,5  - fI
   2  6,4  | fIAr
   2  6,4  | fIAt
   2  2,4  | fIE
@@ -33931,6 +34012,7 @@
   2  3,5  | fRiT
   2  3,5  | fRoE
   2  2,5  - fa
+  2  5,5  - fa
   2  5,7  - fa
   2  4,4  | faN
   2  6,5  - faT
@@ -33945,6 +34027,7 @@
   2  6,5  - feT
   2  6,3  | feTA
   2  2,3  | feTE
+  2  5,7  - fi
   2  6,4  | fiAT
   2  6,5  - fiE
   2  4,4  | fiN
@@ -34762,6 +34845,8 @@
   2  6,7  - nEb
   2  6,5  - nEe
   2  6,7  - nEe
+  2  6,5  - nEf
+  2  6,7  - nEf
   2  6,5  - nEg
   2  6,7  - nEg
   2  6,3  | nEmA
@@ -36277,6 +36362,7 @@
   1  2,5  | fEw
   1  2,5  | fEy
   1  2,5  | fEz
+  1  5,5  | fI
   1  5,5  | fIb
   1  5,5  | fId
   1  5,5  | fIe
@@ -36294,6 +36380,7 @@
   1  6,5  - fe
   1  2,4  | feE
   1  3,4  | feR
+  1  6,5  - fi
   1  2,4  | fiE
   1  3,4  | fiR
   1  2,4  | foE
@@ -36554,6 +36641,7 @@
   1  2,5  | nE
   1  2,5  | nEb
   1  2,5  | nEe
+  1  2,5  | nEf
   1  2,5  | nEg
   1  2,5  | nEt
   1  2,5  | nEw

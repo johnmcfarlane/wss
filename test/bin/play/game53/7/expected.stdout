@@ -510,6 +510,7 @@
  12  4,5  - EVEs
  12  5,7  | EVITe
  12  5,7  | EVIcT
+ 12  8,3  | EXEAT
  12  8,3  | EXITEd
  12  8,3  | EXUdE
  12  8,3  | EXUlT
@@ -584,6 +585,8 @@
  11  5,7  | EVIl
  11  8,3  | EXAcT
  11  8,3  | EXAlT
+ 11  8,3  | EXEAt
+ 11  8,3  | EXEaT
  11  8,3  | EXErT
  11  8,3  | EXIT
  11  8,3  | EXITs
@@ -591,6 +594,7 @@
  11  8,3  | EXInE
  11  8,3  | EXIsT
  11  8,3  | EXTrA
+ 11  8,3  | EXeAT
  11  8,3  | EXpAT
  11  9,5  | Ed
  11  9,7  | EdIT
@@ -631,6 +635,7 @@
  11  2,5  - cUVEE
  11  9,7  | eVE
  11  5,7  | eVITE
+ 11 10,9  | fEU
  11  3,3  - gET
  11  5,5  | hAE
  11  3,3  - hET
@@ -924,6 +929,8 @@
   9  9,7  | eAU
   9  9,5  | eT
   9  5,7  | eVE
+  9 10,9  | fAT
+  9 10,9  | fET
   9  2,7  - fUTILE
   9 10,9  | gAE
   9 10,9  | gAT
@@ -1259,7 +1266,9 @@
   7  3,5  - eAVE
   7  9,7  | eTA
   7  5,5  | fA
+  7 10,9  | fA
   7  3,5  - fAVE
+  7 10,9  | fE
   7  1,7  - fETIAL
   7  3,5  - fIVE
   7  3,5  - gAVE
@@ -2324,12 +2333,14 @@
   4 10,10 | eE
   4  9,7  - eGO
   4 10,10 | eT
+  4  5,1  - fA
   4 10,10 | fA
   4  3,7  - fAIL
   4 10,10 | fE
   4  3,7  - fEAL
   4  9,10 - fEE
   4  4,7  - fELT
+  4 10,10 | fI
   4  9,10 - fIE
   4  4,7  - fILA
   4  4,7  - fILE
@@ -2894,6 +2905,8 @@
   1  5,5  - eE
   1  6,1  | fA
   1  5,5  - fE
+  1  5,1  | fI
+  1 10,9  - fI
   1  5,1  | gI
   1 10,9  - gI
   1  6,1  | hA

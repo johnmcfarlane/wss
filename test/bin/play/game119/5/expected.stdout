@@ -216,6 +216,7 @@
  26  3,1  - lAP
  26  3,1  - mAP
  26  3,1  - nAP
+ 26  3,1  - nEF
  26  3,1  - pAP
  26  3,1  - pEP
  26  3,1  - sAP
@@ -450,6 +451,8 @@
  21  7,5  | FREnA
  21  7,5  | FrAP
  21  2,9  | OAF
+ 21  2,9  | OFf
+ 21  2,9  | OFt
  21  2,9  | OPe
  21  2,9  | OPt
  21  3,3  - PA
@@ -493,6 +496,7 @@
  20  7,4  | FARlE
  20  7,4  | FERAl
  20  7,4  | FERiA
+ 20  2,10 - FI
  20  2,10 - FIb
  20  2,10 - FId
  20  2,10 - FIe
@@ -507,6 +511,7 @@
  20  6,5  - FRAPpE
  20  6,7  - FRAPpE
  20  7,5  | FREAk
+ 20  2,9  | OF
  20  2,9  | OP
  20  7,4  | PARE
  20  7,4  | PAREd
@@ -792,6 +797,7 @@
  17  1,1  | MACKLEd
  17  1,1  | MACKLEs
  17  2,9  | OaF
+ 17  2,9  | OfF
  17  4,4  | PAIR
  17  7,4  | PAd
  17  7,4  | PAr
@@ -856,10 +862,21 @@
  16  7,5  | ERAs
  16  7,4  | EyRA
  16  1,11 - FAERiE
+ 16  4,5  - FAERy
+ 16  4,5  - FARE
+ 16  4,5  - FAREd
+ 16  4,5  - FAREr
+ 16  4,5  - FAREs
+ 16  4,5  - FARcE
+ 16  4,5  - FARlE
+ 16  4,5  - FEAR
  16  6,5  | FEAREd
  16  6,5  | FEAREr
+ 16  4,5  - FEARs
  16  6,5  | FEArER
  16  6,5  | FEAtER
+ 16  4,5  - FERAl
+ 16  4,5  - FERiA
  16  6,5  | FERiAE
  16  6,5  - FRApPE
  16  6,7  - FRApPE
@@ -1002,8 +1019,23 @@
  15  1,11 - FAERy
  15  4,4  | FAIn
  15  4,4  | FAIr
+ 15  4,5  - FAR
  15  5,1  - FARE
+ 15  4,5  - FARd
+ 15  4,5  - FARe
+ 15  4,5  - FARl
+ 15  4,5  - FARm
+ 15  4,5  - FARo
+ 15  4,5  - FARt
+ 15  4,5  - FAdER
+ 15  4,5  - FArER
  15  5,1  - FEAR
+ 15  4,5  - FEAl
+ 15  4,5  - FEAr
+ 15  4,5  - FEAt
+ 15  4,5  - FER
+ 15  4,5  - FERe
+ 15  4,5  - FERn
  15  4,5  | FIRE
  15  3,1  | FOb
  15  3,1  | FOe
@@ -1027,6 +1059,7 @@
  15  1,11 - FrERE
  15  1,9  - JOBs
  15  4,2  | NAP
+ 15  4,2  | NEF
  15  4,4  | PAId
  15  4,4  | PAIn
  15  4,4  | PAIr
@@ -1190,12 +1223,17 @@
  14  5,1  - FARt
  14  5,1  - FAcE
  14  5,1  - FAdE
+ 14  4,5  - FAdE
  14  5,1  - FAiR
  14  5,1  - FAkE
  14  5,1  - FAmE
+ 14  4,5  - FAmE
  14  5,1  - FAnE
+ 14  4,5  - FAnE
  14  5,1  - FArE
+ 14  4,5  - FArE
  14  5,1  - FAtE
+ 14  4,5  - FAtE
  14  5,1  - FAvE
  14  5,1  - FAzE
  14  5,1  - FEAl
@@ -1211,9 +1249,16 @@
  14  5,1  - FERe
  14  5,1  - FERn
  14  5,1  - FEaR
+ 14  4,5  - FEaR
  14  5,1  - FEtA
+ 14  4,5  - FEtA
  14  1,11 - FREe
  14  1,11 - FREt
+ 14  4,5  - FaRE
+ 14  4,5  - FeAR
+ 14  4,5  - FeRE
+ 14  4,5  - FiAR
+ 14  4,5  - FiRE
  14  1,11 - FlEA
  14  1,11 - FlEE
  14  1,11 - FrEE
@@ -1221,6 +1266,7 @@
  14  3,10 - InFRA
  14  1,9  | JAR
  14  4,2  | NaP
+ 14  4,2  | NeF
  14  4,2  | NiP
  14  5,1  - PAR
  14  5,1  - PARa
@@ -1375,22 +1421,29 @@
  13  6,5  - FAREs
  13  6,7  - FAREs
  13  5,1  - FAb
+ 13  4,5  - FAb
  13  6,5  - FAcER
  13  6,7  - FAcER
  13  5,1  - FAd
+ 13  4,5  - FAd
  13  6,5  - FAdER
  13  6,7  - FAdER
  13  5,1  - FAh
+ 13  4,5  - FAh
  13  6,5  - FAkER
  13  6,7  - FAkER
  13  5,1  - FAn
+ 13  4,5  - FAn
  13  5,1  - FAr
+ 13  4,5  - FAr
  13  6,5  - FArER
  13  6,7  - FArER
  13  5,1  - FAs
  13  5,1  - FAt
+ 13  4,5  - FAt
  13  5,1  - FAx
  13  5,1  - FAy
+ 13  4,5  - FAy
  13  5,1  - FE
  13  6,5  - FEAR
  13  6,7  - FEAR
@@ -1399,17 +1452,26 @@
  13  6,5  - FERAl
  13  6,7  - FERAl
  13  5,1  - FEd
+ 13  4,5  - FEd
  13  5,1  - FEe
+ 13  4,5  - FEe
  13  5,1  - FEh
+ 13  4,5  - FEh
  13  5,1  - FEm
+ 13  4,5  - FEm
  13  5,1  - FEn
+ 13  4,5  - FEn
  13  5,1  - FEr
+ 13  4,5  - FEr
  13  5,1  - FEt
+ 13  4,5  - FEt
  13  5,1  - FEu
  13  6,5  - FEuAR
  13  6,7  - FEuAR
  13  5,1  - FEw
+ 13  4,5  - FEw
  13  5,1  - FEy
+ 13  4,5  - FEy
  13  5,1  - FEz
  13  4,5  | FIfE
  13  4,5  | FInE
@@ -1420,16 +1482,22 @@
  13  6,7  - FRAE
  13  6,5  - FREAk
  13  6,7  - FREAk
+ 13  4,5  - FaR
  13  5,1  - FaRE
  13  5,1  - FeAR
+ 13  4,5  - FeE
  13  1,11 - FeE
+ 13  4,5  - FeR
  13  5,1  - FeRE
+ 13  4,5  - FiE
  13  1,11 - FiE
+ 13  4,5  - FiR
  13  6,5  - FlARE
  13  6,7  - FlARE
  13  1,11 - FoE
  13  6,5  - FoP
  13  6,7  - FoP
+ 13  4,5  - FuR
  13  1,9  | JaR
  13  1,9  | JeE
  13  1,9  | JoE
@@ -1620,6 +1688,7 @@
  12  3,3  - EaR
  12  5,4  | EnTRAP
  12  6,1  - EyRA
+ 12  4,5  - FA
  12  6,5  - FARcE
  12  6,7  - FARcE
  12  6,5  - FARlE
@@ -1644,6 +1713,7 @@
  12  6,7  - FAvE
  12  6,5  - FAzE
  12  6,7  - FAzE
+ 12  4,5  - FE
  12  4,10 | FE
  12  6,5  - FERiA
  12  6,7  - FERiA
@@ -2092,13 +2162,16 @@
  10  6,7  - FRo
  10  6,5  - FRy
  10  6,7  - FRy
+ 10  4,5  - Fa
  10  6,5  - FaR
  10  6,7  - FaR
+ 10  4,5  - Fe
  10  4,10 | Fe
  10  6,5  - FeE
  10  6,7  - FeE
  10  6,5  - FeR
  10  6,7  - FeR
+ 10  4,5  - Fi
  10  6,5  - FiE
  10  6,7  - FiE
  10  6,5  - FiR
@@ -2379,6 +2452,8 @@
   9  6,7  - Fa
   9  6,5  - Fe
   9  6,7  - Fe
+  9  6,5  - Fi
+  9  6,7  - Fi
   9  4,6  | IdE
   9  4,6  | IrE
   9  1,4  - KAlE
@@ -2532,6 +2607,7 @@
   9  5,1  - nAP
   9  5,1  | nAP
   9  3,1  - nE
+  9  5,1  - nEF
   9  3,1  | nOR
   9  5,1  | oAF
   9  6,5  - oPERA
@@ -2756,6 +2832,8 @@
   8  2,11 - dEAFER
   8  2,10 - dIRE
   8  5,5  | eTAPE
+  8  4,5  - fARE
+  8  4,5  - fEAR
   8  2,10 - fIAR
   8  2,10 - fIRE
   8  4,5  - gEAR
@@ -3117,8 +3195,10 @@
   7  5,3  - eAR
   7  4,3  - eE
   7  4,3  - eR
+  7  4,5  - fAR
   7  5,1  - fARE
   7  5,1  - fEAR
+  7  4,5  - fER
   7  6,1  | fLAP
   7  5,3  - gAE
   7  4,5  - gAE
@@ -3670,6 +3750,8 @@
   6  6,5  | nEEP
   6  1,11 - nEEP
   6  2,11 - nEEP
+  6  6,5  - nEF
+  6  6,7  - nEF
   6  6,5  - oAF
   6  6,5  - oPE
   6  6,5  - pAP
@@ -3931,6 +4013,7 @@
   5  2,11 - FEy
   5  6,5  | FEz
   5  2,11 - FEz
+  5  4,5  | FI
   5  5,4  | FaT
   5  6,4  | FeE
   5  5,4  | FeT
@@ -4168,6 +4251,8 @@
   5  3,3  - nE
   5  6,5  - nEAR
   5  6,7  - nEAR
+  5  6,5  | nEF
+  5  2,11 - nEF
   5  6,3  - oAR
   5  6,5  - oF
   5  5,4  | oFT
@@ -4425,6 +4510,7 @@
   4  3,2  | OAR
   4  3,2  | ORA
   4  3,2  | ORE
+  4  2,9  | Of
   4  2,9  | Oh
   4  2,9  | Om
   4  2,9  | Op
@@ -4603,8 +4689,11 @@
   4  5,7  - eR
   4  6,1  - eRA
   4  6,1  - eRE
+  4  4,5  - fA
   4  5,1  | fARE
+  4  4,5  - fE
   4  4,10 | fE
+  4  2,10 - fI
   4  4,5  | fIE
   4  4,5  | fIR
   4  6,1  | fLEA
@@ -4861,6 +4950,7 @@
   3  4,2  | NE
   3  4,2  | NEb
   3  4,2  | NEe
+  3  4,2  | NEf
   3  4,2  | NEg
   3  4,2  | NEt
   3  4,2  | NEw
@@ -5698,6 +5788,7 @@
   1  5,1  | fA
   1  6,5  | fE
   1  2,11 - fE
+  1  4,5  | fI
   1  4,5  | gI
   1  5,1  | hA
   1  6,5  | hE

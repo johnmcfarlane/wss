@@ -11,6 +11,7 @@
  38  6,9  - FEARED
  38  6,9  - FEASED
  38  5,1  - FENDS
+ 38  3,1  - NEF
  38  3,1  - SAFE
  37  1,3  - CAFE
  36  6,9  - DEFERS
@@ -152,8 +153,12 @@
  17  4,4  | ASIDE
  17  5,3  - DAN
  17  5,3  - DARN
+ 17  4,5  - FAD
  17  6,7  - FAENAS
  17  4,4  | FAIR
+ 17  4,5  - FAN
+ 17  4,5  - FED
+ 17  4,5  - FEN
  17  5,1  - FEND
  17  6,9  - FENDS
  17  4,5  | FINE
@@ -200,6 +205,7 @@
  15  6,7  - FADES
  15  5,1  - FAN
  15  6,7  - FANES
+ 15  4,5  - FAR
  15  6,7  - FARAD
  15  6,7  - FARD
  15  5,1  - FARE
@@ -208,10 +214,12 @@
  15  5,1  - FED
  15  6,9  - FEED
  15  5,1  - FEN
+ 15  4,5  - FER
  15  6,9  - FERN
  15  4,5  | FIRE
  15  1,4  - KENAF
  15  5,3  - NAE
+ 15  4,2  | NEF
  15  4,5  | NIDE
  15  3,1  | NOR
  15  3,1  | NOS
@@ -290,6 +298,7 @@
  13  3,3  - NA
  13  5,3  - NA
  13  3,3  - NE
+ 13  5,1  - NEF
  13  5,3  - RAD
  13  5,3  - RAN
  13  5,8  - RAVENS
@@ -309,8 +318,10 @@
  12  4,5  | DIF
  12  5,3  - EARS
  12  5,5  - EF
+ 12  4,5  - FA
  12  6,7  - FAD
  12  6,7  - FAN
+ 12  4,5  - FE
  12  6,9  - FED
  12  6,9  | FED
  12  6,9  - FEN
@@ -325,6 +336,7 @@
  12  5,8  - NAVES
  12  5,9  - NEE
  12  6,9  - NEEDS
+ 12  6,5  | NEF
  12  5,1  - NERD
  12  6,9  - NERDS
  12  5,3  - RASE
@@ -425,6 +437,8 @@
  10  5,1  - NAE
  10  6,7  - NARES
  10  6,9  - NEARS
+ 10  6,9  - NEF
+ 10  6,9  | NEF
  10  3,7  - OF
  10  4,4  | RAID
  10  4,4  | RAIN
@@ -731,6 +745,7 @@
   5  5,5  | ETNA
   5  5,1  | FA
   5  6,5  | FE
+  5  4,5  | FI
   5  6,2  | LAD
   5  6,2  | LED
   5  5,1  | NAE
