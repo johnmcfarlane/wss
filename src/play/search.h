@@ -18,10 +18,28 @@
 #include "board.h"
 #include "board_premiums.h"
 #include "coord.h"
+#include "letter_set.h"
 #include "result.h"
 
 #include <scores.h>
+#include <wss_assert.h>
 #include <wwf_lexicon.h>
+
+#include <array>
+#include <utility>
+#include <vector>
+
+struct crosswords
+{
+    // letters which may be played in the tile, given cross words that match
+    letter_set filter;
+
+    // score of crosswords made with a letter-tile
+    letter_values letter_scores{};
+
+    // score of crosswords made with a blank tile
+    letter_values blank_scores{};
+};
 
 struct initial_state {
     coord pos;
@@ -32,6 +50,7 @@ struct initial_state {
     std::vector<char>::iterator word;
     node lexicon;
     int rack_size;
+    board<crosswords> crossword_cells;
 };
 
 struct step_state {

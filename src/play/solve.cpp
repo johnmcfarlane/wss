@@ -17,12 +17,14 @@
 #include "board.h"
 #include "board_premiums.h"
 #include "coord.h"
+#include "letter_set.h"
 #include "search.h"
 #include "tile.h"
 
 #include <scores.h>
 #include <wwf_lexicon.h>
 
+#include <cctype>
 #include <iterator>
 #include <string_view>
 #include <utility>
@@ -72,19 +74,150 @@ namespace {
         auto const last_unique = unique(begin(finds), end(finds),
                 [](auto const& a, auto const& b) {
                     return tie(a.word, a.score, a.pos.start, a.pos.direction)
-                            ==tie(b.word, b.score, b.pos.start, b.pos.direction);
+                            ==tie(b.word, b.score, b.pos.start,
+                                    b.pos.direction);
                 });
         finds.erase(last_unique, end(finds));
     }
 
+    auto calculate_cross(
+            coord pos,
+            letter_values const& letter_scores,
+            board<char> const& tiles,
+            board<premium> const& premiums,
+            node lexicon,
+            letter_values const& rack)
+    {
+        crosswords result;
+
+        if (tiles.cell(pos)!=vacant) {
+            // The cell is already occupied so filtering isn't an issue
+            // and there is no score from crosswords.
+            result.filter = letter_set::all;
+            return result;
+        }
+
+        auto const column = pos[0];
+        auto const extents = word_extent(tiles, pos, 1, coord{0, 1});
+
+        if (extents.second-extents.first==1) {
+            // The cell is already occupied so filtering isn't an issue
+            // and there is no score from crosswords.
+            result.filter = letter_set::all;
+            return result;
+        }
+
+        auto const cell_premium_index = int(premiums.cell(pos));
+        WSS_ASSERT(cell_premium_index>=0
+                && cell_premium_index<ssize(word_multipliers));
+
+        auto const word_multiplier = word_multipliers[cell_premium_index]; //NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
+        auto const letter_multiplier = letter_multipliers[cell_premium_index]; //NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
+        auto const have_wildcard = rack[blank]!=0 || rack[wildcard]!=0;
+
+        // returns end-point of word in lexicon and tile score
+        auto travel_word_portion = [pos, &letter_scores, &tiles=tiles, column](
+                node const* n,
+                int row_delta_first,
+                int row_delta_last)
+                -> std::optional<std::tuple<node const*, int>> {
+            auto const row_first = pos[1]+row_delta_first;
+            auto const row_last = pos[1]+row_delta_last;
+
+            auto score = 0;
+            for (auto row = row_first; row!=row_last; ++row) {
+                auto const letter = tiles.cell(coord{column, row});
+                auto const found{std::find(
+                        begin(*n),
+                        end(*n),
+                        std::toupper(letter))};
+                if (found==end(*n)) {
+                    // The letters above the cell don't form the beginning of a word.
+                    return std::nullopt;
+                }
+                score += letter_scores[letter];
+                n = &found.child();
+            }
+            return std::make_tuple(n, score);
+        };
+
+        auto travel_word = [&](
+                int row_delta_first,
+                int row_delta_last) {
+            auto upper_portion = travel_word_portion(&lexicon, row_delta_first,
+                    row_delta_last);
+            if (!upper_portion) {
+                std::string bad_word;
+
+                for (auto row = pos[1]+row_delta_first,
+                        row_last = pos[1]+row_delta_last;
+                        row!=row_last;
+                        ++row) {
+                    bad_word.push_back(tiles.cell(coord{column, row}));
+                }
+                fmt::print(
+                        stderr,
+                        "error: board contains invalid word, \"{}\"\n",
+                        bad_word);
+                std::exit(1);
+            }
+            return *upper_portion;
+        };
+
+        // Travel through the lexicon for letters above the cell.
+        auto[upper_node, upper_score] = travel_word(extents.first, 0);
+
+        // Travel through the lexicon for letters below the cell.
+        auto[lower_node, lower_score] = travel_word(1, extents.second);
+
+        // Travel through lexicon for letters on the cell.
+        for (auto edge = begin(*upper_node), edge_end = end(*upper_node);
+                edge!=edge_end;
+                ++edge) {
+            auto const letter = edge.letter();
+
+            if (auto const have_letter = rack[letter]!=0;
+                    !(have_letter || have_wildcard)) {
+                continue;
+            }
+
+            auto lower_result = travel_word_portion(&edge.child(), 1,
+                    extents.second);
+            if (!lower_result || !std::get<0>(*lower_result)->is_terminator) {
+                // With this letter, no word can be joined from the upper and lower portions.
+                continue;
+            }
+
+            result.filter.set(letter);
+            result.letter_scores[letter] =
+                    (letter_scores[letter]*letter_multiplier
+                            +upper_score+lower_score)*word_multiplier;
+            result.blank_scores[letter] =
+                    result.blank_scores[std::tolower(letter)] =
+                            (upper_score+lower_score)*word_multiplier;
+        }
+
+        return result;
+    }
+
     auto solve_axial(initial_state& init, step_state& step)
     {
+        auto const edge = init.tiles.size();
+
+        for (auto row = 0; row!=edge; ++row) {
+            for (auto column = 0; column!=edge; ++column) {
+                auto const pos = coord{row, column};
+                init.crossword_cells.cell(pos) = calculate_cross(
+                        pos, init.letter_scores, init.tiles, init.premiums,
+                        init.lexicon, step.rack);
+            }
+        }
+
         search_state const state{
                 init,
                 step
         };
 
-        auto const edge = ssize(init.tiles);
         for (init.pos[1] = 0;
              init.pos[1]!=edge;
              ++init.pos[1]) {
@@ -125,9 +258,9 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
             std::move(qualifying_cells),
             std::begin(word),
             lexicon,
-            ssize(letters)
+            ssize(letters),
+            board<crosswords>{edge}
     };
-
     step_state step{
             std::begin(word),
             finds,

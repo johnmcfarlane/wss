@@ -16,6 +16,7 @@
 
 #include "board.h"
 #include "coord.h"
+#include "letter_set.h"
 #include "tile.h"
 #include "wss_assert.h"
 
@@ -62,12 +63,8 @@ namespace {
             coord const& direction,
             std::pair<int, int> extents,
             gsl::span<char> word_part)
-    -> std::optional<int>
     {
-        auto const word_size{extents.second-extents.first};
-        if (word_size==1) {
-            return 0;
-        }
+        WSS_ASSERT(extents.second-extents.first>1);
 
         int word_multiplier{1};
         int score{0};
@@ -98,17 +95,13 @@ namespace {
 
             auto const found{
                     std::find(begin(*node), end(*node), std::toupper(letter))};
-            if (found==end(*node)) {
-                return std::nullopt;
-            }
+            WSS_ASSERT(found!=end(*node));
             node = &found.child();
 
             auto const letter_score{init.letter_scores[letter]};
             score += letter_multiplier*letter_score;
         }
-        if (!node->is_terminator) {
-            return std::nullopt;
-        }
+        WSS_ASSERT(node->is_terminator);
         return word_multiplier*score;
     }
 
@@ -137,9 +130,8 @@ namespace {
                     coord{1, 0},
                     extents,
                     gsl::span<char>{&*state.init.word, &*state.step.word_end})};
-            WSS_ASSERT(word_score);
 
-            auto play_score{state.step.cross_scores+*word_score};
+            auto play_score{state.step.cross_scores+word_score};
             if (state.step.rack_remaining==0
                     && state.init.rack_size==full_rack_size) {
                 play_score += state.init.letter_scores[full_rack_score_index];
@@ -163,31 +155,28 @@ namespace {
     }
 
     auto fill_square(search_state state, node const& edge,
-            std::pair<int, int> extents, int qualifying_cells_count,
+            int qualifying_cells_count,
             int& counter,
+            // cppcheck-suppress passedByValue
+            letter_set const filter,
+            letter_values const& scores,
             char letter)
     {
         if (counter==0) {
             return;
         }
 
-        auto const cross_score{calc_score(
-                state.init,
-                state.step.pos,
-                coord{0, 1},
-                extents,
-                gsl::span<char>(&letter, 1))};
-
-        // Cross-word is not a valid word in the lexicon.
-        if (!cross_score) {
+        if (!filter[letter]) {
             return;
         }
 
+        auto const cross_score = scores[letter];
+
         --counter;
-        state.step.cross_scores += *cross_score;
+        state.step.cross_scores += cross_score;
         recurse(edge, letter, qualifying_cells_count, state);
         // cppcheck-suppress unreadVariable
-        state.step.cross_scores -= *cross_score;
+        state.step.cross_scores -= cross_score;
         ++counter;
     }
 
@@ -210,11 +199,7 @@ namespace {
             auto& blank_count{state.step.rack[blank]};
             auto& wildcard_count{state.step.rack[wildcard]};
 
-            auto const extents{word_extent(
-                    state.init.tiles,
-                    state.step.pos,
-                    1,
-                    coord{0, 1})};
+            auto const& crossword_cell = state.init.crossword_cells.cell(state.step.pos);
 
             do {
                 auto const letter{i.letter()};
@@ -226,14 +211,18 @@ namespace {
                     continue;
                 }
 
-                fill_square(state, edge, extents, qualifying_cells_count,
+                fill_square(state, edge, qualifying_cells_count,
                         letter_count,
+                        crossword_cell.filter, crossword_cell.letter_scores,
                         letter);
-                fill_square(state, edge, extents, qualifying_cells_count,
+                fill_square(state, edge, qualifying_cells_count,
                         blank_count,
+                        crossword_cell.filter, crossword_cell.blank_scores,
                         char(std::tolower(letter)));
-                fill_square(state, edge, extents, qualifying_cells_count,
-                        wildcard_count, letter);
+                fill_square(state, edge, qualifying_cells_count,
+                        wildcard_count,
+                        crossword_cell.filter, crossword_cell.letter_scores,
+                        letter);
             }
             while (i!=n_end);
 
