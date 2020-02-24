@@ -12,6 +12,8 @@ NUM_CPUS=$(nproc)
 "${BITS_DIR}/config.sh" \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 
+set +e
+
 cppcheck \
   --enable=all \
   --error-exitcode=1 \
@@ -19,4 +21,10 @@ cppcheck \
   -j "${NUM_CPUS}" \
   --project=compile_commands.json
 
-echo success
+if [[ $? -ne 0 ]] ; then
+  echo failure
+  exit 1
+else
+  echo success
+  exit 0
+fi
