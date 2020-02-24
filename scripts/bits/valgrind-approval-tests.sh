@@ -9,5 +9,3 @@ TESTS_PATH=$1
 
 "${BITS_DIR}/invoke-approval-tests.sh" \
   "${BITS_DIR}/valgrind-approval-test.sh" "${TESTS_PATH}"
-
-echo Valgrind memcheck tests passed

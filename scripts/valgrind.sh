@@ -15,5 +15,15 @@ BITS_DIR=${PROJECT_DIR}/scripts/bits
 
 "${BITS_DIR}/build.sh"
 
+set +e
+
 "${BITS_DIR}/valgrind-approval-tests.sh" \
   "${PROJECT_DIR}/test/bin"
+
+if [[ $? -ne 0 ]] ; then
+  echo failure
+  exit 1
+else
+  echo success
+  exit 0
+fi

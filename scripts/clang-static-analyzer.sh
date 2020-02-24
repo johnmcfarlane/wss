@@ -15,10 +15,18 @@ scan-build \
       "${PROJECT_DIR}" \
       -DCMAKE_CXX_FLAGS="-DNDEBUG"
 
+set +e
+
 scan-build \
   -o scan-build \
   --status-bugs \
     "${PROJECT_DIR}/scripts/bits/build.sh" \
       --clean-first
 
-echo success
+if [[ $? -ne 0 ]] ; then
+  echo failure
+  exit 1
+else
+  echo success
+  exit 0
+fi
