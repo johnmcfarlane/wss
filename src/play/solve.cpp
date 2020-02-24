@@ -77,23 +77,6 @@ namespace {
         finds.erase(last_unique, end(finds));
     }
 
-    auto make_start_state(node const& lexicon, letter_values const& letter_scores,
-            board<char> tiles, board<premium> premiums,
-            std::vector<char>& word, std::string_view letters)
-    {
-        auto qualifying_cells{make_qualifying_cells(tiles)};
-        return initial_state {
-                {},
-                letter_scores,
-                std::move(tiles),
-                std::move(premiums),
-                std::move(qualifying_cells),
-                std::begin(word),
-                lexicon,
-                ssize(letters)
-        };
-    }
-
     auto solve_axial(initial_state& init, step_state& step)
     {
         search_state const state{
@@ -133,9 +116,18 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
     std::vector<result> finds;
     letter_values rack{};
 
-    auto init{make_start_state(
-            lexicon, letter_scores, std::move(tiles),
-            std::move(premiums), word, letters)};
+    auto qualifying_cells{make_qualifying_cells(tiles)};
+    initial_state init{
+            {},
+            letter_scores,
+            std::move(tiles),
+            std::move(premiums),
+            std::move(qualifying_cells),
+            std::begin(word),
+            lexicon,
+            ssize(letters)
+    };
+
     step_state step{
             std::begin(word),
             finds,
