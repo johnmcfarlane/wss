@@ -84,7 +84,6 @@ namespace {
         auto qualifying_cells{make_qualifying_cells(tiles)};
         return initial_state {
                 {},
-                {},
                 letter_scores,
                 std::move(tiles),
                 std::move(premiums),
@@ -95,26 +94,23 @@ namespace {
         };
     }
 
-    auto solve_axial(initial_state& init, step_state& step, int bearing)
+    auto solve_axial(initial_state& init, step_state& step)
     {
-        init.pos.direction[0] = init.cross_direction[1] = 1-bearing;
-        init.pos.direction[1] = init.cross_direction[0] = bearing;
-
         search_state const state{
                 init,
                 step
         };
 
         auto const edge = ssize(init.tiles);
-        for (init.pos.start[init.pos.direction[0]] = 0;
-             init.pos.start[init.pos.direction[0]]!=edge;
-             ++init.pos.start[init.pos.direction[0]]) {
+        for (init.pos[1] = 0;
+             init.pos[1]!=edge;
+             ++init.pos[1]) {
             auto count_back{0};
-            for (init.pos.start[init.pos.direction[1]] = edge-1;
-                 init.pos.start[init.pos.direction[1]]>=0;
-                 --init.pos.start[init.pos.direction[1]]) {
-                step.pos = init.pos.start;
-                if (state.init.qualifying_cells.cell(init.pos.start)) {
+            for (init.pos[0] = edge-1;
+                 init.pos[0]>=0;
+                 --init.pos[0]) {
+                step.pos = init.pos;
+                if (state.init.qualifying_cells.cell(init.pos)) {
                     count_back = init.rack_size;
                 }
                 else {
@@ -155,14 +151,14 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
     auto results = std::vector<result>{};
 
     // horizontal scan
-    solve_axial(init, step, 0);
+    solve_axial(init, step);
     std::swap(step.finds, results);
 
     // vertical scan
     transpose(init.tiles);
     transpose(init.premiums);
     transpose(init.qualifying_cells);
-    solve_axial(init, step, 0);
+    solve_axial(init, step);
     for (auto& result : step.finds)
     {
         transpose(result.pos.start);

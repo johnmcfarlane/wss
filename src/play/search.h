@@ -24,8 +24,7 @@
 #include <wwf_lexicon.h>
 
 struct initial_state {
-    ray pos;
-    coord cross_direction{};
+    coord pos;
     letter_values letter_scores;
     board<char> tiles;
     board<premium> premiums;

@@ -147,7 +147,7 @@ namespace {
     {
         *state.step.word_end++ = letter;
         state.step.num_qualifying_cells += qualifying_cells_count;
-        state.step.pos += state.init.pos.direction;
+        ++state.step.pos[0];
         if (n.is_terminator
                 && state.step.num_qualifying_cells>0
                 && state.step.rack_remaining<state.init.rack_size
@@ -155,14 +155,14 @@ namespace {
                         ==vacant) {
             auto const extents{word_extent(
                     state.init.tiles,
-                    state.init.pos.start,
+                    state.init.pos,
                     std::distance(
                             state.init.word, state.step.word_end),
-                    state.init.pos.direction)};
+                    coord{1, 0})};
             auto const word_score{calc_score(
                     state.init,
-                    state.init.pos.start,
-                    state.init.pos.direction,
+                    state.init.pos,
+                    coord{1, 0},
                     extents,
                     gsl::span<char>{&*state.init.word, &*state.step.word_end})};
             WSS_ASSERT(word_score);
@@ -176,7 +176,7 @@ namespace {
             state.step.finds.emplace_back(result{
                     std::string{state.init.word, state.step.word_end},
                     play_score,
-                    state.init.pos});
+                    {state.init.pos, coord{1, 0}}});
         }
 
         if (state.step.pos[0] < state.init.tiles.size()) {
@@ -184,7 +184,7 @@ namespace {
         }
         
         // cppcheck-suppress unreadVariable
-        state.step.pos -= state.init.pos.direction;
+        state.step.pos -= coord{1, 0};
         // cppcheck-suppress unreadVariable
         state.step.num_qualifying_cells -= qualifying_cells_count;
         --state.step.word_end;
@@ -202,7 +202,7 @@ namespace {
         auto const cross_score{calc_score(
                 state.init,
                 state.step.pos,
-                state.init.cross_direction,
+                coord{0, 1},
                 extents,
                 gsl::span<char>(&letter, 1))};
 
@@ -242,7 +242,7 @@ namespace {
                     state.init.tiles,
                     state.step.pos,
                     1,
-                    state.init.cross_direction)};
+                    coord{0, 1})};
 
             do {
                 auto const letter{i.letter()};
@@ -286,10 +286,10 @@ namespace {
 
 void search(search_state state)
 {
-    if (state.init.qualifying_cells.cell(state.init.pos.start)) {
+    if (state.init.qualifying_cells.cell(state.init.pos)) {
         auto const preceding{get(
                 state.init.tiles,
-                state.init.pos.start-state.init.pos.direction,
+                state.init.pos-coord{1, 0},
                 vacant)};
         if (preceding!=vacant) {
             // The start of a word cannot go on the board here
