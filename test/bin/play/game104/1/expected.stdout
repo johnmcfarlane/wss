@@ -414,6 +414,7 @@
  15  7,6  | aTES
  15  2,9  - cRETICS
  15  5,7  - dITZES
+ 15  5,9  | fEZ
  15  7,9  | fEZ
  15  4,9  - fRITZ
  15  4,7  - fRIZES
@@ -879,6 +880,7 @@
  12  5,9  - dICES
  12  5,7  - dIRECT
  12  5,7  - dITZ
+ 12  5,7  | fET
  12  7,7  | fET
  12  5,9  - fICES
  12  4,7  - fRIZ
@@ -2023,6 +2025,7 @@
   7  4,7  - ETIC
   7  7,8  | Ed
   7  4,7  - EdICT
+  7  5,8  | Ef
   7  7,8  | Ef
   7  5,8  | Eh
   7  5,8  | El
@@ -2230,6 +2233,7 @@
   7  7,7  | dE
   7  5,9  - dIREST
   7  5,9  - dISC
+  7  5,7  | fE
   7  7,7  | fE
   7  5,9  - fISC
   7  5,4  | fRET
@@ -2549,6 +2553,7 @@
   6  5,7  - TItERS
   6  5,9  - TItRE
   6  5,7  - TItRES
+  6  5,4  | TREf
   6  7,4  | TREf
   6  5,4  | TREk
   6  5,4  | TREs
@@ -2642,9 +2647,11 @@
   6  4,7  - eTIC
   6  4,9  - fEIST
   6  4,8  - fEMS
+  6  5,9  | fER
   6  7,9  | fER
   6  5,5  | fET
   6  7,5  | fET
+  6  5,9  | fET
   6  7,9  | fET
   6  5,7  - fICE
   6  5,9  - fIRES
@@ -2875,6 +2882,7 @@
   5  7,5  | REd
   5  3,10 - REdDS
   5  3,10 - REeDS
+  5  5,5  | REf
   5  7,5  | REf
   5  3,7  - REfIT
   5  5,5  | REg
@@ -3113,6 +3121,7 @@
   5  5,7  - dITES
   5  5,8  - eME
   5  5,8  - eMS
+  5  5,9  | fE
   5  7,9  | fE
   5  4,8  - fEM
   5  5,7  - fIRES
@@ -3254,6 +3263,7 @@
   4  4,7  - EdITS
   4  5,10 | Ee
   4  7,10 | Ee
+  4  5,6  | Ef
   4  7,6  | Ef
   4  5,10 | Ef
   4  7,10 | Ef
@@ -4554,6 +4564,8 @@
   1  5,7  - bI
   1  5,9  - bI
   1  5,6  - eT
+  1  5,7  - fI
+  1  5,9  - fI
   1  5,7  - gI
   1  5,9  - gI
   1  5,7  - hI

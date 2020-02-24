@@ -471,6 +471,7 @@
  14  8,4  | JESSEs
  14  8,4  - JOHn
  14  8,4  - JOsH
+ 14  7,6  | NEF
  14  5,2  - THEIR
  14  5,2  | THIEVe
  14  5,2  | THIeVE
@@ -669,6 +670,7 @@
  12  8,4  - JOkE
  12  8,4  - JOlE
  12  8,4  - JOlT
+ 12  7,6  | NeF
  12  9,2  - REF
  12  9,2  - RIF
  12  8,7  - SEXT
@@ -736,9 +738,12 @@
  11  9,8  | EFt
  11  6,4  | EXAcT
  11  6,4  | EXAlT
+ 11  6,8  - EXEaT
  11  6,8  - EXErT
  11  8,8  - EXIT
  11  5,1  - EXTrA
+ 11  6,1  - EXeAT
+ 11  6,3  | EXeAT
  11  6,1  - EXpAT
  11  6,3  | EXpAT
  11  9,8  | EdIT
@@ -768,6 +773,8 @@
  11  9,8  | FEy
  11  7,8  | FEz
  11  9,8  | FEz
+ 11  7,8  | FI
+ 11  9,8  | FI
  11  5,4  | FIVE
  11  5,4  | FIVEr
  11  5,4  | FIVEs
@@ -834,6 +841,8 @@
  11  4,8  - dEXIE
  11  7,8  - dEXIE
  11  8,1  - eATH
+ 11  6,1  - eXEAT
+ 11  6,3  | eXEAT
  11  7,8  | fIX
  11  9,8  | fIX
  11 10,5  | gHI
@@ -1046,6 +1055,8 @@
   9  9,8  | Fa
   9  7,8  | Fe
   9  9,8  | Fe
+  9  7,8  | Fi
+  9  9,8  | Fi
   9  6,5  | HAFIz
   9  6,5  | HAFT
   9  6,5  | HAFTs
@@ -1497,6 +1508,8 @@
   7 10,1  | mE
   7  7,8  | mETH
   7 10,1  | nE
+  7  7,8  | nEF
+  7  9,8  | nEF
   7  5,4  | nEVI
   7  7,8  | oH
   7  7,8  | pITH
@@ -1666,6 +1679,7 @@
   6  9,7  | It
   6  7,6  | NEb
   6  7,6  | NEe
+  6  7,6  | NEf
   6  7,6  | NEt
   6  7,6  | NEw
   6  7,6  | NIb
@@ -2199,6 +2213,7 @@
   5  6,5  | mATH
   5  7,8  - mETH
   5  7,8  | mITE
+  5  7,8  - nEF
   5  7,8  | nITE
   5  8,1  - oAF
   5  6,5  | oAF
@@ -2759,6 +2774,8 @@
   3  6,3  | fETA
   3  5,8  - fETE
   3  7,8  - fETE
+  3  7,8  | fI
+  3  9,8  | fI
   3  7,1  - fIAT
   3  6,4  | fIAT
   3  6,5  | gAIT
