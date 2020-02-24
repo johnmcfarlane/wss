@@ -891,6 +891,7 @@
  21  4,8  - EASe
  21  4,8  - EASed
  21  4,8  - EASel
+ 21  4,8  - EASer
  21  4,8  - EASes
  21  4,8  - EASt
  21  4,8  - EASts
@@ -3549,6 +3550,7 @@
  19  4,8  - eASE
  19  4,8  - eASEd
  19  4,8  - eASEl
+ 19  4,8  - eASEr
  19  4,8  - eASEs
  19  4,8  - eAST
  19  4,8  - eASTs
@@ -6419,6 +6421,7 @@
  16  7,3  | doSE
  16  7,3  | doST
  16  7,1  | eASEd
+ 16  7,1  | eASEr
  16  7,1  | eASEs
  16  7,3  | eASe
  16  7,3  | eASt
@@ -7162,6 +7165,7 @@
  15  7,1  | ArSE
  15  7,1  | AsEA
  15  7,1  | EASed
+ 15  7,1  | EASer
  15  7,1  | EASes
  15  7,1  | EATen
  15  7,1  | EATer
@@ -12128,6 +12132,8 @@
   9  7,6  | EASed
   9  5,6  | EASel
   9  7,6  | EASel
+  9  5,6  | EASer
+  9  7,6  | EASer
   9  5,6  | EASes
   9  7,6  | EASes
   9  5,6  | EASt
@@ -12839,6 +12845,8 @@
   9  7,6  | eASEd
   9  5,6  | eASEl
   9  7,6  | eASEl
+  9  5,6  | eASEr
+  9  7,6  | eASEr
   9  5,6  | eASEs
   9  7,6  | eASEs
   9  5,6  | eAST
@@ -14063,12 +14071,15 @@
   8  6,6  - EASEd
   8  6,6  - EASEl
   8  6,6  - EASEls
+  8  6,6  - EASEr
+  8  6,6  - EASErs
   8  6,6  - EASEs
   8  6,6  - EASTer
   8  6,6  - EASTs
   8  7,7  | EASe
   8  7,7  | EASed
   8  7,7  | EASel
+  8  7,7  | EASer
   8  7,7  | EASes
   8  2,6  - EASiEr
   8  6,6  - EASiEr
@@ -14109,6 +14120,7 @@
   8  7,6  | EArs
   8  6,6  - EAsES
   8  6,6  - EAsElS
+  8  6,6  - EAsErS
   8  2,6  - EAsTEr
   8  6,6  - EAsTEr
   8  6,6  - EAsTS
@@ -17946,6 +17958,7 @@
   7  7,7  | eASE
   7  7,7  | eASEd
   7  7,7  | eASEl
+  7  7,7  | eASEr
   7  7,7  | eASEs
   7  7,7  | eAST
   7  7,7  | eASTs
@@ -19113,6 +19126,7 @@
   6  2,6  - AzoTE
   6  6,6  - EASed
   6  6,6  - EASel
+  6  6,6  - EASer
   6  6,6  - EASes
   6  6,6  - EASts
   6  6,6  - EATen
@@ -19135,6 +19149,7 @@
   6  7,7  | EArs
   6  6,6  - EAsEd
   6  6,6  - EAsEl
+  6  6,6  - EAsEr
   6  6,6  - EAsEs
   6  6,6  - EAsTs
   6  3,7  - EAsY
@@ -19213,6 +19228,7 @@
   6  5,7  - EYreS
   6  6,6  - EaSEd
   6  6,6  - EaSEl
+  6  6,6  - EaSEr
   6  6,6  - EaSEs
   6  6,6  - EaSTs
   6  3,7  - EaSY
@@ -23117,6 +23133,8 @@
   4  3,6  - EASEd
   4  3,6  - EASEl
   4  3,6  - EASEls
+  4  3,6  - EASEr
+  4  3,6  - EASErs
   4  3,6  - EASEs
   4  6,6  - EAST
   4  3,6  - EATEn
@@ -23127,6 +23145,7 @@
   4  3,6  - EAgErS
   4  3,6  - EAsES
   4  3,6  - EAsElS
+  4  3,6  - EAsErS
   4  3,6  - EAtErS
   4  3,6  - EAvES
   4  3,6  - ESTEem
@@ -25352,6 +25371,7 @@
   3  6,6  - EAsE
   3  3,6  - EAsEd
   3  3,6  - EAsEl
+  3  3,6  - EAsEr
   3  3,6  - EAsEs
   3  6,6  - EAsT
   3  3,6  - EAtEn
@@ -25386,6 +25406,7 @@
   3  6,6  - EaSE
   3  3,6  - EaSEd
   3  3,6  - EaSEl
+  3  3,6  - EaSEr
   3  3,6  - EaSEs
   3  6,6  - EaST
   3  3,6  - EaTEn
@@ -26863,6 +26884,7 @@
   3  3,6  - eASE
   3  3,6  - eASEd
   3  3,6  - eASEl
+  3  3,6  - eASEr
   3  3,6  - eASEs
   3  3,6  - eATEn
   3  3,6  - eATEr
