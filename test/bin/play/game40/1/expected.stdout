@@ -1,5 +1,7 @@
  51  1,8  - GALILEES
  45  1,9  - SLEIGH
+ 24  7,7  | ILEAL
+ 22  7,7  | ILEA
  22  7,6  | SALE
  20  2,10 - GLASSIE
  20  7,4  | GLIAL
@@ -18,6 +20,7 @@
  18  6,10 - SILAGE
  17  3,8  - ALLEGES
  17  7,5  | LEAL
+ 17  7,8  | LEAL
  16  3,8  - ALLEGE
  16  1,10 - ALLIES
  16  2,10 - GALES
@@ -25,6 +28,7 @@
  16  4,8  - GLEES
  16  2,10 - GLIAS
  16  2,9  - LAIGHS
+ 16  7,8  | LEAS
  16  7,8  | LEIS
  16  1,10 - LISLES
  16  6,6  - OGLES
@@ -37,6 +41,7 @@
  15  6,8  - EAGLES
  15  1,8  - GALLIES
  15  7,4  | GLIA
+ 15  7,8  | LEA
  15  7,5  | LEAS
  15  5,1  | LEGALS
  15  7,1  | LEGALS
@@ -45,6 +50,8 @@
  15  4,8  - LIEGES
  15  7,8  | SAIL
  15  7,6  | SAL
+ 15  7,8  | SEAL
+ 15  7,8  | SIAL
  14  2,10 - AEGIS
  14  3,8  - AGLEE
  14  1,10 - AISLES
@@ -57,6 +64,7 @@
  14  5,2  | GLIAL
  14  2,9  - LAIGH
  14  4,8  - LIEGE
+ 14  5,1  | LIGASE
  14  7,1  | LIGASE
  14  6,6  - OLLAS
  14  2,10 - SAGES
@@ -65,6 +73,7 @@
  14  6,10 - SELLS
  14  2,10 - SILLS
  14  6,10 - SILLS
+ 13  5,2  | AGILE
  13  7,2  | AGILE
  13  1,8  - ALLEGES
  13  2,7  - ALSIKE
@@ -77,12 +86,14 @@
  13  5,2  | LEGAL
  13  7,6  | SAE
  13  5,9  | SAG
+ 13  7,8  | SEA
  13  5,9  | SEG
  13  7,8  | SEI
  13  5,9  - SHALL
  13  5,9  - SHEILA
  13  5,9  - SHELL
  13  5,9  - SHILL
+ 13  5,1  | SILAGE
  13  7,1  | SILAGE
  13  5,7  - SKELL
  13  5,7  - SKILL
@@ -98,6 +109,7 @@
  12  7,1  | ALLIES
  12  2,8  - ALLIES
  12  4,8  - GAES
+ 12  5,3  | GALE
  12  7,3  | GALE
  12  5,2  | GALLS
  12  7,2  | GALLS
@@ -222,7 +234,11 @@
  10  5,8  - LEGES
  10  2,8  - LIEGE
  10  4,7  - LIKES
+ 10  5,2  | LISLE
  10  7,2  | LISLE
+ 10  7,6  | SA
+ 10  7,8  | SA
+ 10  5,9  | SA
  10  5,3  | SALL
  10  2,9  - SELAH
  10  5,3  | SELL
@@ -238,6 +254,7 @@
   9  5,8  - AEGIS
   9  5,3  | AGES
   9  7,3  | AGES
+  9  5,2  | AISLE
   9  7,2  | AISLE
   9  3,8  - ALEE
   9  5,3  | ALLS
@@ -251,6 +268,7 @@
   9  5,3  | ELLS
   9  7,3  | ELLS
   9  3,8  - ELSE
+  9  4,7  - GAK
   9  5,4  | GAL
   9  3,8  - GALE
   9  5,4  | GEL
@@ -265,6 +283,7 @@
   9  6,7  - KEAS
   9  6,7  - KEG
   9  4,7  - LAKE
+  9  5,3  | LASE
   9  7,3  | LASE
   9  5,3  | LEAS
   9  7,3  | LEAS
@@ -279,6 +298,7 @@
   9  4,7  - LIKE
   9  2,8  - LISLE
   9  5,4  | SAG
+  9  5,3  | SAGE
   9  7,3  | SAGE
   9  5,3  | SAIL
   9  5,3  | SEAL
@@ -312,6 +332,7 @@
   8  6,9  - HIES
   8  4,7  - ILK
   8  5,4  | ILL
+  8  5,3  | ISLE
   8  7,3  | ISLE
   8  2,8  - LEASE
   8  5,8  - LEASE
@@ -324,10 +345,12 @@
   8  3,8  - SAGE
   8  4,7  - SAKE
   8  4,7  - SAKI
+  8  5,3  | SALE
   8  7,3  | SALE
   8  5,9  - SHEA
   8  4,7  - SIKA
   8  4,7  - SIKE
+  7  5,4  | AGE
   7  7,4  | AGE
   7  4,8  - AGE
   7  3,6  - AGIOS
@@ -342,6 +365,7 @@
   7  4,7  - ASK
   7  5,8  - EELS
   7  6,8  - ELSE
+  7  5,4  | GAE
   7  7,4  | GAE
   7  3,10 - GALS
   7  4,6  - GAOL
@@ -349,13 +373,16 @@
   7  7,4  | GAS
   7  4,10 - GASES
   7  3,10 - GELS
+  7  5,4  | GIE
   7  7,4  | GIE
   7  5,6  - GOAL
   7  4,8  - ILEA
   7  3,8  - ISLE
   7  6,7  - KAE
+  7  6,7  - KAI
   7  6,7  - KAS
   7  6,7  - KEA
+  7  6,7  - KES
   7  6,7  - KIS
   7  3,10 - LAGS
   7  3,8  - LASE
@@ -383,10 +410,12 @@
   7  6,10 - SLAG
   7  4,6  - SLOG
   6  5,10 | AG
+  6  7,10 | AG
   6  3,10 - AGES
   6  3,6  - AGIO
   6  4,10 - AISLE
   6  5,5  | AL
+  6  5,4  | ALE
   6  7,4  | ALE
   6  4,8  - ALE
   6  3,10 - ALLS
@@ -425,6 +454,7 @@
   6  4,10 - LASSI
   6  5,8  - LEG
   6  7,4  | LEI
+  6  5,4  | LIE
   6  7,4  | LIE
   6  3,6  - LILO
   6  5,4  | LIS
@@ -450,12 +480,15 @@
   5  5,4  | AIS
   5  7,4  | AIS
   5  5,10 | AL
+  5  7,10 | AL
   5  3,10 - ALES
   5  4,6  - ALOE
   5  3,6  - ALSO
   5  4,6  - EGO
   5  5,9  - EH
   5  5,10 | EL
+  5  4,8  - ESE
+  5  6,8  - ESE
   5  4,10 - GAS
   5  5,8  - GEE
   5  5,6  - GOA
@@ -476,6 +509,7 @@
   5  6,6  - OILS
   5  6,6  - OLEA
   5  6,6  - OLES
+  5  5,4  | SAE
   5  7,4  | SAE
   5  4,8  - SAE
   5  6,10 - SAG
@@ -498,14 +532,18 @@
   5  5,6  - SOLA
   5  5,6  - SOLE
   5  5,6  - SOLI
+  4  5,5  | AE
   4  7,5  | AE
   4  5,10 | AE
+  4  7,10 | AE
   4  7,5  | AI
   4  5,10 | AI
+  4  7,10 | AI
   4  4,10 - ALS
   4  5,5  | AS
   4  7,5  | AS
   4  5,10 | AS
+  4  7,10 | AS
   4  5,8  - EEL
   4  4,10 - ELS
   4  5,5  | ES
@@ -553,11 +591,13 @@
   2  5,10 - AS
   2  5,8  - EE
   2  6,8  - EE
+  2  5,6  - EO
   2  6,8  - ES
   2  5,10 - ES
   2  5,10 - IS
   2  6,6  - OE
   2  6,6  - OI
   2  6,6  - OS
+  2  6,10 - SA
   2  6,10 - SI
   2  5,6  - SO

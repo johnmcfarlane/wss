@@ -15,17 +15,22 @@
  25  9,7  - AXE
  25  3,5  - WAXEN
  25  3,7  - WAXEN
+ 25  7,7  - WEAL
  25  7,5  - WEAN
+ 25  7,7  - WEAN
  24  9,7  - AX
  24  8,6  | DEWAX
  24  9,7  - EX
  22  5,7  - LEX
  21  7,7  - LEAN
  20  6,7  - EX
+ 20  7,7  - WAE
  20  7,3  | WAXEN
  19  9,5  | LYNX
  18  9,5  - AWL
+ 18  9,7  - AWL
  18  9,5  - AWN
+ 18  9,7  - AWN
  18  8,2  | AXLED
  18  8,6  | DAWEN
  18  8,6  | DEWAN
@@ -34,17 +39,24 @@
  18  3,7  - LAZE
  18  6,6  | REWAN
  18  6,2  | WALER
+ 18  5,5  - ZEN
+ 18  5,7  - ZEN
  17  9,5  - AWE
+ 17  9,7  - AWE
  17  4,7  - AXEL
  17  8,6  | DAWN
  17  6,4  | WAREZ
  16  8,5  | ADZE
  16  9,5  - AW
+ 16  9,7  - AW
  16  6,5  - AWE
  16  8,3  | AWED
+ 16  9,7  - EW
  16  8,4  | LADEN
+ 16  8,1  | LAWNED
  16  7,3  | LAZE
  16  7,7  - LEA
+ 16  7,7  - NAE
  16  8,4  | WADE
  16  9,3  | WALY
  16  8,3  | WANDLE
@@ -53,6 +65,7 @@
  16 10,3  | WAXEN
  16  9,5  | WYLE
  15  4,5  - ANEW
+ 15  4,7  - ANEW
  15  3,5  - AXLE
  15  3,7  - AXLE
  15  8,6  | DAW
@@ -70,6 +83,7 @@
  14 10,3  | LAZE
  14  5,5  - NAW
  14  5,5  - NEW
+ 14  5,7  - NEW
  14  6,6  | RENAL
  14  3,5  - WALE
  14  3,7  - WALE
@@ -88,11 +102,14 @@
  13  6,6  | RAZE
  13  9,2  | WANEY
  13  7,5  - WE
+ 13  7,7  - WE
  13  4,5  - WEAN
  13  9,5  | WYE
  13  9,6  | YAWL
  13  9,6  | YAWN
  13  5,5  - ZA
+ 13  7,5  | ZEN
+ 13 10,5  | ZEN
  12  9,7  - AL
  12  9,5  - AN
  12  9,7  - AN
@@ -105,6 +122,8 @@
  12 10,3  | AXLE
  12  9,7  - EL
  12  9,7  - EN
+ 12  6,5  - EW
+ 12  6,7  - EW
  12  8,2  | NALED
  12  7,3  | NEWEL
  12  7,5  | NEWEL
@@ -118,6 +137,7 @@
  12 10,4  | ZEE
  12  7,5  | ZEE
  12 10,5  | ZEE
+ 11  8,7  - AE
  11 10,5  - AX
  11  4,5  - ELAN
  11 10,5  - EX
@@ -144,6 +164,7 @@
  10  6,6  | REX
  10  5,5  - WAE
  10 10,5  - WE
+ 10 10,7  - WE
  10  9,6  | YEAN
   9  7,2  | ANELE
   9  8,6  | DAL
@@ -152,14 +173,17 @@
   9  8,6  | DEN
   9  7,6  | EX
   9 10,6  | EX
+  9  7,7  - LA
   9  8,4  | LAD
   9  8,3  | LAND
   9  8,4  | LED
   9  8,3  | LEND
   9  9,5  | LYE
   9  7,5  - NA
+  9  7,7  - NA
   9  7,5  - NE
   9  7,7  - NE
+  9  8,4  | NED
   9  9,4  | WAY
   9  9,6  | YAW
   9  9,6  | YEW
@@ -209,6 +233,8 @@
   7  9,5  | AYE
   7  8,4  | ELD
   7  8,4  | END
+  7 10,5  - EW
+  7 10,7  - EW
   7  9,4  | LAY
   7  6,3  | LEARN
   7  9,4  | LEY
@@ -267,6 +293,8 @@
   5 10,7  - EL
   5 10,5  - EN
   5 10,7  - EN
+  5  7,6  | EW
+  5 10,6  | EW
   5  5,5  - LA
   5  6,3  | LEAR
   5  5,5  - NA
@@ -290,6 +318,10 @@
   4 10,5  | EEL
   4  7,6  | EEL
   4 10,6  | EEL
+  4  7,5  | EEN
+  4 10,5  | EEN
+  4  7,6  | EEN
+  4 10,6  | EEN
   4  6,5  | ERN
   4  6,4  | LAR
   4  7,5  | LEA
@@ -307,6 +339,7 @@
   4  6,6  | RAN
   3  8,5  | AD
   3  6,5  | ARE
+  3  8,6  | DA
   3  8,6  | DE
   3  6,4  | EAR
   3  8,5  | ED

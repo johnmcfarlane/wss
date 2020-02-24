@@ -1,5 +1,12 @@
  49  6,9  - TOUPEE
+ 30  3,7  - VEEP
+ 24  4,6  | NUN
+ 24  5,7  - OPEN
  24  6,2  | POUTINE
+ 22  5,7  - EPE
+ 22  5,7  - OPE
+ 22  5,7  - OPT
+ 21  5,7  - OP
  21  3,7  - VEE
  21  3,7  - VOE
  20  4,1  | UNOPEN
@@ -9,44 +16,63 @@
  18  9,6  | UNOPEN
  18  9,10 - UPO
  17  5,7  - EN
+ 17  4,8  | EPE
  17  5,7  - ON
+ 17  4,8  | OPE
  17  8,10 - OUT
  17  9,7  | UNPEN
  17  4,3  | UPON
+ 16  8,10 - EEN
  16  8,10 - EON
  16  4,3  | OPEN
  16  3,8  - OPEN
  16  6,5  - POTEEN
+ 16  6,7  - POTEEN
  16  4,4  | PUN
  16  6,5  - PUNTO
+ 16  6,7  - PUNTO
  16  6,5  - PUTON
+ 16  6,7  - PUTON
  16  6,5  - TOUPEE
  16  6,7  - TOUPEE
  16  9,10 - UP
+ 15  9,10 - EPE
  15  5,7  - ET
+ 15  6,5  - NEEP
  15  6,7  - NEEP
  15  9,10 - OPE
  15  9,10 - OPT
  15  6,5  - PEEN
+ 15  6,7  - PEEN
  15  4,4  | PEN
  15  6,5  - PEON
+ 15  6,7  - PEON
  15  6,5  - PUNT
+ 15  6,7  - PUNT
  15  9,7  | PUTON
+ 14  6,9  - EPE
  14  5,6  | JUN
  14  3,8  - OPE
  14  3,8  - OPT
  14  6,5  - PENT
+ 14  6,7  - PENT
  14  6,5  - PONE
+ 14  6,7  - PONE
  14  6,5  - POUT
+ 14  6,7  - POUT
  14  6,9  - TOPEE
  13  5,6  | JEU
  13  5,6  | JUT
+ 13  6,5  - NETOP
  13  6,7  - NETOP
  13  8,8  | NEUM
+ 13  4,8  | ONE
  13  3,8  - OP
  13  9,10 - OP
  13  6,5  - POET
+ 13  6,7  - POET
  13  6,5  - PUN
+ 13  6,7  - PUN
  13  2,3  | PUNK
  13  6,9  - TOPE
  13  6,9  - TUNE
@@ -57,51 +83,68 @@
  12  5,6  | JOE
  12  5,6  | JOT
  12  8,8  | NEEM
+ 12  6,5  - NOPE
  12  6,7  - NOPE
  12  8,7  | NOTUM
  12  5,9  - OE
  12  6,5  - OPEN
  12  9,8  | OPEN
  12  6,5  - PEN
+ 12  6,7  - PEN
  12  4,1  | POTEEN
  12  9,6  | POTEEN
  12  9,9  | PUN
  12  6,5  - PUT
+ 12  6,7  - PUT
  12  4,2  | PUTON
  12  6,9  - TEEN
+ 12  5,4  | TEJ
  12  9,10 - UN
  12  9,10 - UTE
+ 11  9,10 - EEN
  11  9,10 - EON
  11  5,6  | JE
  11  5,6  | JO
+ 11  4,6  | NU
  11  9,10 - ONE
  11  9,10 - OUT
  11  6,5  - PEE
+ 11  6,7  - PEE
  11  2,3  | PEEK
  11  9,9  | PEN
  11  6,5  - PET
+ 11  6,7  - PET
  11  6,5  - POT
+ 11  6,7  - POT
  11  4,2  | TENON
  11  6,9  - TONE
  11  6,9  - TOP
  11  6,5  - TOPEE
  11  6,7  - TOPEE
  11  6,9  - TUN
+ 11  3,7  - VU
  10  8,10 - EE
+ 10  8,10 - EO
+ 10  3,9  - IP
  10  2,3  | NEUK
  10  4,4  | NUN
  10  8,10 - OE
  10  6,5  - PE
+ 10  6,7  - PE
+ 10  4,9  | PE
  10  4,3  | PEEN
  10  4,3  | PEON
  10  6,5  - PO
+ 10  6,7  - PO
  10  9,7  | TENON
  10  6,5  - TOPE
  10  6,7  - TOPE
  10  9,10 - UT
+  9  6,9  - EEN
   9  6,9  - EN
   9  9,10 - EN
   9  6,9  - EON
+  9  6,5  - NOTE
   9  6,7  - NOTE
   9  4,3  | NOUN
   9  9,10 - ON
@@ -120,9 +163,11 @@
   9  6,7  - TUNE
   9  6,5  - TUP
   9  6,7  - TUP
+  8  2,4  | NEK
   8  4,3  | NEON
   8  9,8  | NOUN
   8  9,9  | NUN
+  8  6,5  - NUT
   8  6,7  - NUT
   8  3,8  - ONE
   8  3,8  - ONO
@@ -144,14 +189,20 @@
   7  6,9  - EE
   7  9,10 - EE
   7  2,4  | EEK
+  7  6,9  - EO
+  7  9,10 - EO
   7  6,9  - ET
   7  9,10 - ET
+  7  6,5  - NEE
   7  6,7  - NEE
   7  9,8  | NEON
+  7  6,5  - NET
   7  6,7  - NET
   7  6,5  | NIP
   7  8,9  | NOM
+  7  6,5  - NOT
   7  6,7  - NOT
+  7  6,5  - NU
   7  6,7  - NU
   7  9,10 - OE
   7  3,8  - ON
@@ -167,10 +218,13 @@
   7  6,7  - TUN
   7  6,4  | UNITE
   7  6,3  | UNTIE
+  6  4,4  | EEN
   6  4,4  | EON
   6  3,9  - IN
+  6  6,5  - NE
   6  6,7  - NE
   6  4,9  | NE
+  6  6,5  - NO
   6  6,7  - NO
   6  6,8  | NOEL
   6  6,5  - ONE
@@ -179,6 +233,7 @@
   6  6,5  | PIT
   6  6,4  | POI
   6  9,8  | TEEN
+  6  8,9  | TEM
   6  4,4  | TEN
   6  6,5  - TEN
   6  6,7  - TEN
@@ -191,9 +246,11 @@
   6  9,9  | TUN
   6  8,10 | UM
   6  6,4  | UNIT
+  5  9,9  | EEN
   5  8,10 | EM
   5  9,9  | EON
   5  6,3  | ETUI
+  5  6,6  | IP
   5  6,5  | NITE
   5  8,10 | OM
   5  6,5  - ON
@@ -209,11 +266,14 @@
   5  6,7  - TOE
   5  9,9  | TON
   4  6,9  | EEL
+  4  4,10 | EO
   4  6,6  | ION
   4  3,9  - IT
   4  6,5  | NIT
   4  6,5  - OE
   4  3,8  - OE
+  4  3,8  - OO
+  4  3,11 - SO
   4  6,5  - TE
   4  6,7  - TE
   4  4,9  | TE
@@ -227,6 +287,7 @@
   3  4,5  | EN
   3  9,10 | EN
   3  6,6  | IN
+  3  6,5  | NI
   3  4,5  | ON
   3  9,10 | ON
   3  6,5  | TIE

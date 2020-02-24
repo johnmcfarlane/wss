@@ -50,6 +50,7 @@
  16  6,6  - ELAND
  16  6,6  - ENROLS
  16  1,1  - JAGRA
+ 16  5,3  | VAN
  16 10,2  | YARDS
  16 10,2  | YARNS
  15  2,9  | AL
@@ -57,8 +58,11 @@
  15  1,9  - DORE
  15  1,1  - JAGS
  15  1,9  - LORE
+ 15  7,5  | NODAL
  15  3,9  - RELANDS
+ 15  7,5  | SOLAND
  14  5,7  | AS
+ 14  7,5  | DORSAL
  14  6,6  - ELANS
  14  6,6  - ENOLS
  14  6,6  - ENROL
@@ -71,13 +75,16 @@
  14  2,8  - REFOLDS
  14  1,4  - RIAS
  14  7,5  | SNARL
+ 14  7,5  | SOLDAN
  14  5,3  | VAS
  14  6,4  - WANDS
  14  6,4  - WOLDS
  13 10,3  - AD
  13 10,3  - AL
  13 10,3  - AN
+ 13  2,8  | DA
  13  2,8  | DO
+ 13  7,5  | DONAS
  13  9,2  | KAONS
  13  9,2  | KARNS
  13  9,2  | KNARS
@@ -94,6 +101,7 @@
  13  3,9  - RELAND
  13  3,9  - RELOADS
  13  3,9  - RELOANS
+ 13  7,5  | SOLAN
  13  7,6  | SOLDAN
  13  6,4  - WAND
  13  6,4  - WOALDS
@@ -102,6 +110,7 @@
  12  2,11 - ASS
  12  3,10 - ArDORS
  12  7,6  | DARNS
+ 12  7,5  | DORSA
  12  7,6  | DORSAL
  12  6,6  - EARLS
  12  6,6  - EARNS
@@ -135,7 +144,10 @@
  11 10,1  - AL
  11 10,1  - AN
  11  7,6  | DARN
+ 11  7,5  | DOLS
+ 11  7,5  | DONA
  11  7,6  | DONAS
+ 11  7,5  | DONS
  11  9,2  | KOLA
  11  9,2  | KORAS
  11  7,6  | LARD
@@ -145,6 +157,7 @@
  11  7,6  | LORD
  11  7,6  | LORN
  11  7,6  | NARD
+ 11  7,5  | NODS
  11  8,2  | NONAS
  11 10,1  - OD
  11  7,4  | OD
@@ -159,6 +172,8 @@
  11  3,9  - RELOAN
  11  3,9  - RENAL
  11  3,9  - RESOLD
+ 11  7,5  | SOLAR
+ 11  7,5  | SONAR
  11  6,4  - WAD
  11  6,4  - WAN
  11  6,4  - WARDS
@@ -175,9 +190,12 @@
  10  7,6  | DALS
  10  7,6  | DANS
  10  2,10 - DArN
+ 10  7,5  | DOL
  10  7,6  | DOLS
+ 10  7,5  | DON
  10  7,6  | DONA
  10  7,6  | DONS
+ 10  7,5  | DORS
  10  7,6  | DORSA
  10  6,5  - INDOLS
  10  6,5  - ISLAND
@@ -190,10 +208,12 @@
  10  8,2  | NANS
  10  2,10 - NArD
  10  5,5  - NIDAL
+ 10  7,5  | NOD
  10  8,2  | NODS
  10  7,6  | NODS
  10  8,2  | NONA
  10 10,3  - OR
+ 10  7,6  | ORALS
  10 10,3  - OS
  10  7,6  | RADON
  10  7,6  | RAND
@@ -204,6 +224,7 @@
  10  7,6  | SAND
  10  7,6  | SNARL
  10  7,6  | SOLAN
+ 10  7,5  | SOLD
  10  7,6  | SOLD
  10  6,4  - WARD
  10  6,4  - WARN
@@ -212,10 +233,14 @@
  10  6,4  - WORN
   9  1,8  - ALEFS
   9  8,1  | ANDRO
+  9  7,1  - DA
   9  4,2  | DAL
   9  4,2  | DAN
   9  5,5  - DINARS
+  9  7,1  - DO
+  9  7,5  | DOR
   9  7,6  | DORS
+  9  7,5  | DOS
   9  2,9  - DREARS
   9  6,5  - IDOLS
   9  6,5  - INDOL
@@ -227,10 +252,17 @@
   9  5,5  - LIDARS
   9  7,1  - LO
   9 10,1  | LYARD
+  9  7,1  - NA
   9  8,2  | NAN
   9  7,6  | NAOS
   9  8,2  | NARDS
+  9  7,1  - NO
   9  8,2  | NOD
+  9  7,5  | NOR
+  9  7,5  | NOS
+  9  7,6  | OLDS
+  9  7,6  | ORAD
+  9  7,6  | ORAL
   9  2,9  - OREADS
   9  7,4  | OS
   9  3,9  - REASON
@@ -243,9 +275,13 @@
   9  7,6  | SARD
   9  7,6  | SAROD
   9  8,1  | SNARL
+  9  7,5  | SODA
+  9  7,5  | SOLA
   9  7,6  | SOLAR
   9  7,6  | SONAR
+  9  7,5  | SORD
   9  7,6  | SORD
+  9  7,5  | SORN
   9  7,6  | SORN
   9 10,1  | SYNOD
   9  6,4  - WARS
@@ -263,6 +299,7 @@
   8  5,5  - DINOS
   8  5,5  - DIOLS
   8  5,5  - DIRLS
+  8  7,5  | DO
   8  7,6  | DOL
   8  7,6  | DON
   8  1,11 - DOS
@@ -279,9 +316,13 @@
   8  5,5  - LIDOS
   8  5,5  - LINOS
   8  5,5  - LIONS
+  8  7,6  | LSD
   8  8,2  | NARD
+  8  7,5  | NO
   8  7,6  | NOD
   8  1,11 - NOS
+  8  4,2  | OAD
+  8  7,6  | ODAS
   8 10,1  - OR
   8 10,1  - OS
   8  4,2  | RAD
@@ -296,9 +337,15 @@
   8 10,1  | RYND
   8  4,2  | SAD
   8  4,2  | SAL
+  8  4,2  | SAN
   8  2,10 - SArD
+  8  7,5  | SOAR
+  8  7,5  | SOD
   8  7,6  | SODA
+  8  7,5  | SOL
   8  7,6  | SOLA
+  8  7,5  | SON
+  8  7,5  | SORA
   8  6,4  - WAR
   8  6,4  - WAS
   8  6,4  - WOS
@@ -312,6 +359,8 @@
   7  7,6  | DOR
   7  7,6  | DOS
   7  2,9  - DREAR
+  7  2,2  - EO
+  7  3,1  | GOT
   7  6,5  - IRON
   7  9,2  | KA
   7  7,6  | LAR
@@ -322,7 +371,10 @@
   7  2,8  - NEF
   7  7,6  | NOR
   7  7,6  | NOS
+  7  7,6  | OARS
+  7  7,6  | OLD
   7  2,9  - OREAD
+  7  7,6  | OSAR
   7  3,7  - PED
   7  3,7  - PEN
   7  3,9  - REARS
@@ -331,6 +383,7 @@
   7  2,8  - REFS
   7  1,4  - RIA
   7  5,5  - RIALS
+  7  7,1  - SA
   7  7,1  - SO
   7  7,6  | SOAR
   7  7,6  | SORA
@@ -339,6 +392,8 @@
   7 10,2  | YODS
   6  1,11 - ADS
   6  1,11 - ALS
+  6  7,6  | DA
+  6  1,4  - DI
   6  5,5  - DIAL
   6  5,5  - DINO
   6  5,5  - DINS
@@ -363,12 +418,19 @@
   6  5,5  - LION
   6  7,6  | LO
   6  7,6  | NA
+  6  1,4  - NI
   6  5,5  - NILS
   6  7,6  | NO
   6  8,2  | NOR
   6  8,2  | NOS
+  6  7,6  | OAD
   6  2,10 - OArS
+  6  1,3  | OD
+  6  7,6  | ODA
+  6  7,6  | ODS
   6  1,11 - ODS
+  6  1,3  | ON
+  6  7,6  | ONS
   6  1,11 - ONS
   6  1,10 - OSAr
   6  3,7  - PEA
@@ -386,12 +448,15 @@
   6 10,1  | RYAS
   6  7,6  | SAD
   6  7,6  | SAL
+  6  7,6  | SAN
   6  5,5  - SILD
+  6  7,5  | SO
   6  1,10 - SOAr
   6  7,6  | SOD
   6  7,6  | SOL
   6  7,6  | SON
   6 10,1  | SYN
+  6 10,2  | YNO
   6 10,2  | YOD
   6 10,2  | YON
   5  4,2  | AAS
@@ -417,8 +482,13 @@
   5  5,5  - LIRA
   5  5,5  - NIL
   5  4,2  | OAR
+  5  7,6  | OAR
+  5  7,6  | OD
   5  5,5  - OILS
+  5  7,6  | ON
+  5  7,6  | ORA
   5  2,9  - ORES
+  5  7,6  | ORS
   5  1,11 - ORS
   5  4,2  | RAS
   5  7,6  | RAS
@@ -456,14 +526,20 @@
   4  5,5  - LIS
   4  1,5  - NU
   4  2,10 - OAr
+  4  1,4  - OI
   4  5,5  - OIL
   4  8,1  | ONS
+  4  1,3  | OO
+  4  7,6  | OR
   4  1,3  | OS
+  4  7,6  | OS
   4 10,1  | OY
   4  3,9  - RES
   4  5,5  - RIAS
   4  5,5  - RID
   4  5,5  - RIN
+  4  7,6  | SA
+  4  5,10 | SA
   4  1,4  - SI
   4  5,5  - SIN
   4  7,6  | SO
@@ -474,6 +550,9 @@
   3  5,5  - AIS
   3  8,1  | AN
   3  2,9  - ARE
+  3  4,2  | DA
+  3  7,1  | DI
+  3  5,5  - DI
   3  6,6  - EAR
   3  6,6  - ED
   3  6,6  - EL
@@ -487,6 +566,8 @@
   3  5,5  - LI
   3  4,2  | NA
   3  8,2  | NA
+  3  7,1  | NI
+  3  5,5  - NI
   3  8,2  | NO
   3  8,1  | ON
   3  2,9  - ORE
@@ -497,11 +578,13 @@
   2  5,5  - AI
   2  2,11 - AS
   2  3,10 - ArS
+  2  6,6  - EO
   2  6,6  - ER
   2  6,6  - ES
   2  6,5  - IS
   2  7,1  | OI
   2  5,5  - OI
   2  2,11 - OS
+  2  4,2  | SA
   2  7,1  | SI
   2  5,5  - SI

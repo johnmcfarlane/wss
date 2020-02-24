@@ -18,6 +18,7 @@
  20  8,6  | EAVED
  20  8,3  | JAPED
  20  8,3  | PAVEED
+ 20  7,5  - VOE
  19  9,2  | JAPES
  19  8,5  | VEEP
  18 10,2  | ADEPT
@@ -26,6 +27,7 @@
  18  8,6  | EAVE
  18  8,3  | JAPE
  18  8,5  | JEED
+ 18  7,7  - PEA
  18 10,6  | TAPED
  18 10,6  | TOPED
  17  9,2  | JADES
@@ -36,12 +38,14 @@
  17  8,4  | VEE
  17  8,4  | VOE
  16  8,5  | DEEP
+ 16  8,5  | DEJA
  16  9,3  | DEVS
  16  8,3  | JADE
  16  8,4  | PEED
  16  7,6  | UPDOVE
  15  8,4  | AJEE
  15  9,2  | APODS
+ 15  9,4  | JOSE
  15  7,5  | JUDO
  15  8,3  | PAVED
  15  9,6  | SOAVE
@@ -69,6 +73,7 @@
  13 10,4  | JOTA
  13  8,3  | PAVE
  13  7,7  - PE
+ 13  7,7  - PO
  12  9,4  | APSE
  12  8,2  | DEAVE
  12  8,4  | DEEP
@@ -86,6 +91,7 @@
  12  9,6  | SOAP
  12  9,6  | SPAE
  12 10,6  | TAJ
+ 12 10,6  | TEJ
  11  9,5  | ASP
  11  8,5  | DEVA
  11  9,2  | DOPAS
@@ -99,11 +105,15 @@
  10  8,4  | APED
  10  9,3  | AVES
  10  9,3  | AVOS
+ 10  8,5  - DA
+ 10  8,7  - DA
  10  8,5  - DE
  10  8,5  - DO
  10  8,7  - DO
  10  8,3  | DOPE
  10  8,3  | EAVE
+ 10  9,5  - OAD
+ 10  9,7  - OAD
  10  8,4  | OPED
  10  9,4  | OPS
  10  9,4  | PASEO
@@ -129,17 +139,23 @@
   9  9,4  | POSE
   8  8,5  - AE
   8  9,5  - AE
+  8  9,7  - AE
   8  8,4  | APE
   8  8,4  | DEE
   8  8,5  | DEV
   8  8,4  | DOE
   8  9,3  | DOES
   8  7,5  | DUP
+  8  8,5  - EO
+  8  8,7  - EO
+  8  8,4  | EPE
+  8  8,6  | EPE
   8  8,5  - OE
   8  9,5  - OE
   8  9,7  - OE
   8  8,4  | OPE
   8  7,5  | PUD
+  8  9,6  | SEV
   8  9,4  | VAS
   8  7,4  | VAU
   8 10,4  | VETO
@@ -170,6 +186,7 @@
   7 10,4  | VAT
   7  8,5  | VEE
   7 10,4  | VET
+  7  7,5  | VU
   6  9,4  | ADS
   6 10,4  | APT
   6  9,4  | EDS
@@ -209,6 +226,8 @@
   4  8,5  | DEE
   4 10,4  | DOT
   4  7,4  | EAU
+  4 10,5  - EO
+  4 10,7  - EO
   4 10,7  - OE
   4  9,4  | OES
   4  9,6  | SAE
@@ -226,6 +245,7 @@
   3 10,5  | ETA
   3 10,4  | OAT
   3  9,5  | OS
+  3  9,6  | SA
   3  9,6  | SO
   3 10,6  | TAE
   3 10,6  | TAO
@@ -235,6 +255,7 @@
   2 10,5  | AT
   2  8,5  | EE
   2  8,6  | EE
+  2  8,6  | EO
   2 10,5  | ET
   2  8,5  | OE
   2 10,6  | TA

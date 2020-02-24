@@ -32,6 +32,7 @@
  48  8,11 - OKEH
  48  9,11 - eEK
  48  9,11 - lEK
+ 48  9,11 - nEK
  48  9,11 - zEK
  45  8,11 - oKEH
  42  5,11 - HAcKEES
@@ -144,6 +145,7 @@
  30  7,11 - jOKES
  30  7,11 - lAKES
  30  7,11 - mAKES
+ 30  9,11 - mEH
  30  7,11 - mOKES
  30  9,11 - pEH
  30  7,11 - pEKES
@@ -227,6 +229,7 @@
  27  7,11 - HiKE
  27  7,11 - HoKE
  27  9,11 - KEA
+ 27  9,11 - KES
  27  5,11 - KEtOSE
  27  8,11 - KHEt
  27  4,8  - KHaNS
@@ -269,6 +272,7 @@
  26  4,10 - KAfS
  26  4,10 - KAtS
  26  4,10 - KAyS
+ 26  5,10 - KES
  26  4,10 - KEaS
  26  4,10 - KEfS
  26  4,10 - KEgS
@@ -293,6 +297,7 @@
  26  4,10 - OKaS
  26  4,10 - OKeS
  26  4,10 - OaKS
+ 26  3,8  - SKeANE
  26  5,10 - bASH
  26  5,10 - bOSH
  26  5,10 - cASH
@@ -347,10 +352,12 @@
  25  4,10 - KOAs
  25  4,10 - KOSs
  25  4,8  - KOaNS
+ 25  4,8  - KOiNE
  25  4,8  - KaONS
  25  4,8  - KeENS
  25  4,8  - KhANS
  25  4,8  - KoANS
+ 25  4,8  - KrONE
  25  4,10 - OAKs
  25  4,10 - OKAs
  25  4,10 - OKEs
@@ -430,6 +437,7 @@
  24  3,10 - HOyAS
  24  5,10 - HoSE
  24  5,10 - KaS
+ 24  5,10 - KeS
  24  5,10 - KiS
  24  5,10 - KoS
  24 11,1  | LOWES
@@ -480,6 +488,7 @@
  23  5,10 - HOSe
  23  5,10 - HOsE
  23  5,10 - KAs
+ 23  5,10 - KEs
  23  5,10 - KOs
  23  3,10 - SHEAs
  23  3,10 - SHOEs
@@ -502,6 +511,7 @@
  22  4,10 - HEhS
  22  4,10 - HEmS
  22  4,10 - HEnS
+ 22  4,10 - HEpS
  22  4,10 - HErS
  22  4,10 - HEtS
  22  4,10 - HEwS
@@ -540,6 +550,7 @@
  22  4,10 - rHOS
  22  4,10 - sHES
  21  5,11 - AHOrSE
+ 21 11,6  | AKEE
  21  8,11 - AKEe
  21  7,11 - AKeE
  21  5,11 - ASHOrE
@@ -577,7 +588,9 @@
  21  8,11 - OKEs
  21  5,11 - SHEAvE
  21  4,10 - SHEs
+ 21  3,8  - SKEANe
  21  3,8  - SKEANs
+ 21  8,11 - SKEd
  21  8,11 - SKEe
  21  8,11 - SKEg
  21  8,11 - SKEp
@@ -623,6 +636,7 @@
  20 11,8  | AEOn
  20  3,10 - AEOnS
  20  3,10 - AlOES
+ 20  5,10 - AlSO
  20  5,10 - ApSE
  20  5,10 - ArSE
  20  5,10 - HaS
@@ -644,11 +658,13 @@
  20  5,10 - dOSE
  20  5,10 - eASE
  20  5,10 - hOSE
+ 20  5,10 - jOSE
  20  5,10 - lASE
  20  5,10 - lOSE
  20  5,10 - nOSE
  20  5,10 - oHS
  20  5,10 - pASE
+ 20  5,10 - pESO
  20  5,10 - pOSE
  20  5,10 - rASE
  20  5,10 - rOSE
@@ -656,6 +672,7 @@
  20  5,10 - vASE
  20  3,10 - zOEAS
  19  5,10 - AHs
+ 19 11,6  | AKeE
  19  5,10 - EASe
  19  5,10 - EASy
  19  2,8  - HArKENS
@@ -673,6 +690,7 @@
  19  3,8  - SKEiN
  19  3,8  - SKeAN
  19  3,8  - SKeEN
+ 19 11,6  | aKEE
  19  3,8  - sKEAN
  19 11,7  | tOEA
  19  2,8  - wEAKONS
@@ -729,12 +747,14 @@
  18  4,8  - KAoN
  18  4,8  - KArN
  18  9,11 - KEa
+ 18  9,11 - KEd
  18  4,8  - KEeN
  18  9,11 - KEf
  18  9,11 - KEg
  18  9,11 - KEn
  18  9,11 - KEp
  18  4,8  - KErN
+ 18  9,11 - KEs
  18  9,11 - KEx
  18  9,11 - KEy
  18  4,8  - KOaN
@@ -794,6 +814,7 @@
  18  6,11 - cHOSE
  18  4,10 - dOES
  18  8,11 - eKE
+ 18  6,10 - eSE
  18  4,10 - fOES
  18  4,10 - gAES
  18  4,10 - gOAS
@@ -833,27 +854,36 @@
  18  6,11 - wHOSE
  18  4,10 - wOES
  18  4,10 - yEAS
+ 17  4,8  - AKeNE
  17  6,10 - ASh
  17  6,10 - ASp
  17  6,10 - ASs
  17  6,10 - AsS
+ 17  6,10 - ESe
  17  6,10 - ESs
  17  6,10 - EsS
  17  4,10 - OSEs
  17  6,10 - OSe
  17  6,10 - OsE
  17  4,10 - SEAs
+ 17  4,8  - SKeNE
  17  8,10 - SiB
  16  6,10 - AS
  16  5,10 - AaS
  16  5,10 - AbS
  16  5,10 - AdS
+ 16 11,6  | AgEE
  16  5,10 - AgS
  16  5,10 - AhS
  16  5,10 - AiS
+ 16 11,6  | AjEE
+ 16 11,6  | AkEE
+ 16 11,6  | AlEE
+ 16 11,6  | AlOE
  16  5,10 - AlS
  16  5,10 - ArS
  16  5,10 - AsS
+ 16 11,6  | AwEE
  16  5,10 - AyS
  16  6,10 - ES
  16  5,10 - EdS
@@ -879,9 +909,12 @@
  16  5,10 - OhS
  16  5,10 - OmS
  16  5,10 - OnS
+ 16  5,10 - OoS
  16  5,10 - OpS
  16  5,10 - OrS
  16  5,4  - OxAZINE
+ 16  4,8  - SHONE
+ 16  7,10 - SO
  16  5,10 - aAS
  16  5,10 - bAS
  16  5,10 - bES
@@ -895,12 +928,14 @@
  16  5,10 - hES
  16  5,10 - hOS
  16  5,10 - kAS
+ 16  5,10 - kES
  16  5,10 - kOS
  16  5,10 - lAS
  16  5,10 - mAS
  16  5,10 - mOS
  16  5,10 - nOS
  16  5,10 - oES
+ 16  5,10 - oOS
  16  5,10 - pAS
  16  5,10 - pES
  16  5,10 - pOS
@@ -911,6 +946,7 @@
  16  5,10 - vAS
  16  5,10 - wAS
  16  5,10 - wOS
+ 16  5,10 - xES
  16  5,10 - yES
  16  5,10 - zAS
  15  8,11 - AHEd
@@ -974,6 +1010,8 @@
  15  7,11 - HOvE
  15  7,11 - HOwE
  15  7,11 - HoSE
+ 15  5,8  - KANE
+ 15  5,8  - KENO
  15  5,8  - KENS
  15  7,5  - MACEd
  15  9,11 - OES
@@ -1001,7 +1039,9 @@
  15  8,11 - SHEd
  15  8,11 - SHEs
  15  8,11 - SHEw
+ 15  4,8  - SHiNE
  15  7,11 - SHoE
+ 15  4,8  - SHoNE
  15  5,10 - SOs
  15  8,11 - ShEA
  15  8,11 - SkEE
@@ -1049,8 +1089,14 @@
  14 11,7  | HaE
  14 11,7  | HoE
  14  2,8  - KHAzEN
+ 14  5,8  - KaNE
+ 14  5,8  - KeNO
  14  5,8  - KeNS
+ 14  5,8  - KiNE
+ 14  5,8  - KiNO
  14  5,8  - KiNS
+ 14  5,8  - KuNE
+ 14  9,9  | Qi
  14 11,7  | SAE
  14  7,2  | SEAMOUNT
  14  7,2  | SEAMOUNTs
@@ -1058,21 +1104,28 @@
  14  2,8  - SHAKeN
  14  7,10 - Sh
  14  7,10 - Si
+ 14  7,10 - So
  14  6,10 - aS
  14  6,10 - eS
+ 14  9,10 - iB
  14  6,10 - iS
  14  6,10 - oS
  14  3,8  - pAEONS
  14  7,2  | sEAMOUNTS
  14  2,8  - sHAKEN
+ 14  7,10 - sO
  14  6,10 - uS
  13 11,8  | AE
  13  4,8  - AEoNS
  13  4,8  - AeONS
+ 13  4,8  - AgONE
  13  4,8  - AgONS
+ 13  4,8  - AlONE
  13  4,8  - AmENS
  13  6,10 - As
+ 13  4,8  - AtONE
  13  4,8  - AvENS
+ 13  4,8  - AxONE
  13  4,8  - AxONS
  13  4,8  - AzONS
  13  4,8  - EArNS
@@ -1083,6 +1136,7 @@
  13  4,8  - ExONS
  13  4,8  - HAEN
  13  5,8  - HENS
+ 13  5,8  - HONE
  13  5,8  - HONS
  13 10,8  - JA
  13 10,8  - JE
@@ -1093,6 +1147,7 @@
  13  4,8  - OpENS
  13  6,10 - Os
  13  4,8  - OvENS
+ 13  4,8  - SEgNO
  13  3,8  - SHArN
  13  3,8  - SHAwN
  13  3,8  - SHEeN
@@ -1103,6 +1158,11 @@
  13  3,8  - SHeEN
  13  3,8  - SHoON
  13  1,8  - SOKEmAN
+ 13  4,8  - ScONE
+ 13  4,8  - ShONE
+ 13  4,8  - StANE
+ 13  4,8  - StENO
+ 13  4,8  - StONE
  13 11,7  | bEE
  13 11,7  | cEE
  13 11,7  | dEE
@@ -1124,14 +1184,17 @@
  13 11,7  | nAE
  13 11,7  | nEE
  13 11,7  | pEE
+ 13  4,8  - pHONE
  13  4,8  - pHONS
  13 11,7  | rEE
  13 11,7  | rOE
  13 11,7  | sAE
  13  7,2  | sEAMOUNT
  13 11,7  | sEE
+ 13  4,8  - sHONE
  13 11,7  | tAE
  13 11,7  | tEE
+ 13  4,8  - tHANE
  13  4,8  - tHENS
  13 11,7  | tOE
  13 11,7  | vEE
@@ -1141,9 +1204,11 @@
  13  4,8  - wHENS
  13 11,7  | wOE
  13 11,7  | zEE
+ 12  4,8  - AKENe
  12  7,4  | AMOUNTEd
  12  7,4  | AMOUNTS
  12  6,11 - ArOSE
+ 12  3,8  - ArSENO
  12  2,8  - AwOKEN
  12  7,11 - EASE
  12  7,11 - EASEd
@@ -1151,6 +1216,7 @@
  12  7,11 - EASEs
  12  6,11 - ErASE
  12  6,11 - ErOSE
+ 12  6,11 - ErSOE
  12 11,9  | EyE
  12 10,2  - GO
  12  4,8  - HAeN
@@ -1176,6 +1242,7 @@
  12  5,8  - HiNS
  12  4,8  - HiSN
  12  8,11 - HoE
+ 12  5,8  - HoNE
  12  5,8  - HoNS
  12  8,11 - HuE
  12  5,8  - HuNS
@@ -1190,6 +1257,7 @@
  12  6,11 - SArEE
  12  6,11 - SEtAE
  12  2,8  - SHaKEN
+ 12  4,8  - SKENe
  12  6,11 - SOAvE
  12 11,7  | SaE
  12  7,2  | SeAMOUNT
@@ -1208,6 +1276,7 @@
  12  9,11 - hES
  12  9,11 - jEE
  12  9,11 - kEA
+ 12  9,11 - kES
  12  9,11 - lEA
  12  6,11 - lEASE
  12  9,11 - lEE
@@ -1230,6 +1299,7 @@
  12  9,11 - vEE
  12  2,8  - wEAKON
  12  9,11 - wEE
+ 12  9,11 - xES
  12  9,11 - yEA
  12  9,11 - yES
  12  9,11 - zEE
@@ -1241,8 +1311,11 @@
  11 10,8  - Je
  11 10,8  - Jo
  11  3,8  - OAKeN
+ 11  5,8  - SANE
+ 11  5,8  - SONE
  11 11,8  | aE
  11  4,8  - aEONS
+ 11  4,8  - bEANO
  11  4,8  - bEANS
  11  4,8  - dEANS
  11 11,8  | eE
@@ -1267,7 +1340,9 @@
  11  3,8  - wOKEN
  11  4,8  - yEANS
  10  4,8  - AKiN
+ 10  6,8  - ANE
  10  3,8  - ASHEN
+ 10  5,8  - AcNE
  10  5,8  - AiNS
  10  5,8  - AwNS
  10 10,11 - EH
@@ -1280,7 +1355,9 @@
  10  3,8  - HOSEN
  10  2,8  - KElSON
  10 11,1  | LoWE
+ 10  6,8  - ONE
  10  6,8  - ONS
+ 10  8,8  | OOS
  10  8,8  | OOhS
  10  8,8  | OOpS
  10  8,8  | OOtS
@@ -1291,42 +1368,77 @@
  10  2,8  - SHAvEN
  10  4,8  - SHENd
  10  4,8  - SHENt
+ 10  4,8  - SHONe
  10  2,8  - SHOrAN
  10  4,8  - SKiN
+ 10  5,8  - SaNE
+ 10  5,8  - SeNE
+ 10  5,8  - SiNE
+ 10  5,8  - SoNE
+ 10  5,8  - SyNE
+ 10  5,8  - bANE
  10  5,8  - bANS
  10  5,8  - bENS
+ 10  5,8  - bONE
+ 10  5,8  - cANE
  10  5,8  - cANS
  10  2,8  - cHOSEN
+ 10  5,8  - cONE
  10  5,8  - cONS
  10  5,8  - dANS
  10  5,8  - dENS
+ 10  5,8  - dONE
  10  5,8  - dONS
  10  5,8  - eONS
+ 10  5,8  - eSNE
+ 10  5,8  - fANE
+ 10  5,8  - fANO
  10  5,8  - fANS
  10  5,8  - fENS
  10  5,8  - fONS
+ 10  5,8  - gANE
  10  5,8  - gENS
+ 10  5,8  - gONE
  10  5,8  - hENS
+ 10  5,8  - hONE
  10  5,8  - hONS
  10  5,8  - iONS
+ 10  5,8  - jANE
+ 10  5,8  - kANE
+ 10  5,8  - kENO
  10  5,8  - kENS
+ 10  5,8  - lANE
+ 10  5,8  - lENO
  10  5,8  - lENS
+ 10  5,8  - lONE
+ 10  5,8  - mANE
+ 10  5,8  - mANO
  10  5,8  - mANS
+ 10  5,8  - mENO
  10  5,8  - mONS
  10  5,8  - nANS
+ 10  5,8  - nONE
+ 10  5,8  - pANE
  10  5,8  - pANS
  10  5,8  - pENS
+ 10  5,8  - pONE
  10  5,8  - pONS
+ 10  5,8  - sANE
  10  5,8  - sANS
+ 10  5,8  - sONE
  10  5,8  - sONS
  10  5,8  - tANS
  10  5,8  - tENS
+ 10  5,8  - tONE
  10  5,8  - tONS
+ 10  5,8  - vANE
  10  5,8  - vANS
+ 10  5,8  - wANE
  10  5,8  - wANS
  10  5,8  - wENS
  10  5,8  - wONS
  10  5,8  - yENS
+ 10  5,8  - zONE
   9  8,11 - ASEa
   9  3,8  - ASHeN
   9  7,11 - AgEE
@@ -1339,7 +1451,9 @@
   9  7,11 - AwEE
   9  7,11 - EAsE
   9  7,11 - EAvE
+  9  8,8  | EO
   9  8,8  | EOn
+  9  8,11 - ESE
   9  8,11 - ESEs
   9  7,11 - ESnE
   9  7,11 - EaSE
@@ -1353,10 +1467,16 @@
   9  3,8  - HOgAN
   9  3,8  - HOnAN
   9  3,8  - HOsEN
+  9  5,8  - KANe
+  9  5,8  - KENo
   9  5,8  - KENs
   9  5,8  - KENt
   9  7,1  - KrAAL
+  9  7,8  - NE
+  9  7,8  - NO
+  9  8,8  | OO
   9  8,8  | OOh
+  9  8,8  | OOs
   9  8,8  | OOt
   9  8,11 - OSE
   9  8,11 - OSEs
@@ -1395,6 +1515,7 @@
   9  7,11 - SkEE
   9  7,11 - SlOE
   9  7,11 - SpAE
+  9  6,8  - aNE
   9  3,8  - aSHEN
   9  7,11 - bASE
   9  7,11 - cASE
@@ -1404,9 +1525,12 @@
   9  3,8  - fOEHN
   9  7,11 - hOSE
   9  6,8  - iNS
+  9  7,11 - jOSE
   9  7,11 - lASE
   9  7,11 - lOSE
   9  7,11 - nOSE
+  9  6,8  - oNE
+  9  6,8  - oNO
   9  6,8  - oNS
   9  7,11 - pASE
   9  7,11 - pOSE
@@ -1414,10 +1538,12 @@
   9  7,11 - rOSE
   9  6,8  - uNS
   9  7,11 - vASE
+  9  6,8  - yNO
   8  4,8  - AEONs
   8 11,9  | EAr
   8 11,9  | EAt
   8 11,9  | EEl
+  8 11,9  | EEn
   8 11,9  | EOn
   8 11,6  | HA
   8  2,8  - HAuSEN
@@ -1436,13 +1562,16 @@
   7  3,8  - ASpEN
   7  3,8  - AsHEN
   7 10,10 - BE
+  7 10,10 - BO
   7 11,9  | EE
+  7 11,9  | EO
   7  3,8  - EOSiN
   7  5,8  - HANd
   7  5,8  - HANg
   7  5,8  - HANt
   7  5,8  - HENs
   7  5,8  - HENt
+  7  5,8  - HONe
   7  5,8  - HONg
   7  5,8  - HONs
   7 11,6  | Ha
@@ -1472,6 +1601,7 @@
   7  3,8  - pAEON
   6  9,11 - AE
   6  4,8  - AEoN
+  6 11,6  | AH
   6  8,11 - AcE
   6  4,8  - AeON
   6  8,11 - AgE
@@ -1493,11 +1623,14 @@
   6  9,11 - EE
   6  9,11 - EEk
   6  9,11 - EEl
+  6  9,11 - EEn
   6  4,8  - EbON
   6  8,11 - EkE
   6  4,8  - ElAN
   6  8,11 - EmE
+  6  8,11 - EpE
   6  8,11 - ErE
+  6  8,11 - EsE
   6  8,11 - EvE
   6  8,11 - EwE
   6  4,8  - ExON
@@ -1535,6 +1668,7 @@
   6  9,11 - SEn
   6  9,11 - SEr
   6  9,11 - SEt
+  6  9,11 - SEv
   6  9,11 - SEw
   6  4,8  - SEwN
   6  9,11 - SEx
@@ -1555,6 +1689,7 @@
   6  4,8  - cHON
   6  8,11 - dEE
   6  8,11 - dOE
+  6  8,11 - eSE
   6  8,11 - fEE
   6  8,11 - fOE
   6  4,8  - fOHN
@@ -1594,8 +1729,11 @@
   6  8,11 - zEE
   5  3,8  - ArSON
   5 10,10 - Be
+  5 10,10 - Bo
   5  5,8  - EONs
+  5  5,8  - ESNe
   5 11,9  | Ee
+  5 11,9  | Eo
   5  5,8  - HeN
   5  5,8  - HiN
   5  5,8  - HoN
@@ -1606,10 +1744,13 @@
   5  3,8  - OcEAN
   5  3,8  - OwSEN
   5  5,8  - SANd
+  5  5,8  - SANe
   5  5,8  - SANg
   5  5,8  - SANs
   5  5,8  - SENd
+  5  5,8  - SENe
   5  5,8  - SENt
+  5  5,8  - SONe
   5  5,8  - SONg
   5  5,8  - SONs
   5  3,8  - SkEAN
@@ -1617,13 +1758,17 @@
   5  8,1  | bA
   5  8,1  | bE
   5  8,1  | bO
+  4 11,6  | AE
   4  6,8  - ANd
+  4  6,8  - ANe
   4  6,8  - ANt
   4  6,8  - ANy
+  4 11,6  | AS
   4 10,11 - EE
   4  6,8  - ENd
   4  6,8  - ENg
   4  6,8  - ENs
+  4 10,11 - EO
   4  5,8  - EON
   4 10,11 - ES
   4 11,6  | OE
@@ -1631,13 +1776,17 @@
   4  8,9  | OHm
   4  8,9  | OHo
   4  8,9  | OHs
+  4  6,8  - ONe
+  4  6,8  - ONo
   4  6,8  - ONs
   4 11,6  | OS
   4  8,9  | OoH
+  4  5,8  - SAN
   4  5,8  - SEN
   4 10,6  - SH
   4  5,8  - SON
   4  4,8  - aEON
+  4 11,6  | aH
   4  8,1  - bAAL
   4  4,8  - bEAN
   4  4,8  - dEAN
@@ -1653,19 +1802,40 @@
   4  4,8  - mOAN
   4  4,8  - nEON
   4 11,6  | oH
+  4  8,8  | oOS
   4  4,8  - pEAN
   4  4,8  - pEON
   4  4,8  - rOAN
   4  4,8  - wEAN
   4  4,8  - yEAN
   3  6,8  - AN
+  3 11,6  | Aa
+  3 11,6  | Ab
+  3 11,6  | Ad
+  3 11,6  | Ae
+  3 11,6  | Ag
+  3 11,6  | Ah
+  3 11,6  | Ai
   3  5,8  - AiN
+  3 11,6  | Al
+  3 11,6  | Am
+  3 11,6  | An
+  3 11,6  | Ar
+  3 11,6  | As
+  3 11,6  | At
+  3 11,6  | Aw
   3  5,8  - AwN
+  3 11,6  | Ax
+  3 11,6  | Ay
   3  6,8  - EN
+  3  5,8  - EeN
   3  5,8  - EoN
   3  5,8  - ErN
+  3  7,8  - Ne
+  3  7,8  - No
   3  8,9  | OES
   3  6,8  - ON
+  3  8,9  | OOS
   3  8,9  | OSE
   3 11,6  | Od
   3 11,6  | Oe
@@ -1674,6 +1844,7 @@
   3 11,6  | Oi
   3 11,6  | Om
   3 11,6  | On
+  3 11,6  | Oo
   3 11,6  | Op
   3 11,6  | Or
   3 11,6  | Os
@@ -1681,6 +1852,7 @@
   3  5,8  - OwN
   3 11,6  | Ox
   3 11,6  | Oy
+  3  5,8  - SaN
   3  5,8  - SeN
   3  5,8  - SiN
   3  5,8  - SoN
@@ -1690,6 +1862,7 @@
   3  5,8  - bAN
   3  9,11 - bE
   3  5,8  - bEN
+  3  5,8  - bON
   3  5,8  - cAN
   3  5,8  - cON
   3  5,8  - dAN
@@ -1697,6 +1870,8 @@
   3  5,8  - dEN
   3  5,8  - dON
   3  9,11 - eE
+  3  5,8  - eEN
+  3  8,8  | eO
   3  5,8  - eON
   3  5,8  - fAN
   3  9,11 - fE
@@ -1717,11 +1892,13 @@
   3  5,8  - nAN
   3  9,11 - nE
   3  9,11 - oE
+  3  8,8  | oO
   3  5,8  - pAN
   3  9,11 - pE
   3  5,8  - pEN
   3  5,8  - rAN
   3  9,11 - rE
+  3  5,8  - sAN
   3  5,8  - sEN
   3  5,8  - sON
   3  5,8  - tAN
@@ -1736,13 +1913,17 @@
   3  9,11 - yE
   3  5,8  - yEN
   3  5,8  - yON
+  3  5,8  - zEN
+  2  8,9  | OAd
   2  8,9  | OAf
   2  8,9  | OAk
   2  8,9  | OAr
   2  8,9  | OAt
   2  8,9  | OE
   2  8,9  | OEs
+  2  8,9  | OO
   2  8,9  | OOh
+  2  8,9  | OOs
   2  8,9  | OOt
   2  8,9  | OS
   2  8,9  | OSe
@@ -1762,6 +1943,7 @@
   2  8,9  | OnE
   2  8,9  | OnO
   2  8,9  | OnS
+  2  8,9  | OoS
   2  8,9  | OpE
   2  8,9  | OpS
   2  8,9  | OrA
@@ -1771,8 +1953,12 @@
   2  8,9  | OvA
   2  8,9  | OwE
   2  8,9  | OxO
+  2 10,6  - SA
   2 10,6  - SO
+  2 11,6  | aA
+  2 11,6  | aE
   2  6,8  - aN
+  2 11,6  | aS
   2  6,8  - eN
   2 11,6  | hA
   2 11,6  | hE
@@ -1781,6 +1967,7 @@
   2 11,6  | iS
   2 11,6  | oE
   2  6,8  - oN
+  2 11,6  | oO
   2 11,6  | oS
   2  6,8  - uN
   1 10,11 - Ed
@@ -1790,9 +1977,11 @@
   1 10,11 - El
   1 10,11 - Em
   1 10,11 - En
+  1 10,11 - Eo
   1 10,11 - Er
   1 10,11 - Es
   1 10,11 - Et
+  1 10,11 - Ew
   1 10,11 - Ex
   1  8,9  | Od
   1  8,9  | Oe
@@ -1801,12 +1990,14 @@
   1  8,9  | Oi
   1  8,9  | Om
   1  8,9  | On
+  1  8,9  | Oo
   1  8,9  | Op
   1  8,9  | Or
   1  8,9  | Os
   1  8,9  | Ow
   1  8,9  | Ox
   1  8,9  | Oy
+  1 10,6  - Sa
   1 10,6  - Sh
   1 10,6  - Si
   1 10,6  - So

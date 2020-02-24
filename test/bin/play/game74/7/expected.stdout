@@ -11,12 +11,17 @@
  24  8,9  | JE
  24  8,1  | JISM
  24  8,9  | JO
+ 24  9,1  | MEH
  24  4,6  | MIXER
  24  4,6  | MIXES
+ 23 10,6  | AROSE
  23  3,5  - JEST
  22  9,2  - EM
  22 10,1  | JEe
+ 22  1,4  - JOIE
+ 22  1,4  - JOSE
  22 10,1  | JOe
+ 22 10,5  | MARES
  22  1,7  - MIRE
  22  1,7  - MORE
  22  9,2  - OM
@@ -54,8 +59,10 @@
  19  4,1  | JIBES
  19  7,11 - JISMS
  19  5,7  - MARIA
+ 19  1,2  - SEMI
  19  1,7  - SIRE
  19  1,7  - SORE
+ 19  4,8  | XES
  18  8,10 - EROS
  18  8,10 - ERRS
  18  2,7  - IRE
@@ -76,7 +83,10 @@
  17  9,4  - IMP
  17  1,7  | JIVE
  17  7,1  | JOKE
+ 17  9,4  - MOP
  17  3,7  - RE
+ 17  3,2  - RIM
+ 17  3,2  - SIM
  16  2,4  - EROS
  16  2,4  - IRES
  16  7,11 - JISM
@@ -86,6 +96,7 @@
  16  1,4  - MORE
  16 10,8  | ORE
  16  2,4  - ORES
+ 16 10,8  | OSE
  16  2,4  - REIS
  16  9,10 - RES
  16  1,4  - RIME
@@ -95,13 +106,17 @@
  15  2,4  - EMO
  15  3,6  | JEED
  15  8,1  | JESS
+ 15  4,5  - JETS
  15  4,1  | JIB
  15  4,1  | JOB
  15  2,5  - JOIST
+ 15  8,1  | JOSE
  15  8,1  | JOSS
+ 15  4,5  - JOTS
  15  4,10 - JOYS
  15  3,4  - OES
  15  3,4  - RES
+ 15 10,9  | SEI
  14 10,8  | EM
  14  4,4  - ES
  14  4,4  - IS
@@ -113,6 +128,7 @@
  14  3,4  - MI
  14  3,5  | MIRED
  14  3,4  - MO
+ 14  3,5  - MORTS
  14  1,7  | MOVER
  14  1,7  | MOVES
  14  1,7  | MOVIE
@@ -125,9 +141,11 @@
  14  9,11 - SIM
  14  9,11 - SOM
  14  6,10 - YIRRS
+ 13 10,6  | ARES
  13 11,3  | EPISTlERS
  13  7,11 - JESS
  13  5,1  | JEU
+ 13  7,11 - JOSE
  13  7,11 - JOSS
  13  5,2  | JUS
  13  4,6  | MIX
@@ -137,6 +155,7 @@
  13  1,4  - ROSE
  13  1,4  - SIRE
  13  1,4  - SORE
+ 13  1,2  - SORI
  13  1,4  - SORI
  12  4,3  | BERM
  12  4,3  | BRIM
@@ -148,6 +167,7 @@
  12  8,9  | ME
  12  5,10 | ME
  12  3,7  | MEDS
+ 12  2,5  - MERITS
  12  5,10 | MI
  12  4,1  | MIBS
  12  1,7  - MIR
@@ -162,12 +182,15 @@
  12  2,4  - ORE
  12  2,4  - OSE
  12  6,1  | REC
+ 12  2,5  - REMITS
  12  6,1  | ROC
  12  2,4  - ROE
  12  6,1  | SEC
  12  2,4  - SEI
  12  6,1  | SIC
  12  2,4  - SRI
+ 11  3,5  - EMITS
+ 11  3,4  - EO
  11  8,9  - JE
  11  3,7  | MED
  11  7,1  | MIKE
@@ -179,23 +202,30 @@
  11  1,7  | MOVE
  11  3,4  - OE
  11  3,4  - OI
+ 11  3,5  - OMITS
  11  3,4  - RE
  11 10,9  | RE
  11  4,1  | RIBOSE
  11  1,7  | RIVES
  11  1,7  | ROVES
+ 11  2,2  - SEI
  11  3,4  - SI
  11  1,7  | SIVER
  11  3,4  - SO
+ 11  2,2  - SRI
  10  6,7  - ARIA
  10 10,1  | EMe
+ 10  9,2  - EO
+ 10 10,10 | EO
  10 11,3  | EPISTlER
  10 11,3  | EPISTlES
  10  9,2  - ER
+ 10  6,9  - GORE
  10  6,9  - GREE
  10 10,5  | MA
  10  5,7  - MA
  10  3,6  | MEEDS
+ 10  3,2  - MI
  10 10,5  - MI
  10  5,7  | MI
  10  7,11 - MISER
@@ -213,6 +243,7 @@
  10  4,6  | SIX
  10  9,2  - SO
  10  4,1  | SOBER
+ 10  8,3  | SOILS
  10  4,6  | SOX
   9 10,6  | ARE
   9  4,3  | BIER
@@ -237,6 +268,7 @@
   9  4,1  | MOB
   9  2,5  - MOIST
   9  8,1  | MOSS
+  9  4,5  - MOTS
   9  8,7  - OAST
   9  4,2  | OBES
   9  4,2  | OBIS
@@ -253,6 +285,7 @@
   9  1,7  - SER
   9  1,6  | SERVO
   9  1,7  - SIR
+  9 10,2  | SeI
   9  1,9  | VIE
   9  1,9  | VIS
   9  1,9  | VOE
@@ -264,9 +297,13 @@
   8  7,5  | EASE
   8  3,5  - EMIT
   8  5,1  | EMUS
+  8  8,2  - EO
+  8  7,8  | EO
   8  2,7  - ER
   8 10,8  | ER
   8  8,2  - ES
+  8 10,8  | ES
+  8  6,9  - GO
   8  7,1  | IRKS
   8  8,2  - IS
   8  9,2  | MHO
@@ -282,7 +319,9 @@
   8  2,7  - OR
   8 10,8  | OR
   8  8,2  - OS
+  8 10,8  | OS
   8  1,7  | REVS
+  8  3,5  - RIOTS
   8  1,7  | RIVE
   8  3,5  | ROSED
   8  5,1  | ROUSE
@@ -299,6 +338,7 @@
   7  5,1  | EMU
   7  5,10 - EYRIR
   7  9,3  | HM
+  7  5,1  | IMU
   7  7,1  | IRK
   7  8,9  - MERE
   7  7,11 - MESS
@@ -308,6 +348,7 @@
   7  7,11 - MOSS
   7  5,2  | MUS
   7  5,10 - MY
+  7  3,2  - OI
   7  7,2  | OKE
   7  3,6  | REEDS
   7  1,7  | REV
@@ -316,13 +357,19 @@
   7  5,2  | RUM
   7  5,2  | RUSE
   7  8,9  - SEME
+  7  1,7  | SEV
+  7  3,2  - SI
   7  7,2  | SKI
   7  8,3  | SOIL
   7  5,2  | SUM
   7  5,2  | SURE
+  6  8,5  | ELS
   6  9,9  - EME
   6  8,1  | EMS
   6  7,11 - EMS
+  6  8,9  | EO
+  6  7,10 | EO
+  6  8,10 | EO
   6  7,10 | ER
   6  8,10 - ERR
   6  8,10 - ERS
@@ -330,6 +377,7 @@
   6  2,9  | IRE
   6  8,10 - IRE
   6  3,6  | IRED
+  6  7,10 | IS
   6  8,11 - ISM
   6  7,3  | KI
   6  4,5  - MET
@@ -348,11 +396,13 @@
   6  8,10 | OI
   6  8,1  | OMS
   6  7,11 - OMS
+  6 10,4  - OP
   6  5,10 | OR
   6  7,10 | OR
   6  4,1  | ORB
   6  8,10 - ORE
   6  8,10 - ORS
+  6  4,5  - ORTS
   6  5,10 | OS
   6  7,10 | OS
   6  8,11 - OSES
@@ -363,11 +413,13 @@
   6  3,7  | REDS
   6  3,6  | REED
   6  2,5  - RESIT
+  6  4,5  - RETS
   6  4,1  | RIB
   6  8,1  | RISE
   6  4,1  | ROB
   6  8,1  | ROSE
   6  2,5  - ROSET
+  6  4,5  - ROTS
   6  3,6  | SEED
   6  3,10 - SI
   6  4,1  | SIB
@@ -377,6 +429,7 @@
   6  5,3  | UM
   6  5,3  | USE
   6  6,10 - YIRR
+  6 10,3  | eO
   5 10,6  | AI
   5  9,7  - AIT
   5 10,6  | AR
@@ -385,6 +438,8 @@
   5  9,7  - ART
   5  3,5  - ERST
   5  8,2  | ESS
+  5  4,2  | IB
+  5  5,5  - ITS
   5  8,9  - ME
   5  9,2  | OHS
   5  8,2  | OSE
@@ -407,6 +462,7 @@
   4  3,8  | EDS
   4  9,2  | EH
   4 10,1  | ERe
+  4 10,1  | ESe
   4  9,3  | HE
   4  9,3  | HI
   4  9,3  | HO
@@ -423,14 +479,19 @@
   4  7,11 - ROSE
   4 10,1  | ROe
   4  5,2  | RUE
+  4 10,5  | SA
+  4  5,7  - SA
   4  8,9  - SERE
   4 10,1  | SEe
   4  9,2  | SH
   4  8,3  | SI
+  4 10,5  - SI
+  4  5,7  | SI
   4  8,3  | SO
   4  5,1  | SOU
   4  5,2  | SUE
   4  6,10 - YE
+  4  6,10 - YI
   4  6,10 - YO
   3  9,8  - DEl
   3  9,8  - DOl
@@ -438,6 +499,7 @@
   3  9,9  - ERE
   3  8,1  | ERS
   3  7,11 - ERS
+  3  9,9  - ESE
   3  8,1  | ESS
   3  7,11 - ESS
   3  8,11 - ESS

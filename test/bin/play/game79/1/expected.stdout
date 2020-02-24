@@ -2,20 +2,28 @@
  53  7,2  | POURABLE
  45  9,1  | OUREBI
  34  5,5  - REBOP
+ 33  7,7  - REBOP
  30  6,1  | UPBORNE
  29  7,5  - BOP
+ 29  7,7  - REPO
  28 10,6  | COUPLE
  28  5,5  - RUBEL
+ 27  9,7  - BOP
  26 10,6  | CORBEL
  26 10,6  | CROUPE
  26 10,6  | CUPEL
  25  7,5  - LOB
  25  7,5  - LOP
+ 25  9,7  - POL
  24 10,6  | COBLE
  24 10,6  | COUPE
  24 10,6  | CROUP
  24 10,6  | CUBER
  24  6,1  | LOUPEN
+ 23  9,7  - BO
+ 23  9,7  - PO
+ 23  7,7  - REB
+ 23  7,7  - REP
  22  6,2  | BOURNE
  22 10,6  | COLURE
  22 10,6  | COPER
@@ -271,6 +279,7 @@
  11  7,5  | PAROL
  11  5,7  - PER
  11  9,5  | PIE
+ 11  9,5  | PIR
  11  9,4  | PLIE
  11  7,3  | PROA
  11 10,4  | PUCE
@@ -300,6 +309,7 @@
  10  8,4  | LURE
  10  9,4  | OBI
  10  9,5  | OILER
+ 10 10,7  - OP
  10  6,7  - ORE
  10  5,7  - OUR
  10  7,5  | PALER
@@ -335,6 +345,8 @@
   9  6,7  - EL
   9  3,5  - EURO
   9  3,7  - EURO
+  9  9,6  | IB
+  9  9,6  | IP
   9  4,5  - LEU
   9  4,7  - LEU
   9  9,5  | LIEU
@@ -382,6 +394,7 @@
   8 10,6  | CURE
   8  6,3  | EBON
   8 10,5  | ECRU
+  8  8,5  - EO
   8  7,4  | LEAP
   8  9,5  | LIER
   8  9,5  | LIRE
@@ -413,6 +426,7 @@
   7  7,4  | BEAR
   7  6,4  | BEN
   7  7,4  | BOAR
+  7  6,4  | BON
   7  7,4  | BRAE
   7 10,6  | CEL
   7 10,6  | CERO
@@ -434,10 +448,12 @@
   7  6,6  | NOB
   7  6,6  | NURL
   7  6,7  - OE
+  7 10,7  - OE
   7  9,5  | OIL
   7  4,5  - OLE
   7  4,7  - OLE
   7  6,7  - OR
+  7 10,7  - OR
   7  8,5  | ORLE
   7  7,5  | PAL
   7  7,5  | PARE
@@ -493,7 +509,10 @@
   5  7,6  | AB
   5  7,6  | AERO
   5  7,5  | BA
+  5 10,6  | CO
   5  7,5  | EARL
+  5  5,5  - EO
+  5  5,7  - EO
   5  8,4  | ERR
   5  7,4  | LEAR
   5  9,4  | LEI

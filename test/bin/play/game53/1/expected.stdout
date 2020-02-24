@@ -45,15 +45,18 @@
  12  6,4  - KERNS
  12  6,4  - KRONE
  12  6,7  - LUX
+ 12  4,4  - NEK
  12  3,4  - NEUK
  12  7,7  | OX
  12  4,5  - OXEN
  12  3,6  - UNSWORE
  11  4,5  - EXES
  11  6,4  - KERN
+ 11  6,4  - KORU
  11  6,4  - KUES
  11  6,7  - LEX
  11  6,7  - LOX
+ 11  5,5  | NE
  11  7,5  | NE
  11  5,5  | NO
  11  7,5  | NO
@@ -66,6 +69,7 @@
  10  1,7  - ENSOUL
  10  6,5  - ENSURE
  10  2,5  - ENURES
+ 10  7,6  | EO
  10  5,7  | EONS
  10  5,7  | ERNS
  10  5,7  | EUROS
@@ -81,6 +85,7 @@
  10  4,4  - SOKE
  10  4,4  - SUK
  10  5,6  - SWOUN
+ 10  5,5  - XES
   9  3,6  - ENOWS
   9  2,7  - ENROL
   9  2,5  - ENSUE
@@ -88,10 +93,13 @@
   9  1,5  - ENSURE
   9  2,5  - ENURE
   9  6,5  - ENURES
+  9  5,5  | EO
+  9  7,5  | EO
   9  5,7  | EON
   9  5,7  | ERN
   9  5,7  | EURO
   9  6,5  - EX
+  9  6,4  - KES
   9  6,4  - KOR
   9  6,4  - KOS
   9  6,7  - LONERS
@@ -100,11 +108,14 @@
   9  3,7  - NOELS
   9  3,7  - NURL
   9  2,5  - NURSE
+  9  5,5  | OE
+  9  7,5  | OE
   9  7,7  | ONES
   9  7,7  | OURS
   9  2,7  - OUSEL
   9  5,6  - OWNER
   9  5,6  - OWSEN
+  9  5,5  | RE
   9  7,5  | RE
   9  4,6  - REWON
   9  3,5  - ROUENS
@@ -191,6 +202,8 @@
   6  6,5  - ERNS
   6  2,5  - EROSE
   6  6,5  - EROSE
+  6  2,5  - ERSOE
+  6  6,5  - ERSOE
   6  3,5  - ESNE
   6  6,5  - ESNE
   6  6,5  - EURO
@@ -214,9 +227,11 @@
   6  3,5  - SURE
   6  6,6  - WOE
   6  6,6  - WOS
+  5  5,7  | EO
   5  5,7  | ER
   5  6,5  - EROS
   5  5,7  | ES
+  5  5,6  - EW
   5  6,7  - LEU
   5  4,5  - NOES
   5  7,7  | OE
@@ -240,6 +255,8 @@
   5  4,5  - USER
   5  6,6  - WE
   5  6,6  - WO
+  4  5,5  - EEN
+  4  6,5  - EEN
   4  5,7  - ELS
   4  6,5  - ENS
   4  6,5  - EON
@@ -266,6 +283,8 @@
   3  4,5  - ERE
   3  6,5  - ERE
   3  6,5  - ERS
+  3  4,5  - ESE
+  3  6,5  - ESE
   3  6,7  - LO
   3  5,5  - NE
   3  5,5  - OES
@@ -280,6 +299,7 @@
   3  5,5  - SER
   2  5,5  - EE
   2  6,5  - EE
+  2  6,5  - EO
   2  6,5  - ER
   2  6,5  - ES
   2  5,5  - OE

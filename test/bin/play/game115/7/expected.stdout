@@ -16,11 +16,17 @@
  16  3,5  - SORE
  15  8,4  | ROSINY
  14  1,2  - FOOT
+ 14  8,10 - INRO
+ 14  8,10 - INTO
+ 14  8,10 - IONS
+ 14  8,10 - IRON
  14  3,2  - ORISON
  14  6,4  - VINOS
  13  6,4  - VINO
  12  1,2  - FRO
+ 12  8,10 - INS
  12  6,9  | ION
+ 12  8,10 - ION
  12  8,5  | IRONY
  12  8,8  - ONS
  12  8,10 - ONS
@@ -37,6 +43,7 @@
  11  8,6  | TONY
  11  6,4  - VISOR
  10  4,1  | IN
+ 10  8,10 - ITS
  10  8,5  | NOISY
  10  8,8  - OI
  10  4,1  | ON
@@ -51,6 +58,7 @@
  10  8,5  | SONSY
  10  8,5  | STROYS
   9  8,6  | NOSY
+  9  7,10 - OI
   9  2,1  - RHINOS
   9  7,7  | SILO
   9  7,7  | SILT
@@ -97,6 +105,7 @@
   7  3,1  - HORN
   7  3,1  - HORST
   7  3,1  - HOSTS
+  7  8,10 - IN
   7  8,10 - ON
   7  2,1  - SHIN
   7  2,1  - SHIRT
@@ -119,6 +128,8 @@
   6  3,1  - HOST
   6  3,1  - HOTS
   6  2,8  - IN
+  6  8,10 - IS
+  6  8,10 - IT
   6  3,8  | NE
   6  8,10 - OI
   6  8,10 - OR
@@ -133,12 +144,14 @@
   6  2,1  - THIS
   6  2,1  - THRO
   6  8,9  | YIN
+  6  8,9  | YNO
   6  8,9  | YON
   5  4,9  | AIR
   5  4,9  | AIS
   5  4,9  | AIT
   5  3,1  - HIS
   5  3,1  - HIT
+  5  3,1  - HOI
   5  3,1  - HOS
   5  3,1  - HOT
   5  7,9  | LIN
@@ -164,13 +177,16 @@
   4  1,8  | OS
   4  2,1  - SH
   4  3,8  | TE
+  4  8,9  | YI
   4  8,9  | YO
   3  7,9  | LI
   3  7,9  | LO
   3  3,2  - ON
+  3  3,2  - OOS
   3  3,2  - OOT
   3  3,2  - ORS
   3  3,2  - ORT
   2  3,2  - OI
+  2  3,2  - OO
   2  3,2  - OR
   2  3,2  - OS

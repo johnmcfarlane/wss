@@ -3,6 +3,7 @@
  42  9,6  | KELSON
  30  9,1  - ELF
  29  2,1  - LESSON
+ 22  5,3  - LENO
  21  9,1  | ERNS
  21  9,1  | ORLE
  20  3,1  - LENO
@@ -41,8 +42,10 @@
  16  9,5  | SKELLS
  15  9,1  | EROS
  15  3,7  - LENOS
+ 15  7,3  - LO
  15  3,3  - LOSES
  15  8,6  | MELONS
+ 15  7,3  - NO
  15  8,4  | NOMES
  15  3,3  - NOSES
  15  9,1  | ORES
@@ -81,6 +84,7 @@
  12  9,4  | ELKS
  12  6,3  - EN
  12  7,2  | ENSOULS
+ 12 10,1  | EON
  12  9,1  | ERS
  12  9,6  | KENOS
  12  9,6  | KOEL
@@ -106,6 +110,7 @@
  11  8,2  | CON
  11  7,4  - ENOLS
  11  7,2  | ENSOUL
+ 11  7,3  - EO
  11  5,5  - EON
  11  5,7  - EON
  11  9,6  | KENO
@@ -123,12 +128,14 @@
  11  8,6  | MON
  11  4,7  - NOES
  11  8,4  | NOM
+ 11  8,3  - OE
  11  4,7  - OLES
  11  4,7  - ONES
  11  4,3  - OSES
  11  5,5  - SEN
  11  5,7  - SEN
  11  6,4  - SNELLS
+ 11  7,3  - SO
  11  9,4  | SOKES
  11  5,5  - SON
  11  5,7  - SON
@@ -153,6 +160,7 @@
  10  9,5  | OKES
  10  6,5  - ON
  10  6,7  - ON
+ 10 10,1  | OOS
  10  4,7  - OSES
  10  7,5  | OUSELS
  10  7,4  - SLOES
@@ -174,6 +182,7 @@
   9  7,5  | LUNES
   9  8,6  | MESS
   9  8,6  | MOSS
+  9  9,4  | NEK
   9  8,4  - NESS
   9  7,4  - NOELS
   9  8,4  - NOES
@@ -181,6 +190,8 @@
   9  5,7  - OES
   9  9,5  | OKE
   9 10,2  | OLE
+  9 10,2  | ONE
+  9 10,2  | ONO
   9  7,4  | ONUSES
   9  7,5  | OUSEL
   9  7,4  - SELLS
@@ -199,8 +210,10 @@
   8  8,2  | COS
   8  8,4  - ELLS
   8  6,1  - EN
+  8  6,3  - EO
   8  6,3  - ES
   8  6,7  - ES
+  8  9,6  | KES
   8  9,6  | KOS
   8  7,1  | LENO
   8  7,1  | LENS
@@ -223,7 +236,9 @@
   7  6,6  | DELL
   7  6,6  | DOLL
   7  7,1  | EELS
+  7 10,1  - EF
   7  7,2  | ELL
+  7 10,1  | EO
   7  8,4  - EONS
   7  6,4  | LODES
   7  7,4  | LOUSE
@@ -232,12 +247,14 @@
   7  5,3  - NE
   7  6,4  | NODES
   7 10,5  | OASES
+  7 10,1  - OF
   7  4,5  - OLE
   7  4,7  - OLE
   7  8,4  - OLES
   7  4,5  - ONE
   7  4,7  - ONE
   7  8,4  - ONES
+  7 10,1  | OO
   7 10,2  | OSE
   7  6,2  | RESODS
   7  7,1  | SELS
@@ -255,12 +272,14 @@
   6  6,6  | DONE
   6  6,6  | DONS
   6  7,1  | EEL
+  6  7,1  | EEN
   6  6,4  | ELDS
   6  7,2  | ELS
   6  8,5  | EMO
   6  8,5  | EMS
   6  6,4  | ENDS
   6  7,2  | ENS
+  6  6,1  - EO
   6  9,1  | ER
   6  7,1  | LEES
   6  7,1  | LESS
@@ -273,6 +292,7 @@
   6 10,5  - NE
   6  5,7  - NE
   6  7,1  | NESS
+  6 10,3  - NI
   6  5,5  - NO
   6  5,7  - NO
   6  6,4  | NODE
@@ -282,6 +302,7 @@
   6  6,4  | OLDS
   6  4,1  - OLE
   6  8,5  | OMS
+  6 10,2  | ON
   6  4,1  - ONE
   6  7,4  | ONUS
   6  9,1  | OR
@@ -306,6 +327,7 @@
   5 10,6  | ALOE
   5 10,6  | ALSO
   5 10,6  | ANES
+  5  8,2  | CO
   5  6,6  | DEL
   5  6,6  | DEN
   5  6,6  | DOES
@@ -314,20 +336,25 @@
   5  6,6  | DOSE
   5  6,6  | DOSS
   5  7,2  | EEL
+  5  7,2  | EEN
   5  7,2  | EL
   5  6,4  | ELD
   5  8,5  | EM
   5  7,2  | EN
   5  6,4  | END
+  5  5,5  - EO
+  5  5,7  - EO
   5  7,2  | EON
   5  6,1  | ERNS
   5  6,4  | LED
   5  7,1  | LEE
   5  7,4  | LEU
   5  5,1  - LO
+  5  6,4  | LSD
   5  8,6  | ME
   5  8,6  | MO
   5  5,1  - NE
+  5  6,4  | NED
   5  7,1  | NEE
   5  5,1  - NO
   5  6,4  | NOD
@@ -356,8 +383,10 @@
   4  6,5  | EDS
   4  9,4  - ELS
   4  9,4  - ENS
+  4  5,1  - EO
   4  6,1  | ERN
   4  6,1  | EROS
+  4  7,2  | ESE
   4  7,2  | ESS
   4  9,4  - NOS
   4  7,5  | NU
@@ -365,7 +394,9 @@
   4  6,5  | ODS
   4  5,1  - OE
   4  7,1  | OES
+  4 10,3  - OI
   4  9,4  - ONS
+  4 10,2  | OO
   4  6,1  | ORES
   4 10,2  | OS
   4  9,2  | RES
@@ -385,6 +416,7 @@
   3  6,6  | DO
   3  6,5  | ED
   3  7,2  | EE
+  3  7,2  | EO
   3  6,1  | ERS
   3  7,2  | ES
   3  9,4  - ESS

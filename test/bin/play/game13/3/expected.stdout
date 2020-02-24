@@ -34,6 +34,7 @@
  21  9,3  - CEL
  21  4,5  | DAIKER
  21  4,5  | DARKIE
+ 21  4,7  - DEIL
  21  4,7  - DIEL
  21  4,7  - LIED
  21  4,7  - LIEN
@@ -55,6 +56,7 @@
  19  4,7  - LIER
  19  4,5  | NARK
  19  4,5  | RANK
+ 19  4,7  - REIN
  19  7,5  | REINK
  19  4,7  - RIEL
  18  1,5  - DINK
@@ -78,6 +80,7 @@
  17 10,5  | DINE
  17 10,5  | DIRL
  17  4,4  | KEA
+ 17  4,5  - KI
  17  6,4  - LIZARD
  17  1,5  - RINK
  16  5,6  | BERK
@@ -94,14 +97,17 @@
  16  2,5  - ILK
  16  2,5  - INK
  16  5,3  | KERB
+ 16  4,7  - LEI
  16  4,7  - LIE
  16  1,7  - LIKE
  16  7,5  | RELINED
  16  6,2  | RILEY
  15  5,6  | BRINK
  15 10,5  | DEL
+ 15  2,5  - DELI
  15  2,7  - DELI
  15 10,5  | DEN
+ 15  2,5  - DENI
  15  2,7  - DENI
  15 10,5  | DIN
  15  2,7  - DINE
@@ -111,12 +117,14 @@
  15  7,4  - IZARD
  15  1,5  - KILN
  15  1,7  - KILN
+ 15  1,5  - KIND
  15  1,7  - KIND
  15  4,3  | KNEAD
  15  4,4  | LEARN
  15  2,5  - LEK
  15  4,4  | LIARD
  15  2,7  - LINE
+ 15  2,5  - NEK
  15  2,7  - NIDE
  15  7,5  | REDLINE
  15  4,3  | RELAND
@@ -177,6 +185,7 @@
  13  2,7  - LIRE
  13  4,5  | NAILED
  13  4,5  | NAKED
+ 13  7,5  | NEK
  13  5,4  | REBIND
  13  7,5  | REINED
  13  7,5  | RELIED
@@ -187,12 +196,16 @@
  12  4,3  | DENARI
  12 10,5  | ERN
  12 10,5  | IDE
+ 12  2,5  - KED
+ 12  2,7  - KED
  12  2,5  - KEN
  12  2,7  - KEN
+ 12  2,5  - KID
  12  2,7  - KID
  12  2,5  - KIN
  12  2,7  - KIN
  12  4,5  | LAKER
+ 12  1,5  - LEND
  12  1,7  - LEND
  12  4,2  | LINEAR
  12  4,5  | NAILER
@@ -220,6 +233,9 @@
  11  7,5  | DELI
  11  7,5  | DENE
  11  7,5  | DENI
+ 11  4,5  - DI
+ 11 10,5  | DI
+ 11  4,7  - DI
  11  6,5  | DYKE
  11  7,6  | EKED
  11  4,3  | IDEAL
@@ -235,12 +251,17 @@
  11  6,5  | KYRIE
  11  4,5  | LAKE
  11  4,5  | LAND
+ 11  4,5  - LI
  11  4,7  - LI
  11  4,7  - NE
  11  7,5  | NEED
  11  7,5  | NERD
+ 11  4,5  - NI
+ 11  4,7  - NI
  11  7,5  - RANK
+ 11  1,5  - REND
  11  1,7  - REND
+ 11  1,5  - RIND
  11  1,7  - RIND
  11  6,6  | YELK
  10  4,6  | AIDER
@@ -276,13 +297,17 @@
  10  6,7  - ED
  10 10,5  | EL
  10  6,7  - EL
+ 10  2,5  - ELD
  10  2,7  - ELD
  10 10,5  | EN
  10  6,7  - EN
+ 10  2,5  - END
  10  2,7  - END
  10 10,5  | ID
+ 10  6,7  - ID
  10  1,7  - IDLE
  10 10,5  | IN
+ 10  6,7  - IN
  10  4,4  | IRADE
  10 10,5  | IRE
  10  2,7  - KIR
@@ -294,6 +319,7 @@
  10  4,5  | LARINE
  10  4,4  | LEAD
  10  4,4  | LEAN
+ 10  1,5  - LIED
  10  1,7  - LIED
  10  1,5  - LIEN
  10  1,7  - LIEN
@@ -301,6 +327,8 @@
  10  4,5  | NAIL
  10  4,5  | NALED
  10  4,5  | NARD
+ 10  7,5  | NED
+ 10  1,5  - NERD
  10  1,7  - NERD
  10  4,3  | NIDAL
  10  1,7  - NIDE
@@ -335,21 +363,26 @@
   9  7,6  | ELIDE
   9  4,3  | IDEA
   9  4,3  | ILEA
+  9  1,5  - IRED
   9  1,7  - IRED
   9  6,4  | KEY
   9  6,5  | KYE
   9  4,5  | LADER
   9  4,5  | LAIRD
   9  4,4  | LEAR
+  9  2,5  - LED
   9  2,7  - LED
   9  4,4  | LIAR
   9  5,4  | LIBER
+  9  2,5  - LID
   9  2,7  - LID
   9  4,3  | LIDAR
   9  2,5  - LIN
   9  2,7  - LIN
   9  4,5  | NADIR
   9  4,4  | NEAR
+  9  2,5  - NED
+  9  2,7  - NED
   9  7,5  | NEE
   9  2,5  - NIL
   9  2,7  - NIL
@@ -408,8 +441,10 @@
   8  7,5  - NAN
   8  7,5  | NE
   8  7,5  - RAND
+  8  2,5  - RED
   8  7,5  | RED
   8  2,7  - RED
+  8  2,5  - RID
   8  2,7  - RID
   8  2,5  - RIN
   8  2,7  - RIN
@@ -426,9 +461,11 @@
   7  4,5  | DARE
   7  3,7  - DE
   7  5,4  | DEB
+  7  3,7  - DI
   7  5,4  | DIB
   7  2,7  - DIE
   7  6,5  | DYER
+  7  3,5  - ED
   7  3,7  - ED
   7  7,6  | EEK
   7  7,6  | EIDER
@@ -437,10 +474,12 @@
   7  3,7  - EL
   7  3,5  - EN
   7  3,7  - EN
+  7  3,5  - ID
   7  3,7  - ID
   7  3,5  - IN
   7  3,7  - IN
   7  4,5  | KAE
+  7  4,5  | KAI
   7  4,5  | LAIR
   7  4,5  | LARI
   7  2,7  - LEI
@@ -451,6 +490,7 @@
   7  6,5  | LYRE
   7  3,7  - NE
   7  5,4  | NEB
+  7  3,7  - NI
   7  5,4  | NIB
   7  4,5  | RALE
   7  4,5  | RANI
@@ -491,6 +531,7 @@
   5  7,6  | END
   5  3,7  - ER
   5  4,4  | ERA
+  5  5,5  | IB
   5  4,5  | LAD
   5  3,7  - RE
   5  4,4  | RIA
@@ -498,15 +539,18 @@
   4  8,5  - ANE
   4  8,5  - ANI
   4  7,6  | EEL
+  4  7,6  | EEN
   4  7,6  | ERN
   4  4,5  | LAR
   4  4,5  | NAE
   4  4,5  | RAD
   4  4,5  | RAN
   4  6,6  | YE
+  4  6,6  | YI
   3  4,6  | AD
   3  4,6  | AL
   3  4,6  | AN
+  3  4,5  | DA
   3  4,5  | EAR
   3  7,6  | ED
   3  7,6  | EL

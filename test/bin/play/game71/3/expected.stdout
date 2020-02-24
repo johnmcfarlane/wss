@@ -36,11 +36,13 @@
  23  9,7  | EFS
  22  6,6  - HAWSES
  22  5,6  - SHEAFS
+ 22  5,10 - WIFES
  21  9,7  | EASE
  21  9,6  | ESES
  21  6,11 - EWES
  21  9,6  | SEAS
  21  9,6  | SEES
+ 21  5,10 - WIFE
  21  2,8  | WOE
  20  9,7  | ASS
  20  9,7  | ESS
@@ -51,17 +53,22 @@
  20  2,9  | OW
  20  2,10 - WE
  19  9,8  | ASS
+ 19  9,8  | ESE
  19  9,8  | ESS
  19  5,2  | SEESAW
  19  7,2  | SEESAW
  18  9,8  | AS
  18  4,7  | ASPS
+ 18  5,6  | AWEE
  18  7,6  | AWEE
  18  9,8  | ES
  18  2,1  | FEASE
+ 18  5,3  | FEASE
  18  2,1  | FESSE
+ 18  5,3  | FESSE
  18  5,5  | FEW
  18  7,5  | FEW
+ 18  9,9  | SA
  17  6,8  - OWES
  17  4,2  | SAFE
  17  4,2  | SAWS
@@ -70,6 +77,7 @@
  16  2,2  | AWEE
  16  4,3  | EFS
  16  4,3  | EWE
+ 16  5,7  | EWES
  16  7,7  | EWES
  16  1,11 - FADE
  16  1,11 - FADS
@@ -80,12 +88,15 @@
  16  7,8  | FESS
  16  5,5  | FESSE
  16  7,5  | FESSE
+ 16  4,3  | FEW
  16  6,8  - OWE
  16  2,2  | SAFE
  16  1,11 - WADE
  16  1,11 - WADS
  16  1,11 - WEDS
+ 16  5,7  | WEES
  16  7,7  | WEES
+ 16  5,10 - WISES
  15  4,7  | ASP
  15  3,6  - CASHEWS
  15  6,11 - EASES
@@ -109,10 +120,14 @@
  15  4,4  | WE
  15  1,11 - WED
  15  5,3  | WEES
+ 15  5,10 - WISE
  14  5,6  | AW
  14  7,6  | AW
  14  3,6  - CASHEW
  14  7,6  | EF
+ 14  4,8  | EPE
+ 14  5,6  | EW
+ 14  7,6  | EW
  14  5,1  | FEASES
  14  2,3  | FEW
  14  8,8  | FrAE
@@ -120,11 +135,13 @@
  14  1,6  - SACS
  14  1,6  - SECS
  14  1,5  | SEWAGES
+ 13  5,4  | AWEE
  13  7,4  | AWEE
  13  5,4  | AWES
  13  7,4  | AWES
  13  7,9  | EFS
  13  8,10 - EFS
+ 13  5,7  | EWE
  13  7,7  | EWE
  13  8,10 - EWE
  13  5,4  | EWES
@@ -140,16 +157,21 @@
  13  5,10 - FIE
  13  5,8  - FOE
  13  5,2  | SAFES
+ 13  4,3  | SAW
+ 13  4,3  | SEW
  13  1,6  | SWAGES
  13  8,6  | SWArFS
  13  5,4  | WAES
  13  7,4  | WAES
  13  8,5  | WAFErS
+ 13  5,7  | WEE
  13  7,7  | WEE
  13  5,4  | WEES
  13  7,4  | WEES
+ 13  5,10 - WIS
  13  5,8  - WOE
  12  2,6  - ACE
+ 12  4,4  | AW
  12  5,3  | AWEE
  12  7,3  | AWEE
  12  8,8  - AWEE
@@ -160,11 +182,13 @@
  12  7,3  | EASES
  12  4,4  | EF
  12  6,11 - ESES
+ 12  4,4  | EW
  12  5,3  | EWES
  12  8,8  - EWES
  12  5,5  | FAS
  12  7,5  | FAS
  12  4,1  | FEASE
+ 12  5,5  | FEE
  12  7,5  | FEE
  12  4,1  | FESSE
  12  8,5  | FEWEr
@@ -176,11 +200,13 @@
  12  1,6  - SEC
  12  5,3  | SEWS
  12  8,6  | SWArF
+ 12  5,5  | WAE
  12  7,5  | WAE
  12  8,5  | WAFEr
  12  1,7  | WAGES
  12  5,5  | WAS
  12  7,5  | WAS
+ 12  5,5  | WEE
  12  7,5  | WEE
  11  8,8  - AWE
  11  4,2  | AWEE
@@ -191,6 +217,7 @@
  11  4,2  | EWES
  11  4,2  | FEES
  11  4,2  | FESS
+ 11  4,9  | PEA
  11  4,9  | PEE
  11  2,3  | SAW
  11  2,3  | SEW
@@ -202,6 +229,7 @@
  10  5,4  | AWE
  10  7,4  | AWE
  10  2,2  | EASE
+ 10  5,4  | EASE
  10  5,2  | EASES
  10  2,4  | EF
  10  8,8  - EF
@@ -210,7 +238,10 @@
  10  5,4  | EFS
  10  5,4  | ESES
  10  7,4  | ESES
+ 10  5,7  | ESES
  10  7,7  | ESES
+ 10  2,4  | EW
+ 10  8,8  - EW
  10  5,4  | EWE
  10  7,4  | EWE
  10  4,3  | FAS
@@ -229,6 +260,7 @@
  10  7,4  | SEAS
  10  5,4  | SEES
  10  7,4  | SEES
+ 10  5,7  | SEES
  10  7,7  | SEES
  10  8,5  | SEWArS
  10  8,5  | SEWErS
@@ -259,6 +291,7 @@
   9  8,8  - EASE
   9  8,10 - EASE
   9  4,1  | EASES
+  9  5,5  | ESE
   9  5,3  | ESES
   9  8,8  - ESES
   9  8,10 - ESES
@@ -278,11 +311,13 @@
   9  5,7  - FOSSE
   9  6,6  - HAWS
   9  6,6  - HEWS
+  9  5,5  | SAE
   9  7,5  | SAE
   9  8,5  | SAFEr
   9  1,7  | SAGES
   9  8,5  | SAWEr
   9  5,3  | SEAS
+  9  5,5  | SEE
   9  7,5  | SEE
   9  5,3  | SEES
   9  8,5  | SEWAr
@@ -303,6 +338,7 @@
   9  7,5  | WE
   9  8,6  | WEArS
   9  5,6  - WHEE
+  8  5,6  | AE
   8  7,6  | AE
   8  1,8  | AGEE
   8  1,8  | AGES
@@ -313,10 +349,12 @@
   8  1,7  - AWLS
   8  8,8  | ArFS
   8  4,2  | EASE
+  8  5,6  | EE
   8  7,6  | EE
   8  2,10 - EE
   8  5,6  | ES
   8  7,6  | ES
+  8  8,8  - ESE
   8  4,2  | ESES
   8  8,8  - ESS
   8  2,3  | EWE
@@ -357,6 +395,14 @@
   7  3,10 - EE
   7  2,7  - ELF
   7  8,8  - ES
+  7  4,3  | ESE
+  7  5,4  | ESE
+  7  7,4  | ESE
+  7  5,7  | ESE
+  7  7,7  | ESE
+  7  5,9  | ESE
+  7  7,9  | ESE
+  7  8,10 - ESE
   7  4,3  | ESS
   7  5,4  | ESS
   7  7,9  | ESS
@@ -387,6 +433,7 @@
   7  4,3  | SEE
   7  5,4  | SEE
   7  7,4  | SEE
+  7  5,7  | SEE
   7  7,7  | SEE
   7  2,5  - SEWS
   7  5,11 - SEWS
@@ -415,6 +462,7 @@
   6  6,11 - EFS
   6  4,4  | ES
   6  5,5  | ES
+  6  8,10 - EW
   6  1,5  - EWE
   6  3,5  - EWE
   6  6,11 - EWE
@@ -426,6 +474,8 @@
   6  6,7  - OAF
   6  6,7  - OASES
   6  6,7  - OWE
+  6  5,5  | SA
+  6  7,5  | SA
   6  1,11 - SAD
   6  1,7  | SAGE
   6  1,7  | SAGS
@@ -454,6 +504,9 @@
   5  1,7  - EELS
   5  3,5  - EF
   5  6,11 - EF
+  5  2,3  | ESE
+  5  3,5  - EW
+  5  6,11 - EW
   5  8,8  | ErAS
   5  2,5  - FE
   5  5,11 - FE
@@ -495,10 +548,14 @@
   4  8,7  | EAr
   4  2,11 - EDS
   4  2,4  | EE
+  4  5,8  | EE
   4  7,8  | EE
   4  1,7  - EEL
   4  5,6  - EH
   4  2,7  - ELS
+  4  2,8  - EO
+  4  2,8  | EO
+  4  5,8  - EO
   4  5,9  | ES
   4  7,9  | ES
   4  1,5  - ESES
@@ -509,6 +566,7 @@
   4  6,6  - HE
   4  6,10 - IS
   4  6,8  - OE
+  4  2,4  | SA
   4  1,7  - SAL
   4  2,5  - SEAS
   4  5,11 - SEAS
@@ -524,11 +582,15 @@
   3  2,11 - AD
   3  2,7  - AL
   3  8,8  | Ar
+  3  3,11 - DA
   3  3,11 - DE
   3  2,11 - ED
   3  8,10 - EE
   3  2,7  - EL
   3  8,10 - ES
+  3  1,5  - ESE
+  3  3,5  - ESE
+  3  6,11 - ESE
   3  3,5  - ESS
   3  6,11 - ESS
   3  8,8  | Er
@@ -548,6 +610,7 @@
   2  3,5  - EE
   2  5,11 - EE
   2  6,11 - EE
+  2  5,7  - EO
   2  3,5  - ES
   2  6,11 - ES
   2  6,7  - OE

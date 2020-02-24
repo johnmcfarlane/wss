@@ -57,6 +57,8 @@
  24 11,3  | WANS
  24 11,3  | WEDS
  24 11,3  | WENS
+ 23  7,5  - ANEW
+ 23  7,7  - ANEW
  23  6,7  - EASED
  22  6,6  | BEANED
  22 10,5  | DEEWAN
@@ -92,6 +94,14 @@
  20  6,6  | BANDS
  20  6,6  | BANED
  20  6,6  | BENDS
+ 19  8,5  - DAW
+ 19  8,7  - DAW
+ 19  8,5  - DEW
+ 19  8,7  - DEW
+ 19  8,5  - NAW
+ 19  8,7  - NAW
+ 19  8,5  - NEW
+ 19  8,7  - NEW
  19  8,4  | WAINS
  19  5,7  - WEAN
  18 11,2  | AEDES
@@ -102,6 +112,7 @@
  18  6,6  | BEANS
  18  6,6  | BENES
  18 11,3  | DANS
+ 18  8,5  - DENE
  18 11,3  | DENS
  18  6,7  - EASE
  18 11,3  | ENDS
@@ -131,7 +142,9 @@
  17  8,4  | DWINES
  17  9,5  - EWE
  17  8,5  - SAW
+ 17  8,7  - SAW
  17  8,5  - SEW
+ 17  8,7  - SEW
  17  8,3  | SWAIN
  17  9,2  | SWEATED
  17  3,7  - WADE
@@ -148,10 +161,14 @@
  16  9,3  | WANTS
  16  9,3  | WASTED
  15 11,3  | ANES
+ 15  8,5  - DAN
  15  8,7  - DAN
  15 11,3  | DEES
+ 15  8,5  - DEN
  15  8,7  - DEN
  15 11,2  | EASES
+ 15  8,5  - NED
+ 15  8,7  - NED
  15 11,3  | NESS
  15 11,6  | SADE
  15 11,6  | SANE
@@ -161,10 +178,15 @@
  15 11,6  | SEEN
  15 11,6  | SENE
  15  7,3  | WEALDS
+ 14  7,5  - ANE
  14  7,7  - ANE
  14  9,5  - AW
+ 14  9,7  - AW
  14  9,3  | DAWT
  14 10,2  | DENSE
+ 14  9,5  - EW
+ 14  9,7  - EW
+ 14  7,6  | LAWNED
  14  8,3  | NEWIES
  14  9,3  | NEWT
  14  8,5  | SINEWED
@@ -183,14 +205,19 @@
  13  8,4  | ANISEED
  13  9,4  | ANTEED
  13  3,7  - AWEE
+ 13  8,5  - DEE
  13  8,7  - DEE
  13  3,7  - DENE
  13  2,7  - DENSE
  13  8,5  | DIWANS
+ 13  8,5  - NAE
  13  8,7  - NAE
+ 13  8,5  - NEE
  13  8,7  - NEE
  13  8,5  - SAD
  13  8,7  - SAD
+ 13  8,5  - SAN
+ 13  8,7  - SAN
  13  8,5  - SEN
  13  8,7  - SEN
  13  9,5  | STEWED
@@ -209,6 +236,7 @@
  12  8,5  | DIENES
  12  8,5  | DIWAN
  12 10,6  | EASED
+ 12  7,5  - ESE
  12 11,3  | ESES
  12  7,6  | LAWNS
  12  5,5  - NAE
@@ -284,7 +312,10 @@
  10  9,4  | ANTED
  10  8,4  | ASIDE
  10 10,3  | AWNED
+ 10  8,5  - DA
+ 10  8,7  - DA
  10 10,3  | DAWEN
+ 10  8,5  - DE
  10  8,7  - DE
  10  6,4  | DEBASE
  10  9,3  | DEETS
@@ -302,8 +333,10 @@
  10  7,6  | LANDS
  10  7,6  | LENDS
  10  7,6  | LENSED
+ 10  8,5  - NA
  10  8,7  - NA
  10  7,4  | NALEDS
+ 10  8,5  - NE
  10  8,7  - NE
  10  9,3  | NEATS
  10  6,3  | SEABED
@@ -331,7 +364,9 @@
  10  8,5  | WIDE
  10  8,5  | WINE
  10  8,5  | WINS
+  9  7,5  - AD
   9  7,7  - AD
+  9  7,5  - AN
   9  7,7  - AN
   9  4,7  - ANE
   9  7,3  | ANELES
@@ -342,6 +377,8 @@
   9  7,3  | DEALS
   9  4,7  - DEE
   9  8,5  | DINES
+  9  7,5  - ED
+  9  7,5  - EN
   9  9,3  | ENATE
   9  7,6  | LADEN
   9  7,6  | LAND
@@ -380,6 +417,7 @@
   9  6,4  | WEB
   9 10,4  | WEEDS
   9 10,5  | WEEDS
+  9  8,3  | WEEI
   9 10,4  | WEENS
   9 10,5  | WEENS
   9  7,4  | WELD
@@ -408,6 +446,10 @@
   8  6,6  | BEEN
   8  6,6  | BENE
   8  6,6  | BENS
+  8  5,5  - DA
+  8 10,5  - DA
+  8  5,7  - DA
+  8 10,7  - DA
   8  6,4  | DABS
   8  9,4  | DATES
   8 10,5  - DE
@@ -424,6 +466,7 @@
   8  9,7  - EE
   8  7,5  | ELANS
   8  9,7  - ES
+  8  4,7  - ESE
   8  9,5  | ETNA
   8  8,6  | IDEAS
   8  7,6  | LADES
@@ -436,6 +479,7 @@
   8  5,5  - NA
   8 10,5  - NA
   8  5,7  - NA
+  8 10,7  - NA
   8  6,4  | NABE
   8  6,4  | NABS
   8  7,4  | NALED
@@ -447,6 +491,8 @@
   8  9,3  | NEST
   8 10,5  | NEWS
   8  8,5  | NIDE
+  8  8,5  - SA
+  8  8,7  - SA
   8  4,7  - SAE
   8  9,4  | SATED
   8  4,5  - SEA
@@ -518,6 +564,8 @@
   7 10,5  | NEEDS
   7  9,4  | NETS
   7 10,5  | NEW
+  7  5,5  - SA
+  7  5,7  - SA
   7  6,4  | SABE
   7  8,3  | SADI
   7  8,4  | SAID
@@ -580,6 +628,7 @@
   6  7,6  | LEES
   6 10,4  | NEED
   6 10,5  | NEED
+  6 10,7  - SA
   6  6,4  | SAB
   6  9,4  | SATE
   6 11,6  | SAW
@@ -621,8 +670,11 @@
   5 11,5  | ESNE
   5 10,6  | ESNE
   5  9,5  | ETA
+  5 10,6  | EW
   5  7,6  | LAD
   5  7,6  | LED
+  5  7,6  | LSD
+  5 10,5  | NED
   5 11,4  | NESS
   5  9,4  | NET
   5 10,3  | SADE
@@ -657,6 +709,8 @@
   4 11,4  | EDS
   4 10,6  | EDS
   4  7,4  | EEL
+  4 10,5  | EEN
+  4 10,6  | EEN
   4  7,5  | ELS
   4 11,4  | ENS
   4 10,6  | ENS
@@ -669,6 +723,7 @@
   4 10,5  | NEE
   4 11,6  | SAD
   4  7,4  | SAL
+  4 11,6  | SAN
   4  9,4  | SAT
   4  7,4  | SEL
   4 10,5  | SEN
@@ -685,9 +740,13 @@
   3 11,5  | ASS
   3  9,5  | AT
   3 10,5  | DE
+  3  8,5  | DI
   3 10,6  | ED
   3  7,5  | EL
   3 10,6  | EN
+  3 10,4  | ESE
+  3 11,5  | ESE
+  3 10,6  | ESE
   3 11,4  | ESS
   3 11,5  | ESS
   3  9,5  | ET
@@ -695,6 +754,7 @@
   3  8,6  | IN
   3  7,6  | LA
   3 10,5  | NE
+  3  8,5  | NI
   3 10,4  | SAE
   3 11,6  | SAE
   3 10,5  | SEA
@@ -712,4 +772,5 @@
   2 11,5  | ES
   2 10,6  | ES
   2  8,6  | IS
+  2 11,6  | SA
   2  8,5  | SI

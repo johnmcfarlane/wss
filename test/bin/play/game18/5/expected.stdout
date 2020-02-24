@@ -3,27 +3,40 @@
  30  1,9  - SOAVE
  21  1,9  - OVA
  20  4,8  | EGOS
+ 19  4,6  | LOOSE
  19  7,1  | OES
+ 19  7,1  | OOS
  18  7,2  | ES
  18  3,8  - EVES
  18  1,9  - GOAS
+ 18  7,2  | OS
  18  7,3  | SO
  18  1,10 - VOTES
  17  4,8  | EGO
  17  3,8  - EVE
+ 17  4,5  | OLEOS
+ 17  6,4  - SEV
+ 17  2,8  - SEV
  17  2,8  - VEGES
+ 16  4,6  | LOOS
  16  4,6  | LOSE
  16  1,10 - VETO
  16  1,10 - VETS
  16  1,10 - VOTE
  15  1,9  - GOA
  15  2,8  - VEG
+ 14  2,6  | FOES
+ 14  4,4  - OES
+ 14  4,5  | OLEO
  14  4,5  | OLES
+ 14  2,8  | OSE
  14  4,5  | SLOE
  14  1,10 - VET
+ 13  4,6  | LOO
  13  5,6  | MOVES
  13  1,3  - OILCANS
  13  5,5  - OKES
+ 13  4,8  | OSE
  13  4,9  | SEG
  13  6,4  - SEGOS
  12  3,7  - DOE
@@ -48,6 +61,7 @@
  11  1,11 - SOAVE
  10  4,3  | COOL
  10  4,8  | ES
+ 10  2,10 | ES
  10  1,8  - EVES
  10  2,11 - GAVE
  10  1,10 - GET
@@ -56,6 +70,8 @@
  10  5,6  | MEGS
  10  5,6  | MOGS
  10  2,9  - OAVES
+ 10  4,8  | OE
+ 10  4,8  | OS
  10  1,8  - VEES
  10  2,8  - VEES
  10  1,8  - VOES
@@ -68,6 +84,7 @@
   9  1,11 - OVA
   9  2,9  - SAVE
   9  1,9  - SEA
+  9  5,2  - SEV
   9  2,9  - VASE
   9  2,8  - VEE
   8  3,9  - AVE
@@ -86,20 +103,24 @@
   8  1,8  - OGEE
   8  1,10 - OOTS
   8  2,11 - SAVE
+  8  5,2  - SEGO
   8  3,10 - TOES
   8  2,11 - VASE
   7  3,9  - AGES
   7  3,11 - AVE
   7  3,11 - AVO
+  7  4,3  | CO
   7  6,2  - EVE
   7  1,8  - EVE
   7  2,9  - GAES
   7  2,8  - GEE
   7  5,1  | GOA
+  7  6,5  - KES
   7  6,5  - KOS
   7  4,5  | OLE
   7  2,9  - SAGE
   7  2,9  - SAGO
+  7  5,2  - SEG
   7  2,9  - VAS
   7  2,11 - VAS
   7  1,8  - VEE
@@ -110,13 +131,17 @@
   6  3,9  - AGS
   6  3,7  - DO
   6  6,2  - EGOS
+  6  4,9  | EO
+  6  2,8  | ES
   6  4,10 | ES
   6  2,11 - GAES
+  6  7,1  | GO
   6  4,6  | LO
   6  5,6  | MOO
   6  5,6  | MOS
   6  4,10 | OE
   6  1,10 - OOT
+  6  2,8  | OS
   6  4,10 | OS
   6  2,11 - SAGE
   6  2,11 - SAGO
@@ -128,6 +153,7 @@
   5  3,11 - AGO
   5  3,11 - AGS
   5  6,2  - EGO
+  5  3,8  - ESE
   5  5,4  - ESS
   5  2,9  - GAE
   5  2,11 - GAE
@@ -139,10 +165,12 @@
   5  5,6  | MO
   5  1,3  | OES
   5  2,8  - OES
+  5  1,3  | OOS
   5  2,9  - SAG
   5  2,11 - SAG
   5  5,1  | SEA
   5  1,11 - SEA
+  5  5,2  - SEE
   5  2,8  - SEE
   5  2,4  - SO
   5  6,4  - SOS
@@ -152,6 +180,8 @@
   4  3,9  - AG
   4  3,11 - AG
   4  3,8  - EE
+  4  7,1  | EO
+  4  3,8  - EO
   4  7,1  | ES
   4  1,4  - ES
   4  5,4  - ES
@@ -159,8 +189,14 @@
   4  2,10 - ET
   4  7,1  | OE
   4  1,3  | OE
+  4  7,1  | OO
+  4  1,3  | OO
   4  7,1  | OS
+  4  1,4  - OS
+  4  7,1  | SO
   3  4,5  | EL
+  3  6,2  - ESE
+  3  1,8  - ESE
   3  1,8  - OSE
   3  2,9  - SAE
   3  2,11 - SAE
@@ -173,8 +209,11 @@
   2  3,11 - AS
   2  6,2  - EE
   2  2,8  - EE
+  2  6,2  - EO
   2  6,2  - ES
   2  2,8  - OE
+  2  2,9  - SA
+  2  2,11 - SA
   2  6,4  - SO
   2  3,10 - TE
   2  3,10 - TO

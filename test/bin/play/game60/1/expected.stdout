@@ -35,6 +35,7 @@
  24  6,1  | MEGASSE
  24  6,2  | MEGASSE
  24  6,4  | MESSAGE
+ 23  1,5  | ESQ
  23  3,7  - MA
  23  3,5  - ME
  23  3,7  - ME
@@ -69,6 +70,7 @@
  18  3,5  | MAGES
  18  1,4  | MESA
  18  6,6  | SESAME
+ 17  1,5  - EASE
  17  1,7  - EASE
  17  1,7  - EME
  17  1,4  | EMS
@@ -77,6 +79,8 @@
  17  1,4  | MAS
  16  3,3  | AGMAS
  16  1,4  | AGS
+ 16  2,5  - ESE
+ 16  2,7  - ESE
  16  3,3  | GAMA
  16  3,5  | GAMA
  16  3,5  | GAME
@@ -104,15 +108,20 @@
  15  3,5  | MAG
  14  3,3  | AGMA
  14  3,6  | AGMAS
+ 14  1,5  | ESE
+ 14  6,5  - ESQ
  14  6,2  | GASES
  14  1,7  - MAE
+ 14  1,5  - MAS
  14  1,7  - MAS
  14  1,6  | SAE
  14  3,7  - SAE
  14  6,2  | SAGES
  14  6,6  | SAGES
+ 14  3,5  - SEA
  14  1,6  | SEA
  14  3,7  - SEA
+ 14  3,5  - SEE
  14  1,6  | SEE
  14  3,7  - SEE
  13  3,6  | AGMA
@@ -120,14 +129,17 @@
  13  1,5  | ES
  13  1,7  - GAE
  13  5,2  | GAMETES
+ 13  1,5  - GAS
  13  1,7  - GAS
  13  1,7  - GEE
  13  5,4  | METAGES
  13  5,4  | QATS
+ 13  1,6  | SA
  12  1,7  - AM
  12  3,4  | AMAS
  12  3,6  | AMAS
  12  1,7  - EM
+ 12  6,5  | ESQ
  12  5,2  | GAMETE
  12  3,5  | MAES
  12  3,3  | MASA
@@ -152,6 +164,7 @@
  11  5,3  | MAST
  11  5,3  | MEAT
  11  5,3  | MEET
+ 11  3,7  - SA
  11  1,7  - SAE
  11  1,5  - SEA
  11  1,7  - SEA
@@ -166,22 +179,27 @@
  10  3,6  | AGES
  10  3,4  | AMA
  10  3,6  | AMA
+ 10  2,5  - AS
  10  2,7  - AS
  10  6,2  | EASES
  10  2,7  - EE
  10  5,2  | EGEST
  10  6,5  - EMES
+ 10  2,5  - ES
  10  2,7  - ES
  10  4,6  | FEASE
  10  3,5  | GAES
  10  5,3  | GESTE
+ 10  2,5  - SA
  10  3,3  | SAGA
  10  3,5  | SAGA
  10  3,5  | SAGE
  10  2,5  | SHAME
   9  4,7  - AE
   9  6,5  - AGEE
+  9  6,7  - AGEE
   9  6,5  - AGES
+  9  6,7  - AGES
   9  2,5  | AHEM
   9  3,6  | AM
   9  4,5  - EE
@@ -218,6 +236,7 @@
   8  3,6  | AGE
   8  3,6  | AGS
   8  5,5  - EASE
+  8  5,7  - EASE
   8  6,5  - EME
   8  6,5  - EMS
   8  4,6  | FAS
@@ -231,6 +250,7 @@
   8  6,3  | MASSE
   8  6,4  | MASSE
   8  5,4  | MATES
+  8  2,4  | MEH
   8  6,4  | MESAS
   8  5,4  | METES
   8  5,4  | SATEM
@@ -240,8 +260,11 @@
   8  5,6  | TAMS
   7  3,6  | AG
   7  6,5  - AGE
+  7  6,7  - AGE
   7  6,5  - AGS
+  7  6,7  - AGS
   7  6,5  - AM
+  7  6,7  - AM
   7  6,5  - EASE
   7  6,5  - EM
   7  6,3  | EMES
@@ -271,6 +294,7 @@
   6  5,5  - AE
   6  1,7  - AE
   6  6,5  - AG
+  6  6,7  - AG
   6  6,3  | AGES
   6  1,5  - AS
   6  3,3  | ASEA
@@ -292,6 +316,8 @@
   6  6,4  | MAS
   6  5,4  | MAT
   6  5,4  | MET
+  6  1,5  - SA
+  6  1,7  - SA
   6  6,6  | SAGE
   6  6,3  | SAGS
   6  6,6  | SAGS
@@ -301,6 +327,7 @@
   6  5,5  | STAG
   6  5,6  | TAM
   6  5,6  | TEASE
+  6  5,6  | TEM
   5  3,5  | AAS
   5  6,4  | AGS
   5  2,5  | AHS
@@ -308,6 +335,7 @@
   5  6,4  | EASES
   5  5,3  | EAST
   5  4,5  | EF
+  5  6,5  - ESE
   5  4,6  | FA
   5  4,6  | FE
   5  6,4  | GAS
@@ -329,8 +357,10 @@
   5  5,6  | TEG
   4  3,6  | AAS
   4  6,5  - AE
+  4  6,7  - AE
   4  2,5  | AH
   4  6,5  - AS
+  4  6,7  - AS
   4  5,5  | ATES
   4  6,4  | EASE
   4  5,4  | EATS
@@ -358,9 +388,11 @@
   3  6,5  | ASS
   3  5,5  | ATE
   3  5,4  | EAT
+  3  6,5  | ESE
   3  6,4  | ESS
   3  6,5  | ESS
   3  5,5  | ETA
+  3  3,5  | SA
   3  6,6  | SAE
   3  5,4  | SAT
   3  6,6  | SEA
@@ -374,5 +406,6 @@
   2  5,5  | AT
   2  6,5  | ES
   2  5,5  | ET
+  2  6,6  | SA
   2  5,6  | TA
   2  5,6  | TE

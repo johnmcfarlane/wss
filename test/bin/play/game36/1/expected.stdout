@@ -4,6 +4,7 @@
  38  1,7  - VISAED
  37  1,7  - VIDEO
  36  7,1  | DAVIES
+ 35  2,7  - ADIOS
  35  2,7  - IDEAS
  34  7,6  | SOAVE
  34  7,3  | VIDS
@@ -30,6 +31,7 @@
  29  7,3  | AVOS
  29  7,6  | SAVE
  28  7,2  | ADIOS
+ 28  3,7  - DIES
  28  3,7  - DOES
  28  7,2  | IDEAS
  28  7,4  | VASE
@@ -42,6 +44,7 @@
  27  7,3  | DOES
  27  7,2  | EIDOS
  27  7,6  | SAID
+ 27  7,6  | SEV
  27  7,4  | VAS
  27  7,4  | VIS
  26  7,3  | ADOS
@@ -55,6 +58,7 @@
  26  7,6  | SADI
  26  7,6  | SIDE
  26  7,6  | SODA
+ 25  3,7  - DIE
  25  3,7  - DOE
  25  7,4  | DOSE
  25  4,4  | VANED
@@ -85,6 +89,7 @@
  22  7,5  | IS
  22  4,6  | NEVOID
  22  7,5  | OS
+ 22  7,6  | SA
  22  7,6  | SI
  22  7,6  | SO
  22  4,4  | VANES
@@ -100,7 +105,9 @@
  21  4,2  | DIVAN
  21  4,2  | DOVEN
  21  4,6  | NAVIES
+ 21  4,7  - OAD
  21  1,7  - SADE
+ 21  1,7  - SADI
  21  3,7  - SAE
  21  4,2  | SAVINE
  21  3,7  - SEA
@@ -158,6 +165,7 @@
  17  5,7  - AD
  17  1,7  - AID
  17  5,7  - ED
+ 17  1,7  - OAD
  17  5,7  - OD
  17  1,7  - SAD
  17  1,7  - VAS
@@ -170,6 +178,7 @@
  16  3,6  | AVOID
  16  3,3  | DEVA
  16  3,3  | DIVA
+ 16  4,7  - EO
  16  2,7  - ID
  16  5,6  | JADES
  16  3,5  | OAVES
@@ -180,6 +189,7 @@
  16  4,3  | VIANDS
  15  5,7  - AS
  15  3,6  | AVISO
+ 15  6,5  - DAVIES
  15  6,7  - DAVIES
  15  5,7  - ES
  15  4,5  | INVADES
@@ -193,17 +203,24 @@
  14  6,5  - AVOIDS
  14  3,6  | AVOS
  14  4,4  | DANIOS
+ 14  5,4  | DEJA
+ 14  6,5  - DEVAS
  14  6,7  - DEVAS
  14  1,7  - DIE
  14  1,7  - DIS
+ 14  6,5  - DIVAS
  14  6,7  - DIVAS
+ 14  6,5  - DIVES
  14  6,7  - DIVES
  14  4,4  | DONSIE
+ 14  6,5  - DOVES
  14  6,7  - DOVES
  14  4,5  | INVADE
  14  6,6  | IODISE
  14  5,6  | JIAO
  14  5,6  | JOES
+ 14  5,6  | JOIE
+ 14  5,6  | JOSE
  14  4,3  | SAINED
  14  3,5  | SAVE
  14  3,3  | VASA
@@ -215,16 +232,27 @@
  13  6,5  - AVID
  13  4,2  | AVIONS
  13  6,5  - AVOID
+ 13  3,5  - DA
+ 13  3,7  - DA
  13  4,4  | DANIO
+ 13  3,5  - DE
  13  3,7  - DE
+ 13  6,5  - DEVA
  13  6,7  - DEVA
+ 13  6,5  - DEVS
  13  6,7  - DEVS
+ 13  3,5  - DI
+ 13  3,7  - DI
  13  4,4  | DINES
  13  4,4  | DINOS
+ 13  6,5  - DIVA
  13  6,7  - DIVA
+ 13  6,5  - DIVE
  13  6,7  - DIVE
+ 13  3,5  - DO
  13  3,7  - DO
  13  4,4  | DONAS
+ 13  6,5  - DOVE
  13  6,7  - DOVE
  13  4,5  | ENVOIS
  13  4,6  | NAIVES
@@ -248,6 +276,7 @@
  12  4,5  | ENVOI
  12  6,6  | IDEAS
  12  2,7  - IS
+ 12  5,6  | JAI
  12  5,6  | JOE
  12  2,6  | KIVA
  12  2,6  | KVAS
@@ -262,6 +291,7 @@
  11  6,3  | AVOIDS
  11  6,5  - AVOS
  11  6,3  | DAVIES
+ 11  6,5  - DEV
  11  6,7  - DEV
  11  5,6  | JA
  11  5,6  | JE
@@ -308,6 +338,7 @@
   9  3,5  - AE
   9  3,7  - AE
   9  3,5  - AI
+  9  3,7  - AI
   9  6,5  - AIDES
   9  3,6  | ASIDE
   9  2,4  | ASKOI
@@ -315,31 +346,47 @@
   9  6,4  | AVID
   9  6,4  | AVISO
   9  6,5  - AVO
+  9  1,7  - DA
+  9  6,5  - DAIS
   9  6,7  - DAIS
   9  2,4  | DAKS
   9  4,4  | DAN
   9  4,3  | DEANS
   9  4,4  | DEN
   9  2,3  | DESK
+  9  1,7  - DI
+  9  6,5  - DIES
   9  6,7  - DIES
   9  2,4  | DIKE
   9  4,4  | DIN
   9  2,3  | DISK
   9  6,5  | DIVA
   9  6,5  | DIVE
+  9  6,5  - DOES
   9  6,7  - DOES
   9  4,4  | DON
+  9  6,5  - DOSE
   9  6,7  - DOSE
+  9  3,7  - EO
   9  3,3  | IDEAS
   9  6,4  | IVIES
   9  2,6  | KADI
   9  2,6  | KIDS
+  9  4,6  | NED
   9  4,6  | NOD
   9  4,6  | NOSED
   9  6,5  - OVA
+  9  3,5  - SA
+  9  3,7  - SA
   9  6,5  - SAID
   9  6,7  - SAID
+  9  6,5  - SEV
+  9  6,7  - SEV
+  9  3,5  - SI
+  9  3,7  - SI
+  9  2,5  | SKED
   9  2,5  | SKID
+  9  3,5  - SO
   9  3,7  - SO
   9  6,5  | VIDE
   9  6,5  | VIDS
@@ -361,6 +408,7 @@
   8  4,2  | EOSIN
   8  2,6  | KAES
   8  2,6  | KEAS
+  8  2,6  | KED
   8  2,6  | KID
   8  2,6  | KOAS
   8  2,6  | KOIS
@@ -373,6 +421,7 @@
   8  1,7  - OI
   8  2,5  | OKAS
   8  2,5  | OKES
+  8  1,7  - SA
   8  3,5  | SADE
   8  6,5  - SADE
   8  6,7  - SADE
@@ -405,17 +454,23 @@
   7  4,5  | ANES
   7  4,5  | ANIS
   7  2,4  | ASK
+  7  6,5  - DIE
   7  6,7  - DIE
+  7  6,5  - DIS
   7  6,7  - DIS
+  7  6,5  - DOE
   7  6,7  - DOE
+  7  6,5  - DOS
   7  6,7  - DOS
   7  4,4  | EONS
   7  3,3  | IDEA
   7  6,3  | IODISE
   7  4,4  | IONS
   7  2,6  | KAE
+  7  2,6  | KAI
   7  2,6  | KAS
   7  2,6  | KEA
+  7  2,6  | KES
   7  2,6  | KIS
   7  2,6  | KOA
   7  2,6  | KOI
@@ -424,6 +479,7 @@
   7  4,6  | NAOS
   7  4,6  | NOES
   7  4,6  | NOSE
+  7  3,5  | OAD
   7  2,4  | OAK
   7  3,3  | ODEA
   7  2,5  | OKA
@@ -451,7 +507,13 @@
   6  3,3  | ASEA
   6  3,6  | ASEA
   6  6,4  | ASIDE
+  6  6,5  - DA
+  6  6,7  - DA
+  6  6,5  - DE
   6  6,7  - DE
+  6  6,5  - DI
+  6  6,7  - DI
+  6  6,5  - DO
   6  6,7  - DO
   6  6,5  | EIDOS
   6  4,4  | EON
@@ -460,6 +522,7 @@
   6  2,6  | KI
   6  4,6  | NAE
   6  4,6  | NOS
+  6  6,5  - OAD
   6  3,4  | ODA
   6  6,5  - ODA
   6  6,5  - ODE
@@ -468,6 +531,7 @@
   6  6,5  | OIDIA
   6  6,5  - SAD
   6  6,7  - SAD
+  6  4,4  | SAN
   6  4,4  | SEN
   6  4,4  | SIN
   6  6,5  - SOD
@@ -481,6 +545,7 @@
   5  6,5  | AIDS
   5  6,5  - AIS
   5  4,5  | AND
+  5  3,5  | DA
   5  6,4  | DAIS
   5  6,5  | DIES
   5  4,5  | END
@@ -518,6 +583,8 @@
   4  4,5  | ONE
   4  4,5  | ONS
   4  6,5  - OS
+  4  6,5  - SA
+  4  6,7  - SA
   4  3,4  | SEA
   4  6,5  - SI
   4  6,7  - SI
@@ -530,13 +597,16 @@
   3  6,5  | AIS
   3  4,5  | AN
   3  3,6  | AS
+  3  6,5  | DI
   3  4,5  | EN
   3  6,6  | ID
   3  4,5  | IN
   3  4,6  | NA
   3  4,6  | NE
+  3  4,6  | NI
   3  4,6  | NO
   3  4,5  | ON
+  3  3,5  | SA
   3  6,4  | SEI
   2  6,5  | AI
   2  6,6  | IS

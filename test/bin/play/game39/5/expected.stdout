@@ -6,6 +6,7 @@
  22  6,8  - NEED
  21  8,7  | HEED
  21  8,7  | HENT
+ 21  7,8  - NED
  21  6,8  - TEED
  20  4,4  - DEL
  20  3,4  - HEEL
@@ -17,17 +18,22 @@
  19  8,7  | HET
  18  8,7  | DEET
  18  8,7  | DEN
+ 18 10,1  | HE
  18  8,7  | HE
  18  3,4  - TEEL
  17  8,7  | DEE
  17  4,4  - EEL
  17  5,3  | JET
  17  4,4  - TEL
+ 16 10,1  | DE
  16  8,7  | DE
+ 16 10,1  | NE
  15  8,1  | THEE
+ 14 10,1  | EE
  14  5,4  - EL
  14  5,3  | JE
  14  9,3  | SMOKED
+ 14 10,1  | TE
  13  8,2  | DEE
  13  5,6  | HEED
  13  8,2  | NEE
@@ -41,20 +47,27 @@
  11  8,7  - DEX
  11  8,3  | EE
  11  8,4  - EM
+ 11  5,6  | NEED
  11  7,6  | NEED
+ 11  5,5  | NTH
  11  7,5  | NTH
  11  5,5  - QI
  11  5,6  - QI
  11  5,5  | THE
  11  5,6  | THEN
  11  7,6  | THEN
+ 10  5,6  | DENE
  10  7,6  | DENE
+ 10  5,6  | DENT
  10  7,6  | DENT
+ 10 10,2  - EW
  10  5,6  | HEN
  10  5,6  | TEND
  10  7,6  | TEND
+  9  5,6  | DEET
   9  7,6  | DEET
   9  5,6  | HET
+  9  5,6  | NTH
   9  7,6  | NTH
   9  5,6  | TEED
   9  7,6  | TEED
@@ -63,26 +76,34 @@
   9  5,6  | THEE
   9  7,6  | THEE
   9  3,5  - THEIN
+  8  5,6  | DEN
   8  7,6  | DEN
   8  3,5  - DENI
   8  5,6  | HE
+  8  5,6  | NED
+  8  7,6  | NED
   8  3,6  - THEIN
+  7  5,6  | DEE
   7  7,6  | DEE
   7  7,1  | EDS
   7  7,1  | ENS
   7  7,1  | HES
+  7  5,6  | NEE
   7  7,6  | NEE
+  7  5,6  | NET
   7  7,6  | NET
   7  5,6  | THE
   7  7,6  | THE
   7  4,5  - THIN
   7  4,6  - THIN
+  6  5,6  | DE
   6  7,6  | DE
   6  3,6  - DENI
   6  5,5  - HID
   6  5,6  - HID
   6  5,5  - HIN
   6  5,6  - HIN
+  6  5,6  | NE
   6  7,6  | NE
   6  5,6  | TED
   6  7,6  | TED
@@ -117,11 +138,15 @@
   4  5,5  - TIN
   4  5,6  - TIN
   3  8,2  | DE
+  3  5,5  - DI
+  3  5,6  - DI
   3  6,5  - ID
   3  6,6  - ID
   3  6,5  - IN
   3  6,6  - IN
   3  8,2  | NE
+  3  5,5  - NI
+  3  5,6  - NI
   3  8,1  | TEE
   3  5,5  - TIE
   3  5,6  - TIE

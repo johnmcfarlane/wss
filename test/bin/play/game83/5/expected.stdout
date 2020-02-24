@@ -66,6 +66,7 @@
  21  4,4  - ChARK
  21  4,4  - ClERK
  21  4,4  - CrEAK
+ 21  9,1  | EMEER
  21  4,4  - HaCEK
  21 11,5  | HiVE
  20  4,4  - CRAnK
@@ -99,6 +100,7 @@
  20  6,5  | sLAVER
  19  2,5  - CHiVE
  19 11,1  | CaT
+ 19  9,1  | EMEeR
  19 11,5  | HiC
  19  3,4  - pHREAK
  18  3,5  - CAVE
@@ -140,11 +142,13 @@
  17  3,5  - CaVE
  17  3,5  - CoVE
  17 11,1  | EATeR
+ 17  9,1  | EMEEr
  17 11,5  | HiRE
  17 11,1  | RATEd
  17 11,1  | RATEl
  17 11,1  | RATEr
  17 11,1  | RATEs
+ 17 11,1  | RETAx
  17 11,5  | RiVE
  17  7,6  | SHAVER
  17 11,6  | uREA
@@ -206,6 +210,7 @@
  15  2,5  - CAViE
  15  2,5  - CAlVE
  15  2,5  - CArVE
+ 15  3,7  - CERiA
  15  2,5  - CHAfE
  15  2,5  - CHApE
  15  2,5  - CHArE
@@ -235,6 +240,8 @@
  15  3,5  - VAlE
  15  3,5  - VAnE
  15  3,5  - VAsE
+ 15  3,5  - VEgA
+ 15  3,7  - VEgA
  15  3,5  - VElA
  15  3,7  - VElA
  15  3,5  - VEnA
@@ -265,6 +272,7 @@
  14  2,5  - CuRVE
  14  7,5  | ESCHAR
  14  7,5  | ESCHARs
+ 14 11,2  | ETAs
  14  3,5  - HAVe
  14  2,5  - HAlVE
  14  6,6  | LAHaR
@@ -295,6 +303,7 @@
  14  7,1  | oRA
  14  1,5  - oRACHE
  14  2,5  - sCARE
+ 14 11,2  | sTAR
  13  3,5  - ACHE
  13 11,2  | ATE
  13  6,4  | CALVE
@@ -325,6 +334,7 @@
  13  6,4  | CuLVER
  13  3,5  - CuRE
  13  7,5  | ESCHAr
+ 13 11,2  | ETA
  13  8,5  - EVER
  13  2,5  - HAnCE
  13  2,5  - HEAVe
@@ -346,24 +356,30 @@
  13  7,6  | SuAVE
  13  6,4  | VELCRo
  13 11,1  | bATE
+ 13 11,1  | bETA
  13  2,5  - cACHE
  13 11,1  | cATE
  13 11,1  | dATE
  13 11,1  | fATE
+ 13 11,1  | fETA
  13 11,1  | gATE
  13  3,7  - gERAH
+ 13 11,1  | gETA
  13  4,4  - hACEK
  13 11,1  | hATE
  13 11,6  | iCE
  13 11,1  | lATE
  13  2,5  - mACHE
  13 11,1  | mATE
+ 13 11,1  | mETA
  13  3,5  - oCREAE
  13 11,1  | pATE
  13 11,1  | rATE
  13 11,1  | sATE
+ 13 11,1  | sETA
  13  2,5  - tACHE
  13 11,1  | tATE
+ 13 11,1  | zETA
  12 11,1  | ART
  12  6,4  | CALVe
  12  3,5  - CARe
@@ -371,6 +387,7 @@
  12  3,7  - CERo
  12  4,7  - CHAi
  12  4,7  - CHAo
+ 12  4,7  - CHiA
  12  6,5  | CLAVe
  12  6,5  | CLAVi
  12  6,5  | CLaVE
@@ -448,6 +465,7 @@
  11  7,5  | ESCARp
  11  7,5  | ESCARs
  11  7,5  | ESChAR
+ 11 11,2  | ETa
  11  6,4  | HALVa
  11  6,4  | HALVe
  11  3,5  - HAdE
@@ -501,6 +519,7 @@
  11  5,7  - dAH
  11  5,4  - dHAK
  11  3,5  - eCHE
+ 11 11,2  | eTA
  11  5,7  - fAH
  11  2,5  - fARCE
  11  2,5  - gRACE
@@ -581,6 +600,7 @@
  10  6,4  | VALuER
  10  6,4  | VELAR
  10  6,4  | VELARs
+ 10  5,7  - ViA
  10  6,1  - ViBE
  10  6,4  | bELCH
  10  4,4  - bREAK
@@ -803,6 +823,8 @@
   8  6,5  | CLEaR
   8  6,5  | CLeAR
   8  4,5  - CeE
+  8  4,5  - CpA
+  8  4,7  - CpA
   8  4,5  - CuE
   8  6,4  | ECLAt
   8  4,5  - EVe
@@ -872,6 +894,8 @@
   8  7,6  | SeRAC
   8  7,6  | ShAH
   8  7,6  | SuCRE
+  8 11,3  | TAE
+  8 11,3  | TAR
   8  6,4  | VALe
   8  6,4  | VELa
   8  6,4  | VELd
@@ -886,11 +910,13 @@
   8  6,4  - aRK
   8  6,4  - dAK
   8  6,4  - eEK
+  8  6,4  - gAK
   8  6,5  | gLACE
   8  4,5  - iCE
   8  6,5  | iLEAC
   8  6,4  - iRK
   8  6,4  - lEK
+  8  6,4  - nEK
   8  6,4  - oAK
   8  4,5  - oCA
   8  4,7  - oCA
@@ -1001,6 +1027,7 @@
   7  7,6  | SCReE
   7  7,6  | SCaR
   7  7,6  | SERaC
+  7  7,6  | SEV
   7  7,6  | SElAH
   7  7,6  | SHARd
   7  7,6  | SHARe
@@ -1058,6 +1085,7 @@
   6  3,7  - AREa
   6  6,1  - AbBE
   6  6,4  | CeL
+  6  5,7  - Co
   6  6,4  | CoL
   6  6,5  | ELHi
   6  4,5  - ERA
@@ -1091,6 +1119,7 @@
   6  5,7  - RAh
   6  5,7  - RAi
   6  4,7  - RHo
+  6  5,7  - RiA
   6  6,1  - RoBE
   6  6,1  - RuBE
   6  7,6  | SAC
@@ -1119,12 +1148,28 @@
   6  7,6  | SHeA
   6  7,6  | SHoE
   6  7,6  | SHwA
+  6  7,6  | SeV
+  6 11,3  | TAd
+  6 11,3  | TAe
+  6 11,3  | TAm
+  6 11,3  | TAn
+  6 11,3  | TAo
+  6 11,3  | TAr
+  6 11,3  | TAs
+  6 11,3  | TAt
+  6 11,3  | TAw
+  6 11,3  | TAx
   6 11,3  | TEd
   6 11,3  | TEe
   6 11,3  | TEl
+  6 11,3  | TEm
   6 11,3  | TEn
   6 11,3  | TEt
+  6 11,3  | TEw
+  6 11,3  | TaE
+  6 11,3  | TaR
   6 11,3  | TeE
+  6 11,3  | TiE
   6 11,3  | ToE
   6 11,3  | ToR
   6  3,5  - aREA
@@ -1161,6 +1206,7 @@
   5  6,5  | ALuRE
   5  6,4  | ARLEs
   5  7,5  | ASEa
+  5  6,7  - Aa
   5  6,4  | AbLER
   5  4,5  - AcE
   5  4,5  - AgE
@@ -1175,6 +1221,7 @@
   5  4,5  - AwE
   5  4,5  - AxE
   5  4,5  - AyE
+  5 10,4  - DA
   5 10,4  - DE
   5  4,5  - ErA
   5  4,7  - ErA
@@ -1243,7 +1290,9 @@
   5  7,6  | StARE
   5  7,6  | SwARE
   5  7,6  | SwEAR
+  5 11,3  | TA
   5 11,3  | TE
+  5  6,7  - aA
   5  4,5  - aRE
   5  7,5  | aSH
   5  6,4  | bALER
@@ -1314,6 +1363,8 @@
   4  4,7  - ERa
   4  4,5  - ERe
   4  7,5  | ES
+  4  7,5  | ESe
+  4  7,5  | ESq
   4  7,5  | ESs
   4  6,6  | LAR
   4  6,6  | LARd
@@ -1409,6 +1460,8 @@
   4  6,4  | bALE
   4  5,5  - bE
   4  6,5  | bLAE
+  4  5,5  - dA
+  4  5,7  - dA
   4  6,4  | dALE
   4  5,5  - dE
   4  5,5  - eE
@@ -1448,6 +1501,8 @@
   4  6,5  | pLEA
   4  6,4  | rALE
   4  5,5  - rE
+  4  5,5  - sA
+  4  5,7  - sA
   4  6,4  | sALE
   4  5,5  - tA
   4  5,7  - tA
@@ -1480,7 +1535,9 @@
   3  6,4  | AiL
   3  6,4  | AlL
   3  6,4  | AwL
+  3 10,4  - Da
   3 10,4  - De
+  3 10,4  - Di
   3 10,4  - Do
   3  6,5  | EL
   3  6,5  | ELd
@@ -1493,6 +1550,7 @@
   3  6,4  | EeL
   3  8,5  - EgER
   3  6,4  | ElL
+  3  5,7  - Eo
   3  8,5  - EpEE
   3  8,5  - EvER
   3  8,5  - EwER
@@ -1543,7 +1601,9 @@
   3  7,6  | SERe
   3  7,6  | SERf
   3  7,6  | SERs
+  3 11,3  | Ta
   3 11,3  | Te
+  3 11,3  | Ti
   3 11,3  | To
   3  6,4  | aAL
   3  6,5  | aLA
@@ -1554,6 +1614,7 @@
   3  6,4  | dAL
   3  6,4  | dEL
   3  6,4  | eEL
+  3  7,5  | eSE
   3  6,4  | gAL
   3  6,4  | gEL
   3  6,4  | mEL
@@ -1567,19 +1628,23 @@
   2 10,5  - ER
   2  8,5  - EkE
   2  8,5  - EmE
+  2  8,5  - EpE
   2  8,5  - ErE
+  2  8,5  - EsE
   2  8,5  - EvE
   2  8,5  - EwE
   2  8,5  - EyE
   2  6,6  | La
   2  6,6  | Li
   2  6,6  | Lo
+  2  7,6  | SA
   2  7,6  | SAb
   2  7,6  | SAc
   2  7,6  | SAd
   2  7,6  | SAe
   2  7,6  | SAg
   2  7,6  | SAl
+  2  7,6  | SAn
   2  7,6  | SAp
   2  7,6  | SAt
   2  7,6  | SAu
@@ -1595,6 +1660,7 @@
   2  7,6  | SEn
   2  7,6  | SEr
   2  7,6  | SEt
+  2  7,6  | SEv
   2  7,6  | SEw
   2  7,6  | SEx
   2  7,6  | SRi
@@ -1623,10 +1689,13 @@
   1 10,5  - El
   1 10,5  - Em
   1 10,5  - En
+  1 10,5  - Eo
   1 10,5  - Er
   1 10,5  - Es
   1 10,5  - Et
+  1 10,5  - Ew
   1 10,5  - Ex
+  1  7,6  | Sa
   1  7,6  | Sh
   1  7,6  | Si
   1  7,6  | So

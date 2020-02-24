@@ -59,6 +59,7 @@
  33  1,10 - FLAT
  33  2,5  | LATEeN
  33  2,6  | LATeEN
+ 32  8,9  - ALEF
  32  2,10 - FAwNS
  32  2,10 - FEeLS
  32  2,10 - FeELS
@@ -99,6 +100,9 @@
  30  2,6  | iNLET
  30  2,6  | pANEL
  30  2,6  | uNLET
+ 29  8,9  - ALFa
+ 29  8,9  - ALeF
+ 29  8,9  - ALiF
  29  1,10 - ELATeS
  29  1,10 - ENATeS
  29  2,10 - FAT
@@ -128,6 +132,8 @@
  28  2,10 - LAwNS
  28  2,10 - LiENS
  28  2,10 - NoELS
+ 28  8,9  - aLEF
+ 28  8,9  - aLFA
  28  1,6  - iNFLECT
  28  4,6  - uNCLEFT
  27  2,10 - LAThS
@@ -252,6 +258,10 @@
  24  2,10 - ToEAS
  24  2,6  - eNFACE
  24  2,6  - iNFECT
+ 23  8,9  - ALaN
+ 23  8,9  - ANTE
+ 23  8,9  - ANaL
+ 23  8,9  - ANiL
  23  1,10 - AbET
  23  2,10 - EAT
  23  2,10 - TAE
@@ -339,6 +349,8 @@
  22  2,10 - NuT
  22  1,10 - TAmE
  22  1,10 - TEAt
+ 22  8,9  - aLAN
+ 22  8,9  - aNAL
  22  2,7  | cLEFT
  22  8,9  - hAFT
  22  8,9  - hEFT
@@ -390,9 +402,28 @@
  21  2,10 - wAT
  21  2,10 - wET
  21  2,10 - yET
+ 20  8,9  - ALEc
+ 20  8,9  - ALEe
+ 20  8,9  - ALEf
+ 20  8,9  - ALEs
+ 20  8,9  - ALTo
+ 20  8,9  - ALTs
+ 20  8,9  - ALaE
+ 20  8,9  - ALeE
+ 20  8,9  - ALiT
+ 20  8,9  - ALmE
+ 20  8,9  - ALoE
+ 20  8,9  - ANEs
+ 20  8,9  - ANEw
  20  2,6  - ANLaCE
+ 20  8,9  - ANTa
+ 20  8,9  - ANTe
+ 20  8,9  - ANTi
+ 20  8,9  - ANTs
+ 20  8,9  - ANtE
  20  3,10 - ATeS
  20  2,10 - AiT
+ 20  8,9  - AlEF
  20  3,10 - AwLS
  20  3,10 - AwNS
  20  2,10 - AyE
@@ -515,6 +546,9 @@
  19  2,8  | LeAF
  19  2,8  | LeFT
  19  8,2  | TEFLoNS
+ 19  8,9  - aLAE
+ 19  8,9  - aNTA
+ 19  8,9  - aNTE
  19  3,10 - aTES
  19  3,10 - eTAS
  19  8,9  - iLEA
@@ -603,6 +637,7 @@
  18  8,4  | FLANS
  18  8,4  | FLENSe
  18  8,4  | FLeNSE
+ 18  7,4  | FLoNG
  18  2,6  | FaTE
  18  2,7  | FeET
  18  2,6  | FeTE
@@ -662,6 +697,7 @@
  18  2,6  - sTANCE
  18  2,5  | uLNAE
  18  2,8  | wEFT
+ 17  8,9  - AEoN
  17  2,5  | ANELe
  17  2,7  | ANeLE
  17  3,10 - Ab
@@ -673,6 +709,7 @@
  17  4,10 - EASeL
  17  3,10 - Ee
  17  3,10 - Et
+ 17  3,10 - Ew
  17  8,4  | FANES
  17  2,6  | FATe
  17  8,4  | FELTS
@@ -889,6 +926,7 @@
  16  2,7  | sTEAL
  16  2,7  | sTELA
  16  4,10 - tESLA
+ 15  7,4  | ALoNG
  15  4,10 - EASe
  15  4,10 - EASt
  15  4,10 - EASy
@@ -897,6 +935,7 @@
  15  4,10 - EaST
  15  4,10 - ErST
  15  2,10 - FA
+ 15  7,3  | FANo
  15  8,4  | FATeS
  15  8,4  | FAcES
  15  8,4  | FAcTS
@@ -954,6 +993,7 @@
  15  3,9  | MAy
  15  3,9  | MEd
  15  3,9  | MEg
+ 15  3,9  | MEh
  15  3,9  | MEl
  15  3,9  | MEm
  15  3,9  | MEn
@@ -990,11 +1030,18 @@
  14  2,7  | ANEw
  14  2,6  | ANtE
  14  5,10 - ASLaNT
+ 14  8,9  - ATEs
  14  2,6  | AbLE
+ 14  8,9  - AbLE
  14  2,6  | AcNE
+ 14  8,9  - AcNE
  14  2,7  | AmEN
+ 14  8,9  - AmEN
+ 14  8,9  - AuNT
  14  2,7  | AxEL
+ 14  8,9  - AxEL
  14  2,6  | AxLE
+ 14  8,9  - AxLE
  14  6,6  - CATEr
  14  6,6  - CATEs
  14  6,6  - CAdET
@@ -1057,6 +1104,7 @@
  14  2,6  | LaTE
  14  2,7  | LeET
  14  2,6  | LiTE
+ 14  7,5  | LoNG
  14  2,6  | LuTE
  14  2,6  | NAbE
  14  2,6  | NAmE
@@ -1162,6 +1210,7 @@
  14  2,6  | gANE
  14  4,10 - gAST
  14  2,8  | gELT
+ 14  2,8  | gENA
  14  2,8  | gENT
  14  4,10 - gEST
  14  2,7  | hAEN
@@ -1273,6 +1322,7 @@
  13  2,8  | TeEN
  13  2,8  | TeLA
  13  2,8  | TeLE
+ 13  7,5  | ToNG
  13  4,10 - bAS
  13  4,10 - bES
  13  8,3  | cLEFTS
@@ -1285,6 +1335,7 @@
  13  4,10 - wAS
  13  4,10 - yES
  12  8,7  - AFT
+ 12  8,9  - AFT
  12  8,7  - ALEF
  12  5,10 - ASTErN
  12  5,10 - AScENT
@@ -1309,6 +1360,7 @@
  12  5,10 - ESTrAL
  12  2,9  | ETA
  12  2,9  | EeL
+ 12  2,9  | EeN
  12  2,9  | ElL
  12  2,9  | EoN
  12  2,9  | ErN
@@ -1331,15 +1383,18 @@
  12  3,6  - FaECAL
  12  2,10 - Fe
  12  2,10 - Fi
+ 12  2,10 - Fu
  12  4,8  | JOE
  12  4,8  | JOEs
  12  4,8  | JOEy
  12  4,8  | JOT
  12  4,8  | JOTa
  12  4,8  | JOTs
+ 12  4,8  | JOiE
  12  4,8  | JOkE
  12  4,8  | JOlE
  12  4,8  | JOlT
+ 12  4,8  | JOsE
  12  4,8  | JOtA
  12  8,2  | LANcETS
  12  8,4  | LEFtS
@@ -1365,10 +1420,12 @@
  12  8,4  | NAiFS
  12  8,4  | NAiLSET
  12  2,8  | NEb
+ 12  2,8  | NEd
  12  2,8  | NEe
  12  2,8  | NEf
  12  2,8  | NEg
  12  8,4  | NEiFS
+ 12  2,8  | NEk
  12  2,8  | NEt
  12  2,8  | NEw
  12  6,10 - SALTEd
@@ -1467,6 +1524,7 @@
  12  2,8  | dEN
  12  8,2  | dENTALS
  12  2,8  | eEL
+ 12  2,8  | eEN
  12  2,6  | fATE
  12  2,8  | fEAT
  12  2,8  | fEN
@@ -1509,9 +1567,12 @@
  12  2,8  | tEN
  12  2,8  | wEN
  12  2,8  | yEN
+ 12  2,8  | zEN
  12  2,8  | zETA
  11  8,7  - AFf
+ 11  8,9  - AFf
  11  8,7  - AFt
+ 11  8,9  - AFt
  11  8,4  | ALEFS
  11  8,7  - ALFa
  11  8,3  | ALaNTS
@@ -1526,6 +1587,8 @@
  11  8,3  | ANkLES
  11  8,3  | ANoLES
  11  1,10 - ATE
+ 11  8,9  - AbET
+ 11  8,9  - AnTE
  11  6,6  - CALF
  11  6,6  - CLEF
  11  8,7  - EF
@@ -1539,6 +1602,7 @@
  11  8,7  - ENuF
  11  1,10 - ETA
  11  2,8  | EeL
+ 11  2,8  | EeN
  11  4,6  - FACET
  11  4,6  - FACETe
  11  4,6  - FACETs
@@ -1579,6 +1643,8 @@
  11  8,4  | LANES
  11  8,4  | LANoSE
  11  8,4  | LEANS
+ 11  7,2  | LENTo
+ 11  7,3  | LENo
  11  2,8  | LeA
  11  1,10 - LeA
  11  2,8  | LeE
@@ -1604,6 +1670,7 @@
  11  8,3  | cLEANS
  11  8,3  | dELFTS
  11  2,9  | eEL
+ 11  2,9  | eEN
  11  8,3  | fLANES
  11  8,3  | gANEFS
  11  8,3  | gLEANS
@@ -1831,12 +1898,15 @@
  10  2,8  | TEd
  10  2,8  | TEe
  10  2,8  | TEg
+ 10  2,8  | TEj
  10  2,8  | TEl
+ 10  2,8  | TEm
  10  2,8  | TEn
  10  2,8  | TEt
  10  2,8  | TEw
  10  3,6  - TiNCAL
  10  8,7  - aFT
+ 10  8,9  - aFT
  10  8,3  | aLATES
  10  8,7  - aLEF
  10  8,7  - aLFA
@@ -1877,6 +1947,7 @@
  10  2,8  | yEA
  10  2,8  | yET
   9  2,10 - AE
+  9  7,3  | ALTo
   9  8,7  - ALaN
   9  8,7  - ANTE
   9  8,7  - ANaL
@@ -2070,6 +2141,7 @@
   8  5,6  - ACTiN
   8  2,8  | AE
   8  8,7  - ALE
+  8  8,9  - ALE
   8  3,6  - ALEC
   8  3,6  - ALECs
   8  8,7  - ALEc
@@ -2077,6 +2149,7 @@
   8  8,7  - ALEf
   8  8,7  - ALEs
   8  8,7  - ALT
+  8  8,9  - ALT
   8  8,7  - ALTo
   8  8,7  - ALTs
   8  8,7  - ALaE
@@ -2087,11 +2160,13 @@
   8  8,7  - ALmE
   8  8,7  - ALoE
   8  8,7  - ANE
+  8  8,9  - ANE
   8  8,4  | ANEnST
   8  8,7  - ANEs
   8  8,7  - ANEw
   8  8,4  | ANLaS
   8  8,7  - ANT
+  8  8,9  - ANT
   8  8,4  | ANTES
   8  8,7  - ANTa
   8  8,7  - ANTe
@@ -2144,9 +2219,11 @@
   8  2,9  | El
   8  2,9  | Em
   8  2,9  | En
+  8  2,9  | Eo
   8  2,9  | Er
   8  2,9  | Es
   8  2,9  | Et
+  8  2,9  | Ew
   8  2,9  | Ex
   8  8,5  | FALSe
   8  8,5  | FANS
@@ -2156,6 +2233,7 @@
   8  8,5  | FEAST
   8  8,5  | FEASTs
   8  8,5  | FENS
+  8  8,6  | FESTA
   8  8,6  | FESTAl
   8  8,5  | FLASh
   8  8,5  | FLASk
@@ -2195,6 +2273,7 @@
   8  2,7  | NEe
   8  2,10 - Na
   8  2,10 - Ne
+  8  2,10 - Ni
   8  2,10 - No
   8  2,10 - Nu
   8  6,10 - SATEd
@@ -2244,6 +2323,7 @@
   8  8,3  | TENiAS
   8  1,10 - TEa
   8  1,10 - TEe
+  8  1,10 - TEm
   8  8,3  | TEpALS
   8  8,3  | TEsLAS
   8  2,7  | TaE
@@ -2321,37 +2401,54 @@
   7  8,7  - AEoN
   7  8,4  | AEoNS
   7  8,7  - AL
+  7  8,9  - AL
   7  8,4  | ALEcS
   7  8,4  | ALEfS
   7  8,4  | ALToS
   7  8,7  - ALa
+  7  8,9  - ALa
   7  8,7  - ALb
+  7  8,9  - ALb
   7  8,7  - ALe
+  7  8,9  - ALe
   7  3,6  - ALeC
   7  8,7  - ALl
+  7  8,9  - ALl
   7  8,4  | ALmES
   7  8,4  | ALoES
   7  8,7  - ALp
+  7  8,9  - ALp
   7  8,7  - ALs
+  7  8,9  - ALs
   7  8,7  - ALt
+  7  8,9  - ALt
   7  8,7  - AN
+  7  8,9  - AN
   7  8,4  | ANTaS
   7  8,4  | ANTeS
   7  8,4  | ANTiS
   7  8,7  - ANa
+  7  8,9  - ANa
   7  8,7  - ANd
+  7  8,9  - ANd
   7  8,7  - ANe
+  7  8,9  - ANe
   7  8,7  - ANi
+  7  8,9  - ANi
   7  8,7  - ANt
+  7  8,9  - ANt
   7  8,4  | ANtES
   7  8,7  - ANy
+  7  8,9  - ANy
   7  8,4  | ATLaS
   7  2,7  | ATe
   7  8,4  | AbLES
   7  8,4  | AcNES
   7  8,7  - AfF
+  7  8,9  - AfF
   7  8,4  | AmENS
   7  8,7  - ArF
+  7  8,9  - ArF
   7  8,4  | ArLES
   7  8,4  | AuNTS
   7  8,4  | AvENS
@@ -2441,7 +2538,9 @@
   7  8,5  | FEASe
   7  8,5  | FEASt
   7  8,6  | FEST
+  7  8,6  | FESTa
   7  8,6  | FESTs
+  7  8,6  | FEStA
   7  8,5  | FETS
   7  8,5  | FEaST
   7  8,5  | FEiST
@@ -2450,6 +2549,7 @@
   7  8,5  | FeASE
   7  8,5  | FeAST
   7  8,5  | FeNS
+  7  8,6  | FeSTA
   7  8,5  | FiLS
   7  8,5  | FiNS
   7  8,5  | FoNS
@@ -2547,6 +2647,7 @@
   7  2,8  | bE
   7  2,10 - bE
   7  8,4  | cAFES
+  7  2,10 - dA
   7  2,8  | dE
   7  2,10 - dE
   7  2,8  | eE
@@ -2594,6 +2695,7 @@
   7  2,10 - rE
   7  3,6  - rEACT
   7  4,6  - rECTA
+  7  2,10 - sA
   7  8,4  | sAFES
   7  5,6  - sCAN
   7  2,10 - tA
@@ -2623,6 +2725,7 @@
   6  5,6  - ACrE
   6  8,6  | ANSaTE
   6  8,7  - ATE
+  6  8,9  - ATE
   6  8,7  - ATEs
   6  2,10 - Aa
   6  8,4  | AbETS
@@ -2702,6 +2805,7 @@
   6  8,7  - EgAL
   6  8,7  - ElAN
   6  2,10 - Em
+  6  2,10 - Eo
   6  8,7  - EtNA
   6  8,3  | ExALTS
   6  8,6  | FAS
@@ -2742,9 +2846,13 @@
   6  5,7  | LO
   6  4,6  - LaC
   6  8,5  | LeNSE
+  6  7,5  | Lo
   6  8,6  | LySATE
   6  8,6  | NASaL
+  6  5,7  - NI
+  6  5,7  | NO
   6  8,6  | NaSAL
+  6  7,5  | No
   6  8,8  | SAFe
   6  6,10 - SAFe
   6  8,8  | SEiF
@@ -2775,6 +2883,7 @@
   6  3,6  - TAlC
   6  8,4  | TAlES
   6  8,4  | TAmES
+  6  7,4  | TAo
   6  8,4  | TApES
   6  8,4  | TArES
   6  8,5  | TAsSEL
@@ -2805,14 +2914,20 @@
   6  8,4  | TwAES
   6  5,6  - aCTA
   6  8,7  - aLA
+  6  8,9  - aLA
   6  8,4  | aLANS
   6  8,7  - aLE
+  6  8,9  - aLE
   6  8,7  - aLT
+  6  8,9  - aLT
   6  8,7  - aNA
+  6  8,9  - aNA
   6  8,7  - aNE
+  6  8,9  - aNE
   6  8,4  | aNLAS
   6  8,6  | aNSATE
   6  8,7  - aNT
+  6  8,9  - aNT
   6  8,6  | cASTLE
   6  4,6  - cECA
   6  8,4  | cLANS
@@ -2859,11 +2974,14 @@
   5  5,6  - ACe
   5  5,6  - ACt
   5  8,7  - AE
+  5  8,9  - AE
   5  5,10 | AL
+  5  7,10 | AL
   5  8,5  | ALES
   5  8,5  | ALTS
   5  8,5  | ALiST
   5  5,10 | AN
+  5  7,10 | AN
   5  8,5  | ANES
   5  8,6  | ANSaE
   5  8,5  | ANTS
@@ -2875,18 +2993,27 @@
   5  8,7  | ASpEN
   5  5,10 - ASpEN
   5  8,7  - AT
+  5  8,9  - AT
   5  8,7  - ATe
+  5  8,9  - ATe
   5  8,7  - ATt
+  5  8,9  - ATt
   5  8,7  - AaL
+  5  8,9  - AaL
   5  8,7  - AbET
   5  8,7  - AiL
+  5  8,9  - AiL
   5  8,7  - AiN
+  5  8,9  - AiN
   5  8,6  | AiSLE
   5  8,7  - AlL
+  5  8,9  - AlL
   5  8,7  - AnTE
   5  4,6  - ArC
   5  8,7  - AwL
+  5  8,9  - AwL
   5  8,7  - AwN
+  5  8,9  - AwN
   5  6,6  - CAb
   5  6,6  - CAd
   5  6,6  - CAm
@@ -2902,6 +3029,7 @@
   5  6,6  - CaT
   5  6,6  - CeE
   5  6,6  - CoT
+  5  6,6  - CpA
   5  6,6  - CuE
   5  6,6  - CuT
   5  8,6  | EASeL
@@ -2915,7 +3043,9 @@
   5  8,7  - ETa
   5  8,7  - ETh
   5  8,7  - EeL
+  5  8,7  - EeN
   5  8,7  - ElL
+  5  7,5  | Eo
   5  8,7  - EoN
   5  8,7  - ErN
   5  8,6  | FaS
@@ -2968,11 +3098,15 @@
   5  8,5  | TeNSE
   5  8,6  | TeSLA
   5  4,6  - TiC
+  5  7,5  | To
   5  8,7  - aAL
+  5  8,9  - aAL
   5  5,6  - aCE
   5  5,6  - aCT
   5  8,7  - aL
+  5  8,9  - aL
   5  8,7  - aN
+  5  8,9  - aN
   5  8,6  | aNSAE
   5  8,4  | aNTAS
   5  8,4  | aNTES
@@ -3000,6 +3134,7 @@
   5  8,4  | dENTS
   5  8,6  | eASEL
   5  8,7  - eEL
+  5  8,7  - eEN
   5  5,10 | eF
   5  8,6  | eFS
   5  8,7  - eL
@@ -3101,8 +3236,10 @@
   5  8,4  | wEANS
   5  8,4  | wELTS
   5  8,4  | yEANS
+  5  4,6  - zAC
   5  8,4  | zEALS
   4  5,10 | AE
+  4  7,10 | AE
   4  8,6  | ALS
   4  8,6  | ALSo
   4  8,5  | ALaS
@@ -3124,33 +3261,54 @@
   4  8,7  | ASsET
   4  5,10 - ASsET
   4  5,10 | AT
+  4  7,10 | AT
   4  8,5  | ATES
   4  8,5  | AaLS
   4  8,7  - AcE
+  4  8,9  - AcE
   4  8,7  - AcT
+  4  8,9  - AcT
   4  8,7  - AfT
+  4  8,9  - AfT
   4  8,7  - AgE
+  4  8,9  - AgE
   4  8,5  | AiLS
   4  8,5  | AiNS
   4  8,7  - AiT
+  4  8,9  - AiT
   4  8,7  - AlE
+  4  8,9  - AlE
   4  8,5  | AlLS
   4  8,7  - AlT
+  4  8,9  - AlT
   4  8,7  - AnE
+  4  8,9  - AnE
   4  8,7  - AnT
+  4  8,9  - AnT
   4  8,7  - ApE
+  4  8,9  - ApE
   4  8,7  - ApT
+  4  8,9  - ApT
   4  8,7  - ArE
+  4  8,9  - ArE
   4  8,7  - ArT
+  4  8,9  - ArT
   4  8,6  | AsSET
   4  8,7  - AtE
+  4  8,9  - AtE
   4  8,7  - AtT
+  4  8,9  - AtT
   4  8,7  - AvE
+  4  8,9  - AvE
   4  8,7  - AwE
+  4  8,9  - AwE
   4  8,5  | AwLS
   4  8,5  | AwNS
   4  8,7  - AxE
+  4  8,9  - AxE
   4  8,7  - AyE
+  4  8,9  - AyE
+  4  6,6  - Co
   4  8,6  | EAST
   4  8,6  | EASTs
   4  8,5  | EATS
@@ -3258,6 +3416,8 @@
   4  6,10 - SALs
   4  8,8  | SALt
   4  6,10 - SALt
+  4  8,8  | SAN
+  4  6,10 - SAN
   4  8,8  | SANd
   4  6,10 - SANd
   4  8,8  | SANe
@@ -3421,6 +3581,7 @@
   4  8,6  | aNSA
   4  8,5  | aNTS
   4  8,7  - aTE
+  4  8,9  - aTE
   4  8,5  | bALS
   4  8,5  | bANS
   4  8,6  | bASTE
@@ -3451,6 +3612,7 @@
   4  8,5  | fEAST
   4  8,4  | fEATS
   4  8,5  | fENS
+  4  8,6  | fESTA
   4  8,4  | fETAS
   4  8,5  | gALS
   4  8,4  | gATES
@@ -3515,54 +3677,86 @@
   3  5,10 - ASEa
   3  8,5  | ATeS
   3  8,7  - Aa
+  3  8,9  - Aa
   3  5,10 | Aa
+  3  7,10 | Aa
   3  8,7  - Ab
+  3  8,9  - Ab
   3  5,10 | Ab
+  3  7,10 | Ab
   3  8,5  | AcES
   3  8,5  | AcTS
   3  8,7  - Ad
+  3  8,9  - Ad
   3  5,10 | Ad
+  3  7,10 | Ad
   3  8,7  - Ae
+  3  8,9  - Ae
   3  5,10 | Ae
+  3  7,10 | Ae
   3  8,7  - Ag
+  3  8,9  - Ag
   3  5,10 | Ag
+  3  7,10 | Ag
   3  8,5  | AgES
   3  8,7  - Ah
+  3  8,9  - Ah
   3  5,10 | Ah
+  3  7,10 | Ah
   3  8,7  - Ai
+  3  8,9  - Ai
   3  5,10 | Ai
+  3  7,10 | Ai
   3  8,5  | AiTS
   3  8,7  - Al
+  3  8,9  - Al
   3  5,10 | Al
+  3  7,10 | Al
   3  8,5  | AlES
   3  8,5  | AlTS
   3  8,7  - Am
+  3  8,9  - Am
   3  5,10 | Am
+  3  7,10 | Am
   3  8,7  - An
+  3  8,9  - An
   3  5,10 | An
+  3  7,10 | An
   3  8,5  | AnES
   3  8,5  | AnTS
   3  8,5  | ApES
   3  8,6  | ApSE
   3  8,7  - Ar
+  3  8,9  - Ar
   3  5,10 | Ar
+  3  7,10 | Ar
   3  8,5  | ArES
   3  8,6  | ArSE
   3  8,5  | ArTS
   3  8,7  - As
+  3  8,9  - As
   3  5,10 | As
+  3  7,10 | As
   3  8,7  - At
+  3  8,9  - At
   3  5,10 | At
+  3  7,10 | At
   3  8,5  | AtES
   3  8,5  | AvES
   3  8,7  - Aw
+  3  8,9  - Aw
   3  5,10 | Aw
+  3  7,10 | Aw
   3  8,5  | AwES
   3  8,7  - Ax
+  3  8,9  - Ax
   3  5,10 | Ax
+  3  7,10 | Ax
   3  8,5  | AxES
   3  8,7  - Ay
+  3  8,9  - Ay
   3  5,10 | Ay
+  3  7,10 | Ay
   3  8,5  | AyES
   3  8,6  | EASe
   3  8,6  | EASt
@@ -3588,6 +3782,8 @@
   3  5,10 | Em
   3  8,7  - En
   3  5,10 | En
+  3  8,7  - Eo
+  3  5,10 | Eo
   3  8,7  - Er
   3  5,10 | Er
   3  8,5  | ErAS
@@ -3597,9 +3793,13 @@
   3  8,7  - Et
   3  5,10 | Et
   3  8,5  | EtAS
+  3  8,7  - Ew
+  3  5,10 | Ew
   3  8,7  - Ex
   3  5,10 | Ex
   3  8,5  | EyAS
+  3  8,7  | LSd
+  3  5,10 - LSd
   3  8,6  | LaS
   3  8,6  | LiS
   3  8,6  | NoS
@@ -3700,6 +3900,8 @@
   3  6,10 - STyE
   3  8,8  | SaL
   3  6,10 - SaL
+  3  8,8  | SaN
+  3  6,10 - SaN
   3  8,8  | SaTE
   3  6,10 - SaTE
   3  8,8  | ScAT
@@ -3779,13 +3981,18 @@
   3  8,5  | TwAS
   3  8,5  | TyES
   3  8,7  - aA
+  3  8,9  - aA
   3  8,7  - aE
+  3  8,9  - aE
   3  5,10 | aL
+  3  7,10 | aL
   3  8,6  | aLS
   3  5,10 | aN
+  3  7,10 | aN
   3  8,7  | aSEA
   3  5,10 - aSEA
   3  8,7  - aT
+  3  8,9  - aT
   3  8,5  | aTES
   3  8,6  | bASE
   3  8,6  | bAST
@@ -3906,6 +4113,10 @@
   2  8,6  | AyS
   2  8,7  | ES
   2  5,10 - ES
+  2  8,7  | ESe
+  2  5,10 - ESe
+  2  8,7  | ESq
+  2  5,10 - ESq
   2  8,7  | ESs
   2  5,10 - ESs
   2  8,6  | EdS
@@ -3915,6 +4126,8 @@
   2  8,6  | EnS
   2  8,6  | ErS
   2  8,6  | EsS
+  2  8,8  | SA
+  2  6,10 - SA
   2  8,8  | SAb
   2  6,10 - SAb
   2  8,8  | SAc
@@ -3927,6 +4140,8 @@
   2  6,10 - SAg
   2  8,8  | SAl
   2  6,10 - SAl
+  2  8,8  | SAn
+  2  6,10 - SAn
   2  8,8  | SAp
   2  6,10 - SAp
   2  8,8  | SAt
@@ -3957,6 +4172,8 @@
   2  6,10 - SEr
   2  8,8  | SEt
   2  6,10 - SEt
+  2  8,8  | SEv
+  2  6,10 - SEv
   2  8,8  | SEw
   2  6,10 - SEw
   2  8,8  | SEx
@@ -3992,14 +4209,21 @@
   2  8,6  | TaS
   2  8,6  | TiS
   2  5,10 | aA
+  2  7,10 | aA
   2  8,6  | aAS
   2  5,10 | aE
+  2  7,10 | aE
   2  5,10 | aT
+  2  7,10 | aT
   2  8,6  | bAS
   2  8,6  | bES
   2  5,7  - bI
   2  5,7  | bO
+  2  5,7  - dI
+  2  5,7  | dO
   2  5,10 | eE
+  2  8,7  | eSE
+  2  5,10 - eSE
   2  5,10 | eT
   2  8,6  | fAS
   2  8,6  | gAS
@@ -4015,15 +4239,20 @@
   2  7,10 | iT
   2  8,6  | iTS
   2  8,6  | kAS
+  2  8,6  | kES
   2  8,6  | lAS
   2  5,7  - lI
   2  5,7  | lO
   2  8,6  | mAS
   2  5,7  - mI
   2  5,7  | mO
+  2  5,7  - nI
+  2  5,7  | nO
   2  5,10 | oE
   2  7,10 | oE
   2  8,6  | oES
+  2  5,7  - oI
+  2  5,7  | oO
   2  8,7  | oSE
   2  5,10 - oSE
   2  8,6  | pAS
@@ -4045,8 +4274,13 @@
   2  8,6  | uTS
   2  8,6  | vAS
   2  8,6  | wAS
+  2  8,6  | xES
   2  8,6  | yES
+  2  5,7  - yI
+  2  5,7  | yO
   2  8,6  | zAS
+  1  8,8  | Sa
+  1  6,10 - Sa
   1  8,8  | Sh
   1  6,10 - Sh
   1  8,8  | Si

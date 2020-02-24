@@ -3,9 +3,13 @@
  44  6,10 - ENCASE
  36  7,1  | CASA
  32  3,10 - sENECAS
+ 30  7,3  | SAN
  30  3,10 - sENECA
  28  5,2  - ABSENCE
  28  7,3  | SAE
+ 27  2,6  | SCENA
+ 27  2,6  | SCENE
+ 25  7,3  | SA
  24  5,2  - ABACAS
  24  2,8  - ARENAS
  24  2,8  - ARENES
@@ -16,6 +20,7 @@
  23  2,8  - ARENE
  23  7,9  | SAC
  23  7,9  | SEC
+ 23  6,4  - ZAC
  22  7,7  | ANSA
  22  7,8  | ESNE
  22  3,10 - sANES
@@ -24,10 +29,12 @@
  21  7,8  | ASEA
  21  7,7  | EASE
  21  7,7  | ENS
+ 21  7,9  | SAN
  21  7,9  | SEN
  20  7,7  | AAS
  20  7,2  | AS
  20  6,8  - ENCASE
+ 20  7,8  | ESE
  20  7,9  | SAE
  20  7,9  | SEA
  20  7,9  | SEE
@@ -36,11 +43,13 @@
  19  7,8  | AS
  19  7,8  | ES
  19  2,10 - EsES
+ 19  7,9  | SA
  18  2,8  - AREA
  18  5,10 - SEC
  17  1,2  - ACE
  17  7,4  | AN
  17  1,2  - CEE
+ 17  6,4  - ZEN
  16  1,10 - AAs
  16  1,9  - KNIFERS
  16  3,7  - ONE
@@ -52,14 +61,17 @@
  15  7,4  | AS
  15  1,11 - CEES
  15  2,8  - ERE
+ 15  2,10 - EsE
  15  2,9  | NAN
  15  5,10 - NEE
+ 15  2,6  | SCAN
  15  6,4  - ZEES
  14  1,7  | ACKEE
  14  6,8  - ACNE
  14  6,8  | ARCS
  14  1,7  | CAKES
  14  1,11 - CEE
+ 14  5,10 - EEN
  14  6,10 - ESNE
  14  3,7  - OSE
  14  3,8  - REE
@@ -69,12 +81,14 @@
  13  1,2  - ANA
  13  1,2  - ANE
  13  1,2  - NAE
+ 13  1,7  - NAOS
  13  5,10 - NE
  13  1,2  - NEE
  12  2,8  | ANA
  12  2,8  | ANE
  12  6,8  | ARC
  12  6,10 - EASE
+ 12  6,10 - EEN
  12  6,10 - ENS
  12  1,9  | KEN
  12  2,9  | NAE
@@ -87,7 +101,9 @@
  11  1,7  | CAKE
  11  4,8  | EF
  11  6,5  - ENCASE
+ 11  1,2  - ESE
  11  6,8  - ESNE
+ 11  4,9  | FAN
  11  2,2  - NA
  11  2,2  - NE
  11  3,8  - RE
@@ -98,17 +114,20 @@
  11  1,2  - SEE
  11  5,3  - XIS
  11  6,4  - ZA
+ 11  3,10 - sAN
  11  3,10 - sEN
  10  6,8  - ACE
  10  1,8  | AKEE
  10  6,8  - ANSAE
  10  5,8  - EASE
  10  5,10 - EE
+ 10  6,8  - EEN
  10  1,8  | EKES
  10  6,10 - EN
  10  3,11 - ENCASE
  10  6,8  | ERNE
  10  6,8  | ERNS
+ 10  6,10 - ESE
  10  3,7  - ON
  10  2,11 - SEANCE
  10  2,11 - SENECA
@@ -122,12 +141,16 @@
   9  6,8  - ANSA
   9  2,11 - CENSE
   9  2,2  - EE
+  9  4,9  | FAS
   9  1,9  | KAE
   9  1,9  | KAS
   9  1,9  | KEA
+  9  1,9  | KES
   9  7,1  | NA
   9  5,8  - NAE
   9  5,8  - NEE
+  9  2,2  - SA
+  9  2,6  | SEEN
   9  5,6  | WANES
   9  3,10 - sAE
   9  3,10 - sEE
@@ -145,6 +168,7 @@
   8  2,11 - CEASE
   8  6,8  - EASE
   8  6,10 - EE
+  8  5,8  - EEN
   8  6,8  - ENS
   8  6,8  | ERAS
   8  6,8  | ERN
@@ -157,8 +181,10 @@
   8  5,8  - NE
   8  2,9  | NE
   8  1,11 - NEE
+  8  1,7  | NEK
   8  3,7  - OS
   8  6,9  | RAN
+  8  7,1  | SA
   8  1,7  | SAKE
   8  4,4  | UDOS
   8  5,6  | WANE
@@ -171,6 +197,7 @@
   7  2,11 - CEES
   7  1,7  | EEK
   7  1,8  | EKE
+  7  6,8  - ESE
   7  1,11 - SEEN
   7  1,8  | SKA
   6  5,8  - AA
@@ -188,12 +215,14 @@
   6  6,8  | ERE
   6  6,8  | ERS
   6  6,5  - ESNE
+  6  4,9  | FA
   6  1,9  | KA
   6  6,9  | RAS
   6  6,9  | REE
   6  6,9  | RES
   6  5,8  | SEC
   6  2,11 - SEC
+  6  3,10 - sA
   5  2,8  | AN
   5  6,8  - AN
   5  2,8  - AR
@@ -201,6 +230,7 @@
   5  2,8  | EN
   5  6,8  - EN
   5  2,8  - ER
+  5  1,11 - ESE
   5  3,11 - ESNE
   5  3,1  | PA
   5  3,1  | PE
@@ -216,6 +246,11 @@
   4  6,8  - AS
   4  3,11 - EASE
   4  6,8  - EE
+  4  6,5  - EEN
+  4  5,8  | EEN
+  4  5,9  | EEN
+  4  2,11 - EEN
+  4  3,11 - EEN
   4  6,5  - ENS
   4  5,9  | ENS
   4  3,11 - ENS
@@ -228,6 +263,9 @@
   3  6,5  - EN
   3  5,9  | EN
   3  3,11 - EN
+  3  6,5  - ESE
+  3  5,9  | ESE
+  3  3,11 - ESE
   3  5,8  | NE
   3  2,11 - NE
   3  5,8  | SEA

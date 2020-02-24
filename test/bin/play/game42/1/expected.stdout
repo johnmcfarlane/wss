@@ -32,6 +32,7 @@
  24 11,3  | WENS
  24 11,3  | WINS
  24 11,3  | WONS
+ 22  7,7  - IWI
  21 11,2  | ENOLS
  21 11,2  | IONISE
  21 11,3  | IWIS
@@ -45,6 +46,7 @@
  21 11,2  | NOELS
  21 11,2  | NOILS
  21 11,3  | OWES
+ 21  8,7  - WOE
  21 11,3  | WOES
  20 10,6  | FELON
  20  6,2  | NOWISE
@@ -100,12 +102,15 @@
  15 11,6  | SOLI
  15 11,6  | SONE
  15  8,5  - WE
+ 15  8,4  | WEEI
  15  9,3  | WELL
  15  9,3  | WILL
  15  9,4  | WILLIE
+ 15  8,7  - WO
  14  6,2  | ENOLS
  14 10,4  | INFLOW
  14  6,2  | IONISE
+ 14  7,6  | KEWL
  14  6,2  | LENIS
  14  6,2  | LENOS
  14  6,2  | LIENS
@@ -130,6 +135,7 @@
  13  9,2  | NIELLO
  13  8,4  | OLEIN
  13  7,4  | WOKEN
+ 12  9,5  - EO
  12  7,7  - IN
  12  7,6  | KILN
  12  7,6  | KIWI
@@ -162,6 +168,7 @@
  11  8,7  - LO
  11  8,5  - NE
  11  8,5  | NEWIE
+ 11  8,7  - NI
  11  9,3  | NILL
  11  8,7  - NO
  11 10,3  | OLEFIN
@@ -198,6 +205,9 @@
  10  7,4  | WOK
   9  6,3  | ELISION
   9  8,6  | ELOIN
+  9 10,5  - EO
+  9  8,7  - EO
+  9 10,7  - EO
   9 10,6  | FEW
   9  7,5  | IKON
   9  8,2  | LEONE
@@ -211,9 +221,12 @@
   9  8,5  - OE
   9 10,5  - OE
   9 10,5  - OI
+  9  8,7  - OI
   9  6,4  | OWSEN
   9 11,4  | OWSEN
+  9  8,5  | WEEI
   8  8,6  | EEL
+  8  8,6  | EEN
   8  7,4  | ELK
   8  9,5  | ELL
   8  9,3  | ENOL
@@ -233,6 +246,8 @@
   8 10,4  | INFO
   8  7,4  | INK
   8  6,4  | INSOLE
+  8  4,5  - IWI
+  8  4,7  - IWI
   8  7,6  | KEN
   8  7,6  | KIN
   8  8,4  | LEE
@@ -254,6 +269,7 @@
   8  6,3  | LOWS
   8  8,4  | NEE
   8 10,3  | NEIF
+  8  7,4  | NEK
   8  6,3  | NEWS
   8  6,3  | NOWS
   8  8,4  | OWE
@@ -323,6 +339,7 @@
   6 11,4  | WOS
   5 10,5  | EF
   5  6,3  | EONS
+  5  8,6  | EW
   5 10,6  | FE
   5 10,6  | FI
   5 10,5  | IF
@@ -340,6 +357,8 @@
   5  6,4  | LOSE
   5 11,4  | LOSE
   5  5,5  - NE
+  5  5,5  - NI
+  5  5,7  - NI
   5  6,4  | NISI
   5 11,4  | NISI
   5  5,5  - NO
@@ -361,11 +380,14 @@
   5  6,6  | SONE
   5  8,5  | WE
   4  8,5  | EEL
+  4  8,5  | EEN
   4  9,5  | EL
   4  6,4  | ELS
   4 11,4  | ELS
   4  6,4  | ENS
   4 11,4  | ENS
+  4  5,5  - EO
+  4  5,7  - EO
   4  6,4  | INS
   4 11,4  | INS
   4  8,5  | LEE
@@ -403,6 +425,7 @@
   3 11,6  | SEI
   2  8,5  | EE
   2  8,6  | EE
+  2  8,6  | EO
   2  6,5  | ES
   2 11,5  | ES
   2  6,5  | IS

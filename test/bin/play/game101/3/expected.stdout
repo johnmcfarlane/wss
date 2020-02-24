@@ -1,8 +1,11 @@
  57  3,6  | JURIED
  34  6,6  - ADJURE
+ 32  5,3  | JEED
  32  7,3  | JEED
  30  7,3  | JEER
+ 30  1,8  - JUN
  27  3,6  | DENIER
+ 27  5,3  | JEE
  27  7,3  | JEE
  27  3,6  | UREIDE
  27  3,7  | URINE
@@ -14,6 +17,7 @@
  20  5,10 - NUDE
  20  5,10 - NURD
  20  7,6  | RUED
+ 19  5,1  | ENURED
  19  7,1  | ENURED
  19  7,4  | JEE
  19  1,10 - RUN
@@ -21,6 +25,7 @@
  18  3,8  | DINE
  18  7,6  | DUE
  18  4,5  - JEWED
+ 18  1,10 - NED
  18  5,10 - NEED
  18  5,10 - NERD
  18  3,8  | NIDE
@@ -36,22 +41,34 @@
  16  7,2  | ENDER
  16  1,8  | JADE
  16  1,8  | JANE
+ 16  5,4  | JE
  16  7,4  | JE
  16  3,6  | JERID
+ 16  5,10 - NED
+ 16  5,3  | NEED
  16  7,3  | NEED
  16  7,6  | RUE
  15  3,8  | DIRE
+ 15  1,10 - EEN
  15  3,8  | EIDE
+ 15  5,1  | ENDUE
  15  7,1  | ENDUE
  15  1,10 - NU
  15  1,10 - RED
  15  3,8  | RIDE
+ 15  5,3  | RUED
  15  7,3  | RUED
  15  2,10 - UN
+ 15  5,1  | UNDEE
  15  7,1  | UNDEE
  14  7,3  | DEER
+ 14  1,6  | DEJA
+ 14  3,6  - DEJA
  14  7,3  | DREE
+ 14  1,8  - DUN
+ 14  5,2  | DUNE
  14  7,2  | DUNE
+ 14  5,1  | ENURE
  14  7,1  | ENURE
  14  5,6  - JADE
  14  5,6  - JANE
@@ -61,46 +78,71 @@
  14  3,6  - JURA
  14  5,10 - NEE
  14  5,10 - NU
+ 14  5,2  | NUDE
  14  7,2  | NUDE
+ 14  5,3  | REED
  14  7,3  | REED
+ 14  5,2  | UNDE
  14  7,2  | UNDE
  14  1,5  - UNDREW
  13  6,6  - AJEE
+ 13  5,4  | DEN
  13  7,4  | DEN
+ 13  5,2  | DURE
  13  7,2  | DURE
  13  3,8  | JIN
+ 13  5,4  | NED
+ 13  7,4  | NED
+ 13  5,2  | RUDE
  13  7,2  | RUDE
+ 13  5,2  | RUNE
  13  7,2  | RUNE
  13  8,8  | ZED
+ 13  8,8  | ZEN
  12  6,6  - ARENE
+ 12  1,8  - DEN
+ 12  5,2  | DENE
  12  7,2  | DENE
  12  2,7  | DEmUR
+ 12  5,3  | DUE
  12  7,3  | DUE
+ 12  5,4  | EEN
+ 12  7,4  | EEN
  12  3,9  | IDE
  12  5,6  - JAR
  12  1,8  | JAR
  12  5,10 - NE
+ 12  1,8  - NED
  12  5,6  - RAJ
  12  1,8  | RAJ
+ 12  5,4  | RED
  12  7,4  | RED
  12  2,7  | RUmEN
  12  8,8  | ZEE
  11  1,10 - DE
+ 11  5,3  | DEE
  11  7,3  | DEE
  11  7,4  | DEE
+ 11  5,2  | DERE
  11  7,2  | DERE
+ 11  5,2  | DREE
  11  7,2  | DREE
+ 11  5,5  | ED
  11  7,5  | ED
  11  2,10 - ED
+ 11  5,5  | EN
  11  7,5  | EN
  11  2,10 - EN
+ 11  5,2  | ERNE
  11  7,2  | ERNE
  11  5,6  - JA
  11  1,8  | JA
  11  1,10 - NE
+ 11  5,3  | NEE
  11  7,3  | NEE
  11  7,4  | NEE
  11  3,5  | NEREID
+ 11  5,2  | REDE
  11  7,2  | REDE
  11  4,5  - UNWED
  11  6,5  - WEND
@@ -113,6 +155,7 @@
  10  1,8  | RAND
  10  7,4  | REE
  10  2,5  - RENEW
+ 10  5,3  | RUE
  10  7,3  | RUE
  10  6,5  - WEED
  10  6,5  - WEEN
@@ -121,14 +164,18 @@
   9  1,8  | EARN
   9  7,5  | EE
   9  7,5  | ER
+  9  5,3  | ERE
   9  7,3  | ERE
   9  3,9  | IRE
   9  4,5  - NEWER
   9  1,8  - NU
+  9  5,3  | REE
   9  7,3  | REE
   9  4,5  - REWED
+  9  2,8  - UN
   9  1,5  | UNREAD
   8  4,9  | CUD
+  8  5,4  | DE
   8  7,4  | DE
   8  2,6  | DEEm
   8  2,6  | DERm
@@ -136,6 +183,7 @@
   8  1,10 - EE
   8  1,5  | ENDEAR
   8  2,8  | EmEU
+  8  5,4  | NE
   8  7,4  | NE
   8  4,6  - NEARED
   8  2,6  | NEEm
@@ -149,16 +197,21 @@
   7  4,9  | CUE
   7  4,9  | CUR
   7  1,8  | DARE
+  7  1,8  - DE
   7  1,6  | DENAR
   7  3,6  - DENAR
   7  3,6  | DENI
   7  4,5  - DEW
   7  3,7  | DUI
+  7  2,8  - ED
+  7  5,4  | EE
   7  7,4  | EE
+  7  2,8  - EN
   7  7,8  | END
   7  5,5  - EWER
   7  1,8  - NE
   7  4,5  - NEW
+  7  5,4  | RE
   7  7,4  | RE
   7  1,6  | REDAN
   7  3,6  - REDAN
@@ -195,8 +248,10 @@
   5  3,8  | DIN
   5  5,6  - EARN
   5  7,8  | ED
+  5  7,8  | EEN
   5  7,8  | EN
   5  7,8  | ERN
+  5  5,5  - EW
   5  4,6  - NEAR
   5  1,7  | NEAR
   5  4,6  - READ
@@ -224,6 +279,9 @@
   3  6,6  - AN
   3  1,9  | AN
   3  6,6  - ARE
+  3  5,6  - DA
+  3  1,8  | DA
+  3  3,8  | DI
   3  5,6  - EAR
   3  1,8  | EAR
   3  7,8  | EE
@@ -234,6 +292,7 @@
   3  3,9  | IN
   3  5,6  - NA
   3  1,8  | NA
+  3  3,8  | NI
   3  2,7  | RUm
   2  6,6  - AE
   2  1,9  | AE

@@ -63,6 +63,7 @@
  24  7,5  | LYASE
  24  6,6  | PEAKS
  24  7,6  | SADLY
+ 24  7,6  | SKED
  24  7,4  | SKY
  24  6,5  | SPAYED
  24  7,6  | SYKE
@@ -131,6 +132,7 @@
  21  2,5  - YAK
  21  5,7  - YAK
  20  7,5  | ASK
+ 20  3,5  - AYE
  20  7,5  | AYE
  20  7,3  | AYES
  20  7,5  | AYS
@@ -140,6 +142,8 @@
  20  7,3  | ELDS
  20  7,3  | EYAS
  20  7,4  | KAS
+ 20  7,4  | KES
+ 20  2,5  - LADE
  20  7,4  | LASED
  20  7,3  | LEAS
  20  7,4  | LYSE
@@ -164,7 +168,9 @@
  19  4,6  | ILKA
  19  4,6  | ILKS
  19  4,4  | KAIL
+ 19  2,5  - KAY
  19  5,6  | MASKED
+ 19  2,5  - SADE
  19  7,6  | SADE
  19  2,5  - SALE
  19  7,6  | SALE
@@ -180,6 +186,7 @@
  18  7,4  | LASE
  18  2,5  - LASE
  18  3,3  | LEDGY
+ 18  7,5  | LSD
  18  6,6  | PALES
  18  6,6  | PEALS
  18  6,6  | PLEAS
@@ -196,6 +203,7 @@
  17  7,4  | EDS
  17  7,4  | ELS
  17  4,5  - KA
+ 17  4,4  | KAI
  17  6,3  | KEYPADS
  17  6,3  | KEYPALS
  17  7,4  | LAS
@@ -203,15 +211,18 @@
  17  7,6  | SAL
  17  4,7  - SEAL
  17  7,6  | SEL
+ 17  1,5  - SLAY
  17  5,7  - YEA
  17  5,7  - YES
  16  3,5  | AGEDLY
  16  3,5  | AGLEY
  16  6,7  - ASKED
+ 16  2,5  - DAY
  16  5,7  - EASY
  16  1,5  - KEAS
  16  6,3  | KEYPAD
  16  6,3  | KEYPAL
+ 16  2,5  - LAY
  16  5,6  | MASK
  16  7,6  | SAE
  16  3,4  | SAGELY
@@ -232,10 +243,14 @@
  15  4,6  | IDYLS
  15  2,5  - KAS
  15  6,3  | KELPY
+ 15  1,5  - LEAD
+ 15  7,6  | SA
  15  4,7  - SAE
+ 15  2,5  - SAY
  15  4,7  - SEA
  14  4,4  | ALIKE
  14  4,3  | ALKIE
+ 14  3,5  - AY
  14  2,5  - DAL
  14  4,5  | DIKEY
  14  6,7  - EASY
@@ -243,6 +258,7 @@
  14  1,5  - EYAS
  14  3,6  | GLEY
  14  4,6  | IDYL
+ 14  2,5  - LAD
  14  5,6  | MADLY
  14  1,5  - SEAL
  14  1,5  - YEAS
@@ -262,12 +278,16 @@
  13  5,6  | MAKES
  13  5,6  | MEALY
  13  5,6  | MEASLY
+ 13  2,5  - SAD
  13  2,5  - SAL
  13  1,5  - SKA
  13  4,3  | SYLI
+ 13  4,5  - YA
+ 13  4,5  - YE
  13  4,5  | YIELD
  13  4,5  | YIKES
  13  5,3  | YLEM
+ 12  3,5  - AD
  12  5,7  - AE
  12  3,5  | AGLY
  12  4,5  | AISLED
@@ -304,6 +324,9 @@
  12  6,5  | SPAKE
  12  6,5  | SPEAK
  11  6,7  - ALES
+ 11  4,5  - DA
+ 11  4,7  - DA
+ 11  4,5  - DE
  11  4,7  - DE
  11  4,5  | DIALS
  11  4,5  | DIKE
@@ -348,6 +371,7 @@
  10  5,4  | ELMY
  10  5,5  | EMYD
  10  3,6  | GAED
+ 10  3,6  | GAK
  10  3,6  | GALES
  10  3,6  | GAYS
  10  4,6  | IDEALS
@@ -380,6 +404,7 @@
   9  5,4  | ALMES
   9  6,7  - ALS
   9  6,7  - AY
+  9  2,5  - DA
   9  3,4  | DAGS
   9  4,4  | DAIS
   9  5,4  | DAMES
@@ -413,6 +438,8 @@
   9  6,6  | PLY
   9  6,6  | PYAS
   9  6,6  | PYES
+  9  4,5  - SA
+  9  4,7  - SA
   9  1,5  - SEA
   9  6,4  | SEPAL
   9  4,5  | SIAL
@@ -464,6 +491,7 @@
   8  6,6  | PLEA
   8  6,6  | PYA
   8  6,6  | PYE
+  8  2,5  - SA
   8  3,4  | SAGE
   8  6,3  | SALP
   8  5,3  | SEAM
@@ -551,7 +579,9 @@
   4  4,5  | DIS
   4  4,5  | LIE
   4  4,5  | LIS
+  4  4,5  | YI
   3  4,5  | AIS
+  3  4,5  | DI
   3  4,6  | ID
   3  4,5  | LI
   2  4,5  | AI

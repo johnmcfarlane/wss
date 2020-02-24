@@ -32,6 +32,7 @@
  21  1,15 - TELES
  21 11,11 | TRES
  20 11,12 | ERS
+ 20 11,13 | ESE
  20 10,15 - REELS
  20 10,15 - RELET
  20 11,12 | RES
@@ -141,9 +142,11 @@
  13  5,7  - EEL
  13 10,2  | ERRS
  13 10,2  | ERST
+ 13  4,15 - ESE
  13  3,7  - ESTER
  13  5,7  - LEE
  13  4,7  - LEER
+ 13  7,1  | LEES
  13  4,7  - LEES
  13  7,1  | LEET
  13  4,7  - LEET
@@ -191,6 +194,7 @@
  11 10,15 - ERE
  11 10,15 - ERR
  11 10,15 - ERS
+ 11 10,15 - ESE
  11  7,11 | MANSE
  11  6,6  | PEELS
  11  6,6  - PEENS
@@ -229,6 +233,7 @@
  10  6,6  | PREST
  10 11,10 | REE
  10 10,13 - REELS
+ 10  7,1  | REES
  10 10,13 - RELET
  10  6,4  | REPELS
  10 11,10 | RES
@@ -243,9 +248,11 @@
  10  2,3  - STREELS
  10  8,3  - STREELS
  10 10,13 - TEELS
+ 10  7,1  | TEES
  10 10,13 - TELES
  10 10,13 - TERSER
  10  3,7  - TREE
+ 10  7,1  | TRES
  10 10,9  - VEERS
  10 10,9  - VERSE
  10 10,9  - VERST
@@ -260,6 +267,7 @@
   9  4,7  - ERE
   9  6,7  - ES
   9  4,15 - ES
+  9  4,7  - ESE
   9 10,13 - ESTER
   9  6,7  - ET
   9  4,15 - ET
@@ -348,6 +356,7 @@
   7 10,13 - ERRS
   7 10,13 - ERST
   7 10,4  | ES
+  7  7,1  | ESE
   7  3,3  - ESTERS
   7  7,3  - ESTERS
   7 10,4  | ET
@@ -372,6 +381,7 @@
   7  3,3  - REESTS
   7  5,3  - REESTS
   7  6,4  | REPS
+  7  7,2  | RES
   7  3,3  - RESETS
   7  6,3  - RESETS
   7 10,13 - REST
@@ -413,10 +423,13 @@
   6  9,7  - ARETE
   6  9,7  - ASTER
   6  5,3  - EELS
+  6  6,5  | EPE
   6 10,13 - ERE
   6 10,13 - ERR
   6 10,13 - ERS
   6  4,3  - ERSES
+  6  7,3  | ES
+  6 10,13 - ESE
   6  7,3  - ESTER
   6  7,3  | ET
   6  6,3  - LESES
@@ -468,6 +481,7 @@
   5 10,13 - ES
   5  5,3  - ESES
   5 10,13 - ET
+  5  6,13 | EpE
   5  6,3  - LESS
   5  6,3  - LEST
   5  8,5  - NUS
@@ -524,6 +538,7 @@
   3 10,14 | EL
   3  6,4  - ERA
   3  6,3  - ERS
+  3  7,3  - ESE
   3  6,3  - ESS
   3  7,3  - ESS
   3  6,4  - ETA
@@ -551,6 +566,7 @@
   2  7,6  | EE
   2 10,13 | EE
   2 10,14 | EE
+  2  7,9  - EO
   2  7,6  | ER
   2 10,14 | ER
   2  7,3  - ES
@@ -561,6 +577,7 @@
   2  8,14 | IS
   2  8,14 | IT
   2 10,13 | RE
+  2  7,4  - SA
   2  7,9  - SO
   2  7,4  - TA
   2 10,13 | TE

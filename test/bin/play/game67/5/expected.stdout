@@ -1,4 +1,6 @@
+ 51 10,8  | AIX
  39  1,11 - OVARIES
+ 39 10,10 | XI
  36  3,11 - RAXES
  30  2,11 - VARIES
  29  8,10 - REVS
@@ -24,14 +26,18 @@
  24  3,11 - VISE
  23 10,8  | AIR
  23 10,8  | AIS
+ 23  7,3  | VIOLAS
  22  2,10 - SAVOUR
  22  5,10 - SUAVER
  21  5,7  | AX
  21  5,2  | AXIS
  21  8,10 - REIS
+ 20  8,4  | AVISO
  20  8,10 - REX
  20  8,10 - SEX
+ 20  7,3  | VIOLA
  20  7,3  | VOILA
+ 20  8,10 - XES
  20  5,3  | XIS
  19  9,10 - ERS
  18  9,10 - EX
@@ -41,22 +47,26 @@
  18  3,7  - VIOLA
  18  3,7  - VOILA
  17  7,8  | SI
+ 17  8,5  | VISA
  16  5,1  | ARVOS
  16  8,3  - AVOW
  16 10,9  | IS
  16  7,3  | VAIL
+ 16  7,3  | VIOL
  16  7,3  | VIRL
  15 10,8  | AI
  15  2,11 - ARISE
  15  2,11 - AROSE
  15  5,2  | AVOS
  15  7,3  | AXIL
+ 15  8,4  | AXIS
  15  8,4  | IXIA
  15  3,11 - OSIER
  15  2,11 - RAISE
  15  9,3  - VOW
  14  2,5  - AVISO
  14  8,10 - REV
+ 14  8,10 - SEV
  14  3,7  - VAIL
  14  5,3  | VAS
  14  5,11 - VEX
@@ -69,6 +79,7 @@
  13  4,8  - IXIA
  13 11,3  | WESSANDS
  12  3,11 - ARSE
+ 12  5,1  | AVISO
  12  6,9  - QI
  12  3,11 - RASE
  12  3,11 - RISE
@@ -79,13 +90,20 @@
  12  6,10 - URAEI
  12  5,1  | VAIRS
  12  8,3  - VROW
+ 12  8,5  | XIS
+ 11  5,2  | ARVO
  11  4,11 - AXES
+ 11 10,10 | OI
  11  4,11 - OXES
  11  4,8  - RAISIN
  11  2,7  - RIVAL
+ 11 10,10 | SA
+ 11 10,10 | SI
  11 10,10 | SO
  11  5,2  | VARS
  11  2,7  - VIRAL
+ 10  5,8  - AIX
+ 10  5,3  | AVO
  10  4,11 - AXE
  10  3,7  - OVAL
  10  4,5  - OXO
@@ -93,9 +111,12 @@
  10  5,11 - SEX
  10  7,4  | SILO
  10  5,8  - SIX
+ 10  7,4  | SOLA
+ 10  7,4  | SOLI
  10  5,10 - SUAVE
  10  3,10 - VARUS
  10  3,10 - VIRUS
+ 10  5,11 - XES
  10  5,8  - XIS
  10  5,10 - XU
   9  3,5  - ARVO
@@ -105,6 +126,7 @@
   9  8,9  - SKID
   9  4,10 - VAUS
   9  8,5  | VIA
+  9  8,5  | VIS
   9  8,5  | XI
   9  5,8  - XI
   8  8,8  - ANON
@@ -113,9 +135,11 @@
   8  1,8  - ARIOSI
   8  4,11 - AVER
   8  4,11 - AVES
+  8  8,4  | IRIS
   8  9,9  - KID
   8  4,11 - OVER
   8  7,3  | RAIL
+  8  8,4  | RAIS
   8  7,3  | ROIL
   8  7,3  | SAIL
   8  4,7  - SILO
@@ -142,13 +166,16 @@
   7  5,2  | RIAS
   7  9,3  - ROW
   7  7,4  - SAREE
+  7  5,11 - SEV
   7  7,4  - SIREE
+  7  7,10 | SO
   7  9,3  - SOW
   7  9,4  - VEE
   7  5,8  - VIA
   7  4,11 - VIE
   7  5,8  - VIS
   7  4,11 - VOE
+  7  5,10 - VU
   6  7,4  | AIL
   6  5,3  | AIS
   6  3,7  - ARIL
@@ -184,8 +211,10 @@
   6  8,10 - SER
   6  3,7  - SIAL
   6  3,7  - SOIL
+  6  7,4  | SOL
   6  8,3  | SORI
   6  3,8  - SORI
+  5  8,5  | AIS
   5  8,8  - AN
   5  8,8  - IN
   5  9,8  - NAN
@@ -201,11 +230,13 @@
   4  4,7  - AIL
   4  4,11 - ARES
   4  5,4  | AS
+  4  9,10 - EO
   4  9,10 - ER
   4  9,10 - ES
   4  8,11 - IDS
   4  4,11 - IRES
   4  5,4  | IS
+  4  8,6  | IS
   4  8,11 - ODA
   4  8,11 - ODS
   4  4,7  - OIL
@@ -213,8 +244,10 @@
   4  5,4  | OS
   4  5,10 - OUR
   4  4,11 - ROES
+  4  8,7  - SA
   4  4,7  - SAL
   4  4,10 - SAU
+  4  5,4  | SO
   4  4,7  - SOL
   4  4,10 - SOU
   3  8,11 - AD
@@ -222,6 +255,8 @@
   3  5,8  - AIS
   3  5,7  - AL
   3  4,11 - ARE
+  3  9,11 - DA
+  3  9,11 - DI
   3  9,11 - DO
   3  8,11 - ID
   3  4,11 - IRE
@@ -244,6 +279,7 @@
   2  5,11 - AE
   2  8,5  | AI
   2  5,8  - AI
+  2  6,11 - EO
   2  6,11 - ER
   2  6,11 - ES
   2  6,8  - IS
@@ -251,6 +287,7 @@
   2  5,11 - OE
   2  8,5  | OI
   2  5,8  - OI
+  2  5,5  - OO
   2  8,10 - RE
   2  5,11 - RE
   2  8,5  | SI

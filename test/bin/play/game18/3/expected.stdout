@@ -1,3 +1,4 @@
+ 33  4,6  | LOQ
  24  2,2  | QIS
  23  3,5  | QIS
  22  2,2  | QI
@@ -7,20 +8,27 @@
  20  1,5  - SEG
  19  7,1  | ESS
  19  7,1  | OES
+ 19  7,1  | OOS
+ 19  7,1  | SOS
  18  7,2  | ES
  18  3,1  | GEL
+ 18  7,2  | OS
  18  7,3  | SO
  16  2,6  | FOSSE
  16  1,2  - GO
+ 15  1,2  - OSE
  15  2,5  - OSE
  15  3,1  | SELS
  15  3,1  | SOLE
  15  3,1  | SOLO
  15  3,1  | SOLS
+ 14  5,4  - ESQ
  14  1,5  - GOO
  14  4,6  | LOGES
  14  4,6  | LOGOS
+ 14  4,4  - OES
  14  3,2  | OLOGIES
+ 14  3,4  - OO
  14  4,5  | SLOGS
  13  1,1  | GOOSE
  13  4,6  | LEGS
@@ -32,32 +40,41 @@
  13  6,4  - SEGOS
  13  4,5  | SLOG
  12  2,1  | EGIS
+ 12  6,2  - ESQ
  12  1,1  | GOOS
  12  4,6  | LEG
  12  4,6  | LOG
  12  1,5  - OES
  12  1,7  - OES
  12  5,5  - OKE
+ 12  1,5  - OOS
  12  6,4  - SEGO
  12  6,4  - SEGS
  12  3,1  | SEL
  12  3,1  | SOL
  12  1,5  - SOS
  11  4,3  | COOLS
+ 11  2,5  - EO
  11  2,5  - ES
  11  2,7  - ES
  11  1,1  | GOO
  11  6,5  - KEGS
  11  2,2  - OE
+ 11  2,5  - OO
  11  2,5  - OS
  11  6,4  - SEG
  10  4,3  | COOL
+ 10  1,2  - EO
+ 10  1,2  - ES
  10  2,2  | GIE
  10  3,5  | GIES
  10  4,5  | GLOSS
  10  5,6  | MEGS
  10  5,6  | MOGS
  10  4,7  - OE
+ 10  1,2  - OO
+ 10  4,7  - OO
+ 10  1,2  - OS
  10  1,2  - SO
   9  2,6  | FOGS
   9  3,5  | GIE
@@ -70,6 +87,7 @@
   9  5,6  | MOSSO
   9  3,5  - OE
   9  4,1  | SECS
+  9  5,2  - SEGOS
   9  3,7  - SO
   8  1,1  | EGOS
   8  2,6  | FOG
@@ -84,14 +102,19 @@
   8  5,6  | MOOS
   8  5,6  | MOSS
   8  4,5  | OLEOS
+  8  5,2  - SEGO
+  8  5,2  - SEGS
   8  2,1  | SEIS
   8  4,5  | SLOES
+  7  4,3  | CO
   7  1,1  | EGO
+  7  1,5  - EO
   7  2,6  | FESS
   7  2,6  | FOES
   7  2,6  | FOSS
   7  3,5  | GI
   7  5,1  | GOA
+  7  6,5  - KES
   7  6,5  - KOS
   7  4,6  | LESS
   7  4,6  | LOOS
@@ -101,6 +124,8 @@
   7  1,7  - OE
   7  4,5  | OLEO
   7  4,5  | OLES
+  7  1,5  - OO
+  7  5,2  - SEG
   7  4,5  | SLOE
   7  2,4  - SO
   7  1,5  - SO
@@ -108,12 +133,15 @@
   6  6,2  - EGOS
   6  1,4  - ES
   6  2,6  | FOE
+  6  7,1  | GO
   6  1,2  | GOES
   6  1,2  | GOOS
   6  4,6  | LOO
   6  5,6  | MOO
   6  5,6  | MOS
+  6  1,4  - OS
   6  4,1  | SEC
+  6  5,2  - SEES
   6  2,1  | SEI
   6  2,2  | SIS
   5  2,5  | EF
@@ -125,11 +153,13 @@
   5  5,6  | MO
   5  2,5  | OF
   5  5,1  | SEA
+  5  5,2  - SEE
   5  3,5  | SIS
   5  6,4  - SOS
   4  5,3  | AE
   4  3,2  | ELS
   4  4,5  | ELS
+  4  7,1  | EO
   4  7,1  | ES
   4  5,4  - ES
   4  6,2  - ESES
@@ -138,23 +168,32 @@
   4  2,2  | OI
   4  3,2  | OLE
   4  4,5  | OLE
+  4  7,1  | OO
   4  7,1  | OS
   4  2,2  | SI
+  4  7,1  | SO
   3  3,2  | EL
   3  4,5  | EL
+  3  6,2  - ESE
   3  6,2  - ESS
   3  3,6  | IS
   3  3,3  | LO
   3  4,6  | LO
   3  1,3  | OES
   3  3,5  | OI
+  3  1,2  | OOS
+  3  1,3  | OOS
   3  1,3  | OSE
   3  3,5  | SI
   3  1,2  | SOS
   2  6,2  - EE
+  2  1,2  | EO
+  2  6,2  - EO
   2  6,2  - ES
   2  2,3  | IS
   2  1,3  | OE
+  2  1,2  | OO
+  2  1,3  | OO
   2  1,3  | OS
   2  1,2  | SO
   2  6,4  - SO

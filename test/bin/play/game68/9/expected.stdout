@@ -25,18 +25,26 @@
  44  1,5  - TOaDyISH
  44  1,5  - TypHOIDS
  43  1,9  - oOTS
+ 43  1,9  - pOTS
  41  1,9  - OaTs
  41  1,9  - OoTs
  39  1,8  | GeeZ
  39  1,9  - oOTs
  39  1,9  - oaTS
  39  1,9  - ooTS
+ 39  1,9  - pOTs
+ 39  1,9  - paTS
+ 39  1,9  - piTS
+ 39  1,9  - poTS
  37  1,9  - OatS
  37  1,9  - OotS
  36  1,9  - OaT
  36  1,9  - OoT
  35  1,9  - oOtS
+ 35  1,9  - pOtS
+ 35  1,9  - pOwS
  34  1,9  - oOT
+ 34  1,9  - pOT
  31  3,4  - SHOVeD
  30  1,3  | HOTDoG
  30  1,3  | HoTDOG
@@ -45,6 +53,9 @@
  30  1,2  | SanDHOG
  30  1,9  - oaT
  30  1,9  - ooT
+ 30  1,9  - paT
+ 30  1,9  - piT
+ 30  1,9  - poT
  30  3,4  - sHOVeD
  29  4,4  - HiVeD
  28  1,9  - Oat
@@ -57,6 +68,8 @@
  27  1,4  | THOnGS
  26  3,4  - HOoVeD
  26  1,9  - oOt
+ 26  1,9  - pOt
+ 26  1,9  - pOw
  24  1,5  | DouGH
  24  1,6  | HOGS
  24  1,3  | HOSinG
@@ -104,7 +117,9 @@
  22  3,9  - TO
  22  2,9  - aTe
  22  2,9  - iTs
+ 21  5,5  | DOES
  21  1,6  | DOGS
+ 21  7,1  | DONuTS
  21  1,4  | DOSaGe
  21  1,3  | DOSinG
  21  1,4  | DOTaGe
@@ -125,6 +140,7 @@
  21  1,6  | HaGS
  21 11,1  | HaKe
  21  1,5  | HanGS
+ 21 11,1  | HiKe
  21  5,5  | HoES
  21  1,6  | HoGS
  21 11,1  | HoKe
@@ -153,6 +169,7 @@
  21  1,5  | TeuGH
  21  1,5  | ThiGH
  21  1,5  | TouGH
+ 21  4,4  - bOViD
  21  1,5  | bOuGH
  21  1,5  | cHuGS
  21  4,4  - cOVeD
@@ -177,6 +194,7 @@
  21  1,5  | tOuGH
  21  1,5  | wHiGS
  21  1,6  | yOGH
+ 20  9,1  | DORe
  20  4,4  - DeVaS
  20  4,4  - DiVaS
  20  4,4  - DiVeS
@@ -188,6 +206,8 @@
  20  2,9  - Owe
  20  3,9  - Te
  20  3,9  - To
+ 20  6,4  - ViD
+ 20  5,4  - aViD
  20  2,9  - abO
  20  2,9  - abS
  20  2,9  - agO
@@ -196,8 +216,16 @@
  20  2,9  - itS
  20  2,9  - oeS
  20  1,2  - rHODiC
+ 19  5,5  | DOEs
+ 19  7,1  | DONuTs
+ 19  7,1  | DONutS
+ 19  5,5  | DeES
+ 19  5,5  | DoES
+ 19  7,1  | DoNuTS
+ 19  5,5  | DyES
  19  7,8  - HORSe
  19  5,5  | HaEs
+ 19  9,1  | HaRe
  19  5,5  | HoEs
  19  9,1  | HoRa
  19  5,5  | ODEs
@@ -206,12 +234,14 @@
  19  3,4  - SHOVer
  19  3,4  - SHOVes
  19  5,5  | TOES
+ 19  7,1  | dONuTS
  19  5,5  | oDES
  19  5,5  | sHEs
  18  1,6  | DOGe
  18  1,6  | DOGs
  18  1,6  | DOGy
  18  3,5  | DOJOS
+ 18  7,1  | DONuT
  18  7,8  - DORSa
  18  1,5  | DOdGe
  18  1,5  | DOdGy
@@ -226,6 +256,7 @@
  18 11,1  | DeKe
  18  8,4  - DeW
  18  1,6  | DiGS
+ 18 11,1  | DiKe
  18  1,5  | DinGO
  18  1,5  | DinGS
  18  1,6  | DoGS
@@ -248,6 +279,7 @@
  18  7,8  - HoRDe
  18  1,6  | HuGe
  18  1,6  | HuGs
+ 18  8,3  | ODaHS
  18  8,8  - ORDo
  18  3,4  - SHOVe
  18  1,5  | STOGy
@@ -259,6 +291,7 @@
  18  1,3  | STrOnG
  18  1,5  | SeDGe
  18  1,5  | SeDGy
+ 18  4,6  - THEwlESS
  18  1,2  - THOriC
  18  1,6  | TOGS
  18  1,5  | TOnGS
@@ -268,6 +301,7 @@
  18  3,9  - bO
  18  1,5  | dODGe
  18  1,5  | dODGy
+ 18  3,9  - eO
  18  3,9  - eS
  18  7,8  - fORDo
  18  3,9  - gO
@@ -290,12 +324,16 @@
  18  1,5  | wODGe
  18  3,9  - yO
  18  1,6  | yoGH
+ 17  5,5  | DeEs
+ 17  5,5  | DoEs
  17  3,5  | DoJOS
  17  3,4  - DrOVeS
+ 17  5,5  | DyEs
  17  4,6  - HOED
  17  7,8  - HORde
  17  7,8  - HORse
  17  4,4  - HOVe
+ 17  8,1  | HoODoOS
  17 11,3  | KOaS
  17 11,3  | KOiS
  17  4,4  - OaVeS
@@ -303,6 +341,7 @@
  17  5,5  | OdES
  17  1,9  - Oi
  17  5,5  | OnES
+ 17  1,9  - Oo
  17  5,5  | OpES
  17  5,5  | OrES
  17  5,5  | OwES
@@ -316,13 +355,18 @@
  17 11,1  | SOKe
  17  7,8  - SORTa
  17  9,1  | SORa
+ 17  9,1  | SORe
  17  2,2  - STucCO
+ 17  4,6  - THEinES
+ 17  4,6  - THErmES
  17  4,5  - THIOnyLS
  17  5,5  | TOEs
  17 11,1  | TOKe
+ 17  7,1  | TONuS
  17  7,8  - TORSe
  17  7,8  - TORSo
  17  9,1  | TORa
+ 17  9,1  | TORe
  17  9,1  | TORo
  17  9,1  | TaRO
  17  5,5  | TeES
@@ -332,11 +376,13 @@
  17  5,5  | TyES
  17  2,9  - aT
  17  5,5  | aTES
+ 17  5,5  | dOES
  17  5,5  | fOES
  17  7,8  - foRDO
  17  5,5  | gOES
  17  5,5  | hOES
  17  2,9  - iT
+ 17  5,5  | nOES
  17  5,5  | oDEs
  17  8,8  - oRDO
  17  3,4  - sHOVe
@@ -344,37 +390,53 @@
  17  7,8  - taRDO
  16  3,5  | DOJO
  16  3,5  | DOJOs
+ 16  7,1  | DONut
  16  9,1  | DOR
  16  7,8  - DORsa
+ 16  9,1  | DaRe
  16  4,4  - DeVOn
+ 16  7,1  | DoNuT
+ 16  9,1  | DoRe
  16  4,6  - HOES
+ 16  8,1  | HOODooS
+ 16  8,2  | HOTrOD
  16  8,6  | HaO
  16  4,4  - HaVe
  16  2,2  - HavOC
  16  4,4  - HiVe
+ 16  8,1  | HoODOoS
  16  7,8  - HoRSe
  16  4,4  - HoVe
+ 16  8,3  | ODaHs
  16  5,6  | OES
+ 16  2,10 - OH
  16  2,2  - OHmiC
+ 16  7,2  | ONuS
  16  2,10 - SH
  16  2,2  - SODiC
  16  4,5  - THIOnyL
+ 16  8,2  | TOOtHS
  16  7,8  - TaRDo
  16  7,8  - ToRSO
  16  3,4  - TrOVeS
  16  7,8  - aORTa
  16  5,4  - aVOS
  16  4,4  - arVOS
+ 16  7,1  | bONuS
+ 16  8,2  | bOOTHS
  16  3,9  - be
  16  3,9  - bo
  16  8,5  | boHO
  16  8,5  | cHaO
  16  8,2  | cOHOrT
+ 16  7,1  | cONuS
  16  7,8  - cORSe
  16  8,5  | coHO
+ 16  7,1  | dONuT
  16  7,8  - dORSa
  16  2,2  - eTHiC
  16  3,9  - ee
+ 16  3,9  - eo
  16  3,9  - es
  16  7,8  - fORTe
  16  7,8  - gORSe
@@ -386,7 +448,11 @@
  16  4,3  | pHlOEMS
  16  8,6  | rHO
  16  8,5  | sHmO
+ 16  8,2  | sOOTHS
  16  7,8  - sORTa
+ 16  8,1  | smOOTHS
+ 16  7,1  | tONuS
+ 16  8,2  | tOOTHS
  16  7,8  - tORSe
  16  7,8  - tORSo
  16  7,8  - tORTa
@@ -411,6 +477,7 @@
  15  3,5  | DoJO
  15  3,5  | DoJOs
  15  7,8  - DoRSa
+ 15  8,1  | DrOuTHS
  15  1,6  | DuGs
  15  4,6  - HOE
  15  4,6  - HOEd
@@ -442,6 +509,7 @@
  15  2,9  - Oy
  15  5,5  | OyEs
  15  3,4  - SHiV
+ 15  8,2  | SOOTHs
  15  7,8  - SORta
  15  1,5  | SOgGy
  15  1,5  | SOnGs
@@ -460,15 +528,24 @@
  15  5,5  | ShEs
  15  1,5  | ShOGi
  15  1,5  | ShOGs
+ 15 11,1  | SiKe
  15  1,5  | SlOGs
  15  1,5  | SmOGs
+ 15  8,1  | SmOOTHs
  15  8,1  | SmOOTHy
  15  1,5  | SnOGs
  15 11,1  | SoKe
  15  1,5  | SorGO
  15  1,5  | StOGy
+ 15  4,6  - THE
+ 15  4,6  - THEe
+ 15  4,6  - THEm
+ 15  4,6  - THEn
+ 15  4,6  - THEw
+ 15  4,6  - THEy
  15  1,6  | TOGa
  15  1,6  | TOGs
+ 15  7,1  | TONus
  15  7,8  - TORse
  15  7,8  - TORso
  15  7,8  - TORta
@@ -484,10 +561,12 @@
  15  1,6  | TeGS
  15  1,5  | TegGS
  15  1,5  | ThuGS
+ 15 11,1  | TiKe
  15  1,5  | TinGS
  15  5,5  | ToEs
  15  1,6  | ToGS
  15 11,1  | ToKe
+ 15  7,1  | ToNuS
  15  1,5  | TonGS
  15  5,5  | TrEs
  15  1,5  | TrOGs
@@ -507,6 +586,7 @@
  15  5,5  | awES
  15  5,5  | ayES
  15  1,6  | bOGS
+ 15  8,2  | bOOtHS
  15  1,5  | bOnGS
  15  5,5  | beES
  15  1,5  | biOGS
@@ -515,9 +595,13 @@
  15  1,6  | cOGS
  15  4,4  - cOVeS
  15  1,5  | clOGS
+ 15  5,5  | dOEs
  15  1,6  | dOGS
  15  4,4  - dOVeS
  15  1,5  | dOnGS
+ 15  5,5  | deES
+ 15  5,5  | doES
+ 15  5,5  | dyES
  15  1,6  | eDGe
  15  1,6  | eDGy
  15  5,5  | fOEs
@@ -543,6 +627,7 @@
  15  5,5  | kaES
  15  5,5  | kyES
  15  1,6  | lOGS
+ 15  8,2  | lOTaHS
  15  4,4  - lOVeS
  15  1,5  | lOnGS
  15  5,5  | leES
@@ -550,9 +635,12 @@
  15  1,6  | mOGS
  15  4,4  - mOVeS
  15  5,5  | maES
+ 15  5,5  | nOEs
  15  1,6  | nOGS
  15  4,4  - nOVaS
  15  1,5  | nOgGS
+ 15  5,5  | noES
+ 15  1,9  - oO
  15  8,8  - oRDo
  15  5,5  | obES
  15  5,5  | odES
@@ -563,11 +651,13 @@
  15  5,5  | owES
  15  5,5  | oyES
  15  4,3  | pHlOEM
+ 15  1,9  - pO
  15  1,5  | pOnGS
  15  5,5  | peES
  15  1,5  | prOGS
  15  5,5  | pyES
  15  4,4  - rOVeS
+ 15  8,2  | sOOtHS
  15  1,5  | sOnGS
  15  1,5  | sTOGy
  15  1,5  | sTaGS
@@ -579,6 +669,7 @@
  15  1,5  | snOGS
  15  5,5  | tOEs
  15  1,6  | tOGS
+ 15  8,2  | tOOtHS
  15  1,5  | tOnGS
  15  5,5  | teES
  15  5,5  | toES
@@ -591,10 +682,12 @@
  14  2,10 - DO
  14  4,4  - DOVe
  14  2,2  - DOmiC
+ 14  8,2  | DOugHS
  14  8,2  | DOugHT
  14 11,1  | DaK
  14  2,2  - DurOC
  14  8,7  | HO
+ 14  8,2  | HOTroD
  14  4,6  - HaES
  14  4,6  - HaET
  14  4,4  | HarEM
@@ -603,17 +696,21 @@
  14  6,5  - IDylLS
  14  5,6  | OEs
  14 11,2  | OKe
+ 14  7,2  | ONus
  14  8,8  - ORca
  14  8,8  - ORdo
  14  8,8  - ORle
  14  8,2  | SOOTH
+ 14  8,2  | SOOtHs
  14  2,2  - STOiC
  14  7,8  - SeRvO
  14  8,1  | SmOOTH
  14  2,2  - SoDiC
  14  7,8  - SoRTa
+ 14  8,2  | TOOtHs
  14  8,2  | TOOtHy
  14  7,8  - TaRdO
+ 14  4,6  - TeEtHES
  14  7,8  - TeRSe
  14  7,8  - ToRSe
  14  7,8  - ToRSo
@@ -621,53 +718,79 @@
  14  3,2  - TomCOD
  14  7,8  - TuRbO
  14  6,4  - VaS
+ 14  6,4  - ViS
  14  2,2  - aSDiC
  14  5,4  - aVeS
  14  5,4  - aVoS
  14  5,6  | bES
+ 14  8,2  | bOOTHs
  14  9,1  | bORa
+ 14  9,1  | bORe
  14  3,2  - cHiCOS
  14  2,2  - cODeC
  14 11,1  | cOKe
+ 14  8,1  | cOOlTHS
+ 14  9,1  | cORe
  14  3,5  | dOJOS
+ 14  9,1  | dORe
+ 14  8,5  | doDO
  14  5,4  - eVeS
  14  9,1  | fORa
+ 14  9,1  | fORe
  14  9,1  | faRO
  14  4,6  - frESHEST
+ 14  9,1  | gORe
  14  5,6  | hES
  14 11,1  | hOKe
  14  9,1  | hORa
  14  2,2  - iODiC
  14 11,1  | jOKe
  14  9,1  | kORa
+ 14  9,1  | kORe
  14  5,4  - kVaS
+ 14  9,1  | lORe
  14  3,5  | mOJOS
  14 11,1  | mOKe
  14  9,1  | mORa
+ 14  9,1  | mORe
  14 11,1  | maKO
  14  1,2  - nOSToC
  14  1,2  - noSTOC
  14  5,6  | oES
+ 14  7,2  | oNuS
+ 14  8,5  | orDO
  14  5,6  | pES
  14 11,1  | pOKe
+ 14  9,1  | pORe
+ 14  8,2  | pOTHOS
  14  5,6  | rES
+ 14  8,2  | rODeOS
  14  3,4  - sHiV
  14  2,2  - sODiC
  14 11,1  | sOKe
+ 14  8,2  | sOOTHs
  14  9,1  | sORa
+ 14  9,1  | sORe
  14 11,1  | tOKe
+ 14  8,2  | tOOTHs
  14  8,2  | tOOTHy
  14  9,1  | tORa
+ 14  9,1  | tORe
  14  9,1  | tORo
  14  9,1  | taRO
  14  9,1  | toRO
+ 14  8,5  | upDO
  14 11,1  | wOKe
+ 14  9,1  | wORe
  14  5,6  | yES
  14 11,1  | yOKe
+ 14  9,1  | yORe
  13  6,2  - COD
  13  6,2  - COneY
+ 13  6,2  - COoeY
  13  6,2  - COpaY
  13  6,2  - COseY
+ 13  6,2  - CoOeY
  13  6,2  - CoSeY
  13  6,2  - CuTeY
  13  8,5  | DOH
@@ -682,7 +805,9 @@
  13  1,8  - GLOMS
  13  4,2  - HOCuS
  13  8,1  | HOODoo
+ 13  8,1  | HOOTerS
  13  8,2  - HOY
+ 13  8,2  | HOtrOD
  13  4,6  - HaE
  13  4,6  - HaEd
  13  4,6  - HaEm
@@ -704,7 +829,13 @@
  13  3,7  | JOT
  13 11,3  | KOa
  13 11,3  | KOi
+ 13  7,3  | NuDe
+ 13  7,3  | NuTS
+ 13  2,10 - OD
+ 13  8,3  | ODOrS
  13  8,3  | OOmpH
+ 13  8,2  | OOmpHS
+ 13  8,3  | OaTHS
  13  9,8  - RhO
  13  8,1  | SHODdy
  13  8,2  | SOOtH
@@ -720,12 +851,20 @@
  13  8,1  | SmOOsH
  13  8,1  | SmOOtH
  13  9,1  | SoRa
+ 13  9,1  | SoRe
  13  8,1  | SwOOsH
+ 13  8,2  | TODayS
+ 13  4,6  - TOED
  13  8,2  | TOOtH
  13  9,1  | TOR
  13  3,2  - TOmCoD
+ 13  8,2  | TOotHS
+ 13  8,2  | TOraHS
+ 13  8,2  | TOugHS
+ 13  9,1  | TaRe
  13  9,1  | TaRo
  13  9,1  | ToRa
+ 13  9,1  | ToRe
  13  9,1  | ToRo
  13  8,8  - aRSe
  13  8,8  - aRcO
@@ -738,7 +877,9 @@
  13  2,9  - aw
  13  2,9  - ay
  13  8,2  | bOOTH
+ 13  8,2  | bOoTHS
  13  8,2  | bOrSHT
+ 13  8,2  | cOuTHS
  13  3,5  | doJOS
  13  7,8  | fiQH
  13  4,6  - frESHES
@@ -746,8 +887,13 @@
  13  8,2  | gODSOn
  13  3,4  | gaDJO
  13  8,1  | hOOTcH
+ 13  8,2  | hOTrOD
+ 13  2,9  - ib
  13  2,9  - it
+ 13  8,2  | mOnTHS
+ 13  8,2  | mOuTHS
  13  3,5  | moJOS
+ 13  8,2  | nOrTHS
  13  8,8  - oRdO
  13  2,9  - oe
  13  2,9  - ow
@@ -756,40 +902,70 @@
  13  8,8  - pRaO
  13  3,2  - pSOCiD
  13  4,6  - rHEa
+ 13  8,2  | rOuTHS
+ 13  8,2  | rOwTHS
  13  8,2  | sOOTH
+ 13  8,2  | sOoTHS
+ 13  8,2  | sOuTHS
  13  8,1  | smOOSH
  13  8,1  | smOOTH
  13  8,1  | swOOSH
+ 13  4,6  - tHE
+ 13  4,6  - tHEe
+ 13  4,6  - tHEm
+ 13  4,6  - tHEn
+ 13  4,6  - tHEw
+ 13  4,6  - tHEy
  13  8,2  | tOOTH
+ 13  8,2  | tOoTHS
+ 13  4,6  - teETHES
  13  8,8  - uRSa
  13  8,2  | wOOSH
+ 13  8,2  | wOrTHS
  13  8,1  | whOOSH
+ 13  8,2  | yOuTHS
  12  2,5  - DHOTIS
+ 12  8,7  | DO
  12  8,2  | DOH
  12  8,2  | DOeTH
  12  3,2  - DiSCOs
  12  9,1  | DoR
+ 12  8,5  | DodO
  12  8,5  | DojO
  12  8,1  | DrOuTH
  12  1,8  | GO
  12  5,6  - HEDgES
+ 12  8,5  | HOD
  12  8,1  | HOODS
+ 12  8,2  | HOOeyS
+ 12  8,2  | HOTrOd
  12  4,2  - HoCuS
  12  3,7  | JOulE
+ 12  8,3  | ODahS
  12  8,3  | ODeOn
+ 12  8,3  | ODorS
+ 12  8,5  | OHS
  12  8,6  | OHo
  12  8,2  | OOHS
  12  2,2  - OSmiC
+ 12  8,3  | OTiOSe
+ 12  8,3  | OatHS
+ 12  8,3  | OdaHS
+ 12  8,3  | OkeHS
  12  2,2  - OnTiC
  12  2,2  - OpTiC
+ 12  8,3  | OpaHS
  12  1,6  | OrGy
  12  8,3  | OugHT
+ 12  8,3  | OupHS
  12  5,2  - SCOT
  12  5,2  - SCaD
  12  5,2  - SCuD
  12  2,4  - SHrOVe
  12  2,2  - SOdiC
  12  2,2  - SOniC
+ 12  8,2  | SOoTHs
+ 12  8,2  | SOuTHs
  12  3,4  - STOVe
  12  2,2  - SToiC
  12  1,6  | SaGa
@@ -805,6 +981,7 @@
  12  2,2  - StOiC
  12  1,6  | SuGh
  12  2,4  - THrOVe
+ 12  4,6  - TOES
  12  2,2  - TOniC
  12  2,2  - TOpiC
  12  2,2  - TOriC
@@ -817,6 +994,8 @@
  12  3,2  - TelCOS
  12  1,6  | ToGa
  12  1,6  | ToGs
+ 12  4,6  - TrESsES
+ 12  4,6  - TrEsSES
  12  1,6  | TuGs
  12  1,7  | aGO
  12  1,7  | aGS
@@ -836,6 +1015,7 @@
  12  1,6  | cOGs
  12  8,5  | cOHo
  12  8,2  | cOOcH
+ 12  7,8  | cOQ
  12  2,2  - cOSeC
  12  1,6  | ciGS
  12  1,6  | coGS
@@ -850,8 +1030,10 @@
  12  1,6  | doGS
  12  1,6  | duGS
  12  1,7  | eGO
+ 12  2,10 - eH
  12 11,2  | eKe
  12  4,2  - eSCOT
+ 12  7,8  | eSQ
  12  1,6  | egGS
  12  1,6  | enGS
  12  1,6  | erGO
@@ -886,6 +1068,7 @@
  12  1,6  | lOGo
  12  1,6  | lOGs
  12  1,6  | lOGy
+ 12  7,8  | lOQ
  12  8,2  | lOTaH
  12  2,2  - lOTiC
  12  1,6  | laGS
@@ -910,11 +1093,14 @@
  12  1,6  | neGS
  12  1,6  | noGS
  12  5,6  | oEs
+ 12  2,10 - oH
  12 11,2  | oKe
  12  5,6  | pEs
  12  1,6  | pOGy
  12  8,1  | pOOHS
  12  8,2  | pOOcH
+ 12  8,2  | pOTHOs
+ 12  8,2  | pOTHoS
  12  1,6  | peGS
  12  1,6  | piGS
  12  1,6  | puGS
@@ -965,9 +1151,11 @@
  11  2,5  - DHOtIS
  11  2,5  - DHoTIS
  11  2,5  - DHuTIS
+ 11  8,2  | DOTerS
  11  4,3  | DOdgEMS
  11  8,2  | DOetH
  11  8,2  | DOugH
+ 11  2,10 - Da
  11  4,2  - DaCeS
  11  2,10 - De
  11  4,2  - DeCOs
@@ -990,10 +1178,14 @@
  11  4,2  - HOCus
  11  8,2  | HODS
  11  5,5  | HOE
+ 11  7,1  | HON
  11  8,1  | HOOD
  11  8,1  | HOODs
  11  8,1  | HOODy
  11  8,2  | HOODy
+ 11  8,5  | HOSe
+ 11  8,2  | HOllOS
+ 11  8,2  | HOmmOS
  11  8,2  - HaY
  11 11,7  | HeX
  11  8,2  - HeY
@@ -1009,17 +1201,25 @@
  11 11,3  | Kea
  11 11,3  | Koa
  11 11,3  | Koi
+ 11  7,3  | NuTs
+ 11  7,3  | NubS
+ 11  7,3  | NunS
+ 11  7,3  | NutS
+ 11  8,3  | ODOrs
  11  8,6  | OH
  11  8,3  | OHO
  11  8,3  | OHS
  11  8,2  | OOH
  11  8,2  | OOHs
+ 11  8,3  | OTtOS
  11 11,1  | OaK
+ 11  8,3  | OaTHs
  11  8,5  - OlLa
  11  9,8  - Rho
  11  5,5  | SHE
  11  8,1  | SHOD
  11  8,5  | SHmo
+ 11  8,5  | SODa
  11  7,8  - SORD
  11  3,4  - SOaVe
  11  3,4  - SOlVe
@@ -1042,11 +1242,20 @@
  11  5,5  | THE
  11  8,5  | THae
  11  4,2  | THeOrEMS
+ 11  4,6  - TOE
+ 11  4,6  - TOEa
+ 11  4,6  - TOEd
+ 11  4,6  - TOEs
+ 11  8,2  | TOmcOD
+ 11  8,2  | TOnDOS
+ 11  4,6  - TeED
+ 11  4,6  - ToED
  11  8,5  | TopO
  11  8,5  | ToyO
  11  8,5  | TypO
  11  5,2  - aCeD
  11  5,2  - aCiD
+ 11  8,5  | aHS
  11  8,5  - alLS
  11  4,2  - asCOT
  11  8,2  | bOHO
@@ -1067,17 +1276,27 @@
  11  5,2  - iCeD
  11  8,5  - ilLS
  11  4,2  - juCOS
+ 11  8,2  | lOTtOS
  11  4,2  - loCOS
+ 11  8,2  | mOTtOS
  11  3,5  | moJO
  11  8,5  | nOH
+ 11  8,5  | oHS
  11  8,5  | oOH
  11  8,2  | oOHS
  11  1,9  - oi
+ 11  1,9  - oo
  11  8,5  | pHT
  11  8,5  | pOH
  11  8,1  | pOOH
  11  8,1  | pOOHs
+ 11  8,2  | pOThOS
+ 11  8,2  | pOTtOS
+ 11  8,2  | pOtHOS
+ 11  1,9  - pa
+ 11  1,9  - pi
  11  4,2  - piCOT
+ 11  1,9  - po
  11  8,1  | poOHS
  11  8,2  | rODeO
  11  5,2  - sCOT
@@ -1085,6 +1304,7 @@
  11  5,2  - sCuD
  11  3,4  - sTOVe
  11  7,8  | suQS
+ 11  4,6  - tOED
  11  4,2  - taCOS
  11  4,2  - unCOS
  11  8,1  | wOODSy
@@ -1101,8 +1321,11 @@
  10  2,5  - DHuTI
  10  2,5  - DHuTIs
  10  2,5  - DHutIS
+ 10  7,1  | DON
  10  7,8  - DORS
+ 10  8,5  | DOSe
  10  8,5  | DOTe
+ 10  8,2  | DObrOS
  10  4,3  | DOdgEM
  10  2,5  - DOlTISH
  10  3,5  - DOvISH
@@ -1122,9 +1345,11 @@
  10  8,1  | HOOTch
  10  8,1  | HOOTer
  10  8,2  | HOOTy
+ 10  8,5  | HOS
  10  8,5  | HOT
  10  3,5  - HOlIST
  10  3,5  - HOnIeD
+ 10  8,2  | HOnOrS
  10  3,5  - HaDITh
  10  7,8  - HaRD
  10  8,6  | Hae
@@ -1132,6 +1357,7 @@
  10  8,6  | Hao
  10  7,8  - HeRD
  10  1,5  - HiSTOID
+ 10  8,5  | HoD
  10  8,1  | HoOD
  10  8,1  | HoODs
  10  8,1  | HoODy
@@ -1139,20 +1365,27 @@
  10  3,5  - HyOIDs
  10  3,5  - HyoIDS
  10  2,8  | LiDO
+ 10  7,3  | NuS
+ 10  7,3  | NuT
  10  5,2  - OCaS
  10  8,3  | ODOr
+ 10  8,6  | ODa
+ 10  8,6  | ODe
  10  8,3  | OH
  10  8,3  | OHm
  10  8,5  | OHm
  10  8,3  | OHo
  10  8,3  | OHs
+ 10  8,5  | OHs
  10  8,2  | OOmpH
  10  9,2  | ORa
+ 10  9,2  | ORe
  10  8,3  | OaTH
  10  4,4  | OeDEMa
  10  4,2  - OnCeT
  10  8,5  | OoH
  10  4,2  - OrCaS
+ 10  8,3  | OrDOS
  10  7,10 | Qi
  10  5,2  - SCOp
  10  5,2  - SCOt
@@ -1164,7 +1397,9 @@
  10  8,5  | SHa
  10  8,5  | SHh
  10  8,5  | SHy
+ 10  8,7  | SO
  10  2,10 - SO
+ 10  8,5  | SOD
  10  8,2  | SODdy
  10 11,7  | SOX
  10  8,2  | SOotH
@@ -1181,8 +1416,10 @@
  10  8,5  | THy
  10  8,7  | TO
  10  2,10 - TO
+ 10  8,5  | TOD
  10  8,2  | TODay
  10  8,2  | TODdy
+ 10  8,2  | TOOthS
  10  2,5  - TOaDISH
  10  8,2  | TOotH
  10  8,2  | TOraH
@@ -1193,6 +1430,10 @@
  10  4,2  - TaCOs
  10  4,2  - TaCeS
  10  4,2  - TaCoS
+ 10  4,6  - TeES
+ 10  4,6  - ToES
+ 10  4,6  - TrES
+ 10  4,6  - TyES
  10  6,4  - VOe
  10  6,4  - VOw
  10  6,4  - VOx
@@ -1202,25 +1443,33 @@
  10  5,4  - aVOw
  10  8,5  - alL
  10  4,3  | anTHEMS
+ 10  8,5  | bODe
  10  8,2  | bOHo
+ 10  8,2  | bOOThS
  10  8,2  | bOSTOn
  10  8,2  | bOoTH
  10  9,2  | bRO
  10  8,1  | cHOOSy
  10  4,2  - cOCaS
  10  4,2  - cOCoS
+ 10  8,5  | cODa
+ 10  8,5  | cODe
  10  8,2  | cOHo
  10  9,1  | cOR
  10  7,8  - cORD
+ 10  8,2  | cOnDOS
  10  8,2  | cOuTH
+ 10  7,8  | coQ
  10  2,5  - dHOTIS
  10  4,3  | dODgEM
+ 10  8,5  | dODo
  10  8,2  | dOH
  10  9,1  | dOR
  10  8,2  | dOeTH
  10  4,2  - eSCOt
  10  4,2  - eSCoT
  10  8,5  - elL
+ 10  7,8  | esQ
  10  4,2  - fOCuS
  10  4,6  - fOES
  10  8,2  | fOH
@@ -1242,11 +1491,17 @@
  10  9,1  | kOR
  10  4,2  - lOCoS
  10  4,2  - lOCuS
+ 10  8,5  | lODe
  10  7,8  - lORD
  10  8,2  | lOaTH
+ 10  7,8  | loQ
+ 10  8,5  | mODe
  10  9,1  | mOR
+ 10  8,2  | mOTOrS
+ 10  8,2  | mOnDOS
  10  8,2  | mOnTH
  10  8,2  | mOuTH
+ 10  8,5  | nODe
  10  8,2  | nOH
  10  9,1  | nOR
  10  8,2  | nOrTH
@@ -1261,18 +1516,26 @@
  10  8,1  | poOH
  10  2,5  - rHODIc
  10  8,6  | rHo
+ 10  8,5  | rODe
  10  4,6  - rOES
+ 10  8,2  | rOTOrS
+ 10  8,2  | rOnDOS
  10  8,2  | rOuTH
  10  8,2  | rOwTH
  10  8,6  | rhO
  10  8,1  | sHOD
  10  4,2  - sOCaS
+ 10  8,5  | sODa
+ 10  8,2  | sOOThS
  10  7,8  - sORD
  10  8,2  | sOoTH
  10  8,2  | sOuTH
  10  7,8  | suQ
+ 10  4,6  - tOES
  10  8,1  | tOOTHy
+ 10  8,2  | tOOThS
  10  9,1  | tOR
+ 10  8,2  | tOnDOS
  10  8,2  | tOoTH
  10  4,2  - vOCeS
  10  8,1  | wHOOSh
@@ -1283,11 +1546,13 @@
  10  8,2  | yODH
  10 11,1  | yOK
  10  8,2  | yOuTH
+ 10  8,6  | ynO
   9  6,2  - COb
   9  6,2  - COd
   9  6,2  - COg
   9  6,2  - COl
   9  6,2  - COn
+  9  6,2  - COo
   9  6,2  - COp
   9  6,2  - COs
   9  6,2  - COt
@@ -1295,6 +1560,7 @@
   9  6,2  - COy
   9  6,2  - CaT
   9  6,2  - CiS
+  9  6,2  - CoO
   9  6,2  - CoS
   9  6,2  - CoT
   9  6,2  - CuT
@@ -1319,6 +1585,8 @@
   9  2,5  - DHobI
   9  2,5  - DHotI
   9  2,5  - DHutI
+  9  5,5  | DOE
+  9  8,5  | DOS
   9  8,5  | DOT
   9  8,2  | DOTH
   9  8,2  | DObSOn
@@ -1326,9 +1594,11 @@
   9  2,5  - DOggISH
   9  3,2  - DOlCe
   9  3,2  - DOlCi
+  9  8,2  | DOlOrS
   9  2,5  - DOlTIsH
   9  2,5  - DOllISH
   9  2,5  - DOltISH
+  9  8,2  | DOnOrS
   9  2,5  - DOnnISH
   9  3,2  - DOuCe
   9  3,5  - DOvIsH
@@ -1344,6 +1614,7 @@
   9  3,5  - DudISH
   9  1,8  | Gi
   9  1,8  | Go
+  9  1,8  | Gp
   9  4,6  | HEMS
   9  5,6  - HES
   9  5,6  - HET
@@ -1378,6 +1649,7 @@
   9  8,5  | HOne
   9  2,5  - HOoDIeS
   9  8,5  | HOpe
+  9  8,5  | HOse
   9  2,5  - HOwDIeS
   9  8,5  | HOya
   9  8,6  | Ha
@@ -1391,17 +1663,22 @@
   9  1,5  - HiStOID
   9  8,6  | Hm
   9  5,5  | HoE
+  9  7,1  | HoN
+  9  8,5  | HoSe
   9  3,5  - HolIST
   9  3,5  - HumID
   9  3,5  - HyOIdS
   9  8,5  | HyTe
   9  3,5  - HyoID
+  9  8,6  | OD
   9  5,5  | ODE
   9  8,3  | ODah
   9  3,5  - ODdISH
   9  8,3  | ODor
   9  8,5  | OH
   9  8,3  | OSmOl
+  9  8,3  | OTtOs
+  9  8,3  | OTtoS
   9  5,4  - OVen
   9  5,4  - OVer
   9  5,4  - OVum
@@ -1413,6 +1690,8 @@
   9  8,3  | OkeH
   9  3,5  - OlDISH
   9  8,3  | OpaH
+  9  8,5  | OrDo
+  9  8,3  | OtTOS
   9  1,5  - OuTcHID
   9  8,3  | OucH
   9  8,3  | OupH
@@ -1424,7 +1703,9 @@
   9  2,5  - SHOjI
   9  2,5  - SHOjIs
   9  4,2  - SOCas
+  9  7,1  | SON
   9  8,1  | SOOTH
+  9  8,2  | SOOThs
   9  7,8  - SORT
   9  8,2  - SOY
   9  4,4  | SOlEMn
@@ -1435,6 +1716,7 @@
   9  3,2  - SecCO
   9  3,4  - ShOVe
   9 11,7  | SiX
+  9  8,5  | SoDa
   9 11,7  | SoX
   9  3,4  - StOVe
   9  4,5  | THEM
@@ -1444,38 +1726,76 @@
   9  2,5  - THeSIs
   9  2,5  - THesIS
   9  8,2  | TODS
+  9  7,1  | TON
   9  7,8  - TORS
   9  8,2  - TOY
   9  2,5  - TOaDIsH
+  9  8,2  | TOnDOs
+  9  8,2  | TOnDoS
   9  4,4  | TOnEMe
+  9  8,2  | TOndOS
+  9  8,2  | TOrsOS
   9  4,4  | TOtEM
   9  4,4  | TOtEMs
   9  4,2  - TaCO
+  9  4,6  - TaE
+  9  4,6  - TaEl
   9  9,1  | TaR
   9 11,7  | TaX
   9  4,3  | TanDEMS
+  9  4,6  - TeE
+  9  4,6  - TeEd
+  9  4,6  - TeEl
+  9  4,6  - TeEm
+  9  4,6  - TeEn
+  9  4,6  - TeEs
   9  3,2  - TelCO
+  9  4,6  - ThE
+  9  4,6  - ThEe
+  9  4,6  - ThEm
+  9  4,6  - ThEn
+  9  4,6  - ThEw
+  9  4,6  - ThEy
+  9  4,6  - ToE
+  9  4,6  - ToEa
+  9  4,6  - ToEd
+  9  4,6  - ToEs
   9  9,1  | ToR
   9  4,4  | TotEMS
+  9  4,6  - TrEe
+  9  4,6  - TrEf
+  9  4,6  - TrEk
+  9  4,6  - TrEs
+  9  4,6  - TrEt
+  9  4,6  - TrEy
   9  3,4  - TrOVe
   9 11,7  | TuX
+  9  4,6  - TwEe
+  9  4,6  - TyE
+  9  4,6  - TyEe
+  9  4,6  - TyEr
+  9  4,6  - TyEs
   9  5,2  - aCeS
   9  1,7  | aGa
   9  1,7  | aGe
   9  1,7  | aGo
   9  1,7  | aGs
   9  8,5  | aHa
+  9  8,5  | aHs
   9 11,5  | aSH
   9  5,4  - aVO
   9  4,3  | anTHEM
   9  1,5  - anTHOID
   9  4,4  - arVO
+  9  8,5  | bOD
   9  8,2  | bOTHy
   9 11,7  | bOX
   9  4,5  | cHEMO
+  9  8,5  | cOD
   9  2,5  - cODfISH
   9 11,7  | cOX
   9  2,5  - cOlDISH
+  9  8,2  | cOnTOS
   9  3,2  - ciSCO
   9  2,5  - dHOTI
   9  2,5  - dHOTIs
@@ -1486,6 +1806,7 @@
   9  3,2  - diSCO
   9  8,5  | doH
   9  5,2  - eCuS
+  9  2,10 - eD
   9  1,7  | eGg
   9  1,7  | eGo
   9  4,3  | eSTeEM
@@ -1495,6 +1816,7 @@
   9 11,7  | fOX
   9  4,6  - feED
   9  8,5  | foH
+  9  8,5  | gOD
   9  4,6  - gOEr
   9  4,6  - gOEs
   9  8,1  | gOODS
@@ -1502,6 +1824,7 @@
   9  2,5  - gOoDISH
   9  4,6  - gaED
   9  4,6  - geED
+  9  8,5  | hOD
   9  4,6  - hOE
   9  4,6  - hOEd
   9  4,6  - hOEr
@@ -1515,25 +1838,34 @@
   9  1,7  | iGg
   9  2,5  - kHaDI
   9 11,7  | lOX
+  9  8,2  | lOtTOS
   9  2,5  - lOuDISH
   9  4,4  - leVO
   9  1,5  - liTHOID
+  9  8,5  | mOD
   9  4,4  | mODEMS
   9  8,1  | mOODS
   9  8,2  | mOTHy
+  9  8,2  | mOtTOS
   9  4,6  - meED
+  9  8,5  | nOD
   9  8,5  | noH
   9  5,2  - oCaS
+  9  2,10 - oD
   9  8,6  | oH
   9  8,5  | oHm
+  9  8,5  | oHs
   9  8,5  | ooH
   9  2,5  - pHOTIc
   9  8,5  | pHt
+  9  8,5  | pOD
   9  8,1  | pOODS
   9 11,7  | pOX
+  9  8,2  | pOtTOS
   9  3,2  - piSCO
   9  8,5  | poH
   9  2,5  - rHOTIc
+  9  8,5  | rOD
   9  4,6  - rOE
   9  4,6  - rOEs
   9  8,1  | rOODS
@@ -1551,11 +1883,19 @@
   9  8,5  | sHa
   9  8,5  | sHh
   9  8,5  | sHy
+  9  8,5  | sOD
   9 11,7  | sOX
   9  8,5  | shH
   9  5,5  | tHE
   9  8,5  | tHy
+  9  8,5  | tOD
+  9  4,6  - tOE
+  9  4,6  - tOEa
+  9  4,6  - tOEd
+  9  4,6  - tOEs
   9  2,5  - tOaDISH
+  9  4,6  - teED
+  9  4,6  - toED
   9  1,7  | uGh
   9 11,7  | vOX
   9  2,5  - wHOSIs
@@ -1564,6 +1904,8 @@
   9  8,5  | wHa
   9  8,5  | wHy
   9  8,1  | wOODS
+  9  8,5  | yOD
+  8  6,2  - CO
   8  4,6  | DEMO
   8  5,6  - DEavES
   8  5,6  - DEbyES
@@ -1580,6 +1922,7 @@
   8  1,5  - DHoOTIs
   8  1,5  - DHoOtIS
   8  1,5  - DHooTIS
+  8  7,5  | DO
   8  8,2  | DOOdy
   8  8,2  | DOOly
   8  8,2  | DOOmy
@@ -1591,6 +1934,7 @@
   8  8,2  | DOSer
   8  8,2  | DOTer
   8  8,2  | DOTty
+  8  8,5  | DOdo
   8  8,5  | DOjo
   8  8,5  | DOle
   8  8,5  | DOme
@@ -1598,6 +1942,7 @@
   8  8,5  | DOne
   8  8,5  | DOpa
   8  8,5  | DOpe
+  8  8,5  | DOse
   8  8,5  | DOte
   8  8,5  | DOze
   8  4,2  - DaCe
@@ -1607,6 +1952,8 @@
   8  2,5  - DiSTIcH
   8  2,5  - DiTHIOl
   8  1,5  - DipSHIT
+  8  7,1  | DoN
+  8  8,5  | DoSe
   8  8,5  | DoTe
   8  2,5  - DolTISH
   8  3,5  - DrOITS
@@ -1643,6 +1990,7 @@
   8  2,5  - HOTtIeS
   8  8,5  | HOb
   8  2,5  - HObbITS
+  8  8,5  | HOd
   8  2,5  - HOdDIn
   8  2,5  - HOgTIeS
   8  3,5  - HOkI
@@ -1654,6 +2002,7 @@
   8  8,5  | HOp
   8  2,5  - HOrnIST
   8  2,5  - HOrrID
+  8  8,5  | HOs
   8  8,5  | HOt
   8  2,5  - HOtTISh
   8  2,5  - HOtTIeS
@@ -1675,25 +2024,40 @@
   8  8,7  | Ho
   8  2,5  - HoODIeS
   8  8,1  | HoOTS
+  8  8,5  | HoS
   8  8,5  | HoT
   8  7,8  - HuRT
   8  3,5  - HyOId
   8  2,8  | LObO
   8  2,8  | LOcO
   8  2,8  | LOgO
+  8  7,3  | Nub
+  8  7,3  | Nun
+  8  7,3  | Nus
+  8  7,3  | Nut
   8  5,2  - OCas
   8  8,3  | ODS
   8  3,5  - ODdIsH
+  8  7,2  | ON
   8  8,8  - ORS
   8  8,8  - ORT
   8 11,5  | OS
   8  2,5  - OSTrIcH
   8 11,5  | OSe
+  8  8,6  | OSe
   8  8,3  | OTtO
   8  5,4  - OVa
   8  3,5  - OdDIsH
   8  3,5  - OlDIsH
+  8  8,3  | OleOS
+  8  8,3  | OliOS
+  8  8,3  | OrDOs
+  8  8,3  | OrDoS
   8  2,5  - OrcHIDS
+  8  8,3  | OrdOS
+  8  8,3  | OrzOS
+  8  8,3  | OttOS
+  8  8,3  | OuzOS
   8  5,2  - SCab
   8  5,2  - SCad
   8  5,2  - SCag
@@ -1741,10 +2105,12 @@
   8  2,5  - STOnIsH
   8  7,8  - SaRD
   8  4,4  | SatEM
+  8  4,4  - SeV
   8  8,1  | ShOD
   8  8,1  | SlOTH
   8  8,1  | SmOOTh
   8  8,1  | SnOOTy
+  8  8,5  | SoD
   8  8,1  | SoOTH
   8  7,8  - SoRD
   8  8,1  | SpODe
@@ -1763,10 +2129,12 @@
   8  8,2  | TOnDO
   8  3,5  - TOnISH
   8  2,5  - TOnnISH
+  8  8,2  | TOrSOs
   8  2,5  - TOwnISH
   8  3,5  - TOyISH
   8  4,4  - TaV
   8  4,3  | TanDEM
+  8  8,5  | ToD
   8  2,5  - ToaDISH
   8  4,4  | TotEM
   8  8,1  | TrOD
@@ -1780,6 +2148,10 @@
   8  6,4  - Vaw
   8  6,4  - Vee
   8  6,4  - Vex
+  8  6,4  - Vid
+  8  6,4  - Vie
+  8  6,4  - Vim
+  8  6,4  - Vis
   8  6,4  - Voe
   8  6,4  - Vow
   8  6,4  - Vox
@@ -1787,12 +2159,15 @@
   8  4,4  | aDeEMS
   8  8,5  | aH
   8  4,5  | aHEM
+  8  9,2  | aRe
   8 11,8  | aX
+  8 11,7  | aiX
   8  8,1  | apODS
   8  4,2  - arCO
   8  8,1  | bHOOT
   8  8,7  | bO
   8  8,2  | bODS
+  8  7,1  | bON
   8  8,1  | bOODy
   8  8,2  | bOODy
   8  8,1  | bOOTH
@@ -1805,6 +2180,7 @@
   8  2,5  - buSHIDO
   8  4,5  | cHEMo
   8  8,2  | cODS
+  8  7,1  | cON
   8  7,8  - cORS
   8  8,5  | cOTe
   8  4,4  - cOVe
@@ -1817,10 +2193,13 @@
   8  2,5  - dHOtI
   8  2,5  - dHoTI
   8  2,5  - dHuTI
+  8  8,7  | dO
   8  8,2  | dODO
+  8  7,1  | dON
   8  8,1  | dOODy
   8  8,2  | dOODy
   8  7,8  - dORS
+  8  8,5  | dOSe
   8  8,5  | dOTe
   8  4,4  - dOVe
   8  2,5  - dOlTISH
@@ -1828,8 +2207,10 @@
   8  4,2  - deCO
   8 11,7  | deX
   8  8,5  | eH
+  8  7,1  | eON
   8 11,8  | eX
   8 11,1  | eeK
+  8  7,1  | fON
   8  8,1  | fOOD
   8  8,1  | fOODs
   8  8,1  | fOOTSy
@@ -1853,6 +2234,7 @@
   8  2,5  - gOTHIcS
   8  2,5  - gOaTISH
   8  4,6  - gaES
+  8 11,1  | gaK
   8  4,6  - geES
   8  4,6  - goES
   8  2,5  - goODISH
@@ -1860,10 +2242,12 @@
   8 11,7  | goX
   8  8,7  | hO
   8  8,2  | hODS
+  8  7,1  | hON
   8  8,1  | hOOD
   8  8,1  | hOODs
   8  8,1  | hOODy
   8  8,2  | hOODy
+  8  8,5  | hOSe
   8  2,5  - hOTtISH
   8  4,4  - hOVe
   8  2,5  - hOtTISH
@@ -1872,14 +2256,17 @@
   8 11,7  | heX
   8  4,6  - hoES
   8  8,1  | hoODS
+  8  7,1  | iON
   8  8,5  | iOTa
   8  8,7  | jO
+  8  8,5  | jOSe
   8  8,5  | jOTa
   8  4,2  - juCO
   8  7,8  - kORS
   8  8,5  | kOTo
   8 11,7  | keX
   8  8,7  | lO
+  8  8,5  | lOSe
   8  8,5  | lOTa
   8  8,2  | lOTtO
   8  4,4  - lOVe
@@ -1896,6 +2283,7 @@
   8  4,4  | mODEMs
   8  3,5  - mODISH
   8  8,2  | mODS
+  8  7,1  | mON
   8  8,1  | mOOD
   8  8,1  | mOODs
   8  8,1  | mOODy
@@ -1914,12 +2302,17 @@
   8  8,1  | moODS
   8  8,7  | nO
   8  8,2  | nODS
+  8  8,5  | nOSe
   8  8,5  | nOTa
   8  8,5  | nOTe
   8  4,4  - nOVa
+  8 11,1  | neK
   8 11,7  | niX
+  8  8,6  | oDa
+  8  8,6  | oDe
   8  8,5  | oH
   8  9,2  | oRa
+  8  9,2  | oRe
   8 11,8  | oX
   8 11,1  | oaK
   8  8,1  | pHOTO
@@ -1930,6 +2323,7 @@
   8  8,1  | pOOD
   8  8,1  | pOODs
   8  7,8  - pORT
+  8  8,5  | pOSe
   8  8,2  | pOTtO
   8 11,7  | paX
   8 11,7  | piX
@@ -1945,6 +2339,7 @@
   8  8,2  | rODS
   8  8,1  | rOOD
   8  8,1  | rOODs
+  8  8,5  | rOSe
   8  8,5  | rOTa
   8  8,5  | rOTe
   8  8,5  | rOTo
@@ -1963,7 +2358,9 @@
   8  8,1  | sHOTS
   8  2,5  - sHOgI
   8  2,5  - sHOjI
+  8  8,7  | sO
   8  8,2  | sODS
+  8  7,1  | sON
   8  8,1  | sOOTH
   8  7,8  - sORT
   8  2,5  - sOTtISH
@@ -1979,6 +2376,7 @@
   8  4,5  | tHEMe
   8  8,7  | tO
   8  8,2  | tODS
+  8  7,1  | tON
   8  8,1  | tOOTH
   8  8,1  | tOOTSy
   8  7,8  - tORS
@@ -1987,13 +2385,19 @@
   8  8,5  | tOTe
   8  4,2  - taCO
   8 11,7  | taX
+  8  4,6  - teES
+  8  4,6  - toES
+  8  4,6  - trES
+  8  4,6  - trET
   8 11,7  | tuX
+  8  4,6  - tyES
   8  8,5  | uH
   8  4,2  - unCO
   8  8,5  | vOTe
   8 11,7  | veX
   8 11,7  | voX
   8  8,1  | wHOSO
+  8  7,1  | wON
   8  8,1  | wOOD
   8  8,1  | wOODs
   8  8,1  | wOODy
@@ -2006,6 +2410,7 @@
   8  8,1  | woODS
   8  8,7  | yO
   8  8,2  | yODS
+  8  7,1  | yON
   8 11,1  | yaK
   8 11,1  | yoK
   8 11,7  | zaX
@@ -2018,6 +2423,7 @@
   7  6,2  - Cat
   7  6,2  - Caw
   7  6,2  - Cay
+  7  6,2  - Cee
   7  6,2  - Cel
   7  6,2  - Cep
   7  6,2  - Cig
@@ -2027,6 +2433,7 @@
   7  6,2  - Cog
   7  6,2  - Col
   7  6,2  - Con
+  7  6,2  - Coo
   7  6,2  - Cop
   7  6,2  - Cos
   7  6,2  - Cot
@@ -2034,12 +2441,14 @@
   7  6,2  - Coy
   7  6,2  - Cub
   7  6,2  - Cud
+  7  6,2  - Cue
   7  6,2  - Cum
   7  6,2  - Cup
   7  6,2  - Cut
   7  4,6  | DEMe
   7  4,6  | DEMo
   7  4,6  | DEMy
+  7  8,1  | DHOlS
   7  8,1  | DHOwS
   7  1,5  - DHoOtI
   7  1,5  - DHooTI
@@ -2060,6 +2469,7 @@
   7  8,5  | DOm
   7  8,5  | DOn
   7  3,5  - DOrIeS
+  7  8,5  | DOs
   7  8,5  | DOt
   7  3,5  - DOvISh
   7  3,5  - DOxIeS
@@ -2069,6 +2479,7 @@
   7  3,5  - DanIOS
   7  2,5  - DasHIS
   7  3,5  - DavITS
+  7  5,5  | DeE
   7  4,5  | DeEM
   7  4,5  | DeEMs
   7  3,5  - DeSIsT
@@ -2081,7 +2492,9 @@
   7  3,2  - DiSC
   7  3,5  - DigITS
   7  3,5  - DixITS
+  7  5,5  | DoE
   7  7,8  - DoRS
+  7  8,5  | DoS
   7  8,5  | DoT
   7  3,5  - DrOIT
   7  3,5  - DrOITs
@@ -2089,6 +2502,7 @@
   7  3,5  - DrOItS
   7  3,5  - DroITS
   7  3,5  - DuTIeS
+  7  5,5  | DyE
   7  8,5  | HO
   7  1,6  | HOG
   7  4,5  - HOIST
@@ -2125,6 +2539,7 @@
   7  8,1  | HoOTy
   7  3,5  - HokI
   7  3,2  - HuiC
+  7  7,3  | Nu
   7  5,2  - OCa
   7  8,3  | OD
   7  8,3  | ODa
@@ -2134,25 +2549,42 @@
   7  8,3  | ODs
   7  1,4  | OHinG
   7  8,3  | OOH
+  7  8,6  | OS
   7  1,5  - OSTeoID
+  7  8,3  | OaThS
   7  3,5  - OafISH
+  7  2,10 - Od
+  7  8,3  | OdOrS
   7  3,5  - OddISH
+  7  2,10 - Oe
+  7 11,5  | OeS
+  7  2,10 - Of
   7  3,5  - OffISH
   7  3,5  - OgrISH
+  7  2,10 - Oh
   7  3,5  - OldISH
+  7  2,10 - Om
+  7  2,10 - On
   7  4,2  - OnCe
+  7  2,10 - Oo
   7  3,5  - OoTIDS
   7  3,5  - OolITH
+  7  2,10 - Op
   7  3,5  - OpHITe
+  7  2,10 - Or
   7  4,2  - OrCa
   7  8,3  | OrDO
   7  2,5  - OrcHID
+  7  8,3  | OtTOs
+  7  8,3  | OtToS
   7  2,5  - OuTHItS
   7  1,5  - OuTSaID
   7  2,5  - OuTfISH
   7  2,5  - OuTwISH
   7  2,5  - OutHITS
+  7  2,10 - Ow
   7  3,5  - OwlISH
+  7  2,10 - Oy
   7 11,6  | SH
   7  4,5  - SHIeD
   7  8,1  | SHOeD
@@ -2172,6 +2604,7 @@
   7  7,8  - SORd
   7  7,8  - SORt
   7  8,5  | SOba
+  7  8,5  | SOda
   7  8,5  | SOfa
   7  8,5  | SOke
   7  8,5  | SOla
@@ -2189,6 +2622,7 @@
   7  2,5  - STOrIeD
   7  2,5  - STuDIO
   7  2,5  - STuDIOs
+  7  2,10 - Sa
   7  8,2  - SaY
   7  1,5  - SanDHI
   7  3,5  - ScHIsT
@@ -2198,6 +2632,7 @@
   7  8,1  | SnOOD
   7  2,10 - So
   7  4,2  - SoCa
+  7  7,1  | SoN
   7  8,2  - SoY
   7  8,1  | StOOD
   7  4,2  - SyCe
@@ -2252,9 +2687,11 @@
   7  2,10 - Te
   7  4,5  | TeEMS
   7  2,10 - To
+  7  7,1  | ToN
   7  8,2  - ToY
   7  3,5  - TonISH
   7  3,5  - ToyISH
+  7  6,4  - Vu
   7  2,5  - aDOnIS
   7  4,4  | aDeEM
   7  2,5  - aDrOIT
@@ -2274,12 +2711,14 @@
   7  8,2  | bODy
   7  8,2  | bOOTh
   7  8,2  | bOOTy
+  7  8,5  | bOS
   7  8,2  | bOSH
   7  8,5  | bOT
   7  8,2  | bOTH
   7  8,2  - bOY
   7  7,8  - baRD
   7  7,8  - biRD
+  7  8,5  | boD
   7  8,1  | boOTH
   7  8,1  | brOTH
   7  7,8  - buRD
@@ -2294,14 +2733,17 @@
   7  8,2  | cODe
   7  8,2  | cODs
   7  1,4  | cOHoG
+  7  8,5  | cOS
   7  8,2  | cOSH
   7  8,5  | cOT
+  7  8,2  - cOY
   7  2,5  - cOeDITS
   7  8,2  | cOnDO
   7  7,8  - caRD
   7  1,5  - ceSTOID
   7  8,1  | clOD
   7  8,1  | clOTH
+  7  8,5  | coD
   7  1,4  | coHOG
   7  7,8  - coRD
   7  7,8  - cuRD
@@ -2311,6 +2753,7 @@
   7  1,5  - dHOoTI
   7  1,5  - dHoOTIS
   7  8,2  | dODo
+  7  8,5  | dOS
   7  8,5  | dOT
   7  8,2  | dOTH
   7  3,5  - duDISH
@@ -2342,10 +2785,12 @@
   7  4,6  - gaE
   7  4,6  - geE
   7  7,8  - giRD
+  7  8,5  | goD
   7  8,1  | goOD
   7  8,2  | hOD
   7  8,2  | hODs
   7  8,2  | hOOTy
+  7  8,5  | hOS
   7  8,5  | hOT
   7  8,2  - hOY
   7  3,5  - haDITH
@@ -2353,6 +2798,7 @@
   7  7,8  - haRD
   7  7,8  - heRD
   7  1,5  - hiSTOID
+  7  8,5  | hoD
   7  4,6  - hoE
   7  8,1  | hoOD
   7  4,5  | iDEM
@@ -2362,6 +2808,7 @@
   7  8,5  | jOT
   7  8,2  - jOY
   7  3,5  - jaDISH
+  7  8,5  | kOS
   7  4,2  - lOCa
   7  4,2  - lOCi
   7  4,2  - lOCo
@@ -2378,6 +2825,7 @@
   7  8,2  | mODe
   7  8,2  | mODi
   7  8,2  | mODs
+  7  8,5  | mOS
   7  8,2  | mOSH
   7  8,5  | mOT
   7  8,2  | mOTH
@@ -2386,6 +2834,7 @@
   7  8,2  | mOnDO
   7  4,6  - maE
   7  1,5  - maSTOID
+  7  8,5  | moD
   7  4,4  | moDEM
   7  3,5  - moDISH
   7  8,1  | moOD
@@ -2394,13 +2843,17 @@
   7  8,2  | nODe
   7  8,2  | nODi
   7  8,2  | nODs
+  7  8,5  | nOS
   7  8,2  | nOSH
   7  8,5  | nOT
   7  7,8  - naRD
   7  7,8  - neRD
+  7  8,5  | noD
   7  7,8  - nuRD
+  7  8,6  | oD
   7  5,5  | oDE
   7  3,5  - oDdISH
+  7  8,5  | oOS
   7  8,5  | oOT
   7  1,5  - oSTeOID
   7  5,4  - oVa
@@ -2414,11 +2867,13 @@
   7  8,2  | pODs
   7  4,5  | pOEMS
   7  8,2  | pOOH
+  7  8,5  | pOS
   7  8,2  | pOSH
   7  8,5  | pOT
   7  8,2  | pOTSy
   7  7,8  - paRD
   7  8,1  | plOD
+  7  8,5  | poD
   7  8,1  | poOD
   7  8,1  | prOD
   7  4,4  | prOEMS
@@ -2444,6 +2899,7 @@
   7  3,5  - raDISH
   7  4,6  - reE
   7  4,4  | reTEMS
+  7  8,5  | roD
   7  4,6  - roE
   7  8,1  | roOD
   7  4,6  - ryE
@@ -2464,6 +2920,7 @@
   7  8,2  | sODs
   7  8,2  | sOOTh
   7  8,2  | sOOTy
+  7  8,5  | sOS
   7  8,5  | sOT
   7  8,2  | sOTH
   7  8,2  - sOY
@@ -2476,6 +2933,7 @@
   7  8,1  | skOSH
   7  8,1  | slOSH
   7  8,1  | slOTH
+  7  8,5  | soD
   7  8,1  | soOTH
   7  7,8  - soRD
   7  7,8  - suRD
@@ -2493,18 +2951,26 @@
   7  8,2  - tOY
   7  8,2  | tOnDO
   7  4,4  | tOtEMS
+  7  4,6  - taE
+  7  4,6  - teE
+  7  4,6  - thE
+  7  8,5  | toD
+  7  4,6  - toE
   7  8,1  | toOTH
   7  4,4  | toTEMS
   7  8,1  | trOD
   7  8,1  | trOTH
   7  7,8  - tuRD
+  7  4,6  - tyE
   7  8,8  - uRD
+  7  8,5  | urD
   7  4,5  - wHIDS
   7  8,1  | wHOOf
   7  8,1  | wHOOp
   7  8,1  | wHOSe
   7  8,1  | wHOSo
   7  8,2  | wOOSh
+  7  8,5  | wOS
   7  8,5  | wOT
   7  7,8  - waRD
   7  3,5  - wiDISH
@@ -2517,7 +2983,9 @@
   7  8,2  | yODs
   7  7,8  - yaRD
   7  7,8  - yiRD
+  7  8,5  | yoD
   7  8,2  | zOOTy
+  6  6,2  - Co
   6  5,6  - DE
   6  5,6  | DE
   6  5,6  - DEb
@@ -2531,6 +2999,7 @@
   6  5,6  - DEy
   6  8,1  | DHObi
   6  8,1  | DHOle
+  6  8,1  | DHOls
   6  8,1  | DHOti
   6  8,1  | DHOw
   6  8,1  | DHOws
@@ -2568,12 +3037,14 @@
   6  8,2  | DOtTy
   6  3,5  - DOwIe
   6  3,5  - DOxIe
+  6  8,7  | Da
   6  2,5  - DacOITS
   6  2,5  - DakOITS
   6  3,5  - DanIO
   6  2,5  - DasHI
   6  3,5  - DavIT
   6  7,5  | De
+  6  8,7  | De
   6  3,5  - DebIT
   6  3,5  - DefIS
   6  1,4  | DefOG
@@ -2587,6 +3058,8 @@
   6  3,5  - DigIT
   6  3,2  - DisC
   6  3,5  - DixIT
+  6  7,5  | Do
+  6  8,7  | Do
   6  4,2  - DoC
   6  3,5  - DrOId
   6  3,5  - DrOIt
@@ -2595,6 +3068,7 @@
   6  8,1  | DrOSs
   6  3,5  - DroIT
   6  8,1  | DuOS
+  6  8,1  | DzOS
   6  4,7  | EMO
   6  4,7  | EMS
   6  6,6  - EcHES
@@ -2639,10 +3113,12 @@
   6  4,5  - HoIST
   6  7,8  - HoRa
   6  8,5  | Hob
+  6  8,5  | Hod
   6  1,5  | HogG
   6  8,5  | Hon
   6  1,5  | HonG
   6  8,5  | Hop
+  6  8,5  | Hos
   6  8,5  | Hot
   6  8,5  | Hoy
   6  1,6  | HuG
@@ -2682,6 +3158,11 @@
   6  8,6  | Obe
   6  3,5  - OdDISh
   6  3,5  - OdDITy
+  6  8,6  | Oda
+  6  8,6  | Ode
+  6 11,5  | Oe
+  6 11,5  | Oes
+  6  8,5  | OhS
   6  8,6  | Oho
   6  8,6  | Oka
   6  8,6  | Oke
@@ -2692,16 +3173,20 @@
   6  8,3  | OnTO
   6  8,6  | One
   6  8,6  | Ono
+  6  8,5  | OoS
   6  8,5  | OoT
   6  3,5  - OoTID
   6  3,5  - OoTIDs
   6  3,5  - OotIDS
+  6  8,5  | OpS
   6  8,5  | OpT
   6  8,6  | Ope
+  6  8,5  | OrS
   6  8,5  | OrT
   6  2,5  - OrcHIS
   6 11,5  | Os
   6 11,5  | Ose
+  6  8,6  | Ose
   6  8,3  | OtTO
   6  7,8  - OuRS
   6  2,5  - OuTHIt
@@ -2726,7 +3211,9 @@
   6  3,5  - SHrI
   6  3,5  - SHrIs
   6  3,5  - SHtIk
+  6  3,5  - SHuI
   6  5,5  - SITH
+  6  7,5  | SO
   6  3,5  - SODIc
   6  3,5  - SODIum
   6  8,1  | SOOT
@@ -2737,6 +3224,7 @@
   6  8,1  | SOOtH
   6  8,5  | SOb
   6  8,2  | SOckO
+  6  8,5  | SOd
   6  8,2  | SOdDy
   6  8,5  | SOl
   6  2,5  - SOlDI
@@ -2751,6 +3239,7 @@
   6  2,5  - SOrDId
   6  2,5  - SOrdID
   6  8,2  | SOrgO
+  6  8,5  | SOs
   6  8,5  | SOt
   6  8,5  | SOy
   6  4,5  - STIcH
@@ -2787,6 +3276,7 @@
   6  4,5  | StEMs
   6  4,5  - SwITH
   6  5,6  - TED
+  6  4,6  | TEM
   6  4,6  | TEMp
   6  5,6  - TEasES
   6  5,6  - TEnsES
@@ -2806,10 +3296,12 @@
   6  1,5  - THolOI
   6  3,5  - THrIp
   6  1,5  - THyrSI
+  6  7,5  | TO
   6  3,5  - TODIes
   6  8,1  | TOOtH
   6  8,1  | TOOtSy
   6  8,2  | TOaDy
+  6  8,5  | TOd
   6  8,2  | TOdDy
   6  2,5  - TOluID
   6  8,5  | TOm
@@ -2859,6 +3351,7 @@
   6  3,5  - bOyISH
   6  9,1  | baR
   6  8,1  | blOOD
+  6  7,1  | boN
   6  8,1  | brOOD
   6  4,5  - cHID
   6  4,5  - cHIDe
@@ -2867,6 +3360,7 @@
   6  3,5  - cHOIrS
   6  8,1  | cHOrD
   6  1,5  | cHuG
+  6  2,10 - cO
   6  8,1  | cOOTS
   6  7,8  - cORd
   6  7,8  - cORk
@@ -2878,6 +3372,7 @@
   6  3,5  - cOyISH
   6  9,1  | caR
   6  4,5  | chEMO
+  6  7,1  | coN
   6  9,1  | coR
   6  4,6  | dEMO
   6  5,6  - dEnSEST
@@ -2890,12 +3385,16 @@
   6  3,5  - dOvISH
   6  4,5  | deEMS
   6  8,4  - deW
+  6  7,1  | doN
   6  9,1  | doR
   6  5,2  - eCu
+  6  2,10 - eO
   6  3,5  - eOlITH
+  6  2,10 - eT
   6  3,5  - eTHIOn
   6  3,5  - eTHIcS
   6  9,1  | eaR
+  6  7,1  | eoN
   6  4,6  | fEMS
   6  8,2  | fOOD
   6  8,1  | fOOTS
@@ -2910,6 +3409,7 @@
   6  3,5  - feTISH
   6  8,4  - feW
   6  8,1  | flOOD
+  6  7,1  | foN
   6  9,1  | foR
   6  4,6  | gEMS
   6  2,10 - gO
@@ -2929,11 +3429,13 @@
   6  7,8  - hORa
   6  4,5  | haEMS
   6  8,4  - heW
+  6  7,1  | hoN
   6  5,2  - iCe
   6 11,5  | iS
   6 11,5  | iSm
   6  4,5  | iTEM
   6  4,5  | iTEMs
+  6  7,1  | ioN
   6  4,5  | itEMS
   6  2,10 - jO
   6  9,1  | jaR
@@ -2971,6 +3473,7 @@
   6  9,1  | maR
   6  8,4  - meW
   6  2,5  - miSHIT
+  6  7,1  | moN
   6  9,1  | moR
   6  5,6  - nETlESS
   6  2,10 - nO
@@ -2980,10 +3483,13 @@
   6  9,1  | noR
   6  5,2  - oCa
   6  3,2  - oDiC
+  6  7,2  | oN
+  6  2,10 - oO
   6  3,5  - oOTIDS
   6  3,5  - oOlITH
   6 11,5  | oS
   6 11,5  | oSe
+  6  8,6  | oSe
   6  9,1  | oaR
   6  2,10 - pO
   6  4,5  | pOEM
@@ -3030,6 +3536,7 @@
   6  4,5  | seEMS
   6  8,4  - seW
   6  8,1  | snOOD
+  6  7,1  | soN
   6  4,5  | stEMS
   6  8,1  | stOOD
   6  5,6  - tESTES
@@ -3051,6 +3558,7 @@
   6  3,5  - tOyISH
   6  9,1  | taR
   6  4,5  | teEMS
+  6  7,1  | toN
   6  9,1  | toR
   6  4,4  | toTEM
   6  8,1  | uDOS
@@ -3069,10 +3577,12 @@
   6  7,8  - wORm
   6  7,8  - wORt
   6  9,1  | waR
+  6  7,1  | woN
   6  2,10 - yO
   6  9,1  | yaR
   6  8,4  - yeW
   6  4,5  | ylEMS
+  6  7,1  | yoN
   5  5,5  - DITS
   5  4,5  - DOIT
   5  4,5  - DOITs
@@ -3116,6 +3626,7 @@
   5  8,5  | Dom
   5  8,5  | Don
   5  1,5  | DonG
+  5  8,5  | Dos
   5  8,5  | Dot
   5  1,5  | DraG
   5  1,5  | DreG
@@ -3149,6 +3660,7 @@
   5  5,5  - HIsS
   5  5,5  - HIsT
   5  5,5  - HItS
+  5  4,5  - HOI
   5  4,5  - HOIck
   5  4,5  - HOIse
   5  4,5  - HOIst
@@ -3209,6 +3721,8 @@
   5  4,5  - OHIas
   5  4,5  - OHIng
   5  8,1  | OHO
+  5  8,2  | OOS
+  5  8,3  | OOS
   5  8,2  | OOT
   5  8,3  | OOT
   5  8,2  | OOTs
@@ -3217,6 +3731,7 @@
   5  2,5  - OTitIS
   5  5,5  | ObE
   5  3,5  - OboIST
+  5  8,6  | Od
   5  5,5  | OdE
   5  3,2  - OdiC
   5  8,6  | Of
@@ -3242,6 +3757,7 @@
   5  3,5  - OrbITS
   5  8,3  | OrdO
   5  8,3  | OrzO
+  5  8,6  | Os
   5  3,2  - OtiC
   5  8,3  | OttO
   5  2,5  - OuTDId
@@ -3252,6 +3768,7 @@
   5  5,5  | OwE
   5  4,5  - OxIDS
   5  8,6  | Oy
+  5  9,3  | Re
   5  4,5  - SHIed
   5  4,5  - SHIel
   5  4,5  - SHIer
@@ -3491,6 +4008,7 @@
   5  3,5  - TOrIcS
   5  3,5  - TOrIeS
   5  2,5  - TOrSI
+  5  8,2  | TOrSk
   5  8,2  | TOrSo
   5  8,2  | TOsH
   5  3,5  - TOwIeS
@@ -3534,19 +4052,23 @@
   5  8,8  - aRS
   5  8,8  - aRT
   5  5,5  | aTE
+  5  8,5  | abS
   5  8,1  | afOOT
   5  4,5  | ahEM
+  5  8,5  | ahS
   5  7,8  - aiRS
   5  7,8  - aiRT
   5  3,5  - apHIS
   5  4,5  - apISH
   5  8,5  | apT
   5  3,5  - arOIDS
+  5  8,5  | arS
   5  8,5  | arT
   5 11,5  | asS
   5  3,5  - auDIOS
   5  3,5  - auDITS
   5  3,5  - avOIDS
+  5  8,5  | ayS
   5  4,6  | bEMa
   5  8,1  | bHOoT
   5  3,5  - bODIeS
@@ -3562,7 +4084,10 @@
   5  8,2  | bOTS
   5  8,5  | bOa
   5  8,5  | bOb
+  5  8,5  | bOd
+  5  8,5  | bOn
   5  8,5  | bOp
+  5  8,5  | bOs
   5  8,5  | bOt
   5  3,5  - bOvIDS
   5  8,5  | bOy
@@ -3577,11 +4102,13 @@
   5  8,1  | boOST
   5  8,1  | boOTS
   5  7,8  - boRT
+  5  8,5  | boS
   5  8,5  | boT
   5  8,2  - boY
   5  4,5  - brITH
   5  8,1  | brOOS
   5  7,8  - buRS
+  5  8,5  | byS
   5  4,5  - cHIS
   5  4,5  - cHIT
   5  4,5  - cHITs
@@ -3611,20 +4138,25 @@
   5  8,2  | cOTS
   5  2,5  - cOaTIS
   5  8,5  | cOb
+  5  8,5  | cOd
   5  8,5  | cOl
   5  8,5  | cOn
   5  8,5  | cOp
+  5  8,5  | cOs
   5  8,5  | cOt
   5  8,5  | cOy
   5  8,5  | cOz
   5  7,8  - caRS
   5  7,8  - caRT
+  5  8,2  - caY
   5  1,5  - ceSTOI
   5  8,1  | clOOT
   5  8,1  | clOTS
   5  8,1  | coOTS
   5  7,8  - coRS
+  5  8,5  | coS
   5  8,5  | coT
+  5  8,2  - coY
   5  3,2  - crOC
   5  4,5  - cuISH
   5  7,8  - cuRS
@@ -3632,15 +4164,18 @@
   5  4,6  | dEMe
   5  4,6  | dEMo
   5  4,6  | dEMy
+  5  8,1  | dHOlS
   5  8,1  | dHOwS
   5  5,5  - dISH
   5  4,2  - dOC
+  5  5,5  | dOE
   5  8,2  | dOST
   5  8,2  | dOTS
   5  8,5  | dOh
   5  8,5  | dOl
   5  8,5  | dOm
   5  8,5  | dOn
+  5  8,5  | dOs
   5  8,5  | dOt
   5  7,8  - daRT
   5  2,5  - daSHI
@@ -3651,15 +4186,19 @@
   5  7,8  - diRT
   5  3,2  - diSC
   5  7,8  - doRS
+  5  8,5  | doS
   5  8,5  | doT
   5  3,5  - drOIDS
   5  4,5  - eDITS
+  5 11,6  | eH
   5  8,5  | eOn
   5  8,8  - eRS
   5  3,5  - eTHIc
   5  3,2  - eTiC
+  5  9,4  - eW
   5  7,8  - eaRS
   5  7,8  - erRS
+  5  8,5  | erS
   5  5,6  - fEH
   5  4,6  | fEM
   5  4,6  | fEMe
@@ -3699,6 +4238,7 @@
   5  8,1  | gOOSy
   5  8,5  | gOa
   5  8,5  | gOb
+  5  8,5  | gOd
   5  8,5  | gOt
   5  8,5  | gOy
   5  7,8  - gaRS
@@ -3728,8 +4268,10 @@
   5  8,2  | hOST
   5  8,2  | hOTS
   5  8,5  | hOb
+  5  8,5  | hOd
   5  8,5  | hOn
   5  8,5  | hOp
+  5  8,5  | hOs
   5  8,5  | hOt
   5  8,5  | hOy
   5  4,5  | haEM
@@ -3738,6 +4280,7 @@
   5  7,8  - heRS
   5  8,2  - heY
   5  8,1  | hoOTS
+  5  8,5  | hoS
   5  8,5  | hoT
   5  8,2  - hoY
   5  7,8  - huRT
@@ -3768,11 +4311,13 @@
   5  8,5  | kOa
   5  8,5  | kOb
   5  8,5  | kOp
+  5  8,5  | kOs
   5  7,8  - kaRT
   5  7,8  - kiRS
   5  4,5  - knISH
   5  8,1  | knOTS
   5  7,8  - koRS
+  5  8,5  | koS
   5  4,5  - lOIDS
   5  8,1  | lOOS
   5  8,2  | lOOS
@@ -3795,6 +4340,7 @@
   5  8,1  | loOTS
   5  8,5  | loT
   5  4,4  - luV
+  5  5,6  - mEH
   5  4,6  | mEM
   5  4,6  | mEMe
   5  4,6  | mEMo
@@ -3819,10 +4365,12 @@
   5  8,2  | mOTS
   5  8,5  | mOa
   5  8,5  | mOb
+  5  8,5  | mOd
   5  8,5  | mOl
   5  8,5  | mOm
   5  8,5  | mOn
   5  8,5  | mOp
+  5  8,5  | mOs
   5  8,5  | mOt
   5  7,8  - maRS
   5  7,8  - maRT
@@ -3831,17 +4379,21 @@
   5  8,1  | moOTS
   5  7,8  - moRS
   5  7,8  - moRT
+  5  8,5  | moS
   5  8,5  | moT
   5  4,6  | nEMa
   5  5,6  - nESsES
   5  5,6  - nEsSES
   5  8,1  | nOOSe
   5  8,5  | nOb
+  5  8,5  | nOd
   5  8,5  | nOh
   5  8,5  | nOm
+  5  8,5  | nOs
   5  8,5  | nOt
   5  8,2  - naY
   5  4,5  | neEM
+  5  8,5  | noS
   5  8,5  | noT
   5  3,5  - nuDIST
   5  4,5  - oDIST
@@ -3850,15 +4402,22 @@
   5  3,5  - oOTIDs
   5  8,2  | oOTS
   5  8,5  | oOh
+  5  8,5  | oOs
   5  8,5  | oOt
   5  3,5  - oOtIDS
   5  8,8  - oRS
   5  8,8  - oRT
+  5  8,6  | oS
   5  3,2  - oTiC
   5  7,8  - oaRS
+  5 11,5  | oeS
+  5  8,5  | ohS
+  5  8,5  | ooS
   5  8,5  | ooT
   5  3,5  - ooTIDS
+  5  8,5  | opS
   5  8,5  | opT
+  5  8,5  | orS
   5  8,5  | orT
   5  7,8  - ouRS
   5  3,5  - ovOIDS
@@ -3884,10 +4443,12 @@
   5  2,5  - pOSTIn
   5  8,2  | pOTS
   5  2,5  - pOTSIe
+  5  8,5  | pOd
   5  8,5  | pOh
   5  8,5  | pOl
   5  8,5  | pOm
   5  8,5  | pOp
+  5  8,5  | pOs
   5  8,5  | pOt
   5  2,5  - pTOSIs
   5  2,5  - pTOsIS
@@ -3901,6 +4462,7 @@
   5  8,1  | plOTS
   5  4,5  | poEM
   5  7,8  - poRT
+  5  8,5  | poS
   5  8,5  | poT
   5  8,1  | prOSO
   5  8,1  | prOST
@@ -3925,6 +4487,7 @@
   5  8,2  | rOTO
   5  8,2  | rOTS
   5  8,5  | rOb
+  5  8,5  | rOd
   5  8,5  | rOm
   5  8,5  | rOt
   5  3,5  - raDIOS
@@ -3973,12 +4536,14 @@
   5  8,1  | sOOtH
   5  8,2  | sOTS
   5  8,5  | sOb
+  5  8,5  | sOd
   5  8,5  | sOl
   5  2,5  - sOlDI
   5  3,5  - sOlIDS
   5  8,5  | sOm
   5  8,5  | sOn
   5  8,5  | sOp
+  5  8,5  | sOs
   5  8,5  | sOt
   5  8,5  | sOy
   5  4,5  - sTIcH
@@ -3994,6 +4559,7 @@
   5  8,1  | scOTS
   5  4,5  | seEM
   5  7,8  - seRS
+  5  4,4  - seV
   5  8,1  | shOOS
   5  8,1  | shOOT
   5  8,1  | shOTS
@@ -4005,6 +4571,7 @@
   5  8,1  | snOTS
   5  8,1  | soOTS
   5  7,8  - soRT
+  5  8,5  | soS
   5  8,5  | soT
   5  8,2  - soY
   5  8,1  | spOTS
@@ -4014,6 +4581,7 @@
   5  4,5  - swISH
   5  4,5  - swITH
   5  8,1  | swOTS
+  5  4,6  | tEM
   5  4,6  | tEMp
   5  5,6  - tEStES
   5  5,6  - tEaSES
@@ -4034,6 +4602,7 @@
   5  8,1  | tOOtH
   5  8,2  | tOST
   5  8,2  | tOTS
+  5  8,5  | tOd
   5  8,5  | tOm
   5  8,5  | tOn
   5  2,5  - tOnDI
@@ -4054,6 +4623,7 @@
   5  8,5  | toT
   5  8,2  - toY
   5  8,1  | trOTS
+  5  8,5  | upS
   5  4,5  - vOIDS
   5  7,8  - vaRS
   5  4,4  - vaV
@@ -4087,6 +4657,7 @@
   5  8,2  | wOTS
   5  8,5  | wOk
   5  8,5  | wOn
+  5  8,5  | wOs
   5  8,5  | wOt
   5  7,8  - waRS
   5  7,8  - waRT
@@ -4095,6 +4666,7 @@
   5  4,5  - whISH
   5  8,1  | whOSO
   5  7,8  - woRT
+  5  8,5  | woS
   5  8,5  | woT
   5  1,5  - xySTOI
   5  5,6  - yEH
@@ -4102,6 +4674,7 @@
   5  5,6  - yEnTES
   5  5,6  - yEsSES
   5  8,5  | yOb
+  5  8,5  | yOd
   5  8,5  | yOk
   5  8,5  | yOm
   5  8,5  | yOn
@@ -4179,6 +4752,7 @@
   4  4,5  - DeIlS
   4  4,5  - DeIsT
   4  2,5  - DhObI
+  4  8,1  | DhOlS
   4  2,5  - DhOtI
   4  8,1  | DhOwS
   4  2,5  - DhoTI
@@ -4264,6 +4838,7 @@
   4  8,2  | HOg
   4  8,2  | HOgg
   4  8,2  | HOgs
+  4  8,2  | HOi
   4  8,2  | HOke
   4  8,2  | HOki
   4  8,2  | HOld
@@ -4315,6 +4890,7 @@
   4  4,5  - HeIl
   4  4,5  - HeIr
   4  7,8  - HeR
+  4  4,5  - HoI
   4  8,1  | HoOd
   4  8,1  | HoOf
   4  8,1  | HoOk
@@ -4332,7 +4908,10 @@
   4  5,6  - OE
   4  5,6  | OE
   4  5,6  - OEs
+  4  8,3  | OO
+  4  2,10 | OO
   4  8,3  | OOh
+  4  8,3  | OOs
   4  8,3  | OOt
   4  8,8  - OR
   4  8,3  | OS
@@ -4349,23 +4928,29 @@
   4  4,5  - OdIST
   4  8,3  | OdOr
   4  8,5  | Ohm
+  4  8,5  | Ohs
   4  7,8  - OkRa
+  4  8,5  | Oka
   4  4,5  - OmITS
   4  3,5  - OnTIc
   4  8,3  | OnTo
   4  8,3  | OoH
   4  3,5  - OoTId
   4  8,5  | Ooh
+  4  8,5  | Oos
   4  8,5  | Oot
   4  3,5  - OpSIn
   4  3,5  - OpTIc
+  4  8,5  | Ops
   4  8,5  | Opt
   4  7,8  - OrRa
   4  8,5  | Ora
   4  8,5  | Orb
   4  3,5  - OrbIT
+  4  8,5  | Orf
   4  3,5  - OrnIS
   4  3,5  - OrrIS
+  4  8,5  | Ors
   4  8,5  | Ort
   4  3,5  - OsSIa
   4  3,5  - OsTIa
@@ -4379,6 +4964,7 @@
   4  4,5  - OxID
   4  4,5  - OxIDe
   4  4,5  - OxIDs
+  4  8,5  | Oxy
   4  5,5  - SIDe
   4  5,5  - SIDh
   4  5,5  - SIlD
@@ -4403,6 +4989,8 @@
   4  3,5  - STrIa
   4  3,5  - STrIp
   4  2,5  - STylI
+  4 11,6  | Sa
+  4  8,7  | Sa
   4  1,6  | SaG
   4  4,5  - SaID
   4  4,5  - SaIDs
@@ -4435,8 +5023,10 @@
   4  4,5  - SkID
   4  4,5  - SkIDs
   4  4,5  - SkIeD
+  4  8,5  | Ska
   4  1,5  | SkaG
   4  1,5  | SkeG
+  4  8,5  | Sky
   4  4,5  - SlID
   4  4,5  - SlIDe
   4  3,5  - SlOId
@@ -4453,18 +5043,22 @@
   4  1,5  | SnaG
   4  1,5  | SnoG
   4  1,5  | SnuG
+  4  7,5  | So
   4 11,6  | So
+  4  8,7  | So
   4  7,8  - SoRa
   4  7,8  - SoRb
   4  7,8  - SoRd
   4  7,8  - SoRt
   4  8,5  | Sob
+  4  8,5  | Sod
   4  8,5  | Sol
   4  2,5  - SolDI
   4  8,5  | Som
   4  8,5  | Son
   4  1,5  | SonG
   4  8,5  | Sop
+  4  8,5  | Sos
   4  8,5  | Sot
   4  8,5  | Soy
   4  4,5  - SpIeD
@@ -4474,6 +5068,7 @@
   4  3,5  - SplIT
   4  3,5  - SprIT
   4  8,5  | Spy
+  4  3,5  - SquIT
   4  4,5  - StIeD
   4  3,5  - StOIc
   4  2,5  - StOTIn
@@ -4492,7 +5087,9 @@
   4  5,6  - TEd
   4  5,6  - TEe
   4  5,6  - TEg
+  4  5,6  - TEj
   4  5,6  - TEl
+  4  5,6  - TEm
   4  5,6  - TEn
   4  5,6  - TEt
   4  5,6  - TEw
@@ -4550,12 +5147,14 @@
   4  1,5  | TinG
   4  3,5  - TipIS
   4  3,5  - TitIS
+  4  7,5  | To
   4  8,7  | To
   4  1,6  | ToG
   4  7,8  - ToRa
   4  7,8  - ToRc
   4  7,8  - ToRs
   4  7,8  - ToRt
+  4  8,5  | Tod
   4  8,5  | Tom
   4  8,5  | Ton
   4  2,5  - TonDI
@@ -4601,6 +5200,7 @@
   4  8,1  | abOS
   4  4,5  - acIDS
   4  8,1  | adOS
+  4 11,5  | ae
   4  1,5  | agOG
   4  4,5  - amIDO
   4  4,5  - amIDS
@@ -4615,6 +5215,7 @@
   4  4,5  - azIDO
   4  5,6  - bED
   4  5,5  - bIDS
+  4  7,5  | bO
   4  8,5  | bO
   4  1,6  | bOG
   4  8,2  | bOO
@@ -4660,6 +5261,7 @@
   4  8,1  | cHOp
   4  8,1  | cHOw
   4  3,5  - cHaI
+  4  8,5  | cO
   4  1,6  | cOG
   4  8,2  | cOO
   4  8,1  | cOOeD
@@ -4691,6 +5293,7 @@
   4  8,1  | dHOw
   4  5,5  - dIDO
   4  5,5  - dIsH
+  4  7,5  | dO
   4  8,5  | dO
   4  1,6  | dOG
   4  4,5  - dOITS
@@ -4713,10 +5316,13 @@
   4  3,5  - drOID
   4  3,5  - drOITS
   4  8,1  | duOS
+  4  8,1  | dzOS
+  4 11,6  | eD
   4  4,5  - eDIT
   4  4,5  - eDITs
   4  4,5  - eDIcT
   4  4,5  - eDItS
+  4  8,5  | eO
   4  3,5  - egOIST
   4  8,1  | egOS
   4  3,5  - elHI
@@ -4799,6 +5405,7 @@
   4  8,5  | jO
   4  1,6  | jOG
   4  4,5  - jOIST
+  4  8,2  | jOSe
   4  8,2  | jOSh
   4  8,2  | jOSs
   4  8,2  | jOT
@@ -4890,7 +5497,9 @@
   4  4,2  - myC
   4  3,5  - myOID
   4  3,5  - mySID
+  4  5,6  - nED
   4  5,5  - nIgH
+  4  7,5  | nO
   4  8,5  | nO
   4  3,5  - nODI
   4  1,6  | nOG
@@ -4914,6 +5523,8 @@
   4  8,1  | oDOrS
   4  4,5  - oHIa
   4  8,1  | oHO
+  4  8,5  | oO
+  4  8,2  | oOS
   4  8,2  | oOT
   4  3,5  - oOTIdS
   4  8,2  | oOTs
@@ -4921,6 +5532,7 @@
   4  9,2  | oR
   4  9,2  - oY
   4  3,5  - obOIST
+  4 11,5  | oe
   4  8,1  | onOS
   4  3,5  - ooTID
   4  4,2  - orC
@@ -4935,6 +5547,7 @@
   4  8,1  | pHOt
   4  5,5  - pIsH
   4  5,5  - pItH
+  4  7,5  | pO
   4  8,5  | pO
   4  3,5  - pODIa
   4  4,5  - pOInD
@@ -5024,10 +5637,12 @@
   4  8,1  | sHOt
   4  8,1  | sHOw
   4  3,5  - sHrI
+  4  3,5  - sHuI
   4  5,5  - sIdH
   4  5,5  - sIgH
   4  5,5  - sInH
   4  5,5  - sItH
+  4  7,5  | sO
   4  8,5  | sO
   4  3,5  - sODIc
   4  8,2  | sOOk
@@ -5074,6 +5689,7 @@
   4  4,5  - tHIs
   4  8,1  | tHO
   4  8,1  | tHOu
+  4  7,5  | tO
   4  8,5  | tO
   4  1,6  | tOG
   4  4,5  - tOITS
@@ -5151,9 +5767,13 @@
   4  8,2  | zOOn
   4  8,2  | zOOs
   4  3,5  - zOoID
+  4  4,2  - zaC
   4  3,5  - zoOID
   4  8,1  | zoOS
+  3  8,7  - DA
   3  3,10 | DE
+  3  5,5  - DI
+  3  6,9  | DI
   3  5,5  - DIal
   3  5,5  - DIb
   3  5,5  - DIbs
@@ -5283,6 +5903,8 @@
   3  4,5  - DuIt
   3  8,1  | DuO
   3  8,1  | DuOs
+  3  8,1  | DzO
+  3  8,1  | DzOs
   3  6,6  - ED
   3  9,6  - ESS
   3  6,6  - EasES
@@ -5291,6 +5913,7 @@
   3  6,6  - EdgES
   3  6,6  - ElvES
   3  6,6  - EpeES
+  3  6,6  - EquES
   3  6,6  - ErnES
   3  6,6  - ErsES
   3  6,6  - EsnES
@@ -5309,6 +5932,7 @@
   3  8,2  | OOtS
   3  4,5  - OSIer
   3  4,5  - OTIc
+  3  8,3  | OaD
   3  4,5  - ObIS
   3  4,5  - ObIT
   3  4,5  - ObITs
@@ -5327,9 +5951,11 @@
   3  4,5  - OmIT
   3  4,5  - OmITs
   3  4,5  - OmItS
+  3  8,5  | Oo
   3  8,5  | Op
   3  8,5  | Or
   3  8,3  | OuD
+  3  8,5  | Ox
   3  4,5  - OxIdS
   3  4,5  - OxImS
   3  8,5  | Oy
@@ -5436,6 +6062,7 @@
   3  8,1  | ShOtT
   3  8,1  | ShOuT
   3  3,5  - ShrI
+  3  3,5  - ShuI
   3  4,5  - SkIT
   3  4,5  - SkITe
   3  4,5  - SkITs
@@ -5660,6 +6287,7 @@
   3  4,5  - chID
   3  4,5  - chITS
   3  1,6  | ciG
+  3  2,10 - co
   3  1,6  | coG
   3  4,5  - crITS
   3  3,5  - cuTIS
@@ -5673,28 +6301,45 @@
   3  4,5  - dOItS
   3  8,1  | dOOmS
   3  8,1  | dOOrS
+  3  2,10 - da
   3  1,6  | daG
   3  2,10 - de
+  3  5,5  | deE
   3  4,5  - deIST
   3  2,5  - dhOTI
   3  1,6  | diG
   3  2,10 - do
+  3  5,5  | doE
   3  1,6  | doG
   3  4,5  - doITS
   3  3,5  - drOIT
   3  1,6  | duG
   3  4,5  - duITS
+  3  5,5  | dyE
   3  4,5  - eDIt
   3  5,5  - eIDe
+  3 11,6  | eO
   3  3,5  - eOSIn
   3  8,8  - eRa
   3  8,8  - eRs
+  3 11,6  | eS
+  3 11,6  | eT
   3  3,5  - eTuIS
+  3  2,10 - ed
   3  4,5  - edITS
+  3  2,10 - ee
+  3  2,10 - ef
   3  1,6  | egG
+  3  2,10 - eh
+  3  2,10 - em
   3  4,5  - emITS
+  3  2,10 - en
   3  1,6  | enG
+  3  2,10 - eo
+  3  2,10 - er
   3  1,6  | erG
+  3  2,10 - et
+  3  2,10 - ew
   3  4,5  - exIST
   3  4,5  - exITS
   3  8,6  - fESS
@@ -5750,6 +6395,7 @@
   3  5,5  | geE
   3  1,6  | giG
   3  2,10 - go
+  3  2,10 - gp
   3  4,5  - grID
   3  4,5  - grIOT
   3  4,5  - grIST
@@ -5818,6 +6464,7 @@
   3  4,5  - kOIS
   3  8,1  | kOOkS
   3  3,5  - kOjIS
+  3  8,6  | ka
   3  3,5  - kaDI
   3  5,5  | kaE
   3  1,6  | keG
@@ -5909,8 +6556,10 @@
   3  8,1  | nOOnS
   3  3,5  - nOrIS
   3  2,10 - na
+  3  5,5  | naE
   3  1,6  | naG
   3  2,10 - ne
+  3  5,5  | neE
   3  1,6  | neG
   3  4,5  - neIST
   3  3,5  - niDI
@@ -5929,21 +6578,34 @@
   3  3,5  - oSTIa
   3  5,5  | obE
   3  4,5  - obITS
+  3  8,6  | od
+  3  2,10 - od
   3  5,5  | odE
   3  4,5  - odIST
+  3  2,10 - oe
   3  8,6  | of
+  3  2,10 - of
   3  8,6  | oh
+  3  2,10 - oh
   3  4,5  - olIOS
   3  8,6  | om
+  3  2,10 - om
   3  4,5  - omITS
   3  8,6  | on
+  3  2,10 - on
   3  5,5  | onE
+  3  2,10 - oo
   3  8,6  | op
+  3  2,10 - op
   3  5,5  | opE
+  3  2,10 - or
   3  5,5  | orE
+  3  8,6  | os
+  3  2,10 - ow
   3  5,5  | owE
   3  4,5  - oxID
   3  8,6  | oy
+  3  2,10 - oy
   3  5,6  - pES
   3  8,6  - pESO
   3  8,6  - pEST
@@ -6031,6 +6693,7 @@
   3  8,1  | sTOsS
   3  8,1  | sTOtS
   3  8,1  | sTOwS
+  3  2,10 - sa
   3  3,5  - saDI
   3  5,5  | saE
   3  1,6  | saG
@@ -6140,6 +6803,7 @@
   3  3,5  - yOgIS
   3  8,2  | yOnD
   3  3,5  - yOnIS
+  3  8,2  | yOuD
   3  8,6  | ya
   3  2,10 - ya
   3  1,6  | yaG
@@ -6155,7 +6819,10 @@
   3  1,6  | zaG
   3  1,6  | ziG
   3  3,5  - ziTIS
+  2  6,6  - EO
   2  6,6  - ES
+  2  9,6  - ESe
+  2  9,6  - ESq
   2  9,6  - ESs
   2  6,6  - ET
   2  6,5  - IOn
@@ -6176,13 +6843,16 @@
   2  3,10 | OE
   2  5,5  - OI
   2  6,9  | OI
+  2  5,5  - OIck
   2  5,5  - OIl
   2  5,5  - OIls
   2  5,5  - OIly
   2  5,5  - OInk
+  2  8,2  | OO
   2  8,2  | OOh
   2  8,2  | OOhs
   2  8,2  | OOps
+  2  8,2  | OOs
   2  8,2  | OOt
   2  8,2  | OOts
   2  8,2  | OOze
@@ -6211,6 +6881,7 @@
   2  8,3  | OnO
   2  8,1  | OnOs
   2  8,3  | OnS
+  2  8,3  | OoS
   2  8,3  | OoT
   2  8,3  | OpS
   2  8,3  | OpT
@@ -6223,6 +6894,7 @@
   2  4,5  - OxIm
   2  8,1  | OxO
   2  8,3  | OxO
+  2  8,7  - SA
   2  5,5  - SI
   2  6,9  | SI
   2  5,5  - SIal
@@ -6577,6 +7249,7 @@
   2  4,5  - anIS
   2  3,5  - anTI
   2  8,5  | ar
+  2  8,5  | ax
   2  4,5  - axIS
   2  8,5  | ay
   2  5,6  - bE
@@ -6643,7 +7316,9 @@
   2  8,2  | bOzO
   2  8,7  | ba
   2  4,5  - baIT
+  2  7,5  | be
   2  8,7  | be
+  2  7,5  | bo
   2  8,5  | bo
   2  8,7  | bo
   2  4,5  - brIO
@@ -6659,6 +7334,7 @@
   2  5,5  - cIaO
   2  5,5  - cIgS
   2  5,5  - cIsT
+  2  2,10 | cO
   2  4,5  - cOIf
   2  4,5  - cOIl
   2  4,5  - cOIn
@@ -6693,6 +7369,7 @@
   2  8,2  | cOyS
   2  4,5  - chIS
   2  4,5  - chIT
+  2  8,5  | co
   2  4,5  - crIS
   2  4,5  - crIT
   2  5,6  - dE
@@ -6753,23 +7430,44 @@
   2  8,2  | dOsT
   2  8,2  | dOtS
   2  8,2  | dOwS
+  2  8,7  | da
   2  4,5  - daIS
   2  7,5  | de
+  2  8,7  | de
+  2  7,5  | do
   2  8,5  | do
+  2  8,7  | do
   2  4,5  - doIT
   2  4,5  - duIT
   2  5,6  - eE
   2  5,6  | eE
   2  5,6  - eEk
   2  5,6  - eEl
+  2  5,6  - eEn
+  2  2,10 | eO
   2  8,2  | eOnS
   2  4,5  - eTIc
   2  3,5  - eTuI
+  2 11,6  | ed
   2  4,5  - edIT
+  2 11,6  | ee
+  2 11,6  | ef
   2  4,5  - egIS
   2  8,5  | eh
+  2 11,6  | eh
+  2 11,6  | el
+  2 11,6  | em
   2  4,5  - emIT
+  2 11,6  | en
+  2  8,5  | eo
+  2 11,6  | eo
   2  8,5  | er
+  2 11,6  | er
+  2 11,6  | es
+  2 11,6  | et
+  2 11,6  | ew
+  2  8,5  | ex
+  2 11,6  | ex
   2  4,5  - exIT
   2  5,6  - fE
   2  5,6  | fE
@@ -6864,6 +7562,7 @@
   2  4,5  - gaIT
   2  4,5  - ghIS
   2  8,5  | go
+  2  8,5  | gp
   2  4,5  - grIT
   2  5,6  - hE
   2  5,6  | hE
@@ -6895,6 +7594,7 @@
   2  5,5  - hIsT
   2  5,5  - hItS
   2  2,10 | hO
+  2  4,5  - hOI
   2  8,1  | hOOd
   2  8,1  | hOOf
   2  8,1  | hOOk
@@ -6921,8 +7621,10 @@
   2  8,5  | ho
   2  8,7  | ho
   2  8,2  | iOnS
+  2  8,5  | ib
   2  4,5  - ibIS
   2  3,5  - inTI
+  2  8,5  | ip
   2  4,5  - irIS
   2  4,5  - iwIS
   2  5,6  - jE
@@ -6939,6 +7641,7 @@
   2  5,5  - jIlT
   2  5,5  - jInS
   2  2,10 | jO
+  2  4,5  - jOIe
   2  4,5  - jOIn
   2  8,2  | jObS
   2  8,2  | jOeS
@@ -6952,6 +7655,7 @@
   2  8,7  | je
   2  8,5  | jo
   2  8,7  | jo
+  2  8,6  - kES
   2  5,5  - kIS
   2  5,5  - kISs
   2  5,5  - kISt
@@ -7052,6 +7756,7 @@
   2  8,6  - mESs
   2  5,6  - mEd
   2  5,6  - mEg
+  2  5,6  - mEh
   2  5,6  - mEl
   2  5,6  - mEm
   2  5,6  - mEn
@@ -7125,9 +7830,11 @@
   2  8,6  - nESs
   2  8,6  - nESt
   2  5,6  - nEb
+  2  5,6  - nEd
   2  5,6  - nEe
   2  5,6  - nEf
   2  5,6  - nEg
+  2  5,6  - nEk
   2  5,6  - nEt
   2  5,6  - nEw
   2  5,5  - nISi
@@ -7161,6 +7868,7 @@
   2  7,5  | ne
   2  8,7  | ne
   2  3,5  - niSI
+  2  7,5  | no
   2  8,5  | no
   2  8,7  | no
   2  5,6  - oE
@@ -7168,6 +7876,7 @@
   2  8,6  - oES
   2  5,6  - oEs
   2  5,5  - oIlS
+  2  2,10 | oO
   2  8,2  | oOhS
   2  8,2  | oOpS
   2  8,2  | oOtS
@@ -7177,8 +7886,10 @@
   2  8,5  | oh
   2  4,5  - olIO
   2  4,5  - omIT
+  2  8,5  | oo
   2  8,5  | op
   2  8,5  | or
+  2  8,5  | ox
   2  8,5  | oy
   2  5,6  - pE
   2  5,6  | pE
@@ -7249,13 +7960,16 @@
   2  4,5  - pSIs
   2  3,5  - pTuI
   2  8,7  | pa
+  2  7,5  | pe
   2  8,7  | pe
   2  4,5  - phIS
+  2  7,5  | po
   2  8,5  | po
   2  8,7  | po
   2  4,5  - poIS
   2  4,5  - psIS
   2  5,5  - qIS
+  2 11,6  | qi
   2  4,5  - quIT
   2  5,6  - rE
   2  5,6  | rE
@@ -7350,6 +8064,8 @@
   2  8,1  | sTOp
   2  8,1  | sTOt
   2  8,1  | sTOw
+  2 11,6  | sa
+  2  8,7  | sa
   2  3,5  - saTI
   2  4,5  - seIS
   2  7,5  | sh
@@ -7362,8 +8078,10 @@
   2  4,5  - slIT
   2  4,5  - smIT
   2  4,5  - snIT
+  2  7,5  | so
   2  8,5  | so
   2 11,6  | so
+  2  8,7  | so
   2  4,5  - spIT
   2  4,5  - srIS
   2  4,5  - suIT
@@ -7374,7 +8092,9 @@
   2  5,6  - tEd
   2  5,6  - tEe
   2  5,6  - tEg
+  2  5,6  - tEj
   2  5,6  - tEl
+  2  5,6  - tEm
   2  5,6  - tEn
   2  5,6  - tEt
   2  5,6  - tEw
@@ -7428,6 +8148,7 @@
   2  4,5  - thIO
   2  4,5  - thIS
   2  3,5  - tiTI
+  2  7,5  | to
   2  8,5  | to
   2  8,7  | to
   2  4,5  - toIT
@@ -7498,6 +8219,7 @@
   2  4,5  - whIT
   2  8,5  | wo
   2  4,5  - wrIT
+  2  8,6  - xES
   2  5,5  - xIS
   2  5,6  - yE
   2  5,6  | yE
@@ -7550,10 +8272,13 @@
   1  6,6  - El
   1  6,6  - Em
   1  6,6  - En
+  1  6,6  - Eo
   1  6,6  - Er
   1  6,6  - Es
   1  6,6  - Et
+  1  6,6  - Ew
   1  6,6  - Ex
+  1  6,5  - Ib
   1  6,5  - Ice
   1  6,5  - Ich
   1  6,5  - Ick
@@ -7568,11 +8293,13 @@
   1  6,5  - Ilk
   1  6,5  - Ill
   1  6,5  - Imp
+  1  6,5  - Imu
   1  6,5  - In
   1  6,5  - Ink
   1  6,5  - Inn
   1  6,5  - Ins
   1  6,5  - Ion
+  1  6,5  - Ip
   1  6,5  - Ire
   1  6,5  - Irk
   1  6,5  - Is
@@ -7580,6 +8307,8 @@
   1  6,5  - It
   1  6,5  - Its
   1  6,5  - Ivy
+  1  6,5  - Iwi
+  1  8,3  | Oad
   1  8,3  | Oaf
   1  8,3  | Oak
   1  8,3  | Oar
@@ -7614,7 +8343,9 @@
   1  8,3  | One
   1  8,3  | Ono
   1  8,3  | Ons
+  1  8,3  | Oo
   1  8,3  | Ooh
+  1  8,3  | Oos
   1  8,3  | Oot
   1  8,3  | Op
   1  8,3  | Ope
@@ -7625,6 +8356,7 @@
   1  8,3  | Orb
   1  8,3  | Orc
   1  8,3  | Ore
+  1  8,3  | Orf
   1  8,3  | Ors
   1  8,3  | Ort
   1  8,3  | Os
@@ -7652,6 +8384,7 @@
   1  5,5  - aIr
   1  5,5  - aIs
   1  5,5  - aIt
+  1  5,5  - aIx
   1  8,8  - aR
   1  8,1  | abO
   1  8,1  | adO
@@ -7680,6 +8413,7 @@
   1  8,2  | bOb
   1  8,2  | bOd
   1  8,2  | bOg
+  1  8,2  | bOn
   1  8,2  | bOo
   1  8,2  | bOp
   1  8,2  | bOs
@@ -7695,6 +8429,7 @@
   1  7,8  - buR
   1  5,5  - cIg
   1  5,5  - cIs
+  1  8,2  | cO
   1  8,2  | cOb
   1  8,2  | cOd
   1  8,2  | cOg
@@ -7702,6 +8437,7 @@
   1  8,2  | cOn
   1  8,2  | cOo
   1  8,2  | cOp
+  1  8,2  | cOq
   1  8,2  | cOr
   1  8,2  | cOs
   1  8,2  | cOt
@@ -7714,7 +8450,10 @@
   1  8,1  | coO
   1  7,8  - coR
   1  7,8  - cuR
+  1  8,7  - dA
   1  3,10 | dE
+  1  5,5  - dI
+  1  6,9  | dI
   1  5,5  - dIb
   1  5,5  - dId
   1  5,5  - dIe
@@ -7740,7 +8479,9 @@
   1  7,8  - doR
   1  4,5  - duI
   1  8,1  | duO
+  1  8,1  | dzO
   1  3,10 | eE
+  1  8,2  | eO
   1  8,2  | eOn
   1  8,8  - eR
   1  7,8  - eaR
@@ -7816,6 +8557,7 @@
   1  8,2  | hOd
   1  8,2  | hOe
   1  8,2  | hOg
+  1  8,2  | hOi
   1  8,2  | hOn
   1  8,2  | hOp
   1  8,2  | hOs
@@ -7824,7 +8566,9 @@
   1  8,2  | hOy
   1  8,1  | haO
   1  7,8  - heR
+  1  4,5  - hoI
   1  8,2  | iOn
+  1  4,5  - iwI
   1  8,7  - jA
   1  3,10 | jE
   1  5,5  - jIb
@@ -7837,6 +8581,7 @@
   1  8,2  | jOt
   1  8,2  | jOw
   1  8,2  | jOy
+  1  4,5  - jaI
   1  7,8  - jaR
   1  8,7  - kA
   1  5,5  - kI
@@ -7854,6 +8599,7 @@
   1  8,2  | kOp
   1  8,2  | kOr
   1  8,2  | kOs
+  1  4,5  - kaI
   1  4,5  - khI
   1  7,8  - kiR
   1  4,5  - koI
@@ -7873,6 +8619,7 @@
   1  8,2  | lOg
   1  8,2  | lOo
   1  8,2  | lOp
+  1  8,2  | lOq
   1  8,2  | lOt
   1  8,2  | lOw
   1  8,2  | lOx
@@ -7914,6 +8661,8 @@
   1  7,8  - moR
   1  8,7  - nA
   1  3,10 | nE
+  1  5,5  - nI
+  1  6,9  | nI
   1  5,5  - nIb
   1  5,5  - nIl
   1  5,5  - nIm
@@ -7937,7 +8686,9 @@
   1  5,5  - oI
   1  6,9  | oI
   1  5,5  - oIl
+  1  8,2  | oO
   1  8,2  | oOh
+  1  8,2  | oOs
   1  8,2  | oOt
   1  8,8  - oR
   1  7,8  - oaR
@@ -7956,6 +8707,7 @@
   1  5,5  - pIg
   1  5,5  - pIn
   1  5,5  - pIp
+  1  5,5  - pIr
   1  5,5  - pIs
   1  5,5  - pIt
   1  5,5  - pIu
@@ -7975,6 +8727,7 @@
   1  7,8  - paR
   1  7,8  - peR
   1  4,5  - phI
+  1  7,8  - piR
   1  4,5  - poI
   1  8,1  | poO
   1  8,1  | prO
@@ -8002,6 +8755,7 @@
   1  8,2  | rOw
   1  4,5  - raI
   1  8,1  | rhO
+  1  8,7  - sA
   1  5,5  - sI
   1  6,9  | sI
   1  5,5  - sIb
@@ -8096,6 +8850,8 @@
   1  5,5  - xIs
   1  8,7  - yA
   1  3,10 | yE
+  1  5,5  - yI
+  1  6,9  | yI
   1  5,5  - yIn
   1  5,5  - yIp
   1  8,2  | yO
@@ -8107,6 +8863,7 @@
   1  8,2  | yOu
   1  8,2  | yOw
   1  7,8  - yaR
+  1  8,1  | ynO
   1  8,7  - zA
   1  5,5  - zIg
   1  5,5  - zIn

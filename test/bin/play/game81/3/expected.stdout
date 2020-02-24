@@ -2,25 +2,31 @@
  33  8,4  | BEHOVE
  32  6,2  | VENOMED
  26  7,7  - BEEN
+ 26  5,5  - DONEE
  26  5,7  - DONEE
  26  6,6  | MOVED
  26  6,2  | VENOM
  25  3,5  - DEBONE
  25  3,7  - DEBONE
  24  4,2  - DEBONE
+ 22  7,5  - BEE
  22  7,7  - BEE
+ 22  3,5  - BONED
  22  3,7  - BONED
  22  7,7  - NEED
  22  6,5  | OMENED
+ 22 10,3  | VENaE
  22 10,6  | aBOVE
  21  3,5  - DEVON
  21  3,7  - DEVON
  21  3,5  - DOVEN
  21  3,7  - DOVEN
+ 21 10,3  | VENa
  20 10,1  | AB
  20  5,5  - BENE
  20  5,7  - BENE
  20 10,2  - BO
+ 20  5,5  - BODE
  20  5,7  - BODE
  20  5,5  - BONE
  20  5,7  - BONE
@@ -36,13 +42,17 @@
  18  6,2  - BENE
  18  6,2  - BODE
  18  6,2  - BONE
+ 18  7,5  - DEE
  18  7,7  - DEE
  18  5,5  - DENE
  18  5,7  - DENE
+ 18  7,5  - DOE
  18  7,7  - DOE
  18  5,5  - DONE
  18  5,7  - DONE
+ 18  7,5  - NEE
  18  7,7  - NEE
+ 18  5,5  - NODE
  18  5,7  - NODE
  17  7,6  | ABOVE
  17  3,5  - BENE
@@ -53,6 +63,7 @@
  17  3,7  - BONE
  17  5,5  - DEB
  17  5,7  - DEB
+ 17  8,7  - EEN
  17  8,7  - EON
  17  4,5  - EVEN
  17  4,7  - EVEN
@@ -75,17 +86,22 @@
  16  8,6  | HOB
  16  3,5  - NEVE
  16  3,7  - NEVE
+ 16  6,5  - ODE
  16  6,7  - ODE
  16  6,5  - ONE
  16  6,7  - ONE
  16  9,2  - ONO
  16 10,6  | aBODE
  16 10,6  | aDOBE
+ 15  5,5  - BED
  15  5,7  - BED
  15  5,5  - BEN
  15  5,7  - BEN
  15  7,4  - BEVEL
+ 15  5,5  - BOD
  15  5,7  - BOD
+ 15  5,5  - BON
+ 15  5,7  - BON
  15  9,5  | OWNED
  15  7,3  | VENAE
  15  9,4  | VOWED
@@ -98,6 +114,7 @@
  14 10,5  | BaNED
  14  6,2  - DENE
  14  6,2  - DONE
+ 14  4,5  - NEED
  14  4,7  - NEED
  14  6,2  - NODE
  14  5,7  - VEE
@@ -120,12 +137,20 @@
  13  2,5  - DONEE
  13  2,7  - DONEE
  13 10,5  | DaVEN
+ 13  8,5  - EE
  13  8,7  - EE
+ 13  8,5  - EO
+ 13  8,7  - EO
  13  8,6  | HONED
+ 13  5,5  - NED
+ 13  5,7  - NED
+ 13  5,5  - NOD
  13  5,7  - NOD
  13  3,5  - NODE
  13  3,7  - NODE
  13  7,4  - NOVEL
+ 13  9,5  - ODE
+ 13  8,5  - OE
  13  8,7  - OE
  13  9,5  - ONE
  13  7,5  | VANED
@@ -141,6 +166,8 @@
  12  9,4  | DOWN
  12  7,5  | EAVED
  12  9,7  - ED
+ 12  5,5  - EEN
+ 12  5,7  - EEN
  12  6,5  | EMBED
  12  9,7  - EN
  12  5,5  - EON
@@ -165,6 +192,7 @@
  11  5,7  - DEE
  11  7,3  | DEVA
  11  5,7  - DOE
+ 11  6,5  - ED
  11  6,7  - ED
  11  6,5  - EN
  11  6,7  - EN
@@ -176,6 +204,7 @@
  11 10,5  | NaVE
  11  4,5  - OBE
  11  4,7  - OBE
+ 11  6,5  - OD
  11  6,7  - OD
  11  8,5  | OHED
  11  6,5  - ON
@@ -191,9 +220,11 @@
  10  5,5  - BO
  10  5,7  - BO
  10  9,4  | BOW
+ 10  7,5  - DE
  10  7,7  - DE
  10  7,4  | DEAVE
  10  6,4  | DEMON
+ 10  7,5  - DO
  10  7,7  - DO
  10  8,4  | DOH
  10  9,7  - EE
@@ -244,6 +275,7 @@
   9  7,5  | VANE
   9  7,2  - VEE
   9  7,2  - VOE
+  8 10,1  | AE
   8  7,5  | BADE
   8  7,5  | BANE
   8  7,4  | BEAD
@@ -264,6 +296,8 @@
   8  8,4  | EDH
   8  7,7  - EE
   8  8,4  - ENOL
+  8 10,2  - EO
+  8  7,7  - EO
   8  9,5  | EWE
   8  6,6  | MEED
   8  6,6  | MENO
@@ -298,6 +332,8 @@
   7 10,5  | DaN
   7  5,5  - EE
   7  5,7  - EE
+  7  5,5  - EO
+  7  5,7  - EO
   7  8,6  | HOE
   7  6,6  | MED
   7  6,6  | MEN
@@ -309,6 +345,7 @@
   7  5,7  - OE
   7  7,4  | OVA
   7  9,1  | TONE
+  7 10,3  - VU
   7  9,6  | WEE
   7  9,6  | WOE
   7 10,6  | aBED
@@ -319,6 +356,7 @@
   6  7,2  - DOE
   6  6,5  | EME
   6  6,5  | EMO
+  6  9,5  | EW
   6  7,2  - NEE
   6 10,5  | NaE
   6  7,4  | OBA
@@ -342,9 +380,11 @@
   5  7,5  | BA
   5  7,5  | DAN
   5  8,2  - DE
+  5 10,5  - DE
   5  9,4  - DEL
   5  8,2  - DO
   5  9,4  - DOL
+  5 10,5  | Da
   5  6,5  | EM
   5  6,6  | ME
   5  6,6  | MO
@@ -353,16 +393,19 @@
   5  8,2  - NO
   5 10,5  | Na
   5  6,5  | OM
+  5 10,5  | OaD
   5 10,6  | aBO
   4  7,6  | ADO
   4  7,6  | ANE
   4  8,2  - EE
   4  9,4  - EEL
   4  8,5  | EH
+  4  8,2  - EO
   4  8,6  | HE
   4  8,6  | HO
   4  7,5  | NAE
   4 10,3  - NU
+  4  7,5  | OAD
   4  7,4  | ODA
   4  8,2  - OE
   4  8,5  | OH
@@ -373,6 +416,7 @@
   4 10,6  | aND
   3  7,6  | AD
   3  7,6  | AN
+  3  7,5  | DA
   3 10,4  - EL
   3  7,5  | NA
   3 10,6  | aDO

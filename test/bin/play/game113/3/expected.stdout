@@ -10,26 +10,38 @@
  26  5,5  | BEG
  26  5,3  | DIKE
  26  5,3  | GIBE
+ 26  5,5  | KED
+ 26  8,4  | KIBE
  25 10,4  | HIKE
  24  5,5  | BED
  24  7,5  | BID
+ 24  5,3  | BIDE
+ 24  8,4  | BIKE
  24  2,10 - BIKES
+ 24  5,5  | DEB
+ 24  8,8  | ELHI
  24  2,10 - KIBES
  23 10,4  | DIKE
  23 10,4  | GIBE
  23 10,9  | SHE
  22  7,5  | GID
  22  7,5  | HID
+ 22  5,3  | HIDE
  22  2,10 - HIKES
  22  7,4  | KHI
+ 21  8,4  | BIDE
  21 10,4  | BIDE
+ 21  5,1  | BIKED
  21  7,1  | BIKED
+ 21  8,4  | HIKE
  20  2,10 - DIKES
  20 11,8  | GEEK
  20  7,4  | GHI
+ 20  8,4  | GIBE
  20  2,10 - GIBES
  20  7,5  | GIE
  20  7,5  | HIE
+ 20  5,1  | HIKED
  20  7,1  | HIKED
  19  5,5  | BE
  19  7,5  | BI
@@ -37,7 +49,10 @@
  18  2,10 - BIDES
  18  1,5  - BIGHEAD
  18  7,5  | DIE
+ 18  8,4  | DIKE
+ 18  5,1  | GIBED
  18  7,1  | GIBED
+ 18  8,4  | HIDE
  18  7,3  | KEG
  18  4,8  - KEN
  18  4,8  - KIN
@@ -54,7 +69,11 @@
  16  5,3  | GIB
  16  7,3  | GIB
  16  2,10 - HIDES
+ 16  5,4  | IDE
+ 16  5,3  | KED
+ 16  7,3  | KED
  16  7,3  | KHI
+ 16  5,3  | KID
  16  7,3  | KID
  16  9,10 - OH
  16 10,9  | SH
@@ -62,13 +81,20 @@
  15 10,6  | BE
  15  4,8  - BEN
  15  4,8  - BIN
+ 15  5,5  | DE
+ 15  7,5  | DI
  15  5,6  | ED
  15 10,5  | GIE
+ 15  7,7  | HIC
  15 10,5  | HIE
+ 15  7,8  | ICH
  15  7,6  | ID
  15  2,5  - KHEDA
+ 15  8,9  | LEG
  15 10,9  | SEI
+ 14  5,3  | BED
  14  7,3  | BED
+ 14  5,3  | BID
  14  7,3  | BID
  14  7,2  | BIKE
  14  5,3  | DEB
@@ -94,15 +120,19 @@
  12  7,9  | CHI
  12  7,3  | DIG
  12  7,2  | DIKE
+ 12 11,5  | EBIKE
  12 11,9  | EDH
+ 12  5,3  | GED
  12  7,3  | GED
  12  4,8  - GEN
  12  7,3  | GHI
  12  7,2  | GIBE
+ 12  5,3  | GID
  12  7,3  | GID
  12  4,8  - GIN
  12  4,8  - HEN
  12  4,6  - HEX
+ 12  5,3  | HID
  12  7,3  | HID
  12 11,6  | HIKED
  12  4,8  - HIN
@@ -126,27 +156,35 @@
  11 11,8  | GEED
  11  5,7  | GI
  11 11,6  | GIBED
+ 11  5,2  | GIED
  11  7,2  | GIED
  11  5,7  | HE
  11 11,8  | HEBE
  11 11,8  | HEED
  11  5,7  | HI
  11  9,8  - HID
+ 11  5,2  | HIED
  11  7,2  | HIED
  11  7,11 - KEPI
  11 11,6  | KIBE
+ 11  8,9  | LEI
  11  9,11 - PED
  10  6,5  - ABED
+ 10  8,6  | BE
  10 11,5  | BEIGE
  10  7,9  | CIG
  10 11,7  | GEEK
  10  7,3  | GIE
+ 10  8,5  | GIE
  10  5,5  - HAIK
  10  5,5  - HAKE
  10 11,5  | HEDGE
  10  7,2  | HIDE
  10  7,3  | HIE
+ 10  8,5  | HIE
  10 11,6  | HIKE
+ 10  5,4  | IB
+ 10  7,4  | IB
  10  5,5  - KAB
  10  3,10 - KEGS
  10  7,11 - KEP
@@ -162,16 +200,21 @@
   9  5,7  | DE
   9 11,6  | DEKE
   9  4,8  - DEN
+  9  5,7  | DI
+  9  8,5  | DIE
   9 11,6  | DIKE
   9  4,8  - DIN
   9 11,9  | EKE
   9 11,7  | EKED
   9  5,6  - EX
+  9  5,5  - GAK
   9 11,6  | GIBE
   9  3,10 - GIBS
   9  3,8  - GIEN
+  9  8,6  | HE
   9 11,6  | HEBE
   9  9,8  - HIE
+  9  8,5  | IDE
   9  5,5  - KADI
   9 11,8  | KEG
   9  3,10 - KIDS
@@ -187,6 +230,7 @@
   8  3,10 - BIDS
   8  5,7  - BOG
   8  5,5  - DAK
+  8  8,6  | DE
   8  3,10 - DEBS
   8  3,10 - DIBS
   8  7,3  | DIE
@@ -201,6 +245,7 @@
   8  7,11 - HEP
   8  7,11 - HIP
   8  5,7  - HOB
+  8 11,8  | KED
   8  7,4  | KI
   8  9,10 - OI
   8  9,11 - PIE
@@ -226,6 +271,7 @@
   7 11,7  | GEED
   7  3,10 - GIDS
   7 11,7  | GIED
+  7  8,11 - GP
   7  5,5  - HADE
   7  5,5  - HAED
   7  5,5  - HAG
@@ -234,9 +280,12 @@
   7 11,6  | HIDE
   7 11,7  | HIED
   7  5,7  - HOG
+  7  5,10 | IB
   7  7,3  | IDE
   7  5,5  - KAE
+  7  5,5  - KAI
   7  4,5  - KEA
+  7  4,10 - KES
   7  4,10 - KIS
   7  5,7  - KOI
   7  9,7  - WED
@@ -250,6 +299,7 @@
   6  5,5  - DAH
   6  5,7  - DOG
   6  5,7  - DOH
+  6  5,4  | ED
   6  7,4  | ED
   6  3,10 - EGIS
   6  5,10 | EH
@@ -266,6 +316,7 @@
   6  9,8  - HI
   6  3,10 - HIES
   6  5,7  - HOD
+  6  5,4  | ID
   6  7,4  | ID
   6  3,5  - IDEA
   6 10,8  | IS
@@ -277,10 +328,12 @@
   5 11,8  | BE
   5  5,7  - BO
   5  7,4  | DE
+  5  7,4  | DI
   5  3,10 - DIES
   5  5,10 | ED
   5  4,7  - EGO
   5 11,6  | EIDE
+  5  8,7  - EW
   5  5,5  - GAE
   5 11,7  | GEE
   5 11,8  | GEE
@@ -290,10 +343,12 @@
   5 11,7  | HIE
   5  4,10 - HIS
   5  5,7  - HOE
+  5  5,7  - HOI
   5  5,10 | ID
   5 11,6  | IDEE
   5 11,7  | IDEE
   5  3,10 - IDES
+  5  8,11 - IP
   5  9,11 - PE
   5  9,11 - PI
   5  9,7  - WE
@@ -315,6 +370,7 @@
   4  4,10 - IDS
   4  6,7  - OH
   3  6,5  - AD
+  3  5,5  - DA
   3 11,8  | DE
   3  5,7  - DO
   3 11,9  | ED
@@ -325,6 +381,7 @@
   2  6,5  - AI
   2 11,8  | EE
   2 11,9  | EE
+  2  5,7  - EO
   2  5,10 - ES
   2  5,10 - IS
   2  6,7  - OE

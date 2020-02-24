@@ -13,6 +13,7 @@
  61 11,2  | aZANS
  61 11,2  | aZONS
  60 11,2  | AZONs
+ 59  1,5  - ZYmOSAN
  59  1,7  - ZYmOSAN
  58 11,2  | AZOnS
  58 11,2  | ZOeAS
@@ -23,6 +24,7 @@
  55 11,3  | ZOlS
  55 11,3  | ZOoS
  55 11,3  | ZoOS
+ 55 11,3  | dZOS
  49 11,1  | ANYOnS
  49 11,1  | ANnOYS
  49 11,1  | AnNOYS
@@ -166,6 +168,8 @@
  31 11,3  | OwNS
  31 11,6  | SNAKY
  31 11,4  | ZAS
+ 31  3,5  - ZAYiN
+ 31  3,7  - ZAYiN
  31  7,5  | ZINcS
  31  7,5  | ZINeS
  31  7,5  | ZINgS
@@ -206,6 +210,7 @@
  29 11,6  | SnAKY
  29 11,4  | ZAs
  29  6,10 - ZoOS
+ 29  6,10 - dZOS
  29 11,6  | sNAKY
  28  6,2  | AZlON
  28 11,3  | AbOS
@@ -346,6 +351,7 @@
  21 11,5  | ASk
  21 11,5  | ASp
  21 11,5  | ASs
+ 21  3,5  - AZlON
  21  3,7  - AZlON
  21 11,4  | AaS
  21 11,4  | AbS
@@ -371,8 +377,11 @@
  21 11,4  | OhS
  21 11,4  | OmS
  21 11,4  | OnS
+ 21 11,4  | OoS
  21 11,4  | OpS
  21 11,4  | OrS
+ 21 11,6  | SA
+ 21  7,9  | SAN
  21 11,6  | SO
  21  7,9  | SON
  21  4,10 - SYNgAS
@@ -402,6 +411,7 @@
  21 11,4  | mAS
  21 11,4  | mOS
  21 11,4  | nOS
+ 21 11,4  | oOS
  21 11,4  | pAS
  21 11,4  | pOS
  21 11,4  | rAS
@@ -416,18 +426,24 @@
  20  6,2  | ANYONS
  20  6,5  | ANYONS
  20 11,4  | ASs
+ 20  4,5  - AZON
  20  4,7  - AZON
  20 11,5  | AsS
  20  7,6  | IOnS
  20  3,5  - NAZiS
+ 20  3,7  - NAZiS
  20  6,4  | NONgAYS
  20  7,8  | OSAr
  20  7,8  | OSsA
+ 20  3,5  - SOZiN
+ 20  3,7  - SOZiN
  20 11,4  | SOs
  20  6,2  | SYNANOn
  20  6,4  | SYNANOn
  20  6,4  | SYNAnON
  20  6,2  | SYnANON
+ 20 11,6  | Sa
+ 20  7,9  | SaN
  20  7,9  | SeN
  20 11,6  | Sh
  20 11,6  | Si
@@ -456,12 +472,14 @@
  19  7,8  | OS
  19  7,8  | OSe
  19 11,5  | Os
+ 19  7,9  | SA
  19  7,9  | SAb
  19  7,9  | SAc
  19  7,9  | SAd
  19  7,9  | SAe
  19  7,9  | SAg
  19  7,9  | SAl
+ 19  7,9  | SAn
  19  7,9  | SAp
  19  7,9  | SAt
  19  7,9  | SAu
@@ -487,10 +505,14 @@
  19  7,9  | SkA
  19  7,9  | SpA
  19  7,2  | ZANYISh
+ 19  4,5  - ZoON
  19  4,7  - ZoON
+ 19  4,5  - aZAN
  19  4,7  - aZAN
+ 19  4,5  - aZON
  19  4,7  - aZON
  19  5,10 - mYNAS
+ 19 11,6  | sA
  19 11,6  | sO
  19  7,9  | sYN
  18  6,5  | ANNOYs
@@ -503,7 +525,9 @@
  18  6,5  | ANYONs
  18  6,2  | ANYoNS
  18  6,5  | ANYoNS
+ 18  4,5  - AZaN
  18  4,7  - AZaN
+ 18  4,5  - AZoN
  18  4,7  - AZoN
  18  7,6  | IONs
  18  6,6  - NIQABs
@@ -511,7 +535,9 @@
  18  6,6  | NONgAY
  18  6,2  | NYlONS
  18  6,6  | NYlONS
+ 18 10,8  | OCA
  18  5,10 - SNYeS
+ 18  7,9  | Sa
  18  7,9  | Sh
  18  6,2  | ShANNY
  18  7,9  | Si
@@ -521,6 +547,7 @@
  18  7,2  | ZOYSIA
  18  7,2  | ZOYSIAs
  18  7,2  | ZOYsIAS
+ 18  4,5  - ZOoN
  18  4,7  - ZOoN
  18  6,11 - ZlOTYS
  18  6,5  | aNNOYS
@@ -537,6 +564,7 @@
  18  7,8  | uS
  17  7,3  | NAZIS
  17  3,5  - NAZi
+ 17  3,7  - NAZi
  17  7,8  | OsSA
  17  4,10 - SANtOS
  17  7,7  - SiP
@@ -551,13 +579,20 @@
  17  6,4  | ZONArY
  17  7,2  | ZOYSIa
  17  7,2  | ZOYsIA
+ 17  5,5  - ZeN
+ 17  5,7  - ZeN
+ 17  5,5  - ZiN
+ 17  5,7  - ZiN
  17  4,5  - ZoOS
  17  4,7  - ZoOS
  17  4,11 - bYZANT
  17  4,10 - cANSOS
+ 17  4,5  - dZOS
+ 17  4,7  - dZOS
  17  5,10 - hOYAS
  17  5,10 - kAYOS
  17  5,10 - mAYOS
+ 17  7,9  | sAN
  17  7,9  | sON
  17  5,10 - sOYAS
  16  6,5  | ANYOnS
@@ -566,6 +601,7 @@
  16  6,2  | AStONY
  16  6,11 - AZOTeS
  16  6,11 - AZOThS
+ 16  4,5  - AZOn
  16  4,7  - AZOn
  16  6,2  | AnYONS
  16  7,8  | AsS
@@ -576,6 +612,7 @@
  16 10,2  | NAbOB
  16  6,6  | NAnNY
  16  6,6  | NONYl
+ 16  3,5  - NOwAY
  16  6,6  | NOwAYS
  16  6,2  | NYlON
  16  6,6  | NYlON
@@ -588,6 +625,7 @@
  16  7,3  | SOZINe
  16  7,3  | SOZINs
  16  7,9  - SPECK
+ 16  3,5  - YApON
  16  3,7  - YApON
  16  6,2  | YApONS
  16  6,4  | ZANY
@@ -602,18 +640,22 @@
  16  6,2  | rAYONS
  16  7,9  | sOS
  16 11,7  | tOKAY
+ 15  3,5  - ANnOY
  15  4,5  - AZO
  15  4,7  - AZO
  15  6,3  | AZONS
+ 15  3,5  - AnNOY
  15  7,8  | As
  15 10,9  | COo
  15 11,9  | KAY
  15  6,10 - NAOS
+ 15  3,5  - NOSeY
  15  5,10 - NOmAS
  15  5,10 - NOnAS
  15  5,10 - NOvAS
  15  7,3  | NaZI
  15 11,8  | OKaY
+ 15  3,5  - ONlAY
  15  7,8  | Os
  15  9,7  - PYA
  15  7,5  | SIZY
@@ -621,6 +663,7 @@
  15  6,10 - YeAS
  15  5,5  - ZAg
  15  5,5  - ZAp
+ 15  5,7  - ZAp
  15  5,5  - ZAs
  15  5,7  - ZAs
  15  5,5  - ZAx
@@ -638,6 +681,7 @@
  15 11,7  | ZeK
  15  6,11 - ZeSTY
  15  7,11 - ZeTAS
+ 15  7,8  - ZiT
  15  6,11 - ZlOTY
  15  5,5  - ZoA
  15  5,5  - ZoO
@@ -650,9 +694,11 @@
  15  7,11 - mATZO
  15  5,10 - mONAS
  15  5,10 - nONAS
+ 15 10,8  | oCA
  15 11,8  | oKAY
  15  6,10 - pYAS
  15  6,10 - rYAS
+ 15  7,9  | sA
  15  7,9  | sO
  15  7,3  | sOZINS
  14  6,5  | ANNOyS
@@ -671,7 +717,9 @@
  14  6,3  | AZaNS
  14  6,3  | AZoNS
  14  6,2  | AnYON
+ 14  3,5  - AnYON
  14  3,7  - AnYON
+ 14 10,9  | CO
  14 10,9  | CoO
  14 11,9  | KaY
  14 11,9  | KeY
@@ -683,20 +731,25 @@
  14  6,6  | NOSeY
  14  6,6  | NOiSY
  14  6,6  | NOwAY
+ 14 10,8  | OCa
  14  6,10 - OYeS
  14  9,7  - PYa
  14  9,7  - PYe
  14  9,7  - PYx
+ 14  8,6  | Qi
  14  5,10 - SANeS
+ 14  3,5  - SAvOY
  14  6,8  - SNOT
  14  6,11 - SNOTtY
  14  5,8  - SNoOT
+ 14  9,10 - SO
  14  6,2  | SONANt
  14  5,10 - SONeS
  14  7,3  | SOZIn
  14 10,4  | SYBO
  14  6,2  | YApON
  14  3,5  - YONiS
+ 14  3,7  - YONiS
  14  3,5  - YOgAS
  14  3,7  - YOgAS
  14  7,11 - YuTZ
@@ -720,14 +773,18 @@
  14  4,7  - aZO
  14  6,3  | aZONS
  14  6,2  | cANONS
+ 14  4,5  - dZO
+ 14  4,7  - dZO
  14  6,2  | fANONS
  14  6,2  | hONANS
  14  6,2  | hYSON
+ 14  8,7  - iP
  14  6,2  | rAYON
  14  6,8  - rYOT
  14  7,5  | sIZY
  14  7,3  | sOZIN
  14  7,9  - sPECK
+ 14  3,5  - uNSAY
  13  7,11 - ANTsY
  13  5,8  - AScOT
  13  5,10 - ASkOS
@@ -739,6 +796,7 @@
  13  4,7  - AZo
  13  6,3  | AZoN
  13  7,11 - NATtY
+ 13  5,5  - NAY
  13  6,6  | NAZi
  13  7,8  - NOT
  13  6,10 - NaOS
@@ -781,15 +839,18 @@
  13  6,3  | aZON
  13  2,5  - cYANO
  13  2,7  - cYANO
+ 13  3,5  - hYSON
  13  3,7  - hYSON
  13  6,8  - kNOT
  13  7,3  | nAZIS
  13  6,10 - oNOS
  13  5,10 - pSOAS
+ 13  3,5  - rAYON
  13  3,7  - rAYON
  13  6,8  - sNOT
  13 10,4  | sYBO
  12 11,8  | AKiN
+ 12  3,5  - ANYOn
  12  3,7  - ANYOn
  12  6,10 - ANaS
  12  6,2  | ANcON
@@ -799,7 +860,9 @@
  12  6,2  | ANyON
  12  8,8  | APe
  12  8,8  | APo
+ 12  4,5  - AhOY
  12  7,11 - AnTSY
+ 12  3,5  - ArSON
  12  3,7  - ArSON
  12  7,11 - ArTSY
  12  6,6  | NANaS
@@ -826,8 +889,11 @@
  12  5,10 - OASiS
  12  6,10 - ONeS
  12  6,10 - ONoS
+ 12  4,5  - OkAY
  12  9,7  - PAN
  12  7,11 - SATaY
+ 12  5,5  - SAY
+ 12  3,5  - SAlON
  12  3,7  - SAlON
  12 10,3  | SAmBO
  12  7,5  | SIZe
@@ -835,23 +901,35 @@
  12 11,8  | SKiN
  12 10,4  | SOBA
  12  7,8  - SOT
+ 12  5,5  - SOY
+ 12  3,5  - SOlAN
  12  3,7  - SOlAN
+ 12  3,5  - SOmAN
  12  3,7  - SOmAN
  12  8,11 - STAY
  12 10,4  | SYBo
+ 12  3,5  - SYNOd
  12  3,7  - SYNOd
  12  7,11 - SaTAY
  12  6,8  - ScOT
+ 12  4,5  - ShAY
  12  6,8  - ShOT
+ 12  4,5  - SlAY
  12  6,8  - SlOT
  12  6,8  - SnOT
  12  6,8  - SoOT
+ 12  4,5  - SpAY
  12  6,8  - SpOT
+ 12  4,5  - StAY
  12  6,8  - StOT
+ 12  4,5  - SwAY
  12  6,8  - SwOT
  12 11,7  | YOKeS
+ 12  5,5  - YON
  12  5,7  - YON
+ 12  4,5  - YeAN
  12  4,7  - YeAN
+ 12  4,5  - YuAN
  12  4,7  - YuAN
  12  7,5  | ZIgS
  12  7,5  | ZInS
@@ -860,11 +938,13 @@
  12  7,4  | ZOIc
  12  5,5  - Za
  12  5,7  - Za
+ 12  6,4  | ZeN
  12  6,11 - ZeST
  12  7,11 - ZeTA
  12  6,4  | ZiN
  12  7,11 - ZiTS
  12  6,2  | cANON
+ 12  4,5  - cYAN
  12  4,7  - cYAN
  12  6,2  | fANON
  12  6,2  | hONAN
@@ -877,6 +957,9 @@
  11 10,5  | ABO
  11 11,7  | ANKhS
  11 11,7  | ANKuS
+ 11  6,5  - AY
+ 11  4,5  - AYiN
+ 11  4,7  - AYiN
  11  6,10 - AbOS
  11  6,10 - AdOS
  11 10,4  | AmBO
@@ -885,7 +968,9 @@
  11 11,9  | KeN
  11 11,9  | KiN
  11 10,4  | NABe
+ 11  5,5  - NaY
  11 10,5  | OBA
+ 11  6,5  - OY
  11  6,10 - ObAS
  11  6,10 - OcAS
  11  6,10 - OdAS
@@ -907,6 +992,7 @@
  11  9,11 - TOY
  11  7,3  | YONIS
  11  3,5  - YONi
+ 11  3,7  - YONi
  11  3,5  - YOgA
  11  3,7  - YOgA
  11  7,3  | YOgINS
@@ -915,57 +1001,91 @@
  11  7,5  | ZIp
  11  7,5  | ZIt
  11  7,11 - ZiT
+ 11  5,5  - bAY
  11  7,5  | bIZ
  11  6,10 - bOAS
  11  7,8  - bOT
+ 11  5,5  - bOY
+ 11  5,5  - cAY
+ 11  8,4  | cOQ
  11  7,8  - cOT
+ 11  5,5  - cOY
  11  7,11 - cYTON
+ 11  5,5  - dAY
  11  7,8  - dOT
+ 11  8,4  | eSQ
+ 11  5,5  - fAY
  11  7,5  | fIZ
+ 11  5,5  - fOY
+ 11  5,5  - gAY
  11  6,10 - gOAS
  11  7,8  - gOT
+ 11  5,5  - gOY
+ 11  5,5  - hAY
  11  7,8  - hOT
+ 11  5,5  - hOY
  11  3,5  - hOYAS
  11  3,7  - hOYAS
  11 10,4  | iSBA
+ 11  5,5  - jAY
  11  7,8  - jOT
+ 11  5,5  - jOY
+ 11  5,5  - kAY
  11  3,5  - kAYOS
  11  3,7  - kAYOS
  11  6,10 - kOAS
+ 11  5,5  - lAY
+ 11  8,4  | lOQ
  11  7,8  - lOT
+ 11  3,5  - mASON
  11  3,7  - mASON
+ 11  5,5  - mAY
  11  3,5  - mAYOS
  11  3,7  - mAYOS
  11  6,10 - mOAS
  11  7,8  - mOT
  11  7,2  | mYOSIN
  11  6,10 - nAOS
+ 11  5,5  - nAY
  11  7,8  - nOT
  11  7,8  - oOT
+ 11  5,5  - pAY
  11  7,8  - pOT
+ 11  5,5  - rAY
  11  7,8  - rOT
+ 11  5,5  - sAY
  11 10,4  | sOBA
  11  7,8  - sOT
+ 11  5,5  - sOY
  11  3,5  - sOYAS
  11  3,7  - sOYAS
  11  8,11 - sTAY
  11  6,10 - tAOS
  11  7,8  - tOT
+ 11  5,5  - tOY
+ 11  5,5  - wAY
  11  7,5  | wIZ
  11  7,8  - wOT
+ 11  5,5  - yAY
  10  6,4  | ANNOYS
  10  6,3  | ANONYmS
  10  3,5  - ANOaS
  10  3,7  - ANOaS
+ 10  4,5  - AeON
  10  4,7  - AeON
+ 10  4,5  - AgON
  10  4,7  - AgON
+ 10  4,5  - AnON
  10  4,7  - AnON
  10  6,2  | ArSON
  10 11,7  | AsKOS
+ 10  4,5  - AxON
  10  4,7  - AxON
+ 10  4,5  - AzON
  10  4,7  - AzON
  10 10,6  | BA
  10 10,6  | BO
+ 10 10,9  | Co
  10  4,5  - NAOS
  10  4,7  - NAOS
  10  7,3  | NOSIlY
@@ -1005,16 +1125,26 @@
  10  9,7  - PeN
  10  9,7  - PiN
  10 10,4  | SABe
+ 10  5,5  - SAN
+ 10  5,7  - SAN
  10  6,2  | SAlON
  10 10,4  | SOBa
+ 10  5,5  - SON
  10  5,7  - SON
  10  3,5  - SOYA
  10  3,7  - SOYA
  10  6,2  | SOlAN
  10  6,2  | SOmAN
+ 10  5,5  - SaY
+ 10  4,5  - ScAN
  10  4,7  - ScAN
+ 10  9,10 - So
+ 10  4,5  - SoON
  10  4,7  - SoON
+ 10  5,5  - SoY
+ 10  4,5  - SpAN
  10  4,7  - SpAN
+ 10  4,5  - SwAN
  10  4,7  - SwAN
  10  9,11 - ThY
  10  9,11 - ToY
@@ -1027,8 +1157,12 @@
  10  7,3  | YOgIN
  10  4,5  - YeAS
  10  4,7  - YeAS
+ 10  5,5  - YeN
  10  5,7  - YeN
  10  6,11 - YeNTAS
+ 10  5,5  - YiN
+ 10  5,7  - YiN
+ 10  5,5  - YoN
  10  5,7  - YoN
  10  7,3  | YoNIS
  10 10,5  | aBA
@@ -1042,13 +1176,17 @@
  10  3,5  - fANOS
  10  3,7  - fANOS
  10 11,7  | iNKY
+ 10  4,5  - kAON
  10  4,7  - kAON
+ 10  4,5  - kOAN
  10  4,7  - kOAN
+ 10  4,5  - lOAN
  10  4,7  - lOAN
  10 11,7  | mAKOS
  10  3,5  - mANOS
  10  3,7  - mANOS
  10  6,2  | mASON
+ 10  4,5  - mOAN
  10  4,7  - mOAN
  10  3,5  - mONAS
  10  3,7  - mONAS
@@ -1057,12 +1195,14 @@
  10 10,5  | oBA
  10  4,5  - pYAS
  10  4,7  - pYAS
+ 10  4,5  - rOAN
  10  4,7  - rOAN
  10  4,5  - rYAS
  10  4,7  - rYAS
  10  6,3  | tANNOYS
   9 10,5  | ABa
   9 10,5  | ABo
+  9  6,5  - AN
   9  6,7  - AN
   9  6,4  | ANNOY
   9  6,5  | ANNOY
@@ -1100,6 +1240,7 @@
   9 11,8  | OKaS
   9 11,8  | OKeS
   9 11,8  | OKrA
+  9  6,5  - ON
   9  6,7  - ON
   9  4,5  - OYeS
   9  4,7  - OYeS
@@ -1118,6 +1259,8 @@
   9  2,7  - SANtO
   9  7,11 - SATiN
   9  7,3  | SAYINg
+  9  4,5  - SAiN
+  9  4,7  - SAiN
   9  7,3  | SAtINY
   9 11,8  | SKY
   9 11,8  | SKuA
@@ -1127,6 +1270,7 @@
   9  3,7  - SNYe
   9  6,3  | SONNY
   9  6,4  | SONNY
+  9  4,5  - SOoN
   9  4,7  - SOoN
   9 11,7  | SYKe
   9  3,5  - SYNe
@@ -1142,6 +1286,8 @@
   9 11,7  | YAK
   9 11,7  | YAKs
   9  7,3  | YAgIS
+  9  4,5  - YNO
+  9  4,7  - YNO
   9 11,7  | YOK
   9 11,7  | YOKe
   9 11,7  | YOKs
@@ -1157,53 +1303,83 @@
   9  4,7  - aNAS
   9  6,4  | aNNOYS
   9  4,5  - aNOA
+  9  6,5  - aY
+  9  5,5  - bAN
   9  5,7  - bAN
   9  7,11 - bATON
+  9  5,5  - bON
+  9  5,7  - bON
   9 11,7  | cAKY
+  9  5,5  - cAN
   9  5,7  - cAN
   9  2,5  - cANSO
   9  2,7  - cANSO
   9  6,4  | cANYON
   9 11,7  | cOKY
+  9  5,5  - cON
   9  5,7  - cON
   9  7,11 - cOTAN
+  9  5,5  - dAN
   9  5,7  - dAN
+  9  5,5  - dON
   9  5,7  - dON
+  9  5,5  - eON
   9  5,7  - eON
+  9  5,5  - fAN
   9  5,7  - fAN
+  9  5,5  - fON
   9  5,7  - fON
+  9  5,5  - gAN
   9  5,7  - gAN
+  9  5,5  - hON
   9  5,7  - hON
+  9  5,5  - iON
   9  5,7  - iON
   9 11,7  | jOKY
   9 11,7  | lAKY
+  9  5,5  - mAN
   9  5,7  - mAN
+  9  5,5  - mON
   9  5,7  - mON
   9  3,5  - mYNA
   9  3,7  - mYNA
+  9  5,5  - nAN
   9  5,7  - nAN
   9 11,7  | oAKY
   9 11,8  | oKAS
   9  4,5  - oNOS
   9  4,7  - oNOS
+  9  6,5  - oY
+  9  5,5  - pAN
   9  5,7  - pAN
   9 11,7  | pOKY
+  9  5,5  - rAN
   9  5,7  - rAN
+  9  5,5  - sAN
+  9  5,7  - sAN
   9 11,8  | sKAS
+  9  5,5  - sON
   9  5,7  - sON
+  9  5,5  - tAN
   9  5,7  - tAN
   9  6,3  | tANNOY
   9  6,4  | tANNOY
+  9  5,5  - tON
   9  5,7  - tON
+  9  5,5  - vAN
   9  5,7  - vAN
+  9  5,5  - wAN
   9  5,7  - wAN
+  9  5,5  - wON
   9  5,7  - wON
+  9  5,5  - yON
   9  5,7  - yON
   8 10,5  - AN
   8 11,7  | ANKh
   8  6,4  | ANNoY
   8  6,5  | ANNoY
   8  4,5  - ANOa
+  8  4,5  - ANOn
   8  4,7  - ANOn
   8  6,5  | ANYoN
   8  4,5  - ANaS
@@ -1211,6 +1387,7 @@
   8  4,5  - ANeS
   8  4,7  - ANeS
   8  4,5  - ANiS
+  8  4,7  - ANiS
   8  4,5  - ANuS
   8  4,7  - ANuS
   8 11,7  | ASKOi
@@ -1220,6 +1397,8 @@
   8  4,7  - AbOS
   8  4,5  - AdOS
   8  4,7  - AdOS
+  8  5,5  - AiN
+  8  5,7  - AiN
   8  6,4  | AnNOYS
   8  4,5  - ApOS
   8  4,7  - ApOS
@@ -1233,12 +1412,14 @@
   8 11,9  | KYe
   8 11,9  | KaS
   8 11,9  | KeA
+  8 11,9  | KeS
   8 11,9  | KiS
   8 11,9  | KoA
   8 11,9  | KoS
   8  6,4  | NANcY
   8  6,4  | NANnY
   8  3,5  - NAOi
+  8  3,7  - NAOi
   8  4,5  - NAOs
   8  4,7  - NAOs
   8  7,3  | NASIOn
@@ -1280,14 +1461,17 @@
   8  5,11 - SANiTY
   8  4,5  - SNAg
   8  4,5  - SNAp
+  8  4,7  - SNAp
   8 10,3  | SNOB
   8  4,5  - SNOb
+  8  4,7  - SNOb
   8  4,5  - SNOg
   8  5,11 - SNOoTY
   8  4,5  - SNOt
   8  4,7  - SNOt
   8  5,11 - SNOtTY
   8  5,11 - SNOuTY
+  8  6,8  - SNiT
   8  5,11 - SNoOTY
   8  6,8  - SNoT
   8  7,10 - SOS
@@ -1295,14 +1479,21 @@
   8  3,7  - SOYa
   8  8,11 - STuN
   8  6,11 - SYNTAx
+  8  5,5  - SaN
+  8  5,7  - SaN
   8  5,11 - ScANTY
+  8  5,5  - SeN
   8  5,7  - SeN
   8  5,11 - ShANTY
+  8  5,5  - SiN
+  8  5,7  - SiN
   8  5,11 - SlANTY
+  8  5,5  - SoN
   8  5,7  - SoN
   8  6,3  | SoNNY
   8  6,4  | SoNNY
   8  4,5  - StOA
+  8  5,5  - SuN
   8  5,7  - SuN
   8  6,3  | SuNNY
   8  6,4  | SuNNY
@@ -1314,12 +1505,17 @@
   8  5,5  - YAk
   8  5,5  - YAm
   8  5,5  - YAp
+  8  5,7  - YAp
+  8  5,5  - YAy
   8 10,4  | YOB
   8  5,5  - YOb
+  8  5,7  - YOb
+  8  5,5  - YOd
   8  5,7  - YOd
   8  7,3  | YOgI
   8  5,5  - YOk
   8  5,5  - YOm
+  8  5,5  - YOn
   8  5,7  - YOn
   8  7,3  | YOnI
   8 11,7  | YaK
@@ -1415,15 +1611,19 @@
   7  7,11 - NATeS
   7  6,6  | NAYS
   7  5,5  - NAb
+  7  5,7  - NAb
   7  7,3  | NAbIS
   7  5,5  - NAg
   7  5,5  - NAh
   7  5,5  - NAm
+  7  5,5  - NAn
   7  5,7  - NAn
   7  5,5  - NAp
+  7  5,7  - NAp
   7  7,3  | NArIS
   7  6,11 - NAsTY
   7  6,11 - NAtTY
+  7  5,5  - NAy
   7  7,3  | NAzIS
   7 10,4  | NOB
   7  7,4  | NOIlY
@@ -1432,6 +1632,8 @@
   7  6,6  | NOSY
   7  7,11 - NOTeS
   7  5,5  - NOb
+  7  5,7  - NOb
+  7  5,5  - NOd
   7  5,7  - NOd
   7  5,5  - NOg
   7  5,5  - NOh
@@ -1444,6 +1646,8 @@
   7  5,5  - NOt
   7  5,7  - NOt
   7  6,11 - NaSTY
+  7 11,7  | NeK
+  7  7,8  - NiT
   7  7,4  | NoISY
   7  5,5  - NoO
   7  5,5  - NoS
@@ -1491,6 +1695,7 @@
   7 10,3  | SNuB
   7  4,5  - SOAk
   7  4,5  - SOAp
+  7  4,7  - SOAp
   7 11,7  | SOKe
   7  6,4  | SONANt
   7  3,5  - SONe
@@ -1536,6 +1741,8 @@
   7  6,3  | YArNS
   7  6,3  | YAwNS
   7  7,5  | YINS
+  7  4,5  - YNo
+  7  4,7  - YNo
   7  5,5  - YO
   7  5,7  - YO
   7  6,4  | YONiS
@@ -1543,11 +1750,14 @@
   7  4,7  - YeA
   7  6,3  | YeANS
   7  6,11 - YeNTA
+  7  4,5  - YnO
+  7  4,7  - YnO
   7 10,4  | YoB
   7  6,3  | YuANS
   7  5,5  - aAS
   7  5,7  - aAS
   7  7,10 - aAS
+  7  6,5  - aN
   7  6,7  - aN
   7  3,5  - aNOA
   7  3,7  - aNOA
@@ -1580,6 +1790,7 @@
   7  5,5  - dOS
   7  5,7  - dOS
   7  7,10 - dOS
+  7  6,5  - eN
   7  6,7  - eN
   7  3,5  - fANO
   7  3,7  - fANO
@@ -1599,6 +1810,8 @@
   7  5,5  - hOS
   7  5,7  - hOS
   7  7,10 - hOS
+  7  6,5  - iN
+  7  6,7  - iN
   7 11,7  | iNK
   7  6,11 - jANTY
   7  5,5  - kAS
@@ -1631,7 +1844,11 @@
   7  5,7  - nOS
   7  7,10 - nOS
   7 11,7  | oAKS
+  7  6,5  - oN
   7  6,7  - oN
+  7  5,5  - oOS
+  7  5,7  - oOS
+  7  7,10 - oOS
   7  6,4  | pANSY
   7  6,11 - pANTY
   7  5,5  - pAS
@@ -1660,6 +1877,7 @@
   7  5,7  - tAS
   7  7,10 - tAS
   7  5,11 - tOASTY
+  7  6,5  - uN
   7  6,7  - uN
   7  6,5  | uNSAY
   7  5,5  - vAS
@@ -1710,7 +1928,9 @@
   6 10,5  - Ah
   6 10,5  - Ai
   6  5,5  - AiS
+  6  5,7  - AiS
   6  7,10 - AiS
+  6  7,8  - AiT
   6 10,5  - Al
   6  7,3  | AlOIN
   6  7,11 - AlTOS
@@ -1732,6 +1952,7 @@
   6 11,9  | KAb
   6 11,9  | KAe
   6 11,9  | KAf
+  6 11,9  | KAi
   6 11,9  | KAs
   6 11,9  | KAt
   6 11,9  | KAy
@@ -1783,6 +2004,8 @@
   6  6,6  | NoSY
   6 10,4  | NuB
   6  7,11 - OAThS
+  6  5,5  - OAd
+  6  5,7  - OAd
   6  5,5  - OAf
   6  5,7  - OAf
   6  5,5  - OAk
@@ -1797,6 +2020,9 @@
   6  5,5  - OeS
   6  5,7  - OeS
   6  7,10 - OeS
+  6  5,5  - OoS
+  6  5,7  - OoS
+  6  7,10 - OoS
   6  7,8  - OoT
   6  7,3  | OpSIN
   6  7,3  | OrNIS
@@ -1808,12 +2034,17 @@
   6  7,11 - SATYr
   6  5,11 - SAYsT
   6  5,5  - SAb
+  6  5,7  - SAb
   6  7,3  | SAbIN
+  6  5,5  - SAd
   6  5,7  - SAd
   6  5,5  - SAg
   6  5,5  - SAl
   6  6,11 - SAlTY
+  6  5,5  - SAn
+  6  5,7  - SAn
   6  5,5  - SAp
+  6  5,7  - SAp
   6  7,3  | SArIN
   6  7,3  | SAsIN
   6  5,5  - SAt
@@ -1821,6 +2052,7 @@
   6  7,3  | SAtIN
   6  7,3  | SAvIN
   6  5,5  - SAx
+  6  5,5  - SAy
   6 11,8  | SKa
   6 11,8  | SKi
   6 11,8  | SKy
@@ -1834,20 +2066,25 @@
   6  6,4  | SONNy
   6  5,11 - SONaTA
   6  5,5  - SOb
+  6  5,7  - SOb
+  6  5,5  - SOd
   6  5,7  - SOd
   6  6,11 - SOfTY
   6  5,5  - SOl
   6  5,5  - SOm
+  6  5,5  - SOn
   6  5,7  - SOn
   6  4,11 - SOnANT
   6  6,11 - SOoTY
   6  5,5  - SOp
+  6  5,7  - SOp
   6 10,3  | SOrB
   6  5,5  - SOs
   6  5,7  - SOs
   6  5,5  - SOt
   6  5,7  - SOt
   6  5,5  - SOx
+  6  5,5  - SOy
   6  7,3  | SOzIN
   6  8,11 - STOA
   6  6,4  | SYN
@@ -1859,6 +2096,7 @@
   6  6,3  | SeNNA
   6  6,4  | SeNNA
   6  7,10 - SiS
+  6  7,8  - SiT
   6 10,3  | SlAB
   6  7,3  | SlAIN
   6  6,11 - SlATY
@@ -1882,6 +2120,7 @@
   6  6,3  | YAwN
   6  7,5  | YIN
   6  7,5  | YINs
+  6  6,5  | YNO
   6  6,4  | YON
   6  6,4  | YONd
   6  6,4  | YONi
@@ -1919,8 +2158,10 @@
   6  8,11 - eTNA
   6  6,4  | fANON
   6  7,11 - fATSO
+  6 11,7  | gAK
   6  6,11 - hASTY
   6  6,4  | hONAN
+  6 10,5  - iN
   6  7,11 - iOTAS
   6  7,11 - jATOS
   6  7,11 - jOTAS
@@ -1959,6 +2200,8 @@
   6 11,7  | wOK
   6  6,4  | wYNS
   6 11,7  | yAK
+  6  4,5  - yNO
+  6  4,7  - yNO
   6 11,7  | yOK
   6  6,4  | zANY
   5 10,5  | AB
@@ -1979,6 +2222,7 @@
   5  4,7  - ANe
   5  5,11 - ANgST
   5  4,5  - ANi
+  5  4,7  - ANi
   5  6,3  | ANoN
   5  6,5  | ANoN
   5  7,3  | ANtI
@@ -1987,8 +2231,10 @@
   5  7,4  | AYIn
   5  6,5  - Aa
   5  6,5  - Ab
+  5  6,7  - Ab
   5  4,5  - AbO
   5  4,7  - AbO
+  5  6,5  - Ad
   5  6,7  - Ad
   5  4,5  - AdO
   5  4,7  - AdO
@@ -2003,6 +2249,7 @@
   5  6,5  - Am
   5  7,4  | AmINO
   5  7,4  | AmINS
+  5  6,5  - An
   5  6,7  - An
   5  7,4  | AnION
   5  4,5  - ApO
@@ -2020,6 +2267,7 @@
   5  6,5  - Ax
   5  7,4  | AxION
   5  6,3  | AxONS
+  5  6,5  - Ay
   5  7,4  | AyINS
   5  4,5  - AzO
   5  4,7  - AzO
@@ -2087,6 +2335,7 @@
   5  4,7  - ObA
   5  4,5  - OcA
   5  4,7  - OcA
+  5  6,5  - Od
   5  6,7  - Od
   5  4,5  - OdA
   5  4,7  - OdA
@@ -2096,8 +2345,11 @@
   5  4,5  - OkA
   5  4,7  - OkA
   5  6,5  - Om
+  5  6,5  - On
   5  6,7  - On
+  5  6,5  - Oo
   5  6,5  - Op
+  5  6,7  - Op
   5  4,5  - OrA
   5  4,7  - OrA
   5 10,4  | OrB
@@ -2107,10 +2359,13 @@
   5  4,5  - OvA
   5  4,7  - OvA
   5  6,5  - Ox
+  5  6,5  - Oy
   5  8,9  | Pa
   5  8,9  | Pe
   5  8,9  | Pi
   5  8,9  | Po
+  5  5,5  - SA
+  5  5,7  - SA
   5  7,4  | SAIN
   5  7,4  | SAINs
   5  7,4  | SAINt
@@ -2153,11 +2408,14 @@
   5  9,11 - TAS
   5  7,5  | YInS
   5  7,5  | YIpS
+  5  6,5  | YNo
   5  5,5  - Ya
   5  5,7  - Ya
   5  5,5  - Ye
   5  5,7  - Ye
   5  6,4  | YeN
+  5  5,5  - Yi
+  5  5,7  - Yi
   5  6,4  | YiN
   5  5,5  - Yo
   5  5,7  - Yo
@@ -2194,6 +2452,7 @@
   5  7,3  | dANIO
   5  6,4  | dONAS
   5  7,11 - dOTY
+  5  6,5  - eO
   5  7,3  | eOSIN
   5  6,5  - eS
   5  6,7  - eS
@@ -2217,8 +2476,12 @@
   5 10,4  | hOB
   5  6,4  | iNNS
   5  6,5  | iNNS
+  5  8,8  | iP
   5  6,5  - iS
+  5 10,5  - iS
+  5  6,7  - iS
   5  8,10 - iS
+  5  8,8  - iT
   5 10,4  | jAB
   5 10,4  | jOB
   5  7,4  | jOINS
@@ -2245,6 +2508,7 @@
   5 10,4  | nAB
   5 10,4  | nOB
   5  6,4  | nONAS
+  5  6,5  - oO
   5  6,5  - oS
   5  6,7  - oS
   5  8,10 - oS
@@ -2378,6 +2642,8 @@
   4  6,11 - NeAT
   4  6,11 - NeST
   4  7,11 - NeTS
+  4  5,5  - Ni
+  4  5,7  - Ni
   4  7,11 - NiTS
   4  5,5  - No
   4  5,7  - No
@@ -2402,6 +2668,7 @@
   4  7,4  | ObIAS
   4  7,4  | OhIAS
   4  6,4  | OwNS
+  4  6,4  | SAN
   4  6,4  | SANd
   4  6,4  | SANe
   4  6,4  | SANg
@@ -2472,6 +2739,7 @@
   4  9,11 - ToO
   4  9,11 - TwA
   4  9,11 - TwO
+  4  7,5  | YI
   4  7,5  | YIn
   4  7,5  | YIp
   4  7,11 - YeT
@@ -2498,12 +2766,16 @@
   4  6,4  | cANS
   4  6,11 - cANT
   4  7,5  | cION
+  4  5,5  - cO
+  4  5,7  - cO
   4  5,11 - cOAST
   4  6,11 - cOATS
   4  7,4  | cOIN
   4  7,3  | cONI
   4  6,4  | cONS
   4  6,11 - cOSTA
+  4  5,5  - dA
+  4  5,7  - dA
   4  6,4  | dANS
   4  7,5  | dINO
   4  7,5  | dINS
@@ -2512,6 +2784,8 @@
   4  6,11 - dOATS
   4  6,4  | dONA
   4  6,4  | dONS
+  4  5,5  - eO
+  4  5,7  - eO
   4  6,4  | eONS
   4  5,5  - fA
   4  5,7  - fA
@@ -2538,6 +2812,7 @@
   4  5,7  - hO
   4  6,4  | hONS
   4  6,11 - hOSTA
+  4 10,5  | iB
   4  7,4  | iNIA
   4  6,4  | iNN
   4  6,5  | iNN
@@ -2587,6 +2862,8 @@
   4  6,4  | nONA
   4  6,5  | oNOS
   4  7,11 - oNTO
+  4  5,5  - oO
+  4  5,7  - oO
   4  5,5  - pA
   4  5,7  - pA
   4  7,4  | pAIN
@@ -2605,6 +2882,8 @@
   4  7,5  | rINS
   4  6,3  | rOAN
   4  5,11 - rOAST
+  4  5,5  - sA
+  4  5,7  - sA
   4  7,4  | sAIN
   4  6,4  | sANS
   4  7,5  | sINS
@@ -2671,6 +2950,7 @@
   3  7,4  | AgIO
   3  7,4  | AhIS
   3  5,5  - Ai
+  3  5,7  - Ai
   3  6,4  | AiN
   3  7,11 - AiTS
   3  7,11 - AlTO
@@ -2698,6 +2978,7 @@
   3  6,6  | NAp
   3  6,6  | NAw
   3  6,6  | NAy
+  3  7,5  | NI
   3  7,5  | NIb
   3  7,5  | NIl
   3  7,5  | NIm
@@ -2740,6 +3021,9 @@
   3  5,7  - Oe
   3  7,4  | OhIA
   3  5,5  - Oi
+  3  5,7  - Oi
+  3  5,5  - Oo
+  3  5,7  - Oo
   3  7,11 - OoTS
   3  7,11 - OpTS
   3  7,11 - OrTS
@@ -2775,6 +3059,9 @@
   3  8,11 - STOp
   3  8,11 - STOt
   3  8,11 - STOw
+  3  5,5  - Sa
+  3  5,7  - Sa
+  3  6,4  | SaN
   3  6,11 - ScAT
   3  6,11 - ScOT
   3  6,11 - SeAT
@@ -2783,6 +3070,7 @@
   3  6,11 - ShAT
   3  6,11 - ShOT
   3  5,5  - Si
+  3  5,7  - Si
   3  6,4  | SiN
   3  6,11 - SkAT
   3  6,11 - SlAT
@@ -2811,6 +3099,7 @@
   3  7,5  | bIN
   3  7,5  | bIOS
   3  6,11 - bOAT
+  3  6,4  | bON
   3  7,11 - bOTA
   3  7,11 - bOTS
   3  6,4  | cAN
@@ -2901,6 +3190,7 @@
   3  7,5  | rIN
   3  7,11 - rOTA
   3  7,11 - rOTS
+  3  6,4  | sAN
   3  7,5  | sIN
   3  6,4  | sON
   3  7,11 - sOTS
@@ -2923,6 +3213,7 @@
   3  6,11 - wOST
   3  7,11 - wOTS
   3  7,5  | yIN
+  3  6,5  | yNO
   3  6,4  | yON
   3  7,5  | zIN
   2  7,5  | AI
@@ -2933,6 +3224,7 @@
   2  7,5  | AIr
   2  7,5  | AIs
   2  7,5  | AIt
+  2  7,5  | AIx
   2  8,11 - AT
   2  8,11 - ATe
   2  8,11 - ATt
@@ -2956,6 +3248,7 @@
   2  7,6  | ItS
   2  6,6  | Na
   2  6,6  | Ne
+  2  6,6  | Ni
   2  6,6  | No
   2  6,6  | Nu
   2  7,5  | OI
@@ -3034,10 +3327,13 @@
   2  7,11 - gOT
   2  7,11 - hAT
   2  7,5  | hIS
+  2  7,4  | hOI
   2  7,11 - hOT
   2  6,5  | iN
   2  8,11 - iTS
+  2  7,4  | jAI
   2  7,11 - jOT
+  2  7,4  | kAI
   2  7,11 - kAT
   2  7,5  | kIS
   2  7,4  | kOI
@@ -3080,9 +3376,11 @@
   2  7,5  | wIS
   2  7,11 - wOT
   2  7,5  | xIS
+  1  7,6  | Ib
   1  7,6  | Id
   1  7,6  | If
   1  7,6  | In
+  1  7,6  | Ip
   1  7,6  | Is
   1  7,6  | It
   1  9,11 - Ta
@@ -3092,6 +3390,7 @@
   1  7,5  | aI
   1  8,11 - aT
   1  7,5  | bI
+  1  7,5  | dI
   1  8,11 - eT
   1  7,5  | fI
   1  7,5  | gI
@@ -3100,6 +3399,7 @@
   1  7,5  | kI
   1  7,5  | lI
   1  7,5  | mI
+  1  7,5  | nI
   1  7,5  | oI
   1  7,5  | pI
   1  7,5  | qI
@@ -3107,3 +3407,4 @@
   1  7,5  | tI
   1  8,11 - uT
   1  7,5  | xI
+  1  7,5  | yI

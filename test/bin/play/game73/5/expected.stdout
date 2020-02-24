@@ -1,3 +1,6 @@
+ 54  1,8  | DORP
+ 54  1,8  | DRIP
+ 54  1,8  | DROP
  51  1,9  | DIP
  50  1,8  | TRIP
  50  1,8  | TROP
@@ -13,6 +16,7 @@
  42  8,2  | SOP
  42  1,9  - TePID
  39  1,9  - DePOT
+ 36  1,9  | PIR
  36  1,9  | PIT
  36  1,9  | POI
  36  1,9  | POT
@@ -23,6 +27,7 @@
  35  7,1  - TOPI
  33  1,9  - PeDRO
  33  1,9  - PeRIOD
+ 32  3,8  | DORP
  32  3,8  | DRIP
  32  3,8  | DROP
  32  7,1  - TIP
@@ -34,11 +39,14 @@
  30  8,2  | SOD
  29  1,8  | POD
  28  1,3  | DIP
+ 28  3,8  | TOPI
  28  3,8  | TRIP
  28  3,8  | TROP
+ 27  1,8  | DOIT
  27  1,9  | OPT
  27  1,9  | PI
  27  1,9  | PO
+ 27  3,7  | PROD
  27  1,9  - PeTIT
  27  1,9  - PeTTI
  27  1,9  - PeTTO
@@ -56,7 +64,9 @@
  26  7,1  - TORI
  26  7,1  - TORT
  25  1,3  - DIB
+ 25  3,7  | PIR
  25  3,7  | PIT
+ 25  3,7  | PRO
  25  1,3  | RIP
  25  1,3  | TIP
  25  1,3  | TOP
@@ -65,6 +75,8 @@
  24  1,9  | DOT
  24  1,9  - PeD
  24  8,2  | SOT
+ 23  3,8  | DOIT
+ 23  3,9  | OPT
  23  1,8  | PO
  23  3,9  | RIP
  23  3,9  | TIP
@@ -90,12 +102,20 @@
  21  1,9  - PeRI
  21  1,9  - PeRT
  20  8,1  - OPT
+ 19  4,4  | OPT
  19  4,5  | PROD
+ 19  3,8  | ROTI
+ 19  3,8  | TOIT
+ 19  3,8  | TORI
+ 19  3,8  | TORT
  19  3,8  | TRIO
  19  4,5  | TRIP
  19  4,5  | TROP
  19  3,8  | TROT
+ 18  1,8  | DOR
+ 18  1,8  | DOT
  18  6,4  - KIP
+ 18  4,4  | OP
  18  1,9  | OP
  18  1,9  | ORT
  18  1,9  - PeR
@@ -106,6 +126,7 @@
  18  1,9  | TOR
  18  1,9  | TOT
  18  1,9  - TeTRI
+ 17  8,1  - IP
  17  8,1  - OP
  17  5,5  | POD
  17  5,5  | PORT
@@ -116,17 +137,22 @@
  17  1,3  | TOD
  17  1,8  | TOD
  17  3,9  | TOD
+ 17  3,7  | TROP
  16  6,3  - OXID
  16  5,5  | POI
  16  4,5  | PORT
  16  5,5  | POT
  16  7,1  - TI
  16  7,1  - TO
+ 15  1,9  | DI
+ 15  1,8  | DO
  15  1,9  | DO
  15  5,5  | PO
  15  1,9  - ReD
  15  1,8  - TARP
+ 15  3,7  | TROD
  15  1,9  - TeD
+ 14  3,9  | ORT
  14  4,5  | POD
  14  3,9  | ROT
  14  3,7  | TIRO
@@ -135,10 +161,12 @@
  14  3,9  | TOR
  14  1,8  | TOT
  14  3,9  | TOT
+ 14  3,7  | TROT
  13  3,1  - JO
  13  4,1  | OI
  13  1,8  - PARDI
  13  1,8  - PAROTID
+ 13  4,5  | PIR
  13  4,5  | PIT
  13  4,5  | POI
  13  4,5  | POT
@@ -148,6 +176,7 @@
  13  4,5  | TROD
  13  2,7  - UPDO
  12  1,7  - DUP
+ 12  1,4  | IP
  12  6,4  - KID
  12  1,9  | OD
  12  1,4  | OP
@@ -172,11 +201,14 @@
  11  5,5  | ROTI
  11  1,5  - TALIPES
  11  1,8  | TO
+ 11  3,8  | TOP
  11  1,7  - TUP
  11  2,7  - UPO
  10  2,8  - APOD
  10  2,8  - APORT
  10  2,8  - ATRIP
+ 10  3,8  | DOR
+ 10  3,8  | DOT
  10  6,5  - ESPRIT
  10  5,6  | OPT
  10  1,8  - PADI
@@ -200,8 +232,12 @@
  10  2,9  - eDITOR
   9  2,8  - ADROIT
   9  2,8  - ATOP
+  9  3,9  | DI
+  9  3,8  | DO
   9  3,9  | DO
   9  6,5  - ESTOP
+  9  2,2  | GI
+  9  2,3  - IB
   9  6,4  - KIR
   9  6,4  - KIT
   9  1,9  | OI
@@ -214,10 +250,12 @@
   9  1,7  - PUTT
   9  1,8  - RAID
   9  1,8  - RAPT
+  9  3,8  | ROD
   9  1,9  - ReT
   9  3,7  | TI
   9  1,9  | TI
   9  1,9  | TO
+  9  3,8  | TOD
   9  1,9  - TeT
   8  2,8  - AID
   8  2,8  - APO
@@ -228,6 +266,7 @@
   8  8,1  - IT
   8  1,4  | OD
   8  8,1  - OI
+  8  3,9  | OP
   8  8,1  - OR
   8  4,6  - PRY
   8  1,7  - PUR
@@ -235,7 +274,10 @@
   8  1,8  - RADIO
   8  5,5  - RESID
   8  5,5  - RESOD
+  8  3,8  | ROT
   8  4,5  | TOD
+  8  3,8  | TOR
+  8  3,8  | TOT
   8  2,7  - URP
   7  2,8  - ADIT
   7  2,5  - ALP
@@ -257,6 +299,7 @@
   7  1,8  - RATIO
   7  1,8  - TAROT
   7  4,5  | TIT
+  7  3,8  | TO
   7  4,5  | TOR
   7  4,5  | TOT
   7  1,7  - TURD
@@ -269,6 +312,7 @@
   6  1,7  - DUI
   6  1,7  - DUO
   6  1,9  - De
+  6  3,9  | OD
   6  5,6  | OI
   6  5,6  | OR
   6  1,8  - PAR
@@ -288,6 +332,8 @@
   5  2,8  - ART
   5  2,8  - ATT
   5  1,5  - DAL
+  5  3,9  | OI
+  5  3,9  | OR
   5  1,7  - OUR
   5  1,7  - OUT
   5  1,8  - PA
@@ -300,8 +346,10 @@
   5  1,7  - TUI
   5  1,7  - TUT
   4  2,5  - ALT
+  4  3,4  - EO
   4  3,4  - ER
   4  3,4  - ET
+  4  1,8  - OAD
   4  5,6  - OY
   4  1,8  - RAD
   4  5,5  - REST
@@ -310,6 +358,7 @@
   4  2,7  - UT
   4  2,9  - eD
   3  2,8  - AD
+  3  1,8  - DA
   3  1,8  - OAR
   3  1,8  - OAT
   3  5,5  - OES
@@ -330,5 +379,6 @@
   2  5,1  | OS
   2  8,1  | OS
   2  1,8  - TA
+  2  2,9  - eO
   2  2,9  - eR
   2  2,9  - eT

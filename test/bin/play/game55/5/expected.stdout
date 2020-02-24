@@ -3,10 +3,13 @@
  31  3,1  | ULNA
  28  3,1  | TUNA
  25  3,1  | TOLA
+ 24  7,10 - ULAN
+ 24  7,10 - ULNA
  23  1,11 - AND
  23  1,11 - OLD
  22  3,1  | LOTA
  22  3,1  | NOTA
+ 22  7,10 - UNTO
  18  6,1  | LUNATE
  17  8,10 - LUNA
  17  8,10 - LUNT
@@ -35,6 +38,7 @@
  14  8,10 - TOLU
  14  2,8  - TOYON
  14  8,10 - TUNA
+ 14  7,10 - UN
  13  1,10 | JA
  13  1,10 | JO
  13  8,10 - LOOT
@@ -42,10 +46,12 @@
  13  8,10 - NOTA
  13  8,10 - NUT
  13  2,8  | TOE
+ 13  7,10 - UTA
  12  6,2  | ATONE
  12  8,8  - AUNT
  12  8,6  | LUNET
  12  5,1  | NOLO
+ 12  8,10 - ONTO
  12  8,10 - TOLA
  12  8,8  - TOLU
  12  8,10 - TOOL
@@ -53,6 +59,7 @@
  12  8,10 - TUN
  12  8,8  - TUNA
  12  8,6  | UNLET
+ 12  7,10 - UT
  11  8,5  | ALONE
  11  8,8  - ALTO
  11  8,5  | ANOLE
@@ -101,8 +108,10 @@
  10  1,4  - NOUGAT
  10  5,2  | ONO
  10  8,8  - ONO
+ 10  8,10 - ONO
  10  5,1  | ONTO
  10  8,8  - OUT
+ 10  8,10 - OUT
  10  6,5  - TALON
  10  6,7  - TALON
  10  8,8  - TAN
@@ -187,10 +196,14 @@
   8  8,7  | NOEL
   8  6,5  - NUT
   8  6,7  - NUT
+  8  8,10 - OAT
   8  8,6  | OATEN
   8  8,7  | OLE
   8  8,7  | ONE
   8  6,5  - ONTO
+  8  6,7  - ONTO
+  8  8,8  - OO
+  8  8,10 - OOT
   8  1,4  - OUTGO
   8  8,8  - TA
   8  1,4  - TANGO
@@ -241,6 +254,7 @@
   7  8,10 - NU
   7  2,9  | OE
   7  2,9  - OF
+  7  5,3  | OO
   7  7,8  | OVA
   7  3,3  | TA
   7  8,7  | TAEL
@@ -253,6 +267,7 @@
   7  6,5  - TUN
   7  6,7  - TUN
   7  7,9  | VAT
+  7  7,9  | VU
   6  6,5  - ALT
   6  6,5  - ANT
   6  2,3  | AUNT
@@ -282,7 +297,9 @@
   6  2,4  - NOG
   6  6,3  | OATEN
   6  6,5  - ONO
+  6  6,7  - ONO
   6  6,5  - OUT
+  6  6,7  - OUT
   6  6,5  - TAN
   6  6,7  - TAN
   6  6,5  - TAU
@@ -303,6 +320,7 @@
   5  6,5  - AN
   5  6,3  | ANTE
   5  8,7  | ATE
+  5  2,10 | EO
   5  6,6  | ETNA
   5  4,4  - GAT
   5  4,4  - GOA
@@ -316,10 +334,15 @@
   5  6,3  | NOTE
   5  2,4  | NUT
   5  6,5  - OAT
+  5  6,7  - OAT
+  5  2,11 - OD
   5  6,4  | OLEA
   5  6,4  | OLEO
   5  6,5  - ON
+  5  6,7  - ON
+  5  8,10 - ON
   5  6,5  - OOT
+  5  6,7  - OOT
   5  8,7  | TAE
   5  6,4  | TAEL
   5  2,4  - TAG
@@ -356,6 +379,9 @@
   4  8,8  | OE
   4  6,4  | OLE
   4  6,4  | ONE
+  4  6,5  - OO
+  4  6,7  - OO
+  4  8,10 - OO
   4  2,4  | OUT
   4  1,5  - TA
   4  6,5  - TA
@@ -393,6 +419,8 @@
   2  6,8  | AA
   2  6,5  | AE
   2  2,5  | AT
+  2  6,6  | EO
+  2  8,9  | EO
   2  6,6  | ET
   2  8,9  | ET
   2  6,5  | OE

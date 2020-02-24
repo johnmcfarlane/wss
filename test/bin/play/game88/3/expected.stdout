@@ -4,6 +4,8 @@
  45  7,1  | SHIvAREE
  45  7,3  | pHARISEE
  39  3,1  | SElAH
+ 38  3,1  | ApHIS
+ 38  3,1  | EpHAS
  38  1,3  - EpHAS
  37  3,7  | HAEmS
  37  3,7  | HAEtS
@@ -53,13 +55,21 @@
  33  3,7  | AsHES
  33  3,7  | EcHES
  33  3,7  | EpHAS
+ 33  3,1  | SAHIb
  32  1,3  - EpHA
  32  1,3  - SHEAvE
+ 32  3,1  | cHAIS
+ 32  3,1  | cHIAS
  32  1,3  - cHIAS
+ 32  3,1  | oHIAS
  32  1,3  - oHIAS
+ 32  3,1  | rHEAS
  32  1,3  - rHEAS
+ 32  3,1  | sHEAS
  32  1,3  - sHEAS
+ 29  3,1  | ElHI
  29  3,1  | EpHA
+ 29  3,1  | HAjIS
  29  1,3  - SHEA
  29  1,3  - SHEAf
  29  1,3  - SHEAl
@@ -68,6 +78,9 @@
  27  3,7  | ApISH
  27  3,1  | SHEAf
  27  3,1  | SHEAl
+ 27  3,1  | SHEAs
+ 27  3,1  | SHEIk
+ 26  3,1  | IdEAS
  26  1,3  - IdEAS
  26  3,1  | SHEA
  26  1,3  - cHIA
@@ -77,11 +90,14 @@
  25  1,3  - SHEa
  24  4,8  - SAItH
  24  4,8  - SElAH
+ 23  3,1  | AEgIS
  23  1,3  - HIlA
+ 23  3,1  | SEpIA
  23  1,3  - SErAI
  23  1,3  - SEtAE
  23  1,3  - SHeA
  23  1,3  - SHwA
+ 23  3,1  | cHAI
  23  3,1  | cHIA
  23  3,1  | oHIA
  23  3,1  | rHEA
@@ -114,6 +130,7 @@
  20  5,3  | HAEMs
  20  3,3  - HAErES
  20  5,3  | HAeMS
+ 20  3,1  | HAjI
  20  5,1  | HAkEEMS
  20  5,3  | HAlMS
  20  5,1  | HArEEMS
@@ -138,6 +155,8 @@
  20  4,8  - SHIvA
  20  4,8  - SHIvE
  20  3,1  | SHeA
+ 20  3,1  | SHrI
+ 20  3,1  | SHuI
  20  3,1  | SHwA
  20  5,3  | SIAMEsE
  20  4,8  - SIdHE
@@ -182,6 +201,7 @@
  18  3,7  | AEdES
  18  3,7  | AEgIS
  18  3,7  | AErIE
+ 18  3,2  | AHIS
  18  4,3  - AHIS
  18  1,8  - AHIS
  18  5,4  | AIMErS
@@ -281,6 +301,7 @@
  17  3,3  - HAIl
  17  3,3  - HAIr
  17  3,3  - HAS
+ 17  3,3  | HAS
  17  2,8  - HAS
  17  3,3  - HASh
  17  2,8  - HASh
@@ -309,11 +330,13 @@
  17  5,3  | HElM
  17  1,8  - HEmS
  17  1,8  - HEnS
+ 17  1,8  - HEpS
  17  5,3  | HErM
  17  1,8  - HErS
  17  1,8  - HEtS
  17  1,8  - HEwS
  17  3,7  | HIES
+ 17  3,3  | HIS
  17  2,8  - HIS
  17  2,8  - HISn
  17  2,8  - HISs
@@ -373,6 +396,7 @@
  17  4,8  - SHeA
  17  4,8  - SHoE
  17  4,8  - SHrI
+ 17  4,8  - SHuI
  17  4,8  - SHwA
  17  4,8  - SIdH
  17  4,8  - SIgH
@@ -385,11 +409,14 @@
  17  2,3  - SpAHI
  17  1,8  - aAHS
  17  3,4  | aH
+ 17  3,2  | aHIS
  17  1,8  - aHIS
  17  3,1  | aSEA
  17  2,8  - bASH
  17  2,8  - cASH
  17  2,3  - cHAI
+ 17  3,2  | cHIA
+ 17  3,2  | cHIS
  17  1,8  - cHIS
  17  1,8  - dAHS
  17  2,8  - dASH
@@ -399,18 +426,22 @@
  17  1,8  - fEHS
  17  2,8  - fISH
  17  2,8  - gASH
+ 17  3,2  | gHIS
  17  1,8  - gHIS
  17  1,8  - hAHS
  17  2,8  - hASH
  17  1,8  - hEHS
+ 17  3,2  | kHIS
  17  1,8  - kHIS
  17  2,8  - lASH
  17  2,8  - mASH
  17  3,3  - mASHIE
  17  3,1  | mESA
  17  2,8  - mESH
+ 17  3,2  | oHIA
  17  2,8  - pASH
  17  1,8  - pEHS
+ 17  3,2  | pHIS
  17  1,8  - pHIS
  17  2,8  - pISH
  17  2,8  - rASH
@@ -418,9 +449,11 @@
  17  2,8  - sASH
  17  1,8  - sHES
  17  2,3  - tHAE
+ 17  3,2  | tHIS
  17  1,8  - tHIS
  17  3,1  | vISA
  17  2,8  - wASH
+ 17  3,1  | wEEI
  17  2,8  - wISH
  17  2,3  - yEAH
  16  3,5  - AAHS
@@ -430,6 +463,7 @@
  16  4,3  - AHI
  16  4,3  - AHIs
  16  4,3  - AHS
+ 16  3,2  | AHiS
  16  5,4  | AIMEd
  16  5,4  | AIMEr
  16  5,4  | AIMS
@@ -626,6 +660,7 @@
  15  3,3  - EAsIES
  15  1,8  - EAtS
  15  1,8  - EElS
+ 15  3,8  - ESE
  15  3,8  - ESEs
  15  3,8  - ESnE
  15  2,8  - EaSE
@@ -682,6 +717,7 @@
  15  3,7  | HEmE
  15  3,7  | HEmS
  15  3,7  | HEnS
+ 15  3,7  | HEpS
  15  3,7  | HErE
  15  3,7  | HErS
  15  3,7  | HEtS
@@ -700,11 +736,14 @@
  15  3,3  - HaE
  15  3,7  | HaE
  15  3,3  - HaS
+ 15  3,3  | HaS
  15  3,7  | HaS
  15  3,7  | HeS
  15  3,7  | HiE
+ 15  3,3  | HiS
  15  3,7  | HiS
  15  3,7  | HoE
+ 15  3,7  | HoI
  15  3,7  | HoS
  15  3,7  | HuE
  15  3,8  - ISbA
@@ -764,6 +803,7 @@
  15  2,7  - SHEAf
  15  2,7  - SHEAs
  15  2,7  - SHEEn
+ 15  2,7  - SHEEp
  15  2,7  - SHEEt
  15  8,1  | SHrIEK
  15  4,8  - SIAl
@@ -862,6 +902,7 @@
  14  4,3  - AErIE
  14  4,5  - AHA
  14 10,2  | AHIS
+ 14  3,2  | AHIs
  14  4,5  - AHS
  14  2,3  - AHa
  14  5,4  | AIMs
@@ -869,6 +910,7 @@
  14  3,8  - AS
  14  4,3  - ASH
  14  4,3  - ASHy
+ 14  3,1  | AScI
  14  3,8  - ASh
  14  3,8  - ASk
  14  3,8  - ASp
@@ -906,6 +948,8 @@
  14  3,3  - EAvES
  14  5,5  | EMdASH
  14  3,8  - ES
+ 14  3,8  - ESe
+ 14  3,8  - ESq
  14  3,8  - ESs
  14 10,1  | EcHES
  14  2,8  - EdS
@@ -920,8 +964,10 @@
  14  3,7  | HA
  14  3,5  - HAAf
  14 10,2  | HAES
+ 14  3,5  - HAEd
  14  3,5  - HAEm
  14 10,1  | HAEmS
+ 14  3,5  - HAEn
  14  1,8  - HAErES
  14  3,5  - HAEs
  14  3,5  - HAEt
@@ -965,6 +1011,7 @@
  14  2,3  - HEAl
  14 10,1  | HEAlS
  14  2,3  - HEAp
+ 14  3,7  - HEAp
  14 10,1  | HEApS
  14  2,3  - HEAr
  14 10,1  | HEArS
@@ -1029,18 +1076,24 @@
  14  5,6  | MESH
  14  5,6  | MESHy
  14  5,6  | MEtHS
+ 14  4,8  - SA
  14  4,8  - SAb
  14  4,8  - SAc
  14  4,8  - SAd
  14 10,1  | SAdHE
+ 14  3,1  | SAdI
  14  4,8  - SAe
  14  4,8  - SAg
+ 14  3,1  | SAkI
  14  4,8  - SAl
+ 14  4,8  - SAn
  14  4,8  - SAp
  14  3,3  - SArEE
+ 14  3,1  | SArI
  14 10,2  | SAsH
  14  3,3  - SAsH
  14  4,8  - SAt
+ 14  3,1  | SAtI
  14  4,8  - SAu
  14  4,8  - SAw
  14  4,8  - SAx
@@ -1052,13 +1105,16 @@
  14  4,8  - SEg
  14  4,8  - SEi
  14  4,8  - SEl
+ 14  3,1  | SEmI
  14  4,8  - SEn
  14  4,8  - SEr
  14  3,1  | SErA
  14  4,8  - SEt
  14  3,1  | SEtA
+ 14  4,8  - SEv
  14  4,8  - SEw
  14  4,8  - SEx
+ 14  3,2  | SHAd
  14 10,1  | SHAdE
  14  3,2  | SHAh
  14 10,1  | SHAkE
@@ -1072,8 +1128,12 @@
  14  6,2  | SHAvIE
  14  3,2  | SHAy
  14  2,7  - SHEA
+ 14  3,2  | SHIm
+ 14  3,2  | SHIn
  14 10,1  | SHInE
+ 14  3,2  | SHIp
  14 10,1  | SHIrE
+ 14  3,2  | SHIt
  14 10,1  | SHIvE
  14  2,3  - SHa
  14  4,8  - SI
@@ -1132,6 +1192,7 @@
  14  3,3  - dASH
  14  2,8  - dIS
  14 10,2  | dISH
+ 14  3,8  - eSE
  14  2,8  - fAS
  14 10,2  | fASH
  14  3,3  - fASH
@@ -1150,6 +1211,7 @@
  14  2,8  - hES
  14  2,8  - hIS
  14  2,8  - kAS
+ 14  2,8  - kES
  14  2,8  - kIS
  14  2,8  - lAS
  14 10,2  | lASH
@@ -1200,6 +1262,7 @@
  14  3,3  - wASH
  14  2,8  - wIS
  14 10,2  | wISH
+ 14  2,8  - xES
  14  2,8  - xIS
  14  5,4  | yAMS
  14 10,2  | yEAH
@@ -1207,8 +1270,10 @@
  14  2,8  - yES
  14  2,8  - zAS
  13  3,5  - AAH
+ 13  3,2  | AHI
  13  5,2  | AHI
  13  5,4  | AIM
+ 13  3,3  | AIS
  13  4,3  - AISlE
  13  4,3  - AIdE
  13  4,3  - AIdS
@@ -1241,12 +1306,14 @@
  13  3,5  - HAE
  13  2,7  - HAEmS
  13  1,8  - HAIrS
+ 13  3,3  | HAd
  13  2,8  - HAdES
  13  3,3  | HAh
  13  3,3  | HAj
  13  3,3  | HAm
  13  3,3  | HAp
  13  2,8  - HArES
+ 13  3,3  | HAs
  13  3,3  | HAt
  13  3,3  | HAy
  13  1,8  - HEAdS
@@ -1255,9 +1322,15 @@
  13 10,1  | HEISt
  13  1,8  - HEIrS
  13  2,8  - HErES
+ 13  3,3  | HId
  13  2,8  - HIdES
+ 13  3,3  | HIm
+ 13  3,3  | HIn
+ 13  3,3  | HIp
  13  2,8  - HIrEE
  13  2,8  - HIrES
+ 13  3,3  | HIs
+ 13  3,3  | HIt
  13  3,3  - Ha
  13  3,7  | Ha
  13  3,7  | He
@@ -1308,6 +1381,7 @@
  13  1,8  - SHIrE
  13  8,2  | SHIrK
  13  2,8  - SIdHE
+ 13  4,8  - Sa
  13  5,3  | SeAM
  13  5,3  | SeEM
  13  4,8  - Sh
@@ -1316,8 +1390,10 @@
  13  4,3  - aH
  13  3,8  - aS
  13  5,3  | bEAM
+ 13  3,2  | bIAS
  13  2,3  - bIAS
  13  3,7  - cEASE
+ 13  3,2  | dAIS
  13  5,3  | dEEM
  13  3,8  - eS
  13  3,7  - fEASE
@@ -1326,27 +1402,38 @@
  13  5,3  | hAEM
  13  3,8  - iS
  13  5,3  | jISM
+ 13  3,2  | kEAS
  13  2,3  - kEAS
+ 13  3,2  | lEAS
  13  2,3  - lEAS
  13  3,7  - lEASE
+ 13  3,2  | lEIS
  13  5,3  | mAIM
  13  5,3  | nEEM
  13  3,8  - oS
+ 13  3,2  | pEAS
  13  2,3  - pEAS
  13  3,7  - pEASE
  13  3,7  - pEISE
+ 13  3,2  | pIAS
  13  2,3  - pIAS
+ 13  3,2  | rAIS
  13  4,8  - rAISE
  13  5,3  | rEAM
+ 13  3,2  | rEIS
  13  2,7  - rHEA
+ 13  3,2  | rIAS
  13  2,3  - rIAS
  13  5,3  | sEAM
+ 13  3,2  | sEAS
  13  2,3  - sEAS
  13  5,3  | sEEM
+ 13  3,2  | sEIS
  13  3,7  - sEISE
  13  4,8  - sEISE
  13  2,7  - sHEA
  13  5,3  | tEAM
+ 13  3,2  | tEAS
  13  2,3  - tEAS
  13  3,7  - tEASE
  13  5,3  | tEEM
@@ -1355,6 +1442,7 @@
  13  3,8  - uS
  13  2,7  - wHEE
  13  2,5  - yEAH
+ 13  3,2  | yEAS
  13  2,3  - yEAS
  12  2,8  - AErIES
  12  1,8  - AHEd
@@ -1379,6 +1467,7 @@
  12  3,7  | AcHE
  12  4,3  - AgEE
  12  4,3  - AgES
+ 12  3,2  | AhIS
  12  4,3  - AhIS
  12  4,3  - AjEE
  12  4,3  - AkEE
@@ -1386,8 +1475,10 @@
  12  4,3  - AlES
  12  2,5  - AmAH
  12  4,3  - AmIE
+ 12  3,2  | AmIS
  12  4,3  - AmIS
  12  4,3  - AnES
+ 12  3,2  | AnIS
  12  4,3  - AnIS
  12  8,2  | ApEEK
  12  4,3  - ApES
@@ -1400,6 +1491,7 @@
  12  4,3  - AwEE
  12  4,3  - AwES
  12  4,3  - AxES
+ 12  3,2  | AxIS
  12  4,3  - AxIS
  12  2,5  - AyAH
  12  4,3  - AyES
@@ -1415,17 +1507,23 @@
  12 10,2  | EdHS
  12  3,7  | EdHS
  12  3,8  - EdHS
+ 12  3,2  | EgIS
  12  3,7  | ElHI
  12  3,7  | EpHA
+ 12  3,2  | ErAS
  12  2,3  - ErAS
+ 12  3,2  | EtAS
  12  2,3  - EtAS
  12 10,2  | EtHS
  12  3,7  | EtHS
+ 12  3,2  | EyAS
  12  2,3  - EyAS
  12  3,3  | HA
  12  5,3  | HA
  12  1,8  - HAEd
  12  1,8  - HAEs
+ 12  3,2  | HAIk
+ 12  3,2  | HAIl
  12  1,8  - HAIr
  12  8,2  | HAcEK
  12 10,2  | HAdE
@@ -1453,6 +1551,7 @@
  12  5,3  | HE
  12  7,3  | HEARErS
  12  7,3  | HEARsES
+ 12  3,2  | HEAd
  12  1,8  - HEAd
  12  3,2  | HEAl
  12  3,2  | HEAp
@@ -1460,6 +1559,7 @@
  12  3,2  | HEAt
  12  1,8  - HEEd
  12  7,3  | HEIREsS
+ 12  3,2  | HEIl
  12  1,8  - HEIr
  12 10,2  | HEbE
  12 10,2  | HEhS
@@ -1467,6 +1567,7 @@
  12 10,2  | HEmS
  12  7,3  | HEnRIES
  12 10,2  | HEnS
+ 12 10,2  | HEpS
  12 10,2  | HErE
  12  2,8  - HErE
  12  7,3  | HErRIES
@@ -1474,6 +1575,7 @@
  12  2,8  - HErS
  12 10,2  | HEtS
  12 10,2  | HEwS
+ 12  3,3  | HI
  12  5,3  | HI
  12  1,8  - HIEd
  12  1,8  - HIEs
@@ -1497,14 +1599,17 @@
  12 10,2  | HoES
  12 10,2  | HoSE
  12 10,2  | HuES
+ 12 10,7  | Ib
  12 10,2  | IcHS
  12 10,7  | Id
  12 10,7  | If
  12 10,7  | In
+ 12 10,7  | Ip
  12 10,7  | Is
  12 10,7  | It
  12  5,6  | MEnSH
  12  5,6  | MeSH
+ 12  5,6  | MoSH
  12  9,7  - QIS
  12  3,3  - SAbE
  12  3,3  - SAdE
@@ -1552,12 +1657,14 @@
  12 10,2  | aAHS
  12  3,2  | aHA
  12  5,2  | aHA
+ 12  3,2  | aHI
  12  5,2  | aHI
  12 10,2  | aHIS
  12  4,3  - aSEA
  12  4,3  - aSH
  12  3,3  - bASE
  12  3,3  - cASE
+ 12  3,2  | cHI
  12  5,2  | cHI
  12 10,2  | cHIS
  12 10,2  | dAHS
@@ -1571,12 +1678,14 @@
  12 10,2  | fEHS
  12  3,3  - gAES
  12 10,2  | gHEE
+ 12  3,2  | gHI
  12  5,2  | gHI
  12 10,2  | gHIS
  12  3,3  - hAES
  12 10,2  | hAHS
  12 10,2  | hEHS
  12  3,3  - kAES
+ 12  3,2  | kHI
  12  5,2  | kHI
  12 10,2  | kHIS
  12  3,3  - lASE
@@ -1584,6 +1693,7 @@
  12  3,4  - oBEAHS
  12  3,3  - pASE
  12 10,2  | pEHS
+ 12  3,2  | pHI
  12  5,2  | pHI
  12 10,2  | pHIS
  12  3,3  - rAIS
@@ -1619,6 +1729,7 @@
  11 10,2  | AHIs
  11  3,2  | AHa
  11  5,2  | AHa
+ 11  3,2  | AHi
  11  5,2  | AHi
  11  2,8  - AHs
  11  4,3  - AI
@@ -1630,8 +1741,10 @@
  11  4,3  - AIr
  11  4,3  - AIs
  11  4,3  - AIt
+ 11  4,3  - AIx
  11  5,5  | AMEEr
  11  4,3  - AS
+ 11  3,4  | AS
  11  7,1  | ASHIER
  11  1,8  - ASIdE
  11  4,3  - ASh
@@ -1640,7 +1753,9 @@
  11  4,3  - ASs
  11  3,7  | AaH
  11  3,3  - AaS
+ 11  3,3  | AaS
  11  5,4  | AiM
+ 11  3,3  | AiS
  11  2,7  - AkEES
  11  3,8  - ArISE
  11  5,4  | ArM
@@ -1713,6 +1828,7 @@
  11  2,8  - HIs
  11  5,5  | HM
  11  5,1  | HoSE
+ 11  3,4  | IS
  11  2,7  - IdEAS
  11  3,8  - IdEAS
  11  5,4  | IsM
@@ -1728,13 +1844,16 @@
  11  9,7  - QIs
  11  9,7  - QiS
  11  9,7  - QuA
+ 11  9,7  - QuE
  11  9,7  - QuI
+ 11  3,3  - SA
  11  3,3  - SAb
  11  3,3  - SAc
  11  3,3  - SAd
  11  3,3  - SAe
  11  3,3  - SAg
  11  3,3  - SAl
+ 11  3,3  - SAn
  11  3,3  - SAp
  11  2,8  - SArEE
  11  3,3  - SAt
@@ -1748,11 +1867,13 @@
  11 10,2  | SHAh
  11 10,2  | SHAm
  11 10,2  | SHAt
+ 11 10,2  | SHAw
  11  7,2  | SHEAREd
  11  7,2  | SHEAREr
  11  1,4  - SHEBEAn
  11 10,2  | SHEd
  11 10,2  | SHEs
+ 11 10,2  | SHEw
  11 10,2  | SHIm
  11 10,2  | SHIn
  11 10,2  | SHIt
@@ -1766,80 +1887,114 @@
  11  3,3  - SaE
  11  3,5  - aAH
  11  3,3  - aAS
+ 11  3,3  | aAS
  11  5,4  | aIM
+ 11  3,3  | aIS
  11  3,5  - bAH
  11  3,3  - bAS
+ 11  3,3  | bAS
  11  8,3  | bEAK
  11  7,3  | bEARISH
+ 11  3,3  | bIS
  11  7,1  | cAHIERS
  11  5,1  | cHAI
  11  5,1  | cHIA
+ 11  3,3  | cIS
  11  3,5  - dAH
  11  4,8  - dAH
  11  4,2  | dEBASES
+ 11  3,3  | dIS
  11  3,5  - fAH
  11  3,3  - fAS
+ 11  3,3  | fAS
  11  3,3  - gAE
  11  3,3  - gAS
+ 11  3,3  | gAS
  11  8,3  | gEEK
  11  5,1  | gHEE
  11  3,3  - hAE
  11  3,5  - hAH
  11  3,3  - hAS
+ 11  3,3  | hAS
+ 11  3,3  | hIS
  11 10,7  | iS
  11  5,4  | iSM
+ 11  3,3  - jAI
  11  3,3  - kAE
+ 11  3,3  - kAI
  11  3,3  - kAS
+ 11  3,3  | kAS
  11  2,3  - kEA
  11  8,3  | kEEK
+ 11  3,3  | kIS
  11  3,3  - lAS
+ 11  3,3  | lAS
  11  2,3  - lEA
  11  8,3  | lEAK
  11  8,3  | lEEK
+ 11  3,3  | lIS
  11  3,3  - mAE
  11  3,3  - mAS
+ 11  3,3  | mAS
  11  8,3  | mEEK
+ 11  3,3  | mIS
  11  3,3  - nAE
  11  3,5  - nAH
  11  5,1  | oHIA
  11  3,5  - pAH
  11  3,3  - pAS
+ 11  3,3  | pAS
  11  2,3  - pEA
  11  8,3  | pEAK
  11  8,3  | pEEK
  11  2,3  - pIA
+ 11  3,3  | pIA
+ 11  3,3  | pIS
+ 11  3,3  | qIS
  11  3,5  - rAH
  11  4,8  - rAH
  11  3,3  - rAI
  11  3,3  - rAS
+ 11  3,3  | rAS
  11  8,3  | rEEK
  11  7,1  | rEHEARS
  11  5,1  | rHEA
  11  2,3  - rIA
+ 11  3,3  | rIA
  11  3,3  - sAE
  11  2,3  - sEA
  11  8,3  | sEEK
  11  4,8  - sHA
  11  4,8  - sHE
  11  5,1  | sHEA
+ 11  3,3  | sIS
  11  3,3  - tAE
  11  3,3  - tAS
+ 11  3,3  | tAS
  11  2,3  - tEA
  11  8,3  | tEAK
  11  5,1  | tHAE
  11  5,1  | tHEE
+ 11  3,3  | tIS
  11  3,3  - vAS
+ 11  3,3  | vAS
  11  2,3  - vIA
+ 11  3,3  | vIA
+ 11  3,3  | vIS
  11  3,3  - wAE
  11  3,3  - wAS
+ 11  3,3  | wAS
  11  8,3  | wEAK
  11  7,3  | wEARISH
  11  8,3  | wEEK
  11  5,1  | wHEE
+ 11  3,3  | wIS
+ 11  3,3  | xIS
  11  3,5  - yAH
  11  5,4  | yAM
  11  2,3  - yEA
  11  3,3  - zAS
+ 11  3,3  | zAS
  10  4,5  - AAS
  10  3,5  - AAhS
  10  3,4  - ABElES
@@ -1958,6 +2113,7 @@
  10  7,3  | HaERES
  10  5,3  | He
  10  7,3  | HeARSE
+ 10  3,3  | Hi
  10  5,3  | Hi
  10  5,3  | Ho
  10  7,3  | HoARSE
@@ -1969,6 +2125,7 @@
  10  3,8  - IrES
  10  5,6  | MEAlIE
  10  5,6  | MEAnIE
+ 10  5,6  | MEH
  10  5,6  | MESA
  10  5,6  | MESAs
  10  5,6  | MESIc
@@ -1995,7 +2152,10 @@
  10  7,6  | RIcHES
  10  7,6  | RuSHEE
  10 10,1  | SAIcE
+ 10  3,2  | SAId
  10  1,8  - SAId
+ 10  3,2  | SAIl
+ 10  3,2  | SAIn
  10  2,8  - SAdE
  10  2,8  - SAdI
  10  8,2  | SAmEK
@@ -2006,6 +2166,7 @@
  10  3,2  | SEAl
  10  3,2  | SEAm
  10  1,8  - SEAr
+ 10  3,2  | SEAs
  10  3,7  - SEAs
  10  1,8  - SEAs
  10  3,2  | SEAt
@@ -2013,11 +2174,14 @@
  10  3,7  - SEEd
  10  1,8  - SEEd
  10  3,7  - SEEn
+ 10  3,7  - SEEp
  10  1,8  - SEEr
  10  3,7  - SEEs
  10  1,8  - SEEs
+ 10  3,2  | SEIf
  10  3,7  - SEIf
  10 10,1  | SEInE
+ 10  3,2  | SEIs
  10  3,7  - SEIs
  10  1,8  - SEIs
  10 10,1  | SEIsE
@@ -2043,6 +2207,7 @@
  10  5,1  | SHeA
  10  5,1  | SHoE
  10  5,1  | SHrI
+ 10  5,1  | SHuI
  10  5,1  | SHwA
  10  3,2  | SIAl
  10 10,1  | SIEgE
@@ -2134,9 +2299,15 @@
   9  3,4  - ABaSH
   9  3,7  | AHiS
   9  7,4  | AIRSHEd
+  9  3,3  | AId
   9  2,8  - AId
+  9  3,3  | AIl
+  9  3,3  | AIm
+  9  3,3  | AIn
   9  2,8  - AIr
+  9  3,3  | AIs
   9  2,8  - AIs
+  9  3,3  | AIt
   9 10,3  | ASH
   9  2,8  - ASs
   9  3,3  - Aa
@@ -2226,6 +2397,7 @@
   9  3,3  | EAt
   9  3,7  | EAtH
   9  5,5  | EMeS
+  9  5,2  | ESE
   9  2,8  - ESs
   9  5,1  | EaSE
   9  3,8  - EdS
@@ -2234,6 +2406,7 @@
   9  3,8  - ErA
   9  3,8  - ErE
   9  3,8  - ErS
+  9  3,8  - EsE
   9  3,8  - EsS
   9  2,4  - HABIt
   9  2,4  - HABuS
@@ -2288,6 +2461,8 @@
   9  7,3  | HoARS
   9  5,2  | HoE
   9  7,3  | HoERS
+  9  3,2  | HoI
+  9  5,2  | HoI
   9  5,2  | HuE
   9  3,8  - IdE
   9  5,1  | IdEA
@@ -2327,8 +2502,10 @@
   9  5,2  | SAE
   9  3,5  - SAE
   9  3,3  | SAb
+  9  3,3  | SAd
   9  2,8  - SAd
   9  3,3  | SAl
+  9  3,3  | SAn
   9  3,3  | SAp
   9  1,7  - SArEE
   9  3,3  | SAt
@@ -2338,6 +2515,7 @@
   9  3,7  - SEA
   9  5,2  | SEE
   9  3,7  - SEE
+  9  3,2  | SEI
   9  5,2  | SEI
   9  3,7  - SEI
   9  2,8  - SEr
@@ -2351,9 +2529,16 @@
   9  7,2  | SHiER
   9  7,2  | SHoER
   9  7,2  | SHyER
+  9  3,3  | SIb
+  9  3,3  | SIm
+  9  3,3  | SIn
+  9  3,3  | SIp
   9  2,8  - SIr
   9  1,7  - SIrEE
+  9  3,3  | SIs
   9  2,8  - SIs
+  9  3,3  | SIt
+  9  3,3  - Sa
   9  8,3  | SeEK
   9  5,1  | ShEA
   9  5,1  | SkEE
@@ -2369,6 +2554,7 @@
   9  4,3  - aE
   9  4,3  - aI
   9  4,3  - aS
+  9  3,4  | aS
   9  5,1  | aSEA
   9  2,7  - aSEA
   9  3,3  - bA
@@ -2379,6 +2565,7 @@
   9  7,2  | cHAIR
   9  7,2  | cHEER
   9  7,5  | cRASH
+  9  3,3  - dA
   9  3,7  | dAHS
   9  4,8  - dEE
   9  4,1  | dIABASE
@@ -2392,6 +2579,7 @@
   9  3,3  - hA
   9  3,7  | hAHS
   9  3,7  | hEHS
+  9  3,4  | iS
   9  3,3  - jA
   9  3,3  - kA
   9  3,3  - lA
@@ -2412,6 +2600,7 @@
   9  4,8  - rES
   9  4,8  - rIA
   9  5,1  | rISE
+  9  3,3  - sA
   9  4,8  - sAE
   9  4,8  - sEA
   9  4,8  - sEE
@@ -2427,6 +2616,8 @@
   9  5,1  | vASE
   9  5,1  | vISA
   9  5,1  | vISE
+  9  5,1  | wEEI
+  9  2,7  - wEEI
   9  7,3  | wHEREAS
   9  5,1  | wISE
   9  3,3  - yA
@@ -2448,6 +2639,7 @@
   8  3,7  | AHi
   8  7,3  | AHoRSE
   8  3,7  | AHs
+  8  3,3  | AI
   8  5,3  | AI
   8  7,4  | AIRtHS
   8  3,7  | AIS
@@ -2556,12 +2748,15 @@
   8 10,2  | EAvE
   8  5,3  | EE
   8 10,2  | EElS
+  8  4,7  - EEn
   8 10,4  | EH
   8  3,7  | EH
   8  5,1  | EIdE
   8 10,2  | EIdE
   8  5,5  | EMe
+  8  5,5  | EMo
   8  5,5  | EMs
+  8  3,7  | ESE
   8  3,7  | ESEs
   8  5,1  | ESnE
   8 10,2  | ESnE
@@ -2687,7 +2882,10 @@
   8  5,6  | MESa
   8  5,6  | MESh
   8  5,6  | MESs
+  8  5,6  | MeH
   8  5,6  | MeSA
+  8  5,6  | MoAI
+  8  5,6  | MoAS
   8  7,6  | RAdISH
   8  7,6  | RAkISH
   8  7,6  | RAsH
@@ -2709,6 +2907,8 @@
   8  7,6  | RaSH
   8  7,6  | ReSH
   8  7,6  | RuSH
+  8  3,3  | SA
+  8  5,3  | SA
   8  2,4  - SABInE
   8  5,1  | SAbE
   8 10,2  | SAbE
@@ -2775,6 +2975,7 @@
   8  7,4  | SHRInE
   8  7,4  | SHRIvE
   8  7,3  | SHaRIA
+  8  3,3  | SI
   8  5,3  | SI
   8  5,1  | SIcE
   8 10,2  | SIcE
@@ -2820,6 +3021,7 @@
   8  1,4  - cEIBAS
   8  7,1  | cHASER
   8  7,5  | cREESH
+  8  4,8  - dA
   8 10,3  | dAH
   8  3,7  | dAH
   8 10,2  | dAIS
@@ -2830,12 +3032,14 @@
   8  2,4  - dEBASE
   8  5,2  | dEE
   8 10,2  | dEES
+  8  4,8  - dI
   8  5,2  | dIE
   8 10,2  | dIES
   8 10,2  | eASE
   8  8,4  | eEK
   8  5,5  | eME
   8  5,5  | eMS
+  8  5,2  | eSE
   8 10,3  | fAH
   8  3,7  | fAH
   8  5,2  | fEE
@@ -2847,6 +3051,7 @@
   8  2,4  - gABIES
   8  5,2  | gAE
   8 10,2  | gAES
+  8  8,4  | gAK
   8  7,1  | gASHER
   8  5,2  | gEE
   8 10,2  | gEES
@@ -2862,10 +3067,14 @@
   8  3,7  | hEH
   8  5,2  | hIE
   8 10,2  | hIES
+  8  3,2  | jAI
+  8  5,2  | jAI
   8  5,2  | jEE
   8 10,2  | jEES
   8  5,2  | kAE
   8 10,2  | kAES
+  8  3,2  | kAI
+  8  5,2  | kAI
   8  7,1  | kASHER
   8  3,2  | kEA
   8  5,2  | kEA
@@ -2877,6 +3086,7 @@
   8 10,2  | lEAS
   8  5,2  | lEE
   8 10,2  | lEES
+  8  3,2  | lEI
   8  5,2  | lEI
   8 10,2  | lEIS
   8  8,4  | lEK
@@ -2885,11 +3095,14 @@
   8  5,2  | mAE
   8 10,2  | mAES
   8  7,1  | mASHER
+  8 10,3  | mEH
+  8  3,7  | mEH
   8 10,2  | mISE
   8  5,2  | nAE
   8 10,3  | nAH
   8  3,7  | nAH
   8  5,2  | nEE
+  8  8,4  | nEK
   8  6,2  | nISEI
   8  8,4  | oAK
   8  5,2  | oSE
@@ -2910,10 +3123,12 @@
   8  5,2  | pIE
   8 10,2  | pIES
   8  7,1  | pISHER
+  8  3,2  | pSI
   8  5,2  | pSI
   8  2,4  - rABIES
   8 10,3  | rAH
   8  3,7  | rAH
+  8  3,2  | rAI
   8  5,2  | rAI
   8 10,2  | rAIS
   8 10,2  | rASE
@@ -2927,12 +3142,14 @@
   8  5,2  | rIA
   8 10,2  | rIAS
   8 10,2  | rISE
+  8  4,8  - sA
   8  5,2  | sAE
   8  3,2  | sEA
   8  5,2  | sEA
   8 10,2  | sEAS
   8  5,2  | sEE
   8 10,2  | sEES
+  8  3,2  | sEI
   8  5,2  | sEI
   8 10,2  | sEIS
   8  4,8  - sI
@@ -3005,12 +3222,14 @@
   7  3,7  | AbS
   7  5,2  | AcE
   7  3,7  | AcE
+  7  3,4  | Ad
   7  7,2  | AdHERE
   7  3,7  | AdS
   7  5,2  | AgE
   7  3,7  | AgE
   7  3,7  | AgS
   7  3,4  | Ah
+  7  3,2  | AhI
   7  5,2  | AhI
   7  3,7  | AhI
   7  3,7  | AhS
@@ -3020,11 +3239,13 @@
   7  3,7  | AlE
   7  3,7  | AlS
   7  3,4  | Am
+  7  3,2  | AmI
   7  5,2  | AmI
   7  3,7  | AmI
   7  3,4  | An
   7  5,2  | AnE
   7  3,7  | AnE
+  7  3,2  | AnI
   7  5,2  | AnI
   7  3,7  | AnI
   7  5,2  | ApE
@@ -3032,6 +3253,7 @@
   7  5,2  | ArE
   7  3,7  | ArE
   7  3,7  | ArS
+  7  3,4  | As
   7  3,7  | AsS
   7  3,4  | At
   7  5,2  | AtE
@@ -3073,6 +3295,7 @@
   7  3,7  | EAtS
   7  3,5  - EAu
   7  3,7  | EAvE
+  7  3,4  - EBIkE
   7  4,7  - EE
   7  3,7  | EElS
   7  3,7  | EIdE
@@ -3080,6 +3303,7 @@
   7  5,5  | EM
   7 10,2  | ESEs
   7  7,1  | EScHAR
+  7  5,2  | ESe
   7  3,7  | ESnE
   7  3,7  | EdS
   7  3,7  | EfS
@@ -3090,12 +3314,16 @@
   7  3,7  | EmE
   7  3,7  | EmS
   7  3,7  | EnS
+  7  5,2  | EpE
+  7  3,7  | EpE
   7  3,2  | ErA
   7  5,2  | ErA
   7  3,7  | ErA
   7  5,2  | ErE
   7  3,7  | ErE
   7  3,7  | ErS
+  7  5,2  | EsE
+  7  3,7  | EsE
   7  3,7  | EsS
   7  3,2  | EtA
   7  5,2  | EtA
@@ -3146,14 +3374,22 @@
   7  1,4  - IAmBS
   7  2,4  - ISBA
   7  2,4  - ISBAs
+  7  3,4  | Ib
   7  5,2  | IcE
+  7  3,4  | Id
   7  5,2  | IdE
+  7  3,4  | If
+  7  3,4  | In
   7  7,2  | InHERE
+  7  3,4  | Ip
   7  5,2  | IrE
+  7  3,4  | Is
   7  2,4  - IsBAS
+  7  3,4  | It
   7  5,6  | ME
   7  5,6  | MEd
   7  5,6  | MEg
+  7  5,6  | MEh
   7  5,6  | MEl
   7  5,6  | MEm
   7  5,6  | MEn
@@ -3200,6 +3436,7 @@
   7  3,7  - SEa
   7  5,2  | SEe
   7  3,7  - SEe
+  7  3,2  | SEi
   7  5,2  | SEi
   7  3,7  - SEi
   7  7,3  | SHARd
@@ -3226,16 +3463,19 @@
   7  3,2  | SeA
   7  5,2  | SeA
   7  5,2  | SeE
+  7  3,2  | SeI
   7  5,2  | SeI
   7  3,2  | ShA
   7  5,2  | ShA
   7  5,2  | ShE
   7  3,2  | SkA
   7  5,2  | SkA
+  7  3,2  | SkI
   7  5,2  | SkI
   7  3,2  | SpA
   7  5,2  | SpA
   7  7,2  | SpHERE
+  7  3,2  | SrI
   7  5,2  | SrI
   7  5,2  | SuE
   7  4,3  | aBASE
@@ -3364,6 +3604,7 @@
   6  3,7  | AIs
   6  3,7  | AIt
   6  7,2  | AIvERS
+  6  3,7  | AIx
   6  7,5  | AREnES
   6  7,5  | AREtES
   6  7,5  | ARISE
@@ -3384,6 +3625,7 @@
   6  5,3  | Ae
   6  7,4  | AeRIES
   6  7,4  | AgREES
+  6  3,3  | Ai
   6  5,3  | Ai
   6  2,4  - AlBS
   6  6,3  | ApHIS
@@ -3493,6 +3735,7 @@
   6  3,7  | EE
   6  3,7  | EEk
   6  3,7  | EEl
+  6  3,7  | EEn
   6  7,2  | EIdERS
   6  7,5  | ERASE
   6  7,5  | ERASEd
@@ -3501,10 +3744,13 @@
   6  7,5  | ERAsES
   6  7,5  | ERIcAS
   6  3,7  | ES
+  6  3,7  | ESe
+  6  3,7  | ESq
   6  3,7  | ESs
   6  7,1  | EaSIER
   6  2,4  - EbBS
   6  5,3  | Ee
+  6  5,3  | Eo
   6  7,1  | ErASER
   6  7,2  | EtHER
   6  7,4  | EyRIES
@@ -3579,6 +3825,8 @@
   6  2,4  - ISBa
   6  2,4  - IsBA
   6  7,2  | ItHER
+  6  5,6  | MoA
+  6  5,6  | MoS
   6  7,6  | RAISE
   6  7,6  | RAISEd
   6  7,6  | RAISEr
@@ -3614,6 +3862,7 @@
   6  7,6  | RHeA
   6  7,6  | RHoS
   6  7,6  | RHuS
+  6  6,5  - SA
   6  2,4  - SAB
   6  2,4  - SABe
   6  2,4  - SABs
@@ -3656,8 +3905,11 @@
   6  1,4  - SIbB
   6  6,5  | SIdHE
   6  7,3  | SIrREE
+  6  3,3  | Sa
+  6  5,3  | Sa
   6  2,4  - SaBE
   6  1,4  - ScAB
+  6  3,3  | Si
   6  5,3  | Si
   6  1,4  - SlAB
   6  1,4  - SnIB
@@ -3679,11 +3931,13 @@
   6  3,7  | aHI
   6 10,3  | aHS
   6  3,7  | aHS
+  6  3,3  | aI
   6  5,3  | aI
   6  3,3  | bA
   6  5,3  | bA
   6  2,4  - bABE
   6  5,3  | bE
+  6  3,3  | bI
   6  5,3  | bI
   6  2,4  - bIBS
   6  7,5  | bRAISE
@@ -3697,11 +3951,15 @@
   6  1,5  - cHIA
   6  6,4  | cHIAS
   6  7,5  | cREASE
+  6  3,3  | dA
+  6  5,3  | dA
   6  2,4  - dABS
   6  5,3  | dE
   6  7,2  | dEAIRS
   6  2,4  - dEBS
   6  7,2  | dESIRE
+  6  3,3  | dI
+  6  5,3  | dI
   6  2,4  - dIBS
   6  7,1  | eASIER
   6  5,3  | eE
@@ -3712,6 +3970,7 @@
   6  1,4  - fEEB
   6  7,4  | fERIAE
   6  7,4  | fERIAS
+  6  3,3  | fI
   6  5,3  | fI
   6  2,4  - fIBS
   6  7,5  | fRAISE
@@ -3719,6 +3978,7 @@
   6  2,4  - gABS
   6  7,4  | gERAH
   6  1,7  - gHEE
+  6  3,3  | gI
   6  5,3  | gI
   6  2,4  - gIBE
   6  2,4  - gIBS
@@ -3729,6 +3989,7 @@
   6  7,4  | hARSH
   6  5,3  | hE
   6  2,4  - hEBE
+  6  3,3  | hI
   6  5,3  | hI
   6  7,4  | hIREES
   6  3,4  - iBIS
@@ -3743,6 +4004,7 @@
   6  5,3  | kA
   6  2,4  - kABS
   6  7,1  | kAISER
+  6  3,3  | kI
   6  5,3  | kI
   6  2,4  - kIBE
   6  3,3  | lA
@@ -3751,6 +4013,7 @@
   6  7,4  | lAREES
   6  7,1  | lEASER
   6  7,3  | lEHRS
+  6  3,3  | lI
   6  5,3  | lI
   6  2,4  - lIBS
   6  3,3  | mA
@@ -3758,6 +4021,7 @@
   6  2,4  - mABE
   6  7,4  | mARSH
   6  5,3  | mE
+  6  3,3  | mI
   6  5,3  | mI
   6  2,4  - mIBS
   6  3,3  | nA
@@ -3767,6 +4031,8 @@
   6  5,3  | nE
   6  2,4  - nEBS
   6  7,4  | nEREIS
+  6  3,3  | nI
+  6  5,3  | nI
   6  2,4  - nIBS
   6  3,4  - oBAS
   6  3,4  - oBES
@@ -3777,6 +4043,7 @@
   6  6,4  | oHIAS
   6 10,3  | oHS
   6  3,7  | oHS
+  6  3,3  | oI
   6  5,3  | oI
   6  3,3  | pA
   6  5,3  | pA
@@ -3784,8 +4051,10 @@
   6  5,3  | pE
   6  7,4  | pEREIA
   6  3,7  | pHI
+  6  3,3  | pI
   6  5,3  | pI
   6  7,5  | pRAISE
+  6  3,3  | qI
   6  5,3  | qI
   6  7,1  | rAISER
   6  5,3  | rE
@@ -3794,6 +4063,8 @@
   6  1,5  - rHEA
   6  2,4  - rIBS
   6  6,5  | rISHI
+  6  3,3  | sA
+  6  5,3  | sA
   6  2,4  - sABE
   6  2,4  - sABS
   6  7,4  | sAREES
@@ -3806,6 +4077,7 @@
   6  6,4  | sHIES
   6  7,3  | sHIRE
   6  7,4  | sHRIS
+  6  3,3  | sI
   6  5,3  | sI
   6  2,4  - sIBS
   6  7,4  | sIREES
@@ -3822,6 +4094,7 @@
   6  1,7  - tHEE
   6  7,3  | tHERE
   6  7,4  | tHREE
+  6  3,3  | tI
   6  5,3  | tI
   6  7,5  | uREASE
   6  7,4  | vARIES
@@ -3834,10 +4107,13 @@
   6  7,3  | wHERE
   6  7,3  | wHIRS
   6  6,5  | wISHA
+  6  3,3  | xI
   6  5,3  | xI
   6  3,3  | yA
   6  5,3  | yA
   6  5,3  | yE
+  6  3,3  | yI
+  6  5,3  | yI
   6  3,3  | zA
   6  5,3  | zA
   5  3,4  - AB
@@ -3964,10 +4240,12 @@
   5  7,2  | EIdER
   5  7,5  | ERAsE
   5  7,5  | ERIcA
+  5  7,5  | ERSoE
   5  7,5  | ERaSE
   5  7,5  | ERnES
   5  7,5  | ERoSE
   5  7,5  | ERsES
+  5 10,3  | ESE
   5  7,2  | EScAR
   5  7,2  | ESkAR
   5  7,2  | ESkER
@@ -3985,9 +4263,12 @@
   5  4,7  - Em
   5  7,3  | EmIRS
   5  3,7  | En
+  5  3,7  | Eo
+  5  4,7  - Eo
   5  3,7  | Er
   5  3,7  | Es
   5  3,7  | Et
+  5  3,7  | Ew
   5  7,3  | EwERS
   5  3,7  | Ex
   5  7,3  | EyERS
@@ -4011,11 +4292,13 @@
   5  1,7  - HAlE
   5 10,3  | HAm
   5  1,7  - HAmE
+  5 10,3  | HAo
   5  1,7  - HArE
   5 10,3  | HAs
   5 10,3  | HAt
   5  1,7  - HAtE
   5  1,7  - HAvE
+  5 10,3  | HAw
   5  1,7  - HAzE
   5  6,4  | HEIl
   5  6,4  | HEIr
@@ -4037,6 +4320,7 @@
   5  1,7  - HErE
   5 10,3  | HEs
   5 10,3  | HEt
+  5 10,3  | HEw
   5 10,3  | HEx
   5  6,5  | HIE
   5  6,5  | HIEd
@@ -4075,12 +4359,14 @@
   5  7,4  | HeRS
   5  7,4  | HiRE
   5  7,4  | HoRA
+  5  3,4  - IB
   5  7,5  | IRAdE
   5  7,5  | IRAtE
   5  6,6  | IcHS
   5  7,3  | IzARS
   5  5,6  | Me
   5  5,6  | Mm
+  5  5,6  | Mo
   5  7,6  | RAH
   5  7,6  | RAIS
   5  7,6  | RAISe
@@ -4195,6 +4481,7 @@
   5 10,3  | SHh
   5  1,7  - SHoE
   5  6,3  | SHrI
+  5  6,3  | SHuI
   5  1,5  - SHwA
   5  7,2  | SIEuR
   5  7,4  | SIREE
@@ -4345,6 +4632,7 @@
   5  2,4  - wAB
   5  3,7  | wAES
   5  2,4  - wEB
+  5  3,7  | wEEI
   5  3,7  | wEES
   5  7,3  | wHIR
   5  3,7  | wISE
@@ -4443,6 +4731,7 @@
   4  7,5  | ERASe
   4  7,5  | ERSEs
   4 10,4  | ES
+  4  2,7  - ESE
   4  1,7  - EaSE
   4  9,5  - EdH
   4 10,3  | EdS
@@ -4456,9 +4745,11 @@
   4  7,3  | EmIR
   4 10,3  | EmS
   4 10,3  | EnS
+  4 10,3  | EpE
   4  1,7  - EpEE
   4 10,3  | ErE
   4 10,3  | ErS
+  4 10,3  | EsE
   4 10,3  | EsS
   4  9,5  - EtH
   4 10,3  | EvE
@@ -4484,7 +4775,9 @@
   4  7,4  | HeR
   4  2,7  - HiE
   4 10,4  | Hm
+  4 10,4  | Ho
   4  2,7  - HoE
+  4  6,4  | HoI
   4  2,7  - HuE
   4  7,5  | IRES
   4 10,4  | IS
@@ -4630,6 +4923,7 @@
   4  7,4  | SIReE
   4  7,4  | SIRrA
   4  6,5  | SIrEE
+  4  6,5  - Sa
   4 10,3  | SaE
   4  7,4  | SaREE
   4  7,3  | ScAR
@@ -4684,6 +4978,7 @@
   4  3,7  | bAS
   4  1,7  - bASE
   4  6,5  - bE
+  4  6,7  - bE
   4  7,3  | bEARS
   4 10,3  | bEE
   4  3,7  | bEE
@@ -4705,7 +5000,9 @@
   4  6,4  | cHI
   4  7,4  | cIRES
   4 10,3  | cIS
+  4  6,5  - dA
   4  7,4  | dARES
+  4  6,5  - dE
   4  6,7  - dE
   4  7,3  | dEARS
   4 10,3  | dEE
@@ -4718,6 +5015,8 @@
   4  1,7  - eASE
   4  7,4  | eERIE
   4  3,7  | eH
+  4 10,3  | eSE
+  4  3,7  | eSE
   4  6,5  - fA
   4  7,3  | fAIRS
   4  7,4  | fARES
@@ -4759,6 +5058,8 @@
   4  7,4  | hIRES
   4 10,3  | hIS
   4  3,7  | hIS
+  4  3,4  - iB
+  4  3,7  | jAI
   4 10,3  | jEE
   4  3,7  | jEE
   4  7,3  | jEERS
@@ -4766,6 +5067,7 @@
   4 10,3  | kAE
   4 10,3  | kAS
   4  7,3  | kEIRS
+  4 10,3  | kES
   4  6,4  | kHI
   4  7,3  | kIERS
   4 10,3  | kIS
@@ -4800,10 +5102,12 @@
   4 10,3  | mIS
   4  3,7  | mIS
   4  1,7  - mISE
+  4  6,5  - nA
   4 10,3  | nAE
   4  3,7  | nAE
   4  7,4  | nARES
   4  7,4  | nARIS
+  4  6,5  - nE
   4  6,7  - nE
   4  7,3  | nEARS
   4 10,3  | nEE
@@ -4825,6 +5129,7 @@
   4  3,7  | pAS
   4  1,7  - pASE
   4  6,5  - pE
+  4  6,7  - pE
   4  3,7  | pEA
   4  7,3  | pEARS
   4 10,3  | pEE
@@ -4860,6 +5165,7 @@
   4  3,7  | rES
   4  3,7  | rIA
   4  1,7  - rISE
+  4  6,5  - sA
   4 10,3  | sAE
   4  7,4  | sAREE
   4  7,4  | sARIS
@@ -4921,7 +5227,10 @@
   4 10,3  | wIS
   4  3,7  | wIS
   4  1,7  - wISE
+  4 10,3  | xES
   4 10,3  | xIS
+  4  6,5  - yA
+  4  6,5  - yE
   4  3,7  | yEA
   4  7,3  | yEARS
   4 10,3  | yES
@@ -4954,6 +5263,7 @@
   3 10,3  | AIs
   3 10,3  | AIt
   3  6,5  | AItS
+  3 10,3  | AIx
   3  7,5  | ARE
   3  7,5  | AREa
   3  7,5  | AREs
@@ -4993,6 +5303,7 @@
   3  3,7  - EE
   3  7,4  | EERy
   3 10,3  | EEl
+  3 10,3  | EEn
   3  6,5  | EIdE
   3  1,7  - EIdE
   3  7,5  | ERA
@@ -5006,6 +5317,8 @@
   3  7,5  | ERnS
   3  7,5  | ERoS
   3  7,5  | ERrS
+  3  9,5  - ESE
+  3 10,3  | ESe
   3  1,7  - ESnE
   3 10,3  | ESs
   3  7,4  | EaRS
@@ -5075,6 +5388,7 @@
   3  7,6  | RIEl
   3  7,6  | RISe
   3  7,6  | RISk
+  3  3,5  - SA
   3  6,4  | SAId
   3  6,4  | SAIl
   3  6,4  | SAIn
@@ -5094,12 +5408,14 @@
   3 10,3  | SAl
   3  1,7  - SAlE
   3  1,7  - SAmE
+  3 10,3  | SAn
   3  1,7  - SAnE
   3  6,3  | SArI
   3 10,3  | SAt
   3  1,7  - SAtE
   3  6,3  | SAtI
   3  1,7  - SAvE
+  3 10,3  | SAw
   3 10,3  | SAx
   3  6,4  | SEI
   3  6,4  | SEIf
@@ -5120,6 +5436,7 @@
   3  1,7  - SErE
   3 10,3  | SEt
   3  1,5  - SEtA
+  3 10,3  | SEw
   3 10,3  | SEx
   3  6,5  | SIAl
   3  7,4  | SIR
@@ -5206,6 +5523,7 @@
   3 10,4  | eE
   3  7,5  | eRAS
   3 10,4  | eS
+  3  2,7  - eSE
   3  7,3  | fAIR
   3  7,4  | fARE
   3 10,4  | fE
@@ -5359,6 +5677,7 @@
   3 10,4  | wE
   3  7,3  | wEAR
   3  2,7  - wEE
+  3  6,3  | wEEI
   3  7,3  | wEER
   3  7,3  | wEIR
   3  7,4  | wERE
@@ -5377,6 +5696,7 @@
   2  6,5  | AIr
   2  6,5  | AIs
   2  6,5  | AIt
+  2  6,5  | AIx
   2  7,5  | AR
   2  7,5  | ARb
   2  7,5  | ARc
@@ -5414,6 +5734,7 @@
   2  2,7  - AtE
   2  2,5  - AvA
   2  2,7  - AvE
+  2 10,4  | Aw
   2  2,5  - AwA
   2  2,7  - AwE
   2 10,4  | Ax
@@ -5425,6 +5746,7 @@
   2  9,5  - EE
   2  9,5  - EEk
   2  9,5  - EEl
+  2  9,5  - EEn
   2  7,5  | ER
   2  7,5  | ERa
   2  7,5  | ERe
@@ -5433,6 +5755,8 @@
   2  7,5  | ERr
   2  7,5  | ERs
   2  9,5  - ES
+  2  9,5  - ESe
+  2  9,5  - ESq
   2  9,5  - ESs
   2  7,4  | EaR
   2 10,4  | Ed
@@ -5451,6 +5775,9 @@
   2  9,5  - EmS
   2 10,4  | En
   2  9,5  - EnS
+  2 10,4  | Eo
+  2  9,5  - EpE
+  2  2,7  - EpE
   2 10,4  | Er
   2  2,5  - ErA
   2  9,5  - ErA
@@ -5459,12 +5786,15 @@
   2  7,4  | ErR
   2  9,5  - ErS
   2 10,4  | Es
+  2  9,5  - EsE
+  2  2,7  - EsE
   2  9,5  - EsS
   2 10,4  | Et
   2  2,5  - EtA
   2  9,5  - EtA
   2  9,5  - EvE
   2  2,7  - EvE
+  2 10,4  | Ew
   2  9,5  - EwE
   2  2,7  - EwE
   2 10,4  | Ex
@@ -5489,6 +5819,8 @@
   2 10,4  | Is
   2 10,4  | It
   2  6,6  | ItS
+  2  6,4  | IwI
+  2  6,6  | IwI
   2  7,6  | RAd
   2  7,6  | RAg
   2  7,6  | RAh
@@ -5554,6 +5886,7 @@
   2  7,4  | SiR
   2  2,5  - SkA
   2  6,4  | SkI
+  2 10,4  | So
   2  2,5  - SpA
   2  6,4  | SrI
   2  2,7  - SuE
@@ -5573,7 +5906,9 @@
   2  7,5  | bRA
   2  7,4  | cAR
   2  6,5  | cIS
+  2  3,7  | dA
   2  3,7  | dE
+  2  3,7  | dI
   2  6,5  | dIE
   2  6,5  | dIS
   2  7,4  | eAR
@@ -5599,8 +5934,10 @@
   2  6,5  | hIS
   2  7,5  | iRE
   2  3,7  | jA
+  2  6,4  | jAI
   2  7,4  | jAR
   2  3,7  | jE
+  2  6,4  | kAI
   2  7,4  | kIR
   2  6,5  | kIS
   2  7,4  | lAR
@@ -5615,6 +5952,7 @@
   2  6,5  | mIS
   2  3,7  | nA
   2  3,7  | nE
+  2  3,7  | nI
   2  7,4  | oAR
   2  3,7  | oE
   2  3,7  | oI
@@ -5629,6 +5967,7 @@
   2  3,7  | pI
   2  6,5  | pIA
   2  6,5  | pIE
+  2  7,4  | pIR
   2  6,5  | pIS
   2  6,4  | pSI
   2  6,5  | qIS
@@ -5657,6 +5996,7 @@
   2  3,7  | yA
   2  7,4  | yAR
   2  3,7  | yE
+  2  3,7  | yI
   1  9,5  - Ed
   1  9,5  - Ee
   1  9,5  - Ef
@@ -5664,13 +6004,17 @@
   1  9,5  - El
   1  9,5  - Em
   1  9,5  - En
+  1  9,5  - Eo
   1  9,5  - Er
   1  9,5  - Es
   1  9,5  - Et
+  1  9,5  - Ew
   1  9,5  - Ex
+  1  6,6  | Ib
   1  6,6  | Id
   1  6,6  | If
   1  6,6  | In
+  1  6,6  | Ip
   1  6,6  | Is
   1  6,6  | It
   1  7,6  | Re
@@ -5681,7 +6025,9 @@
   1  3,5  - bA
   1  3,7  - bE
   1  6,5  | bI
+  1  3,5  - dA
   1  3,7  - dE
+  1  6,5  | dI
   1  3,7  - eE
   1  7,5  | eR
   1  3,5  - fA
@@ -5702,6 +6048,7 @@
   1  6,5  | mI
   1  3,5  - nA
   1  3,7  - nE
+  1  6,5  | nI
   1  3,7  - oE
   1  6,5  | oI
   1  7,5  | oR
@@ -5710,6 +6057,7 @@
   1  6,5  | pI
   1  6,5  | qI
   1  3,7  - rE
+  1  3,5  - sA
   1  6,5  | sI
   1  3,5  - tA
   1  3,7  - tE
@@ -5718,4 +6066,5 @@
   1  6,5  | xI
   1  3,5  - yA
   1  3,7  - yE
+  1  6,5  | yI
   1  3,5  - zA

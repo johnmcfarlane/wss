@@ -3,6 +3,7 @@
  40 10,6  | DROWN
  39  9,7  | MOOED
  36 11,3  | DOORMEN
+ 31  6,8  - GNOME
  30  8,10 - EMO
  30  9,7  | ENORM
  30  6,10 - ERODE
@@ -76,6 +77,8 @@
  19  7,2  | MOORED
  19  9,10 - NE
  19  9,10 - NO
+ 19  8,8  - ODE
+ 19  8,8  - ONE
  19  8,8  - ONO
  19  5,2  | ROOMED
  19  7,2  | ROOMED
@@ -93,6 +96,7 @@
  17  5,5  | DOM
  17  8,4  | DOOMED
  17  8,8  - EM
+ 17 10,10 - EO
  17  5,3  | MENO
  17  5,3  | MODE
  17  7,3  | MODE
@@ -102,6 +106,7 @@
  17  8,4  | NORMED
  17 10,10 - OE
  17  8,8  - OM
+ 17 10,10 - OO
  17  5,4  | ROOM
  16  2,10 - DEN
  16  2,10 - DON
@@ -109,6 +114,7 @@
  16 10,6  | DREW
  16  3,5  | DROMONS
  16 10,6  | ENOW
+ 16  9,10 - EO
  16  3,7  | MENDS
  16  5,2  | MONDE
  16  7,2  | MONDE
@@ -119,14 +125,18 @@
  16  5,3  | MORE
  16  7,3  | MORE
  16  5,3  | ODEON
+ 16  9,10 - OE
  16  5,4  | OMEN
  16  7,4  | OMEN
+ 16  9,10 - OO
  16 10,8  | OWED
  16  9,10 - RE
  16  5,3  | REDON
  16  5,5  | REM
  16  7,5  | REM
  16  5,5  | ROM
+ 16  5,3  | ROMEO
+ 16  7,3  | ROMEO
  15  5,3  | DEMO
  15  3,7  | DEMOS
  15  9,8  - DOE
@@ -139,6 +149,7 @@
  15  8,4  | DRONED
  15  5,6  | EM
  15  7,6  | EM
+ 15  9,8  - ME
  15  5,5  | MED
  15  7,5  | MED
  15  5,5  | MEN
@@ -175,6 +186,8 @@
  14  3,7  | MORNS
  14  7,4  | OMER
  14 10,8  | OWN
+ 14  5,3  | RODEO
+ 14  7,3  | RODEO
  14  5,2  | ROMEO
  14  8,4  | ROOMED
  14 10,9  | WED
@@ -196,10 +209,13 @@
  13  8,10 - EM
  13  8,8  - EN
  13  8,6  | MEND
+ 13  5,5  | MOO
  13  4,7  - MOONED
  13  3,7  | MOORS
  13  3,7  | MORES
  13  3,7  - MORON
+ 13  5,5  | NED
+ 13  7,5  | NED
  13  5,5  | NOD
  13  8,6  | NODDER
  13  5,3  | NODE
@@ -250,8 +266,10 @@
  12  4,7  - ROOMED
  12 10,9  | WOE
  12 10,9  | WOO
+ 11  9,8  - DE
  11  9,6  | DEMON
  11  9,8  - DO
+ 11  5,5  | DOE
  11  7,7  | DOE
  11  3,8  - DREG
  11 11,4  | DROMON
@@ -261,6 +279,7 @@
  11  5,4  | EMO
  11  5,6  | EN
  11  7,6  | EN
+ 11  8,8  - EO
  11 11,4  | MODERN
  11  5,7  - MONDE
  11  2,7  - MONDO
@@ -273,13 +292,17 @@
  11  9,7  | MOOR
  11  5,7  - MOORED
  11  5,7  - MORON
+ 11  9,8  - NE
  11  9,8  - NO
  11  3,7  | NODES
+ 11  5,5  | NOO
  11  5,6  | OD
  11  8,7  | ODDER
  11  3,6  | ODEONS
+ 11  8,8  - OE
  11  3,7  | OMENS
  11  5,6  | ON
+ 11  8,8  - OO
  11  5,3  | ORDO
  11  5,3  | REDO
  11  5,3  | RODE
@@ -298,6 +321,7 @@
  10  8,7  | EDDO
  10  7,9  | EM
  10  6,10 - EM
+ 10 10,8  - EO
  10  6,6  - FORM
  10  6,6  - FROM
  10  5,5  | ME
@@ -317,10 +341,12 @@
  10  3,7  | OMERS
  10  1,10 - ONE
  10  1,10 - ONO
+ 10 10,8  - OO
  10  8,6  | REDD
  10  3,6  | REDONS
  10  8,6  | REND
  10  3,7  | RENDS
+ 10  5,5  | ROE
  10  9,5  | RONDO
  10  3,6  - ROOFED
  10  3,7  | ROOMS
@@ -340,6 +366,9 @@
   9  8,10 - EN
   9  8,7  | END
   9  4,7  - ENORM
+  9  5,6  | EO
+  9  7,6  | EO
+  9  9,8  - EO
   9  7,6  | ER
   9  6,6  - FEM
   9  6,6  - FEND
@@ -356,6 +385,7 @@
   9  4,7  - MOOED
   9 11,5  | MORON
   9 10,7  | MOW
+  9 11,9  | NED
   9 11,9  | NOD
   9  3,8  | NOMS
   9  5,4  | NOO
@@ -364,11 +394,15 @@
   9  5,4  | ODE
   9  7,4  | ODE
   9  9,6  | ODEON
+  9  5,6  | OE
+  9  9,8  - OE
   9  3,10 - ON
   9  8,10 - ON
   9  5,4  | ONE
   9  7,4  | ONE
   9  5,4  | ONO
+  9  5,6  | OO
+  9  9,8  - OO
   9  3,7  | ORDOS
   9  9,9  | ORE
   9  8,7  | REDON
@@ -457,6 +491,8 @@
   7  4,7  - DRONE
   7  9,7  | EMO
   7  3,9  | EMS
+  7  5,5  | EO
+  7  8,10 - EO
   7  8,10 - ER
   7  6,6  - FED
   7  6,6  - FEN
@@ -472,6 +508,7 @@
   7  4,7  - MOOR
   7  5,7  - MOOR
   7  5,7  - MORE
+  7  8,7  | NED
   7  4,6  - NEF
   7 10,7  | NEW
   7  8,7  | NOD
@@ -489,6 +526,8 @@
   7  3,9  | OMS
   7  3,8  | ONES
   7  3,8  | ONOS
+  7  5,5  | OO
+  7  8,10 - OO
   7  8,10 - OR
   7  8,7  | ORDO
   7  5,5  | RE
@@ -512,6 +551,7 @@
   6  4,7  - EMO
   6  7,9  | EN
   6  6,10 - EN
+  6  2,10 - EO
   6  3,8  | EONS
   6  3,8  | ERNS
   6  6,6  - FER
@@ -539,9 +579,11 @@
   6  9,7  | ODOR
   6  7,8  | OE
   6  2,10 - OE
+  6  2,10 - OO
   6  9,6  | ORDO
   6  3,7  - ORDO
   6  6,7  - ORDO
+  6  4,6  - ORF
   6  2,10 - RE
   6  8,7  | RED
   6  9,6  | REDO
@@ -571,6 +613,7 @@
   5 11,8  | END
   5  3,9  | ENS
   5  3,8  | EROS
+  5 10,8  | EW
   5  6,6  - FE
   5  5,7  - MO
   5  9,8  | MO
@@ -598,6 +641,8 @@
   4  8,9  | DOR
   4  7,9  | EE
   4  6,10 - EE
+  4  7,9  | EO
+  4  6,10 - EO
   4  5,7  - EON
   4 11,7  | EON
   4  9,8  | EON
@@ -618,6 +663,7 @@
   4  4,7  - ONO
   4  6,7  - ONO
   4 11,8  | ONO
+  4  3,9  | OOS
   4  3,9  | ORS
   4  3,9  | RES
   4  5,7  - ROD
@@ -639,9 +685,15 @@
   3  6,7  - ORE
   3  5,7  - ROE
   3  9,8  | ROE
+  2  5,7  - EO
+  2  9,8  | EO
   2  3,10 | ES
   2  6,7  - OE
   2  9,9  | OE
+  2  5,7  - OO
+  2  6,7  - OO
+  2  9,8  | OO
+  2  9,9  | OO
   2  6,7  - OR
   2  9,9  | OR
   2  3,10 | OS

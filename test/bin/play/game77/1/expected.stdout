@@ -1,6 +1,10 @@
+ 23  1,7  - RADIO
+ 22  2,5  - ODOR
  22  2,7  - ODOR
+ 20  2,7  - ARID
  20  2,7  - ORAD
  19  2,7  - ADO
+ 19  2,5  - ODA
  19  2,7  - ODA
  19  3,7  - RADIO
  18  2,5  | APORIA
@@ -8,20 +12,28 @@
  18  2,6  | PADRI
  18  2,6  | PARDI
  18  2,6  | PODIA
+ 16  1,5  - AID
  16  1,7  - AID
  16  6,5  | ALODIA
+ 16  3,5  - DOR
  16  3,7  - DOR
+ 16  1,7  - OAD
  16  2,6  | POORI
  16  1,7  - RAD
  16  6,1  | RADIAL
  16  1,7  - RAIA
+ 16  1,5  - RID
  16  1,7  - RID
+ 16  1,5  - ROD
  16  1,7  - ROD
  15  2,7  - AD
+ 15  2,5  - ID
  15  2,7  - ID
+ 15  2,5  - OD
  15  2,7  - OD
  15  2,7  - ORA
  14  3,5  - AID
+ 14  3,7  - AID
  14  4,7  - AROID
  14  6,2  | DRAIL
  14  6,2  | DROOL
@@ -31,11 +43,17 @@
  14  4,7  - ODOR
  14  6,2  | OORALI
  14  3,7  - RAD
+ 14  3,7  - RID
  14  3,7  - ROD
  13  4,7  - ADO
  13  4,7  - ARID
+ 13  3,5  - DA
+ 13  3,7  - DA
  13  4,4  | DANIO
+ 13  3,5  - DI
+ 13  3,7  - DI
  13  4,4  | DINAR
+ 13  3,5  - DO
  13  3,7  - DO
  13  4,4  | DONOR
  13  1,7  - DOR
@@ -46,12 +64,14 @@
  13  4,4  | RANID
  12  3,5  - AIR
  12  1,7  - AIR
+ 12  3,7  - AIR
  12  4,7  - ARIA
  12  6,6  | LAARI
  12  1,7  - OAR
  12  5,5  - RADIO
  12  5,7  - RADIO
  12  1,7  - RAI
+ 12  1,5  - RIA
  12  1,7  - RIA
  11  2,7  - AA
  11  2,7  - AI
@@ -89,15 +109,22 @@
   9  4,7  - AD
   9  4,2  | ADORN
   9  3,5  - AI
+  9  3,7  - AI
   9  4,5  | ANDRO
+  9  5,5  - DA
+  9  5,7  - DA
   9  4,4  | DAN
+  9  5,7  - DI
   9  4,4  | DIN
   9  5,7  - DO
   9  4,4  | DON
   9  4,2  | DRAIN
   9  4,5  - ID
+  9  4,7  - ID
   9  4,6  | NAIAD
   9  4,6  | NOD
+  9  5,5  - OAD
+  9  5,7  - OAD
   9  4,5  - OD
   9  4,7  - OD
   9  6,7  - ODOR
@@ -115,7 +142,10 @@
   8  6,7  - ARIA
   8  3,6  | ARID
   8  3,6  | AROID
+  8  1,7  - DA
   8  4,3  | DARN
+  8  1,5  - DI
+  8  1,7  - DI
   8  1,5  - DO
   8  1,7  - DO
   8  2,4  | DOPA
@@ -126,6 +156,7 @@
   8  4,6  | NARD
   8  4,6  | NORIA
   8  5,5  - OAR
+  8  5,7  - OAR
   8  3,4  | ORAD
   8  5,1  | OROIDE
   8  2,6  | PADI
@@ -146,6 +177,7 @@
   7  1,7  - AA
   7  6,5  - ADO
   7  6,7  - ADO
+  7  1,5  - AI
   7  1,7  - AI
   7  6,5  - AID
   7  6,7  - AID
@@ -168,9 +200,18 @@
   7  4,6  | NAOI
   7  4,6  | NOIR
   7  4,6  | NORI
+  7  3,5  | OAD
+  7  6,7  - OAD
   7  5,3  | OARED
   7  6,7  - ODA
+  7  1,5  - OI
   7  1,7  - OI
+  7  5,7  - OI
+  7  1,5  - OO
+  7  4,5  - OO
+  7  1,7  - OO
+  7  4,7  - OO
+  7  5,7  - OO
   7  4,5  - OR
   7  4,7  - OR
   7  2,6  | PAD
@@ -219,6 +260,7 @@
   6  5,4  | OREAD
   6  2,6  | PAR
   6  2,6  | PIA
+  6  2,6  | PIR
   6  2,6  | POI
   6  2,6  | POO
   6  2,6  | PRO
@@ -241,11 +283,13 @@
   5  6,5  - AR
   5  6,7  - AR
   5  6,3  | ARIL
+  5  3,5  | DA
   5  6,4  | DAL
   5  5,5  | DEAR
   5  5,4  | DOER
   5  6,4  | DOL
   5  5,4  | IDEA
+  5  2,5  | IP
   5  5,4  | IRED
   5  6,6  | LAD
   5  6,6  | LAIR
@@ -258,6 +302,7 @@
   5  6,7  - OI
   5  6,5  | OLD
   5  6,5  | OLIO
+  5  6,7  - OO
   5  2,5  | OP
   5  6,7  - OR
   5  6,3  | ORAL
@@ -306,11 +351,13 @@
   3  6,6  | LI
   3  6,6  | LO
   3  4,6  | NA
+  3  4,6  | NI
   3  4,6  | NO
   3  4,5  | ON
   3  5,4  | ORE
   3  5,4  | ROE
   2  5,5  | AE
+  2  5,6  | EO
   2  5,6  | ER
   2  5,5  | OE
   2  5,5  | RE

@@ -10,6 +10,7 @@
  20  4,4  | GRIM
  20  6,2  | MOLTER
  19  4,3  | GOYIM
+ 19  4,5  | LIMO
  18  1,8  - GLOM
  18  6,5  - MOLY
  18  6,7  - MOLY
@@ -23,11 +24,14 @@
  15  5,6  | CORMS
  15  6,7  - LOGY
  15  2,8  - LOGY
+ 15  5,7  - OM
+ 15  5,7  - ORGY
  15  5,9  - ORGY
  15  1,8  - ROOM
  15  1,8  - TOOM
  14  5,6  | CLOGS
  14  5,6  | CLOYS
+ 14  4,5  | GIRO
  14  4,3  | GYRI
  14  2,8  - MOG
  14  6,5  - MOLT
@@ -50,6 +54,8 @@
  13  6,7  - MORT
  13  3,8  - OM
  13  6,5  - ORGY
+ 13  6,7  - ORGY
+ 13  2,6  | TOM
  12  6,5  | GERMY
  12  1,8  - GLORY
  12  1,8  - GROOM
@@ -63,6 +69,7 @@
  12  6,5  - MY
  12  6,7  - MY
  12  2,8  - ROOMY
+ 12  4,5  | TIRO
  12  2,8  - TOYO
  12  1,8  - TROG
  12  1,8  - TROY
@@ -78,9 +85,11 @@
  11  6,7  - MOT
  11  5,4  | MYC
  11  4,5  | RIM
+ 11  2,6  | TOG
  11  2,8  - TOG
  11  6,5  - TORY
  11  6,7  - TORY
+ 11  2,6  | TOY
  11  2,8  - TOY
  11  6,5  - TROG
  11  6,7  - TROG
@@ -101,6 +110,7 @@
  10  5,8  | OMS
  10  3,8  - ORGY
  10  5,11 - ORGY
+ 10  5,7  - ORT
  10  3,8  - OY
  10  2,8  | TOE
  10  6,4  | YLEM
@@ -121,6 +131,7 @@
   9  6,3  | MOTEL
   9  2,4  | MOTT
   9  5,9  - OM
+  9  5,7  - OR
   9  2,8  - ROOM
   9  1,8  - ROOTY
   9  2,8  - ROOTY
@@ -163,6 +174,7 @@
   8  6,7  - TOM
   8  5,3  | TORC
   8  2,8  - TORY
+  8  4,4  | TRIO
   8  6,5  - YO
   7  5,6  | COL
   7  6,6  | ELM
@@ -188,6 +200,7 @@
   7  2,9  - OF
   7  6,3  | OGLE
   7  6,5  - OM
+  7  6,7  - OM
   7  5,11 - OM
   7  6,4  | OMER
   7  2,7  - OOT
@@ -199,6 +212,7 @@
   7  6,7  - TOG
   7  6,3  | TOME
   7  2,8  - TOOL
+  7  2,6  | TOT
   7  6,5  - TOY
   7  6,7  - TOY
   7  6,3  | TOYER
@@ -227,6 +241,7 @@
   6  5,9  - OR
   6  5,4  | ORC
   6  6,5  - OY
+  6  6,7  - OY
   6  5,11 - OY
   6  6,4  | OYER
   6  6,5  | REM
@@ -236,14 +251,17 @@
   6  4,3  | ROTI
   6  2,8  - ROTO
   6  2,3  | RYOT
+  6  6,5  | TEM
   6  4,3  | TORI
   6  2,8  - TORO
   6  6,4  | TREY
   6  6,4  | TYER
   6  6,3  | TYRE
   6  6,3  | YORE
+  5  5,6  | CO
   5  6,6  | EGO
   5  6,6  | EM
+  5  2,10 | EO
   5  6,6  | ERG
   5  6,5  | GET
   5  1,8  - GOO
@@ -252,10 +270,12 @@
   5  6,5  | ME
   5  4,5  | MI
   5  2,8  - MO
+  5  2,11 - OD
   5  2,8  - OOT
   5  3,8  - OOT
   5  6,3  | ORLE
   5  6,5  - ORT
+  5  6,7  - ORT
   5  3,8  - ORT
   5  5,11 - ORT
   5  6,5  | REG
@@ -279,18 +299,23 @@
   4  1,8  - LOO
   4  2,4  | LOT
   4  6,4  | OLE
+  4  2,7  - OO
+  4  3,8  - OO
   4  6,5  - OR
+  4  6,7  - OR
   4  3,8  - OR
   4  5,11 - OR
   4  5,8  | ORS
   4  6,3  | ROTE
   4  6,5  | TEL
   4  6,5  - TO
+  4  2,6  | TO
   4  6,7  - TO
   4  6,3  | TORE
   4  2,3  | TORT
   4  2,3  | TROT
   4  6,5  | YE
+  4  4,5  | YI
   4  2,8  - YO
   3  6,6  | EL
   3  4,5  | LI
@@ -304,10 +329,12 @@
   3  6,4  | TOE
   3  1,8  - TOO
   3  2,4  | TOT
+  2  6,6  | EO
   2  6,6  | ER
   2  6,6  | ET
   2  6,5  | OE
   2  4,5  | OI
+  2  2,8  - OO
   2  6,5  | RE
   2  5,10 | SO
   2  6,5  | TE

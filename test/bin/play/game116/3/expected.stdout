@@ -16,6 +16,7 @@
  24 11,1  | ANENST
  24 11,1  | ANTSY
  24  7,3  - EATEN
+ 23  7,3  | SEEK
  23  7,3  | YE
  23  3,2  - YESTERN
  22  8,2  - RENT
@@ -34,6 +35,7 @@
  18 11,1  | ANY
  18 11,1  | AYES
  18  7,4  | EEK
+ 18  7,2  | ESE
  18  8,2  - REST
  18  8,2  - RETE
  18  8,2  - RETS
@@ -74,6 +76,7 @@
  13  6,4  - SEXY
  13  6,2  - TERN
  13  8,4  - XYST
+ 13  5,6  | ZEN
  12 11,1  | ANE
  12 11,1  | ANT
  12 11,1  | ATES
@@ -122,6 +125,7 @@
  10  4,2  - STEER
  10 10,1  | UNS
  10 10,1  | UTES
+ 10  8,4  - XES
  10  6,3  - YEAN
  10  4,3  - YENTA
   9 11,1  | ATE
@@ -142,6 +146,7 @@
   8  8,3  - AYE
   8  8,3  - AYS
   8  7,3  - EASY
+  8  7,2  | ES
   8  7,2  | ET
   8  5,3  - ETNA
   8  8,5  - EYE
@@ -166,10 +171,12 @@
   7  6,6  | EYEN
   7  6,3  | EYNE
   7  6,6  | EYNE
+  7  7,6  | KES
   7  7,3  - NAE
   7  6,3  - NEAT
   7  6,3  | NENES
   7  6,5  | NENES
+  7  7,3  - SAN
   7  6,3  | SNYE
   7  6,3  | SYNE
   7  7,3  - TAN
@@ -211,6 +218,7 @@
   6  6,5  | YEN
   5  8,3  - AN
   5  7,3  - EAT
+  5  8,5  - EEN
   5  8,5  - EN
   5  7,2  - ERE
   5  7,2  - ERS
@@ -239,7 +247,10 @@
   4  9,1  | AE
   4  8,3  - ATE
   4 11,1  | AY
+  4  6,5  | EEN
+  4  6,6  | EEN
   4  6,6  | ENS
+  4  8,5  - ESE
   4  6,3  - ETA
   4  6,4  | NEE
   4  6,5  | NEE
@@ -259,8 +270,11 @@
   3  8,5  - EE
   3  6,6  | EN
   3  8,5  - ES
+  3  6,4  | ESE
+  3  6,6  | ESE
   3  8,5  - ET
   3  6,5  | NE
+  3  7,3  - SA
   3  6,4  | SEE
   3  6,5  | SEE
   3  6,5  | SET

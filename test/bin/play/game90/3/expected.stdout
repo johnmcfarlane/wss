@@ -3,9 +3,11 @@
  35  1,8  - GLOP
  34  2,8  - LOPs
  33  1,1  | EPiLOG
+ 33  1,1  | EsQ
  33  1,8  - GLoP
  33  1,8  - GlOP
  33  1,8  - GoOP
+ 33  4,6  | LOQ
  33  1,6  - QuOD
  32  1,8  - DrOP
  32  1,8  - GOoP
@@ -19,10 +21,15 @@
  32  1,8  - pLOP
  32  1,8  - sLOP
  31  2,8  - GaP
+ 31  2,8  - GiP
  31  1,8  - LOoP
+ 31  4,6  | cOQ
+ 31  4,6  | lOQ
  30  2,8  - DaP
+ 30  2,8  - DiP
  30  1,1  | ELOPeD
  30  2,8  - LaP
+ 30  2,8  - LiP
  30  2,8  - LoP
  30  3,8  - OP
  30  3,7  | YODLe
@@ -39,6 +46,7 @@
  30  2,8  - tOP
  29  1,6  - GLOP
  28  1,8  - QuOD
+ 28  3,8  - iP
  28  3,8  - oP
  26  1,6  - GLoP
  26  1,8  - PLODs
@@ -51,11 +59,13 @@
  24  1,1  | EPhOD
  24  1,6  - GOoP
  24  4,4  | GaLOP
+ 24  7,2  | LOoP
  24  1,8  - PLOD
  24  2,8  - PODs
  24  1,6  - PrOG
  23  1,6  - DrOP
  23  2,8  - GODs
+ 23  2,8  - GoOP
  23  2,6  - LOP
  23  1,6  - LoOP
  23  4,6  | QOPh
@@ -67,6 +77,8 @@
  22  6,2  - EPiLOG
  22  2,6  - GaP
  22  1,6  - LOoP
+ 22  7,2  | LoOP
+ 22  2,8  - LoOP
  22  1,8  - PLeD
  22  1,6  - PLoD
  22  1,8  - PLoD
@@ -101,6 +113,8 @@
  20  1,8  - GOaD
  20  1,8  - GOoD
  20  2,6  - LOG
+ 20  7,2  | LOaD
+ 20  7,2  | LOiD
  20  2,6  - LaP
  20  2,6  - LoP
  20  3,8  - ODs
@@ -119,13 +133,16 @@
  20  1,8  - pLOD
  20  1,6  - sLOG
  19  2,6  - GOD
+ 19  2,8  - GOoP
  19  2,8  - GOrP
  19  2,8  - GaD
  19  1,6  - GaOL
  19  2,8  - GeD
+ 19  2,8  - GiD
  19  2,8  - GoD
  19  1,6  - GoOD
  19  1,8  - LOaD
+ 19  1,8  - LOiD
  19  1,6  - PLOd
  19  1,6  - PLOp
  19  1,6  - PLOt
@@ -156,9 +173,11 @@
  18  1,6  - GOoD
  18  6,4  - HOPeD
  18  4,5  | LOOPeD
+ 18  2,8  - LOoP
  18  2,8  - LaD
  18  4,3  | LaPDOG
  18  2,8  - LeD
+ 18  2,8  - LiD
  18  6,6  - NOPaL
  18  3,8  - OD
  18  4,4  | OrLOP
@@ -198,6 +217,8 @@
  17  4,6  | LOPeD
  17  2,6  - LaG
  17  2,6  - LoG
+ 17  4,8  - OP
+ 17  2,8  - OaD
  17  4,3  | PrOLOG
  17  3,4  - QoPH
  17  4,5  | QuOD
@@ -208,7 +229,10 @@
  16  6,3  - CLaP
  16  6,3  - CLiP
  16  6,3  - CLoP
+ 16  6,3  - COQ
  16  3,3  | DOPeY
+ 16  7,2  | DOe
+ 16  7,2  | DOm
  16  6,2  - ELOPe
  16  6,2  - EPODe
  16  6,2  - EPhOD
@@ -230,6 +254,7 @@
  16  3,3  | LOPpY
  16  5,5  | LOUPeD
  16  1,6  - LOaD
+ 16  7,2  | LOo
  16  3,4  - OPaH
  16  3,4  | PLOYeD
  16  3,3  | PODgY
@@ -250,6 +275,7 @@
  16  3,8  - eD
  16  2,6  - fOG
  16  2,6  - hOG
+ 16  3,8  - iD
  16  2,6  - jOG
  16  2,6  - lOG
  16  2,6  - mOG
@@ -273,6 +299,7 @@
  15  1,1  | EGOs
  15  1,1  | ELD
  15  1,1  | ELDs
+ 15  1,1  | EPe
  15  1,1  | ErGO
  15  3,5  | GLYPh
  15  3,3  | GoDLY
@@ -288,12 +315,15 @@
  15  4,6  | LOPs
  15  4,5  | LoOP
  15  4,7  | OPaL
+ 15  7,4  | OPe
  15  4,7  | OPeD
+ 15  7,3  | OaD
  15  2,6  - POd
  15  3,3  | POdGY
  15  2,6  - POh
  15  2,6  - POl
  15  2,6  - POm
+ 15  2,6  - POo
  15  2,6  - POp
  15  3,3  | POrGY
  15  2,6  - POs
@@ -303,8 +333,10 @@
  15  4,4  - PeH
  15  4,4  - PoH
  15  4,4  | PoLO
+ 15  2,6  - PoO
  15  4,5  | PrOLOG
  15  5,4  | aLOUD
+ 15  7,4  | aPO
  15  4,5  | aPOLOG
  15  4,5  | cLOP
  15  4,5  | fLOP
@@ -317,6 +349,7 @@
  14  6,3  - COmP
  14  6,3  - COoP
  14  6,3  - COuP
+ 14  6,3  - CoQ
  14  3,3  | DOGeY
  14  3,3  | DOGgY
  14  4,6  | DOLlOP
@@ -333,6 +366,7 @@
  14  5,5  | LOUPs
  14  2,6  - LaD
  14  3,3  | LeDGY
+ 14  7,2  | LoO
  14  6,6  - NODaL
  14  4,7  | OGLeD
  14  4,6  | OOPs
@@ -352,6 +386,7 @@
  14  4,4  | POlO
  14  4,4  | POmO
  14  1,6  - PoO
+ 14  2,8  - PoO
  14  1,6  - PrO
  14  4,5  | PrOG
  14  4,5  - QuiP
@@ -371,9 +406,11 @@
  13  6,3  - ClOP
  13  6,3  - CoOP
  13  6,3  - CrOP
+ 13  7,2  | DO
  13  4,6  | DOGgO
  13  3,3  - DOLCe
  13  3,3  - DOLCi
+ 13  5,5  | DOUGh
  13  4,5  | DuOLOG
  13  4,4  | GLOOm
  13  3,3  | GLOrY
@@ -381,8 +418,11 @@
  13  4,5  | GOODLy
  13  2,6  - GOb
  13  2,6  - GOd
+ 13  2,6  - GOo
  13  2,6  - GOt
  13  2,6  - GOy
+ 13  2,6  - GoO
+ 13  2,8  - GoO
  13  3,3  | GoODY
  13  3,3  | GrODY
  13  6,4  - HOG
@@ -390,6 +430,7 @@
  13  6,4  - HOGs
  13  6,4  - HeLP
  13  6,4  - HoLP
+ 13  7,2  | LO
  13  4,6  | LOGO
  13  4,6  | LOGOi
  13  4,6  | LOGOn
@@ -398,6 +439,7 @@
  13  3,3  | LoOPY
  13  4,5  | OLOGy
  13  5,4  | OP
+ 13  7,4  | OP
  13  4,7  | OP
  13  4,7  | OPe
  13  4,7  | OPs
@@ -411,6 +453,7 @@
  13  4,6  | POLeD
  13  1,6  - POm
  13  1,6  - POo
+ 13  2,8  - Qi
  13  3,1  | SLOoP
  13  2,6  - bOD
  13  4,6  | bOP
@@ -452,13 +495,16 @@
  12  6,3  - COPaL
  12  6,3  - COPeD
  12  6,3  - COuLD
+ 12  6,3  - CPa
  12  5,4  - DHOLe
+ 12  5,4  - DHOLs
  12  4,6  | DOG
  12  4,6  | DOGe
  12  4,6  | DOGs
  12  4,6  | DOGy
  12  3,3  | DOLlY
  12  3,5  - DOPinG
+ 12  5,5  | DOULa
  12  1,1  | EDdO
  12  1,1  | EGg
  12  1,1  | EGo
@@ -495,9 +541,11 @@
  12  5,5  | LOUD
  12  3,3  | LOoPY
  12  3,3  | LOpPY
+ 12  2,8  - LoO
  12  5,5  | LoUP
  12  4,7  | OGLe
  12  3,2  - OGeE
+ 12  2,6  - OaD
  12  5,4  - PHLOx
  12  3,4  | PLOY
  12  3,4  | PLOYs
@@ -506,6 +554,7 @@
  12  1,8  - PLOw
  12  1,8  - PLOy
  12  3,5  - PLaiD
+ 12  7,5  | PO
  12  3,4  | POGY
  12  4,6  | POLO
  12  4,6  | POLOs
@@ -550,7 +599,9 @@
  11  5,4  - DHaL
  11  3,4  | DOPY
  11  3,5  - DOPiLy
+ 11  2,6  - DOc
  11  3,3  | DOdGY
+ 11  2,6  - DOe
  11  2,6  - DOg
  11  3,3  | DOgGY
  11  2,6  - DOh
@@ -564,6 +615,7 @@
  11  4,2  - DeEP
  11  5,5  - DiPOLe
  11  3,3  | DoOLY
+ 11  6,2  - EsQ
  11  1,8  - GLOm
  11  1,8  - GLOp
  11  1,8  - GLOw
@@ -595,14 +647,20 @@
  11  2,6  - LOb
  11  2,6  - LOg
  11  3,3  | LOgGY
+ 11  2,6  - LOo
  11  2,6  - LOp
  11  2,6  - LOt
  11  2,6  - LOw
+ 11  2,6  - LoO
  11  7,4  | ODa
  11  7,4  | ODe
  11  4,7  | OLOGy
  11  3,3  | OdDLY
+ 11  7,3  | Oe
  11  7,6  | Oe
+ 11  7,3  | Oi
+ 11  7,3  | Om
+ 11  7,3  | Oo
  11  3,4  | PLaY
  11  3,4  | PLoY
  11  4,6  | POD
@@ -650,8 +708,12 @@
  11  3,3  | dODGY
  11  4,6  | gOGO
  11  4,6  | hOLP
+ 11  7,4  | iP
+ 11  4,8  - iP
  11  4,6  | lOGO
  11  5,4  | oP
+ 11  7,4  | oP
+ 11  4,8  - oP
  11  3,3  | pODGY
  11  3,4  | pOLYP
  11  3,4  | uGLY
@@ -680,6 +742,9 @@
  10  4,6  | DOLOr
  10  3,5  - DOLinG
  10  4,5  | DOOLy
+ 10  5,5  | DOUm
+ 10  5,5  | DOUr
+ 10  5,5  | DOUx
  10  3,5  | DOYLy
  10  3,3  | DOiLY
  10  4,6  | DOlLOP
@@ -690,6 +755,7 @@
  10  5,5  - DiPLOe
  10  4,5  | DrOOP
  10  1,6  - DuO
+ 10  1,6  - DzO
  10  3,4  | GLeY
  10  4,6  | GOD
  10  4,6  | GODs
@@ -750,6 +816,7 @@
  10  2,8  - POh
  10  2,8  - POi
  10  2,8  - POm
+ 10  2,8  - POo
  10  3,4  - POoH
  10  2,8  - POp
  10  2,8  - POs
@@ -757,9 +824,13 @@
  10  2,8  - POw
  10  2,8  - POx
  10  3,6  | PYOiD
+ 10  7,5  | Pa
  10  3,5  - PaDi
+ 10  7,5  | Pe
+ 10  7,5  | Pi
  10  5,5  - PiLeD
  10  3,5  - PiLi
+ 10  7,5  | Po
  10  4,3  - PoCO
  10  3,4  | PoGY
  10  3,4  - PuGH
@@ -785,6 +856,7 @@
  10  1,6  - aDO
  10  3,6  - aG
  10  2,5  - aLGOiD
+ 10  3,2  - aLOE
  10  5,6  | aULD
  10  4,4  | bLOOD
  10  4,5  | bLOOP
@@ -792,6 +864,7 @@
  10  4,6  | cOG
  10  4,6  | dOG
  10  3,4  | eDGY
+ 10  3,8  - eO
  10  4,4  | fLOOD
  10  4,6  | fOG
  10  3,3  | gODLY
@@ -804,6 +877,7 @@
  10  3,3  | mOLDY
  10  4,6  | nOG
  10  3,3  | oLOGY
+ 10  3,8  - oO
  10  3,4  - qOPH
  10  5,3  - sCOP
  10  5,4  - sHOD
@@ -849,6 +923,7 @@
   9  5,5  - DiGLOt
   9  4,5  | DiOL
   9  5,5  - DiaLOG
+  9  7,2  | Do
   9  4,4  - DoH
   9  3,4  | DoPY
   9  4,4  - DuH
@@ -870,6 +945,7 @@
   9  4,6  | GOODs
   9  4,6  | GOODy
   9  2,8  - GOd
+  9  2,8  - GOo
   9  2,8  - GOr
   9  3,4  - GOsH
   9  3,4  - GOtH
@@ -895,6 +971,8 @@
   9  4,2  - LiED
   9  2,5  - LiPOiD
   9  5,5  - LiPOiD
+  9  7,2  | Lo
+  9  5,4  | OD
   9  7,4  | OD
   9  3,5  | ODYL
   9  3,5  | ODYLe
@@ -905,6 +983,11 @@
   9  4,7  | OLD
   9  4,7  | OLDs
   9  4,7  | OLDy
+  9  4,8  - Oh
+  9  4,8  - Om
+  9  4,8  - On
+  9  4,8  - Op
+  9  4,8  - Os
   9  2,8  - PO
   9  3,4  | POgY
   9  3,4  | POkY
@@ -945,25 +1028,36 @@
   9  4,5  | cLOD
   9  4,6  | cOLD
   9  3,4  | cOPY
+  9  7,2  | dO
   9  3,4  | dOPY
   9  7,7  | eD
   9  7,7  | eL
+  9  7,2  | eO
   9  4,6  | fOLD
   9  4,6  | gOLD
+  9  7,2  | hO
   9  4,6  | hOLD
   9  3,6  | hYPO
   9  3,4  | iDLY
   9  4,5  | iDOL
   9  4,4  | iGLOO
+  9  7,2  | lO
+  9  7,2  | mO
   9  4,6  | mOLD
   9  3,4  | mOPY
+  9  7,2  | nO
   9  3,4  | oLDY
+  9  7,2  | oO
+  9  7,3  | oO
   9  4,5  | pLOD
   9  3,4  | rOPY
+  9  7,2  | sO
   9  4,6  | sOLD
+  9  7,2  | tO
   9  4,6  | tOLD
   9  3,6  | tYPO
   9  1,8  - uPO
+  9  7,2  | wO
   9  4,6  | wOLD
   9  3,4  - yOGH
   8  4,1  | ALDOl
@@ -1034,6 +1128,7 @@
   8  3,4  - LOcH
   8  4,4  | LOcO
   8  4,4  | LOgO
+  8  2,8  - LOo
   8  2,8  - LOp
   8  3,4  - LOtH
   8  2,8  - LOw
@@ -1069,6 +1164,7 @@
   8  4,6  | POOp
   8  4,6  | POOr
   8  4,6  | POOs
+  8  1,8  - POi
   8  4,6  | POnG
   8  1,8  - POo
   8  4,3  - PaC
@@ -1108,6 +1204,7 @@
   8  3,7  | YOLk
   8  3,7  | YOmP
   8  3,6  - aD
+  8  3,2  - aG
   8  1,8  - aGO
   8  3,6  - aL
   8  3,3  - bLOC
@@ -1120,6 +1217,7 @@
   8  4,6  | dODO
   8  3,4  | dOGY
   8  1,8  - eGO
+  8  7,7  | eO
   8  3,3  - fLOC
   8  4,5  | fLOOD
   8  3,4  | fOGY
@@ -1154,6 +1252,7 @@
   8  4,5  | wOOD
   8  4,5  | wOOL
   8  3,4  - yODH
+  8  5,5  | yOUD
   7  4,1  | AGiO
   7  4,1  | ALOnG
   7  4,1  | ALP
@@ -1170,6 +1269,7 @@
   7  3,4  | DOtY
   7  3,4  | DOxY
   7  3,4  | DOzY
+  7  2,6  - Da
   7  3,5  | DaY
   7  4,2  - DeE
   7  3,5  | DeY
@@ -1180,6 +1280,7 @@
   7  3,5  | DrY
   7  3,4  | DuLY
   7  1,8  - DuO
+  7  1,8  - DzO
   7  4,5  - GLiDe
   7  4,6  | GOO
   7  4,6  | GOOd
@@ -1225,6 +1326,7 @@
   7  4,7  | OLe
   7  3,5  | OdYL
   7  5,5  - OiLeD
+  7  7,2  | Oo
   7  3,4  | OrGY
   7  5,4  - PHi
   7  5,4  - PHt
@@ -1244,6 +1346,7 @@
   7  3,6  | PYx
   7  2,8  - Pa
   7  2,8  - Pe
+  7  2,8  - Pi
   7  5,5  - PiG
   7  5,5  - PiGs
   7  5,5  - PiLOt
@@ -1270,6 +1373,7 @@
   7  5,7  | UpDO
   7  3,7  - YOUSe
   7  3,7  | YoD
+  7  5,4  | aD
   7  7,4  | aD
   7  1,8  - aDO
   7  5,4  | aL
@@ -1280,6 +1384,7 @@
   7  4,6  | cOL
   7  3,4  | cOLY
   7  4,6  | dOL
+  7  5,4  | eD
   7  7,4  | eD
   7  5,4  | eL
   7  4,6  | gOD
@@ -1298,6 +1403,7 @@
   7  3,4  | mOLY
   7  4,6  | nOD
   7  4,2  - nOEL
+  7  5,4  | oD
   7  7,4  | oD
   7  3,5  | oDYL
   7  4,6  | pOD
@@ -1322,6 +1428,7 @@
   6  4,1  | APO
   6  4,1  | APOd
   6  4,1  | APOs
+  6  6,3  - CO
   6  6,3  - COb
   6  6,3  - COd
   6  6,3  - COg
@@ -1329,6 +1436,7 @@
   6  6,3  - COn
   6  6,3  - COo
   6  6,3  - COp
+  6  6,3  - COq
   6  6,3  - COr
   6  6,3  - COs
   6  6,3  - COt
@@ -1348,8 +1456,10 @@
   6  1,8  - DOe
   6  4,5  - DOinG
   6  4,6  | DOnG
+  6  7,5  | Da
   6  7,5  | De
   6  3,5  - DeLi
+  6  7,5  | Di
   6  5,5  - DiLdO
   6  5,5  - DiP
   6  5,5  - DiPs
@@ -1378,6 +1488,7 @@
   6  4,6  | GOwD
   6  3,6  | GYm
   6  3,6  | GYp
+  6  2,8  - Gi
   6  2,8  - Go
   6  6,4  - HOeD
   6  6,4  - HOlD
@@ -1421,6 +1532,8 @@
   6  5,6  | OUt
   6  3,6  - Od
   6  3,8  - Od
+  6  1,2  - Oe
+  6  3,6  - Oe
   6  3,8  - Oe
   6  3,8  - Of
   6  3,6  - Oh
@@ -1433,6 +1546,8 @@
   6  3,6  - On
   6  3,8  - On
   6  3,4  | OnLY
+  6  3,6  - Oo
+  6  3,8  - Oo
   6  4,4  - OoH
   6  3,6  - Op
   6  3,8  - Op
@@ -1500,14 +1615,21 @@
   6  5,7  | UPs
   6  5,7  | UrD
   6  3,7  | YOnD
+  6  3,7  | YOuD
   6  3,7  | YOwL
+  6  3,2  - aD
+  6  3,2  - aL
   6  4,5  - bLiP
   6  2,6  - bO
+  6  3,6  - bO
   6  4,5  - cLiP
+  6  2,6  - cO
   6  4,6  | cOOL
   6  2,6  - dO
   6  4,3  - dOC
   6  5,5  - diLDO
+  6  2,2  - eO
+  6  2,6  - eO
   6  4,5  - fLiP
   6  4,6  | fOOD
   6  4,6  | fOOL
@@ -1525,11 +1647,14 @@
   6  4,4  - kOHL
   6  2,6  - lO
   6  2,6  - mO
+  6  3,6  - mO
   6  4,3  - mOC
   6  4,6  | mOOD
   6  4,6  | mOOL
   6  2,6  - nO
   6  3,2  - oD
+  6  2,6  - oO
+  6  3,6  - oO
   6  5,6  | oUD
   6  2,6  - pO
   6  4,6  | pOOD
@@ -1548,6 +1673,7 @@
   6  4,6  | wOOD
   6  4,6  | wOOL
   6  2,6  - yO
+  6  5,5  | yOU
   5  4,1  | AGO
   5  4,1  | AGOg
   5  4,1  | AGOn
@@ -1563,7 +1689,9 @@
   5  4,5  - DOiLy
   5  4,6  | DOlL
   5  3,6  | DYe
+  5  2,8  - Da
   5  2,8  - De
+  5  2,8  - Di
   5  5,5  - DiG
   5  5,5  - DiGs
   5  5,5  - DiOL
@@ -1574,6 +1702,7 @@
   5  6,2  - EGOs
   5  6,2  - ELD
   5  6,2  - ELDs
+  5  6,2  - EPe
   5  6,2  - ErGO
   5  4,5  - GLia
   5  4,5  - GLib
@@ -1609,6 +1738,7 @@
   5  4,6  | LOuD
   5  3,6  | LYe
   5  2,8  - La
+  5  2,8  - Li
   5  5,5  - LiDO
   5  5,5  - LiDOs
   5  5,5  - LinG
@@ -1624,19 +1754,25 @@
   5  6,6  - NeG
   5  6,6  - NoG
   5  6,6  - NoLO
+  5  5,4  | Od
   5  7,4  | Od
   5  5,4  | Of
   5  7,4  | Of
   5  5,4  | Oh
   5  5,4  | Om
   5  2,6  - Om
+  5  5,4  | On
   5  7,4  | On
+  5  5,4  | Oo
+  5  2,6  - Oo
   5  5,4  | Op
+  5  7,4  | Op
   5  4,3  - OrC
   5  5,4  | Os
   5  7,4  | Os
   5  5,4  | Ox
   5  3,5  | OxY
+  5  5,4  | Oy
   5  4,6  | PO
   5  4,6  | POd
   5  4,6  | POh
@@ -1673,11 +1809,15 @@
   5  3,1  | SoD
   5  3,1  | SoL
   5  5,7  | UGh
+  5  3,7  | YnO
   5  4,5  | aPO
   5  2,8  - bO
+  5  2,8  - cO
   5  2,8  - dO
   5  4,2  - dOE
   5  4,4  - eDH
+  5  5,4  | eO
+  5  2,8  - eO
   5  3,5  | fLY
   5  2,8  - gO
   5  4,4  | gOGO
@@ -1690,6 +1830,8 @@
   5  4,4  | lOGO
   5  2,8  - mO
   5  2,8  - nO
+  5  5,4  | oO
+  5  2,8  - oO
   5  3,5  | pLY
   5  2,8  - pO
   5  4,2  - rOE
@@ -1714,6 +1856,7 @@
   4  4,1  | AGs
   4  4,1  | ALOe
   4  4,1  | ALOw
+  4  6,3  - Co
   4  4,5  | DOOm
   4  4,5  | DOOr
   4  4,6  | DOdO
@@ -1749,6 +1892,7 @@
   4  6,4  - HOd
   4  6,4  - HOe
   4  6,4  - HOg
+  4  6,4  - HOi
   4  6,4  - HOn
   4  6,4  - HOp
   4  6,4  - HOs
@@ -1772,6 +1916,7 @@
   4  5,5  - LiDs
   4  5,5  - LieD
   4  4,5  - LoiD
+  4  6,6  - NeD
   4  6,6  - NiL
   4  6,6  - NoD
   4  4,5  | ODOr
@@ -1781,7 +1926,9 @@
   4  5,4  - OHm
   4  5,4  - OHo
   4  5,4  - OHs
+  4  4,7  | OO
   4  4,7  | OOh
+  4  4,7  | OOs
   4  4,7  | OOt
   4  3,6  | OY
   4  4,7  | ObOL
@@ -1790,8 +1937,10 @@
   4  2,8  - Oe
   4  3,2  - Oh
   4  3,2  - Oi
+  4  2,8  - Oi
   4  3,2  - Om
   4  3,2  - On
+  4  2,8  - Oo
   4  3,2  - Or
   4  4,7  | OrDO
   4  3,2  - Os
@@ -1806,6 +1955,7 @@
   4  5,5  - Pig
   4  5,5  - Pin
   4  5,5  - Pip
+  4  5,5  - Pir
   4  5,5  - Pis
   4  5,5  - Pit
   4  5,5  - Piu
@@ -1839,6 +1989,7 @@
   4  3,7  | YOw
   4  4,5  | aGO
   4  4,5  - aGiO
+  4  7,5  | bO
   4  4,4  | bOLO
   4  4,6  | bOO
   4  3,5  | bOY
@@ -1861,6 +2012,7 @@
   4  5,5  - hiP
   4  6,5  - iDLe
   4  6,5  - iDLy
+  4  6,5  - iP
   4  6,5  - imP
   4  3,5  | jOY
   4  4,4  | kOLO
@@ -1877,6 +2029,7 @@
   4  5,5  - niP
   4  5,4  - oHO
   4  4,4  - oOH
+  4  7,5  | pO
   4  4,4  - pOH
   4  4,4  | pOLO
   4  4,6  | pOO
@@ -1938,6 +2091,7 @@
   3  5,5  - DidO
   3  5,5  - DinO
   3  4,5  | DuO
+  3  4,5  | DzO
   3  1,1  | ED
   3  6,2  - ED
   3  6,2  - EDh
@@ -1975,6 +2129,7 @@
   3  4,5  - LOin
   3  4,6  | LOo
   3  4,6  | LOp
+  3  4,6  | LOq
   3  4,6  | LOt
   3  4,6  | LOw
   3  4,6  | LOx
@@ -1998,6 +2153,7 @@
   3  6,6  - NoO
   3  4,5  - ODic
   3  4,5  - OLio
+  3  4,7  | OaD
   3  4,7  | OdD
   3  5,5  - OiL
   3  4,7  | OiL
@@ -2010,6 +2166,7 @@
   3  3,1  | SLy
   3  3,7  | Ya
   3  3,7  | Ye
+  3  3,7  | Yi
   3  3,7  | Yo
   3  4,5  | aDO
   3  5,4  - aH
@@ -2067,6 +2224,7 @@
   2  4,1  | ApO
   2  4,1  | AvO
   2  4,1  | AzO
+  2  5,5  - Di
   2  5,5  - Dib
   2  5,5  - Did
   2  5,5  - Die
@@ -2078,6 +2236,8 @@
   2  5,5  - Dis
   2  5,5  - Dit
   2  4,5  - Dui
+  2  1,1  | EO
+  2  6,2  - EO
   2  6,2  - EOn
   2  6,2  - EgO
   2  6,2  - EmO
@@ -2092,9 +2252,12 @@
   2  5,5  - Lit
   2  6,6  - Na
   2  6,6  - Ne
+  2  6,6  - Ni
   2  6,6  - No
   2  6,6  - Nu
+  2  4,6  | OO
   2  4,6  | OOh
+  2  4,6  | OOs
   2  4,6  | OOt
   2  4,5  | OhO
   2  4,7  | OhO
@@ -2191,12 +2354,16 @@
   1  6,2  - Em
   1  1,1  | En
   1  6,2  - En
+  1  1,1  | Eo
+  1  6,2  - Eo
   1  1,1  | Er
   1  6,2  - Er
   1  1,1  | Es
   1  6,2  - Es
   1  1,1  | Et
   1  6,2  - Et
+  1  1,1  | Ew
+  1  6,2  - Ew
   1  1,1  | Ex
   1  6,2  - Ex
   1  4,5  - Obi
@@ -2209,26 +2376,32 @@
   1  5,5  - Oil
   1  4,7  | Om
   1  4,7  | On
+  1  4,7  | Oo
   1  4,7  | Op
   1  4,7  | Or
   1  4,7  | Os
   1  4,7  | Ow
   1  4,7  | Ox
   1  4,7  | Oy
+  1  3,1  | Sa
   1  3,1  | Sh
   1  3,1  | Si
   1  3,1  | So
   1  4,6  | bO
   1  5,5  - biO
+  1  4,6  | cO
   1  4,6  | dO
+  1  4,6  | eO
   1  4,6  | gO
   1  4,6  | hO
+  1  4,5  - hOi
   1  6,5  - iOn
   1  4,6  | jO
   1  4,5  - kOi
   1  4,6  | lO
   1  4,6  | mO
   1  4,6  | nO
+  1  4,6  | oO
   1  4,6  | pO
   1  4,5  - pOi
   1  4,6  | sO
@@ -2237,20 +2410,25 @@
   1  4,6  | yO
   0  5,5  - ai
   0  5,5  - bi
+  0  5,5  - di
   0  5,5  - fi
   0  5,5  - gi
   0  5,5  - hi
+  0  6,5  - ib
   0  6,5  - id
   0  6,5  - if
   0  6,5  - in
+  0  6,5  - ip
   0  6,5  - is
   0  6,5  - it
   0  5,5  - ki
   0  5,5  - li
   0  5,5  - mi
+  0  5,5  - ni
   0  5,5  - oi
   0  5,5  - pi
   0  5,5  - qi
   0  5,5  - si
   0  5,5  - ti
   0  5,5  - xi
+  0  5,5  - yi

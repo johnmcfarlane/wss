@@ -32,6 +32,7 @@
  30  7,3  - KEIRS
  30  7,3  - KIERS
  30  9,7  | REFED
+ 29  5,10 - DICES
  29  8,2  | DIE
  28 10,6  | DIDIE
  28  6,2  - DORIES
@@ -47,6 +48,7 @@
  24  6,2  - RODES
  24  6,2  - ROSED
  24  6,2  - SORED
+ 23  5,10 - DRIES
  23  8,4  | ES
  23  9,10 - SEI
  22  3,2  - CIRSOID
@@ -54,6 +56,8 @@
  22  3,2  - ERICOID
  22  1,10 - IRES
  22  7,10 - RISE
+ 21  5,10 - DICE
+ 21  5,10 - DISC
  21  1,10 - IDE
  21  4,10 - RECS
  21  2,10 - RED
@@ -68,6 +72,7 @@
  20  6,10 - RECS
  20  2,6  | SERAI
  19  1,5  | DEISTIC
+ 19 10,10 - DI
  19  4,10 - REC
  19  4,10 - RESID
  19  4,10 - SEC
@@ -123,11 +128,14 @@
  16  2,7  | SCAD
  16  2,7  | SCARE
  16  5,2  - SCORE
+ 15  5,10 - DIES
+ 15  5,10 - DIRE
  15  1,8  | ETIC
  15  6,4  - JEER
  15  6,4  - JEES
  15  4,10 - RED
  15  4,10 - REIS
+ 15  8,5  | SECT
  15 10,10 - SI
  14  2,8  | CAD
  14  2,8  | CARE
@@ -158,6 +166,8 @@
  14  1,9  | TIC
  13  1,7  | CITED
  13  5,5  - COHEIRS
+ 13  5,10 - DIE
+ 13  5,10 - DIS
  13  2,10 - RE
  13  4,10 - RES
  13  4,10 - SEI
@@ -173,6 +183,7 @@
  12  6,2  - COS
  12  2,7  | DEAIR
  12  2,7  | DEARS
+ 12  8,2  | DI
  12 10,8  | DIED
  12  6,1  | ED
  12  3,10 - ED
@@ -194,6 +205,8 @@
  11  7,8  | ACRE
  11  1,4  | CREDITS
  11  4,10 - DE
+ 11  5,10 - DE
+ 11  5,10 - DI
  11  1,4  | DIRECTS
  11  7,3  - KIDS
  11  8,1  | SEI
@@ -201,9 +214,11 @@
  10  7,8  | ACE
  10  1,7  | CITER
  10  1,7  | CITES
+ 10  6,2  - CO
  10  1,4  | CREDIT
  10  2,8  | DAIS
  10  2,8  | DARE
+ 10  6,1  | DE
  10  2,7  | DEAR
  10  9,7  | DEFI
  10 10,8  | DID
@@ -227,6 +242,7 @@
  10  2,6  | IDEA
  10  7,10 - IDS
  10  1,10 - IS
+ 10  7,3  - KED
  10  7,3  - KID
  10  7,2  - ODES
  10  7,2  - OSIER
@@ -258,6 +274,7 @@
   9  7,3  - KRIS
   9 11,9  | LED
   9 11,9  | LID
+  9 11,9  | LSD
   9  6,5  - OHED
   9  4,10 - RE
   9  3,6  - RECESS
@@ -283,20 +300,24 @@
   8  6,2  - DOR
   8  6,2  - DOS
   8  2,8  | EARS
+  8  1,8  - ED
   8  5,10 - ER
   8  2,7  | ERAS
   8  5,2  - EROS
   8  6,1  | ES
   8  5,10 - ES
   8  8,10 - ES
+  8  1,8  - ID
   8  6,1  | IS
   8  8,10 - IS
+  8  7,3  - KES
   8  7,3  - KIR
   8  7,3  - KIS
   8  7,2  - ORES
   8  2,8  | RAD
   8  2,8  | RAIS
   8  2,8  | RASE
+  8  6,1  | RE
   8  1,5  | RECIT
   8  1,6  | RECTI
   8  9,6  | REEF
@@ -358,7 +379,9 @@
   6  1,6  | EDITS
   6  9,8  | EFS
   6  3,7  - ER
+  6  1,8  - ES
   6  8,1  | ID
+  6  1,8  - IS
   6  7,3  - KI
   6 11,9  | LEI
   6 11,9  | LIE
@@ -388,6 +411,7 @@
   5  4,7  | DAIS
   5  8,1  | DE
   5  4,6  - DEES
+  5  8,1  | DI
   5  4,6  - DIES
   5  1,6  | DIET
   5  1,6  | DIRT
@@ -396,6 +420,7 @@
   5  1,6  | EDIT
   5  3,6  - ERSES
   5  4,6  - IDES
+  5  5,8  | NED
   5  6,5  - OHS
   5  4,7  | RAID
   5  4,7  | RAISE
@@ -419,6 +444,7 @@
   4  7,8  | ARS
   4  2,9  | AS
   4  1,7  | DIT
+  4  6,2  - EO
   4  8,1  | ER
   4  1,6  | ERST
   4  8,1  | ES
@@ -445,7 +471,9 @@
   3  4,8  | AIS
   3  7,8  | AR
   3  7,8  | AS
+  3  2,8  | DA
   3  2,7  | ERA
+  3  6,6  - ESE
   3  6,6  - ESS
   3  1,8  | ITS
   3 11,9  | LI
@@ -469,5 +497,6 @@
   2  7,2  - OI
   2  7,2  - OR
   2  7,2  - OS
+  2  2,8  | SA
   2  1,9  | TE
   2  1,9  | TI

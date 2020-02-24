@@ -1,3 +1,4 @@
+ 50  1,3  - DEJA
  47  1,3  - RAJA
  41  1,3  - RAJ
  35  4,1  | ELODEA
@@ -68,12 +69,15 @@
  13  6,1  - ERASED
  13  3,1  - HARE
  13  3,1  - HERE
+ 13  5,3  - OAD
  13  2,6  | OARED
  13  5,8  - OVERED
  13  5,3  - RAD
  13  5,3  - RED
  13  5,3  - ROD
  12  2,10 - AEDES
+ 12  5,9  | DA
+ 12  7,9  | DA
  12  2,10 - DARES
  12  5,9  | DE
  12  2,10 - DEARS
@@ -153,6 +157,7 @@
   9  5,1  - DEE
   9  2,1  | EF
   9  2,1  - EH
+  9  5,5  | EPE
   9  2,9  - ERODE
   9  6,9  - ERODE
   9  2,1  | OF
@@ -160,6 +165,7 @@
   9  5,5  | OPE
   9  1,4  - RAID
   9  4,8  - REV
+  9  1,5  - REnD
   9  6,8  - VAR
   9  6,8  - VEE
   9  6,8  - VOE
@@ -168,6 +174,7 @@
   8  5,9  | AE
   8  2,4  - AID
   8  5,7  - AN
+  8  5,1  - DA
   8  3,9  - DARE
   8  5,1  - DE
   8  5,9  - DEAR
@@ -176,11 +183,17 @@
   8  5,9  - DERE
   8  3,9  - DORE
   8  7,1  - DOSER
+  8  1,5  - DOnA
+  8  1,7  - DOsE
   8  3,9  - DREE
   8  6,9  - EARED
   8  6,3  - ED
   8  5,9  | EE
   8  5,7  - EN
+  8  5,9  | EO
+  8  7,9  | EO
+  8  2,5  - EnD
+  8  5,1  - OAD
   8  6,3  - OD
   8  4,9  - ODEA
   8  5,9  | OE
@@ -221,14 +234,17 @@
   7  5,1  - EAR
   7  7,5  - EE
   7  4,1  | EL
+  7  7,5  - EO
   7  6,1  - ERASE
   7  3,10 - ERASED
   7  6,1  - EROSE
+  7  7,1  - ERSOE
   7  5,8  - EVE
   7  3,1  - HA
   7  3,1  - HE
   7  3,4  - ID
   7  8,4  | ME
+  7  8,4  | MO
   7  5,1  - OAR
   7  5,8  - OVA
   7  5,9  - READ
@@ -236,11 +252,14 @@
   7  5,1  - REE
   7  5,9  - REED
   7  4,10 - RESEDA
+  7  1,7  - ROsE
   6  5,1  - AA
   6  5,10 | AA
+  6  7,10 | AA
   6  1,7  - ADs
   6  5,1  - AE
   6  5,10 | AE
+  6  7,10 | AE
   6  5,9  - AERO
   6  4,9  - AREA
   6  6,1  - ARES
@@ -259,12 +278,14 @@
   6  5,10 | EE
   6  6,1  - ERAS
   6  6,1  - EROS
+  6  2,7  - EsE
   6  4,9  - ODE
   6  1,7  - ODs
   6  5,1  - OE
   6  5,10 | OE
   6  7,10 | OE
   6  8,1  - OSAR
+  6  2,7  - OsE
   6  1,4  - RAIA
   6  4,10 - RASED
   6  4,11 - RATED
@@ -283,18 +304,23 @@
   5  5,1  | DEE
   5  4,9  - DEE
   5  3,10 - DEES
+  5  1,5  - DEn
   5  4,9  - DOE
   5  3,10 - DOES
   5  3,10 - DORS
   5  7,1  - DOSE
   5  4,10 - DOSE
   5  4,11 - DOTE
+  5  1,5  - DOn
+  5  1,7  - DOs
   5  4,11 - EATER
   5  6,1  - ED
   5  5,2  | ED
   5  6,9  - ED
   5  3,10 - ERASE
   5  3,10 - EROSE
+  5  4,10 - ERSOE
+  5  2,6  | OAD
   5  4,11 - OATER
   5  3,10 - ODAS
   5  3,10 - ODES
@@ -334,6 +360,9 @@
   4  7,1  - EDS
   4  4,10 - EDS
   4  6,1  - EE
+  4  1,5  - EEn
+  4  6,1  - EO
+  4  1,5  - EOn
   4  6,1  - ER
   4  6,9  - ERA
   4  3,10 - ERAS
@@ -378,6 +407,7 @@
   4  6,11 - TED
   4  6,11 - TOD
   3  4,5  | AA
+  3  4,6  | AA
   3  7,1  - AAS
   3  4,10 - AAS
   3  5,9  - AE
@@ -386,26 +416,37 @@
   3  4,11 - ART
   3  5,11 - ATE
   3  5,1  | DE
+  3  2,4  - DI
   3  4,11 - EAT
   3  5,2  | EE
   3  5,9  - EE
   3  6,9  - EE
+  3  5,2  | EO
+  3  2,5  | EO
+  3  6,9  - EO
   3  5,2  | ER
   3  6,9  - ER
   3  7,1  - ERS
   3  4,10 - ERS
+  3  8,1  - ESE
+  3  5,10 - ESE
   3  5,11 - ETA
+  3  2,5  - En
   3  2,7  - Es
   3  4,11 - OAT
   3  2,6  | OE
   3  5,9  - OE
   3  7,1  - OES
   3  4,10 - OES
+  3  2,5  | OO
+  3  2,6  | OO
   3  7,1  - ORS
   3  4,10 - ORS
   3  4,11 - ORT
   3  8,1  - OSE
   3  5,10 - OSE
+  3  2,5  - On
+  3  2,7  - Os
   3  1,4  - RAI
   3  7,1  - RAS
   3  4,10 - RAS
@@ -427,6 +468,7 @@
   3  6,11 - TOE
   3  6,11 - TOR
   3  3,5  - nA
+  3  3,7  - sA
   2  5,1  | AE
   2  2,4  - AI
   2  8,1  - AS
@@ -443,6 +485,8 @@
   2  8,1  - OS
   2  5,10 - OS
   2  5,1  | RE
+  2  9,1  - SA
+  2  6,10 - SA
   2  9,1  - SO
   2  6,10 - SO
   2  6,11 - TA

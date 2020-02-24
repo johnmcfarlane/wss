@@ -30,10 +30,12 @@
  15  3,3  | PAILS
  15  4,4  | PIAS
  14  4,6  | ASP
+ 14  4,5  - DAIS
  14  4,7  - DAIS
  14  3,6  | LISPS
  14  4,5  - PA
  14  4,4  | PIA
+ 14  4,5  - SAIDS
  14  4,7  - SAIDS
  14  3,4  | SALPA
  14  3,4  | SALPS
@@ -43,6 +45,7 @@
  13  3,3  | PAIL
  13  3,4  | PALAIS
  13  3,3  | PIAL
+ 13  4,5  - SAID
  13  4,7  - SAID
  13  3,4  | SALP
  12  3,5  | ALP
@@ -57,11 +60,14 @@
  12  3,5  | SLAPS
  12  3,5  | SLIPS
  12  2,3  | SPICAS
+ 11  3,5  - AD
  11  3,7  - AD
  11  5,5  - AIDS
  11  5,7  - AIDS
  11  6,5  - APSIS
+ 11  6,7  - APSIS
  11  6,5  - ASPIS
+ 11  6,7  - ASPIS
  11  3,4  | DALASI
  11  3,3  | DIALS
  11  3,7  - ID
@@ -80,8 +86,12 @@
  10  5,7  - AID
  10  4,6  | APSIS
  10  6,5  - ASPS
+ 10  6,7  - ASPS
  10  2,6  | CAPS
+ 10  4,5  - DA
+ 10  4,7  - DA
  10  4,5  | DAPS
+ 10  4,7  - DI
  10  6,3  | DIPSAS
  10  3,6  | LAPS
  10  3,6  | LIPA
@@ -107,14 +117,17 @@
   9  3,5  - AA
   9  3,7  - AA
   9  5,5  - AAS
+  9  5,7  - AAS
   9  2,5  | ACIDS
   9  3,7  - AI
   9  4,6  | AIDS
   9  5,5  - AIS
   9  5,7  - AIS
   9  3,5  | ALIAS
+  9  3,5  - AS
   9  3,7  - AS
   9  2,6  | CAP
+  9  2,6  | CPA
   9  5,2  | DAISY
   9  3,3  | DIAL
   9  2,3  | DISCS
@@ -137,15 +150,20 @@
   8  4,5  - AA
   8  5,5  - AA
   8  4,7  - AA
+  8  5,7  - AA
   8  2,5  | ACID
   8  5,5  - AI
+  8  4,7  - AI
   8  5,7  - AI
   8  4,6  | AID
   8  6,5  - AIDS
+  8  6,7  - AIDS
   8  6,4  | APSIS
   8  6,5  - ASP
+  8  6,7  - ASP
   8  6,5  | ASPIS
   8  6,5  - ASSAI
+  8  6,7  - ASSAI
   8  5,2  | ASSAY
   8  2,6  | CADI
   8  2,6  | CADS
@@ -164,10 +182,13 @@
   8  3,4  | PAL
   8  5,4  | PAY
   8  5,5  | PYA
+  8  4,5  - SA
+  8  4,7  - SA
   8  4,5  | SADIS
   8  3,4  | SALSA
   8  5,4  | SAYID
   8  2,5  | SCAD
+  8  4,7  - SI
   8  3,2  | SISAL
   8  3,5  | SLID
   8  4,4  | SPA
@@ -187,6 +208,8 @@
   7  4,5  | DAIS
   7  4,5  | DAP
   7  5,4  | DAYS
+  7  6,5  - IP
+  7  6,7  - IP
   7  3,6  | LASS
   7  4,5  | PAD
   7  6,3  | PASS
@@ -210,7 +233,9 @@
   7  6,6  | SPAS
   6  6,5  - ADS
   6  4,6  | ADS
+  6  6,7  - ADS
   6  6,5  - AID
+  6  6,7  - AID
   6  3,5  | ALA
   6  3,5  | ALS
   6  6,5  | ASP
@@ -222,6 +247,7 @@
   6  6,7  - IDS
   6  3,6  | LAD
   6  3,6  | LID
+  6  3,6  | LSD
   6  6,4  | PAS
   6  4,5  | PAS
   6  6,4  | PIS
@@ -236,13 +262,17 @@
   5  3,4  | AAL
   5  6,5  - AAS
   5  4,6  | AAS
+  5  6,7  - AAS
   5  6,5  - AD
+  5  6,7  - AD
   5  6,3  | AIDS
   5  3,4  | AIL
   5  6,5  - AIS
   5  4,6  | AIS
+  5  6,7  - AIS
   5  6,5  - ASS
   5  4,6  | ASS
+  5  6,7  - ASS
   5  6,4  | ASSAI
   5  6,5  | ASSAI
   5  5,5  | AYS
@@ -259,10 +289,13 @@
   5  3,4  | SAL
   5  5,4  | SAY
   4  6,5  - AA
+  4  6,7  - AA
   4  6,4  | ADS
   4  6,5  - AI
+  4  6,7  - AI
   4  3,5  | AL
   4  6,5  - AS
+  4  6,7  - AS
   4  5,5  | AY
   4  6,4  | DIS
   4  6,4  | IDS
@@ -276,12 +309,14 @@
   4  6,4  | SASS
   4  6,6  | SASS
   4  5,6  | YA
+  4  5,6  | YI
   3  6,4  | AAS
   3  4,5  | AAS
   3  4,6  | AD
   3  6,4  | AIS
   3  6,4  | ASS
   3  6,5  | ASS
+  3  4,5  | DA
   3  6,4  | SIS
   3  6,6  | SIS
   2  4,5  | AA
@@ -290,4 +325,6 @@
   2  6,5  | AS
   2  4,6  | AS
   2  6,5  | IS
+  2  4,5  | SA
+  2  6,6  | SA
   2  6,6  | SI

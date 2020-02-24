@@ -7,15 +7,21 @@
  37  9,7  | LUDe
  37  9,7  | NUDe
  36  9,9  | DUN
+ 35  7,10 - ULNaD
  34  9,7  | LiDO
  34  9,5  | NODUs
  33  9,9  | DOL
  33  9,9  | DON
  33  9,9  | DUO
  33  9,7  | LiD
+ 33  7,10 - UDON
+ 33  7,10 - UDONs
  33  9,8  | UdON
  31  9,6  | LaUD
  31  9,6  | LeUD
+ 31  7,10 - UDoN
+ 31  7,10 - ULNa
+ 31  7,10 - ULaN
  30  9,9  | DUb
  30  9,9  | DUd
  30  9,9  | DUe
@@ -37,6 +43,8 @@
  29  9,7  | DUd
  29  9,7  | NUs
  29  9,8  | UDO
+ 29  7,10 - UDOn
+ 29  7,10 - UDOs
  29  9,7  | bUD
  29  9,7  | dUD
  29  9,7  | mUD
@@ -54,8 +62,11 @@
  27  9,9  | DOt
  27  9,9  | DOw
  27  9,9  | DuO
+ 27  9,9  | DzO
  27  3,1  | LUNa
  27  3,1  | ULNa
+ 27  7,10 - UdON
+ 27  7,10 - uDON
  26  8,10 - LOUD
  25  9,4  | fONDU
  25  9,8  | uDO
@@ -85,7 +96,10 @@
  24  8,10 - LeND
  24  8,10 - LeUD
  24  8,10 - LoUD
+ 24  7,10 - UDO
  24  9,8  | iD
+ 23  7,10 - UDo
+ 23  7,10 - ULu
  23  5,11 - sOUND
  22  8,10 - DOL
  22  8,10 - DOLe
@@ -100,6 +114,7 @@
  22  8,10 - DOUm
  22  8,10 - DOUr
  22  8,10 - DOUx
+ 22  7,7  | DOVeN
  22  8,10 - DOlL
  22  8,10 - DOwN
  22  8,10 - DUO
@@ -133,13 +148,16 @@
  22  7,7  | NOVeL
  22  9,5  | tOLU
  21  2,2  | DONUTs
+ 21  7,7  | DeVON
  21  9,7  | NU
  21  9,8  | UdO
  21  9,6  | fLU
  21  9,6  | gNU
  21  9,6  | uLU
+ 21  7,10 - uLU
  20  8,10 - DOOm
  20  8,10 - DOOr
+ 20  7,7  | DOVe
  20  8,10 - DOdO
  20  8,10 - DOjO
  20  8,10 - DUb
@@ -182,6 +200,7 @@
  20  8,10 - LeU
  20  8,10 - LiD
  20  8,10 - LiN
+ 20  8,10 - LsD
  20  6,1  | NODULE
  20  6,1  | NODULEs
  20  7,7  | NOVa
@@ -190,6 +209,7 @@
  20  6,1  | UNOiLED
  20  8,4  | UNtAXED
  20  8,4  | UNwAXED
+ 20  7,10 - UdO
  20  9,8  | Us
  20  9,9  | dUD
  20  9,9  | dUN
@@ -202,6 +222,7 @@
  20  5,11 - sOLON
  20  8,10 - sOUL
  20  9,9  | sUN
+ 20  7,10 - uDO
  19  9,2  | LOUDeN
  19  7,7  | LeVO
  19  9,3  | ULNaD
@@ -212,6 +233,7 @@
  19  9,2  | UNmOLD
  19  9,2  | UNsOLD
  19  9,2  | UNtOLD
+ 19  7,10 - Us
  18  9,2  | DObLON
  18  8,10 - DOc
  18  8,10 - DOe
@@ -224,12 +246,15 @@
  18  8,10 - DOs
  18  8,10 - DOt
  18  8,10 - DOw
+ 18  7,7  | DeV
  18  8,10 - DuO
+ 18  8,10 - DzO
  18  9,3  | LODeN
  18  8,10 - LOb
  18  8,10 - LOg
  18  8,10 - LOo
  18  8,10 - LOp
+ 18  8,10 - LOq
  18  8,10 - LOt
  18  8,10 - LOw
  18  8,10 - LOx
@@ -267,7 +292,9 @@
  18  8,10 - sUN
  18  9,2  | vOUDON
  17  9,9  | DO
+ 17  9,7  | Di
  17  9,7  | Li
+ 17  9,7  | Ni
  17  9,7  | Nu
  17  9,3  | OLDeN
  17  7,8  | OVUm
@@ -286,7 +313,9 @@
  16  6,1  | DONgLE
  16  6,2  | DONzEL
  16  6,1  | DOUbLE
+ 16  9,9  | Da
  16  9,9  | De
+ 16  9,9  | Di
  16  9,9  | Do
  16  9,3  | DrOOL
  16  4,4  - GOLDUrN
@@ -389,8 +418,10 @@
  14  6,2  | DULsE
  14  6,2  | DUNcE
  14  6,2  | DUpLE
+ 14  8,10 - Da
  14  2,2  | DaUNT
  14  8,10 - De
+ 14  8,10 - Di
  14  8,10 - Do
  14  2,2  | DoNUT
  14  4,4  - GLUON
@@ -508,10 +539,12 @@
  13  9,5  | LiD
  13  9,5  | LiN
  13  9,4  | LoUD
+ 13  9,5  | LsD
  13  9,2  | NODULe
  13  6,5  - NOODLe
  13  9,4  | NOeL
  13  9,4  | NOiL
+ 13  9,5  | NeD
  13  9,5  | NiL
  13  9,5  | NoD
  13  9,5  | OLD
@@ -541,6 +574,7 @@
  13  9,4  | wOLD
  13  9,7  | xU
  13  9,4  | yOND
+ 13  9,4  | yOUD
  12  8,7  | AXED
  12  8,7  | AXEL
  12  8,7  | AXELs
@@ -678,6 +712,7 @@
  11  6,5  - NUrL
  11  5,1  | NoLO
  11  6,5  - ONLOaD
+ 11  9,5  | OaD
  11  9,4  | ObOL
  11  9,5  | OdD
  11  9,5  | OiL
@@ -750,6 +785,7 @@
  10  2,3  | LOOTs
  10  6,2  | LOOiE
  10  6,2  | LOOsE
+ 10  5,1  | LOUp
  10  6,7  - LeAD
  10  6,7  - LeAN
  10  6,7  - LoAD
@@ -777,6 +813,7 @@
  10  6,5  - bLOND
  10  9,5  | bOD
  10  5,1  | bOLO
+ 10  9,5  | bON
  10  6,5  - bOUND
  10  2,2  | cLOOT
  10  9,5  | cOD
@@ -847,6 +884,7 @@
   9  6,5  - DUOmO
   9  5,2  | DUi
   9  5,2  | DUo
+  9  5,2  | DUp
   9  5,1  | DUrO
   9  6,5  - DUrO
   9  6,5  - DiNO
@@ -928,7 +966,9 @@
   9  6,5  - tONDO
   9  5,2  | uDO
   9  9,6  | uN
+  9  6,7  - wOALD
   9  7,7  - yAULD
+  9  5,2  | yNO
   8  7,7  - DANiO
   8  6,5  - DOL
   8  6,5  - DOLe
@@ -974,6 +1014,7 @@
   8  1,4  - LONG
   8  1,4  - LONGe
   8  1,4  - LONGs
+  8  5,1  | LOOp
   8  1,4  - LOUGh
   8  5,1  | LObO
   8  5,1  | LOcO
@@ -1005,6 +1046,10 @@
   8  9,4  | OUDs
   8  5,1  | OUzO
   8  6,5  - ObOL
+  8  6,7  - OpAL
+  8  6,7  - OrAD
+  8  6,7  - OrAL
+  8  6,7  - OvAL
   8  9,4  | UDOn
   8  9,4  | UDOs
   8  2,4  - UNGOt
@@ -1043,6 +1088,7 @@
   8  1,4  - vULGO
   8  6,5  - wOLD
   8  6,5  - yOND
+  8  6,5  - yOUD
   7  8,7  - ALUm
   7  8,7  - ALaN
   7  8,7  - AND
@@ -1101,11 +1147,13 @@
   7  1,4  - DUnG
   7  6,5  - DUo
   7  6,5  - DUp
+  7  3,3  | Da
   7  6,5  - DaL
   7  6,5  - DaN
   7  1,4  - DaNG
   7  6,5  - DeL
   7  6,5  - DeN
+  7  5,3  | Di
   7  6,5  - DiN
   7  1,4  - DiNG
   7  5,3  | Do
@@ -1117,6 +1165,7 @@
   7  1,4  - DuNG
   7  5,2  | DuO
   7  6,3  | DyNEL
+  7  5,2  | DzO
   7  4,4  - GLOOm
   7  4,4  - GLUe
   7  4,4  - GLUg
@@ -1177,6 +1226,7 @@
   7  9,4  | LOUr
   7  9,4  | LOUt
   7  5,2  | LOo
+  7  5,2  | LOp
   7  6,3  | LUDE
   7  6,3  | LUDEs
   7  2,4  - LUG
@@ -1233,6 +1283,8 @@
   7  9,5  | NUt
   7  3,3  | Na
   7  6,3  | NaLED
+  7  6,5  - NeD
+  7  5,3  | Ni
   7  6,5  - NiL
   7  5,3  | No
   7  6,5  - NoD
@@ -1248,6 +1300,7 @@
   7  9,4  | ONOs
   7  6,5  - ONUs
   7  6,5  - ONtO
+  7  5,3  | OO
   7  6,5  - OUD
   7  6,5  - OUDs
   7  1,4  - OUtGO
@@ -1265,7 +1318,9 @@
   7  6,3  | UNwED
   7  5,2  | UdO
   7  6,3  | UnLED
+  7  5,3  | Up
   7  5,2  | UpO
+  7  7,9  | VU
   7  7,9  | VUg
   7  7,9  | VUm
   7  7,9  | VaN
@@ -1285,6 +1340,7 @@
   7  1,4  - cONGO
   7  5,2  | cOO
   7  1,4  - dUNG
+  7  5,11 - eNOL
   7  7,7  - fAUN
   7  6,3  | fLUED
   7  6,7  - fOAL
@@ -1329,6 +1385,7 @@
   7  6,5  - pOON
   7  6,3  | pULED
   7  1,4  - pUNG
+  7  5,11 - qUOD
   7  7,7  - rAND
   7  6,7  - rOAD
   7  6,7  - rOAN
@@ -1352,6 +1409,7 @@
   7  6,3  | uNLED
   7  7,7  - wAND
   7  7,7  - wAUL
+  7  6,7  - wOAD
   7  5,2  | wOO
   7  6,5  - wOOD
   7  6,5  - wOOL
@@ -1411,6 +1469,7 @@
   6  6,3  | DOzEN
   6  2,4  - DaGO
   6  6,5  - DuO
+  6  6,5  - DzO
   6  4,4  - GLOb
   6  4,4  - GLOm
   6  4,4  - GLOp
@@ -1496,7 +1555,12 @@
   6  6,5  - NOw
   6  9,5  | NOw
   6  6,5  - NoO
+  6  7,7  - OAD
+  6  6,7  - ODA
+  6  6,7  - ODAh
+  6  6,7  - ODAs
   6  6,5  - ODOr
+  6  2,11 - ODe
   6  3,4  - OGLe
   6  6,3  | OLDEn
   6  6,3  | OLDEr
@@ -1530,6 +1594,8 @@
   6  6,5  - dODO
   6  6,3  | dOLED
   6  1,4  - dONG
+  6  5,11 - eLD
+  6  5,11 - eND
   6  7,7  - fADO
   6  7,7  - fANO
   6  2,9  | fE
@@ -1607,6 +1673,7 @@
   5  6,3  | DUpE
   5  6,3  | DUrE
   5  2,3  | DUsT
+  5  6,5  - Da
   5  2,4  - DaG
   5  6,3  | DaLE
   5  2,3  | DaUT
@@ -1615,6 +1682,7 @@
   5  2,3  | DeLT
   5  6,3  | DeNE
   5  2,3  | DeNT
+  5  6,5  - Di
   5  6,4  | DiEL
   5  2,4  - DiG
   5  6,3  | DiNE
@@ -1629,6 +1697,7 @@
   5  6,3  | DuNE
   5  2,3  | DuNT
   5  6,3  | DyNE
+  5  2,10 | EO
   5  4,4  - GNu
   5  4,4  - GOO
   5  4,4  - GOOd
@@ -1702,6 +1771,7 @@
   5  7,7  - NAOs
   5  7,7  - NAiL
   5  7,7  - NArD
+  5  6,5  | NED
   5  2,4  | NUT
   5  6,3  | NUdE
   5  6,3  | NUkE
@@ -1710,6 +1780,7 @@
   5  6,5  - Ne
   5  6,4  | NeED
   5  2,4  - NeG
+  5  6,5  - Ni
   5  6,3  | NiDE
   5  6,5  - No
   5  6,3  | NoDE
@@ -1718,6 +1789,7 @@
   5  6,5  - Nu
   5  6,3  | NuDE
   5  6,5  - OD
+  5  2,11 - OD
   5  6,5  - ODa
   5  9,5  | ODa
   5  6,5  - ODd
@@ -1745,10 +1817,13 @@
   5  9,5  | OUr
   5  6,5  - OUt
   5  9,5  | OUt
+  5  6,5  - OaD
   5  6,5  - OdD
   5  5,3  | Oi
   5  6,5  - OiL
   5  6,5  - OlD
+  5  5,3  | Oo
+  5  5,3  | Op
   5  6,5  - OuD
   5  6,5  - OwL
   5  6,5  - OwN
@@ -1759,6 +1834,7 @@
   5  2,3  | UNiT
   5  6,3  | UnDE
   5  6,4  | UsED
+  5  7,9  | Vu
   5  7,7  - aAL
   5  6,5  - aND
   5  2,3  | aUNT
@@ -1776,6 +1852,7 @@
   5  7,7  - cAD
   5  7,7  - cAN
   5  6,3  | cLUE
+  5  5,3  | cO
   5  6,3  | cOOED
   5  6,4  | cUED
   5  2,3  | cULT
@@ -1795,11 +1872,14 @@
   5  6,5  - eLD
   5  6,5  - eND
   5  2,4  - eNG
+  5  5,3  | eO
+  5  5,11 - eON
   5  7,7  - fAD
   5  7,7  - fAN
   5  6,4  | fLED
   5  6,5  - fLU
   5  6,3  | fLUE
+  5  1,5  - fU
   5  6,5  - fUD
   5  6,4  | fUEL
   5  2,4  - fUG
@@ -1850,7 +1930,9 @@
   5  1,5  - nU
   5  6,3  | nUDE
   5  6,5  - nUN
+  5  7,7  - oAD
   5  6,5  - oLD
+  5  5,3  | oO
   5  6,5  - oUD
   5  7,7  - pAD
   5  7,7  - pAL
@@ -1876,6 +1958,7 @@
   5  2,3  | rUNT
   5  7,7  - sAD
   5  7,7  - sAL
+  5  7,7  - sAN
   5  7,7  - sAU
   5  6,4  | sLED
   5  6,3  | sLUE
@@ -1898,6 +1981,7 @@
   5  6,3  | uNDE
   5  7,7  - vAN
   5  7,7  - vAU
+  5  1,5  - vU
   5  2,4  - vUG
   5  7,7  - wAD
   5  7,7  - wAN
@@ -1981,20 +2065,29 @@
   4  6,4  | ONE
   4  6,4  | ONEs
   4  6,3  | ONcE
+  4  6,5  - OO
   4  6,5  - OOh
   4  9,5  | OOh
+  4  6,5  - OOs
+  4  9,5  | OOs
   4  6,5  - OOt
   4  9,5  | OOt
   4  2,4  | OUT
   4  2,3  | OUsT
+  4  6,7  - ObA
+  4  6,7  - OcA
+  4  6,7  - OdA
   4  6,3  | OgLE
   4  6,4  | OhED
   4  6,5  - OhO
+  4  6,7  - OkA
   4  6,4  | OmEN
   4  6,5  - OnO
   4  6,4  | OpED
   4  6,4  | OpEN
+  4  6,7  - OrA
   4  6,3  | OrLE
+  4  6,7  - OvA
   4  6,4  | OvEN
   4  6,4  | OwED
   4  6,4  | OxEN
@@ -2008,6 +2101,7 @@
   4  2,4  - bOG
   4  6,3  | bOLE
   4  2,3  | bOLT
+  4  6,5  - bON
   4  6,3  | bONE
   4  2,3  | bOUT
   4  2,3  | cLOT
@@ -2024,7 +2118,10 @@
   4  6,5  - dON
   4  6,3  | dONE
   4  6,5  - dUO
+  4  5,11 - eD
   4  3,4  - eGO
+  4  5,11 - eL
+  4  5,11 - eN
   4  6,5  - eON
   4  6,3  | fLOE
   4  2,4  - fOG
@@ -2062,6 +2159,7 @@
   4  6,4  | nOEL
   4  2,4  - nOG
   4  6,3  | nONE
+  4  6,7  - oDA
   4  6,4  | oLEO
   4  6,5  - oNO
   4  2,3  | pLOT
@@ -2092,6 +2190,7 @@
   4  2,4  - wOG
   4  6,5  - wON
   4  2,3  | wONT
+  4  6,5  - yNO
   4  6,5  - yOD
   4  6,5  - yON
   4  6,5  - yOU
@@ -2106,6 +2205,8 @@
   3  8,7  - AnD
   3  8,7  - AwL
   3  8,7  - AwN
+  3  7,7  - DA
+  3  6,8  | DA
   3  7,7  - DAb
   3  7,7  - DAd
   3  7,7  - DAg
@@ -2127,10 +2228,14 @@
   3  6,5  | DEw
   3  6,5  | DEx
   3  6,5  | DEy
+  3  1,5  - Da
+  3  9,6  | Da
   3  1,5  - De
   3  9,6  | De
   3  3,11 - De
   3  6,4  | DeE
+  3  1,5  - Di
+  3  9,6  | Di
   3  6,4  | DiE
   3  2,4  | DiT
   3  6,4  | DoE
@@ -2141,8 +2246,10 @@
   3  6,6  | EL
   3  6,6  | EN
   3  2,10 | Ee
+  3  2,10 | Eo
   3  4,4  - Gi
   3  4,4  - Go
+  3  4,4  - Gp
   3  7,7  - LA
   3  6,8  | LA
   3  7,7  - LAb
@@ -2193,9 +2300,11 @@
   3  7,7  - NAy
   3  6,5  | NE
   3  6,5  | NEb
+  3  6,5  | NEd
   3  6,5  | NEe
   3  6,5  | NEf
   3  6,5  | NEg
+  3  6,5  | NEk
   3  6,5  | NEt
   3  6,5  | NEw
   3  1,5  - Na
@@ -2205,6 +2314,8 @@
   3  9,6  | Ne
   3  6,4  | NeE
   3  2,4  | NeT
+  3  1,5  - Ni
+  3  9,6  | Ni
   3  2,4  | NiT
   3  2,4  | NoT
   3  1,5  - Nu
@@ -2220,6 +2331,7 @@
   3  6,4  | OlEO
   3  6,5  - Om
   3  6,5  - On
+  3  6,5  - Oo
   3  6,5  - Op
   3  6,5  - Or
   3  6,5  - Os
@@ -2260,12 +2372,15 @@
   3  6,5  - eD
   3  2,11 - eD
   3  6,5  | eEL
+  3  6,5  | eEN
   3  6,5  - eL
   3  6,5  - eN
+  3  5,11 - eO
   3  6,5  | fED
   3  6,5  | fEN
   3  6,5  | fEU
   3  2,3  | fOOT
+  3  6,5  - fU
   3  6,5  | gED
   3  6,5  | gEL
   3  6,5  | gEN
@@ -2278,6 +2393,7 @@
   3  6,4  | iDE
   3  6,5  | jEU
   3  2,4  | jUT
+  3  6,5  | kED
   3  6,5  | kEN
   3  6,4  | kUE
   3  6,5  | lED
@@ -2291,10 +2407,12 @@
   3  2,3  | mOOT
   3  6,5  - mU
   3  2,4  | mUT
+  3  6,5  | nED
   3  6,5  - nOO
   3  6,5  - nU
   3  2,4  | nUT
   3  6,5  - oD
+  3  2,11 - oD
   3  6,4  | oDE
   3  6,4  | oLE
   3  6,5  - oN
@@ -2304,6 +2422,7 @@
   3  6,5  | pEN
   3  6,5  - pOO
   3  2,4  | pUT
+  3  6,4  | qUE
   3  6,5  | rED
   3  2,3  | rOOT
   3  6,4  | rUE
@@ -2325,13 +2444,18 @@
   3  6,5  - wOO
   3  6,5  | yEN
   3  6,5  | zED
+  3  6,5  | zEN
   2  8,7  - AbO
   2  8,7  - AdO
   2  8,7  - AgO
   2  8,7  - ApO
   2  8,7  - AvO
   2  8,7  - AzO
+  2  6,6  | EO
+  2  5,9  | ESe
+  2  5,9  | ESq
   2  5,9  | ESs
+  2  7,7  - OAd
   2  7,7  - OAf
   2  7,7  - OAk
   2  7,7  - OAr
@@ -2372,6 +2496,7 @@
   2  6,5  - dO
   2  6,4  | dOE
   2  2,4  | dOT
+  2  6,5  - eO
   2  6,4  | fOE
   2  2,4  | gOT
   2  6,5  - hO
@@ -2385,6 +2510,7 @@
   2  2,4  | mOT
   2  6,5  - nO
   2  2,4  | nOT
+  2  6,5  - oO
   2  2,4  | oOT
   2  6,5  - pO
   2  2,4  | pOT
@@ -2422,9 +2548,11 @@
   1  6,6  | El
   1  6,6  | Em
   1  6,6  | En
+  1  6,6  | Eo
   1  6,6  | Er
   1  6,6  | Es
   1  6,6  | Et
+  1  6,6  | Ew
   1  6,6  | Ex
   1  7,7  - aA
   1  6,8  | aA
@@ -2433,6 +2561,8 @@
   1  7,7  - bA
   1  6,8  | bA
   1  6,5  | bE
+  1  7,7  - dA
+  1  6,8  | dA
   1  6,5  | dE
   1  6,5  | eE
   1  2,5  | eT
@@ -2461,6 +2591,8 @@
   1  6,8  | pA
   1  6,5  | pE
   1  6,5  | rE
+  1  7,7  - sA
+  1  6,8  | sA
   1  7,7  - tA
   1  6,8  | tA
   1  6,5  | tE

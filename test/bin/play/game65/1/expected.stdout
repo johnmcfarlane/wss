@@ -40,6 +40,7 @@
  25  4,7  - EDS
  25  4,7  - ENS
  25  6,7  - SAD
+ 25  6,7  - SAN
  25  6,7  - SEN
  24  4,7  - AAS
  24  6,7  - SAE
@@ -48,7 +49,9 @@
  23  7,1  | DAD
  23  7,1  | DAN
  23  5,7  - ES
+ 23  6,7  - SA
  22  7,1  | SAD
+ 22  7,1  | SAN
  21  7,2  | AD
  21  7,2  | AN
  21  6,2  | ZEBECS
@@ -58,6 +61,7 @@
  20  5,3  | DAN
  20  7,3  | DAN
  20  7,3  | DEN
+ 20  7,3  | NED
  19  7,1  | NAE
  18  7,1  | AAS
  18  6,6  - CADES
@@ -72,10 +76,13 @@
  16  6,4  - BANDED
  16  4,2  - DAZED
  16  7,3  | SAD
+ 16  7,3  | SAN
  16  7,3  | SEN
  15  4,2  - ADZES
  15  5,2  - AZANS
  15  6,4  - BANDAS
+ 15  5,3  | DA
+ 15  7,3  | DA
  15  4,2  - DAZES
  15  7,3  | DE
  15  2,3  - DEADENS
@@ -91,6 +98,7 @@
  14  6,4  - BANDS
  14  6,4  - BANED
  14  6,4  - BENDS
+ 14  7,1  | DA
  14  4,2  - DAZE
  14  2,3  - DEADEN
  14  2,3  - DEANED
@@ -109,8 +117,10 @@
  13  5,3  - DEADEN
  13  5,3  - DEANED
  13  3,3  - ENDED
+ 13  7,1  | SA
  13  5,3  - SENDED
  13  6,2  - ZED
+ 13  6,2  - ZEN
  12  5,4  - ABASED
  12  5,4  - ABED
  12  6,4  - BADE
@@ -161,6 +171,7 @@
  11  4,4  - NAB
  11  4,4  - NEB
  11  5,3  - NEEDS
+ 11  7,3  | SA
  11  6,2  - ZA
  10  5,4  - ABASE
  10  5,6  - ACNED
@@ -206,6 +217,7 @@
   9  6,5  - ENDED
   9  6,3  - ENDS
   9  7,4  | ES
+  9  5,3  - NED
   9  4,3  - NEED
   9  5,3  - NEED
   9  4,4  - SABE
@@ -257,6 +269,7 @@
   7  4,3  - DEES
   7  3,5  - EASED
   7  6,5  - EASED
+  7  5,3  - EEN
   7  6,3  - END
   7  6,5  - ENDS
   7  6,3  - ESNE
@@ -303,10 +316,12 @@
   5  3,5  - EASE
   5  6,5  - EASE
   5  6,3  - ED
+  5  6,3  - EEN
   5  6,3  - EN
   5  6,5  - END
   5  4,3  - NAE
   5  5,3  - NE
+  5  5,5  - NED
   5  4,3  - NEE
   5  5,3  - SEA
   5  5,3  - SEE
@@ -320,7 +335,11 @@
   4  4,5  - DEE
   4  5,5  - DEE
   4  6,5  - EDS
+  4  5,5  - EEN
+  4  6,5  - EEN
   4  6,5  - ENS
+  4  4,3  - ESE
+  4  6,3  - ESE
   4  4,5  - NAE
   4  4,5  - NEE
   4  5,5  - NEE
@@ -334,6 +353,8 @@
   3  6,3  - EE
   3  6,5  - EN
   3  6,3  - ES
+  3  4,5  - ESE
+  3  6,5  - ESE
   3  5,5  - NE
   3  4,5  - SAE
   3  5,5  - SEA

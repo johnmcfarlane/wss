@@ -24,6 +24,7 @@
  24  6,6  - WEEKS
  24  6,6  - WESKIt
  24  8,6  | eEK
+ 24  8,6  | nEK
  23  2,7  - EXpIATES
  22  4,4  | ChEEKS
  22  4,4  | ClEEKS
@@ -52,6 +53,8 @@
  20 11,1  | KIDdIE
  20  5,4  | ReEK
  19  8,7  | EKe
+ 19  8,3  | ELIdES
+ 19  8,3  | ELItES
  19  5,2  | KERmES
  19  5,2  | KERnES
  19  5,1  | KErRIES
@@ -70,6 +73,8 @@
  18  8,7  | eKE
  17  8,6  | dESK
  16  4,4  | CoXES
+ 16  8,3  | ELIdE
+ 16  8,3  | ELItE
  16  4,2  | EXCISE
  16  4,2  | EXCISEd
  16  4,2  | EXCISEs
@@ -115,6 +120,7 @@
  14  6,6  - WEIrS
  14  4,3  | aCKEES
  14  5,7  - bATIKS
+ 14  8,2  | bELIE
  14  4,1  | eXECS
  14  3,7  - fIXATES
  14  3,8  - gEEZ
@@ -125,6 +131,7 @@
  13  4,4  | CoKES
  13  4,4  | CuKES
  13  5,3  | ERSEs
+ 13  5,3  | ERSoE
  13  8,7  | ESKEr
  13  3,7  - EXEAT
  13  4,1  | EXeC
@@ -188,8 +195,10 @@
  11  8,6  | EE
  11  8,6  | EEk
  11  8,6  | EEl
+ 11  8,6  | EEn
  11  9,5  - EKe
  11  5,6  | ES
+ 11  8,7  | EbIKE
  11  9,5  - EeK
  11  9,5  - ElK
  11  4,3  | ICKEr
@@ -300,6 +309,7 @@
  10  4,2  | mICK
  10  4,2  | nECK
  10  4,2  | nICK
+ 10  4,2  | oICK
  10  4,2  | pECK
  10  4,2  | pICK
  10  4,2  | rECK
@@ -331,10 +341,12 @@
   9  5,6  | El
   9  8,7  | ElK
   9  5,6  | Em
+  9  5,6  | Eo
   9  5,6  | Er
   9  5,6  | Es
   9  5,6  | Et
   9  8,6  | Et
+  9  5,6  | Ew
   9  4,7  - IKATS
   9  5,7  - KATaS
   9  8,1  | KEEL
@@ -383,6 +395,8 @@
   8  8,7  | EElS
   8 11,1  | EIDErS
   8  8,7  | EIdE
+  8  9,5  - ESE
+  8  8,7  | ESE
   8  8,7  | ESEs
   8  8,7  | ESnE
   8  4,6  - EtWEES
@@ -444,11 +458,17 @@
   7  8,7  | EEk
   7  9,5  - EEl
   7  8,7  | EEl
+  7  9,5  - EEn
+  7  8,7  | EEn
   7 11,1  | EIDE
   7 11,1  | EIDEr
   7 11,1  | EIDoS
   7  9,5  - ES
   7  8,7  | ES
+  7  9,5  - ESe
+  7  8,7  | ESe
+  7  9,5  - ESq
+  7  8,7  | ESq
   7  9,5  - ESs
   7  8,7  | ESs
   7  5,6  - EWES
@@ -460,9 +480,11 @@
   7  9,5  - EmE
   7  9,5  - EmS
   7  9,5  - EnS
+  7  9,5  - EpE
   7  4,1  | EpICS
   7  9,5  - ErE
   7  9,5  - ErS
+  7  9,5  - EsE
   7  9,5  - EsS
   7  4,6  - EtWEE
   7  9,5  - EvE
@@ -505,16 +527,19 @@
   7  4,1  | SlICE
   7  4,1  | SpICE
   7  4,2  | SyCEE
+  7  6,6  - WEEI
   7  6,6  - WEES
   7  4,2  | bICES
   7  4,1  | dEICE
   7  8,2  | dELE
+  7  8,2  | dELI
   7  4,2  | dICES
   7  4,2  | fECES
   7  4,2  | fICES
   7  4,7  - iKAT
   7  5,6  - lWEIS
   7  4,1  | nIECE
+  7  4,5  - oE
   7  8,2  | pELE
   7  4,6  - pEWEE
   7  4,1  | pIECE
@@ -571,6 +596,8 @@
   6  4,1  | EmIC
   6  9,5  - En
   6  4,7  - EnATES
+  6  3,5  - Eo
+  6  9,5  - Eo
   6  4,1  | EpIC
   6  9,5  - Er
   6  9,5  - Es
@@ -578,6 +605,7 @@
   6  9,5  - Et
   6  4,1  | EtIC
   6  8,7  | EvES
+  6  9,5  - Ew
   6  8,7  | EwES
   6  9,5  - Ex
   6  4,1  | ExEC
@@ -605,11 +633,13 @@
   6 11,1  | SIDe
   6 11,1  | SIDh
   6  4,2  | SiCE
+  6  3,5  - So
   6  4,1  | SpEC
   6  4,1  | SpIC
   6  4,2  | SyCE
   6  6,6  - WEE
   6  6,6  - WEEd
+  6  6,6  - WEEi
   6  6,6  - WEEk
   6  6,6  - WEEl
   6  6,6  - WEEn
@@ -621,6 +651,7 @@
   6  6,6  - WESt
   6  6,6  - WEbS
   6  6,6  - WEdS
+  6  6,6  - WEeI
   6  6,6  - WEeS
   6  6,6  - WEnS
   6  6,6  - WErE
@@ -634,6 +665,7 @@
   6  4,2  | dICE
   6 11,1  | dIDIES
   6  4,1  | dISC
+  6  8,7  | eSE
   6  5,6  - eWES
   6  4,2  | fICE
   6  4,1  | fISC
@@ -684,8 +716,10 @@
   5  5,1  | EmIRS
   5  8,7  | EmS
   5  8,7  | EnS
+  5  8,7  | EpE
   5  8,7  | ErE
   5  8,7  | ErS
+  5  8,7  | EsE
   5  8,7  | EsS
   5  8,7  | EvE
   5  8,7  | EwE
@@ -783,6 +817,7 @@
   5  5,1  | wEIRS
   5 11,1  | wIDES
   4  6,7  - ATeS
+  4  4,4  | Co
   4  5,7  - EATEn
   4  5,7  - EATEr
   4  5,7  - EATS
@@ -801,10 +836,12 @@
   4  5,1  | EmIR
   4  8,7  | En
   4  4,7  - EnATE
+  4  8,7  | Eo
   4  8,7  | Er
   4  8,7  | Es
   4  8,7  | Et
   4  5,1  | EvER
+  4  8,7  | Ew
   4  5,1  | EwER
   4  8,7  | Ex
   4  5,1  | EyER
@@ -866,6 +903,7 @@
   4  8,1  | dIEL
   4  5,2  | dIRE
   4 11,1  | eIDE
+  4  9,5  - eSE
   4  4,7  - fEATS
   4  8,1  | fEEL
   4  5,2  | fERE
@@ -1029,6 +1067,7 @@
   3  5,7  - pATS
   3  4,7  - pEAT
   3  5,2  | pER
+  3  5,2  | pIR
   3  5,7  - qATS
   3  5,7  - rATE
   3  5,7  - rATS

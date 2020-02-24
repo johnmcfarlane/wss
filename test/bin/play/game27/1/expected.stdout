@@ -35,6 +35,7 @@
  23  7,4  | WARPS
  23  7,3  | WARS
  22  5,7  - OX
+ 22  5,7  - POX
  22  7,5  | PROW
  22  7,6  | RAX
  22  3,3  | RAXES
@@ -49,6 +50,7 @@
  21  7,5  | PRAOS
  21  7,2  | PROAS
  21  7,5  | PROAS
+ 21  5,7  - PROWS
  21  7,2  | SAPOR
  21  7,6  | SAPOR
  21  7,2  | SOWAR
@@ -73,23 +75,33 @@
  20  7,3  | SPAR
  20  7,6  | SPAR
  20  6,5  - WARPS
+ 20  6,7  - WARPS
+ 20  6,5  - WAXO
+ 20  6,7  - WAXO
  20  3,5  - WO
  20  6,5  - WRAPS
+ 20  6,7  - WRAPS
  19  4,4  | ARROWS
  19  7,4  | PARS
+ 19  5,7  - POWS
  19  7,5  | PRAO
  19  7,5  | PROA
  19  7,5  | PROS
  19  6,5  - PROW
+ 19  5,7  - PROW
  19  4,5  | PROWS
  19  7,4  | RASP
  19  3,5  | REX
  19  3,5  | SEX
  19  6,5  - WARP
+ 19  6,7  - WARP
  19  7,4  | WARS
  19  6,5  - WASP
+ 19  6,7  - WASP
  19  6,5  - WRAP
+ 19  6,7  - WRAP
  19  4,5  | WRAPS
+ 19  3,5  | XES
  18  4,4  | ARROW
  18  7,5  | ASP
  18  3,4  | AXE
@@ -100,8 +112,11 @@
  18  6,5  - PAX
  18  3,5  | PEWS
  18  7,4  | POS
+ 18  5,7  - POW
  18  6,5  - POX
+ 18  5,7  - PRAOS
  18  7,5  | PRO
+ 18  5,7  - PROAS
  18  4,5  | PROW
  18  7,6  | RAP
  18  7,6  | RAW
@@ -117,6 +132,7 @@
  18  4,4  | WARP
  18  7,4  | WAS
  18  6,5  - WAX
+ 18  6,7  - WAX
  18  7,4  | WOS
  18  4,5  | WRAP
  17  3,6  | EX
@@ -134,7 +150,10 @@
  16  6,2  | PARSE
  16  6,5  - PAWS
  16  6,5  - POWS
+ 16  5,7  - PRAO
  16  6,2  | PRASE
+ 16  5,7  - PROA
+ 16  5,7  - PROS
  16  6,2  | PROSE
  16  6,2  | PSOAE
  16  4,2  | SAPOR
@@ -147,8 +166,10 @@
  16  6,7  - SWOP
  16  6,2  | SWORE
  16  6,5  - WAPS
+ 16  6,7  - WAPS
  16  6,3  | WAXERS
  16  6,5  - WOPS
+ 16  6,7  - WOPS
  16  6,2  | WORSE
  15  5,5  - APO
  15  7,4  | ARS
@@ -163,7 +184,9 @@
  15  4,4  | PARR
  15  4,4  | PARS
  15  6,3  | PAXES
+ 15  5,7  - POS
  15  6,3  | POXES
+ 15  5,7  - PRO
  15  4,6  | RAPS
  15  7,4  | RAS
  15  7,6  | RAS
@@ -185,6 +208,7 @@
  14  5,6  | GROWS
  14  7,5  | OR
  14  7,5  | OS
+ 14  5,7  - OW
  14  4,4  | PAR
  14  3,3  | PAREO
  14  3,3  | PARES
@@ -192,6 +216,7 @@
  14  3,3  | PASEO
  14  6,5  - PAW
  14  3,5  | PEARS
+ 14  5,7  - PO
  14  3,3  | PORES
  14  3,3  | POSER
  14  6,5  - POW
@@ -207,6 +232,7 @@
  14  3,5  | RESOW
  14  3,3  | ROPES
  14  4,6  | ROW
+ 14  7,6  | SA
  14  3,3  | SAWER
  14  3,5  | SEROW
  14  3,5  | SEWAR
@@ -215,6 +241,7 @@
  14  5,2  | SPRAG
  14  2,6  | VOX
  14  6,5  - WAP
+ 14  6,7  - WAP
  14  4,4  | WAR
  14  3,3  | WARES
  14  3,5  | WEARS
@@ -240,6 +267,7 @@
  13  3,2  | SWORE
  13  2,6  - VERGERS
  13  6,5  - WARS
+ 13  6,7  - WARS
  12  3,4  | APER
  12  3,4  | APES
  12  2,5  | AVOWS
@@ -281,6 +309,7 @@
  11  5,6  | GRASP
  11  4,5  - OAR
  11  6,5  - OX
+ 11  6,7  - OX
  11  6,4  | OXES
  11  6,5  - PAR
  11  6,5  - PAS
@@ -300,8 +329,11 @@
  11  2,6  | VOWS
  11  2,6  | VROW
  11  6,5  - WAR
+ 11  6,7  - WAR
  11  6,5  - WAS
+ 11  6,7  - WAS
  11  6,5  - WOS
+ 11  6,7  - WOS
  10  3,4  | APE
  10  6,5  - APOS
  10  6,2  | AROSE
@@ -337,10 +369,13 @@
  10  2,6  | VAW
  10  2,6  | VOW
  10  6,5  - WO
+ 10  6,7  - WO
  10  3,2  | WORSE
+ 10  6,5  | XES
   9  3,3  | APSE
   9  5,5  - ARS
   9  2,4  | ARVOS
+  9  3,6  | EW
   9  6,6  | EX
   9  6,4  | OPERAS
   9  5,7  - ORA
@@ -373,6 +408,7 @@
   8  5,6  | GAP
   8  6,4  | OPERA
   8  6,5  - OPS
+  8  6,7  - OPS
   8  5,7  - OR
   8  5,7  - OS
   8  6,3  | PAREO
@@ -421,12 +457,17 @@
   7  6,6  | EPOS
   7  5,6  | GARS
   7  5,6  | GOAS
+  7  5,6  | GP
   7  6,5  - OARS
+  7  6,7  - OARS
   7  6,5  - OP
+  7  6,7  - OP
   7  6,4  | OPES
   7  6,5  - OSAR
+  7  6,7  - OSAR
   7  2,5  | OVA
   7  6,5  - OW
+  7  6,7  - OW
   7  6,4  | OWES
   7  6,3  | OWSE
   7  6,3  | PARE
@@ -493,15 +534,19 @@
   5  5,5  | AGO
   5  5,5  | AGS
   5  6,5  - ARS
+  5  6,6  | EW
   5  5,6  | GAR
   5  5,6  | GAS
   5  5,6  | GOA
   5  5,6  | GOR
   5  4,4  | OAR
   5  6,5  - OAR
+  5  6,7  - OAR
   5  3,5  | OES
   5  6,5  - ORA
+  5  6,7  - ORA
   5  6,5  - ORS
+  5  6,7  - ORS
   5  6,5  | PE
   5  5,4  | RAG
   5  6,5  - RAS
@@ -527,14 +572,17 @@
   4  3,6  | ERS
   4  5,6  | GO
   4  6,5  - OR
+  4  6,7  - OR
   4  3,4  | ORE
   4  6,4  | ORES
   4  6,5  - OS
+  4  6,7  - OS
   4  3,4  | OSE
   4  6,3  | RASE
   4  3,4  | ROE
   4  6,4  | ROES
   4  6,3  | ROSE
+  4  6,7  - SA
   4  3,4  | SAE
   4  6,5  | SEAR
   4  6,5  | SERA
@@ -544,6 +592,7 @@
   3  6,4  | ARE
   3  4,5  | ARS
   3  6,6  | EAR
+  3  3,6  | EO
   3  3,6  | ER
   3  6,6  | ERA
   3  6,6  | ERS
@@ -562,6 +611,7 @@
   3  6,5  | SER
   2  6,5  | AE
   2  4,5  | AR
+  2  6,6  | EO
   2  6,6  | ER
   2  6,6  | ES
   2  6,5  | OE
