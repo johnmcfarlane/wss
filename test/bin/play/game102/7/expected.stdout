@@ -1,15 +1,20 @@
  38  5,11 - SEPIC
  36  6,11 - EPICS
  33  6,11 - EPIC
+ 30  5,9  - CEPS
  30  5,9  - PECS
  30  5,9  - PICE
  30  5,9  - PICS
  30  3,9  - WIPES
+ 29  5,9  - CEP
  29  5,9  - PEC
  29  6,2  - PES
  29  5,9  - PIC
  29  6,2  - PIE
  29  6,2  - PIS
+ 29  5,11 - SICES
+ 29  5,11 - SIPES
+ 28  7,8  - SEPIC
  28  3,9  - WIPE
  26  1,11 - PILEI
  26  1,11 - PILES
@@ -18,15 +23,26 @@
  25  5,8  - ISSEI
  25  6,2  - PE
  25  6,2  - PI
+ 25  7,8  - SIPES
+ 24  5,9  - CESS
+ 24  8,8  - EPIC
+ 24  6,11 - ICES
+ 24  5,2  - IP
  24  5,9  - PIES
  24  5,9  - PISS
+ 24  7,8  - SIPE
+ 24  7,8  - SIPS
+ 23  5,9  - CIS
  23  5,9  - PES
  23  5,9  - PIE
  23  1,11 - PILE
  23  1,11 - PILI
  23  5,9  - PIS
+ 23  6,8  - PSI
+ 23  7,8  - SIP
  22  3,5  - CUSP
  22  6,9  - EPICS
+ 22  5,4  | IP
  22  3,3  - JAPES
  21  6,9  - EPIC
  21  5,9  - PE
@@ -40,10 +56,15 @@
  20  5,9  - SIPES
  19  3,5  - CUPS
  19  8,1  | EPICS
+ 19  8,8  - IP
  19  9,1  | SEPIC
  18  8,1  | EPIC
+ 18  6,11 - ISSEI
+ 18  2,9  - IWIS
  18  3,11 - LIPE
  18  5,11 - PECS
+ 18  5,11 - PICE
+ 18  5,11 - PICS
  18  5,9  - SECS
  18  7,8  - SEIS
  18  8,2  - SICE
@@ -57,31 +78,41 @@
  18  3,9  - WISES
  17  6,3  | CISALPINE
  17  5,11 - PEC
+ 17  5,11 - PIC
  17  5,9  - SEC
  17  7,8  - SEI
  17  5,9  - SIC
  17  5,9  - SIP
  17  6,2  - SIS
  17  2,5  - SPUES
+ 16  1,2  - CPa
  16  3,5  - CUES
  16  3,5  - CUSS
  16  5,4  | IS
+ 16  3,3  - JASES
+ 16  9,8  - PEC
+ 16  9,8  - PIC
  16  3,5  - PUSS
  16  8,2  - SIC
  16  8,2  - SIP
  16  3,9  - WISE
  15  6,9  - ICES
+ 15  5,11 - PIES
+ 15  5,11 - PISS
  15  2,5  - SCUP
  15  8,6  | SNIPES
  14  3,5  - CUP
  14  7,9  | ESS
  14  9,2  - ICE
+ 14  5,8  - IP
  14  3,11 - LIP
  14  7,1  | MICE
  14  7,1  | MICS
  14  7,1  | MIPS
  14  6,1  | OPES
  14  5,11 - PES
+ 14  5,11 - PIE
+ 14  5,11 - PIS
  14  8,6  | SNIPE
  14  8,6  | SNIPS
  13  9,5  | CIGS
@@ -90,10 +121,17 @@
  13  9,7  | GIPS
  13  6,9  - ICE
  13  7,9  | IS
+ 13  2,9  - IWI
+ 13  3,3  - JAI
  13  7,1  | MIC
  13  5,11 - PE
  13  9,5  | PEGS
+ 13  9,8  - PES
+ 13  5,11 - PI
+ 13  9,8  - PIE
  13  9,5  | PIGS
+ 13  9,8  - PIS
+ 13  9,8  - PSI
  13  6,2  - SI
  13  9,1  | SICES
  13  9,1  | SIPES
@@ -108,17 +146,26 @@
  12  5,2  - ES
  12  5,8  - ESS
  12  9,7  | GIP
+ 12  9,2  - IP
+ 12  6,9  - IP
  12  5,2  - IS
  12  6,1  | OPE
  12  6,1  | OPS
+ 12  9,8  - PE
  12  9,5  | PEG
+ 12  9,8  - PI
  12  6,3  | PICAL
  12  9,5  | PIG
  12  4,4  - QIS
  12  6,4  | SCALP
  12  5,11 - SECS
  12  5,9  - SEIS
+ 12  7,8  - SI
  12  7,10 | SI
+ 12  5,11 - SICE
+ 12  5,11 - SICS
+ 12  5,11 - SIPE
+ 12  5,11 - SIPS
  12  2,5  - SPUE
  12  3,9  - WIS
  11  6,6  | ALPINE
@@ -130,8 +177,10 @@
  11  9,1  | SECS
  11  5,9  - SEI
  11  1,11 - SEL
+ 11  5,11 - SIC
  11  9,1  | SICE
  11  9,1  | SICS
+ 11  5,11 - SIP
  11  9,1  | SIPE
  11  9,1  | SIPS
  11  5,9  - SIS
@@ -157,8 +206,11 @@
  10  9,1  | SPIES
  10  1,2  - SPa
  10  3,5  - SUES
+  9  5,9  | CO
   9  7,2  - ES
   9  6,8  - ES
+  9  6,11 - ICE
+  9  9,8  - IP
   9  7,2  - IS
   9  8,7  | NIP
   9  7,5  | PAISE
@@ -174,6 +226,7 @@
   8  2,10 | BE
   8  2,11 - EL
   8  5,8  - ES
+  8  6,11 - IP
   8  5,8  - IS
   8  3,11 - LEI
   8  3,11 - LIE
@@ -191,6 +244,7 @@
   8  2,2  - Pa
   8  6,5  | SALP
   8  5,11 - SEI
+  8  5,11 - SIS
   8  3,5  - SUP
   7  6,6  | ALIEN
   7  6,6  | ALP
@@ -198,15 +252,18 @@
   7  6,9  - ESS
   7  4,9  | ET
   7  9,7  | GIES
+  7  9,7  | GP
   7  1,5  - ISSUE
   7  7,1  | MIS
   7  8,7  | NESS
   7  8,7  | NISI
   7  6,5  | PAL
   7  9,5  | SEGS
+  7  5,11 - SI
   7  9,1  | SISES
   7  5,9  | SOP
   7  3,9  - WE
+  6  8,1  | EPE
   6  6,9  - ES
   6  8,1  | ESES
   6  6,11 - ESS
@@ -222,11 +279,14 @@
   6  6,4  | SIALS
   6  6,3  | SISAL
   6  4,5  - UP
+  5  2,8  - CO
   5  6,11 - ES
+  5  6,11 - IS
   5  3,11 - LI
   5  7,1  | ME
   5  7,1  | MI
   5  8,7  | NE
+  5  8,7  | NI
   5  5,10 | OP
   5  2,8  - PO
   5  6,5  | SALE
@@ -253,18 +313,23 @@
   4  5,9  | SOS
   3  7,6  | AIS
   3  6,9  | EN
+  3  5,9  | EO
+  3  8,1  | ESE
   3  8,1  | ESS
   3  6,9  | IN
   3  6,10 | NE
+  3  6,10 | NI
   3  5,9  | SO
   3  4,5  - US
   2  5,7  | AE
   2  5,7  | AI
   2  5,7  | AS
   2  8,1  | EE
+  2  2,8  - EO
   2  8,1  | ES
   2  5,10 | OE
   2  5,10 | OI
   2  5,10 | OS
   2  9,1  | SI
   2  2,8  - SO
+  2  2,2  - Sa

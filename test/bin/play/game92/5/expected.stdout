@@ -1,3 +1,5 @@
+ 39  6,8  - EsQ
+ 33  6,2  | EsQ
  31  1,1  | QiS
  28  1,6  - uNSEXES
  26  1,6  - dESEXES
@@ -9,6 +11,7 @@
  21  3,8  - NOsE
  20  5,5  | AXIoN
  20  3,8  - EAsE
+ 19  4,8  - EsE
  19  6,1  | NOsE
  19  4,8  - OsE
  19  5,5  | aXION
@@ -43,12 +46,14 @@
  16  5,5  | OXIm
  15  2,8  - ANEs
  15  6,8  - ErN
+ 15  6,2  | EsE
  15  2,8  - NAOs
  15  2,8  - NOEs
  15  6,1  | OEs
  15  2,8  - ONEs
  15  6,2  | OsE
  15  2,3  | PyE
+ 15  7,8  - cOQ
  14  6,8  - EbON
  14  6,8  - ExON
  14  3,8  - NOs
@@ -61,14 +66,18 @@
  13  3,8  - OEs
  13  6,2  | Os
  12  4,8  - As
+ 12  1,2  | ESQ
  12  6,8  - EmE
  12  6,8  - EmO
+ 12  6,8  - EpE
  12  6,8  - ErA
  12  6,8  - ErE
  12  4,8  - Es
+ 12  6,8  - EsE
  12  6,8  - EtA
  12  4,8  - Os
  12  1,3  - SPLAYEd
+ 12  6,3  | sA
  12  8,7  | sANE
  12  8,7  | sEEN
  12  8,7  | sENE
@@ -78,6 +87,8 @@
  11  1,3  - SPLAYs
  11  1,3  | SuQ
  11  6,8  - eN
+ 11  1,2  | eSQ
+ 11  8,7  | sAN
  11  8,7  | sEN
  11  8,7  | sON
  10  7,3  | ErASION
@@ -137,9 +148,11 @@
   9  7,8  - NAy
   9  7,8  - NE
   9  7,8  - NEb
+  9  7,8  - NEd
   9  7,8  - NEe
   9  7,8  - NEf
   9  7,8  - NEg
+  9  7,8  - NEk
   9  7,8  - NEt
   9  7,8  - NEw
   9  7,8  - NO
@@ -166,6 +179,7 @@
   9  6,4  | dEEWAN
   9  7,8  - pAEON
   9  7,8  - rANEE
+  9  8,7  | sA
   9  8,7  | sO
   8  6,4  | ANEW
   8  1,1  | ArSENO
@@ -251,6 +265,7 @@
   7  6,4  | aNEW
   7  7,8  - bAN
   7  7,8  - bEN
+  7  7,8  - bON
   7  7,8  - cAN
   7  7,4  | cASINO
   7  7,8  - cON
@@ -271,6 +286,7 @@
   7  7,5  - pEON
   7  6,5  | pEWEE
   7  7,8  - rAN
+  7  7,8  - sAN
   7  7,8  - sEN
   7  6,5  | sEWN
   7  7,8  - sON
@@ -298,12 +314,14 @@
   6  1,1  - EgG
   6  1,1  - EnG
   6  1,1  - ErG
+  6  1,1  | ErSOE
   6  5,7  - IWIs
   6  7,4  | NASIOn
   6  7,4  | NOSIEr
   6  7,4  | NOSIEs
   6  7,8  - Na
   6  7,8  - Ne
+  6  7,8  - Ni
   6  7,8  - No
   6  7,8  - Nu
   6  1,1  | OASEs
@@ -424,6 +442,7 @@
   5  7,4  | bASIN
   5  7,8  - bE
   5  7,8  - bO
+  5  7,8  - cO
   5  6,5  | dEW
   5  2,5  - eMO
   5  1,1  - eNG
@@ -451,6 +470,7 @@
   5  7,8  - rE
   5  7,4  | rESIN
   5  7,4  | rOSIN
+  5  7,8  - sA
   5  7,4  | sASIN
   5  6,5  | sEW
   5  7,8  - sO
@@ -488,9 +508,11 @@
   4  1,1  | OhS
   4  1,1  | OmS
   4  1,1  | OnS
+  4  1,1  | OoS
   4  1,1  | OpS
   4  1,1  | OrS
   4  7,4  | OsSIA
+  4  1,3  | SAN
   4  1,3  | SANd
   4  1,3  | SANe
   4  1,3  | SANg
@@ -594,6 +616,7 @@
   4  1,1  - yAG
   4  1,1  - zAG
   3  1,2  | ASEa
+  3  1,2  | ESE
   3  1,2  | ESEs
   3  1,2  | ESnE
   3  1,2  | OSAr
@@ -650,6 +673,7 @@
   3  1,3  | SOrA
   3  1,3  | SOrE
   3  1,3  | SOyA
+  3  1,3  | SaN
   3  1,3  | SeN
   3  1,3  | ShEA
   3  1,3  | ShOE
@@ -670,6 +694,7 @@
   3  1,1  | eNS
   3  1,1  | hOSE
   3  1,1  | iNS
+  3  1,1  | jOSE
   3  1,1  | lASE
   3  1,1  | lOSE
   3  1,1  | mESA
@@ -691,15 +716,19 @@
   2  1,2  | ASp
   2  1,2  | ASs
   2  1,2  | ES
+  2  1,2  | ESe
+  2  1,2  | ESq
   2  1,2  | ESs
   2  1,2  | OS
   2  1,2  | OSe
+  2  1,3  | SA
   2  1,3  | SAb
   2  1,3  | SAc
   2  1,3  | SAd
   2  1,3  | SAe
   2  1,3  | SAg
   2  1,3  | SAl
+  2  1,3  | SAn
   2  1,3  | SAp
   2  1,3  | SAt
   2  1,3  | SAu
@@ -715,6 +744,7 @@
   2  1,3  | SEn
   2  1,3  | SEr
   2  1,3  | SEt
+  2  1,3  | SEv
   2  1,3  | SEw
   2  1,3  | SEx
   2  7,6  | SIb
@@ -753,18 +783,21 @@
   2  1,1  | bOS
   2  1,1  | cOS
   2  1,1  | dOS
+  2  1,2  | eSE
   2  1,1  | fAS
   2  1,1  | gAS
   2  1,1  | hAS
   2  1,1  | hES
   2  1,1  | hOS
   2  1,1  | kAS
+  2  1,1  | kES
   2  1,1  | kOS
   2  1,1  | lAS
   2  1,1  | mAS
   2  1,1  | mOS
   2  1,1  | nOS
   2  1,1  | oES
+  2  1,1  | oOS
   2  1,2  | oSE
   2  1,1  | pAS
   2  1,1  | pES
@@ -778,8 +811,10 @@
   2  1,1  | vAS
   2  1,1  | wAS
   2  1,1  | wOS
+  2  1,1  | xES
   2  1,1  | yES
   2  1,1  | zAS
+  1  1,3  | Sa
   1  1,3  | Sh
   1  1,3  | Si
   1  1,3  | So

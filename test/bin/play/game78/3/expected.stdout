@@ -1,3 +1,4 @@
+ 48  2,10 - DINOS
  36  2,5  | DISSENT
  36  7,3  - FINDS
  36  7,3  - FONDS
@@ -17,11 +18,13 @@
  29  8,7  | DINTS
  28  2,6  | DINES
  28  8,7  | DINO
+ 28  2,10 - DINO
  28  8,7  | DINS
  28  8,7  | DINT
  28  2,6  | INSETS
  28  2,6  | NIDES
  28  2,6  | NODES
+ 28  2,10 - NODI
  28  2,5  | NOISES
  28  2,6  | NOSED
  28  2,5  | NOSIES
@@ -66,6 +69,7 @@
  24  8,2  | TIN
  24  2,6  | TINES
  24  2,6  | TONES
+ 23  4,10 - DIN
  23  8,2  | DITS
  23  4,10 - DON
  23  8,3  | ID
@@ -73,9 +77,11 @@
  23  8,2  | NITS
  23  4,10 - NOD
  22  2,8  - DIN
+ 22  2,10 - DIN
  22  2,8  - DON
  22  2,10 - DON
  22  8,8  | INTO
+ 22  2,8  - NOD
  22  2,10 - NOD
  22  4,6  - OSMuNDS
  22  8,2  | SITS
@@ -86,76 +92,108 @@
  20  8,1  | DOIT
  20  8,8  | IN
  20  4,10 - ION
+ 20  4,10 - SIN
  20  2,6  | SITES
  20  8,1  | SNIT
  20  4,10 - SOD
  20  4,10 - SON
  20  2,6  | STIES
  20  2,8  - TIN
+ 20  4,10 - TIN
+ 20  2,8  - TOD
  20  4,10 - TOD
  20  2,8  - TON
  20  4,10 - TON
+ 19  2,10 - DIS
+ 19  4,10 - DIS
  19  8,2  | DIT
+ 19  2,10 - DIT
+ 19  4,10 - DIT
  19  2,10 - DOS
  19  4,10 - DOS
  19  2,10 - DOT
  19  4,10 - DOT
  19  8,2  | NIT
+ 19  2,10 - NIT
+ 19  4,10 - NIT
  19  2,10 - NOS
  19  4,10 - NOS
  19  2,10 - NOT
  19  4,10 - NOT
  19  3,4  - SNOWED
+ 18  4,8  - DO
  18  6,6  - MuTONS
  18  4,8  - NO
  18  3,8  | ODDS
+ 18  2,10 - SIN
  18  8,2  | SIT
  18  2,10 - SOD
  18  2,10 - SON
+ 18  2,10 - TIN
  18  2,10 - TOD
  18  2,10 - TON
+ 17  3,8  - ID
  17  3,8  - IN
  17  8,3  | IT
+ 17  3,8  - OD
  17  3,8  - ON
+ 16  2,8  - DIS
  16  2,8  - DIT
  16  2,4  | DONSIE
+ 16  2,8  - DOS
  16  2,8  - DOT
+ 16  5,10 - ID
+ 16  5,10 - IN
  16  6,6  - MuNIS
  16  6,6  - MuONS
  16  6,6  - MuTON
  16  2,8  - NIT
  16  8,9  | NOD
+ 16  2,8  - NOS
  16  2,8  - NOT
  16  5,10 - OD
  16  5,10 - ON
  16  2,4  | ONSIDE
+ 16  4,10 - SIS
+ 16  4,10 - SIT
  16  5,2  | SNOT
  16  4,10 - SOS
  16  4,10 - SOT
  16  4,4  - SOWENS
  16  3,4  - STOWED
+ 16  4,10 - TIS
+ 15  2,10 - DI
  15  3,9  | DID
  15  3,9  | DIN
  15  2,10 - DO
  15  3,9  | DON
  15  5,3  | DOT
+ 15  2,10 - NI
  15  8,9  | NIT
  15  2,10 - NO
  15  8,9  | NOS
  15  5,3  | NOT
  15  8,9  | NOT
+ 15  2,10 - SIS
+ 15  2,10 - SIT
  15  2,10 - SOS
  15  2,10 - SOT
  15  4,4  - SOWED
+ 15  5,5  | TIS
+ 15  2,10 - TIS
  15  4,4  - TOWED
+ 14  8,7  | DI
  14  5,1  | DINO
  14  6,6  - MuSTS
+ 14  8,9  | NI
  14  8,9  | NO
  14  2,7  | SNEDS
  14  2,5  | SNIDE
  14  2,5  | SONDE
  14  2,4  | SONSIE
+ 14  2,8  - TIS
  14  6,4  - WENDS
+ 13  5,6  | ID
  13  1,10 - ID
  13  1,10 - IN
  13  5,3  | SOT
@@ -172,6 +210,8 @@
  12  3,9  | DOS
  12  3,9  | DOT
  12  5,1  | INTO
+ 12  5,10 - IS
+ 12  5,10 - IT
  12  2,6  | NIDE
  12  2,6  | NODE
  12  2,5  | NOISE
@@ -180,6 +220,7 @@
  12  2,8  | SEND
  12  8,7  | SI
  12  2,7  | SNED
+ 12  4,8  - SO
  12  2,7  | STEIN
  12  2,7  | STENO
  12  2,5  | STONE
@@ -192,9 +233,16 @@
  11  4,6  | DONAS
  11  7,3  - FIND
  11  7,3  - FOND
+ 11  5,6  | IS
+ 11  3,8  - IS
+ 11  5,6  | IT
  11  3,8  - IT
  11  5,3  | NO
+ 11  2,10 - OI
+ 11  3,8  - OS
+ 11  2,10 - SI
  11  2,10 - SO
+ 11  2,10 - TI
  11  2,10 - TO
  11  6,4  - WED
  11  6,4  - WEN
@@ -206,6 +254,7 @@
  10  4,8  | DANS
  10  5,7  - DELISTS
  10  2,8  | DEN
+ 10  4,10 - DI
  10  2,7  | DIES
  10  2,7  | DIET
  10  3,5  - DINARS
@@ -226,15 +275,18 @@
  10  7,3  - FONT
  10  2,7  | IDES
  10  2,5  - INSTARS
+ 10  2,8  | NED
  10  2,8  | NESS
  10  2,8  | NEST
  10  2,8  | NETS
+ 10  4,10 - NI
  10  2,6  | NITE
  10  4,10 - NO
  10  2,7  | NOES
  10  2,6  | NOSE
  10  2,6  | NOTE
  10  2,7  | ODES
+ 10  5,5  | OI
  10  2,7  | ONES
  10  4,6  - OSMuND
  10  2,8  | SENT
@@ -246,6 +298,7 @@
  10  2,8  | TEDS
  10  5,7  - TELSONS
  10  2,8  | TENS
+ 10  5,5  | TI
  10  2,6  | TIDE
  10  2,7  | TIED
  10  2,6  | TINE
@@ -264,6 +317,7 @@
   9  4,8  | DAN
   9  4,8  | DATO
   9  5,7  - DELIST
+  9  2,8  - DI
   9  3,5  - DINAR
   9  2,8  - DO
   9  2,7  - DOSSEL
@@ -273,11 +327,14 @@
   9  7,3  - FIN
   9  7,3  - FOIN
   9  7,3  - FON
+  9  3,10 - ID
+  9  3,10 - IN
   9  2,5  - INSTAR
   9  1,10 - IS
   9  1,10 - IT
   9  4,8  | NAOI
   9  4,8  | NAOS
+  9  2,8  - NI
   9  2,8  - NO
   9  3,10 - OD
   9  4,7  | ODAS
@@ -307,6 +364,7 @@
   8  5,5  - DARNS
   8  5,7  - DELIS
   8  5,7  - DELTS
+  8  8,2  | DI
   8  3,7  | DIDO
   8  4,6  | DITAS
   8  4,7  | DOATS
@@ -322,6 +380,7 @@
   8  7,3  - FOSS
   8  5,5  - NARDS
   8  2,8  | NET
+  8  8,2  | NI
   8  3,7  | NODI
   8  3,7  | NODS
   8  4,7  | ODA
@@ -332,6 +391,7 @@
   8  2,8  | SEIS
   8  2,8  | SEN
   8  2,8  | SETS
+  8  4,10 - SI
   8  2,6  | SITE
   8  4,10 - SO
   8  3,5  - SONARS
@@ -339,6 +399,7 @@
   8  4,7  | STAIN
   8  2,8  | TED
   8  2,8  | TEN
+  8  4,10 - TI
   8  2,7  | TIES
   8  4,10 - TO
   8  4,7  | TOADS
@@ -354,6 +415,7 @@
   7  6,5  - ARISTO
   7  6,5  - AROID
   7  6,5  - ARSON
+  7  4,8  | DA
   7  5,5  - DARTS
   7  3,7  | DID
   7  4,6  | DITA
@@ -364,6 +426,8 @@
   7  1,8  - IN
   7  1,7  | INfOS
   7  4,6  | IOTAS
+  7  3,10 - IS
+  7  3,10 - IT
   7  6,6  - MuDS
   7  6,6  - MuNI
   7  6,6  - MuNS
@@ -431,6 +495,7 @@
   6  6,6  - MuTS
   6  5,5  - NARD
   6  4,7  - NOEL
+  6  4,8  | OAD
   6  4,8  | OAST
   6  4,8  | OATS
   6  3,7  | ODD
@@ -438,6 +503,7 @@
   6  4,6  | OSSA
   6  5,4  - OWE
   6  4,8  | SAD
+  6  4,8  | SAN
   6  5,5  - SARIS
   6  5,5  - SAROS
   6  4,8  | SATI
@@ -458,6 +524,7 @@
   6  4,8  | TASS
   6  3,7  | TODS
   6  5,9  | YIN
+  6  5,9  | YNO
   6  5,9  | YOD
   6  5,9  | YON
   5  7,8  - AIS
@@ -469,6 +536,7 @@
   5  5,7  - DEL
   5  6,7  - ELD
   5  7,3  - FI
+  5  5,6  - IMu
   5  1,8  - IT
   5  6,6  - MuS
   5  6,6  - MuT
@@ -499,6 +567,8 @@
   4  1,7  | DIfS
   4  2,7  | DOE
   4  6,7  - ELS
+  4  2,9  | EO
+  4  6,9  | EO
   4  2,9  | ES
   4  6,9  | ES
   4  2,9  | ET
@@ -512,6 +582,7 @@
   4  2,7  | ONE
   4  4,5  - OSAR
   4  5,8  | OY
+  4  4,8  | SA
   4  5,5  - SARI
   4  5,7  - SEL
   4  4,5  - SOAR
@@ -521,6 +592,7 @@
   4  5,5  - TARS
   4  5,7  - TEL
   4  4,5  - TSAR
+  4  5,9  | YI
   4  5,9  | YO
   4  1,9  | fIT
   3  4,9  | AD
@@ -531,6 +603,7 @@
   3  6,5  - ART
   3  4,9  | ASS
   3  2,8  | DE
+  3  3,9  | DI
   3  1,7  | DIf
   3  3,9  | DO
   3  3,8  | ID

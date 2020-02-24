@@ -714,6 +714,7 @@
  24  1,3  - bIAS
  24  1,9  - bIELDS
  24  3,7  | bILES
+ 24  2,10 - bLASES
  24  2,10 - bYSSI
  24  2,10 - cISSY
  24  1,3  - dAIS
@@ -882,6 +883,7 @@
  21  1,9  - LASeD
  21  1,9  - LAmEDS
  21  1,9  - LIArD
+ 21  3,8  - LSD
  21  3,2  | LYES
  21  2,3  - LYSe
  21  2,3  - LYsE
@@ -1051,6 +1053,7 @@
  19  3,2  | hEAL
  19  3,2  | kYES
  19  3,2  | lEAL
+ 19  3,8  - lSD
  19  3,2  | lYES
  19  3,2  | mEAL
  19  3,4  | mY
@@ -1193,6 +1196,7 @@
  17  3,1  | LIrE
  17  3,1  | LItE
  17  3,1  | LIvE
+ 17  3,3  - LSd
  17  3,2  | LYEs
  17  2,3  - LaSE
  17  2,3  - LoSE
@@ -1316,6 +1320,7 @@
  16  2,10 - rAISE
  16  2,10 - tASSE
  16  3,10 - wISELY
+ 15  6,9  | AIL
  15  1,9  - AIdED
  15  1,9  - AIlED
  15  1,9  - AImED
@@ -1330,8 +1335,11 @@
  15  3,3  - AsS
  15  5,9  - DELAYS
  15  3,3  - ES
+ 15  3,3  - ESe
+ 15  3,3  - ESq
  15  3,3  - ESs
  15  3,3  - EsS
+ 15  7,1  | ILEuS
  15  3,3  - IS
  15  1,9  - ISlED
  15  3,3  - ISm
@@ -1341,6 +1349,7 @@
  15  2,3  - LAs
  15  3,2  | LEaS
  15  3,2  | LEeS
+ 15  7,1  | LIEuS
  15  3,2  | LIeS
  15  2,3  - LIs
  15  2,3  - LaS
@@ -1349,8 +1358,10 @@
  15  3,2  | LeES
  15  3,2  | LiES
  15  2,3  - LiS
+ 15  3,8  - LsD
  15  3,2  | LuES
  15  3,2  | LyES
+ 15  4,3  - SA
  15  1,9  - SAbED
  15  1,9  - SAnED
  15  1,9  - SApID
@@ -1389,6 +1400,7 @@
  15  3,2  | dIES
  15  2,3  - dIS
  15  3,4  | eL
+ 15  3,3  - eSE
  15  2,3  - fAS
  15  3,2  | gAES
  15  2,3  - gAS
@@ -1401,6 +1413,7 @@
  15  3,2  | kAES
  15  2,3  - kAS
  15  3,2  | kEAS
+ 15  2,3  - kES
  15  2,3  - kIS
  15  2,3  - lAS
  15  3,2  | lEAS
@@ -1435,6 +1448,7 @@
  15  3,2  | wAES
  15  2,3  - wAS
  15  2,3  - wIS
+ 15  2,3  - xES
  15  2,3  - xIS
  15  3,2  | yEAS
  15  2,3  - yES
@@ -1649,6 +1663,7 @@
  14  1,10 - sLAYS
  14  1,10 - sYLIS
  14  1,10 - wYLES
+ 13  6,9  | AIS
  13  3,4  | AS
  13  3,2  | AYE
  13  3,3  | AaS
@@ -1709,6 +1724,7 @@
  13  7,7  | SYLI
  13  7,7  | SYLIs
  13  7,7  | SYLvA
+ 13  4,3  - Sa
  13  3,7  | SaY
  13  4,3  - Sh
  13  3,7  | ShY
@@ -1758,6 +1774,7 @@
  13  3,3  | hES
  13  3,3  - iS
  13  3,3  | kAS
+ 13  3,3  | kES
  13  3,3  | lAS
  13  3,3  | mAS
  13  3,3  | oES
@@ -1767,11 +1784,13 @@
  13  3,3  | rAS
  13  2,9  - rEADILY
  13  3,3  | rES
+ 13  4,3  - sA
  13  4,3  - sI
  13  3,3  | tAS
  13  3,3  - uS
  13  3,3  | vAS
  13  3,3  | wAS
+ 13  3,3  | xES
  13  3,3  | yES
  13  3,3  | zAS
  12  4,9  - ADEnYLS
@@ -1787,6 +1806,7 @@
  12  4,10 - ASSaY
  12  3,10 - ASSoIL
  12  4,10 - ASSoIL
+ 12  6,10 | AY
  12  2,10 - AYES
  12  1,10 - AYInS
  12  3,10 - AbSEIL
@@ -1995,6 +2015,8 @@
  12  1,10 - YeSES
  12  3,10 - YeSES
  12  3,9  - YoDLE
+ 12  6,9  | aAL
+ 12  6,9  | aIL
  12  3,10 - aISLES
  12  3,10 - aSSAIL
  12  4,10 - aSSAIL
@@ -2053,9 +2075,20 @@
  12  3,2  | tYE
  12  3,2  | wYE
  11  4,9  - ADEnYL
+ 11  6,9  | AI
  11  3,9  - AIDLEsS
+ 11  6,9  | AId
+ 11  6,9  | AIl
+ 11  6,9  | AIm
+ 11  6,9  | AIn
+ 11  6,9  | AIr
+ 11  6,9  | AIs
+ 11  6,9  | AIt
+ 11  6,9  | AIx
  11  3,2  | ALE
  11  3,2  | AYe
+ 11  6,9  | AaL
+ 11  6,9  | AiL
  11  5,9  - DAIlY
  11  5,9  - DAIrY
  11  5,9  - DAIsY
@@ -2077,7 +2110,10 @@
  11  5,9  - DIrELY
  11  5,9  - DYnELS
  11  5,9  - DaISY
+ 11  6,9  | EAr
  11  3,3  | EAt
+ 11  6,9  | EAt
+ 11  6,9  | EAu
  11  3,2  | EYe
  11  4,9  - IDEALlY
  11  4,9  - IDLY
@@ -2212,6 +2248,7 @@
  10  2,10 - AILS
  10  3,10 - AISLe
  10  3,10 - AISlES
+ 10  6,10 | AL
  10  2,10 - ALES
  10  1,10 - ALEcS
  10  1,10 - ALEfS
@@ -2345,6 +2382,7 @@
  10  2,10 - LIES
  10  1,10 - LIEnS
  10  1,10 - LIErS
+ 10  7,1  | LIEu
  10  1,10 - LIEuS
  10  3,10 - LISlE
  10  1,10 - LISpS
@@ -2679,6 +2717,8 @@
  10  2,10 - YeAS
  10  3,3  | Yo
  10  2,10 - YwIS
+ 10  6,9  | aAS
+ 10  6,9  | aIS
  10  3,10 - aISLE
  10  3,2  | aLA
  10  3,2  | aLE
@@ -2819,6 +2859,7 @@
  10  3,10 - tESLA
  10  1,10 - tILES
  10  2,10 - tYES
+ 10  7,4  | uS
  10  1,10 - vAILS
  10  1,10 - vALES
  10  1,10 - vEALS
@@ -2836,10 +2877,14 @@
   9  3,9  - ALDoSE
   9  3,2  | ALa
   9  3,2  | ALe
+  9  6,9  | AaS
   9  3,4  | Ab
   9  3,4  | Ad
   9  3,9  - AdDLES
   9  3,4  | Ag
+  9  6,9  | AhI
+  9  6,9  | AhS
+  9  6,9  | AiS
   9  3,4  | Al
   9  3,4  | Am
   9  3,4  | As
@@ -2897,6 +2942,7 @@
   9  3,4  | Em
   9  3,4  | Es
   9  3,4  | Et
+  9  3,4  | Ew
   9  4,9  - IDLErS
   9  4,9  - IDeALS
   9  4,9  - IDlY
@@ -2908,6 +2954,7 @@
   9  2,9  - LAdDIE
   9  2,9  - LArDY
   9  2,9  - LEaDY
+  9  7,2  | LEu
   9  3,9  - LIDArS
   9  3,9  - LIDoS
   9  2,9  - LInDY
@@ -3123,7 +3170,9 @@
   8  4,9  - ADdLE
   8  4,9  - ADvISE
   8  3,3  | AE
+  8  6,10 | AE
   8  1,10 - AEgIS
+  8  6,10 | AI
   8  3,9  - AIDES
   8  4,9  | AIS
   8  3,10 - AISlE
@@ -3137,6 +3186,7 @@
   8  2,10 - ALmS
   8  2,10 - ALpS
   8  2,10 - ALtS
+  8  6,10 | AS
   8  4,10 - ASIdE
   8  3,10 - ASSEs
   8  4,10 - ASSEs
@@ -3206,6 +3256,7 @@
   8  3,10 - EASeS
   8  1,10 - EAStS
   8  3,10 - EAStS
+  8  7,2  | EAu
   8  4,9  - EDILe
   8  2,9  - ELIDe
   8  3,10 - ELSe
@@ -3314,6 +3365,8 @@
   8  3,2  | LyE
   8  2,10 - LyES
   8  3,10 - LySE
+  8  3,3  | SA
+  8  3,7  | SA
   8  7,7  | SAE
   8  5,10 - SAIcE
   8  7,7  | SAId
@@ -3359,6 +3412,7 @@
   8  5,10 - SAlES
   8  7,7  | SAlL
   8  5,10 - SAlL
+  8  3,7  | SAn
   8  2,9  - SAnDY
   8  1,10 - SAnES
   8  5,10 - SAnES
@@ -3370,6 +3424,7 @@
   8  5,10 - SAtES
   8  1,10 - SAtIS
   8  5,10 - SAtIS
+  8  7,2  | SAu
   8  3,7  | SAu
   8  7,7  | SAuL
   8  5,10 - SAuL
@@ -3432,6 +3487,7 @@
   8  7,7  | SErAI
   8  5,10 - SErAI
   8  3,7  | SEt
+  8  3,7  | SEv
   8  3,7  | SEw
   8  3,7  | SEx
   8  3,7  | SI
@@ -3584,12 +3640,15 @@
   8  2,9  - YIrDS
   8  1,4  - YlEM
   8  3,9  - YoD
+  8  6,9  | aA
   8  2,10 - aALS
+  8  6,9  | aI
   8  2,10 - aILS
   8  2,10 - aLAS
   8  2,10 - aLES
   8  3,10 - aSSAI
   8  4,10 - aSSAI
+  8  6,10 | aY
   8  3,7  | bAIL
   8  3,7  | bAL
   8  2,10 - bALS
@@ -3624,6 +3683,7 @@
   8  2,10 - eELS
   8  2,9  - eLIDE
   8  3,10 - eLSE
+  8  3,2  | eSE
   8  3,7  | fAIL
   8  3,7  | fEAL
   8  3,7  - fEATLY
@@ -3654,6 +3714,8 @@
   8  4,10 - iSLE
   8  3,10 - iSSEI
   8  4,10 - iSSEI
+  8  1,10 - jASES
+  8  3,10 - jASES
   8  3,2  | kAE
   8  3,2  | kEA
   8  3,9  - lADLES
@@ -3780,17 +3842,21 @@
   7  4,9  | AIr
   7  4,9  | AIs
   7  4,9  | AIt
+  7  4,9  | AIx
   7  3,9  - ALDEr
   7  1,4  - ALuM
   7  2,9  - ASIDE
   7  2,9  - ASIDEs
   7  3,2  | ASh
+  7  6,9  | Aa
   7  4,9  | AaL
   7  2,9  - AbIDES
   7  3,2  | AcE
   7  2,9  - AcIDY
   7  3,9  - AeDES
   7  3,2  | AgE
+  7  6,9  | Ah
+  7  6,9  | Ai
   7  3,9  - AiDES
   7  4,9  | AiL
   7  3,2  | AlE
@@ -3867,10 +3933,12 @@
   7  3,9  - EIDoS
   7  3,9  - ELDS
   7  2,4  - ELM
+  7  3,2  | ESe
   7  3,9  - EdDY
   7  4,9  | EeL
   7  6,9  | Eh
   7  2,9  - EmYDS
+  7  6,9  | Eo
   7  3,2  | ErA
   7  3,2  | EtA
   7  4,9  - IDEAS
@@ -3910,6 +3978,7 @@
   7  1,7  - LInEATE
   7  3,5  - LORE
   7  3,5  - LOREs
+  7  3,9  - LSD
   7  3,9  - LaDE
   7  3,9  - LaDS
   7  3,9  - LiDS
@@ -3966,6 +4035,7 @@
   7  3,5  - SOREL
   7  3,5  - SORELs
   7  3,5  - SORELy
+  7  3,7  | Sa
   7  3,2  | SaE
   7  7,7  | SaE
   7  3,2  | SeA
@@ -4004,6 +4074,7 @@
   7  6,4  - VAvS
   7  6,4  - VAwS
   7  6,4  - VEeS
+  7  6,4  - VEgA
   7  6,4  - VElA
   7  6,4  - VEnA
   7  6,4  - VErA
@@ -4133,28 +4204,44 @@
   6  4,10 - ASpS
   6  4,10 | AY
   6  3,3  | Aa
+  6  6,10 | Aa
   6  4,9  | AaS
+  6  6,10 | Ab
   6  2,10 - AcES
+  6  6,10 | Ad
   6  3,3  | Ae
+  6  6,10 | Ae
+  6  6,10 | Ag
   6  2,10 - AgES
   6  3,3  | Ah
+  6  6,10 | Ah
   6  1,4  - AhEM
   6  2,10 - AhIS
+  6  6,10 | Ai
   6  4,9  | AiS
+  6  6,10 | Al
   6  2,10 - AlES
   6  3,3  | Am
+  6  6,10 | Am
   6  2,10 - AmIS
+  6  6,10 | An
   6  2,10 - AnES
   6  2,10 - AnIS
   6  2,10 - ApES
   6  3,10 - ApSE
+  6  6,10 | Ar
   6  2,10 - ArES
   6  3,10 - ArSE
+  6  6,10 | As
+  6  6,10 | At
   6  2,10 - AtES
   6  2,10 - AvES
+  6  6,10 | Aw
   6  2,10 - AwES
+  6  6,10 | Ax
   6  2,10 - AxES
   6  2,10 - AxIS
+  6  6,10 | Ay
   6  2,10 - AyES
   6  5,9  - DAIS
   6  5,9  - DAISy
@@ -4217,6 +4304,7 @@
   6  3,3  | Eh
   6  3,3  | Em
   6  2,9  - EmYD
+  6  3,3  | Eo
   6  2,10 - ErAS
   6  2,10 - EtAS
   6  1,4  - ExAM
@@ -4235,6 +4323,7 @@
   6  4,10 - ISlE
   6  2,10 - ISmS
   6  4,10 - ISmS
+  6  6,10 | Ib
   6  2,10 - IcES
   6  6,10 | Id
   6  2,7  - IdEATES
@@ -4243,6 +4332,7 @@
   6  6,10 | If
   6  1,4  - ImAM
   6  6,10 | In
+  6  6,10 | Ip
   6  2,10 - IrES
   6  6,10 | Is
   6  6,10 | It
@@ -4256,6 +4346,7 @@
   6  2,9  - LEuD
   6  2,9  - LEwD
   6  2,9  - LIeD
+  6  4,10 - LSd
   6  3,9  - LaD
   6  2,4  - LaM
   6  2,9  - LeADS
@@ -4263,9 +4354,11 @@
   6  3,9  - LiD
   6  2,9  - LoADS
   6  2,9  - LoIDS
+  6  3,9  - LsD
   6  2,4  - LuM
   6  4,5  - OREAdS
   6  4,5  - OREIdE
+  6  7,7  | SA
   6  3,9  - SADE
   6  3,9  - SADEs
   6  3,9  - SADI
@@ -4303,6 +4396,7 @@
   6  2,10 - SAlS
   6  5,10 - SAlS
   6  5,10 - SAmE
+  6  7,7  | SAn
   6  5,10 - SAnE
   6  2,10 - SAnS
   6  5,10 - SAnS
@@ -4366,6 +4460,7 @@
   6  5,10 - SEtA
   6  2,10 - SEtS
   6  5,10 - SEtS
+  6  7,7  | SEv
   6  7,7  | SEw
   6  2,10 - SEwS
   6  5,10 - SEwS
@@ -4411,6 +4506,7 @@
   6  7,7  | SIx
   6  5,10 - SIzE
   6  5,10 - SLy
+  6  3,3  | Sa
   6  5,10 - SaL
   6  1,4  - ScAM
   6  1,4  - SeAM
@@ -4472,6 +4568,7 @@
   6  3,3  | aE
   6  3,9  - aIDES
   6  4,9  | aIS
+  6  6,10 | aL
   6  4,10 - aSEA
   6  2,9  - aSIDE
   6  3,3  | bA
@@ -4497,6 +4594,7 @@
   6  3,9  - cEDIS
   6  2,10 - cESS
   6  3,10 - cESS
+  6  3,3  | dA
   6  2,10 - dAIS
   6  3,3  | dE
   6  2,9  - dEADS
@@ -4641,6 +4739,7 @@
   6  2,10 - rIAS
   6  3,9  - rIDES
   6  3,10 - rISE
+  6  3,3  | sA
   6  3,9  - sADES
   6  3,9  - sADIS
   6  3,7  | sAE
@@ -4776,6 +4875,7 @@
   5  3,9  - ElDS
   5  2,4  - ElM
   5  3,9  - EnDS
+  5  4,9  | Eo
   5  4,9  - IDEaS
   5  4,9  - IDLe
   5  4,9  - IDLy
@@ -4783,6 +4883,7 @@
   5  4,9  - IDeE
   5  4,9  - IDeS
   5  4,9  - IDlE
+  5  2,7  - IdEATA
   5  2,7  - IdEATE
   5  2,9  - IrADE
   5  2,4  - IsM
@@ -4809,6 +4910,7 @@
   5  3,5  - SOREl
   5  3,5  - SOREr
   5  3,5  - SOREs
+  5  7,7  | Sa
   5  3,9  - SaDE
   5  3,9  - SaDI
   5  7,7  | Sh
@@ -4826,6 +4928,7 @@
   5  2,9  - SpADE
   5  2,9  - StADE
   5  2,4  - SuM
+  5  6,4  - Vu
   5  3,10 - YES
   5  4,9  | aA
   5  4,9  | aE
@@ -4888,6 +4991,7 @@
   5  2,4  - sIM
   5  3,5  - sOREL
   5  2,4  - tAM
+  5  2,4  - tEM
   5  2,9  - tIED
   5  2,9  - uSED
   5  2,9  - vIED
@@ -4940,6 +5044,7 @@
   4  5,9  - DEbS
   4  5,9  - DEeS
   4  5,9  - DEfI
+  4  5,9  - DEjA
   4  5,9  - DElI
   4  5,9  - DElS
   4  5,9  - DEnI
@@ -4981,6 +5086,8 @@
   4  4,9  - EDS
   4  3,10 - ELS
   4  4,10 | ES
+  4  4,10 - ESe
+  4  4,10 - ESq
   4  4,10 - ESs
   4  2,9  - EgAD
   4  3,9  - ElD
@@ -5000,12 +5107,14 @@
   4  3,10 - LIS
   4  4,5  - OREAd
   4  4,5  - ORES
+  4  5,10 - SA
   4  5,10 - SAb
   4  5,10 - SAc
   4  5,10 - SAd
   4  5,10 - SAe
   4  5,10 - SAg
   4  5,10 - SAl
+  4  5,10 - SAn
   4  5,10 - SAp
   4  5,10 - SAt
   4  5,10 - SAu
@@ -5021,6 +5130,7 @@
   4  5,10 - SEn
   4  5,10 - SEr
   4  5,10 - SEt
+  4  5,10 - SEv
   4  5,10 - SEw
   4  5,10 - SEx
   4  5,10 - SI
@@ -5049,6 +5159,7 @@
   4  2,5  - ShORE
   4  5,10 - SiS
   4  5,10 - SkA
+  4  2,9  - SkED
   4  5,10 - SkI
   4  2,9  - SkID
   4  2,9  - SlED
@@ -5067,9 +5178,13 @@
   4  2,7  - SwEAT
   4  2,5  - SwORE
   4  3,10 - YeS
+  4  6,10 | aA
+  4  6,10 | aE
+  4  6,10 | aI
   4  3,9  - aIDE
   4  3,9  - aIDS
   4  3,4  - aM
+  4  6,10 | aS
   4  4,10 - aSS
   4  4,10 | aY
   4  3,10 - aYS
@@ -5093,6 +5208,7 @@
   4  3,9  - eIDE
   4  3,9  - eLD
   4  3,4  - eM
+  4  4,10 - eSE
   4  4,10 - eSS
   4  3,7  | fA
   4  3,9  - fADE
@@ -5142,6 +5258,7 @@
   4  3,7  | nA
   4  3,7  | nE
   4  3,7  - nEATS
+  4  3,7  | nI
   4  3,9  - nIDE
   4  6,10 | oE
   4  6,10 | oI
@@ -5165,6 +5282,8 @@
   4  3,9  - rEDS
   4  3,9  - rIDE
   4  3,9  - rIDS
+  4  3,7  | sA
+  4  7,7  | sA
   4  3,9  - sADE
   4  3,9  - sADI
   4  3,7  - sEATS
@@ -5214,6 +5333,7 @@
   3  4,10 | Aw
   3  4,10 | Ax
   3  4,10 | Ay
+  3  5,9  - DA
   3  5,9  - DAb
   3  5,9  - DAd
   3  5,9  - DAg
@@ -5235,6 +5355,7 @@
   3  5,9  - DEw
   3  5,9  - DEx
   3  5,9  - DEy
+  3  5,9  - DI
   3  5,9  - DIb
   3  5,9  - DId
   3  5,9  - DIe
@@ -5258,16 +5379,20 @@
   3  4,10 | El
   3  4,10 | Em
   3  4,10 | En
+  3  4,10 | Eo
   3  4,10 | Er
   3  4,10 | Es
   3  4,10 | Et
+  3  4,10 | Ew
   3  4,10 | Ex
   3  4,9  - ID
   3  4,9  - IDe
   3  4,9  - IDs
+  3  4,10 | Ib
   3  4,10 | Id
   3  4,10 | If
   3  4,10 | In
+  3  4,10 | Ip
   3  4,10 | Is
   3  4,10 | It
   3  3,10 - LaS
@@ -5305,18 +5430,22 @@
   3  3,9  - hID
   3  4,9  - iDE
   3  4,9  - iDS
+  3  3,9  - kED
   3  3,9  - kID
   3  3,5  - kORE
   3  3,9  - lAD
   3  3,9  - lED
   3  3,9  - lID
   3  3,5  - lORE
+  3  3,9  - lSD
   3  3,9  - mAD
   3  3,7  - mEAT
   3  3,9  - mED
   3  3,9  - mID
   3  3,5  - mORE
   3  3,7  - nEAT
+  3  3,9  - nED
+  3  3,9  - oAD
   3  4,9  - oDA
   3  4,9  - oDE
   3  4,9  - oDS
@@ -5351,7 +5480,9 @@
   2  3,10 - ArS
   2  3,10 - AsS
   2  3,10 - AyS
+  2  5,9  - Da
   2  5,9  - De
+  2  5,9  - Di
   2  5,9  - Do
   2  4,10 - ES
   2  3,10 - EdS
@@ -5366,6 +5497,7 @@
   2  3,10 - IfS
   2  3,10 - InS
   2  3,10 - ItS
+  2  5,10 - Sa
   2  5,10 - Sh
   2  5,10 - Si
   2  3,10 - SiS
@@ -5396,6 +5528,7 @@
   2  4,9  - iD
   2  4,10 | iS
   2  3,10 - kAS
+  2  3,10 - kES
   2  3,10 - kIS
   2  3,10 - lAS
   2  3,10 - lIS
@@ -5420,6 +5553,7 @@
   2  3,10 - vIS
   2  3,10 - wAS
   2  3,10 - wIS
+  2  3,10 - xES
   2  3,10 - xIS
   2  3,10 - yES
   2  3,10 - zAS

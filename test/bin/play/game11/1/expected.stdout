@@ -1,4 +1,6 @@
  70 10,2  | OLDISH
+ 68 10,6  | DHOLS
+ 66 10,2  | DHOLS
  66 10,2  | HINDS
  66 10,2  | HOLDS
  66 10,1  | INDOLS
@@ -74,6 +76,7 @@
  42 10,4  | LID
  42 10,3  | LIDS
  42 10,3  | LINS
+ 42 10,4  | LSD
  42 10,3  | NILS
  42 10,4  | NOD
  42 10,3  | NODS
@@ -88,6 +91,7 @@
  40 10,4  | HOS
  40 10,5  | IDS
  40 10,3  | IONS
+ 40 10,5  | LSD
  40 10,5  | ODS
  40 10,4  | OHS
  40 10,3  | OILS
@@ -96,6 +100,7 @@
  40 10,6  | SOIL
  40 10,6  | SOLI
  39  9,1  | INDOLE
+ 38 10,6  | DI
  38 10,4  | DIS
  38 10,6  | DO
  38 10,4  | DOS
@@ -122,21 +127,28 @@
  33  9,1  | INSOLE
  33  9,1  | ONSIDE
  32  6,6  - JADED
+ 31  5,7  - SOLID
  30  6,6  - JADES
  30  6,6  | JOINS
  23  7,5  - HINDS
+ 23  7,7  - HINDS
  23  7,7  - HOLDS
  23  3,7  - INDOL
+ 23  5,7  - NODI
  22  3,7  - DINOS
+ 22  7,5  - DOH
  22  7,7  - DOH
  22  7,5  - HIND
+ 22  7,7  - HIND
  22  7,7  - HOLD
  22  3,7  - LIDOS
  22  3,7  - LINOS
  22  7,5  - NOH
  22  7,7  - NOH
+ 22  5,7  - SOLI
  21  5,7  - DOH
  21  7,5  - HINS
+ 21  7,7  - HINS
  21  7,5  - HODS
  21  7,7  - HODS
  21  7,7  - HOLS
@@ -144,9 +156,13 @@
  21  7,7  - HONS
  21  5,7  - NOH
  21  4,7  - SHOD
+ 20  7,5  - DINOS
+ 20  7,7  - DINOS
  20  4,7  - DIOL
  20  7,5  - HID
+ 20  7,7  - HID
  20  7,5  - HIN
+ 20  7,7  - HIN
  20  7,5  - HOD
  20  5,7  - HOD
  20  7,7  - HOD
@@ -156,47 +172,76 @@
  20  7,7  - HON
  20  4,7  - IDOL
  20  7,5  - LIDOS
+ 20  7,7  - LIDOS
  20  7,5  - LINOS
+ 20  7,7  - LINOS
  20  4,7  - LION
+ 19  7,5  - DINO
  19  3,7  - DINO
+ 19  7,7  - DINO
+ 19  7,5  - DINS
+ 19  7,7  - DINS
  19  5,7  - DOL
  19  7,7  - DOLS
  19  5,7  - DON
+ 19  7,5  - DONS
  19  7,7  - DONS
  19  8,4  | HODDIN
  19  7,5  - LIDO
  19  3,7  - LIDO
+ 19  7,7  - LIDO
  19  7,5  - LIDS
+ 19  7,7  - LIDS
  19  7,5  - LINO
  19  3,7  - LINO
+ 19  7,7  - LINO
  19  7,5  - LINS
+ 19  7,7  - LINS
+ 19  7,7  - NILS
  19  5,7  - NOD
  19  7,5  - NODI
  19  7,7  - NODI
  19  7,5  - NODS
  19  7,7  - NODS
  19  6,7  - OH
+ 19  7,5  - SIDH
+ 19  7,7  - SIDH
+ 19  7,5  - SINH
+ 19  7,7  - SINH
  19  7,7  - SOLDI
  19  7,7  - SOLID
+ 18  7,5  - DIN
+ 18  7,7  - DIN
  18  7,7  - DOL
+ 18  7,5  - DON
  18  7,7  - DON
+ 18  7,7  - HISN
  18  8,3  | HODDINS
+ 18  5,7  - HOI
  18  5,7  - HOS
  18  5,7  - ION
  18  7,5  - LID
+ 18  7,7  - LID
  18  7,5  - LIN
+ 18  7,7  - LIN
+ 18  7,7  - NIL
  18  7,5  - NOD
  18  7,7  - NOD
  18  8,5  - OHS
  18  8,7  - OHS
+ 18  7,7  - SILD
  18  5,7  - SOD
  18  5,7  - SOL
  18  7,7  - SOLD
  18  5,7  - SON
+ 17  7,5  - DIOLS
+ 17  7,7  - DIOLS
+ 17  7,7  - DISH
  17  5,7  - DOS
  17  8,3  | HODDIN
  17  7,7  - IONS
  17  7,5  - LIONS
+ 17  7,7  - LIONS
  17  5,7  - NOS
  17  7,7  - NOSH
  17  6,7  - OD
@@ -205,13 +250,17 @@
  17  6,7  - ON
  17  9,2  | SHINED
  17  3,7  - SILO
+ 17  7,7  - SILO
  17  7,7  - SOLI
  16  9,2  | DHOLES
+ 16  7,5  - DIOL
+ 16  7,7  - DIOL
  16  6,5  | DJINS
  16  9,5  - HID
  16  9,7  - HID
  16  9,5  - HIN
  16  9,7  - HIN
+ 16  7,7  - HIS
  16  9,5  - HOD
  16  9,7  - HOD
  16  9,2  | HOIDENS
@@ -222,15 +271,21 @@
  16  9,3  | HONED
  16  7,7  - HOS
  16  8,5  - IDOL
+ 16  8,7  - IDOL
  16  7,7  - ION
  16  6,6  | JOHN
  16  7,5  - LION
+ 16  7,7  - LION
  16  9,2  | NOSHED
  16  8,7  - OLDS
  16  6,3  | SHOJI
+ 16  7,5  - SIN
+ 16  7,7  - SIN
  16  6,3  | SLOJD
+ 16  7,5  - SOD
  16  7,7  - SOD
  16  7,7  - SOL
+ 16  7,5  - SON
  16  7,7  - SON
  15  9,5  | DELISH
  15  6,5  | DJIN
@@ -238,6 +293,8 @@
  15  9,5  - HIS
  15  9,7  - HIS
  15  5,7  - HO
+ 15  9,5  - HOI
+ 15  9,7  - HOI
  15  9,2  | HOIDEN
  15  9,5  - HOS
  15  9,7  - HOS
@@ -249,6 +306,7 @@
  15  8,7  - OLD
  15  6,7  - OS
  14  9,2  | DHOLE
+ 14  7,7  - DIS
  14  5,7  - DO
  14  7,7  - DOS
  14  9,5  | HELIO
@@ -265,11 +323,14 @@
  14  9,3  | HOSEL
  14  9,3  | HOSEN
  14  8,5  - IDS
+ 14  8,7  - IDS
  14  8,4  | INDOL
  14  8,5  - INS
+ 14  8,7  - INS
  14  6,6  | JINS
  14  6,6  | JOIN
  14  9,3  | LINED
+ 14  7,7  - LIS
  14  5,7  - LO
  14  9,3  | LODEN
  14  5,7  - NO
@@ -292,7 +353,9 @@
  13  8,4  | HODS
  13  9,2  | HOISED
  13  8,5  - ID
+ 13  8,7  - ID
  13  8,5  - IN
+ 13  8,7  - IN
  13  6,6  | JIN
  13  9,5  | LENDS
  13  8,4  | LIDOS
@@ -333,6 +396,7 @@
  12  9,2  | HOLIES
  12  9,3  | HONE
  12  8,5  - IONS
+ 12  8,7  - IONS
  12  9,3  | ISLED
  12  7,5  | LADINOS
  12  9,5  | LENIS
@@ -342,6 +406,7 @@
  12  9,7  - LIN
  12  9,3  | LINES
  12  9,3  | LODES
+ 12  9,7  - LSD
  12  9,3  | NIDES
  12  9,5  - NIL
  12  9,7  - NIL
@@ -366,6 +431,7 @@
  11  7,6  | AHOLD
  11  7,5  | DANISH
  11  9,5  | DEILS
+ 11  8,6  | DHOLS
  11  8,6  | DIDOS
  11  8,6  | DINOS
  11  9,5  - DIS
@@ -379,6 +445,7 @@
  11  9,5  | HEIL
  11  9,5  | HEN
  11  7,5  - HI
+ 11  7,7  - HI
  11  8,3  | HINDS
  11  7,5  - HO
  11  7,7  - HO
@@ -387,6 +454,7 @@
  11  9,3  | IDLES
  11  8,5  | IDOLS
  11  8,5  - ION
+ 11  8,7  - ION
  11  6,6  | JO
  11  7,5  | LADINO
  11  9,5  | LEND
@@ -402,6 +470,8 @@
  10  9,5  | DELS
  10  9,5  | DENI
  10  9,5  | DENS
+ 10  9,5  - DI
+ 10  9,7  - DI
  10  8,4  | DIDO
  10  8,6  | DIDO
  10  8,3  | DILDO
@@ -438,6 +508,8 @@
  10  9,7  - LO
  10  9,3  | LODE
  10  9,3  | LONE
+ 10  9,5  - NI
+ 10  9,7  - NI
  10  7,3  | NIDAL
  10  9,3  | NIDE
  10  9,5  - NO
@@ -465,12 +537,15 @@
   9  9,5  | DEL
   9  9,5  | DEN
   9  7,4  | DHALS
+  9  7,5  - DI
+  9  7,7  - DI
   9  8,4  | DID
   9  8,6  | DID
   9  9,4  | DIEL
   9  8,6  | DIN
   9  8,6  | DIOLS
   9  8,6  | DISH
+  9  7,5  - DO
   9  7,7  - DO
   9  8,6  | DOL
   9  8,6  | DON
@@ -482,21 +557,29 @@
   9  9,5  | HES
   9  9,2  | HOISE
   9  9,3  | IDLE
+  9  8,7  - IS
   9  7,5  | LANDS
   9  9,5  | LED
   9  7,5  - LI
+  9  7,7  - LI
   9  8,4  | LID
   9  9,4  | LIED
   9  9,4  | LIEN
   9  7,5  - LO
   9  7,7  - LO
   9  8,3  | LOIDS
+  9  8,4  | LSD
+  9  9,5  | NED
+  9  7,5  - NI
+  9  7,7  - NI
   9  7,5  - NO
   9  7,7  - NO
   9  8,4  | NOD
   9  9,4  | NOEL
   9  9,5  - OHS
+  9  9,7  - OHS
   9  9,5  - OLD
+  9  9,7  - OLD
   9  8,7  - OS
   9  7,5  | SALON
   9  9,5  | SEND
@@ -531,13 +614,17 @@
   8  8,5  | ODDS
   8  9,4  | ODES
   8  9,5  - ODS
+  8  9,7  - ODS
   8  9,5  - OH
+  8  9,7  - OH
   8  7,3  | OHIAS
   8  9,5  - OIL
+  8  9,7  - OIL
   8  8,4  | OLDS
   8  9,4  | OLES
   8  9,4  | ONES
   8  9,5  - ONS
+  8  9,7  - ONS
   8  9,7  - SH
   8  9,4  | SHE
   8  9,3  | SHOE
@@ -575,17 +662,22 @@
   7  7,4  | LOANS
   7  9,4  | NOES
   7  9,5  - OD
+  7  9,7  - OD
   7  7,4  | ODAH
   7  8,4  | ODD
   7  7,3  | OHIA
   7  8,4  | OLD
   7  9,5  - ON
+  7  9,7  - ON
   7  9,5  | SEL
   7  9,5  | SEN
   7  7,4  | SHAD
+  7  7,5  - SI
+  7  7,7  - SI
   7  7,4  | SLAIN
   7  9,3  | SLOE
   7  7,4  | SNAIL
+  7  7,5  - SO
   7  7,7  - SO
   6  7,6  | ADOS
   6  7,6  | AIDS
@@ -615,9 +707,11 @@
   6  7,5  | NAIL
   6  9,4  | ODE
   6  9,5  - OI
+  6  9,7  - OI
   6  9,4  | OLE
   6  9,4  | ONE
   6  9,5  - OS
+  6  9,7  - OS
   6  7,5  | SAND
   6  9,7  - SI
   6  9,7  - SO
@@ -666,16 +760,21 @@
   4  7,5  | HA
   4  8,5  | IDS
   4  7,5  | LAS
+  4  7,5  | OAD
   4  7,4  | ODA
   4  8,5  | ODS
   4  9,4  | OSE
   4  7,5  | SAD
   4  7,5  | SAL
+  4  7,5  | SAN
   3  7,6  | AD
   3  7,6  | AIS
   3  7,6  | AL
   3  7,6  | AN
+  3  7,5  | DA
+  3  8,6  | DI
   3  8,6  | DO
+  3  9,6  | EO
   3  9,6  | ES
   3  8,5  | ID
   3  7,5  | LA
@@ -684,3 +783,4 @@
   3  9,5  | OE
   2  7,6  | AI
   2  7,6  | AS
+  2  7,5  | SA

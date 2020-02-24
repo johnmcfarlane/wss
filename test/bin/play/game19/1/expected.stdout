@@ -26,13 +26,17 @@
  16  7,5  | US
  16  4,7  - YES
  16  3,3  | YEUK
+ 16  2,7  - YI
  15  3,4  | DYKE
  15  7,5  | ES
  15  7,5  | IS
  15  4,5  | SAIYID
  15  7,6  | SI
+ 15  4,5  - SIDE
  15  4,7  - SIDE
+ 14  2,7  - DI
  14  3,4  | DIKEY
+ 14  4,5  - DIS
  14  4,7  - DIS
  14  3,4  | DUKES
  14  3,7  - ID
@@ -44,6 +48,7 @@
  14  3,4  | YUKS
  13  3,4  | DUKE
  13  3,3  | DUSK
+ 13  5,5  - IDES
  13  5,7  - IDES
  13  2,6  - OKAPIS
  13  1,7  - SEI
@@ -51,13 +56,17 @@
  13  5,5  | UPSIDE
  13  4,5  | YAUDS
  13  4,7  - YE
+ 13  4,5  - YI
+ 13  4,7  - YI
  13  3,4  | YIKES
  12  3,3  | DESK
  12  3,4  | DIKES
  12  3,3  | DISK
  12  4,5  | EASY
  12  5,7  - EDS
+ 12  5,5  - IDE
  12  5,7  - IDE
+ 12  5,5  - IDS
  12  5,7  - IDS
  12  3,7  - IS
  12  3,6  | KEYS
@@ -72,12 +81,18 @@
  12  4,4  | YEAS
  12  3,4  | YUK
  11  4,7  - DE
+ 11  6,5  - DEYS
  11  6,7  - DEYS
+ 11  4,5  - DI
+ 11  4,7  - DI
  11  3,4  | DIKE
+ 11  6,5  - DYES
  11  6,7  - DYES
  11  5,7  - ED
+ 11  5,5  - ID
  11  5,7  - ID
  11  3,6  | KIDS
+ 11  3,5  | SKED
  11  3,5  | SKID
  11  5,5  | SPIED
  11  3,5  | UKE
@@ -86,6 +101,7 @@
  10  4,6  | ADIEUS
  10  4,6  | AIDES
  10  4,5  | DAISY
+ 10  6,5  - DUES
  10  6,7  - DUES
  10  5,4  | DUPES
  10  4,3  | IDEAS
@@ -106,23 +122,30 @@
   9  4,6  | AIDE
   9  4,6  | AIDS
   9  4,5  | DAYS
+  9  6,5  - DEY
   9  6,7  - DEY
+  9  6,5  - DIES
   9  6,7  - DIES
   9  5,4  | DUPE
   9  5,4  | DUPS
+  9  6,5  - DYE
   9  6,7  - DYE
   9  5,7  - ES
   9  5,4  | ESPY
   9  4,3  | IDEA
+  9  5,5  - IS
   9  5,7  - IS
+  9  3,6  | KED
   9  3,6  | KID
   9  5,6  | PEDS
   9  4,5  | SAID
+  9  4,5  - SI
   9  4,7  - SI
   9  5,4  | SIPED
   9  3,5  | SKI
   9  5,5  | SPUD
   9  5,4  | YEPS
+  9  6,5  - YES
   9  5,4  | YIPE
   9  5,4  | YIPS
   9  5,4  | YUP
@@ -130,10 +153,13 @@
   8  4,6  | ASIDE
   8  4,6  | AYES
   8  5,4  | DIPS
+  8  6,5  - DUE
   8  6,7  - DUE
+  8  6,5  - DUI
   8  6,7  - DUI
   8  5,4  | DUP
   8  4,4  | EYAS
+  8  3,6  | KES
   8  3,6  | KIS
   8  5,6  | PIES
   8  5,6  | PUD
@@ -144,14 +170,19 @@
   8  5,5  | SPUE
   8  5,5  | SPY
   8  5,4  | SUPE
+  8  6,5  - YE
   8  5,4  | YEP
+  8  6,5  - YI
   8  5,4  | YIP
+  8  2,5  | YOUD
   8  2,5  | YOUSE
   7  4,6  | AYE
   7  4,6  | AYS
   7  4,5  | DAIS
+  7  6,5  - DIE
   7  6,7  - DIE
   7  5,4  | DIP
+  7  6,5  - DIS
   7  6,7  - DIS
   7  2,5  | DOUSE
   7  3,6  | KI
@@ -167,7 +198,10 @@
   7  2,5  | YOUS
   6  4,6  | ADS
   6  4,5  | DAY
+  6  6,5  - DE
   6  6,7  - DE
+  6  6,5  - DI
+  6  6,7  - DI
   6  2,4  | DUOS
   6  1,5  - ED
   6  1,7  - ED
@@ -185,17 +219,22 @@
   6  6,7  - SUE
   6  2,4  | UDOS
   6  5,5  | UP
+  6  1,5  - YE
   6  1,7  - YE
+  6  1,7  - YI
   6  2,5  | YOD
   6  2,5  | YOU
   5  4,6  | AIS
+  5  1,5  - DE
   5  1,7  - DE
+  5  1,7  - DI
   5  6,5  | DIES
   5  2,5  | DOES
   5  2,5  | DOSE
   5  6,4  | DUI
   5  2,4  | DUO
   5  6,6  | IDES
+  5  5,5  | IP
   5  2,6  | ODES
   5  2,6  | OUD
   5  5,6  | PE
@@ -232,8 +271,11 @@
   4  2,5  | SOD
   4  2,5  | SOU
   4  4,5  | YA
+  4  6,5  | YI
   4  2,5  | YO
   3  4,6  | AD
+  3  4,5  | DA
+  3  6,5  | DI
   3  2,5  | DO
   3  6,6  | ID
   3  2,6  | OD
@@ -244,9 +286,11 @@
   2  4,6  | AE
   2  4,6  | AI
   2  4,6  | AS
+  2  2,5  | EO
   2  6,6  | IS
   2  2,6  | OE
   2  2,6  | OI
   2  2,6  | OS
+  2  4,5  | SA
   2  6,5  | SI
   2  2,5  | SO

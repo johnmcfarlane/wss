@@ -1,4 +1,5 @@
  45  5,3  | JE
+ 26  3,3  - DEJA
  26  5,3  - JADE
  26  5,3  - JANE
  25  3,5  - JERID
@@ -7,22 +8,31 @@
  23  5,3  - RAJ
  22  4,3  - JEANED
  21  5,3  - JA
+ 18  5,3  | DEN
  18  7,1  | JEE
+ 18  5,3  | NED
  17  4,3  - JEAN
  17  4,2  - JEANED
  16  5,2  - EARNED
  16  2,2  - ENDEAR
+ 16  5,4  | ENDER
  16  2,6  - NEREID
  15  4,5  - DJIN
  15  4,6  - DJIN
+ 15  5,1  | END
  15  7,1  | END
  15  3,6  - JERID
  15  4,4  - RELEND
+ 14  3,2  - DEJA
  14  7,1  | DEN
+ 14  5,4  | END
  14  5,2  - JADE
  14  5,2  - JANE
  14  4,2  - JEAN
+ 14  7,1  | NED
  13  6,2  - AJEE
+ 13  5,3  | DE
+ 13  7,1  | EEN
  13  7,1  | ERN
  13  7,1  | JE
  13  5,5  - JIN
@@ -42,13 +52,16 @@
  11  5,3  - EARNED
  11  5,2  - JA
  11  6,4  - LEND
+ 11  5,6  | NEED
  11  7,6  | NEED
+ 11  5,6  | NERD
  11  7,6  | NERD
  11  5,5  - QI
  11  5,6  - QI
  10  7,2  | DE
  10  7,1  | DEE
  10  4,4  - DELE
+ 10  5,6  | DENE
  10  7,6  | DENE
  10  3,5  - DENIER
  10  5,3  - EARED
@@ -60,11 +73,16 @@
   9  5,3  - DAN
   9  5,3  - DARN
   9  4,3  - DEAN
+  9  5,6  | DEER
   9  7,6  | DEER
   9  4,4  - DEL
+  9  5,6  | DERE
   9  7,6  | DERE
+  9  5,6  | DREE
   9  7,6  | DREE
+  9  5,4  | ED
   9  5,4  - ELDER
+  9  5,4  | EN
   9  7,1  | ERE
   9  6,4  - LED
   9  5,3  - NARD
@@ -72,6 +90,7 @@
   9  5,3  - RAND
   9  7,1  | REE
   8  5,3  - DARE
+  8  5,6  | DEN
   8  7,6  | DEN
   8  3,5  - DENI
   8  3,6  - DENIER
@@ -80,11 +99,14 @@
   8  7,2  | EE
   8  7,2  | ER
   8  4,2  - NEARED
+  8  5,6  | NED
+  8  7,6  | NED
   8  7,2  | RE
   8  4,3  - READ
   8  4,6  - REINED
   7  6,3  - AND
   7  4,3  - DEAR
+  7  5,6  | DEE
   7  7,6  | DEE
   7  3,2  - DENAR
   7  5,6  - DIENE
@@ -95,6 +117,7 @@
   7  6,4  - LEER
   7  5,3  - NAE
   7  4,3  - NEAR
+  7  5,6  | NEE
   7  7,6  | NEE
   7  5,3  - RAD
   7  5,3  - RAN
@@ -102,12 +125,14 @@
   7  3,4  - REEL
   6  6,3  - ANE
   6  5,2  - DARN
+  6  5,6  | DE
   6  7,6  | DE
   6  4,2  - DEAN
   6  3,6  - DENI
   6  5,5  - DINE
   6  5,6  - DINE
   6  5,2  - EARED
+  6  5,1  | ED
   6  7,1  | ED
   6  4,4  - EEL
   6  5,6  - EIDER
@@ -116,6 +141,7 @@
   6  6,5  - IDEE
   6  6,4  - LEE
   6  5,2  - NARD
+  6  5,6  | NE
   6  7,6  | NE
   6  5,5  - NIDE
   6  5,6  - NIDE
@@ -126,6 +152,7 @@
   5  6,3  - AD
   5  6,3  - AN
   5  6,2  - AND
+  5  5,3  - DA
   5  5,2  - DAN
   5  5,2  - DARE
   5  7,1  | DE
@@ -171,6 +198,9 @@
   3  6,2  - AN
   3  6,3  - AR
   3  6,2  - ARE
+  3  5,2  - DA
+  3  5,5  - DI
+  3  5,6  - DI
   3  5,2  - EAR
   3  5,4  - EL
   3  4,2  - ERA
@@ -181,5 +211,7 @@
   3  6,5  - IRE
   3  6,6  - IRE
   3  5,2  - NA
+  3  5,5  - NI
+  3  5,6  - NI
   2  6,2  - AE
   2  6,2  - AR

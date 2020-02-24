@@ -22,12 +22,16 @@
  28 12,1  | RALE
  28 12,1  | ROLE
  25 12,1  | AERO
+ 24  2,11 - BEAN
  23 15,11 | AEON
  23  4,8  | CODABLE
  22 10,1  | ABLE
  22 10,1  | BALE
  22 10,1  | BANE
+ 22  2,11 - BEAR
  22 10,1  | BLAE
+ 22  1,11 - BLEAR
+ 22  2,11 - BOAR
  22 10,1  | BOLA
  22 10,1  | BOLE
  22 10,1  | BONE
@@ -36,6 +40,7 @@
  21  2,9  - BOA
  20  8,1  | ABLE
  20  2,6  | ABORAL
+ 20 15,12 | AEON
  20  8,1  | BALE
  20  4,12 - BALES
  20  8,1  | BANE
@@ -43,6 +48,7 @@
  20 10,1  | BARE
  20  8,1  | BLAE
  20  8,1  | BOLA
+ 20  4,12 - BOLAS
  20  8,1  | BOLE
  20  4,12 - BOLES
  20  8,1  | BONE
@@ -54,12 +60,17 @@
  20  4,4  | BRONC
  20 15,12 | EARL
  20 15,12 | EARN
+ 20  2,11 - LEAN
+ 20  2,11 - LOAN
  20  8,1  | LOBE
  20  8,1  | NABE
  20  2,11 - NOEL
  20  1,9  - OLEA
  20 10,1  | ROBE
  19  4,12 - BARES
+ 19  1,11 - BLAE
+ 19  2,11 - BOA
+ 19  4,12 - BORAS
  19  4,12 - BORES
  19  4,12 - BRAES
  19 10,3  | LAB
@@ -80,17 +91,23 @@
  18  2,6  | LABRA
  18 10,1  | LANE
  18  4,12 - LANOSE
+ 18  2,11 - LEAR
  18 10,1  | LENO
  18 10,1  | LONE
+ 18  2,11 - NEAR
  18 10,2  | OBA
  18 10,2  | OBE
  18 15,6  | PURINE
+ 18  2,11 - REAL
  18 10,3  | REB
+ 18  2,11 - ROAN
  18 10,3  | ROB
  18  8,1  | ROBE
  17 10,4  | AB
+ 17 15,12 | AERO
  17 10,8  | BAZAR
  17  3,12 - BLARES
+ 17  1,11 - BRAE
  17  4,10 | DEBAR
  17  4,10 | DOBRA
  17 15,12 | EON
@@ -110,10 +127,12 @@
  16  3,12 - NOBLES
  16  8,2  | OBA
  16  1,9  - OBA
+ 16  1,11 - OBA
  16  8,2  | OBE
  16  1,9  - OBE
  16  1,11 - OBE
  16 10,1  | OLEA
+ 16  1,11 - OLEA
  16 10,1  | ORLE
  16 10,1  | RALE
  16  2,6  | RELOAN
@@ -121,14 +140,18 @@
  15 12,2  | ABO
  15  3,12 - ANOLES
  15  1,9  - BA
+ 15  2,11 - BA
  15  2,11 - BE
  15  3,12 - BEANOS
+ 15  5,12 - BLASE
  15  2,11 - BO
  15 12,2  | BRO
  15  4,10 | DAB
  15  4,10 | DEB
  15  3,11 - EON
  15 10,8  | LAZAR
+ 15  2,11 - LEA
+ 15  2,11 - NAE
  15 12,2  | OBE
  15  3,12 - ROBLES
  14  2,8  | ABALONE
@@ -145,6 +168,7 @@
  14  8,3  | BE
  14 12,3  | BE
  14 12,3  | BO
+ 14  3,12 - BOREAS
  14  4,5  | BROCADE
  14  5,12 - BROSE
  14  4,8  | CODEN
@@ -168,23 +192,28 @@
  14 11,2  | REWORK
  14  8,1  | ROLE
  14 14,10 - UN
+ 13  4,11 - AB
  13 12,2  | ALE
  13 12,2  | ANE
  13  2,9  - BA
+ 13  6,12 - BASE
  13  2,9  - BE
  13 11,13 - BENTO
  13 11,13 - BLATE
  13  2,9  - BO
+ 13  1,11 - BRA
  13  4,5  | BRACED
  13  1,11 - BRO
  13  4,8  | CEDARN
  13  7,11 | DEBAR
  13  7,11 | DOBRA
+ 13  3,11 - EAR
  13  4,12 - LARES
  13  4,12 - LORES
  13 12,2  | NAE
  13  1,9  - NAE
  13  4,12 - NARES
+ 13  3,11 - OAR
  13 12,2  | OLE
  13 12,2  | ONE
  13  4,12 - ROBES
@@ -212,6 +241,8 @@
  12 11,13 - BLOT
  12 11,13 - BOLT
  12  3,10 | DOBLA
+ 12  3,9  - EO
+ 12 15,11 | EO
  12 10,2  | ERA
  12  4,5  | LANCED
  12  8,2  | LEA
@@ -239,6 +270,7 @@
  11  2,10 | ABORAL
  11  5,10 | ABORAL
  11 12,3  | AE
+ 11 15,12 | AE
  11 13,13 | ALB
  11  4,12 - ALOES
  11  2,8  | ARABLE
@@ -263,9 +295,15 @@
  11  4,10 | DENAR
  11  7,11 | DENAR
  11  3,10 | DOBRA
+ 11 12,3  | EO
+ 11 15,12 | EO
+ 11  2,11 - LA
+ 11  6,12 - LASE
+ 11  1,11 - LEA
  11  2,11 - LO
  11 10,13 - LOBATE
  11  6,12 - LOSE
+ 11  2,11 - NA
  11  1,11 - NAE
  11  2,11 - NE
  11  2,11 - NO
@@ -283,13 +321,16 @@
  10  5,10 | ABLER
  10  5,12 - ABOS
  10  3,9  | ADOBE
+ 10  3,11 - AE
  10  8,2  | ARE
  10  1,11 - ARE
  10  2,9  | BALER
  10  2,7  | BANAL
+ 10  5,12 - BOAS
  10  2,7  | BORANE
  10 10,13 - BORATE
  10 10,13 - BRANT
+ 10  5,12 - BRAS
  10 10,13 - BRENT
  10  5,12 - BROS
  10  4,10 | DALE
@@ -299,18 +340,23 @@
  10  4,10 | DONA
  10  4,10 | DONE
  10  4,10 | DRAB
+ 10  3,11 - EO
  10  8,2  | ERA
+ 10  1,11 - ERA
  10  8,3  | LA
  10  2,9  | LABOR
  10  2,9  | LABRA
  10  4,6  | LACED
  10  8,3  | NA
  10  8,3  | NE
+ 10  5,12 - OBAS
  10  5,12 - OBES
  10  3,11 - OE
  10  8,2  | ORA
+ 10  1,11 - ORA
  10  8,2  | ORE
  10  1,11 - ORE
+ 10  6,12 - RASE
  10 10,13 - REBATO
  10  8,2  | ROE
  10  6,12 - ROSE
@@ -319,6 +365,7 @@
   9  5,10 | ABLE
   9  2,11 - AE
   9 13,12 | AEON
+  9  4,11 - AL
   9  2,10 | ALANE
   9  5,10 | ALANE
   9 15,13 | ALB
@@ -326,10 +373,12 @@
   9  5,10 | ALBA
   9  2,10 | ALONE
   9  5,10 | ALONE
+  9  4,11 - AN
   9  2,10 | ANOLE
   9  5,10 | ANOLE
   9 13,13 | ARB
   9  4,6  | ARCED
+  9  6,12 - BAS
   9  2,8  | BEANO
   9  6,12 - BES
   9  2,8  | BLARE
@@ -355,6 +404,7 @@
   9 13,12 | EARN
   9  4,11 - EL
   9  4,11 - EN
+  9  2,11 - EO
   9 10,3  | LA
   9  1,9  - LA
   9  2,9  - LA
@@ -429,8 +479,10 @@
   8  7,11 | DONE
   8  1,9  - EL
   8  1,9  - EN
+  8 10,3  | EO
   8  5,5  - LAV
   8 10,13 - LEANT
+  8  5,12 - LEAS
   8 11,13 - LENT
   8  5,5  - LEV
   8  2,9  | NABE
@@ -455,6 +507,7 @@
   7 15,13 | AB
   7  3,9  | ADORE
   7  2,9  - AE
+  7  4,11 - AE
   7  2,10 | AEON
   7  5,10 | AEON
   7 13,13 | AL
@@ -464,6 +517,7 @@
   7 13,13 | AN
   7  2,10 | ANEAR
   7  5,10 | ANEAR
+  7  4,11 - AR
   7  2,10 | AREAL
   7  5,10 | AREAL
   7  5,12 - ARES
@@ -507,10 +561,12 @@
   7 13,13 | EN
   7 13,13 | EON
   7  4,11 - ER
+  7  5,12 - ERAS
   7 13,13 | ERN
   7  5,12 - EROS
   7  2,9  | LAB
   7  4,6  | LAC
+  7  6,12 - LAS
   7  2,8  | LEARN
   7  2,7  | LORAN
   7  2,9  | NAB
@@ -519,6 +575,7 @@
   7 13,12 | OAR
   7  4,11 - OE
   7  4,11 - OR
+  7  9,10 | ORAL
   7  5,12 - ORES
   7  2,7  | RENAL
   7  5,5  - REV
@@ -604,6 +661,7 @@
   6 13,12 - OdA
   6 13,12 - OdE
   6 11,13 - RANT
+  6  6,12 - RAS
   6  4,6  | REC
   6 11,13 - RENT
   6  6,12 - RES
@@ -639,7 +697,9 @@
   5 15,13 | ARE
   5  2,10 | AREA
   5  5,10 | AREA
+  5  7,12 - AS
   5  2,9  | BA
+  5  7,11 | DA
   5  7,11 | DE
   5  7,11 | DO
   5  3,10 | DOE
@@ -649,6 +709,7 @@
   5  2,9  | EARN
   5 15,13 | EL
   5 15,13 | EN
+  5 13,13 | EO
   5 13,13 | ER
   5 15,13 | ERA
   5  7,12 - ES
@@ -667,6 +728,7 @@
   5 13,12 | OE
   5  2,7  | OLEA
   5 15,13 | ON
+  5  9,10 | ORA
   5 15,13 | ORA
   5  2,8  | ORAL
   5 15,13 | ORE
@@ -675,6 +737,7 @@
   5  2,8  | REAL
   5  2,8  | ROAN
   5 12,13 - ROTL
+  5  8,12 - SA
   5 11,11 | TARE
   5 11,11 | TARO
   5 11,11 | TEAR
@@ -702,8 +765,10 @@
   4 15,13 | AR
   4  2,7  | AREA
   4  8,4  - AT
+  4  3,10 | DA
   4  3,10 | DE
   4  3,10 | DO
+  4 15,13 | EO
   4  1,11 - ER
   4 15,13 | ER
   4  8,4  - ET
@@ -740,6 +805,7 @@
   3  5,10 | ARE
   3 12,13 - ART
   3 13,13 - ATE
+  3  4,10 | DA
   3  4,10 | DE
   3  4,10 | DO
   3  2,9  | EAR
@@ -760,6 +826,7 @@
   3 12,13 - RAT
   3 12,13 - RET
   3 12,13 - ROT
+  3 14,12 - dA
   3 14,12 - dE
   3 14,12 - dO
   2  2,9  | AA

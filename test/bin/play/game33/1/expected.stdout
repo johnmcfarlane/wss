@@ -12,6 +12,7 @@
  24  7,7  - HAT
  24 10,2  | KEEFS
  23  9,5  - FAH
+ 23  9,7  - FAH
  23  9,5  - FEH
  23  8,4  | FEZ
  23  3,7  - KHAF
@@ -21,12 +22,14 @@
  22 10,6  | SHAKE
  21  7,7  - FA
  21  9,5  - FAT
+ 21  9,7  - FAT
  21  9,5  - FEE
  21  9,5  - FET
  21  8,4  | HAZE
  21  3,7  - KEEF
  20  7,7  - EAT
  20  9,5  - FA
+ 20  9,7  - FA
  20  9,3  | FAKE
  20  9,5  - FE
  20 10,2  | HAFTS
@@ -49,9 +52,12 @@
  18 10,2  | TEAKS
  17  8,7  - AE
  17  8,7  - AT
+ 17  3,5  - FAKE
  17  3,7  - FAKE
  17  9,5  - HAE
+ 17  9,7  - HAE
  17  9,5  - HAT
+ 17  9,7  - HAT
  17  9,5  - HET
  17  9,5  | KEEF
  17  5,7  - KEF
@@ -62,16 +68,19 @@
  16 10,2  | FETAS
  16 10,2  | FETES
  16  9,5  - HA
+ 16  9,7  - HA
  16  9,5  - HE
  16  9,5  | HEFT
  16  9,4  | KEEF
  15  9,5  | FEH
+ 15  3,5  - HAKE
  15  3,7  - HAKE
  15  4,7  - KAF
  15  3,5  - KEET
  15  4,7  - KEF
  15  8,6  | ZETA
  14  9,4  | AKEE
+ 14  5,5  - FEH
  14  5,7  - FEH
  14 10,2  | HAETS
  14  3,5  - HAFT
@@ -80,19 +89,23 @@
  14  3,5  - HEFT
  14  9,5  | KEET
  14  9,4  | KHET
+ 14  4,5  - KHET
  14 10,6  | SHEET
  14  9,3  | TAKE
  14  8,6  | ZEE
  13  9,5  - EEK
  13  9,5  | EEK
+ 13  3,5  - FATE
  13  3,7  - FATE
  13  3,5  - FEAT
  13  3,5  - FEET
+ 13  3,5  - FETE
  13  3,7  - FETE
  13  9,5  | KEA
  13  7,3  | KETO
  13  7,6  | OKEH
  13  9,7  - THE
+ 12  4,5  - AKEE
  12  4,7  - AKEE
  12  4,5  - EATH
  12  6,7  - EF
@@ -110,27 +123,41 @@
  12  9,5  | FETA
  12  9,3  | FETE
  12  9,5  | FETE
+ 12  4,5  - KEET
+ 11  3,5  - AKEE
  11  3,7  - AKEE
  11  3,5  - EATH
  11  3,7  - EATH
  11  5,5  - ETH
+ 11  4,5  - FATE
  11  9,5  | FEE
+ 11  4,5  - FEET
  11  9,5  | FET
+ 11  4,5  - FETE
  11  3,5  - HAET
+ 11  3,5  - HATE
  11  3,7  - HATE
  11  3,5  - HEAT
  11 10,3  | KAFS
  11 10,3  | KEFS
+ 11  3,5  - TAKE
  11  3,7  - TAKE
+ 11  5,5  - THE
  11  5,7  - THE
  11  8,6  | ZA
  10  9,3  | AKEE
  10  9,6  | EATH
  10  5,7  - EF
  10  9,6  | EFT
+ 10  6,5  - EH
  10  6,7  - EH
+ 10  5,5  - FEE
  10  5,7  - FEE
+ 10  5,5  - FET
+ 10  4,5  - HAET
  10  9,3  | HATE
+ 10  4,5  - HATE
+ 10  6,5  - HE
  10  6,7  - HE
  10  9,5  | HEAT
  10  6,5  | HOKE
@@ -140,9 +167,12 @@
  10 10,6  | SETAE
  10  9,5  | TEAK
  10  9,4  | THEE
+ 10  4,5  - THEE
  10  4,7  - THEE
   9  9,5  - EAT
+  9  9,7  - EAT
   9  9,6  | EF
+  9  4,5  - EKE
   9  4,7  - EKE
   9  4,5  - ETH
   9  4,7  - ETH
@@ -150,14 +180,19 @@
   9  9,5  | FE
   9  9,4  | FEET
   9 10,3  | FEHS
+  9  5,5  - HET
   9  9,5  | HET
+  9  4,5  - KAE
   9  4,7  - KAE
   9  4,5  - KAT
   9  7,6  | OATH
   9  9,5  - TAE
+  9  9,7  - TAE
   9  9,5  - TEA
   9  9,5  - TEE
+  9  3,5  - THAE
   9  3,7  - THAE
+  9  3,5  - THEE
   9  3,7  - THEE
   8  9,5  - AE
   8  4,5  - AFT
@@ -172,7 +207,9 @@
   8  4,5  - FAT
   8 10,3  | FEASE
   8 10,3  | FEAST
+  8  4,5  - FEE
   8  4,7  - FEE
+  8 10,4  | FESTA
   8  4,5  - FET
   8  6,5  | FOH
   8  7,5  | FOH
@@ -189,6 +226,7 @@
   8 10,6  | SKAT
   8 10,6  | SKEE
   8  9,5  - TA
+  8  9,7  - TA
   8 10,4  | TASK
   8  9,5  - TE
   8  9,3  | THAE
@@ -197,22 +235,26 @@
   8  6,5  | TOKE
   8  7,5  | TOKE
   7 10,5  | ASK
+  7  5,5  - ATE
   7 10,5  - EF
   7 10,3  | EFTS
   7  9,6  | EH
   7 10,4  | FAST
   7 10,3  | FATS
+  7  5,5  - FE
   7  5,7  - FE
   7  9,4  | FEE
   7 10,3  | FEES
   7 10,4  | FEST
   7 10,3  | FETS
+  7  4,5  - HAE
   7  4,7  - HAE
   7 10,4  | HASTE
   7  4,5  - HAT
   7  9,5  | HE
   7  4,5  - HET
   7 10,4  | KAS
+  7 10,4  | KES
   7  6,5  | KOA
   7  7,5  | KOA
   7  6,6  | OAK
@@ -223,14 +265,19 @@
   7  7,6  | OKE
   7 10,6  | SAFE
   7 10,6  | SKA
+  7  5,5  - TEE
   7  5,7  - TEE
+  7  4,5  - THE
   7  4,7  - THE
   7 10,3  | THESE
   7 10,5  | TSK
   6 10,5  - AH
+  6 10,7  - AH
+  6  6,5  - EE
   6  6,7  - EE
   6 10,4  | EFS
   6 10,5  - EH
+  6  6,5  - ET
   6  9,6  | ETH
   6 10,3  | ETHS
   6 10,4  | FAS
@@ -240,6 +287,7 @@
   6 10,3  | HAES
   6 10,4  | HAST
   6 10,3  | HATS
+  6  5,5  - HE
   6  5,7  - HE
   6 10,4  | HEST
   6 10,3  | HETS
@@ -250,8 +298,10 @@
   6  7,6  | OFT
   6 10,6  | SHAT
   6 10,6  | SHEA
+  6  6,5  - TE
   5 10,4  | AHS
   5 10,5  | ASH
+  5  4,5  - ATE
   5  4,7  - ATE
   5  4,5  - EAT
   5  6,4  | HAO
@@ -266,23 +316,29 @@
   5  7,6  | OF
   5 10,6  | SHA
   5 10,6  | SHE
+  5  4,5  - TAE
   5  4,7  - TAE
   5  9,5  | TEA
   5 10,3  | TEASE
+  5  4,5  - TEE
   5  9,5  | TEE
   5  4,7  - TEE
   5  6,4  | THO
   5  7,4  | THO
+  4  5,5  - AE
   4 10,5  - AE
   4  5,7  - AE
+  4 10,7  - AE
   4  5,5  - AT
   4 10,5  - AT
+  4 10,7  - AT
   4  9,4  | ATE
   4 10,3  | ATES
   4 10,4  | EASE
   4 10,4  | EAST
   4  9,6  | EAT
   4 10,3  | EATS
+  4  5,5  - EE
   4 10,5  - EE
   4  5,7  - EE
   4  5,5  - ET
@@ -298,6 +354,7 @@
   4 10,6  | SETA
   4 10,6  | SH
   4  9,4  | TAE
+  4  5,5  - TE
   4  5,7  - TE
   4 10,3  | TEAS
   4  9,4  | TEE
@@ -307,6 +364,7 @@
   3  9,5  | AE
   3  9,5  | EE
   3  9,6  | EE
+  3 10,5  | ESE
   3  9,6  | ET
   3  6,6  | OAT
   3  7,6  | OAT
@@ -322,8 +380,11 @@
   3  6,5  | TOE
   3  7,5  | TOE
   2 10,5  | AS
+  2  6,5  | EO
+  2  7,5  | EO
   2 10,5  | ES
   2  6,6  | OE
   2  7,6  | OE
+  2 10,6  | SA
   2  6,5  | TO
   2  7,5  | TO

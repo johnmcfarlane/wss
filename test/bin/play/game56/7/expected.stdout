@@ -3,6 +3,7 @@
  48  6,9  - SVELTE
  47  5,3  - VEX
  45  7,9  - HELVE
+ 44  3,4  | HEXES
  44  6,10 - SVELTE
  43  5,3  - HEX
  42  7,9  - TELEX
@@ -10,15 +11,22 @@
  39  3,8  | SEXT
  39  3,7  | THESE
  37  6,3  - EX
+ 37  3,5  | EXES
+ 36  3,4  | SEXT
  33  9,9  - LEX
  32  6,10 - HEELS
  32  6,8  - VEXES
  31  3,3  | EXES
+ 31  3,4  | HEX
  31  7,1  | SEXT
+ 31  3,6  | XES
  30  6,8  - HEXES
  30  7,1  | SEX
  27  7,8  - EXES
+ 27  8,6  | MEH
+ 27  3,4  | SEX
  27  5,5  - VEX
+ 27  3,4  | XES
  26  6,6  | DESEX
  26  6,6  | DEXES
  26  4,3  - EXES
@@ -27,13 +35,17 @@
  26  3,8  | HETS
  26  9,11 - SEX
  26  7,10 - TELEX
+ 26  8,8  - XES
  25  3,1  | AXES
  25  5,5  - HEX
  25  8,8  - VEXT
+ 25  5,3  - XES
+ 24  3,5  | EX
  24  7,10 - HELVE
  24  1,2  | HES
  24  1,2  | HET
  24  9,9  - LEV
+ 24  7,1  | SEV
  24  4,8  - SHEEVE
  24  6,10 - STELE
  24  6,10 - TEELS
@@ -43,6 +55,7 @@
  22  3,1  | AXE
  22  2,2  - AXE
  22  6,6  | DEVEST
+ 22  6,5  - EVE
  22  6,5  - EX
  22  9,10 - LEX
  22  4,8  - STEEVE
@@ -52,6 +65,7 @@
  20  4,3  - EVES
  20  3,7  | THEE
  19  1,3  | EH
+ 19  3,5  | ESE
  19  1,2  | HE
  19  7,7  - HENS
  19  7,7  - HENT
@@ -84,6 +98,8 @@
  17  4,7  - EXES
  17  3,4  | HES
  17  3,4  | HET
+ 17  5,5  - SEV
+ 17  9,11 - SEV
  17  6,3  - SH
  17  8,8  - VEE
  17  8,8  - VET
@@ -92,17 +108,22 @@
  16  9,10 - LEV
  16  1,4  | SEAWAY
  16  7,1  | SEE
+ 16  1,2  | SEE
  16  4,8  - SEETHE
  16  7,1  | SET
+ 16  1,2  | SET
+ 16  1,2  | TEE
  16  4,3  - THEE
  16  4,3  - VEES
  16  4,3  - VEST
  16  5,11 - VEXES
+ 16  5,7  - XES
  16  2,3  - rEXES
  15  4,1  | DESEX
  15  4,1  | DEXES
  15  8,9  - ELSE
  15  9,1  | ERST
+ 15  3,7  | ESE
  15  4,3  - EVE
  15 10,5  | HAES
  15 10,5  | HAET
@@ -127,8 +148,10 @@
  14  7,5  | TUXES
  14  4,7  - VEES
  14  1,4  - VOX
+ 14  4,3  - XES
  13  4,1  | DEVEST
  13  3,7  | ES
+ 13  3,3  | ESE
  13  8,4  - EXES
  13  3,4  | HE
  13  2,5  - NEXT
@@ -175,10 +198,12 @@
  11  6,6  | DEX
  11  8,1  | ECHE
  11  8,1  | ECHT
+ 11  1,3  | EE
  11  8,8  | EE
  11  3,3  | EH
  11  8,7  - ENS
  11  1,3  | ES
+ 11  5,3  - ESE
  11  1,3  | ET
  11  6,11 - EXES
  11  1,2  - HATE
@@ -191,6 +216,7 @@
  11  9,2  | REX
  11  5,3  - SEE
  11  5,3  - SET
+ 11  3,8  | SEV
  11  4,3  - SHE
  11  3,8  | SHE
  11  7,8  - SHE
@@ -204,6 +230,7 @@
  11  7,4  - VESTS
  11  7,11 - VESTS
  11  1,4  - VOTES
+ 10  1,6  - AIX
  10  7,10 - EELS
  10  8,10 - ELSE
  10  3,5  | ES
@@ -230,6 +257,8 @@
  10  7,8  - VEES
  10  1,4  - VOES
  10  1,4  - VOTE
+ 10  9,4  - XES
+ 10  7,11 - XES
  10  7,5  | XU
  10  2,3  - rEX
   9  1,8  - ASHES
@@ -250,6 +279,7 @@
   9  2,4  - OX
   9  1,2  - SATE
   9  5,7  - SET
+  9  8,8  - SEV
   9  6,8  - SHEET
   9  5,8  - THESE
   9  1,2  - VAS
@@ -295,6 +325,7 @@
   8  7,4  | SHUTE
   8  5,9  - STEEL
   8 10,5  | TAE
+  8  8,4  | TEM
   8  4,5  - THE
   8  4,7  - THE
   8  6,8  - THEE
@@ -312,8 +343,11 @@
   7  6,5  | EDHS
   7  3,3  | EE
   7  8,10 | EE
+  7 10,1  - EF
   7  7,2  | EH
+  7 10,1  | EO
   7  3,3  | ES
+  7  4,3  - ESE
   7 10,4  | ETA
   7  9,8  - EVE
   7  1,2  - HAE
@@ -340,6 +374,7 @@
   7  7,4  | THUS
   7  7,5  | TUSH
   7  1,4  - VOE
+  7  7,5  | VU
   7  1,7  - WEE
   7  1,7  - WET
   7  2,3  - rEV
@@ -348,6 +383,8 @@
   6  7,9  - EELS
   6  9,1  | ER
   6  5,3  - ES
+  6  4,5  - ESE
+  6  4,7  - ESE
   6  8,4  - ESES
   6  8,11 - ESES
   6  7,2  | ETH
@@ -384,6 +421,7 @@
   5  5,7  - EE
   5  7,9  - EEL
   5  8,5  | EM
+  5  7,8  - ESE
   5  9,8  - ETH
   5  9,4  - HES
   5  7,11 - HES
@@ -432,6 +470,7 @@
   4  9,8  - EH
   4  8,9  - ELS
   4  6,1  | ERST
+  4  7,2  | ESE
   4  6,11 - ESES
   4  1,2  - HA
   4  1,4  - HO
@@ -468,6 +507,8 @@
   3  6,1  | ERE
   3  6,1  | ERS
   3  7,2  | ES
+  3  9,8  - ESE
+  3  8,11 - ESE
   3  9,4  - ESS
   3  7,11 - ESS
   3  8,11 - ESS
@@ -482,12 +523,14 @@
   3  2,3  - rES
   3  2,3  - rET
   2  9,8  - EE
+  2  1,4  - EO
   2 10,4  - ES
   2  9,8  - ES
   2  8,11 - ES
   2  9,8  - ET
   2  2,4  - OE
   2  2,4  - OS
+  2  1,2  - SA
   2  1,4  - SO
   2  1,2  - TA
   2  1,4  - TO

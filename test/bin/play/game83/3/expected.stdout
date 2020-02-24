@@ -4,6 +4,7 @@
  41 10,1  | NIX
  40  9,4  | AX
  36 10,2  | AXED
+ 32 10,2  | AIX
  32 10,2  | AXE
  31 10,1  | DAH
  31 10,1  | DINE
@@ -18,7 +19,11 @@
  27 10,1  | DIE
  27 10,1  | NAE
  26 10,2  | AHED
+ 26  3,7  - XENIA
+ 25 10,1  | DA
+ 25 10,1  | DI
  25 10,1  | NA
+ 25 10,1  | NI
  24  6,3  - ANNEX
  24  6,2  | INHALED
  22 10,2  | AHI
@@ -69,11 +74,14 @@
  16  6,6  | LINED
  16  7,2  - NAME
  16  6,2  | NIDAL
+ 15  7,2  | DA
  15  7,2  | DE
+ 15  7,2  | DI
  15  6,3  - DINE
  15  6,4  | HELIX
  15  7,2  | NA
  15  7,2  | NE
+ 15  7,2  | NI
  15  6,3  - NINE
  14  8,2  - AMIA
  14  8,2  - AMIE
@@ -92,6 +100,7 @@
  13  5,4  - HANKIE
  13  3,5  - HIDE
  13  5,7  - NAH
+ 13  8,3  - NED
  12  9,4  | AE
  12  8,2  - AMA
  12  8,2  - AMI
@@ -171,17 +180,20 @@
   8  6,4  - DAK
   8  6,3  | DHAL
   8  8,5  - EDH
+  8  7,5  - EEN
   8  6,5  | ELAND
   8  4,5  - HAE
   8  7,2  - HAM
   8  6,4  | HELD
   8  4,5  - HIE
   8  6,4  - INK
+  8  8,4  - KED
   8  8,4  - KEN
   8  8,4  - KID
   8  8,4  - KIN
   8  6,1  - NABE
   8  6,4  | NALED
+  8  6,4  - NEK
   8  7,6  | SAND
   8  7,6  | SANED
   8  7,6  | SEDAN
@@ -217,6 +229,7 @@
   7  4,5  - IDE
   7  6,3  - INN
   7  8,4  - KAE
+  7  8,4  - KAI
   7  8,4  - KEA
   7  6,6  | LAND
   7  6,6  | LEND
@@ -227,6 +240,8 @@
   7  7,6  | SHEA
   6  6,3  | ANIL
   6  8,1  - BEE
+  6  5,5  - DA
+  6  5,7  - DA
   6  6,4  | DALE
   6  6,3  - DAN
   6  5,5  - DE
@@ -234,6 +249,7 @@
   6  6,3  | DEIL
   6  6,4  | DELI
   6  6,3  - DEN
+  6  5,7  - DI
   6  6,3  | DIAL
   6  6,3  | DIEL
   6  6,3  - DIN
@@ -256,6 +272,7 @@
   6  6,3  | NAIL
   6  6,3  - NAN
   6  5,5  - NE
+  6  5,7  - NI
   6  7,6  | SADE
   6  7,6  | SADI
   6  7,6  | SANE
@@ -267,6 +284,7 @@
   5  6,4  | DAL
   5  6,4  | DEL
   5  8,5  - ED
+  5  8,5  - EEN
   5  6,5  | ELD
   5  8,5  - EN
   5  6,5  | ILEA
@@ -290,6 +308,7 @@
   4  6,6  | LEI
   4  6,6  | LIE
   4  7,6  | SAD
+  4  7,6  | SAN
   4  7,6  | SEN
   4  7,6  | SH
   4  7,6  | SIN
@@ -301,4 +320,5 @@
   3  7,6  | SAE
   3  7,6  | SEA
   3  7,6  | SEI
+  2  7,6  | SA
   2  7,6  | SI

@@ -225,6 +225,8 @@
  17  3,5  - VEAL
  17  3,7  - VEAL
  17  7,4  | VEALING
+ 17  3,5  - VEGA
+ 17  3,7  - VEGA
  17  7,3  | VEGAN
  17  3,5  - VEIL
  17  3,7  - VEIL
@@ -299,6 +301,8 @@
  16  3,7  - VANE
  16  5,5  - VANG
  16  5,7  - VANG
+ 16  4,7  - VEGA
+ 16  5,7  - VEGA
  16  2,5  - VEGAN
  16  2,7  - VEGAN
  16  1,5  - VEINAL
@@ -377,6 +381,7 @@
  15  8,3  | VAIL
  15  8,3  | VEAL
  15  5,7  - VEG
+ 15  7,3  | VEGA
  15  8,3  | VEIL
  15  2,5  - VENAL
  15  2,7  - VENAL
@@ -418,6 +423,7 @@
  14  7,5  | GAVEL
  14  7,2  | GAVIAL
  14  7,5  | GAVIAL
+ 14  6,7  - GENA
  14  7,4  | GLAIVE
  14  2,5  - GLEAN
  14  2,7  - GLEAN
@@ -505,6 +511,7 @@
  13  3,7  - GAIN
  13  7,7  - GALE
  13  7,7  - GANE
+ 13  7,7  - GENA
  13  3,5  - GIEN
  13  3,7  - GIEN
  13  6,4  | GLAIVE
@@ -601,6 +608,11 @@
  12  7,7  - GEL
  12  6,7  - GEN
  12  7,7  - GEN
+ 12  3,5  - GENA
+ 12  4,5  - GENA
+ 12  3,7  - GENA
+ 12  4,7  - GENA
+ 12  5,7  - GENA
  12  4,7  - GIEN
  12  7,7  - GIEN
  12  6,7  - GIN
@@ -765,6 +777,7 @@
  10  7,3  | GALA
  10  6,5  | GAVE
  10  7,5  | GAVE
+ 10  7,3  | GENA
  10  6,7  - GI
  10  7,7  - GIE
  10  7,3  | GLIA
@@ -805,6 +818,7 @@
  10  7,7  - NIL
  10  6,5  | VAGI
  10  7,5  | VAGI
+ 10  6,3  | VEGA
  10  6,3  | VIGA
   9  7,6  | AGAIN
   9  7,6  | AGIN
@@ -943,6 +957,7 @@
   8  7,7  - NAE
   8  7,3  | NALA
   8  6,7  - NE
+  8  6,7  - NI
   8  4,5  - NIL
   8  4,7  - NIL
   8  6,5  | VAN
@@ -989,6 +1004,7 @@
   7  7,5  | GALE
   7  6,5  | GANE
   7  7,5  | GANE
+  7  6,3  | GENA
   7  4,7  - GIE
   7  6,3  | GLIA
   7  8,6  | LA
@@ -1062,6 +1078,8 @@
   6  7,5  | NALA
   6  7,5  - NE
   6  7,7  - NE
+  6  7,5  - NI
+  6  7,7  - NI
   5  6,4  | AGA
   5  7,4  | AGA
   5  6,6  | AGA
@@ -1087,6 +1105,7 @@
   5  5,5  - NA
   5  5,7  - NA
   5  5,7  - NE
+  5  5,7  - NI
   4  6,5  | AAL
   4  7,5  | AAL
   4  6,6  - AAL

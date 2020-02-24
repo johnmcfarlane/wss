@@ -2,12 +2,16 @@
  36  1,3  - RuPEE
  36  1,3  - SuPER
  36  1,3  - SuPRA
+ 31  4,6  | ROPE
  30  1,3  - PuREES
  30  2,8  - SIP
  30  1,3  - SuPE
+ 27  3,8  - IP
+ 27  4,7  | OPE
  27  1,3  - PuREE
  27  1,3  - PuRSE
  27  1,3  - SuP
+ 25  2,8  | POSE
  24 10,2  | APEEK
  24  2,9  | OPE
  24  2,8  | SOP
@@ -17,6 +21,7 @@
  22  7,4  - SEEP
  21  7,5  | ABS
  21  3,7  - JOINS
+ 21  2,8  | POS
  21  1,3  - PuRE
  21  1,3  - PuRS
  21  7,4  - SAP
@@ -35,6 +40,7 @@
  18  1,4  | PEER
  18  1,4  | PEES
  18  4,4  | PESO
+ 18  2,8  - PIR
  18  2,8  - PIS
  18  1,3  - PuR
  18  1,3  - PuS
@@ -45,6 +51,7 @@
  17  1,9  | MAP
  17  1,4  | PEE
  17  4,5  | PROSE
+ 17  7,4  - SA
  16  8,4  - APER
  16  8,4  - APES
  16  8,4  - APSE
@@ -52,6 +59,7 @@
  16  5,6  | RIA
  15  8,4  - APE
  15  8,4  - ASP
+ 15  8,4  - EPE
  15  1,10 - ERA
  15  1,11 - PASE
  15  1,11 - PASS
@@ -64,6 +72,7 @@
  14  8,5  | GOA
  14  1,11 - PAS
  14  1,11 - PES
+ 14  3,11 - SPAES
  13  8,4  - ARES
  13  8,4  - ARSE
  13  8,4  - EARS
@@ -84,6 +93,8 @@
  12  8,4  - ERA
  12  8,4  - ERE
  12  8,4  - ERS
+ 12  8,4  - ESE
+ 12  2,9  | OSE
  12  8,2  | PARGO
  12  1,3  - RuES
  12  1,3  - RuSE
@@ -108,9 +119,11 @@
  11  4,6  | PO
  11  1,4  | SAE
  11  1,4  | SEE
+ 11  3,11 - SPAE
  11  2,6  - TAP
  11  2,3  - uPAS
  10  7,8  | APE
+ 10  7,8  | EPE
  10  1,7  | PAMS
  10  7,9  | PEA
  10  7,9  | PEE
@@ -156,6 +169,7 @@
   8  1,9  | MAE
   8  1,9  | MAR
   8  1,9  | MAS
+  8  2,9  | OS
   8  7,8  | PEER
   8  7,8  | PEES
   8  7,8  | PREE
@@ -163,12 +177,14 @@
   8  7,11 - RED
   8 10,3  | REEK
   8  7,8  - REF
+  8  2,10 - SA
   8  7,11 - SAD
   8  8,3  | SAGO
   8 10,3  | SARK
   8 10,3  | SEEK
   8  7,8  | SEEP
   8  8,3  | SEGO
+  8  3,11 - SPA
   8  2,3  - uP
   8  2,3  - uREASE
   8  2,3  - uRPS
@@ -185,10 +201,12 @@
   7  1,7  | RAMS
   7  1,7  | REMS
   7  7,9  | REP
+  7  1,4  | SA
   7  8,9  | SAE
   7  1,7  | SAME
   7  1,7  | SEME
   7  1,4  - SIREE
+  6  5,11 - AE
   6  6,11 - AE
   6  1,4  - AIRS
   6  6,11 - AR
@@ -206,6 +224,7 @@
   6  2,4  - IRES
   6  1,4  - PIA
   6  1,4  - PIE
+  6  1,4  - PIR
   6  1,4  - PIS
   6  1,7  | RAM
   6  1,11 - RASE
@@ -230,10 +249,13 @@
   5  8,11 - ED
   5  1,6  | EE
   5  1,8  | EM
+  5  4,6  | EO
   5  1,6  | ER
   5  1,11 - ERS
   5  1,6  | ES
   5  1,11 - ESS
+  5  2,4  - IP
+  5  5,7  | IP
   5  2,4  - IRE
   5  1,9  | MA
   5  1,9  | ME
@@ -241,14 +263,17 @@
   5  1,11 - RAS
   5  7,8  | REES
   5  1,11 - RES
+  5  3,11 - SEA
   5  7,8  | SEER
   5  4,6  | SO
+  5  2,6  - TAE
   5  2,6  - TAS
   5  2,3  - uREA
   5  2,3  - uRSA
   5  2,3  - uSER
   4  7,8  | ARE
   4  7,8  | ERE
+  4  7,8  | ESE
   4  7,8  | REE
   4  7,9  | REE
   4  7,9  | RES
@@ -267,12 +292,15 @@
   3  6,9  | ATE
   3  7,9  | EE
   3  1,5  - EL
+  3  2,11 - ESE
   3  2,11 - ESS
   3  1,6  - ETA
   3  6,9  | ETA
   3  7,9  | RE
   3  1,4  - RIA
+  3  8,9  | SA
   3  1,4  - SIR
+  3  8,9  - So
   3  2,3  - uSE
   2  1,4  - AI
   2  2,11 - AS
@@ -284,6 +312,8 @@
   2  6,9  | ET
   2  2,4  - IS
   2  5,7  | IS
+  2  5,10 | SA
+  2  3,11 - SA
   2  1,4  - SI
   2  6,10 | TA
   2  6,10 | TE

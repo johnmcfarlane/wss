@@ -1,10 +1,13 @@
  74  9,1  | NIX
+ 71  9,1  | AIX
  71  9,1  | SIX
  53  3,1  - WAXEN
+ 49  3,1  - WAXES
  48 11,1  | ANNEX
  45 11,6  | SAXES
  45 11,6  | SEWANS
  40  9,1  - AWE
+ 40  3,1  - SAXES
  37  8,3  - ANSA
  36  4,3  - SEAWANS
  36 11,6  | SEWAN
@@ -22,6 +25,7 @@
  32  3,1  - SEWAN
  32  5,3  - SEWAN
  32  9,1  | WIN
+ 31  3,1  - WANES
  30 11,1  | ANEW
  30  6,6  | REWAX
  30 11,6  | SAWS
@@ -31,6 +35,7 @@
  30  7,3  - WANS
  29  8,3  - ASEA
  29 10,3  - WE
+ 28  9,1  - SEA
  27 11,6  | SANES
  27 11,6  | SENSA
  27  7,3  - WAN
@@ -39,6 +44,7 @@
  26  3,1  - WANE
  25  9,7  - AXE
  25  3,7  - WAXEN
+ 25  9,5  | WYNS
  24  9,4  | ANY
  24  9,7  - AX
  24  9,7  - EX
@@ -47,13 +53,17 @@
  24 11,6  | SANE
  24 11,6  | SANS
  24  9,1  | WIS
+ 24  9,5  | WYN
  23  9,1  | AIN
  23  9,1  | SIN
  23  7,3  - WAS
  23  3,7  - WAXES
  23  7,5  - WEANS
+ 23  9,5  | WYES
+ 22  3,1  - SANES
  22 10,4  | WAENESS
  22  7,5  - WEAN
+ 22  9,5  | WYE
  21 11,1  | ANES
  21  6,3  - AWA
  21 10,3  - NA
@@ -64,15 +74,18 @@
  21  5,7  - SEX
  20  4,3  - AXE
  20  6,7  - EX
+ 20  9,1  - NE
  20  6,6  | RESAWN
  20  2,1  - SENSA
  20 10,5  | SEWANS
  19 11,6  | SAX
  19 11,6  | SEX
+ 19 11,4  | XES
  19  8,4  - ZAX
  18  9,1  - AN
  18  6,3  - ANAS
  18 11,1  | ANE
+ 18  9,7  - AWN
  18 11,1  | ENS
  18 11,2  | NANS
  18  6,6  | RESAWS
@@ -81,27 +94,39 @@
  18  7,3  - SANS
  18 10,5  | SEESAW
  18  6,5  | WRASSE
+ 17  9,7  - AWE
+ 17 10,3  - SA
  17  3,1  - SANE
  17  3,7  - SAXES
  17  3,7  - WANES
  17 10,1  - WE
+ 16  9,7  - AW
+ 16  9,7  - EW
  16  6,6  | RESAW
  16  3,3  - WANE
  15  9,1  | AIS
+ 15  4,7  - ANEW
+ 15  4,1  - AXES
  15  4,7  - AXES
  15 11,2  | NAN
  15 11,2  | NESS
+ 15  7,3  - SAN
  15 11,6  | SAW
  15 11,6  | SEW
  15  9,1  | SIS
  15 11,4  | WAS
+ 15  6,4  - WAZ
  15  7,5  | WEANS
  15  7,5  | WEENS
+ 14  9,1  - AE
  14  9,1  - AS
  14 11,4  | NESS
+ 14  5,7  - NEW
  14  7,1  | WAN
  14  3,5  - WANE
  14  3,7  - WANE
+ 14  5,1  - XES
+ 14  5,7  - XES
  14  9,6  | YAWNS
  13  6,3  - ANA
  13  8,3  - ANE
@@ -113,7 +138,9 @@
  13  9,5  | EYASS
  13 10,1  - NA
  13 10,1  - NE
+ 13 11,6  | SAN
  13 11,6  | SEN
+ 13  5,7  - SEW
  13  4,1  - SWAN
  13  9,5  | SYNE
  13  6,2  | TAXERS
@@ -123,6 +150,7 @@
  13  7,5  | WEEN
  13  7,5  | WENS
  13  9,6  | YAWN
+ 13  8,4  - ZEN
  12  9,7  - AN
  12 11,4  | ASS
  12 11,5  | ASS
@@ -134,6 +162,7 @@
  12 10,6  | ESNES
  12 11,4  | ESS
  12 11,5  | ESS
+ 12  6,7  - EW
  12  7,6  | EXES
  12 11,2  | NAE
  12 11,6  | SAE
@@ -150,6 +179,7 @@
  11  7,3  - AAS
  11 11,5  | AS
  11  9,7  - ASS
+ 11  4,1  - AWES
  11  4,7  - AWES
  11 10,5  - AX
  11 10,4  | AXES
@@ -161,7 +191,11 @@
  11 10,6  | EXES
  11  9,5  | EYAS
  11  7,5  | NEWS
+ 11 10,1  - SA
+ 11 11,6  | SA
+ 11  7,1  | SAN
  11  3,7  - SANES
+ 11  4,1  - WAES
  11  4,7  - WAES
  11  5,3  - WE
  11  7,5  | WEE
@@ -189,19 +223,26 @@
  10 10,5  | SEX
  10 10,1  | SOX
  10  6,2  | TAX
+ 10  5,1  - WAS
+ 10  7,1  | WAS
  10  7,5  - WE
  10  7,5  | WE
  10 10,5  - WE
+ 10 10,7  - WE
+ 10 10,5  | XES
  10  9,6  | YEAN
   9  6,5  - ANE
+  9  4,1  - ANES
   9  4,7  - ANES
   9  8,3  - ASS
   9  7,6  | EX
   9 10,6  | EX
   9 11,2  | NA
   9 11,2  | NE
+  9  9,1  | NI
   9 10,2  | OX
   9  6,6  - REDYES
+  9  5,1  - SAN
   9 10,4  | SEESAW
   9  5,1  - SEN
   9  5,7  - SEN
@@ -231,6 +272,7 @@
   8 10,1  | NOWS
   8  3,5  - SANE
   8  3,7  - SANE
+  8  4,1  - SEAS
   8 10,5  | SEWN
   8 10,1  | SOWN
   8  6,2  | TAWER
@@ -246,10 +288,13 @@
   8 10,1  | WONS
   8  6,5  | WREN
   8  9,6  | YEAS
+  7  7,1  | AAS
   7 10,5  - AW
   7 10,4  | AWEE
   7 10,4  | AWES
   7  7,6  | ESNES
+  7 10,5  - EW
+  7 10,7  - EW
   7 10,4  | EWES
   7 10,6  | EWES
   7  5,3  - NA
@@ -284,10 +329,14 @@
   6  4,1  - ANE
   6  4,5  - ANE
   6  4,7  - ANE
+  6  6,1  - AS
+  6  7,2  | AS
   6  8,3  - AS
   6 10,4  | AWE
   6  6,4  | EARNS
   6  7,6  | EASES
+  6  7,5  | EEN
+  6  6,1  - ES
   6  6,7  - ES
   6  7,6  | ESNE
   6 10,4  | EWE
@@ -306,6 +355,7 @@
   6 10,7  - NE
   6 10,2  | OWE
   6  6,6  | RAW
+  6  7,3  - SA
   6  4,3  - SAE
   6  4,3  - SEA
   6 10,5  | SENSA
@@ -339,6 +389,8 @@
   5  7,6  | ESES
   5 10,6  | ESNE
   5  6,1  | ETNA
+  5  7,6  | EW
+  5 10,6  | EW
   5  5,1  - NA
   5  5,5  - NA
   5  5,1  - NE
@@ -348,6 +400,7 @@
   5 10,1  | NOES
   5 10,1  | NOSE
   5 10,2  | OW
+  5  5,3  - SA
   5  4,1  - SAE
   5  4,5  - SAE
   5  4,7  - SAE
@@ -377,6 +430,9 @@
   4 10,6  | EASE
   4  7,5  - EE
   4  7,5  | EE
+  4 10,5  | EEN
+  4  7,6  | EEN
+  4 10,6  | EEN
   4  7,6  | ENS
   4 10,6  | ENS
   4 10,1  | EON
@@ -395,6 +451,9 @@
   4 10,2  | ONS
   4  6,6  | RAN
   4  6,6  | RASE
+  4  5,1  - SA
+  4  5,5  - SA
+  4 10,7  - SA
   4 10,5  | SEAS
   4 10,4  | SEES
   4 10,5  | SEES
@@ -412,6 +471,9 @@
   3 10,6  | EN
   3  6,5  | ERA
   3  6,5  | ERS
+  3 10,4  | ESE
+  3  7,6  | ESE
+  3 10,6  | ESE
   3  7,6  | ESS
   3 10,6  | ESS
   3  6,1  | ETA
@@ -439,6 +501,7 @@
   2 10,5  | EE
   2  7,6  | EE
   2 10,6  | EE
+  2 10,1  | EO
   2  6,5  | ER
   2  7,6  | ES
   2 10,6  | ES
@@ -446,6 +509,7 @@
   2 10,2  | OE
   2 10,2  | OS
   2  6,6  | RE
+  2  7,1  | SA
   2 10,1  | SO
   2  6,2  | TA
   2  6,2  | TE

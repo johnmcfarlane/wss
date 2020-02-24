@@ -4,6 +4,7 @@
  36  1,3  - TENTER
  36  1,3  - TETHER
  36  1,3  - TOTHER
+ 35  9,1  - NEE
  33  1,3  - NETTER
  33  3,3  - THEREON
  31  4,3  - HEREON
@@ -12,16 +13,23 @@
  27  9,1  | HINT
  27  9,1  | TITHE
  27  9,3  - TOE
+ 26  2,1  - HONE
  24 11,2  | DENOTE
  24 11,2  | DETENT
  24 11,2  | DOETH
  24 11,1  | EDH
  24  9,1  | HIN
+ 23  2,1  - THEE
  21 11,2  | DONEE
  21 11,2  | DOTH
+ 21  9,1  - NE
  21  9,1  | TINE
  21  9,1  | TINT
+ 20  3,1  - HOE
+ 20  2,1  - NOTE
+ 20  3,1  - THE
  20  3,1  - THO
+ 20  2,1  - TONE
  19  3,3  - THERE
  18 11,2  | DENE
  18 11,2  | DENT
@@ -38,9 +46,13 @@
  18  9,1  | TIN
  18  5,1  | TWEEN
  17  4,3  - HERE
+ 17  3,1  - NEE
+ 17  3,1  - ONE
+ 17  2,1  - TOTE
  17  5,2  | WEEN
  16  7,4  | HENT
  16  3,3  - HOER
+ 16  7,4  | HONE
  16  2,3  - HONER
  16 10,2  | LETHE
  16  1,6  - TEETHE
@@ -53,6 +65,7 @@
  15  2,3  - ENTER
  15  2,3  - ETHER
  15  7,4  | HEN
+ 15  7,4  | HON
  15  9,1  | NIT
  15  9,1  - OE
  15  2,3  - OTHER
@@ -66,8 +79,10 @@
  14  2,3  - NOTER
  14  8,3  - ON
  14  5,3  - ORE
+ 14  3,1  - TEE
  14  5,5  | TEETH
  14  2,3  - TENOR
+ 14  3,1  - TOE
  14  2,3  - TONER
  13  5,4  | ETH
  13  1,4  - ETHNOS
@@ -75,8 +90,11 @@
  13  5,5  | HENT
  13  7,5  | HENT
  13  7,4  | HET
+ 13  7,4  | HOE
  13  5,5  | HONE
+ 13  7,5  | HONE
  13  2,4  - HONEST
+ 13  7,4  | HOT
  13  9,3  - NO
  13  2,3  - OTTER
  13  5,5  | THEN
@@ -88,6 +106,7 @@
  12 11,2  | DOE
  12 11,2  | DOT
  12 10,1  - EE
+ 12 10,1  - EO
  12  8,2  | GENET
  12  8,2  | GHETTO
  12  5,5  | HEN
@@ -99,6 +118,7 @@
  12  4,4  - HEST
  12  9,1  | HI
  12  5,5  | HON
+ 12  7,5  | HON
  12  5,6  | HONE
  12  7,6  | HONE
  12  2,4  - HONES
@@ -110,6 +130,8 @@
  12  9,1  | TIT
  12  5,2  | WEE
  12  5,2  | WOE
+ 11  5,4  | EEN
+ 11  5,4  | EON
  11  8,2  | GENE
  11  8,2  | GENT
  11  8,2  | GONE
@@ -118,9 +140,12 @@
  11  5,5  | HET
  11  7,5  | HET
  11  5,5  | HOE
+ 11  7,5  | HOE
  11  4,4  - HOS
  11  5,5  | HOT
+ 11  7,5  | HOT
  11  5,5  | NOH
+ 11  7,5  | NOH
  11  4,3  - NOR
  11  4,4  - NOSH
  11  5,5  | NTH
@@ -139,6 +164,7 @@
  11  7,6  | THEN
  11  5,5  | THO
  10  5,4  | EH
+ 10  5,5  | EH
  10  7,5  | EH
  10  5,1  | EWE
  10  8,2  | GEN
@@ -149,14 +175,19 @@
  10  7,5  | HE
  10  5,6  | HEN
  10  7,6  | HEN
+ 10  7,4  | HO
  10  5,5  | HO
+ 10  7,5  | HO
  10  5,6  | HON
  10  7,6  | HON
  10  5,5  | NETT
  10  7,5  | NETT
  10  5,5  | NOTE
+ 10  7,5  | NOTE
  10  5,4  | OH
  10  7,4  | OH
+ 10  5,5  | OH
+ 10  7,5  | OH
  10  4,4  - ONSET
  10  5,1  | OWE
  10  6,4  - SENTE
@@ -175,8 +206,10 @@
   9 11,2  | DE
   9 11,2  | DO
   9  5,3  - ER
+  9  5,5  | ETH
   9  7,5  | ETH
   9  3,6  - ETHENE
+  9  4,1  - HE
   9  3,4  - HENS
   9  5,6  | HET
   9  7,6  | HET
@@ -193,14 +226,18 @@
   9  7,5  | NET
   9  5,6  | NETT
   9  7,6  | NETT
+  9  9,1  | NI
   9  5,6  | NOH
   9  7,6  | NOH
   9  4,4  - NOSE
   9  5,5  | NOT
+  9  7,5  | NOT
   9  5,6  | NOTE
   9  7,6  | NOTE
   9  5,6  | NTH
   9  7,6  | NTH
+  9  5,5  | ONE
+  9  7,5  | ONE
   9  3,4  - ONES
   9  5,3  - OR
   9  6,4  - SENE
@@ -223,8 +260,13 @@
   9  5,5  | TONE
   9  5,2  | WE
   9  5,2  | WO
+  8  5,5  | EEN
+  8  7,5  | EEN
   8  5,4  | EN
+  8  5,5  | EN
   8  7,5  | EN
+  8  5,5  | EON
+  8  7,5  | EON
   8  3,4  - ETHS
   8  5,6  | HE
   8  7,6  | HE
@@ -234,16 +276,20 @@
   8  3,4  - HOES
   8  3,4  - HOTS
   8  9,2  | INTO
+  8  4,1  - NE
   8  5,5  | NE
   8  7,5  | NE
   8  2,4  - NETTS
   8  4,1  - NO
   8  5,5  | NO
+  8  7,5  | NO
   8  4,4  - NOS
   8  2,4  - NOTES
   8  8,1  | OGEE
   8  5,4  | ON
   8  7,4  | ON
+  8  5,5  | ON
+  8  7,5  | ON
   8  6,4  - SEN
   8  6,4  - SETON
   8  6,4  - SHOE
@@ -265,6 +311,8 @@
   8  7,6  | TONE
   8  4,4  - TOSH
   8  5,5  | TOTE
+  7  4,1  - EE
+  7  4,1  - EO
   7  3,4  - EONS
   7  7,1  | ERE
   7  5,4  - ESNE
@@ -285,11 +333,13 @@
   7  3,4  - NOES
   7  5,6  | NOT
   7  7,6  | NOT
+  7  4,1  - OE
   7  4,4  - OHS
   7  7,1  | ORE
   7  6,4  - SEEN
   7  6,4  - SHE
   7  6,4  - SNOT
+  7  4,1  - TE
   7  5,5  | TEE
   7  4,6  - TEETH
   7  5,6  - TEETH
@@ -308,13 +358,21 @@
   7  5,6  | TOTE
   7  7,6  | TOTE
   7  2,4  - TOTES
+  6  5,4  | EE
+  6  5,5  | EE
   6  7,5  | EE
+  6  5,6  | EEN
+  6  7,6  | EEN
   6  5,6  | EH
   6  7,6  | EH
   6  4,4  - ENS
+  6  5,4  | EO
+  6  5,5  | EO
+  6  7,5  | EO
   6  5,6  | EON
   6  7,6  | EON
   6  5,4  | ET
+  6  5,5  | ET
   6  7,5  | ET
   6  5,6  - HEN
   6  5,5  - HON
@@ -328,10 +386,15 @@
   6  5,6  | NO
   6  7,6  | NO
   6  5,5  - NOH
+  6  5,4  | OE
   6  7,4  | OE
+  6  5,5  | OE
+  6  7,5  | OE
   6  5,6  | OH
+  6  7,6  | OH
   6  9,1  | OI
   6  5,6  | ONE
+  6  7,6  | ONE
   6  4,4  - ONS
   6  3,5  - ONTO
   6  6,5  - ONTO
@@ -363,6 +426,7 @@
   5  5,6  | EN
   5  7,6  | EN
   5  6,6  - ETH
+  5  5,1  | EW
   5  5,6  - HET
   5  5,5  - HOE
   5  4,6  - HOE
@@ -378,6 +442,7 @@
   5  4,5  - OHO
   5  6,5  - OHO
   5  5,6  | ON
+  5  7,6  | ON
   5  5,5  - OOH
   5  6,5  - OOH
   5  3,5  - OTTO
@@ -405,7 +470,11 @@
   5  7,6  | TOT
   4  5,6  | EE
   4  7,6  | EE
+  4  5,6  - EEN
+  4  6,6  - EEN
   4  6,6  - EH
+  4  5,6  | EO
+  4  7,6  | EO
   4  5,5  - EON
   4  6,6  - EON
   4  5,6  | ET
@@ -423,6 +492,7 @@
   4  5,5  - NOO
   4  5,5  - NOT
   4  5,6  | OE
+  4  7,6  | OE
   4  6,5  - OH
   4 10,1  | OLE
   4  6,5  - ONE
@@ -442,6 +512,7 @@
   4  3,6  - TOTE
   3 10,1  | EL
   3  6,6  - EN
+  3  5,4  - ESE
   3  9,2  | IT
   3 10,2  | LO
   3  5,6  - NE
@@ -460,11 +531,15 @@
   3  5,5  - TOT
   2  5,6  - EE
   2  6,6  - EE
+  2  5,5  - EO
+  2  6,6  - EO
   2  7,1  | ER
   2  5,4  - ES
   2  6,6  - ET
   2  6,5  - OE
   2  5,6  - OE
+  2  5,5  - OO
+  2  6,5  - OO
   2  7,1  | OR
   2  5,4  - OS
   2  6,4  - SO

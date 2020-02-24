@@ -7,6 +7,7 @@
  28  2,2  | SAP
  25  2,2  | SAY
  24  2,3  | APE
+ 24  7,5  - ESQ
  24  2,2  | PA
  23  5,1  | ASP
  22  2,3  | AYE
@@ -56,6 +57,7 @@
  14  6,5  - YAP
  14  6,5  - YEP
  13  6,5  - EASY
+ 13  6,7  - EASY
  13  6,5  - PAS
  13  7,3  | PAYS
  13  6,5  - PEA
@@ -70,6 +72,9 @@
  12  7,2  | APSES
  12  2,1  | AS
  12  7,5  - ASP
+ 12  7,7  - ASP
+ 12  7,5  | ESQ
+ 12  6,6  | ESQ
  12  3,3  - LAPS
  12  6,5  - PA
  12  7,3  | PASSE
@@ -80,6 +85,7 @@
  12  2,2  - POmO
  12  2,2  - POmS
  12  7,1  | PYOSES
+ 12  2,2  | SA
  12  7,6  | SEPOYS
  12  2,3  - SLAP
  12  7,6  | SOAPS
@@ -98,8 +104,11 @@
  11  6,5  - YEA
  11  6,5  - YES
  10  7,5  - APES
+ 10  7,7  - APES
  10  7,5  - APOS
+ 10  7,7  - APOS
  10  7,5  - APSE
+ 10  7,7  - APSE
  10  7,5  - EPOS
  10  7,5  | ESSAY
  10  7,2  | EYASS
@@ -112,18 +121,23 @@
  10  6,4  | POESY
  10  1,5  - POMO
  10  2,2  - POm
+ 10  6,7  - SAP
  10  6,4  | SEEPY
  10  6,5  | SEEPY
  10  6,5  | SEPOY
  10  2,3  - SLAY
  10  6,7  - SOP
  10  7,4  | SYSOP
+ 10  5,6  | XES
  10  6,5  - YA
  10  6,5  - YE
  10  6,5  - YO
   9  7,5  - APE
+  9  7,7  - APE
   9  7,5  - APO
+  9  7,7  - APO
   9  7,5  - AYES
+  9  7,7  - AYES
   9  7,5  - EASY
   9  7,5  | ESPY
   9  6,6  | ESPY
@@ -144,6 +158,7 @@
   9  7,2  | PSOAS
   9  7,5  | PSOAS
   9  6,4  | PYES
+  9  6,7  - SAY
   9  7,2  | SOAPS
   9  6,7  - SOY
   9  7,6  | SPAES
@@ -154,7 +169,9 @@
   8  7,4  | APSES
   8  7,3  | ASPS
   8  7,5  - AYE
+  8  7,7  - AYE
   8  7,5  - AYS
+  8  7,7  - AYS
   8  7,3  | EPOS
   8  7,3  | EYASS
   8  7,3  | OPES
@@ -203,6 +220,7 @@
   7  6,5  | PESO
   7  6,3  | POSE
   7  7,4  | POSE
+  7  6,7  - SAE
   7  1,1  - SAG
   7  7,3  | SAYS
   7  7,6  | SAYS
@@ -221,10 +239,15 @@
   6  6,4  | APE
   6  7,5  | ASP
   6  7,5  - AY
+  6  7,7  - AY
   6  6,4  | AYES
   6  7,4  | EASY
   6  6,6  | EASY
   6  2,5  - EMO
+  6  6,5  - EO
+  6  6,7  - EO
+  6  6,4  | EPE
+  6  6,6  | EPE
   6  6,6  | EYAS
   6  6,4  | EYES
   6  6,6  | EYES
@@ -247,6 +270,7 @@
   6  7,4  | PES
   6  6,5  | PES
   6  7,4  | POS
+  6  6,7  - SA
   6  7,6  | SAP
   6  6,7  - SO
   6  7,6  | SOP
@@ -270,12 +294,15 @@
   5  7,4  | YES
   5  6,5  | YES
   4  7,5  - AE
+  4  7,7  - AE
   4  2,1  - AG
   4  2,3  - ALA
   4  5,1  | AS
   4  7,5  - AS
+  4  7,7  - AS
   4  6,3  | EASE
   4  6,6  | EASE
+  4  7,5  - EO
   4  5,1  | ES
   4  7,5  - ES
   4  7,5  - OE
@@ -290,6 +317,8 @@
   4  6,5  | YE
   3  7,4  | ASS
   3  7,5  | ASS
+  3  6,4  | ESE
+  3  6,6  | ESE
   3  7,4  | ESS
   3  7,5  | ESS
   3  7,4  | OES
@@ -308,9 +337,11 @@
   2  7,5  | AS
   2  6,5  | EE
   2  6,6  | EE
+  2  6,6  | EO
   2  7,5  | ES
   2  6,6  | ES
   2  6,5  | OE
   2  7,5  | OS
   2  3,2  - OmS
+  2  7,6  | SA
   2  7,6  | SO

@@ -28,31 +28,52 @@
  27  3,8  | SALP
  27 11,6  | SEAL
  27 11,6  | SEEL
+ 27  5,9  - SPALE
  26 10,6  | EMPALE
+ 26  6,9  - PAWLS
  26 10,5  | SEMPLE
+ 25  6,9  - PAWL
+ 24  1,9  - AWA
+ 24  1,9  - PEA
  24  3,8  | SAPS
  24  3,8  | SAWS
  24  3,8  | SEWS
+ 24  1,9  - SPA
+ 24  5,9  - SPAE
+ 23  6,9  - PAWS
  23  8,4  | PLEX
+ 23  9,8  - SEW
+ 23  5,9  - SPA
+ 22  6,9  - PALEA
+ 22  6,9  - PALES
  22  3,5  - PLEAS
  22  6,9  - SALPA
  22  4,5  - SWAP
  21 11,7  | EWES
+ 21  6,9  - PALE
+ 21  6,9  - PALS
+ 21  6,9  - PAW
  21  6,9  - SALP
  21  5,5  - WAP
  20  4,5  - LEAP
+ 20  6,9  - PASE
  20  4,5  - SLAP
  19  7,9  - ALPS
  19 11,4  | APSE
  19  5,5  - LAP
+ 19  6,9  - PAL
  19 11,4  | PASE
  19  6,9  - SALEP
  19  9,8  - SEL
  19  3,4  | SPEWS
  19  3,4  | SWAPS
+ 18  1,9  - ALA
  18  7,9  - ALP
  18 11,4  | EASEL
+ 18 11,7  | EPE
  18 11,7  | EWE
+ 18  1,9  - LEA
+ 18  6,9  - PAS
  18  3,5  | PAWS
  18  3,5  | PEWS
  18  3,4  | PLEWS
@@ -71,6 +92,7 @@
  17  3,3  | LAPSES
  17  3,5  | LAPSES
  17 11,4  | LASE
+ 17  6,9  - PA
  17  3,3  | SALEPS
  17  7,9  - SALP
  17  7,9  - SAP
@@ -82,6 +104,7 @@
  16  7,9  - AWL
  16  3,4  | AWLESS
  16 11,4  | EASE
+ 16 10,8  - EW
  16  3,5  | LAPSE
  16  3,5  | PASSEL
  16  4,5  - PEAS
@@ -97,12 +120,14 @@
  15  7,9  - AWES
  15 11,7  | EELS
  15 11,7  | ELSE
+ 15 11,5  | ESE
  15  5,5  - PAS
  15  3,4  | PAWLS
  15  6,9  - SALE
  15  6,9  - SAP
  15  6,9  - SAW
  15 11,6  | SEA
+ 15  1,9  - SEA
  15  3,8  | SEAS
  15 11,6  | SEE
  15  3,4  | SLAPS
@@ -158,6 +183,7 @@
  12 11,7  | EEL
  12 10,8  - EL
  12 11,7  | ELS
+ 12  4,6  | ESQ
  12  3,5  | PASS
  12  3,4  | PEALS
  12  3,5  | PEAS
@@ -183,6 +209,7 @@
  11  5,7  | PULA
  11  5,7  | PULE
  11  5,7  | PULS
+ 11  6,9  - SA
  11  7,9  - SAE
  11  7,9  - SEA
  11  5,7  | SUP
@@ -220,12 +247,15 @@
   9  3,5  - ASEA
   9  3,5  | AWES
   9  9,6  | BILE
+  9 11,7  | ESE
   9  5,5  - PA
   9  2,7  - PA
+  9  2,9  - PA
   9  3,6  | PASE
   9  3,6  | PASS
   9  2,7  - PE
   9  6,3  | PEAG
+  9  7,9  - SA
   9  3,4  | SEALS
   9  3,5  | SPAS
   9  6,3  | SWAG
@@ -256,6 +286,7 @@
   7 10,6  | EMES
   7  5,5  - LA
   7  2,7  - LA
+  7  2,9  - LA
   7  3,6  | LASE
   7  3,6  | LASS
   7  3,6  | LESS
@@ -275,6 +306,7 @@
   7  3,6  | WAS
   6  5,5  - AA
   6  2,7  - AA
+  6  2,9  - AA
   6  2,7  - AE
   6  3,6  | ALS
   6  3,7  | ASEA
@@ -286,9 +318,14 @@
   6  6,4  | LEG
   6  7,6  | LOTA
   6  7,6  | LOTS
+  6  5,5  - SA
+  6  2,7  - SA
+  6  2,9  - SA
   6  3,5  | SEAS
   5  3,7  | ASS
   5  3,7  | ESS
+  5 11,7  | EW
+  5  6,8  | IP
   5  3,6  | LAS
   5  6,4  | SAG
   5  3,8  | SAL
@@ -307,6 +344,7 @@
   3  3,7  | AS
   3 11,7  | EL
   3  3,7  | ES
+  3  3,8  | SA
   2 11,7  | EE
   2 11,7  | ES
   2  6,8  | IS

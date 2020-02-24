@@ -3,6 +3,8 @@
  41  8,9  - OKES
  41  8,9  - OKRA
  32  5,2  - KAES
+ 30  3,1  | KORU
+ 29  8,9  - ARKS
  29  8,9  - IRKS
  29  8,9  - OAKS
  28  3,2  - KORAS
@@ -32,6 +34,7 @@
  24  5,2  - KAE
  24  5,2  - KAS
  24  9,1  | KORE
+ 23  4,8  | JOSE
  22  3,2  - KORA
  22  3,2  - OKRA
  22  3,2  - SIKA
@@ -57,6 +60,7 @@
  18  6,6  - COSIER
  18  4,2  - ERAS
  18  5,2  - KA
+ 18  7,5  - KES
  18  9,1  | RARES
  18  4,2  - RIAS
  18  6,10 - SAKER
@@ -75,6 +79,10 @@
  18  6,10 - SOAKS
  18  6,10 - SOKES
  18  9,1  | SORER
+ 17  8,9  - AERO
+ 17  8,9  - AIRS
+ 17  8,9  - ARES
+ 17  8,9  - ARSE
  17  7,8  | GI
  17  8,9  - IRES
  17  8,9  - OARS
@@ -176,12 +184,14 @@
  11  8,7  - IRKS
  11 11,2  | IXIA
  11  8,7  - OAKS
+ 11  4,6  - OICK
  11  4,6  - RACK
  11  8,2  - RE
  11  4,6  - RECK
  11  9,3  | REEKS
  11  4,6  - RICK
  11  4,6  - ROCK
+ 11  8,2  - SA
  11  4,6  - SACK
  11  8,2  - SI
  11  4,6  - SICK
@@ -190,7 +200,9 @@
  11  4,4  | ZA
  10 10,3  | AERIE
  10  8,7  - ARK
+ 10  8,9  - ARK
  10  8,7  - ASK
+ 10  8,9  - ASK
  10  5,6  - ICK
  10  8,7  - IRK
  10  8,9  - IRK
@@ -198,6 +210,7 @@
  10  8,7  - OAK
  10  8,9  - OAK
  10  8,6  | RESOAK
+ 10  5,2  - SA
  10  6,10 - SARIS
  10  6,10 - SAROS
  10  6,10 - SEARS
@@ -227,6 +240,7 @@
   8  2,6  - AREIC
   8  8,7  | ASKS
   8  5,10 - ASKS
+  8  3,6  | EO
   8  4,6  - ESCAR
   8  1,6  - KAAS
   8  1,6  - KAES
@@ -247,6 +261,7 @@
   8  8,6  | RISK
   8  6,1  | RITE
   8  6,1  | ROTE
+  8  3,6  | SA
   8  1,6  - SAKE
   8  8,8  | SAKE
   8  6,10 - SAKE
@@ -285,6 +300,7 @@
   7  8,7  - ARES
   7  2,6  - ARK
   7  8,7  - ARSE
+  7  1,5  | AS
   7  4,6  - ASCI
   7  2,6  - ASK
   7  8,7  | ASK
@@ -300,13 +316,17 @@
   7  6,6  - CORS
   7  6,6  - CRIS
   7  8,7  - EARS
+  7  7,5  | EO
   7  8,7  - ERAS
   7  8,7  - EROS
+  7  1,5  | ES
   7  5,6  - ICES
   7  8,7  - IRES
   7  1,6  - KAE
+  7  1,6  - KAI
   7  1,6  - KAS
   7  8,6  | KAS
+  7  8,6  | KES
   7  8,6  | KIS
   7  8,6  | KOS
   7  1,6  - OAK
@@ -330,15 +350,20 @@
   7  6,10 - SKA
   7  8,8  | SKI
   7  6,10 - SKI
+  7  7,5  | SO
   7  4,6  - SOCA
   6  5,6  - ACE
   6  1,6  | AE
   6  1,6  | AI
   6  8,7  - AIR
+  6  8,9  - AIR
   6  8,7  - AIS
+  6  8,9  - AIS
   6  4,6  - ARC
   6  8,7  - ARE
+  6  8,9  - ARE
   6  8,7  - ARS
+  6  8,9  - ARS
   6  6,2  | ATE
   6  3,11 - BAR
   6  3,11 - BAS
@@ -378,24 +403,32 @@
   6  4,6  - REC
   6  4,6  - ROC
   6  8,2  | ROW
+  6  1,6  | SA
   6  4,6  - SAC
   6 10,2  | SAE
   6  4,6  - SEC
+  6  1,6  | SI
   6  4,6  - SIC
   6  8,2  | SOW
   5  8,7  - AE
+  5  8,9  - AE
   5  8,7  - AI
+  5  8,9  - AI
   5  8,7  - AR
+  5  8,9  - AR
   5  9,2  | ARES
   5  8,6  | ARSES
   5  8,6  | ARSIS
   5  8,7  - AS
+  5  8,9  - AS
   5  7,1  | ASH
   5  3,11 - BA
   5  3,11 - BE
   5  3,11 - BI
   5  3,11 - BO
+  5  6,6  - CO
   5  3,2  | EAU
+  5  8,7  - EO
   5  8,7  - ER
   5  8,7  - ES
   5  9,2  | IRES
@@ -427,14 +460,19 @@
   5  3,2  | SAU
   5  3,2  | SOU
   4  5,10 | AE
+  4  7,10 | AE
   4  7,2  | AH
   4  5,10 | AI
+  4  7,10 | AI
   4  5,10 | AR
+  4  7,10 | AR
   4  8,6  | ARSE
   4  5,10 | AS
+  4  7,10 | AS
   4  1,7  - ATE
   4  1,6  - EARS
   4  7,2  | EH
+  4  5,10 | EO
   4  5,10 | ER
   4  5,10 | ES
   4  1,7  - ETA
@@ -445,8 +483,10 @@
   4  5,10 | OE
   4  7,10 | OE
   4  7,2  | OH
+  4  5,7  - OI
   4  5,10 | OI
   4  7,10 | OI
+  4  5,7  | OO
   4  5,10 | OR
   4  7,10 | OR
   4  5,10 | OS
@@ -560,6 +600,7 @@
   2  5,10 - AS
   2  1,7  - AT
   2  5,4  | EE
+  2  5,4  | EO
   2  5,4  | ER
   2  5,4  | ES
   2  8,7  | ES
@@ -570,6 +611,9 @@
   2  1,7  - IT
   2  8,7  | OS
   2  5,10 - OS
+  2  1,6  - SA
+  2  8,8  | SA
+  2  6,10 - SA
   2  8,8  | SI
   2  6,10 - SI
   2  8,8  | SO

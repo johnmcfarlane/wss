@@ -4,6 +4,7 @@
  24  1,7  - PROW
  24  1,7  - WRAP
  21  1,7  - REAP
+ 20  2,5  - PIE
  20  2,7  - RAP
  20  2,7  - RAW
  20  2,7  - REP
@@ -14,7 +15,9 @@
  20  2,7  - WOE
  19  6,5  - PROW
  19  6,5  - WARP
+ 19  6,7  - WARP
  19  6,5  - WRAP
+ 19  6,7  - WRAP
  18  2,1  | APORIA
  18  2,6  | APORIA
  18  1,7  - AWE
@@ -24,6 +27,7 @@
  18  6,5  | PEREIA
  18  1,7  - PIER
  18  4,4  | POORI
+ 18  1,7  - PRAO
  18  4,4  | PROW
  18  1,7  - WAIR
  18  1,7  - WEAR
@@ -31,15 +35,20 @@
  18  4,4  | WOOER
  17  3,5  - AW
  17  3,7  - AW
+ 17  3,7  - EW
+ 17  3,5  - IP
+ 17  3,7  - IP
  17  3,7  - OP
  17  3,7  - OW
  17  2,5  - PA
  17  6,5  - PAWER
+ 17  2,5  - PI
  17  6,5  - POWER
  17  3,3  | PROBE
  17  5,3  | WAIVER
  17  2,7  - WE
  17  6,5  - WIPER
+ 17  6,7  - WIPER
  17  2,7  - WO
  16  2,2  | AREPA
  16  2,6  | AREPA
@@ -50,6 +59,7 @@
  16  5,3  | PROVE
  16  5,3  | WAIVE
  16  6,5  - WIPE
+ 16  6,7  - WIPE
  15  3,6  | BRAW
  15  3,6  | BREW
  15  3,6  | BROW
@@ -77,6 +87,7 @@
  14  5,3  | REAVOW
  14  2,7  - ROE
  14  6,5  - WAP
+ 14  6,7  - WAP
  14  5,4  | WAVIER
  14  4,4  | WOO
  13  3,6  | BOWER
@@ -96,31 +107,43 @@
  13  5,6  | VIPER
  13  5,6  | VOWER
  13  6,5  - WAIR
+ 13  6,7  - WAIR
  13  6,5  - WARE
+ 13  6,7  - WARE
  13  6,5  - WEAR
+ 13  6,7  - WEAR
  13  6,5  - WEIR
+ 13  6,7  - WEIR
  13  6,5  - WIRE
+ 13  6,7  - WIRE
  13  6,5  - WORE
+ 13  6,7  - WORE
  12  1,7  - ARE
  12  1,7  - ERA
  12  1,7  - IRE
  12  1,7  - ORA
  12  1,7  - ORE
  12  5,4  | PAVER
+ 12  1,5  - RAI
  12  1,7  - RAI
  12  1,7  - RIA
  12  5,4  | WAVER
  12  5,4  | WIVER
+ 11  3,5  - AE
  11  2,7  - AE
  11  3,7  - AE
+ 11  2,5  - AI
  11  2,7  - AI
  11  3,7  - AI
  11  3,7  - AR
  11  5,5  | AVOW
+ 11  2,7  - EO
+ 11  3,7  - EO
  11  3,7  - ER
  11  3,7  - OE
  11  3,7  - OI
  11  6,5  - OPERA
+ 11  6,7  - OPERA
  11  3,7  - OR
  11  6,5  - PAR
  11  5,4  | PAVE
@@ -130,16 +153,20 @@
  11  6,5  - PER
  11  6,5  - PIA
  11  6,5  - PIE
+ 11  6,5  - PIR
  11  6,5  - POI
  11  6,3  | POWER
  11  6,5  - PRO
  11  2,7  - RE
  11  6,5  - WAE
+ 11  6,7  - WAE
  11  6,5  - WAR
+ 11  6,7  - WAR
  11  5,4  | WAVE
  11  6,3  | WIPER
  11  5,4  | WIVE
  11  6,5  - WOE
+ 11  6,7  - WOE
  11  5,4  | WOVE
  10  6,2  | AERIE
  10  6,5  - APER
@@ -147,6 +174,8 @@
  10  3,6  | BAP
  10  3,6  | BOP
  10  3,6  | BOW
+ 10  1,7  - EW
+ 10  1,5  - IP
  10  1,5  - OP
  10  4,6  | OPERA
  10  1,7  - OW
@@ -170,11 +199,13 @@
  10  3,4  | WAB
  10  2,5  | WARP
  10  6,5  - WE
+ 10  6,7  - WE
  10  3,4  | WEB
  10  6,4  | WEEP
  10  6,5  | WEEP
  10  6,3  | WIPE
  10  6,5  - WO
+ 10  6,7  - WO
  10  4,5  | WOOER
  10  2,4  | WRAP
   9  3,5  | ABRI
@@ -218,10 +249,12 @@
   8  3,5  | OBI
   8  6,5  - OPE
   8  4,6  | OPE
+  8  6,7  - OPE
   8  6,4  | OPERA
   8  5,5  | OVER
   8  6,5  - OWE
   8  4,6  | OWE
+  8  6,7  - OWE
   8  2,3  | PARAE
   8  2,5  | PARAE
   8  6,3  | PAREO
@@ -255,14 +288,18 @@
   7  3,6  | BOA
   7  3,6  | BRA
   7  3,6  | BRO
+  7  6,5  - EW
+  7  6,7  - EW
   7  6,4  | EWER
   7  6,6  | EWER
   7  4,5  | OORIE
   7  4,6  | OORIE
   7  6,5  - OP
+  7  6,7  - OP
   7  3,4  | ORB
   7  5,5  | OVA
   7  6,5  - OW
+  7  6,7  - OW
   7  1,5  - PA
   7  1,7  - PA
   7  2,5  | PAIR
@@ -306,6 +343,8 @@
   7  1,7  - WE
   7  2,4  | WEAR
   7  6,5  | WEAR
+  7  6,4  | WEEI
+  7  6,5  | WEEI
   7  6,4  | WEER
   7  6,5  | WEER
   7  6,5  | WEIR
@@ -326,8 +365,11 @@
   6  3,6  | BE
   6  3,6  | BI
   6  3,6  | BO
+  6  6,4  | EPE
+  6  6,6  | EPE
   6  6,4  | EWE
   6  6,6  | EWE
+  6  3,5  | IB
   6  6,4  | OPE
   6  6,4  | OWE
   6  2,5  | PAR
@@ -360,13 +402,17 @@
   5  6,7  - EAR
   5  6,5  - ERA
   5  6,7  - ERA
+  5  6,6  | EW
   5  6,5  - OAR
   5  4,6  | OAR
+  5  6,7  - OAR
   5  4,6  | OP
   5  6,5  - ORA
   5  4,6  | ORA
+  5  6,7  - ORA
   5  6,5  - ORE
   5  4,6  | ORE
+  5  6,7  - ORE
   5  4,6  | OW
   5  2,5  | PA
   5  6,5  | PE
@@ -391,15 +437,20 @@
   4  2,6  | AREA
   4  2,3  | ARIA
   4  2,6  | ARIA
+  4  6,5  - EO
+  4  6,7  - EO
   4  6,5  - ER
   4  1,7  - ER
   4  6,7  - ER
   4  6,5  - OE
   4  1,7  - OE
+  4  6,7  - OE
   4  6,5  - OI
   4  1,7  - OI
+  4  6,7  - OI
   4  6,5  - OR
   4  1,7  - OR
+  4  6,7  - OR
   4  2,3  | RAIA
   4  2,5  | RAIA
   4  6,5  - RE
@@ -432,9 +483,13 @@
   2  2,6  | AR
   2  6,5  | EE
   2  6,6  | EE
+  2  4,5  | EO
+  2  6,6  | EO
   2  6,6  | ER
   2  6,5  | OE
   2  4,6  | OE
   2  4,6  | OI
+  2  4,5  | OO
+  2  4,6  | OO
   2  4,6  | OR
   2  6,5  | RE

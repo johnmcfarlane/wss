@@ -36,6 +36,7 @@
  22 10,1  | LAWNS
  22  6,2  - LEAN
  22  6,2  | WIENIES
+ 21 10,2  | ANEW
  21 10,2  | LAWN
  21  3,7  | NA
  21  3,7  | NE
@@ -43,10 +44,14 @@
  21  4,8  - SAWN
  21 10,1  | SEWAN
  21  4,8  - SEWN
+ 21 10,2  | SLAW
  21  4,8  - SLAW
+ 21 10,2  | SLEW
  21  4,8  - SLEW
+ 21 10,2  | SNAW
  21  4,8  - SNAW
  21  4,8  - SWAN
+ 21  3,1  | WAE
  21  7,2  - WAES
  21  3,1  | WEE
  21  7,2  - WEES
@@ -79,6 +84,8 @@
  18 10,2  | LAWS
  18  6,2  - LEA
  18  6,2  - LEE
+ 18  6,2  - NAE
+ 18  6,2  - NEE
  18 10,2  | NEWS
  18  4,8  - SALE
  18  4,8  - SANE
@@ -97,6 +104,7 @@
  17  6,2  - ANE
  17  2,9  | NAY
  17  4,8  - SAL
+ 17  4,8  - SAN
  17  4,8  - SEL
  17  4,8  - SEN
  16 10,1  | ANELE
@@ -108,6 +116,7 @@
  16  8,2  - AWN
  16  7,2  - EASEL
  16 10,1  | ELANS
+ 16  3,8  - ESE
  16  8,2  - EWES
  16 10,2  | EWES
  16  1,7  - JANE
@@ -132,8 +141,10 @@
  15 10,2  | LEAN
  15  3,1  | LEE
  15  5,6  | MEWL
+ 15  3,1  | NAE
  15  3,1  | NEE
  15  7,2  | NEWSREEL
+ 15  4,8  - SA
  15  1,8  - USE
  14  5,5  | AMENS
  14  4,1  | ANABASES
@@ -147,6 +158,8 @@
  14 10,2  | LANE
  14 10,1  | LEASE
  14 10,2  | LENS
+ 14  6,2  - NA
+ 14  6,2  - NE
  14  6,2  - SAE
  14  8,3  | SANK
  14  2,9  | SAY
@@ -160,6 +173,7 @@
  13  6,2  - AN
  13  4,7  - EASE
  13  5,6  | MEWS
+ 13  6,4  - SEA
  13 10,2  | SEAL
  13 10,2  | SEEL
  13 10,2  | SEEN
@@ -178,21 +192,28 @@
  12  7,2  - EASE
  12  8,2  - EELS
  12 10,2  | EELS
+ 12  4,7  - EEN
  12  8,2  - ELSE
  12 10,2  | ELSE
  12  8,2  - ESNE
  12 10,2  | ESNE
+ 12  7,4  - LA
  12  6,1  | LAIN
  12 10,2  | LASE
+ 12 10,3  | LAW
  12 10,2  | LEAS
  12 10,2  | LEES
  12  5,6  | MEAL
  12  5,6  | MEAN
+ 12  7,4  - NA
  12  6,1  | NAIL
  12  7,2  - NAW
+ 12 10,3  | NAW
  12  7,2  - NEW
+ 12 10,3  | NEW
  12  6,2  | NISEI
  12  1,9  - OWSEN
+ 12  3,1  | SAE
  12 10,2  | SALE
  12 10,2  | SANE
  12  3,1  | SEE
@@ -208,6 +229,8 @@
  11  7,6  | RENEWS
  11  7,6  | RESAWN
  11  7,6  | RESEWN
+ 11 10,3  | SAW
+ 11 10,3  | SEW
  11  3,8  | SWAT
  11  5,1  | WAvE
  10  4,5  - AAS
@@ -218,17 +241,20 @@
  10  8,2  - ALS
  10  8,2  - ANE
  10  6,1  | ANIS
+ 10 10,4  | AW
  10 10,3  | AWL
  10 10,3  | AWN
  10  2,10 | AY
  10  8,2  - EASE
  10 10,2  | EASE
  10  8,2  - EEL
+ 10  8,2  - EEN
  10  3,3  | EL
  10  8,2  - ELS
  10  5,5  | EME
  10  5,5  | EMS
  10  8,2  - ENS
+ 10 10,4  | EW
  10  1,1  | LA
  10  6,1  | LEIS
  10  6,2  | LIN
@@ -240,6 +266,8 @@
  10  1,9  - OWNS
  10  7,6  | RENEW
  10  7,6  | REWAN
+ 10  6,2  - SA
+ 10  7,4  - SA
  10  6,1  | SAIL
  10  6,1  | SAIN
  10 10,3  | WAN
@@ -273,13 +301,17 @@
   8  6,2  | AIL
   8  6,2  | AIN
   8  3,10 - AL
+  8  3,10 - AN
   8  7,1  | ANEW
   8  6,1  | ANI
   8  7,5  | ARENES
   8 10,3  | AWE
   8  5,1  | EAvE
   8  7,2  - EEL
+  8  7,2  - EEN
   8  3,10 - EL
+  8  3,10 - EN
+  8  8,2  - ESE
   8 10,3  | EWE
   8  7,3  | EWERS
   8  1,4  | LA
@@ -289,9 +321,11 @@
   8  6,2  | LIS
   8  7,2  - NA
   8  1,4  | NA
+  8  6,5  - NA
   8  7,2  - NE
   8  1,4  | NE
   8  6,4  - NE
+  8  6,5  - NE
   8  6,7  - NE
   8  1,9  - OWES
   8  1,9  - OWSE
@@ -332,9 +366,11 @@
   7  1,1  | EE
   7  4,7  - EE
   7 10,3  | EEL
+  7 10,3  | EEN
   7  8,1  | ELSE
   7  5,5  | EM
   7  7,5  | ERNES
+  7  8,2  - EW
   7  7,3  | EWER
   7  7,1  | EWES
   7  5,2  | EvE
@@ -353,8 +389,10 @@
   7  7,6  | RANEE
   7  7,6  | REAL
   7  7,6  | REEL
+  7  1,1  | SA
   7  5,9  | SAC
   7 10,3  | SAL
+  7 10,3  | SAN
   7  5,9  | SEC
   7 10,3  | SEL
   7 10,3  | SEN
@@ -403,12 +441,15 @@
   6 10,3  | NEE
   6  3,8  | NEST
   6  3,9  | NET
+  6  6,2  | NI
   6  6,5  | NILS
   6  1,9  - OLEA
   6  1,9  - OLES
   6  1,9  - ONES
   6  7,6  | RALE
   6  7,6  | RAW
+  6  1,4  | SA
+  6  6,5  - SA
   6  3,8  | SALT
   6  6,1  | SEI
   6  3,8  | SENT
@@ -418,6 +459,7 @@
   6  7,1  | WEE
   6  7,2  | WEE
   6  6,5  | WIS
+  5  3,2  | AE
   5  6,5  | AILS
   5  6,5  | AINS
   5  8,2  - AL
@@ -429,6 +471,7 @@
   5  3,9  | ANT
   5  1,5  - AREA
   5  8,2  | ASS
+  5  2,2  - DA
   5  2,2  - DE
   5  3,8  | EAST
   5  3,2  | EE
@@ -436,7 +479,11 @@
   5  8,2  - EN
   5  7,5  | ERNE
   5  7,5  | ERNS
+  5  8,2  | ESE
+  5 10,3  | ESE
   5  8,2  | ESS
+  5  7,3  | EW
+  5  9,5  - EW
   5  6,6  | ILEA
   5  6,6  | ISLE
   5  7,1  | LEES
@@ -476,6 +523,8 @@
   4 10,4  | EE
   4  7,2  | EEL
   4  9,5  - EEL
+  4  7,2  | EEN
+  4  9,5  - EEN
   4  8,1  | ELS
   4  9,5  - ELS
   4  8,1  | ENS
@@ -498,6 +547,7 @@
   4  1,9  - OES
   4  1,9  - OSE
   4  7,6  | RAN
+  4  8,3  | SA
   4  3,9  | SAT
   4  7,2  | SEL
   4  7,2  | SEN
@@ -517,6 +567,8 @@
   3  7,5  | ERA
   3  7,5  | ERE
   3  7,5  | ERS
+  3  7,1  | ESE
+  3  9,5  - ESE
   3  8,1  | ESS
   3  6,3  | IN
   3  6,6  | IN
@@ -527,6 +579,8 @@
   3  4,10 | LI
   3  1,4  - NA
   3  7,2  | NE
+  3  6,5  | NI
+  3  4,10 | NI
   3  1,9  - ON
   3  7,6  | RAS
   3  7,6  | REE
@@ -558,5 +612,7 @@
   2  1,9  - OE
   2  1,9  - OS
   2  7,6  | RE
+  2  1,4  - SA
+  2  5,1  | SEv
   2  6,5  | SI
   2  4,10 | SI

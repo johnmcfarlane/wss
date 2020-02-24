@@ -43,6 +43,7 @@
  17  4,3  - JONES
  17  3,4  - JONES
  17  7,2  | NOSE
+ 17  5,1  | ONE
  17  7,1  | ONE
  17  5,2  | SONE
  17  7,2  | SONE
@@ -58,6 +59,7 @@
  15  5,2  - JIGS
  15  3,6  - JOEY
  15  4,2  - JOINS
+ 15  3,4  - JOSE
  15  4,6  - JOYS
  15  5,1  | OSE
  15  7,1  | OSE
@@ -80,8 +82,10 @@
  14  7,2  | SON
  14  2,2  - SONSIE
  13  6,4  - ENGS
+ 13  5,1  | GO
  13  5,2  | GO
  13  5,2  - JIN
+ 13  4,2  - JOIE
  13  3,4  - OGEES
  13  3,3  - SEGNO
  13  5,4  - SEGNOS
@@ -108,10 +112,13 @@
  11  3,5  - GENRO
  11  2,4  - GNOSES
  11  5,4  - JE
+ 11  5,2  | NE
  11  7,2  | NE
  11  3,3  - NEONS
+ 11  5,2  | NO
  11  7,2  | NO
  11  4,4  - OGEES
+ 11  5,1  | ON
  11  7,1  | ON
  11  5,3  | ON
  11  7,3  | ON
@@ -132,6 +139,8 @@
  10  7,6  | ONES
  10  2,4  - SENSE
   9  7,6  | EGO
+  9  5,3  | EO
+  9  7,3  | EO
   9  6,4  - EONS
   9  7,1  | ES
   9  7,3  | ES
@@ -171,8 +180,11 @@
   9  5,2  | SO
   9  7,2  | SO
   9  4,2  - SOIGNE
+  8  6,4  - EEN
   8  6,4  - EGOS
   8  7,6  | ENS
+  8  5,5  | EO
+  8  7,5  | EO
   8  6,4  - EON
   8  7,6  | EON
   8  3,4  - ESNES
@@ -220,6 +232,7 @@
   7  4,5  - GORES
   7  4,5  - GORSE
   7  4,6  - GOY
+  7  5,1  - GP
   7  6,3  - NEG
   7  6,3  - NESS
   7  5,4  - NESS
@@ -259,6 +272,8 @@
   6  4,2  - EGIS
   6  5,3  - ENS
   6  6,4  - ENS
+  6  5,4  | EO
+  6  7,6  | EO
   6  3,2  - EOSIN
   6  5,5  - ERGO
   6  5,5  - ERGS
@@ -272,6 +287,7 @@
   6  5,4  - NEG
   6  4,2  - NOISE
   6  5,4  | OE
+  6  7,4  | OE
   6  5,6  | OE
   6  7,6  | OE
   6  4,5  - OGRE
@@ -295,10 +311,13 @@
   6  4,6  - SOYS
   6  5,6  - SYN
   6  6,6  - YEN
+  6  6,6  - YNO
   6  6,6  - YON
   5  4,3  - EON
   5  5,5  - ERG
   5  5,5  - ERNS
+  5  4,4  - ESE
+  5  6,4  - ESE
   5  6,4  - ESS
   5  5,4  - GEE
   5  5,2  - GIE
@@ -322,6 +341,7 @@
   5  4,5  - SORN
   5  4,6  - SOY
   5  6,6  - YES
+  4  5,4  - EEN
   4  5,3  - EN
   4  5,5  - ERN
   4  5,5  - EROS
@@ -346,6 +366,7 @@
   3  5,5  - ERS
   3  6,2  - IN
   3  5,4  - NE
+  3  5,2  - NI
   3  5,4  - OES
   3  5,5  - ORE
   3  5,5  - ORS
@@ -357,6 +378,7 @@
   3  5,2  - SIS
   2  5,4  - EE
   2  6,4  - EE
+  2  6,4  - EO
   2  5,5  - ER
   2  6,4  - ES
   2  6,2  - IS

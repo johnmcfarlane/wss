@@ -1,4 +1,8 @@
  20  6,2  | CROUTE
+ 20  7,8  - EYE
+ 20  7,8  - RYE
+ 19  8,8  - YE
+ 19  8,8  | Yi
  18  6,2  | COURT
  18  7,3  - COYED
  18  3,7  - COYER
@@ -8,6 +12,8 @@
  18  6,2  | RECUT
  18  7,7  - YOK
  17 10,1  | CUE
+ 17  5,9  - YE
+ 17  5,9  - YO
  16  6,2  | ERECT
  15 10,1  | CEE
  15  7,3  - CURED
@@ -21,12 +27,15 @@
  13  3,5  - CERE
  13  3,7  - CERE
  13  3,7  - CERO
+ 13 10,2  | CO
  13  3,5  - CORE
  13  3,7  - CORE
  13 10,1  | EYE
  13  3,7  | OCULI
+ 13  5,5  - REC
  13 10,1  | RYE
  12  9,3  - CUD
+ 12  5,5  - CUE
  12  3,5  - ECRU
  11  7,3  | CERO
  11  9,3  - COD
@@ -38,6 +47,7 @@
  11 10,2  | YO
  11  3,5  - YORE
  11  3,7  - YORE
+ 10  5,5  - CEE
  10  5,7  - CEE
  10  7,4  | COOEY
  10  5,7  - COR
@@ -49,6 +59,7 @@
  10  4,7  - EYER
  10  6,7  - OY
  10  4,7  - OYER
+ 10  4,5  - ROUE
   9  8,3  - COED
   9  8,3  - CORD
   9  7,5  | CORY
@@ -64,8 +75,10 @@
   9 10,1  | ORE
   9 10,1  | REE
   9 10,1  | ROE
+  9  5,5  - RUE
   9  9,3  - YOD
   9  4,5  - YOU
+  9  8,3  - YOUD
   8  4,5  - CEE
   8  4,7  - CEE
   8  7,4  | COOEE
@@ -80,22 +93,26 @@
   8  3,7  - ROUE
   8  8,3  - RUED
   7  6,4  | CETE
+  7  5,7  - CO
   7  6,8  | CON
   7  7,5  | CORE
   7  6,4  | COTE
   7  6,4  | CUT
   7 10,2  | EE
+  7 10,2  | EO
   7  4,5  - EYE
   7  4,7  - EYE
   7 10,2  | OE
   7  8,8  - OE
   7  8,8  | Oi
   7 10,2  | RE
+  7  5,5  - REE
   7  5,7  - REE
   7  5,7  - ROE
   7  4,5  - RYE
   7  4,7  - RYE
   7  9,3  - URD
+  7  5,9  | YI
   7  7,5  | YOUR
   7  6,3  | YURT
   6  7,4  | COO
@@ -103,7 +120,10 @@
   6  7,5  | COR
   6  2,9  | COR
   6  6,4  | COT
+  6  6,5  - EE
   6  6,7  - EE
+  6  6,5  - EO
+  6  6,7  - EO
   6  6,7  - ER
   6  7,3  | EURO
   6  6,7  - OE
@@ -126,6 +146,7 @@
   6  6,8  | YON
   6  7,5  | YORE
   6  7,5  | YOU
+  5  7,5  | CO
   5  4,5  - ERE
   5  4,7  - ERE
   5  4,5  - ORE
@@ -146,6 +167,8 @@
   5  6,4  | YET
   4  5,5  - EE
   4  5,7  - EE
+  4  6,8  | EEN
+  4  5,7  - EO
   4  6,8  | EON
   4  6,8  | ERN
   4  5,5  - OE
@@ -175,8 +198,11 @@
   3  6,6  | TOE
   3  6,6  | TOR
   3  6,5  | UT
+  2  7,5  | EO
   2  6,5  | ET
   2  7,6  | OE
+  2  7,5  | OO
+  2  7,6  | OO
   2  7,6  | OR
   2  6,6  | TE
   2  6,6  | TO

@@ -1,14 +1,18 @@
  53 11,7  | OXES
  50 11,8  | VISE
+ 50 11,8  | XES
  50 11,8  | XIS
  44 11,7  | VIES
  44 11,7  | VOES
  41 11,8  | VIS
  35 11,9  | OSE
  31  4,9  | OXO
+ 31  9,11 - SOX
  30 10,2  | VISED
  29 11,8  | OES
+ 29 11,8  | OOS
  29 10,1  | OXES
+ 27 10,2  | XES
  27 10,2  | XIS
  26 11,9  | ES
  26  7,8  | EXES
@@ -17,6 +21,7 @@
  26  7,8  | OXES
  26  5,4  | SILVEX
  26  4,7  - VOX
+ 25  7,9  | XES
  24 11,10 | SI
  24 11,10 | SO
  23  8,8  - SiX
@@ -31,8 +36,12 @@
  19  7,1  | OXES
  19  5,2  | VEXILS
  18  5,2  | VEXIL
+ 18  3,5  - VIES
  18  2,5  | VISE
+ 18  3,5  - VOES
+ 18  7,2  | XES
  18  7,2  | XIS
+ 17  3,5  - OXES
  16  7,4  | SEW
  16  7,4  | SOW
  16  7,8  | VEES
@@ -51,12 +60,14 @@
  15  7,2  | VIS
  15  3,5  - VOE
  15  5,3  | VOILE
+ 15  4,5  - XES
  15  4,7  - XIS
  14  3,7  - OXO
  14  6,7  - SEAM
  14  5,3  | VEIL
  14  5,3  | VIOL
  13 10,2  | OES
+ 13 10,2  | OOS
  13  5,4  | SILEX
  13  7,4  - SKIVE
  12  7,8  | EVE
@@ -73,9 +84,14 @@
  11  7,2  | OES
  11  7,9  | OES
  11  5,5  | OLIVE
+ 11  7,2  | OOS
  11  5,3  | OVOLI
  11  1,8  - RIVES
  11  1,8  - ROVES
+ 11  6,5  - SEAT
+ 10  6,6  | AIX
+ 10  8,7  - AMIE
+ 10  8,7  - AMIS
  10  6,6  | AXE
  10  7,3  | ES
  10  5,3  | EVIL
@@ -92,8 +108,11 @@
  10  1,8  - ROVE
  10  6,5  | SAX
  10  5,4  | SOLVE
+ 10  9,11 - SOS
  10  5,4  | VOLES
+  9  8,7  - AMI
   9  6,6  | AX
+  9 10,6  | DI
   9 10,3  | ES
   9  7,10 | ES
   9  3,11 - HORAS
@@ -103,8 +122,12 @@
   9  6,4  | SOAVE
   9  5,4  | VILE
   9  5,4  | VOLE
+  8  7,5  - EAT
+  8  7,5  | EW
   8  5,6  | LEV
   8  7,5  - OAT
+  8  4,5  - OES
+  8  4,7  - OOS
   8  2,6  | OSE
   8  7,5  | OW
   8  6,5  | SAVE
@@ -119,8 +142,13 @@
   7  8,10 | BE
   7  8,10 | BI
   7  8,10 | BO
+  7 10,10 | CO
+  7  5,5  - ES
   7  8,11 - ES
+  7  2,8  | ESE
+  7  8,9  | IB
   7  5,7  - IS
+  7  8,9  - IS
   7  8,11 - IS
   7  8,4  - KIS
   7  5,7  - OE
@@ -135,6 +163,7 @@
   7  1,8  - ROOSE
   7  3,7  - SEI
   7  7,4  - SKI
+  7  9,11 - SO
   7  6,5  | VAS
   7  6,4  | VIA
   6  8,5  - ATE
@@ -149,6 +178,7 @@
   6  1,8  - ROSE
   6  5,3  | SOIL
   6  5,4  | SOLEI
+  5  4,7  - EO
   5  5,4  | ISLE
   5  4,5  - OE
   5  4,7  - OI
@@ -156,6 +186,7 @@
   5  5,5  | OLEO
   5  5,5  | OLES
   5  5,5  | OLIO
+  5  4,7  - OO
   5  4,7  - SI
   5  5,4  | SILO
   5  5,5  | SLOE
@@ -166,6 +197,7 @@
   4  1,9  - AE
   4  2,9  | EE
   4  5,5  | ELS
+  4  7,8  | ESE
   4  5,6  | LEI
   4  5,6  | LIE
   4  5,6  | LIS
@@ -191,4 +223,5 @@
   2  6,6  | AI
   2  6,6  | AS
   2  1,8  - RE
+  2  6,5  | SA
   1  9,8  - iS

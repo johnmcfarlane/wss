@@ -28,6 +28,8 @@
  18  4,7  - WHOSE
  17  5,7  - HOW
  17  6,7  - OWE
+ 17  7,7  - OWE
+ 17  8,5  - SEW
  17  8,5  - TEW
  17  8,4  | WHAT
  17  2,7  - WHOSO
@@ -44,9 +46,12 @@
  16  9,3  | WHETS
  15  8,4  | HEATS
  15  8,5  - HET
+ 15  7,7  - OHO
  15  6,7  - OHS
+ 15  6,7  - OOH
  15  7,5  - SHE
  15  7,7  - SHE
+ 15  4,7  - SHOOT
  15  8,3  | SHWA
  15  5,7  - SOW
  15 10,5  | TEES
@@ -58,10 +63,13 @@
  15 10,5  | WEE
  15  8,3  | WHOA
  15  5,7  - WOES
+ 15  5,7  - WOOS
  15  5,7  - WOST
  14  3,7  - ETHOS
+ 14  9,5  - EW
  14  6,6  | GOOSE
  14  5,7  - HOES
+ 14  5,7  - HOOT
  14  5,7  - HOSE
  14  5,7  - HOST
  14  6,7  - OW
@@ -87,6 +95,7 @@
  12  8,5  | EATH
  12  9,5  - EH
  12  9,5  | ETHOS
+ 12  7,7  - EW
  12  8,5  | HAWSE
  12  8,5  - HE
  12  8,7  - HE
@@ -97,9 +106,12 @@
  12  7,9  - HOTEL
  12  8,5  | OATH
  12  6,7  - OH
+ 12  7,7  - OW
  12 10,5  | SEE
  12  8,3  | SHEA
  12  4,7  - SHOE
+ 12  4,7  - SHOO
+ 12  5,7  - SOOT
  12  9,3  | SOOTH
  12 10,5  | TEE
  12  5,7  - TOES
@@ -112,10 +124,12 @@
  12  9,3  | WEST
  12  4,7  - WHO
  12  5,7  - WOE
+ 12  5,7  - WOO
  12  5,7  - WOS
  12  9,3  | WOST
  11  8,6  | ASH
  11 10,6  | EE
+ 11 10,6  | EO
  11 10,7  - EX
  11  8,5  | HAWS
  11 10,8  | HE
@@ -126,13 +140,20 @@
  11  7,5  | HOWES
  11  8,9  - HOWL
  11  6,7  - OES
+ 11  6,7  - OOS
+ 11  6,7  - OOT
+ 11  7,5  - OSE
  11  6,7  - OSE
+ 11  7,7  - OSE
+ 11 10,7  - OX
+ 11  8,5  - SET
  11  8,4  | SHAW
  11  3,7  - SHOO
  11  9,2  | SHOOT
  11  9,2  | SHOTT
  11  9,4  | TETHS
  11  8,4  | THAW
+ 10  7,5  - EH
  10  7,7  - EH
  10  9,5  | ETHS
  10  7,7  - HE
@@ -141,6 +162,8 @@
  10  8,10 - HO
  10  9,3  | HOOT
  10  9,3  | HOST
+ 10  7,5  - OH
+ 10  7,7  - OH
  10  7,5  - SH
  10  7,7  - SH
  10  7,9  - SHEOL
@@ -170,6 +193,7 @@
   9  7,5  | HOWE
   9  7,5  | HOWS
   9  4,7  - OHO
+  9  5,7  - OOS
   9  7,4  | SHOW
   9  7,4  | SOOTHE
   9  8,4  | STAW
@@ -181,6 +205,7 @@
   9  9,6  | TEWS
   9  4,7  - THO
   9  5,7  - TOE
+  9  5,7  - TOO
   9  9,6  | TOWS
   9  8,4  | TWAE
   9  8,4  | TWAS
@@ -194,6 +219,8 @@
   9  8,9  - WOOL
   9  9,4  | WOTS
   8  8,6  | AWE
+  8  9,5  - EO
+  8  8,7  - EO
   8  9,5  - ET
   8  7,3  | ETHOS
   8  6,6  | GOSH
@@ -212,6 +239,7 @@
   8  9,4  | HOTS
   8  7,5  | HOW
   8  6,7  - OE
+  8  6,7  - OO
   8  6,7  - OS
   8  9,5  | OTTOS
   8  7,6  | OWES
@@ -274,7 +302,10 @@
   6  8,5  | EAST
   6  8,5  | EATS
   6  6,5  | EGOS
+  6  5,7  - EO
+  6  7,5  - ES
   6  7,7  - ES
+  6  7,5  - ET
   6  7,7  - ET
   6  8,4  | ETAS
   6 10,4  | EWE
@@ -293,9 +324,14 @@
   6  7,5  | HOTS
   6  8,5  | OAST
   6  8,5  | OATS
+  6  7,7  - OE
   6  8,10 - OE
+  6  5,7  - OO
+  6  8,10 - OO
   6  7,5  | OOHS
   6  9,4  | OOTS
+  6  7,5  - OS
+  6  7,7  - OS
   6  9,4  | OTTO
   6  9,5  | OTTO
   6 10,4  | OWE
@@ -371,6 +407,8 @@
   5  8,5  | HAT
   5 10,4  | HOE
   5  7,5  | HOE
+  5  9,8  - HOI
+  5  8,9  | HOI
   5  7,5  | HOS
   5  7,5  | HOT
   5  7,4  | OHO
@@ -418,9 +456,12 @@
   4  9,6  | TOT
   3  8,5  | EAT
   3 10,9  - EL
+  3 10,4  | ESE
   3  9,5  | ET
   3  8,5  | OAT
   3  7,6  | OES
+  3  7,5  | OOS
+  3  7,6  | OOS
   3  7,5  | OOT
   3  7,6  | OOT
   3 10,4  | OSE
@@ -445,13 +486,17 @@
   2  8,6  | AS
   2  8,6  | AT
   2 10,5  | EE
+  2  7,5  | EO
   2  9,10 | ER
   2 10,5  | OE
   2  7,6  | OE
   2 10,8  - OI
   2  8,10 | OI
+  2  7,5  | OO
+  2  7,6  | OO
   2  9,10 | OR
   2  7,6  | OS
+  2  8,5  | SA
   2 10,8  - SI
   2  8,10 | SI
   2  7,5  | SO

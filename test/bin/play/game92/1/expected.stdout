@@ -1,4 +1,6 @@
  66  3,1  | GOLEMS
+ 35  3,5  | ESQ
+ 32  4,6  | ESQ
  29  3,2  | GLOMS
  29  3,5  | GLOMS
  28  3,3  | GEMS
@@ -7,6 +9,7 @@
  28  3,3  | MOGS
  28  3,6  | SMOG
  27  3,5  | GLOM
+ 27  3,6  | LOQ
  26  3,5  | ELMS
  26  3,4  | GOLEM
  26  3,3  | MELS
@@ -14,6 +17,7 @@
  25  3,5  | ELM
  25  3,3  | ELMS
  25  3,4  | OGLES
+ 24  7,5  - ESQ
  24  3,3  | GELS
  24  3,3  | LEGS
  24  3,3  | LOGS
@@ -63,6 +67,7 @@
  19  3,6  | SOLE
  19  3,6  | SOM
  18  3,4  | ELS
+ 18  6,7  - LOQ
  18  3,6  | SEG
  18  3,4  | SEL
  18  2,5  - SLOE
@@ -114,6 +119,8 @@
  14  4,3  | OGLES
  14  7,2  | SMOGS
  13  7,5  - ELM
+ 13  4,5  - EO
+ 13  5,5  - EO
  13  4,4  | GLEE
  13  7,2  | GLOMS
  13  4,3  | GOLEM
@@ -133,7 +140,10 @@
  13  1,5  - SOME
  13  1,7  - SOME
  12  2,5  - EMO
+ 12  2,7  - EMO
  12  2,7  - EMS
+ 12  7,5  | ESQ
+ 12  6,6  | ESQ
  12  4,4  | GEES
  12  7,3  | GEMS
  12  4,3  | GLEES
@@ -180,6 +190,7 @@
  11  2,7  - MEL
  11  7,3  | MESS
  11  3,5  - MO
+ 11  3,7  - MO
  11  2,7  - MOL
  11  4,3  | MOLES
  11  7,3  | MOSS
@@ -193,8 +204,10 @@
  11  3,7  - OM
  11  5,5  | OXES
  11  1,5  - SEGO
+ 11  1,7  - SEGO
  11  7,6  | SLOGS
  10  2,5  - EGO
+ 10  2,7  - EGO
  10  2,7  - GEL
  10  7,3  | GELS
  10  7,3  | GESSO
@@ -211,6 +224,7 @@
  10  6,7  - SOLE
  10  6,7  - SOM
  10  5,4  | SOX
+ 10  5,6  | XES
   9  4,6  | EELS
   9  7,5  - EGOS
   9  1,7  - EGOS
@@ -224,6 +238,7 @@
   9  4,5  | GELS
   9  6,5  | GEMS
   9  3,5  - GO
+  9  3,7  - GO
   9  7,3  | GOES
   9  1,7  - GOES
   9  4,4  | LEES
@@ -307,6 +322,7 @@
   7  6,5  | LEGS
   7  7,3  | LESS
   7  3,5  - LO
+  7  3,7  - LO
   7  7,2  | LOESS
   7  6,3  | LOGE
   7  4,3  | LOSE
@@ -345,6 +361,8 @@
   6  6,6  | EMO
   6  7,4  | EMS
   6  6,6  | EMS
+  6  6,5  - EO
+  6  6,7  - EO
   6  6,4  | GEES
   6  6,5  | GEES
   6  4,5  | GEL
@@ -384,7 +402,11 @@
   5  6,6  | ELSE
   5  4,6  | EM
   5  6,6  | EM
+  5  3,5  - EO
+  5  3,7  - EO
   5  3,7  - ES
+  5  4,4  | ESE
+  5  4,6  | ESE
   5  6,4  | GEE
   5  4,5  | GEE
   5  6,5  | GEE
@@ -410,12 +432,14 @@
   5  7,6  | SEG
   5  6,3  | SLOE
   5  3,5  - SO
+  5  3,7  - SO
   5  6,3  | SOLE
   4  4,5  | EEL
   4  6,5  | EEL
   4  6,6  | EEL
   4  7,4  | ELS
   4  6,6  | ELS
+  4  7,5  - EO
   4  7,5  - ES
   4  6,4  | LEE
   4  4,5  | LEE
@@ -432,6 +456,8 @@
   4  7,6  | SOL
   3  4,6  | EL
   3  6,6  | EL
+  3  6,4  | ESE
+  3  6,6  | ESE
   3  7,4  | ESS
   3  7,5  | ESS
   3  7,4  | OES
@@ -448,6 +474,8 @@
   2  6,5  | EE
   2  4,6  | EE
   2  6,6  | EE
+  2  4,6  | EO
+  2  6,6  | EO
   2  7,5  | ES
   2  4,6  | ES
   2  6,6  | ES

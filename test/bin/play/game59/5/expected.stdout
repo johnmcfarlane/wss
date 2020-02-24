@@ -5,9 +5,12 @@
  54  5,3  - EELWORM
  51  1,3  - MODELER
  45  6,3  - EMEROD
+ 36  8,8  - MILD
+ 36  8,8  - WILD
  35  8,8  | MEW
  31  8,8  | MED
  31  8,8  | MEL
+ 31  8,8  - MID
  31  8,8  - MIL
  30  2,10 - ELM
  30  1,8  | MERC
@@ -15,6 +18,8 @@
  27 10,8  | DIM
  27  2,10 - EMO
  27  1,9  | MOC
+ 26  8,8  | DEME
+ 26  8,8  | DEMO
  26  8,8  | ME
  26  8,8  - MI
  25  8,10 - MOD
@@ -22,6 +27,7 @@
  24  2,10 - ELD
  24 10,6  | MODI
  24  2,10 - OLD
+ 23  8,8  | DEW
  23  8,8  - DIM
  23  2,10 - EM
  23  8,10 - LODE
@@ -29,13 +35,17 @@
  23  4,4  - MOULD
  23  2,10 - OM
  23  4,4  - WOULD
+ 22  8,8  | DELE
  22  8,8  - DIOL
  22  5,1  | MEW
+ 22  7,1  | MEW
  22  3,3  - MEWED
  22  5,3  - MEWED
  22  5,3  - MEWLER
  22  5,1  | MOW
+ 22  7,1  | MOW
  22  3,3  - MOWED
+ 22  2,8  - ROWDY
  22  6,5  - cORMEL
  21 10,4  | DEMO
  21  1,9  | DOC
@@ -45,18 +55,22 @@
  21 10,4  | MODE
  21  3,3  - MODELER
  21 10,4  | MOLE
+ 21  2,10 - ODE
  21  2,10 - OLE
  21  3,3  - ROWELED
  21  6,5  - cOWLED
  20  5,1  | DEW
+ 20  7,1  | DEW
  20  5,3  - DEWORM
  20  5,1  | DOM
  20  7,1  | DOM
  20  5,1  | DOW
+ 20  7,1  | DOW
  20  5,1  | ELM
  20  7,1  | ELM
  20  7,2  | ELM
  20  5,1  | LOW
+ 20  7,1  | LOW
  20  2,3  - MEOWED
  20  3,10 - MORT
  20  3,3  - MOWER
@@ -65,17 +79,20 @@
  20  7,1  | WORM
  20  2,3  - WORMED
  20  2,8  - WORMY
+ 19  8,8  | DEL
  19  3,8  - ELMY
  19  8,8  | LED
  19  5,3  - MEOWED
  19  5,3  - MEWL
  19  2,3  - MEWLED
+ 19  2,8  - MOLDY
  19 10,4  | MORE
  19  5,1  | REM
  19  7,1  | REM
  19  5,1  | ROM
  19  7,1  | ROM
  19  5,1  | ROW
+ 19  7,1  | ROW
  19 10,4  | WORE
  19  6,5  - cORM
  18  5,1  | DERM
@@ -86,14 +103,18 @@
  18  3,3  - DOWEL
  18  5,2  | EM
  18  7,2  | EM
+ 18  5,2  | EW
+ 18  7,2  | EW
  18  5,3  - LEWDER
  18  3,3  - LOWED
  18  5,3  - MELDER
+ 18  1,8  - MELODY
  18  3,3  - MODEL
  18  5,2  | OM
  18  7,2  | OM
  18  1,9  | ORC
  18  5,2  | OW
+ 18  7,2  | OW
  18  1,9  | REC
  18  5,3  - REMOLD
  18  3,3  - REWELD
@@ -108,15 +129,20 @@
  18  6,5  - cOLDER
  18  6,5  - cOWED
  18  6,5  - cOWL
+ 17  8,8  | DEE
  17  3,8  - DEMY
  17 10,4  | DOLE
  17  5,2  | DOM
+ 17  7,2  | DOM
+ 17  2,10 - ED
  17  2,10 - EL
  17  4,3  - EMEROD
  17 10,5  | EMO
+ 17  8,8  | LEE
  17 10,4  | LODE
  17  5,3  - MEW
  17  2,3  - MEWLER
+ 17  2,10 - OD
  17 10,5  | OWE
  17 11,7  | REALM
  17  8,8  - RIM
@@ -125,6 +151,7 @@
  17  6,5  - cOWER
  16  3,3  - DOWER
  16  3,3  - LOWER
+ 16  2,9  | MEH
  16  3,4  - MODULE
  16  3,3  - MOREL
  16  4,4  - MOUE
@@ -136,8 +163,10 @@
  16  5,3  - REWED
  16  8,10 - ROD
  16  5,2  | ROM
+ 16  7,2  | ROM
  16  3,3  - ROWED
  16  3,3  - ROWEL
+ 16  2,8  - WORDY
  16  6,5  - cOLD
  16  6,5  - cOLED
  16  6,5  - cOME
@@ -159,7 +188,9 @@
  15 10,6  | MO
  15  2,3  - MOLDER
  15  3,8  - MOLY
+ 15  3,8  - OLDY
  15  5,3  | OM
+ 15  7,3  | OM
  15 10,4  | ORLE
  15 10,4  | REDO
  15 10,4  | RODE
@@ -174,11 +205,14 @@
  15  6,5  - cORD
  15  6,5  - cORED
  14 11,9  | ARM
+ 14  8,8  | DE
  14  3,3  - DEME
  14  5,3  - DEME
  14  5,3  - DEMO
+ 14  8,8  - DI
  14  3,3  - DOME
  14 11,7  | DRAWL
+ 14  2,10 - EO
  14  3,3  - LOWE
  14  5,1  | MED
  14  7,1  | MED
@@ -219,6 +253,7 @@
  13 10,5  | ODE
  13  8,8  - OIL
  13 10,5  | OLE
+ 13  8,8  - RID
  13  5,3  - WED
  13  5,3  - WEED
  13  5,3  - WEEL
@@ -274,6 +309,7 @@
  11 11,5  | DERMAL
  11 10,6  | DO
  11  5,4  - DUEL
+ 11  5,8  - DYE
  11  3,3  - ELDER
  11  4,4  - LEUD
  11 10,6  | LO
@@ -310,7 +346,9 @@
  10  4,3  - EME
  10  6,3  - EME
  10  5,1  | EMO
+ 10  7,1  | EMO
  10  6,3  - EMO
+ 10  8,9  | EW
  10  4,3  - EWE
  10  6,3  - EWE
  10 11,8  | LAME
@@ -332,13 +370,16 @@
  10  5,1  | OWE
  10  7,1  | OWE
  10  4,3  - OWE
+ 10  7,5  | OX
  10 11,4  | REDOWA
  10  5,4  - RUED
  10  5,4  - RULED
  10 11,8  | WADE
  10 11,8  | WALE
+ 10  8,10 - WO
  10  5,1  | WOE
  10  7,1  | WOE
+ 10  6,5  - cO
   9  9,7  - BOW
   9  5,3  - DEL
   9 11,5  | DERMA
@@ -348,8 +389,10 @@
   9  6,3  - ELM
   9  6,3  - EM
   9  4,4  - EMU
+  9 10,6  | EO
   9  2,3  - ERODE
   9  6,3  - ERODE
+  9  6,3  - EW
   9  5,3  - LED
   9  4,4  - LEU
   9  5,4  - LUDE
@@ -359,6 +402,7 @@
   9  7,2  | ME
   9  5,3  - ME
   9  5,2  | MO
+  9  7,2  | MO
   9  3,8  | MODI
   9 11,6  | MOLAR
   9 11,6  | MORAL
@@ -372,11 +416,14 @@
   9  5,3  - WE
   9  4,3  - WEER
   9  5,2  | WO
+  9  7,2  | WO
   8 11,9  | AWE
   8 11,8  | DALE
+  8  3,10 - DE
   8  5,3  - DEER
   8  3,3  - DERE
   8  5,3  - DERE
+  8  3,10 - DO
   8  5,1  | DOE
   8  7,1  | DOE
   8  5,1  | DOR
@@ -439,6 +486,7 @@
   7  4,3  - DEER
   7  3,8  | DELI
   7  5,2  | DO
+  7  7,2  | DO
   7  4,3  - DOER
   7  4,3  - DREE
   7  5,3  - EEL
@@ -449,6 +497,7 @@
   7  5,3  - LEE
   7  4,3  - LEER
   7  5,2  | LO
+  7  7,2  | LO
   7 11,8  | MAD
   7 11,6  | MORA
   7  5,1  | ORE
@@ -472,12 +521,16 @@
   6 11,9  | ALE
   6  9,7  - BRO
   6 11,7  | DEAL
+  6 10,8  | DI
   6  8,10 - DO
   6  8,9  | ED
   6  8,9  | EL
+  6  5,2  | EO
+  6  7,2  | EO
   6  5,2  | ER
   6  7,2  | ER
   6  7,8  | ET
+  6  9,8  - ID
   6 11,7  | LEAD
   6  3,9  | LEI
   6  8,10 - LO
@@ -522,6 +575,7 @@
   5 11,8  | LAD
   5 11,7  | LEAR
   5  4,3  - LEE
+  5  8,11 - LSD
   5 11,8  | MA
   5  4,10 | ME
   5  3,10 | MI
@@ -536,11 +590,16 @@
   5 11,7  | ROAD
   5  9,11 - SER
   5  4,10 | WE
+  4  8,9  | EE
+  4  8,9  | EO
+  4  8,10 - EO
   4  4,3  - ERE
   4  6,3  - ERE
   4 11,8  | LAR
   4 11,7  | LEA
+  4 11,8  | OAD
   4 11,7  | ODA
+  4  8,10 - OO
   4  4,3  - ORE
   4  5,4  - OUR
   4 11,8  | RAD
@@ -553,10 +612,13 @@
   4  6,10 - TO
   3 11,9  | AD
   3 11,9  | AL
+  3 11,8  | DA
   3  4,10 | DE
+  3  3,10 | DI
   3 11,8  | EAR
   3  5,3  - EE
   3  6,3  - EE
+  3  6,3  - EO
   3  6,3  - ER
   3 11,7  | ERA
   3 11,8  | LA

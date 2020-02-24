@@ -26,6 +26,7 @@
  26  1,9  - TWEE
  26  7,3  | WAIT
  26  1,9  - WAIT
+ 26  1,9  - WEEI
  26  7,3  | WEET
  26  1,9  - WEET
  26  1,9  - WITE
@@ -58,12 +59,14 @@
  22  7,3  | TEED
  21  7,4  | AW
  21  7,2  | AWE
+ 21  7,4  | EW
  21  7,2  | EWE
  21  1,9  - TEED
  21  1,9  - TIED
  21  7,2  | TWA
  21  7,1  | WADE
  21  5,6  | WANTED
+ 21  7,2  | WEEI
  21  7,1  | WIDE
  20  1,9  - ADIT
  20  7,4  | AID
@@ -89,7 +92,9 @@
  20  2,6  - WEETED
  20  5,6  - WEETED
  19  7,1  | AWEE
+ 19 10,10 - DA
  19  7,3  | DEE
+ 19 10,10 - DI
  19  7,3  | TAD
  19  7,3  | TED
  19  7,1  | TWAE
@@ -99,6 +104,7 @@
  18  7,1  | AIDE
  18  7,4  | AIT
  18  2,9  - AWEE
+ 18  4,4  - DEJA
  18  7,1  | EIDE
  18  6,4  - JADE
  18  9,10 - TE
@@ -118,17 +124,20 @@
  17  3,9  - EWE
  17  7,2  | IDE
  17  7,1  | IDEA
+ 17  7,5  | IDEATA
  17  7,5  | IDEATE
  17  7,1  | IDEE
  17  7,3  | TAE
  17  7,3  | TEE
  17  3,9  - TWA
  17  2,9  - WADE
+ 17  2,9  - WADI
  17  3,9  - WAE
  17  3,9  - WEE
  17  2,9  - WIDE
  16  8,7  - AD
  16  6,10 - ADIT
+ 16  7,3  | DA
  16  7,3  | DE
  16  7,2  | DEE
  16  6,10 - DEET
@@ -159,6 +168,7 @@
  15 10,10 - TI
  15  7,2  | TIE
  15  4,9  - WE
+ 15  2,9  - WEEI
  15  2,9  - WITE
  14  7,3  | AE
  14  2,9  - AIDE
@@ -169,11 +179,13 @@
  14  2,9  - IDEA
  14  1,6  - IDEATE
  14  2,9  - IDEE
+ 14  6,4  - JAI
  14  6,4  - JEE
  14  6,4  - JET
  14  7,3  | TA
  14  4,4  - TAJ
  14  7,3  | TE
+ 14  4,4  - TEJ
  14  2,9  - TIDE
  14  9,7  | WEFT
  13  5,7  | ANEW
@@ -187,9 +199,14 @@
  13  3,9  - IDE
  12  5,7  | ANTED
  12  2,9  - AWE
+ 12  1,7  - AWED
  12  7,8  | AWED
  12  5,6  | DAN
+ 12  4,7  - DAY
+ 12  4,7  - DEY
  12 10,8  | DIED
+ 12  5,5  | EW
+ 12  7,5  | EW
  12  2,9  - EWE
  12  2,9  - TAW
  12  2,9  - TEW
@@ -198,14 +215,19 @@
  12  7,10 - WAT
  12  5,5  | WE
  12  7,5  | WE
+ 12  1,7  - WEED
  12  7,10 - WET
  12  7,10 - WIT
  11  5,7  | AND
  11  3,9  - ATE
  11  3,9  - AW
  11  7,8  | AWEE
+ 11  4,9  - DA
  11  4,9  - DE
+ 11  4,9  - DI
  11  3,9  - ETA
+ 11  3,9  - EW
+ 11  4,3  | IDEATA
  11  6,4  - JA
  11  6,4  - JE
  11  3,9  - TAE
@@ -213,8 +235,10 @@
  11  3,9  - TEE
  11  3,9  - TIE
  11  5,5  - TOWED
+ 11  2,7  - WAD
  11  2,9  - WAD
  11  3,9  - WE
+ 11  2,7  - WED
  11  2,9  - WED
  10 10,7  | ADIT
  10  5,7  | ANTE
@@ -237,6 +261,7 @@
  10  1,7  - WEET
  10  4,6  - WEETED
   9  4,9  - AE
+  9  4,9  - AI
   9  7,10 - AIT
   9  5,7  | ANE
   9  5,7  | ANI
@@ -254,8 +279,11 @@
   9  4,7  | TAWED
   9  4,9  - TE
   9  7,6  | TEA
+  9  1,7  - TEED
   9  3,6  - TEWED
   9  5,6  - TEWED
+  9  4,9  - TI
+  9  1,7  - TIED
   9  5,5  - TOWAI
   9  5,5  - TOWIE
   9  3,6  - TWEED
@@ -270,11 +298,13 @@
   9  2,9  - WIT
   9  3,6  - WITED
   8  1,7  - ADIT
+  8  2,7  - AID
   8  2,9  - AID
   8  8,10 - AT
   8  4,6  | AWAIT
   8  4,6  - AWED
   8  4,8  | AWED
+  8  5,5  | DA
   8  8,5  | DAWT
   8  4,7  | DAWT
   8  5,5  | DE
@@ -285,6 +315,7 @@
   8 10,8  | DIT
   8  1,7  - DITA
   8  7,7  | EAT
+  8  5,5  | ED
   8  7,5  | ED
   8  1,7  - EDIT
   8  8,10 - ET
@@ -296,8 +327,10 @@
   8  8,10 - IT
   8  5,8  | NAW
   8  5,8  | NEW
+  8  2,7  - TAD
   8  2,9  - TAD
   8  4,7  | TAWIE
+  8  2,7  - TED
   8  2,9  - TED
   8  3,6  - WADE
   8  4,7  | WADE
@@ -306,6 +339,7 @@
   8  5,6  - WEED
   8  3,6  - WIDE
   8  5,5  - WOAD
+  7  3,7  - AD
   7  3,9  - AD
   7  7,8  | ADIT
   7  5,7  | AN
@@ -313,17 +347,23 @@
   7  4,6  - AWEE
   7  4,8  | AWEE
   7  5,7  - AY
+  7  3,7  - DA
+  7  3,9  - DA
   7  3,5  - DATO
   7  4,7  | DAW
   7  3,9  - DE
   7  2,9  - DEE
   7  5,6  - DEW
+  7  3,9  - DI
   7  2,9  - DIE
   7  2,7  - DIT
   7  2,9  - DIT
   7  5,5  - DOW
+  7  3,7  - ED
   7  3,9  - ED
+  7  3,7  - ID
   7  3,9  - ID
+  7  4,5  | IDEATA
   7  4,5  | IDEATE
   7  4,6  - IDEATE
   7  5,8  | NEED
@@ -339,6 +379,8 @@
   7  4,7  | WAIT
   7  8,5  | WATT
   7  5,6  - WED
+  7  4,6  - WEEI
+  7  5,6  - WEEI
   7  8,5  | WEET
   7  4,6  - WEET
   7  5,6  - WEET
@@ -354,8 +396,10 @@
   6  4,8  | AWE
   6  2,7  - EAT
   6  2,9  - EAT
+  6  5,5  | EE
   6  7,5  | EE
   6  9,8  | EFT
+  6  5,5  | ET
   6  7,5  | ET
   6  2,7  - ETA
   6  2,9  - ETA
@@ -370,6 +414,7 @@
   6 11,9  | LIE
   6 11,9  | LIT
   6  5,8  | NEAT
+  6  5,8  | NED
   6  5,8  | NITE
   6  6,5  - ODEA
   6  6,5  - OWE
@@ -429,6 +474,7 @@
   5  6,6  - EIDE
   5  3,7  - ET
   5  3,9  - ET
+  5  6,6  - EW
   5  4,5  | IDEA
   5  4,6  - IDEA
   5  3,6  - IDEE
@@ -466,6 +512,8 @@
   4  5,5  - IOTA
   4  5,8  | NA
   4  5,8  | NE
+  4  5,8  | NI
+  4  6,5  - OAD
   4  6,5  - ODA
   4  6,5  - ODE
   4  4,7  | TAD
@@ -483,6 +531,7 @@
   3  4,6  - ATE
   3  4,8  | ATE
   3  8,6  | ATT
+  3  4,7  | DA
   3  5,6  - DE
   3  5,5  - DO
   3  6,6  - EAT
@@ -516,6 +565,7 @@
   2  4,8  | AT
   2  5,6  - EE
   2  6,6  - EE
+  2  5,5  - EO
   2  6,6  - ET
   2  8,7  | ET
   2  8,7  | IT

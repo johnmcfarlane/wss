@@ -69,6 +69,7 @@
  18  3,8  | LEES
  18  3,8  | LEIS
  18  3,8  | LIES
+ 17  4,7  - DEKE
  17  8,4  | DEXES
  17  3,5  | EXILES
  17  8,4  | FEEDS
@@ -83,8 +84,11 @@
  16  7,1  | DEFIES
  16  5,2  | DEXES
  16  7,2  | DEXES
+ 16  5,2  | DEXIE
  16  7,2  | DEXIE
  16  8,3  | DEXIES
+ 16  2,5  | DI
+ 16  2,4  | ESE
  16  5,3  | EXED
  16  7,3  | EXED
  16  3,5  | EXILE
@@ -173,9 +177,12 @@
  12  6,6  - OXID
  12  6,10 - SEEDS
  12  6,10 - SIDES
+ 12  5,4  | XES
+ 12  7,4  | XES
  12  5,4  | XIS
  12  7,4  | XIS
  11  3,5  | DEILS
+ 11  3,7  - ED
  11  3,5  | EDILES
  11  8,7  - EF
  11  5,10 | EX
@@ -215,6 +222,8 @@
  10  8,8  | SIX
  10  6,10 - SIX
  10  5,6  - SOX
+ 10  8,6  | XES
+ 10  4,10 - XES
  10  8,6  | XIS
  10  4,7  | XIS
  10  4,10 - XIS
@@ -254,11 +263,13 @@
   8  7,8  | EE
   8  5,4  | EFS
   8  7,4  | EFS
+  8  5,3  | EIDE
   8  7,3  | EIDE
   8  8,7  - EIDE
   8  3,7  | ELD
   8  8,5  | FEDS
   8  3,10 - FEDS
+  8  5,4  | FEE
   8  7,4  | FEE
   8  4,6  - FEOD
   8  8,5  | FESSE
@@ -269,11 +280,13 @@
   8  8,5  | FIDS
   8  4,7  | FIDS
   8  3,10 - FIDS
+  8  5,4  | FIE
   8  7,4  | FIE
   8  3,6  | FIL
   8  6,9  - HE
   8  8,7  - IDE
   8  8,9  - IDE
+  8  5,3  | IDEE
   8  7,3  | IDEE
   8  5,3  | IDES
   8  7,3  | IDES
@@ -282,6 +295,7 @@
   8  5,4  | IFS
   8  7,4  | IFS
   8  8,4  | SEEDS
+  8  5,3  | SIDE
   8  7,3  | SIDE
   8  8,4  | SIDES
   8  3,7  | SLED
@@ -293,6 +307,7 @@
   7  3,6  | EELS
   7  5,10 | EF
   7  3,7  | ELSE
+  7  5,5  | FE
   7  7,5  | FE
   7  8,5  | FEES
   7  3,10 - FEES
@@ -314,9 +329,13 @@
   7  6,10 - SEIF
   7  8,5  | SEISED
   7  3,10 - SEISED
+  6  1,7  - AD
   6  2,8  | AD
+  6  2,7  | DA
+  6  5,4  | DEE
   6  7,4  | DEE
   6  3,6  | DEL
+  6  5,4  | DIE
   6  7,4  | DIE
   6  5,4  | DIS
   6  7,4  | DIS
@@ -328,11 +347,13 @@
   6  4,10 - EFS
   6  3,6  - EIDOS
   6  3,7  | ELS
+  6  8,7  - ESE
   6  4,7  | FIE
   6  5,6  - FOE
   6  5,5  | ID
   6  7,5  | ID
   6  1,9  - ID
+  6  5,4  | IDE
   6  7,4  | IDE
   6  5,4  | IDS
   6  7,4  | IDS
@@ -341,9 +362,12 @@
   6  4,10 - IFS
   6  3,8  | LED
   6  3,8  | LID
+  6  3,8  | LSD
+  5  5,5  | DE
   5  7,5  | DE
   5  8,5  | DEES
   5  3,10 - DEES
+  5  7,5  | DI
   5  8,5  | DIES
   5  4,7  | DIES
   5  3,10 - DIES
@@ -358,6 +382,8 @@
   5  3,6  | EEL
   5  4,7  | EIDE
   5  8,7  - ES
+  5  5,4  | ESE
+  5  7,4  | ESE
   5  4,7  | FI
   5  5,10 | ID
   5  7,10 | ID
@@ -374,6 +400,7 @@
   5  3,8  | LIS
   5  6,6  - ODES
   5  6,6  - OF
+  5  5,4  | SEE
   5  7,4  | SEE
   5  8,8  | SEED
   5  6,10 - SEED
@@ -384,6 +411,7 @@
   5  4,7  | SIDE
   5  8,8  | SIDE
   5  6,10 - SIDE
+  4  1,7  - AS
   4  2,8  | AS
   4  4,7  | DIE
   4  8,6  | DIS
@@ -393,6 +421,7 @@
   4  5,6  - DOS
   4  8,6  | EDS
   4  4,10 - EDS
+  4  5,5  | EE
   4  7,5  | EE
   4  5,10 | EE
   4  3,7  | EL
@@ -415,6 +444,7 @@
   4  3,8  | LI
   4  6,6  - ODE
   4  6,6  - ODS
+  4  2,7  | SA
   4  8,5  | SEES
   4  8,8  | SEES
   4  3,10 - SEES
@@ -425,7 +455,10 @@
   4  6,10 - SEIS
   4  7,5  | SI
   4  5,6  - SOD
+  3  4,7  | DI
   3  5,6  - DO
+  3  8,7  | ESE
+  3  5,10 - ESE
   3  8,6  | ESS
   3  8,7  | ESS
   3  4,10 - ESS
@@ -443,6 +476,7 @@
   3  8,8  | SIS
   3  4,10 - SIS
   3  6,10 - SIS
+  2  5,6  - EO
   2  8,7  | ES
   2  5,10 - ES
   2  8,7  | IS

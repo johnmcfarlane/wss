@@ -2,6 +2,7 @@
  60  9,1  | MOHELS
  57  9,1  | OLEUMS
  30  6,4  | MUDHOLE
+ 27  5,7  - SOLUM
  26  9,3  | HUMS
  26  6,4  | MODULES
  26  6,1  | MUSHED
@@ -9,26 +10,36 @@
  25  9,3  | HEMS
  25  9,2  | HOLMS
  25  9,3  | HOUSEL
+ 25  7,7  - HUMS
  25  9,3  | MOUSE
  24  6,6  - DEVELS
+ 24  6,7  - EMUS
+ 24  7,7  - HUM
  24  9,3  | LUMS
  24  6,1  | MOSHED
  24  6,2  | MOULDS
+ 24  7,7  - MULES
  24  9,4  | MUSH
  24  9,6  | SLUM
  23  9,3  | HOUSE
  23  8,4  | HOVELS
+ 23  7,7  - LUMS
  23  9,3  | MELS
  23  9,3  | MHOS
  23  9,3  | MOLS
+ 23  7,7  - MULE
+ 23  7,7  - MUSH
  23  9,3  | OHMS
  23  8,3  | SHOVEL
  22  6,6  - DEVEL
  22  9,3  | ELMS
+ 22  6,7  - EMU
  22  6,2  | HOMED
  22  8,4  | HOVEL
+ 22  7,7  - LUM
  22  9,4  | LUSH
  22  6,1  | LUSHED
+ 22  5,7  - MEOUS
  22  9,4  | MESH
  22  9,4  | MOSH
  22  6,2  | MOULD
@@ -46,23 +57,30 @@
  21  9,3  | LOUSE
  21  9,2  | MEOUS
  21  3,7  - MOHEL
+ 21  7,7  - MUSE
  21  9,6  | SHEOL
+ 21  7,7  - SUMO
  20  6,6  | DHOLES
  20  6,6  | DOUMS
  20  9,3  | EMUS
  20  6,1  | HOUSED
  20  9,3  | HUES
+ 20  5,7  - MEOU
  20  9,2  | MOLES
  20  9,2  | MOUES
+ 20  7,7  - MUS
  20  9,4  | MUSE
  20  6,2  | MUSED
  20  8,5  | OVUM
+ 20  7,7  - SUM
  20  9,6  | SUMO
  19  9,4  | EMS
  19  9,2  | HELOS
  19  9,3  | HOES
  19  9,2  | HOLES
  19  9,4  | HOSEL
+ 19  7,7  - HUES
+ 19  7,7  - LUSH
  19  8,4  | MOVE
  19  3,7  - MULES
  19  9,4  | OMS
@@ -72,13 +90,16 @@
  19  8,6  | VUM
  18  6,6  | DEMOS
  18  6,6  | DHOLE
+ 18  6,6  | DHOLS
  18  6,6  | DOMES
  18  6,2  | HOLED
  18  3,7  - HOMES
+ 18  7,7  - HUE
  18  6,1  | LOUSED
  18  9,3  | LUES
  18  3,7  - MOLES
  18  3,7  - MOUES
+ 18  7,7  - MU
  18  9,4  | MUS
  18  9,6  | SLUE
  18  9,6  | SOME
@@ -89,10 +110,13 @@
  17  9,4  | HOSE
  17  3,7  - HOSEL
  17  2,7  - HOUSEL
+ 17  7,7  - LUES
  17  9,4  | OHS
+ 17  7,7  - OUSEL
  17  9,6  | SHE
  17  8,3  | SHOVE
  17  9,6  | SLOE
+ 17  8,7  - UM
  16  6,6  | DUELS
  16  6,6  | DULSE
  16  3,7  - HELOS
@@ -120,6 +144,8 @@
  15  3,5  - HOME
  15  3,7  - HOME
  15  9,4  | HOS
+ 15  5,5  - MEH
+ 15  5,7  - MEH
  15  7,3  | MOHEL
  15  3,5  - MOLE
  15  3,7  - MOLE
@@ -130,6 +156,7 @@
  15  8,5  | OVULE
  15  3,7  - SHEOL
  15  9,6  | SUE
+ 15  8,7  - UH
  14  6,6  | DOLES
  14  6,6  | DOUSE
  14  8,4  | LUVS
@@ -143,6 +170,7 @@
  14  5,5  - SOM
  14  5,7  - SOM
  14  9,6  | SOU
+ 14  7,7  - SUE
  14  9,5  | US
  14  8,6  | VOLES
  13  6,5  - EM
@@ -189,6 +217,7 @@
  12  8,3  | SOLVE
  12  3,5  - SUMO
  12  3,7  - SUMO
+ 12  8,7  - USE
  11  6,5  - EH
  11  6,7  - EH
  11  7,6  | EMEUS
@@ -211,6 +240,7 @@
  11  4,7  - SHOE
  11  3,5  - SOME
  11  3,7  - SOME
+ 11  8,7  - US
  10  7,6  | EMEU
  10  7,5  | HELM
  10  5,7  - HES
@@ -261,6 +291,7 @@
   9  6,4  | MODES
   9  6,3  | MOLD
   9  6,4  | MUDS
+  9  8,4  | SEV
   9  3,5  - SLOE
   9  3,7  - SLOE
   9  3,5  - SOLE
@@ -284,6 +315,7 @@
   8  5,5  - ME
   8  5,7  - ME
   8  6,4  | MEDS
+  8  7,5  | MEH
   8  7,5  | MELS
   8  7,5  | MEOU
   8  5,5  - MO
@@ -305,6 +337,8 @@
   7  7,6  | ELM
   7  7,4  | EMES
   7  7,6  | EMU
+  7  6,5  - EO
+  7  6,7  - EO
   7  6,7  - ES
   7  5,5  - HE
   7  5,7  - HE
@@ -341,6 +375,7 @@
   7  4,7  - SUE
   7  4,5  - USE
   7  4,7  - USE
+  7  8,6  | VU
   6  6,6  | DELS
   6  6,6  | DOH
   6  6,6  | DOLE
@@ -383,12 +418,15 @@
   5  7,5  | EELS
   5  6,4  | ELD
   5  7,6  | EM
+  5  5,5  - EO
+  5  5,7  - EO
   5  7,5  | HES
   5  7,4  | HOE
   5  6,4  | LED
   5  7,4  | LEES
   5  7,5  | LEES
   5  7,5  | LEU
+  5  6,4  | LSD
   5  7,5  | ME
   5  6,5  | ODES
   5  5,5  - OE
@@ -423,6 +461,8 @@
   3  6,6  | DO
   3  6,5  | ED
   3  7,6  | EL
+  3  7,4  | ESE
+  3  7,6  | ESE
   3  6,5  | OD
   3  7,5  | OES
   3  7,4  | OSE
@@ -430,5 +470,6 @@
   3  7,5  | SEE
   2  7,5  | EE
   2  7,6  | EE
+  2  7,6  | EO
   2  7,6  | ES
   2  7,5  | OE

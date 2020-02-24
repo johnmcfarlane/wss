@@ -13,6 +13,8 @@
  30 10,2  | BO
  30 10,2  | WO
  28  6,10 - TRONAS
+ 27 10,8  | OBA
+ 25 10,9  | BOA
  24  5,10 - BRAWN
  24  5,10 - BROWN
  24  6,10 - ROANS
@@ -21,6 +23,8 @@
  24  6,10 - TRANS
  24  6,10 - TRONA
  22 10,8  | STOA
+ 21 10,9  | BA
+ 21 10,9  | BO
  20  6,2  | BRAWs
  20  6,2  | BROWs
  20  4,10 - STROWN
@@ -96,6 +100,7 @@
  15  7,8  | BRAT
  15  7,8  | BROS
  15  9,1  - COZ
+ 15  7,8  | OBAS
  15  8,11 - STAB
  15  8,11 - STAW
  15  8,11 - STOB
@@ -133,6 +138,7 @@
  14  9,10 - NAW
  14  9,10 - NOB
  14  9,10 - NOW
+ 14  7,8  | OBA
  14  6,2  - SOBA
  14  6,2  | SOBAs
  14  6,2  | SORBs
@@ -171,6 +177,7 @@
  14  6,6  | sWOTS
  13  7,8  | BA
  13  7,8  | BO
+ 13  7,8  | OW
  13 10,5  | REBS
  13 10,5  | TEWS
  13  7,8  | WO
@@ -179,11 +186,15 @@
  12  5,10 - ARSON
  12  9,2  - AWA
  12  3,5  - BORA
+ 12  3,7  - BORA
  12  3,5  - BOTA
+ 12  3,7  - BOTA
+ 12  7,8  | ORBS
  12  7,10 - RANTS
  12  7,8  | RAWS
  12  7,8  | ROBS
  12  7,8  | ROWS
+ 12 10,9  | SA
  12  7,10 - SANTO
  12 10,9  | SO
  12  7,8  | SOBA
@@ -205,6 +216,7 @@
  11  7,6  | OAST
  11  7,6  | OATS
  11  7,6  | OOTS
+ 11  7,8  | ORB
  11  7,8  | RAW
  11  7,8  | ROB
  11  7,8  | ROW
@@ -252,14 +264,21 @@
   9  5,8  - BROAD
   9  9,9  - ITS
   9  7,6  | OAR
+  9  7,8  | OARS
+  9  7,8  | OAST
   9  7,6  | OAT
+  9  7,8  | OATS
+  9  7,6  | OOS
   9  7,6  | OOT
+  9  7,8  | ORTS
+  9  7,8  | OSAR
   9  7,8  | RATO
   9  7,8  | RATS
   9  7,8  | ROTA
   9  7,8  | ROTS
   9  7,8  | SOAR
   9  3,5  - SOBA
+  9  3,7  - SOBA
   9  7,8  | SORA
   9  7,8  | SORT
   9  7,8  | STAR
@@ -290,8 +309,13 @@
   8  9,10 - NOR
   8  9,10 - NOS
   8  9,10 - NOT
+  8  7,8  | OAR
   8  6,2  | OASTs
+  8  7,8  | OAT
   8  8,10 - ONS
+  8  7,8  | ORA
+  8  7,8  | ORS
+  8  7,8  | ORT
   8 10,8  | OS
   8  7,8  | RAS
   8  7,8  | RAT
@@ -355,27 +379,36 @@
   7  6,4  | BAsSO
   7  6,4  | BAsTS
   7  4,5  - BOA
+  7  4,7  - BOA
   7  6,11 - BOAT
   7  6,3  | BOAsT
+  7  7,10 - BON
   7  6,11 - BORT
   7  7,11 - BOTA
   7  7,11 - BOTS
   7  6,11 - BOTT
   7  7,11 - BOTT
   7  4,5  - BRA
+  7  4,7  - BRA
   7  6,11 - BRAT
   7  6,3  | BRAsS
   7  4,5  - BRO
   7  4,7  - BRO
   7 10,6  | ERS
   7  4,5  - OBA
+  7  4,7  - OBA
+  7  7,8  | OR
+  7  7,8  | OS
   7  7,11 - OTTAR
   7  7,10 - OWN
   7  7,11 - RATOS
   7  7,11 - ROTAS
+  7  7,8  | SA
+  7  5,7  - SARI
   7  7,8  | SO
   7  5,7  - SORI
   7  2,5  - SORTA
+  7  2,7  - SORTA
   7  6,11 - SWAT
   7  6,11 - SWOT
   7  7,8  | TA
@@ -383,6 +416,7 @@
   7  6,1  - TORC
   7  5,7  - TORI
   7  4,5  - TWA
+  7  4,7  - TWA
   7  6,11 - TWAT
   7  4,5  - TWO
   7  4,7  - TWO
@@ -405,6 +439,7 @@
   6  7,1  - ARC
   6  7,2  - AWA
   6  5,5  - BA
+  6  5,7  - BA
   6  7,2  - BAA
   6  6,3  | BARs
   6  6,3  | BASs
@@ -436,16 +471,19 @@
   6  6,3  | ROBs
   6  7,1  - ROC
   6  3,5  - ROTA
+  6  3,7  - ROTA
   6  6,3  | ROWs
   6  6,3  | SABs
   6  7,1  - SAC
   6  6,3  | SAWs
   6  6,3  | SOBs
   6  3,5  - SORA
+  6  3,7  - SORA
   6  6,3  | SOWs
   6  8,11 - STAR
   6  8,11 - STAT
   6  3,5  - STOA
+  6  3,7  - STOA
   6  8,11 - STOA
   6  8,11 - STOT
   6  6,3  | TABs
@@ -455,6 +493,7 @@
   6  6,3  | TAWs
   6  6,8  - TOADS
   6  3,5  - TORA
+  6  3,7  - TORA
   6  6,3  | TOWs
   6  7,2  - TWA
   6  6,3  | TWAs
@@ -486,6 +525,8 @@
   5  8,2  - BA
   5  6,4  | BAs
   5  6,4  | BOs
+  5 10,6  | EW
+  5  9,9  - IB
   5 10,5  | OES
   5  6,8  - ORAD
   5  7,8  - RADS
@@ -524,12 +565,16 @@
   4 10,5  - AE
   4 10,5  | AE
   4  7,11 - ARTS
+  4  7,8  - OAD
   4  6,11 - OAST
   4  7,11 - OATS
   4  6,4  | OAsTS
   4 10,5  - OE
   4 10,5  | OE
+  4  7,7  - OI
+  4  7,6  | OO
   4  4,5  - ORA
+  4  4,7  - ORA
   4  7,11 - ORTS
   4  7,6  | OS
   4  7,8  - RAD
@@ -542,6 +587,7 @@
   4  7,11 - ROTA
   4  7,11 - ROTS
   4  7,8  - SAD
+  4  7,10 - SAN
   4  7,7  - SI
   4  7,10 - SON
   4  6,11 - SORT
@@ -582,12 +628,15 @@
   3  6,3  | RATs
   3  7,11 - ROT
   3  6,3  | ROTs
+  3  5,5  - SA
+  3  5,7  - SA
   3  7,11 - SAT
   3  5,5  - SO
   3  5,7  - SO
   3  7,11 - SOT
   3  6,3  | SOTs
   3  5,5  - TA
+  3  5,7  - TA
   3  6,3  | TAOs
   3  6,3  | TARs
   3  6,3  | TASs
@@ -611,6 +660,7 @@
   2  6,4  | ASs
   2  8,11 - AT
   2  6,5  | AsS
+  2 10,6  | EO
   2 10,6  | ER
   2 10,6  | ES
   2 10,6  | ET
@@ -618,6 +668,7 @@
   2  9,9  - IT
   2  6,4  | ORs
   2  6,4  | RAs
+  2  8,2  - SA
   2  6,4  | SOs
   2  8,2  - TA
   2  9,11 - TA
@@ -628,4 +679,5 @@
   2  6,6  | sOT
   1  6,5  | As
   1  6,5  | Os
+  1  6,6  | sA
   1  6,6  | sO

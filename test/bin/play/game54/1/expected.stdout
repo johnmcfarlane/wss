@@ -17,7 +17,9 @@
  20  2,6  - RESTYLE
  20  5,2  - TWIRLS
  20  6,2  - WELTER
+ 19  5,1  | TELE
  18  1,6  - EERILY
+ 18  5,3  | LEI
  18  7,3  | LIE
  18  5,6  - LYRIST
  18  1,6  - SLEETY
@@ -29,15 +31,18 @@
  18  6,2  - WILTS
  18  6,2  - WRIEST
  18  6,2  - WRITES
+ 16  5,1  | EEL
  16  7,1  | EEL
  16  5,6  - EYRIES
  16  2,6  - LEERY
  16  2,2  - RESEW
  16  2,6  - RILEY
  16  2,6  - SEELY
+ 16  5,1  | SEL
  16  7,1  | SEL
  16  2,6  - SILTY
  16  2,2  - STREW
+ 16  5,1  | TEL
  16  7,1  | TEL
  16  6,2  - WEEST
  16  6,2  - WEETS
@@ -51,12 +56,16 @@
  16  6,2  - WRITE
  16  6,2  - WRITS
  16  6,6  - YESTER
+ 15  5,2  | EL
  15  7,2  | EL
+ 15  5,1  | RETE
  14  7,5  | EELS
+ 14  5,2  | ESE
  14  4,4  - LISTEES
  14  4,4  - LISTERS
  14  2,4  - RELISTS
  14  4,4  - RESILES
+ 14  5,3  | SEI
  14  2,4  - TELESIS
  14  7,3  | TIE
  14  2,4  - TRESSEL
@@ -65,6 +74,7 @@
  13  7,1  | LEE
  13  7,1  | LEI
  13  4,4  - LESSER
+ 13  5,1  | LET
  13  7,1  | LET
  13  4,4  - LISTEE
  13  4,4  - LISTER
@@ -80,6 +90,7 @@
  12  7,6  | ELITES
  12  5,5  - EPISTLE
  12  1,4  - IRELESS
+ 12  7,6  | ISTLE
  12  3,4  - LEISTER
  12  4,4  - LESES
  12  5,3  | LI
@@ -91,14 +102,17 @@
  12  4,3  - REALIST
  12  7,1  | REE
  12  4,5  - REPLIES
+ 12  5,1  | RES
  12  7,1  | RES
  12  2,3  - RESLATE
  12  3,5  - RESPITE
+ 12  5,1  | RET
  12  7,1  | RET
  12  3,3  - RETAILS
  12  7,1  | SEE
  12  7,1  | SEI
  12  7,1  | SER
+ 12  5,1  | SET
  12  7,1  | SET
  12  4,3  - SLATIER
  12  5,5  - SPELTER
@@ -111,9 +125,12 @@
  11  4,3  - ELATES
  11  7,6  | ELITE
  11  7,2  | ER
+ 11  5,2  | ES
  11  7,2  | ES
  11  2,3  - ESTRAL
+ 11  5,2  | ET
  11  7,2  | ET
+ 11  7,6  | ISLET
  11  1,4  - ISTLES
  11  5,4  - ISTLES
  11  5,3  - LAREES
@@ -161,6 +178,7 @@
  10  7,6  | ELSE
  10  4,5  - ESPRIT
  10  7,6  | ESTER
+ 10  7,6  | ISLE
  10  2,4  - ISLES
  10  5,4  - ISTLE
  10  5,3  - LAIRS
@@ -236,6 +254,7 @@
   9  1,4  - ELITES
   9  4,4  - ERSES
   9  7,6  | ERST
+  9  7,6  | IRES
   9  1,4  - ISLETS
   9  5,4  - ISLETS
   9  4,5  - LEPER
@@ -400,6 +419,7 @@
   8  6,4  - SERIES
   8  3,3  - SETAE
   8  4,2  - SEWER
+  8  5,3  | SI
   8  7,3  | SI
   8  4,3  - SIAL
   8  1,4  - SIREES
@@ -454,6 +474,7 @@
   7  6,3  - ASTER
   7  6,3  - ASTIR
   7  5,3  - EARL
+  7  5,1  | EE
   7  7,1  | EE
   7  3,4  - EELS
   7  3,6  - EELY
@@ -463,6 +484,7 @@
   7  7,6  | ERE
   7  7,6  | ERS
   7  2,4  - ERSES
+  7  7,6  | ESE
   7  5,4  - ESTER
   7  5,2  - EWER
   7  5,2  - EWES
@@ -471,7 +493,9 @@
   7  5,6  - EYRIE
   7  3,3  - ILEA
   7  4,3  - IRATE
+  7  7,6  | IRE
   7  5,4  - ISLE
+  7  7,6  | ITS
   7  5,3  - LAR
   7  5,3  - LAS
   7  5,3  - LAT
@@ -490,6 +514,7 @@
   7  5,6  - LYRE
   7  5,6  - LYSE
   7  5,3  - RAIL
+  7  5,1  | RE
   7  7,1  | RE
   7  3,4  - REEST
   7  3,6  - RELY
@@ -532,6 +557,7 @@
   7  5,6  - SYLI
   7  5,3  - TAEL
   7  5,3  - TAIL
+  7  5,1  | TE
   7  7,1  | TE
   7  4,3  - TEARS
   7  4,3  - TEASE
@@ -551,6 +577,7 @@
   7  5,6  - TYEES
   7  5,6  - TYERS
   7  5,6  - TYRES
+  7  6,2  - WEEI
   7  6,2  - WEER
   7  6,2  - WEES
   7  6,2  - WEET
@@ -582,6 +609,7 @@
   6  7,6  | EE
   6  3,6  - EERY
   6  4,4  - ELS
+  6  5,5  - EPE
   6  7,6  | ER
   6  4,3  - ERAS
   6  4,4  - ERST
@@ -595,6 +623,8 @@
   6  5,6  - EYES
   6  5,6  - EYRE
   6  3,4  - IRES
+  6  7,6  | IS
+  6  7,6  | IT
   6  4,6  - LEY
   6  5,6  - LYE
   6  6,5  - PEE
@@ -602,6 +632,7 @@
   6  6,5  - PES
   6  6,5  - PET
   6  6,5  - PIE
+  6  6,5  - PIR
   6  6,5  - PIS
   6  6,5  - PIT
   6  6,5  - PSI
@@ -677,7 +708,9 @@
   5  5,3  - EAT
   5  4,4  - ERS
   5  4,4  - ESS
+  5  5,2  - EW
   5  5,6  - EYE
+  5  5,5  - IP
   5  4,4  - ITS
   5  5,3  - LA
   5  4,3  - LEA
@@ -722,12 +755,15 @@
   4  4,3  - SEA
   4  4,3  - TEA
   4  6,6  - YE
+  4  6,6  - YI
   3  6,3  - AE
   3  6,3  - AI
   3  6,3  - AR
   3  6,3  - AS
   3  6,3  - AT
+  3  5,4  - ESE
   3  5,4  - ESS
+  3  5,3  - SA
   3  5,3  - TA
   2  5,4  - ES
   2  5,4  - IS

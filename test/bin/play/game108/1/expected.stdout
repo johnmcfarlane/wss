@@ -38,31 +38,44 @@
  20  6,6  | MARRY
  20  3,7  - PRAY
  20 11,4  | RAS
+ 20  3,5  - SPRAY
  19 11,5  | AS
  19  3,7  - DRAYS
  19  2,7  - PARDY
+ 19 11,6  | SA
  19  1,7  - SPARRY
  18  2,7  - PARRY
  18  4,7  - PAYS
+ 18  4,5  - PRAY
  18  2,7  - RASPY
+ 18  4,5  - SPAY
  18  5,5  - YAP
+ 18  5,7  - YAP
  17  5,5  - DAP
+ 17  5,7  - DAP
  17  6,6  - MIKVAS
+ 17  5,5  - PAY
  17  8,2  | SPARKY
  17  3,7  - SPAY
  17  3,7  - SPRY
  16 10,6  | ARRAYS
  16  4,7  - DAYS
+ 16  4,5  - DRAY
  16  3,7  - DRAY
  16  4,7  - DRYS
  16  8,6  | KAYS
+ 16  7,7  - PA
  16  4,5  - PYAS
  16  4,7  - PYAS
  16  5,5  - RAP
+ 16  5,7  - RAP
  16  5,5  - SAP
+ 16  5,7  - SAP
  16  8,4  | YAKS
  15  9,4  | DAVY
+ 15  5,5  - DAY
  15  8,6  | KAY
+ 15  5,5  - PAD
  15  5,7  - PAD
  15  4,7  - PAY
  15  4,7  - PRY
@@ -74,11 +87,14 @@
  14  8,3  | DARKY
  14  8,3  | PARKS
  14 10,5  | RADARS
+ 14  5,5  - RAY
  14 10,2  | SARDAR
  14 10,5  | SARDAR
+ 14  5,5  - SAY
  14  7,2  | SPARID
  14  8,2  | SPARK
  14  9,6  | VARY
+ 13  6,5  - AY
  13  8,4  | DAKS
  13  4,7  - DAY
  13  4,7  - DRY
@@ -92,16 +108,20 @@
  13  4,5  - RYAS
  13  4,7  - RYAS
  13  8,3  | SARKY
+ 12  7,7  - DA
  12  8,4  | DAK
  12  6,4  | DAMPS
  12  8,3  | DARKS
  12  8,6  | KYAR
  12  7,3  | PADI
  12  7,3  | PARIS
+ 12  5,5  - RAD
  12  5,7  - RAD
  12  4,7  - RAY
+ 12  5,5  - SAD
  12  5,7  - SAD
  12  4,7  - SAY
+ 11  6,5  - AD
  11  6,7  - AD
  11  5,7  - AY
  11  6,4  | DAMP
@@ -134,6 +154,7 @@
  10 10,5  | RASPY
  10  4,5  - RYA
  10  4,7  - RYA
+ 10  7,7  - SA
  10  6,4  | SAMP
  10  7,3  | SAPID
  10  8,3  | SARK
@@ -168,6 +189,8 @@
   9  7,5  | YIPS
   9  7,5  | YIRDS
   8 10,3  | ARRAYS
+  8  5,5  - DA
+  8  5,7  - DA
   8  7,4  | DAIRY
   8  7,4  | DAISY
   8  6,4  | DAMS
@@ -222,6 +245,8 @@
   7 10,3  | RAYAS
   7 10,5  | RAYAS
   7  7,5  | RIPS
+  7  5,5  - SA
+  7  5,7  - SA
   7  8,5  | SKA
   7 10,4  | SPAR
   7 10,5  | YARD
@@ -232,6 +257,8 @@
   6 10,6  | ASP
   6 10,5  - AY
   6 10,7  - AY
+  6 10,5  - DA
+  6 10,7  - DA
   6 10,5  | DAY
   6  8,6  | KA
   6  6,6  | MAR
@@ -239,6 +266,7 @@
   6 10,5  | PAR
   6 10,5  | PAS
   6  7,5  | PIA
+  6  7,5  | PIR
   6  7,5  | PIS
   6  7,4  | PSI
   6 10,3  | RADAR
@@ -265,6 +293,7 @@
   5 10,3  | ARRAS
   5 10,6  | AYS
   5  7,4  | DAIS
+  5  7,6  | IP
   5  6,6  | MA
   5 10,5  | PA
   5  7,5  | PI
@@ -292,14 +321,19 @@
   4  7,4  | RAIS
   4  7,5  | RIAS
   4  7,5  | RID
+  4 10,5  - SA
+  4 10,7  - SA
   4 10,5  | SAD
   4 10,5  | YA
+  4  7,5  | YI
   3 10,5  | AAS
   3 10,6  | AAS
   3 10,6  | AD
   3  7,5  | AIR
   3  7,5  | AIS
   3 10,6  | ARS
+  3 10,5  | DA
+  3  7,5  | DI
   3  7,6  | ID
   3  7,4  | RAI
   3 10,5  | RAS
@@ -312,4 +346,5 @@
   2 10,6  | AR
   2 10,6  | AS
   2  7,6  | IS
+  2 10,5  | SA
   2  7,5  | SI

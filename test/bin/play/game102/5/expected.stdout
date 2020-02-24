@@ -10,34 +10,49 @@
  33  3,7  | VOILE
  31  5,1  | HEW
  31  5,1  | HOW
+ 31  5,2  - IWI
  31  5,2  - OWE
  29  6,2  - WIS
  29  6,2  - WOE
  29  6,2  - WOS
+ 26  7,2  - IWIS
+ 26  6,2  - SEW
+ 26  6,2  - SOW
  25  6,2  - WE
  25  6,2  - WO
+ 24  5,2  - EW
  24  5,2  - OW
  24  6,2  - SILO
  24  6,2  - SOLI
  24  6,5  | WALLIES
+ 23  8,2  - WILE
  22  6,6  | ALLOWS
  22  5,8  - ISLE
  22  6,5  | SALLOW
  22  6,5  | WALLIE
  21  8,2  - LOWE
  21  8,2  - LOWS
+ 21  8,2  - WISE
+ 21  8,2  - WOES
  20  6,6  | ALLOW
  20  3,3  - JAWS
  20  7,8  - LEIS
+ 20  6,2  - OIL
  20  6,2  - SEL
  20  6,2  - SOL
  20  6,5  | WALIES
+ 19  5,1  | HOI
  19  3,3  - JAW
  19  7,8  - LEI
  19  8,2  - LOW
  19  5,2  - OSE
  19  7,8  - SOIL
+ 19  8,2  - WIS
+ 19  8,2  - WOE
+ 19  8,2  - WOS
+ 18  7,2  - IWI
  17  3,3  - JAILS
+ 17  6,2  - OES
  17  7,8  - SEI
  16  6,6  | ALLIES
  16  5,4  | IS
@@ -45,16 +60,21 @@
  16  9,2  - OWL
  16  6,1  | OWLS
  16  8,2  - SOW
+ 15  7,2  - EW
  15  3,3  - JAIL
  15  8,2  - LIES
  15  8,2  - LOSE
  15  7,1  | MEWL
  15  8,8  - OIL
+ 15  7,2  - OW
  15  3,7  | VOWS
  14  5,8  - ELS
+ 14  9,2  - IWI
+ 14  7,8  - LI
  14  7,8  - LO
  14  7,1  | MEWS
  14  7,1  | MOWS
+ 14  8,2  - OILS
  14  9,2  - OWE
  14  6,1  | OWES
  14  6,1  | OWL
@@ -66,10 +86,15 @@
  14  8,2  - SOLI
  14  3,7  | VOW
  14  5,8  - WE
+ 13  6,2  - EO
+ 13  8,8  - EO
+ 13  3,3  - JAI
  13  8,2  - LIE
  13  8,2  - LIS
  13  7,1  | MEW
  13  7,1  | MOW
+ 13  6,2  - OE
+ 13  6,2  - OI
  13  8,8  - OI
  13  6,2  - SI
  13  8,6  | SNOW
@@ -78,20 +103,24 @@
  13  9,5  | WIGS
  13  9,5  | WOGS
  12  6,6  | ALOES
+ 12  5,2  - EO
  12  5,2  - ES
  12  5,2  - IS
  12  2,5  - LOUIS
  12  3,5  - LUES
  12  5,2  - OE
  12  5,2  - OI
+ 12  8,2  - OIL
  12  5,2  - OS
  12  9,2  - OW
  12  6,1  | OWE
  12  4,4  - QIS
+ 12  7,8  - SI
  12  7,8  - SO
  12  8,2  - SOL
  12  3,7  | VIEW
  12  9,5  | WIG
+ 12  8,2  - WO
  12  9,5  | WOG
  11  7,2  - EL
  11  6,8  - EL
@@ -111,6 +140,7 @@
  10  5,7  | AWLS
  10  5,7  | AWOLS
  10  5,8  - EL
+ 10  9,8  - IWI
  10  7,1  | MELS
  10  7,1  | MILE
  10  7,1  | MILO
@@ -137,6 +167,7 @@
   9  5,7  | ALOW
   9  5,7  | AWL
   9  5,7  | AWOL
+  9  7,2  - EO
   9  7,2  - ES
   9  6,8  - ES
   9  8,1  | EWES
@@ -244,6 +275,7 @@
   6  6,6  | ALLS
   6  5,7  | ALOE
   6  5,7  | ALSO
+  6  8,2  - EO
   6  8,1  | EWE
   6  9,7  | GIE
   6  9,2  - IS
@@ -255,8 +287,10 @@
   6  9,2  - OE
   6  9,8  - OE
   6  6,1  | OES
+  6  8,2  - OI
   6  9,2  - OI
   6  9,8  - OI
+  6  6,1  | OOS
   6  9,2  - OS
   6  9,8  - OS
   6  6,1  | OSE
@@ -276,10 +310,12 @@
   5  6,6  | ALSO
   5  5,7  | AW
   5  9,6  | EGO
+  5  8,1  | EW
   5  7,1  | ME
   5  7,1  | MI
   5  7,1  | MO
   5  8,7  | NE
+  5  8,7  | NI
   5  8,7  | NO
   5  7,5  | SAIL
   5  6,5  | SALE
@@ -302,6 +338,7 @@
   4  2,2  - La
   4  6,1  | OE
   4  6,1  | OI
+  4  6,1  | OO
   4  6,1  | OS
   4  6,5  | SAL
   4  9,1  | SEI
@@ -311,11 +348,14 @@
   3  7,6  | AIS
   3  5,7  | AL
   3  8,1  | EL
+  3  8,1  | ESE
   3  4,5  - US
   2  5,7  | AE
   2  5,7  | AI
   2  5,7  | AS
   2  8,1  | EE
+  2  8,1  | EO
   2  8,1  | ES
   2  9,1  | SI
   2  9,1  | SO
+  2  2,2  - Sa

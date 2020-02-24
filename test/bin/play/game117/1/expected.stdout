@@ -10,34 +10,53 @@
  33  6,9  - SOILED
  30  6,9  - SILOED
  30  6,9  - SOLIDI
+ 24  7,2  | LEWD
  23  7,1  | WIELD
+ 22  7,2  | LOWE
+ 22  7,3  | OWL
  22  7,2  | WELD
  22  4,4  - WIELD
  22  4,8  - WIELD
  22  7,2  | WILD
  22  7,2  | WOLD
+ 20  7,3  | IWI
+ 20  7,3  | OWE
  20  7,2  | WIDE
  20  7,2  | WILE
  20  6,6  - gLOWED
+ 19  7,2  | DEW
+ 19  7,2  | DOW
+ 19  7,2  | LOW
  19  3,7  - WILLIED
  18  7,2  | DELI
+ 18  5,2  | DIEL
  18  7,2  | DIEL
+ 18  5,2  | DIOL
+ 18  7,2  | DIOL
  18  7,2  | DOLE
  18  7,3  | ELD
+ 18  7,7  | IWI
+ 18  5,2  | LIED
  18  7,2  | LIED
  18  7,2  | LODE
  18  7,3  | OLD
  18  7,1  | OWED
  18  5,8  | WELD
  18  5,8  | WILD
+ 18  7,8  | WILD
  18  5,8  | WOLD
+ 18  7,8  | WOLD
  17  6,3  - BLEW
  17  6,3  - BLOW
  17  2,4  - DOWIE
  17  2,8  - DOWIE
+ 17  7,3  | EW
+ 17  7,3  | OW
  17  7,2  | WED
  17  5,8  | WIDE
+ 17  7,8  | WIDE
  17  5,8  | WILE
+ 17  7,8  | WILE
  16  7,1  | DEIL
  16  7,1  | DIEL
  16  7,1  | DIOL
@@ -47,6 +66,7 @@
  16  7,1  | IDOL
  16  7,7  | IDOL
  16  7,1  | LIED
+ 16  5,1  | LOID
  16  7,1  | LOID
  16  7,5  | LOID
  16  3,9  - LOWSE
@@ -63,11 +83,15 @@
  15  2,7  - DWELL
  15  4,3  - ELBOW
  15  7,2  | LED
+ 15  5,2  | LID
  15  7,2  | LID
  15  7,8  | LOWE
+ 15  4,4  - WEEI
+ 15  4,8  - WEEI
  15  3,7  - WILLIE
  15  7,2  | WOE
  15  5,8  | WOE
+ 15  7,8  | WOE
  14  6,3  - BELOW
  14  6,3  - BOWED
  14  6,3  - BOWEL
@@ -92,12 +116,14 @@
  14  4,7  - WILLED
  14  4,7  - WILLIED
  14  5,8  | WO
+ 14  7,8  | WO
  14  4,4  - WOE
  14  4,8  - WOE
  13  6,3  - BIELD
  13  6,3  - BLED
  13  5,8  | DEIL
  13  5,8  | DELI
+ 13  5,2  | DIE
  13  7,2  | DIE
  13  5,8  | DIEL
  13  7,8  | DIEL
@@ -109,15 +135,21 @@
  13  3,7  - DWELL
  13  7,3  | ED
  13  7,3  | EL
+ 13  5,7  | EW
+ 13  5,3  | ID
  13  7,3  | ID
+ 13  5,1  | IWI
+ 13  7,1  | IWI
  13  5,4  - LEWD
  13  5,8  - LEWD
  13  7,8  | LIDO
+ 13  5,2  | LIE
  13  7,2  | LIE
  13  7,8  | LIED
  13  7,8  | LODE
  13  7,8  | LOID
  13  7,3  | OD
+ 13  7,7  | OW
  13  7,1  | OWE
  13  5,4  - WELD
  13  5,8  - WELD
@@ -134,6 +166,7 @@
  12  7,8  | DOL
  12  3,4  - DOWEL
  12  3,8  - DOWEL
+ 12  7,4  | EW
  12  5,9  - ISLED
  12  5,5  - LAWED
  12  7,8  | LID
@@ -143,10 +176,12 @@
  12  4,4  - LWEI
  12  4,8  - LWEI
  12  5,3  - OBELI
+ 12  7,4  | OW
  12  4,9  - OWSE
  12  5,5  - WAILED
  12  5,5  - WALED
  12  7,2  | WE
+ 12  7,4  | WE
  12  3,4  - WEDEL
  12  5,4  - WEDEL
  12  3,8  - WEDEL
@@ -171,8 +206,10 @@
  11  5,8  | DOE
  11  7,8  | DOE
  11  2,7  - DOWEL
+ 11  7,3  | EO
  11  7,1  | IDE
  11  2,9  - IDOLS
+ 11  5,1  | LEI
  11  7,1  | LEI
  11  6,7  - LEWD
  11  2,9  - LEWIS
@@ -210,6 +247,10 @@
  10  5,8  - DEIL
  10  2,9  - DEILS
  10  3,9  - DELS
+ 10  5,2  | DI
+ 10  7,2  | DI
+ 10  5,8  | DI
+ 10  7,8  | DI
  10  4,4  - DIEL
  10  4,8  - DIEL
  10  2,9  - DIOLS
@@ -222,7 +263,10 @@
  10  3,8  - IDLE
  10  2,9  - IDLES
  10  2,9  - IODISE
+ 10  5,9  | IWI
+ 10  7,9  | IWI
  10  7,4  | LEI
+ 10  5,2  | LI
  10  7,2  | LI
  10  7,8  | LI
  10  3,9  - LIDS
@@ -236,6 +280,7 @@
  10  3,4  - LOWE
  10  3,8  - LOWE
  10  5,8  | OIL
+ 10  7,8  | OIL
  10  5,9  | OWE
  10  7,9  | OWE
  10  4,4  - OWED
@@ -274,6 +319,8 @@
   9  6,4  - ELIDE
   9  2,8  - ELIDE
   9  6,8  - ELIDE
+  9  7,2  | EO
+  9  5,9  | EW
   9  7,7  | ID
   9  3,4  - IDEE
   9  3,8  - IDEE
@@ -281,9 +328,11 @@
   9  2,9  - LIDOS
   9  2,9  - LODES
   9  6,7  - LOWE
+  9  5,9  - LSD
   9  6,7  - LWEI
   9  7,7  | OD
   9  7,2  | OE
+  9  5,2  | OI
   9  7,2  | OI
   9  3,4  - OILED
   9  3,8  - OILED
@@ -297,6 +346,8 @@
   9  6,9  - SOLD
   9  6,9  - SOLED
   9  6,9  - SOLID
+  9  5,4  - WEEI
+  9  5,8  - WEEI
   9  4,7  - WELD
   9  4,7  - WELL
   9  4,7  - WILD
@@ -320,6 +371,7 @@
   8  5,8  - DELE
   8  5,4  - DELI
   8  5,8  - DELI
+  8  7,4  | DI
   8  4,3  - DIB
   8  4,4  - DIE
   8  4,8  - DIE
@@ -331,12 +383,15 @@
   8  3,9  - DOES
   8  3,4  - DOLE
   8  3,8  - DOLE
+  8  5,4  | ED
   8  7,4  | ED
   8  6,4  - EEL
   8  6,8  - EEL
   8  2,9  - EIDOS
   8  5,4  | EL
   8  7,4  | EL
+  8  5,8  | EO
+  8  7,8  | EO
   8  4,4  - EWE
   8  6,4  - EWE
   8  4,8  - EWE
@@ -361,10 +416,13 @@
   8  6,7  - LOID
   8  5,3  - OBE
   8  5,3  - OBI
+  8  5,4  | OD
+  8  7,4  | OD
   8  5,9  | ODE
   8  7,9  | ODE
   8  5,8  | OE
   8  5,8  | OI
+  8  7,8  | OI
   8  5,9  | OIL
   8  7,9  | OIL
   8  3,9  - OILS
@@ -390,6 +448,7 @@
   7  4,7  - DELL
   7  5,4  - DEW
   7  5,8  - DEW
+  7  7,5  | DI
   7  4,7  - DILL
   7  7,5  | DO
   7  4,7  - DOLL
@@ -398,6 +457,7 @@
   7  3,4  - EIDE
   7  3,8  - EIDE
   7  5,9  | EL
+  7  5,7  | EO
   7  5,9  | ID
   7  7,9  | ID
   7  4,4  - IDEE
@@ -446,6 +506,8 @@
   6  4,7  - DOLE
   6  4,9  - EDS
   6  4,9  - ELS
+  6  5,9  | EO
+  6  5,3  - IB
   6  4,4  - IDE
   6  4,8  - IDE
   6  3,5  - IDEA
@@ -463,8 +525,10 @@
   6  4,8  - ODE
   6  3,5  - ODEA
   6  4,9  - ODS
+  6  7,4  | OE
   6  5,9  | OE
   6  7,9  | OE
+  6  7,4  | OI
   6  7,6  | OI
   6  5,9  | OI
   6  7,9  | OI
@@ -487,6 +551,9 @@
   5  5,7  - ELD
   5  4,7  - ELL
   5  5,7  - ELL
+  5  7,5  | EO
+  5  6,4  - EW
+  5  6,8  - EW
   5  4,7  - ILL
   5  5,7  - ILL
   5  5,5  - LAD
@@ -525,6 +592,7 @@
   4  5,8  - LEI
   4  6,7  - LIE
   4  4,6  - LOgE
+  4  5,5  - OAD
   4  4,5  - ODA
   4  4,9  - OES
   4  4,7  - OIL
@@ -534,6 +602,7 @@
   4  6,6  - gIED
   3  6,5  - AD
   3  6,5  - AL
+  3  5,5  - DA
   3  5,4  - DE
   3  5,8  - DE
   3  4,6  - DIg
@@ -563,6 +632,8 @@
   2  6,4  - EE
   2  5,8  - EE
   2  6,8  - EE
+  2  6,4  - EO
+  2  6,8  - EO
   2  5,6  - EgO
   2  5,4  - OE
   2  5,8  - OE

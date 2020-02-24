@@ -5,6 +5,8 @@
  32  3,9  - JiNX
  30  2,6  - JUNcO
  30  2,6  - JUNtO
+ 25  5,3  | JUDo
+ 25  7,3  | JUDo
  24  5,6  - VODUNs
  24  5,6  - VODoUN
  24  5,6  - VOUDoN
@@ -49,6 +51,7 @@
  15  5,6  - JOUaL
  15  3,6  - JUDO
  15  3,6  - JUDOs
+ 15  4,6  - JUOaL
  15  4,7  - JURaL
  15  4,7  - JUReL
  15  3,6  - JUpON
@@ -62,6 +65,8 @@
  14  4,9  - LUXe
  14  6,6  - OLDeN
  14  3,6  - UNLOVeD
+ 14  5,2  | VULNs
+ 14  7,2  | VULNs
  14  5,2  | VoDUN
  14  7,2  | VoDUN
  14  3,8  - eNVY
@@ -131,7 +136,10 @@
  11  5,6  - JOw
  11  5,6  - JOy
  11  4,7  - JaR
+ 11  5,5  | Je
  11  7,5  | Je
+ 11  5,5  | Jo
+ 11  7,5  | Jo
  11  4,7  - LURDaN
  11  3,8  - LUnY
  11  5,3  | LaND
@@ -163,6 +171,7 @@
  11  6,8  - YaUD
  11  6,8  - YeLD
  11  6,8  - YoND
+ 11  6,8  - YoUD
  11  3,8  - dULY
  11  3,8  - iDLY
  11  3,8  - iNLY
@@ -227,6 +236,7 @@
   9  7,3  | DULy
   9  5,4  | DUN
   9  7,4  | DUN
+  9  5,3  | DUNe
   9  7,3  | DUNe
   9  5,3  | DUNg
   9  5,3  | DUNs
@@ -237,8 +247,10 @@
   9  4,8  - DaY
   9  4,8  - DeY
   9  4,8  - DrY
+  9  5,3  | LUDe
   9  7,3  | LUDe
   9  2,7  - LUNaR
+  9  5,3  | LUNe
   9  7,3  | LUNe
   9  5,3  | LUNg
   9  5,3  | LUNt
@@ -246,14 +258,18 @@
   9  7,3  | LUNy
   9  4,8  - LaY
   9  4,8  - LeY
+  9  5,3  | NUDe
   9  7,3  | NUDe
   9  2,7  - NUDeR
   9  5,3  | NULl
   9  4,8  - NaY
   9  6,7  - RoUND
   9  2,7  - ULNaR
+  9  5,3  | UNDe
   9  7,3  | UNDe
   9  2,7  - UNDeR
+  9  5,3  | UNDo
+  9  7,3  | UNDo
   9  5,3  | UNDy
   9  7,3  | UNDy
   9  3,6  - UNLOaD
@@ -335,6 +351,8 @@
   7  7,4  | LiN
   7  3,8  - LiNY
   7  3,7  - LoUR
+  7  5,4  | LsD
+  7  7,4  | LsD
   7  3,8  - LuNY
   7  5,6  - NODUs
   7  5,6  - NODaL
@@ -342,6 +360,8 @@
   7  4,7  - NURDs
   7  4,7  - NURL
   7  4,7  - NURLs
+  7  5,4  | NeD
+  7  7,4  | NeD
   7  5,4  | NiL
   7  5,4  | NoD
   7  7,4  | NoD
@@ -436,6 +456,7 @@
   7  5,6  - wOUND
   7  5,4  | wUD
   7  7,4  | wUD
+  6  5,6  | Da
   6  5,6  | De
   6  7,6  | De
   6  5,6  | Do
@@ -480,6 +501,7 @@
   5  5,4  | DUb
   5  5,4  | DUd
   5  7,4  | DUd
+  5  5,4  | DUe
   5  7,4  | DUe
   5  5,4  | DUg
   5  5,4  | DUh
@@ -487,6 +509,8 @@
   5  7,4  | DUi
   5  5,4  | DUn
   5  7,4  | DUn
+  5  5,4  | DUo
+  5  7,4  | DUo
   5  5,4  | DUp
   5  7,4  | DUp
   5  3,6  - DUrO
@@ -569,6 +593,8 @@
   5  4,6  - UDO
   5  4,6  - UDOn
   5  4,6  - UDOs
+  5  5,4  | UDo
+  5  7,4  | UDo
   5  3,6  - UNcO
   5  3,6  - UNdO
   5  5,4  | UNs
@@ -582,6 +608,7 @@
   5  3,6  - UnDO
   5  3,6  - UpDO
   5  4,6  - UpON
+  5  6,8  - YNo
   5  6,8  - YUk
   5  6,8  - YUm
   5  6,8  - YUp
@@ -661,6 +688,7 @@
   5  5,6  - wOLD
   5  5,8  - wYN
   5  5,6  - yOND
+  5  5,6  - yOUD
   3  5,6  - DO
   3  5,6  - DOc
   3  5,6  - DOe
@@ -674,19 +702,27 @@
   3  5,6  - DOt
   3  5,6  - DOw
   3  5,7  - DRy
+  3  5,5  | De
   3  7,5  | De
+  3  7,5  | Di
+  3  5,5  | Do
+  3  7,5  | Do
   3  4,7  - DoR
   3  4,6  - DuO
+  3  4,6  - DzO
   3  5,6  - LO
   3  5,6  - LOb
   3  5,6  - LOg
   3  5,6  - LOo
   3  5,6  - LOp
+  3  5,6  - LOq
   3  5,6  - LOt
   3  5,6  - LOw
   3  5,6  - LOx
   3  4,7  - LaR
   3  7,5  | Li
+  3  5,5  | Lo
+  3  7,5  | Lo
   3  4,6  - LoO
   3  5,6  - NO
   3  5,6  - NOb
@@ -699,7 +735,11 @@
   3  5,6  - NOs
   3  5,6  - NOt
   3  5,6  - NOw
+  3  5,5  | Ne
   3  7,5  | Ne
+  3  7,5  | Ni
+  3  5,5  | No
+  3  7,5  | No
   3  4,6  - NoO
   3  4,7  - NoR
   3  6,6  - OD
@@ -716,6 +756,7 @@
   3  6,6  - OUd
   3  6,6  - OUr
   3  6,6  - OUt
+  3  6,6  - OaD
   3  6,6  - OdD
   3  6,6  - OiL
   3  6,6  - OlD
@@ -754,10 +795,12 @@
   3  5,5  | Ut
   3  6,8  - Ya
   3  6,8  - Ye
+  3  6,8  - Yi
   3  6,8  - Yo
   3  4,6  - aDO
   3  5,8  - aY
   3  5,6  - bOD
+  3  5,6  - bON
   3  4,7  - bUR
   3  5,8  - bY
   3  5,6  - cOD
@@ -799,6 +842,7 @@
   3  5,7  - uRD
   3  5,7  - uRN
   3  5,6  - wON
+  3  4,6  - yNO
   3  5,6  - yOD
   3  5,6  - yON
   3  5,6  - yOU
@@ -809,6 +853,7 @@
   1  6,6  - Oi
   1  6,6  - Om
   1  6,6  - On
+  1  6,6  - Oo
   1  6,6  - Op
   1  6,6  - Or
   1  6,6  - Os
@@ -818,7 +863,9 @@
   1  6,7  - Re
   1  5,7  - aR
   1  5,6  - bO
+  1  5,6  - cO
   1  5,6  - dO
+  1  5,6  - eO
   1  5,7  - eR
   1  5,6  - gO
   1  5,6  - hO
@@ -826,6 +873,7 @@
   1  5,6  - lO
   1  5,6  - mO
   1  5,6  - nO
+  1  5,6  - oO
   1  5,7  - oR
   1  5,6  - pO
   1  5,6  - sO

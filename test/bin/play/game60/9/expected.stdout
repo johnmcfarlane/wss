@@ -3,14 +3,17 @@
  42  3,5  - JE
  41 10,2  | SIP
  39 11,3  | SPIV
+ 38  3,5  | PACS
  36 10,2  | DIS
  36  9,3  - QIS
  36  4,10 - SPIV
+ 35  3,5  | PAC
  35 11,3  | SPIC
  34  4,10 - SPIC
  33  6,8  - DIPSO
  33  8,4  - JUS
  32 11,3  | PICS
+ 31 10,2  | DI
  30  3,5  | DAPS
  30  2,10 - DISC
  30  3,5  | PADS
@@ -27,14 +30,17 @@
  26  4,10 - SIC
  26  1,10 - SIP
  26  4,10 - SIP
+ 25  8,5  | DISC
  25  7,8  - PISO
  24  9,8  - DOC
  24  6,6  | SPIVS
  24  6,10 - SPIVS
  23  3,5  | PAS
  23  8,7  | SPIV
+ 22  8,5  | DIPS
  22  2,10 - DIS
  22  2,10 - IDS
+ 22 10,3  | IP
  22  9,8  - SOP
  22  8,7  | SPIC
  22  6,6  | SPICS
@@ -47,6 +53,7 @@
  20  9,1  | rEQUIrED
  19  8,4  - CUPS
  19  8,4  - CUSP
+ 19  8,5  | DIP
  19  5,8  | PIC
  19 11,4  | PICS
  19  8,7  | PICS
@@ -64,12 +71,14 @@
  18  9,1  | rEQUIrES
  17  8,4  - CUDS
  17 11,4  | DIPS
+ 17  9,10 | IP
  17  8,5  | PIS
  17 11,6  | PSI
  17  8,4  - PUDS
  17  7,4  - SCUD
  17  8,5  | SIP
  17  7,4  - SPUD
+ 17  8,4  - VU
  16  3,9  - CLIP
  16  8,4  - CUD
  16  5,8  | DIPS
@@ -84,6 +93,7 @@
  15  5,8  | DIP
  15  8,7  | DIPS
  15  8,7  | DISC
+ 15 11,10 | IP
  15  5,8  | PI
  15  8,7  | PIS
  15  8,7  | PSI
@@ -92,13 +102,16 @@
  14  4,4  | BEFOOLS
  14  8,7  | DIP
  14  1,2  | GAMESTERS
+ 14  8,6  | IP
  14  5,3  | PI
  14  8,7  | PI
  14 11,4  | PIC
  13  3,6  | ADS
+ 13  8,5  | DIS
  13  8,4  - DUCI
  13  8,4  - DUPS
  13  8,6  | IDS
+ 13  5,3  - IP
  13  4,9  - LISP
  13  5,8  | SIC
  13  5,8  | SIP
@@ -114,6 +127,7 @@
  12  8,7  | SIC
  12  8,7  | SIP
  12  7,1  | YIP
+ 11  5,8  | DI
  11  8,7  | DIS
  11  2,6  | HID
  11  9,10 | ID
@@ -126,8 +140,15 @@
  11 11,4  | VID
  10  3,6  | AD
  10  3,8  - COPS
+ 10  3,5  | DA
+ 10  3,5  - DE
+ 10  5,3  | DI
+ 10  8,7  | DI
+ 10 11,7  | DI
  10  3,7  - DO
  10  8,6  | ID
+ 10 11,5  | IP
+ 10  5,9  | IP
  10  4,9  - LIPS
  10  7,10 - PICS
  10  7,7  - SCEND
@@ -148,6 +169,7 @@
   9  6,1  | LAVS
   9  8,7  - PEND
   9  7,4  - PIU
+  9  3,5  - SEI
   9  5,8  | SI
   9  3,8  - SODIC
   9  8,4  - SUP
@@ -157,6 +179,7 @@
   8  4,4  - BIDS
   8 11,4  | CIS
   8  3,8  - CODS
+  8  8,5  | DI
   8  7,10 - DIPS
   8  6,4  | DISC
   8  8,10 - DISC
@@ -182,6 +205,8 @@
   7  3,8  - COD
   7  8,6  - CrED
   7  3,8  - DOC
+  7  6,5  - IP
+  7  6,7  - IP
   7  5,3  - IS
   7  5,9  | IS
   7  6,1  | LAC
@@ -220,6 +245,7 @@
   6  6,1  | LADS
   6  6,1  | LAID
   6  4,9  - LID
+  6  4,9  - LSD
   6  4,8  - OPS
   6  6,4  | PIS
   6  8,10 - PIS
@@ -239,11 +265,13 @@
   6  9,4  - UP
   6  9,6  - rEV
   5  4,4  - BI
+  5  3,8  - CO
   5  8,7  - DEN
   5  6,4  | DISS
   5  7,10 - DISS
   5  8,10 - DISS
   5  9,7  - END
+  5  3,4  - IB
   5  6,5  - ID
   5  6,7  - ID
   5  6,1  | LAD
@@ -272,6 +300,7 @@
   4  3,8  - SOD
   4  5,6  | TI
   3  4,1  | AD
+  3  8,5  - DI
   3  3,8  - DO
   3  1,8  - ED
   3  8,6  - IrES

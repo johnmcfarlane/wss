@@ -1,15 +1,32 @@
+ 32 11,6  | ADOWN
+ 32 11,6  | AWNED
  32 11,6  | OWNED
+ 29  2,3  | DAWN
+ 29  2,3  | DOWN
+ 27  8,5  - ANTE
  27  3,7  | YODEL
  27  3,7  | YODLE
+ 26 11,6  | ALOW
+ 26 11,6  | ANEW
+ 26 11,6  | AWED
+ 26 11,6  | AWOL
  26  3,5  - LAWiNE
  26 11,6  | OLDEN
  26 11,6  | OWED
  24  3,5  - LADiNO
+ 23 11,6  | ALONE
+ 23 11,6  | ANODE
+ 23 11,6  | ANOLE
  23  8,5  - ANT
  23  4,5  - DWiNE
+ 22  2,4  | AWL
+ 22  2,4  | AWN
  22  8,4  | JAWED
  22  8,4  | JOWED
  22  8,4  | JOWLED
+ 22  2,4  | OWL
+ 22  2,4  | OWN
+ 21  1,6  - DA
  21  2,3  | DALE
  21  1,6  - DE
  21  1,6  - DO
@@ -21,8 +38,10 @@
  21  5,5  - WiNE
  21  5,5  - WiNO
  20  4,5  - ALiNE
+ 20  2,4  | AWE
  20  7,7  | ENDOW
  20  2,3  | NOEL
+ 20  2,4  | OWE
  19  5,5  - DiNE
  19  5,5  - DiNO
  19  8,5  - EAT
@@ -35,6 +54,14 @@
  18  9,6  | ADOWN
  18  7,6  | AEON
  18  5,5  - AiDE
+ 18  2,3  | DAW
+ 18  2,3  | DOW
+ 18  7,2  | LOID
+ 18  7,2  | LOIN
+ 18  2,3  | NAW
+ 18  2,3  | NOW
+ 17 11,6  | AEON
+ 17 11,6  | ALOE
  17  9,6  | AWNED
  17  9,1  | DOER
  17  7,7  | ELAND
@@ -50,6 +77,7 @@
  16  4,1  | ANEW
  16  9,6  | ANEW
  16  9,6  | AWED
+ 16  3,2  - AWEE
  16  9,6  | AWOL
  16  9,6  | ENOW
  16  2,4  | OLD
@@ -65,9 +93,11 @@
  15  3,1  | SAWED
  15  3,1  | SEWAN
  15  3,1  | SOWED
+ 15  2,5  | WE
  15  4,2  - WEED
  15  4,2  - WEEL
  15  4,2  - WEEN
+ 15  2,5  | WO
  14  2,4  | ADO
  14  2,4  | ALE
  14  2,4  | ANE
@@ -91,31 +121,40 @@
  13  9,6  | ALONE
  13  9,6  | ANODE
  13  9,6  | ANOLE
+ 13  2,4  | AW
  13  9,6  | AWL
  13  9,6  | AWN
  13  4,3  - DECO
+ 13  7,7  | EW
  13  1,4  - LAWN
  13  1,4  - LEWD
  13  4,3  - LOCA
  13  1,4  - LOWN
  13  7,6  | OE
  13  9,6  | OLDEN
+ 13  2,4  | OW
  13  9,6  | OWL
  13  9,6  | OWN
  13  4,2  - WAE
  13  4,2  - WEE
  13  4,2  - WOE
  12  4,1  | ALAND
+ 12  3,2  - ALEE
+ 12  3,2  - ALOE
+ 12  3,2  - AW
  12  9,6  | AWE
  12  4,1  | AWED
  12  4,1  | AWNED
  12  4,1  | AWOL
+ 12  9,2  | DERE
  12  2,3  | DOE
  12  9,6  | ELAN
  12  9,6  | ENOL
+ 12  2,5  | EW
  12  8,4  | JOE
  12  2,3  | NAE
  12  3,2  - OW
+ 12  2,5  | OW
  12  9,6  | OWE
  12  3,1  | SAWN
  12  3,1  | SEWN
@@ -124,10 +163,12 @@
  11  4,1  | ALONE
  11  4,1  | ANODE
  11  4,1  | ANOLE
+ 11  9,5  - ATE
  11  9,6  | AW
  11  7,7  | ED
  11  7,7  | EL
  11  7,7  | EN
+ 11  9,6  | EW
  11  8,4  | JA
  11  8,4  | JE
  11  8,4  | JO
@@ -153,6 +194,7 @@
  10 11,1  | ANES
  10  3,5  - ELAiN
  10  3,5  - ELOiN
+ 10  7,7  | EO
  10  1,9  | GAD
  10  1,9  | GAL
  10  1,9  | GAN
@@ -181,6 +223,11 @@
   9  2,4  | AL
   9  2,4  | AN
   9  9,6  | AND
+  9 11,6  | AWL
+  9 11,6  | AWN
+  9  6,3  - CO
+  9  2,3  | DA
+  9  2,5  | DA
   9  2,5  | DE
   9  4,2  - DEE
   9  2,3  | DO
@@ -202,6 +249,7 @@
   9  2,3  | NO
   9  2,5  | NO
   9  2,4  | OD
+  9  7,3  | OI
   9  9,6  | OLD
   9  2,4  | ON
   9 11,6  | OWL
@@ -214,9 +262,13 @@
   9  3,1  | SWAN
   9  5,7  | UhLAN
   9  5,5  - WiN
+  8  3,2  - AD
   8  9,6  | ADO
+  8  3,2  - AL
   8  9,6  | ALE
+  8  3,2  - AN
   8  9,6  | ANE
+  8 11,6  | AWE
   8  4,3  - DOC
   8  2,5  | ED
   8  2,5  | EL
@@ -234,10 +286,12 @@
   8  4,5  - LOiD
   8  4,5  - LOiN
   8  3,2  - OD
+  8  2,5  | OD
   8  9,6  | ODA
   8  9,6  | ODE
   8  9,6  | OLE
   8  3,2  - ON
+  8  2,5  | ON
   8  9,6  | ONE
   8 11,6  | OWE
   8  3,1  | SAND
@@ -251,8 +305,10 @@
   7  4,1  | ALAE
   7  4,1  | ALOE
   7  9,6  | AN
+  7 11,6  | AND
   7  4,1  | ANOA
   7  9,5  - AT
+  7 11,6  | AW
   7  4,1  | AWL
   7  4,1  | AWN
   7  3,5  - DELi
@@ -287,6 +343,7 @@
   7  6,6  - NONAS
   7  6,6  - NONES
   7  6,6  - NOW
+  7  9,6  | OAD
   7  9,6  | OD
   7  2,4  | OE
   7 11,6  | OLD
@@ -302,25 +359,35 @@
   7  3,1  | SOLA
   7  3,1  | SOLE
   7  3,1  | SONE
+  6 11,6  | ADO
+  6  3,2  - AE
+  6 11,6  | ALE
+  6 11,6  | ANE
   6  4,1  | AWA
   6  4,1  | AWE
   6  5,5  - AiD
   6  5,5  - AiN
   6  5,2  - EEL
   6  1,5  - EEL
+  6  5,2  - EEN
+  6  1,5  - EEN
+  6  2,5  | EO
   6  1,5  - EON
   6  6,2  - EWE
   6  1,3  - IDEA
   6  1,3  - ILEA
   6  1,3  - ION
   6  3,5  - NAOi
+  6 11,6  | OAD
   6 11,6  | ODA
   6 11,6  | ODE
   6  3,2  - OE
+  6  2,5  | OE
   6 11,6  | OLE
   6 11,6  | ONE
   6  3,1  | SAD
   6  3,1  | SAL
+  6  3,1  | SAN
   6  3,1  | SEAL
   6  3,1  | SEL
   6  3,1  | SEN
@@ -330,13 +397,20 @@
   6  3,1  | SON
   6  8,6  - WAS
   6  8,6  - WOS
+  5 11,6  | AD
   5  9,6  | AE
+  5 11,6  | AL
   5  8,6  - ALSO
+  5 11,6  | AN
   5  4,1  | AND
   5  4,1  | AW
   5  8,6  - DOSE
   5  6,2  - ELD
   5  6,2  - END
+  5  9,6  | EO
+  5 11,3  | ESE
+  5  6,2  - EW
+  5  1,5  - EW
   5  7,4  | ID
   5  1,3  - IDE
   5  7,4  | IN
@@ -344,18 +418,22 @@
   5  8,6  - LASE
   5  1,4  - LED
   5  8,6  - LOSE
+  5  9,6  - LSD
   5  6,6  - NAN
+  5  6,6  - NED
   5  6,6  - NOD
   5  8,6  - NOSE
   5 11,6  | OD
   5  9,6  | OE
   5 11,6  | ON
+  5 10,5  - TE
   5  6,5  - iD
   5  6,5  - iN
   4  4,1  | AAL
   4  4,1  | ADO
   4  8,6  - ADS
   4  5,2  - AE
+  4 11,6  | AE
   4  4,1  | ALA
   4  4,1  | ALE
   4  8,6  - ALS
@@ -365,6 +443,7 @@
   4  8,6  - EDS
   4  5,2  - EE
   4  6,2  - EEL
+  4  6,2  - EEN
   4  8,6  - ELS
   4  8,6  - ENS
   4  6,2  - EON
@@ -405,11 +484,17 @@
   2  4,1  | AA
   2  4,1  | AE
   2  9,6  - AS
+  2  5,5  - Di
   2  6,2  - EE
   2  1,5  - EE
+  2  6,2  - EO
+  2  1,5  - EO
   2  9,6  - ES
   2  5,5  - Li
+  2  5,5  - Ni
   2  9,6  - OS
+  2  3,1  | SA
+  2 10,6  - SA
   2  3,1  | SO
   2 10,6  - SO
   1  5,5  - Ai

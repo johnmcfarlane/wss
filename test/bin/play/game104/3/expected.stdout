@@ -5,6 +5,7 @@
  30  8,11 - ELSE
  27  7,11 - LENS
  24  7,11 - EELS
+ 24  9,11 - ESE
  24  7,11 - LEES
  22  1,6  - CELESTE
  21  8,11 - ELS
@@ -17,9 +18,11 @@
  18 11,7  | LESES
  18  2,6  - SCENT
  17  8,6  | LEChES
+ 17  9,3  | LENES
  17  9,2  | SCENE
  16  8,5  | LEECh
  16 11,9  | SEC
+ 16  5,9  | ZEN
  15  8,7  | EChES
  15  9,9  | ELS
  15  9,9  | ENS
@@ -33,8 +36,10 @@
  15  9,4  | SEEL
  15  9,4  | SEEN
  15  5,9  | ZEE
+ 14  9,4  | CEES
  14  8,7  | EChE
  14  9,5  | EEL
+ 14  9,5  | EEN
  14  9,5  | SEL
  14  1,7  - SELENIC
  14  9,5  | SEN
@@ -48,6 +53,7 @@
  12  3,6  - CENTESES
  12  9,6  | EL
  12  9,6  | EN
+ 12  9,4  | LEES
  12  7,7  | NET
  12  8,7  - SCAN
  12  2,6  - SLEET
@@ -55,13 +61,16 @@
  11  5,4  | CEES
  11  7,4  | CEES
  11  8,7  - CLAN
+ 11  9,9  | ESE
  11  9,2  | LENSE
  10  4,7  - CLINE
+ 10 11,8  | ESE
  10  9,3  | ESNE
  10 11,8  | ESS
  10  5,2  | LENSE
  10  7,2  | LENSE
  10  5,4  | SEEL
+ 10  5,4  | SEEN
  10  7,4  | SEEN
  10 11,9  | SEL
  10 11,9  | SEN
@@ -72,6 +81,8 @@
   9  3,6  - CELTS
   9  3,6  - CENTS
   9  5,5  | EEL
+  9  5,5  | EEN
+  9  7,5  | EEN
   9  9,3  | ELSE
   9  3,7  - ENSILE
   9  9,7  - LAC
@@ -81,6 +92,7 @@
   9  4,6  - NETLESS
   9 10,6  | SABRAS
   9  5,5  | SEL
+  9  5,5  | SEN
   9  7,5  | SEN
   9  3,7  - SENILE
   9  4,7  - SLICE
@@ -95,7 +107,9 @@
   8  8,7  - ELAN
   8  5,3  | ELSE
   8  7,3  | ELSE
+  8  5,6  | EN
   8  7,6  | EN
+  8  9,6  | ES
   8  5,3  | ESNE
   8  7,3  | ESNE
   8  5,7  - LICE
@@ -127,6 +141,7 @@
   6  9,9  | EN
   6  5,6  | ES
   6  7,6  | ES
+  6  9,4  | ESE
   6  6,7  - ICE
   6  9,10 - LA
   6  9,7  - LAS
@@ -155,6 +170,8 @@
   5  6,10 - DE
   5  9,5  | EE
   5  8,6  - ELSE
+  5  5,4  | ESE
+  5  7,4  | ESE
   5  9,7  - LA
   5  8,7  - LEA
   5  3,6  - LEET
@@ -172,6 +189,7 @@
   5  4,6  - NETS
   5  5,7  - NIL
   5  9,7  - SAL
+  5  9,7  - SAN
   5  5,4  | SEE
   5  7,4  | SEE
   5  3,6  - SENT
@@ -181,12 +199,14 @@
   4  7,5  | EE
   4  8,6  - ELS
   4  8,6  - ENS
+  4  9,9  | ES
   4  6,7  - INS
   4  4,7  - LEI
   4  4,6  - LET
   4  5,7  - LIE
   4  5,7  - LIS
   4  4,6  - NET
+  4  9,10 - SA
   4  9,7  - SAE
   4  8,7  - SEA
   4  5,7  - SIN
@@ -195,11 +215,14 @@
   4  6,6  - TEN
   3 10,7  - AL
   3 10,7  - AN
+  3  9,6  - ESE
   3  8,6  - ESS
   3  9,6  - ESS
   3  8,8  | Eh
   3  6,7  - IN
   3  5,7  - LI
+  3  5,7  - NI
+  3  9,7  - SA
   3  4,7  - SEI
   3  4,6  - SET
   3  8,8  | Sh

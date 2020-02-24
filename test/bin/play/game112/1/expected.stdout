@@ -3,20 +3,35 @@
  29  5,5  | POISED
  27  5,8  | QI
  24  5,5  | POISE
+ 24  5,3  | QIS
  24  7,3  | QIS
  23  5,7  | OPED
+ 23  7,7  | OPED
  22  4,6  - PERIODS
+ 21  5,8  | DIPS
+ 21  7,8  | DIPS
+ 21  5,8  | DOPE
  21  7,8  | DOPE
  21  5,7  | EPOS
  21  5,7  | OPES
+ 21  7,7  | OPES
  21  5,8  | PEDS
+ 21  7,8  | PEDS
  21  5,8  | PODS
+ 21  7,8  | PODS
+ 20  5,8  | DIP
+ 20  7,8  | DIP
  20  2,6  - DOPERS
  20  1,6  - DOPIER
+ 20  5,6  | EIDOS
  20  7,6  | EIDOS
  20  2,10 - ISOPOD
  20  5,8  | PED
+ 20  7,8  | PED
+ 20  5,8  | PIED
+ 20  7,8  | PIED
  20  5,8  | POD
+ 20  7,8  | POD
  20  4,8  - POISED
  20  5,10 - POISED
  20  5,6  - PRIDES
@@ -24,29 +39,49 @@
  20  5,6  - PROSED
  20  6,6  - REDIPS
  20  1,6  - SPIDER
+ 19  5,9  | ESQ
+ 19  7,9  | ESQ
  19  5,8  | PESO
+ 19  7,8  | PESO
+ 19  5,8  | PIES
+ 19  7,8  | PIES
  19  5,8  | PISO
+ 19  7,8  | PISO
+ 19  7,8  | POIS
  19  5,8  | POSE
+ 19  7,8  | POSE
  19  5,8  | SIPE
+ 19  7,8  | SIPE
  18  2,10 - DIPSO
  18  2,6  - DOPER
  18  5,7  | OPE
+ 18  7,7  | OPE
  18  5,8  | PES
+ 18  7,8  | PES
+ 18  5,8  | PIE
+ 18  7,8  | PIE
  18  5,8  | PIS
+ 18  7,8  | PIS
+ 18  7,8  | POI
  18  3,9  - POINDS
  18  5,5  | POIS
  18  4,8  - POISE
  18  1,6  - POISER
  18  5,8  | POS
+ 18  7,8  | POS
  18  6,6  - REDIP
  18  6,6  - RIPED
  18  6,6  - ROPED
  18  5,8  | SIP
+ 18  7,8  | SIP
  18  5,8  | SOP
  18  7,8  | SOP
+ 18  5,2  | SPODE
  18  7,2  | SPODE
  17  5,3  | DOPE
+ 17  5,7  | IDES
  17  7,7  | IDES
+ 17  5,7  | ODES
  17  7,7  | ODES
  17  3,9  - POIND
  16  5,9  | OPE
@@ -59,39 +94,68 @@
  16  6,6  - REPOS
  16  6,6  - RIPES
  16  6,6  - ROPES
+ 16  5,1  | SIPED
  16  7,1  | SIPED
  16  2,6  - SPEIR
  16  2,6  - SPIER
+ 15  5,8  | DIES
+ 15  7,8  | DIES
+ 15  5,8  | DOES
  15  7,8  | DOES
+ 15  5,1  | DOPES
  15  7,1  | DOPES
+ 15  5,8  | DOSE
  15  7,8  | DOSE
+ 15  5,9  | IP
+ 15  7,9  | IP
  15  5,9  | OP
  15  7,9  | OP
+ 15  5,2  | OPED
  15  7,2  | OPED
  15  5,8  | PE
+ 15  7,8  | PE
  15  3,9  - PEINS
  15  3,9  - PEONS
+ 15  5,3  | PESO
  15  5,8  | PI
+ 15  7,8  | PI
  15  3,9  - PIONS
+ 15  5,3  | PISO
  15  5,8  | PO
+ 15  7,8  | PO
  15  5,5  | POI
  15  4,8  - POIS
  15  4,9  - PONIED
+ 15  5,3  | POSE
  15  7,3  | POSE
  15  5,8  | SIDE
+ 15  7,8  | SIDE
  15  5,3  | SIPE
+ 15  5,2  | SPED
  15  7,2  | SPED
  15  4,8  - SPIED
+ 14  5,8  | DIE
+ 14  7,8  | DIE
  14  5,3  | DIP
+ 14  5,2  | DIPSO
  14  1,7  - DIPSOS
+ 14  5,8  | DIS
+ 14  7,8  | DIS
+ 14  5,8  | DOE
  14  7,8  | DOE
+ 14  5,5  | DOES
+ 14  5,8  | DOS
  14  7,8  | DOS
+ 14  5,7  | IDE
  14  7,7  | IDE
+ 14  5,7  | ODE
  14  7,7  | ODE
  14  3,9  - OPINED
  14  2,9  - OPSIN
+ 14  5,3  | PED
  14  7,3  | PED
  14  3,7  - PISSED
+ 14  5,3  | POD
  14  7,3  | POD
  14  4,8  - POI
  14  3,7  - POISED
@@ -103,20 +167,25 @@
  14  7,8  | SOD
  14  3,9  - SPEND
  14  3,9  - SPINED
+ 13  5,2  | EPOS
  13  7,2  | EPOS
  13  5,4  | OPE
+ 13  5,2  | OPES
  13  7,2  | OPES
  13  3,9  - OPINES
  13  3,9  - PEIN
  13  4,9  - PENDS
  13  3,9  - PEON
  13  3,9  - PION
+ 13  5,2  | POISE
  13  7,2  | POISE
  13  3,7  - POISES
  13  4,9  - PONDS
  13  4,9  - PONIES
+ 13  5,1  | POSED
  13  7,1  | POSED
  13  7,4  | QI
+ 13  5,1  | SPIED
  13  7,1  | SPIED
  12  3,7  - DIPSOS
  12  1,7  - DISPOSE
@@ -124,8 +193,13 @@
  12  2,6  - DOSER
  12  5,9  | EDS
  12  7,9  | EDS
+ 12  5,7  - ESQ
  12  5,9  | IDE
+ 12  7,9  | IDE
  12  5,9  | IDS
+ 12  7,9  | IDS
+ 12  5,7  | IP
+ 12  7,7  | IP
  12  5,9  | ODE
  12  7,9  | ODE
  12  5,9  | ODS
@@ -133,6 +207,7 @@
  12  5,8  | OES
  12  5,9  - ONSIDE
  12  5,7  | OP
+ 12  7,7  | OP
  12  3,9  - OPENS
  12  3,9  - OPINE
  12  5,7  | OSE
@@ -140,11 +215,14 @@
  12  5,5  | PE
  12  3,7  - PEDS
  12  4,9  - PEND
+ 12  5,3  | PES
  12  7,3  | PES
  12  7,3  | PIE
+ 12  5,2  | PIED
  12  7,2  | PIED
  12  5,8  - PIED
  12  4,9  - PINED
+ 12  5,3  | PIS
  12  7,3  | PIS
  12  4,7  - PISSED
  12  5,5  | PO
@@ -152,6 +230,7 @@
  12  7,3  | POI
  12  3,7  - POISE
  12  4,9  - POND
+ 12  5,3  | POS
  12  7,3  | POS
  12  3,7  - POSSE
  12  7,3  | PSI
@@ -175,27 +254,37 @@
  12  7,1  | SPODE
  12  6,7  - SPODES
  11  6,5  - APODS
+ 11  5,8  | DE
  11  7,8  | DE
+ 11  5,8  | DI
+ 11  7,8  | DI
+ 11  5,2  | DIPS
  11  7,2  | DIPS
  11  3,7  - DIPSO
  11  5,8  - DIPSO
+ 11  5,8  | DO
  11  7,8  | DO
+ 11  5,5  | DOE
  11  4,9  - DONSIE
  11  3,5  - DOPAS
  11  7,2  | DOPE
+ 11  5,3  | DOSE
  11  7,3  | DOSE
  11  5,9  | ED
  11  7,9  | ED
  11  5,9  | ID
+ 11  7,9  | ID
  11  3,8  - IODISE
  11  6,8  - IODISE
  11  5,9  | OD
  11  7,9  | OD
+ 11  5,2  | PEDS
  11  7,2  | PEDS
  11  4,9  - PENIS
  11  3,7  - PIES
  11  4,9  - PINES
  11  3,7  - PISS
+ 11  5,2  | PODS
  11  7,2  | PODS
  11  3,7  - POIS
  11  7,1  | POISE
@@ -203,6 +292,7 @@
  11  3,7  - PSIS
  11  5,8  - QI
  11  5,5  - SAPID
+ 11  5,3  | SIDE
  11  7,3  | SIDE
  11  5,8  - SIPED
  11  6,7  - SPODE
@@ -213,10 +303,13 @@
  10  5,8  - DIPS
  10  3,5  - DOPA
  10  2,7  - DOPES
+ 10  5,1  | EIDOS
  10  7,1  | EIDOS
+ 10  5,4  | IP
  10  4,10 - ISOPOD
  10  6,9  - NIPS
  10  6,9  - NOPE
+ 10  5,9  | OES
  10  7,9  | OES
  10  5,4  | OP
  10  3,9  - OPEN
@@ -232,12 +325,14 @@
  10  5,10 | PI
  10  7,10 | PI
  10  7,4  | PIE
+ 10  5,2  | PIES
  10  7,2  | PIES
  10  4,9  - PINE
  10  4,9  - PINS
  10  5,10 | PO
  10  7,10 | PO
  10  2,5  - PODIA
+ 10  5,2  | POIS
  10  7,2  | POIS
  10  1,7  - POISES
  10  4,9  - PONE
@@ -262,22 +357,31 @@
   9  5,6  - DRIPS
   9  5,6  - DROPS
   9  5,9  - ENDS
+  9  5,9  | EO
+  9  7,9  | EO
   9  5,9  | ES
   9  7,9  | ES
+  9  5,4  | IDE
   9  7,4  | IDE
+  9  5,2  | IDES
   9  7,2  | IDES
   9  5,9  | IS
+  9  7,9  | IS
   9  6,9  - NIDES
   9  6,9  - NODES
   9  6,9  - NOSED
+  9  5,4  | ODE
   9  7,4  | ODE
+  9  5,2  | ODES
   9  7,2  | ODES
   9  5,8  | OE
+  9  5,9  | OE
   9  7,9  | OE
   9  5,6  | OES
   9  5,8  | OI
   9  7,9  | OI
   9  7,3  | OPE
+  9  5,3  | OPS
   9  7,3  | OPS
   9  5,9  | OS
   9  7,9  | OS
@@ -299,10 +403,12 @@
   9  5,6  - PRIDE
   9  5,6  - PRIED
   9  5,6  - PRODS
+  9  5,5  | SEI
   9  7,5  | SEI
   9  4,9  - SEND
   9  2,5  - SEPIA
   9  5,8  | SI
+  9  7,8  | SI
   9  5,8  - SIPE
   9  2,7  - SIPES
   9  6,7  - SIPES
@@ -318,30 +424,38 @@
   8  6,5  - APSE
   8  6,5  - ASIDE
   8  5,5  - DAPS
+  8  5,5  | DE
   8  7,5  | DE
   8  4,9  - DENI
   8  4,9  - DENS
   8  7,3  | DIE
   8  7,4  | DIE
+  8  5,2  | DIES
   8  7,2  | DIES
   8  4,9  - DINE
   8  4,9  - DINO
   8  4,9  - DINS
+  8  5,3  | DIS
   8  7,3  | DIS
+  8  5,5  | DO
   8  7,3  | DOE
+  8  5,2  | DOES
   8  7,2  | DOES
   8  4,9  - DONE
   8  4,9  - DONS
   8  5,10 - DOPE
   8  4,6  - DORP
+  8  5,3  | DOS
   8  7,3  | DOS
   8  7,2  | DOSE
   8  5,6  - DRIP
   8  5,6  - DROP
+  8  5,7  | ED
   8  5,8  - EIDOS
   8  5,9  - END
   8  2,9  - EOSIN
   8  3,7  - EPOS
+  8  5,7  | ID
   8  7,7  | ID
   8  6,9  - NIDE
   8  6,9  - NIP
@@ -349,6 +463,7 @@
   8  6,9  - NODI
   8  6,9  - NODS
   8  6,9  - NOISE
+  8  5,7  | OD
   8  7,7  | OD
   8  6,10 - OPED
   8  3,7  - OPES
@@ -377,6 +492,7 @@
   8  3,7  - SIPS
   8  6,7  - SIPS
   8  5,9  - SNED
+  8  5,3  | SOD
   8  7,3  | SOD
   8  3,7  - SOPS
   8  6,7  - SOPS
@@ -393,6 +509,7 @@
   7  4,6  - DORIES
   7  2,7  - DOSES
   7  3,7  - DOSS
+  7  5,3  | EDS
   7  7,3  | EDS
   7  2,7  - EIDOS
   7  4,9  - EONS
@@ -400,16 +517,22 @@
   7  7,3  | IDE
   7  3,5  - IDEAS
   7  6,8  - IDES
+  7  5,3  | IDS
   7  7,3  | IDS
   7  4,9  - IONS
+  7  7,10 | IP
   7  6,9  - NOES
   7  6,9  - NOSE
   7  7,3  | ODE
+  7  5,3  | ODS
   7  7,3  | ODS
   7  5,9  - ONES
   7  5,10 - OOPS
   7  6,10 - OOPS
+  7  5,10 | OP
+  7  7,10 | OP
   7  6,10 - OPES
+  7  5,4  | OSE
   7  7,4  | OSE
   7  5,5  - PAD
   7  5,5  - PASE
@@ -454,6 +577,8 @@
   6  5,10 | DE
   6  7,10 | DE
   6  4,9  - DEN
+  6  5,10 | DI
+  6  7,10 | DI
   6  4,9  - DIN
   6  5,10 | DO
   6  7,10 | DO
@@ -461,10 +586,15 @@
   6  4,9  - DON
   6  4,7  - DOSES
   6  5,6  - DRIES
+  6  5,4  | ED
   6  7,4  | ED
   6  3,10 - EIDOS
   6  5,9  - ENS
+  6  5,6  | EO
+  6  7,6  | EO
+  6  5,7  | EO
   6  5,7  | ES
+  6  5,4  | ID
   6  7,4  | ID
   6  6,8  - IDE
   6  3,5  - IDEA
@@ -473,11 +603,14 @@
   6  5,9  - INS
   6  5,7  | IS
   6  7,7  | IS
+  6  6,9  - NED
   6  6,9  - NOD
+  6  5,4  | OD
   6  7,4  | OD
   6  3,5  - ODEA
   6  3,7  - ODES
   6  5,6  | OE
+  6  5,3  | OES
   6  7,3  | OES
   6  5,6  | OI
   6  5,9  - ONE
@@ -494,6 +627,7 @@
   6  4,7  - PES
   6  4,5  - PIA
   6  5,8  - PIE
+  6  4,6  - PIR
   6  4,7  - PIS
   6  5,8  - PIS
   6  5,10 - POI
@@ -511,6 +645,7 @@
   6  6,7  - SIP
   6  5,8  - SIP
   6  4,6  - SIRED
+  6  5,5  | SO
   6  3,5  - SODA
   6  3,7  - SODS
   6  6,7  - SODS
@@ -520,6 +655,7 @@
   6  4,5  - SPA
   5  5,5  - DAIS
   5  7,4  | DE
+  5  7,4  | DI
   5  4,6  - DIRE
   5  4,7  - DISS
   5  3,6  - DOER
@@ -529,12 +665,16 @@
   5  4,7  - DOSE
   5  5,10 - DOSE
   5  4,7  - DOSS
+  5  5,10 | ED
   5  7,10 | ED
   5  4,9  - EON
   5  7,10 | ID
   5  4,9  - ION
+  5  6,8  - IP
   5  5,6  - IRED
   5  6,9  - NOS
+  5  5,10 | OD
+  5  7,10 | OD
   5  4,5  - ODAS
   5  6,10 - ODES
   5  6,10 - OP
@@ -570,25 +710,39 @@
   4  5,10 - DOS
   4  4,7  - EDS
   4  5,9  - EN
+  4  5,10 | EO
+  4  7,10 | EO
   4  5,6  - EROS
+  4  5,4  | ES
   4  7,4  | ES
+  4  5,10 | ES
   4  7,10 | ES
   4  4,7  - IDS
   4  5,9  - IN
   4  5,6  - IRES
+  4  5,4  | IS
   4  7,4  | IS
   4  7,10 | IS
   4  6,9  - NE
+  4  6,9  - NI
   4  6,9  - NO
+  4  5,5  - OAD
   4  4,5  - ODA
   4  6,10 - ODE
   4  4,7  - ODS
   4  6,10 - ODS
   4  7,4  | OE
+  4  5,10 | OE
+  4  7,10 | OE
   4  7,4  | OI
+  4  5,10 | OI
+  4  7,10 | OI
   4  5,9  - ON
   4  5,6  - ORES
+  4  5,4  | OS
   4  7,4  | OS
+  4  5,10 | OS
+  4  7,10 | OS
   4  5,7  - OSES
   4  6,6  - RED
   4  6,6  - REIS
@@ -610,6 +764,8 @@
   4  4,6  - SORI
   3  6,5  - AD
   3  6,5  - AIS
+  3  5,5  - DA
+  3  5,8  - DI
   3  5,10 - DO
   3  5,6  - ERS
   3  4,7  - ESS
@@ -619,6 +775,8 @@
   3  6,10 - OD
   3  4,7  - OES
   3  6,10 - OES
+  3  5,10 - OOS
+  3  6,10 - OOS
   3  5,6  - ORE
   3  5,6  - ORS
   3  5,7  - OSE
@@ -638,6 +796,7 @@
   2  6,5  - AE
   2  6,5  - AI
   2  6,5  - AS
+  2  5,10 - EO
   2  5,6  - ER
   2  5,7  - ES
   2  5,7  - IS
@@ -645,10 +804,13 @@
   2  6,10 - OE
   2  5,8  - OI
   2  6,10 - OI
+  2  5,10 - OO
+  2  6,10 - OO
   2  5,6  - OR
   2  5,7  - OS
   2  6,10 - OS
   2  6,6  - RE
+  2  5,5  - SA
   2  6,7  - SI
   2  5,8  - SI
   2  6,7  - SO

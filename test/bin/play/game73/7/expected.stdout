@@ -36,6 +36,7 @@
  33  1,11 - POMES
  33  1,11 - PROEM
  33  1,11 - PROMS
+ 32  7,1  - TEM
  32  7,1  - TOM
  31  1,3  - MOB
  31  3,8  | REMS
@@ -47,7 +48,11 @@
  30  1,11 - POTTERS
  30  1,11 - PROM
  30  1,11 - PROTEST
+ 30  8,2  | SOREST
+ 30  8,1  | TSORES
  29  8,1  - OMER
+ 29  8,2  | SORES
+ 28  8,2  | SORE
  28  8,2  | SOTS
  27  1,11 - POM
  27  1,11 - POSTER
@@ -68,6 +73,7 @@
  25  1,3  | ROM
  25  4,9  - SMOTE
  25  1,3  | SOM
+ 25  1,3  | TEM
  25  1,3  | TOM
  24  1,11 - PESTO
  24  1,11 - PETTO
@@ -81,6 +87,7 @@
  24  8,2  | SOS
  24  8,2  | SOT
  24  4,9  - STEM
+ 24  8,4  | TERMS
  23  7,1  - TET
  23  7,1  - TOE
  23  7,1  - TOR
@@ -111,10 +118,12 @@
  21  1,11 - POST
  21  1,11 - POTS
  21  1,11 - PROS
+ 21  8,4  | REMS
  21  4,9  - REMS
  21  4,9  - ROMS
  21  4,9  - ROTTES
  21  4,9  - SOME
+ 21  8,4  | TERM
  20  8,1  - EMO
  20  8,1  - EMS
  20  8,1  - EROS
@@ -122,6 +131,8 @@
  20  8,1  - OMS
  20  8,1  - ORES
  20  8,1  - ORTS
+ 20  8,4  | REM
+ 20  8,4  | TEM
  19  1,9  - DeERS
  19  4,9  - REM
  19  4,9  - ROM
@@ -137,25 +148,36 @@
  18  1,11 - POT
  18  1,11 - PRO
  18  1,11 - PST
+ 18  8,4  | REST
  18  4,9  - REST
+ 18  8,4  | RETS
  18  4,9  - RETS
  18  4,9  - ROES
  18  4,9  - ROSE
  18  4,9  - ROTE
  18  4,9  - ROTS
+ 18  8,4  | SETT
  18  4,9  - SETT
  18  4,9  - SORE
  18  4,9  - SORT
  18  8,5  | STEM
  18  4,9  - STET
  18  4,9  - STOT
+ 18  8,4  | TEST
+ 18  8,4  | TETS
  17  7,2  | AXISES
  17  1,9  - DeER
  17  1,9  - DeES
  17  8,1  - EM
  17  8,1  - OM
+ 17  8,4  | RES
+ 17  8,4  | RET
+ 17  8,4  | SER
+ 17  8,4  | SET
+ 17  8,4  | TET
  16  3,9  | ERS
  16  3,1  - JOE
+ 16  8,4  | RE
  16  4,9  - RES
  16  4,9  - RET
  16  4,9  - ROE
@@ -164,6 +186,7 @@
  16  4,9  - SET
  16  4,9  - SOT
  16  7,1  - TE
+ 16  8,4  | TE
  16  7,1  - TO
  15  5,1  | ESS
  15  6,4  - KISMET
@@ -171,6 +194,7 @@
  15  4,9  - RE
  15  4,9  - SO
  14  3,8  | REM
+ 14  3,8  | TEM
  13  1,3  | ERS
  13  3,1  - JO
  13  5,8  | MORE
@@ -182,6 +206,7 @@
  13  5,8  | MOTT
  13  1,3  | OES
  13  4,1  | OI
+ 13  5,8  | OMER
  13  1,3  | ORS
  13  1,3  | ORT
  13  1,3  | RES
@@ -206,6 +231,7 @@
  12  5,8  | MOS
  12  5,8  | MOT
  12  1,4  | OM
+ 12  5,8  | OMS
  12  6,3  - OXO
  12  8,2  | SO
  12  8,5  | SOME
@@ -222,6 +248,7 @@
  11  5,8  | ME
  11  5,8  | MO
  11  8,1  - OES
+ 11  5,8  | OM
  11  8,1  - ORE
  11  8,1  - ORS
  11  8,1  - ORT
@@ -247,6 +274,10 @@
  10  5,8  | TOME
  10  5,8  | TOMS
   9  2,8  - AMEERS
+  9  8,5  | EMO
+  9  8,5  | EMS
+  9  8,5  | EROS
+  9  8,5  | ERST
   9  6,4  - KIR
   9  6,4  - KIS
   9  6,4  - KIT
@@ -259,8 +290,11 @@
   9  8,5  | SORT
   9  8,5  | STET
   9  8,5  | STOT
+  9  5,8  | TEM
   9  5,8  | TOM
   8  2,8  - AMEER
+  8  8,5  | EM
+  8  8,1  - EO
   8  8,1  - ER
   8  8,1  - ES
   8  8,1  - ET
@@ -268,15 +302,19 @@
   8  8,1  - OR
   8  8,1  - OS
   7  4,8  - EMES
+  7  3,9  | EO
   7  3,9  | ER
   7  5,8  | EROS
   7  4,8  - EROSE
+  7  4,8  - ERSOE
   7  5,8  | ERST
   7  3,9  | ES
   7  4,8  - ESTER
   7  6,5  - ESTERS
   7  3,9  | ET
   7  1,5  - MALe
+  7  5,8  | ORES
+  7  5,8  | ORTS
   7  5,8  | REST
   7  5,8  | RETS
   7  5,8  | ROES
@@ -305,13 +343,19 @@
   6  4,8  - EMO
   6  4,8  - EMS
   6  1,4  | ER
+  6  8,5  | ERS
   6  5,8  | ERS
   6  1,4  | ES
   6  6,5  - ESTER
   6  1,4  | ET
   6  1,7  - MU
+  6  5,8  | OES
   6  1,4  | OR
+  6  5,8  | ORE
+  6  5,8  | ORS
+  6  5,8  | ORT
   6  1,4  | OS
+  6  5,8  | OSE
   6  5,8  | RES
   6  5,8  | RET
   6  5,8  | ROE
@@ -328,10 +372,18 @@
   6  5,8  | TOT
   5  2,8  - ARETE
   5  4,8  - EM
+  5  8,5  | EO
+  5  5,8  | EO
+  5  8,5  | ER
   5  5,8  | ER
+  5  8,5  | ES
   5  5,8  | ES
   5  6,5  - ESES
+  5  8,5  | ET
   5  5,8  | ET
+  5  5,8  | OE
+  5  5,8  | OR
+  5  5,8  | OS
   5  1,11 - PE
   5  1,11 - PO
   5  5,8  | RE
@@ -351,8 +403,11 @@
   3  2,8  - ATE
   3  4,8  - ERE
   3  4,8  - ERS
+  3  6,5  - ESE
+  3  4,8  - ESE
   3  6,5  - ESS
   2  4,8  - EE
+  2  4,8  - EO
   2  4,8  - ER
   2  5,1  | ES
   2  8,1  | ES

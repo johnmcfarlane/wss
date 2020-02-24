@@ -4,6 +4,8 @@
  40  6,10 - UVEAS
  38  6,6  | CASQUE
  34 10,1  | QUA
+ 34 10,1  | QUE
+ 33  9,11 - LOQ
  32  8,8  - ViES
  31  8,8  - QiS
  30  7,2  - QUEST
@@ -17,6 +19,7 @@
  24  9,2  - QAT
  20  4,8  - SEQUOiA
  20  7,10 - SUAVE
+ 20 10,1  | VU
  19  9,11 - LUV
  19  6,4  | SACQUE
  19  5,9  - SQUAD
@@ -52,6 +55,8 @@
  16  8,8  - ViE
  16  8,8  - ViS
  15  8,9  - ADOS
+ 15  4,7  - AVOS
+ 15  6,6  | COQ
  15  9,9  - DUE
  15  9,9  - DUO
  15  8,9  - ODAS
@@ -66,16 +71,20 @@
  14  9,10 - AVO
  14  6,11 - AVULSE
  14  6,11 - OVULES
+ 14 10,8  | SAE
  14 10,8  | SEA
  14  8,10 - VAS
  14  9,2  - VAT
  14  9,2  - VET
+ 14  5,7  - VOE
  13  8,3  - AVER
+ 13  8,8  | OES
  13  8,3  - OVER
  13  7,10 - QUA
  13  6,3  - SAVOUR
  13  8,8  | SEA
  13  7,11 - VALUE
+ 12  4,7  - AVO
  12  9,9  - DOE
  12  9,9  - DOS
  12 10,1  | SAE
@@ -90,28 +99,39 @@
  12  9,3  - VAR
  12  6,4  | VOCES
  12  7,11 - VOLES
+ 12  8,6  | YEA
+ 12  8,6  | YES
+ 11 10,9  | AE
+ 11 10,9  | AS
  11  6,6  | CAVE
  11  6,6  | COVE
+ 11 10,10 | EO
  11 10,9  | ES
  11 10,9  | OE
  11 10,9  | OS
+ 11  8,9  | OSE
  11  6,11 - OVULE
  11 10,4  - QI
+ 11 10,10 | SA
  11 10,10 | SO
  11  5,11 - UVEAL
  11  6,4  | VACS
  10 10,2  | AE
  10  8,8  | AE
+ 10 10,2  | EO
  10  7,6  | OAVES
  10  8,8  | OE
  10  8,2  - OUST
  10  6,11 - OVALS
+ 10  8,8  | SA
  10  8,8  | SO
  10  7,5  | SOAVE
  10  8,2  - SUET
  10  6,4  | VAC
  10  6,11 - VEALS
   9  9,11 - LEU
+  9  6,7  - OE
+  9  6,7  - OS
   9  6,11 - OVAL
   9  6,3  | SAUCE
   9  7,11 - VALE
@@ -128,6 +148,7 @@
   8  8,2  - OAST
   8 10,1  | OE
   8  9,2  - OUT
+  8 10,1  | SA
   8  8,10 - SAU
   8  8,2  - SEAT
   8  8,11 - SLUE
@@ -138,19 +159,25 @@
   7  8,11 - ALES
   7  8,11 - ALOE
   7  8,11 - ALSO
+  7  8,9  | AS
   7  7,10 - AVA
   7  7,4  | AVO
   7  6,6  | CASE
   7  6,6  | CUE
   7  6,5  | ECU
+  7  5,7  - EO
+  7  8,9  | ES
   7  6,5  | OCAS
   7  8,11 - OLEA
   7  8,11 - OLES
+  7  8,9  | OS
   7  7,9  - OUDS
   7  5,11 - OUSEL
   7  7,6  | OVA
   7  7,10 - OVA
+  7  8,10 | SA
   7  8,11 - SLOE
+  7  5,7  - SO
   7  6,4  | SOCA
   7  8,3  - SUER
   7  6,9  - USED
@@ -161,13 +188,17 @@
   6 10,3  | AS
   6  6,6  | COS
   6  9,2  - EAT
+  6 10,3  | EO
+  6  8,7  - EO
   6 10,3  | ES
   6  9,11 - LAS
   6  9,11 - LEA
   6  9,2  - OAT
   6  6,5  | OCA
+  6  8,7  - OO
   6 10,3  | OS
   6  7,9  - OUD
+  6 10,8  | SA
   6  6,4  | SAC
   6  7,9  - SADE
   6  8,10 - SAE
@@ -183,6 +214,10 @@
   6 10,6  | TAS
   6  8,3  - USER
   6 10,2  - UT
+  6  8,6  | YE
+  6  8,6  | YO
+  5  6,6  | CO
+  5  7,9  - OAD
   5  8,3  - OSAR
   5  9,3  - OUR
   5  7,9  - SAD
@@ -225,6 +260,7 @@
   3  8,9  - AD
   3  8,11 - AL
   3  8,8  - Ai
+  3  9,9  - DA
   3  9,9  - DE
   3  9,9  - DO
   3  8,9  - ED
@@ -233,6 +269,8 @@
   3  9,11 - LO
   3  8,9  - OD
   3  7,6  | OES
+  3  7,5  | OOS
+  3  7,6  | OOS
   3  7,6  | OSE
   3  8,8  - Oi
   3  7,10 - SEA
@@ -240,11 +278,15 @@
   2  8,10 - AA
   2 10,4  - AI
   2 10,3  - AR
+  2  7,5  | EO
   2 10,3  - ER
   2  7,6  | OE
   2 10,4  - OI
+  2  7,5  | OO
+  2  7,6  | OO
   2 10,3  - OR
   2  7,6  | OS
+  2  8,10 - SA
   2 10,4  - SI
   2  7,5  | SO
   1  9,8  - iS

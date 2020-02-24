@@ -1,4 +1,5 @@
  34  4,4  | ZOLS
+ 27  3,5  - ZEE
  25  5,3  | ZEROES
  24  5,3  | ZEROS
  23  5,3  | ZERO
@@ -10,7 +11,9 @@
  18  2,5  - EKES
  18  4,6  | LEK
  18  2,5  - OKES
+ 18  2,5  - SKEE
  18  5,4  | ZOOKS
+ 17  3,5  - KES
  17  3,7  - KOR
  17  3,7  - KOS
  17  1,7  - ZERO
@@ -28,6 +31,7 @@
  13  5,5  | OOZE
  13  5,4  | ZOOS
  13  5,5  | ZOOS
+ 12  6,4  | ESQ
  12  4,3  | KEELS
  12  4,3  | KOELS
  12  1,5  - KORE
@@ -37,6 +41,7 @@
  12  5,4  | ZOO
  12  5,5  | ZOO
  11  4,5  | ELKS
+ 11  1,7  - ERSOE
  11  4,3  | KEEL
  11  4,3  | KOEL
  11  4,6  | LEEK
@@ -49,10 +54,12 @@
  10  5,5  | ROOKS
   9  3,5  - OES
   9  5,6  | OKES
+  9  3,5  - REE
   9  3,5  - RES
   9  4,2  | RESOLE
   9  3,7  - ROE
   9  5,4  | ROOKS
+  9  3,5  - SEE
   8  4,5  | ELK
   8  5,5  | KORE
   8  5,5  | KORS
@@ -69,10 +76,13 @@
   8  5,5  | SOOK
   8  1,5  - SORE
   8  4,2  | SOREL
+  7  4,5  - EE
   7  4,4  | EELS
   7  4,5  | ELSE
+  7  4,5  - EO
   7  2,5  - ERE
   7  4,5  - ES
+  7  2,5  - ESE
   7  5,5  | KOR
   7  5,5  | KOS
   7  4,6  | LEER
@@ -97,6 +107,8 @@
   7  4,4  | SOLE
   6  3,5  - EE
   6  4,4  | EEL
+  6  3,7  - EO
+  6  5,3  | ERSOE
   6  4,6  | LEE
   6  3,5  - OE
   6  3,5  - RE
@@ -116,11 +128,16 @@
   3  4,5  | EL
   3  4,6  | LO
   3  5,6  | OES
+  3  5,5  | OOS
+  3  5,6  | OOS
   3  5,6  | ORE
   3  5,6  | ORS
   3  5,6  | OSE
   3  5,5  | ROE
+  2  5,5  | EO
   2  5,6  | OE
+  2  5,5  | OO
+  2  5,6  | OO
   2  5,6  | OR
   2  5,6  | OS
   2  5,5  | SO

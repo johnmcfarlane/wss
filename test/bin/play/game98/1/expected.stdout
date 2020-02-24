@@ -3,10 +3,13 @@
  35  8,4  | QuEST
  35 11,2  | VeNTS
  32 11,3  | DeVS
+ 32  8,6  | ESQ
  32  6,5  | QUaNTS
  32  6,5  | QUiNTS
  32 11,3  | VaNS
  32 11,3  | ViDS
+ 31  8,6  | EsQ
+ 31  8,4  | QuE
  29 11,3  | TaVS
  29 11,3  | VaTS
  29 11,3  | VeTS
@@ -53,8 +56,10 @@
  20 11,3  | aNTS
  19 11,4  | QiS
  19 11,6  | SuQ
+ 19 11,5  | eSQ
  18  8,6  | ENVy
  18 10,6  | OVeNS
+ 18  6,5  - VaN
  18  9,3  | VeNDS
  18  8,4  | ViED
  18  8,3  | aDVENTS
@@ -67,9 +72,11 @@
  16  6,4  | SQUiNT
  16  6,2  | TeNDUS
  16  3,7  - VaNS
+ 16  6,5  - VaT
  16  8,4  | VeE
  16  9,3  | VeND
  16  3,7  - VeNT
+ 16  6,5  - VeT
  16  3,7  - ViDS
  16  8,4  | ViE
  16  8,4  | VoE
@@ -91,7 +98,10 @@
  15 11,4  | VeST
  15  3,7  - VeST
  15  3,7  - VeTS
+ 15  9,5  - eSQ
+ 15  9,7  - eSQ
  14 10,5  | DONuTS
+ 14  4,5  - DeV
  14  6,5  | QUaD
  14  6,5  | QUeST
  14  6,5  | QUiD
@@ -102,6 +112,8 @@
  14  4,7  - QiS
  14 10,4  | QuODS
  14  6,4  | SQUaT
+ 14  6,4  | SQUiT
+ 14 11,6  | SeV
  14 10,5  | TONDoS
  14  6,2  | TeNDU
  14 10,2  | ToNDOS
@@ -112,6 +124,7 @@
  14 11,4  | VaS
  14 11,4  | ViS
  13  8,5  - DaNS
+ 13  8,7  - DaNS
  13  8,3  | DaVENS
  13  8,5  - DeNS
  13  8,7  - DeNS
@@ -119,7 +132,9 @@
  13  8,7  - DeNT
  13  3,7  - DeVS
  13  8,5  - DiNS
+ 13  8,7  - DiNS
  13  8,5  - DiNT
+ 13  8,7  - DiNT
  13  8,5  - DoNS
  13  8,7  - DoNS
  13  8,3  | DoVENS
@@ -131,6 +146,8 @@
  13  5,7  - SNeD
  13  6,5  | SUQ
  13  6,5  | SUQs
+ 13  4,5  - SeV
+ 13  4,5  - TaV
  13  8,4  | TrENDS
  13  8,5  | VENTeD
  13  8,5  | VEiNS
@@ -140,23 +157,31 @@
  13  2,7  - VeNDS
  13  6,5  | sUQS
  12  8,5  - DaN
+ 12  8,7  - DaN
  12  8,5  - DeN
  12  8,7  - DeN
  12  8,3  | DeVEST
  12  8,5  - DiN
+ 12  8,7  - DiN
  12  8,3  | DiVEST
  12  8,5  - DoN
  12  8,7  - DoN
  12 11,4  | DoST
  12 11,4  | DuST
  12  8,3  | DuVETS
+ 12  6,5  - NeD
+ 12  8,5  - NeD
+ 12  6,7  - NeD
+ 12  8,7  - NeD
  12  8,4  | NeEDS
  12 11,4  | NeST
  12  6,5  - NoD
  12  8,5  - NoD
  12  8,7  - NoD
  12  6,5  | QUa
+ 12  6,5  | QUe
  12  6,5  | QUi
+ 12  8,7  - SaND
  12  8,4  | ScEND
  12  8,7  - SeND
  12  8,4  | ShEND
@@ -203,6 +228,7 @@
  11  8,4  | STEiN
  11  8,4  | STErN
  11 11,6  | SaD
+ 11 11,6  | SaN
  11 11,6  | SeN
  11  8,7  - SeNT
  11 11,6  | SiN
@@ -215,7 +241,9 @@
  11  8,5  | TENDuS
  11  8,5  | TEiNDS
  11  8,5  - TaDS
+ 11  8,7  - TaDS
  11  8,5  - TaNS
+ 11  8,7  - TaNS
  11  3,7  - TaVS
  11  8,5  - TeDS
  11  8,7  - TeDS
@@ -223,6 +251,7 @@
  11  8,7  - TeNS
  11  8,2  | TeNSED
  11  8,5  - TiNS
+ 11  8,7  - TiNS
  11  8,5  - ToDS
  11  8,7  - ToDS
  11  8,5  - ToNS
@@ -235,12 +264,15 @@
  11  6,3  | VoDUN
  11 11,4  | aDS
  11  8,4  | aVENS
+ 11 10,5  | cOQ
  11 11,4  | eDS
  11 11,4  | eNS
  11  8,4  | eVENS
  11  8,4  | eVENT
  11 11,4  | iDS
  11 11,4  | iNS
+ 11 10,5  | lOQ
+ 11 11,5  | lSD
  11 11,4  | oDS
  11 11,4  | oNS
  11  8,4  | oVENS
@@ -259,6 +291,7 @@
  10  3,7  - DiNS
  10  3,7  - DiNT
  10  8,5  - DiS
+ 10  8,7  - DiS
  10  8,5  - DiT
  10 10,3  | DiVOTS
  10  3,7  - DoNS
@@ -289,11 +322,14 @@
  10  8,2  | STaVED
  10 10,2  | STeNO
  10 11,6  | STy
+ 10  8,7  - SaD
+ 10  8,7  - SaN
  10 10,2  | SaNTO
  10 11,6  | SaT
  10  6,7  - SeN
  10  8,7  - SeN
  10 11,6  | SeT
+ 10  8,7  - SiN
  10 11,6  | SiT
  10  8,7  - SoD
  10  8,7  - SoN
@@ -305,7 +341,9 @@
  10  8,5  | TEiND
  10 11,5  | TSk
  10  8,5  - TaD
+ 10  8,7  - TaD
  10  8,5  - TaN
+ 10  8,7  - TaN
  10 11,4  | TaS
  10  8,5  - TeD
  10  6,7  - TeD
@@ -315,6 +353,7 @@
  10  8,7  - TeN
  10  9,3  | TeNDS
  10  8,5  - TiN
+ 10  8,7  - TiN
  10 11,4  | TiS
  10  8,5  - ToD
  10  8,7  - ToD
@@ -329,6 +368,7 @@
  10  8,5  | VErTS
  10  8,5  | VEsTS
  10 10,5  | VODuN
+ 10  6,5  | VUlNS
  10  8,3  | VaNED
  10  6,4  | VaUNT
  10  6,3  | VeNUS
@@ -388,6 +428,7 @@
   9  9,2  | STaND
   9  3,5  - STuN
   9  3,7  - STuN
+  9 11,6  | Sa
   9  8,3  | SaVED
   9  8,4  | ScENT
   9  8,2  | SeNTE
@@ -430,6 +471,7 @@
   9  8,3  | ViSED
   9  8,3  | VoTED
   9  9,5  - aND
+  9  9,7  - aND
   9  8,3  | aNTES
   9 11,5  | aS
   9  8,5  | bEND
@@ -530,11 +572,13 @@
   8  3,7  - TaDS
   8  3,7  - TaNS
   8  8,5  - TaS
+  8  8,7  - TaS
   8  3,7  - TeDS
   8  9,3  | TeND
   8  3,7  - TeNS
   8  3,7  - TiNS
   8  8,5  - TiS
+  8  8,7  - TiS
   8  3,7  - ToDS
   8  3,7  - ToNS
   8  3,7  - TuNS
@@ -557,9 +601,11 @@
   8  8,3  | VoTES
   8  9,4  | aDDS
   8  9,5  - aDS
+  8  9,7  - aDS
   8  9,4  | aNDS
   8  3,7  - aNDS
   8  9,5  - aNT
+  8  9,7  - aNT
   8  8,3  | aNTE
   8  9,5  - eDS
   8  9,7  - eDS
@@ -570,7 +616,9 @@
   8  8,4  | eVEN
   8  6,5  | gUVS
   8  9,5  - iDS
+  8  9,7  - iDS
   8  9,5  - iNS
+  8  9,7  - iNS
   8  6,5  | lUVS
   8  9,4  | oDDS
   8  9,5  - oDS
@@ -592,12 +640,16 @@
   7  6,5  | DUNkS
   7  6,5  | DUNtS
   7  6,5  | DUrNS
+  7  8,5  - Da
+  7  8,7  - Da
   7  6,4  | DaUNT
   7  8,5  - De
   7  8,7  - De
   7  8,4  | DeE
   7  9,6  | DeNTS
   7  9,6  | DeV
+  7  8,5  - Di
+  7  8,7  - Di
   7  9,4  | DiDST
   7  9,6  | DiDST
   7  8,4  | DiE
@@ -610,6 +662,7 @@
   7  9,6  | DuNTS
   7  8,4  | DyE
   7  8,6  | EVeS
+  7  8,6  | EeN
   7  8,6  | ElD
   7  8,6  | EnD
   7  8,6  | EoN
@@ -627,12 +680,15 @@
   7  6,5  | NUrDS
   7  6,5  - Na
   7  8,5  - Na
+  7  8,7  - Na
   7  8,4  | NaE
   7  6,5  - Ne
   7  8,5  - Ne
   7  6,7  - Ne
   7  8,7  - Ne
   7  8,4  | NeE
+  7  8,5  - Ni
+  7  8,7  - Ni
   7  6,3  | NiDUS
   7  6,5  - No
   7  8,5  - No
@@ -645,6 +701,7 @@
   7  8,5  | SENT
   7  8,5  | SENTe
   7  8,5  | SENTi
+  7  8,5  | SEV
   7  8,4  | STENo
   7  8,4  | STENt
   7 10,4  | STONeD
@@ -654,6 +711,8 @@
   7  8,3  | STiED
   7  8,2  | SToNED
   7  8,3  | STyED
+  7  4,5  - SaN
+  7  4,7  - SaN
   7  8,3  | SaVE
   7  4,5  - SeN
   7  4,7  - SeN
@@ -691,6 +750,7 @@
   7 10,5  | VOeS
   7 10,5  | VOlT
   7 10,5  | VOwS
+  7  6,5  | VU
   7  6,5  | VUg
   7  6,5  | VUm
   7  7,4  | VaRS
@@ -702,8 +762,10 @@
   7  8,3  | ViSE
   7  8,3  | VoTE
   7  9,5  - aD
+  7  9,7  - aD
   7  9,5  | aDDS
   7  9,5  - aN
+  7  9,7  - aN
   7  3,7  - aNTS
   7  8,4  | aVES
   7 10,4  | aVOS
@@ -722,7 +784,9 @@
   7  6,5  | gUV
   7  8,5  | hENTS
   7  9,5  - iD
+  7  9,7  - iD
   7  9,5  - iN
+  7  9,7  - iN
   7  6,5  | lUV
   7  9,5  - oD
   7  9,7  - oD
@@ -861,6 +925,7 @@
   6  8,4  | SeEN
   6  8,4  | ShED
   6  6,4  | ShUNT
+  6  8,4  | SkED
   6  8,4  | SlED
   6  8,4  | SnED
   6  8,4  | SpED
@@ -976,6 +1041,7 @@
   6  8,5  | rEV
   6  6,5  | rUNTS
   6  8,5  | sENT
+  6  8,5  | sEV
   6  6,4  | sTUDS
   6  6,4  | sTUNS
   6  8,5  | tEDS
@@ -1025,6 +1091,8 @@
   5  6,5  | DUoS
   5  6,5  | DUpS
   5  6,5  | DUsT
+  5 10,5  - Da
+  5 10,7  - Da
   5  7,4  | DaRN
   5  7,4  | DaRTS
   5  8,3  | DaTES
@@ -1033,6 +1101,8 @@
   5 10,5  - De
   5 10,7  - De
   5  8,3  | DeNE
+  5 10,5  - Di
+  5 10,7  - Di
   5  8,3  | DiNE
   5 10,3  | DiNO
   5  7,4  | DiRTS
@@ -1054,6 +1124,7 @@
   5  8,6  | EaTS
   5  8,6  | EfTS
   5  8,6  | ErST
+  5  8,5  | NED
   5  8,5  | NETtS
   5 10,5  | NOD
   5 10,5  | NODe
@@ -1076,6 +1147,8 @@
   5 10,7  - Ne
   5  7,4  | NeRD
   5  7,4  | NeRTS
+  5 10,5  - Ni
+  5 10,7  - Ni
   5  8,3  | NiDE
   5  8,3  | NiTES
   5 10,5  - No
@@ -1136,12 +1209,14 @@
   5  6,5  | SUeD
   5  6,5  | SUnN
   5  6,5  | SUrD
+  5  8,7  - Sa
   5  4,7  - SaT
   5  8,3  | SaTED
   5  6,4  | ScUD
   5  4,7  - SeT
   5 10,3  | SeTON
   5  6,4  | ShUN
+  5  8,7  - Si
   5  4,7  - SiT
   5  8,3  | SiTED
   5  8,7  - So
@@ -1179,6 +1254,7 @@
   5  6,5  | TUrD
   5  6,5  | TUrN
   5  8,5  - Ta
+  5  8,7  - Ta
   5  9,4  | TaDS
   5  7,4  | TaRNS
   5  4,7  - TaS
@@ -1190,6 +1266,7 @@
   5  7,4  | TeRNS
   5  6,4  | ThUD
   5  8,5  - Ti
+  5  8,7  - Ti
   5  8,3  | TiDES
   5  8,4  | TiES
   5  8,3  | TiNES
@@ -1215,6 +1292,7 @@
   5  6,6  | UrNS
   5  6,4  | aNUS
   5  9,5  - aS
+  5  9,7  - aS
   5  9,5  - aT
   5  6,5  | aUNT
   5  8,5  | bEST
@@ -1246,6 +1324,7 @@
   5  6,5  | hUNS
   5  6,5  | hUNT
   5  9,5  - iS
+  5  9,7  - iS
   5  9,5  - iT
   5  4,7  - iTS
   5  8,5  | jEST
@@ -1349,6 +1428,7 @@
   4  9,6  | DuD
   4  9,6  | DuN
   4 10,4  | DuOS
+  4 10,4  | DzOS
   4  8,6  | EDhS
   4  8,6  | EDiT
   4  8,6  | ENdS
@@ -1388,6 +1468,7 @@
   4  6,5  | NUs
   4  6,5  | NUt
   4 10,4  | NaOS
+  4  9,4  | NeD
   4  8,3  | NiTE
   4  9,4  | NoD
   4  8,3  | NoSE
@@ -1569,6 +1650,7 @@
   4  6,5  | jUST
   4  6,5  | jUTS
   4 10,4  | kNOT
+  4  9,4  | lSD
   4  6,5  | lUST
   4 10,5  | mODS
   4 10,5  | mONS
@@ -1645,6 +1727,7 @@
   3  9,6  | DoS
   3  9,6  | DoT
   3 10,4  | DuO
+  3 10,4  | DzO
   3  8,6  | ED
   3  8,6  | EDh
   3  8,6  | EDs
@@ -1656,9 +1739,11 @@
   3  8,6  | EThS
   3  8,5  | NE
   3  8,5  | NEb
+  3  8,5  | NEd
   3  8,5  | NEe
   3  8,5  | NEf
   3  8,5  | NEg
+  3  8,5  | NEk
   3  8,5  | NEt
   3  8,5  | NEw
   3 10,5  | NO
@@ -1683,6 +1768,7 @@
   3 10,6  | ONe
   3 10,6  | ONo
   3 10,6  | ONs
+  3 10,6  | OaD
   3 10,6  | OaST
   3 10,6  | OaTS
   3 10,6  | OdD
@@ -1723,6 +1809,8 @@
   3  6,5  | SUn
   3  6,5  | SUp
   3  6,5  | SUq
+  3 10,5  - Sa
+  3 10,7  - Sa
   3  9,4  | SaD
   3  8,3  | SaTE
   3  6,4  | SaU
@@ -1796,6 +1884,7 @@
   3  8,5  | bED
   3  8,5  | bEN
   3 10,5  | bOD
+  3 10,5  | bON
   3 10,5  | bOTS
   3  6,5  | bUS
   3  6,5  | bUT
@@ -1808,7 +1897,10 @@
   3 10,5  | dON
   3 10,5  | dOST
   3 10,5  | dOTS
+  3 10,5  - eD
   3 10,7  - eD
+  3  8,5  | eEN
+  3 10,5  - eN
   3 10,7  - eN
   3 10,5  | eON
   3  7,5  | eRN
@@ -1833,6 +1925,7 @@
   3 10,5  | jOTS
   3  6,5  | jUS
   3  6,5  | jUT
+  3  8,5  | kED
   3  8,5  | kEN
   3  8,5  | lED
   3 10,5  | lOST
@@ -1845,10 +1938,15 @@
   3 10,5  | mOTS
   3  6,5  | mUS
   3  6,5  | mUT
+  3  8,5  | nED
   3 10,5  | nOD
   3  6,5  | nUS
   3  6,5  | nUT
+  3 10,5  - oD
+  3 10,7  - oD
   3  8,4  | oDE
+  3 10,5  - oN
+  3 10,7  - oN
   3  8,4  | oNE
   3 10,4  | oNO
   3 10,5  | oOTS
@@ -1886,12 +1984,18 @@
   3 10,5  | wOST
   3 10,5  | wOTS
   3  8,5  | yEN
+  3 10,4  | yNO
   3 10,5  | yOD
   3 10,5  | yON
   3  8,5  | zED
+  3  8,5  | zEN
+  2  9,6  | Da
   2  9,6  | De
+  2  9,6  | Di
   2  9,6  | Do
   2  8,6  | ES
+  2  8,6  | ESe
+  2  8,6  | ESq
   2  8,6  | ESs
   2  8,6  | ET
   2  8,6  | ETa
@@ -1905,6 +2009,7 @@
   2 10,6  | OhS
   2 10,6  | OmS
   2 10,6  | OnS
+  2 10,6  | OoS
   2 10,6  | OoT
   2 10,6  | OpS
   2 10,6  | OpT
@@ -1926,6 +2031,7 @@
   2  8,5  | SEn
   2  8,5  | SEr
   2  8,5  | SEt
+  2  8,5  | SEv
   2  8,5  | SEw
   2  8,5  | SEx
   2 10,5  | SO
@@ -1949,7 +2055,9 @@
   2  8,5  | TEd
   2  8,5  | TEe
   2  8,5  | TEg
+  2  8,5  | TEj
   2  8,5  | TEl
+  2  8,5  | TEm
   2  8,5  | TEn
   2  8,5  | TEt
   2  8,5  | TEw
@@ -1992,9 +2100,13 @@
   2 10,5  | dOT
   2  9,5  | eD
   2  7,5  | eRS
+  2 10,5  - eS
   2 10,7  - eS
+  2  8,4  | eSE
+  2 10,5  - eT
   2 10,7  - eT
   2  8,5  | fET
+  2  6,5  | fU
   2  8,5  | gET
   2 10,5  | gOT
   2  8,5  | hES
@@ -2006,6 +2118,7 @@
   2 10,7  - iT
   2  8,5  | jET
   2 10,5  | jOT
+  2  8,5  | kES
   2 10,5  | kOS
   2  8,5  | lET
   2 10,5  | lOT
@@ -2019,9 +2132,12 @@
   2  6,5  | nU
   2  9,5  | oD
   2  8,5  | oES
+  2 10,5  | oOS
   2 10,5  | oOT
   2  7,5  | oRS
   2  7,5  | oRT
+  2 10,5  - oS
+  2 10,7  - oS
   2  8,4  | oSE
   2  8,5  | pES
   2  8,5  | pET
@@ -2038,9 +2154,11 @@
   2  8,4  | uSE
   2  8,4  | uTE
   2  8,5  | vET
+  2  6,5  | vU
   2  8,5  | wET
   2 10,5  | wOS
   2 10,5  | wOT
+  2  8,5  | xES
   2  6,5  | xU
   2  8,5  | yES
   2  8,5  | yET
@@ -2051,9 +2169,11 @@
   1  8,6  | El
   1  8,6  | Em
   1  8,6  | En
+  1  8,6  | Eo
   1  8,6  | Er
   1  8,6  | Es
   1  8,6  | Et
+  1  8,6  | Ew
   1  8,6  | Ex
   1 10,6  | Od
   1 10,6  | Oe
@@ -2062,6 +2182,7 @@
   1 10,6  | Oi
   1 10,6  | Om
   1 10,6  | On
+  1 10,6  | Oo
   1 10,6  | Op
   1 10,6  | Or
   1 10,6  | Os
@@ -2073,9 +2194,11 @@
   1  7,5  | aR
   1  8,5  | bE
   1 10,5  | bO
+  1 10,5  | cO
   1  8,5  | dE
   1 10,5  | dO
   1  8,5  | eE
+  1 10,5  | eO
   1  7,5  | eR
   1  8,5  | fE
   1 10,5  | gO
@@ -2089,6 +2212,7 @@
   1  8,5  | nE
   1 10,5  | nO
   1  8,5  | oE
+  1 10,5  | oO
   1  7,5  | oR
   1  8,5  | pE
   1 10,5  | pO

@@ -19,8 +19,10 @@
  26  3,9  | BOX
  26  6,1  | CIBOLS
  26 10,4  | CIBOLS
+ 26  3,9  - CO
  26  6,1  | COBLES
  26 10,4  | COBLES
+ 26  3,9  | COX
  26  2,1  | ICEBOAT
  24  9,8  | BILE
  24  6,2  | BLOCS
@@ -29,8 +31,11 @@
  24  9,8  | LICE
  24  1,6  | VETO
  24  1,6  | VOTE
+ 23  9,10 - BIO
+ 23  1,9  - IB
  22  6,2  | BICES
  22 10,5  | BICES
+ 22  2,5  - BIDE
  22  2,7  - BINE
  22  2,5  - BODE
  22  2,7  - BONE
@@ -66,8 +71,12 @@
  20  6,1  | TELCOS
  20 10,4  | TELCOS
  19  2,7  - BEN
+ 19  9,10 - BI
+ 19  2,5  - BID
  19  2,7  - BIN
+ 19  9,10 - BO
  19  2,5  - BOD
+ 19  2,7  - BON
  19  8,8  - OBE
  19  8,8  - OBI
  18  6,2  | BELTS
@@ -101,6 +110,7 @@
  18  8,8  | CRIB
  18  9,9  | ICE
  18 10,7  | LESBO
+ 18  2,5  - LIDO
  18  2,7  - LINE
  18  3,4  | LIPE
  18  3,9  - LO
@@ -140,6 +150,7 @@
  16  6,2  | OBITS
  16 10,5  | OBITS
  16  3,5  | OPE
+ 16  2,5  - TIDE
  16  2,7  - TINE
  16  2,7  - TONE
  15  5,1  | BOLTER
@@ -152,6 +163,7 @@
  15 11,8  | ETIC
  15  4,8  - JET
  15  4,8  - JOT
+ 15  2,5  - LID
  15  2,7  - LIN
  15  9,8  | LITE
  15  8,8  - OLE
@@ -171,6 +183,7 @@
  14  3,4  | CEP
  14 10,7  | CIST
  14  5,1  | COILER
+ 14  5,3  | COIR
  14  3,4  | COP
  14 10,7  | COST
  14 10,6  | COTS
@@ -183,14 +196,17 @@
  14  9,10 - TOE
  14  6,1  | TOILES
  14 10,4  | TOILES
+ 13  5,4  | BIRO
  13  5,4  | BORE
  13  8,7  | BORIC
  13 11,7  | BOTEL
  13  5,4  | CERO
+ 13  5,4  | CIRE
  13  2,3  | COBALT
  13  5,4  | CORE
  13  2,7  - EON
  13  6,5  - ETIC
+ 13  3,5  - IDE
  13  2,7  - ION
  13  5,2  | LIBER
  13  8,4  | LOITER
@@ -227,6 +243,7 @@
  12 10,9  | SIB
  12 10,9  | SIC
  12 10,9  | SOB
+ 12  2,8  - TEJ
  12  2,2  | TELIA
  12  6,2  | TELOS
  12 10,5  | TELOS
@@ -246,6 +263,7 @@
  11  9,8  - LEI
  11  8,5  | LIBER
  11  9,8  - LIE
+ 11  5,4  | LIRE
  11  5,1  | LOITER
  11  5,4  | LORE
  11  9,5  | OBELI
@@ -263,8 +281,11 @@
  10  6,3  | COBS
  10  4,5  - DEIL
  10  3,7  - EN
+ 10  8,8  - EO
  10  8,8  - ET
+ 10  3,5  - ID
  10  3,7  - IN
+ 10  3,5  | IP
  10 10,8  | ISLE
  10 10,6  | LEIS
  10 10,7  | LEST
@@ -301,8 +322,11 @@
  10  9,10 - TI
  10  5,2  | TILER
  10 10,6  | TILS
+ 10  5,4  | TIRE
+ 10  5,4  | TIRO
  10  9,10 - TO
  10  5,4  | TORE
+ 10  5,4  | TORI
  10  8,7  | TORIC
   9  8,6  | BIER
   9  8,7  | BIRO
@@ -325,6 +349,7 @@
   9  2,3  | ECLAT
   9  1,5  | EVIL
   9  2,3  | ILEAC
+  9  5,5  | IRE
   9  1,4  | LEVO
   9  1,4  | LIVE
   9  9,6  | LOCI
@@ -428,6 +453,8 @@
   7 11,7  | COTE
   7  6,3  | COTS
   7  7,7  | ECU
+  7  6,5  - IB
+  7  6,7  - IB
   7  6,3  | ICES
   7  2,5  | LAB
   7  2,5  | LAC
@@ -518,6 +545,8 @@
   5  6,5  - EL
   5  5,5  | ER
   5  2,9  | EYE
+  5  9,9  | IB
+  5  5,10 | IB
   5  2,3  | ILEA
   5  8,8  | IRE
   5  6,8  | LASE
@@ -569,6 +598,7 @@
   4  6,8  | EAST
   4  6,4  | ELS
   4 10,7  | ELS
+  4  6,5  - EO
   4  8,8  | ER
   4  6,5  - ET
   4  2,3  | IOTA

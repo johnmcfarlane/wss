@@ -85,7 +85,10 @@
  17  5,7  - FoND
  17  4,7  - sCONE
  16  5,2  - COEdIT
+ 16  5,8  | COQ
  16  4,7  - COoED
+ 16  4,7  - COpED
+ 16  4,7  - COpEN
  16  6,2  | DOiNG
  16  4,7  - FEODs
  16  3,7  - FOCi
@@ -101,15 +104,18 @@
  15  5,7  - COeD
  15  5,7  - COiN
  15  5,7  - COnN
+ 15  5,7  - COoN
  15  5,7  - COrD
  15  5,7  - COrN
  15  8,4  | ChAD
  15  5,7  - CiNE
+ 15  5,7  - CiON
  15  8,4  | ClAD
  15  8,4  | ClAN
  15  5,7  - CoDE
  15  5,7  - CoED
  15  5,7  - CoNE
+ 15  5,7  - CoON
  15  8,4  | CyAN
  15  8,5  | DAfF
  15  3,7  - DECOr
@@ -126,6 +132,7 @@
  15  5,7  - FOhN
  15  5,7  - FOiN
  15  5,7  - FOnD
+ 15  5,7  - FOoD
  15  5,7  - FOrD
  15  3,7  - FaDO
  15  3,7  - FaNO
@@ -133,6 +140,7 @@
  15  5,7  - FiNE
  15  3,7  - FiNO
  15  8,4  | FlAN
+ 15  5,7  - FoOD
  15  8,5  | NAfF
  15  8,5  | NAiF
  15  8,5  | NArC
@@ -166,6 +174,7 @@
  14  4,7  - ClOD
  14  4,7  - ClON
  14  4,7  - CoON
+ 14  5,8  | CoQ
  14  3,7  - DECO
  14  6,2  | DEfOG
  14  5,7  - DiF
@@ -202,6 +211,7 @@
  13  5,7  - COrE
  13  7,3  | CoDON
  13  2,7  - CoNDO
+ 13  8,4  | CpA
  13  5,7  - DONa
  13  5,7  - DONe
  13  5,7  - DONg
@@ -229,6 +239,7 @@
  13  3,7  - ODEoN
  13  6,7  - ONE
  13  7,2  | ONEFOlD
+ 13  6,5  - aND
  13  5,7  - bODE
  13  5,7  - bONE
  13  5,7  - cODE
@@ -272,6 +283,8 @@
  12  3,7  - DECo
  12  3,7  - DEFi
  12  5,7  - DON
+ 12  4,11 - Di
+ 12  7,5  - EF
  12  3,7  - ENDOw
  12  5,7  - EONs
  12  8,4  | ElAND
@@ -290,8 +303,16 @@
  12  5,7  - FoN
  12  4,7  - FrOE
  12  5,7  - NOD
+ 12  4,11 - Ni
+ 12  7,5  - ODaH
+ 12  7,5  - OF
+ 12  7,5  - OkEH
+ 12  5,7  - OpED
+ 12  5,7  - OpEN
  12  5,2  - cOEDIT
+ 12  5,8  | cOQ
  12  6,7  - iF
+ 12  5,8  | lOQ
  12  6,7  - oF
  12  4,7  - uDON
  11  8,5  | CAiD
@@ -311,6 +332,7 @@
  11  6,3  | CONGeE
  11  6,3  | COgGED
  11  6,3  | COiGNE
+ 11  4,7  - COpE
  11  7,2  | COrDON
  11  7,2  | DEaCON
  11  4,5  - DEaN
@@ -329,6 +351,7 @@
  11  7,3  | ENFOlD
  11  5,7  - EON
  11  4,7  - EbON
+ 11  5,8  | EsQ
  11  4,7  - ExON
  11  8,5  | FAiN
  11  8,5  | FArD
@@ -363,12 +386,17 @@
  11  4,7  - fEOD
  11  6,7  - iDE
  11  3,7  - iNFO
+ 11  6,7  - iON
  11  4,7  - jEON
  11  2,7  - kENDO
  11  4,7  - nEON
  11  6,7  - oDE
  11  6,7  - oNE
+ 11  6,7  - pED
+ 11  6,7  - pEN
  11  4,7  - pEON
+ 11  6,7  - pOD
+ 11  7,1  - tEJ
  11  3,7  - uNCO
  11  7,2  - uNITE
  10  8,5  | CADE
@@ -386,6 +414,7 @@
  10  7,3  | COhO
  10  6,3  | COiGN
  10  5,7  - COn
+ 10  5,7  - COo
  10  5,7  - COp
  10  5,7  - COr
  10  5,7  - COs
@@ -397,6 +426,7 @@
  10  6,4  | CoGON
  10  6,3  | CoNGE
  10  6,3  | CoNGO
+ 10  5,7  - CoO
  10  8,5  | DACE
  10  8,4  | DEAN
  10  8,4  | DEANs
@@ -448,10 +478,12 @@
  10  7,3  | aCNODE
  10  5,7  - bOD
  10  7,2  - bOITE
+ 10  5,7  - bON
  10  5,7  - cOD
  10  5,7  - cON
  10  3,7  - dECO
  10  5,7  - dON
+ 10  7,5  - eF
  10  7,3  | eNCODE
  10  5,7  - eON
  10  5,7  - fON
@@ -463,6 +495,7 @@
  10  5,7  - mON
  10  7,2  | nEOCON
  10  5,7  - nOD
+ 10  7,5  - oF
  10  5,7  - pOD
  10  5,7  - rOD
  10  7,3  | sECOND
@@ -477,6 +510,7 @@
   9  8,5  | CAFe
   9  8,5  | CAFf
   9  7,2  | CENtO
+  9  5,7  - CO
   9  7,5  | COFf
   9  7,5  | COFt
   9  7,2  | CONdO
@@ -500,8 +534,11 @@
   9  8,5  | DAwN
   9  8,2  - DITe
   9  6,3  | DONGlE
+  9  4,7  - DOpE
+  9  8,5  - DaH
   9  8,4  | DeAN
   9  7,3  | DeCO
+  9  8,5  - DuH
   9  3,7  - EDdO
   9  4,7  - ENOw
   9  3,7  - EdDO
@@ -526,8 +563,10 @@
   9  8,2  - NITe
   9  7,3  | NODOsE
   9  6,3  | NOgGED
+  9  4,7  - NOpE
   9  8,5  - NaH
   9  6,7  - OEs
+  9  5,5  - OaD
   9  6,7  - OdE
   9  6,7  - OnE
   9  6,7  - OpE
@@ -549,6 +588,7 @@
   9  8,2  - lITE
   9  7,3  | lOCOED
   9  6,3  | lONGED
+  9  8,5  - mEH
   9  8,2  - mITE
   9  8,2  - nITE
   9  8,5  - pEH
@@ -577,6 +617,7 @@
   8  8,5  | CAsE
   8  8,5  | CAtE
   8  8,5  | CAvE
+  8  4,7  - CEp
   8  7,5  | CODE
   8  7,5  | COED
   8  6,4  | COG
@@ -587,6 +628,7 @@
   8  7,4  | COONs
   8  7,4  | COOeD
   8  4,7  - COo
+  8  4,7  - COp
   8  6,4  | CaGE
   8  6,3  | ClOG
   8  7,4  | ClONE
@@ -620,8 +662,10 @@
   8  6,3  | DiNGO
   8  5,7  - DoE
   8  8,5  | EArN
+  8  7,5  - ED
   8  7,7  - ED
   8  9,5  - EH
+  8  7,5  - EN
   8  7,7  - EN
   8  9,5  | ET
   8  8,5  | FAcE
@@ -644,6 +688,7 @@
   8  7,4  | FOOD
   8  7,5  | FOOD
   8  7,4  | FOODs
+  8  4,7  - FOp
   8  6,3  | FlOG
   8  7,4  | FlOOD
   8  6,3  | FrOG
@@ -654,18 +699,25 @@
   8  5,7  - NOd
   8  5,7  - NOh
   8  5,7  - NOm
+  8  5,7  - NOo
   8  5,7  - NOr
   8  5,7  - NOs
   8  5,7  - NOw
+  8  5,5  - NaE
   8  8,8  - NiSI
+  8  5,7  - NoO
   8  6,3  | NuDGE
   8  8,4  | OCA
   8  8,4  | OCAs
   8  4,5  - OCa
+  8  7,5  - OD
+  8  7,7  - OD
   8  7,3  | ODEON
   8  7,3  | ODEONs
   8  3,5  - ODEa
   8  6,7  - OE
+  8  7,5  - ON
+  8  7,7  - ON
   8  6,5  - aD
   8  6,5  - aN
   8  8,5  | cAFE
@@ -745,6 +797,7 @@
   7  7,4  | CiON
   7  7,4  | ClOD
   7  7,4  | ClON
+  7  5,7  - Co
   7  6,4  | CoG
   7  7,4  | CoON
   7  8,5  | DACe
@@ -768,6 +821,7 @@
   7  7,8  | DrAB
   7  6,3  | DuNG
   7  4,7  - DuO
+  7  4,7  - DzO
   7  6,8  | ECU
   7  7,3  | EChO
   7  7,3  | ENDOw
@@ -805,6 +859,7 @@
   7  7,5  | NOCk
   7  4,7  - NoO
   7  7,3  | ODeON
+  7  5,7  - OpE
   7  4,7  - aDO
   7  8,4  | bEANO
   7  7,2  | cONDO
@@ -826,6 +881,7 @@
   7  4,7  - uDO
   7  7,3  | uNCO
   7  6,3  | wODGE
+  7  4,7  - yNO
   6  8,6  | ADO
   6  8,6  | ANE
   6  7,5  | COEd
@@ -878,8 +934,11 @@
   6  7,3  | DOdO
   6  7,3  | DOjO
   6  6,3  | DOnG
+  6  7,5  - Da
+  6  7,7  - Da
   6  6,4  | DaGO
   6  7,7  - De
+  6  7,7  - Di
   6  6,4  | DoGE
   6  6,3  | DrEG
   6  7,4  | DrONE
@@ -889,6 +948,7 @@
   6  6,5  | EGaD
   6  6,4  | ENG
   6  6,4  | ENGs
+  6  5,7  - EO
   6  8,4  | EgAD
   6  4,7  - EgO
   6  8,4  | ElAN
@@ -904,6 +964,7 @@
   6  7,4  | FOOt
   6  7,5  | FOOt
   6  7,5  | FOrE
+  6  6,9  | FU
   6  6,8  | FeU
   6  7,2  - FlIT
   6  7,4  | FlOE
@@ -930,6 +991,7 @@
   6  7,5  - Na
   6  7,7  - Na
   6  7,7  - Ne
+  6  7,7  - Ni
   6  8,5  | OAF
   6  8,5  | OAFs
   6  8,4  | ODA
@@ -937,6 +999,7 @@
   6  8,4  | ODAs
   6  7,3  | ODEOn
   6  4,5  - ODa
+  6  7,7  - OE
   6  4,7  - ONo
   6  6,7  - Od
   6  7,3  | OdEON
@@ -946,6 +1009,7 @@
   6  6,7  - Oi
   6  6,7  - Om
   6  6,7  - On
+  6  6,7  - Oo
   6  6,7  - Op
   6  6,7  - Or
   6  8,4  | OrAD
@@ -953,6 +1017,7 @@
   6  6,7  - Ow
   6  6,7  - Ox
   6  6,7  - Oy
+  6  6,5  - aE
   6  6,5  | aGED
   6  6,5  | aGON
   6  7,4  | aNODE
@@ -971,8 +1036,10 @@
   6  7,3  | dECO
   6  6,3  | dONG
   6  6,8  | eCU
+  6  7,5  - eD
   6  7,7  - eD
   6  6,4  | eDGE
+  6  7,5  - eN
   6  7,7  - eN
   6  8,5  | fADE
   6  8,5  | fADO
@@ -1003,9 +1070,16 @@
   6  8,5  | mADE
   6  8,5  | mANE
   6  8,5  | mANO
+  6  7,5  - oD
+  6  7,7  - oD
   6  7,3  | oDEON
   6  6,7  - oE
+  6  7,5  - oN
+  6  7,7  - oN
+  6  6,7  - oO
   6  8,5  | pANE
+  6  6,7  - pE
+  6  6,7  - pO
   6  7,3  | pOCO
   6  7,5  | pOCO
   6  6,3  | pONG
@@ -1040,6 +1114,7 @@
   5  8,5  | CAt
   5  8,5  | CAw
   5  8,5  | CAy
+  5  7,5  | CO
   5  7,5  | COb
   5  7,5  | COd
   5  7,5  | COg
@@ -1047,6 +1122,7 @@
   5  7,5  | COn
   5  7,5  | COo
   5  7,5  | COp
+  5  7,5  | COq
   5  7,5  | COr
   5  7,5  | COs
   5  7,5  | COt
@@ -1066,7 +1142,9 @@
   5  7,5  | DONg
   5  7,5  | DONs
   5  7,5  | DOwN
+  5  5,5  - Da
   5  6,4  | DaG
+  5  5,7  - Di
   5  6,4  | DiG
   5  5,7  - Do
   5  6,4  | DoG
@@ -1116,6 +1194,7 @@
   5  5,5  - Na
   5  6,4  | NaG
   5  6,4  | NeG
+  5  5,7  - Ni
   5  5,7  - No
   5  6,4  | NoG
   5  7,6  | OCa
@@ -1131,17 +1210,20 @@
   5  7,6  | OfF
   5  7,6  | OrC
   5  7,3  | OrDO
+  5  7,6  | OrF
   5  7,4  | OzONE
   5  5,7  - bO
   5  7,5  | bOND
   5  7,4  | bOOED
   5  7,9  | cAB
+  5  5,7  - cO
   5  7,4  | cOOED
   5  7,9  | dAB
   5  5,7  - dO
   5  7,5  | dOC
   5  6,4  | dOGE
   5  6,4  | eNG
+  5  5,7  - eO
   5  7,9  | fAB
   5  7,5  | fOND
   5  7,9  | gAB
@@ -1164,6 +1246,7 @@
   5  5,7  - nO
   5  8,5  | oAF
   5  8,4  | oCA
+  5  5,7  - oO
   5  8,5  | pAC
   5  5,7  - pO
   5  7,5  | pOND
@@ -1183,6 +1266,7 @@
   5  7,4  | wOOED
   5  5,7  - yO
   5  7,5  | yOND
+  5  8,5  | zAC
   4  8,6  | AbO
   4  8,6  | AcE
   4  8,6  | AdO
@@ -1229,20 +1313,30 @@
   4  7,5  | EON
   4  7,5  | EONs
   4  7,4  | EbON
+  4  7,5  - Ed
   4  7,7  - Ed
   4  7,7  - Ee
+  4  7,5  - Ef
   4  6,4  | EgG
+  4  7,5  - Eh
   4  7,7  - Eh
+  4  7,5  - El
   4  7,7  - El
+  4  7,5  - Em
   4  7,7  - Em
+  4  7,5  - En
   4  7,7  - En
   4  6,4  | EnG
+  4  5,7  - Eo
   4  7,7  - Er
   4  8,4  | ErA
   4  6,4  | ErG
+  4  7,5  - Es
   4  7,7  - Es
+  4  7,5  - Et
   4  7,7  - Et
   4  8,4  | EtA
+  4  7,7  - Ew
   4  7,7  - Ex
   4  7,4  | ExON
   4  6,6  | GEd
@@ -1286,6 +1380,7 @@
   4  7,5  | NOsE
   4  7,5  | NOtE
   4  6,9  | NU
+  4  8,5  | OAD
   4  7,6  | ODE
   4  7,4  | ODOr
   4  7,6  | ONE
@@ -1294,12 +1389,33 @@
   4  7,4  | ONOs
   4  8,4  | ObA
   4  8,4  | OcA
+  4  7,5  - Od
+  4  7,7  - Od
   4  8,4  | OdA
+  4  7,7  - Oe
+  4  7,5  - Of
+  4  7,5  - Oh
+  4  7,7  - Oh
   4  5,7  - Oi
+  4  7,7  - Oi
   4  8,4  | OkA
   4  7,3  | OlEO
+  4  7,5  - Om
+  4  7,7  - Om
+  4  7,5  - On
+  4  7,7  - On
+  4  5,7  - Oo
+  4  7,5  - Op
+  4  5,7  - Op
+  4  7,7  - Or
   4  8,4  | OrA
+  4  7,5  - Os
+  4  7,7  - Os
   4  8,4  | OvA
+  4  7,7  - Ow
+  4  7,7  - Ox
+  4  7,5  - Oy
+  4  7,7  - Oy
   4  7,2  - aDIT
   4  7,4  | aEON
   4  6,5  | aGE
@@ -1391,6 +1507,7 @@
   4  7,5  | nONE
   4  7,4  | nOON
   4  7,5  | nOON
+  4  7,7  - oE
   4  7,7  - pE
   4  9,8  | pE
   4  8,4  | pEAN
@@ -1450,6 +1567,7 @@
   3  8,6  | ANi
   3  8,6  | ANt
   3  8,6  | ANy
+  3  8,5  | DA
   3  8,5  | DAb
   3  8,5  | DAd
   3  8,5  | DAg
@@ -1474,6 +1592,7 @@
   3  7,5  | DOt
   3  7,5  | DOw
   3  7,4  | DuO
+  3  7,4  | DzO
   3  6,8  | EaU
   3  6,8  | EcU
   3  7,2  - EdIT
@@ -1482,6 +1601,7 @@
   3  7,2  - ExIT
   3  6,6  | Gi
   3  6,6  | Go
+  3  6,6  | Gp
   3  8,5  | NA
   3  8,5  | NAb
   3  8,5  | NAe
@@ -1514,6 +1634,7 @@
   3  7,6  | ONo
   3  7,6  | ONs
   3  7,5  | OOzE
+  3  7,6  | OaD
   3  7,2  - ObIT
   3  7,4  | ObOE
   3  7,6  | OdD
@@ -1527,6 +1648,7 @@
   3  8,5  | bAD
   3  8,5  | bAN
   3  7,5  | bOD
+  3  7,5  | bON
   3  8,5  | cAD
   3  8,5  | cAN
   3  7,5  | cOD
@@ -1557,6 +1679,7 @@
   3  7,5  | mON
   3  8,5  | nAN
   3  7,5  | nOD
+  3  8,5  | oAD
   3  8,4  | oDA
   3  7,4  | oNO
   3  8,5  | pAD
@@ -1566,6 +1689,7 @@
   3  8,5  | rAN
   3  7,5  | rOD
   3  8,5  | sAD
+  3  8,5  | sAN
   3  7,5  | sOD
   3  7,5  | sON
   3  6,8  | sOU
@@ -1579,6 +1703,7 @@
   3  8,5  | wAD
   3  8,5  | wAN
   3  7,5  | wON
+  3  7,4  | yNO
   3  7,5  | yOD
   3  7,5  | yON
   3  6,8  | yOU
@@ -1586,17 +1711,23 @@
   2  8,5  | EAr
   2  8,5  | EAt
   2  8,5  | EAu
+  2  7,5  | EO
   2  7,5  | EOn
   2  7,4  | EgO
   2  7,4  | EmO
+  2  8,5  | OAd
   2  8,5  | OAf
   2  8,5  | OAk
   2  8,5  | OAr
   2  8,5  | OAt
   2  7,6  | OE
   2  7,6  | OEs
+  2  7,5  | OO
+  2  7,6  | OO
   2  7,5  | OOh
   2  7,6  | OOh
+  2  7,5  | OOs
+  2  7,6  | OOs
   2  7,5  | OOt
   2  7,6  | OOt
   2  7,6  | ObE
@@ -1625,6 +1756,7 @@
   2  7,5  | dOE
   2  8,2  - fIT
   2  7,5  | fOE
+  2  6,9  | fU
   2  8,5  | gAE
   2  8,2  - gIT
   2  8,4  | gOA
@@ -1670,6 +1802,7 @@
   2  7,4  | tOO
   2  7,5  | tOO
   2  7,5  | vOE
+  2  6,9  | vU
   2  8,5  | wAE
   2  8,2  - wIT
   2  7,5  | wOE
@@ -1704,6 +1837,7 @@
   1  7,6  | Oi
   1  7,6  | Om
   1  7,6  | On
+  1  7,6  | Oo
   1  7,6  | Op
   1  7,6  | Or
   1  7,6  | Os
@@ -1713,7 +1847,10 @@
   1  8,5  | aA
   1  8,5  | bA
   1  7,5  | bO
+  1  7,5  | cO
+  1  8,5  | dA
   1  7,5  | dO
+  1  7,5  | eO
   1  8,5  | fA
   1  7,5  | gO
   1  8,5  | hA
@@ -1727,8 +1864,10 @@
   1  7,5  | mO
   1  8,5  | nA
   1  7,5  | nO
+  1  7,5  | oO
   1  8,5  | pA
   1  7,5  | pO
+  1  8,5  | sA
   1  7,5  | sO
   1  8,5  | tA
   1  7,5  | tO

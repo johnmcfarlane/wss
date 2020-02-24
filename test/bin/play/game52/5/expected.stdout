@@ -38,6 +38,7 @@
  27  2,1  - BIND
  27  3,1  - KIDS
  27  2,1  - PEND
+ 27  2,1  - SKED
  27  2,1  - SKID
  27 10,3  | SPIKE
  26  4,2  - BOINK
@@ -49,6 +50,7 @@
  26  1,2  - PINKO
  26  4,2  - POKIES
  25 10,4  | BIKE
+ 25 10,4  | KEPI
  25 10,4  | KIBE
  25  7,1  | PEKINS
  25 10,4  | PIKE
@@ -56,6 +58,7 @@
  24  3,1  - BIDE
  24  3,1  - BIDS
  24  4,2  - BONK
+ 24  3,1  - KED
  24  8,4  | KEPI
  24  8,4  | KIBE
  24  3,1  - KID
@@ -67,6 +70,7 @@
  24  1,10 - SKIN
  24  2,1  - SPED
  24  3,2  - SPOKE
+ 23  6,1  | IP
  23  8,3  | SPIKE
  22  8,4  | BIKE
  22  4,2  - BOSK
@@ -94,6 +98,7 @@
  21  3,7  | KEPIS
  21  3,7  | KIBES
  21 10,4  | KINE
+ 21  9,10 - LEI
  21  3,1  - NIDES
  21  3,1  - PED
  21  3,7  | PIKES
@@ -127,6 +132,8 @@
  19  4,4  - BRINE
  19  4,4  - BRINS
  19  6,1  | ENS
+ 19  6,1  | INS
+ 19  6,2  | IP
  19  7,2  | KEPIS
  19  7,2  | KIBES
  19  3,3  - KNOBS
@@ -151,6 +158,7 @@
  18  2,2  - KENO
  18  2,2  - KINO
  18  4,4  - KRIS
+ 18 11,9  | NEK
  18  3,1  - NIDE
  18  5,2  - OINK
  18  5,2  - OPENS
@@ -174,9 +182,11 @@
  17  3,7  | KINES
  17  3,3  - KNOB
  17  3,3  - KNOP
+ 17  7,8  | PEN
  17  7,3  | PIES
  17 10,4  | SIPE
  17  3,6  | SKEINS
+ 17 10,5  | SKI
  16  4,3  | BE
  16  7,2  | BINES
  16  4,2  - BONE
@@ -223,18 +233,24 @@
  15  6,1  | EN
  15  4,5  | EN
  15  3,1  - END
+ 15  6,1  | IN
  15  3,7  - KENOS
+ 15 10,6  | KI
  15  3,7  - KINOS
  15 11,9  | NEB
+ 15  3,1  - NED
  15 11,9  | NIB
  15 11,9  | NIP
+ 15  7,8  | PEE
  15  3,7  | PENIS
+ 15  7,8  | PES
  15 10,5  | PIE
  15  1,4  - PIKERS
  15  3,7  | PINES
  15 11,4  | PINKEN
  15 11,7  | PINKS
  15  4,3  - POKIES
+ 15 10,5  | PSI
  15  5,4  - REINKS
  15  3,1  - SIDE
  15  3,7  | SIKES
@@ -242,6 +258,7 @@
  14  1,4  - BIKER
  14  3,2  - BIOS
  14  3,4  - BIRKS
+ 14  4,2  - BON
  14  3,2  - EPOS
  14  3,7  - KENO
  14  3,4  - KERBS
@@ -251,6 +268,7 @@
  14  4,3  - KOINES
  14  4,2  - KOS
  14  6,2  | NE
+ 14  6,2  | NI
  14  4,2  - NOB
  14  5,2  - OBES
  14  5,2  - OBIS
@@ -281,26 +299,32 @@
  13 10,6  | BE
  13 11,6  | BENNIS
  13  3,4  - BERK
+ 13 10,6  | BI
  13  3,4  - BIRK
  13  3,7  | BISES
  13  2,3  - EIKONS
  13  6,2  | EN
  13  3,3  - ENOKIS
+ 13  4,1  | IB
  13  6,2  | IN
  13  1,4  - INKERS
+ 13  4,1  | IP
  13  3,4  - KERB
+ 13  7,4  | KES
  13  7,4  | KIS
  13  5,3  - OINKS
  13 10,6  | PE
  13 11,5  | PEKIN
  13 11,6  | PENNIS
  13  3,4  - PERK
+ 13 10,6  | PI
  13  4,3  - POKES
  13  8,4  | SIKE
  13 10,4  | SINE
  13  3,7  | SINKS
  13  3,7  | SIPES
  13  3,8  | SKIS
+ 12  4,2  | BE
  12  2,10 - BE
  12 11,7  | BENNI
  12  7,4  | BES
@@ -311,12 +335,14 @@
  12  3,3  - ENOKI
  12  4,1  | ENS
  12  4,2  - EOSIN
+ 12  6,8  - GP
  12  3,3  - IKONS
  12  1,4  - INKER
  12  4,1  | INS
  12  3,6  - KEEFS
  12  3,8  | KEPS
  12  3,4  - KERNS
+ 12  3,9  | KES
  12  3,6  - KIEFS
  12 11,7  | KINES
  12  3,8  | KIPS
@@ -335,7 +361,9 @@
  12  5,3  - OPINES
  12  5,2  - OPS
  12  5,3  - OPSIN
+ 12  4,2  | PE
  12  6,3  | PE
+ 12  7,8  | PE
  12  2,10 - PE
  12 11,7  | PENNI
  12  3,3  - PEON
@@ -366,6 +394,7 @@
  11  6,1  | ES
  11  3,8  | INKS
  11 11,8  | INKS
+ 11  6,1  | IS
  11  3,6  - KEEF
  11  4,6  - KEFS
  11  2,4  - KEIRS
@@ -451,6 +480,8 @@
   9  3,3  - EBON
   9  4,1  | EN
   9  3,10 - EN
+  9 10,8  | EW
+  9  9,8  - HE
   9  4,1  | IN
   9  3,10 - IN
   9  4,4  - IRK
@@ -463,6 +494,7 @@
   9  4,3  - KOIS
   9 10,6  | NE
   9  3,8  | NEBS
+  9 10,6  | NI
   9  3,8  | NIBS
   9  3,5  - NIM
   9 11,7  | NINES
@@ -488,6 +520,7 @@
   9  5,4  - RIBS
   9  5,4  - RIPE
   9  5,4  - RIPS
+  9 10,5  | SEI
   9  3,7  | SINES
   9 11,7  | SINK
   9  9,11 - SKI
@@ -503,6 +536,7 @@
   8  5,1  - DEBS
   8  5,1  - DIBS
   8  5,1  - DIPS
+  8  4,2  | EN
   8  4,2  - EON
   8  3,3  - EPOS
   8  7,5  | ES
@@ -512,8 +546,10 @@
   8  7,5  | IS
   8 11,7  | KEN
   8 11,7  | KIN
+  8  4,2  | NE
   8  6,3  | NE
   8  2,10 - NE
+  8  2,10 - NI
   8  4,2  - NOS
   8  5,3  - OBES
   8  5,3  - OBIS
@@ -530,6 +566,7 @@
   8  3,8  | PIES
   8 11,7  | PINE
   8 11,7  | PINS
+  8  3,4  - PIR
   8  2,3  - PISO
   8  3,8  | PISS
   8  4,3  - POIS
@@ -550,6 +587,7 @@
   8 11,6  | SPIN
   7 11,7  | BEN
   7 11,7  | BIN
+  7  4,3  - BON
   7  5,1  - DEB
   7  9,7  - DEB
   7  5,1  - DIB
@@ -575,6 +613,7 @@
   7 11,7  | PEN
   7 11,7  | PIN
   7  5,4  - RINS
+  7 10,6  | SI
   7  3,5  - SIM
   6  3,2  - BIO
   6  4,3  - BOS
@@ -589,11 +628,13 @@
   6  6,10 - EN
   6  4,3  - EONS
   6  4,4  - ERN
+  6  4,2  | ES
   6 11,7  | INNS
   6  4,3  - IONS
   6  4,4  - IRES
   6  8,6  | NE
   6  3,8  | NESS
+  6  8,6  | NI
   6 11,7  | NINE
   6  4,3  - NOES
   6  4,3  - NOSE
@@ -681,6 +722,8 @@
   4  4,3  - SON
   3  5,1  - DE
   3  9,7  - DE
+  3  5,1  - DI
+  3  9,7  - DI
   3  4,1  - ED
   3  8,7  - ED
   3 11,8  | EN
@@ -689,10 +732,13 @@
   3  8,7  - ID
   3 11,8  | IN
   3 11,9  | NE
+  3 11,9  | NI
   3  4,2  - NO
   3  4,3  - NO
   3  5,3  - ON
   3  5,4  - RES
+  2  4,2  - EO
+  2  4,3  - EO
   2  3,10 | ES
   2  8,11 - ES
   2  3,10 | IS

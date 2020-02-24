@@ -2,7 +2,10 @@
  24  1,7  - JOWL
  23  3,7  - JE
  23  2,7  - JOLE
+ 22  1,5  - JOWS
  22  1,7  - JOWS
+ 21  2,7  - JOIE
+ 21  2,7  - JOSE
  21  2,7  - JOW
  20  1,7  - LOWSE
  19  4,5  | JAILS
@@ -15,7 +18,10 @@
  17  3,7  - OWE
  17  2,7  - WILE
  16  5,6  | BLOWS
+ 16  1,5  - JOES
  16  1,7  - JOES
+ 16  1,7  - JOIE
+ 16  1,7  - JOSE
  16  2,4  - SEI
  15  5,6  | BLEW
  15  5,6  | BLOW
@@ -30,6 +36,7 @@
  14  5,6  | BOWLS
  14  2,7  - ISLE
  14  1,7  - LOWE
+ 14  1,5  - LOWS
  14  1,7  - LOWS
  14  2,5  - OWL
  14  2,7  - OWL
@@ -50,7 +57,9 @@
  13  4,5  | WAILS
  12  4,6  | AWLS
  12  5,6  | BOWSE
+ 12  4,5  | JAI
  12  2,7  - OWE
+ 12  1,5  - OWLS
  12  1,7  - OWLS
  12  2,7  - SEW
  12  2,7  - SOW
@@ -62,6 +71,7 @@
  11  5,6  | BOILS
  11  5,6  | BOWS
  11  7,5  | EELS
+ 11  3,7  - EW
  11  4,5  | JA
  11  4,7  - LI
  11  4,7  - LO
@@ -78,12 +88,14 @@
  10  5,6  | BOLES
  10  7,5  | EEL
  10  4,5  | LAWS
+ 10  1,5  - OWES
  10  1,7  - OWES
  10  1,7  - OWSE
  10  1,3  | ROWELS
  10  2,4  - SI
  10  4,5  | WALE
  10  1,7  - WISE
+ 10  1,5  - WOES
  10  1,7  - WOES
   9  4,6  | AILS
   9  4,6  | AWES
@@ -91,9 +103,11 @@
   9  5,6  | BILE
   9  5,6  | BOLE
   9  5,6  | BOW
+  9  4,7  - EO
   9  3,3  | FIL
   9  1,7  - ISLE
   9  7,5  | OES
+  9  1,5  - OILS
   9  1,7  - OILS
   9  1,3  | ROWEL
   9  4,5  | SAIL
@@ -104,8 +118,10 @@
   9  1,7  - SOLE
   9  1,7  - SOLI
   9  4,5  | WAES
+  9  2,5  - WIS
   9  2,7  - WIS
   9  2,7  - WOE
+  9  2,5  - WOS
   9  2,7  - WOS
   9  4,3  | fLEAS
   8  4,6  | AIL
@@ -115,10 +131,13 @@
   8  5,6  | BIOS
   8  5,6  | BISE
   8  7,5  | EE
+  8  2,5  - ELS
   8  2,7  - ELS
   8  7,6  | EWES
   8  6,5  - LEAN
+  8  1,5  - LEIS
   8  1,7  - LEIS
+  8  1,5  - LIES
   8  1,7  - LIES
   8  6,5  - LOAN
   8  1,7  - LOSE
@@ -126,6 +145,7 @@
   8  2,5  - OIL
   8  2,7  - OIL
   8  2,7  - OLE
+  8  1,5  - OLES
   8  1,7  - OLES
   8  1,3  | RESOW
   8  2,5  - SEL
@@ -148,6 +168,7 @@
   7  2,7  - LEI
   7  3,7  - LI
   7  2,7  - LIE
+  7  2,5  - LIS
   7  2,7  - LIS
   7  1,3  | REOILS
   7  1,3  | ROWS
@@ -161,6 +182,7 @@
   6  7,6  | EELS
   6  7,6  | ELSE
   6  7,6  | EWE
+  6  2,5  - OES
   6  2,7  - OES
   6  2,7  - OSE
   6  1,3  | REOIL
@@ -181,13 +203,18 @@
   5  5,6  | BE
   5  5,6  | BI
   5  5,6  | BO
+  5  3,5  - ES
   5  3,7  - ES
+  5  7,6  | EW
   5  3,3  | FE
   5  3,3  | FI
+  5  8,1  - IP
+  5  3,5  - IS
   5  3,7  - IS
   5  3,7  - OE
   5  3,7  - OI
   5  8,1  - OP
+  5  3,5  - OS
   5  3,7  - OS
   5  1,3  | RIEL
   5  1,3  | RILE
@@ -216,6 +243,7 @@
   4  2,3  | USE
   3  4,6  | AL
   3  7,6  | EL
+  3  7,6  | ESE
   3  4,5  | LA
   3  1,3  | RES
   3  1,3  | ROE
@@ -228,5 +256,7 @@
   2  4,6  | AI
   2  4,6  | AS
   2  7,6  | EE
+  2  7,6  | EO
   2  7,6  | ES
   2  1,3  | RE
+  2  4,5  | SA
