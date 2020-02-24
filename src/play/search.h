@@ -56,6 +56,13 @@ struct search_state {
     step_state& step;
 };
 
+auto word_extent(
+        board<char> const& board_tiles,
+        coord const& part_start,
+        int const part_length,
+        coord const& cross_direction)
+-> std::pair<int, int>;
+
 void search(search_state state);
 
 #endif //WSS_SEARCH_H

@@ -56,34 +56,6 @@ namespace {
         return b.cell(pos);
     }
 
-    auto word_extent(
-            board<char> const& board_tiles,
-            coord const& part_start,
-            int const part_length,
-            coord const& cross_direction)
-    {
-        WSS_ASSERT((std::abs(cross_direction[0])==1)!=(std::abs(cross_direction[1])==1));
-
-        auto pre_word_part{-1};
-        while (get(
-                board_tiles,
-                part_start+cross_direction*pre_word_part,
-                vacant)!=vacant) {
-            --pre_word_part;
-        }
-        ++pre_word_part;
-
-        auto post_word_part{part_length};
-        while (get(
-                board_tiles,
-                part_start+cross_direction*post_word_part,
-                vacant)!=vacant) {
-            ++post_word_part;
-        }
-
-        return std::make_pair(pre_word_part, post_word_part);
-    }
-
     auto calc_score(
             initial_state const& init,
             coord const& part_start,
@@ -283,6 +255,35 @@ namespace {
         recurse(found.child(), board_tile, qualifying_cells_count, state);
     }
 } // namespace
+
+auto word_extent(
+        board<char> const& board_tiles,
+        coord const& part_start,
+        int const part_length,
+        coord const& cross_direction)
+-> std::pair<int, int>
+{
+    WSS_ASSERT((std::abs(cross_direction[0])==1)!=(std::abs(cross_direction[1])==1));
+
+    auto pre_word_part{-1};
+    while (get(
+            board_tiles,
+            part_start+cross_direction*pre_word_part,
+            vacant)!=vacant) {
+        --pre_word_part;
+    }
+    ++pre_word_part;
+
+    auto post_word_part{part_length};
+    while (get(
+            board_tiles,
+            part_start+cross_direction*post_word_part,
+            vacant)!=vacant) {
+        ++post_word_part;
+    }
+
+    return std::make_pair(pre_word_part, post_word_part);
+}
 
 void search(search_state state)
 {
