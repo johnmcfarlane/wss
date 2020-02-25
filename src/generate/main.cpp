@@ -145,7 +145,7 @@ auto main(int argc, char const* const* argv) -> int
 
     auto const lexicon{load_lexicon(lexicon_filename)};
     if (!lexicon) {
-        fmt::print(stderr, "error: failed to lexicon from {}\n",
+        fmt::print(stderr, "error: failed to load lexicon from {}\n",
                 lexicon_filename);
         return EXIT_FAILURE;
     }
