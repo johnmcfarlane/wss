@@ -65,9 +65,6 @@ struct step_state {
 
     // letters already on the board touching this word
     int num_qualifying_cells{0};
-
-    // accumulates cross scores until the end
-    int cross_scores{};
 };
 
 struct search_state {
