@@ -120,6 +120,7 @@
  21  3,7  | ArISE
  21  3,7  | EASEd
  21  3,7  | EASEl
+ 21  3,7  | EASEr
  21  3,7  | EASEs
  21  5,4  | EnMESH
  21  3,7  | ErASE
@@ -481,6 +482,7 @@
  16  2,8  - EASE
  16  2,8  - EASEd
  16  2,8  - EASEl
+ 16  2,8  - EASEr
  16  2,8  - EASEs
  16  3,3  - EASIEr
  16  3,3  - EASIEs
@@ -939,6 +941,7 @@
  14  3,3  - EASE
  14  3,3  - EASEd
  14  3,3  - EASEl
+ 14  3,3  - EASEr
  14  3,3  - EASEs
  14 10,2  | EAcH
  14  3,3  - EAcH
@@ -2391,6 +2394,7 @@
   9  3,7  | EASE
   9 10,1  | EASEd
   9 10,1  | EASEl
+  9 10,1  | EASEr
   9 10,1  | EASEs
   9  3,7  | EAcH
   9  2,8  - EAr
@@ -3722,12 +3726,15 @@
   6  4,4  - BrIS
   6  4,4  - ByES
   6  7,4  | EARtH
+  6  7,2  | EASER
+  6  7,2  | EASERs
   6  7,1  | EASIeR
   6  7,1  | EASiER
   6  7,1  | EAStER
   6  7,2  | EAgERS
   6  7,3  | EAgRES
   6  3,7  | EAr
+  6  7,2  | EAsERS
   6  3,7  | EAt
   6  7,2  | EAtERS
   6  3,7  | EAu
@@ -4231,8 +4238,10 @@
   5  1,7  - EASE
   5  6,3  | EASIEr
   5  6,3  | EASIEs
+  5  7,2  | EASeR
   5  7,2  | EAgER
   5  7,3  | EAgRE
+  5  7,2  | EAsER
   5  7,1  | EAsIER
   5  6,3  | EAsIES
   5  7,2  | EAtER
@@ -4546,6 +4555,7 @@
   5  7,5  | dREES
   5  7,5  | dRIES
   5  3,7  | eASE
+  5  7,2  | eASER
   5  5,5  | eM
   5  7,5  | eRASE
   5  2,4  - fAB
@@ -4733,6 +4743,7 @@
   4 10,4  | ES
   4  2,7  - ESE
   4  1,7  - EaSE
+  4  7,2  | EaSER
   4  9,5  - EdH
   4 10,3  | EdS
   4  7,4  | EeRIE
