@@ -64,7 +64,7 @@ public:
 
 private:
 
-    node root;
+    node root{{}, true};
 };
 
 inline bool operator<(edge const& lhs, edge const& rhs)

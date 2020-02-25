@@ -118,4 +118,17 @@ std::optional<board<CellType>> load_board(
     return make_board<CellType>(fields, mapping);
 }
 
+template<typename T>
+void transpose(board<T>& b)
+{
+    auto const edge = ssize(b);
+    for (auto row = 0; row != edge; ++row)
+    {
+        for (auto column = 0; column != row; ++ column)
+        {
+            std::swap(b.cell(coord{column, row}), b.cell(coord{row, column}));
+        }
+    }
+}
+
 #endif //WSS_BOARD_H

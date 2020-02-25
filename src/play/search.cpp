@@ -16,6 +16,7 @@
 
 #include "board.h"
 #include "coord.h"
+#include "letter_set.h"
 #include "tile.h"
 #include "wss_assert.h"
 
@@ -35,6 +36,12 @@
 #include <vector>
 
 namespace {
+    struct score_accumulator {
+        int word_score{};
+        int word_multiplier{1};
+        int crossword_scores{};
+    };
+
     constexpr auto full_rack_size{7};
 
     template<typename T>
@@ -56,171 +63,74 @@ namespace {
         return b.cell(pos);
     }
 
-    auto word_extent(
-            board<char> const& board_tiles,
-            coord const& part_start,
-            int const part_length,
-            coord const& cross_direction)
-    {
-        WSS_ASSERT((std::abs(cross_direction[0])==1)!=(std::abs(cross_direction[1])==1));
-
-        auto pre_word_part{-1};
-        while (get(
-                board_tiles,
-                part_start+cross_direction*pre_word_part,
-                vacant)!=vacant) {
-            --pre_word_part;
-        }
-        ++pre_word_part;
-
-        auto post_word_part{part_length};
-        while (get(
-                board_tiles,
-                part_start+cross_direction*post_word_part,
-                vacant)!=vacant) {
-            ++post_word_part;
-        }
-
-        return std::make_pair(pre_word_part, post_word_part);
-    }
-
-    auto calc_score(
-            initial_state const& init,
-            coord const& part_start,
-            coord const& direction,
-            std::pair<int, int> extents,
-            gsl::span<char> word_part)
-    -> std::optional<int>
-    {
-        auto const word_size{extents.second-extents.first};
-        if (word_size==1) {
-            return 0;
-        }
-
-        int word_multiplier{1};
-        int score{0};
-        auto const* node{&init.lexicon};
-        for (auto i{extents.first}; i!=extents.second; ++i) {
-            auto const pos{part_start+direction*(i)};
-            auto const tile{init.tiles.cell(pos)};
-            auto const cell_premium{init.premiums.cell(pos)};
-
-            auto[letter, letter_multiplier] = [&]() {
-                if (tile!=vacant) {
-                    return std::make_tuple(tile, 1);
-                }
-
-                // mutation!!
-                word_multiplier *= gsl::at(word_multipliers,
-                        int(cell_premium));
-
-                WSS_ASSERT(i>=0);
-                WSS_ASSERT(i<ssize(word_part));
-                auto const letter{gsl::at(word_part, i)};
-
-                auto const letter_multiplier{
-                        gsl::at(letter_multipliers, int(cell_premium))};
-
-                return std::make_tuple(letter, letter_multiplier);
-            }();
-
-            auto const found{
-                    std::find(begin(*node), end(*node), std::toupper(letter))};
-            if (found==end(*node)) {
-                return std::nullopt;
-            }
-            node = &found.child();
-
-            auto const letter_score{init.letter_scores[letter]};
-            score += letter_multiplier*letter_score;
-        }
-        if (!node->is_terminator) {
-            return std::nullopt;
-        }
-        return word_multiplier*score;
-    }
-
-    void search(node const& n, search_state state);
+    void search(node const& n, search_state state, score_accumulator score);
 
     void recurse(node const& n, char letter, int qualifying_cells_count,
-            search_state state)
+            search_state state, score_accumulator score)
     {
         *state.step.word_end++ = letter;
         state.step.num_qualifying_cells += qualifying_cells_count;
-        state.step.pos += state.init.pos.direction;
+        ++state.step.pos[0];
         if (n.is_terminator
                 && state.step.num_qualifying_cells>0
                 && state.step.rack_remaining<state.init.rack_size
                 && get(state.init.tiles, state.step.pos, vacant)
                         ==vacant) {
-            auto const extents{word_extent(
-                    state.init.tiles,
-                    state.init.pos.start,
-                    std::distance(
-                            state.init.word, state.step.word_end),
-                    state.init.pos.direction)};
-            auto const word_score{calc_score(
-                    state.init,
-                    state.init.pos.start,
-                    state.init.pos.direction,
-                    extents,
-                    gsl::span<char>{&*state.init.word, &*state.step.word_end})};
-            WSS_ASSERT(word_score);
-
-            auto play_score{state.step.cross_scores+*word_score};
-            if (state.step.rack_remaining==0
-                    && state.init.rack_size==full_rack_size) {
-                play_score += state.init.letter_scores[full_rack_score_index];
-            }
+            auto const full_rack_bonus = (state.step.rack_remaining==0
+                    && state.init.rack_size==full_rack_size)
+                    ? state.init.letter_scores[full_rack_score_index] : 0;
+            auto const play_score = score.word_score*score.word_multiplier
+                    +score.crossword_scores
+                    +full_rack_bonus;
 
             state.step.finds.emplace_back(result{
                     std::string{state.init.word, state.step.word_end},
                     play_score,
-                    state.init.pos});
+                    {state.init.pos, coord{1, 0}}});
         }
 
-        if (state.step.pos[0] < state.init.tiles.size()
-            && state.step.pos[1] < state.init.tiles.size()) {
-            search(n, state);
+        if (state.step.pos[0] < state.init.tiles.size()) {
+            search(n, state, score);
         }
         
         // cppcheck-suppress unreadVariable
-        state.step.pos -= state.init.pos.direction;
+        state.step.pos -= coord{1, 0};
         // cppcheck-suppress unreadVariable
         state.step.num_qualifying_cells -= qualifying_cells_count;
         --state.step.word_end;
     }
 
     auto fill_square(search_state state, node const& edge,
-            std::pair<int, int> extents, int qualifying_cells_count,
+            int qualifying_cells_count,
             int& counter,
-            char letter)
+            // cppcheck-suppress passedByValue
+            letter_set const crossword_filter,
+            letter_values const& crossword_scores,
+            char letter,
+            score_accumulator score)
     {
         if (counter==0) {
             return;
         }
 
-        auto const cross_score{calc_score(
-                state.init,
-                state.step.pos,
-                state.init.cross_direction,
-                extents,
-                gsl::span<char>(&letter, 1))};
-
-        // Cross-word is not a valid word in the lexicon.
-        if (!cross_score) {
+        if (!crossword_filter[letter]) {
             return;
         }
 
         --counter;
-        state.step.cross_scores += *cross_score;
-        recurse(edge, letter, qualifying_cells_count, state);
-        // cppcheck-suppress unreadVariable
-        state.step.cross_scores -= *cross_score;
+
+        auto const cell_premium = int(state.init.premiums.cell(state.step.pos));
+        score.word_score += state.init.letter_scores[letter]
+                *letter_multipliers[cell_premium]; //NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
+        score.word_multiplier *= word_multipliers[cell_premium]; //NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
+        score.crossword_scores += crossword_scores[letter];
+
+        recurse(edge, letter, qualifying_cells_count, state, score);
+
         ++counter;
     }
 
-    void search(node const& n, search_state state)
+    void search(node const& n, search_state state, score_accumulator score)
     {
         WSS_ASSERT(state.step.rack_remaining>=0);
 
@@ -239,11 +149,7 @@ namespace {
             auto& blank_count{state.step.rack[blank]};
             auto& wildcard_count{state.step.rack[wildcard]};
 
-            auto const extents{word_extent(
-                    state.init.tiles,
-                    state.step.pos,
-                    1,
-                    state.init.cross_direction)};
+            auto const& crossword_cell = state.init.crossword_cells.cell(state.step.pos);
 
             do {
                 auto const letter{i.letter()};
@@ -255,14 +161,18 @@ namespace {
                     continue;
                 }
 
-                fill_square(state, edge, extents, qualifying_cells_count,
+                fill_square(state, edge, qualifying_cells_count,
                         letter_count,
-                        letter);
-                fill_square(state, edge, extents, qualifying_cells_count,
+                        crossword_cell.filter, crossword_cell.letter_scores,
+                        letter, score);
+                fill_square(state, edge, qualifying_cells_count,
                         blank_count,
-                        char(std::tolower(letter)));
-                fill_square(state, edge, extents, qualifying_cells_count,
-                        wildcard_count, letter);
+                        crossword_cell.filter, crossword_cell.blank_scores,
+                        char(std::tolower(letter)), score);
+                fill_square(state, edge, qualifying_cells_count,
+                        wildcard_count,
+                        crossword_cell.filter, crossword_cell.letter_scores,
+                        letter, score);
             }
             while (i!=n_end);
 
@@ -281,16 +191,48 @@ namespace {
             return;
         }
 
-        recurse(found.child(), board_tile, qualifying_cells_count, state);
+        score.word_score += state.init.letter_scores[board_tile];
+
+        recurse(found.child(), board_tile, qualifying_cells_count, state,
+                score);
     }
 } // namespace
 
+auto word_extent(
+        board<char> const& board_tiles,
+        coord const& part_start,
+        int const part_length,
+        coord const& cross_direction)
+-> std::pair<int, int>
+{
+    WSS_ASSERT((std::abs(cross_direction[0])==1)!=(std::abs(cross_direction[1])==1));
+
+    auto pre_word_part{-1};
+    while (get(
+            board_tiles,
+            part_start+cross_direction*pre_word_part,
+            vacant)!=vacant) {
+        --pre_word_part;
+    }
+    ++pre_word_part;
+
+    auto post_word_part{part_length};
+    while (get(
+            board_tiles,
+            part_start+cross_direction*post_word_part,
+            vacant)!=vacant) {
+        ++post_word_part;
+    }
+
+    return std::make_pair(pre_word_part, post_word_part);
+}
+
 void search(search_state state)
 {
-    if (state.init.qualifying_cells.cell(state.init.pos.start)) {
+    if (state.init.qualifying_cells.cell(state.init.pos)) {
         auto const preceding{get(
                 state.init.tiles,
-                state.init.pos.start-state.init.pos.direction,
+                state.init.pos-coord{1, 0},
                 vacant)};
         if (preceding!=vacant) {
             // The start of a word cannot go on the board here
@@ -299,5 +241,5 @@ void search(search_state state)
         }
     }
 
-    search(state.init.lexicon, state);
+    search(state.init.lexicon, state, score_accumulator{});
 }
