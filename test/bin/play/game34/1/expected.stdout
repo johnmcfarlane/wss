@@ -4190,6 +4190,7 @@
  15  1,5  | THroE
  15  1,5  | THymE
  15  1,5  | THymI
+ 15  7,2  | TIEfEd
  15  7,2  | TIErEd
  15  7,1  | TIErcE
  15  7,4  | TIErcE
@@ -5785,6 +5786,7 @@
  14  7,5  | TEsLa
  14  7,5  | TEtrI
  14  7,3  | TEwEd
+ 14  7,4  | TIEfEd
  14  7,4  | TIErEd
  14  7,2  | TILde
  14  7,3  | TILe
@@ -13345,6 +13347,7 @@
   9  6,5  - TElLEr
   9  6,7  - TElLEr
   9  5,7  - TEntIE
+  9  5,7  - TIEfEd
   9  5,7  - TIErEd
   9  5,7  - TILE
   9  5,7  - TILEd
@@ -14969,6 +14972,7 @@
   8  2,5  | TEstEE
   8  5,7  - TEtrI
   8  3,3  | TIEREd
+  8  2,2  | TIEfEd
   8  2,2  | TIErEd
   8  2,1  | TIErcE
   8  5,7  - TIErcE
@@ -15045,6 +15049,7 @@
   8  6,5  - TaELs
   8  6,7  - TaELs
   8  6,1  | TaEnIA
+  8  2,5  - TaI
   8  6,5  - TaIL
   8  6,7  - TaIL
   8  5,5  - TaILlE
@@ -19447,6 +19452,8 @@
   6  3,3  | TIERce
   6  3,3  | TIERed
   6  3,3  | TIERs
+  6  6,5  - TIEfEd
+  6  6,7  - TIEfEd
   6  6,5  - TIErEd
   6  6,7  - TIErEd
   6  6,5  - TIErcE
@@ -19664,6 +19671,7 @@
   6  5,5  - TaeL
   6  5,7  - TaeL
   6  6,2  | TafIA
+  6  2,5  - Tai
   6  5,5  - TaiL
   6  5,7  - TaiL
   6  5,5  - TalL
@@ -21400,6 +21408,7 @@
   6  2,5  - taE
   6  6,5  - taEL
   6  6,7  - taEL
+  6  2,5  - taI
   6  6,5  - taIL
   6  6,7  - taIL
   6  2,5  - teE
@@ -22665,6 +22674,7 @@
   5  5,3  | TIEIng
   5  6,5  - TIEd
   5  6,7  - TIEd
+  5  5,5  | TIEfEd
   5  5,2  | TIEpIn
   5  5,5  | TIEpIn
   5  4,1  | TIEpiN
@@ -22790,6 +22800,8 @@
   5  4,3  | TaENIa
   5  5,5  - TaEl
   5  5,7  - TaEl
+  5  5,5  - TaI
+  5  5,7  - TaI
   5  5,4  | TaILEd
   5  5,4  | TaILEr
   5  5,5  - TaIl
@@ -26191,6 +26203,7 @@
   4  6,5  - TI
   4  6,7  - TI
   4  5,5  | TIEIng
+  4  2,4  | TIEfEd
   4  2,4  | TIErEd
   4  2,4  | TIErcE
   4  5,5  | TIErcE
@@ -26341,6 +26354,8 @@
   4  6,5  - TaEl
   4  6,7  - TaEl
   4  1,4  | TaHr
+  4  6,5  - TaI
+  4  6,7  - TaI
   4  5,4  | TaIL
   4  5,4  | TaILs
   4  4,3  | TaIN
@@ -26371,6 +26386,8 @@
   4  5,7  - Tae
   4  5,5  - Tag
   4  5,7  - Tag
+  4  5,5  - Tai
+  4  5,7  - Tai
   4  5,5  - Taj
   4  5,7  - Taj
   4  4,2  | TakEN
@@ -30691,6 +30708,7 @@
   3  6,5  | TAE
   3  6,5  | TAEl
   3  6,5  | TAEls
+  3  6,5  | TAI
   3  6,5  | TAIga
   3  6,5  | TAIko
   3  6,5  | TAIl
@@ -30933,6 +30951,8 @@
   3  6,5  - Tag
   3  6,7  - Tag
   3  3,3  | TahR
+  3  6,5  - Tai
+  3  6,7  - Tai
   3  4,3  | TaiN
   3  6,5  - Taj
   3  6,7  - Taj
@@ -33509,6 +33529,8 @@
   3  5,5  - taE
   3  5,7  - taE
   3  2,4  | taEL
+  3  5,5  - taI
+  3  5,7  - taI
   3  5,4  | taIL
   3  4,3  | taIN
   3  6,3  | taLA
@@ -34324,6 +34346,7 @@
   2  6,5  | TAg
   2  6,5  | TAgs
   2  6,5  | TAhr
+  2  6,5  | TAi
   2  6,5  | TAil
   2  6,5  | TAin
   2  6,5  | TAj
@@ -34453,6 +34476,7 @@
   2  5,5  | TIvy
   2  2,4  | TaE
   2  2,4  | TaEl
+  2  5,4  | TaI
   2  5,4  | TaIl
   2  5,4  | TaIn
   2  3,4  | TaR
@@ -36790,6 +36814,7 @@
   2  4,4  | syN
   2  6,5  | tAE
   2  6,5  | tAEl
+  2  6,5  | tAI
   2  6,5  | tAIl
   2  6,5  | tAIn
   2  6,5  | tAT
@@ -36917,6 +36942,8 @@
   2  5,7  - ta
   2  6,5  - taE
   2  6,7  - taE
+  2  6,5  - taI
+  2  6,7  - taI
   2  4,4  | taN
   2  6,5  - taT
   2  6,7  - taT
@@ -38289,6 +38316,7 @@
   1  6,5  | tAd
   1  6,5  | tAe
   1  6,5  | tAg
+  1  6,5  | tAi
   1  6,5  | tAj
   1  6,5  | tAm
   1  6,5  | tAn
@@ -38324,6 +38352,7 @@
   1  6,5  - ta
   1  6,7  - ta
   1  2,4  | taE
+  1  5,4  | taI
   1  3,4  | taR
   1  6,5  - te
   1  6,7  - te
