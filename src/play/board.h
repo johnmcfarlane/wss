@@ -90,6 +90,7 @@ std::optional<board<CellType>> make_board(
             auto const cell_found{mapping(field)};
             if (!cell_found) {
                 fmt::print(
+                        stderr,
                         "Unrecognised field, '{}', in row #{}, column #{}.\n",
 						(char)field,
                         row_index+1, column_index+1);
