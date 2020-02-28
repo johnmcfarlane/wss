@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#include <lexicon.h>
 #include <scores.h>
 #include <ssize.h>
 #include <tile.h>
-#include <wwf_lexicon.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>

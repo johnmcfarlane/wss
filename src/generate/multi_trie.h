@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef WSS_TRIE_H
-#define WSS_TRIE_H
+#ifndef WSS_MULTI_TRIE_H
+#define WSS_MULTI_TRIE_H
 
 #include <memory>
 #include <string_view>
@@ -24,11 +24,15 @@ class edge;
 struct node {
     using edge_vector = std::vector<edge>;
 
+    node(edge_vector e, int i, bool t)
+            :edges(std::move(e)), root_index(i), is_terminator(t) { }
+
     auto begin() const -> edge_vector::const_iterator;
 
     edge_vector::const_iterator end() const;
 
     edge_vector edges;
+    int root_index;
     bool is_terminator{false};
 };
 
@@ -50,21 +54,23 @@ private:
     std::shared_ptr<node> next;
 };
 
-class trie {
+class multi_trie {
     using string_view = std::string_view;
 
 public:
     using size_type = std::ptrdiff_t;
 
-    node const& root_node() const;
+    explicit multi_trie(int num_root_nodes);
 
-    void insert(string_view word);
+    std::vector<node> const& root_nodes() const;
+
+    void insert(string_view word, int index);
 
     void compress();
 
 private:
 
-    node root{{}, true};
+    std::vector<node> roots;
 };
 
 inline bool operator<(edge const& lhs, edge const& rhs)
@@ -79,4 +85,4 @@ inline bool operator<(node const& lhs, node const& rhs)
             <std::tie(rhs.edges, rhs.is_terminator);
 }
 
-#endif //WSS_TRIE_H
+#endif //WSS_MULTI_TRIE_H

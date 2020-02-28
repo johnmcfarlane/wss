@@ -17,10 +17,11 @@
 
 #include <optional>
 #include <string_view>
+#include <vector>
 
-#include "trie.h"
+#include "multi_trie.h"
 
-auto load_lexicon(std::string_view filename)
--> std::optional<trie>;
+auto load_lexicon(std::vector<std::string> const& filenames)
+-> std::optional<multi_trie>;
 
 #endif //WSS_LOAD_LEXICON_H

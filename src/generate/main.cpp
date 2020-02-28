@@ -15,10 +15,12 @@
 #include "load_lexicon.h"
 
 #include <ssize.h>
+#include <wss_assert.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
 
+#include <array>
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -30,6 +32,7 @@
 using node_map = std::map<node, std::string>;
 
 void dump_word(
+        int const root_node_index,
         node const& n,
         std::string& word,
         node_map& nodes,
@@ -50,16 +53,18 @@ void dump_word(
         else {
             nodes.emplace_hint(found.first,
                     std::make_pair(next_node, word));
-            dump_word(next_node, word, nodes, source_cpp);
+            dump_word(root_node_index, next_node, word, nodes, source_cpp);
             word_parts.push_back(word);
         }
 
         word.pop_back();
     }
 
-    auto const id{(word.empty() ? std::string{"root_node"} : "n" + word)};
+    auto const id{word.empty()
+            ? fmt::format("root_node{}", root_node_index)
+            : fmt::format("n{}{}", word, n.root_index)};
     auto const edges_id{id+"e"};
-    
+
     // edge array
     if (!word_parts.empty()) {
         source_cpp << "node " << edges_id << "[] {";
@@ -67,7 +72,8 @@ void dump_word(
             if (i!=0) {
                 source_cpp << ",";
             }
-            source_cpp << "n" + word_parts[i];
+            source_cpp << fmt::format("n{}{}", word_parts[i],
+                    n.edges[i].ptr()->root_index);
         }
         source_cpp << "}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)\n";
     }
@@ -92,11 +98,12 @@ void dump_word(
 }
 
 void dump_lexicon(
-        trie const& lexicon,
-        std::string_view const& name)
+        multi_trie const& lexicon,
+        std::vector<std::string> const& names,
+        std::string_view source_filename)
 {
-    auto const source_cpp_filename{std::string{name}+".cpp"};
-    auto const source_h_filename{std::string{name}+".h"};
+    auto const source_cpp_filename{fmt::format("{}.cpp", source_filename)};
+    auto const source_h_filename{fmt::format("{}.h", source_filename)};
 
     std::ofstream source_cpp(source_cpp_filename);
 
@@ -105,50 +112,65 @@ void dump_lexicon(
 
     std::string word;
     node_map nodes;
-    dump_word(lexicon.root_node(), word, nodes, source_cpp);
+    auto const& root_nodes = lexicon.root_nodes();
+    for (auto index = 0;
+            index!=int(root_nodes.size());
+            ++index) {
+        dump_word(index, root_nodes[index], word, nodes,
+                source_cpp);
+    }
 
     source_cpp << "} //namespace\n";
 
-    source_cpp << "node const& " << name << "{root_node};\n";
-
     std::ofstream source_h(source_h_filename);
     source_h << "#include <node.h>\n";
-    source_h << "extern node const& " << name << ";\n";
+    for (auto index = 0;
+            index!=int(root_nodes.size());
+            ++index) {
+        auto const name = names[index];
+        source_cpp
+                << fmt::format(
+                        "node const& {}{{root_node{}}};\n",
+                        name,
+                        index);
+
+        source_h << "extern node const& " << name << ";\n";
+    }
 }
 
 auto main(int argc, char const* const* argv) -> int
 {
-    auto lexicon_filename{std::string{}};
-    auto name{std::string{}};
+    auto lexicon_filenames = std::vector<std::string>{2};
+    auto names = std::vector<std::string>{2};
+    auto source_filename = std::string{};
     bool help{false};
     auto cli{
-        lyra::help(help)
-        | lyra::arg(lexicon_filename, "lexicon")("text file containing list of words")
-        | lyra::arg(name, "name")("Name of lexicon / source filename")
+            lyra::help(help)
+                    | lyra::arg(lexicon_filenames[0], "lexicon1")(
+                            "text file containing 1st list of words")
+                    | lyra::arg(names[0], "name1")("Name of 1st lexicon")
+                    | lyra::arg(lexicon_filenames[1], "lexicon2")(
+                            "text file containing 2nd list of words")
+                    | lyra::arg(names[1], "name2")("Name of 2st lexicon")
+                    | lyra::arg(source_filename, "source")("source filename")
     };
     auto result = cli.parse(lyra::args(argc, argv));
-
-    if (!result) {
-        fmt::print(stderr, "Error in command line: {}\n",
-                result.errorMessage().c_str());
-        return EXIT_FAILURE;
-    }
+    WSS_ASSERT(result);
 
     if (help) {
         fmt::printf("wss lexicon source file generator\n"
                     "(C)2019 John McFarlane\n\n");
         for (auto const& help_column : cli.get_help_text()) {
-            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
+            fmt::printf("%.10s   %s\n", help_column.option,
+                    help_column.description);
         }
         return EXIT_FAILURE;
     }
 
-    auto const lexicon{load_lexicon(lexicon_filename)};
+    auto const lexicon = load_lexicon(lexicon_filenames);
     if (!lexicon) {
-        fmt::print(stderr, "error: failed to load lexicon from {}\n",
-                lexicon_filename);
         return EXIT_FAILURE;
     }
 
-    dump_lexicon(*lexicon, name);
+    dump_lexicon(*lexicon, names, source_filename);
 }

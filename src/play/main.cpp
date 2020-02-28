@@ -17,9 +17,8 @@
 #include "board_premiums.h"
 #include "board_tiles.h"
 
+#include <lexicon.h>
 #include <scores.h>
-#include <scrabble_lexicon.h>
-#include <wwf_lexicon.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
