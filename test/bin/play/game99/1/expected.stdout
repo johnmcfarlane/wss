@@ -22,6 +22,7 @@
  43  1,9  - mIAOUS
  40  1,9  - AdONIS
  40  1,9  - NUbIAS
+ 40  1,9  - NgAIOS
  40  6,9  - SOUArI
  40  6,9  - SOUdAN
  40  1,9  - UNIOnS
@@ -116,6 +117,7 @@
  25  2,9  - NIdUS
  25  2,9  - NIsUS
  25  2,9  - NOdUS
+ 25  7,4  | NgAIOS
  25  3,9  - NoUS
  25  3,9  - ONUS
  25  3,9  - OUtSIN
@@ -695,12 +697,12 @@
  19  7,2  | NASIOn
  19  4,9  - NOs
  19  7,2  | NUbIA
+ 19  7,2  | NgAIOS
  19  4,9  - NoS
  19  4,9  - NuS
  19  5,9  - OS
  19  7,6  | OSe
  19  5,9  - OSe
- 19  6,9  - SA
  19  6,9  - SAb
  19  6,9  - SAc
  19  6,9  - SAd
@@ -928,7 +930,6 @@
  17  7,2  | SIgNA
  17  7,4  | SOoN
  17  3,6  - SUbJOIN
- 17  6,9  - Sa
  17  7,2  | SaUNA
  17  6,9  - Sh
  17  6,9  - Si
@@ -972,7 +973,6 @@
  17  7,3  | pSOAI
  17  7,4  | qUAI
  17  7,5  | rAN
- 17  6,9  - sA
  17  7,5  | sAN
  17  6,9  - sI
  17  6,9  - sO
@@ -1103,7 +1103,6 @@
  15  4,6  - SAJOU
  15  4,6  - SAJOUs
  15  7,3  | SANe
- 15  5,7  | SAUNa
  15  4,8  - SAWINg
  15  7,3  | SAgO
  15  7,4  | SIAl
@@ -1113,7 +1112,6 @@
  15  7,3  | SImA
  15  7,4  | SOAr
  15  7,3  | SONe
- 15  5,7  | SOUNd
  15  7,7  | SOUNd
  15  4,8  - SOWANs
  15  4,8  - SOWINg
@@ -1180,6 +1178,7 @@
  15  7,5  | rAS
  15  4,6  - sAJOUS
  15  7,5  | sOS
+ 15  7,5  | tAI
  15  7,5  | tAS
  15  7,5  | vAS
  15  7,3  | vINA
@@ -1224,7 +1223,6 @@
  14  7,5  | OeS
  14  7,5  | OoS
  14  4,6  - SAJoU
- 14  5,7  | SANtO
  14  7,5  | SAb
  14  7,5  | SAd
  14  7,5  | SAe
@@ -1235,9 +1233,7 @@
  14  7,5  | SAw
  14  7,5  | SAx
  14  7,5  | SAy
- 14  5,7  | SONAr
  14  7,7  | SONAr
- 14  5,7  | SONIc
  14  7,7  | SONIc
  14  7,5  | SOb
  14  7,5  | SOd
@@ -1253,7 +1249,6 @@
  14  5,8  - SWOUNd
  14  5,8  - SWOUNs
  14  4,6  - SaJOU
- 14  5,7  | SaUNA
  14  7,5  | SeA
  14  7,5  | SeI
  14  4,8  - SeWAN
@@ -1399,39 +1394,17 @@
  13  7,6  | Ow
  13  7,6  | Ox
  13  7,6  | Oy
- 13  7,5  | SA
- 13  5,7  | SAIN
- 13  5,7  | SAINs
- 13  5,7  | SAINt
  13  4,6  - SAJOu
- 13  5,7  | SAN
- 13  5,7  | SANd
- 13  5,7  | SANe
- 13  5,7  | SANg
- 13  5,7  | SANk
- 13  5,7  | SANs
- 13  5,7  | SAU
- 13  5,7  | SAUl
  13  7,5  | SO
- 13  5,7  | SON
  13  7,7  | SON
- 13  5,7  | SONe
  13  7,7  | SONe
- 13  5,7  | SONg
  13  7,7  | SONg
- 13  5,7  | SONs
  13  7,7  | SONs
- 13  5,7  | SOU
  13  7,7  | SOU
- 13  5,7  | SOUk
  13  7,7  | SOUk
- 13  5,7  | SOUl
  13  7,7  | SOUl
- 13  5,7  | SOUp
  13  7,7  | SOUp
- 13  5,7  | SOUr
  13  7,7  | SOUr
- 13  5,7  | SOUs
  13  7,7  | SOUs
  13  7,4  | SUe
  13  5,8  - SWUNg
@@ -1522,7 +1495,6 @@
  12  6,6  - JInS
  12  6,6  - JOIe
  12  6,6  - JOIn
- 12  6,6  - JOSe
  12  6,6  - JOSh
  12  6,6  - JOSs
  12  6,6  - JObS
@@ -1586,25 +1558,15 @@
  12  7,8  | ONUs
  12  7,4  | OSe
  12  5,8  - OWINg
- 12  5,7  | SAbIN
  12  7,4  | SAe
- 12  5,7  | SAjOU
- 12  5,7  | SAlON
- 12  5,7  | SArIN
- 12  5,7  | SAsIN
- 12  5,7  | SAtIN
- 12  5,7  | SAvIN
  12  2,8  - SINeW
  12  3,8  - SNAW
  12  3,8  - SNAWs
  12  3,8  - SNOW
  12  3,8  - SNOWs
  12  3,8  - SNOWy
- 12  5,7  | SOlAN
  12  7,7  | SOlAN
- 12  5,7  | SOmAN
  12  7,7  | SOmAN
- 12  5,7  | SOzIN
  12  7,7  | SOzIN
  12  5,8  - SWAN
  12  5,8  - SWANg
@@ -1643,7 +1605,6 @@
  12  5,7  | bANS
  12  5,7  | bASIN
  12  7,5  | bO
- 12  7,5  | cO
  12  7,5  | dA
  12  5,7  | dANS
  12  4,8  - dIWAN
@@ -1712,16 +1673,10 @@
  12  7,7  | rOANS
  12  7,7  | rOSIN
  12  4,8  - rOWAN
- 12  7,5  | sA
- 12  5,7  | sAINS
- 12  5,7  | sANS
- 12  5,7  | sASIN
  12  3,8  - sNAWS
  12  3,8  - sNOWS
  12  7,5  | sO
- 12  5,7  | sONS
  12  7,7  | sONS
- 12  5,7  | sOUS
  12  7,7  | sOUS
  12  5,8  - sWANS
  12  7,5  | tA
@@ -1848,42 +1803,22 @@
  11  1,8  - OUtSAW
  11  7,5  | Oe
  11  7,5  | Oo
- 11  5,7  | SAId
- 11  5,7  | SAIl
- 11  5,7  | SAIn
- 11  5,7  | SAiN
- 11  5,7  | SAwN
  11  3,8  - SNaW
  11  3,8  - SNoW
- 11  5,7  | SOAk
  11  7,7  | SOAk
- 11  5,7  | SOAp
  11  7,7  | SOAp
- 11  5,7  | SOAr
  11  7,7  | SOAr
- 11  5,7  | SOIl
  11  7,7  | SOIl
- 11  5,7  | SOoN
  11  7,7  | SOoN
- 11  5,7  | SOrN
  11  7,7  | SOrN
- 11  5,7  | SOwN
  11  7,7  | SOwN
  11  5,8  - SWAIN
  11  5,8  - SWAINs
  11  5,8  - SWaN
- 11  7,5  | Sa
- 11  5,7  | SaIN
- 11  5,7  | SaN
- 11  5,7  | SaU
- 11  5,7  | SeN
  11  7,7  | SeN
  11  7,5  | So
- 11  5,7  | SoN
  11  7,7  | SoN
- 11  5,7  | SoON
  11  7,7  | SoON
- 11  5,7  | SoU
  11  7,7  | SoU
  11  2,8  - UNSeW
  11  6,8  - WAINS
@@ -1960,14 +1895,9 @@
  11  5,7  | pAN
  11  4,6  - rAJ
  11  7,7  | rOAN
- 11  5,7  | sAIN
- 11  5,7  | sAN
- 11  5,7  | sAU
  11  3,8  - sNAW
  11  3,8  - sNOW
- 11  5,7  | sON
  11  7,7  | sON
- 11  5,7  | sOU
  11  7,7  | sOU
  11  5,8  - sWAINS
  11  5,8  - sWAN
@@ -2027,31 +1957,16 @@
  10  5,8  - OWNS
  10  1,7  - SAUrIAN
  10  4,8  - SAWN
- 10  5,7  | SAdI
- 10  5,7  | SAgO
- 10  5,7  | SAkI
- 10  5,7  | SArI
- 10  5,7  | SAtI
  10  4,8  - SOWN
- 10  5,7  | SObA
  10  7,7  | SObA
- 10  5,7  | SOcA
  10  7,7  | SOcA
- 10  5,7  | SOdA
  10  7,7  | SOdA
- 10  5,7  | SOfA
  10  7,7  | SOfA
- 10  5,7  | SOlA
  10  7,7  | SOlA
- 10  5,7  | SOlI
  10  7,7  | SOlI
- 10  5,7  | SOmA
  10  7,7  | SOmA
- 10  5,7  | SOrA
  10  7,7  | SOrA
- 10  5,7  | SOrI
  10  7,7  | SOrI
- 10  5,7  | SOyA
  10  7,7  | SOyA
  10  1,8  - SUNbOW
  10  5,8  - SWaIN
@@ -2155,56 +2070,27 @@
   9  7,8  | OpUS
   9  5,8  | OwNS
   9  7,8  | OwNS
-  9  5,7  | SA
   9  5,7  - SANIOUs
   9  5,7  - SAUrIAN
-  9  5,7  | SAb
-  9  5,7  | SAc
-  9  5,7  | SAd
-  9  5,7  | SAe
-  9  5,7  | SAg
-  9  5,7  | SAl
-  9  5,7  | SAn
-  9  5,7  | SAp
-  9  5,7  | SAt
-  9  5,7  | SAu
-  9  5,7  | SAw
-  9  5,7  | SAx
-  9  5,7  | SAy
-  9  5,7  | SO
   9  7,7  | SO
   9  4,8  - SOWAr
-  9  5,7  | SOb
   9  7,7  | SOb
-  9  5,7  | SOd
   9  7,7  | SOd
-  9  5,7  | SOl
   9  7,7  | SOl
-  9  5,7  | SOm
   9  7,7  | SOm
-  9  5,7  | SOn
   9  7,7  | SOn
-  9  5,7  | SOp
   9  7,7  | SOp
-  9  5,7  | SOs
   9  7,7  | SOs
-  9  5,7  | SOt
   9  7,7  | SOt
-  9  5,7  | SOu
   9  7,7  | SOu
-  9  5,7  | SOw
   9  7,7  | SOw
-  9  5,7  | SOx
   9  7,7  | SOx
-  9  5,7  | SOy
   9  7,7  | SOy
   9  4,7  - SUAsION
   9  5,8  - SWAIl
   9  5,8  - SWAIn
   9  4,8  - SaWN
-  9  5,7  | SeA
   9  7,7  | SeA
-  9  5,7  | SeI
   9  7,7  | SeI
   9  4,8  - SeWN
   9  4,8  - SoWN
@@ -2279,9 +2165,9 @@
   9  1,7  - qUINOAS
   9  2,7  - rUANAS
   9  5,7  - sANIOUS
-  9  5,7  | sOS
   9  7,7  | sOS
   9  4,7  - sUASION
+  9  5,7  | tAI
   9  5,7  | tAO
   9  5,7  | tAS
   9  5,7  - tAUONS
@@ -2428,6 +2314,7 @@
   8  6,8  - WOS
   8  6,8  - WOSt
   8  6,8  - WOmAN
+  8  6,8  - WUxIA
   8  6,8  - WhOA
   8  6,8  - WoOS
   8  5,8  | aIN
@@ -2534,6 +2421,7 @@
   7  3,7  - NOnAS
   7  2,7  - NOrIAS
   7  3,7  - NOvAS
+  7  4,7  - NgAIOS
   7  5,8  - OWN
   7  5,8  - OWNs
   7  5,8  | ObA
@@ -2578,10 +2466,8 @@
   7  3,7  - SOUArI
   7  5,8  - SWAmI
   7  5,8  - SWUm
-  7  5,7  | Sa
   7  4,8  - SaW
   7  4,8  - SeW
-  7  5,7  | So
   7  7,7  | So
   7  4,8  - SoW
   7  4,7  - UNAIS
@@ -2660,12 +2546,10 @@
   7  4,8  - pAWN
   7  4,7  - pIANOS
   7  5,7  | pO
-  7  5,7  | sA
   7  5,7  - sASIN
   7  2,7  - sAUNA
   7  5,7  - sAUNA
   7  4,8  - sAWN
-  7  5,7  | sO
   7  7,7  | sO
   7  4,8  - sOWN
   7  5,7  | tA
@@ -3501,7 +3385,6 @@
   2  4,7  - OkA
   2  4,7  - OrA
   2  4,7  - OvA
-  2  5,7  - SA
   2  5,7  - SAb
   2  5,7  - SAc
   2  5,7  - SAd
@@ -3541,6 +3424,7 @@
   2  5,7  - rAI
   2  5,7  - rAS
   2  4,7  - rIA
+  2  5,7  - tAI
   2  5,7  - tAO
   2  5,7  - tAS
   2  5,7  - vAS
@@ -3575,7 +3459,6 @@
   1  5,7  - mA
   1  5,7  - nA
   1  5,7  - pA
-  1  5,7  - sA
   1  5,7  - tA
   1  5,7  - yA
   1  5,7  - zA

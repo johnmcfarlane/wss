@@ -711,7 +711,6 @@
  42  1,7  | NAp
  42  1,7  | NIb
  42  1,7  | NIp
- 42  1,9  | SA
  42  1,9  | SAb
  42  1,9  | SAc
  42  1,9  | SAd
@@ -780,7 +779,6 @@
  39  1,7  | SIc
  39  1,7  | SIp
  39  1,7  | SIs
- 39  1,9  | Sa
  39  1,9  | Sh
  39  1,9  | Si
  39  1,9  | So
@@ -794,7 +792,6 @@
  37  9,1  | PaN
  36  1,8  | Ab
  36  1,8  | As
- 36  1,8  | Ib
  36  1,8  | Ip
  36  1,8  | Is
  36  2,6  | PAILS
@@ -808,7 +805,6 @@
  36  1,9  | pA
  36  1,9  | pI
  36  2,5  | pIPALS
- 36  1,9  | sA
  36  1,9  | sI
  36  2,5  | sPAILS
  35  9,1  | bANS
@@ -956,7 +952,6 @@
  18  2,4  | SPItAL
  18  8,2  | cINQS
  18  2,4  | eSPIAL
- 17  2,8  - ANI
  17  1,8  - NAPa
  17  1,8  - NAPe
  17  8,2  | NIPAS
@@ -966,8 +961,6 @@
  17  3,8  - PI
  17  8,1  | SNIPeS
  17  9,2  | aN
- 17  1,8  - bANI
- 17  1,8  - rANI
  16  8,2  | ASPIS
  16  8,2  | NAPaS
  16  8,2  | NAPeS
@@ -1013,15 +1006,12 @@
  15  8,8  | MoJO
  15  1,8  - NAP
  15  1,8  - NAoI
- 15  1,8  - PANe
  15  8,2  | QAIdS
  15  1,8  - QAt
  15  8,2  | QuAIS
  15  8,2  | QuASS
  15  8,2  | SIPeS
  15  8,3  | SPAS
- 15  2,8  - aNA
- 15  2,8  - aNI
  15  8,2  | aSPIS
  15  7,5  - bA
  15  7,5  - bI
@@ -1085,12 +1075,8 @@
  14  8,3  | uPAS
  13  2,8  - AhI
  13  2,8  - AmI
- 13  2,8  - AnI
- 13  3,8  - NA
- 13  3,8  - NI
  13  1,8  - NaP
  13  8,1  | PAINtS
- 13  1,8  - PAN
  13  1,8  - PASe
  13  8,1  | PIANoS
  13  8,2  | PINAS
@@ -1127,7 +1113,6 @@
  12  1,10 - NA
  12  2,6  | NAIL
  12  2,5  | NASaL
- 12  1,10 - NI
  12  2,7  | NILS
  12  2,5  | NIdAL
  12  2,5  | NIvAL
@@ -1149,7 +1134,6 @@
  12  1,10 - Po
  12  8,2  | PuNAS
  12  3,6  | QuAI
- 12  1,8  - SANe
  12  2,5  | SNAiL
  12  2,5  | SNArL
  12  2,5  | SNaIL
@@ -1167,9 +1151,6 @@
  12  2,5  | sNAIL
  12  2,5  | vINAL
  11  3,8  - AI
- 11  2,8  - ANa
- 11  2,8  - ANe
- 11  2,8  - ANi
  11  9,2  | Ad
  11  9,2  | An
  11  9,2  | Ar
@@ -1183,15 +1164,11 @@
  11  8,2  | PIANS
  11  3,5  | PSoAI
  11  3,8  - Pa
- 11  1,8  - PaN
  11  3,8  - Pe
- 11  1,8  - PeN
  11  3,8  - Pi
  11  8,1  | PlAINS
  11  3,8  - Po
  11  3,8  | QI
- 11  9,1  | SA
- 11  3,8  - SA
  11  3,8  - SI
  11  8,2  | SNAPS
  11  8,2  | SNIPS
@@ -1239,10 +1216,8 @@
  10  8,2  | PiANS
  10  8,2  | PlANS
  10  8,2  | PyINS
- 10  1,10 - SA
  10  2,6  | SAIL
  10  8,1  | SAINtS
- 10  1,8  - SAN
  10  1,10 - SI
  10  2,6  | SIAL
  10  2,5  | SIsAL
@@ -1266,7 +1241,6 @@
  10  8,2  | sNIPS
  10  8,2  | sPANS
  10  8,2  | sPINS
-  9  2,8  - AN
   9  8,3  | ANIS
   9  7,4  - ANsAE
   9  7,4  - ANtAE
@@ -1287,7 +1261,6 @@
   9  1,8  - PAh
   9  1,8  - PAl
   9  1,8  - PAm
-  9  1,8  - PAn
   9  1,8  - PAp
   9  7,4  - PArAE
   9  1,8  - PAs
@@ -1349,16 +1322,11 @@
   9  7,4  - aNSAE
   9  8,2  | aPSIS
   9  3,8  - bA
-  9  1,8  - bAN
   9  3,8  - bI
-  9  1,8  - cAN
   9  3,8  - dA
-  9  1,8  - dAN
   9  3,8  - dI
   9  3,8  - fA
-  9  1,8  - fAN
   9  3,8  - fI
-  9  1,8  - gAN
   9  8,2  | gASPS
   9  3,8  - gI
   9  3,8  - hA
@@ -1371,31 +1339,20 @@
   9  3,8  - lI
   9  8,2  | lISPS
   9  3,8  - mA
-  9  1,8  - mAN
   9  3,8  - mI
   9  8,2  | mINAS
-  9  3,8  - nA
-  9  1,8  - nAN
-  9  3,8  - nI
   9  3,8  - oI
   9  3,8  - pA
-  9  1,8  - pAN
   9  3,8  - pI
   9  8,2  | pINAS
   9  3,8  - qI
-  9  1,8  - rAN
   9  8,2  | rANIS
   9  8,2  | rASPS
-  9  3,8  - sA
-  9  1,8  - sAN
   9  3,8  - sI
   9  7,2  - sPAHI
   9  3,8  - tA
-  9  1,8  - tAN
   9  3,8  - tI
-  9  1,8  - vAN
   9  8,2  | vINAS
-  9  1,8  - wAN
   9  8,2  | wASPS
   9  8,2  | wISPS
   9  3,8  - xI
@@ -1423,7 +1380,6 @@
   8  2,7  | IlLS
   8  3,5  | NISeI
   8  1,10 - Na
-  8  1,10 - Ni
   8  1,10 - No
   8  1,8  - PA
   8  8,1  | PAStIS
@@ -1485,9 +1441,7 @@
   8  8,2  | SPaNS
   8  8,2  | SPiNS
   8  2,6  | SaIL
-  8  1,8  - SaN
   8  2,6  | SeAL
-  8  1,8  - SeN
   8  2,6  | SiAL
   8  2,6  | SoIL
   8  2,7  | SoLA
@@ -1560,7 +1514,6 @@
   8  1,10 - nA
   8  2,6  | nAIL
   8  8,3  | nAPS
-  8  1,10 - nI
   8  2,7  | nILS
   8  8,3  | nIPS
   8  1,10 - oI
@@ -1578,8 +1531,6 @@
   8  8,3  | rAPS
   8  2,6  | rIAL
   8  8,3  | rIPS
-  8  9,1  | sA
-  8  1,10 - sA
   8  2,6  | sAIL
   8  2,7  | sALS
   8  8,3  | sAPS
@@ -1627,18 +1578,12 @@
   7  1,8  - NAg
   7  1,8  - NAh
   7  1,8  - NAm
-  7  1,8  - NAn
   7  1,8  - NAp
   7  1,8  - NAy
   7  8,2  | NISuS
-  7  3,8  - Na
   7  8,3  | NaPS
-  7  3,8  - Ne
-  7  3,8  - Ni
   7  8,3  | NiPS
-  7  3,8  - No
   7  8,4  | NoS
-  7  3,8  - Nu
   7  8,4  | NuS
   7  2,7  | PAL
   7  3,6  | PAdI
@@ -1669,7 +1614,6 @@
   7  8,2  | SNIbS
   7  8,2  | SNIpS
   7  8,2  | SNItS
-  7  9,1  | Sa
   7  8,2  | SaINS
   7  8,2  | ScANS
   7  8,2  | ShINS
@@ -1678,10 +1622,8 @@
   7  8,2  | SpINS
   7  8,2  | SwANS
   7  1,8  - aAS
-  7  2,8  - aN
   7  1,8  - bAS
   7  8,2  | cAINS
-  7  2,8  - eN
   7  1,8  - fAS
   7  8,3  - fIEF
   7  8,2  | gAINS
@@ -1776,14 +1718,12 @@
   6  1,8  - SAd
   6  1,8  - SAg
   6  1,8  - SAl
-  6  1,8  - SAn
   6  1,8  - SAp
   6  1,8  - SAt
   6  1,8  - SAx
   6  1,8  - SAy
   6  8,2  | SIAlS
   6  2,8  | SLy
-  6  1,10 - Sa
   6  8,3  | SaPS
   6  1,8  - SeA
   6  1,10 - Si
@@ -1855,7 +1795,6 @@
   5  2,8  - Al
   5  8,4  - AlAE
   5  2,8  - Am
-  5  2,8  - An
   5  2,8  - As
   5  2,8  - At
   5  2,8  - Ax
@@ -1872,7 +1811,6 @@
   5  8,2  | NIpAS
   5  3,6  | NIsI
   5  3,8  | PI
-  5  1,8  - SA
   5  8,3  | SAbS
   5  8,3  | SAcS
   5  8,3  | SAgS
@@ -1892,7 +1830,6 @@
   5  8,3  | SIpS
   5  8,3  | SIrS
   5  8,3  | SItS
-  5  3,8  - Sa
   5  3,8  - Si
   5  3,8  - So
   5  8,4  - SpAE
@@ -1995,7 +1932,6 @@
   4  3,6  | nISI
   4  1,8  - pA
   4  9,2  - pHI
-  4  1,8  - sA
   4  1,8  - tA
   4  1,8  - yA
   4  1,8  - zA
@@ -2015,10 +1951,8 @@
   3  8,3  | AxIS
   3  2,7  | IlL
   3  3,7  | IwI
-  3  3,8  | NI
   3  4,9  | NoO
   3  9,4  - SAE
-  3  1,8  - Sa
   3  2,7  | SaL
   3  8,3  | SeAS
   3  3,7  | SeI
@@ -2094,6 +2028,7 @@
   2  9,4  - sAE
   2  8,4  | sIS
   2  9,4  - tAE
+  2  3,7  | tAI
   2  8,4  | tAS
   2  8,4  | tIS
   2  4,8  | uN
@@ -2116,7 +2051,6 @@
   1  3,8  | kI
   1  3,8  | lI
   1  3,8  | mI
-  1  3,8  | nI
   1  3,8  | oI
   1  8,5  | oS
   1  3,8  | pI

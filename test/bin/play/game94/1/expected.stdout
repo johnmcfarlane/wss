@@ -98,9 +98,7 @@
  24  6,2  | rAZEs
  24  6,6  | smAZE
  23  3,5  - ZEtA
- 23  3,7  - ZEtA
  23  3,5  - ZoEA
- 23  3,7  - ZoEA
  22  7,6  | OyEZ
  22  7,3  | ZErO
  21 11,5  | ADAGe
@@ -128,7 +126,6 @@
  21 11,2  | rAGED
  21 11,2  | wAGED
  20  2,5  - AGAZE
- 20  3,7  - GAZAr
  20  3,5  - GAZEd
  20  3,5  - GAZEs
  19  2,5  - AGaZE
@@ -144,7 +141,6 @@
  18 11,6  | DrAG
  18 11,6  | DrEG
  18 11,3  | EGaD
- 18  7,3  | GAZOo
  18 11,3  | GAeD
  18 11,3  | GAuD
  18 11,3  | GEeD
@@ -167,13 +163,11 @@
  17  5,5  - ZoEA
  17  5,7  - ZoEA
  16  1,5  - AZAlEA
- 16  1,7  - AZAlEA
  16  8,4  | AnLAGE
  16  8,4  | GALEA
  16  8,4  | GALEAe
  16  8,4  | GALEAs
  16  8,4  | GALeAE
- 16  7,2  | GAZoO
  16  2,5  - GlAZE
  16  2,5  - GrAZE
  16  8,3  | ZEAL
@@ -204,7 +198,6 @@
  14  8,5  | ALEGAr
  14  9,5  | AVGAs
  14  4,5  - AZAn
- 14  4,7  - AZAn
  14  4,5  - AdAGE
  14  3,5  - AdZE
  14  2,5  - AgAZE
@@ -229,7 +222,6 @@
  13 11,5  | ADZe
  13  6,5  - AGA
  13  2,5  - AGApAE
- 13  2,7  - AGApAE
  13  6,5  - AGE
  13  8,3  | AGiLE
  13  7,4  | AZOlE
@@ -252,13 +244,9 @@
  13  7,6  | OoZE
  13  9,6  | VAnG
  13  9,6  | VAuG
- 13  5,5  - ZAc
  13  5,5  - ZAg
  13  5,5  - ZAp
- 13  5,7  - ZAp
  13  5,5  - ZAs
- 13  5,7  - ZAs
- 13  5,7  - ZAx
  13 11,4  | ZED
  13 11,4  | ZEDs
  13  5,5  - ZEd
@@ -377,7 +365,6 @@
  12  9,6  | VEGA
  12  9,6  | VEGAn
  12  5,5  - ZA
- 12  5,7  - ZA
  12 10,5  | ZEAl
  12 10,4  | ZEE
  12 10,5  | ZEE
@@ -392,7 +379,6 @@
  12 11,4  | ZeD
  12  4,5  - ZeE
  12  4,5  - ZoA
- 12  4,7  - ZoA
  12 10,4  | ZoEA
  12 11,5  | aDZ
  12  9,3  | aGAVE
@@ -431,7 +417,6 @@
  12  8,5  | sLAG
  12  7,5  | yOEZ
  11  4,5  - AGAmA
- 11  4,7  - AGAmA
  11  4,5  - AGApE
  11  4,5  - AGAtE
  11  8,4  | AGLeE
@@ -471,11 +456,12 @@
  11  7,5  | cOZ
  11  7,4  | dZO
  11 10,5  | fEZ
+ 11 10,5  | sEZ
+ 11  6,6  | sEZ
  11  6,6  | siZE
  11  6,6  | spAZ
  10  6,2  | AEGis
  10  2,5  - AGAmA
- 10  2,7  - AGAmA
  10  2,5  - AGApE
  10  6,2  | AGArs
  10  2,5  - AGAtE
@@ -488,7 +474,6 @@
  10  6,2  | AGuEs
  10  8,5  | ALGAE
  10  3,5  - AlGAE
- 10  3,7  - AlGAE
  10  6,2  | AlGAs
  10  6,2  | AnGAs
  10  6,2  | AvGAs
@@ -502,7 +487,6 @@
  10  5,5  - GAlE
  10  6,2  | GAlEs
  10  5,5  - GAmA
- 10  5,7  - GAmA
  10  6,2  | GAmAs
  10  5,5  - GAmE
  10  6,2  | GAmEs
@@ -527,7 +511,6 @@
  10  9,6  | VeGA
  10  9,6  | ViGA
  10  5,5  - Za
- 10  5,7  - Za
  10  6,4  | Zas
  10  6,2  | cAGEs
  10  6,2  | dEGAs
@@ -546,6 +529,7 @@
  10  6,6  | sAiGA
  10  6,6  | sAnGA
  10  6,6  | sArGE
+ 10  6,6  | seZ
  10  6,6  | stAGE
  10  6,6  | swAGE
  10  6,2  | wAGEs
@@ -565,13 +549,10 @@
   9  8,3  | EAGLe
   9  8,3  | GAbLE
   9  3,5  - GAgA
-  9  3,7  - GAgA
   9  3,5  - GAgE
   9  3,5  - GAlA
-  9  3,7  - GAlA
   9  3,5  - GAlE
   9  3,5  - GAmA
-  9  3,7  - GAmA
   9  3,5  - GAmE
   9  3,5  - GAnE
   9  3,5  - GApE
@@ -579,10 +560,8 @@
   9  3,5  - GAvE
   9  3,5  - GAzE
   9  3,5  - GEnA
-  9  3,7  - GEnA
   9  7,3  | GEnOA
   9  3,5  - GEtA
-  9  3,7  - GEtA
   9  8,5  | GLEAm
   9  8,5  | GLEAn
   9  8,2  | GrAAL
@@ -646,9 +625,7 @@
   8  8,3  | AzALEA
   8  9,4  | EAVe
   8  5,5  - GAE
-  8  5,7  - GAE
   8  2,5  - GAlEA
-  8  2,7  - GAlEA
   8  8,3  | GAlL
   8  8,3  | GAoL
   8  8,5  | GLeE
@@ -664,18 +641,14 @@
   8  9,5  | uVEA
   7 10,5  - AA
   7 10,5  - AE
-  7  4,7  - AGAr
   7  4,5  - AGAs
-  7  4,7  - AGAs
   7  4,5  - AGEd
   7  4,5  - AGEe
   7  4,5  - AGEs
   7  3,5  - AGeE
   7  4,5  - AGeE
   7  3,5  - AGhA
-  7  3,7  - AGhA
   7  3,5  - AGmA
-  7  3,7  - AGmA
   7  3,5  - AGuE
   7  4,5  - AGuE
   7  8,5  | ALAE
@@ -686,35 +659,27 @@
   7  9,5  | AVe
   7  9,5  | AVo
   7  6,5  - AbA
-  7  6,5  - AcE
   7  2,5  - AdAGE
   7  6,5  - AgA
   7  6,5  - AgE
   7  6,5  - AhA
-  7  6,7  - AhA
   7  6,5  - AlA
   7  6,5  - AlE
   7  3,5  - AlGA
-  7  3,7  - AlGA
   7  2,5  - AlGAE
   7  6,5  - AmA
-  7  6,7  - AmA
   7  6,5  - AnA
-  7  6,7  - AnA
   7  6,5  - AnE
   7  3,5  - AnGA
-  7  3,7  - AnGA
   7  8,3  | AnGLE
   7  6,5  - ApE
   7  8,2  | ArEAL
   7  8,3  | ArGLE
   7  6,5  - AtE
   7  6,5  - AwA
-  7  6,7  - AwA
   7  6,5  - AwE
   7  6,5  - AyE
   7  4,5  - EGAd
-  7  4,7  - EGAd
   7  4,5  - EGAl
   7  9,5  | EVe
   7  6,5  - EtA
@@ -725,7 +690,6 @@
   7 10,3  | GAlEAE
   7  8,2  | GAvEL
   7  8,2  | GAyAL
-  7  4,7  - GEAr
   7  8,5  | GLAcE
   7  8,5  | GLAdE
   7  8,5  | GLArE
@@ -765,7 +729,6 @@
   6  8,4  | AAL
   6  8,4  | AALs
   6  4,5  - AGA
-  6  4,7  - AGA
   6  4,5  - AGE
   6 10,3  | AGEE
   6 10,4  | AGEE
@@ -787,7 +750,6 @@
   6  8,5  | ALoE
   6  8,4  | AbLE
   6  4,5  - AlAE
-  6  4,7  - AlAE
   6  6,2  | ArEAs
   6  8,4  | AxLE
   6 11,6  | DAG
@@ -802,24 +764,16 @@
   6  4,5  - GAE
   6  5,5  - GAb
   6  5,5  - GAd
-  6  5,7  - GAd
   6  5,5  - GAe
-  6  5,7  - GAe
   6  5,5  - GAg
   6  5,5  - GAl
   6 10,3  | GAlEA
   6  5,5  - GAm
-  6  5,7  - GAm
   6  5,5  - GAn
-  6  5,7  - GAn
   6  5,5  - GAp
-  6  5,7  - GAp
-  6  5,7  - GAr
   6  5,5  - GAs
-  6  5,7  - GAs
   6  5,5  - GAt
   6  5,5  - GAy
-  6  5,7  - GAy
   6 11,4  | GED
   6 11,4  | GEDs
   6  5,5  - GEd
@@ -837,7 +791,6 @@
   6  8,5  | GLEn
   6  8,5  | GLEy
   6  5,5  - GaE
-  6  5,7  - GaE
   6  5,5  - GeE
   6  5,5  - GiE
   6  5,7  - GiE
@@ -869,7 +822,6 @@
   6  8,3  | fEAL
   6  8,5  | fLEA
   6  3,5  - gAGA
-  6  3,7  - gAGA
   6  3,5  - gAGE
   6  8,3  | hEAL
   6  8,5  | iLEA
@@ -877,7 +829,6 @@
   6  3,5  - mAGE
   6  8,3  | mEAL
   6  3,5  - mEGA
-  6  3,7  - mEGA
   6  8,4  | oGLE
   6  8,5  | oLEA
   6  3,5  - pAGE
@@ -885,24 +836,20 @@
   6  8,3  | pEAL
   6  8,5  | pLEA
   6  3,5  - rAGA
-  6  3,7  - rAGA
   6  3,5  - rAGE
   6 10,3  | rAGEE
   6  8,3  | rEAL
   6  3,5  - sAGA
-  6  3,7  - sAGA
   6  3,5  - sAGE
   6  8,3  | sEAL
   6  8,3  | tAEL
   6  8,3  | tEAL
   6  8,3  | vEAL
   6  3,5  - vEGA
-  6  3,7  - vEGA
   6  3,5  - wAGE
   6  8,3  | wEAL
   6  8,3  | zEAL
   5  6,5  - AE
-  5  6,7  - AE
   5  6,3  | AGAs
   5 10,4  | AGE
   5 10,4  | AGEd
@@ -927,9 +874,7 @@
   5  3,5  - AlAE
   5  8,4  | AlL
   5  3,5  - ArEA
-  5  3,7  - ArEA
   5  3,5  - AsEA
-  5  3,7  - AsEA
   5  8,4  | AwL
   5 11,6  | DaG
   5 11,6  | DiG
@@ -1001,7 +946,6 @@
   5 10,3  | GlEE
   5 10,4  | GlEE
   5  4,5  - GoA
-  5  4,7  - GoA
   5 11,4  | GoD
   5 10,3  | GrEE
   5 10,4  | GrEE
@@ -1015,7 +959,6 @@
   5 10,5  - aA
   5 10,5  - aE
   5  4,5  - aGA
-  5  4,7  - aGA
   5  4,5  - aGE
   5 10,3  | aGEE
   5 10,4  | aGEE
@@ -1042,14 +985,12 @@
   5 10,5  - fE
   5 10,7  - fE
   5  5,5  - gAE
-  5  5,7  - gAE
   5 10,3  | gAGE
   5  7,5  - hA
   5 10,5  - hA
   5  7,7  - hA
   5 10,7  - hA
   5  5,5  - hAE
-  5  5,7  - hAE
   5  7,5  - hE
   5 10,5  - hE
   5 10,7  - hE
@@ -1058,7 +999,6 @@
   5  7,5  - jE
   5 10,5  - jE
   5  5,5  - kAE
-  5  5,7  - kAE
   5  7,5  - lA
   5 10,7  - lA
   5  7,5  | lOGE
@@ -1067,7 +1007,6 @@
   5  7,7  - mA
   5 10,7  - mA
   5  5,5  - mAE
-  5  5,7  - mAE
   5 10,3  | mAGE
   5  7,5  - mE
   5 10,5  - mE
@@ -1078,7 +1017,6 @@
   5  7,7  - nA
   5 10,7  - nA
   5  5,5  - nAE
-  5  5,7  - nAE
   5  7,5  - nE
   5 10,5  - nE
   5 10,7  - nE
@@ -1097,11 +1035,7 @@
   5 10,3  | rAGE
   5 10,5  - rE
   5 10,7  - rE
-  5  7,5  - sA
-  5  7,7  - sA
-  5 10,7  - sA
   5  5,5  - sAE
-  5  5,7  - sAE
   5  6,6  | sAGA
   5 10,3  | sAGE
   5  6,6  | sAGE
@@ -1111,7 +1045,6 @@
   5 10,5  - tA
   5 10,7  - tA
   5  5,5  - tAE
-  5  5,7  - tAE
   5  7,5  - tE
   5 10,5  - tE
   5 10,7  - tE
@@ -1119,7 +1052,6 @@
   5  6,5  | usAGE
   5 10,5  | vEGA
   5  5,5  - wAE
-  5  5,7  - wAE
   5 10,3  | wAGE
   5  7,5  - wE
   5 10,5  - wE
@@ -1131,14 +1063,11 @@
   5 10,5  - yE
   5  7,5  | yOGA
   4  5,5  - AAh
-  4  5,7  - AAh
   4  5,5  - AAl
   4  5,5  - AAs
-  4  5,7  - AAs
   4 11,5  | ADzE
   4  7,3  | AErO
   4  4,5  - AGa
-  4  4,7  - AGa
   4  6,3  | AGas
   4  4,5  - AGe
   4  6,3  | AGes
@@ -1160,7 +1089,6 @@
   4 10,4  | ArEAE
   4  8,3  | AxAL
   4  8,3  | AxEL
-  4  5,7  - EAr
   4  5,5  - EAt
   4 10,6  | EGg
   4  6,3  | EGgs
@@ -1340,7 +1268,6 @@
   4  6,3  | yAGs
   4  6,3  | zAGs
   3  5,5  - AA
-  3  5,7  - AA
   3 11,5  | AD
   3 11,5  | ADd
   3 11,5  | ADo
@@ -1358,25 +1285,18 @@
   3  8,5  | ALt
   3  6,5  - Ab
   3  4,5  - AbA
-  3  4,7  - AbA
   3  6,3  | AbAsE
   3  4,5  - AcE
   3  6,5  - Ad
-  3  6,7  - Ad
   3 11,4  | AdD
   3  6,5  - Ae
-  3  6,7  - Ae
   3  6,5  - Ag
   3  4,5  - AgA
-  3  4,7  - AgA
   3  4,5  - AgE
   3 10,3  | AgEE
   3 10,4  | AgEE
   3  6,5  - Ah
-  3  6,7  - Ah
   3  4,5  - AhA
-  3  4,7  - AhA
-  3  6,7  - Ai
   3 11,4  | AiD
   3 10,3  | AjEE
   3 10,4  | AjEE
@@ -1384,49 +1304,37 @@
   3 10,4  | AkEE
   3  6,5  - Al
   3  4,5  - AlA
-  3  4,7  - AlA
   3 10,3  | AlAE
   3  4,5  - AlE
   3 10,3  | AlEE
   3 10,4  | AlEE
   3  7,4  | AlOE
   3  6,5  - Am
-  3  6,7  - Am
   3  4,5  - AmA
-  3  4,7  - AmA
   3  6,5  - An
-  3  6,7  - An
   3  4,5  - AnA
-  3  4,7  - AnA
   3 11,4  | AnD
   3  4,5  - AnE
   3  7,4  | AnOA
   3  6,4  | AnsAE
   3  4,5  - ApE
-  3  6,7  - Ar
   3  4,5  - ArE
   3 10,4  | ArEA
   3  6,5  - As
-  3  6,7  - As
   3  6,5  | AsAnA
   3 10,4  | AsEA
   3  6,5  | AsEA
   3  6,5  - At
   3  4,5  - AtE
   3  4,5  - AvA
-  3  4,7  - AvA
   3  4,5  - AvE
   3  6,5  - Aw
-  3  6,7  - Aw
   3  4,5  - AwA
-  3  4,7  - AwA
   3  4,5  - AwE
   3 10,3  | AwEE
   3 10,4  | AwEE
-  3  6,7  - Ax
   3  4,5  - AxE
   3  6,5  - Ay
-  3  6,7  - Ay
   3  4,5  - AyE
   3 11,6  | DA
   3 11,6  | DAb
@@ -1479,11 +1387,9 @@
   3 11,4  | EnD
   3  6,5  - Eo
   3  4,5  - ErA
-  3  4,7  - ErA
   3  6,5  - Es
   3  6,5  - Et
   3  4,5  - EtA
-  3  4,7  - EtA
   3  6,5  - Ew
   3  6,4  | Gas
   3  5,5  - Gi
@@ -1517,12 +1423,10 @@
   3  8,6  | LEy
   3  8,4  | aAL
   3  6,5  - aE
-  3  6,7  - aE
   3  6,4  | aGs
   3  8,5  | aLA
   3  8,5  | aLE
   3  4,5  - bAA
-  3  4,7  - bAA
   3 11,4  | bAD
   3  8,4  | bAL
   3 11,4  | bED
@@ -1547,11 +1451,9 @@
   3 11,5  | iDE
   3  4,5  - kAE
   3  4,5  - kEA
-  3  4,7  - kEA
   3 11,4  | kED
   3 11,4  | lAD
   3  4,5  - lEA
-  3  4,7  - lEA
   3 11,4  | lED
   3 11,4  | mAD
   3  4,5  - mAE
@@ -1568,7 +1470,6 @@
   3 11,4  | pAD
   3  8,4  | pAL
   3  4,5  - pEA
-  3  4,7  - pEA
   3 11,4  | pED
   3 11,4  | rAD
   3 11,4  | rED
@@ -1576,14 +1477,12 @@
   3  4,5  - sAE
   3  8,4  | sAL
   3  4,5  - sEA
-  3  4,7  - sEA
   3  8,4  | sEL
   3  6,6  | saG
   3  6,6  | seG
   3 11,4  | tAD
   3  4,5  - tAE
   3  4,5  - tEA
-  3  4,7  - tEA
   3 11,4  | tED
   3  8,4  | tEL
   3  7,5  | tOEA
@@ -1591,7 +1490,6 @@
   3  4,5  - wAE
   3 11,4  | wED
   3  4,5  - yEA
-  3  4,7  - yEA
   3 11,4  | zED
   3  7,5  | zOEA
   2  4,7  - AAh
@@ -1709,13 +1607,11 @@
   2  7,6  | OvA
   2  7,6  | OwE
   2  5,5  - aA
-  2  5,7  - aA
   2 11,5  | aD
   2  5,5  - aE
   2  8,5  | aL
   2  6,5  | asEA
   2  5,5  - bA
-  2  5,7  - bA
   2  6,3  | bAAs
   2  6,4  | bAsE
   2  5,5  - bE
@@ -1727,7 +1623,6 @@
   2 10,4  | cEE
   2 10,5  | cEE
   2  5,5  - dA
-  2  5,7  - dA
   2  5,5  - dE
   2 10,4  | dEE
   2 10,5  | dEE
@@ -1737,7 +1632,6 @@
   2  5,5  - eE
   2  8,5  | eL
   2  5,5  - fA
-  2  5,7  - fA
   2  5,5  - fE
   2 10,4  | fEE
   2 10,5  | fEE
@@ -1748,7 +1642,6 @@
   2 10,5  | gEE
   2  7,5  | gOA
   2  5,5  - hA
-  2  5,7  - hA
   2 10,4  | hAE
   2  6,3  | hAEs
   2  7,4  | hAO
@@ -1756,13 +1649,11 @@
   2  7,5  | hOE
   2 11,5  | iD
   2  5,5  - jA
-  2  5,7  - jA
   2  5,5  - jE
   2 10,4  | jEE
   2 10,5  | jEE
   2  7,5  | jOE
   2  5,5  - kA
-  2  5,7  - kA
   2  6,3  | kAAs
   2 10,4  | kAE
   2  6,3  | kAEs
@@ -1770,14 +1661,12 @@
   2  6,3  | kEAs
   2  7,5  | kOA
   2  5,5  - lA
-  2  5,7  - lA
   2  6,4  | lAsE
   2 10,5  | lEA
   2  6,3  | lEAs
   2 10,4  | lEE
   2 10,5  | lEE
   2  5,5  - mA
-  2  5,7  - mA
   2 10,4  | mAE
   2  6,3  | mAEs
   2  6,4  | mAsA
@@ -1785,7 +1674,6 @@
   2  6,4  | mEsA
   2  7,5  | mOA
   2  5,5  - nA
-  2  5,7  - nA
   2 10,4  | nAE
   2  5,5  - nE
   2 10,4  | nEE
@@ -1793,7 +1681,6 @@
   2 11,5  | oD
   2  5,5  - oE
   2  5,5  - pA
-  2  5,7  - pA
   2  6,4  | pAsE
   2  5,5  - pE
   2 10,5  | pEA
@@ -1805,8 +1692,6 @@
   2 10,4  | rEE
   2 10,5  | rEE
   2  7,5  | rOE
-  2  5,5  - sA
-  2  5,7  - sA
   2 10,4  | sAE
   2  6,6  | sAE
   2  6,6  | sAbE
@@ -1835,7 +1720,6 @@
   2  6,6  | shEA
   2  6,6  | spAE
   2  5,5  - tA
-  2  5,7  - tA
   2 10,4  | tAE
   2  7,4  | tAO
   2  5,5  - tE
@@ -1856,17 +1740,14 @@
   2 10,5  | wEE
   2  7,5  | wOE
   2  5,5  - yA
-  2  5,7  - yA
   2  5,5  - yE
   2 10,5  | yEA
   2  6,3  | yEAs
   2  5,5  - zA
-  2  5,7  - zA
   2 10,4  | zEE
   2 10,5  | zEE
   2  7,5  | zOA
   1  5,5  - Aa
-  1  5,7  - Aa
   1  6,4  | Aas
   1  6,4  | Abs
   1  6,4  | Ads
@@ -1934,7 +1815,6 @@
   1 10,5  | bE
   1  6,4  | bEs
   1  7,5  | bO
-  1  7,5  | cO
   1 10,5  | dE
   1  7,5  | dO
   1 10,5  | eE
@@ -1970,7 +1850,6 @@
   1  6,4  | rAs
   1 10,5  | rE
   1  6,4  | rEs
-  1  6,6  | sA
   1  6,6  | sAb
   1  6,6  | sAc
   1  6,6  | sAd
@@ -1996,6 +1875,7 @@
   1  6,6  | sEv
   1  6,6  | sEw
   1  6,6  | sEx
+  1  6,6  | sEz
   1  7,5  | sO
   1  6,6  | saE
   1  6,6  | seA
@@ -2022,7 +1902,6 @@
   0  6,5  | es
   0  6,5  | is
   0  6,5  | os
-  0  6,6  | sa
   0  6,6  | sh
   0  6,6  | si
   0  6,6  | so

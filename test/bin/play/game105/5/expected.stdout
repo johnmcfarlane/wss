@@ -11,7 +11,6 @@
  21  7,3  - TINEA
  21  7,3  - TINES
  19  5,5  | QAT
- 19  5,5  | QIS
  19  7,5  | QIS
  19  8,2  | TEAS
  19  8,2  | TIES
@@ -26,7 +25,6 @@
  16  8,3  | EAT
  16 11,2  | EATS
  16 11,2  | ETAS
- 16  5,5  | QI
  16  7,5  | QI
  16  8,5  | SITED
  16  4,8  - TASSE
@@ -46,6 +44,7 @@
  14  7,4  - QIS
  14  2,10 - SATAY
  14  8,2  | TAE
+ 14  8,2  | TAI
  14  8,2  | TEA
  14  8,2  | TIE
  13 11,3  | AAS
@@ -54,7 +53,6 @@
  13 11,3  | ITS
  13  5,5  | SATE
  13  5,5  | SATI
- 13  5,5  | SITE
  13 11,3  | TAS
  13 11,3  | TIS
  12  8,4  | AE
@@ -77,24 +75,19 @@
  11  7,4  | ATES
  11  5,4  | ETAS
  11  7,4  | ETAS
- 11 10,2  | SA
  11  5,4  | SEAT
- 11 10,2  | SI
  11  8,5  | SIT
  11 10,2  | TA
  11 10,2  | TE
  11  5,4  | TEAS
  11  7,4  | TEAS
- 11 10,2  | TI
  11  8,5  | TIE
  11  7,4  | TIES
  11  8,5  | TIS
  10  5,5  | AAS
  10  7,5  | AAS
  10  7,1  - AECIA
- 10  5,5  | AIS
  10  7,5  | AIS
- 10  5,5  | AIT
  10  5,3  | ASEA
  10  7,3  | ASEA
  10  5,5  | EAT
@@ -102,25 +95,22 @@
  10  7,5  | SAE
  10  5,5  | SAT
  10  7,3  | SATE
- 10  5,3  | SATI
  10  7,3  | SATI
  10  7,5  | SEI
  10  5,3  | SETA
  10  7,3  | SETA
  10  5,2  - SETAE
  10  8,5  | SI
- 10  5,5  | SIT
  10  7,3  | SITE
  10  7,1  - TACES
  10  5,5  | TAE
  10  7,5  | TAE
+ 10  7,5  | TAI
  10  5,5  | TAS
  10  7,5  | TAS
  10  5,2  - TEASE
  10  8,5  | TI
- 10  5,5  | TIE
  10  7,5  | TIE
- 10  5,5  | TIS
  10  7,5  | TIS
   9  8,1  - ACES
   9  8,1  - ACTA
@@ -135,9 +125,7 @@
   9  9,10 - ER
   9  7,6  | ES
   9  8,1  - ICES
-  9  5,6  | IS
   9  7,6  | IS
-  9  5,6  | IT
   9  9,9  | NAW
   9  9,9  | NEW
   9  8,1  - SCAT
@@ -161,13 +149,13 @@
   8  5,4  | SEA
   8  7,4  | SEA
   8  8,2  - SEAT
-  8  5,4  | SEI
   8  7,4  | SEI
   8  8,2  - SETA
   8  6,2  - SITE
   8  5,3  - STAIN
   8  5,3  - STEIN
   8  7,4  | TAE
+  8  7,4  | TAI
   8  4,8  - TASS
   8  5,4  | TEA
   8  7,4  | TEA
@@ -182,7 +170,6 @@
   7  8,2  | AE
   7  7,5  | AE
   7  8,2  | AI
-  7  5,5  | AI
   7  7,5  | AI
   7  7,1  - ASCI
   7  5,10 - AYS
@@ -190,8 +177,6 @@
   7  2,8  - EASTS
   7  6,1  - ETIC
   7  4,6  - ISBA
-  7  5,5  | SA
-  7  7,5  | SA
   7  4,6  - SABE
   7  6,3  - SAINT
   7  5,4  - SATES
@@ -201,7 +186,6 @@
   7  5,4  - SEATS
   7  2,8  - SEATS
   7  7,1  - SECT
-  7  5,5  | SI
   7  7,5  | SI
   7  7,1  - SICE
   7  5,4  - SITES
@@ -219,7 +203,6 @@
   7  8,2  | TE
   7  7,5  | TE
   7  8,2  | TI
-  7  5,5  | TI
   7  7,5  | TI
   7  7,1  - TICS
   6  5,10 | AA
@@ -252,7 +235,6 @@
   6 11,4  | IS
   6  8,6  | IS
   6  8,6  | IT
-  6  5,7  | SA
   6  4,6  - SAB
   6  7,1  - SAC
   6  8,7  | SAD
@@ -320,7 +302,6 @@
   5  7,4  - ESS
   5  4,8  - ESS
   5  5,8  - ESS
-  5  5,6  - IB
   5  8,8  | ID
   5  8,6  - IDEA
   5  8,6  - IDEE
@@ -349,7 +330,6 @@
   5  7,3  - TIN
   5  7,4  - TIS
   5  4,8  - TIS
-  4  7,8  | AI
   4  8,3  - ANA
   4  8,3  - ANE
   4  8,3  - ANI
@@ -368,7 +348,6 @@
   4  8,3  - INS
   4  5,7  - IOTA
   4  8,4  - IS
-  4  6,8  - SA
   4  8,5  - SEL
   4  4,7  - STOA
   4  4,7  - TAOS
@@ -382,7 +361,6 @@
   3  8,3  - IN
   3  9,3  - NA
   3  9,3  - NE
-  3  9,3  - NI
   3  6,7  - OAT
   3  6,7  - OES
   3  6,7  - OSE

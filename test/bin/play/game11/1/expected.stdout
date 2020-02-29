@@ -99,6 +99,7 @@
  40 10,4  | SOD
  40 10,6  | SOIL
  40 10,6  | SOLI
+ 39  9,1  | DOLINE
  39  9,1  | INDOLE
  38 10,6  | DI
  38 10,4  | DIS
@@ -204,9 +205,7 @@
  19  7,5  - NODS
  19  7,7  - NODS
  19  6,7  - OH
- 19  7,5  - SIDH
  19  7,7  - SIDH
- 19  7,5  - SINH
  19  7,7  - SINH
  19  7,7  - SOLDI
  19  7,7  - SOLID
@@ -279,13 +278,10 @@
  16  9,2  | NOSHED
  16  8,7  - OLDS
  16  6,3  | SHOJI
- 16  7,5  - SIN
  16  7,7  - SIN
  16  6,3  | SLOJD
- 16  7,5  - SOD
  16  7,7  - SOD
  16  7,7  - SOL
- 16  7,5  - SON
  16  7,7  - SON
  15  9,5  | DELISH
  15  6,5  | DJIN
@@ -508,8 +504,6 @@
  10  9,7  - LO
  10  9,3  | LODE
  10  9,3  | LONE
- 10  9,5  - NI
- 10  9,7  - NI
  10  7,3  | NIDAL
  10  9,3  | NIDE
  10  9,5  - NO
@@ -570,8 +564,6 @@
   9  8,3  | LOIDS
   9  8,4  | LSD
   9  9,5  | NED
-  9  7,5  - NI
-  9  7,7  - NI
   9  7,5  - NO
   9  7,7  - NO
   9  8,4  | NOD
@@ -672,12 +664,10 @@
   7  9,5  | SEL
   7  9,5  | SEN
   7  7,4  | SHAD
-  7  7,5  - SI
   7  7,7  - SI
   7  7,4  | SLAIN
   7  9,3  | SLOE
   7  7,4  | SNAIL
-  7  7,5  - SO
   7  7,7  - SO
   6  7,6  | ADOS
   6  7,6  | AIDS
@@ -783,4 +773,3 @@
   3  9,5  | OE
   2  7,6  | AI
   2  7,6  | AS
-  2  7,5  | SA

@@ -1,7 +1,7 @@
  61 12,5  | BELCHING
  30  8,8  | TANGIBLE
- 28  7,7  - BEGIN
  28  6,10 - BEGIN
+ 28  6,10 - BEING
  28  9,7  - GIB
  28  8,8  | TABLING
  27 10,6  | BENIGN
@@ -13,9 +13,8 @@
  25  6,10 - BINGE
  24 12,4  | BLENCH
  23  8,10 - BEGIN
+ 23  6,10 - NEIGH
  22  9,7  - BEL
- 22  9,7  - BEN
- 22  9,7  - BIN
  22  8,4  | GENITAL
  22  8,10 - GIBE
  22  6,10 - HINGE
@@ -32,30 +31,29 @@
  21 11,6  | GHIBLI
  21  8,10 - GIB
  21  6,10 - GIBE
- 21 10,7  - IB
- 21 10,9  - IB
  21  9,5  | IGNOBLE
  20  8,10 - BEG
  20  9,5  | BELONG
  20 10,6  | BENNI
  20  8,10 - BIG
+ 20  7,10 - BILGE
  20  6,10 - BINE
+ 20  7,10 - BINGE
+ 20  6,10 - BLIN
  20 12,7  | ECHING
  20  9,7  - GEL
- 20  9,7  - GEN
  20  6,10 - GIB
- 20  9,7  - GIN
  20  5,10 - GLIB
  20  9,6  | GLOBIN
- 20  9,7  - HEN
- 20  9,7  - HIN
  20  8,8  | TANGLE
  19  7,9  | BEGIN
  19  8,10 - BEING
  19  6,10 - BEN
  19  6,10 - BIN
  19 11,3  | GHIBLI
+ 19  6,10 - GLIB
  19  9,7  | GOBLIN
+ 19  7,10 - HINGE
  19  8,10 - NEB
  19  7,10 - NEIGH
  19  8,10 - NIB
@@ -76,8 +74,9 @@
  18 10,6  | HINGE
  18  4,10 - INGLE
  18  6,10 - INGLE
- 18  9,7  - LIN
+ 18  8,10 - INGLE
  18  6,10 - NIGH
+ 18  7,10 - NIGH
  18  9,7  - NIL
  18  9,8  | OBLIGE
  18  8,8  | TABLE
@@ -102,11 +101,13 @@
  17  9,7  | HOLING
  17  7,10 - INGLE
  17  6,10 - LIB
+ 17  7,10 - LING
  17  6,10 - NEB
  17  5,10 - NEIGH
  17  6,10 - NIB
  16  7,9  | BEG
  16 11,5  | BEGIN
+ 16  5,10 - BEGIN
  16  7,10 - BEGIN
  16  7,9  | BIG
  16 10,6  | BINE
@@ -114,12 +115,14 @@
  16  9,7  | BOING
  16  8,10 - ELHI
  16  6,10 - GEN
+ 16  6,10 - GHI
  16 11,7  | GIBE
  16  6,10 - GIEN
  16  6,10 - GIN
  16  5,10 - GLEN
  16 11,6  | GLIB
  16  9,6  | GLOBE
+ 16  6,10 - HEIL
  16 11,6  | HEILING
  16  6,10 - HEN
  16  6,10 - HIN
@@ -167,7 +170,6 @@
  15 10,8  | NIGH
  15  7,9  | NIGH
  14  7,9  - BANE
- 14  7,9  - BANI
  14 11,6  | BEING
  14  7,9  | BEL
  14 12,5  | BELCH
@@ -179,10 +181,13 @@
  14  6,9  - BLAH
  14 11,6  | BLINI
  14  9,6  | BLOG
+ 14  5,10 - ELHI
  14  9,6  | ELOIGN
  14  8,10 - GHI
  14  5,10 - GIBE
+ 14  7,10 - GIBE
  14  6,10 - GIE
+ 14  7,10 - GIEN
  14  8,10 - GIEN
  14  6,7  - GLEN
  14  7,10 - HEIL
@@ -208,8 +213,10 @@
  13  7,7  - BEN
  13  9,7  - BI
  13  5,10 - BILE
+ 13  7,10 - BILE
  13 11,7  | BIN
  13  5,10 - BINE
+ 13  7,10 - BINE
  13  9,6  | BIOG
  13 10,5  | BLIN
  13 11,6  | BLIN
@@ -217,7 +224,6 @@
  13 12,8  | CHILE
  13 12,8  | CHINE
  13 10,7  - EL
- 13 10,7  - EN
  13 10,9  - EN
  13  6,10 - ENG
  13  7,9  - GANE
@@ -226,14 +232,13 @@
  13  4,9  - GLEBA
  13  9,7  | GOB
  13  9,7  | HOB
- 13 10,7  - IN
- 13 10,9  - IN
  13 10,7  | INGLE
  13  7,7  - LEG
  13  6,9  - LIANE
  13 11,7  | LIB
  13 12,6  | LICHEN
  13  6,10 - LIEN
+ 13  7,10 - LIEN
  13  6,10 - LIN
  13  7,9  | LING
  13  9,7  | LOBE
@@ -241,7 +246,6 @@
  13  7,7  - NEG
  13 11,7  | NIB
  13  8,10 - NIL
- 12  8,9  - AHI
  12  7,9  - BAH
  12  4,9  - BELGA
  12 10,5  | BENNI
@@ -280,24 +284,27 @@
  11  6,9  - BEAN
  11  7,10 - BEG
  11  8,10 - BI
+ 11  7,10 - BIG
  11  9,7  | BOLE
  11  9,7  | BONE
  11  9,6  | EBON
  11  8,7  - EH
  11 11,5  | GENII
  11  9,7  - GI
+ 11  7,10 - GIB
  11 11,7  | GIEN
  11 11,7  | GIN
  11  9,7  - HE
  11  9,7  - HI
  11 11,7  | HIN
  11  9,7  | HOG
- 11  7,10 - IB
  11 11,8  | INGLE
+ 11  6,10 - LEI
  11  6,10 - LIE
  11  5,7  - LINE
  11  7,9  | LINE
  11  5,10 - LINE
+ 11  7,10 - LINE
  11 10,6  | LINN
  11  9,7  | LOGE
  11  9,7  | LONG
@@ -306,13 +313,13 @@
  11  9,8  | OBI
  11  9,8  | OLEIN
  10  8,9  - ANE
- 10  8,9  - ANI
  10  7,9  - BAN
  10  7,9  | BE
  10  7,10 - BEL
  10  7,10 - BEN
  10  7,9  | BI
  10 12,6  | BICE
+ 10  7,10 - BIN
  10  6,9  - BLAE
  10  9,7  | BOIL
  10  9,7  | BON
@@ -331,6 +338,7 @@
  10  9,7  | HONE
  10 12,6  | INCH
  10 12,6  | LECH
+ 10  7,10 - LIB
  10 12,6  | LICH
  10  7,9  | LIEN
  10  7,9  | LIN
@@ -341,6 +349,7 @@
  10  9,7  | LOG
  10  7,9  - NAH
  10  7,10 - NEB
+ 10  7,10 - NIB
  10  7,9  | NIL
  10 10,6  | NINE
  10 10,8  | NINE
@@ -359,12 +368,13 @@
   9  8,10 - GI
   9 11,7  | GIE
   9 10,5  | GIEN
+  9  7,10 - GIN
   9  9,4  | HELIO
   9  7,10 - HEN
   9 11,7  | HIE
   9 11,5  | HILI
+  9  7,10 - HIN
   9  9,7  | HON
-  9 11,8  | IB
   9  6,9  - LEAN
   9  7,10 - LEG
   9  9,7  - LI
@@ -376,31 +386,35 @@
   9  9,7  | LONE
   9  9,7  - NE
   9  7,10 - NEG
-  9  9,7  - NI
   9 11,7  | NIL
   9 10,8  | NIL
   8  8,9  - AH
   8  7,7  - BE
   8  7,10 - BE
+  8  7,10 - BI
   8 12,8  | CEIL
   8 12,8  | CHI
   8 12,8  | CIG
   8 12,8  | CINE
   8  8,6  | ENTAIL
   8  6,7  - GIE
+  8  7,10 - GIE
   8  7,9  | HE
   8  7,9  | HI
   8 12,6  | HIC
   8  6,7  - HIE
+  8  7,10 - HIE
   8 12,7  | ICH
   8  7,9  | LEI
   8  9,5  | LENO
   8 12,6  | LICE
   8  7,9  | LIE
   8 10,5  | LIEN
+  8  7,10 - LIN
   8  9,5  | LINO
   8  9,7  | LOIN
   8 12,6  | NICE
+  8  7,10 - NIL
   8  9,7  | NOEL
   8  9,7  | NOIL
   8  9,8  | OH
@@ -411,10 +425,12 @@
   7  9,7  | EON
   7  7,9  - GAE
   7 11,7  | GI
+  7  7,10 - GI
   7  7,9  - HAE
   7  7,7  - HE
   7  7,10 - HE
   7 11,7  | HI
+  7  7,10 - HI
   7  9,7  | HOE
   7  9,7  | HOI
   7  7,10 - IN
@@ -423,8 +439,8 @@
   7  7,10 - LEI
   7  6,7  - LIE
   7 11,7  | LIE
+  7  7,10 - LIE
   7  8,10 - NE
-  7  8,10 - NI
   7  9,8  | OLE
   7  9,8  | ONE
   7  8,8  | TANG
@@ -436,12 +452,13 @@
   6  8,6  | GETA
   6 12,7  | ICE
   6  5,9  - ILEA
+  6  8,10 - IN
   6  7,9  | LI
+  6  7,10 - LI
   6  7,9  - NAE
   6  7,7  - NE
   6  7,9  | NE
   6  7,10 - NE
-  6  7,9  | NI
   6  9,8  | OIL
   6  9,8  | ON
   6  8,8  | TAB
@@ -452,7 +469,6 @@
   5 10,7  | INN
   5 11,6  | LEI
   5 11,7  | LI
-  5 11,7  | NI
   5  8,8  | TAEL
   5  8,8  | TAG
   5  8,8  | TAIL
@@ -475,7 +491,7 @@
   3  9,7  | LO
   3  7,9  - NA
   3 10,8  | NE
-  3 10,8  | NI
   3  9,7  | NO
   3  8,8  | TAE
+  3  8,8  | TAI
   2  9,7  | EO

@@ -377,7 +377,6 @@
  21  9,1  | VExEs
  21  9,1  | VExIl
  21  9,1  - amU
- 21  3,8  | caVE
  21  9,1  | dEUcE
  21  9,1  - eaU
  21  3,8  | eaVE
@@ -899,6 +898,8 @@
  15  4,10 - sEw
  15  1,10 - sEx
  15  4,10 - sEx
+ 15  1,10 - sEz
+ 15  4,10 - sEz
  15  1,10 - sI
  15  1,10 - sIb
  15  4,10 - sIb
@@ -1020,14 +1021,11 @@
  14 10,1  | Use
  14  3,9  - aLVInE
  14  6,5  - aQUaE
- 14  6,7  - aQUaE
  14  6,4  | bISQUe
  14  6,4  | baSQUE
  14  6,4  | biSQUE
  14  6,4  | boSQUE
  14 10,1  | brIE
- 14  3,8  | cEIl
- 14  3,8  | cEdI
  14  3,8  - cOQUEt
  14  6,4  | caSQUE
  14 10,1  | crU
@@ -1161,9 +1159,7 @@
  13  6,5  - UnlIVE
  13  6,5  - UpdIVE
  13  6,5  - aQUa
- 13  6,7  - aQUa
  13  6,5  - alIVE
- 13  6,7  - alIVE
  13  3,10 - as
  13  6,4  | bISQuE
  13  5,8  | dIVE
@@ -1188,8 +1184,6 @@
  13  6,4  | rISQuE
  13  5,8  | rIVE
  13  3,8  - rOQUe
- 13  1,10 - sa
- 13  4,10 - sa
  13  1,10 - sh
  13  4,10 - sh
  13  1,10 - si
@@ -1237,11 +1231,7 @@
  12 10,1  | Id
  12 10,1  | Ide
  12 10,1  | Ids
- 12  3,4  | ImAgE
- 12  3,4  | InAnE
  12  5,4  | InTEr
- 12  3,4  | IrAdE
- 12  3,4  | IrAtE
  12 10,1  | Ire
  12 10,1  | Irk
  12 10,1  | Is
@@ -1414,6 +1404,7 @@
  12 10,2  | sEv
  12 10,2  | sEw
  12 10,2  | sEx
+ 12 10,2  | sEz
  12 10,2  | sI
  12 10,2  | sIb
  12 10,2  | sIc
@@ -1435,6 +1426,7 @@
  12 10,2  | suE
  12  3,8  - tOQuE
  12  9,1  - taE
+ 12  9,1  - taI
  12  9,1  - teE
  12  9,1  - thE
  12  9,1  - tiE
@@ -1714,7 +1706,6 @@
  10  9,3  - rUE
  10 10,2  | re
  10  9,3  - sUE
- 10 10,2  | sa
  10 10,2  | sh
  10 10,2  | si
  10 10,2  | so
@@ -1726,9 +1717,6 @@
   9  3,6  | AbbE
   9  3,6  | AblE
   9  3,6  | AbyE
-  9  3,6  | AchE
-  9  3,6  | AcmE
-  9  3,6  | AcnE
   9  3,6  | AgeE
   9  3,6  | AjeE
   9  3,6  | AleE
@@ -1879,7 +1867,6 @@
   9  9,1  - Eye
   9  9,3  - Eye
   9  2,6  | HIE
-  9  3,4  | ImAm
   9  5,3  - Imp
   9  5,4  | InTi
   9  5,4  | InTo
@@ -1952,7 +1939,6 @@
   9  3,8  - VOgUEs
   9  3,8  - VOyEUr
   9  6,5  - aIVEr
-  9  6,7  - aIVEr
   9  3,9  - aLIVe
   9  3,9  - aLiVE
   9  9,1  - aUk
@@ -2279,7 +2265,6 @@
   8  8,2  | DraVE
   8  8,2  | DriVE
   8  8,2  | DroVE
-  8  3,5  | EAch
   8  3,5  | EAse
   8  3,5  | EAst
   8  3,5  | EAsy
@@ -2618,7 +2603,6 @@
   8  5,3  | nEtT
   8  5,3  | nEwT
   8  5,3  | nExT
-  8  7,3  - nI
   8  5,8  | nIcE
   8  5,8  | nIdE
   8  5,8  | nInE
@@ -2939,13 +2923,9 @@
   7  3,4  - aBUsE
   7  8,3  - aE
   7  6,5  - aVE
-  7  6,7  - aVE
   7  6,5  - aVEr
-  7  6,7  - aVEr
   7  6,5  - aVEs
-  7  6,7  - aVEs
   7  6,5  - aVId
-  7  6,7  - aVId
   7  5,9  | aVa
   7  5,9  | aVe
   7  5,9  | aVo
@@ -2966,9 +2946,6 @@
   7  3,9  - bLUEy
   7  3,8  - bOUgIE
   7  3,8  - bOVId
-  7  3,8  | cEe
-  7  3,8  | cEl
-  7  3,8  | cEp
   7  3,9  - cLUE
   7  3,9  - cLUEd
   7  3,9  - cLUEs
@@ -3185,7 +3162,6 @@
   7  3,8  | nEt
   7  2,8  | nEvI
   7  3,8  | nEw
-  7  5,8  | nI
   7  5,8  | nIb
   7  5,8  | nIl
   7  5,8  | nIm
@@ -3277,6 +3253,7 @@
   7  3,8  | sEv
   7  3,8  | sEw
   7  3,8  | sEx
+  7  3,8  | sEz
   7  2,5  | sHE
   7  5,8  | sI
   7  5,8  | sIb
@@ -3509,7 +3486,6 @@
   6  3,7  - EO
   6  5,5  | EThs
   6  9,2  | EaVe
-  6  1,5  - EasE
   6  3,9  | Ed
   6  5,3  | Ee
   6  3,9  | Ee
@@ -3560,7 +3536,6 @@
   6  3,9  - ILeUm
   6  3,9  - ILeUs
   6  3,9  - ILiUm
-  6  5,9  | Ib
   6  5,9  | Ice
   6  5,9  | Ich
   6  5,9  | Ick
@@ -3873,16 +3848,11 @@
   6  3,9  - aLIvE
   6  3,9  - aLUm
   6  6,5  - aUrEI
-  6  6,7  - aUrEI
   6  6,5  - aVa
-  6  6,7  - aVa
   6  6,5  - aVe
-  6  6,7  - aVe
   6  6,5  - aVo
-  6  6,7  - aVo
   6  3,4  | abA
   6  6,5  - adIEU
-  6  6,7  - adIEU
   6  5,4  | afT
   6  3,4  | ahA
   6  5,4  | alT
@@ -3933,7 +3903,6 @@
   6  3,9  - cLUb
   6  3,9  - cLUe
   6  3,8  - cOVe
-  6  3,5  | dAcE
   6  3,5  | dAlE
   6  3,5  | dAmE
   6  3,5  | dAtE
@@ -3982,7 +3951,6 @@
   6  6,5  - eVe
   6  5,4  | efT
   6  6,5  - emEU
-  6  3,5  | fAcE
   6  3,5  | fAdE
   6  3,5  | fAmE
   6  3,5  | fAnE
@@ -4085,7 +4053,6 @@
   6  3,8  - lOVe
   6  2,8  | leU
   6  3,5  | mAbE
-  6  3,5  | mAcE
   6  3,5  | mAdE
   6  3,5  | mAgE
   6  3,5  | mAlE
@@ -4135,8 +4102,6 @@
   6  9,1  | nEvE
   6  9,1  | nEvI
   6  9,1  - nEw
-  6  9,1  - nI
-  6  5,3  | nI
   6  9,1  - nIb
   6  9,1  - nIl
   6  9,1  - nIm
@@ -4146,7 +4111,6 @@
   6  3,8  - nOVa
   6  7,3  - na
   6  7,3  - ne
-  6  7,3  - ni
   6  7,3  - no
   6  3,4  - oBElI
   6  9,1  - oE
@@ -4164,7 +4128,6 @@
   6  5,4  | ofT
   6  5,4  | ooT
   6  5,4  | orT
-  6  3,5  | pAcE
   6  3,5  | pAgE
   6  3,5  | pAlE
   6  3,5  | pAnE
@@ -4209,7 +4172,6 @@
   6  7,3  - pi
   6  7,3  - po
   6  5,3  | qI
-  6  3,5  | rAcE
   6  3,5  | rAgE
   6  3,5  | rAlE
   6  3,5  | rApE
@@ -4262,7 +4224,6 @@
   6  5,5  | sTEy
   6  5,5  | sTIr
   6  5,5  | sTyE
-  6  3,5  | tAcE
   6  3,5  | tAlE
   6  3,5  | tAmE
   6  3,5  | tApE
@@ -4289,7 +4250,6 @@
   6  9,1  - tIp
   6  9,1  - tIs
   6  9,1  - tIt
-  6  3,7  - tOEa
   6  3,9  - uLU
   6  3,9  - uLUs
   6  3,5  | wAdE
@@ -4329,7 +4289,6 @@
   6  9,1  - yIn
   6  9,1  - yIp
   6  5,4  | yeT
-  5  3,6  | AcE
   5  3,6  | AgE
   5  3,6  | AlE
   5  3,6  | AnE
@@ -4693,12 +4652,10 @@
   5  2,6  | Hos
   5  2,6  | Hot
   5  2,6  | How
-  5  3,4  - IB
   5  3,4  - IBex
   5  3,4  - IBis
   5  3,9  - ILlEr
   5  6,5  | ISsUE
-  5  5,3  - Ib
   5  5,3  - Id
   5  8,3  - Id
   5  8,3  - Ide
@@ -4894,7 +4851,6 @@
   5  3,9  | acE
   5  3,9  | agE
   5  6,5  - agUE
-  5  6,7  - agUE
   5  3,9  | ahI
   5  3,9  | alE
   5  3,9  | amI
@@ -5057,8 +5013,6 @@
   5  6,4  | rISqUE
   5  3,7  - rOE
   5  6,4  | rUSInE
-  5  3,5  - sEE
-  5  3,5  - sEI
   5  2,8  | sEa
   5  2,8  | sEc
   5  2,8  | sEe
@@ -5071,6 +5025,7 @@
   5  2,8  | sEv
   5  2,8  | sEw
   5  2,8  | sEx
+  5  2,8  | sEz
   5  2,5  | sHa
   5  2,5  | sHe
   5  3,9  - sLIEr
@@ -5647,7 +5602,6 @@
   4  3,4  - aBs
   4  3,4  - aBy
   4  6,5  - aIdE
-  4  6,7  - aIdE
   4  3,9  - aLE
   4  3,9  - aLEc
   4  3,9  - aLEe
@@ -5663,7 +5617,6 @@
   4  8,3  - alE
   4  8,3  - amI
   4  6,5  - amIE
-  4  6,7  - amIE
   4  5,9  | amU
   4  8,3  - anE
   4  8,3  - anI
@@ -5694,8 +5647,6 @@
   4  3,8  - cOUdE
   4  3,8  - cOUpE
   4  6,4  | cUSEc
-  4  3,8  | ceE
-  4  5,3  | co
   4  2,8  | dE
   4  9,3  - dEb
   4  9,3  - dEe
@@ -5858,7 +5809,6 @@
   4  9,3  - hoI
   4  5,8  | hoI
   4  9,3  - huE
-  4  3,4  - iB
   4  3,9  - iLEa
   4  3,9  - iLEx
   4  3,9  - iLIa
@@ -5969,7 +5919,6 @@
   4  9,3  - neE
   4  2,8  | neE
   4  3,8  | neE
-  4  5,3  | ni
   4  5,3  | no
   4  3,4  - oBa
   4  3,4  - oBe
@@ -6077,6 +6026,7 @@
   4  9,3  - sEv
   4  9,3  - sEw
   4  9,3  - sEx
+  4  9,3  - sEz
   4  2,5  | sH
   4  9,3  - sIb
   4  9,3  - sIc
@@ -6095,7 +6045,6 @@
   4  3,9  - sLIt
   4  3,8  - sOUsE
   4  6,4  | sUShI
-  4  5,3  | sa
   4  9,3  - saE
   4  3,8  | saE
   4  5,8  | saE
@@ -6135,6 +6084,8 @@
   4  5,3  | ta
   4  9,3  - taE
   4  3,8  | taE
+  4  9,3  - taI
+  4  3,8  | taI
   4  5,3  | te
   4  9,3  - teE
   4  2,8  | teE
@@ -6183,8 +6134,6 @@
   3  3,6  | Abo
   3  3,6  | Abs
   3  3,6  | Aby
-  3  3,6  | Ace
-  3  3,6  | Act
   3  3,6  | Add
   3  3,6  | Ado
   3  3,6  | Ads
@@ -6472,8 +6421,6 @@
   3  6,5  | ISsEi
   3  6,5  | ISsuE
   3  6,5  | IStlE
-  3  6,5  - Ib
-  3  6,7  - Ib
   3  6,5  - Ice
   3  6,7  - Ice
   3  6,5  - Ich
@@ -6792,7 +6739,6 @@
   3  3,9  - aLoE
   3  6,5  | aSIdE
   3  6,5  - aUk
-  3  6,7  - aUk
   3  9,1  - aa
   3  9,1  - ab
   3  5,3  - ab
@@ -6817,7 +6763,6 @@
   3  8,3  - am
   3  5,9  | amI
   3  6,5  - amU
-  3  6,7  - amU
   3  9,1  - an
   3  8,3  - an
   3  5,9  | anE
@@ -7108,7 +7053,6 @@
   3  9,1  - ho
   3  5,8  | ho
   3  6,5  | iSsEI
-  3  5,3  - ib
   3  5,9  | icE
   3  5,3  - id
   3  8,3  - id
@@ -7183,7 +7127,6 @@
   3  6,4  | lUSh
   3  6,4  | lUSt
   3  3,8  | la
-  3  3,5  | mAc
   3  3,5  | mAd
   3  3,5  | mAe
   3  3,5  | mAg
@@ -7266,8 +7209,6 @@
   3  5,8  | na
   3  9,1  - ne
   3  3,8  | ne
-  3  9,1  - ni
-  3  5,8  | ni
   3  6,4  | niSEI
   3  9,1  - no
   3  5,8  | no
@@ -7335,7 +7276,6 @@
   3  8,3  - ox
   3  9,1  - oy
   3  5,3  - oy
-  3  3,5  | pAc
   3  3,5  | pAd
   3  3,5  | pAh
   3  3,5  | pAl
@@ -7421,13 +7361,10 @@
   3  6,4  | rUSt
   3  9,1  - re
   3  9,1  | sEa
-  3  3,5  - sEa
   3  9,1  | sEc
   3  9,1  | sEe
-  3  3,5  - sEe
   3  9,1  | sEg
   3  9,1  | sEi
-  3  3,5  - sEi
   3  9,1  | sEl
   3  9,1  | sEn
   3  9,1  | sEr
@@ -7435,6 +7372,7 @@
   3  9,1  | sEv
   3  9,1  | sEw
   3  9,1  | sEx
+  3  9,1  | sEz
   3  6,4  | sISEs
   3  3,9  - sLoE
   3  3,9  - sLuE
@@ -7447,8 +7385,6 @@
   3  3,8  - sOlEI
   3  5,5  | sTy
   3  6,4  | sUSs
-  3  3,8  | sa
-  3  5,8  | sa
   3  5,8  | si
   3  5,8  | so
   3  3,5  | tAb
@@ -7888,6 +7824,7 @@
   2  6,6  | SEx
   2  6,6  | SExt
   2  6,6  | SExy
+  2  6,6  | SEz
   2  6,6  | SI
   2  6,6  | SIal
   2  6,6  | SIb
@@ -8063,26 +8000,16 @@
   2  3,5  | aA
   2  3,5  - aE
   2  6,5  - aE
-  2  6,7  - aE
   2  6,5  - aI
-  2  6,7  - aI
   2  6,4  | aIS
   2  6,5  - aId
-  2  6,7  - aId
   2  6,5  - aIl
-  2  6,7  - aIl
   2  6,5  - aIm
-  2  6,7  - aIm
   2  6,5  - aIn
-  2  6,7  - aIn
   2  6,5  - aIr
-  2  6,7  - aIr
   2  6,5  - aIs
-  2  6,7  - aIs
   2  6,5  - aIt
-  2  6,7  - aIt
   2  6,5  - aIx
-  2  6,7  - aIx
   2  3,9  - aL
   2  3,9  - aLa
   2  3,9  - aLb
@@ -8098,7 +8025,6 @@
   2  3,9  | ab
   2  5,9  | ab
   2  6,5  - acE
-  2  6,7  - acE
   2  3,9  | ad
   2  5,9  | ad
   2  3,9  | ae
@@ -8106,55 +8032,42 @@
   2  3,9  | ag
   2  5,9  | ag
   2  6,5  - agE
-  2  6,7  - agE
   2  3,9  | ah
   2  5,9  | ah
   2  6,5  - ahI
-  2  6,7  - ahI
   2  3,9  | ai
   2  5,9  | ai
   2  3,9  | al
   2  5,9  | al
   2  6,5  - alE
-  2  6,7  - alE
   2  3,9  | am
   2  5,9  | am
   2  6,5  - amI
-  2  6,7  - amI
   2  3,9  | an
   2  5,9  | an
   2  6,5  - anE
-  2  6,7  - anE
   2  6,5  - anI
-  2  6,7  - anI
   2  6,5  - apE
-  2  6,7  - apE
   2  6,4  | apSE
   2  3,9  | ar
   2  5,9  | ar
   2  6,5  - arE
-  2  6,7  - arE
   2  6,4  | arSE
   2  3,9  | as
   2  5,9  | as
   2  3,9  | at
   2  5,9  | at
   2  6,5  - atE
-  2  6,7  - atE
   2  6,5  - avE
-  2  6,7  - avE
   2  3,9  | aw
   2  5,9  | aw
   2  6,5  - awE
-  2  6,7  - awE
   2  3,9  | ax
   2  5,9  | ax
   2  6,5  - axE
-  2  6,7  - axE
   2  3,9  | ay
   2  5,9  | ay
   2  6,5  - ayE
-  2  6,7  - ayE
   2  3,5  | bA
   2  3,5  - bE
   2  6,4  | bES
@@ -8338,7 +8251,6 @@
   2  3,9  - iLk
   2  3,9  - iLl
   2  6,5  | iSlE
-  2  5,9  | ib
   2  6,5  - icE
   2  6,7  - icE
   2  5,9  | id
@@ -8366,8 +8278,6 @@
   2  3,8  - jOiE
   2  3,8  - jOkE
   2  3,8  - jOlE
-  2  3,8  - jOsE
-  2  6,4  | joSE
   2  6,4  | kES
   2  6,4  | kIS
   2  6,4  | kISs
@@ -8434,7 +8344,6 @@
   2  3,5  - nE
   2  6,4  | nESs
   2  6,4  | nESt
-  2  9,3  - nI
   2  6,4  | nISi
   2  3,7  - nO
   2  3,8  - nOEl
@@ -8794,7 +8703,6 @@
   1  4,8  - Oxy
   1  4,8  - Oy
   1  1,9  - Re
-  1  6,6  | Sa
   1  6,6  | Sab
   1  6,6  | Sac
   1  6,6  | Sad
@@ -8820,6 +8728,7 @@
   1  6,6  | Sev
   1  6,6  | Sew
   1  6,6  | Sex
+  1  6,6  | Sez
   1  6,6  | Sh
   1  6,6  | Sha
   1  6,6  | She
@@ -8870,46 +8779,30 @@
   1  6,5  | aSp
   1  6,5  | aSs
   1  6,5  - aa
-  1  6,7  - aa
   1  6,4  | aaS
   1  6,5  - ab
-  1  6,7  - ab
   1  6,4  | abS
   1  6,5  - ad
-  1  6,7  - ad
   1  6,4  | adS
   1  6,5  - ae
-  1  6,7  - ae
   1  6,5  - ag
-  1  6,7  - ag
   1  6,4  | agS
   1  6,5  - ah
-  1  6,7  - ah
   1  6,4  | ahS
   1  6,5  - ai
-  1  6,7  - ai
   1  6,4  | aiS
   1  6,5  - al
-  1  6,7  - al
   1  6,4  | alS
   1  6,5  - am
-  1  6,7  - am
   1  6,5  - an
-  1  6,7  - an
   1  6,5  - ar
-  1  6,7  - ar
   1  6,4  | arS
   1  6,5  - as
-  1  6,7  - as
   1  6,4  | asS
   1  6,5  - at
-  1  6,7  - at
   1  6,5  - aw
-  1  6,7  - aw
   1  6,5  - ax
-  1  6,7  - ax
   1  6,5  - ay
-  1  6,7  - ay
   1  6,4  | ayS
   1  3,8  - bO
   1  3,8  - bOa
@@ -8930,7 +8823,6 @@
   1  6,4  | boS
   1  6,4  | buS
   1  6,4  | byS
-  1  3,8  - cO
   1  3,8  - cOb
   1  3,8  - cOd
   1  3,8  - cOg
@@ -9072,8 +8964,6 @@
   1  3,8  - iOn
   1  6,5  | iS
   1  6,5  | iSm
-  1  6,5  - ib
-  1  6,7  - ib
   1  6,5  - id
   1  6,7  - id
   1  6,4  | idS
@@ -9162,7 +9052,6 @@
   1  3,8  - nOw
   1  9,3  - na
   1  9,3  - ne
-  1  9,3  - ni
   1  9,3  - no
   1  6,4  | noS
   1  9,3  - nu
@@ -9266,7 +9155,6 @@
   1  3,8  - sOw
   1  3,8  - sOx
   1  3,8  - sOy
-  1  9,3  - sa
   1  9,3  - sh
   1  9,3  - si
   1  6,4  | siS

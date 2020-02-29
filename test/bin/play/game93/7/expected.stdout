@@ -47,7 +47,6 @@
  36  1,1  - JOiE
  36  1,1  - JOkE
  36  1,1  - JOlE
- 36  1,1  - JOsE
  36  1,1  - JOtA
  36  1,1  - JiAO
  36  1,1  - JoIE
@@ -145,9 +144,6 @@
  23  2,2  | MAtE
  23  2,2  | MAxI
  23  9,5  | MYOId
- 22  3,4  - bEAM
- 22  3,4  - bEMA
- 22  3,4  - bIMA
  22  3,4  - dAME
  22  3,4  - dEEM
  22  3,4  - dEME
@@ -221,6 +217,7 @@
  20  3,1  - nEMA
  20  3,1  - nOMA
  20  3,1  - pIMA
+ 20  3,1  - rIMA
  20  3,1  - sIMA
  20  3,1  - sOMA
  19  2,3  | AMAIn
@@ -248,7 +245,6 @@
  19  4,4  - EMe
  19  3,1  - MEOu
  19  4,3  | TEAtIME
- 19  3,4  - bAM
  19  3,4  - dAM
  19  2,2  | dAME
  19  3,4  - dIM
@@ -300,6 +296,7 @@
  17  2,3  | AMAh
  17  2,3  | AMAs
  17  2,3  | AMEn
+ 17  2,3  | AMEx
  17  2,3  | AMIa
  17  2,3  | AMId
  17  2,3  | AMIe
@@ -489,9 +486,6 @@
  13  4,1  - OgAM
  13  4,3  | TOxEMIA
  13  4,1  - bEAM
- 13  3,4  - bEE
- 13  3,4  - bIO
- 13  3,4  - bOA
  13  5,5  - cAME
  13  5,5  - cOME
  13  5,5  - dAME
@@ -541,6 +535,7 @@
  13  5,5  - sEME
  13  5,5  - sOME
  13  3,4  - tAE
+ 13  3,4  - tAI
  13  5,5  - tAME
  13  3,4  - tAO
  13  3,4  - tEA
@@ -874,6 +869,7 @@
  10  6,1  - uM
   9 10,5  | AErIE
   9  4,7  - AMEn
+  9  4,7  - AMEx
   9  3,5  - AMbO
   9  3,5  - AMiE
   9  3,7  - AMiE
@@ -947,7 +943,6 @@
   9  4,1  | MITEr
   9  4,1  | MITEs
   9  4,1  - MOAn
-  9  4,1  - MOAs
   9  4,1  - MOAt
   9  4,1  | MOTE
   9  4,1  | MOTEl
@@ -1067,7 +1062,6 @@
   8  5,1  - MAd
   8  5,1  - MAn
   8  5,1  - MAp
-  8  5,1  - MAs
   8  5,1  - MAt
   8  5,1  - MAy
   8  5,7  - MEd
@@ -1145,13 +1139,9 @@
   8  3,5  - aMIE
   8  3,7  - aMIE
   8  4,2  | aTOM
-  8  3,4  - bA
-  8  3,4  - bE
   8 10,4  | bEE
   8  3,5  - bEMA
-  8  3,4  - bI
   8  3,5  - bIMA
-  8  3,4  - bO
   8  3,5  - cAME
   8  3,7  - cAME
   8  3,5  - cAMO
@@ -1223,7 +1213,6 @@
   8  3,4  - nE
   8 10,4  | nEE
   8  3,5  - nEMA
-  8  3,4  - nI
   8  3,4  - nO
   8  3,5  - nOMA
   8  3,5  - nOME
@@ -1237,10 +1226,10 @@
   8  3,5  - pOME
   8  3,7  - pOME
   8 10,4  | rEE
+  8  3,5  - rIMA
   8  3,5  - rIME
   8  3,7  - rIME
   8 10,4  | rOE
-  8  3,4  - sA
   8  2,2  | sAE
   8  3,5  - sAME
   8  3,7  - sAME
@@ -1360,6 +1349,7 @@
   7  4,7  - OgEE
   7  6,6  | RAMI
   7  6,6  | REAM
+  7  6,6  | RIMA
   7  6,6  | RIME
   7  6,6  | ROAM
   7  4,3  | ThEME
@@ -1414,6 +1404,7 @@
   7  6,5  | pRIMO
   7  6,5  | pROEM
   7  7,5  | rEAM
+  7  3,2  | rIMA
   7  3,2  | rIME
   7  3,2  | sIMA
   7  7,5  | tEAM
@@ -1567,6 +1558,7 @@
   6  6,6  | REMs
   6  6,6  | REaM
   6  6,6  | RIM
+  6  6,6  | RIMa
   6  6,6  | RIMe
   6  6,6  | RIMs
   6  6,6  | RIMy
@@ -1577,6 +1569,7 @@
   6  6,6  | ROoM
   6  6,6  | RaMI
   6  6,6  | ReAM
+  6  6,6  | RiMA
   6  6,6  | RiME
   6  6,6  | RoAM
   6  6,6  | RoOM
@@ -1674,6 +1667,7 @@
   6  4,1  | sETAE
   6  4,2  | sTOAE
   6  4,2  | sTOAI
+  6  3,1  | tAI
   6  5,7  - tEE
   6  7,5  | tEM
   6  6,5  | tRAM
@@ -1778,6 +1772,7 @@
   5  6,6  | RuM
   5  4,3  | TAE
   5  4,3  | TAEl
+  5  4,3  | TAI
   5  4,3  | TAIl
   5  4,3  | TAIn
   5  4,3  | TAO
@@ -1997,7 +1992,6 @@
   4  4,5  - ApO
   4  4,5  - ArE
   4  4,7  - ArE
-  4  6,1  - As
   4  6,1  - At
   4  4,5  - AtE
   4  4,7  - AtE
@@ -2174,7 +2168,6 @@
   4  4,5  - OrA
   4  4,5  - OrE
   4  4,7  - OrE
-  4  1,2  - Os
   4  4,5  - OsE
   4  4,7  - OsE
   4  4,1  - OvA
@@ -2187,6 +2180,7 @@
   4  4,3  | TAd
   4  4,3  | TAe
   4  4,3  | TAg
+  4  4,3  | TAi
   4  4,3  | TAj
   4  4,3  | TAm
   4  4,3  | TAn
@@ -2323,13 +2317,10 @@
   4  4,5  - mOA
   4  9,5  | mY
   4  2,2  | nA
-  4  3,2  - nA
   4  4,5  - nAE
   4  4,7  - nAE
-  4  3,2  - nE
   4  4,5  - nEE
   4  4,7  - nEE
-  4  3,2  - nI
   4  3,2  - oE
   4  3,2  - oI
   4  9,5  | oY
@@ -2352,8 +2343,6 @@
   4  4,5  - rIA
   4  4,5  - rOE
   4  4,7  - rOE
-  4  2,2  | sA
-  4  3,2  - sA
   4  4,5  - sAE
   4  4,7  - sAE
   4  4,1  - sEA
@@ -2520,6 +2509,7 @@
   3  6,6  | RIdE
   3  6,6  | RIfE
   3  6,6  | RIlE
+  3  6,6  | RImA
   3  6,6  | RImE
   3  6,6  | RIpE
   3  6,6  | RIsE
@@ -2574,7 +2564,6 @@
   3  6,5  | bREE
   3  6,5  | bRIE
   3  6,5  | bRIO
-  3  5,5  - cO
   3  5,1  - dA
   3  5,5  - dA
   3  5,5  - dE
@@ -2638,8 +2627,6 @@
   3  5,5  - rE
   3  5,7  - rE
   3  7,5  | rEE
-  3  5,1  - sA
-  3  5,5  - sA
   3  5,5  - sO
   3  5,1  - tA
   3  5,5  - tA
@@ -2856,6 +2843,7 @@
   2  6,6  | RyA
   2  6,6  | RyE
   2  4,3  | TaE
+  2  4,3  | TaI
   2  4,3  | TaO
   2  6,2  | TeA
   2  4,3  | TeA
@@ -3010,7 +2998,6 @@
   1 10,6  | Ew
   1  7,6  | Ex
   1 10,6  | Ex
-  1  3,3  | Ib
   1  3,3  | Id
   1  3,3  | If
   1  3,3  | In
@@ -3066,7 +3053,6 @@
   1  3,2  | mI
   1  7,1  | nA
   1 10,4  - nE
-  1  3,2  | nI
   1 10,4  - oE
   1  3,2  | oI
   1  6,5  | oR
@@ -3075,7 +3061,6 @@
   1  3,2  | pI
   1  3,2  | qI
   1 10,4  - rE
-  1  7,1  | sA
   1  3,2  | sI
   1  7,1  | tA
   1 10,4  - tE

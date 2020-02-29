@@ -25,7 +25,6 @@
  42  2,10 - sTEEP
  41  7,11 - HaP
  41  7,11 - HoP
- 40  8,11 - APo
  39  9,1  | HEAPErS
  39  5,11 - HEAPs
  39  9,1  | PEAHEnS
@@ -88,6 +87,7 @@
  33  1,3  | sPAHEES
  33 11,6  | sPEAK
  32  9,2  | PHiZES
+ 32  1,9  | SEZ
  32  7,5  - ZAP
  32  7,5  - ZAPs
  32  8,11 - gP
@@ -97,7 +97,7 @@
  31  7,5  - HAZEl
  31  7,5  - HAZEr
  31  7,5  - HAZEs
- 31  9,11 - Po
+ 31  1,9  | SeZ
  31  7,5  - ZaP
  31  7,5  - ZiP
  30  7,5  - HAZe
@@ -204,6 +204,7 @@
  24  7,5  - fEZ
  24 11,9  | oKA
  24 11,9  | oKE
+ 24  7,5  - sEZ
  24 11,9  | sKA
  24 11,9  | uKE
  24  7,5  - wAZ
@@ -222,7 +223,6 @@
  23  9,3  | mAZES
  23  9,3  | mEZES
  23  9,3  | rAZES
- 22  1,10 - APT
  22  7,5  - HEEZe
  22  7,5  - HeEZE
  22  2,8  | PoEm
@@ -259,7 +259,6 @@
  19  1,11 - PHYlE
  19  1,4  | PHiZES
  19  7,9  | UH
- 19  1,10 - aPT
  19  5,10 - iP
  19  5,10 - oP
  19  1,10 - oPT
@@ -527,8 +526,6 @@
  14  6,11 - zAP
  13  9,3  | APHiS
  13  9,4  | APiSH
- 13  9,8  - AZo
- 13  9,8  - AdZ
  13  1,5  | AdZES
  13  7,5  - AlP
  13  7,5  - AmP
@@ -625,7 +622,6 @@
  12  9,6  - APo
  12  9,6  - APp
  12  9,6  - APt
- 12  8,11 - Ab
  12  7,5  - AcHE
  12  8,11 - Ad
  12  9,6  - AlP
@@ -904,7 +900,6 @@
  10  9,6  - AaH
  10  9,3  | AcHES
  10  1,4  | AlEPHS
- 10  1,10 - AnTE
  10  9,6  - AsH
  10  9,3  | AsHES
  10  9,6  - EH
@@ -1202,7 +1197,6 @@
   8  7,5  - AHi
   8  9,4  | AHiS
   8  7,5  - AHs
-  8  9,8  - APE
   8  1,4  | APExES
   8  9,5  | APSE
   8  9,3  | APrES
@@ -1379,25 +1373,17 @@
   7  1,7  | APSE
   7  1,7  | APSEs
   7  9,5  | APSe
-  7  9,8  - APe
-  7  9,8  - APo
-  7  9,8  - APp
   7  1,5  | APrES
   7  1,5  | APsES
-  7  9,8  - APt
   7  2,11 - AYaH
   7  1,11 - AbYE
   7  7,5  - AcE
   7  4,4  | AcHE
   7  7,5  - AgE
   7  7,5  - AlE
-  7  9,8  - AlP
-  7  9,8  - AmP
   7  7,5  - AnE
   7  7,5  - ApE
-  7  9,8  - ApP
   7  7,5  - ArE
-  7  9,8  - AsP
   7  7,5  - AtE
   7  7,5  - AvE
   7  7,5  - AwE
@@ -1604,7 +1590,6 @@
   7  9,4  | rEPS
   7  9,3  | rHEAS
   7  2,8  | roE
-  7  7,11 - sA
   7  9,4  | sAPS
   7  1,5  | sEEPS
   7  9,3  | sHEAS
@@ -1631,11 +1616,7 @@
   6 10,9  | ACE
   6  7,5  - AE
   6  9,6  - AE
-  6  9,8  - AH
   6  9,5  | AHS
-  6  9,8  - AHa
-  6  9,8  - AHi
-  6  9,8  - AHs
   6  4,5  | APE
   6  1,7  | APSe
   6  1,6  | APeS
@@ -1645,18 +1626,14 @@
   6  1,8  | ASP
   6  1,8  | ASPs
   6  7,11 - Aa
-  6  9,8  - AaH
-  6  5,10 - Ab
   6  7,11 - Ab
   6  1,11 - AbY
   6  9,6  - AcE
   6  1,5  | AcHES
   6  5,10 - Ad
   6  7,11 - Ad
-  6  1,10 - AfT
   6  7,11 - Ag
   6  9,6  - AgE
-  6  1,10 - AiT
   6  9,3  | AkEES
   6  7,11 - Al
   6  9,6  - AlE
@@ -1668,18 +1645,14 @@
   6  5,10 - An
   6  7,11 - An
   6  9,6  - AnE
-  6  1,10 - AnT
   6  1,11 - AnY
   6  9,6  - ApE
   6  9,4  | ApPS
   6  1,6  | ApPS
-  6  1,10 - ApT
   6  7,11 - Ar
   6  9,6  - ArE
-  6  1,10 - ArT
   6  5,10 - As
   6  7,11 - As
-  6  9,8  - AsH
   6  1,5  | AsHES
   6  9,4  | AsPS
   6  1,6  | AsPS
@@ -1824,7 +1797,6 @@
   6  3,11 - YeH
   6  9,4  | aAHS
   6  7,5  - aH
-  6  9,8  - aPE
   6  1,6  | aPES
   6  9,5  | aPSE
   6  1,7  | aPSE
@@ -2060,6 +2032,7 @@
   5  1,9  | SPa
   5  1,9  | SPy
   5  3,10 - TAe
+  5  3,10 - TAi
   5  3,10 - TAo
   5  3,10 - TEa
   5  3,10 - TEe
@@ -2081,10 +2054,8 @@
   5  3,11 - YEAn
   5  3,11 - YEAr
   5  3,11 - YEAs
-  5  9,8  - aAH
   5  1,6  | aAHS
   5 10,9  | aCE
-  5  9,8  - aHA
   5  4,5  | aPE
   5  1,8  | aSEA
   5  9,6  | aSP
@@ -2155,7 +2126,6 @@
   5  4,4  | wHEE
   5 10,8  | zAC
   4  4,9  | AA
-  4  9,8  - AE
   4  4,9  | AE
   4  1,5  | AEdES
   4  7,5  | AIN
@@ -2164,13 +2134,10 @@
   4  2,11 - AYs
   4  9,6  - Aa
   4  9,6  - Ab
-  4  1,8  - AcE
-  4  9,8  - AcE
   4  9,6  - Ad
   4  9,6  - Ae
   4  9,6  - Ag
   4  1,8  - AgE
-  4  9,8  - AgE
   4  7,4  | AgIN
   4  9,6  - Ah
   4  9,6  - Ai
@@ -2178,33 +2145,23 @@
   4  7,4  | AkIN
   4  9,6  - Al
   4  1,8  - AlE
-  4  9,8  - AlE
   4  9,6  - Am
   4  7,4  | AmIN
   4  9,6  - An
   4  1,8  - AnE
-  4  9,8  - AnE
   4  1,8  - ApE
-  4  9,8  - ApE
   4  9,5  | ApSE
   4  9,6  - Ar
-  4  9,8  - ArE
   4  9,5  | ArSE
   4  9,6  - As
   4  9,6  - At
   4  1,8  - AtE
-  4  9,8  - AtE
-  4  9,8  - AvE
   4  9,6  - Aw
   4  1,8  - AwE
-  4  9,8  - AwE
   4  9,6  - Ax
-  4  9,8  - AxE
   4  9,6  - Ay
   4  1,8  - AyE
-  4  9,8  - AyE
   4  7,4  | AyIN
-  4 10,10 | Co
   4  1,7  | EASE
   4  1,7  | EASEd
   4  1,7  | EASEl
@@ -2304,7 +2261,6 @@
   4  3,11 - YeA
   4  7,5  - aA
   4  7,5  - aE
-  4  9,8  - aH
   4  9,5  | aHS
   4  1,7  | aHS
   4  9,6  | aSH
@@ -2387,7 +2343,6 @@
   4  7,4  | rEIN
   4  2,11 - rYA
   4  2,11 - rYE
-  4  7,5  - sA
   4  7,4  | sAIN
   4  1,11 - sAY
   4  9,4  | sEAS
@@ -2418,53 +2373,37 @@
   4  9,4  | zEES
   4  7,4  | zEIN
   3  1,8  | ASEa
-  3  9,8  - Aa
   3  9,5  | AaS
-  3  9,8  - Ab
   3  9,5  | AbS
   3  9,4  | AcES
   3  1,6  | AcES
-  3  9,8  - Ad
   3  9,5  | AdS
-  3  9,8  - Ae
-  3  9,8  - Ag
   3  9,4  | AgES
   3  1,6  | AgES
   3  9,5  | AgS
-  3  9,8  - Ah
   3  9,5  | AhS
-  3  9,8  - Ai
   3  9,5  | AiS
-  3  9,8  - Al
   3  9,4  | AlES
   3  1,6  | AlES
   3  9,5  | AlS
-  3  9,8  - Am
-  3  9,8  - An
   3  9,4  | AnES
   3  1,6  | AnES
   3  9,4  | ApES
   3  1,6  | ApES
   3  1,7  | ApSE
-  3  9,8  - Ar
   3  9,4  | ArES
   3  1,6  | ArES
   3  9,5  | ArS
   3  1,7  | ArSE
-  3  9,8  - As
   3  9,5  | AsS
-  3  9,8  - At
   3  9,4  | AtES
   3  1,6  | AtES
   3  9,4  | AvES
   3  1,6  | AvES
-  3  9,8  - Aw
   3  9,4  | AwES
   3  1,6  | AwES
-  3  9,8  - Ax
   3  9,4  | AxES
   3  1,6  | AxES
-  3  9,8  - Ay
   3  9,4  | AyES
   3  1,6  | AyES
   3  9,5  | AyS
@@ -2512,7 +2451,6 @@
   3  1,6  | EyAS
   3  9,4  | EyES
   3  1,6  | EyES
-  3  9,10 | Ib
   3  9,10 | Id
   3  9,10 | If
   3  9,10 | In
@@ -2655,15 +2593,12 @@
   2  4,5  | EvE
   2  4,5  | EwE
   2  4,5  | EyE
-  2  6,9  | Ib
   2  6,9  | Id
   2  6,9  | If
   2  6,9  | In
   2  6,9  | Ip
   2  6,9  | Is
   2  6,9  | It
-  2  9,7  | SA
-  2  1,9  | SA
   2  1,9  | SAb
   2  1,9  | SAc
   2  1,9  | SAd
@@ -2689,11 +2624,13 @@
   2  1,9  | SEv
   2  1,9  | SEw
   2  1,9  | SEx
+  2  1,9  | SEz
   2  5,9  | TA
   2  5,9  | TAb
   2  5,9  | TAd
   2  5,9  | TAe
   2  5,9  | TAg
+  2  5,9  | TAi
   2  5,9  | TAj
   2  5,9  | TAm
   2  5,9  | TAn
@@ -2728,10 +2665,8 @@
   2  5,9  | ToE
   2  5,9  | TwA
   2  5,9  | TyE
-  2  9,8  - aA
   2  9,5  | aAS
   2  1,7  | aAS
-  2  9,8  - aE
   2  9,5  | bAS
   2  1,7  | bAS
   2  4,5  | bEE
@@ -2810,8 +2745,6 @@
   2  9,5  | zAS
   2  1,7  | zAS
   2  4,5  | zEE
-  1  9,7  | Sa
-  1  1,9  | Sa
   1  9,7  | Sh
   1  1,9  | Sh
   1  9,7  | Si

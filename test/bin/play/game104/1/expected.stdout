@@ -163,6 +163,8 @@
  19  7,5  | CoTES
  19  5,5  | CuTES
  19  6,8  - MaCERS
+ 19  5,9  | SEZ
+ 19  7,9  | SEZ
  19  4,9  - ZoIC
  18  2,10 - CREeDS
  18  1,10 - CRaTED
@@ -223,6 +225,8 @@
  17  5,9  - RITZEs
  17  3,8  - SCaM
  17  3,8  - SCuM
+ 17  5,9  | SeZ
+ 17  7,9  | SeZ
  17  3,9  - SpRITZ
  17  2,9  - ZESTIeR
  17  5,7  - ZInCS
@@ -423,6 +427,8 @@
  15  2,9  - mETRICS
  15  4,7  - pRIZES
  15  5,7  - rITZES
+ 15  5,9  | sEZ
+ 15  7,9  | sEZ
  15  5,7  - sIZERS
  15  4,9  - tRISECT
  15  5,6  | uTES
@@ -540,7 +546,6 @@
  14  5,5  | ZEd
  14  7,5  | ZEd
  14  5,5  | ZEk
- 14  5,5  | ZEn
  14  7,5  | ZEn
  14  5,7  - ZITiS
  14  5,7  - ZIbET
@@ -883,9 +888,7 @@
  12  5,10 - aDZ
  12  3,9  - aREIC
  12  5,7  | bES
- 12  7,7  | bES
  12  5,7  | bET
- 12  7,7  | bET
  12  5,9  - bICES
  12  5,7  - bISECT
  12  5,7  - bIZE
@@ -907,7 +910,6 @@
  12  5,7  | lET
  12  3,9  - mESIC
  12  5,7  | mET
- 12  5,7  | nET
  12  7,7  | nET
  12  5,9  - nICER
  12  5,7  | oES
@@ -1183,7 +1185,6 @@
  10  5,7  | SEa
  10  5,7  | SEg
  10  5,7  | SEl
- 10  5,7  | SEn
  10  7,7  | SEn
  10  5,7  | SEt
  10  7,7  | SEt
@@ -1221,7 +1222,6 @@
  10  5,7  | TEg
  10  5,7  | TEl
  10  5,7  | TEm
- 10  5,7  | TEn
  10  7,7  | TEn
  10  5,7  | TEt
  10  7,7  | TEt
@@ -1496,6 +1496,8 @@
   9  7,9  | SEw
   9  5,9  | SEx
   9  7,9  | SEx
+  9  5,9  | SEz
+  9  7,9  | SEz
   9  5,7  - SICkER
   9  5,9  - SInCE
   9  5,8  - SMERk
@@ -2085,7 +2087,6 @@
   7  5,8  | El
   7  4,8  - ElM
   7  5,8  | Em
-  7  5,8  | En
   7  7,8  | En
   7  5,8  | Eo
   7  4,7  - EpICS
@@ -2193,10 +2194,6 @@
   7  5,2  | SToRE
   7  7,2  | SToRE
   7  2,8  - SToRM
-  7  5,7  | Sa
-  7  7,7  | Sa
-  7  5,9  | Sa
-  7  7,9  | Sa
   7  4,7  - SaICE
   7  5,7  | Sh
   7  7,7  | Si
@@ -2289,7 +2286,6 @@
   7  5,4  | aTES
   7  7,4  | aTES
   7  5,7  | bE
-  7  7,7  | bE
   7  5,9  - bISTER
   7  5,9  - bISTRE
   7  5,9  - bITERS
@@ -2321,7 +2317,6 @@
   7  5,9  - mISTER
   7  5,9  - mITERS
   7  5,9  - mITRES
-  7  5,7  | nE
   7  7,7  | nE
   7  5,9  - nITERS
   7  5,9  - nITRES
@@ -2686,12 +2681,10 @@
   6  5,5  | bES
   6  7,5  | bES
   6  5,9  | bES
-  6  7,9  | bES
   6  2,7  - bESTIR
   6  5,5  | bET
   6  7,5  | bET
   6  5,9  | bET
-  6  7,9  | bET
   6  5,7  - bICE
   6  5,9  - bIERS
   6  5,9  - bIRSE
@@ -2793,7 +2786,6 @@
   6  4,9  - nEIST
   6  5,5  | nET
   6  7,5  | nET
-  6  5,9  | nET
   6  7,9  | nET
   6  5,7  - nICE
   6  5,9  - nITER
@@ -2897,7 +2889,6 @@
   5  4,6  - CaT
   5  4,7  - ChI
   5  4,9  - ChI
-  5  7,5  | Co
   5  4,6  - CoT
   5  4,6  - CuT
   5  5,10 - EDiTS
@@ -2965,7 +2956,6 @@
   5  4,6  - RETeST
   5  3,10 - REaDS
   5  5,5  | REb
-  5  7,5  | REb
   5  3,7  - REcIT
   5  2,7  - REcTI
   5  5,5  | REd
@@ -3046,7 +3036,6 @@
   5  5,5  | SEa
   5  5,5  | SEg
   5  5,5  | SEl
-  5  5,5  | SEn
   5  7,5  | SEn
   5  2,7  - SEnTI
   5  5,5  | SEt
@@ -3119,7 +3108,6 @@
   5  5,5  | TEg
   5  5,5  | TEl
   5  5,5  | TEm
-  5  5,5  | TEn
   5  7,5  | TEn
   5  3,10 - TEnDS
   5  5,5  | TEt
@@ -3196,7 +3184,6 @@
   5  5,3  | aRSE
   5  7,3  | aRSE
   5  5,9  | bE
-  5  7,9  | bE
   5  5,7  - bIERS
   5  5,7  - bIRSE
   5  5,7  - bITER
@@ -3254,7 +3241,6 @@
   5  5,7  - mITER
   5  5,7  - mITES
   5  5,7  - mITRE
-  5  5,9  | nE
   5  7,9  | nE
   5  3,10 - nERDS
   5  5,7  - nITER
@@ -3384,7 +3370,6 @@
   4  4,7  - EmIRS
   4  4,9  - EmIT
   4  4,7  - EmITS
-  4  5,6  | En
   4  7,6  | En
   4  5,10 | En
   4  7,10 | En
@@ -4535,8 +4520,6 @@
   2  5,7  - SIt
   2  5,7  - SIx
   2  5,6  - STy
-  2  5,5  | Sa
-  2  7,5  | Sa
   2  4,6  - SaT
   2  4,7  - SeI
   2  4,9  - SeI
@@ -4574,6 +4557,8 @@
   2  5,5  | Ta
   2  7,5  | Ta
   2  6,6  - TaE
+  2  4,7  - TaI
+  2  4,9  - TaI
   2  6,6  - TaR
   2  6,6  - TaS
   2  4,6  - TaT
@@ -4675,8 +4660,6 @@
   2  5,7  - xIS
   2  4,6  - yET
   2  5,7  - zIT
-  1  6,7  - Ib
-  1  6,9  - Ib
   1  6,7  - Id
   1  6,9  - Id
   1  6,7  - If
@@ -4714,8 +4697,6 @@
   1  5,9  - lI
   1  5,7  - mI
   1  5,9  - mI
-  1  5,7  - nI
-  1  5,9  - nI
   1  5,7  - oI
   1  5,9  - oI
   1  5,7  - pI
