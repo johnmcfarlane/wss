@@ -260,7 +260,6 @@
  22  3,1  | SIR
  22  3,1  | SIT
  22  3,1  | TIS
- 22  8,9  - aRFS
  22  1,11 - sIN
  22  1,11 - sIRS
  22  1,11 - sITS
@@ -303,16 +302,12 @@
  20  7,3  | SuRFIE
  20  5,6  - cONFITS
  19  6,7  - KRaFTS
- 19  1,11 - Sa
  19  1,11 - Sh
  19  1,11 - Si
  19  1,11 - So
  19  3,1  | aIR
  19  3,1  | aIS
  19  3,1  | aIT
- 19  8,9  - aNIS
- 19  8,9  - aNTI
- 19  8,9  - aNTS
  19  3,1  | bIS
  19  3,1  | bIT
  19  3,1  | cIS
@@ -516,8 +511,6 @@
  16  3,5  | StILT
  16  6,10 - SwIFTS
  16  8,3  | aFRITS
- 16  8,9  - aINS
- 16  8,9  - aIRN
  16  8,9  - hINS
  16  8,9  - hINT
  16  8,9  - hISN
@@ -762,10 +755,6 @@
  13  3,6  | TILS
  13  4,9  - TaHR
  13  5,2  | aFRIT
- 13  8,9  - aIRS
- 13  8,9  - aIRT
- 13  8,9  - aITS
- 13  8,9  - aRTS
  13  8,9  - hIST
  13  8,9  - hITS
  13  8,9  - iRIS
@@ -1404,7 +1393,6 @@
  10  1,1  | TaPA
  10  1,1  | TePA
  10  8,7  - aFT
- 10  8,9  - aFT
  10  5,9  - aHS
  10  5,6  - aORIST
  10  7,4  | aRF
@@ -2469,7 +2457,6 @@
   7  8,7  - aNTI
   7  8,7  - aNTS
   7  8,7  - aRF
-  7  8,9  - aRF
   7  7,2  | aSTIR
   7  5,3  | bRIN
   7  7,3  | bRIN
@@ -3044,11 +3031,9 @@
   6  8,7  - aINS
   6  8,7  - aIRN
   6  8,7  - aNI
-  6  8,9  - aNI
   6  5,3  | aNIS
   6  7,3  | aNIS
   6  8,7  - aNT
-  6  8,9  - aNT
   6  7,3  | aNTI
   6  5,3  | aNTS
   6  7,3  | aNTS
@@ -3462,7 +3447,6 @@
   5  4,6  - STONy
   5  4,5  | STaIN
   5  4,5  | STeIN
-  5  3,1  | Sa
   5  4,6  | SaINT
   5  4,5  | SaRIN
   5  8,6  | SaSIN
@@ -3532,7 +3516,6 @@
   5  4,6  | TwINS
   5  5,9  - aH
   5  8,7  - aIN
-  5  8,9  - aIN
   5  8,4  | aIRNS
   5  4,7  | aIRNS
   5  5,3  | aIRS
@@ -3548,7 +3531,6 @@
   5  5,5  | aN
   5  7,5  | aN
   5  8,7  - aN
-  5  8,9  - aN
   5  7,4  | aNI
   5  5,4  | aNT
   5  8,4  | aNTIS
@@ -4280,17 +4262,14 @@
   4  3,10 - aINS
   4  7,4  | aIR
   4  8,7  - aIR
-  4  8,9  - aIR
   4  4,7  | aIRN
   4  8,4  | aIRTS
   4  4,7  | aIRTS
   4  5,4  | aIS
   4  7,4  | aIS
   4  8,7  - aIS
-  4  8,9  - aIS
   4  5,4  | aIT
   4  8,7  - aIT
-  4  8,9  - aIT
   4  3,7  | aLS
   4  3,7  | aLT
   4  8,5  | aNIS
@@ -4302,13 +4281,11 @@
   4  5,4  | aRS
   4  7,4  | aRS
   4  8,7  - aRS
-  4  8,9  - aRS
   4  8,4  | aRSIS
   4  8,6  | aRSIS
   4  4,10 - aRSIS
   4  5,4  | aRT
   4  8,7  - aRT
-  4  8,9  - aRT
   4  4,5  | aSTIR
   4  8,7  | aSTIR
   4  5,10 - aSTIR
@@ -5147,7 +5124,6 @@
   3  4,6  - TwOS
   3  7,5  | aI
   3  8,7  - aI
-  3  8,9  - aI
   3  4,7  | aIN
   3  8,5  | aIRS
   3  4,7  | aIRS
@@ -5157,20 +5133,16 @@
   3  4,7  | aITS
   3  3,10 - aITS
   3  5,10 | aN
-  3  7,10 | aN
   3  4,6  | aNI
   3  7,5  | aR
   3  8,7  - aR
-  3  8,9  - aR
   3  8,5  | aRTS
   3  3,10 - aRTS
   3  5,5  | aS
   3  7,5  | aS
   3  8,7  - aS
-  3  8,9  - aS
   3  5,5  | aT
   3  8,7  - aT
-  3  8,9  - aT
   3  7,5  | bI
   3  4,7  | bIN
   3  4,6  - bIOS
@@ -5680,7 +5652,6 @@
   2  4,6  | TuI
   2  4,6  - TwO
   2  5,10 | aI
-  2  7,10 | aI
   2  4,7  | aIR
   2  8,6  | aIS
   2  4,7  | aIS
@@ -5688,17 +5659,14 @@
   2  4,7  | aIT
   2  3,7  | aL
   2  5,10 | aR
-  2  7,10 | aR
   2  8,6  | aRS
   2  4,10 - aRS
   2  5,10 | aS
-  2  7,10 | aS
   2  8,6  | aSS
   2  8,7  | aSS
   2  4,10 - aSS
   2  5,10 - aSS
   2  5,10 | aT
-  2  7,10 | aT
   2  4,6  - bIO
   2  8,6  | bIS
   2  4,7  | bIS
@@ -5861,8 +5829,6 @@
   1  6,6  - Ow
   1  6,6  - Ox
   1  6,6  - Oy
-  1  8,8  | Sa
-  1  6,10 - Sa
   1  8,8  | Sh
   1  6,10 - Sh
   1  8,8  | Si

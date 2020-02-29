@@ -1,9 +1,3 @@
- 50  1,1  | BASIS
- 50  1,1  | BRASS
- 50  1,1  | BRISS
- 50  1,1  | PAIRS
- 50  1,1  | PARIS
- 50  1,1  | PRISS
  47  3,1  | SABIRS
  42  3,1  | ASPIS
  42  3,1  | ISBAS
@@ -23,22 +17,13 @@
  33  3,1  | PARIS
  33  3,1  | PRISS
  33  3,1  | RASPS
- 33  1,3  | RASPS
  33  1,7  - SOBA
  33  3,1  | SPARS
- 32  1,1  | ABRIS
- 32  1,1  | APSIS
- 32  1,1  | ASPIS
  32  1,3  | BAP
- 32  1,2  | BAPS
- 32  1,1  | ISBAS
  32  2,7  - OBA
- 32  1,1  | RASPS
- 32  1,1  | SPARS
  30  1,7  - BOP
  30  1,3  | SPARS
  28  1,3  | ISBA
- 28  1,3  | RASP
  27  1,7  - ROB
  27  1,7  - SOB
  27  1,7  - SOP
@@ -47,55 +32,31 @@
  26  9,2  - PAR
  26  3,7  | POX
  26  1,2  | RASP
- 26  9,2  - SAB
- 26  9,2  - SAP
  25  1,3  | SPAR
  24  3,1  | ARSIS
  24 10,9  | PIA
  24 10,9  | PSI
  24  3,1  | SARIS
  23  1,3  | ARB
- 23  1,2  | ARBS
  23  3,3  | ARBS
- 23  1,1  | ARSIS
  23  1,3  | ASP
- 23  1,2  | ASPS
  23  8,4  - ASPS
  23  9,2  - BA
  23 10,10 | BA
- 23  1,2  | BARS
- 23  1,2  | BASS
  23 10,10 | BI
- 23  1,2  | BIAS
- 23  1,2  | BRAS
- 23  1,2  | BRIS
  23  1,2  | ISBA
  23  9,2  - PA
- 23  1,2  | PARS
- 23  1,2  | PASS
- 23  1,2  | PIAS
- 23  1,2  | PISS
  23  7,1  | PITAS
- 23  1,2  | PSIS
  23  1,3  | RAP
- 23  1,2  | RAPS
  23  1,3  | RIB
- 23  1,2  | RIBS
  23  3,3  | RIBS
  23  1,3  | RIP
- 23  1,2  | RIPS
  23  1,3  | SAB
- 23  1,2  | SABS
  23  3,3  | SABS
  23  1,3  | SAP
- 23  1,2  | SAPS
- 23  1,1  | SARIS
  23  1,3  | SIB
- 23  1,2  | SIBS
  23  3,3  | SIBS
  23  1,3  | SIP
- 23  1,2  | SIPS
- 23  1,2  | SPAS
  22 10,2  - AB
  22  7,3  | TAP
  21  9,1  | ABAS
@@ -115,19 +76,14 @@
  21  8,9  - SIPS
  21  9,1  | SPAR
  21  9,1  | SPAS
- 20  1,3  | ABS
  20  3,3  | ARB
  20 10,5  | BA
  20  8,10 - BAPS
- 20  1,3  | BAS
  20 10,5  | BI
- 20  1,3  | BIS
  20  1,3  | BRA
  20 10,5  | PA
- 20  1,3  | PAS
  20 10,5  | PI
  20  1,3  | PIA
- 20  1,3  | PIS
  20  7,1  | PITA
  20  3,3  | RIB
  20  3,3  | SAB
@@ -165,13 +121,11 @@
  17  3,3  | PISS
  17  3,3  | PSIS
  16  8,4  - AB
- 16  1,4  | ASPS
  16 10,1  | BAG
  16  1,4  | BAP
  16 10,1  | BIG
  16  9,4  - BIS
  16 10,1  | PIG
- 16  8,9  | PSI
  16  1,4  | RAPS
  16  1,4  | SABS
  16  1,4  | SAPS
@@ -201,16 +155,13 @@
  15  3,2  | PRISS
  15 11,1  | PReSA
  15 11,1  | PReSS
- 15  1,5  | SAB
  15  3,2  | SABIR
- 15  1,5  | SAP
  15  1,7  - SOS
  15  3,2  | SPAR
  15  3,2  | SPAS
  15 10,9  | SRI
  15  8,7  | VAS
  14 10,5  | AI
- 14  1,2  | AIRS
  14  8,10 - BAAS
  14  1,5  - BAPS
  14  3,3  | BAR
@@ -236,22 +187,15 @@
  14 11,1  | PIeS
  14  3,3  | PSI
  14 10,1  | RAGIS
- 14  1,2  | RAIS
  14  8,10 - RAPS
  14  8,10 - RASP
- 14  1,2  | RIAS
- 14  9,2  - SA
- 14 10,5  | SA
  14  8,10 - SABS
  14  8,10 - SAPS
  14 10,5  | SI
- 14  1,2  | SIRS
  14  3,7  | SOX
  14  3,3  | SPAR
  14  3,3  | SPAS
- 14  1,2  | SRIS
  13 10,2  - AR
- 13  1,4  | ASP
  13  5,5  | BA
  13  8,10 | BA
  13  1,5  - BAP
@@ -336,9 +280,6 @@
  11  3,3  | ABS
  11 10,10 | AI
  11  3,3  | AIRS
- 11  1,3  | AIS
- 11  1,3  | ARS
- 11  1,3  | ASS
  11  4,6  - BANI
  11  7,9  - BRIS
  11  5,1  | PAC
@@ -350,15 +291,12 @@
  11  7,9  - PSIS
  11  3,3  | RAIS
  11  1,5  - RAPS
- 11  1,3  | RAS
  11  1,3  | RIA
  11  3,3  | RIAS
- 11 10,10 | SA
  11  1,5  - SABS
  11  1,5  - SAPS
  11 10,10 | SI
  11  3,3  | SIRS
- 11  1,3  | SIS
  11  3,3  | SPA
  11  3,3  | SRIS
  10  1,4  | AB
@@ -383,7 +321,6 @@
  10 10,1  | RAG
  10  1,5  - RAP
  10 10,1  | RIG
- 10 10,9  | SA
  10  1,5  - SAB
  10 10,1  | SAG
  10  1,5  - SAP
@@ -438,7 +375,6 @@
   8  7,11 - BADS
   8  1,5  - BARS
   8  1,5  - BASS
-  8  7,1  | BAT
   8  7,11 - BIDS
   8  7,1  | BIT
   8  4,5  - BRISS
@@ -455,7 +391,6 @@
   8  1,5  - PARA
   8  1,5  - PARS
   8  1,5  - PASS
-  8  7,1  | PAT
   8  7,1  | PIT
   8  4,5  - PRISS
   8  3,3  | RAI
@@ -521,11 +456,8 @@
   7  5,5  - RIBS
   7  5,5  - RIPS
   7 11,2  | ReAPS
-  7  5,5  | SA
-  7  8,10 | SA
   7  8,1  | SATIS
   7  5,5  | SI
-  7  8,10 | SI
   7  5,5  - SIBS
   7  5,5  - SIPS
   7  8,1  | SITAR
@@ -542,10 +474,8 @@
   6  1,5  | AR
   6  9,10 - ARS
   6  8,1  | ARTS
-  6  8,2  - AS
   6  3,4  | AS
   6  1,6  | AS
-  6  8,9  | AS
   6  9,10 - ASS
   6  2,5  - ASSAI
   6  9,2  | BAA
@@ -558,7 +488,6 @@
   6  8,1  | BIT
   6 11,2  | BeAR
   6  9,11 - DIS
-  6  8,2  - IS
   6  3,4  | IS
   6  6,6  - NA
   6  9,2  | PAR
@@ -596,9 +525,6 @@
   6 11,2  | ReAP
   6 11,2  | ReBS
   6 11,2  | RePS
-  6  3,4  | SA
-  6  1,5  | SA
-  6  8,9  | SA
   6  9,2  | SAB
   6  9,2  | SAP
   6  8,1  | SATI
@@ -645,13 +571,11 @@
   5  1,5  - RAIA
   5  1,5  - RAIS
   5  7,9  - RAIS
-  5  7,1  | RAT
   5  7,11 - RIDS
   5 11,2  | ReB
   5 11,2  | ReP
   5  7,11 - SADI
   5  1,5  - SARI
-  5  7,1  | SAT
   5  7,1  | SIT
   5  7,9  - SRIS
   5 11,2  | SeRAIS
@@ -672,16 +596,13 @@
   4  9,10 - AR
   4  2,5  - ARS
   4 11,1  | ARe
-  4  1,4  | AS
   4  9,10 - AS
   4  2,5  - ASS
-  4  7,2  | AT
   4 11,2  | Be
   4 10,3  | GI
   4  8,11 - IDS
   4  4,5  - IRIS
   4 11,1  | IRe
-  4  1,4  | IS
   4  7,2  | IT
   4 11,2  | Pe
   4  7,11 - RAD
@@ -694,8 +615,6 @@
   4  5,5  - RIAS
   4  7,11 - RID
   4  4,6  - RIN
-  4  6,2  - SA
-  4  1,4  | SA
   4  7,11 - SAD
   4  4,6  - SAN
   4 11,1  | SAe
@@ -780,9 +699,6 @@
   2  8,2  | IT
   2  1,6  - RE
   2 11,2  | ReS
-  2  9,2  | SA
-  2  1,5  - SA
-  2  8,10 - SA
   2  5,5  - SI
   2  8,9  - SI
   2  1,7  - SO

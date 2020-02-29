@@ -21,10 +21,6 @@
  18  9,1  | TON
  17  3,1  - ANTE
  17  3,1  - ETNA
- 17  7,3  - NAE
- 17  7,3  - RAN
- 17  7,3  - TAN
- 16  5,7  - ANTE
  15  9,1  | NOR
  15  9,1  | NOT
  14  8,1  - AE
@@ -36,40 +32,27 @@
  14  3,1  - TARE
  14  5,3  - TEN
  13  6,7  - ANE
- 13  7,3  - EAR
- 13  7,3  - TAE
- 13  7,3  - TAR
- 12  8,3  - AN
  12  6,6  | ANEAR
  12  6,6  | ANTAE
  12  6,6  | ANTRA
  12  6,6  | ANTRE
  12  6,6  | ARENA
- 12  4,7  - EARN
  12  6,3  - EN
- 12  7,3  - NA
  12  5,3  - NET
  12  4,5  - RANT
- 12  4,7  - RANT
  12  4,5  - RENT
  12  9,1  | ROE
  12  9,1  | ROT
- 12  4,7  - TARN
  12  9,1  | TOE
  12  9,1  | TOR
  12  8,6  | YENTA
  11  6,1  - ANE
  11  5,5  - ANT
- 11  5,7  - ANT
  11  2,3  - ANTRE
  11  6,7  - ATE
- 11  6,3  - ERA
- 11  6,3  - ETA
  11  6,7  - ETA
- 11  3,7  - NEAR
  11  3,5  - NEAT
  11  4,5  - NEAT
- 11  3,7  - NEAT
  11 10,4  | NIDATE
  10  9,3  - EAU
  10  7,7  - NA
@@ -84,7 +67,6 @@
   9  2,5  - ANTE
   9  1,5  - ANTRE
   9  6,1  - ARE
-  9  5,7  - ART
   9  6,1  - ATE
   9  5,5  - EAT
   9  6,1  - ERA
@@ -96,23 +78,17 @@
   9  9,1  | NO
   9  5,1  - RAN
   9  4,5  - RAN
-  9  4,7  - RAN
   9  5,1  - TAN
   9  4,5  - TAN
-  9  4,7  - TAN
-  9  3,7  - TEAR
   9  5,1  - TEN
   9  4,5  - TEN
   9  8,6  | YARN
   9  8,6  | YEAN
-  8  8,3  - AE
   8 10,4  | AIDER
   8  6,1  - AN
   8  5,5  - AN
-  8  5,7  - AN
   8  6,7  - AN
   8  4,3  - ANE
-  8  8,3  - AR
   8  5,5  | ASTERN
   8  6,1  - EN
   8  5,5  - EN
@@ -120,12 +96,10 @@
   8  6,3  - ER
   8  6,3  - ET
   8  2,5  - ETNA
-  8  2,7  - ETNA
   8  7,1  - NA
   8  6,5  - NA
   8  5,1  - NAE
   8  3,5  - NAE
-  8  4,7  - NAE
   8  7,1  - NE
   8  5,1  - NET
   8  4,5  - NET
@@ -135,7 +109,6 @@
   8  8,2  | SEN
   8  5,6  | STANE
   8  5,6  | STERNA
-  8  7,3  - TA
   8  7,7  - TA
   8 10,1  | TAN
   8  3,3  - TARE
@@ -147,10 +120,8 @@
   7 10,2  | AN
   7  3,5  - ANE
   7  5,1  - EAR
-  7  4,7  - EAR
   7  5,1  - EAT
   7  4,5  - EAT
-  7  4,7  - EAT
   7 10,7  - EN
   7  7,6  | INERT
   7  7,6  | INTER
@@ -162,7 +133,6 @@
   7 10,3  - NU
   7  5,1  - RAT
   7  4,5  - RAT
-  7  4,7  - RAT
   7  2,5  - RATE
   7  7,1  | RENT
   7  5,1  - RET
@@ -173,9 +143,7 @@
   7  5,6  | SNARE
   7  5,6  | STERN
   7  5,1  - TAE
-  7  4,7  - TAE
   7  5,1  - TAR
-  7  4,7  - TAR
   7  2,5  - TARE
   7  5,1  - TEA
   7  4,5  - TEA
@@ -187,20 +155,17 @@
   6  6,1  - AE
   6  7,1  - AE
   6 10,4  - AE
-  6  5,7  - AE
   6 10,4  | AID
   6  4,1  - ANE
   6  5,3  | ANES
   6  5,3  | ANTS
   6  6,1  - AR
-  6  5,7  - AR
   6  4,3  - ARE
   6  3,5  - ARE
   6  5,5  | ASTER
   6  6,1  - AT
   6  5,5  - AT
   6  6,5  - AT
-  6  5,7  - AT
   6  6,7  - AT
   6  4,3  - ATE
   6  3,5  - ATE
@@ -209,7 +174,6 @@
   6  6,1  - ER
   6 10,7  - ER
   6  3,5  - ERA
-  6  3,7  - ERA
   6  5,3  | ERNS
   6  6,1  | ERRATA
   6  6,1  - ET
@@ -217,7 +181,6 @@
   6  6,7  - ET
   6 10,7  - ET
   6  3,5  - ETA
-  6  3,7  - ETA
   6  7,6  | IRATE
   6  4,1  - NAE
   6  7,1  | NEAR
@@ -236,7 +199,6 @@
   6  5,3  | TANS
   6  7,1  - TE
   6  3,5  - TEA
-  6  3,7  - TEA
   6  7,1  | TEEN
   6  7,1  | TEN
   6  5,3  | TENS
@@ -266,7 +228,6 @@
   5 10,5  | IDEA
   5  5,1  - NA
   5  4,5  - NA
-  5  4,7  - NA
   5  5,1  - NE
   5  4,5  - NE
   5  6,4  | NEAR
@@ -345,7 +306,6 @@
   4  5,6  | SEN
   4  5,1  - TA
   4  4,5  - TA
-  4  4,7  - TA
   4  6,5  | TAN
   4  6,5  | TARE
   4  5,1  - TE
@@ -421,8 +381,6 @@
   2  7,6  | IT
   2  7,1  | RE
   2  6,2  | RE
-  2  8,2  | SA
-  2  5,6  | SA
   2 10,1  | TA
   2  6,5  | TA
   2  7,1  | TE
