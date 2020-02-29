@@ -19,8 +19,8 @@
 #include "board_premiums.h"
 #include "result.h"
 
+#include <node.h>
 #include <scores.h>
-#include <wwf_lexicon.h>
 
 #include <string_view>
 #include <vector>

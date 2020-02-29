@@ -17,8 +17,8 @@
 #include "board_premiums.h"
 #include "board_tiles.h"
 
+#include <lexicon.h>
 #include <scores.h>
-#include <wwf_lexicon.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
@@ -36,12 +36,14 @@ namespace {
 auto main(int argc, char const* const* argv) -> int
 {
     auto help{false};
-    auto lexicon_filename{string{}};
+    auto letters{string{}};
     auto board_filename{string{}};
     auto premiums_filename{string{}};
-    auto letters{string{}};
+    auto game_name{string{"wwf"}};
     auto cli{
         lyra::help(help)
+        | lyra::opt(game_name, "-g")["--game"]
+                .choices("scrabble", "wwf")
         | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")
         | lyra::arg(board_filename, "board")("text file containing played letters")
         | lyra::arg(premiums_filename, "premiums")("text file describing premium tiles (see 'boards' directory)")
@@ -103,8 +105,10 @@ auto main(int argc, char const* const* argv) -> int
         return EXIT_FAILURE;
     }
 
+    auto const lexicon{game_name=="wwf"?wwf_lexicon:scrabble_lexicon};
+    auto const scores{game_name=="wwf"?wwf_scores():scrabble_scores()};
     auto finds{
-            solve(wwf_lexicon, wwf_scores(), letters, std::move(*board_tiles),
+            solve(lexicon, scores, letters, std::move(*board_tiles),
                     std::move(*board_premiums))};
 
     for (auto const& find : finds) {

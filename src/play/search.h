@@ -23,7 +23,7 @@
 
 #include <scores.h>
 #include <wss_assert.h>
-#include <wwf_lexicon.h>
+#include <node.h>
 
 #include <array>
 #include <utility>

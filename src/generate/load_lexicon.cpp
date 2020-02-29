@@ -22,35 +22,42 @@
 #include <array>
 #include <cctype>
 
-auto load_lexicon(std::string_view filename)
--> std::optional<trie>
+auto load_lexicon(std::vector<std::string> const& filenames)
+-> std::optional<multi_trie>
 {
-    trie lexicon;
+    auto num_root_nodes = int(filenames.size());
+    auto lexicon = multi_trie{num_root_nodes};
 
-    auto f{std::unique_ptr<std::FILE, decltype(&fclose)>{
-            std::fopen(filename.data(), "r"), &fclose}};
+    for (auto i = 0; i!=num_root_nodes; ++i) {
+        auto const& filename = filenames[i];
 
-    if (!f) {
-        fmt::print(stderr, "error: Could not open '{}'.\n", filename);
-        return std::nullopt;
-    }
+        auto f{std::unique_ptr<std::FILE, decltype(&fclose)>{
+                std::fopen(filename.data(), "r"), &fclose}};
 
-    constexpr auto max_word{1024};
-    std::array<char, max_word+1> line{};
-    while (std::fgets(line.data(), max_word, f.get())!=nullptr) {
-        auto* const newline{std::find(begin(line), end(line), '\n')};
-        if (newline==end(line)) {
-            fmt::print(stderr, "error: missing newline at end of '{}'\n", line.data());
+        if (!f) {
+            fmt::print(stderr, "error: Could not open '{}'.\n", filename);
             return std::nullopt;
         }
 
-        std::transform(std::begin(line), newline, std::begin(line),
-                [](auto c) { return std::toupper(c); });
+        constexpr auto max_word{1024};
+        std::array<char, max_word+1> line{};
+        while (std::fgets(line.data(), max_word, f.get())!=nullptr) {
+            auto* const newline{std::find(begin(line), end(line), '\n')};
+            if (newline==end(line)) {
+                fmt::print(stderr,
+                        "error: missing newline at end of '{}' in {}\n",
+                        line.data(), filename);
+                return std::nullopt;
+            }
 
-        auto word{std::string_view{line.data(),
-                std::size_t(std::distance(begin(line), newline))}};
+            std::transform(std::begin(line), newline, std::begin(line),
+                    [](auto c) { return std::toupper(c); });
 
-        lexicon.insert(word);
+            auto word{std::string_view{line.data(),
+                    std::size_t(std::distance(begin(line), newline))}};
+
+            lexicon.insert(word, i);
+        }
     }
 
     lexicon.compress();

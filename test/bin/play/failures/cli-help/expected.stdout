@@ -3,6 +3,7 @@ wss scrabble board suggester
 
 play [options] <rack> <board>
 -?, -h, --   Display usage information.
+--game <-g   
    Letter "rack" including wildcards as ? and blanks as _
    text file containing played letters
    text file describing premium tiles (see 'boards' directory)

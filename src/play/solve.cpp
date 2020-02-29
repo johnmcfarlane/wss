@@ -21,8 +21,8 @@
 #include "search.h"
 #include "tile.h"
 
+#include <node.h>
 #include <scores.h>
-#include <wwf_lexicon.h>
 
 #include <cctype>
 #include <iterator>

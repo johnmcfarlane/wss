@@ -20,7 +20,7 @@
 #include "tile.h"
 #include "wss_assert.h"
 
-#include <wwf_lexicon.h>
+#include <node.h>
 
 #include <gsl/gsl_util>
 
