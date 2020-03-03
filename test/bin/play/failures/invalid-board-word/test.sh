@@ -11,7 +11,3 @@ set +e
   keluoee \
   "${SCRIPT_DIR}/tiles.txt" \
   "${PROJECT_DIR}/boards/wwf_challenge.txt"
-
-if [[ $? -ne 1 ]] ; then
-    exit 1
-fi

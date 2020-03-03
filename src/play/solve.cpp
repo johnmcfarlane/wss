@@ -153,13 +153,14 @@ namespace {
                         row_last = pos[1]+row_delta_last;
                         row!=row_last;
                         ++row) {
-                    bad_word.push_back(tiles.cell(coord{column, row}));
+                    bad_word.push_back(
+                            std::tolower(tiles.cell(coord{column, row})));
                 }
                 fmt::print(
                         stderr,
-                        "error: board contains invalid word, \"{}\"\n",
+                        "warning: board contains invalid word, \"{}\"\n",
                         bad_word);
-                std::exit(1);
+                return std::make_tuple(&std::as_const(lexicon), 0);
             }
             return *upper_portion;
         };
