@@ -159,7 +159,7 @@ namespace {
                         stderr,
                         "error: board contains invalid word, \"{}\"\n",
                         bad_word);
-                std::exit(1);
+                return std::make_tuple(&std::as_const(lexicon), 0);
             }
             return *upper_portion;
         };
