@@ -280,6 +280,7 @@
  21  5,6  | ePEE
  21  3,11 - ePEES
  21  3,11 - hOPES
+ 21  7,6  | iPSO
  21  5,11 - jEEPS
  21  5,11 - kEEPS
  21  3,11 - lOPES
@@ -1496,6 +1497,7 @@
  14  5,8  - hOOP
  14  5,5  | hOP
  14  7,5  | hOP
+ 14  3,8  - iPSO
  14  5,5  | kEP
  14  7,5  | kEP
  14  5,5  | kOP
@@ -2168,6 +2170,7 @@
  12  4,9  - hOLP
  12  5,2  | hOPES
  12  7,6  | iP
+ 12  5,4  | iPSO
  12  5,2  | jEEPS
  12  5,5  | jOG
  12  5,2  | kEEPS
@@ -2908,6 +2911,8 @@
  10  5,3  | hOPS
  10  7,8  | hOS
  10  7,7  | iP
+ 10  5,3  | iPSO
+ 10  7,3  | iPSO
  10  5,7  | jEE
  10  5,7  | jOE
  10  4,9  - kELEP
@@ -4212,6 +4217,7 @@
   7  6,6  - HuGS
   7  6,6  - HuP
   7  6,6  - HyP
+  7  6,10 - IPSO
   7  6,9  - LEES
   7  6,9  - LEG
   7  6,9  - LEGs
@@ -4802,6 +4808,8 @@
   6  6,6  - HaG
   6  6,6  - HoG
   6  6,6  - HuG
+  6  6,10 - IPSo
+  6  6,10 - IPsO
   6  6,10 - ImPS
   6  6,9  - LEEkS
   6  6,9  - LEErS
@@ -5265,6 +5273,7 @@
   6  5,7  - hOPE
   6  5,7  - hOPS
   6  5,4  | hOS
+  6  3,7  - iPSO
   6  7,6  | iS
   6  4,9  - iSLE
   6  5,4  | jEE
@@ -6536,6 +6545,7 @@
   3  6,10 - IcES
   3  6,10 - IdEE
   3  6,10 - IdES
+  3  6,10 - IpSO
   3  6,10 - IrES
   3  6,9  - LaS
   3  6,9  - LeE

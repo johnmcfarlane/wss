@@ -1475,6 +1475,7 @@
  16  1,2  - aAS
  16  1,2  - aIS
  16  6,7  - aNON
+ 16  1,2  - bAE
  16  5,5  - bANE
  16  1,2  - bAS
  16  5,7  - bASIN
@@ -3021,6 +3022,7 @@
  12  7,10 - AzLON
  12  2,1  - BADGEd
  12  2,1  - BADGEr
+ 12  2,1  | BAE
  12  2,1  | BAIl
  12  2,1  | BAIt
  12  2,1  | BAS
@@ -4303,6 +4305,7 @@
  10  2,1  | BA
  10  2,1  | BAa
  10  2,1  | BAd
+ 10  2,1  | BAe
  10  2,1  | BAg
  10  2,1  | BAh
  10  2,1  | BAl
@@ -4345,6 +4348,7 @@
  10  2,1  | BOx
  10  2,1  | BOy
  10  2,1  | BaA
+ 10  2,1  | BaE
  10  2,1  | BaS
  10  2,1  | BeE
  10  2,1  | BeS
@@ -4544,6 +4548,7 @@
  10  1,5  - InSANE
  10  1,7  - InSANE
  10  3,3  - IoNS
+ 10  4,3  - IpSO
  10  4,3  - IrES
  10  3,3  - IrON
  10  2,3  - IrONE
@@ -5973,6 +5978,8 @@
   9  9,1  | aRE
   9  9,1  | aRS
   9 10,5  | bAAS
+  9  5,3  - bAE
+  9  8,8  | bAE
   9  3,3  - bANE
   9  6,8  - bANES
   9  3,3  - bANS
@@ -8072,6 +8079,8 @@
   7  5,9  - IlEAL
   7  4,3  - InN
   7  4,3  - IoN
+  7  3,5  - IpSO
+  7  3,7  - IpSO
   7  8,4  | IsM
   7  6,4  | NADIrS
   7  4,5  - NAE
@@ -9258,6 +9267,7 @@
   6  7,11 - EAStS
   6  6,9  - EArLS
   6 10,5  | EAu
+  6  8,1  | ECAd
   6  8,8  - EEN
   6  6,4  | EIDOS
   6  6,4  | EIDOlA
@@ -9844,6 +9854,8 @@
   6  3,7  - aSEA
   6  7,11 - aSSAI
   6 10,5  | bAA
+  6  4,3  - bAE
+  6 10,5  | bAE
   6  6,9  - bAILS
   6  4,3  - bAS
   6  3,5  - bASE
@@ -11423,6 +11435,8 @@
   5  8,11 - aSEA
   5  3,2  - bA
   5  8,8  | bA
+  5  4,5  - bAE
+  5  4,7  - bAE
   5  6,9  - bAIL
   5  8,4  | bAM
   5  5,11 - bANES
@@ -12744,6 +12758,7 @@
   4  5,7  - bA
   4  6,4  | bADE
   4  6,4  | bADS
+  4  7,8  - bAE
   4  7,9  - bALE
   4  7,9  - bALS
   4  8,4  - bANS
@@ -13681,6 +13696,7 @@
   3  7,8  - IlEA
   3  7,10 - IlL
   3  7,4  | ImU
+  3  7,11 - IpSO
   3  7,8  - IrES
   3  6,11 - IrES
   3  9,9  - LA
