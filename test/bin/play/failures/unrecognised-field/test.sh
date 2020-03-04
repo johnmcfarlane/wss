@@ -1,12 +1,15 @@
 #!/bin/bash
 
+BUILD_DIR=$(pwd)
 SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
 shift
 
-"$@" ./src/play/play \
+cd "${SCRIPT_DIR}" || exit
+
+"$@" "${BUILD_DIR}/src/play/play" \
   "?" \
-  "${SCRIPT_DIR}/tiles.txt" \
-  "${SCRIPT_DIR}/irregular.txt"
+  tiles.txt \
+  irregular.txt
 
 if [[ $? -ne 1 ]] ; then
     exit 1
