@@ -68,7 +68,8 @@ namespace {
             board<char> const& tiles,
             board<premium> const& premiums,
             node lexicon,
-            letter_values const& rack)
+            letter_values const& rack,
+            std::vector<std::string>& invalid_words)
     {
         crosswords result;
 
@@ -129,19 +130,16 @@ namespace {
             auto upper_portion = travel_word_portion(&lexicon, row_delta_first,
                     row_delta_last);
             if (!upper_portion) {
-                std::string bad_word;
+                std::string invalid_word;
 
                 for (auto row = pos[1]+row_delta_first,
                         row_last = pos[1]+row_delta_last;
                         row!=row_last;
                         ++row) {
-                    bad_word.push_back(
+                    invalid_word.push_back(
                             std::tolower(tiles.cell(coord{column, row})));
                 }
-                fmt::print(
-                        stderr,
-                        "warning: board contains invalid word, \"{}\"\n",
-                        bad_word);
+                invalid_words.push_back(std::move(invalid_word));
                 return std::make_tuple(&std::as_const(lexicon), 0);
             }
             return *upper_portion;
@@ -183,7 +181,8 @@ namespace {
         return result;
     }
 
-    auto solve_axial(initial_state& init, step_state& step)
+    auto solve_axial(initial_state& init, step_state& step,
+            std::vector<std::string>& invalid_words)
     {
         auto const edge = init.tiles.size();
 
@@ -192,7 +191,7 @@ namespace {
                 auto const pos = coord{row, column};
                 init.crossword_cells.cell(pos) = calculate_cross(
                         pos, init.letter_scores, init.tiles, init.premiums,
-                        init.lexicon, step.rack);
+                        init.lexicon, step.rack, invalid_words);
             }
         }
 
@@ -225,7 +224,8 @@ namespace {
 
 auto solve(node const& lexicon, letter_values const& letter_scores,
         std::string_view letters, board<char> tiles,
-        board<premium> premiums) -> std::vector<result>
+        board<premium> premiums)
+-> std::tuple<std::vector<result>, std::vector<std::string>>
 {
     auto const edge{ssize(tiles)};
     std::vector<char> word(edge+1);
@@ -257,16 +257,17 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
     }
 
     auto results = std::vector<result>{};
+    auto invalid_words = std::vector<std::string>{};
 
     // horizontal scan
-    solve_axial(init, step);
+    solve_axial(init, step, invalid_words);
     std::swap(step.finds, results);
 
     // vertical scan
     transpose(init.tiles);
     transpose(init.premiums);
     transpose(init.qualifying_cells);
-    solve_axial(init, step);
+    solve_axial(init, step, invalid_words);
     for (auto& result : step.finds)
     {
         transpose(result.pos.start);
@@ -274,8 +275,12 @@ auto solve(node const& lexicon, letter_values const& letter_scores,
     }
     std::move(begin(step.finds), end(step.finds), std::back_inserter(results));
 
+    // sort invalid words, remove duplicates
+    sort(begin(invalid_words), end(invalid_words));
+    invalid_words.erase(unique(begin(invalid_words), end(invalid_words)), end(invalid_words));
+
     // sort results
     sort(begin(results), end(results));
 
-    return results;
+    return std::tuple(results, invalid_words);
 }

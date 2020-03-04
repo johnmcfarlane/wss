@@ -107,9 +107,17 @@ auto main(int argc, char const* const* argv) -> int
 
     auto const lexicon{game_name=="wwf"?wwf_lexicon:scrabble_lexicon};
     auto const scores{game_name=="wwf"?wwf_scores():scrabble_scores()};
-    auto finds{
+    auto [finds, invalid_words] {
             solve(lexicon, scores, letters, std::move(*board_tiles),
                     std::move(*board_premiums))};
+
+    if (!invalid_words.empty()) {
+        fmt::print(stderr, "invalid words:");
+        for (auto const& invalid_word : invalid_words) {
+            fmt::print(stderr, " {}", invalid_word);
+        }
+        fmt::print(stderr, "\n");
+    }
 
     for (auto const& find : finds) {
         fmt::print("{1:3} {2:5} {3} {0}\n",
