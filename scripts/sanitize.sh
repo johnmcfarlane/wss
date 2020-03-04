@@ -17,5 +17,5 @@ export ASAN_OPTIONS=verify_asan_link_order=0
 
 "${BITS_DIR}/build.sh"
 
-"${BITS_DIR}/run-approval-tests.sh" \
+"${BITS_DIR}/sanitize-approval-tests.sh" \
   "${PROJECT_DIR}/test/bin"
