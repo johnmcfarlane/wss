@@ -4667,7 +4667,6 @@
  18  7,2  | bEAnS
  18  7,2  | bEArS
  18  7,2  | bEAsT
- 18  4,8  - bES
  18  7,3  | bEST
  18  4,8  - bESt
  18  7,1  | bETAS
@@ -5317,6 +5316,7 @@
  17  7,2  | ETApe
  17  7,1  | ETnAS
  17  3,8  - EaTs
+ 17  4,4  - EeJiTS
  17  3,8  - EfTs
  17  7,2  | EgAdS
  17  7,2  | EgeST
@@ -5598,7 +5598,6 @@
  17  4,8  - bEsT
  17  4,8  - baS
  17  7,1  | baTES
- 17  4,8  - beS
  17  7,1  | beTAS
  17  4,8  - biS
  17  7,1  | biTES
@@ -6319,7 +6318,6 @@
  16  7,1  | bEmAS
  16  7,3  | bEnS
  16  7,3  | bEnT
- 16  4,8  - bEs
  16  7,3  | bEsT
  16  7,1  | bEtAS
  16  7,3  | bEyS
@@ -7413,7 +7411,6 @@
  15  7,2  | bEAm
  15  7,2  | bEAn
  15  7,2  | bEAr
- 15  7,3  | bES
  15  7,1  | bETA
  15  7,2  | bEeS
  15  7,2  | baAS
@@ -7443,6 +7440,7 @@
  15  7,2  | duES
  15  7,2  | dyES
  15  7,1  | eASE
+ 15  4,4  - eEJiTS
  15  7,2  | eSEs
  15  7,2  | eTAs
  15  7,2  | eTaS
@@ -8784,13 +8782,11 @@
  13  7,3  | bEe
  13  7,1  | bEmA
  13  7,3  | bEn
- 13  7,3  | bEs
  13  7,1  | bEtA
  13  7,3  | bEy
  13  7,3  | baE
  13  7,3  | baS
  13  7,3  | beE
- 13  7,3  | beS
  13  7,3  | boS
  13  7,1  | cASa
  13  7,1  | cASe
@@ -14134,6 +14130,8 @@
   8  6,6  - EAvES
   8  5,6  | EAve
   8  7,6  | EAve
+  8  5,6  - EEjiTS
+  8  6,6  - EEjiTS
   8  6,6  - ESTAte
   8  6,6  - ESTEem
   8  6,6  - ESTEr
@@ -14333,6 +14331,7 @@
   8  6,6  - EyAsES
   8  7,7  | EyAsS
   8  5,5  | EyaS
+  8  5,5  | EyoT
   8  2,7  - SATAY
   8  2,7  - SATAYs
   8  2,6  - SATeEn
@@ -19380,6 +19379,7 @@
   6  6,6  - EyErS
   6  7,7  | EyaS
   6  7,7  | EyeS
+  6  7,7  | EyoT
   6  7,7  | EyrA
   6  6,6  - EyrAS
   6  6,6  - EyrES
@@ -20067,7 +20067,6 @@
   6  5,7  | bEAr
   6  5,7  | bEAt
   6  5,7  | bEAu
-  6  5,7  | bES
   6  5,7  | bESt
   6  5,7  | bET
   6  5,7  | bETa
@@ -21484,6 +21483,7 @@
   5  5,7  - EYaS
   5  5,7  - EYaSs
   5  5,7  - EYeS
+  5  5,7  - EYoT
   5  5,7  - EYrA
   5  5,7  - EYrAs
   5  7,7  | Ear
@@ -22237,7 +22237,6 @@
   5  5,6  | baT
   5  5,7  | baT
   5  5,7  | beE
-  5  5,7  | beS
   5  5,7  | beT
   5  4,5  - biOTAS
   5  5,7  | biS
@@ -23152,6 +23151,7 @@
   4  5,7  - EYer
   4  5,7  - EYes
   4  5,7  - EYne
+  4  5,7  - EYot
   4  5,7  - EYra
   4  5,7  - EYre
   4  5,7  - EYry
@@ -23218,6 +23218,7 @@
   4  6,5  - OATerS
   4  6,5  - OAThS
   4  6,5  - OAfS
+  4  6,5  - OAkEd
   4  6,5  - OAkEn
   4  6,5  - OAkS
   4  6,5  - OArEd
@@ -23966,7 +23967,6 @@
   4  5,7  | bEn
   4  2,5  - bEnTO
   4  3,6  - bErETS
-  4  5,7  | bEs
   4  3,6  - bEsETS
   4  3,5  - bEsOTS
   4  5,7  | bEt
@@ -24215,6 +24215,7 @@
   4  5,7  - eYaS
   4  5,7  - eYeS
   4  5,7  - eYnE
+  4  5,7  - eYoT
   4  5,7  - eYrA
   4  5,7  - eYrE
   4  3,7  - eaSY
@@ -25469,6 +25470,7 @@
   3  4,6  - EyES
   3  6,6  - EyES
   3  4,6  - EyErS
+  3  4,5  - EyOT
   3  3,6  - EyrES
   3  6,5  - OASes
   3  6,5  - OASis
@@ -28491,10 +28493,12 @@
   2  6,6  - EyEr
   2  4,6  - EyEs
   2  6,6  - EyEs
+  2  4,5  - EyOt
   2  6,6  - EyaS
   2  6,6  - EyeS
   2  3,6  - EynE
   2  6,6  - EynE
+  2  6,6  - EyoT
   2  6,6  - EyrA
   2  3,6  - EyrE
   2  6,6  - EyrE
@@ -29096,7 +29100,6 @@
   2  5,6  - bEEs
   2  4,6  - bEEt
   2  5,6  - bEEt
-  2  5,6  - bES
   2  5,6  - bESt
   2  5,6  - bET
   2  5,6  - bETa
@@ -29429,6 +29432,7 @@
   2  7,5  | ex
   2  4,6  - exES
   2  4,6  - eyES
+  2  4,5  - eyOT
   2  3,6  - fAcE
   2  3,6  - fAdE
   2  3,5  - fAdO
@@ -31007,7 +31011,6 @@
   1  5,6  - bEg
   1  5,6  - bEl
   1  5,6  - bEn
-  1  5,6  - bEs
   1  5,6  - bEt
   1  5,6  - bEy
   1  5,5  - bO
