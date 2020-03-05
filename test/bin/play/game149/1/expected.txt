@@ -2291,6 +2291,7 @@
   9  7,3  | Eo
   9  2,4  - EsTOP
   9  6,1  - ExIT
+  9  6,1  - EyOT
   9  7,5  | ILEa
   9  7,5  | ILEx
   9  7,2  | IT
@@ -3882,6 +3883,9 @@
   6  2,5  - EnLIST
   6  5,6  | ExIT
   6  7,6  | ExIT
+  6  5,5  | EyOT
+  6  5,6  | EyOT
+  6  7,6  | EyOT
   6  5,2  - ILEaL
   6  4,2  - ILLEr
   6  5,2  - ILLEr
@@ -6579,6 +6583,7 @@
   3  5,6  | Ex
   3  7,6  | Ex
   3  6,6  - ExIT
+  3  6,6  - EyOT
   3  5,2  - ILk
   3  5,2  - ILl
   3  5,5  - ISlE
