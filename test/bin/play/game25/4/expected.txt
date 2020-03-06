@@ -1,33 +1,65 @@
+ 38 12,4  | JEWESS
+ 37  9,1  | JEU
  36  7,1  | QUE
  35  7,1  | JEE
+ 35 12,4  | JESUS
  27  3,3  - SEQUEL
  25  5,9  - JUS
  25  5,9  - QUE
  24  5,9  - JEE
+ 24  5,3  - JEEL
+ 23 11,7  | QTS
+ 23 11,7  - WUS
  22 10,3  | JEEZ
+ 22 11,7  - WEES
+ 22 11,7  - WESE
+ 21 11,7  - WEE
+ 21 11,7  - WES
  20  4,3  - JEWELS
+ 20 12,3  | JEWESS
+ 20 11,7  - WE
  20  9,9  - WEE
  19  3,9  - EQUES
  19  4,3  - JEWEL
+ 19  9,2  | JUS
+ 19  9,2  | QUE
+ 19  3,3  - SQUEEL
  18 10,8  | PEWS
+ 18  4,9  - QUES
  17  8,4  - EQUES
  17 12,4  | EQUES
  17  7,2  | JEE
  17 10,8  | PEW
- 17  9,4  | SUE
+ 17 10,8  | PSW
  17  7,1  | WEE
+ 16 11,9  - EWES
  16  4,9  - JEES
+ 16  6,3  - JULES
  15  5,4  - EQUES
+ 15 11,9  - EWE
+ 15 12,6  | JESUS
+ 15  6,3  - JULE
+ 15 11,8  | TEJU
  15  9,9  - WE
  14  7,8  | AJEE
  14 12,7  - ESQ
+ 14 11,9  - EW
  14  7,2  | JE
  14 12,5  | JESSE
  14 12,6  | JESSE
+ 14  7,4  - JESU
+ 14 12,6  | JESU
+ 14  6,4  - QUES
+ 14 12,5  | QUES
  14  9,9  - SEE
  14  7,2  | SEW
+ 14 10,3  | SUEZ
  14 12,5  | SUQS
  14 12,8  | SUQS
+ 14  7,1  | USEE
+ 14  5,9  - USW
+ 14 12,9  - WEES
+ 14 12,9  - WESE
  13  7,3  | EW
  13  4,9  - EWES
  13  6,9  - JE
@@ -40,15 +72,22 @@
  13 12,6  | JUS
  13  6,4  - QUE
  13 12,8  | SUQ
+ 13 10,4  | SUZ
  13 11,8  | TEJ
+ 13  9,2  | WUS
+ 13  5,9  - WUS
  12  8,4  - ESQ
  12 12,7  | ESQ
  12  6,4  - JEE
  12  7,4  - JEE
+ 12  7,4  - SEQ
+ 12 12,8  | SEQ
  12  5,9  - SEW
  12 10,4  | SEZ
  12  5,9  - WEE
  12  5,3  - WEEL
+ 12  5,9  - WES
+ 12 12,9  - WUS
  11 10,9  - EE
  11  7,1  | EWE
  11 12,7  - EWES
@@ -56,14 +95,27 @@
  11 11,8  | TWEE
  11  7,1  | USE
  11  7,2  | WEE
+ 11 12,9  - WEE
+ 11 12,9  - WES
+ 10  9,1  | ESU
  10  6,9  - EW
+ 10  9,2  | SUE
+ 10  6,9  - SW
+ 10 12,7  - USEE
+ 10 12,7  - USW
+ 10 12,9  - WE
  10  4,9  - WEES
+ 10  4,9  - WESE
   9  9,9  - EE
   9  5,9  - EWE
+  9  7,6  | GEASE
   9 10,8  | PEES
   9 10,8  | PUS
   9 11,7  | STEW
   9  7,1  | SUE
+  9  9,3  | US
+  9 11,7  | UTEES
+  9 11,7  | WT
   8  7,8  | AWEE
   8  7,8  | AWES
   8 11,7  - EE
@@ -76,10 +128,12 @@
   8  7,1  | SEE
   8  7,2  | SEE
   8  7,3  - SLEW
+  8 11,7  | STUE
   8 11,8  | TEWS
   8  5,9  - USE
-  8 11,7  | UTES
+  8  4,9  - USEE
   8  7,2  | WE
+  8  6,3  - WELS
   8 12,5  | WUSS
   8 12,6  | WUSS
   7  7,3  | EE
@@ -90,29 +144,40 @@
   7  8,3  - LUES
   7 12,5  | SEWS
   7 12,8  | SEWS
+  7 11,7  | STU
   7  5,9  - SUE
   7 11,8  | TEW
   7 12,7  - USE
+  7 12,7  | USW
   7 11,7  | UTE
   7 11,7  | UTS
   7  6,9  - WE
   7  6,4  - WEES
   7  7,4  - WEES
   7 12,5  | WEES
+  7  5,4  - WESE
+  7  7,4  - WESE
+  7 12,6  | WESE
+  7 12,6  | WUS
   6  7,8  | AWE
   6  5,9  - ESE
+  6 12,7  - ESU
   6  6,4  - EWE
   6  8,4  - EWE
   6  8,3  - LEES
+  6  8,3  - LESE
   6  9,8  | OWE
   6  5,9  - SEE
   6  5,3  - SEEL
   6  7,4  - SEW
   6 12,8  | SEW
   6  7,3  - SLUE
+  6 11,8  | TUE
   6 12,7  - US
   6  6,4  - WEE
   6  7,4  - WEE
+  6  7,4  - WES
+  6 12,6  | WES
   5  7,8  | AW
   5  7,2  | EE
   5  6,3  - EELS
@@ -120,16 +185,25 @@
   5 12,7  - ESE
   5  8,4  - EW
   5  8,3  - LEU
+  5  8,3  - LUE
   5  9,8  | OW
   5 10,8  | PE
+  5  6,3  - SELE
+  5  7,3  - SLEE
   5 12,5  | SUES
   5 12,8  | SUES
+  5 12,8  | SW
   5 11,8  | TEES
+  5  7,3  - ULE
   5  6,9  - US
+  5  5,4  - USEE
+  5  6,4  - USEE
+  5 12,7  | USEE
   5 12,5  | USES
   5 12,7  | USES
   5 11,7  | UT
   5  7,4  - WE
+  4  7,8  | AUS
   4 12,7  - EE
   4  6,9  - EE
   4  6,3  - EEL
@@ -138,15 +212,26 @@
   4  6,9  - ES
   4 12,5  | ESES
   4 12,7  | ESES
+  4 12,6  | ESSE
+  4 12,7  | ESSE
+  4  8,4  - ESU
+  4 12,7  | ESU
   4  8,3  - LEE
+  4  8,3  - LU
   4 12,5  | SEES
   4 12,8  | SEES
   4  6,3  - SEL
+  4 12,7  | SSU
+  4 12,8  | SSU
   4  6,4  - SUE
   4 12,8  | SUE
+  4 12,6  | SUS
+  4 12,8  | SUS
   4 11,8  | TEE
   4  6,4  - USE
   4 12,7  | USE
+  3  7,8  | AES
+  3  7,8  | ASE
   3  7,3  - EL
   3  6,4  - ESE
   3  8,4  - ESE

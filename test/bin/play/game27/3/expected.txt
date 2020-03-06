@@ -1,78 +1,154 @@
+ 48  7,3  | FEW
+ 42  7,3  | FEI
+ 42  7,1  | WIFE
+ 38  7,2  | FEW
+ 38  7,3  | FW
+ 38  7,2  | IFE
+ 32  7,3  | FE
+ 32  7,2  | FEE
+ 32  7,2  | FEI
+ 32  7,3  | FI
+ 31  7,4  | EW
  30  7,1  | WEEI
+ 27  4,4  - QUAIFE
+ 26  7,3  | EW
+ 26  3,7  - FEIS
+ 26  3,7  - WF
  25  5,3  - FROW
+ 24  7,1  | EOF
+ 24  7,1  | IOF
+ 23  7,2  | EF
+ 23  7,2  | IF
+ 23  7,2  | OF
  22  5,3  - FREE
  22  5,3  - FROE
  21  5,3  - FRO
+ 20  7,3  | EE
  20  3,7  - FE
  20  3,7  - WE
+ 20  7,7  | WIFIE
+ 19  5,2  | FEU
+ 19  5,2  | FOU
+ 19  7,7  | WIFE
+ 18  5,6  | GOWF
+ 18  7,1  | IFE
+ 17  7,2  | FE
  17  3,5  | FEW
+ 17  4,7  - FOSIE
+ 17  4,4  - QUAW
+ 16  4,7  - FISE
+ 16  5,1  | WF
+ 16  7,1  | WF
  15  7,1  | FEE
  15  7,1  | FIE
  15  7,1  | FOE
  15  4,6  | RIFE
+ 15  4,6  | RIFI
  15  7,1  | WEE
  15  7,1  | WOE
+ 14  3,7  - EF
+ 14  3,7  - OF
+ 14  4,4  - QUAE
  14  4,4  - QUAI
  14  4,6  | REF
- 14  4,6  | RIF
+ 14  4,6  | REW
  14  4,6  | ROW
+ 14  6,7  - SOWF
+ 13  5,1  | EF
+ 13  7,1  | EF
+ 13  5,1  | IF
+ 13  7,1  | IF
+ 13  5,1  | OF
+ 13  7,1  | OF
+ 13  4,4  | QERE
+ 13  4,4  | QERI
+ 13  7,7  | WEEI
+ 13  7,7  | WF
+ 12  7,7  | IOF
  12  6,3  - REEF
  12  6,3  - REIF
+ 12  7,7  | WEE
  12  3,5  | WEEI
+ 12  7,7  | WEI
+ 12  7,7  | WOE
+ 12  6,5  - XW
  11  7,2  | EE
  11  3,5  | FEE
+ 11  3,5  | FEI
  11  2,4  | FIVE
  11  7,2  | OE
  11  6,7  - SEIF
  11  2,6  | VIEW
  11  3,5  | WEE
+ 11  3,5  | WEI
+ 11  2,4  | WEVE
  11  2,4  | WIVE
  11  2,4  | WOVE
  10  3,6  | EWE
  10  7,1  | FE
- 10  5,1  | FI
  10  7,1  | FI
+ 10  5,6  | GIF
  10  2,6  | VOW
  10  7,1  | WE
+ 10  7,7  | WE
  10  3,2  - WEEP
  10  4,2  - WIPE
  10  5,1  | WO
  10  7,1  | WO
+ 10  7,7  | WO
   9  3,6  | EF
   9  3,6  | EW
   9  3,5  | FE
+  9  4,2  - FIP
   9  4,2  - FOP
+  9  7,7  | IFE
   9  7,7  | IWI
   9  7,7  | OWE
   9  6,2  - PEW
   9  6,2  - POW
   9  4,6  | REEF
   9  4,6  | REIF
+  9  6,3  - RF
   9  6,3  - RIFE
+  9  6,3  - RIFI
   9  3,5  | WE
   9  6,5  - XI
   8  3,7  - EE
+  8  2,5  | EVOE
+  8  5,2  - FP
   8  3,7  - OE
+  8  6,2  - PF
+  8  6,7  - SIFE
   7  7,1  | EE
   7  5,1  | EO
   7  7,1  | EO
+  7  3,6  | EOF
   7  2,5  | EVE
   7  5,6  | GEE
+  7  5,6  | GEO
   7  5,6  | GIE
+  7  5,6  | GIO
+  7  5,6  | GOI
   7  7,7  | IF
+  7  5,1  | IO
+  7  7,1  | IO
+  7  5,7  - ISE
+  7  2,5  | IVE
   7  7,1  | OE
   7  7,7  | OF
-  7  5,1  | OI
   7  7,1  | OI
   7  5,7  - OSE
   7  7,7  | OW
   7  6,3  - REF
-  7  6,3  - RIF
+  7  6,3  - REW
   7  6,3  - ROW
   7  2,6  | VEE
+  7  2,6  | VEI
   7  2,6  | VIE
+  7  2,6  | VII
   7  2,6  | VOE
   6  5,2  - EPE
+  6  5,2  - EPI
   6  5,6  | GI
   6  5,6  | GO
   6  5,7  - IS
@@ -80,20 +156,29 @@
   6  5,7  - OS
   6  6,2  - PEE
   6  6,2  - PIE
+  6  6,2  - POE
   6  6,2  - POI
   6  6,7  - SEW
   6  6,7  - SOW
-  5  5,2  - IP
   5  5,2  - OP
   5  6,2  - PE
   5  6,2  - PI
   5  6,2  - PO
   5  4,6  | REE
+  5  4,6  | RF
+  5  4,6  | RIE
+  5  4,6  | RIO
   5  4,6  | ROE
+  5  4,6  | ROI
+  5  6,7  - SW
+  4  7,7  | IO
   4  7,7  | OE
   4  7,7  | OI
   4  6,3  - REE
+  4  6,3  - RIE
+  4  6,3  - RIO
   4  6,3  - ROE
+  4  6,3  - ROI
   3  3,5  | EE
   3  3,6  | EE
   3  3,6  | EO
@@ -101,6 +186,8 @@
   3  6,3  - RE
   3  6,7  - SEE
   3  6,7  - SEI
+  3  6,7  - SIE
+  3  6,7  - SOE
   2  4,6  | RE
   2  6,7  - SI
   2  6,7  - SO

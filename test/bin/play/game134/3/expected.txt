@@ -1,82 +1,180 @@
+ 39  2,2  - SEQ
+ 38  2,4  - FOBS
+ 38  2,4  - WOFT
  37  2,2  - WEFT
+ 35  4,2  | FIB
+ 35  2,4  - FOB
+ 35  2,4  - WOB
  33  2,2  | BOW
  33  2,2  | FOB
  33  2,2  - WEB
+ 33  2,2  | WOB
+ 32  2,4  - SOBS
  32  2,4  - SOFT
+ 31  5,2  - BF
+ 31  5,2  - WF
+ 29  3,4  - OBS
  29  3,4  - OFT
+ 29  4,2  | SIB
+ 29  2,4  - SOB
+ 29  4,2  | TIB
  28  2,2  - BEST
  28  2,2  - WEST
+ 26  6,2  - FW
+ 26  4,3  | IB
  26  4,3  | IF
+ 26  3,4  - OB
  26  3,4  - OF
  24  2,2  - BET
  24  2,2  | BOS
  24  2,2  | BOT
+ 24  2,2  | FOT
+ 24  6,1  | QTS
+ 24  2,2  - WES
  24  2,2  - WET
  24  2,2  | WOS
  24  2,2  | WOT
+ 21  2,2  | TOB
  21  2,2  | TOW
  20  2,2  - BE
  20  2,2  | BO
+ 20  2,4  - BOSS
+ 20  2,4  - BOTS
  20  2,4  - FOSS
+ 20  6,2  - FS
+ 20  3,5  - RFB
+ 20  5,7  - SW
+ 20  6,7  - WB
  20  2,2  - WE
+ 20  6,7  - WF
  20  2,2  | WO
  20  2,4  - WOST
  20  2,4  - WOTS
+ 18  6,2  | BSF
+ 18  5,4  - FW
+ 17  2,4  - BOS
+ 17  2,4  - BOT
+ 17  3,7  - CFS
+ 17  3,7  - CWT
+ 17  4,6  | EFTS
+ 17  2,4  - FOT
  17  4,2  | WIS
  17  2,4  - WOS
  17  2,4  - WOT
+ 17  6,7  - WT
+ 16  4,6  | EFS
+ 16  4,6  | EFT
+ 16  4,1  | TWI
  14  2,4  - SOTS
  14  5,5  | SUQS
+ 13  6,5  | BXS
+ 13  3,7  - CF
+ 13  4,6  | EF
  13  3,2  - EFT
  13  5,5  | SUQ
+ 13  6,4  - WB
+ 13  6,4  - WF
+ 12  5,2  | SEQ
  12  2,2  - SET
+ 12  5,4  - SW
+ 12  6,1  | TBS
+ 12  2,2  | TOS
+ 12  6,6  | XW
+ 11  3,7  - CST
+ 11  3,7  - CTS
  11  5,5  | FUBS
+ 11  1,1  | SFM
  11  4,2  | SIS
  11  2,4  - SOS
  11  2,4  - SOT
  11  4,2  | TIS
+ 11  1,1  - TWP
+ 10  2,4  - BO
  10  5,5  | BUSTS
  10  3,2  - EF
+ 10  4,5  | FE
  10  4,2  | FI
+ 10  6,2  | FS
  10  5,5  | FUB
+ 10  2,3  | OB
  10  2,3  | OW
+ 10  3,5  - RF
+ 10  5,5  | SUBST
  10  2,4  - WO
+ 10  6,4  - WT
+  9  2,1  - BPS
+  9  2,1  - BPT
   9  5,2  | FEW
+  9  1,2  | FMT
+  9  2,1  - FPS
+  9  3,1  - PSF
+  9  3,1  - PSW
+  9  3,1  - PWT
   9  5,2  | WEB
   8  5,5  | BUSS
   8  5,5  | BUST
   8  5,5  | BUTS
+  8  1,2  | FM
+  8  2,1  - FP
   8  5,5  | FUSS
+  8  5,5  | FUST
   8  4,3  | IS
+  8  1,3  | MB
+  8  1,3  | MF
   8  3,4  - OS
+  8  3,1  - PF
+  8  1,1  - SSP
+  8  1,1  | STM
   8  5,5  | SUBS
   8  2,2  - TE
   8  2,2  | TO
+  8  1,1  - TSP
   8  5,5  | TUBS
   8  5,5  | WUSS
+  8  5,5  | WUST
   7  5,5  | BUS
   7  5,5  | BUT
+  7  3,2  - EST
+  7  5,5  | FUT
   7  3,1  - PSST
   7  5,1  | STEW
   7  5,5  | SUB
+  7  5,5  | SUF
   7  5,5  | TUB
+  7  5,6  | UFS
+  7  5,6  | USW
+  7  5,5  | WUS
+  7  5,5  | WUT
   6  5,2  | BET
+  6  5,5  | BU
+  6  5,3  | ESTUS
   6  5,2  | FET
   6  5,5  | FU
+  6  1,3  | MSS
+  6  1,3  | MTS
   6  3,1  - PST
+  6  3,1  - PTS
   6  5,2  | SEW
+  6  2,1  - SPT
   6  5,2  | TEW
+  6  2,1  - TPS
+  6  6,1  | TSS
+  6  6,2  | TSS
+  6  5,2  | WES
   6  5,2  | WET
   5  5,2  | BE
   5  5,3  | EF
   5  5,3  | EW
   5  5,2  | FE
+  5  3,1  - PT
+  5  6,3  | SW
   5  5,2  | WE
   4  3,2  - ES
   4  3,2  - ET
   4  2,3  | OS
   4  4,2  | SI
   4  2,4  - SO
+  4  5,5  | SUS
   4  4,2  | TI
   4  5,6  | UTS
   3  5,2  | SET

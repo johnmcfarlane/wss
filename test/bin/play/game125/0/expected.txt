@@ -6,6 +6,14 @@
  10  2,6  - ERSOE
  10  6,6  - ERSOE
  10  6,6  | ERSOE
+ 10  6,2  | ESERE
+ 10  2,6  - ESERE
+ 10  6,6  - ESERE
+ 10  6,6  | ESERE
+ 10  6,2  | REESE
+ 10  2,6  - REESE
+ 10  6,6  - REESE
+ 10  6,6  | REESE
  10  6,2  | RESEE
  10  2,6  - RESEE
  10  6,6  - RESEE
@@ -14,6 +22,10 @@
  10  2,6  - ROOSE
  10  6,6  - ROOSE
  10  6,6  | ROOSE
+ 10  6,2  | SOREE
+ 10  2,6  - SOREE
+ 10  6,6  - SOREE
+ 10  6,6  | SOREE
   5  6,3  | EROSE
   5  6,4  | EROSE
   5  6,5  | EROSE
@@ -26,6 +38,18 @@
   5  3,6  - ERSOE
   5  4,6  - ERSOE
   5  5,6  - ERSOE
+  5  6,3  | ESERE
+  5  6,4  | ESERE
+  5  6,5  | ESERE
+  5  3,6  - ESERE
+  5  4,6  - ESERE
+  5  5,6  - ESERE
+  5  6,3  | REESE
+  5  6,4  | REESE
+  5  6,5  | REESE
+  5  3,6  - REESE
+  5  4,6  - REESE
+  5  5,6  - REESE
   5  6,3  | RESEE
   5  6,4  | RESEE
   5  6,5  | RESEE
@@ -38,6 +62,12 @@
   5  3,6  - ROOSE
   5  4,6  - ROOSE
   5  5,6  - ROOSE
+  5  6,3  | SOREE
+  5  6,4  | SOREE
+  5  6,5  | SOREE
+  5  3,6  - SOREE
+  5  4,6  - SOREE
+  5  5,6  - SOREE
   4  6,3  | EROS
   4  6,4  | EROS
   4  6,5  | EROS
@@ -46,6 +76,22 @@
   4  5,6  - EROS
   4  6,6  - EROS
   4  6,6  | EROS
+  4  6,3  | ERSE
+  4  6,4  | ERSE
+  4  6,5  | ERSE
+  4  3,6  - ERSE
+  4  4,6  - ERSE
+  4  5,6  - ERSE
+  4  6,6  - ERSE
+  4  6,6  | ERSE
+  4  6,3  | OOSE
+  4  6,4  | OOSE
+  4  6,5  | OOSE
+  4  3,6  - OOSE
+  4  4,6  - OOSE
+  4  5,6  - OOSE
+  4  6,6  - OOSE
+  4  6,6  | OOSE
   4  6,3  | ORES
   4  6,4  | ORES
   4  6,5  | ORES
@@ -86,6 +132,14 @@
   4  5,6  - SEER
   4  6,6  - SEER
   4  6,6  | SEER
+  4  6,3  | SEOR
+  4  6,4  | SEOR
+  4  6,5  | SEOR
+  4  3,6  - SEOR
+  4  4,6  - SEOR
+  4  5,6  - SEOR
+  4  6,6  - SEOR
+  4  6,6  | SEOR
   4  6,3  | SERE
   4  6,4  | SERE
   4  6,5  | SERE
@@ -94,6 +148,14 @@
   4  5,6  - SERE
   4  6,6  - SERE
   4  6,6  | SERE
+  4  6,3  | SERO
+  4  6,4  | SERO
+  4  6,5  | SERO
+  4  3,6  - SERO
+  4  4,6  - SERO
+  4  5,6  - SERO
+  4  6,6  - SERO
+  4  6,6  | SERO
   4  6,3  | SORE
   4  6,4  | SORE
   4  6,5  | SORE
@@ -102,6 +164,12 @@
   4  5,6  - SORE
   4  6,6  - SORE
   4  6,6  | SORE
+  3  6,4  | EER
+  3  6,5  | EER
+  3  4,6  - EER
+  3  5,6  - EER
+  3  6,6  - EER
+  3  6,6  | EER
   3  6,4  | ERE
   3  6,5  | ERE
   3  4,6  - ERE
@@ -120,6 +188,12 @@
   3  5,6  - ESE
   3  6,6  - ESE
   3  6,6  | ESE
+  3  6,4  | OER
+  3  6,5  | OER
+  3  4,6  - OER
+  3  5,6  - OER
+  3  6,6  - OER
+  3  6,6  | OER
   3  6,4  | OES
   3  6,5  | OES
   3  4,6  - OES
@@ -168,6 +242,18 @@
   3  5,6  - ROE
   3  6,6  - ROE
   3  6,6  | ROE
+  3  6,4  | ROO
+  3  6,5  | ROO
+  3  4,6  - ROO
+  3  5,6  - ROO
+  3  6,6  - ROO
+  3  6,6  | ROO
+  3  6,4  | ROS
+  3  6,5  | ROS
+  3  4,6  - ROS
+  3  5,6  - ROS
+  3  6,6  - ROS
+  3  6,6  | ROS
   3  6,4  | SEE
   3  6,5  | SEE
   3  4,6  - SEE
@@ -180,6 +266,12 @@
   3  5,6  - SER
   3  6,6  - SER
   3  6,6  | SER
+  3  6,4  | SOE
+  3  6,5  | SOE
+  3  4,6  - SOE
+  3  5,6  - SOE
+  3  6,6  - SOE
+  3  6,6  | SOE
   2  6,5  | EE
   2  5,6  - EE
   2  6,6  - EE

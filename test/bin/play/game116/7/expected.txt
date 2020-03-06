@@ -1,7 +1,19 @@
+ 51  1,3  - DOMITE
+ 46  1,3  - DEMIT
+ 46  1,3  - DEMOT
  36  6,10 - EMODIn
+ 36  1,1  | SEQ
  35 10,9  | QI
+ 33  5,11 - EDOMITE
  30  6,11 - DEMOTE
+ 30  6,11 - DOMITE
+ 29  5,3  - TEMA
+ 29  5,3  - TOMA
+ 28  2,1  | IODITE
  27  1,1  | SOMITE
+ 24 11,1  | AET
+ 24 10,3  - BT
+ 24 10,9  | DEM
  24  8,11 - DEME
  24 10,9  | DIM
  24  8,11 - DIME
@@ -9,49 +21,83 @@
  24  8,11 - DOME
  24  7,11 - EMOTE
  24 10,9  | MED
+ 24  8,11 - MEDE
  24 10,9  | MID
+ 24  8,11 - MIDE
  24 10,9  | MOD
  24  8,11 - MODE
  24  1,1  | SMITE
  24  1,1  | SMOTE
+ 24  1,1  | SOMET
  24  1,1  | STIME
+ 23  6,3  - IMA
+ 23  3,1  | LIQ
  23  3,1  | LOQ
+ 23  4,3  - MEDIA
+ 21 10,9  | MEO
  21 10,9  | MET
  21  8,11 - METE
+ 21 10,9  | MIT
  21  8,11 - MITE
  21 10,9  | MOT
  21  8,11 - MOTE
+ 21  4,3  - QTD
  21  1,1  | SEMI
+ 21  1,1  | SIME
  21  1,1  | SMIT
  21  1,1  | SOME
  21  1,1  | STEM
+ 21  1,1  | STIM
+ 21  5,3  - TEDA
  21 10,9  | TEM
+ 21 10,9  | TIM
  21  8,11 - TIME
+ 21  5,3  - TODA
  21 10,9  | TOM
  21  8,11 - TOME
  20  6,5  | DEMOTE
  20  6,6  | EMOTED
+ 20  7,3  - MA
+ 20 10,10 | ME
+ 20 10,10 | MO
+ 20  3,3  - MOED
+ 20 10,9  | OM
+ 20  7,2  | YM
+ 19  3,4  - DEMIOX
  18  9,11 - EME
  18  2,1  | IDIOM
  18  2,1  | IMIDE
  18  2,1  | IMIDO
+ 18  9,11 - MEE
+ 18  3,3  - MITE
+ 18  3,3  - MOTE
+ 18  2,3  - MOTED
+ 18  1,1  | SEM
  18  1,1  | SIM
  18  1,1  | SITED
- 18  1,1  | SOM
+ 18  1,1  | STEID
  18  1,1  | STIED
- 17  4,4  - DETOX
- 17 10,10 | EM
+ 18  1,1  | STM
+ 18  2,3  - TIMED
+ 17  9,7  | ITMO
  17 10,9  | ME
  17 10,9  | MI
  17 10,9  | MO
  17 10,10 | OM
+ 17  5,3  - TOEA
+ 17  5,6  | ZEMI
  16  7,10 - DEMOn
+ 16  2,3  - EMIT
  16  6,6  | EMOTE
  16  2,1  | IDEM
  16  2,1  | IMID
  16  3,1  | LIMED
- 16  6,7  - MI
- 15  2,2  - DI
+ 16  5,4  | MEZO
+ 16  5,4  | MIZE
+ 16  5,4  | MOZE
+ 16  2,3  - OMIT
+ 16  5,6  | ZOID
+ 15 10,9  | DET
  15 10,9  | DIE
  15 10,9  | DIT
  15  8,11 - DITE
@@ -60,63 +106,174 @@
  15 10,9  | DOT
  15  8,11 - DOTE
  15  8,11 - EIDE
+ 15  6,3  - IDA
  15  8,11 - IDEE
+ 15  9,7  | IDEM
+ 15  8,11 - IODE
+ 15  5,5  | IZOTE
+ 15  4,3  - MED
  15  7,9  - MEDII
+ 15  6,5  | MEQ
+ 15  3,3  - MET
+ 15  3,3  - MIT
+ 15  7,5  | MKT
+ 15  3,3  - MOT
+ 15  4,3  - MTD
+ 15  6,3  - ODA
+ 15  1,1  | SEID
  15  1,1  | SIDE
+ 15  1,1  | SOTIE
+ 15  1,1  | STID
+ 15  1,1  | STOD
  15 10,9  | TED
+ 15 10,9  | TID
  15  8,11 - TIDE
  15 10,9  | TOD
+ 15  8,11 - TODE
+ 14  3,3  - DETI
+ 14  2,3  - DIME
+ 14  3,3  - DITE
+ 14  7,5  | DKM
+ 14  2,3  - DOME
+ 14  8,10 - DOMn
+ 14  3,3  - DOTE
  14  5,4  | DOZE
+ 14  5,5  | EZOD
  14  1,2  - ID
+ 14  2,1  | IMIT
  14  2,1  | ITEM
+ 14  9,7  | ITEM
+ 14  2,1  | ITMO
+ 14  7,10 - METIn
+ 14  2,3  - MIDE
+ 14  8,10 - MIDn
+ 14  2,3  - MODE
  14  1,2  - OD
  14  9,7  | OMIT
+ 14  7,10 - TEMIn
+ 14  3,3  - TIED
+ 14  7,10 - TIMOn
+ 14  3,3  - TOED
+ 14  7,10 - TOMIn
+ 13  6,3  - DEA
+ 13  6,3  - DIA
+ 13  6,3  - DOA
+ 13  5,4  | DOZ
  13  5,5  | DZO
  13  6,1  | ET
+ 13  3,3  - IDEO
+ 13  9,7  | IODE
  13  7,4  - IXTLE
+ 13  4,3  - MEO
+ 13  2,3  - MITE
  13  6,4  - MIX
+ 13  2,3  - MOET
+ 13  2,3  - MOIT
+ 13  2,3  - MOTE
+ 13  5,4  | ODZ
  13  1,1  - SILVAE
+ 13  2,3  - TIME
+ 13  2,3  - TOME
+ 13  5,4  | TOZE
  13  5,6  | ZED
+ 13  5,6  | ZOD
+ 12  7,3  - DA
  12  9,11 - DEE
  12  6,7  - DI
  12  9,11 - DIE
  12  9,11 - DOE
+ 12  2,3  - EDIT
  12  9,11 - IDE
+ 12  9,7  | IDEO
  12  2,1  | IDIOT
+ 12  2,1  | IDITE
+ 12  2,1  | IMI
+ 12  4,3  - ITD
+ 12  9,7  | ITD
+ 12  7,6  | KMET
+ 12  7,6  | KOME
+ 12  7,6  | KOMI
  12  3,1  | LIME
  12  3,1  | LIMO
+ 12  8,10 - MEIn
  12  8,10 - MIEn
  12  9,11 - ODE
  12  8,10 - OMEn
+ 12  1,1  | SED
+ 12  1,1  | SEIT
+ 12  1,1  | SID
  12  1,1  | SITE
  12  1,1  | SOD
+ 12  1,1  | STD
+ 12  4,3  - TED
+ 12  5,4  | TEZ
  12 10,9  | TIE
  12 10,9  | TOE
+ 12  7,2  | YD
  12  5,6  | ZIT
  11 10,9  | DE
+ 11  4,3  - DEI
+ 11  3,3  - DET
  11  6,4  - DEX
  11 10,9  | DI
+ 11  3,3  - DIE
+ 11  2,3  - DIET
+ 11  3,3  - DIT
+ 11  2,3  - DITE
  11 10,9  | DO
+ 11  3,3  - DOE
+ 11  2,3  - DOIT
+ 11  3,3  - DOT
+ 11  2,3  - DOTE
+ 11  5,3  - ED
  11 10,10 | ED
  11 10,10 | ID
+ 11  9,7  | IDE
+ 11  2,3  - IODE
+ 11  7,6  | KEID
  11  7,6  | KITED
+ 11  3,1  | LIM
  11 10,10 | OD
  11  9,7  | ODE
  11  9,7  | OM
  11 10,9  - QI
- 11  2,2  - TI
+ 11  5,3  - TD
+ 11  2,3  - TIDE
  11  2,2  - TO
+ 11  2,3  - TODE
+ 10  7,10 - DETIn
+ 10  7,5  | EKOI
  10  8,5  - EMO
+ 10  3,3  - IDE
+ 10  2,1  | IDEO
+ 10  1,2  - IO
+ 10  2,1  | IODE
  10  1,2  - IT
  10  6,4  | ITEMED
+ 10  7,6  | KIM
+ 10  4,3  - ME
  10  9,10 - MEn
+ 10  9,10 - MIn
+ 10  9,9  - MOI
  10  9,10 - MOn
+ 10  9,10 - MTn
+ 10  3,3  - ODE
  10  6,7  - OI
+ 10  7,5  | OKET
+ 10  7,5  | OKIE
+ 10  6,4  - TEX
  10  6,7  - TI
+ 10  6,4  - TOX
+  9  8,9  - DEMI
   9  6,5  | DEMIT
+  9  6,5  | DEMOT
+  9  7,9  - DIOTI
+  9  5,3  - EO
   9  7,4  - EX
+  9  9,7  | ID
   9  7,6  | KETO
   9  7,6  | KITE
+  9  6,5  | MEDIO
   9  6,5  | METED
   9  8,9  - MIDI
   9  8,9  - MODI
@@ -125,26 +282,48 @@
   9  7,4  - OX
   9  1,1  | SEI
   9  1,1  | SET
+  9  1,1  | SIE
   9  1,1  | SIT
+  9  1,1  | SOE
   9  1,1  | SOT
+  9  5,3  - TE
   9  9,11 - TEE
+  9  5,3  - TI
+  9  3,3  - TIE
   9  9,11 - TIE
+  9  5,3  - TO
+  9  3,3  - TOE
   9  9,11 - TOE
+  8  5,1  | ASEM
+  8  4,3  - DE
   8  6,4  | DEEM
   8  6,5  | DEEM
   8  6,5  | DEME
+  8  6,5  | DEMI
   8  6,5  | DEMO
+  8  8,10 - DETn
+  8  6,4  | DIEM
+  8  8,10 - DIOn
   8 10,10 | EO
   8 10,10 | ET
   8  2,1  | IDE
   8  6,4  | IDEM
+  8  9,7  | IO
+  8 10,10 | IO
+  8  9,7  | IT
   8 10,10 | IT
+  8  2,1  | ITD
   8  7,6  | KED
   8  7,6  | KID
+  8  3,1  | LIDE
   8  3,1  | LIDO
   8  3,1  | LODE
+  8  6,5  | MEDE
   8  6,4  | MEED
   8  6,5  | MEED
+  8  6,4  | MOED
+  8 10,10 - Mn
+  8  8,10 - ODIn
   8  9,7  | OE
   8 10,9  | OE
   8 10,10 | OE
@@ -153,46 +332,70 @@
   8 10,9  | TE
   8 10,9  | TI
   8 10,9  | TO
+  7  6,5  | DEM
   7  6,6  | EMIT
+  7  4,3  - ET
+  7  9,9  - IMI
+  7  4,3  - IT
   7  6,4  | ITEM
+  7  7,6  | KET
+  7  7,6  | KIE
   7  7,6  | KIT
   7  7,6  | KOI
   7  3,1  | LED
   7  3,1  | LID
   7  3,1  | LIED
+  7  3,1  | LOD
+  7  3,1  | LOED
   7  3,1  | LOID
   7  6,5  | MED
   7  6,4  | MEET
   7  6,5  | MEET
+  7  6,5  | MEIO
   7  6,5  | METE
+  7  6,4  | MOET
+  7  4,3  - OE
+  7  4,3  - TE
   7  6,4  | TEEM
   7  6,5  | TEEM
   7  6,2  | TOITED
+  6  9,9  - DEI
+  6  8,9  - DETI
   6  9,10 - DEn
   6  9,10 - DIn
   6  9,10 - DOn
+  6  8,5  - EDO
   6  6,4  | EME
   6  6,6  | EME
   6  6,6  | EMO
+  6  8,10 - ETOn
   6  2,1  | ID
+  6  8,10 - ITEn
   6  7,6  | KI
   6  3,1  | LITE
-  6  3,1  | LOTI
+  6  6,4  | MEE
+  6  6,5  | MEE
+  6  6,5  | MEO
   6  6,5  | MET
   6  6,2  | TEM
   6  6,5  | TEM
+  6  8,9  - TIDI
+  6  8,10 - TIEn
+  6  6,2  | TIM
   6  6,2  | TOM
-  5  6,4  | DEET
-  5  6,5  | DEET
+  5  6,5  | DETI
   5  6,4  | DIET
   5  6,6  | EDIT
   5  6,6  | EIDE
-  5  6,6  | EM
   5  6,4  | IDEE
+  5  6,4  | IDEO
+  5  9,7  - INO
   5  3,1  | LEI
+  5  3,1  | LEO
   5  3,1  | LET
   5  3,1  | LIE
   5  3,1  | LIT
+  5  3,1  | LOE
   5  3,1  | LOT
   5  6,5  | ME
   5 10,11 - ME
@@ -202,37 +405,44 @@
   5  6,5  | TEED
   5  6,4  | TIED
   5  6,4  | TOED
+  4  5,1  | ASE
+  4  5,1  | AST
   4  6,4  | DEE
   4  6,5  | DEE
+  4  6,5  | DEI
+  4  6,5  | DET
   4  6,4  | DIE
   4  6,4  | DOE
+  4  6,6  | EDO
   4  9,10 - EOn
   4  6,4  | IDE
+  4  2,1  | IO
   4  9,10 - IOn
   4  2,1  | IT
   4  6,4  | ODE
   4  6,2  | TED
   4  6,5  | TED
   4  9,10 - TEn
+  4  6,2  | TID
   4  9,10 - TIn
   4  6,2  | TOD
+  4  9,9  - TOI
   4  9,10 - TOn
   3  6,5  | DE
   3 10,11 - DE
   3 10,9  - DI
   3  6,6  | ED
-  3  3,1  | LI
-  3 10,4  - LI
   3  3,1  | LO
   3 10,4  - LO
+  3  6,2  | TD
   3  6,4  | TEE
   3  6,5  | TEE
-  3  6,2  | TET
   3  6,2  | TIE
   3  6,4  | TIE
   3  6,2  | TIT
   3  6,2  | TOE
   3  6,4  | TOE
+  3  6,2  | TOI
   3  6,2  | TOT
   2  6,5  | EE
   2  6,6  | EE

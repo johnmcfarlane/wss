@@ -1,17 +1,42 @@
+ 42  9,1  | RETALK
  36  9,1  | STREAK
+ 26  8,8  - AER
+ 26  9,8  - ARE
+ 26  9,8  - ERA
+ 23 10,8  - RE
+ 19  3,8  - RELATA
  18  6,8  - ALAE
  18  1,10 - ARTLESS
+ 18  3,7  - ESTALL
+ 17  9,8  - AR
+ 17  9,8  - ER
+ 17  8,7  - LA
  17  4,8  - REATA
  17  4,6  - REBECKS
+ 16  2,10 - ARLESS
  16 10,1  | ARTLESS
+ 16  5,8  - SALA
+ 16  4,7  - STALL
  16 10,1  | STALLS
  16  1,10 - STALLS
  16  5,8  - TALA
+ 16 10,1  | TALLES
+ 16  1,10 - TALLES
  15  6,8  - ALA
+ 15  8,2  | ALLECT
+ 15  5,8  - LASA
+ 15  5,8  - LATA
+ 15  5,7  - RALL
+ 15  5,7  - SALL
+ 15  5,7  - TALL
  14 10,1  | ALERTS
  14  1,10 - ALERTS
+ 14  6,7  - ALL
  14 10,1  | ALTERS
  14  1,10 - ALTERS
+ 14 10,1  | ARLESS
+ 14 10,2  | ARLESS
+ 14  1,10 - ARLESS
  14 10,1  | ARTELS
  14  1,10 - ARTELS
  14  9,3  | LARKS
@@ -22,8 +47,12 @@
  14  9,3  | LEAKS
  14 10,1  | LEASTS
  14  1,10 - LEASTS
+ 14  5,8  - RASA
+ 14  5,8  - RATA
  14 10,1  | RATELS
  14  1,10 - RATELS
+ 14 10,2  | RELAST
+ 14  5,8  - SATA
  14 10,2  | SELLS
  14  2,10 - SELLS
  14 10,1  | SLATES
@@ -35,27 +64,32 @@
  14 10,1  | TALERS
  14  1,10 - TALERS
  14  9,3  | TALKS
- 14 10,2  | TALLS
- 14  2,10 - TALLS
  14 10,2  | TELLS
  14  2,10 - TELLS
+ 14  2,10 - TERASS
  14 10,1  | TESLAS
  14  1,10 - TESLAS
+ 13  6,8  - AER
  13  8,3  | ALECS
+ 13  6,8  - ASA
+ 13  5,7  - EARL
+ 13  1,7  - ELLASAR
  13  1,7  - LATERAL
  13  4,8  - LEAL
+ 13 10,8  | ROXY
  13  9,3  | SLAKE
  13  9,2  | STALK
  13  9,2  | STRAKE
+ 13  5,7  - TAEL
  12  8,8  - AE
  12  8,3  | ALEC
- 12  7,2  | ALLEES
  12 10,2  | ARLES
  12  2,10 - ARLES
  12 10,1  | ASTERS
  12  1,10 - ASTERS
  12  2,8  - ASTRAL
  12  8,6  | CLAG
+ 12  8,6  | CLEG
  12 10,2  | EARLS
  12  2,10 - EARLS
  12  9,4  | ELKS
@@ -67,13 +101,18 @@
  12  9,3  | LARK
  12 10,2  | LASES
  12  2,10 - LASES
+ 12  9,3  | LASK
  12 10,2  | LASTS
  12  2,10 - LASTS
  12  9,3  | LEAK
  12 10,2  | LEARS
  12  2,10 - LEARS
+ 12  8,4  | LECT
+ 12  8,3  | LRECL
  12 10,2  | RALES
  12  2,10 - RALES
+ 12  8,8  - RE
+ 12  9,3  | REAKS
  12 10,2  | REALS
  12  2,10 - REALS
  12  7,1  | RELATES
@@ -88,6 +127,8 @@
  12 10,2  | SLATS
  12  2,10 - SLATS
  12  9,3  | STAKE
+ 12  1,7  - STALLAR
+ 12  7,1  | STALLER
  12 10,1  | STARES
  12  1,10 - STARES
  12  1,8  - STELLA
@@ -101,6 +142,9 @@
  12  9,3  | TEAKS
  12 10,2  | TEALS
  12  2,10 - TEALS
+ 12 10,1  | TERASS
+ 12 10,2  | TERASS
+ 12  1,10 - TERASS
  12  9,3  | TREKS
  11  3,8  - AREAL
  11  3,8  - ARTAL
@@ -110,12 +154,21 @@
  11  7,2  | ELATES
  11  2,7  - ESTRAL
  11  8,4  | LAC
+ 11  7,1  | LAERTES
  11  9,4  | LAKE
  11  4,8  - LEAS
+ 11  4,8  - LEAT
  11  9,4  | LEKS
+ 11  8,4  | LSC
  11  3,8  - RATAL
+ 11  3,8  - REAAL
+ 11  9,2  | REASK
+ 11  3,8  - RETAL
  11  3,7  - SALAL
+ 11  7,2  | SALLEE
  11  7,2  | SALLET
+ 11  2,8  - SELLA
+ 11  2,7  - SELLAR
  11  7,2  | SELLER
  11  3,8  - SERAL
  11  3,8  - SETAL
@@ -124,31 +177,44 @@
  11  9,2  | STEAK
  11  3,8  - STEAL
  11  7,1  | STEALER
+ 11  9,2  | STERK
  11  7,2  | STREEL
  11  8,3  | TALCS
  11  7,2  | TALLER
+ 11  7,2  | TALLES
  11  2,7  - TARSAL
  11  7,2  | TEASEL
+ 11  7,1  | TEASLER
  11  7,2  | TELLER
- 10  7,3  | ALLEE
+ 10  8,4  | ALCE
+ 10  7,3  | ALLER
  10  3,7  - AREAL
+ 10  7,3  | AREEL
  10  9,4  | ARKS
  10 10,2  | ARSES
  10  2,10 - ARSES
  10  3,7  - ARTAL
  10  7,3  | ARTEL
+ 10  2,7  - ASELAR
+ 10  9,4  | ASKR
+ 10  7,3  | ASTEL
+ 10  7,2  | ATELES
  10  3,8  - ATLAS
+ 10  7,2  | EARLET
  10  7,3  | EASEL
  10 10,2  | EASTS
  10  2,10 - EASTS
  10  9,4  | ELK
- 10  7,3  | LAREE
- 10  7,2  | LAREES
+ 10  3,8  - ELLA
+ 10  4,8  - ERAL
+ 10 11,7  | LAMUS
  10  7,3  | LARES
  10  7,3  | LASER
  10  7,2  | LASTER
  10  7,3  | LATER
  10  7,2  | LEASER
+ 10  7,2  | LESTER
+ 10  5,7  | LL
  10  9,4  | RAKE
  10 10,2  | RASES
  10  2,10 - RASES
@@ -156,23 +222,35 @@
  10  7,3  | RATEL
  10 10,2  | RATES
  10  2,10 - RATES
+ 10  3,7  - REAAL
  10  8,3  | REACT
+ 10  9,3  | REAK
  10  4,8  - REAL
  10  7,2  | REALES
  10  2,8  - REATAS
  10 10,2  | RESTS
  10  2,10 - RESTS
+ 10  3,7  - RETAL
  10  9,4  | SAKE
+ 10  3,8  - SALAT
+ 10  7,1  | SALELE
+ 10  7,1  | SALLEE
+ 10  2,8  - SALTA
+ 10  7,2  | SALTEE
  10  7,2  | SALTER
  10  9,3  | SARK
  10 10,2  | SATES
  10  2,10 - SATES
+ 10  2,8  - SATRAE
+ 10  9,3  | SEAK
  10  4,8  - SEAL
  10  7,2  | SEALER
+ 10  7,2  | SEALET
  10 10,2  | SEARS
  10  2,10 - SEARS
  10 10,2  | SEATS
  10  2,10 - SEATS
+ 10  7,2  | SELTER
  10  8,2  | SERAC
  10  3,7  - SERAL
  10  3,7  - SETAL
@@ -183,6 +261,7 @@
  10  7,3  | STEEL
  10  2,7  - STELAR
  10  7,4  | STEREO
+ 10  4,8  - TAAL
  10  9,4  | TAKE
  10  3,8  - TALAS
  10  8,3  | TALC
@@ -193,25 +272,42 @@
  10  4,8  - TEAL
  10 10,2  | TEARS
  10  2,10 - TEARS
+ 10 10,2  | TERAS
+ 10  2,10 - TERAS
  10  8,3  | TRACE
  10 10,2  | TRASS
  10  2,10 - TRASS
+ 10 10,2  | TREAS
+ 10  2,10 - TREAS
  10  9,3  | TREK
  10 10,2  | TRESS
  10  2,10 - TRESS
  10 10,2  | TSARS
  10  2,10 - TSARS
+  9  8,3  | AESC
+  9  9,5  | AKE
   9  4,8  - ALAE
   9  4,8  - ALAS
-  9  7,2  | ALLEE
+  9  8,4  | ALC
+  9  3,8  - ALEA
+  9  1,8  - ALERTA
   9  3,7  - ALTAR
   9  7,3  | ALTER
   9  8,4  | ARCS
   9  3,8  - AREAS
   9  7,2  | ARETES
   9  7,3  | ARLES
+  9  7,2  | ASTEER
+  9  7,5  - AT
   9  3,7  - ATLAS
+  9  7,3  | ATLEE
   9  7,2  | EASTER
+  9  3,8  - ELSA
+  9  8,4  | ESCA
+  9  7,5  - ET
+  9  9,6  | KSAR
+  9  9,4  | LAK
+  9  1,8  - LATERA
   9  4,7  - LEAL
   9  9,4  | LEK
   9  8,4  | RACE
@@ -219,38 +315,71 @@
   9 11,7  | RAMUS
   9  2,7  - REATAS
   9  8,4  | RECS
+  9  8,4  | RECT
+  9  1,7  - RELATA
+  9  1,8  - RELATA
   9  7,1  | RELATE
+  9  7,3  | RELES
   9  7,3  | RELET
+  9 11,7  | REMUS
   9  3,8  - RESAT
+  9  7,2  | SAETER
+  9  3,7  - SALAR
+  9  3,7  - SALAT
+  9  7,3  | SALET
+  9  7,1  | SALTEE
+  9  2,7  - SATRAE
   9  7,2  | SEATER
   9  8,4  | SECT
-  9  9,5  | SKA
+  9  4,8  - SLAE
   9  4,8  - SLAT
+  9  7,3  | SLEER
   9  7,3  | SLEET
+  9  8,3  | SRAC
+  9  7,2  | STAREE
   9  1,7  - STELLA
+  9  3,8  - STRAE
   9  8,4  | TACE
   9  3,7  - TALAR
   9  3,7  - TALAS
   9  7,3  | TALER
   9  7,3  | TALES
+  9 11,7  | TAMUS
   9  7,2  | TEASER
+  9  8,4  | TECA
+  9  3,7  - TELAR
   9  7,3  | TELES
+  9  3,8  - TERAS
+  9  8,3  | TRAC
+  9  3,8  - TREAS
   8  5,7  | AL
+  8  7,1  | ALERSE
+  8  1,7  - ALERTA
   8 11,8  | AMUS
   8  8,4  | ARC
   8  3,7  - AREAS
   8  9,4  | ARK
   8  9,4  | ASK
   8  7,3  | ASTER
+  8  7,3  | ATEES
   8  7,3  | EASER
   8  7,3  | EATER
   8  7,2  | ELATE
   8 11,8  | EMUS
+  8  4,7  - ERAL
   8  4,8  - ERAS
+  8  4,8  - ERAT
+  8  9,4  | ERK
+  8  8,4  | ESC
   8  7,3  | ESTER
   8  4,8  - ETAS
+  8  8,4  | ETC
   8  5,7  | LA
+  8  7,1  | LASTRE
+  8  1,7  - LATERA
   8  4,8  - LEA
+  8  7,4  | LLER
+  8  7,1  | RASTLE
   8  7,3  | RATES
   8  4,7  - REAL
   8  8,4  | REC
@@ -259,22 +388,37 @@
   8  3,7  - RESAT
   8  7,3  | RESET
   8  8,4  | SAC
+  8  9,4  | SAK
+  8  7,2  | SALLE
+  8  3,10 - SALSE
   8  7,3  | SAREE
   8  4,7  - SEAL
   8  4,8  - SEAT
   8  8,4  | SEC
   8  7,4  | SEEL
+  8  2,7  - SELLA
   8  7,2  | SELLE
+  8  7,2  | SLARE
   8  7,2  | SLATE
+  8  7,2  | SLETE
   8  7,3  | STEER
   8  2,8  - STELA
   8  7,1  | STELAE
+  8  9,4  | STK
+  8  3,7  - STRAE
+  8  7,3  | STREE
+  8  4,7  - TAAL
   8  7,4  | TAEL
   8  7,3  | TARES
   8  4,7  - TEAL
   8  4,8  - TEAS
+  8  7,1  | TEASLE
+  8  8,4  | TEC
   8  7,4  | TEEL
+  8  3,7  - TERAS
+  8  7,3  | TERES
   8  2,8  - TESLA
+  8  3,7  - TREAS
   8  7,3  | TREES
   8  9,4  | TSK
   7  5,7  - AAL
@@ -284,29 +428,58 @@
   7  4,7  - ALAS
   7  7,4  | ALEE
   7  7,4  | ALES
+  7  7,3  | ALLE
+  7  7,2  | ARSLE
+  7  7,2  | ATLEE
+  7  7,2  | EARLE
+  7  7,1  | EASTRE
   7  7,5  | EEL
+  7  3,7  - ELLA
+  7  7,3  | ELLE
   7  9,6  | KA
-  7  7,2  | LAREE
+  7  7,4  | LAET
+  7  7,3  | LARE
+  7  3,7  - LASA
+  7  3,8  - LASA
   7  7,3  | LASE
   7  4,10 - LASE
   7  4,10 - LASS
+  7  3,7  - LATA
+  7  3,8  - LATA
   7  7,3  | LATE
+  7  8,5  | LCA
   7  4,7  - LEAR
   7  4,7  - LEAS
   7  7,2  | LEASE
+  7  4,7  - LEAT
   7  7,4  | LEER
   7  7,4  | LEES
   7  7,4  | LEET
+  7  7,3  | LERE
+  7  7,3  | LESE
   7  4,10 - LESS
+  7  3,10 - RASSE
   7  2,8  - REATA
+  7  7,5  | REL
+  7  2,8  - SAETA
   7  5,7  - SAL
   7  5,8  - SAL
+  7  3,8  - SALA
+  7  2,7  - SALTA
   7  7,5  | SEL
+  7  2,8  - SERTA
+  7  4,7  - SLAE
   7  4,7  - SLAT
+  7  7,4  | SLEE
   7  7,2  | STALE
+  7  7,1  | STAREE
   7  2,7  - STELA
   7  7,2  | STELE
+  7  5,7  - TAL
+  7  5,8  - TAL
   7  3,8  - TALA
+  7  2,8  - TAREA
+  7  3,10 - TARSE
   7  3,10 - TASSE
   7  7,5  | TEL
   7  3,8  - TELA
@@ -320,22 +493,35 @@
   6  6,7  - AL
   6  6,8  - AL
   6  4,8  - ALA
+  6  3,7  - ALEA
   6  7,3  | ALEE
   6 10,3  | ALLS
   6  3,10 - ALLS
   6  3,8  - AREA
   6  7,4  | ARES
+  6  7,4  | ARET
   6  7,2  | ARETE
+  6  7,3  | ARLE
   6  4,10 - ARSE
   6  3,8  - ASEA
+  6  4,10 - ASSE
+  6  3,8  - ASTA
+  6  7,2  | ASTRE
   6  5,7  | AT
+  6  4,7  - ATAR
   6  7,4  | ATES
+  6  7,3  | ATLE
+  6  8,6  | CL
   6  7,6  | EL
+  6  4,8  - ELA
   6 10,3  | ELLS
   6  3,10 - ELLS
+  6  3,7  - ELSA
   6  7,3  | ELSE
   6  4,7  - ERAS
   6  7,2  | ERASE
+  6  4,7  - ERAT
+  6  7,2  | ESTRE
   6  4,7  - ETAS
   6  5,7  - LAR
   6  5,7  - LAS
@@ -345,26 +531,52 @@
   6  7,5  | LEA
   6 10,3  | LEAST
   6  7,5  | LEE
+  6  7,5  | LER
   6  7,5  | LET
   6  7,8  | LO
   6  7,3  | RALE
+  6  3,8  - RASA
   6  4,10 - RASE
+  6  3,8  - RATA
+  6  8,5  | RCT
   6  2,7  - REATA
   6  7,4  | REES
+  6  7,4  | REET
+  6  8,8  | RG
+  6  2,7  - SAETA
+  6  3,7  - SALA
   6  7,3  | SALE
+  6 10,3  | SALSE
+  6  3,8  - SARA
   6  7,2  | SAREE
+  6  3,8  - SATA
+  6  8,5  | SCR
+  6  8,5  | SCT
   6  4,7  - SEAR
   6  4,7  - SEAT
   6  7,4  | SEER
+  6  7,3  | SELE
   6  3,8  - SERA
+  6  2,7  - SERTA
   6  3,8  - SETA
   6  7,2  | SETAE
+  6  4,8  - SLA
+  6  7,3  | SLAE
+  6  7,3  | SLEE
   6  4,7  - STAR
   6  7,2  | STARE
+  6  7,4  | STER
   6  7,2  | STERE
+  6  3,8  - STRA
+  6  7,2  | STRAE
+  6  7,2  | STREE
   6  5,7  | TA
+  6  4,7  - TAAR
   6  3,7  - TALA
   6  7,3  | TALE
+  6  3,8  - TARA
+  6  2,7  - TAREA
+  6  7,2  | TARSE
   6  4,10 - TASS
   6  4,7  - TEAR
   6  4,7  - TEAS
@@ -373,28 +585,42 @@
   6  3,7  - TELA
   6  7,3  | TELE
   6  7,2  | TERSE
+  6  4,10 - TESS
   6  7,4  | TREE
   6  7,4  | TRES
   6  4,7  - TSAR
+  6  7,2  | TSERE
   5  5,7  - AAS
   5  5,8  - AAS
+  5  7,5  | AER
+  5  7,5  | AES
+  5  7,5  | AET
   5 10,5  - AL
   5  5,10 | AL
   5 10,3  | ALES
   5  3,10 - ALES
   5 10,3  | ALTS
   5  3,10 - ALTS
+  5  4,8  - ARA
   5  3,7  - AREA
+  5 10,3  | AREST
   5  7,3  | ARSE
+  5  7,3  | ARTE
+  5  4,8  - ASA
+  5  5,10 - ASE
   5  3,7  - ASEA
   5  5,10 - ASS
+  5  3,7  - ASTA
   5  5,7  - EAR
   5  7,3  | EASE
   5  5,7  - EAT
   5  5,8  - EAT
+  5  7,5  | EER
   5 10,5  - EL
   5  5,10 | EL
+  5 10,4  | ELSA
   5  4,8  - ERA
+  5  7,3  | ERSE
   5  5,10 - ESS
   5  4,8  - ETA
   5 10,3  | LARS
@@ -414,22 +640,35 @@
   5 10,4  | LEST
   5 10,3  | LETS
   5  3,10 - LETS
+  5 10,3  | RALS
+  5  3,10 - RALS
   5  5,7  - RAS
   5  5,8  - RAS
+  5  3,7  - RASA
   5  7,3  | RASE
+  5 10,3  | RASSE
   5  5,7  - RAT
   5  5,8  - RAT
+  5  3,7  - RATA
   5  7,3  | RATE
+  5  7,5  | REA
+  5  4,8  - REA
+  5 10,3  | REAST
   5  7,5  | REE
   5  7,5  | RES
   5  7,5  | RET
   5  7,3  | RETE
+  5  4,8  - SAA
   5  5,7  - SAE
   5  5,8  - SAE
   5 10,3  | SALS
   5  3,10 - SALS
+  5  5,7  - SAR
+  5  3,7  - SARA
+  5  7,3  | SARE
   5  5,7  - SAT
   5  5,8  - SAT
+  5  3,7  - SATA
   5  7,3  | SATE
   5  7,5  | SEA
   5  4,8  - SEA
@@ -441,21 +680,28 @@
   5  7,3  | SERE
   5  7,5  | SET
   5  3,7  - SETA
+  5  4,8  - STA
+  5  3,7  - STRA
+  5  7,3  | STRE
+  5  4,8  - TAA
   5  5,7  - TAE
   5  5,8  - TAE
   5  5,7  - TAR
+  5  3,7  - TARA
   5  7,3  | TARE
+  5 10,3  | TARSE
   5  5,7  - TAS
   5  5,8  - TAS
   5 10,3  | TASSE
+  5  8,5  | TC
   5  7,5  | TEA
   5  4,8  - TEA
   5  7,5  | TEE
-  5 10,3  | TELS
-  5  3,10 - TELS
+  5  4,8  - TRA
   5 10,3  | TRASS
   5  7,3  | TREE
   5 10,3  | TRESS
+  5  5,10 - TSS
   4 10,5  - AE
   4  6,7  - AE
   4  6,8  - AE
@@ -476,6 +722,8 @@
   4  6,7  - AS
   4  6,8  - AS
   4  5,10 | AS
+  4 10,4  | ASSE
+  4 10,4  | ASST
   4 10,5  - AT
   4  6,7  - AT
   4  6,8  - AT
@@ -488,6 +736,7 @@
   4 10,3  | EATS
   4  3,10 - EATS
   4  7,6  | EE
+  4  4,7  - ELA
   4 10,4  | ELS
   4  4,10 - ELS
   4  7,8  | EO
@@ -509,18 +758,21 @@
   4  4,10 - LAS
   4  4,7  - LEA
   4  7,4  | LEE
+  4 10,5  | LST
   4 10,4  | RASE
   4 10,3  | RATS
   4  3,10 - RATS
   4 10,4  | REST
   4 10,3  | RETS
   4  3,10 - RETS
+  4  7,4  | RLE
   4 10,3  | SEAS
   4  3,10 - SEAS
   4 10,3  | SERS
   4  3,10 - SERS
   4 10,3  | SETS
   4  3,10 - SETS
+  4  4,7  - SLA
   4  7,8  | SO
   4 10,3  | TARS
   4  3,10 - TARS
@@ -529,15 +781,25 @@
   4  3,10 - TASS
   4 10,3  | TEAS
   4  3,10 - TEAS
+  4 10,3  | TESS
+  4 10,4  | TESS
+  4  3,10 - TESS
   4  7,8  | TO
   4 10,3  | TRES
   4  3,10 - TRES
+  3 10,4  | AES
+  3  4,10 - AES
+  3  4,7  - ARA
   3  7,4  | ARE
   3 10,4  | ARS
   3  4,10 - ARS
+  3  4,7  - ASA
+  3  7,4  | ASE
+  3 10,5  | ASE
   3 10,4  | ASS
   3 10,5  | ASS
   3  4,10 - ASS
+  3 10,5  | AST
   3  7,4  | ATE
   3  4,7  - ERA
   3  7,4  | ERE
@@ -547,22 +809,34 @@
   3 10,4  | ESS
   3 10,5  | ESS
   3  4,10 - ESS
+  3 10,5  | EST
   3  4,7  - ETA
   3  5,7  - LA
   3  5,8  - LA
   3 10,4  | RAS
   3  4,10 - RAS
+  3  4,7  - REA
   3  7,4  | REE
   3 10,4  | RES
   3  4,10 - RES
+  3  7,4  | RTE
+  3  4,7  - SAA
   3  7,4  | SAE
   3  4,7  - SEA
   3  7,4  | SEE
+  3  4,7  - STA
+  3  4,7  - TAA
   3  7,4  | TAE
   3 10,4  | TAS
   3  4,10 - TAS
   3  4,7  - TEA
   3  7,4  | TEE
+  3  4,7  - TRA
+  3 10,4  | TRS
+  3  4,10 - TRS
+  3 10,4  | TSS
+  3 10,5  | TSS
+  3  4,10 - TSS
   2  5,7  - AA
   2  5,8  - AA
   2  7,5  | AE

@@ -1,5 +1,9 @@
  36  7,3  | JEES
  36  7,3  | JOES
+ 33  4,3  | EJOO
+ 33  4,5  | ROOF
+ 32  4,6  | OOF
+ 32  4,6  | ORF
  31  7,2  | JEFES
  31  8,8  | JO
  30  1,10 | JE
@@ -7,17 +11,25 @@
  29  6,5  - JEFES
  28  7,2  | JEERS
  28  6,5  - JEFE
+ 28  6,2  | JOREE
  27  1,11 - REPOSE
  26  6,5  - JEERS
+ 26  6,5  - JOREE
+ 26  7,4  | JOSE
+ 26  8,10 - OUF
+ 26  8,10 - SUF
  25  6,5  - JEER
  25  6,5  - JEES
  25  6,5  - JOES
+ 25  6,5  - JOSE
+ 25  9,10 - UFO
  24  7,3  | FEES
+ 24  7,3  | FERS
  24  7,3  | FOES
+ 24  4,5  | JOSE
  23  6,5  - JEE
  23  6,5  - JOE
  23  2,5  | RAJ
- 23  1,11 - REPOS
  23  1,11 - ROPES
  22  7,2  | FERES
  22  7,2  | FORES
@@ -27,13 +39,18 @@
  22  6,5  - JO
  22  5,8  - ORES
  22  7,2  | REEFS
+ 21  2,6  | ARSENO
  21  1,9  - FER
  21  1,9  - FOR
  21  3,11 - POSER
  21  7,3  | REFS
  20  2,11 - EPOS
+ 20 10,7  | FEIS
  20  1,11 - FOP
  20  6,1  | FORESEE
+ 20 10,7  | FRIS
+ 20  2,5  | JARS
+ 20  4,6  | OFO
  20  2,11 - OPES
  20  3,11 - PEES
  20  3,11 - POSE
@@ -42,52 +59,86 @@
  19  7,3  | EROSE
  19  5,11 - FEE
  19  5,11 - FER
+ 19  7,4  | FRS
+ 19  7,4  | RFS
+ 19  8,4  | SEJERO
  18  7,3  | EROS
  18  4,4  | EROSE
  18  5,11 - FE
+ 18 10,8  | FIR
  18  4,5  | FORE
+ 18  6,1  | FORSEE
+ 18  6,2  | FORSEE
+ 18  7,5  | FS
+ 18  5,11 - FS
  18  1,8  - JOWS
  18  7,3  | ORES
  18  7,3  | REES
  18  7,3  | ROES
  18  4,4  | ROOSE
+ 18  6,7  - SEJERO
+ 18  1,8  - SOWF
+ 17  4,4  | EJOO
+ 17  7,4  | ERSE
+ 17  2,8  | FEN
+ 17  2,8  | FON
  17  4,4  | FROE
  17  1,7  - JEER
  17  1,7  - JEES
  17  6,3  | JEFES
  17  1,10 - JNANAS
+ 17  5,4  | JOVE
+ 17  2,5  | OAFS
+ 17  2,5  | RAFE
  17  7,4  | ROSE
  17  2,5  | SAFE
+ 17  4,1  | SEJERO
+ 17  7,6  | SERT
  17  7,6  | SORT
+ 16  2,6  | ARF
  16  7,4  | ERS
  16  7,5  | ESE
- 16  2,8  - EWES
+ 16  6,2  | FEERE
  16  6,3  | JEFE
  16 11,5  | JEFEs
+ 16 11,6  | JOSsER
  16  7,4  | OES
  16  7,4  | ORS
  16  7,5  | OSE
- 16  2,8  - OWES
  16  3,11 - PEE
  16  3,11 - PES
+ 16  3,11 - POE
  16  3,11 - POS
  16  7,4  | RES
+ 16  7,4  | ROS
+ 16  6,2  | SFREE
+ 16  3,8  - WF
+ 15  2,6  | ARSON
+ 15  8,6  | EJOO
  15  7,5  | ES
+ 15  2,4  | FEARS
+ 15  5,3  | FERV
+ 15  6,5  - FORSEE
+ 15  6,7  - FORSEE
  15 11,7  | JEsSE
  15  1,8  - JOW
+ 15  4,5  | OOSE
  15  5,8  - ORE
  15  7,5  | OS
- 15  1,11 - REPO
  15  8,7  | ROOF
  15  1,11 - ROPE
  15  4,5  | ROSE
  15  7,6  | SO
+ 15  1,11 - SOPE
  15  4,5  | SORE
- 15  3,8  - WOS
+ 15  3,8  - WRO
+ 14  8,8  | EOF
+ 14 10,7  | ERIS
  14  2,5  | FARE
  14  2,5  | FARO
  14  6,5  - FERES
  14  6,7  - FERES
+ 14  4,4  | FOO
  14  6,5  - FORES
  14  6,7  - FORES
  14  6,5  - FREES
@@ -98,9 +149,13 @@
  14  2,5  | JAR
  14  1,7  - JEE
  14  4,5  | JOE
+ 14  6,3  | JOREE
  14  6,8  - OES
+ 14  8,7  | OFO
+ 14  8,8  | OOF
  14  4,6  | ORE
  14  4,6  | OSE
+ 14  9,11 - QRS
  14  6,8  - REE
  14  1,7  - REEF
  14  6,5  - REEFS
@@ -108,12 +163,19 @@
  14 10,7  | REIS
  14  6,8  - RES
  14  4,4  | ROOF
+ 14  8,10 - RUS
+ 14 10,7  | SOIR
  13  2,6  - ABOVES
+ 13  5,11 - EER
  13  5,11 - ESE
+ 13  6,5  - FEER
+ 13  6,7  - FEER
  13  6,5  - FEES
  13  6,7  - FEES
  13  6,5  - FERE
  13  6,7  - FERE
+ 13  6,5  - FERS
+ 13  6,7  - FERS
  13  6,5  - FOES
  13  6,7  - FOES
  13  6,5  - FORE
@@ -128,6 +190,7 @@
  13  6,8  | JESS
  13 11,6  | JESsE
  13  6,4  | JOES
+ 13  6,3  | JOSE
  13  6,5  - REEF
  13  6,7  - REEF
  13  2,7  - REF
@@ -135,6 +198,8 @@
  13  5,11 - SER
  13  6,7  - SERF
  12  5,11 - EE
+ 12  1,9  - EER
+ 12 10,8  | EIR
  12  2,11 - EPE
  12  5,11 - ES
  12  7,11 - ESQ
@@ -148,16 +213,22 @@
  12 11,6  | JOEs
  12 11,6  | JOSs
  12  7,7  | JOT
+ 12 11,7  | JOsE
  12 11,7  | JOsS
+ 12  1,9  - OER
  12  2,11 - OPE
  12  5,8  - OR
+ 12  7,11 - SEQ
  12  1,9  - SER
- 12  5,8  - SO
+ 12 10,8  | SIR
+ 11  2,5  | EARS
  11  2,8  | EEN
+ 11  4,5  | EOF
  11  2,8  | EON
  11 10,8  - FE
  11  6,5  - FEE
  11  6,7  - FEE
+ 11  1,7  - FEER
  11  1,7  - FEES
  11  6,5  - FER
  11  6,7  - FER
@@ -169,15 +240,29 @@
  11  1,7  - FREE
  11  6,5  - FRO
  11  6,7  - FRO
+ 11  6,5  - FRS
+ 11  6,7  - FRS
  11  8,10 - FU
  11  2,5  | JA
  11  6,5  | JE
  11  4,5  | JO
  11  2,5  | OAF
+ 11  2,5  | OARS
+ 11 10,8  - OF
  11  8,9  | OF
+ 11  4,5  | OOF
  11  1,11 - REP
+ 11  2,5  | SARE
+ 11  2,8  | SEN
+ 11  1,11 - SEP
+ 11  6,7  - SFREE
+ 11  6,7  - SOFER
+ 11  2,8  | SON
  11  1,11 - SOP
+ 10  2,6  | AES
  10  2,6  | ARE
+ 10  2,6  | ARO
+ 10  2,6  | ARS
  10  7,8  - EE
  10  1,5  - EF
  10  3,7  - EF
@@ -185,18 +270,31 @@
  10  6,2  | EROSE
  10  6,2  | ERSOE
  10  7,8  - ES
+ 10  6,2  | ESERE
  10  6,5  - FE
  10  6,7  - FE
+ 10  2,3  | FERAE
+ 10 11,6  | FORsEE
+ 10  6,5  - FS
+ 10  6,7  - FS
  10 10,9  | IS
  10  5,9  | KAF
  10  1,5  - OF
  10  4,6  | OF
+ 10  6,5  - OFER
+ 10  6,7  - OFER
+ 10  6,5  - ORFE
+ 10  6,7  - ORFE
+ 10  6,2  | REESE
  10  6,5  - REFS
  10  6,7  - REFS
  10  6,2  | RESEE
+ 10  1,5  - RF
+ 10  2,2  | SEORA
  10  5,3  | SERVE
  10  5,3  | SERVO
  10  2,3  | SOFAR
+ 10  6,2  | SOREE
  10  9,10 - US
   9  4,3  | ERSOE
   9  2,4  | FEAR
@@ -205,27 +303,37 @@
   9 11,7  | FOsSE
   9  2,4  | FRAE
   9  1,8  - ROWS
+  9  5,3  | SERV
   8  6,11 - EF
   8  6,5  - EFS
   8  6,7  - EFS
+  8  6,5  - EOF
+  8  6,7  - EOF
+  8  6,5  - ERF
+  8  6,7  - ERF
   8  4,4  | EROS
   8  6,5  - EROSE
   8  6,7  - EROSE
   8  6,5  - ERSOE
   8  6,7  - ERSOE
   8  2,8  - EWE
+  8  2,5  | FAE
   8  2,5  | FAR
   8  1,7  - FEE
   8  6,3  | FERES
   8  4,5  | FOE
+  8  4,5  | FOO
+  8  8,7  | FOO
   8  4,5  | FOR
   8  6,3  | FORES
   8  6,3  | FREES
   8  8,7  | FRO
   8  6,3  | FROES
+  8  2,8  - FW
   8  4,10 | NE
   8  2,10 | NO
   8  4,10 | NO
+  8  4,4  | OFO
   8  5,8  | OKAS
   8  2,11 - OP
   8  1,7  - ORES
@@ -237,16 +345,29 @@
   8  1,7  - REES
   8  6,5  - REF
   8  6,7  - REF
+  8  5,4  | REVE
   8  5,4  | REVS
+  8  6,5  - RFS
+  8  6,7  - RFS
   8  5,4  | ROVE
   8  1,7  - SEER
+  8  4,4  | SEOR
+  8 10,6  | SERI
+  8  5,4  | SEVE
+  8  6,3  | SFREE
+  8  6,3  | SOFER
+  8  6,7  - SOREE
   8 10,6  | SORI
+  7  2,7  - EER
   7  6,5  - EF
   7  6,7  - EF
   7  6,5  - EROS
   7  6,7  - EROS
   7 11,6  | EROsES
+  7  6,5  - ERSE
+  7  6,7  - ERSE
   7  5,5  | EVE
+  7  6,4  | FEER
   7  6,4  | FEES
   7  6,3  | FERE
   7 11,5  | FEREs
@@ -260,6 +381,8 @@
   7  6,3  | FREE
   7  6,4  | FREE
   7 11,5  | FREEs
+  7 11,5  | FRESs
+  7 11,6  | FREsS
   7  6,3  | FROE
   7 11,5  | FROEs
   7  5,9  | KAE
@@ -267,9 +390,11 @@
   7  6,8  - OE
   7  6,5  - OF
   7  6,7  - OF
+  7  6,4  | OFER
   7  5,8  | OKA
   7  6,5  - ORES
   7  6,7  - ORES
+  7  6,3  | ORFE
   7  6,8  - RE
   7  2,7  - REE
   7  6,4  | REEF
@@ -278,19 +403,23 @@
   7  6,7  - REES
   7  2,7  - RES
   7  5,4  | REV
+  7  6,5  - RF
+  7  6,7  - RF
   7  6,5  - ROES
   7  6,7  - ROES
   7  6,5  - ROSE
   7  6,7  - ROSE
   7  2,7  - SEE
   7  6,7  - SEER
+  7  6,7  - SEOR
   7  2,7  - SER
   7  6,7  - SERE
   7 11,5  | SERFs
+  7  6,7  - SERO
   7  5,4  | SEV
-  7  5,8  | SKA
   7  2,3  | SOFA
   7  6,7  - SORE
+  7  5,4  | SOV
   7  3,8  - WE
   7  3,8  - WO
   6  7,7  | EFT
@@ -299,27 +428,38 @@
   6  6,4  | FEE
   6  6,5  | FEE
   6 11,6  | FEEs
+  6 10,7  | FEI
   6  6,5  | FER
+  6 11,6  | FERs
   6 11,6  | FESs
   6  7,7  | FET
   6 11,7  | FEsS
   6  6,4  | FOE
   6 11,6  | FOEs
   6 11,6  | FOSs
+  6  7,7  | FOT
   6 11,7  | FOsS
+  6  2,4  | FRA
+  6  7,7  | FRT
   6  7,7  | OFT
+  6  2,4  | ORAE
   6  2,4  | OSAR
   6  6,5  | REF
   6 11,6  | REFs
   6  6,5  | RESEES
+  6  1,8  - REW
   6  1,8  - ROW
   6 11,7  | ROsES
   6  2,4  | SEAR
+  6  4,3  | SERO
+  6  8,6  | SERO
   6  1,8  - SEW
   6  2,4  | SOAR
   6  1,8  - SOW
   5  2,5  | EAR
   5  6,11 - EE
+  5  6,5  - EER
+  5  6,7  - EER
   5  6,6  | EF
   5 11,7  | EFs
   5  2,9  | EN
@@ -339,11 +479,15 @@
   5  6,7  - ESE
   5  2,8  - EW
   5 11,8  | EsES
+  5 11,8  | EsSE
   5  2,5  | FA
   5  6,5  | FE
   5 10,8  | FI
+  5 11,7  | FRs
   5  2,5  | OAR
   5 10,8  - OE
+  5  6,5  - OER
+  5  6,7  - OER
   5  6,5  - OES
   5  6,7  - OES
   5  2,9  | ON
@@ -359,21 +503,36 @@
   5  6,7  - OSE
   5  2,8  - OW
   5 11,8  | OsES
+  5 11,8  | OsSE
   5  6,5  - REE
   5  1,7  - REE
   5  6,7  - REE
   5  6,5  - RES
   5  6,7  - RES
   5  6,3  | RESEE
+  5 11,7  | RFs
   5  4,5  | ROE
   5  6,5  - ROE
   5  6,7  - ROE
+  5  4,4  | ROO
+  5  4,5  | ROO
+  5  8,7  | ROO
+  5  4,5  | ROS
+  5  6,5  - ROS
+  5  6,7  - ROS
   5  2,5  | SAE
+  5  2,5  | SAO
+  5  2,5  | SAR
   5  1,7  - SEE
   5  6,7  - SEE
   5  6,7  - SER
+  5 11,5  | SEROsE
   5 10,8  - SO
   5  6,11 - SO
+  5  4,5  | SOE
+  5  6,7  - SOE
+  5  6,3  | SOREE
+  5  2,8  - SW
   4  2,6  | AE
   4  2,6  | AR
   4  6,5  - EE
@@ -388,10 +547,12 @@
   4  3,7  - ER
   4  6,7  - ER
   4 11,6  | EROsE
+  4  6,3  | ERSE
   4 11,5  | ERSEs
   4  6,5  - ES
   4  3,7  - ES
   4  6,7  - ES
+  4 11,8  | Fs
   4  6,5  - OE
   4  4,6  | OE
   4  6,7  - OE
@@ -409,6 +570,7 @@
   4  6,7  - RE
   4  6,4  | REES
   4  6,4  | ROES
+  4  2,3  | ROSA
   4  6,3  | ROSE
   4 11,5  | ROSEs
   4  6,4  | SEER
@@ -423,14 +585,20 @@
   4 11,5  | SOREs
   4 11,9  | sEE
   4 11,9  | sER
+  4 11,9  | sOE
   4 11,9  | sOS
+  3  6,5  | EER
   3  2,4  | ERA
   3  6,4  | ERE
   3 11,6  | EROs
+  3 11,7  | ERsE
   3  6,4  | ESE
   3  6,9  | ESE
   3 11,6  | ESEs
   3  6,9  | ESS
+  3  7,7  | EST
+  3 11,7  | ESsE
+  3  6,5  | OER
   3  6,5  | OES
   3  6,8  | OES
   3  2,4  | ORA
@@ -439,6 +607,8 @@
   3  7,7  | ORT
   3  6,4  | OSE
   3 11,6  | OSEs
+  3 11,7  | OSsE
+  3  2,4  | REA
   3  6,4  | REE
   3  6,5  | REE
   3 11,6  | REEs
@@ -447,8 +617,11 @@
   3  7,7  | RET
   3  6,4  | ROE
   3 11,6  | ROEs
+  3 10,7  | ROI
+  3 11,6  | ROSs
   3  7,7  | ROT
   3 11,7  | ROsE
+  3 11,7  | ROsS
   3  2,4  | SEA
   3  6,4  | SEE
   3  6,5  | SEE
@@ -457,6 +630,7 @@
   3  6,5  | SER
   3 11,6  | SERs
   3  7,7  | SET
+  3  6,4  | SOE
   3  7,7  | SOT
   3 10,7  | SRI
   2  6,5  | EE
@@ -478,6 +652,7 @@
   2 11,8  | OsE
   2  6,5  | RE
   2 11,7  | REs
+  2 11,7  | ROs
   2 10,8  | SI
   2  4,5  | SO
   2 11,7  | SOs

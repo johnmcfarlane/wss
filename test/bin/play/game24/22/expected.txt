@@ -1,8 +1,14 @@
  45  1,12 - ECHES
  44  8,12 | EPOS
  44  8,12 | OPES
+ 42  8,11 | SOCE
+ 42  8,11 | SOPE
  40  8,11 | SEC
+ 40  8,11 | SEP
+ 40  8,11 | SOC
  40  8,11 | SOP
+ 35  8,13 | CPS
+ 35  1,6  | WIPE
  33  4,1  | COPSE
  32  8,13 | CIS
  32  8,13 | COS
@@ -10,76 +16,109 @@
  32  8,13 | PIS
  32  8,13 | POS
  32  4,2  - SWEEP
+ 31  8,12 | ECO
+ 31  8,12 | EPI
  31 10,7  | EPICS
+ 31  1,6  | EW
  31  8,12 | OPE
  31  8,12 | OPS
+ 31  8,12 | SCI
+ 31 10,7  | SPICE
  30  4,1  | CEPS
  30  4,1  | COPS
  30  4,1  | COWS
  30 10,7  | EPIC
- 30  4,1  | PECS
  30  4,1  | PEWS
  30  4,1  | PICS
  30  3,14 - PILIS
  30  3,14 - POLIS
  30  4,1  | POWS
+ 30 10,7  | SPEC
+ 30 10,7  | SPEW
+ 30 10,7  | SPIC
  30  5,2  - WEEP
+ 30  4,1  | WIPS
  30  4,1  | WOPS
+ 29  2,14 - CP
  29  8,12 | OP
+ 29  8,11 | SW
+ 28  3,2  | CORP
+ 28 11,1  | LSC
  28 11,5  | SEPIC
  27  1,14 - CEP
  27  1,14 - COP
  27  1,12 - ECHE
- 27 13,1  | SCOPE
- 27 13,1  | SEPIC
- 27 13,1  | SPICE
- 27 13,1  | SWIPE
- 25 13,1  | SCOP
- 25 13,1  | SCOW
- 25 13,1  | SPEC
- 25 13,1  | SPEW
- 25 13,1  | SPIC
- 25 13,1  | SWOP
+ 27  4,3  - OWES
+ 26  3,3  | CRPE
+ 26  1,7  | OPE
+ 25  3,2  | CORSIE
+ 25 10,8  | PECOS
+ 25  3,2  | PERSIO
  24  8,8  - ASPICS
- 24 10,8  | PECS
+ 24  4,1  | COSSE
+ 24  3,6  | COW
  24 10,8  | PEWS
  24 10,8  | PICE
+ 24 10,8  | PICO
  24 10,8  | PICS
  24  3,14 - PILI
  24  4,1  | POISE
  24  4,1  | POSSE
  24 10,8  | POWS
  24  5,2  - SEEP
+ 24  1,14 - SEP
  24  1,14 - SIP
  24  1,14 - SOP
- 23  2,14 - IP
+ 24  4,1  | SOWSE
+ 24  4,1  | SPISE
+ 24  5,3  - WES
+ 24  5,3  - WIS
+ 24  4,1  | WISSE
+ 24  5,3  - WOS
+ 23  8,13 | CP
+ 23  3,3  | IRPE
  23  2,14 - OP
- 23 10,8  | PEC
+ 23  4,3  - OWE
  23 10,8  | PEW
  23 10,8  | PIC
  23 10,8  | POW
+ 23 10,8  | PSW
  22  8,8  - ASPIC
  22  7,12 - EPICS
+ 22  7,12 - ESPEC
+ 22  4,3  - EW
  22  9,3  - MYOPIC
- 22  8,12 | OSE
+ 22  4,3  - OW
  22 11,5  | SCOPE
+ 22 10,7  | SEPIC
  22 10,8  | SEPIC
  22 11,5  | SPICE
  22 11,5  | SWIPE
  21  5,2  - CEES
  21  4,1  | CESS
+ 21  6,5  - CHANDI
+ 21  4,1  | COES
  21  4,1  | COSS
+ 21  1,14 - CPO
+ 21  1,14 - CPS
+ 21  1,14 - CWO
  21  4,1  | EPOS
  21 10,7  | EPOS
  21  4,1  | ICES
+ 21  4,1  | IOCS
+ 21 10,7  | IPSE
+ 21 10,7  | IPSO
  21  4,1  | OPES
  21  4,1  | OWES
  21  5,2  - PEES
+ 21  4,1  | PESS
  21  4,1  | PIES
  21  4,1  | PISS
  21  4,1  | POIS
+ 21  4,1  | POSS
  21  4,1  | PSIS
  21  4,1  | SECS
+ 21  4,1  | SEPS
  21  4,1  | SEWS
  21  4,1  | SICS
  21  4,1  | SIPS
@@ -88,16 +127,18 @@
  21  5,2  - WEES
  21  4,1  | WISS
  21  4,1  | WOES
+ 20  8,8  - ASSOCIE
  20  1,8  - CAPE
  20  1,8  - CAPO
  20  1,8  - CAPS
  20  1,8  - CAWS
+ 20  2,12 | CP
+ 20  1,13 - CPS
  20  7,12 - EPIC
- 20  8,12 | ES
  20  3,12 - HES
  20  5,9  | JOGS
- 20  8,12 | OS
  20  1,8  - PACE
+ 20  1,8  - PACO
  20  1,8  - PACS
  20  1,8  - PAWS
  20  8,13 | PE
@@ -107,73 +148,122 @@
  20 11,5  | SCOW
  20 11,5  | SICE
  20 11,5  | SIPE
+ 20 11,5  | SOCE
+ 20 11,5  | SOPE
  20 11,5  | SPEC
  20 11,5  | SPEW
  20 11,5  | SPIC
+ 20 11,5  | SWEP
  20 11,5  | SWOP
+ 20  1,8  - WACE
+ 20  1,8  - WACO
+ 20  1,8  - WACS
  20  1,8  - WAPS
  20  1,8  - WASP
+ 20  5,3  - WE
+ 20  5,3  - WO
+ 19  2,12 | COEF
+ 19  2,12 | COIF
  19  3,2  | CORSE
  19 12,1  | EPICS
+ 19  7,5  - HANDSPEC
+ 19  9,3  - MYCOSE
+ 19  1,7  | OP
+ 19  1,6  | PI
  19 10,8  | PISCO
+ 19  1,6  | PO
  19 11,5  | SEC
+ 19 11,5  | SEP
  19 11,5  | SEW
  19 11,5  | SIC
- 19 13,1  | SICE
  19 11,5  | SIP
- 19 13,1  | SIPE
+ 19 11,5  | SOC
  19 11,5  | SOP
  19 11,5  | SOW
+ 19  2,12 | SPIF
+ 19  1,6  | WO
  19  3,2  | WORSE
+ 18 10,2  - APOISE
+ 18  3,6  | CIE
+ 18  3,6  | CIS
+ 18  3,6  | COE
+ 18  3,6  | COS
+ 18  1,14 - ECO
+ 18 10,7  | EPI
  18 12,1  | EPIC
- 18 13,1  | SEC
- 18 13,1  | SEW
- 18 13,1  | SIC
+ 18  7,5  - HANDSEW
+ 18  4,3  - IOCS
+ 18 10,7  | IPS
+ 18  1,14 - IPS
+ 18  1,14 - OPS
+ 18 10,8  | PSEC
  18 10,8  | SICE
- 18 13,1  | SIP
  18 10,8  | SIPE
- 18 13,1  | SOP
- 18 13,1  | SOW
+ 18 10,8  | SOCE
+ 18 10,8  | SOPE
+ 17 10,8  | ESC
+ 17 10,8  | ESP
+ 17  1,13 - IPS
  17  9,3  - MYOPIES
  17  1,13 - OPS
+ 17  2,14 - PO
  17 10,8  | SEC
+ 17 10,8  | SEP
  17 10,8  | SEW
  17 10,8  | SIC
  17 10,8  | SIP
  17  8,11 | SO
+ 17 10,8  | SOC
  17 10,8  | SOP
  17 10,8  | SOW
+ 17  2,14 - WO
+ 16 10,2  - APES
+ 16 10,2  - APSE
  16  8,8  - ASPIS
+ 16  8,8  - ASSOC
  16  5,2  - CEE
- 16  3,2  | CORS
+ 16  1,14 - CP
  16 12,2  - EPIC
- 16  9,3  - MYCS
+ 16 10,8  | EPICS
  16  9,3  - MYOPES
+ 16 12,2  - OPEC
+ 16  2,13 | PCF
  16  1,8  | PE
  16  5,2  - PEE
+ 16  3,2  | PERS
  16  1,8  | PO
  16 10,8  | POISE
  16  5,3  | PYIC
  16  6,1  | REC
  16  6,1  | REP
+ 16  6,1  | REW
  16  6,1  | ROC
  16  6,1  | ROW
+ 16 11,5  | SCI
  16 12,2  - SCOP
  16 10,8  | SCOPE
  16 12,2  - SCOW
+ 16  2,12 | SOWF
  16 12,2  - SPEC
  16 12,2  - SPEW
  16 12,2  - SPIC
  16 10,8  | SPICE
+ 16 12,2  - SWEP
  16 10,8  | SWIPE
  16 12,2  - SWOP
+ 16  1,7  - WB
  16  5,2  - WEE
+ 16 12,2  - WICE
  16 12,2  - WIPE
+ 16 12,2  - WIPS
  16 12,2  - WISP
  16 12,2  - WOPS
  16  6,13 - ZAPS
  15  1,14 - CIS
  15  1,14 - COS
+ 15 10,8  | EPIC
+ 15 10,7  | ESC
+ 15 10,7  | ESP
  15  3,7  | EW
  15  9,3  - MYC
  15  5,3  - OPS
@@ -182,22 +272,28 @@
  15 10,8  | PESO
  15 10,8  | PIES
  15  1,14 - PIS
+ 15 10,8  | PISE
  15 10,8  | PISO
  15 10,8  | POIS
  15  1,14 - POS
  15 10,8  | POSE
  15 10,8  | SCOP
  15 10,8  | SCOW
- 15 13,1  | SEI
+ 15 10,7  | SEC
+ 15 10,7  | SEP
+ 15 10,7  | SEW
  15 10,8  | SPEC
  15 10,8  | SPEW
  15 10,8  | SPIC
+ 15 10,8  | SWEP
  15 10,8  | SWOP
  15  8,7  - WEEPS
+ 15  1,14 - WES
  15  1,14 - WIS
  15  1,14 - WOS
  15  6,13 - ZAC
  15  6,13 - ZAP
+ 14 10,2  - APE
  14  1,8  - CASE
  14  1,13 - CIS
  14  3,1  | COIRS
@@ -205,47 +301,76 @@
  14  7,12 - EPOS
  14  7,12 - EWES
  14  9,3  - MYOPE
+ 14  9,3  - MYOPS
+ 14  1,8  - PAIS
  14  1,8  - PASE
+ 14  1,8  - PASI
+ 14  1,8  - PASO
  14 10,8  | PES
  14  1,13 - PES
  14 10,8  | PIE
  14  3,1  | PIERS
  14 10,8  | PIS
  14  1,13 - PIS
+ 14 10,8  | POE
  14 10,8  | POI
  14 10,8  | POS
  14  1,13 - POS
  14 10,8  | PSI
- 14 13,1  | SI
- 14  8,13 | SI
- 14 13,1  | SO
- 14  8,13 | SO
+ 14  1,8  - SACO
+ 14  1,8  - SAIC
+ 14  1,8  - SAIP
+ 14  1,8  - SAPO
+ 14 11,5  | SW
+ 14  2,12 | SW
  14  1,8  - WAES
+ 14  1,8  - WASE
  14  8,7  - WEEP
  14  3,1  | WEIRS
+ 14  1,13 - WES
  14  1,13 - WIS
  14  1,13 - WOS
+ 13  2,13 | CIF
+ 13  1,6  | EO
  13 12,2  - EPOS
  13  8,14 | ES
+ 13 12,1  | ESPEC
+ 13  1,14 - EW
+ 13  1,6  | IO
  13  8,14 | IS
  13  5,14 - LISP
+ 13  1,14 - OP
  13 12,2  - OPES
  13  8,14 | OS
+ 13  1,14 - OW
  13 12,2  - OWES
  13 12,2  - OWSE
+ 13  2,13 | PSF
+ 13  3,2  | PWR
  13 11,5  | SEI
  13  2,12 | SEIF
+ 13 11,5  | SIE
+ 13 11,5  | SOE
+ 13  1,14 - SW
  13  2,6  - TOPCoATS
  13 12,2  - WISE
  13 12,2  - WOES
  12  2,8  - ACE
  12  2,8  - APE
- 12  2,8  - APO
  12  2,8  - ASP
  12  2,8  - AWE
+ 12  3,11 - DIGITISE
+ 12 12,2  - ECO
+ 12  7,12 - ECO
  12  7,12 - EPE
+ 12 12,2  - EPI
+ 12  7,12 - EPI
+ 12 10,8  | EPOS
+ 12  7,12 - ESC
+ 12  7,12 - ESP
  12  7,12 - EWE
  12  5,2  | ICY
+ 12 10,7  | ISE
  12  5,3  - OES
  12  3,6  | OES
  12  1,14 - OES
@@ -253,18 +378,30 @@
  12 12,2  - OPS
  12  4,1  | OSES
  12 12,2  - OWE
+ 12 12,2  - SCI
+ 12 10,7  | SEI
  12  4,1  | SEIS
  12  3,14 - SOLI
  12  5,2  | SPY
+ 12  5,2  | SWY
+ 12  6,8  - TWAS
+ 12 12,2  - WEI
+ 12 12,2  - WES
  12 12,2  - WIS
  12 12,2  - WOE
  12 12,2  - WOS
- 12  6,13 - ZAS
+ 12  7,8  | WT
+ 11  3,1  | COPR
+ 11  3,3  | CRS
+ 11 10,8  | ECO
  11  2,14 - EO
+ 11 10,8  | EPI
  11 10,7  | ES
  11  2,14 - ES
  11 12,2  - EW
  11  2,15 - FINITES
+ 11  2,14 - IO
+ 11 10,7  | IS
  11  2,14 - IS
  11  1,13 - OES
  11 12,2  - OP
@@ -272,44 +409,70 @@
  11  2,14 - OS
  11 12,2  - OW
  11  5,3  - OW
+ 11  3,1  | OWER
  11 10,8  | PE
  11 10,8  | PI
  11 10,8  | PO
- 11  6,1  - ROUILLES
+ 11  3,3  | PRS
+ 11 10,8  | SCI
  11 11,5  | SI
  11 11,5  | SO
+ 11 12,2  - SW
  11 12,2  - WE
  11 12,2  - WO
+ 11  5,3  | WY
+ 10  3,2  | CIR
  10  3,2  | COR
  10  4,3  - EO
  10  2,13 - ES
  10  7,12 - EW
+ 10  4,3  - IO
  10  2,13 - IS
+ 10  5,14 - LISE
+ 10 12,2  - OECI
  10  2,13 - OS
  10  1,14 - PE
  10  3,2  | PER
  10  1,14 - PI
  10  3,2  | PIR
  10  1,14 - PO
+ 10  3,2  | POR
  10  6,1  | RES
  10  6,1  | ROE
+ 10  6,1  | ROI
+ 10  6,1  | ROS
+ 10  2,13 | SCF
  10  5,2  - SEE
  10 12,2  - SICE
  10 12,2  - SIPE
+ 10 12,2  - SOCE
+ 10 12,2  - SOPE
  10  1,14 - WE
+ 10  3,2  | WER
+ 10  3,2  | WIR
  10  4,2  | WISP
  10  1,14 - WO
+  9  2,7  - BEC
+  9  2,7  - BOC
   9  2,7  - BOP
   9  2,7  - BOW
+  9  2,7  - BPI
+  9  2,7  - BPS
   9  1,8  - CAP
   9  1,8  - CAW
   9  5,2  | COY
+  9  4,2  | CPS
+  9  4,3  | CSP
+  9  4,3  | CSW
   9  3,11 - DIGITS
   9  3,6  | EO
   9 12,1  | EPOS
   9  3,7  | ES
+  9 12,2  - ESC
+  9 12,2  - ESP
   9 12,1  | EWES
   9  7,5  - HANDS
+  9  3,6  | IO
   9  3,7  | IS
   9  5,14 - LIS
   9  1,7  - OBES
@@ -319,108 +482,175 @@
   9  3,6  | OI
   9  3,7  | OI
   9  3,7  | OS
+  9 12,2  - OSC
   9  1,8  - PAC
   9  1,8  - PAW
   9  3,14 | PI
+  9  5,2  | POY
+  9  1,1  | PSIG
+  9  4,3  | PSW
+  9  1,1  | SCOG
   9 12,2  - SEC
+  9 12,2  - SEP
+  9  1,1  | SEPG
   9 12,2  - SEW
   9 12,2  - SIC
   9 12,2  - SIP
+  9 12,2  - SOC
   9 12,2  - SOP
   9 12,2  - SOW
+  9  1,1  | SPIG
   9  1,1  | SWIG
   9  7,11 | TEASE
+  9  1,8  - WAC
   9  1,8  - WAP
-  8 10,2  - AIS
+  9  5,2  | WEY
+  8  2,14 | CF
+  8  2,12 - CHE
   8  1,2  | CIG
   8  1,2  | COG
   8  3,1  | COIR
   8  6,2  - EE
   8  3,3  | ERS
+  8 10,8  | EW
+  8  1,7  - IBO
+  8  3,3  | IRS
   8  1,7  - OBE
   8  1,7  - OBI
+  8  1,7  - OBS
   8  5,3  - OE
   8  5,3  - OI
   8  3,3  | ORS
   8  5,3  - OS
   8  1,2  | PEG
+  8  2,14 | PF
   8  3,1  | PIER
   8  1,2  | PIG
   8  6,1  | RE
   8 10,8  | SEI
   8  2,12 | SI
+  8 10,8  | SIE
   8  2,12 | SO
+  8 10,8  | SOE
+  8 10,8  | SW
   8  8,7  - WEEI
   8  8,7  - WEES
   8  3,1  | WEIR
+  8  8,7  - WESE
+  8  2,14 | WF
   8  1,2  | WIG
   8  1,2  | WOG
   7  8,8  - ASCI
+  7  8,8  - ASOP
   7  8,8  - ASPS
   7  4,2  | CESS
+  7  1,3  | CG
+  7  4,2  | CISE
+  7  4,2  | COSE
   7  4,2  | COSS
   7  3,10 | EDHS
+  7  4,14 - ELI
+  7  4,14 | EN
   7  1,14 - EO
+  7  2,13 | EOF
   7  8,4  - FEES
+  7  1,7  - IB
+  7  1,14 - IO
+  7  2,13 | IOF
+  7  3,2  | IPR
+  7  4,2  | IPSE
   7  4,2  | IPSO
+  7  1,7  - OB
   7  1,14 - OE
   7  1,14 - OI
   7  4,2  | OWSE
   7  4,2  | PESO
+  7  4,2  | PESS
+  7  1,3  | PG
+  7  4,2  | PISE
   7  4,2  | PISO
   7  4,2  | PISS
   7  4,2  | POSE
+  7  4,2  | POSS
+  7  3,2  | SCR
   7  1,14 - SI
   7  1,14 - SO
+  7  1,3  | WG
   7  4,2  | WISE
   7  4,2  | WISS
+  6  2,8  - AES
   6  2,8  - AIS
+  6  2,8  - ASE
   6  8,8  - ASP
   6  2,7  - BIO
   6  2,7  - BIS
+  6  2,7  - BOE
   6  2,7  - BOS
+  6  1,8  - CAI
   6  4,2  | CIS
   6  4,2  | COS
+  6  4,3  | CSI
+  6  1,6  - CTE
+  6  1,6  - CTO
+  6  1,6  - CTS
+  6 12,1  | ECO
   6  3,3  - EO
   6 12,1  | EPE
+  6 12,1  | EPI
+  6 12,1  | ESC
+  6  4,3  | ESC
   6  7,12 - ESE
+  6 12,1  | ESP
+  6  4,3  | ESP
   6  7,8  | ET
+  6  1,6  - ETC
   6 12,1  | EWE
+  6  4,2  | IPS
   6  3,3  - OE
   6 12,2  - OES
   6  3,3  - OI
   6  4,2  | OPS
+  6  4,3  | OSC
   6 12,2  - OSE
+  6  1,6  - OTC
   6  1,8  - PAS
   6  4,2  | PES
   6  4,2  | PIS
   6  4,2  | POS
   6  4,3  | PSI
+  6  1,6  - PTE
+  6  1,6  - PTS
   6  1,8  - SAC
   6  1,8  - SAP
   6  1,8  - SAW
   6 12,2  - SEI
+  6 12,2  - SIE
+  6 12,2  - SOE
   6  5,2  | SOY
+  6  4,3  | SSP
   6  6,8  - TEAS
   6  1,8  - WAE
   6  1,8  - WAS
   6  8,7  - WEE
+  6  8,7  - WEI
+  6  4,2  | WES
+  6  8,7  - WES
   6  4,2  | WIS
   6  4,2  | WOS
-  5 10,2  - AI
   5  2,8  - AW
   5  2,7  - BE
   5  2,7  - BI
   5  2,7  - BO
   5  2,14 | EF
   5 12,2  - EO
+  5 10,8  | EO
   5  7,2  - ES
   5 12,2  - ES
   5  6,3  - ES
+  5 10,8  | ES
   5 12,1  | EW
   5  2,14 | IF
   5  6,3  - IS
-  5 11,1  | LI
   5 12,2  - OE
   5  2,14 | OF
   5 12,2  - OI
@@ -428,34 +658,55 @@
   5  6,3  - OS
   5  5,3  | OY
   5  1,8  - PA
+  5  1,6  - PT
   5  1,2  | SEG
+  5  3,1  | SEOR
   5  2,12 - SHE
   5 12,2  - SI
   5 10,8  | SI
+  5  3,1  | SIER
+  5  1,2  | SIG
   5 12,2  - SO
   5 10,8  | SO
+  5  1,2  | SOG
+  5  3,1  | SOIR
+  5  4,4  | SW
+  5  2,6  - TC
   5  8,1  | US
+  5  1,6  - WT
+  4  8,8  - ASSE
+  4  8,8  - ASSI
   4  7,12 - EE
+  4  3,2  | EIR
   4  7,12 - EO
   4  1,9  - ER
   4  7,12 - ES
+  4  3,2  | OER
   4  1,9  - OR
+  4  4,2  | OSSE
   4  3,2  | SER
   4  3,2  | SIR
+  4  4,2  | SISE
   4  4,10 | TIES
+  3  8,8  - ASE
   3  8,8  - ASS
   3 12,1  | ESE
   3  4,2  | ESS
   3  4,3  | ESS
+  3  1,8  - IAO
+  3  4,3  | ISE
   3  1,6  - ITS
   3  7,1  | OES
   3  4,2  | OES
   3  3,14 | OI
   3  4,3  | OSE
   3  1,8  - SAE
+  3  1,8  - SAI
+  3  1,8  - SAO
   3  3,14 | SI
   3  4,2  | SIS
   3  4,2  | SOS
+  3  4,3  | SSI
   2  2,8  - AE
   2  2,8  - AI
   2  2,8  - AS

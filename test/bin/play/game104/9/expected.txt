@@ -1,37 +1,66 @@
  53  6,2  | JE
+ 48  6,1  | JEED
  37  6,1  | JEE
+ 35  3,3  - JUDEX
+ 34  6,1  | ENED
+ 32  6,2  | NED
+ 32  6,1  | NEED
+ 30  3,2  - EJIDO
  30  4,2  - JUDO
+ 30  4,2  - JUNO
  28  5,2  - JEON
+ 27  5,3  | JUDE
+ 27  5,3  | JUNE
  26  6,1  | JE
  24  6,2  - JOE
  23  6,1  | IDE
  22  4,3  - JEUX
  22  4,3  - JINX
  22  6,2  - JO
+ 22  5,1  | JUNDIE
  21  6,2  | DE
  21  6,1  | DEE
+ 21  6,1  | DIE
  21  6,2  | NE
  21  6,1  | NEE
+ 20  5,5  | JUD
+ 19  6,3  | ED
  19  5,4  | JEED
+ 19  5,2  | NEJDI
  17  6,2  | EE
  17  3,3  - INDEX
+ 17  2,7  - NEJDI
+ 16  1,6  - EIDENT
  16  5,4  | JEU
  16  5,9  | ZED
  16  5,9  | ZEN
- 16  5,9  | ZIN
- 15  7,8  | ETIC
+ 15  3,6  - JUNT
+ 15  5,4  | UJI
+ 15  4,3  - UNIX
  15  5,9  | ZEE
+ 14  3,2  - DEINO
+ 14  4,3  - DEUX
+ 14  5,3  - DUX
+ 14  2,6  - IDENT
  14  5,4  | JEE
  14  5,2  - UDON
  14  6,1  | UN
  14  4,2  - UNDO
  13  5,3  - DEX
+ 13  5,3  | ENEID
  13 11,8  | ESNE
  13  8,1  | JE
  13  5,5  | JE
+ 13  4,6  - JNT
  13  4,6  - JUT
  13  5,3  - NIX
+ 13  4,7  - UJI
+ 13 11,8  | USEE
+ 12  6,10 - DEE
+ 12  6,10 - DEI
+ 12  6,10 - DIE
  12  4,2  - DINO
+ 12  5,2  - DION
  12  9,10 - EAU
  12  6,1  | ED
  12  6,1  | EN
@@ -42,39 +71,59 @@
  12  4,6  - JET
  12  5,2  | NUDIE
  12  5,2  | UNDEE
+ 12  4,2  - UNIO
  11  5,3  | DUNE
+ 11  5,4  | ENED
+ 11  5,4  | ENID
+ 11  5,5  | IUD
  11  5,4  | NEED
  11  5,3  | NUDE
  11  5,3  | UNDE
  10  6,1  | DE
  10  5,3  | DENE
- 10  5,3  | DENI
+ 10  6,1  | DI
  10  5,2  | DIENE
  10  5,3  | DINE
  10  6,2  - DON
  10  5,2  - DUO
+ 10  4,2  - IDEO
  10  6,1  | NE
  10  5,5  | NED
+ 10  5,5  | NID
  10  5,3  | NIDE
+ 10  5,3  | NIUE
  10  6,2  - NOD
+ 10  6,2  - NOU
  10  5,2  - UDO
+ 10  5,3  | UNIE
+  9 10,8  - BU
+  9  6,10 - DE
   9  6,10 - DI
+  9  5,3  | ENDE
   9  6,3  - EX
+  9  5,3  | INDE
   9  6,8  - MU
+  9  7,9  | TEC
   9  7,9  | TIC
+  9 11,8  | US
   9  7,8  | UT
-  8  3,7  - DENI
   8  6,2  - DOE
   8  5,6  | ED
+  8  5,2  - EDO
   8  6,1  | EE
   8  5,3  | EIDE
   8  6,2  - EON
   8  5,6  | ID
   8  5,3  | IDEE
+  8  5,2  - INO
   8  6,2  - ION
+  8  6,2  - IOU
+  8  5,2  - NEO
   8  3,7  - NIDI
   7 10,8  - BE
   7 10,8  - BI
+  7  6,4  - DOP
+  7  5,5  | DU
   7  5,4  | DUE
   7  5,4  | DUI
   7  3,6  - DUNT
@@ -85,8 +134,11 @@
   7  6,8  - ME
   7  6,8  - MI
   7  5,5  | NU
+  7  5,4  | UDI
   7  8,1  | UN
+  7  5,4  | UNI
   6  5,4  | DEE
+  6  5,4  | DEI
   6  3,6  - DENT
   6  5,4  | DIE
   6  3,6  - DINT
@@ -99,12 +151,14 @@
   6  5,4  | IDE
   6  8,1  | IN
   6  5,4  | NEE
+  6  5,4  | NEI
+  6  3,6  - NEUT
   6  6,2  - NO
   6  3,6  - UNIT
   5 10,10 - AE
+  5 10,10 - AI
   5  8,1  | DE
   5  5,5  | DE
-  5  3,6  - DEET
   5  8,1  | DI
   5  5,5  | DI
   5  3,6  - DIET
@@ -112,14 +166,24 @@
   5  3,6  - EDIT
   5  8,1  | NE
   5  5,5  | NE
+  5  3,6  - NEET
   5  4,6  - NUT
   5 11,9  | SEE
+  5 11,9  | SIE
+  5  4,7  - UDI
+  5  4,7  - UNI
+  4  4,7  - DEI
+  4  4,6  - DET
   4  4,6  - DIT
   4  8,1  | EE
   4  5,5  | EE
   4  6,2  - EO
+  4  4,6  - INT
+  4  6,2  - IO
+  4  4,7  - NEI
   4  4,6  - NET
   4  4,6  - NIT
+  4  4,6  - UIT
   3  5,7  - DI
   3  7,2  - OD
   3  7,2  - ON
@@ -129,4 +193,5 @@
   2  5,6  - IT
   2  7,2  - OE
   2  7,2  - OI
+  2  8,9  | hEE
   2  8,9  | hIE

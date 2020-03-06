@@ -1,72 +1,148 @@
+ 21  8,5  - EJAM
+ 21  8,5  | EW
  19 10,10 - EL
+ 18 10,8  | OBLI
+ 16 10,9  | BUL
+ 16 10,8  | EBOE
  16 10,10 - EE
+ 16 10,8  | OBL
  16 10,10 - OE
  16 10,10 - OI
  14 10,9  | BEL
- 14  7,7  - EEK
+ 14 10,9  | BLO
+ 14 10,9  | BOL
+ 14  6,2  | ELEUT
  14  6,5  | ETOILE
+ 14  3,5  - LIEUE
+ 14  6,2  | LIEUT
  14 10,8  | OBE
  14 10,8  | OBI
- 14  7,8  - OLE
  13  3,5  - LOUIE
  13  3,7  - LOUIE
+ 13 10,1  | LUE
+ 13 10,1  | LUI
+ 13 10,1  | LUO
+ 13 10,1  | ULE
  12 10,9  | BEE
  12 10,9  | BIO
+ 12 10,9  | BOE
+ 12 10,9  | BU
+ 12  6,2  | ELIOT
+ 12  6,2  | OELET
+ 12  6,6  | TELEI
  12  6,6  | TELOI
  12  6,6  | TOILE
+ 11 10,1  | ELI
+ 11 10,1  | ILE
  11 10,1  | LEE
  11 10,1  | LEI
+ 11 10,1  | LEO
  11 10,1  | LIE
  11  3,5  - LIEU
+ 11 10,1  | LOE
+ 11  6,10 - LUO
  11 10,1  | OLE
+ 11 10,1  | OUI
+ 11  7,3  - ULOID
  10 10,9  | BE
  10 10,9  | BI
  10 10,9  | BO
+ 10  2,5  - LIEUE
+ 10  2,7  - LIEUE
  10  2,5  - LOUIE
  10  2,7  - LOUIE
+ 10  5,5  - LUE
+ 10  5,5  - LUI
+ 10  5,5  - LUO
  10  7,3  - OILED
+  9 11,9  | AUL
   9  5,5  - EEL
-  9 10,2  | LI
+  9  9,8  - EL
+  9 10,8  | LB
+  9  6,10 - LEO
   9 10,2  | LO
+  9  7,8  - LOE
   9  5,5  - OIL
+  9  5,5  - OUI
   9  8,8  | OiL
   8 11,9  | AIL
   8  6,5  - EL
+  8  8,3  - ELOD
+  8  3,5  - EOLE
+  8  3,7  - EOLE
   8  5,5  - LEE
   8  5,7  - LEE
+  8  5,5  - LEI
   8  5,7  - LEI
+  8  5,5  - LEO
+  8  5,7  - LEO
   8  4,5  - LEU
   8  8,3  - LEUD
   8  5,5  - LIE
   8  5,7  - LIE
+  8  5,7  - LOE
+  8  4,5  - LOU
   8  8,3  - LOUD
+  8  9,3  - LUD
+  8  8,3  - OLID
   8  6,4  | OUTLIE
   7 10,2  | EE
+  7  8,3  - EILD
   7  6,3  | ELUTE
   7 10,2  | EO
+  7  9,8  - EO
+  7 10,2  | IO
+  7  4,5  - IOU
+  7 10,4  - LA
+  7 10,4  | LAI
   7  9,3  - LED
+  7  8,3  - LEED
   7  9,3  - LID
   7  8,3  - LIED
+  7  9,3  - LOD
+  7  8,3  - LOED
   7  8,3  - LOID
+  7  5,5  - LU
+  7  4,5  - LUE
+  7  4,7  - LUE
+  7  4,5  - LUI
+  7  4,7  - LUI
+  7  6,3  | LUITE
+  7  4,7  - LUO
+  7  6,4  | LUTEO
+  7 10,8  | OB
   7 10,2  | OE
   7  8,8  - OE
   7 10,2  | OI
   7  8,8  | Oi
+  7  4,5  - ULE
+  7  4,7  - ULE
   7  6,5  | UTILE
   6 11,9  | ALE
+  6 11,9  | ALO
   6  6,5  - EE
   6  6,7  - EE
   6  9,3  - ELD
+  6  4,5  - ELI
+  6  4,7  - ELI
   6  6,3  | ELITE
   6  6,5  - EO
   6  6,7  - EO
+  6  4,5  - ILE
+  6  4,7  - ILE
+  6  6,5  - IO
+  6  6,7  - IO
+  6  9,3  - IUD
   6  4,5  - LEE
   6  4,7  - LEE
   6  4,5  - LEI
   6  4,7  - LEI
+  6  4,7  - LEO
   6  4,5  - LIE
   6  4,7  - LIE
   6  6,4  | LITU
+  6  4,5  - LOE
+  6  4,7  - LOE
   6  7,4  | LOOIE
   6  6,3  | LOUT
   6  6,4  | LUTE
@@ -78,26 +154,44 @@
   6  7,3  | OLEO
   6  7,3  | OLIO
   6  9,3  - OUD
+  6  4,5  - OUI
+  6  4,7  - OUI
   6  6,6  | TOLU
   6  6,6  | TULE
+  6  6,4  | ULTO
+  6  6,5  | UTIL
+  5  7,5  | EOLE
   5  6,5  | ETUI
+  5  6,3  | ILOT
   5  6,3  | LEET
-  5  5,5  - LI
-  5  5,7  - LI
   5  6,4  | LITE
   5  5,7  - LO
-  5  6,4  | LOTI
+  5  7,5  | LOU
+  5  7,4  | LUO
+  5  6,4  | LUT
   5  6,6  | TEEL
+  5  6,6  | TEIL
   5  6,6  | TELE
+  5  6,6  | TELI
   5  6,6  | TILE
+  5  6,6  | TIOU
   5  6,6  | TOIL
   5  6,6  | TOLE
+  5  6,4  | ULT
   4 11,8  | EAU
   4  5,5  - EE
   4  5,7  - EE
+  4  6,4  | ELT
   4  5,7  - EO
+  4  5,7  - IO
+  4  7,5  | IOU
+  4 11,8  | LAI
+  4 11,8  | LAO
+  4  7,4  | LEO
   4  6,4  | LET
   4  6,4  | LIT
+  4  7,10 - LO
+  4  7,5  | LOE
   4  7,4  | LOO
   4  7,5  | LOO
   4  6,4  | LOT
@@ -107,25 +201,40 @@
   4  5,7  - OI
   4  7,6  | OIL
   4  7,6  | OLE
+  4  7,6  | OUI
   4  6,4  | OUT
   4  6,6  | TEL
   4  6,6  | TIL
+  4  6,6  | TIU
+  4  6,6  | TLO
+  4  6,6  | TOL
+  4  6,6  | TOU
+  4  6,6  | TUE
   4  6,6  | TUI
+  4  6,4  | UIT
   4  6,5  | UTE
+  4  6,5  | UTI
   3 11,9  | AL
   3 10,3  - ED
+  3  7,10 - EO
+  3 11,8  | IAO
   3 10,3  - ID
+  3  7,10 - IO
   3 11,8  | LA
   3  7,5  | LO
   3 10,3  - OD
   3  6,6  | TEE
   3  6,6  | TIE
   3  6,6  | TOE
+  3  6,6  | TOI
   3  6,5  | UT
+  3  8,9  | iLE
+  3  8,9  | iOU
   2 11,9  | AE
   2 11,9  | AI
   2  7,5  | EO
   2  6,5  | ET
+  2  7,5  | IO
   2  6,5  | IT
   2  7,6  | OE
   2  7,6  | OI
@@ -134,3 +243,4 @@
   2  6,6  | TE
   2  6,6  | TI
   2  6,6  | TO
+  1  8,9  | iO

@@ -1,144 +1,293 @@
+ 57  3,8  | SPIV
+ 56  3,5  | JASP
+ 54  3,8  | SPIC
+ 52  3,9  | CIV
+ 51  3,5  | JAD
+ 49  3,9  | CPS
+ 49  3,9  | CSP
+ 49  3,9  | PIC
+ 47  3,5  | JAI
  45 10,2  | DIP
+ 43  3,9  | CID
  42  3,5  | JA
  42  3,5  - JE
  41 10,2  | SIP
+ 40  3,9  | CIS
+ 40  3,9  | CSI
+ 40  3,9  | PIS
+ 40  3,9  | PSI
  39 11,3  | SPIV
+ 37  8,4  - JUV
  36 10,2  | DIS
  36  9,3  - QIS
  36  4,10 - SPIV
  35 11,3  | SPIC
+ 35  5,3  - VIP
+ 35 11,3  | VIPS
+ 34  8,4  - JUD
  34  4,10 - SPIC
+ 34  1,10 - SVC
+ 34  4,10 - SVC
+ 33  5,3  - CSP
  33  6,8  - DIPSO
  33  8,4  - JUS
+ 32  2,10 - CPS
  32 11,3  | PICS
+ 31  3,6  | ADJ
+ 31  6,3  - CP
  31 10,2  | DI
  31  7,8  - IPSO
  30  3,5  | DAPS
  30  2,10 - DISC
+ 30  2,10 - DISP
  30  3,5  | PADS
+ 30  3,10 - PSID
+ 29  5,3  - DIP
  29 11,3  | DISC
- 29 11,3  | VIDS
+ 29 11,3  | DISP
+ 29  5,3  - DSP
+ 29  9,9  | SIC
+ 29  9,9  | SIP
+ 28  3,5  | PAID
  28  2,10 - VIS
+ 27  5,3  - CPS
  27  3,5  | DAP
+ 27  6,3  - DP
  27  3,5  | PAD
+ 27 11,3  | PSID
  27 10,2  | SI
+ 27  5,3  - SIP
+ 27  5,8  | SPIV
  26  2,10 - CIS
+ 26  8,6  | CSP
  26 11,3  | DIPS
+ 26  8,4  | DSP
+ 26  2,10 - IPS
+ 26  3,5  | PAIS
+ 26  3,5  | PASI
  26  2,10 - PIS
+ 26  1,10 - SCI
+ 26  4,10 - SCI
  26  1,10 - SIC
  26  4,10 - SIC
  26  1,10 - SIP
  26  4,10 - SIP
+ 26  5,8  | SPIC
  25  8,5  | DISC
+ 25  8,5  | DISP
  25  7,8  - PISO
+ 24  8,4  - CUJ
  24  9,8  - DOC
+ 24  9,8  - DOP
  24  6,6  | SPIVS
  24  6,10 - SPIVS
+ 24  8,7  | SVC
+ 23  8,6  | CPS
+ 23 11,6  | CSP
+ 23  3,10 - CSP
+ 23  8,4  | DP
+ 23  3,8  | DP
+ 23  5,8  | DP
  23  3,5  | PAS
+ 23  5,9  | PIC
+ 23  9,9  | SID
+ 23  9,8  - SOV
  23  8,7  | SPIV
+ 23 11,5  | SVC
+ 23  5,3  - VIS
+ 22  3,9  | CP
  22  8,5  | DIPS
  22  2,10 - DIS
  22  2,10 - IDS
- 22 10,3  | IP
+ 22  3,8  | IPS
+ 22  5,8  | IPS
+ 22  3,8  | SCI
+ 22  1,10 - SID
+ 22  4,10 - SID
+ 22  9,8  - SOC
  22  9,8  - SOP
  22  8,7  | SPIC
  22  6,6  | SPICS
  22  6,10 - SPICS
+ 21  5,3  - CIS
+ 21  6,4  - DIVUS
  21  9,8  - DOS
+ 21  3,10 - DSP
+ 21  5,3  - IPS
+ 21  5,3  - PIS
+ 21  6,4  - VICUS
+ 20  8,6  | CP
+ 20 11,7  | CP
+ 20  3,10 - CSI
  20  9,8  - DO
- 20  5,8  | PICS
+ 20  3,9  | PD
+ 20  5,9  | PD
+ 20  6,4  - PICUS
+ 20  5,9  | PIS
+ 20  5,9  | PSI
  20  3,10 - PSI
  20  9,8  - SOD
+ 20 11,4  | VIPS
  20  9,1  | rEQUIrED
+ 19  3,6  | ADP
+ 19  5,3  - CP
+ 19  7,4  - CPUS
  19  8,4  - CUPS
  19  8,4  - CUSP
+ 19  3,5  - DEP
  19  8,5  | DIP
- 19  5,8  | PIC
+ 19  3,7  - DOC
+ 19  8,7  | DP
+ 19 11,6  | DSP
+ 19  3,9  | PI
+ 19  5,9  | PI
  19 11,4  | PICS
  19  8,7  | PICS
+ 19  8,6  | PSID
  19  7,4  - SCUP
  18  5,3  | CIST
  18  3,9  - CLIPS
+ 18 11,5  | CPS
+ 18  7,4  - CPU
  18  8,4  - CUP
+ 18  3,5  | DAIS
+ 18  3,5  | DASI
+ 18  6,4  - DIPUS
  18  6,10 - DISCS
  18  3,5  | PA
  18  3,5  - PE
  18  8,7  | PIC
+ 18  5,3  | PIST
+ 18  8,7  | SCI
  18  7,4  - SCUDI
  18  1,10 - SI
  18  9,8  - SO
+ 18  3,7  - SODIC
  18  9,1  | rEQUIrES
+ 17  3,9  - CLIV
+ 17  8,6  | CSI
+ 17 11,6  | CSI
  17  8,4  - CUDS
  17 11,4  | DIPS
- 17  9,10 | IP
+ 17  5,3  - DIS
+ 17 11,4  | DISC
+ 17  4,5  - EPIC
+ 17  5,3  - IDS
+ 17  8,6  | IPS
+ 17  3,8  - JOSIP
+ 17  8,7  | PD
  17  8,5  | PIS
+ 17  8,6  | PSI
  17 11,6  | PSI
+ 17  8,7  | PSID
  17  8,4  - PUDS
+ 17 11,6  | SCI
  17  7,4  - SCUD
  17  8,5  | SIP
  17  7,4  - SPUD
- 17  8,4  - VU
+ 16 11,4  | CIV
  16  3,9  - CLIP
  16  8,4  - CUD
- 16  5,8  | DIPS
- 16  5,8  | DISC
+ 16 11,7  | DP
+ 16  3,4  | IDA
  16 10,3  | IS
  16  3,10 - IS
- 16  5,8  | PIS
+ 16  8,6  | PD
+ 16 11,6  | PD
  16  8,4  - PUD
  16  4,10 - SI
- 16 11,4  | VIDS
+ 16  8,4  - SUJI
+ 16  9,1  - rIV
  15  3,6  | ASP
- 15  5,8  | DIP
+ 15  3,5  | DAS
  15  8,7  | DIPS
  15  8,7  | DISC
- 15 11,10 | IP
- 15  5,8  | PI
+ 15  8,7  | DISP
+ 15  8,7  | DIV
+ 15  5,3  - DP
+ 15 11,5  | IPS
+ 15  8,3  - IQS
+ 15  5,3  - PD
  15  8,7  | PIS
  15  8,7  | PSI
  15  8,4  - PUS
+ 15  3,7  - SOC
+ 15 11,4  | SVC
+ 15  5,6  | TPD
+ 15 11,4  | VIC
+ 15 11,4  | VIP
+ 15  3,9  - VLSI
  14  6,2  - AIDED
  14  4,4  | BEFOOLS
+ 14 11,4  | CSP
  14  8,7  | DIP
+ 14  5,3  | DIST
+ 14 11,4  | DIV
+ 14  8,5  | DP
+ 14  8,7  | DSP
  14  1,2  | GAMESTERS
- 14  8,6  | IP
  14  5,3  | PI
  14  8,7  | PI
  14 11,4  | PIC
  13  3,6  | ADS
+ 13  3,8  - COVID
+ 13 11,5  | CP
+ 13  3,5  - DEI
  13  8,5  | DIS
  13  8,4  - DUCI
+ 13  8,4  - DUCS
  13  8,4  - DUPS
+ 13  4,5  - EPI
  13  8,6  | IDS
- 13  5,3  - IP
+ 13  6,3  - IS
  13  4,9  - LISP
- 13  5,8  | SIC
- 13  5,8  | SIP
+ 13  4,7  - ODIC
+ 13  5,3  - PI
+ 13  8,5  | SID
  13  5,6  | TIP
+ 13  5,6  | TPI
+ 13  5,6  | TPS
+ 13  5,6  | TSP
+ 13  9,4  - UJI
  13  7,1  | YIPS
+ 13  9,1  - rIC
  13  9,1  - rIP
  12  6,2  - AIDES
+ 12  3,9  - CLI
  12 11,4  | DIP
- 12  5,8  | DIS
+ 12 11,4  | DSP
+ 12  8,4  - DUC
  12  8,4  - DUP
  12  1,2  - GIDS
+ 12  4,9  - LCD
  12  8,5  | PI
+ 12  3,9  - PLI
  12  8,7  | SIC
  12  8,7  | SIP
+ 12  5,5  | STID
  12  7,1  | YIP
- 11  5,8  | DI
+ 11  3,6  | AID
+ 11  3,8  - COPIS
+ 11 11,4  | CPS
  11  8,7  | DIS
+ 11 11,5  | DP
  11  2,6  | HID
  11  9,10 | ID
  11 11,5  | IDS
  11  3,8  - JO
  11  9,3  - QI
+ 11  9,9  | SI
  11 11,4  | SIC
  11 11,4  | SIP
+ 11  3,7  - SOD
  11  6,6  | SPIV
- 11 11,4  | VID
+ 11  7,10 - VIPS
  10  3,6  | AD
+ 10  4,4  - BCD
+ 10 11,4  | CID
+ 10  3,9  - CL
  10  3,8  - COPS
+ 10  8,9  - CSW
  10  3,5  | DA
  10  3,5  - DE
  10  5,3  | DI
@@ -146,17 +295,36 @@
  10 11,7  | DI
  10  3,7  - DO
  10  8,6  | ID
- 10 11,5  | IP
- 10  5,9  | IP
+ 10  5,4  | IST
  10  4,9  - LIPS
+ 10  4,9  - LP
  10  7,10 - PICS
+ 10  7,7  - PIEND
+ 10  7,4  - PIUS
+ 10  3,9  - PL
+ 10  7,7  - PSEND
+ 10  8,9  - PSW
+ 10  8,6  - PrEV
  10  7,7  - SCEND
+ 10  8,7  | SID
  10  3,9  - SLIP
  10  7,7  - SPEND
  10  6,6  | SPIC
+ 10  8,4  - SUCI
+ 10  6,6  | SVC
  10  8,7  - VEND
+ 10  3,8  - VOC
  10  3,8  - VOIDS
+ 10  9,1  - rCD
+  9  3,6  | AIS
+  9  4,4  - BPI
+  9  4,4  - BPS
   9  3,8  - COP
+  9  6,4  | CPS
+  9  8,10 - CPS
+  9  6,5  | CSP
+  9  9,10 - CSP
+  9  5,3  - DI
   9  6,4  | DISCS
   9  8,4  - DUI
   9  3,1  | ED
@@ -164,14 +332,17 @@
   9  2,6  | HIS
   9  5,3  - ID
   9 11,10 | ID
-  9  5,9  | IDS
-  9  6,1  | LAVS
+  9  4,9  - LIV
+  9  4,8  - OVID
+  9 11,5  | PD
   9  8,7  - PEND
   9  7,4  - PIU
-  9  5,8  | SI
+  9  8,6  - PrEC
+  9  2,5  | SHI
   9  3,8  - SODIC
+  9  5,5  | STD
   9  8,4  - SUP
-  9  7,10 - VIDS
+  9  5,6  | TID
   9 11,4  | VIS
   9  3,8  - VOID
   8  4,4  - BIDS
@@ -181,32 +352,51 @@
   8  7,10 - DIPS
   8  6,4  | DISC
   8  8,10 - DISC
+  8  6,4  | DISP
+  8  8,10 - DISP
   8  3,8  - DOCS
-  8  5,9  | ID
+  8  8,4  - DU
+  8 11,4  | IPS
   8  8,6  | IS
   8  9,10 | IS
+  8  8,4  - IUDS
   8  6,1  | LACS
   8  6,1  | LAIC
   8  6,1  | LAPS
   8  6,1  | LAV
   8  4,9  - LIDS
   8  4,9  - LIP
+  8  4,9  - LSC
   8  4,8  - ODIC
+  8  4,8  - OVIS
   8  8,7  - PENS
+  8  7,7  - PIEN
   8 11,4  | PIS
   8  3,8  - PODS
+  8  6,5  | PSID
   8  5,3  | SI
   8  8,7  | SI
   8 11,7  | SI
+  8  3,9  - SLD
   8  3,9  - SLID
+  8  8,4  - SUID
+  8  6,4  | VISS
+  8  7,10 - VISS
+  8  8,10 - VISS
+  8  3,8  - VOD
+  7  4,4  - BDS
   7  4,4  - BID
   7  3,8  - COD
-  7  8,6  - CrED
   7  3,8  - DOC
-  7  6,5  - IP
-  7  6,7  - IP
+  7  3,8  - DOP
+  7  6,5  | DSP
+  7  9,10 - DSP
+  7  9,7  - ENC
+  7  3,1  | ES
+  7  1,2  - GIS
+  7  3,8  - IOCS
   7  5,3  - IS
-  7  5,9  | IS
+  7  8,4  - IUD
   7  6,1  | LAC
   7  6,1  | LAP
   7  8,7  - PEN
@@ -217,21 +407,35 @@
   7  3,8  - POIS
   7  6,5  | PSIS
   7  7,10 - PSIS
+  7  8,6  - PrED
+  7  5,3  - SI
   7  6,6  | SICS
   7  7,10 - SICS
+  7 11,4  | SID
   7  6,6  | SIPS
   7  7,10 - SIPS
+  7  3,8  - SOV
+  7  8,4  - SUD
   7  5,6  | TIS
   7  9,4  - UPS
+  7  7,5  - VII
   7  6,4  | VIS
   7  8,10 - VIS
+  7  6,4  | VSS
+  7  6,5  | VSS
+  7  8,10 - VSS
+  7  9,10 - VSS
   7  9,1  - rID
+  6  3,6  | AI
   6  3,6  | AS
   6  4,4  - BIS
   6  6,4  | CIS
   6  8,10 - CIS
   6  3,8  - COS
-  6  8,7  - DENI
+  6  6,5  | CSI
+  6  7,5  - CSI
+  6  9,10 - CSI
+  6  8,6  - CrES
   6  8,7  - DENS
   6 11,4  | DIS
   6  1,8  - EIDOS
@@ -239,12 +443,17 @@
   6  2,6  | HI
   6 11,5  | ID
   6 11,4  | IDS
+  6  3,7  - IO
+  6  6,4  | IPS
+  6  8,10 - IPS
   6 11,10 | IS
   6  6,1  | LADS
   6  6,1  | LAID
   6  4,9  - LID
   6  4,9  - LSD
+  6  4,7  - OD
   6  4,8  - OPS
+  6  4,8  - OSC
   6  6,4  | PIS
   6  8,10 - PIS
   6  3,8  - POI
@@ -252,30 +461,47 @@
   6  6,5  | PSI
   6  7,5  - PSI
   6  9,10 - PSI
+  6  8,6  - PrES
+  6  7,5  - SCI
+  6  6,6  | SCI
   6  8,7  - SEND
   6  2,5  | SH
   6  8,5  | SI
   6  6,6  | SIC
   6  6,6  | SIP
   6  3,7  - SO
+  6  3,8  - SOC
   6  3,8  - SOP
+  6  6,5  | SSP
+  6  6,6  | SSP
+  6  9,10 - SSP
+  6  8,4  - SUI
+  6  9,9  - SW
+  6  5,6  | TD
   6  1,7  - TI
   6  9,4  - UP
+  6  7,1  | YIS
   6  9,6  - rEV
   5  4,4  - BI
+  5  8,6  - CrE
   5  8,7  - DEN
   5  6,4  | DISS
   5  7,10 - DISS
   5  8,10 - DISS
   5  9,7  - END
+  5  3,4  - IB
   5  6,5  - ID
   5  6,7  - ID
   5  6,1  | LAD
+  5  6,1  | LASI
   5  4,9  - LIS
   5  4,8  - OP
   5 10,8  - OP
   5  8,5  - PI
   5  3,8  - PO
+  5  8,6  - PrE
+  5  9,4  - UDI
+  5  9,4  - UDS
   5  9,6  - rEC
   5  9,6  - rEP
   4  6,4  | DIS
@@ -288,11 +514,15 @@
   4 11,5  | IS
   4  6,7  - IS
   4  8,6  - IrED
+  4  6,1  | LAI
   4  6,1  | LAS
-  4  4,9  - LI
   4  4,8  - ODS
   4  4,7  - OI
+  4  6,4  | SDS
+  4  6,6  | SDS
+  4  8,10 - SDS
   4  8,7  - SEN
+  4  6,6  | SID
   4  3,8  - SOD
   4  5,6  | TI
   3  4,1  | AD
@@ -305,11 +535,15 @@
   3  6,4  | SIS
   3  6,6  | SIS
   3  8,10 - SIS
+  3  6,5  | SSI
+  3  6,6  | SSI
+  3  9,10 - SSI
   3  9,4  - US
   3  9,6  - rED
   2  4,1  | AI
   2  4,1  | AS
   2  1,8  - ES
+  2  3,8  - IO
   2  6,5  | IS
   2  9,10 - IS
   2  8,6  - IrE

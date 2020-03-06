@@ -2,23 +2,31 @@
  45 11,1  | WAREd
  41  9,10 - NAW
  39 11,1  | RAXEd
+ 36  5,4  - AREW
+ 35  6,4  - REW
+ 34  7,4  - EW
  33 10,8  | AZO
+ 33 10,9  | ZEA
  33 10,9  | ZEE
  33 10,9  | ZOA
  32  9,10 - NAE
+ 32  9,10 - NAR
  32 10,2  | WAXEN
  30 11,2  | AXEd
- 30 11,2  | EXEd
  30  1,9  | KEX
  29  7,11 - REDOX
  28  9,10 - NA
+ 28  8,11 - ODAX
  28 10,9  | ZA
  27  9,11 - DEX
  27 11,1  | REWEd
  27 11,1  | ROWEd
+ 27 11,3  | XEd
+ 26  5,7  | OXEA
+ 26 10,2  | REXEN
  26  1,11 - XES
  23  5,7  | AXE
- 20  2,6  - AIX
+ 23 10,2  | ROWENA
  18 11,2  | AWEd
  18 11,1  | EAREd
  18 11,1  | OAREd
@@ -29,46 +37,75 @@
  18 11,2  | WARd
  18 11,2  | WEEd
  18  4,4  - WERE
+ 18 10,2  | WEREN
  18 11,2  | WOAd
  18  4,4  - WORE
  18 11,2  | WORd
+ 18  8,4  | WUP
  18  2,6  - XI
+ 16  6,10 - SAWN
+ 16  6,10 - SEWN
+ 16  6,10 - SOWN
+ 15 11,3  | AWd
  15  9,11 - DAW
  15  9,11 - DEW
  15  9,11 - DOW
+ 15 11,3  | OWd
+ 15 11,3  | RWd
+ 15  1,11 - WASE
  15 11,3  | WAd
  15  1,6  | WEAKER
+ 15  1,11 - WESE
  15 11,3  | WEd
+ 15 11,3  | WOd
+ 14  8,3  | RAUPO
  14  1,4  | REAWOKE
+ 14  1,11 - RESEX
  14  3,5  - VEX
  14  3,5  - VOX
  14  1,6  - WAIR
  14  1,7  | WAKER
  14  1,11 - WAS
  14  1,6  - WEIR
+ 14  1,11 - WES
  14  1,11 - WOS
  13  5,4  - AXE
  13  3,8  - OORIE
  13  1,5  | REWAKE
  13  1,5  | REWOKE
+ 13  8,4  | RUPA
+ 13  4,9  | SOW
  13  6,10 - SWAN
+ 13  8,3  | WAUP
  13 10,4  - WE
  13 10,4  - WO
- 12  5,8  - AIX
  12  4,4  - AWEE
+ 12  1,5  | AWEEK
  12  1,6  | AWOKE
+ 12  1,5  | AWORK
  12  8,8  | EF
  12  8,8  - EL
+ 12 11,9  | EXR
+ 12  7,3  | EXTA
+ 12  8,9  | FAE
  12  8,9  | FEE
  12  8,9  | FOE
+ 12  2,9  | IAO
  12 10,3  | OXEN
  12  1,5  - WAVER
+ 12  1,6  - WEI
+ 12  2,6  - WIR
  12  1,5  | WREAK
+ 12  1,6  | WROKE
  11  7,2  | AORTAE
  11  2,5  - AVOW
  11  4,7  | ERS
+ 11  7,11 - EWDER
  11  7,10 | OX
+ 11 11,7  | OXEA
+ 11 11,7  | OXER
  11  1,7  | RAKEE
+ 11  1,7  | ROKEE
  11  7,11 - WADER
  11  1,7  | WAKE
  11  1,6  | WARK
@@ -76,104 +113,171 @@
  11  1,6  | WEAK
  11  1,6  | WEEK
  11  1,7  | WEKA
+ 11 10,4  | WENE
+ 11  7,3  | WETA
+ 11  1,5  - WEVE
+ 11  5,7  - WHA
  11  5,7  - WHO
+ 11  5,7  - WHR
+ 11  5,8  - WIR
+ 11  1,6  | WOAK
  11  1,7  | WOKE
  11  1,6  | WORK
  11  1,5  - WOVE
+ 11  7,11 - XED
  10  2,6  | AE
  10  1,8  | AKEE
+ 10  1,8  | AKER
+ 10  1,8  | AKRE
+ 10  2,7  - ARX
+ 10  1,7  | AWK
  10 11,7  | AXE
+ 10  1,8  | EKER
+ 10  1,7  - EXR
  10  8,7  - OD
  10  2,6  | OE
+ 10  1,8  | OKEE
+ 10  1,8  | OKER
  10  1,8  | OKRA
+ 10  1,11 - OWSER
  10  1,11 - RESAW
  10  1,11 - RESEW
  10  1,11 - RESOW
  10 11,8  | REX
  10  8,3  | ROUP
  10  3,11 - SAX
+ 10  6,10 - SEAN
  10  6,10 - SEEN
  10  3,11 - SEX
  10  3,11 - SOX
+ 10  7,5  | TARO
  10  8,5  | UPO
  10  3,5  - VAW
  10  3,5  - VOW
+ 10  7,10 | WE
+ 10  7,10 | WO
  10  1,7  | WOK
-  9 10,3  | ARENE
+  9  1,5  | AREEK
+  9 11,2  | AREd
   9  5,4  - AWE
+  9  1,5  - EAVER
   9  5,4  - EWE
   9 11,9  | EX
   9  1,9  | KAE
   9  1,9  | KEA
+  9  1,9  | KER
   9  1,9  | KOA
   9  1,9  | KOR
+  9  1,9  | KRA
+  9  4,4  - ORAE
   9 11,2  | ORAd
+  9 11,2  | OREd
   9  5,4  - OWE
   9  1,11 - OWSE
   9 11,2  | REAd
   9 11,2  | REEd
   9 11,2  | ROAd
+  9 11,2  | ROEd
   9  5,4  - WAE
   9 11,8  | WEAR
   9  5,4  - WEE
   9 11,8  | WEER
   9 11,8  | WERE
   9  5,4  - WOE
+  8  5,7  - AHO
   8  8,10 - AN
   8  1,5  - ARVO
+  8  7,4  | ATAR
   8  2,5  - AVER
   8  1,5  - EAVE
   8  8,10 - EN
+  8  1,6  - ERIA
+  8  1,6  - ERIE
+  8  1,7  | ERKE
   8  4,8  | ES
+  8  2,5  - EVEA
   8  2,5  - EVER
+  8  2,5  - EVOE
   8 11,9  | EWE
   8  8,9  | FA
   8  8,9  | FE
+  8  2,9  | IO
   8  3,8  - OE
+  8  2,10 - OI
   8  3,8  - OO
   8  4,8  | OS
   8  2,5  - OVER
+  8 10,3  | OWEN
   8  1,7  | RAKE
   8  1,5  - RAVE
+  8  1,6  | REAK
   8  1,6  | REEK
+  8 10,4  | RENO
+  8  1,5  - REVE
+  8  5,7  - RHA
+  8  5,7  - RHE
   8  5,7  - RHO
+  8  1,6  | ROAK
+  8  1,7  | ROKA
+  8  1,7  | ROKE
   8  1,5  - ROVE
   8  7,11 - WADE
   8  6,4  - WE
+  8  7,11 - WEDE
   8 10,3  | WEEN
+  8  7,11 - WODE
   8 10,3  | WREN
+  7  8,11 - ADOR
+  7  1,8  | AKE
+  7  1,8  | AKO
+  7 11,7  | AREW
   7  1,7  | ARK
   7  2,5  - AVE
   7  2,5  - AVO
+  7  7,11 - AWD
   7 11,7  | AWEE
   7  1,11 - EASER
+  7  8,11 - EDEA
   7 10,4  - EE
-  7  1,7  | EEK
   7  1,8  | EKE
   7 10,4  - EO
+  7  1,7  | ERK
   7  1,11 - ERSOE
+  7  2,5  - EVA
   7  2,5  - EVE
   7 11,7  | EWER
+  7  6,7  - HA
   7  6,7  - HE
   7  6,7  - HO
+  7  6,7  - HR
   7  1,7  | OAK
   7  8,11 - ODEA
   7  1,8  | OKA
   7  1,8  | OKE
   7  2,5  - OVA
   7  7,10 | OW
+  7  7,11 - OWD
+  7 11,7  | OWER
+  7 10,4  - RE
   7  1,5  - REV
+  7  1,7  | ROK
+  7  7,11 - RWD
+  7  7,5  | TAA
   7  7,5  | TAE
   7  7,5  | TAO
+  7  7,5  | TAR
   7  3,5  - VAR
   7  3,5  - VEE
+  7  3,5  - VER
   7  3,5  - VOE
   7  7,11 - WAD
+  7 11,7  | WAER
   7  1,7  - WARE
   7  7,11 - WED
   7 11,7  | WEER
   7 10,4  | WEN
   7  1,7  - WERE
+  7  7,11 - WOD
   7  1,7  - WORE
   6 11,8  | AERO
   6  2,6  - AIR
@@ -181,40 +285,65 @@
   6  5,4  - ARE
   6  1,11 - ARSE
   6 11,7  | AWE
+  6  9,11 - DAE
+  6  9,11 - DAO
+  6  9,11 - DAR
+  6  9,11 - DEA
   6  9,11 - DEE
+  6  9,11 - DER
+  6  9,11 - DOA
   6  9,11 - DOE
   6  9,11 - DOR
   6  1,11 - EASE
+  6 11,3  | EAd
+  6  2,6  - EIR
   6  5,4  - ERE
+  6  1,11 - ERSE
   6 11,7  | EWE
   6  1,9  | KA
   6 11,3  | OAd
+  6  4,6  | OE
   6  5,4  - ORE
+  6 11,3  | ORd
   6 11,7  | OWE
-  6  1,6  - RAI
   6  1,11 - RASE
   6 11,3  | RAd
   6  7,2  | REATA
   6  5,4  - REE
+  6 11,8  | REW
   6 11,3  | REd
   6  2,6  - RIA
+  6  2,6  - RIE
+  6  2,6  - RIO
   6  5,4  - ROE
+  6  1,6  - ROI
+  6  1,11 - ROSA
   6  1,11 - ROSE
   6 11,3  | ROd
   6  3,11 - SAW
   6  3,11 - SEW
   6  3,11 - SOW
+  6  3,11 - SWA
   6 11,7  | WAE
   6  1,7  - WAR
+  6 11,8  | WEA
   6 11,7  | WEE
   6 11,8  | WEE
+  6  1,7  - WER
+  6 11,8  | WER
   6 11,7  | WOE
+  6  2,7  - WRO
   5  6,4  - AE
+  5  1,11 - AES
   5  5,8  - AIR
+  5 10,3  | AREN
   5  1,11 - ARS
   5  5,9  | EAR
   5 11,9  | EAR
   5  6,4  - EE
+  5  5,9  | EER
+  5 11,9  | EER
+  5  5,8  - EIR
   5 11,9  | ERA
   5 11,9  | ERE
   5  1,11 - ERS
@@ -225,13 +354,20 @@
   5  1,11 - ORS
   5  5,10 - OSE
   5  1,11 - RAS
+  5  7,3  | RATA
   5  6,4  - RE
   5  7,11 - REDE
   5  7,11 - REDO
+  5 10,3  | REEN
   5  1,11 - RES
   5  5,8  - RIA
+  5  5,8  - RIE
+  5  5,8  - RIO
   5  7,11 - RODE
+  5  1,11 - ROS
   5  7,3  | ROTA
+  5  6,10 - SW
+  5  3,11 - SW
   5 11,8  | WE
   4  8,11 - ADO
   4  5,8  | AE
@@ -239,11 +375,15 @@
   4  5,7  - AH
   4  2,6  - AI
   4  5,8  - AI
+  4  2,11 - ASOR
+  4  7,11 - EAD
+  4  8,11 - EDO
   4  5,9  | EE
   4 10,4  | EEN
   4  5,7  - EH
   4  5,9  | EO
   4  5,10 - ES
+  4  3,10 - IO
   4  7,11 - OAD
   4  8,11 - ODA
   4  8,11 - ODE
@@ -255,21 +395,33 @@
   4  5,8  - OI
   4  2,8  - OO
   4  7,10 | OR
+  4  7,11 - ORD
   4  1,7  - ORRA
   4  5,10 - OS
   4  2,11 - OSAR
   4  7,11 - RAD
   4  1,7  - RARE
   4  7,11 - RED
+  4 10,4  | REN
   4  7,11 - ROD
+  4  4,9  | SO
   3  8,11 - AD
+  3  1,7  - AER
+  3 11,8  | AER
+  3  1,7  - AOR
   3  2,7  - ARE
   3 11,7  | ARE
+  3  2,7  - ARO
+  3  1,7  - ARR
+  3  2,7  - ARR
+  3  2,11 - ASE
   3  9,11 - DA
   3  9,11 - DE
   3  9,11 - DO
   3  1,7  - EAR
   3  8,11 - ED
+  3  1,7  - EER
+  3 11,8  | EER
   3  2,7  - ERA
   3  2,7  - ERE
   3 11,7  | ERE
@@ -279,17 +431,23 @@
   3  7,4  | ETA
   3  1,7  - OAR
   3  8,11 - OD
+  3  1,7  - OER
+  3 11,8  | OER
   3  2,7  - ORA
   3  2,7  - ORE
   3 11,7  | ORE
   3  2,11 - OSE
+  3 11,8  | REA
   3 11,7  | REE
   3 11,8  | REE
   3 11,7  | ROE
   3  3,11 - SAE
+  3  3,11 - SAO
+  3  3,11 - SAR
   3  3,11 - SEA
   3  3,11 - SEE
   3  3,11 - SER
+  3  3,11 - SOE
   2 11,8  | AE
   2  2,7  - AR
   2  2,11 - AS
@@ -299,6 +457,8 @@
   2  2,7  - ER
   2 11,9  | ER
   2  2,11 - ES
+  2  3,6  - IO
+  2  6,8  - IO
   2 11,8  | OE
   2  2,7  - OR
   2  2,11 - OS

@@ -1,26 +1,62 @@
  35  9,1  - COQ
  35  4,4  - QATS
+ 34 10,6  | DOSAGE
+ 34 10,6  | DOTAGE
+ 32  4,7  | IQS
+ 30 10,6  | DOGATE
  28  2,6  | STAGS
+ 28  2,6  | STOGA
  27  3,7  | WASTS
+ 26 10,1  | GOLA
  26  5,2  - QAT
  26  2,5  | QATS
+ 26  1,8  - QATS
  24  2,5  | QAT
+ 24  2,6  | QTS
  24  2,6  | STOATS
  23  4,8  - STY
  22 10,8  | SAGE
+ 22 10,8  | STGE
+ 21 10,1  | GAL
+ 21 10,1  | GOL
+ 21  9,9  | GOV
+ 21  1,8  - SAGO
+ 21  1,8  - SAGS
+ 21  1,8  - TAGS
+ 21  1,8  - TOGS
  21  6,8  - YAPS
  20 10,9  | AGE
+ 20  2,8  - AGO
+ 20  2,8  - AGT
+ 20 10,5  | GDS
  20  2,6  | STATS
  20  2,6  | STOAS
  20  2,6  | STOAT
- 20  2,6  | STOTS
+ 19  1,6  - GAS
+ 19  1,8  - GATS
+ 19  1,8  - QAT
  18 10,8  | GATE
  18  8,8  - PST
+ 17  3,8  - GO
+ 17  1,8  - OATS
+ 17  1,8  - SOTS
  17  1,8  - TAOS
+ 16 10,5  | ODA
+ 16 10,5  | ODS
+ 16 10,5  | SDS
+ 16  3,2  - STOGA
+ 15  8,1  - ACTG
  15  5,9  | AT
+ 15  1,6  - SAO
  15  8,1  - SCAG
+ 15  8,1  - SCOG
  15  1,6  - TAO
+ 15  1,6  - TAS
+ 14  4,2  - AGST
+ 14  9,1  - CAG
  14  9,1  - COG
+ 14  9,1  - CQ
+ 14  9,1  - CTG
  14  4,2  - GAST
  14  4,4  - GAST
  14  2,4  | GASTS
@@ -29,104 +65,191 @@
  14  4,2  - GOAT
  14  4,4  - GOAT
  14  2,4  | GOATS
+ 14  4,4  - GOSS
+ 14  2,4  | GOTTA
+ 14  2,5  | GOTTA
+ 14  2,10 - OSAGE
  14 11,8  | QAID
  14  5,4  - QAT
+ 14  5,4  - QTS
+ 14  1,8  - SAG
  14 10,8  | SATE
+ 14  1,8  - SOG
+ 14  4,2  - SOGA
  14  2,10 - STAGE
+ 14  1,8  - TAG
+ 14  1,8  - TOG
  14  4,2  - TOGA
  14  2,10 - TOGAE
  14  2,7  | TOGAS
+ 13  2,8  - AG
+ 13 10,2  | ALO
+ 13  2,6  - AS
+ 13 10,6  | DOAT
+ 13 10,6  | DOSA
+ 13 10,6  | DOST
  13  4,9  - GOX
+ 13 10,2  | OLA
  13  3,8  - OS
  13  3,6  | SWAGS
+ 13  9,9  | TAV
+ 13 10,2  | TLO
+ 13  3,8  - TO
+ 13  9,9  | TOV
+ 12  2,4  | AGST
+ 12  5,2  - AGT
+ 12 10,9  | ASE
+ 12  3,2  - ASSOT
  12 10,9  | ATE
  12  8,5  - BIOG
+ 12 10,6  | DAG
+ 12 10,6  | DOG
  12 11,3  | ESQ
  12 11,1  | GAES
+ 12 11,1  | GAET
  12  2,4  | GAST
  12  5,2  - GAT
+ 12  1,8  - GAT
  12  2,5  | GATS
  12  5,2  - GOA
  12  2,4  | GOAT
  12 11,1  | GOES
  12  5,2  - GOT
+ 12  1,8  - GOT
  12  7,2  | QAT
+ 12 11,2  | SEQ
  12  4,4  - STAG
  12  2,6  | STAG
  12  2,3  | STOATS
+ 12  4,4  - STOG
+ 12  2,6  | STOG
  12  3,6  | SWAG
  12 10,9  | TAE
  12  2,7  | TAGS
+ 12  4,4  - TOAG
+ 12  2,7  | TOAG
  12  2,3  | TOASTS
  12 10,9  | TOE
  12  2,7  | TOGA
  12  2,7  | TOGS
+ 12  2,4  | TOGT
+ 12  2,7  | TOGT
  12  3,7  | WAGS
- 12  3,7  | WOGS
  12  9,2  - hAO
  12  9,2  - hAT
  11 11,1  | GAE
  11  3,4  - GASTS
  11  3,4  - GOATS
+ 11 11,1  | GTE
  11  3,4  - SAGOS
  11  4,9  - SAX
  11  4,9  - SOX
  11  3,4  - STAGS
+ 11  3,4  - STOGA
  11  4,9  - TAX
  11  3,4  - TOGAS
+ 11  4,9  - TOX
  11  3,7  | WAG
  11  3,7  | WOG
+ 10  4,4  - AGOS
+ 10  4,4  - AGST
+ 10  2,5  | AGT
  10  7,1  - ASCOT
+ 10  2,3  | ASSOT
+ 10  4,2  - ASST
  10  5,9  - AX
  10  8,5  - BIAS
  10  8,5  - BIOS
+ 10  8,5  - BITO
+ 10  8,5  - BITS
+ 10  9,1  - CGS
+ 10 10,6  | DAO
+ 10 10,6  | DAS
+ 10 10,6  | DAT
+ 10 10,6  | DOA
+ 10 10,6  | DOS
+ 10 10,6  | DOT
  10  2,5  | GAT
  10  2,5  | GOT
+ 10  2,5  | GTT
+ 10  2,6  | GTT
+ 10  8,7  - MEAS
  10  8,7  - MEAT
  10  4,2  - OAST
  10  2,4  | OASTS
+ 10  1,8  - OAT
  10  4,2  - OSSA
  10  5,9  - OX
  10  4,4  - SAGS
- 10  7,1  - SOCAS
+ 10  1,8  - SAO
+ 10  1,8  - SAT
+ 10  4,4  - SOGA
+ 10  1,8  - SOT
  10  2,4  | STATS
+ 10  2,6  | STG
  10  4,2  - STOA
  10  2,10 - STOAE
  10  2,3  | STOAT
- 10  2,4  | STOTS
  10  7,1  - TACOS
+ 10  7,1  - TACSO
  10  4,4  - TAGS
  10  1,8  - TAO
  10  2,10 - TASSE
+ 10  2,5  | TGT
  10  2,3  | TOAST
  10  2,7  | TOAST
  10  4,4  - TOGA
  10  4,4  - TOGS
   9  8,1  - ACTS
+  9  5,4  - ASG
+  9  3,4  - ASSOT
+  9  2,8  - AT
   9  8,5  - BIO
+  9  8,5  - BIT
+  9 10,6  | DA
+  9 10,6  | DO
+  9  8,9  - HG
+  9  8,9  - HOGA
+  9  9,4  - LAO
   9  9,4  - LAS
   9  9,4  - LAT
   9  9,4  - LOT
+  9  8,7  - MEA
+  9  8,7  - MEO
   9  3,4  - OASTS
   9  8,1  - OCAS
   9 10,5  | OD
   9  5,4  - SAG
   9  8,1  - SCAT
   9  8,1  - SCOT
+  9  5,4  - SOG
+  9  5,4  - STG
   9  3,4  - STOAS
   9  3,4  | STOWS
   9  3,6  | SWATS
   9  3,6  | SWOTS
   9  5,4  - TAG
+  9 10,5  | TD
   9  5,4  - TOG
   8 10,10 | AE
   8  6,4  - AG
   8 11,1  | AGES
+  8 11,1  | AGET
   8 10,10 - AI
   8 10,2  | AL
+  8  5,1  - ASSOC
+  8  2,4  | ASST
+  8  4,4  - ASST
+  8  5,2  - AST
+  8  3,5  | ATWO
   8  9,1  - CAT
   8  9,1  - COS
   8  9,1  - COT
+  8  9,1  - CST
+  8  9,1  - CTO
+  8  9,1  - CTS
+  8  7,1  - GTC
+  8  4,7  | IAGO
   8  2,4  | OAST
   8  4,4  - OAST
   8  5,2  - OAT
@@ -137,13 +260,17 @@
   8  4,4  - OSSA
   8  5,2  - SAT
   8  3,5  | SAWS
+  8  3,5  | SAWT
   8  5,2  - SOT
   8  4,4  - SOTS
   8  2,5  | SOTS
   8  3,5  | SOWS
+  8  3,5  | SOWT
+  8  5,2  - STA
   8  2,4  | STAT
   8  2,6  | STAT
   8  3,4  | STAW
+  8 11,1  | STEG
   8  4,4  - STOA
   8  2,6  | STOA
   8  2,4  | STOT
@@ -154,6 +281,7 @@
   8  1,6  - TA
   8  4,4  - TAOS
   8  2,7  | TAOS
+  8  6,1  - TASCO
   8  4,4  - TASS
   8  2,7  | TASS
   8  2,5  | TATS
@@ -161,6 +289,10 @@
   8  3,5  | TAWS
   8 10,10 | TE
   8 10,10 - TI
+  8  5,2  - TOA
+  8  2,4  | TOAT
+  8  2,7  | TOAT
+  8  6,1  - TOSCA
   8  4,4  - TOSS
   8  2,7  | TOSS
   8  2,4  | TOST
@@ -177,39 +309,46 @@
   8  6,8  - YAP
   8  9,2  - hA
   7 11,1  | AGE
-  7  5,4  - AGS
+  7  5,4  - AGT
   7 10,8  - AS
+  7  9,1  - CG
   7  5,4  - GAS
   7  5,4  - GAT
   7  5,4  - GOA
   7  5,4  - GOT
   7  4,7  | IOTAS
   7 10,8  - OS
+  7  7,1  - SACO
   7  7,1  - SACS
   7  3,5  | SAW
-  7  7,1  - SOCA
   7  3,5  | SOW
   7  7,1  - TACO
   7  3,5  | TAW
-  7 11,1  | TOEAS
   7  3,5  | TOW
   7  3,7  | WAS
   7  3,7  | WAT
+  7  3,7  | WG
+  7  3,7  | WOA
   7  3,7  | WOS
   7  3,7  | WOT
   6  8,1  - ACT
+  6  7,1  | AGAO
   6  7,1  | AGAS
+  6  2,5  | AST
   6  6,2  - AT
   6 11,1  | ATES
   6  2,5  | ATT
   6  2,6  | ATT
   6  3,10 - GATE
+  6 11,2  | GEAT
+  6 11,2  | GESS
   6 11,2  | GEST
   6 11,2  | GETA
   6 11,2  | GETS
   6  1,8  - GO
   6  7,1  | GOAS
   6  7,1  | GOAT
+  6  3,10 - GOTE
   6  4,7  | IOTA
   6 10,3  | LA
   6  9,4  - LA
@@ -217,36 +356,56 @@
   6  9,4  - LO
   6  2,5  | OAT
   6  8,1  - OCA
+  6  8,1  - OCT
+  6  7,1  - OSC
   6 11,1  | OSES
+  6  7,1  - OTC
+  6  3,6  | OWT
   6  7,1  - SAC
   6  3,10 - SAGE
   6  2,5  | SAT
+  6  8,1  - SCT
   6 11,2  | SEGO
-  6 11,2  | SEGS
+  6  7,1  - SOC
   6  2,5  | SOT
+  6  2,6  | STA
   6  7,1  | STAG
   6 11,7  | STAID
+  6  3,10 - STGE
+  6  3,6  | SWA
   6  6,2  - TA
   6  2,5  | TAT
+  6 11,2  | TEGA
   6 11,2  | TEGS
+  6  7,1  | TOAG
   6 11,1  | TOEA
   6 11,1  | TOES
   6  2,5  | TOT
+  6  2,5  | TST
   6  3,6  | TWA
   6  3,6  | TWO
   5  7,1  | AGA
   5  4,10 - AGE
+  5 11,1  | ASE
   5  5,4  - ASS
+  5  5,4  - AST
   5 11,1  | ATE
   5  3,6  | AW
   5 11,3  | EGO
   5  4,10 - GAE
   5  7,2  | GAS
   5  7,2  | GAT
+  5 11,2  | GEO
+  5 11,2  | GES
   5 11,2  | GET
   5  7,1  | GOA
+  5  4,10 - GTE
   5  8,9  - HA
   5  8,9  - HO
+  5  8,9  - HT
+  5  4,7  | IAO
+  5  4,7  | IST
+  5  4,7  | ITA
   5  4,7  | ITS
   5  5,4  - OAT
   5 11,1  | OSE
@@ -256,24 +415,36 @@
   5 11,8  | SAID
   5  5,4  - SAT
   5 11,2  | SEG
+  5 11,1  | SOE
   5  5,4  - SOS
   5  5,4  - SOT
+  5  5,4  - STA
+  5  3,6  | SW
   5 11,1  | TAE
   5  7,2  | TAG
   5  2,7  | TAG
   5  5,4  - TAS
+  5  8,1  - TC
   5 11,2  | TEG
+  5  2,7  | TGT
+  5  5,4  - TOA
   5 11,1  | TOE
   5  2,7  | TOG
+  5  5,4  - TOS
+  5  5,4  - TSS
   5  3,7  | WO
+  5  3,7  | WT
   4  7,3  | AG
   4  6,4  - AS
+  4  3,10 - ASSE
   4  6,4  - AT
   4  2,6  | AT
   4 10,8  | AT
+  4  4,7  | IO
   4  4,7  | IS
   4  4,7  | IT
   4  6,4  - OS
+  4  3,10 - OSSE
   4  3,10 - SATE
   4 11,2  | SEAS
   4 11,2  | SEAT
@@ -284,19 +455,32 @@
   4  1,8  - TA
   4 10,8  | TA
   4 11,2  | TEAS
+  4 11,2  | TESS
   4  1,8  - TO
   3  7,2  | AAS
+  3 11,2  | AES
+  3 11,2  | AET
+  3  7,1  | ASA
+  3  4,10 - ASE
   3  4,10 - ATE
   3 11,3  | EAT
   3 11,3  | ESS
+  3 11,3  | EST
   3 11,3  | ETA
   3  7,2  | OAT
   3 11,2  | OES
   3  4,10 - OSE
+  3  7,1  | SAA
+  3  7,2  | SAA
   3  4,10 - SAE
+  3  7,2  | SAO
   3  7,2  | SAT
   3 11,2  | SEA
   3 11,2  | SET
+  3  4,10 - SOE
+  3  7,1  | STA
+  3  7,1  | TAA
+  3  7,2  | TAA
   3  4,10 - TAE
   3  7,2  | TAO
   3  2,7  | TAO
@@ -304,8 +488,13 @@
   3  2,7  | TAS
   3  2,7  | TAT
   3 11,2  | TEA
+  3  7,1  | TOA
+  3  2,7  | TOA
   3  4,10 - TOE
+  3  2,7  | TOS
   3  2,7  | TOT
+  3  2,7  | TSS
+  3  2,7  | TST
   2  7,2  | AA
   2  7,3  | AA
   2 10,9  - AA

@@ -1,80 +1,154 @@
+ 65  9,11 - CSW
+ 62  8,11 - DESC
+ 56  9,11 - ESC
+ 43  9,8  | DOWF
+ 41  8,11 - CFS
+ 41  8,11 - FCS
+ 38  7,11 - DEFS
  38  7,11 - DEWS
+ 38  9,11 - ESD
  38  7,11 - FEDS
  38  7,11 - WEDS
+ 36 11,9  | ADJ
+ 34  9,8  | DOWS
  34  8,4  | JEED
  33  8,4  | JEES
  32  8,11 - EFS
  32  8,4  | JEE
+ 32  8,11 - WES
+ 30  9,8  | WOES
+ 29  9,11 - FS
+ 28  6,5  - CFD
  27  9,5  | DEF
  27  9,5  | FED
- 26  8,11 - EDS
+ 27 10,11 - SW
+ 27  4,5  - WJC
+ 26  8,11 - DES
+ 26  9,9  | OWD
+ 24  5,5  - SCF
+ 23  6,5  - CF
+ 23  9,9  | OWE
+ 23  8,7  - SWAD
+ 22  9,8  | DOES
+ 22  9,7  - FAC
+ 22 11,5  | FS
+ 22 11,6  | SW
+ 22  9,7  - WAC
+ 22  9,7  - WAF
+ 21  8,7  - SWA
+ 20 11,8  | DACE
  20  9,11 - ES
  20  9,7  - FAD
  20  9,5  - FID
  20  8,3  | JEWED
  20  9,7  - WAD
+ 20  9,5  - WID
+ 19  3,5  - DESC
+ 19  9,7  - FAE
  19  9,7  - FAS
  19  9,5  - FIE
+ 19  7,5  - FW
  19  8,3  | JEFES
  19  9,7  - WAE
  19  9,7  - WAS
  19  9,5  - WIS
+ 18 11,9  | ADC
  18  9,6  | EF
  18  9,7  - FA
  18  9,5  | FE
+ 18  4,5  - FEC
  18  9,5  - FI
  18  8,3  | JEFE
+ 17  9,8  | DOW
+ 17  5,5  - FC
  16  8,4  | FEED
+ 16  8,5  - FEIS
  16  8,4  | WEED
  15  8,4  | CEES
  15  8,7  - DEAF
+ 15  4,5  - ESC
  15  6,3  | FECKS
  15  8,4  | FEES
+ 15  8,5  - FEI
+ 15  4,5  - SEC
+ 15  9,5  | SED
+ 15  8,7  - WEA
+ 15 11,7  | WEA
  15  8,4  | WEES
+ 15  8,5  - WEI
+ 15  9,8  | WOE
  14  8,4  | CEE
  14  9,7  - DAW
  14  9,5  - DIF
  14  6,3  | FECK
  14  8,4  | FEE
+ 14  7,5  | JND
  14 10,4  | VILAYeTS
  14  8,4  | WEE
+ 13 11,9  | ACE
+ 13  6,5  | CKW
  13  6,3  | DECKS
  13  8,4  - DEVS
  13  7,5  - EF
  13  7,7  - EF
  13  7,5  - EW
  13  7,7  - EW
+ 13  7,5  - FE
  13  8,3  | FECES
+ 13  7,3  | FEDN
  13  8,9  | ZED
+ 12  8,7  - DEAS
  12  6,3  | DECK
+ 12  8,5  - DEIS
  12  8,4  - DEV
  12  8,5  | JEE
  12  6,6  - KNEELS
+ 12  9,8  | WO
+ 12  9,8  - WY
  11  8,3  | CEDES
+ 11  9,7  - DAE
+ 11 11,8  | DAE
+ 11  9,7  - DAS
+ 11  8,7  - DEA
+ 11 11,7  | DEA
+ 11  8,5  - DEI
  11  9,5  - DIE
  11  9,5  - DIS
+ 11  9,8  | DOE
+ 11 11,8  | EAD
  11  8,5  | JE
  11  6,6  | KEFS
  11  9,9  | OES
  11  7,3  | SCEND
+ 11  6,3  | SECK
  11  8,3  | SEWED
+ 11  6,5  | SKEF
  11  6,5  | SKEW
  11  8,2  | SWEDE
+ 11  9,8  - SYD
  10  8,3  | CEDE
+ 10  6,4  | CSK
  10  9,7  - DA
  10  9,5  | DE
  10  9,5  - DI
  10  9,6  | ED
  10  7,4  | FENDS
  10  6,6  | KEF
+ 10  9,9  | OW
  10  9,7  - SAC
  10  9,7  - SAW
+ 10  9,4  - SVC
+ 10  8,3  | WEDE
  10  7,4  | WENDS
+ 10  9,10 - WT
+  9 11,9  | ADS
+  9  6,5  | CK
   9  8,4  | DEES
   9  6,3  | DESK
   9  7,5  - ED
   9  7,7  - ED
   9  8,4  | EWES
+  9  8,5  | FEC
   9  7,4  | FEND
   9  8,5  | FEW
   9  8,7  - SEA
@@ -82,15 +156,26 @@
   9  8,4  - SEV
   9  7,3  | SEWN
   9  6,5  | SKED
+  9  9,10 - STD
   9  7,4  | WEND
+  9  8,3  | WESE
+  8 11,8  | DA
   8  8,4  | DEE
+  8  6,5  | DKS
+  8  9,8  | DO
+  8  9,8  - DY
+  8  9,7  - EAD
   8  8,4  | EWE
   8  7,4  | FENS
   8  6,6  | KED
   8  9,7  - SAD
+  8  7,5  | SNEW
   8  7,4  | WENS
+  8 10,8  - YD
+  7 11,9  | AES
   7  8,5  | DEF
   7  8,5  | DEW
+  7  7,5  | ENC
   7  7,7  - ES
   7  8,5  | FED
   7  7,4  | FEN
@@ -101,15 +186,19 @@
   7  8,4  | SEED
   7  8,5  | WED
   7  7,4  | WEN
+  6 11,9  | AD
   6  8,5  | CEE
   6  7,4  | DENS
   6  7,5  | ENDS
   6  8,5  | FEE
+  6  7,5  | FN
   6  8,5  | SEC
   6  7,4  | SEND
   6  8,5  | SEW
   6  7,5  | SNED
+  6 10,10 - TD
   6  8,5  | WEE
+  6  8,5  | WES
   5 10,7  - AW
   5  7,4  | DEN
   5  8,6  | EF
@@ -123,9 +212,11 @@
   5  8,5  | WE
   4 11,9  | AE
   4  8,5  | DEE
+  4  8,5  | DES
   4  7,5  | ENS
   4  9,10 - ET
   4  9,9  | OE
+  4  8,5  | SED
   4  7,4  | SEN
   4 10,10 - TE
   3 10,7  - AD
