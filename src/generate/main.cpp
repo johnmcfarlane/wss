@@ -52,7 +52,7 @@ void dump_word(
         }
         else {
             nodes.emplace_hint(found.first,
-                    std::make_pair(next_node, word));
+                    std::pair{next_node, word});
             dump_word(root_node_index, next_node, word, nodes, source_cpp);
             word_parts.push_back(word);
         }

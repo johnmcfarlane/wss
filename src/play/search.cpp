@@ -224,7 +224,7 @@ auto word_extent(
         ++post_word_part;
     }
 
-    return std::make_pair(pre_word_part, post_word_part);
+    return std::pair{pre_word_part, post_word_part};
 }
 
 void search(search_state state)

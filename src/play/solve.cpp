@@ -121,7 +121,7 @@ namespace {
                 score += letter_scores[letter];
                 n = &found.child();
             }
-            return std::make_tuple(n, score);
+            return std::tuple{n, score};
         };
 
         auto travel_word = [&](
@@ -140,7 +140,7 @@ namespace {
                             std::tolower(tiles.cell(coord{column, row})));
                 }
                 invalid_words.push_back(std::move(invalid_word));
-                return std::make_tuple(&std::as_const(lexicon), 0);
+                return std::tuple{&std::as_const(lexicon), 0};
             }
             return *upper_portion;
         };
