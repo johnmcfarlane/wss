@@ -140,8 +140,8 @@ void dump_lexicon(
 
 auto main(int argc, char const* const* argv) -> int
 {
-    auto lexicon_filenames = std::vector<std::string>{2};
-    auto names = std::vector<std::string>{2};
+    auto lexicon_filenames = std::vector<std::string>{3};
+    auto names = std::vector<std::string>{3};
     auto source_filename = std::string{};
     bool help{false};
     auto cli{
@@ -152,6 +152,9 @@ auto main(int argc, char const* const* argv) -> int
                     | lyra::arg(lexicon_filenames[1], "lexicon2")(
                             "text file containing 2nd list of words")
                     | lyra::arg(names[1], "name2")("Name of 2st lexicon")
+                    | lyra::arg(lexicon_filenames[2], "lexicon3")(
+                            "text file containing 3rd list of words")
+                    | lyra::arg(names[2], "name3")("Name of 3st lexicon")
                     | lyra::arg(source_filename, "source")("source filename")
     };
     auto result = cli.parse(lyra::args(argc, argv));

@@ -25,6 +25,7 @@
 
 #include <algorithm>
 #include <cctype>
+#include <map>
 #include <string>
 #include <utility>
 
@@ -35,15 +36,20 @@ namespace {
 
 auto main(int argc, char const* const* argv) -> int
 {
+    using namespace std::literals;
+    auto const infochimps_name{"infochimps"s};
+    auto const scrabble_name{"scrabble"s};
+    auto const wwf_name{"wwf"s};
+
     auto help{false};
     auto letters{string{}};
     auto board_filename{string{}};
     auto premiums_filename{string{}};
-    auto game_name{string{"wwf"}};
+    auto game_name{string{wwf_name}};
     auto cli{
         lyra::help(help)
         | lyra::opt(game_name, "-g")["--game"]
-                .choices("scrabble", "wwf")
+                .choices(infochimps_name, scrabble_name, wwf_name)
         | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")
         | lyra::arg(board_filename, "board")("text file containing played letters")
         | lyra::arg(premiums_filename, "premiums")("text file describing premium tiles (see 'boards' directory)")
@@ -105,8 +111,16 @@ auto main(int argc, char const* const* argv) -> int
         return EXIT_FAILURE;
     }
 
-    auto const lexicon{game_name=="wwf"?wwf_lexicon:scrabble_lexicon};
-    auto const scores{game_name=="wwf"?wwf_scores():scrabble_scores()};
+    auto const lexicon{std::map{
+            std::pair{infochimps_name, infochimps_lexicon},
+            std::pair{scrabble_name, scrabble_lexicon},
+            std::pair{wwf_name, wwf_lexicon}
+    }.at(game_name)};
+    auto const scores{std::map{
+            std::pair{infochimps_name, wwf_scores()},
+            std::pair{scrabble_name, scrabble_scores()},
+            std::pair{wwf_name, wwf_scores()}
+    }.at(game_name)};
     auto [finds, invalid_words] {
             solve(lexicon, scores, letters, std::move(*board_tiles),
                     std::move(*board_premiums))};

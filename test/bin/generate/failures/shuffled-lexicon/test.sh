@@ -8,4 +8,5 @@ shift
 "$@" ./src/generate/generate \
   "${SCRIPT_DIR}"/lexicon.txt lexicon \
   "${SCRIPT_DIR}"/lexicon.txt lexicon \
+  "${SCRIPT_DIR}"/lexicon.txt lexicon \
   lexicon

@@ -50,6 +50,16 @@ auto load_lexicon(std::vector<std::string> const& filenames)
                 return std::nullopt;
             }
 
+            if (std::any_of(std::begin(line), newline,
+                    [](auto c) {
+                        return !std::isalpha(c)
+                                || std::isupper(c);
+                    })) {
+                fmt::print(stderr,
+                        "warning: invalid wordform '{}' in {}\n",
+                        line.data(), filename);
+            }
+
             std::transform(std::begin(line), newline, std::begin(line),
                     [](auto c) { return std::toupper(c); });
 
