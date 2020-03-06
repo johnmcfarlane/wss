@@ -127,7 +127,7 @@ auto compress(node& n, node_map& nodes) -> int
         if (found.first==found.second) {
             WSS_ASSERT(edge.ptr());
             nodes.emplace_hint(found.first,
-                    std::make_pair(edge.get_next(), edge.ptr()));
+                    std::pair{edge.get_next(), edge.ptr()});
             continue;
         }
 
