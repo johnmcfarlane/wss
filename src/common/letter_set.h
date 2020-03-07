@@ -15,7 +15,7 @@
 #ifndef WSS_LETTER_SET_H
 #define WSS_LETTER_SET_H
 
-#include <wss_assert.h>
+#include "wss_assert.h"
 
 #include <bitset>
 #include <cstdint>

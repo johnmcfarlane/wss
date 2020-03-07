@@ -1,4 +1,6 @@
 add_library(common
+        letter_set.cpp
+        letter_set.h
         scores.h
         ssize.h
         tile.h
