@@ -67,7 +67,7 @@ void dump_word(
 
     // edge array
     if (!word_parts.empty()) {
-        source_cpp << "node " << edges_id << "[] {";
+        source_cpp << "node const " << edges_id << "[] {";
         for (auto i{0}; i!=ssize(word_parts); ++i) {
             if (i!=0) {
                 source_cpp << ",";
@@ -79,7 +79,7 @@ void dump_word(
     }
 
     // node
-    source_cpp << "node " << id << " = {\n";
+    source_cpp << "node const " << id << " = {\n";
     
     // node::letters
     source_cpp << "  \"" << letters << "\",\n";
