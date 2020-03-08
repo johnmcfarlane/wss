@@ -14,6 +14,7 @@
 
 #include "load_lexicon.h"
 
+#include <letter_set.h>
 #include <ssize.h>
 #include <wss_assert.h>
 
@@ -22,6 +23,7 @@
 
 #include <array>
 #include <fstream>
+#include <ios>
 #include <iostream>
 #include <map>
 #include <memory>
@@ -38,12 +40,12 @@ void dump_word(
         node_map& nodes,
         std::ofstream& source_cpp)
 {
-    std::string letters;
+    letter_set letters;
     std::vector<std::string> word_parts;
 
     for (auto const& e : n) {
         word.push_back(e);
-        letters.push_back(e);
+        letters.set(e);
 
         auto const& next_node{e.get_next()};
         auto const found{nodes.equal_range(next_node)};
@@ -82,7 +84,22 @@ void dump_word(
     source_cpp << "node const " << id << " = {\n";
     
     // node::letters
-    source_cpp << "  \"" << letters << "\",\n";
+#if defined(WSS_SHOW_LETTERS)
+    source_cpp << "  letter_set{";
+    auto first_letter{true};
+    for (auto letter : n) {
+        if (!first_letter) {
+            source_cpp << ", ";
+        }
+        else {
+            first_letter = false;
+        }
+        source_cpp << '\'' << letter << '\'';
+    }
+    source_cpp << "},\n";
+#else
+    source_cpp << "  letter_set::from_bits(0x" << std::hex << letters.bits() << "U),\n";
+#endif
     
     // node::edges
     if (!word_parts.empty()) {

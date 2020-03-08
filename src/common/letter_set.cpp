@@ -14,5 +14,47 @@
 
 #include "letter_set.h"
 
-letter_set const letter_set::all = {letter_set(0b111111111111111111111111110)};
-letter_set const letter_set::none = {letter_set{0b000000000000000000000000000}};
+letter_set const letter_set::all = {letter_set{
+        'a',
+        'b',
+        'c',
+        'd',
+        'e',
+        'f',
+        'g',
+        'h',
+        'i',
+        'j',
+        'k',
+        'l',
+        'm',
+        'n',
+        'o',
+        'p',
+        'q',
+        'r',
+        's',
+        't',
+        'u',
+        'v',
+        'w',
+        'x',
+        'y',
+        'z'
+}};
+letter_set const letter_set::none = {letter_set{}};
+
+auto begin(letter_set const& letters)
+-> letter_set::const_iterator
+{
+    auto const bits{letters.bits() | letter_set{'Z'+1}.bits()};
+
+    return std::next(
+            letter_set::const_iterator{'A'-1, bits});
+}
+
+auto end(letter_set const& /*letters*/)
+-> letter_set::const_iterator
+{
+    return letter_set::const_iterator{'Z'+1, 1};
+}

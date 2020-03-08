@@ -103,7 +103,6 @@ namespace {
     auto fill_square(search_state state, node const& edge,
             int qualifying_cells_count,
             int& counter,
-            // cppcheck-suppress passedByValue
             letter_set const crossword_filter,
             letter_values const& crossword_scores,
             char letter,
