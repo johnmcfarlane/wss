@@ -82,6 +82,9 @@ public:
     }
 
     class const_iterator;
+
+    [[nodiscard]] const_iterator find(char l) const;
+
 private:
     [[nodiscard]] static int bit(char letter)
     {
@@ -129,6 +132,15 @@ public:
         return rhs;
     }
 
+    [[nodiscard]] friend auto operator-(
+            const_iterator const& lhs, const_iterator const& rhs)
+    {
+        WSS_ASSERT((lhs._bits & 1)==(rhs._bits & 1));
+        auto const lhs_num_bits{__builtin_popcount(lhs._bits)};
+        auto const rhs_num_bits{__builtin_popcount(rhs._bits)};
+        return rhs_num_bits-lhs_num_bits;
+    }
+
     friend constexpr auto operator==(
             const_iterator const& lhs,
             const_iterator const& rhs)
@@ -144,9 +156,14 @@ public:
     }
 
     friend auto begin(letter_set const&) -> letter_set::const_iterator;
+
     friend auto end(letter_set const&) -> letter_set::const_iterator;
 
+    friend const_iterator letter_set::find(char l) const;
+
 private:
+    friend auto sentinel(letter_set const&) -> letter_set::const_iterator;
+    
     char _letter;
     letter_set::rep _bits;
 };

@@ -14,6 +14,8 @@
 
 #include "letter_set.h"
 
+#include <cctype>
+
 letter_set const letter_set::all = {letter_set{
         'a',
         'b',
@@ -44,17 +46,36 @@ letter_set const letter_set::all = {letter_set{
 }};
 letter_set const letter_set::none = {letter_set{}};
 
-auto begin(letter_set const& letters)
+[[nodiscard]] auto sentinel(letter_set const& letters)
 -> letter_set::const_iterator
 {
     auto const bits{letters.bits() | letter_set{'Z'+1}.bits()};
+    return letter_set::const_iterator{'A'-1, bits};
+}
 
-    return std::next(
-            letter_set::const_iterator{'A'-1, bits});
+auto begin(letter_set const& letters)
+-> letter_set::const_iterator
+{
+    return std::next(sentinel(letters));
 }
 
 auto end(letter_set const& /*letters*/)
 -> letter_set::const_iterator
 {
     return letter_set::const_iterator{'Z'+1, 1};
+}
+
+[[nodiscard]] auto letter_set::find(char l) const
+-> letter_set::const_iterator
+{
+    WSS_ASSERT(std::isupper(l));
+
+    auto const i = index(l);
+    auto const b = rep{1} << i;
+    if ((_bits & b)==0) {
+        return end(*this);
+    }
+
+    auto s{sentinel(*this)};
+    return letter_set::const_iterator{char(s._letter+i), s._bits>>i};
 }

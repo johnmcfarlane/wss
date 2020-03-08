@@ -8,6 +8,7 @@ Checks: >
   -fuchsia-statically-constructed-objects,
   -fuchsia-trailing-return,
   -google-runtime-references,
+  -hicpp-signed-bitwise,
 WarningsAsErrors: '*'
 HeaderFilterRegex: ''
 AnalyzeTemporaryDtors: true
