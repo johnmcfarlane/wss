@@ -8,6 +8,7 @@ target_compile_options(lexicon PRIVATE ${WSS_LEXICON_COMPILE_OPTIONS})
 add_custom_command(
     COMMENT "Building lexicons"
     DEPENDS
+        ${PROJECT_SOURCE_DIR}/src/lexicon/node.h
         ${PROJECT_SOURCE_DIR}/words/scrabble.txt
         ${PROJECT_SOURCE_DIR}/words/wwf.txt
         ${CMAKE_BINARY_DIR}/src/generate/generate
