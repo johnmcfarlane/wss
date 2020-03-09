@@ -20,9 +20,9 @@
 
 struct node
 {
-  char const* const letters;
-  node const* edges;
-  bool is_terminator;
+    char const* const letters;
+    node const* edges;
+    bool is_terminator;
 };
 
 class const_node_iterator {
