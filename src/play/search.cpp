@@ -70,7 +70,7 @@ namespace {
         *state.step.word_end++ = letter;
         state.step.num_qualifying_cells += qualifying_cells_count;
         ++state.step.pos[0];
-        if (n.is_terminator
+        if (n.letters['\0']
                 && state.step.num_qualifying_cells>0
                 && state.step.rack_remaining<state.init.rack_size
                 && get(state.init.tiles, state.step.pos, vacant)

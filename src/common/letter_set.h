@@ -93,7 +93,9 @@ private:
 
     [[nodiscard]] static int index(char letter)
     {
-        WSS_ASSERT(std::isalpha(letter) || std::isalpha(letter-1));
+        WSS_ASSERT(letter=='\0'
+                || std::isalpha(letter)
+                || std::isalpha(letter-1));
         return letter & 0x1f;
     }
 

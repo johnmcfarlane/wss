@@ -164,7 +164,7 @@ namespace {
 
             auto lower_result = travel_word_portion(&edge.child(), 1,
                     extents.second);
-            if (!lower_result || !std::get<0>(*lower_result)->is_terminator) {
+            if (!lower_result || !std::get<0>(*lower_result)->letters['\0']) {
                 // With this letter, no word can be joined from the upper and lower portions.
                 continue;
             }

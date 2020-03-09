@@ -41,6 +41,10 @@ void dump_word(
         std::ofstream& source_cpp)
 {
     letter_set letters;
+    if (n.is_terminator) {
+        letters.set('\0');
+    }
+    
     std::vector<std::string> word_parts;
 
     for (auto const& e : n) {
@@ -103,14 +107,12 @@ void dump_word(
     
     // node::edges
     if (!word_parts.empty()) {
-        source_cpp << "  " << edges_id << ", //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)\n";
+        source_cpp << "  " << edges_id << " //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)\n";
     }
     else {
-        source_cpp << "  nullptr,\n";
+        source_cpp << "  nullptr\n";
     }
     
-    // node::is_terminator
-    source_cpp << "  " << (n.is_terminator ? "true" : "false") << '\n';
     source_cpp << "};\n";
 }
 

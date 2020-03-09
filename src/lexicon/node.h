@@ -25,7 +25,6 @@ struct node
 {
     letter_set letters;
     node const* edges;
-    bool is_terminator;
 };
 
 class const_node_iterator {
