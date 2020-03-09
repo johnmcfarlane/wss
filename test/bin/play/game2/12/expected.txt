@@ -1,17 +1,26 @@
  47  5,9  | JIN
  45  5,9  | JE
+ 43  8,3  | QH
  42  1,10 - JINKED
  41  4,8  - JIVE
  40 11,1  | SHIN
- 28  3,2  - HINKY
+ 32  5,8  | KHI
+ 31  8,1  | LIQ
+ 31 11,1  | SHI
+ 28  8,1  | LIKE
  24  2,10 - HIKED
  24 11,3  | IN
  23  5,9  - JEE
  23 11,1  | SEI
  22  2,10 - INKED
  22  4,2  - INKY
+ 22  3,8  - KNIVE
+ 21  9,3  - IGN
  21  5,9  - JE
+ 21  8,1  | LEK
+ 20  3,2  - HINEY
  20  4,8  - HIVE
+ 20  4,2  - IKEY
  20  8,5  | JUTE
  19  5,9  | HEN
  19  7,9  | HEN
@@ -19,6 +28,8 @@
  19  7,9  | HIN
  19  4,4  - KINE
  19  4,4  - KNEE
+ 18  5,9  | HEI
+ 18  7,9  | HEI
  18  5,9  | HIE
  18  7,9  | HIE
  18  3,9  - HIKE
@@ -26,63 +37,97 @@
  18  6,4  - NEK
  18  5,9  | NEK
  18  7,9  | NEK
- 17  6,4  - EEK
+ 17  8,3  | HE
  17  5,9  | HE
  17  7,9  | HE
  17  5,9  | HI
  17  7,9  | HI
+ 17  8,4  | NEUT
  16  5,3  - HECK
  16  8,10 | HI
  16  5,3  - HICK
  16  4,4  - HIKE
+ 16  5,2  - HNY
  16  4,3  - KENCH
+ 16  4,3  - KINCH
  16  3,9  - KINE
+ 16  3,10 - NEJDI
+ 16  3,9  - NIKE
  15  5,9  - KEN
  15  3,9  - KNEE
+ 15  3,10 - NEJD
  15  5,9  - NEK
+ 14  7,3  - CQ
  14  8,9  | EH
  14  9,4  - HAJ
  14  5,2  - HEY
  14  6,4  - JEE
+ 14  4,10 - JND
+ 14  3,8  - KIEV
  14  5,3  - NECK
+ 14  5,9  | NEI
+ 14  7,9  | NEI
  14  5,3  - NICK
- 13  5,9  - EEK
+ 13  4,4  - HINE
+ 13  9,4  - JAN
  13  4,9  - JEE
  13  8,5  | JUT
  13  5,4  - KEEN
  13  5,9  | NE
  13  7,9  | NE
+ 13  4,4  - NIKE
  12  4,9  - EKE
  12 10,3  - GI
+ 12  3,9  - HINE
+ 12  4,9  - IKE
  12  9,4  - JAI
  12  5,4  - JEE
  12  4,9  - KEEN
+ 12  6,4  - KEENA
  12  6,4  - KEN
  12  4,9  - KNEE
+ 11  9,2  - HEI
  11  5,9  - HEN
  11  5,3  - HIC
  11  5,3  - INCH
+ 11  5,8  - IVE
  11  9,4  - JA
  11  6,4  - JE
  11  5,4  - KNEE
+ 10  8,11 - EDEN
  10  7,4  - EH
  10  8,8  - ER
  10  6,4  - HEN
- 10  6,3  - ICK
+ 10  4,8  - INV
+ 10  3,10 - KEND
  10  3,10 - KIND
+ 10  5,8  - KV
  10  5,3  - NICE
  10  8,6  | UTE
+  9  7,3  - CK
   9  9,11 - DEN
+  9  9,4  - HAK
+  9  5,9  - HEE
+  9  5,9  - HEI
+  9  9,3  - HG
+  9  3,10 - KEID
+  9  9,2  - NEI
   8  9,1  | AH
   8  6,4  - EEN
   8 10,2  - EH
+  8  5,3  - ENC
   8  9,2  - HE
   8  8,10 - HEM
+  8  3,10 - HEND
   8  3,10 - HIND
   8  6,3  - ICH
+  8  5,3  - INC
   8  4,10 - KED
   8  4,10 - KID
+  8  4,9  - KIE
+  8  9,4  - NAK
   8 11,1  | SH
+  7  7,3  - CH
   7  5,9  - EEN
   7  6,9  - EH
   7  5,10 | EH
@@ -90,49 +135,66 @@
   7  5,4  - EKE
   7  7,4  - EN
   7  5,9  - HE
+  7  6,4  - HEE
+  7  6,4  - HEI
   7  4,10 - HIDE
   7  7,11 - HIDE
   7  3,10 - HIED
   7  8,11 - IDEE
+  7  5,4  - IKE
   7  9,4  - KAE
   7  9,4  - KAI
-  7  8,1  | LI
+  7  5,4  - KIE
   7  5,9  - NEE
-  7  7,2  - YI
+  7  5,9  - NEI
   6  9,1  | AN
   6  9,11 - DEE
+  6  9,11 - DEI
   6  5,10 - EDH
   6  5,10 | EN
   6  7,10 | EN
+  6  7,11 - ENDE
+  6  3,10 - ENID
+  6  9,4  - HAN
+  6  4,10 - HED
+  6  4,9  - HEE
   6  4,10 - HID
   6  4,9  - HIE
   6  8,5  | HUT
   6  6,3  - ICE
   6  5,10 | IN
   6  7,10 | IN
+  6  4,10 - INDE
+  6  7,11 - INDE
   6  9,4  - KA
-  6  9,4  - NAH
   6  9,2  - NE
   6  6,4  - NEE
+  6  6,4  - NEI
   6  4,10 - NIDE
   6  7,11 - NIDE
   5  7,11 - EIDE
   5  6,9  - EN
   5  4,10 - END
   5  9,4  - HAE
+  5  5,4  - HEE
   5  5,4  - HIE
+  5  4,10 - IND
   5  5,9  - NE
   5  4,10 - NED
   5  4,9  - NEE
+  5  4,10 - NID
   5  8,5  | NUT
   5  9,8  - REG
   5  9,8  - RIG
   4  9,1  | AE
   4 10,4  - AH
+  4  9,4  - EAN
   4  9,2  - EE
   4  7,4  - EE
   4  9,4  - HA
   4  6,4  - HE
+  4  8,9  - HT
+  4  9,4  - IAN
   4  5,10 - IDE
   4  8,11 - IDE
   4  9,4  - NAE

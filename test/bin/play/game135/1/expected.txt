@@ -1,16 +1,22 @@
  59  2,2  - DISTOMES
  54  2,3  - DISTOMES
  54  5,3  - MODISTE
+ 49  2,5  - DESMITIS
  48  1,5  - MISEDITS
  48  5,3  - SOMITES
  45  6,1  - KISMET
  45  6,1  - KISSED
+ 42  2,1  - MESSKIT
+ 36  5,1  - SKIME
  36  5,1  - SKIMS
+ 33  6,1  - KMET
+ 33  3,1  - MIEK
+ 33  6,3  - OSMITE
  33  5,1  - SKITED
  30  3,1  - DESKS
  30  3,1  - DISKS
  30  6,1  - KITED
- 30  6,3  - ODISTS
+ 30  6,3  - OTIDES
  30  5,1  - SKIDS
  30  5,1  - SKIED
  30  5,1  - SKITES
@@ -24,9 +30,12 @@
  27  3,1  - DESK
  27  3,1  - DISK
  27  7,1  | ISM
+ 27  6,1  - KEID
+ 27  6,1  - KEIST
  27  6,1  - KIDS
  27  6,1  - KISTS
  27  6,1  - KITES
+ 27  7,3  | MIDE
  27  7,3  | MIDS
  27  7,3  | MISSET
  27  5,1  - SKIES
@@ -35,16 +44,12 @@
  26  7,3  | MISES
  26  7,3  | MISTS
  26  7,3  | MITES
- 25  7,2  | DEISMS
- 25  7,3  | DISMES
  25  7,2  | EMIT
  25  7,3  | MISE
  25  7,3  | MISS
  25  7,3  | MIST
  25  7,3  | MITE
  25  7,2  | SMIT
- 24  7,2  | DEISM
- 24  7,3  | DISME
  24  6,1  - KISS
  24  6,1  - KIST
  24  6,1  - KITE
@@ -55,19 +60,24 @@
  22  2,2  - DISTOME
  22  7,3  | MIS
  22  2,2  - MISDOES
+ 22  7,3  | MIT
  22  5,2  - MODISTE
- 22  7,2  | SEISM
+ 20  2,2  - DEIMOS
  20  5,6  - DEISMS
  20  2,6  - DEMIES
  20  5,6  - DEMIES
  20  1,6  - DEMISE
  20  5,6  - DEMISE
+ 20  5,6  - DEMISS
+ 20  5,6  - DEMIST
  20  5,6  - DEMITS
+ 20  1,6  - DISEME
  20  2,6  - DISMES
+ 20  5,2  - DOMITE
  20  7,2  | EDITS
- 20  5,2  | EM
- 20  7,2  | EM
  20  2,6  - ITEMED
+ 20  1,6  - MESITES
+ 20  5,6  - MESITES
  20  2,6  - MESSED
  20  5,6  - MESSED
  20  5,6  - METISSE
@@ -75,7 +85,10 @@
  20  2,6  - MISTED
  20  4,4  - MIkED
  20  5,2  - MODEST
+ 20  5,2  - MODIST
  20  5,2  - MOSSED
+ 20  1,6  - SEMITES
+ 20  5,6  - SEMITES
  20  5,2  - SOMITES
  19  5,5  | DEISMS
  19  7,5  | DEISMS
@@ -87,8 +100,16 @@
  18  2,6  - DISME
  18  7,3  | DITES
  18  6,6  - EMESIS
+ 18  2,2  - MEDIO
+ 18  2,6  - MESSET
+ 18  5,6  - MESSET
  18  2,2  - MISDO
  18  2,6  - MISSET
+ 18  5,2  - MOIEST
+ 18  5,2  - MOSSIE
+ 18  6,2  - OSMITE
+ 18  1,6  - SEMITE
+ 18  5,6  - SEMITE
  18  2,6  - SMITES
  18  5,2  - SOMITE
  18  2,6  - STIMES
@@ -96,61 +117,81 @@
  17  5,6  | DISMES
  17  7,6  | DISMES
  17  7,3  | DISS
+ 17  7,3  | DIST
  17  2,3  - DISTOME
  17  7,3  | DITE
  17  7,3  | DITS
+ 17  5,3  - DOMITE
  17  7,2  | EDIT
  17  7,1  | IDE
  17  7,1  | IDS
  17  3,3  - MITOSES
  17  4,4  - MIkES
  17  5,3  - MODEST
+ 17  5,3  - MODIST
+ 17  7,3  | SIDEST
  17  5,5  | SMITES
- 17  7,5  | SMITES
  17  5,5  | TMESIS
- 17  7,5  | TMESIS
+ 16  2,3  - DEIMOS
+ 16  5,5  | DEMISS
+ 16  7,5  | DEMISS
+ 16  5,5  | DEMIST
+ 16  7,5  | DEMIST
  16  5,5  | DEMITS
  16  7,5  | DEMITS
  16  3,3  - DEMOS
+ 16  3,3  - DEMOT
  16  5,6  | DISME
  16  7,6  | DISME
  16  5,3  - DOMES
+ 16  6,6  - EEMIS
  16  6,6  - EMITS
+ 16  5,5  | MDSE
+ 16  2,6  - MESSE
  16  5,5  | METIS
  16  5,6  | MIDSTS
- 16  7,6  | MIDSTS
  16  5,6  | MISSED
- 16  7,6  | MISSED
  16  5,6  | MISTED
- 16  7,6  | MISTED
  16  5,3  - MODES
  16  5,3  - MOSSED
+ 16  5,3  - MOTED
  16  6,2  - OMITS
  16  5,5  | SEISM
  16  7,5  | SEISM
  16  7,3  | SIDES
  16  5,5  | SMITE
- 16  7,5  | SMITE
  16  2,6  - SMITE
  16  2,6  - STIME
+ 16  2,6  - TEMSE
+ 15  7,2  | DEIS
  15  5,5  | DEMIT
  15  7,5  | DEMIT
- 15  7,4  | ISMS
- 15  5,5  | MEDS
+ 15  5,6  | DIEM
+ 15  7,6  | DIEM
+ 15  7,1  | ISE
+ 15  3,3  - MESOST
  15  5,6  | MIDST
- 15  7,6  | MIDST
  15  2,3  - MISDOES
  15  5,6  | MISSET
- 15  7,6  | MISSET
  15  3,5  - MITISES
+ 15  5,3  - MOIEST
+ 15  5,3  - MOSSIE
+ 15  7,2  | SEID
+ 15  3,3  - SEMOIS
  15  7,3  | SIDE
  15  7,3  | SITED
  15  5,3  - SOMITE
  15  7,6  | STIMES
+ 15  5,4  - SkIME
  15  5,4  - SkIMS
+ 14  5,6  - DEESIS
  14  5,6  | DEISMS
  14  7,6  | DEISMS
  14  5,6  - DEISTS
+ 14  5,6  | DEMISS
+ 14  7,6  | DEMISS
+ 14  5,6  | DEMIST
+ 14  7,6  | DEMIST
  14  5,6  | DEMITS
  14  7,6  | DEMITS
  14  3,3  - DEMO
@@ -161,51 +202,55 @@
  14  5,3  - DOME
  14  5,3  - DOMS
  14  7,4  | IDEM
- 14  7,4  | ISM
+ 14  5,6  | MDSE
  14  5,2  | ME
  14  7,2  | ME
  14  5,5  | MED
- 14  5,6  | MEDS
- 14  7,6  | MEDS
  14  5,5  | MESS
+ 14  5,5  | MEST
  14  5,6  | METIS
- 14  7,6  | METIS
+ 14  5,5  | METS
+ 14  5,2  | MI
  14  7,2  | MI
+ 14  5,6  | MIDE
  14  5,6  | MIDS
- 14  7,6  | MIDS
  14  5,6  | MISES
- 14  7,6  | MISES
  14  3,3  - MISOS
  14  5,6  | MISTS
- 14  7,6  | MISTS
  14  5,6  | MITES
- 14  7,6  | MITES
  14  4,4  - MIkE
  14  5,3  - MODE
  14  5,3  - MODI
  14  5,3  - MODS
+ 14  5,3  - MOISE
  14  5,3  - MOIST
+ 14  5,3  - MOSES
+ 14  5,3  - MOSSI
  14  5,3  - MOSTE
  14  5,3  - MOSTS
  14  5,3  - MOTES
- 14  6,2  - ODISTS
+ 14  5,5  | MTD
+ 14  6,2  - OTIDES
  14  2,6  - SEISED
  14  5,6  - SEISED
  14  7,3  | SITES
  14  5,5  | SMIT
- 14  7,5  | SMIT
+ 14  5,3  - SOMET
  14  7,6  | STEMS
  14  7,6  | STIME
  14  5,5  | STIMES
  14  7,5  | STIMES
  14  5,4  - SkIM
  14  5,2  - TODIES
+ 14  5,2  - TOISED
  14  5,3  - TOMES
  14  5,2  - TOSSED
  13  5,6  | DEISM
  13  7,6  | DEISM
  13  5,5  | DEISTS
  13  7,5  | DEISTS
+ 13  5,5  | DEMI
+ 13  7,5  | DEMI
  13  5,6  | DEMIT
  13  7,6  | DEMIT
  13  5,5  | DESIST
@@ -215,77 +260,111 @@
  13  5,3  - DOM
  13  7,4  | ITEMS
  13  3,5  - MEDII
+ 13  5,5  | MES
  13  5,6  | MESS
- 13  7,6  | MESS
+ 13  2,4  - MESSkIT
+ 13  5,6  | MEST
  13  5,5  | MET
+ 13  5,6  | METS
  13  3,5  - MIDIS
  13  4,1  - MIKED
  13  5,6  | MISE
- 13  7,6  | MISE
  13  5,5  - MISEDIT
  13  5,6  | MISS
- 13  7,6  | MISS
  13  5,6  | MIST
- 13  7,6  | MIST
  13  5,6  | MITE
- 13  7,6  | MITE
  13  5,3  - MOD
+ 13  5,3  - MOED
+ 13  5,3  - MOID
+ 13  5,5  | MTS
  13  6,3  - OMITS
  13  7,2  | SEIS
+ 13  7,2  | SEIT
  13  5,5  | SEMIS
  13  7,5  | SEMIS
+ 13  7,3  | SISE
+ 13  7,3  | SIST
  13  7,3  | SITE
  13  7,3  | SITS
  13  4,3  - SMOTE
  13  7,6  | STEM
  13  5,5  | STEMS
  13  7,5  | STEMS
+ 13  7,6  | STIM
  13  5,5  | STIME
  13  7,5  | STIME
  13  2,5  - TMESIS
+ 13  6,4  - kIM
+ 12  7,2  | DEI
  12  5,5  | DEIST
  12  7,5  | DEIST
+ 12  5,5  | DEM
+ 12  7,5  | DEM
+ 12  5,6  | DEMI
+ 12  7,6  | DEMI
+ 12  3,5  - DEMISS
+ 12  3,5  - DEMIST
  12  3,5  - DEMITS
+ 12  2,2  - DESTO
  12  5,6  | DIME
  12  7,6  | DIME
+ 12  3,5  - DIMISS
  12  5,6  | DIMS
  12  7,6  | DIMS
  12  5,2  | ED
  12  7,2  | ED
  12  6,6  - EDITS
+ 12  6,6  - ESSED
  12  7,1  | ID
+ 12  5,2  | ID
  12  7,2  | ID
  12  6,5  - IDEM
+ 12  7,4  | IDEST
  12  6,5  - IMIDES
  12  7,4  | ITEM
  12  6,5  - ITEMS
+ 12  3,3  - ITMO
  12  5,5  | ME
  12  5,6  | MED
- 12  7,6  | MED
+ 12  3,3  - MEIO
+ 12  3,3  - MESO
  12  3,5  - METIS
  12  5,6  | MID
- 12  7,6  | MID
  12  3,5  - MIDI
  12  4,1  - MIKES
  12  4,3  - MIOSES
+ 12  2,5  - MISDIET
+ 12  5,5  - MISDIET
  12  2,3  - MISDO
  12  1,5  - MISEDIT
  12  3,3  - MISO
+ 12  2,5  - MISTIDE
+ 12  5,5  - MISTIDE
  12  3,5  - MITIS
+ 12  5,3  - MOET
+ 12  5,3  - MOIT
+ 12  5,3  - MOSE
  12  5,3  - MOSS
  12  5,3  - MOST
  12  5,3  - MOTE
  12  5,3  - MOTS
+ 12  5,6  | MTD
  12  6,2  - ODIST
  12  6,3  - OMIT
+ 12  6,2  - OSIDE
+ 12  7,3  | SID
  12  7,6  | SMITES
  12  5,3  - SOME
+ 12  5,5  | STEID
+ 12  7,5  | STEID
  12  5,5  | STIED
  12  7,5  | STIED
  12  2,5  - STIMIED
  12  4,5  - STIMIED
+ 12  5,2  | TD
  12  5,6  | TIMED
  12  7,6  | TIMED
+ 12  3,3  - TIMO
  12  5,6  | TMESIS
  12  7,6  | TMESIS
  12  5,3  - TOME
@@ -297,8 +376,13 @@
  11  5,6  | DESIST
  11  7,6  | DESIST
  11  7,3  | DI
+ 11  5,5  - DIMISS
+ 11  3,5  - DIMIT
  11  5,5  - DISMES
+ 11  2,5  - DISMIT
+ 11  5,5  - DISMIT
  11  4,4  - DIkES
+ 11  5,1  - DKM
  11  5,6  | EMITS
  11  7,6  | EMITS
  11  7,4  | IDES
@@ -307,26 +391,31 @@
  11  6,5  - IMIDS
  11  6,5  - ITEM
  11  6,1  | KOOkIEST
+ 11  2,3  - MEDIO
+ 11  5,6  | MES
  11  5,6  | MET
- 11  7,6  | MET
  11  5,5  - MIDSTS
  11  4,1  - MIKE
  11  5,6  | MIS
- 11  7,6  | MIS
  11  5,5  - MISSED
  11  5,5  - MISTED
+ 11  5,6  | MIT
  11  5,5  - MITISES
+ 11  5,3  - MOI
  11  5,3  - MOS
  11  5,3  - MOT
+ 11  5,6  | MSS
+ 11  5,6  | MTS
  11  7,6  | SEISM
  11  5,5  | SEMI
  11  7,5  | SEMI
  11  7,6  | SEMIS
  11  5,1  - SKIM
  11  7,6  | SMITE
- 11  5,3  - SOM
  11  5,5  | STEM
  11  7,5  | STEM
+ 11  5,5  | STIM
+ 11  7,5  | STIM
  11  2,5  - STIMIES
  11  4,5  - STIMIES
  11  5,5  - TIMED
@@ -338,8 +427,20 @@
  11  4,4  - TSkED
  10  5,2  | DE
  10  7,2  | DE
+ 10  5,5  | DEIS
+ 10  7,5  | DEIS
  10  5,6  | DEIST
  10  7,6  | DEIST
+ 10  5,6  | DEM
+ 10  7,6  | DEM
+ 10  3,5  - DEMI
+ 10  5,5  | DESI
+ 10  7,5  | DESI
+ 10  5,5  | DESS
+ 10  7,5  | DESS
+ 10  5,5  | DETI
+ 10  7,5  | DETI
+ 10  5,2  | DI
  10  7,2  | DI
  10  5,6  | DIETS
  10  7,6  | DIETS
@@ -347,60 +448,100 @@
  10  5,6  | DIM
  10  7,6  | DIM
  10  5,5  - DIMES
+ 10  5,5  - DIMIT
+ 10  3,6  - DISEME
  10  5,5  - DISME
  10  5,6  | DITES
  10  7,6  | DITES
  10  5,3  - DOEST
  10  5,3  - DOITS
  10  5,3  - DOSES
+ 10  5,3  - DOSIS
  10  5,3  - DOTES
  10  3,3  - EIDOS
+ 10  1,5  - EMISSI
+ 10  4,5  - EMISSI
  10  5,6  | EMIT
  10  7,6  | EMIT
  10  4,3  - EMO
+ 10  2,6  - ESSIE
+ 10  6,6  - ESSIE
  10  7,4  | IDE
+ 10  6,5  - IDISM
  10  7,4  | IDS
  10  6,5  - IMID
  10  7,1  | IS
+ 10  7,4  | ISED
+ 10  7,4  | ITD
  10  4,6  - ITEMED
+ 10  6,1  - KIM
  10  5,6  | ME
- 10  7,6  | ME
  10  2,5  - MEDII
  10  5,6  | MI
- 10  7,6  | MI
  10  5,5  - MIDIS
  10  5,5  - MIDST
  10  5,5  - MISSET
+ 10  2,5  - MISSIT
+ 10  5,5  - MISSIT
  10  3,2  - MITOSES
+ 10  5,1  - MKS
+ 10  5,1  - MKT
  10  6,3  - OMS
+ 10  6,2  - OSSET
  10  7,2  | SEI
  10  2,6  - SEISE
+ 10  5,5  | SEM
+ 10  7,5  | SEM
  10  7,6  | SEMI
+ 10  5,5  | SESTI
+ 10  7,5  | SESTI
+ 10  7,6  | SIDEST
+ 10  7,6  | SIME
  10  7,6  | SIMS
  10  7,3  | SIS
  10  7,3  | SIT
  10  7,6  | SMIT
  10  4,5  - SMITES
+ 10  7,2  | SSI
  10  5,5  | STIES
  10  7,5  | STIES
  10  4,5  - STIMES
+ 10  5,5  | STM
+ 10  7,5  | STM
+ 10  2,6  - TEISE
  10  5,5  | TEM
  10  7,5  | TEM
  10  5,6  | TIME
  10  7,6  | TIME
  10  3,5  - TIMID
+ 10  5,3  - TOISED
  10  5,3  - TOSSED
  10  4,1  - TSKED
  10  6,4  - kISMET
   9  4,6  - DEEMS
   9  5,6  - DEEMS
+  9  5,5  | DEI
+  9  7,5  | DEI
+  9  5,6  | DEIS
+  9  7,6  | DEIS
   9  4,5  - DEISM
   9  5,6  - DEISM
   9  3,6  - DEMES
   9  5,6  - DEMES
   9  5,6  - DEMIT
   9  3,2  - DEMOS
+  9  3,2  - DEMOT
+  9  5,5  | DES
+  9  7,5  | DES
+  9  5,6  | DESI
+  9  7,6  | DESI
   9  3,5  - DESIST
+  9  5,6  | DESS
+  9  7,6  | DESS
+  9  5,5  | DET
+  9  7,5  | DET
+  9  5,6  | DETI
+  9  7,6  | DETI
   9  5,6  | DIES
   9  7,6  | DIES
   9  5,6  | DIET
@@ -409,6 +550,10 @@
   9  3,6  - DIMES
   9  5,6  | DISS
   9  7,6  | DISS
+  9  2,5  - DISSITE
+  9  5,5  - DISSITE
+  9  5,6  | DIST
+  9  7,6  | DIST
   9  5,6  | DITE
   9  7,6  | DITE
   9  5,6  | DITS
@@ -417,10 +562,13 @@
   9  5,6  | EDITS
   9  7,6  | EDITS
   9  4,6  - EMESIS
+  9  4,5  - IDISM
+  9  4,3  - IDOSE
   9  4,5  - IMIDE
   9  4,5  - IMIDS
   9  4,6  - MEEDS
   9  5,6  - MEEDS
+  9  3,2  - MESOST
   9  3,6  - METED
   9  5,6  - METED
   9  4,2  - MIOSES
@@ -430,14 +578,29 @@
   9  5,5  - MITIS
   9  5,3  - MO
   9  5,2  - MODES
+  9  5,2  - MOTED
   9  6,3  - ODIST
   9  6,3  - OM
+  9  6,3  - OSIDE
+  9  5,5  | SDS
+  9  7,5  | SDS
+  9  5,5  | SEID
+  9  7,5  | SEID
+  9  7,6  | SEID
   9  3,5  - SEMIS
+  9  3,2  - SEMOIS
   9  7,6  | SIDES
   9  4,1  - SIKES
+  9  4,1  - SIKET
   9  7,6  | SITED
   9  5,1  - SKED
   9  5,1  - SKID
+  9  7,5  | SSED
+  9  7,6  | SSED
+  9  7,6  | STEID
+  9  5,5  | STID
+  9  7,5  | STID
+  9  7,6  | STID
   9  7,6  | STIED
   9  5,4  - SkIDS
   9  5,5  | TEDS
@@ -458,13 +621,19 @@
   8  4,5  - DEISTS
   8  3,6  - DEME
   8  5,6  - DEME
+  8  5,6  - DEMI
   8  3,2  - DEMO
+  8  2,3  - DESTO
+  8  5,5  - DIEM
+  8  4,6  - DIEM
   8  2,5  - DIESIS
   8  5,5  - DIESIS
   8  5,5  - DIME
   8  3,6  - DIME
   8  5,5  - DIMS
+  8  4,3  - DIOSE
   8  4,4  - DIkE
+  8  5,1  - DKS
   8  5,3  - DOES
   8  5,3  - DOIT
   8  5,2  - DOME
@@ -476,71 +645,113 @@
   8  5,3  - DOTS
   8  5,6  | EDIT
   8  7,6  | EDIT
+  8  5,6  - EEMIS
   8  4,5  - EMITS
   8  5,6  | EMS
   8  7,6  | EMS
   8  5,2  | ES
   8  7,2  | ES
   8  5,2  | ET
+  8  3,5  - IDEIST
+  8  6,5  - IDEIST
   8  4,6  - IDEM
   8  4,5  - IMID
+  8  6,5  - IMIT
+  8  5,3  - IODE
+  8  5,2  | IS
   8  7,2  | IS
+  8  7,4  | ISE
   8  6,5  - ISMS
+  8  7,4  | IST
+  8  5,2  | IT
   8  4,6  - ITEMS
   8  7,4  | ITS
   8  6,1  - KED
   8  6,1  - KID
-  8  5,6  - MEDS
+  8  3,6  - MDSE
+  8  3,6  - MEDE
+  8  5,6  - MEDE
   8  4,6  - MEED
   8  5,6  - MEED
   8  4,6  - MEETS
   8  5,6  - MEETS
+  8  5,6  - MESSE
   8  3,6  - METES
   8  5,6  - METES
   8  5,6  - METIS
+  8  5,5  - MIDE
+  8  3,6  - MIDE
   8  5,5  - MIDI
   8  5,5  - MIDS
+  8  3,4  - MIEk
   8  3,6  - MISES
   8  3,2  - MISOS
   8  3,6  - MITES
   8  5,2  - MODE
   8  5,2  - MODI
   8  5,2  - MODS
+  8  5,2  - MOED
+  8  5,2  - MOID
+  8  5,2  - MOISE
   8  5,2  - MOIST
+  8  5,2  - MOSES
+  8  5,2  - MOSSI
   8  5,2  - MOSTE
   8  5,2  - MOSTS
   8  5,2  - MOTES
   8  6,3  - ODES
+  8  5,5  | SED
+  8  7,5  | SED
   8  4,6  - SEEMS
   8  5,6  - SEEMS
   8  5,5  | SEIS
   8  7,5  | SEIS
   8  4,5  - SEISM
   8  5,6  - SEISM
+  8  5,5  | SEIT
+  8  7,5  | SEIT
+  8  7,6  | SEM
   8  3,6  - SEMES
   8  5,6  - SEMES
   8  3,5  - SEMI
   8  5,6  - SEMIS
+  8  7,6  | SESTI
   8  5,5  | SETS
   8  7,5  | SETS
+  8  5,2  | SI
   8  7,2  | SI
   8  7,6  | SIDE
+  8  5,5  - SIDEST
+  8  7,6  | SIEST
   8  4,1  - SIKE
   8  7,6  | SIM
   8  5,5  - SITED
   8  7,6  | SITES
   8  4,4  - SIkES
+  8  4,4  - SIkET
+  8  5,1  - SKET
   8  5,1  - SKIS
   8  5,1  - SKIT
   8  4,5  - SMITE
   8  4,2  - SMOTE
   8  5,3  - SODS
+  8  5,2  - SOMET
+  8  5,3  - SOSIE
+  8  5,3  - SOTIE
+  8  5,5  | STD
+  8  7,5  | STD
+  8  3,6  - STEEM
+  8  4,6  - STEEM
   8  4,6  - STEMS
   8  7,6  | STIES
   8  4,5  - STIME
+  8  7,6  | STM
+  8  4,3  - STOD
   8  5,4  - SkED
   8  5,4  - SkID
   8  5,4  - SkITED
+  8  5,5  | TD
+  8  7,5  | TD
   8  5,2  | TE
   8  5,5  | TED
   8  7,5  | TED
@@ -552,19 +763,38 @@
   8  4,5  - TEIIDS
   8  5,6  | TEM
   8  7,6  | TEM
+  8  5,6  - TEMSE
+  8  5,5  | TESS
+  8  7,5  | TESS
+  8  5,2  | TI
   8  5,6  | TIDE
   8  7,6  | TIDE
   8  3,5  - TIDIES
   8  5,5  - TIDIES
   8  4,1  - TIKE
+  8  5,6  | TIM
+  8  7,6  | TIM
   8  3,6  - TIMES
   8  4,4  - TIkES
+  8  5,3  - TODE
   8  5,3  - TODS
+  8  5,3  - TOISE
   8  5,2  - TOMES
   8  4,1  - TSKS
   8  6,4  - kIDS
   8  6,4  - kISSED
+  8  6,4  - kMET
+  7  4,6  - DEESIS
+  7  5,6  | DEI
+  7  7,6  | DEI
+  7  5,6  - DEM
+  7  5,6  | DES
+  7  7,6  | DES
+  7  3,5  - DESI
   7  3,4  - DESkS
+  7  5,6  | DET
+  7  7,6  | DET
+  7  3,5  - DETI
   7  5,6  | DIE
   7  7,6  | DIE
   7  4,6  - DIESES
@@ -580,23 +810,40 @@
   7  5,2  - DOM
   7  5,3  - DOS
   7  5,3  - DOT
-  7  5,6  | EM
-  7  7,6  | EM
   7  4,6  - EMES
   7  6,6  - EMES
   7  4,5  - EMIT
   7  6,6  - EMIT
   7  7,4  | ID
+  7  3,3  - IDEO
+  7  6,5  - IDEST
+  7  6,5  - IDIST
+  7  6,5  - IDITE
+  7  5,1  - IKE
+  7  4,5  - IMIT
+  7  6,5  - ISED
+  7  3,5  - ISSITE
+  7  6,5  - ISSITE
   7  4,6  - ITEM
+  7  3,2  - ITMO
   7  6,1  - KES
-  7  6,1  - KIS
+  7  6,1  - KET
+  7  6,1  - KIE
   7  6,1  - KIT
+  7  6,1  - KSI
   7  5,6  - MED
   7  4,6  - MEET
   7  5,6  - MEET
+  7  3,2  - MEIO
+  7  4,3  - MEO
+  7  3,6  - MESE
+  7  5,6  - MESE
+  7  3,2  - MESO
   7  5,6  - MESS
+  7  5,6  - MEST
   7  3,6  - METE
   7  5,6  - METE
+  7  5,6  - METS
   7  5,5  - MID
   7  5,5  - MISE
   7  3,6  - MISE
@@ -606,16 +853,21 @@
   7  5,5  - MITE
   7  3,6  - MITE
   7  5,2  - MOD
+  7  5,2  - MOET
+  7  5,2  - MOIT
+  7  5,2  - MOSE
   7  5,2  - MOSS
   7  5,2  - MOST
   7  5,2  - MOTE
   7  5,2  - MOTS
   7  6,2  - OMIT
+  7  6,3  - OSSET
   7  4,6  - SEEM
   7  5,6  - SEEM
   7  5,5  | SEI
   7  7,5  | SEI
   7  7,6  | SEIS
+  7  7,6  | SEIT
   7  3,6  - SEME
   7  5,6  - SEME
   7  5,6  - SEMI
@@ -624,81 +876,123 @@
   7  7,6  | SETS
   7  7,3  | SI
   7  5,5  - SIDES
+  7  3,6  - SIDEST
+  7  5,5  - SIME
+  7  3,6  - SIME
   7  5,5  - SIMS
+  7  7,6  | SISE
+  7  7,6  | SIST
   7  7,6  | SITE
   7  7,6  | SITS
   7  5,1  - SKI
+  7  3,6  - SMEE
+  7  4,6  - SMEE
   7  4,5  - SMIT
   7  5,3  - SOD
   7  5,2  - SOME
+  7  7,5  | SSI
   7  3,6  - STEEDS
   7  4,6  - STEEDS
+  7  3,5  - STEID
   7  4,6  - STEM
+  7  4,5  - STIM
+  7  4,1  - STK
   7  5,4  - SkIED
   7  5,4  - SkITES
   7  4,6  - TEEM
   7  5,6  - TEEM
   7  3,5  - TEIID
+  7  5,6  | TESS
+  7  7,6  | TESS
   7  5,5  - TIDES
   7  5,6  | TIES
   7  7,6  | TIES
   7  5,5  - TIME
   7  3,6  - TIME
+  7  3,2  - TIMO
   7  5,3  - TOD
   7  5,3  - TOED
   7  5,2  - TOME
   7  5,2  - TOMS
   7  4,1  - TSK
+  7  7,5  | TSS
   7  6,4  - kED
   7  6,4  - kID
   7  6,4  - kITED
   6  5,6  | DE
   6  7,6  | DE
-  6  4,6  - DEETS
-  6  5,6  - DEETS
+  6  4,6  - DEESS
+  6  5,6  - DEESS
   6  4,5  - DEIST
   6  5,6  - DEIST
   6  3,4  - DESk
   6  5,6  | DI
   6  7,6  | DI
   6  4,6  - DIETS
+  6  4,2  - DIOSE
   6  3,4  - DISk
   6  3,6  - DITES
   6  5,2  - DOEST
   6  5,2  - DOITS
   6  5,2  - DOSES
+  6  5,2  - DOSIS
   6  5,2  - DOTES
+  6  5,4  - DkM
   6  4,5  - EDITS
-  6  5,6  | EDS
-  6  7,6  | EDS
+  6  4,3  - EDO
   6  3,2  - EIDOS
   6  4,6  - EME
   6  6,6  - EME
   6  4,2  - EMO
   6  6,6  - EMS
+  6  5,6  | ESD
+  6  7,6  | ESD
+  6  3,6  - ESSED
   6  6,5  - IDES
+  6  4,6  - IDEST
+  6  4,5  - IDIST
+  6  4,5  - IDITE
+  6  4,2  - IDOSE
+  6  4,5  - IMI
+  6  6,5  - IMI
   6  6,5  - ISM
   6  2,5  - ISSEI
   6  6,5  - ISSEI
   6  6,1  - KI
+  6  4,6  - MEE
+  6  5,6  - MEE
+  6  4,2  - MEO
+  6  5,6  - MES
   6  5,6  - MET
   6  5,5  - MIS
+  6  5,5  - MIT
+  6  5,2  - MOI
   6  5,2  - MOS
   6  5,2  - MOT
   6  6,3  - ODE
   6  6,3  - ODS
   6  6,2  - OMS
   6  6,3  - OSES
+  6  6,3  - OSSE
+  6  6,3  - OTIS
+  6  7,6  | SDS
+  6  7,6  | SED
   6  4,6  - SEEDS
   6  5,6  - SEEDS
+  6  5,6  - SEM
+  6  2,5  - SESTI
+  6  7,6  | SID
   6  3,6  - SIDES
+  6  3,5  - SIDI
+  6  5,5  - SIEST
   6  5,5  - SIM
   6  3,6  - SITED
   6  5,5  - SITES
-  6  5,2  - SOM
   6  5,3  - SOTS
+  6  7,6  | STD
   6  3,6  - STEED
   6  4,6  - STEED
+  6  4,6  - STEID
   6  4,5  - STIED
   6  3,6  - STIED
   6  5,4  - SkIES
@@ -710,21 +1004,31 @@
   6  7,6  | TED
   6  4,5  - TEIID
   6  5,6  - TEM
+  6  5,6  | TID
+  6  7,6  | TID
   6  3,6  - TIDES
+  6  3,5  - TIDI
+  6  5,5  - TIM
   6  5,3  - TOES
   6  5,2  - TOM
   6  5,3  - TOSS
+  6  6,4  - kEID
+  6  6,4  - kEIST
   6  6,4  - kISTS
   6  6,4  - kITES
   5  4,6  - DEES
   5  5,6  - DEES
-  5  4,6  - DEET
-  5  5,6  - DEET
+  5  4,5  - DEIS
+  5  5,6  - DEIS
+  5  5,6  - DESI
+  5  5,6  - DESS
+  5  5,6  - DETI
   5  5,5  - DIES
   5  4,6  - DIES
   5  5,5  - DIET
   5  4,6  - DIET
   5  5,5  - DISS
+  5  5,5  - DIST
   5  5,5  - DITE
   5  3,6  - DITE
   5  5,5  - DITS
@@ -742,43 +1046,70 @@
   5  6,6  - EDIT
   5  3,6  - EIDE
   5  6,6  - EIDE
-  5  6,6  - EM
   5  5,6  | ESS
   5  7,6  | ESS
+  5  5,6  | EST
+  5  7,6  | EST
   5  3,6  - IDEE
   5  4,6  - IDEE
+  5  3,2  - IDEO
   5  4,6  - IDES
+  5  5,2  - IODE
   5  7,4  | IS
+  5  4,6  - ISED
+  5  6,5  - ISIS
   5  7,4  | IT
   5  5,6  - ME
   5  5,5  - MI
   5  5,2  - MO
+  5  5,4  - MkS
+  5  5,4  - MkT
   5  6,3  - OD
   5  6,2  - ODES
   5  6,2  - OM
   5  4,6  - SEED
   5  5,6  - SEED
   5  7,6  | SEI
+  5  4,5  - SEID
+  5  5,6  - SEID
   5  5,6  - SEISE
+  5  5,6  - SESTI
   5  7,6  | SET
   5  5,5  - SIDE
   5  3,6  - SIDE
+  5  5,5  - SIDI
+  5  7,6  | SIE
+  5  4,6  - SIEST
   5  7,6  | SIS
+  5  3,5  - SISI
   5  7,6  | SIT
   5  3,6  - SITES
+  5  3,5  - SITI
   5  4,4  - SIkE
   5  5,2  - SODS
+  5  5,3  - SOE
   5  5,3  - SOS
+  5  5,2  - SOSIE
   5  5,3  - SOT
+  5  5,2  - SOTIE
+  5  4,6  - SSED
+  5  7,6  | SSI
+  5  4,5  - STID
   5  4,5  - STIES
   5  3,6  - STIES
+  5  4,2  - STOD
+  5  5,4  - SkET
   5  5,4  - SkIS
   5  5,4  - SkIT
+  5  5,6  | TD
+  5  7,6  | TD
   5  5,6  - TEDS
   5  4,6  - TEED
   5  5,6  - TEED
+  5  5,6  - TEISE
   5  5,5  - TIDE
   5  3,6  - TIDE
+  5  5,5  - TIDI
   5  5,6  | TIE
   5  7,6  | TIE
   5  5,5  - TIED
@@ -786,9 +1117,15 @@
   5  5,6  | TIS
   5  7,6  | TIS
   5  4,4  - TIkE
+  5  5,2  - TODE
   5  5,2  - TODS
   5  5,3  - TOE
   5  5,2  - TOED
+  5  5,3  - TOI
+  5  5,2  - TOISE
+  5  5,3  - TOS
+  5  5,6  | TSS
+  5  7,6  | TSS
   5  4,4  - TSkS
   5  6,4  - kISS
   5  6,4  - kIST
@@ -796,6 +1133,10 @@
   5  6,4  - kITS
   4  4,6  - DEE
   4  5,6  - DEE
+  4  4,5  - DEI
+  4  5,6  - DEI
+  4  5,6  - DES
+  4  5,6  - DET
   4  5,5  - DIE
   4  4,6  - DIE
   4  5,5  - DIS
@@ -803,39 +1144,58 @@
   4  5,2  - DOE
   4  5,2  - DOS
   4  5,2  - DOT
-  4  6,6  - EDS
+  4  4,2  - EDO
   4  5,6  | ES
   4  7,6  | ES
+  4  6,6  - ESD
   4  4,6  - ESES
   4  6,6  - ESES
+  4  3,6  - ESSE
+  4  6,6  - ESSE
   4  5,6  | ET
   4  7,6  | ET
   4  6,5  - IDE
   4  4,6  - IDE
   4  6,5  - IDS
+  4  4,5  - ISIS
+  4  6,5  - ITD
   4  6,2  - ODE
   4  6,2  - ODS
   4  6,3  - OES
   4  6,3  - OSE
   4  6,2  - OSES
+  4  6,2  - OSSE
+  4  6,2  - OTIS
+  4  5,6  - SED
   4  4,6  - SEES
   4  5,6  - SEES
   4  4,5  - SEIS
   4  5,6  - SEIS
+  4  4,5  - SEIT
+  4  5,6  - SEIT
   4  5,6  - SETS
   4  7,6  | SI
+  4  5,5  - SID
+  4  5,5  - SISE
+  4  3,6  - SISE
+  4  5,5  - SISI
+  4  5,5  - SIST
   4  5,5  - SITE
   4  3,6  - SITE
+  4  5,5  - SITI
   4  5,5  - SITS
   4  5,2  - SOD
   4  5,2  - SOTS
+  4  4,4  - STk
   4  5,6  | TE
   4  7,6  | TE
   4  5,6  - TED
   4  4,6  - TEES
   4  5,6  - TEES
+  4  5,6  - TESS
   4  5,6  | TI
   4  7,6  | TI
+  4  5,5  - TID
   4  5,5  - TIES
   4  4,6  - TIES
   4  5,2  - TOD
@@ -843,17 +1203,25 @@
   4  5,2  - TOSS
   4  4,4  - TSk
   4  6,4  - kES
-  4  6,4  - kIS
+  4  6,4  - kET
+  4  6,4  - kIE
   4  6,4  - kIT
+  4  6,4  - kSI
   3  5,6  - DE
   3  5,5  - DI
   3  5,2  - DO
+  3  5,4  - DkS
   3  6,6  - ED
   3  5,3  - EO
   3  4,6  - ESE
   3  6,6  - ESE
   3  6,6  - ESS
+  3  6,6  - EST
   3  6,5  - ID
+  3  5,3  - IO
+  3  6,5  - ISE
+  3  4,6  - ISE
+  3  6,5  - IST
   3  6,5  - ITS
   3  6,2  - OD
   3  6,3  - OE
@@ -866,11 +1234,15 @@
   3  4,5  - SEI
   3  5,6  - SEI
   3  5,6  - SET
+  3  5,5  - SIE
+  3  4,6  - SIE
   3  5,5  - SIS
   3  5,5  - SIT
   3  5,3  - SO
+  3  5,2  - SOE
   3  5,2  - SOS
   3  5,2  - SOT
+  3  4,5  - SSI
   3  4,6  - TEE
   3  5,6  - TEE
   3  5,5  - TIE
@@ -878,13 +1250,17 @@
   3  5,5  - TIS
   3  5,3  - TO
   3  5,2  - TOE
+  3  5,2  - TOI
+  3  5,2  - TOS
   2  5,6  - EE
   2  6,6  - EE
   2  5,2  - EO
   2  6,6  - ES
   2  6,6  - ET
+  2  5,2  - IO
   2  6,5  - IS
   2  6,5  - IT
+  2  5,4  - IkE
   2  6,2  - OE
   2  6,2  - OI
   2  6,2  - OS

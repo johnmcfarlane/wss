@@ -1,33 +1,82 @@
+ 28  9,3  | HAWS
+ 26  9,3  | DAWS
+ 26  9,2  | DRAWS
+ 26  9,3  | WAGS
+ 24  9,3  | HAGS
+ 24  9,3  | RAWS
+ 23  7,3  | GAWP
+ 22  9,3  | DAGS
+ 22  9,2  | DRAGS
+ 21  7,2  | WHARP
+ 20  5,7  - HWAN
+ 20  9,3  | RAGS
  19  8,5  - FAH
+ 19  3,7  - WAGH
+ 19  7,3  | WARP
+ 19  5,7  - WHAN
  18  6,2  | DRAWS
+ 18  5,7  - GHAN
+ 18  6,10 - HGT
  18  6,2  | WARDS
+ 17  5,7  - DHAN
+ 17  3,7  - DHAW
+ 17  7,3  | HARP
+ 17  6,7  - WAN
  16  6,2  | DRAGS
  16  6,2  | GRADS
+ 16  9,3  | GRAS
  16  6,8  - HAJ
  16  6,2  | HARDS
+ 15  3,7  - DRAW
+ 15  6,7  - HAN
+ 15  8,10 - TROW
+ 14  6,10 - AGT
  14 11,7  | GREW
+ 14  7,5  - HF
+ 14  7,5  | HP
  14  6,8  - RAJ
  13  9,8  | AI
+ 13  3,7  - ARGH
  13 11,7  | DREW
+ 13  4,7  - HAW
  13 11,8  | HEW
+ 13 10,5  - HG
+ 13 10,7  - HG
  13  8,8  - JA
  13  9,4  | WAS
+ 12 11,7  | AREW
+ 12  4,7  - DAW
  12 11,8  | DEW
  12  9,4  | GAS
+ 12 10,3  | GAWM
  12  9,4  | HAS
+ 12 10,3  | HAWM
+ 12  9,9  | IWA
+ 12  7,9  | RWD
+ 12  8,10 - TWO
+ 12  4,7  - WAH
  12 10,3  | WHAM
  11 11,7  | AWED
+ 11  9,4  | DAS
  11 10,5  - HA
+ 11 10,7  - HA
+ 11 10,5  - HR
+ 11 10,7  - HR
+ 11  4,7  - RAW
+ 11 11,8  | REW
+ 11  8,10 - TROD
  10 11,7  | AGED
- 10 11,7  | AHED
  10 10,5  - AW
+ 10  5,7  - AW
  10 10,7  - AW
  10  4,7  - DAH
  10 11,9  | EW
  10 11,7  | GAED
  10 11,7  | HAED
+ 10  4,5  - HWA
  10 10,10 - OW
  10  9,4  | RAS
+ 10  7,9  | RHD
  10 10,3  | WARM
  10 11,8  | WED
  10  4,5  - WHA
@@ -36,12 +85,17 @@
   9 10,5  - AH
   9 10,7  - AH
   9  9,5  | AS
+  9 10,4  | AWM
   9  8,5  - FA
   9 11,8  | GED
   9 10,3  | GRAM
   9 10,3  | HARM
   9  6,3  | HAWS
+  9 11,8  | HED
   9  4,7  - RAH
+  9 11,8  | REH
+  9  7,9  | RHA
+  9 11,7  | WAER
   9  6,3  | WAGS
   9  6,4  | WASH
   8 10,5  - AD
@@ -49,7 +103,9 @@
   8 11,7  | AGER
   8  5,7  - AH
   8  7,7  - AN
+  8 11,7  | ARED
   8  6,3  | DAWS
+  8  4,5  - DHA
   8 10,3  | DRAM
   8 11,9  | EH
   8 10,4  | GAM
@@ -60,26 +116,38 @@
   8  7,6  | PA
   8  7,9  | RAW
   8  6,3  | WADS
+  8 11,8  | WER
+  8  6,4  | WHS
+  7 10,4  | ADM
   7 10,5  - AR
   7 10,7  - AR
+  7  6,5  | ASGD
+  7 11,7  | DAER
   7  6,3  | DAGS
   7  6,3  | DAHS
   7 10,4  | DAM
   7  6,4  | DASH
   7  6,3  | GADS
+  7 10,5  | GM
+  7  4,5  - GRA
   7 11,8  | HER
   7 10,5  | HM
+  7 10,6  | MH
   7  7,9  | RAG
   7  7,9  | RAH
   7  6,3  | RAWS
   7 11,8  | RED
+  7  4,5  - RHA
   7  6,3  | WARS
   6  6,3  | ADDS
   6 10,4  | ARM
   6 11,7  | AWE
   6  6,3  | DADS
+  6 11,8  | DER
   6 11,9  | ED
   6  6,3  | GARS
+  6  6,4  | GDS
+  6  6,3  | GRAS
   6  5,5  - HA
   6 10,10 - OD
   6  7,9  | RAD
@@ -87,24 +155,37 @@
   6 10,4  | RAM
   6  6,4  | RASH
   6  6,6  | SAW
+  6  6,6  | SGD
+  6  6,6  | SWA
   6 11,7  | WAE
   6  6,4  | WAS
+  5 11,8  | AER
   5 11,7  | AGE
-  5  6,4  | AGS
   5  6,4  | AHS
   5 10,5  | AM
+  5  6,5  | ASG
   5  6,5  | ASH
   5  5,5  - DA
   5 11,7  | GAE
   5  6,4  | GAS
+  5 11,7  | GRE
+  5  6,4  | GRS
   5 11,7  | HAE
   5  6,4  | HAS
+  5  6,4  | HRS
   5 10,6  | MA
   5  6,3  | RADS
+  5 11,7  | RHE
   5  6,6  | SAG
+  5  6,6  | SAH
   5  6,6  | SHA
+  5  6,6  | SHR
+  5  6,6  | SW
   5 11,8  | WE
   4  6,4  | ADS
+  4 11,7  | DAE
+  4  6,4  | DAS
+  4  6,5  | DSR
   4 11,9  | ER
   4 11,8  | HE
   4 10,10 - OR
@@ -114,6 +195,7 @@
   3  6,4  | ARS
   3 11,8  | DE
   3  6,4  | RAS
+  3  6,6  | SAR
   2 11,8  | AE
   2  6,5  | AS
   2 11,8  | RE

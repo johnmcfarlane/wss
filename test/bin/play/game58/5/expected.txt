@@ -1,12 +1,26 @@
+ 33  1,11 - IIASA
+ 30  1,11 - AIAS
+ 27  1,9  - SIALIA
  24  1,9  - AISLE
+ 24  1,9  - ASALE
  24  3,11 - ASEA
+ 24  3,11 - ASIA
  24  2,11 - EASE
  21  2,11 - AAS
+ 21  2,11 - AES
  21  2,11 - AIS
+ 21  3,11 - ASA
+ 21  3,11 - ASE
  21  3,11 - ESE
+ 21  3,11 - ISE
+ 19  8,3  | IIASA
  18  3,9  | AAS
+ 18  3,9  | AES
+ 18  8,3  | AIAS
+ 18  1,9  - AIEL
  18  3,11 - AS
  18  8,5  | ASEA
+ 18  8,5  | ASIA
  18  8,4  | EASE
  18  3,11 - ES
  18  3,11 - IS
@@ -15,50 +29,97 @@
  18  1,9  - SEEL
  18  1,9  - SIAL
  17  8,4  | AAS
+ 17  8,4  | AES
  17  8,4  | AIS
+ 17  6,1  - IIASA
+ 17  8,6  | SAA
  17  8,6  | SAE
+ 17  8,6  | SAI
  17  8,6  | SEA
  17  8,6  | SEE
  17  8,6  | SEI
+ 17  1,1  - SESIA
+ 17  8,6  | SIA
+ 17  8,6  | SIE
  16  5,8  | EASE
  15  5,8  | AAS
- 15  5,8  | AIS
+ 15  8,5  | ASA
+ 15  8,5  | ASE
  15  8,5  | ESE
+ 15  8,5  | ISE
+ 15  4,11 - SAA
  15  4,11 - SAE
+ 15  4,11 - SAI
  15  4,11 - SEA
  15  4,11 - SEE
  15  4,11 - SEI
+ 15  4,11 - SIA
+ 15  4,11 - SIE
+ 14  6,1  - AIAS
  14  8,5  | AS
  14  6,1  - ASEA
+ 14  6,1  - ASIA
  14  6,1  - EASE
  14  8,5  | ES
  14  2,1  - ESES
  14  8,5  | IS
- 14  5,6  | IS
+ 14  2,1  - ISIS
+ 14  3,1  - SESIA
  14  8,6  | SI
  14  4,11 - SI
- 14  3,7  - ZAS
+ 13  3,1  - SASA
+ 13  3,1  - SISE
+ 13  3,1  - SISI
  12  5,8  | AA
- 12  5,8  | AI
+ 12  1,1  - ASSE
+ 12  6,1  | ASSE
+ 12  1,1  - ASSI
+ 12  6,1  | ASSI
  12  4,5  | ENABLES
+ 12  1,1  - ESSE
+ 12  6,1  | ESSE
  12  2,6  - IONIUMS
+ 12  1,1  - SISE
+ 12  1,1  - SISI
  11  6,1  | ASS
  11  6,1  | ESS
+ 11  7,7  - IIASA
+ 11  6,7  - SAA
  11  6,7  - SAE
+ 11  6,7  - SAI
  11  6,7  - SEA
  11  6,7  - SEE
  11  6,7  - SEI
+ 11  6,7  - SIA
+ 11  6,7  - SIE
+ 11  6,2  | SSI
  10  2,9  - AALIIS
+ 10  5,9  | AES
+ 10  5,1  - AIAS
+ 10  5,4  - AIAS
+ 10  7,5  - AIAS
+ 10  7,7  - AIAS
+ 10  5,9  | ASA
+ 10  5,9  | ASE
  10  5,4  - ASEA
  10  7,5  - ASEA
  10  7,7  - ASEA
+ 10  7,3  | ASEMIA
+ 10  5,4  - ASIA
+ 10  7,5  - ASIA
+ 10  7,7  - ASIA
+ 10  4,8  - BEISA
+ 10  4,8  - BISIE
  10  5,4  - EASE
- 10  7,5  - EASE
  10  7,7  - EASE
+ 10  3,9  - ELAEIS
  10  4,9  - LIAISE
+ 10  3,1  - SAA
  10  3,1  - SEA
+ 10  7,4  | SEMEIA
  10  2,5  - SHEA
  10  6,7  - SI
+ 10  3,1  - SIA
  10  3,1  - SIS
   9  3,9  | AA
   9  5,1  - AAS
@@ -66,6 +127,9 @@
   9  7,7  - AAS
   9  3,9  | AE
   9  5,9  | AE
+  9  5,1  - AES
+  9  7,5  - AES
+  9  7,7  - AES
   9  5,1  - AIS
   9  7,5  - AIS
   9  7,7  - AIS
@@ -73,68 +137,109 @@
   9  7,5  | AMIAS
   9  7,5  | AMIES
   9  5,9  | AS
+  9  7,5  - ASA
+  9  7,7  - ASA
+  9  7,5  - ASE
+  9  7,7  - ASE
   9  3,9  | EE
+  9  3,9  - ELIAS
+  9  7,5  | EMESA
   9  2,1  - ESE
-  9  7,5  - ESE
   9  7,7  - ESE
-  9  5,9  | IS
+  9  2,1  - ISE
+  9  7,7  - ISE
+  9  7,6  | MASAI
+  9  7,6  | MEASE
+  9  5,1  - SAA
   9  5,1  - SAE
+  9  5,1  - SAI
   9  5,1  - SEA
   9  5,1  - SEE
   9  5,1  - SEI
+  9  5,1  - SIA
+  9  5,1  - SIE
+  9  2,1  - SSI
   8  5,1  - AA
   8  3,10 | AA
   8  2,9  - AALII
   8  5,1  - AE
   8  3,10 | AE
+  8  1,1  - AES
   8  5,1  - AI
   8  3,10 | AI
+  8  2,9  - AILIE
+  8  7,4  | AIMEE
+  8  1,1  - AIS
   8  3,10 | AS
   8  2,10 - ASEA
+  8  7,3  | ASEM
+  8  1,1  - ASS
   8  1,10 - EASE
   8  4,10 - EASE
   8  3,10 | EE
+  8  7,4  | EEMIS
   8  3,10 | ES
+  8  1,1  - ESS
   8  4,9  - LEASE
   8  7,6  | MAES
+  8  7,6  | MAIA
   8  7,6  | MASA
+  8  7,6  | MEAS
   8  7,6  | MESA
+  8  7,6  | MESE
+  8  7,6  | MIAE
+  8  7,6  | MIAS
   8  7,6  | MISE
+  8  7,3  | SAIM
   8  7,3  | SEAM
   8  7,3  | SEEM
   8  5,1  - SI
+  8  7,3  | SIAM
+  8  7,4  | SIMIA
+  8  1,1  - SIS
   7  7,5  - AA
   7  7,7  - AA
   7  2,9  - AALS
   7  5,4  - AAS
   7  7,5  - AE
   7  7,7  - AE
+  7  5,4  - AES
   7  7,5  - AI
   7  7,7  - AI
+  7  2,9  - AILE
   7  2,9  - AILS
   7  7,4  | AIMS
   7  5,4  - AIS
   7  3,9  - ALAE
+  7  3,9  - ALAI
   7  3,9  - ALAS
+  7  3,9  - ALEA
   7  3,9  - ALEE
   7  3,9  - ALES
+  7  3,9  - ALIA
+  7  3,9  - ALII
   7  7,5  | AMAS
   7  7,5  | AMIA
   7  7,5  | AMIE
   7  7,5  | AMIS
   7  7,5  - AS
   7  7,7  - AS
+  7  5,4  - ASA
+  7  5,4  - ASE
   7  4,8  - BAAS
+  7  4,8  - BAIS
   7  4,8  - BASE
   7  4,8  - BEES
+  7  4,8  - BESA
   7  4,8  - BIAS
   7  4,8  - BISE
-  7  7,5  - EE
   7  7,7  - EE
   7  2,9  - EELS
+  7  2,9  - EILA
+  7  3,9  - ELIA
+  7  3,9  - ELSA
   7  3,9  - ELSE
   7  7,5  | EMES
-  7  7,5  - ES
   7  7,7  - ES
   7  5,4  - ESE
   7  3,5  - HES
@@ -142,24 +247,42 @@
   7  3,9  - ILIA
   7  7,7  - IS
   7  2,9  - ISLE
+  7  4,9  - LASA
   7  4,9  - LASE
+  7  4,9  - LASI
   7  4,9  - LEAS
   7  4,9  - LEES
   7  4,9  - LEIS
+  7  4,9  - LESE
+  7  4,9  - LIAS
   7  4,9  - LIES
+  7  4,9  - LISA
+  7  4,9  - LISE
+  7  5,4  - SAA
   7  5,4  - SAE
+  7  5,4  - SAI
+  7  2,9  - SALA
   7  2,9  - SALE
   7  7,4  | SAME
   7  5,4  - SEA
   7  5,4  - SEE
   7  5,4  - SEI
+  7  2,9  - SELE
   7  7,4  | SEME
   7  7,4  | SEMI
   7  2,5  - SHE
   7  2,5  | SI
   7  5,5  | SI
+  7  5,4  - SIA
+  7  5,4  - SIE
+  7  2,9  - SILE
   7  7,4  | SIMA
+  7  7,4  | SIME
+  7  3,9  - SLAE
+  7  3,9  - SLEE
+  7  7,5  | SMEE
   6  5,4  - AA
+  6  7,4  | AAM
   6  5,4  - AE
   6  5,4  - AI
   6  7,4  | AIM
@@ -169,45 +292,74 @@
   6  7,5  | AMA
   6  7,5  | AMI
   6  5,4  - AS
+  6  2,10 - ASE
   6  4,8  - BAA
   6  4,8  - BAE
+  6  4,8  - BAI
   6  4,8  - BAS
+  6  4,8  - BEA
   6  4,8  - BEE
   6  4,8  - BIS
+  6  7,4  | EAM
   6  5,4  - EE
+  6  3,9  - ELA
+  6  3,9  - ELI
   6  3,9  - ELS
   6  7,5  | EME
   6  7,5  | EMS
   6  5,4  - ES
   6  2,10 - ESE
   6  4,10 - ESE
+  6  3,9  - ILA
+  6  3,9  - ILE
+  6  7,5  | IMA
+  6  7,5  | IMI
+  6  2,10 - ISE
   6  7,4  | ISM
   6  7,6  | MAE
   6  7,6  | MAS
+  6  7,6  | MEA
+  6  7,6  | MEE
+  6  7,6  | MES
+  6  7,6  | MIA
   6  7,6  | MIS
   6  2,10 - SAE
+  6  7,4  | SAM
   6  2,10 - SEE
+  6  7,4  | SEM
   6  5,4  - SI
+  6  2,10 - SIE
   6  7,4  | SIM
+  6  3,9  - SLA
+  6  7,5  | SMA
   5  2,9  - AAL
   5  5,1  | AALS
   5  6,1  - AAS
+  5  6,1  - AES
   5  2,9  - AIL
   5  6,1  - AIS
   5  7,5  | AM
+  5  6,1  - ASA
+  5  6,1  - ASE
   5  4,8  - BA
   5  4,8  - BE
   5  4,8  - BI
   5  2,9  - EEL
-  5  7,5  | EM
   5  2,1  - ES
   5  6,1  - ESE
   5  2,1  | ETA
   5  1,3  | GAE
   5  1,3  | GAS
   5  1,3  | GEE
+  5  1,3  | GES
   5  1,3  | GIE
+  5  1,3  | GIS
   5  4,1  | IRE
+  5  2,1  - IS
+  5  6,1  - ISE
+  5  2,9  - ISL
+  5  2,1  | ITA
+  5  4,9  - LAI
   5  4,9  - LAS
   5  4,9  - LEA
   5  4,9  - LEE
@@ -218,9 +370,12 @@
   5  7,6  | ME
   5  7,6  | MI
   5  2,9  - SAL
+  5  5,1  | SALA
   5  5,1  | SALE
   5  2,9  - SEL
   5  3,1  - SI
+  5  2,9  - SIL
+  5  6,6  | USEE
   4  6,1  - AA
   4  5,1  | AAL
   4  6,1  - AE
@@ -230,21 +385,25 @@
   4  5,2  | ALE
   4  5,2  | ALS
   4  6,1  - AS
+  4  6,5  | AUS
   4  6,4  | EAU
   4  6,1  - EE
   4  5,10 | EE
   4  3,9  - EL
   4  6,1  - ES
   4  5,10 | ES
+  4  6,4  | ESU
   4  1,3  | GI
   4  6,1  - IS
   4  4,9  - LA
-  4  4,9  - LI
   4  5,1  | SAL
   4  6,4  | SAU
   4  5,10 | SI
   4  6,5  | SUE
+  4  6,5  | SUI
+  4  6,6  | USA
   4  6,6  | USE
+  3  3,10 - AES
   3  3,10 - SEA
   3  3,10 - SEE
   3  3,10 - SEI

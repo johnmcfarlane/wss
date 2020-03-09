@@ -1,6 +1,8 @@
  39  5,9  - FLAX
  38  6,9  - FALX
+ 36  5,9  - FLAWN
  36  8,4  | FLAXEN
+ 36  6,9  - LANX
  34  8,9  - FLAX
  33  6,9  - FAX
  33  6,9  - WAX
@@ -13,77 +15,144 @@
  29  6,9  - HALF
  29  9,7  - WAX
  29  9,9  - WAX
+ 28  8,9  - FLAWN
  28  6,9  - LAWN
+ 28  5,9  - WHAN
  27  5,9  - FLAN
  27  5,9  - HWAN
+ 26  7,9  - ALF
+ 26  7,9  - ALW
  26  7,9  - AWL
  26  7,9  - AWN
  26  8,9  - FLAW
+ 26  8,4  | HALFEN
+ 26  8,9  - XW
  25  9,7  - FALX
  25  9,9  - FALX
  25  9,9  - LAX
+ 25  6,9  - WAF
+ 24  8,4  | FANWE
+ 24  6,9  - HAF
  24  6,9  - HAW
  24  8,7  - HWAN
  24  8,9  - HWAN
+ 24  8,7  - WHAN
+ 24  8,9  - WHAN
  23  6,9  - FAH
  23  9,7  - FAWN
  23  9,9  - FAWN
  23  6,9  - LAW
+ 23  6,9  - NAF
  23  6,9  - NAW
+ 23  6,9  - WAH
  23  5,9  - WHA
+ 22  7,9  - ALN
  22  8,9  - FLAN
+ 22  8,4  | HALWE
+ 22  5,9  - HWA
  22  8,4  | WHALE
  21  7,9  - AW
  21  6,9  - FAN
- 21  6,9  - NAH
+ 21  6,9  - LAH
+ 21  9,9  - LANX
+ 21  9,7  - WAF
+ 21  9,9  - WAF
  21  6,9  - WAN
  20 10,7  - AX
  20 10,9  - AX
+ 20  8,4  | FLANE
  20  9,4  | FLAXEN
+ 20  6,9  - HAL
+ 20  6,9  - HAN
+ 20  8,7  - HWA
+ 20  8,9  - HWA
+ 20  8,4  | NAWLE
+ 20  8,4  | WANLE
  20  9,5  | WAXEN
  20  8,7  - WHA
  20  8,9  - WHA
  19  7,9  - AH
  19  9,7  - FAH
  19  9,9  - FAH
+ 19  9,7  - HAF
+ 19  9,9  - HAF
  19  9,7  - HALF
  19  9,9  - HALF
  19  9,7  - HAW
  19  9,9  - HAW
+ 19  7,8  | JAWN
+ 19  6,9  - LAN
  19  9,9  - LAWN
+ 19  9,7  - WAH
+ 19  9,9  - WAH
+ 18  8,7  - FW
+ 18  8,9  - FW
+ 18 10,6  | FWD
+ 18  8,7  - WF
+ 18  8,9  - WF
  17  7,9  - AL
  17  7,9  - AN
  17 10,8  | DAWN
  17  9,7  - FAN
  17  9,9  - FAN
  17  9,9  - LAW
+ 17  9,7  - NAF
+ 17  9,9  - NAF
  17  9,7  - NAW
  17  9,9  - NAW
  17  9,7  - WAN
  17  9,9  - WAN
  16  6,9  - FA
+ 16 10,6  | FLD
+ 16  8,7  - HF
+ 16  8,9  - HF
+ 16  9,7  | NEXAL
  16  8,5  | WAXEN
  15 10,8  | DAW
  15 10,6  | FAD
  15  8,6  | FLEX
  15  9,6  | FLEX
  15  6,9  - HA
+ 15  9,7  - HAL
+ 15  9,9  - HAL
+ 15  9,7  - HAN
+ 15  9,9  - HAN
  15  7,8  | JAW
- 15  9,7  - NAH
- 15  9,9  - NAH
+ 15  9,9  - LAH
  15 10,6  | WAD
  14 10,7  - AWL
  14 10,9  - AWL
  14 10,7  - AWN
  14 10,9  - AWN
- 14 10,8  | DAHL
+ 14  8,9  - FL
+ 14  8,7  - FN
+ 14  8,9  - FN
  14  7,6  | HAJ
+ 14  9,4  | HALFEN
  14  6,9  - LA
+ 14  8,9  - LF
  14  6,9  - NA
+ 14  8,7  | NEXAL
  14  9,4  | WHALE
+ 14 10,4  | WHAND
  13  9,5  | AXLE
+ 13 10,8  | DALF
+ 13  9,8  | EXLA
  13  9,7  - FA
  13  9,9  - FA
+ 13  9,4  | FANWE
+ 13  8,7  | HEXA
+ 13  9,7  | HEXA
+ 13 10,6  | HLD
+ 13  7,8  | JAN
+ 13  9,9  - LAN
+ 13 10,5  | WAFD
+ 12  8,6  | ALEX
+ 12  9,6  | ALEX
+ 12 10,7  - ALF
+ 12 10,9  - ALF
+ 12 10,7  - ALW
+ 12 10,9  - ALW
  12  8,7  - AW
  12 10,7  - AW
  12 10,9  - AW
@@ -91,13 +160,18 @@
  12  9,6  | AXEL
  12  8,5  | AXLE
  12 10,8  | DAH
+ 12 10,8  | DHAW
+ 12  8,8  | EXLA
  12  8,7  - FA
  12  9,5  | FANE
+ 12  9,4  | FLANE
  12 10,6  | HAD
+ 12  9,4  | HALWE
  12  8,7  | HEX
  12  9,7  | HEX
  12  9,5  | WALE
  12  9,5  | WANE
+ 11 10,5  | FAND
  11  8,6  | FLEW
  11  9,6  | FLEW
  11  9,7  - HA
@@ -105,15 +179,23 @@
  11  7,8  | JA
  11  8,7  | LEX
  11  9,7  | LEX
+ 11 10,6  | LHD
+ 11  9,4  | NAWLE
  11 10,5  | WAND
+ 11  9,4  | WANLE
+ 11  8,7  | WELF
+ 11  9,7  | WELF
  11  8,6  | WHEAL
  11  9,6  | WHEAL
  10  8,7  - AH
  10 10,7  - AH
  10 10,9  - AH
+ 10 10,7  - ALN
+ 10 10,9  - ALN
  10  8,6  | AXE
  10  9,6  | AXE
  10 10,8  | DHAL
+ 10 10,8  | DHAN
  10  8,7  - HA
  10  9,5  | HALE
  10 10,5  | HAND
@@ -121,26 +203,34 @@
  10  9,7  | HEWN
  10  8,6  | WHEN
  10  9,6  | WHEN
+  9 10,6  | AFD
+  9 10,6  | AWD
   9 10,8  | DAL
   9 10,8  | DAN
   9  8,8  | EX
   9  9,8  | EX
   9  8,7  | FEW
   9  9,7  | FEW
+  9  8,7  | HEAF
+  9  9,7  | HEAF
   9  9,9  - LA
   9 10,6  | LAD
   9 10,5  | LAND
   9  9,7  - NA
   9  9,9  - NA
+  9 10,6  | NAD
   8 10,7  - AL
   8 10,9  - AL
   8  8,6  | ALEF
   8  9,6  | ALEF
+  8  8,6  | ALEW
+  8  9,6  | ALEW
   8  8,7  - AN
   8 10,7  - AN
   8 10,9  - AN
   8  8,6  | ANEW
   8  9,6  | ANEW
+  8 10,8  | DHA
   8  9,8  | ELAN
   8  8,5  | FANE
   8  8,7  | FEAL
@@ -155,13 +245,19 @@
   8  8,7  | LEAF
   8  9,7  | LEAF
   8  8,7  - NA
+  8  9,5  | NALE
+  8  8,7  | NEAF
+  8  9,7  | NEAF
   8  8,5  | WALE
   8  8,5  | WANE
   8  8,7  | WEAL
   8  9,7  | WEAL
   8  8,7  | WEAN
   8  9,7  | WEAN
+  7 10,6  | ALD
   7 10,6  | AND
+  7  8,8  | EFL
+  7  9,8  | EFL
   7  8,8  | ELF
   7  9,8  | ELF
   7  8,7  | FEN
@@ -171,44 +267,73 @@
   7  8,5  | HALE
   7  8,7  | HEAL
   7  9,7  | HEAL
+  7  8,7  | LEAH
+  7  9,7  | LEAH
   7  8,7  | NEF
   7  9,7  | NEF
   7  8,7  | NEW
   7  9,7  | NEW
   7  8,7  | WEN
   7  9,7  | WEN
+  6  8,6  | ALEN
+  6  9,6  | ALEN
   6  8,6  | AWE
   6  9,6  | AWE
   6  8,8  | ELAN
+  6  8,6  | FAE
+  6  9,6  | FAE
+  6  8,7  | HEL
+  6  9,7  | HEL
   6  8,7  | HEN
   6  9,7  | HEN
+  6  8,6  | LAEN
+  6  9,6  | LAEN
   6  8,5  | LANE
   6  8,7  | LEAN
   6  9,7  | LEAN
+  6  8,7  | LENA
+  6  9,7  | LENA
+  6  8,6  | NAEL
+  6  9,6  | NAEL
+  6  8,5  | NALE
+  6  8,7  | NEAL
+  6  9,7  | NEAL
   6  8,6  | WAE
   6  9,6  | WAE
+  6  8,7  | WEA
+  6  9,7  | WEA
   5  8,8  | EF
   5  9,8  | EF
+  5  8,8  | ENL
+  5  9,8  | ENL
   5  8,8  | EW
   5  9,8  | EW
   5  8,7  | FE
   5  9,7  | FE
   5  8,6  | HAE
   5  9,6  | HAE
+  5  8,7  | LEN
+  5  9,7  | LEN
   5  8,7  | WE
   5  9,7  | WE
   4  8,6  | ALE
   4  9,6  | ALE
   4  8,6  | ANE
   4  9,6  | ANE
+  4  8,8  | EAN
+  4  9,8  | EAN
   4  8,8  | EH
   4  9,8  | EH
+  4  8,8  | ELA
+  4  9,8  | ELA
   4  8,7  | HE
   4  9,7  | HE
   4  8,7  | LEA
   4  9,7  | LEA
   4  8,6  | NAE
   4  9,6  | NAE
+  4  8,7  | NEA
+  4  9,7  | NEA
   3 10,7  | AD
   3 10,8  | DA
   3  8,8  | EL

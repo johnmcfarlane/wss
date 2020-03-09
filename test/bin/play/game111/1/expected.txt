@@ -2,58 +2,86 @@
  33  2,5  - JE
  30  4,5  - JEERS
  30  6,1  | JESSES
+ 30  2,1  | JESSIE
+ 30  2,5  | JESSIE
  29  4,5  - JEER
  29  4,5  - JEES
  28  4,5  - JEE
  28  6,2  | JEERS
  28  1,5  - JEES
  28  2,2  | JESSE
+ 26  5,3  | JERNIE
  25  4,5  - JE
  25  1,5  - JEE
  23  1,7  - SEISE
+ 22  2,7  - EIRE
  22  2,7  - RISE
  22  2,7  - SIRE
+ 22  2,7  - SISE
+ 19  1,7  - ERIE
+ 19  1,7  - ERIS
  19  3,5  - ESE
  19  3,7  - IRE
  19  1,5  - IRES
+ 19  3,7  - ISE
  19  1,5  - REES
  19  1,7  - REIS
  19  1,5  - SEES
  19  1,7  - SEIS
  19  1,7  - SRIS
+ 18  2,7  - EIR
+ 18  4,4  | IJORE
  18  2,5  - REE
  18  2,5  - RES
+ 18  2,7  - RIE
+ 18  2,7  - SIE
  18  2,7  - SIR
  18  2,7  - SIS
+ 17  4,5  | JOSSER
+ 17  4,1  | SEJERO
+ 17  5,4  | SINJER
  16  1,5  - ERE
  16  1,5  - IRE
+ 16  4,5  | JOREE
+ 16  4,5  | JOSIE
  16  1,5  - REE
  16  1,5  - SEE
  16  1,7  - SEI
  16  3,4  | SEXIER
  16  1,7  - SRI
+ 16  1,7  - SSI
  15  2,5  - EE
  15  3,5  - EE
  15  3,5  - ES
+ 15  3,5  | EXIES
  15  3,7  - IS
  15  6,3  | JESSES
  15  6,4  | JESSES
+ 15  6,3  | JESSIE
+ 15  6,4  | JESSIE
  15  4,5  | JOES
  15  4,5  | JOIE
+ 15  4,5  | JOSE
  15  4,5  | JOSS
  15  2,5  - RE
  15  2,7  - SI
+ 14  3,2  | ESSEX
  14  2,4  | JEERS
  14  2,5  | JEERS
  14  6,3  | JESSE
  14  6,4  | JESSE
  14  2,5  | JESSE
  14  5,4  | JINS
+ 14  2,5  | RESEISE
+ 14  3,2  | RESEX
  14  3,4  | REXES
  14  4,5  - SEISER
  14  4,7  - SEISER
  14  3,4  | SEXES
+ 14  3,2  | SIREX
+ 14  3,4  | SIXER
  14  3,4  | SIXES
+ 14  3,6  | XERES
  13  3,5  | EXES
  13  1,5  - JE
  13  1,7  - JE
@@ -66,6 +94,7 @@
  13  6,4  | JESS
  13  2,5  | JESS
  13  5,4  | JIN
+ 12  3,5  | EXR
  12  2,4  | JEE
  12  2,5  | JEE
  12  4,5  | JOE
@@ -86,6 +115,9 @@
  12  6,1  | SIREES
  12  2,2  | SIREES
  12  6,6  | SIREES
+ 12  6,1  | SIRESS
+ 12  6,2  | SIRESS
+ 12  6,6  | SIRESS
  11  2,5  | JE
  11  4,5  | JO
  11  4,7  - REIS
@@ -95,6 +127,7 @@
  11  4,5  - SEIS
  11  4,7  - SEIS
  11  3,4  | SEX
+ 11  4,5  - SIER
  11  3,4  | SIX
  11  3,6  | XES
  11  3,6  | XIS
@@ -103,8 +136,15 @@
  10  4,4  | EROSES
  10  6,2  | ERSES
  10  2,6  | ERSES
+ 10  2,2  | ESERE
+ 10  2,6  | ESERE
+ 10  2,2  | ESSEE
+ 10  2,6  | ESSEE
  10  6,2  | ESSES
+ 10  2,2  | ESSIE
+ 10  2,6  | ESSIE
  10  3,5  | EX
+ 10  2,2  | REESE
  10  2,2  | RESEE
  10  6,2  | RISES
  10  4,5  - SEE
@@ -117,6 +157,8 @@
  10  6,6  | SEISE
  10  6,2  | SERES
  10  6,6  | SERES
+ 10  4,3  | SEROSE
+ 10  4,5  - SIE
  10  2,2  | SIREE
  10  6,6  | SIREE
  10  6,2  | SIRES
@@ -124,65 +166,106 @@
  10  6,2  | SISES
  10  6,6  | SISES
  10  3,6  | XI
+  9  5,5  - EIRE
+  9  5,7  - EIRE
   9  4,4  | EROSE
   9  5,1  | SEREINS
   9  5,2  | SERINES
   9  4,5  | SOIREES
+  8  5,5  - EER
+  8  5,5  - EIR
+  8  5,7  - EIR
   8  6,5  - ERSES
+  8  5,1  | ESERIN
+  8  6,5  - ESSIE
+  8  5,5  | INSEER
   8  5,6  | NEREIS
   8  4,6  | OSIERS
   8  5,2  | RESINS
   8  5,4  | RINSES
   8  5,3  | SEINER
   8  5,3  | SEINES
+  8  5,1  | SEIREN
   8  4,2  | SEISOR
-  8  5,4  | SENSEI
   8  5,1  | SEREIN
   8  5,2  | SERINE
   8  5,2  | SERINS
+  8  5,2  | SIRENE
   8  5,2  | SIRENS
   8  5,5  | SNEERS
   8  4,5  | SOIREE
   7  4,5  - EE
   7  5,5  - EE
   7  4,7  - EE
+  7  6,5  - EIRE
+  7  6,5  - ERIE
+  7  6,5  - ERIS
+  7  6,5  - ERSE
   7  4,3  | ERSOE
   7  6,5  - ESES
+  7  6,5  - ESSE
+  7  5,3  | IERNE
+  7  5,5  | INSEE
+  7  5,3  | IRENE
+  7  4,3  | IREOS
   7  6,5  - IRES
   7  6,7  - IRES
+  7  5,6  | NISSE
   7  4,6  | OSIER
   7  4,7  - RE
   7  5,3  | REINS
+  7  2,3  | RESEISE
   7  5,2  | RESIN
   7  5,2  | RISEN
   7  4,5  | ROSES
   7  5,3  | SEINE
   7  6,3  | SEISERS
   7  5,2  | SERIN
+  7  4,2  | SERIO
   7  4,5  - SI
   7  5,2  | SIREN
+  7  4,3  | SIROS
   7  5,5  | SNEER
+  7  5,5  | SNIES
+  7  4,5  | SOREE
   7  4,5  | SORES
+  7  4,5  | SOSIE
+  6  5,3  | ERIN
   6  5,4  | ERNES
+  6  5,4  | ERNIE
   6  4,4  | EROS
-  6  5,4  | ESNES
+  6  5,6  | NEER
+  6  5,6  | NERE
+  6  5,6  | NERI
+  6  5,6  | NESE
   6  5,6  | NESS
+  6  5,6  | NIES
   6  4,6  | ORES
   6  4,6  | OSES
+  6  4,6  | OSSE
+  6  5,3  | REEN
   6  5,3  | REIN
+  6  5,4  | RENES
   6  2,3  | RESEES
   6  5,4  | RINSE
   6  4,5  | ROES
   6  4,5  | ROSE
+  6  4,5  | ROSS
   6  5,3  | SEEN
   6  6,3  | SEISER
   6  6,3  | SEISES
   6  5,4  | SENSE
+  6  4,4  | SEOR
+  6  4,3  | SERO
   6  5,4  | SINES
   6  2,3  | SIREES
+  6  4,5  | SOIR
   6  4,5  | SORE
   6  4,5  | SORI
+  5  6,5  - EER
   5  2,5  | EERIE
+  5  6,5  - EIR
+  5  5,5  | ENSE
   5  6,5  - ERE
   5  5,4  | ERNE
   5  5,4  | ERNS
@@ -190,26 +273,38 @@
   5  2,3  | ERSES
   5  6,4  | ERSES
   5  6,5  - ESE
+  5  2,4  | ESERE
   5  5,4  | ESNE
   5  6,5  - ESS
+  5  2,3  | ESSEE
   5  6,4  | ESSES
   5  6,5  | ESSES
+  5  6,4  | ESSIE
+  5  6,5  | ESSIE
   5  6,5  - IRE
   5  6,7  - IRE
+  5  6,5  - IRS
+  5  6,7  - IRS
+  5  6,5  - ISE
+  5  6,7  - ISE
+  5  4,6  | OER
   5  4,6  | OES
   5  4,6  | ORE
   5  4,6  | ORS
   5  4,6  | OSE
+  5  2,4  | REESE
+  5  2,5  | REESE
   5  2,3  | RESEE
   5  2,5  | RESEE
+  5  5,4  | RINE
   5  5,4  | RINS
+  5  4,4  | RIO
   5  2,3  | RISES
   5  6,4  | RISES
   5  2,4  | SEERS
   5  2,5  | SEERS
   5  6,3  | SEISE
   5  2,5  | SEISE
-  5  5,4  | SENE
   5  2,3  | SERES
   5  2,5  | SERES
   5  5,4  | SINE
@@ -217,28 +312,45 @@
   5  2,3  | SIREE
   5  2,3  | SIRES
   5  6,4  | SISES
+  5  5,5  | SNEE
   4  1,5  - EE
   4  6,5  - EE
   4  1,7  - EE
   4  5,4  | EEN
+  4  2,3  | EIRE
+  4  2,6  | EIRE
   4  5,5  | ENS
   4  1,5  - ER
   4  6,5  - ER
   4  1,7  - ER
+  4  2,3  | ERIE
+  4  2,6  | ERIE
+  4  6,3  | ERIS
+  4  2,6  | ERIS
   4  5,4  | ERN
+  4  2,3  | ERSE
+  4  6,4  | ERSE
+  4  2,6  | ERSE
   4  6,5  - ES
   4  1,7  - ES
   4  6,3  | ESES
   4  2,4  | ESES
   4  6,5  | ESES
   4  2,6  | ESES
+  4  2,3  | ESSE
+  4  6,4  | ESSE
+  4  6,5  | ESSE
+  4  2,6  | ESSE
   4  5,5  | INS
   4  6,3  | IRES
   4  2,4  | IRES
   4  6,5  - IS
   4  1,7  - IS
   4  6,7  - IS
+  4  5,4  | ISN
   4  5,6  | NEE
+  4  5,6  | NEI
+  4  5,6  | NIS
   4  1,5  - RE
   4  1,7  - RE
   4  6,3  | REES
@@ -246,9 +358,14 @@
   4  2,5  | REES
   4  6,3  | REIS
   4  2,5  | REIS
+  4  5,4  | REN
+  4  6,3  | RIES
+  4  2,4  | RIES
   4  5,4  | RIN
   4  2,3  | RISE
   4  6,4  | RISE
+  4  6,3  | RISS
+  4  6,4  | RISS
   4  2,4  | SEER
   4  2,5  | SEER
   4  6,6  | SEER
@@ -263,16 +380,32 @@
   4  2,3  | SERE
   4  2,5  | SERE
   4  6,6  | SERE
+  4  2,5  | SERI
+  4  6,6  | SERI
   4  6,3  | SERS
   4  2,5  | SERS
   4  6,6  | SERS
+  4  6,3  | SESS
+  4  6,4  | SESS
+  4  6,6  | SESS
+  4  2,4  | SIER
+  4  6,6  | SIER
   4  5,4  | SIN
   4  2,3  | SIRE
   4  6,6  | SIRE
   4  6,3  | SIRS
   4  6,6  | SIRS
+  4  2,3  | SISE
+  4  6,4  | SISE
+  4  6,6  | SISE
+  4  6,3  | SISS
+  4  6,4  | SISS
+  4  6,6  | SISS
   4  6,3  | SRIS
   4  6,6  | SRIS
+  3  2,5  | EER
+  3  2,6  | EER
+  3  2,6  | EIR
   3  5,5  | EN
   3  2,4  | ERE
   3  2,6  | ERE
@@ -286,12 +419,18 @@
   3  2,6  | ESS
   3  5,5  | IN
   3  2,4  | IRE
+  3  6,4  | IRS
+  3  2,4  | ISE
+  3  6,5  | ISE
   3  5,6  | NE
   3  2,4  | REE
   3  2,5  | REE
   3  6,4  | RES
   3  2,5  | RES
+  3  2,4  | RIE
   3  4,5  | ROE
+  3  4,5  | ROI
+  3  4,5  | ROS
   3  2,4  | SEE
   3  2,5  | SEE
   3  6,6  | SEE
@@ -299,17 +438,23 @@
   3  6,6  | SEI
   3  2,5  | SER
   3  6,6  | SER
+  3  2,4  | SIE
+  3  6,6  | SIE
   3  6,6  | SIR
   3  6,4  | SIS
   3  6,6  | SIS
+  3  4,5  | SOE
   3  4,5  | SOS
   3  6,6  | SRI
+  3  6,5  | SSI
+  3  6,6  | SSI
   2  2,5  | EE
   2  2,6  | EE
   2  4,5  | EO
   2  2,6  | ER
   2  6,5  | ES
   2  2,6  | ES
+  2  4,5  | IO
   2  6,5  | IS
   2  4,6  | OE
   2  4,6  | OI

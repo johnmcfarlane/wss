@@ -1,12 +1,15 @@
  32  1,2  - YAWNING
  31  5,4  | YAWING
  30  1,2  - SWAYING
+ 29  7,1  | GAWN
  29  7,1  | YAWN
  28  2,2  - AWNINGS
  28  4,2  - AWNINGS
+ 28  2,6  - GAWNEY
  28  1,2  - SNAWING
  28  5,2  - SNAWING
  28  5,3  | WAIN
+ 28  2,2  - WAYING
  28  2,2  - YAWING
  27  5,4  | SAWING
  27  7,1  | SAWN
@@ -18,34 +21,49 @@
  26  2,2  - WANING
  25  5,1  | SAGY
  25  5,4  | SAYING
+ 24  5,2  | AGY
+ 24  2,2  - ASWING
  24  5,5  | AWING
  24  5,3  | GAIN
  24  2,2  - GNAWN
+ 24  5,2  | IWA
+ 24  6,2  - NIGNAY
  24  2,2  - SAWING
  24  2,6  - SAWNEY
  24  5,6  - SEWING
+ 24  2,2  - SNYING
+ 24  5,2  - SNYING
+ 24  2,6  - SWINEY
  24  1,6  - SWINGE
  24  5,1  | WAGS
+ 24  5,1  | WANG
  24  5,1  | WANY
  24  5,1  | WAYS
  24  7,1  | WAYS
+ 24  5,3  | WG
  24  2,2  - WIGANS
  24  5,1  | WIGS
  24  5,1  | WING
  24  5,6  | WINGY
  24  7,6  | WINGY
  24  5,1  | WINY
+ 24  5,3  | WY
  24  5,1  | YAW
  24  7,1  | YAW
  23  5,1  | GAYS
  23  7,1  | GAYS
  23  5,3  - GOWANY
+ 23  5,2  | INGA
  23  5,1  | NAW
  23  7,1  | NAW
  23  2,4  - SWAYING
- 23  5,1  | YAGS
+ 23  5,6  | WAYING
+ 23  7,6  | WAYING
  23  5,1  | YANG
  23  5,3  - YOWING
+ 22  6,6  - EWING
+ 22  2,6  - GANSEY
+ 22  1,6  - GANYIE
  22  1,6  - GAWSIE
  22  2,6  - GWINE
  22  5,1  | NAGS
@@ -54,7 +72,10 @@
  22  5,1  | SAW
  22  7,1  | SAW
  22  2,2  - SAYING
+ 22  2,6  - SINGEY
  22  4,4  - SWINGY
+ 22  3,4  - WAYING
+ 22  2,6  - WAYNE
  22  2,2  - WIGAN
  22  5,6  | WINGS
  22  7,6  | WINGS
@@ -66,8 +87,12 @@
  21  5,3  - NOWAYS
  21  5,1  | SANG
  21  5,1  | SING
+ 21  5,4  | SIWAN
+ 21  7,4  | SIWAN
  21  5,1  | WAG
  21  3,3  - WAGONS
+ 21  5,6  | WANG
+ 21  7,6  | WANG
  21  5,6  | WANY
  21  7,6  | WANY
  21  5,1  | WAY
@@ -79,17 +104,20 @@
  21  7,6  | WING
  21  5,6  | WINY
  21  7,6  | WINY
- 20  5,2  | AGS
  20  5,2  | ANY
+ 20  3,4  - ASWING
  20  5,2  | AYS
  20  7,2  | AYS
  20  6,6  - EYING
  20  5,1  | GAY
  20  7,1  | GAY
  20  5,3  - GOWAN
+ 20  5,2  | ING
+ 20  2,6  - NAWIES
  20  5,3  - NOWAY
  20  2,2  - SANING
  20  3,4  - SAWING
+ 20  1,6  - SAWNIE
  20  2,6  - SWAGE
  20  3,3  - WAGON
  20  5,1  | WANS
@@ -98,15 +126,20 @@
  20  7,6  | WIGAN
  20  5,1  | WINS
  20  3,4  - WISING
- 20  5,1  | YAG
  20  5,6  | YANGS
  20  5,6  | YAWNS
+ 20  5,7  | YAWNS
+ 20  7,7  | YAWNS
+ 19  5,2  | ANSI
+ 19  7,2  | ANSI
  19  4,4  - AWING
  19  5,1  | GINS
  19  5,3  - GOWNS
  19  5,1  | NAG
  19  5,1  | NAY
  19  7,1  | NAY
+ 19  5,1  | NIG
+ 19  3,3  - NIYOGA
  19  3,4  - SAYING
  19  5,3  - SOWING
  19  4,4  - SWING
@@ -114,17 +147,29 @@
  19  5,6  | WAINS
  19  7,6  | WAINS
  19  5,4  - WINGY
+ 19  5,6  | WYN
+ 19  7,6  | WYN
  19  5,6  | YANG
  19  5,4  | YAW
  19  5,6  | YAWN
+ 19  5,7  | YAWN
+ 19  7,7  | YAWN
  19  5,1  | YINS
  19  5,3  - YOGINS
+ 18  5,5  | AWIN
  18  5,5  | AYINS
  18  6,6  - EASING
+ 18  5,3  - GOYIN
+ 18  2,2  - INGAN
+ 18  5,1  | NAIG
  18  5,1  | SAG
+ 18  2,6  - SANGEI
  18  7,6  | SAWING
+ 18  7,6  | SAWNY
  18  5,1  | SAY
  18  7,1  | SAY
+ 18  5,1  | SIG
+ 18  2,2  - SIWAN
  18  2,2  - SWAIN
  18  2,6  - SWINE
  18  5,6  | WAGS
@@ -132,20 +177,30 @@
  18  7,1  | WAIN
  18  5,6  | WAIN
  18  7,6  | WAIN
+ 18  7,1  | WASN
+ 18  5,6  | WASN
+ 18  7,6  | WASN
  18  5,6  | WAYS
  18  7,6  | WAYS
  18  5,6  | WIGS
  18  7,6  | WIGS
+ 18  5,3  - WONGA
+ 18  3,3  - WYSON
+ 18  5,7  | YAWS
+ 18  7,7  | YAWS
  18  5,3  - YOGIN
  17  5,2  | AG
  17  5,1  | AINS
  17  5,2  | AY
  17  7,2  | AY
+ 17  5,6  | AYINS
  17  7,1  | GAIN
  17  5,4  | GAY
  17  5,3  - GOWN
+ 17  5,3  - IOWANS
  17  6,3  - OWING
  17  7,6  | SAYING
+ 17  5,1  | SINA
  17  4,3  - SNOWY
  17  3,4  - SWAIN
  17  5,1  | WAN
@@ -156,22 +211,54 @@
  17  5,4  - WINGS
  17  5,6  | WINS
  17  7,6  | WINS
+ 17  5,6  | WY
+ 17  7,6  | WY
  17  5,6  | YAGIS
+ 17  5,7  | YAGIS
+ 17  7,7  | YAGIS
+ 17  5,7  | YANGS
+ 17  7,7  | YANGS
+ 17  5,7  | YAW
+ 17  7,7  | YAW
  17  5,6  | YAWS
+ 16  2,6  - ANGIE
+ 16  5,2  | ANS
+ 16  7,2  | ANS
+ 16  5,5  | ANY
+ 16  5,2  | ASG
  16  5,5  | AYIN
+ 16  5,6  | AYIN
+ 16  2,6  - GAINE
  16  4,4  - GAINS
  16  5,1  | GAN
  16  7,1  | GAN
  16  5,1  | GIN
+ 16  4,3  - GNOW
+ 16  5,3  - GONYS
+ 16  5,7  | IGNAW
+ 16  7,7  | IGNAW
  16  5,2  | INS
+ 16  4,4  - ISING
+ 16  5,5  | IWA
+ 16  7,5  | IWA
+ 16  5,6  | NAIG
+ 16  7,6  | NAIG
+ 16  5,3  - NOWY
+ 16  5,6  | NYAS
+ 16  7,6  | NYAS
  16  7,6  | SAGY
  16  5,3  | SAIN
  16  2,6  - SINGE
+ 16  5,3  - SONGY
+ 16  5,3  - SOWAN
+ 16  6,5  - SWANGY
  16  6,5  - SWINGY
  16  4,7  - WADING
  16  5,6  | WAG
  16  7,6  | WAG
  16  4,4  - WAIN
+ 16  2,6  - WAISE
+ 16  3,7  - WANDY
  16  5,6  | WAY
  16  7,6  | WAY
  16  5,6  | WIG
@@ -180,16 +267,20 @@
  16  5,4  - WING
  16  3,3  - WINOS
  16  5,4  - WINY
- 16  5,3  - WOGS
+ 16  5,3  - WONG
  16  3,7  - WYNDS
  16  5,3  | YA
  16  5,6  | YAGI
- 16  5,6  | YAGS
+ 16  5,7  | YAGI
+ 16  7,7  | YAGI
+ 16  5,7  | YANG
+ 16  7,7  | YANG
  16  3,2  - YAWNING
  16  5,1  | YIN
  16  5,3  - YOGAS
  16  5,3  - YOGIS
  16  5,3  - YOWS
+ 15  3,3  - AGNOSY
  15  4,3  - AGONY
  15  5,7  | AWING
  15  7,7  | AWING
@@ -198,17 +289,24 @@
  15  5,4  | GAN
  15  3,5  - GAWSY
  15  5,4  | GIN
+ 15  6,4  - IGNAW
+ 15  2,3  - ISAGON
+ 15  2,3  - SAIGON
  15  7,1  | SAIN
  15  7,6  | SANG
  15  5,4  | SAW
  15  7,6  | SAWN
  15  7,6  | SIGNA
+ 15  5,4  | SINA
+ 15  7,4  | SINA
  15  7,6  | SING
+ 15  7,6  | SIWAN
  15  5,6  | WAN
  15  7,6  | WAN
  15  1,5  - WIGANS
  15  5,6  | WIN
  15  7,6  | WIN
+ 15  3,7  - WINDAS
  15  5,3  - WOG
  15  3,7  - WYND
  15  5,6  | YAW
@@ -216,31 +314,48 @@
  15  5,6  | YINS
  15  5,3  - YOW
  15  4,4  - YWIS
+ 15  5,7  | YWIS
+ 15  7,7  | YWIS
  14  5,1  | AIN
  14  7,2  | AIN
+ 14  5,5  - ASWING
  14  6,7  - DAWING
+ 14  6,7  - DAWNY
  14  6,7  - DINGY
+ 14  6,7  - DWANG
  14  6,7  - DYINGS
  14  5,3  - GONIA
+ 14  5,3  - GONY
+ 14  5,3  - GOSAIN
  14  5,3  - GOYS
+ 14  5,1  | IAN
+ 14  7,1  | IAN
+ 14  3,4  - IGNIS
  14  5,6  | NAGS
  14  7,6  | NAGS
+ 14  5,1  | NAIS
+ 14  7,1  | NAIS
  14  5,6  | NAYS
  14  7,6  | NAYS
  14  2,3  - NGAIOS
+ 14  2,2  - NISAN
+ 14  6,2  - NISAN
+ 14  5,3  - NOGAI
  14  5,3  - NOISY
+ 14  5,3  - NOSIG
  14  5,3  - NOWS
+ 14  3,3  - SAGOIN
  14  5,1  | SAN
  14  7,1  | SAN
  14  7,6  | SIGN
  14  5,1  | SIN
  14  4,3  - SNOW
  14  2,5  - SWAGS
+ 14  3,2  - SWANGY
  14  2,5  - SWAYS
  14  2,5  - SWIGS
  14  6,5  - SWINGS
  14  3,2  - SWINGY
- 14  6,5  - SYNGAS
  14  3,7  - WANDS
  14  5,6  | WAS
  14  7,6  | WAS
@@ -251,31 +366,41 @@
  14  7,6  | WIS
  14  5,4  - WISING
  14  5,3  - WONS
- 14  3,5  - WYNS
- 14  5,6  | YAG
+ 14  5,7  | YINS
+ 14  7,7  | YINS
  14  5,3  - YOGA
  14  5,3  - YOGI
  14  5,3  - YONIS
  13  4,3  - AGONS
+ 13  5,7  | AGY
+ 13  7,7  | AGY
  13  5,2  | AN
  13  7,2  | AN
  13  5,5  | ANIS
  13  4,2  - AWNING
  13  5,7  | AWNS
  13  7,7  | AWNS
+ 13  6,7  - DAYING
  13  6,7  - DYING
  13  4,4  - GAIN
+ 13  3,5  - GANSY
  13  2,5  - GNAWS
  13  5,3  - GOY
  13  5,2  | IN
+ 13  6,4  - INGA
+ 13  5,7  | INGA
+ 13  7,7  | INGA
  13  5,6  | NAW
  13  7,6  | NAW
+ 13  3,4  - NGAI
  13  5,3  - NOW
  13  6,3  - OWNS
  13  6,5  - SAWING
+ 13  6,5  - SAWNY
  13  5,4  | SAY
  13  5,4  - SING
  13  6,5  - SNAWS
+ 13  4,3  - SNOGA
  13  5,3  - SOWN
  13  6,5  - SWAGS
  13  6,5  - SWANG
@@ -285,7 +410,7 @@
  13  6,5  - SWIGS
  13  6,5  - SWING
  13  1,5  - SWINGS
- 13  1,5  - SYNGAS
+ 13  7,6  | SYN
  13  3,5  - WAGS
  13  3,7  - WAND
  13  4,2  - WANING
@@ -297,9 +422,14 @@
  13  3,7  - WIND
  13  4,2  - WINGY
  13  5,1  | WIS
+ 13  5,3  - WOAN
  13  5,3  - WON
+ 13  3,5  - WYSS
  13  5,6  | YIN
+ 13  5,7  | YIN
+ 13  7,7  | YIN
  12  4,3  - AGON
+ 12  5,2  | AIS
  12  7,2  | AIS
  12  5,5  | ANI
  12  2,6  - ANISE
@@ -308,11 +438,14 @@
  12  5,5  - ASSIGN
  12  5,5  | AW
  12  4,6  - AWEING
+ 12  5,7  | AWIN
+ 12  7,7  | AWIN
  12  5,7  | AWN
  12  7,7  | AWN
  12  4,4  - AYINS
  12  5,7  | AYINS
  12  7,7  | AYINS
+ 12  5,6  | AYS
  12  6,7  - DANGS
  12  6,7  - DAWNS
  12  6,7  - DINGS
@@ -320,37 +453,67 @@
  12  5,1  | GAS
  12  7,1  | GAS
  12  3,5  - GASSY
+ 12  5,1  | GIS
  12  5,2  - GNAWN
+ 12  5,3  - GONA
+ 12  6,4  - IGNIS
+ 12  6,4  - ING
+ 12  5,7  | ING
+ 12  7,7  | ING
  12  5,3  | NA
  12  5,6  | NAG
  12  7,6  | NAG
+ 12  5,6  | NAIS
+ 12  7,6  | NAIS
+ 12  5,6  | NASI
+ 12  7,6  | NASI
  12  5,6  | NAY
  12  7,6  | NAY
+ 12  2,3  - NGAIO
+ 12  5,6  | NIAS
+ 12  7,6  | NIAS
+ 12  5,6  | NIG
+ 12  7,6  | NIG
+ 12  3,2  - NIGNAY
  12  5,3  - NOGS
  12  7,6  | SAIN
  12  6,5  - SAYING
  12  5,4  - SIGNA
+ 12  2,6  - SINAE
  12  3,6  - SINEWY
  12  6,5  - SNAW
  12  4,3  - SNOG
+ 12  5,3  - SOIGN
+ 12  7,4  | SW
  12  6,5  - SWAG
  12  6,5  - SWAY
  12  6,5  - SWIG
+ 12  3,2  - WANNY
+ 12  4,2  - WANNY
  12  3,5  - WANS
  12  2,5  - WINGS
  12  3,5  - WINS
  12  3,2  - WYNNS
  12  4,2  - WYNNS
+ 12  5,1  | YAS
+ 12  7,1  | YAS
+ 12  5,6  | YAS
  12  2,5  - YAWNS
  12  3,5  - YAWS
+ 12  5,1  | YIS
+ 12  5,6  | YIS
  12  5,3  - YONI
  12  3,5  - YWIS
  11  5,7  | AGIN
  11  7,7  | AGIN
  11  5,4  | AIN
  11  5,6  | AINS
+ 11  3,3  - ANGO
+ 11  5,7  | ASG
+ 11  7,7  | ASG
  11  4,5  - ASSIGN
  11  3,2  - AWING
+ 11  5,6  | AY
  11  5,7  | AYIN
  11  7,7  | AYIN
  11  2,5  - AYINS
@@ -362,19 +525,35 @@
  11  3,2  - GINNY
  11  4,2  - GINNY
  11  5,2  - GNAWS
+ 11  5,3  - GOAN
+ 11  5,3  - GON
+ 11  5,7  | IGN
+ 11  7,7  | IGN
+ 11  4,2  - IGNAW
+ 11  4,4  - NAIG
  11  5,6  - NEWSY
+ 11  4,3  - NIOG
+ 11  5,1  | NIS
+ 11  7,4  | NIS
  11  5,3  - NOG
+ 11  5,3  - NOY
  11  6,3  - OWN
  11  6,5  - SAGY
+ 11  5,3  | SAI
  11  5,4  | SAN
  11  7,6  | SAW
+ 11  3,2  - SAWNY
  11  5,4  - SIGN
  11  5,4  | SIN
  11  7,4  | SIN
+ 11  7,6  | SINA
  11  6,5  - SINGS
+ 11  5,4  - SIWAN
  11  6,5  - SNAGS
  11  2,5  - SNAWS
+ 11  6,5  - SNIGS
  11  5,3  - SOW
+ 11  5,5  - SSING
  11  1,5  - SWAINS
  11  6,5  - SWAINS
  11  3,2  - SWANG
@@ -386,52 +565,86 @@
  11  3,6  - WINEY
  11  4,2  - WINGS
  11  3,5  - WISS
+ 11  5,3  - WOA
  11  5,3  - WOS
  11  3,2  - WYNN
  11  4,2  - WYNN
  11  5,6  | YA
  11  3,4  - YAGIS
- 11  3,5  - YAGS
  11  2,5  - YANGS
+ 11  5,7  | YAS
+ 11  7,7  | YAS
  11  3,2  - YAWNS
  11  5,6  | YI
+ 11  5,7  | YIS
+ 11  7,7  | YIS
  11  5,3  - YON
  10  3,3  - AGIOS
+ 10  4,3  - AGOS
  10  5,7  | AINS
  10  7,7  | AINS
  10  5,1  | AIS
+ 10  4,4  - AWIN
  10  4,2  - AWNY
  10  5,5  | AY
+ 10  6,7  - DANSY
+ 10  6,7  - DIAG
+ 10  4,2  - GANSY
+ 10  4,3  - GAON
+ 10  3,2  - GAWN
+ 10  5,6  - GENYS
+ 10  5,6  - GEYAN
  10  5,4  | GI
  10  3,5  - GINS
  10  5,2  - GNAW
  10  5,3  - GOAS
+ 10  5,3  - GOIS
+ 10  4,6  - GWEN
+ 10  3,3  - IAGO
+ 10  6,4  - IGN
  10  7,3  | IN
+ 10  6,4  - ISING
+ 10  5,7  | IWA
+ 10  7,7  | IWA
+ 10  5,6  | NIS
+ 10  7,6  | NIS
  10  5,3  - NOSY
+ 10  3,5  - NYSSA
  10  7,6  | SAG
  10  3,3  - SAGO
+ 10  5,1  | SAI
+ 10  7,1  | SAI
  10  3,7  - SANDY
  10  6,5  - SANG
  10  4,2  - SANING
  10  6,5  - SAWN
  10  7,6  | SAY
+ 10  7,6  | SIG
  10  6,5  - SIGNA
  10  6,5  - SIGNS
  10  6,5  - SING
+ 10  6,5  - SIWAN
  10  6,5  - SNAG
  10  2,5  - SNAGS
+ 10  6,5  - SNIG
+ 10  2,5  - SNIGS
+ 10  5,3  - SOGA
  10  5,3  - SONG
  10  5,3  - SOYA
+ 10  6,5  - SSING
  10  6,5  - SWAIN
  10  6,5  - SWAN
  10  4,7  - WADY
  10  3,6  - WAGES
  10  2,5  - WAINS
+ 10  4,2  - WANG
  10  4,2  - WANY
  10  4,2  - WING
+ 10  3,2  - WINNA
+ 10  4,2  - WINNA
  10  5,4  - WINS
  10  4,2  - WINY
- 10  4,2  - WYNS
+ 10  3,6  - WYNE
  10  5,4  | YA
  10  3,4  - YAGI
  10  2,5  - YAGIS
@@ -440,14 +653,16 @@
  10  5,4  | YI
  10  3,5  - YINS
   9  4,4  - AGIN
-  9  5,7  | AGS
-  9  7,7  | AGS
+  9  5,2  | AI
   9  7,2  | AI
   9  5,6  | AIN
   9  5,7  | AIN
   9  7,7  | AIN
   9  5,7  | ANIS
   9  7,7  | ANIS
+  9  3,4  - ANSI
+  9  5,7  | ANSI
+  9  7,7  | ANSI
   9  5,2  | AS
   9  7,2  | AS
   9  3,5  - AWNS
@@ -456,64 +671,124 @@
   9  7,7  | AYS
   9  6,7  - DAISY
   9  6,7  - DAWS
+  9  6,7  - DISNA
   9  2,5  - GAINS
   9  4,5  - GASSY
   9  5,4  - GINS
   9  5,3  - GOA
+  9  5,3  - GOI
+  9  3,6  - GYNE
+  9  5,7  | IAN
+  9  7,7  | IAN
+  9  5,2  - INGAN
   9  5,2  | IS
+  9  5,7  | ISN
+  9  7,7  | ISN
   9  4,4  - IWIS
   9  6,4  - IWIS
   9  5,6  | NA
   9  7,6  | NA
   9  3,5  - NAGS
+  9  4,4  - NAIS
   9  3,5  - NAYS
+  9  3,5  - NYAS
+  9  4,7  - NYDIA
   9  6,3  - OW
   9  7,6  | SAN
   9  2,7  - SAYID
   9  5,6  - SEWAN
+  9  5,6  - SEWIN
+  9  5,4  | SIA
   9  6,5  - SIGN
   9  2,5  - SIGNS
   9  7,6  | SIN
   9  3,6  - SINEW
   9  2,5  - SINGS
+  9  4,4  - SNIG
+  9  5,3  - SOG
   9  5,3  - SOY
+  9  3,7  - SWAD
+  9  3,7  - SYND
+  9  6,5  - SYSIN
   9  4,7  - WADIS
+  9  4,6  - WAEG
   9  3,6  - WAGE
   9  3,2  - WAINS
   9  3,6  - WANES
   9  5,6  - WEANS
+  9  5,6  - WEGA
+  9  5,6  - WEYS
   9  3,6  - WINES
+  9  3,6  - WISEN
   9  5,3  - WO
   9  4,6  - WYES
   9  4,2  - WYN
+  9  4,5  - WYSS
+  9  5,7  | YA
+  9  7,7  | YA
   9  4,2  - YANG
   9  5,6  - YEWS
+  9  5,7  | YI
+  9  7,7  | YI
   9  5,4  - YINS
   8  3,3  - AGIO
+  8  3,6  - AGNES
   8  4,3  - AGO
+  8  4,3  - AION
   8  5,6  | AIS
   8  5,5  | AN
+  8  4,7  - ANDY
   8  4,6  - ANEW
   8  5,7  | ANI
   8  7,7  | ANI
+  8  5,7  | ANS
+  8  7,7  | ANS
+  8  3,7  - ASGD
   8  5,7  | AW
   8  7,7  | AW
+  8  3,2  - AWIN
   8  4,2  - AWNS
+  8  4,6  - AYENS
   8  3,2  - AYINS
   8  6,7  - DAGS
+  8  6,7  - DAIN
   8  6,7  - DAYS
+  8  6,7  - DIAN
   8  6,7  - DIGS
+  8  6,7  - DYAS
   8  4,7  - GADIS
   8  3,2  - GAINS
+  8  5,6  - GESAN
+  8  3,2  - GINN
+  8  4,2  - GINN
+  8  4,2  - GYN
+  8  3,6  - GYSE
+  8  6,4  - IAN
+  8  3,7  - IGAD
   8  5,5  | IN
   8  7,5  | IN
+  8  4,7  - INDY
   8  5,7  | INS
   8  7,7  | INS
   8  5,3  - IONS
+  8  5,3  | IS
   8  7,3  | IS
+  8  6,4  - ISN
+  8  2,7  - ISNAD
+  8  6,4  - IWA
   8  4,4  - IWI
   8  6,4  - IWI
+  8  3,7  - NAID
+  8  3,3  - NAIO
+  8  3,3  - NASO
   8  5,6  - NEWS
+  8  3,4  - NIAIS
+  8  5,4  - NIAIS
+  8  4,2  - NING
+  8  6,2  - NING
+  8  4,5  - NYSSA
+  8  6,3  - ONY
+  8  7,6  | SAI
   8  6,5  - SAINS
   8  3,2  - SAWN
   8  3,5  - SAWS
@@ -521,16 +796,25 @@
   8  5,6  - SEGNI
   8  5,6  - SENGI
   8  5,6  - SEWN
+  8  3,7  - SGAD
+  8  7,6  | SIA
   8  3,2  - SIGNA
+  8  4,3  - SION
   8  5,2  - SNAW
+  8  4,6  - SNEW
   8  3,2  - SWAN
+  8  6,5  - SWY
+  8  4,5  - SYSIN
   8  4,7  - WADI
   8  4,7  - WADS
   8  3,2  - WAIN
   8  3,6  - WANE
   8  4,2  - WANS
+  8  3,2  - WASN
+  8  4,5  - WASN
   8  5,6  - WEAN
   8  5,6  - WENS
+  8  5,6  - WEY
   8  5,4  - WIG
   8  3,6  - WINE
   8  4,2  - WINS
@@ -541,26 +825,33 @@
   7  5,6  - AEGIS
   7  5,7  | AG
   7  7,7  | AG
+  7  4,6  - AGEN
   7  3,2  - AGIN
   7  5,6  | AI
   7  5,4  - AINS
   7  5,7  | AIS
   7  7,7  | AIS
   7  4,4  - ANIS
+  7  4,7  - AWD
   7  4,6  - AWES
   7  4,2  - AWN
   7  5,7  | AY
   7  7,7  | AY
   7  3,2  - AYIN
-  7  6,7  - DANS
+  7  3,6  - AYNE
+  7  6,7  - DANI
   7  6,7  - DAW
   7  6,7  - DINS
+  7  6,7  - DYN
   7  6,6  - ENGS
   7  4,7  - GADI
   7  4,7  - GADS
   7  4,6  - GAEN
   7  3,2  - GAIN
   7  3,6  - GANE
+  7  5,6  - GEAN
+  7  5,6  - GEIN
+  7  5,6  - GEISA
   7  5,6  - GENA
   7  5,6  - GENS
   7  5,6  - GEY
@@ -569,19 +860,28 @@
   7  4,6  - GIEN
   7  4,2  - GINS
   7  5,3  - GO
+  7  4,6  - GYE
+  7  5,2  - INGA
   7  4,4  - INIA
   7  6,4  - INIA
   7  5,3  - ION
   7  6,2  - NAGS
+  7  6,2  - NAIG
+  7  3,5  - NAIS
   7  4,3  - NAOI
   7  4,3  - NAOS
+  7  3,4  - NASI
   7  6,2  - NAW
   7  6,2  - NAYS
-  7  5,6  - NEGS
   7  5,6  - NEW
+  7  6,2  - NGAI
+  7  5,4  - NIAS
+  7  3,5  - NIAS
   7  3,4  - NISI
   7  5,4  - NISI
+  7  5,3  - NOA
   7  5,3  - NOS
+  7  6,2  - NYAS
   7  6,3  - OY
   7  3,5  - SAGS
   7  6,5  - SAGS
@@ -590,20 +890,28 @@
   7  2,5  - SAINS
   7  3,7  - SAND
   7  4,2  - SANG
+  7  3,5  - SANSI
+  7  6,5  - SANSI
   7  6,5  - SASIN
   7  3,5  - SAYS
   7  6,5  - SAYS
   7  7,6  | SI
+  7  4,7  - SIDY
   7  3,2  - SIGN
+  7  5,4  - SINA
+  7  3,7  - SIND
   7  4,2  - SING
   7  5,2  - SNAG
+  7  5,2  - SNIG
   7  3,6  - SNYE
   7  5,3  - SON
   7  3,6  - SYNE
   7  4,7  - WAD
   7  4,6  - WAES
   7  4,2  - WAN
+  7  3,6  - WASE
   7  5,6  - WEN
+  7  4,7  - WID
   7  4,2  - WIN
   7  5,4  - WIN
   7  3,6  - WISE
@@ -611,50 +919,78 @@
   7  5,1  | YA
   7  7,1  | YA
   7  5,6  - YEAN
+  7  5,6  - YENI
   7  5,6  - YENS
   7  5,1  | YI
   7  4,2  - YINS
   7  5,3  - YO
+  6  5,7  - ADIN
+  6  5,7  - ADY
   6  4,6  - AGES
   6  5,4  | AI
   6  3,5  - AINS
   6  5,7  | AN
   6  7,7  | AN
+  6  4,7  - ANDI
   6  4,7  - ANDS
   6  4,4  - ANI
   6  3,5  - ANIS
+  6  4,2  - ANNI
+  6  5,2  - ANNI
   6  5,2  - ANY
   6  4,6  - AWE
   6  4,6  - AYES
   6  6,7  - DAG
   6  6,7  - DAIS
+  6  6,7  - DASI
   6  6,7  - DAY
+  6  6,7  - DIAS
   6  6,7  - DIG
+  6  6,7  - DISA
+  6  6,7  - DYS
   6  6,6  - EASY
   6  6,6  - EGIS
   6  6,6  - ENG
   6  6,6  - EYAS
+  6  6,6  - EYN
   6  4,7  - GAD
   6  4,6  - GAES
   6  4,2  - GAN
+  6  5,7  - GDS
   6  5,6  - GEN
   6  4,7  - GID
   6  4,6  - GIES
   6  4,2  - GIN
   6  5,4  - GIN
+  6  4,3  - GIO
+  6  3,6  - GISE
+  6  5,2  - GNS
+  6  4,5  - GNS
+  6  4,2  - IGN
   6  5,7  | IN
   6  7,7  | IN
+  6  5,2  - ING
   6  4,2  - INNS
   6  5,2  - INNS
+  6  4,3  - INO
   6  6,4  - INS
+  6  3,6  - INSEA
   6  7,5  | IS
+  6  4,7  - ISDN
   6  5,1  | NA
   6  7,1  | NA
   6  6,2  - NAG
-  6  4,2  - NANS
-  6  6,2  - NANS
+  6  3,2  - NAIN
+  6  6,2  - NAIN
   6  6,2  - NAY
   6  5,6  - NEG
+  6  6,2  - NIG
+  6  5,4  - NIG
+  6  4,2  - NINA
+  6  6,2  - NINA
+  6  4,6  - NYE
+  6  6,3  - ONA
+  6  6,3  - ONI
   6  6,3  - ONS
   6  3,6  - SAGE
   6  3,7  - SAID
@@ -663,85 +999,147 @@
   6  4,5  - SASIN
   6  6,5  - SAW
   6  5,6  - SEW
+  6  4,7  - SGD
   6  5,4  | SI
   6  7,4  | SI
+  6  4,6  - SIENA
+  6  6,5  - SINA
   6  3,5  - SINS
   6  6,5  - SINS
+  6  6,5  - SWA
+  6  4,7  - SYD
   6  4,2  - SYN
   6  6,5  - SYN
   6  4,6  - WAE
   6  4,5  - WAS
+  6  5,6  - WEA
+  6  5,6  - WEI
+  6  5,6  - WES
   6  5,4  - WIS
   6  4,5  - WIS
+  6  4,7  - YAD
   6  5,6  - YEAS
   6  5,6  - YEN
   6  4,2  - YIN
   6  5,4  - YIN
   5  4,6  - AGE
-  5  4,5  - AGS
   5  5,1  | AI
   5  5,7  | AI
   5  7,7  | AI
   5  4,7  - AIDS
+  5  3,6  - AINE
   5  4,2  - AINS
   5  4,7  - AND
   5  4,6  - ANES
   5  5,2  - ANIS
+  5  4,2  - ANN
+  5  5,2  - ANN
+  5  5,2  - ANSI
+  5  4,5  - ANSI
   5  5,7  | AS
   5  7,7  | AS
+  5  5,5  - ASG
+  5  4,5  - ASSN
+  5  5,5  - ASSN
   5  4,6  - AYE
   5  4,5  - AYS
   5  6,7  - DAN
   5  6,7  - DIN
+  5  6,7  - DY
   5  6,6  - EW
   5  4,6  - GAE
   5  4,5  - GAS
+  5  5,6  - GES
   5  4,6  - GIE
+  5  5,4  - GIS
+  5  4,5  - GIS
+  5  4,7  - IND
   5  4,2  - INN
   5  5,2  - INN
   5  5,7  | IS
   5  7,7  | IS
+  5  4,7  - NAD
+  5  6,2  - NAIS
   5  4,2  - NAN
   5  6,2  - NAN
+  5  6,2  - NASI
+  5  4,5  - NASI
+  5  6,2  - NIAS
+  5  4,7  - NID
+  5  4,6  - NIES
   5  5,3  - NO
   5  6,3  - ON
   5  4,7  - SADI
   5  6,5  - SAG
+  5  4,4  - SAI
   5  3,2  - SAIN
   5  3,6  - SANE
   5  6,5  - SAY
+  5  5,6  - SEAN
   5  5,6  - SEG
+  5  5,6  - SENA
   5  5,1  | SI
+  5  4,7  - SIDA
+  5  5,4  - SIG
+  5  6,5  - SIG
+  5  4,2  - SINA
   5  3,6  - SINE
+  5  6,5  - SW
+  5  4,6  - SYE
   5  5,6  - WE
+  5  4,5  - YAS
+  5  5,7  - YD
   5  5,6  - YEA
   5  5,6  - YES
+  5  5,4  - YIS
+  5  4,5  - YIS
   4  5,7  - ADS
   4  4,7  - AID
   4  4,2  - AIN
   4  5,4  - AIN
   4  4,6  - ANE
   4  5,2  - ANI
+  4  5,2  - ANS
+  4  4,5  - ANS
+  4  4,5  - ASSI
+  4  5,5  - ASSI
+  4  6,7  - DAS
+  4  6,7  - DIA
   4  6,7  - DIS
+  4  6,6  - EAN
   4  6,6  - ENS
   4  5,4  - GI
+  4  4,2  - IAN
+  4  4,3  - IAO
+  4  5,7  - IDA
   4  5,7  - IDS
   4  5,2  - INS
   4  4,5  - INS
+  4  4,2  - ISN
+  4  5,5  - ISN
   4  4,6  - NAE
+  4  5,6  - NEA
+  4  5,6  - NEI
+  4  6,2  - NIS
+  4  5,4  - NIS
+  4  4,5  - NIS
   4  4,7  - SAD
   4  4,2  - SAN
   4  6,5  - SAN
+  4  4,3  - SAO
   4  5,6  - SEN
+  4  4,7  - SID
   4  4,2  - SIN
   4  5,4  - SIN
   4  6,5  - SIN
   4  5,6  - YE
   4  5,4  - YI
   3  5,7  - AD
+  3  5,6  - AES
   3  5,4  - AIS
   3  4,5  - AIS
   3  5,2  - AN
+  3  4,6  - ASE
   3  4,5  - ASS
   3  5,5  - ASS
   3  6,7  - DA
@@ -750,16 +1148,24 @@
   3  5,7  - ID
   3  5,2  - IN
   3  6,4  - IN
+  3  5,3  - IO
+  3  4,6  - ISE
   3  6,2  - NA
   3  5,6  - NE
   3  6,3  - OI
   3  6,3  - OS
   3  4,6  - SAE
+  3  6,5  - SAI
   3  5,6  - SEA
   3  5,6  - SEI
+  3  5,4  - SIA
+  3  6,5  - SIA
+  3  4,6  - SIE
   3  4,5  - SIS
   3  6,5  - SIS
   3  5,3  - SO
+  3  5,5  - SSI
+  3  6,5  - SSI
   2  5,6  - AE
   2  5,4  - AI
   2  5,5  - AS

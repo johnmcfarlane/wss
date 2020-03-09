@@ -14,6 +14,10 @@
  26  7,8  - CEDING
  26  8,8  - CEDING
  26  8,8  | CEDING
+ 24  8,4  | BENIC
+ 24  4,8  - BENIC
+ 24  8,8  - BENIC
+ 24  8,8  | BENIC
  24  8,4  | CEBID
  24  4,8  - CEBID
  24  8,8  - CEBID
@@ -38,14 +42,30 @@
  22  4,8  - GIBED
  22  8,8  - GIBED
  22  8,8  | GIBED
+ 20  8,4  | BEDIN
+ 20  4,8  - BEDIN
+ 20  8,8  - BEDIN
+ 20  8,8  | BEDIN
  18  8,4  | DEIGN
  18  4,8  - DEIGN
  18  8,8  - DEIGN
  18  8,8  | DEIGN
+ 18  8,4  | DIGNE
+ 18  4,8  - DIGNE
+ 18  8,8  - DIGNE
+ 18  8,8  | DIGNE
  18  8,4  | DINGE
  18  4,8  - DINGE
  18  8,8  - DINGE
  18  8,8  | DINGE
+ 18  8,4  | GNIDE
+ 18  4,8  - GNIDE
+ 18  8,8  - GNIDE
+ 18  8,8  | GNIDE
+ 18  8,4  | NIDGE
+ 18  4,8  - NIDGE
+ 18  8,8  - NIDGE
+ 18  8,8  | NIDGE
  13  8,5  | BINGED
  13  8,6  | BINGED
  13  5,8  - BINGED
@@ -54,6 +74,12 @@
  13  8,6  | CEDING
  13  5,8  - CEDING
  13  6,8  - CEDING
+ 12  8,5  | BENIC
+ 12  8,6  | BENIC
+ 12  8,7  | BENIC
+ 12  5,8  - BENIC
+ 12  6,8  - BENIC
+ 12  7,8  - BENIC
  12  8,5  | CEBID
  12  8,6  | CEBID
  12  8,7  | CEBID
@@ -78,6 +104,14 @@
  11  5,8  - BINGE
  11  6,8  - BINGE
  11  7,8  - BINGE
+ 11  8,5  | EBCD
+ 11  8,6  | EBCD
+ 11  8,7  | EBCD
+ 11  5,8  - EBCD
+ 11  6,8  - EBCD
+ 11  7,8  - EBCD
+ 11  8,8  - EBCD
+ 11  8,8  | EBCD
  11  8,5  | GENIC
  11  8,6  | GENIC
  11  8,7  | GENIC
@@ -90,6 +124,26 @@
  11  5,8  - GIBED
  11  6,8  - GIBED
  11  7,8  - GIBED
+ 10  8,6  | BCD
+ 10  8,7  | BCD
+ 10  6,8  - BCD
+ 10  7,8  - BCD
+ 10  8,8  - BCD
+ 10  8,8  | BCD
+ 10  8,5  | BEDIN
+ 10  8,6  | BEDIN
+ 10  8,7  | BEDIN
+ 10  5,8  - BEDIN
+ 10  6,8  - BEDIN
+ 10  7,8  - BEDIN
+ 10  8,5  | BENG
+ 10  8,6  | BENG
+ 10  8,7  | BENG
+ 10  5,8  - BENG
+ 10  6,8  - BENG
+ 10  7,8  - BENG
+ 10  8,8  - BENG
+ 10  8,8  | BENG
  10  8,5  | BICE
  10  8,6  | BICE
  10  8,7  | BICE
@@ -98,6 +152,26 @@
  10  7,8  - BICE
  10  8,8  - BICE
  10  8,8  | BICE
+ 10  8,5  | BING
+ 10  8,6  | BING
+ 10  8,7  | BING
+ 10  5,8  - BING
+ 10  6,8  - BING
+ 10  7,8  - BING
+ 10  8,8  - BING
+ 10  8,8  | BING
+ 10  8,6  | DCB
+ 10  8,7  | DCB
+ 10  6,8  - DCB
+ 10  7,8  - DCB
+ 10  8,8  - DCB
+ 10  8,8  | DCB
+  9  8,6  | BEC
+  9  8,7  | BEC
+  9  6,8  - BEC
+  9  7,8  - BEC
+  9  8,8  - BEC
+  9  8,8  | BEC
   9  8,5  | BEND
   9  8,6  | BEND
   9  8,7  | BEND
@@ -114,18 +188,44 @@
   9  7,8  - BIND
   9  8,8  - BIND
   9  8,8  | BIND
+  9  8,6  | CDG
+  9  8,7  | CDG
+  9  6,8  - CDG
+  9  7,8  - CDG
+  9  8,8  - CDG
+  9  8,8  | CDG
   9  8,5  | DEIGN
   9  8,6  | DEIGN
   9  8,7  | DEIGN
   9  5,8  - DEIGN
   9  6,8  - DEIGN
   9  7,8  - DEIGN
+  9  8,5  | DIGNE
+  9  8,6  | DIGNE
+  9  8,7  | DIGNE
+  9  5,8  - DIGNE
+  9  6,8  - DIGNE
+  9  7,8  - DIGNE
   9  8,5  | DINGE
   9  8,6  | DINGE
   9  8,7  | DINGE
   9  5,8  - DINGE
   9  6,8  - DINGE
   9  7,8  - DINGE
+  9  8,6  | ECB
+  9  8,7  | ECB
+  9  6,8  - ECB
+  9  7,8  - ECB
+  9  8,8  - ECB
+  9  8,8  | ECB
+  9  8,5  | GEIC
+  9  8,6  | GEIC
+  9  8,7  | GEIC
+  9  5,8  - GEIC
+  9  6,8  - GEIC
+  9  7,8  - GEIC
+  9  8,8  - GEIC
+  9  8,8  | GEIC
   9  8,5  | GIBE
   9  8,6  | GIBE
   9  8,7  | GIBE
@@ -134,12 +234,54 @@
   9  7,8  - GIBE
   9  8,8  - GIBE
   9  8,8  | GIBE
+  9  8,5  | GNIDE
+  9  8,6  | GNIDE
+  9  8,7  | GNIDE
+  9  5,8  - GNIDE
+  9  6,8  - GNIDE
+  9  7,8  - GNIDE
+  9  8,6  | NBG
+  9  8,7  | NBG
+  9  6,8  - NBG
+  9  7,8  - NBG
+  9  8,8  - NBG
+  9  8,8  | NBG
+  9  8,5  | NIDGE
+  9  8,6  | NIDGE
+  9  8,7  | NIDGE
+  9  5,8  - NIDGE
+  9  6,8  - NIDGE
+  9  7,8  - NIDGE
   8  8,6  | BEG
   8  8,7  | BEG
   8  6,8  - BEG
   8  7,8  - BEG
   8  8,8  - BEG
   8  8,8  | BEG
+  8  8,5  | BEID
+  8  8,6  | BEID
+  8  8,7  | BEID
+  8  5,8  - BEID
+  8  6,8  - BEID
+  8  7,8  - BEID
+  8  8,8  - BEID
+  8  8,8  | BEID
+  8  8,5  | BEIN
+  8  8,6  | BEIN
+  8  8,7  | BEIN
+  8  5,8  - BEIN
+  8  6,8  - BEIN
+  8  7,8  - BEIN
+  8  8,8  - BEIN
+  8  8,8  | BEIN
+  8  8,5  | BENI
+  8  8,6  | BENI
+  8  8,7  | BENI
+  8  5,8  - BENI
+  8  6,8  - BENI
+  8  7,8  - BENI
+  8  8,8  - BENI
+  8  8,8  | BENI
   8  8,5  | BIDE
   8  8,6  | BIDE
   8  8,7  | BIDE
@@ -148,6 +290,14 @@
   8  7,8  - BIDE
   8  8,8  - BIDE
   8  8,8  | BIDE
+  8  8,5  | BIEN
+  8  8,6  | BIEN
+  8  8,7  | BIEN
+  8  5,8  - BIEN
+  8  6,8  - BIEN
+  8  7,8  - BIEN
+  8  8,8  - BIEN
+  8  8,8  | BIEN
   8  8,6  | BIG
   8  8,7  | BIG
   8  6,8  - BIG
@@ -184,6 +334,14 @@
   8  7,8  - CINE
   8  8,8  - CINE
   8  8,8  | CINE
+  8  8,5  | DEBI
+  8  8,6  | DEBI
+  8  8,7  | DEBI
+  8  5,8  - DEBI
+  8  6,8  - DEBI
+  8  7,8  - DEBI
+  8  8,8  - DEBI
+  8  8,8  | DEBI
   8  8,5  | DICE
   8  8,6  | DICE
   8  8,7  | DICE
@@ -192,6 +350,14 @@
   8  7,8  - DICE
   8  8,8  - DICE
   8  8,8  | DICE
+  8  8,5  | DIEB
+  8  8,6  | DIEB
+  8  8,7  | DIEB
+  8  5,8  - DIEB
+  8  6,8  - DIEB
+  8  7,8  - DIEB
+  8  8,8  - DIEB
+  8  8,8  | DIEB
   8  8,5  | DING
   8  8,6  | DING
   8  8,7  | DING
@@ -200,6 +366,12 @@
   8  7,8  - DING
   8  8,8  - DING
   8  8,8  | DING
+  8  8,6  | GEB
+  8  8,7  | GEB
+  8  6,8  - GEB
+  8  7,8  - GEB
+  8  8,8  - GEB
+  8  8,8  | GEB
   8  8,6  | GIB
   8  8,7  | GIB
   8  6,8  - GIB
@@ -246,6 +418,16 @@
   7  7,8  - BIN
   7  8,8  - BIN
   7  8,8  | BIN
+  7  8,7  | CG
+  7  7,8  - CG
+  7  8,8  - CG
+  7  8,8  | CG
+  7  8,6  | CID
+  7  8,7  | CID
+  7  6,8  - CID
+  7  7,8  - CID
+  7  8,8  - CID
+  7  8,8  | CID
   7  8,6  | DEB
   7  8,7  | DEB
   7  6,8  - DEB
@@ -258,6 +440,20 @@
   7  7,8  - DIB
   7  8,8  - DIB
   7  8,8  | DIB
+  7  8,6  | ENC
+  7  8,7  | ENC
+  7  6,8  - ENC
+  7  7,8  - ENC
+  7  8,8  - ENC
+  7  8,8  | ENC
+  7  8,5  | GEIN
+  7  8,6  | GEIN
+  7  8,7  | GEIN
+  7  5,8  - GEIN
+  7  6,8  - GEIN
+  7  7,8  - GEIN
+  7  8,8  - GEIN
+  7  8,8  | GEIN
   7  8,5  | GIED
   7  8,6  | GIED
   7  8,7  | GIED
@@ -274,6 +470,12 @@
   7  7,8  - GIEN
   7  8,8  - GIEN
   7  8,8  | GIEN
+  7  8,6  | INC
+  7  8,7  | INC
+  7  6,8  - INC
+  7  7,8  - INC
+  7  8,8  - INC
+  7  8,8  | INC
   7  8,6  | NEB
   7  8,7  | NEB
   7  6,8  - NEB
@@ -286,14 +488,18 @@
   7  7,8  - NIB
   7  8,8  - NIB
   7  8,8  | NIB
-  6  8,5  | DENI
-  6  8,6  | DENI
-  6  8,7  | DENI
-  6  5,8  - DENI
-  6  6,8  - DENI
-  6  7,8  - DENI
-  6  8,8  - DENI
-  6  8,8  | DENI
+  6  8,6  | CIE
+  6  8,7  | CIE
+  6  6,8  - CIE
+  6  7,8  - CIE
+  6  8,8  - CIE
+  6  8,8  | CIE
+  6  8,6  | DEG
+  6  8,7  | DEG
+  6  6,8  - DEG
+  6  7,8  - DEG
+  6  8,8  - DEG
+  6  8,8  | DEG
   6  8,6  | DIG
   6  8,7  | DIG
   6  6,8  - DIG
@@ -314,6 +520,14 @@
   6  7,8  - ENG
   6  8,8  - ENG
   6  8,8  | ENG
+  6  8,5  | ENID
+  6  8,6  | ENID
+  6  8,7  | ENID
+  6  5,8  - ENID
+  6  6,8  - ENID
+  6  7,8  - ENID
+  6  8,8  - ENID
+  6  8,8  | ENID
   6  8,6  | GED
   6  8,7  | GED
   6  6,8  - GED
@@ -344,6 +558,26 @@
   6  7,8  - ICE
   6  8,8  - ICE
   6  8,8  | ICE
+  6  8,6  | IGN
+  6  8,7  | IGN
+  6  6,8  - IGN
+  6  7,8  - IGN
+  6  8,8  - IGN
+  6  8,8  | IGN
+  6  8,5  | INDE
+  6  8,6  | INDE
+  6  8,7  | INDE
+  6  5,8  - INDE
+  6  6,8  - INDE
+  6  7,8  - INDE
+  6  8,8  - INDE
+  6  8,8  | INDE
+  6  8,6  | ING
+  6  8,7  | ING
+  6  6,8  - ING
+  6  7,8  - ING
+  6  8,8  - ING
+  6  8,8  | ING
   6  8,6  | NEG
   6  8,7  | NEG
   6  6,8  - NEG
@@ -358,6 +592,12 @@
   6  7,8  - NIDE
   6  8,8  - NIDE
   6  8,8  | NIDE
+  6  8,6  | NIG
+  6  8,7  | NIG
+  6  6,8  - NIG
+  6  7,8  - NIG
+  6  8,8  - NIG
+  6  8,8  | NIG
   5  8,7  | BE
   5  7,8  - BE
   5  8,8  - BE
@@ -390,12 +630,34 @@
   5  7,8  - GIE
   5  8,8  - GIE
   5  8,8  | GIE
+  5  8,7  | IB
+  5  7,8  - IB
+  5  8,8  - IB
+  5  8,8  | IB
+  5  8,6  | IND
+  5  8,7  | IND
+  5  6,8  - IND
+  5  7,8  - IND
+  5  8,8  - IND
+  5  8,8  | IND
   5  8,6  | NED
   5  8,7  | NED
   5  6,8  - NED
   5  7,8  - NED
   5  8,8  - NED
   5  8,8  | NED
+  5  8,6  | NID
+  5  8,7  | NID
+  5  6,8  - NID
+  5  7,8  - NID
+  5  8,8  - NID
+  5  8,8  | NID
+  4  8,6  | DEI
+  4  8,7  | DEI
+  4  6,8  - DEI
+  4  7,8  - DEI
+  4  8,8  - DEI
+  4  8,8  | DEI
   4  8,6  | DIE
   4  8,7  | DIE
   4  6,8  - DIE
@@ -412,6 +674,12 @@
   4  7,8  - IDE
   4  8,8  - IDE
   4  8,8  | IDE
+  4  8,6  | NEI
+  4  8,7  | NEI
+  4  6,8  - NEI
+  4  7,8  - NEI
+  4  8,8  - NEI
+  4  8,8  | NEI
   3  8,7  | DE
   3  7,8  - DE
   3  8,8  - DE

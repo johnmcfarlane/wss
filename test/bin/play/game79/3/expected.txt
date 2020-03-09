@@ -1,7 +1,19 @@
+ 32  8,8  - VSS
+ 31  6,7  - SHEL
  30  1,1  - SUSSED
  28  3,7  - HUES
+ 28  3,7  - HUSE
+ 28  3,7  - HUSS
+ 28  5,7  - USH
  27  4,7  - HUES
+ 27  4,7  - HUSE
+ 27  4,7  - HUSS
+ 27  3,1  - SHEDU
+ 27  7,8  - UHS
+ 27  5,7  - VSS
  26  6,7  - EH
+ 26  7,8  - HUSE
+ 26  7,8  - HUSS
  26  6,7  - SH
  26  4,7  - SHES
  26  4,2  - SHIVERS
@@ -11,20 +23,32 @@
  25  4,7  - SUSS
  25  3,7  - USES
  25  4,7  - USES
+ 25  8,8  - USH
+ 25  4,7  - VSS
+ 24 10,6  | CUSSES
  24  4,7  - HUE
  24  3,1  - HUED
  24  6,8  - HUES
+ 24  6,8  - HUSS
+ 24  4,7  - SESS
+ 24  8,3  - SEVE
  24  3,1  - SHEDS
  24  3,7  - SUES
  24  3,7  - SUSS
  24  7,8  - SUSS
+ 24  4,7  - UHS
  24  5,7  - USE
  24  8,8  - USES
  24  8,3  - VEES
+ 24  8,3  - VESE
+ 24  7,8  - VSS
  23  5,7  - ESS
+ 23 10,1  | HES
  23  4,7  - HES
+ 23  3,7  - SESS
  23  4,7  - SHE
  23  6,8  - SHES
+ 23  7,8  - SUS
  23  8,8  - USE
  22  6,7  - ES
  22  5,7  - HE
@@ -32,55 +56,108 @@
  22  9,8  - SEV
  22  4,7  - SUE
  22  6,8  - SUES
+ 22  4,7  - SUS
  22  6,8  - SUSS
  22  8,8  - US
  22  4,7  - USE
  22  6,8  - USES
+ 22  7,1  | USH
  21  4,7  - ESS
+ 21  8,8  - ESU
  21  9,3  - EVE
  21  8,6  | REVS
+ 21  6,8  - SESS
+ 21  7,8  - SESS
  21  3,1  - SHED
+ 21  9,8  - SHU
+ 21  8,8  - SSU
  21  5,7  - US
  20  5,7  - ES
  20  7,8  - ESS
  20  8,8  - ESS
+ 20 10,2  | ESU
  20  8,6  | REV
+ 20  4,3  - SHAVEE
  20  9,8  - SHE
  20  5,2  - SIVERS
+ 20  2,2  - SUEVI
  19  6,1  | DIAZINES
  19  8,8  - ES
+ 19 10,1  | HE
  19  9,8  - SH
+ 19  2,3  - SHEVA
+ 19  9,8  - SSU
  19  9,8  - SUE
+ 19  9,8  - SUS
  18  6,1  | DIAZINE
  18  6,1  | DIAZINS
+ 18  8,1  | HUE
  18  3,1  - SUED
- 18  2,2  - SUSHIS
+ 18  3,4  - SUEZ
  18  3,1  - USED
+ 17  5,3  - HAV
+ 16 10,6  | CUVE
  16 10,2  | EH
  16  5,2  | SH
  16  7,2  | SH
  16  2,2  - SUSHI
  15  9,1  | PREBOILS
+ 15 10,5  | SCUSE
+ 15  3,1  - SSED
+ 15  4,4  - SUZ
+ 15  8,1  | UH
  15  5,3  - VAU
+ 14 10,6  | CUSH
+ 14 10,5  | ECUS
  14  9,1  - PEH
+ 14  8,6  | REH
  14  9,2  - REV
  14  4,4  - SEZ
  14  5,2  - SIEURS
+ 14  7,1  | USE
+ 14  3,3  - USHAS
  14  3,3  - UVEAS
+ 13 10,5  | ECU
+ 13 10,4  | ESC
+ 13  5,3  - HAUSE
+ 13  8,1  | HE
  13 10,3  | HE
+ 13  9,1  - PHU
+ 13  5,3  - SAUVE
+ 13  7,5  | SAUVE
+ 13  5,3  - SAV
+ 13  4,3  - UVA
  13  5,3  - VAS
+ 12 10,6  | CUES
+ 12 10,6  | CUSS
+ 12  8,2  - ERSH
  12  7,1  | ESS
+ 12  9,3  - ESU
+ 12  4,3  - EVA
+ 12  7,7  - HEL
  12  7,5  | SAVES
  12  8,3  - SEES
+ 12  8,3  - SESS
  12  4,2  - SHIVER
+ 12  2,5  - SUEVI
+ 12  8,2  | UH
  12  3,3  - UVEA
+ 12  4,3  - VEAU
+ 11 10,6  | CUE
  11  5,1  | EH
+ 11  5,3  - HAU
+ 11  5,2  - HIVER
  11  8,6  | RESH
  11  7,5  | SASHES
  10  8,2  | EH
  10 10,2  | ES
+ 10  8,2  | HE
+ 10  8,2  - HRS
+ 10  9,2  - REH
+ 10  9,2  - RHE
  10  5,3  - SASHES
  10  7,5  | SAVE
+ 10  4,3  - SEAH
  10  3,3  - SHEAS
  10  4,2  - SHIV
  10  8,1  - SPUE
@@ -91,17 +168,27 @@
   9  5,3  - HAE
   9  5,3  - HAS
   9  9,1  - PUS
+  9  5,3  - SAH
+  9  7,5  | SAV
   9  5,2  - SIVER
+  9  7,1  | US
   8  6,3  - ASHES
   8  7,6  | ASHES
+  8  9,4  - BSH
+  8  4,3  - ESAU
+  8  8,5  - HO
+  8  8,5  | HR
   8  9,1  - PES
   8  8,6  | RES
   8  9,2  - RUE
+  8  9,2  - RUS
   8  7,5  | SASH
+  8  7,5  | SASSE
   8  7,7  - SEL
   8  4,3  - SHA
   8  3,3  - SHEA
   8  3,5  - SHUI
+  8  8,2  - URS
   7  6,3  - AH
   7  7,6  | AVE
   7  9,4  - BUS
@@ -109,55 +196,98 @@
   7  5,1  | ES
   7  7,1  | ES
   7  5,3  - HA
+  7  8,1  - HP
+  7  4,1  - HUD
+  7  9,1  - PH
+  7  7,5  | SAH
+  7  5,3  - SASSE
   7  5,3  - SAU
+  7  2,3  - SESSA
   7  8,3  - SEV
   7  3,2  - SHUI
   7  8,1  - UPS
   7  8,3  - VEE
+  7  4,2  - VEI
+  7  4,5  - VEI
   7  5,2  - VIE
   7  5,2  - VIS
+  6  7,6  | AHU
   6  6,3  - ASSES
   6  7,6  | ASSES
+  6  7,6  | AUH
+  6  9,4  - BU
   6  5,1  - EDH
   6  8,2  - ERS
+  6  4,1  - HED
+  6  4,2  - HUI
+  6  4,5  - HUI
   6  9,2  - RES
   6  7,5  | SASS
   6  7,5  | SAU
   6  4,3  - SEAS
   6  5,2  - SIEUR
+  6  4,1  - SUDE
   6  4,1  - SUDS
+  6  3,5  - SUSI
+  6  3,2  - SUSIE
   6  8,1  - UP
   5  7,6  | AHS
   5  7,6  | ASH
+  5  6,3  - ASSE
+  5  7,6  | ASSE
   5  9,4  - BE
   5  8,7  - EL
+  5  8,3  - HEE
+  5  4,2  - HEI
+  5  4,5  - HEI
   5  8,3  - HES
   5  5,2  - HIE
   5  5,2  - HIS
+  5  4,2  - HSI
+  5  4,5  - HSI
   5  9,1  - PE
   5  8,6  | RE
   5  5,3  - SAE
   5  7,5  | SAE
+  5  4,2  - SHI
+  5  4,5  - SHI
+  5  4,1  - SUD
+  5  3,2  - SUSI
+  5  5,1  - UDS
+  5  4,3  - USA
   4  7,6  | AH
-  4  5,1  - EDS
+  4  7,6  | AUS
+  4  6,1  - DU
   4  9,3  - EH
   4  8,5  - EO
   4  8,5  | ER
+  4  4,1  - ESD
   4  8,3  - HE
   4  5,2  - HI
   4  5,5  - HI
+  4  8,2  - HR
   4  9,2  - RE
+  4  5,1  - SDS
   4  4,3  - SEA
+  4  4,1  - SED
   4  4,2  - SEIS
+  4  4,2  - SUI
+  4  4,5  - SUI
   3  6,3  - AE
+  3  7,6  | AES
   3  6,3  - AS
+  3  7,6  | ASE
   3  7,6  | ASS
   3  6,1  - DE
   3  5,1  - ED
   3  8,3  - SEE
   3  4,2  - SEI
   3  4,5  - SEI
+  3  5,2  - SIE
   3  5,2  - SIS
+  3  4,2  - SSI
+  3  4,5  - SSI
+  3  8,2  - UR
   2  7,6  | AE
   2  7,6  | AS
   2  8,3  - EE

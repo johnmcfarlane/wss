@@ -1,5 +1,15 @@
+ 71  8,8  - QAF
+ 39  8,6  | COPIA
+ 38 10,5  | QAF
+ 35  8,7  | APIO
+ 35  8,8  | FIP
  33  9,11 - LOQ
+ 32 10,5  | PCF
+ 30  5,3  | QAF
+ 29  8,8  - FAE
  29  8,8  | PIA
+ 28 10,4  | COEF
+ 26 10,5  | CAF
  26  8,8  - FA
  26  8,8  | FI
  26  8,8  - PA
@@ -7,45 +17,91 @@
  25 10,4  | CAFE
  25 10,4  | CAPE
  25 10,4  | CAPO
+ 25 10,4  | CEPA
+ 25 10,4  | COPA
  25 10,4  | COPE
  25 10,4  | FACE
+ 25  9,10 - IFE
  25 10,4  | PACE
+ 25 10,4  | PACO
+ 24 10,6  | CF
+ 24  2,6  - PECORA
+ 24 10,6  | PF
+ 23  8,4  | CAPO
+ 23  8,4  | CEPA
+ 23  8,4  | COPA
  23 10,5  | CPA
+ 23 10,5  | CPO
+ 23  8,4  | PACO
  22  2,6  - CAPER
  22  2,6  - COPER
+ 22 10,9  | EOF
  22  2,6  - FACER
  22  2,6  - PACER
+ 22  7,4  | QAF
  21  5,3  | CAFE
  21  5,3  | CAPE
  21  5,3  | CAPO
+ 21  5,3  | CEPA
+ 21  7,3  | COEF
+ 21  5,3  | COPA
  21  5,3  | COPE
+ 21  5,3  | FCP
  21  8,10 - FIE
- 21  8,10 - PIE
+ 21  5,3  | PCF
+ 20  7,11 - CALEF
  20 10,9  | EF
+ 20 10,5  | EOF
  20  9,10 - IF
+ 20 10,5  | OAF
+ 19  5,2  | ACOP
  19  8,11 - CLAP
  19  8,11 - CLEF
+ 19  8,11 - CLEP
+ 19  8,11 - CLOF
  19  8,11 - CLOP
+ 19  2,8  - COPEI
  19  8,11 - FLAP
  19  8,11 - FLOC
  19  8,11 - FLOP
  19  7,8  | FOP
+ 18  5,3  | CAF
  18  5,3  | CAP
  18  5,3  | CEP
  18  5,3  | COP
+ 18 10,6  | EF
  18  5,3  | FOP
+ 18  5,7  | FP
+ 18 10,6  | OF
  17 10,5  | ACE
  17 10,5  | APE
- 17 10,5  | APO
+ 17  4,8  - CFI
+ 17 10,5  | COE
+ 17 10,5  | ECO
+ 17 10,5  | EPA
+ 17 10,5  | FAE
  17 10,5  | FOE
  17  8,8  - OAF
  17 10,5  | OCA
+ 17 10,5  | OPA
  17 10,5  | OPE
  17 10,5  | PEA
- 17  7,8  | POOF
+ 17 10,5  | POA
+ 17 10,5  | POE
  16  8,11 - ALEC
  16  8,11 - ALEF
+ 16  8,11 - ALOP
+ 16  7,4  | CAF
+ 16  5,2  | COEF
  16  5,4  | CPA
+ 16  5,4  | CPO
+ 16 10,7  | FAE
+ 16 10,7  | FEE
+ 16  5,6  - FREQ
+ 16  8,11 - OLAF
+ 16 11,8  | PDQ
+ 15  4,10 - ACOP
+ 15  6,5  - AFACE
  15  6,5  - APACE
  15  4,10 - COOF
  15  4,10 - COOP
@@ -54,99 +110,177 @@
  15  7,3  | CPA
  15 11,9  | DAP
  15 11,9  | DEF
+ 15 11,9  | DEP
  15 11,9  | DOC
+ 15 11,9  | DOP
+ 15  5,6  | EOF
  15 10,6  | FA
+ 15  3,8  - FACIE
+ 15  5,5  | FAE
+ 15  5,5  - FAQ
  15 10,6  | FE
  15  5,5  | FOE
  15  9,11 - LAC
  15  9,11 - LAP
+ 15  9,11 - LEP
+ 15  9,11 - LOC
+ 15  9,11 - LOF
  15  9,11 - LOP
  15  5,6  | OAF
+ 15  3,8  - OPAI
  15 10,6  | PA
  15 10,6  | PE
  15  5,5  | PEA
  15 10,6  | PO
+ 15  5,5  | POA
+ 15  5,5  | POE
  15  4,10 - POOF
+ 15  5,5  - QAF
+ 14  6,5  - ACOP
+ 14  9,8  - APA
  14  9,8  - APE
- 14  9,8  - APO
+ 14  4,8  - CAI
+ 14  3,5  - CAPA
  14  3,7  - CAPS
+ 14  3,5  - CEPA
  14  3,7  - CEPS
  14  5,10 - COP
+ 14  3,5  - COPA
  14  3,7  - COPS
  14  8,5  | CPA
+ 14  8,5  | CPO
+ 14  7,11 - FALCO
+ 14  4,8  - FEI
+ 14  5,8  - FIP
  14  5,10 - FOP
  14  3,7  - FOPS
+ 14  8,9  | IFE
+ 14  8,9  | IOF
  14  3,5  - PACA
  14  3,7  - PACS
- 14  3,7  - PECS
  14  4,8  - POI
  13  5,4  | APE
- 13  5,4  | APO
  13  7,2  | CAFE
  13  7,2  | CAPE
+ 13  5,2  | CEPA
+ 13  7,2  | CEPA
+ 13  5,4  | CF
+ 13  5,2  | COPA
+ 13  7,2  | COPA
  13  7,2  | COPE
+ 13  5,4  | CP
+ 13  5,4  | EPA
  13  7,2  | FACE
  13  7,8  | FOE
+ 13  7,8  | FOO
+ 13  5,4  | FP
+ 13  7,4  | OAF
+ 13  7,7  | OFO
+ 13  7,8  | OOF
+ 13  5,4  | OPA
  13  5,4  | OPE
  13  7,2  | PACE
- 13  7,8  | POO
+ 13 11,4  | PEACOD
+ 13  5,4  | PF
+ 13  5,10 | PF
+ 12  9,7  - BCF
  12  2,7  - CAFES
  12 11,5  | CAPED
  12  2,7  - CAPES
  12  2,7  - CAPOS
+ 12  7,3  | COE
  12 11,5  | COPED
  12  2,7  - COPES
+ 12  7,5  | EF
+ 12  5,6  | EF
  12  5,7  | EF
+ 12  5,3  | EOF
+ 12  5,7  - ESCOBA
  12  5,7  - ESQ
  12  5,5  | FA
+ 12  5,7  | FA
  12 11,5  | FACED
  12  2,7  - FACES
+ 12  7,3  | FAE
  12  5,5  | FE
  12  3,8  - FOCI
  12  7,3  | FOE
  12  5,3  | OAF
+ 12  5,6  | OF
  12  5,7  | OF
  12  5,7  | OP
  12  5,5  | PA
  12 11,5  | PACED
  12  2,7  - PACES
+ 12  2,7  - PACOS
  12  5,5  | PE
  12  5,3  | PEA
  12  7,3  | PEA
+ 12  2,7  - PECOS
  12  5,5  | PO
+ 12  5,3  | POA
+ 12  7,3  | POA
+ 12  7,3  | POE
+ 11  4,5  - AFACE
  11  4,5  - APACE
+ 11  4,8  - APIO
  11  7,11 - CALF
+ 11  7,11 - CALP
+ 11  4,6  - CARPE
+ 11  3,7  - COES
+ 11  7,11 - COLP
  11  3,6  - COPRA
+ 11  8,5  | ECO
+ 11  5,10 - EOF
+ 11  8,5  | EPA
  11  4,6  - FARCE
  11  3,7  - FOES
  11  4,6  - FORCE
  11  8,5  | OCA
+ 11  7,9  | OFO
+ 11  5,10 - OOF
+ 11  8,5  | OPA
+ 11  7,9  | OPA
  11  7,9  | OPE
  11  8,5  | PEA
  11  3,7  - PEAS
  11  7,11 - PELF
+ 11  4,6  - PERCA
+ 11  8,5  | POA
  11  5,8  - QI
+ 10  8,11 - ALCE
+ 10  8,11 - ALCO
  10  5,5  - CAFE
+ 10  5,5  - CAPA
  10  5,5  - CAPE
  10  5,5  - CAPO
  10  3,10 - CAPO
+ 10  4,6  - CARF
  10  4,6  - CARP
+ 10 11,8  | CDF
+ 10 11,7  | CFD
+ 10  3,6  - COPR
  10  4,6  - CORF
+ 10  4,6  - CORP
+ 10  7,11 - CPL
  10  5,6  - CRAP
  10  5,6  - CROP
+ 10  5,6  - CRPE
  10  5,4  | EF
  10  8,6  | FA
  10  5,5  - FACE
+ 10  5,4  | FAE
+ 10  7,4  | FAE
+ 10  4,7  - FASC
  10  8,10 - FI
  10  8,11 - FLEA
  10  8,11 - FLOE
  10  5,6  - FRAP
  10  8,9  | IF
- 10  6,8  - IP
- 10  8,9  | IP
  10  5,4  | OF
  10  7,9  | OF
  10  6,10 - OF
+ 10  8,11 - OLPE
  10  5,4  | OP
  10  7,9  | OP
  10  6,10 - OP
@@ -154,78 +288,139 @@
  10  5,10 | PA
  10  5,5  - PACA
  10  5,5  - PACE
+ 10  5,5  - PACO
+ 10  3,10 - PACO
+ 10  4,6  - PARC
  10  5,10 | PE
- 10  8,10 - PI
+ 10  4,6  - PERF
+ 10 11,7  | PFD
  10  8,11 - PLEA
- 10  7,8  | PO
+ 10  8,11 - PLF
+ 10  8,6  | PO
  10  5,10 | PO
  10  3,10 - POCO
+ 10  4,6  - PORC
+ 10  5,6  - PREC
+ 10  5,6  - PREF
+ 10  5,6  - PROC
  10  5,6  - PROF
  10  6,7  - SCAB
+ 10  6,7  - SCOB
+  9  8,7  - ABC
+  9  8,7  - ABP
   9  7,3  | ACE
   9 10,6  | AE
   9  7,3  | APE
+  9  9,7  - BAC
   9  9,7  - BAP
+  9  9,7  - BEC
+  9  9,7  - BOC
   9  9,7  - BOP
+  9  5,5  - CAF
   9  5,5  - CAP
+  9  4,7  - CFS
   9  4,5  - CPA
+  9  4,10 - CPO
+  9  4,7  - CPS
+  9  5,7  - CSP
+  9 11,9  | DCA
   9 10,6  | EO
+  9  5,3  | EPA
+  9  7,3  | EPA
+  9  5,5  - FAC
+  9  4,7  - FCS
+  9  4,7  - FPS
+  9  9,11 - LCA
   9  5,3  | OCA
   9  7,3  | OCA
   9 10,6  | OE
+  9  3,8  - OECI
+  9  5,3  | OPA
+  9  7,3  | OPA
   9  7,3  | OPE
   9  5,5  - PAC
+  9  3,8  - PEAI
+  9  5,6  - PRF
+  9  5,7  - PSF
   8  8,8  - AA
   8 11,6  | ACED
   8  3,7  - ACES
+  8  7,11 - ACLE
   8  3,6  - AFORE
   8  8,8  | AI
   8 11,6  | APED
   8  3,7  - APES
   8 11,6  | APOD
-  8  3,7  - APOS
+  8  9,7  - BF
   8 11,7  | CADE
-  8  7,11 - CALO
+  8  5,8  - CIE
   8 11,7  | CODA
   8 11,7  | CODE
+  8  5,10 - COE
   8 11,6  | COED
   8  7,11 - COLA
   8  7,11 - COLE
   8  5,10 - COO
   8 11,6  | ECAD
+  8 11,6  | ECOD
+  8 10,9  | EO
+  8  4,8  - EPI
   8  3,7  - EPOS
   8 11,7  | FADE
   8 11,7  | FADO
   8 11,6  | FEOD
   8  5,8  - FIE
   8  5,10 - FOE
+  8  7,11 - FOLE
+  8  5,10 - FOO
+  8  9,10 - IO
   8  3,7  - OAFS
   8  3,7  - OCAS
   8  4,6  - OCREA
+  8  7,9  | OOF
   8 11,6  | OPED
   8  3,6  - OPERA
   8  3,7  - OPES
   8  7,11 - PALE
-  8  4,6  - PAREO
+  8 11,7  | PEDA
   8  5,8  - PIE
+  8  5,10 - POE
   8  7,11 - POLE
-  8  5,10 - POO
+  7  3,6  - ACER
+  7  3,6  - ACOR
   7  4,6  - ACRE
+  7 11,8  | ADC
+  7 11,8  | ADP
+  7  4,7  - AESC
+  7 11,7  | AFD
+  7  3,6  - AFER
+  7  4,6  - AFRO
+  7  8,11 - ALC
+  7  8,11 - ALF
   7  8,11 - ALOE
   7  8,11 - ALP
   7  3,6  - APER
   7  4,7  - APSE
   7  5,6  - ARCO
   7 11,7  | CAD
+  7  7,11 - CAL
   7  4,6  - CARE
+  7  4,6  - CARO
   7  4,7  - CASE
-  7  7,11 - CEL
+  7  4,6  - CERA
   7  4,6  - CERO
+  7  8,11 - CLO
   7 11,7  | COD
   7  7,11 - COL
+  7  4,6  - CORA
   7  4,6  - CORE
+  7  4,7  - COSE
+  7  5,6  - CREA
+  7 11,8  | EDP
   7  5,10 | EF
+  7  7,11 - EFL
   7  8,11 - ELF
+  7  8,6  | EO
   7  5,4  | FA
   7  7,4  | FA
   7 11,7  | FAD
@@ -234,24 +429,32 @@
   7  7,4  | FE
   7  3,6  - FEAR
   7 11,7  | FED
+  7  8,11 - FLO
+  7 11,7  | FOD
+  7  7,11 - FOL
   7  4,6  - FORA
   7  4,6  - FORE
   7  5,6  - FRAE
   7  5,6  - FROE
   7 11,8  | ODEA
   7  5,10 | OF
+  7  3,6  - OFER
   7  8,11 - OLEA
+  7  8,11 - OLP
   7  5,10 | OP
   7  5,6  - ORCA
+  7  5,6  - ORFE
   7  5,4  | PA
   7  7,4  | PA
   7 11,7  | PAD
   7  7,11 - PAL
   7  4,6  - PARE
   7  4,7  - PASE
+  7  4,7  - PASO
   7  7,4  | PE
   7  3,6  - PEAR
   7 11,7  | PED
+  7  4,7  - PESA
   7  4,7  - PESO
   7 11,7  | POD
   7  7,11 - POL
@@ -264,44 +467,77 @@
   6  5,5  | AE
   6  7,5  | AE
   6  5,6  | AE
+  6  4,5  - APA
+  6  6,5  - APA
   6  6,5  - APE
-  6  6,5  - APO
-  6  4,10 - APO
+  6  4,6  - APR
   6  5,6  - ARC
   6  5,6  - ARF
   6  5,7  - ASP
   6  9,7  - BAE
+  6  9,7  - BEA
   6  9,7  - BOA
+  6  9,7  - BOE
   6  4,6  - CAR
+  6  8,11 - CL
   6  4,10 - COO
   6  4,6  - COR
   6  4,7  - COS
+  6  5,6  - CRE
+  6  5,6  - CRO
+  6 11,9  | DAE
+  6 11,9  | DAO
+  6 11,9  | DEA
+  6 11,9  | DOA
   6 11,9  | DOE
+  6 11,9  | DP
+  6  4,10 - ECO
   6  4,7  - EFS
   6  5,6  | EO
   6  7,6  | EO
   6  5,7  | EO
+  6  4,5  - EPA
+  6  5,6  - ERF
+  6  5,7  - ESC
+  6  5,7  - ESP
+  6  5,5  - FAE
   6  4,6  - FAR
   6  4,7  - FAS
   6  4,6  - FER
+  6  8,11 - FL
+  6  4,10 - FOO
   6  4,6  - FOR
+  6  5,6  - FRA
   6  5,6  - FRO
+  6  9,11 - LAO
   6  9,11 - LEA
+  6  9,11 - LEO
+  6  9,11 - LF
+  6  9,11 - LOA
+  6  9,11 - LOE
+  6  9,11 - LP
   6  5,5  - OAF
   6  8,7  - OBA
   6  8,7  - OBE
   6  4,5  - OCA
   6  5,6  | OE
+  6  4,10 - OFO
+  6  4,5  - OPA
   6  4,7  - OPS
   6  5,6  - ORC
   6  5,6  - ORF
+  6  5,7  - OSC
   6  4,6  - PAR
   6  4,7  - PAS
+  6 11,8  | PD
   6  4,5  - PEA
   6  4,6  - PER
   6  4,7  - PES
-  6  4,10 - POO
+  6  8,11 - PL
+  6  4,5  - POA
+  6  4,6  - POR
   6  4,7  - POS
+  6  5,6  - PRE
   6  5,6  - PRO
   6  6,6  - RAP
   6  6,6  - REC
@@ -314,9 +550,12 @@
   5  9,7  - BO
   5  5,5  - FA
   5  5,8  - FI
+  5  5,7  - FS
+  5  8,7  - OB
   5  5,5  - PA
   5  5,8  - PI
   5  5,10 - PO
+  5  6,6  - RF
   4  9,8  - AA
   4 11,8  | ADO
   4  7,4  | AE
@@ -324,8 +563,14 @@
   4 10,8  | AE
   4  4,6  - AERO
   4  8,11 - ALE
+  4  8,11 - ALO
+  4 11,7  | EAD
+  4 11,8  | EDO
   4 10,8  | EE
+  4  8,11 - ELA
   4  5,10 | EO
+  4  6,8  - IO
+  4  8,9  | IO
   4 11,7  | OAD
   4 11,8  | ODA
   4 11,8  | ODE
@@ -333,12 +578,21 @@
   4  7,9  | OE
   4  5,10 | OE
   4  6,10 - OE
+  4  8,10 - OI
+  4  8,11 - OLA
   4  8,11 - OLE
+  4  7,8  | OO
   4  7,9  | OO
   4  6,10 - OO
+  4  5,6  - ORAE
   3 11,8  | AD
+  3  4,6  - AER
+  3  4,7  - AES
   3  8,11 - AL
+  3  4,6  - AOR
   3  5,6  - ARE
+  3  5,6  - ARO
+  3  5,7  - ASE
   3 11,9  | DA
   3 11,9  | DE
   3 11,9  | DO
@@ -350,10 +604,12 @@
   3  9,11 - LO
   3  4,6  - OAR
   3 11,8  | OD
+  3  4,6  - OER
   3  4,7  - OES
   3  5,6  - ORA
   3  5,6  - ORE
   3  5,7  - OSE
+  3  6,6  - REA
   3  6,6  - ROE
   2  5,5  - AA
   2  6,5  - AA

@@ -4,18 +4,29 @@
  21  5,5  | DEARS
  20  5,5  | DEAD
  20  5,5  | READS
+ 19  5,5  | DAER
  19  5,5  | DEAR
+ 19  5,5  | DEAS
+ 18  5,5  | DAE
+ 18  5,5  | DEA
  18  5,5  | READ
+ 16  4,4  - DAVER
  16  4,4  - DEVAS
  16  5,6  | EARS
  16  4,4  - RAVED
+ 16  5,5  | REA
  16  4,4  - SAVED
  15  5,5  | DA
  15  5,5  | DE
+ 15  5,6  | EAD
+ 15  6,4  - VEDDA
+ 14  5,6  | AER
+ 14  5,6  | AES
  14  5,6  | EAR
  14  4,4  - SAVERS
  13  5,5  | AE
  13  5,6  | AE
+ 13  4,4  - DAVE
  13  4,4  - DEVA
  13  4,4  - DEVS
  13  4,4  - RAVES
@@ -23,6 +34,8 @@
  13  5,5  | RE
  13  4,4  - SAVER
  13  4,4  - SAVES
+ 13  6,4  - VADE
+ 13  6,4  - VEDA
  12  5,6  - AXED
  12  4,4  - DEV
  12  3,4  - DRAVE
@@ -33,16 +46,43 @@
  11  2,5  - ADDRESS
  11  5,4  - AVERS
  11  5,6  - AXES
+ 11  7,7  | DADE
+ 11  7,7  | DADS
+ 11  7,7  | DARED
+ 11  7,7  | DEADS
+ 11  7,7  | DEDA
+ 11  3,4  - DERV
  11  4,6  - DEX
+ 11  7,7  | DREAD
+ 11  4,6  - SAXE
+ 11  3,6  - SEAX
  11  6,4  - VASES
+ 11  6,4  - VERD
+ 11  6,4  - VERSA
+ 11  6,6  - XED
+ 10  5,7  | ADDR
+ 10  7,7  | ADDR
  10  5,7  | ADDS
  10  7,7  | ADDS
+ 10  4,4  - ADV
+ 10  4,6  - ARX
  10  5,4  - AVER
  10  5,4  - AVES
  10  5,6  - AXE
+ 10  7,7  | DAD
+ 10  7,7  | DARD
+ 10  7,7  | DARES
  10  3,7  - DARTED
+ 10  7,7  | DEAD
+ 10  7,7  | DEARS
+ 10  7,7  | DESSA
+ 10  7,7  | DRAD
+ 10  7,7  | DRESS
  10  1,5  - DRESSED
  10  4,5  - DRESSED
+ 10  5,7  | EDDA
+ 10  7,7  | EDDA
+ 10  5,6  - EXR
  10  4,4  - RAVE
  10  4,6  - RAX
  10  5,5  - READDS
@@ -52,19 +92,27 @@
  10  4,6  - REX
  10  4,4  - SAVE
  10  4,6  - SAX
+ 10  3,4  - SERV
  10  4,6  - SEX
  10  6,7  - TRADED
- 10  6,4  - VARS
+ 10  6,4  - VARE
  10  6,4  - VASE
  10  6,4  - VERA
+ 10  6,4  - VERS
  10  6,6  - XES
   9  5,7  | ADD
   9  7,7  | ADD
   9  3,5  - ADDERS
   9  5,6  - AX
+  9  7,7  | DAER
+  9  7,7  | DARE
   9  3,5  - DARED
+  9  7,7  | DASE
   9  2,5  - DEADER
   9  5,5  - DEADER
+  9  7,7  | DEAR
+  9  7,7  | DEAS
+  9  7,7  | DESS
   9  4,5  - DREADS
   9  3,5  - DREED
   9  5,6  - EX
@@ -73,25 +121,51 @@
   9  5,5  - RESEDA
   9  4,4  - REV
   9  2,5  - SADDER
+  9  4,4  - SAV
   9  4,4  - SEV
   9  5,7  - STEADS
+  9  5,7  - STRADE
   9  6,7  - TRADES
   9  6,7  - TSADES
   9  6,4  - VAR
   9  6,4  - VAS
+  9  6,4  - VER
+  9  6,4  - VSS
   8  3,5  - ADDER
+  8  2,7  - ADRET
+  8  5,7  | ARED
+  8  7,7  | ARED
   8  5,7  | ARSES
   8  7,7  | ARSES
+  8  3,5  - DADE
+  8  7,7  | DAE
+  8  7,7  | DAR
   8  3,5  - DARES
   8  3,7  - DARTS
+  8  7,7  | DAS
   8  4,7  - DATERS
+  8  7,7  | DEA
   8  5,5  - DEADS
   8  5,5  - DEEDS
+  8  7,7  | DER
   8  2,7  - DERATS
+  8  7,7  | DES
+  8  3,7  - DRATE
   8  3,7  - DRATS
   8  3,5  - DREES
+  8  7,7  | DSR
+  8  5,7  | EAD
+  8  7,7  | EAD
+  8  3,5  - EDDER
+  8  6,5  - EDDER
+  8  6,5  - ERADE
   8  2,5  - ERASED
   8  6,5  - ERASED
+  8  5,7  | ESD
+  8  7,7  | ESD
+  8  6,5  - ESDRAS
+  8  3,5  - ESSEDA
+  8  6,5  - ESSEDA
   8  5,5  - REDDS
   8  3,5  - REDED
   8  3,5  - RESEDA
@@ -100,9 +174,13 @@
   8  3,5  - SEDERS
   8  5,5  - SEDERS
   8  5,5  - SERED
+  8  5,7  - STADER
   8  5,7  - STADES
   8  5,7  - STARED
   8  5,7  - STEAD
+  8  5,7  - STERAD
+  8  5,7  - STRAD
+  8  6,7  - TARDE
   8  6,7  - TRADE
   8  6,7  - TREADS
   8  6,7  - TSADE
@@ -114,17 +192,25 @@
   7  7,7  | ARES
   7  5,7  | ARSE
   7  7,7  | ARSE
+  7  5,7  | ASSE
+  7  7,7  | ASSE
   7  1,7  - ASSERT
   7  4,7  - ASTERS
   7  5,4  - AVE
   7  3,5  - DARE
+  7  2,7  - DARST
   7  3,7  - DART
+  7  3,5  - DASE
   7  4,7  - DATED
+  7  2,5  - DEARE
+  7  5,5  - DEARE
   7  5,5  - DEARS
   7  4,5  - DEEDS
   7  5,5  - DEERS
+  7  5,5  - DEESS
   7  2,7  - DERAT
   7  3,5  - DERE
+  7  5,5  - DESSA
   7  3,7  - DRAT
   7  4,5  - DREAD
   7  3,5  - DREE
@@ -138,12 +224,18 @@
   7  6,5  - EASED
   7  3,5  - EASERS
   7  6,5  - EASERS
-  7  5,7  | EDS
-  7  7,7  | EDS
+  7  6,5  - EDDA
+  7  2,5  - ERADE
   7  5,7  | ERAS
   7  7,7  | ERAS
   7  2,5  - ERASES
   7  6,5  - ERASES
+  7  1,7  - ESSART
+  7  3,5  - ESSED
+  7  6,5  - ESSED
+  7  3,5  - ESSERA
+  7  6,5  - ESSERA
+  7  5,4  - EVA
   7  3,5  - RASED
   7  5,5  - READS
   7  3,5  - REDES
@@ -152,6 +244,7 @@
   7  3,5  - SADES
   7  2,5  - SAREES
   7  3,5  - SAREES
+  7  2,7  - SEDAT
   7  3,5  - SEDER
   7  5,5  - SEDER
   7  5,5  - SEEDS
@@ -159,22 +252,39 @@
   7  5,7  - STADE
   7  5,7  - STARES
   7  6,7  - TARED
+  7  6,7  - TASSER
+  7  6,7  - TEAD
+  7  6,7  - TERASS
   7  6,7  - TRAD
   7  6,7  - TREAD
+  6  3,7  - ADET
+  6  5,7  | AER
+  6  7,7  | AER
+  6  5,7  | AES
+  6  7,7  | AES
   6  5,7  | ARE
   6  7,7  | ARE
+  6  2,7  - AREST
   6  5,7  | ARS
   6  7,7  | ARS
   6  3,5  - ARSES
+  6  5,7  | ASE
+  6  7,7  | ASE
   6  5,7  | ASS
   6  7,7  | ASS
   6  2,7  - ASSET
+  6  7,7  | DA
   6  4,7  - DATER
   6  4,7  - DATES
+  6  7,7  | DE
   6  5,5  - DEAD
+  6  5,5  - DEDA
   6  4,5  - DEED
   6  5,5  - DEED
   6  4,5  - DEERS
+  6  4,5  - DEESS
+  6  4,7  - DETAR
+  6  4,7  - DETD
   6  4,5  - DREES
   6  4,5  - DRESS
   6  5,7  | EAR
@@ -184,6 +294,7 @@
   6  3,5  - EASES
   6  6,5  - EASES
   6  3,7  - EASTS
+  6  6,5  - EDEA
   6  5,7  | ERA
   6  7,7  | ERA
   6  2,5  - ERASE
@@ -195,7 +306,9 @@
   6  5,7  | ESS
   6  7,7  | ESS
   6  3,5  - RASES
+  6  2,5  - RASSE
   6  4,7  - RATED
+  6  2,7  - REAST
   6  5,5  - REDD
   6  3,5  - REDE
   6  4,5  - REEDS
@@ -211,37 +324,61 @@
   6  5,5  - SEERS
   6  3,5  - SERES
   6  5,5  - SERES
+  6  3,7  - SERTA
   6  5,7  - STARE
   6  5,7  - STARS
+  6  5,7  - STRAE
+  6  6,7  - TADE
   6  6,7  - TADS
   6  6,7  - TARES
+  6  6,7  - TARSE
   6  6,7  - TASSE
   6  6,7  - TEARS
+  6  6,7  - TEDA
   6  6,7  - TEDS
+  6  6,7  - TERAS
   6  6,7  - TRASS
+  6  6,7  - TREAS
   6  6,7  - TRESS
   6  6,7  - TSARS
   5  5,7  | AD
   5  7,7  | AD
+  5  4,5  - ARED
+  5  3,7  - ARET
   5  3,5  - ARSE
+  5  3,5  - ASSE
+  5  3,7  - ASST
   5  4,7  - ASTER
+  5  4,7  - ASTRE
+  5  5,7  - ATED
+  5  4,5  - DAER
   5  4,7  - DATE
+  5  4,7  - DDT
   5  5,5  - DEAR
+  5  5,5  - DEAS
   5  4,5  - DEER
   5  5,5  - DEER
   5  4,5  - DEES
   5  5,5  - DEES
   5  5,5  - DERE
+  5  5,5  - DESS
   5  4,5  - DREE
+  5  5,7  - DTD
   5  6,5  - EARS
   5  3,5  - EASE
   5  6,5  - EASE
   5  3,7  - EAST
   5  5,7  | ED
   5  7,7  | ED
+  5  4,5  - EDEA
   5  6,5  - ERAS
+  5  3,7  - ERAT
+  5  3,5  - ERSE
+  5  6,5  - ERSE
   5  3,7  - ERST
   5  6,5  - ESES
+  5  3,5  - ESSE
+  5  6,5  - ESSE
   5  3,5  - RASE
   5  4,7  - RATES
   5  5,5  - READ
@@ -250,17 +387,25 @@
   5  4,5  - REED
   5  5,5  - REED
   5  3,7  - REST
+  5  4,7  - RETD
+  5  3,5  - SARE
+  5  3,7  - SART
+  5  4,7  - SATD
   5  4,7  - SATES
   5  3,7  - SEAT
   5  4,5  - SEED
   5  5,5  - SEED
   5  4,5  - SEERS
   5  3,5  - SERE
+  5  3,7  - SERT
+  5  4,5  - SSED
+  5  5,7  - STAD
   5  6,7  - TARE
   5  6,7  - TARS
   5  6,7  - TASS
   5  6,7  - TEAR
   5  6,7  - TEAS
+  5  6,7  - TESS
   5  6,7  - TRES
   5  6,7  - TSAR
   4  5,7  | AE
@@ -268,18 +413,27 @@
   4  5,7  | AR
   4  7,7  | AR
   4  4,5  - ARES
+  4  4,7  - ARTE
   4  4,7  - ARTS
   4  5,7  | AS
   4  7,7  | AS
+  4  4,7  - ASTR
   4  5,7  - ATES
+  4  4,5  - DAE
+  4  4,7  - DAT
+  4  5,5  - DEA
   4  4,5  - DEE
   4  5,5  - DEE
+  4  5,5  - DER
+  4  5,5  - DES
+  4  4,7  - DET
+  4  6,5  - EAD
   4  4,7  - EATS
-  4  6,5  - EDS
   4  5,7  | ER
   4  7,7  | ER
   4  5,7  | ES
   4  7,7  | ES
+  4  6,5  - ESD
   4  4,5  - ESES
   4  5,7  - ETAS
   4  4,7  - RATE
@@ -291,6 +445,7 @@
   4  4,7  - SATE
   4  5,5  - SEAR
   4  5,5  - SEAS
+  4  5,5  - SED
   4  4,5  - SEER
   4  5,5  - SEER
   4  4,5  - SEES
@@ -301,15 +456,27 @@
   4  4,7  - SETA
   4  4,7  - SETS
   4  5,7  - STAR
+  4  5,7  - STD
+  4  5,7  - STER
+  4  5,7  - STRA
+  4  5,7  - STRE
   4  6,7  - TAD
+  4  6,7  - TDR
   4  6,7  - TED
+  3  5,5  - AER
+  3  5,5  - AES
+  3  4,7  - AET
   3  4,5  - ARE
   3  4,7  - ART
+  3  4,5  - ASE
+  3  4,7  - AST
   3  5,7  - ATE
   3  5,5  - DE
   3  6,5  - EAR
   3  4,7  - EAT
   3  6,5  - ED
+  3  5,5  - EER
+  3  6,5  - EER
   3  6,5  - ERA
   3  4,5  - ERE
   3  6,5  - ERE
@@ -317,12 +484,15 @@
   3  4,5  - ESE
   3  6,5  - ESE
   3  6,5  - ESS
+  3  4,7  - EST
   3  5,7  - ETA
   3  4,7  - RAT
+  3  5,5  - REA
   3  4,5  - REE
   3  5,5  - REE
   3  5,5  - RES
   3  4,7  - RET
+  3  5,7  - RTE
   3  4,5  - SAE
   3  4,7  - SAT
   3  5,5  - SEA
@@ -330,10 +500,16 @@
   3  5,5  - SEE
   3  5,5  - SER
   3  4,7  - SET
+  3  5,7  - STA
+  3  5,7  - STR
   3  6,7  - TAE
   3  6,7  - TAR
   3  6,7  - TAS
+  3  6,7  - TD
   3  6,7  - TEA
+  3  6,7  - TRA
+  3  6,7  - TRS
+  3  6,7  - TSS
   2  5,5  - AE
   2  5,7  - AT
   2  5,5  - EE

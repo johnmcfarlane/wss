@@ -14,6 +14,10 @@
  22  4,8  - DEVEL
  22  8,8  - DEVEL
  22  8,8  | DEVEL
+ 20  8,4  | ELEVE
+ 20  4,8  - ELEVE
+ 20  8,8  - ELEVE
+ 20  8,8  | ELEVE
  20  8,4  | LEVEE
  20  4,8  - LEVEE
  20  8,8  - LEVEE
@@ -50,6 +54,12 @@
  11  5,8  - DEVEL
  11  6,8  - DEVEL
  11  7,8  - DEVEL
+ 10  8,5  | ELEVE
+ 10  8,6  | ELEVE
+ 10  8,7  | ELEVE
+ 10  5,8  - ELEVE
+ 10  6,8  - ELEVE
+ 10  7,8  - ELEVE
  10  8,5  | LEVEE
  10  8,6  | LEVEE
  10  8,7  | LEVEE
@@ -64,6 +74,28 @@
  10  7,8  - VELD
  10  8,8  - VELD
  10  8,8  | VELD
+  9  8,5  | DEVE
+  9  8,6  | DEVE
+  9  8,7  | DEVE
+  9  5,8  - DEVE
+  9  6,8  - DEVE
+  9  7,8  - DEVE
+  9  8,8  - DEVE
+  9  8,8  | DEVE
+  9  8,5  | ELVE
+  9  8,6  | ELVE
+  9  8,7  | ELVE
+  9  5,8  - ELVE
+  9  6,8  - ELVE
+  9  7,8  - ELVE
+  9  8,8  - ELVE
+  9  8,8  | ELVE
+  9  8,6  | EVG
+  9  8,7  | EVG
+  9  6,8  - EVG
+  9  7,8  - EVG
+  9  8,8  - EVG
+  9  8,8  | EVG
   9  8,5  | GLEDE
   9  8,6  | GLEDE
   9  8,7  | GLEDE
@@ -82,6 +114,14 @@
   9  5,8  - LEDGE
   9  6,8  - LEDGE
   9  7,8  - LEDGE
+  9  8,5  | LEVE
+  9  8,6  | LEVE
+  9  8,7  | LEVE
+  9  5,8  - LEVE
+  9  6,8  - LEVE
+  9  7,8  - LEVE
+  9  8,8  - LEVE
+  9  8,8  | LEVE
   9  8,6  | VEG
   9  8,7  | VEG
   9  6,8  - VEG
@@ -122,6 +162,12 @@
   8  7,8  - LEV
   8  8,8  - LEV
   8  8,8  | LEV
+  8  8,6  | VEL
+  8  8,7  | VEL
+  8  6,8  - VEL
+  8  7,8  - VEL
+  8  8,8  - VEL
+  8  8,8  | VEL
   7  8,5  | EDGE
   7  8,6  | EDGE
   7  8,7  | EDGE
@@ -144,6 +190,12 @@
   7  7,8  - GEED
   7  8,8  - GEED
   7  8,8  | GEED
+  7  8,6  | GLD
+  7  8,7  | GLD
+  7  6,8  - GLD
+  7  7,8  - GLD
+  7  8,8  - GLD
+  7  8,8  | GLD
   7  8,5  | GLEE
   7  8,6  | GLEE
   7  8,7  | GLEE
@@ -152,12 +204,32 @@
   7  7,8  - GLEE
   7  8,8  - GLEE
   7  8,8  | GLEE
+  7  8,6  | LDG
+  7  8,7  | LDG
+  7  6,8  - LDG
+  7  7,8  - LDG
+  7  8,8  - LDG
+  7  8,8  | LDG
+  7  8,5  | LEGE
+  7  8,6  | LEGE
+  7  8,7  | LEGE
+  7  5,8  - LEGE
+  7  6,8  - LEGE
+  7  7,8  - LEGE
+  7  8,8  - LEGE
+  7  8,8  | LEGE
   7  8,6  | VEE
   7  8,7  | VEE
   7  6,8  - VEE
   7  7,8  - VEE
   7  8,8  - VEE
   7  8,8  | VEE
+  6  8,6  | DEG
+  6  8,7  | DEG
+  6  6,8  - DEG
+  6  7,8  - DEG
+  6  8,8  - DEG
+  6  8,8  | DEG
   6  8,5  | DELE
   6  8,6  | DELE
   6  8,7  | DELE
@@ -178,6 +250,22 @@
   6  7,8  - GEL
   6  8,8  - GEL
   6  8,8  | GEL
+  6  8,5  | LEDE
+  6  8,6  | LEDE
+  6  8,7  | LEDE
+  6  5,8  - LEDE
+  6  6,8  - LEDE
+  6  7,8  - LEDE
+  6  8,8  - LEDE
+  6  8,8  | LEDE
+  6  8,5  | LEED
+  6  8,6  | LEED
+  6  8,7  | LEED
+  6  5,8  - LEED
+  6  6,8  - LEED
+  6  7,8  - LEED
+  6  8,8  - LEED
+  6  8,8  | LEED
   6  8,6  | LEG
   6  8,7  | LEG
   6  6,8  - LEG

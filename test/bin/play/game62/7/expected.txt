@@ -1,9 +1,24 @@
+ 26  5,9  - WEB
+ 23  5,9  - WELT
+ 23  5,9  - WENT
+ 22  5,9  - WEN
+ 22  6,1  | WENTLE
+ 21  4,1  | BE
+ 21  5,9  - WB
  20  6,5  - BLEW
+ 20  5,9  - WET
+ 18  4,8  | MEQ
+ 18  5,5  - WB
+ 18  5,9  - WE
+ 18  5,9  - WT
  18  3,5  - ZEN
  17  6,5  - BLENT
+ 17  4,1  | NE
  16  5,5  - WEB
  15  5,5  - BELT
  15  5,5  - BENT
+ 15  2,1  - FAQ
+ 15  4,1  | TE
  15  5,5  - WELT
  15  5,5  - WENT
  14  5,5  - BEL
@@ -12,7 +27,9 @@
  14  6,5  - BENT
  14  5,3  | BETELS
  14  6,5  - BLET
+ 14  5,5  - BTL
  14  2,1  | FOHN
+ 14  4,8  | MEWL
  14  5,7  - NEWT
  14  1,4  - UN
  14  6,5  - WEB
@@ -23,19 +40,31 @@
  14  6,5  - WENT
  14  6,7  - WENT
  13  5,5  - BET
+ 13  6,7  - LBW
  13  5,3  | LEBENS
  13  5,7  - NEB
  13  5,7  - NEW
  13  5,3  | NEWELS
  13  5,5  - NEWT
+ 13  5,8  | SEQ
+ 13  6,5  - WB
+ 13  6,7  - WB
+ 13  5,1  | WENTLE
  13  5,5  - WET
  12  5,5  - BE
  12  6,5  - BEL
  12  6,5  - BEN
  12  5,3  | BENE
+ 12  5,5  | BENSEL
+ 12  5,3  | BLEE
+ 12  5,5  - BT
+ 12  6,5  - BTL
+ 12  6,3  | ENWEB
  12  5,5  - EW
  12  2,1  - FABLE
+ 12  2,1  - FANWE
  12  5,7  - LENT
+ 12  4,8  | MEW
  12  5,5  - NEB
  12  5,5  - NEW
  12  6,5  - NEWT
@@ -43,33 +72,60 @@
  12  5,5  - WE
  12  6,5  - WEN
  12  6,7  - WEN
+ 12  5,3  | WENE
+ 12  5,5  - WT
  11  6,5  - BET
+ 11  5,3  | BETE
+ 11  6,3  | BEWET
  11  6,4  | BLEW
  11  2,1  - FAWN
- 11  5,3  | TWEENS
+ 11  5,7  - LEN
+ 11  4,8  | MELT
+ 11  4,8  | MENT
  11  6,5  - WET
  11  6,7  - WET
  10  6,5  - BE
+ 10  5,4  | BLENS
+ 10  6,5  - BT
+ 10  5,5  - ENL
+ 10  2,9  | IB
  10  6,3  | LEBEN
  10  6,7  - LENT
  10  5,7  - LET
+ 10  4,8  | MEL
+ 10  4,8  | MEN
+ 10  4,8  | MTN
  10  6,5  - NEB
  10  6,7  - NEB
+ 10  6,3  | NEBEL
  10  5,7  - NET
  10  6,5  - NEW
  10  6,7  - NEW
  10  6,3  | NEWEL
+ 10  5,8  | SLEB
  10  5,8  | SLEW
+ 10  5,8  | SNEB
+ 10  5,8  | SNEW
  10  5,5  - TEW
  10  6,5  - WE
  10  6,7  - WE
  10  5,5  | WEBS
+ 10  6,5  - WT
+ 10  6,7  - WT
+  9  5,5  | BEEST
+  9  6,3  | BENET
   9  6,3  | BETEL
   9  5,4  | BLETS
+  9  6,5  - ELB
+  9  6,7  - ELB
   9  2,1  - FAB
+  9  6,7  - LB
+  9  4,8  | MET
   9  5,7  - NE
   9  5,5  - NET
+  9  1,3  - OHONE
   9  5,8  | SEWN
+  9  5,8  | SW
   9  6,3  | TWEEN
   9  6,5  | WEB
   9  5,4  | WEENS
@@ -81,10 +137,21 @@
   8  5,5  | BELS
   8  6,3  | BENE
   8  5,5  | BENS
+  8  6,3  | BLEE
+  8  6,4  | BLEE
   8  6,4  | BLET
+  8  6,4  | EBEN
   8  5,5  - EN
+  8  6,4  | ENEW
+  8  5,3  | EWTE
   8  2,1  - FANE
+  8  2,1  - FANT
+  8  2,9  | ILE
+  8  2,9  | INT
+  8  6,7  - LEN
+  8  5,3  | LENE
   8  5,5  | LENSE
+  8  4,8  | ME
   8  5,5  - NE
   8  5,5  | NEBS
   8  5,5  | NEWS
@@ -97,47 +164,66 @@
   8  6,4  | WEEL
   8  6,4  | WEEN
   8  5,4  | WEETS
+  8  5,5  | WELS
+  8  6,3  | WENE
   8  5,5  | WENS
+  8  1,9  - sISE
   7  5,5  | BEES
   7  6,4  | BEET
   7  6,5  | BEL
   7  6,5  | BEN
+  7  6,3  | BETE
   7  5,5  | BETS
+  7  5,3  | ELNE
+  7  6,5  - ENL
+  7  6,7  - ENL
   7  6,5  - EW
   7  6,7  - EW
+  7  6,3  | EWTE
   7  2,1  - FAN
   7  2,1  - FATE
   7  6,7  - LET
   7  6,5  | NEB
   7  6,5  - NET
   7  6,7  - NET
+  7  5,3  | NETE
   7  6,5  | NEW
   7  5,8  | SEW
   7  5,5  | TENSE
   7  5,5  | TEWS
+  7  6,5  - TLN
+  7  6,7  - TLN
   7  6,3  | TWEE
   7  6,4  | TWEE
   7  5,5  | WEES
   7  6,4  | WEET
   7  6,5  | WEN
   7  5,5  | WETS
+  7  1,2  - YODE
   6  5,4  | BEE
   6  6,4  | BEE
   6  6,5  | BEE
   6  6,5  | BET
+  6  6,3  | ELNE
   6  5,6  | ELSE
+  6  6,5  - ELT
+  6  6,7  - ELT
+  6  5,6  | ENSE
   6  5,5  - ET
   6  5,4  | EWE
   6  6,4  | EWE
+  6  2,1  - FAE
   6  2,1  - FAT
   6  2,9  | IN
   6  5,4  | LEETS
+  6  6,3  | LENE
   6  5,5  | LENS
   6  6,5  - NE
   6  6,7  - NE
+  6  5,8  | SELT
   6  5,8  | SENT
+  6  5,8  | SLT
   6  5,5  - TE
-  6  5,4  | TEELS
   6  5,4  | TEENS
   6  6,5  - TEL
   6  6,7  - TEL
@@ -156,17 +242,20 @@
   5  6,7  - EL
   5  6,5  - EN
   5  6,7  - EN
+  5  6,4  | ETEN
   5  6,6  | EW
   5  5,5  | LEES
   5  6,4  | LEET
+  5  6,5  | LEN
   5  5,5  | LETS
+  5  6,4  | NEET
+  5  6,3  | NETE
   5  5,5  | NETS
   5  5,8  | SEL
   5  5,8  | SEN
   5  6,4  | TEEL
   5  6,4  | TEEN
   5  6,3  | TELE
-  5  5,5  | TELS
   5  5,5  | TENS
   5  5,5  | WE
   5  6,5  | WE

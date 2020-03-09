@@ -1,136 +1,243 @@
+ 35  5,3  | DIR
+ 35  5,3  | DIS
  32  6,2  - FID
+ 32  5,2  - FRIS
+ 32  5,2  - RIFS
+ 31  5,3  | DI
  30  6,2  - DIF
  29  6,2  - FIR
- 26  6,2  - RIF
+ 28  7,2  - FRISS
+ 26  7,2  - FRIS
+ 26  6,2  - IFS
+ 26  6,2  - RFS
  25  6,2  - FI
  24  6,2  - DID
  24  9,7  | GID
  24  5,2  - IF
+ 24  5,2  - RF
  23  8,2  - FIDS
+ 23  5,1  | HID
+ 22  9,10 - FID
+ 22  6,2  - IF
+ 22  6,2  - RF
  21  8,2  - DIFS
+ 21  6,2  - DIR
  21  6,2  - DIS
+ 21  5,2  - FI
  21  8,2  - FID
+ 21  9,6  - FID
  21  8,2  - FIRS
+ 21  5,2  - FS
+ 21  9,7  | GDS
  21  9,9  | SIC
  20  1,11 - FIL
+ 20  9,10 - FIR
+ 20  9,10 - FRS
+ 20  9,7  | GIS
+ 20  9,7  | GRS
  20  6,2  - RID
+ 20  6,2  - SID
  19  8,2  - DIF
  19  8,2  - FIR
+ 19  9,6  - FIR
+ 19  9,6  - FRS
+ 19  5,1  | HIR
+ 19  5,1  | HSI
+ 18  2,5  - DRUIDS
+ 18  9,10 - FI
+ 18  9,10 - FS
  18  3,3  - JASSID
  18  8,2  - RIFS
  17  6,2  - DI
+ 17  8,2  - DIRD
+ 17  9,6  - FI
+ 17  9,6  - FS
  17  3,5  - FUDS
+ 17  3,5  - RUDDS
  17  6,2  - SIR
  17  6,2  - SIS
+ 17  3,5  - SUDDS
  16  3,5  - FURS
  16  3,5  - FUSS
  16  5,2  - ID
  16  5,4  | IS
  16  5,9  - OoZED
- 16  8,2  - RIF
+ 16  9,6  - RFS
+ 16  3,5  - SURDS
  15  8,2  - DID
  15  8,2  - DISS
+ 15  7,2  - FS
  15  7,2  - IF
+ 15  3,3  - JAD
+ 14  2,10 | BF
+ 14  1,11 - DIL
  14  2,5  - DRUID
+ 14  6,5  - DSRI
+ 14  2,11 - FL
  14  9,2  - IFS
  14  3,3  - JARS
+ 14  3,3  - JASS
  14  5,9  - OoZES
+ 14  9,6  - RF
  14  8,2  - RIDS
- 14  7,5  - RIFS
+ 14  4,5  - URDS
+ 13  8,2  - DIR
  13  8,2  - DIS
  13  3,5  - DUDS
  13  9,5  | FIGS
  13  3,3  - JAI
  13  3,3  - JAR
- 13  7,5  - RIF
  13  3,5  - RUDD
  13  6,2  - SI
  13  3,5  - SUDD
+ 12  6,5  - DSR
  12  8,2  - FI
  12  9,5  | FIG
  12  3,5  - FUD
  12  9,2  - IF
  12  5,2  - IS
+ 12  7,1  | MFD
  12  6,1  | ODDS
  12  6,1  | ORF
  12  4,4  - QIS
+ 12  4,4  - QRS
  12  8,2  - RID
+ 12  9,6  - RID
+ 12  8,2  - RISS
+ 12  8,2  - SID
  12  8,2  - SIRS
- 12  6,5  - SRIS
+ 12  3,5  - SUID
  12  3,5  - SURD
  11  9,4  | FRIGS
  11  3,5  - FUR
  11  7,2  - ID
+ 11  3,5  - IUDS
  11  4,4  - QI
+ 11  1,11 - SIL
  11  3,5  - SUDS
+ 11  4,5  - UFS
+ 10  1,5  - DIDUS
  10  9,4  | FRIG
+ 10  1,2  - FRa
  10  3,5  - FU
  10  9,2  - IDS
  10  9,8  - IFS
+ 10  7,1  | MFR
  10  7,1  | MIDS
  10  6,1  | ODD
  10  6,1  | OF
- 10  7,5  - RIDS
+ 10  3,5  - RUSS
  10  8,2  - SIR
  10  8,2  - SIS
- 10  6,5  - SRI
+ 10  6,5  - SSI
  10  4,5  - URD
   9  9,5  | DIGS
   9  9,8  - IF
   9  7,2  - IS
   9  7,1  | MID
-  9  7,5  - RID
+  9  7,1  | MIRD
+  9  7,5  - SID
+  9  4,5  - UDS
   8  8,2  - DI
+  8  6,3  | DIDAL
   8  9,5  | DIG
   8  3,5  - DUD
+  8  9,10 | FC
   8  2,2  - Fa
   8  9,2  - ID
   8  9,8  - IDS
+  8  9,2  - IRS
+  8  7,1  | MF
   8  7,1  | MIRS
   8  7,1  | MISS
   8  6,1  | ODS
+  8  6,1  | ORD
+  8  7,5  - SDS
+  8  7,5  - SIRS
+  8  7,5  - SRIS
+  8  3,5  - SUF
+  8  4,5  - URS
   7  3,5  - DUI
+  7  3,5  - DUR
+  7  9,6  | FG
+  7  5,1  | HF
   7  9,8  - ID
+  7  9,8  - IRS
+  7  8,5  | ISN
   7  7,1  | MIR
   7  7,1  | MIS
+  7  7,1  | MRS
+  7  7,1  | MSS
   7  9,5  | RIGS
   7  1,5  - RISUS
+  7  7,5  - SIR
+  7  7,5  - SIS
+  7  7,5  - SRI
+  7  7,5  - SSI
   6  6,4  | DIAL
+  6  1,2  - DIa
+  6  3,5  - DU
   6  8,1  | EFS
+  6  8,1  | ERF
+  6  8,1  | ERIS
   6  1,8  - FRO
+  6  1,2  - IDa
   6  9,2  - IS
   6  9,8  - IS
+  6  3,5  - IUD
   6  6,1  | OD
   6  6,1  | ORS
   6  9,5  | RIG
+  6  3,5  - RUD
+  6  9,6  | SGD
   6  8,2  - SI
+  6  9,1  | SID
+  6  9,5  | SIG
   6  6,3  | SISAL
+  6  3,5  - SUD
   5  6,5  | DAL
   5  8,1  | EF
   5  7,1  | MI
   5  6,4  | RIAL
+  5  3,5  - RUS
+  5  9,1  | SDS
+  5  7,5  - SI
   5  6,4  | SIAL
   5  9,1  | SIRS
+  5  9,1  | SISS
   5  9,1  | SRIS
+  5  2,5  - SSU
+  5  3,5  - SUI
+  5  3,5  - SUR
+  5  3,5  - SUS
   4  2,2  - Da
-  4  8,1  | EDS
+  4  8,1  | ESD
   4  9,7  | GI
   4  5,1  | HI
+  4  5,1  | HR
+  4  1,2  - IRa
   4  6,1  | OI
   4  6,1  | OR
   4  6,1  | OS
+  4  9,6  | RG
   4  1,2  - RIa
   4  6,5  | SAL
   4  9,1  | SIR
   4  9,1  | SIS
+  4  1,2  - SIa
   4  9,1  | SRI
+  4  9,1  | SSI
   3  2,8  - DO
   3  8,1  | ED
+  3  8,1  | EIR
   3  8,1  | ERS
   3  8,1  | ESS
-  3  7,5  | RAI
+  3  1,8  - RIO
+  3  7,5  | SAI
+  3  4,5  - UR
   3  4,5  - US
   2  8,1  | ER
   2  8,1  | ES
+  2  2,8  - IO
   2  9,1  | SI
   2  2,8  - SO

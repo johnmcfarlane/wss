@@ -1,54 +1,259 @@
  67  2,2  - WICOPIEs
+ 58  1,9  - CIWIEs
+ 58  1,9  - COWIEr
+ 46  1,9  - bOWIE
+ 46  1,9  - dOWIE
+ 46  1,9  - mOWIE
+ 46  1,9  - tOWIE
+ 46  1,9  - yOWIE
+ 46  1,9  - zOWIE
  45  1,9  - COWs
+ 42  7,4  | WId
+ 42  7,4  | WIr
+ 42  7,4  | WIs
+ 40  1,9  - OECI
+ 37  1,9  - IiWI
+ 37  1,9  - OeCI
+ 37  1,9  - fOCI
+ 37  1,9  - iIWI
+ 37  1,9  - kIWI
+ 37  1,9  - lOCI
+ 37  1,9  - nICI
+ 37  1,9  - oECI
+ 37  1,9  - pICI
+ 36  3,9  - CIWIEs
+ 36  7,4  | EIr
+ 36  1,9  - IIWi
+ 36  1,9  - IOCs
+ 36  1,9  - OECi
+ 35  1,3  - EmIC
+ 35  1,3  - EpIC
+ 35  1,3  - ErIC
+ 35  1,3  - IdIC
+ 35  1,3  - OdIC
+ 35  1,3  - OpEC
+ 35  1,3  - OtIC
+ 35  1,3  - dIOC
+ 35  1,3  - gEIC
+ 35  1,3  - zOIC
+ 34  1,9  - CIvIE
+ 34  1,9  - COgIE
+ 34  1,9  - COkIE
+ 34  1,9  - COsIE
+ 34  1,9  - COzIE
+ 34  7,1  | ChEW
+ 34  7,1  | ClEW
+ 34  1,9  - WIfIE
+ 34  7,2  | hEII
+ 32  1,9  - ECOId
+ 32  2,5  | OVICIdE
+ 32  7,3  | fEW
+ 32  7,1  | vIEW
+ 31  3,9  - CsW
+ 31  7,4  | EW
  30  6,3  - RECOIl
  30  6,3  - RECOIn
+ 30  6,3  - RICInE
+ 30  2,6  | VICInE
+ 30  2,6  | VICkIE
+ 30  7,5  | WrO
+ 30  7,2  | dEW
+ 30  7,2  | fEW
+ 30  7,2  | hEW
+ 30  7,2  | mEW
+ 30  7,2  | pEW
+ 30  7,2  | tEW
+ 29  7,4  | eW
  28  7,1  | COEd
+ 28  7,3  | ElI
+ 28  7,5  | IdIC
+ 28  2,6  | VICEd
+ 28  2,6  | VICEs
+ 28  2,6  | VICIa
+ 28  2,6  | VICkI
+ 28  2,6  | VIEWs
+ 28  2,6  | VIEWy
+ 28  2,6  | VInCE
+ 28  2,6  | VInCI
+ 28  2,6  | VInEW
+ 28  2,6  | VInIC
  28  2,2  - WICOPy
+ 28  7,1  | WIEd
  28  7,1  | WeEI
+ 28  1,9  - WeEI
+ 28  1,9  - lWEI
+ 27  1,9  - COEs
  27  1,9  - ICEs
+ 27  3,9  - IIWi
  27  1,9  - IWIs
  27  1,9  - OWEs
+ 27  5,9  - WICE
  27  1,9  - WOEs
+ 26  7,3  | EW
+ 26  4,9  - IWI
+ 26  4,9  - IWIs
+ 26  3,9  - IiWI
  26  4,4  - QUAICh
  26  7,1  | WEeI
+ 26  5,9  - WICe
  26  5,9  - WICh
  26  5,9  - WICk
+ 26  7,1  | WIfE
+ 26  5,9  - WaCE
+ 26  5,9  - WaCO
+ 26  5,9  - WiCE
+ 26  7,3  | fEI
+ 26  3,9  - iIWI
+ 26  3,9  - kIWI
+ 25  1,9  - CEdI
+ 25  1,9  - CEtI
+ 25  1,4  - COWQUAkE
+ 25  1,9  - COlI
+ 25  1,9  - COnI
+ 25  4,9  - IWa
+ 25  4,9  - IWi
+ 25  1,9  - WEeI
+ 25  1,9  - WEkI
+ 25  1,9  - WElI
+ 25  1,9  - WErI
+ 25  1,9  - WIkI
+ 25  5,9  - WaC
+ 25  5,9  - WjC
+ 24  5,2  - EPIOtIC
  24  5,2  - EPIzOIC
+ 24  7,2  | OEr
+ 24  5,2  - OPIfICE
  24  5,9  - WIlCO
  24  5,9  - WInCE
+ 24  7,2  | dEI
+ 24  7,2  | fEI
+ 24  7,2  | hEI
+ 24  4,9  - iWI
+ 24  7,2  | lEI
+ 23  7,4  | Ew
+ 23  7,4  | Ex
+ 23  3,9  - WIlCO
+ 23  3,9  - WInCE
+ 23  5,9  - WOIlIE
+ 23  7,4  | bI
  23  7,4  | dI
+ 23  7,6  | dIOC
  23  7,4  | gI
+ 23  7,4  | mI
+ 23  4,9  - sW
+ 23  7,4  | tI
  23  7,4  | yI
+ 22  5,2  - EPOdIC
+ 22  2,9  - ICIEr
+ 22  2,2  | ICOnV
+ 22  3,2  | IWa
+ 22  7,2  | IfE
  22  3,2  | OCa
+ 22  6,2  - PICEIn
+ 22  6,2  - PICInE
+ 22  6,2  - PICOId
+ 22  6,2  - PICOtE
+ 22  6,2  - PIEtIC
  22  6,2  - PIOnIC
  22  6,2  - POEtIC
+ 22  6,2  - POWnIE
  22  6,2  - POlICE
+ 22  2,6  | VIdEO
+ 22  2,6  | VIrEO
+ 22  2,6  | VIsIE
+ 22  2,3  - WaC
+ 22  2,3  - WjC
+ 22  7,3  | eW
+ 22  7,3  | fW
+ 21  3,9  - CIE
+ 21  3,9  - CIOn
+ 21  4,3  - CdR
+ 21  4,3  - ClR
  21  7,5  | Id
  21  7,5  | Is
+ 21  3,9  - WIEd
+ 21  5,9  - WIfIE
  21  7,6  | dOWIE
+ 21  7,6  | sOCII
+ 21  2,9  - tWIE
+ 21  2,9  - yCIE
  20  2,9  - OWsE
+ 20  6,2  - PECOs
  20  6,2  - PEWIt
+ 20  6,2  - PICEa
  20  6,2  - PICOt
+ 20  6,2  - PICaE
+ 20  6,2  - PIChI
  20  6,2  - PIECe
  20  6,2  - PIeCE
+ 20  6,2  - PInIC
  20  6,2  - PIsCO
+ 20  6,2  - POChE
  20  6,2  - POWEr
  20  6,2  - POnCE
+ 20  6,2  - POuCE
+ 20  6,2  - PlOCE
  20  6,2  - PrICE
+ 20  5,9  - WEI
  20  5,9  - WEIr
+ 20  5,9  - WIEd
+ 20  3,9  - WIfIE
  20  5,9  - WOE
  20  5,9  - WOEs
  20  5,9  - WeEI
+ 20  2,3  - bEC
  20  2,2  - bICEP
+ 20  2,3  - bOC
  20  7,6  | dICE
+ 20  2,3  - dOC
+ 20  2,3  - fEC
+ 20  2,3  - hIC
+ 20  2,3  - hOC
+ 20  2,3  - lOC
+ 20  2,3  - mOC
+ 20  2,3  - pIC
+ 20  2,3  - rEC
+ 20  2,2  - rECIP
+ 20  2,3  - rIC
  20  7,6  | rICE
+ 20  2,3  - rOC
+ 20  2,3  - sEC
+ 20  2,3  - sIC
  20  7,6  | sICE
+ 20  2,3  - sOC
+ 20  7,6  | sOCE
+ 20  7,6  | sW
+ 20  2,3  - tEC
+ 20  2,3  - tIC
+ 20  2,3  - vIC
+ 20  2,3  - vOC
+ 19  3,2  | CIa
  19  1,4  - COEQUAl
+ 19  3,9  - CiE
+ 19  1,9  - EkOI
+ 19  2,3  - EnC
+ 19  2,3  - EsC
+ 19  2,3  - EtC
+ 19  5,6  | GrECE
+ 19  5,6  | GrECO
+ 19  4,9  - IOdIC
+ 19  4,9  - IOnIC
+ 19  2,3  - InC
+ 19  2,3  - OrC
+ 19  2,3  - OsC
+ 19  2,3  - OtC
+ 19  3,2  | WEa
  19  5,9  - WEeI
+ 19  5,9  - WEkI
+ 19  5,9  - WElI
+ 19  5,9  - WErI
+ 19  7,7  | WICE
+ 19  5,9  - WIcE
  19  5,9  - WIdE
  19  5,9  - WIfE
  19  5,9  - WIkI
  19  5,9  - WIlE
+ 19  5,9  - WImE
  19  5,9  - WInE
  19  5,9  - WInO
  19  5,9  - WIpE
@@ -56,28 +261,81 @@
  19  5,9  - WIsE
  19  5,9  - WItE
  19  5,9  - WIvE
+ 19  3,2  | WOa
+ 19  5,9  - WOdE
  19  5,9  - WOkE
+ 19  5,9  - WOnE
  19  5,9  - WOrE
+ 19  5,9  - WOtE
  19  5,9  - WOvE
  19  5,9  - WaE
  19  5,9  - WeE
+ 19  5,9  - WeI
  19  5,9  - WhO
  19  5,9  - WoE
  19  5,9  - WoO
+ 19  5,9  - WrO
  19  5,9  - WyE
+ 19  1,9  - bOII
+ 19  1,9  - hEII
+ 18  2,4  | CIVIE
+ 18  2,4  | CIVIEs
+ 18  2,4  | CIVIlE
+ 18  2,4  | CIVItE
+ 18  3,9  - CInE
+ 18  3,9  - CIrE
+ 18  3,9  - CIsE
+ 18  3,9  - CItE
+ 18  2,4  | COVInE
+ 18  2,4  | COVItE
+ 18  3,3  - Cc
  18  7,3  | Ed
+ 18  7,3  | Ee
+ 18  7,3  | El
+ 18  7,3  | En
+ 18  7,3  | Er
+ 18  7,3  | Et
+ 18  7,3  | Ew
+ 18  5,6  | GlEW
+ 18  5,6  | GrEW
+ 18  2,9  - IWIs
+ 18  4,9  - IdIC
  18  5,9  - WE
+ 18  5,9  - WEa
  18  5,9  - WEb
  18  5,9  - WEd
  18  5,9  - WEe
+ 18  5,9  - WEi
+ 18  5,9  - WEm
  18  5,9  - WEn
+ 18  5,9  - WEr
+ 18  5,9  - WEs
  18  5,9  - WEt
+ 18  5,9  - WEy
+ 18  7,7  | WICe
+ 18  7,7  | WICh
+ 18  7,7  | WICk
+ 18  5,9  - WId
+ 18  3,9  - WIdE
+ 18  3,9  - WIfE
  18  5,9  - WIg
+ 18  3,9  - WIlE
+ 18  5,9  - WIm
  18  5,9  - WIn
+ 18  3,9  - WInE
+ 18  3,9  - WInO
+ 18  5,9  - WIr
+ 18  3,9  - WIrE
  18  5,9  - WIs
+ 18  3,9  - WIsE
  18  5,9  - WIt
+ 18  3,9  - WItE
  18  5,9  - WIz
  18  5,9  - WO
+ 18  2,9  - WOIlIE
+ 18  5,9  - WOa
+ 18  5,9  - WOb
+ 18  5,9  - WOd
  18  5,9  - WOe
  18  5,9  - WOg
  18  5,9  - WOk
@@ -86,165 +344,517 @@
  18  5,9  - WOs
  18  5,9  - WOt
  18  5,9  - WOw
+ 18  7,7  | WaCE
+ 18  7,7  | WaCO
+ 18  7,7  | WiCE
+ 18  3,3  - cC
  18  7,6  | dOC
  18  7,6  | dOW
+ 18  3,3  - fC
+ 18  2,4  | nOVICE
+ 18  7,6  | rIC
  18  7,6  | rOC
  18  7,6  | rOW
  18  7,6  | sIC
+ 18  7,6  | sOC
+ 18  4,9  - sOCII
  18  7,6  | sOW
+ 18  3,3  - tC
+ 17  2,4  | CIVIc
+ 17  2,4  | CIVIe
+ 17  2,4  | CIVIl
+ 17  3,9  - CId
+ 17  3,9  - CIe
+ 17  3,9  - CIf
+ 17  3,9  - CIr
+ 17  3,9  - CIs
+ 17  2,9  - CIsE
+ 17  3,9  - CIt
+ 17  2,4  | COVId
+ 17  2,4  | COVIn
+ 17  2,9  - COsE
+ 17  2,4  | CaVIE
+ 17  2,4  | CiVIE
+ 17  2,9  - ClIO
+ 17  2,5  | EVICt
+ 17  4,9  - IOCs
+ 17  2,9  - IWI
  17  4,4  - QUACk
+ 17  4,4  - QUAW
+ 17  4,4  - QUAWk
+ 17  2,6  | VICE
+ 17  2,6  | VIEW
+ 17  3,9  - WId
+ 17  3,9  - WIn
+ 17  3,9  - WIr
+ 17  3,9  - WIs
  17  2,9  - WIsE
+ 17  3,9  - WIt
+ 17  7,7  | WaC
+ 17  5,9  - Wb
  17  5,9  - We
+ 17  5,9  - Wf
+ 17  5,9  - Wg
+ 17  7,7  | WjC
  17  5,9  - Wo
+ 17  5,9  - Wt
+ 17  5,9  - Wy
+ 17  2,5  | aVIEW
+ 17  2,4  | cIVIC
+ 17  3,9  - dIOC
+ 17  4,9  - sOCE
+ 17  3,9  - vIEW
+ 16  2,4  | CIViE
+ 16  5,1  | IChU
+ 16  1,9  - IOnI
+ 16  1,9  - OEcI
  16  5,9  - OlEIC
+ 16  4,4  - QUAdI
  16  4,4  - QUAkE
  16  4,4  - QUAlE
  16  4,4  - QUArE
  16  4,4  - QUAsI
  16  4,4  - QUAtE
+ 16  4,4  - QUAvE
  16  2,6  - VERGEnCE
+ 16  2,6  | VIC
+ 16  2,6  | VICa
+ 16  2,6  | VICe
+ 16  2,6  | VICk
+ 16  2,6  | VIeW
+ 16  7,3  | eE
+ 16  7,3  | fE
+ 16  7,3  | fI
+ 16  7,3  | gI
+ 16  2,9  - iWI
+ 16  2,9  - sCI
+ 16  2,9  - tWI
+ 16  2,5  | uVIC
+ 15  2,9  - CEIl
+ 15  7,1  | CIE
  15  4,1  | CInQ
+ 15  7,1  | COE
+ 15  2,9  - COIf
+ 15  2,9  - COIl
+ 15  2,9  - COIn
+ 15  2,9  - COIr
+ 15  2,9  - COIt
  15  4,2  | COQ
- 15  3,2  - COWPIE
- 15  3,2  - COWPIEs
+ 15  5,1  | ChOU
+ 15  5,1  | ClOU
+ 15  4,9  - IOdE
+ 15  4,9  - IOnE
+ 15  4,9  - IOnI
+ 15  2,9  - IWi
+ 15  5,9  - OECI
+ 15  4,4  - QUAIfE
  15  6,7  - SCOWEd
+ 15  6,7  - StOWCE
+ 15  2,6  | ViCE
+ 15  2,6  | ViEW
+ 15  2,9  - WEIr
+ 15  7,7  | WIlCO
+ 15  7,7  | WInCE
  15  7,1  | WOE
  15  6,5  - XEnIC
  15  6,5  - XErIC
  15  7,6  | dIE
  15  7,6  | dOE
+ 15  2,9  - jOIE
+ 15  2,9  - mEIO
+ 15  7,6  | rIE
+ 15  7,6  | rIO
  15  7,6  | rOE
+ 15  7,6  | rOI
  15  4,9  - sEC
  15  4,9  - sEW
+ 15  7,6  | sIE
+ 15  4,9  - sOC
+ 15  7,6  | sOE
  15  4,9  - sOW
  14  3,2  - COWPEa
- 14  3,2  - COWPIe
- 14  3,2  - COWPiE
+ 14  3,2  - COWPEn
+ 14  3,2  - COWPEr
+ 14  4,3  | CQ
  14  4,2  | CoQ
- 14  3,2  - CoWPIE
  14  3,4  - EQUAl
+ 14  2,5  | IVIEd
+ 14  2,5  | IVIEs
+ 14  5,9  - OECi
  14  5,9  - OICk
+ 14  2,5  | OVIlE
+ 14  2,5  | OVInE
+ 14  5,9  - OeCI
+ 14  2,9  - OkIE
  14  5,9  - OnCE
  14  6,2  - PIEzO
+ 14  6,2  - PIOxE
  14  6,2  - PIlEI
  14  6,2  - PIxIE
+ 14  6,2  - POIrE
  14  6,2  - POIsE
+ 14  6,2  - POkIE
+ 14  6,2  - POpIE
+ 14  4,4  - QUAE
  14  4,4  - QUAI
  14  4,4  - QUAIl
  14  4,4  - QUAIs
  14  6,7  - SCOW
  14  6,7  - SCOWl
  14  6,7  - SCOWs
+ 14  6,7  - SWICk
+ 14  2,6  | ViC
+ 14  2,9  - WEI
  14  3,4  - aQUAE
+ 14  2,4  | cIVIE
  14  7,6  | dI
  14  7,6  | dO
+ 14  2,4  | mOVIE
+ 14  2,4  - sEQUA
  14  7,6  | sI
  14  7,6  | sO
  13  7,1  | CeE
+ 13  7,1  | ChE
+ 13  7,1  | CiE
+ 13  7,1  | CoE
+ 13  7,1  | CtE
+ 13  2,5  | EVIl
+ 13  5,9  - EnC
+ 13  5,9  - EsC
+ 13  5,9  - EtC
+ 13  4,9  - IO
+ 13  4,9  - IOf
+ 13  4,9  - IOn
+ 13  4,9  - IOu
+ 13  2,5  | IVIn
+ 13  4,9  - InC
+ 13  3,9  - IsE
+ 13  7,7  | OECI
+ 13  2,5  | OVId
+ 13  2,5  | OVIs
  13  5,9  - OrC
+ 13  5,9  - OsC
  13  3,9  - OsE
+ 13  5,9  - OtC
+ 13  4,4  - QUAb
  13  4,4  - QUAd
+ 13  4,4  - QUAe
  13  4,4  - QUAg
  13  4,4  - QUAi
+ 13  4,4  - QUAl
+ 13  4,4  - QUAm
+ 13  4,4  - QUAn
+ 13  4,4  - QUAr
+ 13  4,4  - QUAt
+ 13  4,4  - QUAw
  13  4,4  - QUAy
+ 13  6,7  - SCaW
  13  6,7  - SCoW
+ 13  2,6  | VIE
+ 13  2,6  | VIEd
+ 13  2,6  | VIEr
+ 13  2,6  | VIEs
+ 13  2,6  | VIEw
+ 13  2,6  | VII
+ 13  2,6  | VIIi
+ 13  2,6  | VIOl
+ 13  2,6  | VIbE
+ 13  2,6  | VIcE
+ 13  2,6  | VIdE
+ 13  2,6  | VIiI
+ 13  2,6  | VIlE
+ 13  2,6  | VIlI
+ 13  2,6  | VInE
+ 13  2,6  | VInO
+ 13  2,6  | VIrE
+ 13  2,6  | VIsE
+ 13  2,6  | VItE
+ 13  2,6  | VItI
+ 13  2,6  | VIvE
+ 13  2,6  | VIvO
  13  7,1  | WaE
  13  7,1  | WeE
  13  7,1  | WoE
  13  3,4  - aQUA
+ 13  2,5  | aVIE
+ 13  3,9  - bIO
+ 13  3,9  - cIE
+ 13  2,4  | dEVI
+ 13  3,9  - dIE
+ 13  2,4  | dIVI
  13  5,9  - dOWIE
- 13  5,1  | lIEU
+ 13  3,9  - fIE
+ 13  3,9  - gIE
+ 13  3,9  - gIO
+ 13  3,9  - hIE
+ 13  3,9  - kIE
+ 13  2,4  | lEVI
+ 13  3,9  - lIE
+ 13  2,4  | nEVI
+ 13  3,9  - pIE
+ 13  3,9  - rIE
+ 13  3,9  - rIO
+ 13  3,9  - sIE
+ 13  5,9  - sOCII
+ 13  3,9  - tIE
  13  5,9  - tOWIE
  13  5,9  - tWICE
+ 13  3,9  - vIE
+ 13  2,5  | xVII
  12  2,9  - CIs
  12  2,9  - COs
+ 12  2,9  - CaI
+ 12  2,9  - CfI
+ 12  2,9  - ChI
+ 12  2,9  - ClI
+ 12  2,9  - CsI
+ 12  5,9  - ECOId
  12  3,7  - FEES
+ 12  3,7  - FEESt
+ 12  3,7  - FEIS
  12  3,7  - FEISt
  12  5,6  | GEE
  12  5,6  | GEEd
  12  5,6  | GEEk
+ 12  5,6  | GEEr
  12  5,6  | GEEs
+ 12  5,6  | GEEt
  12  5,6  | GEEz
- 12  5,6  | GhEE
+ 12  5,6  | GIE
+ 12  5,6  | GIEd
+ 12  5,6  | GIEn
+ 12  5,6  | GIEs
+ 12  5,6  | GlEE
+ 12  5,6  | GrEE
+ 12  7,7  | IIWi
+ 12  7,7  | IOCs
+ 12  4,9  - IdEO
+ 12  7,7  | IiWI
+ 12  7,7  | OECi
  12  7,7  | OICk
+ 12  1,6  - OVERGEt
+ 12  7,7  | OeCI
  12  7,7  | OnCE
+ 12  6,2  - PWCa
+ 12  6,3  - REICe
+ 12  6,3  - REICh
+ 12  6,3  - REOWn
+ 12  6,3  - REcCO
+ 12  6,7  - SEnCIO
+ 12  6,7  - SnOWIE
+ 12  2,6  | VIa
+ 12  2,6  | VIc
+ 12  2,6  | VIe
+ 12  2,6  | VIi
+ 12  2,6  | VIl
+ 12  2,6  | VIm
+ 12  2,6  | VIn
+ 12  2,6  | VIp
+ 12  2,6  | VIs
+ 12  2,6  | VIz
+ 12  2,6  | ViII
+ 12  7,7  | WEI
+ 12  7,7  | WEIr
+ 12  2,9  - WEi
+ 12  2,9  - WEs
+ 12  7,7  | WIEd
+ 12  7,7  | WIfIE
  12  2,9  - WIs
+ 12  7,7  | WOE
+ 12  7,7  | WOEs
  12  2,9  - WOs
+ 12  7,7  | WeEI
+ 12  2,9  - WeI
+ 12  6,5  - XCl
+ 12  6,5  - XW
+ 12  5,1  | cC
+ 12  5,1  | fC
  12  3,5  | jEFE
  12  4,9  - sEI
+ 12  4,9  - sOE
+ 12  5,1  | tC
+ 12  2,5  | xVI
  11  7,1  | CEe
+ 11  7,1  | CIe
+ 11  7,1  | CIf
+ 11  7,1  | CIg
+ 11  4,2  - COPEI
+ 11  4,2  - COPEIa
  11  4,2  - COPIEd
  11  4,2  - COPIEr
  11  4,2  - COPIEs
- 11  3,2  - COwPIE
+ 11  7,1  | COe
+ 11  7,1  | COg
+ 11  3,2  - ClIPEI
+ 11  5,9  - ECO
+ 11  5,9  - ECOd
+ 11  5,9  - ECOl
+ 11  5,9  - ECOn
+ 11  3,9  - EIr
  11  5,9  - EmIC
  11  5,9  - EnOW
  11  5,9  - EpIC
+ 11  5,9  - ErIC
  11  4,2  | EsQ
- 11  5,9  - EtIC
  11  3,7  - FEaSE
+ 11  7,7  | InC
  11  7,2  | OE
+ 11  3,9  - OIl
  11  5,9  - OWE
  11  5,9  - OWEd
+ 11  5,9  - OWEn
+ 11  5,9  - OWEr
  11  5,9  - OWEs
  11  5,9  - OdIC
+ 11  5,9  - OpEC
  11  7,7  | OrC
+ 11  7,7  | OsC
+ 11  7,7  | OtC
  11  5,9  - OtIC
+ 11  4,6  | REMICa
+ 11  4,6  | REMOCk
+ 11  6,3  - ReICE
  11  6,7  - SCrEW
+ 11  6,7  - SCrOW
  11  6,7  - SEcCO
+ 11  6,7  - SEnCI
  11  6,7  - SInCE
  11  6,7  - SaICE
+ 11  6,7  - ShICE
+ 11  6,7  - SkICE
  11  6,7  - SlICE
  11  6,7  - SpICE
  11  2,6  - VERGEd
  11  2,6  - VERGEr
  11  2,6  - VERGEs
+ 11  2,6  | ViE
+ 11  2,6  | ViI
  11  7,1  | WEe
+ 11  7,7  | WEeI
+ 11  7,7  | WEkI
+ 11  7,7  | WElI
+ 11  7,7  | WErI
+ 11  7,7  | WIcE
+ 11  7,7  | WIdE
+ 11  7,7  | WIfE
+ 11  7,1  | WIg
+ 11  7,7  | WIkI
+ 11  7,7  | WIlE
+ 11  7,7  | WImE
+ 11  7,7  | WInE
+ 11  7,7  | WInO
+ 11  7,7  | WIpE
+ 11  7,7  | WIrE
+ 11  7,7  | WIsE
+ 11  7,7  | WItE
+ 11  7,7  | WIvE
+ 11  7,7  | WOdE
  11  7,1  | WOe
+ 11  7,1  | WOg
+ 11  7,7  | WOkE
+ 11  7,7  | WOnE
+ 11  7,7  | WOrE
+ 11  7,7  | WOtE
+ 11  7,7  | WOvE
+ 11  7,7  | WaE
+ 11  7,7  | WeE
+ 11  7,7  | WeI
+ 11  7,7  | WhO
+ 11  7,7  | WoE
+ 11  7,7  | WoO
+ 11  7,7  | WrO
+ 11  7,7  | WyE
+ 11  6,5  - XIpE
+ 11  6,5  - XvII
+ 11  6,5  - XxII
  11  3,2  - bIOPIC
+ 11  7,1  | bOE
+ 11  7,1  | cIE
+ 11  7,1  | cOE
  11  4,2  | cOQ
- 11  3,2  - cOWPIE
  11  5,9  - dECO
  11  5,9  - dICE
  11  7,1  | dIE
  11  7,1  | dOE
+ 11  5,2  | fEU
  11  5,9  - fICE
  11  5,9  - fICO
  11  7,1  | fIE
  11  5,9  - fOCI
  11  7,1  | fOE
+ 11  5,2  | fOU
  11  7,1  | gIE
+ 11  5,2  | gOU
+ 11  5,3  - gRECO
+ 11  5,3  - gRICE
  11  7,1  | hIE
  11  7,1  | hOE
  11  7,7  | hOWE
  11  5,9  - hOWE
+ 11  7,7  | iIWI
+ 11  4,9  - iO
  11  7,1  | jOE
+ 11  7,1  | kIE
+ 11  5,2  | lEU
  11  5,9  - lICE
  11  7,1  | lIE
+ 11  4,2  | lIQ
  11  5,9  - lOCI
+ 11  7,1  | lOE
  11  4,2  | lOQ
+ 11  5,2  | lOU
  11  5,9  - lOWE
- 11  5,9  - mICE
+ 11  4,2  | mEQ
  11  5,9  - nICE
+ 11  5,9  - nICI
+ 11  7,7  | oECI
+ 11  5,9  - oECI
  11  7,1  | pIE
+ 11  7,1  | pOE
  11  5,9  - rICE
+ 11  7,1  | rIE
  11  7,1  | rOE
  11  5,9  - sCOW
+ 11  4,2  | sEQ
  11  5,9  - sICE
+ 11  7,1  | sIE
  11  4,9  - sO
+ 11  5,9  - sOCE
+ 11  7,1  | sOE
+ 11  5,9  - tECO
+ 11  5,9  - tICE
  11  7,1  | tIE
  11  7,1  | tOE
  11  7,1  | vIE
  11  7,1  | vOE
+ 11  7,7  | wICE
+ 11  5,9  - wICE
  11  7,1  | wOE
+ 10  4,2  - CIPO
+ 10  4,2  - CIPpI
+ 10  2,4  | CIV
+ 10  3,2  - CIpPI
  10  4,2  - COPE
  10  4,2  - COPEd
+ 10  4,2  - COPEi
  10  4,2  - COPEn
  10  4,2  - COPEr
  10  4,2  - COPEs
+ 10  4,2  - COPIa
+ 10  4,2  - COPIs
+ 10  4,2  - COPeI
  10  4,2  - COPsE
+ 10  2,3  | COnV
+ 10  2,3  | COrV
  10  3,2  - COuPE
- 10  3,2  - CrIPE
+ 10  2,3  | ChIV
+ 10  2,3  | ClIV
+ 10  4,2  - CoPEI
+ 10  5,8  | ECO
+ 10  5,8  | ECOd
+ 10  5,8  | ECOl
+ 10  5,8  | ECOn
+ 10  5,8  | ECcE
  10  5,8  | EChE
  10  5,8  | EChO
  10  5,9  - EChO
@@ -254,13 +864,43 @@
  10  5,8  | EWE
  10  5,8  | EWEr
  10  5,8  | EWEs
+ 10  5,8  | EWtE
  10  3,7  - FEeS
+ 10  3,7  - FEiS
+ 10  3,7  - FErS
+ 10  3,7  - FEtS
+ 10  3,7  - FEuS
  10  5,6  | GeE
+ 10  5,6  | GiE
+ 10  5,6  | GrE
+ 10  5,6  | GtE
+ 10  5,6  | GuE
+ 10  7,7  | ICEnI
  10  7,7  | ICIEr
+ 10  7,1  | IdE
+ 10  4,9  - IdE
+ 10  7,1  | IfE
+ 10  4,9  - IfE
+ 10  7,1  | IlE
+ 10  4,9  - IlE
+ 10  4,9  - InO
+ 10  4,9  - IrE
+ 10  4,9  - IsE
+ 10  4,9  - IwI
+ 10  3,9  - OI
+ 10  5,2  - OPEC
+ 10  5,2  - OPhIC
  10  5,2  - OPtIC
  10  5,9  - OWsE
+ 10  7,1  | OdE
+ 10  7,1  | OlE
  10  7,7  | OlEIC
+ 10  7,1  | OpE
  10  6,2  - PICE
+ 10  6,2  - PICI
+ 10  6,2  - PICO
+ 10  6,7  - SIcC
+ 10  6,7  - SaIC
  10  6,7  - ScOW
  10  6,7  - ShEW
  10  6,7  - ShOW
@@ -268,72 +908,150 @@
  10  6,7  - SlEW
  10  6,7  - SlOW
  10  6,7  - SmEW
+ 10  6,7  - SnEW
  10  6,7  - SnOW
  10  6,7  - SpEC
  10  6,7  - SpEW
  10  6,7  - SpIC
  10  6,7  - StEW
  10  6,7  - StOW
+ 10  6,7  - SwOW
  10  7,1  | WE
+ 10  7,7  | WE
+ 10  7,7  | WEa
+ 10  7,7  | WEb
+ 10  7,7  | WEd
+ 10  7,7  | WEe
+ 10  7,7  | WEi
+ 10  7,7  | WEm
+ 10  7,7  | WEn
+ 10  7,7  | WEr
+ 10  7,7  | WEs
+ 10  7,7  | WEt
+ 10  7,7  | WEy
  10  4,2  - WIPE
  10  4,2  - WIPEd
  10  4,2  - WIPEr
  10  4,2  - WIPEs
+ 10  7,7  | WId
+ 10  7,7  | WIg
+ 10  7,7  | WIm
+ 10  7,7  | WIn
+ 10  7,7  | WIr
+ 10  7,7  | WIs
+ 10  7,7  | WIt
+ 10  7,7  | WIz
  10  5,1  | WO
  10  7,1  | WO
+ 10  7,7  | WO
+ 10  7,7  | WOa
+ 10  7,7  | WOb
+ 10  7,7  | WOd
+ 10  7,7  | WOe
+ 10  7,7  | WOg
+ 10  7,7  | WOk
+ 10  7,7  | WOn
+ 10  7,7  | WOo
+ 10  7,7  | WOs
+ 10  7,7  | WOt
+ 10  7,7  | WOw
+ 10  4,3  | cQ
+ 10  2,9  - dEI
  10  5,9  - dEW
  10  5,9  - dOC
  10  5,9  - dOW
+ 10  5,9  - fEC
+ 10  2,9  - fEI
  10  5,9  - fEW
+ 10  2,9  - gOI
+ 10  2,9  - hEI
  10  7,7  | hEW
  10  5,9  - hEW
  10  7,7  | hIC
  10  5,9  - hIC
+ 10  7,7  | hOC
+ 10  5,9  - hOC
+ 10  2,9  - hOI
  10  7,7  | hOW
  10  5,9  - hOW
+ 10  2,9  - iII
+ 10  2,9  - kOI
+ 10  2,9  - lEI
+ 10  4,2  - lIPIC
+ 10  5,9  - lOC
  10  5,9  - lOW
- 10  5,9  - mEW
- 10  5,9  - mIC
- 10  5,9  - mOC
- 10  5,9  - mOW
+ 10  2,9  - mOI
+ 10  2,9  - nEI
  10  5,9  - nEW
  10  5,9  - nOW
+ 10  2,9  - pOI
  10  5,9  - rEC
+ 10  4,2  - rEPIC
+ 10  5,9  - rEW
+ 10  5,9  - rIC
  10  5,9  - rOC
+ 10  2,9  - rOI
  10  5,9  - rOW
  10  3,2  - sCOPE
  10  5,9  - sEC
+ 10  2,9  - sEI
  10  4,2  - sEPIC
  10  5,9  - sEW
  10  5,9  - sIC
+ 10  5,9  - sOC
  10  5,9  - sOW
  10  5,2  - sPICE
  10  3,2  - sWIPE
+ 10  5,9  - tEC
  10  5,9  - tEW
  10  5,9  - tIC
+ 10  2,9  - tOI
  10  4,2  - tOPIC
  10  5,9  - tOW
+ 10  2,9  - vEI
+ 10  2,9  - vII
+ 10  2,9  - wEI
+ 10  7,7  | wOW
  10  5,9  - wOW
   9  4,2  - CEP
+  9  4,2  - CEPa
   9  4,2  - CEPe
   9  4,2  - CEPs
+  9  4,2  - CIPo
   9  4,2  - COP
+  9  4,2  - COPa
   9  4,2  - COPe
+  9  4,2  - COPr
   9  4,2  - COPs
+  9  4,2  - COPt
   9  4,2  - COPy
+  9  3,2  - COlP
   9  3,2  - COmP
   9  3,2  - COoP
+  9  3,2  - COrP
   9  3,2  - COuP
+  9  5,2  - CPO
   9  4,2  - CaPE
   9  4,2  - CaPO
+  9  2,4  | CaV
   9  4,2  - CePE
   9  3,2  - ChIP
   9  3,2  - ChOP
+  9  4,2  - CiPO
+  9  2,4  | CiV
+  9  1,5  - Ck
+  9  3,2  - ClEP
   9  3,2  - ClIP
   9  3,2  - ClOP
   9  3,2  - CoOP
   9  4,2  - CoPE
+  9  3,2  - CrIP
   9  3,2  - CrOP
+  9  4,2  - CrPE
+  9  5,8  | ECb
+  9  5,9  - ECb
+  9  5,8  | ECo
+  9  5,9  - ECo
   9  5,8  | ECu
   9  5,9  - ECu
   9  5,2  - EPiC
@@ -341,165 +1059,349 @@
   9  5,9  - EW
   9  5,8  | EWe
   9  5,9  - EWe
+  9  2,9  - ElI
+  9  2,9  - EpI
   9  7,7  | ICE
   9  7,7  | ICEd
   9  7,7  | ICEs
+  9  7,7  | ICOd
   9  7,7  | ICOn
+  9  2,9  - IIi
   9  7,7  | IOdIC
   9  7,7  | IOnIC
   9  7,7  | IWI
   9  7,7  | IWIs
+  9  4,9  - Id
+  9  7,7  | IdIC
+  9  4,9  - If
+  9  2,9  - IiI
+  9  2,9  - ImI
+  9  4,9  - In
+  9  4,9  - Io
+  9  4,9  - Is
+  9  4,9  - It
+  9  2,9  - IwI
   9  5,9  - OCa
+  9  5,9  - OCh
+  9  5,9  - OCk
+  9  5,9  - OCt
   9  2,9  - OEs
+  9  5,2  - OPeC
   9  5,9  - OW
   9  7,7  | OWE
   9  7,7  | OWEd
+  9  7,7  | OWEn
+  9  7,7  | OWEr
   9  7,7  | OWEs
+  9  5,9  - OWd
   9  5,9  - OWe
   9  5,9  - OWl
   9  5,9  - OWn
+  9  5,9  - OWt
+  9  2,9  - ObI
   9  7,7  | OdIC
+  9  2,9  - OnI
+  9  7,7  | OpEC
   9  7,7  | OtIC
-  9  6,2  - PEC
+  9  2,9  - OuI
   9  6,2  - PECh
   9  6,2  - PECk
-  9  6,2  - PECs
   9  6,2  - PEW
   9  6,2  - PEWs
+  9  6,2  - PEWy
   9  6,2  - PIC
   9  6,2  - PICa
   9  6,2  - PICe
+  9  6,2  - PICh
+  9  6,2  - PICi
   9  6,2  - PICk
+  9  6,2  - PICo
   9  6,2  - PICs
+  9  6,2  - PICt
   9  6,2  - POCk
   9  6,2  - POCo
   9  6,2  - POW
   9  6,2  - POWs
+  9  6,2  - POrC
   9  6,2  - PaCE
+  9  6,2  - PaCO
   9  6,2  - PhEW
   9  6,2  - PiCE
+  9  6,2  - PiCI
+  9  6,2  - PiCO
   9  6,2  - PlEW
   9  6,2  - PlOW
   9  6,2  - PoCO
+  9  6,2  - PrEC
+  9  6,2  - PrOC
   9  6,2  - PrOW
+  9  6,2  - PsEC
   9  6,2  - PuCE
   9  6,2  - PyIC
+  9  6,3  - RCd
+  9  6,3  - RCt
+  9  6,3  - RECIp
   9  6,3  - RECIt
   9  6,3  - RECOn
   9  6,3  - REWIn
   9  6,3  - REWOn
   9  6,3  - RElIC
+  9  6,3  - REpIC
+  9  6,3  - RErOW
   9  6,3  - REsOW
   9  6,3  - RICE
   9  6,3  - RICEd
   9  6,3  - RICEr
   9  6,3  - RICEs
+  9  6,3  - RICEy
   9  6,3  - RICIn
   9  6,3  - ROWEd
   9  6,3  - ROWEl
   9  6,3  - ROWEn
   9  6,3  - ROWEr
+  9  6,3  - ROWEt
+  9  6,3  - ROmIC
+  9  6,3  - ROrIC
+  9  6,3  - RWd
+  9  6,3  - RWy
+  9  6,7  - SIlICO
+  9  6,7  - SInICO
+  9  6,7  - SOCIEs
+  9  6,7  - SOCII
   9  4,2  - WEPt
   9  3,2  - WEeP
   9  4,2  - WIPe
-  9  3,2  - WImP
+  9  4,2  - WIPs
   9  3,2  - WIsP
   9  4,2  - WOPs
+  9  3,2  - WOmP
+  9  7,7  | Wb
+  9  7,7  | We
   9  3,2  - WeEP
+  9  7,7  | Wf
+  9  7,7  | Wg
   9  3,2  - WhIP
   9  3,2  - WhOP
   9  4,2  - WiPE
+  9  7,7  | Wo
+  9  7,7  | Wt
+  9  7,7  | Wy
+  9  4,2  - WyPE
+  9  6,5  - XEd
   9  6,5  - XEs
   9  6,5  - XI
   9  6,5  - XIs
+  9  6,5  - XIx
+  9  6,5  - XvI
+  9  6,5  - XxI
+  9  3,2  - aCOP
   9  7,2  | aE
+  9  5,3  - bREW
+  9  5,3  - bROW
+  9  7,2  | dE
+  9  3,2  - dOWP
+  9  5,3  - dREW
+  9  5,3  - dROW
   9  7,2  | eE
   9  5,2  - ePIC
+  9  7,2  | fE
   9  5,3  - fROW
+  9  5,3  - gREW
+  9  5,3  - gROW
+  9  7,2  | hE
+  9  3,2  - lWOP
+  9  7,2  | mE
   9  7,2  | oE
+  9  5,2  - oPEC
+  9  7,2  | pE
   9  3,2  - sCOP
   9  5,2  - sPEC
   9  5,2  - sPEW
   9  5,2  - sPIC
+  9  3,2  - sWEP
   9  3,2  - sWOP
-  9  5,3  - vROW
+  9  7,2  | tE
+  8  5,2  - CP
   8  5,2  - CPa
+  8  5,2  - CPl
+  8  5,2  - CPm
+  8  5,2  - CPo
+  8  5,2  - CPs
+  8  5,2  - CPu
   8  4,2  - CaP
+  8  5,1  | Cc
   8  4,2  - CeP
+  8  5,1  | Cf
+  8  7,1  | Cf
+  8  5,1  | Cg
+  8  7,1  | Cg
+  8  5,1  | Ch
+  8  7,1  | Ch
+  8  5,1  | Cl
+  8  7,1  | Cl
   8  4,2  - CoP
+  8  5,1  | Cp
+  8  7,1  | Cp
+  8  4,2  - CsP
   8  4,2  - CuP
+  8  4,2  - CyP
+  8  7,1  | EOf
+  8  5,9  - EkOI
   8  3,9  - Es
+  8  7,7  | IChO
+  8  7,1  | IOf
   8  3,9  - Is
   8  7,7  | OWsE
+  8  3,9  - Oi
+  8  5,9  - OkIE
   8  3,9  - Os
+  8  6,2  - PCf
+  8  6,2  - PCm
+  8  6,2  - PCt
+  8  6,2  - PWr
+  8  6,2  - PWt
   8  6,2  - PaC
   8  6,2  - PaW
-  8  6,2  - PeC
   8  6,2  - PeW
+  8  6,2  - PfC
   8  6,2  - PiC
   8  6,2  - PoW
+  8  6,2  - PsW
+  8  6,3  - RECcO
   8  6,3  - RECtI
   8  6,3  - RECtO
   8  4,6  | REMIsE
+  8  4,6  | REMOrE
   8  4,6  | REMOtE
   8  4,6  | REMOvE
+  8  6,3  - RIChE
+  8  6,3  - ROChE
+  8  6,3  - ROWtE
+  8  6,3  - RhEIC
   8  6,7  - SCIOn
+  8  6,7  - SCIOt
+  8  6,7  - SCOgIE
+  8  6,7  - SEWIn
+  8  6,7  - SEmIC
   8  6,7  - SEpIC
+  8  6,7  - SErIC
   8  6,7  - SErOW
   8  6,7  - SICE
+  8  6,7  - SICEl
+  8  6,7  - SICEr
   8  6,7  - SICEs
   8  6,7  - SICkIE
   8  6,7  - SInEW
+  8  6,7  - SInIC
+  8  6,7  - SIrOC
+  8  6,7  - SOCE
+  8  6,7  - SOCIi
   8  6,7  - SOWEd
+  8  6,7  - SOWEl
   8  6,7  - SOWEr
   8  6,7  - SOdIC
   8  6,7  - SOnIC
+  8  6,7  - SoCII
   8  6,7  - StOIC
+  8  5,2  - WPm
   8  4,2  - WaP
   8  7,1  | We
+  8  5,1  | Wf
+  8  7,1  | Wf
+  8  5,1  | Wg
+  8  7,1  | Wg
   8  5,1  | Wo
   8  7,1  | Wo
+  8  7,1  | Wt
+  8  4,2  - WuP
   8  6,5  - Xi
   8  6,5  - Xu
+  8  6,5  - Xw
+  8  6,5  - Xx
+  8  3,9  - aI
+  8  3,9  - bI
+  8  3,9  - dI
+  8  5,9  - dIOC
+  8  4,2  - fCP
+  8  3,9  - fI
+  8  3,9  - gI
+  8  3,9  - hI
+  8  3,9  - kI
+  8  5,2  - kPC
   8  5,9  - lWEI
-  8  5,9  - mEOW
+  8  4,2  - lWP
+  8  3,9  - mI
+  8  3,9  - oI
+  8  3,9  - pI
+  8  3,9  - qI
+  8  3,9  - sI
+  8  3,9  - tI
+  8  5,9  - tWIE
+  8  4,2  - tWP
+  8  3,9  - xI
+  8  3,9  - yI
   7  5,1  | EO
   7  7,1  | EO
+  7  5,2  - EPhOI
+  7  5,9  - EcO
+  7  5,9  - EdO
   7  7,2  | Ee
+  7  7,2  | Ef
   7  5,9  - EgO
+  7  5,9  - ElI
   7  5,9  - EmO
+  7  5,9  - EpI
   7  7,7  | ICe
   7  7,7  | ICh
-  7  7,7  | ICk
   7  7,7  | ICy
+  7  5,1  | IO
+  7  7,1  | IO
+  7  7,7  | IWa
   7  7,7  | IWi
+  7  7,2  | If
   7  7,7  | OCa
+  7  7,7  | OCh
+  7  7,7  | OCk
+  7  7,7  | OCt
   7  7,1  | OE
-  7  5,1  | OI
+  7  5,9  - OEcI
   7  7,1  | OI
   7  5,2  - OPInE
   7  7,7  | OW
+  7  7,7  | OWd
   7  7,7  | OWe
   7  7,7  | OWl
   7  7,7  | OWn
+  7  7,7  | OWt
   7  5,9  - ObE
   7  5,9  - ObI
   7  5,9  - OdE
   7  7,2  | Oe
+  7  7,2  | Of
   7  5,9  - OkE
   7  5,9  - OlE
   7  5,9  - OnE
+  7  5,9  - OnI
   7  5,9  - OpE
   7  5,9  - OrE
   7  5,9  - OsE
+  7  5,9  - OuI
   7  5,9  - OwE
   7  6,3  - REC
+  7  6,3  - RECd
   7  6,3  - RECk
   7  6,3  - RECs
+  7  6,3  - RECt
+  7  4,6  | REMEn
   7  4,6  | REMEt
   7  4,6  | REMEx
+  7  4,6  | REMI
   7  4,6  | REMIt
   7  4,6  | REMIx
+  7  4,6  | REMOp
+  7  4,6  | REMuE
+  7  6,3  - REW
+  7  6,3  - RIC
   7  6,3  - RICe
   7  6,3  - RICh
   7  6,3  - RICk
@@ -508,67 +1410,129 @@
   7  6,3  - ROCs
   7  6,3  - ROW
   7  6,3  - ROWs
+  7  6,3  - ROWt
+  7  6,3  - ROWy
   7  6,3  - RaCE
   7  6,3  - RiCE
+  7  6,7  - SCOkE
   7  6,7  - SCOnE
   7  6,7  - SCOpE
   7  6,7  - SCOrE
+  7  6,7  - SCOtE
+  7  6,7  - SCOvE
+  7  6,7  - SCyE
   7  6,7  - SECcO
-  7  6,7  - SICkO
+  7  6,7  - SIClE
+  7  6,7  - SOCiI
   7  6,7  - SOClE
+  7  6,7  - SOWlE
+  7  6,7  - SOWsE
+  7  6,7  - SOWtE
+  7  6,7  - SWEgO
+  7  6,7  - SWIlE
   7  6,7  - SWInE
   7  6,7  - SWIpE
+  7  6,7  - SWIrE
   7  6,7  - SWIvE
   7  6,7  - SWOrE
+  7  6,7  - SaCO
   7  6,7  - SiCE
+  7  6,7  - SoCE
+  7  6,7  - SoCO
+  7  6,7  - SuCI
+  7  6,7  - SvCE
   7  6,7  - SyCE
+  7  4,2  - cOPEI
+  7  5,9  - eCO
   7  5,9  - eWE
   7  7,7  | iCE
   7  7,7  | iWI
+  7  2,3  | kIEV
+  7  5,9  - nCO
   7  7,7  | oWE
   7  5,9  - oWE
+  7  4,2  - pOPIE
+  7  5,9  - sCI
+  7  5,9  - tWI
   7  5,9  - tWO
+  6  5,9  - EIr
   6  5,9  - EO
+  6  5,9  - EOf
   6  5,9  - EOn
+  6  5,2  - EPI
   6  5,2  - EPIc
+  6  5,2  - EPIl
+  6  5,2  - EPIt
+  6  5,2  - EPOp
   6  5,2  - EPOs
+  6  5,8  | EcCE
+  6  5,8  | ElEC
   6  5,8  | EmIC
+  6  5,8  | EnEW
   6  5,8  | EnOW
   6  5,8  | EpIC
-  6  5,8  | EtIC
+  6  3,2  - EpOP
+  6  5,8  | ErIC
   6  5,8  | ExEC
   6  4,2  - ExPO
+  6  5,2  - IPId
+  6  5,2  - IPIl
+  6  5,2  - IPsE
   6  5,2  - IPsO
+  6  7,7  | IdEO
   6  4,2  - ImPI
+  6  2,4  | InV
+  6  4,2  - IrPE
   6  5,9  - OE
+  6  5,9  - OEr
   6  5,9  - OEs
   6  5,9  - OI
+  6  5,9  - OIk
   6  5,9  - OIl
   6  5,2  - OPE
+  6  5,2  - OPEc
   6  5,2  - OPEd
   6  5,2  - OPEn
   6  5,2  - OPEs
+  6  5,2  - OPaI
+  6  2,4  | ObV
+  6  7,7  | OkIE
+  6  4,2  - OlPE
   6  6,2  - PEIn
   6  6,2  - PEOn
+  6  6,2  - PEaI
+  6  6,2  - PEhO
   6  6,2  - PEpO
   6  6,2  - PErI
   6  6,2  - PEsO
+  6  6,2  - PEtO
   6  6,2  - PIE
   6  6,2  - PIEd
+  6  6,2  - PIEn
   6  6,2  - PIEr
   6  6,2  - PIEs
+  6  6,2  - PIEt
   6  6,2  - PIOn
   6  6,2  - PIcE
+  6  6,2  - PIcI
+  6  6,2  - PIcO
   6  6,2  - PIkE
   6  6,2  - PIkI
   6  6,2  - PIlE
   6  6,2  - PIlI
   6  6,2  - PInE
+  6  6,2  - PInO
   6  6,2  - PIpE
+  6  6,2  - PIpI
+  6  6,2  - PIrO
+  6  6,2  - PIsE
   6  6,2  - PIsO
+  6  6,2  - PIzE
+  6  6,2  - POE
   6  6,2  - POEm
   6  6,2  - POEt
   6  6,2  - POI
+  6  6,2  - POIl
   6  6,2  - POIs
   6  6,2  - POkE
   6  6,2  - POlE
@@ -577,80 +1541,110 @@
   6  6,2  - POpE
   6  6,2  - POrE
   6  6,2  - POsE
+  6  6,2  - POtE
+  6  6,2  - POtI
   6  6,2  - PlIE
+  6  6,2  - PrIE
+  6  6,2  - PrIO
+  6  4,6  | REMi
   6  4,6  | REMs
   6  6,3  - REOIl
+  6  6,3  - ROxIE
+  6  6,7  - SCI
+  6  6,7  - SCIl
+  6  6,7  - SCOb
+  6  6,7  - SCOg
   6  6,7  - SCOp
   6  6,7  - SCOt
   6  6,7  - SCOw
   6  6,7  - SEC
+  6  6,7  - SECh
+  6  6,7  - SECk
   6  6,7  - SECs
   6  6,7  - SECt
+  6  6,7  - SECy
   6  6,7  - SEW
   6  6,7  - SEWn
   6  6,7  - SEWs
   6  6,7  - SIC
+  6  6,7  - SICc
   6  6,7  - SICe
+  6  6,7  - SICh
   6  6,7  - SICk
   6  6,7  - SICs
-  6  6,7  - SOCa
+  6  6,7  - SOC
+  6  6,7  - SOCe
   6  6,7  - SOCk
+  6  6,7  - SOCo
   6  6,7  - SOW
+  6  6,7  - SOWf
+  6  6,7  - SOWl
   6  6,7  - SOWn
   6  6,7  - SOWs
+  6  6,7  - SOWt
+  6  6,7  - SWEp
   6  6,7  - SWIg
   6  6,7  - SWIm
+  6  6,7  - SWIz
   6  6,7  - SWOb
+  6  6,7  - SWOm
   6  6,7  - SWOp
   6  6,7  - SWOt
+  6  6,7  - SWOw
   6  7,1  | aE
-  6  5,1  | aI
   6  7,1  | aI
+  6  5,2  - aPII
+  6  5,2  - aPIO
   6  7,1  | bE
-  6  5,1  | bI
   6  7,1  | bI
   6  5,1  | bO
   6  7,1  | bO
+  6  5,3  - bREI
+  6  5,3  - bRIE
+  6  5,3  - bRIO
+  6  4,2  - cIPO
+  6  2,4  | cIV
   6  4,2  - cOPE
   6  7,1  | dE
   6  2,4  | dEV
-  6  5,1  | dI
   6  7,1  | dI
+  6  2,4  | dIV
   6  5,1  | dO
   6  7,1  | dO
   6  4,2  - dOPE
+  6  5,3  - dRIE
   6  7,1  | eE
   6  5,1  | eO
   6  7,1  | eO
   6  7,1  | fE
-  6  5,1  | fI
   6  7,1  | fI
   6  5,3  - fROE
-  6  5,1  | gI
   6  7,1  | gI
   6  5,1  | gO
   6  7,1  | gO
+  6  2,4  | gOV
   6  7,1  | hE
-  6  5,1  | hI
   6  7,1  | hI
+  6  4,2  - hIPE
   6  5,1  | hO
   6  7,1  | hO
   6  4,2  - hOPE
+  6  4,2  - hOPI
+  6  5,1  | iO
+  6  7,1  | iO
   6  7,1  | jE
   6  5,1  | jO
   6  7,1  | jO
   6  4,2  - kEPI
-  6  5,1  | kI
   6  7,1  | kI
+  6  4,2  - kOPI
   6  2,4  | lEV
-  6  5,1  | lI
-  6  7,1  | lI
-  6  4,2  - lIPE
+  6  2,4  | lIV
   6  5,1  | lO
   6  7,1  | lO
   6  4,2  - lOPE
   6  7,1  | mE
-  6  5,1  | mI
+  6  2,4  | mEV
   6  7,1  | mI
   6  5,1  | mO
   6  7,1  | mO
@@ -659,111 +1653,168 @@
   6  5,1  | nO
   6  7,1  | nO
   6  4,2  - nOPE
+  6  2,4  | nOV
   6  7,1  | oE
-  6  5,1  | oI
   6  7,1  | oI
   6  5,1  | oO
   6  7,1  | oO
   6  7,1  | pE
   6  4,2  - pEPO
-  6  5,1  | pI
   6  7,1  | pI
   6  4,2  - pIPE
+  6  4,2  - pIPI
   6  5,1  | pO
   6  7,1  | pO
   6  4,2  - pOPE
-  6  5,1  | qI
   6  7,1  | qI
   6  7,1  | rE
-  6  4,2  - rEPO
   6  2,4  | rEV
   6  4,2  - rIPE
+  6  2,4  | rIV
   6  4,2  - rOPE
   6  2,4  | sEV
-  6  5,1  | sI
   6  7,1  | sI
   6  4,2  - sIPE
   6  5,1  | sO
   6  7,1  | sO
+  6  4,2  - sOPE
+  6  2,4  | sOV
   6  7,1  | tE
-  6  5,1  | tI
   6  7,1  | tI
+  6  4,2  - tIPE
   6  4,2  - tIPI
   6  5,1  | tO
   6  7,1  | tO
   6  4,2  - tOPE
   6  4,2  - tOPI
+  6  2,4  | tOV
   6  7,1  | wE
   6  4,2  - wIPE
   6  5,1  | wO
   6  7,1  | wO
-  6  5,1  | xI
   6  7,1  | xI
+  6  4,2  - xIPE
   6  7,1  | yE
-  6  5,1  | yI
   6  7,1  | yI
   6  4,2  - yIPE
   6  5,1  | yO
   6  7,1  | yO
+  5  5,2  - EPa
   5  5,2  - EPe
+  5  5,2  - EPi
+  5  5,1  | Ed
+  5  7,1  | Ed
   5  5,9  - Ed
+  5  4,2  - EdP
   5  7,1  | Ee
   5  5,9  - Ee
+  5  5,1  | Ef
+  5  7,1  | Ef
   5  5,9  - Ef
+  5  5,1  | Eh
+  5  7,1  | Eh
   5  5,9  - Eh
+  5  5,1  | El
+  5  7,1  | El
   5  5,9  - El
-  5  5,9  - Em
+  5  4,2  - EmP
   5  5,9  - En
+  5  5,8  | EnC
   5  5,1  | Eo
   5  7,1  | Eo
   5  5,9  - Eo
   5  5,9  - Er
   5  5,9  - Es
+  5  5,8  | EsC
+  5  4,2  - EsP
+  5  7,1  | Et
   5  5,9  - Et
+  5  5,8  | EtC
   5  5,9  - Ew
   5  5,9  - Ex
-  5  5,2  - IP
+  5  4,2  - ExP
+  5  7,7  | IOdE
+  5  7,7  | IOnE
+  5  7,7  | IOnI
+  5  5,2  - IPh
+  5  5,2  - IPl
+  5  5,2  - IPm
+  5  5,2  - IPr
+  5  5,2  - IPs
+  5  7,7  | IaO
+  5  7,7  | IbO
   5  7,7  | IcE
+  5  5,1  | Id
+  5  7,1  | Id
   5  7,7  | IdE
+  5  5,1  | If
+  5  7,1  | If
+  5  7,7  | IfE
+  5  4,2  - IhP
+  5  7,7  | IiI
+  5  7,7  | IkE
+  5  7,7  | IlE
+  5  7,7  | ImI
   5  4,2  - ImP
+  5  7,7  | InO
+  5  5,1  | Io
+  5  7,1  | Io
   5  7,7  | IrE
+  5  7,7  | IsE
+  5  7,1  | It
+  5  7,7  | IvE
   5  7,7  | IwI
+  5  7,7  | OEcI
   5  5,2  - OP
+  5  5,2  - OPa
   5  5,2  - OPe
+  5  5,2  - OPp
   5  5,2  - OPs
   5  5,2  - OPt
+  5  5,9  - Ob
   5  7,7  | ObE
   5  7,7  | ObI
+  5  5,1  | Od
+  5  7,1  | Od
   5  5,9  - Od
   5  7,7  | OdE
   5  7,1  | Oe
   5  5,9  - Oe
+  5  5,1  | Of
+  5  7,1  | Of
   5  5,9  - Of
+  5  5,1  | Oh
+  5  7,1  | Oh
   5  5,9  - Oh
-  5  5,1  | Oi
   5  7,1  | Oi
   5  5,9  - Oi
   5  7,7  | OkE
   5  7,7  | OlE
+  5  4,2  - OlP
+  5  7,1  | Om
   5  5,9  - Om
   5  5,9  - On
   5  7,7  | OnE
+  5  7,7  | OnI
   5  5,1  | Oo
   5  7,1  | Oo
   5  5,9  - Oo
+  5  5,1  | Op
+  5  7,1  | Op
   5  5,9  - Op
   5  7,7  | OpE
+  5  4,2  - OpP
   5  5,9  - Or
   5  7,7  | OrE
   5  5,9  - Os
   5  7,7  | OsE
+  5  7,7  | OuI
   5  5,9  - Ow
   5  7,7  | OwE
   5  5,9  - Ox
   5  5,9  - Oy
   5  6,2  - PE
   5  6,2  - PEa
-  5  6,2  - PEc
   5  6,2  - PEd
   5  6,2  - PEe
   5  6,2  - PEg
@@ -779,6 +1830,9 @@
   5  6,2  - PIc
   5  6,2  - PIe
   5  6,2  - PIg
+  5  6,2  - PIk
+  5  6,2  - PIl
+  5  6,2  - PIm
   5  6,2  - PIn
   5  6,2  - PIp
   5  6,2  - PIr
@@ -787,40 +1841,62 @@
   5  6,2  - PIu
   5  6,2  - PIx
   5  6,2  - PO
+  5  6,2  - POa
+  5  6,2  - POb
   5  6,2  - POd
+  5  6,2  - POe
   5  6,2  - POh
   5  6,2  - POi
   5  6,2  - POl
   5  6,2  - POm
-  5  6,2  - POo
+  5  6,2  - POn
   5  6,2  - POp
+  5  6,2  - POr
   5  6,2  - POs
   5  6,2  - POt
   5  6,2  - POw
   5  6,2  - POx
+  5  6,2  - POy
+  5  6,2  - POz
   5  6,2  - PeE
   5  6,2  - PhI
+  5  6,2  - PhO
   5  6,2  - PiE
+  5  6,2  - PlI
+  5  6,2  - PoE
   5  6,2  - PoI
-  5  6,2  - PoO
+  5  6,2  - PpI
+  5  6,2  - PrE
   5  6,2  - PrO
   5  6,2  - PsI
+  5  6,2  - PtE
   5  6,2  - PyE
   5  6,3  - REdO
-  5  6,3  - REpO
+  5  6,3  - REgO
+  5  6,3  - REkI
+  5  6,3  - REmI
+  5  6,3  - REnO
+  5  6,3  - RIbE
   5  6,3  - RIcE
   5  6,3  - RIdE
   5  6,3  - RIfE
+  5  6,3  - RIfI
   5  6,3  - RIlE
   5  6,3  - RImE
+  5  6,3  - RInE
   5  6,3  - RIpE
   5  6,3  - RIsE
   5  6,3  - RItE
   5  6,3  - RIvE
+  5  6,3  - RIvO
   5  6,3  - RObE
   5  6,3  - ROdE
+  5  6,3  - ROkE
   5  6,3  - ROlE
+  5  6,3  - ROmE
+  5  6,3  - ROnE
   5  6,3  - ROpE
+  5  6,3  - ROrI
   5  6,3  - ROsE
   5  6,3  - ROtE
   5  6,3  - ROtI
@@ -828,27 +1904,55 @@
   5  6,3  - ROvE
   5  6,3  - RaW
   5  6,3  - ReC
+  5  6,3  - ReW
+  5  6,3  - RiC
   5  6,3  - RoC
   5  6,3  - RoW
-  5  6,7  - SOlEI
+  5  6,3  - RtW
+  5  6,7  - SCf
+  5  6,7  - SCi
+  5  6,7  - SCr
+  5  6,7  - SCt
+  5  6,7  - SErIO
+  5  6,7  - SItIO
+  5  6,7  - SOcII
+  5  6,7  - SOsIE
+  5  6,7  - SOtIE
+  5  6,7  - SW
+  5  6,7  - SWa
+  5  6,7  - SWy
   5  6,7  - SaC
   5  6,7  - SaW
   5  6,7  - SeC
   5  6,7  - SeW
   5  6,7  - SiC
+  5  6,7  - SoC
   5  6,7  - SoW
+  5  6,7  - SvC
   5  5,2  - aPE
-  5  5,2  - aPO
   5  4,2  - bOP
+  5  5,2  - bPI
+  5  5,3  - bRO
   5  4,2  - cEP
   5  4,2  - cOP
+  5  5,2  - cPO
   5  3,5  | dEF
+  5  4,2  - dEP
   5  4,2  - dIP
+  5  4,2  - dOP
   5  5,2  - ePE
+  5  5,2  - ePI
   5  5,9  - eW
+  5  5,9  - fC
+  5  4,2  - fIP
   5  4,2  - fOP
   5  5,3  - fRO
+  5  5,9  - fW
   5  4,2  - gIP
+  5  5,3  - gRE
+  5  5,3  - gRO
+  5  7,7  | hEII
+  5  5,9  - hEII
   5  4,2  - hEP
   5  4,2  - hIP
   5  4,2  - hOP
@@ -856,10 +1960,13 @@
   5  4,2  - kEP
   5  4,2  - kIP
   5  4,2  - kOP
+  5  2,5  | kV
+  5  4,2  - lEP
   5  4,2  - lIP
   5  4,2  - lOP
   5  4,2  - mOP
   5  3,5  | nEF
+  5  4,2  - nEP
   5  4,2  - nIP
   5  5,2  - oPE
   5  7,7  | oW
@@ -867,88 +1974,171 @@
   5  4,2  - pEP
   5  4,2  - pIP
   5  4,2  - pOP
+  5  5,2  - pPI
   5  3,5  | rEF
   5  4,2  - rEP
   5  4,2  - rIP
+  5  4,2  - sEP
   5  4,2  - sIP
   5  4,2  - sOP
+  5  5,9  - sW
+  5  5,9  - tC
   5  4,2  - tIP
   5  4,2  - tOP
+  5  5,2  - tPI
   5  5,2  - uPO
+  5  4,2  - vIP
+  5  5,9  - xW
   5  4,2  - yEP
   5  4,2  - yIP
   5  4,2  - zIP
   4  5,8  | EIdE
+  4  5,8  | EIrE
+  4  5,8  | EOlE
+  4  7,7  | IIi
+  4  7,7  | IO
+  4  7,7  | IOf
   4  7,7  | IOn
+  4  7,7  | IOu
   4  7,7  | OE
+  4  7,7  | OEr
   4  7,7  | OEs
   4  7,7  | OI
+  4  7,7  | OIk
   4  7,7  | OIl
   4  6,2  - Pa
+  4  6,2  - Pd
   4  6,2  - Pe
+  4  6,2  - Pf
+  4  6,2  - Pg
+  4  6,2  - Ph
   4  6,2  - Pi
+  4  6,2  - Pl
+  4  6,2  - Pm
   4  6,2  - Po
+  4  6,2  - Pp
+  4  6,2  - Pt
+  4  6,3  - REId
   4  6,3  - REIf
+  4  6,3  - REIm
   4  6,3  - REIn
   4  6,3  - REIs
+  4  6,3  - REIt
+  4  6,3  - RIE
   4  6,3  - RIEl
+  4  6,3  - RIEm
+  4  6,3  - RIEr
+  4  6,3  - RIEs
+  4  6,3  - RIO
   4  6,3  - RIOt
   4  6,3  - ROE
+  4  6,3  - ROEd
+  4  6,3  - ROEr
   4  6,3  - ROEs
+  4  6,3  - ROEy
+  4  6,3  - ROI
+  4  6,3  - ROId
   4  6,3  - ROIl
+  4  6,3  - ROIn
+  4  6,3  - ROIt
+  4  6,3  - RhEO
   4  6,7  - SEgO
   4  6,7  - SEmI
+  4  6,7  - SErI
+  4  6,7  - SErO
   4  6,7  - SIcE
   4  6,7  - SIdE
+  4  6,7  - SIdI
+  4  6,7  - SIfE
   4  6,7  - SIkE
+  4  6,7  - SIlE
   4  6,7  - SIlO
+  4  6,7  - SImE
   4  6,7  - SInE
   4  6,7  - SIpE
   4  6,7  - SIrE
+  4  6,7  - SIsE
+  4  6,7  - SIsI
   4  6,7  - SItE
+  4  6,7  - SItI
   4  6,7  - SIzE
+  4  6,7  - SOcE
   4  6,7  - SOkE
   4  6,7  - SOlE
   4  6,7  - SOlI
   4  6,7  - SOmE
   4  6,7  - SOnE
+  4  6,7  - SOpE
   4  6,7  - SOrE
   4  6,7  - SOrI
   4  6,7  - ShOE
   4  6,7  - SlOE
+  4  5,2  - cP
+  4  5,9  - dEI
   4  5,9  - dIE
   4  5,9  - dOE
+  4  5,2  - dP
+  4  5,9  - fEI
   4  5,9  - fIE
   4  5,9  - fOE
+  4  5,2  - fP
   4  5,2  - gP
+  4  7,7  | hEI
+  4  5,9  - hEI
+  4  7,7  | hEO
+  4  5,9  - hEO
   4  7,7  | hIE
   4  5,9  - hIE
   4  7,7  | hOE
   4  5,9  - hOE
   4  7,7  | hOI
   4  5,9  - hOI
-  4  5,2  - iP
+  4  5,2  - hP
+  4  7,7  | iII
   4  5,9  - lEI
+  4  5,9  - lEO
   4  5,9  - lIE
+  4  5,9  - lOE
+  4  5,2  - lP
+  4  5,9  - nEI
+  4  5,9  - nEO
   4  5,2  - oP
+  4  5,2  - pP
+  4  5,9  - rIE
+  4  5,9  - rIO
   4  5,9  - rOE
+  4  5,9  - rOI
   4  5,9  - sEI
+  4  5,9  - sIE
+  4  5,9  - sOE
   4  5,9  - tIE
   4  5,9  - tOE
+  4  5,9  - tOI
   4  5,2  - uP
+  4  7,7  | wEI
+  4  5,9  - wEI
+  4  7,7  | wOE
   4  5,9  - wOE
   3  5,8  | EE
-  3  5,8  | EEk
   3  5,8  | EEl
   3  5,8  | EEn
+  3  5,8  | EEr
+  3  5,8  | EIr
   3  5,8  | EO
+  3  5,8  | EOf
   3  5,8  | EOn
+  3  5,8  | EbOE
+  3  5,8  | EkOI
+  3  5,8  | ErIE
+  3  5,8  | EvOE
+  3  7,7  | Ib
   3  7,7  | Id
   3  7,7  | If
   3  7,7  | In
-  3  7,7  | Ip
+  3  7,7  | Io
   3  7,7  | Is
   3  7,7  | It
+  3  7,7  | Ob
   3  7,7  | Od
   3  7,7  | Oe
   3  7,7  | Of
@@ -964,60 +2154,102 @@
   3  7,7  | Ox
   3  7,7  | Oy
   3  6,3  - RE
+  3  6,3  - REa
   3  6,3  - REb
   3  6,3  - REc
   3  6,3  - REd
   3  6,3  - REe
   3  6,3  - REf
   3  6,3  - REg
+  3  6,3  - REh
+  3  6,3  - REl
   3  6,3  - REm
+  3  6,3  - REn
   3  6,3  - REp
   3  6,3  - REs
   3  6,3  - REt
   3  6,3  - REv
+  3  6,3  - REw
   3  6,3  - REx
   3  6,3  - RIa
   3  6,3  - RIb
+  3  6,3  - RIc
   3  6,3  - RId
-  3  6,3  - RIf
+  3  6,3  - RIe
   3  6,3  - RIg
+  3  6,3  - RIk
   3  6,3  - RIm
   3  6,3  - RIn
+  3  6,3  - RIo
   3  6,3  - RIp
+  3  6,3  - RIt
+  3  6,3  - RIv
   3  6,3  - ROb
   3  6,3  - ROc
   3  6,3  - ROd
   3  6,3  - ROe
+  3  6,3  - ROg
+  3  6,3  - ROi
+  3  6,3  - ROk
   3  6,3  - ROm
+  3  6,3  - ROn
+  3  6,3  - ROo
+  3  6,3  - ROs
   3  6,3  - ROt
   3  6,3  - ROw
+  3  6,3  - ROx
+  3  6,3  - ROy
   3  6,7  - SEI
+  3  6,7  - SEId
   3  6,7  - SEIf
   3  6,7  - SEIs
+  3  6,7  - SEIt
+  3  6,7  - SEOr
+  3  6,7  - SIE
+  3  6,7  - SIEr
+  3  6,7  - SIOl
+  3  6,7  - SIOn
+  3  6,7  - SOE
   3  6,7  - SOIl
+  3  6,7  - SOIr
+  2  5,8  | EcO
+  2  5,8  | EdO
   2  5,8  | EgO
   2  5,8  | EkE
+  2  5,8  | ElI
   2  5,8  | EmE
   2  5,8  | EmO
   2  5,8  | EpE
+  2  5,8  | EpI
   2  5,8  | ErE
   2  5,8  | EsE
   2  5,8  | EvE
   2  5,8  | EwE
   2  5,8  | EyE
-  2  6,3  - RaI
   2  6,3  - ReE
+  2  6,3  - RhE
   2  6,3  - RhO
+  2  6,3  - RiE
+  2  6,3  - RiO
+  2  6,3  - RlE
   2  6,3  - RoE
+  2  6,3  - RoI
+  2  6,3  - RoO
+  2  6,3  - RtE
+  2  6,3  - RtI
   2  6,3  - RuE
   2  6,3  - RyE
   2  6,7  - SEa
   2  6,7  - SEc
+  2  6,7  - SEd
   2  6,7  - SEe
   2  6,7  - SEg
   2  6,7  - SEi
   2  6,7  - SEl
+  2  6,7  - SEm
   2  6,7  - SEn
+  2  6,7  - SEp
+  2  6,7  - SEq
   2  6,7  - SEr
   2  6,7  - SEt
   2  6,7  - SEv
@@ -1025,8 +2257,13 @@
   2  6,7  - SEx
   2  6,7  - SEz
   2  6,7  - SI
+  2  6,7  - SIa
   2  6,7  - SIb
   2  6,7  - SIc
+  2  6,7  - SId
+  2  6,7  - SIe
+  2  6,7  - SIg
+  2  6,7  - SIl
   2  6,7  - SIm
   2  6,7  - SIn
   2  6,7  - SIp
@@ -1036,24 +2273,39 @@
   2  6,7  - SIx
   2  6,7  - SO
   2  6,7  - SOb
+  2  6,7  - SOc
   2  6,7  - SOd
+  2  6,7  - SOe
+  2  6,7  - SOg
+  2  6,7  - SOh
+  2  6,7  - SOk
   2  6,7  - SOl
-  2  6,7  - SOm
   2  6,7  - SOn
   2  6,7  - SOp
   2  6,7  - SOs
   2  6,7  - SOt
   2  6,7  - SOu
+  2  6,7  - SOv
   2  6,7  - SOw
   2  6,7  - SOx
   2  6,7  - SOy
   2  6,7  - SaE
+  2  6,7  - SaI
+  2  6,7  - SaO
+  2  6,7  - ScI
   2  6,7  - SeE
   2  6,7  - SeI
   2  6,7  - ShE
+  2  6,7  - ShI
+  2  6,7  - ShO
+  2  6,7  - SiE
   2  6,7  - SkI
+  2  6,7  - SoE
   2  6,7  - SrI
+  2  6,7  - SsI
   2  6,7  - SuE
+  2  6,7  - SuI
+  2  6,7  - SyE
   2  5,9  - dE
   2  5,9  - dI
   2  5,9  - dO
@@ -1067,11 +2319,8 @@
   2  5,9  - hI
   2  7,7  | hO
   2  5,9  - hO
-  2  5,9  - lI
+  2  7,7  | iO
   2  5,9  - lO
-  2  5,9  - mE
-  2  5,9  - mI
-  2  5,9  - mO
   2  5,9  - nE
   2  5,9  - nO
   2  7,7  | oE
@@ -1086,7 +2335,9 @@
   2  5,9  - tE
   2  5,9  - tI
   2  5,9  - tO
+  2  7,7  | wE
   2  5,9  - wE
+  2  7,7  | wO
   2  5,9  - wO
   2  5,9  - xI
   1  5,8  | Ed
@@ -1094,7 +2345,6 @@
   1  5,8  | Ef
   1  5,8  | Eh
   1  5,8  | El
-  1  5,8  | Em
   1  5,8  | En
   1  5,8  | Eo
   1  5,8  | Er
@@ -1103,6 +2353,9 @@
   1  5,8  | Ew
   1  5,8  | Ex
   1  6,3  - Re
+  1  6,3  - Rf
+  1  6,3  - Rg
   1  6,7  - Sh
   1  6,7  - Si
   1  6,7  - So
+  1  6,7  - Sw

@@ -1,57 +1,141 @@
+ 54  3,9  | TEZ
+ 40  4,4  | FIGO
+ 36  5,3  - FET
+ 35 10,1  | EFIK
  35  1,1  - ZIT
+ 33  3,4  - iZOTE
+ 31  6,5  - FITZ
+ 31  6,7  - FITZ
  30  5,3  - FE
+ 29 10,1  | EKOI
+ 29  6,3  - TEZ
+ 28  7,3  - TOZE
+ 27  7,3  - TEZ
+ 27  3,9  | TIE
+ 27  3,9  | TOE
+ 27  3,9  | TOI
  25 10,1  | EFT
+ 25 10,1  | EOF
+ 25  4,8  - IZOTE
+ 25  9,1  | SFZ
  23 10,1  | EF
  23  5,5  - FEZ
  23  9,1  | SIZE
  22  6,1  | JEEZ
  22  9,1  | SEZ
+ 22  4,8  - TOZE
+ 21  4,8  - TEZ
  20  6,5  - FEZ
  20  6,7  - FEZ
  20  6,5  - FIZ
  20  6,7  - FIZ
+ 20  1,1  - KET
  20  1,1  - KIT
  19  3,10 | EF
+ 19  6,3  - ET
  19  3,10 | IF
  19  3,10 | OF
  19  6,3  - TE
+ 18  6,5  - EFIK
+ 18  6,7  - EFIK
+ 18  5,3  - OE
  18  5,3  - TE
+ 18  3,9  | TE
+ 18  3,9  | TI
+ 18  7,3  - TIKE
+ 18  3,9  | TO
+ 18  7,3  - TOKE
+ 18  3,4  - iOTIZE
+ 17  1,4  - ATiK
+ 17  7,3  - EFIK
  17 10,1  | EO
  17 10,1  | ET
  17  1,1  - FET
+ 17  6,5  - FIKE
+ 17  6,7  - FIKE
  17  1,1  - FIT
+ 17  5,5  - FOETI
+ 17  1,1  - FOT
+ 17  4,8  - OKET
+ 17  4,8  - OKIE
+ 17  9,1  | SKEIF
  17  4,8  - TIKE
  17  4,8  - TOKE
+ 17  6,5  | ZEKE
+ 16  9,2  - IKE
+ 16  4,8  - IKE
  16  6,1  | JEFE
+ 16  6,1  - JEsSIE
+ 16  9,2  - OIK
+ 16  4,8  - OIK
  16  9,2  - OKE
  16  4,8  - OKE
+ 16  6,5  - TOZE
+ 16  6,7  - TOZE
  16  6,5  | ZEK
+ 16  3,4  - iKE
+ 15  1,4  - AOiFE
+ 15  7,3  - EOF
  15  6,5  | FEZ
+ 15  4,8  - IFE
+ 15  4,8  - IOF
  15  4,8  - OFT
+ 15  9,1  | SIKET
+ 15  9,1  | SOTIK
  15  2,10 - YOEZ
+ 14  7,3  - EKOI
+ 14  1,9  - EXITE
+ 14  5,5  - FEI
  14  5,5  - FET
  14  5,5  - FOE
+ 14  6,5  - FOETI
+ 14  6,7  - FOETI
+ 14  5,5  - FOT
+ 14  4,8  - IF
+ 14  9,2  - IFE
+ 14  9,2  - IOF
  14  4,8  - OF
  14  9,2  - OFT
+ 14  9,1  | SITZ
+ 14  9,1  | SKIFT
  14  9,1  | SOFTIE
+ 14  6,5  - TEZ
+ 14  6,7  - TEZ
  14  4,2  | VET
+ 14  2,10 - YEZ
  13  5,5  - FE
+ 13  6,5  - FIOT
+ 13  6,7  - FIOT
  13  6,1  | JETE
  13  6,1  - JEsSE
  13  9,1  | SIKE
  13  9,1  | SOKE
+ 13  3,4  - iFE
  12  7,3  - EFT
  12  1,9  - EXIT
  12  4,6  | GOOK
  12  9,2  - IF
+ 12  5,2  | IKE
  12  6,1  | JEE
  12  6,1  | JET
+ 12  6,5  | KEFTI
  12  9,2  - OF
+ 12  9,1  | SKEF
+ 12  9,1  | SOK
+ 12  9,1  | STK
+ 12  6,5  | TEZ
  12  4,8  - TIE
  12  4,8  - TOE
+ 12  4,8  - TOI
  12  6,4  | ZEE
  12  6,5  | ZEE
  12  3,4  - iF
+ 11  6,6  | EFIK
+ 11  6,5  - EKOI
+ 11  6,7  - EKOI
+ 11  1,9  - EXT
+ 11  6,5  - FEI
+ 11  6,7  - FEI
  11  6,5  - FET
  11  6,7  - FET
  11  6,5  - FIE
@@ -60,12 +144,22 @@
  11  6,7  - FIT
  11  6,5  - FOE
  11  6,7  - FOE
+ 11  6,5  - FOT
+ 11  6,7  - FOT
  11  4,6  | GOOF
+ 11  4,8  - IO
+ 11  4,8  - IT
+ 11  4,1  | IVE
  11  6,4  | KEEF
  11  6,5  | KEEF
  11  6,4  | KIEF
  11  4,8  - OE
  11  4,8  - OI
+ 11  6,5  - OKET
+ 11  6,7  - OKET
+ 11  6,5  - OKIE
+ 11  6,7  - OKIE
+ 11  9,1  | SIFE
  11  9,1  | SIFT
  11  9,1  | SKITE
  11  9,1  | SOFT
@@ -84,30 +178,47 @@
  10  6,7  - FE
  10  6,5  - FI
  10  6,7  - FI
+ 10  5,2  | IFE
+ 10  3,10 | IO
  10  3,10 | IT
  10  6,5  | KEF
  10  3,10 | OE
  10  3,10 | OI
+ 10  9,1  | STIFE
+ 10  2,10 - YIKE
  10  2,10 - YOKE
   9  5,2  | IF
+  9  6,5  - OIK
+  9  6,7  - OIK
   9  6,5  - OKE
   9  6,7  - OKE
+  9  9,1  | SKET
   9  9,1  | SKIT
+  9  7,3  - TIE
+  9  7,3  - TOE
+  9  7,3  - TOI
   9  2,10 - YOK
   8  6,5  - EFT
   8  6,7  - EFT
+  8  6,6  | EKOI
+  8  6,5  - EOF
+  8  6,7  - EOF
+  8  6,4  | FOETI
+  8  4,6  | GOTE
+  8  4,6  | GOTO
   8  6,4  | KEET
   8  6,5  | KEET
   8  6,5  | KETO
+  8  5,4  | KOU
   8  6,5  - OFT
   8  6,7  - OFT
+  8  6,4  | OKEE
+  8  6,4  | OKET
   8  9,1  | SEIF
   8  9,1  | SKI
-  8  1,1  - TET
+  8  9,1  | STOF
   8  1,1  - TIT
   8  1,1  - TOT
-  7  6,5  | EEK
-  7  6,6  | EEK
   7  6,5  - EF
   7  6,7  - EF
   7  6,4  | EKE
@@ -119,62 +230,91 @@
   7  6,5  | FETE
   7  5,4  | FEU
   7  5,4  | FOU
+  7  4,6  | GOI
   7  4,6  | GOO
   7  4,6  | GOT
+  7  6,4  | IKE
+  7  5,2  | IOF
+  7  6,5  | KET
+  7  6,4  | KIE
   7  6,5  - OF
   7  6,7  - OF
   7  6,4  | OKE
+  7  9,1  | SOTIE
+  7  7,3  - TE
+  7  7,3  - TI
+  7  7,3  - TO
+  7  3,4  - iOF
   6  6,6  | EFT
+  6  6,6  | EOF
   6  6,4  | FEE
   6  6,5  | FEE
+  6  6,5  | FEI
   6  6,5  | FET
   6  6,4  | FIE
   6  6,4  | FOE
   6  5,5  | FU
+  6  6,4  | IFE
+  6  9,2  - IO
   6  9,2  - IT
   6  9,2  - OE
   6  9,2  - OI
   6  2,10 - YETI
+  6  2,10 - YITE
+  6  2,10 - YOTE
   5  2,1  | ED
   5  6,6  | EF
   5  2,1  - ET
   5  6,5  | FE
   5  2,1  | ID
   5  2,1  - IT
+  5  9,1  | SEIT
   5  9,1  | SITE
   5  6,5  - TIE
   5  6,7  - TIE
   5  6,5  - TOE
   5  6,7  - TOE
+  5  6,5  - TOI
+  5  6,7  - TOI
   5  2,10 - YET
+  5  2,10 - YOT
   4  6,5  - EO
   4  6,7  - EO
   4  7,1  | ESE
+  4  7,1  | EST
   4  6,5  - ET
   4  6,7  - ET
+  4  5,4  | IOU
   4  6,5  - OE
   4  6,7  - OE
   4  6,5  - OI
   4  6,7  - OI
   4  9,1  | SEI
   4  9,1  | SET
+  4  9,1  | SIE
   4  9,1  | SIT
+  4  9,1  | SOE
   4  9,1  | SOT
   4  6,5  - TE
   4  6,7  - TE
   4  6,5  - TI
   4  6,7  - TI
+  4  5,4  | TIU
   4  6,5  - TO
   4  6,7  - TO
+  4  5,4  | TOU
   4  2,10 - YE
   4  2,10 - YI
   4  2,10 - YO
+  3  5,2  | IO
   3  5,2  | IT
   3  6,4  | TEE
   3  6,5  | TEE
   3  6,4  | TIE
   3  6,4  | TOE
+  3  3,4  - iO
   3  3,4  - iT
+  2  1,4  - ATi
   2  6,5  | EE
   2  6,6  | EE
   2  6,6  | EO
