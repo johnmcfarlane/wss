@@ -57,7 +57,7 @@ void search(node const& n, search_state& state, int score,
                     return;
                 }
 
-                if (n.is_terminator && min_length<=0) {
+                if (n.letters['\0'] && min_length<=0) {
                     state.finds.emplace_back(
                             string{begin(state.word), end(state.word)},
                             score);

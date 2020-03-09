@@ -3,11 +3,13 @@ add_library(lexicon
 target_include_directories(lexicon PUBLIC
         ${CMAKE_CURRENT_LIST_DIR} ${CMAKE_BINARY_DIR}/src/lexicon)
 target_link_libraries(lexicon common)
+add_dependencies(lexicon generate)
 target_compile_options(lexicon PRIVATE ${WSS_LEXICON_COMPILE_OPTIONS})
 
 add_custom_command(
     COMMENT "Building lexicons"
     DEPENDS
+        ${PROJECT_SOURCE_DIR}/src/lexicon/node.h
         ${PROJECT_SOURCE_DIR}/words/scrabble.txt
         ${PROJECT_SOURCE_DIR}/words/wwf.txt
         ${CMAKE_BINARY_DIR}/src/generate/generate

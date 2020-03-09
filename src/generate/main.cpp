@@ -14,6 +14,7 @@
 
 #include "load_lexicon.h"
 
+#include <letter_set.h>
 #include <ssize.h>
 #include <wss_assert.h>
 
@@ -22,6 +23,7 @@
 
 #include <array>
 #include <fstream>
+#include <ios>
 #include <iostream>
 #include <map>
 #include <memory>
@@ -38,12 +40,16 @@ void dump_word(
         node_map& nodes,
         std::ofstream& source_cpp)
 {
-    std::string letters;
+    letter_set letters;
+    if (n.is_terminator) {
+        letters.set('\0');
+    }
+    
     std::vector<std::string> word_parts;
 
     for (auto const& e : n) {
         word.push_back(e);
-        letters.push_back(e);
+        letters.set(e);
 
         auto const& next_node{e.get_next()};
         auto const found{nodes.equal_range(next_node)};
@@ -67,7 +73,7 @@ void dump_word(
 
     // edge array
     if (!word_parts.empty()) {
-        source_cpp << "node " << edges_id << "[] {";
+        source_cpp << "node const " << edges_id << "[] {";
         for (auto i{0}; i!=ssize(word_parts); ++i) {
             if (i!=0) {
                 source_cpp << ",";
@@ -79,21 +85,34 @@ void dump_word(
     }
 
     // node
-    source_cpp << "node " << id << " = {\n";
+    source_cpp << "node const " << id << " = {\n";
     
     // node::letters
-    source_cpp << "  \"" << letters << "\",\n";
+#if defined(WSS_SHOW_LETTERS)
+    source_cpp << "  letter_set{";
+    auto first_letter{true};
+    for (auto letter : n) {
+        if (!first_letter) {
+            source_cpp << ", ";
+        }
+        else {
+            first_letter = false;
+        }
+        source_cpp << '\'' << letter << '\'';
+    }
+    source_cpp << "},\n";
+#else
+    source_cpp << "  letter_set::from_bits(0x" << std::hex << letters.bits() << "U),\n";
+#endif
     
     // node::edges
     if (!word_parts.empty()) {
-        source_cpp << "  " << edges_id << ", //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)\n";
+        source_cpp << "  " << edges_id << " //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)\n";
     }
     else {
-        source_cpp << "  nullptr,\n";
+        source_cpp << "  nullptr\n";
     }
     
-    // node::is_terminator
-    source_cpp << "  " << (n.is_terminator ? "true" : "false") << '\n';
     source_cpp << "};\n";
 }
 

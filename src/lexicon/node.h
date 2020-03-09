@@ -15,14 +15,16 @@
 #ifndef WSS_NODE_H
 #define WSS_NODE_H
 
+#include <letter_set.h>
+#include <wss_assert.h>
+
 #include <cstring>
 #include <iterator>
 
 struct node
 {
-  char const* const letters;
-  node const* edges;
-  bool is_terminator;
+    letter_set letters;
+    node const* edges;
 };
 
 class const_node_iterator {
@@ -35,50 +37,56 @@ public:
 
     const_node_iterator(const_node_iterator const&) = default;
 
-    const_node_iterator(char const* l, node const* n)
-            : edge_letter(l), edge_node(n) {}
+    const_node_iterator(letter_set::const_iterator l, node const* n) noexcept
+            : _letter(l), _node(n) {}
 
     char letter() const {
-        return *edge_letter;
+        return *_letter;
     }
 
     node const& child() const {
-        return *edge_node;
+        return *_node;
     }
 
-    friend auto& operator*(const_node_iterator& rhs) {
-        return *rhs.edge_letter;
+    friend auto operator*(const_node_iterator& rhs) {
+        WSS_ASSERT(rhs._node);
+        return *rhs._letter;
     }
     friend auto& operator++(const_node_iterator& rhs) {
-        ++rhs.edge_letter;
-        ++rhs.edge_node;
+        WSS_ASSERT(rhs._node);
+        ++ rhs._letter;
+        ++ rhs._node;
         return rhs;
     }
 
     friend auto operator==(
             const_node_iterator const& lhs,
             const_node_iterator const& rhs) {
-        return lhs.edge_letter==rhs.edge_letter;
+        return lhs._letter==rhs._letter;
     }
     friend auto operator!=(
             const_node_iterator const& lhs,
             const_node_iterator const& rhs) {
-        return lhs.edge_letter!=rhs.edge_letter;
+        return lhs._letter!=rhs._letter;
     }
 private:
-    char const* edge_letter{};
-    node const* edge_node{};
+    letter_set::const_iterator _letter;
+    node const* _node;
 };
 
 inline const_node_iterator begin(node const& n)
 {
-    return const_node_iterator(n.letters, n.edges);
+    return const_node_iterator{
+            begin(n.letters),
+            n.edges};
 }
 
 inline const_node_iterator end(node const& n)
 {
-    auto const l{std::strlen(n.letters)};
-    return const_node_iterator(n.letters+l, n.edges+l);
+    return const_node_iterator{
+            end(n.letters),
+            nullptr
+    };
 }
 
 #endif // WSS_NODE_H

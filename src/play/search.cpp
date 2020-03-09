@@ -24,7 +24,6 @@
 
 #include <gsl/gsl_util>
 
-#include <algorithm>
 #include <cctype>
 #include <cstdlib>
 #include <iterator>
@@ -71,7 +70,7 @@ namespace {
         *state.step.word_end++ = letter;
         state.step.num_qualifying_cells += qualifying_cells_count;
         ++state.step.pos[0];
-        if (n.is_terminator
+        if (n.letters['\0']
                 && state.step.num_qualifying_cells>0
                 && state.step.rack_remaining<state.init.rack_size
                 && get(state.init.tiles, state.step.pos, vacant)
@@ -103,7 +102,6 @@ namespace {
     auto fill_square(search_state state, node const& edge,
             int qualifying_cells_count,
             int& counter,
-            // cppcheck-suppress passedByValue
             letter_set const crossword_filter,
             letter_values const& crossword_scores,
             char letter,
@@ -180,21 +178,17 @@ namespace {
             return;
         }
 
-        auto const found{std::find_if(
-                begin(n),
-                end(n),
-                [board_tile](auto const& c) {
-                    return c==std::toupper(board_tile);
-                })
-        };
-        if (found==end(n)) {
+        auto const needle{std::toupper(board_tile)};
+        auto found{n.letters.find(needle)};
+        if (found==end(n.letters)) {
             return;
         }
 
         score.word_score += state.init.letter_scores[board_tile];
 
-        recurse(found.child(), board_tile, qualifying_cells_count, state,
-                score);
+        auto const letter_index{found-begin(n.letters)};
+        auto const& child_edge{n.edges[letter_index]}; //NOLINT(cppcoreguidelines-pro-bounds-pointer-arithmetic)
+        recurse(child_edge, board_tile, qualifying_cells_count, state, score);
     }
 } // namespace
 
