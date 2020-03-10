@@ -31,13 +31,19 @@
 #include <utility>
 #include <vector>
 
+using namespace std::literals;
+
 using node_map = std::map<node, std::string>;
+using edge_map = std::unordered_map<
+        std::string,
+        std::tuple<std::string, int>>;
 
 void dump_word(
         int const root_node_index,
         node const& n,
         std::string& word,
         node_map& nodes,
+        edge_map& edges,
         std::ofstream& source_cpp)
 {
     letter_set letters;
@@ -59,7 +65,8 @@ void dump_word(
         else {
             nodes.emplace_hint(found.first,
                     std::pair{next_node, word});
-            dump_word(root_node_index, next_node, word, nodes, source_cpp);
+            dump_word(root_node_index, next_node, word, nodes, edges,
+                    source_cpp);
             word_parts.push_back(word);
         }
 
@@ -69,19 +76,44 @@ void dump_word(
     auto const id{word.empty()
             ? fmt::format("root_node{}", root_node_index)
             : fmt::format("n{}{}", word, n.root_index)};
-    auto const edges_id{id+"e"};
+    auto edges_line{std::string{}};
 
     // edge array
     if (!word_parts.empty()) {
-        source_cpp << "node const " << edges_id << "[] {";
+        auto node_edges{std::string{}};
         for (auto i{0}; i!=ssize(word_parts); ++i) {
             if (i!=0) {
-                source_cpp << ",";
+                node_edges += ',';
             }
-            source_cpp << fmt::format("n{}{}", word_parts[i],
+            node_edges += fmt::format("n{}{}", word_parts[i],
                     n.edges[i].ptr()->root_index);
         }
-        source_cpp << "}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)\n";
+
+        auto found_edge = edges.find(node_edges);
+        if (found_edge!=std::end(edges)) {
+            auto[edges_id, element_index] = found_edge->second;
+            edges_line = edges_id+'+'+std::to_string(element_index)+" //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,cppcoreguidelines-pro-bounds-pointer-arithmetic,hicpp-no-array-decay)";
+        }
+        else {
+            auto sub_array{std::string{}};
+            auto const edges_id = id+'e';
+            for (auto i{ssize(word_parts)-1}; i>=0; --i) {
+                sub_array = fmt::format("n{}{}{}", word_parts[i],
+                        n.edges[i].ptr()->root_index, sub_array);
+                edges[sub_array] = make_tuple(edges_id, i);
+                if (i!=0) {
+                    sub_array = ","s.append(sub_array);
+                }
+            }
+            source_cpp << "node const " << edges_id << "[] {";
+            source_cpp << sub_array
+                       << "}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)\n";
+            edges_line = edges_id
+                    +" //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)";
+        }
+    }
+    else {
+        edges_line = "nullptr";
     }
 
     // node
@@ -106,14 +138,7 @@ void dump_word(
 #endif
     
     // node::edges
-    if (!word_parts.empty()) {
-        source_cpp << "  " << edges_id << " //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)\n";
-    }
-    else {
-        source_cpp << "  nullptr\n";
-    }
-    
-    source_cpp << "};\n";
+    source_cpp << "  " << edges_line << "\n};\n";
 }
 
 void dump_lexicon(
@@ -131,12 +156,12 @@ void dump_lexicon(
 
     std::string word;
     node_map nodes;
+    edge_map edges;
     auto const& root_nodes = lexicon.root_nodes();
     for (auto index = 0;
             index!=int(root_nodes.size());
             ++index) {
-        dump_word(index, root_nodes[index], word, nodes,
-                source_cpp);
+        dump_word(index, root_nodes[index], word, nodes, edges, source_cpp);
     }
 
     source_cpp << "} //namespace\n";
