@@ -136,7 +136,6 @@
  23  8,4  | DEA
  23  8,4  | DEI
  23  8,4  | DER
- 23  8,4  | DES
  23  8,4  | DSR
  23  1,9  - DeEDIER
  23  8,4  | NEA
@@ -145,7 +144,6 @@
  22  8,4  | NE
  22  1,3  - RIB
  22  1,3  - SIB
- 21  8,4  | EDNA
  21 11,1  | MAD
  21 11,1  | MAES
  21 11,1  | MAIR
@@ -181,8 +179,6 @@
  19  5,1  | ISN
  18  1,9  - DeED
  18  1,9  - DeERS
- 18  8,4  | ED
- 18  8,4  | ESD
  18 11,1  | MAE
  18 11,1  | MAR
  18 11,1  | MAS
@@ -207,7 +203,6 @@
  17  1,3  | EAD
  17  1,3  | EAN
  17  1,3  | ERN
- 17  1,3  | ESD
  17  1,3  | IAN
  17  1,3  | ISN
  17 10,2  - NA
@@ -230,14 +225,12 @@
  16  1,3  | DAR
  16  1,3  | DAS
  16  1,3  | DER
- 16  1,3  | DES
  16  1,3  | DIR
  16  1,3  | DIS
  16  5,1  | DSR
  16  1,3  | DSR
  16  1,9  - DeER
  16  1,9  - DeES
- 16 10,2  - EN
  16  1,3  | ENS
  16  8,4  | ES
  16  1,3  | IDS
@@ -262,16 +255,12 @@
  15  5,8  | DANE
  15  5,8  | DANI
  15  5,8  | DARN
- 15  8,5  | DARNS
  15  5,8  | DEAN
- 15  8,5  | DEANS
  15  5,8  | DENS
  15  5,8  | DERN
  15  5,8  | DIAN
- 15  8,5  | DIANE
  15  5,8  | DINE
  15  5,8  | DINS
- 15  8,5  | DISNA
  15  5,1  | ESS
  15  6,4  - KINASE
  15  6,4  - KINDS
@@ -284,36 +273,24 @@
  15  5,8  | SNED
  15  8,5  | SNIDER
  14  5,8  | DAER
- 14  8,5  | DAIN
  14  5,8  | DAIS
  14  5,8  | DAN
  14  5,8  | DARE
  14  5,8  | DARI
- 14  8,5  | DARIEN
- 14  8,5  | DARN
  14  5,8  | DASE
- 14  8,5  | DASEIN
  14  5,8  | DASI
- 14  8,5  | DEAN
  14  5,8  | DEAR
  14  5,8  | DEAS
  14  5,8  | DEIA
  14  5,8  | DEIS
  14  5,8  | DEN
- 14  8,5  | DENARI
- 14  8,5  | DERN
  14  5,8  | DESI
- 14  8,5  | DIAN
  14  5,8  | DIAS
  14  5,8  | DIER
  14  5,8  | DIES
  14  5,8  | DIN
- 14  8,5  | DINARS
- 14  8,5  | DINERS
  14  5,8  | DIRE
  14  5,8  | DISA
- 14  8,5  | DRAINE
- 14  8,5  | DRAINS
  14  5,8  | DRIE
  14  5,8  | DSRI
  14 10,1  | ENDER
@@ -354,27 +331,15 @@
  13  1,3  | AIS
  13  1,3  | ARS
  13  5,8  | DAE
- 13  8,5  | DANES
  13  5,8  | DAR
- 13  8,5  | DAREN
- 13  8,5  | DARIN
  13  5,8  | DAS
  13  5,8  | DEA
- 13  8,5  | DEAIRS
- 13  8,5  | DEARN
  13  5,8  | DEI
- 13  8,5  | DENAR
- 13  8,5  | DENIS
  13  5,8  | DER
- 13  5,8  | DES
  13  5,8  | DIA
  13  5,8  | DIE
- 13  8,5  | DINAR
- 13  8,5  | DINER
- 13  8,5  | DINES
  13  5,8  | DIR
  13  5,8  | DIS
- 13  8,5  | DRAIN
  13  5,8  | DSR
  13  1,3  | EAR
  13  8,5  | EARNS
@@ -431,18 +396,8 @@
  13  8,5  | SNARED
  13  8,5  | SNED
  12  5,8  | DA
- 12  8,5  | DANE
- 12  8,5  | DANI
- 12  8,5  | DARES
  12  5,8  | DE
- 12  8,5  | DEAIR
- 12  8,5  | DEARS
- 12  8,5  | DENS
  12  5,8  | DI
- 12  8,5  | DINE
- 12  8,5  | DINS
- 12  8,5  | DRIAS
- 12  8,5  | DRIES
  12 10,1  | EARED
  12  8,5  | EARN
  12 10,1  | EARNS
@@ -518,24 +473,6 @@
  12  5,8  | SIN
  12  5,8  | SIRE
  12  8,5  | SNEAD
- 11  8,5  | DAER
- 11  8,5  | DAIS
- 11  8,5  | DARE
- 11  8,5  | DARI
- 11  8,5  | DASE
- 11  8,5  | DASI
- 11  8,5  | DEAR
- 11  8,5  | DEAS
- 11  8,5  | DEIA
- 11  8,5  | DEIS
- 11  8,5  | DESI
- 11  8,5  | DIAS
- 11  8,5  | DIER
- 11  8,5  | DIES
- 11  8,5  | DIRE
- 11  8,5  | DISA
- 11  8,5  | DRIE
- 11  8,5  | DSRI
  11  8,5  | EDNA
  11  8,5  | ENDS
  11  8,5  | ERIAN
@@ -617,9 +554,6 @@
  10  8,5  | SINA
  10  8,5  | SINE
   9  2,8  - ACERAE
-  9  8,5  | DAN
-  9  8,5  | DEN
-  9  8,5  | DIN
   9  8,5  | EARS
   9  8,5  | ERAS
   9  8,5  | ERIA
@@ -643,18 +577,6 @@
   8  2,8  - ACED
   8  1,4  | AD
   8  1,4  | AN
-  8  8,5  | DAE
-  8  8,5  | DAR
-  8  8,5  | DAS
-  8  8,5  | DEA
-  8  8,5  | DEI
-  8  8,5  | DER
-  8  8,5  | DES
-  8  8,5  | DIA
-  8  8,5  | DIE
-  8  8,5  | DIR
-  8  8,5  | DIS
-  8  8,5  | DSR
   8 10,1  | EAD
   8 10,1  | EAN
   8 10,1  | EARS
@@ -673,7 +595,6 @@
   8 10,1  | ERIS
   8 10,1  | ERN
   8 10,1  | ERSE
-  8 10,1  | ESD
   8  6,5  - ESDRAS
   8  6,5  - ESERIN
   8  6,5  - ESSEDA
@@ -703,14 +624,10 @@
   8  3,10 - RISE
   7  2,8  - ACER
   7  2,8  - ACES
-  7  8,5  | DA
-  7  8,5  | DE
-  7  8,5  | DI
   7  8,5  | EAD
   7  8,5  | EAN
   7  8,5  | ENS
   7  8,5  | ERN
-  7  8,5  | ESD
   7  6,5  - ESSED
   7  6,5  - ESSERA
   7  3,11 - OREADS
@@ -749,7 +666,6 @@
   6  6,5  - ESNE
   6  6,5  - ESSIE
   6  1,4  | IS
-  6 11,1  | MN
   6  3,11 - OARED
   6  3,11 - ODIN
   6  3,11 - ORANS
@@ -795,7 +711,6 @@
   4 10,1  | EE
   4 10,1  | ER
   4 10,1  | ES
-  4  6,5  - ESD
   4  1,7  - NU
   4  3,11 - OAD
   4  3,11 - OARS

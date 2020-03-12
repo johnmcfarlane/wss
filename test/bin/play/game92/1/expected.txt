@@ -33,7 +33,6 @@
  22  3,2  | GOLES
  22  3,2  | LOGES
  22  4,5  - MEO
- 22  6,5  - MEQ
  22  6,2  | MOLGE
  22  3,4  | OMS
  22  3,6  | SEGOL
@@ -42,16 +41,17 @@
  21  3,5  - MEO
  21  3,4  | MESO
  21  6,5  - MOLGE
+ 21  6,7  - MOLGE
  21  3,4  | MOSE
  21  3,6  | SOME
  20  3,3  | EGOS
- 20  6,2  | GEMSE
  20  7,3  | GLOSSEM
  20  3,3  | LEOS
  20  6,1  | MESOLE
  20  6,5  | MESOLE
  20  3,6  | SEGO
  20  3,6  | SLOE
+ 19  5,5  - EM
  19  3,5  - GEO
  19  3,4  | LOSE
  19  4,5  - ME
@@ -65,7 +65,6 @@
  18  3,4  | ELS
  18  6,1  | GELOSE
  18  6,5  | GELOSE
- 18  4,2  | GEMSE
  18  3,4  | GES
  18  6,7  - LOQ
  18  6,2  | MELOE
@@ -77,8 +76,11 @@
  17  3,5  - LOE
  17  6,5  - MELOS
  17  6,5  - MOGS
+ 17  6,7  - MOGS
  17  6,5  - MOLES
+ 17  6,7  - MOLES
  17  6,5  - MOSEL
+ 17  6,7  - MOSEL
  17  3,5  | OSE
  17  3,6  | SEL
  17  3,6  | SOL
@@ -88,37 +90,44 @@
  16  4,3  | GEMELS
  16  4,4  | GLEES
  16  1,5  - GLOM
+ 16  1,7  - GLOM
  16  6,2  | GOLEE
  16  4,3  | GOLEMS
  16  6,5  - MELS
  16  6,5  - MOLE
+ 16  6,7  - MOLE
  16  6,5  - MOLS
+ 16  6,7  - MOLS
  16  3,4  | OES
  16  3,6  | SOE
  15  4,6  | ELM
  15  3,5  | ES
  15  1,7  - GEMS
  15  1,5  - GEOM
+ 15  1,7  - GEOM
  15  7,2  | GLOSSEM
  15  3,5  - GM
+ 15  3,7  - GM
  15  1,5  - GOME
  15  1,7  - GOME
  15  6,5  - MEG
- 15  4,5  | MEQ
- 15  6,5  | MEQ
  15  6,5  - MESO
  15  6,5  - MOG
+ 15  6,7  - MOG
  15  4,2  | MOLGE
  15  6,5  - MOSE
+ 15  6,7  - MOSE
  15  3,5  | OS
  15  4,5  | SEEM
  15  4,3  | SMEE
  15  3,6  | SO
  15  3,5  - SOE
  14  2,5  - ELM
+ 14  2,7  - ELM
  14  7,5  - ELMS
  14  1,7  - ELMS
  14  2,5  - GEM
+ 14  2,7  - GEM
  14  4,5  | GEMELS
  14  7,1  | GOLEMS
  14  5,4  | GOXES
@@ -128,8 +137,10 @@
  14  5,4  | MLX
  14  1,7  - MOGS
  14  6,5  - MOL
+ 14  6,7  - MOL
  14  4,3  | OGLES
  14  2,5  - OLM
+ 14  2,7  - OLM
  14  2,7  - SML
  14  7,2  | SMOGS
  13  7,5  - ELM
@@ -150,6 +161,7 @@
  13  6,5  - MES
  13  7,3  | MOGS
  13  6,5  - MOS
+ 13  6,7  - MOS
  13  4,5  - OE
  13  5,5  - OE
  13  4,3  | OGEES
@@ -167,7 +179,6 @@
  12  4,4  | GEES
  12  6,3  | GEMELS
  12  7,3  | GEMS
- 12  4,5  | GEMSE
  12  4,3  | GLEES
  12  4,4  | GOES
  12  4,2  | GOLEE
@@ -183,6 +194,7 @@
  12  4,1  | MESOLE
  12  4,5  | MESOLE
  12  6,5  - MO
+ 12  6,7  - MO
  12  1,5  - MOLE
  12  1,7  - MOLE
  12  7,3  | MOLS
@@ -192,6 +204,7 @@
  12  7,7  - OGLES
  12  2,7  - OMS
  12  2,5  - SEM
+ 12  2,7  - SEM
  12  4,5  | SEQ
  12  6,5  | SEQ
  12  7,6  | SEQ
@@ -199,6 +212,8 @@
  12  7,6  | SMOG
  12  6,7  - SOME
  11  1,7  - EGOL
+ 11  3,5  - EM
+ 11  3,7  - EM
  11  4,4  | GEE
  11  4,1  | GELOSE
  11  4,5  | GELOSE
@@ -241,6 +256,7 @@
  11  7,7  - OGLE
  11  7,2  | OGLES
  11  3,5  - OM
+ 11  3,7  - OM
  11  5,5  | OXES
  11  1,5  - SEGO
  11  1,7  - SEGO
@@ -256,7 +272,6 @@
  10  4,6  | ELOGE
  10  2,7  - GEL
  10  7,3  | GELS
- 10  6,5  | GEMSE
  10  7,3  | GESSO
  10  7,3  | GLOS
  10  1,7  - GLOS
@@ -423,6 +438,7 @@
   7  6,6  | ELM
   7  7,5  - ELS
   7  4,6  | ELSE
+  7  7,5  - EM
   7  6,4  | EMES
   7  6,6  | EMES
   7  4,3  | EOLE
@@ -553,6 +569,8 @@
   5  7,5  - EL
   5  6,3  | ELSE
   5  6,6  | ELSE
+  5  4,6  | EM
+  5  6,6  | EM
   5  3,5  - EO
   5  3,7  - EO
   5  6,3  | EOLE

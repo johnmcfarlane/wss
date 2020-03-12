@@ -1,41 +1,43 @@
+ 34  7,2  | FLAM
  34  7,2  | FLAW
  33  7,3  | MALA
  33  7,3  | MALO
  33  7,3  | MAW
  33  7,2  | MWA
  33  7,3  | WAF
+ 29  7,3  | LAMA
  29  7,1  | LOMA
  29  7,3  | MAL
  28  5,1  | LWM
  28  7,1  | LWM
  28  7,2  | OLAF
+ 28  7,2  | OLAM
  27  5,1  | AWM
  27  7,1  | AWM
  27  7,3  | MAO
  26  7,1  | AMLA
  26  6,6  - DWALM
- 26  7,2  | FM
- 26  7,2  | FW
- 26  5,2  | MF
- 26  5,2  | WF
  25  7,4  | AFOAM
+ 25  7,3  | LAM
  25  7,3  | LAW
  24  7,3  | MA
  24  7,1  | MOW
- 23  5,1  | ALF
  23  7,1  | MOLA
  23  5,1  | OLM
+ 22  7,4  | AMAL
  22  7,4  | AWOL
- 22  5,2  | LF
  22  5,1  | LOF
  22  7,1  | LOW
  22  2,2  - MAFOO
  22  4,4  - WAKF
+ 21  7,3  | AAM
  21  7,4  | ALAMO
  21  7,4  | ALOMA
  21  5,5  | MALWA
+ 21  7,5  | MALWA
  21  4,4  - WMK
  20  7,4  | ALOW
+ 20  7,4  | AMA
  20  7,4  | AWA
  20  2,6  - AWALD
  20  6,6  - DAFLA
@@ -69,7 +71,6 @@
  18  5,3  - FAMA
  18  5,5  | FAMA
  18  7,5  | FAMA
- 18  7,2  | FL
  18  2,4  - FLOWK
  18  5,5  | FOAM
  18  7,5  | FOAM
@@ -90,7 +91,9 @@
  17  2,3  - MALWA
  17  5,3  - MAW
  17  5,5  | MAW
+ 17  7,5  | MAW
  17  5,5  | MOW
+ 17  7,5  | MOW
  17  5,3  - WAF
  17  5,5  | WAF
  17  7,5  | WAF
@@ -101,9 +104,9 @@
  16  7,4  | ALA
  16  5,6  | ALAMO
  16  7,6  | ALAMO
- 16  7,4  | ALO
  16  5,6  | ALOMA
  16  7,6  | ALOMA
+ 16  7,4  | AM
  16  7,4  | AW
  16  5,5  | FALA
  16  7,5  | FALA
@@ -115,11 +118,14 @@
  16  3,4  - FOWK
  16  7,3  | LA
  16  5,5  | MALA
+ 16  7,5  | MALA
  16  5,5  | MALO
+ 16  7,5  | MALO
  16  3,4  - MAWK
  16  5,1  | MOL
  16  7,1  | MOL
  16  5,5  | MOLA
+ 16  7,5  | MOLA
  16  3,5  - WAMEL
  15  1,5  - AFLAME
  15  5,6  | AFOAM
@@ -141,7 +147,9 @@
  15  5,5  | FOL
  15  7,5  | FOL
  15  5,5  | MAL
+ 15  7,5  | MAL
  15  5,5  | MOL
+ 15  7,5  | MOL
  15  3,4  - MOLKA
  15  5,6  | OLAF
  15  7,6  | OLAF
@@ -175,7 +183,9 @@
  14  5,3  - MALA
  14  5,3  - MALO
  14  5,5  | MAO
+ 14  7,5  | MAO
  14  5,5  | MOA
+ 14  7,5  | MOA
  14  3,3  - MOLA
  14  3,5  - MOWE
  14  4,3  - OLAF
@@ -198,10 +208,6 @@
  13  7,6  | AWOL
  13  5,5  | FA
  13  7,5  | FA
- 13  5,1  | FM
- 13  7,1  | FM
- 13  5,1  | FW
- 13  7,1  | FW
  13  6,4  - KALA
  13  6,4  - KALO
  13  6,4  - KOLA
@@ -215,12 +221,12 @@
  13  4,4  - LOKA
  13  7,5  | LOW
  13  5,5  | MA
+ 13  7,5  | MA
  13  5,3  - MAL
  13  3,5  - MALEO
- 13  7,1  | MF
  13  5,5  | MO
+ 13  7,5  | MO
  13  4,3  - MWA
- 13  7,1  | WF
  13  5,5  | WO
  13  7,5  | WO
  13  3,4  - WOAK
@@ -269,7 +275,6 @@
  11  4,2  - FLOW
  11  4,3  - FOAL
  11  5,2  - FOWL
- 11  7,1  | LF
  11  3,2  - MAFOO
  11  5,3  - MAO
  11  5,5  - MEWL
@@ -281,8 +286,6 @@
  11  5,5  - WELF
  11  5,2  - WOLF
  10  5,6  - ADOLF
- 10  5,6  | ALF
- 10  7,6  | ALF
  10  5,6  | ALW
  10  7,6  | ALW
  10  5,1  | AM
@@ -308,7 +311,6 @@
  10  3,5  - LOWE
  10  5,5  - MEAW
  10  5,5  - MEOW
- 10  4,6  - MFD
  10  4,6  - MODAL
  10  7,1  | OF
  10  5,6  | OLM
@@ -328,7 +330,6 @@
   9  5,6  | AAM
   9  7,6  | AAM
   9  4,6  - ALDM
-  9  6,3  - ALF
   9  3,5  - ALME
   9  4,2  - ALOMA
   9  3,2  - ALOOF
@@ -347,7 +348,6 @@
   9  5,3  - FA
   9  5,5  - FEM
   9  5,5  - FEW
-  9  5,1  | FL
   9  3,6  - FOLD
   9  6,4  - KOA
   9  7,5  | LA
@@ -427,14 +427,11 @@
   7  5,4  - AKO
   7  5,6  | ALA
   7  7,6  | ALA
-  7  5,6  | ALO
-  7  7,6  | ALO
   7  4,6  - AWD
   7  6,6  - DAM
   7  6,6  - DAW
   7  6,6  - DOM
   7  6,6  - DOW
-  7  6,5  - EFL
   7  6,5  - ELF
   7  6,5  - ELM
   7  4,6  - FAD
@@ -471,14 +468,12 @@
   6  4,3  - ALA
   6  6,3  - ALA
   6  3,5  - ALAE
-  6  6,3  - ALO
   6  3,6  - ALOD
   6  3,5  - ALOE
   6  4,5  - AWE
   6  6,6  - DOLA
   6  6,5  - EAM
   6  6,5  - EMO
-  6  6,5  - EOF
   6  4,5  - FAE
   6  4,5  - FOE
   6  4,2  - FOO
@@ -516,6 +511,7 @@
   5  6,6  - DAL
   5  6,6  - DOL
   5  6,5  - EF
+  5  6,5  - EM
   5  6,5  - EW
   5  5,5  - FE
   5  5,3  - LA
@@ -538,7 +534,6 @@
   4  5,6  - ADA
   4  5,6  - ADO
   4  4,5  - ALE
-  4  4,2  - ALO
   4  6,6  - DAO
   4  6,6  - DOA
   4  6,5  - ELA

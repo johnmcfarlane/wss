@@ -8,24 +8,16 @@
  34  3,1  | LEESE
  34  3,1  | NEESE
  34  3,1  | WEEL
- 33  6,4  - NEW
- 31  6,4  - SEW
  30  3,1  | WAES
  30  3,1  | WEES
- 30  1,10 - aWES
  29  3,7  | NAW
  29  3,7  | NEW
- 28  7,4  - EW
- 28  3,1  | NAEL
- 28  7,4  - SW
  27  6,2  - SWAN
  27  7,2  - WANLE
  26  4,8  - SEWAN
  26  4,8  - SEWEN
  26  4,8  - SWEAL
  26  2,9  | SWY
- 26  1,10 - aWA
- 26  1,10 - aWE
  25  6,2  - ANEW
  25  6,2  - AWEE
  25  6,2  - AWES
@@ -68,8 +60,6 @@
  22  4,8  - SLANE
  22 10,1  | WANLE
  22  6,2  | WIENIES
- 22  2,10 | WY
- 22  1,10 - aW
  21 10,2  | ALEW
  21 10,2  | ANEW
  21 10,1  | AWEEL
@@ -115,7 +105,6 @@
  19  4,8  - SEW
  19 10,2  | SEWN
  19  6,2  - SNEE
- 19  6,2  - SW
  19  4,8  - SWA
  19 10,2  | SWAN
  19 10,2  | WASN
@@ -149,7 +138,6 @@
  18  4,8  - SLEE
  18  2,9  | SLY
  18  4,8  - SNEE
- 18  4,8  - SW
  18  1,8  - USW
  18 10,2  | WALE
  18 10,2  | WANE
@@ -161,7 +149,6 @@
  17 10,1  | ANSEL
  17 10,1  | ELEAN
  17  5,5  | EMLEN
- 17  7,2  - NAEL
  17  7,2  - NALE
  17  2,9  | NAY
  17  7,2  - NEAL
@@ -214,19 +201,16 @@
  15  3,8  - AS
  15 10,1  | EASEL
  15 10,2  | ELAN
- 15  4,7  - ENSE
  15  3,8  - ES
  15 10,2  | LAEN
  15 10,2  | LEAN
  15  3,1  | LEE
  15  5,6  | MEWL
  15  3,1  | NAE
- 15 10,2  | NAEL
  15 10,2  | NEAL
  15  3,1  | NEE
  15  7,2  - NESE
  15  7,2  | NEWSREEL
- 15  1,8  - USA
  15  1,8  - USE
  14  8,2  - ALEN
  14  5,5  | AMENE
@@ -265,7 +249,6 @@
  13 10,2  | SEAN
  13 10,2  | SEEL
  13 10,2  | SEEN
- 13  8,3  | SW
  13  5,9  | WAC
  13  7,2  - WAE
  13  7,2  - WAS
@@ -278,7 +261,6 @@
  12  8,2  - ALES
  12 10,2  | ALES
  12  6,1  | ALIN
- 12  8,2  - ALN
  12 10,3  | ALW
  12  5,5  | AMEL
  12  5,5  | AMEN
@@ -293,8 +275,6 @@
  12  8,2  - ELSA
  12  8,2  - ELSE
  12 10,2  | ELSE
- 12  8,2  - ENL
- 12  4,7  - ENS
  12  8,2  - ENSE
  12 10,2  | ENSE
  12  8,2  - ESNE
@@ -329,12 +309,12 @@
  12 10,2  | SLEE
  12  5,5  | SML
  12 10,2  | SNEE
- 12  6,4  - SW
  12  8,1  | WASN
  12  7,2  - WE
  12  6,1  | WEI
  12  6,2  | WIS
  11  4,3  | ABASES
+ 11  1,5  - AREAE
  11  5,5  | EMES
  11  5,6  | MELA
  11  5,6  | MELE
@@ -353,6 +333,7 @@
  11  5,1  | WEvE
  10  4,5  - AAS
  10  6,2  - AE
+ 10  4,5  - AES
  10  2,4  - ALB
  10  8,2  - ALE
  10  5,8  | ALEC
@@ -398,7 +379,6 @@
  10  6,1  | SAIL
  10  6,1  | SAIN
  10  7,1  | SLEWER
- 10 10,4  | SW
  10 10,3  | WAN
  10  3,9  | WAT
  10 10,3  | WEN
@@ -407,7 +387,6 @@
  10  1,10 - aA
   9  8,1  | ASSN
   9  5,1  | ELvE
-  9  4,7  - EN
   9  5,9  | LAC
   9  5,1  | LAvE
   9  5,1  | LEvA
@@ -415,7 +394,6 @@
   9  5,9  | LSC
   9  5,6  | MEL
   9  5,6  | MEN
-  9  5,6  | MN
   9  5,6  | MSL
   9  7,2  - NAE
   9  3,8  | NAWT
@@ -451,9 +429,7 @@
   8  5,8  | AESC
   8  6,2  | AIL
   8  6,2  | AIN
-  8  5,9  | ALC
   8  7,1  | ALEW
-  8 10,3  | ALN
   8  5,9  | ANC
   8  7,1  | ANEW
   8  6,1  | ANI
@@ -468,7 +444,6 @@
   8  6,1  | ELI
   8  5,9  | ENC
   8  7,1  | ENEW
-  8 10,3  | ENL
   8  3,3  | ES
   8  8,2  - ESE
   8 10,3  | EWE
@@ -526,6 +501,7 @@
   8  7,5  | WREN
   7  4,5  - AA
   7  1,1  | AE
+  7  4,5  - AE
   7  7,2  - AES
   7  5,5  | AM
   7  3,8  | ANET
@@ -545,6 +521,7 @@
   7 10,3  | EEN
   7  8,1  | ELSA
   7  8,1  | ELSE
+  7  5,5  | EM
   7  8,1  | ENSE
   7  7,5  | ERNES
   7  5,9  | ESC
@@ -638,7 +615,6 @@
   6  6,5  | LINS
   6  3,9  | LST
   6 10,3  | NAE
-  6  7,1  | NAEL
   6  3,8  | NAST
   6  3,9  | NAT
   6  3,8  | NEAT
@@ -705,7 +681,6 @@
   5  8,2  - EL
   5  3,9  | ELT
   5  8,2  - EN
-  5  9,5  - ENL
   5  7,5  | ERAL
   5  7,5  | ERNE
   5  7,5  | ERNS
@@ -847,7 +822,6 @@
   3  5,1  | LAv
   3  5,1  | LEv
   3  1,4  - NA
-  3  5,1  | NAv
   3  7,2  | NE
   3  1,9  - ON
   3  7,6  | RAS

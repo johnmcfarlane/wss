@@ -8,14 +8,12 @@ invalid words: aix
  29 11,1  | SIR
  29 11,1  | SRI
  28  9,2  - IFS
- 28  7,3  - VIS
  26  9,2  - IF
  24  7,3  - DIV
  23  7,3  - DIFS
  22  7,3  - DIF
  21 11,1  | RF
  20 10,2  - FI
- 20 10,2  - FS
  20  9,2  - IDS
  20  7,3  - RIV
  19  7,3  - RIFS
@@ -30,20 +28,12 @@ invalid words: aix
  16  7,3  - DIS
  16  7,3  - DSR
  16  9,2  - IRS
- 15  5,5  - DIFS
- 15  5,7  - DIFS
- 15  5,5  - DIV
- 15  5,7  - DIV
  15  9,1  | KIFS
- 15  7,1  | MEV
  15  7,3  - RFS
  15  7,3  - RIDS
  14  4,6  | ARF
  14  7,3  - DI
- 14  5,5  - DIF
- 14  5,7  - DIF
  14  2,5  | FCS
- 14  6,5  - FIDS
  14  9,2  - IS
  14  9,1  | KIF
  14  7,1  - MAKER
@@ -51,33 +41,18 @@ invalid words: aix
  14 10,2  - RF
  14  7,3  - RID
  14  7,3  - SID
- 13  5,5  - DIRD
- 13  5,7  - DIRD
  13  2,5  | FC
  13  2,5  - FI
- 13  6,5  - FIRS
- 13  6,5  - FRIS
- 13  1,7  - IF
  13  7,3  - RF
- 13  1,7  - RF
  12 10,2  - DI
- 12  5,5  - DID
- 12  5,7  - DID
  12 10,1  | EFS
  12 10,1  | ERF
- 12  6,5  - FID
  12  7,1  | MERV
  12  7,3  - SIR
  12  7,3  - SRI
  11  4,6  | ADDIS
  11  4,6  | AFD
  11  4,6  | AVID
- 11  5,5  - DIR
- 11  5,7  - DIR
- 11  5,5  - DIS
- 11  5,7  - DIS
- 11  6,5  - FIR
- 11  6,5  - FRS
  11  9,1  | KIDS
  11  2,5  | SCF
  11  5,5  | SYDDIR
@@ -88,16 +63,10 @@ invalid words: aix
  10  2,6  | CDF
  10  2,6  | CFD
  10  2,6  | CIV
- 10  5,5  - DI
  10  4,7  - DI
- 10  5,7  - DI
  10 10,1  | EF
- 10  6,5  - FI
- 10  6,5  - FS
  10  5,5  | FYRD
- 10  4,7  - ID
  10  9,1  | KID
- 10  9,1  | KV
  10  7,3  - SI
  10  5,6  | YIRDS
   9  4,6  | ADD
@@ -111,9 +80,7 @@ invalid words: aix
   9  2,4  - VAG
   9  5,6  | YIRD
   8  4,6  | AID
-  8  2,6  | CF
   8 10,1  | ERIS
-  8 10,1  | ESD
   8  6,5  - IFS
   8  6,7  - IFS
   8  9,1  | KRS
@@ -157,8 +124,6 @@ invalid words: aix
   5  4,6  | ARS
   5  6,4  | DISS
   5  6,5  | DSRI
-  5  5,5  | DY
-  5  6,5  | FS
   5  6,5  - ID
   5  6,7  - ID
   5  6,5  - IRS
@@ -166,7 +131,6 @@ invalid words: aix
   5  2,4  - RAG
   5  2,4  - SAG
   5  5,5  | SYR
-  5  5,6  | YD
   5  5,6  | YIS
   5  5,6  | YRS
   4  6,4  | DIS

@@ -63,6 +63,8 @@
  18  2,6  | FILEA
  18  2,6  | FOLIA
  18  2,6  | FOLIE
+ 18  3,4  | OXO
+ 18  3,6  | OXO
  18  7,7  - XI
  17  3,6  | OX
  16  1,5  - AIL
@@ -97,23 +99,13 @@
  15  7,7  - OLAX
  14  6,1  | AEOLIA
  14  6,6  | AEOLIA
- 14  1,5  - ALE
- 14  1,7  - ALE
  14  4,3  | ALIVE
- 14  1,5  - ALO
- 14  1,7  - ALO
  14  4,4  | ALVIA
  14  4,5  | AVALE
  14  4,5  | AVILE
- 14  1,5  - ELI
- 14  1,7  - ELI
  14  2,6  | FIXE
- 14  1,5  - ILE
- 14  1,7  - ILE
  14  5,5  | LEXIA
  14  7,5  | LEXIA
- 14  1,5  - OLE
- 14  1,7  - OLE
  14  4,3  | OLIVA
  14  4,3  | OLIVE
  14  4,5  | OVILE
@@ -151,8 +143,6 @@
  13  1,5  - LIE
  13  1,7  - LIE
  13  4,4  | LIVE
- 13  2,5  - LO
- 13  2,7  - LO
  13  1,5  - LOE
  13  4,4  | LOVE
  13  4,5  | OVAL
@@ -206,7 +196,6 @@
  11  5,5  - ALE
  11  6,7  - ALEA
  11  6,7  - ALIA
- 11  5,5  - ALO
  11  6,7  - ALOE
  11  7,5  - AX
  11  5,5  - ELA
@@ -249,18 +238,13 @@
  10  6,6  | AXE
  10  3,5  | LOOIE
   9  7,5  - AILE
-  9  1,5  - AL
-  9  1,7  - AL
   9  6,7  - ALA
   9  6,7  - ALE
   9  2,3  | ALIFE
-  9  6,7  - ALO
   9  7,5  - AOLI
   9  6,6  | AX
   9  7,5  - EILA
   9  7,7  - EILA
-  9  1,5  - EL
-  9  1,7  - EL
   9  6,7  - ELA
   9  6,7  - ELI
   9  5,6  | EX
@@ -357,12 +341,9 @@
   7  1,7  - AI
   7  7,5  - ALA
   7  7,5  - ALE
-  7  2,4  | ALF
-  7  7,5  - ALO
   7  4,5  | AVA
   7  4,5  | AVE
   7  4,5  | AVO
-  7  2,5  | EFL
   7  7,5  - ELA
   7  7,7  - ELA
   7  2,4  | ELF
@@ -402,7 +383,6 @@
   6  7,3  | ALAE
   6  5,3  | ALEE
   6  7,3  | ALEE
-  6  3,4  | ALO
   6  5,3  | ALOE
   6  7,3  | ALOE
   6  5,6  | EILA
@@ -410,21 +390,16 @@
   6  5,6  | ELIA
   6  7,6  | ELIA
   6  6,7  - EO
-  6  2,4  | EOF
   6  5,3  | EOLE
   6  7,3  | EOLE
   6  5,6  | EOLE
   6  7,6  | EOLE
   6  2,6  | FAE
-  6  2,6  | FEI
   6  2,6  | FIE
-  6  2,6  | FL
   6  2,6  | FOE
   6  2,5  | IFE
   6  6,7  - IO
-  6  2,4  | IOF
   6  7,7  - LA
-  6  2,5  | LF
   6  7,7  - LO
   6  2,4  | OAF
   6  5,7  - OE
@@ -482,7 +457,6 @@
   4  5,4  | ALE
   4  7,4  | ALE
   4  6,6  | ALE
-  4  6,6  | ALO
   4  5,5  | EEL
   4  7,5  | EEL
   4  5,6  | EEL

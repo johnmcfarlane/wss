@@ -5,7 +5,6 @@
  34  8,4  | DOSE
  34  8,4  | NOSE
  34  8,4  | ROSED
- 33  8,4  | DES
  33  8,4  | DOS
  33  8,4  | NOS
  31  8,4  | RESP
@@ -37,9 +36,7 @@
  22  1,10 - DEPONE
  22  2,10 - EPODES
  22  5,2  | OPERAND
- 22 10,10 | PE
  22  2,10 - PEONES
- 22 10,10 - PL
  22  4,8  - PRAND
  22  8,6  | SED
  22  8,6  | SEN
@@ -77,10 +74,7 @@
  19  4,8  - PRADO
  19  3,9  - PROVES
  19  1,7  - REPOSE
- 19  2,5  - SEPD
- 19  2,5  - SEPN
  19  8,6  | SER
- 19  1,5  - SNERP
  19  2,10 - SNORED
  19  8,6  | SOE
  19  2,10 - SORNED
@@ -89,11 +83,9 @@
  18  8,4  | DO
  18  9,10 - DOL
  18  2,10 - DONEES
- 18  2,5  - DORP
  18  2,10 - DRONES
  18  8,5  | DSR
  18  2,10 - EPODE
- 18  8,5  | ESD
  18  8,4  | NE
  18  6,2  - NEPETa
  18  8,4  | NO
@@ -109,7 +101,6 @@
  18  7,3  | PORKS
  18  4,8  - PRAOS
  18  4,8  - PRASE
- 18  3,5  - PRN
  18  7,3  | PROKE
  18  2,10 - PRONE
  18  3,9  - PROVE
@@ -132,14 +123,7 @@
  17  4,2  | SPONGER
  17  3,8  - SPRAD
  17  5,2  | SPREAD
- 16  1,5  - DEPR
- 16  1,5  - DORP
- 16  1,7  - DORP
  16  4,8  - DRAPES
- 16  1,5  - DROP
- 16  1,7  - DROP
- 16  2,5  - EDP
- 16  2,7  - EDP
  16  1,7  - ENDORE
  16  1,10 - ENDORE
  16  2,7  - ENODE
@@ -150,20 +134,17 @@
  16  9,6  | OPES
  16  1,10 - ORDENE
  16  8,5  | OS
- 16  4,5  - PD
  16  8,9  | PDQ
  16  4,8  - PEAN
  16  4,4  | PEG
  16  4,3  | PENGOS
  16  7,3  | PENK
- 16  2,5  - PERN
  16  2,10 - PERSE
  16  3,9  - PERV
  16  6,2  - PESETa
  16  4,3  | PODGER
  16  7,4  | POKER
  16  7,4  | POKES
- 16  2,5  - PORN
  16  4,8  - PRAD
  16  5,4  | PRAND
  16  2,10 - PRESE
@@ -176,8 +157,6 @@
  16  5,2  | RESNAP
  16  4,9  - RSVP
  16  5,8  - SARPO
- 16  1,5  - SNOP
- 16  1,7  - SNOP
  16  8,6  | SO
  16  3,8  - SPEAR
  16  2,10 - SPERE
@@ -187,42 +166,28 @@
  15  5,6  | ADP
  15  6,8  - ADP
  15  4,8  - DEARN
- 15  2,5  - DEP
- 15  2,7  - DEP
  15  4,9  - DEVONS
  15  3,7  - DONE
- 15  2,5  - DOP
- 15  2,7  - DOP
  15  4,9  - DOVENS
- 15  3,5  - DP
- 15  3,7  - DP
  15  4,8  - DRAPE
  15  2,7  - DRONE
  15  3,9  - DROVES
- 15  2,5  - DSP
- 15  2,7  - DSP
  15  4,8  - NEAPS
  15  4,4  | NEGROS
- 15  2,5  - NEP
- 15  2,7  - NEP
  15  3,7  - NODE
  15  5,5  | PAND
  15  5,8  - PARDESI
  15  4,8  - PEAR
  15  4,8  - PEAS
- 15  4,7  - PEE
  15  9,7  | PERDU
  15  8,8  - PERI
  15  7,3  | PERK
  15  7,3  | PORK
  15  4,8  - PRAO
- 15  4,7  - PRE
  15  2,7  - PROSE
  15  5,8  - RASP
  15  8,5  - REIF
  15  5,2  | RESOAP
- 15  1,5  - RESP
- 15  1,7  - RESP
  15  8,5  - SEIF
  15  5,3  | SNEAP
  15  7,4  | SOKEN
@@ -231,7 +196,6 @@
  15  7,3  | SPOKE
  14  6,8  - ASP
  14  2,10 - DENSE
- 14  2,5  - DERN
  14  4,4  | DOGES
  14  2,10 - DONEE
  14 10,8  | DP
@@ -242,29 +206,21 @@
  14  2,10 - ENODE
  14  4,4  | ERGON
  14  2,7  - ERODE
- 14  2,5  - ESP
- 14  2,7  - ESP
  14  4,6  - GAWKS
  14  4,6  | GROPED
  14  4,4  | NEGRO
- 14  2,5  - NERD
  14  7,4  | ONKER
  14  9,6  | OPE
  14  9,6  | OPS
  14  1,10 - ORSEDE
  14  5,8  - PADRONI
- 14 10,8  | PD
  14  4,8  - PEA
  14  2,8  - PENDA
  14  4,8  - POA
  14  4,2  | PRONGS
  14  5,3  | PSOAE
- 14  2,5  - REP
- 14  2,7  - REP
  14  5,2  | RESPAN
  14  2,10 - RONDE
- 14  2,5  - SEP
- 14  2,7  - SEP
  14  5,4  - SERDAB
  14  7,5  | SKED
  14  7,5  | SKEN
@@ -272,8 +228,6 @@
  14  2,7  - SNORE
  14  4,8  - SOAPED
  14  2,10 - SONDE
- 14  2,5  - SOP
- 14  2,7  - SOP
  14  4,8  - SPADER
  14  5,4  | SPAED
  14  4,8  - SPARED
@@ -296,9 +250,7 @@
  13  4,10 - NEEP
  13  3,7  - NORE
  13  3,7  - NOSE
- 13  3,5  - OP
  13  9,6  | OP
- 13  3,7  - OP
  13  9,6  | ORDN
  13  5,9  - OVENS
  13  5,8  - PAND
@@ -323,8 +275,6 @@
  13  4,8  - SOAPER
  13  3,7  - SONE
  13  4,3  | SONGER
- 13  2,5  - SORD
- 13  2,5  - SORN
  13  4,8  - SPADE
  13  4,8  - SPADO
  13  4,8  - SPANE
@@ -345,7 +295,6 @@
  12  2,10 - DORSE
  12  4,9  - DOVER
  12  4,9  - DOVES
- 12  3,5  - ERN
  12  2,10 - ERODE
  12  2,7  - EROSE
  12  8,9  | ESQ
@@ -366,7 +315,6 @@
  12  9,6  | ONES
  12 10,8  | OP
  12  5,2  | OPERA
- 12  3,5  - ORD
  12  9,6  | ORED
  12  1,8  - ORENDA
  12  5,9  - OVERS
@@ -476,10 +424,8 @@
  11  4,10 - PEEN
  11  5,2  | PENDA
  11  3,10 - PENES
- 11  2,5  - PER
  11  5,3  | PESA
  11  3,10 - PONES
- 11  2,5  - POR
  11  5,4  | PRAD
  11  4,10 - PRED
  11  2,7  - PRO
@@ -521,7 +467,6 @@
  10  5,8  - DAPS
  10  5,8  - DARN
  10  4,8  - DEAN
- 10  4,4  | DEG
  10  5,3  | DEPA
  10  3,8  - DEPA
  10  4,1  - DEPORT
@@ -530,7 +475,6 @@
  10  4,1  - DESPOT
  10  7,5  | DKS
  10  7,4  - DOAB
- 10  1,5  - DOER
  10  4,4  | DOG
  10  4,3  | DONG
  10  8,8  - DONI
@@ -554,7 +498,6 @@
  10  5,8  - NAPE
  10  5,8  - NAPS
  10  5,8  - NARD
- 10  4,4  | NEG
  10  5,3  | NEPA
  10  3,8  - NEPA
  10  8,8  - NODI
@@ -563,7 +506,6 @@
  10  9,6  | ODE
  10  9,6  | ODS
  10  9,6  | ONE
- 10  1,5  - ONER
  10  9,6  | ONS
  10  2,8  - OPERA
  10  4,8  - ORANS
@@ -635,7 +577,6 @@
   9  3,10 - DENES
   9  8,9  - DEPA
   9  5,1  - DEPOT
-  9  2,5  - DER
   9  8,8  - DESI
   9  4,9  - DEV
   9  3,7  - DO
@@ -644,12 +585,10 @@
   9  3,8  - DONAS
   9  3,10 - DONEE
   9  8,9  - DOPA
-  9  2,5  - DOR
   9  8,8  - DORI
   9  4,3  | DREG
   9  2,8  - DRONA
   9  5,1  - DROPT
-  9  2,5  - DSR
   9  8,8  - DSRI
   9  5,8  - EARN
   9  4,10 - EDEN
@@ -669,7 +608,6 @@
   9  8,8  - NERI
   9  3,7  - NO
   9  3,10 - NODES
-  9  2,5  - NOR
   9  8,8  - NORI
   9  4,9  - NOV
   9  9,6  | OD
@@ -713,7 +651,6 @@
   9  3,8  - SEDAN
   9  5,1  | SENORA
   9  1,8  - SENORA
-  9  1,5  - SEOR
   9  3,10 - SERED
   9  1,7  - SERO
   9  4,10 - SNED
@@ -774,7 +711,6 @@
   8  3,10 - NOPE
   8  5,8  - OARED
   8 10,8  | OD
-  8  2,5  - OER
   8  9,6  | OER
   8  9,6  | OES
   8  4,5  | OGRE
@@ -794,7 +730,6 @@
   8  8,9  - PESA
   8  3,10 - PONE
   8  6,1  - PONT
-  8  5,1  - PORET
   8  5,1  - PREST
   8  8,9  - PROA
   8  5,1  - PROST
@@ -822,7 +757,6 @@
   8  4,10 - SEED
   8  4,10 - SEEN
   8  4,4  | SEGO
-  8  2,5  - SER
   8  4,3  | SERG
   8  4,9  - SEV
   8  3,8  - SONAR
@@ -866,14 +800,12 @@
   7  3,7  - EO
   7  4,8  - EOAN
   7  9,9  - EPA
-  7  3,5  - ER
   7  4,4  | ERG
   7  7,4  | ERK
   7  8,1  | ES
   7  4,6  | GEO
   7  4,6  | GES
   7  4,6  | GOR
-  7  4,6  | GP
   7  4,6  | GRE
   7  4,6  | GRO
   7  4,6  | GRS
@@ -893,7 +825,6 @@
   7  9,6  | OE
   7  4,10 - ONES
   7  9,9  - OPA
-  7  3,5  - OR
   7  9,6  | OR
   7  4,8  - ORAD
   7  9,8  | ORDU
@@ -905,7 +836,6 @@
   7  3,10 - PERE
   7  6,1  - PERT
   7  6,1  - PEST
-  7  4,5  | PG
   7  6,1  - POET
   7  3,10 - PORE
   7  6,1  - PORT
@@ -971,7 +901,6 @@
   6  5,10 - DEE
   6  3,10 - DENE
   6  6,1  - DENT
-  6  5,10 - DES
   6  7,10 | DO
   6  9,9  - DOA
   6  5,1  - DOEST
@@ -1042,7 +971,6 @@
   6  5,2  | SEORA
   6  3,8  - SERA
   6  8,8  - SERI
-  6  4,5  | SGD
   6  5,1  - SNORT
   6  5,4  | SOAR
   6  4,8  - SOAR
@@ -1088,7 +1016,6 @@
   5 10,9  - PA
   5  5,10 - PE
   5 10,8  - PI
-  5  8,1  - PT
   5  4,8  - REA
   5  3,10 - REDE
   5  5,10 - REE
@@ -1162,7 +1089,6 @@
   4  5,7  - RE
   4  9,9  - REA
   4  6,1  - REST
-  4  4,5  | RG
   4  3,10 - ROSE
   4  5,8  - SAD
   4  5,8  - SAN

@@ -24,7 +24,6 @@
  30  1,3  - PAcED
  28  6,1  | BEDPAD
  28  6,1  | WEDBED
- 27  2,1  | DP
  27  1,3  - PWcA
  26  4,5  | AKED
  26  5,5  - BEPAW
@@ -58,7 +57,6 @@
  21  5,5  | BEPEWED
  21  1,3  - EBcD
  21  2,1  | PA
- 21  4,3  | PD
  21  2,1  | PE
  21  4,1  | WAP
  21  1,11 - YADE
@@ -84,9 +82,7 @@
  19  5,3  | BEWEEP
  19  2,9  | DEA
  19  2,9  | DEE
- 19  6,5  - PAWED
  19  6,7  - PAWED
- 19  4,1  | WB
  18  1,2  - BALD
  18  1,2  - BDLE
  18  5,5  | BEDAWEE
@@ -123,7 +119,6 @@
  17  4,1  | DAP
  17  2,4  - PAW
  17  5,5  - PAW
- 17  6,5  - PEBA
  17  6,7  - PEBA
  17  5,5  - PEW
  17  3,7  - RAW
@@ -141,7 +136,6 @@
  16  2,2  - ALBE
  16  2,2  - ALEW
  16  3,4  - APED
- 16  5,5  - APED
  16  3,4  - AWED
  16  5,5  - BADE
  16  1,2  - BALE
@@ -169,7 +163,6 @@
  16  1,2  - PDL
  16  5,5  - PEDA
  16  5,5  - PEED
- 16  6,5  - PEED
  16  6,7  - PEED
  16  1,2  - PELE
  16  2,2  - PLEA
@@ -194,24 +187,18 @@
  15  2,4  - DAP
  15  2,4  - DAW
  15  2,1  | DE
- 15  4,1  | DP
- 15  5,5  - DP
  15  5,7  - DP
- 15  2,10 | ED
  15  4,6  | KEAP
  15  4,6  | KEEP
  15  2,6  | LEAD
  15  2,6  | LEED
  15  4,3  | PA
  15  5,5  - PAD
- 15  6,5  - PAW
  15  6,7  - PAW
  15  1,3  - PAc
  15  4,3  | PE
  15  5,5  - PED
- 15  6,5  - PEDA
  15  6,7  - PEDA
- 15  6,5  - PEW
  15  6,7  - PEW
  15  5,3  | PEWEE
  15  1,9  - TAPED
@@ -234,7 +221,6 @@
  14  2,2  - ALW
  14  3,4  - APA
  14  3,4  - APE
- 14  5,5  - APE
  14  3,4  - AWA
  14  3,4  - AWE
  14  1,2  - AWL
@@ -257,9 +243,7 @@
  14  5,5  - DEPE
  14  5,7  - DEPE
  14  2,2  - ELB
- 14  5,5  - EPA
  14  5,7  - EPA
- 14  5,5  - EPE
  14  5,7  - EPE
  14  4,6  | KED
  14  1,2  - PAL
@@ -314,10 +298,8 @@
  13  5,5  - DEW
  13  5,7  - DEW
  13  5,5  - PA
- 13  6,5  - PAD
  13  6,7  - PAD
  13  5,5  - PE
- 13  6,5  - PED
  13  6,7  - PED
  13  5,3  | PEDEE
  13  3,7  - RAD
@@ -343,15 +325,10 @@
  12  3,2  - LEDE
  12  3,2  - LEED
  12  2,1  - PAWED
- 12  6,5  - PD
- 12  6,7  - PD
- 12  6,5  - PEA
  12  6,7  - PEA
- 12  6,5  - PEE
  12  6,7  - PEE
  12  5,2  | PEWEE
  12  5,5  | PEWEE
- 12  2,2  - PL
  12  1,10 - RAB
  12  1,10 - RAP
  12  1,10 - RAW
@@ -374,10 +351,8 @@
  11  6,3  | BEADED
  11  6,4  | BEDEAD
  11  4,6  | KEA
- 11  6,5  - PA
  11  6,7  - PA
  11  2,4  - PAD
- 11  6,5  - PE
  11  6,7  - PE
  11  1,9  - TAPE
  11  1,9  - TEPA
@@ -433,7 +408,6 @@
  10  5,4  | WEEP
  10  5,5  | WEEP
  10  3,3  - cAPE
- 10  3,3  - cEPA
  10  3,3  - cEPE
   9  3,1  - ABEDE
   9  6,3  | ABEDE
@@ -645,8 +619,6 @@
   6  2,3  - EcAD
   6  2,6  | LA
   6  3,2  - LB
-  6  3,2  - LP
-  6  6,5  | PD
   6  1,4  - PEA
   6  5,5  | PEA
   6  5,4  | PEE
@@ -665,7 +637,6 @@
   6  5,5  | WEE
   6  3,3  - cADE
   6  3,3  - cEDE
-  6  3,3  - cPA
   5  3,1  - AB
   5  6,4  | ADD
   5  6,5  | ADD
@@ -689,7 +660,6 @@
   5  2,4  - PA
   5  5,5  | PE
   5  5,5  | WE
-  5  1,11 - YD
   5  3,3  - cAD
   4  3,4  - AA
   4  3,1  - ADA

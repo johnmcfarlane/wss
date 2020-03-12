@@ -81,6 +81,7 @@
  17  5,4  - ALIMA
  17  5,4  - ALOMA
  17  5,6  | AMRITA
+ 17  7,6  | AMRITA
  17  2,4  - ARMIL
  17  5,4  - ILAMA
  17  6,4  - LAMIA
@@ -100,19 +101,24 @@
  16  6,6  - AMARA
  16  5,6  | AMATI
  16  6,6  - AMATI
+ 16  7,6  | AMATI
  16  2,2  - AMIAS
  16  3,4  - AMIL
  16  2,2  - AMIRS
  16  2,6  - AMITA
  16  5,6  | AMITA
  16  6,6  - AMITA
+ 16  7,6  | AMITA
  16  2,6  - AMORA
  16  5,6  | AMORA
  16  6,6  - AMORA
+ 16  7,6  | AMORA
  16  5,6  | AMORT
  16  6,6  - AMORT
+ 16  7,6  | AMORT
  16  5,6  | AMRIT
  16  6,6  - AMRIT
+ 16  7,6  | AMRIT
  16  6,6  - ARMIT
  16  2,6  - AROMA
  16  5,6  | AROMA
@@ -185,12 +191,18 @@
  16  2,2  - TRAMS
  16  2,2  - TRIMS
  15  5,6  | AMAR
+ 15  7,6  | AMAR
  15  5,6  | AMIA
+ 15  7,6  | AMIA
  15  5,6  | AMIR
+ 15  7,6  | AMIR
  15  5,6  | AMIT
+ 15  7,6  | AMIT
  15  2,3  - AMITY
  15  5,6  | AMOR
+ 15  7,6  | AMOR
  15  5,6  | AMRA
+ 15  7,6  | AMRA
  15  2,3  - ATIMY
  15  5,6  | ATOM
  15  7,6  | ATOM
@@ -236,24 +248,33 @@
  14  7,2  | IAO
  14  5,1  | MAO
  14  5,7  | MAORI
+ 14  7,7  | MAORI
  14  2,5  - MARAVI
  14  5,7  | MARIA
+ 14  7,7  | MARIA
  14  5,7  | MARIO
+ 14  7,7  | MARIO
  14  3,3  - MARY
  14  5,7  | MATAI
+ 14  7,7  | MATAI
  14  5,7  | MATAR
+ 14  7,7  | MATAR
  14  5,7  | MATRA
+ 14  7,7  | MATRA
  14  3,3  - MATY
  14  5,1  | MIA
  14  7,1  | MIA
  14  3,3  - MIRY
  14  5,7  | MITRA
+ 14  7,7  | MITRA
  14  3,3  - MITY
  14  5,1  | MOA
  14  7,1  | MOA
  14  7,1  | MOI
  14  5,7  | MOIRA
+ 14  7,7  | MOIRA
  14  5,7  | MORAT
+ 14  7,7  | MORAT
  14  5,3  - MYRA
  14  5,3  - MYRT
  14  5,7  | RAMTA
@@ -269,44 +290,66 @@
  14  6,3  - YIRM
  13  1,7  - AIMORE
  13  5,6  | AMA
+ 13  7,6  | AMA
  13  5,6  | AMI
+ 13  7,6  | AMI
  13  2,7  - AMORET
  13  5,6  | AMT
+ 13  7,6  | AMT
  13  5,6  | ARMIT
  13  7,6  | ARMIT
  13  5,7  | ATMA
  13  5,7  | ATMO
+ 13  7,6  | IMA
  13  2,7  - IMARET
  13  5,7  | MAAR
+ 13  7,7  | MAAR
  13  5,7  | MAAT
+ 13  7,7  | MAAT
  13  5,7  | MAIA
+ 13  7,7  | MAIA
  13  5,7  | MAIR
+ 13  7,7  | MAIR
  13  5,6  | MAO
  13  5,6  | MAR
  13  5,7  | MARA
+ 13  7,7  | MARA
  13  5,7  | MARI
+ 13  7,7  | MARI
  13  1,4  - MARIOLA
  13  5,7  | MARO
+ 13  7,7  | MARO
  13  5,7  | MART
+ 13  7,7  | MART
  13  5,6  | MAT
  13  5,7  | MIAO
+ 13  7,7  | MIAO
  13  5,7  | MIRA
+ 13  7,7  | MIRA
  13  5,7  | MIRO
+ 13  7,7  | MIRO
  13  5,6  | MOA
  13  7,6  | MOA
  13  5,7  | MOAI
+ 13  7,7  | MOAI
  13  5,7  | MOAT
+ 13  7,7  | MOAT
  13  5,6  | MOI
  13  7,6  | MOI
  13  5,7  | MOIR
+ 13  7,7  | MOIR
  13  5,7  | MOIT
+ 13  7,7  | MOIT
  13  5,6  | MOR
  13  7,6  | MOR
  13  5,7  | MORA
+ 13  7,7  | MORA
  13  5,7  | MORT
+ 13  7,7  | MORT
  13  5,6  | MOT
  13  7,6  | MOT
  13  5,7  | MOTA
+ 13  7,7  | MOTA
  13  5,3  - MYA
  13  5,7  | RAMA
  13  7,7  | RAMA
@@ -331,6 +374,7 @@
  12  5,7  | AIM
  12  5,4  - ALMIRA
  12  5,6  | AM
+ 12  7,6  | AM
  12  2,7  - AMATE
  12  1,4  - AMATOL
  12  1,4  - AMIRAL
@@ -354,28 +398,38 @@
  12  7,6  | ITMO
  12  5,6  | MA
  12  5,7  | MAO
+ 12  7,7  | MAO
  12  5,7  | MAR
+ 12  7,7  | MAR
  12  2,3  - MARAY
  12  2,3  - MARTY
  12  5,7  | MAT
+ 12  7,7  | MAT
  12  3,7  - MATER
  12  1,4  - MATRAL
  12  4,3  - MAYOR
  12  5,7  | MIA
+ 12  7,7  | MIA
  12  5,7  | MIR
+ 12  7,7  | MIR
  12  5,7  | MIT
+ 12  7,7  | MIT
  12  3,7  - MITER
  12  1,4  - MITRAL
  12  5,6  | MO
  12  7,6  | MO
  12  5,7  | MOA
+ 12  7,7  | MOA
  12  5,7  | MOI
+ 12  7,7  | MOI
  12  3,7  - MOIER
  12  2,3  - MOITY
  12  5,7  | MOR
+ 12  7,7  | MOR
  12  2,3  - MORAY
  12  1,4  - MORTAL
  12  5,7  | MOT
+ 12  7,7  | MOT
  12  3,7  - MOTER
  12  3,7  - MTIER
  12  5,2  - OSTARA
@@ -504,15 +558,18 @@
  10  2,2  - IOTAS
  10  6,4  - LOAM
  10  5,7  | MA
+ 10  7,7  | MA
  10  3,4  - MAIL
  10  1,7  - MAITRE
  10  2,7  - MARIET
  10  3,4  - MARL
  10  5,7  - METRIA
  10  5,7  | MI
+ 10  7,7  | MI
  10  3,2  - MIASTOR
  10  1,7  - MIRATE
  10  5,7  | MO
+ 10  7,7  | MO
  10  3,4  - MOIL
  10  2,7  - MORAEA
  10  1,7  - MORATE
@@ -1086,6 +1143,7 @@
   5  5,2  - ASTIR
   5  5,2  - ASTOR
   5  5,3  - AY
+  5  6,7  - EM
   5  6,7  - ERAT
   5  6,7  - ERIA
   5  3,7  - IARE
@@ -1127,7 +1185,6 @@
   4  6,6  - AIRT
   4  3,2  - AITS
   4  5,4  - ALA
-  4  5,4  - ALO
   4  5,4  - ALT
   4  5,7  | AR
   4  4,7  - AREA

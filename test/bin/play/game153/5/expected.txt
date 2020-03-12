@@ -14,6 +14,7 @@
  32  3,11 - ROMAL
  31  4,9  - AQUO
  31  3,11 - MOLAR
+ 30  7,11 - MUSAL
  30  5,9  - QUA
  30  2,2  | QUAD
  30  5,9  - QUO
@@ -24,6 +25,8 @@
  29  3,11 - ULMO
  28  7,9  - MAE
  27  4,9  - ALUM
+ 27  5,11 - LAMUS
+ 27  7,11 - MUSAR
  27  7,11 - RUSMA
  26  3,11 - LOMA
  26  5,9  - LUM
@@ -31,6 +34,8 @@
  26  3,11 - MOLA
  26  3,11 - MURA
  26  9,2  | QUA
+ 26  5,11 - RAMUS
+ 25  6,11 - AMUS
  25  4,9  - ARUM
  25  9,9  - EMU
  25  5,11 - MALUS
@@ -42,7 +47,8 @@
  24  4,9  - LOAM
  24  7,5  | MIAULER
  24  5,4  - MURZA
- 24  5,3  | QUOS
+ 24  7,11 - MUSA
+ 24  4,11 - QUAM
  24  5,9  - RUM
  23  2,11 - ARULO
  23  9,9  - ELM
@@ -54,6 +60,7 @@
  22  9,9  - EMO
  22  4,5  | JORUM
  22  2,1  | MOULD
+ 22  7,11 - MUS
  22  4,9  - QUAR
  22  5,9  - RAM
  22  6,9  - UM
@@ -68,11 +75,11 @@
  19  4,5  | JORAM
  19  4,5  | JOUL
  19  4,3  | MAJOR
- 19  7,9  | MEQ
  19  7,5  | MILA
  19  7,5  | MILO
  19  1,7  - QUA
  19  7,8  | QUEM
+ 19 10,7  | RAMa
  18  3,9  - AMOUR
  18  4,5  | JOUAL
  18  4,3  | MAJO
@@ -124,11 +131,13 @@
  15  4,9  - ALUR
  15  2,4  - AM
  15 10,7  | AURa
+ 15  4,11 - LOAM
  15  1,4  - MAL
  15  3,4  | MODULA
  15  3,4  | MODULO
  15  1,4  - MOL
  15  3,9  - MURA
+ 15  4,11 - OLAM
  15  2,4  - OM
  15  9,2  | ORA
  15  4,11 - QUA
@@ -136,10 +145,10 @@
  15  4,11 - QUO
  15  9,11 - SAM
  15  9,11 - SML
- 15  8,11 - USA
  14  4,9  - AMU
  14  2,2  | AULD
  14  9,9  - ELA
+ 14  5,11 - LAM
  14  2,2  | LAUD
  14  4,9  - LAUR
  14  2,2  | LOUD
@@ -148,7 +157,9 @@
  14  5,9  - LUR
  14  3,2  | MALODOR
  14  3,9  - MORA
+ 14  4,11 - ROAM
  14  6,6  | sQUAT
+ 13 10,8  | AMa
  13  9,9  - EAU
  13  6,4  - LAZ
  13  7,5  | LIAR
@@ -156,10 +167,13 @@
  13  1,4  - MAR
  13  1,4  - MOR
  13  5,9  - MU
+ 13  5,11 - RAM
+ 13  5,11 - ROM
  13  8,11 - US
  13  8,10 | XU
  12  7,5  | AIL
  12  2,2  | ALOD
+ 12  6,11 - AM
  12  7,8  | AMEL
  12  7,4  - AZO
  12  5,9  - LAO
@@ -174,6 +188,8 @@
  12  3,3  | MOOD
  12  5,3  | MOOSA
  12  5,4  - MU
+ 12 10,9  | MaO
+ 12  6,11 - OM
  12  5,9  - OUR
  12  6,8  | QAT
  12  6,9  | QTR
@@ -238,12 +254,12 @@
  10  4,11 - ORAL
  10  2,2  | ROAD
  10  1,7  - RUA
- 10  6,9  - UR
  10  1,7  - URA
  10  8,7  - YELM
   9 10,8  | ALa
   9  2,4  - AR
   9  5,2  | AULOS
+  9  9,9  - EM
   9  2,7  - LA
   9  4,9  - LOU
   9  5,9  - LU
@@ -252,6 +268,7 @@
   9  4,9  - MOA
   9  3,4  | MODO
   9  5,4  | MOSUR
+  9 10,9  | Ma
   9  3,5  | ODOUR
   9 10,8  | OLa
   9  2,4  - OR
@@ -321,7 +338,6 @@
   7  4,9  - URA
   7  6,6  | sMART
   6  7,8  | ALE
-  6  4,11 - ALO
   6  6,8  | AMT
   6  6,11 - AR
   6  6,9  | ATM
@@ -365,6 +381,7 @@
   5  2,3  | AUD
   5  6,8  | AUTO
   5  9,9  - EL
+  5  7,10 | EM
   5  5,11 - LA
   5  2,3  | LAD
   5  5,11 - LO
@@ -380,7 +397,6 @@
   5  2,3  | OLD
   5  5,4  - OR
   5  4,11 - ORA
-  5  5,5  | OSLO
   5  2,3  | OUD
   5  6,8  | OUTR
   5  7,9  | REL

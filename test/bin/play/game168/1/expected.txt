@@ -9,7 +9,7 @@
  33  3,6  | ASTELY
  30  3,6  | ATELES
  28  2,5  - SLEETY
- 26  1,5  - SELETY
+ 28  5,5  - STYLE
  26  7,7  - STYLE
  26  3,5  - YELT
  25  7,5  - SLY
@@ -34,8 +34,8 @@
  22  6,6  | DEVEST
  22  4,2  | LEVELS
  22  4,6  | LEVELS
+ 22  8,5  - LEVY
  22  2,5  - LYES
- 22  3,7  - SLEY
  22  8,7  - SYL
  22  3,2  | SYLVAE
  22  8,7  - TYEE
@@ -64,13 +64,13 @@
  20  4,7  - LEETS
  20  3,5  - LESE
  20  3,5  - LEST
+ 20  8,5  - LEVE
  20  3,5  - LEY
- 20  4,5  - LEYS
- 20  4,7  - LEYS
  20  4,5  - LYES
  20  4,7  - LYES
  20  3,5  | SAVEY
  20  1,7  - SEELY
+ 20  7,5  - SLEY
  20  6,1  | SLEYED
  20  6,1  | STYLED
  20  8,5  | SUEVE
@@ -83,8 +83,11 @@
  20  3,5  - YES
  20  3,5  - YET
  19  2,7  - EELY
+ 19  8,5  - LEV
  19  4,6  | LEVE
  19  2,5  - LYE
+ 19  7,5  - SLEET
+ 19  7,5  - SLETE
  19  2,5  - STELE
  19  1,5  - STYE
  19  3,5  | VALETS
@@ -98,10 +101,12 @@
  18  3,4  | LEAVES
  18  3,4  | LEAVY
  18  4,6  | LEV
+ 18  8,5  - LEYS
  18  6,2  | LYSED
  18  3,5  | SALVY
  18  8,7  - SEVE
  18  3,3  | SLEAVE
+ 18  7,5  - SLEE
  18  3,7  - SLEE
  18  3,7  - SLY
  18  7,7  - STEEL
@@ -124,8 +129,7 @@
  18  9,5  - YET
  18  9,7  - YET
  17  6,5  - EYL
- 17  4,5  - LEY
- 17  4,7  - LEY
+ 17  8,5  - LEY
  17  4,5  - LYE
  17  4,7  - LYE
  17  3,4  | SEAVY
@@ -149,16 +153,20 @@
  16  3,4  | LEAVE
  16  3,5  - LEE
  16  4,5  - LEES
+ 16  8,5  - LEES
  16  4,7  - LEES
  16  4,5  - LEET
+ 16  8,5  - LEET
  16  4,7  - LEET
+ 16  8,5  - LESE
+ 16  8,5  - LEST
  16  3,5  - LET
  16  4,5  - LETS
+ 16  8,5  - LETS
  16  3,3  | LEVA
  16  1,5  - LEY
  16  5,5  - LEY
  16  1,7  - LEY
- 16  5,5  - LYS
  16  9,3  | SEEMLY
  16  3,2  | SELVA
  16  3,4  | SLAV
@@ -176,12 +184,13 @@
  15  2,7  - EELS
  15  9,4  | ELMY
  15  1,5  - ETY
- 15  4,5  - ETY
  15  1,7  - ETY
  15  3,4  | EVASE
  15  3,4  | EYALET
  15  4,5  - EYE
  15  3,5  | LAV
+ 15  8,5  - LEE
+ 15  8,5  - LET
  15  7,3  | LEVITY
  15  7,2  | LEVYIST
  15  5,5  | LOVEY
@@ -217,6 +226,7 @@
  14  3,7  - ELS
  14  8,4  | ETUVE
  14  5,5  - ETY
+ 14  9,5  - EVE
  14  9,7  - EVE
  14  3,5  | LASTY
  14  6,2  | LESED
@@ -238,7 +248,6 @@
  14  5,3  | VELO
  14  3,3  | VETA
  14  7,3  | VLEI
- 14  7,3  | VLSI
  14  4,4  | YELL
  14  5,5  - YES
  14  5,7  - YES
@@ -251,6 +260,7 @@
  13  8,5  | EUSTYLE
  13  7,4  | EVILEST
  13  1,5  - EYL
+ 13  9,5  - EYL
  13  1,7  - EYL
  13  9,7  - EYL
  13  4,5  - LEE
@@ -287,8 +297,10 @@
  12  2,7  - EEL
  12  8,4  | ELUTES
  12  4,5  | ELVES
+ 12  9,5  - ETY
  12  9,7  - ETY
  12  3,4  | EVA
+ 12  9,5  - EYE
  12  9,7  - EYE
  12  3,5  | LAYS
  12  3,2  | LESYA
@@ -296,6 +308,7 @@
  12  7,3  | LEVIS
  12  4,6  | LEY
  12  7,5  | LIVEST
+ 12  8,5  | LUVS
  12  3,4  | LYASE
  12  9,4  | LYM
  12  3,5  | SAYEE
@@ -318,13 +331,16 @@
  11  3,6  | ASYLE
  11  3,6  | ATELY
  11  1,5  - EEL
+ 11  9,5  - EEL
  11  1,7  - EEL
  11  9,7  - EEL
  11  3,7  - EL
  11  3,4  | ELATES
  11  8,3  | ELEUT
  11  9,4  | ELMS
+ 11  9,5  - ELS
  11  9,7  - ELS
+ 11  9,5  - ELT
  11  9,7  - ELT
  11  8,4  | ELUTE
  11  4,5  | ELVE
@@ -349,7 +365,6 @@
  11  9,6  | MELTS
  11  9,6  | MESEL
  11  9,6  | METEL
- 11  9,6  | MEV
  11  5,6  | OYELET
  11  3,5  | SALTEE
  11  3,4  | SEALET
@@ -390,16 +405,18 @@
  10  3,6  | AYES
  10  3,5  | EASEL
  10  2,5  - EL
+ 10  9,5  - EL
  10  2,7  - EL
  10  9,7  - EL
  10  9,3  | ELEM
+ 10  9,5  - ESE
  10  9,7  - ESE
+ 10  9,5  - EST
  10  9,7  - EST
  10  3,3  | EVEA
  10  7,4  | EVILS
  10  3,4  | EYAS
  10  9,4  | LEME
- 10  7,3  | LESIY
  10  1,7  - LYE
  10  1,7  - LYS
  10  9,6  | MEETS
@@ -443,13 +460,16 @@
  10  8,5  | YULE
   9  6,6  | DEVE
   9  6,6  | DEVS
+  9  9,5  - EE
   9  9,7  - EE
   9  4,4  | EELY
   9  4,5  - EL
   9  3,4  | ELATE
   9  9,4  | ELM
   9  9,5  | EMES
+  9  9,5  - ES
   9  9,7  - ES
+  9  9,5  - ET
   9  9,7  - ET
   9  7,4  | EVIL
   9  7,4  | EVITE
@@ -691,6 +711,7 @@
   6  3,4  | ELA
   6  6,4  | ELDS
   6  7,4  | ELITE
+  6  9,5  | EM
   6  2,7  - ES
   6  8,4  | ESU
   6  2,5  - ET
@@ -739,7 +760,6 @@
   5  3,6  | AL
   5  6,6  | DEES
   5  6,6  | DEL
-  5  6,6  | DY
   5  3,5  | EAT
   5  6,4  | ELD
   5  4,5  | ELL
@@ -781,7 +801,6 @@
   5  7,5  | TILS
   5  5,5  | TOLE
   5  5,5  | TOY
-  5  6,5  | YD
   5  7,5  | YIS
   5  5,5  | YOT
   4  3,6  | AES
@@ -790,12 +809,10 @@
   4  3,6  | AST
   4  3,6  | ATE
   4  6,6  | DEE
-  4  6,6  | DES
   4  6,6  | DET
   4  7,4  | ELI
   4  4,5  | ELS
   4  4,5  | ELT
-  4  6,4  | ESD
   4  3,4  | ETA
   4  7,6  | ILE
   4  7,6  | ISL

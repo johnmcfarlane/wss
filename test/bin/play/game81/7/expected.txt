@@ -14,13 +14,10 @@
  26  9,3  | QI
  25  7,1  | QASIDA
  24  1,8  | DISP
- 23  6,5  - ADESTE
  23  9,9  | DEA
  23  9,9  | DEE
  23  9,9  | DEI
- 23  9,9  | DES
  23  9,9  | DET
- 23  3,5  - IDEATES
  23 10,9  | QRS
  22  3,9  | QTR
  21  1,9  | ADP
@@ -40,15 +37,14 @@
  21  6,9  - TEED
  21  6,9  - TIED
  20  1,10 - DAE
- 20  5,5  - DATES
  20  6,1  | DATISM
  20  9,11 - DE
  20  1,10 - DEA
+ 20  6,5  - EDEA
  20  9,4  | TEWS
  19  6,9  - DIET
  19  4,4  - SAQIB
  18  1,9  | ASP
- 18  6,5  - ATES
  18  6,2  | DEISM
  18  1,9  | ESP
  18  8,2  - SADO
@@ -94,7 +90,6 @@
  15 10,8  | EARS
  15  7,1  | IDEATA
  15  3,5  - IDEATE
- 15  6,6  | MEQ
  15  7,3  | SATAI
  15  5,2  - SATED
  15  9,9  | SEA
@@ -119,7 +114,6 @@
  14  7,5  - DEA
  14  7,5  - DEE
  14  6,9  - DEE
- 14  7,5  - DES
  14  6,9  - DIE
  14  7,3  | DITA
  14  7,7  - DOE
@@ -128,6 +122,7 @@
  14  5,2  - IDETA
  14  7,7  - IOTA
  14  5,2  - SADIE
+ 14  1,5  - SADITE
  14  1,7  - SADITE
  14  7,3  | SIDA
  14  5,2  - STADE
@@ -152,6 +147,7 @@
  13  6,2  - SATD
  13  6,2  - SEID
  13  6,2  - STAD
+ 13  1,5  - STADIE
  13  1,7  - STADIE
  13  6,2  - STID
  13  5,5  - TADE
@@ -160,16 +156,18 @@
  12 10,1  | AD
  12  7,4  | ADA
  12  6,7  - ADO
- 12  7,5  - AES
  12  7,9  - AET
  12  6,2  - AIDE
+ 12  2,5  - ASIDE
  12  2,7  - ASIDE
  12  2,7  | ASIDE
  12  6,2  - DASE
+ 12  3,5  - DASE
  12  3,7  - DASE
  12  6,2  - DASI
  12  3,7  - DASI
  12  6,2  - DATE
+ 12  3,5  - DATE
  12  5,5  - DATE
  12  3,7  - DATE
  12  5,7  - DATO
@@ -188,17 +186,18 @@
  12  3,5  - DITA
  12  3,7  - DITA
  12  6,2  - DITE
+ 12  3,5  - DITE
  12  3,7  - DITE
  12 10,2  - DO
  12  7,1  | EADI
  12  6,2  - EADI
  12  6,7  - EDO
  12  9,2  - IAO
- 12  7,4  | IDA
  12  6,2  - IDEA
  12  6,2  - SADE
  12  7,1  | SADI
  12  6,2  - SADI
+ 12  2,5  - SADIE
  12  2,7  - SADIE
  12  2,7  | SADIE
  12  6,9  - SAE
@@ -213,6 +212,7 @@
  12  7,3  | SITA
  12  7,7  - SOE
  12  7,7  - SOT
+ 12  2,5  - STADE
  12  2,7  - STADE
  12  2,7  | STADE
  12  3,5  | STAIDER
@@ -231,10 +231,12 @@
  12  6,2  - TIDE
  12  6,9  - TIE
  12  7,7  - TOE
+ 12  2,5  - TSADE
  12  2,7  - TSADE
  12  2,7  | TSADE
  12  2,7  - TSADI
  12 10,6  | aDA
+ 11  3,5  - AIDE
  11  3,7  - AIDE
  11  7,1  | DASI
  11  7,1  | DEIA
@@ -243,25 +245,30 @@
  11  7,1  | DISA
  11  7,1  | DITA
  11  3,7  - EADI
- 11  7,2  | IDA
  11  7,1  | IDEA
  11  3,5  - IDEA
  11  3,7  - IDEA
  11  6,6  | MAIDAN
  11  6,6  | MEDIAN
  11  8,7  - OES
+ 11  3,5  - SADE
  11  3,7  - SADE
  11  3,7  - SADI
+ 11  2,5  - SAITE
  11  2,7  - SAITE
  11  5,5  - SATE
  11  3,5  - SIDA
  11  3,7  - SIDA
+ 11  3,5  - SIDE
  11  3,7  - SIDE
+ 11  3,5  - TADE
  11  3,7  - TADE
+ 11  2,5  - TAISE
  11  2,7  - TAISE
  11  3,5  - TEDA
  11  3,7  - TEDA
  11  5,7  - TIAO
+ 11  3,5  - TIDE
  11  3,7  - TIDE
  11 10,6  | aSA
  11 10,6  | aSE
@@ -299,6 +306,7 @@
  10  2,8  | SADE
  10  2,7  | SAITE
  10  6,2  - SATE
+ 10  3,5  - SATE
  10  3,7  - SATE
  10  7,1  | SATI
  10  6,2  - SATI
@@ -314,6 +322,7 @@
  10  3,5  - SITA
  10  3,7  - SITA
  10  6,2  - SITE
+ 10  3,5  - SITE
  10  3,7  - SITE
  10  3,6  | STADER
  10  2,10 - TA
@@ -341,6 +350,7 @@
   9  7,2  | ATI
   9  6,4  | ATMID
   9 10,8  - AX
+  9  4,5  - DAE
   9  7,5  | DAE
   9  4,7  - DAE
   9  6,4  | DAMES
@@ -361,6 +371,7 @@
   9  6,8  - DEVS
   9  4,5  - DIA
   9  4,7  - DIA
+  9  4,5  - DIE
   9  4,7  - DIE
   9  6,4  | DIMES
   9  6,3  | DISME
@@ -372,12 +383,10 @@
   9  7,5  | EAD
   9  9,10 | ED
   9  8,5  - EE
-  9  8,5  - ES
   9  7,2  | ETA
   9  9,5  | EW
   9 10,8  - EX
-  9  4,5  - IDA
-  9  4,7  - IDA
+  9  4,5  - IDE
   9  4,7  - IDE
   9  7,2  | ITA
   9  8,7  - OE
@@ -390,7 +399,6 @@
   9  7,2  | STA
   9  5,8  - STAVE
   9  5,8  - STIVE
-  9  9,5  | SW
   9  7,5  | TAD
   9  7,2  | TAI
   9  6,4  | TAMED
@@ -408,9 +416,11 @@
   8  6,5  | AMDT
   8  6,5  | AMID
   8 10,1  | AS
+  8  4,5  - ASE
   8  4,7  - ASE
   8 10,1  | AT
   8  9,3  | AT
+  8  4,5  - ATE
   8  4,7  - ATE
   8  4,7  - ATI
   8  8,4  - BAEL
@@ -422,6 +432,7 @@
   8  2,9  | DAE
   8  6,4  | DAME
   8  6,4  | DAMS
+  8  5,5  - DE
   8  5,7  - DE
   8  6,4  - DEBI
   8  6,4  - DEBS
@@ -449,11 +460,13 @@
   8  2,9  | IDE
   8  6,3  | IDEM
   8 10,2  - IO
+  8  4,5  - ISE
   8  4,7  - ISE
   8  9,3  | IT
   8  4,5  - ITA
   8  4,7  - ITA
   8  6,3  | ITEMS
+  8  4,5  - SAE
   8  4,7  - SAE
   8  4,7  - SAI
   8  2,8  | SATE
@@ -465,6 +478,7 @@
   8  9,3  | SI
   8  4,5  - SIA
   8  4,7  - SIA
+  8  4,5  - SIE
   8  4,7  - SIE
   8  2,8  | SITE
   8 10,2  - SO
@@ -475,6 +489,7 @@
   8  6,3  | STIME
   8  7,3  | TA
   8  9,3  | TA
+  8  4,5  - TAE
   8  4,7  - TAE
   8  4,7  - TAI
   8  6,4  | TAMES
@@ -487,12 +502,14 @@
   8  6,3  | TEAMS
   8  7,3  | TI
   8  9,3  | TI
+  8  4,5  - TIE
   8  4,7  - TIE
   8  6,4  | TIMES
   8 10,2  - TO
   7  7,5  | AAS
   7  7,4  - ABD
   7  6,4  | ADM
+  7  5,5  - AE
   7  5,7  - AE
   7  7,9  - AE
   7  3,7  | AESIR
@@ -519,7 +536,6 @@
   7  7,9  - EE
   7  6,5  | EMIT
   7  7,9  | EN
-  7  7,2  - ESD
   7 10,4  | ETa
   7  7,8  - EVA
   7  6,4  - ISBA
@@ -530,7 +546,6 @@
   7  6,6  | MAD
   7  6,6  | MED
   7  6,6  | MID
-  7  6,6  | MTD
   7  6,4  - SABE
   7  7,2  - SAD
   7  6,3  | SAIM
@@ -566,6 +581,7 @@
   7  6,4  | TAMS
   7  7,5  | TAS
   7  6,8  - TAV
+  7  5,5  - TE
   7  5,7  - TE
   7  6,3  | TEAM
   7  7,2  - TED
@@ -620,7 +636,6 @@
   6  9,10 | ET
   6  7,4  - IBA
   6  8,2  - ID
-  6  7,2  - IDA
   6  7,2  - IDE
   6  6,5  | IMA
   6  2,9  | ISE
@@ -680,6 +695,7 @@
   5  8,2  - DI
   5 10,5  | Da
   5  9,3  - EAU
+  5  6,5  | EM
   5  9,3  - ESU
   5  7,2  - ETA
   5 10,5  | EaD

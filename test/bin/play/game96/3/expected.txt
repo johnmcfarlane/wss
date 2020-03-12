@@ -7,14 +7,11 @@
  39  3,1  | AUTEM
  38  9,3  - AMU
  38  9,3  - IMU
- 36  9,3  - ADM
  36  9,1  | AKIM
  36  3,1  | MUTED
  35  9,3  - AMA
  35  9,3  - AMI
  35  9,3  - IMA
- 33  8,3  - AIDE
- 33  8,3  - EADI
  33  3,1  | MATED
  33  3,1  | METAD
  32  9,3  - AAM
@@ -24,10 +21,8 @@
  30  3,1  | MITUA
  28  3,4  - AM
  28  2,3  | CAMAIEU
- 27  9,3  - ADA
+ 28  3,4  - EM
  27  9,1  | AKIA
- 27  9,3  - IDA
- 27  9,3  - IDE
  27  3,1  | MATAI
  27  3,1  | MATIE
  27  9,1  | UKE
@@ -60,14 +55,12 @@
  21  3,1  | MITE
  21  3,1  | MUT
  20  2,2  | ACME
- 20  8,3  - AID
  20  9,3  - AM
  20  2,3  | CAAM
  20  2,3  | CADUA
  20  2,3  | CAME
  20  2,3  | CAUDA
  20  2,3  | CIMA
- 20  8,3  - EAD
  20  2,1  | IDCUE
  20  2,1  | MACE
  20  1,6  - MEDIAE
@@ -78,6 +71,7 @@
  20  8,2  | NUMIDA
  20  3,3  | TEMADAU
  19 10,3  - AM
+ 19 10,3  - EM
  19  5,5  | MAIDU
  19  8,2  | NUMDA
  19  5,3  | VAAD
@@ -112,11 +106,11 @@
  17  8,1  | ANIME
  17  4,2  | DAMIA
  17  4,2  | DAMIE
- 17 10,3  - DU
  17  8,1  | ENAMI
  17  5,5  | MADIA
  17  5,5  | MAIDA
  17  5,6  | MAIDU
+ 17  7,6  | MAIDU
  17  5,5  | MEDIA
  17 10,1  - MU
  17  8,2  | NUMA
@@ -125,7 +119,6 @@
  16  2,2  | ACAD
  16  2,2  | ACED
  16  2,2  | ACID
- 16  9,3  - AD
  16  3,4  - AD
  16  4,1  | ADAM
  16  2,1  | AECIA
@@ -151,13 +144,15 @@
  16  4,1  | EDAM
  16  8,1  | ENAM
  16  2,2  | ICED
- 16  9,3  - ID
  16  3,4  - ID
  16  5,6  | MAIDA
+ 16  7,6  | MAIDA
  16  3,5  - MAIIDAE
  16  5,5  | MAUD
  16  5,6  | MAUD
+ 16  7,6  | MAUD
  16  5,6  | MUID
+ 16  7,6  | MUID
  16  8,2  | NAMA
  16  8,2  | NAME
  16  8,2  | NEMA
@@ -184,16 +179,22 @@
  15  3,1  | DITE
  15  5,5  | MAAD
  15  5,6  | MAAD
+ 15  7,6  | MAAD
  15  5,5  | MADE
  15  5,5  | MADI
  15  5,6  | MADIA
+ 15  7,6  | MADIA
  15  5,5  | MAED
  15  5,6  | MAED
+ 15  7,6  | MAED
  15  5,5  | MAID
  15  5,6  | MAID
+ 15  7,6  | MAID
  15  5,5  | MEAD
  15  5,6  | MEAD
+ 15  7,6  | MEAD
  15  5,6  | MEDIA
+ 15  7,6  | MEDIA
  15  7,1  - MU
  15  8,2  | NAM
  15  8,2  | NIM
@@ -213,10 +214,7 @@
  14  5,5  | AMIA
  14  5,5  | AMIE
  14  5,5  | AMU
- 14 10,3  - DA
  14  2,2  | DCA
- 14 10,3  - DE
- 14 10,3  - DI
  14  1,1  | DUOMI
  14  4,2  | EAM
  14  2,2  | ECU
@@ -225,7 +223,9 @@
  14 10,1  - MA
  14  5,5  | MAD
  14  5,6  | MADE
+ 14  7,6  | MADE
  14  5,6  | MADI
+ 14  7,6  | MADI
  14  5,5  | MAIA
  14  1,1  | MAO
  14  5,5  | MAU
@@ -235,6 +235,7 @@
  14  5,5  | MEU
  14 10,1  - MI
  14  5,6  | MIDE
+ 14  7,6  | MIDE
  14  8,2  | NEUMA
  14  2,2  | UCA
  14  3,2  - UM
@@ -245,7 +246,6 @@
  13  5,5  | ADAM
  13  5,5  | ADMI
  13  8,3  - AI
- 13  7,1  - AM
  13  4,3  | AM
  13  5,5  | AMA
  13  4,1  | AMADI
@@ -262,7 +262,6 @@
  13  7,6  | DAMIE
  13  5,5  | DEMI
  13  7,5  | DEMI
- 13 10,1  - DU
  13  5,6  | DUMA
  13  7,6  | DUMA
  13 10,3  - ED
@@ -276,6 +275,7 @@
  13  3,5  - MADIA
  13  5,5  | MAE
  13  5,6  | MAIA
+ 13  7,6  | MAIA
  13  3,5  - MAIID
  13  4,2  | MAUD
  13  7,1  - ME
@@ -284,7 +284,9 @@
  13  3,5  - MEDII
  13  7,1  - MI
  13  5,6  | MIAE
+ 13  7,6  | MIAE
  13  5,6  | MUD
+ 13  7,6  | MUD
  13  8,2  | NEUM
  13  1,1  | UDOM
  13  8,1  | UNDAM
@@ -319,6 +321,7 @@
  12  5,6  | DIME
  12  7,6  | DIME
  12  3,1  | DIT
+ 12  3,2  - EM
  12  2,2  | ICE
  12  6,5  - IDEM
  12  8,1  | INDUE
@@ -328,17 +331,22 @@
  12  5,5  | MA
  12  4,1  | MAAD
  12  5,6  | MAD
+ 12  7,6  | MAD
  12  4,2  | MADE
  12  4,2  | MADI
  12  3,5  - MADI
  12  4,2  | MAIDU
  12  4,5  - MAIIDAE
  12  5,6  | MAU
+ 12  7,6  | MAU
  12  5,5  | ME
  12  4,1  | MEAD
  12  5,6  | MED
+ 12  7,6  | MED
  12  5,6  | MEU
+ 12  7,6  | MEU
  12  5,6  | MID
+ 12  7,6  | MID
  12  3,5  - MIDI
  12  8,2  | NUDIE
  12  3,3  | TUME
@@ -373,14 +381,18 @@
  11  9,2  | KIM
  11  4,2  | MAD
  11  5,6  | MAE
+ 11  7,6  | MAE
  11  4,2  | MAIDA
  11  2,5  - MAIDIE
  11  4,5  - MAIDIE
  11  4,2  | MAU
  11  5,6  | MEA
+ 11  7,6  | MEA
  11  5,6  | MIA
+ 11  7,6  | MIA
  11  1,2  | MOUDIE
  11  5,6  | MU
+ 11  7,6  | MU
  11  8,2  | NUDA
  11  8,2  | NUDE
  11  3,3  | TAMA
@@ -405,17 +417,14 @@
  10  3,2  | ATMID
  10  2,3  | CMD
  10  2,3  | CUM
- 10 10,1  - DA
  10  5,6  | DAM
  10  7,6  | DAM
  10  5,5  | DAU
- 10 10,1  - DE
  10  5,5  | DEIA
  10  7,5  | DEIA
  10  5,6  | DEM
  10  7,6  | DEM
  10  3,5  - DEMI
- 10 10,1  - DI
  10  4,1  | DIAU
  10  5,6  | DIM
  10  7,6  | DIM
@@ -426,13 +435,16 @@
  10  9,2  | KUE
  10  9,2  | KUI
  10  5,6  | MA
+ 10  7,6  | MA
  10  4,2  | MAAD
  10  4,2  | MAED
  10  4,2  | MAID
  10  4,5  - MAIDU
  10  5,6  | ME
+ 10  7,6  | ME
  10  2,5  - MEDII
  10  5,6  | MI
+ 10  7,6  | MI
  10  3,6  - MUDEE
  10  8,2  | NAAM
  10  8,2  | NADA
@@ -632,6 +644,8 @@
   7  1,2  | DOM
   7  5,6  | DU
   7  7,6  | DU
+  7  5,6  | EM
+  7  7,6  | EM
   7  6,6  - EMU
   7  6,5  - IMU
   7  9,2  | KA
@@ -646,7 +660,6 @@
   7  1,2  | MOAI
   7  1,2  | MOD
   7  1,2  | MOU
-  7  3,2  | MTD
   7 10,1  | MY
   7  3,3  | TADE
   7  3,3  | TEDA
@@ -703,7 +716,6 @@
   6  5,6  - MEE
   6  4,1  | MIA
   6  5,5  - MIA
-  6  8,1  | MN
   6  1,2  | MOA
   6  1,2  | MOI
   6  8,2  | NAA
@@ -730,7 +742,6 @@
   5  5,6  - DEIA
   5  4,6  - DUE
   5  4,5  - DUI
-  5 10,1  | DY
   5  6,6  - EADI
   5  5,6  | ED
   5  7,6  | ED
@@ -738,6 +749,7 @@
   5  6,6  - EDEA
   5  3,6  - EIDE
   5  6,6  - EIDE
+  5  6,6  - EM
   5  8,1  | END
   5  1,1  | IAO
   5  4,6  - IDEA
@@ -762,7 +774,6 @@
   5  8,1  | UNA
   5  8,1  | UNI
   5  6,4  - WE
-  5 10,2  | YD
   5 10,2  | YEA
   4  4,3  | AA
   4  5,6  | AA
@@ -791,8 +802,6 @@
   4  1,2  | DOE
   4  6,6  - EAD
   4  6,6  - EAU
-  4  4,1  | IDA
-  4  6,5  - IDA
   4  6,5  - IDE
   4  4,6  - IDE
   4  1,2  | IOU

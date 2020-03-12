@@ -1,34 +1,16 @@
  39  8,5  | FANJET
  34  8,6  | ADJT
  34  8,4  | JEAN
- 33  8,6  | ADJ
- 29  9,5  - FGN
- 27  9,5  - FG
  26  8,5  - JE
- 25  3,5  - GETFD
- 24  6,5  - FGN
  24  9,3  | JETS
- 23  8,5  - DEFT
- 22  8,5  - DEF
- 22  8,5  - NEF
  21  8,3  | DEFANG
  20  5,5  - DEFT
- 20  8,5  - DEG
- 20  5,5  - FEDN
  20  6,2  | FENDS
- 20  8,5  - NEG
  19  8,5  | FANGED
- 19  6,5  - FG
- 19  7,7  - FG
  18  6,5  - EFT
- 18  9,5  - EFT
- 18  7,5  - GTE
  18  8,5  - TEG
  17  5,5  - DEF
- 17  9,5  - EF
  17  8,5  | FADGE
- 17  7,5  - FN
- 17  7,7  - FN
  17  8,5  | JANET
  17  5,5  - NEF
  16  8,3  | DEJA
@@ -38,40 +20,28 @@
  16  6,2  | GENTS
  16  8,5  | JADE
  16  8,5  | JANE
- 16  8,5  | JANT
  16  6,6  | STENG
  16  8,5  | TANGED
- 15  5,5  - DEG
  15  6,5  - EF
- 15  7,7  - FE
  15  8,4  | FEAT
  15  5,5  - FED
- 15 10,5  - FG
- 15 10,7  - FG
  15  9,4  | JEST
- 15  5,5  - NEG
  14  8,5  | DANG
  14  9,3  | DEFS
  14  6,2  | DENTS
  14  8,5  - FE
  14  9,3  | FEDS
  14  9,3  | FENS
- 14 10,5  - FN
- 14 10,7  - FN
  14  5,5  - GED
  14  8,5  | JAG
  14  6,6  | STEND
- 14  5,5  - TEG
  14  6,2  | TENDS
  13  8,5  | FAND
- 13 10,5  - FE
- 13 10,7  - FE
  13  9,2  | FENDS
  13  8,5  | GANEF
  13  8,4  | GEAN
  13  8,4  | GNAT
  13  8,5  | JAD
- 13  8,5  | JAN
  13  5,5  - JE
  13  6,4  | JEST
  13  6,3  | JETS
@@ -79,20 +49,16 @@
  13  7,6  | PENG
  13  8,5  | TANG
  12  8,4  | DEAF
- 12  4,5  - DEF
  12  8,5  | FADEN
  12  9,3  | FETS
  12  8,4  | GEAT
  12  9,3  | GEDS
  12  9,3  | GENS
- 12  8,5  | JAT
  12  8,4  | NEAF
- 12  4,5  - NEF
  12  8,5  | TAJ
  12  5,5  - TED
  11  8,6  | AFD
  11  8,6  | AGEND
- 11  7,7  - DE
  11  8,3  | DEFAT
  11  6,5  - ED
  11  7,7  - ED
@@ -108,7 +74,6 @@
  11  7,6  | PEND
  11  7,6  | PFG
  11  9,6  | STENG
- 11  7,7  - TD
  10  8,6  | AGENT
  10  8,6  | ANDE
  10  8,5  | DAFT
@@ -116,7 +81,7 @@
  10  8,4  | DEAN
  10  9,3  | DENS
  10  8,3  | EDNA
- 10  5,5  - EF
+ 10 10,5  - EF
  10 10,7  - EF
  10  9,4  | EFS
  10  8,5  | FADE
@@ -125,7 +90,6 @@
  10  8,5  | GATED
  10  9,2  | GENTS
  10  9,3  | GETS
- 10 10,6  | MFD
  10  8,5  - NE
  10  7,6  | PFD
  10  9,6  | SNED
@@ -152,7 +116,6 @@
   9  9,4  | FEST
   9  8,3  | FETA
   9 10,5  | FMT
-  9  9,5  | FS
   9  8,5  | GADE
   9  8,5  | GANE
   9  8,5  | GANT
@@ -161,13 +124,10 @@
   9 10,6  | MDNT
   9 10,6  | MEND
   9 10,6  | MTGE
-  9 10,7  - NE
   9  8,4  | NEAT
   9  7,6  | PENT
   9  9,6  | SEND
-  9  9,6  | SGD
   9  8,5  | TAEN
-  9  7,7  - TE
   8  8,6  | ADEN
   8  8,6  | AFT
   8  8,6  | AGET
@@ -175,11 +135,12 @@
   8  8,4  | DEA
   8  6,3  | DEFS
   8  7,4  | DEPT
+  8 10,5  - ED
   8 10,7  - ED
+  8 10,5  - EN
   8 10,7  - EN
   8  6,3  | FEDS
   8  6,3  | FENS
-  8 10,5  | FM
   8  7,5  | FP
   8  8,5  | GAET
   8  8,5  | GATE
@@ -190,14 +151,12 @@
   8  9,4  | GNS
   8 10,6  | MEG
   8 10,6  | MENT
-  8 10,6  | MF
   8 10,6  | MGT
   8 10,6  | MTG
   8  8,4  | NEA
   8  9,3  | NETS
   8  7,6  | PDN
   8  7,6  | PEG
-  8  7,6  | PF
   8  7,6  | PTG
   8  9,6  | STGE
   8  8,5  - TE
@@ -218,7 +177,7 @@
   7  7,4  | EDP
   7  6,3  | EFTS
   7  6,3  | ENGS
-  7  9,5  | ESD
+  7 10,5  - ET
   7 10,7  - ET
   7  8,3  | ETNA
   7  8,5  | FAD
@@ -229,11 +188,9 @@
   7  6,3  | GEDS
   7  6,3  | GENS
   7 10,5  | GM
-  7  7,5  | GP
   7  4,5  - GTE
   7 10,6  | MED
   7 10,6  | MEN
-  7 10,6  | MTD
   7 10,6  | MTN
   7  8,5  | NAF
   7  8,5  | NATE
@@ -241,7 +198,6 @@
   7  9,4  | NEST
   7  7,6  | PED
   7  7,6  | PEN
-  7  7,6  | PG
   7  9,6  | SENT
   7  8,5  | TADE
   7  8,5  | TANE
@@ -267,14 +223,11 @@
   6  6,3  | GETS
   6  6,4  | GNS
   6 10,6  | MET
-  6 10,6  | MN
   6  8,5  | NAG
-  6  7,6  | PD
   6  7,6  | PET
   6  7,6  | PTE
   6  9,6  | SEG
   6  6,6  | SEND
-  6  6,6  | SGD
   6  6,6  | SNED
   6  6,6  | STEG
   6  9,6  | STG
@@ -285,11 +238,10 @@
   5  8,6  | ATE
   5  8,5  | DAN
   5  5,5  - DE
-  5  9,4  | DES
+  5 10,5  | EM
   5  9,5  | EST
   5  8,4  | ETA
   5  8,5  | FA
-  5  6,5  | FS
   5  8,5  | GAE
   5  8,5  | GAT
   5  6,4  | GES
@@ -299,7 +251,6 @@
   5  6,4  | NEST
   5  6,3  | NETS
   5  7,6  | PE
-  5  7,6  | PT
   5  9,6  | SED
   5  6,6  | SEG
   5  9,6  | SEN
@@ -313,11 +264,9 @@
   4  8,6  | AG
   4  8,5  | DAE
   4  8,5  | DAT
-  4  6,4  | DES
   4  8,5  | EAD
   4  8,5  | EAN
   4  6,4  | ENS
-  4  6,5  | ESD
   4  8,5  | NAE
   4  8,5  | NAT
   4  6,6  | SED

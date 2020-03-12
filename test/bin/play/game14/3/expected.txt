@@ -36,6 +36,7 @@
  24 10,6  | DEVAL
  24  6,2  | DHAVA
  24  6,2  | HALVA
+ 24  1,5  - HALVED
  24  1,7  - HALVED
  24  4,4  | HEAD
  24  4,4  | HEAL
@@ -78,10 +79,12 @@
  21  2,7  - BELAH
  21  3,5  - BLAD
  21  3,7  - BLAD
+ 21  3,5  - BLED
  21  3,7  - BLED
  21  4,4  | DEAL
  21  4,4  | DHA
  21 10,1  | HAD
+ 21  2,5  - HAVEL
  21  2,7  - HAVEL
  21 10,1  | HED
  21  4,4  | LEAD
@@ -93,6 +96,7 @@
  20  4,6  | ALD
  20  6,6  | AVALE
  20  4,6  | AVE
+ 20  3,5  - BAEL
  20  3,7  - BAEL
  20  3,5  - BEAD
  20  3,7  - BEAD
@@ -105,28 +109,33 @@
  20  2,7  - DEVAL
  20 10,4  | EAD
  20  4,4  | EVA
+ 20  1,5  - HABLE
  20  1,7  - HABLE
  20  4,5  | HADE
  20  4,5  | HALE
  20  4,5  | HAV
  20 10,3  | HE
+ 20  2,5  - LAVED
  20  2,7  - LAVED
  19  3,7  - ALBE
  19  3,5  - BAH
  19  4,5  | BAH
  19  3,7  - BAH
+ 19  2,5  - BALED
  19  2,7  - BALED
  19  4,5  - BHD
  19  4,7  - BHD
  19  3,7  - BLAE
  19  2,5  - BLAH
  19  2,7  - BLAH
+ 19  3,5  - BLEA
  19  3,7  - BLEA
  19  4,5  | DALE
  19  4,7  - DBL
  19  4,4  | DEA
  19  4,5  | HAB
  19  3,7  - HAB
+ 19  1,5  - HALVE
  19  1,7  - HALVE
  19  4,5  | LADE
  19  4,5  | LAV
@@ -151,7 +160,9 @@
  18  4,5  - HAB
  18  4,7  - HAB
  18 10,1  | HAE
+ 18  3,5  - HAED
  18  3,7  - HAED
+ 18  2,5  - HALED
  18  2,7  - HALED
  18  3,5  - HEAD
  18  3,7  - HEAD
@@ -165,8 +176,11 @@
  18  9,3  - OBE
  18  7,6  | SHAVED
  17 10,2  | AB
+ 17  3,5  - ABED
  17  3,7  - ABED
+ 17  3,5  - ABEL
  17  3,7  - ABEL
+ 17  2,5  - ABLE
  17  2,7  - ABLE
  17  4,6  | ALE
  17  5,5  - ALEUT
@@ -177,6 +191,7 @@
  17  3,7  - DAB
  17  4,7  - DAB
  17  4,5  | DAH
+ 17  4,5  - DEB
  17  3,7  - DEB
  17  4,7  - DEB
  17  4,4  | ELA
@@ -200,10 +215,12 @@
  16  6,6  | AHEAD
  16  3,7  - ALB
  16  4,5  | BA
+ 16  2,5  - BDLE
  16  2,7  - BDLE
  16  5,1  | BEDLAM
  16  5,2  - BELAh
  16  5,1  | BELDAM
+ 16  1,5  - BLADE
  16  1,7  - BLADE
  16  5,3  | BLAME
  16  4,5  | DAL
@@ -212,6 +229,7 @@
  16  3,7  - ELB
  16  4,5  | HAE
  16  5,4  | HAMBLE
+ 16  2,5  - HAVE
  16  2,7  - HAVE
  16  8,4  - JOBE
  16  4,5  | LAD
@@ -224,15 +242,18 @@
  16  7,6  | SHEVA
  16  4,5  - VAL
  16  4,7  - VAL
+ 16  4,5  - VEL
  16  4,7  - VEL
  15  5,5  - AB
  15  5,7  - AB
  15  4,6  | AH
+ 15  2,5  - ALBE
  15  2,7  - ALBE
  15  5,5  | AMBLED
  15  5,7  - BA
  15  4,5  - BAD
  15  4,7  - BAD
+ 15  3,5  - BAE
  15  3,7  - BAE
  15  4,5  - BAL
  15  4,7  - BAL
@@ -240,8 +261,11 @@
  15  5,7  - BE
  15  3,5  - BEA
  15  3,7  - BEA
+ 15  4,5  - BED
  15  4,7  - BED
+ 15  4,5  - BEL
  15  4,7  - BEL
+ 15  2,5  - BLAE
  15  2,7  - BLAE
  15  5,3  | BLAM
  15  2,5  - BLEA
@@ -252,6 +276,7 @@
  15  4,5  - DAH
  15  3,7  - DAH
  15  4,7  - DAH
+ 15  2,5  - DAVE
  15  2,7  - DAVE
  15  2,5  - DEVA
  15  2,7  - DEVA
@@ -259,12 +284,14 @@
  15  4,7  - DHA
  15  4,5  | EAD
  15  4,5  | HA
+ 15  2,5  - HABE
  15  2,7  - HABE
  15  8,4  - JOB
  15  3,5  - LAH
  15  4,5  - LAH
  15  3,7  - LAH
  15  4,7  - LAH
+ 15  2,5  - LAVE
  15  2,7  - LAVE
  15  2,5  - LEAH
  15  2,7  - LEAH
@@ -274,7 +301,9 @@
  15  7,6  | SALVE
  15  7,6  | SELVA
  15  7,6  | SLAVE
+ 15  2,5  - VADE
  15  2,7  - VADE
+ 15  2,5  - VALE
  15  2,7  - VALE
  15  2,5  - VEDA
  15  2,7  - VEDA
@@ -287,7 +316,9 @@
  14  4,6  | AL
  14  6,2  | ALDEA
  14  6,6  | ALDEA
+ 14  2,5  - BADE
  14  2,7  - BADE
+ 14  2,5  - BALE
  14  2,7  - BALE
  14  5,3  | BEAM
  14  6,3  | BEHAV
@@ -306,7 +337,9 @@
  14  4,5  - HAL
  14  4,7  - HAL
  14 10,1  | HE
+ 14  4,5  - HED
  14  4,7  - HED
+ 14  4,5  - HEL
  14  4,7  - HEL
  14  8,4  - JOEL
  14  8,4  - JOLE
@@ -319,23 +352,30 @@
  13  5,5  - AH
  13  5,7  - AH
  13  5,5  | AMBLE
+ 13  3,5  - AVE
  13  3,7  - AVE
  13  4,7  - BAE
  13  7,1  - BASED
+ 13  4,5  - BEA
  13  4,7  - BEA
  13  5,2  | BELAM
  13  4,5  - DAL
  13  4,7  - DAL
+ 13  4,5  - DEL
  13  4,7  - DEL
  13  3,5  - DHA
  13  3,7  - DHA
+ 13  5,5  - EH
  13  5,7  - EH
  13  3,5  - EVA
  13  3,7  - EVA
  13  5,5  - HA
  13  5,7  - HA
+ 13  2,5  - HADE
  13  2,7  - HADE
+ 13  3,5  - HAE
  13  3,7  - HAE
+ 13  2,5  - HALE
  13  2,7  - HALE
  13  5,3  | HALM
  13  4,1  - HALVES
@@ -344,6 +384,7 @@
  13  5,3  | HELM
  13  4,5  - LAD
  13  4,7  - LAD
+ 13  4,5  - LED
  13  4,7  - LED
  13  5,6  | MABEL
  13  7,6  | SHAB
@@ -353,6 +394,7 @@
  12  5,1  - BELASH
  12  5,4  | BEMAD
  12  8,2  - BhD
+ 12  2,5  - DALE
  12  2,7  - DALE
  12  6,4  | DHAVA
  12  4,5  - EAD
@@ -363,6 +405,7 @@
  12  6,5  | HALVE
  12  6,5  | HAVEL
  12  8,4  - JOE
+ 12  2,5  - LADE
  12  2,7  - LADE
  12  2,5  - LEDA
  12  2,7  - LEDA
@@ -390,18 +433,22 @@
  11  4,1  - BLADES
  11  5,1  - BLAHS
  11  6,1  - BLASH
+ 11  3,5  - DAE
  11  3,7  - DAE
  11  4,7  - DAE
  11  6,5  - DAUT
  11  3,5  - DEA
+ 11  4,5  - DEA
  11  3,7  - DEA
  11  4,7  - DEA
  11 10,6  | DEVA
  11  6,3  | DEVAL
  11 10,2  | ED
+ 11  5,5  - ED
  11  5,7  - ED
  11  4,5  - EH
  11  4,7  - EH
+ 11  5,5  - EL
  11  5,7  - EL
  11  6,5  | HABLE
  11  5,4  | HAMEL
@@ -412,6 +459,7 @@
  11  7,1  - LASED
  11  6,5  | LAVED
  11  3,5  - LEA
+ 11  4,5  - LEA
  11  3,7  - LEA
  11  4,7  - LEA
  11  5,6  | MEDAL
@@ -427,6 +475,7 @@
  10  6,7  - AH
  10  5,3  | AHEM
  10  5,3  | ALDM
+ 10  3,5  - ALE
  10  3,7  - ALE
  10  5,5  | AMBE
  10  7,5  - AUTE
@@ -435,6 +484,7 @@
  10  4,7  - BA
  10  5,1  - BALDS
  10  6,5  | BALED
+ 10  4,5  - BE
  10  4,7  - BE
  10  5,4  | BEMA
  10  6,4  | BLADE
@@ -458,7 +508,6 @@
  10  5,6  | MBD
  10  5,6  | MEAD
  10  5,6  | MEAL
- 10  5,6  | MEV
  10  9,7  - REV
  10  7,6  | SABED
  10  7,6  | SADH
@@ -506,6 +555,7 @@
   9  6,5  | HALED
   9  5,4  | HAME
   9  6,5  | HAV
+  9  4,5  - HE
   9  4,7  - HE
   9  6,4  | HEALD
   9  6,3  | LAVA
@@ -571,6 +621,7 @@
   8  4,7  - DA
   8  6,1  - DABS
   8  5,4  | DAME
+  8  4,5  - DE
   8  4,7  - DE
   8 10,6  | DEAD
   8 10,6  | DEAL
@@ -619,6 +670,7 @@
   7  6,6  | ABL
   7 10,5  | AD
   7  5,4  | ADM
+  7  4,5  - AE
   7  4,7  - AE
   7  6,6  | ALB
   7  6,4  | AVA
@@ -737,6 +789,7 @@
   5 10,6  | DE
   5  6,1  - DEAS
   5  7,1  - ELSA
+  5  5,5  | EM
   5  6,5  | HAE
   5  7,1  - HAS
   5  7,1  - HES
@@ -767,11 +820,9 @@
   4  6,5  | DAE
   4  7,1  - DAS
   4  6,4  | DEA
-  4  7,1  - DES
   4  6,5  | EAD
   4  6,4  | ELA
   4  7,1  - ELS
-  4  8,1  - ESD
   4  6,5  | HA
   4  7,2  - HAh
   4  7,2  - HEh

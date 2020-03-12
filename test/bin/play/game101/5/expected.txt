@@ -18,7 +18,6 @@
  30 11,1  | ELAINS
  30 11,1  | ELOINS
  30 11,1  | OLEINS
- 30 10,2  | QIANA
  30 11,6  | SALINE
  30 11,6  | SELINA
  30 11,6  | SILANE
@@ -31,12 +30,12 @@
  27  1,3  | AEOLINA
  27 11,1  | AEOLIS
  27  2,7  | LEmNA
+ 27  6,5  - WOLEAI
  26  7,9  - LANE
  26  7,9  - NALE
  25  7,9  - LAEN
  25  7,9  - LAIN
  25  7,9  - LAN
- 25  7,9  - NAEL
  25  7,9  - NAIL
  24 11,3  | ALISON
  24 11,4  | ALSINE
@@ -52,7 +51,6 @@
  23  7,9  - LAI
  23  7,9  - LAO
  23  7,9  - NAE
- 23  1,10 - NAEL
  23  1,10 - NOEL
  21 11,2  | ANILS
  21  7,9  - EAN
@@ -64,7 +62,9 @@
  21  8,5  - LANE
  21 11,2  | LANES
  21 11,2  | LEANS
+ 21  8,5  - LENA
  21 11,2  | LENIS
+ 21  8,5  - LENO
  21 11,2  | LENOS
  21 11,2  | LIENS
  21 11,2  | LINES
@@ -93,7 +93,12 @@
  21 11,6  | SNAIL
  21 11,6  | SOLAN
  21 11,6  | SOLEN
+ 21  6,5  - WALE
+ 21  6,5  - WANE
+ 21  6,5  - WILE
+ 21  6,5  - WINE
  21  6,5  - WINO
+ 21  6,5  - WONE
  20  1,10 - AIEL
  19  8,5  - AOLI
  19  5,5  - OWEN
@@ -102,7 +107,6 @@
  18 10,1  | AEONIAL
  18 11,2  | AEONS
  18 11,3  | ALISO
- 18  8,9  - ALN
  18 11,2  | ALOES
  18 11,2  | ALOIS
  18 11,3  | ALOSE
@@ -110,17 +114,15 @@
  18 11,2  | ELIAS
  18  8,5  - LAN
  18  2,7  | LAmE
+ 18  8,5  - LEN
  18 11,3  | LENS
  18 11,3  | LINS
  18  2,7  | LOmA
- 18  5,10 - NAEL
  18  5,10 - NAIL
  18  5,10 - NALE
  18  2,7  | NAmE
  18  5,10 - NEAL
- 18  9,7  - NEI
  18  5,10 - NEIL
- 18  9,7  - NEO
  18  2,7  | NEmA
  18  2,7  | NEmO
  18  5,10 - NILE
@@ -138,18 +140,13 @@
  18 11,6  | SOLEA
  18 11,6  | SOLN
  17  8,9  - ALE
- 17  8,9  - ALO
  17  8,9  - ANE
  17  8,9  - ANI
  17  5,2  | ONLAP
- 17  8,2  | QIANA
- 17  1,7  | QIANA
  16  8,9  - AIL
  16  8,9  - AIN
  16  8,9  - AL
  16  9,5  - ALE
- 16  9,5  - ALO
- 16  9,7  - ALO
  16  8,9  - AN
  16  9,5  - ANE
  16  9,5  - ANI
@@ -157,13 +154,17 @@
  16 10,2  | ANILAO
  16 10,6  | ANILAO
  16  2,10 - EEL
+ 16  9,5  - ELA
+ 16  9,5  - ELI
  16  9,7  - ELI
  16 10,2  | EOLIAN
  16  9,7  - INO
+ 16  8,5  - LEA
  16  8,5  - LOA
  16  4,5  - LOWE
  16  5,10 - NAIO
  16  5,10 - NAOI
+ 16  8,5  - NEA
  16  5,10 - NIL
  16  8,5  - NOA
  16  5,10 - NOL
@@ -191,10 +192,8 @@
  15 11,3  | LIAS
  15 11,3  | LIES
  15 11,3  | LOIS
- 15  9,7  - NA
  15 11,3  | NAIS
  15 11,3  | NAOS
- 15  9,7  - NE
  15  5,3  | NEAP
  15 11,3  | NIAS
  15 11,3  | NIES
@@ -202,8 +201,6 @@
  15 11,3  | OILS
  15 11,3  | OLES
  15 11,3  | ONES
- 15 10,4  | QIANA
- 15  1,5  | QIANA
  15 11,6  | SAIL
  15 11,6  | SAIN
  15 11,6  | SALE
@@ -239,7 +236,6 @@
  14 10,6  | ALOIN
  14 10,6  | ALONE
  14  5,3  | ALOP
- 14  1,10 - ANE
  14 10,6  | ANILE
  14  7,2  | ANION
  14 10,2  | ANLIA
@@ -270,12 +266,13 @@
  14  8,8  | ZONE
  13  9,5  - AL
  13  9,7  - AL
- 13  4,5  - ALW
  13  9,5  - AN
  13  9,7  - AN
  13  4,9  | CLI
  13  4,9  | CLO
+ 13  9,5  - EL
  13  9,7  - EL
+ 13  9,5  - EN
  13  9,7  - EN
  13  9,7  - IN
  13  8,5  - LA
@@ -291,6 +288,7 @@
  13  8,5  - NA
  13  1,10 - NAE
  13  9,3  | NAOMI
+ 13  8,5  - NE
  13  1,10 - NEE
  13  7,3  | NEON
  13  8,5  - NO
@@ -337,8 +335,8 @@
  12  4,5  - NOW
  12 11,4  | QIS
  12 11,6  | SEQ
- 12  8,8  | ZEA
  12  8,8  | ZOA
+ 11  8,5  - AE
  11  9,7  - AE
  11  8,1  | AEOLIA
  11  7,3  | AEON
@@ -391,10 +389,8 @@
  10  9,4  | LIMO
  10  1,11 - LODE
  10  9,4  | LOMA
- 10  1,8  | NAEL
  10  1,8  | NAIL
  10  9,4  | NAME
- 10  2,10 - NE
  10  9,4  | NEMA
  10  9,4  | NEMO
  10  1,11 - NIDE
@@ -409,14 +405,12 @@
  10  1,6  | OLEANA
  10  5,5  | OP
  10  5,5  - OW
- 10  2,9  | mN
   9  1,4  | AEOLIAN
   9  1,4  | AEONIAL
   9  1,7  | ALANE
   9  1,7  | ALANI
   9  8,3  | ALEA
   9  8,3  | ALIA
-  9  1,9  | ALN
   9  8,3  | ANOA
   9  4,9  | CL
   9  3,11 - DANIEL
@@ -478,13 +472,13 @@
   8  1,8  - LAR
   8  8,4  | LEA
   8  8,3  | LENA
+  8  1,8  - LER
   8  9,4  | LIM
   8  8,3  | LINA
   8 10,5  - LO
   8 10,7  - LO
   8  8,4  | LOA
   8  1,8  - LOR
-  8  9,6  | MN
   8 10,5  - NA
   8  8,4  | NAA
   8  1,8  | NALE
@@ -535,7 +529,6 @@
   7  1,6  | ELIAN
   7 11,4  | ELSIN
   7  1,11 - END
-  7  7,8  | ENL
   7  2,11 - IDEAL
   7  2,11 - IDEAN
   7  2,11 - IDOLA
@@ -564,6 +557,7 @@
   6  2,11 - ADON
   6 10,5  - AE
   6  2,10 - AE
+  6  1,8  - AER
   6 10,5  - AI
   6 10,7  - AI
   6  1,11 - AID
@@ -576,7 +570,6 @@
   6  1,9  | ALE
   6 10,6  | ALEN
   6 10,6  | ALIN
-  6  1,9  | ALO
   6  9,5  | AM
   6  8,4  | ANA
   6  1,9  | ANA
@@ -622,6 +615,7 @@
   6 10,4  | ELAN
   6  1,7  | ELAN
   6  7,8  | ELI
+  6  9,5  | EM
   6 10,7  - EO
   6  7,8  | EOAN
   6  7,8  | EOLE
@@ -649,7 +643,6 @@
   6  9,6  | ME
   6  9,6  | MI
   6  9,6  | MO
-  6 10,5  | NAEL
   6 10,5  | NAIL
   6 10,5  | NALE
   6 10,4  | NEAL
@@ -687,7 +680,6 @@
   5 10,3  | ALIA
   5  1,6  | ALIA
   5 10,6  | ALIA
-  5 10,6  | ALN
   5 10,6  | ALOE
   5 11,4  | ALSO
   5 10,3  | ANOA
@@ -754,7 +746,6 @@
   4 10,6  | ALA
   4  1,7  | ALA
   4 10,6  | ALE
-  4 10,6  | ALO
   4 11,4  | ALS
   4 10,4  | ANA
   4 10,6  | ANA
@@ -780,7 +771,6 @@
   4 11,4  | ENS
   4 10,5  | IAN
   4  1,8  | IAN
-  4  2,11 - IDA
   4  2,11 - IDE
   4 10,4  | ILA
   4  1,7  | ILA
@@ -847,6 +837,8 @@
   3  2,11 - ED
   3  7,8  | EE
   3  7,8  | EO
+  3  2,8  - ER
+  3  2,8  | Em
   3 10,5  | IAO
   3  1,8  | IAO
   3  2,11 - ID

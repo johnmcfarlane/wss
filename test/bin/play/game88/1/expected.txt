@@ -45,6 +45,7 @@
  20  8,3  | EBIKE
  20  8,6  | KIBES
  20  8,2  | SABIK
+ 19  2,5  - ABIES
  19  2,7  - ABIES
  19  8,4  | BAKE
  19  9,4  | BAS
@@ -56,9 +57,11 @@
  19  9,6  | SAB
  19  4,5  - SABE
  19  4,7  - SABE
+ 19  4,5  - SEBA
  19  9,6  | SIB
  18  4,5  | ASB
  18  3,7  - BAIS
+ 18  3,5  - BEES
  18  3,7  - BEES
  18  3,5  - BIAS
  18  3,7  - BIAS
@@ -86,6 +89,7 @@
  17  4,6  | SEI
  17  4,6  | SIA
  17  4,6  | SIE
+ 16  2,5  - ABIE
  16  2,7  - ABIE
  16  4,7  - ABS
  16  8,7  - ABS
@@ -99,6 +103,7 @@
  16  4,7  - BASE
  16  8,7  - BEA
  16  8,7  - BEE
+ 16  4,5  - BESA
  16  8,7  - BIS
  16  4,7  - BISE
  16  8,7  - IBA
@@ -119,12 +124,14 @@
  15  3,7  - ASB
  15  4,5  | ASE
  15  8,7  - BA
+ 15  3,5  - BAE
  15  3,7  - BAE
  15  3,7  - BAI
  15  8,7  - BE
  15  3,5  - BEA
  15  3,7  - BEA
  15  5,3  | BEAMS
+ 15  3,5  - BEE
  15  3,7  - BEE
  15  8,1  | BESEEK
  15  8,7  - BI
@@ -138,6 +145,7 @@
  15  3,7  - SAB
  15  9,6  | SI
  15  3,7  - SIB
+ 14  1,5  - ABSEE
  14  1,7  - ABSEE
  14  4,5  | AS
  14  8,3  | BASKE
@@ -145,6 +153,7 @@
  14  5,3  | BEAM
  14  1,5  - BEISA
  14  1,7  - BEISA
+ 14  1,5  - BESEE
  14  1,7  - BESEE
  14  4,5  | ES
  14  4,5  | IS
@@ -154,8 +163,10 @@
  13  8,7  - ASB
  13  4,5  - BAS
  13  4,7  - BAS
+ 13  2,5  - BASE
  13  2,7  - BASE
  13  8,3  | BASK
+ 13  4,5  - BEA
  13  8,3  | BEAK
  13  8,3  | BEEK
  13  2,5  - BESA
@@ -163,6 +174,7 @@
  13  5,1  | BESEAM
  13  5,1  | BESEEM
  13  4,7  - BIS
+ 13  2,5  - BISE
  13  2,7  - BISE
  13  8,3  | BISK
  13  4,5  - EASE
@@ -173,6 +185,7 @@
  13  5,5  | IMBASE
  13  2,5  - ISBA
  13  2,7  - ISBA
+ 13  2,5  - SABE
  13  2,7  - SABE
  13  6,7  - SEA
  13  2,5  - SEBA
@@ -189,6 +202,7 @@
  12  7,3  | BEIRA
  12  7,3  | BESRA
  12  7,3  | BIERS
+ 12  5,5  - ESE
  12  5,7  - ESE
  12  3,5  - IBA
  12  3,7  - IBA
@@ -206,6 +220,7 @@
  11  5,6  | MABI
  11  5,6  | MIBS
  11  5,4  | SIMBA
+ 10  4,5  - AES
  10  4,7  - AES
  10  8,7  - AES
  10  4,7  - AIS
@@ -216,6 +231,7 @@
  10  4,5  - BA
  10  4,7  - BA
  10  5,4  | BAMS
+ 10  4,5  - BE
  10  4,7  - BE
  10  5,4  | BEMA
  10  5,4  | BEME
@@ -224,6 +240,7 @@
  10  8,5  | BKS
  10  7,5  | BRAIES
  10  7,5  | BRAISE
+ 10  2,5  - EASE
  10  2,7  - EASE
  10  8,5  | EKES
  10  5,4  | IAMB
@@ -238,6 +255,7 @@
  10  7,6  | REBIAS
  10  8,4  | SAKE
  10  8,4  | SAKI
+ 10  4,5  - SEA
  10  8,3  | SEAK
  10  8,3  | SEEK
  10  5,4  | SEMEIA
@@ -254,6 +272,7 @@
   9  5,5  - AS
   9  5,7  - AS
   9  8,7  - AS
+  9  3,5  - ASE
   9  3,7  - ASE
   9  8,4  | ASK
   9  5,4  | BAM
@@ -266,11 +285,14 @@
   9  7,5  | BRISE
   9  5,5  | EMESA
   9  7,5  | ERBIA
+  9  5,5  - ES
   9  5,7  - ES
+  9  3,5  - ESE
   9  3,7  - ESE
   9  5,4  | IBM
   9  5,7  - IS
   9  8,7  - IS
+  9  3,5  - ISE
   9  3,7  - ISE
   9  8,6  | KAE
   9  8,6  | KAI
@@ -289,15 +311,18 @@
   9  7,2  | SABER
   9  7,2  | SABIR
   9  7,3  | SABRE
+  9  3,5  - SAE
   9  3,7  - SAE
   9  3,7  - SAI
   9  8,4  | SAK
   9  3,5  - SEA
   9  3,7  - SEA
+  9  3,5  - SEE
   9  3,7  - SEE
   9  3,7  - SEI
   9  3,5  - SIA
   9  3,7  - SIA
+  9  3,5  - SIE
   9  3,7  - SIE
   8  6,4  | ABIES
   8  7,3  | ABIR
@@ -334,6 +359,7 @@
   7  6,4  | ABIE
   7  7,4  | ABRI
   7  6,3  | ABSI
+  7  4,5  - AE
   7  4,7  - AE
   7  7,4  | AERIES
   7  4,7  - AI
@@ -356,6 +382,7 @@
   7  7,5  | BREI
   7  7,5  | BRIE
   7  7,1  | EASIER
+  7  4,5  - EE
   7  4,7  - EE
   7  8,5  | EKE
   7  5,5  | EMES
@@ -418,6 +445,7 @@
   5  5,5  | AM
   5  6,5  | BI
   5  7,4  | EERIE
+  5  5,5  | EM
   5  6,6  | IB
   5  5,6  | MA
   5  5,6  | ME

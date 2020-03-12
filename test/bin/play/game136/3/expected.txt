@@ -20,10 +20,8 @@
  44  3,1  | ZOgO
  43  3,2  | AZOTe
  42  3,3  | TOpAZ
- 42  7,2  | ZAT
  40  1,6  - AZOX
  40  7,2  | ZAp
- 40  7,2  | ZAt
  40  3,3  | ZObO
  40  3,3  | ZOgO
  39  5,3  - MYOmATA
@@ -34,7 +32,6 @@
  39  1,1  - rAZOR
  38  1,6  - AZoX
  38  2,6  - ZAX
- 38  7,2  | ZaT
  38  1,6  - aZOX
  37  3,5  | OOZoA
  37  3,5  | TAZiA
@@ -64,7 +61,6 @@
  32  3,6  | AZhA
  32  3,3  | ZoA
  32  3,3  | ZoO
- 32  3,5  | bOZA
  32  3,5  | bOZO
  32  3,5  | dAZA
  32  3,5  | kOZO
@@ -163,7 +159,6 @@
  24  5,7  | yAZOO
  23  7,1  | ATAp
  23  5,7  | AdZ
- 23  7,1  | AnAT
  23  3,6  | OOZoA
  23  5,7  | OdZ
  23  7,7  | OdZ
@@ -171,14 +166,13 @@
  23  3,4  | OpATA
  23  5,7  | TeZ
  23  7,7  | TeZ
- 23  7,1  | ZeA
- 23  3,5  | bATZ
- 23  5,7  | bOZA
  23  5,7  | bOZO
  23  5,7  | dAZA
  23  7,7  | dAZA
  23  5,7  | mAZA
+ 23  7,7  | mAZA
  23  5,7  | mOZO
+ 23  7,7  | mOZO
  23  3,6  | oOZOA
  22  3,6  | OOZe
  22  3,6  | OOZy
@@ -193,7 +187,6 @@
  22  7,2  | TAm
  22  7,2  | TAp
  22  7,2  | TAs
- 22  7,2  | TAt
  22  7,2  | TAy
  22  3,3  | TObA
  22  3,3  | TOdA
@@ -210,39 +203,29 @@
  22  3,2  | ZOOs
  22  5,7  | dOZ
  22  7,7  | dOZ
- 22  7,2  | eAT
  22  1,5  - gAZI
- 22  7,2  | hAT
  22  1,5  - kAZI
- 22  7,2  | lAT
  22  7,7  | lAZ
- 22  7,2  | mAT
  22  7,2  | nAA
- 22  7,2  | nAT
  22  1,5  - nAZI
  22  1,5  - nOZI
  22  3,4  | oTO
  22  5,7  | pOZ
  22  7,2  | tAA
- 22  7,2  | tAT
  22  5,7  | wAZ
  22  7,7  | wAZ
- 22  7,2  | zAT
  21  7,1  | ATmA
  21  3,6  - OXyAZO
  21  3,2  | ZOO
  20  7,3  | AA
- 20  7,3  | AT
  20  1,6  - AbOX
  20  3,6  | AdZ
  20  3,1  | AgAO
  20  3,1  | AlTO
- 20  1,6  - AnAX
  20  3,1  | AuTO
  20  1,6  - AzOX
  20  3,4  | ObA
  20  3,4  | OdA
- 20  1,6  - OdAX
  20  3,6  | OdZ
  20  3,4  | OfO
  20  3,4  | OhO
@@ -253,6 +236,7 @@
  20  3,4  | OpA
  20  3,4  | OtO
  20  3,1  | OtTO
+ 20  3,4  | OxO
  20  4,4  - PALeTZ
  20  2,6  - TAX
  20  3,5  | TOAtOA
@@ -298,7 +282,6 @@
  18  2,6  - ArX
  18  7,3  | As
  18  1,1  - AsTOR
- 18  7,3  | At
  18  1,1  - AtTAR
  18  1,1  - AuTOR
  18  2,6  - AuX
@@ -324,7 +307,6 @@
  18  2,6  - TeX
  18  2,6  - ToX
  18  2,6  - TuX
- 18  6,5  - VOrAZ
  18  2,6  - bOX
  18  2,6  - cOX
  18  2,6  - fAX
@@ -429,9 +411,7 @@
  16  5,7  | TrOOZ
  16  7,7  | TrOOZ
  16  7,3  | aA
- 16  7,3  | aT
  16  3,2  | bOOT
- 16  7,6  | bOZA
  16  7,6  | bOZO
  16  3,2  | cOOT
  16  3,2  | fOOT
@@ -481,6 +461,7 @@
  15  7,7  | OZAn
  15  3,5  | OaT
  15  3,5  | OoT
+ 15  3,5  | OxO
  15  3,7  - Oy
  15  7,2  | TA
  15  3,5  | TA
@@ -542,7 +523,9 @@
  15  7,1  | eTA
  15  7,1  | iTA
  15  5,7  | mATZA
+ 15  7,7  | mATZA
  15  5,7  | mATZO
+ 15  7,7  | mATZO
  15  7,1  | pTA
  15  7,1  | sTA
  15  7,1  | uTA
@@ -579,7 +562,6 @@
  14  3,3  | ToO
  14  1,5  - ZATI
  14  3,2  - ZOIST
- 14  5,7  | bATZ
  14  3,3  | bOA
  14  3,5  | bOAT
  14  3,3  | bOO
@@ -827,7 +809,6 @@
  12  3,3  | TOx
  12  3,3  | TOy
  12  1,5  - ZAtI
- 12  5,7  - ZEA
  12  5,7  - ZEAl
  12  5,7  - ZETa
  12  5,7  - ZErO
@@ -840,7 +821,6 @@
  12  1,1  - kOTAR
  12  1,1  - lOTOR
  12  1,1  - mATAR
- 12  5,7  - mEZO
  12  1,1  - mOTOR
  12  3,4  | oO
  12  1,1  - qATAR
@@ -868,7 +848,6 @@
  11  3,6  | AkA
  11  3,6  | AkO
  11  3,6  | AlA
- 11  3,6  | AlO
  11  3,6  | AlT
  11  3,6  | AmA
  11  3,6  | AmT
@@ -910,6 +889,7 @@
  11  3,6  | OuT
  11  3,6  | OvA
  11  3,6  | OwT
+ 11  3,6  | OxO
  11  4,4  - PALATe
  11  4,4  - PALTA
  11  4,4  - PALgAT
@@ -917,7 +897,6 @@
  11  7,2  | Ta
  11  7,2  | Tc
  11  4,6  - XOAnA
- 11  5,7  - ZEa
  11  5,7  - ZEd
  11  5,7  - ZEe
  11  5,7  - ZEk
@@ -993,7 +972,6 @@
  10  3,6  | Ai
  10  3,2  | AkO
  10  3,6  | Al
- 10  3,2  | AlO
  10  3,6  | Am
  10  2,2  - AmAIST
  10  3,6  | An
@@ -1039,6 +1017,7 @@
  10  3,6  | Ow
  10  3,4  | Ox
  10  3,6  | Ox
+ 10  3,2  | OxO
  10  3,4  | Oy
  10  3,6  | Oy
  10  4,4  - PALeA
@@ -1201,7 +1180,6 @@
   8  4,4  - PALAs
   8  4,4  - PALAu
   8  4,4  - PALAy
-  8  4,4  - PALT
   8  4,4  - PALTa
   8  2,2  - TAbIS
   8  2,2  - TAlIS
@@ -1281,7 +1259,6 @@
   7  4,4  - PALm
   7  4,4  - PALp
   7  4,4  - PALs
-  7  4,4  - PALt
   7  4,4  - PALy
   7  7,6  | TOA
   7  7,6  | TOAd
@@ -1508,7 +1485,6 @@
   6  3,1  - oAR
   6  3,1  - pAR
   6  5,7  | pATAO
-  6  3,1  - pOR
   6  3,1  - qTR
   6  3,1  - sAR
   6  3,1  - sTR
@@ -1561,12 +1537,12 @@
   5  4,1  | Al
   5  7,6  | AlA
   5  5,7  | AlA
-  5  7,6  | AlO
-  5  5,7  | AlO
   5  7,6  | AlT
   5  5,7  | AlT
   5  4,1  | Am
+  5  7,6  | AmA
   5  5,7  | AmA
+  5  7,6  | AmT
   5  5,7  | AmT
   5  4,1  | An
   5  7,6  | AnA
@@ -1659,6 +1635,8 @@
   5  5,7  | OwT
   5  7,7  | OwT
   5  4,1  | Ox
+  5  5,7  | OxO
+  5  7,7  | OxO
   5  4,1  | Oy
   5  3,2  - TAIShO
   5  5,7  | TAcO
@@ -1796,12 +1774,16 @@
   5  7,7  | lOTA
   5  7,7  | lOTO
   5  5,7  | mAAT
+  5  7,7  | mAAT
   5  7,6  | mOA
   5  5,7  | mOAT
+  5  7,7  | mOAT
   5  7,6  | mOO
   5  5,7  | mOOT
+  5  7,7  | mOOT
   5  7,6  | mOT
   5  5,7  | mOTA
+  5  7,7  | mOTA
   5  5,7  | nATO
   5  7,7  | nATO
   5  7,6  | nOA
@@ -1840,7 +1822,6 @@
   5  7,6  | tOT
   5  5,7  | tOTO
   5  7,7  | tOTO
-  5  4,1  | uT
   5  7,6  | wOA
   5  7,6  | wOO
   5  7,6  | wOT
@@ -1870,6 +1851,7 @@
   4  1,5  - AlAI
   4  3,2  - AlISO
   4  3,2  - AlIST
+  4  7,6  | Am
   4  7,6  | An
   4  1,5  - AnTI
   4  7,6  | Ar
@@ -1918,7 +1900,6 @@
   4  5,7  | OTo
   4  7,7  | OTo
   4  3,2  - OdIST
-  4  1,5  - OpAI
   4  3,2  - OvIST
   4  5,7  | TA
   4  7,7  | TA
@@ -2073,7 +2054,6 @@
   4  7,1  | iT
   4  7,6  | iT
   4  1,5  - iTAI
-  4  5,7  | jAT
   4  1,5  - jATI
   4  3,2  - jOIST
   4  5,7  | jOT
@@ -2086,13 +2066,18 @@
   4  7,7  | lOT
   4  3,2  - mAIST
   4  5,7  | mAO
+  4  7,7  | mAO
   4  5,7  | mAT
+  4  7,7  | mAT
   4  7,6  | mO
   4  5,7  | mOA
+  4  7,7  | mOA
   4  1,5  - mOAI
   4  3,2  - mOIST
   4  5,7  | mOO
+  4  7,7  | mOO
   4  5,7  | mOT
+  4  7,7  | mOT
   4  5,7  | nAA
   4  7,7  | nAA
   4  1,5  - nAOI
@@ -2116,7 +2101,6 @@
   4  5,7  | pOA
   4  5,7  | pOT
   4  1,5  - pOTI
-  4  7,1  | pT
   4  5,7  | pTA
   4  5,7  | rAT
   4  7,7  | rAT
@@ -2433,7 +2417,6 @@
   2  6,6  - AkA
   2  6,6  - AkO
   2  6,6  - AlA
-  2  6,6  - AlO
   2  6,6  - AlT
   2  6,6  - AmA
   2  2,5  - AmI
@@ -2461,7 +2444,6 @@
   2  6,7  - EAt
   2  6,7  - EAu
   2  6,7  - EO
-  2  6,7  - EOf
   2  6,7  - EOn
   2  6,7  - ET
   2  6,7  - ETa
@@ -2546,7 +2528,6 @@
   2  4,2  - gIS
   2  5,7  | hA
   2  7,7  | hA
-  2  5,7  - hEO
   2  5,7  - hET
   2  4,2  - hIS
   2  5,7  | hO
@@ -2565,11 +2546,13 @@
   2  4,2  - lIS
   2  7,7  | lO
   2  5,7  | mA
+  2  7,7  | mA
   2  5,7  - mEA
   2  5,7  - mEO
   2  5,7  - mET
   2  4,2  - mIS
   2  5,7  | mO
+  2  7,7  | mO
   2  5,7  | nA
   2  7,7  | nA
   2  5,7  - nEA
@@ -2585,7 +2568,6 @@
   2  5,7  - pET
   2  4,2  - pIS
   2  5,7  | pO
-  2  5,7  | pT
   2  4,2  - qIS
   2  5,7  - rEA
   2  5,7  - rET
@@ -2614,7 +2596,6 @@
   2  5,7  - yET
   2  4,2  - yIS
   2  5,7  | yO
-  2  5,7  - zEA
   1  6,6  - Aa
   1  6,6  - Ab
   1  6,6  - Ad
@@ -2636,6 +2617,7 @@
   1  6,7  - Ef
   1  6,7  - Eh
   1  6,7  - El
+  1  6,7  - Em
   1  6,7  - En
   1  6,7  - Eo
   1  6,7  - Er
@@ -2673,7 +2655,6 @@
   1  3,5  - sI
   1  5,7  - tE
   1  3,5  - tI
-  1  4,1  - uR
   1  5,7  - wE
   1  3,5  - xI
   1  5,7  - yE

@@ -1,7 +1,6 @@
  72  9,7  | QADIs
  71  6,8  - COQ
  69  6,8  - CoQ
- 66  8,8  - QAf
  65  8,8  - QI
  63  8,8  - Qi
  52 10,6  | QuASI
@@ -58,8 +57,6 @@
  24  9,7  | OADAL
  24  9,7  | QADI
  24 10,6  | QAtS
- 24 10,6  | QuIS
- 24 10,6  | QuOS
  24 10,6  | bLASIA
  24 10,5  | dALASI
  24 10,5  | fILOSA
@@ -231,6 +228,7 @@
  17  3,8  - pLICA
  17  3,8  - tLACO
  16  5,8  - ACOmA
+ 16  3,8  - ALICe
  16  2,10 | Ad
  16 10,6  | AlISO
  16 10,6  | AlOSA
@@ -266,19 +264,15 @@
  15  4,8  - ALCO
  15  4,10 - AOLI
  15  8,6  | AQuILA
- 15  6,8  - CAbA
  15  6,8  - CAdI
  15  6,8  - CApA
  15  6,8  - CApO
  15  6,8  - CAsA
  15  6,8  - COdA
  15  6,8  - COmA
- 15  6,8  - COpA
  15  6,8  - COxA
  15  6,8  - ChA
  15  6,8  - CoO
- 15  6,8  - CpA
- 15  6,8  - CpO
  15  9,9  | DAL
  15  9,9  | DIL
  15  9,9  | DOL
@@ -287,8 +281,10 @@
  15  9,8  | IDoL
  15  9,8  | IDyL
  15  3,11 - JINShA
+ 15  4,8  - LACe
  15  4,8  - LACy
  15  3,8  - LAcCA
+ 15  4,8  - LICe
  15  4,8  - LICh
  15  3,8  - LIcCA
  15  4,8  - LOCa
@@ -300,7 +296,6 @@
  15  9,8  | ODeL
  15  9,8  | ODyL
  15  7,7  | OLM
- 15  8,8  - OpAI
  15  9,6  | QAID
  15  9,6  | QAIDs
  15  4,6  - QqV
@@ -329,10 +324,10 @@
  14  7,8  | cML
  14  2,11 - dJINS
  13  4,10 - AILe
- 13  5,3  | ALAkI
  13  5,10 - ALAn
  13  5,10 - ALAs
  13  4,8  - ALCa
+ 13  4,8  - ALCe
  13  4,8  - ALCo
  13  5,10 - ALIf
  13  5,10 - ALIn
@@ -345,8 +340,6 @@
  13  4,8  - AlCA
  13  4,8  - AlCO
  13  1,8  - AmALIC
- 13  4,10 - AmLA
- 13  4,10 - AmLI
  13  4,10 - AoLI
  13  4,8  - ArCA
  13  4,8  - ArCO
@@ -464,17 +457,14 @@
  12 10,4  | ALIsOS
  12 10,4  | ALIyAS
  12 10,4  | ALIyOS
- 12  5,10 - ALO
  12 10,5  | ALOIS
  12 10,4  | ALOInS
  12 10,4  | ALOhAS
  12  8,8  - AaA
- 12  3,9  | AdJ
  12 10,4  | AeOLIS
  12 10,4  | AgLAOS
  12 10,4  | AiOLIS
  12 10,4  | AnOLIS
- 12  8,8  - ApA
  12  8,8  - AtI
  12  2,8  - AuLIC
  12 10,4  | AvAILS
@@ -500,16 +490,13 @@
  12  5,8  - LCA
  12 10,4  | LIAnAS
  12 10,7  | OASAL
- 12  8,8  - OAf
  12  5,8  - OCAs
  12  9,8  | ODAl
- 12  9,8  | ODAx
  12  9,8  | ODIc
  12  9,8  | ODIn
  12  9,8  | ODeA
  12  5,10 - OLA
  12  3,9  | ObJ
- 12  8,8  - OpA
  12  8,10 - OuI
  12 10,4  | OxALIS
  12 11,7  | QAT
@@ -559,7 +546,6 @@
  11  9,10 - AhA
  11  9,10 - AhI
  11  9,10 - AhO
- 11  9,10 - AwA
  11  6,8  - CAb
  11  6,8  - CAd
  11  6,8  - CAf
@@ -582,13 +568,10 @@
  11  9,10 - IO
  11  8,9  | IQs
  11  7,7  | IpM
- 11  9,10 - IwA
  11  4,8  - LAC
- 11  5,3  | LAIk
  11  6,10 - LAO
  11  1,8  - LAmAIC
  11  4,8  - LOC
- 11  5,4  | LOkI
  11  5,8  - OCA
  11  8,8  - OI
  11  9,10 - OI
@@ -629,7 +612,6 @@
  11  8,8  - mOAI
  11  4,8  - mOCA
  11  4,8  - pACA
- 11  4,8  - pACO
  11  1,8  - pALAIC
  11  4,8  - pICA
  11  4,8  - pICO
@@ -662,7 +644,6 @@
  10 10,5  | ALbAS
  10  9,4  | ALcAID
  10  5,10 - ALe
- 10  5,10 - ALf
  10 10,5  | ALfAS
  10 10,5  | ALgAS
  10  9,4  | ALgOID
@@ -670,8 +651,6 @@
  10  9,4  | ALkAID
  10 10,5  | ALlIS
  10 10,5  | ALmAS
- 10  5,10 - ALn
- 10  5,10 - ALo
  10 10,5  | ALoIS
  10  9,4  | ALtAID
  10 10,5  | ALtOS
@@ -765,7 +744,6 @@
  10 10,5  | OvALS
  10  5,10 - aLA
  10 10,5  | aLIAS
- 10  5,10 - aLO
  10 10,5  | aLOIS
  10 10,5  | bAALS
  10 10,5  | bAILS
@@ -794,7 +772,6 @@
  10 10,5  | eLIAS
  10 10,5  | fAILS
  10  3,6  - fLAVIA
- 10  5,10 - fLO
  10 10,5  | fOALS
  10 10,5  | fOILS
  10 10,5  | gALAS
@@ -865,6 +842,7 @@
  10 10,5  | wAILS
   9  4,10 - AAL
   9  8,6  | AALIi
+  9  5,8  - ACe
   9  5,8  - ACh
   9  5,8  - ACy
   9  4,10 - AIL
@@ -875,7 +853,6 @@
   9  4,7  | ALAnI
   9  1,8  - ALArIC
   9  4,7  | ALAwI
-  9  4,8  - ALC
   9  8,7  | ALIA
   9  8,7  | ALIAs
   9  9,6  | ALIDA
@@ -908,7 +885,6 @@
   9  8,8  - Ai
   9  8,5  | AiOLI
   9  8,5  | AkALI
-  9  5,5  | AkO
   9  9,5  | AlLOD
   9  8,6  | AnLIA
   9  8,5  | AnOLI
@@ -920,7 +896,6 @@
   9  4,6  - ArVAL
   9  8,8  - At
   9 11,7  | AtTAL
-  9  8,8  - Ay
   9  2,8  - AzOIC
   9  9,9  | DAb
   9  9,9  | DAd
@@ -981,6 +956,7 @@
   9  9,9  | DuI
   9  9,9  | DuO
   9  9,9  | DzO
+  9  5,8  - ICe
   9  5,8  - ICh
   9  5,8  - ICy
   9  8,7  | ILIA
@@ -1026,7 +1002,6 @@
   9  6,10 - LOt
   9  6,10 - LaO
   9  6,10 - LeO
-  9  5,7  | Lf
   9  6,10 - LoO
   9  6,10 - LuO
   9  5,8  - OCa
@@ -1049,8 +1024,6 @@
   9  8,8  - Oi
   9 11,7  | OnTAL
   9  8,8  - Oo
-  9  8,8  - Op
-  9  8,8  - Oy
   9  6,6  - VAIL
   9  6,6  - VIAL
   9  6,6  - VIOL
@@ -1191,14 +1164,10 @@
   8  9,4  | AtLOID
   8  9,5  | AwALD
   8 10,6  | AwLS
-  8  6,8  - Cf
-  8  6,8  - Cg
   8  6,8  - Ch
-  8  6,8  - Cp
   8  8,7  | ILIa
   8  2,8  - ILeAC
   8  2,8  - ILiAC
-  8  5,4  | ILk
   8 10,6  | ILkS
   8 10,6  | ILlS
   8 10,5  | IOtAS
@@ -1226,7 +1195,6 @@
   8 10,6  | LAcS
   8 10,6  | LAdS
   8 10,6  | LAgS
-  8  5,4  | LAk
   8 10,6  | LAmS
   8 10,6  | LAoS
   8 10,6  | LApS
@@ -1263,7 +1231,6 @@
   8 10,6  | LIdS
   8 10,6  | LIeS
   8  8,8  | LIfO
-  8  8,8  | LIjA
   8  8,8  | LIlA
   8  2,8  - LIlAC
   8  8,8  | LImA
@@ -1335,7 +1302,6 @@
   8  2,8  - OLeIC
   8 10,6  | OLeS
   8  5,7  - OOrALI
-  8 10,8  | OSLo
   8  5,6  - OVaL
   8 10,5  | ObIAS
   8  8,6  | ObLI
@@ -1371,7 +1337,6 @@
   8  6,6  - VIoL
   8  6,6  - VIrL
   8  6,6  - VLeI
-  8  6,6  - VLsI
   8  6,6  - VOL
   8  6,6  - VOLe
   8  6,6  - VOLs
@@ -1430,7 +1395,6 @@
   8  8,6  | fILI
   8 10,6  | fILS
   8  3,6  - fLAV
-  8  7,8  | fM
   8  8,6  | gALI
   8 10,6  | gALS
   8  3,6  - gALV
@@ -1440,7 +1404,6 @@
   8  8,7  | gLIA
   8 10,6  | gLIS
   8 10,6  | gLOS
-  8  7,8  | gM
   8  8,8  - gOA
   8  8,8  - gOI
   8  8,6  | gOLI
@@ -1459,7 +1422,6 @@
   8 10,6  | jOLS
   8  8,8  - kAI
   8  8,6  | kALI
-  8  5,6  | kI
   8  4,6  - kLVA
   8  8,8  - kOA
   8  8,8  - kOI
@@ -1481,21 +1443,16 @@
   8 10,6  | oILS
   8  8,7  | oLIO
   8  9,10 - oO
-  8 10,8  | oSLO
   8  5,6  - oVAL
   8  8,6  | pALI
   8 10,6  | pALS
   8  4,6  - pAVIA
   8  9,10 - pI
   8  8,8  - pIA
-  8  9,8  - pIA
   8  8,6  | pILI
-  8  7,8  | pM
   8  9,10 - pO
   8  8,8  - pOA
-  8  9,8  - pOA
   8  8,8  - pOI
-  8  9,8  - pOI
   8 10,6  | pOLS
   8 10,5  | rAIAS
   8 10,6  | rALS
@@ -1528,13 +1485,10 @@
   8  5,6  - uVAL
   8  9,5  | vALID
   8  8,6  | vILI
-  8 10,7  | vLSI
   8 10,6  | vOLS
   8  3,8  - wAAC
   8  8,6  | wALI
   8  8,6  | yALI
-  8  9,10 - yI
-  8  9,10 - yO
   8  3,8  - zOIC
   8 10,6  | zOLS
   7  9,8  - AA
@@ -1543,7 +1497,6 @@
   7 11,4  | AILAnTO
   7  8,5  | AIOnIAL
   7  4,6  - AIVr
-  7  5,4  | AIk
   7  4,7  | AIoLI
   7  8,6  | ALAI
   7  4,8  | ALAI
@@ -1590,7 +1543,6 @@
   7  9,10 - Ai
   7  4,10 - AiL
   7  3,6  - AkOV
-  7  4,8  - AlC
   7  9,5  | AlOID
   7  4,8  - AnC
   7  1,7  - AnILAO
@@ -1605,7 +1557,6 @@
   7  8,5  | AuLOI
   7  8,6  | AvAIL
   7  9,5  | AvOID
-  7  9,10 - Aw
   7  9,5  | AxOID
   7  3,7  - AzIOLA
   7  2,7  - ILOkO
@@ -1673,12 +1624,10 @@
   7  4,6  - LiV
   7  9,7  | LuDO
   7 11,7  | LuTAO
-  7  5,4  | OAk
   7  6,7  - OArIAL
   7  2,8  - OArIC
   7  9,8  - OI
   7  8,10 - OI
-  7  5,4  | OIk
   7  9,6  | OLiD
   7  5,7  - OOIdAL
   7  6,7  - OOrALI
@@ -1703,7 +1652,6 @@
   7  4,8  - OsC
   7  4,8  - OtC
   7  6,7  - OvOLI
-  7  9,10 - Ow
   7 11,9  | TaL
   7 11,9  | TeL
   7 11,9  | TiL
@@ -1883,7 +1831,6 @@
   6  5,6  - AVg
   6  5,6  - AVn
   6  5,6  - AVo
-  6  3,8  - AbAC
   6 10,6  | AbAS
   6 10,6  | AbOS
   6 10,7  | AbSI
@@ -1990,7 +1937,6 @@
   6  6,10 - Lb
   6  9,7  | LcD
   6  9,7  | LeD
-  6  6,10 - Lf
   6  9,7  | LhD
   6  9,7  | LiD
   6  6,10 - Lo
@@ -2000,7 +1946,6 @@
   6  9,7  | LuD
   6  7,9  | Ma
   6  7,9  | Mb
-  6  7,9  | Mf
   6  7,9  | Mo
   6  7,9  | Mu
   6 10,7  | OASt
@@ -2100,7 +2045,6 @@
   6  6,6  - ViI
   6 10,6  | aIAS
   6  8,6  | aLAI
-  6  4,8  - aLC
   6  8,6  | aLII
   6 10,8  | aSIA
   6 11,8  | aTLI
@@ -2204,7 +2148,6 @@
   6 10,7  | nASA
   6 10,7  | nASI
   6 10,7  | nASO
-  6  4,6  - nAV
   6 10,6  | nIAS
   6  8,7  | nOIL
   6  9,6  | nOLD
@@ -2221,7 +2164,6 @@
   6 11,7  | pATAO
   6 11,7  | pATIA
   6 11,7  | pATIO
-  6  4,6  - pAV
   6 10,6  | pIAS
   6 10,7  | pISA
   6 10,7  | pISO
@@ -2272,7 +2214,6 @@
   6 11,5  | vOLATA
   6  8,7  | wAIL
   6  9,6  | wILD
-  6 10,10 - wO
   6  9,6  | wOLD
   6  5,6  - xVI
   6  9,6  | yALD
@@ -2381,7 +2322,6 @@
   5 11,8  | ITmO
   5 11,8  | ITzA
   5  4,7  - IdOLA
-  5  9,8  - If
   5  2,7  - IgLOO
   5 11,5  | IhLAT
   5  8,7  | IlIAL
@@ -2450,21 +2390,15 @@
   5  4,7  - ObOLI
   5  9,8  - Oe
   5  8,10 - Oe
-  5  9,8  - Of
   5  9,8  - Oi
   5  8,10 - Oi
   5  6,7  - OlLA
   5  9,8  - Oo
   5  8,10 - Oo
   5  8,10 - Op
-  5  8,6  | OpAI
-  5  4,8  | OpAI
   5  3,7  - OrLO
   5  6,7  - OrLO
-  5  3,7  - OsLO
-  5  6,7  - OsLO
   5  4,7  - OvOLI
-  5  8,10 - Oy
   5 11,9  | TAA
   5 11,9  | TAI
   5 11,9  | TAO
@@ -2529,7 +2463,6 @@
   5  8,8  - kA
   5  9,6  | kAID
   5  8,8  - kI
-  5  5,6  - kV
   5  4,8  - lAC
   5  9,6  | lAID
   5  9,6  | lOAD
@@ -2562,21 +2495,18 @@
   5  8,10 - oO
   5  9,6  | oOID
   5  8,8  - pA
-  5  9,8  - pA
   5  4,8  - pAC
   5  9,6  | pAID
   5 11,6  | pALTA
   5  4,7  - pAOLA
   5  4,7  - pAOLO
   5  8,8  - pI
-  5  9,8  - pI
   5  4,8  - pIC
   5 11,5  | pILOT
   5 11,5  | pLAIT
   5 11,6  | pLATO
   5 11,5  | pLOAT
   5  8,8  - pO
-  5  9,8  - pO
   5 11,5  | pOLIT
   5  3,7  - pOLOI
   5  4,7  - pOOLI
@@ -2628,11 +2558,8 @@
   5  9,6  | wOAD
   5  8,8  - xI
   5  8,8  - yA
-  5  9,8  - yA
   5  8,8  - yI
-  5  9,8  - yI
   5  8,8  - yO
-  5  9,8  - yO
   5  4,8  - zAC
   5  9,6  | zOID
   4  8,6  | AAlII
@@ -2648,7 +2575,6 @@
   4  8,8  | AIr
   4  8,8  | AIs
   4  8,8  | AIt
-  4  4,7  - ALO
   4  4,7  - ALOd
   4  4,7  - ALOe
   4  4,7  - ALOp
@@ -2702,7 +2628,6 @@
   4  8,7  | AnIL
   4 11,6  | AnITA
   4  4,7  - AnOIA
-  4  3,7  - ApIO
   4  9,6  | ApOD
   4  9,6  | ArAD
   4 11,6  | ArATI
@@ -2719,7 +2644,6 @@
   4  4,7  - AwOL
   4  8,7  | AxIL
   4  3,7  - IAgO
-  4  9,8  | IDA
   4  8,8  | IIi
   4  8,9  | ILA
   4  4,7  - ILOt
@@ -2888,8 +2812,6 @@
   4  3,7  - OmAO
   4  6,7  - OmAO
   4  9,6  | OoID
-  4 10,8  - Op
-  4  6,7  - OpAI
   4 11,6  | OpATA
   4  9,6  | OrAD
   4  9,7  | OrD
@@ -3062,10 +2984,8 @@
   4  5,10 - eL
   4  9,7  | eLD
   4  5,10 | eN
-  4 10,8  - fA
   4  9,7  | fADO
   4  5,8  - fC
-  4 10,8  - fI
   4  9,7  | fIDO
   4  8,8  | fILA
   4  4,8  | fILI
@@ -3073,12 +2993,10 @@
   4  3,7  - fILO
   4  8,8  | fILO
   4 11,6  | fILT
-  4  5,10 - fL
   4 11,6  | fLAT
   4  9,7  | fLD
   4 11,6  | fLIT
   4 11,6  | fLOT
-  4  5,10 | fN
   4  5,7  - fOAL
   4  5,7  - fOIL
   4  4,7  - fOOL
@@ -3178,7 +3096,6 @@
   4  9,7  | oLD
   4  3,7  - oLIO
   4  4,8  | pALI
-  4 11,6  | pALT
   4  9,8  | pDL
   4  8,8  | pIAL
   4  4,8  | pILI
@@ -3217,8 +3134,6 @@
   4 11,6  | sLAT
   4  9,7  | sLD
   4 11,6  | sLIT
-  4  3,7  - sLOO
-  4  4,7  - sLOO
   4 11,6  | sLOT
   4  9,7  | sODA
   4  5,7  - sOIL
@@ -3243,7 +3158,6 @@
   4  5,7  - tOOL
   4 11,7  | uLTA
   4 11,7  | uLTO
-  4 10,8  | uSA
   4  8,7  | vAI
   4  8,8  | vIAL
   4  8,7  | vII
@@ -3269,7 +3183,6 @@
   3  9,8  | ADa
   3  9,8  | ADc
   3  9,8  | ADd
-  3  9,8  | ADj
   3  9,8  | ADm
   3  9,8  | ADo
   3  9,8  | ADp
@@ -3312,7 +3225,6 @@
   3 11,7  | AnTA
   3 11,7  | AnTI
   3  8,7  | ApII
-  3  8,7  | ApIO
   3  8,7  | ArIA
   3  8,7  | AsIA
   3 11,7  | AsTA
@@ -3324,7 +3236,6 @@
   3  4,7  - IAO
   3  8,9  | IAO
   3  9,8  | ID
-  3  9,8  | IDa
   3  9,8  | IDe
   3  9,8  | IDs
   3  8,9  | ILa
@@ -3425,7 +3336,6 @@
   3  9,8  | aDO
   3  9,7  | aID
   3  8,8  | aIL
-  3  4,7  - aLO
   3 10,7  | aLS
   3 11,7  | aLT
   3  9,7  | bAD
@@ -3492,7 +3402,6 @@
   3 11,6  | hOIT
   3  5,7  - hOL
   3 11,7  | hOTI
-  3  9,8  | iDA
   3 11,7  | iOTA
   3  9,7  | jAD
   3 11,7  | jATI
@@ -3628,7 +3537,6 @@
   2 10,7  | AiS
   2 11,7  | AiT
   2  4,7  - AkO
-  2  4,7  - AlO
   2 10,7  | AlS
   2 11,7  | AlT
   2  8,7  | AmI
@@ -3657,14 +3565,11 @@
   2  9,9  | Do
   2  9,9  | Dp
   2  9,9  | Du
-  2  9,9  | Dy
   2  8,9  | IAn
   2  8,9  | IAo
   2  8,9  | IIi
   2  5,7  - IO
   2  8,9  | IO
-  2  5,7  - IOf
-  2  8,9  | IOf
   2  5,7  - IOn
   2  8,9  | IOn
   2  5,7  - IOu
@@ -3679,7 +3584,6 @@
   2  8,9  | IbA
   2  4,7  - IbO
   2  8,9  | IbO
-  2  8,9  | IdA
   2 10,7  | IdS
   2 10,7  | IfS
   2 10,7  | IhS
@@ -3773,11 +3677,12 @@
   2 11,7  | OuT
   2  6,7  - OvA
   2 11,7  | OwT
+  2  4,7  - OxO
+  2  6,7  - OxO
   2 10,7  | OzS
   2 10,9  | Sh
   2 10,9  | Si
   2 10,9  | So
-  2 10,9  | Sw
   2 11,9  | TA
   2 11,9  | TAa
   2 11,9  | TAb
@@ -3908,7 +3813,6 @@
   2  4,9  | iII
   2 11,8  | iTA
   2  4,9  | jAI
-  2 11,7  | jAT
   2 11,7  | jOT
   2  4,9  | kAI
   2 10,7  | kAS
@@ -3956,7 +3860,6 @@
   2 11,8  | oTO
   2 10,7  | pAS
   2 11,7  | pAT
-  2  9,8  | pD
   2  8,8  | pIA
   2 10,7  | pIS
   2 11,7  | pIT
@@ -4026,7 +3929,6 @@
   2 10,7  | xIS
   2 10,7  | yAS
   2 11,7  | yAT
-  2  9,8  | yD
   2 10,7  | yIS
   2 11,7  | yOT
   2 11,7  | zAT
@@ -4079,7 +3981,6 @@
   1 11,8  | eT
   1  8,8  | fI
   1  4,10 | fI
-  1 10,8  | fS
   1  8,8  | gI
   1  4,10 | gI
   1  5,7  - gO
@@ -4105,7 +4006,6 @@
   1  8,8  | pI
   1  4,10 | pI
   1  5,7  - pO
-  1 11,8  | pT
   1  8,8  | qI
   1  4,10 | qI
   1  8,8  | sI
