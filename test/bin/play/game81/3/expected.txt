@@ -1,19 +1,12 @@
- 38  5,7  - DENEB
  35  8,4  | BEHOVED
  33  8,4  | BEHOVE
- 32  7,7  - DEBE
  32  6,2  | VENOMED
- 30  7,7  - DEB
- 30  7,7  - DOB
- 30  7,7  - NEB
- 30  7,7  - NOB
  28 10,1  | ABD
- 28 10,1  | ABN
+ 28  6,5  - EBOE
  28  6,7  - EBOE
  28  6,5  | EMBDEN
  28  6,2  | NEVOME
  27  7,5  - BEODE
- 27  8,7  - OBE
  27  4,2  - OVENED
  26  6,1  | BEEDOM
  26  7,7  - BEEN
@@ -25,7 +18,7 @@
  25 10,1  | ANDE
  25  3,5  - DEBONE
  25  3,7  - DEBONE
- 25  8,7  - OB
+ 25  2,5  - OVENED
  25  2,7  - OVENED
  25  5,2  - VENED
  24  8,2  - BENO
@@ -33,20 +26,25 @@
  24  6,2  - BOVE
  24  4,2  - DEBONE
  24  6,6  | MOBED
+ 24  3,5  - VENED
  24  3,7  - VENED
  23  8,4  | BEHEN
  23  5,2  - BONED
  23  6,2  - VEND
  22 10,1  | AOB
- 22  9,7  - BE
+ 22  3,5  - BEDEN
  22  3,7  - BEDEN
  22  7,5  - BEE
  22  7,7  - BEE
+ 22  3,5  - BODEN
  22  3,7  - BODEN
  22  7,5  - BOE
  22  7,7  - BOE
+ 22  3,5  - BONED
  22  3,7  - BONED
+ 22  5,5  - DEBE
  22  5,7  - DEBE
+ 22  3,5  - DENEB
  22  3,7  - DENEB
  22  6,2  | ENDOME
  22  8,6  | HEVED
@@ -62,12 +60,16 @@
  21  6,2  - BOND
  21  3,5  - DEVON
  21  3,7  - DEVON
+ 21  3,5  - DOVEN
  21  3,7  - DOVEN
  20 10,1  | AB
  20 10,1  | AND
+ 20  5,5  - BEDE
  20  5,7  - BEDE
  20  6,7  - BEE
+ 20  5,5  - BENE
  20  5,7  - BENE
+ 20  5,5  - BENO
  20  5,7  - BENO
  20  5,2  - BEODE
  20 10,2  - BO
@@ -75,53 +77,46 @@
  20  5,7  - BODE
  20  5,5  - BONE
  20  5,7  - BONE
+ 20  3,5  - BOVE
  20  3,7  - BOVE
+ 20  3,5  - DEBEN
  20  3,7  - DEBEN
+ 20  1,5  - DEBONE
  20  1,7  - DEBONE
- 20  2,7  - DEBONE
  20  6,2  | DENOM
  20  6,2  - DEVE
  20  8,5  | DHOBEE
  20  6,2  - DOVE
  20  8,6  | HOVE
- 20  6,6  | MENDE
  20  6,6  | MONDE
  20  6,2  - NEVE
  20  6,2  - NEVO
  20  6,5  - OBE
  20  6,7  - OBE
- 20  3,7  - VEEN
  19 10,3  | BENa
  19  9,4  | BOWDEN
  19  2,7  - DENEB
- 19  4,7  - DONEE
  19  9,4  | DOWVE
- 19  5,7  - ENDE
  19  4,5  - ENODE
  19  4,7  - ENODE
  19  8,6  | HEBEN
- 19  4,7  - VEND
  18  6,2  - BEDE
- 18  3,7  - BEEN
  18  8,4  | BEHN
- 18  4,7  - BEND
  18  6,2  - BENE
  18  6,2  - BENO
  18  9,4  | BEWEND
  18  6,2  - BODE
- 18  4,7  - BOND
  18  6,2  - BONE
  18  6,2  - DEBE
  18  4,7  - DEBE
  18  7,5  - DEE
  18  7,7  - DEE
+ 18  5,5  - DENE
  18  5,7  - DENE
- 18  2,7  - DEVON
  18  7,5  - DOE
  18  7,7  - DOE
  18  5,5  - DONE
  18  5,7  - DONE
- 18  2,7  - DOVEN
  18  9,4  | ENWOVE
  18  6,2  - EVOE
  18  7,5  - NEE
@@ -132,51 +127,58 @@
  18  5,7  - NODE
  18 10,6  | aBEND
  17  7,6  | ABOVE
+ 17  3,5  - BEDE
  17  3,7  - BEDE
- 17  2,7  - BEDEN
+ 17  3,5  - BENE
  17  3,7  - BENE
  17  3,5  - BENO
  17  3,7  - BENO
+ 17  3,5  - BODE
  17  3,7  - BODE
- 17  2,7  - BODEN
  17  7,3  | BONAV
+ 17  3,5  - BONE
  17  3,7  - BONE
+ 17  5,5  - DEB
  17  5,7  - DEB
- 17  2,7  - DEBEN
  17  8,5  | DHENEB
  17  5,5  - DOB
  17  5,7  - DOB
  17  8,7  - EEN
  17  8,7  - EON
+ 17  4,5  - EVEN
  17  4,7  - EVEN
  17  8,6  | HEBE
+ 17  5,5  - NEB
  17  5,7  - NEB
  17  5,5  - NOB
  17  5,7  - NOB
  17  9,5  - OBE
+ 17  4,5  - OVEN
  17  4,7  - OVEN
+ 17  4,5  - VEEN
  17  4,7  - VEEN
+ 16  4,5  - BEEN
  16  4,7  - BEEN
  16  6,4  - BENDEL
- 16  4,7  - BENE
  16  8,4  | BOH
- 16  4,7  - BONE
+ 16  3,5  - DEVE
  16  3,7  - DEVE
  16  5,2  - DONEE
  16  3,7  - DONEE
+ 16  3,5  - DOVE
  16  3,7  - DOVE
+ 16  4,5  - EBEN
  16  4,7  - EBEN
  16  6,2  - EBOE
  16  4,5  - EBON
  16  4,7  - EBON
  16  9,2  - EDO
+ 16  6,5  - EDO
  16  6,7  - EDO
  16  5,2  - ENODE
- 16  3,7  - EVEN
  16  8,6  | HEDEBO
  16  8,6  | HOB
- 16  6,7  - NEE
- 16  6,7  - NEO
+ 16  3,5  - NEVE
  16  3,7  - NEVE
  16  3,5  - NEVO
  16  3,7  - NEVO
@@ -187,7 +189,6 @@
  16  6,5  - ONE
  16  6,7  - ONE
  16  9,2  - ONO
- 16  3,7  - OVEN
  16  5,5  - VOD
  16  5,7  - VOD
  16  5,5  - VON
@@ -196,8 +197,11 @@
  16 10,6  | aBODE
  16 10,6  | aDOBE
  15  6,7  - BE
+ 15  5,5  - BED
  15  5,7  - BED
+ 15  5,5  - BEN
  15  5,7  - BEN
+ 15  2,5  - BEODE
  15  2,7  - BEODE
  15  7,4  - BEVEL
  15  5,5  - BOD
@@ -206,10 +210,9 @@
  15  5,7  - BON
  15  9,4  | BOWNE
  15  4,7  - DEB
+ 15  3,5  - DEBE
  15  3,7  - DEBE
  15  4,7  - DOB
- 15  3,7  - EBEN
- 15  3,7  - EBON
  15  6,2  - ENED
  15  9,4  | ENWEB
  15  4,7  - EVOE
@@ -229,61 +232,65 @@
  14  7,7  - BO
  14  9,4  | BOWED
  14  9,4  | BOWN
- 14 10,5  | BaDON
  14 10,5  | BaNDE
  14 10,5  | BaNDO
  14 10,5  | BaNED
  14  6,4  | DEMOVE
  14  6,2  - DENE
- 14  4,7  - DENE
  14  6,2  - DONE
- 14  4,7  - DONE
  14  4,7  - EBOE
+ 14  4,5  - EDEN
  14  4,7  - EDEN
- 14  5,7  - END
  14  6,2  - ENDE
+ 14  4,5  - ENED
  14  4,7  - ENED
  14  6,4  | ENMOVE
+ 14  2,5  - ENODE
  14  2,7  - ENODE
+ 14  3,5  - EVOE
  14  3,7  - EVOE
+ 14  4,5  - NEED
  14  4,7  - NEED
  14  6,2  - NODE
  14  7,3  | VEDA
  14  5,7  - VEE
  14  7,3  | VENA
  14  5,7  - VOE
- 14  4,7  - VON
  13  7,6  | ADOBE
  13  7,6  | ADVENE
  13  7,6  | ANDEVO
  13  7,4  | BEANED
  13  5,7  - BEE
- 13  4,7  - BEN
  13  5,7  - BOE
- 13  4,7  - BON
  13 10,5  | BaND
  13  7,5  | DAVEN
+ 13  5,5  - DEN
  13  5,7  - DEN
+ 13  3,5  - DENE
  13  3,7  - DENE
  13  7,4  - DEVEL
  13  8,4  - DOBL
  13  5,5  - DON
  13  5,7  - DON
+ 13  3,5  - DONE
  13  3,7  - DONE
+ 13  2,5  - DONEE
  13  2,7  - DONEE
  13 10,5  | DaVEN
+ 13  3,5  - EBOE
  13  3,7  - EBOE
- 13  3,7  - EDEN
  13  8,5  - EE
  13  8,7  - EE
  13  8,5  - EO
  13  8,7  - EO
  13  7,4  | EVADNE
  13  8,6  | HONED
+ 13  5,5  - NED
  13  5,7  - NED
  13  7,4  - NEVEL
  13  5,5  - NOD
  13  5,7  - NOD
+ 13  3,5  - NODE
  13  3,7  - NODE
  13  7,4  - NOVEL
  13  5,7  - OB
@@ -298,7 +305,6 @@
  12  7,6  | ABEND
  12 10,1  | AD
  12 10,1  | AN
- 12  7,5  | BADON
  12  7,5  | BANED
  12  7,4  - BEDEL
  12  7,3  | BENA
@@ -311,13 +317,15 @@
  12  9,4  | DOWN
  12  7,5  | EAVED
  12  9,7  - ED
+ 12  5,5  - EEN
  12  5,7  - EEN
  12  6,5  | EMBED
- 12  6,5  | EMOVE
  12  9,7  - EN
+ 12  3,5  - ENDE
  12  3,7  - ENDE
  12  5,5  - EON
  12  5,7  - EON
+ 12  4,5  - EVE
  12  4,7  - EVE
  12  8,6  | HEND
  12  8,6  | HOND
@@ -328,11 +336,11 @@
  12  9,4  | NOWED
  12  9,7  - OD
  12  9,7  - ON
- 12  5,7  - ONE
  12  9,1  | TOV
+ 12  4,5  - VEE
  12  4,7  - VEE
+ 12  4,5  - VOE
  12  4,7  - VOE
- 12  9,6  | WB
  12  9,6  | WEND
  12  9,6  | WODEN
  12 10,6  | aNODE
@@ -340,26 +348,28 @@
  11  7,6  | ABODE
  11  7,5  | BANDE
  11  7,5  | BANDO
+ 11  4,5  - BEE
  11  4,7  - BEE
  11  7,2  | BENDA
+ 11  4,5  - BOE
  11  4,7  - BOE
  11 10,5  | BaD
  11 10,5  | BaN
  11  5,7  - DEE
- 11  4,7  - DEN
  11  7,3  | DEVA
  11  5,7  - DOE
- 11  4,7  - DON
  11 10,5  | DaVE
+ 11  6,5  - ED
  11  6,7  - ED
+ 11  6,5  - EN
  11  6,7  - EN
  11 10,5  | EaVED
  11  8,6  | HONE
  11  6,6  | MOVE
- 11  6,7  - NE
  11  5,7  - NEE
  11  7,3  | NOVA
  11 10,5  | NaVE
+ 11  4,5  - OBE
  11  4,7  - OBE
  11  6,5  - OD
  11  6,7  - OD
@@ -374,6 +384,7 @@
  11  9,6  | WEEN
  10  7,6  | ABED
  10  7,6  | ABV
+ 10  5,5  - BE
  10  5,7  - BE
  10  7,2  - BED
  10  6,4  | BEME
@@ -392,19 +403,16 @@
  10  7,7  - DO
  10  8,4  | DOH
  10  9,7  - EE
- 10  4,7  - EEN
  10  6,5  | EMDEN
  10  6,5  | EMEND
  10  9,3  | ENEW
  10  9,3  | ENOW
- 10  4,7  - EON
  10  7,4  | EVADE
  10  8,6  | HED
  10  8,6  | HEN
  10  8,6  | HOD
  10  8,6  | HON
  10  6,6  | MBD
- 10  6,6  | MEV
  10 10,3  | NE
  10  7,5  - NE
  10  7,7  - NE
@@ -412,7 +420,6 @@
  10  7,7  - NO
  10  8,4  - NOEL
  10  8,4  | NOH
- 10 10,5  | NaV
  10  9,7  - OE
  10  9,5  | OWD
  10  9,5  | OWED
@@ -433,14 +440,15 @@
   9  6,4  | BOM
   9 10,5  | Ba
   9  7,5  | DAVE
+  9  4,5  - DEE
   9  4,7  - DEE
+  9  4,5  - DOE
   9  4,7  - DOE
   9  6,4  | DOMN
   9 10,5  | DaB
   9  4,5  - EDO
   9  4,7  - EDO
   9  6,7  - EE
-  9  5,7  - EN
   9 10,4  | EOaN
   9  7,4  | EVAN
   9  7,2  - EVE
@@ -451,13 +459,15 @@
   9  6,6  | MEND
   9  6,6  | MOB
   9  7,5  | NAVE
+  9  4,5  - NEE
   9  4,7  - NEE
   9  4,5  - NEO
   9  4,7  - NEO
   9 10,5  | NaB
+  9  4,5  - ODE
   9  4,7  - ODE
   9  6,7  - OE
-  9  5,7  - ON
+  9  4,5  - ONE
   9  4,7  - ONE
   9  7,5  | VADE
   9  7,5  | VANE
@@ -477,6 +487,7 @@
   8  7,2  - BEE
   8  7,2  - BOE
   8  9,4  - DBL
+  8  5,5  - DE
   8  5,7  - DE
   8  6,3  | DEEM
   8  6,4  | DEME
@@ -505,7 +516,7 @@
   8  6,6  | MODE
   8  6,6  | MOED
   8  6,6  | MONE
-  8  7,5  | NAV
+  8  5,5  - NE
   8  5,7  - NE
   8  7,2  - NED
   8  6,3  | NEEM
@@ -530,7 +541,6 @@
   8  9,6  | WOD
   8  9,6  | WON
   7  7,6  | ABD
-  7  7,6  | ABN
   7  7,6  | AEON
   7  7,6  | ANDE
   7  7,6  | AVE
@@ -546,12 +556,12 @@
   7  6,4  | DOM
   7 10,5  | DaN
   7  7,3  | EDNA
+  7  5,5  - EE
   7  5,7  - EE
   7  5,5  - EO
   7  5,7  - EO
   7  7,4  | EVA
   7  8,6  | HEE
-  7  8,6  | HEO
   7  8,6  | HOE
   7  6,6  | MED
   7  6,6  | MEN
@@ -562,6 +572,7 @@
   7  9,3  - NOU
   7 10,5  | NaD
   7  9,4  - OBL
+  7  5,5  - OE
   7  5,7  - OE
   7  7,4  | OVA
   7  9,1  | TODE
@@ -591,7 +602,6 @@
   6  9,5  | EW
   6  6,6  | MEE
   6  6,6  | MEO
-  6  6,6  | MN
   6  7,2  - NEE
   6  7,2  - NEO
   6 10,5  | NaE
@@ -611,7 +621,6 @@
   6  9,6  | WE
   6  9,6  | WO
   6 10,6  | aBD
-  6 10,6  | aBN
   6 10,6  | aVE
   6 10,6  | aVO
   5  7,6  | AB
@@ -624,7 +633,7 @@
   5  8,2  - DO
   5  9,4  - DOL
   5 10,5  | Da
-  5  9,4  - ENL
+  5  6,5  | EM
   5  7,4  | EOAN
   5 10,5  | EaD
   5 10,5  | EaN

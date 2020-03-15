@@ -34,17 +34,12 @@
  24  4,6  | RECS
  24  4,6  | REMS
  24  8,4  | SEAT
- 23 10,1  | CERN
  23  4,8  | CST
  23  8,5  | EAN
  23  4,7  | EMS
  23  4,8  - MEN
- 23 10,1  | RECS
- 23 10,1  | RECT
  23  4,7  | RMS
  23  8,5  | SAN
- 23 10,1  | SECT
- 23 10,1  | TERM
  22  5,7  - CESTA
  22  6,2  | MEROP
  22  5,7  - METRA
@@ -52,25 +47,22 @@
  22  6,2  | REMOP
  22  4,7  - STEM
  21  8,5  | EAT
- 21 10,1  | ENC
  21  4,6  | MENS
  21  4,8  - MER
  21  4,8  - MES
  21  4,8  - MET
  21  4,8  | NSEC
- 21 10,2  | RCT
  21  8,4  | REA
  21  5,7  - REM
  21  8,5  | SAT
- 21 10,2  | SCT
  21  8,4  | SEA
  21  5,7  - SEM
  21  5,7  - STM
  21  8,4  | TEA
  21  5,7  - TEM
- 20 10,1  | CERT
  20  2,8  - CSNET
  20  5,7  - CTN
+ 20  6,7  - EM
  20  6,7  - ETNA
  20  5,7  - MEN
  20  5,7  - MTN
@@ -83,25 +75,18 @@
  19  4,7  - CRTS
  19  4,6  | ERNST
  19  3,7  - ERNST
- 19 10,1  | ESC
- 19 10,1  | ETC
  19  4,7  - MEST
  19  4,7  - METS
  19  7,7  - MNA
- 19 10,1  | REC
  19  3,8  - RECS
  19  3,8  - RECT
  19  3,7  - RENTS
  19  2,7  - SCENT
- 19 10,1  | SEC
  19  3,8  - SECT
  19  3,8  - STEM
- 19 10,1  | TEC
  18  3,7  - CENT
  18  4,7  | CEST
- 18 10,2  | CRE
  18  4,6  | CRES
- 18 10,2  | CRS
  18  4,6  | CRTS
  18  5,7  - CST
  18  5,7  - CTS
@@ -113,7 +98,6 @@
  18  4,7  | MEST
  18  5,7  - MET
  18  4,6  | METS
- 18 10,2  | MRS
  18  2,8  - MSEC
  18  5,7  - MTS
  18  6,2  | NETOP
@@ -149,33 +133,28 @@
  17  5,7  - REN
  17  5,7  - SEN
  17  7,7  - SMA
- 17 10,2  | TC
  17  5,7  - TEN
- 17 10,1  | TERN
  16  2,7  - CENTS
  16  3,8  - CRES
  16  2,7  - CSNET
- 16 10,1  | CTR
  16  6,7  - EN
  16  4,7  - ERST
  16  6,2  | ESTOP
  16  8,7  - MANI
  16  4,8  - ME
  16  8,4  - MENO
- 16 10,1  | MER
  16  4,7  | NEST
  16  5,7  - NET
  16  4,6  | NETS
  16  2,8  - NSEC
  16  4,7  - REST
  16  4,7  - RETS
- 16 10,1  | SCR
  16  6,2  | STROP
  16  4,7  - TRES
  15  8,4  - CERO
  15  8,8  - CREE
  15  2,7  - CREST
- 15 10,2  | ERN
+ 15  5,8  - EM
  15  4,7  | ERST
  15  5,7  - EST
  15  9,3  - MCG
@@ -212,8 +191,6 @@
  14  3,8  - SEC
  14  3,7  - SECT
  14  4,8  - SEN
- 14 10,1  | SERT
- 14 10,1  | STRE
  14  3,8  - TEC
  14  4,8  - TEN
  14  4,7  | TRS
@@ -240,7 +217,6 @@
  12  4,7  - CTS
  12  4,7  - EMS
  12  3,7  - ERNS
- 12 10,2  | ERS
  12  9,3  - MEG
  12 10,4  | MEO
  12  4,7  - MES
@@ -263,7 +239,6 @@
  12  4,9  | SET
  12  4,9  | STR
  12  3,7  - TENS
- 12 10,2  | TRS
  11  9,7  - AMI
  11  8,6  | ATE
  11  3,8  - CRE
@@ -302,9 +277,7 @@
  10  4,7  - NET
  10  8,7  - RANI
  10  6,3  | SCOP
- 10 10,1  | SER
  10  7,3  - STENG
- 10 10,1  | STR
   9  7,5  | BIM
   9  6,4  | COP
   9 10,5  | EON
@@ -324,13 +297,10 @@
   9  2,8  - STRE
   9  8,4  - TECO
   9  4,7  - TRS
-  8 10,2  | ER
   8  5,7  - ES
   8  5,7  - ET
-  8  9,3  - NEG
   8 10,4  | NEO
   8  6,4  | NOPE
-  8 10,3  | RE
   8  5,7  - RE
   8  3,8  - RTE
   8  8,7  - SARI
@@ -343,7 +313,6 @@
   7  9,7  - ANI
   7  7,5  | BIN
   7  6,8  | CAD
-  7 10,3  - CG
   7  5,7  | CRL
   7  9,3  - ENG
   7  8,8  - ERNE
@@ -387,7 +356,6 @@
   6  9,3  - TEG
   6  6,4  | TOP
   6  8,8  - TREE
-  5  5,7  | ENL
   5 10,4  - MO
   5  6,8  | NAD
   4  8,6  | AT
@@ -396,7 +364,6 @@
   4  9,4  - NEO
   4  6,8  | RAD
   4  5,7  | REL
-  4 10,3  - RG
   4  6,8  | SAD
   4  5,7  | SEL
   4  8,7  - TA

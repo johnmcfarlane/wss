@@ -32,7 +32,6 @@
  25  3,5  | ADS
  24  9,6  - ADS
  24  9,6  - DAS
- 24  9,6  - DES
  23  3,5  | AD
  23  3,5  | AES
  22  9,6  - AAS
@@ -48,7 +47,6 @@
  19  1,1  | BARA
  19  1,1  | BARS
  19  1,1  | DARB
- 19  2,8  | ESD
  19  2,9  | SAB
  18  5,5  | ABASE
  18  5,5  | ABSEE
@@ -71,13 +69,10 @@
  16  5,6  | BEDE
  16  5,6  | BEDS
  16  1,1  | BER
- 16  5,6  | DEBASE
- 16  7,6  | DEBASE
  16  1,1  | SERB
  16 11,1  | SMOCKS
  16  1,10 - TABES
  15  5,5  | ABA
- 15  8,4  - ABAC
  15  5,6  | ABASED
  15  7,6  | ABASED
  15  5,6  | ABEDE
@@ -101,20 +96,16 @@
  14  5,6  | BAD
  14  5,6  | BDS
  14  5,6  | BED
- 14  5,6  | DABS
- 14  7,6  | DABS
  14  3,6  | DASE
  14  3,6  | DEAS
- 14  5,6  | DEBE
- 14  7,6  | DEBE
- 14  5,6  | DEBS
- 14  7,6  | DEBS
  14  3,6  | DEES
  14  5,5  | EASED
  14  7,5  | EASED
  14  3,6  | EASED
  14  7,3  | EDEA
  14  3,6  | EDEA
+ 14 10,1  | EE
+ 14 10,2  - EM
  14  7,1  | OBES
  14  1,10 - TABS
  14  8,3  | dEBASED
@@ -145,19 +136,12 @@
  12  8,5  - BEAK
  12  8,5  - BEEK
  12  2,10 | DA
- 12  5,6  | DAB
- 12  7,6  | DAB
  12  3,6  | DAE
  12  3,6  | DAS
  12  2,10 | DE
  12  3,6  | DEA
- 12  5,6  | DEB
- 12  7,6  | DEB
  12  3,6  | DEE
- 12  3,6  | DES
  12  3,6  | EASE
- 12  5,5  | EDEA
- 12  7,5  | EDEA
  12  1,8  - OBSEDE
  12  1,1  | SARD
  12  1,10 - TAB
@@ -167,27 +151,17 @@
  12  8,3  | dEBASE
  11  5,6  | ABD
  11  7,6  | ABD
- 11  5,5  | ADA
- 11  5,5  | ADS
  11  5,6  | AEDES
  11  7,6  | AEDES
  11  4,6  - BAYED
  11  5,5  - BREAD
  11  5,5  - BREED
  11  3,6  | DA
- 11  5,6  | DASE
- 11  7,6  | DASE
  11  3,6  | DE
- 11  5,6  | DEAS
- 11  7,6  | DEAS
- 11  5,6  | DEES
- 11  7,6  | DEES
  11  3,6  | EAD
  11  7,6  | EASED
  11  3,6  | ED
- 11  3,6  | ESD
  11  6,2  - IB
- 11  6,2  - IDA
  11  6,2  - IDE
  11  4,2  - LEIS
  11  7,1  | OBE
@@ -197,7 +171,6 @@
  10  5,6  | ABS
  10  7,6  | ABS
  10  4,6  - ABYES
- 10  5,5  | AD
  10  2,10 | AD
  10  5,6  | ASB
  10  7,6  | ASB
@@ -215,8 +188,6 @@
  10  1,1  | EARS
  10  5,5  | EASE
  10  7,5  | EASE
- 10  5,5  | ED
- 10  7,5  | ED
  10  2,10 | ED
  10  7,6  | EDEA
  10  6,4  - ESE
@@ -252,16 +223,6 @@
   9  5,5  - BREES
   9  5,6  - BYEE
   9  5,6  - BYES
-  9  5,6  | DAE
-  9  7,6  | DAE
-  9  5,6  | DAS
-  9  7,6  | DAS
-  9  5,6  | DEA
-  9  7,6  | DEA
-  9  5,6  | DEE
-  9  7,6  | DEE
-  9  5,6  | DES
-  9  7,6  | DES
   9  7,6  | EASE
   9  3,6  | EE
   9  3,6  | ES
@@ -288,17 +249,12 @@
   8  5,5  - BRED
   8  5,6  - BYE
   8  5,6  - BYS
-  8  5,6  | DA
-  8  7,6  | DA
-  8  5,6  | DE
-  8  7,6  | DE
   8  5,5  - DRAB
   8  7,6  | EAD
   8  8,4  - ED
   8  7,5  | EE
   8  2,10 | EE
   8  2,10 | ES
-  8  7,6  | ESD
   8  1,6  - FEDS
   8  1,6  - FEED
   8  6,5  - REBS
@@ -441,7 +397,6 @@
   5  5,6  - AYS
   5 10,3  - BO
   5  5,5  - DREE
-  5  5,6  - DY
   5  5,6  - EYE
   5  6,2  - IS
   5  1,8  - OB
@@ -451,10 +406,8 @@
   5  6,5  - REES
   5  4,6  - SAY
   5  5,6  - SYE
-  5  1,9  - USA
   5  1,9  - USE
   5  6,6  - YAS
-  5  6,6  - YD
   5  6,6  - YEA
   5  6,6  - YEE
   5  6,6  - YES
@@ -490,7 +443,6 @@
   4  8,3  | dAS
   4  8,3  | dEA
   4  8,3  | dEE
-  4  8,3  | dES
   3  5,5  - ARA
   3  5,5  - ARE
   3  5,5  - ARS

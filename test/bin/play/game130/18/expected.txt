@@ -1,8 +1,6 @@
  42  6,15 - SKATOMA
  36  6,15 - SKATOLE
  36 12,11 | UPARM
- 33 15,7  | MAIR
- 33 15,7  | MOIR
  31 15,6  | AMLI
  31  5,6  - IMAGE
  31  5,6  - IMAGO
@@ -17,17 +15,12 @@
  28  3,7  - LIM
  28 15,8  | LIM
  27 15,8  | AIM
- 27 15,7  | AMIR
- 27 15,7  | EMIR
- 27 15,7  | LAIR
- 27 15,7  | LOIR
  27 15,8  | RIM
  27 12,4  - YARM
  27 12,4  - YEOM
  27 12,4  - YIRM
  26  3,7  - AIM
  26  3,7  - ARM
- 26  7,5  | MANE
  26 15,5  | MARLI
  26  4,6  - MIRAGE
  26  4,6  - ORLAGE
@@ -50,13 +43,13 @@
  24 14,1  | LOAMIER
  24  6,6  - LOGE
  24 15,6  | MARI
- 24 15,8  | MIR
  24 15,6  | MOAI
  24 15,6  | RAMI
  24 15,6  | REMI
  24  7,10 | UREA
  24  7,10 | URIA
  23 15,7  | AMI
+ 23  4,7  - EM
  23 15,7  | LAI
  23  8,14 - LAMER
  23  3,6  | LEAM
@@ -76,13 +69,11 @@
  23  8,14 - MARL
  23  8,14 - MEAL
  23  8,14 - MELA
- 23 12,9  - MEQ
  23  8,14 - MERL
  23  8,14 - MILA
  23  8,14 - MILE
  23  7,1  - MILO
  23  8,14 - MILO
- 23  7,4  | MORNE
  23  3,6  | OLAM
  23  4,7  - OM
  22  9,14 - AMOLE
@@ -90,7 +81,6 @@
  22  3,7  | LAM
  22 15,6  | LARI
  22 12,7  - LEAM
- 22 15,8  | LIR
  22 12,7  - LOAM
  22 14,1  | LOOMER
  22 15,6  | LORI
@@ -100,10 +90,7 @@
  22  3,6  | REAM
  22  3,6  | ROAM
  21  3,7  | AAM
- 21 15,8  | AIR
- 21  7,4  | AM
  21  3,7  | EAM
- 21 15,8  | EIR
  21 15,7  | ELI
  21  6,11 - HM
  21  6,6  - IAGO
@@ -129,7 +116,6 @@
  21  8,14 - MIRA
  21  8,14 - MIRE
  21  8,14 - MIRO
- 21  7,4  | OM
  21  6,6  - RAGE
  21  3,7  | RAM
  21  7,10 | UM
@@ -226,7 +212,6 @@
  17  3,6  | LIAR
  17 10,13 | LIE
  17 10,13 | LOE
- 17  4,7  - MA
  17 12,7  - MAIR
  17  8,13 - MALEO
  17  9,13 - MALO
@@ -234,14 +219,12 @@
  17 12,7  - MARI
  17  4,4  - MARLI
  17 12,7  - MARO
- 17  4,7  - ME
  17 12,7  - MEAR
  17 12,7  - MEIO
  17 12,7  - MERO
  17 13,4  | MILER
  17  9,13 - MILO
  17 13,4  | MILOR
- 17  4,7  - MO
  17 12,7  - MOAI
  17 12,7  - MOIR
  17 13,4  | MOLAR
@@ -258,13 +241,11 @@
  17  6,13 - ZIRAM
  16 13,7  - AIM
  16  8,14 - AIM
- 16  3,7  - ALE
  16  6,12 - ALEM
  16  6,12 - ALMA
  16  8,12 | ALMA
  16  6,12 - ALME
  16  5,5  - ALMNER
- 16  3,7  - ALO
  16  6,12 - AMAL
  16  6,12 - AMEL
  16  9,14 - AMIE
@@ -336,7 +317,6 @@
  16  3,13 | REM
  16  4,4  - REMAIL
  16  6,13 - ZEMI
- 15  3,7  - AM
  15 10,13 | ARE
  15  3,7  | EAR
  15  5,6  | ELEMI
@@ -409,14 +389,12 @@
  14  3,8  | AR
  14  3,7  - ARE
  14  9,14 - ARM
- 14  7,5  | ARNE
  14  3,7  - ARO
  14  9,14 - EAM
  14  3,13 | ELA
  14 13,4  | EMO
  14  9,14 - EMO
  14  8,12 | ERMA
- 14  7,5  | ERNE
  14 13,4  | IMA
  14  9,14 - IMA
  14  8,12 | IRMA
@@ -472,16 +450,16 @@
  13 10,14 | AE
  13 13,4  | AIMER
  13  3,5  - ALMOIN
- 13 10,13 - ALO
  13 13,4  | AM
  13  3,14 | AM
  13 13,4  | ARMER
  13  5,4  - ARMIL
  13 13,4  | ARMOR
  13 13,4  | ELM
+ 13 13,4  | EM
+ 13  3,14 | EM
  13  5,4  - EMAIL
  13  8,6  - GO
- 13  4,7  - LA
  13  8,14 - LAI
  13 12,7  - LAIR
  13 12,7  - LAM
@@ -497,7 +475,6 @@
  13  8,14 - LIE
  13  5,5  - LIMN
  13  8,14 - LIR
- 13  4,7  - LO
  13 12,7  - LOIR
  13 12,7  - LORA
  13 12,7  - LORE
@@ -505,18 +482,22 @@
  13 13,4  | MA
  13 12,7  - MA
  13  3,13 | MA
+ 13  2,14 | MA
  13  4,5  - MALINE
  13 13,4  | ME
  13 12,7  - ME
  13  3,13 | ME
+ 13  2,14 | ME
  13  4,5  - MELANO
  13  6,5  - MENIAL
  13  5,4  - MERIL
  13 13,4  | MI
+ 13  2,14 | MI
  13  7,4  - MIAE
  13  7,4  - MIAO
  13 13,4  | MO
  13 12,7  - MO
+ 13  2,14 | MO
  13  5,2  | MOLIERE
  13  4,5  - MOLINE
  13  6,5  - MONIAL
@@ -568,6 +549,7 @@
  12  9,14 - EILA
  12  5,8  | ELIA
  12  9,14 - ELIA
+ 12  9,14 - EM
  12  6,4  - EMIL
  12  9,14 - ERAL
  12  4,5  - ERMANI
@@ -622,19 +604,16 @@
  12 14,1  | ROMEO
  12  7,10 | URA
  12  7,10 | URI
- 12  6,13 - ZEA
  12  6,13 - ZER
  12  6,13 - ZOA
  11  7,1  - AERO
  11  2,5  - AILERON
  11 13,4  | AIM
  11  5,3  | AIMORE
- 11  3,7  - AL
  11  3,13 | AL
  11  4,5  - ALIENOR
  11  3,4  | ALIMA
  11  4,5  - ALMON
- 11  8,1  - ALO
  11  3,4  | ALOMA
  11  3,3  | AMELIA
  11  5,5  - AMINE
@@ -742,8 +721,6 @@
  10  6,12 - ALIA
  10  8,12 | ALIA
  10  5,5  - ALINER
- 10 13,4  | ALO
- 10  9,14 - ALO
  10  6,12 - ALOE
  10 13,7  - AMI
  10  7,5  - ANIM
@@ -835,7 +812,6 @@
  10  6,5  - MINA
  10  6,5  - MINE
  10  6,5  - MINO
- 10  7,5  - MN
  10 14,1  - MO
  10  3,3  | MOARIA
  10 14,1  | MOILE
@@ -897,11 +873,11 @@
   9 15,12 | DEM
   9 13,4  | EL
   9  3,14 | EL
+  9 14,3  - EM
   9  4,6  | EMF
   9  7,5  - ENOIL
   9  7,5  - ENROL
   9 13,13 - ERA
-  9  6,11 - HR
   9  8,4  - IAO
   9  5,5  - IMAN
   9  7,5  - INROL
@@ -970,7 +946,6 @@
   9 13,11 | TEAL
   9 13,11 | TEEL
   9 12,11 | UPLA
-  9  7,10 | UR
   9  4,12 - VEAL
   9  4,12 - VIAL
   8  6,12 - AAL
@@ -994,8 +969,6 @@
   8  4,5  | ALEF
   8  4,5  - ALIEN
   8  4,5  | ALIF
-  8 13,7  - ALO
-  8  6,12 - ALO
   8  4,5  - ALOIN
   8  3,5  | AMIA
   8  5,5  | AMIE
@@ -1037,7 +1010,6 @@
   8  4,5  - ELIAN
   8  4,5  - ELOIN
   8 13,5  | EMIR
-  8  7,5  - ENL
   8  7,5  - ENOL
   8 13,4  | ERA
   8  9,14 - ERA
@@ -1094,7 +1066,6 @@
   8  9,12 | MELT
   8  6,5  - MEN
   8  5,5  | MERE
-  8  4,7  | MF
   8  5,5  | MIAE
   8  9,12 | MILT
   8  6,5  - MIN
@@ -1149,9 +1120,7 @@
   7  6,5  - AINE
   7 13,7  - AIR
   7  5,5  - ALEN
-  7  4,6  | ALF
   7  5,5  - ALIN
-  7  6,5  - ALN
   7 13,7  - AM
   7  9,12 | AMIT
   7 12,6  | AMU
@@ -1178,6 +1147,8 @@
   7  5,5  - ELAN
   7  4,6  | ELF
   7  5,5  - ELON
+  7 14,1  - EM
+  7 13,7  - EM
   7  9,12 | EMIT
   7  1,14 - EMIl
   7 12,6  | EMU
@@ -1240,7 +1211,6 @@
   7  9,12 | MORT
   7 12,6  | MOU
   7 12,6  | MRU
-  7  8,5  - NAEL
   7  8,5  - NAIL
   7  8,5  - NALE
   7  8,5  - NEAL
@@ -1335,7 +1305,6 @@
   6 14,3  - EO
   6  9,14 - EO
   6  5,5  - EOAN
-  6  4,6  | EOF
   6 14,3  - ER
   6  9,14 - ER
   6  4,6  | ERF
@@ -1348,7 +1317,6 @@
   6  7,5  - INO
   6 14,3  - IO
   6  9,14 - IO
-  6  4,6  | IOF
   6  5,5  - IRAN
   6  5,5  - IRON
   6 14,1  - LA
@@ -1357,7 +1325,6 @@
   6 12,6  | LAUR
   6  6,5  - LEN
   6  5,5  | LERE
-  6  4,7  | LF
   6  6,5  - LIN
   6  5,5  | LIRE
   6 14,1  - LO
@@ -1449,6 +1416,7 @@
   5  5,5  | EIRE
   5 14,1  - EL
   5 13,7  - EL
+  5  1,14 - EM
   5  6,5  - EON
   5 13,13 - ER
   5  3,5  | ERIA
@@ -1671,8 +1639,6 @@
   3 10,2  | TOI
   3 10,2  | TOO
   3 10,2  | TOR
-  3 12,8  | UR
-  3 14,10 - UR
   2  3,7  | AA
   2  6,12 - AA
   2  8,14 | AA

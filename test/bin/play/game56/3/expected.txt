@@ -1,10 +1,8 @@
  51  9,6  | KNELLS
  51  9,6  | KNOLLS
  42  9,6  | KELSON
- 42  9,6  | KLOSSE
  30  9,1  - ELF
  29  2,1  - LESSON
- 26  9,1  - EOF
  26  2,1  - NOLLE
  26  3,1  - SOLEN
  25  4,3  - SNELL
@@ -14,7 +12,6 @@
  21  9,1  | ERNS
  21  9,1  | ORLE
  20  6,3  - ELL
- 20  6,3  - ENL
  20  3,1  - LENO
  20  3,1  - LONE
  20  6,4  | OLDNESS
@@ -22,12 +19,14 @@
  19  8,4  | LEMONS
  19  3,3  - LOSEL
  19  2,3  - NOSSEL
+ 19  4,5  - SLONE
  19  4,7  - SLONE
  19  3,3  - SOLEN
  18  9,1  | ERN
  18  8,4  | LEMON
  18  5,5  - LENO
  18  5,7  - LENO
+ 18  5,5  - LONE
  18  5,7  - LONE
  18  7,3  - OLE
  18  9,1  | ORL
@@ -37,7 +36,9 @@
  17  3,1  - NOSE
  17  3,1  - SLOE
  17  3,1  - SOLE
+ 17  5,5  - SOLE
  17  3,1  - SONE
+ 17  5,5  - SONE
  17  5,7  - SONE
  16 10,6  | ALLEN
  16 10,6  | ALLOSE
@@ -58,10 +59,11 @@
  16  4,3  - NOEL
  16  5,7  - NOSE
  16  2,5  - NOSSEL
+ 16  6,5  - OLE
+ 16  6,5  - ONE
  16  6,7  - ONE
  15  9,1  | EROS
  15  3,7  - LENOS
- 15 10,1  | LOSE
  15  3,3  - LOSES
  15  8,6  | MELONS
  15  8,6  | MOLLES
@@ -138,7 +140,6 @@
  12  5,3  - LEO
  12  7,5  - LO
  12  3,3  - LONE
- 12 10,1  | LOO
  12  8,6  | MELS
  12  8,6  | MENO
  12  8,6  | MENS
@@ -147,6 +148,7 @@
  12  8,6  | MOLS
  12  8,6  | MONE
  12  8,6  | MONS
+ 12  7,5  - NE
  12  7,7  - NE
  12  8,4  | NEMO
  12  5,3  - NEO
@@ -264,8 +266,6 @@
   9  7,4  - LENOS
   9  8,4  - LEOS
   9  8,4  - LESS
-  9 10,1  - LF
-  9 10,1  | LO
   9  6,4  | LODENS
   9  8,4  - LOSS
   9  6,4  - LOSSES
@@ -275,7 +275,6 @@
   9  8,6  | MESS
   9  8,6  | MOSE
   9  8,6  | MOSS
-  9 10,5  | NAEL
   9 10,5  | NALE
   9  9,4  | NEK
   9  7,1  | NELL
@@ -350,7 +349,6 @@
   7 10,1  - EF
   7  7,2  | ELL
   7  7,4  | ELUL
-  7  7,2  | ENL
   7  8,4  - ENOS
   7 10,1  | EO
   7  8,4  - EONS
@@ -425,7 +423,6 @@
   6  6,4  | LODE
   6  4,1  - LOE
   6  7,5  | LUES
-  6  8,6  | MN
   6 10,5  | NA
   6  5,5  - NE
   6 10,5  - NE
@@ -473,7 +470,6 @@
   5 10,6  | AEON
   5 10,6  | ALES
   5 10,6  | ALL
-  5 10,6  | ALN
   5 10,6  | ALOE
   5 10,6  | ALSO
   5 10,6  | ANES
@@ -490,6 +486,7 @@
   5  7,2  | EEN
   5  7,2  | EL
   5  6,4  | ELD
+  5  8,5  | EM
   5  7,2  | EN
   5  6,4  | END
   5  5,5  - EO
@@ -539,12 +536,10 @@
   5  7,6  | ULE
   5  7,6  | UNS
   4 10,6  | ALE
-  4 10,6  | ALO
   4 10,6  | ALS
   4 10,6  | ANE
   4 10,6  | ANS
   4 10,6  | ASSE
-  4  6,6  | DES
   4  6,6  | DOE
   4  6,6  | DOS
   4  6,5  | EDO
@@ -553,7 +548,6 @@
   4  5,1  - EO
   4  6,1  | ERN
   4  6,1  | EROS
-  4  6,4  | ESD
   4  7,2  | ESE
   4  7,2  | ESS
   4  7,4  | ESU

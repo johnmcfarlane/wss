@@ -1,9 +1,23 @@
  59  1,11 - MOIRA
+ 57  9,11 - MAY
+ 57  9,11 - MOY
  48  9,11 - RAM
  48  9,11 - RIM
  48  9,11 - ROM
  45  2,11 - MORAY
+ 45  9,11 - MYA
  42  8,9  - EMIR
+ 39  9,11 - MAO
+ 39  9,11 - MAR
+ 39  9,9  | MEA
+ 39  9,9  | MEO
+ 39  9,9  | MER
+ 39  9,11 - MIA
+ 39  9,11 - MIR
+ 39  9,11 - MOA
+ 39  9,11 - MOI
+ 39  9,11 - MOO
+ 39  9,11 - MOR
  39  9,11 - ORY
  39  9,11 - RAY
  39  9,11 - ROY
@@ -11,6 +25,7 @@
  38  2,11 - MYRA
  38  1,11 - ORIYA
  37  3,11 - ROAM
+ 36  9,11 - MY
  35  3,11 - MYA
  34  8,9  - EYRA
  34  3,11 - MOAI
@@ -20,6 +35,9 @@
  32  2,11 - MORA
  32  2,11 - RIMA
  31  3,11 - IYAR
+ 30  9,11 - MA
+ 30  9,11 - MI
+ 30  9,11 - MO
  29  3,11 - IMA
  29  3,11 - MIA
  29  3,11 - MOA
@@ -57,26 +75,24 @@
  19  5,8  | MAZY
  19  7,9  | MIA
  19  7,9  | MIR
- 19  2,5  - ROOMY
  19  7,9  - YEA
  19  7,9  - YER
- 18  3,5  - ARMY
  18  5,11 - ARO
  18  1,5  - AYMORO
+ 18  8,9  - EM
  18  8,9  - ERIA
  18  3,5  - MARY
  18  7,9  - ME
+ 18  9,9  | ME
  18  7,9  | MI
  18  3,5  - MIRY
  18  6,1  | MOIRAI
  18  9,11 - OY
- 18  3,5  - RIMY
  18  4,11 - YAR
  18  3,5  - YARM
  18  3,5  - YIRM
  17  6,9  - AYE
  17  5,8  | MOZO
- 16  4,5  - AMY
  16  4,11 - MA
  16  6,2  | MAORI
  16  2,5  - MOORY
@@ -86,20 +102,15 @@
  15  5,11 - AI
  15  3,5  - AMOY
  15  5,11 - AR
+ 15  9,10 | EM
  15  8,9  - EYR
  15  7,7  - IAO
  15  6,9  - MAE
- 15  5,5  - MY
  15  9,9  | OER
  15  9,9  | REA
  15  4,11 - YA
- 15  3,5  - YAM
- 15  3,7  - YAM
- 15  3,5  - YOM
- 15  3,7  - YOM
  14  7,9  - AERY
  14  7,3  | IRAQ
- 14  3,5  - IRMA
  14  3,5  - MARO
  14  5,8  - MARVY
  14  1,5  - MAYOR
@@ -110,14 +121,9 @@
  14  3,7  - MOIO
  14  3,5  - MORA
  14  3,5  - MORO
- 14  3,5  - RIMA
  14  3,5  - ROOM
- 14  2,5  - YARM
- 14  2,7  - YARM
  14  7,9  - YE
  14  7,9  | YI
- 14  2,5  - YIRM
- 14  2,7  - YIRM
  14  4,5  - YOM
  13  8,7  - AMAY
  13  8,7  - AMOY
@@ -132,7 +138,6 @@
  12  2,5  - AMOR
  12  8,7  - AMY
  12  4,5  - ARM
- 12  4,5  - IMA
  12  2,5  - MARIO
  12  2,7  - MARIO
  12  6,11 - MO
@@ -145,32 +150,21 @@
  12  3,5  - OORY
  12  9,11 - OR
  12  4,5  - RIM
- 12  2,5  - ROAM
- 12  2,7  - ROAM
  12  4,5  - ROM
- 12  2,5  - ROOM
- 12  2,7  - ROOM
  11  7,9  - AER
- 11  3,5  - AIM
- 11  3,7  - AIM
  11  8,7  - AMAR
  11  8,7  - AMIA
  11  8,7  - AMIR
  11  8,7  - AMOR
  11  8,7  - AMRA
- 11  3,5  - ARM
- 11  3,7  - ARM
  11  7,8  - IVORY
  11  7,8  - IVRAY
- 11  5,5  - MA
  11  3,5  - MAO
  11  3,5  - MAR
  11  2,5  - MAYO
  11  3,7  - MIA
  11  3,5  - MIR
  11  5,8  - MIRV
- 11  5,5  - MO
- 11  5,7  - MO
  11  3,7  - MOA
  11  3,5  - MOI
  11  3,7  - MOI
@@ -182,15 +176,7 @@
  11  5,5  - OM
  11  3,7  - OMAO
  11  7,8  - OVARY
- 11  3,5  - RAM
- 11  3,7  - RAM
  11  5,2  | RAMIfY
- 11  3,5  - RIM
- 11  3,7  - RIM
- 11  3,5  - ROM
- 11  3,7  - ROM
- 11  4,5  - YM
- 11  4,7  - YM
  11  5,10 | ZA
  10  7,9  | AIM
  10  8,7  - AMA
@@ -210,8 +196,6 @@
  10  8,8  - VARY
  10  8,8  - VIM
  10  6,11 - YO
-  9  4,5  - AM
-  9  4,7  - AM
   9  8,7  - AM
   9  6,8  | AMAY
   9  7,8  - AVOIR
@@ -236,8 +220,6 @@
   9  2,5  - MOOR
   9  2,7  - MORA
   9  2,5  - MORO
-  9  4,5  - OM
-  9  4,7  - OM
   9  1,7  - ORIYA
   9  5,5  - OY
   9  2,5  - RAMI
@@ -369,7 +351,6 @@
   5  5,5  - OO
   5  5,4  | OOfY
   5  3,7  - ORA
-  5  5,5  | OfAY
   5  6,9  | RAY
   5  3,7  - RIA
   5  3,5  - RIO
@@ -388,13 +369,11 @@
   4  8,7  - ARA
   4  8,7  - ARO
   4  6,10 | AY
-  4  5,5  | Mf
   4  5,3  | RAIf
   4  5,3  | ROOf
   4  6,9  | YA
   4  6,5  | YI
   4  5,6  | fAY
-  4  5,6  | fM
   4  5,6  | fOY
   4  5,6  | fRY
   3  8,7  - AA
@@ -429,7 +408,6 @@
   2  5,4  | ARf
   2  6,6  | IO
   2  7,10 | IO
-  2  5,4  | IOf
   2  5,4  | OAf
   2  6,5  | OI
   2  5,4  | OOf

@@ -9,31 +9,30 @@
  26  7,5  - ADM
  26  7,5  - ADP
  26  9,3  | DAZE
- 26  8,5  - MAPS
- 26  9,5  - PAV
  26  9,5  | ZEDS
  25  9,3  | ADZE
- 25  8,5  - MAP
  25  9,5  - MAP
+ 25  9,7  - MAP
  25  9,5  - PAM
+ 25  8,7  - SMA
  25  9,5  | ZED
  24 10,6  | DAMPS
  24  9,3  | PAVED
  24  9,2  | VAMPED
  23  8,5  - DP
  23  9,5  - MAD
+ 23  9,7  - MAD
  23  9,5  - PAD
  23  8,4  | SDUMP
  23  9,5  | SEZ
- 23  9,5  | ZEA
- 22  8,5  - DAPS
  22  9,5  - MAS
+ 22  9,7  - MAS
  22  7,3  | MAZED
  22  9,5  - PAS
  22  9,3  | PAVES
- 21  8,5  - DAP
  21  8,5  | DUMPS
  21  9,5  - MA
+ 21  9,7  - MA
  21  7,3  | MAZES
  21  9,5  - PA
  21  7,2  | SMAZE
@@ -44,11 +43,7 @@
  20  9,3  | PAVE
  20  9,5  | VEPS
  20  8,3  | ZAPUS
- 19  9,5  - DP
  19  9,7  - DP
- 19  9,5  | MEV
- 19  8,7  - PD
- 19  7,5  - PM
  19  8,5  | SUMP
  19  8,6  | UMPS
  19  8,4  | VAUS
@@ -94,7 +89,6 @@
  15  9,5  | MEADS
  15  8,4  | PAU
  15  7,3  | PAVE
- 15  7,5  - PD
  15  9,2  | SPADE
  14  8,3  | ADSUM
  14  9,4  | APED
@@ -107,8 +101,6 @@
  14  9,3  | MADE
  14  9,5  | PEDA
  14  9,5  | PEDS
- 14 10,5  - PM
- 14 10,7  - PM
  14  8,5  | PUMAS
  14  9,7  - SAV
  14  9,3  | SAVE
@@ -129,7 +121,6 @@
  13  9,3  | MDSE
  13  9,5  | MEAD
  13  9,5  | MED
- 13  6,7  - PD
  13  9,5  | PED
  13  8,5  | PUMA
  13  9,7  - SAM
@@ -156,13 +147,10 @@
  12  9,5  | MESA
  12  8,3  | PADUS
  12  9,3  | PASE
- 12 10,5  - PD
- 12 10,7  - PD
  12  9,5  | PEAS
  12  9,5  | PESA
  12  9,3  | SAME
  12  7,5  | SEZ
- 12  7,5  | ZEA
  11  8,5  - DA
  11  7,3  | DAMES
  11 10,6  | DAMP
@@ -177,7 +165,6 @@
  11  9,5  | MES
  11  7,5  | MESAD
  11  8,5  | MUDS
- 11 10,5  - PA
  11 10,7  - PA
  11  7,3  | PASE
  11  9,5  | PEA
@@ -194,7 +181,6 @@
  11  8,3  | VASU
  11  7,5  | VEPS
  11  7,5  | VESP
- 11  8,5  | VUM
  10  8,4  | AMUS
  10  9,4  | APE
  10  8,4  | APUS
@@ -206,7 +192,6 @@
  10  9,6  | EPA
  10  8,3  | MASU
  10  7,5  | MEADS
- 10  7,5  | MEV
  10  8,5  | MUSA
  10  6,5  | PuMAS
  10  8,4  | SAUM
@@ -222,6 +207,7 @@
   9  7,5  | DEVA
   9  7,5  | DEVS
   9  9,6  | EDP
+  9  9,6  | EM
   9  7,6  | EMDA
   9  7,6  | EMP
   9  9,4  | MAES
@@ -234,7 +220,6 @@
   9  6,5  | SuMP
   9  8,6  | UPS
   9  7,5  | VEDA
-  9  6,5  | VuM
   9  6,6  | uMPS
   8  6,3  | ADSuM
   8 10,5  | ADV
@@ -281,7 +266,6 @@
   7  9,5  | DEA
   7  7,5  | DEM
   7  7,5  | DEP
-  7  9,5  | DES
   7 10,6  | DSP
   7  6,5  | DuMA
   7  6,5  | DuPS
@@ -337,7 +321,6 @@
   6  8,5  | MU
   6  6,5  | MuD
   6  6,5  | MuSA
-  6 10,5  | PD
   6  7,5  | PEA
   6  7,5  | PES
   6  6,5  | PuD
@@ -349,7 +332,6 @@
   6  6,5  | SuPA
   6  8,6  | UM
   6  8,6  | UP
-  6  8,6  | USA
   6  6,4  | VAu
   6  6,6  | uPAS
   6  6,6  | uVA
@@ -368,7 +350,7 @@
   5  7,5  | DEAS
   5  9,6  | EAD
   5  9,6  | ED
-  5  9,6  | ESD
+  5  7,6  | EM
   5  6,4  | MAu
   5  7,5  | ME
   5  6,5  | MuS
@@ -387,10 +369,8 @@
   4  7,4  | DAE
   4 10,6  | DAS
   4  7,5  | DEA
-  4  7,5  | DES
   4  8,5  | DU
   4  7,6  | EAD
-  4  7,6  | ESD
   4  6,5  | Mu
   4 10,4  | SAD
   4  9,4  | SAE
@@ -417,5 +397,4 @@
   2  6,5  | Du
   2  7,6  | ES
   2  6,4  | SAu
-  2  6,6  | uSA
   1  6,6  | uS

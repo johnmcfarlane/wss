@@ -1,10 +1,4 @@
- 68 11,9  | VOD
- 64 11,8  | OVER
- 62 11,9  | IOF
  61 11,8  | FIED
- 59 11,9  | VEI
- 59 11,9  | VER
- 59 11,9  | VOE
  56 11,8  | FIDE
  56 11,8  | FIDO
  52 11,8  | FIRE
@@ -27,7 +21,6 @@
  30  8,9  - DIKE
  30  8,9  - DOKE
  30 11,9  | ID
- 30 10,9  - KV
  30  5,10 - OVERFED
  29  6,4  - DOZE
  27  8,9  - REKI
@@ -40,23 +33,17 @@
  26 11,9  | IO
  26 11,8  | OI
  25  1,4  - ERODE
- 25  5,5  - REFED
  24  3,4  - FIRE
  24  3,4  - FORE
  24  9,9  - IKE
  24  9,9  - OKE
  24 10,1  | OOID
- 24  4,5  - OVERED
- 23  3,4  - DEF
- 23  3,4  - DIF
  22  5,10 - DERIVE
  22  6,5  | DRIVER
  22  6,5  | DROVER
  22  6,10 - OVERED
  22  5,10 - REDIVE
  22  6,10 - REIVED
- 22  5,10 - VOIDEE
- 22  6,10 - VOIDEE
  22  6,10 - VOIDER
  21  2,3  | AFIRE
  21  2,3  | AFORE
@@ -64,14 +51,11 @@
  21  4,4  - DIE
  21  4,4  - DOE
  21  1,4  - EIDER
- 21  7,5  - FED
- 21  3,4  - FEI
  21  3,4  - FER
  21  3,4  - FIE
  21  3,4  - FIR
  21  3,4  - FOE
  21  3,4  - FOR
- 21  4,4  - IFE
  21  3,4  - ODE
  20  6,10 - DEFIER
  20  6,10 - DERVE
@@ -103,14 +87,10 @@
  18  7,5  | DERIV
  18  4,4  - DI
  18  4,4  - DO
- 18  4,4  - EF
  18  7,5  | FEVER
  18  3,7  - FIRED
  18  3,7  - FRIED
- 18  4,4  - IF
  18 10,9  - KI
- 18  4,4  - OF
- 18  6,5  - ORED
  18  7,5  | REDIVE
  18  6,10 - REIVE
  18  6,10 - REVIE
@@ -165,7 +145,6 @@
  15  3,4  - OER
  15 11,10 | OF
  15  4,4  - ORE
- 15  7,5  - RED
  15 11,10 | RF
  15  3,5  - VIRE
  15  3,7  - VIRE
@@ -174,8 +153,6 @@
  14  5,7  - DEF
  14  7,5  | DEFIER
  14  7,5  | DERVE
- 14  5,4  - FE
- 14  8,8  - FEI
  14  7,5  | FERIE
  14  7,5  | FERIO
  14  3,5  - FIDE
@@ -210,7 +187,6 @@
  13  3,7  - FIRE
  13  3,5  - FORE
  13  3,7  - FORE
- 13  4,7  - FRED
  13  3,5  - FROE
  13  3,7  - FROE
  13  5,7  - IFE
@@ -243,8 +219,6 @@
  12  7,9  - DOEK
  12  6,10 - DOREE
  12  7,9  - DREK
- 12  9,5  | DY
- 12  8,5  - ED
  12  6,7  - EF
  12  4,4  - EO
  12  4,4  - ER
@@ -278,18 +252,15 @@
  11  7,8  - DEVI
  11  7,8  - DIVI
  11  9,10 | ED
- 11  4,7  - EOF
  11  4,7  - ERF
  11  4,5  - ERODE
  11  7,5  | FEE
- 11  7,5  | FEI
  11  7,5  | FER
  11  5,5  - FERE
  11  2,5  - FERIO
  11  7,10 - FIVE
  11  5,5  - FORE
  11  9,7  - IB
- 11  4,7  - IOF
  11  3,1  | MOIDER
  11  9,7  - OB
  11  9,10 | OD
@@ -329,7 +300,6 @@
  10  5,4  - ID
  10  5,7  - IF
  10  5,5  - IODE
- 10  3,3  | IOF
  10  4,7  - IRED
  10  7,9  - IROK
  10  5,4  - OD
@@ -427,8 +397,6 @@
   8  8,10 - FIED
   8  4,5  - FOE
   8  4,7  - FOE
-  8  6,5  | FRED
-  8  8,10 - FRED
   8  6,5  | FREIR
   8  6,5  | FRIER
   8  4,5  - FRO
@@ -498,7 +466,6 @@
   7  8,10 - FREE
   7  6,5  | FROE
   7  7,10 - FROE
-  7  5,3  | HF
   7  3,3  | IFE
   7  3,3  | IODE
   7  8,8  - IRID
@@ -559,14 +526,12 @@
   6  7,10 - EIDER
   6  6,7  - EO
   6 11,10 | EO
-  6  7,6  | EOF
   6  6,7  - ER
   6 11,10 | ER
   6  6,5  | ERF
   6  7,6  | ERF
   6  8,10 - FEE
   6  9,10 - FEE
-  6  9,10 - FEI
   6  9,10 - FER
   6  9,8  - FIE
   6  8,10 - FIE
@@ -606,7 +571,6 @@
   6  4,3  | TORI
   6  4,3  | TRIO
   6  4,1  | bITER
-  6  4,1  | bVT
   5  2,3  | AER
   5  2,3  | AOR
   5  2,3  | ARE
@@ -634,7 +598,6 @@
   5  9,10 - FE
   5  9,8  - FI
   5  5,3  | HEI
-  5  5,3  | HEO
   5  5,3  | HER
   5  5,3  | HIE
   5  5,3  | HIR

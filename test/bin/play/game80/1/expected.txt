@@ -1,18 +1,20 @@
  43  6,7  - MOXIE
  40  6,7  - MAXI
  40  6,7  - MOXA
+ 39  7,7  - OXIME
+ 38  7,7  - AMEX
  38 10,6  | EMPEXA
+ 38  7,7  - OXIM
  38  5,7  - PIOXE
  36  7,7  - AXIOM
- 36  7,5  - POME
+ 35  8,7  - MAXI
+ 35  8,7  - MOXA
  34  8,5  - AMEX
- 33  7,5  - PAM
- 33  7,5  - POM
+ 34  8,7  - MAX
+ 34  8,7  - MIX
  32  8,5  - AMP
  32  8,5  - EMP
  32  6,7  - MAX
- 32  6,7  - PAX
- 32  6,7  - POX
  31  9,5  - MAX
  31  8,2  | MOXIE
  30  2,7  - AXIOM
@@ -22,9 +24,9 @@
  29  7,7  - AXE
  29  8,3  | EMPEXA
  29  9,7  - EXP
- 29  8,5  - PM
  28  9,5  | PBX
  28  6,1  | PIEMAG
+ 27  4,7  - AXIOM
  27  7,5  - EAM
  27  8,6  | EMPEXA
  27  9,5  - MAP
@@ -38,10 +40,8 @@
  26  8,5  - MAP
  26  8,5  - MOP
  26  8,5  - PAM
- 26  6,5  - PEAI
  26  8,5  - PIM
  26  8,5  - POM
- 26  5,7  - XIPE
  25  9,5  - APX
  25  9,7  - AX
  25  9,7  - EX
@@ -49,8 +49,7 @@
  25  7,4  | POLEAX
  25  8,7  - XI
  24  7,5  - AMIE
- 24  7,5  - APIO
- 24  4,7  - EXPO
+ 24  7,7  - AMIE
  24 10,2  | IPOMEA
  24  9,5  - MAE
  24  9,5  - MAO
@@ -58,61 +57,52 @@
  24  9,5  - MEO
  24  9,5  - MOA
  24  9,5  - MOI
- 24  6,5  - PAM
  24  8,5  - POEM
- 24  4,5  - XIPE
  23  8,5  - AM
+ 23  8,5  - EM
  23  9,4  | EMBOX
  23  9,5  - MA
  23  9,5  - ME
  23  9,5  - MO
  23  8,5  - OM
  23  9,3  | POMBE
- 22  5,7  - AMP
- 22  5,7  - EMP
  22 10,6  | EMPEO
  22  3,7  - EXAM
  22  8,6  | EXPO
- 22  5,7  - IMP
- 22  5,5  - MAPO
  22  3,7  - MAXI
- 22  5,7  - MOPE
  22  3,5  - MOXA
  22  3,7  - OXIM
  21  7,5  - AMI
+ 21  7,7  - AMI
  21  9,5  - AMP
+ 21  9,7  - AMP
  21  7,3  | AMPLEX
  21  7,7  - AX
  21  7,5  - EMO
+ 21  9,7  - EMP
  21  7,5  - EPA
  21  7,5  - EPI
  21  8,6  | EXP
  21  9,5  - IMP
+ 21  9,7  - IMP
  21  7,3  | IMPLEX
  21  9,5  - IPM
  21  8,5  - MIAE
  21  8,5  - MIAO
  21  8,5  - MOAI
  21  7,7  - OX
- 21  7,5  - PEA
- 21  7,7  - PEA
- 21  7,5  - POA
- 21  7,7  - POA
- 21  7,7  - POE
  21  3,7  - POEM
- 21  7,5  - POI
- 21  7,7  - POI
  20  8,5  - AIM
  20  9,6  | BEMIX
  20  8,5  - EAM
- 20  4,5  - EXP
- 20  4,7  - EXP
+ 20  8,7  - EAM
  20  8,5  - MAE
+ 20  8,7  - MAE
  20  8,5  - MAO
- 20  4,7  - MAPO
+ 20  8,7  - MAO
+ 20  8,7  - MEO
  20  8,5  - MIA
  20  8,5  - MOA
- 20  4,5  - MOPE
  20  8,5  - PIA
  20  8,5  - PIE
  20  4,7  - PIMA
@@ -122,35 +112,38 @@
  19  8,6  | EMPEO
  19 10,3  | EMPEXA
  19  3,7  - EXPO
- 19  5,5  - MAP
- 19  5,7  - MOP
- 19  7,5  - PM
  18  9,5  - AMI
- 18  6,5  - APE
+ 18  9,7  - AMI
  18  9,5  - APE
+ 18  9,7  - EMO
  18  9,5  - IMA
+ 18  9,7  - IMA
  18  6,7  - MAE
  18  6,7  - MAO
  18  3,7  - MAPO
  18  9,5  - OPA
  18  9,5  - OPE
- 18  6,7  - OPE
- 18  6,5  - PEA
  18  7,4  | PELIOMA
  18  3,5  - PIMA
- 18  6,7  - POE
  18  8,4  | POEM
  18 10,7  - XI
  17  9,5  - AM
+ 17  9,7  - AM
+ 17  9,7  - EM
  17  8,6  | EMP
  17  9,3  | IAMBE
  17  7,2  | IMPALE
  17  1,5  - IPOMEA
  17  7,6  | LIMAX
  17  8,5  - MA
+ 17  8,7  - MA
+ 17  8,7  - ME
  17  8,5  - MI
+ 17  8,7  - MI
  17  8,5  - MO
+ 17  8,7  - MO
  17  9,5  - OM
+ 17  9,7  - OM
  17  9,5  - OP
  17  8,2  | OXIME
  17  8,5  - PA
@@ -164,46 +157,27 @@
  16  8,2  | AIMEE
  16 10,2  | AIMEE
  16  8,4  | AMEX
- 16  4,5  - AMP
- 16  4,7  - AMP
- 16  5,5  - APE
  16  8,4  | APEX
  16  9,6  | BIOME
  16  9,6  | BIXA
  16  7,5  | ELAMP
  16  5,7  - EMO
- 16  4,5  - EMP
- 16  4,7  - EMP
- 16  5,5  - EPA
- 16  5,7  - EPA
  16  8,6  | EXAM
  16  9,5  | IBEX
  16  5,7  - IMA
- 16  4,5  - IMP
- 16  4,7  - IMP
  16  7,2  | IMPEL
  16  4,7  - IPM
- 16  4,5  - MAP
- 16  4,7  - MAP
  16  7,3  | MAPLE
  16  5,7  - MIAE
  16  5,7  - MIAO
- 16  8,3  | MIXE
- 16  4,5  - MOP
- 16  4,7  - MOP
  16  7,3  | MOPLA
  16  9,4  | MPB
  16  9,5  | OBEX
- 16  5,5  - OPA
- 16  5,7  - OPA
- 16  5,5  - OPE
  16  3,5  - OXEA
  16  7,4  | OXLIP
  16  4,7  - PAM
  16  4,7  - PIM
  16  4,7  - POM
- 16  8,3  | XEME
- 16  8,5  | XEME
  16  8,3  | XIPE
  15  9,4  | AMBE
  15  9,4  | AMBO
@@ -218,19 +192,12 @@
  15  3,7  - MIAO
  15  6,7  - MO
  15  3,7  - MOAI
- 15  6,7  - OP
- 15  6,5  - PA
- 15  6,7  - PA
- 15  6,5  - PE
  15  3,7  - PEAI
  15  7,5  | PLEX
- 15  5,7  - PM
- 15  6,7  - PO
  14  9,5  | ABIME
  14  9,5  | ABP
  14 10,4  | AMEX
  14 10,4  | APEX
- 14  4,7  - APIO
  14  7,2  | APIOLE
  14  7,4  | APLOME
  14  7,3  | AXILE
@@ -250,17 +217,15 @@
  14  8,4  | MEE
  14  4,7  - MEIO
  14  4,5  - MIAE
- 14 10,3  | MIXE
  14  7,5  | MLX
  14  8,4  | PEE
  14  8,4  | PIE
  14  7,2  | PIMOLA
  14  8,4  | POE
- 14 10,3  | XEME
- 14 10,5  | XEME
  14 10,3  | XIPE
  13  4,7  - AIM
  13  7,5  - AM
+ 13  7,7  - AM
  13  9,4  | AMB
  13  7,3  | AMPLE
  13  7,2  | APIOL
@@ -268,6 +233,7 @@
  13  7,3  | AXIL
  13  9,6  | BPI
  13  4,7  - EAM
+ 13  7,5  - EM
  13  7,2  | EMAIL
  13 10,6  | EXP
  13  5,5  - MAE
@@ -275,22 +241,16 @@
  13  5,7  - MIA
  13  5,7  - MOA
  13  7,3  | MOILE
+ 13  7,7  - OM
  13  8,4  | OXEA
- 13  7,5  - PA
- 13  7,5  - PE
- 13  7,7  - PE
  13  6,4  | PEGMA
  13  5,7  - PIA
- 13 10,5  - PM
- 13  7,5  - PO
- 13  7,7  - PO
  13  5,7  - POA
  13  7,2  | POMEL
  13  5,7  - XI
  12  7,5  | ALEX
  12  7,5  | ALIX
  12  5,7  - AM
- 12  3,7  - APIO
  12  8,4  | AXE
  12  7,4  | AXLE
  12  9,6  | BEMA
@@ -298,6 +258,7 @@
  12  9,6  | BOMA
  12  9,6  | BOMI
  12  7,5  | ELIX
+ 12  5,7  - EM
  12  7,4  | EXLA
  12  6,6  | GAMP
  12  6,6  | GIMP
@@ -318,9 +279,6 @@
  12  8,3  | MOPE
  12  7,5  | OLAX
  12  5,7  - OM
- 12  5,5  - OP
- 12  5,7  - OP
- 12  3,7  - OPAI
  12  7,3  | PAIL
  12  7,4  | PALMO
  12  7,3  | PEAL
@@ -372,17 +330,20 @@
  10  4,5  - IMA
  10  6,3  | IMAGE
  10  6,3  | IMAGO
- 10  7,6  | LPM
  10 10,5  - MA
+ 10 10,7  - MA
  10  9,4  | MAB
  10  4,7  - MAO
  10 10,5  - ME
+ 10 10,7  - ME
  10  4,5  - MEA
  10  4,7  - MEO
  10 10,5  - MI
+ 10 10,7  - MI
  10  4,5  - MIA
  10  9,4  | MIB
  10 10,5  - MO
+ 10 10,7  - MO
  10  4,5  - MOA
  10  9,4  | MOB
  10  4,7  - MOI
@@ -507,9 +468,10 @@
   7  9,6  | BOA
   7  9,6  | BOE
   7  7,5  | ELM
+  7 10,5  - EM
+  7 10,7  - EM
   7  7,5  - EO
   7  6,6  | GM
-  7  6,6  | GP
   7  4,7  - IAO
   7  7,4  | IPL
   7  7,6  | LAM
@@ -533,7 +495,6 @@
   7 10,7  - OP
   7  7,4  | PAL
   7 10,5  | PEAI
-  7  6,5  | PG
   7  7,4  | PIL
   7  7,5  | PLI
   7  7,4  | POL
@@ -558,7 +519,6 @@
   6  6,4  | IAGO
   6  9,5  | IB
   6  5,7  - IO
-  6  7,6  | LP
   6 10,4  | MAE
   6  8,5  | MEA
   6 10,5  | MEA
@@ -576,7 +536,6 @@
   6  8,5  | PEE
   6 10,5  | PEE
   6 10,4  | PIE
-  6  7,5  | PL
   6 10,4  | POE
   5  6,5  | AGE
   5  6,5  | AGO
@@ -586,6 +545,8 @@
   5  6,5  | EGO
   5  7,4  | EILA
   5  7,5  | ELIA
+  5  8,6  | EM
+  5 10,6  | EM
   5  6,6  | GAE
   5  6,6  | GEO
   5  6,6  | GIE
@@ -603,7 +564,6 @@
   4 10,5  - AI
   4  7,4  | AIL
   4  7,5  | ALE
-  4  7,5  | ALO
   4  7,5  | ELA
   4  7,5  | ELI
   4 10,5  - EO

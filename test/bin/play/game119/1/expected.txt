@@ -38,7 +38,6 @@
  33  1,3  | MAKE
  33  1,3  | MOKE
  32  6,1  | COMAKE
- 32  3,7  - KOALA
  32  2,2  | MALAX
  31  3,5  - CAAM
  30  1,3  | ACME
@@ -53,7 +52,6 @@
  27  1,2  | ACALE
  27  1,2  | ALCAE
  27  1,2  | AMOLE
- 27  3,5  - CK
  27  3,7  - COAL
  27  1,3  | KALE
  27  1,3  | LAKE
@@ -63,7 +61,6 @@
  26  5,7  - CLOAK
  26  6,2  | CLOKE
  26  6,2  | KMOLE
- 26  3,7  - KOA
  26  6,5  | LECAMA
  25  4,4  | ALICK
  25  4,5  - KAMAO
@@ -81,15 +78,19 @@
  24  1,3  | LACE
  24  1,3  | LAME
  24  6,5  - MACK
+ 24  6,7  - MACK
  24  6,2  | MACLE
  24  1,3  | MALE
  24  4,5  | MICK
  24  6,5  - MOCK
+ 24  6,7  - MOCK
  24  1,3  | MOLE
  23  5,7  - ALACK
  23  4,5  - KAM
+ 23  3,7  - LOAM
  23  4,5  | MILKO
  23  6,5  - MOLKA
+ 23  6,7  - MOLKA
  22  3,3  | CLAcK
  22  4,4  | CLIMA
  22  3,3  | CLOcK
@@ -102,6 +103,7 @@
  21  3,4  | COcKAL
  21  4,2  | LAMAIC
  21  4,5  | OICK
+ 20  5,7  - CML
  20  6,7  - LACK
  20  3,7  - LOC
  20  6,7  - LOCK
@@ -115,12 +117,14 @@
  19  1,5  - MA
  19  3,3  | MACcO
  19  6,5  - MALOCA
+ 19  6,7  - MALOCA
  19  1,5  - MO
  18  6,2  | ACALE
  18  3,3  | ACOcK
  18  6,2  | ALCAE
  18  5,5  - AMOK
  18  6,5  - AMOK
+ 18  5,7  - AMOK
  18  6,2  | AMOLE
  18  3,5  | AcOCK
  18  5,7  - COAK
@@ -138,7 +142,9 @@
  17  4,4  | KAI
  17  4,4  | KOI
  17  6,5  - MACAO
+ 17  6,7  - MACAO
  17  6,5  - MAKO
+ 17  6,7  - MAKO
  17  5,6  | TALCK
  16  3,3  | ALAcK
  16  4,3  | AMLI
@@ -153,9 +159,11 @@
  16  3,5  | CcM
  16  4,1  | KOLAMI
  16  6,5  - MACO
+ 16  6,7  - MACO
  16  4,4  | MAIL
  16  3,4  | MAcK
  16  6,5  - MOCA
+ 16  6,7  - MOCA
  16  4,4  | MOIL
  16  3,4  | MOcK
  16  5,6  | TACK
@@ -170,8 +178,10 @@
  15  6,5  - ALOMA
  15  5,7  - ALOMA
  15  5,5  - AMAL
+ 15  5,7  - AMAL
  15  4,2  | AMALIC
  15  5,5  - AMLA
+ 15  5,7  - AMLA
  15  4,1  | CALAMI
  15  2,3  | CALX
  15  4,4  | CLI
@@ -204,15 +214,20 @@
  14  3,7  - LOA
  14  3,4  | LOcK
  14  6,5  - MAC
+ 14  6,7  - MAC
  14  3,2  | MACAcO
  14  6,5  - MALA
+ 14  6,7  - MALA
  14  4,3  | MALIC
  14  6,5  - MALO
+ 14  6,7  - MALO
  14  3,4  | MAcACO
  14  2,4  | MLX
  14  6,5  - MOC
+ 14  6,7  - MOC
  14  4,4  | MOI
  14  6,5  - MOLA
+ 14  6,7  - MOLA
  14  2,4  | MOXA
  14  6,5  - OLAM
  14  6,7  - OLAM
@@ -230,6 +245,7 @@
  13  4,4  | ALIMA
  13  5,7  - ALMA
  13  5,5  - AMA
+ 13  5,7  - AMA
  13  3,3  | CALc
  13  3,2  | CLOAcA
  13  2,4  | COX
@@ -256,8 +272,8 @@
  12  6,5  - ACK
  12  4,2  | AKALI
  12  4,2  | ALAKI
- 12  5,7  - ALC
  12  5,5  - AM
+ 12  5,7  - AM
  12  6,5  - AMAL
  12  4,4  | AMIC
  12  5,5  | ATOKAL
@@ -288,17 +304,20 @@
  12  3,5  | LcM
  12  4,5  - MA
  12  6,5  - MAL
+ 12  6,7  - MAL
  12  3,2  | MALOcA
  12  5,3  | MALT
  12  5,4  | MATKA
  12  4,5  | MICA
  12  4,5  | MICO
  12  6,5  - MOL
+ 12  6,7  - MOL
  12  5,3  | MOLT
  12  6,5  - OCK
  12  6,7  - OCK
  12  2,3  | OLAX
  12  5,7  - OLM
+ 12  5,7  - OM
  12  3,5  | OcK
  12  5,6  | TALC
  12  3,6  | cACAM
@@ -338,9 +357,11 @@
  11  5,3  | MAAT
  11  6,3  | MAKE
  11  6,5  - MAO
+ 11  6,7  - MAO
  11  1,5  | MEAK
  11  6,5  | MEAK
  11  6,5  - MOA
+ 11  6,7  - MOA
  11  5,3  | MOAT
  11  6,3  | MOKE
  11  5,6  | TALAK
@@ -373,17 +394,18 @@
  10  6,7  - LOC
  10  4,3  | LOCI
  10  6,5  - MA
+ 10  6,7  - MA
  10  6,3  | MACE
  10  4,3  | MALI
  10  4,5  | MILA
  10  4,5  | MILO
  10  5,4  | MKT
  10  6,5  - MO
+ 10  6,7  - MO
  10  4,4  | OKIA
  10  5,6  | TAKAO
  10  5,6  | TAMAL
  10  5,6  | TCK
- 10  3,6  | cK
  10  3,6  | cML
  10  3,6  | cOMAL
  10  3,6  | cOML
@@ -392,8 +414,6 @@
   9  6,5  - AKO
   9  5,7  - ALA
   9  4,3  | ALAI
-  9  6,5  - ALC
-  9  5,7  - ALO
   9  4,4  | AMIA
   9  2,5  | AX
   9  3,4  | CAcAO
@@ -516,7 +536,6 @@
   6  5,4  | ACT
   6  4,5  | AIM
   6  6,5  - ALA
-  6  6,5  - ALO
   6  5,4  | AMT
   6  5,5  | ATM
   6  5,4  | CAT
@@ -565,7 +584,8 @@
   5  6,4  | ALEA
   5  6,3  | ALOE
   5  5,4  | ALTO
-  5  3,4  | ALc
+  5  1,6  | EM
+  5  6,6  | EM
   5  4,6  | IAO
   5  5,4  | LATA
   5  5,4  | LOTA

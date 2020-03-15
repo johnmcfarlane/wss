@@ -1,22 +1,18 @@
 101  1,11 - JARS
  64  8,8  | JAI
  59  1,11 - CARF
- 58  1,9  - SCARF
  51  1,11 - CARD
  51  1,11 - FARD
  50  1,11 - CADS
  50  1,11 - FADS
  49  1,3  - ADC
  47  1,11 - CARS
- 45  1,11 - SCARF
  42  1,3  - FCS
  42  2,11 - JAD
  41  1,3  - RCD
  38  1,9  - CARF
  38  2,11 - JAR
- 37  3,11 - CDF
  37  3,3  - CFD
- 36  2,11 - CARF
  36  1,3  - DCA
  35  2,11 - CDF
  34  1,3  - CDR
@@ -40,27 +36,19 @@
  30  1,9  - SCAD
  29  1,11 - ARCS
  29  9,1  | CAP
- 29  3,9  - CDF
- 29  3,11 - CF
  29  2,11 - CFS
  29  9,1  | CSP
  29  2,11 - FCS
  29  1,11 - SCAR
  29  4,1  | SRAC
- 28  3,3  - CF
  27  2,3  - CAF
- 27  3,9  - CAF
  27  3,9  - FAC
  27  5,5  | JA
  27  9,11 - YAD
- 26  2,9  - ADJ
- 26  5,9  - CF
  26  8,11 - DYAS
  26  1,9  - SCAR
  25  1,3  - ADS
  25  3,3  - AFD
- 25  4,9  - AFD
- 25  2,9  - CARF
  25  5,5  | FAC
  25  4,9  - FC
  25  4,9  - JA
@@ -68,7 +56,6 @@
  25  4,9  - RCD
  24  9,1  | ADP
  24  2,11 - AFD
- 24  3,11 - ARF
  24  2,11 - CAD
  24  1,3  - DSR
  24  2,11 - FAD
@@ -83,21 +70,16 @@
  23  9,1  | DAP
  23  9,1  | DSP
  23  3,5  - FACED
- 23  5,6  | FCS
  23  5,5  - FEAR
  23  3,9  - JA
  23  1,11 - RADS
  23  1,9  - SADR
  23  1,11 - SADR
- 23  8,7  | SAFI
- 22  5,6  | FC
  22  1,5  - SCARFED
  22  2,6  - SCRAW
  22  2,9  - SRAC
  21  3,9  - ARC
- 21  3,9  - ARF
  21  3,5  - CAFES
- 21 11,1  | CF
  21  5,5  - DEAR
  21  3,5  - FACER
  21  3,5  - FACES
@@ -114,8 +96,6 @@
  20  3,5  - CARED
  20  3,5  - CASED
  20  2,11 - CRS
- 20  5,6  | FAC
- 20  7,6  | FAC
  20  2,11 - FAR
  20  3,5  - FARED
  20  2,11 - FAS
@@ -124,7 +104,6 @@
  20  3,11 - RF
  20  2,11 - RFS
  20  9,1  | SAP
- 20  5,6  | SCF
  20  2,11 - SCR
  20  5,5  - SEAR
  19  3,5  - CADER
@@ -134,13 +113,8 @@
  19  3,5  - FADER
  19  3,5  - FADES
  19  2,5  - FARCES
- 19  1,3  - FS
- 19  4,9  - RF
- 18  5,6  | AFD
  18  3,5  - CARES
  18  3,5  - CASER
- 18  5,6  | FAD
- 18  7,6  | FAD
  18  3,5  - FARES
  18  5,8  | JCl
  18  2,5  - SACRED
@@ -151,26 +125,15 @@
  17  3,5  - ARCED
  17  2,5  - CADRES
  17  2,9  - CDF
- 17  3,9  - CF
  17  2,9  - CFD
  17  9,2  - CIF
  17  3,5  - DACES
- 17  5,6  | FAR
- 17  7,6  | FAR
- 17  5,6  | FAS
- 17  7,6  | FAS
- 17  3,11 - FS
  17  2,9  - JAD
  17  4,7  | JADES
  17  4,7  | JARED
  17  3,5  - RACED
- 17  5,6  | SCR
  16  4,7  | ACRES
  16  6,9  | CUJ
- 16  5,6  | FA
- 16  7,6  | FA
- 16  8,9  | FID
- 16  4,8  | FRED
  16  4,7  | JADE
  16  4,6  - JAWS
  16  4,7  - JCL
@@ -187,21 +150,15 @@
  15  4,8  | CRES
  15  7,8  - DCA
  15  5,5  | FA
- 15  4,11 - FAR
  15  4,6  | FARCED
  15  4,11 - FAS
  15  9,2  - FID
  15  3,9  - FRA
- 15  4,5  - FRED
- 15 11,1  | FS
- 15  5,5  | FS
  15  2,9  - JAR
  15  4,6  - JAW
  15 11,6  | MONIED
  15  3,5  - RACES
  15  2,11 - RAD
- 15  5,5  | RF
- 15  4,11 - RFS
  15  2,11 - SAD
  15  3,5  - SAFER
  14  1,3  - AD
@@ -210,7 +167,6 @@
  14  4,6  | CADRES
  14  3,5  - CAFE
  14  5,7  | CARlS
- 14  5,7  | CF
  14  9,2  - CIA
  14  9,2  - CIR
  14  9,2  - CIS
@@ -224,16 +180,11 @@
  14  4,7  | FACED
  14  4,8  | FAE
  14  4,6  | FARCES
- 14  5,7  | FARlS
- 14  5,7  | FC
- 14  7,7  | FC
  14  5,5  - FED
  14  9,2  - FIR
- 14  4,3  - FS
  14  6,9  | JUD
  14  3,5  - RASED
  14  2,9  - RCD
- 14  5,6  | SAC
  14  4,5  | SCARFE
  13  4,5  - ACER
  13  4,5  - ACES
@@ -253,7 +204,6 @@
  13  4,7  | FACES
  13  4,6  | FARCE
  13  3,7  - FARLS
- 13  5,7  | FARl
  13  9,2  - FI
  13  9,2  | FP
  13  6,9  | JUR
@@ -275,11 +225,9 @@
  12  2,5  - FARCE
  12  3,7  - FARL
  12  5,5  - FER
- 12  5,11 - FS
  12 11,6  | MONIER
  12 11,6  | MONIES
  12 11,1  | RF
- 12  5,6  | SAD
  12  2,5  - SCARE
  12  4,6  | SCARED
  12  3,6  - SCAWD
@@ -303,12 +251,9 @@
  11  5,5  | DA
  11  4,7  | DACES
  11  4,5  - DAER
- 11  4,11 - DAR
  11  4,11 - DAS
  11  5,1  | DIF
  11  3,1  | DOC
- 11  5,7  | FA
- 11  7,7  | FA
  11  3,9  - FA
  11  4,11 - FA
  11  2,9  - FAD
@@ -318,8 +263,6 @@
  11  3,5  - FARE
  11  4,7  | FARED
  11  3,5  - FRAE
- 11  5,7  | FS
- 11  7,7  | FS
  11  6,1  | JA
  11  5,5  - JE
  11  4,9  | JE
@@ -328,8 +271,6 @@
  11  4,2  | RCD
  11  5,5  - RED
  11  3,9  - RF
- 11  4,11 - RF
- 11  5,6  | SAR
  11  2,11 - SAR
  11  3,7  - SCALD
  11  5,5  - SED
@@ -338,7 +279,6 @@
  10  4,8  | ACED
  10  5,9  - AD
  10  7,8  | ADV
- 10  8,9  | AID
  10  4,7  | ARCES
  10  4,5  - ARES
  10  1,3  - AS
@@ -354,7 +294,6 @@
  10  4,7  | DACE
  10  5,5  - DEA
  10  5,5  - DER
- 10  5,5  - DES
  10  9,2  - DIA
  10  9,2  - DIR
  10  9,2  - DIS
@@ -376,13 +315,11 @@
  10  4,6  | SCRAE
  10  7,2  | SHED
  10  5,1  | SIC
- 10  8,9  | SID
   9  4,8  | ACER
   9  4,8  | ACES
   9  5,5  - AER
   9  5,5  - AES
   9  4,8  | AFER
-  9  5,5  | AS
   9  7,1  | ASHER
   9  7,1  | ASHES
   9  2,9  - CAR
@@ -402,12 +339,10 @@
   9  2,9  - FAR
   9  4,7  | FARE
   9  4,9  | FEC
-  9  8,9  | FI
   9  5,1  | FID
   9  2,9  - FRA
   9  4,7  | FRAE
   9  2,5  - FRASE
-  9  8,9  - Fw
   9  5,2  | IF
   9  4,7  | RACE
   9  4,2  | RADS
@@ -417,7 +352,6 @@
   9  5,5  - RES
   9  2,5  - SACRE
   9  4,7  | SAFE
-  9  4,11 - SAR
   9  4,7  - SDLC
   9  5,8  | SDlC
   9  5,5  - SEA
@@ -441,15 +375,11 @@
   8  3,1  | DORSA
   8  3,6  - DRAW
   8  6,9  | DUC
-  8  8,11 - DY
   8  6,5  - ER
   8  6,5  - ES
   8  5,7  - FLD
   8  7,8  - FRA
   8  6,9  | FUD
-  8  5,6  - FW
-  8  5,9  | Fl
-  8  8,10 | ID
   8  3,5  - RACE
   8  4,2  | RAD
   8  2,9  - RAD
@@ -462,13 +392,7 @@
   8  7,8  | SAV
   8  7,2  | SHER
   8  7,2  | SHES
-  8  8,9  | SIA
-  8 10,10 | TD
-  8  6,6  - WF
-  8  9,11 - YD
   7  3,9  - AD
-  7  5,7  - ALC
-  7  5,7  - ALF
   7  4,8  | ARED
   7  6,9  | AUF
   7  5,6  - AWD
@@ -505,13 +429,10 @@
   6  5,7  | AD
   6  7,7  | AD
   6  5,1  | AID
-  6  5,11 - AR
   6  4,8  | ARES
   6  4,7  | ARSE
   6 11,1  | AS
   6  5,11 - AS
-  6  5,9  | AlC
-  6  5,9  | AlF
   6  5,8  | CAl
   6  5,7  - CL
   6  4,5  - CRE
@@ -522,9 +443,7 @@
   6  2,1  | ENDS
   6  4,5  - FAE
   6  4,9  | FER
-  6  5,7  - FL
   6  6,9  | FU
-  6  6,7  - LF
   6  4,7  | RASE
   6  4,6  - RAW
   6  4,9  | REC
@@ -584,7 +503,6 @@
   5  3,5  - SARE
   5  5,7  - SLD
   5  6,9  | SUD
-  5  5,6  - SW
   4  8,8  - AA
   4  5,1  | AIR
   4  5,1  | AIS
@@ -595,7 +513,6 @@
   4  5,8  | DAl
   4  4,9  | DEA
   4  4,9  | DER
-  4  4,9  | DES
   4  6,9  | DU
   4  2,1  | ENS
   4  5,8  | RAlS
@@ -611,7 +528,6 @@
   4  5,7  - SLA
   4  6,9  | SUR
   4  5,9  | SlD
-  4  5,10 | lF
   3  4,9  | AER
   3  4,9  | AES
   3  8,9  | AI
@@ -635,10 +551,7 @@
   3  5,8  | SAl
   3  4,9  | SEA
   3  4,9  | SER
-  3  8,9  | SI
   3  5,9  | SlA
-  3  8,9  - Sw
-  3  6,10 | UR
   3  6,10 | US
   2  6,1  | AA
   2  5,5  - AE

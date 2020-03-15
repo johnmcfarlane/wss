@@ -4,26 +4,24 @@
  36  6,11 - YOMP
  33  2,11 - MONTY
  33  5,11 - PYNOT
- 31  5,7  | LPM
  31  5,9  | POM
  30  3,11 - MOLY
  30  3,11 - MONY
  30  3,11 - PLOY
  30  3,11 - POLY
  30  3,11 - PONY
- 29  5,9  - MEQ
- 29  5,7  | TPM
  27  6,9  - EQPT
- 26  5,8  | PM
+ 25  7,7  | NOM
  24  3,11 - ONLY
  23  5,9  | NOM
+ 23  7,7  | TOM
  22  3,9  - POMEL
  21  7,7  | MOL
  21  7,7  | MON
  21  3,11 - TONY
  21  6,11 - YONT
  20  5,9  | MO
- 20  5,6  | OLP
+ 20  7,8  | OM
  20  5,9  | PO
  20  2,9  - POTMEN
  20  2,9  - TOPMEN
@@ -51,7 +49,6 @@
  17  5,5  | NOM
  17  7,5  | NOM
  17  7,3  | PLOT
- 17  4,8  - PMT
  17  7,3  | POLT
  17  7,3  | PONT
  17  5,9  - TEMPO
@@ -65,7 +62,6 @@
  16  5,5  | TOM
  16  7,5  | TOM
  16  5,5  | TOP
- 15  6,9  - EMPT
  15  5,5  | MOL
  15  7,5  | MOL
  15  2,9  - MOLTEN
@@ -90,7 +86,6 @@
  15  7,7  | TON
  14  6,9  - EPLOT
  14  3,9  - LOPE
- 14  5,7  | LP
  14  5,9  - MELT
  14  5,9  - MENO
  14  5,9  - MENT
@@ -107,13 +102,10 @@
  14  4,9  - OPEN
  14  5,9  - PELT
  14  5,9  - PENT
- 14  7,4  | PMT
- 14  5,8  | PO
  14  3,9  - POLE
  14  3,9  - PONE
  14  4,8  - POT
  14  2,7  - POTMAN
- 14  5,8  | PT
  14  4,8  - PTT
  14  4,11 - QTY
  14  5,7  - TAMPON
@@ -227,12 +219,12 @@
  10  3,8  - POLT
  10  3,8  - PONT
  10  5,10 - PROM
- 10  7,5  | PT
  10  6,10 - ROMP
  10  5,7  - TAMP
  10  3,7  - TOMAN
   9  6,7  - AMP
   9  6,9  - ELM
+  9  6,9  - EM
   9  5,7  - LATON
   9  5,9  - LEN
   9  5,9  - LEON
@@ -278,7 +270,6 @@
   8  5,7  - MALO
   8  5,7  - MALT
   8  5,7  - MANO
-  8  5,7  - MANT
   8  4,7  - MOAN
   8  4,10 - MORN
   8  4,11 - MOY
@@ -296,7 +287,6 @@
   8  3,7  - ONTAL
   8  4,7  - OPAL
   8  4,8  - OPT
-  8  5,7  - PALT
   8  5,7  - PANT
   8  5,7  - PAON
   8  4,7  - PLAT
@@ -317,7 +307,6 @@
   8  6,6  - WONT
   8  6,11 - YOM
   7  6,7  - ALP
-  7  6,9  - ENL
   7  5,7  - LAM
   7  5,7  - LAP
   7  5,9  - LEO
@@ -378,7 +367,6 @@
   6  5,6  - OWT
   6  5,7  - PAT
   6  4,7  - POA
-  6  4,10 - POR
   6  5,10 - PRO
   6  4,7  - PTA
   6  5,8  - PTT
@@ -397,7 +385,6 @@
   6  6,6  - WOT
   6  6,11 - YNO
   6  6,11 - YON
-  5  6,7  - ALN
   5  6,7  - AM
   5  6,9  - EL
   5  6,9  - EN
@@ -410,7 +397,6 @@
   5  5,9  - NE
   5  5,6  - OW
   5  5,7  - PA
-  5  5,8  - PT
   5  6,10 - ROTL
   5  5,7  - TANO
   5  4,10 - TORN
@@ -421,7 +407,6 @@
   5  6,6  - WO
   5  6,6  - WT
   5  6,11 - YOT
-  4  6,7  - ALO
   4  6,7  - ALT
   4  6,7  - ANT
   4  5,7  - LAO

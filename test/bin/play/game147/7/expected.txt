@@ -15,9 +15,7 @@
  27  3,9  | TOE
  27  3,9  | TOI
  25 10,1  | EFT
- 25 10,1  | EOF
  25  4,8  - IZOTE
- 25  9,1  | SFZ
  23 10,1  | EF
  23  5,5  - FEZ
  23  9,1  | SIZE
@@ -75,17 +73,14 @@
  16  6,5  | ZEK
  16  3,4  - iKE
  15  1,4  - AOiFE
- 15  7,3  - EOF
  15  6,5  | FEZ
  15  4,8  - IFE
- 15  4,8  - IOF
  15  4,8  - OFT
  15  9,1  | SIKET
  15  9,1  | SOTIK
  15  2,10 - YOEZ
  14  7,3  - EKOI
  14  1,9  - EXITE
- 14  5,5  - FEI
  14  5,5  - FET
  14  5,5  - FOE
  14  6,5  - FOETI
@@ -93,7 +88,6 @@
  14  5,5  - FOT
  14  4,8  - IF
  14  9,2  - IFE
- 14  9,2  - IOF
  14  4,8  - OF
  14  9,2  - OFT
  14  9,1  | SITZ
@@ -134,8 +128,6 @@
  11  6,5  - EKOI
  11  6,7  - EKOI
  11  1,9  - EXT
- 11  6,5  - FEI
- 11  6,7  - FEI
  11  6,5  - FET
  11  6,7  - FET
  11  6,5  - FIE
@@ -201,8 +193,6 @@
   8  6,5  - EFT
   8  6,7  - EFT
   8  6,6  | EKOI
-  8  6,5  - EOF
-  8  6,7  - EOF
   8  6,4  | FOETI
   8  4,6  | GOTE
   8  4,6  | GOTO
@@ -234,7 +224,6 @@
   7  4,6  | GOO
   7  4,6  | GOT
   7  6,4  | IKE
-  7  5,2  | IOF
   7  6,5  | KET
   7  6,4  | KIE
   7  6,5  - OF
@@ -244,12 +233,9 @@
   7  7,3  - TE
   7  7,3  - TI
   7  7,3  - TO
-  7  3,4  - iOF
   6  6,6  | EFT
-  6  6,6  | EOF
   6  6,4  | FEE
   6  6,5  | FEE
-  6  6,5  | FEI
   6  6,5  | FET
   6  6,4  | FIE
   6  6,4  | FOE

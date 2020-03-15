@@ -3,7 +3,6 @@
  51  3,6  | WOOFER
  51  3,6  | WOOMER
  29  3,5  - EMF
- 29  3,5  - FM
  28  6,4  | FREEDOM
  27  7,4  | FORMED
  27  7,5  | FROOM
@@ -11,40 +10,23 @@
  26  6,5  | DEFORM
  26  6,2  | FORMED
  26  7,5  | FREMD
- 26  4,5  - MFD
  26  7,3  | MOORED
- 26  2,7  - OFO
  26  7,6  | ROOFED
  26  7,6  | ROOMED
- 25  1,5  - DEF
- 25  1,7  - DEF
  25  5,5  - FROOM
- 25  5,7  - FROOM
- 24  1,7  - EOF
  24  5,5  - FORMED
- 24  5,7  - FORMED
  24  6,1  | FORMEE
  24  6,2  | FORMEE
  24  5,5  - FREMD
- 24  5,7  - FREMD
  24  4,5  - MFR
  24  7,3  | MOORE
- 24  1,7  - OOF
- 24  1,5  - REF
- 24  1,7  - REF
  23  7,1  | DOOMER
- 23  2,5  - EF
- 23  2,7  - EF
- 23  3,5  - EOF
- 23  3,7  - EOF
  23  7,1  | FOODER
  23  7,4  | FOREDO
  23  7,4  | FORME
  23  7,1  | MOODER
  23  7,3  | MOOR
- 23  2,7  - OF
  23  3,5  - OOF
- 23  3,7  - OOF
  23  7,6  | REDOOM
  23  7,6  | ROOF
  23  7,6  | ROOM
@@ -54,11 +36,9 @@
  22  6,2  | FERME
  22  7,2  | FODER
  22  5,5  - FOREDO
- 22  5,7  - FOREDO
  22  7,4  | FORM
  22  6,2  | FORME
  22  5,5  - FORME
- 22  5,7  - FORME
  22  6,5  - FORMED
  22  6,7  - FORMED
  22  2,2  | FREMT
@@ -66,14 +46,11 @@
  22  7,2  | MODER
  22  2,4  | MOTORED
  21  4,5  | FIRMED
- 21  5,5  - FM
  21  5,5  - FOODER
- 21  5,7  - FOODER
  21  7,4  | FORDO
  21  6,5  - FREMD
  21  6,7  - FREMD
  21  4,4  | FRIED
- 21  4,5  - MF
  21  7,4  | MFR
  21  4,4  | MOIDORE
  21  7,6  | ROMEO
@@ -87,25 +64,18 @@
  20  6,6  | EMEROD
  20  6,1  | EMRODE
  20  6,6  | EMRODE
- 20  2,5  - EOF
- 20  2,7  - EOF
  20  1,5  - FEOD
  20  1,7  - FEOD
  20  7,4  | FERD
  20  5,5  - FODER
- 20  5,7  - FODER
  20  1,7  - FOOD
  20  6,2  | FOODER
  20  7,4  | FORD
  20  5,5  - FORDO
- 20  5,7  - FORDO
  20  5,5  - FORM
- 20  5,7  - FORM
  20  6,5  - FORME
  20  6,7  - FORME
- 20  7,5  | FRED
  20  5,5  - FROM
- 20  5,7  - FROM
  20  7,4  | MERD
  20  1,7  - MOED
  20  4,4  | MOIDER
@@ -124,7 +94,6 @@
  19  7,3  | DOER
  19  7,3  | DOOR
  19  5,5  - FEM
- 19  5,7  - FEM
  19  7,4  | FORE
  19  6,5  - FORM
  19  6,7  - FORM
@@ -135,7 +104,6 @@
  19  7,4  | MORE
  19  7,4  | MORO
  19  4,5  - OFER
- 19  4,7  - OFER
  19  7,5  | ORFE
  19  7,6  | RODEO
  19  7,6  | ROED
@@ -146,18 +114,12 @@
  18  4,1  | DROMOI
  18  7,5  | ERF
  18  5,5  - FEOD
- 18  5,7  - FEOD
  18  7,4  | FER
  18  5,5  - FERD
- 18  5,7  - FERD
  18  4,5  | FIRM
  18  5,5  - FOOD
- 18  5,7  - FOOD
  18  7,4  | FOR
  18  5,5  - FORD
- 18  5,7  - FORD
- 18  5,5  - FRED
- 18  5,7  - FRED
  18  4,4  | FRIM
  18  7,5  | FRO
  18  7,4  | MER
@@ -166,7 +128,6 @@
  18  7,4  | MOR
  18  7,3  | ODOR
  18  4,5  - OFO
- 18  4,7  - OFO
  18  7,5  | ORF
  18  7,6  | REDO
  18  7,6  | REF
@@ -182,20 +143,18 @@
  17  6,7  - DOOMER
  17  3,5  - EF
  17  3,7  - EF
+ 17  3,5  - EM
  17  5,5  - FED
- 17  5,7  - FED
  17  5,5  - FOD
- 17  5,7  - FOD
  17  6,5  - FOODER
  17  6,7  - FOODER
  17  5,3  | FORCED
  17  5,5  - FORE
- 17  5,7  - FORE
  17  5,5  - FROE
- 17  5,7  - FROE
  17  6,5  - FROOM
  17  6,7  - FROOM
  17  6,5  - MOODER
+ 17  6,7  - MOODER
  17  3,5  - OF
  17  3,7  - OF
  17  3,5  - OM
@@ -213,24 +172,20 @@
  16  6,5  - DROME
  16  6,7  - DROME
  16  5,5  - FER
- 16  5,7  - FER
  16  5,5  - FOE
- 16  5,7  - FOE
  16  5,5  - FOO
- 16  5,7  - FOO
  16  5,5  - FOR
- 16  5,7  - FOR
  16  6,5  - FORDO
  16  6,7  - FORDO
  16  6,5  - FOREDO
  16  6,7  - FOREDO
  16  2,2  | FORET
  16  5,5  - FRO
- 16  5,7  - FRO
  16  3,5  | FWD
  16  4,4  | MOID
  16  6,2  | MOORE
  16  6,5  - MOORED
+ 16  6,7  - MOORED
  16  7,5  | ORD
  16  7,6  | RED
  16  7,6  | ROD
@@ -250,7 +205,6 @@
  15  6,5  - DROF
  15  6,7  - DROF
  15  5,5  - FE
- 15  5,7  - FE
  15  6,5  - FEOD
  15  6,7  - FEOD
  15  6,5  - FERD
@@ -264,28 +218,30 @@
  15  5,3  | FORCE
  15  6,5  - FORD
  15  6,7  - FORD
- 15  6,5  - FRED
- 15  6,7  - FRED
  15  3,3  | FROW
  15  4,4  | MEIO
  15  1,5  - MEO
  15  1,7  - MEO
  15  3,3  | MEOW
  15  6,5  - MERD
- 15  6,5  - MFD
+ 15  6,7  - MERD
  15  6,5  - MODER
+ 15  6,7  - MODER
  15  6,5  - MOED
+ 15  6,7  - MOED
  15  4,4  | MOIO
  15  4,4  | MOIR
  15  1,7  - MOO
  15  6,5  - MOOD
+ 15  6,7  - MOOD
  15  4,2  | MOODIER
  15  6,5  - MOOED
+ 15  6,7  - MOOED
  15  6,5  - MORD
+ 15  6,7  - MORD
  15  3,3  | MORW
  15  7,4  | OER
  15  4,5  - OF
- 15  4,7  - OF
  15  7,5  | ORE
  15  4,5  | RIEM
  15  7,6  | ROE
@@ -304,18 +260,20 @@
  14  5,6  | CROM
  14  1,7  - EDO
  14  7,5  | ER
- 14  4,4  | FEI
  14  6,5  - FEM
  14  6,7  - FEM
  14  6,3  | FREEDOM
- 14  4,6  | IOF
  14  5,3  | MERC
  14  6,5  - MFR
+ 14  6,7  - MFR
  14  6,5  - MODE
+ 14  6,7  - MODE
  14  4,3  | MODIF
  14  6,5  - MODO
+ 14  6,7  - MODO
  14  4,4  | MOI
  14  6,5  - MOORE
+ 14  6,7  - MOORE
  14  3,4  | MOWED
  14  1,7  - ODE
  14  7,5  | OR
@@ -331,19 +289,20 @@
  13  3,5  - ED
  13  3,7  - ED
  13  4,2  | FERMI
- 13  6,5  - FM
- 13  6,7  - FM
  13  6,5  - FORE
  13  6,7  - FORE
  13  6,5  - FROE
  13  6,7  - FROE
  13  5,2  | MEDOC
  13  6,5  - MERO
- 13  6,5  - MF
+ 13  6,7  - MERO
  13  5,2  | MODOC
  13  6,5  - MOOR
+ 13  6,7  - MOOR
  13  6,5  - MORE
+ 13  6,7  - MORE
  13  6,5  - MORO
+ 13  6,7  - MORO
  13  3,4  | MOWER
  13  3,5  - OD
  13  3,7  - OD
@@ -371,11 +330,12 @@
  12  6,5  - FOD
  12  6,7  - FOD
  12  6,4  | FREMD
- 12  3,5  | FW
  12  5,5  | MCF
  12  6,5  - MED
+ 12  6,7  - MED
  12  4,5  | MIRD
  12  6,5  - MOD
+ 12  6,7  - MOD
  12  4,2  | MOODIR
  12  5,2  | MOROC
  12  3,4  | MOWE
@@ -384,7 +344,6 @@
  12  2,6  | TORED
  12  2,6  | TRODE
  12  2,6  - TWICER
- 12  3,6  | WF
  11  5,6  | COME
  11  5,6  | COMR
  11  5,6  | CREDO
@@ -413,11 +372,15 @@
  11  6,7  - FRO
  11  4,3  | MEDIO
  11  6,5  - MEO
+ 11  6,7  - MEO
  11  6,5  - MER
+ 11  6,7  - MER
  11  4,5  | MIDER
  11  4,5  | MIRED
  11  6,5  - MOO
+ 11  6,7  - MOO
  11  6,5  - MOR
+ 11  6,7  - MOR
  11  2,7  - OE
  11  3,5  - OO
  11  2,7  - OO
@@ -462,10 +425,11 @@
  10  6,3  | FOREDO
  10  4,6  | IDEM
  10  6,5  - ME
+ 10  6,7  - ME
  10  3,4  | MEW
  10  4,5  | MIDE
  10  6,5  - MO
- 10  5,4  | MOCO
+ 10  6,7  - MO
  10  4,3  | MODI
  10  2,3  | MOOTED
  10  3,4  | MOW
@@ -543,7 +507,6 @@
   9  6,7  - ROOED
   9  3,6  | WORE
   8  5,6  | CERO
-  8  5,6  | CF
   8  5,6  | CORE
   8  5,5  | DCOR
   8  5,4  | DECO
@@ -562,8 +525,6 @@
   8  5,5  | ECOD
   8  6,5  - EMO
   8  6,7  - EMO
-  8  6,5  - EOF
-  8  6,7  - EOF
   8  6,5  - ERF
   8  6,7  - ERF
   8  5,5  | FC
@@ -573,7 +534,6 @@
   8  6,5  | FERD
   8  2,4  | FETOR
   8  2,3  | FORTE
-  8  6,4  | FRED
   8  4,6  | IFE
   8  6,3  | MEDE
   8  6,5  | MEDE
@@ -632,6 +592,8 @@
   7  4,3  | DORI
   7  6,5  - EF
   7  6,7  - EF
+  7  6,5  - EM
+  7  6,7  - EM
   7  6,4  | EMER
   7  6,6  | EMER
   7  6,3  | ERME
@@ -669,7 +631,6 @@
   7  6,3  | MORE
   7  2,3  | MORT
   7  2,4  | MOTE
-  7  2,5  | MTD
   7  6,5  - OF
   7  6,7  - OF
   7  6,4  | OFER
@@ -721,7 +682,6 @@
   6  6,4  | EME
   6  6,6  | EME
   6  6,6  | EMO
-  6  6,6  | EOF
   6  6,6  | ERF
   6  3,5  | EW
   6  6,4  | FEE
@@ -783,6 +743,7 @@
   5  6,5  - ED
   5  6,7  - ED
   5  6,6  | EF
+  5  6,6  | EM
   5  6,5  | FE
   5  4,5  | FI
   5  4,6  | IF

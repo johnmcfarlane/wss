@@ -10,6 +10,7 @@
  29  6,5  - JEU
  29  3,7  - JEU
  28  6,5  | HALVED
+ 28  4,5  - JEHU
  27  9,3  | JUDE
  27  9,3  | JULE
  26  4,5  - JUDE
@@ -31,7 +32,9 @@
  22  9,2  | HEUVEL
  22  9,3  | HEVED
  22  9,5  | HEVED
+ 22  2,5  - JUDE
  22  2,7  - JUDE
+ 22  2,5  - JULE
  22  2,7  - JULE
  22  6,5  - LEUD
  21  9,7  - HUD
@@ -49,6 +52,7 @@
  19  9,7  - HED
  19  9,5  - HEL
  19  9,7  - HEL
+ 19  3,5  - HUED
  19  3,7  - HUED
  19  6,5  | JAVEL
  18  3,5  - DEUL
@@ -67,6 +71,7 @@
  18  9,7  - LEV
  18  8,5  - UH
  17  9,2  | DELVE
+ 17  3,5  - DUEL
  17  3,7  - DUEL
  17  7,3  | EJUSD
  17  9,5  - HE
@@ -89,12 +94,14 @@
  16  4,5  - HUD
  16  4,7  - HUD
  16  9,2  | HULDEE
+ 16  4,5  - JE
  16  4,7  - JE
  16  6,3  | JUHA
  16  9,3  | LEVE
  16  9,5  | LEVE
  16  9,7  - LUE
  16  5,5  - ULE
+ 16  4,5  - VEL
  16  4,7  - VEL
  15  9,5  - DEL
  15  9,7  - DEL
@@ -121,20 +128,25 @@
  14  3,5  - EDH
  14  3,7  - EDH
  14  6,5  | HAJ
+ 14  4,5  - HED
  14  4,7  - HED
+ 14  4,5  - HEL
  14  4,7  - HEL
+ 14  3,5  - HUE
  14  3,7  - HUE
  14  4,7  - HUE
  14  6,5  | JADE
  14  7,4  | JESU
  14 10,4  | JUD
- 13  6,6  | ADJ
+ 14  8,3  | LUVS
  13  9,5  - DE
  13  9,7  - DE
+ 13  4,5  - DEL
  13  4,7  - DEL
  13  6,3  | DEVAUL
  13  6,5  - DUE
  13  4,7  - DUE
+ 13  5,5  - EH
  13  5,7  - EH
  13  5,7  - HE
  13  9,5  | HELD
@@ -143,6 +155,7 @@
  13  6,5  | JAD
  13  9,4  | JEE
  13  7,4  | JUS
+ 13  4,5  - LED
  13  4,7  - LED
  13  3,5  - LEU
  13  6,5  - LEU
@@ -151,6 +164,7 @@
  13  4,7  - LUE
  13  7,4  | LUSHED
  13  9,5  | VEE
+ 12  3,5  - DUE
  12  3,7  - DUE
  12  8,3  | DULSE
  12  8,4  | DUSH
@@ -173,14 +187,17 @@
  12  9,4  | HUED
  12  5,2  | LEDUM
  12  8,2  | LEUDS
+ 12  3,5  - LUE
  12  3,7  - LUE
  12  8,4  | LUSH
+ 12  7,3  | LUVS
  12  5,6  | MULED
  12  8,6  | SHLU
  12  8,6  | SHUL
  12  8,6  | SLUED
  12  4,5  - UH
  12  4,7  - UH
+ 12  3,5  - ULE
  12  3,7  - ULE
  12  7,2  | VELDS
  11  9,5  | DEUL
@@ -188,10 +205,12 @@
  11  7,3  | DEVS
  11  8,3  | DEVS
  11  9,4  | DUEL
+ 11  5,5  - ED
  11  5,7  - ED
  11  8,3  | EDHS
  11  4,5  - EH
  11  4,7  - EH
+ 11  5,5  - EL
  11  5,7  - EL
  11  9,5  | HED
  11  9,5  | HEED
@@ -211,7 +230,6 @@
  11  8,6  | SULD
  11  6,3  | UVEAL
  11  6,5  | VALUE
- 11  5,4  | VUM
  10  9,3  | DELE
  10  9,5  | DELE
  10  4,5  - DU
@@ -238,7 +256,6 @@
  10  6,5  - LU
  10  4,7  - LU
  10  8,3  | LUES
- 10  5,6  | MEV
  10  5,6  | MULE
  10  8,6  | SELD
  10  7,6  | SHLU
@@ -257,6 +274,7 @@
   9  6,4  | EVAL
   9  6,5  | HALED
   9  6,5  | HAV
+  9  4,5  - HE
   9  4,7  - HE
   9  6,4  | HEALD
   9  9,5  | HEE
@@ -287,11 +305,11 @@
   9  6,3  | VEDA
   9  6,3  | VELA
   8  6,6  | ADV
+  8  4,5  - DE
   8  6,5  - DE
   8  4,7  - DE
   8  7,3  | DELS
   8  8,3  | DELS
-  8  8,4  | DES
   8  7,3  | DEUS
   8  8,3  | DEUS
   8 10,6  | DEV
@@ -419,6 +437,7 @@
   5  9,6  | EEL
   5  9,6  | EL
   5 10,4  | ELD
+  5  5,5  | EM
   5  6,5  | HAE
   5  7,4  | HES
   5  6,5  | LAD
@@ -436,14 +455,11 @@
   4  6,6  | ALE
   4  6,5  | DAE
   4  6,4  | DEA
-  4  7,4  | DES
   4 10,6  | DU
   4  6,5  | EAD
   4  6,5  | EAU
   4  6,4  | ELA
   4  7,4  | ELS
-  4  7,5  | ESD
-  4  8,5  | ESD
   4  7,5  | ESU
   4  8,5  | ESU
   4  6,5  | HA

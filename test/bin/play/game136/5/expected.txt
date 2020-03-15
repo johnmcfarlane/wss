@@ -59,7 +59,6 @@
  18  3,7  - TyEES
  17  2,7  - DAy
  17  2,7  - DEy
- 17  3,7  - Dy
  17  1,7  - EASy
  17  4,4  | PIXES
  17  4,4  | PIXiES
@@ -209,7 +208,6 @@
  12  2,4  - nOPALEA
  12  2,5  | pATED
  12  2,5  | pEDES
- 12  2,4  | pT
  12  2,5  | rASED
  12  2,5  | rATED
  12  2,5  | rEADS
@@ -245,7 +243,6 @@
  11  7,6  | DEbAT
  11  7,6  | DEbTS
  11  7,6  | DEfAT
- 11  7,6  | DEfET
  11  7,6  | DEgAS
  11  7,6  | DEiST
  11  7,6  | DEkES
@@ -265,7 +262,6 @@
  11  7,6  | DEvAS
  11  7,6  | DExES
  11  7,6  | DTSEt
- 11  1,1  - Dcb
  11  7,6  | EDEA
  11  7,6  | EDEmAS
  11  7,6  | EDgES
@@ -809,6 +805,7 @@
   9  7,6  | AeDES
   9  5,7  | AeDES
   9  5,7  | AiDES
+  9  7,6  | AmEED
   9  7,6  | AnDES
   9  5,7  | AnDES
   9  7,6  | AnTED
@@ -885,7 +882,6 @@
   9  7,6  | DEEs
   9  5,7  | DEEsS
   9  7,7  | DEEsS
-  9  7,6  | DES
   9  5,7  | DESEx
   9  7,7  | DESEx
   9  5,7  | DESTo
@@ -1285,7 +1281,6 @@
   8  7,6  | ADa
   8  7,6  | ADc
   8  7,6  | ADd
-  8  7,6  | ADj
   8  7,6  | ADm
   8  7,6  | ADo
   8  7,6  | ADp
@@ -1341,6 +1336,7 @@
   8  6,6  - AkEES
   8  6,6  - AlATE
   8  6,6  - AmATE
+  8  7,6  | AmDT
   8  5,7  | AmDT
   8  5,7  | AmEED
   8  7,6  | AnDE
@@ -1447,8 +1443,6 @@
   8  7,7  | DEEr
   8  5,7  | DEEs
   8  7,7  | DEEs
-  8  5,7  | DES
-  8  7,7  | DES
   8  5,7  | DESc
   8  7,7  | DESc
   8  5,7  | DESi
@@ -1480,9 +1474,6 @@
   8  7,7  | DEfAT
   8  5,7  - DEfEASE
   8  5,7  - DEfEATS
-  8  5,7  | DEfET
-  8  7,7  | DEfET
-  8  7,6  | DEg
   8  5,7  | DEgAS
   8  7,7  | DEgAS
   8  7,6  | DEi
@@ -1518,7 +1509,6 @@
   8  7,6  | DEr
   8  5,7  | DErAT
   8  7,7  | DErAT
-  8  7,6  | DEs
   8  5,7  | DEsSA
   8  7,7  | DEsSA
   8  7,6  | DEt
@@ -1607,9 +1597,6 @@
   8  7,6  | EDo
   8  7,6  | EDp
   8  7,6  | EElS
-  8  7,6  | ESD
-  8  5,7  | ESD
-  8  7,7  | ESD
   8  7,6  | ESTrE
   8  7,6  | EScA
   8  7,6  | ESnE
@@ -1625,7 +1612,6 @@
   8  7,7  | EaSED
   8  5,7  | EcTAD
   8  7,7  | EcTAD
-  8  1,1  - Ecb
   8  7,6  | EdDA
   8  5,7  | EdDA
   8  7,7  | EdDA
@@ -1637,8 +1623,10 @@
   8  7,6  | ElDS
   8  5,7  | ElDS
   8  7,7  | ElDS
+  8  7,6  | EmDA
   8  5,7  | EmDA
   8  7,7  | EmDA
+  8  7,6  | EmESA
   8  7,6  | EnATE
   8  7,6  | EnDE
   8  5,7  | EnDE
@@ -2012,6 +2000,7 @@
   8  2,5  | mED
   8  7,6  | mEDE
   8  5,7  | mEDEA
+  8  7,7  | mEDEA
   8  2,5  | mEET
   8  7,6  | mEETS
   8  2,5  | mESA
@@ -2023,7 +2012,6 @@
   8  2,5  | mETE
   8  7,6  | mETES
   8  2,5  | mETS
-  8  2,5  | mTD
   8  7,6  | nEATS
   8  2,4  - nOPAL
   8  2,5  | pAD
@@ -2325,9 +2313,6 @@
   7  7,6  | DeE
   7  5,7  | DeE
   7  7,7  | DeE
-  7  7,6  | DeS
-  7  5,7  | DeS
-  7  7,7  | DeS
   7  7,6  | DeT
   7  5,7  | DeT
   7  7,7  | DeT
@@ -2457,6 +2442,7 @@
   7  6,7  - ElDEST
   7  7,6  | ElSA
   7  7,6  | ElSE
+  7  7,6  | EmES
   7  5,7  | EmESA
   7  7,7  | EmESA
   7  5,7  | EnATE
@@ -2476,8 +2462,6 @@
   7  7,6  | ErAT
   7  7,6  | ErSE
   7  7,6  | ErST
-  7  5,7  | EsD
-  7  7,7  | EsD
   7  7,6  | EsES
   7  7,6  | EsSE
   7  6,7  - EsSEDA
@@ -2635,7 +2619,6 @@
   7  7,6  | SeTA
   7  7,7  | SeTAE
   7  7,7  | SgAD
-  7  7,7  | SgD
   7  7,7  | ShAD
   7  7,6  | ShAT
   7  7,6  | ShEA
@@ -2658,6 +2641,7 @@
   7  7,6  | SlEE
   7  7,7  | SlEET
   7  7,7  | SlETE
+  7  7,6  | SmEE
   7  7,7  | SnED
   7  7,6  | SnEE
   7  7,7  | SoD
@@ -2989,7 +2973,6 @@
   7  7,7  | hEEDS
   7  7,6  | hEST
   7  7,6  | hETE
-  7  7,6  | iDA
   7  7,6  | iDE
   7  7,6  | iDS
   7  7,6  | iTEA
@@ -3015,26 +2998,35 @@
   7  7,6  | lEST
   7  7,6  | lETS
   7  5,7  | mADE
+  7  7,7  | mADE
   7  5,7  | mADS
+  7  7,7  | mADS
   7  5,7  | mATED
+  7  7,7  | mATED
   7  5,7  | mEADS
+  7  7,7  | mEADS
   7  7,6  | mEAS
   7  7,6  | mEAT
   7  5,7  - mEATED
   7  5,7  | mEDE
+  7  7,7  | mEDE
   7  5,7  | mEEDS
+  7  7,7  | mEEDS
   7  7,6  | mEET
   7  7,6  | mESA
   7  5,7  - mESAD
   7  5,7  | mESAD
+  7  7,7  | mESAD
   7  7,6  | mESE
   7  7,6  | mEST
   7  7,6  | mETA
   7  5,7  - mETAD
   7  5,7  | mETAD
+  7  7,7  | mETAD
   7  7,6  | mETE
   7  5,7  - mETED
   7  5,7  | mETED
+  7  7,7  | mETED
   7  7,6  | mETS
   7  7,6  | nEAT
   7  5,7  | nEEDS
@@ -3294,9 +3286,6 @@
   6  5,7  | DEf
   6  7,7  | DEf
   6  5,7  - DEfAT
-  6  5,7  - DEfET
-  6  5,7  | DEg
-  6  7,7  | DEg
   6  5,7  - DEgAS
   6  5,7  | DEi
   6  7,7  | DEi
@@ -3322,8 +3311,6 @@
   6  5,7  | DEr
   6  7,7  | DEr
   6  5,7  - DErAT
-  6  5,7  | DEs
-  6  7,7  | DEs
   6  5,7  - DEsSA
   6  5,7  | DEt
   6  7,7  | DEt
@@ -3407,7 +3394,6 @@
   6  5,7  | ESTh
   6  7,7  | ESTh
   6  7,6  | ESc
-  6  7,6  | ESd
   6  7,6  | ESe
   6  7,6  | ESp
   6  7,6  | ESq
@@ -3476,7 +3462,6 @@
   6  7,7  | ErSE
   6  5,7  | ErST
   6  7,7  | ErST
-  6  7,6  | EsD
   6  5,7  | EsES
   6  7,7  | EsES
   6  5,7  | EsSE
@@ -3895,9 +3880,6 @@
   6  7,6  | eD
   6  5,7  | eDEA
   6  7,7  | eDEA
-  6  7,6  | eSD
-  6  5,7  | eSD
-  6  7,7  | eSD
   6  5,7  | fAD
   6  7,7  | fAD
   6  5,7  | fATES
@@ -3987,32 +3969,43 @@
   6  7,6  | lSD
   6  7,7  | lSD
   6  5,7  | mAD
+  6  7,7  | mAD
   6  2,5  | mAE
   6  5,7  | mAED
+  6  7,7  | mAED
   6  2,5  | mAS
   6  2,5  | mAT
   6  5,7  | mATES
+  6  7,7  | mATES
   6  5,7  | mDSE
+  6  7,7  | mDSE
   6  2,5  | mEA
   6  5,7  | mEAD
+  6  7,7  | mEAD
   6  5,7  - mEADS
   6  5,7  | mEASE
+  6  7,7  | mEASE
   6  5,7  | mEATS
+  6  7,7  | mEATS
   6  7,6  | mED
   6  5,7  | mED
+  6  7,7  | mED
   6  5,7  - mEDEA
   6  2,5  | mEE
   6  5,7  | mEED
+  6  7,7  | mEED
   6  5,7  - mEEDS
   6  5,7  | mEETS
+  6  7,7  | mEETS
   6  2,5  | mES
   6  5,7  - mESTEE
   6  2,5  | mET
   6  5,7  | mETAE
+  6  7,7  | mETAE
   6  5,7  | mETAS
+  6  7,7  | mETAS
   6  5,7  | mETES
-  6  7,6  | mTD
-  6  5,7  | mTD
+  6  7,7  | mETES
   6  2,5  | mTS
   6  5,7  | nAD
   6  7,7  | nAD
@@ -4039,7 +4032,6 @@
   6  5,7  | pATD
   6  5,7  | pATEE
   6  5,7  | pATES
-  6  2,5  | pD
   6  2,5  | pEA
   6  5,7  | pEASE
   6  5,7  | pEATS
@@ -4157,7 +4149,6 @@
   6  7,6  | xED
   6  7,7  | xED
   6  5,7  | yAD
-  6  7,6  | yD
   6  5,7  | yEAST
   5  5,7  | AD
   5  6,6  - ADAT
@@ -4165,7 +4156,6 @@
   5  5,7  | ADa
   5  5,7  | ADc
   5  5,7  | ADd
-  5  5,7  | ADj
   5  5,7  | ADm
   5  5,7  | ADo
   5  5,7  | ADp
@@ -4211,6 +4201,7 @@
   5  5,7  | AlS
   5  7,6  | AlT
   5  5,7  | AlT
+  5  7,6  | AmT
   5  5,7  | AmT
   5  7,6  | AnE
   5  5,7  | AnE
@@ -4267,8 +4258,6 @@
   5  7,7  | Dp
   5  5,7  | Du
   5  7,7  | Du
-  5  5,7  | Dy
-  5  7,7  | Dy
   5  6,7  - EASE
   5  6,7  - EASEd
   5  6,7  - EASEl
@@ -4361,9 +4350,11 @@
   5  5,7  | ElT
   5  7,7  | ElT
   5  6,7  - EmDA
+  5  7,6  | EmE
   5  5,7  | EmE
   5  7,7  | EmE
   5  6,7  - EmESA
+  5  7,6  | EmS
   5  5,7  | EmS
   5  7,7  | EmS
   5  6,7  - EnATE
@@ -4500,6 +4491,7 @@
   5  7,7  | SlA
   5  7,6  | SlT
   5  7,7  | SlT
+  5  7,6  | SmA
   5  7,7  | SmA
   5  7,6  | SoE
   5  7,7  | SoE
@@ -4743,7 +4735,6 @@
   5  7,6  | dEE
   5  5,7  | dEES
   5  7,7  | dEES
-  5  7,6  | dES
   5  7,6  | dET
   5  5,7  | eASE
   5  7,7  | eASE
@@ -4849,29 +4840,42 @@
   5  7,7  | lETS
   5  7,6  | lST
   5  5,7  | mAES
+  5  7,7  | mAES
   5  5,7  | mAST
+  5  7,7  | mAST
   5  5,7  | mATE
+  5  7,7  | mATE
   5  5,7  | mATS
+  5  7,7  | mATS
   5  7,6  | mEA
   5  5,7  | mEAS
+  5  7,7  | mEAS
   5  5,7  - mEASE
   5  5,7  | mEAT
+  5  7,7  | mEAT
   5  5,7  - mEATS
   5  7,6  | mEE
   5  5,7  - mEESE
   5  5,7  | mEET
+  5  7,7  | mEET
   5  5,7  - mEETS
   5  7,6  | mES
   5  5,7  | mESA
+  5  7,7  | mESA
   5  5,7  | mESE
+  5  7,7  | mESE
   5  5,7  | mEST
+  5  7,7  | mEST
   5  7,6  | mET
   5  5,7  | mETA
+  5  7,7  | mETA
   5  5,7  - mETAE
   5  5,7  - mETAS
   5  5,7  | mETE
+  5  7,7  | mETE
   5  5,7  - mETES
   5  5,7  | mETS
+  5  7,7  | mETS
   5  7,6  | mTS
   5  5,7  | nAST
   5  7,7  | nAST
@@ -5083,6 +5087,7 @@
   4  6,6  - AiDS
   4  6,6  - AkED
   4  7,6  | Al
+  4  7,6  | Am
   4  6,6  - AmDT
   4  7,6  | An
   4  6,6  - AnDA
@@ -5113,7 +5118,6 @@
   4  5,7  - DEEp
   4  5,7  - DEEr
   4  5,7  - DEEs
-  4  5,7  - DES
   4  5,7  - DESc
   4  5,7  - DESi
   4  5,7  - DESk
@@ -5185,14 +5189,11 @@
   4  7,7  | EEr
   4  5,7  | ES
   4  7,7  | ES
-  4  6,7  - ESD
   4  6,7  - ESErE
   4  6,7  - ESTrE
   4  5,7  | ESc
   4  7,7  | ESc
   4  6,7  - EScA
-  4  5,7  | ESd
-  4  7,7  | ESd
   4  5,7  | ESe
   4  7,7  | ESe
   4  6,7  - ESnE
@@ -5236,6 +5237,7 @@
   4  7,6  | El
   4  6,7  - ElSA
   4  6,7  - ElSE
+  4  7,6  | Em
   4  6,7  - EmES
   4  7,6  | En
   4  6,7  - EnSE
@@ -5321,7 +5323,6 @@
   4  7,7  | STy
   4  7,6  | Sh
   4  7,6  | So
-  4  7,6  | Sw
   4  5,7  | TA
   4  7,7  | TA
   4  5,7  | TAa
@@ -5450,8 +5451,6 @@
   4  5,7  | dEE
   4  7,7  | dEE
   4  5,7  - dEED
-  4  5,7  | dES
-  4  7,7  | dES
   4  5,7  | dET
   4  7,7  | dET
   4  5,7  - dETD
@@ -5503,7 +5502,6 @@
   4  7,7  | hTS
   4  7,6  | iS
   4  7,6  | iT
-  4  5,7  | jAT
   4  5,7  | jEE
   4  5,7  - jEED
   4  5,7  | jET
@@ -5521,18 +5519,26 @@
   4  7,7  | lST
   4  2,5  | mA
   4  5,7  | mAE
+  4  7,7  | mAE
   4  5,7  | mAS
+  4  7,7  | mAS
   4  5,7  | mAT
+  4  7,7  | mAT
   4  2,5  | mE
   4  7,6  | mE
   4  5,7  | mEA
+  4  7,7  | mEA
   4  5,7  - mEAD
   4  5,7  - mEDE
   4  5,7  | mEE
+  4  7,7  | mEE
   4  5,7  - mEED
   4  5,7  | mES
+  4  7,7  | mES
   4  5,7  | mET
+  4  7,7  | mET
   4  5,7  | mTS
+  4  7,7  | mTS
   4  5,7  | nAE
   4  7,7  | nAE
   4  5,7  | nAT
@@ -5563,7 +5569,6 @@
   4  5,7  | pES
   4  5,7  | pET
   4  5,7  | pST
-  4  2,5  | pT
   4  5,7  | pTA
   4  5,7  | pTE
   4  5,7  | pTS
@@ -5652,7 +5657,6 @@
   3  6,6  - ADa
   3  6,6  - ADc
   3  6,6  - ADd
-  3  6,6  - ADj
   3  6,6  - ADm
   3  6,6  - ADo
   3  6,6  - ADp
@@ -5779,14 +5783,12 @@
   3  5,7  - DEb
   3  5,7  - DEe
   3  5,7  - DEf
-  3  5,7  - DEg
   3  5,7  - DEi
   3  5,7  - DEl
   3  5,7  - DEm
   3  5,7  - DEn
   3  5,7  - DEp
   3  5,7  - DEr
-  3  5,7  - DEs
   3  5,7  - DEt
   3  5,7  - DEv
   3  5,7  - DEw
@@ -5824,6 +5826,8 @@
   3  5,7  | El
   3  7,7  | El
   3  6,7  - ElD
+  3  5,7  | Em
+  3  7,7  | Em
   3  5,7  | En
   3  7,7  | En
   3  6,7  - EnD
@@ -5833,7 +5837,6 @@
   3  7,7  | Er
   3  5,7  | Es
   3  7,7  | Es
-  3  6,7  - EsD
   3  5,7  | Et
   3  7,7  | Et
   3  5,7  | Ew
@@ -5884,7 +5887,6 @@
   3  7,7  | Sh
   3  7,7  | Si
   3  7,7  | So
-  3  7,7  | Sw
   3  5,7  - TEA
   3  5,7  - TEAd
   3  5,7  - TEAk
@@ -6014,7 +6016,6 @@
   3  5,7  - nETS
   3  5,7  | oD
   3  7,7  | oD
-  3  5,7  | pD
   3  5,7  - pEAS
   3  5,7  - pEAT
   3  5,7  - pED
@@ -6057,7 +6058,6 @@
   3  5,7  - wETA
   3  5,7  - wETS
   3  5,7  - xED
-  3  5,7  | yD
   3  5,7  - yEAS
   3  5,7  - yEAT
   3  5,7  - yEES
@@ -6166,7 +6166,6 @@
   2  6,7  - EEr
   2  6,7  - ES
   2  6,7  - ESc
-  2  6,7  - ESd
   2  6,7  - ESe
   2  6,7  - ESp
   2  6,7  - ESq
@@ -6251,7 +6250,6 @@
   2  7,7  | dE
   2  5,7  - dEA
   2  5,7  - dEE
-  2  5,7  - dES
   2  5,7  - dET
   2  5,7  | eE
   2  7,7  | eE
@@ -6265,8 +6263,6 @@
   2  7,7  | fE
   2  5,7  - fEE
   2  5,7  - fET
-  2  5,7  | fS
-  2  7,7  | fS
   2  5,7  - gEE
   2  5,7  - gES
   2  5,7  - gET
@@ -6294,7 +6290,9 @@
   2  5,7  - lEE
   2  5,7  - lET
   2  5,7  | mA
+  2  7,7  | mA
   2  5,7  | mE
+  2  7,7  | mE
   2  5,7  - mEA
   2  5,7  - mEE
   2  5,7  - mES
@@ -6319,7 +6317,6 @@
   2  5,7  - pES
   2  5,7  - pET
   2  2,5  - pOI
-  2  5,7  | pT
   2  5,7  | rE
   2  7,7  | rE
   2  5,7  - rEA
@@ -6354,7 +6351,6 @@
   2  5,7  - yEE
   2  5,7  - yES
   2  5,7  - yET
-  2  5,7  - zEA
   2  5,7  - zEE
   1  6,6  - Aa
   1  6,6  - Ab
@@ -6377,6 +6373,7 @@
   1  6,7  - Ef
   1  6,7  - Eh
   1  6,7  - El
+  1  6,7  - Em
   1  6,7  - En
   1  6,7  - Eo
   1  6,7  - Er

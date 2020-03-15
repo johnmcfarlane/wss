@@ -10,6 +10,7 @@
  53 11,2  | GESNERA
  53 11,5  | GESNERA
  52  6,14 - AGENES
+ 52  6,14 - EGERAN
  51 10,6  | DERANGES
  49  6,14 - AGNES
  48  6,14 - AGENE
@@ -17,6 +18,8 @@
  46  6,14 - GARSE
  44  6,14 - AGERS
  44  6,14 - AGREE
+ 44  6,14 - EGERS
+ 38  6,14 - EARNS
  35  1,1  | ENRAGES
  35  1,1  | SANGERS
  33  6,14 - GANE
@@ -47,7 +50,8 @@
  28  6,14 - AGEE
  28  6,14 - AGER
  28  6,14 - AGES
- 28  6,14 - AGRE
+ 28  6,14 - EGER
+ 28  6,14 - EGRE
  28  6,14 - GAE
  28  6,14 - GAR
  28  1,4  | GARSE
@@ -74,12 +78,14 @@
  26  1,3  | SAGES
  26  1,2  | SNARES
  26  1,2  | SNEERS
+ 25  6,14 - ESNE
  25  9,10 | GANSER
  25  9,10 | GENEAR
  25  9,11 | NEGER
  25  9,10 | SANGER
  24  9,11 | ANGER
  24  5,11 | ARN
+ 24  6,14 - EARN
  24  5,11 | EEN
  24  9,1  | EGERAN
  24  8,14 - EGERAN
@@ -100,12 +106,12 @@
  23  1,4  | AGES
  23  7,14 - ANGERS
  23  9,11 | EAGER
+ 23  6,14 - EAN
  23  1,2  | EASERS
  23  6,8  - ENAGE
  23  1,2  | ERASES
  23  1,3  | ERNES
  23  1,4  | GAES
- 23  7,8  - GANSER
  23  1,4  | GARS
  23  1,4  | GEES
  23  1,4  | GERS
@@ -115,7 +121,6 @@
  23  1,3  | NARES
  23  1,3  | NEARS
  23  1,3  | RENES
- 23  5,12 | RG
  23  9,11 | SAGER
  23  1,3  | SANES
  23  1,2  | SAREES
@@ -131,6 +136,7 @@
  22  5,11 | ARE
  22  5,11 | ARS
  22  5,11 | ASE
+ 22  6,14 - EARS
  22  5,11 | EER
  22 10,1  | ENGARDE
  22  6,11 | ENGEM
@@ -192,6 +198,7 @@
  20  6,14 - ASE
  20  8,14 - EAGERS
  20  8,14 - EAGRES
+ 20  6,14 - EAR
  20  6,2  | EARNED
  20  1,3  | EASES
  20  5,11 | EE
@@ -199,6 +206,7 @@
  20  5,11 | ER
  20  1,3  | ERSES
  20  5,11 | ES
+ 20  6,14 - ESE
  20  9,3  | GAEN
  20  7,14 - GAEN
  20  7,14 - GANE
@@ -235,7 +243,6 @@
  20  6,2  | SNARED
  19 11,6  | AGENE
  19 11,2  | AGENES
- 19  2,12 | AGY
  19  5,12 | EE
  19 11,6  | EGERAN
  19 10,7  - EGERAN
@@ -252,14 +259,12 @@
  19 11,3  | GENERA
  19 11,3  | GESAN
  19 11,3  | GREEN
- 19  1,13 - HG
  19  9,13 | NAR
  19  8,14 - NEGER
  19  9,2  | RASEN
  19  5,12 | RE
  19 11,5  | RENEG
  19 11,6  | SANGER
- 19  3,3  | SEANCE
  19  9,12 | SEAR
  19  9,12 | SEER
  19 11,3  | SENAGE
@@ -334,7 +339,6 @@
  18  9,4  | NAN
  18 11,5  | NEGER
  18 11,5  | RAGEES
- 18  3,4  | RANCE
  18  8,14 - RANEES
  18  8,14 - RANGE
  18 11,5  | RANGES
@@ -357,7 +361,6 @@
  18  9,3  | SEEN
  18  7,14 - SEGAR
  18  6,11 | SENAM
- 18  3,4  | SENCE
  18  9,13 | SER
  18 11,3  | SERANG
  18 11,5  | SERANG
@@ -460,7 +463,6 @@
  16 11,6  | AGES
  16 11,3  | AGNES
  16  8,8  - AGNES
- 16 11,6  | AGRE
  16 11,2  | AGREE
  16  8,14 - AGREE
  16 11,3  | AGREES
@@ -499,6 +501,7 @@
  16 10,7  - ENRAGE
  16 11,2  | ENSEAR
  16 11,6  | ENSEAR
+ 16  6,14 - ES
  16  6,13 | GAM
  16 11,3  | GANE
  16  1,12 - GAZEE
@@ -570,7 +573,6 @@
  15 11,3  | ENSEAR
  15 11,4  | ENSEAR
  15 10,7  - ERGANE
- 15  3,5  | ESCA
  15 11,4  | GAEN
  15 11,3  | GAES
  15 11,5  | GANE
@@ -604,8 +606,6 @@
  15 11,3  | NARES
  15  8,14 - NARES
  15  8,14 - NEARS
- 15 11,5  | NEG
- 15  8,14 - NEG
  15  3,5  | RACE
  15 11,5  | RAGE
  15 11,3  | RAGEE
@@ -659,10 +659,8 @@
  14  8,14 - AGES
  14 10,7  - AGNES
  14 11,6  | AGR
- 14  8,14 - AGRE
  14  8,8  - AGREE
  14  8,11 | AGREE
- 14  3,5  | ANC
  14  8,8  - ANEARS
  14 11,6  | ANES
  14 11,6  | ANRE
@@ -694,7 +692,6 @@
  14 11,4  | EGERS
  14  8,14 - EGRE
  14 10,5  - ENAGE
- 14  3,5  | ENC
  14 11,6  | ENG
  14  8,14 - ENG
  14 11,3  | ENGS
@@ -774,7 +771,6 @@
  14 11,3  | SNEER
  14  6,9  | XERES
  13  3,6  | ACE
- 13  3,4  | AESC
  13 11,6  | AG
  13 11,3  | AGEE
  13 11,4  | AGEE
@@ -785,7 +781,6 @@
  13 10,7  - AGERS
  13 11,3  | AGES
  13 11,4  | AGES
- 13 11,3  | AGRE
  13 10,7  - AGREE
  13 10,7  - ANGER
  13 10,5  - ANGERS
@@ -817,10 +812,8 @@
  13 11,6  | ESNE
  13 11,4  | GAES
  13 11,5  | GAES
- 13  7,8  - GANSA
  13 11,5  | GARE
  13 11,5  | GARS
- 13  7,8  - GASAN
  13 11,4  | GEAR
  13 11,5  | GEAR
  13 11,4  | GEER
@@ -881,8 +874,6 @@
  12 10,7  - AGES
  12 10,5  - AGNES
  12  8,14 - AGR
- 12 10,7  - AGRE
- 12  8,12 | AGRE
  12 10,5  - AGREES
  12 11,6  | ANE
  12  8,8  - ANEAR
@@ -954,19 +945,14 @@
  12 11,3  | ERNS
  12  8,14 - ERNS
  12 11,6  | ERSE
- 12  3,5  | ESC
  12 11,3  | ESNE
  12  8,14 - ESNE
  12 11,5  | GAE
- 12  7,8  - GAEN
  12  7,14 - GAN
- 12  7,8  - GANE
  12  5,5  | GANNER
  12 11,5  | GAR
  12  8,12 | GARE
- 12  7,8  - GARN
  12  4,4  | GARO
- 12  7,8  - GARSE
  12 11,5  | GAS
  12 11,5  | GEE
  12  7,14 - GEN
@@ -1024,7 +1010,6 @@
  12 11,6  | SERE
  12  7,14 - SERE
  12 10,2  | SERED
- 12  6,5  | SGD
  12  8,11 | SNARE
  12 11,3  | SNEE
  12 11,4  | SNEE
@@ -1085,19 +1070,13 @@
  11  1,5  | ERSE
  11 11,4  | GAE
  11  7,14 - GAE
- 11  7,8  - GAEA
- 11  7,8  - GAES
- 11  7,8  - GAN
  11 10,3  | GANDERS
  11  7,6  - GANDERS
  11  5,5  | GANSER
  11  7,14 - GAR
- 11  7,8  - GARA
  11 10,3  | GARDEEN
  11 10,3  | GARDENS
- 11  7,8  - GARE
  11  7,11 | GARNI
- 11  7,8  - GARS
  11 11,4  | GAS
  11  7,14 - GAS
  11 11,4  | GEE
@@ -1157,7 +1136,6 @@
  10 10,5  - AGEE
  10 10,5  - AGER
  10 10,5  - AGES
- 10 10,5  - AGRE
  10  6,14 | AM
  10 11,4  | ANE
  10  8,14 - ANE
@@ -1201,6 +1179,7 @@
  10 11,6  | EER
  10 10,5  - EGER
  10 10,5  - EGRE
+ 10  6,14 | EM
  10 11,4  | ENS
  10  8,14 - ENS
  10 10,7  - ENSE
@@ -1222,12 +1201,9 @@
  10 11,6  | ESE
  10  8,11 | ESERE
  10  8,12 | ESNE
- 10  7,8  - GAE
  10 10,3  | GANDER
  10  7,6  - GANDER
- 10  7,8  - GAR
  10 10,3  | GARDEN
- 10  7,8  - GAS
  10 10,3  | GENDER
  10  4,3  | GENRO
  10  1,5  | GES
@@ -1621,8 +1597,6 @@
   6  8,8  - AGEE
   6  8,8  - AGER
   6  8,8  - AGES
-  6  8,8  - AGRA
-  6  8,8  - AGRE
   6 10,5  - AN
   6  8,6  - ANDA
   6 10,4  | ANDE
@@ -1643,7 +1617,6 @@
   6 10,6  | DANE
   6 10,6  | DARN
   6 10,6  | DEAN
-  6 10,6  | DEG
   6 10,6  | DENE
   6 10,6  | DENS
   6 10,6  | DERN
@@ -1664,7 +1637,6 @@
   6 10,5  - ERE
   6 10,5  - ERS
   6 10,7  - ES
-  6  6,5  | ESD
   6 10,5  - ESE
   6 10,4  | GAD
   6  5,5  | GAN
@@ -1689,7 +1661,6 @@
   6 10,3  | REEDS
   6 10,3  | REND
   6  5,4  | RENN
-  6  8,14 - RG
   6  6,5  | SAD
   6 10,3  | SAND
   6  7,6  - SAND
@@ -1698,7 +1669,6 @@
   6 10,3  | SEND
   6  7,11 | SERAI
   6  4,4  | SERO
-  6 10,4  | SGD
   6 10,3  | SNED
   6  4,11 - TANE
   6  4,11 - TANS
@@ -1806,7 +1776,6 @@
   5  4,11 - TSAR
   5  7,9  | URA
   5  7,9  | URS
-  5  7,9  | USA
   5  7,9  | USE
   4 10,5  | ADS
   4  8,14 - AE
@@ -1830,7 +1799,6 @@
   4 10,6  | DEA
   4 10,6  | DEE
   4 10,6  | DER
-  4 10,6  | DES
   4 10,6  | DSR
   4 10,4  | EAD
   4  5,5  | EAN
@@ -1842,7 +1810,6 @@
   4  5,5  | ERN
   4  5,9  | ES
   4  8,14 - ES
-  4 10,4  | ESD
   4  7,14 | GI
   4  4,6  | GO
   4  5,7  | NAE
@@ -1906,7 +1873,6 @@
   3  4,11 - TEE
   3  4,11 - TRA
   3  4,11 - TRS
-  3  7,9  | UR
   3  7,9  | US
   2  8,8  - AA
   2  8,8  - AE

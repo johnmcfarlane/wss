@@ -11,7 +11,6 @@
  21  9,8  | SYUD
  21  9,5  | YODS
  21  9,5  | YOUS
- 20  4,7  - DORRS
  20  9,5  | DRYS
  20  9,4  | DUROS
  20  8,8  | HOUSY
@@ -34,7 +33,6 @@
  18  8,8  | HURDS
  18  9,5  | OUDS
  18  9,8  | SORD
- 18  1,9  - SOURD
  18  9,8  | SOV
  18  8,7  - SURV
  17  9,6  | DYS
@@ -45,10 +43,6 @@
  17  9,5  | ROUS
  17  9,8  | SOUR
  17  9,8  | SYD
- 17  2,9  - SYUD
- 17  7,9  - URDY
- 17  3,9  - VOD
- 17  2,9  - YOUD
  17  9,6  | YUS
  16  6,6  | FRORY
  16  8,8  | HOURS
@@ -58,93 +52,57 @@
  16  9,6  | UDS
  16  8,7  - URDY
  16  9,6  | YRS
- 15  4,7  - DORR
  15  9,6  | DOS
- 15  7,3  | DRYS
  15  9,7  | DSR
  15  9,6  | ODS
- 15  2,9  - ROUD
  15  8,9  - RUDY
  15  9,6  | RUS
  15  9,8  | SOD
  15  9,8  | SOU
- 15  2,9  - SOUD
  15  9,8  | SUR
- 15  2,9  - SURD
- 15  3,9  - SYD
- 15  7,9  - URDS
  15  9,6  | URS
- 15  3,9  - YOD
  15  5,3  | YOUR
- 14  7,4  | DYS
  14  6,6  - FROUSY
  14  6,6  | FROUSY
  14  7,3  | ORDU
  14  7,9  - ORDU
  14  9,6  | ORS
- 14  3,9  - OUD
  14  9,6  | ROS
  14  5,6  | ROY
- 14  3,9  - RUD
  14  8,7  - SODY
- 14  2,9  - SORD
- 14  3,9  - SUD
  14  5,2  | SUDOR
  14  8,7  - SYUD
- 14  3,9  - URD
- 14  7,9  - URD
  14  9,7  | US
- 14  4,9  - YD
- 14  7,3  | YODS
- 14  7,2  | YOURS
- 14  7,3  | YOUS
  13  5,3  | DOUR
  13  7,3  | DROU
  13  5,3  | DURO
- 13  7,2  | DUROS
  13  7,8  | GOUDY
  13  7,8  | GOURDY
  13  7,8  | GROUSY
  13  7,8  | GRUYS
  13  7,8  | GURDY
- 13  3,9  - ORD
  13  7,9  - ORY
  13  9,7  | OS
- 13  7,3  | OUDS
- 13  3,9  - ROD
  13  8,9  - ROSY
  13  9,8  | SO
- 13  3,9  - SOD
  13  8,7  - SORY
  13  8,7  - SOURY
  13  2,7  - SUDOR
- 13  7,3  | URDS
- 13  7,9  - URO
- 13  7,9  - URS
  13  7,4  | YOU
- 13  7,4  | YUS
  12  7,5  | DU
- 12  7,3  | DUOS
  12  2,9  - DURO
  12  7,8  | GYROUS
  12  7,8  | GYRUS
- 12  4,9  - OD
  12  7,9  - ORD
  12  8,7  - ORDU
  12  8,9  - ORDU
- 12  7,3  | RODS
  12  8,9  - ROUD
- 12  7,3  | ROUS
  12  8,7  - SOUD
  12  8,7  - SOURD
  12  8,7  - SUDOR
  12  8,7  - SURD
- 12  7,3  | UDOS
  12  8,7  - UDOS
- 12  7,4  | UDS
- 12  7,9  - UR
  12  8,7  - URDS
- 11  7,3  | DORS
  11  3,9  - DUO
  11  6,6  - FORDS
  11  6,6  - FOURS
@@ -152,12 +110,9 @@
  11  7,8  | GOURDS
  11  7,8  | GOURY
  11  8,8  | HVY
- 11  7,4  | ODS
  11  7,9  - ORS
  11  8,7  - OUDS
  11  8,9  - OUDS
- 11  7,3  | OURS
- 11  7,4  | RUS
  11  8,7  - SORD
  11  7,4  | SOU
  11  5,3  | SOUR
@@ -166,9 +121,7 @@
  11  3,9  - UDO
  11  5,8  - YOGHS
  11  4,7  - YOR
- 11  7,4  | YRS
  10  4,7  - DOR
- 10  7,4  | DOS
  10  5,4  | DUO
  10  5,4  | DUR
  10  6,6  - FURY
@@ -193,8 +146,6 @@
  10  8,7  - UDS
  10  8,7  - URD
  10  3,9  - URO
- 10  7,4  | URS
- 10  7,5  | US
  10  4,9  - YO
  10  8,5  | YODHS
  10  5,4  | YOR
@@ -207,13 +158,11 @@
   9  7,8  | GOV
   9  7,8  | GOYS
   9  7,8  | GYRO
-  9  7,4  | ORS
   9  8,7  - ORY
   9  8,9  - ORY
   9  8,7  - OUD
   9  8,9  - OUD
   9  5,4  | OUR
-  9  7,4  | ROS
   9  8,9  - ROY
   9  8,9  - RUD
   9  8,7  - SOY
@@ -249,7 +198,6 @@
   8  5,7  - OR
   8  8,7  - ORD
   8  8,9  - ORD
-  8  7,5  | OS
   8  8,7  - OUR
   8  8,9  - OUR
   8  5,7  | OY
@@ -263,8 +211,6 @@
   8  8,7  - SUR
   8  3,6  - SURF
   8  5,6  - UFOS
-  8  5,5  | UR
-  8  8,7  - UR
   8  8,7  - US
   8  5,8  | YODS
   8  5,8  | YOUR
@@ -302,7 +248,6 @@
   7  5,6  - UFO
   7  5,6  - UFS
   7  4,6  - URF
-  7  5,8  | YD
   7  5,8  | YOD
   7  5,8  | YOU
   6  8,6  | DOH
@@ -332,11 +277,9 @@
   6  8,6  | USH
   6  5,8  | YOR
   6  5,8  | YRS
-  5  6,6  - FS
   5  7,8  | GOR
   5  7,8  | GRO
   5  7,8  | GRS
-  5  7,8  | GU
   5  8,8  | HOR
   5  8,8  | HRS
   5  5,6  - OF

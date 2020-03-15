@@ -8,6 +8,7 @@
  35  1,9  - NODE
  33  5,5  - ADNEX
  31  9,6  | OXAN
+ 31  4,5  - XED
  30 10,4  | ADNEXA
  29  3,9  - DEN
  29  3,9  - DON
@@ -20,17 +21,13 @@
  26 11,8  | OlAX
  26 10,5  | XOANA
  25  7,8  - AZON
- 25  6,5  - ODAX
  25  7,8  - OZAN
  25 11,9  | lAX
  25 11,9  | lEX
  25 11,9  | lOX
- 24 10,7  | ANAX
  24 10,6  | DOXA
  24 10,6  | NOXA
- 24 10,7  | ODAX
  24 10,7  | OXAN
- 23  5,5  - ODAX
  22 10,6  | OXEA
  22  8,10 - TODA
  21  6,5  - DONAX
@@ -62,38 +59,41 @@
  18  8,10 - TOEA
  17  5,5  - ADEN
  17  5,5  - ADON
+ 17  4,5  - AEON
  17  4,5  - DAO
  17  6,5  - DEX
  17  4,5  - DOO
+ 17  5,5  - EDNA
  17  9,6  | EOAN
  17  4,5  - OAD
  17  6,5  - OXEA
- 17  8,8  - ZEA
  17  8,8  - ZOA
  16 10,4  | ADEONA
  16 11,7  | AXlED
  16  9,7  | EAN
- 16  5,7  - ODA
- 16  5,7  - ODE
  16  5,5  - ODEA
  15  5,5  - ADO
  15  3,9  - DE
  15  3,9  - DO
+ 15  5,5  - EDO
+ 15  5,5  - EOAN
  15  5,3  | EXAM
  15  3,6  - GIMPED
  15  4,8  | JEE
  15  4,8  | JOE
  15  5,7  - OAD
- 15  5,7  - OD
  15  5,5  - ODA
  15  5,5  - ODE
+ 15  6,5  - OXO
  15  8,10 - TOA
  15  8,10 - TOE
  14  5,5  - AD
  14  9,8  | AN
  14  6,7  - AX
  14  6,5  - DEAN
+ 14  5,5  - ED
  14 10,5  | EDANA
+ 14  5,5  - EON
  14  6,7  - EX
  14  6,4  | EXPO
  14  5,5  - OD
@@ -117,12 +117,14 @@
  12 10,7  | DEAN
  12 10,6  | DONA
  12 10,6  | EDNA
+ 12  5,5  - EO
  12 10,6  | NADA
  12 11,5  | NEXAl
  12 11,5  | NOXAl
  12  5,5  - OO
  11  4,5  - DA
  11  6,5  - DAN
+ 11  4,5  - DE
  11  6,5  - DEN
  11  5,2  | DENOM
  11  4,5  - DO
@@ -141,7 +143,6 @@
  10 10,8  | DAN
  10  6,5  - DAO
  10  6,5  - DEA
- 10  1,11 - DES
  10  6,5  - DOA
  10  6,5  - DOE
  10  6,5  - DOO
@@ -153,25 +154,23 @@
  10 11,7  | NAlED
  10  5,3  | NOAM
  10 10,6  | ODEA
+  9  4,5  - AE
   9  6,5  - DA
-  9  6,7  - DA
   9  1,7  - DAL
   9  6,5  - DE
-  9  6,7  - DE
   9  1,7  - DEL
   9  6,5  - DO
-  9  6,7  - DO
   9  1,7  - DOL
   9  5,3  | EDAM
   9  4,2  | EDONI
   9  5,3  | ENAM
   9 10,10 - EO
-  9  2,11 - ESD
   9  1,7  - NOL
   9  5,4  | NOMOI
   9  6,5  - OAD
   9  6,5  - ODA
   9  6,5  - ODE
+  9  4,5  - OE
   9  6,5  - ONA
   9  6,5  - ONE
   9  6,5  - ONO
@@ -269,11 +268,11 @@
   6  4,4  | ONI
   6  6,5  | OPA
   6  6,5  | OPE
-  6  6,6  | PD
   5 10,8  - AE
   5  5,5  | AM
   5 11,6  | ANOlE
   5 11,8  | AlOE
+  5  5,5  | EM
   5 11,7  | NOlD
   5  5,5  | OM
   5  6,5  | OP
@@ -297,7 +296,6 @@
   4  4,10 | EO
   4  2,11 - ES
   4 10,7  | NAA
-  4 11,6  | NAEl
   4 11,7  | NAlE
   4 10,7  | NEA
   4 11,6  | NEAl
@@ -317,13 +315,11 @@
   4 11,9  | lOE
   4 11,9  | lOO
   3 11,8  | AlD
-  3 11,8  | AlN
   3 10,8  | DA
   3 11,7  | DAl
   3 11,7  | DEl
   3  4,5  | DI
   3 11,7  | DOl
-  3 11,7  | ENl
   3 11,8  | ElD
   3 10,8  | NA
   3 11,7  | NOl
@@ -331,7 +327,6 @@
   2 10,8  | AA
   2  4,5  | AI
   2 11,8  | AlE
-  2 11,8  | AlO
   2 11,8  | ElA
   2  4,5  | OI
   2 11,8  | OlA

@@ -1,6 +1,7 @@
  63  4,9  - SMOTTER
  62  7,1  - TOTEM
  50  8,5  | SMOTTER
+ 48  8,2  | SOMERS
  47  7,1  - MEROS
  47  7,1  - METRO
  47  7,1  - MORES
@@ -12,6 +13,8 @@
  47  7,1  - MOTET
  47  7,1  - MOTTE
  47  7,1  - MOTTS
+ 47  8,2  | SOMET
+ 46  8,2  | SOME
  44  7,1  - TERMS
  44  7,1  - TOMES
  40  3,9  | MEO
@@ -87,8 +90,10 @@
  30  1,11 - PREM
  30  1,11 - PROM
  30  1,11 - PROTEST
+ 30  8,2  | SOTTER
  29  8,1  - OMER
- 27  1,11 - PMT
+ 29  8,2  | SOTER
+ 28  8,2  | SOTS
  27  1,11 - POM
  27  1,11 - PORETT
  27  1,11 - POSTER
@@ -110,12 +115,10 @@
  25  1,3  | ROM
  25  3,9  | ROM
  25  1,3  | SEM
- 25  3,9  | SEM
  25  4,9  - SERMO
  25  4,9  - SMORE
  25  4,9  - SMOTE
  25  1,3  | STM
- 25  3,9  | STM
  25  1,3  | TEM
  25  3,9  | TEM
  25  1,3  | TOM
@@ -125,7 +128,6 @@
  24  1,11 - PETTO
  24  1,11 - POETS
  24  1,11 - PORES
- 24  1,11 - PORET
  24  1,11 - PORTE
  24  1,11 - PORTS
  24  1,11 - POSER
@@ -134,6 +136,8 @@
  24  1,11 - PROSE
  24  1,11 - PROST
  24  1,11 - PROTE
+ 24  8,2  | SOE
+ 24  8,2  | SOT
  24  4,9  - STEM
  24  4,9  - STROME
  24  8,4  | TERMS
@@ -236,7 +240,6 @@
  18  1,11 - PES
  18  1,11 - PET
  18  1,11 - POE
- 18  1,11 - POR
  18  1,11 - POS
  18  1,11 - POT
  18  1,11 - PRE
@@ -269,6 +272,7 @@
  17  7,2  | AXISES
  17  1,9  - DeER
  17  1,9  - DeES
+ 17  8,1  - EM
  17  8,4  | EST
  17  8,1  - OM
  17  8,4  | TST
@@ -289,15 +293,10 @@
  16  4,9  - ROT
  16  3,9  | RTE
  16  4,9  - RTE
- 16  3,9  | SER
  16  4,9  - SER
- 16  3,9  | SET
  16  4,9  - SET
- 16  3,9  | SOE
  16  4,9  - SOE
- 16  3,9  | SOT
  16  4,9  - SOT
- 16  3,9  | STR
  16  4,9  - STR
  16  7,1  - TE
  16  8,4  | TE
@@ -328,6 +327,19 @@
  13  1,3  | ERS
  13  1,3  | EST
  13  3,1  - JO
+ 13  5,8  | MERO
+ 13  5,8  | MESO
+ 13  5,8  | MEST
+ 13  5,8  | METS
+ 13  5,8  | MOET
+ 13  5,8  | MORE
+ 13  5,8  | MORS
+ 13  5,8  | MORT
+ 13  5,8  | MOSE
+ 13  5,8  | MOST
+ 13  5,8  | MOTE
+ 13  5,8  | MOTS
+ 13  5,8  | MOTT
  13  1,3  | OER
  13  1,3  | OES
  13  4,1  | OI
@@ -356,20 +368,33 @@
  13  1,3  | TRT
  13  1,3  | TST
  13  4,4  | WeAVERS
+ 12  1,4  | EM
  12  5,8  | EMO
  12  4,8  - EMOTERS
  12  5,8  | EMS
  12  6,4  - KITERS
  12  6,4  - KITTER
+ 12  5,8  | MEO
+ 12  5,8  | MER
+ 12  5,8  | MES
+ 12  5,8  | MET
+ 12  5,8  | MOR
+ 12  5,8  | MOS
+ 12  5,8  | MOT
+ 12  5,8  | MRS
+ 12  5,8  | MTS
  12  1,4  | OM
  12  5,8  | OMS
+ 12  6,3  - OXO
  12  5,8  | RMS
+ 12  8,2  | SO
  12  8,5  | SOME
  12  7,1  | TAXIS
  12  8,5  | TOME
  12  8,5  | TOMS
  12  4,4  | WeAVER
  12  4,4  | WeAVES
+ 11  5,8  | EM
  11  4,8  - EMOTER
  11  4,8  - EMOTES
  11  8,1  - ERS
@@ -377,6 +402,8 @@
  11  6,4  - KIERS
  11  6,4  - KITER
  11  6,4  - KITES
+ 11  5,8  | ME
+ 11  5,8  | MO
  11  8,1  - OER
  11  8,1  - OES
  11  5,8  | OM
@@ -397,8 +424,8 @@
  11  8,5  | TOTERS
  11  3,8  | TRS
  11  3,8  | TRT
- 11  3,8  | TST
  10  1,9  - DeM
+ 10  3,9  | EM
  10  4,8  - EMOTE
  10  6,4  - KIER
  10  6,4  - KIST
@@ -473,6 +500,7 @@
   9  8,5  | TROT
   8  2,8  - AMEER
   8  4,6  - AMY
+  8  8,5  | EM
   8  8,1  - EO
   8  8,1  - ER
   8  8,1  - ES
@@ -480,7 +508,6 @@
   8  8,1  - OE
   8  8,1  - OR
   8  8,1  - OS
-  8  1,11 - PM
   7  2,8  - ASEM
   7  4,8  - EMER
   7  4,8  - EMES
@@ -510,7 +537,6 @@
   7  5,8  | SERO
   7  5,8  | SERT
   7  5,8  | SETT
-  7  3,9  | SO
   7  5,8  | SORE
   7  5,8  | SORT
   7  5,8  | STER
@@ -588,6 +614,7 @@
   5  2,8  - ARETE
   5  4,6  - ARY
   5  2,8  - ATEES
+  5  4,8  - EM
   5  8,5  | EO
   5  5,8  | EO
   5  8,5  | ER
@@ -603,7 +630,6 @@
   5  5,8  | OS
   5  1,11 - PE
   5  1,11 - PO
-  5  1,11 - PT
   5  5,8  | RE
   5  8,5  | SO
   5  5,8  | SO
@@ -616,7 +642,6 @@
   4  2,8  - ATES
   4  1,9  - DeE
   4  1,9  - DeR
-  4  1,9  - DeS
   4  1,9  - DeT
   4  4,8  - EROS
   4  4,8  - ERSE

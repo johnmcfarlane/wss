@@ -1,11 +1,19 @@
  67  1,1  - BeSTOW
+ 58  1,1  - BOWIe
+ 58  1,1  - BOWSe
  55  1,3  - BOWSIe
  55  1,3  - BOWTIe
  55  1,7  - mISTBOW
  54  1,1  - BIOTaS
+ 54  1,1  - BOITeS
  50  1,3  - BeSTOW
+ 49  1,1  - BIOSe
  49  1,1  - BIOTa
  49  1,1  - BITSy
+ 49  1,1  - BOISe
+ 49  1,1  - BOITe
+ 49  1,1  - BTISe
+ 49  1,1  - WISTe
  48  1,3  - STIlB
  47  1,3  - TOWaIS
  46  1,3  - BOWIe
@@ -27,6 +35,8 @@
  36  3,1  - SWaB
  36  3,1  - SWoB
  36  1,1  - TOBIaS
+ 36  1,1  - TOBIeS
+ 36  1,1  - TOWIeS
  36  3,1  - WOmB
  33  1,3  - BIOTaS
  33  1,3  - BOITeS
@@ -42,12 +52,13 @@
  31  7,8  - BOSsA
  31  7,8  - BOsSA
  31  1,1  - IBOTa
+ 31  1,1  - SOWTe
  31  3,1  - STOB
  31  3,1  - STOW
- 31  1,1  - STOWp
  31  2,1  - STrOW
  31  1,1  - SWITh
  31  2,3  - SWOBs
+ 31  1,1  - TOWIe
  31  1,1  - TOWSy
  31  3,3  - WaBI
  31  3,3  - WaBS
@@ -72,7 +83,6 @@
  28  3,1  - BIOS
  28  1,3  - BIOSe
  28  1,3  - BIOTa
- 28  1,3  - BISOn
  28  1,3  - BISTi
  28  1,3  - BITSy
  28  2,1  - BIgOT
@@ -83,8 +93,6 @@
  28  2,1  - BeSOT
  28  2,1  - BrIOS
  28  1,3  - IBOTa
- 28  7,1  - IWa
- 28  7,1  - OWe
  28  1,3  - SWITh
  28  3,1  - SWOT
  28  2,1  - SaBOT
@@ -107,13 +115,14 @@
  28  2,1  - WInOS
  28  2,1  - WIrOS
  28  2,1  - WIyOT
- 28  8,1  - WO
  28  3,3  - WaB
  28  3,3  - WeB
  28  3,3  - WoB
  28  3,1  - sTOB
  28  3,1  - sTOW
  27  2,1  - BISOn
+ 27  2,1  - BISeT
+ 27  2,1  - BITeS
  27  2,1  - BOTaS
  27  5,3  - BiO
  27  5,3  - BoO
@@ -123,15 +132,17 @@
  27  8,8  - OsSA
  27  3,1  - STaB
  27  3,1  - STaW
+ 27  3,1  - STeW
  27  3,1  - SToB
  27  3,1  - SToW
  27  8,8  - STrA
  27  3,1  - STuB
- 27  2,1  - SWIfT
  27  2,1  - TOWaI
  27  3,1  - TOmB
  27  2,1  - TWIgS
+ 27  2,1  - TWOeS
  27  2,1  - WIShT
+ 27  2,1  - WITeS
  27  5,6  | WOmBS
  26  2,1  - BITO
  26  4,3  - OBIa
@@ -178,7 +189,6 @@
  24  3,1  - BIaS
  24  4,8  - BIgOTS
  24  3,1  - BIoS
- 24  6,1  - BOW
  24  6,8  - BOWS
  24  5,4  | BOWSIe
  24  5,4  | BOWTIe
@@ -188,7 +198,6 @@
  24  3,1  - BOmI
  24  3,1  - BOoS
  24  3,1  - BOoT
- 24  3,1  - BOpS
  24  3,1  - BOuT
  24  3,1  - BOyS
  24  5,8  - BlOWS
@@ -198,9 +207,11 @@
  24  5,2  | MInOW
  24  4,3  - OBI
  24  4,3  - OBS
+ 24  3,1  - OBeS
  24  3,1  - OBuS
  24  4,10 - OSc
  24  4,10 - OTc
+ 24  3,1  - OWeS
  24  3,3  - SIBb
  24  3,3  - SIBs
  24  1,3  - SITaO
@@ -230,14 +241,11 @@
  24  3,1  - TWaS
  24  3,1  - TWoS
  24  9,8  - TrA
- 24  4,3  - WB
  24  9,5  | WEFtS
  24  3,1  - WIgS
- 24  3,1  - WIpS
- 24  3,1  - WOfT
+ 24  3,1  - WOeS
  24  5,8  - WOmBS
  24  3,1  - WOoS
- 24  3,1  - WOpS
  24  3,3  - bIBS
  24  3,3  - bOBS
  24  3,3  - cOBS
@@ -307,7 +315,6 @@
  23  2,1  - SyBO
  23  3,3  - TIB
  23  6,1  - TIaO
- 23  6,1  - TIrO
  23  3,3  - TOB
  23  2,3  - TOmB
  23  3,1  - TWO
@@ -336,23 +343,25 @@
  22  3,3  - BIOSe
  22  4,8  - BIOTaS
  22  2,1  - BIOg
+ 22  2,1  - BISe
  22  2,1  - BISh
+ 22  2,1  - BITe
  22  2,1  - BITo
  22  3,3  - BOISe
  22  4,8  - BOITeS
+ 22  2,1  - BOSe
  22  2,1  - BOSh
  22  2,1  - BOTa
+ 22  2,1  - BOTe
  22  2,1  - BOTh
  22  5,4  | BOW
  22  5,4  | BOWk
  22  5,4  | BOWl
- 22  6,8  - BOWl
  22  5,4  | BOWn
  22  5,4  | BOWs
  22  6,8  - BOWs
  22  3,3  - BOuW
  22  3,3  - BTISe
- 22  6,1  - BoW
  22  5,4  | BoWS
  22  4,3  - IBm
  22  4,3  - IBo
@@ -365,13 +374,13 @@
  22  4,3  - OBi
  22  4,3  - OBs
  22  1,1  - OSTIa
+ 22  2,1  - OWSe
  22  3,3  - ObB
  22  3,3  - OrB
- 22  2,1  - SOWf
+ 22  1,1  - SOTIe
  22  2,1  - SWIg
  22  2,1  - SWIm
  22  2,1  - SWOm
- 22  2,1  - SWOp
  22  5,5  | SWaB
  22  5,5  | SWoB
  22  3,3  - SaB
@@ -388,15 +397,17 @@
  22  3,3  - SuB
  22  6,9  | SuQ
  22  2,3  - SwOB
- 22  2,1  - TBSp
  22  4,3  - TBs
  22  3,3  - TImBO
  22  2,1  - TOBa
+ 22  2,1  - TOBe
  22  2,1  - TOBy
+ 22  1,1  - TOISe
  22  5,4  | TOWIeS
  22  5,4  | TOWaIS
  22  2,1  - TOWy
  22  3,3  - TSuBO
+ 22  2,1  - TWIe
  22  2,1  - TWIg
  22  3,3  - TaB
  22  5,10 - Tc
@@ -406,13 +417,13 @@
  22  2,3  - TrIB
  22  3,3  - TuB
  22  9,5  | WEFt
+ 22  2,1  - WISe
  22  2,1  - WISh
- 22  2,1  - WISp
+ 22  2,1  - WITe
  22  2,1  - WITh
  22  5,6  | WOB
+ 22  2,1  - WOTe
  22  3,3  - WOmB
- 22  8,1  - We
- 22  8,1  - Wo
  22  6,9  | cOQ
  22  6,9  | eSQ
  22  6,9  | lIQ
@@ -420,7 +431,6 @@
  22  5,5  | sWOB
  21  4,3  - BOW
  21  5,3  - Be
- 21  5,3  - Bf
  21  5,3  - Bi
  21  7,9  - BlITZ
  21  3,7  - BlOWS
@@ -445,7 +455,6 @@
  21  5,5  | TWItS
  21  5,5  | TWOeS
  21  5,8  - TrOWS
- 21  5,6  | WB
  21  5,6  | WIST
  21  5,6  | WISTe
  21  5,6  | WISTs
@@ -644,7 +653,6 @@
  20  6,8  - tOWS
  20  3,1  - tWO
  20  6,8  - vOWS
- 20  4,3  - wB
  20  6,8  - wOWS
  20  6,8  - wOWT
  20  6,8  - yOBS
@@ -658,13 +666,12 @@
  19  4,1  - BOW
  19  2,3  - BOWIe
  19  3,1  - BOa
+ 19  3,1  - BOe
  19  3,1  - BOg
  19  3,1  - BOh
  19  3,1  - BOm
  19  3,1  - BOo
- 19  3,1  - BOp
  19  3,1  - BOy
- 19  3,1  - BSf
  19  3,1  - BSh
  19  8,8  - BT
  19  3,1  - BTu
@@ -686,10 +693,12 @@
  19  5,1  - OBI
  19  3,1  - OBa
  19  5,3  - OBa
+ 19  3,1  - OBe
  19  5,3  - OBe
  19  1,3  - OSTIa
  19  5,5  | OWSe
  19  5,5  | OWT
+ 19  3,1  - OWe
  19  5,3  - OWe
  19  5,5  | OWeS
  19  5,5  | OWlS
@@ -701,13 +710,11 @@
  19  5,4  | SOWf
  19  6,8  - SOWf
  19  5,4  | SOWl
- 19  6,8  - SOWl
  19  5,4  | SOWn
  19  5,4  | SOWs
  19  6,8  - SOWs
  19  5,4  | SOWt
  19  6,8  - SOWt
- 19  1,3  - STIOn
  19  7,4  - SWIPE
  19  5,5  | SWIg
  19  5,5  | SWIm
@@ -759,7 +766,6 @@
  19  5,5  | TWaS
  19  3,1  - TWo
  19  5,5  | TWoS
- 19  3,1  - TWp
  19  5,4  | TaWS
  19  5,4  | TeWS
  19  3,3  - ThOB
@@ -790,6 +796,7 @@
  19  5,6  | WOTe
  19  5,6  | WOTs
  19  3,1  - WOa
+ 19  3,1  - WOe
  19  3,1  - WOg
  19  3,1  - WOo
  19  8,8  - WT
@@ -849,7 +856,6 @@
  18  3,3  - BOIs
  18  6,3  - BOm
  18  6,3  - BOo
- 18  6,3  - BOp
  18  3,5  - BOuW
  18  3,7  - BOuW
  18  2,7  - BeSTOW
@@ -865,14 +871,12 @@
  18  5,5  | IWa
  18  5,5  | IWi
  18  7,1  - IaO
- 18  7,8  - OBl
  18  4,8  - OBoIST
  18  7,8  - OBs
  18  5,5  | OW
  18  5,5  | OWd
  18  5,5  | OWe
  18  5,5  | OWl
- 18  7,8  - OWl
  18  5,5  | OWn
  18  5,5  | OWt
  18  7,8  - OWt
@@ -882,14 +886,10 @@
  18  2,1  - SITaO
  18  4,3  - SOB
  18  4,8  - SOBeIT
- 18  6,1  - SOW
  18  4,3  - SOW
- 18  4,1  - SOWf
  18  2,1  - STIOn
- 18  2,1  - STIpO
  18  3,3  - STIpO
  18  2,1  - STOaI
- 18  5,5  | SW
  18  7,9  - SWIzZ
  18  5,5  | SWa
  18  7,4  - SWaPE
@@ -904,7 +904,6 @@
  18  4,3  - TOB
  18  4,1  - TOBa
  18  4,1  - TOBe
- 18  6,1  - TOW
  18  4,3  - TOW
  18  4,8  - TOWaIS
  18  5,5  | TWa
@@ -916,8 +915,6 @@
  18  5,4  | TeW
  18  5,4  | ToW
  18  4,1  - TuWI
- 18  6,5  - WB
- 18  6,7  - WB
  18  8,4  - WIPE
  18  5,6  | WId
  18  5,6  | WIg
@@ -1005,7 +1002,6 @@
  17  7,10 - BaT
  17  1,5  - BeSTOW
  17  1,7  - BeSTOW
- 17  8,8  - Bf
  17  7,10 - BkT
  17  5,5  | BlIST
  17  5,5  | BlOTS
@@ -1030,7 +1026,6 @@
  17  5,5  | OrBIT
  17  4,5  - SWOB
  17  4,7  - SWOB
- 17  2,3  - TWInS
  17  3,3  - TWOS
  17  2,3  - TWOeS
  17  5,5  | TrOWS
@@ -1039,12 +1034,9 @@
  17  2,3  - WIrOS
  17  4,1  - WaB
  17  4,3  - WaB
- 17  5,6  | Wb
  17  5,6  | We
+ 17  4,1  - WeB
  17  4,3  - WeB
- 17  5,6  | Wf
- 17  8,8  - Wf
- 17  5,6  | Wg
  17  5,5  | WhIST
  17  5,5  | WhITS
  17  8,4  - WiPE
@@ -1055,7 +1047,6 @@
  17  5,5  | WrITS
  17  5,6  | Wt
  17  8,8  - Wt
- 17  5,6  | Wy
  17  8,4  - WyPE
  17  5,1  - aBO
  17  2,3  - aBSI
@@ -1072,10 +1063,8 @@
  17  4,3  - dOW
  17  5,1  | eMBOW
  17  5,5  | eW
- 17  5,1  - fBI
  17  4,3  - fIB
  17  4,3  - fOB
- 17  5,5  | fW
  17  4,3  - gIB
  17  4,3  - gOB
  17  4,3  - hOB
@@ -1107,7 +1096,6 @@
  17  4,3  - sIB
  17  4,3  - sOB
  17  4,3  - sOW
- 17  5,5  | sW
  17  4,3  - tIB
  17  4,3  - tOB
  17  4,3  - tOW
@@ -1117,15 +1105,12 @@
  17  4,3  - vOW
  17  4,3  - wOB
  17  4,3  - wOW
- 17  5,5  | xW
  17  4,3  - yOB
  17  4,3  - yOW
  16  2,3  - BISOn
  16  3,3  - BIaS
  16  3,3  - BIbS
  16  5,4  | BIlOS
- 16  3,3  - BInO
- 16  3,3  - BInS
  16  3,3  - BIoS
  16  8,9  - BIzZ
  16  3,7  - BOIST
@@ -1140,22 +1125,15 @@
  16  6,1  - BOa
  16  3,3  - BOaS
  16  3,3  - BObS
- 16  6,1  - BOc
- 16  6,1  - BOh
  16  3,3  - BOiI
  16  3,3  - BOiS
  16  5,4  | BOlIS
  16  5,4  | BOlTI
  16  5,4  | BOlTS
  16  3,3  - BOmI
- 16  3,3  - BOnI
- 16  3,3  - BOnS
  16  3,3  - BOoS
- 16  6,1  - BOp
- 16  6,1  - BOr
  16  5,4  | BOrIS
  16  5,4  | BOrTS
- 16  6,1  - BOw
  16  3,3  - BOyS
  16  3,3  - BaI
  16  6,3  - BaI
@@ -1177,7 +1155,6 @@
  16  3,1  - IlOT
  16  5,8  - OBITS
  16  2,7  - OBoIST
- 16  5,1  - OTIc
  16  3,3  - SIbB
  16  4,1  - SOB
  16  4,1  - SOW
@@ -1191,14 +1168,11 @@
  16  5,4  | STrOW
  16  3,3  - STuB
  16  3,5  - SWOB
- 16  6,1  - SaW
  16  3,1  - ScOT
- 16  6,1  - SeW
  16  3,1  - ShOT
  16  3,1  - SlOT
  16  3,1  - SnOT
  16  3,1  - SoOT
- 16  6,1  - SoW
  16  3,1  - SpOT
  16  3,1  - StOT
  16  3,1  - SwOT
@@ -1215,25 +1189,17 @@
  16  3,3  - TOmB
  16  2,3  - TaBIS
  16  3,1  - TaOS
- 16  6,1  - TaW
- 16  6,1  - TeW
  16  3,1  - ThOS
- 16  6,1  - ToW
  16  3,1  - TwOS
  16  5,4  | WIlTS
- 16  3,3  - WInO
- 16  3,3  - WInS
- 16  6,1  - WIr
  16  5,4  | WIrOS
  16  5,5  - WOB
  16  5,7  - WOB
  16  6,1  - WOa
  16  3,3  - WOeS
- 16  3,3  - WOnS
  16  3,3  - WOoS
  16  5,4  | WOrST
  16  5,4  | WOrTS
- 16  6,1  - WOw
  16  2,3  - WaBI
  16  3,3  - WeI
  16  6,3  - WeI
@@ -1241,42 +1207,29 @@
  16  3,3  - WoO
  16  6,3  - WoO
  16  3,3  - WrO
- 16  8,1  | aGIB
  16  3,1  - bIOS
- 16  6,1  - bOW
  16  5,6  | dIBS
- 16  6,1  - dOW
  16  5,6  | dOWS
  16  3,1  - fIOT
  16  4,8  - hOBITS
  16  5,6  | hOBS
- 16  6,1  - hOW
  16  5,6  | hOWS
- 16  6,1  - jOW
  16  5,6  | lIBS
  16  5,6  | lOBI
  16  5,6  | lOBS
- 16  6,1  - lOW
  16  5,6  | lOWS
- 16  6,1  - mOW
- 16  6,1  - nOW
  16  2,7  - oBOIST
  16  4,8  - oBOIST
- 16  6,1  - pOW
  16  5,6  | rIBS
  16  3,1  - rIOT
  16  5,6  | rOBS
  16  5,6  | rOWS
  16  5,6  | rOWT
- 16  6,1  - sOW
  16  4,5  - sWOB
  16  4,7  - sWOB
  16  2,7  - sWOBS
- 16  6,1  - tOW
- 16  6,1  - wOW
  16  5,6  | wOWS
  16  5,6  | wOWT
- 16  6,1  - yOW
  15  4,3  - BIO
  15  6,8  - BIOS
  15  4,3  - BIS
@@ -1348,7 +1301,6 @@
  15  5,8  - BaITS
  15  3,7  - BaSTI
  15  5,8  - BaTIS
- 15  8,9  - BaTZ
  15  5,8  - BeSIT
  15  3,5  - BeSOT
  15  3,7  - BeSOT
@@ -1403,15 +1355,12 @@
  15  5,8  - OBmIT
  15  3,1  - OTuS
  15  5,1  - OW
- 15  7,1  - OW
  15  5,4  | OWlS
  15  5,8  - OoBIT
  15  5,8  - OrBIT
  15  5,5  | OrBS
  15  3,1  - SIOl
  15  3,1  - SIOn
- 15  3,1  - SIfT
- 15  3,1  - SOfT
  15  3,1  - SOoT
  15  5,4  | SOrB
  15  3,1  - STOb
@@ -1442,12 +1391,11 @@
  15  5,5  | SwOB
  15  5,5  | SwOW
  15  3,1  - TIaO
+ 15  3,1  - TIeS
  15  3,1  - TImO
- 15  3,1  - TIpS
+ 15  3,1  - TOeS
  15  3,1  - TOgS
  15  3,1  - TOmS
- 15  3,1  - TOpI
- 15  3,1  - TOpS
  15  3,1  - TOyS
  15  3,1  - TShI
  15  3,3  - TWIe
@@ -1481,6 +1429,7 @@
  15  6,8  - WOTS
  15  4,1  - WOTe
  15  4,5  - WOmB
+ 15  4,7  - WOmB
  15  3,7  - WOnTS
  15  5,8  - WOnTS
  15  3,7  - WOrST
@@ -1598,7 +1547,6 @@
  14  4,5  - BOW
  14  4,7  - BOW
  14  3,7  - BOWl
- 14  2,3  - BOWn
  14  3,5  - BOWn
  14  3,7  - BOWn
  14  3,7  - BOWs
@@ -1620,7 +1568,6 @@
  14  8,8  | BOtA
  14  2,3  - BOtI
  14  5,4  | BOw
- 14  8,8  | BOzA
  14  5,4  | BSh
  14  3,7  - BTISe
  14  5,4  | BTl
@@ -1693,6 +1640,7 @@
  14  4,3  - SaB
  14  4,1  - SaW
  14  4,3  - SaW
+ 14  4,1  - SeW
  14  4,3  - SeW
  14  4,3  - SiB
  14  4,1  - SoB
@@ -1716,17 +1664,16 @@
  14  4,7  - TOWS
  14  2,3  - TOWaI
  14  1,7  - TOWaIS
- 14  2,3  - TOWnS
  14  2,3  - TOpIS
  14  3,3  - TWI
  14  5,8  - TWISt
  14  2,3  - TWIe
- 14  2,3  - TWIn
  14  3,3  - TWO
  14  4,1  - TaB
  14  4,3  - TaB
  14  4,1  - TaW
  14  4,3  - TaW
+ 14  4,1  - TeW
  14  4,3  - TeW
  14  2,1  - ThIO
  14  4,3  - ThIO
@@ -1830,7 +1777,6 @@
  14  6,8  - yWIS
  13  6,1  - BI
  13  3,7  - BIOS
- 13  6,8  - BIOl
  13  5,8  - BIOnT
  13  2,7  - BIOnTS
  13  6,8  - BIOs
@@ -1852,7 +1798,6 @@
  13  2,7  - BIgOTS
  13  3,3  - BIm
  13  4,3  - BIm
- 13  3,3  - BIn
  13  4,3  - BIn
  13  3,3  - BIo
  13  4,3  - BIo
@@ -1860,7 +1805,6 @@
  13  6,1  - BO
  13  9,9  | BOC
  13  3,7  - BOIS
- 13  6,8  - BOIl
  13  5,8  - BOIlS
  13  6,8  - BOIs
  13  5,8  - BOIsT
@@ -1883,7 +1827,6 @@
  13  4,3  - BOh
  13  3,3  - BOm
  13  4,3  - BOm
- 13  3,3  - BOn
  13  4,3  - BOn
  13  3,3  - BOo
  13  4,3  - BOo
@@ -1894,11 +1837,9 @@
  13  4,3  - BOx
  13  3,3  - BOy
  13  4,3  - BOy
- 13  3,3  - BSf
  13  3,3  - BSh
  13  7,10 - BT
  13  3,3  - BTu
- 13  8,10 - Bf
  13  2,3  - BiTI
  13  2,3  - BiTO
  13  2,3  - BoTI
@@ -1940,11 +1881,11 @@
  13  5,5  - OWT
  13  5,7  - OWT
  13  3,3  - OWeS
- 13  3,3  - OWnS
  13  3,3  - ObIS
  13  3,3  - OtIS
  13  3,3  - OvIS
  13  2,1  - SITa
+ 13  2,1  - SITe
  13  2,1  - SITh
  13  2,1  - SITu
  13  8,9  - SItZ
@@ -1962,9 +1903,7 @@
  13  3,5  - STOW
  13  3,7  - STOW
  13  2,1  - STOa
- 13  2,1  - STOf
  13  2,1  - STOg
- 13  2,1  - STOp
  13  2,5  - STrOW
  13  2,7  - STrOW
  13  2,5  - SWIfT
@@ -2035,7 +1974,6 @@
  13  2,3  - TuWI
  13  4,7  - TuWI
  13  3,3  - TwOS
- 13  5,5  - WB
  13  5,6  - WEAVES
  13  3,5  - WIST
  13  3,7  - WIST
@@ -2048,7 +1986,6 @@
  13  4,3  - WId
  13  3,3  - WIm
  13  4,3  - WIm
- 13  3,3  - WIn
  13  4,3  - WIn
  13  4,3  - WIr
  13  4,3  - WIs
@@ -2068,7 +2005,6 @@
  13  4,3  - WOe
  13  6,1  | WOmBIEST
  13  2,7  - WOmBS
- 13  3,3  - WOn
  13  4,3  - WOn
  13  3,3  - WOo
  13  4,3  - WOo
@@ -2083,7 +2019,6 @@
  13  2,7  - aBSIT
  13  5,1  | aMBO
  13  5,1  - aW
- 13  7,1  - aW
  13  5,3  - aW
  13  5,3  - bIO
  13  4,1  - bOTI
@@ -2095,12 +2030,9 @@
  13  5,6  | dOST
  13  5,6  | dOTS
  13  4,7  - dOWS
- 13  7,1  - eW
+ 13  5,1  - eW
  13  5,3  - eW
  13  8,9  - fITZ
- 13  5,1  - fW
- 13  7,1  - fW
- 13  5,3  - fW
  13  5,6  | hIST
  13  5,6  | hITS
  13  2,7  - hOBITS
@@ -2134,7 +2066,6 @@
  13  5,3  - oB
  13  2,7  - oBITS
  13  5,1  - oW
- 13  7,1  - oW
  13  5,3  - oW
  13  4,1  - pOTI
  13  4,7  - pOWS
@@ -2162,7 +2093,6 @@
  13  2,7  - tWITS
  13  5,1  | uMBO
  13  4,7  - vOWS
- 13  5,6  | wB
  13  5,6  | wIST
  13  5,6  | wITS
  13  5,6  | wOST
@@ -2227,7 +2157,6 @@
  12  6,8  - BOgS
  12  3,7  - BOiS
  12  6,8  - BOiS
- 12  7,8  - BOl
  12  3,5  - BOlT
  12  3,7  - BOlT
  12  6,8  - BOlT
@@ -2266,7 +2195,6 @@
  12  3,7  - BSkT
  12  6,8  - BSkT
  12  6,5  - BT
- 12  7,8  - BTl
  12  9,9  | BaC
  12  3,7  - BaIS
  12  3,5  - BaIT
@@ -2310,12 +2238,10 @@
  12  6,8  - IBiS
  12  7,1  | INOBlAST
  12  4,1  - IOTa
- 12  6,3  - IOu
  12  4,5  - ISBa
  12  5,8  - ISlOT
  12  6,8  - IWiS
  12  5,5  | IlOT
- 12  4,1  - IpSO
  12  9,9  - IsZ
  12  5,2  | MB
  12  5,2  | MBd
@@ -2361,13 +2287,11 @@
  12  4,7  - SOWt
  12  4,1  - SOlI
  12  5,4  | SOlI
- 12  6,3  - SOp
  12  3,5  - SOrB
  12  4,5  - SOrB
  12  4,7  - SOrB
  12  5,4  | SOrI
  12  5,4  | SOrT
- 12  6,3  - SOu
  12  5,4  | SOwT
  12  4,5  - STBd
  12  3,3  - STIb
@@ -2395,7 +2319,6 @@
  12  3,7  - SToW
  12  4,7  - SToW
  12  3,5  - STuB
- 12  6,7  - SW
  12  2,5  - SWITh
  12  2,7  - SWITh
  12  2,7  - SWOTs
@@ -2410,7 +2333,6 @@
  12  3,5  - ScOW
  12  3,7  - ScOW
  12  9,9  - SeZ
- 12  9,9  - SfZ
  12  5,5  | ShIT
  12  5,5  | ShOT
  12  3,5  - ShOW
@@ -2459,6 +2381,7 @@
  12  5,4  | TOdS
  12  3,5  - TOmB
  12  4,5  - TOmB
+ 12  4,7  - TOmB
  12  4,1  - TOpI
  12  5,8  - TOpIS
  12  5,4  | TOrI
@@ -2601,7 +2524,6 @@
  12  5,5  - gOB
  12  5,7  - gOB
  12  3,3  - gOIS
- 12  8,1  - hO
  12  5,5  - hOB
  12  5,7  - hOB
  12  6,3  - hOI
@@ -2637,7 +2559,6 @@
  12  3,3  - oTIS
  12  5,5  - oWT
  12  5,7  - oWT
- 12  8,1  - pO
  12  5,5  - pOB
  12  5,7  - pOB
  12  6,3  - pOI
@@ -2669,7 +2590,6 @@
  12  3,3  - uBI
  12  5,7  - uSW
  12  5,7  - vOW
- 12  8,1  - wO
  12  5,5  - wOB
  12  5,7  - wOB
  12  5,7  - wOW
@@ -2684,7 +2604,6 @@
  11  3,5  - BIOd
  11  3,7  - BIOd
  11  3,7  - BIOl
- 11  2,3  - BIOn
  11  3,5  - BIOn
  11  3,7  - BIOn
  11  1,7  - BIOnTS
@@ -2725,7 +2644,6 @@
  11  2,3  - BOSh
  11  3,5  - BOSh
  11  3,7  - BOSh
- 11  2,3  - BOSn
  11  3,5  - BOSn
  11  3,7  - BOSn
  11  3,7  - BOSs
@@ -2777,9 +2695,8 @@
  11  7,8  - BdS
  11  6,1  - Be
  11  6,3  - Be
+ 11  4,1  - BeT
  11  7,8  - BeT
- 11  6,1  - Bf
- 11  7,10 - Bf
  11  6,1  - Bi
  11  4,3  - BiO
  11  4,3  - BiS
@@ -2797,10 +2714,7 @@
  11  7,8  - BoS
  11  4,1  - BoT
  11  7,8  - BoT
- 11  4,1  - BpI
- 11  4,1  - BpS
  11  7,8  - BpS
- 11  4,1  - BpT
  11  7,8  - BpT
  11  6,4  | BrEWIS
  11  6,4  | BrEWST
@@ -2812,7 +2726,6 @@
  11  7,8  - BuS
  11  4,1  - BuT
  11  7,8  - BuT
- 11  7,8  - BvT
  11  7,8  - BxS
  11  7,10 - By
  11  4,1  - ByS
@@ -2912,8 +2825,6 @@
  11  4,5  - SOW
  11  4,7  - SOW
  11  3,7  - SOWTe
- 11  2,3  - SOWf
- 11  2,3  - SOWn
  11  5,4  | SOd
  11  5,4  | SOh
  11  5,4  | SOl
@@ -2981,7 +2892,6 @@
  11  4,5  - TOW
  11  4,7  - TOW
  11  3,7  - TOWSy
- 11  2,3  - TOWn
  11  3,7  - TOWnS
  11  2,3  - TOWy
  11  5,4  | TOd
@@ -3064,11 +2974,13 @@
  11  7,8  - WaT
  11  6,1  - We
  11  6,3  - We
+ 11  4,1  - WeI
  11  4,3  - WeI
+ 11  4,1  - WeS
  11  4,3  - WeS
  11  7,8  - WeS
+ 11  4,1  - WeT
  11  7,8  - WeT
- 11  6,1  - Wf
  11  4,1  - WhO
  11  4,3  - WhO
  11  4,1  - WhS
@@ -3204,7 +3116,6 @@
  11  2,3  - pISO
  11  6,8  - pIST
  11  6,8  - pITS
- 11  5,1  - pOI
  11  4,3  - pOI
  11  6,8  - pOIS
  11  4,3  - pOS
@@ -3212,7 +3123,6 @@
  11  2,3  - pOTI
  11  6,8  - pOTS
  11  9,9  - pOZ
- 11  5,1  - pSI
  11  4,3  - qIS
  11  3,1  - rIO
  11  4,3  - rIO
@@ -3267,7 +3177,6 @@
  11  6,8  - zITS
  10  7,6  | AbIB
  10  7,6  | AdIB
- 10  7,6  | AgIB
  10  7,6  | AlOW
  10  7,6  | AvOW
  10  7,5  | BATWa
@@ -3321,7 +3230,6 @@
  10  4,7  - BaTS
  10  4,7  - BeST
  10  4,7  - BeTS
- 10  6,5  - Bf
  10  4,7  - BiOS
  10  4,7  - BiST
  10  4,7  - BiTI
@@ -3349,14 +3257,11 @@
  10  3,3  - IBm
  10  3,3  - IBo
  10  5,8  - IOTaS
- 10  3,1  - IOf
- 10  6,1  - IOf
- 10  4,3  - IOf
  10  4,3  - IOn
- 10  3,3  - IOnS
  10  3,1  - IOu
  10  8,8  - IS
  10  5,8  - ISOrT
+ 10  3,1  - ISe
  10  3,1  - ISh
  10  3,1  - ISm
  10  8,8  - IT
@@ -3395,6 +3300,7 @@
  10  1,5  - OBoIST
  10  1,7  - OBoIST
  10  8,8  - OS
+ 10  3,1  - OSe
  10  6,8  - OTIs
  10  3,3  - OTiS
  10  3,1  - OTo
@@ -3402,7 +3308,6 @@
  10  5,5  - OW
  10  5,7  - OW
  10  3,3  - OWe
- 10  3,3  - OWn
  10  4,5  - ObB
  10  3,3  - ObI
  10  5,5  | Od
@@ -3413,45 +3318,36 @@
  10  3,3  - OuI
  10  6,3  - OuI
  10  5,5  | Ow
- 10  6,8  - SIOl
  10  6,8  - SITs
  10  3,1  - SIa
  10  6,1  - SIa
  10  4,3  - SIb
- 10  6,1  - SIc
  10  4,3  - SId
+ 10  3,1  - SIe
  10  4,3  - SIe
  10  3,1  - SIg
  10  3,1  - SIm
  10  4,3  - SIm
  10  4,3  - SIn
- 10  3,1  - SIp
- 10  6,1  - SIp
  10  4,3  - SIp
- 10  6,1  - SIr
  10  4,3  - SIr
  10  4,3  - SIs
  10  4,3  - SIx
- 10  6,8  - SOIl
  10  4,1  - SOT
  10  6,8  - SOTs
  10  3,5  - SOWT
  10  3,7  - SOWT
  10  4,3  - SOb
- 10  6,1  - SOc
  10  4,3  - SOd
+ 10  3,1  - SOe
  10  4,3  - SOe
  10  3,1  - SOg
  10  3,1  - SOh
- 10  6,1  - SOh
  10  4,3  - SOh
  10  4,3  - SOn
- 10  3,1  - SOp
- 10  6,1  - SOp
  10  4,3  - SOp
  10  4,3  - SOs
  10  3,1  - SOu
- 10  6,1  - SOw
  10  4,3  - SOw
  10  4,3  - SOx
  10  3,1  - SOy
@@ -3465,8 +3361,6 @@
  10  3,1  - STm
  10  3,1  - STu
  10  3,1  - STy
- 10  5,5  - SW
- 10  5,7  - SW
  10  7,4  | SWAB
  10  7,4  | SWABs
  10  3,5  - SWOT
@@ -3503,12 +3397,11 @@
  10  3,3  - SuI
  10  6,3  - SuI
  10  2,3  - SuTO
- 10  5,5  | Sw
  10  9,5  | TEFf
  10  3,3  - TIaO
  10  4,3  - TIb
- 10  6,1  - TIc
  10  4,3  - TId
+ 10  3,1  - TIe
  10  4,3  - TIe
  10  3,3  - TIeS
  10  3,1  - TIg
@@ -3518,15 +3411,10 @@
  10  2,7  - TImBO
  10  3,3  - TImO
  10  4,3  - TIn
- 10  3,3  - TInO
- 10  3,3  - TInS
- 10  3,1  - TIp
- 10  6,1  - TIp
  10  4,3  - TIp
  10  4,3  - TIs
  10  3,1  - TIu
  10  4,1  - TOI
- 10  6,8  - TOIl
  10  5,8  - TOIlS
  10  6,8  - TOIt
  10  5,8  - TOItS
@@ -3539,6 +3427,7 @@
  10  6,1  - TOa
  10  4,3  - TOb
  10  4,3  - TOd
+ 10  3,1  - TOe
  10  4,3  - TOe
  10  3,3  - TOeS
  10  3,1  - TOg
@@ -3548,24 +3437,18 @@
  10  2,7  - TOmBS
  10  3,3  - TOmS
  10  4,3  - TOn
- 10  3,3  - TOnS
  10  3,1  - TOo
  10  4,3  - TOo
- 10  3,1  - TOp
- 10  6,1  - TOp
  10  4,3  - TOp
- 10  6,1  - TOr
  10  4,3  - TOr
  10  4,3  - TOs
  10  3,1  - TOu
- 10  6,1  - TOw
  10  4,3  - TOw
  10  4,3  - TOx
  10  3,1  - TOy
  10  4,3  - TOy
  10  3,3  - TOyS
  10  3,3  - TShI
- 10  3,1  - TSp
  10  2,5  - TSuBO
  10  2,7  - TSuBO
  10  3,7  - TWOS
@@ -3625,13 +3508,9 @@
  10  2,7  - WOrTS
  10  4,7  - WaST
  10  4,7  - WaTS
- 10  6,5  - Wb
- 10  6,7  - Wb
  10  6,7  - We
  10  4,7  - WeST
  10  4,7  - WeTS
- 10  6,5  - Wf
- 10  6,7  - Wg
  10  4,7  - WiST
  10  4,7  - WiTS
  10  4,7  - WoOS
@@ -3640,8 +3519,6 @@
  10  6,5  - Wt
  10  6,7  - Wt
  10  4,7  - WuST
- 10  6,5  - Wy
- 10  6,7  - Wy
  10  6,5  - aB
  10  4,7  - aBOS
  10  4,7  - aBSI
@@ -3687,7 +3564,6 @@
  10  7,8  - fIT
  10  4,5  - fOB
  10  7,8  - fOT
- 10  6,7  - fW
  10  4,5  - gIB
  10  7,8  - gIS
  10  7,8  - gIT
@@ -3724,6 +3600,7 @@
  10  4,7  - lOW
  10  7,8  - lST
  10  6,5  - mB
+ 10  6,7  - mB
  10  4,5  - mIB
  10  7,8  - mIS
  10  7,8  - mIT
@@ -3782,7 +3659,6 @@
  10  4,7  - sOW
  10  2,7  - sTOBS
  10  2,7  - sTOWS
- 10  6,7  - sW
  10  7,4  | sWABS
  10  4,5  - sWOT
  10  4,7  - sWOT
@@ -3804,8 +3680,6 @@
  10  2,7  - vOBIS
  10  4,5  - vOW
  10  4,7  - vOW
- 10  6,5  - wB
- 10  6,7  - wB
  10  7,8  - wIS
  10  7,8  - wIT
  10  5,6  | wO
@@ -3816,7 +3690,6 @@
  10  4,7  - wOW
  10  5,6  | wT
  10  7,8  - xIS
- 10  6,7  - xW
  10  7,8  - yIS
  10  4,5  - yOB
  10  7,8  - yOT
@@ -3908,6 +3781,7 @@
   9  4,5  - BOaT
   9  4,7  - BOdS
   9  4,7  - BOlT
+  9  4,7  - BOmI
   9  4,7  - BOnI
   9  4,7  - BOnS
   9  4,7  - BOoS
@@ -3957,10 +3831,8 @@
   9  4,3  - IO
   9  6,3  - IO
   9  6,8  - IOcS
-  9  7,8  - IOf
   9  6,8  - IOnS
   9  8,8  | ISBA
-  9  7,8  - ISl
   9  3,5  - ISlOT
   9  3,7  - ISlOT
   9  6,8  - ISnT
@@ -3999,7 +3871,6 @@
   9  5,1  - OI
   9  4,3  - OI
   9  6,8  - OIkS
-  9  7,8  - OIl
   9  6,8  - OIlS
   9  6,8  - OInT
   9  5,1  | OMITS
@@ -4031,7 +3902,6 @@
   9  2,5  - OoBIT
   9  2,7  - OoBIT
   9  5,3  - Op
-  9  7,3  - Op
   9  5,3  - Or
   9  2,5  - OrBIT
   9  2,7  - OrBIT
@@ -4045,7 +3915,6 @@
   9  4,3  - SI
   9  8,4  - SIPE
   9  6,8  - SIfT
-  9  7,8  - SIl
   9  6,8  - SIlT
   9  7,8  - SIs
   9  6,8  - SIsT
@@ -4061,7 +3930,6 @@
   9  2,5  - SOWTe
   9  2,7  - SOWTe
   9  6,8  - SOfT
-  9  7,8  - SOl
   9  6,8  - SOoT
   9  6,8  - SOrT
   9  7,8  - SOs
@@ -4103,7 +3971,6 @@
   9  8,4  - TIPE
   9  6,8  - TIcS
   9  6,8  - TIeS
-  9  7,8  - TIl
   9  6,8  - TIlS
   9  6,8  - TInS
   9  6,8  - TIpS
@@ -4122,7 +3989,6 @@
   9  6,8  - TOdS
   9  6,8  - TOeS
   9  6,8  - TOgS
-  9  7,8  - TOl
   9  6,8  - TOmS
   9  6,8  - TOnS
   9  6,8  - TOpS
@@ -4233,8 +4099,6 @@
   9  5,5  - eW
   9  5,7  - eW
   9  4,1  - fOT
-  9  5,5  - fW
-  9  5,7  - fW
   9  3,3  - gIO
   9  4,1  - gOI
   9  3,3  - gOI
@@ -4289,21 +4153,16 @@
   9  3,3  - sSI
   9  7,4  - sTIPE
   9  7,4  - sTOPE
-  9  5,5  - sW
-  9  5,7  - sW
   9  7,4  | sWAB
   9  4,1  - tOI
   9  3,3  - tOI
   9  4,1  - tOS
   9  4,1  - tOT
   9  3,3  - uTI
-  9  5,5  - wB
   9  5,6  - wEAVES
   9  9,5  | wEFTS
   9  4,1  - wOS
   9  4,1  - wOT
-  9  5,5  - xW
-  9  5,7  - xW
   9  4,1  - yOT
   8  7,6  | ABIT
   8  7,6  | ABOS
@@ -4322,7 +4181,6 @@
   8  7,5  | BATtS
   8  7,5  | BAbIS
   8  7,5  | BAcIS
-  8  7,5  | BAgIO
   8  7,5  | BAhTS
   8  7,5  | BAiTS
   8  7,5  | BAlTI
@@ -4398,11 +4256,10 @@
   8  4,3  - Ba
   8  5,5  - BaT
   8  5,7  - BdS
+  8  4,1  - Be
   8  4,3  - Be
   8  5,5  - BeT
   8  5,7  - BeT
-  8  4,1  - Bf
-  8  4,3  - Bf
   8  4,3  - Bi
   8  5,7  - BlS
   8  4,1  - Bo
@@ -4432,18 +4289,13 @@
   8  4,3  - IbO
   8  7,8  - IdS
   8  8,8  - If
-  8  4,1  - IfS
-  8  4,3  - IfS
   8  7,8  - IfS
   8  4,1  - IhS
   8  4,3  - IhS
   8  7,8  - IhS
-  8  4,3  - InO
-  8  4,3  - InS
   8  7,8  - InS
   8  7,8  - InT
   8  8,4  | InV
-  8  4,1  - IpS
   8  7,8  - IpS
   8  7,8  - IqS
   8  8,4  - IrPE
@@ -4453,7 +4305,6 @@
   8  7,8  - IsT
   8  8,8  - It
   8  7,8  - ItS
-  8  8,8  | IzBA
   8  5,2  | MISO
   8  5,2  | MIST
   8  5,2  | MOIT
@@ -4498,10 +4349,10 @@
   8  8,4  | ObV
   8  7,8  - OcT
   8  7,8  - OdS
+  8  4,1  - OeS
   8  4,3  - OeS
   8  7,8  - OeS
   8  8,8  - Of
-  8  4,1  - OfT
   8  7,8  - OfT
   8  4,1  - OhS
   8  4,3  - OhS
@@ -4510,8 +4361,6 @@
   8  4,1  - OmS
   8  4,3  - OmS
   8  7,8  - OmS
-  8  4,3  - OnI
-  8  4,3  - OnS
   8  7,8  - OnS
   8  7,8  - OnT
   8  4,1  - OoS
@@ -4519,9 +4368,7 @@
   8  7,8  - OoS
   8  4,1  - OoT
   8  7,8  - OoT
-  8  4,1  - OpS
   8  7,8  - OpS
-  8  4,1  - OpT
   8  7,8  - OpT
   8  7,8  - OrS
   8  7,8  - OrT
@@ -4537,7 +4384,6 @@
   8  7,5  | SAmBO
   8  3,5  - SIBb
   8  3,7  - SIBs
-  8  2,3  - SIOn
   8  2,3  - SITa
   8  2,3  - SITe
   8  2,3  - SITh
@@ -4584,13 +4430,14 @@
   8  2,3  - STIm
   8  2,3  - STOa
   8  2,3  - STOb
-  8  2,3  - STOf
   8  6,4  - STrIPE
   8  7,4  | SWATI
   8  7,4  | SWATOw
   8  3,5  - SWIm
+  8  3,7  - SWIm
   8  3,5  - SWOb
   8  3,5  - SWOm
+  8  3,7  - SWOm
   8  3,5  - SWOp
   8  3,5  - SWOt
   8  3,7  - SWOt
@@ -4606,7 +4453,9 @@
   8  8,4  | SaV
   8  7,8  - ScT
   8  8,8  | SeBA
+  8  4,1  - SeI
   8  4,3  - SeI
+  8  4,1  - SeT
   8  7,8  - SeT
   8  8,4  | SeV
   8  4,1  - ShI
@@ -4623,7 +4472,6 @@
   8  4,1  - SoT
   8  7,8  - SoT
   8  8,4  | SoV
-  8  4,1  - SpT
   8  7,8  - SpT
   8  8,8  | SuBA
   8  4,1  - SuI
@@ -4713,8 +4561,6 @@
   8  4,3  - ToS
   8  7,8  - ToS
   8  8,4  | ToV
-  8  4,1  - TpI
-  8  4,1  - TpS
   8  7,8  - TpS
   8  7,8  - TrS
   8  7,8  - TsS
@@ -4770,23 +4616,18 @@
   8  5,7  - WOt
   8  5,7  - WOw
   8  5,5  - WaT
-  8  4,3  - Wb
+  8  4,1  - We
   8  4,3  - We
   8  5,7  - WeI
   8  5,7  - WeS
   8  5,5  - WeT
   8  5,7  - WeT
-  8  4,1  - Wf
-  8  4,3  - Wf
-  8  4,1  - Wg
   8  5,7  - WhS
   8  4,1  - Wo
   8  4,3  - Wo
   8  5,7  - WoS
   8  5,5  - WoT
   8  5,7  - WoT
-  8  4,1  - Wy
-  8  4,3  - Wy
   8  9,9  | aBC
   8  3,5  - aBIT
   8  3,7  - aBIT
@@ -5064,8 +4905,6 @@
   7  4,7  - BuS
   7  4,5  - BuT
   7  4,7  - BuT
-  7  4,5  - BvT
-  7  4,7  - BvT
   7  4,7  - BxS
   7  4,7  - ByS
   7  9,6  | EFfS
@@ -5079,8 +4918,6 @@
   7  4,1  - IO
   7  6,1  - IO
   7  2,7  - IOTaS
-  7  3,3  - IOf
-  7  3,3  - IOn
   7  3,3  - IOu
   7  7,4  | ISAWa
   7  2,5  - ISOrT
@@ -5091,10 +4928,8 @@
   7  2,5  - ISlOT
   7  2,7  - ISlOT
   7  3,3  - ISm
-  7  3,3  - ISn
   7  5,7  - ITS
   7  3,3  - ITa
-  7  7,1  - If
   7  4,5  - IlOT
   7  4,7  - IlOT
   7  7,8  | ImBU
@@ -5202,24 +5037,19 @@
   7  5,1  - Ob
   7  5,1  - Od
   7  5,1  - Oe
-  7  7,1  - Of
   7  5,1  - Oh
-  7  7,1  - Oh
   7  5,1  - Oi
   7  5,1  - Om
   7  5,1  - On
   7  5,1  - Oo
   7  4,7  - OoTS
   7  5,1  - Op
-  7  7,1  - Op
   7  4,7  - OpTS
-  7  7,1  - Or
   7  4,7  - OrTS
   7  5,1  - Os
   7  4,7  - OuST
   7  4,7  - OuTS
   7  5,1  - Ow
-  7  7,1  - Ow
   7  5,1  - Oy
   7  7,5  | SABIa
   7  7,5  | SABIk
@@ -5240,7 +5070,6 @@
   7  3,3  - SIb
   7  3,3  - SIe
   7  3,3  - SIm
-  7  3,3  - SIn
   7  2,5  - SInTO
   7  2,7  - SInTO
   7  5,1  | SMIt
@@ -5263,7 +5092,6 @@
   7  3,3  - SOb
   7  3,3  - SOe
   7  3,3  - SOh
-  7  3,3  - SOn
   7  3,3  - SOu
   7  3,3  - SOy
   7  7,4  | STAB
@@ -5342,7 +5170,6 @@
   7  3,3  - TIb
   7  3,3  - TIe
   7  3,3  - TIm
-  7  3,3  - TIn
   7  2,7  - TIrOS
   7  3,3  - TIu
   7  4,1  - TO
@@ -5357,7 +5184,6 @@
   7  3,3  - TOe
   7  3,3  - TOi
   7  3,3  - TOm
-  7  3,3  - TOn
   7  3,3  - TOo
   7  2,7  - TOpIS
   7  3,3  - TOu
@@ -5403,7 +5229,6 @@
   7  6,5  | WEfTS
   7  6,5  | WElTS
   7  6,5  | WEsTS
-  7  8,1  | WG
   7  5,5  - WO
   7  5,7  - WO
   7  7,4  | WOAdS
@@ -5508,15 +5333,16 @@
   7  8,1  | eGIS
   7  8,1  | eGOS
   7  5,1  | eMIT
+  7  5,1  - eO
   7  5,3  - eO
   7  6,3  - eO
   7  7,3  - eO
+  7  5,1  - eS
   7  5,3  - eS
   7  8,8  - eS
+  7  5,1  - eT
   7  8,8  - eT
   7  6,4  | eWEST
-  7  5,1  - fI
-  7  5,3  - fI
   7  4,5  - fIOT
   7  4,7  - fIOT
   7  4,7  - fIST
@@ -5524,9 +5350,6 @@
   7 11,1  | fLIES
   7  2,5  - fOIST
   7  2,7  - fOIST
-  7  5,1  - fS
-  7  5,3  - fS
-  7  8,8  - fS
   7  5,1  - gI
   7  4,7  - gIST
   7  5,1  - gO
@@ -5585,7 +5408,6 @@
   7  4,7  - nIST
   7  2,7  - nITOS
   7  4,7  - nITS
-  7  5,3  - nO
   7  6,3  - nO
   7  4,7  - nOTS
   7  4,7  - oBS
@@ -5604,20 +5426,15 @@
   7  4,5  - oWT
   7  4,7  - oWT
   7  6,5  | pEWIT
-  7  5,1  - pI
   7  4,7  - pIST
   7  4,7  - pITS
   7 11,1  | pLIES
-  7  5,1  - pO
   7  6,3  - pO
   7  2,5  - pOSIT
   7  2,7  - pOSIT
   7  4,7  - pOST
   7  4,7  - pOTI
   7  4,7  - pOTS
-  7  5,1  - pT
-  7  8,8  - pT
-  7  8,10 - pT
   7  4,5  - pWT
   7  4,7  - pWT
   7  6,5  | rESOW
@@ -5704,14 +5521,12 @@
   6  7,5  | BATh
   6  7,5  | BATs
   6  7,5  | BATt
-  6  7,5  | BATz
   6  7,5  | BAaS
   6  7,5  | BAbI
   6  7,5  | BAbS
   6  7,5  | BAcT
   6  7,5  | BAdS
   6  7,5  | BAfT
-  6  7,5  | BAgO
   6  7,5  | BAgS
   6  7,5  | BAhO
   6  7,5  | BAhT
@@ -5768,6 +5583,7 @@
   6  4,5  - BId
   6  4,7  - BId
   6  4,5  - BIm
+  6  4,7  - BIm
   6  4,5  - BIn
   6  4,7  - BIn
   6  4,5  - BIo
@@ -5836,6 +5652,7 @@
   6  6,1  | BOlO
   6  6,1  | BOlT
   6  4,5  - BOm
+  6  4,7  - BOm
   6  6,1  | BOmI
   6  4,5  - BOn
   6  4,7  - BOn
@@ -5934,6 +5751,7 @@
   6  6,4  | IBEx
   6  4,5  - IBa
   6  4,5  - IBm
+  6  4,7  - IBm
   6  4,5  - IBo
   6  4,7  - IBo
   6  5,1  | IMiT
@@ -6001,7 +5819,6 @@
   6  5,2  | MSg
   6  5,2  | MSl
   6  5,2  | MSs
-  6  5,2  | MTd
   6  5,2  | MTg
   6  5,2  | MTn
   6  5,2  | MTs
@@ -6349,6 +6166,7 @@
   6  3,7  - TOgS
   6  6,1  | TOmB
   6  3,7  - TOmS
+  6  4,7  - TOmS
   6  3,7  - TOnS
   6  4,7  - TOnS
   6  3,7  - TOpS
@@ -6461,6 +6279,7 @@
   6  4,5  - WId
   6  4,7  - WId
   6  4,5  - WIm
+  6  4,7  - WIm
   6  4,5  - WIn
   6  4,7  - WIn
   6  4,5  - WIr
@@ -6683,7 +6502,6 @@
   6  7,5  | pAWS
   6  6,5  | pEWS
   6  8,4  - pIPE
-  6  5,1  | pMT
   6  4,1  - pO
   6  6,1  | pOBS
   6  5,7  - pOI
@@ -6782,7 +6600,6 @@
   5  7,6  | ABc
   5  7,6  | ABd
   5  7,6  | ABl
-  5  7,6  | ABn
   5  7,6  | ABo
   5  7,6  | ABp
   5  7,6  | ABr
@@ -6866,8 +6683,6 @@
   5  7,4  | BeA
   5  8,9  | BeA
   5  6,4  | BeE
-  5  5,5  - Bf
-  5  5,7  - Bf
   5  5,5  - Bo
   5  5,7  - Bo
   5  7,4  | BoA
@@ -6881,7 +6696,6 @@
   5  6,4  | ByE
   5  6,6  | EBb
   5  9,6  | EFf
-  5  9,6  | EFl
   5  9,6  | EFs
   5  9,6  | EFt
   5  6,6  | EW
@@ -6904,7 +6718,6 @@
   5  7,1  | INTr
   5  3,5  - IOTa
   5  7,9  | IOU
-  5  5,5  - IOf
   5  5,5  - IOn
   5  5,7  - IOn
   5  8,8  | IOtA
@@ -6930,12 +6743,8 @@
   5  8,8  | ITzA
   5  4,3  - Ib
   5  5,7  - IdS
-  5  4,1  - If
-  5  6,1  - If
-  5  4,3  - If
   5  5,7  - IfS
   5  5,7  - IhS
-  5  4,3  - In
   5  5,7  - InS
   5  5,5  - InT
   5  5,7  - InT
@@ -7014,13 +6823,11 @@
   5  8,8  | ObIA
   5 10,5  - Od
   5  5,7  - OdS
+  5  4,1  - Oe
   5  6,1  - Oe
   5  4,3  - Oe
   5  6,3  - Oe
   5  5,7  - OeS
-  5  4,1  - Of
-  5  6,1  - Of
-  5  4,3  - Of
   5 10,5  - Of
   5  5,5  - OfT
   5  5,7  - OfT
@@ -7033,9 +6840,8 @@
   5  8,8  | OkIA
   5  8,8  | OkTA
   5  4,1  - Om
-  5  6,1  - Om
   5  4,3  - Om
-  5  4,3  - On
+  5  5,7  - OmS
   5 10,5  - On
   5  5,7  - OnI
   5  5,7  - OnS
@@ -7048,7 +6854,6 @@
   5  5,7  - OoS
   5  5,5  - OoT
   5  5,7  - OoT
-  5  4,1  - Op
   5  5,5  - OpT
   5 10,5  - Or
   5  6,2  | OrB
@@ -7150,6 +6955,7 @@
   5  3,5  - STId
   5  3,7  - STId
   5  3,5  - STIm
+  5  3,7  - STIm
   5  3,5  - STIr
   5  3,7  - STIr
   5  3,5  - STOa
@@ -7286,6 +7092,7 @@
   5  4,1  - Ta
   5  6,1  - Ta
   5  4,3  - Ta
+  5  4,1  - Te
   5  6,1  - Te
   5  4,3  - Te
   5  4,1  - Th
@@ -7343,14 +7150,11 @@
   5  6,1  | WOt
   5  6,1  | WOw
   5  6,4  | WaE
-  5  5,5  - Wb
   5  5,5  - We
   5  5,7  - We
   5  7,4  | WeA
   5  8,9  | WeA
   5  6,4  | WeE
-  5  5,5  - Wf
-  5  5,7  - Wf
   5  7,4  | WhA
   5  8,9  | WhA
   5  5,5  - Wo
@@ -7360,7 +7164,6 @@
   5  6,4  | WoE
   5  5,5  - Wt
   5  5,7  - Wt
-  5  5,5  - Wy
   5  6,4  | WyE
   5  7,4  | aBA
   5  8,9  | aBA
@@ -7475,8 +7278,6 @@
   5  6,1  | hOSTIE
   5  3,7  - hOTS
   5  6,1  | hOW
-  5  7,4  | hWA
-  5  8,9  | hWA
   5  7,4  | iBA
   5  8,9  | iBA
   5  7,1  | iNIT
@@ -7500,7 +7301,6 @@
   5  7,1  | kNIT
   5  7,1  | kNOT
   5  6,1  | kOB
-  5  8,5  | kV
   5  7,5  | lAB
   5  7,5  | lAW
   5  3,5  - lIST
@@ -7707,7 +7507,6 @@
   4  7,6  | AnSI
   4  7,6  | AnTI
   4  7,6  | AnTS
-  4  7,6  | ApIO
   4  7,6  | ApIS
   4  7,6  | ApTS
   4  7,6  | ArTS
@@ -7792,11 +7591,9 @@
   4  5,2  | Ma
   4  5,2  | Mb
   4  5,2  | Me
-  4  5,2  | Mf
   4  5,2  | Mh
   4  5,2  | Mi
   4  5,2  | Mm
-  4  5,2  | Mn
   4  5,2  | Mo
   4  5,2  | Mu
   4  5,2  | My
@@ -7903,7 +7700,6 @@
   4  6,5  | SErIO
   4  6,5  | SEsTI
   4  6,5  | SExTO
-  4  8,1  | SGd
   4  6,4  | SIEsT
   4  7,1  | SNiT
   4  7,1  | SNoT
@@ -7958,7 +7754,6 @@
   4  7,9  | StU
   4  7,8  | SuTU
   4  7,9  | SuU
-  4  6,7  - Sw
   4  7,4  | SwATI
   4  7,5  | TAISe
   4  7,5  | TAISh
@@ -8069,6 +7864,7 @@
   4  4,5  - dOT
   4  4,7  - dOT
   4  8,1  | eGO
+  4  5,1  | eM
   4  7,1  | eNS
   4  6,7  - eS
   4  4,5  - eST
@@ -8082,11 +7878,9 @@
   4  7,4  | fIATS
   4  4,5  - fIT
   4  4,7  - fIT
-  4  5,1  | fM
   4  6,4  | fOETI
   4  4,5  - fOT
   4  4,7  - fOT
-  4  6,7  - fS
   4  6,5  | gEIST
   4  4,5  - gIO
   4  4,7  - gIO
@@ -8117,7 +7911,6 @@
   4  4,5  - iST
   4  4,7  - iST
   4  4,7  - iTS
-  4  7,1  | jNT
   4  4,5  - jOT
   4  4,7  - jOT
   4  6,5  | kEIST
@@ -8134,6 +7927,7 @@
   4  4,7  - lST
   4  6,5  | mETIS
   4  8,1  | mGT
+  4  6,7  - mI
   4  4,7  - mIS
   4  4,5  - mIT
   4  4,7  - mIT
@@ -8169,14 +7963,12 @@
   4  4,5  - pIT
   4  4,7  - pIT
   4 11,1  | pLIE
-  4  5,1  | pM
   4  6,4  | pOETS
   4  4,7  - pOS
   4  4,5  - pOT
   4  4,7  - pOT
   4  4,5  - pST
   4  4,7  - pST
-  4  6,5  - pT
   4  4,7  - pTS
   4  4,7  - qIS
   4  4,7  - qTS
@@ -8283,15 +8075,12 @@
   3  8,2  | Gi
   3  8,2  | Gm
   3  8,2  | Go
-  3  8,2  | Gp
-  3  8,2  | Gu
   3  7,5  | IAO
   3  7,5  | IAgO
   3  7,1  | IN
   3  7,1  | INc
   3  7,1  | INd
   3  7,1  | INf
-  3  7,1  | INg
   3  7,1  | INk
   3  7,1  | INn
   3  7,1  | INo
@@ -8301,8 +8090,6 @@
   3  6,1  | IOTa
   3  6,1  | IOcS
   3  6,1  | IOdO
-  3  4,5  - IOf
-  3  4,7  - IOf
   3  4,5  - IOn
   3  4,7  - IOn
   3  6,1  | IOnS
@@ -8314,6 +8101,7 @@
   3  4,7  - ISh
   3  4,7  - ISl
   3  4,5  - ISm
+  3  4,7  - ISm
   3  4,5  - ISn
   3  4,7  - ISn
   3  4,5  - ISt
@@ -8396,7 +8184,6 @@
   3  6,4  | OkET
   3  6,4  | OlES
   3  6,4  | OnES
-  3  7,4  | OpAI
   3  6,4  | OpES
   3  7,4  | OrAS
   3  6,4  | OrES
@@ -8473,6 +8260,7 @@
   3  4,7  - SIe
   3  4,7  - SIl
   3  4,5  - SIm
+  3  4,7  - SIm
   3  4,5  - SIn
   3  4,7  - SIn
   3  4,5  - SIp
@@ -8498,7 +8286,6 @@
   3  6,1  | SOTh
   3  6,1  | SOTs
   3  4,5  - SOb
-  3  6,1  | SOcO
   3  4,5  - SOd
   3  4,7  - SOd
   3  4,5  - SOe
@@ -8549,6 +8336,7 @@
   3  4,5  - STd
   3  4,7  - STd
   3  4,5  - STm
+  3  4,7  - STm
   3  4,5  - STr
   3  4,7  - STr
   3  4,5  - STy
@@ -8625,6 +8413,7 @@
   3  4,7  - TIe
   3  4,7  - TIl
   3  4,5  - TIm
+  3  4,7  - TIm
   3  4,5  - TIn
   3  4,7  - TIn
   3  4,5  - TIp
@@ -8673,6 +8462,7 @@
   3  6,1  | TOkO
   3  4,7  - TOl
   3  4,5  - TOm
+  3  4,7  - TOm
   3  6,1  | TOmS
   3  4,5  - TOn
   3  4,7  - TOn
@@ -8749,7 +8539,6 @@
   3  7,5  | cATS
   3  6,5  | cEST
   3  6,5  | cETI
-  3  8,1  | cG
   3  7,4  | cIAO
   3  7,4  | cOAT
   3  6,4  | cOES
@@ -8795,12 +8584,10 @@
   3  6,5  | fEIS
   3  6,5  | fEST
   3  6,5  | fETS
-  3  8,1  | fG
   3  7,4  | fIAT
   3  6,4  | fOES
   3  6,1  | fOOT
   3  7,9  | fOU
-  3  5,7  - fS
   3  7,5  | gAIT
   3  7,5  | gAST
   3  7,5  | gATS
@@ -8821,7 +8608,6 @@
   3  7,5  | hATI
   3  7,5  | hATS
   3  6,5  | hEST
-  3  8,1  | hG
   3  6,4  | hIES
   3  5,5  - hO
   3  5,7  - hO
@@ -8940,7 +8726,6 @@
   3  6,5  | pEST
   3  6,5  | pETO
   3  6,5  | pETS
-  3  8,1  | pG
   3  7,4  | pIAS
   3  6,4  | pIES
   3  6,4  | pIET
@@ -8956,8 +8741,6 @@
   3  6,1  | pOTI
   3  6,1  | pOTS
   3  8,8  | pSIA
-  3  5,5  - pT
-  3  5,7  - pT
   3  7,5  | qATS
   3  7,5  | rAIS
   3  7,5  | rATO
@@ -8966,7 +8749,6 @@
   3  6,5  | rEIT
   3  6,5  | rEST
   3  6,5  | rETS
-  3  8,1  | rG
   3  6,4  | rIES
   3  8,8  | rITA
   3  6,4  | rOES
@@ -9009,7 +8791,6 @@
   3  6,1  | tOTS
   3  7,9  | tOU
   3  8,8  | tSIA
-  3  9,1  | uR
   3  5,7  - uS
   3  7,9  | uSU
   3  5,5  - uT
@@ -9034,7 +8815,6 @@
   3  7,5  | wATS
   3  6,5  | wEST
   3  6,5  | wETS
-  3  8,1  | wG
   3  5,5  - wO
   3  5,7  - wO
   3  6,4  | wOES
@@ -9098,7 +8878,6 @@
   2  7,6  | AiS
   2  7,6  | AiT
   2  7,6  | AkO
-  2  7,6  | AlO
   2  7,6  | AlS
   2  7,6  | AlT
   2  7,6  | AmI
@@ -9120,11 +8899,9 @@
   2  7,6  | AzO
   2  6,6  | EIr
   2  6,6  | EO
-  2  6,6  | EOf
   2  6,6  | EOn
   2  6,6  | ES
   2  6,6  | ESc
-  2  6,6  | ESd
   2  6,6  | ESe
   2  6,6  | ESp
   2  6,6  | ESq
@@ -9156,7 +8933,6 @@
   2  7,5  | IAn
   2  7,5  | IAo
   2  6,1  | IO
-  2  6,1  | IOf
   2  6,1  | IOn
   2  6,1  | IOu
   2  5,5  - Ib
@@ -9165,8 +8941,6 @@
   2  6,4  | IcE
   2  5,5  - Id
   2  5,7  - Id
-  2  7,4  | IdA
-  2  8,9  | IdA
   2  6,4  | IdE
   2  5,5  - If
   2  5,7  - If
@@ -9259,6 +9033,7 @@
   2  8,9  | OlA
   2  6,4  | OlE
   2  5,5  - Om
+  2  5,7  - Om
   2  6,2  | OmS
   2  5,5  - On
   2  5,7  - On
@@ -9298,6 +9073,7 @@
   2  6,4  | OwE
   2  6,2  | OwT
   2  5,7  - Ox
+  2  6,2  | OxO
   2  5,5  - Oy
   2  6,2  | OzS
   2  7,5  | SAa
@@ -9382,8 +9158,6 @@
   2  7,4  | StA
   2  8,9  | StA
   2  6,4  | SuE
-  2  5,5  - Sw
-  2  5,7  - Sw
   2  7,4  | SwA
   2  8,9  | SwA
   2  6,4  | SyE
@@ -9505,7 +9279,6 @@
   2  7,5  | dAS
   2  7,5  | dAT
   2  6,5  | dEI
-  2  6,5  | dES
   2  6,5  | dET
   2  7,4  | dIA
   2  8,9  | dIA
@@ -9524,10 +9297,8 @@
   2  8,9  | eTA
   2  7,5  | fAS
   2  7,5  | fAT
-  2  6,5  | fEI
   2  6,5  | fET
   2  6,4  | fIE
-  2  7,1  | fN
   2  6,4  | fOE
   2  6,1  | fOO
   2  6,1  | fOT
@@ -9544,12 +9315,10 @@
   2  6,1  | gOO
   2  6,1  | gOT
   2  6,4  | gTE
-  2  7,10 | gU
   2  7,5  | hAO
   2  7,5  | hAS
   2  7,5  | hAT
   2  6,5  | hEI
-  2  6,5  | hEO
   2  6,5  | hES
   2  6,5  | hET
   2  7,4  | hIA
@@ -9565,7 +9334,6 @@
   2  7,4  | iTA
   2  8,9  | iTA
   2  7,5  | jAI
-  2  7,5  | jAT
   2  6,5  | jET
   2  6,4  | jOE
   2  6,1  | jOT
@@ -9601,7 +9369,6 @@
   2  6,5  | mET
   2  7,4  | mIA
   2  8,9  | mIA
-  2  7,1  | mN
   2  7,4  | mOA
   2  8,9  | mOA
   2  6,1  | mOI
@@ -9681,8 +9448,6 @@
   2  6,1  | tOS
   2  6,1  | tOT
   2  7,1  | uN
-  2  7,4  | uSA
-  2  8,9  | uSA
   2  6,4  | uSE
   2  7,4  | uTA
   2  8,9  | uTA
@@ -9739,6 +9504,7 @@
   1  6,6  | Ef
   1  6,6  | Eh
   1  6,6  | El
+  1  6,6  | Em
   1  6,6  | En
   1  6,6  | Eo
   1  6,6  | Er

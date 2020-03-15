@@ -9,7 +9,10 @@
  48  9,5  | MIScUTS
  48  9,5  | MiSSUIT
  48  1,9  - cULTISM
+ 48  2,8  - dEMAST
+ 48  2,8  - rEMAST
  45  9,5  | ASSUMpT
+ 45  3,8  - EMUS
  45  9,1  | ISThMUS
  45  9,5  | MUSTIeS
  45  9,5  | MUScATS
@@ -18,8 +21,14 @@
  45  9,1  | SUMmITS
  45  1,9  - TALInUM
  45  9,1  | TrISMUS
+ 45  1,8  - UlEMAS
  45  9,1  | UlTIMAS
+ 45  2,8  - rEMUS
  44  1,10 - MUTATIS
+ 43  3,8  - EMUs
+ 43  6,8  - STM
+ 43  2,8  - bEMAS
+ 43  2,8  - nEMAS
  42  1,9  - AlLIUMS
  42  9,5  | MASTIcS
  42  9,5  | MISSTAy
@@ -36,6 +45,10 @@
  42  1,9  - eULIMA
  42  1,9  - kALIUMS
  42  1,9  - uMLAUTS
+ 41  3,8  - EMuS
+ 41  6,8  - SfM
+ 41  6,8  - StM
+ 41  6,8  - sTM
  40  2,10 - ATrIUMS
  40  1,10 - AUTISM
  40  1,10 - AUTISMs
@@ -155,6 +168,11 @@
  36  1,9  - tILMUS
  36  1,9  - uMLAUT
  36  1,9  - vALIUM
+ 34  7,8  - SMIT
+ 34  7,8  - SMITe
+ 34  7,8  - SMITh
+ 34  7,8  - SMIfT
+ 34  7,8  - SMoUT
  34  2,8  | TAUM
  33  9,1  | AMbITUS
  33  9,6  | ASSUMe
@@ -190,6 +208,7 @@
  33  9,7  | SIMpS
  33  9,5  | SISTrUM
  33  9,7  | SIUMS
+ 33  7,8  - SMIt
  33  9,7  | SMUTS
  33  9,7  | STUMS
  33  1,9  - SULtAM
@@ -197,13 +216,19 @@
  33  9,1  | SUmMITS
  33  9,7  | SaMAS
  33  9,7  | SeMIS
+ 33  4,5  | ShEMU
+ 33  1,8  - ShEMU
  33  9,7  | SiMAS
  33  9,7  | SiMIA
  33  9,7  | SoMAS
  33  9,1  | kISMATS
  33  1,9  - mULISM
+ 33  7,8  - oMITS
  33  1,9  - sULTAM
+ 32  4,4  | AUTEM
  32  1,10 - AuTISM
+ 32  4,7  | EMU
+ 32  3,8  - EMU
  32  1,10 - MATIeS
  32  1,10 - MATInS
  32  1,10 - MATTIn
@@ -211,7 +236,10 @@
  32  1,10 - MATrIS
  32  8,4  | MUSEIsT
  32  1,10 - MuTIST
+ 32  7,8  - SMiT
  32  2,10 - STAMIn
+ 32  4,5  | STEMA
+ 32  1,8  - STEMA
  32  2,10 - STIgMA
  32  2,10 - STUMp
  32  2,10 - STUMs
@@ -221,33 +249,60 @@
  32  1,10 - TITMAl
  32  1,10 - TITMAn
  32  1,10 - TaTAMI
+ 32  4,5  | UlEMA
+ 32  1,8  - UlEMA
  32  1,10 - dATISM
+ 32  4,2  | dIASTEM
+ 32  7,8  - oMIT
  32  2,10 - oTIUM
+ 32  7,8  - sMIT
  32  2,10 - sTUMS
+ 31  4,4  | AUtEM
  31  2,8  | AlUM
- 31  2,8  | MAUd
  31  2,8  - METUS
  31  8,4  | MISEAT
  31  8,4  | MISEATs
+ 31  8,8  - MITU
  31  8,4  | MUSET
  31  8,4  | MUsEIST
+ 31  4,4  | SATEM
+ 31  4,2  | SUbITEM
+ 31  4,5  | ShEMA
+ 31  1,8  - ShEMA
+ 31  4,5  | StEMA
+ 31  1,8  - StEMA
+ 31  4,6  | TEMA
+ 31  2,8  - TEMA
+ 31  7,8  - TMh
  31  2,8  | TaUM
+ 31  4,5  | ThEMA
+ 31  1,8  - ThEMA
+ 31  4,5  | TmEMA
+ 31  1,8  - TmEMA
+ 31  4,5  | TrEMA
+ 31  1,8  - TrEMA
  31  2,8  | hAUM
+ 31  4,5  | sTEMA
+ 31  1,8  - sTEMA
  31  2,8  | tAUM
  30  8,3  | AMUsES
  30  2,9  | AUM
+ 30  4,4  | AuTEM
  30  1,9  - MALISm
  30  1,9  - MALISt
  30  1,9  - MALTS
  30  1,9  - MALaTI
  30  1,9  - MALiST
  30  9,1  | MAoISTS
+ 30  8,8  - MIAS
  30  1,9  - MILTS
  30  1,9  - MILpAS
  30  9,1  | MISAcTS
  30  8,4  | MISEAt
+ 30  8,8  - MIST
  30  9,1  | MIcASTS
  30  8,4  | MIsEATS
+ 30  8,8  - MItU
  30  1,9  - MULAdI
  30  1,9  - MULItA
  30  1,9  - MULcT
@@ -266,17 +321,23 @@
  30  1,9  - SALMI
  30  1,9  - SALMIn
  30  1,9  - SALMIs
+ 30  4,4  | SAlEM
  30  9,1  | SAnTIMS
+ 30  4,4  | SAtEM
  30  1,9  - SILoAM
  30  9,7  | SIUMs
  30  9,7  | SMUSe
  30  9,7  | SMUSh
  30  9,7  | SMUTs
  30  9,7  | SMUtS
+ 30  4,5  | STEMa
+ 30  1,8  - STEMa
  30  9,7  | STUMp
  30  9,7  | STUMs
  30  9,7  | STUlM
+ 30  4,4  | STeEM
  30  1,9  - SULTaM
+ 30  4,4  | SaTEM
  30  9,7  | ScUMS
  30  9,7  | SiUMS
  30  9,7  | SlUMS
@@ -287,13 +348,20 @@
  30  9,5  | TISSUAl
  30  1,9  - TaLMAS
  30  1,9  - UMLAuT
+ 30  4,3  | UpSTEM
+ 30  4,6  | bEMA
+ 30  2,8  - bEMA
  30  1,9  - cULMS
  30  9,5  | dISMAST
  30  1,9  - hALITUS
  30  9,5  | kISMATS
  30  1,9  - mALISM
+ 30  4,6  | nEMA
+ 30  2,8  - nEMA
  30  9,6  | oSTIUM
  30  1,9  - sALMIS
+ 30  4,6  | tEMA
+ 30  2,8  - tEMA
  29  8,3  | AMUSE
  29  8,3  | AMUSEd
  29  8,3  | AMUSEe
@@ -302,15 +370,58 @@
  29  8,1  | AToMISE
  29  2,8  - METAS
  29  2,8  - METUs
+ 29  8,8  - MIA
+ 29  8,8  - MIAe
+ 29  8,8  - MIAn
+ 29  8,8  - MIAo
+ 29  8,8  - MIAs
+ 29  8,8  - MIS
+ 29  8,8  - MISc
+ 29  8,8  - MISe
+ 29  8,8  - MISo
+ 29  8,8  - MISs
+ 29  8,8  - MISt
+ 29  8,8  - MISy
+ 29  8,8  - MIT
+ 29  8,8  - MITe
+ 29  8,8  - MITt
+ 29  8,8  - MITu
+ 29  8,8  - MITy
+ 29  8,8  - MIaS
+ 29  8,8  - MIbS
+ 29  8,8  - MIcA
+ 29  8,8  - MIdS
+ 29  8,8  - MIgS
+ 29  8,8  - MIlA
+ 29  8,8  - MIlS
+ 29  8,8  - MIlT
+ 29  8,8  - MImA
+ 29  8,8  - MInA
+ 29  8,8  - MInS
+ 29  8,8  - MInT
+ 29  8,8  - MIpS
+ 29  8,8  - MIrA
+ 29  8,8  - MIrS
  29  8,4  | MIsEAT
+ 29  8,8  - MIsS
+ 29  8,8  - MIsT
+ 29  8,8  - MItT
+ 29  8,8  - MIxT
  29  8,4  | MUsES
  29  8,4  | MUsET
+ 29  8,8  - MiTU
+ 29  8,8  - MoUT
  29  8,4  | MuSET
  29  6,6  - QIyAS
  29  8,6  | SEMITA
  29  8,2  | TAMISE
  29  8,2  | TAMISEs
+ 29  4,6  | TEMa
+ 29  2,8  - TEMa
+ 29  4,4  | aUTEM
  29  8,2  | cAMUSE
+ 28  4,5  | ASEM
+ 28  1,8  - ASEM
  28  8,5  | ASEMIa
  28  2,10 - ATIMy
  28  2,10 - ATMId
@@ -319,15 +430,43 @@
  28  2,10 - AToMS
  28  1,10 - AUTIST
  28  1,10 - AUToIST
+ 28  4,7  | EMo
+ 28  3,8  - EMo
+ 28  4,7  | EMu
+ 28  3,8  - EMu
+ 28  4,5  | ITEM
+ 28  1,8  - ITEM
  28  2,10 - ITeMS
  28  2,8  | MAU
+ 28  8,8  - MI
  28  8,4  | MISEaT
+ 28  8,8  - MIa
+ 28  8,8  - MIb
+ 28  8,8  - MId
+ 28  8,8  - MIg
+ 28  8,8  - MIl
+ 28  8,8  - MIm
+ 28  8,8  - MIn
+ 28  8,8  - MIr
+ 28  8,8  - MIs
  28  8,4  | MIsES
+ 28  8,8  - MIt
+ 28  8,8  - MIx
  28  8,4  | MUSE
  28  8,4  | MUSEd
  28  8,4  | MUSEr
  28  8,4  | MUSEs
  28  8,4  | MUSEt
+ 28  8,8  - MiAS
+ 28  8,8  - MiST
+ 28  8,8  - MoAI
+ 28  8,8  - MoAS
+ 28  8,8  - MoAT
+ 28  8,8  - MoIT
+ 28  8,8  - MoST
+ 28  8,8  - MoTA
+ 28  8,8  - MoTS
+ 28  8,8  - MoU
  28  8,6  | SEMIAn
  28  8,6  | SEMITa
  28  8,6  | SEMITe
@@ -338,6 +477,8 @@
  28  8,6  | SEMmIT
  28  1,10 - SITUATe
  28  2,10 - STAMp
+ 28  4,5  | STEM
+ 28  1,8  - STEM
  28  2,10 - STIMe
  28  2,10 - STIMy
  28  2,10 - STeAM
@@ -354,7 +495,11 @@
  28  8,2  | cAMISE
  28  2,10 - eTIAM
  28  1,10 - mUTATIS
+ 28  7,8  - oM
  28  8,3  | oUTSEAM
+ 28  4,5  | qUEM
+ 28  1,8  - qUEM
+ 28  4,4  | sATEM
  28  8,3  | sMUSE
  28  8,2  | tAMISE
  27  1,9  - AMLeT
@@ -363,11 +508,20 @@
  27  8,5  | ASEM
  27  5,8  - ASsT
  27  9,1  | AUTISmS
+ 27  4,5  | AhEM
+ 27  1,8  - AhEM
+ 27  4,5  | AlEM
+ 27  1,8  - AlEM
+ 27  4,5  | AsEM
+ 27  1,8  - AsEM
  27  5,8  - AsST
  27  9,5  | ISSUAnT
+ 27  4,5  | IdEM
+ 27  1,8  - IdEM
  27  1,9  - InLAUT
+ 27  4,5  | ItEM
+ 27  1,8  - ItEM
  27  2,8  | MAIa
- 27  2,8  | MAId
  27  2,8  | MAIm
  27  1,9  - MALIsT
  27  1,9  - MALUm
@@ -407,13 +561,22 @@
  27  1,9  - MeLIA
  27  1,9  - MeLIS
  27  1,9  - MeLTS
+ 27  8,8  - MiA
  27  1,9  - MiLIA
  27  1,9  - MiLIT
  27  1,9  - MiLTS
+ 27  8,8  - MiS
+ 27  8,8  - MiT
+ 27  8,8  - MoA
+ 27  8,8  - MoI
  27  1,9  - MoLAS
  27  1,9  - MoLTS
+ 27  8,8  - MoS
+ 27  8,8  - MoT
  27  1,9  - MuLTI
  27  1,9  - SALTUs
+ 27  4,6  | SEM
+ 27  2,8  - SEM
  27  8,6  | SEMI
  27  8,6  | SEMIc
  27  8,6  | SEMIh
@@ -423,9 +586,17 @@
  27  1,9  - SaLMA
  27  1,9  - SaLMI
  27  9,7  | ScAUM
+ 27  4,5  | SeEM
+ 27  1,8  - SeEM
+ 27  4,5  | ShEM
+ 27  1,8  - ShEM
  27  9,7  | SlAUM
+ 27  4,5  | StEM
+ 27  1,8  - StEM
  27  1,9  - TALMaS
  27  8,2  | TAMIsE
+ 27  4,6  | TEM
+ 27  2,8  - TEM
  27  1,9  - TILMuS
  27  1,9  - TILmUS
  27  1,9  - TULASI
@@ -433,20 +604,31 @@
  27  1,9  - TULISAn
  27  1,9  - TaLMA
  27  2,8  | TeAM
+ 27  4,5  | TeEM
+ 27  1,8  - TeEM
+ 27  4,5  | ThEM
+ 27  1,8  - ThEM
  27  9,1  | ThIASUS
  27  8,4  | UMSET
  27  8,4  | UnSEAM
  27  3,11 - YAUTIaS
  27  3,11 - YaUTIAS
+ 27  4,5  | aSEM
+ 27  1,8  - aSEM
  27  2,9  | aUM
  27  1,9  - bALMS
  27  1,9  - cALMS
  27  2,8  - cETUS
  27  2,9  | cUM
+ 27  4,5  | dIEM
+ 27  1,8  - dIEM
  27  2,8  - fETUS
  27  1,9  - fILMS
- 27  2,9  | fUM
+ 27  4,5  | hAEM
+ 27  1,8  - hAEM
  27  1,9  - hALMS
+ 27  4,5  | iTEM
+ 27  1,8  - iTEM
  27  2,9  | lUM
  27  2,8  | mAIM
  27  1,9  - mALMS
@@ -454,18 +636,27 @@
  27  2,8  | nAIM
  27  1,9  - pALMS
  27  1,9  - pILAUS
+ 27  4,5  | rIEM
+ 27  1,8  - rIEM
  27  1,9  - sALMI
  27  1,9  - sALTUS
  27  8,6  | sEMITA
+ 27  4,5  | sTEM
+ 27  1,8  - sTEM
  27  2,8  - vETUS
  26  2,9  | AIM
  26  1,8  - AMElUS
+ 26  4,7  | EM
+ 26  3,8  - EM
  26  3,8  - ExUST
  26  4,4  | MUlETA
  26  8,4  | MUsE
  26  8,4  | MdSE
  26  8,4  | MeSE
+ 26  8,8  - Mh
+ 26  8,8  - Mi
  26  8,4  | MiSE
+ 26  8,8  - Mo
  26  8,4  | MoSE
  26  8,4  | MuSE
  26  6,6  | QIyAS
@@ -474,8 +665,26 @@
  26  8,6  | SEMi
  26  2,8  | TAuM
  26  8,5  | aSEM
+ 26  4,6  | dEM
+ 26  2,8  - dEM
+ 26  4,6  | fEM
+ 26  2,8  - fEM
+ 26  4,6  | gEM
+ 26  2,8  - gEM
+ 26  4,6  | hEM
+ 26  2,8  - hEM
+ 26  4,6  | mEM
+ 26  2,8  - mEM
  26  1,8  - pIETAS
+ 26  4,6  | rEM
+ 26  2,8  - rEM
+ 26  4,6  | sEM
+ 26  2,8  - sEM
  26  8,6  | sEMIS
+ 26  4,6  | tEM
+ 26  2,8  - tEM
+ 26  4,6  | wEM
+ 26  2,8  - wEM
  25  8,5  | AsEM
  25  3,8  - ETAS
  25  8,5  | ISEUM
@@ -650,12 +859,9 @@
  23  2,9  | aIM
  23  2,9  | cAM
  23  2,9  | eAM
- 23  2,9  | fAM
  23  4,2  | hAMITES
  23  2,9  | lAM
  23  2,9  | lIM
- 23  2,9  | pAM
- 23  2,9  | pIM
  23  4,2  | sAMITES
  22  4,3  | AMIcES
  22  4,3  | AMIdES
@@ -695,6 +901,7 @@
  21  1,9  - AULaS
  21  1,9  - AULoI
  21  1,9  - AULoS
+ 21  3,8  - EmUS
  21  8,5  | ISEUm
  21  1,9  - ISLeTA
  21  1,9  - IULuS
@@ -778,7 +985,6 @@
  21  8,6  | SEAMs
  21  8,6  | SEAMy
  21  8,6  | SEIsM
- 21  4,6  | SETUId
  21  8,6  | SEnIUM
  21  8,6  | SEpIUM
  21  8,6  | SEpTUM
@@ -885,7 +1091,6 @@
  21  8,4  | uMSET
  20  1,10 - ASTITe
  20  1,10 - ASTInT
- 20  5,8  - ASg
  20  5,8  - ASk
  20  5,8  - ASs
  20  5,8  - ASt
@@ -905,7 +1110,6 @@
  20  2,8  | MAb
  20  2,8  | MAe
  20  2,8  | MAh
- 20  2,8  | MAp
  20  2,8  | MAu
  20  2,8  | MAw
  20  8,3  | MeUSE
@@ -940,7 +1144,6 @@
  20  2,10 - eTUIS
  20  5,8  - lST
  20  8,2  | mUTASE
- 20  5,8  - pST
  20  8,6  | sEAMS
  20  8,6  | sEISM
  20  8,6  | sESMA
@@ -965,6 +1168,7 @@
  19  7,8  - STIMe
  19  7,8  - STIMy
  19  6,8  - STd
+ 19  6,8  - STm
  19  6,8  - STr
  19  4,1  | SUIMATE
  19  8,3  | TAISE
@@ -994,7 +1198,6 @@
  18  9,6  | ASsIST
  18  1,9  - ATLaS
  18  1,9  - AULIc
- 18  2,9  | AUd
  18  2,9  | AUm
  18  1,9  - AlLIS
  18  4,1  | AlUMITE
@@ -1146,7 +1349,6 @@
  18  1,9  - mILTS
  18  8,3  | pAISE
  18  1,9  - pALIS
- 18  2,9  | pUA
  18  8,3  | rAISE
  18  1,9  - sALTS
  18  8,6  | sESTIA
@@ -1262,13 +1464,13 @@
  17  8,5  | aSEA
  17  4,2  | cAMUSE
  17  4,2  | dAUTIES
+ 17  2,10 | eM
  17  2,10 | hM
  17  4,2  | hUMATE
  17  4,2  | hUMITE
  17  4,3  | mAUMET
  17  4,6  | mESUA
  17  4,1  | mISMATE
- 17  2,10 | pM
  17  8,6  | sEATS
  17  8,6  | sESIA
  17  8,6  | sESTI
@@ -1558,7 +1760,6 @@
  16  2,8  | eAU
  16  4,5  | eMESA
  16  1,8  - eMESA
- 16  4,9  | fAM
  16  8,4  | fUSE
  16  4,2  | hAMITE
  16  2,8  | hAU
@@ -1572,9 +1773,7 @@
  16  8,4  | mUSE
  16  4,2  | oSMATE
  16  4,2  | oSMITE
- 16  4,9  | pAM
  16  2,8  | pAU
- 16  4,9  | pIM
  16  2,9  - pLUMIST
  16  4,3  | rAMIES
  16  4,2  | rIMATE
@@ -1979,7 +2178,6 @@
  15  7,5  - dUMAS
  15  8,4  | eASE
  15  8,4  | fISE
- 15  5,8  - fS
  15  1,9  - fULA
  15  7,5  - gAMUT
  15  8,4  | gISE
@@ -2028,7 +2226,6 @@
  14  7,5  - AIM
  14  9,6  - AIM
  14  7,5  - AIMs
- 14  2,9  | AId
  14  2,9  | AIm
  14  2,9  - ALUMIc
  14  2,9  - ALUMIn
@@ -2069,7 +2266,6 @@
  14  8,7  | EMeS
  14  8,7  | EMiT
  14  8,7  | EMmA
- 14  8,7  | EMpT
  14  8,7  | EMuS
  14  8,7  | EMyS
  14  4,7  | ESU
@@ -2222,7 +2418,6 @@
  14  4,4  | MItE
  14  7,5  - MItTS
  14  7,5  - MItU
- 14  4,4  | MIxE
  14  4,4  | MIzE
  14  7,5  - MTS
  14  4,4  | MTgE
@@ -2376,7 +2571,6 @@
  14  8,8  - SoUM
  14  7,5  - SqUAM
  14  7,5  - SuMI
- 14  8,8  - SwUM
  14  7,5  - TAM
  14  3,10 - TAMIl
  14  3,10 - TAMIs
@@ -2480,7 +2674,6 @@
  14  4,3  | nAUSET
  14  8,5  | oSE
  14  7,8  - oTIS
- 14  2,9  | pIA
  14  7,5  - pIMAS
  14  7,5  - pUMA
  14  7,5  - rIMAS
@@ -2544,6 +2737,7 @@
  13  7,5  - AtM
  13  7,5  - AuM
  13  7,5  - AwM
+ 13  8,7  | EM
  13  8,7  | EMe
  13  8,7  | EMf
  13  8,7  | EMm
@@ -2634,7 +2828,6 @@
  13  7,5  - MAnI
  13  7,3  | MAnINI
  13  7,5  - MAnS
- 13  7,5  - MAnT
  13  7,5  - MApS
  13  7,5  - MArI
  13  7,5  - MArS
@@ -2803,9 +2996,7 @@
  13  7,5  - StUM
  13  7,5  - SuM
  13  7,5  - SuUM
- 13  8,8  - SwAM
  13  7,8  - SwIM
- 13  8,8  - SwIM
  13  7,5  - SwUM
  13  7,5  - SyM
  13  9,3  | TAMIS
@@ -2869,7 +3060,6 @@
  13  4,4  | fAMES
  13  9,2  | fATUISM
  13  7,5  - fUM
- 13  9,6  - fUM
  13  4,4  | gAMES
  13  7,5  - gAMS
  13  7,5  - gAUMS
@@ -2941,7 +3131,6 @@
  13  7,4  | uTINAM
  13  7,5  - vIMS
  13  7,5  | vINUM
- 13  7,5  - vUM
  13  4,4  | wAMES
  13  7,5  - yAMS
  13  7,5  - yUM
@@ -3204,7 +3393,6 @@
  12  7,5  - MSl
  12  7,5  - MSs
  12  2,10 - MTS
- 12  7,5  - MTd
  12  7,5  - MTg
  12  7,5  - MTn
  12  7,5  - MTs
@@ -3485,7 +3673,6 @@
  12  3,10 - ToMA
  12  9,3  | ToMAS
  12  3,10 - ToMS
- 12  2,8  | TpI
  12  3,10 - TrAM
  12  7,5  - TrAMS
  12  4,4  | TrIES
@@ -3549,6 +3736,7 @@
  12  7,5  - dIM
  12  9,3  | dUMAS
  12  1,9  - eILA
+ 12  4,10 | eM
  12  4,5  | eMES
  12  1,8  - eMES
  12  7,5  - fAM
@@ -3558,7 +3746,6 @@
  12  1,9  - fILS
  12  1,9  - fILT
  12  2,9  - fLAMS
- 12  2,9  | fU
  12  1,9  - gALI
  12  1,9  - gALS
  12  1,9  - gALT
@@ -3629,7 +3816,6 @@
  12  4,10 | oM
  12  1,9  - pALI
  12  1,9  - pALS
- 12  1,9  - pALT
  12  7,5  - pAM
  12  4,6  | pESA
  12  2,8  - pESA
@@ -3913,13 +4099,10 @@
  11  7,5  - Me
  11  2,8  | Me
  11  4,1  | MeSITAE
- 11  7,5  - Mf
- 11  2,8  | Mf
  11  7,5  - Mh
  11  7,5  - Mi
  11  9,4  | MiSSUIT
  11  7,5  - Mm
- 11  7,5  - Mn
  11  7,5  - Mo
  11  7,5  - Mu
  11  7,5  - My
@@ -4039,7 +4222,6 @@
  11  2,8  | TAb
  11  2,8  | TAe
  11  2,8  | TAi
- 11  2,8  | TAp
  11  7,5  - TArMI
  11  2,8  | TAu
  11  2,8  | TAw
@@ -4055,6 +4237,8 @@
  11  8,8  - TIpS
  11  7,5  - TIrMA
  11  8,8  - TItS
+ 11  4,5  | TMEmA
+ 11  1,8  - TMEmA
  11  7,5  - TSUbA
  11  7,5  - TSUgA
  11  7,5  - TSUmA
@@ -4084,7 +4268,6 @@
  11  2,9  - ULTiMA
  11  9,5  | UMSeT
  11  9,4  | UMpS
- 11  9,6  - USA
  11  9,6  - UTA
  11  9,6  - UTI
  11  9,6  - UTS
@@ -4130,9 +4313,7 @@
  11  9,4  | eMUS
  11  7,1  | eSTAMIN
  11  7,2  | eTAMINS
- 11  9,6  - fAM
  11  2,9  - fLAM
- 11  9,6  - fMT
  11  7,1  | gIUSTINA
  11  2,9  - gLAM
  11  2,9  - gLAUM
@@ -4175,7 +4356,6 @@
  10  4,4  | AIMEe
  10  4,4  | AIMEr
  10  7,3  | AIMINg
- 10  4,9  | AId
  10  4,9  | AIm
  10  2,9  - ALISMa
  10  2,9  - ALMoST
@@ -4236,8 +4416,6 @@
  10  7,5  - ArUI
  10  7,2  | ArUMIN
  10  9,3  | AuTISM
- 10  4,7  | ESp
- 10  3,8  - ESp
  10  4,7  | ESu
  10  3,8  - ESu
  10  8,7  | ETIAM
@@ -4275,8 +4453,6 @@
  10  3,9  - LiM
  10  3,9  - LoAMS
  10  3,9  - LoUISA
- 10  5,7  | LpM
- 10  3,9  - LpM
  10  5,7  | LuM
  10  3,9  - LuM
  10  5,7  | LwM
@@ -4348,7 +4524,6 @@
  10  9,4  | MIdSTS
  10  9,5  | MSS
  10  9,5  | MTS
- 10  2,10 - MTd
  10  2,10 - MTg
  10  2,10 - MTn
  10  2,10 - MTs
@@ -4515,6 +4690,7 @@
  10  7,5  - SkUA
  10  7,8  - SlIT
  10  7,5  - SlUT
+ 10  7,8  - SmIT
  10  7,5  - SmUT
  10  7,8  - SnIT
  10  9,7  | SoMA
@@ -4524,7 +4700,6 @@
  10  7,5  - StUT
  10  9,7  | SuMI
  10  9,7  | SuMS
- 10  8,8  - SwAT
  10  3,10 - TAInTS
  10  4,4  | TAMEd
  10  4,4  | TAMEr
@@ -4650,7 +4825,6 @@
  10  7,8  - TsIA
  10  1,10 - TuTUS
  10  3,10 - TuTUS
- 10  8,8  - TwAS
  10  2,9  - ULMIc
  10  2,9  - ULMIn
  10  2,9  - ULTImAS
@@ -4706,7 +4880,6 @@
  10  4,4  | fATES
  10  7,5  - fAUST
  10  1,10 - fMT
- 10  7,8  - fS
  10  4,4  | gATES
  10  9,3  | gAUMS
  10  7,5  - gIUST
@@ -4754,9 +4927,7 @@
  10  1,10 - oUTAS
  10  4,4  | pATES
  10  1,10 - pATTU
- 10  4,9  | pIA
  10  1,10 - pITAU
- 10  1,10 - pMT
  10  1,10 - pUTTI
  10  1,10 - pUTTS
  10  4,5  | qUES
@@ -4864,7 +5035,6 @@
   9  4,5  | AcES
   9  1,8  - AcES
   9  7,5  - AcTU
-  9  2,10 | Ad
   9  4,5  | AdET
   9  1,8  - AdET
   9  7,5  - AdITS
@@ -4911,7 +5081,6 @@
   9  7,5  - AuSU
   9  4,5  | AvES
   9  1,8  - AvES
-  9  2,10 | Aw
   9  4,5  | AwES
   9  1,8  - AwES
   9  1,9  - AwL
@@ -4948,7 +5117,6 @@
   9  2,10 | Ib
   9  4,5  | IcES
   9  1,8  - IcES
-  9  2,10 | Id
   9  4,5  | IdES
   9  1,8  - IdES
   9  1,9  - IlL
@@ -5193,7 +5361,6 @@
   9  7,5  - SuU
   9  9,7  | SuUM
   9  7,2  | SvAMIN
-  9  8,8  - SwA
   9  7,5  - SwATI
   9  9,3  | SwIMS
   9  9,7  | SwUM
@@ -5279,9 +5446,7 @@
   9  7,5  - TrIAS
   9  9,3  | TrIMS
   9  7,2  | TuMAIN
-  9  8,8  - TwA
   9  7,8  - TwI
-  9  8,8  - TwI
   9  4,5  | TyES
   9  1,8  - TyES
   9  7,3  | UIrINA
@@ -5292,7 +5457,6 @@
   9  2,9  - ULiTIS
   9  9,6  - US
   9  4,1  | USITAtE
-  9  9,6  - USa
   9  9,6  - USe
   9  9,6  - USh
   9  9,6  - USu
@@ -5323,7 +5487,6 @@
   9  9,6  - UrA
   9  9,6  - UrI
   9  9,6  - UrS
-  9  9,6  - UsA
   9  9,6  - UtA
   9  9,6  - UtI
   9  9,6  - UtS
@@ -5374,11 +5537,11 @@
   9  4,3  | dISME
   9  7,5  - dUITS
   9  7,2  | dUSTIN
+  9  9,6  - eM
   9  1,11 - eTYMA
   9  7,5  - fAUT
   9  1,9  - fIL
   9  2,9  - fLATUS
-  9  9,6  - fM
   9  7,5  - fMT
   9  7,2  | fUSAIN
   9  7,2  | fUSTIN
@@ -5420,6 +5583,7 @@
   9  1,9  - kIL
   9  9,5  | kISMAT
   9  7,5  - kUSTI
+  9  9,2  | kUSTIS
   9  4,5  | lAET
   9  1,8  - lAET
   9  7,5  - lAIUS
@@ -5441,6 +5605,7 @@
   9  7,5  - mATSU
   9  7,5  - mAUT
   9  1,9  - mIL
+  9  8,8  - mIMA
   9  7,5  | mINUTIA
   9  7,5  - mITUA
   9  1,9  - mSL
@@ -5468,7 +5633,6 @@
   9  7,5  - pIUS
   9  2,9  - pLASM
   9  2,9  - pLUSIA
-  9  7,5  - pMT
   9  7,5  - pUIST
   9  7,2  | pUTAIN
   9  4,3  | qUATE
@@ -5578,6 +5742,7 @@
   8  9,5  | AUSSIe
   8  9,5  | AUSTIn
   8  4,2  | AUSsIE
+  8  4,4  | AUTEm
   8  9,3  | AUTISm
   8  9,3  | AUTISt
   8  1,10 - AUTe
@@ -5643,6 +5808,8 @@
   8  8,7  | ETUIS
   8  8,7  | ETyM
   8  8,7  | EUdA
+  8  4,7  | EmU
+  8  3,8  - EmU
   8  4,7  | EsU
   8  3,8  - EsU
   8  2,9  - ILeUS
@@ -5855,6 +6022,8 @@
   8  7,5  - STAy
   8  4,5  | STElA
   8  1,8  - STElA
+  8  4,5  | STEmA
+  8  1,8  - STEmA
   8  9,7  | STIM
   8  7,5  - STIb
   8  7,5  - STId
@@ -5953,7 +6122,6 @@
   8  7,5  - SuIT
   8  1,10 - SuTTA
   8  1,10 - SuTU
-  8  8,8  - Sw
   8  7,5  - SwAT
   8  7,5  - TAI
   8  3,10 - TAISe
@@ -6004,7 +6172,6 @@
   8  3,10 - TAnTI
   8  7,5  - TApIS
   8  3,10 - TApIS
-  8  3,10 - TApIT
   8  7,5  - TApU
   8  3,10 - TApU
   8  7,5  - TArSI
@@ -6223,8 +6390,6 @@
   8  1,10 - cUTS
   8  2,11 - cYMA
   8  7,5  - dAU
-  8  4,6  | dES
-  8  2,8  - dES
   8  4,6  | dET
   8  2,8  - dET
   8  7,5  - dIAU
@@ -6241,14 +6406,12 @@
   8  2,10 - eTUA
   8  2,10 - eTUI
   8  1,11 - eTYM
-  8  2,9  | fA
   8  7,5  - fAITS
   8  7,5  - fASTI
   8  9,2  | fASTUS
   8  9,5  | fASTUS
   8  4,6  | fET
   8  2,8  - fET
-  8  2,9  | fI
   8  7,5  - fIATS
   8  4,2  | fUSATE
   8  7,5  - fUST
@@ -6323,6 +6486,7 @@
   8  4,6  | mET
   8  2,8  - mET
   8  9,4  | mIASM
+  8  8,8  - mIM
   8  1,10 - mITTS
   8  7,5  - mITU
   8  1,10 - mITU
@@ -6350,9 +6514,6 @@
   8  1,10 - oSTIA
   8  2,10 - oTUS
   8  1,10 - oUTS
-  8  2,9  | pA
-  8  2,10 | pA
-  8  4,2  | pAIUTE
   8  7,5  - pATU
   8  1,10 - pATU
   8  7,5  - pAU
@@ -6360,7 +6521,6 @@
   8  2,8  - pES
   8  4,6  | pET
   8  2,8  - pET
-  8  2,9  | pI
   8  7,5  - pIAST
   8  7,5  - pITAS
   8  1,10 - pITAS
@@ -6749,6 +6909,7 @@
   7  4,2  | SAIThE
   7  4,2  | SAInTE
   7  4,4  | SATEd
+  7  4,4  | SATEm
   7  4,4  | SATEs
   7  7,3  | SATIN
   7  7,3  | SATINe
@@ -6953,6 +7114,8 @@
   7  2,8  - TEdA
   7  4,6  | TElA
   7  2,8  - TElA
+  7  4,6  | TEmA
+  7  2,8  - TEmA
   7  4,6  | TEwA
   7  2,8  - TEwA
   7  7,5  | TINeAS
@@ -7039,7 +7202,6 @@
   7  9,6  - Um
   7  9,6  - Un
   7  9,6  - Up
-  7  9,6  - Ur
   7  9,6  - Us
   7  9,6  - Ut
   7  3,11 - YAUdS
@@ -7112,10 +7274,8 @@
   7  7,5  - fIAT
   7  7,5  - fIST
   7  7,5  - fITS
-  7  7,5  - fM
   7  4,4  | fUME
   7  7,5  - fUT
-  7  9,6  - fUT
   7  7,4  | gAINST
   7  7,5  - gAIT
   7  9,4  | gAMS
@@ -7164,6 +7324,7 @@
   7  7,5  - kITS
   7  7,5  - kUA
   7  7,5  - kUI
+  7  9,5  | kUSTIS
   7  7,5  - lAIT
   7  9,4  | lAMS
   7  7,5  - lASI
@@ -7189,6 +7350,7 @@
   7  7,5  | mINUS
   7  4,2  | mISATE
   7  7,5  - mIST
+  7  8,8  - mITU
   7  7,5  - mM
   7  9,4  | mUIST
   7  4,4  | mUME
@@ -7217,7 +7379,6 @@
   7  7,5  - pITA
   7  7,5  - pITS
   7  4,3  | pIUTE
-  7  7,5  - pM
   7  7,5  - pSIA
   7  7,5  - pUA
   7  9,4  | pUIST
@@ -7421,7 +7582,6 @@
   6  7,3  | AcTIN
   6  1,10 - AcTS
   6  1,11 - AcY
-  6  4,10 | Ad
   6  9,3  | AdITS
   6  9,6  - AdS
   6  1,11 - AdY
@@ -7561,8 +7721,6 @@
   6  9,4  | IUuS
   6  9,6  - IbA
   6  1,11 - IcY
-  6  4,10 | Id
-  6  9,6  - IdA
   6  9,6  - IdS
   6  9,6  - IfS
   6  9,6  - IhS
@@ -7706,6 +7864,8 @@
   6  2,8  - MEh
   6  4,6  | MEl
   6  2,8  - MEl
+  6  4,6  | MEm
+  6  2,8  - MEm
   6  4,6  | MEn
   6  2,8  - MEn
   6  4,6  | MEo
@@ -8001,7 +8161,6 @@
   6  1,11 - StY
   6  9,3  | SuITS
   6  9,4  | SuMS
-  6  7,8  - Sw
   6  7,3  | SwAIN
   6  9,3  | SwATS
   6  1,11 - SwY
@@ -8410,7 +8569,6 @@
   6  9,8  - iSM
   6  2,10 - iTAI
   6  7,5  - jAI
-  6  7,5  - jAT
   6  1,10 - jATI
   6  9,5  | jISM
   6  9,5  | jUSSI
@@ -8467,11 +8625,13 @@
   6  1,10 - mATT
   6  1,11 - mAYST
   6  7,5  - mIA
+  6  8,8  - mIAS
   6  4,4  | mIME
   6  7,5  | mINAS
   6  7,5  | mINIS
   6  7,5  | mINTS
   6  7,5  - mIS
+  6  8,8  - mIST
   6  7,5  - mIT
   6  1,10 - mITT
   6  7,5  - mTS
@@ -8543,7 +8703,6 @@
   6  7,4  | qUINA
   6  7,4  | qUINS
   6  7,4  | qUINT
-  6  9,4  | qUIS
   6  9,3  | qUITS
   6  4,3  | rAISE
   6  4,4  | rAME
@@ -8649,7 +8808,6 @@
   6  7,5  - wAT
   6  1,10 - wATS
   6  1,10 - wATT
-  6  9,8  - wIM
   6  4,4  | wIME
   6  7,5  - wIS
   6  8,8  - wIST
@@ -8956,6 +9114,8 @@
   5  3,9  - LUrI
   5  5,7  | LUsT
   5  3,9  - LUsT
+  5  5,7  | LUvS
+  5  3,9  - LUvS
   5  5,7  | LaIT
   5  3,9  - LaIT
   5  5,7  | LaSA
@@ -9156,7 +9316,6 @@
   5  9,7  | SuSU
   5  9,7  | SuTU
   5  9,7  | SuU
-  5  7,5  - Sw
   5  7,4  | TAIN
   5  7,4  | TAINo
   5  7,4  | TAINs
@@ -9374,26 +9533,20 @@
   5  9,6  - eTA
   5  2,11 - eYAS
   5  2,8  | fA
-  5  4,9  | fA
   5  7,4  | fAINS
   5  7,4  | fAINT
   5  9,3  | fAITS
-  5  9,6  - fAS
   5  9,5  | fASTI
   5  9,3  | fASTS
   5  9,5  | fASTS
-  5  9,6  - fAT
   5  1,11 - fAYS
-  5  4,9  | fI
   5  9,3  | fIATS
   5  9,3  | fISTS
   5  9,5  | fISTS
-  5  9,6  - fIT
   5  8,8  - fIT
   5  2,9  - fLAT
   5  2,9  - fLIT
   5  7,5  - fU
-  5  9,6  - fU
   5  7,4  | gAINS
   5  9,4  | gAIST
   5  9,3  | gAITS
@@ -9405,7 +9558,6 @@
   5  9,5  | gISTS
   5  2,9  - gLIA
   5  2,9  - gLIS
-  5  7,5  - gU
   5  1,11 - gUY
   5  2,8  | hA
   5  1,11 - hAYS
@@ -9451,10 +9603,13 @@
   5  9,5  | mASTS
   5  7,3  | mATIN
   5  1,11 - mAYS
+  5  8,8  - mIA
+  5  8,8  - mIS
   5  9,4  | mISSA
   5  9,5  | mISSA
   5  9,3  | mISTS
   5  9,5  | mISTS
+  5  8,8  - mIT
   5  7,5  - mU
   5  2,11 - mYST
   5  2,8  | nA
@@ -9476,7 +9631,6 @@
   5  9,6  | oSTIA
   5  9,4  | oTUS
   5  2,8  | pA
-  5  4,9  | pA
   5  7,4  | pAINS
   5  7,4  | pAINT
   5  9,3  | pASIS
@@ -9486,7 +9640,6 @@
   5  7,3  | pATIN
   5  1,11 - pAYS
   5  1,11 - pAYT
-  5  4,9  | pI
   5  9,4  | pIAST
   5  9,3  | pITAS
   5  9,4  | pIUS
@@ -9523,7 +9676,6 @@
   5  1,11 - tUY
   5  9,6  - uIT
   5  2,9  - uLTA
-  5  9,6  - uSA
   5  9,6  - uTA
   5  9,6  - uTI
   5  9,6  - uTS
@@ -9533,7 +9685,6 @@
   5  9,3  | vISAS
   5  9,5  | vISAS
   5  9,5  | vISTA
-  5  2,9  - vLSI
   5  7,4  | wAINS
   5  9,4  | wAIST
   5  9,3  | wAITS
@@ -9573,6 +9724,8 @@
   4  2,9  - ALT
   4  2,9  - ALTo
   4  2,9  - ALTs
+  4  4,5  | ASEm
+  4  1,8  - ASEm
   4  9,5  | ASS
   4  9,6  | ASSaI
   4  9,5  | ASSe
@@ -9660,7 +9813,6 @@
   4  9,6  - Aw
   4  7,4  | AwIN
   4  9,6  - Ax
-  4  7,4  | AxIN
   4  4,3  | AxITE
   4  9,6  - Ay
   4  7,4  | AyIN
@@ -9673,7 +9825,6 @@
   4  8,7  | EIr
   4  8,7  | ES
   4  8,7  | ESc
-  4  8,7  | ESd
   4  8,7  | ESe
   4  8,7  | ESp
   4  8,7  | ESq
@@ -9731,6 +9882,8 @@
   4  9,8  - ISz
   4  9,8  - IT
   4  2,10 - IT
+  4  4,5  | ITEm
+  4  1,8  - ITEm
   4  4,5  | ITEn
   4  1,8  - ITEn
   4  4,5  | ITEr
@@ -9747,7 +9900,6 @@
   4  9,6  - Ib
   4  9,8  - IbA
   4  9,6  - Id
-  4  9,8  - IdA
   4  9,8  - IdS
   4  9,6  - If
   4  9,8  - IfS
@@ -9829,8 +9981,6 @@
   4  3,9  - LIeS
   4  5,7  | LIfT
   4  3,9  - LIfT
-  4  5,7  | LIjA
-  4  3,9  - LIjA
   4  5,7  | LIlA
   4  3,9  - LIlA
   4  5,7  | LIlT
@@ -10016,6 +10166,8 @@
   4  9,7  | STAt
   4  9,7  | STAw
   4  9,7  | STAy
+  4  4,5  | STEm
+  4  1,8  - STEm
   4  4,5  | STEr
   4  1,8  - STEr
   4  4,5  | STEt
@@ -10232,7 +10384,6 @@
   4  2,9  - ULl
   4  2,9  - ULt
   4  2,9  - ULu
-  4  9,6  | USA
   4  9,6  | USAr
   4  4,5  | USE
   4  1,8  - USE
@@ -10349,7 +10500,6 @@
   4  1,10 - fIT
   4  9,4  | fITS
   4  2,9  - fLU
-  4  7,5  - fS
   4  4,4  | fUSE
   4  9,5  | fUSS
   4  9,5  | fUST
@@ -10393,7 +10543,6 @@
   4  7,5  - jA
   4  7,4  | jAIN
   4  9,4  | jASS
-  4  1,10 - jAT
   4  1,11 - jAY
   4  7,5  | jINA
   4  7,5  | jINS
@@ -10437,6 +10586,7 @@
   4  9,4  | mATS
   4  1,11 - mAY
   4  7,5  - mI
+  4  8,8  - mI
   4  9,4  | mIAS
   4  7,5  | mINA
   4  7,5  | mINI
@@ -10490,7 +10640,6 @@
   4  9,6  | pSIS
   4  9,6  | pSST
   4  1,10 - pST
-  4  7,5  - pT
   4  2,10 - pTA
   4  2,10 - pTS
   4  1,10 - pTT
@@ -10577,12 +10726,9 @@
   4  1,10 - wIT
   4  9,4  | wITS
   4  7,5  - wT
-  4  9,8  - wUS
   4  9,5  | wUSS
   4  9,5  | wUST
-  4  9,8  - wUT
   4  8,8  - xI
-  4  7,5  | xINA
   4  7,5  - yA
   4  1,10 - yAT
   4  1,11 - yAY
@@ -10601,14 +10747,10 @@
   3  2,9  - AL
   3  2,9  - ALa
   3  2,9  - ALb
-  3  2,9  - ALc
   3  2,9  - ALd
   3  2,9  - ALe
-  3  2,9  - ALf
   3  2,9  - ALg
   3  2,9  - ALl
-  3  2,9  - ALn
-  3  2,9  - ALo
   3  2,9  - ALp
   3  2,9  - ALs
   3  2,9  - ALt
@@ -10681,7 +10823,6 @@
   3  7,6  | INc
   3  7,6  | INd
   3  7,6  | INf
-  3  7,6  | INg
   3  7,6  | INk
   3  7,6  | INn
   3  7,6  | INo
@@ -10811,6 +10952,8 @@
   3  2,8  - SEe
   3  4,6  | SEl
   3  2,8  - SEl
+  3  4,6  | SEm
+  3  2,8  - SEm
   3  4,6  | SEn
   3  2,8  - SEn
   3  4,6  | SEr
@@ -10912,6 +11055,8 @@
   3  2,8  - TEe
   3  4,6  | TEl
   3  2,8  - TEl
+  3  4,6  | TEm
+  3  2,8  - TEm
   3  4,6  | TEn
   3  2,8  - TEn
   3  4,6  | TEw
@@ -10959,7 +11104,6 @@
   3  9,4  | TuIS
   3  9,4  | TwAS
   3  9,6  | US
-  3  9,6  | USa
   3  9,6  | USe
   3  9,6  | USh
   3  9,6  | USu
@@ -10973,7 +11117,6 @@
   3  4,5  | UtE
   3  1,8  - UtE
   3  3,11 - Ya
-  3  3,11 - Yd
   3  3,11 - Ye
   3  3,11 - Yi
   3  3,11 - Ym
@@ -11021,7 +11164,6 @@
   3  4,4  | dITE
   3  4,5  | dUE
   3  1,8  - dUE
-  3  2,11 - dY
   3  4,4  | eASE
   3  9,5  | eAST
   3  2,9  - eLA
@@ -11031,15 +11173,12 @@
   3  9,6  - eS
   3  9,6  | eSU
   3  9,6  - eT
-  3  9,6  - fA
   3  9,5  | fASS
   3  9,5  | fAST
   3  4,4  | fATE
-  3  9,6  - fI
   3  7,5  | fIN
   3  4,4  | fISE
   3  9,5  | fIST
-  3  9,6  - fS
   3  9,5  | gAST
   3  4,4  | gATE
   3  7,5  | gIN
@@ -11172,19 +11311,14 @@
   3  4,4  | vISE
   3  9,5  | vISS
   3  4,4  | vITE
-  3  9,8  - wAS
   3  4,4  | wASE
   3  9,5  | wAST
-  3  9,8  - wAT
   3  7,5  | wIN
-  3  9,8  - wIS
   3  4,4  | wISE
   3  9,5  | wISS
   3  9,5  | wIST
-  3  9,8  - wIT
   3  4,4  | wITE
   3  9,5  | wUS
-  3  2,11 - wY
   3  4,4  | yATE
   3  7,5  | yIN
   3  4,4  | yITE
@@ -11244,6 +11378,8 @@
   2  8,7  | ElI
   2  8,7  | ElS
   2  8,7  | ElT
+  2  4,7  | Em
+  2  3,8  - Em
   2  8,7  | EmS
   2  4,7  | En
   2  3,8  - En
@@ -11297,14 +11433,10 @@
   2  3,9  - La
   2  5,7  | Lb
   2  3,9  - Lb
-  2  5,7  | Lf
-  2  3,9  - Lf
   2  5,7  | Ll
   2  3,9  - Ll
   2  5,7  | Lo
   2  3,9  - Lo
-  2  5,7  | Lp
-  2  3,9  - Lp
   2  5,7  | Lu
   2  3,9  - Lu
   2  9,7  | SAa
@@ -11504,7 +11636,6 @@
   2  9,5  | fAS
   2  4,5  | fIE
   2  1,8  - fIE
-  2  2,9  - fL
   2  4,5  | gAE
   2  1,8  - gAE
   2  9,5  | gAS
@@ -11562,10 +11693,8 @@
   2  4,5  | pIE
   2  1,8  - pIE
   2  9,5  | pIS
-  2  2,9  - pL
   2  9,6  | pSI
   2  9,6  | pST
-  2  2,10 - pT
   2  4,5  | pTE
   2  1,8  - pTE
   2  9,5  | pTS
@@ -11591,7 +11720,6 @@
   2  9,5  | tSS
   2  9,6  | tSS
   2  9,6  | tST
-  2  9,6  | uSA
   2  4,5  | uSE
   2  1,8  - uSE
   2  2,10 - uT
@@ -11608,7 +11736,6 @@
   2  1,8  - wAE
   2  9,5  | wAS
   2  9,5  | wIS
-  2  9,8  - wT
   2  2,10 - wT
   2  9,5  | xIS
   2  9,5  | yAS
@@ -11618,6 +11745,7 @@
   1  8,7  | Ef
   1  8,7  | Eh
   1  8,7  | El
+  1  8,7  | Em
   1  8,7  | En
   1  8,7  | Eo
   1  8,7  | Er
@@ -11628,7 +11756,6 @@
   1  9,7  | Sh
   1  9,7  | Si
   1  9,7  | So
-  1  9,7  | Sw
   1  3,10 - Ta
   1  3,10 - Tc
   1  3,10 - Td
@@ -11648,7 +11775,6 @@
   1  9,6  | eS
   1  4,6  | fE
   1  2,8  - fE
-  1  9,6  | fS
   1  4,6  | hE
   1  2,8  - hE
   1  9,6  | iS

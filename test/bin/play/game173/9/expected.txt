@@ -4,6 +4,7 @@
  43  2,10 - MOG
  42  8,2  | LCM
  42  8,8  | MGAL
+ 42 11,1  | MOD
  41  8,1  | ARCH
  41  2,10 - HOGA
  41  3,10 - OGHAM
@@ -15,6 +16,7 @@
  39  2,10 - HOG
  37  3,10 - AGROM
  36  4,10 - GLOAM
+ 36 11,1  | HOD
  35  8,1  | ALCOR
  35  8,3  | CML
  35  8,8  | HM
@@ -24,7 +26,6 @@
  34  4,10 - GROMA
  34  4,4  - MAIOLI
  33  8,3  | CHM
- 33  8,8  | HG
  32  2,6  | ALGOR
  32  2,6  | ARGOL
  32  4,10 - GOMA
@@ -38,6 +39,7 @@
  30  4,10 - GAM
  30  4,10 - GORAL
  30  1,2  - HOMAGER
+ 30 11,1  | LOD
  29  8,1  | ARCO
  29  8,3  | CHAL
  29  2,2  - HARLEM
@@ -55,7 +57,6 @@
  26  4,10 - GAL
  26  4,10 - GARO
  26  2,6  - GLORIAM
- 26 11,6  | GM
  26  4,10 - GOAR
  26  4,10 - GOL
  26  4,10 - GORA
@@ -63,8 +64,6 @@
  26  1,2  - OHMAGE
  25  1,10 - AM
  25  1,10 - OM
- 24 11,5  | AGR
- 24  8,1  | ALC
  24  4,10 - GAR
  24  4,10 - GOA
  24  4,10 - GOR
@@ -76,10 +75,9 @@
  24  2,6  - MAGHI
  24  1,6  - MAHOLI
  24  1,2  - MALGRE
- 23  8,3  | CG
+ 24 11,1  | ROD
  23  8,3  | CH
  23  8,3  | COML
- 23  8,4  - GI
  23  8,4  - HI
  23  2,10 - MA
  23  2,10 - MO
@@ -109,11 +107,11 @@
  21  8,3  | CALM
  21  8,3  | CAM
  21  8,3  | COM
+ 21  4,4  - GLIM
  21  4,10 - GM
  21  3,9  | NAM
  21  3,9  | NOM
  21  1,10 - OH
- 21  8,8  | RG
  20  1,6  - AGHORI
  20  2,2  - GAOLER
  20  4,5  | GHAZAL
@@ -122,6 +120,7 @@
  20  2,2  - GOALER
  20  2,7  | GOOMA
  20  2,2  - GRAME
+ 20  4,4  - GRIM
  20  2,7  | GROMA
  20  2,7  | GROOM
  20  2,8  | HOLM
@@ -193,6 +192,8 @@
  17  8,3  | COAL
  17  8,3  | COL
  17  2,4  - GROMIL
+ 17  3,4  - HARIM
+ 17  3,4  - HORIM
  17  4,4  - MAIR
  17  8,8  - MEW
  17  4,4  - MOIR
@@ -244,7 +245,6 @@
  15  8,9  | GAM
  15  5,5  | HALE
  15  3,2  - HAREM
- 15 11,5  | HG
  15  5,5  | HM
  15  5,5  | HOLE
  15  9,7  - JAM
@@ -264,7 +264,6 @@
  14  1,9  | BAH
  14  1,9  | BOG
  14  1,9  | BOH
- 14 11,3  | DRAG
  14  4,4  - GAIR
  14  2,7  | GAOL
  14  2,5  | GAROO
@@ -306,6 +305,7 @@
  14  2,8  | MORA
  14  2,6  | MORO
  14  2,8  | MORO
+ 14 11,2  | ODA
  14  2,2  - OHARE
  14  2,9  | OLM
  14  2,6  | OMAO
@@ -324,24 +324,27 @@
  13  3,4  - ARGIL
  13  8,9  | GAL
  13  1,4  - GAMORI
- 13  3,2  - GAREH
  13  5,2  - GEM
  13  4,4  - GHI
+ 13  5,4  - GIM
  13  2,4  - GLOMI
  13  8,9  | GOL
  13  1,4  - GOMARI
  13  3,4  - GRAIL
  13  5,2  - HEM
- 13  5,5  | HG
+ 13  5,4  - HIM
  13  1,4  - HOMRAI
  13  8,9  | MA
  13  1,4  - MAHORI
+ 13  7,2  | MEO
  13  8,5  | MH
  13  8,9  | MO
  13  5,7  - MOG
  13  3,5  - MORtH
+ 13 11,2  | OD
  13  1,8  - OH
  13  1,10 - OR
+ 13  9,2  - OXO
  13  1,5  | RHOMB
  12  1,4  - AGHORI
  12  5,4  | AHO
@@ -370,6 +373,7 @@
  12  7,5  | HOR
  12  2,8  | HORA
  12  9,7  - JAR
+ 12  5,4  - LIM
  12  2,8  | LOG
  12  3,5  - MALtO
  12  3,4  - MARIO
@@ -387,8 +391,8 @@
  12  2,2  - ORALE
  12  7,1  | RHEO
  12  2,8  | ROM
- 11 11,5  | AG
  11  5,6  | AGE
+ 11  5,4  - AIM
  11  1,8  - AL
  11  5,5  | AM
  11  4,4  - AMIR
@@ -404,8 +408,6 @@
  11  3,6  - GOHILA
  11  4,4  - GOI
  11  3,4  - HAMI
- 11  7,2  | HEO
- 11  8,5  | HG
  11  5,6  | HOE
  11  5,7  - HOG
  11  4,4  - HOI
@@ -434,6 +436,7 @@
  11  9,1  - PAL
  11  1,6  | RAMBO
  11  5,2  - REM
+ 11  5,4  - RIM
  10  4,4  - AGIO
  10  4,4  - AHIR
  10  2,5  - AHOLt
@@ -441,6 +444,7 @@
  10  1,7  | AMBO
  10  4,6  - AMIGO
  10  4,4  - ARIL
+ 10  6,2  - EM
  10  1,6  | GARBO
  10  3,5  - GHAt
  10  4,6  - GLIM
@@ -466,6 +470,7 @@
  10  3,4  - MALI
  10  2,4  - MAORI
  10  3,5  - MARt
+ 10  7,2  | ME
  10  5,7  | ME
  10  5,4  - MIL
  10  5,7  - MO
@@ -528,7 +533,6 @@
   9  5,7  - HOO
   9  5,7  - HOR
   9  8,5  | HR
-  9  3,6  - LARIGO
   9  7,2  | LEO
   9  1,7  | LHB
   9  3,5  - LHOtA
@@ -651,7 +655,6 @@
   7  2,5  - GROAt
   7  4,6  - HAIL
   7  3,2  - HALE
-  7  5,2  - HEO
   7  5,2  - HER
   7  5,6  - HILA
   7  5,4  - HIR
@@ -691,7 +694,6 @@
   7  3,2  - RAME
   7  3,6  - RAMI
   7  1,6  | RAOB
-  7  8,5  | RG
   7  5,6  - RIMA
   7  7,1  | RLE
   7  5,7  - ROG
@@ -699,7 +701,6 @@
   6  1,8  | ABO
   6  1,8  | ABR
   6  4,6  - AGIO
-  6  3,2  - AGRE
   6  4,6  - AHIR
   6  5,6  - AIM
   6  8,5  | AL
@@ -834,7 +835,6 @@
   4  4,5  - AHt
   4  5,6  - AIL
   4  4,2  - ALE
-  4  2,7  | ALO
   4  4,5  - ALtO
   4  5,1  | AR
   4  6,2  - EO
@@ -871,7 +871,6 @@
   4  2,9  | OR
   4  3,2  - ORAE
   4  7,2  | RE
-  4 10,6  - RG
   4  4,2  - RLE
   4  4,5  - ROtL
   4  6,5  - tORET

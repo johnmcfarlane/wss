@@ -15,14 +15,11 @@
  30  3,8  - PENTICE
  30  1,3  - PIEST
  30  1,3  - PINS
- 27  3,5  | NAP
  27  3,5  - PENT
  27  3,10 - PYIN
  26  6,7  - INTICE
  26  3,5  - NEPIT
- 25  9,5  - PCT
  25  3,5  - PETE
- 25  9,5  - PIC
  24  3,1  | CIE
  24  3,1  | CTE
  24  3,1  | EPI
@@ -39,37 +36,26 @@
  24  3,1  | TPI
  24  4,10 - YINCE
  23  1,5  - CEPE
- 23  3,5  - NEEP
  23  3,5  - PEN
- 23  9,5  - PEN
  23  8,7  - PICE
  23  8,7  - PICI
  23  8,7  - PICT
- 23  9,5  - PIN
- 23  3,5  | TAP
  22  2,7  | EPACT
  22  6,2  | INCIDE
- 22  9,5  - PET
  22  8,7  - PIC
  22  8,2  | PICTUN
- 22  9,5  - PIE
  22  6,1  | PINTID
- 22  9,5  - PIT
- 22  9,5  - PTE
  22  6,1  | PTINID
  21  4,8  - ENTICE
- 21  9,5  - PE
  21  3,5  - PEE
  21  8,7  - PEIN
  21  8,7  - PENT
  21  3,5  - PET
- 21  9,5  - PI
  21  8,7  - PIEN
  21  2,8  - PIETIC
  21  8,7  - PINE
  21  8,7  - PINT
  21  2,3  - PISCINE
- 21  9,5  - PT
  21  8,5  | PUNCE
  21  8,5  | PUNCT
  21  3,5  | TAIPO
@@ -125,6 +111,7 @@
  18  7,1  | INCIPIT
  18  2,8  - NEEP
  18  3,1  | NEI
+ 18  8,5  - NEP
  18  8,7  - NEP
  18  1,3  - NETS
  18  1,3  - NIES
@@ -156,11 +143,9 @@
  17  2,3  - INSTEP
  17  9,6  | MINCE
  17  3,5  - NEET
- 17  9,7  - NEP
  17  3,8  - NEPIT
  17  3,5  - NETE
  17  3,5  - NETI
- 17  9,7  - NIP
  17  7,3  | PICINE
  17  2,8  - PIETE
  17  4,3  - SPINET
@@ -173,12 +158,12 @@
  16  2,8  | CAIN
  16  2,8  | CANE
  16  2,8  | CANT
- 16  9,4  | CPM
  16  3,3  - CSNET
  16  7,3  | INCIPIT
  16  2,8  | NACE
  16  2,8  | NAPE
  16  2,7  | NEAP
+ 16  8,5  - NETI
  16  8,7  - NETI
  16  1,8  | NSEC
  16  2,8  | PAIN
@@ -207,12 +192,13 @@
  15  1,5  - CENE
  15  1,7  - CENT
  15  1,5  - CINE
- 15  9,5  | EMPT
  15  4,8  - EPIC
  15  9,5  | IMPI
  15  3,5  | NAE
+ 15  8,5  - NEI
  15  8,7  - NEI
  15  3,8  - NEP
+ 15  8,5  - NET
  15  8,7  - NET
  15  8,7  - NIT
  15  3,8  - PEN
@@ -240,6 +226,7 @@
  14  2,8  | CATE
  14  1,5  - CITEE
  14  9,5  | EMP
+ 14  9,5  - ENC
  14  9,7  - ENC
  14  4,5  - EPE
  14  4,5  - EPI
@@ -256,10 +243,8 @@
  14  2,4  - INVICT
  14  9,6  | MENIC
  14  2,8  | NAP
+ 14  8,5  - NE
  14  8,7  - NE
- 14  9,7  - NEI
- 14  9,7  - NET
- 14  9,7  - NIT
  14  6,2  | NITID
  14  2,8  | PAN
  14  2,8  | PATE
@@ -272,7 +257,6 @@
  14  7,5  | PICEIN
  14  7,3  | PICI
  14  7,3  | PINITE
- 14  9,5  | PMT
  14  1,9  | SEC
  14  4,3  - SENCI
  14  1,9  | SEP
@@ -299,9 +283,10 @@
  13  7,3  | CETIN
  13  2,7  - CITE
  13  2,4  - CIVITE
- 13  2,3  - CPS
+ 13  9,5  - EPI
  13  9,7  - EPI
  13  1,4  | EPICIST
+ 13  9,5  - ETC
  13  9,7  - ETC
  13  9,7  - ICE
  13  7,2  | ICENI
@@ -309,7 +294,6 @@
  13  6,7  - INT
  13  9,4  | IPM
  13  9,6  | METIC
- 13  9,7  - NE
  13  3,5  - NEE
  13  3,5  - NEI
  13  3,5  - NET
@@ -318,8 +302,6 @@
  13  2,8  - PIE
  13  7,2  | PIETIC
  13  7,5  | PIETIC
- 13  6,5  - PT
- 13  6,7  - PT
  13  2,8  - PTE
  13  8,5  | PUCE
  13  4,3  - SEPIC
@@ -350,7 +332,6 @@
  12  9,6  | MICE
  12  2,8  - NEET
  12  2,8  | PAT
- 12  9,5  | PM
  12  8,5  | PUNTI
  12  4,3  - SPET
  12  4,3  - SPIT
@@ -439,6 +420,7 @@
  10  8,5  | CUIT
  10  8,5  | CUP
  10  8,5  | CUTE
+ 10  9,5  - EN
  10  9,7  - EN
  10  4,8  - ENC
  10  1,5  | ENCIST
@@ -504,13 +486,12 @@
   9  2,3  - CISE
   9  2,3  - CIST
   9  1,4  | CITIES
-  9  2,7  | CPA
-  9  1,7  | CPS
   9  1,8  | CSP
   9  8,4  | ECU
   9  3,8  - EEN
   9  9,5  | EMIT
   9  6,7  - EN
+  9  9,5  - ET
   9  9,7  - ET
   9  1,5  | ICIEST
   9  9,5  | IMIT
@@ -586,7 +567,6 @@
   8  2,7  | ITAI
   8  9,6  | MEN
   8  9,6  | MIN
-  8  9,6  | MN
   8  9,6  | MTN
   8  2,8  | NAE
   8  2,8  | NAT
@@ -722,6 +702,7 @@
   6  1,7  | CTS
   6  6,6  | DP
   6  2,8  | EAT
+  6  9,5  | EM
   6  4,5  - EN
   6  4,8  - EN
   6  6,3  | ENID
@@ -748,7 +729,6 @@
   6  6,4  | NIDI
   6  5,5  | NO
   6  3,8  | NO
-  6  6,5  | PD
   6  2,7  | PEA
   6  1,7  | PES
   6  2,7  | PIA

@@ -26,6 +26,7 @@
  23  1,10 - YES
  23  1,10 - YIS
  22  8,5  - SYNE
+ 21  1,10 - ENS
  21  1,9  | NIM
  21  1,9  | NOM
  21  1,10 - ONS
@@ -52,6 +53,7 @@
  18  8,5  - SOY
  18 10,5  | SYNOD
  18  2,10 - YO
+ 17  1,10 - EN
  17  7,7  - IAN
  17  1,10 - OES
  17  1,10 - ON
@@ -82,15 +84,15 @@
  14 10,5  | NOSED
  14  2,5  - NOSEY
  14 10,6  | SYED
- 14  3,7  - YENS
- 14  3,7  - YINS
+ 13  1,10 - EE
+ 13  1,10 - EO
+ 13  1,10 - ES
  13  1,10 - OE
  13  1,10 - OI
  13  1,10 - OS
  12 10,6  | ENED
  12 10,6  | ENID
  12  7,4  | ESQ
- 12  2,7  - EYEN
  12  3,7  - EYEN
  12  8,6  | HAVERS
  12 10,6  | NEED
@@ -104,7 +106,6 @@
  12 10,6  | SOND
  12  3,5  - YEES
  12  3,7  - YEES
- 12  3,7  - YESO
  12  2,8  | YESO
  12  2,9  | YNO
  12  2,5  - YONIS
@@ -118,26 +119,17 @@
  11 10,8  - OY
  11  2,5  - SYNE
  11  2,7  - SYNE
- 11 10,8  - YE
- 11  3,7  - YEN
- 11  3,7  - YIN
- 11 10,8  - YO
- 11  3,7  - YON
- 11  1,7  - YONIS
  10  8,7  - AYIN
  10  8,7  - AYNE
  10  2,10 - EO
- 10  3,7  - EONS
  10  2,10 - ES
  10  3,5  - EYES
- 10  2,7  - EYES
  10  3,7  - EYES
  10 11,9  | EYN
  10  1,5  - INEYE
  10  1,7  - INEYE
  10 11,7  | INEYE
  10  2,10 - IO
- 10  3,7  - IONS
  10  2,10 - IS
  10 10,6  | ISED
  10  3,5  - NIES
@@ -146,7 +138,6 @@
  10  3,7  - NOES
  10  2,10 - OS
  10  3,5  - OYES
- 10  2,7  - OYES
  10  3,7  - OYES
  10 10,6  | SEED
  10  3,7  - SEEN
@@ -158,12 +149,9 @@
  10  4,7  - YEN
  10  4,7  - YIN
  10  3,5  - YNO
- 10  4,7  - YNO
   9  8,7  - AYES
   9 10,8  - EN
   9  3,5  - ENOS
-  9  1,7  - EOSIN
-  9  3,7  - EYN
   9 10,8  - IN
   9  3,7  | NISEI
   9  3,5  - NYE
@@ -174,17 +162,12 @@
   9  3,7  - ONES
   9  5,5  - OY
   9 11,8  | SEEN
-  9  3,7  - SYN
   9  3,5  - YEE
   9  3,7  - YEE
   9  2,5  - YENI
   9  2,7  - YENI
   9 11,8  | YENI
-  9  2,7  - YENS
   9 11,8  | YENS
-  9  3,7  - YES
-  9  2,7  - YINS
-  9  3,7  - YIS
   9  2,5  - YONI
   9  2,7  - YONI
   8  8,7  - ANY
@@ -192,18 +175,13 @@
   8  8,7  - AYS
   8  4,7  - EEN
   8 11,9  | EEN
-  8  2,7  - ENOS
-  8  4,7  - ENS
   8  2,5  - ENSE
   8  2,7  - ENSE
   8 11,9  | EON
   8 11,5  | INEYE
-  8  4,7  - INO
   8  2,9  | INO
-  8  4,7  - INS
   8  1,5  - INSEE
   8  1,7  - INSEE
-  8  4,7  - ISN
   8 11,7  | NEESE
   8  2,9  | NEO
   8  1,5  - NOISE
@@ -211,18 +189,13 @@
   8  6,4  | NOISY
   8  2,9  | NOO
   8 11,6  | NOSEY
-  8  2,7  - ONES
   8  2,9  | ONO
-  8  4,7  - ONS
-  8  2,7  - SEEN
   8  1,5  - SEINE
   8  1,7  - SEINE
   8  4,7  - SEN
   8  4,7  - SIN
-  8  2,7  - SION
   8  2,5  - SNEE
   8  2,7  - SNEE
-  8  2,7  - YEES
   8 11,8  | YEES
   8  3,8  | YENI
   8  4,5  - YES
@@ -242,11 +215,8 @@
   7  8,7  - ANSI
   7  8,7  - AY
   7 10,8  - EE
-  7  3,7  - EEN
   7  5,7  - EN
   7 10,8  - EO
-  7  3,7  - EON
-  7  2,7  - EONS
   7  6,3  | EOSINE
   7 11,4  | EOSINE
   7  2,5  - ESNE
@@ -258,12 +228,9 @@
   7 11,6  | EYNE
   7  5,7  - IN
   7 10,8  - IO
-  7  3,7  - ION
   7  2,5  - IONE
   7  2,7  - IONE
   7  6,3  | IONISE
-  7  2,7  - IONS
-  7  3,7  - ISN
   7  3,5  - NEE
   7  3,7  - NEE
   7  3,5  - NEI
@@ -275,24 +242,16 @@
   7  2,5  - NESE
   7  2,7  - NESE
   7 11,8  | NESE
-  7  2,7  - NIES
   7  4,5  - NIS
-  7  3,7  - NIS
   7  4,7  - NIS
-  7  5,7  - NO
-  7  2,7  - NOES
   7  4,5  - NOS
-  7  3,7  - NOS
   7  2,5  - NOSE
   7  2,7  - NOSE
   7 10,8  - OE
   7 11,4  | SEENIE
-  7  3,7  - SEN
-  7  3,7  - SIN
   7  2,5  - SINE
   7  2,7  - SINE
   7 11,6  | SNYE
-  7  3,7  - SON
   7  2,5  - SONE
   7  2,7  - SONE
   7  3,5  - SYE
@@ -309,13 +268,11 @@
   6  8,7  - ANE
   6  8,7  - ANI
   6  8,7  - ANS
-  6  3,7  - ENS
   6 11,9  | ENS
   6  6,3  | EOSIN
   6 11,7  | EYES
   6  7,9  | GIN
   6  3,5  - INO
-  6  3,7  - INS
   6 11,5  | INSEE
   6 11,6  | INSEE
   6  3,8  | IONI
@@ -334,7 +291,6 @@
   6  3,7  - ONE
   6  3,5  - ONI
   6  3,7  - ONI
-  6  3,7  - ONS
   6 11,7  | OYES
   6  6,4  | SEINE
   6 11,5  | SEINE
@@ -346,7 +302,7 @@
   6 10,7  | YOD
   5  8,7  - AIN
   5  8,7  - AN
-  5  4,7  - EN
+  5  1,10 | EM
   5 10,7  | END
   5  5,3  | ENIf
   5 11,6  | ENSE
@@ -362,7 +318,6 @@
   5  7,9  | GIE
   5  7,9  | GIO
   5  7,9  | GIS
-  5  4,7  - IN
   5 10,7  | IND
   5  5,4  | INfOS
   5  5,5  - IO
@@ -383,9 +338,7 @@
   5 10,7  | NOD
   5 11,7  | NOES
   5 11,6  | NOSE
-  5  3,7  - OES
   5  1,10 | OM
-  5  4,7  - ON
   5 11,7  | ONES
   5  3,9  | ONI
   5  5,5  - OS
@@ -403,12 +356,10 @@
   5  6,5  | SION
   5 11,6  | SNEE
   5 11,7  | SNEE
-  5  5,7  - SO
   5  3,5  - SOE
   5  3,7  - SOE
   5 11,6  | SONE
   5 11,7  | SYE
-  5 10,8  | YD
   5  4,5  - YE
   5  4,7  - YE
   5 11,7  | YEE
@@ -423,7 +374,6 @@
   4  8,7  - ASE
   4 11,8  | EEN
   4  2,10 | EO
-  4 10,7  | ESD
   4  6,6  | INO
   4  6,6  | INS
   4  5,4  | INfO
@@ -464,13 +414,11 @@
   3  4,7  - EE
   3 11,9  | EN
   3  4,5  - EO
-  3  4,7  - ES
   3 11,7  | ESE
   3 10,8  | ID
   3  6,6  | IN
   3  5,4  | INf
   3  4,5  - IO
-  3  4,7  - IS
   3  6,6  | ISE
   3 11,7  | ISE
   3 11,8  | NE
@@ -481,7 +429,6 @@
   3 11,8  | OES
   3  4,5  - OI
   3  4,7  - OI
-  3  4,7  - OS
   3 11,7  | OSE
   3 11,7  | SEE
   3 11,8  | SEE
@@ -500,11 +447,9 @@
   2 11,8  | EE
   2 11,9  | EE
   2 11,9  | EO
-  2  5,4  | EOf
   2 11,9  | ES
   2  5,5  | EfS
   2  6,6  | IO
-  2  5,4  | IOf
   2  6,6  | IS
   2  5,5  | IfE
   2  5,5  | IfS
@@ -514,13 +459,10 @@
   2  6,5  | SI
   2  3,10 | SI
   2  5,6  | fEE
-  2  5,6  | fEI
   2  5,6  | fIE
-  2  5,6  | fN
   2  5,6  | fOE
   1  5,5  | Ef
   1  5,5  | If
   1  5,5  | Of
   1  5,6  | fE
   1  5,6  | fI
-  1  5,6  | fS
