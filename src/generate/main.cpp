@@ -92,7 +92,13 @@ void dump_word(
         auto found_edge = edges.find(node_edges);
         if (found_edge!=std::end(edges)) {
             auto[edges_id, element_index] = found_edge->second;
-            edges_line = edges_id+'+'+std::to_string(element_index)+" //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,cppcoreguidelines-pro-bounds-pointer-arithmetic,hicpp-no-array-decay)";
+            if (element_index!=0) {
+                edges_line = edges_id+'+'+std::to_string(element_index)+" //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,cppcoreguidelines-pro-bounds-pointer-arithmetic,hicpp-no-array-decay)";
+            }
+            else {
+                edges_line = edges_id
+                        +" //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)";
+            }
         }
         else {
             auto sub_array{std::string{}};
