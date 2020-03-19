@@ -17,7 +17,6 @@
  26  6,4  - SAX
  26  6,4  - SEX
  26  6,4  - SIX
- 25  8,10 - EAR
  25  9,5  | RAZEE
  25  9,5  | ZAIRE
  25  5,2  - ZEIN
@@ -35,7 +34,6 @@
  21  7,8  - RANE
  21  7,8  - RINE
  20  4,5  | ALIENOR
- 20  9,10 - AR
  20  3,11 - AX
  20  8,4  | AZINES
  20  6,5  - KNIAZ
@@ -44,6 +42,7 @@
  19  7,8  - AIRE
  19  6,5  - KAREZ
  19  4,6  | LIENOR
+ 19  1,7  - REDIA
  19  6,4  - SENZA
  19  8,5  | ZEINS
  18  8,8  - ANE
@@ -65,13 +64,11 @@
  16 10,6  | NARW
  16  1,11 - NEAR
  16  8,5  | RAZES
- 16  2,8  - REIN
  16  7,8  | RENO
  16  1,7  - XED
  15  4,2  | ACERLI
  15  7,8  - AIN
  15  4,3  | CANLI
- 15  7,8  - EAN
  15  9,5  | EXINE
  15  2,6  | FANES
  15  2,6  | FINES
@@ -84,14 +81,12 @@
  15  7,8  - REN
  15  7,8  - RIN
  15  4,1  | ZAC
- 15  9,8  | ZEND
  14  7,8  | AERO
  14  5,5  - AKIN
  14 10,6  | AREW
  14  4,3  | CARLE
  14  4,3  | CARLI
  14  4,3  | CRILE
- 14  9,8  - EAN
  14  6,2  - EARNIE
  14  5,4  - ISZ
  14  6,5  - KEX
@@ -109,6 +104,7 @@
  13  5,5  - AKRE
  13  8,6  | AXES
  13  8,6  | AXIS
+ 13  1,7  - EADI
  13  7,8  - EAR
  13  7,8  - EIR
  13  6,2  - EZRA
@@ -127,8 +123,8 @@
  13 11,6  | ZIRA
  12  5,5  - AKE
  12  8,8  - AN
- 12  3,7  - DAE
- 12  2,11 - EAN
+ 12  3,7  - DIA
+ 12  3,7  - DIE
  12  8,8  - EN
  12  6,2  - ERIAN
  12  6,2  - ERNIE
@@ -137,6 +133,7 @@
  12  6,5  - KRINA
  12  7,8  - NA
  12  7,8  - NE
+ 12  7,8  - NI
  12  1,7  | RAJ
  12  9,8  - REA
  12 10,9  | WRO
@@ -146,7 +143,6 @@
  11 10,8  - AN
  11  8,10 - AN
  11  9,7  | AXE
- 11  3,8  - EIR
  11 10,8  - EN
  11  8,10 - EN
  11  8,10 - IN
@@ -186,7 +182,6 @@
  10  6,5  - KNAR
  10  6,5  - KRNA
  10  4,1  | NACE
- 10  1,7  - NAD
  10  1,7  - NED
  10  4,1  | NICE
  10  1,7  - NID
@@ -201,7 +196,6 @@
   9  9,5  | AINEE
   9  8,6  | AINS
   9  9,5  | ARNEE
-  9  1,7  - EAD
   9  9,5  | ERNIE
   9  8,6  | ERNS
   9  6,2  - EX
@@ -271,7 +265,6 @@
   7  8,5  | ARIES
   7  4,5  | ELA
   7  4,5  | ELI
-  7  4,1  | ENC
   7  4,5  | ILA
   7  4,5  | ILE
   7  4,1  | INC
@@ -312,6 +305,7 @@
   6  8,6  | ARES
   6  9,6  | ARNE
   6  3,7  - DA
+  6  3,7  - DI
   6  8,6  | EARS
   6  7,1  | EN
   6  8,6  | ERAS
@@ -324,6 +318,7 @@
   6  6,5  - KA
   6  6,5  - KI
   6  4,6  | LA
+  6  4,6  | LI
   6  5,6  | MAE
   6  5,6  | MAR
   6  5,6  | MEA
@@ -370,11 +365,9 @@
   5  9,6  | AIRE
   5  8,7  | AIS
   5  9,7  | ANE
-  5  5,1  | ARA
   5 11,9  | ARG
   5 11,6  | ARNA
   5  8,7  | ARS
-  5  5,4  - ASE
   5 10,8  | AW
   5  6,2  - EARN
   5  9,6  | EIRE
@@ -389,6 +382,7 @@
   5  5,1  | IRA
   5  8,7  | IRS
   5  5,4  - ISE
+  5  3,3  | LI
   5  5,6  | MA
   5  5,6  | ME
   5  5,6  | MI
@@ -406,10 +400,10 @@
   5  2,8  | RES
   5  6,4  - SAE
   5  6,4  - SAI
-  5  6,4  - SAR
   5  6,4  - SEA
   5  6,4  - SEI
   5  6,4  - SER
+  5  2,4  - SI
   5  6,4  - SIA
   5  6,4  - SIE
   5  6,4  - SIR
@@ -429,8 +423,6 @@
   4 11,6  | ARIA
   4  5,4  - AS
   4  8,8  | AS
-  4  9,9  | EAD
-  4  6,2  - EAN
   4  6,2  - EEN
   4  6,2  - EIRE
   4  7,1  | ER
@@ -457,7 +449,6 @@
   4  9,7  | REE
   4  9,7  | RIE
   3  4,5  | AL
-  3 11,7  | ARA
   3  7,7  | ARE
   3  6,2  - EAR
   3  6,2  - EER

@@ -33,7 +33,6 @@
  26  9,4  | VOLTI
  25  1,10 - HOT
  24  2,6  | CHOW
- 24  9,5  | CL
  24 10,3  | CLOTHE
  24  4,10 - CORT
  24 10,5  | COVET
@@ -210,6 +209,7 @@
  14  6,6  - JAIL
  14  6,6  - JAIN
  14 10,7  | LENOS
+ 14  8,5  - LOCH
  14  7,5  - NOH
  14  7,5  - NTH
  14  8,5  - OCH
@@ -236,6 +236,7 @@
  13  3,6  | COVeN
  13  8,5  - HOC
  13  4,7  | LHD
+ 13  8,5  - LOCN
  13  3,7  - LOTAN
  13  7,5  - LOTH
  13  7,5  - NOLT
@@ -263,13 +264,16 @@
  12 10,5  | HOTE
  12  3,6  | HOVeL
  12  3,6  | HOVeN
+ 12  9,7  - LO
  12 10,5  | LONE
  12 11,7  | LST
+ 12  9,7  - NO
  12  3,8  - NO
  12  9,9  - NO
  12  4,7  - NOAH
  12 10,6  | NOEL
  12  7,5  - NOL
+ 12  8,5  - NOV
  12  8,5  - OCT
  12  9,7  - OH
  12  2,8  - OH
@@ -289,6 +293,7 @@
  12  7,5  - THO
  12  8,5  - THON
  12  9,7  | TINCT
+ 12  7,5  - TLN
  12  8,5  - TOCH
  12  3,7  - TOLAN
  12  2,8  | TWO
@@ -313,9 +318,11 @@
  11  5,7  - LAH
  11  7,2  | LHOTA
  11  2,7  - LHOTA
+ 11  8,5  - LOC
  11 11,4  | LOCHS
  11  1,5  | LOCHS
  11  4,6  | LOND
+ 11  8,5  - LOTH
  11  9,7  | NILOT
  11  4,6  | NOLD
  11  7,3  | NOVA
@@ -356,8 +363,11 @@
  10  3,7  - LOCA
  10  8,3  | LOCI
  10  7,5  - LOT
+ 10  8,5  - NOH
+ 10  8,5  - NOLT
  10  7,5  - NOT
  10 10,5  | NOTE
+ 10  8,5  - NTH
  10  9,7  - ON
  10  2,8  - ON
  10  9,9  - ON
@@ -368,6 +378,7 @@
  10 10,6  | THE
  10  8,5  - THO
  10  8,2  | THOLI
+ 10  7,5  - TLO
  10  3,8  - TO
  10  7,5  - TOL
  10  4,6  | TOLD
@@ -408,6 +419,7 @@
   9  3,6  | LOVe
   9  9,7  | NIL
   9  3,10 - NO
+  9  8,5  - NOL
   9  8,5  - OH
   9  4,7  | OLD
   9  7,3  | ONCA
@@ -446,8 +458,10 @@
   8 10,7  | LEV
   8  7,5  - LO
   8 10,6  | LOE
+  8  8,5  - LOT
   8  7,5  - NO
   8 10,7  - NO
+  8  8,5  - NOT
   8 10,6  | OLE
   8 10,6  | ONE
   8  8,5  - ONT
@@ -477,9 +491,8 @@
   7  9,8  | ILOT
   7  5,7  - LAT
   7  7,5  | LATI
-  7  7,4  | LCA
-  7  4,7  - LCA
   7  9,7  | LIT
+  7  8,5  - LO
   7  4,7  | LOD
   7  1,7  | LOSH
   7  7,3  | LOTA
@@ -489,6 +502,7 @@
   7  3,8  | LeV
   7  5,7  - NAT
   7  9,7  | NIT
+  7  8,5  - NO
   7  4,7  | NOD
   7  1,7  | NOSH
   7  7,3  | NOTA
@@ -551,10 +565,12 @@
   5  3,8  | HeN
   5  9,8  | IN
   5 10,7  | LEN
+  5  9,7  | LI
   5  1,7  | LOST
   5 11,5  | LOTS
   5  1,6  | LOTS
   5  3,7  | LOe
+  5  9,7  | NI
   5 11,5  | NOTS
   5  1,6  | NOTS
   5  3,6  | NOTe
@@ -613,11 +629,13 @@
   3  9,8  | IT
   3  7,5  | LA
   3  5,7  - LA
+  3  8,5  | LI
   3  3,8  | LeO
   3  3,8  | LeT
   3  7,5  | NA
   3  5,7  - NA
   3 10,7  | NE
+  3  8,5  | NI
   3  3,8  | NeO
   3  3,8  | NeT
   3  9,7  | OI

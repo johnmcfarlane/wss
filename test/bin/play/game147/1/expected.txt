@@ -399,8 +399,6 @@
  17  4,3  | TANGILE
  17  7,4  | TARIN
  17  7,4  | TERNA
- 16  2,2  | AILEEN
- 16  6,2  | AILEEN
  16  3,7  - AIN
  16  7,4  | AIRN
  16  4,5  - ALEN
@@ -432,7 +430,6 @@
  16  6,1  | ATELIER
  16  2,4  | ATELIER
  16  6,4  | ATELIER
- 16  1,5  - EAN
  16  7,4  | EARL
  16  7,4  | EARN
  16  2,1  | ELAINE
@@ -690,8 +687,11 @@
  14  4,6  | GENIAL
  14  4,6  | GENTIL
  14  4,6  | GILTEN
+ 14  1,7  - ILA
+ 14  1,7  - ILE
  14  4,4  | INGRATE
  14  4,4  | INGREAT
+ 14  1,7  - INT
  14  4,7  - INT
  14  7,5  | IRA
  14  7,5  | IRE
@@ -710,6 +710,7 @@
  14  1,7  - LER
  14  1,5  - LET
  14  1,7  - LET
+ 14  3,7  - LI
  14  2,2  | LIANE
  14  6,2  | LIANE
  14  4,4  | LIGER
@@ -733,6 +734,7 @@
  14  6,1  | NERITE
  14  2,5  | NERITE
  14  6,5  | NERITE
+ 14  3,7  - NI
  14  4,4  | NIGRE
  14  4,4  | RAGLIN
  14  4,3  | RANGLE
@@ -939,8 +941,11 @@
  12  2,2  | IERNE
  12  6,2  | IERNE
  12  4,4  | INGER
+ 12  1,7  - IRA
+ 12  1,7  - IRE
  12  2,2  | IRENE
  12  6,2  | IRENE
+ 12  1,7  - ITA
  12  5,5  - LAEN
  12  5,5  - LAIN
  12  6,7  - LAINE
@@ -1311,6 +1316,7 @@
  10  6,7  - LENT
  10  5,5  - LER
  10  5,5  - LET
+ 10  2,7  - LI
  10  3,2  | LIANA
  10  3,4  | LIANA
  10  3,4  | LIANE
@@ -1349,6 +1355,7 @@
  10  5,5  - NET
  10  5,7  - NET
  10  5,4  | NEUTRIA
+ 10  2,7  - NI
  10  4,4  | NIG
  10  6,5  - NILE
  10  6,7  - NILE
@@ -1524,6 +1531,7 @@
   9  4,6  | GREIT
   9  4,6  | GRETA
   9  4,6  | GRIN
+  9  1,7  - IN
   9  4,4  | INGA
   9  3,2  | INTRA
   9  3,2  | IRENA
@@ -1712,8 +1720,6 @@
   8  4,5  | AGIT
   8  3,6  | AIEL
   8  6,5  - AILE
-  8  2,3  | AILEEN
-  8  6,3  | AILEEN
   8  6,5  - AINE
   8  6,5  - AINT
   8  3,6  | AIRAN
@@ -1820,8 +1826,6 @@
   8  3,5  | LARE
   8  3,5  | LARI
   8  3,2  | LARIA
-  8  3,3  | LATA
-  8  3,5  | LATA
   8  3,5  | LATE
   8  2,3  | LATEEN
   8  6,3  | LATEEN
@@ -2009,7 +2013,6 @@
   7  5,4  | ATUNE
   7  5,5  | AUREI
   7  5,5  | AUTRE
-  7  3,5  | EAN
   7  3,5  | EARL
   7  3,5  | EARN
   7  2,4  | ELEAN
@@ -2044,6 +2047,7 @@
   7  6,3  | INTEL
   7  5,4  | INURE
   7  3,4  | IRATE
+  7  1,7  - IT
   7  3,5  | LAI
   7  6,7  - LAI
   7  3,5  | LAR
@@ -2245,8 +2249,6 @@
   6  6,3  | ATREN
   6  5,5  | AUNE
   6  5,5  | AUNT
-  6  6,5  - EAN
-  6  6,7  - EAN
   6  2,3  | EATEN
   6  6,3  | EATEN
   6  3,4  | ELA
@@ -2308,6 +2310,7 @@
   6  6,5  | LENE
   6  2,5  | LENT
   6  6,5  | LENT
+  6  6,7  - LI
   6  2,4  | LIEN
   6  6,4  | LIEN
   6  1,4  | LILA
@@ -2340,6 +2343,8 @@
   6  2,5  | NETER
   6  6,5  | NETER
   6  5,4  | NEUT
+  6  6,5  - NI
+  6  6,7  - NI
   6  2,3  | NILE
   6  6,3  | NILE
   6  1,4  | NILE
@@ -2798,8 +2803,6 @@
   4  2,4  | ANE
   4  6,4  | ANE
   4  6,5  - AR
-  4  3,4  | ARA
-  4  3,6  | ARA
   4  3,6  | ARE
   4  2,4  | ARET
   4  6,4  | ARET
@@ -2810,8 +2813,6 @@
   4  6,5  - AT
   4  3,6  | ATE
   4  3,6  | ATI
-  4  2,6  | EAN
-  4  6,6  | EAN
   4  5,4  | EAU
   4  2,5  | EEL
   4  6,5  | EEL
@@ -3018,6 +3019,7 @@
   3  2,4  | IRE
   3  6,4  | IRE
   3  1,6  | LA
+  3  1,6  | LI
   3  2,5  | NE
   3  6,5  | NE
   3  2,5  | REA

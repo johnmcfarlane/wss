@@ -25,7 +25,6 @@
  68  1,3  - ONEIdAS
  66  1,3  - AEONISt
  59  2,11 - ANEmOSIS
- 59  3,3  - ANISOlE
  59  2,11 - ANISOlES
  59  2,11 - AStONIES
  59  2,11 - AdENOSIS
@@ -377,7 +376,6 @@
  30  8,4  | dOMINAE
  30  1,3  - dONSIE
  30  1,3  - eOSINE
- 30  8,1  - fEIF
  30  5,9  - fINALES
  30  1,3  - gENOAS
  30  1,3  - iONISE
@@ -573,6 +571,7 @@
  28  5,10 - rOSALIE
  28  1,3  - sEASON
  28  5,10 - sNAILS
+ 28 10,5  | tAENIA
  28  5,10 - uNIOLA
  28  5,10 - uNSOLE
  28  5,10 - vINALS
@@ -633,7 +632,6 @@
  27  1,3  - IrONES
  27  8,6  | MINAe
  27  8,6  | MINaE
- 27  8,6  | MINcE
  27  8,6  | MONAl
  27  8,6  | MONEl
  27  8,6  | MiNAE
@@ -802,6 +800,7 @@
  24  8,4  | AdMEN
  24  8,4  | AdMIN
  24  6,10 - AeOLIS
+ 24 10,6  | AiNOI
  24  6,10 - AiOLIS
  24  8,4  | AlMON
  24  6,10 - AmILES
@@ -823,7 +822,6 @@
  24  6,10 - ENoLS
  24  1,3  - ENvOIS
  24  8,5  | IMiNE
- 24  2,2  - INO
  24  1,3  - INSAmE
  24  1,3  - INSAnE
  24  1,3  - INSOlE
@@ -842,6 +840,7 @@
  24  6,9  - NAILEr
  24  6,10 - NAILs
  24  6,10 - NAILy
+ 24 10,8  | NAIO
  24  7,9  - NALEd
  24 10,8  | NAOI
  24  6,10 - NAbLE
@@ -1074,10 +1073,10 @@
  24  1,2  - yONI
  24  1,2  - zONA
  24  1,2  - zONE
+ 23 10,6  | AINOi
  23  1,2  - AINe
  23  1,2  - AINu
  23  8,2  | COINMAtE
- 23  4,3  - INSOlE
  23  1,2  - IONe
  23  1,2  - IONi
  23  8,6  | MANa
@@ -1106,7 +1105,6 @@
  23  1,2  - SONe
  22  8,5  | AMEN
  22  8,5  | AMIN
- 22  5,3  - ANOlE
  22  1,2  - AaNI
  22  4,7  - AcONINE
  22  1,2  - AiNE
@@ -1121,7 +1119,6 @@
  22  1,2  - NASa
  22  1,2  - NASi
  22  1,2  - NASo
- 22  8,8  | NAcE
  22  1,2  - NAiO
  22  1,2  - NAlE
  22  8,8  | NAlE
@@ -1226,7 +1223,6 @@
  21  3,11 - ANoESIS
  21  9,1  | ARNE
  21  9,1  | ARNI
- 21  2,2  - ASE
  21  6,9  - ASELlI
  21  4,7  - ASINiNE
  21  3,11 - AScONES
@@ -1241,7 +1237,6 @@
  21  8,2  | CONAMEd
  21  8,2  | COmAMIE
  21  8,2  | COrEMIA
- 21  1,2  - EAN
  21  1,3  - EAdIOS
  21  7,9  - ENLAy
  21  3,11 - ENtASIS
@@ -1265,7 +1260,6 @@
  21  3,11 - INSEAmS
  21  3,11 - INSOlES
  21  3,11 - INcASES
- 21  2,2  - INo
  21  1,2  - ION
  21  3,11 - IONiSES
  21  2,2  - ISE
@@ -1278,12 +1272,14 @@
  21  8,6  | MON
  21  8,8  | NAE
  21  3,11 - NAISkOS
+ 21 10,8  | NAIo
  21 10,8  | NAOi
  21  3,11 - NASIOnS
  21  8,8  | NEA
  21 10,8  | NOAh
  21  5,7  - NOSINE
  21  1,2  - NaIO
+ 21 10,8  | NaIO
  21 10,8  | NaOI
  21  1,2  - NaSA
  21  1,2  - NaSI
@@ -1532,6 +1528,7 @@
  20  6,10 - IdOLS
  20  5,7  - IoNONE
  20  1,2  - NAE
+ 20 10,8  | NAiO
  20 10,8  | NAoI
  20  1,2  - NEA
  20  1,2  - NEI
@@ -1668,7 +1665,6 @@
  20  6,10 - hAOLE
  20  6,10 - hEALS
  20  6,10 - hEILS
- 20  2,2  - iNO
  20  6,10 - jAILS
  20  6,10 - kAILS
  20  6,10 - kOALI
@@ -1726,7 +1722,6 @@
  19  2,2  - AN
  19  6,7  - ANENd
  19  6,7  - ANENt
- 19  3,3  - ANISOl
  19  3,5  - AShINE
  19  3,5  - AStONE
  19  3,5  - AcOINE
@@ -1813,7 +1808,6 @@
  19  1,2  - dEN
  19  1,2  - dIN
  19  1,2  - dON
- 19  1,2  - eAN
  19  1,2  - eEN
  19  1,2  - eON
  19  5,7  - eOSINE
@@ -1889,15 +1883,12 @@
  18  8,9  - ALEN
  18  8,9  - ALIN
  18  6,7  - ANON
- 18  4,3  - ANSEl
  18  9,1  | AREN
  18  9,1  | ARN
  18  9,1  | ARNa
  18  9,1  | ARNe
  18  9,1  | ARNi
  18  7,9  - ASLOp
- 18  2,2  - ASa
- 18  2,2  - ASe
  18  2,2  - ASp
  18  3,11 - AbIOSES
  18  7,9  - AbLES
@@ -1924,7 +1915,6 @@
  18  2,2  - ArE
  18  7,9  - ArLES
  18  2,2  - ArO
- 18  2,2  - AsE
  18  2,2  - AtE
  18  2,2  - AtI
  18  7,9  - AuLOI
@@ -1947,7 +1937,6 @@
  18  2,1  | BONES
  18  8,2  | CINEMa
  18  8,2  | CONIMa
- 18  3,5  - EASINg
  18  5,7  - EASINg
  18  2,2  - EAu
  18  8,9  - ELAN
@@ -1977,7 +1966,6 @@
  18  8,4  | INMAtE
  18  8,4  | INMOrE
  18  4,3  - INSEp
- 18  4,3  - INSOl
  18  9,1  | IRAN
  18  9,1  | IRON
  18  7,9  - ISLAm
@@ -1994,8 +1982,6 @@
  18  7,9  - IdLES
  18  2,2  - IlA
  18  2,2  - IlE
- 18  2,2  - ImA
- 18  2,2  - InO
  18  2,2  - IrA
  18  2,2  - IrE
  18  2,2  - IsE
@@ -2094,7 +2080,6 @@
  18  7,9  - SOLfA
  18  7,9  - SOLvE
  18  6,3  - SOcE
- 18  6,3  - SOlE
  18  6,3  - SOpE
  18  8,4  | SaMOA
  18  6,9  - ScOLIA
@@ -2140,8 +2125,10 @@
  18  5,7  - lINON
  18  7,9  - mELON
  18  2,3  - mESIAN
+ 18 10,8  | mIAO
  18  7,9  - mILAN
  18 10,8  | mOAI
+ 18 10,8  | nAIO
  18 10,8  | nAOI
  18  5,7  - nINON
  18  2,3  - nOSEAN
@@ -2164,6 +2151,7 @@
  18  7,9  - sOLEN
  18  7,9  - tALON
  18  5,7  - tENON
+ 18 10,8  | tIAO
  18  3,5  - tISANE
  18  7,9  - tOLAN
  18  4,7  - uNISON
@@ -2198,16 +2186,14 @@
  17  4,5  - AvINE
  17  4,5  - AxONE
  17  4,5  - AzINE
- 17  5,3  - ENOl
- 17  6,3  - ENc
  17  5,7  - EOSIN
- 17  1,2  - EaN
  17  4,7  - EdISON
  17  1,2  - EeN
  17  3,3  - ElIAN
  17  1,2  - EoN
  17  3,3  - ErIAN
  17  1,2  - EyN
+ 17 10,9  | IAO
  17  4,7  - INOSiN
  17  3,5  - INSAmE
  17  3,5  - INSAnE
@@ -2235,7 +2221,6 @@
  17  5,3  - NASh
  17  1,2  - NAa
  17  1,2  - NAb
- 17  1,2  - NAd
  17  1,2  - NAe
  17  1,2  - NAg
  17  1,2  - NAm
@@ -2307,17 +2292,20 @@
  17  3,3  - OwSEN
  17  4,5  - OxANE
  17  4,5  - OzENA
+ 17 10,8  | SAI
  17  8,4  | SAMItE
  17  5,5  - SANE
  17 10,8  | SAO
  17  8,4  | SEMInA
  17  8,4  | SEMItA
  17  5,5  - SENA
+ 17 10,8  | SIA
  17  8,4  | SIMiA
  17  5,5  - SINA
  17  5,5  - SINE
  17  5,7  - SINoN
  17  2,3  - SIOuAN
+ 17 10,8  | SIlO
  17  5,3  - SNOp
  17  2,3  - SOAkEN
  17  8,4  | SOMItE
@@ -2359,8 +2347,6 @@
  17  4,5  - SwINE
  17  1,2  - SyN
  17  8,4  | aNMIA
- 17  2,2  - aSA
- 17  2,2  - aSE
  17  4,5  - bEANO
  17  4,5  - dEINO
  17  7,1  | dENE
@@ -2507,7 +2493,6 @@
  16  2,1  | BEfAN
  16  2,1  | BEgAN
  16  2,1  | BEgIN
- 16  2,1  | BEjAN
  16  2,1  | BEmAN
  16  2,1  | BEnIN
  16  2,1  | BEnNI
@@ -2534,8 +2519,6 @@
  16  2,1  | BISoN
  16  2,1  | BIeNS
  16  2,1  | BInNA
- 16  2,1  | BIrNE
- 16  2,1  | BIrON
  16  2,1  | BIsON
  16  2,1  | BIuNE
  16  2,1  | BIzEN
@@ -2570,7 +2553,6 @@
  16  2,1  | BOrAN
  16  2,1  | BOrNE
  16  2,1  | BOtAN
- 16  2,1  | BOwNE
  16  2,1  | BOxEN
  16  2,1  | BaNES
  16  2,1  | BaNIA
@@ -2618,7 +2600,6 @@
  16  6,5  | IDONEAl
  16  6,4  | INDOlES
  16  6,4  | INDOrSE
- 16  6,5  - INO
  16  2,3  - INcASE
  16  6,4  | IODiNES
  16  2,3  - IOwANS
@@ -2631,7 +2612,10 @@
  16 10,8  | NAa
  16 10,8  | NAb
  16  1,2  - NE
+ 16  1,2  - NI
  16  5,7  - NISaN
+ 16 10,8  | NIb
+ 16 10,8  | NIl
  16  5,7  - NInON
  16  5,7  - NIsAN
  16  5,7  - NItON
@@ -2663,7 +2647,6 @@
  16  2,3  - OAnNES
  16  3,3  - OAtEN
  16  2,2  - OE
- 16  8,8  | OEcI
  16  2,2  - OI
  16  6,5  - ONA
  16  6,5  - ONE
@@ -2793,7 +2776,6 @@
  16  5,7  - cOSEN
  16  5,7  - cOSIN
  16  2,3  - cOSINE
- 16  1,2  - dAE
  16  8,4  | dAMIE
  16  5,5  - dANE
  16  2,3  - dAOINE
@@ -3041,15 +3023,12 @@
  16  1,2  - wAE
  16  5,5  - wANE
  16  1,2  - wAS
- 16  1,2  - wEA
  16  1,2  - wEI
- 16  1,2  - wES
  16  5,5  - wINE
  16  5,5  - wINO
  16  1,2  - wIS
  16  3,3  - wISEN
  16  5,7  - wISEN
- 16  1,2  - wOA
  16  1,2  - wOE
  16  5,5  - wONE
  16  1,2  - wOS
@@ -3138,10 +3117,7 @@
  15  2,3  - AzINES
  15  3,3  - AzONS
  15  8,2  | CAEOMa
- 15  5,3  - EAN
- 15  1,2  - EAd
  15  1,2  - EAm
- 15  1,2  - EAn
  15  1,2  - EAr
  15  1,2  - EAt
  15  1,2  - EIr
@@ -3174,6 +3150,7 @@
  15  4,5  - INOmA
  15  4,5  - INOnE
  15  2,3  - INSAnE
+ 15 10,1  | IONE
  15  5,5  - IONe
  15  1,2  - IOn
  15  9,1  | IRES
@@ -3193,15 +3170,16 @@
  15  9,9  - LEN
  15  9,9  - LIN
  15  8,6  | MAE
- 15  8,6  | MAO
  15  8,6  | MEA
  15  8,6  | MEO
  15  8,6  | MIA
  15  8,6  | MOA
+ 15 10,5  | NAIrA
  15  8,4  | NAME
  15  7,7  - NANa
  15  7,7  - NANe
  15  7,7  - NANt
+ 15 10,5  | NAOmI
  15  2,3  - NAvIES
  15  2,3  - NAwIES
  15  8,4  | NEMA
@@ -3218,7 +3196,6 @@
  15  7,7  - NONe
  15  7,7  - NONg
  15  6,3  - NOh
- 15  6,3  - NOl
  15  2,3  - NOrIAS
  15  2,3  - NOsIES
  15  2,3  - NOwISE
@@ -3270,7 +3247,6 @@
  15  5,3  - SAN
  15  7,7  - SANE
  15  5,5  - SANe
- 15  5,5  - SANg
  15  1,2  - SAa
  15  1,2  - SAb
  15  1,2  - SAd
@@ -3283,7 +3259,6 @@
  15  5,7  - SAmEN
  15  1,2  - SAn
  15  5,7  - SApIN
- 15  1,2  - SAr
  15  5,7  - SAsIN
  15  1,2  - SAt
  15  5,7  - SAtIN
@@ -3322,7 +3297,6 @@
  15  7,7  - SINE
  15  5,5  - SINa
  15  5,5  - SINe
- 15  5,5  - SINg
  15  5,5  - SINh
  15  1,2  - SIa
  15  1,2  - SIb
@@ -3345,7 +3319,6 @@
  15  2,3  - SOIgNE
  15  7,7  - SONE
  15  5,5  - SONe
- 15  5,5  - SONg
  15  1,2  - SOb
  15  1,2  - SOd
  15  1,2  - SOe
@@ -3407,7 +3380,6 @@
  15  9,1  | bREN
  15  9,1  | bRIN
  15  2,3  - cANOES
- 15  7,9  - cELIA
  15  8,9  - cLAN
  15  8,9  - cLIN
  15  8,9  - cLON
@@ -3477,6 +3449,7 @@
  15  2,3  - iONISE
  15  9,1  | iRAN
  15  9,1  | iRON
+ 15 10,5  | jAINA
  15  7,9  - jALEO
  15  4,3  - jEAN
  15  4,3  - jOAN
@@ -3555,6 +3528,7 @@
  15  7,9  - sOLEA
  15  7,9  - sOLES
  15  4,3  - tAEN
+ 15 10,5  | tAINO
  15  7,9  - tALES
  15  7,9  - tALIO
  15  7,9  - tALIS
@@ -3594,6 +3568,7 @@
  15  2,3  - xENIAS
  15  4,3  - yEAN
  15  2,3  - zANIES
+ 14 10,6  | AANI
  14  6,5  | ADENIa
  14  6,5  | ADENIn
  14  6,5  | ADEONa
@@ -3646,7 +3621,6 @@
  14  4,10 - ANiSIL
  14  4,10 - ANiSOL
  14  2,7  - ANsEIS
- 14  6,5  - ANy
  14  4,5  - AOIfE
  14  4,5  - ASIdE
  14  2,5  - ASIdEN
@@ -3663,10 +3637,12 @@
  14  4,3  - AgEN
  14  1,2  - AiS
  14  4,3  - AlEN
+ 14 10,4  | AmAIN
  14  4,3  - AmEN
  14  6,7  - AmEN
  14  6,7  - AmIN
  14  6,7  - AnON
+ 14 10,4  | ArAIN
  14  6,4  | ArDOISE
  14  4,3  - ArEN
  14  4,3  - AsSN
@@ -4077,7 +4053,6 @@
  14  4,10 - ENSeAL
  14  4,10 - ENcOIL
  14  4,10 - ENfOIL
- 14  6,5  - ENg
  14  4,10 - ENgAOL
  14  4,10 - ENjAIL
  14  4,10 - ENrAIL
@@ -4097,10 +4072,12 @@
  14  2,7  - ESsOIN
  14 10,8  | ElA
  14  4,3  - ElAN
+ 14 10,8  | ElI
  14  4,3  - EoAN
  14  1,2  - EtA
  14  6,7  - EtON
  14  4,3  - EvAN
+ 14 10,9  | IAo
  14  6,5  | IDAEaN
  14  6,5  | IDAEiN
  14  6,5  | IDaEAN
@@ -4110,7 +4087,6 @@
  14  5,10 - INSOL
  14  4,10 - INSOuL
  14  4,10 - INStAL
- 14  6,5  - INo
  14  1,2  - IO
  14  6,4  | IODAtES
  14  4,3  - IONE
@@ -4215,7 +4191,6 @@
  14  6,5  - ONa
  14  6,5  - ONe
  14  6,5  - ONo
- 14  6,5  - ONy
  14  2,5  - OSAmIN
  14  2,7  - OSAmIN
  14  4,5  - OSElA
@@ -4229,9 +4204,9 @@
  14  2,7  - OStEIN
  14 10,8  | ObA
  14  4,3  - ObAN
+ 14 10,8  | ObI
  14  1,2  - OeS
  14 10,8  | OlA
- 14  7,3  - OlE
  14  4,3  - OmAN
  14  6,7  - OmAN
  14  4,3  - OmEN
@@ -4243,6 +4218,7 @@
  14  4,3  - OpEN
  14  6,7  - OpEN
  14  1,2  - OuI
+ 14 10,8  | OuI
  14  4,3  - OvEN
  14  4,3  - OwEN
  14  4,3  - OxAN
@@ -4336,6 +4312,7 @@
  14  4,3  - SaAN
  14  1,2  - SaE
  14  1,2  - SaI
+ 14 10,8  | SaI
  14 10,8  | SaO
  14  4,3  - ScAN
  14  1,2  - SeA
@@ -4348,6 +4325,7 @@
  14  7,3  - ShE
  14  4,3  - ShEN
  14  1,2  - SiA
+ 14 10,8  | SiA
  14  1,2  - SiE
  14  4,3  - SkEN
  14 10,8  | SlA
@@ -4359,6 +4337,7 @@
  14  4,3  - StAN
  14  1,2  - SuE
  14  1,2  - SuI
+ 14 10,8  | SuI
  14  4,3  - SvAN
  14  4,3  - SwAN
  14  1,2  - SyE
@@ -4383,6 +4362,7 @@
  14  2,7  - bESOIN
  14  3,3  - bIENS
  14  3,3  - bINES
+ 14 10,9  | bIO
  14  3,3  - bONES
  14  3,3  - cAINS
  14  3,3  - cANES
@@ -4406,6 +4386,7 @@
  14  7,1  | dEI
  14  3,3  - dEINO
  14  4,10 - dENIAL
+ 14 10,8  | dIA
  14  3,3  - dIANE
  14  3,3  - dINES
  14  3,3  - dIONE
@@ -4434,9 +4415,11 @@
  14  3,3  - hANSE
  14  4,10 - hANSEL
  14 10,8  | hAO
+ 14 10,8  | hIA
+ 14 10,8  | hOI
  14  3,3  - hONES
+ 14 10,9  | iAO
  14  6,5  | iDAEIN
- 14  6,5  - iNO
  14  3,3  - jANES
  14  3,3  - jEANS
  14  3,3  - jOINS
@@ -4448,6 +4431,7 @@
  14  3,3  - kINES
  14  3,3  - kOANS
  14  3,3  - kOINE
+ 14 10,8  | lAI
  14 10,9  | lAI
  14  3,3  - lAINE
  14  2,3  - lAIOSE
@@ -4476,7 +4460,6 @@
  14  3,3  - mANES
  14  3,3  - mANSE
  14  3,3  - mANSO
- 14 10,8  | mAO
  14  3,3  - mEANS
  14  4,10 - mENIAL
  14  4,10 - mENSAL
@@ -4484,12 +4467,14 @@
  14  2,7  - mESIAN
  14  2,5  - mESION
  14  2,7  - mESION
+ 14 10,8  | mIA
  14  3,3  - mIENS
  14  3,3  - mINAE
  14  3,3  - mINAS
  14  3,3  - mINES
  14 10,8  | mOA
  14  3,3  - mOANS
+ 14 10,8  | mOI
  14  3,3  - mONAS
  14  4,10 - mONIAL
  14  3,3  - nANES
@@ -4539,8 +4524,12 @@
  14  3,3  - rEINS
  14  4,10 - rENAIL
  14  7,1  | rES
+ 14 10,8  | rIA
  14  3,3  - rINSE
+ 14 10,8  | rIO
  14  3,3  - rOANS
+ 14 10,8  | rOI
+ 14 10,8  | sAI
  14  3,3  - sAINS
  14  3,3  - sANES
  14 10,8  | sAO
@@ -4551,9 +4540,11 @@
  14  7,1  | sEI
  14  4,10 - sENSAL
  14  3,3  - sENSO
+ 14 10,8  | sIA
  14  3,3  - sINAE
  14  3,3  - sINES
  14  3,3  - sONES
+ 14 10,8  | tAI
  14  3,3  - tAINO
  14  3,3  - tAINS
  14  4,10 - tANSEL
@@ -4565,9 +4556,11 @@
  14  3,3  - tINES
  14  4,10 - tINSEL
  14 10,8  | tOA
+ 14 10,8  | tOI
  14  3,3  - tONES
  14  4,10 - tONSIL
  14  3,3  - tSINE
+ 14 10,4  | uNAIS
  14  4,10 - uNSEAL
  14  4,10 - uNSOIL
  14  3,3  - uSINE
@@ -4585,7 +4578,6 @@
  14  2,5  - wEASON
  14  2,7  - wEASON
  14  3,3  - wINES
- 14 10,8  | wOA
  14  4,10 - xENIAL
  14  3,3  - yEANS
  14  3,3  - zEINS
@@ -4593,6 +4585,7 @@
  13  3,8  - AEOlINE
  13  3,5  - AErON
  13  3,7  - AErON
+ 13 10,9  | AI
  13  8,4  | AIMEd
  13  8,4  | AIMEe
  13  8,4  | AIMEr
@@ -4628,10 +4621,7 @@
  13  2,2  - Ab
  13  3,3  - AbIES
  13 10,9  | AbO
- 13  8,8  | AcE
  13  3,3  - AcIES
- 13  3,5  - AcOIN
- 13  3,7  - AcOIN
  13  2,2  - Ad
  13  3,5  - AdION
  13  3,7  - AdION
@@ -4703,8 +4693,6 @@
  13  3,5  - EShIN
  13  3,7  - EShIN
  13  6,3  - ESp
- 13  6,3  - ESq
- 13  5,3  - EaN
  13  2,2  - Ed
  13  2,5  - EdISON
  13  2,7  - EdISON
@@ -4740,7 +4728,6 @@
  13  3,7  - ExION
  13  3,3  - INAnE
  13  8,7  - INN
- 13  5,3  - INO
  13  3,3  - INOnE
  13  5,3  - INS
  13  2,3  - INSEAm
@@ -4748,10 +4735,15 @@
  13  2,7  - INSEAm
  13  3,3  - INSeE
  13  3,3  - INcAS
+ 13 10,9  | IO
+ 13 10,1  | IONe
+ 13 10,1  | IONi
  13  5,5  - IOdE
  13  5,5  - IOnE
  13  5,3  - IaN
+ 13 10,9  | IaO
  13  2,2  - Ib
+ 13 10,9  | IbO
  13  2,2  - Id
  13  3,5  - IdEAN
  13  3,7  - IdEAN
@@ -4787,19 +4779,17 @@
  13  8,6  | MOpE
  13  8,6  | MOrA
  13  8,6  | MOrE
- 13  8,6  | MOtA
  13  8,6  | MOtE
- 13  8,6  | MOwE
  13  8,6  | MOyA
  13  8,6  | MaE
- 13  8,6  | MaO
  13  8,6  | MeA
- 13  8,6  | MeE
  13  8,6  | MeO
  13  8,6  | MiA
  13  8,6  | MoA
  13  8,6  | MoO
  13  5,3  - NAE
+ 13 10,5  | NAIO
+ 13 10,5  | NAIS
  13  2,7  - NAIvES
  13  8,4  | NAMa
  13  8,4  | NAMe
@@ -4861,6 +4851,8 @@
  13  3,7  - OAtEN
  13  3,5  - OEnIN
  13  3,7  - OEnIN
+ 13 10,9  | OI
+ 13 10,8  | OIl
  13  5,3  - ONE
  13  2,3  - ONEISm
  13  5,3  - ONS
@@ -4876,10 +4868,8 @@
  13  3,7  - OSmIN
  13  2,5  - OaSEAN
  13  2,7  - OaSEAN
- 13  2,2  - Ob
  13 10,9  | ObI
  13  3,3  - ObIAS
- 13  8,8  | OcA
  13  3,5  - OcEAN
  13  3,7  - OcEAN
  13  2,2  - Od
@@ -4932,6 +4922,7 @@
  13  5,5  - SAfE
  13  3,5  - SAfEN
  13  3,7  - SAfEN
+ 13 10,8  | SAi
  13 10,8  | SAl
  13  5,5  - SAlE
  13  3,5  - SAlON
@@ -4969,10 +4960,8 @@
  13  6,3  - SEc
  13  3,5  - SEdAN
  13  3,7  - SEdAN
- 13  6,3  - SEl
  13  5,5  - SEnA
  13  6,3  - SEp
- 13  6,3  - SEq
  13  3,5  - SErIN
  13  3,7  - SErIN
  13  3,5  - SErON
@@ -4991,9 +4980,12 @@
  13  7,7  - SINg
  13  7,7  - SINh
  13  7,7  - SINs
+ 13 10,8  | SIa
+ 13 10,8  | SIb
  13  5,5  - SIdA
  13  5,5  - SIdE
  13  5,5  - SIfE
+ 13 10,8  | SIl
  13  5,5  - SIlE
  13  3,5  - SIlEN
  13  3,7  - SIlEN
@@ -5029,7 +5021,6 @@
  13  6,3  - SOh
  13  3,5  - SOkEN
  13  3,7  - SOkEN
- 13  6,3  - SOl
  13 10,8  | SOl
  13  5,5  - SOlA
  13  3,5  - SOlAN
@@ -5125,23 +5116,22 @@
  13  4,3  - dINS
  13  4,3  - dONE
  13  4,3  - dONS
- 13  5,3  - eAN
  13  5,3  - eEN
  13  4,3  - eNSE
  13  4,3  - eONS
  13  4,3  - eSNE
- 13  8,1  - fA
  13  5,3  - fAN
  13  4,3  - fANE
  13  4,3  - fANO
  13  4,3  - fANS
- 13  8,1  - fE
  13  5,3  - fEN
  13  4,3  - fENS
  13  4,3  - fINE
  13  4,3  - fINO
  13  4,3  - fINS
+ 13 10,1  | fONE
  13  4,3  - fONE
+ 13 10,1  | fONO
  13  4,3  - fONS
  13  5,3  - gAN
  13  4,3  - gANE
@@ -5166,7 +5156,9 @@
  13  4,3  - hONE
  13  7,7  - hONE
  13  5,3  - iAN
+ 13 10,1  | iONE
  13  4,3  - iONE
+ 13 10,1  | iONI
  13  4,3  - iONS
  13  5,3  - iSN
  13  4,3  - jANE
@@ -5228,6 +5220,7 @@
  13  7,7  - nONE
  13  4,3  - oNES
  13  4,3  - oONS
+ 13 10,5  | pAISA
  13  5,3  - pAN
  13  4,3  - pANE
  13  7,7  - pANE
@@ -5308,6 +5301,7 @@
  13  4,3  - vINE
  13  4,3  - vINO
  13  4,3  - vINS
+ 13 10,5  | wAASI
  13  5,3  - wAN
  13  4,3  - wANE
  13  4,3  - wANS
@@ -5326,6 +5320,7 @@
  13  2,7  - zANIES
  13  5,3  - zEN
  13  4,3  - zONE
+ 12 10,6  | AANi
  12  6,5  | ADIEuS
  12  6,5  | ADObES
  12  6,5  | ADOnIS
@@ -5342,6 +5337,7 @@
  12 10,10 | AI
  12  3,3  - AINEe
  12  3,9  - AINSElL
+ 12 10,6  | AINu
  12  4,5  - AION
  12  4,7  - AION
  12  3,3  - AIdES
@@ -5430,6 +5426,7 @@
  12  4,8  - AShINE
  12  4,10 - ASsOIL
  12  4,8  - AStONE
+ 12 10,6  | AaNI
  12  6,5  - AbO
  12  4,10 - AbSEIL
  12  4,10 - AbSOIL
@@ -5525,7 +5522,6 @@
  12  2,1  | BEeS
  12  2,1  | BEgO
  12  2,1  | BEgS
- 12  2,1  | BEjA
  12  2,1  | BElA
  12  2,1  | BElS
  12  2,1  | BEmA
@@ -5782,7 +5778,6 @@
  12  6,6  | DONAx
  12  6,6  | DONEc
  12  6,6  | DONEe
- 12  6,6  | DONEt
  12  6,6  | DONEy
  12  6,6  | DONIa
  12  6,6  | DONIs
@@ -5868,6 +5863,7 @@
  12  5,10 - ENtAL
  12  4,5  - EOAN
  12  4,7  - EOAN
+ 12 10,1  | EON
  12  2,3  - EONIAn
  12  2,5  - EONIAn
  12  2,7  - EONIAn
@@ -5936,6 +5932,8 @@
  12  5,10 - INrOL
  12  5,10 - INsOL
  12  5,10 - INtEL
+ 12 10,10 | IO
+ 12 10,1  | ION
  12  3,3  - IOtAS
  12  9,1  | IRA
  12  9,1  | IRAn
@@ -5959,11 +5957,9 @@
  12  6,5  - IfE
  12  6,5  - IlA
  12  6,5  - IlE
- 12  6,5  - ImA
  12  2,7  - InANES
  12  4,3  - InNE
  12  4,3  - InNS
- 12  6,5  - InO
  12  4,8  - InSANE
  12  4,3  - IoNE
  12  4,3  - IoNS
@@ -6055,6 +6051,7 @@
  12  5,10 - NaSAL
  12  1,2  - Ne
  12  2,7  - NgAIOS
+ 12  1,2  - Ni
  12  1,2  - No
  12  7,10 - NoLOS
  12  7,7  - NoN
@@ -6303,7 +6300,6 @@
  12  7,10 - cALIN
  12  5,10 - cANEL
  12  5,10 - cINEL
- 12  8,9  - cLIO
  12  8,9  - cLOS
  12  7,10 - cOLAN
  12  7,10 - cOLEN
@@ -6400,6 +6396,7 @@
  12  9,1  | kRAS
  12  9,1  | kRIS
  12  1,2  - lA
+ 12  1,2  - lI
  12  1,2  - lO
  12  1,2  - mA
  12  3,5  - mASON
@@ -6420,6 +6417,7 @@
  12  3,7  - mOSAN
  12  1,2  - nA
  12  1,2  - nE
+ 12  1,2  - nI
  12  3,5  - nISAN
  12  3,7  - nISAN
  12  1,2  - nO
@@ -6591,7 +6589,6 @@
  11  2,3  - ANnIE
  11  2,3  - ANtES
  11  2,3  - ANtIS
- 11  5,3  - ASE
  11  3,1  | ASIENtO
  11  5,8  - ASINEgO
  11  2,3  - AScON
@@ -6689,8 +6686,6 @@
  11  4,1  | DrONES
  11  4,1  | DuENAS
  11  4,1  | DwINES
- 11  5,5  - EAN
- 11  5,7  - EAN
  11  2,3  - EArNS
  11  8,1  | ECoN
  11  3,7  - EIdOS
@@ -6761,6 +6756,7 @@
  11  1,7  - IONiSE
  11 10,1  | IOdE
  11 10,1  | IOdO
+ 11 10,1  | IOnE
  11 10,1  | IOtA
  11  3,7  - IOtAS
  11  5,3  - ISE
@@ -6792,11 +6788,21 @@
  11 10,5  | NAAm
  11  3,3  - NAIS
  11  4,7  - NAIS
+ 11 10,5  | NAId
+ 11 10,5  | NAIf
+ 11 10,5  | NAIl
+ 11 10,5  | NAIm
+ 11 10,5  | NAIn
+ 11 10,5  | NAIo
+ 11 10,5  | NAIr
+ 11 10,5  | NAIs
  11  8,4  | NAM
  11  3,3  - NAOS
  11  4,7  - NAOS
  11 10,5  | NAOs
  11  4,3  - NAgS
+ 11 10,5  | NAiO
+ 11 10,5  | NAiS
  11  4,3  - NAkE
  11  4,3  - NAkO
  11  4,3  - NAnE
@@ -6870,6 +6876,8 @@
  11  4,5  - OdIN
  11  4,7  - OdIN
  11  3,7  - OhIAS
+ 11 10,2  | OlENA
+ 11 10,2  | OlONA
  11  4,5  - OmAN
  11  4,7  - OmAN
  11  4,5  - OmEN
@@ -7056,6 +7064,7 @@
  11  2,3  - aNSAE
  11  2,3  - aSIAN
  11  4,5  - bAIN
+ 11 10,5  | bAIN
  11  4,7  - bAIN
  11  3,7  - bANES
  11  4,3  - bASE
@@ -7110,6 +7119,7 @@
  11  2,3  - cOSEN
  11  2,3  - cOSIN
  11  4,5  - dAIN
+ 11 10,5  | dAIN
  11  4,7  - dAIN
  11  3,7  - dANES
  11  4,3  - dASE
@@ -7145,6 +7155,7 @@
  11  4,7  - eOAN
  11  2,3  - eOSIN
  11  4,5  - fAIN
+ 11 10,5  | fAIN
  11  4,7  - fAIN
  11  2,3  - fAINS
  11  3,7  - fANES
@@ -7194,6 +7205,7 @@
  11  4,7  - hAEN
  11  4,3  - hAES
  11  4,5  - hAIN
+ 11 10,5  | hAIN
  11  4,7  - hAIN
  11  2,3  - hAINE
  11  4,5  - hEIN
@@ -7206,12 +7218,12 @@
  11  2,3  - hSIEN
  11  8,1  | iCON
  11  8,7  - iNN
- 11  5,3  - iNO
  11  5,3  - iNS
  11  2,3  - iNSEA
  11  1,5  - iONISE
  11  1,7  - iONISE
  11  4,5  - jAIN
+ 11 10,5  | jAIN
  11  4,7  - jAIN
  11  3,7  - jANES
  11  3,7  - jANOS
@@ -7293,6 +7305,7 @@
  11  4,3  - lOSE
  11  4,3  - mAES
  11  4,5  - mAIN
+ 11 10,5  | mAIN
  11  4,7  - mAIN
  11  2,3  - mAINE
  11  2,3  - mAINS
@@ -7333,6 +7346,7 @@
  11  2,3  - mOSAN
  11  4,3  - mOSE
  11  4,5  - nAIN
+ 11 10,5  | nAIN
  11  4,7  - nAIN
  11  3,7  - nANES
  11  4,3  - nASO
@@ -7359,6 +7373,7 @@
  11  2,3  - oSONE
  11  2,3  - pAEON
  11  4,5  - pAIN
+ 11 10,5  | pAIN
  11  4,7  - pAIN
  11  2,3  - pAINE
  11  2,3  - pAINS
@@ -7399,6 +7414,7 @@
  11  3,7  - pONES
  11  4,3  - pOSE
  11  4,5  - rAIN
+ 11 10,5  | rAIN
  11  4,7  - rAIN
  11  2,3  - rAINS
  11  3,7  - rANIS
@@ -7420,8 +7436,6 @@
  11  4,3  - rOES
  11  4,5  - rOIN
  11  4,7  - rOIN
- 11 10,1  | rOSA
- 11 10,1  | rOSE
  11  4,3  - rOSE
  11  2,3  - rOSIN
  11  4,5  - sAIN
@@ -7449,6 +7463,7 @@
  11 10,5  | tAEN
  11  4,7  - tAEN
  11  4,5  - tAIN
+ 11 10,5  | tAIN
  11  4,7  - tAIN
  11  2,3  - tAINS
  11  4,5  - tEAN
@@ -7466,6 +7481,7 @@
  11  4,3  - tOES
  11  3,7  - tONES
  11  2,3  - tSINE
+ 11 10,4  | uNAI
  11  2,3  - uNAIS
  11  3,7  - uNAIS
  11  8,7  - uNN
@@ -7492,6 +7508,7 @@
  11  4,3  - vOES
  11  4,3  - wAES
  11  4,5  - wAIN
+ 11 10,5  | wAIN
  11  4,7  - wAIN
  11  2,3  - wAINS
  11  3,7  - wANES
@@ -7522,6 +7539,7 @@
  11  4,5  - zION
  11  4,7  - zION
  11  3,7  - zONES
+ 10 10,6  | AAnI
  10  8,1  | ACNE
  10  6,8  - AENEId
  10  6,8  - AENEaS
@@ -7533,10 +7551,12 @@
  10  4,3  - AErO
  10 10,6  | AErO
  10  6,10 - AIEL
+ 10 10,6  | AIEl
  10  7,10 - AILE
  10  7,10 - AILEd
  10  7,10 - AILS
  10  7,10 - AILiE
+ 10 10,6  | AIN
  10  6,8  - AINEE
  10  4,9  - AINSELl
  10  4,3  - AINe
@@ -7547,6 +7567,7 @@
  10  4,3  - AInS
  10  4,5  - AIoN
  10  4,7  - AIoN
+ 10 10,6  | AIrA
  10  4,3  - AIrE
  10  4,3  - AIrS
  10  8,10 - ALES
@@ -7637,6 +7658,7 @@
  10  2,5  - ANnIE
  10  2,7  - ANnIE
  10  7,10 - AOLI
+ 10 10,6  | AOlI
  10  3,1  | ASArONE
  10  3,1  | ASINEgO
  10  2,3  - ASIaN
@@ -7653,7 +7675,6 @@
  10  4,3  - AcES
  10  3,1  | AcINOSE
  10  3,3  - AcNE
- 10  2,3  - AcOIN
  10  1,5  - AcOINE
  10  1,7  - AcOINE
  10  2,3  - AcONE
@@ -8055,7 +8076,6 @@
  10  4,8  - ENcASE
  10  2,5  - ENcIA
  10  2,7  - ENcIA
- 10  6,10 - ENcL
  10  4,9  - ENcOIL
  10  2,5  - ENdIA
  10  2,7  - ENdIA
@@ -8790,6 +8810,7 @@
  10 10,9  | aA
  10  6,8  - aENEAS
  10  3,9  - aEONIAL
+ 10 10,9  | aI
  10  5,5  - aIN
  10  5,7  - aIN
  10  8,10 - aLAN
@@ -8823,6 +8844,7 @@
  10  7,10 - bELIS
  10  5,5  - bEN
  10  5,7  - bEN
+ 10 10,9  | bI
  10  7,10 - bILES
  10  7,10 - bILOS
  10  5,5  - bIN
@@ -8854,7 +8876,6 @@
  10  1,5  - cASINO
  10  1,7  - cASINO
  10  6,11 - cASSON
- 10  7,10 - cELIA
  10  4,9  - cINEOLS
  10  2,3  - cINES
  10  8,10 - cLAN
@@ -8900,8 +8921,6 @@
  10  6,8  - dONEES
  10  2,3  - dONIA
  10  2,3  - dONIS
- 10  5,5  - eAN
- 10  5,7  - eAN
  10  5,10 - eASEL
  10  5,5  - eEN
  10  5,7  - eEN
@@ -8911,6 +8930,7 @@
  10  6,10 - eNOL
  10  4,7  - eNOS
  10  4,9  - eNSEAL
+ 10 10,1  | eON
  10  5,5  - eON
  10  5,7  - eON
  10  1,5  - eOSINE
@@ -8934,6 +8954,7 @@
  10  8,10 - fLON
  10  7,10 - fOLIA
  10  7,10 - fOLIE
+ 10 10,1  | fON
  10  5,5  - fON
  10  5,7  - fON
  10  7,10 - gALEI
@@ -8988,6 +9009,8 @@
  10  5,7  - iAN
  10  2,5  - iNSEA
  10  2,7  - iNSEA
+ 10 10,9  | iO
+ 10 10,1  | iON
  10  5,5  - iON
  10  5,7  - iON
  10  7,10 - jALEO
@@ -9030,6 +9053,7 @@
  10  2,3  - lENOS
  10  5,8  - lEONES
  10  6,11 - lESSON
+ 10 10,9  | lI
  10  5,8  - lIANES
  10  6,11 - lIASON
  10  4,9  - lIENAL
@@ -9109,6 +9133,7 @@
  10  1,5  - nOSINE
  10  1,7  - nOSINE
  10  4,8  - nOSINE
+ 10 10,9  | oI
  10  4,7  - oNES
  10 10,9  | oO
  10  7,10 - pALES
@@ -9436,7 +9461,6 @@
   9 10,9  | Ab
   9  4,7  - AbOS
   9  7,4  | AbUSION
-  9  8,9  | AcE
   9  4,7  - AcES
   9  3,8  - AcINOSE
   9  4,7  - AcIS
@@ -9444,6 +9468,7 @@
   9  6,8  - AcNES
   9  3,1  | AcOINE
   9  5,8  - AcONE
+  9 10,4  | AdAI
   9  3,8  - AdENOSE
   9  3,1  | AdEONA
   9  4,7  - AdOS
@@ -9464,6 +9489,7 @@
   9  3,8  - AgONISE
   9  4,7  - AgOS
   9 10,10 | Ah
+  9 10,9  | Ai
   9 10,10 | Ai
   9  5,5  - AiN
   9  5,7  - AiN
@@ -9520,7 +9546,6 @@
   9  5,4  - ArSINES
   9  3,1  | ArSINO
   9  7,11 - ArSON
-  9  5,3  - AsE
   9  3,1  | AsIANS
   9  5,3  - AsS
   9  4,7  - AtES
@@ -9647,7 +9672,6 @@
   9  4,1  | DrAINE
   9  4,1  | DrAINS
   9  4,1  | DuAN
-  9  4,3  - EAN
   9  3,3  - EArN
   9  8,9  | EAu
   9  2,3  - EIdOS
@@ -9711,10 +9735,7 @@
   9  1,7  - ESpINO
   9  5,4  - ESpINOS
   9  5,4  - ESsOINS
-  9  5,5  - EaN
-  9  5,7  - EaN
   9  3,8  - EbONISE
-  9  8,9  | EcO
   9  8,8  | Ee
   9  5,5  - EeN
   9  5,7  - EeN
@@ -9723,7 +9744,6 @@
   9  5,3  - EgO
   9  4,7  - EgOS
   9  7,3  - Eh
-  9  7,3  - El
   9  8,8  | El
   9  8,9  | ElA
   9  8,9  | ElI
@@ -9756,7 +9776,6 @@
   9  2,3  - IANuS
   9  8,1  | ICES
   9  5,8  - IErNE
-  9  8,5  | IMA
   9  5,9  - INAbLE
   9  7,8  - INEyE
   9  4,3  - INS
@@ -9786,7 +9805,6 @@
   9  7,4  - INkOS
   9  5,3  - INn
   9  8,7  - INn
-  9  5,3  - INo
   9  5,3  - INs
   9  8,7  - INs
   9  5,3  - INt
@@ -9809,15 +9827,17 @@
   9  5,5  - IaN
   9  5,7  - IaN
   9  5,3  - IaO
+  9 10,9  | Ib
   9  4,7  - IcES
   9  4,7  - IdES
   9  5,3  - IfE
   9  5,3  - IfS
   9  5,3  - IkE
   9  5,8  - InANE
-  9  5,3  - InO
   9  5,8  - InONE
   9  5,3  - InS
+  9 10,9  | Io
+  9 10,10 | Io
   9  5,5  - IoN
   9  5,7  - IoN
   9  5,3  - IrE
@@ -9844,7 +9864,6 @@
   9  9,9  - LAw
   9  9,9  - LAx
   9  9,9  - LAy
-  9  9,9  - LAz
   9  9,9  - LEa
   9  9,9  - LEd
   9  9,9  - LEe
@@ -9897,7 +9916,6 @@
   9  9,9  - LaO
   9  9,9  - LaS
   9  9,9  - LbS
-  9  9,9  - LcA
   9  9,9  - LeA
   9  9,9  - LeE
   9  9,9  - LeI
@@ -9918,7 +9936,6 @@
   9  8,6  | MAh
   9  8,6  | MAm
   9  8,6  | MAn
-  9  8,6  | MAo
   9  8,6  | MAp
   9  8,6  | MAr
   9  8,6  | MAt
@@ -9926,7 +9943,6 @@
   9  8,6  | MAy
   9  8,6  | MEa
   9  8,6  | MEd
-  9  8,6  | MEe
   9  8,6  | MEh
   9  8,6  | MEm
   9  8,6  | MEn
@@ -9997,7 +10013,6 @@
   9  3,3  - NAcE
   9  3,5  - NAcE
   9  3,7  - NAcE
-  9  5,3  - NAd
   9  5,3  - NAe
   9  5,3  - NAf
   9  3,3  - NAgS
@@ -10126,6 +10141,8 @@
   9  3,7  - NEvO
   9  5,3  - NEw
   9  3,3  - NEwS
+  9  3,2  - NI
+  9 10,8  | NI
   9  8,4  - NIAS
   9  3,8  - NIASEsE
   9  5,8  - NIASEsE
@@ -10354,15 +10371,19 @@
   9  3,3  - OINk
   9  2,3  - OINkS
   9  7,11 - OISiN
+  9 10,2  | ONA
   9  4,3  - ONA
   9 10,4  | ONA
   9  4,5  - ONAn
   9  4,7  - ONAn
+  9 10,2  | ONE
   9  4,3  - ONE
   9  5,9  - ONEILl
   9  5,4  - ONEIdAS
   9  7,8  - ONES
   9  4,7  - ONEs
+  9 10,2  | ONI
+  9 10,2  | ONO
   9  4,3  - ONS
   9  2,5  - ONSEt
   9  8,7  - ONa
@@ -10402,7 +10423,6 @@
   9  5,4  - OSsEINS
   9  2,3  - OSsIA
   9  2,3  - OStIA
-  9 10,9  | Ob
   9  4,7  - ObES
   9  4,7  - ObIS
   9  4,7  - OcAS
@@ -10411,6 +10431,7 @@
   9  5,3  - OeS
   9  7,3  - Oh
   9 10,10 | Oh
+  9 10,9  | Oi
   9 10,10 | Oi
   9  7,11 - OiSIN
   9  4,7  - OkAS
@@ -10734,15 +10755,14 @@
   9  5,4  - aNOESIS
   9  5,11 - aNOESIS
   9  8,7  - aNS
-  9  9,1  | aRA
   9  9,1  | aRE
   9  9,1  | aRO
   9  9,1  | aRS
-  9  5,3  - aSE
   9 10,5  | bAAS
   9  5,3  - bAE
   9  8,8  | bAE
   9  3,3  - bAIN
+  9 10,5  | bAIS
   9  4,7  - bAIS
   9  3,3  - bANE
   9  6,8  - bANES
@@ -10789,7 +10809,6 @@
   9  9,1  | bRA
   9  9,1  | bRO
   9  7,5  | bUSINE
-  9  8,9  | cAI
   9  3,3  - cAIN
   9  8,4  | cAME
   9  3,3  - cANE
@@ -10827,9 +10846,8 @@
   9  9,1  | cRE
   9  9,1  | cRO
   9  9,1  | cRS
-  9  5,3  - dAE
-  9  8,8  | dAE
   9  3,3  - dAIN
+  9 10,5  | dAIS
   9  4,7  - dAIS
   9  8,4  | dAME
   9  3,3  - dANE
@@ -10956,7 +10974,6 @@
   9  3,3  - gOEN
   9  4,7  - gOES
   9  4,7  - gOIS
-  9  8,4  | gOMA
   9  8,4  | gOME
   9  3,3  - gONA
   9  3,3  - gONE
@@ -11145,7 +11162,6 @@
   9  2,7  - mANSE
   9  2,5  - mANSO
   9  2,7  - mANSO
-  9  5,3  - mAO
   9  5,3  - mAS
   9  7,11 - mASON
   9  8,8  | mEA
@@ -11192,6 +11208,8 @@
   9  5,3  - nAE
   9  8,8  | nAE
   9  3,3  - nAIN
+  9 10,5  | nAIO
+  9 10,5  | nAIS
   9  4,7  - nAIS
   9  8,4  | nAME
   9  3,3  - nANE
@@ -11237,6 +11255,7 @@
   9  2,5  - pAINE
   9  2,7  - pAINE
   9  5,8  - pAINE
+  9 10,5  | pAIS
   9  4,7  - pAIS
   9  2,3  - pAISE
   9  3,3  - pANE
@@ -11293,6 +11312,7 @@
   9  7,5  | qUINOAS
   9  7,5  | qUOINS
   9  3,3  - rAIN
+  9 10,5  | rAIS
   9  4,7  - rAIS
   9  2,3  - rAISE
   9  5,4  - rAISONS
@@ -11485,11 +11505,9 @@
   9  3,3  - wANS
   9  5,3  - wAS
   9  3,3  - wASN
-  9  8,8  | wEA
   9  3,3  - wEAN
   9  5,4  - wEASONS
   9  3,3  - wENS
-  9  5,3  - wES
   9  8,4  | wIME
   9  3,3  - wINE
   9  6,8  - wINES
@@ -11525,7 +11543,6 @@
   8  8,1  | ACeS
   8  8,1  | AChE
   8  8,1  | ACiS
-  8  8,1  | AClE
   8  8,1  | ACmE
   8  8,1  | ACnE
   8  8,1  | ACrE
@@ -11555,6 +11572,7 @@
   8  3,1  | AINuS
   8  4,5  - AIOn
   8  4,7  - AIOn
+  8 10,6  | AIS
   8  2,3  - AISlE
   8  2,5  - AISlE
   8  2,7  - AISlE
@@ -11562,7 +11580,6 @@
   8  6,10 - AIeL
   8  3,1  | AIkANE
   8  3,1  | AIkONA
-  8  5,8  - AIlEEN
   8  8,10 - ALE
   8  8,10 - ALEa
   8  8,10 - ALEc
@@ -11770,12 +11787,10 @@
   8  3,3  - AcES
   8  2,3  - AcIES
   8  3,3  - AcIS
-  8  7,10 - AcLE
   8  3,5  - AcNE
   8  3,7  - AcNE
   8  6,8  - AcNE
   8  3,1  | AcNES
-  8  3,1  | AcOIN
   8  2,5  - AcONE
   8  2,7  - AcONE
   8  3,1  | AdENIA
@@ -11800,6 +11815,7 @@
   8  6,10 - AiEL
   8  7,10 - AiLE
   8  7,10 - AiLS
+  8 10,6  | AiN
   8  3,5  - AiNE
   8  3,7  - AiNE
   8  6,8  - AiNE
@@ -12039,7 +12055,6 @@
   8  4,1  | DONE
   8  4,1  | DONEc
   8  4,1  | DONEe
-  8  4,1  | DONEt
   8  4,1  | DONEy
   8  4,1  | DONI
   8  4,1  | DONIa
@@ -12140,6 +12155,7 @@
   8  7,10 - EOLe
   8  2,3  - EOSIn
   8  6,4  - EOSiNS
+  8 10,1  | EOn
   8  6,1  | ERrANDS
   8  6,7  - ES
   8  4,9  - ESpIAL
@@ -12257,6 +12273,7 @@
   8  3,7  - INtO
   8  6,9  - INuLA
   8  5,9  - INwALE
+  8 10,1  | IOn
   8  6,7  - IS
   8  4,3  - ISEd
   8  4,5  - ISEd
@@ -12345,7 +12362,6 @@
   8 10,5  | NAa
   8  5,5  - NAb
   8  8,4  - NAbS
-  8  5,5  - NAd
   8 10,5  | NAe
   8  5,5  - NAf
   8  5,9  - NAgEL
@@ -13227,7 +13243,6 @@
   8  6,8  - cINE
   8  5,9  - cINEL
   8  5,7  - cIS
-  8  8,10 - cLIO
   8  8,10 - cLOS
   8  6,10 - cOAL
   8  5,9  - cOENLA
@@ -13247,7 +13262,6 @@
   8  2,7  - cOSIE
   8  6,4  - cOSINS
   8  7,5  - dA
-  8  6,10 - dAIL
   8  7,10 - dALE
   8  7,10 - dALI
   8  4,3  - dAN
@@ -13288,7 +13302,6 @@
   8  5,7  - dOS
   8  7,4  | dOUANE
   8  7,5  | dUENAS
-  8  4,3  - eAN
   8  7,10 - eELS
   8  4,3  - eEN
   8  7,10 - eILA
@@ -13415,7 +13428,6 @@
   8  8,1  | iCES
   8  8,10 - iLEA
   8  8,10 - iLIA
-  8  8,5  | iMA
   8  8,5  | iMI
   8  6,5  - iN
   8  6,7  - iN
@@ -13423,6 +13435,7 @@
   8  5,9  - iNISLE
   8  4,3  - iNS
   8  5,9  - iNSOLE
+  8 10,10 | iO
   8  4,3  - iON
   8  6,8  - iONE
   8  4,8  - iONISE
@@ -13472,6 +13485,7 @@
   8  4,3  - lEN
   8  6,8  - lENE
   8  6,4  - lEONIS
+  8 10,10 | lI
   8  6,4  - lIANES
   8  7,10 - lILA
   8  7,10 - lILE
@@ -13650,8 +13664,6 @@
   8  7,10 - rOLE
   8  4,3  - rON
   8  6,8  - rONE
-  8 10,1  | rOO
-  8 10,1  | rOS
   8  5,7  - rOS
   8  4,9  - rOSEAL
   8  6,4  - rOSINS
@@ -13781,7 +13793,6 @@
   8  7,10 - wELS
   8  4,3  - wEN
   8  6,8  - wENE
-  8  5,7  - wES
   8  7,10 - wILE
   8  4,3  - wIN
   8  6,8  - wINE
@@ -13962,7 +13973,6 @@
   7  3,5  - AOlI
   7  3,7  - AOlI
   7  3,1  | AOnIAN
-  7  4,3  - ASE
   7  3,3  - ASEa
   7  3,1  | ASEmIA
   7  3,3  - ASIa
@@ -13975,7 +13985,6 @@
   7  3,7  - AScI
   7  3,1  | AScIAN
   7  3,1  | AScON
-  7  5,3  - ASe
   7  5,3  - ASh
   7  3,1  | AShEN
   7  3,1  | ASiAN
@@ -14294,16 +14303,11 @@
   7  6,4  - EASIeS
   7  3,3  - EASe
   7  5,9  - EASeL
-  7  5,3  - EAd
-  7  5,5  - EAd
   7  3,5  - EAdI
   7  3,7  - EAdI
   7  5,3  - EAm
   7  5,5  - EAm
   7  5,7  - EAm
-  7  5,3  - EAn
-  7  5,5  - EAn
-  7  5,7  - EAn
   7  5,3  - EAr
   7  7,4  - EArNS
   7  3,3  - EArS
@@ -14330,7 +14334,6 @@
   7  6,8  - ENSE
   7  3,5  - ENSe
   7  3,7  - ENSe
-  7  6,9  - ENcL
   7  4,3  - ENg
   7  6,9  - ENgL
   7  5,9  - ENoIL
@@ -14338,6 +14341,7 @@
   7  5,9  - ENrOL
   7  4,3  - ENs
   7  5,9  - ENtAL
+  7  5,8  - ENvIE
   7 10,1  | EO
   7  3,2  - EO
   7 10,8  | EO
@@ -14363,7 +14367,6 @@
   7  5,3  - ESs
   7  5,3  - ESt
   7  8,4  | EaM
-  7  4,3  - EaN
   7  4,3  - EeN
   7  3,5  - EkOI
   7  3,7  - EkOI
@@ -14400,7 +14403,6 @@
   7  3,7  - IArE
   7  6,5  | IDEAN
   7 10,1  - IF
-  7  8,5  | IMa
   7  8,5  | IMi
   7  8,5  | IMu
   7  6,4  | INDAnE
@@ -14411,8 +14413,6 @@
   7  6,4  | INDOwS
   7  6,4  | INDiES
   7  6,4  | INDuES
-  7  4,5  - INO
-  7  4,7  - INO
   7  6,8  - INSEa
   7  6,8  - INSEe
   7  6,8  - INSEp
@@ -14533,7 +14533,6 @@
   7  7,4  - NAvIS
   7  6,9  - NAwLE
   7  7,4  - NAzIS
-  7  8,1  | NCO
   7  8,8  - NE
   7  4,5  - NEA
   7  4,7  - NEA
@@ -14673,6 +14672,8 @@
   7  3,2  - Ne
   7  6,3  - Ne
   7  5,8  - NeESE
+  7  3,2  - Ni
+  7 10,8  | Ni
   7  7,9  - NiLE
   7  7,9  - NiLS
   7  6,8  - NiSEI
@@ -14713,6 +14714,7 @@
   7  5,3  - OEs
   7  5,7  - OEs
   7 10,1  - OF
+  7 10,8  | OI
   7  7,4  - OINkS
   7  3,5  - OINt
   7  3,3  - OIkS
@@ -14728,8 +14730,12 @@
   7  4,7  - ONI
   7  6,8  - ONSEt
   7  7,4  | ONUSEs
+  7 10,2  | ONa
   7  4,3  - ONa
+  7 10,2  | ONe
   7  4,3  - ONe
+  7 10,2  | ONi
+  7 10,2  | ONo
   7  4,3  - ONs
   7  5,9  - ONtAL
   7 10,1  | OO
@@ -14871,7 +14877,6 @@
   7  5,7  - SAp
   7  3,5  - SApO
   7  3,7  - SApO
-  7  5,3  - SAr
   7  3,3  - SArE
   7  3,5  - SArE
   7  3,7  - SArE
@@ -14959,6 +14964,7 @@
   7  5,3  - SEx
   7  5,5  - SEx
   7  3,2  - SI
+  7 10,8  | SI
   7  4,3  - SIA
   7  3,3  - SIAk
   7  6,4  | SIDNEy
@@ -15953,12 +15959,18 @@
   6  6,9  - AISLe
   6  3,1  | AISlE
   6  7,11 - AISlE
+  6 10,6  | AId
   6  7,4  - AIdES
-  6  6,8  - AIlEEN
+  6 10,6  | AIl
+  6 10,6  | AIm
   6  5,8  - AImEE
+  6 10,6  | AIn
   6  5,8  - AInEE
+  6 10,6  | AIr
   6  3,1  | AIrNS
+  6 10,6  | AIs
   6  6,9  - AIsLE
+  6 10,6  | AIt
   6  6,9  - AIzLE
   6  8,10 - ALa
   6  8,10 - ALb
@@ -16056,7 +16068,6 @@
   6  7,9  - AOLI
   6 10,6  | AOr
   6  9,1  | AR
-  6  9,1  | ARa
   6  9,1  | ARb
   6  9,1  | ARc
   6  9,1  | ARe
@@ -16075,8 +16086,6 @@
   6  5,3  - AS
   6  3,1  | ASANa
   6  3,1  | ASAlE
-  6  4,5  - ASE
-  6  4,7  - ASE
   6  3,5  - ASEa
   6  3,7  - ASEa
   6  3,5  - ASIa
@@ -16135,6 +16144,7 @@
   6  3,1  | AiNE
   6  3,1  | AiNS
   6  8,4  - AiNS
+  6 10,6  | AiS
   6  6,8  - AkEES
   6  6,5  - Al
   6  8,9  | Al
@@ -16328,6 +16338,7 @@
   6  4,1  | DItS
   6  4,1  | DIvA
   6  4,1  | DIvE
+  6  4,1  | DIvS
   6  4,1  | DOEsN
   6  6,6  | DONA
   6  6,6  | DONE
@@ -16624,7 +16635,6 @@
   6  9,10 - LAw
   6  9,10 - LAx
   6  9,10 - LAy
-  6  9,10 - LAz
   6  9,10 - LEa
   6  9,10 - LEd
   6  9,10 - LEe
@@ -16640,6 +16650,7 @@
   6  9,10 - LEv
   6  9,10 - LEx
   6  9,10 - LEy
+  6  9,10 - LI
   6  9,10 - LIb
   6  9,10 - LId
   6  9,10 - LIe
@@ -16678,7 +16689,6 @@
   6  9,10 - LaO
   6  9,10 - LaS
   6  9,10 - LbS
-  6  9,10 - LcA
   6  9,10 - LeA
   6  9,10 - LeE
   6  9,10 - LeI
@@ -16719,7 +16729,6 @@
   6  4,11 - NAvIES
   6  6,4  - NAwIES
   6  4,11 - NAwIES
-  6  8,1  | NCo
   6  5,5  - NE
   6 10,5  - NE
   6  5,7  - NE
@@ -16740,6 +16749,9 @@
   6  4,3  - NEk
   6  6,9  - NElL
   6  6,8  - NErEIS
+  6 10,3  - NI
+  6  5,5  - NI
+  6  5,7  - NI
   6  6,4  | NIDAl
   6  6,4  | NIDE
   6  6,4  | NIDEd
@@ -16822,8 +16834,6 @@
   6  4,5  - NaE
   6  4,7  - NaE
   6  6,9  - NaILS
-  6  4,5  - NcO
-  6  4,7  - NcO
   6  5,3  - Ne
   6  4,3  - NeA
   6  4,5  - NeA
@@ -16892,6 +16902,7 @@
   6  8,10 - OLe
   6  8,10 - OLm
   6  8,10 - OLp
+  6 10,2  | ON
   6  5,11 - ONEISm
   6  7,9  - ONLy
   6  4,11 - ONSEtS
@@ -16938,7 +16949,6 @@
   6  7,5  | OUtAS
   6  7,11 - OaSES
   6  7,11 - OaSIS
-  6  6,5  - Ob
   6  5,8  - ObESE
   6  4,11 - OcEANS
   6  6,5  - Od
@@ -17352,9 +17362,7 @@
   6  4,11 - aNISES
   6  4,11 - aNSEIS
   6  6,7  - aS
-  6  4,3  - aSA
   6  6,9  - aSALE
-  6  4,3  - aSE
   6  3,5  - aSEA
   6  3,7  - aSEA
   6  3,5  - aSIA
@@ -17364,6 +17372,7 @@
   6 10,5  | bAA
   6  4,3  - bAE
   6 10,5  | bAE
+  6 10,5  | bAI
   6  6,9  - bAILE
   6  6,9  - bAILO
   6  6,9  - bAILS
@@ -17446,8 +17455,6 @@
   6  7,11 - cOSSE
   6  7,5  | cUSIE
   6  6,4  | dADOES
-  6  4,3  - dAE
-  6 10,5  | dAE
   6  4,11 - dANIOS
   6 10,5  | dAO
   6  4,3  - dAS
@@ -17585,13 +17592,12 @@
   6  5,3  - iN
   6  8,7  - iN
   6  6,4  | iNDIA
-  6  4,5  - iNO
-  6  4,7  - iNO
   6  6,4  | iODIN
   6  5,11 - iONISE
   6  6,7  - iS
   6  4,3  - iSE
   6  7,11 - iSSEI
+  6 10,5  | jAI
   6  6,9  - jAILS
   6  7,4  - jASES
   6  7,11 - jASES
@@ -17668,7 +17674,6 @@
   6  4,11 - mANESS
   6  5,11 - mANESS
   6  4,11 - mANSES
-  6 10,5  | mAO
   6  4,3  - mAS
   6  4,11 - mASONS
   6  7,11 - mASSE
@@ -17923,6 +17928,7 @@
   6 10,5  | tAE
   6  6,9  - tAELS
   6  7,8  - tAEN
+  6 10,5  | tAI
   6  6,9  - tAILS
   6  4,11 - tAINOS
   6  5,8  - tAISE
@@ -18009,10 +18015,8 @@
   6  3,7  - wASE
   6  5,9  - wASEL
   6  7,4  | wAUNS
-  6  4,3  - wEA
   6  6,9  - wEALS
   6  7,8  - wEEN
-  6  4,3  - wES
   6  6,4  | wIDEN
   6  4,11 - wINOES
   6  4,3  - wIS
@@ -18021,7 +18025,6 @@
   6  7,4  - wISES
   6  7,11 - wISES
   6  7,11 - wISSE
-  6  4,3  - wOA
   6  6,4  | wODEN
   6  4,3  - wOE
   6  4,3  - wOS
@@ -18092,6 +18095,7 @@
   5  4,3  - AEs
   5  3,1  | AEvIA
   5  5,5  - AI
+  5 10,6  | AI
   5  5,7  - AI
   5  3,1  | AIAS
   5  6,4  | AIDE
@@ -18188,20 +18192,15 @@
   5  3,1  | AOtEA
   5  6,9  - AOuL
   5  6,4  | ASDIc
-  5  7,8  - ASE
   5  3,1  | ASEA
   5  7,8  - ASEa
   5  7,8  - ASEm
   5  3,1  | ASIA
   5  3,1  | ASIAn
   5  4,11 - ASIdES
-  5  3,1  | ASOAk
   5  7,11 - ASSN
   5  7,4  | ASUrI
-  5  4,3  - ASa
   5  8,11 - AScI
-  5  4,3  - ASe
-  5  4,3  - ASg
   5  6,8  - AShEN
   5  4,3  - ASk
   5  3,1  | ASkOI
@@ -18236,11 +18235,9 @@
   5  4,7  - AcE
   5  8,4  - AcES
   5  8,4  - AcIS
-  5  7,9  - AcLE
   5  7,4  - AcNES
   5  5,11 - AcNES
   5  6,3  - Ad
-  5 10,4  | AdA
   5  6,4  | AdDIE
   5  6,4  | AdDIO
   5  6,4  | AdDIS
@@ -18371,7 +18368,6 @@
   5  5,11 - ApOISE
   5  6,8  - ApSE
   5  6,3  - Ar
-  5 10,4  | ArA
   5  4,3  - ArE
   5  4,5  - ArE
   5  4,7  - ArE
@@ -18388,9 +18384,6 @@
   5  6,8  - ArSE
   5  6,9  - ArSLE
   5  6,3  - As
-  5  4,3  - AsE
-  5  4,5  - AsE
-  5  4,7  - AsE
   5  4,3  - AsS
   5  6,8  - AsSE
   5  5,11 - AsSISE
@@ -18487,7 +18480,6 @@
   5  8,2  | CIa
   5  8,2  | CId
   5  8,2  | CIe
-  5  8,2  | CIf
   5  8,2  | CIg
   5  8,2  | CIr
   5  8,2  | CIs
@@ -18650,11 +18642,9 @@
   5  6,6  | DuNS
   5  6,6  | DyNE
   5  6,4  | EADI
-  5  7,2  | EAN
   5  4,11 - EASIeS
   5  6,4  - EAdIOS
   5  4,11 - EAdIOS
-  5  4,3  - EAn
   5  4,3  - EAr
   5  6,9  - EArL
   5  5,11 - EArNS
@@ -18688,7 +18678,6 @@
   5  5,11 - ENOlS
   5  5,11 - ENOwS
   5  5,8  - ENSuE
-  5  7,2  | ENc
   5  7,2  | ENd
   5  7,2  | ENg
   5  7,2  | ENs
@@ -18845,8 +18834,6 @@
   5  5,11 - INcAS
   5  5,11 - INfOS
   5  5,11 - INkOS
-  5  4,5  - INo
-  5  4,7  - INo
   5  6,8  - INsEA
   5  6,8  - INsEE
   5  4,5  - INt
@@ -18916,18 +18903,11 @@
   5  4,7  - IlE
   5  7,8  - IlEON
   5  7,9  - IlLS
-  5  4,3  - ImA
-  5 10,4  | ImA
-  5  4,5  - ImA
-  5  4,7  - ImA
   5  6,4  | InDN
-  5  4,5  - InO
-  5  4,7  - InO
   5  4,3  - InS
   5  3,2  - Io
   5  4,3  - IpS
   5  6,8  - IpSE
-  5  4,3  - IqS
   5  4,3  - IrA
   5 10,4  | IrA
   5  4,5  - IrA
@@ -18964,7 +18944,6 @@
   5  4,7  - IwA
   5  7,9  - IzLE
   5  9,7  - NA
-  5  6,4  | NAD
   5  6,4  | NADa
   5  6,11 - NAIS
   5  6,11 - NAISh
@@ -19031,6 +19010,7 @@
   5  4,7  - NEp
   5  4,5  - NEt
   5  6,8  - NEvES
+  5  9,7  - NI
   5  6,11 - NIAS
   5  5,11 - NIAiS
   5  6,4  | NID
@@ -19209,7 +19189,6 @@
   5  7,5  | OUSEl
   5  7,5  | OUSIa
   5  7,5  | OUrN
-  5 10,8  | Ob
   5 10,2  | ObA
   5  4,3  - ObA
   5 10,4  | ObA
@@ -19250,6 +19229,7 @@
   5  7,9  - OgLE
   5 10,2  | OhO
   5  4,3  - OhS
+  5 10,8  | Oi
   5  6,4  | OiDIA
   5  7,9  - OiLS
   5 10,2  | OkA
@@ -19264,10 +19244,12 @@
   5  6,8  - OkEE
   5  8,4  - OkES
   5  6,8  - OkIE
+  5 10,2  | OlA
   5  4,3  - OlA
   5  4,5  - OlA
   5  4,7  - OlA
   5  6,4  | OlDIE
+  5 10,2  | OlE
   5  4,3  - OlE
   5  4,5  - OlE
   5  4,7  - OlE
@@ -19281,16 +19263,20 @@
   5  7,4  - OmNES
   5  5,11 - OmNES
   5  4,3  - OmS
+  5 10,2  | OnA
   5  4,3  - OnA
   5 10,4  | OnA
   5  4,5  - OnA
   5  4,7  - OnA
+  5 10,2  | OnE
   5  4,3  - OnE
   5  4,5  - OnE
   5  4,7  - OnE
   5  8,4  - OnES
+  5 10,2  | OnI
   5  4,5  - OnI
   5  4,7  - OnI
+  5 10,2  | OnO
   5  4,3  - OnS
   5 10,8  | Oo
   5  4,3  - OoS
@@ -19415,7 +19401,6 @@
   5  4,11 - SAnIES
   5  8,4  - SAnS
   5  8,4  - SApS
-  5  4,3  - SAr
   5  8,4  - SAsS
   5  6,9  - SAuL
   5  8,4  - SAwS
@@ -19729,6 +19714,7 @@
   5  6,9  - ShOLE
   5  7,4  | ShUN
   5  3,2  - Si
+  5 10,8  | Si
   5  4,3  - SiA
   5  4,5  - SiA
   5  4,7  - SiA
@@ -19884,10 +19870,6 @@
   5  6,11 - aNISE
   5  5,11 - aNOAS
   5  7,4  | aNUS
-  5  4,5  - aSA
-  5  4,7  - aSA
-  5  4,5  - aSE
-  5  4,7  - aSE
   5  7,8  - aSEA
   5  8,11 - aSEA
   5  8,11 - aSIA
@@ -19982,9 +19964,6 @@
   5  8,8  | dA
   5 10,8  | dA
   5  6,4  | dADOS
-  5  4,5  - dAE
-  5  4,7  - dAE
-  5  6,9  - dAIL
   5  4,11 - dAISES
   5  8,4  | dAM
   5  5,11 - dANES
@@ -20006,6 +19985,7 @@
   5  8,4  | dEM
   5  5,11 - dENIS
   5  3,2  - dI
+  5 10,8  | dI
   5  4,5  - dIA
   5  4,7  - dIA
   5  6,9  - dIAL
@@ -20076,6 +20056,7 @@
   5  7,8  - fEES
   5  6,9  - fEIL
   5  8,4  | fEM
+  5 10,8  | fI
   5  6,4  | fIDES
   5  6,4  | fIDOS
   5  4,5  - fIE
@@ -20151,6 +20132,7 @@
   5  6,9  - hEIL
   5  8,4  | hEM
   5  3,2  - hI
+  5 10,8  | hI
   5  4,5  - hIA
   5  4,7  - hIA
   5  6,4  | hIDES
@@ -20261,7 +20243,6 @@
   5  4,7  - lAO
   5  6,8  - lASE
   5  7,4  | lAUN
-  5  8,1  | lCA
   5  4,5  - lEA
   5  4,7  - lEA
   5  6,9  - lEAL
@@ -20275,6 +20256,9 @@
   5  4,7  - lEO
   5  6,8  - lESE
   5  6,11 - lESSN
+  5  3,2  - lI
+  5 10,8  | lI
+  5  8,10 | lI
   5  6,4  | lIDOS
   5  4,5  - lIE
   5  4,7  - lIE
@@ -20316,8 +20300,6 @@
   5  5,11 - mANOS
   5  6,11 - mANSE
   5  6,11 - mANSO
-  5  4,5  - mAO
-  5  4,7  - mAO
   5  7,4  | mAUN
   5  3,2  - mE
   5  8,8  | mE
@@ -20334,6 +20316,7 @@
   5  4,7  - mEO
   5  6,8  - mESE
   5  3,2  - mI
+  5 10,8  | mI
   5  4,5  - mIA
   5  4,7  - mIA
   5  6,8  - mIAE
@@ -20371,7 +20354,6 @@
   5  6,9  - nAIL
   5  8,4  | nAM
   5  5,11 - nANES
-  5  8,1  | nCO
   5  3,2  - nE
   5  8,8  | nE
   5  4,5  - nEA
@@ -20384,6 +20366,8 @@
   5  4,7  - nEO
   5  5,11 - nEONS
   5  6,8  - nESE
+  5  3,2  - nI
+  5 10,8  | nI
   5  6,4  | nIDES
   5  7,8  - nIES
   5  8,4  | nIM
@@ -20410,6 +20394,7 @@
   5  6,5  | oDIN
   5  8,8  | oE
   5 10,1  - oF
+  5 10,8  | oI
   5  7,4  | oNUS
   5 10,1  | oO
   5 10,8  | oO
@@ -20547,6 +20532,7 @@
   5  6,11 - sENSA
   5  6,11 - sENSO
   5  3,2  - sI
+  5 10,8  | sI
   5  4,5  - sIA
   5  4,7  - sIA
   5  6,9  - sIAL
@@ -20595,6 +20581,7 @@
   5  8,4  | tEM
   5  6,11 - tENSO
   5  3,2  - tI
+  5 10,8  | tI
   5  6,4  | tIDES
   5  4,5  - tIE
   5  4,7  - tIE
@@ -20676,8 +20663,6 @@
   5  6,8  - wASE
   5  3,2  - wE
   5  8,8  | wE
-  5  4,5  - wEA
-  5  4,7  - wEA
   5  6,9  - wEAL
   5  5,11 - wEANS
   5  7,8  - wEEI
@@ -20693,13 +20678,12 @@
   5  6,8  - wISE
   5  3,2  - wO
   5 10,8  | wO
-  5  4,5  - wOA
-  5  4,7  - wOA
   5  4,5  - wOE
   5  4,7  - wOE
   5  7,8  - wOES
   5  5,11 - xENOS
   5  3,2  - xI
+  5 10,8  | xI
   5  3,2  - yA
   5  8,8  | yA
   5  8,4  | yAM
@@ -20814,10 +20798,8 @@
   4  6,11 - ANuS
   4  5,8  - AOIfE
   4  7,4  | AOUl
-  4  3,1  | ASA
   4  3,1  | ASAk
   4  3,1  | ASAp
-  4  3,1  | ASE
   4  3,1  | ASEa
   4  3,1  | ASEm
   4  3,1  | ASIa
@@ -20831,10 +20813,6 @@
   4  7,11 - ASSIs
   4  7,11 - ASSOc
   4  7,11 - ASSOt
-  4  4,5  - ASa
-  4  4,7  - ASa
-  4  4,5  - ASe
-  4  4,7  - ASe
   4  5,11 - AShES
   4  5,11 - ASkOS
   4  4,7  - ASp
@@ -20997,15 +20975,9 @@
   4  3,1  | AyES
   4  8,2  | Cc
   4  8,2  | Ch
-  4  8,2  | Cl
   4  8,2  | Cp
-  4  8,2  | Cq
-  4  4,1  | DAE
-  4  6,6  | DAE
   4  4,1  | DAEr
   4  6,6  | DAEr
-  4  4,1  | DAIl
-  4  6,6  | DAIl
   4  4,1  | DAIn
   4  6,6  | DAIn
   4  4,1  | DAIs
@@ -21182,6 +21154,7 @@
   4  6,6  | DItS
   4  6,6  | DIvA
   4  6,6  | DIvE
+  4  6,6  | DIvS
   4  4,1  | DOA
   4  6,6  | DOA
   4  4,1  | DOAb
@@ -21275,9 +21248,7 @@
   4  4,1  | DyN
   4  6,6  | DyN
   4  6,6  | DzOS
-  4  6,4  | EAD
   4  6,4  | EADi
-  4  9,8  - EAN
   4  5,11 - EASeS
   4  5,11 - EAStS
   4  7,4  | EAU
@@ -21445,6 +21416,7 @@
   4  7,4  | IuUS
   4  9,10 - La
   4  9,10 - Lb
+  4  9,10 - Li
   4  9,10 - Ll
   4  9,10 - Lo
   4  9,10 - Lu
@@ -21532,7 +21504,6 @@
   4  7,5  | NUt
   4  5,5  - Na
   4  5,7  - Na
-  4  6,4  | NaD
   4  6,11 - NaIS
   4  6,11 - NaOS
   4  7,11 - NaSA
@@ -21544,6 +21515,8 @@
   4  7,11 - NeSE
   4  6,11 - NeSS
   4  7,11 - NeSS
+  4  5,5  - Ni
+  4  5,7  - Ni
   4  6,11 - NiAS
   4  6,4  | NiD
   4  7,8  - NiES
@@ -22018,7 +21991,6 @@
   4  7,11 - aNSI
   4  7,9  - aOLI
   4  5,3  - aS
-  4  7,8  - aSE
   4  7,11 - aSSN
   4  5,3  - bA
   4  5,5  - bA
@@ -22113,7 +22085,6 @@
   4  6,4  | dADE
   4  6,4  | dADO
   4  6,4  | dADS
-  4  7,8  - dAE
   4  7,9  - dALE
   4  7,9  - dALI
   4  5,3  - dE
@@ -22185,7 +22156,6 @@
   4  7,8  - fAE
   4  8,4  - fANS
   4  6,11 - fANS
-  4  8,1  | fC
   4  5,3  - fE
   4  5,5  - fE
   4  5,7  - fE
@@ -22248,7 +22218,6 @@
   4  7,9  - gILS
   4  8,4  - gINS
   4  6,11 - gINS
-  4  8,5  | gM
   4  7,4  | gNU
   4  5,5  - gO
   4  5,7  - gO
@@ -22385,6 +22354,8 @@
   4  8,8  - lENS
   4  6,11 - lENS
   4  8,8  - lEON
+  4  5,5  - lI
+  4  5,7  - lI
   4  6,4  | lIDA
   4  6,4  | lIDE
   4  6,4  | lIDO
@@ -22424,7 +22395,6 @@
   4  5,5  - mE
   4  5,7  - mE
   4  8,8  - mEAN
-  4  7,8  - mEE
   4  8,8  - mEIN
   4  7,9  - mELA
   4  7,9  - mELS
@@ -22478,6 +22448,8 @@
   4  8,8  - nEIN
   4  8,8  - nENE
   4  8,8  - nEON
+  4  5,5  - nI
+  4  5,7  - nI
   4  6,4  | nIDE
   4  7,9  - nILE
   4  7,9  - nILS
@@ -22778,7 +22750,6 @@
   4  5,7  - yI
   4  8,4  - yINS
   4  6,11 - yINS
-  4  8,5  | yM
   4  5,5  - yO
   4  5,7  - yO
   4  6,4  | yODE
@@ -22801,7 +22772,6 @@
   3  3,1  | AAlS
   3  3,1  | AAnI
   3  6,5  | AD
-  3  6,5  | ADa
   3  6,5  | ADc
   3  6,5  | ADd
   3  6,5  | ADm
@@ -22863,7 +22833,6 @@
   3  3,1  | ANt
   3  3,1  | ANy
   3  3,1  | AOlI
-  3  8,11 - ASE
   3  8,11 - ASEa
   3  8,11 - ASEm
   3  8,11 - ASIa
@@ -22917,7 +22886,6 @@
   3  7,8  - AcES
   3  6,11 - AcES
   3  6,11 - AcIS
-  3  3,1  | AdA
   3  6,4  | AdD
   3  3,1  | AdO
   3  6,11 - AdOS
@@ -22940,6 +22908,7 @@
   3  3,1  | AhS
   3  7,4  | AhU
   3  5,5  - Ai
+  3 10,6  | Ai
   3  5,7  - Ai
   3  6,4  | AiD
   3  7,10 - AiL
@@ -22949,7 +22918,6 @@
   3  3,1  | AkE
   3  7,8  - AkEE
   3  3,1  | AkO
-  3  7,4  | AkU
   3  3,1  | AlA
   3  6,4  | AlD
   3  3,1  | AlE
@@ -22979,7 +22947,6 @@
   3  6,11 - ApES
   3  6,11 - ApIS
   3  7,11 - ApSE
-  3  3,1  | ArA
   3  3,1  | ArE
   3  7,8  - ArES
   3  6,11 - ArES
@@ -22987,8 +22954,6 @@
   3  3,1  | ArS
   3  7,11 - ArSE
   3  7,4  | ArU
-  3  3,1  | AsA
-  3  3,1  | AsE
   3  3,1  | AsS
   3  7,11 - AsSE
   3  7,11 - AsSI
@@ -23031,8 +22996,6 @@
   3  6,6  | DAb
   3  4,1  | DAd
   3  6,6  | DAd
-  3  4,1  | DAe
-  3  6,6  | DAe
   3  4,1  | DAg
   3  6,6  | DAg
   3  4,1  | DAh
@@ -23163,8 +23126,6 @@
   3  6,6  | DSp
   3  4,1  | DSr
   3  6,6  | DSr
-  3  4,1  | DaE
-  3  6,6  | DaE
   3  4,1  | DaO
   3  6,6  | DaO
   3  4,1  | DaS
@@ -23210,9 +23171,7 @@
   3  7,11 - EASe
   3  7,11 - EASt
   3  7,11 - EASy
-  3  7,2  | EAd
   3  7,2  | EAm
-  3  7,2  | EAn
   3  7,2  | EAr
   3  6,11 - EArS
   3  6,8  - EAsE
@@ -23244,7 +23203,6 @@
   3  8,9  - ELs
   3  8,9  - ELt
   3  9,8  - EN
-  3  9,8  - ENc
   3  9,8  - ENd
   3  9,8  - ENg
   3  9,8  - ENs
@@ -23301,9 +23259,6 @@
   3  6,8  - ESsE
   3  7,2  | ESt
   3  7,2  | ESu
-  3  6,4  | EaD
-  3  7,2  | EaN
-  3  9,8  - EaN
   3  7,4  | EaU
   3  7,4  | EcU
   3  7,8  - EdEA
@@ -23389,11 +23344,13 @@
   3  7,8  - ItEA
   3  6,4  | IuD
   3  9,9  - LA
+  3  9,9  - LI
   3  9,9  - LO
   3  9,7  - Na
   3  7,8  - NaE
   3  9,7  - Ne
   3  7,8  - NeE
+  3  9,7  - Ni
   3  9,4  - NiS
   3  7,11 - NiS
   3  9,4  - NoS
@@ -23553,7 +23510,6 @@
   3  9,2  | RiN
   3  9,2  | RoN
   3  9,2  | RuN
-  3  7,11 - SASa
   3  7,11 - SASh
   3  7,11 - SASs
   3  6,8  - SAbE
@@ -23664,7 +23620,6 @@
   3  7,5  | SUz
   3  6,4  | SaD
   3  7,10 - SaL
-  3  7,11 - SaSA
   3  7,4  | SaU
   3  6,11 - SeAS
   3  6,4  | SeD
@@ -23741,7 +23696,6 @@
   3  7,6  | UvA
   3  7,9  - aAL
   3  7,10 - aAL
-  3  6,5  | aDA
   3  6,5  | aDO
   3  6,5  | aDS
   3  8,4  - aIAS
@@ -23871,7 +23825,6 @@
   3  7,5  | dUE
   3  7,5  | dUI
   3  7,5  | dUO
-  3  6,4  | eAD
   3  7,11 - eASE
   3  7,4  | eAU
   3  6,5  | eDO
@@ -24034,7 +23987,6 @@
   3  6,11 - kOSS
   3  7,11 - kOSS
   3  7,4  | kOU
-  3  7,5  | kUA
   3  7,5  | kUE
   3  7,5  | kUI
   3  6,4  | lAD
@@ -24133,7 +24085,6 @@
   3  7,9  - mSL
   3  7,10 - mSL
   3  7,5  | mUS
-  3  6,4  | nAD
   3  8,4  - nAIS
   3  6,11 - nAIS
   3  8,4  - nAOS
@@ -24365,6 +24316,7 @@
   3  8,8  - vESE
   3  8,4  - vIAS
   3  6,11 - vIAS
+  3  6,4  | vID
   3  8,4  - vIES
   3  6,11 - vIES
   3  7,9  - vIL
@@ -24393,7 +24345,6 @@
   3  8,4  - wISS
   3  6,11 - wISS
   3  7,11 - wISS
-  3  6,4  | wOD
   3  8,4  - wOES
   3  6,11 - wOES
   3  7,5  | wUS
@@ -24413,8 +24364,6 @@
   3  6,4  | zAD
   3  6,4  | zED
   3  8,8  - zEES
-  3  7,9  - zEL
-  3  7,10 - zEL
   3  8,8  - zEN
   3  6,4  | zOD
   2  3,1  | AA
@@ -24441,14 +24390,8 @@
   2  3,1  | AS
   2 10,4  - AS
   2  8,11 - AS
-  2  3,1  | ASa
-  2  8,11 - ASa
   2  3,1  | ASb
   2  8,11 - ASb
-  2  3,1  | ASe
-  2  8,11 - ASe
-  2  3,1  | ASg
-  2  8,11 - ASg
   2  3,1  | ASh
   2  8,11 - ASh
   2  3,1  | ASk
@@ -24484,7 +24427,6 @@
   2  7,8  - ArE
   2  9,4  - ArS
   2  7,11 - ArS
-  2  7,8  - AsE
   2  9,4  - AsS
   2  7,11 - AsS
   2  7,8  - AtE
@@ -24508,9 +24450,7 @@
   2  6,6  | Dp
   2  4,1  | Du
   2  6,6  | Du
-  2  9,8  - EAd
   2  9,8  - EAm
-  2  9,8  - EAn
   2  9,8  - EAr
   2  9,8  - EAt
   2  9,8  - EAu
@@ -24640,8 +24580,6 @@
   2  7,11 - InS
   2  9,4  - IpS
   2  7,11 - IpS
-  2  9,4  - IqS
-  2  7,11 - IqS
   2  7,8  - IrE
   2  9,4  - IrS
   2  7,11 - IrS
@@ -24651,6 +24589,7 @@
   2  7,8  - IvE
   2  9,9  - La
   2  9,9  - Lb
+  2  9,9  - Li
   2  9,9  - Ll
   2  9,9  - Lo
   2  9,9  - Lu
@@ -24658,7 +24597,6 @@
   2  8,11 - OS
   2  8,11 - OSc
   2  8,11 - OSe
-  2 10,2  | Ob
   2  7,8  - ObE
   2  9,4  - ObS
   2  7,11 - ObS
@@ -24677,6 +24615,7 @@
   2 10,2  | Om
   2  9,4  - OmS
   2  7,11 - OmS
+  2 10,2  | On
   2  7,8  - OnE
   2  9,4  - OnS
   2  7,11 - OnS
@@ -24735,7 +24674,6 @@
   2  9,11 - SAn
   2  9,11 - SAo
   2  9,11 - SAp
-  2  9,11 - SAr
   2  9,11 - SAt
   2  9,11 - SAu
   2  9,11 - SAv
@@ -24831,8 +24769,6 @@
   2  7,11 - aIS
   2  8,9  - aL
   2  8,10 - aL
-  2  8,11 - aSA
-  2  8,11 - aSE
   2  9,4  - aSS
   2  7,11 - aSS
   2  8,11 - aSS
@@ -24842,7 +24778,6 @@
   2 10,5  - bE
   2  8,8  - bEA
   2  8,8  - bEE
-  2 10,3  - bI
   2  9,4  - bIS
   2  7,11 - bIS
   2  9,4  - bOS
@@ -24851,8 +24786,6 @@
   2  8,8  - cEE
   2  9,4  - cIS
   2  7,11 - cIS
-  2  8,9  - cL
-  2  8,10 - cL
   2  9,4  - cOS
   2  7,11 - cOS
   2  8,11 - cSI
@@ -24935,7 +24868,6 @@
   2  7,11 - mAS
   2 10,5  - mE
   2  8,8  - mEA
-  2  8,8  - mEE
   2  8,8  - mEO
   2  9,4  - mES
   2  8,8  - mES
@@ -24955,6 +24887,7 @@
   2  8,8  - nEE
   2  8,8  - nEI
   2  8,8  - nEO
+  2 10,3  - nI
   2  9,4  - nIS
   2  7,11 - nIS
   2  9,4  - nOS
@@ -25029,12 +24962,8 @@
   2  8,11 - vSS
   2  9,4  - wAS
   2  7,11 - wAS
-  2  8,8  - wEA
   2  8,8  - wEE
   2  8,8  - wEI
-  2  9,4  - wES
-  2  8,8  - wES
-  2  7,11 - wES
   2  9,4  - wIS
   2  7,11 - wIS
   2  9,4  - wOS
@@ -25102,7 +25031,6 @@
   1  7,2  | Ex
   1  9,8  - Ex
   1  9,2  | Re
-  1  9,2  | Rf
   1  9,11 - Sh
   1  9,11 - Si
   1  9,11 - So

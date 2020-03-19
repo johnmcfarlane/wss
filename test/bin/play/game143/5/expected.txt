@@ -33,6 +33,7 @@
  30  1,9  - BANI
  30  1,3  - BNF
  30  1,9  - BONI
+ 30  3,6  | EBON
  30  1,3  - LBF
  30  1,9  - OBLI
  29  2,1  | ABO
@@ -49,15 +50,18 @@
  27  2,10 - BON
  27  2,10 - DANARO
  26  1,10 - ADON
+ 26  1,10 - ALAN
+ 26  1,10 - ANAN
+ 26  1,10 - ANON
  26  5,6  | CLAD
  26  5,6  | CLOD
+ 26  1,10 - ONAN
  25  1,10 - AB
  25  2,2  | BO
  25  2,2  | DOA
  25  2,10 - DONAR
  25  2,2  | LOA
  25  2,2  | NOA
- 25  1,10 - OB
  24  1,8  | ADAM
  24  1,8  | ANAM
  24  1,9  - ANDI
@@ -87,7 +91,7 @@
  22  5,8  | ALOE
  22  1,2  - BLOND
  22  2,4  | BLVD
- 22  2,1  | OB
+ 22  3,6  | ENOL
  22  6,10 - RABAND
  22  6,10 - ROBAND
  21  1,9  - AANI
@@ -106,7 +110,6 @@
  20  3,8  | AB
  20  1,2  - BLOOD
  20  5,4  | BOC
- 20  3,8  | OB
  19  7,7  | DAL
  19  7,7  | DAN
  19  2,10 - DAN
@@ -115,11 +118,12 @@
  19  2,10 - DON
  19  7,7  | LAD
  19  7,7  | LAN
+ 19  2,10 - LAN
  19  7,7  | LOD
- 19  7,7  | NAD
+ 19  2,10 - NAN
  19  7,7  | NOD
  19  7,7  | NOL
- 19  2,3  | OB
+ 19  2,10 - NON
  18  1,9  | AAM
  18  1,2  - ABOON
  18  3,8  | ADAD
@@ -129,11 +133,13 @@
  18  1,9  - ALAI
  18  5,2  | ALB
  18  5,1  | ALBA
+ 18  3,8  | ALOD
  18  5,1  | ANBA
  18  2,2  - BOLD
  18  2,2  - BOND
  18  5,1  | DOAB
  18  2,2  - DOBL
+ 18  3,6  | EOAN
  18  1,9  - NAOI
  18  2,4  | NAVAL
  18  1,3  - OAF
@@ -143,7 +149,9 @@
  18  6,10 - RONALD
  17  7,7  | AAL
  17  1,10 - AD
+ 17  1,10 - AL
  17  2,4  | ALVAN
+ 17  1,10 - AN
  17  1,1  - BASAD
  17  1,1  - BASAL
  17  1,1  - BASAN
@@ -160,6 +168,7 @@
  17  2,2  | NO
  17  5,2  | NOB
  17  1,10 - OD
+ 17  1,10 - ON
  17  3,1  | SOFANE
  17  6,8  - YABA
  16  5,2  | ABA
@@ -191,7 +200,6 @@
  16  2,2  - BOON
  16  1,1  - BOSN
  16  5,6  | CLO
- 16  5,9  | DAE
  16  2,2  - DOAB
  16  5,9  | DOE
  16  2,4  | LAVA
@@ -220,10 +228,12 @@
  15  3,9  | DAD
  15  7,7  | DAO
  15  3,9  | DOD
+ 15  3,9  | LAD
  15  7,7  | LAO
  15  2,4  | LAV
+ 15  3,9  | LOD
+ 15  3,9  | NOD
  15  2,4  | NOV
- 15  5,3  | OB
  15  2,3  | OD
  15  2,3  | ON
  14  2,1  | AD
@@ -250,7 +260,6 @@
  14  5,1  | DOLA
  14  5,1  | DONA
  14  6,9  - EBON
- 14  4,7  - ELAND
  14  2,4  - LAMBDA
  14  5,1  | LANA
  14  3,9  - LINED
@@ -283,13 +292,14 @@
  12  6,7  - ABAND
  12  1,2  - ABO
  12  3,8  | AD
- 12  5,2  | ADA
  12  1,2  - ADON
  12  3,9  - AILED
+ 12  3,8  | AL
  12  5,2  | ALA
  12  1,2  - ALOD
  12  3,4  - AMBAN
  12  3,4  - AMBON
+ 12  3,8  | AN
  12  5,2  | ANA
  12  2,8  | ANDI
  12  5,1  | ANOA
@@ -310,7 +320,6 @@
  12  2,8  | DONI
  12  1,2  - DOOL
  12  2,2  - DOOL
- 12  4,7  - ELAN
  12  6,9  - ELAND
  12  2,4  - LAMBA
  12  2,4  - LAMDAN
@@ -323,13 +332,13 @@
  12  2,2  - LOON
  12  2,8  | NODI
  12  2,2  - NOLO
- 12  4,1  | OB
  12  2,9  | OBI
  12  3,8  | OD
  12  5,2  | ODA
  12  3,2  - ODAL
  12  3,9  - OILED
  12  5,2  | OLA
+ 12  3,8  | ON
  12  5,2  | ONA
  12  4,8  - RAYAN
  12  4,8  - RAYON
@@ -373,7 +382,6 @@
  10  2,8  | AOLI
  10  2,10 | BI
  10  2,2  - BO
- 10  5,6  | CL
  10  7,7  | DA
  10  2,4  - DAMAN
  10  2,4  - DAMON
@@ -383,7 +391,6 @@
  10  2,2  - DOL
  10  2,2  - DON
  10  3,6  | ED
- 10  4,7  - ELA
  10  6,9  - ELAN
  10  6,9  - ELOD
  10  6,9  - ELON
@@ -561,8 +568,10 @@
   6  3,6  | EO
   6  4,9  - IDE
   6  4,9  - ILE
+  6  2,10 | LI
   6  2,2  - LO
   6  4,10 - NAR
+  6  2,10 | NI
   6  2,2  - NO
   6  4,10 - NOR
   6  3,2  - OBA
@@ -600,16 +609,15 @@
   5  6,7  - AND
   5  3,9  - DI
   5  2,8  - DLR
-  5  6,9  - EAD
-  5  6,9  - EAN
   5  6,9  - ED
   5  6,9  - EL
   5  6,9  - EN
   5  6,9  - EON
   5  2,9  - LAI
+  5  3,9  - LI
   5  2,8  - LNR
   5  2,1  - LSD
-  5  3,2  - OB
+  5  3,9  - NI
   5  2,3  - OF
   5  3,2  - OLD
   5  1,10 | OM
@@ -630,7 +638,6 @@
   5  3,1  - SODA
   5  3,1  - SOLA
   4  6,7  - AAL
-  4  6,7  - ADA
   4  6,7  - ADO
   4  2,10 | AI
   4  6,7  - ALA
@@ -667,7 +674,6 @@
   3  6,7  - AL
   3  6,7  - AN
   3  2,8  - AOR
-  3  2,1  - ASA
   3  6,9  - EO
   3  2,8  - OAR
   3  3,2  - OD

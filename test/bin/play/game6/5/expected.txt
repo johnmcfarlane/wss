@@ -5,9 +5,6 @@
  45 11,1  | LyE
  45 11,1  | NyE
  39 11,1  | RyEN
- 36 11,1  | EyL
- 36 11,1  | EyN
- 33 11,1  | EyR
  33  1,3  - RaNINA
  33 11,1  | RyE
  33  1,3  - sELINA
@@ -143,7 +140,6 @@
  13  8,6  | ViLER
  13  8,6  | ViNER
  13  8,6  | VuLN
- 13  5,2  | cL
  13  2,5  - eNLEEN
  13  1,4  - fENNIG
  13  5,2  | oN
@@ -174,6 +170,7 @@
  12  7,5  | NEmINE
  12  7,5  | NErINE
  12  7,5  | NEuRINE
+ 12 10,4  | NI
  12  5,3  | Na
  12  2,4  - RELIG
  12  7,5  | RELINE
@@ -338,7 +335,6 @@
  11  8,6  | VoILE
  11  8,6  | VoL
  11  8,6  | VoN
- 11  2,5  - aILEEN
  11  1,5  - aLIENER
  11  2,5  - aLINER
  11  1,4  - aRLENG
@@ -422,6 +418,7 @@
  10  3,4  - NING
  10  1,5  - NINgLE
  10 10,4  | Na
+ 10 10,4  | Ni
  10 10,4  | No
  10 10,4  | Nu
  10  1,5  - RELINE
@@ -472,7 +469,6 @@
  10  1,4  - cERING
  10  3,4  - cLEG
  10  2,4  - cLING
- 10  7,5  | dELINE
  10  2,5  - dINNER
  10 10,4  | eL
  10  7,5  | fELINE
@@ -719,7 +715,6 @@
   9  2,4  - bRING
   9  2,5  - cEILER
   9  1,5  - cINENE
-  9  1,5  - dELINE
   9  2,5  - dENIER
   9  2,5  - dIENER
   9  2,4  - dRENG
@@ -884,7 +879,6 @@
   8  1,5  - LaRINE
   8  4,5  - LiEN
   8  1,5  - LiERNE
-  8  9,1  - MEE
   8  9,1  - MER
   8  7,5  | NEER
   8  7,5  | NELl
@@ -956,6 +950,7 @@
   8  8,6  | ViE
   8  8,6  | ViI
   8  8,6  | VoE
+  8 10,4  | aI
   8  4,5  - aLEN
   8  1,5  - aLIENE
   8  2,5  - aLINE
@@ -985,6 +980,7 @@
   8  3,5  - gREEN
   8  3,4  - hENG
   8  7,5  | hEREIN
+  8 10,4  | hI
   8  3,4  - hING
   8  3,5  - hIREN
   8  3,5  - iNNER
@@ -999,10 +995,12 @@
   8  7,5  | mEREL
   8  7,5  | mERIL
   8  3,4  - mING
+  8 10,4  | nI
   8  3,4  - nING
   8  1,5  - oLEINE
   8  3,4  - pENG
   8  2,3  - pERLA
+  8 10,4  | pI
   8  3,4  - pING
   8  3,5  - pREEN
   8  2,3  - pRELA
@@ -1016,6 +1014,7 @@
   8  7,5  | sEIREN
   8  7,5  | sEREIN
   8  7,5  | sERIN
+  8 10,4  | sI
   8  2,3  - sIENA
   8  3,4  - sING
   8  3,5  - sIREN
@@ -1023,6 +1022,7 @@
   8  3,4  - tENG
   8  7,5  | tENNE
   8  2,3  - tERNA
+  8 10,4  | tI
   8  3,4  - tING
   8  3,5  - tREEN
   8  2,3  - tRINA
@@ -1030,9 +1030,8 @@
   8  2,3  - uRENA
   8  1,5  - vENIRE
   8  7,5  | wEINER
-  8  3,5  - wEREN
-  8  7,5  | wEREN
   8  3,4  - wING
+  8 10,4  | xI
   8  3,4  - zING
   7  7,6  | EELIeR
   7  5,5  - EEN
@@ -1070,7 +1069,6 @@
   7  7,6  | ENRIvE
   7  7,6  | ENRaIL
   7  7,6  | ENRuIN
-  7  7,6  | ENcL
   7  1,5  - ENfILE
   7  7,6  | ENfIN
   7  7,6  | ENfIRE
@@ -1085,6 +1083,7 @@
   7  7,6  | ENtIRE
   7  2,5  - ENtRE
   7  2,5  - ENuRE
+  7  2,5  - ENvIE
   7  7,6  | ENvIER
   7  1,5  - ENvINE
   7  7,6  | ENvIRE
@@ -1333,7 +1332,6 @@
   7  3,2  - bLIP
   7  4,5  - bREN
   7  3,4  - bRIG
-  7  2,3  - cELIA
   7  1,5  - cERINE
   7  3,2  - cLEP
   7  3,2  - cLIP
@@ -1451,6 +1449,7 @@
   6  1,5  - ENtIRE
   6  7,6  | ENtRE
   6  7,6  | ENuRE
+  6  7,6  | ENvIE
   6  1,5  - ENvIRE
   6  3,3  - ERIA
   6  3,5  - ERNE
@@ -1694,6 +1693,7 @@
   6  8,6  | VEx
   6  8,6  | VIa
   6  8,6  | VIc
+  6  8,6  | VId
   6  8,6  | VIe
   6  8,6  | VIi
   6  8,6  | VIl
@@ -1728,9 +1728,7 @@
   6  2,5  - bELIE
   6  5,5  - bEN
   6  3,3  - bENA
-  6  2,5  - bERNE
   6  2,5  - bIRLE
-  6  2,5  - bIRNE
   6  4,5  - bLEE
   6  2,5  - bRINE
   6  2,5  - cEILE
@@ -1954,7 +1952,6 @@
   5  9,5  - LNR
   5  9,1  - MEa
   5  9,1  - MEd
-  5  9,1  - MEe
   5  9,1  - MEg
   5  9,1  - MEh
   5  9,1  - MEl
@@ -2008,7 +2005,6 @@
   5  2,5  - RaNEE
   5  4,2  - RaP
   5  4,2  - ReP
-  5  5,1  | Rf
   5  3,3  - RhEA
   5  2,5  - RhINE
   5  3,5  - RiLE
@@ -2412,7 +2408,6 @@
   4  3,5  - lILE
   4  3,5  - lINE
   4  3,3  - lIRA
-  4  5,5  - mEE
   4  7,5  | mEER
   4  4,4  - mEG
   4  7,5  | mEL
@@ -2494,7 +2489,6 @@
   4  7,5  | wEIR
   4  7,5  | wEN
   4  3,5  - wENE
-  4  5,5  - wER
   4  7,5  | wERE
   4  7,5  | wERI
   4  4,4  - wIG
@@ -2525,7 +2519,6 @@
   3  7,6  | ELs
   3  7,6  | ELt
   3  7,6  | EN
-  3  7,6  | ENc
   3  7,6  | ENd
   3  7,6  | ENg
   3  7,6  | ENs
@@ -2538,7 +2531,6 @@
   3  7,6  | ERIk
   3  7,6  | ERIn
   3  7,6  | ERIs
-  3  7,6  | EaN
   3  7,6  | EeL
   3  7,6  | EeN
   3  7,6  | ElL
@@ -2562,6 +2554,7 @@
   3  9,5  - LEv
   3  9,5  - LEx
   3  9,5  - LEy
+  3  9,5  - LI
   3  9,5  - LIb
   3  9,5  - LId
   3  9,5  - LIe
@@ -2578,7 +2571,6 @@
   3  9,5  - LIz
   3  9,5  - LaI
   3  9,5  - LaR
-  3  4,3  - LcA
   3  4,3  - LeA
   3  4,5  - LeE
   3  9,5  - LeE
@@ -2623,7 +2615,6 @@
   3  3,5  - aIRE
   3  4,5  - aLE
   3  4,5  - aNE
-  3  4,3  - aRA
   3  4,3  - bEA
   3  3,5  - bERE
   3  4,3  - bRA
@@ -2673,7 +2664,6 @@
   3  3,5  - lERE
   3  3,5  - lIRE
   3  4,3  - mEA
-  3  7,5  | mEE
   3  7,5  | mER
   3  3,5  - mERE
   3  4,3  - mIA
@@ -2712,10 +2702,8 @@
   3  4,3  - uRA
   3  4,3  - vIA
   3  3,5  - vIRE
-  3  4,3  - wEA
   3  7,5  | wEE
   3  7,5  | wEI
-  3  7,5  | wER
   3  3,5  - wERE
   3  3,5  - wIRE
   3  4,3  - yEA
@@ -2781,7 +2769,6 @@
   2  4,5  - IkE
   2  4,3  - IlA
   2  4,5  - IlE
-  2  4,3  - ImA
   2  4,3  - IrA
   2  4,5  - IrE
   2  4,5  - IsE
@@ -2791,6 +2778,7 @@
   2  4,3  - IwA
   2  9,5  - La
   2  9,5  - Lb
+  2  9,5  - Li
   2  9,5  - Ll
   2  9,5  - Lo
   2  9,5  - Lu
@@ -2833,7 +2821,6 @@
   2  4,5  - lEE
   2  4,5  - lIE
   2  7,5  | mE
-  2  4,5  - mEE
   2  7,5  | nE
   2  4,5  - nEE
   2  7,5  | oE

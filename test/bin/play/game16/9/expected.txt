@@ -1,4 +1,6 @@
  56  2,11 - SHOQ
+ 53  1,8  | LITH
+ 53  1,8  | LOTH
  53  1,8  | QI
  49  1,8  | SITH
  49  1,8  | SOTH
@@ -6,8 +8,6 @@
  47  2,1  | QH
  44  1,11 - HSI
  42  1,1  | LITHOS
- 40  7,7  - QIS
- 40  7,7  - QTS
  40  1,8  | SIOL
  39  1,8  | HITS
  39  1,8  | HOTI
@@ -16,13 +16,14 @@
  36  1,1  | THIOLS
  35  1,11 - ISLOT
  35  1,11 - ISTH
+ 35  1,8  | LITS
+ 35  1,8  | LOTS
  35  1,11 - LST
  35  2,11 - SLOTH
  35  1,11 - TSHI
  34  1,9  | IHS
  34  1,9  | OHS
  32  1,11 - ISH
- 31  7,7  - QH
  30  1,8  | HIT
  30  7,1  | HOLE
  30  1,8  | HOT
@@ -33,6 +34,7 @@
  29  7,3  | LETCH
  29  2,11 - SHIT
  29  2,11 - SHOT
+ 29  3,8  | SITH
  29  2,11 - SITH
  29  3,8  | SOTH
  29  2,11 - SOTH
@@ -42,22 +44,29 @@
  27  1,2  | HILTS
  27  1,2  | HOLTS
  27  1,2  | LITHO
+ 27  3,8  | OILS
  27  7,2  | OLE
- 27  7,7  - QI
+ 27  3,8  | SILO
+ 27  3,8  | SILT
  27  3,8  | SOLI
+ 27  3,8  | TILS
  26  7,7  - HIS
  26  7,1  | HOSE
  26  7,1  | HOTE
  26  7,7  - HTS
+ 26  3,9  | IHS
  26  1,11 - IST
  26  1,9  | ITS
+ 26  1,8  | LIT
  26  2,2  - LOQ
+ 26  1,8  | LOT
  26  3,9  | OHS
  26  2,11 - SHI
  26  2,11 - SHO
  26  2,11 - SHT
  26  2,11 - SILO
  26  2,11 - SILT
+ 26  3,8  | SIOL
  26  2,11 - SIOL
  26  2,11 - SLIT
  26  2,11 - SLOT
@@ -72,7 +81,7 @@
  24  1,2  | HOIST
  24  1,3  | HOLS
  24  1,3  | HOLT
- 24  7,7  - LIS
+ 24  3,9  | ISH
  24  2,1  | SHI
  23  7,2  | OSE
  23  2,11 - SH
@@ -88,7 +97,10 @@
  21  1,3  | HOST
  21  1,3  | HOTS
  21  1,9  - INTL
+ 21  3,9  | ISL
  21  1,2  | ISLOT
+ 21  1,8  | LI
+ 21  1,8  | LO
  21  1,3  | SHIT
  21  1,3  | SHOT
  21  1,3  | THIO
@@ -109,6 +121,8 @@
  18  1,3  | ILOT
  18  1,9  - INST
  18  1,9  - INTO
+ 18  3,9  | IST
+ 18  3,9  | ITS
  18  1,3  | LIST
  18  1,3  | LITS
  18  1,3  | LOIS
@@ -153,10 +167,8 @@
  15  1,3  - HIT
  15  7,1  | HO
  15  1,3  - HOT
- 15  1,9  - INO
  15  1,9  - INS
  15  1,9  - INT
- 15  1,4  | IQS
  15  1,11 - IS
  15  1,8  - LITHOS
  15  8,5  | OATHS
@@ -169,24 +181,26 @@
  15  1,4  | QTS
  15  2,1  - SHOQ
  15  1,3  - SHT
- 14  7,6  | CQ
  14  2,10 - EOITH
  14  2,10 - ESTOIL
  14  2,10 - ETHOS
  14  8,5  | HALOS
  14  8,5  | HALTS
  14  1,2  - HOOL
- 14  2,8  - IQS
+ 14  2,2  | LI
  14  1,8  - LITHI
  14  1,8  - LITHO
  14  7,1  | LO
  14  8,5  | OATH
  14  3,10 | OH
+ 14  3,8  | OIL
  14 10,6  | ROSHI
  14  3,10 | SH
+ 14  3,8  | SIL
  14  3,8  | SOL
  14  8,5  | TASH
  14  3,10 | TH
+ 14  3,8  | TIL
  14  3,8  | TOL
  13  8,6  | ASHOT
  13  7,6  | CHOLI
@@ -221,6 +235,7 @@
  12  8,5  | HATS
  12  2,2  - HOL
  12  1,2  - HOOT
+ 12  3,10 | LI
  12  1,3  - LIT
  12  3,10 | LO
  12  1,3  - LOT
@@ -236,6 +251,7 @@
  12  1,2  - SHOO
  12  1,2  - SHOT
  12  2,1  | SI
+ 12  3,8  | SIT
  12  1,8  - SITH
  12  1,3  - SLT
  12  2,1  | SO
@@ -248,6 +264,7 @@
  12  1,2  - THOO
  12  1,2  - THOS
  12  2,1  | TI
+ 12  3,8  | TIS
  12  2,1  | TO
  12  3,8  | TOS
  11  8,6  | ALIOTH
@@ -309,7 +326,6 @@
   9  8,6  | AILS
   9  8,6  | AOLI
   9  8,6  | ATLI
-  9  7,6  | CLIO
   9  7,6  | CLIT
   9  7,6  | CLOS
   9  7,6  | CLOT
@@ -323,17 +339,23 @@
   9  1,8  - HILT
   9  2,8  - ILTH
   9  1,9  - IN
+  9  3,9  | IO
+  9  3,9  | IS
   9  1,3  - IST
+  9  3,9  | IT
   9  2,9  - NILOT
   9  2,9  - NOIL
+  9  3,8  | OI
   9  1,9  - ON
   9  3,9  | OS
   9  1,1  - SHH
+  9  3,8  | SI
   9  1,8  - SIOL
   9  1,3  - SIT
   9  3,8  | SO
   9  1,3  - SOT
   9  8,5  | TALI
+  9  3,8  | TI
   9  1,3  - TIT
   9  3,8  | TO
   9  1,3  - TOT
@@ -454,7 +476,6 @@
   6  8,6  | ATIS
   6  7,6  | CIS
   6  7,6  | CIT
-  6  7,6  | CL
   6  7,6  | COS
   6  7,6  | COT
   6  7,6  | CSI
@@ -579,6 +600,7 @@
   4  1,10 - LET
   4  1,8  - LIS
   4  1,8  - LIT
+  4  2,9  - NI
   4  2,9  - NO
   4  2,1  - OH
   4  3,2  - OH
@@ -605,6 +627,7 @@
   3  8,6  | AL
   3  2,10 - EL
   3  2,10 - EST
+  3  1,8  - LI
   3  8,3  - LO
   3  1,10 - OES
   3  1,6  - OOS

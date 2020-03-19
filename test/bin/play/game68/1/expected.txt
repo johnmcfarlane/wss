@@ -53,17 +53,16 @@
  22  5,5  | KARYON
  22  3,3  - KAYAN
  22  5,3  - KAYAN
- 22  7,1  | KLN
  22  5,5  | KNARL
  22  3,3  - KOYAN
  22  5,5  | KOYAN
- 22  7,1  | RLY
  22  3,3  - YAKAN
  22  5,3  - YAKAN
  22  2,6  - YARKE
  21  5,5  | KALON
  21  4,3  - KYANOL
  21  5,5  | KYLO
+ 21  5,5  | LANKY
  21  7,6  | LANKY
  21  5,6  | RANKLY
  21  7,6  | RANKLY
@@ -80,8 +79,10 @@
  20  5,5  | KYAR
  20  5,5  | KYL
  20  5,3  - LANKY
+ 20  5,5  | LARKY
  20  7,6  | LARKY
  20  2,6  - LAYNER
+ 20  5,5  | NARKY
  20  5,6  | NARKY
  20  7,6  | NARKY
  20  5,6  - NEARLY
@@ -172,6 +173,7 @@
  16  3,3  - KONA
  16  5,5  | KORA
  16  3,3  - KRNA
+ 16  5,5  | LAKY
  16  5,6  - LENORA
  16  5,5  - LINKY
  16  2,6  - LOANER
@@ -194,8 +196,11 @@
  15  3,5  - KORIN
  15  5,5  | KRA
  15  5,3  - LAK
+ 15  5,5  | LANK
  15  4,4  - LAVY
  15  4,2  - LOCKY
+ 15  5,5  | LONK
+ 15  5,5  | LYON
  15  5,3  - NAK
  15  4,4  - NAVY
  15  5,6  | OAKY
@@ -228,13 +233,21 @@
  14  5,4  - KVAR
  14  4,3  - KYAR
  14  5,3  - LANK
+ 14  5,5  | LARK
+ 14  5,5  | LARON
+ 14  5,5  | LOKA
+ 14  5,5  | LORAN
+ 14  5,5  | LYN
+ 14  5,5  | LYRA
+ 14  5,5  | NAKO
+ 14  5,5  | NARK
  14  3,3  - NAYAR
  14  5,3  - NAYAR
+ 14  5,5  | NORK
  14  7,5  | NORK
  14  2,3  - NYALA
  14  4,3  - NYALA
  14  5,5  | OAKY
- 14  7,1  | OLA
  14  3,5  - RAKILY
  14  3,3  - RAYAN
  14  5,3  - RAYAN
@@ -262,13 +275,15 @@
  13  4,3  - KOALA
  13  3,5  - KORI
  13  2,3  - KRONA
- 13  7,2  | LA
+ 13  5,5  | LAK
  13  3,5  - LAKIN
  13  7,6  | LOKA
  13  7,6  | LORY
+ 13  5,5  | LOYN
  13  7,6  | LOYN
  13  3,6  - LYKEN
  13  7,6  | LYON
+ 13  5,5  | NAK
  13  5,6  | NAKO
  13  7,6  | NAKO
  13  5,6  | NARY
@@ -326,8 +341,10 @@
  12  5,6  - LEAKY
  12  4,2  - LOCK
  12  3,3  - LORAN
+ 12  5,5  | LORY
  12  3,5  - NAKIR
  12  5,3  - NARK
+ 12  5,5  | NARY
  12  4,2  - NOCK
  12  4,4  - NOV
  12  4,3  - OKA
@@ -373,18 +390,26 @@
  11  3,6  - KOREAN
  11  3,6  - KYLE
  11  7,6  | LAK
+ 11  5,5  | LARN
  11  7,6  | LARN
  11  7,6  | LARON
  11  5,3  - LAY
+ 11  5,5  | LAY
+ 11  5,5  | LNR
+ 11  5,5  | LOAN
  11  7,6  | LOAN
  11  3,5  - LOKI
  11  7,6  | LORAN
+ 11  5,5  | LORN
  11  7,6  | LORN
+ 11  5,5  | LOY
  11  7,6  | LYRA
  11  4,2  - NACRY
  11  5,6  | NAK
  11  7,6  | NAK
  11  5,3  - NAY
+ 11  5,5  | NAY
+ 11  5,5  | NOY
  11  7,5  | NOY
  11  5,5  | OAK
  11  5,6  | OARY
@@ -452,15 +477,19 @@
  10  4,5  - KRINA
  10  4,2  - LACY
  10  3,6  - LAKER
+ 10  5,5  | LAN
  10  3,3  - LANA
  10  5,3  - LANA
  10  5,5  - LINK
+ 10  5,5  | LORA
  10  7,6  | LYN
  10  3,3  - LYRA
  10  3,6  - NAKER
  10  5,3  - NARY
  10  5,6  - NERKA
+ 10  5,5  | NOL
  10  7,5  | NOL
+ 10  5,5  | NORA
  10  7,5  | NORA
  10  3,6  - OAKEN
  10  5,5  | OARY
@@ -489,7 +518,6 @@
   9  5,2  - ACRON
   9  4,5  - AKIN
   9  5,6  | AKO
-  9  7,1  | AL
   9  4,2  - ALCOR
   9  4,2  - ANCOR
   9  2,5  - ANOLI
@@ -524,25 +552,32 @@
   9  3,6  - LAKE
   9  5,3  - LAN
   9  3,6  - LANEY
+  9  5,5  | LAO
+  9  5,5  | LAR
   9  3,5  - LARIN
   9  5,3  - LARN
   9  7,6  | LAY
   9  5,6  - LEAK
   9  5,6  - LEANY
+  9  5,5  | LOA
   9  4,3  - LOAN
   9  4,2  - LOCN
   9  3,6  - LOKE
+  9  5,5  | LOR
   9  7,6  | LORA
   9  7,6  | LOY
   9  4,2  - LYC
   9  4,5  - NAIK
   9  4,5  - NAILY
   9  3,6  - NAKE
+  9  5,5  | NAR
   9  3,2  - NARCO
   9  5,6  | NAY
   9  7,6  | NAY
+  9  5,5  | NOA
   9  7,5  | NOA
   9  4,5  - NOILY
+  9  5,5  | NOR
   9  7,5  | NOR
   9  5,6  | NORA
   9  7,6  | NORA
@@ -623,6 +658,7 @@
   8  3,6  - KOAE
   8  3,6  - KORE
   8  4,3  - KRA
+  8  5,5  | LA
   8  4,5  - LAIRY
   8  7,6  | LAN
   8  3,6  - LAYER
@@ -630,11 +666,14 @@
   8  5,6  - LEK
   8  5,5  - LINY
   8  7,6  | LNR
+  8  5,5  | LO
   8  4,2  - LOCA
   8  3,3  - LORA
+  8  5,5  | NA
   8  4,5  - NAIRY
   8  3,2  - NARC
   8  5,6  - NEK
+  8  5,5  | NO
   8  7,5  | NO
   8  5,6  | NOL
   8  7,6  | NOL
@@ -713,7 +752,6 @@
   7  5,3  - LAR
   7  7,6  | LAR
   7  3,5  - LARI
-  7  5,2  - LCA
   7  5,6  - LEARN
   7  7,6  | LOA
   7  4,2  - LOC
@@ -727,7 +765,6 @@
   7  5,3  - NAR
   7  5,6  | NAR
   7  7,6  | NAR
-  7  5,2  - NCO
   7  5,6  - NERAL
   7  5,6  - NEROL
   7  5,6  | NOA
@@ -783,7 +820,6 @@
   6  5,6  | AY
   6  3,6  - AYRE
   6  6,2  - CAR
-  6  6,2  - CL
   6  6,2  - COR
   6  6,2  - CRO
   6  6,6  - ELAN
@@ -925,16 +961,12 @@
   4  4,5  - ANI
   4  6,3  - AOR
   4  5,6  | AR
-  4  4,3  - ARA
-  4  6,3  - ARA
   4  6,3  - ARO
-  4  6,6  - EAN
   4  6,6  - ELA
   4  6,6  - EON
   4  6,6  - ERN
   4  6,5  - IAN
   4  6,5  - ILA
-  4  6,5  - INO
   4  6,5  - ION
   4  4,5  - LAI
   4  5,6  - LEA
@@ -972,7 +1004,9 @@
   3  6,5  - IAO
   3  6,5  - IN
   3  6,5  - IRA
+  3  5,5  - LI
   3  5,6  - NE
+  3  5,5  - NI
   3  5,6  - OER
   3  4,6  - ORE
   3  5,6  - REA

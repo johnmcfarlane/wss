@@ -2,6 +2,7 @@
 105  1,1  - JAGA
 102  1,1  - JAG
  99  1,1  - JAD
+ 70  1,1  | JOON
  69  1,1  - GANJA
  68  2,10 - GANJA
  68  2,10 - JAGLA
@@ -113,7 +114,6 @@
  28  4,5  | LOAD
  28  4,5  | LOAN
  28  4,6  | LOD
- 28  4,6  | NAD
  28  2,10 - NAJA
  28  1,4  - NIOG
  28  4,6  | NOD
@@ -124,13 +124,11 @@
  27  1,9  - DARGO
  27  4,2  | GANJA
  27  5,6  | JOAN
- 27  9,2  | KOJANG
  27  1,1  - LAD
  27  1,1  - LAN
  27  1,9  - LARGO
  27  1,9  - LARON
  27  1,9  - LORAN
- 27  1,1  - NAD
  27  1,1  - OADAL
  26  3,1  | ALTO
  26  2,10 - JAD
@@ -158,6 +156,7 @@
  22  1,4  - DIAN
  22  1,4  - DIOL
  22  1,4  - DION
+ 22  1,1  | DOOL
  22  6,6  - ENGLAD
  22  6,6  - ENGOLD
  22  5,6  | JA
@@ -168,6 +167,7 @@
  22  4,2  | LAGAN
  22  4,6  | LAO
  22  1,1  | LOOD
+ 22  1,1  | LOON
  22  3,9  - RAJ
  21  2,1  - AGAD
  21  2,1  - AGAL
@@ -187,7 +187,6 @@
  21  1,9  - GARN
  21  4,2  | JAGA
  21  4,2  | LAGNA
- 21  2,8  | NAD
  21  2,8  | NOD
  21  2,8  | NOL
  20  4,3  | AGAD
@@ -217,6 +216,7 @@
  19  4,7  | ON
  18  1,1  - AAL
  18  2,9  | ADO
+ 18  1,1  | ADON
  18  2,1  - ADON
  18  2,1  - AGAO
  18  4,3  | AGAO
@@ -279,6 +279,7 @@
  17  5,5  - LINJA
  17  1,1  | LOO
  17  2,8  | NOA
+ 17  1,2  | NOLD
  17  1,1  | NOO
  17  6,4  - WAGON
  16  4,5  | ADO
@@ -301,12 +302,18 @@
  16  5,5  - JING
  16  9,2  | KNAG
  16  2,10 - LANG
+ 16  5,5  | LOGAN
+ 16  5,5  | NOGAL
  16  7,5  | NOGAL
  16  4,5  | ODA
  16  4,5  | OLA
  16  4,5  | ONA
  16  3,11 - SLOJD
+ 16  5,3  | VAL
+ 16  5,3  | VAN
  16  5,3  | VOD
+ 16  5,3  | VOL
+ 16  5,3  | VON
  15  2,1  - AGA
  15  2,1  - AGO
  15  1,9  - AGR
@@ -335,19 +342,23 @@
  15  9,2  | KANG
  15  9,2  | KONG
  15  4,6  | LA
+ 15  5,5  | LANGO
  15  7,6  | LANGO
  15  4,5  | LAO
  15  8,1  | LNDG
+ 15  5,5  | LNDG
  15  7,6  | LNDG
  15  1,9  - LNR
  15  4,6  | LO
  15  4,5  | LOA
+ 15  5,5  | LONGA
  15  7,6  | LONGA
  15  1,9  - LORA
  15  4,6  | NA
  15  5,6  - NEJD
  15  4,6  | NO
  15  4,5  | NOA
+ 15  5,5  | NODAL
  15  7,5  | NODAL
  15  8,2  | NOGAL
  15  1,9  - NORA
@@ -412,7 +423,6 @@
  14  2,9  | ON
  14  6,4  - WAG
  14  6,4  - WANG
- 14  6,4  - WOG
  14  6,4  - WONG
  13 10,3  - AD
  13  1,1  | ADO
@@ -449,8 +459,11 @@
  13  9,2  | KALON
  13  9,2  | KAND
  13  4,1  | LAANG
+ 13  5,5  | LANG
+ 13  5,5  | LDG
  13  5,5  - LIGAND
  13  7,6  | LOGAN
+ 13  5,5  | LONG
  13  4,2  | NAGA
  13  1,2  | NOG
  13  5,6  | NOGAL
@@ -464,7 +477,6 @@
  13  6,4  - WAND
  13  6,4  - WOLD
  12  2,1  - AAL
- 12  2,1  - ADA
  12  2,1  - ADO
  12  3,10 - ADON
  12  2,1  - AG
@@ -520,6 +532,7 @@
  12  4,2  | LAG
  12  2,10 - LAG
  12  2,10 - LANA
+ 12  5,5  | LAND
  12  7,6  | LAND
  12  4,2  | LANG
  12  1,9  - LAR
@@ -529,6 +542,7 @@
  12  5,5  - LIANG
  12  1,10 - LOAD
  12  1,10 - LOAN
+ 12  5,5  | LOND
  12  7,6  | LOND
  12  1,9  - LOR
  12  2,10 - NADA
@@ -540,6 +554,7 @@
  12  5,6  | NODAL
  12  7,6  | NODAL
  12  8,2  | NOG
+ 12  5,5  | NOLD
  12  7,5  | NOLD
  12  5,6  | NOLD
  12  7,6  | NOLD
@@ -547,6 +562,7 @@
  12  8,2  | NONG
  12  1,9  - NOR
  12  1,10 - ODAL
+ 12  1,3  | OLD
  12  7,5  | OLGA
  12  6,4  - WOALD
  11 10,1  - AD
@@ -566,8 +582,10 @@
  11  5,5  - DIALOG
  11  5,5  | DOG
  11  7,5  | DOG
+ 11  1,2  | DOL
  11  5,5  | DOLA
  11  7,5  | DOLA
+ 11  1,2  | DON
  11  5,5  | DONA
  11  7,5  | DONA
  11  2,9  - DRAGO
@@ -598,18 +616,25 @@
  11  9,2  | KODA
  11  9,2  | KOLA
  11  9,2  | KONA
+ 11  5,5  | LAG
  11  4,2  | LAND
  11  2,8  - LEND
  11  5,5  - LIGAN
+ 11  5,5  | LOAD
  11  7,6  | LOAD
+ 11  5,5  | LOAN
  11  7,6  | LOAN
+ 11  5,5  | LOG
  11  2,6  - MOANED
  11  2,6  - MODGE
  11  2,6  - MOLGE
  11  2,6  - MOONED
+ 11  5,5  | NAG
  11  1,4  - NID
  11  1,2  | NOD
+ 11  5,5  | NOG
  11  7,5  | NOG
+ 11  1,2  | NOL
  11  8,2  | NOLD
  11 10,1  - OD
  11  7,4  | OD
@@ -621,7 +646,6 @@
  11  3,9  - RADON
  11  6,4  - WAD
  11  6,4  - WAN
- 11  6,4  - WOD
  11  6,4  - WON
  10  4,5  | AD
  10  1,8  - ADEN
@@ -671,8 +695,10 @@
  10  4,10 | GO
  10  1,10 - GOA
  10  2,9  - GRANO
+ 10  5,5  | LAD
  10  2,10 - LAD
  10  1,8  - LAEN
+ 10  5,5  | LAN
  10  2,10 - LAN
  10  4,2  | LANA
  10  7,6  | LDG
@@ -683,13 +709,15 @@
  10  5,5  - LINGO
  10  4,1  | LOAD
  10  4,1  | LOAN
+ 10  5,5  | LOD
  10  1,8  - LOED
  10  2,6  - MONDE
- 10  2,10 - NAD
  10  4,2  | NADA
  10  5,5  - NIDAL
+ 10  5,5  | NOD
  10  7,5  | NOD
  10  1,8  - NOEL
+ 10  5,5  | NOL
  10  7,5  | NOL
  10  8,2  | NONA
  10  1,3  | OAD
@@ -741,8 +769,6 @@
   9  1,2  | DOO
   9  1,11 - DOSA
   9  2,9  - DRONA
-  9  2,2  - EAD
-  9  2,2  - EAN
   9  3,8  - ELD
   9  3,8  - END
   9  4,2  | GAOL
@@ -762,28 +788,33 @@
   9  9,2  | KAL
   9  9,2  | KOL
   9  9,2  | KON
+  9  7,1  - LA
   9  4,5  | LA
   9  4,2  | LAD
   9  7,6  | LAG
   9  4,2  | LAN
+  9  5,5  | LAO
   9  1,2  - LEA
   9  2,8  - LED
   9  2,8  - LEN
   9  5,5  - LINDA
   9  5,5  - LINDO
+  9  7,1  - LO
   9  4,5  | LO
+  9  5,5  | LOA
   9  7,6  | LOG
+  9  7,1  - NA
   9  4,5  | NA
-  9  4,2  | NAD
-  9  8,2  | NAD
   9  5,6  | NAG
   9  7,6  | NAG
   9  8,2  | NAN
   9  1,11 - NASO
   9  1,2  - NEA
   9  2,8  - NED
+  9  7,1  - NO
   9  4,5  | NO
   9  1,2  | NOA
+  9  5,5  | NOA
   9  7,5  | NOA
   9  8,2  | NOD
   9  5,6  | NOG
@@ -808,8 +839,6 @@
   8  4,2  | AAL
   8  2,10 - AAL
   8  5,5  | AD
-  8  4,3  | ADA
-  8  1,10 - ADA
   8  4,3  | ADO
   8  4,1  | AGAO
   8  4,3  | ALA
@@ -852,6 +881,7 @@
   8  6,5  - INGA
   8  6,5  - IODAL
   8  9,2  | KOA
+  8  5,5  | LA
   8  7,6  | LAD
   8  7,6  | LAN
   8  2,10 - LAO
@@ -862,17 +892,18 @@
   8  5,6  - LENG
   8  2,8  - LEON
   8  5,5  - LING
+  8  5,5  | LO
   8  4,10 | LO
   8  1,10 - LOA
   8  7,6  | LOD
   8 10,1  | LYON
   8  2,6  - MOG
+  8  5,5  | NA
   8  2,8  | NA
   8  1,10 - NAA
   8  2,10 - NAA
-  8  5,6  | NAD
-  8  7,6  | NAD
   8  2,8  - NEAL
+  8  5,5  | NO
   8  7,5  | NO
   8  2,8  | NO
   8  4,10 | NO
@@ -900,7 +931,6 @@
   8  3,9  - ROG
   8  3,9  - ROND
   8  3,11 - SNOGA
-  8  6,4  - WOA
   8 10,2  | YALD
   8 10,2  | YOGA
   8 10,2  | YOND
@@ -998,7 +1028,6 @@
   6  5,6  | DA
   6  7,6  | DA
   6  2,10 - DA
-  6  4,5  - DAIL
   6  4,5  - DAIN
   6  4,2  | DAO
   6  1,2  - DE
@@ -1016,8 +1045,6 @@
   6  1,2  | DO
   6  5,6  | DO
   6  7,6  | DO
-  6  3,8  - EAD
-  6  3,8  - EAN
   6  6,6  - EDNA
   6  6,6  - ELAN
   6  6,6  - ELOD
@@ -1068,6 +1095,7 @@
   6  2,8  - NEA
   6  5,6  - NEAL
   6  2,8  - NEO
+  6  1,4  - NI
   6  5,5  - NIG
   6  1,2  | NO
   6  5,6  | NO
@@ -1084,6 +1112,7 @@
   6  5,6  | OLA
   6  7,6  | OLA
   6  4,5  - OLID
+  6  1,3  | ON
   6  5,6  | ONA
   6  7,6  | ONA
   6  1,11 - ONS
@@ -1124,7 +1153,6 @@
   5  3,10 - AND
   5  8,1  | ANN
   5  2,9  - ARG
-  5  2,11 - ASG
   5  5,6  - DEL
   5  5,6  - DEN
   5  5,5  - DIL
@@ -1167,8 +1195,6 @@
   4  4,3  | AA
   4  2,10 - AA
   4  3,10 - AAL
-  4  4,1  | ADA
-  4  3,10 - ADA
   4  3,10 - ADO
   4  3,10 - AG
   4  5,5  - AID
@@ -1183,14 +1209,11 @@
   4  4,5  - ANI
   4  2,9  - ARN
   4 10,1  | AY
-  4  1,8  - DAE
   4  5,6  - DEA
   4  5,5  - DIA
   4  4,1  | DOA
   4  1,8  - DOE
   4  1,5  - DU
-  4  6,6  - EAD
-  4  6,6  - EAN
   4  6,6  - EDO
   4  6,6  - ELA
   4  3,8  - EO
@@ -1199,7 +1222,6 @@
   4  5,5  - GI
   4  6,5  - IAN
   4  6,5  - ILA
-  4  6,5  - INO
   4  2,4  - IO
   4  6,5  - ION
   4  4,5  - LAI
@@ -1257,10 +1279,14 @@
   3  6,5  - ID
   3  6,5  - IN
   3  4,2  | LA
+  3  7,1  | LI
+  3  5,5  - LI
   3  4,2  | NA
   3  8,2  | NA
   3  5,6  - NE
   3  2,8  - NE
+  3  7,1  | NI
+  3  5,5  - NI
   3  8,2  | NO
   3  8,1  | ON
   3  2,9  - ORA

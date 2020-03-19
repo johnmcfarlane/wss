@@ -215,7 +215,6 @@
  14  1,5  - FOINS
  14  2,5  - INFO
  14  2,7  - INFO
- 14  5,7  - INO
  14  5,7  - INS
  14  5,7  - ISN
  14  7,5  - NEIF
@@ -243,9 +242,6 @@
  14  6,6  | USINE
  14  7,5  - WEI
  14  3,7  - WEI
- 14  8,4  | WES
- 14  3,5  - WES
- 14  7,5  - WES
  14  7,3  | WIFE
  14  8,4  | WIS
  14  3,5  - WIS
@@ -296,7 +292,6 @@
  13  8,6  | SINEW
  13  7,2  | SWINE
  13  2,5  - WENS
- 13  4,7  - WES
  13  5,5  | WHEIN
  13  5,5  | WHENSO
  13  5,5  | WHINES
@@ -541,8 +536,6 @@
   9  5,6  | HONES
   9  5,6  | HOSEN
   9  5,6  | HSIEN
-  9  3,5  - INO
-  9  3,7  - INO
   9  3,5  - INS
   9  5,7  - IS
   9  6,5  - NE
@@ -608,8 +601,6 @@
   8  5,6  | HONE
   8  5,6  | HOW
   8  8,4  | IFS
-  8  8,5  - INO
-  8  8,7  - INO
   8  8,5  - INS
   8  8,7  - INS
   8  7,2  | INSEE
@@ -622,6 +613,8 @@
   8  7,5  - NE
   8  7,5  | NEIF
   8  7,5  | NEWS
+  8  7,5  - NI
+  8  7,7  - NI
   8  8,4  | NIS
   8  8,3  | NISSE
   8  7,5  - NO
@@ -697,6 +690,7 @@
   7  7,3  | NESE
   7  8,3  | NESS
   7  7,5  | NEW
+  7  4,7  - NI
   7  8,3  | NIES
   7  4,5  - NO
   7  4,7  - NO
@@ -803,7 +797,6 @@
   6  7,4  | WEE
   6  7,5  | WEE
   6  7,5  | WEI
-  6  7,5  | WES
   6  7,4  | WOE
   5  7,6  | EF
   5  8,5  - EO

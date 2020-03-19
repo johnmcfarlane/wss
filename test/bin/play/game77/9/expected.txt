@@ -18,6 +18,8 @@ invalid words: cpa
  52 11,3  | JuKE
  51 11,3  | JAKe
  51 11,3  | JAKo
+ 48  9,7  | JAIl
+ 48  9,7  | JAIn
  48 11,3  | JAWp
  47  9,7  | JAI
  46  9,1  | KWElAS
@@ -65,7 +67,6 @@ invalid words: cpa
  40 11,3  | JoSE
  40  9,5  | JoW
  40  9,3  | JuKES
- 40 11,3  | bEJA
  40 11,3  | dEJA
  40 11,3  | hAJE
  40 11,3  | yAJE
@@ -223,6 +224,8 @@ invalid words: cpa
  29 11,3  | SEKAr
  29 11,3  | SKAtE
  29 11,3  | SKEAn
+ 29  9,6  | SWAIl
+ 29  9,6  | SWAIn
  29  7,5  | SaWAN
  29  9,3  | WAKES
  29  9,3  | WEKAS
@@ -233,7 +236,6 @@ invalid words: cpa
  28  6,2  | JAvEL
  28  7,2  | JaKES
  28  9,5  | JeE
- 28  9,5  | JmS
  28  9,5  | JoE
  28  7,2  | JoKES
  28  7,2  | JuKES
@@ -359,7 +361,6 @@ invalid words: cpa
  26  7,3  | WeKAS
  26  7,3  | WoKAS
  26  7,3  | WrEAK
- 26  9,3  | bEJA
  26  9,3  | dEJA
  26  9,3  | hAJE
  26  9,3  | yAJE
@@ -476,6 +477,8 @@ invalid words: cpa
  24 11,2  | SWEAt
  24  9,7  | WAIf
  24  9,7  | WAIk
+ 24  9,7  | WAIl
+ 24  9,7  | WAIn
  24  9,7  | WAIt
  24  9,3  | WAKE
  24  7,2  | WAKES
@@ -567,7 +570,6 @@ invalid words: cpa
  23  9,3  | WoKE
  23  9,3  | WoKS
  23  9,3  | WyKE
- 23  7,3  | bEJA
  23  7,2  | dAWKS
  23  7,3  | dEJA
  23  7,2  | gAWKS
@@ -579,7 +581,6 @@ invalid words: cpa
  22  9,6  | AW
  22 11,3  | AWeE
  22  9,3  | AlKES
- 22  8,7  - EJOo
  22  9,6  | EW
  22  7,5  | JA
  22  9,2  | JAKEs
@@ -603,7 +604,6 @@ invalid words: cpa
  22  9,2  | JaKES
  22  7,7  - JaKOS
  22 11,5  | JaW
- 22  7,4  | JmS
  22  9,2  | JoKES
  22 11,5  | JoW
  22  9,2  | JuKES
@@ -780,7 +780,6 @@ invalid words: cpa
  20  5,3  | EAsES
  20  7,3  | ESKAr
  20  9,3  | EtWAS
- 20  9,4  | JAmS
  20  9,4  | JApE
  20  9,4  | JAsS
  20  9,4  | JEeS
@@ -1020,7 +1019,6 @@ invalid words: cpa
  18  5,3  | WAsE
  18  6,1  | WEASeL
  18  9,2  | WEKAS
- 18  9,5  | WES
  18  5,3  | WEnE
  18  5,3  | WEsE
  18  6,1  | WeASEL
@@ -1106,7 +1104,6 @@ invalid words: cpa
  17  9,3  | ArKS
  17  9,3  | AsKS
  17  9,3  | AuKS
- 17  9,3  | EJAm
  17 11,4  | EJAm
  17  9,4  | EWeS
  17  9,3  | EkKA
@@ -1149,7 +1146,6 @@ invalid words: cpa
  17  7,4  | KrA
  17  9,3  | KrAS
  17  7,4  | KrS
- 17  7,4  | KuA
  17  9,3  | KuES
  17  9,3  | KuSA
  17  9,3  | KvAS
@@ -1216,13 +1212,11 @@ invalid words: cpa
  17  7,4  | WASt
  17  5,2  | WAiSE
  17  5,2  | WArSE
- 17  7,4  | WEA
  17  7,4  | WEAk
  17  7,4  | WEAl
  17  7,4  | WEAm
  17  7,4  | WEAn
  17  7,4  | WEAr
- 17  7,4  | WES
  17  7,4  | WESe
  17  7,4  | WESt
  17  7,4  | WaSE
@@ -1233,7 +1227,6 @@ invalid words: cpa
  17  7,5  | aSK
  17  7,3  | aWES
  17  7,4  | bKS
- 17  6,5  - cAWK
  17  7,3  | cAWS
  17  7,5  | cSK
  17  7,5  | dAK
@@ -1293,7 +1286,6 @@ invalid words: cpa
  16  6,2  | AWEeL
  16  6,2  | AWeEL
  16  7,5  | AsK
- 16 11,5  | JAb
  16 11,5  | JAd
  16 11,5  | JAi
  16 11,5  | JAm
@@ -1302,13 +1294,11 @@ invalid words: cpa
  16 11,5  | JAy
  16 11,5  | JEe
  16 11,5  | JeE
- 16 11,5  | JmS
  16 11,5  | JoE
  16  8,7  - JoOK
  16  6,3  | JoWL
  16  9,3  | KAEs
  16  9,3  | KASa
- 16  9,3  | KASm
  16  9,3  | KAaS
  16  9,5  | KAb
  16  9,3  | KAbS
@@ -1404,17 +1394,13 @@ invalid words: cpa
  16  7,4  | WaS
  16  9,5  | WaS
  16  6,2  | WaSEL
- 16  7,4  | WeA
  16  9,5  | WeE
  16  9,2  | WeKAS
- 16  7,4  | WeS
- 16  9,5  | WeS
  16  7,4  | WhA
  16  5,2  | WhASE
  16  6,2  | WhEAL
  16  7,4  | WhS
  16  7,4  | WiS
- 16  7,4  | WoA
  16  9,5  | WoE
  16 11,7  | WoES
  16  9,2  | WoKAS
@@ -1489,7 +1475,6 @@ invalid words: cpa
  15  7,3  | AwES
  15  7,3  | AxES
  15  7,3  | AyES
- 15  7,7  | EAN
  15  7,3  | EArS
  15  7,3  | EAtS
  15  6,5  - EJAm
@@ -1499,7 +1484,6 @@ invalid words: cpa
  15  7,3  | EtAS
  15  7,3  | EyAS
  15 11,5  | JA
- 15  9,4  | JAm
  15 11,5  | JE
  15  9,4  | JEe
  15  9,4  | JEt
@@ -1507,7 +1491,6 @@ invalid words: cpa
  15  9,4  | JeE
  15 11,4  | JeE
  15  8,7  - JhOW
- 15  9,4  | JmS
  15  9,4  | JoE
  15 11,4  | JoE
  15  9,4  | JuS
@@ -1515,7 +1498,6 @@ invalid words: cpa
  15  9,5  | KA
  15  9,4  | KAaS
  15  9,4  | KAeS
- 15  9,4  | KAmE
  15  9,4  | KAtE
  15  9,4  | KAtS
  15  9,4  | KEaS
@@ -1575,8 +1557,6 @@ invalid words: cpa
  15 11,4  | StAW
  15 11,4  | StEW
  15  7,4  | WAs
- 15  7,4  | WEa
- 15  7,4  | WEs
  15  7,5  | WaE
  15  9,3  | WaES
  15  7,5  | WaS
@@ -1606,9 +1586,7 @@ invalid words: cpa
  14  9,4  | AKa
  14  9,4  | AKe
  14  9,4  | AKo
- 14  9,4  | AKu
  14  7,8  | AN
- 14  7,5  | ASE
  14  7,3  | ASEa
  14 11,6  | AW
  14  9,4  | AWE
@@ -1684,7 +1662,6 @@ invalid words: cpa
  14  9,3  | WAkE
  14  9,3  | WAlE
  14  9,3  | WAmE
- 14  9,4  | WAmE
  14  9,5  | WAn
  14  9,3  | WAnE
  14  9,3  | WAnS
@@ -1704,7 +1681,6 @@ invalid words: cpa
  14  9,3  | WAwS
  14  9,5  | WAy
  14  9,3  | WAyS
- 14  9,3  | WEAm
  14  9,3  | WESe
  14  9,3  | WESt
  14  9,5  | WEb
@@ -1720,7 +1696,6 @@ invalid words: cpa
  14  9,5  | WEm
  14  9,5  | WEn
  14  9,3  | WEnS
- 14  9,5  | WEs
  14  9,5  | WEt
  14  9,3  | WEtA
  14  9,3  | WEtS
@@ -1748,7 +1723,6 @@ invalid words: cpa
  14  9,2  | cAKES
  14  7,7  | cAN
  14  7,4  | cASE
- 14  6,5  - cASK
  14 11,5  | cAW
  14  9,3  | cAWS
  14  5,2  | cEASE
@@ -1760,7 +1734,6 @@ invalid words: cpa
  14  7,4  | dEAS
  14 11,5  | dEW
  14  9,3  | dEWS
- 14  7,7  | eAN
  14  7,4  | eASE
  14  9,2  | fAKES
  14  7,7  | fAN
@@ -1803,7 +1776,6 @@ invalid words: cpa
  14  5,2  | mEASE
  14  7,3  | mESA
  14  7,4  | mESA
- 14 11,8  | mESE
  14 11,5  | mEW
  14  9,3  | mEWS
  14  7,7  | nAN
@@ -1869,10 +1841,7 @@ invalid words: cpa
  13  7,6  | AS
  13  7,7  - ASKOi
  13  7,7  - ASKOs
- 13  7,5  | ASa
  13  7,5  | ASb
- 13  7,5  | ASe
- 13  7,5  | ASg
  13  7,5  | ASh
  13  7,5  | ASk
  13  7,5  | ASp
@@ -1907,9 +1876,7 @@ invalid words: cpa
  13 11,3  | AsSE
  13  7,4  | AuS
  13  7,4  | AyS
- 13  7,5  | EAd
  13  7,5  | EAm
- 13  7,5  | EAn
  13  7,5  | EAr
  13  7,5  | EAt
  13  7,5  | EAu
@@ -1923,7 +1890,6 @@ invalid words: cpa
  13  7,5  | ESt
  13  7,5  | ESu
  13 10,11 - EW
- 13  7,7  | EaN
  13  5,3  | EaSE
  13  7,4  | EfS
  13  7,4  | ElA
@@ -2002,7 +1968,6 @@ invalid words: cpa
  13 11,3  | SAnE
  13  7,5  | SAo
  13  7,5  | SAp
- 13  7,5  | SAr
  13 11,3  | SArE
  13  7,5  | SAt
  13 11,3  | SAtE
@@ -2054,9 +2019,6 @@ invalid words: cpa
  13  7,4  | aAS
  13  7,5  | aAS
  13  7,4  | aES
- 13  7,4  | aSA
- 13  7,5  | aSA
- 13  7,5  | aSE
  13 11,3  | aSEA
  13  9,4  | aWA
  13  9,4  | aWE
@@ -2067,7 +2029,6 @@ invalid words: cpa
  13  7,4  | bEA
  13 11,3  | bESA
  13 11,3  | cASE
- 13  7,5  | dAE
  13  7,4  | dAS
  13  7,5  | dAS
  13 11,3  | dASE
@@ -2145,8 +2106,6 @@ invalid words: cpa
  13  7,4  | wAS
  13  7,5  | wAS
  13 11,3  | wASE
- 13  7,4  | wEA
- 13  7,4  | wES
  13  7,4  | xES
  13  7,4  | yAS
  13  7,5  | yAS
@@ -2165,16 +2124,12 @@ invalid words: cpa
  12 11,4  | AKeE
  12  9,3  | AKrE
  12 11,4  | AKrE
- 12  5,4  | ASE
- 12  9,5  | ASE
  12 11,3  | ASEa
  12 11,3  | ASEm
- 12  7,4  | ASa
  12  7,4  | ASs
  12  5,3  | ASsE
  12  9,4  | AWa
  12  9,4  | AWe
- 12  9,4  | AWm
  12  7,6  | Aa
  12  7,5  | AaS
  12  7,6  | Ab
@@ -2188,7 +2143,6 @@ invalid words: cpa
  12  7,6  | An
  12  7,6  | Ar
  12  7,6  | As
- 12  7,5  | AsE
  12  7,5  | AsS
  12  7,6  | At
  12  7,6  | Aw
@@ -2197,7 +2151,6 @@ invalid words: cpa
  12 11,3  | EASe
  12 11,3  | EASt
  12  5,3  | EAsE
- 12  7,7  - EJoO
  12  8,7  - EKOi
  12  9,3  | EKeS
  12 11,4  | EKeS
@@ -2236,7 +2189,9 @@ invalid words: cpa
  12  8,6  - KWHr
  12  9,5  | SAE
  12  9,7  | SAId
+ 12  9,7  | SAIl
  12  9,7  | SAIm
+ 12  9,7  | SAIn
  12  9,7  | SAIp
  12  7,4  | SAa
  12  5,3  | SAnE
@@ -2287,7 +2242,6 @@ invalid words: cpa
  12  9,4  | WEAn
  12  9,2  | WEAnS
  12  9,2  | WEArS
- 12 11,5  | WES
  12  9,4  | WESe
  12  9,4  | WESt
  12 11,4  | WaES
@@ -2419,7 +2373,6 @@ invalid words: cpa
  11  9,4  | EtAS
  11  9,4  | EyAS
  11 11,4  | KAE
- 11 11,5  | KAb
  11 11,5  | KAe
  11 11,5  | KAf
  11 11,5  | KAi
@@ -2427,7 +2380,6 @@ invalid words: cpa
  11 11,5  | KAs
  11 11,5  | KAy
  11 11,4  | KEA
- 11 11,5  | KEb
  11 11,5  | KEd
  11 11,5  | KEf
  11 11,5  | KEn
@@ -2457,12 +2409,9 @@ invalid words: cpa
  11  2,6  - PANELEr
  11  2,6  - PANELS
  11  9,7  | SAI
- 11  9,4  | SAmE
  11  9,4  | SAtE
  11  8,6  | SKiV
- 11 11,4  | SWAb
  11 11,4  | SWAd
- 11  9,3  | SWAm
  11 11,4  | SWAm
  11 11,4  | SWAn
  11  9,3  | SWAp
@@ -2483,11 +2432,9 @@ invalid words: cpa
  11 11,4  | WArE
  11 11,4  | WArS
  11 11,4  | WAtS
- 11  9,4  | WEA
  11 11,4  | WEAm
  11 11,4  | WEAn
  11 11,4  | WEAr
- 11  9,4  | WES
  11 11,4  | WEeS
  11 11,4  | WEtS
  11  9,5  | We
@@ -2497,11 +2444,9 @@ invalid words: cpa
  11  7,6  | aE
  11  8,7  - aKO
  11  7,6  | aS
- 11  5,4  | aSE
  11  9,3  | aWES
  11  6,5  - aWK
  11  1,5  - cCOYA
- 11  6,5  - cKW
  11  5,4  | eSE
  11  9,3  | eWES
  11  5,4  | iSE
@@ -2540,8 +2485,6 @@ invalid words: cpa
  10  1,9  - AnS
  10  6,2  | AnSEL
  10  9,5  | ApE
- 10  5,4  | AsE
- 10  9,5  | AsE
  10  9,5  | AsS
  10  9,5  | AtE
  10  7,7  - AtWO
@@ -2549,13 +2492,10 @@ invalid words: cpa
  10  6,2  | EASeL
  10  9,6  | ES
  10  6,5  - EWeS
- 10 11,7  | EmES
- 10  9,5  | EmS
  10  5,4  | EsE
  10  9,5  | EsS
  10 11,5  | KA
  10  9,4  | KAe
- 10  9,4  | KAm
  10  9,4  | KAs
  10  9,4  | KAt
  10  9,4  | KEa
@@ -2579,8 +2519,6 @@ invalid words: cpa
  10  9,4  | KrA
  10 11,4  | KrA
  10  9,4  | KrS
- 10  9,4  | KuA
- 10 11,4  | KuA
  10  9,4  | KuE
  10 11,4  | KuE
  10  9,4  | KyE
@@ -2609,7 +2547,6 @@ invalid words: cpa
  10  9,5  | SuE
  10  6,2  | SwEAL
  10 11,4  | WAE
- 10 11,5  | WAb
  10 11,5  | WAd
  10 11,5  | WAe
  10 11,5  | WAf
@@ -2621,23 +2558,17 @@ invalid words: cpa
  10 11,5  | WAw
  10 11,5  | WAx
  10 11,5  | WAy
- 10 11,4  | WEA
- 10 11,5  | WEb
  10 11,5  | WEd
  10 11,5  | WEe
  10 11,5  | WEi
  10 11,5  | WEm
  10 11,5  | WEn
- 10 11,5  | WEr
- 10 11,5  | WEs
  10 11,5  | WEy
- 10  9,7  - WOA
  10  9,7  - WOE
  10  9,7  - WOS
  10 11,5  | WaE
  10 11,5  | WaS
  10 11,5  | WeE
- 10 11,5  | WeS
  10 11,5  | WiS
  10 11,5  | WoE
  10 11,5  | WoS
@@ -2645,13 +2576,10 @@ invalid words: cpa
  10  9,5  | aES
  10 11,4  | aKA
  10 11,4  | aKE
- 10  9,5  | aSE
  10  9,5  | bAE
  10  9,7  | bAIS
  10  9,5  | bAS
- 10  6,5  - cAKE
  10  6,2  | cASEL
- 10  9,5  | dAE
  10  9,7  | dAIS
  10  9,5  | dAS
  10  6,2  | eASEL
@@ -2699,7 +2627,6 @@ invalid words: cpa
  10  9,5  | wAE
  10  9,5  | wAS
  10  6,2  | wASEL
- 10  9,5  | wES
  10  9,5  | xES
  10  9,5  | yAS
  10  9,5  | yES
@@ -2713,7 +2640,6 @@ invalid words: cpa
   9  6,5  - AKe
   9 11,4  | AKo
   9  6,5  - AKo
-  9  6,5  - AKu
   9  9,4  | ASEm
   9  6,5  - AWE
   9  6,5  - AWEd
@@ -2813,18 +2739,12 @@ invalid words: cpa
   9  9,4  | WAs
   9  9,4  | WAt
   9 11,5  | WE
-  9  9,4  | WEa
   9  9,4  | WEe
-  9  9,4  | WEm
-  9  9,4  | WEs
   9  9,4  | WEt
   9  9,7  - WO
   9  3,4  | WOADS
-  9  9,7  - WOa
   9  9,7  - WOb
-  9  9,7  - WOd
   9  9,7  - WOe
-  9  9,7  - WOg
   9  9,7  - WOk
   9  9,7  - WOn
   9  9,7  - WOo
@@ -2834,17 +2754,12 @@ invalid words: cpa
   9  9,4  | WaE
   9 11,4  | WaE
   9  9,4  | WaS
-  9  9,4  | WeA
-  9 11,4  | WeA
   9  9,4  | WeE
   9 11,4  | WeE
-  9  9,4  | WeS
   9  9,4  | WhA
   9 11,4  | WhA
   9  9,4  | WhS
   9  9,4  | WiS
-  9  9,4  | WoA
-  9 11,4  | WoA
   9  9,4  | WoE
   9 11,4  | WoE
   9  9,4  | WoS
@@ -2855,7 +2770,6 @@ invalid words: cpa
   9 11,4  | aWA
   9 11,4  | aWE
   9  6,5  - aWES
-  9  6,5  - cAWS
   9  8,7  - cWO
   9 11,4  | dEAS
   9 11,4  | eWE
@@ -2888,13 +2802,9 @@ invalid words: cpa
   8  9,5  | AEt
   8  6,3  | AKaL
   8 11,6  | AS
-  8  9,4  | ASE
   8  9,3  | ASEa
-  8  9,3  | ASEm
   8 11,4  | ASEm
   8  9,5  | ASb
-  8  9,5  | ASe
-  8  9,5  | ASg
   8  9,5  | ASh
   8  9,5  | ASp
   8  9,5  | ASs
@@ -2914,9 +2824,7 @@ invalid words: cpa
   8  6,5  - AlW
   8  9,3  | EASe
   8  9,3  | EASt
-  8  9,5  | EAd
   8  9,5  | EAm
-  8  9,5  | EAn
   8  9,3  | EArS
   8 11,4  | EArS
   8  9,5  | EAt
@@ -2990,7 +2898,6 @@ invalid words: cpa
   8  9,5  | SAy
   8  9,4  | SEA
   8 11,4  | SEAh
-  8  9,3  | SEAm
   8 11,4  | SEAm
   8 11,4  | SEAn
   8 11,4  | SEAr
@@ -3024,11 +2931,9 @@ invalid words: cpa
   8 11,4  | WAr
   8 11,4  | WAt
   8  6,3  | WEAL
-  8 11,4  | WEa
   8 11,4  | WEe
   8 11,4  | WEi
   8 11,4  | WEm
-  8 11,4  | WEr
   8 11,4  | WEt
   8  9,6  - WHA
   8  9,6  - WHS
@@ -3050,8 +2955,6 @@ invalid words: cpa
   8  9,3  | bESA
   8  9,3  | cASE
   8  8,7  | cAV
-  8  6,5  - cSK
-  8 11,5  | dAE
   8 11,5  | dAS
   8  9,3  | dASE
   8  9,3  | dEAS
@@ -3086,7 +2989,6 @@ invalid words: cpa
   8 11,5  | mAE
   8  9,3  | mAES
   8 11,5  | mAS
-  8  9,6  | mE
   8  9,3  | mEAS
   8 11,5  | mES
   8  9,3  | mESA
@@ -3124,7 +3026,6 @@ invalid words: cpa
   8  9,3  | wAES
   8 11,5  | wAS
   8  9,3  | wASE
-  8 11,5  | wES
   8 11,5  | xES
   8 11,5  | yAS
   8  9,3  | yEAS
@@ -3140,11 +3041,12 @@ invalid words: cpa
   7  9,8  - AGy
   7  9,8  | AId
   7  9,8  | AIk
+  7  9,8  | AIl
   7  9,8  | AIm
+  7  9,8  | AIn
   7  9,8  | AIs
   7  9,8  | AIt
   7  9,5  | AS
-  7 11,4  | ASE
   7  6,5  - ASsE
   7  6,4  | AWL
   7  6,3  | AWoL
@@ -3171,16 +3073,13 @@ invalid words: cpa
   7  6,5  - AxES
   7  6,5  - AyES
   7  1,7  - DADOs
-  7 11,5  | EAd
   7 11,5  | EAm
-  7 11,5  | EAn
   7 11,5  | EAr
   7  6,5  - EArS
   7  6,5  - EAtS
   7  9,5  | ES
   7  6,5  - EScA
   7  6,5  - ElSA
-  7 11,7  | EmE
   7 11,5  | EmS
   7  6,5  - ErAS
   7 11,5  | ErS
@@ -3199,7 +3098,6 @@ invalid words: cpa
   7  6,4  | KoL
   7  6,4  | KyL
   7 11,4  | SAE
-  7 11,5  | SAb
   7 11,5  | SAd
   7 11,5  | SAe
   7 11,5  | SAh
@@ -3208,7 +3106,6 @@ invalid words: cpa
   7 11,5  | SAn
   7 11,5  | SAo
   7 11,5  | SAp
-  7 11,5  | SAr
   7 11,5  | SAw
   7 11,5  | SAx
   7 11,5  | SAy
@@ -3260,8 +3157,6 @@ invalid words: cpa
   7  9,8  - aGA
   7  9,8  - aGE
   7  9,8  | aIS
-  7  9,4  | aSA
-  7  9,4  | aSE
   7  6,5  - aWA
   7  6,5  - aWE
   7  9,4  | bAE
@@ -3269,10 +3164,7 @@ invalid words: cpa
   7  9,4  | bAS
   7  6,3  | bAWL
   7  9,4  | bEA
-  7  6,5  - cAW
   7  6,3  | cAWL
-  7  6,5  - cSW
-  7  9,4  | dAE
   7  9,4  | dAS
   7  9,4  | dEA
   7  6,4  | dKL
@@ -3302,7 +3194,6 @@ invalid words: cpa
   7  9,4  | mEA
   7  8,7  - mEOW
   7  9,4  | mES
-  7 11,8  | mES
   7  6,3  | mEWL
   7  9,4  | nAE
   7  9,4  | nEA
@@ -3329,8 +3220,6 @@ invalid words: cpa
   7  9,4  | wAE
   7  9,4  | wAS
   7  6,3  | wAWL
-  7  9,4  | wEA
-  7  9,4  | wES
   7  9,4  | xES
   7  9,4  | yAS
   7  6,3  | yAWL
@@ -3343,17 +3232,13 @@ invalid words: cpa
   6  9,4  | AEt
   6  9,8  - AG
   6  9,8  | AI
-  6  6,5  - ASE
   6  6,5  - ASEa
   6  6,5  - ASEm
-  6  9,4  | ASa
-  6  9,4  | ASe
   6  9,4  | ASp
   6  9,4  | ASs
   6  9,4  | ASt
   6  9,4  | AaS
   6  9,6  | Ab
-  6 11,6  | Ab
   6  9,4  | AbS
   6  8,7  | AbV
   6  9,4  | AcE
@@ -3396,8 +3281,6 @@ invalid words: cpa
   6  9,4  | ArS
   6  9,6  | As
   6 11,6  | As
-  6  9,4  | AsE
-  6 11,4  | AsE
   6  9,4  | AsS
   6  9,6  | At
   6  9,4  | AtE
@@ -3421,7 +3304,6 @@ invalid words: cpa
   6  6,5  - EASe
   6  6,5  - EASt
   6  6,5  - EASy
-  6  9,4  | EAm
   6  9,4  | EAt
   6  9,4  | EAu
   6  6,5  - ESAu
@@ -3473,7 +3355,6 @@ invalid words: cpa
   6  9,4  | SAa
   6  9,4  | SAc
   6  9,4  | SAe
-  6  9,4  | SAm
   6  9,4  | SAo
   6  9,4  | SAp
   6  9,4  | SAt
@@ -3481,7 +3362,6 @@ invalid words: cpa
   6  9,4  | SEa
   6  9,4  | SEc
   6  9,4  | SEe
-  6  9,4  | SEm
   6  9,4  | SEp
   6  9,4  | SEq
   6  9,4  | SEt
@@ -3537,15 +3417,11 @@ invalid words: cpa
   6  8,7  - WoOS
   6 11,6  | aE
   6 11,6  | aS
-  6 11,4  | aSA
-  6 11,4  | aSE
   6  6,5  - aSEA
   6  6,5  - aW
   6  6,4  | aWL
   6 11,4  | bAE
   6 11,4  | bEA
-  6  6,5  - cASE
-  6 11,4  | dAE
   6 11,4  | dEA
   6  6,5  - eASE
   6 11,6  | eE
@@ -3585,7 +3461,6 @@ invalid words: cpa
   6 11,4  | tEA
   6 11,4  | uSE
   6 11,4  | wAE
-  6 11,4  | wEA
   6  9,7  - wOK
   6 11,4  | yEA
   6  9,7  - yOK
@@ -3600,12 +3475,7 @@ invalid words: cpa
   5  8,6  - ASH
   5  8,6  - ASHa
   5  8,6  - ASHy
-  5 11,4  | ASa
-  5  6,5  - ASa
   5  6,5  - ASb
-  5 11,4  | ASe
-  5  6,5  - ASe
-  5  6,5  - ASg
   5  6,5  - ASh
   5  6,5  - ASk
   5 11,4  | ASp
@@ -3628,14 +3498,12 @@ invalid words: cpa
   5  6,5  - AkE
   5  6,5  - AlE
   5  6,5  - AlS
-  5  9,5  | Am
   5  6,5  - AnE
   5  6,5  - AnS
   5  6,5  - ApE
   5  6,5  - ArE
   5  6,5  - ArS
   5  9,5  | As
-  5  6,5  - AsE
   5  6,5  - AsS
   5  9,5  | At
   5  6,5  - AtE
@@ -3645,10 +3513,8 @@ invalid words: cpa
   5  6,5  - AxE
   5  6,5  - AyE
   5  6,5  - AyS
-  5  6,5  - EAd
   5 11,4  | EAm
   5  6,5  - EAm
-  5  6,5  - EAn
   5 11,4  | EAr
   5  6,5  - EAr
   5 11,4  | EAt
@@ -3674,7 +3540,6 @@ invalid words: cpa
   5  6,5  - EfS
   5  6,5  - ElA
   5  6,5  - ElS
-  5  9,5  | Em
   5  6,5  - EmS
   5  6,5  - EnS
   5  9,5  | Eo
@@ -3698,7 +3563,6 @@ invalid words: cpa
   5 11,4  | SAm
   5 11,4  | SAo
   5 11,4  | SAp
-  5 11,4  | SAr
   5 11,4  | SAt
   5  6,3  | SEAL
   5  3,9  | SEL
@@ -3892,7 +3756,6 @@ invalid words: cpa
   4  6,3  | EvAL
   4  6,5  - Ew
   4  6,5  - Ex
-  4 10,8  - Gm
   4 10,8  - Go
   4 10,6  - HA
   4 10,6  - HE
@@ -3943,8 +3806,6 @@ invalid words: cpa
   4  9,6  - aHA
   4  9,6  - aHS
   4  9,8  | aI
-  4  6,5  - aSA
-  4  6,5  - aSE
   4  8,6  - aSH
   4  6,3  | bAEL
   4  8,6  - bAH
@@ -3977,7 +3838,6 @@ invalid words: cpa
   4  8,7  - lEOS
   4  3,4  | lOAD
   4  8,6  - mAH
-  4 11,8  | mE
   4  6,3  | mEAL
   4  8,6  - mEH
   4  7,7  - mESO
@@ -4129,12 +3989,10 @@ invalid words: cpa
   3  8,7  - lEO
   3  2,9  | lEO
   3  6,4  | mAL
-  3  8,7  - mAO
   3  6,4  | mEL
   3  3,9  | mEL
   3  8,7  - mEO
   3  2,9  | mEO
-  3  9,6  - mH
   3  6,4  | mSL
   3  8,7  - nEO
   3  2,9  | nEO
@@ -4158,8 +4016,6 @@ invalid words: cpa
   3  6,4  | vAL
   3  6,4  | vEL
   3  3,9  | vEL
-  3  6,4  | zEL
-  3  3,9  | zEL
   2  8,7  - AbO
   2  8,7  - AdO
   2  8,7  - AgO
@@ -4183,6 +4039,7 @@ invalid words: cpa
   2 10,10 - Id
   2  9,9  | If
   2 10,10 - If
+  2  9,9  | In
   2 10,10 - In
   2  9,9  | Io
   2 10,10 - Io
@@ -4199,7 +4056,6 @@ invalid words: cpa
   2  9,7  - bOA
   2  9,7  - bOE
   2  9,7  - bOS
-  2  6,5  | cL
   2  9,7  - cOE
   2  9,7  - cOS
   2  9,10 - dI
@@ -4219,6 +4075,7 @@ invalid words: cpa
   2  9,7  - lOE
   2  9,7  - mOA
   2  9,7  - mOS
+  2  9,10 - nI
   2  9,7  - nOA
   2  9,7  - nOS
   2  9,10 - oI
@@ -4236,7 +4093,6 @@ invalid words: cpa
   2  9,7  - tOE
   2  9,7  - tOS
   2  9,7  - vOE
-  2  9,7  - wOA
   2  9,7  - wOE
   2  9,7  - wOS
   2  9,7  - zOA
@@ -4253,7 +4109,6 @@ invalid words: cpa
   1 10,11 - Et
   1 10,11 - Ew
   1 10,11 - Ex
-  1 10,7  - Ob
   1 10,7  - Od
   1 10,7  - Oe
   1 10,7  - Of

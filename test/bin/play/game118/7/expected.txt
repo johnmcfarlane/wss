@@ -4,6 +4,8 @@
  27  8,4  | NEW
  21  8,5  - EJAM
  21  8,5  | EW
+ 20  4,8  - ELOINE
+ 20  4,8  - OLEINE
  20  6,4  | OUTLINE
  20  4,10 - UNOIL
  18  6,1  | ELONITE
@@ -12,28 +14,40 @@
  18  4,10 - ENOIL
  18  6,1  | LEONITE
  18  6,1  | OUENITE
+ 17  5,8  - LEONE
+ 17  6,8  - LUNE
+ 17  5,8  - NEELE
  17  6,10 - NUL
  17  3,10 - UNLIE
  16  2,5  - ELEUIN
  16  2,7  - ELEUIN
+ 16  6,8  - ELNE
  16  5,10 - ENOL
+ 16  6,8  - LENE
+ 16  6,8  - LINE
  16  6,1  | LIONET
+ 16  6,8  - LONE
  16  6,2  | LUNET
  16  5,10 - NEIL
  16  7,7  - NEK
+ 16  6,8  - NILE
  16  5,10 - NOEL
  16  5,10 - NOIL
  16  6,2  | UNLET
  16  6,2  | UNLIT
  16  5,3  - UNOILED
+ 15  6,8  - EOLE
+ 15  6,8  - IONE
  15  3,10 - LEONE
  15  3,10 - LIEUE
  15  3,10 - LOUIE
  15  4,10 - LUNE
+ 15  7,8  - ULE
  15  3,5  - UNOIL
  14  6,2  | ELEUT
  14  5,3  - ELOINED
  14  6,5  | ETOILE
+ 14  7,8  - ILE
  14  6,2  | INLET
  14  4,10 - LIEU
  14  3,5  - LIEUE
@@ -42,7 +56,9 @@
  14  6,10 - NIL
  14  6,2  | NILOT
  14  6,10 - NOL
+ 14  7,8  - OLE
  14  6,2  | OLENT
+ 14  7,8  - ONE
  14  6,6  | TENUE
  14  3,5  - UNLIE
  14  3,7  - UNLIE
@@ -63,9 +79,11 @@
  13 10,1  | LUI
  13  6,3  - LUNOID
  13 10,1  | LUO
+ 13  8,8  - NE
  13  4,10 - NILE
  13  4,10 - NIUE
  13  7,3  - NOULD
+ 13  8,8  | Ni
  13  3,5  - OLEIN
  13  3,7  - OLEIN
  13  6,3  - OLENID
@@ -99,7 +117,6 @@
  11  4,7  - ELON
  11  4,10 - EOLE
  11 10,1  | ILE
- 11 10,1  | INO
  11  4,10 - IONE
  11 10,1  | LEE
  11 10,1  | LEI
@@ -184,11 +201,11 @@
   9  7,3  - ENEID
   9  5,7  - EON
   9  5,10 - ILE
-  9  5,10 - INO
   9  5,7  - ION
   9  5,10 - LEE
   9  5,10 - LEI
   9  5,10 - LEO
+  9 10,2  | LI
   9  5,10 - LIE
   9 10,2  | LO
   9  7,8  - LOE
@@ -198,6 +215,7 @@
   9  5,10 - NEE
   9  5,10 - NEI
   9  5,10 - NEO
+  9 10,2  | NI
   9 10,2  | NO
   9  5,5  - OIL
   9  5,10 - OLE
@@ -272,6 +290,7 @@
   7  8,3  - LEED
   7  6,3  | LENTO
   7  7,4  | LEONE
+  7  6,10 - LI
   7  9,3  - LID
   7  8,3  - LIED
   7  6,10 - LO
@@ -291,6 +310,7 @@
   7  6,10 - NE
   7  9,3  - NED
   7  8,3  - NEED
+  7  6,10 - NI
   7  9,3  - NID
   7  6,10 - NO
   7  9,3  - NOD
@@ -321,7 +341,6 @@
   6  4,5  - ILE
   6  4,7  - ILE
   6  9,3  - IND
-  6  4,7  - INO
   6  6,4  | INTL
   6  6,5  - IO
   6  6,7  - IO
@@ -391,6 +410,8 @@
   5  7,5  | IONE
   5  6,5  | ITEN
   5  6,3  | LEET
+  5  5,5  - LI
+  5  5,7  - LI
   5  6,4  | LITE
   5  5,7  - LO
   5  7,5  | LOU
@@ -401,6 +422,8 @@
   5  6,3  | NEET
   5  6,4  | NETE
   5  6,4  | NETI
+  5  5,5  - NI
+  5  5,7  - NI
   5  6,4  | NITO
   5  5,7  - NO
   5  7,5  | NOL
@@ -431,7 +454,6 @@
   4  6,4  | ELT
   4  5,7  - EO
   4  7,5  | EON
-  4  7,4  | INO
   4  6,4  | INT
   4  5,7  - IO
   4  7,5  | ION

@@ -7,7 +7,6 @@
  28  6,1  - ANET
  28  7,1  - TAEN
  25  8,1  - ANT
- 25  7,1  - EAN
  25  7,1  - RAN
  25  7,1  - REN
  25  7,1  - TAN
@@ -84,6 +83,7 @@
  12  9,1  | ROE
  12  9,1  | ROT
  12  5,1  - TANE
+ 12  4,5  - TEAN
  12  9,1  | TOA
  12  9,1  | TOE
  12  9,1  | TOR
@@ -135,8 +135,6 @@
   9  6,1  - ARE
   9  3,5  - ARET
   9  6,1  - ATE
-  9  5,1  - EAN
-  9  4,5  - EAN
   9  5,5  - EAT
   9  7,2  | ENTRIA
   9  6,1  - ERA
@@ -164,13 +162,13 @@
   8 10,4  | AIDER
   8  6,1  - AN
   8  5,5  - AN
+  8  6,5  - AN
   8  6,7  - AN
   8  4,3  - ANE
   8  4,1  - ARET
   8  2,5  - ARNE
   8  3,3  - ARTE
   8  5,5  | ASTERN
-  8 10,1  | EAN
   8  7,2  | EARNIE
   8  6,1  - EN
   8  5,5  - EN
@@ -380,7 +378,6 @@
   5  4,1  - ATE
   5  6,6  | ATEN
   5  5,3  | ATES
-  5  7,2  | EAN
   5  6,5  | EARN
   5  5,3  | EARS
   5  5,3  | EATS
@@ -429,7 +426,6 @@
   5  7,5  | RINE
   5  4,1  - RTE
   5  8,2  | SAE
-  5  8,2  | SAR
   5  5,6  | SARE
   5  5,6  | SART
   5  8,2  | SAT
@@ -493,7 +489,6 @@
   4  5,5  | ASTR
   4  6,4  | ATAR
   4  6,6  | ATAR
-  4  6,5  | EAN
   4  7,2  | EAR
   4  5,4  | EAST
   4  7,2  | EAT
@@ -562,16 +557,12 @@
   3  7,5  | AIR
   3  7,5  | AIT
   3  6,6  | AN
-  3  6,4  | ARA
-  3  6,6  | ARA
   3  6,1  | ARE
   3  6,6  | ARE
   3  6,1  | ARR
   3  5,4  | ARS
   3  6,1  | ART
   3  6,6  | ART
-  3  8,1  | ASE
-  3  5,5  | ASE
   3  8,1  | AST
   3  5,5  | AST
   3  6,6  | ATE
@@ -596,6 +587,7 @@
   3 10,1  | NA
   3  6,5  | NA
   3  7,1  | NE
+  3  7,5  | NI
   3  9,2  | OE
   3  9,2  | OR
   3  5,4  | RAS
@@ -611,7 +603,6 @@
   3  6,2  | RTE
   3  7,4  | RTI
   3  5,6  | SAE
-  3  5,6  | SAR
   3  5,6  | SAT
   3  5,6  | SEA
   3  5,6  | SER

@@ -41,6 +41,7 @@
  30  1,10 - TWA
  30  1,10 - TWI
  29 11,9  | SAX
+ 29 11,9  | SIX
  28  4,10 - XI
  27  2,10 - RATE
  27  2,10 - RITA
@@ -79,8 +80,6 @@
  20  2,6  | TARAI
  20  2,8  | TAX
  20  2,6  | TERAI
- 20  2,2  - TWAL
- 20  2,2  - WEAL
  19  8,2  - AER
  19  8,2  - AET
  19  8,2  - EAR
@@ -117,27 +116,20 @@
  17 11,9  | SAW
  16  2,7  | AWAIT
  16  2,7  | AWARE
- 16  4,1  | EADI
  16  2,5  | RATWA
- 16  1,2  - RETAL
  16  8,3  | SWARE
  16  8,3  | SWART
  16  8,3  | SWATI
  16  8,3  | SWEAR
  16  8,3  | SWEAT
  16  8,3  | SWIRE
- 16  1,2  - TRIAL
  15  8,2  - AE
  15  8,2  - RE
  15  8,3  | SWAT
  15  3,5  - WEKI
  15  3,5  - WIKI
  15  3,4  - WINO
- 14  2,2  - ERAL
  14  7,3  | IRE
- 14  2,2  - ITAL
- 14  2,2  - REAL
- 14  2,2  - RIAL
  14  8,3  | SIREX
  14  8,3  | SIXER
  14  8,3  | SIXTE
@@ -147,7 +139,6 @@
  14  2,6  | TAWA
  14  2,8  | TAWA
  14  4,10 - TE
- 14  2,2  - TEAL
  14  2,6  | TEWA
  14  4,10 - TI
  14  2,7  | TWAE
@@ -188,7 +179,6 @@
  12  9,2  - AT
  12  2,9  | AWA
  12  2,9  | AWE
- 12  3,9  | DAE
  12  3,9  | DAR
  12  3,9  | DAT
  12  3,9  | DEA
@@ -217,10 +207,8 @@
  11  2,10 - AE
  11  2,10 - AI
  11  3,5  - ARKITE
- 11  4,3  | DI
  11  7,2  - ER
  11  7,10 - ET
- 11  4,4  - INO
  11  5,5  - KIWI
  11  2,10 - RE
  11  2,10 - TA
@@ -307,14 +295,16 @@
   8  2,6  | RITA
   8 11,9  | SAE
   8 11,9  | SAI
-  8 11,9  | SAR
   8 11,9  | SAT
   8  8,3  | SAW
   8  8,3  | SEW
+  8 11,9  | SIA
+  8 11,9  | SIE
+  8 11,9  | SIR
+  8 11,9  | SIT
   8  9,6  | TA
   8  2,7  | TAAR
   8  2,8  | TAAR
-  8  3,2  - TAL
   8  2,6  | TARA
   8  2,8  | TARA
   8  2,8  | TARE
@@ -324,8 +314,6 @@
   8  2,7  | TIAR
   8  1,6  | TRIBE
   8  8,1  | YEST
-  7  4,2  - AL
-  7  4,1  | EAD
   7  7,8  | FAIR
   7  7,8  | FAIT
   7  7,8  | FARE
@@ -355,7 +343,6 @@
   6  2,9  | AET
   6  2,9  | AIR
   6  2,9  | AIT
-  6  2,9  | ARA
   6  1,7  | ARB
   6  2,9  | ARE
   6  2,9  | ART
@@ -404,21 +391,21 @@
   6  2,8  | TAR
   6  1,7  | TIB
   6  2,7  | TWA
-  6  2,7  | WEA
   5  1,8  | AB
   5  1,9  | BA
   5  1,9  | BE
   5  1,9  | BI
   5  1,9  | BT
   5  1,8  | IB
+  5 10,10 - LI
   5  8,3  | SAE
   5  8,3  | SAI
-  5  8,3  | SAR
   5  8,3  | SAT
   5  8,3  | SEA
   5  8,3  | SEI
   5  8,3  | SER
   5  8,3  | SET
+  5 11,9  | SI
   5  8,3  | SIA
   5  8,3  | SIE
   5  8,3  | SIR
@@ -465,7 +452,6 @@
   4  8,9  | UTE
   4  8,9  | UTI
   3  9,7  - AE
-  3  2,7  | ARA
   3  3,9  | DA
   3  3,9  | DE
   3  3,9  | DI

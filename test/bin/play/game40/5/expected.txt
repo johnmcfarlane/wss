@@ -124,7 +124,6 @@
  35  3,1  | FoN
  35  3,1  | FuN
  35  3,3  | ReF
- 35  3,6  | eNLIST
  35  3,6  | uNLIST
  34  3,3  | NeST
  34  3,3  | NeTS
@@ -241,7 +240,6 @@
  31  1,11 - SoRI
  31  1,11 - SoRT
  31  1,11 - SpIT
- 31  1,11 - SqRT
  31  1,11 - StIR
  31  1,11 - SuIT
  31  1,11 - SuN
@@ -289,7 +287,6 @@
  28  1,11 - STu
  28  1,11 - STy
  28  1,11 - SaI
- 28  1,11 - SaR
  28  1,11 - SaT
  28  1,11 - ScI
  28  1,11 - ScR
@@ -355,7 +352,6 @@
  27  3,1  | yIN
  26  3,5  | FaIL
  26  3,5  | FaRL
- 26  3,5  | FeIL
  26  3,5  | FoIL
  26  3,5  | FuRL
  26  3,1  | IaN
@@ -413,7 +409,6 @@
  22  5,6  - FORINTS
  22  4,6  - FRONTIS
  22  3,5  | Fa
- 22  3,5  | Fe
  22  3,5  | Fu
  22  3,2  | IRe
  22  3,2  | ISe
@@ -473,7 +468,6 @@
  20  2,2  - DISFeN
  20  2,2  - DRIFTS
  20  2,2  - DRyFIST
- 20  7,5  | FIbER
  20  5,6  - FORINT
  20  5,6  - FORINTs
  20  5,6  - FORINtS
@@ -576,7 +570,6 @@
  19  3,1  | zIT
  18  1,10 - CFI
  18  1,10 - CFS
- 18  1,10 - CIF
  18  1,10 - CRaNTS
  18  1,10 - CTF
  18  1,10 - CaIRNS
@@ -647,7 +640,6 @@
  18  5,6  - NOTIFy
  18  3,5  | NaIL
  18  3,5  | NaTL
- 18  3,5  | NeIL
  18  3,5  | NoIL
  18  3,5  | NuRL
  18  6,6  - OFTeNS
@@ -676,7 +668,6 @@
  18  5,6  - SOFTeN
  18  4,6  - STORIFy
  18  3,5  | STaLIN
- 18  3,1  | SaR
  18  3,1  | SaT
  18  3,1  | SeR
  18  3,1  | SeT
@@ -740,13 +731,10 @@
  17  3,6  | SeLF
  17  7,5  | ShIER
  17  7,5  | SpIER
- 17  7,5  | TIbER
  17  3,5  | TRILlS
  17  7,5  | TrIER
  17  7,5  | TwIER
- 17  7,7  | bETIS
  16  2,8  | AScI
- 16  2,8  | ATlI
  16  1,4  - AXINg
  16  1,4  - AXoNS
  16  1,10 - CFd
@@ -769,7 +757,6 @@
  16  1,10 - CaF
  16  1,10 - CdF
  16  1,10 - CeRTIS
- 16  1,10 - CiF
  16  1,10 - CtF
  16  1,10 - CuRTIS
  16  1,10 - CySTIS
@@ -863,8 +850,6 @@
  16  3,5  | TaILS
  16  3,5  | ToILS
  16  8,3  | aFRITS
- 16  7,7  | bERI
- 16  7,6  | bIER
  16  7,6  | dIER
  16  7,6  | dIET
  16  5,10 - eSTRIF
@@ -919,9 +904,11 @@
  15  7,4  | FoSIE
  15  8,4  | FrISS
  15  8,4  | FrITS
+ 15  3,9  - IF
  15  5,1  | INFeRS
  15  7,1  | INFeRS
  15  5,1  | INFeST
+ 15  1,9  - INIT
  15  6,7  - KNISh
  15  6,7  - KNIT
  15  6,7  - KNITs
@@ -1047,6 +1034,7 @@
  14  3,1  | Fp
  14  3,1  | Fu
  14  5,2  | IFiNT
+ 14  5,9  - IHS
  14  4,10 - INSTaRS
  14  4,10 - INSeRTS
  14  4,6  - IRONiST
@@ -1081,7 +1069,6 @@
  14  5,6  - NOSTRIl
  14  3,5  | Na
  14  7,3  | NaIF
- 14  3,5  | Ne
  14  7,3  | NeIF
  14  3,5  | No
  14  3,5  | Nu
@@ -1150,7 +1137,6 @@
  14  4,6  - TROpINS
  14  7,1  | TRaNSF
  14  3,5  | TaIL
- 14  3,5  | TeIL
  14  3,5  | ToIL
  14  4,6  - aROINTS
  14  5,6  - cORTINS
@@ -1207,6 +1193,8 @@
  13  6,9  - HSIeN
  13  5,2  | IFRiT
  13  8,3  | INFeRS
+ 13  1,9  - INIt
+ 13  1,9  - IRIS
  13  3,2  | IS
  13  3,2  | IT
  13  6,7  - KNIt
@@ -1257,8 +1245,6 @@
  13  7,7  | aER
  13  7,7  | aET
  13  5,2  | aFRIT
- 13  7,7  | bER
- 13  7,7  | bET
  13  8,9  - hIST
  13  8,9  - hITS
  13  5,2  | iFRIT
@@ -1506,6 +1492,7 @@
  12  3,8  | LuIS
  12  3,8  | LuRI
  12  3,8  | LuST
+ 12  3,1  | NI
  12  5,6  - NOIReS
  12  5,6  - NORITe
  12  5,6  - NORITo
@@ -1520,7 +1507,9 @@
  12  5,6  - NOcTIS
  12  5,6  - NOtIST
  12  8,4  | NaIFS
+ 12  4,7  - NaK
  12  8,4  | NeIFS
+ 12  4,7  - NeK
  12  6,6  - ORISoN
  12  6,6  - ORIaNS
  12  6,6  - ORIeNT
@@ -1713,7 +1702,6 @@
  11  5,1  | FRITtS
  11  7,1  | FRITtS
  11  5,3  | FRIb
- 11  7,3  | FRIb
  11  5,3  | FRIg
  11  5,3  | FRIm
  11  7,3  | FRIm
@@ -1742,16 +1730,27 @@
  11  8,9  - IFf
  11  8,7  - IFs
  11  8,9  - IFs
+ 11  3,9  - IN
  11  8,7  - INF
  11  8,9  - INF
  11  4,4  | INFaIR
  11  8,4  | INFeST
  11  8,7  - INFl
  11  8,7  - INFo
+ 11  1,9  - INiT
+ 11  1,9  - IRId
+ 11  1,9  - IRIs
  11  1,9  - IRaN
  11  1,9  - IRoN
+ 11  1,9  - ISIs
+ 11  1,9  - IbIS
+ 11  1,9  - ImIT
+ 11  1,9  - InIT
  11  8,9  - InST
  11  8,9  - InTR
+ 11  1,9  - IrIS
+ 11  1,9  - IsIS
+ 11  1,9  - IwIS
  11  6,7  - KRIs
  11  6,7  - KRaS
  11  6,7  - KRiS
@@ -1830,7 +1829,6 @@
  11  3,6  | TILt
  11  4,4  | TIfFIN
  11  7,4  | TRF
- 11  7,4  | TRIbE
  11  8,4  | TRaNSF
  11  3,6  | TaLI
  11  3,6  | TeLI
@@ -1859,6 +1857,7 @@
  11  5,1  | gRIFTS
  11  7,1  | gRIFTS
  11  3,6  | hILT
+ 11  3,9  - iF
  11  7,4  | iNF
  11  3,2  | iS
  11  3,2  | iT
@@ -1883,7 +1882,6 @@
  10  1,10 - CIa
  10  1,10 - CId
  10  1,10 - CIe
- 10  1,10 - CIf
  10  1,10 - CIg
  10  1,10 - CIr
  10  1,10 - CIs
@@ -2076,6 +2074,7 @@
  10  6,9  - HoIST
  10  7,5  | IF
  10  2,5  - IFS
+ 10  5,9  - IHs
  10  4,5  | INFIRmS
  10  8,4  | INFoS
  10  7,2  | INSTR
@@ -2164,7 +2163,6 @@
  10  1,3  - PEnNIS
  10  1,3  - PEpSIN
  10  1,3  - PErNIS
- 10  7,5  | RF
  10  5,3  | RIFS
  10  7,3  | RIFS
  10  5,3  | RIFT
@@ -2174,7 +2172,6 @@
  10  7,2  | RIFfS
  10  5,2  | RIFtS
  10  7,2  | RIFtS
- 10  7,5  | RIbE
  10  5,2  | RIfFS
  10  7,2  | RIfFS
  10  7,4  | ReF
@@ -2283,9 +2280,7 @@
  10  5,10 - TSuRIS
  10  3,5  | Ta
  10  1,1  | TaPA
- 10  4,7  - TcK
  10  3,5  | Td
- 10  3,5  | Te
  10  1,1  | TePA
  10  3,5  | Th
  10  3,5  | To
@@ -2300,7 +2295,6 @@
  10  5,6  - aORIST
  10  7,4  | aRF
  10  7,4  | bSF
- 10  7,4  | cIF
  10  7,4  | cTF
  10  7,4  | dIF
  10  5,2  | dRIFT
@@ -2324,6 +2318,7 @@
  10  2,10 | hT
  10  8,7  - iFS
  10  8,9  - iFS
+ 10  5,9  - iHS
  10  5,6  - jORIST
  10  7,4  | kIF
  10  7,4  | lIF
@@ -2341,7 +2336,6 @@
  10  3,7  | pLF
  10  7,4  | pRF
  10  7,4  | pSF
- 10  2,10 | qI
  10  5,2  | rIFTS
  10  7,2  | rIFTS
  10  5,2  | sIFTS
@@ -2480,8 +2474,11 @@
   9  7,2  | INsTR
   9  5,2  | INuST
   9  4,4  | IRaNIST
+  9  1,9  - IRiS
   9  4,4  | IRoNIST
+  9  3,9  - IS
   9  4,4  | ISTRIaN
+  9  3,9  - IT
   9  3,2  | Id
   9  3,2  | In
   9  3,2  | Is
@@ -2707,7 +2704,6 @@
   9  1,1  | pIPA
   9  5,1  | pRINTS
   9  7,1  | pRINTS
-  9  7,5  | rF
   9  7,6  | rIE
   9  1,1  | rIPA
   9  7,6  | sIE
@@ -2723,9 +2719,7 @@
   9  1,1  | zIPA
   8  1,10 - Cc
   8  1,10 - Ch
-  8  1,10 - Cl
   8  1,10 - Cp
-  8  1,10 - Cq
   8  2,2  - DIFS
   8  7,8  | ER
   8  7,8  | ET
@@ -2879,7 +2873,6 @@
   8  4,4  | INiTIS
   8  8,7  - INkS
   8  8,7  - INnS
-  8  1,9  - INo
   8  8,7  - INsT
   8  8,7  - INtR
   8  8,7  - INvT
@@ -2898,9 +2891,12 @@
   8  7,3  | ISdN
   8  5,3  | ITeN
   8  7,3  | ITeN
+  8  1,9  - IiI
+  8  1,9  - ImI
   8  4,5  | InFIN
   8  5,2  | IoRTN
   8  7,2  | IoRTN
+  8  1,9  - IwI
   8  3,8  | LIF
   8  5,8  | LaI
   8  5,8  | LeI
@@ -2955,6 +2951,7 @@
   8  7,3  | NeTI
   8  5,3  | NeTS
   8  7,3  | NeTS
+  8  3,1  | Ni
   8  5,3  | NiSI
   8  7,3  | NiSI
   8  5,3  | NiST
@@ -3556,8 +3553,6 @@
   7  8,9  - INn
   7  5,3  | INnS
   7  7,3  | INnS
-  7  8,7  - INo
-  7  8,9  - INo
   7  8,7  - INs
   7  8,9  - INs
   7  5,3  | INsT
@@ -3582,16 +3577,23 @@
   7  8,7  - ITeN
   7  5,2  | ITeRS
   7  7,2  | ITeRS
+  7  3,9  - Ib
+  7  3,9  - Id
+  7  3,9  - If
   7  8,7  - IfF
   7  8,9  - IfF
+  7  3,9  - In
   7  8,7  - InF
   7  8,9  - InF
   7  4,5  | InFIT
   7  5,3  | InNS
   7  7,3  | InNS
+  7  3,9  - Io
   7  5,3  | IoNS
   7  7,3  | IoNS
+  7  3,9  - Is
   7  5,3  | IsNT
+  7  3,9  - It
   7  3,8  | LNR
   7  1,6  - MEN
   7  1,6  - MENd
@@ -3898,6 +3900,7 @@
   7  7,3  | aIRN
   7  5,2  | aIRTS
   7  7,2  | aIRTS
+  7  3,7  - aN
   7  3,9  - aN
   7  8,7  - aNIS
   7  8,7  - aNSI
@@ -3934,6 +3937,7 @@
   7  5,4  | eFS
   7  7,4  | eFS
   7  5,4  | eFT
+  7  3,7  - eN
   7  4,6  | eNIF
   7  4,5  | eNTIRIS
   7  8,7  - eNTR
@@ -3967,6 +3971,7 @@
   7  4,5  | iFRIT
   7  5,4  | iFS
   7  7,4  | iFS
+  7  3,9  - iN
   7  8,7  - iNIT
   7  8,7  - iNST
   7  8,7  - iNTR
@@ -4050,7 +4055,6 @@
   6  4,7  | FIaR
   6  4,7  | FIaT
   6  5,4  | FIb
-  6  7,4  | FIb
   6  8,5  | FIbS
   6  4,7  | FIbS
   6  3,10 - FIbS
@@ -4206,6 +4210,7 @@
   6  7,4  | IFf
   6  5,4  | IFs
   6  7,4  | IFs
+  6  1,9  - IIi
   6  3,7  | ILTh
   6  5,5  | IN
   6  7,5  | IN
@@ -4310,7 +4315,6 @@
   6  7,4  | IsN
   6  8,7  - IsNT
   6  6,7  - Ka
-  6  6,7  - Kb
   6  3,8  | LIN
   6  3,8  | LNr
   6  3,8  | LbF
@@ -4388,7 +4392,6 @@
   6  8,6  | RFS
   6  4,10 - RFS
   6  5,4  | RFb
-  6  7,4  | RFb
   6  5,4  | RFs
   6  7,4  | RFs
   6  4,7  | RIFe
@@ -4533,7 +4536,6 @@
   6  3,7  | SLoN
   6  4,6  | SNIRT
   6  5,3  | SNIb
-  6  7,3  | SNIb
   6  5,3  | SNIg
   6  5,3  | SNIp
   6  7,3  | SNIp
@@ -4646,7 +4648,6 @@
   6  8,4  | SpITS
   6  4,5  | SpRINT
   6  5,2  | SpRIT
-  6  5,3  | SqRT
   6  8,3  | StINTS
   6  7,3  | StIR
   6  8,4  | StIRS
@@ -4800,7 +4801,6 @@
   6  7,3  | aRNI
   6  8,7  - aRNI
   6  4,6  - aROINT
-  6  7,7  | bE
   6  3,1  | bI
   6  5,4  | bIN
   6  7,4  | bIN
@@ -4891,6 +4891,7 @@
   6  3,7  | kLN
   6  5,3  | kNIT
   6  5,6  - kOFT
+  6  3,1  | lI
   6  4,7  | lIFT
   6  5,4  | lIN
   6  7,4  | lIN
@@ -4906,6 +4907,7 @@
   6  5,3  | mINT
   6  5,4  | mTN
   6  7,4  | mTN
+  6  3,1  | nI
   6  3,1  | oI
   6  5,3  | oINT
   6  8,7  - oINT
@@ -5090,7 +5092,6 @@
   5  4,5  | INfIT
   5  2,5  - INk
   5  2,5  - INn
-  5  2,5  - INo
   5  2,5  - INs
   5  2,5  - INt
   5  8,5  | INuST
@@ -5195,7 +5196,6 @@
   5  5,8  | Lu
   5  1,6  - MEa
   5  1,6  - MEd
-  5  1,6  - MEe
   5  1,6  - MEg
   5  1,6  - MEh
   5  1,6  - MEl
@@ -5207,6 +5207,8 @@
   5  1,6  - MEt
   5  1,6  - MEu
   5  1,6  - MEw
+  5  5,5  | NI
+  5  7,5  | NI
   5  4,6  - NIOTa
   5  4,5  | NIRIs
   5  4,7  | NIRIs
@@ -5440,7 +5442,6 @@
   5  4,6  | STINt
   5  4,6  | STIRIa
   5  5,3  | STIb
-  5  7,3  | STIb
   5  5,3  | STId
   5  7,3  | STId
   5  5,3  | STIm
@@ -5539,7 +5540,6 @@
   5  4,6  | TRINe
   5  4,6  | TRINk
   5  5,3  | TRIb
-  5  7,3  | TRIb
   5  5,3  | TRId
   5  7,3  | TRId
   5  5,3  | TRIg
@@ -5639,7 +5639,6 @@
   5  4,6  | cFI
   5  8,6  | cFS
   5  4,10 - cFS
-  5  4,7  | cIF
   5  4,6  - cIONS
   5  5,3  | cIST
   5  3,7  | cLIT
@@ -5754,8 +5753,10 @@
   5  4,4  | iRITIS
   5  4,6  | iRITIS
   5  4,6  - iRONS
+  5  3,9  - iS
   5  8,7  - iSN
   5  8,9  - iSN
+  5  3,9  - iT
   5  5,6  - jOINS
   5  5,6  - jOINT
   5  4,7  | kIF
@@ -5932,6 +5933,7 @@
   4  2,2  - DIsT
   4  2,2  - DItS
   4  2,2  - DItT
+  4  2,2  - DIvS
   4  2,2  - DRIb
   4  2,2  - DRIe
   4  2,2  - DRIp
@@ -5983,7 +5985,6 @@
   4  4,8  | INIa
   4  4,6  | INIt
   4  4,8  | INIt
-  4  4,6  - INO
   4  4,8  | INRo
   4  8,6  | INS
   4  4,8  | INS
@@ -6012,8 +6013,6 @@
   4  8,5  | INnS
   4  4,8  | INnS
   4  3,10 - INnS
-  4  5,4  | INo
-  4  7,4  | INo
   4  5,4  | INs
   4  7,4  | INs
   4  4,8  | INsT
@@ -6115,10 +6114,6 @@
   4  7,4  | IpS
   4  8,7  - IpS
   4  8,9  - IpS
-  4  5,4  | IqS
-  4  7,4  | IqS
-  4  8,7  - IqS
-  4  8,9  - IqS
   4  4,6  - IrON
   4  5,4  | IrS
   4  7,4  | IrS
@@ -6137,6 +6132,7 @@
   4  2,5  - IvIN
   4  4,6  | IvIN
   4  4,8  | IvIN
+  4  3,8  | LI
   4  3,8  | LIb
   4  3,8  | LId
   4  3,8  | LIe
@@ -6176,7 +6172,6 @@
   4  4,7  | NIaS
   4  3,10 - NIaS
   4  5,4  | NIb
-  4  7,4  | NIb
   4  8,5  | NIbS
   4  4,7  | NIbS
   4  3,10 - NIbS
@@ -6565,7 +6560,6 @@
   4  6,10 - SaNS
   4  8,8  | SaNT
   4  6,10 - SaNT
-  4  7,4  | SaR
   4  8,5  | SaRSI
   4  3,10 - SaRSI
   4  5,4  | SaT
@@ -7361,7 +7355,6 @@
   3  4,8  | INf
   3  4,8  | INk
   3  4,8  | INn
-  3  4,8  | INo
   3  4,8  | INs
   3  4,8  | INt
   3  4,8  | INv
@@ -7538,6 +7531,7 @@
   3  3,8  | LuR
   3  3,8  | LuT
   3  3,8  | LyS
+  3  4,7  | NI
   3  4,7  | NIb
   3  4,7  | NId
   3  4,7  | NIg
@@ -7565,11 +7559,12 @@
   3  5,6  - NOw
   3  5,6  - NOx
   3  5,6  - NOy
-  3  4,6  - NcO
   3  5,5  | Ne
   3  7,5  | Ne
   3  4,6  | NeI
   3  4,6  - NeO
+  3  5,5  | Ni
+  3  7,5  | Ni
   3  8,6  | NiS
   3  4,10 - NiS
   3  5,5  | No
@@ -7644,7 +7639,6 @@
   3  4,7  | RITe
   3  4,7  | RITz
   3  5,4  | RIb
-  3  7,4  | RIb
   3  8,5  | RIbS
   3  4,7  | RIbS
   3  3,10 - RIbS
@@ -7831,7 +7825,6 @@
   3  8,8  | SITz
   3  6,10 - SITz
   3  5,4  | SIb
-  3  7,4  | SIb
   3  8,5  | SIbS
   3  8,8  | SIbS
   3  3,10 - SIbS
@@ -8083,8 +8076,6 @@
   3  8,8  | SpIT
   3  6,10 - SpIT
   3  4,6  - SpOT
-  3  8,8  | SqRT
-  3  6,10 - SqRT
   3  8,5  | SrIS
   3  8,8  | SrIS
   3  3,10 - SrIS
@@ -8122,7 +8113,6 @@
   3  4,10 - TIS
   3  4,7  | TIaR
   3  5,4  | TIb
-  3  7,4  | TIb
   3  8,5  | TIcS
   3  4,7  | TIcS
   3  3,10 - TIcS
@@ -8469,7 +8459,6 @@
   3  8,9  - hT
   3  5,10 | iN
   3  7,10 | iN
-  3  4,6  - iNO
   3  8,6  | iNS
   3  4,10 - iNS
   3  5,6  - iON
@@ -8516,6 +8505,8 @@
   3  8,5  | kRIS
   3  4,6  | kRIS
   3  3,10 - kRIS
+  3  5,5  | lI
+  3  7,5  | lI
   3  4,7  | lIN
   3  8,5  | lISS
   3  8,6  | lISS
@@ -8557,6 +8548,8 @@
   3  5,6  - mORT
   3  5,6  - mOST
   3  5,6  - mOTS
+  3  5,5  | nI
+  3  7,5  | nI
   3  4,5  | nISI
   3  4,7  | nISI
   3  8,6  | nIST
@@ -8785,7 +8778,6 @@
   2  4,8  | ITs
   2  4,6  - IaO
   2  5,5  | Ib
-  2  7,5  | Ib
   2  1,9  - Ib
   2  4,6  - IbO
   2  5,5  | Id
@@ -8813,7 +8805,6 @@
   2  5,5  | In
   2  7,5  | In
   2  1,9  - In
-  2  4,6  - InO
   2  2,5  - InS
   2  8,6  | InS
   2  4,8  | InS
@@ -8828,10 +8819,6 @@
   2  8,6  | IpS
   2  4,8  | IpS
   2  4,10 - IpS
-  2  2,5  - IqS
-  2  8,6  | IqS
-  2  4,8  | IqS
-  2  4,10 - IqS
   2  2,5  - IrS
   2  8,6  | IrS
   2  4,8  | IrS
@@ -8852,6 +8839,7 @@
   2  4,8  | IwI
   2  3,8  | La
   2  3,8  | Lb
+  2  3,8  | Li
   2  3,8  | Ll
   2  3,8  | Lo
   2  3,8  | Lu
@@ -8933,7 +8921,6 @@
   2  7,5  | Re
   2  8,6  | ReS
   2  4,10 - ReS
-  2  7,5  | Rf
   2  8,6  | RfS
   2  4,10 - RfS
   2  4,6  - RhO
@@ -9044,8 +9031,6 @@
   2  8,8  | SaI
   2  6,10 - SaI
   2  4,6  - SaO
-  2  8,8  | SaR
-  2  6,10 - SaR
   2  8,8  | SaT
   2  6,10 - SaT
   2  4,6  | ScI
@@ -9232,7 +9217,6 @@
   2  4,7  | cIS
   2  4,10 - cIS
   2  4,7  | cIT
-  2  3,7  | cL
   2  5,6  - cOR
   2  5,6  - cOS
   2  5,6  - cOT
@@ -9484,7 +9468,6 @@
   1  4,8  | Is
   1  2,5  - It
   1  4,8  | It
-  1  6,6  - Ob
   1  6,6  - Od
   1  6,6  - Oe
   1  6,6  - Of
@@ -9525,9 +9508,11 @@
   1  5,10 - iS
   1  5,6  - jO
   1  4,7  | kI
+  1  4,7  | lI
   1  5,6  - lO
   1  4,7  | mI
   1  5,6  - mO
+  1  4,7  | nI
   1  5,6  - nO
   1  4,7  | oI
   1  5,6  - oO

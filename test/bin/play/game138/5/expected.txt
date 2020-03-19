@@ -75,14 +75,10 @@
  23  8,8  - AWD
  23  8,8  - AWN
  23  8,3  - DAN
- 23  8,3  - NAD
  23  7,3  | QERE
  23  7,8  - RAW
  23  7,8  - REW
- 22  8,3  - DAE
  22  8,3  - DAR
- 22  8,3  - EAD
- 22  8,3  - EAN
  22  7,3  - ERA
  22  5,8  - JAD
  22  4,5  - JEAN
@@ -119,7 +115,6 @@
  21  1,6  | RENDS
  20  9,3  - AE
  20  9,3  - AR
- 20  4,8  - DAE
  20  4,8  - DEA
  20 10,2  | DEANS
  20  4,11 - EDNA
@@ -127,6 +122,8 @@
  20  4,8  - NAE
  20  4,8  - NEA
  20  8,3  | REDAN
+ 19  8,3  | DANAE
+ 19  8,3  | DENAR
  19  5,5  - JAR
  19  5,7  - JAR
  19  5,4  - JERALD
@@ -159,6 +156,7 @@
  17  6,5  - ANDI
  17  3,7  - DAREN
  17  5,11 - DEANeR
+ 17  8,2  | EDANA
  17  6,7  - ENDE
  17  7,2  | JAREED
  17  8,11 - JeAN
@@ -166,6 +164,8 @@
  17  5,11 - NEAReD
  17  8,11 - ReQD
  16  7,11 - AJeE
+ 16  8,2  | ARENA
+ 16  8,3  | DANA
  16  3,7  | DAZA
  16  3,5  - DENAR
  16  3,7  - DENAR
@@ -182,7 +182,6 @@
  15  6,7  - ANRE
  15  6,7  - ARNE
  15  6,5  - ARNI
- 15  1,9  | ASE
  15  4,8  - DA
  15  4,4  - DARNEL
  15  6,11 - DAReN
@@ -201,13 +200,13 @@
  15  4,8  - NE
  15  8,3  | RADA
  15  1,7  | RADS
+ 15  8,3  | RANA
  15  1,7  | REDS
- 14  8,4  | ADA
  14  4,7  - ADEN
  14  7,3  | AJEE
+ 14  8,4  | ANA
  14  2,7  - ANDRE
  14  7,11 - AReND
- 14  5,11 - DAE
  14  5,8  - DAN
  14  6,11 - DANe
  14  5,11 - DEA
@@ -219,7 +218,6 @@
  14 10,3  | JA
  14  7,4  | JEED
  14  8,11 - JeER
- 14  5,8  - NAD
  14  5,11 - NAE
  14  5,11 - NEA
  14  5,8  - NED
@@ -236,13 +234,9 @@
  13  6,11 - DARe
  13  5,7  - DEN
  13  6,11 - DERe
- 13  5,8  - EAD
- 13  5,8  - EAN
  13  6,11 - EAReD
  13  8,1  | EDNA
  13  7,4  | JEER
- 13  5,5  - NAD
- 13  5,7  - NAD
  13  6,11 - NARe
  13  5,7  - NED
  13  6,11 - NERe
@@ -265,7 +259,6 @@
  12  1,7  | ARES
  12  8,1  | ARNE
  12  6,11 - DA
- 12  5,8  - DAE
  12  4,7  - DAER
  12  5,8  - DAR
  12  8,1  | DARE
@@ -275,10 +268,6 @@
  12  4,5  - DEAR
  12  4,7  - DEAR
  12  5,8  - DER
- 12  5,5  - EAD
- 12  5,7  - EAD
- 12  5,5  - EAN
- 12  5,7  - EAN
  12  1,7  | EARS
  12  6,8  - ED
  12  3,5  - EDNA
@@ -316,9 +305,6 @@
  11  3,7  - ANRE
  11  3,7  - ARNE
  11  6,6  | BANDOR
- 11  8,2  | DAE
- 11  5,5  - DAE
- 11  5,7  - DAE
  11  8,5  | DAN
  11  5,5  - DAR
  11  5,7  - DAR
@@ -368,7 +354,6 @@
  10  6,11 - RE
  10  8,2  | REA
  10  9,8  - WAE
- 10  9,8  - WEA
   9  4,7  | ADAT
   9  7,11 - ADeN
   9  8,3  | AE
@@ -384,9 +369,6 @@
   9  1,8  | ARS
   9  6,6  | BARDO
   9  5,11 - DA
-  9  8,5  | DAE
-  9  4,7  - DAE
-  9  7,7  - DAE
   9  7,4  - DALER
   9  8,5  | DAR
   9  7,3  | DAREN
@@ -411,8 +393,11 @@
   9 10,2  | ERA
   9  1,8  | ERS
   9  5,11 - NA
+  9  8,5  | NAA
+  9  8,5  | NAE
   9  4,7  - NAE
   9  7,7  - NAE
+  9  8,5  | NAR
   9  4,8  | NATE
   9  4,8  | NATR
   9  5,11 - NE
@@ -516,8 +501,6 @@
   7  7,7  - REE
   7  8,4  - RLD
   7  9,8  - WE
-  7  9,11 - eAD
-  7  9,11 - eAN
   7  9,11 - eEN
   7  9,11 - eRN
   6  6,5  | ABR
@@ -551,8 +534,10 @@
   6  1,9  | ES
   6  9,5  - IAN
   6 10,3  | NA
+  6  8,5  | NA
   6  8,7  - NE
   6  7,4  | NEED
+  6  8,5  - NI
   6  7,8  | NONA
   6  7,8  | NONE
   6  8,11 - NeAR
@@ -600,7 +585,6 @@
   5  7,4  | REEN
   5  7,8  | RONE
   5 11,9  | SAE
-  5 11,9  | SAR
   5 11,9  | SEA
   5 11,9  | SER
   4  8,5  | AA
@@ -614,7 +598,6 @@
   4 11,7  | ANS
   4  8,6  | AR
   4 11,7  | ARSE
-  4  7,4  | DAE
   4 11,7  | DAS
   4  7,5  | DEA
   4  7,4  | DEE
@@ -653,7 +636,6 @@
   3 11,7  | AES
   3  7,4  | ARE
   3 11,7  | ARS
-  3 11,8  | ASE
   3  4,9  | ATE
   3  7,5  | DE
   3  8,11 - DeA

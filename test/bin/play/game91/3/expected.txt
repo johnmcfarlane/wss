@@ -214,7 +214,6 @@
  34 11,3  | lYCH
  34 11,1  | sCIATH
  34 11,3  | wYCH
- 33  8,9  - ACLe
  33  8,9  - ACLu
  33 11,3  | ArCHT
  33 11,3  | AuCHT
@@ -232,7 +231,6 @@
  33 11,3  | CaTHA
  33 11,3  | CrITH
  33 11,3  | CyATH
- 33 11,6  | HImA
  33  8,9  - HYLa
  33  8,9  - HYLe
  33  8,9  - HYLi
@@ -476,7 +474,9 @@
  28  9,2  | HITChY
  28  1,6  - HIjACK
  28 11,7  | HiA
+ 28 11,7  | HoI
  28 11,2  | ICHTh
+ 28 11,9  | IHS
  28 11,3  | InCH
  28 11,3  | ItCH
  28  1,6  - IzCHAK
@@ -601,8 +601,6 @@
  26  2,6  - wHICK
  25 11,3  | ACHe
  25 11,3  | ACYl
- 25  9,8  | ACeR
- 25  9,8  | ACoR
  25 11,3  | AYaH
  25  9,4  | CATHa
  25  9,3  | CAThY
@@ -695,23 +693,17 @@
  24 11,3  | TCAwI
  24  8,9  - YALI
  24  8,9  - YILT
- 24  9,7  | bAC
  24 11,3  | bAITH
  24  8,9  - cALC
  24  2,6  - cHYAK
- 24  9,7  | fAC
  24 11,3  | fAITH
  24 11,3  | hATHI
- 24  9,7  | lAC
  24 11,3  | lAITH
  24 11,3  | lAITY
  24 11,3  | lATHI
- 24  9,7  | mAC
  24  1,6  - nATICK
- 24  9,7  | pAC
  24 11,3  | sAITH
  24  8,9  - tALC
- 24  9,7  | zAC
  23  9,4  | AChY
  23 11,3  | ATImY
  23 11,2  | CAgIT
@@ -742,7 +734,6 @@
  23  9,3  | kATHY
  23  9,3  | lATHY
  23  9,3  | lITHY
- 23 11,8  | mATS
  23 11,8  | oATS
  23  9,3  | pATHY
  23  9,3  | pITHY
@@ -763,12 +754,10 @@
  22  9,3  | AuCHT
  22  2,6  - AvICK
  22 11,2  | CAITe
- 22  9,9  | CAR
  22  9,4  | CATH
  22  7,2  | CATHaY
  22 11,2  | CITAl
  22  9,4  | CITY
- 22  9,9  | CTR
  22  9,3  | CaTHA
  22  7,2  | CaTHAY
  22  9,5  | CaY
@@ -811,6 +800,7 @@
  22  9,4  | eYAH
  22 11,2  | fAITH
  22  2,6  - hAICK
+ 22 11,9  | iHS
  22  2,6  - kIACK
  22  9,4  | kYAH
  22 11,2  | lAITH
@@ -824,7 +814,6 @@
  22  2,6  - tHITKA
  22 11,9  | uHS
  22  2,6  - uTICK
- 22  2,6  - xICAK
  21 11,3  | AHInT
  21  9,4  | AHeY
  21  9,4  | AHoY
@@ -953,9 +942,7 @@
  20  9,4  | CItY
  20  9,2  | CYATH
  20  7,1  | CYATHI
- 20  9,9  | CaR
  20  9,4  | CaTH
- 20  9,9  | CdR
  20 11,3  | ChAT
  20  9,4  | ChAY
  20 11,3  | ChIT
@@ -965,11 +952,9 @@
  20 11,3  | ClIT
  20 11,3  | CoAT
  20 11,3  | CoIT
- 20  9,9  | CoR
  20  9,4  | CoTH
  20  9,4  | CrAY
  20 11,3  | CrIT
- 20  9,9  | CtR
  20 11,3  | CuIT
  20 11,3  | HAIT
  20  2,6  - HAIcK
@@ -988,7 +973,7 @@
  20  9,5  | HwY
  20 11,2  | IHlAT
  20  9,2  | ITCHY
- 20 11,7  | ImA
+ 20 11,9  | ITS
  20  7,2  | TCHAI
  20 11,4  | TCHAI
  20  2,6  - THAcK
@@ -998,6 +983,7 @@
  20  2,6  - THInK
  20  4,8  - THUoC
  20 11,7  | ToA
+ 20 11,7  | ToI
  20  9,5  | YaH
  20  9,5  | YeH
  20 11,3  | bACT
@@ -1388,10 +1374,8 @@
  17  3,8  - CHAUTe
  17  3,8  - CHAUTh
  17  7,3  | CHAa
- 17  7,3  | CHAb
  17  7,3  | CHAi
  17 11,5  | CHAi
- 17 11,5  | CHAm
  17 11,5  | CHAo
  17  7,1  | CHAtTI
  17  8,8  | CHIA
@@ -1661,7 +1645,6 @@
  16 11,3  | HATh
  16 11,3  | HATs
  16 11,3  | HATt
- 16  7,4  | HAbIT
  16  5,9  | HI
  16  7,4  | HIAnT
  16  3,6  - HICKY
@@ -1687,11 +1670,17 @@
  16 11,3  | ITYs
  16  9,2  | ITcHY
  16 11,3  | IYAr
+ 16 11,9  | IdS
+ 16 11,9  | IfS
+ 16 11,9  | IhS
  16  3,9  - InARCH
+ 16 11,9  | InS
  16  9,5  | IpH
  16  7,6  | IpH
+ 16 11,9  | IrS
  16  7,6  | IsH
  16  8,6  | ItHACA
+ 16 11,9  | ItS
  16 11,3  | TAHr
  16  2,6  - TAjIK
  16  9,4  | TCH
@@ -1873,7 +1862,6 @@
  15  9,5  | CH
  15  8,5  | CHAItYA
  15  3,9  - CHAReT
- 15  7,4  | CHAb
  15  7,4  | CHAd
  15  8,7  | CHAgA
  15  7,4  | CHAi
@@ -2053,10 +2041,8 @@
  15  8,9  - lILA
  15  8,9  - lILT
  15  5,8  - lUCY
- 15 11,8  | mA
  15  8,9  - mALI
  15  8,9  - mALT
- 15  5,8  | mH
  15  9,2  | mICAH
  15  9,2  | mICHT
  15  8,9  - mILA
@@ -2064,6 +2050,7 @@
  15  5,8  - mUCH
  15  9,2  | nICHT
  15  9,4  | oCH
+ 15 11,8  | oI
  15  5,8  - oUCH
  15  9,2  | pACHT
  15  8,9  - pALI
@@ -2394,13 +2381,13 @@
  14  7,5  | fAY
  14  5,8  | fAY
  14  2,9  - fCHAR
- 14  7,9  | fIZ
  14  7,5  | gAIT
  14  7,5  | gAY
  14  9,4  | gHAT
  14  7,5  | hAH
  14  7,5  | hAIT
  14  7,5  | hAY
+ 14 11,9  | iTS
  14  7,5  | jAY
  14  4,9  - kARCH
  14  7,5  | kAY
@@ -2419,7 +2406,6 @@
  14  4,9  - mARCH
  14  7,5  | mAY
  14  5,8  | mAY
- 14  9,6  | mH
  14  9,6  | mY
  14  7,5  | nAY
  14  5,8  | nAY
@@ -2478,8 +2464,6 @@
  13  7,5  | AIrT
  13  5,8  - AUTH
  13  7,5  | AaH
- 13  7,5  | AbIT
- 13  7,5  | AbY
  13  9,3  | AcCT
  13  7,3  | AsCI
  13  3,7  - CAHOt
@@ -2583,7 +2567,6 @@
  13  9,4  | HAYz
  13  7,2  | HAiTI
  13  8,5  | HAlTICA
- 13 11,6  | HAm
  13 11,6  | HAo
  13  7,2  | HAtTI
  13 11,4  | HAtTI
@@ -2592,7 +2575,6 @@
  13  3,6  - HICKs
  13  3,6  - HICKy
  13  8,8  - HIGh
- 13 11,6  | HIm
  13  3,9  - HYdRIA
  13  8,8  | HYlA
  13  8,8  - HaGI
@@ -2741,7 +2723,6 @@
  12  5,9  | AY
  12  7,4  | AYIn
  12  9,3  | AYaH
- 12  7,6  | AbT
  12  7,6  | AeT
  12  7,6  | AfT
  12  7,6  | AhT
@@ -2773,7 +2754,6 @@
  12  9,3  | CATe
  12  9,3  | CATh
  12  9,7  - CAY
- 12  7,5  | CAb
  12  9,5  | CAb
  12  7,5  | CAd
  12  9,5  | CAd
@@ -2844,7 +2824,6 @@
  12  9,3  | CITy
  12  7,5  | CId
  12  7,5  | CIe
- 12  7,5  | CIf
  12  9,3  | CImA
  12  9,4  | CImA
  12  7,5  | CIr
@@ -2894,7 +2873,6 @@
  12  3,6  - HAsKY
  12  3,7  - HAvOC
  12  3,6  - HAwKY
- 12  7,4  | HCb
  12  9,4  | HCb
  12  9,4  | HCf
  12 11,7  | HI
@@ -3015,9 +2993,7 @@
  12  9,3  | aYAH
  12  9,3  | bACT
  12  9,2  | bAITH
- 12  7,6  | bIT
  12  5,6  - bKCY
- 12  7,6  | bY
  12  9,3  | bYTH
  12  7,3  | cACI
  12  9,5  | cHA
@@ -3230,7 +3206,6 @@
  11  3,9  - CzAR
  11  8,10 - HAE
  11  3,9  - HAIRsT
- 11  7,5  | HAb
  11  7,5  | HAd
  11  7,5  | HAe
  11  9,4  | HAeT
@@ -3417,8 +3392,6 @@
  11  1,7  - kYATHOI
  11 11,3  | lAIT
  11 11,4  | lATH
- 11  7,4  | lCA
- 11  9,4  | lCA
  11 11,4  | lITH
  11  5,7  - lOCHIA
  11  7,3  | mAHI
@@ -3529,7 +3502,6 @@
  10  9,7  - CAT
  10  3,8  - CATUr
  10  9,4  | CATh
- 10  7,4  | CAb
  10  3,6  - CAcK
  10  3,8  - CAgUI
  10  7,4  | CAi
@@ -3554,7 +3526,6 @@
  10  3,7  - CIaO
  10  3,8  - CIgUA
  10  3,8  - CItUA
- 10  9,9  - CL
  10  5,7  - COAITA
  10  5,7  - COTYlA
  10  5,9  - CReA
@@ -3570,7 +3541,6 @@
  10  9,2  | ChITA
  10  2,9  - ChITRA
  10  3,7  - CiAO
- 10  3,7  - ClIO
  10  8,6  | CoAITA
  10  3,6  - CoAK
  10  4,9  - CoRAH
@@ -3595,7 +3565,6 @@
  10  9,3  | HATh
  10  9,3  | HATt
  10  9,7  - HAY
- 10  9,5  | HAb
  10  9,2  | HAbIT
  10  9,5  | HAd
  10  9,2  | HAdIT
@@ -3648,7 +3617,6 @@
  10  9,4  | HeY
  10 11,7  | Hi
  10  7,4  | HiA
- 10 11,7  | Hm
  10  9,4  | HnY
  10 11,7  | Ho
  10  7,4  | HoI
@@ -3678,7 +3646,6 @@
  10  7,3  | ITzA
  10  5,7  | IbA
  10  5,7  | IlA
- 10  5,7  | ImA
  10  7,3  | InTA
  10  7,3  | IoTA
  10  6,6  - KIeYE
@@ -3709,7 +3676,6 @@
  10  9,4  | TAY
  10  3,9  - TAYRa
  10  7,3  | TAbI
- 10  7,4  | TAbI
  10  9,3  | TAcH
  10  3,6  - TAcKY
  10  9,3  | TAkY
@@ -3799,7 +3765,6 @@
  10  9,4  | YeH
  10 11,4  | YeH
  10 11,7  | Yi
- 10 11,7  | Ym
  10 11,7  | Yo
  10  3,7  - YoHO
  10 11,4  | aCTA
@@ -4120,7 +4085,6 @@
   9  9,4  | HATt
   9  2,9  - HAYeR
   9  3,6  - HAaK
-  9  7,4  | HAb
   9  3,6  - HAcK
   9  3,6  - HAiK
   9  3,6  - HAnK
@@ -4183,6 +4147,7 @@
   9  6,6  - KHI
   9  6,6  - KpC
   9 10,9  - LA
+  9 10,9  - LI
   9  6,7  - OCHnA
   9  6,7  - OmAHA
   9  6,7  - OrIYA
@@ -4198,14 +4163,12 @@
   9  4,8  - TAUrI
   9  2,9  - TAYIR
   9  9,2  | TAYIr
-  9  7,5  | TAb
   9  8,7  | TAcCA
   9  7,5  | TAd
   9  7,5  | TAe
   9  7,5  | TAi
   9 11,6  | TAi
   9  7,5  | TAm
-  9 11,6  | TAm
   9  7,5  | TAn
   9  7,5  | TAo
   9 11,6  | TAo
@@ -4228,12 +4191,10 @@
   9  3,9  - THoRIA
   9 11,5  | THy
   9  8,7  | TICcA
-  9  7,5  | TIb
   9  8,7  | TIcCA
   9  7,5  | TId
   9  7,5  | TIe
   9  7,5  | TIm
-  9 11,6  | TIm
   9  7,5  | TIn
   9  9,4  | TInA
   9  7,5  | TIp
@@ -4294,8 +4255,6 @@
   9 11,4  | YeTA
   9 11,4  | YeTI
   9  4,9  - YiRTH
-  9  5,7  | Ym
-  9  7,7  | Ym
   9  4,6  - YuKI
   9  9,8  | aA
   9  9,4  | aAH
@@ -4381,13 +4340,11 @@
   9  4,6  - lAKY
   9  7,3  | lATI
   9  9,4  | lAY
-  9  8,7  - lCA
   9  4,9  - lYRA
   9  9,4  | mAH
   9  4,9  - mARY
   9  1,7  - mATICO
   9  9,4  | mAY
-  9  7,7  | mH
   9  4,9  - mIRAC
   9  4,9  - mIRY
   9  9,4  | mYA
@@ -4512,7 +4469,6 @@
   8  9,7  | Aa
   8  9,4  | AaH
   8 11,4  | AaH
-  8  7,6  | Ab
   8  9,9  | AbR
   8  9,5  | AbT
   8  9,4  | AbY
@@ -4752,7 +4708,6 @@
   8  3,9  - IYAR
   8  9,3  | IYAr
   8  8,7  - IYAr
-  8  7,6  | Ib
   8  7,4  | IbA
   8  9,5  | IbA
   8  9,4  | IcH
@@ -4761,8 +4716,6 @@
   8  7,6  | Id
   8  7,6  | If
   8  7,4  | IlA
-  8  7,4  | ImA
-  8  9,5  | ImA
   8  7,6  | In
   8  8,8  | InCA
   8  3,8  - InCUT
@@ -4943,7 +4896,6 @@
   8  9,6  | Ya
   8  4,6  - YaK
   8  7,5  | Yi
-  8  9,6  | Ym
   8  4,6  - YoK
   8  4,6  - YuK
   8 11,4  | aAH
@@ -4961,7 +4913,6 @@
   8  9,5  | bAT
   8  9,3  | bHAT
   8  8,7  - bHAT
-  8  7,6  | bI
   8  4,9  - bIRTH
   8  7,4  | cAI
   8  4,9  - cARTY
@@ -5045,7 +4996,6 @@
   8  4,9  - mARTY
   8  9,5  | mAT
   8  8,7  | mATHA
-  8 11,6  | mH
   8  7,4  | mIA
   8  4,9  - mIRTH
   8 11,6  | mY
@@ -5130,7 +5080,6 @@
   8  4,9  - yIRTH
   8  9,5  | zAT
   8  2,9  - zIHAR
-  7  4,7  - ACOIn
   7  4,7  - ACOsT
   7  3,9  - ACeR
   7  3,9  - ACoR
@@ -5208,7 +5157,6 @@
   7  9,4  | CIa
   7  9,4  | CId
   7  9,4  | CIe
-  7  9,4  | CIf
   7  9,4  | CIr
   7  9,4  | CIt
   7  5,7  - COAT
@@ -5258,7 +5206,6 @@
   7  4,9  - HARsT
   7 11,4  | HAT
   7  2,9  - HATeR
-  7  9,7  - HAb
   7  9,7  - HAd
   7  9,7  - HAe
   7  9,7  - HAf
@@ -5365,7 +5312,6 @@
   7  2,9  - TAYeR
   7  2,9  - TAYiR
   7  7,4  | TAa
-  7  7,4  | TAb
   7  3,6  - TAcK
   7  7,4  | TAi
   7  3,6  - TAlK
@@ -5382,7 +5328,6 @@
   7  8,8  - TIGe
   7  4,6  - TIKe
   7  4,6  - TIKi
-  7  7,4  | TIb
   7  3,6  - TIcK
   7  3,8  - TIgUA
   7  3,6  - TInK
@@ -5432,7 +5377,6 @@
   7 11,5  | YeA
   7  8,7  - YeAH
   7 11,5  | YeT
-  7  9,5  | Ym
   7  9,5  | Yo
   7  3,10 - YoHO
   7 11,5  | YoT
@@ -5503,13 +5447,12 @@
   7  5,8  | lA
   7  3,6  - lAIK
   7 11,4  | lATI
+  7  7,5  | lI
   7  2,7  - lITHO
   7  7,5  | mA
   7  5,8  | mA
   7  4,6  - mAKI
   7  8,8  - mCG
-  7  9,5  | mH
-  7 11,5  | mH
   7  7,5  | mI
   7  3,8  - mITUA
   7  9,5  | mY
@@ -5517,6 +5460,7 @@
   7  7,5  | nA
   7  5,8  | nA
   7  3,6  - nAIK
+  7  7,5  | nI
   7  8,8  - nIGH
   7 11,4  | oCT
   7  9,5  | oH
@@ -5629,7 +5573,6 @@
   6  5,6  - AKa
   6  5,6  - AKe
   6  5,6  - AKo
-  6  5,6  - AKu
   6  5,9  - ARcH
   6  5,9  - ARgH
   6  5,9  - ARmY
@@ -5650,7 +5593,6 @@
   6  5,8  - AUnT
   6  4,7  - AYOnT
   6  7,5  | Aa
-  6  7,5  | Ab
   6  5,9  | Ab
   6  4,8  - AbUT
   6  4,6  - AcK
@@ -5668,7 +5610,6 @@
   6  8,6  - AlEC
   6  8,8  - AlG
   6  2,7  - AlTHO
-  6 11,7  | Am
   6  5,9  | Am
   6  5,9  | An
   6  3,10 - ArCO
@@ -5677,7 +5618,6 @@
   6  8,7  | ArTHA
   6  4,8  - ArUI
   6  5,9  | As
-  6  8,8  - AsG
   6  4,6  - AsK
   6  5,9  | At
   6  8,8  - AuG
@@ -5704,7 +5644,6 @@
   6  3,10 - CIaO
   6 11,4  | CId
   6 11,4  | CIe
-  6 11,4  | CIf
   6 11,4  | CIr
   6 11,4  | CIs
   6 11,4  | CIt
@@ -5770,7 +5709,6 @@
   6  8,6  - ChET
   6  3,10 - CiAO
   6  8,7  - ClAT
-  6  3,10 - ClIO
   6  4,7  - ClOT
   6  8,9  - CmL
   6  8,7  - CoAT
@@ -5798,7 +5736,6 @@
   6  4,9  - HARr
   6  4,9  - HARt
   6  4,9  - HARv
-  6  9,4  | HAb
   6  9,4  | HAd
   6  9,4  | HAe
   6  9,4  | HAf
@@ -5874,7 +5811,6 @@
   6 11,4  | ITeA
   6  9,3  | ITzA
   6  3,9  - IYaR
-  6  7,5  | Ib
   6  3,7  - IcHO
   6  3,8  - IcHU
   6  2,7  - IdAHO
@@ -5913,10 +5849,10 @@
   6  6,6  - KoI
   6  6,6  - KrA
   6  6,6  - KsI
-  6  6,6  - KuA
   6  6,6  - KuI
   6 10,9  - La
   6 10,9  - Lb
+  6 10,9  - Li
   6 10,9  - Ll
   6 10,9  - Lo
   6 10,9  - Lu
@@ -6110,7 +6046,6 @@
   6  5,8  - bUAT
   6  8,8  | cACA
   6  3,7  - cAHOT
-  6  9,9  | cAR
   6  3,9  - cHAR
   6  8,8  - cHG
   6  3,7  - cHIOT
@@ -6119,7 +6054,6 @@
   6  5,7  - cOCA
   6  5,7  - cOCT
   6  5,9  - cRAY
-  6  9,9  | cTR
   6  5,8  - cUIT
   6  9,6  | dA
   6  9,7  | dA
@@ -6174,6 +6108,7 @@
   6  4,6  - lAK
   6  9,9  | lAR
   6  4,7  - lHOTA
+  6 11,7  | lI
   6  3,9  - lITRA
   6  3,8  - lITU
   6  5,7  - lOCA
@@ -6198,6 +6133,7 @@
   6  9,7  | nA
   6  4,6  - nAK
   6  3,8  - nATU
+  6 11,7  | nI
   6  8,7  | nIATA
   6  4,6  - oAK
   6  4,6  - oIK
@@ -6340,7 +6276,6 @@
   5  4,8  - AhU
   5  8,6  - AkEY
   5  8,8  | AkIA
-  5  4,8  - AkU
   5  8,7  - AlAY
   5  8,8  | AlIA
   5 11,5  | AlT
@@ -6403,7 +6338,6 @@
   5  8,9  | CiA
   5  8,6  - CiE
   5  4,9  - CiR
-  5 11,5  | Cl
   5  4,7  - ClO
   5  4,10 - ClO
   5  4,9  - ClR
@@ -6518,7 +6452,6 @@
   5  5,7  | If
   5  8,6  - IkEY
   5 11,5  | IlA
-  5 11,5  | ImA
   5  4,8  - ImU
   5  5,7  | In
   5  7,7  | In
@@ -6536,7 +6469,6 @@
   5  3,9  - IyAR
   5  3,9  - IzAR
   5  6,6  - Ka
-  5  6,6  - Kb
   5  6,6  - Ki
   5  6,7  - OCa
   5  6,7  - OCh
@@ -6745,7 +6677,6 @@
   5  9,4  | bIT
   5  5,7  - bOC
   5  5,7  - bOTH
-  5  7,7  | bT
   5  5,8  - bUY
   5  4,9  - cART
   5  9,4  | cAT
@@ -6757,7 +6688,6 @@
   5  9,4  | cIA
   5  9,4  | cIT
   5  5,7  - cOTH
-  5  8,10 - dAE
   5  4,9  - dARI
   5  4,9  - dART
   5  9,4  | dAT
@@ -6820,7 +6750,6 @@
   5  9,7  - lAC
   5  4,9  - lARI
   5  9,4  | lAT
-  5  8,9  | lCA
   5  4,9  - lIRA
   5  9,4  | lIT
   5  5,7  - lOC
@@ -6844,8 +6773,6 @@
   5  5,7  - mOYA
   5  8,10 - nAE
   5  9,4  | nAT
-  5  4,7  - nCO
-  5  4,10 - nCO
   5  9,4  | nIT
   5  5,7  - nOAH
   5  8,6  - nYET
@@ -7110,7 +7037,6 @@
   4  4,7  - IbOTA
   4  4,9  - IkRA
   4  9,4  | IlA
-  4  9,4  | ImA
   4  9,4  | InT
   4 11,4  | InT
   4  3,7  - InTO
@@ -7260,7 +7186,6 @@
   4  8,9  | YeA
   4  8,6  - YeE
   4  4,9  - YeR
-  4 11,5  | Ym
   4  4,7  - YnO
   4  4,10 - YnO
   4 11,5  | Yo
@@ -7402,6 +7327,7 @@
   4 11,4  | lAT
   4  9,7  - lAY
   4  9,6  - lEY
+  4 11,6  | lI
   4  3,9  - lIAR
   4  8,8  - lIG
   4 11,4  | lIT
@@ -7434,6 +7360,7 @@
   4  3,9  - nATR
   4  4,8  - nAUT
   4  9,7  - nAY
+  4 11,6  | nI
   4  8,8  - nIG
   4  8,9  - nIL
   4  4,7  - nIOTA
@@ -7577,7 +7504,6 @@
   3 11,4  | AIt
   3  5,7  - AOlI
   3  5,9  - AR
-  3  5,9  - ARa
   3  5,9  - ARb
   3  5,9  - ARc
   3  5,9  - ARe
@@ -7645,7 +7571,6 @@
   3  8,9  - AwL
   3  9,5  | Ay
   3 10,8  - Gi
-  3 10,8  - Gm
   3 10,8  - Go
   3  4,7  - IAO
   3  4,10 - IAO
@@ -7836,7 +7761,6 @@
   3  8,7  - aAA
   3  9,8  - aG
   3  4,9  - aIR
-  3  5,9  - aRA
   3  5,9  - aRT
   3  9,5  | aT
   3 11,5  | aT
@@ -7925,12 +7849,10 @@
   3  9,5  | kA
   3  5,7  - kOTA
   3  5,9  - kRA
-  3  5,8  - kUA
   3  5,8  - kUI
   3  9,5  | lA
   3  8,6  - lAET
   3  4,9  - lAR
-  3  8,8  | lATA
   3  4,9  - lIR
   3  5,7  - lOTA
   3  4,9  - lTR
@@ -7947,7 +7869,6 @@
   3  5,7  - mOAI
   3  5,7  - mOAT
   3  5,7  - mOIT
-  3  5,7  - mOTA
   3  5,8  - mUT
   3  9,5  | nA
   3  8,7  - nAA
@@ -7997,7 +7918,6 @@
   3  5,8  - rUA
   3  5,8  - rUT
   3  8,7  - sAA
-  3  4,9  - sAR
   3  8,8  | sATA
   3  4,8  - sAU
   3  8,7  - sIA
@@ -8062,8 +7982,6 @@
   2  4,9  - AbR
   2  8,6  - AcE
   2 11,5  | Ad
-  2  8,7  - AdA
-  2  8,9  | AdA
   2  4,7  - AdO
   2  4,10 - AdO
   2 11,5  | Ae
@@ -8102,16 +8020,11 @@
   2  8,6  - ApE
   2  4,9  - ApR
   2 11,5  | Ar
-  2  8,7  - ArA
-  2  8,9  | ArA
   2  8,6  - ArE
   2  4,7  - ArO
   2  4,10 - ArO
   2  4,9  - ArR
   2 11,5  | As
-  2  8,7  - AsA
-  2  8,9  | AsA
-  2  8,6  - AsE
   2 11,5  | At
   2  8,6  - AtE
   2  8,7  - AvA
@@ -8150,11 +8063,7 @@
   2  8,7  - IlA
   2  8,9  | IlA
   2  8,6  - IlE
-  2  8,7  - ImA
-  2  8,9  | ImA
   2 11,5  | In
-  2  4,7  - InO
-  2  4,10 - InO
   2 11,5  | Io
   2  4,9  - IpR
   2  8,7  - IrA
@@ -8321,12 +8230,10 @@
   2  9,7  - cAT
   2  8,9  | cIA
   2  8,6  - cIE
-  2  9,9  - cL
   2  5,7  - cOT
   2  8,6  - cTE
   2  4,7  - cTO
   2  4,10 - cTO
-  2  8,6  - dAE
   2  4,7  - dAO
   2  4,10 - dAO
   2  9,7  - dAT
@@ -8399,8 +8306,6 @@
   2  5,7  - lOT
   2  5,8  - lU
   2  8,6  - mAE
-  2  4,7  - mAO
-  2  4,10 - mAO
   2  9,7  - mAT
   2  9,6  - mEA
   2  9,6  - mET
@@ -8483,10 +8388,8 @@
   2  8,6  - vIE
   2  8,6  - wAE
   2  9,7  - wAT
-  2  9,6  - wEA
   2  9,6  - wEI
   2  9,6  - wET
-  2  5,7  - wOA
   2  5,7  - wOT
   2  5,8  - xU
   2  9,7  - yAT
@@ -8524,7 +8427,6 @@
   1 10,6  - Et
   1 10,6  - Ew
   1 10,6  - Ex
-  1  6,7  - Ob
   1  6,7  - Od
   1  6,7  - Oe
   1  6,7  - Of
@@ -8540,7 +8442,6 @@
   1  6,7  - Ox
   1  6,7  - Oy
   1  6,9  - Re
-  1  6,9  - Rf
   1  9,7  - aA
   1  8,10 | aA
   1  9,6  - aE

@@ -71,6 +71,7 @@
  28 10,6  | REDID
  28  2,6  | RESAID
  28  6,2  - ROSIED
+ 27  8,10 - DSRI
  27  8,2  | RIE
  27  8,2  | SIE
  26  1,10 - CIE
@@ -104,8 +105,10 @@
  23  8,4  | ES
  23  4,10 - RECD
  23  4,10 - RICES
+ 23  9,10 - SEI
  23  4,10 - SERIC
  23  4,10 - SICER
+ 23  9,10 - SRI
  22  3,2  - CIRSOID
  22  4,6  - CRESSED
  22  1,6  - DECRIES
@@ -144,6 +147,7 @@
  20  6,10 - RECS
  20  2,6  | SERAI
  19  1,5  | DEISTIC
+ 19 10,10 - DI
  19  4,10 - REC
  19  4,10 - RESID
  19  4,10 - RIC
@@ -177,8 +181,6 @@
  18  4,2  - SCROD
  18  2,10 - SER
  18  3,9  | WEI
- 18  3,9  | WER
- 18  3,9  | WES
  18  3,9  | WIR
  18  3,9  | WIS
  17  2,10 - DE
@@ -266,6 +268,7 @@
  15  8,5  | SECT
  15  4,10 - SED
  15  4,10 - SERI
+ 15 10,10 - SI
  15  4,10 - SID
  15  4,10 - SIER
  15  4,10 - SIRE
@@ -541,7 +544,6 @@
   8  4,6  - CRESS
   8  1,5  | CREST
   8  3,6  - CRIES
-  8  2,8  | DAE
   8  2,8  | DAR
   8  2,8  | DAS
   8  5,6  - DESC
@@ -555,7 +557,6 @@
   8  6,2  - DOE
   8  6,2  - DOR
   8  6,2  - DOS
-  8  2,8  | EAD
   8  2,8  | EARS
   8  1,8  - ED
   8  5,2  - EDO
@@ -657,7 +658,6 @@
   6  7,8  | ARED
   6  7,8  | ARID
   6  2,9  | ARS
-  6  2,9  | ASE
   6  4,7  | CAI
   6  2,7  | CIA
   6  1,7  | CIT
@@ -716,7 +716,6 @@
   6  2,8  | SAI
   6  4,7  | SAIDI
   6  4,7  | SAIID
-  6  2,8  | SAR
   6  1,7  | SCT
   6  8,6  | SET
   6  3,6  - SIDES
@@ -786,7 +785,6 @@
   4  7,8  | ARE
   4  7,8  | ARS
   4  2,9  | AS
-  4  7,8  | ASE
   4  2,7  | DEA
   4  1,7  | DET
   4  2,7  | DIA
@@ -839,6 +837,7 @@
   3  2,7  | IRA
   3  1,7  | IST
   3  1,8  | ITS
+  3 11,9  | LI
   3  7,2  - OD
   3  7,2  - OER
   3  7,2  - OES

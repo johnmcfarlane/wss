@@ -85,7 +85,6 @@
  33  9,7  | sILVA
  32  5,9  - JAvAS
  32  9,7  | JIVA
- 32  9,10 - JmS
  32  9,10 - JuS
  32  5,9  - mAJAS
  32  5,9  - rAJAS
@@ -110,7 +109,6 @@
  29  3,7  - JaVA
  29  3,5  - JiVA
  29  3,7  - JiVA
- 29  6,2  | JmS
  29  3,5  - JoVA
  29  3,7  - JoVA
  29  7,9  - JuS
@@ -153,6 +151,7 @@
  26  7,10 - AVArS
  26  7,10 - AVgAS
  26  7,9  - JA
+ 26  1,7  - JAVALi
  26  5,9  - LAVAS
  26  8,10 - LuVS
  26 10,8  | QAtS
@@ -273,6 +272,7 @@
  20  8,10 - AALS
  20  8,10 - ALAS
  20  7,10 - ALAnS
+ 20  7,10 - ALApS
  20  7,10 - ALbAS
  20  7,10 - ALfAS
  20  7,10 - ALgAS
@@ -488,6 +488,7 @@
  16  5,9  - pALAS
  16  5,9  - tALAS
  16  6,9  - uVA
+ 15  5,9  - ALApS
  15  5,9  - ALbAS
  15  5,9  - ALfAS
  15  5,9  - ALgAS
@@ -506,7 +507,6 @@
  15  6,4  | JeLLS
  15  6,1  - JiBE
  15  6,4  | JiLLS
- 15  6,1  - JoBE
  15  6,1  - JuBE
  15  7,9  - LAS
  15 11,1  | LAT
@@ -520,7 +520,6 @@
  15  1,7  - SALViA
  15  1,5  - SALiVA
  15  1,7  - SALiVA
- 15  6,9  - SVc
  15  4,9  - VALSa
  15  4,9  - VALSe
  15  3,5  - VALe
@@ -657,9 +656,9 @@
  13  2,7  - ArVAL
  13  8,5  - EVER
  13  4,7  - JAb
+ 13  4,7  - JAi
  13  6,4  | JoLS
  13  5,9  - LASA
- 13  6,9  - LAcS
  13  6,1  | LAm
  13  6,9  - LApS
  13  2,5  - LArVA
@@ -680,6 +679,7 @@
  13  5,9  - SALA
  13  4,9  - SAoLA
  13  2,5  - SLAVe
+ 13  2,7  - SLAVi
  13  3,5  - ScALAE
  13  6,2  | SmL
  13  2,5  - VALsA
@@ -715,7 +715,6 @@
  12  6,9  - ALAs
  12  4,9  - ASALe
  12 11,1  | AST
- 12  4,4  - ASoAK
  12  6,9  - AbAS
  12  4,4  - AbASK
  12  6,9  - AgAS
@@ -803,6 +802,7 @@
  12  3,7  - aVAL
  12  4,9  - bALSA
  12  9,7  | dIVA
+ 12  9,7  | dIVS
  12 10,10 - eS
  12  3,5  - eVAL
  12  3,7  - eVAL
@@ -848,7 +848,6 @@
  11  7,9  - LAs
  11  5,9  - LAsA
  11  7,9  - LAt
- 11  5,9  - LAtA
  11  5,9  - LAvA
  11  4,9  - LoASA
  11  6,4  | LuLAVS
@@ -872,11 +871,11 @@
  11  6,4  | VALvAL
  11  2,5  - VASAl
  11  2,7  - VASAl
- 11  6,9  - VAc
  11  6,9  - VAi
  11  6,9  - VAu
  11  9,7  | VIa
  11  9,7  | VIc
+ 11  9,7  | VId
  11  9,7  | VIe
  11  9,7  | VIi
  11  9,7  | VIl
@@ -1068,13 +1067,11 @@
   9  6,5  | ALVuS
   9  6,9  - ALa
   9  5,5  - ALaE
-  9  4,5  - ALcAE
   9  6,9  - ALe
   9  5,5  - ALeE
   9  5,5  - ALoE
   9  6,9  - ALp
   9  8,2  - AMIA
-  9  6,9  - ASA
   9  5,9  - ASAp
   9  6,4  - ASK
   9  5,9  - ASeA
@@ -1114,8 +1111,6 @@
   9  3,5  - LAsA
   9  3,7  - LAsA
   9  5,4  - LAsK
-  9  3,5  - LAtA
-  9  3,7  - LAtA
   9  3,5  - LAvA
   9  3,7  - LAvA
   9  5,4  - LAwK
@@ -1157,8 +1152,6 @@
   9  2,5  - SAoLA
   9  2,7  - SAoLA
   9  5,9  - SApA
-  9  5,9  - SArA
-  9  5,9  - SAsA
   9  7,9  - SAt
   9  5,9  - SAtA
   9  3,5  - SAuL
@@ -1255,7 +1248,6 @@
   9  2,5  - sALSA
   9  2,7  - sALSA
   9  6,4  | sALVA
-  9  5,9  - sASA
   9 11,1  | sAT
   9  6,5  | sLAVS
   9  5,4  - tASK
@@ -1312,24 +1304,23 @@
   8  3,5  - LASa
   8  3,7  - LASa
   8  3,5  - LASe
+  8  3,7  - LASi
   8  6,6  | LAV
   8  6,6  | LAVa
   8  6,6  | LAVe
   8  6,6  | LAVy
-  8  6,9  - LAc
   8  6,9  - LAi
   8  6,9  - LAp
   8  9,7  | LIAS
   8  9,7  | LISA
-  8  6,9  - LSc
   8  7,9  - La
   8  6,4  - LaK
   8  6,6  | LaVA
-  8  6,9  - LcA
   8  6,9  - LeA
   8  6,5  - LeE
   8  6,4  - LeK
   8  6,6  | LeVA
+  8  7,9  - Li
   8  6,5  - LiE
   8  6,9  - LoA
   8  2,5  - LoASA
@@ -1342,11 +1333,9 @@
   8  4,7  - SAL
   8  2,5  - SALAl
   8  2,7  - SALAl
-  8  4,5  - SAcAE
   8  5,4  - SAnK
   8  5,4  - SArK
   8  6,5  | SLaV
-  8  4,5  - SVc
   8  3,5  - SaLA
   8  3,7  - SaLA
   8  2,5  - ScALA
@@ -1358,14 +1347,13 @@
   8  6,4  | VAL
   8  6,4  | VALe
   8  6,4  | VALl
-  8  4,5  - VAc
+  8  4,7  - VAi
   8  4,5  - VAl
   8  4,7  - VAl
   8  4,7  - VAu
   8  6,4  | VeLA
   8  6,4  | VoLS
   8  6,9  - aAA
-  8  6,9  - aSA
   8  6,4  - aSK
   8  6,9  - bAA
   8  3,5  - bAAL
@@ -1405,12 +1393,11 @@
   7  4,5  - ALA
   7  4,7  - ALA
   7  3,5  - ALAe
+  7  3,7  - ALAi
   7  6,4  | ALLAyS
   7  3,7  - ALSo
   7  8,2  - AMIa
   7  8,2  - AMIe
-  7  6,9  - ASa
-  7  6,9  - ASe
   7  3,5  - ASeA
   7  3,7  - ASeA
   7  3,5  - AShA
@@ -1428,7 +1415,6 @@
   7  4,5  - AbL
   7  4,7  - AbL
   7  8,9  - Ad
-  7  6,9  - AdA
   7  6,9  - AgA
   7  6,9  - AhA
   7  6,4  - AiK
@@ -1445,10 +1431,8 @@
   7  3,5  - AnSA
   7  3,7  - AnSA
   7  6,9  - ApA
-  7  6,9  - ArA
   7  6,4  - ArK
   7  8,9  - As
-  7  6,9  - AsA
   7  6,4  - AsK
   7  8,9  - At
   7  4,5  - AuL
@@ -1500,6 +1484,7 @@
   7  9,7  | LISt
   7  6,6  | LaV
   7  6,6  | LeV
+  7  6,7  - Li
   7  6,6  | LiV
   7  6,7  - Lo
   7  6,1  - LoBE
@@ -1514,7 +1499,6 @@
   7  6,9  - SAa
   7  3,5  - SAbA
   7  3,7  - SAbA
-  7  6,9  - SAc
   7  6,9  - SAe
   7  3,5  - SAgA
   7  3,7  - SAgA
@@ -1526,10 +1510,6 @@
   7  6,9  - SAp
   7  3,5  - SApA
   7  3,7  - SApA
-  7  3,5  - SArA
-  7  3,7  - SArA
-  7  3,5  - SAsA
-  7  3,7  - SAsA
   7  3,5  - SAtA
   7  3,7  - SAtA
   7  6,9  - SAu
@@ -1657,8 +1637,6 @@
   6  6,5  | ALaLA
   6  6,5  | ALgAL
   6  6,5  | ALuLA
-  6  4,5  - ASA
-  6  4,7  - ASA
   6  7,9  - Aa
   6  6,1  - AbBE
   6  7,9  - Ae
@@ -1712,8 +1690,6 @@
   6  9,7  | LItS
   6  9,7  | LIzA
   6  6,5  | LLAmA
-  6  4,5  - LcA
-  6  4,7  - LcA
   6  4,5  - LeA
   6  4,7  - LeA
   6  6,4  | LiLAS
@@ -1748,8 +1724,6 @@
   6  6,4  | cALLS
   6  3,5  - cASA
   6  3,7  - cASA
-  6  5,5  - cL
-  6  5,7  - cL
   6  7,9  - dA
   6  9,7  | eILA
   6  5,5  - eL
@@ -1806,8 +1780,6 @@
   6  3,7  - rASA
   6  6,1  - sABE
   6  6,4  | sALAL
-  6  3,5  - sASA
-  6  3,7  - sASA
   6  4,5  - sLA
   6  4,7  - sLA
   6  7,9  - tA
@@ -1831,6 +1803,7 @@
   5  9,7  | AIeL
   5  6,5  | ALAS
   5  6,5  | ALAnS
+  5  6,5  | ALApS
   5  6,4  | ALL
   5  6,5  | ALL
   5  6,4  | ALLe
@@ -1853,14 +1826,11 @@
   5  4,7  - ALl
   5  6,5  | ALmAS
   5  6,5  | ALoSA
-  5  7,5  | ASA
   5  7,5  | ASS
   5  4,5  - AaA
   5  4,7  - AaA
   5  4,5  - AbA
   5  4,7  - AbA
-  5  4,5  - AdA
-  5  4,7  - AdA
   5  4,5  - AgA
   5  4,7  - AgA
   5  6,7  - Ah
@@ -1878,10 +1848,6 @@
   5  6,4  | AnLAS
   5  4,5  - ApA
   5  4,7  - ApA
-  5  4,5  - ArA
-  5  4,7  - ArA
-  5  4,5  - AsA
-  5  4,7  - AsA
   5  6,4  | AtLAS
   5  6,4  | AuLAS
   5  4,5  - AvA
@@ -1918,9 +1884,10 @@
   5  6,6  | LALo
   5  6,6  | LASA
   5  4,7  - LAb
-  5  4,5  - LAc
+  5  4,7  - LAi
   5  6,6  | LAlL
   5  4,7  - LAo
+  5  9,7  | LI
   5  9,7  | LIb
   5  9,7  | LId
   5  9,7  | LIe
@@ -1935,7 +1902,6 @@
   5  9,7  | LIt
   5  9,7  | LIv
   5  9,7  | LIz
-  5  4,5  - LSc
   5  6,6  | LeAL
   5  6,4  | LiLA
   5  6,6  | LiLA
@@ -1991,8 +1957,6 @@
   5  9,7  | aIL
   5  6,4  | aLLS
   5  6,5  | aLLS
-  5  4,5  - aSA
-  5  4,7  - aSA
   5  4,5  - bAA
   5  4,7  - bAA
   5  6,4  | bALAS
@@ -2091,14 +2055,8 @@
   4  6,5  | ALtS
   4  6,5  | ALyA
   4  7,5  | AS
-  4  4,5  - ASa
-  4  7,5  | ASa
-  4  4,7  - ASa
   4  7,5  | ASb
   4  4,7  - ASb
-  4  4,5  - ASe
-  4  7,5  | ASe
-  4  7,5  | ASg
   4  7,5  | ASh
   4  7,5  | ASk
   4  7,5  | ASp
@@ -2112,7 +2070,6 @@
   4  6,4  | AuLA
   4  6,4  | AwLS
   4  8,8  | Fa
-  4  8,8  | Fc
   4  8,8  | Fe
   4  8,8  | Ff
   4  8,8  | Fi
@@ -2138,7 +2095,6 @@
   4  6,6  | LArS
   4  6,6  | LAsA
   4  6,6  | LAsS
-  4  6,6  | LAtA
   4  6,6  | LAtS
   4  6,6  | LAuS
   4  6,6  | LAvA
@@ -2153,6 +2109,7 @@
   4  6,6  | LaSA
   4  5,7  - Lb
   4  6,6  | LeAS
+  4  5,7  - Li
   4  6,6  | LiAS
   4  6,6  | LiSA
   4  5,5  - Ll
@@ -2173,8 +2130,8 @@
   4  4,5  - SAa
   4  4,7  - SAa
   4  4,7  - SAb
-  4  4,5  - SAc
   4  4,5  - SAe
+  4  4,7  - SAi
   4  4,5  - SAl
   4  4,7  - SAl
   4  4,7  - SAo
@@ -2295,6 +2252,7 @@
   3  5,7  - Ab
   3  6,4  | AbL
   3  5,5  - Ae
+  3  5,7  - Ai
   3  6,4  | AiL
   3  5,5  - Al
   3  5,7  - Al
@@ -2340,13 +2298,11 @@
   3  6,6  | LAw
   3  6,6  | LAx
   3  6,6  | LAy
-  3  6,6  | LAz
   3  6,6  | LSc
   3  6,6  | LSd
   3  6,6  | LSt
   3  6,6  | LaS
   3  6,6  | LbS
-  3  6,6  | LcA
   3  6,6  | LeA
   3  6,6  | LiS
   3  6,6  | LoA
@@ -2372,6 +2328,7 @@
   3  6,5  | SLy
   3  6,4  | SaL
   3  6,4  | SeL
+  3  5,7  - Si
   3  6,4  | SiL
   3  6,4  | SmL
   3  5,7  - So
@@ -2382,7 +2339,6 @@
   3  9,7  | aIS
   3  6,5  | aLA
   3  6,5  | aLS
-  3  7,5  | aSA
   3  7,5  | aSS
   3  6,4  | bAL
   3  9,7  | bIS
@@ -2436,10 +2392,8 @@
   2  9,8  | IfS
   2  9,8  | IhS
   2  9,8  | IlA
-  2  9,8  | ImA
   2  9,8  | InS
   2  9,8  | IpS
-  2  9,8  | IqS
   2  9,8  | IrA
   2  9,8  | IrS
   2  9,8  | ItA
@@ -2448,13 +2402,13 @@
   2  9,8  | IwA
   2  6,6  | La
   2  6,6  | Lb
+  2  6,6  | Li
   2  6,6  | Ll
   2  6,6  | Lo
   2  6,6  | Lu
   2  7,5  - aE
   2  6,5  | aL
   2  7,5  | aS
-  2  6,5  | cL
   2  7,5  - eE
   2  6,5  | eL
   2  7,5  | eS
@@ -2478,7 +2432,9 @@
   1  9,7  | gI
   1  9,7  | hI
   1  9,7  | kI
+  1  9,7  | lI
   1  9,7  | mI
+  1  9,7  | nI
   1  9,7  | oI
   1  9,7  | pI
   1  9,7  | qI

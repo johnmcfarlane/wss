@@ -15,7 +15,6 @@
  35  1,2  | TREVIS
  35  1,2  | TROVES
  35  1,2  | VIREOS
- 35  1,2  | VOTERS
  33  4,1  | REVET
  33  4,1  | REVIE
  33 12,5  | TIRVE
@@ -24,10 +23,8 @@
  33 12,5  | TOVET
  33 12,5  | TROVE
  33  4,1  | VETER
- 32  1,3  | OVERS
  32  1,3  | RIVES
  32  1,3  | ROVES
- 32  1,3  | VIERS
  32  1,3  | VIRES
  32  2,1  - VOE
  32  1,3  | VOTES
@@ -40,7 +37,6 @@
  29 12,4  | OTTER
  29  1,4  | OVIS
  29  2,3  - VERITE
- 29  1,4  | VERS
  29  1,4  | VIES
  29  1,4  | VOES
  28 13,5  | VIRE
@@ -84,7 +80,6 @@
  24  6,9  | XVI
  23  3,1  - ORE
  23  3,1  - ORT
- 23  1,2  | OTTERS
  23  1,1  - RIOT
  23 12,5  | TERI
  23 12,2  | TERTIO
@@ -92,7 +87,6 @@
  23 12,5  | TIRE
  23 12,5  | TIRO
  23 12,5  | TITE
- 23  1,2  | TITERS
  23 11,9  - TITLE
  23  1,2  | TITRES
  23 11,9  - TOILE
@@ -105,7 +99,6 @@
  23 12,2  | TORTIE
  23  1,2  | TORTIS
  23 12,5  | TOTE
- 23  1,2  | TOTERS
  23 12,5  | TRET
  23  1,2  | TRETIS
  23 12,5  | TRIO
@@ -126,8 +119,6 @@
  22 12,3  | TITER
  22 12,3  | TITRE
  22  1,4  | TOISE
- 22  1,4  | TORSE
- 22  1,4  | TORSI
  22 12,2  | TORTE
  22 12,3  | TOTER
  22 12,5  | TOV
@@ -162,7 +153,6 @@
  21  4,1  | VET
  20 13,9  - ILE
  20  1,3  | IREOS
- 20  1,3  | ITERS
  20 11,4  - IVE
  20 11,5  | NEVI
  20 11,5  | NEVO
@@ -181,7 +171,6 @@
  20  1,3  | ROTES
  20 12,4  | RTE
  20 12,4  | RTI
- 20  1,3  | TIERS
  20 13,5  | TIRE
  20  1,3  | TIRES
  20  1,3  | TIROS
@@ -203,11 +192,9 @@
  19 12,4  | ET
  19 12,11 - HOKE
  19 12,4  | IT
- 19  7,11 - RIVO
  19  2,3  - VER
  19  7,11 - VERI
  19  2,3  - VET
- 19  7,11 - VETO
  19  2,3  - VIE
  19  2,3  - VOE
  18  8,8  - AIVER
@@ -215,6 +202,7 @@
  18  8,8  - AVOIR
  18 13,6  | IRE
  18  6,10 - IT
+ 18  9,4  - IVE
  18  9,3  - MOVER
  18  9,3  - MOVIE
  18  3,2  | POETIC
@@ -273,7 +261,6 @@
  17 11,7  | TOIVEL
  17  2,3  - TORE
  17  2,3  - TORI
- 17  1,4  | TORS
  17  2,3  - TOTE
  17  1,9  | TOUGHT
  17  1,4  | TRES
@@ -292,9 +279,7 @@
  16  7,13 - TRIO
  16 12,8  - VETA
  16  1,3  - VIER
- 16  6,11 - VIREO
  16 12,8  - VITA
- 16  6,11 - VITRO
  16  1,3  - VOET
  16 12,8  - VOTA
  15  6,7  | DOXIE
@@ -310,6 +295,8 @@
  15  4,1  - RE
  15 10,13 - REA
  15  6,5  | REDOX
+ 15  6,3  - REEMIT
+ 15  6,3  - REOMIT
  15  3,5  | RICE
  15 13,7  | RIE
  15  8,13 - RIE
@@ -357,6 +344,7 @@
  13  3,6  | ICE
  13 11,4  | INERT
  13  9,4  - ITER
+ 13  9,3  - MIRV
  13  1,6  - OFT
  13  3,4  | OTIC
  13  6,4  | OVID
@@ -438,6 +426,7 @@
  11  9,13 - OR
  11 11,8  | ORIEL
  11  5,13 - OVER
+ 11  7,6  - RANDIE
  11 13,7  | RE
  11  6,3  - REEM
  11  6,3  - REIM
@@ -462,7 +451,6 @@
  11 13,7  | TI
  11 10,10 | TIBERT
  11  2,3  - TIE
- 11  7,11 - TIRO
  11  2,3  - TIT
  11  3,4  - TIVER
  11  2,3  - TOE
@@ -470,7 +458,6 @@
  11 13,3  | TORI
  11  7,11 - TORI
  11  2,3  - TOT
- 11  7,11 - TRIO
  11 11,8  | TRIOL
  11  7,9  | UVITO
  11  3,4  - VOTER
@@ -492,6 +479,8 @@
  10  5,3  - IRE
  10  9,4  - IRE
  10  1,6  | ISE
+ 10  9,3  - MITER
+ 10  9,3  - MITRE
  10  9,3  - MOIER
  10  9,3  - MOIRE
  10  9,3  - MOTER
@@ -517,8 +506,10 @@
  10 13,4  | TRI
  10  7,9  | UVRE
  10  5,5  | VENIE
+ 10  6,5  | VID
  10  6,5  | VOD
   9  8,6  - ANDE
+  9  8,6  - ANDI
   9  5,2  | DEV
   9  5,2  | DIRTEN
   9  5,2  | DITTON
@@ -538,6 +529,10 @@
   9 15,11 | IRE
   9  7,13 - IRE
   9  3,3  - IT
+  9  9,3  - MIRE
+  9  9,3  - MIRO
+  9  9,3  - MITE
+  9  9,3  - MITT
   9  9,3  - MOET
   9  9,3  - MOIR
   9  9,3  - MOIT
@@ -546,6 +541,7 @@
   9  9,3  - MOTE
   9  9,3  - MOTT
   9 11,5  | NE
+  9 11,5  | NI
   9  3,3  - OE
   9  4,3  - OE
   9  4,1  | OER
@@ -561,7 +557,6 @@
   9  4,1  | RET
   9  1,3  - RIE
   9  1,3  - RIO
-  9  8,11 - RIO
   9  1,3  - ROE
   9  1,3  - ROI
   9  8,11 - ROI
@@ -608,15 +603,13 @@
   8 10,7  - EIR
   8  5,6  | ENTER
   8  2,3  - EO
-  8  9,11 - EO
-  8  1,5  | ERS
   8 12,8  - ETTA
   8  5,6  | INTER
   8  2,3  - IO
-  8  9,11 - IO
   8 12,8  - IOTA
   8 11,4  - IRE
-  8  1,5  | IRS
+  8  9,3  - MIR
+  8  9,3  - MIT
   8  9,3  - MOI
   8  9,3  - MOR
   8  9,3  - MOT
@@ -628,7 +621,6 @@
   8 10,10 | ORB
   8 11,4  - ORE
   8 12,4  - ORIG
-  8  1,5  | ORS
   8 11,4  - ORT
   8  3,2  | PERI
   8  3,2  | PERT
@@ -669,7 +661,6 @@
   8 10,10 | TIB
   8  1,5  | TIS
   8  2,3  - TO
-  8  9,11 - TO
   8  8,13 - TO
   8 10,10 | TOB
   8 11,10 | TOL
@@ -679,7 +670,6 @@
   8  2,4  - TRITER
   8  2,4  - TRITOR
   8 12,4  - TROG
-  8  1,5  | TRS
   8  7,8  | TURI
   8  7,8  | TUTE
   8 12,9  - VEL
@@ -788,6 +778,7 @@
   6  9,4  - IT
   6  6,5  | ITD
   6  4,4  - ITER
+  6  9,3  - MI
   6  9,3  - MO
   6  4,1  | OE
   6  3,1  | OPE
@@ -845,6 +836,7 @@
   6  7,8  | TUT
   6 12,15 - YE
   6 12,15 - YO
+  6 10,2  | lI
   6 10,2  | lO
   5  5,2  | DEI
   5  5,2  | DER
@@ -875,7 +867,6 @@
   5  5,4  | IRON
   5  7,13 - IT
   5  5,4  | ITEN
-  5 10,11 | OB
   5  6,6  | OD
   5  5,1  | ODE
   5  3,1  | OP

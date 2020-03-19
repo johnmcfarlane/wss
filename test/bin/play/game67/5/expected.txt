@@ -101,7 +101,6 @@
  15  2,11 - RAISE
  15  9,3  - VOW
  14  2,5  - AVISO
- 14  5,9  - IQS
  14  8,10 - REV
  14  8,10 - SEV
  14  5,3  | VAI
@@ -164,11 +163,13 @@
  11  5,2  | VIAS
  11  2,7  - VIRAL
  11  5,4  | XI
+ 10  7,4  | AOLI
  10  4,8  - AVIS
  10  5,3  | AVO
  10  3,10 - AVOUR
  10  4,11 - AXE
  10  6,7  - LASA
+ 10  6,7  - LISA
  10  5,10 - OUVRE
  10  3,7  - OVAL
  10  4,8  - OVIS
@@ -180,6 +181,7 @@
  10  7,4  | SILO
  10  5,8  - SIX
  10  7,4  | SOLA
+ 10  7,4  | SOLI
  10  5,10 - SUAVE
  10  8,3  | VARI
  10  3,8  - VARI
@@ -196,6 +198,7 @@
   9  7,5  | ILA
   9  7,6  | LAO
   9  7,6  | LAS
+  9  7,6  | LIS
   9  7,5  | OLA
   9  3,5  - RIVO
   9  8,9  - SKID
@@ -208,6 +211,7 @@
   9  5,8  - XI
   8  8,11 - ADV
   8  8,8  - ANON
+  8  4,7  - AOLI
   8  7,3  | ARIL
   8  8,1  | ARIOSI
   8  1,8  - ARIOSI
@@ -225,6 +229,7 @@
   8  7,3  | SIOL
   8  7,3  | SOIL
   8  4,7  - SOLA
+  8  4,7  - SOLI
   8  4,7  - VAL
   8  4,10 - VAU
   8  4,11 - VIER
@@ -278,7 +283,6 @@
   6  7,4  | AIL
   6  5,3  | AIS
   6  3,7  - ARIL
-  6  3,10 - ARIUS
   6  5,3  | ARO
   6  5,3  | ARS
   6  9,11 - DAO
@@ -298,6 +302,8 @@
   6  7,4  | ISL
   6  7,6  | LA
   6  6,7  - LA
+  6  7,6  | LI
+  6  6,7  - LI
   6  7,6  | LO
   6  6,7  - LO
   6  8,10 - OER
@@ -401,7 +407,6 @@
   3  5,7  - AL
   3  4,11 - ARE
   3  4,5  - ARO
-  3  4,11 - ASE
   3  9,11 - DA
   3  9,11 - DI
   3  9,11 - DO

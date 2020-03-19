@@ -101,7 +101,6 @@
  19  7,2  | SYE
  19  4,7  - SYE
  19  6,7  - SYE
- 19  5,5  | YCIE
  19  4,7  - YEE
  19  5,7  - YEE
  19  4,7  - YES
@@ -123,7 +122,6 @@
  17  7,2  | GIE
  17  4,7  - ISE
  17  5,7  - ISE
- 17  5,5  | SCYE
  17  7,3  | SEE
  17  4,7  - SEE
  17  5,7  - SEE
@@ -140,7 +138,6 @@
  16  6,7  - ES
  16  5,5  | GEIC
  16  2,6  - GISEL
- 16  5,5  | ICY
  16  5,7  - IS
  16  6,6  - LEGES
  16  6,6  - LEGIS
@@ -150,45 +147,41 @@
  15  7,4  | EE
  15  7,4  | ES
  15  7,2  | ESE
- 15  5,5  | ICES
  15  7,2  | ISE
  15  6,4  - JEES
  15  6,4  | JOLES
  15  7,2  | SEE
  15  7,2  | SIE
- 14  5,6  | CEES
- 14  5,6  | CGS
- 14  5,6  | CIG
- 14  5,6  | CISE
  14  7,3  | EE
  14  5,5  | GEY
- 14  5,5  | ICE
  14  6,4  - JEE
  14  6,4  | JOLE
  14  6,4  | JOLS
- 14  5,5  | SCI
  14  5,5  | SECY
  13  5,5  - COSEY
  13  5,5  | GEES
  13  5,5  | SEIGE
+ 13  7,5  | SIEGE
  13  5,5  | YEES
  13  5,5  | YESE
- 12  5,6  | CEE
- 12  5,6  | CIE
- 12  5,6  | CIS
- 12  5,6  | CSI
  12  5,5  | GEE
  12  5,5  | GES
  12  3,6  - GEYLIES
  12  5,6  - GLYC
  12  4,5  - SCOGIE
+ 12  7,5  | SICE
  12  5,5  | YEE
  12  5,5  | YES
+ 12  7,5  | YIS
  11  5,5  - COGIE
  11  3,5  - EYSOGE
+ 11  7,6  | ICES
+ 11  7,6  | ICY
  11  6,4  - JE
  11  5,5  | SEC
+ 11  7,5  | SIC
  11  5,5  | YE
+ 11  7,5  | YI
  11  5,5  - YOGEES
  10  5,6  - CLEG
  10  5,6  | EGIS
@@ -196,6 +189,7 @@
  10  5,6  | EYES
  10  5,6  - GLEYS
  10  5,5  | SEG
+ 10  7,5  | SIG
  10  5,5  - YOGEE
  10  5,5  - YOGIS
   9  3,6  - CEILE
@@ -209,6 +203,7 @@
   9  5,6  | ESC
   9  5,6  - GLEY
   9  4,6  - GYLE
+  9  7,6  | ICE
   9  6,6  - LYC
   9  4,5  - SCOG
   9  3,6  - SICLE
@@ -232,6 +227,7 @@
   8  5,5  | SEE
   8  3,6  - SEELY
   8  5,5  | SEI
+  8  7,5  | SIE
   8  5,5  - YOGI
   7  5,6  - CLI
   7  5,5  - COES
@@ -255,10 +251,10 @@
   7  6,5  - OGEE
   7  6,5  - OYES
   7  3,5  - SEGO
+  7  7,5  | SI
   7  5,6  - SLEY
   7  5,5  - SOCE
   7  3,6  - YEEL
-  6  5,6  - CL
   6  5,5  - COE
   6  5,5  - COS
   6  4,5  - ECO
@@ -269,6 +265,7 @@
   6  4,6  - GIL
   6  5,5  - GOES
   6  5,5  - GOIS
+  6  7,6  | ISE
   6  6,6  - LEG
   6  6,6  - LEY
   6  6,6  - LIG
@@ -286,6 +283,7 @@
   5  4,5  - GEO
   5  4,5  - GIO
   5  5,5  - GOI
+  5  7,6  | IS
   5  4,6  - ISLE
   5  6,6  - LEES
   5  6,6  - LEIS
@@ -313,6 +311,7 @@
   4  4,6  - SIL
   4  5,5  - YO
   3  5,6  - EL
+  3  6,6  - LI
   3  6,5  - OES
   3  6,5  - OSE
   3  5,5  - SOE

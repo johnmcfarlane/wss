@@ -310,11 +310,15 @@
  24 11,1  | sTIPES
  24 11,2  | sUPES
  23  6,5  - EPeE
+ 23  4,7  - PUTElI
+ 23  3,7  - PlUTEI
  23  6,5  - ePEE
+ 22  6,7  - ETUIs
  22  8,4  | PELEUs
  22  8,4  | PILEUm
  22  8,4  | PILEUp
  22  8,4  | PILEUs
+ 22  3,7  - PUTElI
  22  5,5  - TEPEe
  22  8,3  | oUTLIP
  21 11,1  | EEjITS
@@ -329,6 +333,7 @@
  21 11,2  | EPrIS
  21 11,5  | ESPEc
  21 11,5  | ESToP
+ 21  6,7  - ETUI
  21 11,1  | ElITES
  21 11,4  | EnSUITE
  21 11,1  | EnTIES
@@ -595,7 +600,6 @@
  20  6,6  | WhEEP
  20  6,6  | WhIPT
  20  7,5  - bEEP
- 20  8,5  - cEPE
  20  7,5  - dEEP
  20  7,5  - hEEP
  20  7,5  - jEEP
@@ -606,6 +610,7 @@
  20  6,2  | rEPEW
  19  6,5  - EPE
  19  4,5  - ETaPE
+ 19  6,7  - EtUI
  19  7,5  - PEE
  19  8,4  | PELElIU
  19  8,4  | PELITe
@@ -633,6 +638,7 @@
  19  8,3  | aPELET
  19  5,5  - cEPE
  19  5,5  - dEPE
+ 19  6,7  - eTUI
  19  8,3  | oPELET
  19  8,1  | sTIPULE
  19  5,5  - tEPE
@@ -833,6 +839,7 @@
  18 11,3  | mIPS
  18 11,4  | mUSTEE
  18 11,3  | nIPS
+ 18  7,7  - nIUE
  18 11,3  | oPES
  18 11,3  | oPTS
  18 11,4  | oUSTEE
@@ -864,6 +871,8 @@
  17  9,2  | EPaULE
  17  6,5  - EPe
  17  6,7  - ETUa
+ 17  6,7  - ETUi
+ 17  6,7  - ETuI
  17  9,3  | ImPLETE
  17  8,6  | LEPTId
  17  8,6  | LEPUs
@@ -901,16 +910,20 @@
  17  8,4  | PULI
  17  8,4  | PULIk
  17  8,4  | PULIs
+ 17  4,7  - PUTtI
+ 17  4,7  - PUtTI
  17  9,3  | PaULIE
  17  7,5  - PeE
  17  9,3  | PeELITE
  17  4,5  - PiETE
  17  9,3  | PoULET
+ 17  6,7  - TElI
  17  1,5  - TIPpEE
  17  1,7  - TIPpEE
  17  8,2  | TIPpLE
  17  1,5  - TIPrEE
  17  1,7  - TIPrEE
+ 17  7,7  - TIU
  17  8,2  | TaPUL
  17  8,1  | TrIPEL
  17  2,7  - UPEaT
@@ -932,7 +945,6 @@
  17  6,5  - aPE
  17  8,2  | bEPELT
  17  8,2  | bEPILE
- 17  8,5  - cEP
  17  8,2  | cUPEL
  17  2,7  - dEPUTE
  17  6,5  - ePE
@@ -1004,6 +1016,7 @@
  16  3,7  - PETE
  16 10,1  | PETEcA
  16 10,1  | PETrEA
+ 16  4,7  - PETtI
  16  2,7  - PEcITE
  16  9,3  | PEeLITE
  16  2,7  - PElITE
@@ -1014,6 +1027,7 @@
  16  9,3  | PErLITE
  16 10,1  | PEsETA
  16  2,7  - PEtITE
+ 16  4,7  - PEtTI
  16  9,3  | PIELET
  16  3,7  - PIET
  16 10,2  | PIETA
@@ -1082,6 +1096,7 @@
  16  2,7  - TIPpEE
  16  2,7  - TIPrEE
  16  2,7  - TIpPEE
+ 16  7,7  - TUIs
  16  9,3  | TUPLE
  16  9,3  | TUPLEs
  16  1,5  - ToUPEE
@@ -1105,9 +1120,9 @@
  16  8,5  | cLEPE
  16  8,5  | cLEPT
  16  8,5  | cLIPT
- 16  9,5  - cPU
  16  4,5  - dEEP
  16  8,2  | dEPEL
+ 16  7,7  - dUIT
  16  8,3  | dUPLET
  16  8,5  | fLIPE
  16  4,5  - hEEP
@@ -1140,6 +1155,7 @@
  16 10,2  | sPUTA
  16  4,5  - sTEP
  16 10,2  | sTUPA
+ 16  7,7  - sUIT
  16 10,5  | tAPETE
  16 10,5  | tAPETI
  16  9,4  | tILTUP
@@ -1147,6 +1163,7 @@
  16  2,7  - uPTIE
  16  4,5  - vEEP
  16  4,5  - wEEP
+ 16  7,7  - yUIT
  15  9,4  | EELPoT
  15  8,3  | EPiL
  15 11,5  | ESTIvE
@@ -1163,6 +1180,7 @@
  15  8,3  | IPiL
  15 11,5  | ISEUm
  15 11,5  | ISsUE
+ 15  8,7  - IUd
  15 11,2  | IcTUS
  15 11,2  | IlEUS
  15 11,3  | InUST
@@ -1187,6 +1205,7 @@
  15  5,7  - PETo
  15  9,3  | PEUL
  15  7,5  - PEa
+ 15  5,7  - PEaI
  15  3,7  - PEaT
  15  7,5  - PEe
  15  3,5  - PEkE
@@ -1200,6 +1219,7 @@
  15  3,7  - PEnT
  15  3,5  - PErE
  15  3,7  - PErE
+ 15  5,7  - PErI
  15  3,7  - PErT
  15  3,7  - PEsT
  15  3,5  - PEtE
@@ -1274,6 +1294,7 @@
  15  3,5  - PoTE
  15  5,5  - PoTE
  15  3,7  - PoTE
+ 15  5,7  - PoTI
  15  3,5  - PrEE
  15  3,7  - PrEE
  15  3,7  - PrET
@@ -1323,6 +1344,7 @@
  15 11,6  | SqUIT
  15 11,6  | SrUTI
  15 11,3  | TEISE
+ 15  6,7  - TEIl
  15  4,5  - TEaP
  15  9,2  | TEmPLE
  15  9,4  | TILtUP
@@ -1332,6 +1354,7 @@
  15  9,2  | TIpPLE
  15 11,3  | TIsSU
  15 11,2  | TItUS
+ 15  7,7  - TUI
  15 11,3  | TUIS
  15 11,3  | TUISm
  15  3,5  - TUPEk
@@ -1346,10 +1369,12 @@
  15 11,2  | TUxES
  15  7,7  - TaU
  15  3,7  - TePEE
+ 15  7,7  - TiU
  15  3,7  - ToPEE
  15  7,7  - ToU
  15 11,3  | ToUSE
  15 11,2  | TrUES
+ 15  8,7  - UIT
  15  9,4  | UPLIT
  15  8,4  | UPLiT
  15  9,2  | UPTILl
@@ -1440,6 +1465,7 @@
  15 11,3  | sUIST
  15 11,2  | sUITS
  15 11,2  | tITUS
+ 15  7,7  - tIU
  15 11,2  | vETUS
  15  5,5  - yEP
  14 10,6  | APEEk
@@ -1568,6 +1594,7 @@
  14  8,4  | UPLIfT
  14  8,4  | UPLInE
  14  9,4  | UPLIt
+ 14  4,7  - UTErI
  14  9,7  - UTi
  14  9,7  - UbI
  14  9,7  - UdI
@@ -1591,8 +1618,6 @@
  14  6,6  | WrITE
  14  9,5  - aPE
  14  7,5  - bEET
- 14  8,5  - cETE
- 14  8,5  - cETI
  14  9,4  | cULP
  14  9,3  | dUPLE
  14  9,5  - ePE
@@ -1782,6 +1807,7 @@
  13  2,5  - TaUPE
  13  2,7  - TaUPE
  13  6,7  - TiU
+ 13  8,7  - UIt
  13  8,4  | UPLEg
  13  8,4  | UPLIt
  13  9,4  | UPLiT
@@ -1791,20 +1817,27 @@
  13  9,7  - UT
  13  3,7  - UTEEs
  13  5,7  - UTIl
+ 13  5,7  - UTaI
  13  5,5  - bETE
  13  9,5  | bLEEP
  13  5,5  - cETE
+ 13  5,7  - cETI
  13  2,7  - dEPIT
+ 13  5,7  - dETI
  13  9,3  | dIPLE
+ 13  7,7  - dUI
  13  8,3  | dUPLE
  13  4,7  - ePEE
  13  5,5  - fETE
  13  5,5  - hETE
+ 13  7,7  - hUI
  13  5,5  - jETE
  13  8,3  | lIPLET
+ 13  7,7  - lUI
  13  5,5  - mETE
  13  2,7  - nEPIT
  13  5,5  - nETE
+ 13  5,7  - nETI
  13  9,2  | nPEEL
  13  6,5  - oP
  13  8,3  | oUTLIE
@@ -1823,12 +1856,16 @@
  13  9,4  | sPLIT
  13  2,5  - sTIPE
  13  2,7  - sTIPE
+ 13  7,7  - sUI
  13  5,5  - tETE
  13  9,3  | tIPLE
  13  8,3  | tIPLET
  13  6,7  - tIU
+ 13  7,7  - tUI
  13  8,3  | tUPLE
  13  9,4  | uPLIT
+ 13  5,7  - wEEI
+ 13  5,7  - yETI
  12 10,6  | AUTErE
  12 10,6  | AUgITE
  12 10,6  | AUlETE
@@ -2131,10 +2168,12 @@
  12  5,5  - TElE
  12  3,7  - TElEI
  12 11,2  | TElES
+ 12  5,7  - TElI
  12 11,3  | TEmSE
  12 11,3  | TEnSE
  12  5,5  - TEpE
  12 11,2  | TErES
+ 12  5,7  - TErI
  12 11,3  | TErSE
  12  5,5  - TEtE
  12 11,3  | TIES
@@ -2142,6 +2181,7 @@
  12 11,2  | TIErS
  12 11,2  | TIdES
  12 11,2  | TIkES
+ 12  7,7  - TIlE
  12 11,2  | TIlES
  12 11,2  | TImES
  12 11,2  | TInES
@@ -2363,10 +2403,11 @@
  11  2,7  - ETUvE
  11  6,5  - ETa
  11  6,7  - ETa
- 11  6,5  - ETc
  11  1,5  - EUrITE
  11  1,7  - EUrITE
  11  6,5  - EkE
+ 11  6,7  - ElI
+ 11  7,7  - ElI
  11  6,5  - EmE
  11  8,4  | EnLUTE
  11  6,5  - EpE
@@ -2507,12 +2548,19 @@
  11  7,2  | TUPIAn
  11  7,7  - TUa
  11  7,7  - TUb
+ 11  7,7  - TUi
  11  9,2  | TUtELE
  11  7,5  - TaE
+ 11  6,7  - TaI
+ 11  7,7  - TaI
  11  9,2  | TaPUL
  11  6,4  | TaWPIE
  11  7,5  - TeE
+ 11  7,7  - ToI
+ 11  6,7  - TrI
  11  8,2  | TrIPLE
+ 11  7,7  - TuI
+ 11  6,7  - TwI
  11  9,5  | ULETIc
  11  7,3  | UPEAT
  11  7,3  | UPTAkE
@@ -2524,6 +2572,7 @@
  11  2,7  - UTIlE
  11  8,7  - UbI
  11  9,7  - Uh
+ 11  8,7  - UiT
  11  8,7  - UlE
  11  8,7  - UlT
  11  9,7  - Um
@@ -2537,6 +2586,7 @@
  11  4,7  - UsEE
  11  9,7  - Ut
  11  8,5  - aET
+ 11  8,7  - aIT
  11  9,3  | aPELET
  11  8,4  | aPLITE
  11  6,5  - aTE
@@ -2545,11 +2595,11 @@
  11  7,5  - bEE
  11  9,4  | bELUTE
  11  6,4  | bEWEPT
+ 11  8,7  - bIT
  11  4,7  - bUTE
  11  3,5  - cEPE
  11  3,7  - cEPE
  11  3,7  - cITEE
- 11  9,5  - cP
  11  9,2  | cUITLE
  11  4,7  - cUTE
  11  7,5  - dEE
@@ -2584,11 +2634,12 @@
  11  4,7  - kUEI
  11  7,5  - lEE
  11  8,5  - lET
+ 11  8,7  - lIE
  11  2,5  - lIEUE
  11  2,7  - lIEUE
  11  2,7  - lIEUT
+ 11  8,7  - lIT
  11  4,7  - lUTE
- 11  7,5  - mEE
  11  2,5  - mEUTE
  11  2,7  - mEUTE
  11  4,7  - mUTE
@@ -2630,6 +2681,7 @@
  11  9,2  | tITULE
  11  4,7  - tUTE
  11  9,2  | tUTELE
+ 11  8,7  - uIT
  11  3,7  - wEPT
  11  3,5  - wIPE
  11  3,7  - wIPE
@@ -3105,6 +3157,7 @@
   9  9,2  | ExPTL
   9 11,3  | EyES
   9  8,4  | IPL
+  9  9,7  - IT
   9  4,5  - ITEa
   9  4,7  - ITEa
   9  4,5  - ITEm
@@ -3117,6 +3170,7 @@
   9  3,5  - IdEE
   9  3,7  - IdEE
   9 11,3  | IdES
+  9  8,7  - IlE
   9  9,2  | ImPEL
   9  8,4  | InLET
   9 11,3  | IrES
@@ -3349,7 +3403,6 @@
   9  9,2  | TEPaL
   9  7,5  - TEa
   9 11,3  | TEaS
-  9  7,5  - TEc
   9 11,3  | TEdS
   9  7,5  - TEe
   9 11,3  | TEeS
@@ -3374,6 +3427,7 @@
   9  4,7  - TIEr
   9  4,7  - TIEs
   9  8,4  | TILdE
+  9  7,7  - TIb
   9  3,5  - TIcE
   9  3,7  - TIcE
   9 11,3  | TIcS
@@ -3385,6 +3439,7 @@
   9  3,7  - TIgE
   9  3,5  - TIkE
   9  3,7  - TIkE
+  9  7,7  - TIl
   9  3,5  - TIlE
   9  3,7  - TIlE
   9 11,3  | TIlS
@@ -3403,6 +3458,7 @@
   9  3,7  - TItE
   9  4,7  - TItE
   9 11,3  | TItS
+  9  7,7  - TIu
   9  4,5  - TUE
   9  4,7  - TUE
   9  9,3  | TUILlE
@@ -3583,7 +3639,6 @@
   9  8,5  | lLEU
   9  3,5  - lUTE
   9  3,7  - lUTE
-  9  5,7  - mEE
   9  5,5  - mET
   9  5,7  - mET
   9  7,1  | mETEPA
@@ -4017,6 +4072,7 @@
   8  6,6  | WaP
   8  6,6  | WuP
   8  8,5  - aE
+  8  8,7  - aI
   8  9,5  | aLEUT
   8  9,5  - aTE
   8  9,5  - aTI
@@ -4028,6 +4084,7 @@
   8  8,4  | bELUE
   8  3,5  - bETE
   8  3,7  - bETE
+  8  8,7  - bI
   8  8,2  | bIETLE
   8  3,5  - bITE
   8  3,7  - bITE
@@ -4045,7 +4102,6 @@
   8  3,7  - cITE
   8  9,5  | cLEP
   8  9,5  | cLIP
-  8  9,5  - cTE
   8  4,5  - cUE
   8  4,7  - cUE
   8  8,4  | cULET
@@ -4106,6 +4162,7 @@
   8  3,7  - lEET
   8  9,7  - lEI
   8  7,2  | lEPTA
+  8  8,7  - lI
   8  3,5  - lITE
   8  3,7  - lITE
   8  4,5  - lUE
@@ -4127,6 +4184,7 @@
   8  3,7  - nETE
   8  7,2  | nIEPA
   8  4,7  - nUT
+  8  8,7  - oI
   8  7,3  | oPIATE
   8 10,3  | oPIATE
   8  4,7  - oUT
@@ -4299,8 +4357,10 @@
   7  4,7  - EyE
   7 11,4  | IPSE
   7  5,7  - IT
+  7  9,7  - Ib
   7  4,5  - IcE
   7  4,7  - IcE
+  7  9,7  - Id
   7  4,5  - IdE
   7  4,7  - IdE
   7  4,5  - IfE
@@ -4311,6 +4371,7 @@
   7  4,7  - IkE
   7  4,5  - IlE
   7  4,7  - IlE
+  7  9,7  - In
   7  7,4  | InAPT
   7 10,4  | InAPT
   7 11,4  | InSEP
@@ -4318,9 +4379,11 @@
   7  8,2  | InTEL
   7  4,5  - IrE
   7  4,7  - IrE
+  7  9,7  - Is
   7  4,5  - IsE
   7  4,7  - IsE
   7  4,7  - IsT
+  7  9,7  - It
   7  4,5  - IvE
   7  4,7  - IvE
   7  8,6  | LEET
@@ -4559,6 +4622,7 @@
   7  6,4  | TEWIt
   7 10,3  | TErAP
   7  9,2  | TEtEL
+  7  7,7  - TI
   7  8,4  | TILE
   7  9,4  | TILE
   7  8,4  | TILEd
@@ -4784,8 +4848,6 @@
   7  4,7  - lIT
   7  7,7  - lU
   7  7,2  | lUTEA
-  7  4,5  - mEE
-  7  4,7  - mEE
   7  8,3  | mEILE
   7  9,3  | mEILE
   7  4,7  - mET
@@ -5019,12 +5081,14 @@
   6  4,5  - ITa
   6  8,3  | ITaL
   6  8,3  | ITlL
+  6  8,7  - Ib
   6  7,3  | IdEATE
   6  8,4  | IdLE
   6  9,4  | InLET
   6 11,4  | InSP
   6  9,2  | InTEL
   6  9,3  | InTL
+  6  8,7  - Io
   6  8,4  | IsLE
   6  9,4  | IsLET
   6  8,4  | IzLE
@@ -6032,7 +6096,6 @@
   5  9,4  | TaLE
   5  9,4  | TaLI
   5  6,4  | TaW
-  5  7,5  - Tc
   5  5,5  - Te
   5  7,5  - Te
   5  5,7  - Te
@@ -6040,6 +6103,7 @@
   5  9,4  | TeLE
   5  9,4  | TeLI
   5  6,4  | TeW
+  5  7,7  - Ti
   5  8,4  | TiL
   5  9,4  | TiLE
   5  5,5  - To
@@ -6073,15 +6137,12 @@
   5  7,4  | UvATE
   5 10,4  | UvATE
   5  6,6  | WE
-  5  6,6  | WEa
   5  6,6  | WEb
   5  6,6  | WEd
   5  6,6  | WEe
   5  6,6  | WEi
   5  6,6  | WEm
   5  6,6  | WEn
-  5  6,6  | WEr
-  5  6,6  | WEs
   5  6,6  | WEt
   5  6,6  | WEy
   5  6,6  | WId
@@ -6105,6 +6166,7 @@
   5  6,6  | WyE
   5  7,5  - aE
   5  9,7  - aE
+  5  7,7  - aI
   5  9,7  - aI
   5  9,3  | aIEL
   5  9,5  | aLEE
@@ -6121,6 +6183,7 @@
   5  9,7  - bE
   5  7,4  | bEAUT
   5 10,4  | bEAUT
+  5  7,7  - bI
   5  9,7  - bI
   5  9,5  | bLEE
   5  9,5  | bLET
@@ -6144,6 +6207,7 @@
   5  7,5  - dE
   5  9,3  | dEIL
   5  6,4  | dEW
+  5  7,7  - dI
   5  9,3  | dIEL
   5 11,5  | dSP
   5  8,4  | dULT
@@ -6166,6 +6230,7 @@
   5 11,4  | fUSEE
   5  7,5  | gAP
   5 10,5  | gAP
+  5  7,7  - gI
   5  9,5  | gLEE
   5  7,3  | gTEAU
   5 10,3  | gTEAU
@@ -6180,9 +6245,11 @@
   5 10,3  | hEIAU
   5  9,3  | hEIL
   5  6,4  | hEW
+  5  7,7  - hI
   5  9,3  | hTEL
   5  6,5  | hWT
   5 11,4  | iPS
+  5  9,7  - iT
   5  6,5  | iWI
   5  7,5  - jE
   5  9,3  | jEEL
@@ -6196,11 +6263,14 @@
   5  7,5  | lAETI
   5  7,5  | lAP
   5 10,5  | lAP
+  5  7,7  - lI
+  5  9,7  - lI
   5  7,5  | mAP
   5 10,5  | mAP
   5  7,5  | mATIE
   5  7,5  - mE
   5  6,4  | mEW
+  5  7,7  - mI
   5  8,4  | mULE
   5  8,4  | mULT
   5 11,4  | mUSET
@@ -6211,6 +6281,7 @@
   5  7,5  - nE
   5  9,3  | nEIL
   5  6,4  | nEW
+  5  7,7  - nI
   5  9,7  - oE
   5  9,7  - oI
   5  7,4  | oPA
@@ -6252,6 +6323,7 @@
   5 10,5  | sAUTE
   5  9,3  | sEEL
   5  6,4  | sEW
+  5  7,7  - sI
   5  9,5  | sLEE
   5  9,5  | sLIT
   5  7,4  | sPA
@@ -6265,6 +6337,7 @@
   5  9,3  | tEEL
   5  9,3  | tEIL
   5  6,4  | tEW
+  5  7,7  - tI
   5 11,4  | tPS
   5 11,5  | tSP
   5  8,4  | tULE
@@ -6277,11 +6350,13 @@
   5  7,5  | wAP
   5 10,5  | wAP
   5  9,3  | wEEL
+  5  7,7  - xI
   5  7,5  | yAP
   5 10,5  | yAP
   5  7,5  - yE
   5  9,3  | yEEL
   5  6,4  | yEW
+  5  7,7  - yI
   5  8,4  | yULE
   5  7,5  | zAP
   5 10,5  | zAP
@@ -6448,6 +6523,7 @@
   4  8,6  | LEvI
   4  9,6  | LEx
   4  9,6  | LEy
+  4  9,6  | LI
   4  9,6  | LIb
   4  8,6  | LIcE
   4  9,6  | LId
@@ -6719,6 +6795,8 @@
   4  9,4  | kIL
   4  8,4  | kILT
   4 10,5  | lAETI
+  4 10,5  - lI
+  4 10,7  - lI
   4  8,4  | lILE
   4  8,4  | lILT
   4 11,4  | lUST
@@ -6745,6 +6823,8 @@
   4  7,5  | nAUT
   4 10,5  | nAUT
   4 10,5  - nE
+  4 10,5  - nI
+  4 10,7  - nI
   4  9,4  | nIL
   4  8,4  | nILE
   4  8,4  | nUL
@@ -6841,7 +6921,6 @@
   4 10,5  - yI
   4 10,7  - yI
   4  8,4  | yILT
-  4  9,4  | zEL
   3  7,6  | AET
   3 10,6  | AET
   3  7,6  | AIEl
@@ -6912,8 +6991,6 @@
   3 10,6  | AhU
   3 10,6  | AjEE
   3 10,6  | AkEE
-  3  7,6  | AkU
-  3 10,6  | AkU
   3 10,6  | AlEE
   3 10,6  | AlIT
   3 10,6  | AmIE
@@ -7039,6 +7116,7 @@
   3  8,6  | LEv
   3  8,6  | LEx
   3  8,6  | LEy
+  3  8,6  | LI
   3  8,6  | LIb
   3  8,6  | LId
   3  8,6  | LIe
@@ -7323,8 +7401,6 @@
   3 10,3  | kETA
   3  8,4  | kIL
   3 11,4  | kIST
-  3  7,4  | kUA
-  3 10,4  | kUA
   3  7,5  | lAET
   3 10,5  | lAET
   3  7,5  | lAIT
@@ -7470,7 +7546,6 @@
   3 11,4  | yUS
   3  7,5  | zATI
   3 10,5  | zATI
-  3  8,4  | zEL
   3 11,4  | zEST
   3  7,3  | zETA
   3 10,3  | zETA
@@ -7554,8 +7629,6 @@
   2 10,6  | ArE
   2  7,6  | ArT
   2 10,6  | ArT
-  2  7,6  | AsE
-  2 10,6  | AsE
   2  7,6  | AsT
   2 10,6  | AsT
   2  7,6  | AtE
@@ -7572,12 +7645,8 @@
   2 10,6  | AxE
   2  7,6  | AyE
   2 10,6  | AyE
-  2  7,5  | EAd
-  2 10,5  | EAd
   2  7,5  | EAm
   2 10,5  | EAm
-  2  7,5  | EAn
-  2 10,5  | EAn
   2  7,5  | EAr
   2 10,5  | EAr
   2  7,5  | EAt
@@ -7627,11 +7696,8 @@
   2 11,4  | IhS
   2  7,4  | IlA
   2 10,4  | IlA
-  2  7,4  | ImA
-  2 10,4  | ImA
   2 11,4  | InS
   2 11,4  | IpS
-  2 11,4  | IqS
   2  7,4  | IrA
   2 10,4  | IrA
   2 11,4  | IrS
@@ -7646,6 +7712,8 @@
   2  9,6  | La
   2  8,6  | Lb
   2  9,6  | Lb
+  2  8,6  | Li
+  2  9,6  | Li
   2  8,6  | Ll
   2  9,6  | Ll
   2  8,6  | Lo
@@ -7786,7 +7854,6 @@
   2 11,4  | aIS
   2  8,5  | aL
   2  9,5  | aL
-  2 11,5  | aSE
   2 11,5  | aST
   2  7,5  | bAE
   2 10,5  | bAE
@@ -7804,13 +7871,9 @@
   2  7,4  | cIA
   2 10,4  | cIA
   2 11,4  | cIS
-  2  8,5  | cL
-  2  9,5  | cL
   2 11,5  | cSI
   2 11,5  | cST
   2 11,4  | cTS
-  2  7,5  | dAE
-  2 10,5  | dAE
   2  7,5  | dAT
   2 10,5  | dAT
   2  7,4  | dEA
@@ -7958,9 +8021,6 @@
   2 10,5  | wAE
   2  7,5  | wAT
   2 10,5  | wAT
-  2  7,4  | wEA
-  2 10,4  | wEA
-  2 11,4  | wES
   2 11,4  | wIS
   2 11,4  | xES
   2 11,4  | xIS

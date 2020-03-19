@@ -93,7 +93,6 @@
  13  4,9  - ASTR
  13  5,7  - LAN
  13  3,9  - LANT
- 13  8,5  | LATA
  13  4,9  - RATS
  13  4,7  - STAN
  13  4,9  - STAR
@@ -119,7 +118,6 @@
  12  7,3  | RAVINS
  12  7,4  - SALVO
  12  5,7  - SAN
- 12  5,9  - SAR
  12 10,2  | SAT
  12  5,9  - SAT
  12  8,5  | SATA
@@ -254,6 +252,7 @@
   8 10,3  | AT
   8  7,4  | AVIS
   8  7,6  | INV
+  8  7,5  - LA
   8  5,7  - LA
   8  5,9  - LA
   8  9,3  - LAG
@@ -266,6 +265,7 @@
   8  7,4  - LATRO
   8  7,5  | LIV
   8  4,9  - LST
+  8  7,5  - NA
   8  5,7  - NA
   8  5,9  - NA
   8  8,4  | NAA
@@ -329,7 +329,6 @@
   7  7,3  | LARI
   7  8,3  | LASA
   7  7,3  | LASI
-  7  8,3  | LATA
   7  7,3  | LATI
   7  7,4  | NAILS
   7  6,4  | NAP
@@ -409,7 +408,6 @@
   6  7,3  | ARNI
   6  8,8  - ARSE
   6  8,8  - ARTE
-  6  9,3  - ASG
   6  6,4  | ASP
   6  8,3  | ASTA
   6  7,3  | ASTIR
@@ -454,7 +452,6 @@
   6  7,4  | SAINT
   6 10,4  | SAO
   6  6,4  | SAP
-  6  8,3  | SARA
   6  8,3  | SATA
   6  8,4  | SLA
   6  7,4  | SLIRT
@@ -493,11 +490,9 @@
   5  7,4  | ALIT
   5  6,8  | AND
   5  7,4  | ANIS
-  5  8,4  | ARA
   5  7,4  | ARIL
   5  7,4  | ARIST
   5  7,8  - ARR
-  5  8,4  | ASA
   5  6,8  | LAD
   5  7,4  | LAIR
   5  7,4  | LAIT
@@ -509,7 +504,6 @@
   5  7,5  | LIST
   5  7,5  | LITS
   5  6,8  | LSD
-  5  6,8  | NAD
   5  7,4  | NAIR
   5  7,4  | NAIS
   5  7,5  | NIAS
@@ -528,7 +522,6 @@
   5  8,5  | SAA
   5  7,4  | SAIL
   5  7,4  | SAIN
-  5  7,8  - SAR
   5  7,3  | SARI
   5  8,5  | SAT
   5  7,3  | SATI
@@ -615,8 +608,10 @@
   3  7,6  | ITA
   3  7,6  | ITS
   3  8,5  | LA
+  3  7,5  | LI
   3 10,4  - LO
   3  8,5  | NA
+  3  7,5  | NI
   3 10,4  - NO
   3  7,5  | RIA
   3  7,5  | RIT

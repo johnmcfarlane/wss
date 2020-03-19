@@ -1,43 +1,44 @@
+ 51  4,15 - FITTEN
+ 42  4,15 - TITIEN
+ 39  2,15 - FINITE
  34  4,15 - FUTE
  34  2,15 - TENUTI
+ 33  1,15 - TEUFIT
+ 33  2,15 - UNFIT
  31  4,10 | TITIEN
  31  4,15 - TUTIN
- 28  6,2  - FEN
+ 30  2,15 - INFIT
+ 30  3,15 - UNITE
+ 27  1,15 - INTUIT
+ 27  1,15 - TENUIT
  26  8,12 | ETUI
- 26 10,7  | NEIF
- 26  4,2  - NIFE
  25  4,13 | FEN
- 25  6,2  - FET
  25  4,13 | FEU
  25  4,15 - FUT
  25  4,13 | NEF
  25  4,15 - TUTE
  22  4,13 | FET
- 22  5,2  - IFE
  22  3,15 - NEUT
  21  5,2  - FEET
+ 21  4,15 - FIT
  21  5,14 - LINTIE
+ 21  4,15 - TITE
+ 21  4,15 - TITI
+ 21  3,15 - UNIT
  20  8,12 | ET
- 20  6,2  - FE
- 20  6,1  | RF
  20  6,15 - TEUFIT
  19  4,14 | EF
  19  4,15 - NUT
  19  1,5  - UNFIT
- 18  2,5  - ENIF
  18  3,14 - FILITE
  18  1,5  - INFIT
+ 18  3,15 - INIT
  18 10,7  | ITEN
- 18 10,7  | NEUT
  18  6,1  | REFT
  18  6,1  | REIF
  18  5,2  - TEEN
  17  5,2  | INTICE
  17  5,2  - NEET
- 17  3,5  - NEF
- 17 10,7  | NEF
- 17  2,5  - NEIF
- 17 10,7  | NETI
  17  8,13 | TUN
  17  5,3  | UNICE
  16 10,2  - AUF
@@ -52,7 +53,6 @@
  16 12,2  - FUNT
  16  2,5  - FUNT
  16  3,5  - FUT
- 16  3,5  - INF
  16  4,13 | NEI
  16  4,13 | NET
  16  6,1  | REF
@@ -75,11 +75,14 @@
  15  5,2  | FUNIC
  15 12,2  - FUTE
  15  1,5  - IFINT
+ 15  4,15 - NIT
  15  8,13 | TIE
  15  4,10 | TIFT
+ 15  4,15 - UIT
  15  3,5  | UNFETED
  15  3,5  | UNIFIED
  15  6,13 - ZANTE
+ 14 10,2  - AINU
  14 10,2  - AUNE
  14 10,2  - AUNT
  14 12,2  - FENT
@@ -87,8 +90,6 @@
  14 12,2  - FINE
  14 12,2  - FINI
  14 12,2  - FUT
- 14 10,7  | NEI
- 14 10,7  | NET
  14  6,1  | REIN
  14  6,1  | RENT
  14  8,13 | TE
@@ -100,9 +101,7 @@
  14  3,14 - UNLIT
  14  6,13 - ZAIN
  14  6,13 - ZANT
- 13  4,5  - EF
  13  4,14 | EN
- 13 10,8  | ENIF
  13 12,2  - FEN
  13 12,2  - FEU
  13 12,2  - FIN
@@ -110,22 +109,20 @@
  13 12,2  - FU
  13  2,7  | FUNK
  13  2,14 - FUNLI
- 13  4,5  - IF
- 13 10,7  | NE
  13  5,4  | NICE
  13  5,4  | NICI
  13  5,2  | NIFIC
- 13 10,7  | TEN
  13 10,8  | TUNE
  13  6,15 - TUTIN
  13  2,5  - UNIT
  13  6,13 - ZATI
+ 12 10,2  - AINE
+ 12 10,2  - AINT
  12 10,2  - AUTE
  12 12,2  - EFT
  12  3,5  - EFT
  12  7,12 - EFT
  12 12,2  - ENIF
- 12 10,8  | ETUI
  12 12,2  - FET
  12 12,2  - FIE
  12  3,14 - FILI
@@ -144,6 +141,7 @@
  12  6,1  | REN
  12  5,4  | TICE
  12 10,8  | TINE
+ 12  4,15 - TIT
  12 10,8  | TUN
  12  6,15 - TUNE
  12  5,2  | TUNIC
@@ -151,7 +149,6 @@
  12  6,13 - ZAT
  11 12,2  - EF
  11  2,7  | EFIK
- 11 10,8  | EFT
  11 10,7  | ET
  11 12,2  - FE
  11 12,2  - FI
@@ -164,7 +161,6 @@
  11 12,2  - NEF
  11  3,5  - NET
  11  3,5  - NIT
- 11 10,7  | TE
  11 10,8  | TEN
  11  6,15 - TIEN
  11  6,15 - TIFT
@@ -177,6 +173,7 @@
  11  3,7  | UNFED
  11  8,7  - WEENT
  11  8,7  - WEFT
+ 10 10,2  - AIN
  10  7,12 - EF
  10  4,14 | ET
  10  7,12 - ETEN
@@ -184,6 +181,7 @@
  10  3,7  | FEUED
  10  3,7  | FINED
  10  3,5  - INT
+ 10  5,15 - ITEN
  10  5,14 - LIN
  10  5,14 - LITU
  10  2,7  | NEUK
@@ -227,11 +225,10 @@
   9  3,6  | UNTIED
   9  8,7  - WENE
   9  8,7  - WENT
+  8 10,2  - AIT
   8  6,2  - EE
   8  7,12 - EEN
-  8 10,8  | EF
   8 12,2  - ETUI
-  8  5,5  | FC
   8  3,8  | FEED
   8  3,8  | FIED
   8  2,8  | INK
@@ -262,7 +259,6 @@
   8  8,7  - WEET
   7  7,2  - EN
   7 12,2  - EN
-  7  5,4  | ENC
   7  4,5  - ET
   7 12,1  | ETUI
   7  3,9  | FED
@@ -272,6 +268,7 @@
   7  5,14 | LU
   7 12,2  - NE
   7  4,13 | NE
+  7 12,2  - NI
   7 12,2  - TEN
   7  4,10 | TIEN
   7 12,2  - TIN
@@ -282,7 +279,6 @@
   7  8,7  - WEN
   6  3,10 | EDEN
   6 12,1  | EFT
-  6 10,8  | EN
   6  7,12 - EN
   6  3,8  | ENED
   6  7,8  | ET
@@ -302,11 +298,14 @@
   6  8,7  - WEE
   6  8,7  - WEI
   6  8,7  - WET
+  5 10,2  - AI
   5  3,10 | EDIT
   5 12,1  | EF
   5  7,2  - ET
   5 12,2  - ET
-  5 10,8  | ET
+  5  5,15 - IT
+  5 11,1  | LI
+  5  5,14 | LI
   5  3,9  | NED
   5  5,5  | TC
   5 12,2  - TE
@@ -327,7 +326,6 @@
   4  6,15 - TE
   4  3,9  | TED
   4  6,15 - TI
-  3  8,8  - ASE
   3  8,8  - AST
   3 12,1  | EN
   2 12,1  | EE

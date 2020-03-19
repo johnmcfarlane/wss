@@ -21,10 +21,12 @@
  20  6,6  | PARLIA
  20  8,7  - WAIL
  20  8,7  - WARL
+ 20  8,7  - WIRL
  19  8,7  - WAIR
  19  9,3  | WRANG
  19  9,3  | WRING
  18  8,7  - GAIL
+ 18  8,7  - GIRL
  18  8,4  | GRAAL
  18  8,4  | GRAIL
  18  8,5  - LAG
@@ -38,6 +40,7 @@
  18  8,7  - RAW
  18  9,2  | WALING
  18  8,7  - WAR
+ 18  8,7  - WIR
  17  8,3  | AGLAIA
  17  7,5  - ALAI
  17  1,7  - ARGALI
@@ -64,6 +67,7 @@
  16  8,7  - GAR
  16  8,4  | GLAIR
  16  9,5  - IWA
+ 16  9,7  - IWA
  16 10,2  | LARGO
  16 10,6  | ORGAL
  15  8,1  | AGARWAL
@@ -91,6 +95,7 @@
  15  8,7  - LARI
  15  9,3  | LAWN
  15  9,3  | LIANG
+ 15  8,7  - LIRA
  15  8,5  | WAAG
  15  8,4  | WAAR
  15  9,4  | WANGA
@@ -111,9 +116,11 @@
  14  3,7  - GAIA
  14  3,7  - GARA
  14  9,5  | GNAW
+ 14  7,5  - LAI
  14  8,5  - LAI
  14  8,7  - LAI
  14  8,7  - LAR
+ 14  8,7  - LIR
  14 10,6  | OARIAL
  14 10,6  | ORGIA
  14  8,7  - RAIL
@@ -125,6 +132,7 @@
  13  8,3  | AGLA
  13  3,7  - AGLA
  13  8,6  | AGLAIA
+ 13  8,7  - AIRA
  13  8,4  | ALAWI
  13  8,6  | ALGA
  13  3,7  - ALGA
@@ -133,6 +141,7 @@
  13  8,3  | ARGALI
  13  8,5  | GARAWI
  13  9,3  | GARNI
+ 13  8,7  - GI
  13  8,4  | GLAR
  13  9,3  | GRANA
  13  9,4  | LANGI
@@ -147,6 +156,7 @@
  13  9,3  | WRAN
  12  9,2  | AGAIN
  12  9,2  | AGRIN
+ 12  8,7  - AIR
  12  9,5  - ALA
  12  8,6  | ALG
  12  9,2  | ALGIN
@@ -214,6 +224,8 @@
  11  8,5  - LA
  11  8,7  - LA
  11  9,2  | LAGAN
+ 11  8,5  - LI
+ 11  8,7  - LI
  11  9,3  | LIANA
  11  9,2  | LIGAN
  11  9,6  | NAIG
@@ -229,7 +241,6 @@
  10  3,7  - AIRA
  10  9,2  | ALAIN
  10  9,3  | ALANI
- 10  9,7  - ARA
  10  8,2  | ARAWA
  10  8,6  | ARAWA
  10  8,3  | ARGAL
@@ -244,6 +255,7 @@
  10  4,7  - GRA
  10  8,3  | GRAAL
  10  9,2  | GRAIN
+ 10  9,7  - IRA
  10  6,4  | LWP
  10  3,7  - RAIA
  10  9,4  | RANLI
@@ -259,6 +271,7 @@
   9  8,6  | AGRIA
   9  8,5  - AI
   9  9,5  - AI
+  9  8,7  - AI
   9  9,7  - AI
   9  4,7  - ALA
   9  8,1  | ALARIA
@@ -316,7 +329,6 @@
   8  9,5  | ANAL
   8  9,5  | ANIL
   8  6,5  | APAIR
-  8  4,7  - ARA
   8  9,2  | ARAIN
   8 10,3  | ARGOL
   8  9,2  | ARIAN
@@ -336,11 +348,13 @@
   8  7,6  | IGARA
   8  4,7  - IRA
   8  8,4  | IWA
+  8  7,5  - LA
   8  5,7  - LA
   8  9,4  | LANA
   8  8,2  | LARIA
   8  7,3  | LARIA
   8  8,5  | LARIA
+  8  5,7  - LI
   8  9,4  | LINA
   8  6,4  | LIPA
   8  9,5  | LNR
@@ -366,7 +380,6 @@
   8  7,5  | WIG
   8  9,4  | WIN
   8  7,5  | WIRL
-  8 10,5  | WOG
   7  5,7  - AA
   7  7,2  | AALII
   7  7,3  | AALII
@@ -465,6 +478,7 @@
   6 10,5  - LA
   6  8,5  | LAG
   6  9,4  | LAN
+  6 10,5  - LI
   6  7,5  | LIG
   6  9,4  | LIN
   6 10,5  | LOG
@@ -482,7 +496,6 @@
   6 10,5  | ROW
   6  8,5  | WAR
   6  7,5  | WIR
-  6 10,5  | WOA
   6 10,4  | WRO
   5  8,4  | AAA
   5  8,6  | AAA
@@ -492,8 +505,6 @@
   5  7,4  | ALIA
   5  7,4  | ALII
   5 10,5  | AOLI
-  5  8,4  | ARA
-  5  8,6  | ARA
   5  7,4  | ARIL
   5  9,4  | ARN
   5  8,6  | AW
@@ -546,6 +557,7 @@
   4 10,5  | LOA
   4 10,5  | LOR
   4  9,6  | NA
+  4  9,6  | NI
   4 10,6  | OIL
   4 10,6  | OLA
   4 10,6  | ORL
@@ -558,6 +570,7 @@
   3 10,4  | IAO
   3  7,6  | IRA
   3  8,5  | LA
+  3  7,5  | LI
   3 10,5  | LO
   3 10,6  | OAR
   3 10,6  | ORA

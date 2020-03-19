@@ -13,10 +13,13 @@
  22  7,7  | SOP
  21  7,9  | PSF
  21  5,7  | SPOOF
+ 20  7,2  | FIGO
+ 20  7,2  | FIGS
  20  7,2  | FOGO
  20  7,2  | FOGS
  20  7,8  | OPS
  20  7,9  | PIG
+ 20  7,2  | PIGS
  20  7,2  | POGO
  20  5,1  | POOF
  20  5,7  | POOF
@@ -46,6 +49,9 @@
  18  5,8  | POOF
  18  7,9  | POS
  18  7,9  | PSI
+ 18  7,1  | PSIG
+ 18  7,1  | SPIG
+ 17  7,2  | FIG
  17  5,8  | FIGO
  17  7,8  | FIGO
  17  5,8  | FIGS
@@ -61,6 +67,7 @@
  17  7,8  | FOP
  17  5,4  - GASP
  17  7,9  | PI
+ 17  7,2  | PIG
  17  5,8  | PIGS
  17  4,3  - PINGOS
  17  7,9  | PO
@@ -83,6 +90,7 @@
  16  5,2  | OOF
  16  3,3  - OPING
  16  5,8  | PIG
+ 16  7,2  | PISO
  16  5,7  | POI
  16  7,7  | POI
  16  7,2  | POIS
@@ -130,9 +138,11 @@
  14  4,4  - POA
  14  4,8  - POI
  14  5,8  | POI
+ 14  7,1  | POIS
  14  4,3  - PONG
  14  5,8  | POS
  14  4,8  - PSI
+ 14  7,2  | SIG
  14  7,2  | SOG
  14  4,3  - SONGOI
  14  2,3  - SPOON
@@ -145,6 +155,7 @@
  13  3,3  - FOIN
  13  3,9  - FOOdS
  13  2,3  - GIPON
+ 13  7,1  | GOIS
  13  5,8  | GOIS
  13  4,3  - GONIF
  13  4,3  - GONOF
@@ -156,6 +167,7 @@
  13  6,3  - NOOP
  13  5,8  | PI
  13  3,3  - PION
+ 13  7,2  | PIS
  13  5,8  | PO
  13  3,7  - POGO
  13  7,2  | POI
@@ -166,6 +178,7 @@
  12  3,4  - FOGAS
  12  2,5  - FOGIES
  12  5,8  | GIO
+ 12  7,2  | GIS
  12  5,8  | GIS
  12  4,4  - GOAS
  12  7,2  | GOI
@@ -191,7 +204,6 @@
  12  4,3  - SONGO
  12  4,8  - SPIF
  12  3,7  - SPOOF
- 11  6,4  - ASG
  11  5,4  - FAGS
  11  5,8  - FIGO
  11  5,8  - FIGS
@@ -222,10 +234,12 @@
  11  3,5  - PISE
  11  3,7  - PISO
  11  5,1  | POI
+ 11  7,1  | POI
  11  4,3  - PONOS
  11  3,9  - POOd
  11  3,5  - POSE
  11  5,1  | PSI
+ 11  7,1  | PSI
  11  3,9  - PSId
  11  3,3  - SIGN
  11  4,3  - SING
@@ -242,6 +256,7 @@
  11  6,9  - dISP
  10  6,4  - APIOS
  10  5,2  | FI
+ 10  7,2  | FI
  10  4,3  - FINO
  10  4,3  - FINS
  10  4,3  - FONO
@@ -253,6 +268,7 @@
  10  7,4  | GO
  10  5,7  | GO
  10  5,1  | GOI
+ 10  7,1  | GOI
  10  5,1  | GOO
  10  7,1  | GOO
  10  4,7  - GOOFS
@@ -262,6 +278,7 @@
  10  6,3  - NOSIG
  10  7,2  | OOS
  10  5,2  | PI
+ 10  7,2  | PI
  10  4,3  - PINO
  10  4,3  - PINS
  10  5,2  | PO
@@ -289,6 +306,7 @@
   9  5,7  - FOP
   9  2,5  - FOSIE
   9  5,2  | GI
+  9  7,2  | GI
   9  4,3  - GINS
   9  3,5  - GISE
   9  5,2  | GO
@@ -305,6 +323,7 @@
   9  5,9  | IPS
   9  7,9  | IPS
   9  6,8  - IPSO
+  9  7,3  | IS
   9  6,3  - NOGS
   9  5,4  - OAFS
   9  5,9  | OFO
@@ -395,6 +414,7 @@
   7  6,3  - NIG
   7  6,3  - NOG
   7  5,2  | OI
+  7  7,2  | OI
   7  5,8  | OI
   7  7,8  | OI
   7  5,2  | OO
@@ -409,6 +429,7 @@
   7  5,7  - POIS
   7  5,5  - SEIF
   7  5,2  | SI
+  7  7,2  | SI
   7  5,8  | SI
   7  7,8  | SI
   7  3,3  - SION
@@ -437,7 +458,6 @@
   6  4,7  - GOOS
   6  5,7  - GOOS
   6  4,5  - IFE
-  6  5,3  - INO
   6  5,3  - INS
   6  7,4  | IO
   6  5,7  | IO
@@ -540,6 +560,7 @@
   4  5,7  - GO
   4  5,3  - IN
   4  5,9  - IdS
+  4  6,3  - NI
   4  6,3  - NO
   4  5,3  - ON
   4  5,9  - OdS

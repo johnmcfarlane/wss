@@ -66,7 +66,6 @@
  24 10,1  | DEWANEE
  24 10,5  | DEWANEE
  24 11,3  | DEWS
- 24  6,2  | ENWEB
  24 11,3  | NEWS
  24 11,6  | SAWN
  24 11,3  | SENSED
@@ -79,12 +78,13 @@
  24 11,3  | WANS
  24 11,3  | WEDS
  24 11,3  | WENS
+ 23  7,5  - ANEW
  23  7,7  - ANEW
  23  8,5  - AWE
  23  6,7  - EASED
+ 23  7,5  - ENEW
  23  8,5  - SWA
  23  9,5  - WAE
- 23  9,5  - WEA
  23  9,5  - WEE
  22  6,5  | ABENDS
  22  6,6  | BEANED
@@ -148,8 +148,11 @@
  19  8,5  - DEW
  19  8,7  - DEW
  19  7,5  - EDEN
+ 19  7,5  - ENED
  19  8,6  | INWEED
+ 19  8,5  - NAW
  19  8,7  - NAW
+ 19  8,5  - NEW
  19  8,7  - NEW
  19  8,4  | WAINS
  19  7,3  | WEALDEN
@@ -238,11 +241,9 @@
  15  8,7  - DEN
  15 11,3  | DESS
  15  8,5  | DISNEW
- 15  6,7  - EAD
- 15  6,7  - EAN
  15 11,2  | EASES
  15  7,6  | LEEWAN
- 15  8,7  - NAD
+ 15  8,5  - NED
  15  8,7  - NED
  15 11,3  | NESS
  15 11,6  | SADE
@@ -259,6 +260,7 @@
  15  2,5  - WEEDA
  15  2,7  - WEEDA
  15  8,5  | WINDAS
+ 14  7,5  - ANE
  14  7,7  - ANE
  14  9,5  - AW
  14  9,7  - AW
@@ -283,7 +285,6 @@
  14  7,3  | WANLE
  14  9,3  | WANT
  14  9,3  | WASTE
- 14  5,7  - WEA
  14  7,3  | WEALD
  14  7,2  | WEDELNS
  14  9,3  | WEETS
@@ -300,8 +301,6 @@
  13  7,2  | AWEEL
  13  9,2  | AWEST
  13  8,4  | AWIDE
- 13  8,5  - DAE
- 13  8,7  - DAE
  13  8,4  | DAISEE
  13  3,7  - DANE
  13  8,7  - DAS
@@ -316,7 +315,10 @@
  13  4,7  - EDEA
  13  9,2  | EDESTAN
  13  9,2  | EWEST
+ 13  8,5  - NAE
  13  8,7  - NAE
+ 13  8,5  - NEA
+ 13  8,5  - NEE
  13  8,7  - NEE
  13  8,5  - SAD
  13  8,7  - SAD
@@ -342,10 +344,7 @@
  12  8,3  | AEDINE
  12  8,2  | AENEID
  12  3,7  - ANDE
- 12  7,5  - ASE
- 12  7,7  - ASE
  12  8,4  | ASIDEN
- 12  5,5  - DAE
  12  9,3  | DANTE
  12  3,7  - DASE
  12  9,7  - DE
@@ -455,8 +454,6 @@
  11  9,6  | TEWED
  11  8,3  | WADIS
  11  4,7  - WAE
- 11  4,5  - WEA
- 11  4,7  - WEA
  11  7,1  | WEASEL
  11  7,2  | WEDEL
  11  4,7  - WEE
@@ -513,9 +510,11 @@
  10  7,6  | LANDS
  10  7,6  | LENDS
  10  7,6  | LENSED
+ 10  8,5  - NA
  10  8,7  - NA
  10  8,4  | NAID
  10  7,4  | NALEDS
+ 10  8,5  - NE
  10  8,7  - NE
  10  9,3  | NEATS
  10  7,3  | NEELD
@@ -554,6 +553,7 @@
   9  6,5  | ABEDE
   9  7,5  - AD
   9  7,7  - AD
+  9  7,5  - AN
   9  7,7  - AN
   9  4,7  - ANE
   9  7,3  | ANELES
@@ -562,7 +562,6 @@
   9  9,4  | ANTES
   9  6,6  | BAND
   9  6,6  | BEND
-  9  4,7  - DAE
   9  8,4  | DAIS
   9  4,5  - DEA
   9  4,7  - DEA
@@ -576,6 +575,7 @@
   9  8,5  | DINES
   9  7,5  - ED
   9  7,5  | ELEAN
+  9  7,5  - EN
   9  9,3  | ENATE
   9  7,1  | ENSEAL
   9  9,4  | ENTEA
@@ -653,7 +653,6 @@
   8  9,4  | ANTE
   8  9,4  | ANTS
   8  9,7  - AS
-  8  4,7  - ASE
   8  9,5  | ATEES
   8 10,4  | AWED
   8  7,4  | AWLS
@@ -964,11 +963,8 @@
   6  9,6  | TEES
   6 10,4  | WAE
   6 11,4  | WAS
-  6 10,5  | WEA
   6 10,4  | WEE
   6 10,5  | WEE
-  6 11,4  | WES
-  6 10,5  | WES
   6  8,5  | WIS
   5  6,5  | AB
   5  7,5  | ALD
@@ -1058,7 +1054,6 @@
   4 11,4  | ASSE
   4 11,5  | ASSE
   4  9,4  | AST
-  4 10,4  | DAE
   4 11,4  | DAS
   4 10,5  | DEA
   4 10,4  | DEE
@@ -1066,8 +1061,6 @@
   4  8,5  | DIA
   4  8,5  | DIE
   4  8,5  | DIS
-  4 10,6  | EAD
-  4 10,6  | EAN
   4 10,3  | EASE
   4 11,4  | EASE
   4 10,6  | EASE
@@ -1114,8 +1107,6 @@
   3 10,5  | AES
   3  8,5  | AIS
   3  7,5  | AL
-  3 10,4  | ASE
-  3 11,5  | ASE
   3 11,4  | ASS
   3 11,5  | ASS
   3  9,5  | AT
@@ -1134,6 +1125,7 @@
   3  8,6  | IN
   3  7,6  | LA
   3 10,5  | NE
+  3  8,5  | NI
   3 10,4  | SAE
   3 11,6  | SAE
   3 10,5  | SEA

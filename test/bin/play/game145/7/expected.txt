@@ -56,7 +56,6 @@
  27  2,1  - DIRK
  27  2,1  - DISK
  27 11,2  | SAI
- 27 11,2  | SAR
  27 11,2  | SAT
  27 11,2  | SIA
  27 11,2  | SIR
@@ -76,17 +75,13 @@
  24  2,1  - TASK
  23  9,3  - SAD
  23  4,6  | TAD
- 22  7,4  | DAWTS
  22  3,8  - SWAIRD
- 22  7,4  | WADIS
  22  6,8  | WAS
  22  6,8  | WAT
  21  3,1  - AIK
  21  3,1  - ARK
  21  3,1  - ASK
  21  4,8  - DATSW
- 21  7,4  | DAWS
- 21  7,4  | DAWT
  21  4,4  | DWT
  21  3,1  - IRK
  21  3,1  - RIK
@@ -96,61 +91,38 @@
  21  7,5  | SWARD
  21  7,5  | SWIRD
  21  3,1  - TSK
- 21  7,4  | WADI
- 21  7,4  | WADS
  21  4,8  - WAIRD
- 21  7,4  | WARDS
  21  4,4  | WAT
  20  3,8  - AWARDS
- 20  7,5  | AWRIST
- 20  7,4  | DAW
  20  8,3  - IDS
  20  9,3  - SAI
- 20  9,3  - SAR
  20  9,3  - SAT
- 20  7,4  | WAD
- 20  7,4  | WARD
- 20  7,4  | WARST
- 20  7,4  | WARTS
  19  3,8  - AWAITS
- 19  7,4  | DATSW
- 19  7,4  | RAWS
- 19  7,4  | SAWT
  19  7,5  | STARW
  19  7,5  | STRAW
  19  7,5  | SWART
  19  7,5  | SWATI
- 19  7,4  | TAWS
  19  4,8  - WADIS
  19  4,8  - WARDS
- 19  7,4  | WARS
- 19  7,4  | WART
- 19  7,4  | WATS
  18  4,7  | AD
  18 10,3  - AW
  18  2,8  - DIWATA
  18  7,6  | DRAWS
  18  5,2  - EQUANTS
- 18  7,4  | RAW
  18  7,4  | RTW
- 18  7,4  | SAW
  18  7,5  | SWAD
- 18  7,4  | TAW
  18  4,7  | TD
  18  4,8  - WAASI
  18  4,8  - WAIRS
  18  4,8  - WAIST
  18  4,8  - WAITS
- 18  7,4  | WAR
  18  7,6  | WARDS
  18  4,8  - WARST
  18  4,8  - WARTS
  18  4,8  - WASAT
  18  4,8  - WASIR
- 18  7,4  | WAT
  17  4,4  | ARTS
  17  3,8  - AWARD
- 17  7,5  | AWD
  17  7,6  | DRAW
  17  2,8  - ISWARA
  17  6,8  | RAD
@@ -169,8 +141,6 @@
  17  7,6  | WRAIST
  16  5,8  - ADAW
  16  3,8  - AWAIT
- 16  7,4  | DARST
- 16  7,4  | DARTS
  16  6,8  | DAS
  16  6,8  | DAT
  16  6,4  - ETWAS
@@ -202,20 +172,13 @@
  16  7,6  | WRIST
  16  7,6  | WRITS
  16  4,4  | WT
- 15  7,5  | ADITS
- 15  7,5  | AW
  15  9,3  - DA
  15  2,7  | DAIJO
- 15  7,4  | DARI
- 15  7,4  | DART
  15  4,4  | DAT
  15  7,6  | DATSW
  15  7,6  | DAWTS
  15  4,8  - DAWTS
  15  7,4  | DSRI
- 15  7,4  | RADS
- 15  7,4  | SADI
- 15  7,4  | SADR
  15  7,4  | STAID
  15  7,5  | STAID
  15  7,4  | STRAD
@@ -223,7 +186,6 @@
  15  7,4  | STRID
  15  7,5  | STRID
  15  3,8  - SWAT
- 15  7,4  | TADS
  15  2,8  - TAWA
  15  7,5  | TRIAD
  15  7,4  | TSADI
@@ -248,18 +210,12 @@
  15  4,5  | WT
  14  3,8  - AWA
  14  7,6  | AWRIST
- 14  7,4  | DAR
- 14  7,4  | DAT
  14  7,6  | DAWS
  14  7,6  | DAWT
  14  7,4  | DSR
  14  3,8  - IWA
  14  5,10 - IWIS
- 14  7,4  | RAD
- 14  7,4  | SAD
  14  2,6  - SAILOR
- 14  7,4  | SARD
- 14  7,4  | SATD
  14  7,5  | SAWT
  14  7,4  | STAD
  14  7,4  | STAIR
@@ -267,9 +223,7 @@
  14  7,4  | STD
  14  7,4  | STRIA
  14  3,8  - SWA
- 14  7,4  | TAD
  14  2,6  - TAILOR
- 14  7,4  | TARSI
  14  7,5  | TAWS
  14  3,8  - TWA
  14  7,6  | WAD
@@ -279,25 +233,17 @@
  14  7,6  | WID
  13  6,9  | AD
  13  3,8  - ADATIS
- 13  7,5  | ADIT
- 13  7,5  | ARIST
  13  4,4  | AW
  13 10,3  - DA
  13 10,3  - DI
  13  6,8  | RAS
  13  6,8  | RAT
- 13  7,4  | RATS
- 13  7,4  | SARI
- 13  7,4  | SART
  13  6,8  | SAT
- 13  7,4  | SATI
  13  7,5  | SAW
  13  7,5  | STAIR
  13  7,4  | STAR
  13  7,4  | STRA
  13  7,5  | STRIA
- 13  7,4  | TARI
- 13  7,4  | TARS
  13  7,5  | TARSI
  13  6,8  | TAS
  13  7,5  | TAW
@@ -314,8 +260,6 @@
  13  7,4  | WT
  12 10,3  - AD
  12  3,8  - ADAW
- 12  7,5  | ADS
- 12  7,5  | ARID
  12  4,4  | ART
  12  7,6  | ASTRID
  12  4,7  | AT
@@ -345,16 +289,13 @@
  12  5,10 - IWI
  12  7,6  | RAIDS
  12  4,4  | RAT
- 12  7,4  | RAT
  12  4,8  - RATWA
  12  7,6  | RAWS
  12  7,5  | SADI
  12  7,5  | SADR
  12  7,5  | SAID
- 12  7,4  | SAR
  12  7,5  | SARD
  12  4,4  | SAT
- 12  7,4  | SAT
  12  7,5  | SATD
  12  7,4  | STA
  12  7,5  | STAD
@@ -363,7 +304,6 @@
  12  3,5  | STRIDOR
  12  4,7  | TA
  12  7,5  | TADS
- 12  7,4  | TAR
  12  7,6  | TAWS
  12  7,5  | TDR
  12  7,5  | TRAD
@@ -375,11 +315,8 @@
  12  3,7  - WAH
  12  3,5  - WRAST
  12  7,6  | WT
- 11  7,5  | AD
  11  7,6  | ADITS
  11  7,6  | ARID
- 11  7,5  | ARTS
- 11  7,5  | ATIS
  11  5,8  - AWAITS
  11  5,8  - AWARD
  11  7,6  | AWD
@@ -428,10 +365,7 @@
  10  7,6  | AIDS
  10  7,6  | AIRTS
  10  7,6  | ARIST
- 10  7,5  | ARS
- 10  7,5  | ART
  10  7,6  | ASTIR
- 10  7,5  | ATI
  10  5,8  - AWAIT
  10  4,4  | DA
  10  3,8  - DRAW
@@ -452,7 +386,6 @@
  10  7,6  | RIDS
  10  7,6  | RTW
  10  7,5  | SAI
- 10  7,5  | SAR
  10  7,5  | SAT
  10  1,7  - SIDTH
  10  7,5  | SRI
@@ -495,7 +428,6 @@
   9  7,6  | AIRT
   9  7,6  | AITS
   9 10,3  - AR
-  9  7,5  | AR
   9  5,8  - ARAD
   9  3,7  | ARDOR
   9  5,8  - ARID
@@ -508,11 +440,9 @@
   9  5,8  - ASTRID
   9 10,3  - AT
   9  4,5  | AT
-  9  7,5  | AT
   9  6,9  | AT
   9  7,6  | ATIS
   9  7,6  | AW
-  9  7,4  | DA
   9  4,8  - DAIS
   9  7,6  | DAR
   9  4,8  - DARI
@@ -562,7 +492,6 @@
   9  7,6  | TSIA
   9  3,8  - WAAR
   9  5,9  - jAW
-  8  3,8  - ADA
   8  5,8  - ADATI
   8  5,8  - ADITS
   8  7,6  | ADS
@@ -588,7 +517,6 @@
   8  2,8  - DITAS
   8  3,8  - DRATS
   8  2,8  - DRIAS
-  8  6,4  - EAD
   8  6,4  - EDITS
   8  9,1  | ENDS
   8  9,1  | ENTIA
@@ -678,7 +606,6 @@
   7  8,1  | LASA
   7  8,1  | LASI
   7  8,1  | LAST
-  7  8,1  | LATA
   7  8,1  | LATI
   7  8,1  | LATS
   7  8,1  | LAW
@@ -719,7 +646,6 @@
   7  3,8  - STAIR
   7  1,8  - STRIA
   7  4,4  | TA
-  7  7,4  | TA
   7  4,8  - TADS
   7  7,6  | TAI
   7  7,6  | TAR
@@ -811,8 +737,6 @@
   6  4,8  - SAD
   6  3,7  - SAH
   6  4,8  - SAIR
-  6  2,8  - SARA
-  6  4,8  - SARA
   6  4,8  - SARI
   6  4,8  - SART
   6  2,8  - SATA
@@ -840,8 +764,6 @@
   6  4,5  - WAS
   5  4,8  - AAS
   5  3,5  - AIAS
-  5  3,8  - ARA
-  5  3,8  - ASA
   5  3,8  | ASOR
   5  5,8  - AW
   5  4,5  - DASI
@@ -873,7 +795,6 @@
   5  3,8  - SAA
   5  4,8  - SAA
   5  4,8  - SAI
-  5  4,8  - SAR
   5  4,8  - SAT
   5  3,8  - SIA
   5  3,6  - SILO
@@ -889,7 +810,6 @@
   5  3,8  - TRA
   5  5,9  - jAD
   4  4,8  - AA
-  4  5,8  - ADA
   4  5,8  - ADS
   4  4,7  - AH
   4  5,8  - AID
@@ -912,7 +832,6 @@
   4  5,6  - LOR
   4  5,6  - LOT
   4  4,5  - RASA
-  4  4,5  - SASA
   4  4,7  - SH
   4  4,8  - TA
   4  4,5  - TASS
@@ -927,11 +846,8 @@
   3  5,8  - AIR
   3  5,8  - AIS
   3  5,8  - AIT
-  3  5,8  - ARA
   3  5,8  - ARS
   3  5,8  - ART
-  3  5,5  - ASA
-  3  5,8  - ASA
   3  5,5  - ASS
   3  5,5  - AST
   3  5,8  - AST

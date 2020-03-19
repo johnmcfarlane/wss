@@ -31,6 +31,7 @@
  33 11,3  | FIRED
  33 11,3  | FOREL
  33 11,3  | FRIED
+ 32  1,11 - DIPOLE
  32 11,3  | FILER
  32 11,3  | FLIER
  32 11,3  | FLRIE
@@ -142,6 +143,7 @@
  24 11,3  | ORFE
  24 11,3  | ORIEL
  24  8,3  | ORL
+ 24  3,11 - PILED
  24  3,11 - POLED
  24  2,4  - REFILED
  24  9,4  | REIF
@@ -161,6 +163,7 @@
  22  2,4  - DEFILER
  22  8,1  | DIER
  22  8,1  | DOER
+ 22  2,11 - EPIL
  22  4,4  - FIDEL
  22  4,4  - FILED
  22  9,3  | FILER
@@ -176,6 +179,7 @@
  22  9,3  | LIFER
  22  8,3  | OER
  22  8,3  | ORE
+ 22  3,11 - PILE
  22  3,11 - POLE
  21 11,3  | DELI
  21  8,2  | DER
@@ -216,6 +220,7 @@
  20  5,11 - FED
  20  2,1  | FEDORA
  20  9,3  | FERIO
+ 20  1,11 - FIP
  20  2,1  | FLORIA
  20  9,2  | FOILER
  20  4,5  | FOLE
@@ -235,6 +240,7 @@
  20  8,2  | ROE
  19  2,4  - DEFILE
  19  6,4  - DEFILE
+ 19 11,5  | DEFIs
  19  6,4  - DEFOIL
  19  1,8  - DOWF
  19  8,3  | EO
@@ -268,6 +274,7 @@
  18  6,4  | FEELIES
  18  2,4  - FERLIED
  18  2,2  | FILEA
+ 18 11,7  | FIsE
  18  8,1  | FLO
  18  4,4  | FLOE
  18  4,4  | FLOR
@@ -287,6 +294,7 @@
  18  9,4  | OFER
  18  9,4  | OLID
  18 11,3  | ORLE
+ 18  3,11 - PIL
  18  3,11 - POL
  18 11,3  | REDO
  18  2,4  - REFILE
@@ -302,6 +310,7 @@
  17 11,7  | DOsER
  17  4,4  | DROF
  17  6,3  - EJIDO
+ 17 11,5  | FELIs
  17  9,5  | FER
  17  9,3  | FIDE
  17  9,3  | FIDO
@@ -388,17 +397,18 @@
  16  9,3  | OILER
  16  4,6  | OLE
  16  9,4  | ORED
+ 16  3,11 - PIE
  16  3,11 - POE
  16  3,11 - POI
  16  6,4  - REFL
  16  9,4  | REID
- 16  8,4  | RF
  16  9,4  | ROED
  16  9,4  | ROID
  15  6,4  - DEF
  15 11,5  | DEF
  15  2,7  - DEF
  15  4,4  - DEFER
+ 15 11,5  | DELIs
  15  1,9  - DER
  15  6,5  - DERF
  15  8,1  | DIE
@@ -439,6 +449,7 @@
  15  8,1  | IDE
  15  6,3  - IJORE
  15  8,1  | ILE
+ 15 11,8  | IsED
  15  7,3  - JERL
  15  7,3  - JOEL
  15  1,7  - LEEF
@@ -472,6 +483,7 @@
  15  9,5  | RID
  15  9,3  | RIFE
  15  9,2  | RIFLE
+ 15  1,11 - RIPE
  15  8,1  | RLE
  15  9,5  | ROD
  15  1,11 - ROPE
@@ -480,6 +492,7 @@
  14  3,4  - DEFIER
  14  2,2  | DELIA
  14  1,11 - DEP
+ 14  1,11 - DIP
  14  8,2  | DO
  14  2,2  | DOLIA
  14  1,11 - DOP
@@ -510,6 +523,8 @@
  14  2,5  | LADE
  14  1,11 - LEP
  14  3,4  - LIEFER
+ 14  1,11 - LIP
+ 14 11,7  | LIsE
  14  8,2  | LO
  14  1,11 - LOP
  14 11,7  | LOsE
@@ -548,6 +563,7 @@
  13  9,3  | DOLI
  13  4,4  | DOOL
  13  9,5  | DOR
+ 13 11,5  | DORIs
  13  1,8  - DOWL
  13  9,4  | DRIE
  13  9,6  | ED
@@ -596,6 +612,7 @@
  13  4,4  | LOOD
  13  7,11 - LOQ
  13  9,5  | LOR
+ 13 11,5  | LORIs
  13  9,6  | OD
  13  8,7  | ODOR
  13  8,2  | OE
@@ -627,6 +644,7 @@
  12  1,9  - EIR
  12  8,4  | EL
  12 11,4  | ELOD
+ 12  2,11 - EPI
  12  9,5  | FE
  12  6,5  - FED
  12  6,5  | FED
@@ -671,6 +689,7 @@
  12  2,4  - RELIDE
  12  6,4  - RELIDE
  12  6,4  - RELIED
+ 12 11,7  | RIsE
  12 11,7  | ROsE
  11  6,5  - DEIL
  11 11,5  | DEL
@@ -699,6 +718,7 @@
  11  7,4  - ELIDE
  11  4,4  | ELOD
  11  2,8  | EON
+ 11 11,6  | ERIs
  11 11,6  | EROs
  11  6,4  - FED
  11  9,7  - FED
@@ -761,6 +781,7 @@
  11  3,4  - RIFLE
  11  9,3  | RILE
  11  9,5  | RIO
+ 11  1,11 - RIP
  11  9,3  | RODE
  11  9,5  | ROE
  11 11,4  | ROED
@@ -855,7 +876,6 @@
  10 11,5  | RED
  10  1,7  - REED
  10 11,5  | REL
- 10  1,5  - RF
  10 11,5  | RID
  10 11,5  | ROD
  10  4,2  | RODEO
@@ -880,6 +900,7 @@
   9 11,5  | DIR
   9  4,4  - DIRE
   9  5,4  | DIVE
+  9 11,7  | DIs
   9  6,4  | DOE
   9 11,5  | DOE
   9 11,5  | DOR
@@ -919,6 +940,7 @@
   9  9,4  | ILE
   9  9,6  | IO
   9  5,4  - IRED
+  9 11,8  | IsE
   9  2,4  | LEAD
   9  6,4  - LED
   9  2,7  - LEE
@@ -939,6 +961,7 @@
   9 11,5  | LIR
   9  4,4  - LIRE
   9  5,4  | LIVE
+  9 11,7  | LIs
   9  2,4  | LOAD
   9 11,5  | LOE
   9 11,5  | LOR
@@ -1032,6 +1055,7 @@
   8  4,4  | LEO
   8  9,4  | LEO
   8  5,4  | LEV
+  8  9,5  | LI
   8  4,3  | LIDO
   8  9,4  | LIE
   8  5,4  | LIV
@@ -1040,6 +1064,7 @@
   8  9,4  | LOE
   8  4,4  | LOO
   8  4,10 | NE
+  8  4,10 | NI
   8  2,10 | NO
   8  4,10 | NO
   8  8,7  - ODEL
@@ -1049,6 +1074,7 @@
   8  2,4  | ORAD
   8  2,8  - OWE
   8  3,11 - PE
+  8  3,11 - PI
   8  3,11 - PO
   8  2,4  | READ
   8  6,4  - RED
@@ -1091,7 +1117,6 @@
   7  5,4  - DOER
   7  1,8  - DOW
   7  5,4  - DREE
-  7  2,5  | EAD
   7  7,4  - ED
   7 11,4  | EDO
   7  2,7  - EER
@@ -1185,7 +1210,6 @@
   7  3,8  - WE
   7  3,8  - WO
   6  2,6  | AD
-  6  2,5  | DAE
   6  2,5  | DAO
   6  2,5  | DAR
   6  6,5  - DE
@@ -1251,6 +1275,7 @@
   6  9,7  - LEO
   6  6,4  - LER
   6  9,7  - LER
+  6 11,5  | LI
   6  2,3  | LIDA
   6  1,7  - LIE
   6  8,7  - LIER
@@ -1387,8 +1412,10 @@
   4  5,4  - ILE
   4  8,8  | IO
   4  8,7  - IRE
+  4 11,8  | Is
   4  2,4  | LEA
   4  5,4  - LEE
+  4 10,8  - LI
   4  5,4  - LIE
   4 10,8  - LO
   4  2,4  | LOA

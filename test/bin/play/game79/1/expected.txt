@@ -10,7 +10,6 @@
  28 10,6  | CURPEL
  28 10,6  | CURPLE
  26  6,2  | BEPUN
- 26  9,7  - BLO
  26 10,6  | CORBEL
  26 10,6  | COUPER
  26 10,6  | COURBE
@@ -43,11 +42,14 @@
  22  6,5  | UNROBE
  22  6,5  | UNROPE
  22  3,7  - UPBORE
+ 21  7,5  - BEL
  21  4,5  - BLUP
+ 21  7,5  - BOL
  21  8,4  | BOREL
  21  8,4  | BURLER
  21  8,4  | BURREL
  21  4,5  - LOUPE
+ 21  7,5  - POL
  21  4,5  - PROBE
  21  4,7  - PROBE
  21  8,4  | PURLER
@@ -66,7 +68,6 @@
  20  5,5  - LUPE
  20  6,6  | NOBEL
  20  6,6  | NOBLE
- 20  8,5  - OB
  20  8,5  - OP
  20  6,2  | PELON
  20  6,2  | PERUN
@@ -137,7 +138,6 @@
  17  8,2  | LOPER
  17  5,5  - LUB
  17  5,7  - LUB
- 17  9,7  - OLP
  17  9,7  - OP
  17  7,5  | PARBLEU
  17  3,5  - PELU
@@ -296,7 +296,6 @@
  14  3,7  - LUPE
  14  5,7  - LURE
  14  6,6  | NEROL
- 14  9,7  - OLE
  14  7,3  | PEBA
  14  8,4  | PER
  14  9,5  | PILE
@@ -353,8 +352,6 @@
  13  3,5  - LOPE
  13  3,7  - LOPE
  13  8,4  | LURER
- 13  6,5  - OB
- 13  6,7  - OB
  13  6,5  - OP
  13  7,5  | PABLO
  13  7,5  | PALOUR
@@ -407,7 +404,7 @@
  12  8,3  | BURR
  12 10,6  | CLUB
  12 10,6  | CULP
- 12 10,7  - LB
+ 12  8,5  - EL
  12  8,4  | LERP
  12  5,7  - LORE
  12  9,3  | LOUIE
@@ -532,7 +529,6 @@
  10 10,3  | LEUCO
  10  3,5  - LORE
  10  3,7  - LORE
- 10 10,7  - LU
  10 10,4  | LUCRE
  10  8,4  | LURE
  10  9,4  | OBI
@@ -614,7 +610,6 @@
   9  4,5  - LEU
   9  4,7  - LEU
   9  9,5  | LIEU
-  9 10,7  - LO
   9  5,7  - LOE
   9  5,7  - LOR
   9  8,4  | LORE
@@ -826,7 +821,6 @@
   6  7,4  | BRA
   6  8,5  | BRO
   6  8,5  | BRR
-  6 10,6  | CL
   6 10,6  | COE
   6 10,6  | COR
   6 10,6  | CRE
@@ -895,6 +889,7 @@
   5  7,4  | LEAR
   5  9,4  | LEI
   5  6,4  | LEN
+  5  9,5  | LI
   5  6,5  | LNR
   5  6,6  | NOL
   5  6,6  | NORE

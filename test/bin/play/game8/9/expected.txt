@@ -92,7 +92,6 @@
  24  4,10 - ESS
  24  4,10 - RAS
  24  4,10 - RES
- 24  4,10 - SAR
  24  4,10 - SER
  23  8,3  | BREWS
  23  7,10 - ISBA
@@ -199,6 +198,7 @@
  15  2,9  | ARB
  15  2,9  | ASB
  15  2,3  | BAAR
+ 15  2,1  | BAI
  15  8,8  - BARA
  15  2,1  | BEA
  15  2,3  | BEAR
@@ -268,6 +268,7 @@
  13  2,8  | BE
  13  9,4  | BEHEAR
  13  8,2  | BESEW
+ 13  2,2  | BI
  13  2,8  | BI
  13  7,3  - BIRSE
  13  7,3  - BRISE
@@ -334,7 +335,6 @@
  11  9,4  - RIC
  11  2,8  | SAE
  11  2,8  | SAI
- 11  2,8  | SAR
  11  2,8  | SEA
  11  2,8  | SEI
  11  2,8  | SER
@@ -367,8 +367,6 @@
   9  8,3  | AREW
   9  2,9  | ARS
   9  3,10 - ARS
-  9  2,9  | ASE
-  9  3,10 - ASE
   9  2,9  | ASS
   9  3,10 - ASS
   9  2,9  | EAR
@@ -403,13 +401,17 @@
   9  3,10 - RIE
   9  8,8  - SABA
   9  3,10 - SAE
+  9  2,1  | SAI
   9  2,1  | SEA
   9  3,10 - SEA
   9  8,8  - SEBA
+  9  2,1  | SEI
   9  2,1  | SIA
   9  3,10 - SIA
   9  3,10 - SIE
   9  3,10 - SIS
+  9  2,1  | SRI
+  9  2,1  | SSI
   9  7,9  | XI
   8  4,10 - AE
   8 10,1  | AER
@@ -422,8 +424,6 @@
   8 10,9  | ARE
   8 10,9  | ARS
   8  4,10 - AS
-  8 10,1  | ASE
-  8 10,9  | ASE
   8 10,9  | ASS
   8  8,3  - BARE
   8  8,3  - BASE
@@ -467,7 +467,6 @@
   8 10,1  | RIE
   8  8,3  - SABE
   8 10,1  | SAE
-  8 10,1  | SAR
   8 10,1  | SEA
   8 10,1  | SER
   8  9,2  | SEREH
@@ -478,6 +477,7 @@
   7  9,9  - ABS
   7  2,9  | AE
   7  7,3  - AERIE
+  7  2,2  | AI
   7  2,9  | AI
   7  2,9  | AR
   7  7,3  - ARISE
@@ -495,6 +495,7 @@
   7  7,3  - RASSE
   7  7,3  - SAREE
   7  7,3  - SEISE
+  7  2,2  | SI
   7  2,8  | SI
   7  7,3  - SIREE
   6  9,8  - ABA
@@ -547,17 +548,13 @@
   6  8,8  - RAIA
   6  8,8  - RASA
   6 10,2  | RE
-  6  8,8  - SARA
-  6  8,8  - SASA
   6  8,8  - SERA
   5  1,4  - AE
   5  8,3  - AIRE
   5  8,3  - ARSE
-  5  1,4  - AS
   5  8,3  - ASSE
   5 10,8  - BA
   5 10,3  - BE
-  5  1,9  - DAE
   5  1,9  - DAR
   5  1,9  - DAS
   5  1,9  - DEA
@@ -588,7 +585,6 @@
   5  8,3  - RASE
   5  9,4  | REH
   5  8,3  - RISE
-  5  2,4  | SAR
   5  8,3  - SARE
   5  8,3  - SERE
   5  8,3  - SIRE
@@ -597,7 +593,6 @@
   4  9,9  - AIS
   4  9,3  - ARE
   4  9,9  - ARS
-  4  9,3  - ASE
   4  9,9  - ASS
   4  9,3  - ERE
   4  9,9  - ERS
@@ -614,14 +609,13 @@
   4  9,3  - SEE
   4  9,3  - SIE
   4  9,9  - SIS
-  3  9,8  - ARA
-  3  9,8  - ASA
   3  1,9  - DA
   3  1,9  - DE
   3  1,9  - DI
   3  9,8  - ERA
   3  9,8  - IRA
   3  1,3  - LA
+  3  1,3  - LI
   3  9,8  - REA
   3  9,8  - RIA
   3  9,8  - SAA

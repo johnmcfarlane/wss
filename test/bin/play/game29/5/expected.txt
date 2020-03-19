@@ -11,7 +11,10 @@
  28 10,6  | NESIOT
  28 10,6  | NOSITE
  28  1,8  - TYDIE
+ 26  2,8  | IONE
+ 26  2,8  | IONI
  26  3,9  - MOYEN
+ 26  2,8  | TONE
  26  2,8  | TOY
  25  2,8  - EDIT
  25  8,10 - ITEN
@@ -27,17 +30,23 @@
  24  1,9  - YOM
  24  7,10 - YOTE
  23  9,10 - TEN
+ 22  2,8  | EON
  22  4,7  | GEIN
  22  4,7  | GEON
  22  4,7  | GIEN
  22  4,7  | GOEN
+ 22  2,8  | ION
  22  3,9  - METIN
  22  7,10 - NOTE
+ 22  2,8  | TEN
+ 22  2,8  | TON
  21  4,7  | GEY
  21  4,7  | GOY
  21  1,9  - ITMO
  21  1,9  - NIM
  21  1,9  - NOM
+ 21  2,9  | ONE
+ 21  2,9  | ONI
  21  2,9  | OY
  21  1,9  - TIME
  21  1,9  - TIMO
@@ -45,7 +54,6 @@
  21  5,9  - YEN
  21  5,9  - YIN
  21  5,9  - YON
- 20  6,5  - ETON
  20  6,5  - ITEN
  20  5,6  | JOINTY
  20  3,9  - MINOT
@@ -53,7 +61,6 @@
  20  7,5  - TIYIN
  20  6,10 - YONT
  19  5,9  - EYN
- 19  2,9  | YO
  18  6,1  | ETONIAN
  18  6,10 - EYOT
  18  5,6  | JOEY
@@ -66,6 +73,7 @@
  18  2,10 | YE
  18  2,10 | YI
  18  4,9  | YNO
+ 17  2,9  | EN
  17  5,4  | ENJOY
  17  5,9  - EON
  17  4,7  | GEO
@@ -74,6 +82,7 @@
  17  4,7  | GOI
  17  5,9  - ION
  17  5,6  | JOINT
+ 17  2,9  | ON
  17  5,9  - TEN
  17  7,5  - TENIO
  17  5,9  - TIN
@@ -110,24 +119,22 @@
  15  7,5  - TIN
  15  7,5  - TON
  14  3,10 - INITIO
- 14  4,9  | INO
  14  5,9  - INT
  14  5,6  | JOIE
  14  5,6  | JOY
+ 14  2,10 | NE
+ 14  2,10 | NI
  14  1,8  - NIDI
  14  1,8  - NODI
  14  4,9  | ONE
  14  4,9  | ONI
  14  5,9  - ONI
  14  5,9  - ONT
- 14  2,8  | OY
  14  2,10 - TINY
  14  7,5  | TWEENY
  14  7,6  | WEENTY
- 13  5,5  | EJOO
  13  2,9  - EMONY
  13  2,9  | EO
- 13  6,5  - ET
  13  2,9  | ET
  13  6,5  - IT
  13  1,8  - TIDI
@@ -147,6 +154,7 @@
  12  3,9  - MINY
  12  3,9  - MONY
  12  1,11 - NETTY
+ 12  6,9  - NI
  12  1,11 - NITTY
  12  8,3  | OYES
  12 10,10 - TE
@@ -270,7 +278,6 @@
   8  7,4  | ETWEE
   8  8,5  - ETY
   8  2,9  - IMIT
-  8  8,5  - INO
   8  8,5  - INT
   8  8,5  - IONE
   8  8,5  - IONI
@@ -285,6 +292,7 @@
   8  4,10 | NE
   8  1,10 - NEI
   8  1,11 - NET
+  8  4,10 | NI
   8  8,4  | NIS
   8  2,10 - NIT
   8  1,11 - NIT
@@ -349,7 +357,6 @@
   7  3,11 - TYNE
   7  1,11 - TYT
   7  6,4  | YEAN
-  7  2,9  - YM
   6  9,8  | EFT
   6  2,9  - EMO
   6  8,4  | ENS
@@ -358,6 +365,7 @@
   6  2,9  - IMI
   6  8,4  | INS
   6  1,11 - INT
+  6  2,10 - NI
   6  4,10 | OE
   6  4,10 | OI
   6  6,4  | ONAN
@@ -423,9 +431,7 @@
   5  3,11 - TTY
   5  3,11 - TYE
   5  3,11 - TYT
-  4  6,5  | EAN
   4  6,5  | IAN
-  4  3,10 - INO
   4  3,10 - INT
   4  3,10 - ION
   4  1,8  - ITD

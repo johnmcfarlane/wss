@@ -14,7 +14,6 @@
  27  9,8  | LENS
  27  7,11 - LENS
  24  7,11 - EELS
- 24  9,9  | ENC
  24  9,11 - ESE
  24  7,11 - LEES
  22  1,6  - CELESTE
@@ -46,13 +45,13 @@
  16  7,7  | NETE
  16 11,9  | SEC
  16  9,2  | SENCE
- 16  5,9  | ZEL
  16  5,9  | ZEN
  15  9,3  | CLEE
  15  8,8  | ChEN
  15  8,7  | EChES
  15  9,9  | ELS
  15  9,9  | ENS
+ 15  5,2  | ENSEEL
  15  9,11 - ES
  15 11,8  | ESNE
  15  8,6  | LECh
@@ -94,7 +93,6 @@
  13  7,8  | ETEN
  13  5,3  | LENES
  13  7,3  | LENES
- 13  6,8  - MEE
  13  6,8  - MES
  12  5,2  | CENSE
  12  7,2  | CENSE
@@ -102,7 +100,6 @@
  12  8,8  | Ch
  12  9,6  | EL
  12  9,6  | EN
- 12  7,4  | ENC
  12  9,3  | LENE
  12  7,4  | LSC
  12  9,2  | NEELE
@@ -120,7 +117,6 @@
  11  8,7  - CLAN
  11  9,3  | ELNE
  11  7,4  | ESC
- 11  8,7  - LCA
  11  9,2  | LENSE
  11  7,4  | SEC
  10  4,7  - CLINE
@@ -128,6 +124,7 @@
  10  9,3  | ESNE
  10 11,8  | ESS
  10  9,2  | LEESE
+ 10  5,5  | LEN
  10  7,5  | LEN
  10  5,3  | LENE
  10  7,3  | LENE
@@ -138,6 +135,8 @@
  10  7,2  | NEELE
  10  9,2  | NEESE
  10  9,3  | NESE
+ 10  5,4  | SEEL
+ 10  5,4  | SEEN
  10  7,4  | SEEN
  10 11,9  | SEL
  10  9,3  | SELE
@@ -150,6 +149,8 @@
   9  3,6  - CELTS
   9  3,6  - CENTS
   9  4,7  - CLIN
+  9  5,5  | EEL
+  9  5,5  | EEN
   9  7,5  | EEN
   9  5,3  | ELNE
   9  7,3  | ELNE
@@ -171,6 +172,8 @@
   9  4,6  - NETLESS
   9 10,6  | SABRAS
   9  2,7  - SEENIL
+  9  5,5  | SEL
+  9  5,5  | SEN
   9  7,5  | SEN
   9  3,7  - SENILE
   9  9,3  | SLEE
@@ -185,11 +188,13 @@
   8  3,6  - CESTE
   8  4,6  - CETES
   8  5,7  - CINE
+  8  5,6  | EL
   8  8,10 - ELA
   8  8,7  - ELAN
   8  5,3  | ELSE
   8  7,3  | ELSE
   8  3,7  - ELSIN
+  8  5,6  | EN
   8  7,6  | EN
   8  5,3  | ENSE
   8  7,3  | ENSE
@@ -288,7 +293,6 @@
   6  6,6  - TELES
   6  8,9  | hCL
   5  6,10 - DE
-  5  9,7  - EAN
   5  9,5  | EE
   5  8,6  - ELSE
   5  8,6  - ENSE
@@ -366,6 +370,8 @@
   3  8,8  | Eh
   3  6,7  - IN
   3  6,7  - ISE
+  3  5,7  - LI
+  3  5,7  - NI
   3  4,7  - SEI
   3  4,6  - SET
   3  5,7  - SIE

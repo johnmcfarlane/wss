@@ -1,7 +1,5 @@
  50  9,9  | LIQ
  50  9,9  | LOQ
- 43  7,3  - IQS
- 42  6,10 - IQS
  42  6,10 - OASAL
  42  6,10 - QIS
  37  9,8  | ALAI
@@ -70,7 +68,6 @@
  22  7,10 - ISL
  22  5,3  - LOIS
  21  9,8  | AL
- 21  7,10 - ASA
  21  8,9  - ELIA
  21  8,9  - ELSA
  21  4,3  - SAIL
@@ -95,7 +92,6 @@
  19  9,4  | QAT
  18  6,3  - AIS
  18  6,3  - AL
- 18  9,8  | ASA
  18  8,9  - EILA
  18  5,3  - LAI
  18  4,3  - LAOS
@@ -116,7 +112,6 @@
  17 10,5  | AEOLIS
  17  4,3  - AIAS
  17  9,8  | AS
- 17  9,3  - SAr
  17  9,3  - SIr
  17  7,5  - SPAAD
  16  5,3  - AAS
@@ -152,7 +147,6 @@
  13  8,9  - ESQ
  13  3,3  - LASA
  13  3,3  - LASI
- 13  6,8  - LAZ
  13  3,3  - LISA
  13  6,8  - LIZ
  13  2,3  - LOASA
@@ -164,6 +158,7 @@
  13  3,3  - SILO
  13  3,3  - SOLA
  13  3,3  - SOLI
+ 13  7,4  | SOOL
  12  3,3  - ALAI
  12  3,3  - ALIA
  12  6,5  - ALP
@@ -196,6 +191,7 @@
  11  4,3  - ILA
  11  3,9  - LAIOSE
  11  9,4  | LAT
+ 11 10,4  | LIES
  11  9,4  | LIT
  11  9,4  | LOT
  11  4,3  - OLA
@@ -217,9 +213,13 @@
  10  9,9  | LA
  10  4,3  - LAI
  10  4,3  - LAO
+ 10  5,3  - LI
+ 10  9,9  | LI
+ 10 10,4  | LIE
  10  5,3  - LO
  10  9,9  | LO
  10  4,3  - LOA
+ 10 10,4  | LOE
  10  9,4  | OAT
  10  7,5  | OOS
  10  9,4  | SAT
@@ -229,13 +229,14 @@
   9  4,9  - AISLE
   9  5,9  - ALOES
   9  4,9  - ALOSE
-  9  4,3  - ASA
   9  4,9  - ASALE
   9  9,5  | AT
   9  6,2  | BALAT
   9  6,2  | BLAST
   9  6,2  | BLIST
   9  6,2  | BLOAT
+  9 10,2  | DAL
+  9 10,2  | DOL
   9  4,3  - IAO
   9  8,7  - IAO
   9  9,5  | IT
@@ -316,7 +317,6 @@
   7  7,9  | AL
   7  5,9  - ALAE
   7  5,9  - ALOE
-  7  7,9  | ASA
   7  3,5  - ASIA
   7  3,7  - ASIA
   7  6,2  | BAL
@@ -392,8 +392,6 @@
   5  7,9  - AES
   5  6,4  | ALTO
   5  6,4  | ALTS
-  5  4,5  - ASA
-  5  4,7  - ASA
   5  6,5  | ATLI
   5  6,2  | BA
   5  6,2  | BI
@@ -407,9 +405,10 @@
   5  6,5  | ITAL
   5  5,5  - LA
   5  5,7  - LA
-  5  6,4  | LATA
   5  6,4  | LATI
   5  6,4  | LATS
+  5  5,5  - LI
+  5  5,7  - LI
   5  6,9  - LIE
   5  6,4  | LITS
   5  5,7  - LO
@@ -447,7 +446,6 @@
   4  5,7  - AI
   4  6,4  | AITS
   4  6,4  | ALT
-  4  6,9  - ASE
   4  6,4  | ASTA
   4  6,5  | ATIS
   4 10,3  - Ar
@@ -503,6 +501,7 @@
   3  6,4  | IST
   3  6,5  | ITA
   3  6,5  | ITS
+  3 10,4  - LI
   3  6,4  | OAT
   3  7,9  - OE
   3  9,4  - SAI

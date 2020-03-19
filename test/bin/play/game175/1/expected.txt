@@ -30,23 +30,17 @@
  34  3,4  | oXAMIC
  34  2,1  | uMIAQS
  34  6,1  | uMIAQS
- 33  5,5  - CIMeX
  32  2,2  | CInQS
  32  6,2  | CInQS
  32  4,4  | QAId
  32  4,4  | QuIA
  32  2,6  | SQuAM
  32  6,6  | SQuAM
- 31  3,5  - MACe
- 31  3,5  - MACo
  31  3,5  | MAQuI
- 31  3,5  - MoCA
  31  4,4  | QuI
  30  2,1  | AXIoMS
  30  6,1  | AXIoMS
- 30  5,5  - CAlIX
  30  3,2  | ClIMAX
- 30  3,5  - MAC
  30  2,2  | MAXIS
  30  6,2  | MAXIS
  30  2,1  | MAXImS
@@ -65,13 +59,10 @@
  28  6,2  | MAXiS
  28  2,2  | MIXeS
  28  6,2  | MIXeS
- 28  3,5  - MaC
  28  2,2  | MaXIS
  28  6,2  | MaXIS
- 28  3,5  - MoC
  28  2,2  | MoXAS
  28  6,2  | MoXAS
- 28  3,5  - MyC
  28  4,5  - QAId
  28  2,6  | SCAlX
  28  6,6  | SCAlX
@@ -109,7 +100,6 @@
  26  6,2  | QuAIS
  26  2,6  | SAQIb
  26  6,6  | SAQIb
- 26  3,3  | XICAk
  26  4,4  | XvII
  26  4,4  | XxII
  26  3,3  | lIMAX
@@ -150,8 +140,6 @@
  23  6,5  - AMeX
  23  3,6  | AQuA
  23  3,6  | AXMAn
- 23  5,5  - CInQ
- 23  2,5  - IMA
  23  3,5  | QAId
  23  5,3  | QuAL
  23  3,3  | QuIA
@@ -165,7 +153,6 @@
  23  1,5  - pIMA
  23  1,5  - rIMA
  23  1,5  - sIMA
- 23  3,5  - yMCA
  22  1,5  - AIMs
  22  1,7  - AIMs
  22  2,1  | AMICeS
@@ -211,7 +198,6 @@
  22  6,1  | MACIeS
  22  2,2  | MACuSI
  22  6,2  | MACuSI
- 22  3,5  - MAc
  22  3,5  - MAe
  22  2,1  | MAgICS
  22  6,1  | MAgICS
@@ -227,9 +213,11 @@
  22  6,2  | MICASt
  22  2,1  | MiACIS
  22  6,1  | MiACIS
+ 22  3,5  - MnA
  22  3,7  - MnA
  22  3,5  - MoA
  22  3,7  - MoA
+ 22  3,7  - MoI
  22  3,5  - MyA
  22  3,5  | QAdI
  22  2,6  | SAlIX
@@ -256,16 +244,12 @@
  21  2,5  - AMt
  21  2,5  - AMy
  21  2,5  - ApX
- 21  5,5  - CAlX
  21  5,5  | CLIMAX
  21  3,4  | CoAX
- 21  5,5  - CoQ
  21  3,4  | CrAX
- 21  2,5  - IMa
  21  2,5  - IMp
  21  3,5  | QAt
  21  2,5  - aMA
- 21  2,5  - iMA
  20  2,2  | ACMeS
  20  6,2  | ACMeS
  20  2,5  - AM
@@ -298,10 +282,8 @@
  20  2,2  | ClAMS
  20  6,2  | ClAMS
  20  4,4  | ClIMA
- 20  5,5  - CoAX
  20  2,2  | CoMAS
  20  6,2  | CoMAS
- 20  5,5  - CoXA
  20  2,2  | CrAMS
  20  6,2  | CrAMS
  20  2,2  | CyMAS
@@ -404,13 +386,11 @@
  19  3,4  | AgAMIC
  19  1,5  - AiM
  19  1,7  - AiM
- 19  3,5  - AsCI
  19  1,5  - AuM
  19  3,5  | CAMIsA
  19  3,5  | CAMlA
  19  3,5  | CAMpA
  19  3,5  | CAMpI
- 19  5,5  - CAMpI
  19  4,3  | CAXIrI
  19  3,3  | CAlAMI
  19  3,5  | CAlAMI
@@ -418,7 +398,6 @@
  19  5,5  | CLIMaX
  19  1,5  - CaAM
  19  3,3  | ChIAM
- 19  5,5  - CoX
  19  4,2  | IAMbIC
  19  4,6  | IAMbIC
  19  5,6  | LAnX
@@ -453,12 +432,10 @@
  18  3,3  | CAMAy
  18  3,5  | CAMAy
  18  3,5  | CAMIs
- 18  5,5  - CAMIs
  18  4,2  | CAMpI
  18  3,3  | CAcAM
  18  3,5  | CAcAM
  18  3,3  | CIMA
- 18  5,5  - CIMA
  18  3,3  | MACAn
  18  3,5  | MACAn
  18  3,3  | MACAo
@@ -478,7 +455,6 @@
  18  3,5  - Ma
  18  3,5  - Mb
  18  3,7  - Mb
- 18  3,5  - Mh
  18  3,5  - Mm
  18  3,5  - Mo
  18  3,7  - Mo
@@ -497,7 +473,6 @@
  18  2,7  - oM
  18  6,5  - oXIM
  18  6,7  - oXIM
- 18  4,5  - sCAM
  18  3,3  | tAXA
  18  3,5  | tAXA
  18  3,5  | tAXI
@@ -510,23 +485,14 @@
  17  6,5  - AdMIX
  17  3,5  | CAIMAn
  17  3,5  | CAM
- 17  5,5  - CAM
  17  3,5  | CAMb
- 17  5,5  - CAMb
  17  3,5  | CAMe
- 17  5,5  - CAMe
  17  3,5  | CAMp
- 17  5,5  - CAMp
  17  3,5  | CAMs
- 17  5,5  - CAMs
  17  4,1  | CAXIrI
  17  1,5  - CAaM
- 17  5,5  - CAaM
  17  1,5  - CAlM
- 17  5,5  - CAlM
  17  3,5  | CAlX
- 17  5,5  - CAuM
- 17  5,5  - CIMa
  17  4,5  | CIMeX
  17  5,5  | CLImAX
  17  3,3  | CiMA
@@ -568,8 +534,6 @@
  17  1,5  - tIAM
  17  3,5  | wAX
  17  3,5  | zAX
- 16  4,5  - ACId
- 16  4,5  - ACIs
  16  5,5  | ALMICe
  16  6,5  - AMIC
  16  6,5  - AMICe
@@ -577,8 +541,6 @@
  16  3,5  - AMa
  16  6,5  - AMiCI
  16  6,5  - AXIoM
- 16  3,5  - AbC
- 16  3,5  - AdC
  16  4,5  - AlIX
  16  3,2  | CAIMAn
  16  5,4  | CALIX
@@ -588,10 +550,7 @@
  16  5,1  | CIMbAL
  16  5,5  | CLAIM
  16  5,5  | CLAIMs
- 16  5,5  - CaAM
  16  5,1  | CaMAIL
- 16  5,5  - CiMA
- 16  5,5  - CoMA
  16  5,6  | LeXIC
  16  5,6  | LiMAX
  16  5,6  | LoXIC
@@ -610,7 +569,6 @@
  16  3,5  | MArCIA
  16  4,5  | MIQrA
  16  1,5  - QuA
- 16  4,5  | XICAk
  16  3,3  | lAMAIC
  16  3,5  | lAMAIC
  16  4,5  | lIMAX
@@ -644,11 +602,8 @@
  15  5,5  | CLeAM
  15  5,5  | CLoAM
  15  5,4  | CaLIX
- 15  5,5  - CaM
  15  5,3  | CaMLA
- 15  5,5  - CoM
  15  5,2  | CoXAL
- 15  5,5  - CuM
  15  5,4  | CyLIX
  15  4,2  | IAMbI
  15  4,6  | IAMbI
@@ -679,7 +634,6 @@
  14  6,2  | ACIdS
  14  2,2  | ACIeS
  14  6,2  | ACIeS
- 14  4,5  - ACe
  14  3,5  - AM
  14  2,2  | AMIaS
  14  6,2  | AMIaS
@@ -699,30 +653,20 @@
  14  6,2  | AMvIS
  14  4,3  | AdMIX
  14  4,4  | CAI
- 14  5,5  - CAI
  14  4,4  | CAIc
- 14  5,5  - CAIc
  14  4,4  | CAId
- 14  5,5  - CAId
  14  2,2  | CAIdS
  14  6,2  | CAIdS
  14  4,4  | CAIn
- 14  5,5  - CAIn
  14  2,2  | CAInS
  14  6,2  | CAInS
  14  4,4  | CAIr
- 14  5,5  - CAIr
- 14  5,5  - CAcI
- 14  5,5  - CAdI
  14  2,2  | CAdIS
  14  6,2  | CAdIS
  14  2,2  | CAmIS
  14  6,2  | CAmIS
  14  2,2  | CAnIS
  14  6,2  | CAnIS
- 14  5,5  - CIA
- 14  5,5  - CIAo
- 14  5,5  - CImA
  14  3,2  | CaAMA
  14  3,4  | CaAMA
  14  5,4  | CaLX
@@ -775,7 +719,6 @@
  14  4,5  - MAe
  14  2,2  | MAnIS
  14  6,2  | MAnIS
- 14  4,5  - MAo
  14  2,2  | MArIS
  14  6,2  | MArIS
  14  4,5  - MAu
@@ -845,7 +788,6 @@
  14  2,2  | aMIAS
  14  6,2  | aMIAS
  14  6,5  - aMIC
- 14  3,5  - bAC
  14  2,2  | bACIS
  14  6,2  | bACIS
  14  2,2  | bIMAS
@@ -853,41 +795,33 @@
  14  5,7  - bIXA
  14  2,2  | cAMIS
  14  6,2  | cAMIS
- 14  4,5  - dCA
  14  4,5  | dIAM
  14  6,5  - eMIC
  14  5,3  | eXCL
- 14  3,5  - fAC
  14  2,2  | kAMIS
  14  6,2  | kAMIS
- 14  3,5  - lAC
  14  2,2  | lACIS
  14  6,2  | lACIS
  14  2,2  | lAICS
  14  6,2  | lAICS
  14  2,2  | lIMAS
  14  6,2  | lIMAS
- 14  3,5  - mAC
  14  2,2  | mAIMS
  14  6,2  | mAIMS
  14  2,2  | mICAS
  14  6,2  | mICAS
- 14  4,5  - oCA
- 14  3,5  - pAC
  14  2,2  | pICAS
  14  6,2  | pICAS
  14  2,2  | pIMAS
  14  6,2  | pIMAS
  14  2,2  | rIMAS
  14  6,2  | rIMAS
- 14  4,5  - sCI
  14  4,5  | sIAM
  14  2,2  | sIMAS
  14  6,2  | sIMAS
  14  2,2  | tAMIS
  14  6,2  | tAMIS
  14  4,5  | tIAM
- 14  3,5  - zAC
  13  6,5  - ACMIc
  13  3,6  | ACMe
  13  5,5  | ALuMIC
@@ -910,34 +844,11 @@
  13  5,4  | CALaMI
  13  3,2  | CAMIAs
  13  3,5  | CAaM
- 13  5,5  - CAb
- 13  5,5  - CAd
- 13  5,5  - CAf
- 13  5,5  - CAg
- 13  5,5  - CAi
- 13  5,5  - CAl
  13  3,5  | CAlM
- 13  5,5  - CAm
- 13  5,5  - CAn
- 13  5,5  - CAp
- 13  5,5  - CAr
- 13  5,5  - CAt
  13  3,5  | CAuM
- 13  5,5  - CAv
- 13  5,5  - CAw
- 13  5,5  - CAy
  13  4,1  | CAzIMI
  13  1,5  - CIAo
  13  1,7  - CIAo
- 13  5,5  - CIa
- 13  5,5  - CId
- 13  5,5  - CIe
- 13  5,5  - CIf
- 13  5,5  - CIg
- 13  5,5  - CIr
- 13  5,5  - CIs
- 13  5,5  - CIt
- 13  5,5  - CIv
  13  5,5  | CLIMA
  13  5,5  | CLIMAx
  13  3,4  | CaAM
@@ -953,8 +864,6 @@
  13  4,4  | CsI
  13  4,2  | IMAmIC
  13  4,6  | IMAmIC
- 13  6,5  - IQs
- 13  6,7  - IQs
  13  4,4  | IXIA
  13  4,6  | IXIA
  13  4,4  | IXIAs
@@ -984,6 +893,7 @@
  13  3,5  | MArC
  13  3,5  | MAsC
  13  4,2  | MIACIs
+ 13  1,5  - MIAn
  13  1,7  - MIAn
  13  1,5  - MIAo
  13  1,7  - MIAo
@@ -1042,16 +952,12 @@
  12  1,7  - CIA
  12  4,5  | CIMA
  12  5,5  | CLiMA
- 12  5,5  - CaI
  12  5,2  | ChIMLA
- 12  5,5  - CiA
  12  6,5  - ICAsM
  12  4,6  | ICAsM
  12  6,7  - ICAsM
  12  5,5  | ILeAC
  12  5,5  | ILiAC
- 12  2,4  | IQS
- 12  6,4  | IQS
  12  4,4  | IXIa
  12  4,6  | IXIa
  12  4,4  | IXIl
@@ -1124,11 +1030,13 @@
  12  5,5  | iLIAC
  12  6,5  - iXIA
  12  6,7  - iXIA
+ 12  4,5  - lAIC
  12  3,5  | lAMIA
  12  4,5  - mAIM
  12  4,3  | mAXI
  12  4,3  | mIMIC
  12  4,5  | mIMIC
+ 12  4,5  - nAIM
  12  4,7  - nAIM
  12  4,5  - sAIC
  12  4,7  - sAIC
@@ -1241,7 +1149,6 @@
  11  6,3  | ICASM
  11  4,4  | ICIcA
  11  5,5  | ILeX
- 11  4,6  | IQs
  11  3,3  | IXiA
  11  4,4  | IcICA
  11  3,3  | IjMA
@@ -1336,11 +1243,8 @@
  11  2,3  | fACSIM
  11  6,3  | fACSIM
  11  5,4  | fALX
- 11  4,5  - fC
  11  5,5  | fLAX
  11  5,5  | fLIX
- 11  2,4  | iQS
- 11  6,4  | iQS
  11  3,3  | iXIA
  11  5,3  | iXIL
  11  4,5  | lIQ
@@ -1349,7 +1253,6 @@
  11  5,5  | oLAX
  11  5,4  | sCLIM
  11  3,4  | sIAM
- 11  4,5  - tC
  11  3,4  | tIAM
  11  3,4  | wAAC
  10  3,4  | ACAd
@@ -1390,7 +1293,9 @@
  10  3,6  | AmIC
  10  3,4  | AnAM
  10  3,6  | AnAM
+ 10  3,7  - AnI
  10  3,6  | AnIM
+ 10  3,7  - AtI
  10  2,3  | CAMS
  10  6,3  | CAMS
  10  3,3  | CAcA
@@ -1425,7 +1330,6 @@
  10  5,4  | CuLM
  10  2,3  | ICaSM
  10  6,3  | ICaSM
- 10  3,4  | IMA
  10  3,4  | IMAm
  10  3,4  | IMAn
  10  4,6  | IXiA
@@ -1526,10 +1430,7 @@
  10  3,3  | cACA
  10  3,5  | cACA
  10  3,5  | cACI
- 10  5,5  - cACI
- 10  5,5  - cAIC
  10  3,3  | cIMA
- 10  5,5  - cIMA
  10  3,3  | dAMA
  10  3,5  | dAMA
  10  3,3  | fAMA
@@ -1576,7 +1477,6 @@
  10  3,5  | tAMA
  10  3,3  | vICA
  10  4,4  | xXII
- 10  3,5  - yM
   9  4,2  | ACInI
   9  3,6  | ACc
   9  3,6  | ACe
@@ -1642,6 +1542,7 @@
   9  6,3  | CoMS
   9  2,3  | CwMS
   9  6,3  | CwMS
+  9  2,5  - IAn
   9  2,7  - IAn
   9  2,5  - IAo
   9  2,7  - IAo
@@ -1687,7 +1588,6 @@
   9  3,5  | MAm
   9  3,5  | MAn
   9  3,2  | MAnIA
-  9  3,5  | MAo
   9  3,5  | MAp
   9  3,5  | MAr
   9  3,2  | MArIA
@@ -1751,7 +1651,6 @@
   9  2,4  | bXS
   9  6,4  | bXS
   9  3,5  | cAM
-  9  5,5  - cAM
   9  5,5  | cLIMA
   9  3,5  | dAM
   9  3,2  | dAMIA
@@ -1767,7 +1666,6 @@
   9  3,5  | gAM
   9  3,5  | hAM
   9  5,5  | iLIMA
-  9  3,4  | iMA
   9  3,5  | jAM
   9  3,5  | kAM
   9  3,5  | lAC
@@ -1775,7 +1673,6 @@
   9  3,5  | lAM
   9  5,5  - lAM
   9  3,2  | lAMIA
-  9  3,4  | lCA
   9  5,5  - lIM
   9  5,7  - lIM
   9  3,5  | mAC
@@ -1884,7 +1781,6 @@
   8  1,5  - CId
   8  1,7  - CId
   8  1,7  - CIe
-  8  1,5  - CIf
   8  1,7  - CIg
   8  4,5  | CImA
   8  1,7  - CIr
@@ -1894,14 +1790,10 @@
   8  5,5  | CLAIk
   8  5,5  | CLAIm
   8  5,5  | CLAIr
-  8  5,4  | CeLIA
   8  5,4  | CiLIA
   8  6,5  - IAMb
   8  6,7  - IAMb
   8  5,5  | ILAMa
-  8  6,5  - IMA
-  8  4,6  | IMA
-  8  6,7  - IMA
   8  6,5  - IMAm
   8  4,6  | IMAm
   8  6,7  - IMAm
@@ -2017,6 +1909,7 @@
   8  4,3  | jAMI
   8  4,5  - kAI
   8  4,3  | kAMI
+  8  4,5  - lAI
   8  5,4  | lILAC
   8  4,5  | lIMA
   8  5,4  | mALIC
@@ -2053,7 +1946,6 @@
   7  3,6  | AAM
   7  2,3  | ACIS
   7  6,3  | ACIS
-  7  5,4  | ACLe
   7  5,4  | ACLu
   7  6,5  - ACc
   7  3,3  | ACcA
@@ -2183,7 +2075,6 @@
   7  5,5  | CLAy
   7  5,5  | CLI
   7  5,5  | CLIn
-  7  5,5  | CLIo
   7  5,5  | CLIp
   7  5,5  | CLIt
   7  5,5  | CLIv
@@ -2199,8 +2090,6 @@
   7  6,7  - ICh
   7  6,5  - ICy
   7  6,7  - ICy
-  7  6,5  - IMa
-  7  6,7  - IMa
   7  6,5  - IMi
   7  6,7  - IMi
   7  6,5  - IMp
@@ -2225,7 +2114,6 @@
   7  6,3  | IcASM
   7  4,3  | IdAIC
   7  2,5  - IlA
-  7  2,5  - ImA
   7  6,5  - InC
   7  6,7  - InC
   7  6,5  - IpM
@@ -2245,7 +2133,6 @@
   7  5,6  | LAMm
   7  5,6  | LAMp
   7  5,6  | LAMs
-  7  5,6  | LCA
   7  5,6  | LICe
   7  5,6  | LICh
   7  5,6  | LICk
@@ -2403,10 +2290,12 @@
   6  5,7  - AhI
   6  2,3  | AiMS
   6  6,3  | AiMS
+  6  3,5  - Al
   6  2,3  | AlMS
   6  6,3  | AlMS
   6  3,5  - Am
   6  4,3  | AmMI
+  6  3,5  - An
   6  3,7  - An
   6  2,3  | ArCS
   6  6,3  | ArCS
@@ -2463,7 +2352,6 @@
   6  6,4  | CISe
   6  2,4  | CISt
   6  6,4  | CISt
-  6  5,5  | CL
   6  5,5  | CLi
   6  5,5  | CLk
   6  5,5  | CLo
@@ -2510,7 +2398,6 @@
   6  2,3  | IsMS
   6  6,3  | IsMS
   6  3,7  - It
-  6  5,6  | LCa
   6  5,6  | LCd
   6  5,6  | LCm
   6  5,6  | LaC
@@ -2760,11 +2647,9 @@
   6  6,5  | aSCI
   6  2,3  | bAMS
   6  6,3  | bAMS
-  6  5,5  - cAI
   6  4,4  | cAIC
   6  2,3  | cAMS
   6  6,3  | cAMS
-  6  5,5  - cIA
   6  5,4  | cML
   6  2,3  | dAMS
   6  6,3  | dAMS
@@ -2790,8 +2675,6 @@
   6  2,7  - hI
   6  6,7  - hIC
   6  6,7  - hIM
-  6  6,5  - iMA
-  6  6,7  - iMA
   6  6,5  - iMI
   6  6,7  - iMI
   6  2,3  | jAMS
@@ -2906,7 +2789,6 @@
   5  4,5  | CIa
   5  4,5  | CId
   5  4,5  | CIe
-  5  4,5  | CIf
   5  4,5  | CIg
   5  4,5  | CIr
   5  4,5  | CIs
@@ -2945,7 +2827,6 @@
   5  4,6  | ICe
   5  4,6  | ICh
   5  4,6  | ICy
-  5  4,6  | IMa
   5  4,6  | IMi
   5  4,6  | IMp
   5  4,6  | IMu
@@ -2953,6 +2834,7 @@
   5  4,6  | IlIA
   5  4,4  | InIA
   5  4,6  | InIA
+  5  5,7  - Io
   5  4,6  | ItAI
   5  5,3  | ItAL
   5  4,4  | IxIA
@@ -2993,7 +2875,6 @@
   5  3,4  | MeA
   5  2,4  | MeS
   5  6,4  | MeS
-  5  1,7  - Mh
   5  1,5  - Mi
   5  1,7  - Mi
   5  3,4  | MiA
@@ -3063,12 +2944,14 @@
   5  4,4  | aMI
   5  4,5  - bA
   5  4,7  - bA
+  5  4,7  - bI
   5  5,7  - bI
   5  4,5  | bIM
   5  2,5  | cSC
   5  6,5  | cSC
   5  4,5  - dA
   5  4,7  - dA
+  5  4,7  - dI
   5  4,5  | dIM
   5  6,5  - eM
   5  2,4  | eMS
@@ -3079,6 +2962,7 @@
   5  4,7  - fA
   5  2,4  | fCS
   5  6,4  | fCS
+  5  4,7  - fI
   5  4,5  | gIM
   5  4,5  - hA
   5  4,5  | hIC
@@ -3088,18 +2972,22 @@
   5  2,5  | iSM
   5  6,5  | iSM
   5  4,5  | jIM
-  5  2,4  | jMS
-  5  6,4  | jMS
   5  4,5  - kA
   5  4,5  | kIM
+  5  4,5  - lA
   5  5,5  - lA
+  5  5,5  - lI
+  5  5,7  - lI
   5  4,5  | lIM
   5  2,5  | lSC
   5  6,5  | lSC
   5  4,5  - mA
   5  4,5  | mIM
+  5  4,5  - nA
   5  4,7  - nA
+  5  4,7  - nI
   5  4,5  | nIM
+  5  4,7  - oI
   5  5,7  - oI
   5  6,5  - oM
   5  6,7  - oM
@@ -3115,10 +3003,12 @@
   5  2,4  | rMS
   5  6,4  | rMS
   5  4,4  | sCI
+  5  4,7  - sI
   5  4,5  | sIC
   5  4,5  | sIM
   5  4,5  - tA
   5  4,7  - tA
+  5  4,7  - tI
   5  4,5  | tIC
   5  4,5  | tIM
   5  6,5  - uM
@@ -3204,9 +3094,6 @@
   4  6,5  - IlA
   4  4,6  | IlA
   4  6,7  - IlA
-  4  6,5  - ImA
-  4  4,6  | ImA
-  4  6,7  - ImA
   4  4,4  | ImI
   4  4,6  | ImI
   4  2,5  - In
@@ -3244,7 +3131,6 @@
   4  5,3  | bAIL
   4  5,4  | bALI
   4  3,5  - dA
-  4  5,3  | dAIL
   4  5,4  | dALI
   4  5,3  | dIAL
   4  5,4  | eILA
@@ -3441,7 +3327,7 @@
   3  5,6  | LAw
   3  5,6  | LAx
   3  5,6  | LAy
-  3  5,6  | LAz
+  3  5,6  | LI
   3  5,6  | LIb
   3  5,6  | LId
   3  5,6  | LIe
@@ -3457,7 +3343,6 @@
   3  5,6  | LIv
   3  5,6  | LIz
   3  5,6  | LaI
-  3  5,6  | LcA
   3  5,6  | LeA
   3  5,6  | LeI
   3  5,6  | LoA
@@ -3580,6 +3465,8 @@
   3  3,5  | lAI
   3  2,4  | lASI
   3  6,4  | lASI
+  3  1,5  - lI
+  3  1,7  - lI
   3  2,3  | lIAS
   3  6,3  | lIAS
   3  2,4  | lISA
@@ -3599,6 +3486,8 @@
   3  6,3  | nAIS
   3  2,4  | nASI
   3  6,4  | nASI
+  3  1,5  - nI
+  3  1,7  - nI
   3  2,3  | nIAS
   3  6,3  | nIAS
   3  5,4  | nIL
@@ -3673,14 +3562,8 @@
   2  4,5  | AIt
   2  2,5  | AS
   2  6,5  | AS
-  2  2,5  | ASa
-  2  6,5  | ASa
   2  2,5  | ASb
   2  6,5  | ASb
-  2  2,5  | ASe
-  2  6,5  | ASe
-  2  2,5  | ASg
-  2  6,5  | ASg
   2  2,5  | ASh
   2  6,5  | ASh
   2  2,5  | ASk
@@ -3700,8 +3583,6 @@
   2  3,6  | AbA
   2  2,4  | AbS
   2  6,4  | AbS
-  2  3,4  | AdA
-  2  3,6  | AdA
   2  2,4  | AdS
   2  6,4  | AdS
   2  1,5  - Ae
@@ -3735,12 +3616,8 @@
   2  6,4  | AnS
   2  3,4  | ApA
   2  3,6  | ApA
-  2  3,4  | ArA
-  2  3,6  | ArA
   2  2,4  | ArS
   2  6,4  | ArS
-  2  3,4  | AsA
-  2  3,6  | AsA
   2  2,4  | AsS
   2  6,4  | AsS
   2  3,6  | AtI
@@ -3780,15 +3657,12 @@
   2  2,4  | IhS
   2  6,4  | IhS
   2  3,4  | IlA
-  2  3,4  | ImA
   2  2,4  | InS
   2  6,4  | InS
   2  1,5  - Io
   2  1,7  - Io
   2  2,4  | IpS
   2  6,4  | IpS
-  2  2,4  | IqS
-  2  6,4  | IqS
   2  3,4  | IrA
   2  2,4  | IrS
   2  6,4  | IrS
@@ -3799,6 +3673,7 @@
   2  3,4  | IwA
   2  5,6  | La
   2  5,6  | Lb
+  2  5,6  | Li
   2  5,6  | Ll
   2  5,6  | Lo
   2  5,6  | Lu
@@ -3830,8 +3705,6 @@
   2  6,6  | SAo
   2  2,6  | SAp
   2  6,6  | SAp
-  2  2,6  | SAr
-  2  6,6  | SAr
   2  2,6  | SAt
   2  6,6  | SAt
   2  2,6  | SAu
@@ -3915,8 +3788,6 @@
   2  2,4  | aIS
   2  6,4  | aIS
   2  5,5  | aL
-  2  2,5  | aSA
-  2  6,5  | aSA
   2  4,4  | bAI
   2  2,4  | bAS
   2  6,4  | bAS
@@ -3926,7 +3797,6 @@
   2  4,5  | cIA
   2  2,4  | cIS
   2  6,4  | cIS
-  2  5,5  | cL
   2  2,5  | cSI
   2  6,5  | cSI
   2  2,4  | dAS
@@ -4064,9 +3934,11 @@
   1  3,5  | kA
   1  4,5  | kI
   1  3,5  | lA
+  1  4,5  | lI
   1  3,5  | mA
   1  4,5  | mI
   1  3,5  | nA
+  1  4,5  | nI
   1  4,5  | oI
   1  2,5  | oS
   1  6,5  | oS

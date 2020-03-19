@@ -1,10 +1,12 @@
  18  6,6  | STINGO
  16  1,1  | GOD
+ 16 10,3  - NI
  16 10,3  - NO
  16  6,6  | SOIGN
  16  6,6  | STING
  16  6,6  | STONG
  15 10,3  - IN
+ 15  4,7  - NIOG
  14  4,6  | INGOT
  13  5,6  | LINGOT
  13  5,6  | LIQ
@@ -17,6 +19,7 @@
  12 10,3  - IO
  12 10,3  - IT
  12  5,6  | LINGO
+ 12 10,6  - NI
  12 10,6  - NO
  12  6,6  | SINTO
  12  6,6  | STION
@@ -41,7 +44,9 @@
  10  3,1  - mOG
  10  3,1  - mTG
   9  9,4  | AYIN
+  9  5,7  - ION
   9  4,6  | IONI
+  9  4,7  - NI
   9  4,7  - NO
   8 10,5  | EON
   8  6,7  - IGN
@@ -57,9 +62,11 @@
   8  3,1  - mGT
   7  4,6  | INIT
   7  4,6  | INTO
+  7  5,7  - IO
   7  5,6  | LINO
   7  5,6  | LINT
   7  1,2  | OD
+  7  4,7  - OI
   7  5,7  - OI
   7  1,2  - ONA
   7  6,6  | SIGN
@@ -67,12 +74,11 @@
   7  6,6  | SNIG
   7  6,6  | SNOG
   7  6,6  | SONG
+  7  4,7  - TI
   7  4,7  - TO
   7 10,1  | WEN
   6 10,5  | EN
   6  5,1  | GRET
-  6  4,6  | INO
-  6  6,7  - INO
   6  4,6  | INT
   6  6,7  - INT
   6  6,7  - ION
@@ -106,6 +112,7 @@
   4  6,6  | SON
   4  5,1  | TRET
   3  4,6  | IN
+  3  5,6  | LI
   3  5,6  | LO
   3  6,6  | SIT
   3  6,6  | SOT

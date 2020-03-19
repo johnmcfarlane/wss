@@ -32,12 +32,12 @@
  22  2,6  | IYAR
  22  5,4  | JAR
  22  5,6  | RAJ
- 22  5,3  - SAE
  22  1,8  - SAIRY
  22  2,5  | SAY
  22  1,8  - SAYER
  22  5,3  - SEA
  22  1,8  - SEARY
+ 22  5,3  - SEI
  22  7,1  | SNYE
  21  6,8  - JARS
  21  1,8  - SYRE
@@ -85,8 +85,6 @@
  18  1,8  - SYE
  18  1,8  - SYR
  18  2,7  | YEARS
- 17  4,3  - ASE
- 17  2,4  | ASE
  17  7,8  - AYS
  17  5,4  | EYRAS
  17  4,3  - ISE
@@ -127,8 +125,6 @@
  16  2,5  | SAI
  16  1,8  - SAI
  16  2,7  | SAIRY
- 16  2,5  | SAR
- 16  1,8  - SAR
  16  2,7  | SAYER
  16  1,8  - SEA
  16  2,7  | SEARY
@@ -191,7 +187,6 @@
  14  5,5  | ARES
  14  2,6  | ARS
  14  5,5  | ARSE
- 14  2,6  | ASE
  14  6,8  - AYES
  14  3,3  - AYS
  14  1,6  - DAYS
@@ -247,7 +242,8 @@
  14  2,7  | SYRE
  14  3,7  - YEARS
  14  6,8  - YEAS
- 13  6,3  - AE
+ 14  2,1  | eRIA
+ 14  2,1  | eRIE
  13  5,4  | AER
  13  5,4  | AIR
  13  7,4  | AJAR
@@ -284,9 +280,9 @@
  13  5,6  | RES
  13  5,6  | RIA
  13  5,6  | RIE
- 13  5,4  | SAR
  13  5,4  | SER
  13  9,9  - SEZ
+ 13  6,3  - SI
  13  5,4  | SIR
  13  5,5  | SRI
  13  7,8  - YAS
@@ -506,7 +502,6 @@
   8  4,7  - ARSE
   8  8,8  | ARYA
   8  5,5  - AY
-  8  1,6  - DAE
   8  1,6  - DAR
   8  1,4  - DARES
   8  1,6  - DAS
@@ -569,7 +564,6 @@
   7  3,7  - ARSE
   7  7,6  | ARYA
   7  2,4  | AS
-  7  5,7  - ASE
   7  4,5  - AYE
   7  4,7  - AYE
   7  7,6  | AYES
@@ -766,13 +760,11 @@
   6  6,7  - RE
   6  7,4  | RYAS
   6  6,4  | RYES
-  6  8,8  | SARA
   6  7,5  | SAYA
   6  8,8  | SERA
   6  6,7  - SI
   6  3,1  | SYE
   6  3,1  | SYR
-  6  6,1  | WOA
   6  6,1  | WOE
   6  6,1  | WOS
   6  5,5  - YA
@@ -812,8 +804,6 @@
   5  7,6  | ARSE
   5  7,9  | ARU
   5  7,6  | ARY
-  5  4,5  - ASE
-  5  4,7  - ASE
   5  7,6  | ASEA
   5  7,6  | ASIA
   5  6,4  | AYE
@@ -882,9 +872,6 @@
   5  4,7  - SAE
   5  2,7  | SAI
   5  3,1  | SAIR
-  5  4,5  - SAR
-  5  2,7  | SAR
-  5  4,7  - SAR
   5  3,1  | SARE
   5  3,1  | SARI
   5  7,9  | SAU
@@ -935,7 +922,6 @@
   4  6,4  | ARES
   4  5,7  - AS
   4  7,6  | AY
-  4  1,4  - DAE
   4  1,4  - DAR
   4  1,4  - DAS
   4  1,4  - DEA
@@ -972,6 +958,7 @@
   4  1,5  - ISE
   4  7,2  | NA
   4  7,2  | NE
+  4  7,2  | NI
   4  1,7  - OAR
   4  1,7  - OER
   4  1,7  - OES
@@ -994,8 +981,6 @@
   4  3,1  | SAE
   4  3,1  | SAI
   4  7,5  | SAIR
-  4  3,1  | SAR
-  4  7,5  | SARA
   4  7,5  | SARE
   4  7,5  | SARI
   4  3,1  | SEA
@@ -1033,17 +1018,9 @@
   3  7,6  | AES
   3  7,6  | AIR
   3  7,6  | AIS
-  3  7,4  | ARA
-  3  7,6  | ARA
-  3  8,9  | ARA
   3  6,4  | ARE
   3  7,6  | ARE
   3  7,6  | ARS
-  3  7,4  | ASA
-  3  7,6  | ASA
-  3  8,9  | ASA
-  3  6,4  | ASE
-  3  7,6  | ASE
   3  1,4  - DA
   3  1,4  - DE
   3  1,4  - DI
@@ -1066,6 +1043,7 @@
   3  6,4  | ISE
   3  1,3  - NA
   3  1,3  - NE
+  3  1,3  - NI
   3  7,5  | RAS
   3  7,4  | REA
   3  6,5  | REA
@@ -1082,7 +1060,6 @@
   3  6,4  | SAE
   3  7,5  | SAE
   3  7,5  | SAI
-  3  7,5  | SAR
   3  7,4  | SEA
   3  6,5  | SEA
   3  8,9  | SEA

@@ -1,19 +1,24 @@
  61 10,4  | OpSONIFY
  42  9,6  | ENtIFY
  39  9,1  | NOFIlE
+ 38  5,7  - gONIF
  38  5,7  - gONOF
  36  9,6  | ENFOIl
  36  6,6  | JIFfY
  36  6,6  | JIfFY
+ 36  6,7  - eNIF
  34  6,6  | JOINtY
  34  6,6  | JOYINg
  33  9,1  | INYOkE
  33  9,1  | YONnIE
  32  6,6  | JINnY
  32  6,6  | JInNY
+ 32  5,7  - gOYIN
  32  5,7  - tOYON
  30  9,1  | FOOtIE
+ 30  6,7  - aYIN
  30  9,1  | lOOFIE
+ 29  5,7  - YOmIN
  28  6,6  | JINgO
  28  6,6  | JOINs
  28  6,6  | JOINt
@@ -22,7 +27,9 @@
  27  9,1  | YOnNIE
  26  8,4  | FINNY
  26  3,7  - FOgON
+ 26  6,7  - OdIN
  26  6,7  - aION
+ 25  7,7  - FINO
  25  5,7  - FONO
  25  7,7  - FONO
  25  8,4  | FaNNY
@@ -30,6 +37,8 @@
  25  8,4  | FiNNY
  25  8,4  | FuNNY
  25  6,7  - OFO
+ 25  5,7  - YONIs
+ 25  7,7  - fIFO
  25  7,5  - lIFO
  24  8,4  | FINdY
  24  8,4  | FINnY
@@ -46,10 +55,13 @@
  24  8,7  - OFO
  24  7,5  - OOF
  24  7,7  - OOF
+ 24  5,7  - YONI
  24  3,7  - gONOF
  24  9,1  | gOONIE
  24  9,1  | mOONIE
  23  3,7  - FINO
+ 23  7,7  - FINi
+ 23  7,7  - FINo
  23  3,7  - FONO
  23  5,7  - FONe
  23  5,7  - FONo
@@ -59,6 +71,8 @@
  23  9,7  - FOY
  23  5,7  - FaNO
  23  7,7  - FaNO
+ 23  7,7  - FiNI
+ 23  7,7  - FiNO
  23  5,7  - FoNO
  23  7,7  - FoNO
  23  3,7  - INvOY
@@ -78,6 +92,7 @@
  23  7,5  - tOYON
  23  5,7  - yOYO
  22  9,5  - FIN
+ 22  7,7  - FIN
  22  9,7  - FIN
  22  9,5  - FON
  22  7,7  - FON
@@ -93,6 +108,7 @@
  22  5,7  - OOF
  22  7,5  - OaF
  22  7,7  - OaF
+ 22  6,7  - OhIO
  22  4,7  - OlOF
  22  7,5  - OoF
  22  7,7  - OoF
@@ -104,10 +120,14 @@
  22 10,6  | SNIfFY
  22 10,6  | SaNIFY
  22 10,6  | SiNIFY
+ 22  5,7  - YONi
+ 22  5,7  - YeNI
+ 22  5,7  - YoNI
  22  4,7  - bOOF
  22  3,7  - cONOY
  22  4,7  - cOOF
  22  7,5  - dIF
+ 22  7,7  - dIF
  22  7,5  - gIF
  22  4,7  - gOOF
  22  4,7  - hOOF
@@ -150,6 +170,7 @@
  21  5,7  - FoY
  21  9,7  - FoY
  21  8,5  - IF
+ 21  8,7  - IF
  21  3,7  - INFOs
  21  5,7  - NOY
  21  2,7  - NYOrO
@@ -158,6 +179,7 @@
  21  8,5  - OF
  21  6,7  - OF
  21  8,7  - OF
+ 21  6,7  - ONI
  21  6,7  - ONO
  21  8,4  | OmNIFY
  21  8,4  | OrNIFY
@@ -167,17 +189,23 @@
  21  7,7  - YeNI
  21  7,5  - YoNI
  21  7,7  - YoNI
+ 21  5,7  - bONI
  21  5,7  - bONO
  21  7,5  - bOYO
+ 21  5,7  - cONI
+ 21  5,7  - dONI
  21  5,7  - fONO
  21  7,5  - gONIF
  21  7,5  - gONOF
+ 21  5,7  - iONI
+ 21  5,7  - jONI
  21  5,7  - lOF
  21  5,7  - mONO
  21  7,5  - mOYO
  21  5,7  - oOF
  21  7,5  - tOYO
  21  3,7  - tOYON
+ 21  5,7  - yONI
  21  7,5  - yOYO
  20  9,5  - FI
  20  9,7  - FI
@@ -241,6 +269,7 @@
  20  9,5  - FeN
  20  7,7  - FeN
  20  9,5  - FiN
+ 20  7,7  - FiN
  20  9,7  - FiN
  20 10,2  | FlOOSY
  20  9,5  - FoN
@@ -250,9 +279,11 @@
  20  7,7  - FuN
  20  3,7  - INFO
  20  5,7  - IONe
+ 20  5,7  - IONi
  20  3,7  - NOmOI
  20  7,5  - NaY
  20  7,5  - NoY
+ 20  6,7  - OOId
  20 10,5  | OSsIFY
  20  5,7  - OaF
  20  4,7  - OhOY
@@ -262,10 +293,12 @@
  20  8,3  | OzONIFY
  20 10,6  | SYFtN
  20  7,5  - YIN
+ 20  7,7  - YIN
  20  7,5  - YON
  20  5,7  - YON
  20  7,7  - YON
  20  5,7  - YOhO
+ 20  5,7  - YOnI
  20  5,7  - YOyO
  20  8,5  - aYIN
  20  4,7  - bYON
@@ -281,15 +314,20 @@
  19  9,7  - FoO
  19  9,5  | NEFfY
  19  3,7  - NIFe
+ 19  5,7  - NOdI
+ 19  5,7  - NOrI
  19  5,7  - NaIO
+ 19  5,7  - NaOI
  19  5,7  - NaY
  19  5,7  - NoY
  19  6,7  - ONa
  19  6,7  - ONe
+ 19  6,7  - ONi
  19  6,7  - ONo
  19  6,7  - OY
  19  3,7  - YOhO
  19  3,7  - YOyO
+ 19  6,7  - aNI
  19  8,4  | bONIFY
  19  5,7  - bOY
  19  5,7  - cOY
@@ -301,6 +339,7 @@
  19  5,7  - gOY
  19  5,7  - hOY
  19  8,5  - iF
+ 19  8,7  - iF
  19  5,7  - jOY
  19  5,7  - lOY
  19  5,7  - mOIO
@@ -309,6 +348,7 @@
  19  8,5  - oF
  19  6,7  - oF
  19  8,7  - oF
+ 19  6,7  - oNI
  19  6,7  - oNO
  19  5,7  - pOY
  19  5,7  - rOY
@@ -350,6 +390,7 @@
  18  5,7  - YeN
  18  7,7  - YeN
  18  7,5  - YiN
+ 18  7,7  - YiN
  18  7,5  - YoN
  18  5,7  - YoN
  18  7,7  - YoN
@@ -403,8 +444,11 @@
  17  8,4  | FINN
  17  8,4  | FINNs
  17  8,4  | FINNy
+ 17  7,7  - FIdO
+ 17  7,7  - FIfO
+ 17  7,7  - FIlO
+ 17  7,7  - FInO
  17  4,7  - FOO
- 17  5,7  - FOb
  17  5,7  - FOd
  17  5,7  - FOe
  17  5,7  - FOh
@@ -433,6 +477,7 @@
  17  8,5  - OY
  17  6,7  - OfO
  17  6,7  - OhO
+ 17  6,7  - OnI
  17  6,7  - OnO
  17  6,7  - OxO
  17  4,7  - YNO
@@ -444,17 +489,17 @@
  17  7,5  - bINO
  17  5,7  - bON
  17  7,5  - bONI
- 17  7,7  - bONI
  17  7,5  - bONO
- 17  7,7  - bONO
  17  5,7  - cON
  17  7,5  - dINO
+ 17  7,7  - dINO
  17  5,7  - dON
  17  7,5  - dONI
  17  7,7  - dONI
  17  8,2  | eNFIN
  17  5,7  - eON
  17  3,7  - fIFO
+ 17  7,7  - fINO
  17  5,7  - fON
  17  7,7  - fONO
  17  5,7  - gON
@@ -470,12 +515,14 @@
  17  3,7  - lIFO
  17  7,5  - lINO
  17  7,5  - mINO
+ 17  7,7  - mINO
  17  5,7  - mON
  17  7,5  - mONO
  17  7,7  - mONO
  17  5,7  - nON
  17  6,7  - oY
  17  7,5  - pINO
+ 17  7,7  - pINO
  17  5,7  - pON
  17  5,7  - rON
  17  5,7  - sON
@@ -483,6 +530,7 @@
  17  5,7  - tON
  17  5,7  - vON
  17  7,5  - wINO
+ 17  7,7  - wINO
  17  5,7  - wON
  17  5,7  - yON
  17  7,5  - yONI
@@ -516,7 +564,6 @@
  16 10,2  | FrONS
  16 10,2  | FuNIS
  16 10,2  | INFoS
- 16  8,5  - INO
  16  3,7  - INfO
  16  3,7  - INrO
  16  3,7  - INtO
@@ -556,7 +603,6 @@
  16  6,4  | YOJaN
  16 10,2  | YONIS
  16  9,5  - YOb
- 16  5,7  - YOb
  16  9,5  - YOd
  16  5,7  - YOd
  16 10,1  | YOgINS
@@ -622,7 +668,6 @@
  15  9,3  | FuYE
  15  4,7  - IFe
  15  9,3  | INFEOf
- 15  4,7  - INO
  15  3,7  - IONe
  15  3,7  - IOdO
  15  6,6  | JIFf
@@ -634,7 +679,6 @@
  15  4,7  - NOO
  15  9,5  - NOY
  15  9,7  - NOY
- 15  5,7  - NOb
  15  5,7  - NOd
  15  5,7  - NOh
  15  5,7  - NOm
@@ -678,6 +722,7 @@
  15  5,7  - cOO
  15  3,7  - dINO
  15  7,5  - dIOON
+ 15  7,7  - dIOON
  15  5,7  - dOO
  15  6,7  - eN
  15  8,5  | eNIF
@@ -725,7 +770,14 @@
  14  9,3  | FINEs
  14  9,3  | FINEw
  14  8,3  | FINNY
+ 14  7,7  - FId
  14 10,2  | FIdOS
+ 14  7,7  - FIe
+ 14  7,7  - FIl
+ 14  7,7  - FIn
+ 14  7,7  - FIr
+ 14  7,7  - FIt
+ 14  7,7  - FIx
  14 10,2  | FOIlS
  14 10,2  | FOInS
  14  9,3  | FONE
@@ -751,7 +803,6 @@
  14  9,2  | FlOOEY
  14  8,4  | FoN
  14  8,4  | FuN
- 14  8,5  - INo
  14  5,7  - IOn
  14  7,5  - IaN
  14  7,7  - IaN
@@ -777,7 +828,6 @@
  14 10,2  | NYxIS
  14  9,5  - NaF
  14  8,6  | NaF
- 14  4,7  - NcO
  14  9,5  - NeF
  14  8,6  | NeF
  14  4,7  - NeO
@@ -827,18 +877,19 @@
  14  7,5  - bIN
  14  8,4  | bINNY
  14  7,5  - bON
- 14  7,7  - bON
  14  8,4  | bONNY
  14 10,2  | cOIFS
  14  8,4  | cONNY
  14 10,2  | cOOFS
  14  7,5  - dIN
+ 14  7,7  - dIN
  14  7,5  - dON
  14  7,7  - dON
  14  8,4  | dONNY
  14  8,4  | eNNOY
  14  7,5  - eON
  14  7,7  - eON
+ 14  7,7  - fIN
  14  8,4  | fINNY
  14  7,7  - fON
  14  7,5  - gIN
@@ -848,12 +899,11 @@
  14 10,2  | gOOFS
  14  9,2  | gOONEY
  14  7,5  - hIN
+ 14  7,7  - hIN
  14  8,4  | hINNY
  14  7,5  - hON
  14  7,7  - hON
  14 10,2  | hOOFS
- 14  8,5  - iNO
- 14  4,7  - iNO
  14  7,5  - iON
  14  7,7  - iON
  14  7,5  - jIN
@@ -864,6 +914,7 @@
  14 10,2  | lOOFS
  14  9,2  | lOONEY
  14  7,5  - mIN
+ 14  7,7  - mIN
  14  8,4  | mINNY
  14  3,7  - mOIO
  14  7,5  - mON
@@ -879,13 +930,16 @@
  14  4,7  - oNO
  14  8,7  - oNO
  14  7,5  - pIN
+ 14  7,7  - pIN
  14  8,4  | pINNY
  14  7,5  - pON
  14  7,7  - pON
  14 10,2  | pYINS
+ 14  7,7  - rIN
  14  7,7  - rON
  14 10,2  | rOOFS
  14  7,5  - sIN
+ 14  7,7  - sIN
  14  7,5  - sON
  14  7,7  - sON
  14  8,4  | sONNY
@@ -896,10 +950,12 @@
  14  8,7  - uNI
  14  8,4  | vINNY
  14  7,5  - wIN
+ 14  7,7  - wIN
  14  7,5  - wON
  14  7,7  - wON
  14 10,2  | wOOFS
  14  7,5  - yIN
+ 14  7,7  - yIN
  14  4,7  - yNO
  14  7,5  - yON
  14  7,7  - yON
@@ -910,20 +966,20 @@
  13  9,5  | FENd
  13  9,5  | FENs
  13  9,5  | FENt
+ 13  7,7  - FI
  13  7,5  | FONlY
  13  9,3  | FaNE
  13  8,2  | FaNON
  13  9,3  | FiNE
  13  9,3  | FoNE
  13  8,5  - IN
+ 13  8,7  - IN
  13  9,3  | INFEr
  13  9,3  | INdEF
- 13  4,7  - INo
  13  5,7  - IO
  13  8,4  | IONONe
  13  4,7  - IaO
  13  4,7  - IbO
- 13  4,7  - InO
  13  6,6  | JIN
  13  6,6  | JINa
  13  6,6  | JINg
@@ -948,6 +1004,7 @@
  13  6,6  | JuNO
  13  9,5  | NEF
  13  7,5  - NItO
+ 13  7,7  - NItO
  13  8,4  | NONIOn
  13  8,4  | NONOIc
  13  9,5  - NOO
@@ -969,7 +1026,6 @@
  13  4,7  - ONe
  13  4,7  - ONo
  13  5,7  - OO
- 13  6,7  - Ob
  13  6,7  - Od
  13  6,7  - Oe
  13  6,7  - Of
@@ -1060,6 +1116,8 @@
  12  6,6  | JiN
  12  6,6  | JuN
  12  9,5  | NEvOY
+ 12  9,5  - NI
+ 12  9,7  - NI
  12  8,6  | NINnY
  12  9,5  - NIb
  12  9,7  - NIb
@@ -1164,7 +1222,9 @@
  12  8,4  | YIN
  12  8,4  | YINs
  12  7,5  - YIn
+ 12  7,7  - YIn
  12  7,5  - YIp
+ 12  7,7  - YIs
  12  8,4  | YON
  12  8,4  | YONd
  12  8,4  | YONi
@@ -1205,7 +1265,6 @@
  12  6,4  | dOJO
  12  9,3  | dONEY
  12  9,3  | dOYEN
- 12  6,5  | eJOO
  12  5,7  - eO
  12  5,7  - gO
  12  9,3  | gONEY
@@ -1260,6 +1319,7 @@
  11  7,3  | FaNO
  11  7,7  - Fe
  11  8,3  | FeNNY
+ 11  7,7  - Fi
  11  8,3  | FiNNY
  11  7,3  | FiNO
  11  9,4  | FlEY
@@ -1315,6 +1375,7 @@
  11  9,5  | YENi
  11  9,5  | YENs
  11  7,5  - YI
+ 11  7,7  - YI
  11  7,5  - YO
  11  7,7  - YO
  11  8,3  | YONNIe
@@ -1332,6 +1393,7 @@
  11  9,4  | eYEN
  11  9,4  | fIEF
  11  8,5  - iN
+ 11  8,7  - iN
  11  8,5  | iNFIN
  11  9,4  | kIEF
  11  8,1  | kOINON
@@ -1402,6 +1464,7 @@
  10 10,2  | IcONS
  10 10,2  | IkONS
  10  8,5  - IrON
+ 10  8,7  - IrON
  10 10,2  | IrONS
  10  6,6  | Ja
  10  6,6  | Je
@@ -1414,12 +1477,18 @@
  10  8,6  | NINOx
  10  7,5  - NIb
  10  7,5  - NId
+ 10  7,7  - NId
+ 10  7,7  - NIl
  10  7,5  - NIm
+ 10  7,7  - NIm
  10  8,3  | NInNY
  10 10,2  | NInOS
  10  7,5  - NIp
+ 10  7,7  - NIs
  10  7,5  - NIt
+ 10  7,7  - NIt
  10 10,2  | NItOS
+ 10  7,7  - NIx
  10 10,2  | NOIlS
  10  7,5  | NOIlY
  10  7,5  | NOIsY
@@ -1458,6 +1527,8 @@
  10  7,2  | NYOrO
  10  9,5  - Na
  10  9,5  - Ne
+ 10  9,5  - Ni
+ 10  9,7  - Ni
  10  9,5  - No
  10  9,7  - No
  10  9,5  - Nu
@@ -1506,7 +1577,6 @@
  10  8,3  | bONNY
  10 10,2  | bONOS
  10  7,5  - bOO
- 10  7,7  - bOO
  10 10,2  | bOONS
  10 10,2  | cIONS
  10 10,2  | cOINS
@@ -1577,6 +1647,7 @@
  10 10,2  | pONOS
  10 10,2  | pOONS
  10  9,3  | rIFE
+ 10  7,7  - rIO
  10  8,2  | rONIN
  10  8,4  | rONIN
  10  7,7  - rOO
@@ -1653,8 +1724,11 @@
   9  8,5  | INdN
   9  8,5  | INvOY
   9  8,5  - IO
+  9  8,7  - IO
   9  9,5  | NEaF
   9  9,5  | NEiF
+  9  7,5  - NI
+  9  7,7  - NI
   9  9,2  | NIFlE
   9  8,4  | NINa
   9  8,6  | NINa
@@ -1718,6 +1792,7 @@
   9  7,5  - Ye
   9  7,7  - Ye
   9  7,5  - Yi
+  9  7,7  - Yi
   9  7,5  - Yo
   9  7,7  - Yo
   9  8,3  | aNON
@@ -1782,7 +1857,6 @@
   8  8,5  - IaO
   8  8,5  - IbO
   8  9,4  | IkEY
-  8  8,5  - InO
   8  8,6  | NInNY
   8  8,3  | NOINt
   8  8,6  | NOINt
@@ -1808,6 +1882,7 @@
   8  9,5  - OIk
   8  9,7  - OIk
   8  9,5  - OIl
+  8  7,7  - OIl
   8  9,7  - OIl
   8  7,6  | OIlY
   8  8,2  | ONIoN
@@ -1993,6 +2068,8 @@
   7  7,7  - Ne
   7  8,6  | NeIN
   7  8,6  | NeON
+  7  7,5  - Ni
+  7  7,7  - Ni
   7  7,5  - No
   7  7,7  - No
   7 10,3  | NoISY
@@ -2002,6 +2079,7 @@
   7 10,5  - OF
   7 10,7  - OF
   7  7,5  - OI
+  7  7,7  - OI
   7  8,5  | ONIOn
   7  7,5  - OO
   7  7,7  - OO
@@ -2073,6 +2151,7 @@
   7 10,4  | hYSON
   7  7,3  | iNFO
   7  8,5  - iO
+  7  8,7  - iO
   7  8,3  | jINN
   7  9,5  - jOY
   7  9,5  | kEY
@@ -2487,7 +2566,6 @@
   6  9,3  | zONE
   6  8,3  | zOON
   5  9,6  | EN
-  5  9,6  | ENc
   5  9,6  | ENd
   5  9,6  | ENg
   5  9,6  | ENs
@@ -2539,16 +2617,22 @@
   5  8,4  | IaN
   5  8,5  - Ib
   5  8,5  - Id
+  5  8,7  - Id
   5  8,5  - If
+  5  8,7  - If
   5  8,4  | IgN
   5  8,5  - In
+  5  8,7  - In
   5  8,4  | InN
   5  7,5  - Io
   5  8,5  - Io
   5  7,7  - Io
+  5  8,7  - Io
   5  8,4  | IoN
+  5  8,7  - Is
   5  8,4  | IsN
   5  8,5  - It
+  5  8,7  - It
   5 10,4  | ItSY
   5 10,3  | ItYS
   5  9,5  | NE
@@ -2577,7 +2661,6 @@
   5  8,6  | NOuN
   5  8,6  | NYe
   5  8,3  | NaIN
-  5  8,6  | NcO
   5  8,6  | NeI
   5  8,3  | NeIN
   5  8,6  | NeO
@@ -2603,7 +2686,6 @@
   5 10,5  | OSmIN
   5 10,3  | OYeS
   5  7,6  | OaF
-  5  8,5  - Ob
   5  9,3  | ObOE
   5  8,5  - Od
   5  8,7  - Od
@@ -2618,6 +2700,7 @@
   5  8,7  - Oh
   5  7,4  | OhOY
   5  7,5  - Oi
+  5  7,7  - Oi
   5 10,4  | OiSIN
   5  9,3  | OkIE
   5 10,4  | OlSON
@@ -2689,7 +2772,6 @@
   5  9,5  - bIO
   5 10,4  | bISON
   5  7,5  - bO
-  5  7,7  - bO
   5  9,5  - bOO
   5 10,4  | bOSON
   5  7,3  | bOYO
@@ -2705,6 +2787,7 @@
   5 10,3  | cOYS
   5  9,5  | dEN
   5  7,5  - dI
+  5  7,7  - dI
   5  7,3  | dIOON
   5  7,4  | dIOON
   5  7,5  - dO
@@ -2721,6 +2804,7 @@
   5 10,4  | eOSIN
   5  8,4  | eYN
   5  9,5  | fEN
+  5  7,7  - fI
   5  8,4  | fINN
   5  9,5  - fOO
   5  9,7  - fOO
@@ -2736,6 +2820,7 @@
   5  9,5  | hEIN
   5  9,5  | hEN
   5  7,5  - hI
+  5  7,7  - hI
   5  8,5  | hNY
   5  7,5  - hO
   5  7,7  - hO
@@ -2758,6 +2843,7 @@
   5 10,4  | kOSIN
   5  9,5  | lEN
   5  9,5  | lEON
+  5  7,5  - lI
   5  8,4  | lINN
   5  7,5  - lO
   5  7,5  | lOF
@@ -2766,6 +2852,7 @@
   5  9,5  | mEIN
   5  9,5  | mEN
   5  7,5  - mI
+  5  7,7  - mI
   5 10,4  | mISY
   5  7,5  - mO
   5  7,7  - mO
@@ -2777,6 +2864,8 @@
   5  7,5  | mOYO
   5  9,5  | nEIN
   5  9,5  | nEON
+  5  7,5  - nI
+  5  7,7  - nI
   5  7,5  - nO
   5  7,7  - nO
   5  9,5  - nOO
@@ -2786,6 +2875,7 @@
   5 10,7  - oF
   5  7,4  | oFO
   5  7,5  - oI
+  5  7,7  - oI
   5  9,4  | oNE
   5  8,5  | oNY
   5  7,5  - oO
@@ -2795,6 +2885,7 @@
   5  9,5  | pEN
   5  9,5  | pEON
   5  7,5  - pI
+  5  7,7  - pI
   5  7,5  - pO
   5  7,7  - pO
   5  9,5  - pOI
@@ -2813,6 +2904,7 @@
   5 10,4  | rOSY
   5  9,5  | sEN
   5  7,5  - sI
+  5  7,7  - sI
   5  7,5  - sO
   5  7,7  - sO
   5 10,3  | sOYS
@@ -2840,19 +2932,18 @@
   5  9,5  - wOO
   5  9,7  - wOO
   5  8,4  | wYN
+  5  7,7  - xI
   5  9,5  | yEN
   5  7,5  - yI
+  5  7,7  - yI
   5  7,5  - yO
   5  7,7  - yO
   5  7,3  | yOYO
   5  7,5  | yOYO
   5  9,5  | zEIN
   5  9,5  | zEN
-  4  9,6  | EjOO
   4  9,6  | EkOI
   4  9,6  | EtY
-  4  7,4  | INO
-  4  8,5  | INO
   4 10,4  | INS
   4 10,4  | INSp
   4 10,4  | INSt
@@ -3128,6 +3219,7 @@
   4  7,3  | kINO
   4  8,4  | kINO
   4 10,3  | kINS
+  4  9,7  - lI
   4  7,3  | lINO
   4  8,4  | lINO
   4 10,3  | lINS
@@ -3153,6 +3245,8 @@
   4  7,4  | mOON
   4  7,5  | mOON
   4  7,5  | mOY
+  4  9,5  - nI
+  4  9,7  - nI
   4  9,5  - nO
   4  9,7  - nO
   4  7,4  | nOON
@@ -3226,7 +3320,6 @@
   3  9,6  | EIr
   3  9,6  | EO
   3  9,6  | EOn
-  3  9,6  | EaN
   3  9,6  | EeN
   3  9,6  | EoN
   3  9,6  | ErN
@@ -3237,7 +3330,6 @@
   3  8,5  | INf
   3  8,5  | INk
   3  8,5  | INn
-  3  8,5  | INo
   3  8,5  | INs
   3  8,5  | INt
   3  8,5  | INv
@@ -3259,6 +3351,7 @@
   3 10,7  - Is
   3 10,5  - It
   3 10,7  - It
+  3  8,6  | NI
   3  8,6  | NIb
   3  8,6  | NId
   3  8,6  | NIg
@@ -3305,7 +3398,6 @@
   3  7,5  | NOy
   3  8,6  | NOy
   3  9,4  | NaE
-  3  7,4  | NcO
   3  9,4  | NeE
   3  7,4  | NeO
   3 10,4  | NiS
@@ -3346,8 +3438,6 @@
   3  7,5  | OOoO
   3 10,3  | OOpS
   3 10,3  | OOtS
-  3 10,5  - Ob
-  3 10,7  - Ob
   3 10,3  | ObIS
   3 10,5  - Od
   3 10,7  - Od
@@ -3453,8 +3543,6 @@
   3  7,5  | hON
   3 10,5  - iN
   3 10,7  - iN
-  3  7,4  | iNO
-  3  8,5  | iNO
   3 10,4  | iNS
   3  8,4  | iON
   3  7,5  | iON
@@ -3566,10 +3654,8 @@
   2 10,4  | IhS
   2  9,4  | IkE
   2  9,4  | IlE
-  2  7,4  | InO
   2 10,4  | InS
   2 10,4  | IpS
-  2 10,4  | IqS
   2  9,4  | IrE
   2 10,4  | IrS
   2  9,4  | IsE
@@ -3577,6 +3663,7 @@
   2  9,4  | IvE
   2  8,6  | Na
   2  8,6  | Ne
+  2  8,6  | Ni
   2  8,6  | No
   2  8,6  | Nu
   2  7,6  | OI
@@ -3768,7 +3855,6 @@
   1  9,6  | Et
   1  9,6  | Ew
   1  9,6  | Ex
-  1  7,6  | Ob
   1  7,6  | Od
   1  7,6  | Oe
   1  7,6  | Of

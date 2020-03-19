@@ -71,7 +71,6 @@
  24 11,5  | BIT
  24  1,5  - BOG
  24  2,5  - IB
- 24  2,5  - OB
  24 11,5  | TIB
  24  1,8  - TOBE
  23  9,1  | GITE
@@ -93,8 +92,6 @@
  22 11,2  | OGEE
  22  9,3  | TIB
  22 11,5  | TIG
- 22  1,8  - TIGE
- 21  1,8  - BEET
  21  1,8  - BETE
  21  1,8  - BITE
  21  4,10 - BITO
@@ -107,11 +104,8 @@
  21 11,3  | TOG
  21  1,5  - TOG
  20 11,2  | BEE
- 20  2,8  - BEE
- 20  2,8  - BET
  20 11,2  | BIO
  20 11,2  | BOE
- 20  1,8  - GEET
  20  1,8  - GITE
  20  1,8  - GOTE
  20  9,4  | IB
@@ -119,13 +113,10 @@
  20  4,6  | KIBEI
  20 11,2  | OBE
  20 11,2  | OBI
- 20  1,8  - OGEE
  19 11,5  | BI
  19  5,10 - BIO
  19 11,3  | GEE
- 19  2,8  - GEE
  19 11,3  | GET
- 19  2,8  - GET
  19 11,3  | GIE
  19 11,3  | GIT
  19 11,3  | GOI
@@ -152,7 +143,6 @@
  17 11,2  | GOI
  17 11,2  | GTE
  17  9,2  | OBIT
- 17  2,8  - TEE
  16  6,4  - BEGET
  16  6,4  - BEGOT
  16  9,3  | BET
@@ -162,8 +152,6 @@
  16  1,5  - BIT
  16  6,4  - BOGET
  16  1,5  - BOT
- 16  3,8  - EE
- 16  3,8  - ET
  16  3,8  - TE
  16  6,4  - TEBET
  16  6,4  - TIBET
@@ -209,11 +197,8 @@
  14  8,8  | ZAT
  13  3,5  | BASTE
  13  3,5  | BASTI
- 13  1,8  - BEG
  13  7,3  | BEGS
  13  3,3  | BETAS
- 13  1,8  - BIG
- 13  1,8  - BOG
  13  7,3  | BOGS
  13  3,3  | BOTAS
  13  9,2  | GEET
@@ -237,7 +222,6 @@
  12  8,4  - GOTE
  12 11,4  | IB
  12  2,5  - IT
- 12 11,4  | OB
  12  9,2  | OBE
  12  9,2  | OBI
  12  7,2  | OBITS
@@ -273,8 +257,6 @@
  11  9,3  | IB
  11  2,8  - IB
  11  6,10 - IO
- 11  9,3  | OB
- 11  2,8  - OB
  11 11,2  | TEE
  11 11,2  | TIE
  11  6,10 - TO
@@ -301,15 +283,11 @@
  10  3,3  | OBIAS
  10  7,2  | OGEES
  10  4,5  | OKIE
- 10  1,8  - TEG
- 10  1,8  - TIG
  10  4,4  | TIKI
- 10  1,8  - TOG
  10  7,8  | UPGO
   9  9,5  - BA
   9  3,4  | BEAST
   9  9,2  | BEE
-  9  1,8  - BEE
   9  7,4  - BEET
   9  7,2  | BEETS
   9  1,8  - BET
@@ -321,7 +299,6 @@
   9  7,4  - BITT
   9  3,4  | BOAST
   9  9,2  | BOE
-  9  1,8  - BOE
   9  1,8  - BOT
   9  7,4  - BOTT
   9  8,11 - EDGY
@@ -336,9 +313,7 @@
   9  7,3  | GOIS
   9  4,6  | KIE
   9  4,6  | KIT
-  9  1,8  - OBE
   9 10,6  - XI
-  8  2,8  - BE
   8  8,5  - BEAT
   8  6,11 - BEID
   8  5,4  | BEIN
@@ -357,19 +332,16 @@
   8  3,4  | GEASE
   8  3,4  | GEAST
   8  9,2  | GEE
-  8  1,8  - GEE
   8  7,4  - GEET
   8  5,11 - GEOID
   8  1,8  - GET
   8  5,11 - GETID
   8  9,2  | GIE
-  8  1,8  - GIE
   8  2,4  | GIF
   8  1,8  - GIT
   8  9,2  | GOI
   8  1,8  - GOT
   8  9,2  | GTE
-  8  1,8  - GTE
   8 11,3  | IO
   8  9,4  | IT
   8  7,3  | OBES
@@ -405,7 +377,6 @@
   7  3,3  | IOTAS
   7  7,5  - ITEA
   7  9,7  - LAB
-  7  7,5  - OB
   7  1,5  - OE
   7  1,5  - OI
   7  9,5  - TAB
@@ -438,24 +409,19 @@
   6  7,4  | TBS
   6  3,4  | TEASE
   6  9,2  | TEE
-  6  1,8  - TEE
   6  7,4  - TEET
   6  8,4  - TETE
   6  9,2  | TIE
-  6  1,8  - TIE
   6  8,4  - TITE
   6  9,2  | TOE
-  6  1,8  - TOE
   6  9,2  | TOI
   6  7,4  - TOIT
   6  8,4  - TOTE
   5 10,5  - AB
-  5  3,6  | ASG
   5  9,4  - BT
   5  3,5  | EASE
   5  3,5  | EAST
   5  9,3  | EE
-  5  2,8  - EE
   5  2,5  | EF
   5  2,8  - ET
   5  3,4  | ETAS
@@ -467,12 +433,10 @@
   5  2,8  - IT
   5  3,5  | OAST
   5  9,3  | OE
-  5  2,8  - OE
   5  2,5  | OF
   5  9,3  | OI
   5  7,3  | OTIS
   5  9,3  | TE
-  5  2,8  - TE
   5  3,4  | TEAS
   5  6,11 - TEED
   5  7,3  | TEES
@@ -511,7 +475,6 @@
   4  5,5  | TIN
   4  8,5  - TOA
   4  7,11 - TOD
-  3  3,6  | ASE
   3  3,6  | AST
   3  8,11 - ED
   3  8,11 - ID

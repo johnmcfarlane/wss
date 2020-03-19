@@ -7,6 +7,7 @@
  28  6,5  - iDENT
  27  8,5  - ANTE
  27  3,10 - ENDOW
+ 27  9,2  | LERWA
  27  3,7  | YODEL
  27  3,7  | YODLE
  26  3,5  - LAWiNE
@@ -50,12 +51,6 @@
  21  2,3  | DOLE
  21  2,3  | DONA
  21  2,3  | DONE
- 21  7,3  | LIDA
- 21  7,3  | LIDE
- 21  7,3  | LIDO
- 21  7,3  | LINA
- 21  7,3  | LINE
- 21  7,3  | LINO
  21  2,3  | NALE
  21  2,3  | NODE
  21  5,5  - WiDE
@@ -73,7 +68,6 @@
  20  2,3  | NOEL
  20 11,6  | ODAL
  20 11,6  | ODEL
- 20  7,2  | OLID
  20  2,4  | OWE
  19  8,5  - AET
  19  5,5  - DiNE
@@ -105,11 +99,13 @@
  18  2,3  | NAW
  18  2,3  | NOW
  18  2,3  | OLEA
+ 18  9,1  | ONER
  17  4,1  | ADAWE
  17  4,1  | ALOWE
  17  9,6  | ALOWE
  17  9,6  | AWNED
  17  9,1  | DAER
+ 17  4,3  - DECL
  17  9,1  | DOER
  17  7,7  | ELAND
  17  7,7  | ENOW
@@ -119,15 +115,13 @@
  17  8,4  | JOWL
  17  4,6  - LAND
  17  5,3  - LCD
- 17  7,3  | LID
- 17  7,3  | LIN
  17  1,4  - LLEW
+ 17  4,3  - LOCN
  17 11,6  | ODEA
  17 11,6  | OLEA
  17  9,6  | OWNED
  17 11,1  | WOES
  17  6,5  - iDE
- 17  6,5  - iNO
  16  4,1  | ADAW
  16  2,4  | ALD
  16  4,1  | ALEW
@@ -141,7 +135,6 @@
  16  9,6  | AWOL
  16  4,6  - DANE
  16  7,7  | EDNA
- 16  7,2  | ELI
  16  9,6  | ENOW
  16  4,6  - LANE
  16  2,4  | LED
@@ -184,8 +177,6 @@
  14  2,3  | DAN
  14  2,3  | DOL
  14  2,3  | DON
- 14  7,7  | EAD
- 14  7,7  | EAN
  14  9,6  | ELAND
  14  7,7  | EOAN
  14  7,7  | EON
@@ -201,7 +192,6 @@
  14  2,4  | LEO
  14  2,4  | LOA
  14  2,4  | LOE
- 14  2,3  | NAD
  14  2,3  | NOD
  14  2,3  | NOL
  14  2,4  | ODA
@@ -231,11 +221,9 @@
  13  7,7  | EW
  13  8,4  | JAD
  13  1,4  - LAWN
- 13  5,3  - LCA
  13  1,4  - LEWD
  13  4,3  - LOCA
  13  1,4  - LOWN
- 13  5,3  - NCO
  13  4,2  - NEELD
  13  7,6  | OE
  13  9,6  | OLDEN
@@ -259,7 +247,6 @@
  12  4,1  | AWED
  12  4,1  | AWNED
  12  4,1  | AWOL
- 12  2,3  | DAE
  12  2,3  | DAO
  12  9,2  | DERE
  12  2,3  | DOE
@@ -274,8 +261,10 @@
  12  3,10 - EW
  12  8,4  | JOE
  12  3,5  - LADiN
+ 12  9,2  | LERE
  12  2,3  | NAE
  12  4,2  - NEELA
+ 12  9,2  | NERE
  12  2,3  | OAD
  12  9,6  | ODAL
  12  9,6  | ODEL
@@ -304,8 +293,6 @@
  11  8,2  - DEIA
  11  9,2  - DIA
  11 11,1  | DOES
- 11  3,10 - EAD
- 11  3,10 - EAN
  11  5,3  - ECO
  11  7,7  | ED
  11  4,2  - EDEN
@@ -417,7 +404,6 @@
   9  5,6  - ANON
   9  2,3  | DA
   9  2,5  | DA
-  9  4,2  - DAE
   9  2,5  | DE
   9  5,2  - DEAL
   9  5,2  - DEAN
@@ -428,13 +414,11 @@
   9  2,5  | DO
   9  4,2  - DOE
   9  9,6  | ELD
-  9  4,3  - ENC
   9  9,6  | END
   9  1,5  - ENEW
   9  1,5  - ENOW
   9  3,10 - EO
   9  7,4  | IDE
-  9  7,4  | INO
   9  2,5  | LA
   9  4,2  - LEE
   9  2,4  | LO
@@ -563,8 +547,6 @@
   7  3,5  - DONi
   7  4,6  | DOP
   7  5,5  - DiN
-  7  9,6  | EAD
-  7  9,6  | EAN
   7  9,6  | ED
   7  1,5  - EDEN
   7  9,6  | EL
@@ -593,6 +575,8 @@
   7  8,2  - LAI
   7  1,4  - LAW
   7  8,2  - LEI
+  7  9,2  | LER
+  7  9,2  - LI
   7  4,6  | LOP
   7  1,4  - LOW
   7  5,5  - LiD
@@ -643,8 +627,6 @@
   6  5,5  - AiD
   6  5,5  - AiN
   6  5,2  - DE
-  6  1,5  - EAD
-  6  1,5  - EAN
   6  1,5  - EDEA
   6  5,2  - EEL
   6  1,5  - EEL
@@ -685,7 +667,6 @@
   6  3,1  | SON
   6  5,1  | TD
   6  8,6  - WAS
-  6  8,6  - WES
   6  8,6  - WOS
   5  9,6  | AE
   5  9,2  | AER
@@ -713,7 +694,6 @@
   5  1,3  - ILA
   5  1,3  - ILE
   5  7,4  | IN
-  5  1,3  - INO
   5 10,2  - IO
   5  1,4  - LAD
   5  1,4  - LAN
@@ -723,7 +703,6 @@
   5  1,4  - LOD
   5  8,6  - LOSE
   5  9,6  - LSD
-  5  6,6  - NAD
   5  6,6  - NAN
   5  8,6  - NASO
   5  6,6  - NED
@@ -743,7 +722,6 @@
   5  6,5  - iD
   5  6,5  - iN
   4  4,1  | AAL
-  4  4,1  | ADA
   4  4,1  | ADO
   4  8,6  - ADS
   4  5,2  - AE
@@ -755,8 +733,6 @@
   4  8,6  - ANS
   4  8,6  - DAS
   4  8,6  - DOS
-  4  6,2  - EAD
-  4  6,2  - EAN
   4  6,2  - EDO
   4  5,2  - EE
   4  6,2  - EEL
@@ -795,7 +771,6 @@
   3  4,1  | AL
   3  4,1  | AN
   3  4,5  - ANi
-  3  9,6  - ASE
   3  4,5  - DEi
   3  6,2  - ED
   3  1,5  - ED
@@ -829,6 +804,8 @@
   2  1,5  - EO
   2  9,6  - ES
   2  1,3  - IO
+  2  5,5  - Li
+  2  5,5  - Ni
   2  9,6  - OS
   2  3,1  | SO
   2 10,6  - SO

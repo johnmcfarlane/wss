@@ -50,7 +50,6 @@
  52 10,2  | SEnZA
  52 10,1  | SlEAZy
  52 10,2  | ZEAlS
- 52 10,2  | ZENdo
  52 10,2  | ZEStS
  52 10,2  | ZEbrAS
  52 10,2  | ZEiNs
@@ -223,7 +222,6 @@
  36  4,4  | SNeEZe
  36  4,4  | SNeEZy
  36  2,8  - ZANt
- 36  9,1  | ZeL
  36  9,1  | ZiLa
  36  9,1  | ZiLl
  36  9,1  | ZoLl
@@ -269,7 +267,6 @@
  34  4,2  | SoZiNE
  34  2,8  - ZaNt
  34  4,4  | ZaxES
- 34  2,8  - ZeNd
  34  4,4  | ZiNEbS
  34  4,4  | ZoNErS
  34  2,8  - ZoNe
@@ -410,7 +407,6 @@
  32  8,2  | wIZeS
  32  8,2  | zIZiA
  31  4,7  | EZba
- 31  4,7  | EZod
  31  4,7  | EZra
  31  8,3  | IZar
  31  8,3  | IZle
@@ -477,6 +473,10 @@
  30  9,1  | SiLANeS
  30  9,1  | SoLANdS
  30  9,1  | SoLANoS
+ 30  6,2  - WANed
+ 30  6,2  - WANey
+ 30  6,2  - WANle
+ 30  6,2  - WANly
  30  9,1  | iSLANdS
  29  2,8  - SANS
  29  1,8  - ScANS
@@ -595,7 +595,6 @@
  27  1,8  - SwaNS
  27  9,1  | SyLvANS
  27  6,2  - WASat
- 27  6,2  - WASco
  27  6,2  - WaSAt
  27  1,8  - ZeeS
  27  1,8  - ZooS
@@ -635,7 +634,6 @@
  26  1,8  - SwAN
  26  3,4  | ZAnJoN
  26 10,2  | ZEN
- 26 10,2  | ZENd
  26 10,2  | ZENu
  26 10,2  | ZEiN
  26  1,8  - ZeAlS
@@ -804,7 +802,6 @@
  25  1,8  - dhAN
  25  1,8  - diAN
  25  1,8  - duAN
- 25  2,8  - eAN
  25  1,8  - elAN
  25  1,8  - eoAN
  25  1,8  - evAN
@@ -1075,7 +1072,6 @@
  24  9,1  | yuLANS
  23  5,7  | ENZym
  23  3,7  | JASZ
- 23  9,3  | LAZ
  23  9,3  | LAZar
  23  9,3  | LAZe
  23  9,3  | LAZed
@@ -1107,7 +1103,6 @@
  23  2,8  - doN
  23  9,2  | eLiZA
  23  3,8  - eN
- 23  2,8  - eaN
  23  2,8  - eeN
  23  2,8  - eoN
  23  5,6  | fEAZe
@@ -1171,10 +1166,8 @@
  22  1,8  - AZox
  22  6,4  - AiN
  22 10,3  | EZba
- 22 10,3  | EZod
  22 10,3  | EZra
  22  3,7  | JaSZ
- 22  9,3  | LaZ
  22  9,3  | LaZe
  22  9,3  | LaZy
  22  9,3  | LiZ
@@ -1200,10 +1193,8 @@
  22 10,2  | ZEk
  22 10,2  | ZEke
  22 10,2  | ZEks
- 22 10,2  | ZEl
  22 10,2  | ZEmi
  22 10,2  | ZEn
- 22 10,2  | ZEnd
  22 10,2  | ZEnu
  22 10,2  | ZEr
  22 10,2  | ZEro
@@ -1284,6 +1275,8 @@
  22  5,4  - tAiN
  22  5,4  - tAuN
  22 10,2  | tEZ
+ 22  4,2  - tSWANa
+ 22  4,2  - tSWaNA
  22  1,8  - trASS
  22  5,4  - vAiN
  22  5,4  - wAiN
@@ -1346,23 +1339,26 @@
  21  9,1  | SuLuAN
  21  1,8  - SwASh
  21  9,1  | SyLvAN
+ 21  6,2  - WANe
  21  8,2  | ZINniAS
  21  2,8  - Zad
  21  2,8  - Zat
  21  2,8  - Zax
  21  2,8  - Zed
  21  2,8  - Zee
- 21  2,8  - Zel
  21  2,8  - Zen
  21  2,8  - Zer
  21  2,8  - Zod
  21  2,8  - Zoo
  21  1,8  - aNAS
  21  9,1  | aNLAS
+ 21  5,2  - aWANe
  21  9,1  | alLAN
  21  9,1  | bALaN
  21  9,1  | bALoN
  21  9,1  | bALuN
+ 21  5,2  - bWANa
+ 21  5,2  - bWaNA
  21  9,1  | baLAN
  21  9,1  | cALiN
  21  9,1  | coLAN
@@ -1384,6 +1380,8 @@
  21  9,1  | sALoN
  21  9,1  | soLAN
  21  9,1  | tALoN
+ 21  5,2  - tWANa
+ 21  5,2  - tWaNA
  21  9,1  | toLAN
  21  9,1  | uNLASh
  21  9,1  | uNLeSS
@@ -1400,11 +1398,11 @@
  20 10,1  | ANEsiS
  20  1,8  - ANaS
  20  1,8  - ANeS
- 20  3,8  - ASe
  20  3,8  - ASh
  20  3,8  - ASs
  20  3,4  - ASsAiS
  20  3,8  - ASt
+ 20  5,2  - AWaNe
  20 10,1  | AbENdS
  20 10,1  | AgENeS
  20 10,1  | AgENtS
@@ -1463,6 +1461,8 @@
  20  2,8  - NeSh
  20  2,8  - NeSs
  20  2,8  - NeSt
+ 20  8,4  - NiSi
+ 20  8,4  - NinA
  20 10,1  | NoESiS
  20  8,4  - NoSe
  20  2,8  - NoSe
@@ -1575,17 +1575,23 @@
  20 10,1  | SNEeSt
  20 10,1  | SNEerS
  20 10,1  | SNEllS
+ 20  5,2  - SWAN
+ 20  4,2  - SaWAN
  20  4,4  | SaZEN
+ 20  3,2  - SarWAN
  20 10,1  | ScENAs
  20 10,1  | ScENaS
  20 10,1  | ScENdS
  20 10,1  | ScENeS
  20 10,1  | ScENtS
  20  1,8  - SeAS
+ 20  4,2  - SeWAN
+ 20  3,2  - SeaWAN
  20 10,1  | ShENdS
  20 10,1  | ShEeNS
  20 10,1  | SiENnA
  20 10,1  | SiEnNA
+ 20  4,2  - SiWAN
  20 10,1  | SkEANe
  20 10,1  | SkEANs
  20 10,1  | SkENAi
@@ -1593,6 +1599,7 @@
  20 10,1  | SkEaNS
  20 10,1  | SkEeNS
  20 10,1  | SkEiNS
+ 20  4,2  - SoWAN
  20  1,8  - SpAS
  20 10,1  | SpEANs
  20 10,1  | SpENSe
@@ -1607,6 +1614,7 @@
  20 10,1  | StErNA
  20 10,1  | StErNS
  20 10,1  | StEvAN
+ 20  3,2  - SurWAN
  20 10,1  | SwEeNS
  20  5,4  - ZAin
  20  2,8  - Za
@@ -1834,12 +1842,15 @@
  19  1,8  - NoeS
  19  1,8  - NyaS
  19  8,2  - SAN
+ 19  4,2  - SAWaN
+ 19  3,2  - SArWaN
  19  2,8  - SAwN
  19  4,6  | SENZA
  19  1,8  - SNAwS
  19  2,8  - SaSh
  19  2,8  - SaSs
  19  1,8  - ScArN
+ 19  3,2  - SeAWaN
  19  2,8  - SeSs
  19  1,8  - ShArN
  19  1,8  - ShAwN
@@ -1852,7 +1863,11 @@
  19  1,4  - StANZA
  19  1,8  - StArN
  19  1,8  - StAwN
+ 19  6,2  - WAN
  19  6,2  - WASe
+ 19  6,2  - WaNe
+ 19  6,2  - WeNe
+ 19  6,2  - WoNe
  19  4,3  | ZANiES
  19  4,3  | ZANiESt
  19  5,4  - ZAx
@@ -1863,6 +1878,7 @@
  19  1,8  - abAS
  19  1,8  - agAS
  19  1,8  - aiAS
+ 19  4,2  - aiWAN
  19  1,8  - alAS
  19  1,8  - amAS
  19  1,8  - anAS
@@ -1873,10 +1889,14 @@
  19  1,8  - boAS
  19  1,8  - brAS
  19  4,3  | brAZENS
+ 19  4,2  - coWAN
  19  2,8  - dAS
+ 19  3,2  - dASWeN
  19  8,2  | dIAZiNS
  19  1,8  - deAS
+ 19  4,2  - deWAN
  19  1,8  - diAS
+ 19  4,2  - diWAN
  19  1,8  - dyAS
  19  1,8  - eNoS
  19  1,8  - erAS
@@ -1885,9 +1905,13 @@
  19  2,8  - fAS
  19  2,8  - gAS
  19  1,8  - goAS
+ 19  4,2  - goWAN
  19  1,8  - grAS
  19  2,8  - hAS
+ 19  5,2  - hWAN
+ 19  4,2  - jaWAN
  19  2,8  - kAS
+ 19  5,2  - kWAN
  19  1,8  - kaAS
  19  1,8  - keAS
  19  4,3  | khAZENS
@@ -1897,6 +1921,8 @@
  19  2,8  - lAS
  19  1,8  - leAS
  19  1,8  - liAS
+ 19  4,2  - liWAN
+ 19  4,2  - loWAN
  19  1,8  - lyAS
  19  2,8  - mAS
  19  1,8  - meAS
@@ -1912,15 +1938,25 @@
  19  1,8  - paAS
  19  1,8  - peAS
  19  1,8  - piAS
+ 19  4,2  - poWAN
  19  1,8  - pyAS
  19  2,8  - rAS
+ 19  4,2  - reWAN
+ 19  4,2  - roWAN
  19  1,8  - ryAS
+ 19  5,2  - sWAN
+ 19  4,2  - saWAN
  19  1,8  - seAS
+ 19  4,2  - seWAN
+ 19  4,2  - siWAN
+ 19  4,2  - soWAN
  19  1,8  - spAS
  19  2,8  - tAS
  19  1,8  - teAS
+ 19  4,2  - toWAN
  19  1,8  - twAS
  19  4,3  - uNEXILED
+ 19  4,2  - unWAN
  19  1,8  - upAS
  19  1,8  - utAS
  19  2,8  - vAS
@@ -1936,7 +1972,6 @@
  18  2,8  - AaS
  18  1,8  - AbaS
  18  1,8  - AboS
- 18  8,2  - AcNe
  18  1,8  - AceS
  18  9,1  | AdLeSS
  18  1,8  - AdoS
@@ -1945,6 +1980,7 @@
  18  1,8  - AgaS
  18  1,8  - AgeS
  18  1,8  - AgoS
+ 18  4,2  - AiWaN
  18  1,8  - AiaS
  18  1,8  - AlaS
  18  1,8  - AleS
@@ -1971,7 +2007,6 @@
  18  1,8  - AyeS
  18  9,1  | NALedS
  18  4,4  | NAZE
- 18  8,4  - NAd
  18  8,4  - NAe
  18  8,4  - NAf
  18  5,4  - NAiS
@@ -1984,6 +2019,7 @@
  18  1,8  - NeArS
  18  1,8  - NeAtS
  18  9,1  | NiLlS
+ 18  8,4  - NiS
  18  1,8  - NoAhS
  18  9,1  | NoLoS
  18  8,4  - NoS
@@ -2006,18 +2042,23 @@
  18  4,6  | SENZa
  18  8,2  | SINZer
  18  5,2  - SWAge
+ 18  5,2  - SWAle
  18  5,2  - SWApe
+ 18  5,2  - SWaN
  18  5,2  - SWeAl
  18  9,1  | SaLSA
  18  9,1  | SaLpAS
  18  8,2  - SaNe
  18  8,2  - SaNt
+ 18  4,2  - SaWaN
  18  4,3  | SanZEN
  18  3,2  - SchWAS
  18  9,1  | SeLSyN
  18  2,4  - SeNZA
  18  8,2  - SeNa
  18  8,2  - SeNt
+ 18  4,2  - SeWaN
+ 18  4,2  - SeWeN
  18  1,8  - SeaS
  18  1,8  - SeeS
  18  8,1  | ShINZa
@@ -2025,8 +2066,11 @@
  18  1,4  - ShiNZA
  18  9,1  | SiLAS
  18  9,1  | SiLvAS
+ 18  8,4  - SiNA
+ 18  4,2  - SiWaN
  18  9,1  | SoLeAS
  18  2,8  - SoS
+ 18  4,2  - SoWaN
  18  9,1  | SpLASh
  18  1,8  - SpaS
  18  1,4  - StaNZA
@@ -2052,7 +2096,6 @@
  18  8,2  - aANi
  18  9,1  | aNLaS
  18  9,1  | aNLiA
- 18  3,8  - aSe
  18  3,8  - aSh
  18  3,8  - aSs
  18  3,8  - aSt
@@ -2077,6 +2120,7 @@
  18  8,2  - dANe
  18  8,2  - dANi
  18  4,2  | dANiZE
+ 18  4,2  - dAWeN
  18  2,8  - dAmN
  18  2,8  - dArN
  18  2,8  - dAwN
@@ -2120,6 +2164,7 @@
  18  2,8  - hArN
  18  2,8  - hAsN
  18  9,1  | iNLAyS
+ 18  4,2  - jAWaN
  18  2,8  - jAnN
  18  2,8  - jAwN
  18  8,2  - kANa
@@ -2134,10 +2179,15 @@
  18  4,3  | khAZEN
  18  9,1  | kiLNS
  18  1,4  - kwANZA
+ 18  8,2  - lANa
+ 18  8,2  - lANe
+ 18  8,2  - lANt
  18  2,8  - lAeN
  18  1,8  - lAoS
  18  2,8  - lArN
  18  2,8  - lAwN
+ 18  8,2  - laNA
+ 18  8,2  - leNA
  18  8,2  - mANa
  18  8,2  - mANe
  18  8,2  - mANi
@@ -2147,7 +2197,11 @@
  18  2,8  - mAwN
  18  8,2  - maNA
  18  4,4  | miZENS
+ 18  8,2  - nANa
+ 18  8,2  - nANe
+ 18  8,2  - nANt
  18  1,8  - nAoS
+ 18  8,2  - naNA
  18  1,4  - nyANZA
  18  3,8  - oSe
  18  1,8  - oSeS
@@ -2165,6 +2219,7 @@
  18  2,8  - rAnN
  18  8,2  - sANe
  18  8,2  - sANt
+ 18  4,2  - sAWaN
  18  4,4  | sAZEN
  18  2,8  - sAwN
  18  4,6  | sENZA
@@ -2214,6 +2269,7 @@
  17  5,6  - NEoZA
  17  4,2  - NaWAb
  17  4,4  | NaZE
+ 17  8,2  - NeAt
  17  4,6  - NeEZe
  17  4,4  | NiZEy
  17  4,2  - NoWAy
@@ -2280,27 +2336,29 @@
  17  1,8  - SwAnS
  17  1,8  - SwAtS
  17  6,2  - WAS
- 17  6,2  - WAac
  17  6,2  - WAbe
  17  6,2  - WAde
  17  6,2  - WAge
  17  6,2  - WAka
  17  6,2  - WAke
+ 17  6,2  - WAle
+ 17  6,2  - WAll
  17  6,2  - WAme
+ 17  6,2  - WAne
  17  6,2  - WAse
- 17  6,2  - WaAc
+ 17  6,2  - WaN
  17  6,2  - WaSe
  17  6,2  - WakA
  17  6,2  - WeAl
+ 17  6,2  - WeN
  17  6,2  - WeSe
  17  6,2  - WekA
  17  6,2  - WetA
+ 17  6,2  - WoN
  17  4,3  | ZANdErS
  17  4,3  | ZAirES
  17  4,3  | ZAniES
  17  4,6  | ZEN
- 17  4,6  | ZENd
- 17  4,6  | ZENdo
  17  4,6  | ZENu
  17  8,2  | ZINc
  17  8,2  | ZINco
@@ -2344,9 +2402,11 @@
  17  2,8  - faS
  17  4,3  | gAuZES
  17  8,2  | gINZo
+ 17  5,2  - gWeN
  17  2,4  - gaNZA
  17  2,8  - gaS
  17  2,8  - geS
+ 17  5,2  - hWaN
  17  2,8  - haS
  17  8,1  | heINZ
  17  2,8  - heS
@@ -2355,6 +2415,7 @@
  17  4,3  | jAZiES
  17  4,3  | jAZzES
  17  4,3  | jAzZES
+ 17  5,2  - kWaN
  17  2,8  - kaS
  17  2,8  - keS
  17  2,8  - koS
@@ -2368,6 +2429,7 @@
  17  2,8  - noS
  17  3,4  - oNZA
  17  3,8  - oS
+ 17  5,2  - oWeN
  17  4,5  | oZENa
  17  2,8  - oeS
  17  2,8  - ooS
@@ -2382,6 +2444,7 @@
  17  2,8  - reS
  17  2,8  - roS
  17  4,6  | sENZa
+ 17  5,2  - sWaN
  17  4,4  | saZEN
  17  2,4  - seNZA
  17  2,8  - soS
@@ -2390,13 +2453,13 @@
  17  5,2  - tWAS
  17  2,8  - taS
  17  2,8  - toS
+ 17  4,2  - uNWAn
  17  4,2  - uNWAx
  17  4,4  | unZEN
  17  2,8  - vaS
  17  8,2  | wINZe
  17  8,2  | wINdZ
  17  2,8  - waS
- 17  2,8  - weS
  17  4,4  | weZEN
  17  4,4  | wiZEN
  17  2,8  - woS
@@ -2431,23 +2494,38 @@
  16  2,4  - NASSAu
  16  4,2  - NAWab
  16  4,2  - NAWob
+ 16  8,2  - NAda
+ 16  8,2  - NAja
  16  2,8  - NAle
+ 16  8,2  - NAma
+ 16  8,2  - NAme
  16  2,8  - NAme
+ 16  8,2  - NAna
+ 16  8,2  - NAne
  16  2,8  - NAne
+ 16  8,2  - NAnt
  16  2,8  - NAnt
+ 16  8,2  - NAoi
  16  2,8  - NAos
+ 16  8,2  - NApa
+ 16  8,2  - NApe
  16  2,8  - NArd
+ 16  8,2  - NAre
  16  2,8  - NAre
  16  2,8  - NArr
  16  2,8  - NArw
  16  2,8  - NAsh
  16  2,8  - NAso
  16  2,8  - NAst
+ 16  8,2  - NAte
  16  2,8  - NAte
  16  2,8  - NAtl
+ 16  8,2  - NAto
  16  2,8  - NAto
  16  2,8  - NAtr
+ 16  8,2  - NAtt
  16  2,8  - NAtt
+ 16  8,2  - NAwt
  16  2,8  - NAwt
  16 10,2  | NEAps
  16 10,2  | NEArs
@@ -2498,18 +2576,30 @@
  16 10,2  | NEwtS
  16 10,2  | NExAl
  16 10,2  | NExuS
- 16  8,4  - Nad
+ 16  8,2  - NadA
  16  8,4  - Nae
  16  8,4  - Naf
+ 16  8,2  - NajA
  16  8,4  - Nam
+ 16  8,2  - NamA
  16  8,4  - Nan
+ 16  8,2  - NanA
  16  2,8  - NaoS
+ 16  8,2  - NapA
  16  8,4  - Nar
  16  8,4  - Nat
  16  8,4  - Naw
+ 16  8,2  - NemA
+ 16  8,2  - NepA
  16  2,8  - NesS
  16  2,8  - NetS
  16  2,8  - NewS
+ 16  8,4  - Nid
+ 16  8,4  - Nil
+ 16  8,4  - Nim
+ 16  8,4  - Nis
+ 16  8,4  - Nit
+ 16  8,4  - Nix
  16  8,4  - Nod
  16  2,8  - NodS
  16  2,8  - NoeS
@@ -2533,7 +2623,6 @@
  16  8,4  - Nut
  16  8,4  - SAN
  16  3,4  | SANJakS
- 16  8,4  - SASa
  16 10,2  | SEASan
  16 10,2  | SEASon
  16 10,2  | SEAlS
@@ -2603,27 +2692,33 @@
  16  5,2  - SWAd
  16  5,2  - SWAg
  16  5,2  - SWAm
+ 16  5,2  - SWAn
  16  5,2  - SWAp
  16  5,2  - SWAt
  16  5,2  - SWAy
  16  8,2  - SaN
  16  8,4  - SaNe
- 16  8,4  - SaSA
  16  4,2  - SaWAh
+ 16  4,2  - SaWAn
  16 10,1  | ScEnAS
  16 10,1  | SeESAw
  16  8,2  - SeN
+ 16  4,2  - SeWAn
  16 10,1  | ShEAfS
  16 10,1  | ShEAlS
  16 10,1  | ShEArS
  16 10,1  | ShEShA
  16 10,1  | SiEStA
+ 16  8,4  - SiNa
+ 16  8,4  - SiNe
+ 16  4,2  - SiWAn
  16 10,1  | SkEAnS
  16  4,3  | SmAZES
  16 10,1  | SmEArS
  16 10,1  | SnEAkS
  16 10,1  | SnEApS
  16  8,4  - SoNe
+ 16  4,2  - SoWAn
  16 10,1  | SpEAkS
  16 10,1  | SpEAnS
  16 10,1  | SpEArS
@@ -2688,7 +2783,6 @@
  16 10,2  | bEfAN
  16 10,2  | bEgAN
  16 10,2  | bEgASS
- 16 10,2  | bEjAN
  16 10,2  | bEmAN
  16 10,2  | bEsAN
  16 10,2  | bEzAN
@@ -2808,6 +2902,7 @@
  16  8,1  | kNIAZ
  16  8,1  | kNIAZi
  16  8,1  | lAISSeZ
+ 16  8,2  - lAN
  16  2,8  - lAdS
  16  2,8  - lAmS
  16  2,8  - lAoS
@@ -2863,6 +2958,7 @@
  16 10,2  | mEgASS
  16 10,2  | mEiSSA
  16 10,2  | mEnSAS
+ 16  8,2  - nAN
  16  5,4  - nAiS
  16  2,8  - nAoS
  16 10,2  | nENeS
@@ -3065,7 +3161,6 @@
  15  9,1  | NALe
  15  9,1  | NALed
  15  2,4  - NASsAu
- 15  2,8  - NAd
  15  2,8  - NAe
  15  2,8  - NAf
  15  2,8  - NAm
@@ -3075,9 +3170,11 @@
  15  2,8  - NAw
  15  5,6  - NEAScuS
  15  8,4  - Na
+ 15  8,2  - NaA
  15  1,8  - NaAm
  15  3,5  | NaJA
  15  2,4  - NaSSAu
+ 15  8,2  - NeA
  15  1,8  - NeAf
  15  1,8  - NeAl
  15  1,8  - NeAr
@@ -3085,6 +3182,7 @@
  15  7,1  | NeXt
  15  4,4  - NgAi
  15  1,8  - NhAn
+ 15  8,4  - Ni
  15  1,8  - NiAs
  15  9,1  | NiLS
  15  8,4  - No
@@ -3110,6 +3208,7 @@
  15  3,4  | SANJay
  15  3,4  | SANJib
  15  4,2  - SAWah
+ 15  4,2  - SAWan
  15  4,2  - SAWed
  15  4,4  | SAZEn
  15  2,8  - SAde
@@ -3216,15 +3315,13 @@
  15  6,2  - WAf
  15  6,2  - WAg
  15  6,2  - WAh
+ 15  6,2  - WAn
  15  6,2  - WAp
  15  6,2  - WAs
  15  6,2  - WAt
  15  6,2  - WAx
  15  6,2  - WAy
  15  6,2  - WaS
- 15  6,2  - WeA
- 15  6,2  - WeS
- 15  6,2  - WoA
  15  6,2  - WoS
  15  4,6  | ZEAlS
  15  4,6  | ZEStS
@@ -3257,7 +3354,6 @@
  15  3,5  | baJAN
  15  9,1  | baLAS
  15  9,1  | baLSA
- 15  3,5  | beJAN
  15  4,3  | blAZES
  15  9,1  | boLAS
  15  4,3  | brAZES
@@ -3312,6 +3408,7 @@
  15  9,1  | hALoS
  15  9,1  | hALtS
  15  4,4  | hAZES
+ 15  5,2  - hWAn
  15  9,1  | haLAS
  15  9,1  | heLAS
  15  7,1  | heXA
@@ -3328,6 +3425,7 @@
  15  9,1  | kALiS
  15  1,8  - kNAr
  15  1,8  - kNAw
+ 15  5,2  - kWAn
  15  3,2  - kiSWA
  15  9,1  | koLAS
  15  9,1  | lALlS
@@ -3369,6 +3467,7 @@
  15  5,2  - sWAd
  15  5,2  - sWAg
  15  5,2  - sWAm
+ 15  5,2  - sWAn
  15  5,2  - sWAp
  15  5,2  - sWAt
  15  5,2  - sWAy
@@ -3381,6 +3480,7 @@
  15  9,1  | tALiS
  15  9,1  | tALkS
  15  9,1  | tALuS
+ 15  5,2  - tWAl
  15  5,2  - tWAs
  15  5,2  - tWAt
  15  5,2  - tWAy
@@ -3423,6 +3523,7 @@
  14  5,2  - AWay
  14  5,2  - AWed
  14  5,2  - AWes
+ 14  5,2  - AWol
  14  8,1  | AZImiN
  14  4,2  | AZaNdE
  14  4,4  | AZtEc
@@ -3466,7 +3567,6 @@
  14  3,8  - Ars
  14  3,8  - Art
  14  3,8  - Arx
- 14  3,8  - Ase
  14  3,8  - Ash
  14  3,8  - Ass
  14  3,8  - Ast
@@ -3510,9 +3610,20 @@
  14  3,7  | JyNx
  14  9,3  | LiSZt
  14  2,8  - NA
+ 14  8,2  - NAa
  14  1,8  - NAam
+ 14  8,2  - NAb
+ 14  8,2  - NAe
+ 14  8,2  - NAf
+ 14  8,2  - NAm
+ 14  8,2  - NAn
  14  1,8  - NAos
+ 14  8,2  - NAp
+ 14  8,2  - NAr
+ 14  8,2  - NAt
  14  2,2  - NAveW
+ 14  8,2  - NAw
+ 14  8,2  - NAy
  14  4,6  | NEoZA
  14  1,8  - NaA
  14  3,5  | NaJa
@@ -3543,11 +3654,8 @@
  14  2,8  - SAn
  14  8,4  - SAne
  14  2,8  - SAo
- 14  2,8  - SAr
- 14  8,4  - SAra
  14  8,4  - SAre
  14  8,4  - SAri
- 14  8,4  - SAsa
  14  2,8  - SAt
  14  8,4  - SAta
  14  8,4  - SAte
@@ -3572,6 +3680,7 @@
  14  5,2  - SWad
  14  5,2  - SWag
  14  5,2  - SWam
+ 14  5,2  - SWan
  14  5,2  - SWap
  14  5,2  - SWat
  14  5,2  - SWay
@@ -3586,17 +3695,13 @@
  14  3,4  | SaNJAk
  14  3,4  | SaNJAy
  14  4,3  | SaNZEn
- 14  8,4  - SaSa
  14  4,4  | SaZEn
  14  8,4  - SalA
- 14  8,4  - SarA
- 14  8,4  - SasA
  14  8,4  - SatA
  14  1,8  - ScAd
  14  1,8  - ScAm
  14  1,8  - ScAn
  14  1,8  - ScAr
- 14  8,2  - ScAt
  14  1,8  - ScAt
  14  1,8  - ScAw
  14  1,8  - SeAh
@@ -3620,12 +3725,19 @@
  14  1,8  - ShAw
  14  1,8  - SiAl
  14  1,8  - SiAm
+ 14  8,4  - SiN
  14  4,3  | SiNZEr
  14  2,2  - SiNeW
+ 14  8,4  - SiSe
+ 14  8,4  - SiSi
  14  4,4  | SiZE
  14  4,4  | SiZEd
  14  4,4  | SiZEr
  14  4,4  | SiZEs
+ 14  8,4  - SidA
+ 14  8,4  - SimA
+ 14  8,4  - SinA
+ 14  8,4  - SitA
  14  1,8  - SkAl
  14  1,8  - SkAt
  14  1,8  - SkAw
@@ -3888,7 +4000,6 @@
  13  5,6  - NEsSeS
  13  5,6  - NEsSuS
  13  3,6  | NJAve
- 13  2,8  - Nad
  13  2,8  - Nae
  13  2,8  - Naf
  13  2,8  - Nam
@@ -3937,7 +4048,6 @@
  13  8,2  - SAnt
  13  8,2  - SApa
  13  8,2  - SApo
- 13  8,2  - SAra
  13  8,2  - SAre
  13  8,2  - SAri
  13  8,2  - SArt
@@ -3955,7 +4065,6 @@
  13  8,2  - SabA
  13  3,3  | SamAJ
  13  8,2  - SapA
- 13  8,2  - SarA
  13  8,2  - SatA
  13  8,2  - SayA
  13  4,2  | ScrAZE
@@ -3985,23 +4094,21 @@
  13  6,2  - Waf
  13  6,2  - Wag
  13  6,2  - Wah
+ 13  6,2  - Wan
  13  6,2  - Wap
  13  6,2  - Was
  13  6,2  - Wat
  13  6,2  - Wax
  13  6,2  - Way
- 13  6,2  - Wea
  13  6,2  - Web
  13  6,2  - Wed
  13  6,2  - Wem
- 13  6,2  - Wes
+ 13  6,2  - Wen
  13  6,2  - Wet
  13  6,2  - Wey
- 13  6,2  - Woa
  13  6,2  - Wob
- 13  6,2  - Wod
- 13  6,2  - Wog
  13  6,2  - Wok
+ 13  6,2  - Won
  13  6,2  - Woo
  13  6,2  - Wos
  13  6,2  - Wot
@@ -4028,7 +4135,6 @@
  13  2,8  - aAs
  13 11,2  | aDZeS
  13  3,5  | aNJAn
- 13  1,8  - aSA
  13  3,4  - aSSAi
  13  2,8  - bAd
  13  2,8  - bAe
@@ -4052,7 +4158,6 @@
  13  2,8  - cAt
  13  2,8  - cAw
  13  2,8  - dAd
- 13  2,8  - dAe
  13  2,8  - dAh
  13  2,8  - dAl
  13  2,8  - dAm
@@ -4067,9 +4172,7 @@
  13  5,6  - dESmANS
  13  8,2  - daN
  13  8,2  - deN
- 13  2,8  - eAd
  13  2,8  - eAm
- 13  2,8  - eAn
  13  2,8  - eAr
  13  2,8  - eAt
  13  7,2  | eXr
@@ -4152,6 +4255,8 @@
  13  2,8  - lAt
  13  2,8  - lAw
  13  2,8  - lAx
+ 13  8,2  - laN
+ 13  8,2  - leN
  13  3,4  | liNJA
  13  3,5  | mAJaS
  13  3,5  | mAJoS
@@ -4163,7 +4268,6 @@
  13  2,8  - mAl
  13  2,8  - mAm
  13  2,8  - mAn
- 13  2,8  - mAo
  13  2,8  - mAr
  13  2,8  - mAs
  13  2,8  - mAt
@@ -4181,7 +4285,6 @@
  13  3,5  | maJAS
  13  8,2  - maN
  13  8,2  - meN
- 13  2,8  - nAd
  13  2,8  - nAe
  13  2,8  - nAf
  13  2,8  - nAm
@@ -4190,6 +4293,7 @@
  13  2,8  - nAt
  13  2,8  - nAw
  13  5,6  - nEoZA
+ 13  8,2  - naN
  13  3,4  | niNJA
  13  2,8  - oAd
  13  2,8  - oAf
@@ -4233,7 +4337,6 @@
  13  2,8  - sAm
  13  2,8  - sAn
  13  2,8  - sAo
- 13  2,8  - sAr
  13  2,8  - sAt
  13  2,8  - sAw
  13  2,8  - sAx
@@ -4311,10 +4414,8 @@
  12  9,1  | ASLop
  12  4,4  | ASSENt
  12  4,4  | ASSENts
- 12  1,8  - ASa
  12  4,4  | AScENdS
  12  4,4  | AScENtS
- 12  1,8  - ASe
  12  2,2  - ASkeW
  12  4,4  | ASpENS
  12  4,4  | ASsENtS
@@ -4400,7 +4501,6 @@
  12  3,7  | JiAo
  12  3,7  | JiSm
  12  3,7  | JinN
- 12  3,7  | JmS
  12  3,7  | JoAn
  12  3,7  | JoSe
  12  3,7  | JoSh
@@ -4426,13 +4526,13 @@
  12  9,1  | NaLe
  12  1,8  - Naa
  12  1,8  - Nae
- 12  1,8  - Nco
  12 10,2  - Ne
  12  2,8  - Ne
  12  9,1  | NeLl
  12  1,8  - Nea
  12  1,8  - Nee
  12  1,8  - Neo
+ 12 10,2  - Ni
  12  9,1  | NiL
  12  9,1  | NiLe
  12  9,1  | NiLl
@@ -4502,7 +4602,6 @@
  12  8,4  - SAo
  12  1,8  - SAo
  12  4,3  | SApiENS
- 12  8,4  - SAr
  12  4,3  | SArSEN
  12  4,3  | SArSENs
  12  4,3  | SArsENS
@@ -4616,7 +4715,6 @@
  12  2,8  - Sam
  12  2,8  - San
  12  2,8  - Sao
- 12  2,8  - Sar
  12  2,8  - Sat
  12  2,8  - Saw
  12  2,8  - Sax
@@ -4644,6 +4742,7 @@
  12  2,8  - Sex
  12  4,4  - ShAi
  12  9,1  | SiLAs
+ 12  8,4  - SiS
  12  3,5  - SilVANS
  12  8,2  - SlA
  12  4,3  | SmaZE
@@ -4742,7 +4841,6 @@
  12  1,8  - aaA
  12  1,8  - abA
  12  4,3  | abAZE
- 12  1,8  - adA
  12  1,8  - agA
  12  4,3  | agAZE
  12  1,8  - ahA
@@ -4752,8 +4850,6 @@
  12  4,3  | amAZE
  12  1,8  - anA
  12  1,8  - apA
- 12  1,8  - arA
- 12  1,8  - asA
  12  1,8  - avA
  12  1,8  - awA
  12  2,8  - bA
@@ -4918,14 +5014,12 @@
  12  1,8  - hiA
  12  3,6  | iJmA
  12  9,1  | iNLy
- 12  1,8  - iNo
  12  9,1  | iSLAm
  12  9,1  | iSLAy
  12  9,1  | iSLS
  12  5,2  - iWa
  12  1,8  - ibA
  12  1,8  - ilA
- 12  1,8  - imA
  12  1,8  - irA
  12  1,8  - itA
  12  1,8  - ivA
@@ -4949,7 +5043,6 @@
  12  4,2  | kiNASES
  12  1,8  - koA
  12  1,8  - krA
- 12  1,8  - kuA
  12  2,8  - lA
  12  4,4  | lAZE
  12  4,4  | lAZEd
@@ -4967,7 +5060,6 @@
  12 10,2  | lESyA
  12 10,2  | lEiSS
  12 10,2  | lEpAS
- 12  1,8  - lcA
  12  1,8  - leA
  12  7,1  | leX
  12  1,8  - loA
@@ -5019,6 +5111,7 @@
  12  1,8  - naA
  12  8,4  - naNA
  12  1,8  - neA
+ 12  8,4  - niNA
  12  1,8  - noA
  12  8,4  - noNA
  12  7,1  | noX
@@ -5119,6 +5212,7 @@
  12  7,1  | seX
  12  1,8  - shA
  12  1,8  - siA
+ 12  8,4  - siNA
  12  1,8  - slA
  12  1,8  - smA
  12  4,3  | smAZE
@@ -5159,6 +5253,7 @@
  12  4,3  | teAZE
  12  7,1  | teX
  12  1,8  - thA
+ 12  8,4  - tiNA
  12  1,8  - toA
  12  7,1  | toX
  12  1,8  - trA
@@ -5193,9 +5288,7 @@
  12  5,6  - wEZn
  12  5,6  | wEZn
  12 10,2  | wEkAS
- 12  1,8  - weA
  12  1,8  - whA
- 12  1,8  - woA
  12  2,8  - yA
  12 10,2  | yEASt
  12 10,2  | yEAnS
@@ -5253,7 +5346,6 @@
  11  1,8  - Aba
  11  1,8  - Abo
  11  1,8  - Ace
- 11  1,8  - Ada
  11  1,8  - Ado
  11  2,8  - Ae
  11  1,8  - Aga
@@ -5273,14 +5365,11 @@
  11  1,8  - Apa
  11  1,8  - Ape
  11  4,4  | ArSENo
- 11  1,8  - Ara
  11  1,8  - Are
  11  1,8  - Aro
  11  4,4  | ArpENS
  11  3,4  - AsSAi
  11  4,4  | AsSENt
- 11  1,8  - Asa
- 11  1,8  - Ase
  11  4,4  | AspENS
  11  1,8  - Ate
  11  4,4  | AthENS
@@ -5294,8 +5383,6 @@
  11  1,8  - Azo
  11  6,6  - EZba
  11  5,7  | EZba
- 11  6,6  - EZod
- 11  5,7  | EZod
  11  6,6  - EZra
  11  5,7  | EZra
  11  8,3  | INAneS
@@ -5414,6 +5501,26 @@
  11  4,4  | NArESh
  11  4,4  | NAtES
  11  4,4  | NAvES
+ 11  8,2  - Naa
+ 11  8,2  - Nab
+ 11  8,2  - Nae
+ 11  8,2  - Naf
+ 11  8,2  - Nam
+ 11  8,2  - Nan
+ 11  8,2  - Nap
+ 11  8,2  - Nar
+ 11  8,2  - Nat
+ 11  8,2  - Naw
+ 11  8,2  - Nay
+ 11  8,2  - Nea
+ 11  8,2  - Neb
+ 11  8,2  - Ned
+ 11  8,2  - Nee
+ 11  8,2  - Nef
+ 11  8,2  - Neo
+ 11  8,2  - Nep
+ 11  8,2  - Net
+ 11  8,2  - New
  11  4,4  | NoSEAn
  11  4,4  | NoSES
  11  4,5  - SAViNS
@@ -5437,7 +5544,6 @@
  11  4,3  | SAnzEN
  11  8,2  - SAo
  11  8,2  - SAp
- 11  8,2  - SAr
  11  4,3  | SArsEN
  11  8,2  - SAt
  11  4,3  | SAteEN
@@ -5503,10 +5609,8 @@
  11  4,6  | ZEk
  11  4,6  | ZEke
  11  4,6  | ZEks
- 11  4,6  | ZEl
  11  4,6  | ZEmi
  11  4,6  | ZEn
- 11  4,6  | ZEnd
  11  4,6  | ZEnu
  11  4,6  | ZEr
  11  4,6  | ZEro
@@ -5556,8 +5660,6 @@
  11  4,3  | aNApES
  11  4,3  | aNiSES
  11  4,3  | aNuSES
- 11  1,8  - aSa
- 11  1,8  - aSe
  11  5,5  - aViANS
  11  3,8  - ad
  11  4,4  | adZE
@@ -5582,7 +5684,6 @@
  11  8,2  | bIzZ
  11  3,5  | baJA
  11  4,4  | baZE
- 11  3,5  | beJA
  11  3,5  | biJA
  11  4,4  | biZE
  11  3,5  - cANVaSS
@@ -5591,7 +5692,6 @@
  11  3,4  - caZA
  11  4,4  | ciZE
  11  4,3  | dASwEN
- 11  1,8  - dAe
  11  1,8  - dAo
  11  5,6  - dENSuS
  11  5,6  - dESANd
@@ -5666,7 +5766,6 @@
  11  3,5  | mAJa
  11  3,5  | mAJo
  11  1,8  - mAe
- 11  1,8  - mAo
  11  5,6  - mENAdS
  11  5,6  - mENSAe
  11  5,6  - mENSAl
@@ -5913,7 +6012,6 @@
  10  3,7  | Jig
  10  3,7  | Jim
  10  3,7  | Jin
- 10  3,7  | Jms
  10  3,7  | Jnd
  10  3,7  | Jo
  10  3,7  | Job
@@ -6001,7 +6099,6 @@
  10  4,4  | SamEN
  10  8,4  - San
  10  8,4  - Sao
- 10  8,4  - Sar
  10  8,4  - Sat
  10  8,4  - Saw
  10  8,4  - Sax
@@ -6019,9 +6116,18 @@
  10  4,4  | SheEN
  10 10,1  | SiENA
  10  4,5  | SiENnAS
+ 10  8,4  - Sid
+ 10  8,4  - Sie
+ 10  8,4  - Sil
  10  4,4  | SilEN
  10  3,5  - SilVAN
+ 10  8,4  - Sim
+ 10  8,4  - Sin
+ 10  8,4  - Sir
  10  4,4  | SirEN
+ 10  8,4  - Sis
+ 10  8,4  - Sit
+ 10  8,4  - Six
  10 10,1  | SkEAN
  10  4,4  | SkeEN
  10  3,5  - SlAViN
@@ -6082,8 +6188,6 @@
  10  2,8  - ba
  10  2,8  - be
  10  2,8  - bo
- 10  9,2  - cAi
- 10  9,2  - cAt
  10  4,3  | caSSENA
  10  3,5  | cuJ
  10  8,4  - dAN
@@ -6092,6 +6196,7 @@
  10  4,5  - dAVeNS
  10  2,8  - da
  10  2,8  - de
+ 10  8,4  - diSA
  10  4,5  - diVANS
  10  2,8  - do
  10  8,4  - doSA
@@ -6166,11 +6271,9 @@
  10  3,5  | raJ
  10  2,8  - re
  10  8,4  - sAN
- 10  8,4  - sASa
  10  4,5  - sAViNS
  10  4,3  | sAdNESS
  10  4,2  | sNAShES
- 10  8,4  - saSA
  10  2,8  - so
  10  8,4  - tAN
  10  8,4  - tASu
@@ -6226,8 +6329,6 @@
   9  3,5  - ANoVa
   9  4,4  | ANtES
   9  4,3  | ANuSEs
-  9  9,4  - ASa
-  9  9,4  - ASe
   9  1,4  - ASoNiA
   9  9,4  - ASp
   9  9,1  | AaL
@@ -6241,10 +6342,8 @@
   9  9,2  - Abo
   9  9,2  - Abt
   9  8,1  | AcINuS
-  9  9,1  | AcLe
   9  9,1  | AcLu
   9  4,4  | AcNES
-  9  9,2  - Ada
   9  9,2  - Ado
   9  9,2  - Aet
   9  9,2  - Aft
@@ -6290,7 +6389,6 @@
   9  9,2  - Apt
   9  4,5  | ArENaS
   9  9,1  | ArLe
-  9  9,2  - Ara
   9  9,2  - Are
   9  4,3  | AriSEN
   9  9,2  - Aro
@@ -6347,8 +6445,8 @@
   9  9,3  | LoSANg
   9  9,3  | LuNAS
   9  9,3  | LySiNS
+  9  8,2  - NA
   9 10,4  - NA
-  9 11,1  | NAD
   9 11,1  | NADa
   9 11,1  | NADir
   9  4,6  - NAE
@@ -6545,6 +6643,7 @@
   9  9,1  | ShLu
   9  1,4  - ShaNSA
   9  3,5  - ShiVAS
+  9  8,4  - Si
   9  4,5  | SiENA
   9  4,5  | SiENnA
   9  9,1  | SiL
@@ -6660,7 +6759,6 @@
   9  9,4  - aNa
   9  9,4  - aNe
   9  9,4  - aNi
-  9  9,4  - aSA
   9  4,4  | aSSENt
   9  4,4  | aSpENS
   9  5,5  - aVeNA
@@ -6669,7 +6767,6 @@
   9  9,2  - aaA
   9  9,1  | aaLS
   9  9,2  - abA
-  9  9,2  - adA
   9  9,1  | agLA
   9  9,2  - ahA
   9  9,1  | aiLS
@@ -6679,7 +6776,6 @@
   9  9,1  | amLA
   9  9,2  - anA
   9  9,2  - apA
-  9  9,2  - arA
   9  4,5  | arENAS
   9  9,1  | auLA
   9  9,2  - awA
@@ -6734,7 +6830,6 @@
   9  9,2  | cLANkS
   9  9,1  | caLS
   9  3,5  - caNVAS
-  9  9,2  - chA
   9  8,1  | chINAS
   9  9,1  | coLA
   9  9,1  | coLS
@@ -6752,7 +6847,6 @@
   9  5,6  - dEpASS
   9  8,2  | dINArS
   9  4,2  | dSNAmE
-  9  8,2  - dcA
   9  8,2  - deA
   9  9,1  | deLS
   9  9,1  | doLA
@@ -6888,6 +6982,7 @@
   9  8,2  | lINeAS
   9  8,2  | lINgAS
   9  9,2  | lLANoS
+  9  8,2  - leA
   9  9,2  - leA
   9  4,3  | leSSEN
   9  9,1  | liLA
@@ -6938,6 +7033,8 @@
   9  4,2  | moNASE
   9  9,1  | nALe
   9  4,3  | nANcES
+  9  8,2  - naA
+  9  8,2  - neA
   9  9,1  | niLS
   9  4,3  | oANnES
   9  4,3  | oAnNES
@@ -6946,7 +7043,6 @@
   9  9,4  - oNi
   9  9,4  - oNo
   9  5,5  - oVeNS
-  9  8,2  - ocA
   9  9,1  | oiLS
   9  8,2  - olA
   9  9,1  | olLA
@@ -7205,10 +7301,6 @@
   8  8,1  | AcINg
   8  8,1  | AcINi
   8  4,4  | AccESS
-  8  8,2  - Ace
-  8  8,2  - Ach
-  8  8,2  - Act
-  8  8,2  - Acy
   8 10,1  | AdEN
   8  4,5  | AdEN
   8  8,1  | AdIN
@@ -7729,7 +7821,6 @@
   8  8,2  | NIASeSe
   8  8,2  | NISnAS
   8 10,1  | NSEc
-  8 11,1  | NaD
   8 11,1  | NaDa
   8  4,5  - NaVAl
   8  4,5  - NaVAr
@@ -7951,7 +8042,6 @@
   8  8,2  - San
   8  8,2  - Sao
   8  8,2  - Sap
-  8  8,2  - Sar
   8  8,2  - Sat
   8  8,2  - Saw
   8  8,2  - Say
@@ -7964,11 +8054,8 @@
   8 10,1  | ScENt
   8  4,5  | ScENt
   8  8,1  | ScINd
-  8  8,2  - Scf
   8  4,1  | SchANSE
   8  2,5  - SchAVS
-  8  8,2  - Scr
-  8  8,2  - Sct
   8  3,5  - SeAVe
   8  3,5  - SeAVy
   8 11,1  | SeDAN
@@ -8256,6 +8343,7 @@
   8  8,4  - baN
   8 10,1  | biENS
   8  4,5  | biENS
+  8  8,4  - biN
   8 10,1  | blENS
   8  4,5  | blENS
   8  8,4  - boN
@@ -8300,7 +8388,6 @@
   8  4,5  - dAVeN
   8  8,2  - dAb
   8  8,2  - dAd
-  8  8,2  - dAe
   8  8,2  - dAh
   8  4,3  | dAiSES
   8  8,2  - dAm
@@ -8338,6 +8425,7 @@
   8  8,2  | dINuS
   8  8,4  - daN
   8  4,3  | deANESS
+  8  8,4  - diN
   8  4,5  - diVAN
   8  8,1  | djINS
   8 10,1  | doESN
@@ -8405,6 +8493,7 @@
   8  4,5  | faENA
   8  8,1  | faINS
   8  8,4  - faN
+  8  8,4  - fiN
   8  8,1  | foINS
   8  8,4  - foN
   8  4,1  | foSSANE
@@ -8471,7 +8560,6 @@
   8  4,3  | hAShES
   8  4,3  | hAStES
   8  4,5  - hAVeN
-  8  8,2  - hAb
   8  8,2  - hAd
   8  8,2  - hAe
   8  8,2  - hAf
@@ -8581,11 +8669,22 @@
   8  2,4  - lANsA
   8  4,3  | lAShES
   8  4,3  | lASsES
+  8  8,2  - lAb
+  8  8,2  - lAd
   8  4,4  | lAdEN
   8  4,4  | lAgEN
+  8  8,2  - lAh
+  8  8,2  - lAm
+  8  8,2  - lAn
+  8  8,2  - lAo
+  8  8,2  - lAp
   8  4,3  | lApSES
+  8  8,2  - lAr
   8  4,3  | lAsSES
+  8  8,2  - lAt
   8  4,4  | lAtEN
+  8  8,2  - lAw
+  8  8,2  - lAy
   8 10,2  | lEAN
   8 10,2  | lENA
   8  4,6  | lENA
@@ -8638,7 +8737,6 @@
   8  8,2  - mAm
   8  8,2  - mAn
   8  4,3  | mAnSES
-  8  8,2  - mAo
   8  8,2  - mAp
   8  8,2  - mAr
   8  4,3  | mArSES
@@ -8687,7 +8785,18 @@
   8  8,1  | nAIN
   8  2,4  - nANdA
   8  2,4  - nANgA
+  8  8,2  - nAa
+  8  8,2  - nAb
+  8  8,2  - nAe
+  8  8,2  - nAf
+  8  8,2  - nAm
+  8  8,2  - nAn
+  8  8,2  - nAp
+  8  8,2  - nAr
   8  4,4  | nArEN
+  8  8,2  - nAt
+  8  8,2  - nAw
+  8  8,2  - nAy
   8  4,6  | nENeS
   8  4,6  | nENtA
   8  8,2  | nINA
@@ -8858,7 +8967,6 @@
   8  8,2  - sAn
   8  8,2  - sAo
   8  8,2  - sAp
-  8  8,2  - sAr
   8  4,3  | sAsSES
   8  8,2  - sAt
   8  8,2  - sAw
@@ -8906,6 +9014,7 @@
   8  8,1  | shINS
   8 10,1  | siENA
   8  4,5  | siENA
+  8  8,4  - siN
   8  4,5  - siVAN
   8 10,1  | skEAN
   8  8,1  | skINS
@@ -8980,6 +9089,7 @@
   8  8,1  | thINS
   8 10,1  | tiENS
   8  4,5  | tiENS
+  8  8,4  - tiN
   8  8,4  - tlN
   8  8,4  - toN
   8  8,1  | trINA
@@ -9169,7 +9279,6 @@
   7 11,1  | AdDN
   7 11,1  | AdDNl
   7  4,6  - AdEN
-  7  9,4  - Ada
   7  9,4  - Ado
   7  9,4  - Adp
   7  4,4  | AdzES
@@ -9241,7 +9350,6 @@
   7  8,1  | ArISeN
   7  4,2  | ArSiNE
   7  4,5  - ArVoS
-  7  9,4  - Ara
   7  4,4  | ArcES
   7  9,4  - Are
   7  4,4  | AriES
@@ -9249,8 +9357,6 @@
   7  9,4  - Aro
   7  4,4  | ArsES
   7  9,4  - Aru
-  7  9,4  - Asa
-  7  9,4  - Ase
   7  4,4  | AshES
   7  9,4  - Asp
   7  4,4  | AssES
@@ -9273,8 +9379,6 @@
   7  4,7  | EArNS
   7  4,7  | EN
   7  4,7  | ENam
-  7  4,7  | ENc
-  7  4,7  | ENcl
   7  4,7  | ENcy
   7  4,7  | ENd
   7  4,7  | ENde
@@ -9321,7 +9425,6 @@
   7  8,3  | INn
   7  8,3  | INne
   7  8,3  | INns
-  7  8,3  | INo
   7  8,3  | INro
   7  8,3  | INs
   7  8,3  | INsp
@@ -9566,6 +9669,7 @@
   7  8,2  | NISnAs
   7  8,2  | NISnaS
   7  8,2  | NISuS
+  7  8,2  - Na
   7 10,4  - Na
   7  4,4  - NaA
   7  4,6  - NaE
@@ -9586,6 +9690,7 @@
   7  4,3  | NauSEA
   7  4,4  | NavE
   7  4,4  | NazE
+  7  8,2  - Ne
   7 10,4  - Ne
   7  4,4  - NeA
   7  4,3  | NeAkES
@@ -9605,6 +9710,7 @@
   7  4,3  | NesSES
   7  4,4  | NetE
   7  4,4  | NevE
+  7 10,4  - Ni
   7  4,4  | NicE
   7  4,4  | NidE
   7  4,4  | NifE
@@ -9946,12 +10052,9 @@
   7  2,4  - aSANA
   7  8,1  | aSIAN
   7  8,1  | aSIANs
-  7  9,4  - aSa
-  7  9,4  - aSe
   7  9,4  - aSp
   7  5,5  - aVASt
   7  5,5  - aVN
-  7  9,4  - adA
   7  4,5  | adEN
   7  8,1  | adIN
   7  4,4  | aeNEAS
@@ -9968,10 +10071,8 @@
   7  8,1  | amIN
   7  9,4  - anA
   7  4,4  | apNEAS
-  7  9,4  - arA
   7  4,5  | arEN
   7  4,6  - arENAS
-  7  9,4  - asA
   7  8,1  | asIANS
   7  4,5  | atEN
   7  8,1  | avIANS
@@ -10217,6 +10318,7 @@
   7  4,3  | haNSES
   7  8,1  | heIN
   7  4,6  - hyENAS
+  7  9,4  - iN
   7  4,2  | iNSAmE
   7  4,2  | iNSAnE
   7  4,4  | iNSEA
@@ -10229,14 +10331,19 @@
   7  4,4  | iNlESS
   7  4,4  | iNnESS
   7  3,4  - iNtA
+  7  9,4  - iSe
   7  1,4  - iStANA
   7  5,5  - iVaN
   7  5,5  - iViN
+  7  9,4  - ilA
   7  4,3  | inANES
   7  4,4  | inNESS
   7  4,2  | inSANE
+  7  9,4  - irA
+  7  9,4  - itA
   7  4,5  | itEN
   7  8,1  | ivIN
+  7  9,4  - iwA
   7 10,2  - jA
   7  4,4  | jANES
   7  4,5  - jAVaS
@@ -10721,7 +10828,6 @@
   7  8,2  | yIN
   7  8,2  | yINs
   7  4,6  | zEN
-  7  4,6  | zENd
   7  4,6  | zENu
   7  8,2  | zINc
   7  8,2  | zINg
@@ -10761,7 +10867,6 @@
   6  4,4  | ANtEd
   6  4,4  | ANtEs
   6 11,1  | ASDic
-  6 10,1  | ASE
   6 10,1  | ASEa
   6 10,1  | ASEm
   6  8,1  | ASIaNS
@@ -10957,8 +11062,6 @@
   6 11,3  | DuNgAS
   6 11,3  | DueNAS
   6 11,3  | DyNASt
-  6  4,7  | EAN
-  6  5,7  | EAN
   6 10,3  | EASe
   6  4,7  | EASeS
   6 10,3  | EASed
@@ -10992,7 +11095,6 @@
   6 10,3  | EAveS
   6  6,6  - EAveS
   6 10,3  | ENam
-  6 10,3  | ENcl
   6 10,3  | ENcy
   6 10,3  | ENde
   6 10,3  | ENds
@@ -11506,7 +11608,6 @@
   6 10,1  | SAE
   6 10,1  | SAEta
   6  4,1  | SANgSuE
-  6  3,4  - SASA
   6  4,3  | SAShEd
   6  4,3  | SAShEs
   6  4,2  | SASinE
@@ -11959,7 +12060,6 @@
   6  5,6  | bEhN
   6 10,2  | bEiN
   6  5,6  | bEiN
-  6  5,6  | bEjAN
   6  5,6  | bEmAN
   6 10,2  | bEnN
   6  5,6  | bEnN
@@ -11983,6 +12083,7 @@
   6  4,3  | biASES
   6 10,1  | biEN
   6  4,4  | biNES
+  6  8,4  - biS
   6  4,3  | blASES
   6 10,1  | blESS
   6  8,4  - blS
@@ -12059,7 +12160,6 @@
   6  4,5  - dAVe
   6  4,5  - dAVy
   6  8,4  - dAd
-  6  8,4  - dAe
   6  8,4  - dAh
   6  8,4  - dAl
   6  8,4  - dAm
@@ -12117,8 +12217,10 @@
   6  2,4  - diANA
   6  9,1  | diL
   6  4,4  | diNES
+  6  8,4  - diS
   6  2,4  - diSNA
   6  4,5  - diVA
+  6  4,5  - diVS
   6  9,1  | dkL
   6  4,5  | doESN
   6  4,6  - doESN
@@ -12530,7 +12632,6 @@
   6  4,5  - nAVe
   6  4,5  - nAVi
   6  4,5  - nAVy
-  6  8,4  - nAd
   6  8,4  - nAe
   6  8,4  - nAf
   6  8,4  - nAm
@@ -12550,6 +12651,7 @@
   6  4,4  | neNES
   6  9,1  | niL
   6  4,4  | niNES
+  6  8,4  - niS
   6  9,1  | noL
   6  4,4  | noNES
   6  8,4  - noS
@@ -12750,7 +12852,6 @@
   6  8,4  - sAm
   6  8,4  - sAn
   6  8,4  - sAo
-  6  8,4  - sAr
   6  8,4  - sAt
   6  8,4  - sAw
   6  8,4  - sAx
@@ -12795,6 +12896,7 @@
   6  8,1  | shISN
   6  9,1  | siL
   6  4,4  | siNES
+  6  8,4  - siS
   6  4,5  | skEAN
   6 10,1  | skEN
   6  3,5  - slAV
@@ -12881,6 +12983,7 @@
   6  9,1  | tiL
   6  4,4  | tiNEA
   6  4,4  | tiNES
+  6  8,4  - tiS
   6  9,1  | toL
   6  4,4  | toNES
   6  8,4  - toS
@@ -13010,10 +13113,8 @@
   6  4,3  | zANtE
   6  4,3  | zANzE
   6 10,2  | zEN
-  6 10,2  | zENd
   6 10,2  | zENu
   6 10,2  | zEiN
-  6  9,1  | zeL
   6 10,1  | zoEAS
   6  4,4  | zoNES
   5 11,2  | ADNex
@@ -13099,7 +13200,6 @@
   5  8,1  | ANIseS
   5  8,1  | ANItoS
   5  2,4  - ANaSA
-  5  4,4  - ASA
   5  8,1  | ASIaN
   5  8,1  | ASIaNs
   5  8,1  | ASIdeN
@@ -13478,7 +13578,6 @@
   5  4,7  | ESseS
   5  4,7  | EStAb
   5  4,7  | EStuS
-  5  5,7  | EaN
   5  5,7  | EdANa
   5  5,7  | EdNa
   5  5,7  | EeN
@@ -13721,13 +13820,11 @@
   5  3,4  - SApA
   5  4,4  | SApEk
   5  4,3  | SAplE
-  5  3,4  - SArA
   5  4,4  | SArE
   5  4,4  | SArEe
   5  2,4  - SArNA
   5  4,3  | SAreE
   5  4,3  | SArgE
-  5  3,4  - SAsA
   5  4,2  | SAsiNE
   5  4,3  | SAssE
   5  3,4  - SAtA
@@ -14074,6 +14171,7 @@
   5  6,5  - Vex
   5  6,5  - Via
   5  6,5  - Vic
+  5  6,5  - Vid
   5  6,5  - Vie
   5  6,5  - Vii
   5  6,5  - Vil
@@ -14214,7 +14312,6 @@
   5  5,6  - bEfAN
   5  5,6  - bEgAN
   5  5,6  | bEiSA
-  5  5,6  - bEjAN
   5  5,6  - bEmAN
   5  5,6  | bEmAS
   5  5,6  - bEsAN
@@ -14300,7 +14397,6 @@
   5  8,2  - dA
   5  8,4  - dA
   5 10,4  - dA
-  5  4,6  - dAE
   5  4,6  - dAEr
   5  8,1  | dAIS
   5  8,1  | dAISy
@@ -14571,6 +14667,7 @@
   5 11,1  | iNDuS
   5  4,4  | iNSEtS
   5  4,2  | iNcASE
+  5  9,4  - iS
   5  2,4  - iSAwA
   5 11,1  | iSDN
   5  8,1  | iSIAc
@@ -14632,6 +14729,7 @@
   5  2,4  - khASA
   5  3,2  - knAW
   5  8,1  | krISS
+  5  8,2  - lA
   5 10,4  - lA
   5 11,1  | lADeN
   5 11,1  | lADiN
@@ -14771,6 +14869,7 @@
   5  2,4  - miSSA
   5  4,4  | moSES
   5  4,4  | muSES
+  5  8,2  - nA
   5  8,4  - nA
   5 10,4  - nA
   5  4,6  - nAE
@@ -15033,7 +15132,6 @@
   5  4,4  | roSES
   5  4,4  | ruSES
   5  4,6  - ryEN
-  5  3,4  - sASA
   5  4,3  | sASsE
   5  4,2  - sAW
   5  4,4  | sAbES
@@ -15337,6 +15435,7 @@
   4  9,2  | ALS
   4  9,2  | ALSo
   4  9,2  | ALanS
+  4  9,2  | ALapS
   4  9,2  | ALbaS
   4  9,2  | ALbuS
   4  9,2  | ALceS
@@ -15426,12 +15525,10 @@
   4  2,4  - AcaNA
   4  4,4  | AccE
   4  4,4  | AchE
-  4  4,4  | AclE
   4  4,4  | AcmE
   4  4,4  | AcnE
   4  4,3  | AcoNE
   4  4,4  | AcrE
-  4  4,4  - AdA
   4 10,1  | AdEn
   4 10,1  | AdEt
   4  8,1  | AdIoN
@@ -15527,7 +15624,6 @@
   4  8,1  | ApIiN
   4  2,4  - ApiNA
   4  4,4  | ApsE
-  4  4,4  - ArA
   4 10,1  | ArE
   4 10,1  | ArEa
   4  4,5  | ArEaN
@@ -15546,8 +15642,6 @@
   4  4,4  | ArnE
   4  4,4  | ArsE
   4  4,4  | ArtE
-  4  4,4  - AsA
-  4 10,1  | AsE
   4 10,1  | AsEa
   4 10,1  | AsEm
   4  8,1  | AsIaN
@@ -15765,8 +15859,6 @@
   4 11,3  | DyAuS
   4 11,3  | DyN
   4 11,3  | DyNe
-  4 10,3  | EAN
-  4  6,6  - EAN
   4  5,7  | EASe
   4  5,7  | EASed
   4  5,7  | EASel
@@ -15777,11 +15869,9 @@
   4  5,7  | EASy
   4 10,3  | EAch
   4  4,7  | EAch
-  4  4,7  | EAd
   4 10,3  | EAdi
   4  4,7  | EAdi
   4  4,7  | EAm
-  4  4,7  | EAn
   4  4,7  | EAr
   4  6,6  - EArN
   4  5,7  | EArN
@@ -16121,7 +16211,6 @@
   4  9,3  | LauN
   4  9,3  | LawN
   4  9,3  | LbS
-  4  9,3  | LcA
   4  9,3  | LeA
   4  9,3  | LeAd
   4  9,3  | LeAf
@@ -16336,7 +16425,6 @@
   4  8,1  | SAIntS
   4  1,4  - SAStrA
   4  2,4  - SAlSA
-  4  2,4  - SArSA
   4 11,2  | SDS
   4 10,2  | SEa
   4  4,6  | SEaN
@@ -16801,6 +16889,7 @@
   4  8,2  | aIrNS
   4  8,2  | aIwAN
   4  9,2  | aLAnS
+  4  9,2  | aLApS
   4  9,2  | aLaS
   4  9,2  | aLbA
   4  9,2  | aLbS
@@ -16829,7 +16918,6 @@
   4  4,4  | aNSEl
   4  4,4  | aNSEr
   4  2,4  - aNaSA
-  4 10,1  | aSE
   4 10,1  | aSEa
   4 10,1  | aSEm
   4  8,1  | aSIaN
@@ -17011,9 +17099,6 @@
   4  5,6  - bEhN
   4  5,6  - bEiN
   4  5,6  - bEiSA
-  4 10,2  | bEjA
-  4  5,6  | bEjA
-  4  4,6  | bEjAN
   4 10,2  | bElA
   4  5,6  | bElA
   4 10,2  | bElS
@@ -17129,7 +17214,6 @@
   4 10,1  | ceES
   4  4,5  | ceES
   4  4,3  | ceNSE
-  4  9,2  - ch
   4  4,3  | chANE
   4  8,1  | chIA
   4  8,1  | chIS
@@ -17138,7 +17222,6 @@
   4 10,1  | coES
   4  4,5  | coES
   4  4,2  - coW
-  4  9,2  - cp
   4  4,3  | crANE
   4 10,1  | crEA
   4  4,5  | crEA
@@ -17151,7 +17234,6 @@
   4 11,1  | dADS
   4 11,1  | dADaS
   4 11,1  | dADoS
-  4 10,1  | dAE
   4 10,1  | dAEr
   4  4,4  | dANE
   4  4,4  | dANEs
@@ -17846,7 +17928,6 @@
   4  2,4  - lAmNA
   4  3,4  - lAnA
   4  3,4  - lAsA
-  4  3,4  - lAtA
   4  3,4  - lAvA
   4 10,2  | lEA
   4  4,6  | lEA
@@ -18173,6 +18254,7 @@
   4  5,1  | ne
   4 10,2  - ne
   4  4,2  - neW
+  4 10,2  - ni
   4 10,1  | niES
   4  4,5  | niES
   4  5,1  | no
@@ -18588,9 +18670,7 @@
   4  3,4  - sAkA
   4  3,4  - sAlA
   4  3,4  - sApA
-  4  3,4  - sArA
   4  2,4  - sArNA
-  4  3,4  - sAsA
   4  3,4  - sAtA
   4  2,4  - sAuNA
   4  3,4  - sAyA
@@ -18940,8 +19020,6 @@
   4  3,4  - wAkA
   4  2,4  - wAnNA
   4  3,4  - wAwA
-  4 10,2  | wEA
-  4  4,6  | wEA
   4 10,2  | wEAk
   4  4,6  | wEAk
   4 10,2  | wEAl
@@ -18968,8 +19046,6 @@
   4  5,6  | wENs
   4  5,6  - wENt
   4  5,6  | wENt
-  4 10,2  | wES
-  4  4,6  | wES
   4 10,2  | wESe
   4  4,6  | wESe
   4 10,2  | wESt
@@ -19119,7 +19195,6 @@
   4 10,1  | zoEA
   4  4,5  | zoEA
   3 11,2  | AD
-  3 11,2  | ADa
   3 11,2  | ADad
   3 11,2  | ADai
   3 11,2  | ADam
@@ -19234,7 +19309,6 @@
   3  9,2  | ALur
   3  9,2  | ALw
   3  9,2  | ALya
-  3  4,5  | ASE
   3  4,5  | ASEa
   3  4,5  | ASEm
   3  8,1  | ASIa
@@ -19287,7 +19361,6 @@
   3  8,1  | ArIaS
   3  8,1  | ArIeS
   3  8,1  | ArIlS
-  3  8,1  | ArIuS
   3  4,3  | ArSlE
   3  4,3  | AraSE
   3  4,3  | AriSE
@@ -19311,7 +19384,6 @@
   3 11,3  | DAdo
   3 11,3  | DAds
   3 11,3  | DAdu
-  3 11,3  | DAe
   3 11,3  | DAer
   3 11,3  | DAff
   3 11,3  | DAft
@@ -19321,7 +19393,6 @@
   3 11,3  | DAh
   3 11,3  | DAhi
   3 11,3  | DAhs
-  3 11,3  | DAil
   3 11,3  | DAin
   3 11,3  | DAis
   3 11,3  | DAk
@@ -19474,6 +19545,7 @@
   3 11,3  | DitA
   3 11,3  | DitS
   3 11,3  | DivA
+  3 11,3  | DivS
   3 11,3  | DkS
   3 11,3  | DoA
   3 11,3  | DoAb
@@ -19550,11 +19622,6 @@
   3  5,7  | EN
   3  6,6  - ENam
   3  5,7  | ENam
-  3 10,3  | ENc
-  3  6,6  - ENc
-  3  5,7  | ENc
-  3  6,6  - ENcl
-  3  5,7  | ENcl
   3  6,6  - ENcy
   3  5,7  | ENcy
   3 10,3  | ENd
@@ -19611,9 +19678,6 @@
   3  5,7  | ESseS
   3  5,7  | EStAb
   3  5,7  | EStuS
-  3 10,3  | EaN
-  3  6,6  - EaN
-  3  4,7  | EaN
   3  5,7  | EaSe
   3  4,7  | EaSeS
   3  5,7  | EaSt
@@ -19870,7 +19934,6 @@
   3  9,3  | LAss
   3  9,3  | LAst
   3  9,3  | LAt
-  3  9,3  | LAta
   3  9,3  | LAte
   3  9,3  | LAth
   3  9,3  | LAti
@@ -19890,7 +19953,6 @@
   3  9,3  | LAx
   3  9,3  | LAy
   3  9,3  | LAys
-  3  9,3  | LAz
   3  9,3  | LAze
   3  9,3  | LAzy
   3  9,3  | LSc
@@ -19908,7 +19970,6 @@
   3  9,3  | LarS
   3  9,3  | LasA
   3  9,3  | LasS
-  3  9,3  | LatA
   3  9,3  | LatS
   3  9,3  | LauS
   3  9,3  | LavA
@@ -20028,6 +20089,7 @@
   3  4,6  | NEws
   3  4,6  | NEwt
   3  4,6  | NExt
+  3  8,2  | NI
   3  8,2  | NIas
   3  8,2  | NIb
   3  8,2  | NIbs
@@ -20166,7 +20228,6 @@
   3  2,4  - SAolA
   3  2,4  - SArnA
   3  2,4  - SArrA
-  3  2,4  - SArsA
   3  2,4  - SAubA
   3  2,4  - SAunA
   3  2,4  - SAurA
@@ -20324,7 +20385,6 @@
   3  8,2  | SItkA
   3  8,2  | SIttA
   3  8,2  | SItuS
-  3  8,2  | SIuSi
   3  8,2  | SIumS
   3  8,2  | SIvAn
   3  8,2  | SIwAn
@@ -20381,12 +20441,10 @@
   3  8,1  | SaIlS
   3  8,1  | SaInS
   3  8,1  | SaIvA
-  3  3,4  - SaSA
   3  4,3  | SaSsE
   3  4,3  | SacAE
   3  2,4  - SalSA
   3  4,3  | SalSE
-  3  2,4  - SarSA
   3  4,3  | SasSE
   3  4,3  | ScAlE
   3  4,3  | ScApE
@@ -20534,7 +20592,6 @@
   3  8,1  | SwIgS
   3  8,1  | SwImS
   3  8,1  | SwIsS
-  3 11,2  | aDA
   3 11,2  | aDAd
   3 11,2  | aDAi
   3 11,2  | aDAm
@@ -20660,7 +20717,6 @@
   3  4,6  | bEhN
   3  4,6  | bEiN
   3  4,6  | bEiSA
-  3  5,6  - bEjA
   3  5,6  - bElA
   3  5,6  - bElS
   3  5,6  - bEmA
@@ -20703,6 +20759,7 @@
   3  4,6  - beE
   3  3,4  - beNA
   3  4,4  | beNE
+  3  8,4  - bi
   3 11,1  | biDS
   3  4,4  | biNE
   3  4,3  | blASE
@@ -20824,7 +20881,6 @@
   3 10,4  - da
   3 11,1  | daDA
   3 11,1  | daDS
-  3  4,6  - daE
   3  3,4  - daNA
   3  4,4  | daNE
   3  8,2  - de
@@ -20832,6 +20888,7 @@
   3 11,1  | deDA
   3  4,6  - deE
   3  4,4  | deNE
+  3  8,4  - di
   3 10,4  - di
   3  4,4  | diNE
   3  8,4  - do
@@ -20847,7 +20904,6 @@
   3  4,4  | duNE
   3  4,6  - dyE
   3  4,4  | dyNE
-  3 11,1  | eAD
   3 11,1  | eADi
   3  4,4  | eASE
   3  4,4  | eASEd
@@ -20950,13 +21006,13 @@
   3  4,6  - faE
   3  3,4  - faNA
   3  4,4  | faNE
-  3  8,2  - fc
   3  8,2  - fe
   3 10,4  - fe
   3  4,3  | feASE
   3 11,1  | feDS
   3  4,6  - feE
   3  4,3  | feSSE
+  3  8,4  - fi
   3 10,4  - fi
   3 11,1  | fiDS
   3  4,4  | fiNE
@@ -21071,8 +21127,14 @@
   3  4,4  | iNnE
   3 11,1  | iSDn
   3  4,4  | iSSEi
+  3  9,4  - id
+  3  9,4  - if
+  3  9,4  - in
   3  4,4  | inNE
+  3  9,4  - io
   3  4,4  | ioNE
+  3  9,4  - is
+  3  9,4  - it
   3 11,1  | iuDS
   3 11,1  | jAD
   3 11,1  | jADe
@@ -21160,6 +21222,7 @@
   3  8,2  | lIrAS
   3  8,2  | lItAS
   3 11,1  | lSD
+  3  8,2  - la
   3 10,4  - la
   3 11,1  | laDS
   3  3,4  - laNA
@@ -21169,10 +21232,12 @@
   3 11,1  | leDS
   3  3,4  - leNA
   3  4,4  | leNE
+  3 10,4  - li
   3 11,1  | liDA
   3 11,1  | liDS
   3  3,4  - liNA
   3  4,4  | liNE
+  3  8,2  - ll
   3  9,4  - ll
   3  9,4  - lo
   3 10,4  - lo
@@ -21262,7 +21327,6 @@
   3  8,2  - me
   3 10,4  - me
   3  4,3  | meASE
-  3  4,6  - meE
   3  4,4  | meNE
   3  4,3  | meSSE
   3 10,4  - mi
@@ -21276,7 +21340,6 @@
   3 10,4  - mu
   3 11,1  | muDS
   3  3,4  - myNA
-  3 11,1  | nAD
   3 11,1  | nADa
   3  8,1  | nAIaS
   3  8,1  | nAIfS
@@ -21313,15 +21376,19 @@
   3  5,6  - nEtS
   3  5,6  - nEwS
   3  8,2  | nIpAS
+  3  8,2  - na
   3  8,4  - na
   3 10,4  - na
   3 11,1  | naDA
   3  4,6  - naE
   3  3,4  - naNA
   3  4,4  | naNE
+  3  8,2  - ne
   3 10,4  - ne
   3  4,6  - neE
   3  4,4  | neNE
+  3  8,4  - ni
+  3 10,4  - ni
   3  3,4  - niNA
   3  4,4  | niNE
   3  4,3  | niSSE
@@ -21359,7 +21426,6 @@
   3  4,4  | oSSE
   3  4,4  | oSSEa
   3  4,4  | oSSEt
-  3  8,4  - ob
   3  4,6  - obE
   3  9,4  - od
   3 11,1  | odDS
@@ -21369,6 +21435,7 @@
   3 10,4  - oe
   3  9,4  - of
   3  9,4  - oh
+  3  8,4  - oi
   3 10,4  - oi
   3 11,1  | olDS
   3  9,4  - om
@@ -21560,7 +21627,6 @@
   3  8,1  | sAIlS
   3  8,1  | sAInS
   3  2,4  - sAlSA
-  3  2,4  - sArSA
   3 11,2  | sDS
   3  4,6  | sEaN
   3  4,6  | sEeN
@@ -21597,6 +21663,7 @@
   3  4,3  | saSSE
   3  4,3  | scASE
   3  3,4  - seNA
+  3  8,4  - si
   3 10,4  - si
   3 11,1  | siDA
   3  3,4  - siNA
@@ -21668,7 +21735,6 @@
   3  3,4  - taNA
   3  4,4  | taNE
   3  4,3  | taSSE
-  3  8,2  - tc
   3  8,2  - te
   3 10,4  - te
   3  4,3  | teASE
@@ -21676,6 +21742,7 @@
   3 11,1  | teDS
   3  4,6  - teE
   3  4,6  - thE
+  3  8,4  - ti
   3 10,4  - ti
   3  3,4  - tiNA
   3  4,4  | tiNE
@@ -21751,8 +21818,6 @@
   3  8,1  | wAItS
   3  4,4  | wASE
   3  4,4  | wASEl
-  3  5,6  - wEA
-  3  5,6  | wEA
   3  5,6  - wEAk
   3  5,6  | wEAk
   3  5,6  - wEAl
@@ -21763,8 +21828,6 @@
   3  5,6  | wEAn
   3  5,6  - wEAr
   3  5,6  | wEAr
-  3  5,6  - wES
-  3  5,6  | wES
   3  5,6  - wESe
   3  5,6  | wESe
   3  5,6  - wESt
@@ -22024,7 +22087,6 @@
   2  3,4  - AriA
   2  3,4  - ArnA
   2  3,4  - AryA
-  2  4,5  | AsE
   2  4,5  | AsEa
   2  4,5  | AsEm
   2  8,1  | AsIa
@@ -22072,7 +22134,6 @@
   2 11,3  | Da
   2 11,3  | Dab
   2 11,3  | Dad
-  2 11,3  | Dae
   2 11,3  | Dag
   2 11,3  | Dah
   2 11,3  | Dak
@@ -22174,17 +22235,11 @@
   2 11,3  | Dzo
   2  6,6  - EAch
   2  5,7  | EAch
-  2 10,3  | EAd
-  2  6,6  - EAd
-  2  5,7  | EAd
   2  6,6  - EAdi
   2  5,7  | EAdi
   2 10,3  | EAm
   2  6,6  - EAm
   2  5,7  | EAm
-  2 10,3  | EAn
-  2  6,6  - EAn
-  2  5,7  | EAn
   2 10,3  | EAr
   2  6,6  - EAr
   2  5,7  | EAr
@@ -22558,7 +22613,6 @@
   2  8,3  | IlkS
   2  8,3  | IllS
   2  8,3  | IlyA
-  2  8,3  | ImA
   2  8,3  | ImAm
   2  8,3  | ImAn
   2  8,3  | ImpS
@@ -22577,7 +22631,6 @@
   2  8,3  | IpS
   2  8,3  | IpSe
   2  8,3  | IpSo
-  2  8,3  | IqS
   2  8,3  | IrA
   2  8,3  | IrAn
   2  8,3  | IrAq
@@ -22626,12 +22679,10 @@
   2  9,3  | Law
   2  9,3  | Lax
   2  9,3  | Lay
-  2  9,3  | Laz
   2  9,3  | Lb
   2  9,3  | Lbf
   2  9,3  | Lbs
   2  9,3  | Lbw
-  2  9,3  | Lca
   2  9,3  | Lcd
   2  9,3  | Lcm
   2  9,3  | Ldg
@@ -22652,6 +22703,7 @@
   2  9,3  | Ley
   2  9,3  | Lhb
   2  9,3  | Lhd
+  2  9,3  | Li
   2  9,3  | Lib
   2  9,3  | Lid
   2  9,3  | Lie
@@ -22884,8 +22936,6 @@
   2  3,4  - SakA
   2  3,4  - SalA
   2  3,4  - SapA
-  2  3,4  - SarA
-  2  3,4  - SasA
   2  3,4  - SatA
   2  3,4  - SayA
   2  8,1  | ScI
@@ -23042,7 +23092,6 @@
   2  4,5  | SyEd
   2  4,4  - aAA
   2 11,2  | aD
-  2 11,2  | aDa
   2 11,2  | aDc
   2 11,2  | aDd
   2 11,2  | aDm
@@ -23083,8 +23132,6 @@
   2  9,2  | aLs
   2  9,2  | aLt
   2  9,2  | aLw
-  2  4,4  - aSA
-  2  4,5  | aSE
   2  4,5  | aSEa
   2  4,5  | aSEm
   2  8,1  | aSIa
@@ -23106,7 +23153,6 @@
   2  4,4  | apSE
   2 10,1  | arE
   2  4,4  | arSE
-  2 10,1  | asE
   2  4,4  | asSE
   2 10,1  | atE
   2 11,1  | auD
@@ -23155,7 +23201,6 @@
   2  5,6  - bEg
   2  5,6  | bEg
   2  4,6  | bEgS
-  2  4,6  | bEjA
   2 10,2  | bEl
   2  5,6  - bEl
   2  5,6  | bEl
@@ -23202,7 +23247,6 @@
   2 11,1  | beD
   2 10,1  | beE
   2  3,4  - beSA
-  2 11,1  | bhD
   2 11,1  | biD
   2  4,4  | biSE
   2  4,4  | blAE
@@ -23241,7 +23285,6 @@
   2  4,6  | cErA
   2  4,6  | cEsS
   2  8,2  | cImA
-  2  9,2  | cL
   2  9,2  | cLi
   2  9,2  | cLk
   2  9,2  | cLo
@@ -23266,9 +23309,7 @@
   2 10,1  | ctE
   2 11,1  | cuD
   2 10,1  | cuE
-  2  4,5  | dAE
   2  4,5  | dAEr
-  2  8,1  | dAIl
   2  8,1  | dAIn
   2  8,1  | dAIs
   2  4,4  | dAcE
@@ -23361,9 +23402,9 @@
   2  8,2  | dItA
   2  8,2  | dItS
   2  8,2  | dIvA
+  2  8,2  | dIvS
   2  9,2  | dLr
   2 11,1  | daD
-  2 10,1  | daE
   2  4,4  | daSE
   2  4,8  - de
   2 10,1  | deE
@@ -23414,7 +23455,6 @@
   2  4,5  | eSEs
   2  4,4  | eSnE
   2  4,4  | eSsE
-  2 11,1  | eaD
   2  4,4  | eaSE
   2  4,8  - ed
   2  4,8  - ee
@@ -23946,9 +23986,6 @@
   2 10,2  | mEd
   2  5,6  - mEd
   2  5,6  | mEd
-  2 10,2  | mEe
-  2  5,6  - mEe
-  2  5,6  | mEe
   2 10,2  | mEg
   2  5,6  - mEg
   2  5,6  | mEg
@@ -24014,10 +24051,8 @@
   2  4,4  | mdSE
   2  4,8  - me
   2 11,1  | meD
-  2 10,1  | meE
   2  3,4  - meSA
   2  4,4  | meSE
-  2  4,8  - mh
   2  4,4  | miAE
   2 11,1  | miD
   2  4,4  | miSE
@@ -24103,7 +24138,6 @@
   2  8,2  | nIpS
   2  8,2  | nItS
   2  4,5  | nSEc
-  2 11,1  | naD
   2 10,1  | naE
   2  3,4  - naSA
   2  4,8  - ne
@@ -24394,7 +24428,6 @@
   2  4,8  - re
   2 11,1  | reD
   2 10,1  | reE
-  2  4,8  - rf
   2 11,1  | rhD
   2 10,1  | rhE
   2 11,1  | riD
@@ -24489,7 +24522,6 @@
   2  8,1  | sSI
   2 11,1  | saD
   2 10,1  | saE
-  2  3,4  - saSA
   2 11,1  | seD
   2 10,1  | seE
   2  4,8  - sh
@@ -24675,6 +24707,7 @@
   2  4,4  | vaSE
   2 10,1  | veE
   2  4,4  | veSE
+  2 11,1  | viD
   2 10,1  | viE
   2  3,4  - viSA
   2  4,4  | viSE
@@ -24704,9 +24737,6 @@
   2 10,2  | wE
   2  5,6  - wE
   2  5,6  | wE
-  2 10,2  | wEa
-  2  5,6  - wEa
-  2  5,6  | wEa
   2 10,2  | wEb
   2  5,6  - wEb
   2  5,6  | wEb
@@ -24731,12 +24761,6 @@
   2  5,6  - wEn
   2  5,6  | wEn
   2  4,6  | wEnS
-  2 10,2  | wEr
-  2  5,6  - wEr
-  2  5,6  | wEr
-  2 10,2  | wEs
-  2  5,6  - wEs
-  2  5,6  | wEs
   2 10,2  | wEt
   2  5,6  - wEt
   2  5,6  | wEt
@@ -24762,7 +24786,6 @@
   2 11,1  | wiD
   2  4,4  | wiSE
   2  4,8  - wo
-  2 11,1  | woD
   2 10,1  | woE
   2  4,8  - wt
   2 11,1  | wuD
@@ -24831,7 +24854,6 @@
   2  4,6  | zEeS
   2 10,2  | zEk
   2  4,6  | zEkS
-  2 10,2  | zEl
   2 10,2  | zEn
   2 10,2  | zEr
   2  4,6  | zEtA
@@ -24846,18 +24868,10 @@
   2 11,1  | zeD
   2 10,1  | zeE
   2 11,1  | zoD
-  1 10,3  | Ead
-  1  6,6  - Ead
-  1  4,7  | Ead
-  1  5,7  | Ead
   1 10,3  | Eam
   1  6,6  - Eam
   1  4,7  | Eam
   1  5,7  | Eam
-  1 10,3  | Ean
-  1  6,6  - Ean
-  1  4,7  | Ean
-  1  5,7  | Ean
   1 10,3  | Ear
   1  6,6  - Ear
   1  4,7  | Ear
@@ -25034,10 +25048,6 @@
   1  6,6  - En
   1  4,7  | En
   1  5,7  | En
-  1 10,3  | Enc
-  1  6,6  - Enc
-  1  4,7  | Enc
-  1  5,7  | Enc
   1 10,3  | End
   1  6,6  - End
   1  4,7  | End
@@ -25235,7 +25245,6 @@
   1  8,3  | Ile
   1  8,3  | Ilk
   1  8,3  | Ill
-  1  8,3  | Ima
   1  8,3  | Imi
   1  8,3  | Imp
   1  8,3  | Imu
@@ -25245,7 +25254,6 @@
   1  8,3  | Inf
   1  8,3  | Ink
   1  8,3  | Inn
-  1  8,3  | Ino
   1  8,3  | Ins
   1  8,3  | Int
   1  8,3  | Inv
@@ -25257,7 +25265,6 @@
   1  8,3  | Ipm
   1  8,3  | Ipr
   1  8,3  | Ips
-  1  8,3  | Iqs
   1  8,3  | Ira
   1  8,3  | Ire
   1  8,3  | Irk
@@ -25297,7 +25304,6 @@
   1  4,4  - aaA
   1  4,4  - abA
   1  4,5  | acE
-  1  4,4  - adA
   1  4,4  - agA
   1  4,5  | agE
   1  4,4  - ahA
@@ -25313,10 +25319,7 @@
   1  8,1  | anI
   1  4,4  - apA
   1  4,5  | apE
-  1  4,4  - arA
   1  4,5  | arE
-  1  4,4  - asA
-  1  4,5  | asE
   1  4,5  | atE
   1  8,1  | atI
   1  4,4  - avA
@@ -25362,7 +25365,6 @@
   1  8,2  | cIa
   1  8,2  | cId
   1  8,2  | cIe
-  1  8,2  | cIf
   1  8,2  | cIg
   1  8,2  | cIr
   1  8,2  | cIs
@@ -25414,7 +25416,6 @@
   1  8,2  | dIs
   1  8,2  | dIt
   1  8,2  | dIv
-  1  4,5  | daE
   1  4,4  - dcA
   1  4,4  - deA
   1  4,5  | deE
@@ -25562,7 +25563,6 @@
   1  4,5  | ikE
   1  4,4  - ilA
   1  4,5  | ilE
-  1  4,4  - imA
   1  8,1  | imI
   1  4,4  - irA
   1  4,5  | irE
@@ -25616,7 +25616,6 @@
   1  8,1  | koI
   1  4,4  - krA
   1  8,1  | ksI
-  1  4,4  - kuA
   1  4,5  | kuE
   1  8,1  | kuI
   1  4,5  | kyE
@@ -25636,6 +25635,7 @@
   1  4,6  | lEv
   1  4,6  | lEx
   1  4,6  | lEy
+  1  8,2  | lI
   1  8,2  | lIb
   1  8,2  | lId
   1  8,2  | lIe
@@ -25651,7 +25651,6 @@
   1  8,2  | lIv
   1  8,2  | lIz
   1  8,1  | laI
-  1  4,4  - lcA
   1  4,4  - leA
   1  4,5  | leE
   1  8,1  | leI
@@ -25665,7 +25664,6 @@
   1  4,6  | mE
   1  4,6  | mEa
   1  4,6  | mEd
-  1  4,6  | mEe
   1  4,6  | mEg
   1  4,6  | mEh
   1  4,6  | mEl
@@ -25691,7 +25689,6 @@
   1  8,2  | mIx
   1  4,5  | maE
   1  4,4  - meA
-  1  4,5  | meE
   1  4,4  - miA
   1  4,4  - mnA
   1  4,4  - moA
@@ -25711,6 +25708,7 @@
   1  4,6  | nEp
   1  4,6  | nEt
   1  4,6  | nEw
+  1  8,2  | nI
   1  8,2  | nIb
   1  8,2  | nId
   1  8,2  | nIg
@@ -25981,6 +25979,7 @@
   1  4,6  | vEx
   1  8,2  | vIa
   1  8,2  | vIc
+  1  8,2  | vId
   1  8,2  | vIe
   1  8,2  | vIi
   1  8,2  | vIl
@@ -25997,15 +25996,12 @@
   1  8,1  | viI
   1  4,5  | voE
   1  4,6  | wE
-  1  4,6  | wEa
   1  4,6  | wEb
   1  4,6  | wEd
   1  4,6  | wEe
   1  4,6  | wEi
   1  4,6  | wEm
   1  4,6  | wEn
-  1  4,6  | wEr
-  1  4,6  | wEs
   1  4,6  | wEt
   1  4,6  | wEy
   1  8,2  | wId
@@ -26017,11 +26013,9 @@
   1  8,2  | wIt
   1  8,2  | wIz
   1  4,5  | waE
-  1  4,4  - weA
   1  4,5  | weE
   1  8,1  | weI
   1  4,4  - whA
-  1  4,4  - woA
   1  4,5  | woE
   1  4,5  | wyE
   1  4,6  | xEd
@@ -26054,7 +26048,6 @@
   1  4,6  | zEd
   1  4,6  | zEe
   1  4,6  | zEk
-  1  4,6  | zEl
   1  4,6  | zEn
   1  4,6  | zEr
   1  8,2  | zIg

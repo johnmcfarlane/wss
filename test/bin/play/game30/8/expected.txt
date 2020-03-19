@@ -78,6 +78,7 @@
  18  1,15 - NATU
  18  2,7  | NAUR
  18  4,14 | NE
+ 18  4,14 | NI
  18  1,15 - NITER
  18  1,15 - NITRE
  18  1,15 - RETAN
@@ -132,7 +133,6 @@
  15  8,5  - LAINER
  15  1,15 - NATE
  15  1,15 - NATR
- 15  7,1  | NAUR
  15  1,15 - NETI
  15  7,1  | NIUE
  15  9,1  | NIUE
@@ -178,13 +178,10 @@
  14  3,14 - INURE
  14  8,5  - LAUN
  14  8,5  - LAURE
- 14  7,1  | NAIR
  14  2,8  | NAR
  14  7,1  | NARE
  14  9,1  | NARE
- 14  7,1  | NARR
  14  2,8  | NEA
- 14  7,1  | NEAR
  14  7,1  | NERI
  14  9,1  | NERI
  14  1,14 - RAINER
@@ -213,6 +210,8 @@
  13  5,13 - ERIAN
  13  8,4  - FRAUEN
  13  8,4  - FURNER
+ 13  2,12 | HAN
+ 13  2,12 | HEN
  13  3,4  | INURE
  13 10,7  - INURE
  13  6,3  | IRAQ
@@ -247,7 +246,6 @@
  12 10,2  | AIRNS
  12  7,1  | ANRE
  12  9,1  | ANRE
- 12 10,2  | ARIUS
  12  7,1  | ARNE
  12  9,1  | ARNE
  12  7,1  | ARNI
@@ -312,7 +310,6 @@
  12  1,15 - RITA
  12  1,15 - RITE
  12  3,5  | RUEN
- 12  7,1  | RUER
  12 10,2  | RUERS
  12  3,5  | RUNE
  12  1,8  | RUNITE
@@ -392,7 +389,6 @@
  11 10,8  | DURANI
  11 10,8  | DURIAN
  11 10,8  | DURRIN
- 11  5,13 - EAN
  11  1,13 - EAR
  11  3,5  | EARN
  11  5,13 - EAU
@@ -421,10 +417,8 @@
  11  3,5  | RANI
  11  7,1  | RARE
  11  9,1  | RARE
- 11  7,1  | REAR
  11  3,3  | RERUN
  11 10,4  | RESIDUA
- 11  7,1  | RIER
  11  3,5  | RINE
  11  3,4  | RUEN
  11  3,4  | RUIN
@@ -528,6 +522,7 @@
  10  1,9  | NEUT
  10  1,7  - NIUE
  10  9,3  | NU
+ 10  2,14 | NU
  10  3,4  | RAUN
  10 10,2  | REARS
  10  3,3  | RERAN
@@ -614,8 +609,6 @@
   9 10,8  | DUAN
   9 10,8  | DURN
   9 10,8  | DURRA
-  9  3,6  | EAN
-  9 10,7  - EAN
   9  3,4  | EARN
   9 10,5  - EARN
   9 10,9  - EARN
@@ -646,7 +639,6 @@
   9  2,15 - ITA
   9  7,2  | NAE
   9  9,2  | NAE
-  9  7,2  | NAR
   9  1,7  - NARE
   9  3,4  | NAUR
   9  9,2  | NEA
@@ -701,14 +693,12 @@
   9  5,12 | WINE
   9  5,12 | WRAN
   9  5,12 | WREN
-  8  7,2  | AER
   8 10,7  - AER
   8  7,4  - AFIRE
   8  3,5  | AIN
   8 10,9  - AIN
   8  3,4  | AINE
   8 10,5  - AINE
-  8  7,2  | AIR
   8 10,7  - AIR
   8 10,9  - AIRE
   8  3,3  | AIRER
@@ -727,7 +717,6 @@
   8  3,4  | ARNE
   8 10,5  - ARNE
   8 10,5  - ARNI
-  8  7,2  | ARR
   8 10,7  - ARR
   8 10,9  - ARRI
   8  3,3  | ARRIE
@@ -752,14 +741,10 @@
   8 10,8  | DURA
   8 10,8  | DURE
   8 10,8  | DURR
-  8  3,5  | EAN
-  8 10,9  - EAN
-  8  7,2  | EAR
   8 10,7  - EAR
   8 10,9  - EAU
   8  2,11 - EEN
   8  2,11 | EH
-  8  7,2  | EIR
   8 10,7  - EIR
   8  3,7  | EN
   8 10,9  - EN
@@ -770,7 +755,6 @@
   8 10,9  - ERIA
   8  3,5  | ERN
   8 10,9  - ERN
-  8  7,2  | ERR
   8 10,7  - ERR
   8  8,4  - FAIN
   8  8,4  - FANE
@@ -796,6 +780,7 @@
   8 10,7  - IRE
   8  1,8  | IRRATE
   8  9,3  | NA
+  8  2,14 | NA
   8  3,5  | NAE
   8  3,6  | NAE
   8  5,4  - NAIF
@@ -807,11 +792,16 @@
   8  7,3  | NE
   8  9,3  | NE
   8  3,7  | NE
+  8  2,14 | NE
   8  3,5  | NEA
   8  5,4  - NEAF
   8  3,4  | NEAR
   8  3,6  | NEI
   8  5,4  - NEIF
+  8  7,3  | NI
+  8  9,3  | NI
+  8  3,7  | NI
+  8  2,14 | NI
   8  6,4  - NIFE
   8  1,10 | NUTRIA
   8  3,5  | RAN
@@ -873,7 +863,6 @@
   7  1,9  | ANET
   7  1,7  - ANRE
   7  1,10 | ANTERI
-  7  7,3  | AR
   7 10,7  - AR
   7  3,6  | ARE
   7 10,9  - ARE
@@ -901,7 +890,6 @@
   7 10,9  - EAR
   7 10,9  - EIR
   7  1,10 | ENTRIA
-  7  7,3  | ER
   7 10,7  - ER
   7 10,9  - ERA
   7  3,4  | ERIA
@@ -968,9 +956,7 @@
   7 10,4  | URSID
   7  5,12 | WAE
   7  5,12 | WAR
-  7  5,12 | WEA
   7  5,12 | WEI
-  7  5,12 | WER
   7  5,12 | WIR
   6  3,7  | AE
   6 10,9  - AE
@@ -1002,7 +988,6 @@
   6  2,10 - ATI
   6  1,11 | ATREN
   6  1,10 | AUTRE
-  6 10,8  | DAE
   6 10,8  | DAR
   6 10,8  | DEA
   6 10,8  | DEI
@@ -1010,7 +995,6 @@
   6 10,8  | DIA
   6 10,8  | DIE
   6 10,8  | DIR
-  6 10,5  - EAN
   6  3,5  | EAR
   6 10,5  - EAU
   6  3,7  - EEN
@@ -1148,7 +1132,6 @@
   5  1,8  - RENO
   5  1,10 | RETAR
   5  1,10 | RETIA
-  5  7,4  - RF
   5  2,7  - RIER
   5  2,14 - RINE
   5 10,3  | RINS
@@ -1210,7 +1193,6 @@
   4 10,3  | ERIS
   4 10,3  | ERRS
   4  3,14 - IAN
-  4  2,8  - INO
   4 10,4  | INS
   4  1,10 | INT
   4  1,15 - INT
@@ -1306,6 +1288,7 @@
   3 10,4  | IRS
   3  1,11 | ITA
   3  3,7  - NE
+  3  2,14 - NI
   3  3,8  - NO
   3 10,4  | RAS
   3  1,10 | RAT

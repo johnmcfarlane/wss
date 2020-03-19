@@ -25,17 +25,19 @@
  39  9,1  | NAIVER
  39  9,1  | VAINER
  39  6,11 - XENIA
+ 37  9,8  | NINA
  36  7,9  - NANDI
  36  9,11 - VAN
  34 11,9  | ANE
  34 11,9  | ANI
+ 34  9,9  | ANN
+ 34  9,9  | INN
  33  1,9  - NAEVI
  33  1,9  - NIEVE
  33  1,9  - VEENA
  30  8,11 - ANAN
  30  6,11 - AVENA
  30  1,9  - AXE
- 30  9,9  | EAN
  30  9,9  | IAN
  30  9,1  | INANER
  30 11,8  | NAN
@@ -58,7 +60,6 @@
  26 11,8  | AIN
  26 11,7  | ANE
  26 11,7  | ANI
- 26 11,8  | EAN
  26  3,10 - EXINE
  26  1,5  - EXONIAN
  26 11,8  | IAN
@@ -70,7 +71,6 @@
  25  2,8  | INNE
  24  8,9  - ANDE
  24  8,9  - ANDI
- 24  9,11 - EAN
  24  3,10 - ENVINE
  24  2,2  | EVAN
  24  1,9  - EVEA
@@ -86,6 +86,7 @@
  23  9,9  | EX
  22  2,4  - ALVINE
  22  6,7  - AXE
+ 22  9,6  | RENIN
  22  7,3  | VIXEN
  21  2,4  - ALVIN
  21 11,9  | AN
@@ -106,6 +107,7 @@
  21  9,4  | NARINE
  21  2,1  | NAVE
  21 11,8  | NE
+ 21 11,8  | NI
  21  8,9  - NIDE
  21  2,5  - NOX
  21  2,1  | VANE
@@ -116,12 +118,14 @@
  21  1,9  - VIE
  21  2,1  | VINA
  21  2,1  | VINE
+ 21  4,2  | XVI
  20  9,10 | AN
  20  9,3  | AVERIN
  20  8,3  | AVIAN
  20  7,8  - AVIAN
  20 11,7  | AX
  20  1,10 - AXE
+ 20  3,10 - ENVIE
  20  7,7  - EX
  20 11,7  | EX
  20  4,9  | EX
@@ -155,7 +159,6 @@
  18  6,7  - ANNET
  18  8,6  | ANNEX
  18  8,9  - EADI
- 18  2,8  | EAN
  18  2,5  - EONIAN
  18  3,10 - EVAN
  18  1,10 - EVEN
@@ -163,6 +166,7 @@
  18  9,4  | EXR
  18  2,8  | IAN
  18  6,7  - INNET
+ 18  9,10 | NA
  18  9,11 - NAA
  18  9,11 - NAE
  18  7,11 - NANA
@@ -206,12 +210,17 @@
  17  1,11 - VIS
  17  8,2  | XENIA
  17  6,8  - XENIA
+ 16  4,3  | AINU
  16  7,3  | ANNEXE
  16  1,5  - AXON
  16  3,10 - EAVE
+ 16  3,9  - ENVIE
  16  1,10 - EVEA
  16  3,10 - EVEA
  16  1,5  - EXON
+ 16  9,8  | NAN
+ 16  4,1  | NAVI
+ 16  4,1  | NEVI
  16  6,9  - NIXED
  16  8,2  | VANNAI
  16  8,5  | VANNAI
@@ -219,6 +228,7 @@
  16  4,1  | VENA
  16  4,1  | VINA
  16  7,3  | VINEAE
+ 16  4,3  | XI
  15  2,1  | ANNE
  15  7,3  | ANNEX
  15  8,6  | ANNIV
@@ -243,6 +253,7 @@
  15  5,3  | VINTA
  15  7,10 - XVII
  15  8,10 - XVII
+ 14  9,8  | AIN
  14  9,3  | AIVR
  14  2,4  - ALEVIN
  14  2,4  - ALEX
@@ -264,9 +275,11 @@
  14  2,10 | NE
  14  9,8  | NEA
  14  5,3  | NEXT
+ 14  2,10 | NI
  14  7,3  | NIXE
  14  5,6  | TAXIN
  14  5,6  | TEXAN
+ 14  4,2  | VAI
  14  9,3  | VAIR
  14  1,4  - VALINE
  14  2,3  | VAN
@@ -274,6 +287,7 @@
  14  5,1  | VANNET
  14  1,10 - VEE
  14  2,10 - VEE
+ 14  4,2  | VEI
  14  2,10 - VEI
  14  7,1  | VENINE
  14  7,5  | VENINE
@@ -297,6 +311,7 @@
  13  5,7  - AINE
  13  2,4  - ALNEIN
  13  7,5  - ANE
+ 13  4,1  | ANNI
  13  9,5  | AREN
  13  5,3  | AXITE
  13  3,9  - EAVE
@@ -343,6 +358,7 @@
  12  8,6  | AVINE
  12  8,6  | AVN
  12  8,6  | AXE
+ 12  7,2  | ENVIE
  12  5,3  | EXIT
  12  4,8  | IN
  12  6,7  - INN
@@ -358,6 +374,7 @@
  12  2,10 - NENE
  12  8,7  - NETI
  12  2,9  - NEVEN
+ 12 11,10 | NI
  12  2,5  - NONA
  12  2,5  - NONE
  12  3,8  - SAVIN
@@ -377,19 +394,24 @@
  12  8,9  - XED
  12  6,6  | hENNA
  11  9,2  | AIVER
+ 11  9,9  | AN
  11  2,2  | ANE
+ 11  4,2  | ANI
  11  8,6  | ANNIE
  11  7,10 - ANNIV
  11  9,4  | ANRE
  11  7,9  - AVID
+ 11  9,9  | EN
  11  8,2  | ENNIA
  11  6,8  - ENNIA
+ 11  7,6  | ENVIE
  11  9,5  | ERIA
  11  8,4  | EVAN
  11  7,6  | EVAN
  11  8,8  - EVAN
  11  7,6  | EVEN
  11  5,4  | EXTA
+ 11  9,9  | IN
  11  8,4  | INANE
  11  6,9  - INNED
  11  2,5  - IONE
@@ -411,10 +433,12 @@
  11  9,8  | NE
  11  2,2  | NEA
  11  4,2  | NEA
+ 11  4,2  | NEI
  11  4,9  | NEI
  11  8,7  - NET
  11  5,2  | NEVAT
  11  7,3  | NEVE
+ 11  9,8  | NI
  11  7,2  | NIEVE
  11  1,11 - NISAN
  11  9,10 - NIX
@@ -461,10 +485,6 @@
  10  9,3  | AVER
  10  8,6  | AVIE
  10  7,4  | AXE
- 10  2,3  | EAN
- 10  5,5  - EAN
- 10  6,5  - EAN
- 10  5,7  - EAN
  10  3,9  - ENNIA
  10  3,9  - EVAN
  10  3,9  - EVEN
@@ -493,6 +513,7 @@
  10  9,4  | NERI
  10  2,9  - NEVE
  10  2,9  - NEVI
+ 10  4,3  | NI
  10  7,4  | NIEVE
  10  3,5  - ONA
  10  3,5  - ONE
@@ -519,6 +540,7 @@
   9  9,8  | AE
   9  1,5  - AEON
   9  8,7  - AET
+  9  4,3  | AI
   9  9,8  | AI
   9  8,6  | AINE
   9  1,5  - AION
@@ -591,6 +613,7 @@
   9  7,5  | VEIN
   9  8,10 - VEIN
   9  7,5  | VENA
+  9  8,9  - VID
   9  5,4  | VITAE
   9  9,10 - XI
   9  6,6  | hEX
@@ -664,6 +687,8 @@
   8  2,9  - NEIN
   8  1,7  - NEK
   8  7,3  | NENE
+  8  7,7  - NI
+  8  4,10 | NI
   8  1,4  - NILE
   8  8,3  | NINA
   8  7,8  - NINA
@@ -779,7 +804,6 @@
   6  8,6  | ANI
   6  7,10 - ANNI
   6  1,11 - ANS
-  6  3,9  - EAN
   6  3,9  - EEN
   6  2,4  - ELA
   6  2,4  - ELI
@@ -794,7 +818,6 @@
   6  3,4  - LEI
   6  3,4  - LIE
   6  2,3  | NA
-  6  8,9  - NAD
   6  8,10 - NAIN
   6  2,3  | NE
   6  2,10 - NE
@@ -824,15 +847,14 @@
   5  1,11 - AIS
   5  5,4  | ANTE
   5  5,4  | ANTI
-  5  2,8  - ASE
   5  5,5  | ATEN
-  5  8,9  - EAD
   5  5,5  | ETNA
   5  8,10 - INIA
   5  5,4  | INTA
   5  2,8  - ISE
   5  5,5  | ITEN
   5  3,4  - LA
+  5  3,4  - LI
   5  8,5  | NAN
   5  9,8  - NAN
   5  9,4  | NAR
@@ -865,10 +887,6 @@
   4  8,10 - ANI
   4  1,8  - ANS
   4  5,4  | ANT
-  4  8,5  | EAN
-  4  7,6  | EAN
-  4  9,8  - EAN
-  4  3,10 - EAN
   4  9,4  | EAR
   4  9,9  - ED
   4  2,10 - EE
@@ -881,7 +899,6 @@
   4  8,5  | IAN
   4  9,8  - IAN
   4  9,9  - ID
-  4  1,5  - INO
   4  1,8  - INS
   4  5,4  | INT
   4  2,11 - ISN
@@ -923,7 +940,6 @@
   3  8,6  | AN
   3 10,8  - AN
   3  9,5  | AR
-  3  2,11 - ASE
   3  5,5  | ATE
   3  5,5  | ATI
   3  5,4  | EAT
@@ -941,6 +957,7 @@
   3  9,8  - NA
   3  7,5  | NE
   3  2,9  - NE
+  3  9,10 - NI
   3  2,5  - NO
   3  3,11 - SAE
   3  3,11 - SAI

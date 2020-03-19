@@ -17,7 +17,6 @@
  26  9,1  | ERIA
  26  9,1  | SERA
  25  5,4  - CRAZIES
- 25  4,9  - IQS
  25  1,7  - WASE
  25  1,7  - WISE
  24  5,4  - CRAZES
@@ -38,7 +37,6 @@
  20  3,9  - CASER
  20  7,8  | CEES
  20  3,9  - CERIA
- 20  5,4  - CQ
  20  3,9  - CRAIE
  20  7,8  | CREE
  20  7,8  | CRES
@@ -156,12 +154,14 @@
  14  1,4  - QI
  14  3,9  - RAISE
  14  6,4  - RAZES
+ 14  2,9  | RIO
  14  2,9  | SAO
  14  6,4  - SIZAR
  14  6,4  - SIZER
  13  4,9  - ACE
  13  5,2  | ACROSE
  13  5,2  | ACROSS
+ 13 10,7  | AIRa
  13  1,4  - CAR
  13  1,4  - CIR
  13  1,4  - CIS
@@ -173,7 +173,6 @@
  13  7,4  - IZAR
  13 10,7  | RASa
  13  6,4  - RAZE
- 13 10,7  | SARa
  13  4,9  - SCI
  13  3,2  | SCROD
  13 10,7  | SERa
@@ -204,8 +203,6 @@
  12  2,1  | SIRED
  12  1,7  - WAE
  12  1,7  - WAS
- 12  1,7  - WEA
- 12  1,7  - WES
  12  1,7  - WIS
  12  8,4  - ZER
  11  3,8  | ACER
@@ -214,7 +211,6 @@
  11  5,9  - AIR
  11  7,5  | AIRE
  11  7,5  | AIRS
- 11  5,9  - ASE
  11  8,9  | AX
  11  5,2  | CAROSSE
  11  8,9  - EE
@@ -240,6 +236,7 @@
  10 10,7  | AE
  10  1,4  - AER
  10  1,4  - AES
+ 10 10,7  | AI
  10  1,4  - AIR
  10  7,5  | AIR
  10  1,4  - AIS
@@ -269,9 +266,11 @@
  10  1,9  - ESC
  10  1,8  - HAIRSE
  10  7,8  | ICE
+ 10  2,10 | IO
  10  2,2  | IRED
  10  5,2  | ISCOSE
  10  2,2  | ISED
+ 10  1,10 - LI
  10  2,2  | RAID
  10  1,4  - RAS
  10 10,7  | RE
@@ -280,10 +279,10 @@
  10  1,4  - RES
  10  5,4  | ROSACE
  10  2,2  | SAID
- 10  1,4  - SAR
  10  2,2  | SARD
  10  2,2  | SEID
  10  1,4  - SER
+ 10 10,7  | SI
  10  1,4  - SIR
  10  3,4  | SODIC
   9  3,9  - AIRE
@@ -361,9 +360,6 @@
   7  4,9  - ARE
   7  5,2  | ARIOSE
   7  4,9  - ARS
-  7 10,8  | ARa
-  7  4,9  - ASE
-  7 10,8  | ASa
   7  2,3  | CAD
   7  7,8  | CEE
   7  2,3  | CID
@@ -381,6 +377,7 @@
   7  4,8  | ESAU
   7  4,9  - IRE
   7  4,9  - IRS
+  7 10,8  | IRa
   7  7,6  | IS
   7  4,9  - ISE
   7  4,9  - RAS
@@ -416,7 +413,6 @@
   6  3,4  | RODS
   6  9,11 - SAE
   6  9,11 - SAI
-  6  9,11 - SAR
   6  5,2  | SAROS
   6  9,11 - SEA
   6  9,11 - SEI
@@ -492,9 +488,7 @@
   4  7,8  | ARE
   4  3,9  | ARR
   4  4,9  | ARU
-  4  7,8  | ASE
   4  6,8  | ASTA
-  4  2,3  | EAD
   4  1,9  - EAR
   4  3,9  | EAR
   4  4,9  | EAU
@@ -537,7 +531,6 @@
   4  5,4  | ROSS
   4  2,3  | SAD
   4  7,8  | SAE
-  4  3,9  | SAR
   4  6,8  | SATA
   4  4,9  | SAU
   4  2,3  | SED
@@ -558,6 +551,7 @@
   3  6,9  | ITA
   3  9,8  - NA
   3  9,8  - NE
+  3  9,8  - NI
   3  5,5  | OSE
   3  7,9  | RE
   3  5,4  | ROS
@@ -572,7 +566,6 @@
   2  1,9  - ES
   2  6,6  | sAE
   2  6,6  | sAI
-  2  6,6  | sAR
   2  6,6  | sEA
   2  6,6  | sEI
   2  6,6  | sER

@@ -31,6 +31,7 @@
  36  2,2  | DATSuN
  36  2,2  | NARDS
  36  2,2  | NARDuS
+ 35  2,2  - DENTUReS
  35  2,2  | RADoNS
  35  2,2  | RANDS
  35  2,2  | RANTeD
@@ -44,6 +45,7 @@
  33  2,2  | DANTe
  33  2,2  | DANeS
  33  2,2  | DANgS
+ 33  2,2  - DENTURe
  33  2,2  | NADiR
  32  2,2  | DARNs
  32  2,2  | DARST
@@ -70,6 +72,7 @@
  30  2,2  | RATaNS
  30  2,2  | TARNS
  29  2,2  | RAnDN
+ 29  2,2  - TENSURe
  29  4,1  | aDIN
  29  2,2  | bANDS
  29  4,1  | eNID
@@ -148,6 +151,7 @@
  24  5,2  - NUDiST
  24  3,5  - SCREeT
  24  3,5  - STRECk
+ 24  2,2  - TENoUR
  24  4,1  | aDITS
  24  2,2  | bARDS
  24  2,2  | bARNS
@@ -235,6 +239,7 @@
  22  4,2  | TINCtS
  22  6,2  - UNTRoD
  22  4,1  | aRIST
+ 22  2,2  - lENDU
  21  2,3  | ADCoN
  21  2,3  | ADuNC
  21  2,3  | ANTiCS
@@ -360,11 +365,16 @@
  20  3,5  - SuDE
  20  3,5  - SuNE
  20  3,5  - SyNE
+ 20  2,2  - TENgU
+ 20  2,2  - TENnU
+ 20  2,2  - TEnNU
  20  4,2  | TINDeR
  20  2,5  - TSeRE
+ 20  1,2  - aDEN
  20  2,5  - aSTRE
  20  2,2  | dARST
  20  2,2  | dARTS
+ 20  1,2  - eDEN
  20  1,4  - eDEN
  20  1,2  - eNED
  20  1,4  - eNED
@@ -389,6 +399,7 @@
  19  2,2  | DANg
  19  2,2  | DANi
  19  2,2  | DANk
+ 19  2,2  - DEN
  19  2,4  - DEN
  19  4,2  | DIN
  19  4,2  | DINe
@@ -405,6 +416,8 @@
  19  1,5  - DkS
  19  1,5  - DoS
  19  1,5  - DyS
+ 19  3,2  - ENDUReS
+ 19  3,2  - ENDURoS
  19  4,3  | INCR
  19  4,3  | INCRa
  19  4,3  | INCaS
@@ -419,7 +432,6 @@
  19  4,3  | INTeRS
  19  4,3  | INaCT
  19  4,3  | INeRTS
- 19  2,2  | NAD
  19  2,2  | NADa
  19  2,2  - NED
  19  2,4  - NED
@@ -504,6 +516,10 @@
  18  7,5  | DuNST
  18  7,5  | DuNTS
  18  7,5  | DuRNS
+ 18  3,2  - ENDURa
+ 18  3,2  - ENDURe
+ 18  3,2  - ENDURo
+ 18  3,2  - ENSUReD
  18  4,3  | IDiC
  18  4,3  | INC
  18  4,3  | INCa
@@ -564,7 +580,6 @@
  18  2,5  - eST
  18  1,4  - eTEN
  18  4,2  | fINDS
- 18  1,4  - fREN
  18  1,5  - fRS
  18  1,5  - gRS
  18  4,2  | hINDS
@@ -754,6 +769,7 @@
  16  7,5  | DuNT
  16  7,5  | DuRN
  16  3,4  - EDhS
+ 16  3,2  - ENSURe
  16  3,4  - ENdS
  16  3,4  - ENoS
  16  4,3  | IDeST
@@ -817,8 +833,10 @@
  16  6,2  - UReNT
  16  4,1  | aNI
  16  1,2  - aTED
+ 16  1,2  - aTEN
  16  4,2  | dINS
  16  4,2  | dINT
+ 16  1,2  - eTEN
  16  4,2  | fIDS
  16  4,2  | fINS
  16  4,2  | hINS
@@ -936,7 +954,6 @@
  15  4,2  | NITiD
  15  5,2  - NUDeR
  15  5,2  - NUDeS
- 15  5,5  | NaD
  15  5,5  | NaST
  15  5,5  | NaTR
  15  5,5  | NeD
@@ -984,6 +1001,7 @@
  15  2,2  | TANs
  15  8,2  - TChR
  15  2,2  - TED
+ 15  2,2  - TEN
  15  4,2  | TISiC
  15  8,2  - TRaC
  15  1,5  - TRs
@@ -1102,6 +1120,7 @@
  14  7,5  | DuR
  14  3,4  - ED
  14  3,4  - EN
+ 14  3,2  - ENDUe
  14  3,2  - ESTURe
  14  4,3  | ID
  14  4,3  | IDe
@@ -1112,7 +1131,6 @@
  14  4,3  | INf
  14  4,3  | INk
  14  4,3  | INn
- 14  4,3  | INo
  14  4,3  | INs
  14  4,3  | INt
  14  4,3  | INv
@@ -1180,8 +1198,6 @@
  14  5,6  | aNDS
  14  8,2  - aRCS
  14  4,1  | aTI
- 14  8,2  - eNC
- 14  5,6  | eNC
  14  5,6  | eNDS
  14  5,6  | eRNST
  14  8,2  - iNC
@@ -1229,7 +1245,6 @@
  13  1,1  | CuR
  13  2,2  | DAb
  13  2,2  | DAd
- 13  2,2  | DAe
  13  2,2  | DAh
  13  2,2  | DAm
  13  2,2  | DAn
@@ -1244,7 +1259,9 @@
  13  2,2  - DEa
  13  2,2  - DEb
  13  2,2  - DEf
+ 13  2,2  - DEl
  13  2,2  - DEm
+ 13  2,2  - DEn
  13  2,2  - DEp
  13  2,2  - DEt
  13  2,2  - DEx
@@ -1285,7 +1302,6 @@
  13  3,1  | JETEs
  13  2,2  | NAa
  13  2,2  | NAb
- 13  2,2  | NAd
  13  2,2  | NAe
  13  2,2  | NAf
  13  2,2  | NAm
@@ -1312,6 +1328,7 @@
  13  4,2  | NITs
  13  5,5  | Na
  13  5,5  | Ne
+ 13  7,5  | Ni
  13  5,5  | No
  13  7,5  | Nu
  13  2,2  | RAaD
@@ -1455,6 +1472,7 @@
  12  5,2  - DUnT
  12  6,5  - EDiCT
  12  6,5  - EDuCT
+ 12  3,2  - ENSUe
  12  6,5  - ENaCT
  12  6,5  - EReCTS
  12  6,5  - ERuCTS
@@ -1553,7 +1571,6 @@
  12  8,2  - eTC
  12  2,2  | fARD
  12  4,2  | fIRNS
- 12  1,4  - fRET
  12  2,2  | hARD
  12  2,2  | hARN
  12  5,2  - hUNT
@@ -1635,7 +1652,6 @@
  11  3,1  - JaR
  11  3,1  - JcT
  11  3,1  - JeT
- 11  3,1  - JmS
  11  3,1  - JoT
  11  3,1  - JuR
  11  3,1  - JuS
@@ -1752,24 +1768,26 @@
  11  2,2  | bAD
  11  2,2  | bAN
  11  2,2  - bED
+ 11  2,2  - bEN
  11  2,2  | dAD
  11  2,2  | dAN
+ 11  2,2  - dEN
  11  4,2  | dIRD
  11  4,2  | dIRTS
  11  4,2  | dISTR
- 11  2,2  | eAD
- 11  2,2  | eAN
  11  5,6  | eNS
  11  5,6  | eRN
  11  2,2  | fAD
  11  2,2  | fAN
  11  2,2  - fED
+ 11  2,2  - fEN
  11  4,2  | fIRN
  11  4,2  | fIRST
  11  5,2  - gURTS
  11  2,2  | hAD
  11  2,2  | hAN
  11  2,2  - hED
+ 11  2,2  - hEN
  11  4,2  | hIRST
  11  4,2  | hISN
  11  5,2  - hURTS
@@ -1780,12 +1798,14 @@
  11  7,6  | iTD
  11  2,2  | jAD
  11  2,2  - kED
+ 11  2,2  - kEN
  11  2,2  - lED
+ 11  2,2  - lEN
  11  2,2  | mAD
  11  2,2  | mAN
  11  2,2  - mED
+ 11  2,2  - mEN
  11  4,2  | mIRD
- 11  2,2  | nAD
  11  2,2  | nAN
  11  2,2  - nED
  11  2,2  | oAD
@@ -1796,6 +1816,7 @@
  11  2,2  | pAD
  11  2,2  | pAN
  11  2,2  - pED
+ 11  2,2  - pEN
  11  4,6  - pNXT
  11  2,2  | rAD
  11  2,2  | rAN
@@ -1803,6 +1824,7 @@
  11  2,2  | tAD
  11  2,2  | tAN
  11  2,2  - tED
+ 11  2,2  - tEN
  11  7,6  | uDS
  11  7,6  | uNS
  11  7,6  | uRD
@@ -1811,8 +1833,10 @@
  11  2,2  | wAN
  11  4,2  | wIRD
  11  2,2  | yAD
+ 11  2,2  - yEN
  11  5,2  - yURTS
  11  2,2  - zED
+ 11  2,2  - zEN
  10  2,3  | ADC
  10  2,3  | ANC
  10  2,3  | ARDu
@@ -2175,7 +2199,9 @@
   9  2,2  - TEd
   9  2,2  - TEg
   9  5,5  - TEiNDS
+  9  2,2  - TEl
   9  2,2  - TEm
+  9  2,2  - TEn
   9  2,2  - TEx
   9  4,2  | TInC
   9  8,2  - TNt
@@ -2278,7 +2304,6 @@
   9  8,4  - uNCT
   9  7,6  | uS
   9  7,6  | uT
-  9  2,4  - wES
   9  2,4  - wET
   9  4,2  | wIR
   9  4,2  | wIS
@@ -2514,7 +2539,6 @@
   8  5,2  - dUN
   8  2,2  | eAR
   8  2,2  | eAT
-  8  8,4  - eNC
   8  8,2  - eNS
   8  8,2  - eRN
   8  8,2  - eRST
@@ -2709,8 +2733,6 @@
   7  6,5  - EChT
   7  6,5  - ECuS
   7  6,5  - EDeN
-  7  6,5  - ENC
-  7  6,5  - ENCl
   7  6,5  - ENCy
   7  6,5  - ENDS
   7  6,5  - ENDeRS
@@ -2875,7 +2897,6 @@
   7  5,5  - fENDS
   7  4,5  - iCED
   7  4,5  - iNERTS
-  7  5,1  | iNO
   7  8,4  - iSDN
   7  5,4  - iSN
   7  5,5  - lENDS
@@ -2900,7 +2921,6 @@
   7  5,5  - wENDS
   7  5,1  | yNO
   6  2,3  | AD
-  6  2,3  | ADa
   6  2,3  | ADc
   6  2,3  | ADd
   6  2,3  | ADm
@@ -3018,6 +3038,7 @@
   6  6,5  - ECRu
   6  3,2  - ED
   6  6,5  - EDiTS
+  6  3,2  - EN
   6  6,5  - ENDeR
   6  6,5  - ENTR
   6  6,5  - ENTRe
@@ -3056,6 +3077,7 @@
   6  5,5  - NEsTS
   6  5,5  - NEtTS
   6  5,5  - NEwTS
+  6  4,2  | NI
   6  4,5  - NeEDS
   6  1,3  | RCT
   6  1,3  | RCpT
@@ -3385,7 +3407,6 @@
   5  6,5  - ETNaS
   5  7,3  | EiR
   5  6,5  - ElDS
-  5  6,5  - EnC
   5  6,5  - EnDS
   5  6,5  - EoNS
   5  6,5  - ErNS
@@ -3496,7 +3517,6 @@
   5  4,5  - SlENT
   5  1,1  | SoRT
   5  4,5  - SpENT
-  5  1,1  | SqRT
   5  4,5  - StENT
   5  4,5  - StERN
   5  4,5  - SuENT
@@ -3554,7 +3574,6 @@
   5  4,5  - aRENT
   5  8,4  - aRN
   5  8,4  - aRTS
-  5  7,1  | aSE
   5  8,4  - aSTR
   5  7,1  | aTE
   5  8,2  | bDS
@@ -3641,9 +3660,7 @@
   5  5,5  - vERTS
   5  5,5  - wEND
   5  4,5  - wRENS
-  5  5,5  - zEND
   4  2,3  | AR
-  4  2,3  | ARa
   4  2,3  | ARb
   4  2,3  | ARc
   4  2,3  | ARe
@@ -3815,7 +3832,6 @@
   4  5,5  - NEwT
   4  5,5  - NExT
   4  4,5  - NSEc
-  4  8,1  | NaD
   4  8,1  | NeD
   4  4,5  - NeER
   4  4,5  - NeET
@@ -3906,7 +3922,6 @@
   4  4,5  - STERo
   4  4,5  - STERt
   4  4,5  - STEeR
-  4  1,1  | SaR
   4  1,1  | ScR
   4  4,5  - SeED
   4  4,5  - SeEN
@@ -4182,7 +4197,6 @@
   3  5,5  - DEx
   3  5,5  - DEy
   3  1,2  | DRy
-  3  4,5  - DaE
   3  8,3  | DaR
   3  8,3  | DaS
   3  8,3  | DaT
@@ -4213,7 +4227,6 @@
   3  6,5  - EDo
   3  6,5  - EDp
   3  6,5  - EN
-  3  6,5  - ENc
   3  6,5  - ENd
   3  6,5  - ENg
   3  6,5  - ENs
@@ -4224,8 +4237,6 @@
   3  6,5  - ERTh
   3  6,5  - EST
   3  6,5  - ESTh
-  3  6,5  - EaD
-  3  6,5  - EaN
   3  6,5  - EeN
   3  6,5  - ElD
   3  6,5  - EnD
@@ -4626,10 +4637,12 @@
   2  3,2  - Eh
   2  7,3  | Eh
   2  6,5  - EiR
+  2  3,2  - El
   2  6,5  - ElS
   2  6,5  - ElT
   2  3,2  - Em
   2  6,5  - EmS
+  2  3,2  - En
   2  3,4  - En
   2  6,5  - EnS
   2  3,2  - Eo
@@ -4762,7 +4775,6 @@
   2  1,2  | aRR
   2  1,2  | aRS
   2  1,2  | aRT
-  2  4,5  - aSE
   2  4,5  - aTE
   2  2,4  - bE
   2  5,5  - bER
@@ -4817,6 +4829,7 @@
   2  1,2  | kRS
   2  5,5  - lER
   2  5,5  - lET
+  2  4,2  | lI
   2  1,1  | lTR
   2  2,4  - mE
   2  5,5  - mER
@@ -4826,6 +4839,7 @@
   2  1,2  | mRS
   2  2,4  - nE
   2  5,5  - nET
+  2  4,2  | nI
   2  8,2  | oD
   2  5,5  - oER
   2  5,5  - oES
@@ -4862,8 +4876,6 @@
   2  5,5  - vER
   2  5,5  - vET
   2  2,4  - wE
-  2  5,5  - wER
-  2  5,5  - wES
   2  5,5  - wET
   2  5,5  - xES
   2  4,2  | xI
@@ -4887,7 +4899,6 @@
   1  6,5  - Ew
   1  6,5  - Ex
   1  1,3  | Re
-  1  1,3  | Rf
   1  5,5  - aE
   1  1,2  | aR
   1  5,5  - bE

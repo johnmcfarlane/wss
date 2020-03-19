@@ -42,6 +42,8 @@
  36  7,3  - XI
  35  2,1  - SHEILA
  33  2,3  - ALEXIS
+ 33  7,1  - HAL
+ 33  7,1  - HEL
  33  8,4  | LARIX
  33  3,1  - SELAH
  33  9,6  | TAHSIL
@@ -101,6 +103,7 @@
  26  8,2  | SEX
  26  8,2  | SIX
  26  6,6  | TAXIES
+ 25  7,1  - AIL
  25  3,3  - AXLES
  25  9,4  | IXTLES
  25  3,7  - SALIX
@@ -168,6 +171,7 @@
  21  3,1  - SIAL
  21  9,1  | SILE
  21  5,7  - SIX
+ 20  8,1  - AL
  20  2,5  - ALEXIS
  20  2,7  - ALEXIS
  20  6,7  - AX
@@ -175,6 +179,7 @@
  20  4,1  - AXLE
  20  3,3  - AXLE
  20  3,1  - EILA
+ 20  8,1  - EL
  20  6,5  - ELHI
  20  3,1  - ELIA
  20  3,1  - ELSA
@@ -298,6 +303,7 @@
  15  4,7  - AXIS
  15  3,5  - AXLE
  15  3,7  - AXLE
+ 15 10,2  | DELIES
  15  8,4  | EARSH
  15  6,3  - EL
  15  3,5  - EXLA
@@ -366,6 +372,7 @@
  14  9,4  | LATISH
  14  6,1  - LEA
  14  6,1  - LEI
+ 14 10,4  | LIESH
  14  7,5  | LOXES
  14  7,5  | LOXIA
  14  5,1  - SAH
@@ -520,6 +527,7 @@
  12  9,4  | LATHE
  12  9,4  | LATHI
  12  9,4  | LATHS
+ 12  7,3  - LI
  12  8,4  | LIRAS
  12  9,4  | LITHE
  12  7,6  | OXEA
@@ -593,10 +601,12 @@
  11  5,5  - LASE
  11  5,7  - LASE
  11  9,4  | LATH
+ 11 10,4  | LEES
  11  8,4  - LEHI
  11  3,5  - LEHI
  11  3,7  - LEHI
  11  5,1  - LIE
+ 11 10,4  | LIES
  11  5,5  - LISA
  11  5,5  - LISE
  11  5,7  - LISE
@@ -645,7 +655,6 @@
  10  8,5  | ARX
  10  8,1  | ASHIER
  10  6,2  | BLEATS
- 10  9,5  - EAD
  10  8,4  | EARLS
  10  9,4  | EATH
  10  6,5  - EH
@@ -686,9 +695,12 @@
  10  4,7  - LAH
  10  4,3  - LAI
  10  4,3  - LEA
+ 10 10,4  | LEE
  10  7,1  | LEHI
  10  4,3  - LEI
+ 10  5,3  - LI
  10  4,3  - LIE
+ 10 10,4  | LIE
  10  9,4  | LITSEA
  10  8,6  | RALES
  10  8,6  | RHILA
@@ -735,9 +747,6 @@
   9  8,5  | ARIELS
   9  8,5  | ARIL
   9  8,5  | ARISH
-  9  4,3  - ASE
-  9  6,5  - ASE
-  9  6,7  - ASE
   9  4,5  - ASH
   9  4,7  - ASH
   9  6,2  | BELAT
@@ -745,6 +754,8 @@
   9  6,2  | BLEAT
   9  6,2  | BLEST
   9  6,2  | BLIST
+  9 10,2  | DAL
+  9 10,2  | DEL
   9  5,1  - EL
   9  4,1  - ELA
   9  8,4  - ELHI
@@ -796,6 +807,7 @@
   9  4,1  - LEI
   9  4,5  - LEIS
   9  4,7  - LEIS
+  9  9,1  | LI
   9  4,5  - LIAS
   9  4,7  - LIAS
   9  4,5  - LIES
@@ -817,7 +829,6 @@
   9  4,7  - SAH
   9  4,3  - SAI
   9  5,5  - SAL
-  9  9,3  - SAr
   9  4,3  - SEA
   9  4,3  - SEI
   9  5,5  - SEL
@@ -921,6 +932,7 @@
   8  5,5  - LEI
   8  5,7  - LEI
   8  8,4  | LER
+  8  5,1  - LI
   8  5,5  - LIE
   8  5,7  - LIE
   8  8,4  | LIR
@@ -1233,8 +1245,6 @@
   5  7,4  | ALOE
   5  6,4  | ALTS
   5  7,5  | AOLI
-  5  4,5  - ASE
-  5  4,7  - ASE
   5  8,1  | ASH
   5  9,5  | ATE
   5  9,5  | ATI
@@ -1288,6 +1298,8 @@
   5  7,4  | LEOS
   5  9,4  | LET
   5  6,4  | LETS
+  5  5,5  - LI
+  5  5,7  - LI
   5  9,4  | LIT
   5  6,4  | LITE
   5  6,4  | LITS
@@ -1306,7 +1318,6 @@
   5  8,2  | SAI
   5  4,5  - SAI
   5  4,7  - SAI
-  5  8,4  | SAR
   5  8,2  | SEA
   5  4,5  - SEA
   5  4,7  - SEA
@@ -1434,7 +1445,6 @@
   3  6,4  | AIT
   3  8,5  | ARE
   3  8,5  | ARS
-  3  8,1  | ASE
   3  8,1  | ASS
   3  6,4  | AST
   3  9,5  | AT
@@ -1461,6 +1471,7 @@
   3  9,5  | IT
   3  6,5  | ITA
   3  6,5  | ITS
+  3 10,4  - LI
   3  7,5  | LO
   3  7,6  | OES
   3  7,6  | OSE

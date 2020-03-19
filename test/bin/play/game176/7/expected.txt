@@ -54,6 +54,9 @@
  27  7,9  - SONES
  27  6,9  - TENSES
  27  7,9  - TONES
+ 26  9,8  | NAOS
+ 26  9,8  | NEAT
+ 26  9,8  | NOES
  25  9,8  | AEON
  25  9,8  | ATEN
  25  4,7  | ESE
@@ -78,7 +81,6 @@
  24  2,10 - OzENA
  24  7,9  - STEEN
  24  6,9  - TEASES
- 23 11,7  | ASE
  23 11,7  | ASS
  23 11,7  | AST
  23 11,7  | ATE
@@ -114,9 +116,10 @@
  21 11,5  | TEAN
  21  8,2  - TONE
  20  1,9  - BIZEN
- 20  9,9  | EAN
  20  9,9  | EON
  20 11,9  | NE
+ 20  8,2  - NOTA
+ 20  8,2  - NOTE
  20 11,8  | ON
  20  2,8  - SANE
  20  2,8  - SANS
@@ -129,6 +132,8 @@
  20  9,9  | TEN
  20  1,2  - TENSAW
  20  9,9  | TON
+ 19  1,8  - ANAS
+ 19  1,8  - ANAT
  19  5,2  - AWETO
  19  4,4  | EATEN
  19  7,1  | NEXT
@@ -192,7 +197,12 @@
  16  1,9  - BIZE
  16  4,2  | ENTASES
  16  4,5  | ETEN
+ 16  2,8  - NAOS
+ 16  2,8  - NASO
+ 16  2,8  - NAST
+ 16  2,8  - NATE
  16  4,4  | NATES
+ 16  2,8  - NATO
  16  5,10 - NESTORS
  16  4,4  | NOSES
  16  4,4  | NOTES
@@ -211,11 +221,13 @@
  15  8,9  - ATES
  15  4,3  | ATONES
  15  5,2  - AWE
- 15 11,6  | EAN
  15  4,6  | EEN
  15  9,9  - EEN
  15  8,9  - ESES
  15 11,6  | NAT
+ 15  8,2  - NOA
+ 15  8,2  - NOO
+ 15  8,2  - NOT
  15  9,8  | ONA
  15  9,8  | ONE
  15  8,9  - OSES
@@ -298,6 +310,12 @@
  13  4,4  | ATEES
  13  4,4  | EASES
  13 11,6  | EAT
+ 13  2,8  - NAE
+ 13  9,8  | NAE
+ 13  2,8  - NAT
+ 13  9,8  | NEA
+ 13  9,8  | NEO
+ 13  9,8  | NOA
  13  4,4  | OASES
  13  9,2  - OAT
  13  9,2  - OOT
@@ -318,6 +336,7 @@
  12  9,9  - AET
  12 11,7  | AN
  12  9,8  | AN
+ 12  1,8  - ANA
  12  6,10 - ANSER
  12  6,10 - ASSERT
  12  6,10 - ASSORT
@@ -371,7 +390,6 @@
  11  9,10 | AN
  11  4,5  | ANES
  11  4,5  | ANET
- 11  3,8  - ASE
  11  3,8  - ASS
  11  3,8  - AST
  11  5,9  - ASTONE
@@ -424,7 +442,6 @@
  10  4,6  - ANET
  10  7,8  - ANTIS
  10 11,7  | AS
- 10  1,8  - ASA
  10  7,1  - ASCOT
  10  6,10 - ASTER
  10  6,10 - ASTOR
@@ -435,14 +452,17 @@
  10  7,8  - ENTIA
  10  7,1  - ESCOT
  10  4,5  | ESES
+ 10  9,8  | NA
  10  8,7  - NAKE
  10  8,7  - NAKO
+ 10  9,8  | NE
  10  4,6  | NEA
  10  5,6  | NEATS
  10  4,6  | NEE
  10  4,6  - NEET
  10  5,6  | NESTS
  10  4,6  | NET
+ 10  9,8  | NO
  10 11,1  | NODE
  10 11,1  | NODS
  10  4,6  - NOES
@@ -507,7 +527,6 @@
   9  4,2  | ENSATE
   9  5,9  - EOSATE
   9  4,6  - ETEN
-  9 11,1  | NAD
   9  4,6  - NAE
   9  8,8  - NAIO
   9  8,8  - NAIS
@@ -719,7 +738,6 @@
   7  5,5  - AVO
   7  5,7  | EATEN
   7  5,7  | ENATE
-  7  7,1  - ENC
   7 11,1  | END
   7  4,4  | ENSE
   7  7,9  - ENSE
@@ -738,7 +756,6 @@
   7  7,8  - NASI
   7  4,2  - NAW
   7  1,11 - NAy
-  7  8,1  - NCO
   7  5,6  - NEA
   7  5,6  | NEA
   7  1,7  | NEB
@@ -858,8 +875,6 @@
   6  3,4  - ASTA
   6  8,8  - ATIS
   6  2,11 - AyENST
-  6 11,1  | EAD
-  6  5,7  | EAN
   6  4,4  | EASE
   6  7,9  - EASE
   6  5,7  | EASES
@@ -887,9 +902,13 @@
   6  5,7  | ETON
   6  8,5  - EYOT
   6 10,7  - KA
+  6  2,8  - NA
   6  5,6  - NE
   6  5,6  | NE
   6  7,10 - NEARS
+  6  8,2  | NI
+  6  2,8  | NI
+  6  8,2  - NO
   6  7,10 - NOTRE
   6 11,1  | OAD
   6  1,8  | OBA
@@ -909,7 +928,6 @@
   6  1,7  | SAB
   6  7,1  - SAC
   6 11,1  | SAD
-  6  3,4  - SASA
   6  3,4  - SATA
   6  4,4  | SATE
   6  7,9  - SATE
@@ -966,7 +984,6 @@
   5  5,6  | AET
   5  8,10 - ANRE
   5  1,11 - ANy
-  5  4,4  - ASA
   5  7,10 - ASTRE
   5  8,8  - ATI
   5  5,2  - AW
@@ -996,7 +1013,6 @@
   5  8,10 - NORA
   5  8,10 - NORE
   5  2,11 - NySSA
-  5  1,8  | OB
   5  5,6  - OES
   5  5,6  | OES
   5  7,10 - ONER
@@ -1053,12 +1069,10 @@
   4  9,8  - AIN
   4  4,5  | ANE
   4  9,10 - ARN
-  4  8,9  - ASE
   4  7,10 - ASOR
   4  7,10 - ASTR
   4  8,9  - ATE
   4  2,11 - AyNE
-  4  6,6  - EAN
   4  8,10 - EARS
   4  5,7  | EAT
   4 11,2  | EDO
@@ -1159,7 +1173,6 @@
   3  9,10 - ARO
   3  9,10 - ARS
   3  9,10 - ART
-  3  4,5  | ASE
   3  4,5  | ATE
   3  2,11 - AyES
   3 11,3  | DA
@@ -1184,6 +1197,7 @@
   3 10,8  - IN
   3  5,4  - NA
   3  4,6  | NE
+  3  9,8  - NI
   3  2,11 - NyE
   3  8,10 - OAR
   3 11,2  | OD
@@ -1196,7 +1210,6 @@
   3  4,5  | OSE
   3  2,11 - OyES
   3  4,5  | SAE
-  3  8,10 - SAR
   3  4,5  | SEE
   3  8,10 - SER
   3  9,8  - SIA
