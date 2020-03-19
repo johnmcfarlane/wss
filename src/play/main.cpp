@@ -31,6 +31,40 @@
 
 namespace {
     using std::string;
+
+    extern node const unbounded_lexicon;
+    node const unbounded_edges[]{ //NOLINT(cppcoreguidelines-avoid-c-arrays,cppcoreguidelines-interfaces-global-init,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon,
+            unbounded_lexicon
+    };
+    node const unbounded_lexicon = {
+            letter_set::from_bits(0x7ffffffU),
+            unbounded_edges //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+    };
 } // namespace
 
 
@@ -41,6 +75,7 @@ auto main(int argc, char const* const* argv) -> int
     auto const wwf_name{"wwf"s};
 
     auto help{false};
+    auto unbounded{false};
     auto letters{string{}};
     auto board_filename{string{}};
     auto premiums_filename{string{}};
@@ -49,6 +84,7 @@ auto main(int argc, char const* const* argv) -> int
         lyra::help(help)
         | lyra::opt(game_name, "-g")["--game"]
                 .choices(scrabble_name, wwf_name)
+        | lyra::opt(unbounded)["-u"]["--unbounded"]("ignore lexicon and use any combination of letters")
         | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")
         | lyra::arg(board_filename, "board")("text file containing played letters")
         | lyra::arg(premiums_filename, "premiums")("text file describing premium tiles (see 'boards' directory)")
@@ -66,7 +102,7 @@ auto main(int argc, char const* const* argv) -> int
                     "(C)2019 John McFarlane\n\n"
                     "play [options] <rack> <board>\n");
         for (auto const& help_column : cli.get_help_text()) {
-            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
+            fmt::printf("%20s   %s\n", help_column.option, help_column.description);
         }
         return EXIT_FAILURE;
     }
@@ -110,10 +146,12 @@ auto main(int argc, char const* const* argv) -> int
         return EXIT_FAILURE;
     }
 
-    auto const lexicon{std::map{
-            std::pair{scrabble_name, scrabble_lexicon},
-            std::pair{wwf_name, wwf_lexicon}
-    }.at(game_name)};
+    auto const lexicon{unbounded
+            ? unbounded_lexicon
+            : std::map{
+                    std::pair{scrabble_name, scrabble_lexicon},
+                    std::pair{wwf_name, wwf_lexicon}
+            }.at(game_name)};
     auto const scores{std::map{
             std::pair{scrabble_name, scrabble_scores()},
             std::pair{wwf_name, wwf_scores()}
