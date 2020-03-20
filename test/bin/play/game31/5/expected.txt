@@ -775,7 +775,6 @@
  18  4,7  - sOX
  18  4,7  - tAX
  18  7,5  | tAXY
- 18  8,8  | tAXY
  18  4,7  - tEX
  18  4,7  - tOX
  18  5,6  | tOXA
@@ -899,7 +898,6 @@
  16  9,10 - lAO
  16  5,5  - lAYUP
  16  9,10 - lEA
- 16  9,10 - lEO
  16  9,10 - lOA
  16  9,10 - lOE
  16  2,5  - lOXED
@@ -924,7 +922,6 @@
  16  5,6  | tOADY
  16  5,6  | tODY
  16  5,6  | tOX
- 16  8,8  | tOXA
  16  5,6  | wADY
  16  5,6  | wAX
  16  2,5  - wAXED
@@ -1045,11 +1042,8 @@
  15  7,5  | sAX
  15  8,1  - sWIZ
  15  7,5  | tAX
- 15  8,8  | tAX
- 15  8,8  | tEX
  15  5,6  | tODAY
  15  5,6  | tOEY
- 15  8,8  | tOX
  15  5,6  | tOYED
  15  7,5  | wAX
  15  7,9  - wEEDA
@@ -1357,8 +1351,6 @@
  13  6,2  - yODE
  13  5,8  - zYDECO
  12  7,8  - ADCOn
- 12  6,2  - ADEt
- 12  5,3  | ADEt
  12  6,3  | ADnEX
  12  4,5  - AXE
  12  4,7  - AXE
@@ -1636,11 +1628,9 @@
  12  5,6  | tODA
  12  2,5  - tODAY
  12  5,6  | tODE
- 12  8,8  | tODY
  12  9,2  - tOI
  12  3,5  - tOXA
  12  3,7  - tOYED
- 12  8,8  | tYE
  12  8,9  - vEDA
  12  6,3  | vEXED
  12  6,5  | vEXED
@@ -1691,7 +1681,6 @@
  11  7,9  - ApEX
  11  8,9  | ApX
  11  8,9  | ArX
- 11  5,5  | AtED
  11  8,9  | AuX
  11  5,5  | AwED
  11  7,5  | DA
@@ -1862,7 +1851,6 @@
  11  6,4  - tEJ
  11  5,6  | tOEA
  11  4,7  - tOEY
- 11  8,8  | tOEY
  11  5,6  | tOY
  11  2,5  - tOYED
  11  2,7  - tOYED
@@ -2192,23 +2180,14 @@
  10  5,7  - sOY
  10  5,6  | tAD
  10  7,5  | tADE
- 10  8,8  | tADE
  10  8,9  | tAX
  10  7,5  | tAY
- 10  8,8  | tAY
- 10  8,8  | tEAD
  10  5,6  | tED
- 10  8,8  | tEDA
  10  8,9  | tEX
- 10  8,8  | tOAD
  10  5,6  | tOD
- 10  8,8  | tODA
- 10  8,8  | tODE
  10  3,5  - tODY
- 10  8,8  | tOED
  10  8,9  | tOX
  10  5,7  - tOY
- 10  8,8  | tOY
  10  3,5  - vADY
  10  5,6  | wAD
  10  7,5  | wADE
@@ -2270,7 +2249,6 @@
   9  7,6  | ArX
   9  5,7  - ArY
   9  5,5  | AtE
-  9  4,7  - AtED
   9  7,6  | AuX
   9  5,5  | AwE
   9  4,7  - AwED
@@ -2582,25 +2560,20 @@
   9  3,5  - sYED
   9  3,7  - sYED
   9  7,5  | tAD
-  9  8,8  | tAD
   9  4,7  - tADE
   9  5,6  | tAE
   9  5,6  | tAO
   9 10,9  | tAY
   9  5,6  | tD
-  9  8,8  | tD
   9  5,6  | tEA
-  9  8,8  | tED
   9  4,7  - tEDA
   9  6,5  | tEX
   9  8,9  - tEX
   9  5,6  | tOA
-  9  8,8  | tOD
   9  4,7  - tODA
   9  4,7  - tODE
   9  3,7  - tODEA
   9  5,6  | tOE
-  9  8,8  | tOEA
   9  4,7  - tOED
   9  3,5  - tOEY
   9 10,9  | tOY
@@ -2700,8 +2673,6 @@
   8  3,7  - ArED
   8  4,5  - ArY
   8  5,5  | At
-  8  3,5  - AtED
-  8  3,7  - AtED
   8  5,5  | Aw
   8  7,6  | AwAY
   8  3,5  - AwED
@@ -3101,26 +3072,20 @@
   8  7,8  - tACE
   8  7,8  - tACO
   8  7,5  | tAE
-  8  8,8  | tAE
   8  7,5  | tAO
-  8  8,8  | tAO
   8  4,5  - tAY
   8  5,6  | tE
-  8  8,8  | tEA
   8  7,8  - tECA
   8  7,8  - tECO
   8  5,7  - tED
   8  5,6  | tO
-  8  8,8  | tOA
   8  5,7  - tOD
   8  2,5  - tODEA
-  8  8,8  | tOE
   8  4,5  - tOY
   8  6,9  - tOYED
   8  6,9  - tYEE
   8  7,2  - uDO
   8  7,8  - vOCE
-  8  5,7  - vOD
   8  7,8  - wACE
   8  7,8  - wACO
   8  7,5  | wAE
@@ -3136,7 +3101,6 @@
   8  5,7  - yOD
   8  4,5  - yOY
   8  5,7  - zED
-  8  5,7  - zOD
   8  6,2  | zOEAE
   7  8,8  - ACc
   7  8,8  - ACe
@@ -3150,7 +3114,6 @@
   7  6,9  - ADEEp
   7  7,6  | ADEOnA
   7  4,7  - ADEn
-  7  4,7  - ADEt
   7  5,9  - ADObE
   7  4,7  - ADOd
   7  4,7  - ADOn
@@ -3549,7 +3512,6 @@
   7  3,7  - lEAD
   7  6,5  | lEADY
   7 10,9  | lED
-  7  7,2  - lEO
   7 10,3  | lO
   7  3,5  - lOAD
   7  3,7  - lOAD
@@ -3631,18 +3593,15 @@
   7  7,2  - sOE
   7  3,5  - sOYA
   7  7,5  | tA
-  7  8,8  | tA
   7 10,9  | tAD
   7  7,2  - tAE
   7  7,2  - tAO
-  7  8,8  | tE
   7  3,5  - tEAD
   7  3,7  - tEAD
   7  6,9  - tEAEY
   7  5,6  - tEASELS
   7  7,8  - tEC
   7 10,9  | tED
-  7  8,8  | tO
   7  3,5  - tOAD
   7  3,7  - tOAD
   7 10,9  | tOD
@@ -3676,8 +3635,6 @@
   6  7,6  | ADEAd
   6  3,5  - ADEn
   6  3,7  - ADEn
-  6  3,5  - ADEt
-  6  3,7  - ADEt
   6  4,5  - ADO
   6  4,7  - ADO
   6  8,9  | ADO
@@ -3765,7 +3722,6 @@
   6  8,9  | ArY
   6  7,6  | ArYA
   6  9,3  - AsB
-  6  7,6  | AtED
   6  4,5  - AuD
   6  4,7  - AuD
   6  4,5  - AwD
@@ -4391,8 +4347,6 @@
   6  3,5  - vADE
   6  3,7  - vADE
   6  3,5  - vEDA
-  6  4,5  - vOD
-  6  4,7  - vOD
   6  5,7  - vOE
   6  4,5  - wAD
   6  4,7  - wAD
@@ -4426,8 +4380,6 @@
   6  4,5  - zED
   6  4,7  - zED
   6  5,7  - zOA
-  6  4,5  - zOD
-  6  4,7  - zOD
   5 10,3  - AB
   5  8,9  | AD
   5  7,6  | ADAgE
@@ -4438,7 +4390,6 @@
   5  6,4  | ADEEp
   5  7,6  | ADElA
   5  7,9  - ADEn
-  5  7,9  - ADEt
   5  7,6  | ADObE
   5  7,6  | ADOrE
   5  7,6  | ADOxA
@@ -4514,7 +4465,6 @@
   5  7,9  - ArED
   5  8,2  - At
   5  5,7  - AtE
-  5  7,9  - AtED
   5  8,9  | AuD
   5  8,9  | AwD
   5  5,7  - AwE
@@ -4962,7 +4912,6 @@
   5 10,9  | lAO
   5 10,9  | lEA
   5  6,9  - lEDE
-  5 10,9  | lEO
   5 10,9  | lOA
   5  9,3  - lOB
   5  6,9  - lODE
@@ -5075,13 +5024,10 @@
   4  7,6  | ADAi
   4  7,6  | ADAm
   4  7,6  | ADAr
-  4  7,6  | ADAt
   4  7,6  | ADAw
   4  7,6  | ADAy
   4  6,4  | ADEn
   4  7,6  | ADEn
-  4  6,4  | ADEt
-  4  7,6  | ADEt
   4  7,6  | ADO
   4  7,6  | ADOd
   4  7,6  | ADOn
@@ -5180,7 +5126,6 @@
   4  4,5  - AtE
   4  4,7  - AtE
   4  8,9  | AtE
-  4  6,4  | AtED
   4  4,5  - AvE
   4  4,7  - AvE
   4  8,9  | AvE
@@ -5758,8 +5703,6 @@
   4  6,4  | lEED
   4  6,5  | lEED
   4  7,9  - lEED
-  4  4,5  - lEO
-  4  4,7  - lEO
   4  6,5  | lEY
   4  8,9  - lEY
   4  4,5  - lOA
@@ -5873,7 +5816,6 @@
   4  4,7  - tAE
   4  4,5  - tAO
   4  4,7  - tAO
-  4  8,8  - tC
   4  6,7  - tE
   4  4,5  - tEA
   4  6,5  | tEAD
@@ -6598,8 +6540,6 @@
   2  6,5  | lEE
   2  7,9  - lEE
   2  8,9  - lEE
-  2  6,5  | lEO
-  2  8,9  - lEO
   2  6,4  | lOE
   2  7,9  - lOE
   2  8,9  | mA

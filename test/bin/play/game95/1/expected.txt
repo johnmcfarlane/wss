@@ -1332,6 +1332,7 @@
  22  5,8  - iSTAnA
  22  5,8  - iSlETA
  22  3,8  - jETSAm
+ 22  1,8  - kAnATS
  22  1,8  - kArATS
  22  2,8  - kEATS
  22  4,8  - lASTEd
@@ -7633,6 +7634,7 @@
  18  3,8  - kuES
  18  4,8  - kuSA
  18  3,8  - kvAS
+ 18  3,8  - kyES
  18  7,3  | lAET
  18  4,8  - lAS
  18  7,3  | lASE
@@ -9134,7 +9136,6 @@
  16  7,4  | ASt
  16  7,2  | ATAp
  16  7,2  | ATAr
- 16  7,2  | ATEd
  16  7,2  | ATEf
  16  7,2  | ATEn
  16  7,2  | ATEs
@@ -11253,7 +11254,6 @@
  15  7,1  | aSTA
  15  7,2  | aTAp
  15  7,2  | aTAr
- 15  7,2  | aTEd
  15  7,2  | aTEf
  15  7,2  | aTEn
  15  7,2  | aTEs
@@ -11439,6 +11439,7 @@
  15  7,2  | krAS
  15  7,2  | kuES
  15  7,2  | kvAS
+ 15  7,2  | kyES
  15  7,2  | lAEn
  15  7,3  | lAS
  15  7,1  | lASA
@@ -11645,7 +11646,6 @@
  15  5,8  - us
  15  7,2  | usES
  15  7,2  | utAS
- 15  7,2  | vAAd
  15  7,3  | vAS
  15  7,1  | vASA
  15  7,1  | vASE
@@ -11707,7 +11707,6 @@
  14  7,1  | AStA
  14  7,2  | ATap
  14  7,2  | ATar
- 14  7,2  | ATed
  14  7,2  | ATef
  14  7,2  | ATen
  14  7,2  | ATes
@@ -11866,7 +11865,6 @@
  14  7,4  | Ast
  14  7,2  | AtAp
  14  7,2  | AtAr
- 14  7,2  | AtEd
  14  7,2  | AtEf
  14  7,2  | AtEn
  14  7,2  | AtEs
@@ -13775,7 +13773,6 @@
  13  7,1  | jATo
  13  7,3  | jAd
  13  7,1  | jAdE
- 13  7,1  | jAgA
  13  7,3  | jAi
  13  7,1  | jAkE
  13  7,3  | jAm
@@ -13795,7 +13792,6 @@
  13  7,1  | kATe
  13  7,3  | kAe
  13  7,3  | kAf
- 13  7,1  | kAfA
  13  7,1  | kAhA
  13  7,3  | kAi
  13  7,1  | kAkA
@@ -13863,7 +13859,6 @@
  13  7,3  | lEi
  13  7,3  | lEn
  13  7,1  | lEnA
- 13  7,3  | lEo
  13  7,3  | lEp
  13  7,1  | lEpA
  13  7,3  | lEr
@@ -14387,7 +14382,6 @@
  12  6,4  - JAdEd
  12  6,4  - JAdEs
  12  6,4  - JAdeS
- 12  6,4  - JAgA
  12  6,4  - JAgAt
  12  6,4  - JAgEr
  12  6,4  - JAgS
@@ -14961,7 +14955,6 @@
  12  5,5  | lEAsTS
  12  7,2  | lEa
  12  7,2  | lEe
- 12  7,2  | lEo
  12  7,2  | leA
  12  7,2  | leE
  12  7,2  | liE
@@ -15308,7 +15301,6 @@
  11  6,4  - JAde
  11  6,4  - JAdy
  11  6,4  - JAg
- 11  6,4  - JAga
  11  6,4  - JAgg
  11  6,4  - JAgs
  11  6,4  - JAi
@@ -15379,7 +15371,6 @@
  11  6,4  - JEwy
  11  6,4  - JabS
  11  6,4  - JadE
- 11  6,4  - JagA
  11  6,4  - JagS
  11  6,4  - JakE
  11  6,4  - JamA
@@ -15405,7 +15396,6 @@
  11  6,4  - JilT
  11  6,4  - JinA
  11  6,4  - JinS
- 11  6,4  - JivA
  11  6,4  - JivE
  11  6,4  - JobS
  11  6,4  - JoeS
@@ -15419,7 +15409,6 @@
  11  6,4  - JosS
  11  6,4  - JotA
  11  6,4  - JotS
- 11  6,4  - JovA
  11  6,4  - JovE
  11  6,4  - JowS
  11  6,4  - JoyS
@@ -21088,8 +21077,6 @@
   8  7,7  | ATE
   8  5,7  | ATEba
   8  7,7  | ATEba
-  8  5,7  | ATEd
-  8  7,7  | ATEd
   8  5,7  | ATEes
   8  7,7  | ATEes
   8  5,7  | ATEf
@@ -21246,8 +21233,6 @@
   8  2,6  - AckEES
   8  1,6  - AcuATE
   8  2,6  - AcuTES
-  8  5,7  | AdAT
-  8  7,7  | AdAT
   8  5,7  | AdATi
   8  7,7  | AdATi
   8  5,7  | AdATy
@@ -21266,8 +21251,6 @@
   8  5,7  | AdEAd
   8  7,7  | AdEAd
   8  1,6  - AdEStE
-  8  5,7  | AdET
-  8  7,7  | AdET
   8  5,7  | AdElA
   8  7,7  | AdElA
   8  2,6  - AdElEA
@@ -24651,7 +24634,6 @@
   8  5,6  | jAbS
   8  1,6  - jAcATE
   8  5,6  | jAdE
-  8  5,6  | jAgA
   8  5,6  | jAgS
   8  5,6  | jAkE
   8  5,5  | jAmA
@@ -26536,8 +26518,6 @@
   7  7,7  | AdAm
   7  5,7  | AdAr
   7  7,7  | AdAr
-  7  5,7  | AdAt
-  7  7,7  | AdAt
   7  5,7  | AdAw
   7  7,7  | AdAw
   7  5,7  | AdAy
@@ -26545,8 +26525,6 @@
   7  1,7  - AdESmY
   7  5,7  | AdEn
   7  7,7  | AdEn
-  7  5,7  | AdEt
-  7  7,7  | AdEt
   7  5,7  | AdS
   7  7,7  | AdS
   7  4,7  - AdYTtA
@@ -27092,8 +27070,6 @@
   7  7,7  | AtAr
   7  5,7  | AtE
   7  7,7  | AtE
-  7  5,7  | AtEd
-  7  7,7  | AtEd
   7  5,7  | AtEf
   7  7,7  | AtEf
   7  5,7  | AtEn
@@ -28494,7 +28470,6 @@
   7  7,6  | lETs
   7  7,6  | lETt
   7  5,5  | lEa
-  7  5,5  | lEo
   7  5,7  - lYASE
   7  5,7  - lYASEs
   7  5,7  - lYAsES
@@ -29550,8 +29525,6 @@
   6  2,7  - ATaxY
   6  5,7  | ATe
   6  7,7  | ATe
-  6  5,7  | ATed
-  6  7,7  | ATed
   6  5,7  | ATef
   6  7,7  | ATef
   6  2,7  - ATelY
@@ -29735,15 +29708,11 @@
   6  2,6  - AdAgE
   6  2,6  - AdAwE
   6  4,7  - AdYTA
-  6  5,7  | AdaT
-  6  7,7  | AdaT
   6  3,7  - AdaYS
   6  5,7  | AddA
   6  7,7  | AddA
   6  5,7  | AddS
   6  7,7  | AddS
-  6  5,7  | AdeT
-  6  7,7  | AdeT
   6  5,7  | AdiT
   6  7,7  | AdiT
   6  5,7  | AdjT
@@ -31585,8 +31554,6 @@
   6  2,7  - aTAxY
   6  5,7  | aTE
   6  7,7  | aTE
-  6  5,7  | aTEd
-  6  7,7  | aTEd
   6  5,7  | aTEf
   6  7,7  | aTEf
   6  2,7  - aTElY
@@ -31619,10 +31586,6 @@
   6  7,7  | acTA
   6  5,7  | acTS
   6  7,7  | acTS
-  6  5,7  | adAT
-  6  7,7  | adAT
-  6  5,7  | adET
-  6  7,7  | adET
   6  5,7  | agAS
   6  7,7  | agAS
   6  2,6  - agATE
@@ -32480,7 +32443,6 @@
   6  7,6  | lEk
   6  7,6  | lEn
   6  2,6  - lEnSE
-  6  7,6  | lEo
   6  7,6  | lEp
   6  7,6  | lEr
   6  7,6  | lEt
@@ -35835,6 +35797,7 @@
   5  5,5  - kOAlAS
   5  5,7  - kYAT
   5  5,7  - kYATs
+  5  5,7  - kYES
   5  5,7  - kYTE
   5  5,7  - kYTEs
   5  3,7  - khAYA
@@ -39042,8 +39005,10 @@
   4  5,7  - kYAr
   4  5,7  - kYAt
   4  5,7  - kYE
+  4  5,7  - kYEs
   4  5,7  - kYTe
   4  5,7  - kYaT
+  4  5,7  - kYeS
   4  5,7  - kYkE
   4  5,7  - kYlE
   4  5,7  - kYtE
@@ -40077,7 +40042,6 @@
   3  3,6  - AStEr
   3  4,6  - ATE
   3  4,6  - ATEba
-  3  4,6  - ATEd
   3  4,6  - ATEes
   3  4,6  - ATEf
   3  4,6  - ATElo
@@ -40146,7 +40110,6 @@
   3  4,6  - AdEEm
   3  3,6  - AdEEp
   3  4,6  - AdEEp
-  3  4,6  - AdET
   3  4,6  - AdElA
   3  4,6  - AdEpS
   3  4,6  - AdEpT
@@ -44746,7 +44709,6 @@
   2  3,6  - AcnE
   2  3,6  - AcrE
   2  4,6  - AdEn
-  2  4,6  - AdEt
   2  4,5  - AdO
   2  4,5  - AdOd
   2  4,5  - AdOn
@@ -44858,7 +44820,6 @@
   2  4,5  - AsOr
   2  3,6  - AssE
   2  4,6  - AtE
-  2  4,6  - AtEd
   2  4,6  - AtEf
   2  4,6  - AtEn
   2  4,6  - AtEs
@@ -46078,7 +46039,6 @@
   2  4,5  - aSOr
   2  3,6  - aSsE
   2  4,6  - aTE
-  2  4,6  - aTEd
   2  4,6  - aTEf
   2  4,6  - aTEn
   2  4,6  - aTEs
@@ -46091,7 +46051,6 @@
   2  4,6  - abET
   2  4,5  - abOS
   2  4,6  - acES
-  2  4,6  - adET
   2  4,5  - adOS
   2  3,5  - agAO
   2  3,6  - agEE
@@ -47159,7 +47118,6 @@
   2  5,5  - jOsS
   2  5,5  - jOtA
   2  5,5  - jOtS
-  2  5,5  - jOvA
   2  5,5  - jOvE
   2  5,5  - jOwS
   2  5,5  - jOyS
@@ -47266,6 +47224,7 @@
   2  3,5  - koSO
   2  3,5  - koTO
   2  4,6  - kuES
+  2  4,6  - kyES
   2  3,6  - kyTE
   2  4,6  - lAEn
   2  4,6  - lAEt
@@ -47310,7 +47269,6 @@
   2  5,6  - lEEs
   2  4,6  - lEEt
   2  5,6  - lEEt
-  2  4,5  - lEO
   2  4,5  - lEOn
   2  4,5  - lEOs
   2  5,6  - lESe
@@ -48657,7 +48615,6 @@
   2  5,5  - wOfT
   2  5,5  - wOkE
   2  5,5  - wOkS
-  2  5,5  - wOnE
   2  5,5  - wOnS
   2  5,5  - wOnT
   2  5,5  - wOoS
@@ -49303,7 +49260,6 @@
   1  5,6  - lEi
   1  5,6  - lEk
   1  5,6  - lEn
-  1  5,6  - lEo
   1  5,6  - lEp
   1  5,6  - lEr
   1  5,6  - lEt
@@ -49330,7 +49286,6 @@
   1  5,5  - lOy
   1  4,5  - laO
   1  4,6  - leE
-  1  4,5  - leO
   1  4,6  - liE
   1  4,6  - loE
   1  4,5  - loO
@@ -49618,7 +49573,6 @@
   1  5,6  - vEt
   1  5,6  - vEx
   1  5,5  - vOc
-  1  5,5  - vOd
   1  5,5  - vOe
   1  5,5  - vOg
   1  5,5  - vOl
@@ -49687,7 +49641,7 @@
   1  5,6  - zEn
   1  5,6  - zEr
   1  5,5  - zOa
-  1  5,5  - zOd
+  1  5,5  - zOl
   1  5,5  - zOo
   1  4,6  - zeE
   1  4,5  - zhO
