@@ -84,7 +84,6 @@
  36 10,6  | PuNESE
  36  8,8  | QUiP
  36  8,8  | QUoP
- 36  9,10 - Qh
  36 10,5  | SEPhEN
  36  8,6  | SEQUaN
  36  8,6  | SEQUeL
@@ -112,7 +111,6 @@
  36 10,6  | bLEEPS
  36 10,5  | cLEPES
  36 10,5  | hESPEL
- 36  8,2  - iQS
  36 10,5  | kESLEP
  36 10,6  | rEPELS
  36 10,6  | sLEEPS
@@ -214,7 +212,6 @@
  32 10,6  | sLEEP
  32 10,6  | sPEEL
  32 10,6  | sPEEN
- 31  7,10 - ESQ
  31  4,4  - PEOn
  31  4,4  - PhOS
  31  4,4  - PrOS
@@ -232,14 +229,16 @@
  30  9,6  | LaNCES
  30  9,7  | LuCES
  30  9,7  | NECkS
+ 30  7,2  - NEPaL
  30  3,4  - iPSO
- 29  7,10 - EsQ
  29  2,4  - LEP
  29  1,4  - LEaP
  29  1,4  - LEeP
  29  1,4  - LErP
  29  1,4  - LeEP
+ 29  7,2  - LiQ
  29  1,4  - LiSP
+ 29  7,2  - LoQ
  29  2,4  - NEP
  29  1,4  - NEaP
  29  1,4  - NEeP
@@ -258,7 +257,6 @@
  29  1,4  - SNuP
  29  1,4  - SaLP
  29  1,4  - cLEP
- 29  7,10 - eSQ
  29  1,4  - hELP
  29  1,4  - iNSP
  29  1,4  - kELP
@@ -276,6 +274,8 @@
  28 10,5  | LENSEd
  28 10,5  | LENSEs
  28 10,5  | LENsES
+ 28  7,2  - LEPaS
+ 28  7,2  - LEPuS
  28 10,5  | LESsEN
  28 10,6  | LEbENS
  28 10,5  | LEfSEN
@@ -350,6 +350,10 @@
  27  8,2  - EsQ
  27  2,4  - ExP
  27  9,3  | HLQN
+ 27  7,2  - LaPSE
+ 27  7,2  - LiPSE
+ 27  7,2  - LoPES
+ 27  7,2  - NaPES
  27  9,10 - PLi
  27  7,2  - QiS
  27  7,2  - QuE
@@ -394,14 +398,14 @@
  27  2,4  - tSP
  27  9,7  | uNCLE
  27  2,4  - yEP
- 26  7,10 - ENcL
  26  9,2  - EsQ
+ 26  7,2  - LEPa
+ 26  7,2  - NEPa
  26  7,2  - PEaLS
  26  7,2  - PEaNS
  26  7,2  - PEeLS
  26  7,2  - PEeNS
  26  7,2  - PEoNS
- 26  8,10 - PLf
  26  7,2  - PeELS
  26  7,2  - PeENS
  26  9,2  - SQq
@@ -419,6 +423,16 @@
  26  3,4  - uP
  25  9,3  | HLQn
  25  9,3  | HlQN
+ 25  7,2  - LaPS
+ 25  7,2  - LiPS
+ 25  7,2  - LoPE
+ 25  7,2  - LoPS
+ 25  7,2  - LuPE
+ 25  7,2  - NaPE
+ 25  7,2  - NaPS
+ 25  7,2  - NiPS
+ 25  7,2  - NoPE
+ 25  7,2  - NuPE
  25  2,2  - QuE
  25  3,7  - QuEENS
  25  2,7  - SQuEEL
@@ -438,6 +452,7 @@
  24 10,6  | EmLEN
  24  9,1  | LEHrS
  24 10,6  | LENEs
+ 24  7,2  - LEaPS
  24 10,6  | LEbEN
  24 10,6  | LEdEN
  24 10,6  | LEvEN
@@ -445,10 +460,13 @@
  24 10,6  | LeNES
  24 10,6  | LiNES
  24 10,6  | LuNES
+ 24  7,2  - NEaPS
  24 10,6  | NEbEL
+ 24  7,2  - NEePS
  24 10,6  | NEvEL
  24 10,6  | NEwEL
  24  1,2  - NPeEL
+ 24  7,2  - NeEPS
  24 10,6  | NpEEL
  24  9,1  | PEH
  24  9,1  | PEHo
@@ -512,10 +530,16 @@
  23  1,2  - SNEaP
  23  8,10 - SPl
  23  8,10 - SPt
- 23  9,2  - cQ
  22 10,9  | EsQ
+ 22  7,2  - LEaP
+ 22  7,2  - LEeP
  22  2,2  - LeEP
+ 22  7,2  - LeEP
+ 22  7,2  - LiSP
+ 22  7,2  - NEaP
+ 22  7,2  - NEeP
  22  2,2  - NeEP
+ 22  7,2  - NeEP
  22  9,10 - PE
  22  7,2  - PEaS
  22  7,2  - PEeS
@@ -541,18 +565,17 @@
  22  1,2  - aSPEN
  22  2,2  - cLEP
  22  7,2  - hEPS
- 22  7,10 - iSLE
  22  7,2  - kEPS
  22  8,2  - oPEN
  22  7,2  - pEPS
  22  7,2  - sEPS
  22 10,8  | sEQ
- 22  8,10 - tLN
  21  9,8  | ECcL
  21  9,8  | ECoL
  21  9,8  | ECoN
  21  4,4  - EPOS
  21  8,2  - EPoS
+ 21  7,2  - LESsN
  21  2,2  - LEaP
  21  2,2  - LEeP
  21  1,2  - LoPES
@@ -578,7 +601,6 @@
  21  9,1  | PpH
  21  1,2  - PuLES
  21  5,2  | QOPh
- 21  7,6  | Qh
  21  9,8  | SCaN
  21  9,8  | SCiL
  21  9,8  | SCuN
@@ -594,9 +616,7 @@
  21  1,2  - SPEeL
  21  1,2  - SPEeN
  21  1,2  - SPEiL
- 21  7,10 - SPL
  21  8,3  | SPLENiUS
- 21  9,8  | aCLE
  21  9,8  | aCNE
  21  9,1  | aPH
  21  9,1  | gPH
@@ -615,12 +635,17 @@
  20 10,4  | LENaPE
  20  1,2  - LEPaS
  20 10,6  | LESEd
+ 20  7,2  - LEaNS
  20 10,6  | LEbES
  20 10,6  | LEgES
  20 10,6  | LEnES
+ 20  7,2  - LEsSN
+ 20  7,2  - LiENS
  20 10,6  | NEnES
  20 10,6  | NEvES
  20 10,7  | NPEEL
+ 20  7,2  - NiELS
+ 20  7,2  - NoELS
  20  1,2  - PELeS
  20  1,2  - PELtS
  20 10,4  | PENdLE
@@ -694,7 +719,9 @@
  19  2,2  - EPiL
  19  7,10 - ESP
  19  3,4  - LENOS
+ 19  7,2  - LEP
  19  3,4  - LaPON
+ 19  7,2  - NEP
  19  4,8  - PERN
  19  9,2  - PES
  19  2,2  - PEaL
@@ -723,15 +750,12 @@
  19  7,1  | QuINS
  19  2,2  - SEeP
  19  7,2  - SEeP
- 19  7,1  | SPINdLE
  19  2,2  - SPaN
  19  2,2  - SPiN
  19  3,8  - SPuRL
  19  3,8  - SPuRN
  19  7,2  - SeEP
  19  8,10 - SpL
- 19  7,10 - iPL
- 19  7,10 - sPL
  18  9,9  | CLi
  18  9,9  | CLk
  18  9,9  | CLo
@@ -757,16 +781,20 @@
  18  9,1  | LEHi
  18  9,1  | LEHr
  18  8,6  | LEPUS
+ 18  7,2  - LEaN
+ 18  7,2  - LEoN
+ 18  7,2  - LaEN
+ 18  7,2  - LiEN
  18 10,7  | NEEPS
+ 18  7,2  - NEaL
  18 10,7  | NPEeL
+ 18  7,2  - NoEL
  18 10,7  | PEELS
  18 10,7  | PEENS
  18  1,4  - PELaNOS
  18 10,5  | PENSE
  18 10,4  | PENSeE
  18 10,4  | PEStLE
- 18  7,2  | PINoLE
- 18  7,2  | PINtLE
  18  5,5  - PIQuES
  18  7,6  | PLEAS
  18  7,6  | PLEASe
@@ -830,19 +858,31 @@
  17  3,4  - LENOs
  17  8,6  | LEPUs
  17  4,8  - LERP
- 17  9,10 - LEi
+ 17  7,2  - LESe
+ 17  7,2  - LESs
+ 17  7,2  - LESt
  17  3,4  - LEmON
- 17  9,10 - LEo
  17  1,2  - LaNES
+ 17  7,2  - LaP
  17  1,2  - LeNES
+ 17  7,2  - LeP
  17  8,6  | LePUS
  17  1,2  - LiNES
+ 17  7,2  - LiP
  17  1,8  - LiSPER
+ 17  7,2  - LoP
  17  1,2  - LoPE
  17  1,2  - LuNES
  17  1,2  - LuPE
  17  8,6  | LuPUS
+ 17  7,2  - NESe
+ 17  7,2  - NESh
+ 17  7,2  - NESs
+ 17  7,2  - NESt
+ 17  7,2  - NaP
  17  1,2  - NaPE
+ 17  7,2  - NeP
+ 17  7,2  - NiP
  17  1,2  - NoPE
  17  1,2  - NuPE
  17  9,2  - PE
@@ -906,10 +946,8 @@
  17  1,2  - SENaL
  17  7,2  - SEP
  17  9,2  | SHaPEN
- 17  8,10 - SLd
  17  1,8  - SLoPER
  17  3,8  - SLoRP
- 17  8,10 - SLt
  17  3,8  - SLuRP
  17  1,8  - SNaPER
  17  3,8  - SNeRP
@@ -920,7 +958,6 @@
  17  8,7  | SPUNk
  17  8,7  | SPUrL
  17  8,7  | SPUrN
- 17  7,10 - SPl
  17  7,10 - SPp
  17  4,7  - ShEQEL
  17  7,10 - ShP
@@ -958,24 +995,42 @@
  16  1,2  - LEPa
  16  2,8  - LEPeR
  16 10,5  | LEPrE
+ 16  7,2  - LEaS
+ 16  7,2  - LEeS
+ 16  7,2  - LEoS
+ 16  7,2  - LEsS
+ 16  7,2  - LEtS
  16  2,2  - LaEN
  16 10,5  | LaPSE
+ 16  7,2  - LaSE
+ 16  7,2  - LeES
  16  2,8  - LePER
  16  4,8  - LeRP
+ 16  7,2  - LeSE
  16  2,2  - LiEN
+ 16  7,2  - LiES
  16 10,5  | LiPSE
+ 16  7,2  - LiSE
  16  8,1  | LiSPS
  16  2,8  - LoPER
+ 16  7,2  - LoSE
+ 16  7,2  - LuES
  16 10,7  | NEEP
  16 10,8  | NEEP
  16 10,7  | NEEPs
  16  1,2  - NEPa
  16  2,8  - NEPeR
+ 16  7,2  - NEsS
+ 16  7,2  - NEtS
  16 10,7  | NPEEl
  16  8,6  | NaPU
  16 10,7  | NeEPS
  16  2,8  - NePER
+ 16  7,2  - NeSE
+ 16  7,2  - NiES
  16  2,2  - NoEL
+ 16  7,2  - NoES
+ 16  7,2  - NoSE
  16 10,7  | PEEL
  16 10,8  | PEEL
  16 10,7  | PEELe
@@ -1001,7 +1056,6 @@
  16  2,2  - PEtS
  16  9,2  | PHENoL
  16  9,2  | PHENyL
- 16  7,2  | PIStLE
  16  8,5  | PLENUmS
  16  1,2  - PLEa
  16 10,7  | PLEaS
@@ -1180,9 +1234,7 @@
  15  6,7  - EQPt
  15  9,5  | ESPeC
  15  1,7  - ESPiNEL
- 15  4,4  - EbON
  15  9,1  | EdHS
- 15  8,2  - EmP
  15  8,2  - EsP
  15  9,4  - EsQ
  15  9,1  | EtHS
@@ -1269,7 +1321,6 @@
  15  7,2  - SEeL
  15  7,2  - SEeN
  15  7,2  - SEpN
- 15  7,2  | SINdLE
  15  5,5  - SINoPLE
  15  2,2  - SLoN
  15  2,7  - SPELEaN
@@ -1297,7 +1348,6 @@
  15  1,2  - SPuE
  15  8,3  | SPuES
  15  8,3  | SPuN
- 15  4,8  - SQRt
  15  3,5  - SQuIN
  15  8,8  | SUQ
  15  8,8  | SUQs
@@ -1343,6 +1393,8 @@
  15  5,1  | kLOPS
  15  5,1  | kNOPS
  15  5,1  | kNOSP
+ 15  7,2  - lEP
+ 15  7,2  - nEP
  15  9,2  - oLP
  15  8,4  - oPEN
  15  8,7  | oPUS
@@ -1358,7 +1410,6 @@
  15  8,7  | sPUE
  15  9,2  - uNP
  15  7,2  - yEP
- 14  9,9  | CQ
  14  4,3  | DP
  14  4,3  | DPt
  14  4,3  | DiSPEL
@@ -1389,7 +1440,6 @@
  14  9,3  | HELPS
  14  9,3  | HoPES
  14  9,3  | HyPES
- 14  7,3  | ISoLN
  14  7,7  | LEAPS
  14 10,5  | LENSE
  14  5,7  - LENaPE
@@ -1613,7 +1663,6 @@
  14  8,2  | aSPS
  14 10,7  | bEEPS
  14  3,4  - bENO
- 14  9,10 - cL
  14 10,7  | cLEP
  14  6,6  - cLEPe
  14  6,6  - cLEPt
@@ -1639,13 +1688,11 @@
  14  8,10 - hP
  14  8,4  - iPL
  14  8,4  - iPSE
- 14  9,4  - iQS
  14 10,7  | jEEPS
  14 10,7  | kEEPS
  14 10,8  | kELP
  14  3,4  - kENO
  14  3,4  - lENO
- 14  9,10 - lL
  14  3,4  - mENO
  14 10,7  | nEEPS
  14  1,4  - oLPE
@@ -1673,7 +1720,6 @@
  13  6,7  - ELoPES
  13  2,7  - ENSPELl
  13  2,7  - ENSPElL
- 13  7,10 - ENc
  13  9,6  | EPiC
  13  2,5  - EPuLIS
  13  8,2  - EeLS
@@ -1877,10 +1923,8 @@
  13 11,9  | ShP
  13 11,9  | SiP
  13  1,4  - SiPE
- 13  7,10 - SmL
  13 11,9  | SoP
  13  1,4  - SoPE
- 13  7,10 - SpL
  13 11,9  | SpP
  13 11,9  | SsP
  13  8,6  | SuNUP
@@ -1914,7 +1958,6 @@
  13  3,5  - eSPINEL
  13  8,6  | fELUP
  13  5,2  | fOPS
- 13  9,8  - fP
  13  7,2  | gIPS
  13  3,2  - hEP
  13  7,2  | hIPS
@@ -1922,7 +1965,6 @@
  13  5,2  | hOSP
  13  8,4  - iPS
  13  1,4  - iPSE
- 13  7,10 - iSL
  13  8,2  - iSLE
  13  3,2  - kEP
  13  7,2  | kIPS
@@ -1932,7 +1974,6 @@
  13  5,2  | lOPS
  13  7,2  | mIPS
  13  5,2  | mOPS
- 13  7,10 - mSL
  13  3,2  - nEP
  13  7,2  | nIPS
  13  2,2  - oLES
@@ -2017,8 +2058,6 @@
  12  9,3  | HyPS
  12  6,5  - INEPt
  12  6,5  - INSP
- 12  6,5  - IQS
- 12  7,3  | IStLE
  12  7,7  | LEANS
  12 10,6  | LENE
  12 10,8  | LENE
@@ -2052,8 +2091,6 @@
  12 10,7  | LiENS
  12  1,4  - LiNE
  12  3,5  - LiPINS
- 12  9,10 - Ll
- 12  9,10 - Lo
  12  1,4  - LoNE
  12  5,1  | LoOP
  12  4,8  - LoRN
@@ -2321,6 +2358,7 @@
  12  2,2  - SNeE
  12  8,3  | SNiPE
  12  8,3  | SNiPS
+ 12  5,2  | SOLN
  12  5,2  | SOPh
  12  5,2  | SOPs
  12 10,7  | SPEc
@@ -2343,6 +2381,9 @@
  12  3,5  - SPLINEs
  12  1,7  - SPLiNE
  12  5,1  | SPONg
+ 12  5,1  | SPOiL
+ 12  5,1  | SPOoL
+ 12  5,1  | SPOoN
  12  2,2  - SPa
  12 10,6  | SPaE
  12  2,7  - SPaLE
@@ -2373,6 +2414,7 @@
  12  8,3  | SuQS
  12 11,6  | SuQS
  12 10,7  | SwEP
+ 12  5,1  | SwOLN
  12  5,1  | aLOP
  12  2,7  - aLPEEN
  12  3,5  - aLPINES
@@ -2434,6 +2476,7 @@
  12  8,4  - hP
  12 10,6  | iPSE
  12  9,1  | iSH
+ 12  5,1  | iSOLN
  12 10,7  | jEEP
  12 10,8  | jEEP
  12 10,7  | kEEP
@@ -2503,8 +2546,6 @@
  11  2,7  - ELoPES
  11  7,10 - ESc
  11  7,10 - ESp
- 11  7,10 - ESq
- 11  8,2  - EaN
  11  8,2  - EeL
  11  8,2  - EeN
  11  8,2  - EoN
@@ -2519,11 +2560,8 @@
  11  9,3  | HoP
  11  9,3  | HuP
  11  9,3  | HyP
- 11  7,3  | INfL
  11  6,5  - INsP
- 11  7,3  | INtL
  11  7,3  | IPs
- 11  6,5  - IQs
  11  7,7  | LEAN
  11  7,7  | LEANs
  11  7,7  | LEANt
@@ -2536,7 +2574,13 @@
  11 11,7  | LESSN
  11 11,6  | LESSeN
  11 11,6  | LESSoN
+ 11  7,2  - LEa
  11  3,8  - LEaRN
+ 11  7,2  - LEe
+ 11  7,2  - LEo
+ 11  7,2  - LEp
+ 11  7,2  - LEt
+ 11  7,2  - LEu
  11  7,2  | LIEN
  11  5,5  - LINEuPS
  11  7,2  | LINS
@@ -2549,36 +2593,55 @@
  11  3,5  - LaPIN
  11  1,8  - LaPSER
  11 11,6  | LaPSES
+ 11  7,2  - LaS
  11  1,2  - LaSE
  11  1,4  - LaSE
  11  7,7  | LeAP
+ 11  7,2  - LeE
  11  1,2  - LeSE
  11  1,4  - LeSE
  11 11,6  | LeSSEN
+ 11 10,10 - Li
+ 11  7,2  - LiE
  11  8,6  | LiNUS
  11  5,1  | LiONS
  11  3,5  - LiPIN
+ 11  7,2  - LiS
  11  1,2  - LiSE
  11  1,4  - LiSE
  11 10,10 - Lo
+ 11  7,2  - LoE
  11  7,1  | LoINS
  11  5,1  | LoONS
  11  1,2  - LoSE
  11  1,4  - LoSE
+ 11  7,2  - LuE
  11  3,5  - LuPIN
  11  1,2  - LySE
  11  1,4  - LySE
  11  7,7  | NEAL
  11  5,7  - NEPaL
+ 11  7,2  - NEa
+ 11  7,2  - NEe
+ 11  7,2  - NEo
+ 11  7,2  - NEp
+ 11  7,2  - NEt
+ 11  5,2  | NOEL
  11  3,7  - NPeEL
+ 11  7,2  - NaE
  11 11,4  | NaPLESS
  11  7,7  | NeAP
+ 11  7,2  - NeE
  11  1,2  - NeSE
  11  1,4  - NeSE
+ 11 10,10 - Ni
+ 11  7,2  - NiS
  11 10,10 - No
+ 11  7,2  - NoS
  11  1,2  - NoSE
  11  1,4  - NoSE
  11 11,6  | NoSSEL
+ 11  7,2  - NuS
  11  5,3  | OPa
  11  5,3  | OPp
  11  5,3  | OPs
@@ -2648,6 +2711,7 @@
  11 11,6  | PLuSES
  11  8,6  | PNEUm
  11  5,2  | POLk
+ 11  5,2  | POLl
  11  5,2  | POLo
  11  5,2  | POLs
  11  5,2  | POLt
@@ -2659,7 +2723,11 @@
  11  5,2  | PONy
  11  5,4  - POb
  11  5,4  - POd
+ 11  5,2  | POiL
+ 11  5,2  | POlL
  11  5,4  - POn
+ 11  5,2  | POoL
+ 11  5,2  | POoN
  11  5,4  - POs
  11  5,4  - POt
  11  9,6  | PSEC
@@ -2826,8 +2894,6 @@
  11  8,4  - hEPS
  11  4,8  - hERP
  11  7,10 - hP
- 11  8,1  | iQS
- 11 11,7  | iQS
  11  8,2  - iSL
  11  1,2  - iSLE
  11  1,4  - iSLE
@@ -2843,6 +2909,7 @@
  11  5,5  - rIPENS
  11  5,7  - sEQ
  11  9,2  | sHLEP
+ 11  5,2  | sOLN
  11  7,1  | sPIES
  11  4,8  - tERP
  11  9,2  - tLN
@@ -2854,6 +2921,7 @@
  10 10,8  | EELS
  10  9,2  - EL
  10  5,1  | ELONg
+ 10  5,1  | ELOiN
  10 10,6  | ELSE
  10  1,2  - ELSa
  10  1,2  - ELSe
@@ -2870,12 +2938,11 @@
  10  9,2  - ELs
  10  9,2  - ELt
  10  9,2  - EN
- 10  9,7  | ENCL
  10  5,1  | ENOLs
+ 10  5,1  | ENOiL
  10 10,6  | ENSE
  10  1,2  - ENSe
  10 10,5  | ENSuE
- 10  9,2  - ENc
  10  9,2  - ENd
  10  9,2  - ENg
  10  9,2  - ENs
@@ -2897,7 +2964,6 @@
  10  8,2  - ESs
  10  8,2  - ESt
  10  8,2  - ESu
- 10  9,2  - EaN
  10  5,1  | EbONS
  10  4,4  - EdO
  10 10,9  | EdP
@@ -3244,6 +3310,8 @@
  10  3,8  - SNERp
  10  1,2  - SNEe
  10  8,3  | SNElL
+ 10  5,1  | SNOoL
+ 10  5,1  | SNOwL
  10  2,7  - SNaPE
  10  2,7  - SNiPE
  10  3,7  - SPEEL
@@ -3327,7 +3395,6 @@
  10  6,6  - cLoNE
  10  6,6  - cLoNS
  10  5,2  | cOP
- 10  6,6  - cQ
  10  6,6  - caNEL
  10  6,6  - ciNEL
  10  6,6  - coLEN
@@ -3439,7 +3506,6 @@
  10 10,7  | tEENS
  10 10,5  | tENSE
  10  7,2  | tIP
- 10  7,5  | tLN
  10  5,2  | tOP
  10  5,8  - tRP
  10  2,4  - uLE
@@ -3490,7 +3556,6 @@
   9  4,8  - EaRN
   9  9,4  - EdP
   9  9,4  - EmP
-  9  8,2  - EmS
   9  9,4  - EsP
   9  8,2  - EsS
   9  9,4  - ExP
@@ -3571,6 +3636,10 @@
   9  5,2  | LONd
   9  5,2  | LONg
   9  5,2  | LONk
+  9  5,2  | LOiN
+  9  5,2  | LOoN
+  9  5,2  | LOwN
+  9  5,2  | LOyN
   9  9,7  | LSC
   9  8,8  | LUE
   9  8,8  | LUEs
@@ -3637,9 +3706,13 @@
   9  5,5  - NIPaS
   9  5,2  | NOES
   9  5,2  | NOLd
+  9  5,2  | NOLl
   9  5,2  | NOLo
   9  5,2  | NOLt
   9  5,4  - NOS
+  9  5,2  | NOeL
+  9  5,2  | NOiL
+  9  5,2  | NOlL
   9  4,7  - NPEeL
   9  9,6  | NSEC
   9  8,8  | NUS
@@ -3827,7 +3900,6 @@
   9  7,2  - SEc
   9  7,2  - SEe
   9  8,3  | SEePS
-  9  7,2  - SEm
   9  1,7  - SEmPLE
   9  7,2  - SEp
   9  7,2  - SEq
@@ -4001,8 +4073,6 @@
   9  8,7  | aNUS
   9  8,1  | aPSES
   9 11,7  | aPSES
-  9  8,2  - aSE
-  9  2,4  - aSE
   9  3,7  - aSLEEP
   9 11,4  | aSPENS
   9  4,2  | bDLE
@@ -4015,6 +4085,7 @@
   9  3,7  - bLEEPS
   9  8,7  | bLUE
   9  5,2  | bONS
+  9  5,2  | bOSN
   9  5,1  | cLOES
   9  8,7  | cLUE
   9  5,2  | cOLS
@@ -4046,7 +4117,6 @@
   9  8,7  | fLUS
   9  5,2  | fONS
   9  7,5  | fP
-  9  5,6  | fP
   9  3,2  - gEL
   9  3,2  - gEN
   9  3,5  - gENIPS
@@ -4056,6 +4126,8 @@
   9  7,2  | gINS
   9  8,7  | gLUE
   9  8,7  | gNUS
+  9  5,2  | gOEL
+  9  5,2  | gOEN
   9  7,7  | hEAP
   9  3,2  - hEL
   9  5,7  - hELPS
@@ -4074,29 +4146,29 @@
   9  2,4  - iSE
   9  8,2  | iSLES
   9  7,2  | jINS
+  9  5,2  | jOEL
   9  5,2  | jOLS
   9  5,7  - kELPS
   9  3,2  - kEN
   9  7,2  - kES
   9  8,7  | kEUP
   9  7,2  | kINS
+  9  5,2  | kOEL
   9  7,7  | lEAP
   9  3,2  - lEN
   9 11,7  | lESSN
   9  7,2  | lIEN
   9  7,2  | lINS
   9  3,2  - mEL
-  9  9,2  - mEL
   9  3,2  - mEN
-  9  9,2  - mEN
   9  8,6  | mENU
   9  7,2  - mES
   9  7,2  | mIEN
   9  7,2  | mINS
   9  5,2  | mOLS
   9  5,2  | mONS
-  9  9,2  - mSL
   9  7,7  | nEAP
+  9  5,2  | nOEL
   9  7,2  - oES
   9  8,2  - oES
   9  4,1  | oLDEN
@@ -4176,7 +4248,6 @@
   9  3,2  - yEN
   9  7,2  - yES
   9  7,2  | yINS
-  9  3,2  - zEL
   9  3,2  - zEN
   9  8,6  | zENU
   9  5,2  | zOLS
@@ -4227,8 +4298,6 @@
   8 10,6  | ELsE
   8  2,2  - ELt
   8 10,6  | ELvE
-  8  9,7  | ENC
-  8  9,7  | ENCl
   8  9,7  | ENCy
   8  4,1  | ENDS
   8 10,7  | ENEd
@@ -4273,7 +4342,6 @@
   8  9,2  - ESs
   8  9,2  - ESt
   8  9,2  - ESu
-  8  3,2  - EaN
   8 10,7  | EbEN
   8  9,7  | EcCL
   8 10,7  | EdEN
@@ -4284,7 +4352,6 @@
   8 10,6  | ElNE
   8  9,2  - ElS
   8  9,2  - EmS
-  8  9,7  | EnCL
   8  9,2  - EnS
   8 10,6  | EoLE
   8  3,2  - EoN
@@ -4507,6 +4574,7 @@
   8  5,1  | LyON
   8 10,6  | LySE
   8  3,5  - LySIN
+  8  7,2  - NE
   8  5,7  | NE
   8 10,8  - NE
   8 10,8  | NEE
@@ -4875,7 +4943,6 @@
   8 10,6  | SLaE
   8  2,7  - SLaNE
   8 11,5  | SLaPS
-  8  7,5  | SLd
   8  8,3  | SLeE
   8 10,6  | SLeE
   8  2,7  - SLiNE
@@ -4885,7 +4952,6 @@
   8  2,7  - SLoNE
   8 11,5  | SLoPS
   8  2,2  - SLt
-  8  7,5  | SLt
   8  8,3  | SLuE
   8 10,6  | SLuE
   8  3,8  - SLuR
@@ -4914,12 +4980,19 @@
   8 10,6  | SNyE
   8  5,2  | SOLa
   8  5,2  | SOLd
+  8  5,2  | SOLn
   8  5,2  | SOLo
   8  5,2  | SOLs
   8  5,2  | SONd
   8  5,2  | SONg
   8  5,2  | SONk
   8  5,2  | SONs
+  8  5,2  | SOiL
+  8  5,2  | SOlN
+  8  5,2  | SOoL
+  8  5,2  | SOoN
+  8  5,2  | SOwL
+  8  5,2  | SOwN
   8  3,7  - SPEEd
   8  3,7  - SPEEl
   8  3,7  - SPEEn
@@ -5056,7 +5129,6 @@
   8  4,7  - bLEEP
   8  7,1  | bLIN
   8  4,5  - bLIPS
-  8  7,5  | bLS
   8 10,6  | cELE
   8 10,8  | cELE
   8  6,6  - cELlS
@@ -5108,7 +5180,6 @@
   8 10,8  | eELS
   8  5,1  | eLON
   8 10,6  | eLSE
-  8  9,7  | eNCL
   8  4,5  - eNISLE
   8  5,1  | eNOL
   8 10,6  | eNSE
@@ -5162,7 +5233,6 @@
   8  8,6  | iLEUS
   8  9,7  | iNCL
   8  4,5  - iNISLE
-  8  4,4  - iNO
   8  3,7  - iNSEP
   8  8,6  | iNSUE
   8  9,4  - iPS
@@ -5213,7 +5283,6 @@
   8  3,7  - nPEEL
   8  4,7  - nPEEL
   8  3,4  - oE
-  8  7,5  | oLE
   8 10,7  | oLES
   8 11,5  | oLPES
   8  3,7  - oLPES
@@ -5391,8 +5460,6 @@
   7  6,7  - ENSeEL
   7  6,7  - ENSiLE
   7  2,7  - ENSuE
-  7  9,4  - ENc
-  7  6,7  - ENcL
   7  4,6  - ENcuP
   7  9,4  - ENd
   7  9,4  - ENg
@@ -5421,7 +5488,6 @@
   7  7,10 - ES
   7  9,7  | ESC
   7  9,7  | ESCa
-  7  9,4  - EaN
   7  5,1  | EbON
   7  5,1  | EcOL
   7  5,1  | EcON
@@ -5469,7 +5535,6 @@
   7  7,3  | INf
   7  6,5  - INfL
   7  7,3  | INn
-  7  7,3  | INo
   7  7,3  | INs
   7  7,3  | INt
   7  6,5  - INtEL
@@ -5553,7 +5618,6 @@
   7  7,2  | LISs
   7  7,2  | LISt
   7  5,5  - LIaNE
-  7  7,2  | LIbS
   7  7,2  | LIdS
   7  5,5  - LIeNS
   7  7,2  | LIeS
@@ -5649,7 +5713,6 @@
   7  5,5  - NIPa
   7  5,5  - NIPs
   7  7,2  | NISt
-  7  7,2  | NIbS
   7  5,5  - NIeLS
   7  7,2  | NIeS
   7  5,5  - NIfLE
@@ -5657,6 +5720,7 @@
   7  7,2  | NImS
   7  7,2  | NIpS
   7  5,5  - NIrLS
+  7  5,2  | NOEl
   7  5,2  | NOEs
   7  5,2  | NOEx
   7  5,2  | NOSh
@@ -5709,6 +5773,10 @@
   7  5,3  | ONs
   7  5,3  | ONt
   7  5,3  | ONy
+  7  5,3  | ObL
+  7  5,3  | OiL
+  7  5,3  | OwL
+  7  5,3  | OwN
   7  4,1  | PED
   7  4,1  | PEDa
   7  4,1  | PEDs
@@ -6068,18 +6136,14 @@
   7  2,8  - aNSER
   7  8,6  | aNSU
   7 11,5  | aPSES
-  7  2,2  - aSE
-  7  9,2  - aSE
   7  4,7  - bEEPS
   7  7,1  | bEIN
   7  4,8  - bERN
   7  9,2  | bHP
   7  8,6  | bLEU
   7  4,5  - bLIP
-  7  5,4  - bON
   7  3,7  - cEPES
   7  4,8  - cERN
-  7  9,2  - cL
   7  6,6  - cLEP
   7  4,7  - cLEP
   7  4,5  - cLIP
@@ -6118,7 +6182,6 @@
   7  4,5  - ePIL
   7  2,2  - eSE
   7  9,2  - eSE
-  7  9,8  - fE
   7  7,7  | fEAL
   7  4,8  - fERN
   7  4,5  - fLIP
@@ -6183,7 +6246,6 @@
   7  7,1  | mEIN
   7  4,8  - mERL
   7  3,2  - mES
-  7  9,2  - mES
   7  5,7  - mESEL
   7  5,4  - mON
   7  9,6  | mSEC
@@ -6275,7 +6337,6 @@
   7  7,7  | wEAL
   7  7,7  | wEAN
   7  4,7  - wEEPS
-  7  3,2  - wES
   7  5,5  - wISEN
   7  5,2  | wOES
   7  5,4  - wON
@@ -6288,7 +6349,6 @@
   7  7,1  | zEIN
   6  7,9  | APE
   6  7,9  | ASP
-  6  9,9  | CL
   6  4,3  | DESc
   6  4,3  | DESi
   6  4,3  | DESk
@@ -6323,7 +6383,6 @@
   6  4,3  | DuNES
   6  4,3  | DuP
   6  4,3  | DyNES
-  6  7,8  | EAN
   6  7,8  | EArL
   6  7,8  | EArN
   6  6,7  - EELS
@@ -6361,7 +6420,6 @@
   6  3,7  - ENSE
   6  6,7  - ENSE
   6  1,4  - ENSe
-  6 10,9  | ENc
   6 10,9  | ENd
   6 10,9  | ENg
   6 11,5  | ENoLS
@@ -6402,7 +6460,6 @@
   6  2,2  - ESt
   6  9,4  - ESt
   6  9,4  - ESu
-  6 10,9  | EaN
   6 10,6  | EaSE
   6  3,7  - EaSEL
   6  6,7  - EaSEL
@@ -6424,13 +6481,11 @@
   6  9,4  - ElS
   6 10,6  | ElSE
   6  3,5  - ElSIN
-  6  8,2  - Em
   6  9,2  - Em
   6 10,7  | EmES
   6  9,4  - EmS
   6  8,7  | EmULS
   6  9,2  - En
-  6  9,7  | EnC
   6  4,1  | EnDS
   6  9,4  - EnS
   6 10,6  | EnSE
@@ -6499,7 +6554,6 @@
   6  6,5  - IdLES
   6  6,5  - IsLES
   6  6,5  - ItEN
-  6  9,8  | LCa
   6  9,8  | LCd
   6  9,8  | LCm
   6  5,7  - LEEdS
@@ -6583,6 +6637,7 @@
   6  5,5  - LIvES
   6  4,1  | LNDg
   6  5,2  | LOE
+  6  7,2  - La
   6  4,5  - LaINE
   6 11,5  | LaNES
   6  3,6  - LaNcES
@@ -6601,12 +6656,14 @@
   6  3,7  - LeSE
   6  8,1  | LeSS
   6 11,6  | LeSSN
+  6  7,2  - Li
   6 11,5  | LiENS
   6  4,7  - LiENS
   6 11,5  | LiNES
   6  8,1  | LiSE
   6  3,7  - LiSE
   6  8,1  | LiSS
+  6  7,2  - Lo
   6  4,5  - LoINS
   6  7,1  | LoIS
   6  5,1  | LoOS
@@ -6615,12 +6672,12 @@
   6  8,1  | LoSS
   6  8,7  | LoUN
   6  8,7  | LoUSE
+  6  7,2  - Lu
   6  7,1  | LuIS
   6 11,5  | LuNES
   6  3,5  - LwEI
   6  8,1  | LySE
   6  3,7  - LySE
-  6  9,8  | NCo
   6  3,2  - NE
   6  4,7  - NEELa
   6  5,7  - NEELa
@@ -6674,12 +6731,14 @@
   6  5,4  - NO
   6  5,2  | NOS
   6  8,2  | NSEc
+  6  7,2  - Na
   6  5,7  | Na
   6 10,8  - Na
   6  4,5  - NaILS
   6  7,1  | NaIS
   6  5,1  | NaOS
   6  3,5  - NaSI
+  6  7,2  - Ne
   6  5,7  | Ne
   6 10,8  - Ne
   6  2,7  - NeELE
@@ -6687,9 +6746,12 @@
   6  8,1  | NeSE
   6  3,7  - NeSE
   6  8,1  | NeSS
+  6  7,2  - Ni
+  6 10,8  - Ni
   6 11,5  | NiELS
   6  4,7  - NiELS
   6  3,5  - NiSI
+  6  7,2  - No
   6  5,7  | No
   6 10,8  - No
   6 11,5  | NoELS
@@ -6698,6 +6760,7 @@
   6  8,1  | NoSE
   6  3,7  - NoSE
   6  4,7  - NpEEL
+  6  7,2  - Nu
   6 10,8  - Nu
   6  5,3  | ON
   6  6,4  - ON
@@ -7213,7 +7276,6 @@
   6  9,4  - eLS
   6  8,1  | eLSE
   6  3,5  - eLSIN
-  6  9,7  | eNC
   6  5,1  | eNOS
   6  9,4  - eNS
   6  8,1  | eNSE
@@ -7529,7 +7591,6 @@
   6  4,1  | zEDS
   6 10,7  | zEES
   6 10,8  | zEES
-  6 10,8  | zEL
   6 10,8  | zEN
   6  8,7  | zEUS
   6  5,5  - zIPS
@@ -7624,7 +7685,6 @@
   5  5,1  | ENOs
   5  5,1  | ENOw
   5  6,7  - ENSuE
-  5  4,6  - ENcL
   5  3,7  - ENdE
   5  6,7  - ENdE
   5  6,7  - ENdS
@@ -7830,8 +7890,6 @@
   5  4,7  - LiEN
   5  4,5  - LiIN
   5 11,6  | LiNS
-  5  7,6  | Ll
-  5  7,6  | Lo
   5 11,5  | LoESS
   5 11,6  | LoESS
   5  4,5  - LoIN
@@ -8085,7 +8143,6 @@
   5  4,7  - SNEEr
   5 11,5  | SNEdS
   5  4,5  - SNIEs
-  5  7,1  | SNIb
   5  4,5  - SNIdE
   5  7,1  | SNIp
   5  4,5  - SNIpE
@@ -8230,7 +8287,6 @@
   5  4,2  - aS
   5  9,2  - aS
   5  7,10 - aS
-  5  9,4  - aSE
   5 11,8  | aSP
   5  8,1  | aSSE
   5  8,2  | aSSE
@@ -8245,7 +8301,6 @@
   5 11,5  | bLESS
   5 11,6  | bLESS
   5  4,5  - bLIN
-  5  5,4  - bOS
   5  7,1  | bPI
   5  4,5  - bPI
   5  8,1  | bPS
@@ -8258,7 +8313,6 @@
   5  6,6  - cEPs
   5  8,1  | cESS
   5  9,2  | cHN
-  5  7,6  | cL
   5  4,5  - cLIN
   5  6,6  - cPuS
   5  9,7  | cSC
@@ -8312,8 +8366,6 @@
   5  8,2  | eSSE
   5 11,8  | eSSE
   5  8,7  | eSU
-  5  7,8  | fANE
-  5  7,8  | fANS
   5  9,8  | fCS
   5  9,7  | fEC
   5  4,7  - fEELS
@@ -8381,10 +8433,8 @@
   5 11,6  | lESSN
   5  8,7  | lEU
   5  5,5  - lIP
-  5  7,6  | lL
   5  9,7  | lSC
   5  8,8  | lUNE
-  5  9,2  - mE
   5  7,7  | mEA
   5  3,7  - mELES
   5  3,5  - mELIS
@@ -8508,7 +8558,6 @@
   5  4,5  - vEILS
   5  4,5  - vEINS
   5  5,5  - vIP
-  5  7,7  | wEA
   5  4,7  - wEENS
   5  5,4  - wOS
   5  5,7  - yEP
@@ -8522,9 +8571,7 @@
   4  7,9  | ANS
   4  9,9  | Cc
   4  9,9  | Ch
-  4  9,9  | Cl
   4  9,9  | Cp
-  4  9,9  | Cq
   4  4,3  | DaL
   4  4,3  | DaN
   4  4,3  | DaSE
@@ -8544,9 +8591,7 @@
   4  4,3  | DuN
   4  4,3  | DyES
   4  4,3  | DyN
-  4  7,8  | EAd
   4  7,8  | EAm
-  4  7,8  | EAn
   4  7,8  | EAr
   4  7,8  | EAt
   4  7,8  | EAu
@@ -8793,7 +8838,6 @@
   4  5,5  - LISs
   4  5,5  - LISt
   4  5,5  - LIaS
-  4  7,2  | LIb
   4  5,5  - LIbS
   4  5,5  - LIcE
   4  7,2  | LId
@@ -8848,6 +8892,8 @@
   4 11,7  | LeSS
   4  8,7  | LeU
   4  4,1  | LhD
+  4  3,2  - Li
+  4  3,4  - Li
   4  4,1  | LiD
   4  3,8  - LiER
   4 11,6  | LiES
@@ -8925,7 +8971,6 @@
   4  5,5  - NISi
   4  5,5  - NISt
   4  5,5  - NIaS
-  4  7,2  | NIb
   4  5,5  - NIbS
   4  5,5  - NIcE
   4  7,2  | NId
@@ -8962,7 +9007,6 @@
   4 11,8  | NSEc
   4  3,2  - Na
   4  3,4  - Na
-  4  4,1  | NaD
   4  4,5  - NaIS
   4  3,2  - Ne
   4  3,4  - Ne
@@ -8971,6 +9015,8 @@
   4 11,7  | NeSE
   4 11,6  | NeSS
   4 11,7  | NeSS
+  4  3,2  - Ni
+  4  3,4  - Ni
   4  4,1  | NiD
   4 11,6  | NiES
   4  4,7  - NiES
@@ -9124,7 +9170,6 @@
   4  8,3  | SaNE
   4  8,3  | SaNS
   4 11,6  | SaNS
-  4  4,8  - SaR
   4  5,6  - ScELp
   4  5,6  - ScENa
   4  5,6  - ScENd
@@ -9246,7 +9291,6 @@
   4  4,5  - aNIS
   4  3,5  - aNSI
   4  9,4  - aS
-  4  8,2  | aSE
   4  8,2  | aSS
   4 11,7  | aSSN
   4  8,8  | aUL
@@ -9332,7 +9376,6 @@
   4  5,2  | dOS
   4  8,8  | dUES
   4  8,8  | dUN
-  4  7,8  | eAN
   4  7,8  | eASE
   4  3,2  - eE
   4  9,4  - eE
@@ -9346,13 +9389,10 @@
   4  4,1  | eND
   4  3,7  - eNSE
   4 11,7  | eNSE
-  4  4,6  - eNcL
   4  9,4  - eS
   4  8,2  | eSE
   4  3,7  - eSNE
   4  8,2  | eSS
-  4  7,8  | fAN
-  4  9,8  | fC
   4  3,2  - fE
   4  7,2  - fE
   4  5,7  | fE
@@ -9479,7 +9519,6 @@
   4  9,4  - mE
   4  5,7  | mE
   4 10,8  - mE
-  4 10,8  | mEE
   4  4,5  - mEIN
   4  3,7  - mELE
   4  5,7  - mELE
@@ -9501,6 +9540,7 @@
   4  8,8  | mUN
   4  8,8  | mUSE
   4  3,2  - nE
+  4  7,2  - nE
   4  5,7  | nE
   4 10,8  - nE
   4 10,8  | nEE
@@ -9669,7 +9709,6 @@
   4  5,7  - wENE
   4 11,6  | wENS
   4  5,7  - wENS
-  4 10,8  | wES
   4  9,2  | wHS
   4  5,5  - wILE
   4  5,5  - wINE
@@ -9718,7 +9757,6 @@
   3  7,9  | ANs
   3  7,9  | ANt
   3  7,9  | ANy
-  3  7,9  | ASE
   3  7,9  | AaL
   3  7,9  | AbL
   3  7,9  | AiL
@@ -9730,7 +9768,6 @@
   3  7,9  | AvN
   3  7,9  | AwL
   3  7,9  | AwN
-  3  4,3  | DaE
   3  4,3  | DaS
   3  4,3  | DeE
   3  4,3  | DiE
@@ -9760,9 +9797,6 @@
   3  6,7  - ELs
   3  6,7  - ELt
   3  6,7  - EN
-  3  4,6  - ENc
-  3  6,7  - ENc
-  3  4,6  - ENcl
   3  4,6  - ENcy
   3  6,7  - ENd
   3  6,7  - ENg
@@ -9785,8 +9819,6 @@
   3 11,8  | ESSe
   3  8,2  | ESeS
   3 11,6  | ESeS
-  3  4,1  | EaD
-  3  6,7  - EaN
   3  8,7  | EaU
   3  8,7  | EcU
   3  4,6  - EccL
@@ -9804,7 +9836,6 @@
   3  4,7  - EmES
   3  8,7  | EmU
   3  4,1  | EnD
-  3  4,6  - EncL
   3  3,2  - Eo
   3  3,4  - Eo
   3  6,7  - EoN
@@ -9838,7 +9869,6 @@
   3  6,5  - INf
   3  6,5  - INk
   3  6,5  - INn
-  3  6,5  - INo
   3  6,5  - INs
   3  6,5  - INt
   3  6,5  - INv
@@ -9870,6 +9900,8 @@
   3  5,7  - LEv
   3  5,7  - LEx
   3  5,7  - LEy
+  3  7,2  | LI
+  3  5,5  - LI
   3  5,5  - LIb
   3  5,5  - LId
   3  5,5  - LIe
@@ -9938,6 +9970,8 @@
   3  5,7  - NEp
   3  5,7  - NEt
   3  5,7  - NEw
+  3  7,2  | NI
+  3  5,5  - NI
   3  5,5  - NIb
   3  5,5  - NId
   3  5,5  - NIg
@@ -9952,7 +9986,6 @@
   3  4,7  - NaE
   3 10,7  | NaE
   3  4,6  - NacE
-  3  5,1  | NcO
   3  4,7  - NeE
   3 10,7  | NeE
   3  7,1  | NeI
@@ -10013,7 +10046,6 @@
   3 11,6  | SEwS
   3  5,5  - SIE
   3  5,5  - SIEr
-  3  7,2  | SIb
   3  5,5  - SIcE
   3  7,2  | SId
   3  5,5  - SIdE
@@ -10140,7 +10172,6 @@
   3 11,7  | aNS
   3 11,7  | aSSE
   3  8,8  | aUS
-  3  5,6  - acLE
   3  5,6  - acNE
   3  4,1  | bED
   3  4,7  - bEES
@@ -10221,9 +10252,6 @@
   3 11,7  | eNS
   3 11,6  | eSES
   3 11,7  | eSSE
-  3  7,8  | fAE
-  3  7,8  | fAS
-  3  5,6  | fE
   3  4,1  | fED
   3  4,7  - fEES
   3  5,7  - fEES
@@ -10259,7 +10287,6 @@
   3  8,8  | hUE
   3  4,7  - iLE
   3 10,7  | iLE
-  3  5,1  | iNO
   3  8,1  | iNS
   3 11,7  | iNS
   3 11,8  | iSL
@@ -10299,7 +10326,6 @@
   3  5,7  - mESE
   3 11,6  | mESS
   3 11,7  | mESS
-  3  9,2  | mH
   3  5,5  - mIL
   3  5,5  - mIN
   3  5,5  - mISE
@@ -10427,17 +10453,13 @@
   3  4,1  | zED
   3  4,7  - zEES
   3  5,7  - zEES
-  3  5,7  - zEL
   3  5,7  - zEN
   2  7,9  | AE
   2  7,9  | AEr
   2  7,9  | AEs
   2  7,9  | AEt
   2  7,9  | AS
-  2  7,9  | ASa
   2  7,9  | ASb
-  2  7,9  | ASe
-  2  7,9  | ASg
   2  7,9  | ASh
   2  7,9  | ASk
   2  7,9  | ASp
@@ -10459,7 +10481,6 @@
   2  7,9  | ApE
   2  7,9  | ArE
   2  7,9  | ArS
-  2  7,9  | AsE
   2  7,9  | AsS
   2  7,9  | AtE
   2  7,9  | AuS
@@ -10584,7 +10605,6 @@
   2  6,5  - ISn
   2  6,5  - ISt
   2  6,5  - ISz
-  2  7,3  | Ib
   2  6,5  - IcE
   2  7,3  | Id
   2  6,5  - IdE
@@ -10599,7 +10619,6 @@
   2  6,5  - InS
   2  7,3  | Io
   2  6,5  - IpS
-  2  6,5  - IqS
   2  6,5  - IrE
   2  6,5  - IrS
   2  7,3  | Is
@@ -10607,16 +10626,12 @@
   2  6,5  - ItS
   2  6,5  - IvE
   2  4,6  - Lac
-  2  5,6  - Lca
   2  5,6  - Lcd
   2  5,6  - Lcm
   2  4,6  - Loc
   2  4,6  - Lsc
   2  4,6  - Luc
   2  4,6  - Lyc
-  2  5,6  - Nco
-  2  5,3  | Ob
-  2  6,4  - Ob
   2  5,3  | Od
   2  6,4  - Od
   2  5,3  | Oe
@@ -10633,7 +10648,6 @@
   2  6,4  - Os
   2  5,3  | Ow
   2  5,3  | Oy
-  2  6,8  - Rf
   2  5,7  - SEa
   2 11,9  | SEa
   2  4,6  - SEc
@@ -10771,9 +10785,6 @@
   2  3,6  - aESc
   2  5,5  - aIS
   2  4,6  - aNc
-  2  4,7  - aSE
-  2 10,7  | aSE
-  2 11,8  | aSE
   2  8,1  | aSS
   2 11,7  | aSS
   2 11,8  | aSS
@@ -10783,7 +10794,6 @@
   2 10,7  | bEE
   2  4,8  - bER
   2  5,5  - bIS
-  2  5,4  - bO
   2  8,8  | bU
   2  4,7  - cEE
   2  5,7  - cEE
@@ -10795,7 +10805,6 @@
   2  6,6  - cEsS
   2  5,5  - cIE
   2  5,5  - cIS
-  2  6,6  - cL
   2  6,6  - cLi
   2  6,6  - cLk
   2  6,6  - cLo
@@ -10835,7 +10844,6 @@
   2  8,8  | dU
   2  4,2  | eD
   2  4,8  - eER
-  2  4,6  - eNc
   2  5,4  - eO
   2  4,7  - eSE
   2 10,7  | eSE
@@ -10843,7 +10851,6 @@
   2  8,1  | eSS
   2 11,7  | eSS
   2 11,8  | eSS
-  2  7,8  | fA
   2  4,7  - fEE
   2  5,7  - fEE
   2 10,7  | fEE
@@ -10902,9 +10909,6 @@
   2  5,5  - lIE
   2  5,5  - lIS
   2  8,8  | lU
-  2  4,7  - mEE
-  2  5,7  - mEE
-  2 10,7  | mEE
   2  5,1  | mEO
   2  4,8  - mER
   2  8,1  | mES
@@ -10999,10 +11003,6 @@
   2 10,7  | wEE
   2  7,1  | wEI
   2  4,5  - wEI
-  2  4,8  - wER
-  2  8,1  | wES
-  2  5,7  - wES
-  2 11,7  | wES
   2  5,5  - wIS
   2  5,4  - wO
   2  8,1  | xES
@@ -11050,7 +11050,6 @@
   1  6,7  - El
   1  6,7  - Em
   1  6,7  - En
-  1  4,6  - Enc
   1  6,7  - Eo
   1  6,7  - Er
   1  6,7  - Es
@@ -11154,6 +11153,8 @@
   1  5,2  | jO
   1  7,2  | kI
   1  5,5  - kI
+  1  7,2  | lI
+  1  5,5  - lI
   1  5,2  | lO
   1  4,6  - lSc
   1  5,7  - mE
@@ -11163,6 +11164,8 @@
   1  5,2  | mO
   1  5,7  - nE
   1 10,8  | nE
+  1  7,2  | nI
+  1  5,5  - nI
   1  5,2  | nO
   1  5,7  - oE
   1 10,8  | oE
@@ -11208,8 +11211,5 @@
   0  5,6  - cc
   0  6,6  - cc
   0  6,6  - ch
-  0  6,6  - cl
   0  6,6  - cp
-  0  6,6  - cq
-  0  5,6  - fc
   0  5,6  - tc

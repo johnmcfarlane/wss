@@ -1,5 +1,4 @@
  44 11,3  | QaTS
- 44 11,6  | SQrT
  38 11,2  | VeNDS
  36  8,4  | QuENT
  35  8,4  | QuEST
@@ -7,6 +6,7 @@
  35 11,3  | iNTSV
  33  8,3  | SQuET
  32 11,3  | DeVS
+ 32 11,3  | DiVS
  32  8,6  | ESQ
  32  6,5  | QUaNTS
  32  6,5  | QUiNTS
@@ -87,7 +87,6 @@
  19 11,6  | SqQ
  19 11,6  | SuQ
  19 11,5  | eSQ
- 19 11,4  | iQS
  18  8,5  | DErV
  18  6,5  - DeNT
  18  6,5  - DoNT
@@ -118,7 +117,6 @@
  16 10,6  | OViST
  16  4,5  - QtD
  16  6,4  | SQUiNT
- 16  3,7  - SQrT
  16  6,6  | UNDuST
  16  6,6  | USeDNT
  16  3,7  - VaNS
@@ -199,7 +197,6 @@
  14 11,4  | ViS
  14 11,4  | VsS
  14  7,3  | hDQRS
- 14  4,7  - iQS
  13  8,3  | DaVENS
  13  8,5  - DeNS
  13  8,7  - DeNS
@@ -210,6 +207,7 @@
  13  8,7  - DiNS
  13  8,5  - DiNT
  13  8,7  - DiNT
+ 13  3,7  - DiVS
  13  8,5  - DoNS
  13  8,7  - DoNS
  13  8,5  - DoNT
@@ -230,7 +228,6 @@
  13  5,5  - SNeD
  13  5,7  - SNeD
  13  5,5  - SNoD
- 13  7,4  | SQRT
  13  8,4  | STEND
  13  6,5  | SUQ
  13  6,5  | SUQs
@@ -271,9 +268,6 @@
  12 11,4  | DuST
  12  8,6  | EQpT
  12  8,5  - NTh
- 12  6,5  - NaD
- 12  8,5  - NaD
- 12  8,7  - NaD
  12 11,4  | NaST
  12  6,5  - NeD
  12  8,5  - NeD
@@ -300,7 +294,6 @@
  12  8,5  | SEQ
  12  8,5  | SEQq
  12  8,4  | SNEaD
- 12  7,4  | SQRt
  12 11,6  | STD
  12  8,4  | STEVaN
  12  8,4  | STEVeN
@@ -352,7 +345,6 @@
  12 11,5  | iSNT
  12  8,5  - mTN
  12  7,5  - oNT
- 12  7,4  | sQRT
  12  6,5  | sUQ
  11  8,5  | DEVS
  11  8,5  | DEVaNT
@@ -455,6 +447,7 @@
  11  4,7  - VaN
  11  6,4  | VaUNTS
  11  6,3  | VeNUST
+ 11  4,5  - ViD
  11  4,5  - ViN
  11  4,7  - ViN
  11  8,2  | ViSNE
@@ -661,7 +654,6 @@
  10  8,3  | VeNED
  10  6,3  | VeNUS
  10  8,3  | ViNED
- 10 10,3  | ViNOD
  10  9,4  | aDDN
  10  8,3  | aNDES
  10  8,3  | aNTED
@@ -719,6 +711,7 @@
   9  8,3  | DiVES
   9  8,3  | DiVET
   9 10,3  | DiVOT
+  9  9,6  | DiVS
   9  3,7  - DoST
   9  3,7  - DoTS
   9  8,3  | DoVES
@@ -884,7 +877,6 @@
   9 11,5  | uS
   9  8,5  | vEND
   9  8,5  | wEND
-  9  8,5  | zEND
   8  9,5  | DDT
   8  8,5  | DENS
   8  8,5  | DENSe
@@ -946,7 +938,6 @@
   8 10,5  | NOVa
   8 10,5  | NOVo
   8  8,4  | NSEc
-  8  4,5  - NaD
   8  8,3  | NaVE
   8  4,5  - NeD
   8  8,4  | NeET
@@ -1137,7 +1128,6 @@
   7  6,5  - Da
   7  8,5  - Da
   7  8,7  - Da
-  7  8,4  | DaE
   7  6,4  | DaUNT
   7  6,5  - De
   7  8,5  - De
@@ -1170,8 +1160,6 @@
   7  6,3  | DuSUN
   7  8,4  | DyE
   7  8,6  | EVeS
-  7  8,6  | EaD
-  7  8,6  | EaN
   7  8,6  | EeN
   7  8,6  | ElD
   7  8,6  | EnD
@@ -1198,6 +1186,8 @@
   7  6,7  - Ne
   7  8,7  - Ne
   7  8,4  | NeE
+  7  8,5  - Ni
+  7  8,7  - Ni
   7  6,3  | NiDUS
   7  6,5  - No
   7  8,5  - No
@@ -1323,6 +1313,7 @@
   7  7,4  | VeRT
   7  8,3  | VeSE
   7 10,3  | VeTO
+  7  9,4  | ViD
   7  8,3  | ViSE
   7  8,3  | ViTE
   7  9,4  | VoD
@@ -1424,7 +1415,6 @@
   6 10,5  | DONT
   6 10,5  | DONaS
   6 10,5  | DONaT
-  6 10,5  | DONeT
   6 10,5  | DONgS
   6 10,5  | DONiS
   6 10,5  | DONuT
@@ -1476,7 +1466,6 @@
   6  4,7  - DkS
   6  9,4  | DoDS
   6  9,6  | DoDS
-  6  8,3  | DoNET
   6  9,6  | DoNS
   6  9,6  | DoNT
   6  4,7  - DoS
@@ -1911,6 +1900,8 @@
   5  7,4  | NeRD
   5  7,4  | NeRTS
   5  6,4  | NeUT
+  5 10,5  - Ni
+  5 10,7  - Ni
   5  8,3  | NiDE
   5 10,3  | NiTOS
   5 10,5  - No
@@ -2399,7 +2390,6 @@
   4  6,5  | NUn
   4  6,5  | NUs
   4  6,5  | NUt
-  4  9,4  | NaD
   4 10,4  | NaOS
   4 10,3  | NaSO
   4  8,3  | NaTE
@@ -2840,7 +2830,6 @@
   3  8,6  | EDo
   3  8,6  | EDp
   3  8,6  | EN
-  3  8,6  | ENc
   3  8,6  | ENd
   3  8,6  | ENg
   3  8,6  | ENs
@@ -2877,7 +2866,6 @@
   3 10,5  | NOx
   3 10,5  | NOy
   3  7,4  | NaR
-  3 10,4  | NcO
   3 10,4  | NeO
   3 10,4  | NoO
   3  7,4  | NoR
@@ -2991,7 +2979,6 @@
   3  7,4  | SoRT
   3  6,4  | SoU
   3 10,4  | SpOT
-  3  7,4  | SqRT
   3  6,4  | SsU
   3  9,4  | StD
   3 10,4  | StOT
@@ -3138,7 +3125,6 @@
   3  8,4  | iDE
   3 10,5  - iN
   3 10,7  - iN
-  3 10,4  | iNO
   3 10,5  | iON
   3 10,5  | jOTS
   3  6,5  | jUS
@@ -3220,7 +3206,6 @@
   3 10,5  | vON
   3  8,5  | wED
   3  8,5  | wEN
-  3 10,5  | wOD
   3 10,5  | wON
   3 10,5  | wOST
   3 10,5  | wOTS
@@ -3331,7 +3316,6 @@
   2 10,5  | SOy
   2  7,5  | SRi
   2 10,4  | SaO
-  2  7,4  | SaR
   2  7,4  | ScR
   2  7,4  | SeR
   2 10,4  | ShO
@@ -3403,13 +3387,11 @@
   2  8,5  | aET
   2  7,5  | aRS
   2  7,5  | aRT
-  2  8,4  | aSE
   2  8,4  | aTE
   2  8,5  | bET
   2 10,5  | bOS
   2 10,5  | bOT
   2 10,5  - bT
-  2 10,7  - bT
   2  6,5  | bU
   2 10,5  | cOS
   2 10,5  | cOT
@@ -3508,7 +3490,6 @@
   2  8,4  | uSE
   2  8,4  | uTE
   2  8,5  | vET
-  2  8,5  | wES
   2  8,5  | wET
   2 10,5  | wOS
   2 10,5  | wOT
@@ -3533,7 +3514,6 @@
   1  8,6  | Et
   1  8,6  | Ew
   1  8,6  | Ex
-  1 10,6  | Ob
   1 10,6  | Od
   1 10,6  | Oe
   1 10,6  | Of
@@ -3549,7 +3529,6 @@
   1 10,6  | Ox
   1 10,6  | Oy
   1  7,6  | Re
-  1  7,6  | Rf
   1  8,5  | aE
   1  7,5  | aR
   1  8,5  | bE

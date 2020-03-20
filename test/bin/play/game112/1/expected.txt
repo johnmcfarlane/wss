@@ -12,6 +12,7 @@
  23  5,7  | OPED
  22  4,6  - PERIODS
  21  5,8  | DIPS
+ 21  7,8  | DIPS
  21  5,8  | DOPE
  21  7,8  | DOPE
  21  5,7  | EPOS
@@ -21,6 +22,7 @@
  20  5,8  | DEP
  20  7,8  | DEP
  20  5,8  | DIP
+ 20  7,8  | DIP
  20  5,8  | DOP
  20  7,8  | DOP
  20  2,6  - DOPERS
@@ -50,17 +52,20 @@
  19  5,8  | POIS
  19  5,8  | POSE
  19  5,8  | SIPE
+ 19  7,8  | SIPE
  19  5,8  | SOPE
  19  7,8  | SOPE
  18  2,8  - DIPSIE
  18  2,10 - DIPSO
  18  5,8  | DISP
+ 18  7,8  | DISP
  18  2,6  - DOPER
  18  5,7  | EPI
  18  5,7  | IDOSE
  18  7,7  | IDOSE
  18  5,7  | OPE
  18  5,7  | OSIDE
+ 18  7,7  | OSIDE
  18  5,8  | PES
  18  5,8  | PIE
  18  5,8  | PIS
@@ -77,6 +82,7 @@
  18  5,8  | SEP
  18  7,8  | SEP
  18  5,8  | SIP
+ 18  7,8  | SIP
  18  5,8  | SOP
  18  7,8  | SOP
  18  5,2  | SPODE
@@ -98,6 +104,7 @@
  16  5,9  | EPI
  16  7,9  | EPI
  16  5,9  | IPS
+ 16  7,9  | IPS
  16  5,9  | OPE
  16  7,9  | OPE
  16  5,9  | OPS
@@ -120,6 +127,7 @@
  15  5,8  | DESI
  15  7,8  | DESI
  15  5,8  | DIES
+ 15  7,8  | DIES
  15  5,8  | DOES
  15  7,8  | DOES
  15  7,1  | DOPES
@@ -128,7 +136,6 @@
  15  5,9  | EDP
  15  7,9  | EDP
  15  5,9  - INSEP
- 15  7,3  | IQS
  15  5,9  | OP
  15  7,9  | OP
  15  5,2  | OPED
@@ -147,6 +154,7 @@
  15  7,3  | POSE
  15  3,8  - SEPIOID
  15  5,8  | SIDE
+ 15  7,8  | SIDE
  15  5,3  | SIPE
  15  5,3  | SOPE
  15  5,2  | SPED
@@ -158,9 +166,11 @@
  14  7,5  | DEIS
  14  5,3  | DEP
  14  5,8  | DIE
+ 14  7,8  | DIE
  14  5,3  | DIP
  14  1,7  - DIPSOS
  14  5,8  | DIS
+ 14  7,8  | DIS
  14  5,2  | DISP
  14  5,8  | DOE
  14  7,8  | DOE
@@ -172,7 +182,6 @@
  14  5,7  | EDO
  14  5,7  | IDE
  14  7,7  | IDE
- 14  6,8  - IQS
  14  5,7  | ODE
  14  7,7  | ODE
  14  3,9  - OPINED
@@ -195,6 +204,7 @@
  14  5,8  | SEID
  14  7,8  | SEID
  14  5,8  | SID
+ 14  7,8  | SID
  14  5,9  - SNIPED
  14  5,8  | SOD
  14  7,8  | SOD
@@ -241,12 +251,13 @@
  12  5,3  | ESP
  12  5,7  - ESQ
  12  5,9  | IDE
+ 12  7,9  | IDE
  12  5,4  | IDEO
  12  7,4  | IDEO
  12  7,2  | IDOSE
  12  5,9  | IDS
+ 12  7,9  | IDS
  12  7,3  | IPSE
- 12  4,7  - IQS
  12  5,7  | ISE
  12  7,7  | ISE
  12  5,9  | ODE
@@ -306,6 +317,7 @@
  12  6,7  - SEQ
  12  2,6  - SIDER
  12  5,8  | SIE
+ 12  7,8  | SIE
  12  5,3  | SIP
  12  5,9  - SNIPE
  12  4,5  - SOAPED
@@ -328,6 +340,7 @@
  11  3,9  - DEINO
  11  3,5  - DEPAS
  11  5,8  | DI
+ 11  7,8  | DI
  11  3,9  - DIONE
  11  7,2  | DIOSE
  11  7,2  | DIPS
@@ -344,6 +357,7 @@
  11  5,9  | ED
  11  7,9  | ED
  11  5,9  | ID
+ 11  7,9  | ID
  11  5,9  - INODES
  11  5,3  | IODE
  11  7,3  | IODE
@@ -391,6 +405,7 @@
  10  4,8  - IPID
  10  6,8  - IPID
  10  5,9  | ISE
+ 10  7,9  | ISE
  10  4,10 - ISOPOD
  10  6,9  - NIPS
  10  6,9  - NOPE
@@ -472,11 +487,13 @@
   9  7,1  | IDOSE
   9  5,9  - INDE
   9  5,9  | IO
+  9  7,9  | IO
   9  6,8  - IODE
   9  7,3  | IPS
   9  6,8  - IPSE
   9  6,8  - IPSO
   9  5,9  | IS
+  9  7,9  | IS
   9  3,9  - ISDN
   9  5,2  | ISED
   9  7,2  | ISED
@@ -492,6 +509,7 @@
   9  7,9  | OE
   9  5,6  | OES
   9  5,8  | OI
+  9  7,8  | OI
   9  5,9  | OI
   9  7,9  | OI
   9  7,3  | OPE
@@ -524,6 +542,7 @@
   9  4,9  - SEND
   9  2,5  - SEPIA
   9  5,8  | SI
+  9  7,8  | SI
   9  4,9  - SIND
   9  5,8  - SIPE
   9  2,7  - SIPES
@@ -795,7 +814,6 @@
   6  3,7  - IDES
   6  4,10 - IDOSE
   6  6,8  - IDS
-  6  5,9  - INO
   6  5,9  - INS
   6  5,7  | IO
   6  7,7  | IO
@@ -946,7 +964,6 @@
   4  6,5  - ADO
   4  6,5  - ADS
   4  6,5  - AID
-  4  5,5  - DAE
   4  5,5  - DAO
   4  5,5  - DAS
   4  4,5  - DEA
@@ -964,7 +981,6 @@
   4  4,7  - DOS
   4  5,10 - DOS
   4  4,6  - DSR
-  4  5,5  - EAD
   4  4,10 - EDO
   4  5,9  - EN
   4  5,10 | EO
@@ -983,6 +999,7 @@
   4  5,10 | IS
   4  7,10 | IS
   4  6,9  - NE
+  4  6,9  - NI
   4  6,9  - NO
   4  5,5  - OAD
   4  4,5  - ODA
@@ -1039,7 +1056,6 @@
   3  6,5  - AD
   3  6,5  - AES
   3  6,5  - AIS
-  3  6,5  - ASE
   3  5,5  - DA
   3  5,8  - DI
   3  5,10 - DO

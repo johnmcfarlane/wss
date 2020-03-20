@@ -36,6 +36,7 @@
  26  9,5  | WAXO
  26  6,2  | XOANA
  25  3,5  - AXE
+ 25  1,5  - HEWN
  25  1,5  - HOAX
  25  6,7  - WANE
  25  2,5  - WAX
@@ -57,8 +58,8 @@
  23  3,5  - WAE
  23  2,5  - WHOA
  23  2,7  - WHOA
- 23  3,5  - WOA
  23  3,5  - WOE
+ 22  2,5  - AWN
  22  9,6  | AXON
  22  3,7  - ENOW
  22  7,5  - HAN
@@ -70,8 +71,10 @@
  22  7,7  - HON
  22  4,7  - NOAH
  22  9,3  | NOXA
+ 22  2,5  - OWN
  22  8,7  - OWN
  22  9,4  | OXAN
+ 22  1,5  - OXANE
  22  6,7  - WHO
  21  6,7  - AEON
  21  3,5  - AX
@@ -113,12 +116,10 @@
  19  5,7  - OWE
  19  5,1  | OXHEAL
  19  9,7  - WAE
- 19  9,7  - WEA
  19  2,5  - WHA
  19  2,5  - WHO
  19  2,7  - WHO
  19  3,5  - WO
- 19  9,7  - WOA
  19  9,7  - WOE
  18  5,7  - AEON
  18  6,6  | AWANE
@@ -133,6 +134,7 @@
  18  9,5  - HEW
  18  9,7  - HEW
  18  7,7  - HOE
+ 18  6,5  - HON
  18  6,7  - HON
  18  9,5  - HOW
  18  9,7  - HOW
@@ -141,7 +143,9 @@
  18  4,7  - NOW
  18  9,5  - NOX
  18  9,7  - NOX
+ 18  1,5  - OXAN
  18  1,7  - OXAN
+ 18  1,5  - OXEN
  18  1,7  - OXEN
  18  7,1  | WANHOPE
  18  9,7  - WE
@@ -159,6 +163,7 @@
  17  2,5  - OW
  17  1,5  - WAH
  17  1,7  - WAH
+ 17  2,5  - WANE
  17  7,3  | WEAPON
  17  4,3  | WHEIN
  17  8,3  | WHEIN
@@ -186,10 +191,12 @@
  16  9,5  - HON
  16  9,7  - HON
  16  9,4  | HWAN
+ 16  1,5  - HWAN
  16  1,7  - HWAN
  16  4,7  - NOH
  16  8,5  - OH
  16  8,7  - OH
+ 16  7,5  - ONA
  16  7,7  - ONA
  16  7,7  - ONE
  16  1,5  - OXEA
@@ -199,8 +206,10 @@
  16  4,4  | WAIN
  16  8,4  | WAIN
  16  6,5  | WAXEN
+ 16  1,5  - WHAN
  16  1,7  - WHAN
  16  7,3  | WHAP
+ 16  1,5  - WHEN
  16  1,7  - WHEN
  16  7,3  | WHOP
  16  9,2  | XOANA
@@ -245,7 +254,6 @@
  14  3,2  | AWHEt
  14  9,5  - AXE
  14  9,7  - AXE
- 14  6,7  - EAN
  14  6,7  - EON
  14  7,4  | EXPO
  14  9,5  - HA
@@ -255,6 +263,7 @@
  14  9,7  - HE
  14  9,5  - HO
  14  9,7  - HO
+ 14  8,5  - NAW
  14  9,5  - NAW
  14  8,7  - NAW
  14  9,7  - NAW
@@ -268,15 +277,18 @@
  14  1,5  - NOAH
  14  9,5  - NOW
  14  9,7  - NOW
+ 14  1,5  - OWEN
  14  1,7  - OWEN
  14  9,5  | WANE
  14  5,3  | WANLE
  14  6,5  | WAXO
+ 14  1,5  - WEAN
  14  1,7  - WEAN
  14  4,4  | WEI
  14  8,4  | WEI
  14  5,2  | WHEAL
  14  9,3  | WHOA
+ 14  1,5  - WOAN
  14  1,7  - WOAN
  14  3,6  | tAXON
  14  3,6  | tEXAN
@@ -284,6 +296,7 @@
  13  6,5  - AH
  13  2,7  - AH
  13  6,7  - AH
+ 13  3,5  - ANE
  13  8,5  - ANE
  13  7,5  | APX
  13  5,7  - AW
@@ -301,6 +314,7 @@
  13  7,5  - HA
  13  6,7  - HA
  13  8,5  - HAE
+ 13  1,5  - HAEN
  13  1,7  - HAEN
  13  4,4  | HAIN
  13  8,4  | HAIN
@@ -341,10 +355,12 @@
  13  7,6  | POHNA
  13  7,6  | POWAN
  13  7,6  | POX
+ 13  2,5  - WAN
  13  9,5  | WAN
  13  2,7  - WAN
  13  3,3  | WANt
  13  6,5  | WAX
+ 13  2,5  - WEN
  13  2,7  - WEN
  13  3,3  | WENt
  13  3,3  | WHAt
@@ -361,17 +377,20 @@
  12  5,2  | ENHALO
  12  5,4  | EXLA
  12  8,5  - HA
+ 12  2,5  - HAN
  12  2,7  - HAN
  12  9,5  | HANO
  12  4,2  | HANOI
  12  8,2  | HANOI
  12  7,3  | HEAP
+ 12  2,5  - HEN
  12  2,7  - HEN
  12  2,7  - HON
  12  9,2  | HOWEA
  12  5,2  | HOWEL
  12  4,7  - NAE
  12  5,3  | NAWLE
+ 12  4,5  - NEA
  12  4,7  - NOA
  12  6,3  | NOXA
  12  5,5  | OLAX
@@ -400,6 +419,7 @@
  11  5,5  - EH
  11  5,5  | ELOAH
  11  7,7  - EN
+ 11  1,5  - EOAN
  11  1,7  - EOAN
  11  4,5  - HA
  11  9,5  | HAEN
@@ -422,6 +442,7 @@
  11  5,6  | LOWN
  11  5,6  | LOX
  11  6,7  - NA
+ 11  8,5  - NAE
  11  9,5  - NAE
  11  8,7  - NAE
  11  9,7  - NAE
@@ -442,10 +463,10 @@
  11  9,4  | NOAH
  11  5,2  | NOWEL
  11  5,7  - OH
+ 11  7,5  - ON
  11  7,7  - ON
  11  6,3  | OXEA
  11  9,5  | WAE
- 11  2,5  - WEA
  11  9,4  | WEAN
  11  9,4  | WHA
  11  1,5  - WHA
@@ -466,7 +487,6 @@
  10  4,4  | AWIN
  10  8,4  | AWIN
  10  6,6  | AXE
- 10  2,7  - EAN
  10  3,2  | ENHAt
  10  2,7  - EON
  10  2,5  - HAO
@@ -476,6 +496,7 @@
  10  6,4  | HWAN
  10  5,6  | LEAH
  10  5,6  | LOHAN
+ 10  8,5  - NA
  10  9,5  - NA
  10  8,7  - NA
  10  9,7  - NA
@@ -512,6 +533,7 @@
   9  9,7  - AHO
   9  4,5  | AION
   9  8,5  | AION
+  9  3,5  - AN
   9  5,5  - AN
   9  3,7  - AN
   9  5,7  - AN
@@ -524,6 +546,7 @@
   9  5,3  | AWOL
   9  6,6  | AX
   9  3,4  | EAtH
+  9  3,5  - EN
   9  5,5  - EN
   9  3,7  - EN
   9  6,7  - EO
@@ -540,9 +563,11 @@
   9  4,6  | IONE
   9  8,6  | IONE
   9  5,6  | LOWE
+  9  4,5  - NA
   9  4,7  - NA
   9  4,4  | NAIO
   9  8,4  | NAIO
+  9  4,5  - NE
   9  2,5  - NEA
   9  2,5  - NEO
   9  2,7  - NEO
@@ -562,11 +587,7 @@
   9  1,5  - WAE
   9  1,7  - WAE
   9  7,4  | WAP
-  9  1,5  - WEA
-  9  1,7  - WEA
   9  6,3  | WHOA
-  9  1,5  - WOA
-  9  1,7  - WOA
   9  1,5  - WOE
   9  1,7  - WOE
   9  4,5  | XI
@@ -593,7 +614,6 @@
   8  5,3  | ANOLE
   8  7,5  | APH
   8  3,5  | AtONE
-  8  9,7  - EAN
   8  9,7  - EH
   8  9,4  | EOAN
   8  9,7  - EON
@@ -664,7 +684,6 @@
   7  3,4  | ANtE
   7  5,4  | AWL
   7  6,6  | AWN
-  7  9,5  | EAN
   7  9,7  - EN
   7  5,3  | ENOL
   7  3,5  - EO
@@ -720,10 +739,8 @@
   7  7,6  | PH
   7  7,6  | PON
   7  6,5  | WAN
-  7  9,4  | WEA
   7  4,5  | WIN
   7  8,5  | WIN
-  7  9,4  | WOA
   7  3,6  | tAEN
   7  3,6  | tEAN
   7  3,6  | tHA
@@ -756,8 +773,6 @@
   6  8,5  | HIN
   6  5,4  | HOL
   6  3,5  | Ht
-  6  4,6  | INO
-  6  8,6  | INO
   6  5,6  | LAH
   6  2,5  - NA
   6  2,7  - NA
@@ -779,9 +794,7 @@
   6  7,6  | POE
   6  6,5  | WAE
   6  3,4  | WAt
-  6  6,4  | WEA
   6  3,4  | WEt
-  6  6,4  | WOA
   6  3,4  | WOt
   6  3,6  | tANE
   6  3,6  | tANO
@@ -841,7 +854,6 @@
   4  6,6  | ANA
   4  6,6  | ANE
   4  3,5  | AtE
-  4  6,5  | EAN
   4  5,5  | ELA
   4  3,5  | EtA
   4  6,5  | HA
@@ -879,6 +891,8 @@
   3  5,6  | LA
   3  5,6  | LO
   3  6,5  | NA
+  3  4,5  | NI
+  3  8,5  | NI
   3  3,4  | OAt
   3  3,6  | tAE
   3  3,6  | tAO

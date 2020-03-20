@@ -57,9 +57,7 @@
  27  7,9  - SPIRA
  26 10,5  | AB
  26  9,2  - BAR
- 26  3,7  | BOX
  26 10,5  | IB
- 26  2,7  - OB
  26  2,7  - OP
  26  9,2  - PAR
  26  3,7  | POX
@@ -169,7 +167,6 @@
  18  3,2  | ABSIS
  18  9,1  | APA
  18  3,2  | APSIS
- 18  5,6  | ASE
  18  9,1  | BAA
  18 10,1  | BAGS
  18  8,10 - BAP
@@ -241,6 +238,7 @@
  15  3,2  | BARIS
  15  1,5  | BAS
  15  3,2  | BASIS
+ 15  7,5  | BIN
  15 11,1  | BIeRS
  15  3,2  | BRASS
  15  3,2  | BRISS
@@ -503,7 +501,6 @@
  10  2,5  - ARABIS
  10 10,1  | ARG
  10  8,4  - AS
- 10 10,1  | ASG
  10  7,9  - BAI
  10  1,4  | BAR
  10  8,1  | BATIS
@@ -543,10 +540,8 @@
   9  3,4  | AIS
   9  8,1  | APTS
   9 11,1  | APeRS
-  9  9,1  | ARA
   9  3,4  | ARS
   9  1,5  | ARS
-  9  9,1  | ASA
   9  3,4  | ASS
   9  3,2  | ASSI
   9  8,2  | ATIP
@@ -577,9 +572,9 @@
   9  9,1  | SAA
   9  3,2  | SAIR
   9  7,5  | SAN
-  9  3,4  | SAR
   9  3,2  | SARI
   9  9,1  | SIA
+  9  7,5  | SIN
   9  3,4  | SIR
   9  3,2  | SIRS
   9  3,4  | SIS
@@ -657,10 +652,7 @@
   8  1,5  - SAIP
   8  7,9  - SAIP
   8  8,10 - SAIR
-  8  3,3  | SAR
-  8  8,10 - SARA
   8  8,10 - SARI
-  8  8,10 - SASA
   8  9,4  - SI
   8  3,3  | SIA
   8  5,1  | SIC
@@ -753,7 +745,6 @@
   7 11,2  | RePAS
   7  6,2  - SAI
   7  4,5  - SAIP
-  7  1,4  | SAR
   7  8,1  | SATIS
   7  1,6  - SEBA
   7  1,6  - SEPS
@@ -780,12 +771,10 @@
   6  8,1  | APT
   6  3,4  | AR
   6  1,5  | AR
-  6  9,10 - ARA
   6  9,10 - ARS
   6  8,1  | ARTS
   6  3,4  | AS
   6  1,6  | AS
-  6  9,10 - ASA
   6  9,10 - ASS
   6  2,5  - ASSAI
   6  8,1  | ASTR
@@ -817,10 +806,12 @@
   6  2,6  - ERIAN
   6  2,6  - ESP
   6  6,5  - IBA
+  6  7,6  | IN
   6  6,5  - IPR
   6  6,5  - IPS
   6  3,4  | IS
   6  6,6  - NA
+  6  6,6  - NI
   6  9,2  | PAR
   6  9,2  | PAS
   6  8,1  | PAT
@@ -868,7 +859,6 @@
   6  9,2  | SAB
   6  8,10 - SAI
   6  9,2  | SAP
-  6  8,10 - SAR
   6  8,1  | SATI
   6  4,6  | SAW
   6  1,6  - SEP
@@ -939,9 +929,7 @@
   5  7,11 - SADR
   5  1,5  - SAIR
   5  7,9  - SAIR
-  5  1,5  - SARA
   5  1,5  - SARI
-  5  1,5  - SASA
   5  7,11 - SIDA
   5  7,1  | SIT
   5 11,1  | SIeR
@@ -972,14 +960,11 @@
   4  5,5  - AIRS
   4  2,5  - AIS
   4  9,10 - AR
-  4  2,5  - ARA
   4  4,6  - ARN
   4  2,5  - ARS
   4 11,1  | ARe
   4  9,10 - AS
-  4  2,5  - ASA
   4  2,5  - ASS
-  4 11,1  | ASe
   4 11,2  | AeSIR
   4 11,2  | Be
   4 10,3  | GI
@@ -1007,7 +992,6 @@
   4  7,9  - SAI
   4  4,5  - SAIR
   4  4,6  - SAN
-  4  1,5  - SAR
   4 11,1  | SAe
   4  8,11 - SDS
   4  1,6  - SEAR
@@ -1071,7 +1055,6 @@
   3  9,2  | SAA
   3  9,2  | SAI
   3  4,5  - SAI
-  3  9,2  | SAR
   3  8,1  | SAT
   3  1,6  - SEA
   3  1,6  - SEI

@@ -24,7 +24,6 @@
  21  4,10 - RAGEES
  21  9,5  - RAN
  21  9,5  - RIN
- 21  9,5  - RON
  20 10,4  | GABE
  20 10,4  | GABI
  20 10,4  | GIBE
@@ -86,7 +85,6 @@
  16  6,6  | NIGRE
  16  6,6  | NOGAI
  15  5,10 - ARIES
- 15  8,2  | DAE
  15  1,1  | DAER
  15  8,2  | DAO
  15  8,2  | DAR
@@ -160,7 +158,6 @@
  13  6,10 - ROES
  12  8,3  - AX
  12  8,2  | DA
- 12  1,1  | DAE
  12  1,1  | DAO
  12  1,1  | DAR
  12  8,2  | DE
@@ -208,6 +205,7 @@
  12  2,1  | URAEI
  11  6,5  - AG
  11  4,5  - AGIO
+ 11  4,7  - AGIO
  11  2,5  - AIGRE
  11  2,7  - AIGRE
  11  3,1  | EAGER
@@ -264,10 +262,10 @@
  10  6,11 - GERTIE
  10  7,10 - GES
  10  5,5  - GIO
+ 10  5,7  - GIO
  10  7,10 - GIS
  10  5,5  - GOA
  10  6,11 - GOATEE
- 10  6,11 - GOETAE
  10  6,11 - GOETIA
  10  6,11 - GOITER
  10  6,11 - GOITRE
@@ -302,6 +300,7 @@
  10  3,5  - RAGE
  10  3,7  - RAGE
  10  3,5  - RAGI
+ 10  3,7  - RAGI
  10  3,5  - REGO
  10  3,7  - REGO
  10  3,5  - RIGA
@@ -389,6 +388,7 @@
   8  4,5  - GOA
   8  4,7  - GOA
   8  4,5  - GOI
+  8  4,7  - GOI
   8  6,4  | GONER
   8  6,4  | GONIA
   8  4,5  - GRA
@@ -406,9 +406,7 @@
   8  6,5  | INGER
   8  6,5  | INORG
   8  4,1  | LEORA
-  8 10,5  | OB
   8  7,10 - OES
-  8 10,5  - ON
   8  3,5  - ORAE
   8  3,7  - ORAE
   8  4,11 - ORGEAT
@@ -422,6 +420,7 @@
   8  5,5  - RIA
   8  6,4  | RINGE
   8  5,5  - RIO
+  8  5,7  - RIO
   8  7,10 - ROS
   8  2,1  | URA
   8  2,1  | URI
@@ -449,6 +448,7 @@
   7  6,4  | GENA
   7  6,4  | GENE
   7  5,5  - GI
+  7  5,7  - GI
   7  6,5  | GNAR
   7  5,5  - GO
   7  5,7  - GO
@@ -466,6 +466,7 @@
   7 11,8  | IKE
   7  6,5  | INGA
   7  6,5  - IO
+  7  6,7  - IO
   7  8,10 - IS
   7  4,1  | LAIR
   7  4,1  | LARE
@@ -485,6 +486,7 @@
   7  6,6  | NGAI
   7  6,6  | NIOG
   7  7,11 - OATER
+  7  3,2  - OI
   7 11,8  | OKA
   7 11,8  | OKE
   7  8,10 - OS
@@ -578,10 +580,12 @@
   6  4,5  - ROE
   6  4,7  - ROE
   6  4,5  - ROI
+  6  4,7  - ROI
   5  5,5  - AE
   5  5,7  - AE
   5  7,11 - AGT
   5  5,5  - AI
+  5  5,7  - AI
   5  6,4  | AINE
   5  6,5  | ANRE
   5  6,11 - ARETE
@@ -627,6 +631,7 @@
   5  5,5  - OE
   5  5,7  - OE
   5  5,5  - OI
+  5  5,7  - OI
   5  6,5  | ONER
   5  6,11 - ORATE
   5  6,4  | ORNA
@@ -659,7 +664,6 @@
   4  6,11 - ARET
   4  6,4  | ARN
   4  7,11 - ARTE
-  4  6,4  | EAN
   4  3,1  | EAR
   4  7,2  | EAR
   4  6,4  | EEN
@@ -679,7 +683,6 @@
   4  6,4  | ERN
   4  7,5  | GI
   4  6,4  | IAN
-  4  6,5  | INO
   4  6,4  | ION
   4  7,11 - IOTA
   4  4,1  | LAI
@@ -747,9 +750,11 @@
   3  7,6  | IRE
   3  8,11 - ITA
   3  4,1  | LA
+  3  4,1  | LI
   3  4,1  | LO
   3  6,6  | NA
   3  6,6  | NE
+  3  6,6  | NI
   3  6,6  | NO
   3  7,11 - OAT
   3  6,5  | ON

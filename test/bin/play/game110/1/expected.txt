@@ -2,17 +2,21 @@
  27  3,1  | ASSAIL
  26  2,6  | CAPSID
  26  2,7  - PASI
+ 26  2,7  - PISA
  25  3,5  - APAID
  24  2,2  | ASPICS
  24  2,6  | CAPIAS
  24  2,2  | PISACA
  24  1,7  - SPAD
  23  2,7  - PAD
+ 22  1,7  - APIS
  22  2,2  | ASPIC
  22  2,6  | CAPSA
  22  1,7  - SPAS
  21  4,5  - PAISAS
  21  2,7  - PAS
+ 21  2,7  - PIA
+ 21  2,7  - PIS
  20  6,1  | ADAPIS
  20  3,5  - APA
  20  2,2  | ASDICS
@@ -33,6 +37,7 @@
  18  4,5  - PAAS
  18  4,5  - PAIS
  18  6,1  | PAISAS
+ 18  2,7  - PI
  18  3,5  | PLAIDS
  18  2,2  | SADIC
  18  3,4  | SALPID
@@ -42,8 +47,6 @@
  17  3,5  | ALPID
  17  3,5  | PLAID
  17  4,3  | SPAAD
- 16  3,5  - ADA
- 16  3,7  - ADA
  16  6,5  - ADAPIS
  16  6,2  | APASS
  16  6,2  | APSIS
@@ -76,7 +79,6 @@
  15  4,4  | SPAID
  15  3,4  | SPLAD
  14  4,4  | ADAPIS
- 14  3,7  - ASA
  14  4,6  | ASP
  14  4,3  | ASPASIA
  14  4,5  - DAIS
@@ -106,6 +108,7 @@
  13  3,4  | SALP
  13  5,3  | SPAYAD
  12  4,6  | ADAPIS
+ 12  3,5  | ALAPS
  12  3,5  | ALP
  12  6,5  - APAID
  12  4,4  | APASS
@@ -140,6 +143,7 @@
  11  6,5  - ASPIS
  11  3,4  | DALASI
  11  3,3  | DIALS
+ 11  3,7  - ID
  11  3,4  | IPL
  11  3,6  | LAPIS
  11  3,6  | LAPSI
@@ -225,7 +229,6 @@
   9  4,6  | ASAP
   9  2,6  | CAP
   9  2,6  | CSP
-  9  3,3  | DAIL
   9  5,2  | DAISY
   9  3,4  | DALAI
   9  3,4  | DALIS
@@ -233,6 +236,7 @@
   9  3,3  | DIAL
   9  4,4  | DIAS
   9  2,3  | DISCS
+  9  3,7  - IS
   9  3,6  | LAID
   9  4,5  | PAAS
   9  2,4  | PAC
@@ -390,9 +394,6 @@
   7  6,6  | SIPS
   7  6,3  | SPAS
   7  6,6  | SPAS
-  6  4,4  | ADA
-  6  6,5  - ADA
-  6  4,6  | ADA
   6  6,5  - ADS
   6  4,6  | ADS
   6  5,4  | ADY
@@ -429,8 +430,6 @@
   6  2,4  | SAC
   6  4,5  | SAP
   6  6,6  | SAP
-  6  4,3  | SASA
-  6  4,5  | SASA
   6  5,4  | SAYA
   6  5,4  | SAYS
   6  2,5  | SCI
@@ -452,9 +451,6 @@
   5  3,4  | AIL
   5  6,5  - AIS
   5  4,6  | AIS
-  5  4,4  | ASA
-  5  6,5  - ASA
-  5  4,6  | ASA
   5  6,5  - ASS
   5  4,6  | ASS
   5  6,4  | ASSAI
@@ -503,10 +499,9 @@
   4  6,5  - IS
   4  6,7  - IS
   4  3,6  | LA
+  4  3,6  | LI
   4  4,5  | SAD
   4  6,6  | SAD
-  4  6,4  | SASA
-  4  6,6  | SASA
   4  6,3  | SASS
   4  6,4  | SASS
   4  6,6  | SASS
@@ -523,7 +518,6 @@
   3  4,5  | AAS
   3  4,6  | AD
   3  6,4  | AIS
-  3  6,5  | ASA
   3  6,4  | ASS
   3  6,5  | ASS
   3  4,5  | DA

@@ -3,24 +3,24 @@
  33  6,1  | COLP
  33  8,2  | LANA
  32  6,1  | CLAP
- 32  6,1  | CLOP
  32 10,1  | CLOP
  32  4,4  | PLACQUE
  31  8,3  | ANA
  31  8,3  | ONA
- 30  6,1  | ACOP
  30 10,1  | ACOP
  29  3,4  - APONIC
+ 29 10,1  | PAOLA
  29  4,4  - PONICA
  28  6,2  | CAP
- 28  6,2  | COP
  28 10,2  | COP
- 28  3,8  | CSP
  28  4,4  - PANIC
  28 10,4  | POA
+ 27 10,2  | COLA
  26  6,1  | ALAP
- 26  6,1  | ALOP
  26 10,1  | ALOP
+ 26  6,1  | CLAN
+ 26 10,1  | CLON
+ 26  6,1  | PLAN
  26  3,9  | SPL
  25  6,2  | ALP
  25  4,3  | CALANQUE
@@ -29,36 +29,50 @@
  25  8,4  | NA
  25  7,10 - NODAL
  25  6,2  | OLP
- 25  3,6  | PACS
  25  8,10 - PDL
  25  8,10 - PDN
  25  8,1  | PLAN
  24  8,1  | CAON
+ 24 10,1  | CAON
+ 24  6,1  | COAL
+ 24  6,1  | COAN
  24  8,1  | COAN
  24  6,1  | COLA
  24  6,2  | LAP
- 24  6,2  | LOP
  24 10,2  | LOP
  24  6,2  | NAP
+ 24  6,1  | OPAL
  24  3,4  - OPALINA
+ 24  6,1  | PAAL
  24  6,1  | PALA
  24  8,1  | PAON
+ 24 10,1  | PAON
  24 10,10 | PO
  23  4,4  - CALINA
  23  8,2  | CAN
  23  8,2  | CON
- 23  3,6  | LACS
  23  3,4  - PALAIC
  23  8,2  | PAN
  23  8,2  | PON
  23  3,9  | SPA
  22  8,1  | ALAN
+ 22  6,2  | CAL
  22  4,4  - CALIN
+ 22  6,2  | CAN
  22  6,2  | CLO
+ 22 10,2  | COL
  22  4,4  - COLIN
+ 22 10,2  | CON
+ 22 10,4  | LOA
  22  8,1  | LOAN
+ 22 10,4  | NAA
+ 22 10,4  | NOA
  22  7,10 - OADAL
+ 22  6,2  | PAL
+ 22  6,2  | PAN
  22  4,4  - PLAIN
+ 22 10,2  | POL
+ 22 10,2  | PON
  21  4,4  - ALNICO
  21  4,4  - COPIA
  21  8,2  | LAN
@@ -66,6 +80,8 @@
  21  4,4  - POLIAN
  20  8,10 - ADC
  20  8,10 - ADP
+ 20  6,1  | ALAN
+ 20  6,1  | ANAL
  20  3,4  - APONIA
  20  6,1  | CAL
  20  4,5  | CALQUE
@@ -73,6 +89,7 @@
  20  4,5  | CLAQUE
  20  4,5  | CLOQUE
  20  6,1  | COL
+ 20  6,1  | LOAN
  20  6,1  | PAL
  20  4,5  | PLAQUE
  20  5,4  - PLICA
@@ -83,17 +100,12 @@
  20  3,9  | SOP
  19  8,3  | AN
  19  5,4  - CLIP
- 19  6,1  | CLO
  19 10,1  | CLO
  19  4,4  - CONIA
  19  3,4  - COPAIN
- 19  6,1  | LCA
- 19  6,1  | NCO
- 19 10,1  | NCO
  19  8,3  | ON
  19 10,3  | OPA
  19  4,5  | OPAQUE
- 19  6,2  | POA
  19 10,2  | POA
  19  7,5  - ZAC
  19  7,5  - ZAP
@@ -101,9 +113,10 @@
  18  5,3  - CABAL
  18  5,3  - CABAN
  18  4,6  | CAQUE
- 18  6,2  | CL
  18  4,6  | COQUE
+ 18  6,2  | LAN
  18  4,4  - LAPIN
+ 18 10,2  | NOL
  18  4,6  | OCQUE
  18  8,10 - ODAL
  18  4,6  | PAQUE
@@ -111,7 +124,6 @@
  18  6,4  - PICO
  18  3,3  - POLAB
  18  3,6  - POLJE
- 17  6,1  | ANOA
  17 10,1  | ANOA
  17  6,1  | APA
  17  2,8  - COQ
@@ -121,6 +133,7 @@
  17  5,3  - PABLO
  17  6,4  - PIC
  17  6,1  | POA
+ 16  6,2  | AAL
  16  6,2  | ALA
  16  3,4  - ANOPIA
  16  4,4  - COLI
@@ -134,7 +147,6 @@
  16  4,4  - PANI
  16  9,3  - PCF
  15 10,5  | AA
- 15  4,4  - ACOIN
  15  4,4  - ALPIAN
  15  8,11 - ASAP
  15  8,11 - ASOP
@@ -143,20 +155,17 @@
  15  6,2  | LAO
  15  8,2  | LAO
  15  6,4  - LIP
- 15  6,2  | LOA
  15 10,2  | LOA
  15  2,8  - LOQ
  15  6,2  | NAA
  15  6,4  - NIP
- 15  6,2  | NOA
  15 10,2  | NOA
- 15  6,3  | OP
+ 15 10,3  | OLA
+ 15 10,3  | ONA
  15 10,3  | OP
  15  6,2  | PA
- 15  6,2  | PO
  15 10,2  | PO
  14  6,1  | AAL
- 14  8,10 - ADA
  14  8,10 - ADO
  14  2,10 - COE
  14  9,10 - DAP
@@ -165,7 +174,6 @@
  14  9,10 - DOP
  14  5,3  - LABAN
  14  5,3  - NABAL
- 14  7,10 - NAD
  14  7,10 - NOD
  14  8,10 - ODA
  14  7,10 - OLD
@@ -196,7 +204,6 @@
  13  7,11 - CASAL
  13  5,4  - CLIN
  13  5,3  - COB
- 13  6,1  | LAO
  13 10,1  | LAO
  13  6,1  | LOA
  13  6,1  | NAA
@@ -225,16 +232,16 @@
  12  3,4  - CONLI
  12  9,10 - DP
  12  4,3  - LAPB
- 12  8,1  | LCA
  12  4,4  - LOCI
- 12  8,1  | NCO
  12  7,10 - OAD
  12  5,4  - PAIL
  12  5,4  - PAIN
  12  6,4  - PINA
  12  6,4  - PINO
  12  5,4  - POIL
+ 11  6,3  | AL
  11  3,4  - ALANI
+ 11  6,3  | AN
  11  4,3  - ANABO
  11  4,4  - ANLIA
  11  3,4  - ANOLI
@@ -248,14 +255,13 @@
  11  7,4  - INC
  11  6,2  | LA
  11  6,3  | LA
- 11  6,2  | LO
  11 10,2  | LO
  11  6,3  | LO
  11  6,2  | NA
  11  7,11 - NASAL
- 11  6,2  | NO
  11 10,2  | NO
  11  8,1  | OCA
+ 11 10,3  | ON
  11  8,1  | OPA
  11  5,11 - PACAS
  11  5,11 - PACOS
@@ -276,7 +282,6 @@
  10  6,11 - CAPS
  10  6,4  - CION
  10  5,11 - CLANS
- 10  5,4  - CLIO
  10  5,11 - CLONS
  10  6,11 - COPS
  10  9,10 - DAL
@@ -306,6 +311,7 @@
   9  6,3  - ABP
   9  8,10 - AD
   9  8,1  | ALA
+  9  5,11 - ALAPS
   9  5,3  - ALBA
   9  8,1  | ANA
   9  5,3  - ANBA
@@ -320,20 +326,24 @@
   9  5,11 - COALS
   9  5,11 - COLAS
   9  8,11 - CSP
+  9 10,4  | LA
   9  5,3  - LAB
   9  3,4  - LANAI
   9  8,1  | LAO
   9  6,4  - LIN
+  9 10,4  | LO
   9  8,1  | LOA
   9  5,3  - LOB
   9  9,3  - LOF
   9  8,8  | MOA
   9  8,8  | MOO
+  9 10,4  | NA
   9  8,1  | NAA
   9  5,3  - NAB
   9  9,3  - NAF
   9  4,4  - NAOI
   9  6,4  - NIL
+  9 10,4  | NO
   9  8,1  | NOA
   9  5,3  - NOB
   9  8,10 - OD
@@ -357,7 +367,6 @@
   8  9,10 - DAO
   8  9,10 - DOA
   8  7,4  - ILA
-  8  7,4  - INO
   8  8,2  | LA
   8  6,11 - LACS
   8  6,11 - LAPS
@@ -405,7 +414,6 @@
   7  5,11 - LOANS
   7  9,5  - LOD
   7  8,11 - LSC
-  7  9,5  - NAD
   7  5,4  - NAIO
   7  9,5  - NOD
   7  9,3  - OAF
@@ -460,7 +468,6 @@
   5  7,11 - NASA
   5  7,11 - NASO
   5  9,5  - OAD
-  5  6,3  - OB
   5 10,3  - OF
   5  6,4  - PI
   5 10,4  - PI
@@ -472,7 +479,6 @@
   4  7,11 - ANS
   4  7,9  | IAN
   4  7,9  | ILA
-  4  7,9  | INO
   4  7,4  - IO
   4  7,9  | ION
   4  5,4  - LAI
@@ -488,9 +494,12 @@
   3  5,7  - AAS
   3  7,11 - AAS
   3 10,5  - AD
-  3  8,11 - ASA
   3  7,9  | IAO
   3  7,9  | IN
+  3  6,4  - LI
+  3 10,4  - LI
+  3  6,4  - NI
+  3 10,4  - NI
   3 10,5  - OD
   2  6,4  - AI
   2 10,4  - AI

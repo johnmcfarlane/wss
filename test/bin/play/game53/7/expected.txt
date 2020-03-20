@@ -110,6 +110,7 @@
  27  9,11 - VAs
  27  9,11 - VEr
  27  4,5  - VIErTEL
+ 27  9,11 - VId
  27  9,11 - VIs
  26  9,6  | TArVE
  26  9,6  | TEAVe
@@ -188,6 +189,7 @@
  21  8,11 - TAUr
  21  8,11 - TAUs
  21  7,6  | TArVE
+ 21  7,6  | TIrVE
  21  8,11 - TUIs
  21  8,11 - UTAs
  21  4,5  - UpEAT
@@ -234,7 +236,6 @@
  20  9,6  | TEgUA
  20  6,10 - TEnIAE
  20  7,10 - UVATE
- 20  1,3  - UcA
  20  1,3  - UgT
  20  1,3  - UsE
  20  9,6  | cAVE
@@ -285,6 +286,7 @@
  19  9,6  | TEbU
  19  9,6  | TEjU
  19  9,1  | UmP
+ 19  9,1  | UnP
  19  3,5  - VInEA
  19  5,5  - bEAT
  19  9,6  | bEAUT
@@ -422,13 +424,9 @@
  17  5,7  | AEVUm
  17  7,7  | AEVUm
  17  9,5  | ATe
- 17  1,3  - AcE
- 17  1,3  - AcT
- 17  5,6  | AcTIVE
  17  1,3  - AgE
  17  1,3  - AgT
  17  5,6  | AlVITE
- 17  1,3  - AsE
  17  1,3  - AsT
  17  6,5  - EAr
  17  6,5  - EAt
@@ -441,7 +439,6 @@
  17  1,7  - EnVAULT
  17  1,3  - EsT
  17  6,5  - EsT
- 17  1,3  - IcE
  17  1,3  - IdE
  17  1,3  - IsE
  17  1,3  - IsT
@@ -460,6 +457,7 @@
  17  4,2  | RiVA
  17  4,2  | RiVE
  17  4,2  | RoVE
+ 17  7,2  | SHElTIE
  17  9,6  | TAIsE
  17  9,6  | TAU
  17  9,6  | TAUm
@@ -493,6 +491,7 @@
  17  9,6  | TEpA
  17  9,6  | TErI
  17  9,6  | TEwA
+ 17  7,6  | TIVEr
  17  7,7  | UlVA
  17  7,7  | UrVA
  17  9,5  | aTE
@@ -500,7 +499,6 @@
  17  9,6  | bEATI
  17  9,6  | cAITE
  17  9,1  | cAP
- 17  9,5  | cTE
  17  9,1  | dAP
  17  9,6  | dAUT
  17 10,9  | dEV
@@ -511,6 +509,8 @@
  17  9,6  | hAUT
  17 10,9  | hAV
  17  9,1  | lAP
+ 17 10,9  | lAV
+ 17 10,9  | lEV
  17  9,1  | mAP
  17  9,6  | mATIE
  17  9,6  | mAUT
@@ -545,6 +545,7 @@
  16  9,1  | AdP
  16 10,9  | AdV
  16  7,10 - AlIVE
+ 16  9,1  | AlP
  16  9,1  | AmP
  16  9,1  | ApP
  16  9,1  | AsP
@@ -561,6 +562,7 @@
  16  8,3  | EXUvIAE
  16  9,1  | EdP
  16  9,1  | EmP
+ 16  7,10 - EnVIE
  16  9,1  | EsP
  16  9,1  | ExP
  16  9,1  | IhP
@@ -700,7 +702,6 @@
  15  5,6  | EAVe
  15  7,6  | EAVe
  15  5,7  | EAVe
- 15  9,11 - EAd
  15  9,11 - EAr
  15  9,11 - EIr
  15  7,6  | EUcTI
@@ -717,6 +718,7 @@
  15  2,5  - ITAVEs
  15  9,11 - ITd
  15  9,11 - ITs
+ 15  7,7  | InVT
  15  9,6  | TA
  15  2,5  - TAIVEr
  15  8,5  - TAL
@@ -764,7 +766,9 @@
  15  9,6  | TEx
  15  9,6  | TEz
  15  8,5  - TIL
+ 15  7,6  | TIVy
  15  9,11 - TId
+ 15  7,6  | TIgUA
  15  9,11 - TIs
  15  7,6  | TUbAE
  15  7,6  | TaVE
@@ -785,10 +789,6 @@
  15  5,7  | aEVIA
  15  7,7  | aEVIA
  15  5,5  | bEAUT
- 15  5,7  | cAVIE
- 15  5,7  | cAVU
- 15  5,7  | cIVET
- 15  5,7  | cUVE
  15  3,5  - cUVEE
  15  9,6  | dAU
  15  5,6  | eAVE
@@ -849,6 +849,7 @@
  14  8,10 - ElVE
  14  5,7  | EqUIV
  14  9,10 - IVE
+ 14  7,7  | InV
  14  7,2  | SHEET
  14 10,9  | TAU
  14  3,5  - TAVEr
@@ -859,6 +860,7 @@
  14  7,6  | TAtU
  14  5,5  | TElIA
  14  3,5  - TIVEr
+ 14  7,6  | TIoU
  14  7,6  | TUbA
  14  7,6  | TUbE
  14  7,6  | TUfA
@@ -928,11 +930,8 @@
  14  9,6  | bET
  14  9,6  | cAI
  14  9,6  | cAT
- 14  5,7  | cAVE
  14  8,10 - cAVE
- 14  5,7  | cIVE
  14  8,10 - cIVE
- 14  9,6  | dAE
  14  9,6  | dAT
  14  8,10 - dAVE
  14  9,6  | dEA
@@ -1014,10 +1013,7 @@
  13  9,7  | AVn
  13  9,7  | AVo
  13  9,7  | AbUT
- 13  5,6  | AcTU
- 13  5,6  | AcUTE
  13  3,3  - AeT
- 13  3,3  - AfT
  13  9,7  | AgUE
  13  9,7  | ArUI
  13  3,1  | DOVe
@@ -1034,7 +1030,6 @@
  13  9,7  | EVg
  13  2,5  - EViTE
  13  8,3  | EXITUs
- 13  3,3  - EfT
  13  9,7  | EtUA
  13  9,7  | EtUI
  13  4,2  | RUpTIVE
@@ -1058,6 +1053,7 @@
  13  5,5  | TEAr
  13  5,5  | TEAs
  13  5,5  | TEAt
+ 13  7,6  | TInEA
  13  7,6  | TUA
  13  7,6  | TUAn
  13  7,6  | TUE
@@ -1101,11 +1097,7 @@
  13  9,6  | bA
  13  9,6  | bE
  13  5,5  | bEAU
- 13  5,7  | cAV
- 13  5,7  | cIV
- 13  2,3  - cTE
  13  9,6  | dA
- 13  2,3  - dAE
  13  9,6  | dE
  13  5,7  | eTUVE
  13  4,5  - eVEA
@@ -1169,7 +1161,6 @@
  12  9,7  | AbU
  12  9,7  | AcTU
  12  9,7  | AhU
- 12  9,7  | AkU
  12  5,6  | AlIET
  12  5,6  | AlITE
  12  5,7  | AlIVE
@@ -1186,6 +1177,7 @@
  12  7,6  | EAdI
  12  5,6  | EAsT
  12  7,6  | EAsT
+ 12  7,6  | EIlA
  12  2,1  | ENATEs
  12  2,1  | ENATIc
  12  2,1  | ENTAIl
@@ -1234,7 +1226,6 @@
  12  7,6  | TAUs
  12  7,6  | TAUt
  12  7,6  | TAbI
- 12  5,5  | TAcE
  12  7,6  | TAcE
  12  7,6  | TAdE
  12  7,6  | TAkE
@@ -1251,9 +1242,20 @@
  12  7,6  | TAvE
  12  7,6  | TAxI
  12 10,9  | TEA
- 12  5,5  | TEcA
  12  5,5  | TElA
  12  5,5  | TElI
+ 12  7,6  | TIU
+ 12  7,6  | TIcE
+ 12  7,6  | TIdE
+ 12  7,6  | TIgE
+ 12  7,6  | TIkE
+ 12  7,6  | TIlE
+ 12  7,6  | TImE
+ 12  7,6  | TInA
+ 12  7,6  | TInE
+ 12  7,6  | TIpE
+ 12  7,6  | TIrE
+ 12  7,6  | TItE
  12  7,6  | TUa
  12  7,6  | TUb
  12  7,6  | TUe
@@ -1319,7 +1321,6 @@
  12  9,10 - aVE
  12  9,7  | aVIE
  12  5,5  | bEAT
- 12  5,7  | cUEVA
  12  1,5  - eTUVEE
  12  9,10 - eVE
  12  9,7  | eVEA
@@ -1469,6 +1470,9 @@
  11  9,7  | EtTA
  11  9,7  | ExIT
  11  9,7  | ExTA
+ 11  7,7  | IVA
+ 11  7,7  | IVAn
+ 11  7,7  | IVE
  11  6,7  - LAnUGO
  11  4,2  | REAUdIT
  11  4,2  | RITUAlE
@@ -1486,11 +1490,18 @@
  11  5,5  | TAe
  11  5,5  | TAl
  11  5,5  | TEa
- 11  5,5  | TEc
  11  3,3  - TEd
  11  5,5  | TEe
  11  5,5  | TEl
  11  3,3  - TEn
+ 11  7,6  | TIAm
+ 11  7,6  | TIAo
+ 11  7,6  | TIAr
+ 11  7,6  | TIE
+ 11  7,6  | TIEd
+ 11  7,6  | TIEn
+ 11  7,6  | TIEr
+ 11  7,6  | TIEs
  11  3,5  - TInEA
  11  9,6  | Ta
  11  5,5  | TaA
@@ -1543,7 +1554,6 @@
  11  3,5  - bUTEA
  11  5,1  | cIV
  11  2,5  - cUVEE
- 11  5,5  | dAE
  11 10,9  | dAU
  11  5,5  | dEA
  11  3,3  - dET
@@ -1561,6 +1571,7 @@
  11  3,3  - hET
  11  2,5  - hUAVE
  11  3,3  - lET
+ 11 10,9  | lEU
  11  5,1  | lIV
  11  3,5  - lUTEA
  11  3,7  - lVALUE
@@ -1597,6 +1608,7 @@
  11  7,6  | tATE
  11 10,9  | tAU
  11  5,5  | tEA
+ 11  7,6  | tITE
  11  7,6  | tUA
  11  7,6  | tUE
  11  7,6  | tUI
@@ -1605,7 +1617,6 @@
  11  7,7  | uVATE
  11  3,7  - uVULAE
  11  5,5  | wAE
- 11  5,5  | wEA
  11  3,3  - wET
  11  5,5  | yEA
  10  3,3  - AE
@@ -1690,7 +1701,6 @@
  10  9,7  | ArT
  10 10,9  | ArU
  10 10,11 - As
- 10  9,7  | AsE
  10  9,7  | AsT
  10  9,7  | AtE
  10  9,7  | AtI
@@ -1705,13 +1715,9 @@
  10  3,1  | DOwVE
  10  3,5  - EATEn
  10  3,5  - EATEr
- 10  5,6  | EAd
- 10  7,6  | EAd
  10  9,7  | EAdI
  10  5,6  | EAm
  10  7,6  | EAm
- 10  5,6  | EAn
- 10  7,6  | EAn
  10  5,6  | EAr
  10  7,6  | EAr
  10  9,7  | EAsT
@@ -1720,6 +1726,8 @@
  10  5,6  | EAu
  10  7,6  | EAu
  10  9,7  | EIlA
+ 10  7,6  | EIr
+ 10  2,1  | ENVIE
  10  5,7  | ETUA
  10  5,7  | ETUI
  10  5,7  | ETUIs
@@ -1747,7 +1755,6 @@
  10  9,7  | EaT
  10  5,6  | EaU
  10  7,6  | EaU
- 10  5,6  | EcU
  10 10,11 - Ed
  10  9,7  | EfT
  10  9,7  | ElA
@@ -1833,6 +1840,19 @@
  10 10,9  | TEw
  10 10,9  | TEx
  10 10,9  | TEz
+ 10  7,6  | TI
+ 10  7,6  | TIb
+ 10  7,6  | TIc
+ 10  7,6  | TId
+ 10  7,6  | TIe
+ 10  7,6  | TIg
+ 10  7,6  | TIl
+ 10  7,6  | TIm
+ 10  7,6  | TIn
+ 10  7,6  | TIp
+ 10  7,6  | TIs
+ 10  7,6  | TIt
+ 10  7,6  | TIu
  10  7,10 - TUbAE
  10  7,10 - TUtEE
  10  7,6  | TaU
@@ -1840,6 +1860,7 @@
  10 10,11 - Td
  10  1,5  - ThEAVE
  10  1,5  - ThIEVE
+ 10  7,6  | TiU
  10  7,6  | ToU
  10 10,9  | ToU
  10  9,2  - UIT
@@ -1957,6 +1978,7 @@
  10  7,9  - sUEVI
  10  7,10 - sUITE
  10  7,6  | tAU
+ 10  7,6  | tIU
  10  7,10 - tUTEE
  10  7,7  | uVEA
  10  3,7  - uVULA
@@ -2009,8 +2031,6 @@
   9  7,7  | AVo
   9  5,7  | AbUT
   9  7,7  | AbUT
-  9  5,6  | AcE
-  9  5,6  | AcT
   9  5,7  | AdIEU
   9  7,7  | AdIEU
   9  5,6  | AeT
@@ -2039,13 +2059,13 @@
   9  5,7  | EAU
   9  5,7  | EAUx
   9  3,5  - EAVE
-  9  9,7  | EAd
   9  9,7  | EAm
-  9  9,7  | EAn
   9  9,7  | EAr
   9  9,7  | EAt
   9  9,7  | EAu
   9  9,7  | EIr
+  9  2,1  | ENVIe
+  9  2,1  | ENViE
   9  2,1  | ENVoI
   9  9,7  | ET
   9  5,7  | ETUa
@@ -2077,9 +2097,13 @@
   9  5,7  | EtUI
   9  2,5  - EtUVE
   9  4,5  - EvEA
+  9  7,7  | IVa
+  9  7,7  | IVe
+  9  7,7  | IVy
   9  4,5  - IdEA
   9  4,5  - IdEE
   9  4,5  - IlEA
+  9  7,7  | InTUE
   9  4,5  - ItEA
   9  6,7  - LAtIGO
   9  6,7  - LaTIGO
@@ -2104,6 +2128,7 @@
   9  7,6  | TaI
   9  4,5  - ThEA
   9  4,5  - ThEE
+  9  7,6  | TiE
   9  7,6  | ToA
   9  7,6  | ToE
   9  4,5  - ToEA
@@ -2206,7 +2231,6 @@
   9  1,7  - cAUTEL
   9  2,5  - cAVIE
   9  2,7  - cUITLE
-  9 10,9  | dAE
   9 10,9  | dAT
   9 10,9  | dEA
   9  2,5  - dEAVE
@@ -2234,20 +2258,32 @@
   9 10,9  | hEI
   9 10,9  | hET
   9  4,5  - iTEA
+  9  7,7  | iVA
+  9  7,7  | iVE
   9 10,9  | kAE
   9 10,9  | kAI
   9 10,9  | kAT
   9 10,9  | kEA
   9 10,9  | kET
+  9 10,9  | lAI
+  9 10,9  | lAT
+  9 10,9  | lEA
   9  2,5  - lEAVE
+  9 10,9  | lEI
+  9 10,9  | lET
   9  2,5  - lIEVE
   9 10,9  | mAE
   9 10,9  | mAT
   9  2,5  - mAVIE
   9 10,9  | mEA
   9 10,9  | mET
+  9 10,9  | nAE
   9  7,9  - nAEVI
   9  2,5  - nAIVE
+  9 10,9  | nAT
+  9 10,9  | nEA
+  9 10,9  | nEI
+  9 10,9  | nET
   9  2,5  - nIEVE
   9  5,6  | oAT
   9  7,6  | oAT
@@ -2293,6 +2329,8 @@
   9 10,9  | tAT
   9 10,9  | tEA
   9  2,5  - tEAVE
+  9  7,6  | tIE
+  9  7,6  | tIT
   9  2,7  - tUTELA
   9  7,7  | uVA
   9  4,7  - vALVE
@@ -2359,8 +2397,6 @@
   8  5,7  | AhU
   8  7,7  | AhU
   8  9,7  | Ai
-  8  5,7  | AkU
-  8  7,7  | AkU
   8  5,6  | Al
   8  9,7  | Al
   8  5,7  | AlIET
@@ -2438,7 +2474,6 @@
   8  3,3  - Ee
   8  5,6  | Ee
   8  9,7  | Ee
-  8  3,3  - Ef
   8  9,7  | Ef
   8  9,7  | Eh
   8  5,6  | El
@@ -2453,6 +2488,7 @@
   8  9,7  | En
   8  7,10 - EnATE
   8  5,7  | EnTIA
+  8  2,5  - EnVIE
   8  7,6  | Eo
   8  9,7  | Eo
   8  1,5  - EqUATE
@@ -2465,10 +2501,15 @@
   8  9,7  | Ew
   8  9,7  | Ex
   8  7,10 - ExITE
+  8  7,7  | ITEA
   8  4,5  - ITEa
   8  4,5  - ITEm
   8  4,5  - ITEn
   8  4,5  - ITEr
+  8  7,7  | IdETA
+  8  7,7  | ImU
+  8  7,7  | IoU
+  8  7,7  | IrATE
   8  7,10 - IrATE
   8  6,7  - LATiGO
   8  6,7  - LAV
@@ -2547,6 +2588,7 @@
   8  2,5  - ThAVE
   8 10,9  | ThE
   8  3,7  - ThULIA
+  8  7,6  | Ti
   8 10,9  | TjI
   8  7,6  | To
   8 10,9  | ToA
@@ -2645,10 +2687,8 @@
   8  7,10 - cAITE
   8  5,5  - cEE
   8  7,10 - cITEE
-  8  5,7  | cITUA
   8  5,7  - cLIV
   8  8,10 - cUTE
-  8  5,7  | cUTIE
   8  3,5  - cUVE
   8  1,5  - dAUTIE
   8  4,6  - dAWUT
@@ -2693,7 +2733,6 @@
   8  1,7  - lUTEAL
   8  7,10 - mATIE
   8  5,5  - mEA
-  8  5,5  - mEE
   8  7,10 - mETAE
   8  8,10 - mUTE
   8  8,9  - nAVI
@@ -2702,6 +2741,7 @@
   8  8,9  - nEVI
   8  8,10 - nIUE
   8  5,6  | oE
+  8  7,6  | oI
   8  3,7  - oVAL
   8  7,10 - pATEE
   8  5,5  - pEA
@@ -2730,13 +2770,13 @@
   8  7,10 - tATIE
   8  5,5  - tEA
   8  5,5  - tEE
+  8  7,6  | tI
   8  2,7  - tITULE
   8  8,10 - tUTE
   8  5,7  - uLVA
   8  3,7  - uVAL
   8  5,5  - vEE
   8  7,10 - vITAE
-  8  5,5  - wEA
   8  5,5  - wEE
   8  5,5  - yEA
   8  5,5  - yEE
@@ -2888,9 +2928,22 @@
   7  5,7  | ExTA
   7  3,7  - ExULT
   7  8,7  - IAGO
+  7  7,7  | ITA
+  7  7,7  | ITAi
+  7  7,7  | ITAl
+  7  7,7  | ITEa
+  7  7,7  | ITEm
+  7  7,7  | ITEn
+  7  7,7  | ITEr
   7  4,5  - IVE
+  7  7,7  | IdEA
+  7  7,7  | IkAT
+  7  7,7  | IlEA
+  7  7,7  | InTA
   7  3,7  - InULA
+  7  7,7  | IoTA
   7  2,7  - IsEULT
+  7  7,7  | ItEA
   7  6,7  - LaV
   7  6,7  - LeV
   7  6,7  - LiV
@@ -3013,11 +3066,8 @@
   7  7,7  | bTU
   7  7,7  | bUAT
   7  7,7  | bUTE
-  7  5,7  | cAITE
   7  3,5  - cAVE
   7  3,5  - cIVE
-  7  5,7  | cUIT
-  7  5,7  | cUTE
   7  2,5  - cUTIE
   7  5,5  | dA
   7 10,9  | dA
@@ -3054,6 +3104,7 @@
   7  5,5  | jE
   7  3,5  - jIVE
   7 10,9  | kA
+  7 10,9  | lA
   7  5,7  | lAETI
   7  7,7  | lAETI
   7  3,5  - lAVE
@@ -3075,8 +3126,10 @@
   7  2,7  - mEAUL
   7  2,7  - mIAUL
   7  5,5  | nA
+  7 10,9  | nA
   7  3,5  - nAVE
   7  5,5  | nE
+  7 10,9  | nE
   7  3,5  - nEVE
   7  5,5  | oE
   7 10,9  | oE
@@ -3281,8 +3334,6 @@
   6  8,10 - ArTE
   6  1,3  - As
   6 10,10 | As
-  6  5,7  | AsE
-  6  7,7  | AsE
   6  5,7  | AsT
   6  7,7  | AsT
   6 10,9  | At
@@ -3330,7 +3381,6 @@
   6  3,1  | DOgIE
   6  3,1  | DOlIA
   6  3,1  | DOnAT
-  6  3,1  | DOnET
   6  3,1  | DOnIA
   6  3,1  | DOrIA
   6  3,1  | DOwIE
@@ -3404,6 +3454,7 @@
   6  3,7  - ExALT
   6  5,7  | ExT
   6  3,7  - ExUL
+  6  7,7  | IArE
   6  8,10 - IArE
   6 11,1  | IT
   6  3,7  - ITAL
@@ -3412,12 +3463,31 @@
   6  3,7  - ITALy
   6  7,9  - ITAlI
   6  3,7  - ITaLA
+  6  7,7  | ITeA
+  6  7,7  | ITzA
+  6  7,7  | IUd
   6  5,6  - IWA
+  6  7,7  | IbA
+  6  7,7  | IcE
   6  1,3  - Id
+  6  7,7  | IdE
   6  1,5  - IdEATE
   6  8,10 - IdEE
+  6  7,7  | IfE
+  6  7,7  | IkE
+  6  7,7  | IlA
+  6  7,7  | IlE
+  6  7,7  | InT
+  6  7,7  | IrA
+  6  7,7  | IrE
   6  1,3  - Is
+  6  7,7  | IsE
+  6  7,7  | IsT
   6  3,7  - IsTLE
+  6  7,7  | ItA
+  6  7,7  | IvA
+  6  7,7  | IvE
+  6  7,7  | IwA
   6  3,7  - IxTLE
   6  3,7  - IzTLE
   6  4,2  | RAIaE
@@ -3580,7 +3650,6 @@
   6 10,9  | Ta
   6 10,10 | Ta
   6  4,6  - TaWA
-  6  1,3  - Tc
   6 10,10 | Tc
   6  1,3  - Td
   6 10,9  | Td
@@ -3636,6 +3705,7 @@
   6  2,7  - UvEAL
   6  5,1  | VIa
   6  5,1  | VIc
+  6  5,1  | VId
   6  5,1  | VIe
   6  5,1  | VIi
   6  5,1  | VIl
@@ -3649,7 +3719,6 @@
   6  4,5  - VoE
   6  6,6  - WAE
   6  6,6  - WAT
-  6  6,6  - WEA
   6  6,6  - WEI
   6  6,6  - WET
   6  6,6  - WIT
@@ -3679,23 +3748,18 @@
   6  3,7  - bUILT
   6  7,7  | bUT
   6  3,7  - bUTLE
-  6  5,7  | cATE
   6  8,10 - cATE
   6  2,7  - cATEL
   6  3,7  - cAULI
   6  8,10 - cETE
-  6  5,7  | cETI
   6  9,2  - cIA
   6  9,2  - cIE
   6  9,2  - cIT
   6  2,7  - cITAL
-  6  5,7  | cITE
   6  8,10 - cITE
-  6  5,7  | cUE
   6  9,10 - cUE
   6  4,7  - cULET
   6  4,7  - cULTI
-  6  5,7  | cUT
   6  8,7  - dAGO
   6  8,10 - dATE
   6  2,7  - dATIL
@@ -3750,6 +3814,8 @@
   6  9,10 - hUE
   6  3,7  - hUILE
   6  8,7  - iAGO
+  6  7,7  | iTAI
+  6  7,7  | iTEA
   6  4,5  - iVE
   6  8,10 - jETE
   6  4,7  - jULIA
@@ -3983,9 +4049,7 @@
   5  3,1  | DOTo
   5  3,1  | DOTs
   5  3,1  | DOTy
-  5  5,7  | EAd
   5  5,7  | EAm
-  5  5,7  | EAn
   5  5,7  | EAr
   5  3,7  - EArL
   5  5,7  | EAt
@@ -4022,6 +4086,7 @@
   5  2,1  | ENtEA
   5  2,1  | ENtIA
   5  2,1  | ENtTE
+  5  2,1  | ENvIE
   5  5,7  | ET
   5  2,5  - ETApE
   5  5,7  | ETa
@@ -4044,10 +4109,16 @@
   5  8,7  - ErGO
   5  3,7  - EvAL
   5  3,7  - EvIL
+  5  7,7  | IAn
+  5  7,7  | IAo
   5  5,7  - ILEA
+  5  7,7  | IT
   5  8,9  - ITAI
+  5  7,7  | ITa
   5  3,7  - ITaL
+  5  7,7  | ITd
   5  3,7  - ITlL
+  5  7,7  | ITs
   5  5,6  - IWa
   5  5,6  - IWi
   5  8,7  - IaGO
@@ -4262,15 +4333,12 @@
   5  6,6  - WAy
   5  6,6  - WAz
   5  6,6  - WE
-  5  6,6  - WEa
   5  6,6  - WEb
   5  6,6  - WEd
   5  6,6  - WEe
   5  6,6  - WEi
   5  6,6  - WEm
   5  6,6  - WEn
-  5  6,6  - WEr
-  5  6,6  - WEs
   5  6,6  - WEt
   5  6,6  - WEy
   5  6,6  - WId
@@ -4284,13 +4352,11 @@
   5  6,6  - WT
   5  6,6  - WaE
   5  6,6  - WaT
-  5  6,6  - WeA
   5  6,6  - WeE
   5  6,6  - WeI
   5  6,6  - WeT
   5  6,6  - WhA
   5  6,6  - WiT
-  5  6,6  - WoA
   5  6,6  - WoE
   5  6,6  - WoT
   5  6,6  - WuT
@@ -4328,19 +4394,12 @@
   5  9,6  - bOM
   5  3,7  - bUAL
   5  4,7  - bULT
-  5  5,7  | cAI
   5  2,5  - cAITE
-  5  5,7  | cAT
   5  3,7  - cAUL
   5  4,6  - cAW
-  5  4,7  - cELIA
-  5  5,7  | cIA
-  5  5,7  | cIE
-  5  5,7  | cIT
   5  2,5  - cITEE
   5  5,7  - cLUE
   5  9,6  - cOM
-  5  5,7  | cTE
   5  4,7  - cULT
   5  5,6  - cWT
   5  4,6  - dAW
@@ -4392,6 +4451,7 @@
   5  9,2  | hP
   5  4,7  - hULA
   5  5,6  - hWT
+  5  7,7  | iTA
   5  3,7  - iTALI
   5  5,6  - iWA
   5  5,6  - iWI
@@ -4564,7 +4624,6 @@
   4  3,5  - AbIE
   4  4,7  - AbLE
   4  9,10 - AcE
-  4  4,7  - AcLE
   4  5,1  - Ad
   4 11,1  | Ad
   4  5,7  | Ad
@@ -4617,7 +4676,6 @@
   4 11,1  | As
   4  5,7  | As
   4  7,7  | As
-  4  9,10 - AsE
   4  5,1  - At
   4 11,1  | At
   4  5,7  | At
@@ -4756,23 +4814,30 @@
   4  4,7  - ITLl
   4  8,9  - ITaI
   4 11,1  | Ib
+  4  7,7  | Ib
   4  9,10 - IcE
   4 11,1  | Id
+  4  7,7  | Id
   4  9,10 - IdE
   4  3,5  - IdEE
   4  4,7  - IdLE
   4 11,1  | If
+  4  7,7  | If
   4  9,10 - IfE
   4  9,10 - IkE
   4  9,10 - IlE
   4 11,1  | In
+  4  7,7  | In
   4 11,1  | Io
+  4  7,7  | Io
   4  2,5  - IrATE
   4  9,10 - IrE
   4 11,1  | Is
+  4  7,7  | Is
   4  9,10 - IsE
   4  4,7  - IsLE
   4 11,1  | It
+  4  7,7  | It
   4  9,10 - IvE
   4  4,7  - IzLE
   4  6,7  - LAI
@@ -5011,8 +5076,6 @@
   4  3,5  - cUTE
   4  5,1  - dA
   4 10,10 | dA
-  4  9,10 - dAE
-  4  3,7  - dAIL
   4  4,7  - dALE
   4  4,7  - dALI
   4  4,7  - dALT
@@ -5110,6 +5173,7 @@
   4  9,10 - kIE
   4  3,7  - kIEL
   4  4,7  - kILT
+  4  5,1  - lA
   4  8,9  - lATI
   4  3,7  - lEAL
   4  9,10 - lEE
@@ -5130,7 +5194,6 @@
   4  4,7  - mALT
   4 10,10 | mE
   4  3,7  - mEAL
-  4  9,10 - mEE
   4  4,7  - mELA
   4  4,7  - mELT
   4 10,10 | mI
@@ -5138,6 +5201,7 @@
   4  4,7  - mILE
   4  4,7  - mILT
   4  3,5  - mUTE
+  4  5,1  - nA
   4 10,10 | nA
   4  9,10 - nAE
   4  3,7  - nAIL
@@ -5148,6 +5212,7 @@
   4  9,10 - nEE
   4  3,7  - nEIL
   4  8,9  - nETI
+  4 10,10 | nI
   4  4,7  - nILE
   4  3,5  - nIUE
   4  4,7  - nUL
@@ -5321,7 +5386,6 @@
   3  5,7  - ELm
   3  5,7  - ELs
   3  5,7  - ELt
-  3  2,1  | ENc
   3  2,1  | ENd
   3  2,1  | ENg
   3  2,1  | ENs
@@ -5361,7 +5425,6 @@
   3  6,7  - LAw
   3  6,7  - LAx
   3  6,7  - LAy
-  3  6,7  - LAz
   3  6,7  - LEa
   3  6,7  - LEd
   3  6,7  - LEe
@@ -5377,6 +5440,7 @@
   3  6,7  - LEv
   3  6,7  - LEx
   3  6,7  - LEy
+  3  6,7  - LI
   3  6,7  - LIb
   3  6,7  - LId
   3  6,7  - LIe
@@ -5394,7 +5458,6 @@
   3  6,7  - LTr
   3  6,7  - LaI
   3  6,7  - LaT
-  3  6,7  - LcA
   3  6,7  - LeA
   3  6,7  - LeE
   3  6,7  - LeI
@@ -5573,6 +5636,7 @@
   3  5,7  - iLA
   3  5,7  - iLE
   3 11,1  | iT
+  3  7,7  | iT
   3  3,5  - jETE
   3  4,7  - kAL
   3  3,5  - kATE
@@ -5585,6 +5649,8 @@
   3  5,7  | lA
   3  7,7  | lA
   3  3,5  - lATE
+  3  5,7  | lI
+  3  7,7  | lI
   3  5,1  | lIE
   3  5,1  | lIT
   3  3,5  - lITE
@@ -5668,7 +5734,6 @@
   3 11,1  | wT
   3  3,5  - yATE
   3  3,5  - yITE
-  3  4,7  - zEL
   3  5,1  | zIT
   2  6,1  | AA
   2  5,5  - AE
@@ -5689,7 +5754,6 @@
   2  4,5  - AnE
   2  4,5  - ApE
   2  4,5  - ArE
-  2  4,5  - AsE
   2  4,5  - AtE
   2  4,5  - AvE
   2  4,5  - AwE
@@ -5717,6 +5781,7 @@
   2  4,5  - IvE
   2  6,7  - La
   2  6,7  - Lb
+  2  6,7  - Li
   2  6,7  - Ll
   2  6,7  - Lo
   2  6,7  - Lu
@@ -5804,10 +5869,7 @@
   2  9,9  - cAI
   2  4,5  - cEE
   2  4,5  - cIE
-  2  9,5  - cL
-  2  5,7  - cL
   2  4,5  - cTE
-  2  4,5  - dAE
   2 10,10 - dE
   2  4,5  - dEE
   2  9,9  - dEI
@@ -5843,7 +5905,6 @@
   2  5,7  - lL
   2  4,5  - mAE
   2 10,10 - mE
-  2  4,5  - mEE
   2  4,5  - nAE
   2 10,10 - nE
   2  4,5  - nEE
@@ -5896,7 +5957,6 @@
   1 10,2  - Is
   1  5,2  | It
   1 10,2  - It
-  1 10,4  - Ob
   1 10,4  - Od
   1 10,4  - Oe
   1 10,4  - Of
@@ -5912,7 +5972,6 @@
   1 10,4  - Ox
   1 10,4  - Oy
   1  4,2  | Re
-  1  4,2  | Rf
   1  6,1  | aA
   1  5,5  - aE
   1  5,1  | aI
@@ -5942,12 +6001,16 @@
   1  5,1  | kI
   1 10,9  - kI
   1  6,1  | lA
+  1  5,1  | lI
+  1 10,9  - lI
   1  6,1  | mA
   1  5,5  - mE
   1  5,1  | mI
   1 10,9  - mI
   1  6,1  | nA
   1  5,5  - nE
+  1  5,1  | nI
+  1 10,9  - nI
   1  5,5  - oE
   1  5,1  | oI
   1 10,9  - oI

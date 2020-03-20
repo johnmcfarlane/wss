@@ -1,8 +1,7 @@
  26  1,7  - HIDED
  23  2,5  - HEED
- 23  2,7  - HEED
+ 23  3,7  - HEII
  23  2,5  - HIED
- 23  2,7  - HIED
  22  2,5  - EDH
  22  6,2  | HEDDLE
  22  7,3  | HIDED
@@ -24,12 +23,11 @@
  18  1,5  - HED
  18  1,7  - HED
  18  2,5  - HEE
- 18  2,7  - HEE
  18  4,4  | HERDED
  18  1,7  - HID
+ 18  5,7  - HIDED
  18  6,2  | HIDEL
  18  2,5  - HIE
- 18  2,7  - HIE
  18  4,4  | HIRED
  18  2,7  - IDE
  18  2,6  | MEDII
@@ -55,15 +53,14 @@
  15  2,5  - ED
  15  2,7  - ED
  15  2,5  - HE
- 15  2,7  - HE
  15  7,4  | HEE
  15  7,5  | HEE
  15  7,5  | HEI
  15  4,3  | HEIRED
  15  2,5  - HI
- 15  2,7  - HI
  15  7,4  | HIE
  15  2,7  - ID
+ 15  6,7  - IDDHI
  15  7,4  | IDEE
  15  4,6  | REHIDE
  14  7,4  | DEE
@@ -71,6 +68,7 @@
  14  7,5  | DEI
  14  4,3  | DEIRID
  14  4,3  | DHERI
+ 14  5,7  - DIDIE
  14  7,4  | DIE
  14  7,6  | EH
  14  7,5  | HE
@@ -79,7 +77,9 @@
  14  5,5  - HEED
  14  1,5  - HEI
  14  1,7  - HEI
+ 14  5,7  - HIDE
  14  1,7  - HIE
+ 14  5,7  - HIED
  14  7,4  | IDE
  14  4,6  | REHID
  13  7,5  | DE
@@ -92,11 +92,13 @@
  13  5,5  - HED
  13  5,5  - HEII
  13  4,4  | HERD
+ 13  5,7  - HID
  13  4,1  | HIEDER
  13  3,5  | IODIDE
  12  3,5  - DE
  12  3,7  - DE
  12  5,5  - DEED
+ 12  5,7  - DIED
  12  7,5  | EE
  12  7,6  | EE
  12  3,5  - EH
@@ -106,20 +108,22 @@
  12  5,5  - HEI
  12  4,4  | HERE
  12  4,2  | HIDER
+ 12  5,7  - HIE
  12  4,4  | HIRE
  12  3,5  | IODID
  12  3,6  | OHED
+ 11  5,7  - DID
  11  3,5  | DOH
  11  4,2  | EDDER
  11  6,5  - EDDIE
  11  2,5  - EE
  11  2,7  - EE
  11  1,5  - EH
- 11  1,7  - EH
  11  5,5  | HADDIE
  11  5,5  | HADED
  11  5,5  - HE
  11  4,4  | HER
+ 11  5,7  - HI
  11  4,4  | HIR
  11  3,5  | HOD
  11  3,5  | HOED
@@ -130,11 +134,13 @@
  10  5,5  - DEE
  10  5,5  - DEI
  10  3,3  | DIDO
+ 10  5,7  - DIE
  10  3,4  | DIODE
  10  4,4  | DIRD
  10  3,5  | DODE
  10  4,5  - EH
  10  4,7  - EH
+ 10  5,7  - EIDE
  10  4,2  | EIDER
  10  5,5  | HAIDEE
  10  6,3  | HEILED
@@ -146,6 +152,7 @@
   9  5,5  - DE
   9  6,4  | DELHI
   9  4,4  | DERE
+  9  5,7  - DI
   9  4,4  | DIRE
   9  3,5  | DOD
   9  4,5  | DREED
@@ -162,6 +169,7 @@
   9  3,5  | HOE
   9  3,5  | HOI
   9  5,3  | IDEAED
+  9  6,7  - IDEE
   9  2,5  | IMIDE
   9  4,5  | IRED
   9  4,5  | IRID
@@ -231,11 +239,11 @@
   7  6,5  | HLD
   7  2,5  | HM
   7  3,5  | HO
+  7  6,7  - IDE
   7  3,3  | IDEO
   7  6,6  | LEHI
   7  6,6  | LHD
   7  2,6  | MED
-  7  2,6  | MH
   7  2,6  | MID
   7  3,6  | ODD
   7  3,6  | OH
@@ -261,6 +269,7 @@
   6  4,5  | ERIE
   6  5,5  | HAD
   6  6,4  | HEL
+  6  6,7  - ID
   6  5,3  | IDEA
   6  6,4  | IDLE
   6  2,5  | IMI
@@ -268,7 +277,6 @@
   6  6,6  | LEED
   6  6,6  | LIDE
   6  6,6  | LIED
-  6  2,6  | MEE
   6  3,6  | ODE
   5  5,6  | ADD
   5  5,6  | AHI
@@ -293,10 +301,8 @@
   5  4,6  | RIE
   4  5,6  | AH
   4  5,6  | AID
-  4  5,5  | DAE
   4  5,4  | DEA
   4  5,4  | DIA
-  4  5,5  | EAD
   4  6,4  | EEL
   4  6,5  | ELI
   4  5,5  | HA
@@ -312,6 +318,7 @@
   3  4,5  | ERE
   3  3,5  | IO
   3  4,5  | IRE
+  3  6,6  | LI
   3  3,6  | OE
   3  3,6  | OI
   2  5,6  | AE

@@ -9,10 +9,10 @@ invalid words: aix
  29 11,1  | SRI
  28  9,2  - IFS
  26  9,2  - IF
+ 25  7,3  - DIVS
  24  7,3  - DIV
  23  7,3  - DIFS
  22  7,3  - DIF
- 21 11,1  | RF
  20 10,2  - FI
  20  9,2  - IDS
  20  7,3  - RIV
@@ -38,12 +38,8 @@ invalid words: aix
  14  9,1  | KIF
  14  7,1  - MAKER
  14  7,1  - MAKES
- 14 10,2  - RF
  14  7,3  - RID
  14  7,3  - SID
- 13  2,5  | FC
- 13  2,5  - FI
- 13  7,3  - RF
  12 10,2  - DI
  12 10,1  | EFS
  12 10,1  | ERF
@@ -73,7 +69,6 @@ invalid words: aix
   9  4,6  | AIDS
   9  2,6  | CFI
   9  2,6  | CFS
-  9  2,6  | CIF
   9  9,1  | KRIS
   9  7,1  | MED
   9  7,1  | MERD

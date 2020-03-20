@@ -18,7 +18,6 @@
  45  1,9  - JIlLS
  45  1,9  - JOOLa
  45  1,9  - JOwLS
- 45  3,1  | eJOO
  42  3,1  | JIaO
  42  3,1  | JObO
  42  3,1  | JOdO
@@ -68,8 +67,6 @@
  33  2,10 - JOsS
  33  3,10 - JeSS
  33  3,3  | JuS
- 33  4,10 - eJOO
- 32  2,10 - JmS
  32  2,10 - JuS
  31  3,3  | JOb
  31  2,10 - JOe
@@ -182,6 +179,7 @@
  18  1,9  - SOIL
  18  1,9  - SOILs
  18  1,9  - SOILy
+ 18  3,5  | SOIl
  18  4,10 - SOIlS
  18  1,9  - SOOL
  18  4,10 - SOOtS
@@ -524,7 +522,6 @@
  14  2,10 - IhS
  14  2,10 - InS
  14  2,10 - IpS
- 14  2,10 - IqS
  14  2,10 - IrS
  14  2,10 - ItS
  14  2,9  - JILl
@@ -685,6 +682,7 @@
  13  7,3  | gI
  13  3,5  | kOI
  13  7,3  | mI
+ 13  7,3  | nI
  13  3,4  | oS
  13  3,5  | pOI
  13  3,5  | rOI
@@ -728,6 +726,7 @@
  12  2,7  - JiTI
  12  2,7  - JoTS
  12  2,7  - JuTS
+ 12  5,7  | OOId
  12  3,10 - OS
  12  3,10 - OSc
  12  3,10 - OSe
@@ -760,7 +759,6 @@
  12  3,10 - sSI
  12  3,10 - tSS
  12  3,10 - vSS
- 11  3,7  | IOcS
  11  3,7  | ISlS
  11  3,8  - JIb
  11  3,8  - JIg
@@ -773,11 +771,12 @@
  11  2,7  - JuT
  11  5,3  - MUSIOn
  11  3,4  - ODALISkS
- 11  3,4  | Ob
+ 11  5,7  | ObIS
  11  3,10 - OeS
  11  3,4  | Op
  11  3,4  | Or
  11  3,4  | Os
+ 11  5,7  | OtIS
  11  3,4  | Ow
  11  2,4  - SODALISt
  11  5,8  | SOSO
@@ -790,6 +789,7 @@
  11  5,7  | cOOS
  11  3,10 - eS
  11  3,10 - iS
+ 11  5,7  | iSIS
  11  3,10 - oS
  11  2,8  - tJI
  11  2,8  - uJI
@@ -799,7 +799,6 @@
  10  3,7  | ISe
  10  3,7  | ISl
  10  5,7  | IbO
- 10  5,7  | InO
  10  3,10 - Is
  10  4,9  - LOOSISh
  10  5,3  - MUOnS
@@ -811,6 +810,9 @@
  10  5,3  - MUStS
  10  3,4  - ODALISk
  10  3,6  | OIk
+ 10  5,8  | OIkS
+ 10  3,6  | OIl
+ 10  5,8  | OIlS
  10  5,8  | OOId
  10  5,8  | OOS
  10  5,8  | OOSe
@@ -818,16 +820,35 @@
  10  5,8  | OOnS
  10  5,8  | OOpS
  10  5,8  | OOtS
+ 10  5,7  | ObI
  10  3,10 - Oe
  10  5,7  | OfO
+ 10  5,7  | OnI
  10  5,7  | OnO
  10  3,10 - Os
  10  5,7  | OtO
  10  1,6  - SION
+ 10  5,8  | SIOl
+ 10  5,8  | SIOn
+ 10  5,8  | SIS
  10  6,6  - SISSOo
  10  6,6  - SISSoO
+ 10  5,8  | SISe
+ 10  5,8  | SISh
+ 10  5,8  | SISi
+ 10  5,8  | SISs
  10  6,6  - SISsOO
+ 10  5,8  | SISt
+ 10  5,8  | SIbS
+ 10  5,8  | SIcS
+ 10  5,8  | SIlO
+ 10  5,8  | SImS
+ 10  5,8  | SInS
+ 10  5,8  | SIpS
+ 10  5,8  | SIrS
+ 10  5,8  | SIsS
  10  6,6  - SIsSOO
+ 10  5,8  | SItS
  10  5,8  | SOIl
  10  5,8  | SOIr
  10  2,9  - SOLOISt
@@ -863,10 +884,13 @@
  10  3,6  | aIS
  10  2,9  - cOLOSSI
  10  5,7  | cOO
+ 10  5,7  | cSI
  10  5,7  | dOO
  10  4,10 - eO
  10  4,10 - eS
+ 10  5,7  | hOI
  10  5,7  | hOO
+ 10  5,7  | hSI
  10  4,10 - sI
  10  4,10 - sO
   9  4,4  - DALIS
@@ -875,6 +899,7 @@
   9  4,4  | DENTILe
   9  4,4  | DENTILs
   9  3,3  | IO
+  9  5,7  | ISiS
   9  5,7  | ISlS
   9  4,9  - LOOIeS
   9  4,9  - LOOSeS
@@ -886,6 +911,9 @@
   9  5,3  - MUSS
   9  5,3  - MUSSy
   9  3,6  | OI
+  9  5,8  | OI
+  9  5,8  | OIk
+  9  5,8  | OIl
   9  3,9  - OLIOS
   9  3,3  | OO
   9  5,8  | OO
@@ -893,6 +921,21 @@
   9  5,8  | OOh
   9  5,8  | OOs
   9  5,8  | OOt
+  9  5,8  | SI
+  9  5,8  | SIa
+  9  5,8  | SIb
+  9  5,8  | SIc
+  9  5,8  | SId
+  9  5,8  | SIe
+  9  5,8  | SIg
+  9  5,8  | SIl
+  9  5,8  | SIm
+  9  5,8  | SIn
+  9  5,8  | SIp
+  9  5,8  | SIr
+  9  5,8  | SIs
+  9  5,8  | SIt
+  9  5,8  | SIx
   9  3,9  - SLOOSh
   9  3,3  | SO
   9  5,8  | SO
@@ -919,12 +962,14 @@
   9  5,8  | SOx
   9  5,8  | SOy
   9  3,2  | bIO
+  9  5,8  | bIOS
   9  5,8  | bOIS
   9  3,2  | bOO
   9  5,8  | bOOS
   9  5,8  | bOSS
   9  2,9  - cOLOSS
   9  3,2  | cOO
+  9  5,8  | dISS
   9  3,2  | dOO
   9  5,8  | dOSS
   9  2,9  - fOLIOS
@@ -939,6 +984,7 @@
   9  2,9  - pOLIOS
   9  3,2  | rIO
   9  3,2  | rOO
+  9  5,8  | sISS
   9  5,8  | sOSO
   9  5,8  | sOSS
   9  3,2  | tOO
@@ -965,7 +1011,6 @@
   8  2,9  - IgLOOS
   8  3,6  | IhS
   8  1,6  - IkON
-  8  3,2  | InO
   8  1,6  - IrON
   8  4,9  - LISSOm
   8  5,3  - MUId
@@ -1054,20 +1099,19 @@
   8  3,9  | aSS
   8  1,6  - aSSN
   8  3,5  | bI
+  8  5,8  | bIO
   8  1,6  - bION
+  8  5,8  | bIS
   8  3,5  | bO
   8  5,8  | bOO
   8  1,6  - bOON
   8  5,8  | bOS
   8  1,6  - bOSN
   8  1,6  - cION
-  8  3,9  | cIS
   8  1,6  - cOIN
-  8  3,9  | cOO
   8  1,6  - cOON
-  8  3,9  | cOS
-  8  3,9  | cSI
   8  1,6  - dION
+  8  5,8  | dIS
   8  5,8  | dOO
   8  5,8  | dOS
   8  3,9  | eSS
@@ -1085,6 +1129,7 @@
   8  3,9  | lOO
   8  1,6  - lOON
   8  1,6  - mOON
+  8  5,8  | nIS
   8  5,8  | nOO
   8  1,6  - nOON
   8  5,8  | nOS
@@ -1097,10 +1142,12 @@
   8  1,6  - rOON
   8  3,5  | sI
   8  1,6  - sION
+  8  5,8  | sIS
   8  3,5  | sO
   8  1,6  - sOON
   8  5,8  | sOS
   8  3,5  | tI
+  8  5,8  | tIS
   8  3,5  | tO
   8  5,8  | tOI
   8  5,8  | tOO
@@ -1110,10 +1157,30 @@
   8  1,6  - wOON
   8  1,6  - zION
   8  1,6  - zOON
+  7  5,9  | IO
   7  2,4  - IODAL
+  7  5,9  | IOn
+  7  5,9  | IOu
+  7  5,9  | IS
   7  2,9  - ISLOt
   7  2,9  - ISLS
+  7  5,9  | ISe
+  7  5,9  | ISh
+  7  5,9  | ISl
+  7  5,9  | ISm
+  7  5,9  | ISn
+  7  5,9  | ISt
+  7  5,9  | ISz
+  7  5,9  | IaO
+  7  5,9  | IbO
+  7  5,9  | IdS
+  7  5,9  | IfS
+  7  5,9  | IhS
+  7  5,9  | InS
   7  3,3  | Io
+  7  5,9  | IpS
+  7  5,9  | IrS
+  7  5,9  | ItS
   7  4,9  - LISS
   7  4,9  - LIdOS
   7  4,9  - LImOS
@@ -1205,6 +1272,7 @@
   7  2,9  - SOLOn
   7  2,9  - SOLOs
   7  2,9  - SOLS
+  7  5,8  | SiSI
   7  3,3  | So
   7  5,8  | SoSO
   7  5,8  | SuSI
@@ -1230,6 +1298,7 @@
   7  3,6  | aI
   7  3,9  - aLISO
   7  3,9  - aLOIS
+  7  5,8  | bI
   7  2,9  - bILOS
   7  3,8  - bIOSIS
   7  3,9  - bLISS
@@ -1237,11 +1306,13 @@
   7  5,8  | bO
   7  2,9  - bOLIS
   7  2,9  - bOLOS
+  7  5,8  | dI
   7  2,9  - dILOS
   7  3,3  | dO
   7  5,8  | dO
   7  2,9  - dOLOS
   7  3,3  | eO
+  7  5,8  | fI
   7  3,9  - fLOSS
   7  2,9  - fOLIO
   7  3,9  - gLISS
@@ -1257,10 +1328,12 @@
   7  2,9  - mILOS
   7  3,8  - mIOSIS
   7  3,3  | mO
+  7  5,8  | nI
   7  3,3  | nO
   7  5,8  | nO
   7  2,9  - nOLOS
   7  3,6  | oI
+  7  5,8  | oI
   7  3,9  - oLIOS
   7  3,3  | oO
   7  5,8  | oO
@@ -1271,12 +1344,14 @@
   7  2,9  - pOLIS
   7  2,9  - pOLOI
   7  2,9  - pOLOS
+  7  5,8  | sI
   7  2,9  - sILOS
   7  3,8  - sISSOO
   7  3,3  | sO
   7  5,8  | sO
   7  2,9  - sOLIO
   7  2,9  - sOLOS
+  7  5,8  | tI
   7  3,3  | tO
   7  5,8  | tO
   7  3,3  | wO
@@ -1296,18 +1371,26 @@
   6  7,6  | ISmS
   6  2,6  - IaN
   6  3,7  | Ib
+  6  5,9  | Ib
   6  3,7  | Id
+  6  5,9  | Id
   6  3,7  | If
+  6  5,9  | If
   6  2,9  - IgLOO
   6  2,6  - IgN
+  6  3,7  | In
+  6  5,9  | In
   6  2,6  - InN
   6  3,7  | Io
+  6  5,9  | Io
   6  2,4  - IoDAL
   6  2,6  - IoN
   6  7,6  | IpSO
   6  3,7  | Is
+  6  5,9  | Is
   6  2,6  - IsN
   6  3,7  | It
+  6  5,9  | It
   6  4,9  - LIOnS
   6  4,9  - LISpS
   6  4,9  - LIStS
@@ -1376,7 +1459,6 @@
   6  5,7  | OS
   6  7,6  | OSeS
   6  2,4  - OaDAL
-  6  5,9  | Ob
   6  5,8  | ObI
   6  7,6  | ObIS
   6  5,8  | ObS
@@ -1437,12 +1519,12 @@
   6  2,6  - SaN
   6  3,8  | SaO
   6  5,8  | SaO
-  6  3,8  | ScI
   6  3,8  | SeI
   6  2,6  - SeN
   6  2,5  - ShEENS
   6  2,9  - SiLOS
   6  2,6  - SiN
+  6  5,8  | SiS
   6  2,5  - SkEENS
   6  2,9  - SoLIO
   6  2,9  - SoLOS
@@ -1455,6 +1537,7 @@
   6  2,6  - SyN
   6  6,2  - VIa
   6  6,2  - VIc
+  6  6,2  - VId
   6  6,2  - VIe
   6  6,2  - VIi
   6  6,2  - VIl
@@ -1627,14 +1710,13 @@
   5  7,6  | OSSa
   5  7,6  | OSSe
   5  1,7  - OaSTS
-  5  3,6  | Ob
-  5  5,8  | Ob
   5  1,7  - ObITS
   5  2,9  - ObLI
   5  3,6  | Oe
   5  3,8  | Oe
   5  3,6  | Oh
   5  3,6  | Oi
+  5  5,8  | Oi
   5  2,9  - OiLS
   5  1,7  - OmITS
   5  5,8  | Oo
@@ -1671,6 +1753,7 @@
   5  2,5  - ShEEN
   5  1,7  - ShITS
   5  1,7  - ShOTS
+  5  5,8  | Si
   5  2,9  - SiLO
   5  2,5  - SkEEN
   5  1,7  - SkITS
@@ -1692,7 +1775,6 @@
   5  3,9  - aLSO
   5  1,7  - bOOTS
   5  1,7  - cISTS
-  5  3,9  - cLIO
   5  3,9  - cLOS
   5  1,7  - cOOTS
   5  1,7  - cOSTS
@@ -1761,16 +1843,15 @@
   4  7,6  | IhS
   4  1,7  - IlOT
   4  5,7  | In
-  4  7,6  | InO
   4  7,6  | InS
   4  1,7  - InST
   4  5,7  | Io
   4  7,6  | IpS
-  4  7,6  | IqS
   4  7,6  | IrS
   4  5,7  | Is
   4  5,7  | It
   4  7,6  | ItS
+  4  4,9  - LI
   4  4,9  - LIb
   4  4,9  - LId
   4  4,9  - LIe
@@ -1829,7 +1910,6 @@
   4  3,7  - OTO
   4  1,8  - OaSIS
   4  1,7  - OaST
-  4  5,7  | Ob
   4  7,6  | ObI
   4  1,7  - ObIT
   4  7,6  | ObS
@@ -1877,7 +1957,6 @@
   4  3,8  - SIrOS
   4  1,8  - SItIO
   4  3,8  - SItIO
-  4  3,8  - SIuSI
   4  3,9  - SLa
   4  3,9  - SLd
   4  3,9  - SLt
@@ -2014,6 +2093,7 @@
   4  2,9  - mOL
   4  1,7  - mOOT
   4  1,7  - mOST
+  4  2,7  - mOTO
   4  2,7  - mOTS
   4  2,9  - mSL
   4  2,9  - nIL
@@ -2130,7 +2210,6 @@
   3  3,7  - OTc
   3  3,7  - OTo
   3  2,7  - OaTS
-  3  7,6  | Ob
   3  2,8  - ObIS
   3  2,9  - ObL
   3  7,6  | Od
@@ -2315,11 +2394,15 @@
   3  7,6  | hOO
   3  2,7  - hOT
   3  7,6  | hSI
+  3  5,9  | iO
+  3  5,9  | iS
   3  2,8  - iSIS
   3  2,7  - iST
   3  2,7  - jOT
   3  3,8  - kISS
   3  2,7  - kIT
+  3  3,9  | lI
+  3  5,9  | lI
   3  3,8  - lISS
   3  2,7  - lIT
   3  3,9  | lO
@@ -2389,11 +2472,9 @@
   2  4,8  - IiI
   2  2,8  - ImI
   2  4,8  - ImI
-  2  4,8  - InO
   2  4,8  - InS
   2  2,7  - InT
   2  4,8  - IpS
-  2  4,8  - IqS
   2  4,8  - IrS
   2  2,7  - IsT
   2  4,8  - ItS
@@ -2401,6 +2482,7 @@
   2  4,8  - IwI
   2  4,9  - La
   2  4,9  - Lb
+  2  4,9  - Li
   2  4,9  - Ll
   2  4,9  - Lo
   2  4,9  - Lu
@@ -2509,7 +2591,6 @@
   2  3,8  - bIO
   2  3,8  - bIS
   2  3,8  - cIS
-  2  3,9  - cL
   2  2,8  - cSI
   2  3,7  - cTO
   2  3,7  - cTS
@@ -2595,7 +2676,9 @@
   1  3,7  - hT
   1  3,7  - iT
   1  3,8  - kI
+  1  3,8  - lI
   1  3,8  - mI
+  1  3,8  - nI
   1  3,8  - oI
   1  3,8  - pI
   1  3,8  - qI

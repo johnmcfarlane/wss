@@ -1,5 +1,4 @@
  67  3,1  | BECLIP
- 66  6,11 - ELBOIC
  55  1,9  - TECO
  54  8,3  | COLIBERT
  48 10,5  | BECOST
@@ -16,7 +15,6 @@
  39  1,3  | CLIVE
  39  1,3  | CLOVE
  39  1,4  | COVITE
- 38  5,11 - BETOIL
  36  6,11 - BICE
  36 10,6  | BLEST
  36 10,6  | BLIST
@@ -44,8 +42,6 @@
  32 10,6  | BOIST
  32 10,6  | BTISE
  32  2,9  - ECO
- 32  5,11 - TELCO
- 32  5,11 - TELIC
  31  2,5  - BCD
  30  6,11 - BELT
  30  9,8  | BICE
@@ -71,7 +67,6 @@
  27  6,11 - BITO
  27  6,11 - BOTE
  27  6,11 - BOTI
- 27  6,11 - ECOL
  27  2,5  - LCD
  27  9,7  | OBIIT
  27  1,6  | VEIL
@@ -93,6 +88,7 @@
  26 10,4  | COBLES
  26  2,1  | ICEBOAT
  26  1,9  - LB
+ 25  7,8  - BOLE
  25  7,8  - LOBE
  25  7,8  - LOBI
  24  6,2  | BECOST
@@ -103,7 +99,6 @@
  24 10,5  | BLOCS
  24  6,1  | CEIBOS
  24 10,4  | CEIBOS
- 24  1,9  - CL
  24  9,6  | IOLITE
  24  9,8  | LICE
  24 10,6  | LIEST
@@ -121,13 +116,13 @@
  23  7,8  - BOTE
  23  7,8  - BOTI
  23  1,9  - IB
- 23  1,9  - OB
- 23  5,11 - TELOI
  23  9,10 - TIC
+ 22  7,8  - BEL
  22  6,2  | BICES
  22 10,5  | BICES
  22  2,7  - BINE
  22  2,5  - BODE
+ 22  7,8  - BOL
  22 11,5  | BOLETIC
  22  2,7  - BONE
  22  2,2  | CEIBA
@@ -139,7 +134,6 @@
  21  9,8  | BITO
  21  9,8  | CITE
  21  9,7  | ELIOT
- 21  6,11 - ELIOT
  21  4,8  - JIB
  21  4,8  - JOB
  21  6,11 - TELOI
@@ -219,7 +213,6 @@
  18 10,5  | BOLTS
  18  6,2  | CEILS
  18 10,5  | CEILS
- 18  2,2  | CELIA
  18  6,2  | CELTS
  18 10,5  | CELTS
  18  6,2  | CLOES
@@ -260,20 +253,22 @@
  18  6,11 - TOLE
  18 11,6  | TOLTEC
  17  7,8  - BE
- 17  5,11 - BEC
  17  9,5  | BIOTIC
  17  7,8  - BO
  17  5,1  | LECTOR
+ 17  9,8  - LIB
  17  8,6  | LIBRE
  17  5,1  | LICTOR
+ 17  9,8  - LOB
  17 11,7  | LOTIC
+ 17  5,6  | RIE
+ 17  5,6  | RIO
  17  5,6  | ROE
  17  3,4  | TIPE
  17  6,8  - TLO
  17  3,4  | TOPE
  17  3,4  | TOPI
  16 10,6  | BELS
- 16  5,11 - BELT
  16 10,7  | BESIT
  16 10,7  | BESOT
  16  6,2  | BETIS
@@ -306,7 +301,6 @@
  16  8,4  | LICTOR
  16 10,6  | LOBS
  16  7,8  - LOT
- 16  8,8  - OB
  16  6,2  | OBITS
  16 10,5  | OBITS
  16  5,11 - OBLI
@@ -316,7 +310,6 @@
  16  2,7  - TONE
  16  3,5  | TPI
  15  6,11 - BEC
- 15  5,11 - BEL
  15  5,1  | BELTIR
  15  9,5  | BETOIL
  15  6,11 - BOC
@@ -336,6 +329,7 @@
  15  8,8  | CRIT
  15  8,8  | CRL
  15  1,9  - EL
+ 15  8,8  - ELI
  15  4,8  - JET
  15  4,8  - JOT
  15  2,7  - LEN
@@ -346,12 +340,12 @@
  15  5,11 - OBIT
  15  2,8  - OBJ
  15  5,11 - OBL
+ 15  8,8  - OLE
  15 11,8  | OTIC
  15  9,8  - TIB
  15  9,8  | TILE
  15  9,8  - TOB
  14 10,7  | BEST
- 14  5,11 - BET
  14 10,6  | BETS
  14  5,3  | BIER
  14 10,6  | BIOS
@@ -398,13 +392,14 @@
  14  6,1  | TOILES
  14 10,4  | TOILES
  14  3,9  | TOX
- 13  5,11 - BE
  13  6,11 - BEL
+ 13  5,4  | BERI
  13  1,4  | BEVIL
  13  9,6  | BILIC
  13  6,11 - BLO
  13  6,11 - BOL
  13  5,4  | BORE
+ 13  5,4  | BORI
  13  8,7  | BORIC
  13 11,7  | BOTEL
  13  5,11 - BT
@@ -422,7 +417,6 @@
  13  5,2  | LIBER
  13  7,8  - LO
  13  8,4  | LOITER
- 13  5,11 - OB
  13  6,5  - OBELI
  13  6,7  - OBELI
  13  5,1  | OBITER
@@ -454,14 +448,13 @@
  12  9,7  | CEIL
  12  5,2  | CITER
  12  1,4  | CIVET
- 12  9,7  | CLIO
  12  9,7  | CLIT
  12  9,7  | COIL
  12  1,4  | COVET
  12 10,8  | CSI
  12 10,8  | CST
- 12  6,11 - ECB
  12  6,5  - ECOL
+ 12  8,8  - EL
  12  9,5  | ELICIT
  12 10,8  | ESC
  12 10,8  - IB
@@ -471,11 +464,9 @@
  12  6,2  | LITES
  12 10,5  | LITES
  12  3,4  | LOP
- 12 10,8  - OB
  12  9,6  | OBIIT
  12  9,6  | OBLI
  12 11,4  | OBTECT
- 12  5,11 - OECI
  12  6,5  - OLEIC
  12  6,7  - OLEIC
  12 10,8  | OSC
@@ -487,7 +478,6 @@
  12 10,9  | SIC
  12 10,9  | SOB
  12 10,9  | SOC
- 12  5,11 - TECO
  12  2,8  - TEJ
  12  2,2  | TELIA
  12  6,2  | TELOS
@@ -525,10 +515,14 @@
  11  1,9  - IT
  11  4,8  - JE
  11  4,8  - JO
+ 11  9,8  - LEI
  11  8,5  | LIBER
+ 11  9,8  - LIE
  11  5,4  | LIRE
+ 11  9,8  - LOE
  11  5,1  | LOITER
  11  5,4  | LORE
+ 11  5,4  | LORI
  11  8,7  | LORIC
  11  9,5  | OBELI
  11  6,5  - OBLI
@@ -537,7 +531,6 @@
  11  9,6  | OLEIC
  11  5,11 - OTC
  11  1,9  - TE
- 11  5,11 - TEC
  11  3,4  | TIP
  11  5,1  | TOILER
  11  8,4  | TOILER
@@ -561,7 +554,6 @@
  10 11,7  | COTTE
  10  8,7  | CTRL
  10  4,5  - DEIL
- 10  6,11 - ELB
  10  3,7  - EN
  10  8,8  - EO
  10  8,8  - ET
@@ -610,9 +602,8 @@
  10  3,6  | PI
  10  3,6  | PO
  10  2,3  | TECALI
- 10  5,11 - TEIL
- 10  5,11 - TELI
  10  9,6  | TELIC
+ 10  5,4  | TERI
  10  9,10 - TI
  10  8,5  | TIBER
  10  8,5  | TICER
@@ -622,6 +613,7 @@
  10  5,4  | TIRO
  10  9,10 - TO
  10  5,4  | TORE
+ 10  5,4  | TORI
  10  8,7  | TORIC
  10  1,6  | VIC
  10  1,6  | VOC
@@ -666,13 +658,11 @@
   9  8,7  | CORT
   9  4,5  - DOIT
   9  2,3  | ECLAT
-  9  6,11 - ECO
   9  2,3  | ECTAL
   9  2,4  | ELAIC
   9  6,5  - ELB
   9  6,5  - ELIOT
   9  8,8  | ERIC
-  9  6,11 - ETC
   9  1,5  | EVIL
   9  2,3  | ILEAC
   9  5,5  | IRE
@@ -690,7 +680,6 @@
   9  2,3  | OCTAL
   9  5,5  | ORE
   9  6,11 - TEC
-  9  5,11 - TEL
   9  9,5  | TELOI
   9  6,11 - TIB
   9  6,11 - TIC
@@ -765,11 +754,13 @@
   8 11,6  | LECT
   8  8,7  | LEROT
   8  1,4  | LEV
+  8  9,8  - LI
   8  6,3  | LIBS
   8  8,7  | LIROT
   8  8,5  | LITER
   8  8,6  | LITRE
   8  1,4  | LIV
+  8  9,8  - LO
   8  6,3  | LOBS
   8  2,3  | LOCA
   8 11,7  | LOTTE
@@ -863,8 +854,6 @@
   7 11,6  | COTT
   7 11,7  | COTT
   7  7,7  | ECU
-  7  6,11 - ELI
-  7  6,11 - ELT
   7  6,5  - IB
   7  6,7  - IB
   7  6,3  | ICES
@@ -874,7 +863,6 @@
   7  2,5  | LAC
   7  6,4  | LBS
   7 10,7  | LBS
-  7  2,4  | LCA
   7  5,4  | LER
   7  9,8  | LIB
   7  8,6  | LIER
@@ -885,19 +873,15 @@
   7  8,7  | LORE
   7  8,7  | LORI
   7  6,5  | LSC
-  7  6,5  - OB
-  7  6,7  - OB
   7  6,3  | OBES
   7  9,7  | OBI
   7  2,3  | OBIA
   7  6,3  | OBIS
   7 11,6  | OBIT
-  7  5,11 - OE
   7  8,8  | ORLE
   7  2,5  | TABI
   7  2,5  | TACE
   7  2,5  | TACO
-  7  5,11 - TE
   7  2,3  | TECA
   7  6,11 - TEL
   7  6,3  | TICS
@@ -953,7 +937,6 @@
   6  6,4  | CTS
   6 10,7  | CTS
   6  5,4  | EIR
-  6  6,11 - EL
   6  6,5  - ELI
   6 11,5  | ELIOT
   6  6,5  - ELT
@@ -1043,9 +1026,7 @@
   5  6,5  - EL
   5  9,7  | ELI
   5  2,3  | ELIA
-  5  6,11 - EO
   5  5,5  | ER
-  5  6,11 - ET
   5  2,9  | EYE
   5  9,9  | IB
   5  5,10 | IB
@@ -1176,7 +1157,6 @@
   3  2,6  | AET
   3  2,6  | AIT
   3  2,6  | AL
-  3  6,9  | ASE
   3  6,9  | AST
   3  2,6  | ATE
   3  2,6  | ATI
@@ -1190,6 +1170,7 @@
   3  6,4  | ITS
   3 10,7  | ITS
   3  2,5  | LA
+  3  9,8  | LI
   3  2,5  | OAT
   3  6,4  | OES
   3 10,7  | OES

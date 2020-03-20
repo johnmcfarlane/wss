@@ -7,6 +7,7 @@
  25  5,2  | ALIDA
  25  5,3  | DAYAL
  25  5,3  | LADY
+ 25  7,3  | YILT
  24  5,2  | ADAY
  24  5,2  | ALAY
  23  7,1  | TIDAL
@@ -20,6 +21,7 @@
  20  5,2  | ADAT
  20  7,2  | ADAT
  20  5,2  | ADIT
+ 20  7,2  | ADIT
  20  5,2  | ALIA
  20  5,2  | ALIT
  20  5,3  | DAY
@@ -37,7 +39,6 @@
  19  5,1  | DAY
  19  7,1  | DAY
  19  5,3  | DITA
- 19  5,3  | LATA
  19  5,1  | LAY
  19  7,1  | LAY
  19  5,1  | LIDA
@@ -57,6 +58,7 @@
  18  6,2  - DAITYA
  18  7,3  | DAL
  18  6,2  - DAYAL
+ 18  7,3  | DIL
  18  5,4  | IDYL
  18  5,3  | LAD
  18  5,3  | LID
@@ -65,19 +67,19 @@
  18  5,1  | TALI
  18  5,1  | TAY
  18  7,1  | TAY
- 17  5,2  | ADA
- 17  7,2  | ADA
  17  5,5  | ADLAY
  17  5,2  | ALA
  17  5,2  | AY
  17  7,2  | AY
  17  5,5  | DAILY
  17  5,5  | DAITYA
+ 17  7,4  | IDLY
  17  5,2  | ILA
  17  4,4  - TANDY
  17  5,3  | YA
  17  7,3  | YA
  17  5,3  | YI
+ 17  7,3  | YI
  16  5,4  | ADATY
  16  5,5  | ADATY
  16  5,2  - ADDITA
@@ -95,6 +97,7 @@
  16  6,2  - DIDAL
  16  1,6  - DILATE
  16  5,3  | DIT
+ 16  7,3  | DIT
  16  6,6  - EDITAL
  16  6,6  - EDIYA
  16  5,4  - INDYL
@@ -121,7 +124,6 @@
  15  5,4  | ITALY
  15  5,1  | LAD
  15  7,1  | LAD
- 15  5,1  | LATA
  15  5,1  | LATI
  15  5,1  | LID
  15  7,1  | LID
@@ -189,6 +191,7 @@
  13  5,6  | DAYAL
  13  7,6  | DAYAL
  13  5,3  | DI
+ 13  7,3  | DI
  13  5,2  | ID
  13  7,2  | ID
  13  4,5  - IDEALY
@@ -196,6 +199,7 @@
  13  5,4  | ITALA
  13  5,3  | LA
  13  4,4  - LANAI
+ 13  5,3  | LI
  13  5,3  - LOYD
  13  7,6  | LYDIA
  13  1,4  - LYDIAN
@@ -206,7 +210,6 @@
  13  5,3  - TOADY
  13  5,5  | YALI
  13  4,4  - YANA
- 12  5,4  | ADA
  12  5,5  | ADATI
  12  5,5  | ADAY
  12  5,6  | ADAY
@@ -228,6 +231,7 @@
  12  5,3  - IODAL
  12  5,4  | ITAL
  12  5,4  | ITD
+ 12  7,4  | ITD
  12  2,4  - LADIN
  12  7,6  | LAITY
  12  7,6  | LAYIA
@@ -264,9 +268,6 @@
  11  5,4  | AY
  11  3,5  - AYIELD
  11  3,2  - DAIDLY
- 11  5,5  | DAIL
- 11  5,6  | DAIL
- 11  7,6  | DAIL
  11  5,6  | DALAI
  11  7,6  | DALAI
  11  5,5  | DALI
@@ -379,7 +380,6 @@
  10  3,5  - YALE
   9  5,4  | AD
   9  7,4  | AD
-  9  5,5  | ADA
   9  5,6  | ADATI
   9  4,5  - ADELIA
   9  5,2  - ADLAY
@@ -415,10 +415,10 @@
   9  5,3  - DOL
   9  6,5  - EDITAL
   9  5,4  | ID
+  9  7,4  | ID
   9  5,2  | IT
   9  7,6  | LAIT
   9  4,4  - LAN
-  9  7,6  | LATA
   9  3,5  - LATED
   9  7,6  | LATI
   9  2,4  - LATIN
@@ -431,7 +431,6 @@
   9  5,3  - LOD
   9  5,3  - LOID
   9  4,2  - LYDIA
-  9  6,4  - NAD
   9  6,4  - NAIAD
   9  6,4  - NATAL
   9  6,4  - NID
@@ -601,6 +600,7 @@
   7  3,5  - IDLE
   7  5,4  - INTA
   7  5,4  | IT
+  7  7,4  | IT
   7  7,6  | LAI
   7  7,6  | LAT
   7  3,5  - LATE
@@ -640,7 +640,6 @@
   7  5,3  - YO
   6  5,5  | AA
   6  5,6  | AAL
-  6  5,6  | ADA
   6  3,2  - ADAD
   6  5,2  - ADAD
   6  5,2  - ADATI
@@ -667,7 +666,6 @@
   6  7,6  | DA
   6  4,2  - DADA
   6  6,2  - DADA
-  6  6,2  - DAIL
   6  3,6  - DALE
   6  6,2  - DALI
   6  6,2  - DALT
@@ -714,6 +712,9 @@
   6  5,6  - LEDA
   6  5,5  - LEY
   6  5,6  - LEY
+  6  5,1  | LI
+  6  7,1  | LI
+  6  7,6  | LI
   6  4,2  - LIDA
   6  3,6  - LIDE
   6  4,5  - LIED
@@ -875,7 +876,6 @@
   5  5,5  - YET
   5  5,6  - YET
   4  5,6  | AA
-  4  5,2  - ADA
   4  5,6  | AI
   4  4,2  - AID
   4  4,5  - ALE
@@ -884,8 +884,6 @@
   4  5,4  - ANI
   4  5,4  - ANT
   4  5,6  | AT
-  4  4,5  - DAE
-  4  4,6  - DAE
   4  6,2  - DAT
   4  5,5  - DEA
   4  5,6  - DEA
@@ -897,8 +895,6 @@
   4  4,5  - DIE
   4  4,6  - DIE
   4  6,2  - DIT
-  4  6,5  - EAD
-  4  6,6  - EAD
   4  6,5  - ELA
   4  6,6  - ELA
   4  6,5  - ELI
@@ -958,6 +954,7 @@
   3  5,4  - IN
   3  5,3  - IO
   3  6,4  - NA
+  3  6,4  - NI
   3  6,3  - OI
   3  4,5  - TAE
   3  4,6  - TAE

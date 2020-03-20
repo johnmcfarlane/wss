@@ -48,24 +48,22 @@
  42 11,9  | SO
  36  7,9  - PAVES
  34 10,8  | SELE
+ 32 10,4  | ELOISE
  30  1,5  - LEYS
  29 10,6  | ELSE
  29 10,8  | SEL
+ 28 10,6  | LISE
  28 10,6  | LOSE
  27  3,11 - OILSEED
- 26  1,8  - YEEL
  25  1,5  - EELS
  25  1,5  - OILS
  25 10,8  | SEE
  24  3,6  | ASSOIL
  24  2,5  - ELS
- 24  1,8  - SEEL
- 23  2,8  - EEL
  23  2,8  - ISL
- 23  2,8  - SEL
- 22  3,8  - EL
  22  1,5  - LEY
  22  1,5  - LOY
+ 21 10,7  | ISE
  21  4,10 - LEYS
  21  4,10 - LYES
  21  1,8  - LYSE
@@ -80,11 +78,8 @@
  19  1,8  - LOSE
  19  5,10 - LYS
  19  4,10 - OYES
- 19  1,8  - SLEE
- 19  2,8  - YEE
  19  4,10 - YEES
  19  4,10 - YESO
- 18  2,8  - LEE
  18 10,4  | YEEL
  17  1,5  - EEL
  17  4,10 - EELS
@@ -102,14 +97,12 @@
  17  4,10 - OILS
  17  4,10 - OLES
  17  2,8  - OSE
- 17  2,8  - SEE
  17  1,5  - SEL
  17  1,5  - SIL
  17  4,10 - SILO
  17  1,5  - SOL
  17  5,10 - YES
  17  5,10 - YIS
- 16  3,8  - EE
  16  2,5  - EL
  16 10,5  | EYL
  16  4,6  | KILEY
@@ -138,6 +131,7 @@
  13 10,4  | SILO
  13  4,5  | SKIEY
  13  4,5  | SKIL
+ 13 10,4  | SOLI
  13  7,11 - YODEL
  12  9,11 - DEY
  12  3,5  | EASILY
@@ -156,12 +150,14 @@
  12 10,5  | SIL
  12 10,5  | SOL
  11  7,5  - EELY
+ 11 10,5  | ELI
  11  6,10 - EO
  11  6,10 - ES
  11  4,11 - EYELIDS
  11  6,10 - IO
  11  6,10 - IS
  11  4,6  | KIEL
+ 11 10,5  | LEI
  11 10,5  | LEO
  11  3,4  | LYASE
  11  7,2  | LYSES
@@ -172,6 +168,7 @@
  11  6,10 - SO
  11  3,3  | SOYAS
  11  5,2  | YEELIN
+ 11 10,6  | YI
  11 10,6  | YO
  11  7,11 - YODLE
  10  3,6  | ASYLE
@@ -209,10 +206,10 @@
   9  3,5  | LASSO
   9  3,4  | LEASES
   9  7,3  | LEYS
+  9 10,6  | LI
   9  7,11 - LIDOS
   9 10,6  | LO
   9  7,11 - LODES
-  9  1,8  - LYE
   9  7,3  | LYES
   9  1,8  - LYS
   9  5,11 - LYSED
@@ -220,6 +217,7 @@
   9  7,11 - OLDIE
   9  3,3  | OLEASE
   9  7,5  - OYES
+  9 10,5  | SEI
   9  7,11 - SIDLE
   9  3,3  | SILAS
   9  5,11 - SLOYD
@@ -248,12 +246,12 @@
   8 10,9  | ES
   8  9,10 - ES
   8  7,5  - EYE
-  8  1,8  - EYE
   8  8,11 - IDLE
   8  7,5  - ISL
   8  5,11 - ISOLDE
   8  2,3  | LEEF
   8  2,3  | LEIF
+  8  1,5  - LI
   8  2,3  | LIEF
   8  1,5  - LO
   8  6,11 - LOYD
@@ -266,9 +264,7 @@
   8  4,11 - SILOED
   8  7,2  | SLOES
   8  4,11 - SOILED
-  8  1,8  - SYE
   8  3,5  | YAS
-  8  1,8  - YEE
   8  6,11 - YELD
   8  1,8  - YES
   8  7,2  | YESES
@@ -291,7 +287,6 @@
   7  8,11 - IDEO
   7  8,11 - IDES
   7  7,5  - ILE
-  7  1,8  - ILE
   7  1,5  - IO
   7 10,6  | IO
   7  5,11 - ISLED
@@ -300,7 +295,6 @@
   7  3,5  | LASI
   7  3,5  | LASS
   7  3,4  | LEASE
-  7  1,8  - LEE
   7  6,11 - LEEDS
   7  7,3  | LEES
   7  7,3  | LEIS
@@ -308,12 +302,10 @@
   7  7,3  | LEOS
   7  5,11 - LESED
   7  7,3  | LESS
-  7  1,8  - LIE
   7  7,3  | LIES
   7  2,4  | LIF
   7  1,8  - LIS
   7  7,3  | LISS
-  7  1,8  - LOE
   7  7,2  | LOESS
   7  2,4  | LOF
   7  7,3  | LOIS
@@ -324,14 +316,15 @@
   7  8,11 - ODES
   7  1,5  - OE
   7  1,5  - OI
+  7 10,6  | OI
   7  5,11 - OILED
   7  5,3  | OISIN
   7  7,5  - OLE
-  7  1,8  - OLE
   7  7,3  | OYES
   7  7,2  | SEELS
   7  2,3  | SEIF
   7  1,5  - SI
+  7 10,6  | SI
   7  7,11 - SIDY
   7  7,2  | SILOS
   7  4,5  | SKI
@@ -349,7 +342,6 @@
   7  6,11 - SYED
   7  7,8  | UPO
   7  7,8  | UPS
-  7  2,8  - YE
   7  3,4  | YEAS
   7  7,11 - YEDE
   7  7,11 - YODE
@@ -365,9 +357,7 @@
   6  7,11 - ELDS
   6  6,11 - ELOD
   6  7,5  - ESE
-  6  1,8  - ESE
   6  7,5  - ISE
-  6  1,8  - ISE
   6  7,3  | ISLS
   6  3,5  | LAS
   6  3,4  | LEAS
@@ -396,18 +386,14 @@
   6  7,3  | OLES
   6  6,11 - OLID
   6  7,5  - OSE
-  6  1,8  - OSE
   6  6,11 - OSIDE
   6  7,5  - OY
-  6  1,8  - SEE
   6  6,11 - SELD
   6  7,3  | SELS
-  6  1,8  - SIE
   6  6,11 - SILD
   6  6,11 - SLED
   6  6,11 - SLID
   6  6,11 - SLOD
-  6  1,8  - SOE
   6  6,11 - SOLD
   6  7,3  | SOLS
   6  7,11 - SYD
@@ -416,7 +402,6 @@
   5  3,6  | ASSE
   5  3,6  | ASSI
   5  3,5  | EASE
-  5  2,8  - EE
   5  2,5  | EF
   5  7,11 - EIDE
   5  7,5  - EL
@@ -432,7 +417,6 @@
   5  5,5  | LIN
   5  7,11 - LOD
   5  7,11 - LSD
-  5  2,8  - OE
   5  2,5  | OF
   5  7,11 - OLD
   5  2,8  - OS
@@ -472,7 +456,6 @@
   4  7,11 - SID
   4  5,5  | SIN
   4  7,11 - SOD
-  3  3,6  | ASE
   3  3,6  | ASS
   3  9,11 - DE
   3  9,11 - DI
@@ -480,6 +463,7 @@
   3  8,11 - ED
   3  7,4  | ESS
   3  8,11 - ID
+  3  9,7  - LI
   3  9,7  - LO
   3  8,11 - OD
   3  7,4  | OES

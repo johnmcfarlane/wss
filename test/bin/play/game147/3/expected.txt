@@ -81,7 +81,6 @@
  31  3,8  | TROy
  30  3,8  | AReT
  30  3,8  | ATaR
- 30  3,8  | ATmO
  30  3,8  | ORaE
  30  6,5  | REQuOTE
  30  3,8  | TReE
@@ -335,8 +334,6 @@
  23  6,7  - fREQ
  23  3,4  | iRAQ
  23  7,5  | iRAQ
- 23  7,4  | sQRT
- 23  7,6  | sQRT
  22  3,3  | AERATOr
  22  3,6  | AORtA
  22  3,4  | AbATOR
@@ -344,14 +341,11 @@
  22  7,5  | QRs
  22  7,4  | QtR
  22  1,3  - REQd
- 21  3,8  | ARa
  21  3,8  | ARe
- 21  3,8  | ARm
  21  3,8  | ARo
  21  3,6  | ATAR
  21  3,8  | ATe
  21  3,8  | ATi
- 21  3,8  | ATm
  21  3,1  | AcOREA
  21  3,1  | AlERTA
  21  3,1  | ApTERA
@@ -382,7 +376,6 @@
  21  3,1  | TRAbEA
  21  3,8  | TRa
  21  3,8  | TRi
- 21  3,8  | aRA
  21  3,8  | aRE
  21  3,8  | aRO
  21  3,8  | aTE
@@ -597,7 +590,6 @@
  17  5,4  | eQUATOR
  17  2,1  | fAEROE
  17  7,4  | gAROTE
- 17  2,1  | gOETAE
  17  7,4  | lORATE
  17  7,4  | mORATE
  17  7,4  | nORATE
@@ -1360,6 +1352,7 @@
  15  7,3  | uTERO
  14  1,4  - AEQuOR
  14  7,4  | AER
+ 14  2,2  | AERiE
  14  7,4  | AERo
  14  7,4  | AERy
  14  7,4  | AOR
@@ -1526,6 +1519,7 @@
  14  7,3  | RETd
  14  7,6  | RETd
  14  7,6  | RETe
+ 14  2,2  | RETiE
  14  7,3  | RETs
  14  7,6  | RETs
  14  2,2  | REhOE
@@ -1841,7 +1835,6 @@
  14  7,4  | sORT
  14  7,6  | sORT
  14  3,7  - sOTER
- 14  6,7  - sQRT
  14  5,4  | sQUAT
  14  5,4  | sQUET
  14  7,3  | sTAR
@@ -1893,7 +1886,6 @@
  13  5,4  | AQUo
  13  3,3  | AQuA
  13  7,5  | AR
- 13  7,5  | ARa
  13  7,5  | ARb
  13  7,5  | ARc
  13  7,5  | ARe
@@ -1957,9 +1949,7 @@
  13  6,7  - EsQ
  13  7,4  | ExR
  13  7,4  | EyR
- 13  1,5  - LATa
  13  1,5  - LOTa
- 13  1,5  - LaTA
  13  1,5  - LoTA
  13  7,4  | OAsT
  13  7,5  | OR
@@ -2134,7 +2124,6 @@
  13  7,4  | aOR
  13  5,4  | aQUA
  13  5,4  | aQUO
- 13  7,5  | aRA
  13  7,5  | aRE
  13  7,5  | aRO
  13  7,5  | aRT
@@ -2200,7 +2189,6 @@
  13  7,5  | pRO
  13  7,4  | qTR
  13  3,7  - rOTE
- 13  7,4  | sAR
  13  7,4  | sER
  13  7,4  | sTR
  13  7,4  | tAR
@@ -2214,7 +2202,6 @@
  13  7,4  | vAR
  13  7,4  | vER
  13  7,4  | wAR
- 13  7,4  | wER
  13  3,7  - wOTE
  13  7,5  | wRO
  13  7,4  | yAR
@@ -2243,15 +2230,12 @@
  12  4,5  - AlERT
  12  4,5  - AlTER
  12  4,5  - AmORT
- 12  3,7  - AmT
  12  4,5  - AnTRE
  12  7,5  | ArE
  12  7,5  | ArO
  12  7,5  | ArR
  12  7,5  | ArT
- 12  7,5  | AsE
  12  7,5  | AsT
- 12  7,4  | EAd
  12  7,4  | EAr
  12  3,7  - EOn
  12  6,6  | EQpT
@@ -2328,7 +2312,6 @@
  12  3,7  - ROs
  12  3,7  - ROt
  12  7,6  | Re
- 12  7,6  | Rf
  12  3,7  - RiT
  12  3,7  - RoT
  12  4,4  | TAGsORE
@@ -2381,7 +2364,6 @@
  12  2,10 - YuRTA
  12  7,5  | aR
  12  4,2  | bOREGAT
- 12  7,6  | dAE
  12  7,6  | dAO
  12  7,6  | dAR
  12  7,6  | dAT
@@ -2408,7 +2390,6 @@
  12  7,6  | rTE
  12  7,6  | sAE
  12  7,6  | sAO
- 12  7,6  | sAR
  12  7,6  | sAT
  12  7,6  | sEA
  12  6,7  - sEQ
@@ -2874,7 +2855,6 @@
  10  6,1  | gOATEE
  10  6,2  | gOATEE
  10  2,1  | gOER
- 10  6,1  | gOETAE
  10  3,7  - gOT
  10  1,2  | gRALLINE
  10  3,4  | gRATA
@@ -2982,6 +2962,7 @@
   9  3,4  | ERATo
   9  3,4  | ERAtO
   9  3,4  | ERAvA
+  9  2,3  | ERiE
   9  4,3  | ETAGRe
   9  4,2  | ETROG
   9  4,2  | ETROGs
@@ -3015,7 +2996,6 @@
   9  4,6  | GOATEe
   9  4,6  | GOATeE
   9  4,6  | GOAlER
-  9  4,6  | GOETAe
   9  4,6  | GOETiA
   9  4,6  | GORbET
   9  4,6  | GORgET
@@ -3061,15 +3041,12 @@
   9  2,1  | OREs
   9  4,4  | ORGEaT
   9  4,2  | ORTiGA
-  9  2,1  | ORfE
   9  3,4  | OTARy
   9  4,2  | OaRAGE
   9  4,3  | OnAGER
   9  3,4  | OpATA
   9  4,2  | OuTAGE
   9  4,4  | RAGOuT
-  9  2,1  | RAfE
-  9  2,1  | RAfT
   9  3,4  | REAAl
   9  3,4  | REATa
   9  3,4  | REAcT
@@ -3080,7 +3057,6 @@
   9  4,4  | REGAlO
   9  4,2  | RETAG
   9  2,1  | REeT
-  9  2,1  | REfT
   9  3,4  | ROAsT
   9  1,3  - ROAsTER
   9  2,1  | ROEd
@@ -3173,9 +3149,7 @@
   9  4,2  | fORAGE
   9  5,5  - fORET
   9  5,5  - fORTE
-  9  2,3  | fRAE
   9  5,5  - fRATE
-  9  2,3  | fROE
   9  5,7  - hEART
   9  5,7  - hERAT
   9  5,7  - hORAE
@@ -3257,7 +3231,6 @@
   8  1,4  - AORTAE
   8  6,5  - AORTaE
   8  3,2  | AOrTAE
-  8  3,6  | ARA
   8  2,1  | ARE
   8  4,3  | AREG
   8  6,2  | AREaE
@@ -3293,7 +3266,6 @@
   8  6,2  | AgREE
   8  6,5  - AgROTE
   8  3,7  - Ai
-  8  3,7  - Am
   8  6,5  - AmORET
   8  6,2  | AnTRE
   8  6,2  | ArERE
@@ -3359,7 +3331,6 @@
   8  6,6  | ElATE
   8  6,5  - ElATOR
   8  6,7  - ElATOR
-  8  3,7  - Em
   8  6,2  | EmOTE
   8  6,6  | EmOTE
   8  6,2  | EnATE
@@ -3944,7 +3915,6 @@
   8  4,4  | lAGER
   8  4,3  | lARGE
   8  4,3  | lARGO
-  8  3,5  | lATA
   8  2,2  | lEA
   8  2,2  | lER
   8  2,2  | lET
@@ -4000,7 +3970,6 @@
   8  4,4  | rOGER
   8  4,3  | rOTGE
   8  4,4  | sAGER
-  8  3,5  | sARA
   8  6,2  | sAREE
   8  4,3  | sARGE
   8  4,3  | sARGO
@@ -4045,8 +4014,6 @@
   8  4,4  | wAGER
   8  4,4  | wAGET
   8  3,5  | wART
-  8  2,2  | wEA
-  8  2,2  | wER
   8  2,2  | wET
   8  6,2  | wROTE
   8  4,4  | yAGER
@@ -4168,7 +4135,6 @@
   7  3,3  | AfEAR
   7  6,5  - AfORE
   7  6,5  - AfRET
-  7  2,2  | AfT
   7  6,5  - AfTER
   7  3,10 | Ag
   7  3,2  | AgORAE
@@ -4264,7 +4230,6 @@
   7  3,10 | Ee
   7  2,2  | EeR
   7  3,10 | Ef
-  7  2,2  | EfT
   7  3,10 | Eh
   7  3,10 | El
   7  5,4  | ElUTOR
@@ -4354,7 +4319,6 @@
   7  4,6  | GOTh
   7  4,6  | GOTo
   7  4,6  | GOcART
-  7  4,6  | GOeTAE
   7  4,6  | GOiTER
   7  4,6  | GOiTRE
   7  4,6  | GOmART
@@ -4510,14 +4474,12 @@
   7  3,2  | OaTEAR
   7  6,5  - OaTER
   7  6,7  - OaTER
-  7  3,10 | Ob
   7  6,5  - OcREA
   7  6,7  - OcREA
   7  3,10 | Od
   7  3,10 | Oe
   7  2,2  | OeR
   7  3,10 | Of
-  7  2,2  | OfT
   7  6,5  - OfTER
   7  6,7  - OfTER
   7  4,7  - Oh
@@ -4952,7 +4914,6 @@
   7  5,7  - TeAR
   7  2,2  | TeE
   7  4,4  | TeGA
-  7  2,2  | TfR
   7  5,7  - ThAE
   7  5,7  - ThAR
   7  5,7  - ThEA
@@ -5124,8 +5085,6 @@
   7  4,3  | mORG
   7  5,5  - mORT
   7  5,7  - mORT
-  7  5,5  - mOTA
-  7  5,7  - mOTA
   7  5,5  - mOTE
   7  5,7  - mOTE
   7  5,5  - nARE
@@ -5283,7 +5242,6 @@
   6  5,3  | ARTUs
   6  6,5  - ARTiE
   6  5,2  | ARToU
-  6  3,6  | ARa
   6  3,6  | ARb
   6  3,3  | ARcAE
   6  1,4  - ARcAE
@@ -5374,7 +5332,6 @@
   6  1,4  - AcROA
   6  3,6  | AcT
   6  1,4  - AcTOR
-  6  3,6  | AdA
   6  6,5  - AdET
   6  3,6  | AdO
   6  6,5  - AdOR
@@ -5459,7 +5416,6 @@
   6  3,6  | ApR
   6  3,6  | ApT
   6  1,4  - ApTER
-  6  3,6  | ArA
   6  2,1  | ArE
   6  1,4  - ArEAR
   6  6,5  - ArET
@@ -5473,9 +5429,6 @@
   6  1,4  - ArTAR
   6  6,5  - ArTE
   6  1,4  - ArTER
-  6  3,6  | AsA
-  6  2,1  | AsE
-  6  4,4  | AsG
   6  6,5  - AsOR
   6  3,6  | AsT
   6  1,4  - AsTER
@@ -5641,7 +5594,6 @@
   6  1,5  - LAp
   6  1,5  - LAt
   6  1,5  - LAy
-  6  1,5  - LAz
   6  1,5  - LEa
   6  1,5  - LEd
   6  1,5  - LEk
@@ -5999,6 +5951,7 @@
   6  6,5  - RhET
   6  6,7  - RhET
   6  2,1  | RiE
+  6  2,4  | RiE
   6  4,4  | RiG
   6  6,5  - RiOT
   6  6,7  - RiOT
@@ -6311,6 +6264,7 @@
   6  6,5  - TiAR
   6  6,7  - TiAR
   6  2,1  | TiE
+  6  2,4  | TiE
   6  6,5  - TiER
   6  6,7  - TiER
   6  4,4  | TiG
@@ -6446,9 +6400,6 @@
   6  5,5  | cURET
   6  5,5  | cUTER
   6  3,5  - dA
-  6  2,1  | dAE
-  6  2,4  | dAE
-  6  5,5  - dAE
   6  5,5  - dAO
   6  5,5  - dAR
   6  3,3  | dARAT
@@ -6591,11 +6542,9 @@
   6  5,5  | lUTER
   6  5,5  | lUTRA
   6  3,5  - mA
-  6  3,10 | mA
   6  2,1  | mAE
   6  2,4  | mAE
   6  5,5  - mAE
-  6  5,5  - mAO
   6  5,5  - mAR
   6  3,3  | mARAE
   6  5,2  | mARTU
@@ -6605,7 +6554,6 @@
   6  6,7  - mATER
   6  3,2  | mATRA
   6  5,3  | mATURE
-  6  3,10 | mE
   6  5,5  - mEA
   6  5,7  - mEA
   6  5,5  - mEO
@@ -6623,7 +6571,6 @@
   6  6,5  - mETRO
   6  6,7  - mETRO
   6  3,7  - mO
-  6  3,10 | mO
   6  5,5  - mOA
   6  5,7  - mOA
   6  5,5  - mOR
@@ -6877,7 +6824,6 @@
   5  2,1  | ARe
   5  1,4  - AReA
   5  1,4  - AReT
-  5  2,1  | ARf
   5  1,4  - ARgO
   5  1,4  - ARiA
   5  1,4  - ARlE
@@ -7060,7 +7006,6 @@
   5  5,4  | ERUgO
   5  5,4  | ERUpT
   5  2,1  | ERe
-  5  2,1  | ERf
   5  6,5  - ETA
   5  6,7  - ETA
   5  6,5  - ETAs
@@ -7115,7 +7060,6 @@
   5  4,6  | GOdE
   5  4,6  | GOeR
   5  4,6  | GOlA
-  5  4,6  | GOmA
   5  4,6  | GOmE
   5  4,6  | GOnA
   5  4,6  | GOnE
@@ -7162,7 +7106,6 @@
   5  6,7  - OATs
   5  6,5  - OATy
   5  6,7  - OATy
-  5  2,1  | OAf
   5  2,5  | OE
   5  6,5  - OER
   5  6,7  - OER
@@ -7193,7 +7136,6 @@
   5  6,7  - ORTs
   5  5,3  | ORdU
   5  2,1  | ORe
-  5  2,1  | ORf
   5  6,3  | ORgEAT
   5  5,5  | OUTAs
   5  5,5  | OUTEd
@@ -7305,7 +7247,6 @@
   5  1,3  - REcTA
   5  1,3  - REcTO
   5  2,1  | REe
-  5  2,1  | REf
   5  6,3  | REhEAT
   5  1,3  - RElOT
   5  5,3  | REnU
@@ -7604,7 +7545,6 @@
   5  5,4  | TRUEr
   5  5,4  | TRUEs
   5  5,4  | TRUcE
-  5  2,1  | TRf
   5  5,5  | TUARn
   5  5,5  | TUARt
   5  3,3  | TaRA
@@ -7870,7 +7810,6 @@
   5  3,4  | gEAT
   5  3,4  | gOAR
   5  3,4  | gOAT
-  5  6,4  | gOETAE
   5  5,4  | gOURA
   5  3,4  | gRAT
   5  5,3  | gROUT
@@ -7978,8 +7917,6 @@
   5  6,7  - mORE
   5  6,5  - mORT
   5  6,7  - mORT
-  5  6,5  - mOTA
-  5  6,7  - mOTA
   5  6,5  - mOTE
   5  6,7  - mOTE
   5  4,4  | mTGE
@@ -8205,7 +8142,6 @@
   4  6,5  - AOb
   4  6,5  - AOr
   4  6,5  - AR
-  4  3,4  | ARA
   4  3,4  | ARAb
   4  1,4  - ARAcE
   4  3,4  | ARAd
@@ -8240,7 +8176,6 @@
   4  5,4  | ARU
   4  5,4  | ARUi
   4  5,4  | ARUm
-  4  6,5  - ARa
   4  6,5  - ARb
   4  3,3  | ARbA
   4  6,5  - ARc
@@ -8366,7 +8301,6 @@
   4  6,3  | ArRET
   4  6,5  - ArT
   4  6,3  | ArTER
-  4  6,5  - AsE
   4  6,5  - AsT
   4  6,3  | AsTER
   4  3,4  | AtAR
@@ -8388,13 +8322,9 @@
   4  6,3  | EATEr
   4  5,4  | EAU
   4  5,4  | EAUx
-  4  6,5  - EAd
-  4  6,7  - EAd
   4  6,3  | EAgER
   4  6,5  - EAm
   4  6,7  - EAm
-  4  6,5  - EAn
-  4  6,7  - EAn
   4  6,5  - EAr
   4  6,7  - EAr
   4  6,3  | EAsER
@@ -9601,10 +9531,8 @@
   4  5,4  | eTUA
   4  5,5  | eURE
   4  5,5  | eURO
-  4  2,3  | fA
   4  5,4  | fAUT
   4  2,2  | fE
-  4  2,3  | fE
   4  6,5  | fERAE
   4  5,3  | fERU
   4  3,3  | fETA
@@ -9681,7 +9609,6 @@
   4  5,5  | kUAR
   4  5,5  | kURT
   4  4,4  | lAG
-  4  3,3  | lATA
   4  6,3  | lATER
   4  5,4  | lAUR
   4  4,4  | lEG
@@ -9714,7 +9641,6 @@
   4  4,5  | mGT
   4  4,4  | mOG
   4  3,3  | mORA
-  4  3,3  | mOTA
   4  6,3  | mOTER
   4  5,4  | mOUE
   4  5,4  | mOUT
@@ -9786,7 +9712,6 @@
   4  5,5  | rUER
   4  5,5  | rUTA
   4  4,4  | sAG
-  4  3,3  | sARA
   4  6,3  | sAREE
   4  3,3  | sATA
   4  5,4  | sAUR
@@ -9857,7 +9782,6 @@
   4  5,4  | wAUR
   4  2,2  | wE
   4  3,3  | wETA
-  4  4,4  | wOG
   4  6,4  | wREAT
   4  5,3  | yARU
   4  2,2  | yE
@@ -9890,7 +9814,6 @@
   3  6,5  | AErO
   3  1,4  - AOR
   3  3,6  | AR
-  3  1,4  - ARA
   3  1,4  - ARAb
   3  1,4  - ARAd
   3  1,4  - ARAk
@@ -9974,7 +9897,6 @@
   3  6,4  | AkEE
   3  6,4  | AkER
   3  6,3  | AkRE
-  3  5,4  | AkU
   3  6,5  - Al
   3  6,3  | AlEE
   3  6,4  | AlEE
@@ -10009,9 +9931,7 @@
   3  6,6  | EAT
   3  6,6  | EATh
   3  6,6  | EATs
-  3  3,5  | EAd
   3  3,5  | EAm
-  3  3,5  | EAn
   3  3,5  | EAr
   3  6,3  | EAsE
   3  6,6  | EAsE
@@ -10071,7 +9991,6 @@
   3  2,2  | Ee
   3  6,5  - Ee
   3  6,7  - Ee
-  3  2,2  | Ef
   3  6,5  - Ef
   3  6,7  - Ef
   3  6,4  | EgER
@@ -10134,7 +10053,6 @@
   3  6,6  | EyRE
   3  6,6  | EzRA
   3  4,6  | Gi
-  3  4,6  | Gm
   3  4,6  | Go
   3  1,5  - La
   3  1,5  - Lb
@@ -10173,15 +10091,12 @@
   3  5,5  | OUi
   3  5,5  | OUr
   3  5,5  | OUt
-  3  6,5  - Ob
-  3  6,7  - Ob
   3  6,5  - Od
   3  6,7  - Od
   3  6,4  | OdEA
   3  2,2  | Oe
   3  6,5  - Oe
   3  6,7  - Oe
-  3  2,2  | Of
   3  6,5  - Of
   3  6,7  - Of
   3  6,4  | OfER
@@ -10386,9 +10301,6 @@
   3  6,4  | ReET
   3  1,3  - ReT
   3  6,3  | ReTE
-  3  2,2  | Rf
-  3  6,5  - Rf
-  3  6,7  - Rf
   3  1,3  - RhA
   3  1,3  - RhE
   3  6,4  | RhEA
@@ -10597,7 +10509,6 @@
   3  2,10 - Ya
   3  2,10 - Ye
   3  2,10 - Yi
-  3  2,10 - Ym
   3  2,10 - Yo
   3  3,4  | aAA
   3  3,5  | aAA
@@ -10607,8 +10518,6 @@
   3  6,5  - aET
   3  4,5  | aG
   3  6,5  - aOR
-  3  3,4  | aRA
-  3  6,5  - aRA
   3  6,5  - aRE
   3  6,4  | aREA
   3  6,4  | aRET
@@ -10682,9 +10591,6 @@
   3  5,5  | cUE
   3  5,5  | cUR
   3  5,5  | cUT
-  3  3,5  | dAE
-  3  6,5  - dAE
-  3  6,7  - dAE
   3  6,4  | dAER
   3  3,5  | dAO
   3  6,5  - dAO
@@ -10896,7 +10802,6 @@
   3  5,4  | kOU
   3  3,4  | kRA
   3  5,4  | kRU
-  3  5,5  | kUA
   3  5,5  | kUE
   3  6,4  | lAET
   3  3,5  | lAO
@@ -10936,9 +10841,6 @@
   3  3,5  | mAE
   3  6,5  - mAE
   3  6,7  - mAE
-  3  3,5  | mAO
-  3  6,5  - mAO
-  3  6,7  - mAO
   3  3,5  | mAR
   3  6,5  - mAR
   3  6,7  - mAR
@@ -11125,8 +11027,6 @@
   3  6,7  - sAE
   3  3,5  | sAO
   3  6,7  - sAO
-  3  3,5  | sAR
-  3  6,7  - sAR
   3  6,3  | sARE
   3  3,5  | sAT
   3  6,7  - sAT
@@ -11238,25 +11138,17 @@
   3  3,5  | wAT
   3  6,5  - wAT
   3  6,7  - wAT
-  3  3,4  | wEA
-  3  6,5  - wEA
-  3  6,7  - wEA
   3  6,5  | wEAR
   3  6,4  | wEER
   3  6,5  | wEER
   3  6,4  | wEET
   3  6,5  | wEET
-  3  6,5  - wER
-  3  6,7  - wER
   3  6,3  | wERE
   3  6,5  | wERE
   3  6,5  | wERT
   3  6,5  - wET
   3  6,7  - wET
   3  6,5  | wETA
-  3  3,4  | wOA
-  3  6,5  - wOA
-  3  6,7  - wOA
   3  6,5  - wOE
   3  6,7  - wOE
   3  6,3  | wORE
@@ -11308,7 +11200,6 @@
   2  1,4  - AOb
   2  1,4  - AOr
   2  1,4  - AR
-  2  1,4  - ARa
   2  1,4  - ARb
   2  1,4  - ARc
   2  1,4  - ARe
@@ -11339,8 +11230,6 @@
   2  1,4  - AcE
   2  6,4  | AcE
   2  1,4  - AcT
-  2  1,4  - AdA
-  2  3,4  | AdA
   2  1,4  - AdO
   2  1,4  - AeR
   2  1,4  - AeT
@@ -11383,17 +11272,11 @@
   2  6,4  | ApE
   2  1,4  - ApR
   2  1,4  - ApT
-  2  1,4  - ArA
-  2  3,4  | ArA
   2  1,4  - ArE
   2  6,4  | ArE
   2  1,4  - ArO
   2  1,4  - ArR
   2  1,4  - ArT
-  2  1,4  - AsA
-  2  3,4  | AsA
-  2  1,4  - AsE
-  2  6,4  | AsE
   2  1,4  - AsT
   2  1,4  - AtE
   2  6,4  | AtE
@@ -11412,9 +11295,7 @@
   2  1,4  - AyE
   2  6,4  | AyE
   2  1,4  - AzO
-  2  6,6  | EAd
   2  6,6  | EAm
-  2  6,6  | EAn
   2  6,6  | EAr
   2  6,6  | EAt
   2  6,6  | EAu
@@ -11644,7 +11525,6 @@
   2  6,4  | cTE
   2  6,5  - dA
   2  6,7  - dA
-  2  6,4  | dAE
   2  6,5  - dE
   2  6,7  - dE
   2  6,5  | dEA
@@ -11728,8 +11608,6 @@
   2  6,5  - mE
   2  6,7  - mE
   2  6,5  | mEA
-  2  6,4  | mEE
-  2  6,5  | mEE
   2  6,5  | mEO
   2  6,5  | mER
   2  6,5  | mET
@@ -11804,10 +11682,8 @@
   2  6,4  | wAE
   2  6,5  - wE
   2  6,7  - wE
-  2  6,5  | wEA
   2  6,4  | wEE
   2  6,5  | wEE
-  2  6,5  | wER
   2  6,5  | wET
   2  6,5  - wO
   2  6,7  - wO
@@ -11872,7 +11748,6 @@
   1  6,6  | Ew
   1  6,6  | Ex
   1  1,3  - Re
-  1  1,3  - Rf
   1  3,5  | aA
   1  6,5  | aE
   1  3,5  | bA

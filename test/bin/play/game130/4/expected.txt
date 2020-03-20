@@ -1,8 +1,5 @@
- 32  9,2  - CEILE
  32  8,8  - DICOT
  32 10,2  - TELCO
- 28  9,2  - CEIL
- 28  9,2  - COIL
  27 12,4  - YCIE
  26  7,8  - EDICT
  26  8,6  - GOETIC
@@ -12,9 +9,11 @@
  24  7,6  - OGEE
  22  8,8  - DICE
  22  8,8  - DICT
+ 21  4,8  - CETID
  21  4,8  - CITED
  21 10,8  - CITEE
  21  4,8  - COTED
+ 21  4,8  - ECOID
  21  8,6  - GEET
  20  6,8  - CEDI
  20  8,6  - GEE
@@ -33,7 +32,6 @@
  19  8,8  - DIOC
  18  9,1  | CELT
  18  9,1  | COLT
- 18 11,2  | COOEE
  18 10,2  - EOLE
  18 10,2  - TELE
  18 10,2  - TELI
@@ -46,13 +44,11 @@
  17 10,8  - CIE
  17 10,8  - CIT
  17 10,8  - COE
- 17 11,2  | COOT
  17 10,8  - COT
  17 10,8  - CTE
  17 10,8  - CTO
  17  7,6  - EGO
  17  7,7  | NOTICE
- 16 11,2  | COO
  16 10,1  | COOEE
  16  8,8  - DIET
  16 10,1  | OCOTE
@@ -63,6 +59,7 @@
  15  3,5  - COTEEN
  15  9,1  - COTO
  15  8,8  - DIE
+ 15  9,1  | TELOI
  14 10,2  | COIT
  14 10,1  | COOT
  14 10,2  | COOT
@@ -70,7 +67,6 @@
  14 10,2  | COTO
  14 10,6  | CTE
  14 10,6  | CTO
- 14 11,1  | ECO
  14 13,4  | ECO
  14 10,8  - ECO
  14 10,2  - EEL
@@ -108,7 +104,6 @@
  12 10,6  - ECO
  12  4,5  - ECTENE
  12 11,2  - ELECT
- 12  7,5  - ENC
  12  4,5  - EOCENE
  12 10,6  - ETC
  12 10,6  - ICE
@@ -134,7 +129,6 @@
  11  5,8  - ICED
  11  5,8  - ICOD
  11  9,3  | LOE
- 11  8,5  - NCO
  11  7,7  | NICE
  11  7,5  - ONTIC
  11 13,4  | OTC
@@ -142,6 +136,7 @@
  10  6,5  - CENE
  10  6,5  - CENT
  10  4,5  - CETIN
+ 10  6,8  - CID
  10  6,5  - CINE
  10 10,5  | CITEE
  10  6,8  - COD
@@ -174,6 +169,7 @@
   9 12,2  - LOCI
   9  8,5  - NICE
   9  7,4  | OE
+  9 13,1  | OI
   9  7,4  | OI
   9 10,6  | OTIC
   9  7,4  | TE
@@ -243,13 +239,13 @@
   7 11,3  | OOT
   7 12,1  - OTIC
   7  6,8  - TED
+  7  6,8  - TID
   7  6,5  - TINE
   7  6,5  - TINO
   7 11,2  - TLO
   7 11,1  - TOCO
   7  6,8  - TOD
   7  6,5  - TONE
-  6  9,2  | CL
   6 11,1  - COE
   6 10,1  - COO
   6 11,1  - COO
@@ -261,7 +257,7 @@
   6  9,2  | ELT
   6  5,5  - ETEN
   6  5,5  - ETON
-  6  7,5  - INO
+  6  7,8  - ID
   6  7,5  - INT
   6  5,5  - ITEN
   6 12,2  - LEET
@@ -270,6 +266,7 @@
   6  8,5  - NEET
   6  8,5  - NETE
   6  8,5  - NETI
+  6  7,7  | NI
   6  8,5  - NITO
   6  7,7  | NO
   6  8,5  - NOTE
@@ -347,8 +344,10 @@
   4 10,8  - IO
   4 10,6  | IT
   4 10,8  - IT
+  4 12,2  - LI
   4 12,2  - LO
   4  8,5  - NE
+  4  8,5  - NI
   4  8,5  - NO
   4 10,8  - OE
   4 10,8  - OI

@@ -36,7 +36,6 @@
  22  8,4  - HAST
  22  8,4  - HATS
  22  8,8  - LASA
- 22  8,8  - LATA
  22  8,8  - NASA
  22  7,8  - SHAT
  22  5,8  - SHATAN
@@ -56,8 +55,6 @@
  21  5,8  - SANTAL
  21  8,8  - TALA
  21  8,8  - TANA
- 20  8,2  - AHS
- 20  8,2  - AHT
  20  6,8  - ANTAL
  20  6,8  - ATLAS
  20  8,4  - HA
@@ -78,10 +75,6 @@
  19 11,8  | ALT
  19  7,8  - ANAS
  19  7,8  - ANAT
- 19  9,2  - HAL
- 19  9,2  - HAN
- 19  3,6  | HASNT
- 19  3,6  | LATHS
  19  8,5  | LOAN
  19  8,2  - NAST
  19  2,9  | NTH
@@ -93,17 +86,11 @@
  18  9,8  - ALA
  18  9,8  - ANA
  18  6,8  - ANTAS
- 18  3,6  | HALTS
- 18  3,6  | HANTS
- 18  3,6  | HASN
  18 10,2  | HASTY
  18  2,9  | HTS
  18  8,8  - LAS
- 18  3,6  | LASH
  18  8,8  - LAT
- 18  3,6  | LATH
  18  6,8  - NASAT
- 18  3,6  | NASH
  18  8,8  - NAT
  18 10,8  | NOXA
  18  7,8  - SAAN
@@ -113,13 +100,6 @@
  18  2,9  | TH
  18  2,9  | TLN
  17  8,8  - AAL
- 17  3,6  | HALS
- 17  3,6  | HALT
- 17  3,6  | HANS
- 17  3,6  | HANT
- 17  9,2  - HAS
- 17  9,2  - HAT
- 17  9,2  - HTS
  17  8,2  - NAT
  17  3,7  | NTH
  17  8,8  - SAL
@@ -127,67 +107,62 @@
  17  8,8  - SAN
  17  4,5  - SHEAL
  17  4,5  - SHEAN
+ 17  4,5  - SHENT
  17  8,8  - TAL
  17  8,8  - TAN
- 17  3,6  | TANH
+ 17  4,5  - THENS
  16 10,2  | ANTSY
- 16  9,8  - ASA
  16  1,10 - ENHAT
  16  1,10 - ETHAL
  16  1,10 - ETHAN
+ 16  2,5  - GANSEL
  16  2,10 | HA
- 16  3,6  | HAST
- 16  3,6  | HATS
  16  5,5  - HEAL
+ 16  5,5  - HENS
+ 16  5,5  - HENT
  16  2,9  | HT
  16  2,10 | HT
  16  4,1  | KApHS
  16 10,2  | LASTY
+ 16  5,5  - LEAH
  16  7,5  | LIQ
  16  3,7  | NASH
  16 10,2  | NASTY
- 16  3,6  | NATL
+ 16  5,5  - NESH
+ 16  5,5  - NETH
  16 10,2  | SALTY
  16 10,2  | SANTY
  16  2,9  | SLA
  16 10,2  | SLATY
  16  2,9  | SLT
  16 10,2  | TANSY
- 16  3,6  | TASH
  16 10,8  | TOXA
  15  8,8  - AAS
  15  9,2  - AHS
  15  9,2  - AHT
  15  9,2  - ASH
- 15  9,2  - HA
- 15  3,6  | HAL
- 15  3,6  | HAN
  15  5,2  - HEN
- 15  9,2  - HT
  15  4,1  | KApH
- 15  3,6  | LANT
  15  2,9  | LST
  15  3,7  | NATL
  15  8,8  - SAT
  15  4,5  - SHEAT
+ 15  4,5  - SLENT
  15  8,8  - TAS
- 14  8,2  - AH
  14  9,8  - AL
  14  9,8  - AN
  14  1,10 - ELANS
  14  1,10 - ENTAL
  14  1,9  - ETHNAL
- 14  3,6  | HAS
- 14  3,6  | HAT
  14  5,5  - HEAT
  14  5,5  - HEST
  14  3,6  | HTS
- 14  3,6  | LAH
- 14  3,6  | LAST
- 14  3,6  | LATS
+ 14  5,5  - LEAN
+ 14  5,5  - LENS
+ 14  5,5  - LENT
  14 10,8  | LOX
- 14  3,6  | NAST
  14  3,7  | NAST
+ 14  5,5  - NEAL
  14  5,5  | NIHAL
  14  7,5  | NIHAL
  14 10,8  | NOX
@@ -197,19 +172,22 @@
  14  7,3  | SATINS
  14  5,5  - SEAH
  14  5,5  - SETH
+ 14  4,5  - SHEL
+ 14  4,5  - SHEN
  14  3,6  | STAN
  14  3,7  | TANH
  14  5,8  - TANHA
+ 14  4,5  - THEN
  13  9,2  - AH
  13  9,2  - ALS
  13  9,2  - ALT
  13  9,2  - ANS
  13  9,2  - ANT
- 13  3,7  | ASH
  13  1,9  - ETHAL
  13  1,9  - ETHAN
- 13  3,6  | HA
  13  4,5  - HAETS
+ 13  5,5  - HEL
+ 13  5,5  - HEN
  13  5,5  | HIANT
  13  7,5  | HIANT
  13  5,5  | HILSA
@@ -219,20 +197,18 @@
  13  5,5  | HINTS
  13  7,5  | HINTS
  13  3,6  | HT
- 13  3,6  | LAN
  13  7,5  | LINHA
  13  3,7  | NAT
  13  3,7  | SAH
- 13  3,6  | SALT
- 13  3,6  | SANT
  13  7,3  | SASIN
  13  7,3  | SATIN
  13  3,7  | SHAN
  13  4,5  - STEAL
  13  4,5  - STEAN
- 13  3,6  | TANS
+ 13  4,5  - TAELS
  13  3,7  | THAN
  12  4,5  - AHET
+ 12  4,5  - ALEN
  12  1,7  - ARHAT
  12  9,8  - AS
  12  6,8  - ASHA
@@ -243,22 +219,27 @@
  12  1,10 - ESTH
  12  1,10 - ETHS
  12  1,10 - ETNAS
- 12  5,6  | IQS
- 12  7,6  | IQS
+ 12  4,5  - HAEN
+ 12  4,5  - HTEL
  12  2,10 | LA
- 12  3,6  | LAS
- 12  3,6  | LAT
+ 12  5,5  - LEAS
+ 12  5,5  - LEAT
+ 12  5,5  - LEST
+ 12  5,5  - LETS
  12  3,6  | LST
  12  8,2  - NA
  12  2,10 | NA
- 12  3,6  | NAT
+ 12  5,5  - NEAT
+ 12  5,5  - NEST
+ 12  5,5  - NETS
  12  8,1  | OATH
- 12  3,6  | SAH
  12  3,7  | SALT
  12  3,7  | SANT
  12  7,3  | SATIS
  12  5,5  - SEAL
  12  5,5  - SEAN
+ 12  5,5  - SELT
+ 12  5,5  - SENT
  12  2,10 | SH
  12  3,7  | SHAT
  12  4,5  - SHEA
@@ -269,6 +250,7 @@
  12  3,7  | TASH
  12  5,5  - TEAL
  12  5,5  - TEAN
+ 12  5,5  - TENS
  12  2,10 | TH
  12  5,8  - THALA
  12  5,8  - THANA
@@ -277,15 +259,11 @@
  12 10,8  | TOX
  11  7,8  - AHA
  11  8,4  - AHS
- 11  3,7  | AHS
  11  8,4  - AHT
- 11  3,7  | AHT
  11  9,2  - AL
  11  8,4  - ALTS
- 11  3,7  | ALTS
  11  9,2  - AN
  11  8,4  - ANTS
- 11  3,7  | ANTS
  11  8,4  - ASH
  11  9,2  - AST
  11  6,5  - ETH
@@ -302,15 +280,13 @@
  11  7,5  | HINT
  11  5,5  | HISN
  11  7,5  | HISN
- 11  3,6  | LA
+ 11  4,5  - LAEN
+ 11  5,5  - LEN
  11  7,5  | LINTS
- 11  3,6  | NA
  11  3,7  | NA
  11  8,6  | OAT
  11  7,1  | OSSA
- 11  3,6  | SAL
  11  3,7  | SAL
- 11  3,6  | SAN
  11  3,7  | SAN
  11  7,3  | SATI
  11  3,7  | SHA
@@ -320,22 +296,20 @@
  11  7,5  | SINAL
  11  3,7  | SLAT
  11  3,7  | STAN
- 11  3,6  | TAL
  11  3,7  | TAL
- 11  3,6  | TAN
  11  3,7  | TAN
  11  5,2  - TEN
  11  3,7  | THA
  11  7,8  - THA
  10  8,4  - AH
+ 10  4,5  - ALES
  10  8,4  - ALS
- 10  3,7  | ALS
  10  8,4  - ALT
- 10  3,7  | ALT
+ 10  4,5  - ANES
+ 10  4,5  - ANET
  10  8,4  - ANS
- 10  3,7  | ANS
  10  8,4  - ANT
- 10  3,7  | ANT
+ 10  4,5  - ATEN
  10  1,10 - ELSA
  10  1,9  - ENTAL
  10  1,10 - ETH
@@ -357,26 +331,26 @@
  10  7,5  | LITAS
  10  7,5  | LITH
  10  8,5  | NOH
- 10  3,6  | SAT
  10  5,5  - SEAT
  10  3,7  | SLA
  10  3,7  | SLT
  10  3,6  | STA
- 10  3,6  | TAS
+ 10  4,5  - TAEL
+ 10  4,5  - TAEN
  10  5,5  - TEAS
  10  8,3  | TH
  10  4,3  | pHT
-  9  3,7  | AH
   9  5,1  | AHI
   9  8,4  - AL
   9  8,4  - AN
   9  9,2  - AS
   9  8,4  - AST
-  9  3,7  | AST
   9  9,2  - AT
-  9  6,5  - EAN
   9  6,2  - EH
   9  1,9  - ELANS
+  9  6,5  - ELS
+  9  6,5  - ELT
+  9  6,5  - ENS
   9  1,9  - ETHS
   9  1,9  - ETNAS
   9  5,8  - HASTA
@@ -394,38 +368,42 @@
   9  7,6  | ISTH
   9  4,5  - LAET
   9  5,8  - LANSA
+  9  5,5  - LEA
+  9  5,5  - LET
   9  7,5  | LINA
   9  7,5  | LINS
   9  7,5  | LINT
+  9  5,5  - NEA
+  9  5,5  - NET
   9  5,5  | NILS
   9  7,5  | NILS
   9  7,1  | OHS
   9  9,7  - RAH
   9  6,8  - SALA
   9  3,7  | SAT
+  9  5,5  - SEL
+  9  5,5  - SEN
   9  3,7  | SH
   9  4,5  - SHE
   9  7,5  | SINH
   9  8,5  | SOH
   9  3,7  | STA
-  9  3,6  | TA
   9  6,8  - TALA
   9  6,8  - TANA
   9  3,7  | TAS
+  9  5,5  - TEL
+  9  5,5  - TEN
   9  3,7  | TH
   9  4,5  - THE
   9  4,3  | pH
   8 10,5  - AH
   8  5,5  | AITH
-  8  3,7  | AL
   8  7,8  - ALA
-  8  3,7  | AN
   8  7,8  - ANA
   8  8,4  - AS
   8 10,3  | ASHY
   8  8,4  - AT
   8  4,5  - ATES
-  8  1,10 - EAN
   8  1,10 - EAST
   8  1,10 - EATS
   8  6,5  - EH
@@ -477,14 +455,14 @@
   7  5,5  | AINS
   7  5,5  | AINT
   7 10,5  - AL
+  7  4,5  - ALE
   7 10,5  - AN
+  7  4,5  - ANE
   7  5,1  | ANI
   7  6,8  - ANSA
   7  6,8  - ANTA
   7  1,7  - ARNA
   7  1,2  | AS
-  7  3,7  | AS
-  7  3,7  | AT
   7  1,2  - AW
   7  6,5  - EAT
   7  1,9  - EATH
@@ -501,10 +479,8 @@
   7  7,6  | ITAL
   7  8,8  - LA
   7  6,8  - LASA
-  7  6,8  - LATA
   7  7,5  | LIS
   7  7,5  | LIT
-  7  9,1  | MH
   7  8,8  - NA
   7  6,8  - NASA
   7  5,2  - NE
@@ -542,10 +518,11 @@
   6 10,5  - AS
   6  6,8  - ASTA
   6 10,5  - AT
-  6  1,9  - EAN
   6  1,10 - EAT
+  6  6,5  - EL
   6  1,10 - EL
   6  1,9  - ELSA
+  6  6,5  - EN
   6  1,10 - EN
   6  1,10 - EST
   6  1,10 - ETA
@@ -560,10 +537,14 @@
   6  5,6  | ISNT
   6  7,6  | ISNT
   6 10,4  | LAY
+  6  7,5  | LI
   6  8,5  | LOA
   6  7,8  - NAA
   6  4,5  - NAE
   6 10,4  | NAY
+  6  5,5  - NE
+  6  5,5  | NI
+  6  7,5  | NI
   6  8,5  | NOA
   6  8,1  | OATS
   6  6,8  - SATA
@@ -581,8 +562,6 @@
   5  5,5  | AIT
   5 11,7  | ALL
   5  1,7  - ARTS
-  5  7,8  - ASA
-  5  4,5  - ASE
   5  4,5  - ATE
   5  5,1  | ATI
   5  1,9  - EAST
@@ -617,7 +596,6 @@
   4  5,5  - AE
   4  1,5  - AG
   4  5,5  | AI
-  4  1,7  - ARA
   4  1,7  - ARS
   4  1,7  - ART
   4  4,7  - AS

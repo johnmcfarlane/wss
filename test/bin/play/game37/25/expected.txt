@@ -22,6 +22,7 @@
  28  4,12 - OVEY
  28  3,2  - VALE
  28  3,2  - VANE
+ 28  3,14 - VENAL
  28  3,12 - YULE
  27  4,9  | CONVELL
  27  4,1  - DOLVEN
@@ -67,6 +68,7 @@
  23  3,1  | EYN
  23  4,11 - LEVY
  23  3,11 - LOUEY
+ 23  1,14 - NOVELA
  23  4,11 - VENY
  22  4,9  | CONV
  22  3,2  - LANEY
@@ -79,12 +81,9 @@
  22  4,12 - ONE
  22  2,7  | OVEY
  22  4,11 - OVEY
- 22  2,10 - VEL
- 22  2,10 - VOL
  22  6,1  | VULN
  22  6,6  - VULNS
  22  5,12 - YEN
- 22  1,10 - YOUL
  21  7,13 | ELB
  21  5,12 - LEN
  21  5,12 - LEU
@@ -107,7 +106,9 @@
  20  2,5  | OLEO
  20  4,11 - ONLY
  20  2,7  | OVEN
+ 20  3,14 - VELA
  20  4,12 | VELL
+ 20  3,14 - VENA
  20  6,6  - VOLES
  20  3,2  - YALE
  20  5,12 - YE
@@ -125,10 +126,8 @@
  19  6,11 | UNJAM
  19  3,3  - YULE
  18  4,9  | CUNYE
- 18  1,10 - ENOL
  18  5,6  - ENVY
  18  6,12 - EO
- 18  2,10 - EYL
  18  3,2  - LAUN
  18  8,12 | LEVI
  18  5,11 - LEY
@@ -137,11 +136,9 @@
  18  6,1  | LYNN
  18  5,6  - LYON
  18  8,12 | NEVI
- 18  1,10 - NOEL
  18  5,6  - NOVELS
  18  5,11 - NOY
  18  2,1  - NUDELY
- 18  2,10 - NUL
  18  5,12 - OE
  18  2,5  | OLE
  18  2,7  | ONLY
@@ -150,7 +147,6 @@
  18  3,11 - OVULE
  18 13,4  | OY
  18  4,3  - ULU
- 18  2,10 - UNL
  18  8,12 | VLEI
  17  6,13 - JUV
  17  5,6  - LEVY
@@ -177,7 +173,6 @@
  16  5,6  - LYE
  16  6,1  | LYON
  16  3,2  - NALE
- 16  2,10 - NOL
  16  2,1  | NOY
  16  5,6  - NYE
  16  2,1  | ONY
@@ -185,6 +180,7 @@
  16 12,15 - RELY
  16  8,3  - SOUNDLY
  16  4,3  - ULE
+ 16  3,14 - ULNA
  16  6,2  | VON
  16  5,8  | ZANY
  15  4,9  | COVEN
@@ -207,6 +203,7 @@
  15  6,6  - NEVUS
  15  2,7  | NOEL
  15  6,6  - NOVUS
+ 15  2,14 - OLENA
  15  2,2  | OLEO
  15  7,5  - OY
  15  5,7  | OZAN
@@ -236,6 +233,7 @@
  14  6,13 - JOY
  14  6,13 - JUN
  14  1,2  | LANGLEY
+ 14  3,14 - LENA
  14  2,3  | LEO
  14  5,6  - LEV
  14  1,2  - LO
@@ -414,6 +412,7 @@
  10  4,1  - DYNE
  10  2,2  | EL
  10  5,6  - EL
+ 10  4,14 - ELA
  10  2,2  | EN
  10  5,6  - EN
  10  7,4  | GOV
@@ -462,7 +461,6 @@
   9  4,9  | CYL
   9  4,1  - DUNE
   9  5,1  | EL
-  9  3,10 - EL
   9  4,12 | ELUL
   9  1,7  - ELVE
   9  5,1  | EN
@@ -572,7 +570,6 @@
   7  4,9  | CUE
   7  4,1  - DYN
   7  1,7  - EELY
-  7 13,4  - ENC
   7  5,6  - EO
   7 14,13 - ER
   7  8,1  | EUSOL
@@ -626,7 +623,6 @@
   7  7,6  - YENS
   7  2,1  - YODE
   7  7,6  - YOUS
-  6  4,9  | CL
   6  4,9  | COE
   6  4,1  - DEY
   6  4,1  - DUN
@@ -642,16 +638,20 @@
   6  4,13 | EYL
   6  1,7  - EYN
   6  7,4  | GEO
+  6  5,14 - LA
   6  3,2  - LAO
   6  7,6  - LENS
+  6  5,14 | LI
   6  2,7  | LO
   6  2,1  - LODE
   6  1,1  - LOED
   6  2,1  - LUD
   6  7,6  - LUES
   6  8,6  - LYS
+  6  5,14 - NA
   6  3,2  - NAE
   6  2,7  | NE
+  6  5,14 | NI
   6  2,7  | NO
   6  2,1  - NODE
   6  7,6  - NOUS
@@ -687,7 +687,6 @@
   5  4,1  - DON
   5  4,1  - DUE
   5  4,1  - DUO
-  5  3,2  - EAN
   5  3,2  - EAU
   5  9,6  | EL
   5  2,7  | EL
@@ -785,6 +784,8 @@
   3  6,3  | EN
   3  1,7  - EN
   3  5,4  | ISE
+  3  8,14 | LI
+  3  8,14 | NI
   3  3,1  - OD
   3  8,6  - OES
   3  6,3  | ON

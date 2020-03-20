@@ -131,6 +131,7 @@
  31  1,9  - CASe
  31  1,9  - CASt
  31  1,9  - CaST
+ 31  1,9  - CiST
  31  1,9  - CoST
  31  1,9  - CuST
  30  9,6  | CYToST
@@ -167,6 +168,7 @@
  28  1,9  - GaST
  28  2,6  | GeLTS
  28  2,6  | GiLTS
+ 28  1,9  - GiST
  28  2,6  | GuLAS
  28  1,9  - GuST
  27  1,3  - CASTrO
@@ -198,6 +200,7 @@
  24  3,6  | GrOATS
  24  3,8  | OGAm
  24  7,3  | SATaN
+ 24  7,3  | SATiN
  24  7,3  | SaTAN
  24  2,5  | TASLeT
  24  3,7  | TOrCS
@@ -209,6 +212,7 @@
  24  3,7  | tOSCA
  23  4,4  - CAZa
  23  4,4  - CaZA
+ 23  1,9  - CiS
  23  1,9  - CoS
  23  4,4  - GAZeS
  23  4,4  - GAZeT
@@ -228,7 +232,6 @@
  23  1,9  - hAST
  23  1,9  - lAST
  23  1,9  - mAST
- 23  1,7  - mCG
  23  1,9  - nAST
  23  1,9  - oAST
  23  1,9  - pAST
@@ -251,6 +254,7 @@
  22  1,7  - TeGA
  22  1,9  - ToST
  22  6,4  - ZaC
+ 22  7,6  | iNTACT
  22  5,7  | sECTS
  21  2,7  - AGa
  21  2,7  - AGe
@@ -270,12 +274,10 @@
  21  9,7  | YeAST
  21  9,7  | YeTTS
  21  6,4  - ZAGS
- 21  1,7  - aCTA
  21  2,7  - aGA
  21  5,7  | sECS
  21  5,7  | sECT
  21  3,6  | sTOATS
- 20  1,7  - ACTa
  20  3,4  - AGaZ
  20  2,7  | ALGiC
  20  2,6  | ATLaS
@@ -292,6 +294,7 @@
  20  2,7  | GLACe
  20  2,7  | GLACk
  20  1,9  - GaS
+ 20  1,9  - GiS
  20  1,9  - GuS
  20  2,6  | SALTa
  20  2,6  | SALTs
@@ -325,6 +328,8 @@
  20  2,6  | TaLAS
  20  7,5  | TeNTS
  20  2,6  | TiLTS
+ 20  7,5  | TiNTA
+ 20  7,5  | TiNTS
  20  2,6  | ToLAS
  20  2,6  | TuLSA
  20  6,4  - ZAG
@@ -342,7 +347,6 @@
  19  7,6  | ANTS
  19  7,6  | ANTSy
  19  7,4  | ATeN
- 19  1,9  - CAb
  19  1,9  - CAd
  19  1,9  - CAf
  19  1,9  - CAi
@@ -352,8 +356,6 @@
  19  1,9  - CAr
  19  1,9  - CAw
  19  1,9  - CAy
- 19  2,7  - CTe
- 19  2,7  - CTo
  19  1,7  - CaG
  19  4,4  - GaZ
  19  4,4  - GeZ
@@ -365,12 +367,12 @@
  19  6,4  - ZiG
  19  5,5  | bASE
  19  5,5  | dASE
+ 19  5,5  | lASE
  19  5,5  | pASE
  18  7,6  | ANTaS
  18  7,6  | ANTeS
  18  7,6  | ANTiS
  18  3,7  | AOTuS
- 18  5,6  | ASE
  18  5,6  | ASEa
  18  5,6  | ASEm
  18  3,3  - CAGOT
@@ -447,6 +449,7 @@
  18  2,3  | TeCTAL
  18  7,5  | TeNT
  18  2,4  | TiCALS
+ 18  7,5  | TiNT
  18  1,6  - TuSCAN
  18  7,6  | aNTAS
  18  5,6  | aSEA
@@ -472,8 +475,6 @@
  17  3,3  - CaGOT
  17  3,5  | CaGOT
  17  1,7  - CaSA
- 17  2,7  - ChA
- 17  2,7  - CiA
  17  5,3  - GOCArT
  17  3,7  - Go
  17  5,1  | SAG
@@ -493,6 +494,7 @@
  17  1,7  - dAG
  17  1,7  - gAG
  17  1,7  - hAG
+ 17  7,6  | iNTA
  17  1,7  - jAG
  17  1,7  - lAG
  17  1,7  - mAG
@@ -507,7 +509,6 @@
  17  1,7  - wAG
  17  1,7  - zAG
  16  9,6  - ACT
- 16  1,7  - ACT
  16  2,6  - ACTiN
  16  2,6  - ACToN
  16  2,5  | ACyLS
@@ -527,7 +528,6 @@
  16  2,9  - AnTS
  16  2,9  - ApTS
  16  2,9  - ArTS
- 16  5,6  | AsE
  16  3,5  - CAGIeST
  16  3,3  - CAGOt
  16  3,5  | CAGOt
@@ -581,7 +581,6 @@
  16  1,6  - GATTeN
  16  1,7  - GATa
  16  1,7  - GATe
- 16  1,9  - GAb
  16  1,9  - GAd
  16  1,9  - GAe
  16  1,9  - GAm
@@ -625,7 +624,6 @@
  16  2,4  | SCAwL
  16  4,3  - SCOG
  16  3,6  | SCOG
- 16  1,7  - SCT
  16  2,5  | SCaLA
  16  2,5  | SCaLT
  16  1,2  - SCaTTS
@@ -675,11 +673,8 @@
  16  2,4  | TiCAL
  16  1,2  - TrACTS
  16  2,6  - aSCAN
- 16  5,6  | aSE
  16  8,6  | aVGAS
  16  5,1  | bAG
- 16  7,3  | bAS
- 16  7,3  | bAT
  16  5,1  | cAG
  16  5,1  | dAG
  16  7,3  | dAS
@@ -803,7 +798,6 @@
  15  5,1  | TuG
  15  6,4  - ZeTAS
  15  1,9  - aAS
- 15  1,7  - aCT
  15  2,7  - aG
  15  7,6  | aNT
  15  1,9  - bAS
@@ -818,7 +812,6 @@
  15  1,9  - dAS
  15  3,7  | dOATS
  15  1,9  - fAS
- 15  1,7  - fCS
  15  1,9  - gAS
  15  3,7  | gOATS
  15  3,7  | gOTTA
@@ -826,8 +819,8 @@
  15  3,7  | hOAST
  15  3,7  | hOSTA
  15  3,7  | hOTTA
+ 15  7,6  | iNT
  15  3,7  | iOTAS
- 15  1,7  - jCT
  15  3,7  | jOTAS
  15  1,9  - kAS
  15  1,9  - lAS
@@ -836,19 +829,15 @@
  15  1,9  - mAS
  15  3,7  | mOATS
  15  3,7  | mOTTS
- 15  1,7  - oCT
  15  7,6  | oNT
  15  1,9  - pAS
- 15  1,7  - pCT
  15  1,9  - rAS
- 15  1,7  - rCT
  15  3,7  | rOAST
  15  3,7  | rOTAS
  15  3,7  | rOTTA
  15  9,2  | sCATTY
  15  4,3  - sCOG
  15  3,6  | sCOG
- 15  1,7  - sCT
  15  5,7  | sEAS
  15  5,7  | sEAT
  15  5,7  | sETA
@@ -860,7 +849,6 @@
  15  1,9  - vAS
  15  1,9  - wAS
  15  1,9  - yAS
- 14  2,6  | ACLe
  14  2,6  | ACLu
  14  2,2  - ACToS
  14  2,2  - ACTuS
@@ -886,7 +874,6 @@
  14  3,5  | ASCOTs
  14  9,3  | ASCrY
  14  2,2  - ASCuS
- 14  9,6  - ASG
  14  9,5  | ASYnC
  14  1,9  - AaS
  14  9,6  - AbC
@@ -896,6 +883,7 @@
  14  3,5  | AcCOST
  14  2,2  - AcCTS
  14  9,6  - AdC
+ 14  1,9  - AiS
  14  1,9  - AlS
  14  9,6  - AnC
  14  1,2  - AnGSTS
@@ -974,7 +962,6 @@
  14  2,2  - ChASS
  14  2,2  - ChATS
  14  2,2  - CiSTS
- 14  1,9  - Cl
  14  2,2  - ClASS
  14  2,5  | CoAL
  14  2,2  - CoATS
@@ -1021,7 +1008,6 @@
  14  2,8  | LACy
  14  2,8  | LAGS
  14  2,8  | LAiC
- 14  2,8  | LCA
  14  2,8  | LSC
  14  2,8  | LaCS
  14  2,8  | LeCT
@@ -1134,6 +1120,7 @@
  14  2,6  | TaLC
  14  1,9  - TaS
  14  1,9  - TbS
+ 14  1,9  - TiS
  14  1,9  - ToS
  14  4,4  - TuZA
  14  6,4  - ZAT
@@ -1168,9 +1155,6 @@
  13  3,6  | ACOST
  13  3,5  - ACTInGS
  13  9,4  | AClYS
- 13  2,7  - ASa
- 13  2,7  - ASe
- 13  2,9  - ASe
  13  2,9  - ASt
  13  2,7  - ATe
  13  7,4  | Ab
@@ -1256,16 +1240,15 @@
  13  9,6  - aCT
  13  9,4  | aGCY
  13  7,4  | aS
- 13  2,7  - aSA
  13  2,9  - aST
  13  7,4  | aT
- 13  7,3  | bA
  13  9,6  - bAC
  13  7,3  | dA
  13  2,7  - eTA
  13  7,3  | fA
  13  9,3  | fACTY
  13  7,3  | hA
+ 13  2,9  - iST
  13  2,9  - lST
  13  7,3  | mA
  13  9,6  - mAC
@@ -1278,11 +1261,7 @@
  13  7,3  | yA
  12  4,3  - ACOSt
  12  3,6  | ACOSt
- 12  1,7  - ACe
- 12  1,7  - ACh
  12  9,4  | AChY
- 12  1,7  - ACt
- 12  1,7  - ACy
  12  9,6  - AG
  12  2,6  | AGLa
  12  2,6  | AGLy
@@ -1305,7 +1284,6 @@
  12  9,6  - ArG
  12  3,3  - ArGOTS
  12  3,5  | ArGOTS
- 12  9,6  - AsG
  12  9,6  - AuG
  12  9,6  - AvG
  12  9,4  | CAGY
@@ -1454,7 +1432,6 @@
  12  2,8  | LAG
  12  2,8  | LAGs
  12  2,8  | LAnG
- 12  2,8  | LCa
  12  2,8  | LCd
  12  2,8  | LCm
  12  2,8  | LaC
@@ -1506,13 +1483,11 @@
  12  3,6  | SCOTs
  12  4,3  - SCOTt
  12  3,6  | SCOTt
- 12  1,7  - SCi
  12  4,4  | SClAW
  12  2,5  - SCoTIA
  12  4,4  | SCrAW
  12  3,3  - SCrOTTA
  12  9,4  | SCrY
- 12  1,7  - SCt
  12  2,7  | SLaG
  12  2,7  | SLoG
  12  2,7  | SLuG
@@ -1570,7 +1545,6 @@
  12  3,4  | TAsCO
  12  2,3  - TAuTOG
  12  3,4  | TAuTOG
- 12  1,7  - TCh
  12  5,3  - TOGAS
  12  5,3  - TOGATa
  12  5,3  - TOGATe
@@ -1644,7 +1618,6 @@
  11  3,5  | ACTOS
  11  9,5  | ACYlS
  11  5,4  - AZo
- 11  2,9  - AbT
  11  2,9  - AeT
  11  2,9  - AfT
  11  2,9  - AhT
@@ -1706,7 +1679,6 @@
  11  3,7  | COTt
  11  1,7  - CaT
  11  9,5  | CaY
- 11  2,7  - Ch
  11  3,5  - ChAIS
  11  3,5  - ChAIT
  11  3,3  - ChAO
@@ -1715,7 +1687,6 @@
  11  9,2  | ChATTY
  11  3,3  - CiAO
  11  3,5  | CiAO
- 11  2,7  - Cl
  11  9,2  | ClATTY
  11  4,3  - ClOG
  11  3,6  | ClOG
@@ -1723,7 +1694,6 @@
  11  3,3  - CoTO
  11  3,5  | CoTO
  11  9,5  | CoY
- 11  2,7  - Cp
  11  9,5  | CrY
  11  3,5  - CuTIS
  11  5,1  | GAS
@@ -1745,6 +1715,7 @@
  11  5,3  - GOToS
  11  5,3  - GOTrA
  11  5,3  - GOTtA
+ 11  1,9  - Gi
  11  1,9  - Go
  11  3,3  - GoTOS
  11  3,5  | GoTOS
@@ -1784,7 +1755,6 @@
  11  9,3  | StACY
  11  9,5  | StYCA
  11  3,7  - TA
- 11  1,7  - TC
  11  2,5  - TCAwI
  11  2,5  - TChAI
  11  5,5  - TISiC
@@ -1825,7 +1795,6 @@
  11  6,4  - ZAx
  11  9,6  - aGA
  11  9,6  - aGT
- 11  9,6  - aSG
  11  9,6  - bAG
  11  3,3  - fAGOTS
  11  3,5  | fAGOTS
@@ -1833,7 +1802,6 @@
  11  3,5  | fAGOTT
  11  4,4  - gAZ
  11  4,4  - iSZ
- 11  4,4  - lAZ
  11  9,6  - mAG
  11  3,3  - mAGOTS
  11  3,5  | mAGOTS
@@ -2051,7 +2019,6 @@
  10  1,5  - SATTvIC
  10  2,6  - SATaN
  10  2,6  - SATiN
- 10  1,9  - SAb
  10  1,9  - SAd
  10  1,9  - SAe
  10  1,9  - SAh
@@ -2061,7 +2028,6 @@
  10  9,3  | SAnCY
  10  1,9  - SAo
  10  1,9  - SAp
- 10  1,9  - SAr
  10  2,3  - SArGO
  10  3,4  | SArGO
  10  9,3  | SAuCY
@@ -2164,7 +2130,6 @@
  10  1,2  - TASTeS
  10  1,7  - TAT
  10  8,5  | TAVS
- 10  1,9  - TAb
  10  3,3  - TAbOG
  10  3,5  | TAbOG
  10  2,5  - TAcTICS
@@ -2230,7 +2195,6 @@
  10  3,7  | bOCA
  10  3,3  - cAGOT
  10  3,5  | cAGOT
- 10  1,7  - cC
  10  2,7  | cLAST
  10  5,3  - cOACTS
  10  5,3  - cOCA
@@ -2247,7 +2211,6 @@
  10  2,5  - eTACIST
  10  3,3  - fAGOT
  10  3,5  | fAGOT
- 10  1,7  - fC
  10  2,7  | fLATS
  10  5,3  - fOGAS
  10  5,3  - iOCS
@@ -2262,7 +2225,6 @@
  10  3,5  - mAGICS
  10  3,3  - mAGOT
  10  3,5  | mAGOT
- 10  9,8  - mCG
  10  5,3  - mOCA
  10  3,7  | mOCA
  10  2,7  | pLATS
@@ -2281,7 +2243,6 @@
  10  9,5  | sTYCA
  10  3,3  - tACO
  10  3,5  | tACO
- 10  1,7  - tC
  10  5,3  - tOGAS
  10  3,3  - wACO
  10  3,5  | wACO
@@ -2313,7 +2274,6 @@
   9  2,9  - AS
   9  3,5  - ASCITb
   9  3,5  - ASCITe
-  9  9,8  - ASG
   9  2,7  - AT
   9  3,5  - ATTIC
   9  3,5  - ATTICe
@@ -2694,8 +2654,6 @@
   9  3,7  | mOC
   9  2,5  - nASTIC
   9  1,7  - nAT
-  9  4,3  - nCO
-  9  3,6  | nCO
   9  1,7  - oAT
   9  4,9  - oS
   9  1,7  - pAS
@@ -2773,11 +2731,8 @@
   8  3,5  - ASCIi
   8  2,5  - ASCiI
   8  9,3  | ASTaY
-  8  9,6  - ASa
   8  9,6  - ASb
   8  3,5  - ASdIC
-  8  9,6  - ASe
-  8  9,6  - ASg
   8  9,6  - ASh
   8  9,6  - ASk
   8  9,6  - ASp
@@ -2802,7 +2757,6 @@
   8  9,6  - AbS
   8  9,6  - AbT
   8  9,6  - AcT
-  8  1,7  - AcT
   8  9,6  - AdS
   8  9,6  - AeS
   8  1,7  - AeS
@@ -2838,7 +2792,6 @@
   8  9,6  - ArT
   8  3,5  - ArTIC
   8  9,3  | ArTSY
-  8  9,8  - AsG
   8  9,6  - AsS
   8  9,6  - AsT
   8  9,6  - AtT
@@ -2970,8 +2923,6 @@
   8  3,7  | GOiS
   8  5,3  - GOlA
   8  3,7  | GOlA
-  8  5,3  - GOmA
-  8  3,7  | GOmA
   8  5,3  - GOnA
   8  3,7  | GOnA
   8  5,3  - GOoS
@@ -3009,7 +2960,6 @@
   8  2,8  | LASs
   8  2,8  | LASt
   8  2,8  | LAT
-  8  2,8  | LATa
   8  2,8  | LATe
   8  2,8  | LATh
   8  2,8  | LATi
@@ -3035,7 +2985,6 @@
   8  2,8  | LST
   8  2,8  | LaSA
   8  2,8  | LaST
-  8  2,8  | LaTA
   8  2,8  | LaTS
   8  2,8  | LeAS
   8  2,8  | LeAT
@@ -3152,7 +3101,6 @@
   8  9,2  | ScATTY
   8  4,3  - ScOG
   8  3,6  | ScOG
-  8  1,7  - ScT
   8  2,5  | SeAL
   8  2,2  - SeATS
   8  6,2  - SeATS
@@ -3382,7 +3330,6 @@
   8  5,1  | lAT
   8  5,3  - lOGS
   8  3,7  | lOGS
-  8  9,8  - mAC
   8  2,6  | mALT
   8  5,1  | mAS
   8  2,2  - mASTS
@@ -3719,6 +3666,7 @@
   7  7,5  | SeN
   7  4,6  - SeNA
   7  5,1  | SeT
+  7  7,5  | SiN
   7  4,6  - SiNA
   7  5,1  | SiT
   7  7,5  | SoN
@@ -3784,6 +3732,7 @@
   7  7,5  | TeN
   7  4,9  - Th
   7  4,5  | ThAWS
+  7  7,5  | TiN
   7  4,6  - TiNA
   7  5,1  | TiS
   7  7,1  | TiS
@@ -3814,7 +3763,6 @@
   7  4,8  | WATT
   7  4,8  | WaG
   7  4,8  | WiG
-  7  4,8  | WoG
   7  9,7  | YAnG
   7  9,6  - aAS
   7  3,2  - aCAST
@@ -3825,8 +3773,6 @@
   7  9,8  - aGT
   7  2,7  - aS
   7  2,9  - aS
-  7  9,6  - aSA
-  7  9,8  - aSG
   7  9,6  - aST
   7  9,3  | aSTAY
   7  2,7  - aT
@@ -3844,7 +3790,6 @@
   7  3,7  | bOG
   7  5,3  - bOSC
   7  3,7  | bOSC
-  7  3,9  - bT
   7  9,3  | cATTY
   7  4,5  - cCITT
   7  5,3  - cOG
@@ -3880,6 +3825,7 @@
   7  3,7  | hOG
   7  3,9  - hT
   7  9,5  | iCY
+  7  2,9  - iS
   7  4,5  - iSIAC
   7  3,9  - iT
   7  3,7  - jA
@@ -3897,17 +3843,13 @@
   7  9,6  | lYC
   7  9,6  | lYTTA
   7  3,7  - mA
-  7  9,8  - mAG
   7  9,6  - mAS
   7  9,3  | mASTY
   7  9,6  - mAT
   7  9,3  | mATTY
   7  9,5  | mAYST
-  7  9,8  - mGT
   7  5,3  - mOG
   7  3,7  | mOG
-  7  9,8  - mSG
-  7  9,8  - mTG
   7  9,6  - mTS
   7  9,6  | mYC
   7  3,7  - nA
@@ -3950,8 +3892,6 @@
   7  5,3  - vOG
   7  3,7  | vOG
   7  9,3  | wASTY
-  7  5,3  - wOG
-  7  3,7  | wOG
   7  3,9  - wT
   7  3,7  - yA
   6  4,5  - ACId
@@ -3985,12 +3925,9 @@
   6  3,5  - ASTInT
   6  3,3  - ASTOr
   6  3,5  | ASTOr
-  6  9,8  - ASa
   6  9,8  - ASb
   6  3,3  - AScOT
   6  3,5  | AScOT
-  6  9,8  - ASe
-  6  9,8  - ASg
   6  9,8  - ASh
   6  3,3  - AShOT
   6  3,5  | AShOT
@@ -4115,7 +4052,6 @@
   6  5,5  - CITy
   6  5,5  - CImA
   6  5,5  - CIsT
-  6  2,7  | CL
   6  2,7  | CLi
   6  2,7  | CLk
   6  2,7  | CLo
@@ -4130,7 +4066,6 @@
   6  4,2  - CaSS
   6  4,2  - CaST
   6  3,2  - CaTS
-  6  1,7  - Cc
   6  3,2  - CeSS
   6  4,2  - CeSS
   6  4,2  - CeST
@@ -4139,7 +4074,6 @@
   6  4,5  - ChIT
   6  4,6  - ChN
   6  4,2  - CiST
-  6  1,7  - Cl
   6  4,5  - ClIT
   6  4,5  - CoIT
   6  4,6  - CoN
@@ -4247,7 +4181,6 @@
   6  2,8  | LAw
   6  2,8  | LAx
   6  2,8  | LAy
-  6  2,8  | LAz
   6  2,8  | LSc
   6  2,8  | LSd
   6  2,8  | LSt
@@ -4255,7 +4188,6 @@
   6  2,8  | LaS
   6  2,8  | LaT
   6  2,8  | LbS
-  6  2,8  | LcA
   6  2,8  | LeA
   6  2,8  | LeT
   6  2,8  | LiS
@@ -4781,7 +4713,6 @@
   5  5,6  - ANa
   5  5,6  - ANe
   5  5,6  - ANi
-  5  5,2  - ASG
   5  5,2  - ASGd
   5  3,5  - ASTIr
   5  4,3  - ATOmS
@@ -4804,7 +4735,6 @@
   5  2,7  - Ab
   5  9,8  - Ab
   5  1,9  - Ab
-  5  2,9  - Ab
   5  3,5  - AbSIT
   5  9,5  | AbY
   5  4,3  - AcOST
@@ -4827,6 +4757,7 @@
   5  5,5  | Ai
   5  2,7  - Ai
   5  9,8  - Ai
+  5  1,9  - Ai
   5  2,9  - Ai
   5  3,5  - AiTIS
   5  2,7  - Al
@@ -4869,7 +4800,6 @@
   5  5,5  - CIa
   5  5,5  - CId
   5  5,5  - CIe
-  5  5,5  - CIf
   5  5,5  - CIg
   5  5,5  - CIr
   5  5,5  - CIs
@@ -4909,7 +4839,6 @@
   5  5,8  | ETAS
   5  5,8  | ETTA
   5  5,8  | EgGS
-  5  5,8  | EnC
   5  5,8  | EnGS
   5  5,8  | ErGS
   5  5,8  | EsC
@@ -5134,6 +5063,7 @@
   5  6,2  - ShTG
   5  9,5  | ShY
   5  5,5  | Si
+  5  1,9  - Si
   5  6,2  - SiC
   5  2,3  - SiTAO
   5  3,4  | SiTAO
@@ -5265,6 +5195,7 @@
   5  4,5  - ThIG
   5  9,5  | ThY
   5  5,5  | Ti
+  5  1,9  - Ti
   5  3,3  - TiAO
   5  3,5  | TiAO
   5  3,5  - TiTIS
@@ -5315,14 +5246,11 @@
   5  4,8  | WT
   5  4,8  | WaS
   5  4,8  | WaT
-  5  4,8  | WeA
-  5  4,8  | WeS
   5  4,8  | WeT
   5  4,8  | WhA
   5  4,8  | WhS
   5  4,8  | WiS
   5  4,8  | WiT
-  5  4,8  | WoA
   5  4,8  | WoS
   5  4,8  | WoT
   5  4,8  | WuS
@@ -5348,7 +5276,6 @@
   5  4,2  - aGST
   5  2,7  | aLG
   5  9,6  - aS
-  5  9,8  - aSA
   5  9,8  - aST
   5  9,6  - aT
   5  9,8  - aTT
@@ -5413,6 +5340,7 @@
   5  5,5  - jIGS
   5  5,5  | kA
   5  9,5  | kAYS
+  5  5,5  | lA
   5  3,2  - lAGS
   5  4,3  - lAOS
   5  3,6  | lAOS
@@ -5424,15 +5352,13 @@
   5  9,6  - mA
   5  3,5  - mAGI
   5  3,2  - mAGS
-  5  9,8  - mAS
-  5  9,8  - mAT
   5  2,5  - mATTI
   5  4,6  | mAW
   5  9,5  | mAYS
   5  5,5  - mIGS
   5  5,5  - mITTS
-  5  9,8  - mTS
   5  4,7  | mWA
+  5  5,5  | nA
   5  3,2  - nAGS
   5  4,5  - nAIG
   5  4,3  - nAOS
@@ -5639,6 +5565,7 @@
   4  6,5  - IoTA
   4  6,6  - Na
   4  6,6  - Ne
+  4  6,6  - Ni
   4  6,6  - No
   4  6,6  - Nu
   4  6,3  - OASt
@@ -5937,7 +5864,6 @@
   4  9,8  - aA
   4  7,6  | aN
   4  9,8  - aS
-  4  5,2  - aSG
   4  9,8  - aT
   4  3,6  - aTTN
   4  4,7  | aW
@@ -6013,6 +5939,7 @@
   4  3,7  | hOST
   4  5,3  - hOTS
   4  3,7  | hOTS
+  4  7,6  | iN
   4  5,3  - iOTA
   4  3,7  | iOTA
   4  9,8  - iS
@@ -6044,7 +5971,6 @@
   4  3,7  | lOTS
   4  9,6  | lYS
   4  1,7  - mA
-  4  9,8  - mA
   4  4,5  - mAIST
   4  4,2  - mASTS
   4  9,5  | mAY
@@ -6055,8 +5981,6 @@
   4  3,7  | mOAT
   4  5,3  - mOST
   4  3,7  | mOST
-  4  5,3  - mOTA
-  4  3,7  | mOTA
   4  5,3  - mOTS
   4  3,7  | mOTS
   4  5,3  - mOTT
@@ -6229,9 +6153,7 @@
   3  4,6  - AvN
   3  4,6  - AwN
   3  4,5  - AxIS
-  3  5,8  | EAd
   3  5,8  | EAm
-  3  5,8  | EAn
   3  5,8  | EAr
   3  5,8  | EAt
   3  5,8  | EAu
@@ -6295,8 +6217,6 @@
   3  4,5  - SAIn
   3  4,5  - SAIp
   3  4,5  - SAIr
-  3  4,2  - SASa
-  3  6,2  - SASa
   3  4,2  - SASh
   3  6,2  - SASh
   3  4,2  - SASs
@@ -6412,8 +6332,6 @@
   3  6,2  - STrA
   3  6,2  - STuT
   3  4,6  - SaN
-  3  4,2  - SaSA
-  3  6,2  - SaSA
   3  6,2  - SaTA
   3  6,2  - ScAT
   3  3,2  - SeAS
@@ -6552,7 +6470,6 @@
   3  3,2  - TaSS
   3  4,2  - TaSS
   3  3,2  - TaTS
-  3  1,7  - Tc
   3  1,7  - Te
   3  3,2  - TeAS
   3  4,6  - TeN
@@ -6580,7 +6497,6 @@
   3  9,7  | Ya
   3  9,7  | Ye
   3  9,7  | Yi
-  3  9,7  | Ym
   3  9,7  | Yo
   3  5,1  | aA
   3  5,5  - aIAS
@@ -6645,7 +6561,6 @@
   3  3,7  | dOS
   3  5,3  - dOT
   3  3,7  | dOT
-  3  4,6  - eAN
   3  4,2  - eAST
   3  3,2  - eATS
   3  2,7  | eLA
@@ -6727,8 +6642,6 @@
   3  3,7  | lOT
   3  5,1  | mA
   3  4,6  - mAN
-  3  4,3  - mAO
-  3  3,6  | mAO
   3  3,2  - mASS
   3  4,2  - mASS
   3  4,2  - mAST
@@ -6851,8 +6764,6 @@
   3  3,2  - wATS
   3  5,5  - wIST
   3  5,5  - wITS
-  3  5,3  - wOA
-  3  3,7  | wOA
   3  5,3  - wOS
   3  3,7  | wOS
   3  5,3  - wOT
@@ -6876,10 +6787,7 @@
   2  5,5  - AIs
   2  5,5  - AIt
   2  5,2  - AS
-  2  5,2  - ASa
   2  5,2  - ASb
-  2  5,2  - ASe
-  2  5,2  - ASg
   2  5,2  - ASh
   2  5,2  - ASk
   2  5,2  - ASp
@@ -6957,11 +6865,9 @@
   2  6,5  - IfS
   2  6,5  - IhS
   2  6,5  - IlA
-  2  6,5  - ImA
   2  6,5  - InS
   2  6,5  - InT
   2  6,5  - IpS
-  2  6,5  - IqS
   2  6,5  - IrA
   2  6,5  - IrS
   2  6,5  - IsT
@@ -6971,6 +6877,7 @@
   2  6,5  - IwA
   2  2,8  | La
   2  2,8  | Lb
+  2  2,8  | Li
   2  2,8  | Ll
   2  2,8  | Lo
   2  2,8  | Lu
@@ -7044,7 +6951,6 @@
   2  6,2  - SAn
   2  6,2  - SAo
   2  6,2  - SAp
-  2  6,2  - SAr
   2  6,2  - SAt
   2  6,2  - SAu
   2  6,2  - SAv
@@ -7175,7 +7081,6 @@
   2  5,5  - aIT
   2  2,7  | aL
   2  5,6  - aN
-  2  5,2  - aSA
   2  4,2  - aSS
   2  5,2  - aSS
   2  5,2  - aST
@@ -7188,7 +7093,6 @@
   2  5,5  - cIA
   2  5,5  - cIS
   2  5,5  - cIT
-  2  2,7  | cL
   2  4,5  - cSI
   2  5,2  - cST
   2  4,2  - cTS
@@ -7298,8 +7202,6 @@
   1  6,5  - Io
   1  6,5  - Is
   1  6,5  - It
-  1  6,3  - Ob
-  1  3,8  | Ob
   1  6,3  - Od
   1  3,8  | Od
   1  6,3  - Oe
@@ -7355,11 +7257,13 @@
   1  5,3  - jO
   1  3,7  | jO
   1  5,5  - kI
+  1  5,5  - lI
   1  5,3  - lO
   1  3,7  | lO
   1  5,5  - mI
   1  5,3  - mO
   1  3,7  | mO
+  1  5,5  - nI
   1  5,3  - nO
   1  3,7  | nO
   1  5,5  - oI

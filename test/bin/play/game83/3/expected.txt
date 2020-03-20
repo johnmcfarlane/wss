@@ -28,7 +28,6 @@
  30  6,1  | XENIAL
  29 10,1  | DAN
  29 10,1  | DIN
- 29 10,1  | NAD
  29 10,1  | NID
  28 10,1  | AIDE
  28 10,1  | AINE
@@ -37,18 +36,16 @@
  28  6,2  - EXAM
  28  8,3  - NEIN
  28  6,2  | NEXAL
- 27 10,1  | DAE
  27 10,1  | DIA
  27 10,1  | DIE
  27 10,1  | NAE
  26 10,1  | AID
  26 10,1  | AIN
- 26 10,1  | EAD
- 26 10,1  | EAN
  26  6,6  | LEXIA
  25 10,1  | DA
  25 10,1  | DI
  25 10,1  | NA
+ 25 10,1  | NI
  24 10,2  | ADEN
  24 10,2  | ADIN
  24  6,3  - ADNEX
@@ -156,6 +153,7 @@
  15  7,2  | NA
  15  6,3  - NANE
  15  7,2  | NE
+ 15  7,2  | NI
  15  6,3  - NINE
  14  7,1  - ABEND
  14  6,2  | ADIEL
@@ -204,6 +202,8 @@
  12  8,1  - BEEN
  12  8,1  - BEID
  12  8,1  - BEIN
+ 12  3,7  - DAHI
+ 12  3,7  - DHAI
  12  4,7  - DHAI
  12  6,5  | ELIX
  12  2,5  - ENDIA
@@ -219,12 +219,14 @@
  12  7,6  | SANDHI
  12  7,6  | SAXE
  12  7,6  | SHINED
+ 12  5,7  - XI
  11  7,1  - ABEDE
  11  6,7  - AH
  11  6,4  - ANKH
  11  7,5  | ASIDEN
  11  6,3  | DAHLIN
  11  3,5  - DANE
+ 11  3,7  - DANI
  11  5,4  - DANKE
  11  5,4  - DHAK
  11  5,3  - DHAN
@@ -250,6 +252,7 @@
  11  7,6  | SHEND
  11  7,6  | SIDHE
  10  3,5  - ANDE
+ 10  3,7  - ANDI
  10  8,1  - BEDE
  10  8,1  - BENA
  10  8,1  - BENE
@@ -298,6 +301,7 @@
   9  5,3  - DIAN
   9  6,4  - DIKA
   9  6,4  - DIKE
+  9  3,7  - EADI
   9  6,3  | ENALID
   9  6,4  - ENKI
   9  6,1  - HABE
@@ -340,6 +344,7 @@
   8  7,1  - ABED
   8  5,3  - ADEN
   8  5,3  - ADIN
+  8  4,7  - AHI
   8  6,5  | ALDEN
   8  6,4  - DAK
   8  6,3  | DANLI
@@ -357,6 +362,7 @@
   8  8,5  - ENID
   8  4,5  - HAE
   8  7,2  - HAM
+  8  4,7  - HEI
   8  6,4  | HELD
   8  4,5  - HIA
   8  4,7  - HIA
@@ -384,15 +390,16 @@
   7  6,5  | ALIEN
   7  6,5  | ALINE
   7  4,5  - ANE
+  7  4,7  - ANI
   7  6,3  | ANILE
   7  6,3  - ANN
   7  7,5  | ASH
   7  8,1  - BED
   7  8,1  - BEN
-  7  4,5  - DAE
   7  7,2  - DAM
   7  4,5  - DEA
   7  4,7  - DEA
+  7  4,7  - DEI
   7  6,4  | DELIA
   7  4,5  - DIA
   7  4,7  - DIA
@@ -412,6 +419,7 @@
   7  6,3  | HEAL
   7  6,3  | HEIL
   7  6,3  - HEN
+  7  5,7  - HI
   7  6,4  | HILA
   7  6,4  | HILE
   7  6,3  - HIN
@@ -433,6 +441,7 @@
   7  7,2  - NAM
   7  4,5  - NEA
   7  4,7  - NEA
+  7  4,7  - NEI
   7  7,6  | SADIE
   7  7,6  | SAID
   7  7,6  | SAIN
@@ -450,7 +459,6 @@
   6  8,1  - BEE
   6  5,5  - DA
   6  5,7  - DA
-  6  6,3  | DAIL
   6  6,4  | DALE
   6  6,4  | DALI
   6  6,3  - DAN
@@ -459,6 +467,7 @@
   6  6,3  | DEIL
   6  6,4  | DELI
   6  6,3  - DEN
+  6  5,7  - DI
   6  6,3  | DIAL
   6  6,3  | DIEL
   6  6,3  - DIN
@@ -496,6 +505,7 @@
   6  5,5  - NE
   6  6,3  | NEAL
   6  6,3  | NEIL
+  6  5,7  - NI
   6  6,4  | NILE
   6  7,6  | SADE
   6  7,6  | SADI
@@ -506,17 +516,14 @@
   6  7,6  | SINA
   6  7,6  | SINE
   5  5,5  - AE
+  5  5,7  - AI
   5  6,3  | AIEL
   5  6,4  | AILE
   5  6,3  - AIN
   5  6,5  | ALD
-  5  7,5  | ASE
   5  6,4  | DAL
   5  6,4  | DEL
   5  6,4  | DIL
-  5  8,5  - EAD
-  5  6,3  - EAN
-  5  8,5  - EAN
   5  8,5  - ED
   5  8,5  - EEN
   5  6,4  | EILA
@@ -564,6 +571,7 @@
   3  8,5  - EE
   3  6,5  | EL
   3  6,6  | LA
+  3  6,6  | LI
   3  7,6  | SAE
   3  7,6  | SAI
   3  7,6  | SEA

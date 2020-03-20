@@ -2,33 +2,20 @@
  39  6,3  - YAMATO
  27  5,1  | RAMA
  27  5,1  | RIMA
- 27  7,1  | RIMA
  27  5,1  | TAMA
- 27  7,1  | TIMO
  27  5,1  | TOMA
- 27  7,1  | TOMA
  26  5,2  | AMA
- 26  5,2  | IMA
- 26  7,2  | IMA
  23  5,1  | AAM
  23  5,1  | AIM
- 23  7,1  | AIM
  23  5,3  | MA
- 23  7,3  | MA
- 23  7,3  | MO
  23  5,1  | RAM
  23  5,1  | RIM
- 23  7,1  | RIM
  23  5,1  | ROM
- 23  7,1  | ROM
  23  5,1  | TAM
  23  5,1  | TIM
- 23  7,1  | TIM
  23  5,1  | TOM
- 23  7,1  | TOM
  22  5,2  | AM
  22  5,2  | OM
- 22  7,2  | OM
  20  1,2  - AMORIST
  20  1,2  - AORTISM
  20  2,6  - AROMATA
@@ -65,6 +52,7 @@
  18  5,6  - MATARA
  18  1,2  - MATRIS
  18  7,1  | MIAO
+ 18  7,1  | MOAI
  18  1,6  - MOARIA
  18  1,2  - MORTIS
  18  2,2  - RAMIST
@@ -234,8 +222,6 @@
  15  7,6  | MORA
  15  5,6  | MORT
  15  7,6  | MORT
- 15  5,6  | MOTA
- 15  7,6  | MOTA
  15  7,6  | ROAM
  15  7,1  | TIAO
  15  5,6  | TRAM
@@ -246,7 +232,6 @@
  14  5,7  | ARMIT
  14  3,3  - ARMY
  14  7,2  | IAO
- 14  5,1  | MAO
  14  5,7  | MAORI
  14  7,7  | MAORI
  14  2,5  - MARAVI
@@ -300,7 +285,6 @@
  13  7,6  | ARMIT
  13  5,7  | ATMA
  13  5,7  | ATMO
- 13  7,6  | IMA
  13  2,7  - IMARET
  13  5,7  | MAAR
  13  7,7  | MAAR
@@ -310,7 +294,6 @@
  13  7,7  | MAIA
  13  5,7  | MAIR
  13  7,7  | MAIR
- 13  5,6  | MAO
  13  5,6  | MAR
  13  5,7  | MARA
  13  7,7  | MARA
@@ -348,8 +331,6 @@
  13  7,7  | MORT
  13  5,6  | MOT
  13  7,6  | MOT
- 13  5,7  | MOTA
- 13  7,7  | MOTA
  13  5,3  - MYA
  13  5,7  | RAMA
  13  7,7  | RAMA
@@ -397,8 +378,6 @@
  12  7,6  | IRMA
  12  7,6  | ITMO
  12  5,6  | MA
- 12  5,7  | MAO
- 12  7,7  | MAO
  12  5,7  | MAR
  12  7,7  | MAR
  12  2,3  - MARAY
@@ -459,6 +438,7 @@
  12  4,5  - TOVARIA
  11  5,3  | AA
  11  7,3  | AA
+ 11  7,3  | AI
  11  5,4  - ALARM
  11  5,7  | AMATI
  11  3,3  - AMAY
@@ -491,6 +471,7 @@
  11  3,7  - MOTE
  11  4,3  - MOYA
  11  5,3  - MY
+ 11  7,3  | OI
  11  2,5  - OITAVA
  11  5,5  - OVARIA
  11  3,3  - RAIYAT
@@ -518,7 +499,6 @@
  11  5,7  | TRAMA
  11  7,7  | TRAMA
  11  6,5  - VIATOR
- 11  6,3  - YM
  10  5,2  | AA
  10  5,6  | AAM
  10  2,2  - AIRTS
@@ -804,8 +784,6 @@
   7  5,6  | AOR
   7  7,6  | AOR
   7  1,7  - AORTAE
-  7  5,6  | ARA
-  7  7,6  | ARA
   7  4,7  - AREITO
   7  5,7  | ARIA
   7  3,4  - ARIL
@@ -835,7 +813,6 @@
   7  6,4  - LAIR
   7  6,4  - LAIT
   7  6,4  - LARI
-  7  6,4  - LATA
   7  6,4  - LATI
   7  6,4  - LIAR
   7  6,4  - LIRA
@@ -882,7 +859,6 @@
   7  3,6  - MORA
   7  3,2  - MORS
   7  4,2  - MOST
-  7  3,6  - MOTA
   7  3,2  - MOTS
   7  3,7  - OATEAR
   7  5,4  - OLM
@@ -1011,7 +987,6 @@
   6  3,7  - AOTEA
   6  5,6  | AR
   6  7,6  | AR
-  6  5,7  | ARA
   6  3,2  - ARISTA
   6  3,2  - ARISTO
   6  2,7  - ARITE
@@ -1027,7 +1002,6 @@
   6  6,7  - EAM
   6  6,7  - EMO
   6  6,7  - ERATO
-  6  4,6  - IMA
   6  7,6  | IO
   6  2,7  - IRATE
   6  5,2  - ISM
@@ -1043,7 +1017,6 @@
   6  6,4  - LOT
   6  6,4  - LTR
   6  4,7  - MAE
-  6  5,6  - MAO
   6  5,6  - MAR
   6  4,2  - MAS
   6  5,6  - MAT
@@ -1235,7 +1208,6 @@
   4  3,6  - ROTA
   4  3,2  - ROTS
   4  6,2  - SAIR
-  4  6,2  - SARA
   4  6,2  - SARI
   4  6,2  - SART
   4  6,2  - SATA
@@ -1293,13 +1265,10 @@
   3  6,6  - AIT
   3  5,4  - AL
   3  6,6  - AOR
-  3  4,6  - ARA
-  3  6,6  - ARA
   3  4,7  - ARE
   3  6,6  - ARO
   3  4,2  - ARS
   3  6,6  - ART
-  3  5,2  - ASA
   3  5,2  - AST
   3  4,7  - ATE
   3  6,6  - ATI
@@ -1316,6 +1285,7 @@
   3  4,6  - ITA
   3  4,2  - ITS
   3  6,4  - LA
+  3  6,4  - LI
   3  6,4  - LO
   3  5,6  - OAR
   3  5,6  - OAT
@@ -1335,7 +1305,6 @@
   3  6,2  - SAA
   3  6,2  - SAI
   3  6,2  - SAO
-  3  6,2  - SAR
   3  6,2  - SAT
   3  6,2  - SIA
   3  6,2  - SIR

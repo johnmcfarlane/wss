@@ -27,15 +27,12 @@
  16  4,5  - ALE
  16  6,5  - OLEOS
  15  6,5  - EELS
+ 15 10,10 - EL
  15  6,5  - ELSE
  15  6,5  - EOLE
- 15  5,4  | LEAS
  15  6,5  - OLEO
  15  6,5  - OLES
- 15  5,2  | SOLEA
  15 11,8  | SOLI
- 14  5,3  | ELSA
- 14  5,3  | OLEA
  14 10,7  | OLSON
  14  6,5  - OOSE
  14 10,7  | SOLEN
@@ -55,7 +52,6 @@
  12 10,10 - EO
  12 10,10 - ES
  12  6,5  - ESE
- 12  5,4  | LEA
  12 11,9  | LEI
  12 10,8  | LEON
  12 10,8  | LOON
@@ -64,19 +60,16 @@
  12  6,5  - OOS
  12 10,10 - OS
  12  6,5  - OSE
- 12  5,1  | SEEL
  12  8,9  - SEL
  12 10,8  | SLON
  12  8,9  - SOL
  12 10,8  | SOLN
- 12  5,1  | SOOL
  11  4,4  - CLOES
  11  4,4  - CLOSE
  11  4,4  - COLES
  11  4,4  - COOEES
  11  4,4  - COOLS
  11  6,5  - EE
- 11  5,2  | EEL
  11  6,5  - EO
  11  6,5  - ES
  11  6,5  | EXES
@@ -88,11 +81,8 @@
  11  6,5  - OS
  11  6,5  | OXES
  11  8,9  - SEE
- 11  5,2  | SEL
  11  8,9  - SOE
- 11  5,2  | SOL
  10  4,4  - COOEE
- 10  5,3  | EL
  10 10,9  | LEN
  10  2,4  - LOCOES
  10  6,5  | OXO
@@ -151,7 +141,6 @@
   7  2,4  - SOCE
   6  4,5  - AL
   6  4,4  - CEE
-  6  4,4  - CL
   6  4,4  - COE
   6  4,4  - COO
   6  4,4  - COS
@@ -195,6 +184,7 @@
   4  6,8  | SOD
   4  4,8  - USE
   3  6,9  | ED
+  3 11,10 | LI
   3  6,9  | OD
   3  4,8  - US
   2 11,10 | OI

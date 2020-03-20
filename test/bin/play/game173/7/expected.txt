@@ -47,7 +47,6 @@
  25  3,4  - NAZIM
  24  3,8  - AMEN
  24  8,1  | ANC
- 24  8,1  | ENC
  24  1,2  - GAMENE
  24  2,4  - GANZIE
  24  2,6  - HAEMIN
@@ -55,6 +54,7 @@
  24  2,6  - MAGHI
  24  4,8  - MANE
  24  1,2  - MANEGE
+ 24  5,4  | MANGE
  24  1,2  - MENAGE
  24  8,8  | NEA
  24  3,5  - ZANtE
@@ -64,14 +64,17 @@
  23  4,8  - HENG
  23  8,4  - HI
  23  4,8  - MAN
+ 23  5,4  | MANG
  23  4,8  - MEN
  23  8,8  | NE
  23  3,5  - ZANt
  22  8,3  | CAME
  22 11,6  | EM
  22  2,6  - HAGEIN
+ 22  5,4  | HANGE
  22  1,2  - HANGEE
  22  2,6  - HANGIE
+ 22  5,4  | MANEH
  22  2,2  - MANGE
  22  2,6  - MANGI
  22  2,2  - MNAGE
@@ -86,6 +89,8 @@
  21  8,9  | GEZ
  21  5,4  | GHAN
  21  5,4  | HAME
+ 21  5,4  | HANG
+ 21  5,4  | HENG
  21  5,4  | MAGE
  21  3,6  - MAZING
  20  8,3  | CAGE
@@ -112,8 +117,10 @@
  19  5,7  | HEMAN
  19  7,7  | HEMAN
  19  4,4  - MAIN
+ 19  5,4  | MANE
  19  5,4  | MEAN
  19  4,4  - MEIN
+ 19  5,4  | NAME
  18  3,6  - AGNIZE
  18  7,1  | AMENE
  18  2,2  - AMENE
@@ -146,6 +153,7 @@
  17  8,3  | CAN
  17  3,8  - GAEN
  17  5,7  | GAME
+ 17  5,4  | GANE
  17  3,4  - GAZI
  17  5,4  | GEAN
  17  3,8  - GEAN
@@ -182,7 +190,6 @@
  16  4,4  - GEIN
  16  5,7  | GEM
  16  2,2  - GENAE
- 16  5,6  | GM
  16  5,5  | HAEM
  16  5,4  | HAG
  16  5,5  | HAG
@@ -202,6 +209,7 @@
  16  5,7  | MAH
  16  7,7  | MAH
  16  8,9  | MAH
+ 16  5,4  | MAN
  16  3,2  - MAZE
  16  5,7  | MEG
  16  7,7  | MEG
@@ -209,9 +217,10 @@
  16  5,7  | MEH
  16  7,7  | MEH
  16  8,9  | MEH
- 16  5,6  | MH
+ 16  5,4  | MEN
  16  5,6  - MIZE
  16  3,2  - MZEE
+ 16  5,4  | NAM
  16  3,4  - NAZI
  16  3,6  - ZEMI
  16  5,2  - ZEN
@@ -240,8 +249,6 @@
  15  5,6  | MEH
  15  7,2  | MEN
  15  8,9  | MEN
- 15  5,4  | MH
- 15  8,9  | MH
  15  5,6  | MNA
  15  5,8  - MNA
  15  8,9  | MNA
@@ -254,23 +261,26 @@
  14  3,4  - ANGIE
  14  4,7  - AZON
  14  5,5  | EAM
- 14  4,8  - EAN
  14  5,9  - ENAMELS
+ 14  5,5  | ENG
  14  5,8  - ENG
+ 14  5,4  | GAN
  14  5,6  | GEM
+ 14  5,4  | GEN
  14  5,6  | GENA
  14  3,7  - GENOM
  14  5,7  | GHAN
- 14  8,9  | GM
  14  4,2  - HAEM
  14  5,7  | HAEM
  14  7,7  | HAEM
  14  5,5  | HAEN
  14  5,7  | HAG
  14  7,7  | HAG
+ 14  5,4  | HAN
  14  5,5  | HAN
  14  5,6  | HEM
  14  3,2  - HEMEN
+ 14  5,4  | HEN
  14  8,8  - HEW
  14  9,7  - JAG
  14  8,9  | MAE
@@ -285,10 +295,12 @@
  14  5,6  | MEN
  14  5,7  | MEN
  14  7,7  | MEN
+ 14  5,4  | NAG
  14  5,7  | NAM
  14  7,7  | NAM
  14  3,2  - NAZE
  14  3,6  - NAZI
+ 14  5,6  | NEMA
  14  7,6  | NEMA
  14  9,1  - PAH
  14  4,6  - ZAIN
@@ -315,7 +327,6 @@
  13  8,9  | ME
  13  5,6  | MEA
  13  3,5  - MEAtH
- 13  8,5  | MH
  13  5,7  | MNA
  13  7,7  | MNA
  13  4,2  - NEEM
@@ -343,8 +354,6 @@
  12  5,6  | GEN
  12  5,7  | GEN
  12  2,5  - GHENt
- 12  5,1  | GM
- 12  8,5  | GM
  12  5,5  | HAE
  12  5,7  | HAEN
  12  7,7  | HAEN
@@ -367,8 +376,6 @@
  12  5,2  - MEH
  12  3,7  - MENO
  12  3,5  - MENtA
- 12  5,7  | MH
- 12  7,7  | MH
  12  5,7  | NAG
  12  7,7  | NAG
  12  5,4  - NIM
@@ -395,7 +402,6 @@
  11  7,9  - GAELS
  11  3,6  - GAMIN
  11  3,7  - GENOA
- 11  5,7  | GM
  11  3,6  - HAEING
  11  3,4  - HAMI
  11 11,5  | HE
@@ -411,7 +417,6 @@
  11  5,4  | ME
  11  8,5  | ME
  11  3,5  - MENt
- 11  5,1  | MH
  11  6,8  - NA
  11  6,8  - NE
  11  8,8  - NEW
@@ -422,9 +427,9 @@
  10  2,5  - AGENt
  10  5,6  | AH
  10  5,1  | AM
+ 10  5,5  | ANE
  10  7,5  | ANE
  10  4,6  - ANIGH
- 10  5,5  | EAN
  10  5,1  | EM
  10  6,2  - EM
  10  8,9  | EM
@@ -450,6 +455,7 @@
  10  5,4  - MIN
  10  5,6  - MING
  10  2,5  - NAGHt
+ 10  5,4  | NEA
  10  4,6  - NEIGH
  10  3,7  - NEMO
   9  5,5  | AG
@@ -460,7 +466,6 @@
   9  5,6  | ANE
   9  4,6  - ANIME
   9 11,3  | DHA
-  9  8,9  | EAN
   9  7,2  | EEN
   9  5,5  | EH
   9  8,9  | EH
@@ -496,6 +501,7 @@
   9  2,5  - MEANt
   9  2,5  - MENAt
   9  8,5  - METH
+  9  5,6  | NEA
   9  7,6  | NEA
   9  3,5  - NEAtH
   9  5,6  - NIGH
@@ -508,8 +514,6 @@
   8  3,6  - ANGIE
   8  3,7  - ANGO
   8  4,6  - ANIM
-  8  5,7  | EAN
-  8  7,7  | EAN
   8  6,2  | EDItION
   8  5,1  | EH
   8  6,2  - EH
@@ -536,8 +540,6 @@
   8  3,6  - MANI
   8  4,5  - MAtH
   8  5,2  - MEA
-  8  7,1  | MEE
-  8  5,2  - MEE
   8  4,6  - MEIN
   8  8,9  - MELS
   8  3,2  - MENE
@@ -554,6 +556,7 @@
   8  4,6  - NAIM
   8  3,2  - NAME
   8  7,1  - NAPA
+  8  5,6  | NE
   8  7,6  | NE
   8  5,7  | NEA
   8  7,7  | NEA
@@ -567,12 +570,14 @@
   7  4,4  - AHI
   7  5,4  - AIN
   7  4,6  - AMIE
+  7  5,5  | AN
   7  7,5  | AN
   7  7,1  | ANE
   7 11,3  | DEA
   7  5,2  - EEN
   7  5,7  | EM
   7  7,7  | EM
+  7  5,5  | EN
   7  7,5  | EN
   7  4,6  - GAIN
   7  3,2  - GANE
@@ -602,8 +607,10 @@
   7  5,6  - MIN
   7  5,7  - MON
   7  5,5  - MtG
+  7  5,4  | NA
   7  8,5  | NA
   7  4,6  - NAIG
+  7  5,4  | NE
   7  8,5  | NE
   7  8,5  - NETH
   7  3,6  - NGAI
@@ -637,12 +644,9 @@
   6  5,6  - HIN
   6  5,7  - HON
   6  6,6  - IGN
-  6  6,6  - IMA
   6  6,4  - IN
   6  4,2  - MAE
-  6  4,7  - MAO
   6  4,5  - MAtE
-  6  4,2  - MEE
   6  4,7  - MEO
   6  8,5  - MET
   6  4,5  - MEtA
@@ -751,6 +755,8 @@
   3  4,5  - NAt
   3  5,2  - NE
   3  4,5  - NEt
+  3  5,4  - NI
+  3  5,6  - NI
   3  5,7  - NO
   3  6,7  - ON
   3  6,5  - tH

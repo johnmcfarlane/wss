@@ -5,13 +5,9 @@
  29  2,1  - LESSON
  26  2,1  - NOLLE
  26  3,1  - SOLEN
- 25  4,3  - SNELL
- 24  5,3  - NELL
  23  2,1  - SLONE
- 22  5,3  - SELL
  21  9,1  | ERNS
  21  9,1  | ORLE
- 20  6,3  - ELL
  20  3,1  - LENO
  20  3,1  - LONE
  20  6,4  | OLDNESS
@@ -28,10 +24,8 @@
  18  5,7  - LENO
  18  5,5  - LONE
  18  5,7  - LONE
- 18  7,3  - OLE
  18  9,1  | ORL
  17  8,2  | CELOMS
- 17  7,3  - LL
  17  3,1  - LOSE
  17  3,1  - NOSE
  17  3,1  - SLOE
@@ -70,6 +64,8 @@
  15  8,4  | NEMOS
  15  8,4  | NOMES
  15  3,3  - NOSES
+ 15 10,2  | OLENA
+ 15 10,2  | OLONA
  15  9,1  | ORES
  15  9,5  | SKELL
  15  8,5  | SMELLS
@@ -96,7 +92,6 @@
  14  5,3  - SEN
  14  3,3  - SLOES
  14  8,5  | SMELL
- 13  7,3  - EL
  13  4,5  - ELON
  13  4,7  - ELON
  13  4,5  - ENOL
@@ -132,6 +127,7 @@
  12  9,4  | ELKS
  12  6,3  - EN
  12  7,2  | ENSOULS
+ 12 10,1  | EON
  12  9,1  | ERS
  12  9,6  | KENOS
  12  9,6  | KOEL
@@ -284,8 +280,11 @@
   9  7,4  | NOUSES
   9  5,7  - OES
   9  9,5  | OKE
+  9 10,2  | OLE
   9  8,4  | OLM
   9 10,4  | ONA
+  9 10,2  | ONE
+  9 10,2  | ONO
   9  7,4  | ONUSES
   9  7,5  | OUSEL
   9  7,4  - SELLS
@@ -364,7 +363,6 @@
   7  7,4  | LOUSE
   7  7,5  | LUNE
   7 10,5  | NAE
-  7  8,1  | NCO
   7  5,3  - NE
   7  4,5  - NEO
   7  4,7  - NEO
@@ -393,14 +391,12 @@
   6 10,6  | ALLE
   6 10,6  | ALLO
   6 10,6  | ALLS
-  6  8,2  | CL
   6  6,6  | DELS
   6  6,6  | DENS
   6  6,6  | DOLE
   6  6,6  | DOLS
   6  6,6  | DONE
   6  6,6  | DONS
-  6 10,5  | EAN
   6  8,1  | ECO
   6  7,1  | EEL
   6  7,1  | EEN
@@ -430,6 +426,7 @@
   6  4,1  - NEO
   6  7,1  | NESE
   6  7,1  | NESS
+  6 10,3  - NI
   6  5,5  - NO
   6  5,7  - NO
   6  6,4  | NODE
@@ -441,6 +438,7 @@
   6  6,4  | OLDS
   6  4,1  - OLE
   6  8,5  | OMS
+  6 10,2  | ON
   6  4,1  - ONE
   6  7,4  | ONUS
   6  9,1  | OR
@@ -586,7 +584,6 @@
   3 10,6  | AES
   3 10,6  | AL
   3 10,6  | AN
-  3 10,6  | ASE
   3 10,6  | ASS
   3  6,6  | DE
   3  6,6  | DO

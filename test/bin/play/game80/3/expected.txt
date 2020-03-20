@@ -17,6 +17,7 @@
  42  3,8  | SWAP
  42  3,8  | SWEP
  42 11,3  | WEASEL
+ 39  7,9  - ALAPS
  39 11,3  | LAPSE
  39 11,6  | SEPAL
  39  7,9  - SLAPE
@@ -32,6 +33,7 @@
  33  3,8  | SPAE
  33  3,8  | SPAS
  32  5,5  - WAPS
+ 31  4,5  - ALAPS
  31  4,5  - ELAPS
  31  4,5  - LEAPS
  30  7,9  - ASALE
@@ -145,10 +147,10 @@
  16  7,9  - SPL
  16  3,4  | WASPS
  16  3,6  | WASPS
+ 15  3,4  | ALAPS
  15  7,9  - APES
  15  7,9  - APSE
  15  7,9  - ASAP
- 15 11,5  | ASE
  15  7,9  - AWES
  15 11,7  | EELS
  15  3,4  | ELAPS
@@ -163,7 +165,6 @@
  15  6,9  - SALA
  15  6,9  - SALE
  15  6,9  - SAP
- 15  3,8  | SASA
  15  6,9  - SAW
  15 11,6  | SEA
  15  3,8  | SEAS
@@ -272,8 +273,6 @@
  11  7,9  - AES
  11  3,5  | APASS
  11  6,5  - AS
- 11  7,9  - ASA
- 11  7,9  - ASE
  11  3,7  | ASP
  11  3,5  | AWLS
  11  3,7  | ESP
@@ -335,8 +334,6 @@
  10  3,8  | SWA
  10  5,8  | UP
  10  1,7  - WAE
- 10  4,5  - WEA
- 10  1,7  - WEA
  10 10,4  | WEEM
   9  7,9  - AA
   9  7,9  - AE
@@ -415,9 +412,6 @@
   7  3,5  | ALAS
   7  3,5  | ALES
   7  7,4  | ALLOT
-  7  4,5  - ASA
-  7  1,7  - ASA
-  7  1,7  - ASE
   7 10,4  | ASEM
   7  5,7  | AUL
   7 10,6  | EMES
@@ -448,7 +442,6 @@
   7  5,8  | ULA
   7  5,8  | ULE
   7  3,6  | WAS
-  7  3,6  | WES
   6  5,5  - AA
   6  2,7  - AA
   6  2,7  - AE
@@ -467,13 +460,9 @@
   6  7,6  | LOTA
   6  7,6  | LOTS
   6  5,7  | LUE
-  6  3,6  | SASA
   6  3,5  | SEAS
   6 10,5  | SEM
   6  3,8  | SLA
-  5  3,7  | ASA
-  5  3,7  | ASE
-  5  6,4  | ASG
   5  3,7  | ASS
   5  5,7  | AUS
   5  3,7  | ESS

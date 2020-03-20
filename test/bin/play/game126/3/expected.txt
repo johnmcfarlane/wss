@@ -7,7 +7,10 @@
  41  1,3  - AGLA
  41  1,3  - GALA
  41  1,3  - GOLA
+ 39  3,3  - GOALA
  37  3,3  - GOTTA
+ 35  3,3  - GAOL
+ 35  3,3  - GOAL
  35  1,3  - TALA
  35  1,3  - TOLA
  34  1,3  - ALG
@@ -27,16 +30,15 @@
  30  3,3  - GAT
  30  3,3  - GOA
  30  3,3  - GOT
- 30  1,3  - LATA
  30  3,1  | LOGO
  30  1,3  - LOTA
  29  1,3  - GAL
  29  1,3  - GOL
- 29  3,3  - LATA
  29  3,3  - LOTA
  29  3,3  - TOAG
  27  1,3  - ATTA
  27  3,1  | GOLO
+ 27  3,3  - TAAL
  27  3,1  | TOGO
  26  5,3  - AGAL
  26  3,3  - LAO
@@ -52,7 +54,6 @@
  24  2,3  - AGO
  24  4,3  - ATTA
  24  1,3  - GLT
- 24  8,3  - LATA
  24  8,3  - LOTA
  23  1,3  - AAL
  23  3,3  - GO
@@ -63,6 +64,7 @@
  23  1,3  - TOL
  23  8,3  - TOLA
  23  8,3  - TOLT
+ 22  4,3  - AAL
  22  3,3  - OAT
  22  3,3  - TAA
  22  5,3  - TAAL
@@ -109,34 +111,38 @@
  18  1,3  - LAT
  18  1,3  - LOT
  18  3,1  | LOTO
+ 18  6,3  - LOTTA
  18  6,6  | NOGAL
  18  6,3  - TALAO
  18  5,3  - TGT
  18  1,3  - TLO
  17  4,3  - AA
- 17  3,7  - ALTO
  17  4,3  - AT
  17  6,3  - ATTAL
  17  6,3  - GAT
- 17  3,7  - GLT
  17  6,3  - GOT
  17  6,3  - GTT
  17  2,3  - LOA
+ 17  6,3  - LOTA
  17  6,3  - TALA
  17  6,3  - TOLA
  17  6,3  - TOLT
  17  6,3  - TOTAL
+ 16  5,3  - ALA
+ 16  5,3  - ALT
  16  4,6  | CAGOT
- 16  2,7  - GALT
  16  6,1  | LATIAN
  16  6,1  | LATION
+ 16  5,3  - OLA
  16  6,1  | TALION
+ 16  5,3  - TLO
  16  2,3  - TOA
  15  6,3  - AAL
  15  7,3  - ALTO
  15  1,3  - ATT
  15  6,3  - ATTA
- 15  4,7  - LOA
+ 15  6,3  - LAT
+ 15  6,3  - LOT
  15  1,3  - OAT
  15  3,1  | OTTO
  15  3,3  - TA
@@ -149,7 +155,6 @@
  15  3,1  | TOTO
  14  2,3  - AG
  14  5,3  - AG
- 14  1,7  - AGAL
  14  7,3  - ALA
  14  7,3  - ALT
  14  5,3  - ATT
@@ -157,8 +162,6 @@
  14  4,6  | COG
  14  4,6  | CTG
  14  6,1  | GALI
- 14  1,7  - GAOL
- 14  1,7  - GOAL
  14  6,1  | GOLI
  14  4,8  - LAGARTO
  14  6,6  | NATAL
@@ -172,24 +175,20 @@
  14  6,1  | TATIAN
  14  7,3  - TLO
  14  5,3  - TOA
- 14  2,7  - TOLT
  14  5,3  - TOT
- 13  3,7  - ALT
  13  6,3  - ATT
  13  7,3  - ATTA
  13  4,6  | COLAT
- 13  2,7  - GAL
  13  4,8  - GATOR
- 13  2,7  - GOL
  13  8,3  - LAG
  13  8,3  - LOG
  13  6,3  - OAT
  13  6,3  - TAT
  13  8,3  - TGT
- 13  3,7  - TLO
  13  6,3  - TOT
  12  7,8  | AGAL
  12  7,8  | AGLA
+ 12  5,3  - AL
  12  7,3  - AL
  12  4,8  - ALGAROT
  12  7,3  - ATT
@@ -200,8 +199,6 @@
  12  4,6  | COLT
  12  4,2  | GOX
  12  4,1  | OLAX
- 12  1,7  - TAAL
- 11  2,7  - AAL
  11  7,8  | AGAO
  11  7,8  | ALGA
  11  4,6  | CAL
@@ -212,17 +209,14 @@
  11  8,3  - LAO
  11  8,3  - LAT
  11  4,2  | LAX
- 11  4,7  - LO
  11  8,3  - LOA
  11  3,3  | LOG
  11  8,3  - LOT
  11  4,2  | LOX
  11  7,8  | OLGA
  11  8,3  - TAG
- 11  2,7  - TAL
  11  8,3  - TLO
  11  8,3  - TOG
- 11  2,7  - TOL
  10  5,3  - AA
  10  7,8  | AGA
  10  8,5  - AGAL
@@ -230,7 +224,6 @@
  10  7,8  | AGO
  10  7,8  | AGT
  10  2,3  - AL
- 10  3,7  - AL
  10  6,1  | ALAI
  10  7,8  | ALG
  10  4,8  - ALGOR
@@ -270,7 +263,9 @@
   9  3,3  | GOO
   9  3,3  | GOT
   9  5,1  | GOTH
+  9  6,3  - LA
   9  6,3  | LIANG
+  9  6,3  - LO
   9  4,3  | OX
   9  8,3  - TAA
   9  8,3  - TAO
@@ -367,7 +362,6 @@
   6  2,3  - AT
   6  6,2  | ATI
   6  7,8  | ATT
-  6  4,6  | CL
   6  8,7  - ELA
   6  8,7  - ELT
   6  6,8  - GARA
@@ -486,7 +480,6 @@
   4  7,8  - TROT
   3  8,5  - AA
   3  6,8  - AOR
-  3  7,8  - ARA
   3  7,8  - ARO
   3  7,8  - ART
   3  8,5  - AT
@@ -494,6 +487,7 @@
   3  8,7  - ET
   3  5,6  | IAO
   3  5,6  | ITA
+  3  6,3  | LI
   3  6,6  | NA
   3  6,6  | NO
   3  6,8  - OAR

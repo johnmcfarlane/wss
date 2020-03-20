@@ -480,11 +480,14 @@
  24  1,1  - EhLITE
  24  6,1  - EhLITE
  24  6,1  - ElLIOT
+ 24  2,1  - EnVIE
+ 24  6,1  - EnVIE
  24  6,1  - EnVOI
  24  1,1  - EtOILE
  24  6,1  - EtOILE
  24  1,1  - IOLiTE
  24  1,3  - LEIpOA
+ 24  7,1  | LIEpOT
  24  1,3  - LITsEA
  24  3,1  - LaVE
  24  3,1  - LeVE
@@ -589,6 +592,7 @@
  24  3,1  - wEVET
  24  5,1  - wEVET
  23  5,2  | ELOIn
+ 23  7,2  | ILEOn
  23  7,2  | OLEIn
  23  5,1  | TELOi
  23  5,1  | TELcO
@@ -598,7 +602,6 @@
  23  3,7  - VELd
  23  3,7  - VILd
  23  3,7  - VOLs
- 23  5,2  | cLOIT
  23  6,7  - sTIVE
  23  6,7  - sTOVE
  23  5,1  | tELOI
@@ -630,6 +633,7 @@
  22  6,4  - PIVOT
  22  6,4  - PIVOTs
  22  5,6  - TELEVOx
+ 22  7,1  | TILE
  22  1,2  - TOIVEL
  22  2,6  - TOIVEL
  22  7,1  | TOLE
@@ -696,6 +700,7 @@
  21  1,3  - IdOTEA
  21  7,3  | LEITh
  21  7,3  | LIOnET
+ 21  7,1  | LIThO
  21  2,7  - LIVEdO
  21  2,7  - LIVEsT
  21  1,3  - LOgEIA
@@ -761,6 +766,7 @@
  21  3,1  - wEVE
  21  3,1  - wIVE
  21  3,1  - wOVE
+ 20  7,1  | EILa
  20  6,6  - ELEVOn
  20  5,2  | ELhI
  20  7,1  | EOLe
@@ -797,6 +803,7 @@
  20  5,6  - LEnVOI
  20  2,6  - LIEVE
  20  2,6  - LIEVEr
+ 20  7,1  | LITE
  20  6,2  - LIVETh
  20  2,7  - LIVEd
  20  6,2  - LIVEdO
@@ -832,6 +839,7 @@
  20  7,1  | ObLI
  20  6,4  - PaVE
  20  6,4  - PaVO
+ 20  7,1  | TILe
  20  7,3  | TOILE
  20  7,3  | TOILEd
  20  7,3  | TOILEr
@@ -846,6 +854,7 @@
  20  7,1  | TaLI
  20  1,2  - ThIVEL
  20  2,6  - ThIVEL
+ 20  7,1  | TiLE
  20  1,2  - ToIVEL
  20  2,6  - ToIVEL
  20  7,1  | ToLE
@@ -908,17 +917,25 @@
  20  1,6  - bILEVE
  20  7,2  | bLEO
  20  6,7  - dEVIL
+ 20  7,1  | dILO
  20  6,7  - dIVEL
  20  7,1  | dOLE
  20  7,1  | dOLI
  20  7,1  | eOLE
+ 20  7,1  | fILE
+ 20  7,1  | fILO
  20  7,1  | fOLE
+ 20  7,1  | hILE
  20  7,1  | hOLE
  20  7,1  | hOLI
+ 20  7,1  | lILE
  20  7,1  | lOLI
  20  1,6  - mELVIE
  20  5,6  - mELVIE
+ 20  7,1  | mILE
+ 20  7,1  | mILO
  20  7,1  | mOLE
+ 20  7,1  | nILE
  20  7,2  | oLEO
  20  7,2  | oLIO
  20  5,2  - oLIVET
@@ -932,7 +949,10 @@
  20  5,6  - rEVILE
  20  2,2  - rEVOLT
  20  5,6  - rEVOLT
+ 20  7,1  | rILE
  20  7,1  | rOLE
+ 20  7,1  | sILE
+ 20  7,1  | sILO
  20  7,1  | sOLE
  20  7,1  | sOLI
  20  6,7  - sOVIET
@@ -940,15 +960,18 @@
  20  5,4  - sPIV
  20  2,6  - sTEVEL
  20  1,6  - sVELTE
+ 20  7,1  | tILE
  20  1,2  - tOIVEL
  20  2,6  - tOIVEL
  20  7,1  | tOLE
  20  2,6  - vELVET
  20  5,6  - vELVET
  20  5,6  - wEEVIL
+ 20  7,1  | wILE
  19  4,3  - ELATIVe
  19  2,3  - ELeVATO
  19  2,3  - EVOLATe
+ 19  7,2  | ILE
  19  5,3  - LATIVE
  19  7,3  | LEIf
  19  7,3  | LEIs
@@ -1044,6 +1067,9 @@
  18  6,2  - LIEVe
  18  4,1  - LIEpOT
  18  2,1  - LIOnET
+ 18  7,1  | LITe
+ 18  7,1  | LITh
+ 18  7,1  | LITi
  18  6,2  - LIVEd
  18  6,2  - LIVEn
  18  6,2  - LIVEr
@@ -1074,6 +1100,8 @@
  18  7,1  | LaTI
  18  2,6  - LeVEE
  18  2,6  - LiEVE
+ 18  7,1  | LiTE
+ 18  7,1  | LiTI
  18  7,1  | LoTO
  18  2,6  - LoVEE
  18  7,1  | LuTE
@@ -1271,6 +1299,8 @@
  17  7,3  | EOITh
  17  7,3  | EpIL
  17  5,7  - EsTOIL
+ 17  7,2  | ILa
+ 17  7,2  | ILe
  17  7,4  | IOLiTE
  17  5,7  - IdOLET
  17  5,3  - LAtIVE
@@ -1354,8 +1384,8 @@
  17  3,3  - VoTAL
  17  7,2  | aLE
  17  7,2  | bLO
- 17  5,2  | cLO
  17  6,7  - dOLITE
+ 17  7,2  | iLE
  17  3,3  - mOLAVE
  17  3,3  - nOVALE
  17  7,2  | oLE
@@ -1394,6 +1424,8 @@
  16  6,6  - EVOkE
  16  2,6  - EViTE
  16  6,6  - EViTE
+ 16  2,6  - EnVIE
+ 16  6,6  - EnVIE
  16  6,6  - EnVOI
  16  5,7  - IsLET
  16  5,7  - IsLOT
@@ -1415,6 +1447,17 @@
  16  3,7  - LIEs
  16  2,7  - LITEs
  16  3,7  - LITs
+ 16  7,1  | LIdE
+ 16  7,1  | LIdO
+ 16  7,1  | LIgE
+ 16  7,1  | LIlE
+ 16  7,1  | LImE
+ 16  7,1  | LImO
+ 16  7,1  | LInE
+ 16  7,1  | LInO
+ 16  7,1  | LIrE
+ 16  7,1  | LIsE
+ 16  7,1  | LItE
  16  4,3  - LOAVE
  16  4,3  - LOAVEs
  16  3,7  - LOEd
@@ -1451,6 +1494,7 @@
  16  7,6  | LvOV
  16  7,2  | LwEI
  16  2,2  - OEILLeT
+ 16  7,1  | OIL
  16  2,7  - OILEd
  16  3,3  - OITAVa
  16  7,5  | OLIVE
@@ -1486,6 +1530,7 @@
  16  5,1  | TEL
  16  2,7  - TELOs
  16  2,6  - TEaVE
+ 16  7,1  | TIL
  16  2,7  - TILEd
  16  2,7  - TILEs
  16  3,7  - TILdE
@@ -1520,6 +1565,7 @@
  16  2,3  - VIOLATE
  16  3,3  - VITAE
  16  2,6  - VITaE
+ 16  4,7  - VId
  16  3,3  - VInAL
  16  3,3  - VIrAL
  16  4,7  - VIs
@@ -1544,6 +1590,7 @@
  16  6,7  - dIEL
  16  6,7  - dIOL
  16  4,5  - dISLOVE
+ 16  7,1  | dITE
  16  6,7  - dIV
  16  7,1  | dOTE
  16  2,6  - eVITE
@@ -1557,14 +1604,17 @@
  16  7,4  | iOLITE
  16  5,3  - jAVEL
  16  2,6  - lIEVE
+ 16  7,1  | lITE
  16  2,6  - lOVEE
  16  2,2  - mELILOT
  16  4,2  - mELILOT
+ 16  7,1  | mITE
  16  7,3  | mOILE
  16  7,1  | mOTE
  16  2,6  - mOVIE
  16  5,3  - nAVEL
  16  2,6  - nIEVE
+ 16  7,1  | nITO
  16  3,3  - nIVAL
  16  7,1  | nOTE
  16  2,3  - oLIVA
@@ -1576,12 +1626,14 @@
  16  5,3  - rAVEL
  16  2,6  - rEIVE
  16  2,6  - rEVIE
+ 16  7,1  | rITE
  16  3,3  - rIVAL
  16  7,1  | rOTE
  16  7,1  | rOTI
  16  6,7  - sEV
  16  2,6  - sIEVE
  16  6,7  - sIOL
+ 16  7,1  | sITE
  16  4,3  - sLAVE
  16  4,3  - sLAVI
  16  6,7  - sLITE
@@ -1592,11 +1644,13 @@
  16  2,6  - sTEVE
  16  2,6  - sTIVE
  16  2,6  - sTOVE
+ 16  7,1  | tITE
  16  7,3  | tOILE
  16  5,6  | tOIVEL
  16  7,6  | tOIVEL
  16  7,1  | tOTE
  16  4,2  - vILLOTE
+ 16  7,1  | wITE
  16  7,1  | wOTE
  15  6,3  - AVaIL
  15  6,3  - AVaL
@@ -1678,6 +1732,7 @@
  15  5,1  - LErOT
  15  2,1  - LEwIE
  15  5,1  - LEwIE
+ 15  7,3  | LI
  15  2,1  - LIEgE
  15  2,1  - LIEuE
  15  2,1  - LIEvE
@@ -2017,6 +2072,7 @@
  14  5,2  - ILLEcT
  14  5,2  - ILLEsT
  14  5,2  - ILLiTE
+ 14  7,2  | IdEO
  14  5,7  - IdLE
  14  5,7  - IdOL
  14  4,4  - ImPEL
@@ -2029,11 +2085,13 @@
  14  1,2  - LEnTIL
  14  6,2  - LEnTIL
  14  4,7  - LEsT
+ 14  7,1  | LIE
  14  3,4  - LIEPOT
  14  6,2  - LILTEd
  14  1,2  - LIOnEL
  14  6,2  - LIOnEL
  14  4,4  - LIPsE
+ 14  7,1  | LIT
  14  1,2  - LIThOL
  14  6,2  - LIThOL
  14  2,2  - LITtLE
@@ -2089,6 +2147,7 @@
  14  7,1  | ObL
  14  2,2  - OcELLI
  14  5,7  - OdEL
+ 14  7,1  | OiL
  14  1,2  - OnEILL
  14  2,2  - OnEILL
  14  1,6  - OrEILET
@@ -2125,6 +2184,17 @@
  14  1,5  - TEVIsS
  14  3,7  - TIEd
  14  3,7  - TIEs
+ 14  7,1  | TIaO
+ 14  7,1  | TIdE
+ 14  7,1  | TIgE
+ 14  7,1  | TIlE
+ 14  7,1  | TImE
+ 14  7,1  | TImO
+ 14  7,1  | TInE
+ 14  7,1  | TInO
+ 14  7,1  | TIrE
+ 14  7,1  | TIrO
+ 14  7,1  | TItE
  14  5,3  | TOE
  14  4,6  - TOELIkE
  14  3,7  - TOEd
@@ -2150,6 +2220,7 @@
  14  7,1  | TaL
  14  5,1  | TeL
  14  2,2  - ThOLLI
+ 14  7,1  | TiL
  14  7,1  | ToL
  14  2,2  - TrILLO
  14  2,2  - TuILLE
@@ -2191,6 +2262,7 @@
  14  5,1  | dEL
  14  6,7  - dETI
  14  6,7  - dIET
+ 14  7,1  | dIL
  14  6,7  - dITE
  14  1,5  - dIVOTS
  14  6,7  - dOIT
@@ -2200,6 +2272,7 @@
  14  5,2  - eLLIOT
  14  5,5  - eSTIVE
  14  2,5  - eVILS
+ 14  7,1  | fIL
  14  5,3  | fOETI
  14  7,1  | fOL
  14  2,3  - fOVEAL
@@ -2216,14 +2289,17 @@
  14  3,3  - lOVAT
  14  5,3  - mAVIE
  14  5,1  | mEL
+ 14  7,1  | mIL
  14  7,1  | mOL
  14  1,5  - mOVIES
  14  5,3  - nAVET
  14  3,3  - nEVAT
  14  2,2  - nIELLO
+ 14  7,1  | nIL
  14  7,1  | nOL
  14  3,3  - nOVAE
  14  2,3  - nOVIAL
+ 14  7,1  | oIL
  14  7,5  | oLIVE
  14  5,4  - oPTIVE
  14  2,2  - oTELLO
@@ -2239,6 +2315,7 @@
  14  1,5  - rIVETS
  14  6,7  - sEIT
  14  2,3  - sIEVA
+ 14  7,1  | sIL
  14  6,7  - sITE
  14  4,3  - sOAVE
  14  7,1  | sOL
@@ -2247,6 +2324,7 @@
  14  7,6  | sTIVE
  14  7,6  | sTOVE
  14  5,1  | tEL
+ 14  7,1  | tIL
  14  7,1  | tOL
  14  4,3  - uVATE
  14  3,3  - vIVAT
@@ -2277,6 +2355,7 @@
  13  5,7  - EdIT
  13  4,4  - EdPLOT
  13  4,7  - IOdE
+ 13  7,2  | ITa
  13  2,5  - IViES
  13  5,7  - IdEO
  13  5,7  - IsL
@@ -2313,6 +2392,7 @@
  13  7,2  | LeE
  13  7,2  | LeI
  13  7,2  | LeO
+ 13  7,3  | Li
  13  7,2  | LiE
  13  5,3  | Lo
  13  7,3  | Lo
@@ -2441,7 +2521,6 @@
  13  7,2  | aTE
  13  7,2  | aTI
  13  7,2  | bIO
- 13  5,2  | cTO
  13  6,7  - dEL
  13  6,7  - dIL
  13  4,4  - dIPOLE
@@ -2695,6 +2774,8 @@
  12  7,6  | LeVE
  12  7,6  | LeVI
  12  7,6  | LeVO
+ 12  7,1  | LiE
+ 12  7,1  | LiT
  12  3,1  - LiTE
  12  7,6  | LiVE
  12  7,1  | LoE
@@ -2806,6 +2887,7 @@
  12  5,1  - TElEI
  12  5,1  - TElOI
  12  5,1  - TEnIO
+ 12  7,1  | TIE
  12  4,4  - TIPtOE
  12  4,7  - TId
  12  4,7  - TIs
@@ -3162,9 +3244,15 @@
  11  7,4  | IOdE
  11  7,4  | IOnE
  11  5,4  - IPiL
+ 11  7,2  | IaO
+ 11  7,2  | IbO
  11  5,7  - Id
+ 11  7,2  | IdE
+ 11  7,2  | IlE
  11  4,4  - ImPOT
+ 11  7,2  | IrE
  11  5,7  - Is
+ 11  7,2  | IsE
  11  3,4  - LEIPOa
  11  4,4  - LEP
  11  4,4  - LEPa
@@ -3175,6 +3263,7 @@
  11  7,6  | LEVi
  11  7,6  | LEVo
  11  7,6  | LEVy
+ 11  7,2  | LI
  11  3,4  - LIEPOt
  11  4,4  - LIP
  11  4,4  - LIPa
@@ -3355,7 +3444,6 @@
  11  5,3  - cAV
  11  5,4  | cETI
  11  5,4  | cITE
- 11  5,2  | cL
  11  3,4  - cLEP
  11  1,5  - cLEVIS
  11  3,4  - cLIP
@@ -3575,9 +3663,18 @@
  10  3,6  - LIVEdO
  10  3,6  - LIVEsT
  10  2,5  - LIVeS
+ 10  7,1  | LIb
  10  6,2  - LIcET
+ 10  7,1  | LId
+ 10  7,1  | LIe
+ 10  7,1  | LIg
+ 10  7,1  | LIm
+ 10  7,1  | LIn
  10  6,2  - LInET
+ 10  7,1  | LIr
  10  6,2  - LIrOT
+ 10  7,1  | LIs
+ 10  7,1  | LIt
  10  6,2  - LOEIl
  10  7,6  | LOITEr
  10  6,2  - LOTIc
@@ -3676,7 +3773,6 @@
  10  7,1  | ObE
  10  7,1  | ObI
  10  3,3  - ObLATE
- 10  5,1  | OcT
  10  1,5  - OgIVES
  10  7,1  | OlE
  10  1,5  - OlIVES
@@ -3782,6 +3878,7 @@
  10  2,2  - ThEOL
  10  2,2  - ThIOL
  10  2,6  - ThOLE
+ 10  7,1  | TiE
  10  7,1  | ToE
  10  7,1  | ToI
  10  2,6  - ToILE
@@ -3912,9 +4009,11 @@
  10  5,4  | dET
  10  5,6  | dEVOT
  10  7,6  | dEVOT
+ 10  7,1  | dIE
  10  5,4  | dIE
  10  2,3  - dIETAL
  10  4,4  - dIPLE
+ 10  7,1  | dIT
  10  5,4  | dIT
  10  2,5  - dIVEST
  10  5,6  | dIVET
@@ -3936,7 +4035,9 @@
  10  5,1  | fET
  10  5,4  | fET
  10  2,3  - fETIAL
+ 10  7,1  | fIE
  10  5,4  | fIE
+ 10  7,1  | fIT
  10  5,4  | fIT
  10  4,3  - fLAITE
  10  2,6  - fLITE
@@ -3962,8 +4063,10 @@
  10  2,6  - hELOE
  10  5,1  | hET
  10  5,4  | hET
+ 10  7,1  | hIE
  10  5,4  | hIE
  10  7,4  | hIE
+ 10  7,1  | hIT
  10  5,4  | hIT
  10  7,4  | hIT
  10  7,1  | hOE
@@ -3988,6 +4091,8 @@
  10  5,3  - lAEVO
  10  7,3  | lEI
  10  7,3  | lEO
+ 10  7,1  | lIE
+ 10  7,1  | lIT
  10  2,5  - lIVEST
  10  7,1  | lOE
  10  5,3  | lOE
@@ -3998,6 +4103,7 @@
  10  7,3  | mEO
  10  5,1  | mET
  10  2,2  - mETOL
+ 10  7,1  | mIT
  10  7,1  | mOI
  10  5,3  | mOI
  10  7,3  | mOI
@@ -4012,6 +4118,7 @@
  10  7,3  | nEI
  10  7,3  | nEO
  10  5,1  | nET
+ 10  7,1  | nIT
  10  7,1  | nOT
  10  5,5  | oOLITE
  10  7,5  | oOLITE
@@ -4039,7 +4146,9 @@
  10  2,3  - rETIAL
  10  3,6  - rEVEIL
  10  4,3  - rIALTO
+ 10  7,1  | rIE
  10  7,3  | rIO
+ 10  7,1  | rIT
  10  5,6  | rIVET
  10  7,6  | rIVET
  10  2,5  - rIVOSE
@@ -4050,6 +4159,8 @@
  10  5,6  | rOVET
  10  7,6  | rOVET
  10  7,3  | sEI
+ 10  7,1  | sIE
+ 10  7,1  | sIT
  10  2,6  - sLETE
  10  2,6  - sLITE
  10  2,6  - sLOTE
@@ -4069,8 +4180,10 @@
  10  2,6  - sTOLE
  10  1,5  - sTOVES
  10  4,6  - sVELTE
+ 10  7,1  | tIE
  10  4,4  - tIPLE
  10  4,4  - tIPTOE
+ 10  7,1  | tIT
  10  2,6  - tITLE
  10  7,1  | tOE
  10  5,3  | tOE
@@ -4091,6 +4204,7 @@
  10  4,6  - wEEVIL
  10  7,3  | wEI
  10  5,1  | wET
+ 10  7,1  | wIT
  10  7,1  | wOE
  10  7,1  | wOT
  10  5,1  | yET
@@ -4179,6 +4293,7 @@
   9  7,4  | IO
   9  3,1  - IOdE
   9  3,1  - IOnE
+  9  7,2  | IT
   9  4,3  - ITALOn
   9  1,5  - ITaVES
   9  3,3  - IdEAL
@@ -4243,6 +4358,7 @@
   9  7,6  | LEnTO
   9  7,6  | LErOT
   9  3,4  - LErP
+  9  7,1  | LI
   9  4,1  - LIEVe
   9  4,6  - LIEVe
   9  7,6  | LIEpOT
@@ -4882,6 +4998,7 @@
   8  6,3  - AdVT
   8  6,3  - ArVO
   8  3,3  - EILA
+  8  7,1  | EIr
   8  4,3  - ELAIc
   8  4,3  - ELAIn
   8  4,3  - ELATe
@@ -5124,6 +5241,7 @@
   8  4,2  - OILLET
   8  5,6  | OILlET
   8  7,6  | OILlET
+  8  7,1  | OIl
   8  5,6  | OLEIc
   8  7,6  | OLEIc
   8  5,6  | OLEIn
@@ -5332,13 +5450,22 @@
   8  4,4  - TIPi
   8  4,4  - TIPs
   8  3,6  - TIVEr
+  8  7,1  | TIb
   8  3,3  - TIcAL
+  8  7,1  | TId
   8  3,3  - TIdAL
+  8  7,1  | TIe
+  8  7,1  | TIg
+  8  7,1  | TIl
   8  5,6  | TIlL
   8  7,6  | TIlL
+  8  7,1  | TIm
+  8  7,1  | TIn
   8  2,5  - TIrESOL
   8  5,6  | TIrL
   8  7,6  | TIrL
+  8  7,1  | TIs
+  8  7,1  | TIt
   8  1,5  - TOILES
   8  2,6  - TOIlE
   8  2,6  - TOIsE
@@ -5895,7 +6022,6 @@
   7  5,3  - LAO
   7  5,3  - LAOs
   7  5,3  - LAT
-  7  5,3  - LATa
   7  5,3  - LATe
   7  5,3  - LATh
   7  5,3  - LATi
@@ -5985,13 +6111,14 @@
   7  7,1  | La
   7  5,2  | La
   7  7,2  | La
-  7  3,3  - LaTA
   7  6,2  - LaV
   7  7,1  | Lb
   7  5,2  | Lb
   7  7,2  | Lb
   7  3,4  - LeEP
   7  6,2  - LeV
+  7  7,1  | Li
+  7  7,2  | Li
   7  3,5  - LiEST
   7  6,2  - LiV
   7  7,1  | Ll
@@ -6009,6 +6136,7 @@
   7  7,6  | OELeT
   7  5,5  | OEcI
   7  7,5  | OEcI
+  7  7,1  | OI
   7  3,2  - OILLEt
   7  4,2  - OILLEt
   7  3,2  - OILLeT
@@ -6235,6 +6363,7 @@
   7  7,6  | TElOI
   7  5,6  | TEnIO
   7  7,6  | TEnIO
+  7  7,1  | TI
   7  2,5  - TILES
   7  3,2  - TILLEd
   7  4,2  - TILLEd
@@ -6468,7 +6597,6 @@
   7  1,5  - bOTELS
   7  3,6  - bOVE
   7  7,2  | bT
-  7  2,3  - cELIA
   7  3,6  - cIVE
   7  4,3  - cLAT
   7  3,3  - cLEAT
@@ -6511,6 +6639,7 @@
   7  5,6  | dIV
   7  7,6  | dIV
   7  3,6  - dIVE
+  7  3,5  - dIVS
   7  5,3  | dO
   7  7,3  | dO
   7  5,4  | dO
@@ -6618,6 +6747,7 @@
   7  4,2  - iLLITE
   7  7,3  | iO
   7  7,4  | iO
+  7  7,2  | iT
   7  4,3  - iTAL
   7  3,2  - jILLET
   7  4,2  - jILLET
@@ -6640,6 +6770,8 @@
   7  5,6  - lEVI
   7  5,1  - lEVO
   7  5,6  - lEVO
+  7  7,2  | lI
+  7  7,3  | lI
   7  7,6  | lIV
   7  3,6  - lIVE
   7  7,1  | lL
@@ -6685,6 +6817,7 @@
   7  5,6  - nEVI
   7  5,1  - nEVO
   7  5,6  - nEVO
+  7  7,3  | nI
   7  3,2  - nIELLO
   7  5,6  | nILOT
   7  7,6  | nILOT
@@ -7084,6 +7217,7 @@
   6  2,5  - LExIS
   6  7,6  | LEy
   6  3,5  - LEyS
+  6  7,6  | LI
   6  4,3  - LIAnE
   6  2,5  - LIEnS
   6  4,6  - LIEpOT
@@ -8172,7 +8306,6 @@
   5  6,3  - ATwO
   5  6,3  - AbLE
   5  6,3  - AbOTE
-  5  6,3  - AcLE
   5  6,3  - AiLE
   5  6,3  - AlIET
   5  6,3  - AlITE
@@ -8335,8 +8468,10 @@
   5  2,5  - ITEmS
   5  2,5  - ITErS
   5  5,5  | IaO
+  5  7,2  | Ib
   5  5,5  | IbO
   5  2,3  - IbOTA
+  5  7,2  | Id
   5  5,5  | IdE
   5  7,5  | IdE
   5  3,3  - IdEA
@@ -8350,10 +8485,9 @@
   5  7,5  | IlE
   5  3,3  - IlEA
   5  3,5  - IlLS
+  5  7,2  | In
   5  4,2  - InLET
   5  3,6  - InLET
-  5  5,5  | InO
-  5  7,5  | InO
   5  4,5  - InSOL
   5  5,5  | InT
   5  7,5  | InT
@@ -8363,6 +8497,7 @@
   5  4,3  - IrATE
   5  5,5  | IrE
   5  7,5  | IrE
+  5  7,2  | Is
   5  7,5  | IsE
   5  2,5  - IsLES
   5  4,2  - IsLET
@@ -8371,6 +8506,7 @@
   5  3,5  - IsLS
   5  7,5  | IsT
   5  3,2  - IsTLE
+  5  7,2  | It
   5  3,3  - ItEA
   5  3,2  - ItLL
   5  4,2  - ItLL
@@ -8395,7 +8531,6 @@
   5  5,3  - LAw
   5  5,3  - LAx
   5  5,3  - LAy
-  5  5,3  - LAz
   5  4,3  - LEA
   5  4,3  - LEAd
   5  4,3  - LEAf
@@ -8499,6 +8634,7 @@
   5  7,6  | Lb
   5  4,3  - LeAT
   5  2,5  - LeETS
+  5  7,6  | Li
   5  4,2  - LiLE
   5  6,2  - LiLE
   5  4,2  - LiLT
@@ -8572,8 +8708,6 @@
   5  5,6  | OTIs
   5  7,6  | OTIs
   5  5,5  | OaT
-  5  7,1  | Ob
-  5  7,2  | Ob
   5  5,5  | ObE
   5  4,1  - ObELI
   5  3,2  - ObELI
@@ -8596,6 +8730,7 @@
   5  2,5  - OgLES
   5  7,2  | Oh
   5  3,3  - OhIA
+  5  7,1  | Oi
   5  7,2  | Oi
   5  5,6  | OiL
   5  7,6  | OiL
@@ -8968,7 +9103,6 @@
   5  2,5  - TaLIS
   5  3,2  - TaLL
   5  4,2  - TaLL
-  5  5,1  | Tc
   5  5,1  | Te
   5  3,5  - TeISE
   5  5,6  | TeL
@@ -8986,6 +9120,7 @@
   5  3,2  - ThOLE
   5  3,2  - ThOLI
   5  3,5  - ThOSE
+  5  7,1  | Ti
   5  5,6  | TiL
   5  7,6  | TiL
   5  2,5  - TiLES
@@ -9085,7 +9220,6 @@
   5  4,2  - cOLL
   5  4,4  - cOP
   5  2,5  - cOTES
-  5  5,3  - dAIL
   5  5,3  - dAL
   5  5,1  | dE
   5  4,2  - dELIT
@@ -9095,6 +9229,7 @@
   5  4,4  - dEP
   5  5,6  | dETI
   5  7,6  | dETI
+  5  7,1  | dI
   5  5,6  | dIET
   5  7,6  | dIET
   5  2,5  - dIETS
@@ -9132,6 +9267,7 @@
   5  3,2  - fELL
   5  4,2  - fELL
   5  2,5  - fETIS
+  5  7,1  | fI
   5  4,3  - fIAT
   5  4,2  - fILET
   5  3,6  - fILET
@@ -9194,6 +9330,7 @@
   5  5,6  - hELOT
   5  4,4  - hEP
   5  7,5  | hET
+  5  7,1  | hI
   5  3,2  - hILL
   5  4,2  - hILL
   5  4,4  - hIP
@@ -9243,6 +9380,7 @@
   5  4,4  - kOP
   5  4,3  - lEAT
   5  4,4  - lEP
+  5  7,1  | lI
   5  3,2  - lILL
   5  4,2  - lILL
   5  4,4  - lIP
@@ -9270,6 +9408,7 @@
   5  5,6  - mETEL
   5  2,5  - mETIS
   5  5,6  - mETOL
+  5  7,1  | mI
   5  4,3  - mIAE
   5  4,3  - mIAO
   5  3,2  - mILL
@@ -9304,6 +9443,7 @@
   5  4,4  - nEP
   5  5,6  | nETI
   5  7,6  | nETI
+  5  7,1  | nI
   5  3,2  - nILL
   5  4,2  - nILL
   5  4,2  - nILOT
@@ -9320,6 +9460,7 @@
   5  5,1  | oE
   5  3,6  - oELET
   5  5,6  - oELET
+  5  7,1  | oI
   5  4,3  - oLA
   5  3,3  - oLEA
   5  7,1  | oO
@@ -9397,6 +9538,7 @@
   5  3,2  - sELL
   5  4,2  - sELL
   5  4,4  - sEP
+  5  7,1  | sI
   5  3,2  - sILL
   5  4,2  - sILL
   5  4,4  - sIP
@@ -9435,6 +9577,7 @@
   5  5,6  - tELOI
   5  3,6  - tETEL
   5  5,6  - tETEL
+  5  7,1  | tI
   5  4,3  - tIAO
   5  3,2  - tILL
   5  4,2  - tILL
@@ -9488,6 +9631,7 @@
   5  7,1  | wO
   5  5,6  | wOTE
   5  7,6  | wOTE
+  5  7,1  | xI
   5  5,1  | yE
   5  4,3  - yEAT
   5  3,2  - yELL
@@ -10064,7 +10208,6 @@
   4  5,6  | OaT
   4  7,6  | OaT
   4  3,5  - OaTS
-  4  5,5  | Ob
   4  5,6  | ObE
   4  7,6  | ObE
   4  3,5  - ObES
@@ -10684,7 +10827,6 @@
   4  4,1  - cLEE
   4  3,6  - cLEE
   4  4,6  - cLEE
-  4  5,2  - cLIO
   4  5,2  - cLIT
   4  3,5  - cLOS
   4  5,2  - cLOT
@@ -10950,7 +11092,6 @@
   4  3,5  - mOLS
   4  4,2  - mOLT
   4  4,5  - mOSTE
-  4  3,3  - mOTA
   4  5,3  - nAIO
   4  5,3  - nAOI
   4  5,3  - nATE
@@ -11211,9 +11352,7 @@
   3  6,3  - AlL
   3  6,3  - AuL
   3  6,3  - AwL
-  3  5,3  - EAd
   3  5,3  - EAm
-  3  5,3  - EAn
   3  5,3  - EAr
   3  5,3  - EAt
   3  5,3  - EAu
@@ -11394,6 +11533,7 @@
   3  5,1  - LEy
   3  6,2  - LEy
   3  5,6  - LEy
+  3  6,2  - LI
   3  6,2  - LIb
   3  6,2  - LId
   3  6,2  - LIe
@@ -11434,7 +11574,6 @@
   3  4,5  - LaS
   3  6,2  - LaT
   3  4,5  - LbS
-  3  4,3  - LcA
   3  4,3  - LeA
   3  4,1  - LeE
   3  6,2  - LeE
@@ -11481,8 +11620,6 @@
   3  5,5  - OSEs
   3  5,5  - OSsE
   3  4,5  - OaST
-  3  5,6  | Ob
-  3  7,6  | Ob
   3  4,2  - ObL
   3  5,6  | Od
   3  7,6  | Od
@@ -11810,7 +11947,6 @@
   3  4,5  - cOST
   3  3,6  - cOTE
   3  3,5  - cOTS
-  3  5,3  - dAE
   3  5,3  - dAO
   3  5,3  - dAT
   3  4,3  - dEA
@@ -12009,7 +12145,6 @@
   3  7,6  | lOT
   3  3,5  - lOTS
   3  5,3  - mAE
-  3  5,3  - mAO
   3  5,3  - mAT
   3  4,3  - mEA
   3  4,1  - mEET
@@ -12274,7 +12409,6 @@
   3  3,6  - vOTE
   3  5,3  - wAE
   3  5,3  - wAT
-  3  4,3  - wEA
   3  4,1  - wEEI
   3  5,1  - wEEI
   3  4,6  - wEEI
@@ -12295,7 +12429,6 @@
   3  7,6  | wIT
   3  3,6  - wITE
   3  3,5  - wITS
-  3  4,3  - wOA
   3  5,6  | wOE
   3  7,6  | wOE
   3  3,5  - wOES
@@ -12315,9 +12448,6 @@
   3  5,6  | yOT
   3  3,6  - yOTE
   3  5,3  - zAT
-  3  5,1  - zEL
-  3  4,2  - zEL
-  3  5,6  - zEL
   3  4,5  - zEST
   3  3,5  - zITS
   3  4,3  - zOA
@@ -12349,7 +12479,6 @@
   2  6,3  - ArE
   2  6,3  - ArO
   2  6,3  - ArT
-  2  6,3  - AsE
   2  6,3  - AsT
   2  6,3  - AtE
   2  6,3  - AtI
@@ -12488,10 +12617,8 @@
   2  4,3  - IlA
   2  4,1  - IlE
   2  4,6  - IlE
-  2  4,3  - ImA
   2  4,5  - InS
   2  4,5  - IpS
-  2  4,5  - IqS
   2  4,3  - IrA
   2  4,1  - IrE
   2  4,6  - IrE
@@ -12506,6 +12633,7 @@
   2  4,3  - IwA
   2  6,2  - La
   2  6,2  - Lb
+  2  6,2  - Li
   2  6,2  - Ll
   2  6,2  - Lo
   2  6,2  - Lu
@@ -12703,7 +12831,6 @@
   2  5,6  | aI
   2  4,5  - aIS
   2  5,2  - aL
-  2  5,5  - aSE
   2  5,5  - aST
   2  5,6  | aT
   2  4,1  - aTE
@@ -12729,7 +12856,6 @@
   2  4,1  - cIE
   2  4,6  - cIE
   2  4,5  - cIS
-  2  5,2  - cL
   2  4,1  - cOE
   2  4,6  - cOE
   2  4,5  - cOS
@@ -12849,6 +12975,7 @@
   2  5,6  - lEO
   2  5,1  - lET
   2  5,6  - lET
+  2  7,6  | lI
   2  4,1  - lIE
   2  4,6  - lIE
   2  4,5  - lIS
@@ -12859,10 +12986,6 @@
   2  5,5  - lST
   2  5,6  | mE
   2  7,6  | mE
-  2  4,1  - mEE
-  2  5,1  - mEE
-  2  4,6  - mEE
-  2  5,6  - mEE
   2  5,1  - mEO
   2  5,6  - mEO
   2  4,5  - mES
@@ -12887,6 +13010,8 @@
   2  5,6  - nEO
   2  5,1  - nET
   2  5,6  - nET
+  2  5,6  | nI
+  2  7,6  | nI
   2  4,5  - nIS
   2  5,6  | nO
   2  7,6  | nO
@@ -12998,7 +13123,6 @@
   2  5,6  - wEE
   2  5,1  - wEI
   2  5,6  - wEI
-  2  4,5  - wES
   2  5,1  - wET
   2  5,6  - wET
   2  4,5  - wIS

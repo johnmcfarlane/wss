@@ -5,21 +5,16 @@
  30  6,6  | BANKED
  29  5,7  - VIAND
  28  6,6  | BIVANE
+ 28  3,7  - KADEIN
  28  8,4  | KNIVED
- 28  2,5  - VEDIKA
  26  6,6  | BAKED
  26  6,6  | BAKEN
  26  6,6  | BAVIN
  26  6,6  | BIKED
- 26  4,5  - INKED
  26  8,4  | KNIVE
- 26  4,5  - NAKED
- 25  3,5  - DANKE
  25  8,4  | DEINK
- 25  3,5  - DINKA
- 24  5,5  - AKED
  24  6,6  | BAKIE
- 23  6,5  - KED
+ 23  3,7  - KENAI
  23  6,9  - KNIVED
  23  3,7  - VINEA
  22  6,6  | BANDIE
@@ -37,19 +32,13 @@
  22  9,4  | NATIVE
  22  1,5  - VEDIKA
  22  1,7  - VEDIKA
- 21  3,5  - DANK
- 21  2,5  - DEINK
- 21  4,5  - DIKA
- 21  4,5  - DIKE
- 21  3,5  - DINK
  21  8,5  | DINKA
  21  8,6  | INKED
- 21  6,5  - KEA
  21  2,7  - KNAVE
  21  2,7  - KNIVE
- 21  4,5  - NAKE
- 21  4,5  - NIKE
+ 20  6,7  - AIDE
  20 10,8  | AIK
+ 20  6,7  - AINE
  20  7,4  - AKNEE
  20  2,7  - AVINE
  20  6,6  | BANDE
@@ -61,15 +50,17 @@
  20  8,5  | DINK
  20  6,7  - EADI
  20  8,6  | INKIE
+ 20  5,7  - KAID
+ 20  5,7  - KAIN
+ 20  5,7  - KEID
  20  8,8  - KENN
- 20  3,5  - NAIK
+ 20  5,7  - VAIN
+ 20  5,7  - VEIN
  20  5,5  - VIED
  19 10,9  | ADV
- 19  5,5  - AKE
  19 10,9  | AVN
  19  6,9  - DINKED
  19  6,9  - EVANID
- 19  5,5  - IKE
  19 10,9  | INK
  19 10,9  | INV
  19  3,5  - KADI
@@ -105,9 +96,9 @@
  18  7,9  - DIKED
  18  7,9  - DIVED
  18  4,7  - IDEAN
+ 18  7,7  - IND
  18  8,6  | INK
  18  8,6  | INV
- 18  6,5  - KA
  18  8,5  - KAAS
  18  8,5  - KEAS
  18  7,4  | KELVIN
@@ -124,15 +115,15 @@
  17 10,9  | AIK
  17 10,9  | AKE
  17 10,9  | AVE
- 17  4,5  - DAK
+ 17  5,7  - DAIN
  17  2,7  - DANKE
  17  5,7  - DEAN
+ 17  5,5  - DIAN
  17  5,7  - DIAN
  17  2,5  - DINKA
  17  2,7  - DINKA
  17 10,9  | EVA
  17 10,9  | IKE
- 17  4,5  - INK
  17  7,9  - INKED
  17  7,4  | INLEAK
  17 10,9  | IVA
@@ -140,8 +131,7 @@
  17  8,4  | KAI
  17  2,7  - KANDE
  17  7,9  - KNEAD
- 17  4,5  - NAK
- 17  4,5  - NEK
+ 17  5,7  - NAID
  17  8,4  | VAI
  17  7,3  | VAILED
  17  8,4  | VEI
@@ -149,7 +139,6 @@
  17  7,9  - VIAND
  17  8,4  | VII
  16 10,8  | AIDE
- 16  4,5  - AIK
  16 10,8  | AINE
  16  7,3  - AKNOW
  16  7,2  | ANVILED
@@ -197,17 +186,19 @@
  16  2,5  - VINEA
  16  2,7  - VINEA
  16  8,2  - VIZ
+ 15  6,7  - AID
+ 15  6,7  - AIN
  15  7,1  | AKINDLE
  15  9,4  | DATE
- 15  6,7  - EAD
- 15  6,7  - EAN
  15  3,5  - ENKI
  15  3,7  - ENKI
+ 15  6,5  - IAN
  15  6,7  - IAN
  15  8,3  | INDIV
  15  8,6  | INDIV
  15  7,8  - INKEN
  15  5,5  - KAE
+ 15  5,7  - KAI
  15  7,4  | KALEND
  15  5,7  - KEA
  15  7,1  | KENDAL
@@ -220,7 +211,9 @@
  15  9,4  | NATE
  15  9,6  | TANK
  15  9,6  | TINK
+ 15  5,7  - VAI
  15  7,2  | VAKIL
+ 15  5,7  - VEI
  15  5,5  - VIA
  15  5,7  - VIA
  15  8,5  | VIAND
@@ -241,12 +234,11 @@
  14  3,7  - AVIE
  14  8,4  | AVINE
  14  8,5  | DIVINE
- 14 10,8  | EAD
- 14 10,8  | EAN
  14  2,5  - ENDIA
  14  2,7  - ENDIA
  14  8,2  | EVANID
  14 10,8  | IAN
+ 14  7,7  - IDE
  14  7,5  | ILKANE
  14  7,2  - INEZ
  14  8,3  | INKIE
@@ -304,6 +296,7 @@
  13  7,4  | VALINE
  13  7,1  | VEINAL
  13  7,8  - VENIN
+ 13  9,9  - VID
  13  8,5  | VIED
  13  8,5  | VINED
  12  4,7  - AKE
@@ -315,9 +308,9 @@
  12  4,7  - AVE
  12  6,6  | BANK
  12  6,6  | BINK
- 12  5,5  - DAE
  12  5,7  - DEA
  12  8,5  - DEAS
+ 12  5,7  - DEI
  12  3,5  - DEIA
  12  3,7  - DEIA
  12  7,2  | DEVAL
@@ -349,7 +342,6 @@
  12  4,7  - KEA
  12  4,7  - KIE
  12  6,3  | KNAB
- 12  7,6  | LADIK
  12  7,6  | LAKED
  12  7,6  | LAKIN
  12  7,6  | LAVED
@@ -363,6 +355,8 @@
  12  8,2  | NAEVI
  12  7,2  | NAVEL
  12  5,7  - NEA
+ 12  5,7  - NEI
+ 12  8,5  - NIAS
  12  7,9  - NIDED
  12  7,2  | NIVAL
  12  9,6  | TAKED
@@ -408,10 +402,8 @@
  11  8,5  | DIVE
  11  8,3  | DIVI
  11  8,5  | DIVI
- 11 10,9  | EAD
  11  3,5  - EADI
  11  3,7  - EADI
- 11 10,9  | EAN
  11  8,3  | ENDIA
  11  8,8  - EVAN
  11 10,9  | IAN
@@ -454,6 +446,7 @@
  10  6,5  | ABEND
  10  6,5  | ABV
  10  6,5  - AE
+ 10  6,7  - AI
  10  8,5  - AIAS
  10  7,9  - AIDED
  10  8,4  - AKEE
@@ -501,6 +494,7 @@
  10  8,8  - NAIN
  10  8,7  - NE
  10  8,8  - NEIN
+ 10  8,7  - NI
  10  9,6  | TAKE
  10  9,6  | TAVE
  10  9,6  | TEIND
@@ -514,6 +508,7 @@
   9 10,9  | AD
   9  7,2  | ADIEL
   9  7,5  | ALIEN
+  9  7,5  - AN
   9  7,7  - AN
   9 10,9  | AN
   9  4,7  - ANE
@@ -524,7 +519,6 @@
   9  6,6  | BAND
   9  6,6  | BEND
   9  6,6  | BIND
-  9  4,7  - DAE
   9  4,5  - DEA
   9  4,7  - DEA
   9  4,5  - DEI
@@ -539,13 +533,16 @@
   9 10,9  | ED
   9  7,5  | ELAIN
   9  7,5  | ELIAN
+  9  7,5  - EN
   9 10,9  | EN
+  9  7,7  - ID
   9 10,9  | ID
   9  4,7  - IDE
   9  7,2  | IDEAL
   9  8,6  | IDEAN
   9  8,6  | IKE
   9  7,5  | ILKA
+  9  7,7  - IN
   9 10,9  | IN
   9  8,6  | IND
   9  8,8  - INDN
@@ -553,7 +550,6 @@
   9  8,6  | IVE
   9  7,4  | KALE
   9  7,4  | KALI
-  9  6,5  | KB
   9  7,5  | KLN
   9  7,6  | LADEN
   9  7,6  | LADIN
@@ -604,7 +600,6 @@
   8  6,6  | BINE
   8  5,5  - DA
   8  5,7  - DA
-  8  7,3  | DAIL
   8  8,9  - DAND
   8  8,3  | DANI
   8  5,7  - DE
@@ -654,6 +649,8 @@
   8  7,3  | NEAL
   8  8,4  | NEI
   8  7,3  | NEIL
+  8  5,5  - NI
+  8  5,7  - NI
   8  8,5  | NIDE
   8  8,3  | NIDI
   8  8,5  | NIDI
@@ -671,6 +668,7 @@
   8  7,4  | VAL
   8  9,8  - VAN
   8  7,4  | VEL
+  8  8,5  | VID
   8  7,4  | VIL
   8  8,5  | VIN
   8  9,8  - VIN
@@ -717,7 +715,6 @@
   7  7,6  | LINA
   7  7,6  | LINE
   7  6,4  | NAB
-  7  9,9  - NAD
   7  8,9  - NAID
   7  6,4  | NEB
   7  9,9  - NED
@@ -770,7 +767,6 @@
   5  7,4  | DIL
   5  8,5  | DIN
   5  9,8  - DIN
-  5  9,9  - EAD
   5  7,4  | EILA
   5  7,5  | ELD
   5  7,5  | ELIA
@@ -801,7 +797,6 @@
   4  9,4  - DEE
   4  8,5  | DIA
   4  8,5  | DIE
-  4  9,8  - EAN
   4  7,5  | ELA
   4  7,5  | ELI
   4  9,8  - IAN
@@ -828,6 +823,8 @@
   3  8,6  | IN
   3 10,8  - IN
   3  7,6  | LA
+  3  7,6  | LI
+  3  8,5  | NI
   3  9,6  | TA
   3  9,6  | TE
   3  9,6  | TI

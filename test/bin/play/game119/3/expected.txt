@@ -31,6 +31,7 @@
  32  1,2  - AZLON
  32  2,8  | OLP
  32  2,10 - ZIPA
+ 30  2,9  | ALP
  30  2,2  | APA
  30  6,2  | AZOLE
  30  3,9  - BOZAL
@@ -42,7 +43,6 @@
  29  2,9  | APA
  29  2,9  | LAP
  29  2,9  | LOP
- 29  2,9  | OPA
  28  1,2  - AZAN
  28  1,2  - AZON
  28  2,10 - LIANA
@@ -57,13 +57,12 @@
  26  1,3  - CAZA
  26  2,10 - LIZ
  25  1,3  - COZ
- 25  2,9  | OP
  25  5,3  | ZONTA
- 24  2,2  | ALA
  24  1,9  - ALBA
  24  1,9  - ANBA
  24  6,2  | APNOEAL
  24  1,2  - AZO
+ 24  4,5  - LANAZ
  24  1,1  - MALA
  24  1,1  - MALO
  24  1,1  - MANA
@@ -73,13 +72,15 @@
  24  1,1  - MONA
  24  6,1  | NOPALEA
  24  5,3  | ZANT
- 23  2,1  | AAL
  23  2,9  | LAN
  22  3,9  - BLAZON
  22  6,6  | ENOPLA
  22  2,10 | PA
  22  2,10 | PO
+ 21  2,8  | AAL
+ 21  2,9  | ALA
  21  1,9  - ALB
+ 21  2,9  | ANA
  21  6,5  - AZONAL
  21  3,9  - BALZA
  21  1,3  - CANZO
@@ -101,7 +102,9 @@
  20  1,4  - KNOP
  20  6,7  - LANAZ
  20  2,9  | LAO
+ 20  4,5  - LAPON
  20  2,9  | LOA
+ 20  4,5  - NAPAL
  20  2,8  | OLA
  20  6,2  | PLANE
  20  6,5  - POZ
@@ -127,8 +130,8 @@
  18  1,3  - CANAP
  18  1,3  - CAPON
  18  1,3  - COPAL
- 18  1,1  - MAO
  18  1,1  - MOA
+ 18  4,5  - NAPA
  18  6,2  | OLPAE
  18  6,5  - OZAN
  18  6,7  - OZAN
@@ -137,9 +140,13 @@
  18  1,11 - PLEON
  18  5,6  | TOPAZ
  17  2,1  | AL
+ 17  2,9  | AL
  17  6,4  | ALEZAN
  17  2,1  | AN
+ 17  2,9  | AN
  17  6,5  - ANOPLA
+ 17  4,5  - LAP
+ 17  4,5  - NAP
  17  2,1  | ON
  17  6,5  - ONZA
  17  6,7  - ONZA
@@ -151,11 +158,9 @@
  17  4,5  - PAON
  17  4,3  | PLAIN
  17  5,3  | PLATANO
- 16  2,2  | AL
  16  1,2  - ALAP
  16  1,2  - ALOP
  16  2,9  | LA
- 16  6,7  - LAZ
  16  2,10 - LIPA
  16  2,9  | LO
  16  4,3  | NAZI
@@ -174,7 +179,7 @@
  16  1,11 - PLEA
  16  1,10 - POIL
  15  1,4  - KANAP
- 15  2,3  | LA
+ 15  4,5  - LANAO
  15  4,3  | LAPIN
  15  6,5  | NEOZA
  15  2,11 - NEOZA
@@ -204,13 +209,18 @@
  14  1,3  - CONAL
  14  1,4  - KLAN
  14  1,4  - KOALA
+ 14  2,10 | LA
+ 14  4,5  - LANA
  14  6,7  - LAPON
  14  6,3  | LAZE
  14  2,10 - LIP
+ 14  2,10 | LO
+ 14  2,10 | NA
  14  6,5  - NAPAL
  14  6,7  - NAPAL
  14  6,3  | NAZE
  14  2,10 - NIP
+ 14  2,10 | NO
  14  6,5  - NOPAL
  14  6,7  - NOPAL
  14  6,5  - PALA
@@ -241,6 +251,7 @@
  13  1,4  - KAPA
  13  1,4  - KOAN
  13  4,4  | LAIN
+ 13  4,5  - LAN
  13  4,4  | LOIN
  13  2,10 | ON
  13  6,5  - ONLAP
@@ -251,8 +262,6 @@
  13  5,3  | PLATO
  13  2,8  - PROLAN
  13  5,6  | TALPA
- 13  6,5  | ZEL
- 13  2,11 - ZEL
  13  6,5  | ZEN
  13  2,11 - ZEN
  13  6,4  | ZOEA
@@ -316,7 +325,9 @@
  11  1,4  - KONA
  11  4,2  | LANAI
  11  6,7  - LANAO
+ 11  4,5  - LAO
  11  6,7  - LOAN
+ 11  4,5  - NAA
  11  4,4  | NAIO
  11  4,9  | ON
  11  6,3  | PALEON
@@ -392,7 +403,6 @@
   9  5,7  - ANA
   9  4,2  | ANOLI
   9  6,3  | APNEA
-  9  5,4  | APTAL
   9  2,8  - ARNA
   9  5,5  | ATONAL
   9  3,9  - BAAL
@@ -450,6 +460,7 @@
   8  1,4  - KAL
   8  1,4  - KOL
   8  1,4  - KON
+  8  4,5  - LA
   8  4,4  | LAI
   8  1,10 - LAI
   8  6,7  - LAN
@@ -461,6 +472,7 @@
   8  4,5  | LIN
   8  1,11 - LOE
   8  6,3  | LOPE
+  8  4,5  - NA
   8  1,11 - NAE
   8  6,3  | NAPE
   8  6,5  | NEAP
@@ -564,7 +576,6 @@
   6  6,4  | APE
   6  1,8  - APR
   6  5,4  | APT
-  6  1,3  - CL
   6  6,6  | ELAN
   6  3,11 - ELAN
   6  6,6  | ELON
@@ -587,6 +598,7 @@
   6  2,11 - LENO
   6  6,5  | LEON
   6  2,11 - LEON
+  6  2,10 - LI
   6  6,7  - LO
   6  6,3  | LONE
   6  6,5  - NA
@@ -595,6 +607,7 @@
   6  5,4  | NATL
   6  6,5  | NEAL
   6  2,11 - NEAL
+  6  2,10 - NI
   6  6,5  - NO
   6  6,7  - NO
   6  6,4  | NOEL
@@ -634,13 +647,11 @@
   5  5,4  | ALTO
   5  6,5  - AN
   5  5,4  | ANTA
-  5  2,8  - ARA
   5  2,8  - ARO
   5  3,9  - BA
   5  3,9  - BO
   5  6,6  | EOAN
   5  3,11 - EOAN
-  5  5,4  | LATA
   5  6,5  | LEN
   5  2,11 - LEN
   5  1,8  - LNR
@@ -649,7 +660,6 @@
   5  1,1  - MO
   5  5,4  | NATO
   5  5,4  | NOTA
-  5  2,9  - OB
   5  6,4  | OLEA
   5  6,5  - ON
   5  6,7  - ON
@@ -665,15 +675,12 @@
   4  5,4  | ALT
   4  6,4  | ANE
   4  5,4  | ANT
-  4  6,6  | EAN
-  4  3,11 - EAN
   4  6,6  | ELA
   4  3,11 - ELA
   4  6,6  | EON
   4  3,11 - EON
   4  3,10 - IAN
   4  3,10 - ILA
-  4  3,10 - INO
   4  4,6  | IO
   4  3,10 - ION
   4  1,8  - LAR
@@ -711,8 +718,10 @@
   3  3,11 - EN
   3  3,10 - IAO
   3  3,10 - IN
+  3  4,5  | LI
   3  6,5  | NE
   3  2,11 - NE
+  3  4,5  | NI
   3  1,8  - OAR
   3  5,4  | OAT
   3  5,6  | TAA

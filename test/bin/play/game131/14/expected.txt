@@ -36,10 +36,7 @@
  28  4,2  - KAFILA
  28 11,3  | KALIF
  27  9,1  - CITAL
- 27  7,11 - FALK
- 27 10,1  | LAIT
  26 14,10 | ALEFS
- 26  7,11 - FLAK
  26 14,8  | FLAKE
  26 11,3  | GALIK
  26 11,3  | GLAIK
@@ -58,7 +55,6 @@
  24  7,2  - FLAK
  24  8,2  - GALIK
  24  7,2  - GLAIK
- 24  6,11 - GLAIK
  24 14,8  | GLIKE
  24  5,11 | ILA
  24  5,2  - KAFTA
@@ -66,11 +62,8 @@
  24  6,12 | KLAM
  23 11,4  | FLAK
  23  7,8  | FULK
- 23  6,11 - GALIK
- 23 10,1  | LAI
  23  1,3  | TALIS
  23 11,5  | TILAK
- 22  1,6  - AFFT
  22 14,8  | AIGLETS
  22  9,2  - AKALI
  22  6,12 | AKIM
@@ -103,11 +96,9 @@
  21  7,11 - KAIL
  21  7,11 - KALI
  21  5,12 | LA
- 21  7,11 - LAIK
  21 10,2  | LAT
+ 21  5,12 | LI
  21 10,2  | LIT
- 21  7,11 - TALK
- 21  6,11 - TILAK
  20  9,2  - AFLAT
  20 14,9  | AGLETS
  20  7,2  - AKALI
@@ -149,29 +140,23 @@
  20 14,8  | LATKE
  20  8,2  - TAGLIA
  20  8,2  - TALAK
- 19  1,6  - AFF
  19  3,3  | ALGIC
  19 11,4  | ATIK
- 19  7,11 - ATIK
  19  7,1  - FACIT
  19  7,11 - FAIL
  19  7,11 - FILA
  19 11,4  | FLAG
  19  5,13 - FLAG
- 19  8,11 - GAK
  19  4,6  - GAT
  19 11,5  | GIFT
  19  4,6  - GIT
  19  6,1  - GLACK
  19 11,4  | GLAIK
  19  6,1  - GLICK
- 19  1,6  - IFF
- 19  8,11 - ILK
  19  4,4  | KALO
  19  4,4  | KILO
  19 11,5  | LAK
  19  5,12 | TA
- 19  8,1  | TAG
  19  5,12 | TI
  18 12,13 - AAL
  18  8,8  - AFLAT
@@ -213,7 +198,6 @@
  18  7,2  - KIAAT
  18 11,5  | LAFT
  18  8,2  - LAIK
- 18  8,11 - LAK
  18 14,9  | LAKE
  18 11,5  | LIFT
  18 14,7  | LIGATE
@@ -222,7 +206,6 @@
  18 14,7  | TAIGLE
  18 14,7  | TAILGE
  18  8,2  - TALK
- 17  8,11 - AIK
  17 10,2  | AIT
  17  5,1  - ALGIC
  17  6,1  - ALICK
@@ -236,7 +219,6 @@
  17  4,4  | FIGO
  17 13,9  | FLAW
  17 15,9  | FLIRT
- 17 10,15 - FLY
  17  7,8  | FUGIT
  17  7,11 - GAIL
  17  7,11 - GALI
@@ -252,6 +234,7 @@
  17 10,2  | LA
  17  4,6  - LAI
  17  4,6  - LAT
+ 17 10,2  | LI
  17 11,5  | LIF
  17  4,6  - LIT
  17 11,5  | TALK
@@ -275,8 +258,6 @@
  16  5,13 - FAIL
  16  6,2  - FALA
  16  8,2  - FALA
- 16  3,6  | FC
- 16  2,6  - FF
  16  6,2  - FILA
  16 11,5  | FILA
  16  4,2  | FILAGO
@@ -310,7 +291,6 @@
  16 11,5  | KIL
  16  5,3  | KILAN
  16 14,9  | KITE
- 16 10,1  | LA
  16  7,1  - LACK
  16  8,2  - LAFT
  16 11,5  | LAIK
@@ -331,14 +311,12 @@
  15  6,5  | AFD
  15  6,6  - ALAND
  15  5,13 - ALIF
- 15  8,1  | FA
  15  8,2  | FA
  15  5,3  | FAGIN
  15 11,5  | FAIL
  15 15,9  | FAIR
  15  7,8  - FATAL
  15  7,8  - FATIL
- 15 10,15 - FAY
  15 15,9  | FIAR
  15 11,5  | FIL
  15  6,13 - FILA
@@ -431,7 +409,6 @@
  14  6,2  - GLIA
  14 11,4  | GLIA
  14 10,9  | GLIB
- 14  6,14 | GM
  14  7,1  - GTC
  14 12,11 - HAT
  14  1,5  | IFS
@@ -447,7 +424,6 @@
  14 14,10 | KIE
  14 11,5  | KIT
  14 10,8  | KITAB
- 14  7,8  | KUA
  14  7,8  | KUI
  14  3,5  | LAC
  14  3,4  | LAIC
@@ -466,7 +442,6 @@
  14 11,5  | TIG
  13  1,6  - AFT
  13 10,7  - AFT
- 13  8,2  | AG
  13 11,6  | AG
  13 11,4  | AGIT
  13 10,2  | AI
@@ -718,11 +693,11 @@
  10  6,1  - LAIC
  10  8,2  - LAIT
  10  5,13 - LAIT
- 10  6,2  - LATA
- 10  8,2  - LATA
  10 14,9  | LATE
  10  8,2  - LATI
  10 14,11 | LEGS
+ 10  9,11 - LI
+ 10  8,13 - LI
  10 14,9  | LITE
  10 15,9  | LITRA
  10  7,8  | LUG
@@ -769,7 +744,6 @@
   9  7,8  | AUF
   9  9,1  - CAF
   9  9,1  - CFI
-  9  9,1  - CIF
   9  9,1  - CTF
   9 10,6  | DALF
   9 10,6  | DIKA
@@ -800,7 +774,6 @@
   9 10,7  - ITAL
   9  5,4  | KAIN
   9 15,10 | KARL
-  9 10,11 | KB
   9 14,11 | KEAS
   9 15,10 | KGR
   9  5,5  | KLN
@@ -809,9 +782,10 @@
   9 15,9  | LAIR
   9  7,8  - LAIT
   9 15,10 | LARK
-  9  7,8  - LATA
   9  7,8  - LATI
   9  5,3  | LATIN
+  9 11,5  | LI
+  9  4,6  - LI
   9 15,9  | LIAR
   9  5,5  | LINGE
   9  1,5  | LIS
@@ -859,7 +833,6 @@
   8 10,6  | DAK
   8  5,4  | FAIN
   8 15,10 | FARL
-  8  8,1  - FC
   8 14,11 | FEIS
   8 14,11 | FETS
   8  6,5  | GAD
@@ -943,7 +916,6 @@
   7  5,4  | GAIN
   7 14,11 | GETS
   7 15,10 | GIRL
-  7  8,3  - GM
   7  1,6  - IF
   7 14,15 - IF
   7  9,4  - ILIA
@@ -956,7 +928,6 @@
   7  7,3  - LAM
   7  7,6  - LAND
   7  6,13 - LAT
-  7  8,1  - LCA
   7 14,11 | LEAST
   7  6,5  | LID
   7  7,3  - LIM
@@ -999,9 +970,7 @@
   6  9,1  - CAT
   6  9,1  - CIA
   6  9,1  - CIT
-  6  9,1  - CL
   6 10,6  | DAG
-  6 10,6  | DAIL
   6 10,6  | DALI
   6 10,6  | DALT
   6 10,6  | DIAL
@@ -1016,7 +985,6 @@
   6  5,5  | GIN
   6 15,10 | GIRT
   6  5,5  | IGN
-  6  8,3  - IMA
   6 10,7  - IT
   6  9,4  - ITAI
   6  6,5  | ITD
@@ -1082,8 +1050,6 @@
   5 15,10 | LIRA
   5  9,3  - MA
   5  9,3  - MI
-  5 15,12 | RF
-  5 10,14 | RF
   5  4,11 - TAG
   5  5,4  | TAIN
   5  4,11 - TAIT

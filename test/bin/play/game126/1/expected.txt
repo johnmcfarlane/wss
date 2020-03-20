@@ -13,7 +13,6 @@
  22  8,4  | RAsA
  22  8,4  | RAsE
  22  8,3  | REEs
- 22  8,6  | sARA
  22  8,6  | sARE
  22  8,6  | sEAR
  22  8,6  | sEER
@@ -27,25 +26,17 @@
  21  8,4  | REs
  21  8,6  | sAA
  21  8,6  | sAE
- 21  8,6  | sAR
  21  8,6  | sEA
  21  8,6  | sEE
  21  8,6  | sER
- 19  6,5  - AcERAE
- 19  8,5  | AsA
- 19  8,5  | AsE
  19  8,5  | EsE
- 18  6,5  - AcARA
  18  8,5  | As
  18  4,6  - CINQuE
  18  8,5  | Es
- 17  6,5  - AcER
- 17  6,5  - AcRE
  17  6,7  - AiRA
  17  6,7  - AiRE
  17  4,6  - CINQs
  17  6,7  - EiRE
- 15  6,5  - AcE
  15  6,7  - AhA
  15  6,7  - AiR
  15  6,7  - EiR
@@ -64,12 +55,6 @@
  14  7,6  | QuARE
  14  7,6  | QuEER
  14  6,2  | RApANEA
- 14  7,5  - cARA
- 14  7,5  - cARE
- 14  7,5  - cERA
- 14  7,5  - cERE
- 14  7,5  - cREA
- 14  7,5  - cREE
  14  7,7  - hAAR
  14  7,7  - hARE
  14  7,7  - hEAR
@@ -87,9 +72,6 @@
  13  7,6  | QuAE
  13  7,6  | QuAR
  13  4,3  | aRACEAE
- 13  7,5  - cAR
- 13  7,5  - cEE
- 13  7,5  - cRE
  13  7,7  - hAE
  13  7,7  - hEE
  13  7,7  - hER
@@ -199,7 +181,6 @@
  11  1,5  - REAtA
  11  4,4  | RECcE
  11  4,4  | RECtA
- 11  4,5  - fAE
  11  7,7  - hA
  11  7,7  - hE
  11  7,7  - hR
@@ -329,7 +310,6 @@
  10  4,2  | bARACA
  10  4,2  | bARECA
  10  4,4  | cACARA
- 10  7,5  | cQ
  10  6,2  | cREEN
  10  6,2  | dAREN
  10  6,2  | dEARN
@@ -355,7 +335,6 @@
  10  4,2  | sEARCE
  10  6,2  | tREEN
  10  6,2  | vARAN
- 10  6,2  | wEREN
  10  4,4  | yACARE
  10  6,2  | yEARN
   9  4,5  | ACARa
@@ -518,7 +497,6 @@
   8  4,5  | ACcE
   8  4,5  | ACeR
   8  4,5  | AChE
-  8  4,5  | AClE
   8  4,5  | ACmE
   8  4,5  | ACnE
   8  4,5  | ACoR
@@ -605,11 +583,9 @@
   8  4,6  | CuRE
   8  4,6  | CzAR
   8  4,4  | EACh
-  8  1,7  - EARl
   8  4,5  | ECcA
   8  4,5  | ECcE
   8  4,5  | EChE
-  8  1,7  - ERAl
   8  1,5  - ERAt
   8  4,3  | ERiC
   8  4,3  | ERuC
@@ -620,15 +596,12 @@
   8  4,4  | RACh
   8  4,4  | RACk
   8  4,4  | RACy
-  8  1,7  - REAl
   8  1,7  - REAp
   8  4,4  | REC
   8  4,4  | RECd
   8  4,4  | RECk
   8  4,4  | RECs
   8  4,4  | RECt
-  8  1,5  - REEf
-  8  1,7  - REEl
   8  1,5  - REEt
   8  4,2  | REfACE
   8  4,2  | RElACE
@@ -650,7 +623,6 @@
   8  4,3  | wAAC
   7  5,5  - AA
   7  2,7  - AAh
-  7  2,7  - AAl
   7  4,5  | ACAlE
   7  4,5  | ACAnA
   7  4,5  | ACArA
@@ -668,7 +640,6 @@
   7  6,3  | ARaNEAE
   7  2,5  - ARc
   7  2,7  - ARc
-  7  2,5  - ARf
   7  2,5  - ARt
   7  4,2  | ARuAC
   7  4,3  | AbACA
@@ -723,9 +694,6 @@
   7  4,6  | CuE
   7  4,6  | CuR
   7  2,5  - EAt
-  7  2,7  - EEl
-  7  2,5  - ERf
-  7  4,4  | EnC
   7  4,4  | EsC
   7  4,4  | EtC
   7  2,7  - RAh
@@ -734,16 +702,13 @@
   7  4,2  | REbEC
   7  2,5  - REc
   7  2,7  - REc
-  7  2,5  - REf
   7  2,7  - REh
-  7  2,7  - REl
   7  2,7  - REp
   7  2,5  - REt
   7  4,4  | ReC
   7  4,4  | RiC
   7  4,4  | RoC
   7  6,3  | aRANEAE
-  7  4,5  - fA
   7  6,3  | lERNAEA
   7  4,5  - tA
   6  4,5  | ACAd
@@ -781,7 +746,6 @@
   6  6,3  | ARaNEA
   6  6,3  | AReNAE
   6  3,7  - Ah
-  6  3,7  - Al
   6  4,3  | AlEC
   6  5,1  | ApARAI
   6  5,3  | ArAIRE
@@ -829,9 +793,7 @@
   6  5,3  | EAsIER
   6  4,5  | ECAd
   6  4,5  | ECRu
-  6  3,5  - Ef
   6  3,7  - Eh
-  6  3,7  - El
   6  4,3  | ElEC
   6  5,3  | EpEIRA
   6  3,5  - Et
@@ -844,7 +806,6 @@
   6  6,4  | RENAmE
   6  6,4  | RENAtE
   6  5,3  | REdIAE
-  6  3,5  - Rf
   6  6,3  | RhENEA
   6  6,3  | aRANEA
   6  4,4  | aRCA
@@ -1077,7 +1038,6 @@
   5  5,5  - bE
   5  5,7  - bE
   5  4,4  | bEC
-  5  6,3  | bERNE
   5  6,4  | cANER
   5  6,3  | cARNE
   5  6,3  | cRANE
@@ -1116,13 +1076,15 @@
   5  6,4  | kANAE
   5  6,3  | kEENA
   5  6,3  | kERNE
+  5  5,5  - lA
   5  4,4  | lAC
-  5  4,5  | lCA
   5  5,5  - mA
   5  6,3  | mAANA
   5  4,4  | mAC
   5  5,5  - mE
+  5  5,5  - nA
   5  5,7  - nA
+  5  5,5  - nE
   5  5,7  - nE
   5  4,5  | oCA
   5  5,5  - oE
@@ -1244,10 +1206,7 @@
   4  6,3  | AzAN
   4  4,6  | Cc
   4  4,6  | Ch
-  4  4,6  | Cl
   4  4,6  | Cp
-  4  4,6  | Cq
-  4  6,4  | EAN
   4  5,3  | EAdI
   4  6,3  | EArN
   4  6,4  | EEN
@@ -1452,7 +1411,6 @@
   4  5,4  | fAIRE
   4  6,4  | fANA
   4  6,4  | fANE
-  4  4,5  | fC
   4  5,3  | fERIA
   4  5,3  | fERIE
   4  6,3  | fERN
@@ -1597,7 +1555,6 @@
   3  5,5  | EIlA
   3  5,5  | EIrE
   3  6,5  | EN
-  3  6,5  | ENc
   3  6,5  | ENd
   3  6,5  | ENg
   3  6,5  | ENs
@@ -1607,7 +1564,6 @@
   3  5,4  | ERIk
   3  5,4  | ERIn
   3  5,4  | ERIs
-  3  6,4  | EaN
   3  6,4  | EeN
   3  5,4  | ElIA
   3  5,4  | EmIR
@@ -1626,7 +1582,6 @@
   3  6,6  | NA
   3  6,6  | NAa
   3  6,6  | NAb
-  3  6,6  | NAd
   3  6,6  | NAe
   3  6,6  | NAf
   3  6,6  | NAg
@@ -1723,7 +1678,6 @@
   3  5,5  | dIER
   3  5,5  | dIRE
   3  5,4  | dRIE
-  3  6,4  | eAN
   3  6,4  | eEN
   3  5,5  | eIRE
   3  5,4  | eRIA
@@ -1852,7 +1806,6 @@
   2  5,6  | IkE
   2  5,6  | IlA
   2  5,6  | IlE
-  2  5,6  | ImA
   2  5,6  | IpR
   2  5,6  | IrA
   2  5,6  | IrE
@@ -1863,6 +1816,7 @@
   2  5,6  | IwA
   2  6,6  | Na
   2  6,6  | Ne
+  2  6,6  | Ni
   2  6,6  | No
   2  6,6  | Nu
   2  5,5  | RIa
@@ -1948,7 +1902,9 @@
   1  5,5  | gI
   1  5,5  | hI
   1  5,5  | kI
+  1  5,5  | lI
   1  5,5  | mI
+  1  5,5  | nI
   1  5,5  | oI
   1  5,5  | pI
   1  5,5  | qI

@@ -129,6 +129,7 @@
  28  2,8  - vIXEN
  27  3,6  | EXoLVE
  27  9,6  | ILlITE
+ 27 10,8  | LEX
  27 10,1  | LuXE
  27  8,10 - VETs
  27  8,10 - VIEs
@@ -140,6 +141,7 @@
  26 10,1  | EXLa
  26  2,8  | EXeC
  26  5,9  - FELIX
+ 26 10,8  | LuXE
  26  2,7  | VELIC
  26 10,1  | VELeTA
  26  7,3  | VITAE
@@ -163,6 +165,9 @@
  24  7,3  | EXeAT
  24  9,6  | IThIEL
  24  2,7  | LaVIC
+ 24 10,8  | LaX
+ 24 10,8  | LeX
+ 24 10,8  | LuX
  24 10,8  | TEX
  24 10,8  | TEXt
  24  3,5  | TEXtILE
@@ -185,7 +190,9 @@
  23  3,6  | EXaLTE
  23  9,6  | IXTLE
  23  5,7  - JOLEs
+ 23 10,8  | LEVI
  23 10,1  | LIVE
+ 23 10,8  | LIVE
  23  9,3  | LIXIvE
  23  9,5  | LIXIvE
  23  7,3  | LoVAT
@@ -204,6 +211,8 @@
  23 10,8  | fIXE
  23 10,8  | fIXT
  23 10,8  | mIXT
+ 23 10,8  | nEXT
+ 23 10,8  | nIXE
  23 10,8  | sEXT
  23  3,5  | sEXTILE
  23  7,2  | sILVAE
@@ -222,6 +231,7 @@
  22  9,3  | LEXIa
  22  9,3  | LEXIc
  22  9,3  | LEXIs
+ 22  4,8  | LI
  22  2,8  - LIVENEd
  22  2,8  - LIVENEr
  22  9,4  | ThIXLE
@@ -262,13 +272,21 @@
  21  9,6  | IoLITE
  21  8,10 - LEIs
  21  8,10 - LETs
+ 21 10,8  | LEV
  21  2,8  - LEVEN
+ 21 10,8  | LEVa
+ 21 10,8  | LEVe
+ 21 10,8  | LEVi
+ 21 10,8  | LEVo
+ 21 10,8  | LEVy
  21  7,1  | LEXIcA
  21  1,8  - LEaVEN
  21  8,10 - LIEs
  21  8,10 - LITs
+ 21 10,8  | LIV
  21  2,8  - LIVEN
  21  2,8  - LIVENs
+ 21 10,8  | LIVe
  21 10,1  | LaVE
  21 10,1  | LeVE
  21 10,1  | LiVE
@@ -310,9 +328,11 @@
  21  9,4  | iXIL
  21 10,8  | kEX
  21  4,8  | kILP
+ 21 10,8  | lEX
  21 10,8  | mIX
  21  9,3  | mIXITE
  21  9,5  | mIXITE
+ 21 10,8  | nIX
  21 10,8  | pIX
  21 10,8  | sEX
  21 10,8  | sIX
@@ -338,9 +358,15 @@
  20 10,1  | LEVe
  20 10,1  | LEVo
  20 10,1  | LIVe
+ 20 10,8  | LaVE
+ 20 10,8  | LeVE
  20  2,8  - LeVEN
+ 20 10,8  | LeVI
+ 20  4,8  | Li
+ 20 10,8  | LiVE
  20  2,8  - LiVEN
  20  8,6  | MoVE
+ 20  7,5  - TELaE
  20  7,9  | ToX
  20 10,1  | VELa
  20 10,1  | VELo
@@ -470,7 +496,6 @@
  18  5,7  - JOEy
  18  5,7  - JOIe
  18  5,7  - JOTa
- 18  5,7  - JObE
  18  5,7  - JOiE
  18  5,7  - JOlE
  18  5,7  - JOnI
@@ -483,9 +508,13 @@
  18  9,5  | LIVIEr
  18  3,6  | LIXiVE
  18  9,3  | LaTIVE
+ 18 10,8  | LaV
+ 18 10,8  | LeV
  18  9,3  | LeVITE
+ 18 10,8  | LiV
  18  3,6  | LiXIVE
  18  3,6  | LuXIVE
+ 18  7,5  - TEL
  18  2,7  | TELIC
  18 10,8  | TIVy
  18  7,3  | TeLAE
@@ -524,6 +553,8 @@
  18  3,8  - oVEN
  18  2,9  | sVC
  17  7,6  | AEs
+ 17  8,5  - ELlE
+ 17  8,5  - ELnE
  17  9,3  | EXTILl
  17  8,2  | EXTIMa
  17  8,2  | EXTIMe
@@ -589,7 +620,10 @@
  17 10,8  | hIVE
  17 10,2  | iVE
  17 10,8  | kIEV
+ 17 10,8  | lEVI
+ 17 10,8  | lIVE
  17  9,5  | mIX
+ 17 10,8  | nEVI
  17  9,5  | nIX
  17  9,5  | pIX
  17  7,3  | pLEAT
@@ -638,7 +672,10 @@
  16  2,10 - TE
  16  2,7  | TELiC
  16  4,8  | TI
+ 16  7,5  - TaL
+ 16  7,5  - TeL
  16  2,7  | TeLIC
+ 16  7,5  - ToL
  16  9,3  | VELIc
  16  3,7  | VELtE
  16  8,2  | VELuM
@@ -665,6 +702,7 @@
  16  9,3  | aLVITE
  16  1,10 - aTE
  16  9,4  | aVILE
+ 16  7,5  - bEL
  16  9,3  | bEVIL
  16  7,4  | bLAE
  16  7,4  | bLAT
@@ -673,11 +711,14 @@
  16  7,4  | cLAT
  16  9,4  | cLIVE
  16  1,10 - cTE
+ 16  7,5  - dEL
  16  9,3  | dEVIL
  16  9,5  | dIVEL
  16  7,4  | fLAT
  16  1,10 - gTE
+ 16  7,5  - hEL
  16  9,3  | kEVIL
+ 16  7,5  - mEL
  16  2,7  | mELIC
  16  3,6  | mELVIE
  16  2,7  | oLEIC
@@ -691,12 +732,14 @@
  16  7,4  | sLAE
  16  7,4  | sLAT
  16  9,4  | sLIVE
+ 16  7,5  - tEL
  16  2,7  | tELIC
  16  3,5  | uLEXITE
  16  1,10 - uTE
  16  2,7  | vELIC
  16  7,3  | vITAE
  15  7,5  | EAT
+ 15  8,5  - EL
  15  7,1  | ELVIrA
  15  9,3  | ELVIs
  15  1,10 - ETa
@@ -719,6 +762,7 @@
  15  4,8  - LENVoI
  15  8,4  | LIMpET
  15 10,1  | LITE
+ 15 10,8  | LITE
  15  9,5  | LIV
  15  9,5  | LIVe
  15  9,3  | LeVI
@@ -762,6 +806,8 @@
  15  9,5  | hIVITE
  15  7,4  | kEAT
  15  7,4  | lEAT
+ 15 10,8  | lEV
+ 15 10,8  | lIV
  15  7,4  | mEAT
  15  7,4  | mIAE
  15  7,4  | nEAT
@@ -785,7 +831,7 @@
  14 10,9  | EVg
  14  3,7  | EXITE
  14  1,8  - EXIgENT
- 14  1,10 - EfT
+ 14  3,7  | EnVIE
  14  9,2  | ILVaITE
  14  1,10 - IT
  14  9,4  | IVIEd
@@ -796,7 +842,6 @@
  14 10,9  | IVe
  14 10,9  | IVy
  14  1,10 - IcE
- 14  1,10 - IfE
  14  4,9  | IhP
  14  4,9  | ImP
  14 10,9  | InV
@@ -855,7 +900,6 @@
  14  9,5  | cIVET
  14  9,3  | cIVIE
  14  9,5  | cIVIE
- 14  7,5  | dAE
  14  7,5  | dAT
  14  9,5  | dIVET
  14  7,5  | eAT
@@ -903,6 +947,7 @@
  13  7,1  | EXTImA
  13  3,7  | EXiLE
  13  2,8  - EXtENT
+ 13  8,5  - ElLE
  13  8,5  - EoLE
  13  7,9  | EpI
  13 10,2  | ILE
@@ -912,28 +957,73 @@
  13  9,2  | InVEIL
  13 10,1  | IsLE
  13 10,1  | IzLE
+ 13 10,8  | LEI
+ 13 10,8  | LEIf
+ 13 10,8  | LEIs
  13  4,8  - LENITy
  13  4,8  - LENTEn
  13  4,8  - LENTIc
  13  4,8  - LENTIl
+ 13 10,8  | LET
+ 13 10,8  | LETs
+ 13 10,8  | LETt
  13  8,8  - LEVI
  13  3,6  | LEVITE
  13  7,2  | LEXiA
+ 13 10,8  | LEaT
+ 13 10,8  | LEcT
+ 13 10,8  | LEeT
+ 13 10,8  | LEfT
+ 13 10,8  | LEhI
+ 13 10,8  | LEnT
+ 13 10,8  | LEsT
+ 13 10,8  | LEtT
+ 13 10,8  | LEvI
  13 10,2  | LIE
+ 13 10,8  | LIE
  13  3,7  | LIEVE
+ 13 10,8  | LIEd
+ 13 10,8  | LIEf
+ 13 10,8  | LIEn
+ 13 10,8  | LIEr
+ 13 10,8  | LIEs
+ 13 10,8  | LIEu
  13  3,9  - LIFElET
+ 13 10,8  | LIT
+ 13 10,8  | LITe
+ 13 10,8  | LITh
+ 13 10,8  | LITi
+ 13 10,8  | LITs
+ 13 10,8  | LITu
+ 13 10,8  | LITz
  13 10,1  | LIcE
+ 13 10,8  | LIcE
  13 10,1  | LIdE
+ 13 10,8  | LIdE
  13 10,1  | LIfE
+ 13 10,8  | LIfE
+ 13 10,8  | LIfT
  13 10,1  | LIgE
+ 13 10,8  | LIgE
  13 10,1  | LIkE
+ 13 10,8  | LIkE
  13 10,1  | LIlE
+ 13 10,8  | LIlE
+ 13 10,8  | LIlT
  13 10,1  | LImE
+ 13 10,8  | LImE
  13 10,1  | LInE
+ 13 10,8  | LInE
+ 13 10,8  | LInT
  13 10,1  | LIrE
+ 13 10,8  | LIrE
  13 10,1  | LIsE
+ 13 10,8  | LIsE
+ 13 10,8  | LIsT
  13 10,1  | LItE
+ 13 10,8  | LItE
  13 10,1  | LIvE
+ 13 10,8  | LIvE
  13 10,1  | LaTE
  13 10,1  | LiTE
  13 10,1  | LuTE
@@ -996,12 +1086,14 @@
  13 10,3  | VoTA
  13 11,4  | WESKITs
  13 10,1  | aILE
+ 13  8,5  - aL
  13  3,6  | aLVITE
  13 10,1  | aTLE
  13 10,9  | aVE
  13  9,4  | aVIE
  13  3,7  | aXILE
  13 10,1  | bILE
+ 13  8,5  - eL
  13 10,9  | eVE
  13  3,7  | eXILE
  13 10,1  | fILE
@@ -1040,6 +1132,7 @@
  12  8,3  | ELyMI
  12  8,5  | EMIL
  12  8,5  | EMILy
+ 12  5,8  - ENVIE
  12  2,9  | ETC
  12  9,4  | EVIl
  12  3,8  | EVoE
@@ -1068,6 +1161,7 @@
  12  7,5  - LEd
  12  7,5  - LEg
  12  7,5  - LEk
+ 12  7,5  - LEn
  12  7,5  - LEo
  12  7,5  - LEp
  12  7,5  - LEt
@@ -1083,13 +1177,22 @@
  12 10,1  | LITe
  12  9,5  | LIeVE
  12  2,9  | LaC
+ 12 10,8  | LaET
+ 12 10,8  | LaIT
+ 12 10,8  | LaTE
+ 12 10,8  | LaTI
+ 12 10,8  | LeET
  12  8,8  - LeVI
  12  7,2  | LeXIA
  12  3,7  | LiEVE
+ 12 10,8  | LiTE
+ 12 10,8  | LiTI
  12  2,9  | LoC
  12  7,2  | LoXIA
  12  2,9  | LsC
  12  2,9  | LuC
+ 12 10,8  | LuTE
+ 12 10,8  | LwEI
  12  2,9  | LyC
  12  8,6  | MELIa
  12  8,6  | MELIc
@@ -1212,7 +1315,6 @@
  12  8,3  | eLEMI
  12  1,10 - eT
  12  3,7  | eXITE
- 12  2,10 - fE
  12  7,5  - fET
  12  9,5  | fIVE
  12  2,8  | gEIC
@@ -1253,6 +1355,7 @@
  11  3,8  | ELVE
  11  8,3  | ELeM
  11  8,5  | EMiL
+ 11  5,8  - ENVIe
  11  8,5  - ET
  11  8,7  - ET
  11  3,7  | EVITE
@@ -1271,7 +1374,22 @@
  11  8,4  | LEMe
  11  7,3  | LEVA
  11  3,6  | LEViTE
+ 11 10,8  | LEa
  11  3,7  | LEaVE
+ 11 10,8  | LEd
+ 11 10,8  | LEe
+ 11 10,8  | LEg
+ 11 10,8  | LEi
+ 11 10,8  | LEk
+ 11 10,8  | LEn
+ 11 10,8  | LEo
+ 11 10,8  | LEp
+ 11 10,8  | LEr
+ 11 10,8  | LEt
+ 11 10,8  | LEu
+ 11 10,8  | LEv
+ 11 10,8  | LEx
+ 11 10,8  | LEy
  11  2,9  - LIEFEsT
  11  3,8  - LIENeE
  11  8,4  | LIM
@@ -1283,7 +1401,21 @@
  11  8,4  | LIMp
  11  8,4  | LIMu
  11  8,4  | LIMy
+ 11 10,8  | LIb
+ 11 10,8  | LId
+ 11 10,8  | LIe
  11  3,7  | LIeVE
+ 11 10,8  | LIf
+ 11 10,8  | LIg
+ 11 10,8  | LIm
+ 11 10,8  | LIn
+ 11 10,8  | LIp
+ 11 10,8  | LIq
+ 11 10,8  | LIr
+ 11 10,8  | LIs
+ 11 10,8  | LIt
+ 11 10,8  | LIv
+ 11 10,8  | LIz
  11  8,4  | LaME
  11  3,6  | LaTIVE
  11  7,1  | LaTVIA
@@ -1297,6 +1429,7 @@
  11 10,2  | LuE
  11  3,8  | LuXE
  11 10,2  | LyE
+ 11  9,5  - LyE
  11  8,6  | MEL
  11  8,6  | MELa
  11  8,6  | MELd
@@ -1367,6 +1500,7 @@
  11  3,6  | VITtLE
  11  9,5  | VIa
  11  9,5  | VIc
+ 11  9,5  | VId
  11  9,5  | VIe
  11  9,5  | VIi
  11  9,5  | VIl
@@ -1436,6 +1570,8 @@
  11 10,1  | kITE
  11  8,5  | kMEL
  11  3,6  | lEVITE
+ 11 10,8  | lILE
+ 11 10,8  | lILT
  11 10,1  | lITE
  11  9,5  | lIV
  11 10,8  | mELT
@@ -1443,7 +1579,9 @@
  11 10,8  | mILT
  11 10,1  | mITE
  11  8,9  - mIXT
+ 11 10,8  | nEIL
  11  8,9  - nEXT
+ 11 10,8  | nILE
  11  3,8  | nIXE
  11 10,2  | oLE
  11  7,2  | oLIVA
@@ -1494,10 +1632,8 @@
  10  5,8  - ENgLE
  10 10,4  | ETA
  10  3,7  | EVItE
- 10  1,10 - Ef
  10  2,8  - ElLEN
  10  2,8  - EmLEN
- 10  2,9  | EnC
  10  2,9  | EsC
  10  3,6  | EsTIVE
  10  1,10 - Et
@@ -1516,7 +1652,6 @@
  10 10,2  | ILe
  10  8,5  | IMpEL
  10 10,1  | ITEa
- 10  1,10 - If
  10  9,3  | IlLITE
  10  2,9  | InC
  10  9,3  | IoLITE
@@ -1543,14 +1678,23 @@
  10  3,9  - LIFEy
  10  3,8  | LIVE
  10 10,2  | LIe
+ 10 10,8  | LaI
  10  8,4  | LaM
- 10 10,3  | LaTA
+ 10 10,8  | LaT
  10  7,3  | LaVA
  10  8,4  | LcM
+ 10 10,8  | LeE
+ 10 10,8  | LeI
+ 10 10,8  | LeT
  10  7,3  | LeVA
+ 10 10,8  | LiE
  10  8,4  | LiM
+ 10 10,8  | LiT
  10 10,3  | LoTA
+ 10 10,8  | LuE
+ 10 10,8  | LuI
  10  8,4  | LuM
+ 10 10,8  | LuT
  10  8,4  | LwM
  10  8,4  | LyM
  10  8,6  | MEILe
@@ -1576,8 +1720,10 @@
  10  7,5  - TEa
  10  7,5  - TEd
  10  7,5  - TEg
+ 10  7,5  - TEl
  10 10,8  | TElI
  10  7,5  - TEm
+ 10  7,5  - TEn
  10 10,8  | TErI
  10  7,5  - TEx
  10 10,8  | TIE
@@ -1646,6 +1792,7 @@
  10  7,3  | iXIA
  10 10,3  | kETA
  10  4,8  | kI
+ 10  4,8  | lI
  10 10,3  | mETA
  10  4,8  | mI
  10  3,8  - oLENT
@@ -1687,8 +1834,8 @@
   9  3,6  | ELTImE
   9  8,5  | EMIT
   9  8,5  | EMITs
+  9  5,8  - ENViE
   9  5,8  - ENVoI
-  9  5,8  - ENcL
   9  5,8  - ENgL
   9  5,8  - ENoL
   9  8,2  | ETIaM
@@ -1822,7 +1969,6 @@
   9  9,8  - XxI
   9  7,2  | aEVIA
   9 10,8  | aIL
-  9  1,8  - aILEEN
   9  3,8  - aLEN
   9  3,9  - aLFET
   9  2,8  - aLIENE
@@ -1870,7 +2016,6 @@
   9  8,3  | hELM
   9 10,2  | hIE
   9  8,5  - hT
-  9  8,7  - hT
   9  8,7  - iT
   9 10,2  | kIE
   9 10,8  | kIL
@@ -1880,11 +2025,14 @@
   9  4,8  - lENTIL
   9 10,2  | lIE
   9  3,7  | lIEVE
+  9 10,8  | lITE
   9 10,8  | mEL
   9 10,8  | mIL
   9 10,8  | mITE
   9  9,7  - nEK
+  9 10,8  | nETI
   9  3,7  | nIEVE
+  9 10,8  | nIL
   9  9,7  - oIK
   9 10,8  | oIL
   9 10,2  | pIE
@@ -1984,6 +2132,7 @@
   8  8,8  - LEhI
   8  8,8  - LEvI
   8  3,6  | LEvITE
+  8 10,8  | LI
   8  3,8  - LIEN
   8  3,8  - LIENs
   8  3,7  | LIEgE
@@ -2149,7 +2298,6 @@
   8  9,4  | eLITE
   8  8,5  | eMIT
   8 10,4  | eTA
-  8  2,10 | fC
   8  4,8  - fENITE
   8  9,5  | fILET
   8  3,8  | fIVE
@@ -2213,6 +2361,7 @@
   7  5,8  - ENTIa
   7  5,8  - ENaTE
   7  5,8  - ENtTE
+  7  5,8  - ENvIE
   7  3,8  - ETEN
   7  7,4  | EVA
   7  8,4  | EaM
@@ -2226,10 +2375,12 @@
   7  8,7  - Ef
   7  8,5  - Eh
   7  3,6  | EhLITE
+  7  8,5  - El
   7  8,4  | ElM
   7  3,8  | ElVE
   7  8,5  - Em
   7  8,4  | EmM
+  7  8,5  - En
   7  8,7  - En
   7  8,5  - Eo
   7  8,7  - Eo
@@ -2313,7 +2464,6 @@
   7  8,6  | MIlL
   7  8,6  | MaE
   7  8,6  | MaT
-  7  8,6  | MeE
   7  8,6  | MeT
   7  8,6  | MgT
   7  8,6  | MiT
@@ -2458,15 +2608,22 @@
   7 10,8  | kIE
   7 10,8  | kIT
   7  7,3  | kIVA
+  7 10,8  | lEI
+  7 10,8  | lET
   7  7,3  | lEVA
   7  8,8  - lEVI
+  7 10,8  | lIE
+  7 10,8  | lIT
   7  8,4  - lLEW
   7  7,5  - mE
   7 10,8  | mET
   7 10,8  | mIT
   7  7,5  - nE
+  7 10,8  | nEI
   7  9,4  | nEIL
+  7 10,8  | nET
   7  8,8  - nEVI
+  7 10,8  | nIT
   7  9,5  - oLE
   7  7,5  - pE
   7  4,10 - pED
@@ -2659,13 +2816,16 @@
   6  2,8  - LIvEN
   6  7,3  | LIzA
   6 10,3  | La
+  6 10,8  | La
   6  9,2  | LaETI
-  6  7,3  | LaTA
   6  9,4  - LaW
+  6 10,8  | Lb
   6  9,4  - LbW
+  6 10,8  | Li
   6 10,3  | Lo
   6  7,3  | LoTA
   6  9,4  - LoW
+  6 10,8  | Lu
   6  9,4  | LuITE
   6  8,6  | MEaT
   6  8,6  | MEeT
@@ -2751,7 +2911,6 @@
   6  8,9  - bLIT
   6  3,7  | bLITE
   6  3,7  | cEILE
-  6  7,2  | cELIA
   6  3,8  | cLEE
   6  8,9  - cLIT
   6  3,7  | cLITE
@@ -2927,7 +3086,6 @@
   5  7,3  | ILkA
   5  9,6  | ILl
   5  7,3  | ILyA
-  5  8,5  | IMa
   5  8,5  | IMi
   5  8,5  | IMp
   5  8,5  | IMu
@@ -2960,6 +3118,7 @@
   5  8,9  - LEsT
   5  8,9  - LEtT
   5  3,8  | LEvE
+  5  9,5  | LI
   5  9,4  | LIIn
   5  9,5  | LIb
   5  3,8  | LIcE
@@ -3009,7 +3168,6 @@
   5  8,6  | ME
   5  8,6  | MEa
   5  8,6  | MEd
-  5  8,6  | MEe
   5  8,6  | MEg
   5  8,6  | MEh
   5  8,6  | MEl
@@ -3297,7 +3455,6 @@
   4  8,6  | Ma
   4  8,6  | Mb
   4  8,6  | Me
-  4  8,6  | Mh
   4  8,6  | Mi
   4  8,6  | Mm
   4  8,6  | Mo
@@ -3435,7 +3592,6 @@
   4  9,5  | gITE
   4  3,8  | gITE
   4  7,3  | gLIA
-  4  8,5  | gM
   4 10,8  | hE
   4  7,10 | hE
   4  9,3  | hEII
@@ -3459,6 +3615,7 @@
   4  4,8  - lENE
   4  4,8  - lENT
   4  8,9  - lETT
+  4 10,8  | lI
   4  7,3  | lILA
   4  9,5  | lITE
   4  3,8  | lITE
@@ -3475,10 +3632,12 @@
   4  3,8  | mITE
   4  8,9  - mITT
   4  8,5  | mM
+  4 10,8  | nE
   4  4,8  - nENE
   4  3,8  | nETE
   4  9,3  | nETI
   4  8,9  - nETT
+  4 10,8  | nI
   4 10,8  | oE
   4  7,10 | oE
   4 10,8  | oI
@@ -3544,7 +3703,6 @@
   4 10,8  | yI
   4  9,5  | yITE
   4  3,8  | yITE
-  4  8,5  | yM
   4  7,3  | zILA
   4  9,3  | zITI
   4  9,5  | zITI
@@ -3552,7 +3710,6 @@
   3  5,10 - EDo
   3  5,10 - EDp
   3  9,5  | EIr
-  3  5,8  - ENc
   3  5,8  - ENd
   3  5,8  - ENg
   3  5,8  - ENs
@@ -3598,9 +3755,9 @@
   3  9,9  - IsT
   3  3,9  | IvE
   3  7,5  | LA
+  3 10,8  - LI
   3  9,4  | LaI
   3  9,8  - LaI
-  3  7,4  | LcA
   3  7,4  | LeA
   3  9,4  | LeI
   3  9,8  - LeI
@@ -3793,7 +3950,6 @@
   2  9,6  | IkE
   2  7,4  | IlA
   2  9,6  | IlE
-  2  7,4  | ImA
   2  9,4  | ImI
   2  9,6  | ImI
   2  9,8  - ImI
@@ -3900,7 +4056,6 @@
   2 10,5  | mA
   2 10,5  - mE
   2  7,4  | mEA
-  2  3,9  | mEE
   2  9,9  - mET
   2  7,4  | mIA
   2  9,9  - mIT
@@ -3954,7 +4109,6 @@
   2  7,4  | vIA
   2  3,9  | vIE
   2  9,8  - vII
-  2  7,4  | wEA
   2  3,9  | wEE
   2  9,8  - wEI
   2  9,9  - wET
@@ -4007,12 +4161,16 @@
   1  9,5  | kI
   1 10,8  - kI
   1  7,5  | lA
+  1  9,5  | lI
+  1 10,8  - lI
   1  7,5  | mA
   1  3,10 | mE
   1  9,5  | mI
   1 10,8  - mI
   1  7,5  | nA
   1  3,10 | nE
+  1  9,5  | nI
+  1 10,8  - nI
   1  3,10 | oE
   1  9,5  | oI
   1 10,8  - oI

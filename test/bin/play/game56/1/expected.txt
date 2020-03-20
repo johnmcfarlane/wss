@@ -86,7 +86,6 @@
  20  6,2  | FLIED
  20  6,5  - IFE
  20 10,2  | IFREAL
- 20  5,5  - ZEL
  20  5,5  - ZEN
  20  5,7  - ZEN
  19 10,3  | FILAZE
@@ -190,7 +189,6 @@
  15 11,2  | RIELs
  15 11,2  | RILEs
  15 11,3  | RINsE
- 15  6,3  | ZEND
  15  7,5  | ZUNI
  15 11,6  | sERIN
  15 11,6  | sIREN
@@ -237,7 +235,6 @@
  13  9,4  | INKER
  13 10,4  | IZAR
  13  9,6  | KILN
- 13 10,5  | LAZ
  13  4,5  - LIEN
  13  4,7  - LIEN
  13  3,5  - LIFE
@@ -288,6 +285,7 @@
  12  8,6  | MINE
  12  7,5  - NE
  12  7,7  - NE
+ 12  7,7  - NI
  12 11,3  | NIEs
  12  5,5  - NIL
  12  4,5  - REIN
@@ -484,6 +482,8 @@
   7  4,5  - LEI
   7  4,7  - LEI
   7  6,3  | LEND
+  7 10,5  - LI
+  7 10,7  - LI
   7 10,4  | LIANE
   7  4,5  - LIE
   7  4,7  - LIE
@@ -494,6 +494,8 @@
   7  4,5  - NEI
   7  4,7  - NEI
   7 10,3  | NERAL
+  7 10,5  - NI
+  7 10,7  - NI
   7  7,5  | NURL
   7 10,5  | RAFE
   7 10,5  | RAIF
@@ -536,6 +538,8 @@
   6 10,5  | LARN
   6 10,4  | LEAN
   6 10,3  | LENA
+  6  5,5  - LI
+  6  5,7  - LI
   6  6,4  | LIDE
   6  6,3  | LIED
   6 10,3  | LINA
@@ -547,6 +551,8 @@
   6  5,7  - NE
   6 10,4  | NEAL
   6  6,3  | NERD
+  6  5,5  - NI
+  6  5,7  - NI
   6  6,4  | NIDE
   6  7,4  | NIUE
   6  7,5  | NUL
@@ -644,7 +650,6 @@
   4  6,6  | DER
   4  6,6  | DIE
   4  6,6  | DIR
-  4 10,5  | EAN
   4 10,4  | ELA
   4 10,3  | ERIA
   4 10,5  | IAN

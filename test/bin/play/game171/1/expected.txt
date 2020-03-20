@@ -1237,6 +1237,7 @@
  16  7,7  - REIT
  16  1,5  - REKhTI
  16  1,7  - REKhTI
+ 16  3,7  - REKhTI
  16  6,2  | REaKS
  16  6,2  | REcKS
  16  6,2  | REeKS
@@ -1361,6 +1362,7 @@
  16  6,6  | SwIVE
  16 10,2  | TEKyA
  16  6,2  | TEaKS
+ 16  7,7  - TIER
  16  6,2  | TIKeS
  16  6,2  | TIKiS
  16 10,2  | TIKkA
@@ -1750,7 +1752,11 @@
  14  7,5  | RElIVE
  14  7,5  | REvIVE
  14  7,5  - RIEl
+ 14  7,7  - RIEl
  14  7,5  - RIEm
+ 14  7,7  - RIEm
+ 14  7,7  - RIEr
+ 14  7,7  - RIEs
  14  8,4  | RINKEr
  14  7,5  - RITa
  14  7,5  - RITz
@@ -1768,7 +1774,11 @@
  14  7,7  - TEIl
  14  7,5  | TEREK
  14  7,5  - TIEd
+ 14  7,7  - TIEd
  14  7,5  - TIEn
+ 14  7,7  - TIEn
+ 14  7,7  - TIEr
+ 14  7,7  - TIEs
  14  2,5  - TIKkER
  14  8,4  | TINKEr
  14  3,5  - TIVER
@@ -1777,6 +1787,7 @@
  14  2,5  - TInKER
  14  8,4  | TaNKER
  14  8,4  | TaNKIE
+ 14  7,7  - TiER
  14  8,4  | TiNKER
  14  8,4  | TuNKER
  14  8,3  | VEINeR
@@ -1818,19 +1829,25 @@
  14  2,5  - bREVIT
  14  2,7  - bREVIT
  14  7,5  | dERIVE
+ 14  7,7  - dIER
  14  7,5  - dIET
+ 14  7,7  - dIET
  14  6,5  - eRIE
  14  2,5  - gRIVET
  14  7,7  - hEIR
  14  7,1  | lEVITE
+ 14  7,7  - lIER
  14  7,5  - pIET
  14  2,5  - pRIVET
  14  7,5  - rEIT
  14  7,7  - rEIT
  14  8,3  | rEKNIT
+ 14  7,7  - rIER
  14  7,7  - sEIT
+ 14  7,7  - sIER
  14  7,2  | sKITER
  14  2,5  - sTIVER
+ 14  7,7  - tIER
  14  2,5  - tRIVET
  14  7,7  - wEIR
  13  9,6  | DaRK
@@ -1880,6 +1897,7 @@
  13  3,5  - KIRi
  13  5,5  - KIRi
  13  3,7  - KIRi
+ 13  5,7  - KIRi
  13  6,4  | KISlEV
  13  7,3  | KITE
  13  7,3  | KITEd
@@ -1905,12 +1923,14 @@
  13  8,1  | KaTRINE
  13  8,3  | KeRNITE
  13  5,5  - KiRI
+ 13  5,7  - KiRI
  13  5,5  - KiTE
  13  5,7  - KiTE
  13  7,3  | KiTER
  13  5,5  - KoRE
  13  5,7  - KoRE
  13  5,5  - KoRI
+ 13  5,7  - KoRI
  13  5,5  - KuEI
  13  5,5  - KuRI
  13  7,5  | REEsK
@@ -1919,6 +1939,7 @@
  13  5,5  - RETIa
  13  5,5  - RETIe
  13  7,5  - RIE
+ 13  7,7  - RIE
  13  8,4  | RINKiTE
  13  7,5  - RIT
  13  3,5  - RaKIT
@@ -1931,6 +1952,7 @@
  13  7,5  | TEReK
  13  7,5  | TErEK
  13  7,5  - TIE
+ 13  7,7  - TIE
  13  8,4  | TINKlER
  13  2,7  - TREVIs
  13  2,5  - TRIKEr
@@ -1988,6 +2010,7 @@
  13  3,5  - VITi
  13  5,5  - VITi
  13  3,7  - VITi
+ 13  5,7  - VITi
  13  5,5  - VIbE
  13  5,5  - VIdE
  13  5,7  - VIdE
@@ -2017,6 +2040,7 @@
  13  5,5  - ViTE
  13  5,7  - ViTE
  13  5,5  - ViTI
+ 13  5,7  - ViTI
  13  8,1  | ViTRINE
  13  5,5  - VoTE
  13  5,7  - VoTE
@@ -2226,6 +2250,8 @@
  12 11,3  | RIeL
  12 11,3  | RIlL
  12  7,5  - RIoT
+ 12  7,7  - RIoT
+ 12  7,7  - RIpE
  12 11,3  | RaIL
  12  9,4  | ReDIVE
  12 11,3  | ReEL
@@ -2247,7 +2273,10 @@
  12  2,5  - TIRVE
  12  3,5  - TIVEr
  12  3,5  - TIVeR
+ 12  7,7  - TIaR
+ 12  7,7  - TIeR
  12 11,3  | TIlL
+ 12  7,7  - TIpE
  12 11,3  | TIrL
  12  2,5  - TRIKE
  12  8,3  | TRINK
@@ -2387,14 +2416,15 @@
  11  7,4  | EKERITe
  11  8,2  | EKRoN
  11  8,5  | ENKI
+ 11  8,5  | ENVIe
  11  9,7  - ERa
  11  8,5  - ETa
  11  9,5  - ETa
  11  9,7  - ETa
- 11  9,5  - ETc
  11  8,5  - ETh
  11  8,5  - ETy
  11  7,5  - EaT
+ 11  9,7  - ElI
  11  8,5  | INKEd
  11  8,5  | INKEn
  11  8,5  | INKEr
@@ -2507,6 +2537,7 @@
  11  7,7  - ReE
  11  7,5  - ReT
  11  7,5  - RiE
+ 11  7,7  - RiE
  11  7,5  - RiT
  11  7,5  - RoE
  11  7,7  - RoE
@@ -2541,6 +2572,7 @@
  11  9,5  - ThE
  11  7,1  | ThIEVER
  11  7,5  - TiE
+ 11  7,7  - TiE
  11  7,5  - ToE
  11  7,7  - ToE
  11  7,5  - ToI
@@ -2624,6 +2656,7 @@
  11  8,3  | dEINK
  11  7,5  - dET
  11  7,5  - dIE
+ 11  7,7  - dIE
  11  9,2  | dIKED
  11  7,5  - dIT
  11  9,2  | dIVED
@@ -2633,9 +2666,11 @@
  11  8,7  - eIR
  11  4,5  - eKER
  11  7,4  | eKERITE
+ 11  8,5  | eNVIE
  11  4,5  - eVER
  11  7,5  - fET
  11  7,5  - fIE
+ 11  7,7  - fIE
  11  9,2  | fIKED
  11  7,5  - fIT
  11  2,5  - fRIKE
@@ -2644,6 +2679,7 @@
  11  7,7  - hEI
  11  7,5  - hET
  11  7,5  - hIE
+ 11  7,7  - hIE
  11  9,2  | hIKED
  11  7,5  - hIT
  11  9,2  | hIVED
@@ -2655,6 +2691,7 @@
  11  2,5  - kIRVE
  11  7,7  - lEI
  11  7,5  | lEVITER
+ 11  7,7  - lIE
  11  9,2  | lIKED
  11  9,2  | lIVED
  11  2,5  - lIVRE
@@ -2681,6 +2718,7 @@
  11  7,1  | rERIVET
  11  7,5  - rET
  11  7,5  - rIE
+ 11  7,7  - rIE
  11  7,5  - rIT
  11  9,2  | rIVED
  11  7,3  | rIVERET
@@ -2688,6 +2726,7 @@
  11  7,7  - sEI
  11  7,5  | sERTIVE
  11  7,5  | sERVITE
+ 11  7,7  - sIE
  11  8,2  | sKEIN
  11  4,5  - sKER
  11  4,5  - sKET
@@ -2699,6 +2738,7 @@
  11  4,7  - sTIRE
  11  2,5  - sTIVE
  11  7,5  - tIE
+ 11  7,7  - tIE
  11  2,5  - tIRVE
  11  7,5  - tIT
  11  2,5  - tRIKE
@@ -3336,6 +3376,7 @@
   9  9,6  | DIVa
   9  9,6  | DIVe
   9  9,6  | DIVi
+  9  9,6  | DIVs
   9  9,6  | DaVE
   9  9,6  | DeKE
   9  9,6  | DeVE
@@ -3382,6 +3423,7 @@
   9  8,7  - EiR
   9  7,3  | ElVER
   9  7,6  | ElVER
+  9  7,6  | EnVIE
   9  7,2  | EnVIER
   9  8,7  - EpI
   9  7,3  | EsKER
@@ -3406,6 +3448,7 @@
   9  8,4  | InNET
   9 10,3  | InTAKE
   9  3,5  - InTER
+  9  8,7  - IpR
   9 10,5  | KATIE
   9  9,4  | KED
   9  7,4  | KEERIe
@@ -3593,10 +3636,12 @@
   9  3,5  - RIVo
   9  3,7  - RIVo
   9  7,5  - RIa
+  9  7,7  - RIa
   9  5,5  - RIbE
   9  5,5  - RIdE
   9  5,7  - RIdE
   9  7,5  - RIe
+  9  7,7  - RIe
   9  5,5  - RIfE
   9  5,7  - RIfE
   9  5,7  - RIlE
@@ -3605,6 +3650,8 @@
   9  5,5  - RInE
   9  5,7  - RInE
   9  7,5  - RIo
+  9  7,7  - RIo
+  9  7,7  - RIp
   9  5,5  - RIpE
   9  5,7  - RIsE
   9  7,5  - RIt
@@ -3630,6 +3677,7 @@
   9  5,5  - RoTE
   9  5,7  - RoTE
   9  5,5  - RoTI
+  9  5,7  - RoTI
   9  7,3  | RoVET
   9 10,5  | TAKER
   9 10,5  | TARVE
@@ -3668,6 +3716,7 @@
   9  5,5  - TIdE
   9  5,7  - TIdE
   9  7,5  - TIe
+  9  7,7  - TIe
   9  3,5  - TIgER
   9  5,7  - TIlE
   9  3,5  - TIlER
@@ -3676,6 +3725,7 @@
   9  3,5  - TImER
   9  5,5  - TInE
   9  5,7  - TInE
+  9  7,7  - TIp
   9  5,5  - TIpE
   9  5,5  - TIrE
   9  5,7  - TIrE
@@ -3685,6 +3735,7 @@
   9  5,5  - TItE
   9  5,7  - TItE
   9  3,5  - TItER
+  9  7,7  - TIu
   9  3,5  - TIvER
   9 10,4  | TRAIK
   9 10,4  | TRAIKs
@@ -3722,6 +3773,7 @@
   9  5,5  - ToRE
   9  5,7  - ToRE
   9  5,5  - ToRI
+  9  5,7  - ToRI
   9  3,5  - TrIER
   9  7,2  | TrIKER
   9  8,3  | TrINK
@@ -3781,6 +3833,7 @@
   9  7,5  | VEtER
   9  7,5  | VExER
   9 10,4  | VIAToR
+  9  9,4  | VID
   9  9,4  | VIDe
   9  4,5  - VIE
   9 11,4  | VILE
@@ -3793,6 +3846,8 @@
   9 10,3  | VITAE
   9  7,2  | VITaE
   9  5,5  - VIa
+  9  5,5  - VId
+  9  5,7  - VId
   9  5,5  - VIe
   9  5,7  - VIe
   9  5,7  - VIl
@@ -3834,6 +3889,7 @@
   9  3,5  - aKRE
   9  7,2  | aRKIE
   9  9,5  - aTE
+  9  9,7  - aTI
   9 10,3  | aVIATE
   9  9,3  | aVID
   9  3,5  - aVIE
@@ -3928,6 +3984,8 @@
   9  3,5  - tIKE
   9  7,2  | tIRVE
   9  7,2  | tRIKE
+  9  9,7  - uRI
+  9  9,7  - uTI
   9  9,3  | uVID
   9  3,5  - uVRE
   9  7,2  | vERVE
@@ -4028,7 +4086,6 @@
   8 10,5  | EAVeR
   8  9,5  | EDIToR
   8  9,5  | EDIcT
-  8 10,3  | EImAK
   8  7,4  | EKER
   8  7,6  | EKeR
   8  7,6  | EKoI
@@ -4075,6 +4132,7 @@
   8  6,2  | EmITS
   8  7,6  | EnKI
   8 10,2  | EnTIA
+  8  7,2  | EnVIE
   8  6,5  - EpI
   8  6,2  | EpRIS
   8  7,3  | ErKE
@@ -4885,6 +4943,7 @@
   8 10,2  | gRETA
   8  6,2  | gRITS
   8 10,5  | hAVER
+  8  6,7  - hEI
   8  6,2  | hEIRS
   8 10,2  | hIERA
   8  7,3  | hIKER
@@ -5660,6 +5719,8 @@
   7  2,7  - TErRI
   7  7,5  | TEuK
   7  7,5  - TI
+  7  7,7  - TI
+  7 10,7  - TI
   7  9,4  | TIDE
   7  9,4  | TIDEd
   7  9,4  | TIDEs
@@ -5844,6 +5905,7 @@
   7  6,4  | VeST
   7 10,3  | VeTA
   7  6,3  | VeTS
+  7  9,4  | ViD
   7  7,4  | ViER
   7  6,3  | ViES
   7 11,4  | ViL
@@ -5893,7 +5955,6 @@
   7  4,5  - bIER
   7  7,3  | bIKE
   7  9,3  | bIRDE
-  7  8,3  | bIRNE
   7  6,4  | bISK
   7  9,2  | bITED
   7 11,5  | bLK
@@ -5949,6 +6010,7 @@
   7  6,4  | dISK
   7 10,3  | dIVA
   7  7,3  | dIVE
+  7  6,3  | dIVS
   7 11,4  | dKL
   7  7,4  | dREK
   7  8,3  | dRENT
@@ -6255,7 +6317,6 @@
   6 10,6  | AKa
   6 10,6  | AKe
   6 10,6  | AKo
-  6 10,6  | AKu
   6 10,6  | AVa
   6 10,6  | AVe
   6 10,6  | AVg
@@ -6403,6 +6464,7 @@
   6  9,3  | IcED
   6  8,4  | InNE
   6  8,5  - Io
+  6  8,7  - Io
   6  8,4  | IoNE
   6  9,3  | IrED
   6  9,2  | IrRED
@@ -6445,7 +6507,6 @@
   6  6,4  | KoS
   6 10,4  | KrA
   6  6,4  | KrS
-  6 10,4  | KuA
   6  7,4  | KuE
   6  7,4  | KyE
   6  8,6  | NEI
@@ -6992,7 +7053,6 @@
   6  9,4  | vIDE
   6  5,5  - vIE
   6  5,7  - vIE
-  6  5,5  - wER
   6  5,5  - wET
   6  9,4  | wIDE
   6  5,5  - wIR
@@ -7109,7 +7169,6 @@
   5  7,3  | EThER
   5  7,6  | EThER
   5  9,4  | EaDI
-  5  8,4  | EaN
   5  5,5  - EaR
   5  5,5  - EaT
   5  7,3  | EaTER
@@ -7499,7 +7558,6 @@
   5 11,4  | TaLER
   5  8,4  | TaN
   5  5,5  - TaR
-  5 10,5  - Tc
   5  7,5  - Te
   5 10,5  - Te
   5  7,7  - Te
@@ -7513,6 +7571,8 @@
   5  8,3  | ThINE
   5  7,3  | ThREE
   5  7,5  - Ti
+  5  7,7  - Ti
+  5 10,7  - Ti
   5  9,4  | TiDE
   5  9,4  | TiDI
   5  5,5  - TiE
@@ -7547,6 +7607,7 @@
   5  7,5  | aERIE
   5  7,5  - aI
   5  9,7  - aI
+  5 10,7  - aI
   5  3,5  - aIRE
   5  9,7  - aR
   5  9,3  | aRED
@@ -7567,6 +7628,7 @@
   5  3,7  - bERI
   5  6,4  | bESTIR
   5  7,5  - bI
+  5 10,7  - bI
   5  9,3  | bIRD
   5  6,4  | bISTER
   5  6,4  | bISTRE
@@ -7593,6 +7655,8 @@
   5  3,5  - dETI
   5  3,7  - dETI
   5  7,5  - dI
+  5  7,7  - dI
+  5 10,7  - dI
   5  9,3  | dIED
   5  9,3  | dIRD
   5  3,5  - dIRE
@@ -7618,11 +7682,13 @@
   5  7,2  | fERIE
   5  7,5  | fERIE
   5  7,5  - fI
+  5  7,7  - fI
   5  9,3  | fIED
   5 11,4  | fILER
   5 11,4  | fILET
   5  3,5  - fIRE
   5  6,4  | fISTER
+  5 10,7  - gI
   5  9,3  | gIED
   5 11,4  | gILET
   5  9,3  | gIRD
@@ -7635,6 +7701,8 @@
   5  7,7  - hE
   5  9,3  | hERD
   5  7,5  - hI
+  5  7,7  - hI
+  5 10,7  - hI
   5  9,3  | hIED
   5  3,5  - hIRE
   5  6,4  | hISTER
@@ -7646,6 +7714,8 @@
   5 10,5  - jE
   5  9,3  | kEID
   5  3,5  - kITE
+  5  7,7  - lI
+  5 10,7  - lI
   5  9,3  | lIED
   5 10,3  | lIRATE
   5  3,5  - lIRE
@@ -7661,6 +7731,8 @@
   5  7,2  | mETRE
   5  7,5  | mETRE
   5  7,5  - mI
+  5  7,7  - mI
+  5 10,7  - mI
   5 11,4  | mILER
   5 10,3  | mIRATE
   5  9,3  | mIRD
@@ -7677,11 +7749,15 @@
   5  7,5  | nETER
   5  3,5  - nETI
   5  3,7  - nETI
+  5  7,5  - nI
+  5  7,7  - nI
+  5 10,7  - nI
   5  7,2  | nITRE
   5  7,5  - oE
   5  7,7  - oE
   5  9,7  - oE
   5  7,5  - oI
+  5  7,7  - oI
   5  9,7  - oI
   5 11,4  | oILER
   5  9,7  - oR
@@ -7717,6 +7793,8 @@
   5  9,3  | sEID
   5  3,5  - sERI
   5  3,7  - sERI
+  5  7,7  - sI
+  5 10,7  - sI
   5  3,5  - sIRE
   5  7,2  | sIREE
   5  6,4  | sISTER
@@ -7732,6 +7810,8 @@
   5  3,5  - tERI
   5  3,7  - tERI
   5  7,5  - tI
+  5  7,7  - tI
+  5 10,7  - tI
   5  9,3  | tIED
   5 11,4  | tILER
   5  3,5  - tIRE
@@ -7760,12 +7840,15 @@
   5  6,4  | wISTER
   5  3,5  - wITE
   5  7,2  | wRITE
+  5  7,7  - xI
+  5 10,7  - xI
   5  7,5  - yE
   5 10,5  - yE
   5  9,3  | yERD
   5  3,5  - yETI
   5  3,7  - yETI
   5  7,5  - yI
+  5 10,7  - yI
   5  9,3  | yIRD
   5  3,5  - yITE
   4 10,6  | AIRE
@@ -8669,6 +8752,7 @@
   4  8,4  | vENT
   4  6,3  | vERST
   4  7,3  | vETER
+  4  9,4  | vID
   4  4,5  - vIE
   4 11,4  | vILE
   4  8,4  | vINE
@@ -8796,7 +8880,6 @@
   3 10,6  | AvER
   3 10,6  | AvIE
   3 10,6  | AyRE
-  3  9,6  | DaE
   3  9,6  | DaR
   3  9,6  | DaT
   3  9,6  | DdT
@@ -8848,7 +8931,6 @@
   3 11,5  | ELs
   3 11,5  | ELt
   3  8,5  | EN
-  3  8,5  | ENc
   3  8,5  | ENd
   3  8,5  | ENg
   3  8,5  | ENs
@@ -8894,7 +8976,6 @@
   3 10,3  | ETnA
   3 10,3  | ETtA
   3 10,3  | ETuA
-  3  9,4  | EaD
   3  6,3  | EaRS
   3  6,4  | EaST
   3  6,3  | EaTS
@@ -8934,7 +9015,6 @@
   3  8,5  | INf
   3  8,5  | INk
   3  8,5  | INn
-  3  8,5  | INo
   3  8,5  | INs
   3  8,5  | INt
   3  8,5  | INv
@@ -9008,6 +9088,7 @@
   3 11,6  | LEv
   3 11,6  | LEx
   3 11,6  | LEy
+  3 11,6  | LI
   3 11,6  | LIb
   3 11,6  | LId
   3 11,6  | LIe
@@ -9056,6 +9137,7 @@
   3  8,6  | NEp
   3  8,6  | NEt
   3  8,6  | NEw
+  3  8,6  | NI
   3  8,6  | NIb
   3  8,6  | NId
   3  8,6  | NIg
@@ -9358,7 +9440,6 @@
   3  6,6  | SoRT
   3  6,6  | SpET
   3  6,6  | SpIT
-  3  6,6  | SqRT
   3  6,6  | StER
   3  6,6  | StET
   3  6,6  | StIR
@@ -9844,6 +9925,8 @@
   3  7,5  | lERE
   3  6,4  | lEST
   3  6,3  | lETS
+  3  5,5  - lI
+  3  5,7  - lI
   3 10,4  | lIAR
   3  7,4  | lIER
   3  6,3  | lIES
@@ -9907,6 +9990,8 @@
   3  7,5  | nETE
   3  7,5  | nETI
   3  6,3  | nETS
+  3  5,5  - nI
+  3  5,7  - nI
   3  6,3  | nIES
   3 11,4  | nIL
   3  6,4  | nIST
@@ -10143,7 +10228,6 @@
   3  8,4  | yIN
   3  7,3  | yITE
   3 10,5  | zATI
-  3 11,4  | zEL
   3  8,4  | zEN
   3  6,4  | zEST
   3 10,3  | zETA
@@ -10163,7 +10247,6 @@
   2 10,6  | AIs
   2 10,6  | AIt
   2 10,6  | AR
-  2 10,6  | ARa
   2 10,6  | ARb
   2 10,6  | ARc
   2 10,6  | ARe
@@ -10213,7 +10296,6 @@
   2 10,6  | ArE
   2 10,6  | ArR
   2 10,6  | ArT
-  2 10,6  | AsE
   2 10,6  | AsT
   2 10,6  | AtE
   2 10,6  | AtI
@@ -10228,9 +10310,7 @@
   2  9,6  | Do
   2  9,6  | Dp
   2  9,6  | Du
-  2 10,5  | EAd
   2 10,5  | EAm
-  2 10,5  | EAn
   2 10,5  | EAr
   2 10,5  | EAt
   2 10,5  | EAu
@@ -10329,12 +10409,10 @@
   2  7,4  | IkE
   2 10,4  | IlA
   2  7,4  | IlE
-  2 10,4  | ImA
   2  6,4  | InS
   2  5,5  - Io
   2  5,7  - Io
   2  6,4  | IpS
-  2  6,4  | IqS
   2 10,4  | IrA
   2  7,4  | IrE
   2  6,4  | IrS
@@ -10346,11 +10424,13 @@
   2 10,4  | IwA
   2 11,6  | La
   2 11,6  | Lb
+  2 11,6  | Li
   2 11,6  | Ll
   2 11,6  | Lo
   2 11,6  | Lu
   2  8,6  | Na
   2  8,6  | Ne
+  2  8,6  | Ni
   2  8,6  | No
   2  8,6  | Nu
   2 10,5  | RAb
@@ -10447,7 +10527,6 @@
   2  6,6  | STy
   2  6,6  | SaE
   2  6,6  | SaI
-  2  6,6  | SaR
   2  6,6  | SaT
   2  6,6  | ScI
   2  6,6  | ScR
@@ -10549,10 +10628,8 @@
   2  6,4  | aIS
   2 11,5  | aL
   2  8,5  | aN
-  2 10,4  | aRA
   2  7,4  | aRE
   2  6,4  | aRS
-  2  6,5  | aSE
   2  6,5  | aST
   2  7,4  | aTE
   2 10,5  | bAE
@@ -10574,14 +10651,12 @@
   2 10,4  | cIA
   2  7,4  | cIE
   2  6,4  | cIS
-  2 11,5  | cL
   2  7,4  | cRE
   2  6,4  | cRS
   2  6,5  | cSI
   2  6,5  | cST
   2  7,4  | cTE
   2  6,4  | cTS
-  2 10,5  | dAE
   2 10,5  | dAR
   2 10,5  | dAT
   2 10,4  | dEA
@@ -10685,8 +10760,6 @@
   2 10,5  | mAR
   2 10,5  | mAT
   2 10,4  | mEA
-  2  7,4  | mEE
-  2  7,5  | mEE
   2  7,5  | mER
   2  6,4  | mES
   2  7,5  | mET
@@ -10746,7 +10819,6 @@
   2  7,4  | rTE
   2 10,5  | sAE
   2 10,5  | sAI
-  2 10,5  | sAR
   2 10,5  | sAT
   2 10,4  | sEA
   2  7,4  | sEE
@@ -10793,12 +10865,9 @@
   2 10,5  | wAE
   2 10,5  | wAR
   2 10,5  | wAT
-  2 10,4  | wEA
   2  7,4  | wEE
   2  7,5  | wEE
   2  7,5  | wEI
-  2  7,5  | wER
-  2  6,4  | wES
   2  7,5  | wET
   2  6,4  | wIS
   2  6,4  | xES

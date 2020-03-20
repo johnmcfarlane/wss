@@ -23,6 +23,7 @@
  25  7,4  | KANE
  25  2,10 - OKA
  25  2,10 - OKE
+ 25  2,10 - OLENA
  24  1,6  | ANOLES
  24  9,11 - ELK
  24  1,8  | KAES
@@ -80,7 +81,6 @@
  18  1,7  | AEONS
  18  3,8  - AKEE
  18  1,7  | ALOES
- 18  7,4  | EAN
  18  2,7  | KALOn
  18 11,7  | KEP
  18 11,7  | KOP
@@ -104,9 +104,11 @@
  17  7,3  | NEA
  17  3,5  - NEOZA
  17  7,3  | NOA
+ 16  2,10 - ALE
+ 16  2,10 - ANE
  16  5,5  - AZOLES
- 16 11,5  | EAN
  16  7,3  | ELA
+ 16  2,10 - ELA
  16 11,5  | EON
  16  2,8  | KENn
  16  2,8  | KLAn
@@ -114,19 +116,26 @@
  16  3,7  | KOALI
  16  2,7  | OAKEn
  16  7,3  | OLA
+ 16  2,10 - OLA
+ 16  2,10 - OLE
  16  1,6  - OLEANA
  16  7,3  | ONA
+ 16  2,10 - ONA
+ 16  2,10 - ONE
  15  7,5  | AE
  15  1,8  | ALES
  15  1,8  | ANES
  15  3,6  | ANKOLI
  15  1,8  | ENOS
+ 15  1,10 - EON
  15  1,8  | EONS
  15  3,10 - KA
  15  3,7  - KEARN
  15  4,7  | KNEAD
+ 15  3,10 - LANA
  15  1,8  | LAOS
  15  1,8  | LEAS
+ 15  3,10 - LENA
  15  1,8  | LEOS
  15  1,8  | NAOS
  15  1,8  | NOES
@@ -148,13 +157,11 @@
  14  4,5  - NAZE
  14  2,6  - OLENA
  14  4,5  - ONZA
- 13  9,11 - EAN
  13  3,8  | EKOI
  13  8,5  | KA
  13  3,8  - KNEE
  13  4,7  | LAKED
  13  5,6  | LAN
- 13  4,5  - LAZ
  13  5,6  | LEN
  13  4,7  | NAKED
  12  2,8  - AKENE
@@ -188,7 +195,11 @@
  12  2,7  - ONKER
  12  1,9  | ONS
  11  4,8  | AKED
+ 11  2,10 - AL
  11  4,7  | ALOED
+ 11  2,10 - AN
+ 11  2,10 - EL
+ 11  2,10 - EN
  11  3,8  | ENKI
  11  3,6  - KALAN
  11  3,8  - KALE
@@ -214,9 +225,9 @@
  11  5,6  | NOA
  11  4,8  | NOLD
  11 11,7  | OLP
+ 11  2,10 - ON
  11  3,10 | QI
  11  6,5  - ZA
- 10 11,6  | AE
  10  3,6  - ALEAK
  10  4,10 - ANA
  10  3,8  - ELNE
@@ -235,7 +246,6 @@
  10  4,8  | LOED
  10  3,8  | LOKI
  10  4,7  | NALED
- 10 11,6  | OE
  10  4,10 - ONA
   9  1,9  | AES
   9  4,6  - AKAL
@@ -268,17 +278,22 @@
   9  4,6  - KOAN
   9  3,6  - KOLA
   9  3,6  - KONA
+  9  3,10 - LA
   9  5,6  - LAKE
   9  4,7  - LARK
   9  4,6  - LEAK
   9  3,7  - LEARN
   9  2,7  - LENORA
   9  2,8  - LEONE
+  9  3,10 - LO
   9  1,7  - LOANER
   9  3,6  - LOKA
+  9  3,10 - NA
   9  5,6  - NAKE
   9  5,6  - NAKO
   9  4,7  - NARK
+  9  3,10 - NE
+  9  3,10 - NO
   9  4,7  - NORK
   9  1,9  | OES
   9  4,8  - OKE
@@ -342,7 +357,6 @@
   7  4,6  - ALANE
   7  7,1  - ANC
   7  5,7  - ARK
-  7  7,1  - ENC
   7  3,8  - EOLE
   7  5,7  - ERK
   7  5,6  - KAE
@@ -431,7 +445,6 @@
   5  4,9  | LOD
   5  4,7  - LORA
   5  4,7  - LORE
-  5  4,9  | NAD
   5  4,7  - NARE
   5  4,9  | NED
   5  8,5  - NESE
@@ -455,11 +468,7 @@
   4  6,6  - ANA
   4  6,6  - ANE
   4  5,7  - ARN
-  4  9,7  - DAE
   4  9,7  - DAO
-  4  4,9  | EAD
-  4  5,6  - EAN
-  4  2,9  | EAn
   4  4,6  - ELA
   4  2,9  | EOn
   4  5,7  - ERN
@@ -496,8 +505,10 @@
   3  5,7  - ERA
   3  9,5  - ESE
   3  5,6  - LA
+  3  3,10 | LI
   3  5,6  - NA
   3  5,8  - NE
+  3  3,10 | NI
   3  4,7  - OAR
   3  4,10 | OD
   3  4,7  - OER

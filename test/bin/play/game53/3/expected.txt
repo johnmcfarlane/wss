@@ -19,7 +19,6 @@
  28 10,1  | RASION
  28 10,1  | ROSINS
  28  8,2  - RUA
- 28 10,1  | RUSSIA
  28  8,2  - SUI
  27  8,2  - SOAR
  27  8,2  - SOIR
@@ -33,6 +32,7 @@
  23  5,2  - OARS
  23  6,2  - URS
  21  6,2  - ARS
+ 21  7,3  | HEROINS
  21  6,2  - IRS
  21  9,1  | NAP
  21  9,1  | NIP
@@ -44,6 +44,7 @@
  19  3,2  - AINUS
  19  3,2  - ANOUR
  19  3,2  - ANOUS
+ 19  7,3  | HEROIN
  19  3,2  - IANUS
  19  9,2  - OUI
  19  9,2  - OUR
@@ -65,7 +66,6 @@
  18  6,6  - WINOS
  17  3,2  - AIRNS
  17  4,2  - ANUS
- 17  3,2  - ARIUS
  17  3,2  - AURIS
  17  3,2  - IRONS
  17  3,2  - IROUS
@@ -207,6 +207,7 @@
  12  3,5  - AUREI
  12  3,5  - AURES
  12  8,3  | EXON
+ 12  7,7  | IANUS
  12  2,7  - INSULAR
  12  8,1  | NOEX
  12 10,1  | NOSU
@@ -273,7 +274,6 @@
  11  5,2  - RAS
  11  5,2  - ROS
  11  3,7  - SAILOUR
- 11  5,2  - SAR
  11  5,2  - SIR
  11  4,7  - SOLUNAR
  11  3,6  - SURWAN
@@ -296,8 +296,6 @@
  10  7,7  | ANSU
  10  5,7  | ARION
  10  7,7  | ARION
- 10  5,7  | ARIUS
- 10  7,7  | ARIUS
  10  5,7  | ARNI
  10  7,7  | ARNI
  10 10,1  | ARSIS
@@ -312,7 +310,10 @@
  10  8,3  | EXR
  10 10,2  - IN
  10  1,7  - INSOUL
+ 10  7,7  | IONS
  10  4,6  - IOWANS
+ 10  7,7  | IRONS
+ 10  7,7  | IROUS
  10  6,7  - LANIUS
  10  6,7  - LAURIN
  10  6,7  - LINOUS
@@ -327,6 +328,7 @@
  10  3,7  - NURLS
  10 10,1  | NUS
  10 10,1  | OASIS
+ 10  7,6  | OI
  10 10,2  - ON
  10  4,5  - ONER
  10  4,5  - ONES
@@ -417,14 +419,21 @@
   9  1,5  - AURINE
   9  6,5  - EN
   9  7,3  | HEN
+  9  7,7  | IAN
+  9  7,7  | INRO
   9  2,7  - INROL
   9  2,7  - INSOL
   9  2,5  - INSUE
   9  1,5  - INSURE
   9  3,7  - INULA
   9  2,5  - INURE
+  9  7,7  | ION
+  9  7,7  | IOU
+  9  7,7  | IRAN
   9  4,5  - IRES
+  9  7,7  | IRON
   9  6,2  - IS
+  9  7,7  | ISN
   9  6,7  - LAIUS
   9  6,7  - LARUS
   9  6,7  - LAUN
@@ -511,6 +520,7 @@
   8  5,6  - AWIN
   8  5,6  - AWNS
   8 10,1  | INS
+  8  7,7  | INS
   8 10,2  - IO
   8 10,2  - IS
   8 10,2  | ISN
@@ -633,7 +643,10 @@
   7  6,5  - ES
   7  7,3  | HER
   7  7,3  | HES
+  7  7,7  | IAO
+  7  7,7  | IRA
   7  2,5  - IRONE
+  7  7,7  | IRS
   7  6,7  - LAIRS
   7  6,7  - LAUR
   7  6,7  - LAUS
@@ -705,6 +718,7 @@
   6 10,1  | ARS
   6 10,1  | ASS
   6 10,2  | ASS
+  6  7,7  | IN
   6  3,5  - IONE
   6 10,1  | IRS
   6  5,6  - IWA
@@ -766,7 +780,6 @@
   6  6,6  - WAS
   6  6,6  - WIR
   6  6,6  - WIS
-  6  6,6  - WOA
   6  6,6  - WOS
   6  6,6  - WRO
   5  5,7  | AI
@@ -784,6 +797,8 @@
   5  5,6  - AW
   5  3,5  - IARE
   5 10,4  - IN
+  5  7,7  | IO
+  5  7,7  | IS
   5  6,7  - LAN
   5  6,7  - LIN
   5  6,7  - LNR
@@ -861,10 +876,10 @@
   4  4,5  - USE
   3  5,7  - AL
   3  4,5  - ARE
-  3  4,5  - ASE
   3  4,5  - IRE
   3  4,5  - ISE
   3  6,7  - LA
+  3  6,7  - LI
   3  6,7  - LO
   3  5,5  - NE
   3  4,5  - ORE
@@ -874,7 +889,6 @@
   3  4,5  - SAE
   3 10,3  | SAI
   3 10,3  | SAO
-  3 10,3  | SAR
   3 10,3  | SIA
   3  4,5  - SIE
   3 10,3  | SIR

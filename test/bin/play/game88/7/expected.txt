@@ -1,10 +1,14 @@
+ 54  6,2  - LEEWAN
  53  6,2  - SNAWLE
  47  6,2  - AWEEL
  47  6,2  - SWALE
  47  6,2  - SWEAL
  41  6,2  - ANELES
+ 38  6,2  - LEANS
+ 38  6,2  - NEELA
  38  3,1  | NEELE
  37  6,2  - ANELE
+ 34  6,2  - LEASE
  34  3,1  | LEESE
  34  3,1  | NEESE
  34  3,1  | WEEL
@@ -55,8 +59,11 @@
  23  7,2  - WENS
  23  2,9  | WEY
  22  1,7  - JALEE
+ 22  6,2  - LAEN
  22 10,1  | LAWNS
+ 22  6,2  - LEAN
  22 10,1  | NAWLE
+ 22  6,2  - NEAL
  22  4,8  - SLANE
  22 10,1  | WANLE
  22  6,2  | WIENIES
@@ -90,6 +97,8 @@
  21  7,2  - WEES
  21  7,2  - WESE
  20  6,6  | INLAW
+ 20  6,2  - LEAS
+ 20  6,2  - LEES
  20 10,1  | SWALE
  20 10,1  | WALES
  20 10,1  | WANES
@@ -121,6 +130,11 @@
  18  8,2  - ENEW
  18  3,8  - ESNE
  18 10,2  | LAWS
+ 18  6,2  - LEA
+ 18  6,2  - LEE
+ 18  6,2  - NAE
+ 18  6,2  - NEA
+ 18  6,2  - NEE
  18 10,2  | NEWS
  18  4,8  - SALE
  18  4,8  - SANE
@@ -158,10 +172,8 @@
  17  4,8  - SEN
  17 10,1  | SENAL
  17  4,8  - SLA
- 16  6,5  | AILEEN
  16  8,2  - ALW
  16 10,1  | ANELE
- 16  3,8  - ASE
  16  8,2  - AWEE
  16 10,2  | AWEE
  16  8,2  - AWES
@@ -211,6 +223,7 @@
  15  3,1  | NEE
  15  7,2  - NESE
  15  7,2  | NEWSREEL
+ 15  2,5  - REAAL
  15  1,8  - USE
  14  8,2  - ALEN
  14  5,5  | AMENE
@@ -225,12 +238,15 @@
  14 10,2  | ELNE
  14  3,3  | ESE
  14  8,2  - EWE
+ 14  6,2  - LA
  14 10,2  | LANE
  14 10,1  | LEASE
  14 10,2  | LENE
  14 10,2  | LENS
  14  5,6  | MWA
+ 14  6,2  - NA
  14 10,2  | NALE
+ 14  6,2  - NE
  14  6,2  - SAE
  14  8,3  | SANK
  14  2,9  | SAY
@@ -252,9 +268,8 @@
  13  5,9  | WAC
  13  7,2  - WAE
  13  7,2  - WAS
- 13  7,2  - WEA
  13  7,2  - WEE
- 13  7,2  - WES
+ 12  4,5  - AAL
  12  3,2  | AES
  12  8,2  - ALEE
  12 10,2  | ALEE
@@ -267,7 +282,6 @@
  12  8,2  - ANES
  12 10,2  | ANES
  12  6,1  | ANIL
- 12  4,7  - EAN
  12  7,2  - EASE
  12  8,2  - EELS
  12 10,2  | EELS
@@ -346,7 +360,6 @@
  10 10,3  | AWL
  10 10,3  | AWN
  10  2,10 | AY
- 10  8,2  - EAN
  10  8,2  - EASE
  10 10,2  | EASE
  10  8,2  - EEL
@@ -429,26 +442,28 @@
   8  5,8  | AESC
   8  6,2  | AIL
   8  6,2  | AIN
+  8  3,10 - AL
   8  7,1  | ALEW
+  8  3,10 - AN
   8  5,9  | ANC
   8  7,1  | ANEW
   8  6,1  | ANI
   8  7,5  | AREEL
   8  2,4  - ASB
-  8  8,2  - ASE
   8 10,3  | AWE
-  8  7,2  - EAN
   8  5,1  | EAvE
   8  7,2  - EEL
   8  7,2  - EEN
+  8  3,10 - EL
   8  6,1  | ELI
-  8  5,9  | ENC
+  8  3,10 - EN
   8  7,1  | ENEW
   8  3,3  | ES
   8  8,2  - ESE
   8 10,3  | EWE
   8  7,3  | EWERS
   8  1,4  | LA
+  8  6,5  - LA
   8  6,1  | LAI
   8 10,3  | LAN
   8  6,1  | LEI
@@ -456,13 +471,14 @@
   8  6,2  | LIE
   8  6,2  | LIS
   8  5,6  | MEA
-  8  5,6  | MEE
   8  5,6  | MES
   8  7,2  - NA
   8  1,4  | NA
+  8  6,5  - NA
   8  7,2  - NE
   8  1,4  | NE
   8  6,4  - NE
+  8  6,5  - NE
   8  6,7  - NE
   8  6,1  | NEI
   8  6,2  | NIS
@@ -492,7 +508,6 @@
   8  7,1  | WEEL
   8  7,1  | WEEN
   8  3,8  | WEET
-  8 10,3  | WES
   8  3,8  | WEST
   8  6,5  | WILE
   8  6,5  | WINE
@@ -514,7 +529,6 @@
   7  7,1  | AWEE
   7  7,1  | AWES
   7  5,2  | AvE
-  7 10,3  | EAN
   7  1,1  | EE
   7  4,7  - EE
   7 10,3  | EEL
@@ -609,6 +623,7 @@
   6  3,8  | LEET
   6  3,8  | LEST
   6  3,9  | LET
+  6  6,2  | LI
   6  6,5  | LIEN
   6  6,5  | LINA
   6  6,5  | LINE
@@ -622,6 +637,7 @@
   6  3,8  | NEET
   6  3,8  | NEST
   6  3,9  | NET
+  6  6,2  | NI
   6  6,5  | NILE
   6  6,5  | NILS
   6  1,9  - OLEA
@@ -645,12 +661,9 @@
   6  6,5  | SINAE
   6  7,1  | WAE
   6  8,1  | WAS
-  6  7,2  | WEA
   6  7,1  | WEE
   6  7,2  | WEE
   6  4,9  | WEI
-  6  8,1  | WES
-  6  7,2  | WES
   6  6,5  | WIS
   5  3,2  | AE
   5 10,3  | AES
@@ -670,8 +683,6 @@
   5  7,5  | AREN
   5  7,5  | ARLE
   5  7,5  | ARNE
-  5  8,2  | ASE
-  5 10,3  | ASE
   5  8,2  | ASS
   5  2,2  - DA
   5  2,2  - DE
@@ -742,7 +753,6 @@
   4  8,2  - AS
   4 10,4  | AS
   4  3,9  | AST
-  4  9,5  - EAN
   4  3,9  | EAT
   4  8,2  - EE
   4 10,4  | EE
@@ -802,7 +812,6 @@
   3  6,5  | AIS
   3  7,5  | ARE
   3  7,5  | ARS
-  3  7,1  | ASE
   3  8,1  | ASS
   3  1,2  - ED
   3  7,3  | EL
@@ -821,8 +830,12 @@
   3  1,4  - LA
   3  5,1  | LAv
   3  5,1  | LEv
+  3  6,5  | LI
+  3  4,10 | LI
   3  1,4  - NA
   3  7,2  | NE
+  3  6,5  | NI
+  3  4,10 | NI
   3  1,9  - ON
   3  7,6  | RAS
   3  7,6  | REA

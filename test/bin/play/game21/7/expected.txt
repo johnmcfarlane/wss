@@ -94,7 +94,6 @@
  27  1,8  | fOB
  27  1,8  | gAB
  27  1,8  | gOB
- 27  1,8  | hAB
  27  1,8  | hOB
  27  1,8  | jAB
  27  1,8  | jOB
@@ -123,7 +122,6 @@
  26  2,1  | AVaR
  26  1,8  | BA
  26  1,8  | BO
- 26  1,9  | OB
  26  2,1  | OVAl
  26  2,1  | VAAd
  26  2,1  | VOAr
@@ -266,8 +264,6 @@
  21  4,3  | OVeY
  21  9,8  | ReUB
  21  9,8  | RoUB
- 21  6,9  - VAc
- 21  6,9  - VOc
  21  1,3  - ZABrA
  21  1,3  - ZaBRA
  21  1,3  - ZeBRA
@@ -292,9 +288,7 @@
  20  6,2  | AlVAH
  20  4,2  | AmBAY
  20  2,1  | BAa
- 20  6,9  - BAc
  20  2,1  | BOa
- 20  6,9  - BOc
  20  5,7  - BRAVa
  20  5,7  - BRAVe
  20  5,7  - BRAVi
@@ -322,7 +316,6 @@
  20  6,2  | cABAHO
  20  6,2  | dARBHA
  20  1,9  | iB
- 20  1,9  | oB
  20  6,2  | tOVAH
  19  7,8  - ABAcK
  19  7,8  - ABAsK
@@ -443,8 +436,6 @@
  18  9,9  | sUB
  18  9,9  | tUB
  18  9,7  | wARUA
- 17  2,1  | ARA
- 17  6,9  - ARc
  17  5,7  - ARkAB
  17  4,9  - AVaR
  17  4,9  - AVeR
@@ -498,10 +489,8 @@
  17  2,7  - EXOR
  17  3,5  - NAbOB
  17  2,1  | ORA
- 17  6,9  - ORc
  17  4,9  - OVeR
  17  5,7  - RAjAB
- 17  6,9  - ROc
  17  5,9  - VAR
  17  1,3  - ZAmBO
  17  4,9  - aVAR
@@ -518,13 +507,11 @@
  17  4,9  - kVAR
  17  2,2  | lAO
  17  2,2  | lAR
- 17  2,2  | mAO
  17  2,2  | mAR
  17  2,2  | nAR
  17  2,2  | oAR
  17  2,2  | pAR
  17  2,2  | sAO
- 17  2,2  | sAR
  17  2,2  | tAO
  17  2,2  | tAR
  17  2,2  | vAR
@@ -588,7 +575,6 @@
  16  2,2  | RAt
  16  2,2  | RAw
  16  2,2  | RAx
- 16  1,10 - VEdRO
  16  5,3  | VOcAB
  16  5,9  - VaR
  16  5,9  - VeR
@@ -621,7 +607,6 @@
  15  6,7  - ARaBA
  15  2,1  | AaA
  15  2,1  | AbA
- 15  2,1  | AdA
  15  2,1  | AgA
  15  2,1  | AhA
  15  2,1  | AkA
@@ -632,8 +617,6 @@
  15  6,5  - AnABO
  15  6,7  - AnABO
  15  2,1  | ApA
- 15  2,1  | ArA
- 15  2,1  | AsA
  15  2,1  | AvA
  15  2,1  | AwA
  15  5,5  - BAA
@@ -698,9 +681,6 @@
  15  5,7  - BArR
  15  5,5  - BAyA
  15  5,7  - BAyA
- 15  1,10 - BEARd
- 15  1,10 - BEARm
- 15  1,10 - BEARs
  15  1,10 - BEROb
  15  1,10 - BEROe
  15  5,5  - BOA
@@ -787,7 +767,6 @@
  15  2,7  - EXOn
  15  2,7  - EXOr
  15  2,7  - EXoR
- 15  4,10 - OB
  15  4,9  - OBiA
  15  9,9  | OUR
  15  2,1  | ObA
@@ -846,7 +825,6 @@
  15  1,3  - ZOAeA
  15  1,3  - ZiARA
  15  2,1  | aAA
- 15  2,1  | aRA
  15  2,1  | bAA
  15  1,8  | bAA
  15  1,8  | bAR
@@ -897,7 +875,6 @@
  15  1,8  | lOA
  15  1,8  | lOR
  15  9,8  | lOUR
- 15  1,8  | mAO
  15  1,8  | mAR
  15  2,1  | mOA
  15  1,8  | mOA
@@ -920,7 +897,6 @@
  15  2,1  | sAA
  15  1,8  | sAA
  15  1,8  | sAO
- 15  1,8  | sAR
  15  9,8  | sAUR
  15  9,8  | sOUR
  15  2,1  | tAA
@@ -939,8 +915,6 @@
  15  9,6  | uVROU
  15  1,8  | wAR
  15  9,8  | wAUR
- 15  2,1  | wOA
- 15  1,8  | wOA
  15  1,8  | yAR
  15  1,8  | yOR
  15  9,8  | yOUR
@@ -958,14 +932,12 @@
  14  5,7  - ARVO
  14  4,9  - ARVO
  14  5,7  - ARVOs
- 14  2,1  | ARa
  14  6,5  - ARaB
  14  6,7  - ARaB
  14  5,7  - ARaBA
  14  5,2  | AVARAm
  14  4,9  - AVAr
  14  5,2  | AVAtAR
- 14  4,9  - AVOw
  14  6,5  - AhAB
  14  6,7  - AhAB
  14  6,5  - ArAB
@@ -1005,7 +977,6 @@
  14  5,7  - BAt
  14  5,5  - BAy
  14  5,7  - BAy
- 14  1,10 - BEAR
  14  6,5  | BHAVA
  14  5,5  - BO
  14  5,7  - BO
@@ -1172,7 +1143,6 @@
  13  6,5  - AlVAR
  13  6,7  - AlVAR
  13  2,3  | Am
- 13  5,5  - AmBAR
  13  5,7  - AmBAR
  13  2,3  | An
  13  2,3  | Ar
@@ -1226,7 +1196,6 @@
  13  5,7  - BrO
  13  5,7  - BrR
  13  5,5  - BuR
- 13  3,5  - NAAm
  13  3,5  - NAdA
  13  3,5  - NAjA
  13  3,5  - NAkO
@@ -1234,7 +1203,6 @@
  13  3,5  - NAnA
  13  3,5  - NApA
  13  3,5  - NAtO
- 13  3,5  - NOAm
  13  3,5  - NOmA
  13  3,5  - NOnA
  13  3,5  - NOtA
@@ -1268,16 +1236,13 @@
  13  4,9  - VAsA
  13  9,7  | VAsU
  13  9,7  | VAtU
- 13  5,9  - VAw
  13  9,7  | VAyU
  13  1,10 - VERi
- 13  1,10 - VEeR
  13  1,10 - VEtO
  13  4,9  - VOaR
  13  5,9  - VOg
  13  5,3  | VOlAR
  13  4,9  - VOtA
- 13  5,9  - VOw
  13  5,9  - VOx
  13  1,3  - ZARf
  13  1,3  - ZOA
@@ -1335,7 +1300,6 @@
  13  7,7  | nAVES
  13  4,9  - nOVA
  13  7,7  | oAVES
- 13  4,10 - oB
  13  2,2  | pA
  13  7,7  | pAVES
  13  4,9  - pAVO
@@ -1463,11 +1427,8 @@
  12  5,3  | BAtARA
  12  4,9  - BAyA
  12  5,3  | BAzAAR
- 12  1,10 - BEAr
  12  1,10 - BERe
  12  1,10 - BERi
- 12  1,10 - BEaR
- 12  1,10 - BEeR
  12  1,10 - BEnO
  12  5,3  | BORAnA
  12  4,9  - BOaR
@@ -1661,12 +1622,10 @@
  11  6,5  - AlBA
  11  6,7  - AlBA
  11  4,9  - AlBA
- 11  5,5  - AmBA
  11  6,5  - AmBA
  11  5,7  - AmBA
  11  6,7  - AmBA
  11  4,9  - AmBA
- 11  5,5  - AmBO
  11  6,5  - AmBO
  11  5,7  - AmBO
  11  6,7  - AmBO
@@ -1716,7 +1675,6 @@
  11  5,9  - BOo
  11  5,9  - BOp
  11  5,9  - BOr
- 11  5,9  - BOw
  11  5,9  - BOx
  11  5,9  - BOy
  11  5,3  | BOyAR
@@ -1749,9 +1707,6 @@
  11  4,9  - BuRA
  11  5,3  | BuRAO
  11  4,9  - BuRO
- 11  2,10 - EARl
- 11  2,10 - EARn
- 11  2,10 - EARs
  11  2,10 - EROs
  11  7,8  | OBES
  11  6,5  - OBiA
@@ -1942,9 +1897,7 @@
  10  1,9  | Ah
  10  5,6  | AhAB
  10  1,9  | Am
- 10  5,5  - AmB
  10  5,7  - AmB
- 10  5,5  - AmORA
  10  5,7  - AmORA
  10  1,9  | An
  10  5,5  - AoB
@@ -1998,7 +1951,6 @@
  10  6,4  | BoHORA
  10  5,3  | BoRA
  10  5,3  | BuRA
- 10  2,10 - EAR
  10  6,6  | HARV
  10 10,10 | IB
  10  3,5  - NAA
@@ -2017,7 +1969,6 @@
  10  5,4  | OVARiA
  10  6,5  - OVa
  10  6,7  - OVa
- 10  1,9  | Ob
  10  6,5  - ObV
  10  6,7  - ObV
  10  1,9  | Od
@@ -2050,7 +2001,6 @@
  10  4,9  - VARa
  10  4,9  - VARy
  10  4,9  - VOAr
- 10  4,9  - VROw
  10  1,3  - Za
  10  5,9  - aBA
  10  5,9  - aBO
@@ -2065,7 +2015,6 @@
  10  1,8  | bA
  10  5,5  - bAB
  10  5,7  - bAB
- 10  1,10 - bEAR
  10  6,5  | bHAVA
  10  1,8  | bO
  10  5,5  - bOB
@@ -2076,14 +2025,12 @@
  10  5,3  | cARABAO
  10  5,3  | cARABOA
  10  1,10 - cERO
- 10  8,9  | cQ
  10  4,3  | cRAY
  10  7,8  - cROAK
  10  4,3  | cROY
  10  1,8  | dA
  10  5,5  - dAB
  10  5,7  - dAB
- 10  1,10 - dEAR
  10  1,10 - dEB
  10  1,10 - dERO
  10  6,5  | dHAVA
@@ -2093,20 +2040,15 @@
  10  4,3  | dRAY
  10  1,8  | fA
  10  5,5  - fAB
- 10  1,10 - fEAR
  10  5,5  - fOB
  10  4,3  | fRAY
  10  5,7  - gAB
  10  5,1  | gARAVA
- 10  1,10 - gEAR
  10  1,10 - gEB
  10  1,8  | gO
  10  5,7  - gOB
  10  4,3  | gRAY
  10  1,8  | hA
- 10  5,5  - hAB
- 10  5,7  - hAB
- 10  1,10 - hEAR
  10  1,10 - hERO
  10  1,8  | hO
  10  5,5  - hOB
@@ -2125,17 +2067,14 @@
  10  1,8  | lA
  10  5,5  - lAB
  10  5,7  - lAB
- 10  1,10 - lEAR
  10  1,8  | lO
  10  5,5  - lOB
  10  5,7  - lOB
  10  1,8  | mA
  10  5,5  - mAB
  10  5,7  - mAB
- 10  6,5  - mABA
  10  6,7  - mABA
  10  7,8  - mAROK
- 10  1,10 - mEAR
  10  1,10 - mERO
  10  1,8  | mO
  10  5,5  - mOB
@@ -2144,7 +2083,6 @@
  10  5,5  - nAB
  10  5,7  - nAB
  10  8,8  - nABK
- 10  1,10 - nEAR
  10  1,10 - nEB
  10  1,8  | nO
  10  5,5  - nOB
@@ -2156,18 +2094,14 @@
  10  6,7  - pABA
  10  5,5  - pARAO
  10  5,1  | pARAVA
- 10  1,10 - pEAR
  10  1,8  | pO
  10  5,5  - pOB
  10  4,3  | pRAY
  10  5,7  - rAB
- 10  1,10 - rEAR
  10  1,10 - rEB
  10  5,7  - rOB
  10  5,7  - sAB
  10  6,5  - sABA
- 10  1,10 - sEAR
- 10  1,10 - sEOR
  10  1,10 - sERO
  10  1,8  | sO
  10  5,7  - sOB
@@ -2175,7 +2109,6 @@
  10  5,5  - tAB
  10  5,7  - tAB
  10  7,8  - tAROK
- 10  1,10 - tEAR
  10  1,8  | tO
  10  5,5  - tOB
  10  5,7  - tOB
@@ -2185,7 +2118,6 @@
  10  7,8  - tROAK
  10  4,3  | tROY
  10  5,7  - wAB
- 10  1,10 - wEAR
  10  1,10 - wEB
  10  1,8  | wO
  10  5,7  - wOB
@@ -2193,7 +2125,6 @@
  10  4,3  | xRAY
  10  1,8  | yA
  10  7,8  - yARAK
- 10  1,10 - yEAR
  10  1,8  | yO
  10  5,5  - yOB
  10  5,7  - yOB
@@ -2247,8 +2178,6 @@
   9  5,5  - AOR
   9  5,7  - AOR
   9  5,9  - AOR
-  9  5,7  - ARA
-  9  5,9  - ARA
   9  5,2  | ARABA
   9  5,2  | ARABAn
   9  5,1  | ARABiA
@@ -2370,11 +2299,9 @@
   9  6,3  | BRAHm
   9  4,9  - BRAg
   9  4,9  - BRAm
-  9  4,9  - BRAw
   9  4,9  - BRAy
   9  4,9  - BROg
   9  4,9  - BROo
-  9  4,9  - BROw
   9  6,4  | BaHAR
   9  5,9  | BiO
   9  9,8  - BlK
@@ -2390,8 +2317,6 @@
   9  6,6  | HOVe
   9  6,6  | HaRV
   9  5,9  - OAR
-  9  6,5  - OB
-  9  6,7  - OB
   9  6,5  - OBa
   9  6,7  - OBa
   9  6,5  - OBb
@@ -2446,7 +2371,6 @@
   9  8,8  - RAuK
   9  5,7  - RAyA
   9  4,9  - RAyA
-  9  1,10 - REAr
   9  1,10 - REdO
   9  1,10 - REnO
   9  6,5  | RHOmB
@@ -2536,7 +2460,6 @@
   9  9,9  | jUR
   9  4,9  - kARO
   9  4,9  - kORA
-  9  9,9  | kUA
   9  6,3  | kVAH
   9  5,2  | lARVA
   9  5,5  | lARVA
@@ -2564,7 +2487,6 @@
   9  4,9  - rARA
   9  4,9  - rOAR
   9  9,9  | rUA
-  9  4,9  - sARA
   9  6,5  - sAV
   9  5,3  | sAVARA
   9  5,5  | sAVOR
@@ -2628,7 +2550,6 @@
   8  5,6  | ARBA
   8  6,5  - AROmA
   8  6,7  - AROmA
-  8  5,7  - ARa
   8  5,2  | ARaBA
   8  5,7  - ARb
   8  6,5  - ARbA
@@ -2681,7 +2602,6 @@
   8  6,7  - AcOR
   8  4,9  - AcOR
   8  5,3  | AcRAB
-  8  5,9  - AdA
   8  6,5  - AdAR
   8  6,7  - AdAR
   8  4,9  - AdAR
@@ -2736,20 +2656,17 @@
   8  4,9  - AlAR
   8  4,3  | AlAY
   8  5,9  - AmA
-  8  5,5  - AmAR
   8  6,5  - AmAR
   8  5,7  - AmAR
   8  6,7  - AmAR
   8  4,9  - AmAR
   8  4,3  | AmAY
   8  5,3  | AmBAR
-  8  5,5  - AmOR
   8  6,5  - AmOR
   8  5,7  - AmOR
   8  6,7  - AmOR
   8  4,9  - AmOR
   8  4,3  | AmOY
-  8  5,5  - AmRA
   8  6,5  - AmRA
   8  5,7  - AmRA
   8  6,7  - AmRA
@@ -2769,7 +2686,6 @@
   8  4,9  - ApAR
   8  4,3  | ApAY
   8  5,9  - ApR
-  8  5,9  - ArA
   8  6,5  - ArAR
   8  5,7  - ArAR
   8  6,7  - ArAR
@@ -2777,8 +2693,6 @@
   8  5,9  - ArO
   8  5,9  - ArR
   8  5,6  | ArVO
-  8  5,9  - AsA
-  8  7,8  - AsOAK
   8  5,5  - AsOR
   8  6,5  - AsOR
   8  6,7  - AsOR
@@ -2862,17 +2776,10 @@
   8  6,4  | BuHR
   8  6,3  | BuRH
   8  7,7  | ByRES
-  8  2,10 - EAr
   8  2,10 - ERe
   8  2,10 - ERf
-  8  2,10 - ERr
-  8  2,10 - EaR
   8  2,10 - EdO
-  8  2,10 - EeR
   8  2,10 - EmO
-  8  2,10 - ErR
-  8  2,10 - EyR
-  8  6,6  | HAB
   8  6,6  | HABe
   8  6,6  | HABu
   8  6,6  | HAaB
@@ -2888,7 +2795,6 @@
   8  6,6  | HoBO
   8  3,5  - NAa
   8  3,5  - NAb
-  8  3,5  - NAd
   8  3,5  - NAf
   8  3,5  - NAk
   8  3,5  - NAm
@@ -3090,13 +2996,11 @@
   8  5,7  - lORA
   8  5,5  - mAAR
   8  5,7  - mAAR
-  8  6,5  - mAB
   8  6,7  - mAB
   8  5,5  - mARA
   8  5,7  - mARA
   8  5,5  - mARO
   8  5,7  - mARO
-  8  6,5  - mOB
   8  6,7  - mOB
   8  5,5  - mORA
   8  5,7  - mORA
@@ -3125,7 +3029,6 @@
   8  6,5  - sAB
   8  5,2  | sABRA
   8  5,5  | sABRA
-  8  5,7  - sARA
   8  6,5  | sHAB
   8  5,7  - sOAR
   8  6,5  - sOB
@@ -3169,8 +3072,6 @@
   7  6,5  - AOR
   7  6,7  - AOR
   7  6,9  - AR
-  7  6,5  - ARA
-  7  6,7  - ARA
   7  5,4  | ARAB
   7  5,4  | ARABa
   7  5,4  | ARABs
@@ -3211,7 +3112,6 @@
   7  5,7  - AiR
   7  5,3  | AlBA
   7  5,6  | AlBA
-  7  5,5  - AmA
   7  5,7  - AmA
   7  5,3  | AmBA
   7  5,6  | AmBA
@@ -3225,7 +3125,6 @@
   7  5,7  - ApA
   7  5,5  - ApR
   7  5,7  - ApR
-  7  5,7  - ArA
   7  5,2  | ArABA
   7  5,4  | ArABA
   7  5,3  | ArBA
@@ -3233,7 +3132,6 @@
   7  5,7  - ArO
   7  5,7  - ArR
   7  5,8  | ArVO
-  7  5,5  - AsA
   7  5,4  | BAAR
   7  5,5  | BAAR
   7  5,5  | BARA
@@ -3249,7 +3147,6 @@
   7  7,7  | BArES
   7  7,7  | BAsES
   7  7,7  | BAtES
-  7  6,5  | BHd
   7  6,5  | BHp
   7  5,4  | BOAR
   7  5,4  | BOARd
@@ -3285,7 +3182,6 @@
   7  5,4  | BhARA
   7  6,4  | BoH
   7  6,4  | BsH
-  7  6,6  | HaB
   7  6,6  | HcB
   7  6,6  | HoB
   7  6,6  | HuB
@@ -3314,7 +3210,6 @@
   7  5,4  | OVA
   7  5,4  | OVAl
   7  4,5  | OY
-  7  4,10 - Ob
   7  4,10 - Od
   7  4,10 - Oe
   7  4,10 - Oh
@@ -3341,7 +3236,6 @@
   7  6,7  - ROAn
   7  6,7  - ROAr
   7  9,8  - ROK
-  7  4,10 - Re
   7  5,7  - ReA
   7  5,7  - RiA
   7  5,7  - RiO
@@ -3374,8 +3268,6 @@
   7  5,5  - aOR
   7  5,7  - aOR
   7  5,9  - aOR
-  7  5,7  - aRA
-  7  5,9  - aRA
   7  5,4  | aRABA
   7  8,8  - aRAK
   7  5,7  - aRO
@@ -3522,21 +3414,14 @@
   7  5,7  - lOR
   7  5,9  - lOR
   7  4,4  | lOY
-  7  6,5  - mAAR
   7  6,7  - mAAR
-  7  5,5  - mAO
-  7  5,7  - mAO
-  7  5,9  - mAO
   7  5,5  - mAR
   7  5,7  - mAR
   7  5,9  - mAR
-  7  6,5  - mARA
   7  6,7  - mARA
   7  8,8  - mARK
-  7  6,5  - mARO
   7  6,7  - mARO
   7  4,4  | mAY
-  7  6,5  - mB
   7  6,7  - mB
   7  5,5  - mOA
   7  5,7  - mOA
@@ -3544,7 +3429,6 @@
   7  5,5  - mOR
   7  5,7  - mOR
   7  5,9  - mOR
-  7  6,5  - mORA
   7  6,7  - mORA
   7  4,4  | mOY
   7  5,5  - nAA
@@ -3565,8 +3449,6 @@
   7  5,3  | nOVA
   7  4,4  | nOY
   7  5,9  - oAR
-  7  6,5  - oB
-  7  6,7  - oB
   7  4,10 - oO
   7  5,9  - oRA
   7  6,5  - pAAR
@@ -3597,9 +3479,6 @@
   7  5,9  - sAA
   7  5,7  - sAO
   7  5,9  - sAO
-  7  5,7  - sAR
-  7  5,9  - sAR
-  7  6,5  - sARA
   7  8,8  - sARK
   7  4,4  | sAY
   7  8,8  - sOAK
@@ -3644,8 +3523,6 @@
   7  5,9  - wAR
   7  8,8  - wARK
   7  4,4  | wAY
-  7  5,7  - wOA
-  7  5,9  - wOA
   7  8,8  - wOAK
   7  8,8  - wORK
   7  5,7  - wRO
@@ -3708,8 +3585,6 @@
   6  4,9  | ARF
   6  6,4  | ARHAr
   6  6,4  | ARHAt
-  6  6,5  - ARa
-  6  6,7  - ARa
   6  6,5  - ARb
   6  6,7  - ARb
   6  6,5  - ARc
@@ -3763,8 +3638,6 @@
   6  5,6  | AbV
   6  6,4  | AcHAR
   6  9,8  - AcK
-  6  6,5  - AdA
-  6  6,7  - AdA
   6  6,5  - AdO
   6  6,7  - AdO
   6  5,6  | AdV
@@ -3798,7 +3671,6 @@
   6  6,5  - AlA
   6  6,7  - AlA
   6  6,3  | AlOHA
-  6  5,5  - Am
   6  5,7  - Am
   6  6,5  - AmA
   6  6,7  - AmA
@@ -3814,8 +3686,6 @@
   6  6,5  - ApR
   6  6,7  - ApR
   6  5,7  - Ar
-  6  6,5  - ArA
-  6  6,7  - ArA
   6  5,4  | ArAB
   6  5,4  | ArARAO
   6  5,6  | ArARAO
@@ -3829,8 +3699,6 @@
   6  9,6  | ArRAU
   6  6,3  | ArRHA
   6  5,5  - As
-  6  6,5  - AsA
-  6  6,7  - AsA
   6  9,8  - AsK
   6  5,5  - At
   6  5,7  - At
@@ -4083,7 +3951,6 @@
   6  5,5  - dA
   6  5,7  - dA
   6  6,9  - dA
-  6  9,9  - dAE
   6  9,8  - dAK
   6  5,5  | dARB
   6  5,5  - dO
@@ -4256,7 +4123,6 @@
   5  5,3  | AROAr
   5  5,2  | AROmA
   5  9,8  | ARU
-  5  5,9  - ARa
   5  6,3  | ARcH
   5  9,7  | ARdU
   5  5,9  - ARg
@@ -4411,8 +4277,6 @@
   5  6,3  | ORtH
   5  5,9  - ORy
   5  4,9  | OaF
-  5  6,5  - Ob
-  5  6,7  - Ob
   5  6,5  - Od
   5  6,7  - Od
   5  6,5  - Oe
@@ -4457,7 +4321,6 @@
   5  5,9  - RAp
   5  6,3  | RAsH
   5  6,3  | RAtH
-  5  5,9  - RAw
   5  5,9  - RAx
   5  5,9  - RAy
   5  1,8  - RAyA
@@ -4467,7 +4330,6 @@
   5  1,8  - RAyAt
   5  1,8  - RAyOn
   5  1,10 - REA
-  5  4,10 | RF
   5  6,5  | RHA
   5  6,5  | RHO
   5  6,5  | RHOs
@@ -4481,12 +4343,10 @@
   5  5,9  - ROk
   5  5,9  - ROm
   5  5,9  - ROo
-  5  5,9  - ROw
   5  5,9  - ROx
   5  5,9  - ROy
   5  6,7  - Re
   5  4,9  | ReF
-  5  6,7  - Rf
   5  6,5  - aAA
   5  6,7  - aAA
   5  9,7  | aARU
@@ -4494,8 +4354,6 @@
   5  5,9  | aBO
   5  6,5  - aOR
   5  6,7  - aOR
-  5  6,5  - aRA
-  5  6,7  - aRA
   5  4,9  | aRF
   5  6,5  - aRO
   5  6,7  - aRO
@@ -4538,7 +4396,6 @@
   5  7,7  | fROES
   5  5,5  | gAB
   5  7,7  | gORES
-  5  5,5  | hAB
   5  4,9  | hAF
   5  6,4  | hAHA
   5  7,7  | hARES
@@ -4559,19 +4416,14 @@
   5  7,7  | lORES
   5  5,5  | mAB
   5  6,4  | mAHA
-  5  6,5  - mAO
-  5  6,7  - mAO
-  5  6,5  - mAR
   5  6,7  - mAR
   5  7,7  | mARES
   5  9,7  | mARU
   5  1,8  - mAyOR
   5 10,9  | mIA
-  5  6,5  - mOA
   5  6,7  - mOA
   5  6,4  | mOHA
   5  6,4  | mOHR
-  5  6,5  - mOR
   5  6,7  - mOR
   5  7,7  | mORES
   5  5,5  | nAB
@@ -4611,7 +4463,6 @@
   5  5,5  | sAB
   5  6,4  | sAHO
   5  6,5  - sAO
-  5  6,5  - sAR
   5  6,5  | sHOA
   5  6,5  | sHOR
   5  7,7  | sORES
@@ -4738,7 +4589,6 @@
   4  2,10 - EO
   4  2,10 - ER
   4  6,6  | HA
-  4  6,6  | HAb
   4  6,6  | HAd
   4  6,6  | HAe
   4  6,6  | HAf
@@ -4920,7 +4770,6 @@
   4  1,10 - lER
   4  5,8  | lORO
   4  9,8  | lOU
-  4  6,5  - mA
   4  6,7  - mA
   4  7,8  | mAES
   4  6,4  | mAH
@@ -4932,7 +4781,6 @@
   4  1,10 - mEO
   4  1,10 - mER
   4  6,5  | mHO
-  4  6,5  - mO
   4  6,7  - mO
   4  5,8  | mORO
   4  9,8  | mOU
@@ -4969,7 +4817,6 @@
   4  6,4  | rAH
   4  1,8  - rAyA
   4  1,10 - rEA
-  4  4,10 | rF
   4  6,5  | rHA
   4  6,5  | rHO
   4  7,8  | rOES
@@ -5005,8 +4852,6 @@
   4  7,8  | vOES
   4  7,8  | wAES
   4  6,4  | wAH
-  4  1,10 - wEA
-  4  1,10 - wER
   4  6,5  | wHA
   4  6,5  | wHO
   4  6,5  | wHR
@@ -5026,8 +4871,6 @@
   3  1,10 - AEr
   3  1,10 - AEt
   3  5,6  | AOR
-  3  5,4  | ARA
-  3  5,6  | ARA
   3  5,4  | ARAb
   3  5,6  | ARAb
   3  5,4  | ARAd
@@ -5057,7 +4900,6 @@
   3  9,8  | AhU
   3  5,4  | AjAR
   3  5,9  | AkO
-  3  9,8  | AkU
   3  5,4  | AlAR
   3  7,8  | AlES
   3  6,9  - Am
@@ -5076,7 +4918,6 @@
   3  5,4  | AvAR
   3  7,8  | AvES
   3  5,9  | AvO
-  3  6,9  - Aw
   3  7,8  | AwES
   3  6,9  - Ax
   3  7,8  | AxES
@@ -5122,7 +4963,6 @@
   3  5,4  | OsAR
   3  7,8  | OsES
   3  5,9  | OtO
-  3  6,9  - Ow
   3  7,8  | OwES
   3  6,9  - Ox
   3  7,8  | OxES
@@ -5205,7 +5045,6 @@
   3  5,3  | mARA
   3  5,5  | mARA
   3  5,5  | mARO
-  3  6,5  | mH
   3  5,3  | mORA
   3  5,3  | nORA
   3  6,5  | oH
@@ -5221,8 +5060,6 @@
   3  5,3  | rARA
   3  5,5  | rARA
   3  5,4  | rOAR
-  3  5,3  | sARA
-  3  5,5  | sARA
   3  6,5  | sH
   3  5,4  | sOAR
   3  5,3  | sORA
@@ -5257,7 +5094,6 @@
   2  5,6  | AOb
   2  5,6  | AOr
   2  5,6  | AR
-  2  5,6  | ARa
   2  5,6  | ARb
   2  5,6  | ARc
   2  5,6  | ARe
@@ -5279,8 +5115,6 @@
   2  5,6  | AbA
   2  5,6  | AbO
   2  5,6  | AbR
-  2  5,4  | AdA
-  2  5,6  | AdA
   2  5,6  | AdO
   2  5,6  | AeR
   2  5,4  | AgA
@@ -5304,12 +5138,8 @@
   2  5,4  | ApA
   2  5,6  | ApA
   2  5,6  | ApR
-  2  5,4  | ArA
-  2  5,6  | ArA
   2  5,6  | ArO
   2  5,6  | ArR
-  2  5,4  | AsA
-  2  5,6  | AsA
   2  5,4  | AvA
   2  5,6  | AvA
   2  5,6  | AvO
@@ -5372,7 +5202,6 @@
   2 10,9  - aE
   2  7,9  | aES
   2 10,9  | aI
-  2  5,4  | aRA
   2  5,9  | aRO
   2  5,4  | bAA
   2  5,5  | bAA
@@ -5436,8 +5265,6 @@
   2  5,4  | lOA
   2  5,9  | lOO
   2  9,9  | lU
-  2  5,5  | mAO
-  2  5,9  | mAO
   2  5,5  | mAR
   2 10,9  - mE
   2  3,10 | mE
@@ -5449,7 +5276,9 @@
   2  5,4  | nAA
   2  5,5  | nAA
   2  5,5  | nAR
+  2 10,9  - nE
   2  3,10 | nE
+  2 10,9  | nI
   2  5,4  | nOA
   2  5,9  | nOO
   2  9,9  | nU
@@ -5472,7 +5301,6 @@
   2  5,5  | sAA
   2  5,5  | sAO
   2  5,9  | sAO
-  2  5,5  | sAR
   2  4,8  | sO
   2  5,4  | tAA
   2  5,5  | tAA
@@ -5490,8 +5318,6 @@
   2  5,5  | vAR
   2  5,5  | wAR
   2  3,10 | wE
-  2  7,9  | wES
-  2  5,4  | wOA
   2  5,9  | wOO
   2  5,9  | wRO
   2  7,9  | xES

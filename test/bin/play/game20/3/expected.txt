@@ -93,7 +93,9 @@
  31  5,11 - TOKEnS
  30  2,9  - ERIK
  30  2,9  - IROK
+ 30  1,11 - KEPIS
  30  1,9  - KERO
+ 30  1,11 - KOPIS
  30  1,9  - KORE
  30  1,9  - KORI
  30  3,9  - REKIsS
@@ -129,6 +131,8 @@
  28  5,9  - KEIrS
  28  5,9  - KEIsT
  28  5,9  - KEOuT
+ 28  1,11 - KEPIs
+ 28  1,11 - KEPiS
  28  1,7  | KETa
  28  5,9  - KElTOI
  28  5,9  - KIEfS
@@ -140,9 +144,13 @@
  28  5,9  - KOElS
  28  5,9  - KOErI
  28  5,9  - KOInE
+ 28  1,11 - KOPIs
+ 28  1,11 - KOPiS
  28  1,7  | KOTa
  28  5,9  - KOToS
+ 28  1,11 - KePIS
  28  5,9  - KeTOSE
+ 28  1,11 - KoPIS
  28  1,7  | OKIa
  28  1,7  | OKTa
  28  5,11 - SIKEr
@@ -177,6 +185,7 @@
  27  5,9  - KEISt
  27  5,9  - KEITa
  27  5,9  - KEITh
+ 27  1,11 - KEPI
  27  5,9  - KETO
  27  5,9  - KETOl
  27  5,9  - KEaTS
@@ -206,6 +215,7 @@
  27  5,9  - KInOT
  27  5,9  - KIsTS
  27  5,9  - KItES
+ 27  1,11 - KOPI
  27  5,9  - KOSIn
  27  5,9  - KOlIS
  27  5,9  - KOpIS
@@ -318,6 +328,7 @@
  26  7,2  | sKITS
  25  1,7  | IOTaS
  25  7,3  | KEIsT
+ 25  1,11 - KEPi
  25  1,8  | KEa
  25  7,3  | KEaS
  25  5,9  - KEaS
@@ -365,6 +376,7 @@
  25  5,9  - KItE
  25  7,3  | KItS
  25  5,9  - KItS
+ 25  1,11 - KOPi
  25  1,8  | KOa
  25  5,9  - KOaE
  25  7,3  | KOaS
@@ -391,12 +403,14 @@
  25  7,3  | KeES
  25  5,9  - KeES
  25  5,9  - KeET
+ 25  1,11 - KePI
  25  5,9  - KeTO
  25  7,3  | KhIS
  25  5,9  - KiST
  25  5,9  - KiTE
  25  7,3  | KiTS
  25  5,9  - KiTS
+ 25  1,11 - KoPI
  25  5,9  - KoSO
  25  5,9  - KoTO
  25  7,3  | KrIS
@@ -487,6 +501,7 @@
  24  1,9  - pIROT
  24  1,9  - tORET
  23  6,9  - EOIThS
+ 23  2,11 - EPITOKe
  23  6,9  - ESTOIl
  23  6,11 - IKEy
  23  6,11 - IKOn
@@ -499,6 +514,7 @@
  23  6,11 - IrOK
  23  1,11 - KEP
  23  7,2  | KETOSe
+ 23  1,11 - KIP
  23  7,4  | KISmET
  23  7,2  | KITES
  23  7,1  | KITErS
@@ -603,6 +619,7 @@
  22  7,2  | bIKES
  22  7,2  | cOKES
  22  7,2  | dIKES
+ 22  2,11 - ePITOKE
  22  1,8  - gOWKIT
  22  6,11 - hIKE
  22  7,2  | hIKES
@@ -644,6 +661,7 @@
  21  7,4  | KOSIn
  21  7,2  | KeETS
  21  1,11 - KeP
+ 21  1,11 - KiP
  21  7,2  | KiTES
  21  7,2  | KnITS
  21  7,2  | KnOTS
@@ -1037,6 +1055,7 @@
  18  5,9  - TOKo
  18  4,2  | TOKyO
  18  1,11 - TOPES
+ 18  1,11 - TOPIS
  18  1,9  - TORE
  18  1,9  - TORI
  18  7,1  | TObIES
@@ -1123,6 +1142,7 @@
  18  7,2  | yETIS
  17  7,4  | EOSIn
  17  7,3  | EOnS
+ 17  2,11 - EPIrOT
  17  2,9  - EROTIc
  17  7,5  | ESTOc
  17  7,5  | ESTOp
@@ -1486,6 +1506,7 @@
  16  2,2  | OuKIA
  16  7,4  | OuST
  16  7,4  | OwSE
+ 16  3,11 - PISOTE
  16  7,6  | SEI
  16  7,6  | SEId
  16  7,6  | SEIf
@@ -1493,6 +1514,7 @@
  16  7,6  | SEIs
  16  7,6  | SEIt
  16  7,6  | SEOr
+ 16  1,11 - SEPIa
  16  1,11 - SEPOy
  16  7,6  | SET
  16  7,6  | SETa
@@ -1508,6 +1530,9 @@
  16  2,2  | SIKrA
  16  7,6  | SIOl
  16  7,6  | SIOn
+ 16  1,11 - SIPEd
+ 16  1,11 - SIPEr
+ 16  1,11 - SIPEs
  16  7,6  | SIT
  16  5,11 - SITEd
  16  5,11 - SITEs
@@ -1592,6 +1617,7 @@
  16  7,6  | STOw
  16  6,2  | STaKE
  16  6,2  | SToKE
+ 16  1,11 - SaPIT
  16  6,2  | ScOKE
  16  2,2  | SiTKA
  16  2,2  | SlOKA
@@ -1605,6 +1631,7 @@
  16  6,2  | StOKE
  16  6,2  | TEKkE
  16  2,2  | TEKyA
+ 16  1,11 - TEPId
  16  1,11 - TEPOr
  16  1,11 - TEPaS
  16  7,3  | TESs
@@ -1615,6 +1642,7 @@
  16  5,11 - TIErS
  16  7,3  | TIEs
  16  2,2  | TIKkA
+ 16  1,11 - TIPiS
  16  7,4  | TIS
  16  5,11 - TIdES
  16  5,11 - TIkES
@@ -1636,9 +1664,11 @@
  16  1,11 - TOPEe
  16  1,11 - TOPEr
  16  1,11 - TOPEs
+ 16  1,11 - TOPIs
  16  1,11 - TOPaS
  16  1,11 - TOPeE
  16  1,11 - TOPeS
+ 16  1,11 - TOPiS
  16  1,11 - TOPoI
  16  1,11 - TOPoS
  16  7,4  | TOS
@@ -1666,8 +1696,11 @@
  16  1,7  | TSIa
  16  7,5  | TShI
  16  1,11 - TaPES
+ 16  1,11 - TaPIS
  16  6,2  | ThOKE
+ 16  1,11 - TiPIS
  16  1,11 - ToPES
+ 16  1,11 - ToPIS
  16  1,11 - ToPOI
  16  1,11 - ToPOS
  16  6,2  | TrIKE
@@ -1842,6 +1875,7 @@
  16  7,3  | zITS
  15  6,9  - EKeS
  15  6,9  - EKoI
+ 15  2,11 - EPIT
  15  2,11 - EPOS
  15  2,9  - ERaTO
  15  7,5  | ES
@@ -1875,7 +1909,6 @@
  15  7,4  | IhS
  15  7,4  | InS
  15  7,4  | IpS
- 15  7,4  | IqS
  15  7,4  | IrS
  15  7,4  | ItS
  15  2,5  | KATE
@@ -1912,6 +1945,9 @@
  15  7,4  | OzS
  15  3,11 - PETItS
  15  3,11 - PETOS
+ 15  3,11 - PISOTe
+ 15  3,11 - PISOtE
+ 15  3,11 - PITOnS
  15  3,11 - POSIEd
  15  3,11 - POSIEs
  15  3,11 - POSIT
@@ -1937,6 +1973,7 @@
  15  7,6  | SEx
  15  7,6  | SEz
  15  7,6  | SI
+ 15  1,11 - SIPE
  15  6,7  - SITKa
  15  7,6  | SIa
  15  7,6  | SIb
@@ -2030,10 +2067,12 @@
  15  6,7  - TEaKS
  15  5,9  - TEaKS
  15  7,4  | TEsS
+ 15  1,11 - TIPE
  15  6,5  - TIcKS
  15  6,7  - TIcKS
  15  5,9  - TIcKS
  15  1,11 - TOPE
+ 15  1,11 - TOPI
  15  6,5  - TOSK
  15  6,7  - TOSK
  15  5,9  - TOSK
@@ -2069,7 +2108,6 @@
  15  1,9  - aIRE
  15  7,4  | aIS
  15  2,9  - aRITE
- 15  7,5  | aSE
  15  7,5  | aST
  15  6,9  - aTOKE
  15  1,9  - bERI
@@ -2095,11 +2133,13 @@
  15  4,4  | cOOST
  15  1,11 - cOPEI
  15  1,11 - cOPES
+ 15  1,11 - cOPIS
  15  1,9  - cORE
  15  7,4  | cOS
  15  7,5  | cSI
  15  7,5  | cST
  15  7,4  | cTS
+ 15  1,11 - dEPIT
  15  1,11 - dEPOT
  15  1,9  - dERO
  15  5,11 - dIETS
@@ -2140,6 +2180,7 @@
  15  5,9  - hOKI
  15  4,4  | hOOSE
  15  1,11 - hOPES
+ 15  1,11 - hOPIS
  15  1,9  - hORE
  15  7,5  | hSI
  15  7,4  | hTS
@@ -2147,9 +2188,11 @@
  15  7,5  | iST
  15  7,4  | iTS
  15  5,9  - jOKE
+ 15  1,11 - kEPIS
  15  1,9  - kERO
  15  7,4  | kES
  15  5,9  - kIKE
+ 15  1,11 - kOPIS
  15  1,9  - kORE
  15  1,9  - kORI
  15  7,4  | kOS
@@ -2186,6 +2229,7 @@
  15  5,11 - mOSTE
  15  5,11 - mOTES
  15  7,4  | mTS
+ 15  1,11 - nEPIT
  15  1,9  - nERI
  15  5,9  - nIKE
  15  7,4  | nIS
@@ -2203,10 +2247,13 @@
  15  1,9  - pERI
  15  7,4  | pES
  15  5,9  - pIKE
+ 15  1,11 - pIPES
+ 15  1,11 - pIPET
  15  1,9  - pIRO
  15  7,4  | pIS
  15  5,9  - pOKE
  15  1,11 - pOPES
+ 15  1,11 - pOPIE
  15  1,9  - pORE
  15  7,4  | pOS
  15  7,5  | pSI
@@ -2218,6 +2265,7 @@
  15  1,11 - rEPOT
  15  7,4  | rES
  15  5,11 - rIOTS
+ 15  1,11 - rIPES
  15  5,11 - rITES
  15  5,11 - rOIST
  15  4,4  | rOOSE
@@ -2231,6 +2279,7 @@
  15  1,9  - sERI
  15  1,9  - sERO
  15  5,11 - sIEST
+ 15  1,11 - sIPES
  15  1,9  - sIRE
  15  7,4  | sIS
  15  5,11 - sITES
@@ -2253,6 +2302,7 @@
  15  5,11 - tOITS
  15  5,9  - tOKE
  15  1,11 - tOPES
+ 15  1,11 - tOPIS
  15  1,9  - tORE
  15  1,9  - tORI
  15  7,4  | tOS
@@ -2265,9 +2315,9 @@
  15  1,9  - vIRE
  15  7,4  | vIS
  15  1,9  - wERI
- 15  7,4  | wES
  15  6,5  - wESKIT
  15  6,7  - wESKIT
+ 15  1,11 - wIPES
  15  1,9  - wIRE
  15  7,4  | wIS
  15  6,5  - wISKET
@@ -2280,6 +2330,7 @@
  15  7,4  | xIS
  15  7,4  | yES
  15  5,9  - yIKE
+ 15  1,11 - yIPES
  15  7,4  | yIS
  15  5,9  - yOKE
  15  5,9  - yOKS
@@ -2359,6 +2410,15 @@
  14  3,11 - PETOs
  14  3,11 - PEtITS
  14  3,11 - PEwITS
+ 14  3,11 - PISO
+ 14  3,11 - PISoTE
+ 14  3,11 - PITOn
+ 14  3,11 - PIThES
+ 14  3,11 - PIThOS
+ 14  3,11 - PITiES
+ 14  3,11 - PIlOSE
+ 14  3,11 - PIlOTS
+ 14  3,11 - PIsOTE
  14  3,11 - POSIt
  14  3,11 - POTI
  14  3,11 - POdITE
@@ -2372,6 +2432,8 @@
  14  3,11 - PaTIOS
  14  3,11 - PaTISE
  14  3,11 - PaTOIS
+ 14  3,11 - PiSOTE
+ 14  3,11 - PiTIES
  14  3,11 - PuTOIS
  14  3,9  - RETIeS
  14  3,9  - RETOsS
@@ -2529,6 +2591,7 @@
  14  4,5  | mOSE
  14  4,5  | mOST
  14  4,5  | mOTE
+ 14  4,5  | mOTO
  14  5,9  - nEK
  14  4,5  | nOSE
  14  4,5  | nOTE
@@ -2574,7 +2637,10 @@
  14  5,9  - zEK
  13  2,6  - ABOVES
  13  6,9  - EKe
+ 13  2,11 - EPIl
+ 13  2,11 - EPIt
  13  2,11 - EPOs
+ 13  2,11 - EPiT
  13  2,11 - EPoS
  13  1,8  | ETa
  13  4,8  | EeN
@@ -2619,6 +2685,10 @@
  13  3,11 - PEtIT
  13  3,11 - PEtOS
  13  3,11 - PEwIT
+ 13  3,11 - PIThS
+ 13  3,11 - PIlOT
+ 13  3,11 - PInOT
+ 13  3,11 - PIrOT
  13  3,11 - POSiT
  13  3,11 - POlIS
  13  3,11 - POlIT
@@ -2649,6 +2719,7 @@
  13  3,9  - RoTES
  13  3,9  - RoTOS
  13  1,8  | SEa
+ 13  1,11 - SIPe
  13  1,8  | SIa
  13  5,8  | SKAT
  13  5,3  | SKIV
@@ -2674,6 +2745,7 @@
  13  2,8  - SWInK
  13  2,8  - SWOnK
  13  1,11 - SaPO
+ 13  1,11 - SiPE
  13  1,11 - SoPE
  13  1,11 - SuPE
  13  1,11 - TEPa
@@ -2683,12 +2755,15 @@
  13  5,9  - TEcK
  13  1,8  | TEj
  13  5,9  - TEuK
+ 13  1,11 - TIPe
+ 13  1,11 - TIPi
  13  5,9  - TIcK
  13  5,9  - TInK
  13  5,9  - TOISE
  13  5,9  - TOISEd
  13  5,9  - TOIlES
  13  1,11 - TOPe
+ 13  1,11 - TOPi
  13  1,11 - TOPo
  13  1,8  - TOWlIKE
  13  1,8  | TOa
@@ -2712,11 +2787,15 @@
  13  5,9  - TaSK
  13  4,8  | TeN
  13  1,11 - TePE
+ 13  1,11 - TiPE
+ 13  1,11 - TiPI
  13  5,9  - ToOK
  13  1,11 - ToPE
+ 13  1,11 - ToPI
  13  1,11 - ToPO
  13  5,9  - ToSK
  13  5,9  - TuIK
+ 13  1,11 - TuPI
  13  5,9  - TuSK
  13  5,6  | VOTyAK
  13  5,6  | VaKIA
@@ -2731,6 +2810,7 @@
  13  3,8  - WOKaS
  13  3,8  - WOrKS
  13  2,11 - aPES
+ 13  2,11 - aPIS
  13  6,5  - aTIK
  13  2,8  - aWOKE
  13  6,5  - bISK
@@ -2741,6 +2821,7 @@
  13  6,7  - dISK
  13  6,5  - dOEK
  13  6,7  - dOEK
+ 13  2,11 - ePIT
  13  2,11 - ePOS
  13  6,5  - fISK
  13  6,7  - fISK
@@ -2766,6 +2847,7 @@
  12  6,5  - EIKOnS
  12  6,7  - EIKOnS
  12  1,9  - EIR
+ 12  2,11 - EPI
  12  2,9  - ERaT
  12  6,5  - ESKImO
  12  6,7  - ESKImO
@@ -2835,6 +2917,12 @@
  12  3,11 - PErI
  12  3,11 - PEsO
  12  3,11 - PEtO
+ 12  3,11 - PISh
+ 12  3,11 - PISo
+ 12  3,11 - PITh
+ 12  3,11 - PInO
+ 12  3,11 - PIrO
+ 12  3,11 - PIsO
  12  3,11 - POSh
  12  3,11 - POTi
  12  3,11 - POtI
@@ -2843,6 +2931,7 @@
  12  3,11 - PaTO
  12  3,11 - PeSO
  12  3,11 - PeTO
+ 12  3,11 - PiSO
  12  3,11 - PoTI
  12  3,9  - REfITS
  12  3,9  - RElIST
@@ -2940,10 +3029,14 @@
  12  1,11 - dOPE
  12  6,9  - eKE
  12  2,3  | eOSATE
+ 12  1,11 - hIPE
  12  1,11 - hOPE
+ 12  1,11 - hOPI
  12  5,8  | iKAT
  12  6,9  - iKE
+ 12  1,11 - kEPI
  12  4,3  | kOKOS
+ 12  1,11 - kOPI
  12  1,11 - lOPE
  12  2,3  | mISATE
  12  2,2  | mISEAT
@@ -2952,16 +3045,24 @@
  12  5,8  | oKAS
  12  6,9  - oKE
  12  1,11 - pEPO
+ 12  1,11 - pIPE
  12  1,11 - pOPE
+ 12  1,11 - rIPE
  12  1,11 - rOPE
  12  4,3  | sEKOS
+ 12  1,11 - sIPE
  12  5,8  | sKAT
  12  5,3  | sKIVE
  12  1,11 - sOPE
  12  2,2  | tESTAO
+ 12  1,11 - tIPE
  12  1,11 - tOPE
+ 12  1,11 - tOPI
  12  6,9  - uKE
  12  5,4  | vIVEK
+ 12  1,11 - wIPE
+ 12  1,11 - xIPE
+ 12  1,11 - yIPE
  11  4,3  | EIKOn
  11  6,5  - EIKOn
  11  6,7  - EIKOn
@@ -3075,6 +3176,9 @@
  11  6,11 - OyES
  11  3,11 - PES
  11  3,11 - PET
+ 11  3,11 - PIE
+ 11  3,11 - PIS
+ 11  3,11 - PIT
  11  3,11 - POE
  11  3,11 - POI
  11  3,11 - POS
@@ -3121,6 +3225,7 @@
  11  5,11 - SIKa
  11  5,11 - SIKe
  11  5,11 - SIKh
+ 11  1,11 - SIP
  11  5,11 - SIaK
  11  5,11 - SIcK
  11  5,11 - SIlK
@@ -3188,6 +3293,7 @@
  11  6,7  - TIKOr
  11  5,11 - TIKe
  11  5,11 - TIKi
+ 11  1,11 - TIP
  11  2,3  | TISAnE
  11  5,11 - TIcK
  11  5,9  - TIdES
@@ -3294,6 +3400,7 @@
  10  6,1  | EOSaTE
  10  2,11 - EPa
  10  2,11 - EPe
+ 10  2,11 - EPi
  10  2,9  - ERIa
  10  2,9  - ERIk
  10  2,9  - ERIn
@@ -3631,6 +3738,7 @@
  10  5,11 - dOKE
  10  1,8  - dOWSET
  10  2,11 - ePE
+ 10  2,11 - ePI
  10  5,2  | eSTIVE
  10  2,5  | fATE
  10  6,1  | fETISE
@@ -3762,10 +3870,8 @@
  10  1,8  - yOWIES
   9  6,5  - EKOi
   9  6,7  - EKOi
-  9  2,9  | ENc
   9  2,9  | ENd
   9  2,3  | ESKAr
-  9  2,8  | EaN
   9  2,8  | EeN
   9  2,8  | EoN
   9  2,5  | IArE
@@ -3852,6 +3958,16 @@
   9  3,11 - PEs
   9  3,11 - PEt
   9  3,11 - PEw
+  9  3,11 - PIa
+  9  3,11 - PIe
+  9  3,11 - PIg
+  9  3,11 - PIl
+  9  3,11 - PIm
+  9  3,11 - PIn
+  9  3,11 - PIr
+  9  3,11 - PIs
+  9  3,11 - PIt
+  9  3,11 - PIx
   9  3,11 - POa
   9  3,11 - POb
   9  3,11 - POd
@@ -3871,6 +3987,9 @@
   9  3,11 - PeE
   9  3,11 - PeS
   9  3,11 - PeT
+  9  3,11 - PiE
+  9  3,11 - PiS
+  9  3,11 - PiT
   9  3,11 - PoE
   9  3,11 - PoI
   9  3,11 - PoS
@@ -4002,6 +4121,7 @@
   9  1,11 - SeP
   9  5,3  | ShIVE
   9  5,3  | ShOVE
+  9  1,11 - SiP
   9  5,3  | SkIVE
   9  5,3  | SlIVE
   9  5,11 - SoK
@@ -4124,6 +4244,7 @@
   9  1,8  - TaWSE
   9  5,9  - TeES
   9  5,9  - TiES
+  9  1,11 - TiP
   9  5,9  - ToES
   9  1,11 - ToP
   9  1,8  - ToWIE
@@ -4400,7 +4521,6 @@
   9  1,9  - vER
   9  6,5  - wEKI
   9  6,7  - wEKI
-  9  1,9  - wER
   9  1,9  - wIR
   9  5,11 - wOK
   9  6,5  - wOKE
@@ -4556,6 +4676,7 @@
   8  6,4  | KrEIS
   8  6,3  | KyTES
   8  4,10 | NE
+  8  4,10 | NI
   8  2,10 | NO
   8  4,10 | NO
   8  5,9  | OAK
@@ -4631,6 +4752,7 @@
   8  1,9  - OuR
   8  2,2  | OuSIA
   8  3,11 - PE
+  8  3,11 - PI
   8  3,11 - PO
   8  3,9  - RaT
   8  3,9  - ReT
@@ -4774,7 +4896,6 @@
   8  2,2  | SaETA
   8  6,2  | SaITE
   8  6,7  - SaK
-  8  1,9  - SaR
   8  1,8  - SaWT
   8  6,2  | ScOTE
   8  1,9  - SeR
@@ -4984,7 +5105,6 @@
   8  5,6  | VOIlA
   8  3,8  - WEI
   8  3,8  - WEIr
-  8  3,8  - WES
   8  3,8  - WESe
   8  3,8  - WESt
   8  3,8  - WET
@@ -5105,6 +5225,7 @@
   8  6,3  | dIKES
   8  6,2  | dIOSE
   8  2,2  | dIOTA
+  8  1,11 - dIP
   8  5,4  | dIVES
   8  5,4  | dIVET
   8  5,4  | dIVOT
@@ -5116,18 +5237,21 @@
   8  5,8  | fEAK
   8  2,2  | fESTA
   8  6,2  | fESTE
+  8  1,11 - fIP
   8  5,4  | fIVES
   8  1,11 - fOP
   8  6,2  | fOSIE
   8  6,4  | gEEKS
   8  2,2  | gEISA
   8  6,2  | gESTE
+  8  1,11 - gIP
   8  5,4  | gIVES
   8  4,3  | gOTOS
   8  1,11 - hEP
   8  1,8  - hEWS
   8  1,8  - hEWT
   8  6,3  | hIKES
+  8  1,11 - hIP
   8  5,4  | hIVES
   8  6,2  | hOISE
   8  6,3  | hOKES
@@ -5146,6 +5270,7 @@
   8  1,11 - kEP
   8  6,3  | kIKES
   8  2,2  | kIOEA
+  8  1,11 - kIP
   8  1,11 - kOP
   8  4,3  | kOTOS
   8  5,8  | lEAK
@@ -5153,6 +5278,7 @@
   8  1,11 - lEP
   8  5,4  | lEVIS
   8  6,3  | lIKES
+  8  1,11 - lIP
   8  5,4  | lIVES
   8  6,3  | lOKET
   8  1,11 - lOP
@@ -5171,13 +5297,13 @@
   8  6,2  | mOSTE
   8  5,4  | mOVES
   8  5,4  | mOVIE
-  8  1,8  - mOWE
   8  1,8  - mOWS
   8  1,8  - mOWT
   8  1,11 - nEP
   8  1,8  - nEWS
   8  1,8  - nEWT
   8  2,2  | nIOTA
+  8  1,11 - nIP
   8  4,3  | nITOS
   8  6,2  | nOISE
   8  1,8  - nOWS
@@ -5197,6 +5323,7 @@
   8  2,2  | pIETA
   8  6,2  | pIETE
   8  6,3  | pIKES
+  8  1,11 - pIP
   8  6,2  | pISTE
   8  5,4  | pIVOT
   8  6,2  | pOISE
@@ -5209,6 +5336,7 @@
   8  1,11 - rEP
   8  2,2  | rETIA
   8  6,2  | rETIE
+  8  1,11 - rIP
   8  5,4  | rIVES
   8  5,4  | rIVET
   8  5,8  | rOAK
@@ -5228,6 +5356,7 @@
   8  5,8  | sIAK
   8  6,3  | sIKES
   8  6,3  | sIKET
+  8  1,11 - sIP
   8  6,3  | sKEES
   8  6,4  | sKEES
   8  6,3  | sKEET
@@ -5253,6 +5382,7 @@
   8  6,2  | tESTE
   8  1,8  - tEWS
   8  6,3  | tIKES
+  8  1,11 - tIP
   8  6,2  | tOISE
   8  6,3  | tOKES
   8  1,11 - tOP
@@ -5262,6 +5392,7 @@
   8  2,8  - tWIT
   8  2,8  - tWOS
   8  2,2  | vESTA
+  8  1,11 - vIP
   8  2,2  | vISTA
   8  5,4  | vIVES
   8  5,4  | vIVOS
@@ -5277,11 +5408,13 @@
   8  1,11 - yEP
   8  1,8  - yEWS
   8  6,3  | yIKES
+  8  1,11 - yIP
   8  6,3  | yOKES
   8  1,8  - yOWE
   8  1,8  - yOWS
   8  1,8  - yOWT
   8  2,8  - yWIS
+  8  1,11 - zIP
   7  6,5  - EIdOS
   7  6,7  - EIdOS
   7  6,4  | EKE
@@ -5320,7 +5453,6 @@
   7  6,7  - EdITS
   7  6,9  - EdITS
   7  4,4  | EgOS
-  7  4,4  | EjOO
   7  2,3  | EkKA
   7  6,5  - ElIOT
   7  6,7  - ElIOT
@@ -5902,15 +6034,12 @@
   7  5,6  | VIS
   7  5,6  | VOE
   7  3,8  - WE
-  7  3,8  - WEa
   7  3,8  - WEb
   7  3,8  - WEd
   7  3,8  - WEe
   7  3,8  - WEi
   7  3,8  - WEm
   7  3,8  - WEn
-  7  3,8  - WEr
-  7  3,8  - WEs
   7  3,8  - WEt
   7  3,8  - WEy
   7  3,8  - WId
@@ -5922,11 +6051,8 @@
   7  3,8  - WIt
   7  3,8  - WIz
   7  3,8  - WO
-  7  3,8  - WOa
   7  3,8  - WOb
-  7  3,8  - WOd
   7  3,8  - WOe
-  7  3,8  - WOg
   7  3,8  - WOk
   7  3,8  - WOn
   7  3,8  - WOo
@@ -6025,6 +6151,7 @@
   7  5,9  - dITE
   7  5,9  - dITS
   7  5,4  | dIVE
+  7  5,4  | dIVS
   7  6,5  - dKS
   7  6,7  - dKS
   7  6,4  | dOEK
@@ -6451,7 +6578,6 @@
   6  1,5  - Ka
   6  6,4  | KaE
   6  6,8  | KaS
-  6  1,5  - Kb
   6  2,4  | KeA
   6  5,8  | KeA
   6  6,8  | KeS
@@ -6464,12 +6590,11 @@
   6  2,4  | KrA
   6  5,8  | KrA
   6  6,8  | KrS
-  6  2,4  | KuA
-  6  5,8  | KuA
   6  6,4  | KuE
   6  6,4  | KyE
   6  4,10 | Na
   6  4,10 | Ne
+  6  4,10 | Ni
   6  2,10 | No
   6  4,10 | No
   6  2,10 | Nu
@@ -6603,6 +6728,7 @@
   6  6,9  - OyES
   6  3,11 - Pa
   6  3,11 - Pe
+  6  3,11 - Pi
   6  3,11 - Po
   6  3,9  - REa
   6  3,9  - REb
@@ -7091,6 +7217,7 @@
   6  5,6  | VEx
   6  5,6  | VIa
   6  5,6  | VIc
+  6  5,6  | VId
   6  5,6  | VIe
   6  5,6  | VIi
   6  5,6  | VIl
@@ -7832,7 +7959,6 @@
   5  3,8  - WaT
   5  3,8  - WeE
   5  3,8  - WeI
-  5  3,8  - WeS
   5  3,8  - WeT
   5  3,8  - WhO
   5  3,8  - WhS
@@ -8046,7 +8172,6 @@
   5  6,7  - lOTS
   5  1,8  - lOW
   5  2,4  | mEAT
-  5  2,7  - mEE
   5  4,3  | mEIO
   5  6,5  - mEIO
   5  6,7  - mEIO
@@ -8091,6 +8216,7 @@
   5  5,11 - mOT
   5  6,5  - mOTE
   5  6,7  - mOTE
+  5  4,3  | mOTO
   5  6,5  - mOTS
   5  6,7  - mOTS
   5  1,8  - mOW
@@ -8275,7 +8401,6 @@
   5  1,8  - vOW
   5  2,7  - wEE
   5  2,7  - wEI
-  5  2,7  - wES
   5  6,5  - wEST
   5  6,7  - wEST
   5  6,5  - wETS
@@ -8489,9 +8614,6 @@
   4  6,11 - IkE
   4  6,9  - IlE
   4  6,11 - IlE
-  4  4,4  | InO
-  4  6,9  - InO
-  4  6,11 - InO
   4  6,9  - InS
   4  6,11 - InS
   4  6,3  | InSEE
@@ -8501,8 +8623,6 @@
   4  5,11 - Io
   4  6,9  - IpS
   4  6,11 - IpS
-  4  6,9  - IqS
-  4  6,11 - IqS
   4  6,9  - IrE
   4  6,11 - IrE
   4  6,4  | IrEOS
@@ -9143,8 +9263,6 @@
   4  5,8  | aIAS
   4  6,9  - aIS
   4  6,9  - aIT
-  4  1,7  - aSE
-  4  6,9  - aSE
   4  6,9  - aST
   4  1,7  - aTE
   4  6,9  - aTE
@@ -9189,7 +9307,6 @@
   4  4,5  | cOT
   4  6,3  | cOTES
   4  1,7  - cTE
-  4  2,5  | dAE
   4  2,5  | dAO
   4  2,5  | dAT
   4  5,9  - dE
@@ -9290,6 +9407,8 @@
   4  5,8  | lEAT
   4  1,7  - lEE
   4  6,4  | lEETS
+  4  5,9  - lI
+  4  5,11 - lI
   4  5,8  | lIAS
   4  1,7  - lIE
   4  6,4  | lIEST
@@ -9300,12 +9419,10 @@
   4  4,5  | lOO
   4  4,5  | lOT
   4  2,5  | mAE
-  4  2,5  | mAO
   4  2,5  | mAT
   4  5,9  - mE
   4  5,8  | mEAS
   4  5,8  | mEAT
-  4  1,7  - mEE
   4  6,4  | mEETS
   4  6,3  | mETES
   4  5,9  - mI
@@ -9328,6 +9445,8 @@
   4  5,9  - nE
   4  5,8  | nEAT
   4  1,7  - nEE
+  4  5,9  - nI
+  4  5,11 - nI
   4  5,8  | nIAS
   4  5,9  - nO
   4  5,11 - nO
@@ -9453,12 +9572,8 @@
   4  2,5  | zAT
   4  1,7  - zEE
   4  4,5  | zOO
-  3  2,5  | EAd
-  3  5,9  | EAd
   3  2,5  | EAm
   3  5,9  | EAm
-  3  2,5  | EAn
-  3  5,9  | EAn
   3  2,5  | EAr
   3  5,9  | EAr
   3  2,5  | EAt
@@ -9501,7 +9616,6 @@
   3  6,5  - Eh
   3  6,7  - Eh
   3  6,9  - Eh
-  3  4,3  | EjOO
   3  6,4  | EkES
   3  6,5  - El
   3  6,7  - El
@@ -9642,10 +9756,6 @@
   3  2,3  | OSsA
   3  6,3  | OSsE
   3  6,8  | OaST
-  3  6,5  - Ob
-  3  6,7  - Ob
-  3  6,9  - Ob
-  3  6,11 - Ob
   3  1,7  - ObE
   3  6,4  | ObES
   3  2,3  | ObIA
@@ -9775,8 +9885,6 @@
   3  5,9  | SAo
   3  2,5  | SAp
   3  5,9  | SAp
-  3  2,5  | SAr
-  3  5,9  | SAr
   3  2,5  | SAt
   3  5,9  | SAt
   3  5,9  | SAu
@@ -10162,8 +10270,6 @@
   3  2,9  | aN
   3  2,9  - aR
   3  6,9  - aS
-  3  5,8  | aSA
-  3  6,5  - aSE
   3  2,3  | aSEA
   3  2,3  | aSIA
   3  6,8  | aSSE
@@ -10494,7 +10600,6 @@
   3  6,8  | mOST
   3  6,5  - mOT
   3  6,7  - mOT
-  3  2,3  | mOTA
   3  6,3  | mOTE
   3  6,5  - mTS
   3  6,7  - mTS
@@ -10740,7 +10845,6 @@
   3  6,4  | vOET
   3  2,3  | vOTA
   3  6,3  | vOTE
-  3  5,8  | wEA
   3  6,4  | wEEI
   3  6,5  | wEEI
   3  6,4  | wEES
@@ -10749,8 +10853,6 @@
   3  6,5  | wEET
   3  6,5  - wEI
   3  6,7  - wEI
-  3  6,5  - wES
-  3  6,7  - wES
   3  6,3  | wESE
   3  6,5  | wESE
   3  6,5  | wEST
@@ -10768,7 +10870,6 @@
   3  6,5  - wIT
   3  6,7  - wIT
   3  6,3  | wITE
-  3  5,8  | wOA
   3  6,5  - wOE
   3  6,7  - wOE
   3  6,4  | wOES
@@ -10944,12 +11045,9 @@
   2  2,4  | IlA
   2  5,8  | IlA
   2  6,4  | IlE
-  2  2,4  | ImA
-  2  5,8  | ImA
   2  1,5  - In
   2  6,8  | InS
   2  6,8  | IpS
-  2  6,8  | IqS
   2  2,4  | IrA
   2  5,8  | IrA
   2  6,4  | IrE
@@ -10971,7 +11069,6 @@
   2  6,9  | OS
   2  6,9  | OSc
   2  6,9  | OSe
-  2  1,5  - Ob
   2  2,4  | ObA
   2  5,8  | ObA
   2  6,4  | ObE
@@ -11139,9 +11236,6 @@
   2  6,5  - aI
   2  6,8  | aIS
   2  6,5  - aS
-  2  2,4  | aSA
-  2  6,4  | aSE
-  2  6,9  | aSE
   2  6,8  | aSS
   2  6,9  | aSS
   2  6,9  | aST
@@ -11181,7 +11275,6 @@
   2  6,4  | cTE
   2  4,4  | cTO
   2  6,8  | cTS
-  2  5,9  | dAE
   2  5,9  | dAO
   2  5,9  | dAS
   2  5,9  | dAT
@@ -11318,6 +11411,7 @@
   2  4,4  | lEO
   2  6,5  | lEO
   2  6,5  | lET
+  2  6,7  - lI
   2  6,4  | lIE
   2  6,8  | lIS
   2  6,7  - lO
@@ -11326,15 +11420,12 @@
   2  4,4  | lOO
   2  6,9  | lST
   2  5,9  | mAE
-  2  5,9  | mAO
   2  5,9  | mAS
   2  5,9  | mAT
   2  6,5  - mE
   2  2,7  - mE
   2  6,7  - mE
   2  2,4  | mEA
-  2  6,4  | mEE
-  2  6,5  | mEE
   2  4,4  | mEO
   2  6,5  | mEO
   2  6,5  | mES
@@ -11364,6 +11455,8 @@
   2  4,4  | nEO
   2  6,5  | nEO
   2  6,5  | nET
+  2  6,5  - nI
+  2  6,7  - nI
   2  6,8  | nIS
   2  6,5  - nO
   2  6,7  - nO
@@ -11498,17 +11591,13 @@
   2  6,5  - wE
   2  2,7  - wE
   2  6,7  - wE
-  2  2,4  | wEA
   2  6,4  | wEE
   2  6,5  | wEE
   2  6,5  | wEI
-  2  6,5  | wES
-  2  6,8  | wES
   2  6,5  | wET
   2  6,8  | wIS
   2  6,5  - wO
   2  6,7  - wO
-  2  2,4  | wOA
   2  6,4  | wOE
   2  4,4  | wOO
   2  6,8  | wOS

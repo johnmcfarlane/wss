@@ -139,6 +139,8 @@
  25  2,7  | AMIdE
  25  2,7  | AMIdO
  25  2,7  | AMIgO
+ 25  2,7  | AMInE
+ 25  2,7  | AMInO
  25  2,7  | AnIM
  25 10,1  | EM
  25  2,7  | EmIM
@@ -153,6 +155,7 @@
  25  2,6  | MOdI
  25  2,6  | MOmI
  25 10,1  | OM
+ 25  2,7  | OMInA
  25  2,8  | bIMA
  25  2,8  | dIME
  25  2,8  | hIMA
@@ -169,7 +172,6 @@
  25  2,8  | wIME
  24 10,3  | AMENe
  24  8,8  - ELm
- 24  2,9  | IMA
  24  4,4  - MAREs
  24  4,4  - MOOEd
  24  4,4  - MOREs
@@ -199,14 +201,16 @@
  22 10,1  | oM
  21  2,7  | AMIa
  21  2,7  | AMId
+ 21  2,7  | AMIl
+ 21  2,7  | AMIn
  21  2,7  | AMIs
  21  2,7  | AMIt
  21  8,1  - AREW
  21  7,1  - ARrOW
  21  7,1  - ArROW
+ 21  2,7  | EMIl
  21  2,7  | EMIm
  21  2,7  | EMIt
- 21  2,9  | IMa
  21  2,9  | IMi
  21  2,9  | IMu
  21  2,8  | MIA
@@ -214,8 +218,14 @@
  21  2,8  | MIaO
  21  2,8  | MIdE
  21  2,8  | MIkE
+ 21  2,8  | MIlA
+ 21  2,8  | MIlE
+ 21  2,8  | MIlO
  21  2,8  | MImA
  21  2,8  | MImE
+ 21  2,8  | MInA
+ 21  2,8  | MInE
+ 21  2,8  | MInO
  21  2,8  | MIsE
  21  2,8  | MIsO
  21  2,8  | MItE
@@ -300,7 +310,6 @@
  19 11,8  | MEER
  19  2,6  | Ma
  19  2,6  | Me
- 19  2,6  | Mh
  19  7,3  - MiREX
  19  2,6  | Mo
  19  7,3  - MuREX
@@ -316,6 +325,7 @@
  19  1,7  | bOKOM
  19 11,7  | eMEER
  19  1,7  | kOKAM
+ 19  2,8  - nOEMI
  19  1,7  | pOKOM
  19 11,7  | sMEAR
  19 11,7  | sMEER
@@ -396,7 +406,9 @@
  17  2,8  | MIb
  17  2,8  | MId
  17  2,8  | MIg
+ 17  2,8  | MIl
  17  2,8  | MIm
+ 17  2,8  | MIn
  17  2,8  | MIs
  17  2,8  | MIt
  17  2,8  | MIx
@@ -413,7 +425,6 @@
  17  4,4  - MOtE
  17  4,4  - MOuE
  17  4,4  - MOvE
- 17  4,4  - MOwE
  17  4,4  - MOzE
  17  4,4  - MaRE
  17  4,4  - MeRE
@@ -476,7 +487,6 @@
  15  7,3  - EMbOX
  15  6,7  - HOoD
  15  6,7  - HoOD
- 15  5,7  | MAE
  15  5,4  - MAEd
  15  5,4  - MAEs
  15  8,3  - MARX
@@ -770,7 +780,6 @@
  13 11,8  | MEAt
  13  5,8  | MEAw
  13 11,8  | MEAw
- 13  5,8  | MEE
  13  5,8  | MEEd
  13  5,8  | MEEk
  13  5,8  | MEEr
@@ -784,7 +793,6 @@
  13  7,2  | MEtTAR
  13  8,3  | MOUP
  13  7,2  | MOrTAR
- 13  5,7  | MaE
  13  1,7  | MaKAR
  13  1,7  | MaKER
  13  8,3  - MaRX
@@ -898,6 +906,7 @@
  12  1,10 - AtI
  12  8,2  - AtMA
  12  8,8  | EF
+ 12  2,8  | EIlA
  12  8,8  - EL
  12  1,6  - EMIc
  12  1,6  - EMIl
@@ -974,7 +983,6 @@
  12  8,2  - MOnA
  12  1,5  | MOpOKE
  12  8,2  - MOrA
- 12  8,2  - MOtA
  12  8,2  - MOxA
  12  8,2  - MOyA
  12  1,6  - MaIA
@@ -1041,7 +1049,6 @@
  12  7,3  - fEROX
  12  4,6  | fERS
  12  1,6  - fRIM
- 12  8,2  - gOMA
  12  1,6  - gRIM
  12  8,2  - iRMA
  12  8,2  - jAMA
@@ -1054,6 +1061,7 @@
  12  8,2  - mAMA
  12  1,6  - nAIM
  12  8,2  - nAMA
+ 12  2,6  | nAOI
  12  8,2  - nEMA
  12  8,2  - nOMA
  12  1,6  - pRIM
@@ -1093,7 +1101,6 @@
  11  4,7  | ERS
  11  1,5  - ERVuM
  11  8,3  - ERyX
- 11  1,5  | EiMAK
  11  1,7  | MAKE
  11  1,7  | MAKEr
  11  1,7  | MAKEs
@@ -1117,7 +1124,6 @@
  11  1,5  | MERaK
  11  7,3  | META
  11  5,8  | MEa
- 11  5,8  | MEe
  11  5,8  | MEo
  11  1,5  | MErAK
  11  5,8  | MEu
@@ -1129,7 +1135,6 @@
  11  1,7  | MOKE
  11  1,7  | MOKEs
  11  1,7  | MOKO
- 11  7,3  | MOTA
  11  1,5  - MOVE
  11  1,5  - MOVEd
  11  1,5  - MOVEr
@@ -1216,6 +1221,7 @@
  10  8,2  | AcOUP
  10  5,7  | AgEE
  10  5,7  | AkEE
+ 10  5,7  | AlEE
  10  8,3  - AlEX
  10  8,3  - AmEX
  10  1,7  | AnKER
@@ -1248,7 +1254,6 @@
  10  1,6  | MAwK
  10  5,8  | ME
  10 11,8  | MEA
- 10 11,8  | MEE
  10 11,8  | MEO
  10  1,7  - MERiAH
  10  1,6  | MEaK
@@ -1311,7 +1316,6 @@
  10  1,6  - MoI
  10  1,7  | MoKE
  10  1,7  | MoKO
- 10  7,3  | MoTA
  10  8,3  | MoUP
  10  1,5  - MoVE
  10  7,11 - MuDEE
@@ -1335,6 +1339,8 @@
  10  5,7  | OgEE
  10  5,7  | OkEE
  10  8,3  - OlAX
+ 10  5,7  | OlEA
+ 10  5,7  | OlEO
  10  1,7  | OnKER
  10  1,7  | OsKAR
  10  5,7  | OxEA
@@ -1393,7 +1399,6 @@
  10  2,6  - hIM
  10  1,7  | hOKER
  10  8,4  | hUPA
- 10  9,2  - iMA
  10  1,6  - iMI
  10  2,6  - jIM
  10  1,7  | jOKER
@@ -1460,7 +1465,6 @@
   9 10,1  | Ay
   9  1,4  | EAROcK
   9 11,9  | EAm
-  9 11,9  | EAn
   9 11,9  | EAr
   9 11,9  | EAt
   9 11,9  | EEl
@@ -1510,7 +1514,6 @@
   9  7,1  | OMEnTA
   9  4,4  - ORAE
   9 10,3  - OX
-  9 10,1  | Ob
   9 10,1  | Od
   9 10,1  | Of
   9 10,1  | Oh
@@ -1571,7 +1574,6 @@
   9  2,8  - fOE
   9  2,8  - fOO
   9  9,3  - fOX
-  9  4,7  | fRS
   9  4,4  - gAME
   9  8,3  | gAUP
   9  5,8  | gEOM
@@ -1598,7 +1600,11 @@
   9  1,5  | kOORKA
   9  4,4  - lAME
   9  9,3  - lAX
+  9  5,8  | lEAM
   9  9,3  - lEX
+  9  2,8  - lOA
+  9  2,8  - lOE
+  9  2,8  - lOO
   9  8,3  | lOUP
   9  9,3  - lOX
   9  9,3  - mAX
@@ -1608,7 +1614,10 @@
   9  2,8  - mOO
   9  8,3  | mOUP
   9  4,4  - nAME
+  9  5,8  | nEEM
+  9  2,8  - nOA
   9  4,4  - nOME
+  9  2,8  - nOO
   9  8,3  | nOUP
   9  9,3  - nOX
   9  1,8  | oKER
@@ -1720,7 +1729,8 @@
   8  2,9  | IdE
   8  2,9  | IfE
   8  2,9  | IkE
-  8  2,9  | ImA
+  8  2,9  | IlA
+  8  2,9  | IlE
   8  2,9  | IsE
   8  2,9  | ItA
   8  1,9  | KaE
@@ -1732,7 +1742,6 @@
   8  1,9  | KoA
   8  1,9  | KoR
   8  1,9  | KrA
-  8  1,9  | KuA
   8  1,9  | KuE
   8  1,9  | KyE
   8  7,11 - MADE
@@ -1744,7 +1753,6 @@
   8  7,11 - MEDEa
   8 11,8  | MEa
   8 11,8  | MEd
-  8 11,8  | MEe
   8  7,2  | MEnTA
   8 11,8  | MEo
   8 11,8  | MEt
@@ -1755,7 +1763,6 @@
   8  7,11 - MODEr
   8  7,11 - MODEs
   8  5,4  - MaE
-  8  5,4  - MeE
   8  1,7  | OAKEd
   8  1,7  | OAKEn
   8  1,5  - OAVEs
@@ -1763,6 +1770,7 @@
   8  5,7  - OHO
   8  2,10 - OI
   8  2,8  | OIk
+  8  2,8  | OIl
   8  1,11 - OMS
   8  3,8  - OO
   8  1,5  | OOlAK
@@ -1988,12 +1996,13 @@
   7  5,7  | AkE
   7 11,7  | AkEE
   7  7,11 - AlDER
+  7  5,7  | AlE
   7 11,7  | AlEE
   7  1,6  | AmOK
+  7  5,7  | AnE
   7  5,7  | ApE
   7  7,11 - ArDER
   7  1,5  - ArVO
-  7  5,7  | AsE
   7  1,7  | AsKR
   7  5,7  | AtE
   7 11,7  | AwEE
@@ -2044,10 +2053,8 @@
   7  5,4  - MAs
   7  5,4  - MAu
   7  1,7  - MERO
-  7  5,4  - MEe
   7  5,4  - MEs
   7  5,4  - MEu
-  7  5,7  - MH
   7  1,7  - MORA
   7  1,7  - MORE
   7  1,7  - MORO
@@ -2099,8 +2106,10 @@
   7  5,7  | OkE
   7 11,7  | OkEE
   7  7,11 - OlDER
+  7  5,7  | OlE
   7 11,7  | OlEA
   7 11,7  | OlEO
+  7  5,7  | OnE
   7  2,6  | Oo
   7  3,8  - OoRIE
   7  5,7  | OpE
@@ -2266,7 +2275,6 @@
   7  1,7  | lOKE
   7  1,6  | lOOK
   7  1,5  - lOVE
-  7  5,7  | mAE
   7  1,7  | mAKE
   7  1,7  | mAKO
   7  1,6  | mARK
@@ -2385,10 +2393,8 @@
   6  1,8  | AKa
   6  1,8  | AKe
   6  1,8  | AKo
-  6  1,8  | AKu
   6  1,7  - AMRa
   6  7,2  | AORTA
-  6  9,2  - ARA
   6  5,4  - ARE
   6 11,7  | AREa
   6 11,7  | AREd
@@ -2446,7 +2452,6 @@
   6  9,11 - DEA
   6  9,11 - DEE
   6  9,11 - DER
-  6  9,7  - DcA
   6  9,7  - DsR
   6  1,11 - EASeR
   6 10,4  - EE
@@ -2531,7 +2536,6 @@
   6  1,7  - MARu
   6  1,7  - MARx
   6  1,7  - MARy
-  6 11,7  | MEE
   6  1,7  - MER
   6  1,7  - MERc
   6  1,7  - MERd
@@ -2854,15 +2858,19 @@
   6  4,4  - kOAE
   6  8,2  - kORA
   6  4,4  - kORE
+  6  2,6  | lA
   6  1,6  - lAIR
   6  1,7  | lAK
   6  4,4  - lARE
   6  1,5  - lAV
   6 11,8  | lEA
+  6  5,8  | lEAR
   6 11,8  | lEE
+  6  5,8  | lEER
   6  1,7  | lEK
   6 11,8  | lEO
   6  1,5  - lEV
+  6  2,6  | lO
   6  1,6  - lOIR
   6  8,2  - lORA
   6  4,4  - lORE
@@ -2874,7 +2882,6 @@
   6  2,6  | mE
   6 11,8  | mEA
   6  5,8  | mEAR
-  6 11,8  | mEE
   6  5,8  | mEER
   6  1,6  - mEIO
   6 11,8  | mEO
@@ -2884,15 +2891,20 @@
   6  1,6  - mOIR
   6  8,2  - mORA
   6  4,4  - mORE
+  6  2,6  | nA
   6  1,6  - nAIO
   6  1,6  - nAIR
   6  1,7  | nAK
   6  4,4  - nARE
+  6  2,6  | nE
   6 11,8  | nEA
+  6  5,8  | nEAR
   6 11,8  | nEE
+  6  5,8  | nEER
   6  1,7  | nEK
   6 11,8  | nEO
   6  5,8  - nIM
+  6  2,6  | nO
   6  1,6  - nOIR
   6  8,2  - nORA
   6  4,4  - nORE
@@ -2934,7 +2946,6 @@
   6  1,7  | rOK
   6  1,6  - sAIR
   6  1,7  | sAK
-  6  8,2  - sARA
   6  4,4  - sARE
   6  1,5  - sAV
   6 11,8  | sEA
@@ -2981,7 +2992,6 @@
   6  1,6  - wAIR
   6  4,4  - wARE
   6  1,7  - wARM
-  6 11,8  | wEA
   6 11,8  | wEE
   6  1,6  - wEIR
   6  5,8  - wIM
@@ -3033,7 +3043,6 @@
   5  1,11 - ApSE
   5  5,4  - ArE
   5  1,11 - ArSE
-  5  5,4  - AsE
   5  1,11 - AsSE
   5  5,4  - AtE
   5  2,7  | AtI
@@ -3070,7 +3079,6 @@
   5  6,7  - Hr
   5  6,7  - Ht
   5  1,9  | Ka
-  5  1,9  | Kb
   5  1,9  | Ki
   5 11,8  | ME
   5  2,7  - MRs
@@ -3080,7 +3088,6 @@
   5  2,11 - MSs
   5 11,7  | MaE
   5  1,7  - MaR
-  5 11,7  | MeE
   5  1,7  - MeR
   5  1,7  - MfR
   5  1,7  - MgR
@@ -3201,7 +3208,6 @@
   5  7,2  | cORTA
   5  5,4  - cRE
   5  7,2  | cRETA
-  5  5,4  - dAE
   5  5,8  | dEA
   5  5,8  | dEE
   5  7,2  | dEOTA
@@ -3226,16 +3232,20 @@
   5  2,7  | hOI
   5  5,4  - iRE
   5  2,11 - iSM
-  5  1,11 - jMS
   5  5,4  - jOE
   5  5,4  - kAE
   5  5,8  | kEA
+  5  5,8  | lEA
+  5  5,8  | lEE
+  5  5,8  | lEO
   5  5,4  - lOE
   5  5,4  - mAE
   5  5,8  | mEA
-  5  5,8  | mEE
   5  5,8  | mEO
   5  5,4  - nAE
+  5  5,8  | nEA
+  5  5,8  | nEE
+  5  5,8  | nEO
   5  7,10 | oM
   5  1,11 - oMS
   5  5,4  - oRE
@@ -3299,7 +3309,6 @@
   4  1,11 - AbS
   4  7,2  | AcETA
   4  7,3  | AcTA
-  4  9,2  - AdA
   4  1,11 - AdS
   4  1,11 - AeS
   4  9,2  - AgA
@@ -3320,9 +3329,7 @@
   4  7,3  | AnTA
   4  7,2  | AoRTA
   4  9,2  - ApA
-  4  9,2  - ArA
   4  1,11 - ArS
-  4  9,2  - AsA
   4  1,11 - AsS
   4  7,3  | AsTA
   4  1,6  - AtI
@@ -3331,9 +3338,7 @@
   4  9,2  - AvA
   4  9,2  - AwA
   4  1,11 - AyS
-  4  5,9  | EAd
   4  5,9  | EAm
-  4  5,9  | EAn
   4  5,9  | EAr
   4  5,9  | EAt
   4  5,4  - EAu
@@ -3386,6 +3391,7 @@
   4  2,9  | Ib
   4  2,9  | Id
   4  2,9  | If
+  4  2,9  | In
   4  2,9  | Io
   4  2,9  | Is
   4  2,9  | It
@@ -3429,7 +3435,6 @@
   4  1,11 - OdS
   4  4,6  | Oe
   4  1,11 - OeS
-  4  4,6  | Of
   4  1,11 - OhS
   4  9,2  - OkA
   4  7,3  | OkTA
@@ -3509,7 +3514,6 @@
   4  9,2  - aAA
   4  6,4  - aE
   4  2,6  - aIR
-  4  9,2  - aRA
   4 10,1  - aW
   4  9,2  - bAA
   4  7,11 - bADE
@@ -3626,6 +3630,7 @@
   4  4,6  | nE
   4  9,2  - nEA
   4  1,6  - nEI
+  4  2,10 - nI
   4  9,2  - nOA
   4  7,11 - nODE
   4  1,11 - nOSER
@@ -3693,12 +3698,10 @@
   4  7,11 - wADE
   4  6,4  - wE
   4 10,4  - wE
-  4  9,2  - wEA
   4  7,11 - wEDE
   4  1,6  - wEI
   4 10,4  | wEN
   4  2,6  - wIR
-  4  9,2  - wOA
   4  7,11 - wODE
   4  7,11 - yADE
   4  6,4  - yE
@@ -3719,7 +3722,6 @@
   3  2,7  - ARR
   3  1,7  - ARRi
   3  1,7  - ARRy
-  3  2,11 - ASE
   3  2,11 - ASEa
   3  2,11 - ASEm
   3  2,11 - ASOp
@@ -3789,7 +3791,6 @@
   3  2,11 - OSaR
   3  2,11 - OSsA
   3  2,11 - OSsE
-  3  7,10 | Ob
   3  7,10 | Od
   3  6,4  - Oe
   3  7,10 | Oe
@@ -3824,7 +3825,6 @@
   3  6,4  - Re
   3  3,11 - SAE
   3  3,11 - SAO
-  3  3,11 - SAR
   3  3,11 - SEA
   3  3,11 - SER
   3  3,11 - SOE
@@ -3914,7 +3914,6 @@
   3  2,11 - kSAR
   3  1,7  - lARE
   3  1,11 - lASE
-  3  7,3  | lATA
   3  1,7  - lORA
   3  1,7  - lORE
   3  1,7  - lORO
@@ -3926,14 +3925,12 @@
   3  1,11 - mESA
   3  1,11 - mESO
   3  7,3  | mETA
-  3  5,7  - mH
   3  5,8  - mIA
   3  5,8  - mIR
   3  1,7  - mORA
   3  1,7  - mORE
   3  1,7  - mORO
   3  1,11 - mOSE
-  3  7,3  | mOTA
   3  1,7  - nARE
   3  1,7  - nARR
   3  1,11 - nASO
@@ -4014,7 +4011,6 @@
   3  7,3  | zETA
   2 11,8  | AE
   2  2,7  - AR
-  2  2,7  - ARa
   2  2,7  - ARb
   2  2,7  - ARc
   2  2,7  - ARe
@@ -4031,10 +4027,7 @@
   2  2,7  - ARx
   2  2,7  - ARy
   2  2,11 - AS
-  2  2,11 - ASa
   2  2,11 - ASb
-  2  2,11 - ASe
-  2  2,11 - ASg
   2  2,11 - ASh
   2  2,11 - ASk
   2  2,11 - ASp
@@ -4054,7 +4047,6 @@
   2  1,7  - ApR
   2 11,7  | ArE
   2  1,7  - ArR
-  2 11,7  | AsE
   2 11,7  | AtE
   2 11,7  | AvE
   2 11,7  | AwE
@@ -4151,7 +4143,6 @@
   2  3,11 - SAn
   2  3,11 - SAo
   2  3,11 - SAp
-  2  3,11 - SAr
   2  3,11 - SAt
   2  3,11 - SAu
   2  3,11 - SAv
@@ -4198,7 +4189,6 @@
   2  3,11 - SaA
   2  3,11 - SaE
   2  3,11 - SaO
-  2  3,11 - SaR
   2  3,11 - ScR
   2  3,11 - SeA
   2  3,11 - SeE
@@ -4230,15 +4220,12 @@
   2  2,6  - aI
   2  5,8  - aI
   2  1,7  - aOR
-  2  2,7  - aRA
   2  2,7  - aRE
   2 11,7  | aRE
   2  2,7  - aRO
   2  1,7  - aRR
   2  2,7  - aRR
   2  1,11 - aRS
-  2  2,11 - aSA
-  2  2,11 - aSE
   2 10,2  - bA
   2 11,7  | bAE
   2  1,7  - bAR
@@ -4267,7 +4254,6 @@
   2  2,7  - cRO
   2  1,11 - cRS
   2 10,2  - dA
-  2 11,7  | dAE
   2  1,7  - dAR
   2  1,11 - dAS
   2  5,8  | dE
@@ -4368,6 +4354,9 @@
   2  1,11 - lAS
   2 11,7  | lEE
   2  1,7  - lER
+  2  2,6  - lI
+  2  2,8  | lI
+  2  2,8  - lO
   2 11,7  | lOE
   2  1,7  - lOR
   2 10,2  - mA
@@ -4375,7 +4364,6 @@
   2  1,7  - mAR
   2  1,11 - mAS
   2  5,8  | mE
-  2 11,7  | mEE
   2  1,7  - mER
   2  1,11 - mES
   2  2,6  - mI
@@ -4388,7 +4376,12 @@
   2 10,2  - nA
   2 11,7  | nAE
   2  1,7  - nAR
+  2  5,8  | nE
   2 11,7  | nEE
+  2  2,6  - nI
+  2  2,8  | nI
+  2  5,8  - nI
+  2  2,8  - nO
   2  1,7  - nOR
   2  1,11 - nOS
   2  1,7  - oAR
@@ -4436,7 +4429,6 @@
   2 11,7  | rOE
   2  1,11 - rOS
   2 11,7  | sAE
-  2  1,7  - sAR
   2 11,7  | sEE
   2  1,7  - sER
   2  2,6  - sI
@@ -4474,8 +4466,6 @@
   2  1,7  - wAR
   2  1,11 - wAS
   2 11,7  | wEE
-  2  1,7  - wER
-  2  1,11 - wES
   2 11,7  | wOE
   2  1,11 - wOS
   2  2,7  - wRO
@@ -4512,7 +4502,6 @@
   1  3,6  - It
   1  6,8  - It
   1  3,7  - Re
-  1  3,7  - Rf
   1  6,10 - Sh
   1  3,11 - Sh
   1  6,10 - Si

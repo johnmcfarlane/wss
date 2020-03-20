@@ -49,6 +49,7 @@
  20  4,4  - LEIGH
  20  2,2  - LETHY
  20  4,4  - THIEF
+ 19  8,4  | FEIL
  19  3,8  - FLETHER
  19  4,4  - FLITE
  19  4,8  - HEFTER
@@ -67,6 +68,7 @@
  18 11,3  | THEA
  17  9,9  - ATE
  17  3,4  - EHLITE
+ 17  8,5  | FILE
  17  3,4  - GEFILTE
  17  4,9  - GHEE
  17  5,11 - GHEES
@@ -82,7 +84,10 @@
  16  3,9  - FELE
  16  4,9  - FLEE
  16  4,4  - FLIT
+ 16  8,5  | GILE
+ 16  8,4  | HEIL
  16  2,9  - HELGE
+ 16  8,5  | HILE
  16  4,8  - LEFTER
  16  5,4  - LIEF
  16  5,4  - LIGHT
@@ -127,6 +132,7 @@
  14  7,8  - TFR
  14  8,4  | THIG
  14 10,4  | THOF
+ 14  8,5  | TILE
  14  6,2  - YELT
  14  8,1  | aTEF
  13  7,11 - EFS
@@ -154,6 +160,7 @@
  13  3,3  - HELL
  13  5,2  - HYLE
  13  9,7  - IFE
+ 13  8,6  | ILE
  13  8,9  - LAH
  13 10,9  | LAH
  13  6,3  - LEEF
@@ -186,6 +193,7 @@
  12  1,5  - TELEGN
  12  7,4  | TEPE
  12  6,2  - YEH
+ 11  5,3  | EL
  11  7,9  - ELA
  11  2,4  - ELEGIT
  11  8,3  | ELHI
@@ -222,6 +230,7 @@
  10  4,3  - FELE
  10  4,3  - FELT
  10  8,7  - FI
+ 10  8,5  | FIL
  10  5,4  - FILE
  10  5,4  - FILT
  10 11,4  | FLAG
@@ -252,6 +261,7 @@
  10  7,6  | PLF
  10 11,10 | SH
  10  5,9  - TEE
+ 10  8,4  | TEIL
  10  3,9  - TELE
  10  4,3  - TELEG
  10  2,4  - TELEI
@@ -277,6 +287,7 @@
   9  4,5  - FGN
   9  4,2  - FLY
   9  4,3  - GELT
+  9  8,5  | GIL
   9  5,4  - GILE
   9  5,4  - GILT
   9  3,2  - GLEY
@@ -416,6 +427,7 @@
   7  7,8  | TETH
   7  4,2  - THY
   7  8,7  - TIE
+  7  8,5  | TIL
   7  5,4  - TILE
   7  8,9  | TOE
   7  5,2  - TYE
@@ -527,7 +539,6 @@
   5  7,6  | PE
   5  9,8  - REG
   5  9,8  - REH
-  5  9,8  - RF
   5  9,8  - RHE
   5 11,5  | TAEL
   5 11,5  | TAG
@@ -595,6 +606,8 @@
   3  7,9  | ET
   3 11,4  | ETA
   3 11,5  | LA
+  3  5,4  - LI
+  3  8,5  | LI
   3 10,5  | LO
   3  9,8  - REE
   3  9,8  - RET

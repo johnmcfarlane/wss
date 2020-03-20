@@ -34,7 +34,6 @@
  23  3,7  - AVOWS
  23  8,6  | KIVAS
  23  9,5  - WAG
- 23  9,5  - WOG
  22  8,5  | AKOV
  22  6,1  | GAWSIE
  22  6,2  | GOAVE
@@ -56,7 +55,6 @@
  21  9,5  - WAS
  21  7,7  - WAS
  21  7,7  - WIS
- 21  9,5  - WOA
  21  9,5  - WOS
  20  3,7  - AVOW
  20  9,3  | GIVES
@@ -104,7 +102,6 @@
  18 11,4  | WIS
  18  8,4  | WOK
  18 11,4  | WOS
- 17 11,5  | ASG
  17 11,4  | GAS
  17 11,4  | GIS
  17  9,2  | GOAVE
@@ -122,6 +119,7 @@
  16  7,6  | AVOWS
  16  8,3  | GAWKS
  16  8,3  | GOWKS
+ 16  5,7  - IWA
  16  8,6  | KAGO
  16  9,3  | OAVES
  16  8,5  | SKAG
@@ -135,6 +133,7 @@
  16 10,2  | WASIR
  16  9,2  | WAVIES
  15  2,7  - AGIOS
+ 15  3,7  - AGIOS
  15 11,4  | AIS
  15  7,7  - AIS
  15  7,6  | AVOW
@@ -148,6 +147,7 @@
  15 11,6  | SIA
  15  9,4  | SIEVA
  15  9,2  | SOAVE
+ 15  3,7  - VAI
  15  5,3  | VAILS
  15  3,5  - VIA
  15  3,7  - VIA
@@ -156,20 +156,23 @@
  15  7,3  | VIGA
  15  5,3  | VIOLA
  15  5,3  | VIOLS
+ 15  4,7  - VISA
  15  5,3  | VOILA
  14 11,5  | AS
- 14  5,7  - ASG
  14  9,4  | AVES
+ 14  3,7  - AVIS
  14  3,7  - AVOS
  14  9,6  | EVG
  14  7,7  - GI
  14  3,7  - GOAS
+ 14  3,7  - GOIS
  14 11,5  | IS
  14  8,6  | KISWA
  14  8,6  | KVAS
  14  5,1  | OGIVAL
  14 11,5  | OS
  14  6,2  | OSAGE
+ 14  3,7  - OVIS
  14 10,6  | RAGIS
  14  9,3  | SAVE
  14  4,5  - SAW
@@ -177,6 +180,7 @@
  14 11,6  | SI
  14 11,6  | SO
  14  4,7  - SOW
+ 14  2,7  - VAGI
  14  5,3  | VAIL
  14  9,3  | VASE
  14  5,3  | VIAL
@@ -203,11 +207,10 @@
  13  9,4  | WAEG
  13  8,3  | WAIK
  13  5,3  | WAILS
- 13  3,5  - WOA
- 13  3,7  - WOA
  13  8,3  | WOAK
  12  9,5  | AEGIS
  12  2,7  - AGIO
+ 12  3,7  - AGIO
  12  3,7  - AGOS
  12  8,7  - AS
  12  9,4  | AVE
@@ -235,6 +238,7 @@
  12 10,4  | VIRAGO
  12 10,4  | VIRGAS
  12 10,4  | VIRGOS
+ 12  4,7  - VIS
  12  2,5  - VISA
  12  2,7  - VISA
  12  5,4  | VOLGA
@@ -255,6 +259,7 @@
  11  3,5  - GOA
  11  3,7  - GOA
  11  5,3  | GOALS
+ 11  3,7  - GOI
  11  3,5  - IVA
  11  3,7  - IVA
  11  5,5  | OLIVA
@@ -272,10 +277,9 @@
  11 10,5  | VROW
  11  4,7  - WAS
  11  6,3  | WAVE
- 11  9,5  | WEA
  11  9,5  | WEI
- 11  9,5  | WES
  11  5,4  | WILGA
+ 11  4,7  - WIS
  11  6,3  | WIVE
  11  4,7  - WOS
  11  6,3  | WOVE
@@ -291,6 +295,8 @@
  10  5,3  | GAOL
  10  4,7  - GAS
  10  6,3  | GAVE
+ 10  4,7  - GIO
+ 10  4,7  - GIS
  10  9,3  | GISE
  10  6,3  | GIVE
  10  5,5  | GLIOSA
@@ -392,6 +398,7 @@
   9 10,5  | WRIG
   8  9,4  | AGE
   8  7,6  | AGIOS
+  8  4,7  - AIS
   8 10,3  | AIVR
   8  5,5  | ALOW
   8 10,5  | ARVO
@@ -465,6 +472,7 @@
   7  5,4  | GALI
   7  5,4  | GALS
   7  6,5  | GEISA
+  7  4,7  - GI
   7  5,4  | GILA
   7  5,4  | GILO
   7  5,4  | GILS
@@ -476,6 +484,8 @@
   7  5,4  | GOLA
   7  5,4  | GOLI
   7  3,7  - IAO
+  7  5,7  - IO
+  7  5,7  - IS
   7  7,4  | IVA
   7  6,4  | IVE
   7  5,6  | LAW
@@ -493,6 +503,7 @@
   7 10,6  | RIV
   7 10,6  | ROWS
   7  7,3  | SAGA
+  7  3,7  - SAI
   7  3,7  - SAO
   7 10,4  | SARGO
   7  7,5  | SAV
@@ -586,11 +597,8 @@
   6  6,4  | WAE
   6 10,4  | WAR
   6  7,5  | WAS
-  6  6,5  | WEA
   6  6,5  | WEI
-  6  6,5  | WES
   6 10,4  | WIR
-  6  7,4  | WOA
   6  6,4  | WOE
   6 10,5  | WRO
   5  9,5  | AES
@@ -599,12 +607,12 @@
   5  6,4  | AGE
   5  7,6  | AGO
   5 10,4  | AGR
+  5  4,7  - AI
   5  7,6  | AIAS
   5  5,4  | AILS
   5  5,5  | ALSO
   5  5,4  | AOLI
   5 10,5  | ARG
-  5  7,6  | ASG
   5  7,3  | ASIA
   5  7,6  | ASIA
   5  7,6  | AW
@@ -623,6 +631,7 @@
   5 10,5  | GRS
   5  4,7  - IO
   5  9,5  | OES
+  5  4,7  - OI
   5  5,4  | OILS
   5 10,5  | ORIAS
   5 10,6  | RAG
@@ -632,6 +641,7 @@
   5  9,5  | SEA
   5  6,5  | SEG
   5  9,5  | SEI
+  5  4,7  - SI
   5  5,4  | SILO
   5  4,7  - SO
   5  5,4  | SOLA
@@ -644,7 +654,6 @@
   4 10,4  | AIRS
   4  5,5  | ALS
   4 10,5  - AS
-  4  9,4  | ASE
   4 10,3  | ASOR
   4  5,5  | ILA
   4  9,4  | ISE
@@ -687,9 +696,6 @@
   3 10,4  | AOR
   3 10,5  | ARO
   3 10,5  | ARS
-  3  7,4  | ASA
-  3  7,6  | ASA
-  3  6,4  | ASE
   3  9,6  | EO
   3  9,6  | ES
   3  7,5  | IAO
@@ -697,6 +703,7 @@
   3 10,5  | IRS
   3  6,4  | ISE
   3  5,6  | LA
+  3  5,6  | LI
   3  5,6  | LO
   3 10,4  | OAR
   3  9,5  | OE
@@ -714,7 +721,6 @@
   3  6,4  | SAE
   3  7,5  | SAI
   3  7,5  | SAO
-  3 10,4  | SAR
   3  6,5  | SEA
   3  6,5  | SEI
   3  7,4  | SIA

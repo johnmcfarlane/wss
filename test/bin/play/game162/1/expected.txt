@@ -18,22 +18,28 @@
  23  7,6  | SITZ
  23  7,3  | ZITS
  22  6,5  - BIZ
- 22  6,7  - BIZ
  22  1,7  - SIB
  22  1,7  - TIB
  21  3,7  - BI
  21  3,7  - BT
  21  2,7  - IB
+ 21  1,7  - SNIB
+ 20  2,7  - BIN
+ 20  2,7  - NIB
  20  4,3  | NIQAB
  19  2,3  | BIZANT
  19  2,3  | NIQABS
  19  4,5  | SAQIB
+ 19  1,7  - STIB
  19  4,5  | ZABTI
+ 18  2,7  - BIS
+ 18  2,7  - BIT
  18  2,3  | NIQAB
+ 18  2,7  - SIB
+ 18  2,7  - TIB
  18  4,5  | ZAIN
  17  4,6  | ANTIQ
  17  6,5  - BINTS
- 17  6,7  - BINTS
  17  4,5  | NAZIS
  17  2,5  | SABZI
  17  2,5  | SAQIB
@@ -41,33 +47,28 @@
  16  2,6  | ABSIT
  16  4,7  - BIN
  16  6,5  - BINS
- 16  6,7  - BINS
  16  6,5  - BINT
- 16  6,7  - BINT
  16  4,5  | NAIB
  16  4,5  | NAZI
- 16  4,7  - NIB
  16  6,6  | OBITS
  16  7,6  | SNITZ
  16  4,5  | ZANT
+ 15  2,7  - BI
  15  4,4  | BIAS
  15  6,5  - BIST
- 15  6,7  - BIST
  15  6,5  - BITS
- 15  6,7  - BITS
  15  3,5  | BLIST
- 15  7,5  - IQS
- 15  7,7  - IQS
+ 15  3,7  - IB
  15  4,3  | ITZA
  15  2,5  | NAZIS
  15  4,5  | QATS
+ 15  1,7  - SNIT
  15  6,5  | SOZIN
  15  3,3  | STILB
  15  4,5  | ZATI
  15  5,4  | ZImB
  14  4,6  | ASB
  14  6,5  - BIN
- 14  6,7  - BIN
  14  4,7  - BIS
  14  3,5  | BLIN
  14  3,6  | LIQ
@@ -75,18 +76,18 @@
  14  2,5  | NAZI
  14  6,5  - NIBS
  14  6,7  - NIBS
+ 14  2,7  - NIS
+ 14  2,7  - NIT
  14  6,5  | NOZI
- 14  4,7  - SIB
+ 14  2,7  - SIN
  14  4,7  - TBS
- 14  4,7  - TIB
+ 14  2,7  - TIN
  14  2,5  | ZAIN
  14  2,5  | ZANT
  14  6,4  | ZION
  14  6,5  | ZOIST
  13  6,5  - BIS
- 13  6,7  - BIS
  13  6,5  - BIT
- 13  6,7  - BIT
  13  3,5  | BLIT
  13  2,3  | ITZA
  13  2,5  | QATS
@@ -96,10 +97,8 @@
  12  2,6  | ANTIS
  12  4,5  | BAIN
  12  6,5  - BI
- 12  6,7  - BI
  12  7,3  | BINS
  12  3,5  | BLS
- 12  7,4  | IQS
  12  7,5  | ISZ
  12  6,5  - NIB
  12  6,7  - NIB
@@ -109,8 +108,10 @@
  12  7,4  | QIS
  12  7,4  | QTS
  12  6,2  | SINTO
+ 12  2,7  - SIT
  12  7,6  | SNIB
  12  4,4  | STAIN
+ 12  2,7  - TIS
  12  2,5  | ZAT
  12  4,5  | ZAT
  11  4,5  | BASIN
@@ -118,9 +119,10 @@
  11  5,7  - BI
  11  7,3  | BITS
  11  4,7  - IB
- 11  5,7  - IB
+ 11  3,7  - IN
  11  3,6  | LBS
  11  4,5  | NABIS
+ 11  2,7  - NI
  11  6,5  - NIST
  11  6,7  - NIST
  11  6,5  - NITS
@@ -169,9 +171,11 @@
   9  6,4  | BIONT
   9  6,3  | BISON
   9  4,3  | INTA
+  9  3,7  - IS
   9  4,3  | ISBA
   9  7,5  - ISNT
   9  7,7  - ISNT
+  9  3,7  - IT
   9  3,6  | LINTS
   9  2,5  | NABIS
   9  4,4  | NIAS
@@ -182,10 +186,12 @@
   9  6,5  | NOBIS
   9  2,5  | SABIN
   9  4,5  | SAIN
+  9  2,7  - SI
   9  4,4  | STAB
   9  4,5  | TABI
   9  4,5  | TABS
   9  4,5  | TAIN
+  9  2,7  - TI
   8  4,6  | ABS
   8  4,6  | ABT
   8  4,6  | AIN
@@ -216,6 +222,8 @@
   8  3,6  | LINT
   8  2,5  | NABS
   8  2,5  | NAIB
+  8  6,5  - NI
+  8  6,7  - NI
   8  3,4  | NILS
   8  6,5  | NOBS
   8  4,5  | SANIT
@@ -269,6 +277,7 @@
   7  4,5  | NAIS
   7  4,5  | NASI
   7  4,5  | NAST
+  7  4,7  - NI
   7  7,3  | NITS
   7  5,4  | NImB
   7  6,5  | NOB
@@ -381,11 +390,11 @@
   5  2,5  | NAIS
   5  2,5  | NASI
   5  2,5  | NAST
+  5  1,7  - NI
   5  2,4  | NIAS
   5  7,4  | NIST
   5  6,3  | NITO
   5  6,5  | NOTS
-  5  6,6  | OB
   5  6,6  | OINT
   5  2,5  | SAIN
   5  2,5  | SANT
@@ -418,7 +427,6 @@
   4  2,6  | ATIS
   4  2,5  | IAN
   4  4,5  | IAN
-  4  6,4  | INO
   4  7,4  | INS
   4  6,5  | ION
   4  7,5  - IS
@@ -429,6 +437,7 @@
   4  7,5  - IT
   4  1,7  - IT
   4  7,7  - IT
+  4  3,6  | LI
   4  2,5  | NAT
   4  4,5  | NAT
   4  7,4  | NIS

@@ -2,9 +2,10 @@
  41  3,3  - WIG
  36 10,6  | RESEWS
  36 10,6  | SEWERS
+ 36  4,3  - SWIGS
+ 35  4,3  - SWIG
  34  4,8  | ESQ
  33  3,3  - REW
- 33  3,3  - WES
  33  3,3  - WIS
  32 10,5  | EGISES
  32 10,6  | EGRESS
@@ -15,38 +16,59 @@
  32 10,5  | SIEGER
  32 10,5  | SIEGES
  32 10,6  | SWEER
+ 32  4,3  - SWIRE
  32  1,11 - WEEI
  32 10,6  | WIRES
  32 10,6  | WISER
  32 10,6  | WISES
  32 10,6  | WRIES
+ 31  5,3  - WIGS
  30 11,3  | GRISSEN
+ 30  5,3  - WIG
  29  3,3  - REG
  29  3,3  - RIG
+ 29  5,3  - WIRES
+ 29  5,3  - WISER
+ 29  5,3  - WISES
+ 29  5,3  - WISSE
  28 10,6  | GREES
  28 10,6  | REGES
+ 27  4,3  - EGIS
  27  9,9  | FEW
  27  2,11 - SEISE
+ 27  5,3  - WIRE
+ 27  5,3  - WISE
+ 27  5,3  - WISS
+ 26  5,3  - WIR
+ 26  5,3  - WIS
  25  4,3  - EW
  25  9,10 - EW
+ 25  5,3  - GIRSE
  25  3,3  - WE
  24  9,9  | FIG
  24 10,5  | SEISER
  24 10,5  | SERIES
  24 10,5  | SIREES
  24 10,6  | SIREES
+ 23  5,3  - GIES
+ 23  5,3  - GIRE
+ 23  5,3  - GISE
  23 10,10 - WE
+ 22  5,3  - GIE
+ 22  5,3  - GIS
  22  2,11 - SEIS
  21  4,4  | GRISE
  21  3,3  - RES
  21  3,3  - RIE
  20 10,6  | ERSES
+ 20  5,3  - GI
  20 10,6  | RISES
  20  2,11 - SEI
  20 10,6  | SERES
  20 10,6  | SIREE
  20 10,6  | SIRES
  20  1,11 - WEE
+ 19  4,3  - SEIS
  18  9,9  | FER
  18  9,9  | FIE
  18  9,9  | FIR
@@ -55,10 +77,14 @@
  18  9,10 - IRE
  18  9,10 - ISE
  18  1,1  | MACKLES
+ 18  5,3  - SIG
  18  4,4  | SWIRE
  17  6,7  - EARWIG
  17  1,11 - GEE
+ 17  4,3  - SEI
  17 11,7  | SINEW
+ 17  5,3  - SIRES
+ 17  4,3  - SSI
  17  6,7  - WAEG
  17  6,7  - WAGERS
  17  4,4  | WEIR
@@ -75,12 +101,17 @@
  15 11,9  | NEW
  15  4,5  - SEW
  15 11,5  | SEWINGS
+ 15  5,3  - SIER
+ 15  5,3  - SIRE
+ 15  5,3  - SIRS
+ 15  5,3  - SISE
  15  6,7  - WAGE
  15  6,7  - WAGS
  15  6,7  - WASSIE
  15  4,5  | WIRE
  15  4,5  | WISE
  14 10,7  | EGERS
+ 14  5,3  - EIR
  14 10,7  | EWER
  14 10,7  | EWES
  14  4,4  | GEIR
@@ -96,8 +127,11 @@
  14 10,5  | SEIGE
  14 10,5  | SERGE
  14 10,8  | SEWS
+ 14  5,3  - SIE
  14 10,5  | SIEGE
  14 10,7  | SIEGE
+ 14  5,3  - SIR
+ 14  5,3  - SIS
  14 11,6  | SWINGE
  14 11,6  | SWINGS
  14  6,7  - WAIRS
@@ -177,15 +211,14 @@
  12 10,8  | SERG
  12 10,8  | SEW
  12 11,5  | SEWING
+ 12  5,3  - SI
  12  4,5  | SIRE
  12  4,5  | SISE
  12  2,8  - SRIS
  12  5,5  - WE
  12 10,8  | WEE
  12 10,8  | WEI
- 12 10,8  | WER
  12 11,5  | WERING
- 12 10,8  | WES
  12  3,1  | YOW
  11  1,11 - ESE
  11 11,6  | EWING
@@ -209,6 +242,7 @@
  11  6,7  - SAWER
  11  1,11 - SEE
  11  9,5  | SERIFS
+ 11 10,10 - SI
  11 11,6  | SIGNER
  11  2,8  - SRI
  11 11,6  | SWING
@@ -264,6 +298,7 @@
   9  9,8  - ER
   9 11,5  | ERWIN
   9  5,1  | HAIRST
+  9  6,3  - IRES
   9  1,4  - KEG
   9  1,4  - KGR
   9  6,2  | LEWIE
@@ -271,7 +306,6 @@
   9  6,7  - RAGI
   9  6,7  - RAGS
   9  6,7  - RAISES
-  9  9,8  - RE
   9  9,6  | REIFS
   9 11,5  | REIGNS
   9 11,4  | RESIGN
@@ -291,7 +325,6 @@
   8  7,7  - AGERS
   8  7,7  - AREW
   8  7,7  - ARG
-  8  7,7  - ASG
   8  7,7  - AWES
   8  2,11 - EE
   8 10,6  | EIRE
@@ -384,6 +417,9 @@
   7  5,1  | HAIR
   7  5,1  | HARE
   7  5,7  - IRA
+  7  6,3  - IRE
+  7  6,3  - IRS
+  7  6,3  - ISE
   7  1,4  - KER
   7  1,4  - KES
   7  1,4  - KIE
@@ -445,6 +481,7 @@
   6  9,8  | IFE
   6  9,8  | IFS
   6 11,7  | IGN
+  6  6,3  - IS
   6  1,4  - KI
   6  6,2  | LEG
   6  6,2  | LIG
@@ -499,7 +536,6 @@
   5  6,7  - RAS
   5 11,6  | REIN
   5  3,8  - RES
-  5  9,8  | RF
   5  4,5  | RIE
   5  3,8  - RIE
   5 11,7  | RINE
@@ -507,7 +543,6 @@
   5  5,4  | RITES
   5  6,7  - SAE
   5  6,7  - SAI
-  5  6,7  - SAR
   5  4,4  | SEI
   5  4,5  | SIE
   5 11,7  | SINE
@@ -533,7 +568,6 @@
   4  4,1  | ANS
   4  7,7  - ARE
   4  7,7  - ARS
-  4  7,7  - ASE
   4  7,7  - ASS
   4  6,9  | DEE
   4  6,9  | DEI
@@ -580,7 +614,9 @@
   3 10,7  | ISE
   3  5,4  | IST
   3  5,5  | ITS
+  3  6,2  | LI
   3 11,9  | NE
+  3 11,9  | NI
   3  6,4  | REE
   3 10,7  | REE
   3  5,4  | RET

@@ -52,7 +52,6 @@
  34  8,5  - AWE
  33  9,1  | AENEID
  33  9,1  | AILED
- 33  9,1  | AILEEN
  33  9,1  | ALIENE
  33  9,1  | DIAENE
  33  5,5  - DONAL
@@ -64,7 +63,6 @@
  30  9,3  - DAL
  30  9,3  - DAN
  30  9,1  | LINEA
- 30  9,3  - NAD
  30  9,1  | WADE
  30  9,1  | WALE
  30  9,1  | WANE
@@ -83,7 +81,6 @@
  28  6,5  - ODAL
  28  6,2  - PAWNED
  27  9,1  | AINEE
- 27  9,3  - DAE
  27  9,3  - NAE
  26  8,5  - ALE
  26  8,5  - ANE
@@ -129,10 +126,7 @@
  24  7,1  | WINOES
  24 10,3  | WYLED
  23  9,5  - WAE
- 23  9,5  - WEA
  23  9,5  - WEI
- 22  9,3  - EAD
- 22  9,3  - EAN
  22  3,3  - EDWIN
  22  4,7  - IWI
  22 10,3  | LYDIAN
@@ -165,6 +159,7 @@
  20  2,3  - ANILID
  20 10,1  | AWNY
  20 10,3  | AYIELD
+ 20  5,5  | DALEA
  20  9,3  | DELAWN
  20 10,1  | DEWY
  20  7,3  | DOWS
@@ -285,6 +280,9 @@
  17  7,6  | SNAIL
  17  5,5  | WADE
  17  5,5  | WADI
+ 17  5,5  | WALE
+ 17  5,5  | WALI
+ 17  5,5  | WANE
  17  9,3  | WEALD
  17  9,3  | WEANED
  17  9,3  | WEANEL
@@ -324,7 +322,6 @@
  16 10,2  | IDYL
  16 10,1  | INDY
  16 10,1  | INLY
- 16  7,2  | INO
  16  9,5  - LAD
  16 10,1  | LADY
  16  2,7  - LAI
@@ -334,14 +331,15 @@
  16  2,7  - LEI
  16  9,5  - LEN
  16  9,3  | LEWIE
+ 16  3,7  - LI
  16  9,5  - LID
  16  9,5  - LIN
  16 10,1  | LINY
  16  2,8  - LIWAn
- 16  9,5  - NAD
  16  9,5  - NED
  16  2,7  - NEI
  16  9,3  | NEWIE
+ 16  3,7  - NI
  16  9,5  - NID
  16  9,5  - NIL
  16  7,3  | NODS
@@ -363,16 +361,16 @@
  16  6,8  - nAWLE
  15  3,8  - ADEnIN
  15  4,3  - ADIN
+ 15  5,6  | ALEA
+ 15  5,6  | ALIA
  15  4,3  - ALIN
  15  3,8  - ALInED
  15  9,2  | ANELED
  15  4,3  - ANIL
  15  4,8  - ANnELID
- 15  9,5  - DAE
  15  9,5  - DEA
  15  9,3  | DEEWAN
  15  9,5  - DEI
- 15  9,3  | DELINE
  15  9,5  - DIA
  15  9,5  - DIE
  15  9,4  | EDWINA
@@ -393,6 +391,7 @@
  15  9,5  - NEA
  15  9,5  - NEI
  15  5,5  | WAD
+ 15  5,5  | WAN
  15  8,2  | WAZ
  15  4,8  - WAnD
  15  9,3  | WEEDA
@@ -417,7 +416,6 @@
  14  5,8  - AnEW
  14  9,3  - DA
  14  9,5  - DA
- 14  4,3  - DAIL
  14  4,3  - DAIN
  14  8,2  | DAZE
  14  9,5  - DE
@@ -444,6 +442,7 @@
  14  9,3  | LENAD
  14  4,8  - LEnAD
  14  4,8  - LEnIN
+ 14  9,5  - LI
  14  5,3  - LID
  14  4,3  - LIIN
  14  5,3  - LIN
@@ -461,6 +460,7 @@
  14  8,2  | NAZI
  14  9,5  - NE
  14  4,3  - NEIL
+ 14  9,5  - NI
  14  5,3  - NID
  14  3,9  - NIDGE
  14  5,3  - NIL
@@ -495,6 +495,11 @@
  13  5,9  | AWL
  13  5,9  | AWN
  13  5,2  | DA
+ 13  5,5  | DALE
+ 13  5,5  | DALI
+ 13  5,5  | DANA
+ 13  5,5  | DANE
+ 13  5,5  | DANI
  13  4,8  - DAnIEL
  13  4,8  - DAnNIE
  13  9,3  | DEW
@@ -508,7 +513,8 @@
  13  6,9  - GNIDE
  13  4,9  - INGLE
  13  5,5  | LADE
- 13  8,2  | LAZ
+ 13  5,5  | LANA
+ 13  5,5  | LANE
  13  9,3  | LEADEN
  13  9,3  | LEADIN
  13  9,3  | LEANED
@@ -518,6 +524,7 @@
  13  3,9  - LNDG
  13  9,2  | LWEI
  13  5,5  | NADA
+ 13  5,5  | NALE
  13  9,3  | NEELD
  13  9,3  | NEW
  13  4,9  - WAGED
@@ -561,9 +568,7 @@
  12  4,9  - DIGNE
  12  3,9  - DING
  12  5,5  - DON
- 12  9,5  - EAD
  12  5,8  | EADI
- 12  9,5  - EAN
  12  7,8  | EILA
  12  9,4  | ELAINE
  12  9,4  | ELAND
@@ -617,11 +622,11 @@
  11  4,9  - ANGIE
  11  5,9  | AW
  11  5,8  - AnNELID
+ 11  5,5  | DAL
+ 11  5,5  | DAN
  11  2,3  - DANLI
  11  3,8  - DANnIE
- 11  5,8  | EAD
  11  5,5  | EADI
- 11  5,8  | EAN
  11  9,4  | EDILE
  11  3,2  - ELAPID
  11  9,4  | ELDIN
@@ -640,13 +645,13 @@
  11  5,8  - InWALE
  11  5,5  | LAD
  11  4,9  - LAGEN
+ 11  5,5  | LAN
  11  1,8  - LEADIn
  11  9,3  | LEND
  11  4,9  - LIGAN
  11  5,7  - LIIN
  11  4,8  - LInEA
  11  3,3  - LWEI
- 11  5,5  | NAD
  11  4,9  - NAGEL
  11  9,3  | NEELA
  11  9,2  | NEELD
@@ -657,7 +662,6 @@
  11  6,2  - PLEW
  11  4,6  | QI
  11  4,9  - WAGE
- 11  9,3  | WEA
  11  9,3  | WEE
  11  9,2  | WEED
  11  9,2  | WEEL
@@ -788,7 +792,6 @@
   9  9,3  | DEN
   9  9,2  | DIEL
   9  4,2  - DIPL
-  9  5,5  | EAD
   9  5,1  | ED
   9  9,4  | EDNA
   9  5,9  - EGAD
@@ -809,6 +812,7 @@
   9  6,9  - GILA
   9  6,9  - GILE
   9  6,9  - GLD
+  9  5,5  | IAN
   9  5,1  | ID
   9  7,9  | ID
   9  5,9  - IGAD
@@ -856,16 +860,20 @@
   9  4,9  - WIG
   9 10,3  | WYN
   9  6,8  - nAILED
-  8  5,6  | ADA
   8  3,8  - ADEn
   8  3,8  - ADIn
   8  5,9  | AE
   8  5,9  | AI
   8  9,2  | AIEL
+  8  5,6  | ALA
+  8  5,6  | ALE
   8  9,2  | ALEE
   8  3,8  - ALEn
   8  4,9  - ALG
   8  3,8  - ALIn
+  8  5,6  | ANA
+  8  5,6  | ANE
+  8  5,6  | ANI
   8  5,2  - APED
   8  5,8  - AnIL
   8  7,1  | DA
@@ -894,6 +902,7 @@
   8  3,2  - LEAP
   8  4,2  - LEPA
   8  4,8  - LEnA
+  8  7,1  | LI
   8  3,8  - LINnE
   8  4,2  - LIPA
   8  4,8  - LInA
@@ -904,6 +913,7 @@
   8  7,1  | NE
   8  3,2  - NEAP
   8  4,2  - NEPA
+  8  7,1  | NI
   8  4,2  - NIPA
   8  4,8  - NInA
   8  4,8  - NInE
@@ -1032,7 +1042,6 @@
   7  9,2  | WAE
   7  9,2  | WEE
   7  4,3  - WEI
-  7  6,8  - nAD
   7  6,8  - nAN
   7  6,8  - nED
   7  6,8  - nID
@@ -1040,7 +1049,9 @@
   6  5,6  | AD
   6 10,5  - AE
   6 10,5  - AI
+  6  5,6  | AL
   6  9,2  | ALE
+  6  5,6  | AN
   6  9,2  | ANE
   6  4,3  - ANI
   6  4,8  - ANnE
@@ -1077,12 +1088,14 @@
   6  3,8  - LAEn
   6  3,8  - LAIn
   6  3,8  - LEAn
+  6  5,7  - LI
   6  3,8  - LIEn
   6  5,5  - LO
   6 10,3  | LYE
   6  5,5  | NA
   6  3,8  - NAIn
   6  3,8  - NEIn
+  6  5,7  - NI
   6  5,5  - NO
   6 10,3  | NYE
   6  6,2  - PEA
@@ -1098,14 +1111,11 @@
   5  4,8  - AInE
   5  4,8  - ANn
   5 10,3  | AYE
-  5  9,2  | DAE
   5  9,3  | DE
   5  9,2  | DEE
   5  4,3  - DEI
   5  5,3  - DI
   5  9,2  | DIE
-  5  9,4  | EAD
-  5  9,4  | EAN
   5  9,4  | ED
   5  9,4  | EEL
   5  9,4  | EEN
@@ -1116,11 +1126,13 @@
   5  4,3  - LAI
   5  9,2  | LEE
   5  4,3  - LEI
+  5  5,3  - LI
   5  9,2  | LIE
   5  9,2  | NAE
   5  9,3  | NE
   5  9,2  | NEE
   5  4,3  - NEI
+  5  5,3  - NI
   5  6,5  - OE
   5  7,4  | OES
   5  6,2  - PA
@@ -1130,7 +1142,6 @@
   4  5,7  - AI
   4  4,8  - AIn
   4 10,3  | AY
-  4  4,8  - EAn
   4  4,8  - IAn
   4 10,4  | YA
   4 10,4  | YE
@@ -1154,3 +1165,4 @@
   1  5,8  - In
   1  6,8  - nA
   1  6,8  - nE
+  1  6,8  - nI

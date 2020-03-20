@@ -33,9 +33,6 @@
  26  2,8  | DAN
  26  2,8  | DOL
  26  2,8  | DON
- 26  2,8  | DOSA
- 26  2,8  | NAD
- 26  2,8  | NASO
  26  2,8  | NOD
  26  2,8  | NOL
  25  4,1  | ALAN
@@ -65,20 +62,15 @@
  23  2,8  | RAN
  23  2,8  | ROD
  23  2,8  | RON
- 23  2,8  | ROSA
  22  4,1  | ADAR
  22  4,1  | ALAR
  22  4,1  | ALAS
  22  4,1  | ANAS
  22  2,8  | DAO
- 22  2,8  | DAS
  22  1,4  - DIAL
  22  1,4  - DIAN
  22  1,4  - DIOL
  22  1,4  - DION
- 22  2,8  | DOS
- 22  2,8  | NOS
- 22  5,8  | SLAD
  22  5,8  | SLOD
  22  5,8  | SLON
  22  5,8  | SNOD
@@ -103,21 +95,16 @@
  20  1,4  - SIAL
  20  1,4  - SIOL
  20  1,4  - SION
- 20  5,8  | SLA
- 19  4,1  | ADA
  19  2,9  | ADO
  19  7,1  | AIS
  19  4,1  | ALA
  19  4,1  | ANA
+ 19  1,1  | JOON
  19  1,11 - LASSO
  19  2,9  | ODA
  19  2,9  | OLA
  19  2,9  | ONA
- 19  2,8  | RAS
- 19  2,8  | ROS
  19  4,1  | SLA
- 18  4,1  | ARA
- 18  4,1  | ASA
  18  1,11 - DOSS
  18  6,6  - ELANDS
  18  6,6  - ENLARD
@@ -145,18 +132,19 @@
  16  1,4  - NIAS
  16  1,4  - RIDS
  16  5,8  | SAO
- 16  5,8  | SAR
  16  2,10 - SArRA
  16  1,4  - SIDA
+ 16  5,3  | VAL
+ 16  5,3  | VAN
  16  5,3  | VOD
+ 16  5,3  | VOL
+ 16  5,3  | VON
  16 10,2  | YARDS
  16 10,2  | YARNS
  15  2,9  | AD
  15  2,9  | AL
  15  2,9  | AN
  15  1,9  - ANRE
- 15  5,9  | DAL
- 15  5,9  | DAN
  15  1,9  - DARE
  15  5,9  | DOL
  15  5,9  | DON
@@ -164,13 +152,10 @@
  15  1,1  - JAGA
  15  1,1  - JAGS
  15  9,2  | KLANS
- 15  5,9  | LAD
- 15  5,9  | LAN
  15  1,9  - LARE
  15  5,9  | LOD
  15  1,9  - LORE
  15  5,9  | LSD
- 15  5,9  | NAD
  15  1,9  - NARE
  15  5,9  | NOD
  15  7,5  | NODAL
@@ -187,9 +172,6 @@
  14  2,10 | DA
  14  1,6  | DAL
  14  1,6  | DAN
- 14  5,9  | DAO
- 14  5,9  | DAR
- 14  5,9  | DAS
  14  1,6  | DLR
  14  2,10 | DO
  14  5,9  | DOA
@@ -206,16 +188,12 @@
  14  9,2  | KLAN
  14  9,2  | KNARL
  14  2,10 | LA
- 14  5,9  | LAO
- 14  5,9  | LAR
  14  7,6  | LARDON
- 14  5,9  | LAS
  14  2,10 | LO
  14  5,9  | LOA
  14  5,9  | LOR
  14  7,6  | LORDAN
  14  2,10 | NA
- 14  5,9  | NAR
  14  2,10 | NO
  14  5,9  | NOA
  14  5,9  | NOR
@@ -235,7 +213,6 @@
  13 10,3  - AN
  13  5,9  | AND
  13  2,8  | DA
- 13  5,9  | DA
  13  1,6  | DAO
  13  1,6  | DAR
  13  1,6  | DAS
@@ -257,12 +234,10 @@
  13  9,2  | KOANS
  13  9,2  | KRANS
  13  9,2  | KRONA
- 13  5,9  | LA
  13  7,6  | LADRON
  13  7,6  | LANDS
  13  5,9  | LO
  13  2,8  | NA
- 13  5,9  | NA
  13  2,8  | NO
  13  5,9  | NO
  13 10,3  - OD
@@ -288,8 +263,6 @@
  12  7,5  | DORSA
  12  7,6  | DORSAL
  12  7,6  | DRONA
- 12  2,2  - EAD
- 12  2,2  - EAN
  12  6,6  - EARLS
  12  6,6  - EARNS
  12  2,2  - ELA
@@ -318,6 +291,7 @@
  12  7,5  | NOLD
  12  7,6  | NOLD
  12  8,2  | NONDA
+ 12  1,3  | OLD
  12  1,9  - RARE
  12  3,9  - REDANS
  12  5,5  - RINALDO
@@ -340,7 +314,6 @@
  11  8,1  | ANDROL
  11  8,1  | ANDRON
  11  5,9  | ARN
- 11  2,9  | AS
  11  7,6  | DARN
  11  7,5  | DLR
  11  7,5  | DOLA
@@ -382,7 +355,6 @@
  11  7,5  | ORALS
  11  7,5  | ORANS
  11  2,9  - ORENDA
- 11  2,9  | OS
  11  7,6  | RADONS
  11  7,6  | RANDS
  11  3,9  - REDAN
@@ -392,9 +364,6 @@
  11  3,9  - RELOAN
  11  3,9  - RENAL
  11  3,9  - RESOLD
- 11  5,9  | SAD
- 11  5,9  | SAL
- 11  5,9  | SAN
  11  7,5  | SLAD
  11  7,5  | SLOD
  11  7,5  | SLON
@@ -410,7 +379,6 @@
  11  6,4  - WARDS
  11  6,4  - WARNS
  11  6,4  - WOADS
- 11  6,4  - WOD
  11  6,4  - WON
  11  6,4  - WORDS
  10  8,1  | ANON
@@ -475,8 +443,6 @@
  10  7,6  | ROND
  10  7,6  | SALON
  10  7,6  | SAND
- 10  5,9  | SAO
- 10  5,9  | SAR
  10  7,6  | SLAD
  10  7,5  | SLD
  10  7,6  | SLOAN
@@ -485,7 +451,6 @@
  10  7,6  | SNARL
  10  8,1  | SNOD
  10  7,6  | SNOD
- 10  2,10 | SO
  10  7,6  | SOLAN
  10  7,5  | SOLD
  10  7,6  | SOLD
@@ -534,6 +499,7 @@
   9  9,2  | KAL
   9  9,2  | KOL
   9  9,2  | KON
+  9  7,1  - LA
   9  4,2  | LAD
   9  4,2  | LAN
   9  7,6  | LAOS
@@ -543,16 +509,17 @@
   9  5,5  - LIDARS
   9  5,5  - LINDA
   9  5,5  - LINDO
+  9  7,1  - LO
   9  7,6  | LORA
   9  7,6  | LORS
   9 10,1  | LYARD
-  9  4,2  | NAD
-  9  8,2  | NAD
+  9  7,1  - NA
   9  8,2  | NAN
   9  7,6  | NAOS
   9  8,2  | NARDS
   9  7,6  | NASO
   9  2,8  - NEFAS
+  9  7,1  - NO
   9  7,5  | NOA
   9  8,2  | NOD
   9  8,2  | NOL
@@ -658,7 +625,6 @@
   8  7,6  | LOD
   8  7,6  | LSD
   8 10,1  | LYON
-  8  7,6  | NAD
   8  8,2  | NARD
   8  2,10 - NArR
   8  5,5  - NIDOR
@@ -706,7 +672,6 @@
   8 10,1  | SYND
   8  6,4  - WAR
   8  6,4  - WAS
-  8  6,4  - WOA
   8  6,4  - WOS
   8  6,4  - WRO
   8 10,2  | YALD
@@ -836,6 +801,7 @@
   6  4,2  | NAR
   6  8,2  | NAR
   6  2,10 - NAr
+  6  1,4  - NI
   6  5,5  - NILS
   6  7,6  | NO
   6  5,10 | NO
@@ -849,6 +815,7 @@
   6  7,6  | ODS
   6  1,11 - ODS
   6  7,6  | OLA
+  6  1,3  | ON
   6  7,6  | ONA
   6  7,6  | ONS
   6  1,11 - ONS
@@ -878,7 +845,6 @@
   6  7,6  | SAD
   6  7,6  | SAL
   6  7,6  | SAN
-  6  2,10 - SArA
   6  1,11 - SDS
   6  5,5  - SILD
   6  5,5  - SIND
@@ -897,14 +863,11 @@
   6 10,2  | YOD
   6 10,2  | YON
   5  4,2  | AAS
-  5  5,10 | AD
   5  5,5  - AIDS
   5  5,5  - AILS
   5  5,5  - AINS
   5  5,5  - AION
   5  5,5  - AIRN
-  5  5,10 | AL
-  5  5,10 | AN
   5  8,1  | AND
   5  8,1  | ANN
   5  2,9  - ARES
@@ -961,8 +924,6 @@
   5  4,2  | SAA
   5  4,2  | SAO
   5  7,6  | SAO
-  5  4,2  | SAR
-  5  7,6  | SAR
   5  5,5  - SIAL
   5  5,5  - SIDA
   5  5,5  - SILO
@@ -983,16 +944,12 @@
   4  5,5  - AIRS
   4  8,1  | ANS
   4  4,3  | AR
-  4  5,10 | AR
   4  4,3  | AS
-  4  5,10 | AS
   4 10,1  | AY
   4  5,5  - DIA
   4  5,5  - DIR
   4  5,5  - DIS
   4  1,5  - DU
-  4  6,6  - EAD
-  4  6,6  - EAN
   4  6,6  - EARS
   4  6,6  - EDO
   4  6,6  - ELA
@@ -1005,7 +962,6 @@
   4  6,5  - IAN
   4  6,5  - IDS
   4  6,5  - ILA
-  4  6,5  - INO
   4  6,5  - INS
   4  2,4  - IO
   4  6,5  - ION
@@ -1032,7 +988,6 @@
   4  3,9  - RES
   4  5,5  - RID
   4  5,5  - RIN
-  4  2,10 - SAr
   4  1,4  - SI
   4  5,5  - SID
   4  5,5  - SIL
@@ -1062,8 +1017,12 @@
   3  6,5  - IRA
   3  6,5  - IRS
   3  4,2  | LA
+  3  7,1  | LI
+  3  5,5  - LI
   3  4,2  | NA
   3  8,2  | NA
+  3  7,1  | NI
+  3  5,5  - NI
   3  8,2  | NO
   3  8,1  | ON
   3  2,9  - ORE
@@ -1075,7 +1034,6 @@
   2  7,1  | AI
   2  5,5  - AI
   2  2,11 - AS
-  2  3,10 - ArA
   2  3,10 - ArO
   2  3,10 - ArR
   2  3,10 - ArS

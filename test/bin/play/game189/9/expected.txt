@@ -42,7 +42,6 @@
  27  2,7  - OKE
  27  1,7  - SOK
  27 11,8  | WAS
- 27 11,8  | WES
  27  1,7  - WOAK
  27 11,8  | WOS
  26  3,5  | WAKED
@@ -50,17 +49,13 @@
  25  2,7  - OSAKA
  25  2,7  - OWE
  25  1,7  - SOW
- 24 11,9  | ASA
- 24 11,9  | ASE
  24  1,7  - KOAE
  24  1,7  - KOAS
  24 11,9  | OSE
  24  2,7  - OW
  24  1,7  - SOAK
- 23  5,1  | ASOAK
  23  9,9  - AWA
  23  9,9  - AWE
- 23  3,9  | DAE
  23  3,9  | DAO
  23  3,9  | DAS
  23  1,7  - KOA
@@ -80,7 +75,6 @@
  22  8,11 - SEEK
  22  5,2  | SOAK
  22  2,4  - WAKER
- 22  1,7  - WOA
  22  1,7  - WOE
  22  1,7  - WOS
  22  5,4  - WROKE
@@ -93,7 +87,6 @@
  20  3,5  | OAKED
  20  1,4  - SOAKER
  20  1,7  - WO
- 19  3,8  | ADA
  19  5,5  - AIWAN
  19  5,4  - ARAKE
  19  7,8  | ASIA
@@ -199,7 +192,6 @@
  15  5,7  - KASA
  15  8,9  | KEA
  15 10,7  | KOAE
- 15  8,6  | MAO
  15  8,6  | MEO
  15  9,1  - NOW
  15 11,9  | OS
@@ -216,7 +208,6 @@
  15  3,7  | WED
  15  3,7  - WEKA
  15  3,5  - WEKI
- 15  3,7  | WOD
  15  4,4  - WORE
  15  2,8  - YEA
  14  4,3  - AKRA
@@ -235,7 +226,6 @@
  14  5,7  - WASE
  14 10,7  | WASE
  14  3,3  - WEARS
- 14  4,4  - WER
  14 10,7  | WESE
  14  2,10 - ZA
  13  4,8  - AET
@@ -264,8 +254,6 @@
  13  8,4  - WE
  13 10,9  | WEE
  13  8,11 - WEE
- 13 10,9  | WES
- 13  8,11 - WES
  13  3,6  | WOAD
  12  5,1  | ASEA
  12  4,5  | ASKED
@@ -280,7 +268,6 @@
  12  3,3  - WAER
  12  1,7  | WAH
  12  3,3  - WEAR
- 12  5,1  | WOA
  12  5,1  | WOE
  12  7,1  | WOE
  11  9,9  - AAA
@@ -329,9 +316,6 @@
  10  8,5  - ANES
  10  8,5  - ANOA
  10  8,5  - ANSA
- 10  6,7  - ASA
- 10  6,7  - ASE
- 10 10,8  | ASE
  10  2,5  - ASKOI
  10  3,4  - ASKR
  10  6,7  - AW
@@ -393,10 +377,6 @@
   9  8,5  - ANS
   9  8,8  - APES
   9  8,8  - APSE
-  9  5,1  | ASA
-  9  5,1  | ASE
-  9  7,1  | ASE
-  9  3,7  | EAD
   9  3,5  - EKOI
   9  8,5  | EMO
   9  8,5  | EMS
@@ -442,7 +422,6 @@
   9  4,3  - WARS
   9  3,4  - WEAR
   9  4,7  | WED
-  9  4,7  | WOD
   9  4,3  - WORE
   9  6,10 - sIEVES
   8  5,2  | AA
@@ -552,14 +531,12 @@
   7  4,7  | SODA
   7  7,11 - SOE
   7  4,3  - WAR
-  7  4,3  - WER
   7  5,1  | WO
   7  7,1  | WO
   7  2,8  - YA
   7  2,8  - YE
   7  2,8  - YO
   6  5,4  | AA
-  6  4,8  | ADA
   6  4,8  | ADO
   6  4,8  | ADS
   6  4,3  - AERO
@@ -570,7 +547,6 @@
   6  3,4  - ASOR
   6  5,8  - ATE
   6  4,7  - AWA
-  6  4,7  | EAD
   6  4,3  - EARS
   6  4,4  - EARS
   6  4,8  | EDO
@@ -601,8 +577,6 @@
   6  6,4  - RASE
   6  6,4  - ROSE
   6  4,7  | SAD
-  6  4,3  - SARA
-  6  4,4  - SARA
   6  4,3  - SARE
   6  4,4  - SARE
   6  3,3  - SEAR
@@ -622,18 +596,15 @@
   6  4,3  - SORE
   6  4,4  - SORE
   6  4,7  - SWA
-  6  4,7  - WEA
   6  4,2  - WEI
   6  4,5  - WEI
   6  5,2  - WIS
-  6  4,7  - WOA
   6  5,4  - WRO
   5  5,7  - AAS
   5  4,8  | AD
   5  4,4  - AER
   5  5,8  | AL
   5  4,4  - AOR
-  5  5,3  - ARA
   5  5,3  - ARE
   5  5,3  - ARO
   5  5,3  - ARS
@@ -659,7 +630,6 @@
   5  9,8  - PO
   5  5,7  - SAE
   5  5,7  - SAO
-  5  4,4  - SAR
   5  4,4  - SER
   5  5,5  - SIA
   5  5,5  - SIE
@@ -677,7 +647,6 @@
   4  7,1  | AS
   4  6,7  - AS
   4  4,2  - ASIA
-  4  4,9  | DAE
   4  4,9  | DAO
   4  4,9  | DAS
   4  4,9  | DEA
@@ -717,18 +686,15 @@
   4  8,1  - ONO
   4  5,1  | OS
   4  7,1  | OS
-  4  4,3  - SAR
   4  4,3  - SER
   4  5,1  | SO
   4  7,1  | SO
   3  4,7  - AAA
   3  5,2  - AIS
   3  5,3  - AR
-  3  5,4  - ARA
   3  5,4  - ARE
   3  5,4  - ARO
   3  5,4  - ARS
-  3  4,7  - ASA
   3  4,9  | DA
   3  4,9  | DE
   3  4,9  | DO

@@ -1,4 +1,5 @@
 101  4,1  - RIBALDS
+ 82  9,12 - RIBALDS
  66 14,7  | BRIDALS
  61  4,1  - LABRID
  61  4,1  - LIBARD
@@ -52,13 +53,13 @@
  27 14,5  | CAB
  27 14,5  | CALID
  27 12,8  - DABS
- 27 12,6  - DALE
  27  9,1  - DIAU
  27 12,8  - DIBS
  27 12,8  - LABS
  27 12,8  - LIBS
  26 14,5  | CRAB
  26 10,8  | DIRNDLS
+ 26  2,12 | HALS
  26  7,1  - LADS
  26  5,1  - LAIRDS
  26  5,1  - LIARDS
@@ -92,6 +93,7 @@
  24  6,1  - BRAD
  24  6,1  - BRID
  24  2,9  | DASH
+ 24  9,12 - DISBAR
  24  2,9  | LASH
  24  6,1  - RAIDS
  24 13,2  | SARE
@@ -99,6 +101,7 @@
  24  6,1  - SLAD
  24  8,12 - SLAD
  24  6,1  - SLID
+ 24  8,12 - SLID
  23  7,1  - ABD
  23  7,1  - AIDS
  23 10,10 - ALIDS
@@ -112,6 +115,7 @@
  23  8,1  - BDS
  23  7,13 | BDS
  23 14,7  | BIDAR
+ 23  9,12 - BILDAR
  23 14,7  | BIRDS
  23 14,7  | BIRLS
  23 14,7  | BLAD
@@ -153,7 +157,6 @@
  22 10,10 | INLARD
  22  6,1  - LAID
  22  6,1  - LARD
- 22  5,7  | LBW
  22  2,7  | LIBR
  22  2,9  | RASH
  22  2,11 | SHAB
@@ -182,8 +185,10 @@
  21 14,7  | BIDS
  21 14,7  | BIRD
  21  9,10 - BIRDS
+ 21  9,12 - BIRDS
  21 14,7  | BIRL
  21  9,10 - BIRLS
+ 21  9,12 - BIRLS
  21 14,7  | BLAS
  21 14,7  | BRAD
  21 14,7  | BRID
@@ -207,6 +212,8 @@
  21  7,1  - RLD
  21 11,11 | SABIR
  21  6,1  - SAID
+ 21  8,12 - SAID
+ 21  8,12 - SAIL
  21  6,1  - SARD
  21  8,12 - SIAL
  21  7,1  - SLD
@@ -230,10 +237,13 @@
  20 11,9  | BDS
  20  9,10 - BIDS
  20  9,10 - BIRD
+ 20  9,12 - BIRD
  20  9,10 - BIRL
+ 20  9,12 - BIRL
  20  1,7  | BISALT
  20 11,9  | BLS
  20  7,13 | DAS
+ 20  2,11 | DHAL
  20  7,13 | DIS
  20  8,1  - IDS
  20  7,13 | IDS
@@ -271,6 +281,7 @@
  19 14,7  | BIAS
  19  9,10 - BIAS
  19  9,10 - BID
+ 19  9,12 - BIDAR
  19  3,2  | BILDAR
  19 11,9  | BIS
  19 14,7  | BRAS
@@ -289,6 +300,7 @@
  19 14,7  | LABS
  19 14,7  | LAIRDS
  19 14,7  | LIARDS
+ 19  9,12 - LIBARD
  19 14,7  | LIBR
  19  9,10 - LIBRA
  19 14,7  | LIBS
@@ -296,6 +308,7 @@
  19 12,8  - RAIS
  19  7,13 | RAS
  19 11,11 | SAB
+ 19  8,12 - SAIR
  19 11,11 | SIB
  18  2,8  | ABR
  18 14,7  | ABRIS
@@ -325,6 +338,7 @@
  18 13,8  - BDS
  18  1,7  - BIDER
  18  1,7  - BIDES
+ 18  9,12 - BIDS
  18  1,7  - BILES
  18  9,10 - BIS
  18  3,5  | BLAD
@@ -340,15 +354,18 @@
  18  2,8  | IBA
  18 10,10 | INDRA
  18  7,14 | IS
+ 18 10,12 - ISBA
  18  9,10 - LABS
  18 13,8  - LBS
  18 11,9  | LBS
  18  9,10 - LIBR
  18  3,3  | LIBRAS
+ 18  9,12 - LIBRAS
  18  9,10 - LIBS
  18  2,7  | LIDA
  18 10,11 | NABIS
  18  1,3  - RIBALD
+ 18  9,12 - RIBALD
  18  2,11 | SHAD
  18 11,11 | SLAB
  18 10,10 | SNAIL
@@ -373,6 +390,7 @@
  17  1,7  - BASER
  17  1,7  - BDLE
  17  9,10 - BI
+ 17  9,12 - BIAS
  17  3,5  | BIDS
  17  3,5  | BIRD
  17  3,5  | BIRL
@@ -395,16 +413,17 @@
  17  3,7  - DESI
  17 14,7  | DIALS
  17  9,10 - DIALS
+ 17  9,12 - DIALS
  17  9,10 - DIB
  17  3,5  | DIBS
  17 14,7  | DIRLS
  17  9,10 - DIRLS
+ 17  9,12 - DIRLS
  17  3,5  | DRAB
  17  3,4  | DRABS
  17 14,7  | DRAIL
  17  3,4  | DRIBS
  17  4,7  - ELI
- 17  2,12 | HAB
  17  9,3  - IB
  17  8,1  - ID
  17  2,13 - IRS
@@ -427,12 +446,15 @@
  17  9,10 - LIB
  17  3,2  | LIBARD
  17  1,3  - LIBARD
+ 17  9,12 - LIBRA
  17  3,5  | LIBS
  17 14,7  | LIDAR
  17  9,10 - LIDAR
  17  4,3  - RABI
+ 17  8,12 - SAI
  17  8,12 - SIA
  17 11,11 | SILD
+ 17  8,12 - SRI
  16 14,7  | ABIR
  16 14,7  | ABRI
  16 11,9  | ABS
@@ -469,15 +491,16 @@
  16  7,1  | BRIN
  16  1,9  | BRITS
  16  9,12 - DABS
- 16  9,10 - DAIL
- 16  9,12 - DAIL
  16  6,13 | DAK
  16  9,10 - DALI
  16 11,9  | DASI
  16  4,3  - DBL
  16  3,6  | DBL
  16  9,10 - DIAL
+ 16  9,12 - DIAL
+ 16  9,12 - DIBS
  16  9,10 - DIRL
+ 16  9,12 - DIRL
  16  2,7  | DISA
  16 11,9  | DISA
  16  2,8  | DLR
@@ -496,8 +519,12 @@
  16  9,12 - LARD
  16 11,9  | LASI
  16  2,7  | LIAR
+ 16  9,12 - LIARDS
  16  9,10 - LIARS
+ 16  9,12 - LIBR
+ 16  9,12 - LIBS
  16  9,10 - LIDA
+ 16  9,12 - LIDARS
  16  9,10 - LIDS
  16  2,7  | LIRA
  16  9,10 - LIRAS
@@ -550,6 +577,7 @@
  15  1,7  - BASE
  15  1,9  | BAST
  15  3,5  | BIAS
+ 15  9,12 - BID
  15  3,4  | BIRDS
  15  1,9  | BIRT
  15  1,7  - BISE
@@ -561,7 +589,6 @@
  15  1,9  | BRAT
  15  1,7  - BRIE
  15  1,9  | BRIT
- 15 14,7  | DAIL
  15  9,10 - DAIS
  15  9,10 - DAL
  15 14,7  | DALI
@@ -604,11 +631,13 @@
  15 10,1  - LAUD
  15 10,7  - LB
  15  9,10 - LIAR
+ 15  9,12 - LIARD
  15 14,7  | LIARS
  15  9,10 - LIAS
  15  3,3  | LIBRA
  15  9,10 - LID
  15 14,7  | LIDA
+ 15  9,12 - LIDAR
  15 14,7  | LIDS
  15  9,10 - LIRA
  15 14,7  | LIRAS
@@ -621,6 +650,7 @@
  15  2,3  - RABID
  15  9,12 - RAIDS
  15  9,12 - RAILS
+ 15  9,12 - RIALS
  15  3,5  | RIBS
  15  9,12 - SABIR
  15 11,11 | SAD
@@ -631,6 +661,7 @@
  15 11,11 | SIAL
  15 11,11 | SID
  15 11,11 | SIL
+ 15  9,12 - SILD
  15  3,3  - SLAB
  15  3,4  | SLAB
  14 14,1  | AB
@@ -671,6 +702,7 @@
  14  3,6  | BDL
  14  6,3  - BI
  14  3,5  | BID
+ 14  9,12 - BIS
  14  1,10 - BITI
  14  3,3  - BLAD
  14  3,4  | BLAD
@@ -720,13 +752,17 @@
  14  3,6  | LBS
  14  2,3  - LIARD
  14  3,3  | LIARDS
+ 14  9,12 - LIARS
  14  4,3  - LIB
  14  3,5  | LIB
  14  1,7  - LIBER
  14  4,3  - LIDA
+ 14  9,12 - LIDA
  14  3,3  | LIDARS
+ 14  9,12 - LIDS
  14  2,8  | LIR
  14  9,10 - LIR
+ 14  9,12 - LIRAS
  14  9,10 - LIS
  14 11,10 | LSD
  14 10,11 | NADIR
@@ -737,6 +773,8 @@
  14  9,12 - RAID
  14  9,12 - RAIL
  14 13,8  - RAS
+ 14  9,12 - RIAL
+ 14  9,12 - RIBS
  14  6,13 | RIK
  14  3,3  | SABIR
  14  9,12 - SAID
@@ -747,6 +785,7 @@
  14  9,12 - SARD
  14 11,11 | SARI
  14  2,11 - SENA
+ 14  9,12 - SIAL
  14  2,8  | SLA
  14 11,11 | SLA
  14  3,15 - TICKS
@@ -792,6 +831,7 @@
  13  3,3  - BARD
  13  3,3  | BARID
  13 14,7  | BDL
+ 13  9,12 - BI
  13  3,3  | BIDAR
  13  3,3  - BIRD
  13  3,3  - BIRL
@@ -817,19 +857,24 @@
  13  9,10 - DI
  13  3,5  | DIAL
  13 14,7  | DIAS
+ 13  9,12 - DIAS
+ 13  9,12 - DIB
  13  1,13 - DIR
  13  3,5  | DIRL
  13 14,7  | DISA
+ 13  9,12 - DISA
  13  1,14 - DRIB
  13 11,10 | DSR
  13 14,7  | DSRI
  13  2,12 | HAD
+ 13  2,12 | HAL
  13 12,3  - HALL
  13 12,3  - HILL
  13 10,7  - IB
  13 10,9  - IBA
  13 10,10 - IBA
  13  3,3  - IBAD
+ 13 10,12 - IBAD
  13 11,9  | IRS
  13 14,8  - IS
  13 11,10 | ISL
@@ -848,12 +893,18 @@
  13  1,7  - LASED
  13 14,7  | LASI
  13  9,12 - LASI
+ 13  9,10 - LI
  13 14,7  | LIAR
+ 13  9,12 - LIAR
  13  3,4  | LIARD
  13 14,7  | LIAS
+ 13  9,12 - LIAS
+ 13  9,12 - LIB
  13  3,5  | LIDS
  13 14,7  | LIRA
+ 13  9,12 - LIRA
  13 14,7  | LISA
+ 13  9,12 - LISA
  13 11,2  | MARE
  13  4,3  - RAB
  13  3,6  | RAB
@@ -865,7 +916,6 @@
  13  1,7  - SABED
  13  4,3  - SADI
  13 11,11 | SAI
- 13 11,11 | SAR
  13 10,1  - SAUL
  13  2,11 | SHA
  13 11,11 | SIA
@@ -885,9 +935,11 @@
  12 10,12 - ABSI
  12 14,7  | AIDS
  12 10,10 - AIDS
+ 12  9,12 - AIDS
  12 10,12 - AIDS
  12 14,7  | AILS
  12 10,10 - AILS
+ 12  9,12 - AILS
  12 10,12 - AILS
  12  2,8  | AIR
  12  9,10 - AIR
@@ -959,14 +1011,15 @@
  12  9,12 - RALS
  12  2,8  | RIA
  12  3,5  | RIB
+ 12  9,12 - RIDS
  12  3,5  | SAB
  12  9,12 - SADI
  12  9,12 - SADR
- 12  2,8  | SAR
  12 10,1  - SAUR
  12  8,12 - SI
  12  2,8  | SIA
  12  3,5  | SIB
+ 12  9,12 - SIDA
  12  3,3  - SILD
  12  2,8  | SIR
  12  5,3  - SLA
@@ -991,6 +1044,7 @@
  11  1,7  - AILED
  11  1,13 - AIR
  11 10,10 - AIRS
+ 11  9,12 - AIRS
  11  9,11 | ALBAS
  11  4,3  - ALD
  11 10,10 - ALS
@@ -999,6 +1053,7 @@
  11  1,13 - ARR
  11 11,10 | AS
  11 14,7  | BAI
+ 11  1,14 - BAIL
  11  3,4  | BALR
  11 14,7  | BAR
  11 14,7  | BAS
@@ -1009,7 +1064,6 @@
  11  1,14 - BRID
  11  3,3  | BRISA
  11 14,2  | DA
- 11  3,3  - DAIL
  11  9,12 - DAL
  11  1,7  - DARES
  11  3,5  | DARI
@@ -1018,6 +1072,7 @@
  11  3,3  - DIAL
  11  3,5  | DIAS
  11 10,8  | DIDN
+ 11  9,12 - DIL
  11  3,3  - DIRL
  11  3,4  | DRIAS
  11  1,7  - DRIES
@@ -1026,12 +1081,14 @@
  11 12,3  - HAIL
  11 12,3  - HARL
  11  2,12 | HAS
+ 11 10,12 - IBA
  11  1,14 - IBID
  11 10,10 - IDS
  11 10,10 - ILA
  11 11,10 | IS
  11 10,9  - ISBA
  11 10,10 - ISL
+ 11 10,12 - ISL
  11  1,7  - ISLED
  11 14,2  | LA
  11  9,12 - LAD
@@ -1049,6 +1106,7 @@
  11  3,4  | LIARS
  11  3,5  | LIAS
  11  3,4  | LIBR
+ 11  9,12 - LID
  11  3,3  | LIDAR
  11  3,4  | LIRAS
  11  6,6  | QI
@@ -1056,6 +1114,7 @@
  11  3,5  | RADS
  11  9,12 - RAIS
  11  3,5  | RIAL
+ 11  9,12 - RIB
  11  2,14 - RIB
  11  1,7  - RIBES
  11  3,5  | RIDS
@@ -1070,6 +1129,7 @@
  11 10,1  - SAU
  11 11,11 | SI
  11  3,5  | SIAL
+ 11  9,12 - SIB
  11  2,14 - SIB
  11  3,3  - SLAD
  11  3,4  | SLAD
@@ -1134,10 +1194,13 @@
  10  9,12 - DAS
  10  6,2  | DAU
  10  6,3  - DI
+ 10  9,12 - DIA
  10  7,1  | DIAN
  10 14,7  | DIB
  10  4,3  - DIL
+ 10  9,12 - DIR
  10  1,9  | DIRTS
+ 10  9,12 - DIS
  10  1,9  | DISTR
  10  9,1  | DP
  10  1,9  | DRATS
@@ -1166,10 +1229,13 @@
  10  9,12 - LAS
  10  1,10 - LATI
  10 14,7  | LBS
+ 10  6,3  - LI
  10 14,7  | LIB
  10  4,3  - LID
  10  3,5  | LID
  10  1,7  - LIDE
+ 10  9,12 - LIR
+ 10  9,12 - LIS
  10  1,10 - LITI
  10  4,3  - LSD
  10  3,5  | LSD
@@ -1214,10 +1280,12 @@
   9 10,12 - ADS
   9 10,10 - AI
   9  4,3  - AID
+  9  9,12 - AID
   9  1,7  - AIDER
   9  1,7  - AIDES
   9 10,9  - AIDS
   9  4,3  - AIL
+  9  9,12 - AIL
   9 10,9  - AILS
   9  3,5  | AIRS
   9 10,12 - AIRS
@@ -1257,6 +1325,7 @@
   9 10,8  | DARNS
   9  1,9  | DART
   9  1,7  - DASE
+  9  9,12 - DI
   9  1,7  - DIRE
   9  1,9  | DIRT
   9 10,8  | DISNA
@@ -1270,7 +1339,9 @@
   9 10,7  - ID
   9  3,6  | IDS
   9 10,9  - IDS
+  9 10,12 - IDS
   9 10,9  - ILA
+  9 10,12 - ILA
   9 10,10 - IS
   9  4,3  - ISL
   9 10,7  - LA
@@ -1284,6 +1355,8 @@
   9  1,7  - LASE
   9  1,9  | LAST
   9 14,7  | LB
+  9 10,7  - LI
+  9  9,12 - LI
   9  3,4  | LIDA
   9  1,7  - LIRE
   9  1,7  - LISE
@@ -1301,6 +1374,7 @@
   9 13,4  | REALS
   9  1,7  - RIBE
   9  4,3  - RID
+  9  9,12 - RID
   9  1,7  - RIDES
   9  1,7  - RILES
   9  3,5  | RLD
@@ -1316,8 +1390,10 @@
   9  3,4  | SARD
   9  3,5  | SARI
   9  4,3  - SID
+  9  9,12 - SID
   9  1,7  - SIDER
   9  4,3  - SIL
+  9  9,12 - SIL
   9  3,5  | SLD
   9  1,14 - SLID
   9  1,7  - SLIER
@@ -1335,8 +1411,10 @@
   8  3,5  | AID
   8 10,9  - AID
   8 10,9  - AIL
+  8  9,12 - AIR
   8 10,12 - AIR
   8 10,9  - AIRS
+  8  9,12 - AIS
   8 10,12 - AIS
   8  5,3  - AL
   8  3,7  | AL
@@ -1353,6 +1431,7 @@
   8 14,7  | ARB
   8  1,14 - ARID
   8  1,7  - ARIES
+  8  1,14 - ARIL
   8  9,11 | ARILS
   8 10,12 - ARS
   8  6,2  | ARU
@@ -1386,15 +1465,19 @@
   8 10,8  | DIAN
   8  2,7  - DIEL
   8 14,7  | DIL
+  8  2,14 - DIL
   8  3,5  | DIR
   8  3,4  | DISA
   8 14,7  | DLR
   8  3,5  | DSR
   8  2,12 | HA
+  8 10,12 - IB
   8  5,3  - ID
   8 10,9  - ID
   8  1,7  - IDLE
+  8 10,12 - IRA
   8  1,14 - IRID
+  8 10,12 - IRS
   8  7,1  | ISDN
   8 10,9  - ISL
   8  9,10 | LABS
@@ -1414,11 +1497,13 @@
   8 14,7  | LSD
   8  3,5  | RAD
   8  1,14 - RAID
+  8  1,14 - RAIL
   8  9,12 - RAS
   8 13,4  | READ
   8 13,4  | REAL
   8 13,4  | REARS
   8 13,4  | REID
+  8  9,12 - RIA
   8  3,5  | RID
   8  9,10 | SABIA
   8  9,10 | SABIR
@@ -1427,13 +1512,15 @@
   8  3,4  | SADR
   8  9,12 - SAI
   8  1,14 - SAID
-  8  9,12 - SAR
+  8  1,14 - SAIL
   8  1,10 - SATI
   8  6,2  | SAU
   8  2,11 - SEN
   8  2,11 | SH
+  8  9,12 - SIA
   8  3,5  | SID
   8  3,4  | SIDA
+  8  9,12 - SIR
   8  1,10 - SITI
   8  2,7  - SLED
   8  1,11 | STBD
@@ -1449,9 +1536,11 @@
   7  9,11 | ABSI
   7  1,9  | ADIT
   7 10,7  - AI
+  7  9,12 - AI
   7  2,14 - AID
   7  1,7  - AIDE
   7  2,7  - AIEL
+  7  2,14 - AIL
   7  1,7  - AILE
   7 10,9  - AIR
   7  7,1  | AIRN
@@ -1556,8 +1645,10 @@
   7  9,10 | SALAD
   7  1,7  - SALE
   7  1,9  | SALT
+  7  9,12 - SI
   7  2,14 - SID
   7  1,7  - SIDE
+  7  2,14 - SIL
   7  1,7  - SILE
   7  1,9  | SILT
   7  3,5  | SLA
@@ -1614,7 +1705,6 @@
   6 12,6  - DA
   6 14,7  | DA
   6  2,7  - DAER
-  6  9,10 | DAIL
   6  9,10 | DAIRA
   6  9,10 | DALI
   6 14,7  | DI
@@ -1630,6 +1720,7 @@
   6 13,7  - IBA
   6  2,8  - IBO
   6  3,6  | ID
+  6 10,12 - ID
   6  3,14 - ID
   6  2,7  - IDEA
   6  2,7  - IDES
@@ -1644,6 +1735,7 @@
   6  9,10 | LAIRS
   6  9,10 | LARD
   6  9,10 | LARIA
+  6 14,7  | LI
   6  1,8  - LIDO
   6  2,7  - LIER
   6  2,7  - LIES
@@ -1667,7 +1759,6 @@
   6  2,10 - RTI
   6  9,10 | SAB
   6  9,10 | SALAR
-  6  3,5  | SAR
   6  1,7  - SARE
   6  1,9  | SART
   6  3,7  - SED
@@ -1740,6 +1831,7 @@
   5  4,7  - EL
   5 10,10 | IN
   5  2,7  - IRES
+  5 10,12 - IS
   5  1,11 | ITAL
   5  3,6  | LA
   5  9,10 | LAD
@@ -1757,7 +1849,6 @@
   5  7,2  | LIN
   5  1,10 | LITS
   5 10,1  | LORI
-  5 10,11 | NAD
   5 10,11 | NID
   5 10,11 | NIL
   5  9,10 | RAAD
@@ -1800,8 +1891,6 @@
   5  1,12 | TRID
   4  9,10 | AAL
   4  9,11 | AAL
-  4 13,7  - ADA
-  4  9,11 | ADA
   4  2,8  - ADO
   4  9,11 | ADS
   4  3,7  - AER
@@ -1830,7 +1919,6 @@
   4  9,11 | ASIA
   4  1,10 | ASTR
   4  1,11 | ATIS
-  4  2,7  - DAE
   4  2,8  - DAO
   4  9,10 | DAR
   4  9,10 | DAS
@@ -1875,7 +1963,6 @@
   4  9,10 | SAIR
   4  9,10 | SAL
   4  7,2  | SAN
-  4  9,10 | SARA
   4  9,10 | SARI
   4  1,10 | SATI
   4  3,7  - SEA
@@ -1911,15 +1998,10 @@
   3  1,10 | AIT
   3  9,11 | AL
   3  7,3  | AN
-  3 13,7  - ARA
-  3  9,11 | ARA
   3  2,7  - ARE
   3  2,8  - ARO
   3  9,11 | ARS
   3  1,10 | ART
-  3 13,7  - ASA
-  3  9,11 | ASA
-  3  2,7  - ASE
   3  1,10 | AST
   3  1,11 | ATI
   3 14,2  - DA
@@ -1944,9 +2026,11 @@
   3 14,2  - LA
   3 14,7  - LA
   3  9,10 | LA
+  3  2,14 - LI
   3 10,1  | LO
   3  3,8  - LO
   3 10,11 | NA
+  3 10,11 | NI
   3  9,10 | RAS
   3  1,10 | RAT
   3 13,7  - RIA
@@ -1960,7 +2044,6 @@
   3  9,10 | SAI
   3  1,14 - SAI
   3  2,8  - SAO
-  3  9,10 | SAR
   3  1,10 | SAT
   3 13,7  - SIA
   3  2,7  - SIE

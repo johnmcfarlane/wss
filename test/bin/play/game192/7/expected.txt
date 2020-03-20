@@ -1,5 +1,4 @@
  32  2,1  | HAO
- 30  3,9  - QH
  26 11,3  | LARIA
  26  3,9  - QI
  25  4,2  | ISL
@@ -22,7 +21,8 @@
  16  9,3  | HILA
  16  4,1  | LIS
  16  4,3  | SAA
- 16  4,3  | SAR
+ 16  4,3  | SIA
+ 16  4,3  | SIR
  15 11,8  | ADAI
  15 11,8  | ADAR
  15  1,5  | AH
@@ -35,7 +35,6 @@
  15 11,5  | QI
  14  4,7  - AHO
  14  5,1  | ALOHA
- 14  1,5  | ARA
  14  1,1  | HAF
  14  4,7  - HAO
  14  8,7  - HAY
@@ -50,8 +49,6 @@
  13  2,1  - QERI
  13  5,5  - QERI
  12  9,6  | AA
- 12 11,8  | ADA
- 12  3,9  - AH
  12  9,4  | AHA
  12 11,4  | ARIA
  12 11,9  | DAL
@@ -98,6 +95,7 @@
  10  7,4  | HR
  10  9,4  | ILA
  10  3,9  - LA
+ 10  3,9  - LI
  10  2,5  - PEALER
  10  9,3  | RAIA
  10  8,7  - RAY
@@ -111,11 +109,13 @@
   9 11,9  | DIR
   9  5,2  | HOL
   9  9,5  | LA
+  9  3,4  - LI
   9  1,1  - LIER
   9  4,8  | MAHA
   9  4,8  | MAHI
   9  5,3  | OLA
   9  2,5  - PERLE
+  9  4,3  | SI
   8  3,9  - AA
   8  6,4  - AAL
   8 11,8  | AD
@@ -127,7 +127,6 @@
   8  4,7  | AMIL
   8  4,7  | AMLA
   8  4,7  | AMLI
-  8  9,4  | ARA
   8  1,1  - AREAL
   8  1,1  | ARF
   8  8,6  - ARGH
@@ -198,13 +197,13 @@
   7  5,5  - LEHI
   7  2,1  - LEHR
   7  5,5  - LEHR
+  7 11,5  | LI
   7  4,8  | MAAR
   7  4,8  | MAIA
   7  4,8  | MAIR
   7  4,8  | MAL
   7  4,8  | MARA
   7  4,8  | MARI
-  7  4,8  | MH
   7  4,8  | MIL
   7  4,8  | MIRA
   7  5,3  | OAR
@@ -245,7 +244,6 @@
   6  2,1  - HERA
   6  5,5  - HERA
   6  1,1  - ILE
-  6  4,7  | IMA
   6  8,6  | IRENA
   6  5,7  | LA
   6  8,6  | LAEN
@@ -273,7 +271,6 @@
   5  5,1  | AHO
   5  6,4  - AIR
   5  4,7  | AM
-  5  6,4  - ARA
   5  1,1  - ARE
   5  8,6  | AREN
   5  8,6  - ARG
@@ -303,7 +300,6 @@
   5  5,5  - REAL
   5  2,1  - REH
   5  5,5  - REH
-  5  1,2  | RF
   5  5,1  | RHO
   5  1,1  - RIE
   5  8,6  - RIG

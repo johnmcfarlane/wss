@@ -3,15 +3,12 @@
  59  1,1  | FIBRA
  51  3,1  | FIBRA
  50  1,1  | BRISA
- 48  1,9  - FIB
  44  1,2  | BIXA
  42  3,1  | BARFS
  42  3,3  | FAX
  42  3,3  | FIX
  42  3,1  | SABIR
  40  3,4  | BXS
- 39  1,9  - RIB
- 39  1,9  - SIB
  38  7,9  | BXS
  37  1,3  | FRAB
  36  3,3  | ARX
@@ -42,7 +39,6 @@
  31  7,9  | AX
  31  8,4  - AXIS
  31  3,5  | BRIOS
- 30  2,2  - BARFS
  30  1,3  | FIARS
  30  9,1  | FRAB
  30  7,10 | XI
@@ -87,7 +83,6 @@
  23  3,2  | AXIS
  23  9,2  - BA
  23  3,3  | BARF
- 23  3,7  | BOS
  23  9,2  - FA
  23  1,2  | ISBA
  23  1,3  | RAB
@@ -153,12 +148,10 @@
  18  9,1  | ABA
  18  3,2  | ABRIS
  18  9,3  | ARX
- 18  5,6  | ASE
  18  3,3  | AXIS
  18  9,1  | BAA
  18 10,1  | BAGS
  18 10,1  | BIGA
- 18  3,7  | BO
  18  9,1  | BRA
  18  3,4  | BSF
  18 10,1  | FAGS
@@ -172,12 +165,9 @@
  18 10,3  | GRAB
  18 10,3  | GRAF
  18  3,4  | IB
- 18  2,9  - IB
  18  9,1  | IBA
  18  2,9  - IF
  18  5,6  | ISE
- 18  2,7  - OB
- 18  3,8  | OB
  18  3,8  | OF
  18  1,5  - RAX
  18  3,2  | SARIF
@@ -231,6 +221,7 @@
  15  1,5  | BAS
  15  9,2  | BASIFY
  15  1,9  - BI
+ 15  7,5  | BIN
  15 11,1  | BIeRS
  15  3,2  | FAIRS
  15  7,5  | FAN
@@ -238,10 +229,10 @@
  15  1,9  - FI
  15  3,2  | FIARS
  15  3,2  | FIBS
+ 15  7,5  | FIN
  15  3,6  | FRO
  15  1,5  | FRS
  15 11,1  | IBeX
- 15  3,2  - RIFS
  15  3,2  | SABIR
  15  1,9  - SIR
  15  9,6  | XYRIS
@@ -265,10 +256,7 @@
  14  3,3  | FRA
  14  3,3  | FRS
  14  3,5  | IF
- 14  4,2  - IFS
  14 10,1  | RAGIS
- 14  3,5  | RF
- 14  4,2  - RFS
  14 11,2  | ReFIX
  14  8,3  | TBS
  14  8,3  | TFR
@@ -413,7 +401,6 @@
  10  8,4  - AS
  10  9,3  | ASB
  10  9,8  - ASB
- 10 10,1  | ASG
  10  8,6  | AVIS
  10  1,4  | BAR
  10  8,1  | BATIS
@@ -434,7 +421,6 @@
  10  8,5  | RAVI
  10  9,2  | RAX
  10  1,6  - REX
- 10  1,4  | RF
  10 10,1  | RIG
  10  8,5  | RIVA
  10  1,5  - SAB
@@ -460,10 +446,8 @@
   9  3,4  | AIR
   9  3,2  | AIRS
   9  3,4  | AIS
-  9  9,1  | ARA
   9  3,4  | ARS
   9  1,5  | ARS
-  9  9,1  | ASA
   9  9,3  | AX
   9  3,4  | BA
   9  8,1  | BATS
@@ -492,9 +476,9 @@
   9  9,1  | SAA
   9  3,2  | SAIR
   9  7,5  | SAN
-  9  3,4  | SAR
   9  3,2  | SARI
   9  9,1  | SIA
+  9  7,5  | SIN
   9  3,4  | SIR
   9  8,2  | STAB
   9  8,2  | STIB
@@ -558,7 +542,6 @@
   8  5,1  | SAC
   8  9,2  | SAFI
   8  3,3  | SAI
-  8  3,3  | SAR
   8  9,4  - SI
   8  3,3  | SIA
   8  5,1  | SIC
@@ -636,7 +619,6 @@
   7 11,2  | ReBIA
   7 11,2  | ReIFS
   7  6,2  - SAI
-  7  1,4  | SAR
   7  8,5  | SAV
   7  1,6  - SEBA
   7  1,6  - SEIF
@@ -696,11 +678,13 @@
   6 11,2  | FeRS
   6  6,5  - IBA
   6  6,5  - IFS
+  6  7,6  | IN
   6  3,7  | IO
   6  3,4  | IS
   6  9,8  - IS
   6  2,9  - IS
   6  6,6  - NA
+  6  6,6  - NI
   6  2,7  - OI
   6  2,7  - OS
   6  3,8  | OS
@@ -780,8 +764,6 @@
   5 11,2  | ReF
   5  9,2  | SAIR
   5  1,5  - SAIR
-  5  9,2  | SARA
-  5  1,5  - SARA
   5  9,2  | SARI
   5  1,5  - SARI
   5  7,1  | SIT
@@ -807,15 +789,10 @@
   4  5,5  - AIRS
   4  9,3  | AIS
   4  2,5  - AIS
-  4  9,3  | ARA
-  4  2,5  - ARA
   4  4,6  - ARN
   4  9,3  | ARS
   4  2,5  - ARS
   4 11,1  | ARe
-  4  9,3  | ASA
-  4  2,5  - ASA
-  4 11,1  | ASe
   4  9,6  | AY
   4 11,2  | AeSIR
   4 11,2  | Be
@@ -837,7 +814,6 @@
   4  1,5  - SAI
   4  4,5  - SAIR
   4  4,6  - SAN
-  4  1,5  - SAR
   4 11,1  | SAe
   4  1,6  - SEAR
   4  1,6  - SERA
@@ -882,7 +858,6 @@
   3  9,2  | SAA
   3  9,2  | SAI
   3  4,5  - SAI
-  3  9,2  | SAR
   3  8,1  | SAT
   3  1,6  - SEA
   3  1,6  - SEI

@@ -38,27 +38,22 @@
  21  2,4  - ELVAN
  21  6,5  - EMDA
  21  3,7  - KNEAD
- 21  6,5  - MADE
- 21  6,5  - MANE
  21  2,1  | NAVE
  21  2,1  | VADE
  21  2,1  | VANE
  21  2,1  | VEDA
  21  1,4  - VELDMAN
  21  2,1  | VENA
- 20  5,5  - EMF
  20  6,5  - EMF
  20  5,7  - EMF
  20  6,9  - MADID
  20  6,9  - MANID
- 19  5,5  - AMEN
  19  5,7  - AMEN
  19  4,4  | AMU
  19  2,1  | DAME
  19  5,7  - DAME
  19  6,9  - DAVID
  19  2,1  | EMDA
- 19  5,5  - EMDA
  19  5,7  - EMDA
  19  2,1  | FADE
  19  2,1  | FANE
@@ -117,16 +112,11 @@
  16  2,4  - FLAMED
  16  2,4  - FLAMEN
  16  8,4  | MAAD
- 16  6,5  - MAD
- 16  6,5  - MAN
  16  6,2  | MANEh
  16  8,4  | MEAD
  16  8,4  | MEAN
- 16  6,5  - MED
  16  6,7  - MED
- 16  6,5  - MEN
  16  6,7  - MEN
- 16  6,5  - MNA
  16  6,7  - MNA
  16  7,8  - NAJA
  16  2,5  - NOMA
@@ -184,7 +174,6 @@
  14  7,3  | MANED
  14  8,5  - ME
  14  8,4  | MEA
- 14  6,5  - MEA
  14  6,7  - MEA
  14  4,2  | MNA
  14  2,5  - MODE
@@ -207,7 +196,6 @@
  13  5,2  | AMENT
  13  7,5  - ANE
  13  1,5  - ANODE
- 13  7,5  - DAE
  13  7,3  | DAVEN
  13  7,3  | DEMEAN
  13  7,1  | DENAME
@@ -305,13 +293,11 @@
  12  2,5  - VOD
  12  2,5  - VON
  11  7,3  | ADMEN
- 11  5,5  - AM
  11  6,5  - AM
  11  5,7  - AM
  11  6,7  - AM
  11  2,2  | ANE
  11  6,9  - DA
- 11  2,2  | DAE
  11  2,3  | DAN
  11  7,3  | DAVE
  11  6,9  - DE
@@ -325,7 +311,6 @@
  11  7,3  | EAVED
  11  6,5  - EF
  11  6,7  - EF
- 11  5,5  - EM
  11  6,5  - EM
  11  5,7  - EM
  11  6,7  - EM
@@ -344,17 +329,14 @@
  11  4,5  | FU
  11  3,4  - LAVE
  11  3,4  - LEVA
- 11  6,5  - MA
  11  2,3  | MAE
  11  7,2  | MANDE
- 11  6,5  - ME
  11  6,7  - ME
  11  5,3  | MEAT
  11  2,5  - MOD
  11  2,5  - MON
  11  4,5  | MU
  11  6,9  - NA
- 11  2,3  | NAD
  11  2,2  | NAE
  11  9,2  | NAMER
  11  7,3  | NAVE
@@ -395,7 +377,6 @@
  10  7,9  - AVID
  10  4,3  | DA
  10  8,5  - DA
- 10  5,7  - DAE
  10  5,3  | DAFT
  10  8,3  | DAMA
  10  7,3  | DAME
@@ -404,14 +385,6 @@
  10  5,2  | DEFAT
  10  5,3  | DEFT
  10  7,3  | DEME
- 10  2,3  | EAD
- 10  5,5  - EAD
- 10  6,5  - EAD
- 10  5,7  - EAD
- 10  2,3  | EAN
- 10  5,5  - EAN
- 10  6,5  - EAN
- 10  5,7  - EAN
  10  8,4  | EDAM
  10  8,3  | EDNA
  10  2,4  - ELAND
@@ -462,7 +435,6 @@
   9  7,9  - AMID
   9  2,4  | AN
   9  8,4  | AVA
-  9  2,3  | DAE
   9  8,3  | DANAE
   9  5,3  | DANTE
   9  9,2  | DENAR
@@ -593,6 +565,7 @@
   8  1,4  - VEL
   8  9,4  | VER
   8  5,4  | VETA
+  8  8,9  - VID
   7  6,5  - AD
   7  6,7  - AD
   7  2,4  | AE
@@ -667,7 +640,6 @@
   7  7,5  | VEE
   7  5,4  | VET
   6  8,5  | AAM
-  6  8,4  | ADA
   6  7,4  | ADEN
   6  5,3  | ADET
   6  5,4  | AFT
@@ -702,11 +674,8 @@
   6  3,4  - LEA
   6  7,4  | MAE
   6  8,5  | MAE
-  6  1,5  - MAO
   6  5,4  | MAT
   6  7,5  | MEA
-  6  7,4  | MEE
-  6  7,5  | MEE
   6  1,5  - MEO
   6  5,4  | MET
   6  2,3  | NA
@@ -755,11 +724,11 @@
   5  7,5  | ME
   5  6,4  | MEh
   5  2,5  - MO
-  5  8,5  | NAD
   5  9,4  | NAR
   5  5,4  | NATE
   5  7,5  | NED
   5  5,8  | NEI
+  5  5,9  | NI
   5  8,9  - NID
   5  3,8  - SAE
   5  3,8  - SEA
@@ -771,23 +740,16 @@
   4  8,9  - AID
   4  7,4  | ANE
   4  5,4  | ANT
-  4  7,4  | DAE
-  4  8,5  | DAE
   4  1,5  - DAO
   4  5,4  | DAT
   4  7,5  | DEA
   4  7,4  | DEE
   4  7,5  | DEE
   4  5,4  | DET
-  4  8,5  | EAD
-  4  7,6  | EAD
-  4  8,5  | EAN
-  4  7,6  | EAN
   4  9,4  | EAR
   4  1,5  - EDO
   4  7,5  | EEN
   4  7,6  | EEN
-  4  6,5  | Mh
   4  8,5  | NAA
   4  7,4  | NAE
   4  8,5  | NAE

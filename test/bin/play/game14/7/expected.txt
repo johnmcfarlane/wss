@@ -9,7 +9,6 @@
  42  3,7  | BeLVE
  38  1,8  - EVILs
  38  1,8  - VEILs
- 37  7,8  - IQs
  37  2,8  - VELa
  37  2,8  - VELd
  37  2,8  - VELl
@@ -111,7 +110,6 @@
  27  2,8  - tIL
  27  2,8  - vEL
  27  2,8  - vIL
- 27  2,8  - zEL
  26  2,8  - EeL
  26  2,8  - EyL
  26  4,8  - La
@@ -385,9 +383,12 @@
  11  6,8  - EVa
  11  6,8  - EVe
  11  6,8  - EVg
+ 11  5,5  | IMIdE
+ 11  5,5  | IMInE
  11  8,8  - IsL
  11  5,2  | LEI
  11  2,5  - LENa
+ 11  5,3  | LI
  11  2,5  - LINa
  11  7,8  - LIs
  11  5,1  | LwEI
@@ -444,7 +445,6 @@
  10 10,6  | DErV
  10  5,1  | ELIa
  10  5,2  | ELa
- 10  5,2  | ELb
  10  5,1  | ELhI
  10  5,2  | ELi
  10  1,8  - EVa
@@ -511,6 +511,9 @@
   9  6,8  - EpI
   9  8,8  - Es
   9  1,8  - ILE
+  9  5,5  | IMI
+  9  5,5  | IMId
+  9  5,5  | IMIt
   9  2,4  - IcKLE
   9  2,4  - InKLE
   9  8,8  - Is
@@ -527,12 +530,11 @@
   9  2,4  - LIKEr
   9  2,4  - LIKEs
   9  2,4  - LIKIn
-  9  5,2  | LIb
   9  5,3  | La
   9  5,2  | LaI
   9  2,4  - LaKIE
-  9  5,3  | Lb
   9  5,2  | LeI
+  9  5,3  | Li
   9  5,2  | LuI
   9  5,6  | MILE
   9  5,6  | MILEr
@@ -543,6 +545,7 @@
   9  5,6  | MILsIE
   9  5,6  | MIjL
   9  5,6  | MIlL
+  9  4,5  - NI
   9  6,5  | VAG
   9  6,5  | VAGe
   9  6,5  | VAGi
@@ -637,6 +640,7 @@
   8  1,4  - LEcK
   8  1,4  - LEeK
   8  1,4  - LEuK
+  8  2,8  - LI
   8  2,4  - LIKe
   8  1,4  - LIcK
   8  6,3  | LInAGE
@@ -738,7 +742,6 @@
   7  3,4  - IKEy
   7  1,8  - ILa
   7  1,8  - ILe
-  7  5,3  | Ib
   7  1,8  - IcE
   7  1,8  - IdE
   7  1,8  - IfE
@@ -798,6 +801,7 @@
   7  5,6  | MItE
   7  5,6  | MIzE
   7  4,5  - Na
+  7  4,5  - Ni
   7  9,7  - REL
   7  2,5  - VaN
   7  2,5  - ViN
@@ -829,12 +833,14 @@
   7  2,4  - hIKE
   7  1,8  - iII
   7  2,4  - iLK
+  7  5,5  | iMI
   7  5,3  | kI
   7  1,8  - kIE
   7  2,4  - kIKE
   7  2,4  - kIKI
   7  1,5  - kILN
   7  1,8  - lEI
+  7  5,3  | lI
   7  1,8  - lIE
   7  2,4  - lIKE
   7  5,3  | mI
@@ -843,6 +849,7 @@
   7  2,4  - mIKI
   7  6,5  | nAGEL
   7  1,8  - nEI
+  7  5,3  | nI
   7  2,4  - nIKE
   7  5,3  | oI
   7  3,4  - oKIE
@@ -975,6 +982,7 @@
   6  1,5  - LaEN
   6  1,5  - LaIN
   6  7,2  - LehAY
+  6  2,8  - Li
   6  1,5  - LiEN
   6  1,5  - LiIN
   6  2,8  - Lo
@@ -1014,10 +1022,12 @@
   6  2,8  - kI
   6  2,5  - kLN
   6  2,4  - lEK
+  6  2,8  - lI
   6  2,8  - mE
   6  2,8  - mI
   6  2,8  - nE
   6  2,4  - nEK
+  6  2,8  - nI
   6  2,8  - oE
   6  2,8  - oI
   6  2,4  - oIK
@@ -1103,7 +1113,6 @@
   5  1,5  - ItEN
   5  1,5  - IvIN
   5  4,4  - Ka
-  5  4,4  - Kb
   5  4,4  - Ki
   5  1,5  - LEaN
   5  1,5  - LEoN
@@ -1277,7 +1286,6 @@
   4  6,5  | zAG
   4  2,5  - zEN
   3 10,6  | De
-  3  2,5  - EaN
   3  2,5  - EeN
   3  2,5  - EoN
   3  2,5  - ErN
