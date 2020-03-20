@@ -87,13 +87,11 @@
  18  2,6  | TROAK
  18 10,8  | TUB
  17 10,2  - ABORT
- 17  2,5  - ABUT
  17  5,8  | AJOG
  17  5,8  - AT
  17 10,7  | BT
  17 10,8  | BTU
  17 10,8  | BURAO
- 17  1,5  - RABOT
  17 10,8  | TAB
  17 10,8  | TAW
  17 10,8  | TOB
@@ -106,7 +104,6 @@
  16 10,8  | BURA
  16 10,8  | BURO
  16 10,8  | BURT
- 16  3,5  - BUT
  16  6,1  | RAB
  16  6,1  | RAW
  16  6,1  | ROB
@@ -114,24 +111,18 @@
  16  6,1  | RTW
  16  3,3  - TUBAR
  16 12,2  - WARB
- 16  3,5  - WUT
- 15  1,5  - ABOUT
  15 10,8  | BART
- 15  3,5  - BAT
  15  1,14 - BOA
  15 10,8  | BOAR
  15 10,8  | BOAT
  15  5,4  | BOCA
  15 10,8  | BORA
  15 10,8  | BORT
- 15  3,5  - BOT
  15  1,14 - BOT
  15 10,8  | BOTA
  15 10,8  | BRAT
  15 10,8  | BROT
- 15  2,5  - BUAT
  15 10,8  | BUR
- 15  2,5  - BURT
  15 10,8  | BUT
  15  3,3  - TABOR
  15  2,3  - TABOUR
@@ -140,26 +131,20 @@
  15  2,12 | TURF
  15 12,2  - WAB
  15  5,4  | WACO
- 15  3,5  - WAT
  15 12,2  - WOB
- 15  3,5  - WOT
  15  1,14 - WOT
  14 10,2  - ABO
- 14  1,5  - ABORT
  14 10,2  - ABR
  14 10,2  - ABT
  14 10,8  | BAR
  14 10,8  | BAT
  14 10,8  | BOA
- 14  1,5  - BOART
  14 10,8  | BOR
  14 10,8  | BOT
- 14  2,5  - BOUT
  14  2,7  | BOWK
  14 10,8  | BRA
  14 10,8  | BRO
  14  5,1  - BROUILLE
- 14  2,5  - BRUT
  14  5,3  - BUR
  14  6,1  | ROUT
  14  8,13 | TA
@@ -171,23 +156,14 @@
  14 12,2  - WUT
  13 10,2  - AUTOR
  13  5,3  - BAR
- 13  2,5  - BART
- 13  2,5  - BOAT
  13  5,3  - BOR
- 13  2,5  - BORT
- 13  2,5  - BRAT
- 13  2,5  - BROT
  13  7,5  - HANDOUT
- 13  2,5  - ROWT
  13 10,8  | TURB
  13  2,13 | WAF
  13  5,3  - WAR
  13 12,2  - WART
- 13  2,5  - WART
  13 12,2  - WORT
- 13  2,5  - WORT
  12 10,2  - AARU
- 12  3,5  - ABT
  12  3,14 - AOLI
  12  5,4  | ARCO
  12  8,8  - ASTUR
@@ -201,7 +177,6 @@
  12 12,2  - OBA
  12  5,4  | ORCA
  12 12,2  - OWT
- 12  3,5  - OWT
  12  6,1  | RATO
  12  6,1  | ROAR
  12  6,1  | RORT
@@ -238,7 +213,6 @@
  11  5,5  | OCA
  11 12,2  - OW
  11 12,2  - ROUB
- 11  2,5  - ROUT
  11 12,2  - RUB
  11 12,2  - TABU
  11 10,8  | TAU
@@ -258,7 +232,6 @@
  10  3,3  - AUTOR
  10  2,8  | AWK
  10  1,14 - BO
- 10  4,5  - BT
  10  7,12 - ERATO
  10  7,12 - ETUA
  10  7,12 - EURO
@@ -266,36 +239,28 @@
  10  8,4  - FEEB
  10  9,3  - MYRA
  10  9,3  - MYRT
- 10  3,5  - OUT
  10  4,3  - OUTR
  10 12,2  - RAOB
  10  6,1  | RAT
  10  6,1  | ROT
  10 12,2  - ROWT
- 10  3,5  - RUT
  10 12,2  - TOBA
  10 10,8  | TORU
  10 12,2  - TROW
  10  5,4  | UBC
  10  1,14 - WO
  10  2,8  | WOK
- 10  4,5  - WT
   9  5,4  | ABC
-  9  3,5  - ART
   9  5,4  | BAC
   9  3,14 | BI
   9  5,4  | BOC
   9  9,3  - MYA
-  9  3,5  - OAT
   9 12,2  - ORB
-  9  3,5  - ORT
   9 12,2  - OUTR
   9 12,2  - RAB
-  9  3,5  - RAT
   9  2,7  | RAUK
   9 12,2  - RAW
   9 12,2  - ROB
-  9  3,5  - ROT
   9 12,2  - ROW
   9 12,2  - RTW
   9 12,2  - RUTA
@@ -342,14 +307,12 @@
   8 12,2  - TUA
   8 12,2  - TUR
   8  5,3  - TUR
-  8  4,5  - UT
   8  8,7  - WEAR
   8  8,7  - WERT
   8  8,7  - WETA
   7  5,3  - AOR
   7  2,13 | ARF
   7  2,8  | ARK
-  7  4,5  - AT
   7 12,1  | ERATO
   7 12,1  | ETUA
   7 12,1  | EURO
@@ -403,7 +366,6 @@
   5  2,12 - RHE
   5 12,2  - TA
   5 10,8  | TA
-  5  5,5  | TC
   5  2,12 - THE
   5 12,2  - TO
   5 10,8  | TO

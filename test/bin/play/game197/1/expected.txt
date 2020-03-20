@@ -4320,8 +4320,6 @@
   8  6,7  - AcES
   8  6,5  - AcTS
   8  6,7  - AcTS
-  8  6,5  - AdET
-  8  6,7  - AdET
   8  3,4  | AgASP
   8  3,6  | AgASP
   8  6,5  - AgES
@@ -5192,8 +5190,6 @@
   7  3,6  | AStEL
   7  6,5  - ATE
   7  6,7  - ATE
-  7  6,5  - ATEd
-  7  6,7  - ATEd
   7  6,5  - ATEf
   7  6,7  - ATEf
   7  6,5  - ATEn
@@ -7460,6 +7456,7 @@
   5  4,4  | kEGS
   5  6,4  | kEYS
   5  6,5  | kYAT
+  5  6,5  | kYES
   5  6,5  | kYL
   5  6,5  | kYTE
   5  4,4  | lAGS
@@ -7605,7 +7602,6 @@
   4  3,4  | ATAr
   4  3,6  | ATAr
   4  3,6  | ATE
-  4  3,6  | ATEd
   4  3,6  | ATEf
   4  3,6  | ATEn
   4  3,6  | ATEs
@@ -7625,9 +7621,6 @@
   4  3,6  | AcTA
   4  3,6  | AcTS
   4  6,4  | AcY
-  4  3,4  | AdAT
-  4  3,6  | AdAT
-  4  3,6  | AdET
   4  6,4  | AdY
   4  5,4  | AegLE
   4  3,4  | AgAS

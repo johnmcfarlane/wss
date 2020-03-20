@@ -15,10 +15,10 @@
  33  1,1  | OlIVET
  33  1,11 - QaDI
  33  8,4  - QuIN
- 32  1,11 - QtD
  31  8,4  | QuA
  30  5,3  | QuOP
  28  9,3  | QuEME
+ 28  7,9  - rOKEE
  27  1,3  | EVITE
  27  1,2  | VEnETI
  27  1,2  | VEnITE
@@ -64,17 +64,21 @@
  24  1,2  | pIVOT
  24  1,2  | rEVET
  24  1,2  | rIVET
+ 24  7,9  - rOK
  24  1,2  | rOVET
  24  1,2  | tOVET
  24  1,3  | uVITO
  24  1,2  | wEVET
+ 23  8,9  - OKEE
+ 23  8,9  - OKIE
  23 10,5  | QAt
  22  6,11 - QuIB
  22  7,4  | VENiE
  22  7,4  | VENuE
  22  7,4  | VeNIE
  21  1,3  | InVT
- 21 10,2  | Qh
+ 21  8,9  - OKeE
+ 21  8,9  - OKiE
  21  9,3  - QuA
  21  5,3  | VEEP
  21  1,3  | VEnT
@@ -87,6 +91,8 @@
  21  1,3  | VOlT
  21  1,3  | VoET
  21  1,3  | gOVT
+ 21  8,9  - oKEE
+ 21  8,9  - oKIE
  20  1,11 - VIDEO
  20  1,11 - VIDEOs
  20  4,5  - VOWEd
@@ -132,7 +138,6 @@
  18 10,1  | VInE
  18 10,1  | VInO
  18 10,1  | VItE
- 18  1,11 - VOD
  18 10,1  | VOlE
  18 10,1  | VOtE
  18  1,11 - VaDE
@@ -150,7 +155,6 @@
  17  9,3  | VEhME
  17  8,4  | VIA
  17  1,11 - ViD
- 17  1,11 - VoD
  17  6,5  - WEdE
  17  6,5  - WEnE
  17  6,5  - WIdE
@@ -163,7 +167,6 @@
  17  6,5  - WItE
  17  6,5  - WOdE
  17  6,5  - WOkE
- 17  6,5  - WOnE
  17  6,5  - WOtE
  17  6,11 - cEIBO
  17  8,3  | eVEA
@@ -271,7 +274,6 @@
  13 10,1  | VIp
  13 10,1  | VIz
  13  7,4  | VON
- 13 10,1  | VOd
  13 10,1  | VOl
  13 10,1  | VOn
  13  4,5  - VoW
@@ -332,7 +334,6 @@
  11  9,3  | OVuM
  11  2,8  | OmnI
  11  1,8  | QAt
- 11  1,5  | QTd
  11  1,5  | QTr
  11  1,5  | QTs
  11  1,5  | QTy
@@ -635,9 +636,7 @@
   9  8,11 - iBO
   9  8,5  - jE
   9  7,3  | jEON
-  9  8,3  | jIVA
   9  8,5  - jO
-  9  8,3  | jOVA
   9  1,8  | kAVI
   9  7,3  | kEEN
   9  1,3  | kEET
@@ -818,8 +817,6 @@
   8  7,4  | hON
   8  7,4  | iON
   8  8,4  - iVIN
-  8  8,3  - jIVA
-  8  8,3  - jOVA
   8  7,4  | kEN
   8  8,3  - kIVA
   8  9,4  | kOME
@@ -994,7 +991,6 @@
   7  5,11 - cIE
   7  2,3  | cIVE
   7  5,11 - cOE
-  7  1,7  - cOUE
   7  2,3  | cOVE
   7  1,10 - dEE
   7  5,11 - dEE
@@ -1201,7 +1197,6 @@
   6  2,7  - OUI
   6 10,4  | ObA
   6 10,4  | OdA
-  6  8,4  - OdIN
   6 10,4  | OkA
   6 10,4  | OlA
   6  8,4  - OmEN
@@ -1631,7 +1626,6 @@
   4  2,11 - ODEl
   4  2,11 - ODEs
   4  2,11 - ODIc
-  4  2,11 - ODIn
   4  8,4  | ObA
   4  8,4  | OcA
   4  8,4  | OdA
@@ -2079,7 +2073,6 @@
   3  1,11 - nED
   3  1,4  | nETE
   3  1,4  | nETI
-  3  1,11 - nID
   3  1,4  | nITO
   3  1,11 - nOD
   3  9,4  - nON
@@ -2127,7 +2120,6 @@
   3  1,11 - vID
   3  9,4  - vIN
   3  1,4  | vITE
-  3  1,11 - vOD
   3  9,4  - vON
   3  1,4  | vOTE
   3  1,11 - wED
@@ -2148,7 +2140,6 @@
   3  1,4  | yOTE
   3  1,11 - zED
   3  9,4  - zEN
-  3  1,11 - zOD
   2  1,9  | AE
   2  1,9  | AEr
   2  1,9  | AEs
@@ -2523,7 +2514,6 @@
   1  1,9  | Ax
   1  1,9  | Ay
   1  1,6  | Ta
-  1  1,6  | Tc
   1  1,6  | Td
   1  1,6  | Te
   1  1,6  | Th
