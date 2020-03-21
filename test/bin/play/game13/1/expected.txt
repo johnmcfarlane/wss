@@ -635,7 +635,6 @@
  16  4,5  | lANAZ
  16  5,5  - lAND
  16  6,2  | mADLY
- 16  5,5  - mAND
  16  6,2  | mANLY
  16  6,2  | oNLAY
  16  6,2  | pANDY
@@ -776,7 +775,6 @@
  14  4,4  | ALANDs
  14  4,4  | ALAuND
  14  6,7  - ALDeN
- 14  2,5  - ALDm
  14  4,5  - ALa
  14  6,7  - ALaN
  14  6,2  | ALaRY
@@ -989,10 +987,7 @@
  14  5,5  - lARN
  14  7,3  | lAZED
  14  6,3  | lAZY
- 14  5,5  - mAD
- 14  5,5  - mAN
  14  6,2  | mARDY
- 14  5,5  - mARL
  14  6,2  | mARLY
  14  4,3  | mAZA
  14  4,5  | mAZA
@@ -1387,7 +1382,6 @@
  12  5,5  - lAR
  12  7,3  | lAZE
  12  6,5  - mAND
- 12  5,5  - mAR
  12  7,3  | mAZE
  12  7,3  | nAZE
  12  5,7  - oAR
@@ -1411,7 +1405,6 @@
  11  5,5  | ABeND
  11  6,5  - ADRy
  11  6,7  - ADRy
- 11  3,5  - ADm
  11  3,7  - ADo
  11  3,7  - ADy
  11  4,5  - AL
@@ -1491,13 +1484,11 @@
  11  2,7  - DARi
  11  2,7  - DARt
  11  3,5  - DAl
- 11  3,5  - DAm
  11  3,7  - DAo
  11  3,7  - DAt
  11  3,7  - DAu
  11  3,7  - DAy
  11  4,4  | DRAbA
- 11  2,5  - DRAm
  11  4,4  | DRAmA
  11  2,7  - DRAt
  11  2,7  - DRAy
@@ -1529,7 +1520,6 @@
  11  2,7  - LARi
  11  3,5  - LAi
  11  3,7  - LAi
- 11  3,5  - LAm
  11  3,7  - LAo
  11  3,7  - LAt
  11  4,5  | LAuND
@@ -1571,7 +1561,6 @@
  11  3,5  - NAa
  11  3,7  - NAa
  11  3,7  - NAe
- 11  3,5  - NAm
  11  3,7  - NAt
  11  3,7  - NAy
  11  3,5  - NaA
@@ -2535,7 +2524,6 @@
   9  1,5  - LeDA
   9  1,7  - LeDA
   9  7,3  | LeDEN
-  9  7,7  - LeN
   9  1,5  - LeNA
   9  1,7  - LeNA
   9  7,7  - LhD
@@ -2616,8 +2604,6 @@
   9  7,5  - NeRD
   9  1,7  - NeRD
   9  7,7  - NeRD
-  9  4,5  - Ni
-  9  4,7  - Ni
   9  7,5  - NiL
   9  7,7  - NiL
   9  4,7  - No
@@ -2644,7 +2630,6 @@
   9  7,1  | RANgLE
   9  7,1  | RANkLE
   9  4,5  | RAbAND
-  9  3,5  - RAm
   9  3,7  - RAt
   9  3,7  - RAy
   9  7,5  | READL
@@ -2788,7 +2773,6 @@
   9  5,5  - lA
   9  4,5  | lAND
   9  4,5  - lL
-  9  5,5  - mA
   9  4,5  | mAND
   9  4,5  | mARLA
   9  6,5  - mNA
@@ -3017,7 +3001,6 @@
   8  1,7  - AdDR
   8  6,5  - AfD
   8  6,7  - AfD
-  8  4,6  | AgLA
   8  1,5  - AiRN
   8  1,7  - AiRN
   8  4,6  | AlAND
@@ -4102,7 +4085,6 @@
   7  7,5  - AlL
   7  4,6  | AlL
   7  7,3  | AlLEN
-  7  4,5  - Am
   7  7,5  - AnD
   7  4,6  | AnD
   7  7,5  - AnN
@@ -4429,8 +4411,6 @@
   7  2,5  - LeD
   7  2,7  - LeD
   7  7,3  | LeDE
-  7  2,5  - LeN
-  7  2,7  - LeN
   7  4,3  | LeNAD
   7  7,3  | LeNE
   7  7,7  - LeR
@@ -6566,9 +6546,6 @@
   5  4,3  | DoLA
   5  4,3  | DoNA
   5  2,7  - DoR
-  5  3,5  - Dp
-  5  7,5  - Dp
-  5  7,7  - Dp
   5  7,4  | DrEAR
   5  6,4  | DrY
   5  2,7  - DsR
@@ -6645,7 +6622,6 @@
   5  7,5  | LEDa
   5  7,5  | LEDe
   5  7,5  | LEDs
-  5  7,5  | LEN
   5  7,5  | LENa
   5  7,5  | LENd
   5  7,5  | LENe
@@ -6754,9 +6730,6 @@
   5  2,5  - NeA
   5  2,7  - NeA
   5  7,4  | NeED
-  5  7,5  - Ni
-  5  3,7  - Ni
-  5  7,7  - Ni
   5  7,5  - No
   5  7,7  - No
   5  2,5  - NoA
@@ -7255,7 +7228,6 @@
   4  4,6  | AgA
   4  7,4  | AgED
   4  7,4  | AgEN
-  4  4,3  | AgLA
   4  4,6  | AgR
   4  2,7  - AgR
   4  6,4  | AgY
@@ -7728,7 +7700,6 @@
   4  7,5  - mAR
   4  7,7  - mAR
   4  6,4  | mAY
-  4  5,5  | mB
   4  7,5  | mEAD
   4  7,5  | mEAL
   4  7,5  | mEAN
@@ -8039,7 +8010,6 @@
   3  7,5  | LEg
   3  7,5  | LEi
   3  7,5  | LEk
-  3  7,5  | LEn
   3  7,5  | LEp
   3  7,5  | LEr
   3  7,5  | LEt
@@ -8075,7 +8045,6 @@
   3  7,5  | NEi
   3  7,5  | NEk
   3  7,5  | NEo
-  3  7,5  | NEp
   3  7,5  | NEt
   3  7,5  | NEw
   3  7,4  | NaE
@@ -8199,7 +8168,6 @@
   3  7,3  | lARE
   3  7,5  | lEAR
   3  7,5  | lED
-  3  7,5  | lEN
   3  7,7  - lL
   3  3,5  - mA
   3  3,7  - mA

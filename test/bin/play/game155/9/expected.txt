@@ -139,8 +139,6 @@
  25  2,7  | AMIdE
  25  2,7  | AMIdO
  25  2,7  | AMIgO
- 25  2,7  | AMInE
- 25  2,7  | AMInO
  25  2,7  | AnIM
  25 10,1  | EM
  25  2,7  | EmIM
@@ -155,7 +153,6 @@
  25  2,6  | MOdI
  25  2,6  | MOmI
  25 10,1  | OM
- 25  2,7  | OMInA
  25  2,8  | bIMA
  25  2,8  | dIME
  25  2,8  | hIMA
@@ -202,7 +199,6 @@
  21  2,7  | AMIa
  21  2,7  | AMId
  21  2,7  | AMIl
- 21  2,7  | AMIn
  21  2,7  | AMIs
  21  2,7  | AMIt
  21  8,1  - AREW
@@ -223,9 +219,6 @@
  21  2,8  | MIlO
  21  2,8  | MImA
  21  2,8  | MImE
- 21  2,8  | MInA
- 21  2,8  | MInE
- 21  2,8  | MInO
  21  2,8  | MIsE
  21  2,8  | MIsO
  21  2,8  | MItE
@@ -325,7 +318,6 @@
  19  1,7  | bOKOM
  19 11,7  | eMEER
  19  1,7  | kOKAM
- 19  2,8  - nOEMI
  19  1,7  | pOKOM
  19 11,7  | sMEAR
  19 11,7  | sMEER
@@ -408,7 +400,6 @@
  17  2,8  | MIg
  17  2,8  | MIl
  17  2,8  | MIm
- 17  2,8  | MIn
  17  2,8  | MIs
  17  2,8  | MIt
  17  2,8  | MIx
@@ -758,8 +749,6 @@
  13 11,9  | EiR
  13 11,9  | EkE
  13  2,7  | ElIA
- 13 11,9  | EpA
- 13 11,9  | EpE
  13 11,9  | EtA
  13 11,9  | EwE
  13  6,7  - HM
@@ -1061,7 +1050,6 @@
  12  8,2  - mAMA
  12  1,6  - nAIM
  12  8,2  - nAMA
- 12  2,6  | nAOI
  12  8,2  - nEMA
  12  8,2  - nOMA
  12  1,6  - pRIM
@@ -1614,10 +1602,7 @@
   9  2,8  - mOO
   9  8,3  | mOUP
   9  4,4  - nAME
-  9  5,8  | nEEM
-  9  2,8  - nOA
   9  4,4  - nOME
-  9  2,8  - nOO
   9  8,3  | nOUP
   9  9,3  - nOX
   9  1,8  | oKER
@@ -1627,7 +1612,6 @@
   9  9,3  - pAX
   9  2,8  | pIA
   9  1,7  | pMK
-  9  2,8  - pOA
   9  2,8  - pOE
   9  4,4  - pOME
   9  9,3  - pOX
@@ -1999,7 +1983,6 @@
   7  5,7  | AlE
   7 11,7  | AlEE
   7  1,6  | AmOK
-  7  5,7  | AnE
   7  5,7  | ApE
   7  7,11 - ArDER
   7  1,5  - ArVO
@@ -2109,7 +2092,6 @@
   7  5,7  | OlE
   7 11,7  | OlEA
   7 11,7  | OlEO
-  7  5,7  | OnE
   7  2,6  | Oo
   7  3,8  - OoRIE
   7  5,7  | OpE
@@ -2888,20 +2870,15 @@
   6  1,6  - mOIR
   6  8,2  - mORA
   6  4,4  - mORE
-  6  2,6  | nA
   6  1,6  - nAIO
   6  1,6  - nAIR
   6  1,7  | nAK
   6  4,4  - nARE
-  6  2,6  | nE
   6 11,8  | nEA
-  6  5,8  | nEAR
   6 11,8  | nEE
-  6  5,8  | nEER
   6  1,7  | nEK
   6 11,8  | nEO
   6  5,8  - nIM
-  6  2,6  | nO
   6  1,6  - nOIR
   6  8,2  - nORA
   6  4,4  - nORE
@@ -3143,7 +3120,6 @@
   5 11,8  | REe
   5 11,8  | REf
   5  7,1  | RElATA
-  5 11,8  | REp
   5  3,7  - REsH
   5 11,8  | REt
   5 11,8  | REw
@@ -3239,9 +3215,6 @@
   5  5,8  | mEA
   5  5,8  | mEO
   5  5,4  - nAE
-  5  5,8  | nEA
-  5  5,8  | nEE
-  5  5,8  | nEO
   5  7,10 | oM
   5  1,11 - oMS
   5  5,4  - oRE
@@ -3386,7 +3359,6 @@
   4  2,9  | Ib
   4  2,9  | Id
   4  2,9  | If
-  4  2,9  | In
   4  2,9  | Io
   4  2,9  | Is
   4  2,9  | It
@@ -3625,7 +3597,6 @@
   4  4,6  | nE
   4  9,2  - nEA
   4  1,6  - nEI
-  4  2,10 - nI
   4  9,2  - nOA
   4  7,11 - nODE
   4  1,11 - nOSER
@@ -3642,7 +3613,6 @@
   4  2,6  - pIA
   4  2,6  - pIE
   4  2,6  - pIR
-  4  9,2  - pOA
   4  1,6  - pOI
   4  1,11 - pOSER
   4  1,11 - rASER
@@ -4370,12 +4340,7 @@
   2 10,2  - nA
   2 11,7  | nAE
   2  1,7  - nAR
-  2  5,8  | nE
   2 11,7  | nEE
-  2  2,6  - nI
-  2  2,8  | nI
-  2  5,8  - nI
-  2  2,8  - nO
   2  1,7  - nOR
   2  1,11 - nOS
   2  1,7  - oAR
