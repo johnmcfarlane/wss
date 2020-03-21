@@ -1265,7 +1265,6 @@
  13  5,5  | De
  13  7,5  | Di
  13  5,5  | Do
- 13  7,5  | Du
  13  6,5  - EDiCTS
  13  6,5  - EDuCTS
  13  6,5  - ENaCTS
@@ -1601,12 +1600,6 @@
  11  5,5  - DESCeNT
  11  4,2  | DIoC
  11  4,2  | DIsC
- 11  5,2  | DOaT
- 11  5,2  | DOeR
- 11  5,2  | DOiT
- 11  5,2  | DOoR
- 11  5,2  | DOuR
- 11  5,2  | DOuT
  11  5,4  - DSRi
  11  8,1  | DiDNT
  11  6,5  - EDuC
@@ -1895,7 +1888,6 @@
  10  6,4  - SNoD
  10  6,4  - SNoRT
  10  6,4  - SNoTS
- 10  6,4  - SNuRT
  10  6,4  - SRaC
  10  5,4  - SSToR
  10  6,4  - STaND
@@ -2119,15 +2111,12 @@
   9  7,2  | SEoR
   9  6,4  - SNiT
   9  6,4  - SNoT
-  9  6,4  - SNuR
   9  4,5  - STENCh
   9  1,1  | STRaND
   9  1,1  | STRiND
   9  1,1  | STRoND
   9  6,4  - STaRN
   9  6,4  - STeRN
-  9  6,4  - STuDS
-  9  6,4  - STuNS
   9  4,6  - SaX
   9  4,6  - SeX
   9  4,6  - SiX
@@ -2252,8 +2241,6 @@
   9  4,2  | sIT
   9  4,2  | tIS
   9  4,2  | tIT
-  9  8,4  - uNCS
-  9  8,4  - uNCT
   9  7,6  | uS
   9  7,6  | uT
   9  2,4  - wET
@@ -2331,9 +2318,6 @@
   8  4,2  | DIsT
   8  4,2  | DItS
   8  4,2  | DItT
-  8  5,2  | DOa
-  8  5,2  | DOe
-  8  5,2  | DOo
   8  4,5  - DRECk
   8  4,5  - DREiNT
   8  4,5  - DREyNT
@@ -2443,8 +2427,6 @@
   8  6,4  - STiD
   8  6,4  - STiRS
   8  6,4  - SToD
-  8  6,4  - STuD
-  8  6,4  - STuN
   8  5,2  - SUR
   8  2,2  | TA
   8  2,2  - TE
@@ -2558,7 +2540,6 @@
   8  8,2  - tNT
   8  4,5  - tRENDS
   8  5,2  - tUN
-  8  8,4  - uNC
   8  4,5  - uSEDNT
   8  2,2  | wAR
   8  2,2  | wAT
@@ -2654,7 +2635,6 @@
   7  4,2  | DIr
   7  4,2  | DIs
   7  4,2  | DIt
-  7  5,2  | DO
   7  1,2  | DRCh
   7  4,5  - DRENT
   7  8,3  | DRaD
@@ -2662,7 +2642,6 @@
   7  8,3  | DReST
   7  5,4  - DSr
   7  8,3  | DTD
-  7  5,2  - DU
   7  8,1  | DaDS
   7  1,1  | DaR
   7  1,1  | DeR
@@ -2827,7 +2806,6 @@
   7  8,4  - aCT
   7  8,1  | aDDR
   7  8,1  | aDDS
-  7  5,1  | aDO
   7  8,1  | aNDS
   7  8,4  - aNDS
   7  7,1  | aNE
@@ -2838,7 +2816,6 @@
   7  4,5  - cSECT
   7  5,5  - dECD
   7  4,5  - dSECT
-  7  5,1  | eDO
   7  8,1  | eNDS
   7  8,4  - eNDS
   7  4,5  - eRECT
@@ -2865,14 +2842,12 @@
   7  5,5  - sENDS
   7  4,5  - sTERNS
   7  5,5  - tENDS
-  7  5,1  | uDO
   7  5,5  - vENDS
   7  5,5  - wENDS
   7  5,1  | yNO
   6  2,3  | AD
   6  2,3  | ADc
   6  2,3  | ADd
-  6  2,3  | ADm
   6  2,3  | ADo
   6  2,3  | ADp
   6  2,3  | ADs
@@ -3095,13 +3070,11 @@
   6  1,2  | SRaC
   6  6,4  - SRi
   6  6,4  - SSi
-  6  6,4  - SSu
   6  4,5  - STERN
   6  4,5  - STERNa
   6  4,5  - STERNo
   6  4,5  - STERNs
   6  6,4  - STa
-  6  6,4  - STu
   6  5,2  - SUb
   6  5,2  - SUd
   6  5,2  - SUe
@@ -3248,8 +3221,6 @@
   6  5,2  - tUR
   6  5,2  - tUT
   6  8,1  | uRDS
-  6  8,4  - uRDS
-  6  8,4  - uRNS
   6  4,5  - uTEND
   6  5,5  - vENTS
   6  5,2  - wUT
@@ -3590,11 +3561,7 @@
   5  5,5  - tEND
   5  4,5  - tRENT
   5  8,2  | uDS
-  5  8,4  - uDS
-  5  8,4  - uNS
-  5  8,4  - uRD
   5  4,5  - uRENT
-  5  8,4  - uRN
   5  7,1  | uSE
   5  4,5  - uSENT
   5  7,1  | uTE
@@ -4073,12 +4040,9 @@
   4  5,5  - tERN
   4  4,5  - tREST
   4  4,5  - tRETS
-  4  8,4  - uN
   4  1,2  | uRDS
   4  1,2  | uRNS
-  4  8,4  - uRS
   4  4,5  - uSED
-  4  8,4  - uTS
   4  5,5  - vENT
   4  5,5  - vERD
   4  5,5  - vERN
@@ -4391,9 +4355,7 @@
   3  4,5  - cRES
   3  1,2  | cRTS
   3  5,5  - dEN
-  3  5,2  | dO
   3  8,1  | dTD
-  3  5,2  - dU
   3  5,5  - eEN
   3  8,2  - eR
   3  8,4  - eR
@@ -4501,9 +4463,7 @@
   3  8,1  | uRD
   3  1,2  | uRD
   3  1,2  | uRN
-  3  8,4  - uS
   3  4,5  - uSER
-  3  8,4  - uT
   3  5,5  - vERS
   3  5,5  - vERT
   3  5,5  - vEST
@@ -4534,7 +4494,6 @@
   2  8,3  | De
   2  8,3  | Di
   2  8,3  | Do
-  2  8,3  | Du
   2  6,5  - ER
   2  6,5  - ERa
   2  6,5  - ERe

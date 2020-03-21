@@ -312,7 +312,6 @@
  18  9,11 - AUd
  18  9,11 - AUs
  18  7,10 - AVoUE
- 18  9,7  | AbV
  18  9,7  | AdV
  18  3,1  | DOnATIVE
  18  8,11 - EATs
@@ -388,7 +387,6 @@
  18  7,10 - VEnUE
  18  7,10 - VITAE
  18  9,6  | bEAU
- 18  7,10 - bEVUE
  18  9,6  | cAV
  18  7,10 - cUVEE
  18  9,6  | dEV
@@ -535,7 +533,6 @@
  16  7,10 - AVIlE
  16  7,10 - AVInE
  16  9,1  | AbP
- 16 10,9  | AbV
  16  9,1  | AdP
  16 10,9  | AdV
  16  7,10 - AlIVE
@@ -804,8 +801,6 @@
  14  9,7  | AViE
  14  8,10 - AViE
  14  2,5  - AVoUE
- 14  5,7  | AbV
- 14  7,7  | AbV
  14  5,7  | AdV
  14  7,7  | AdV
  14  5,6  | AlEUT
@@ -829,9 +824,7 @@
  14  5,7  | ETUVe
  14  7,6  | EUdA
  14  9,10 - EVE
- 14  4,5  - EVEA
  14  2,5  - EVITE
- 14  9,7  | EVeA
  14  8,10 - EVoE
  14  8,3  | EXAlTE
  14  8,3  | EXITUrE
@@ -1093,7 +1086,6 @@
  13  9,6  | dA
  13  9,6  | dE
  13  5,7  | eTUVE
- 13  4,5  - eVEA
  13  2,5  - eVITE
  13  2,3  - gAE
  13  2,3  - gTE
@@ -1186,7 +1178,6 @@
  12  2,1  | ENsEAT
  12  1,5  - ETUVeE
  12  3,7  - EVALUe
- 12  4,5  - EVEa
  12  4,5  - EVEn
  12  4,5  - EVEr
  12  4,5  - EVEs
@@ -1316,7 +1307,6 @@
  12  5,5  | bEAT
  12  1,5  - eTUVEE
  12  9,10 - eVE
- 12  9,7  | eVEA
  12  5,5  | fEAT
  12  5,5  | hAET
  12  5,5  | hEAT
@@ -1353,7 +1343,6 @@
  11  7,7  | ATaVI
  11  3,5  - ATlEE
  11  3,5  - AUTEm
- 11  9,7  | AUbE
  11  9,7  | AUgE
  11  9,7  | AUnE
  11  9,7  | AUnT
@@ -1731,7 +1720,6 @@
  10  3,7  - EVAL
  10  3,7  - EVIL
  10  3,7  - EVILs
- 10  5,7  | EVeA
  10  8,3  | EXAm
  10  8,3  | EXEc
  10  8,3  | EXEs
@@ -1915,7 +1903,6 @@
  10  5,7  | aVIE
  10  7,7  | aVIE
  10  2,7  - bEVIL
- 10  2,5  - bEVUE
  10  2,7  - cAVEL
  10  2,7  - cAVIL
  10  3,5  - cITEE
@@ -1932,7 +1919,6 @@
  10  9,7  | eTUA
  10  9,7  | eTUI
  10  2,5  - eTUVE
- 10  5,7  | eVEA
  10  7,10 - fAUTE
  10  2,5  - fAUVE
  10  2,7  - fAVEL
@@ -2086,7 +2072,6 @@
   9  5,7  | EtUA
   9  5,7  | EtUI
   9  2,5  - EtUVE
-  9  4,5  - EvEA
   9  7,7  | IVa
   9  7,7  | IVe
   9  7,7  | IVy
@@ -2343,7 +2328,6 @@
   8  7,7  | AUTh
   8  5,7  | AUTo
   8  7,7  | AUTo
-  8  8,10 - AUbE
   8  5,7  | AUdIT
   8  7,7  | AUdIT
   8  8,10 - AUgE
@@ -2663,11 +2647,9 @@
   8  3,7  - aVAL
   8  2,7  - bATULE
   8  5,5  - bEA
-  8  7,7  | bEAUT
   8  5,5  - bEE
   8  2,7  - bETULA
   8  8,10 - bUTE
-  8  7,7  | bUTEA
   8  7,10 - cAITE
   8  5,5  - cEE
   8  7,10 - cITEE
@@ -2807,8 +2789,6 @@
   7  4,6  - ATWIn
   7  1,5  - AUTErE
   7  2,5  - AUTrE
-  7  5,7  | AUbE
-  7  7,7  | AUbE
   7  5,7  | AUgE
   7  7,7  | AUgE
   7  5,7  | AUnE
@@ -3038,13 +3018,8 @@
   7 10,9  | bA
   7  5,5  | bE
   7 10,9  | bE
-  7  7,7  | bEATI
-  7  7,7  | bEAU
   7  1,7  - bETAIL
   7 10,9  | bT
-  7  7,7  | bTU
-  7  7,7  | bUAT
-  7  7,7  | bUTE
   7  3,5  - cAVE
   7  3,5  - cIVE
   7  2,5  - cUTIE
@@ -3708,21 +3683,15 @@
   6  3,7  - aTULE
   6  4,7  - aULAE
   6  4,5  - aVE
-  6  7,7  | bAIT
   6  4,7  - bALUT
-  6  7,7  | bATE
   6  8,10 - bATE
   6  2,7  - bATEL
   6  3,3  - bE
-  6  7,7  | bEAT
   6  8,7  - bEGO
-  6  7,7  | bETA
   6  8,10 - bETE
-  6  7,7  | bITE
   6  8,10 - bITE
   6 10,10 | bU
   6  3,7  - bUILT
-  6  7,7  | bUT
   6  3,7  - bUTLE
   6  8,10 - cATE
   6  2,7  - cATEL
@@ -3744,7 +3713,6 @@
   6  3,3  - dE
   6  2,7  - dITAL
   6  8,10 - dITE
-  6 10,10 | dU
   6  3,7  - dUALI
   6  9,10 - dUE
   6  4,7  - dULAT
@@ -3967,7 +3935,6 @@
   5  4,7  - AULa
   5  4,7  - AULd
   5  4,7  - AULu
-  5  3,5  - AUbE
   5  3,5  - AUgE
   5  3,5  - AUnE
   5  3,5  - AUtE
@@ -4349,19 +4316,13 @@
   5  4,7  - aULA
   5  5,6  - aWA
   5  5,6  - aWE
-  5  7,7  | bAE
-  5  7,7  | bAI
   5  3,7  - bAILE
   5  4,7  - bALEI
   5  4,7  - bALTI
   5  4,7  - bALU
-  5  7,7  | bAT
   5  3,7  - bAUL
-  5  7,7  | bEA
   5  7,9  - bEATI
   5  4,7  - bELAT
-  5  7,7  | bET
-  5  7,7  | bIT
   5  5,7  - bLEU
   5  5,7  - bLUE
   5  9,6  - bOM
@@ -5032,7 +4993,6 @@
   4  5,7  - bLIT
   4  5,1  - bT
   4 10,10 | bT
-  4  7,7  | bU
   4  4,7  - bUL
   4  3,5  - bUTE
   4  9,10 - cEE
@@ -5536,17 +5496,13 @@
   3 11,1  | aT
   3  5,7  | aT
   3  7,7  | aT
-  3  7,7  | bA
   3  4,7  - bAL
   3  3,5  - bATE
-  3  7,7  | bE
   3  4,7  - bEL
   3  3,5  - bETE
-  3  7,7  | bI
   3  5,1  | bIT
   3  3,5  - bITE
   3 11,1  | bT
-  3  7,7  | bT
   3  4,7  - bTL
   3  4,7  - cAL
   3  3,5  - cATE
@@ -5745,7 +5701,6 @@
   2  4,5  - IsE
   2  4,5  - IvE
   2  6,7  - La
-  2  6,7  - Lb
   2  6,7  - Li
   2  6,7  - Ll
   2  6,7  - Lo

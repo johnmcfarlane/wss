@@ -62,7 +62,6 @@
  21  5,9  - JE
  21  4,5  | JND
  21  4,7  | NE
- 21  5,3  | NEJD
  21  4,6  | NET
  21  4,6  | NIT
  20  4,5  | JIN
@@ -74,7 +73,6 @@
  18  2,2  - GNIDE
  18  3,2  | IN
  18  4,5  | JET
- 18  5,4  | JND
  18  5,10 - TINEID
  18  4,5  | TJI
  18  6,6  - UNITED
@@ -143,10 +141,8 @@
  13  5,4  | DINE
  13  7,4  | DINE
  13  4,4  | EDIT
- 13  5,4  | INDE
  13  4,6  - JEU
  13  5,6  - JUT
- 13  5,4  | NIDE
  13  5,6  - QUE
  13  5,6  - QUI
  13  4,4  | TIDE
@@ -169,18 +165,13 @@
  12  6,10 - IDITE
  12  4,5  | IND
  12  4,5  | NED
- 12  5,2  | TEIND
- 12  5,4  | TIDE
  12  5,4  | TINE
  12  7,4  | TINE
- 12  5,2  | TINED
  12  6,8  - VID
  12  6,8  - VIN
  11  7,3  | DENT
  11  7,3  | DINT
  11  7,4  | DITE
- 11  5,3  | ENID
- 11  5,5  | IDE
  11  5,7  - INDENT
  11  5,7  - INTEND
  11  4,5  | ITD
@@ -189,18 +180,14 @@
  11  4,5  | TED
  11  5,9  - TEIND
  11  4,5  | TEN
- 11  5,3  | TEND
  11  4,5  | TID
  11  4,5  | TIN
- 11  5,3  | TIND
  11  6,8  - VEIN
  11  6,8  - VIED
- 10  5,6  | DE
  10  4,5  | DEI
  10  5,9  - DENE
  10  5,9  - DENT
  10  4,5  | DET
- 10  5,6  | DI
  10  4,5  | DIE
  10  7,3  | DIET
  10  4,5  | DIT
@@ -229,7 +216,6 @@
  10  4,6  | TD
  10  7,9  | TD
  10  3,1  | TI
- 10  5,3  | TIED
  10  5,3  | TIEN
  10  7,3  | TIEN
  10  6,8  - VITE
@@ -246,14 +232,11 @@
   9  5,10 - DINE
   9  5,10 - DINT
   9  7,3  | EDIT
-  9  5,4  | END
   9  6,9  - ENDE
   9  5,9  | ETA
   9  1,8  - FARE
   9  1,8  - FART
-  9  5,4  | IND
   9  4,6  | NE
-  9  5,4  | NED
   9  5,9  - NED
   9  5,9  - NEED
   9  5,10 - NIDE
@@ -275,7 +258,6 @@
   8  6,9  - ETEN
   8  5,7  - INNET
   8  4,6  | IT
-  8  5,4  | ITD
   8  5,9  - NEET
   8  6,7  - NEIN
   8  5,9  - NETE
@@ -283,11 +265,9 @@
   8  5,6  - NUDIE
   8  4,6  | TE
   8  7,6  | TE
-  8  5,4  | TED
   8  5,4  | TEN
   8  7,4  | TEN
   8  4,6  | TI
-  8  5,4  | TID
   8  5,4  | TIN
   8  7,4  | TIN
   8  5,10 - TIND
@@ -302,7 +282,6 @@
   7  5,10 - DIT
   7  5,6  - DUNE
   7  5,6  - DUNT
-  7  5,5  | ED
   7  5,9  - EEN
   7  6,9  - EIDE
   7  5,5  | EN
@@ -312,7 +291,6 @@
   7  2,2  - GENT
   7  2,2  - GIED
   7  2,2  - GIEN
-  7  5,5  | ID
   7  5,5  | IN
   7  7,5  | IN
   7  5,7  - INDN
@@ -329,7 +307,6 @@
   7  5,6  - NUDE
   7  2,7  - POD
   7  2,7  - PON
-  7  5,5  | TD
   7  5,9  - TED
   7  5,9  - TEED
   7  5,9  - TEEN
@@ -397,7 +374,6 @@
   5  5,6  - TUN
   5  6,6  - UDI
   5  6,6  - UNI
-  4  5,6  - DU
   4  2,2  - GI
   4  6,10 - IDE
   4  5,7  - INT

@@ -2,7 +2,6 @@
  31  8,4  | CAdGE
  31  8,4  | FAdGE
  30  6,4  | BESCArF
- 30  5,7  - BiFACE
  30  8,2  | CAFEs
  30  8,2  | FABEs
  30  2,1  | FACEBAr
@@ -445,7 +444,6 @@
  18  4,6  | UBC
  18  4,6  | UnBAG
  18  4,6  | UzBEG
- 18  4,5  - dEAF
  18  4,5  - lEAF
  18  4,5  - nEAF
  18  6,2  | sCAGS
@@ -605,7 +603,6 @@
  15  4,3  | ACtU
  15  7,5  - AFB
  15  5,4  | AGLEaF
- 15  5,5  - AuBE
  15  5,3  | BAGLE
  15  7,2  | BAGrEEF
  15  4,4  | BAUd
@@ -738,7 +735,6 @@
  14  2,6  | ABEAm
  14  2,6  | ABEAr
  14  6,2  | ABEtS
- 14  3,4  | ABV
  14  6,5  - ABbE
  14  6,2  | ABbES
  14  6,5  - ABiE
@@ -823,7 +819,6 @@
  14  4,5  | BUCArE
  14  5,3  | BaGLE
  14  2,3  | BiFACE
- 14  5,7  - BoE
  14  5,3  | BoGLE
  14  6,2  | BrAES
  14  7,5  - BrAG
@@ -1094,7 +1089,6 @@
  13  3,6  | ViAGE
  13  3,3  | aBAVE
  13  7,5  - aBC
- 13  3,4  | aBV
  13  7,5  - aFB
  13  7,5  - aGBA
  13  7,5  - bCF
@@ -1141,7 +1135,6 @@
  12  6,5  - ABs
  12  6,5  - ABt
  12  6,5  - ABu
- 12  6,5  - ABv
  12  6,5  - ABy
  12  4,4  | ACUtE
  12  5,2  | ACcEL
@@ -1173,7 +1166,6 @@
  12  2,6  | AlGAE
  12  7,5  - AmBE
  12  2,6  | ArAGE
- 12  7,5  - AuBE
  12  7,5  - BAE
  12  5,3  | BAEL
  12  7,5  - BAEl
@@ -1470,8 +1462,6 @@
  11  5,2  | BeAGLE
  11  5,3  | BeAL
  11  7,5  - BeE
- 11  5,7  - Bi
- 11  5,7  - Bo
  11  7,5  - BoA
  11  5,2  | BoCAL
  11  7,5  - BoE
@@ -1709,7 +1699,6 @@
  10  5,2  | AGnEL
  10  2,3  | AGrACE
  10  2,3  | AGrAFE
- 10  4,5  | AUBE
  10  6,5  - AbBE
  10  2,3  | AmBAGE
  10  6,5  - AmBE
@@ -2497,7 +2486,6 @@
   9  1,5  - aB
   9  1,7  - aB
   9  5,5  | aLCAE
-  9  4,5  | aUBE
   9  4,5  | aUCA
   9  5,2  | bABEL
   9  4,3  | bABU
@@ -2512,7 +2500,6 @@
   9  4,5  | cUBE
   9  4,5  | cUCA
   9  3,4  | dAVE
-  9  4,5  - dEA
   9  2,3  | dEBAG
   9  5,2  | dECAL
   9  3,4  | dEVA
@@ -2542,8 +2529,6 @@
   9  4,5  | kUBA
   9  5,2  | lABEL
   9  3,4  | lAVE
-  9  1,5  - lB
-  9  1,7  - lB
   9  4,5  - lEA
   9  4,3  | lEGUA
   9  3,4  | lEVA
@@ -2746,7 +2731,6 @@
   8  7,7  - EGAl
   8  7,6  | EGBa
   8  7,6  | EGBo
-  8  3,5  | EVeA
   8  6,5  - EbB
   8  5,3  | EcCL
   8  6,5  - EfF
@@ -2879,7 +2863,6 @@
   8  4,3  | dEGU
   8  2,3  | eGBA
   8  4,5  | eUGE
-  8  3,5  | eVEA
   8  5,3  | fABLE
   8  5,3  | gABLE
   8  5,4  | gALBE
@@ -2974,7 +2957,6 @@
   7  7,5  - ABt
   7  7,5  - ABu
   7  6,3  | ABuSE
-  7  7,5  - ABv
   7  7,5  - ABy
   7  7,3  | AByE
   7  2,4  | ACAlE
@@ -3025,7 +3007,6 @@
   7  5,5  | ALeC
   7  5,5  | ALeF
   7  5,5  | ALiF
-  7  4,5  | AUBe
   7  4,5  | AUCa
   7  4,5  | AUF
   7  3,5  | AVa
@@ -3048,7 +3029,6 @@
   7  6,5  - ArG
   7  5,2  | ArGEL
   7  4,3  | ArGUE
-  7  7,3  | AuBE
   7  1,5  - BA
   7  1,7  - BA
   7  2,4  | BAAEd
@@ -3517,14 +3497,12 @@
   6  4,5  | AUG
   6  4,5  | AUGe
   6  4,5  | AUGh
-  6  4,5  | AUbE
   6  4,5  | AUgE
   6  4,5  | AUnE
   6  4,5  | AUtE
   6  2,3  | AbBA
   6  2,6  | AbBA
   6  2,6  | AbBE
-  6  3,4  | AbV
   6  2,3  | AcCA
   6  2,6  | AcCA
   6  2,6  | AcCE
@@ -3568,7 +3546,6 @@
   6  6,3  | ArCS
   6  7,4  | AtEF
   6  2,6  | AtEF
-  6  2,6  | AuBE
   6  2,3  | AuCA
   6  2,6  | AuCA
   6  7,3  | AuGE
@@ -4024,7 +4001,6 @@
   6  5,4  | GyLE
   6  5,6  | LAG
   6  5,6  | LAGs
-  6  5,6  | LB
   6  5,6  | LBf
   6  5,6  | LBs
   6  5,6  | LBw
@@ -4153,12 +4129,10 @@
   6  5,5  | cLAG
   6  5,5  | cLEG
   6  4,5  | cUB
-  6  4,5  - dA
   6  6,3  | dABS
   6  7,3  | dACE
   6  2,5  | dACE
   6  5,4  | dBL
-  6  4,5  - dE
   6  2,4  | dEAF
   6  7,5  | dEAF
   6  7,3  | dEBE
@@ -4332,7 +4306,6 @@
   5  2,6  | ABs
   5  2,6  | ABt
   5  2,6  | ABu
-  5  2,6  | ABv
   5  2,6  | ABy
   5  2,6  | ACc
   5  2,6  | ACe
@@ -4917,7 +4890,6 @@
   5  2,5  | lAB
   5  2,5  | lAC
   5  6,3  | lAGS
-  5  7,7  - lB
   5  6,4  | lBS
   5  7,3  | lEGE
   5  7,5  | lEGE
@@ -5100,7 +5072,6 @@
   4  7,6  | ErG
   4  4,3  | EsAU
   4  6,5  - Et
-  4  7,6  | EvEA
   4  7,6  | EvG
   4  6,5  - Ew
   4  5,4  | ExLA
@@ -5395,7 +5366,6 @@
   3  7,5  - Et
   3  7,7  - Et
   3  6,3  | EtAS
-  3  7,4  | EvEA
   3  7,5  - Ew
   3  7,7  - Ew
   3  7,5  - Ex
@@ -5787,7 +5757,6 @@
   2  7,4  | EyE
   2  7,6  | EyE
   2  5,6  | La
-  2  5,6  | Lb
   2  5,6  | Li
   2  5,6  | Ll
   2  5,6  | Lo
@@ -5881,7 +5850,6 @@
   2  7,5  | dEA
   2  7,4  | dEE
   2  7,5  | dEE
-  2  4,5  | dU
   2  7,5  - eE
   2  7,7  - eE
   2  5,5  | eL
