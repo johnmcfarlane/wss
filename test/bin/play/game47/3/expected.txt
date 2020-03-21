@@ -1067,7 +1067,6 @@
  17  7,6  | IJOrE
  17  7,6  | IJoRe
  17  5,3  | IREOs
- 17  7,3  | IREOs
  17  9,6  - Ids
  17  9,6  - Ifs
  17  9,6  - Ihs
@@ -1272,14 +1271,9 @@
  15  2,4  - IJOrE
  15  7,6  | IJma
  15  5,3  | IREos
- 15  7,3  | IREos
  15  5,3  | IReOs
- 15  7,3  | IReOs
  15  5,3  | IdEO
- 15  7,3  | IdEO
- 15  7,3  | IlEOn
  15  5,3  | IrEOs
- 15  7,3  | IrEOs
  15  5,4  - JEER
  15  5,4  - JEERs
  15  5,4  - JEERy
@@ -1619,7 +1613,6 @@
  14  5,1  | ShIRE
  14  5,1  | ShORE
  14  5,1  | SmORE
- 14  5,1  | SnORE
  14  5,1  | SpIRE
  14  5,1  | SpIRO
  14  5,1  | SpORE
@@ -1668,15 +1661,9 @@
  13  2,4  - IJoRE
  13  3,5  - IJoRe
  13  5,3  | IdEa
- 13  7,3  | IdEa
- 13  7,3  | IdEe
  13  5,3  | IdEm
  13  5,3  | IdEo
- 13  7,3  | IdEo
- 13  7,3  | IdeE
  13  5,3  | IdeO
- 13  7,3  | IdeO
- 13  7,3  | IlEa
  13  3,4  - InJERa
  13  2,5  - InJERa
  13  2,3  - InJuN
@@ -1684,7 +1671,6 @@
  13  2,5  - InJuRE
  13  2,5  - IntERJ
  13  5,3  | ItEa
- 13  7,3  | ItEa
  13  5,3  | ItEm
  13  4,5  - JERIb
  13  4,5  - JERId
@@ -1851,7 +1837,6 @@
  13  2,4  - gIdJEE
  13  3,5  - iJORE
  13  5,3  | iREOs
- 13  7,3  | iREOs
  13  9,2  - isM
  13  1,4  - mEIsJE
  13  2,4  - mIlJEE
@@ -1878,7 +1863,6 @@
  12  1,6  - ExpIRY
  12  2,4  - IJorE
  12  5,3  | IRE
- 12  7,3  | IRE
  12  2,6  - IROnY
  12  1,6  - IROnlY
  12  2,6  - IcERYa
@@ -2027,7 +2011,6 @@
  12  1,6  - OrnERY
  12  1,6  - OrrERY
  12  1,6  - OsIErY
- 12  7,1  | OsIdE
  12  1,6  - OsIeRY
  12  7,1  | OsOnE
  12  1,6  - OsiERY
@@ -2102,11 +2085,6 @@
  12  5,1  | SmORe
  12  5,1  | SmOrE
  12  5,1  | SmOtE
- 12  5,1  | SnIdE
- 12  5,1  | SnIpE
- 12  5,1  | SnItE
- 12  5,1  | SnORe
- 12  5,1  | SnOrE
  12  5,1  | SpERe
  12  5,1  | SpIRa
  12  5,1  | SpIRe
@@ -2171,6 +2149,7 @@
  12  4,5  - dORJe
  12  2,4  - dOrJE
  12  1,6  - dOwERY
+ 12  5,6  - dYkIER
  12  4,5  - doRJE
  12  1,6  - eERIlY
  12  5,6  - eYRIEs
@@ -2351,7 +2330,6 @@
  11  3,4  - JupE
  11  3,4  - JurE
  11  3,4  - JutE
- 11  7,1  | OOId
  11  7,1  | ObOE
  11  7,1  | OdOR
  11  7,1  | OfER
@@ -2410,7 +2388,6 @@
  11  5,4  | hOmIER
  11  3,4  - haJE
  11  5,3  | idEO
- 11  7,3  | idEO
  11  5,4  | mEmOIR
  11  4,2  - mOIRE
  11  8,3  - maJO
@@ -2471,21 +2448,15 @@
  10  9,1  | GrOlIER
  10  5,3  | IRa
  10  5,3  | IRe
- 10  7,3  | IRe
  10  2,6  - IRonY
  10  5,3  | IaO
  10  5,3  | IbO
  10  5,3  | IdE
- 10  7,3  | IdE
  10  5,3  | IfE
- 10  7,3  | IfE
  10  2,6  - IkaRY
- 10  7,3  | IlE
  10  2,6  - InvOY
  10  5,3  | IrE
- 10  7,3  | IrE
  10  2,6  - IrOnY
- 10  7,3  | IsE
  10  2,6  - ItEmY
  10  2,6  - IvOrY
  10  2,6  - IvRaY
@@ -2636,8 +2607,6 @@
  10  5,1  | SkeRE
  10  5,1  | SlaRE
  10  5,1  | SmoRE
- 10  5,1  | SnaRE
- 10  5,1  | SnoRE
  10  5,1  | SpaRE
  10  5,1  | SpeRE
  10  5,1  | SpiRE
@@ -3140,9 +3109,7 @@
   9  9,1  | GlORIEd
   9  9,1  | GlORIEs
   9  9,1  | GoOIER
-  9  8,2  - IO
   9  5,3  | IO
-  9  7,3  | IO
   9  7,6  | IREOs
   9  8,5  - IROK
   9  3,3  - IRONE
@@ -3210,8 +3177,6 @@
   9  5,5  | ObElI
   9  7,1  | ObEs
   9  7,1  | ObEx
-  9  7,1  | ObIs
-  9  7,1  | ObIt
   9  7,1  | ObOe
   9  7,1  | ObOl
   9  5,6  | ObRIEn
@@ -3232,7 +3197,6 @@
   9  5,5  | OmbRE
   9  7,1  | OnEr
   9  7,1  | OnEs
-  9  7,1  | OoId
   9  7,1  | OoOo
   9  5,6  | OoRIE
   9  7,6  | OoRIE
@@ -3253,7 +3217,6 @@
   9  7,6  | OsIERs
   9  5,6  | OsIERy
   9  7,6  | OsIERy
-  9  7,1  | OtIs
   9  5,6  | OuREbI
   9  7,6  | OuREbI
   9  5,6  | OuRIE
@@ -3436,18 +3399,6 @@
   9  5,1  | SmEe
   9  5,1  | SmEw
   9  5,1  | SmIt
-  9  5,1  | SnEb
-  9  5,1  | SnEd
-  9  5,1  | SnEe
-  9  5,1  | SnEw
-  9  5,1  | SnIb
-  9  5,1  | SnIp
-  9  5,1  | SnIt
-  9  5,1  | SnOb
-  9  5,1  | SnOd
-  9  5,1  | SnOp
-  9  5,1  | SnOt
-  9  5,1  | SnOw
   9  5,1  | SoIr
   9  5,1  | SoOm
   9  5,1  | SoOn
@@ -3917,17 +3868,14 @@
   8  7,6  | IckER
   8  7,6  | IdEO
   8  5,3  | Ide
-  8  7,3  | Ide
   8  7,6  | IdlER
   8  3,3  - IeRNE
   8  7,6  | IfREe
   8  5,3  | Ife
-  8  7,3  | Ife
   8  4,3  - IgNORE
   8  7,6  | IjORe
   8  7,6  | IjoRE
   8  7,6  | IlEOn
-  8  7,3  | Ile
   8  7,6  | IllER
   8  7,6  | ImER
   8  7,6  | ImbER
@@ -3961,10 +3909,8 @@
   8  7,6  | IrREg
   8  5,3  | Ira
   8  5,3  | Ire
-  8  7,3  | Ire
   8  7,6  | IsORt
   8  7,6  | IsOmER
-  8  7,3  | Ise
   8  7,6  | ItER
   8  7,6  | ItERs
   8  5,3  | Ita
@@ -4079,7 +4025,6 @@
   8  7,6  | OatER
   8  7,1  | ObE
   8  4,4  - ObEyER
-  8  7,1  | ObI
   8  5,6  | ObItER
   8  7,6  | ObItER
   8  5,3  | Oba
@@ -4153,7 +4098,6 @@
   8  5,6  | OnERy
   8  7,6  | OnERy
   8  4,4  - OnEyER
-  8  7,1  | OnI
   8  7,1  | OnO
   8  5,3  | Ona
   8  5,6  | OncER
@@ -4474,7 +4418,6 @@
   8  4,3  - iONIzE
   8  2,3  - iOdINE
   8  5,3  | iRE
-  8  7,3  | iRE
   8  8,5  - iROK
   8  3,3  - iRONIEs
   8  4,3  - jENOaR
@@ -5003,7 +4946,6 @@
   7  9,1  | GyROsE
   7  3,3  - IERNe
   7  7,6  | IERne
-  7  5,2  - IIwi
   7  5,3  - INERi
   7  5,3  - INERm
   7  5,3  - INERt
@@ -5068,7 +5010,6 @@
   7  5,3  | Ib
   7  7,6  | IchO
   7  5,3  | Id
-  7  7,3  | Id
   7  7,6  | IdOsE
   7  7,6  | IdeE
   7  7,6  | IdeO
@@ -5076,7 +5017,6 @@
   7  7,6  | IdlE
   7  7,6  | IeRnE
   7  5,3  | If
-  7  7,3  | If
   7  7,6  | IfReE
   7  4,3  - IgNOrE
   7  4,3  - IgNOtE
@@ -5086,7 +5026,6 @@
   7  7,6  | ImeR
   7  2,3  - ImpONE
   7  5,3  | In
-  7  7,3  | In
   7  4,4  - InEyE
   7  9,5  - InK
   7  7,6  | InOnE
@@ -5100,9 +5039,7 @@
   7  7,6  | IntO
   7  2,3  - IntONE
   7  7,6  | IntR
-  7  8,2  - Io
   7  5,3  | Io
-  7  7,3  | Io
   7  4,3  - IoNOnE
   7  7,6  | IodE
   7  7,6  | IodO
@@ -5116,10 +5053,8 @@
   7  3,3  - IrONeR
   7  7,6  | IrOnE
   7  3,3  - IroNER
-  7  7,3  | Is
   7  7,6  | IslE
   7  5,3  | It
-  7  7,3  | It
   7  7,6  | IteR
   7  7,6  | ItmO
   7  7,6  | IyaR
@@ -5230,7 +5165,6 @@
   7  5,3  - ONERy
   7  5,3  - ONcER
   7  5,3  - ONkER
-  7  7,1  | OOid
   7  7,1  | OOoo
   7  5,6  | ORE
   7  7,6  | ORE
@@ -5657,8 +5591,6 @@
   7  5,1  | SluR
   7  5,1  | SmeE
   7  5,1  | SmuR
-  7  5,1  | SneE
-  7  5,1  | SnuR
   7  5,1  | SoaR
   7  5,1  | SoiR
   7  5,1  | SouR
@@ -6171,9 +6103,7 @@
   7  7,4  | heI
   7  5,4  | hoO
   7  3,3  - hoRNIE
-  7  5,2  - iIwI
   7  5,3  - iNERI
-  7  8,2  - iO
   7  3,3  - iRENIc
   7  7,6  | iREOs
   7  3,3  - iRONE
@@ -6495,7 +6425,6 @@
   7  4,3  - pONiER
   7  2,3  - pORINa
   7  2,3  - pORINg
-  7  5,4  | pOa
   7  5,4  | pOb
   7  8,5  - pOcK
   7  8,5  - pOlK
@@ -7034,7 +6963,6 @@
   6  3,3  - ExINe
   6  3,3  - ExINg
   6  2,3  - ExION
-  6  2,4  - ExIlER
   6  7,6  | ExIt
   6  3,3  - ExON
   6  7,6  | ExOn
@@ -7390,7 +7318,6 @@
   6  9,1  | GyROn
   6  9,1  | GyROs
   6  2,4  - IERnE
-  6  6,2  - IIi
   6  5,3  - INEpt
   6  5,3  - INEri
   6  5,3  - INErm
@@ -7499,7 +7426,6 @@
   6  4,3  - IgNaRO
   6  4,3  - IgNoRE
   6  1,4  - IgnORE
-  6  6,2  - IiI
   6  2,4  - IjORE
   6  7,6  | IkE
   6  7,6  | IkEy
@@ -7514,7 +7440,6 @@
   6  7,6  | IlEx
   6  7,6  | IlOt
   6  7,6  | ImEr
-  6  6,2  - ImI
   6  3,3  - ImiNE
   6  3,3  - ImiNO
   6  7,6  | InEz
@@ -7558,7 +7483,6 @@
   6  7,6  | ItEn
   6  7,6  | ItEr
   6  7,6  | IvE
-  6  6,2  - IwI
   6  8,1  | NEaR
   6  6,3  - NEaR
   6  8,1  | NEaRs
@@ -9094,7 +9018,6 @@
   6  7,6  | iROnE
   6  5,3  | iRa
   6  5,3  | iRe
-  6  7,3  | iRe
   6  2,3  - iRvIN
   6  2,3  - iRwIN
   6  5,3  | iaO
@@ -9102,22 +9025,17 @@
   6  5,3  | ibO
   6  3,3  - icENI
   6  5,3  | idE
-  6  7,3  | idE
   6  7,6  | idEO
   6  3,3  - ieRNE
   6  5,3  | ifE
-  6  7,3  | ifE
-  6  7,3  | ilE
   6  7,6  | imER
   6  3,3  - imINE
   6  3,3  - imINO
   6  3,3  - inONE
   6  7,6  | inRO
   6  5,3  | irE
-  6  7,3  | irE
   6  8,5  - irOK
   6  3,3  - irONE
-  6  7,3  | isE
   6  7,6  | itER
   6  1,4  - jEROmE
   6  1,4  - jErRIE
@@ -13147,7 +13065,6 @@
   5  5,3  - iNtRO
   5  5,3  - iNuRE
   5  5,3  | iO
-  5  7,3  | iO
   5  2,3  - iORtN
   5  7,6  | iRE
   5  3,3  - iRENa
@@ -13186,7 +13103,6 @@
   5  9,5  - inK
   5  4,3  - inNER
   5  4,3  - inNIE
-  5  8,2  - io
   5  9,5  - irK
   5  5,4  - jEER
   5  5,4  - jEERs
@@ -15252,7 +15168,6 @@
   4  6,2  - Ife
   4  3,6  - IffY
   4  2,5  - IgnORE
-  4  6,2  - Iii
   4  3,5  - IjORe
   4  3,5  - IjoRE
   4  4,4  - IkE
@@ -15269,7 +15184,6 @@
   4  3,5  - ImER
   4  4,4  - ImEr
   4  3,3  - ImaN
-  4  6,2  - Imi
   4  3,6  - ImmY
   4  3,6  - ImpY
   4  6,2  - Imu
@@ -15325,7 +15239,6 @@
   4  3,3  - IvaN
   4  3,3  - IviN
   4  6,2  - Iwa
-  4  6,2  - Iwi
   4  3,5  - IxORa
   4  3,6  - IzzY
   4  6,3  - NE
@@ -15383,7 +15296,6 @@
   4  6,3  - NEne
   4  6,3  - NEo
   4  6,3  - NEon
-  4  6,3  - NEp
   4  6,3  - NEpa
   4  8,1  | NEpeR
   4  6,3  - NErd
@@ -15413,7 +15325,6 @@
   4  6,3  - NEws
   4  6,3  - NEwt
   4  6,3  - NExt
-  4  6,3  - NI
   4  8,1  | NIEce
   4  8,1  | NIEls
   4  8,1  | NIEpa
@@ -15737,7 +15648,6 @@
   4  3,3  - ObaN
   4  7,1  | Obe
   4  3,6  - ObeY
-  4  7,1  | Obi
   4  2,3  - OcEaN
   4  3,5  - OchRE
   4  4,4  - OdE
@@ -15801,7 +15711,6 @@
   4  3,3  - OnaN
   4  3,6  - OndY
   4  7,1  | One
-  4  7,1  | Oni
   4  3,6  - OnlY
   4  7,1  | Ono
   4  5,4  | Oo
@@ -18046,7 +17955,6 @@
   4  3,6  - koRY
   4  9,4  - kpC
   4  3,3  - kuRN
-  4  4,3  - lEN
   4  4,3  - lENa
   4  4,3  - lENd
   4  4,3  - lENe
@@ -20008,7 +19916,6 @@
   3  8,1  | NEne
   3  8,1  | NEo
   3  8,1  | NEon
-  3  8,1  | NEp
   3  8,1  | NEpa
   3  8,1  | NErd
   3  8,1  | NEre
@@ -20033,7 +19940,6 @@
   3  8,1  | NEws
   3  8,1  | NEwt
   3  8,1  | NExt
-  3  8,1  | NI
   3  8,1  | NIas
   3  8,1  | NIb
   3  8,1  | NIbs
@@ -21714,24 +21620,18 @@
   3  2,5  - icIER
   3  4,6  - icY
   3  5,3  | id
-  3  7,3  | id
   3  7,6  | id
   3  5,3  | if
-  3  7,3  | if
   3  7,6  | if
   3  3,4  - ifREE
   3  3,5  - ijORE
   3  5,3  | in
-  3  7,3  | in
   3  7,6  | in
   3  3,5  - inERI
   3  5,3  | io
-  3  7,3  | io
   3  7,6  | io
-  3  7,3  | is
   3  7,6  | is
   3  5,3  | it
-  3  7,3  | it
   3  7,6  | it
   3  4,6  - ivY
   3  4,4  - jEER
@@ -21786,7 +21686,6 @@
   3  4,4  - kIERs
   3  3,5  - kIERs
   3  4,5  - kIRvE
-  3  8,3  - kIhO
   3  3,3  - kIlN
   3  8,3  - kIlO
   3  8,3  - kInO
@@ -22001,7 +21900,6 @@
   3  2,5  - maROR
   3  4,5  - maROR
   3  4,6  - maY
-  3  5,6  | mb
   3  3,5  - mbORI
   3  5,6  | me
   3  2,5  - meRER
@@ -23069,14 +22967,10 @@
   2  6,3  - Nek
   2  8,1  | Neo
   2  6,3  - Neo
-  2  8,1  | Nep
-  2  6,3  - Nep
   2  8,1  | Net
   2  6,3  - Net
   2  8,1  | New
   2  6,3  - New
-  2  8,1  | Ni
-  2  6,3  - Ni
   2  8,1  | Nib
   2  6,3  - Nib
   2  8,1  | Nig
@@ -24773,7 +24667,6 @@
   2  4,4  - kIEl
   2  4,4  - kIEr
   2  4,4  - kIEv
-  2  4,5  - kIRi
   2  4,5  - kIRk
   2  4,5  - kIRn
   2  3,5  - kIeR
@@ -24800,7 +24693,6 @@
   2  4,4  - kiER
   2  3,5  - kiER
   2  4,3  - kiN
-  2  4,5  - kiRI
   2  4,3  - klN
   2  3,4  - knEE
   2  4,4  - knEE
@@ -24877,7 +24769,6 @@
   2  4,5  - laRI
   2  4,4  - leER
   2  3,5  - leER
-  2  4,3  - leN
   2  3,4  - leRE
   2  4,5  - leRE
   2  4,4  - liER
@@ -26427,7 +26318,6 @@
   1  5,4  - lEg
   1  5,4  - lEi
   1  5,4  - lEk
-  1  5,4  - lEn
   1  5,4  - lEp
   1  5,4  - lEr
   1  5,4  - lEt
@@ -26487,7 +26377,6 @@
   1  5,4  - nEi
   1  5,4  - nEk
   1  5,4  - nEo
-  1  5,4  - nEp
   1  5,4  - nEt
   1  5,4  - nEw
   1 10,3  - nO
