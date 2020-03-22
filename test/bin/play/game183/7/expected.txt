@@ -165,7 +165,6 @@
  20  5,2  - FiNIAL
  20  5,2  - FoNTAL
  20  6,2  - INFALl
- 20 11,1  | Ib
  20 11,1  | Id
  20 11,1  | Is
  20 11,1  | It
@@ -510,7 +509,6 @@
  14  7,8  | TIb
  14  7,8  | TIc
  14  6,2  | TIcCA
- 14  7,8  | TId
  14  7,8  | TIe
  14  7,8  | TIg
  14  7,8  | TIl
@@ -617,7 +615,6 @@
  13  5,7  - TaIPI
  13  3,7  - TaXI
  13  7,2  | TeC
- 13  4,5  - TeNIO
  13  7,2  | TiC
  13  7,3  | TrIB
  13  4,5  - XCl
@@ -628,7 +625,6 @@
  13  7,8  | gIT
  13  4,5  - hCF
  13  7,8  | hIT
- 13  4,9  - iNCIDE
  13  4,5  - mCF
  13  7,8  | mIT
  13  5,9  - oXIDE
@@ -703,7 +699,6 @@
  12  3,5  - FrIT
  12  3,7  - FrIT
  12  4,9  - INCeDE
- 12  4,9  - INCiDE
  12  2,5  - INCuT
  12  2,7  - INCuT
  12  4,5  - INF
@@ -767,7 +762,6 @@
  12  6,3  | uNFACT
  12  2,5  - uNFIT
  12  2,7  - uNFIT
- 12  5,5  - uNIO
  12  6,3  | uNTAX
  12  6,2  - vINAL
  11  6,6  | AXoN
@@ -968,7 +962,6 @@
  10  6,2  | NIaTA
  10  6,2  | NIoTA
  10  6,2  | NItTA
- 10  5,5  - NaIO
  10  5,4  - NuCHA
  10  6,5  | TAX
  10  6,5  | TAXa
@@ -1129,7 +1122,6 @@
   9  7,9  | INn
   9  7,2  | INs
   9  7,9  | INs
-  9  7,1  | INsT
   9  7,2  | INt
   9  7,9  | INt
   9  6,3  | INtACT
@@ -1146,7 +1138,6 @@
   9  7,1  | NIsT
   9  3,7  - TChI
   9  7,2  | TNt
-  9  5,5  - ThIO
   9  5,7  - Xi
   9  5,7  - Xx
   9  6,4  | aFAINT
@@ -1273,7 +1264,6 @@
   8 10,10 | aE
   8  7,2  | aIT
   8  6,5  | bACIN
-  8  6,5  - bIO
   8  7,2  | bIT
   8  7,2  | cIT
   8  6,5  | dANIC
@@ -1442,19 +1432,14 @@
   7  4,7  - FrT
   7  4,5  - FuT
   7  4,7  - FuT
-  7  7,5  | IB
   7  3,5  - INiT
   7  3,7  - INiT
-  7  3,5  - INsT
-  7  3,7  - INsT
   7  3,5  - INvT
   7  3,7  - INvT
-  7  7,5  - IO
   7  6,8  - ITEM
   7  7,2  | ITa
   7  7,2  | ITd
   7  7,2  | ITs
-  7  7,9  | Ib
   7  7,9  | Id
   7  7,9  | If
   7  7,9  | In
@@ -1487,7 +1472,6 @@
   7  4,5  - TIN
   7  4,7  - TIN
   7  7,2  | TIc
-  7  7,2  | TId
   7  7,2  | TIs
   7  7,2  | TIt
   7  5,4  - TaNHA
@@ -1707,7 +1691,6 @@
   6  7,3  | Ta
   6  4,5  - TaN
   6  4,7  - TaN
-  6  7,3  | Td
   6  6,3  | TeCA
   6  6,8  - TeEM
   6  4,5  - TeN
@@ -1973,13 +1956,11 @@
   5  7,8  - hEM
   5  6,4  | hIANT
   5  6,9  - hIDE
-  5  7,5  | iB
   5  5,5  - iN
   5  5,7  - iN
   5  7,9  | iN
   5  4,5  - iNT
   5  4,7  - iNT
-  5  7,5  - iO
   5  7,2  - iTALI
   5  6,5  | jATNI
   5  6,5  | kAF
@@ -2138,7 +2119,6 @@
   4  6,4  | NIAs
   4  4,5  - NIb
   4  4,7  - NIb
-  4  4,7  - NIg
   4  4,5  - NIl
   4  4,7  - NIl
   4  4,5  - NIm
@@ -2312,7 +2292,6 @@
   4  4,7  - uIT
   4  6,4  | uNAI
   4  6,3  | uNTA
-  4  4,7  - uTI
   4  6,5  | vAIN
   4  7,2  - vIAL
   4  6,3  | vINA
@@ -2358,7 +2337,6 @@
   3  6,6  | ATIp
   3  6,6  | ATIs
   3  6,6  | ATlI
-  3  6,6  | AbIT
   3  6,6  | AdIT
   3  6,6  | AgIT
   3  6,6  | AiN
@@ -2416,8 +2394,6 @@
   3  6,4  | TIAr
   3  4,5  - TIb
   3  4,7  - TIb
-  3  4,5  - TId
-  3  4,7  - TId
   3  4,7  - TIe
   3  4,7  - TIg
   3  4,5  - TIl
@@ -2547,13 +2523,9 @@
   2  6,6  | AnT
   2  6,6  | ApT
   2  6,6  | ArT
-  2  6,6  | AsT
   2  6,6  | AtI
   2  6,6  | AtT
   2  6,5  | IAn
-  2  6,5  | IAo
-  2  5,5  - Ib
-  2  5,7  - Ib
   2  6,4  | IbA
   2  5,5  - Id
   2  5,7  - Id
@@ -2567,7 +2539,6 @@
   2  5,7  - It
   2  6,4  | ItA
   2  6,4  | IvA
-  2  6,4  | IwA
   2  6,5  | TA
   2  6,5  | TAa
   2  6,5  | TAb
@@ -2592,8 +2563,6 @@
   2  5,5  - Ta
   2  5,7  - Ta
   2  6,4  | TaA
-  2  5,5  - Td
-  2  5,7  - Td
   2  5,7  - Te
   2  6,4  | TeA
   2  5,5  - Th

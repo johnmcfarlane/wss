@@ -8,6 +8,7 @@
  30  2,5  | FACEBAr
  30  8,2  | FACEd
  30  8,2  | FACEs
+ 30  8,6  | dECAF
  29  8,3  | EBCd
  29  8,4  | FAsC
  29  8,6  | dEBAG
@@ -288,7 +289,6 @@
  19  7,5  - BAChE
  19  4,4  | BAUCh
  19  7,5  - BECAp
- 19  7,5  - BEFAn
  19  5,3  | BEFLAG
  19  5,3  | BEFLAGs
  19  4,5  | BUcCA
@@ -721,6 +721,8 @@
  15  3,6  | VErB
  15  3,6  | VoCAB
  15  5,4  | aGLEAF
+ 15  7,5  - dECAF
+ 15  7,7  - dECAF
  15  7,1  | dEFACE
  15  7,5  | dEFACE
  15  4,5  | qUAB
@@ -888,7 +890,6 @@
  14  3,3  | FErV
  14  6,2  | FEtAS
  14  5,5  | FLAnGE
- 14  4,5  | FUCAtE
  14  4,4  | FeU
  14  7,5  - FlAG
  14  7,7  - FlAG
@@ -945,6 +946,7 @@
  14  6,2  | dACES
  14  7,5  - dEBAG
  14  7,7  - dEBAG
+ 14  7,5  | dECAF
  14  6,2  | fABES
  14  6,2  | fACES
  14  5,5  - lAB
@@ -1768,8 +1770,6 @@
  10  7,5  | BEEFs
  10  7,4  | BEEFy
  10  7,5  | BEEFy
- 10  2,3  | BEFAn
- 10  7,5  | BEFAn
  10  7,5  | BEGAzE
  10  5,4  | BELGa
  10  6,4  | BEShAG
@@ -2044,6 +2044,7 @@
  10  4,4  | dAUBE
  10  7,5  - dEB
  10  7,7  - dEB
+ 10  2,3  | dECAF
  10  7,5  - dEF
  10  7,7  - dEF
  10  6,5  - eF
@@ -2055,7 +2056,6 @@
  10  7,7  - fEC
  10  7,5  - hAF
  10  7,7  - hAF
- 10  6,5  - iB
  10  6,5  - iF
  10  6,7  - iF
  10  7,5  - jAB
@@ -2455,7 +2455,6 @@
   9  5,6  | LACEt
   9  5,6  | LACEy
   9  5,6  | LAnG
-  9  5,6  | LEBAn
   9  5,6  | LEnG
   9  5,6  | LyCEA
   9  6,6  | SCAG
@@ -2519,8 +2518,6 @@
   9  4,3  | hABU
   9  4,3  | hAGUE
   9  3,4  | hAVE
-  9  1,5  - iB
-  9  1,7  - iB
   9  1,5  - iF
   9  4,3  | jACU
   9  4,5  | jUBA
@@ -2550,7 +2547,6 @@
   9  4,3  | pACU
   9  7,5  - pAGE
   9  3,4  | pAVE
-  9  7,5  - pEGA
   9  5,5  | pLACE
   9  4,5  | pUCA
   9  4,5  | pUCE
@@ -2892,7 +2888,6 @@
   8  7,7  - mEG
   8  5,4  | mELBA
   8  4,5  | mUGA
-  8  5,3  | nABLE
   8  7,5  - nAG
   8  7,7  - nAG
   8  5,2  | nAGEL
@@ -4543,8 +4538,6 @@
   5  7,6  | EfF
   5  5,3  | EgAL
   5  6,3  | EgGS
-  5  7,5  - ElA
-  5  7,7  - ElA
   5  7,6  | ElB
   5  7,6  | ElF
   5  7,6  | EmF
@@ -4928,10 +4921,7 @@
   5  2,5  | pAGE
   5  2,4  | pEAG
   5  7,5  | pEAG
-  5  2,3  | pEGA
-  5  7,5  | pEGA
   5  6,3  | pEGS
-  5  6,5  | pSF
   5  4,5  | pUG
   5  2,5  | rAB
   5  2,3  | rAGA
@@ -5051,7 +5041,6 @@
   4  7,6  | EAvE
   4  7,6  | EGg
   4  7,6  | EGo
-  4  5,5  | ELA
   4  5,5  | ELAn
   4  5,5  | ELiA
   4  5,5  | ELlA
@@ -5326,11 +5315,9 @@
   3  6,3  | EArS
   3  6,3  | EAtS
   3  5,5  | EL
-  3  5,5  | ELa
   3  5,5  | ELb
   3  5,5  | ELd
   3  5,5  | ELf
-  3  5,5  | ELi
   3  5,5  | ELk
   3  5,5  | ELl
   3  5,5  | ELm
@@ -5471,7 +5458,6 @@
   3  4,4  | eAU
   3  1,7  - eE
   3  5,4  | eEL
-  3  5,5  | eLA
   3  1,5  - fA
   3  1,7  - fA
   3  1,7  - fE
@@ -5598,7 +5584,6 @@
   2  6,5  | ASk
   2  6,5  | ASp
   2  6,5  | ASs
-  2  6,5  | ASt
   2  1,5  - Aa
   2  1,7  - Aa
   2  2,4  | AaA
@@ -5701,7 +5686,6 @@
   2  6,5  | ES
   2  6,5  | ESc
   2  6,5  | ESe
-  2  6,5  | ESp
   2  6,5  | ESq
   2  6,5  | ESs
   2  6,5  | ESt
@@ -5717,8 +5701,6 @@
   2  7,6  | EkE
   2  1,5  - El
   2  1,7  - El
-  2  2,4  | ElA
-  2  7,6  | ElA
   2  6,4  | ElS
   2  1,5  - Em
   2  1,7  - Em
@@ -5985,6 +5967,7 @@
   2  7,4  | yEE
   2  7,5  | yEE
   2  6,4  | yES
+  2  6,4  | zAS
   2  7,4  | zEE
   2  7,5  | zEE
   1  2,6  | Aa

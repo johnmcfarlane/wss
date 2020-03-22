@@ -126,7 +126,6 @@
  27  9,9  | DOs
  27  9,9  | DOt
  27  9,9  | DOw
- 27  9,9  | DOz
  27  9,9  | DaO
  27  9,9  | DoO
  27  9,9  | DuO
@@ -201,7 +200,6 @@
  23  9,5  | OrDU
  23  5,11 - cLOUD
  23  5,11 - cOULD
- 23  5,11 - pOUND
  23  5,11 - sOUND
  23  5,11 - tOULD
  23  5,11 - uNOLD
@@ -422,7 +420,6 @@
  20  8,4  | UNtAXED
  20  8,4  | UNwAXED
  20  9,8  | Us
- 20  7,7  | bOVLD
  20  5,11 - cODOL
  20  5,11 - cODON
  20  5,11 - cOLON
@@ -433,13 +430,11 @@
  20  8,10 - lOUD
  20  8,10 - lOUN
  20  8,10 - lUDO
- 20  5,11 - pONDO
  20  9,9  | rLD
  20  9,9  | rND
  20  6,1  | rOUNDEL
  20  9,9  | rUD
  20  9,9  | rUN
- 20  9,9  | sLD
  20  8,6  - sLOD
  20  8,10 - sLOD
  20  8,6  - sLON
@@ -526,7 +521,6 @@
  18  8,10 - DOs
  18  8,10 - DOt
  18  8,10 - DOw
- 18  8,10 - DOz
  18  9,2  | DUNgOL
  18  6,1  | DUNkLE
  18  6,1  | DUNtLE
@@ -609,8 +603,6 @@
  18  6,1  | oNDULE
  18  6,2  | rUNDEL
  18  6,1  | rUNDLE
- 18  8,6  - sLD
- 18  8,10 - sLD
  18  6,1  | sNOOLED
  18  8,6  - sOLO
  18  8,10 - sOLO
@@ -777,7 +769,6 @@
  16  8,10 - sOU
  16  6,2  | sOULED
  16  9,3  | sOUND
- 16  7,6  | tD
  16  9,3  | tOULD
  16  7,7  | tOV
  16  9,3  | vODUN
@@ -1501,7 +1492,6 @@
  11  9,5  | rND
  11  9,5  | rUD
  11  9,5  | rUN
- 11  9,5  | sLD
  11  8,6  - sO
  11  8,10 - sO
  11  9,5  | sUD
@@ -1520,7 +1510,6 @@
  10  6,5  - DOLOr
  10  6,5  - DOLOs
  10  5,1  | DOLi
- 10  2,7  - DOM
  10  6,5  - DONOr
  10  6,5  - DONaL
  10  5,1  | DONi
@@ -1605,7 +1594,6 @@
  10  6,2  | OsONE
  10  6,2  | OzONE
  10  4,5  - RcD
- 10  2,6  | TD
  10  5,11 - UDaL
  10  5,11 - UDoN
  10  5,11 - ULNa
@@ -1921,7 +1909,6 @@
   9  7,7  - sALUD
   9  7,7  - sAULD
   9  9,9  | sO
-  9  9,6  | tD
   9  5,2  | tLO
   9  6,5  - tOLDO
   9  6,5  - tONDO
@@ -2163,7 +2150,6 @@
   8  6,7  - oDAL
   8  7,7  - pADOU
   8  6,5  - pLOD
-  8  5,11 - pLUD
   8  6,5  - pOND
   8  6,4  | qUENDA
   8  7,7  - rADON
@@ -2710,9 +2696,7 @@
   7  6,3  | oLDEN
   7  7,7  - pAND
   7  7,7  - pAUL
-  7  5,11 - pLOD
   7  1,4  - pLUG
-  7  5,11 - pOND
   7  1,4  - pONGO
   7  6,5  - pOOD
   7  6,5  - pOOL
@@ -2720,7 +2704,6 @@
   7  6,3  | pULED
   7  1,4  - pUNG
   7  6,5  - pUNO
-  7  5,11 - pUNO
   7  1,4  - qUNG
   7  5,11 - qUOD
   7  7,7  - rAND
@@ -2818,7 +2801,6 @@
   6  6,3  | DONE
   6  6,3  | DONEc
   6  6,3  | DONEe
-  6  6,3  | DONEy
   6  2,3  | DONT
   6  9,4  | DOOl
   6  9,4  | DOOm
@@ -2859,7 +2841,6 @@
   6  9,5  | DOw
   6  6,3  | DOwEL
   6  6,3  | DOyEN
-  6  6,5  - DOz
   6  6,3  | DOzEN
   6  2,4  - DaGO
   6  6,5  - DaO
@@ -3084,7 +3065,6 @@
   6  5,2  | OtO
   6  6,3  | OwNED
   6  5,2  | OxO
-  6  2,6  | Td
   6  2,6  | Th
   6  5,11 - Uh
   6  5,11 - Um
@@ -3125,7 +3105,6 @@
   6  6,5  | dENDA
   6  6,5  - dODO
   6  6,3  | dOLED
-  6  2,7  - dOM
   6  1,4  - dONG
   6  1,4  - dOUG
   6  3,4  - eGOL
@@ -3165,25 +3144,14 @@
   6  6,5  - nOLO
   6  1,4  - nONG
   6  7,7  - pAOLO
-  6  5,11 - pDL
-  6  5,11 - pDN
   6  6,5  | pENDA
-  6  5,11 - pLU
   6  6,3  | pOLED
   6  6,5  - pOLO
-  6  5,11 - pOLO
   6  1,4  - pONG
-  6  5,11 - pOOD
-  6  5,11 - pOOL
-  6  5,11 - pOON
-  6  5,11 - pUD
-  6  5,11 - pUL
-  6  5,11 - pUN
   6  2,9  | rE
   6  1,4  - rONG
   6  6,3  | rOUEN
   6  7,7  - sADO
-  6  5,11 - sLD
   6  1,4  - sLOG
   6  1,4  - sNOG
   6  6,3  | sOLED
@@ -3456,7 +3424,6 @@
   5  6,4  | NeED
   5  2,3  | NeUT
   5  6,3  | NiDE
-  5  2,4  - NiG
   5  6,3  | NiLE
   5  6,3  | NiUE
   5  6,5  - No
@@ -3725,10 +3692,7 @@
   5  6,4  | pLED
   5  6,5  - pLU
   5  5,3  | pO
-  5  5,11 - pOD
   5  2,4  - pOGO
-  5  5,11 - pOL
-  5  5,11 - pON
   5  6,5  - pUD
   5  2,4  - pUG
   5  6,5  - pUL
@@ -3805,8 +3769,6 @@
   5  2,4  - yUG
   5  6,3  | yULE
   5  6,5  - yUN
-  5  7,7  - zAD
-  5  2,4  - zOGO
   4  8,7  - AdOD
   4  8,7  - AdON
   4  8,7  - AeON
@@ -4016,7 +3978,6 @@
   4  6,5  - eDO
   4  3,4  - eGO
   4  5,11 - eL
-  4  6,7  - eLA
   4  5,11 - eN
   4  6,3  | eOLE
   4  6,5  - eON
@@ -4118,7 +4079,6 @@
   4  2,4  - sOG
   4  6,3  | sOLE
   4  6,3  | sONE
-  4  5,11 - tD
   4  6,5  - tLO
   4  6,5  - tOD
   4  6,3  | tODE
@@ -4223,7 +4183,6 @@
   3  2,4  | DiT
   3  6,4  | DoE
   3  2,4  | DoT
-  3  2,4  | DpT
   3  6,4  | DuE
   3  2,4  | DwT
   3  6,4  | DyE
@@ -4232,7 +4191,6 @@
   3  6,6  | EN
   3  2,10 | Ee
   3  2,10 | Eo
-  3  2,10 | Et
   3  4,4  - Gi
   3  4,4  - Go
   3  7,7  - LA
@@ -4413,7 +4371,6 @@
   3  2,3  | hOOT
   3  6,4  | hUE
   3  2,4  | hUT
-  3  7,7  - iAO
   3  6,4  | iDE
   3  6,4  | iLE
   3  2,4  | iNT
@@ -4453,7 +4410,6 @@
   3  2,4  | oUT
   3  6,5  | pED
   3  6,5  | pEN
-  3  5,11 - pO
   3  2,3  | pOOT
   3  2,4  | pUT
   3  6,4  | qUE
@@ -4474,8 +4430,6 @@
   3  2,3  | sOOT
   3  6,4  | sUE
   3  7,7  - tAO
-  3  6,5  - tD
-  3  2,11 - tD
   3  6,5  | tED
   3  6,5  | tEL
   3  6,5  | tEN
@@ -4508,7 +4462,6 @@
   2  6,6  | EO
   2  5,9  | ESc
   2  5,9  | ESe
-  2  5,9  | ESp
   2  5,9  | ESq
   2  5,9  | ESs
   2  5,9  | ESt

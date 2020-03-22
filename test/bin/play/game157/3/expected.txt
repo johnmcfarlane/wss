@@ -53,6 +53,7 @@
  40  6,2  - FECAl
  40  6,2  - FOCAl
  40  6,2  - WOCAs
+ 40  6,2  - dECAF
  40  9,8  | sCOW
  39  8,9  - dOWF
  39  8,9  - sOWF
@@ -2499,6 +2500,7 @@
  10  2,4  | cOAX
  10  2,3  | cOXA
  10  8,2  - dAW
+ 10  2,3  | dECAF
  10  4,4  | dOUCE
  10  2,3  | dOXA
  10  4,5  | dUX
@@ -2834,7 +2836,6 @@
   9  5,2  | hOWEL
   9  1,5  - iF
   9  4,3  | jOCU
-  9  3,4  | jOVE
   9  5,2  | jOWEL
   9  7,8  - kEX
   9  2,5  | lAX
@@ -3971,7 +3972,6 @@
   6  6,6  | SOwF
   6  6,6  | SWEp
   6  6,6  | SWOb
-  6  6,6  | SWOm
   6  6,6  | SWOp
   6  6,6  | SWOt
   6  6,6  | SWOw
@@ -4701,8 +4701,6 @@
   5  7,1  - iFS
   5  6,4  | iFS
   5  5,7  - iO
-  5  7,2  - iWA
-  5  2,4  | iWA
   5  2,5  | jAW
   5  2,5  | kAF
   5  7,8  - kEF
@@ -4732,8 +4730,6 @@
   5  2,5  | pAC
   5  2,5  | pAW
   5  7,8  - pEW
-  5  8,1  - pSF
-  5  6,5  | pSF
   5  8,1  - pSW
   5  6,5  | pSW
   5  2,5  | rAW
@@ -4916,7 +4912,6 @@
   4  7,8  | hOE
   4  9,8  | hOE
   4  5,4  | hOLE
-  4  8,2  - iAO
   4  7,8  | jOE
   4  5,3  | jOEL
   4  5,4  | jOLE
@@ -4996,11 +4991,9 @@
   3  8,5  - ARvO
   3  2,6  | AlOE
   3  5,5  | EL
-  3  5,5  | ELa
   3  5,5  | ELb
   3  5,5  | ELd
   3  5,5  | ELf
-  3  5,5  | ELi
   3  5,5  | ELk
   3  5,5  | ELl
   3  5,5  | ELm
@@ -5276,8 +5269,6 @@
   3  7,8  | jO
   3  6,1  - jOES
   3  6,3  | jOES
-  3  7,1  - jOSE
-  3  6,4  | jOSE
   3  2,4  | kOAE
   3  5,4  | kOL
   3  4,4  | kOU
@@ -5472,8 +5463,6 @@
   2  6,5  | ESc
   2  8,1  - ESe
   2  6,5  | ESe
-  2  8,1  - ESp
-  2  6,5  | ESp
   2  8,1  - ESq
   2  6,5  | ESq
   2  8,1  - ESs
@@ -5497,8 +5486,6 @@
   2  8,8  - EkE
   2  1,5  - El
   2  1,7  - El
-  2  7,2  - ElA
-  2  2,4  | ElA
   2  7,1  - ElS
   2  6,4  | ElS
   2  1,5  - Em
@@ -5763,7 +5750,6 @@
   2  7,1  - hES
   2  6,4  | hES
   2  6,8  - hOE
-  2  2,5  | iAO
   2  8,1  - iSE
   2  6,5  | iSE
   2  6,8  - jEE

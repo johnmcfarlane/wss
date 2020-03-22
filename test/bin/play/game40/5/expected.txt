@@ -265,7 +265,6 @@
  28  1,11 - SIa
  28  1,11 - SIb
  28  1,11 - SIc
- 28  1,11 - SId
  28  1,11 - SIe
  28  1,11 - SIg
  28  1,11 - SIl
@@ -389,7 +388,6 @@
  23  3,1  | FIr
  23  3,1  | FIt
  23  4,9  - FoHN
- 23  8,9  - INST
  23  8,9  - INTR
  23  3,3  | ReS
  23  3,3  | ReT
@@ -475,7 +473,6 @@
  20  4,6  - FrONTIS
  20  8,9  - INRo
  20  8,9  - INSp
- 20  8,9  - INSt
  20  8,9  - INTa
  20  8,9  - INTl
  20  8,9  - INTo
@@ -484,7 +481,6 @@
  20  8,9  - INiT
  20  8,9  - INkS
  20  8,9  - INnS
- 20  8,9  - INsT
  20  8,9  - INtR
  20  8,9  - INvT
  20  8,9  - ISNT
@@ -524,7 +520,6 @@
  19  3,1  | hIS
  19  3,1  | hIT
  19  8,9  - iNIT
- 19  8,9  - iNST
  19  8,9  - iNTR
  19  3,1  | kIT
  19  3,1  | lIR
@@ -700,7 +695,6 @@
  17  8,9  - ISdN
  17  8,9  - ITeN
  17  6,7  - KaIF
- 17  3,1  | NIg
  17  3,1  | NIp
  17  3,1  | NIs
  17  3,1  | NIt
@@ -1076,7 +1070,6 @@
  14  4,10 - SISTReN
  14  4,10 - SISTeRN
  14  3,1  | SIa
- 14  3,1  | SId
  14  3,1  | SIe
  14  3,1  | SIg
  14  3,1  | SIn
@@ -1103,7 +1096,6 @@
  14  3,5  | SoIL
  14  6,10 - SuRFS
  14  6,10 - SwIFT
- 14  3,1  | TId
  14  3,1  | TIe
  14  3,1  | TIg
  14  3,1  | TIn
@@ -1720,7 +1712,6 @@
  11  1,9  - IbIS
  11  1,9  - ImIT
  11  1,9  - InIT
- 11  8,9  - InST
  11  8,9  - InTR
  11  1,9  - IrIS
  11  1,9  - IsIS
@@ -2251,7 +2242,6 @@
  10  5,10 - TSuRIS
  10  3,5  | Ta
  10  1,1  | TaPA
- 10  3,5  | Td
  10  1,1  | TePA
  10  3,5  | Th
  10  3,5  | To
@@ -2305,7 +2295,6 @@
  10  2,10 | pI
  10  3,7  | pLF
  10  7,4  | pRF
- 10  7,4  | pSF
  10  5,2  | rIFTS
  10  7,2  | rIFTS
  10  5,2  | sIFTS
@@ -2425,7 +2414,6 @@
   9  5,3  | INFo
   9  7,3  | INFo
   9  2,5  - INFo
-  9  8,7  - INST
   9  7,1  | INSTaR
   9  8,2  | INSTaRS
   9  5,1  | INSeRT
@@ -2694,7 +2682,6 @@
   8  7,8  | ET
   8  7,8  | EmIR
   8  7,8  | EmIT
-  8  7,8  | EpIT
   8  7,8  | ErIS
   8  4,5  | FINI
   8  4,7  | FINI
@@ -2819,12 +2806,10 @@
   8  8,7  - INRo
   8  8,7  - INS
   8  8,9  - INS
-  8  5,3  | INST
   8  4,4  | INSTIl
   8  7,2  | INSTr
   8  8,4  | INSiST
   8  8,7  - INSp
-  8  8,7  - INSt
   8  8,7  - INT
   8  8,9  - INT
   8  7,3  | INTR
@@ -2842,7 +2827,6 @@
   8  4,4  | INiTIS
   8  8,7  - INkS
   8  8,7  - INnS
-  8  8,7  - INsT
   8  8,7  - INtR
   8  8,7  - INvT
   8  4,4  | INwRIT
@@ -3205,7 +3189,6 @@
   8  7,2  | bINTS
   8  5,2  | bRINS
   8  7,2  | bRINS
-  8  3,5  | bT
   8  5,6  - cONFR
   8  4,6  - cROFTS
   8  5,3  | dIFS
@@ -3276,7 +3259,6 @@
   7  2,2  - DeFT
   7  2,2  - DeRF
   7  2,2  - DiFS
-  7  7,8  | EpI
   7  5,5  | FI
   7  7,5  | FI
   7  4,7  | FIN
@@ -3500,7 +3482,6 @@
   7  4,8  | INFl
   7  4,8  | INFo
   7  2,5  - INIT
-  7  2,5  - INST
   7  2,5  - INTR
   7  8,7  - INc
   7  8,9  - INc
@@ -3522,7 +3503,6 @@
   7  7,3  | INnS
   7  8,7  - INs
   7  8,9  - INs
-  7  5,3  | INsT
   7  8,7  - INt
   7  8,9  - INt
   7  7,3  | INtR
@@ -3544,7 +3524,6 @@
   7  8,7  - ITeN
   7  5,2  | ITeRS
   7  7,2  | ITeRS
-  7  3,9  - Ib
   7  3,9  - Id
   7  3,9  - If
   7  8,7  - IfF
@@ -3938,7 +3917,6 @@
   7  7,4  | iFS
   7  3,9  - iN
   7  8,7  - iNIT
-  7  8,7  - iNST
   7  8,7  - iNTR
   7  5,3  | kIRN
   7  7,3  | kIRN
@@ -4204,8 +4182,6 @@
   6  5,3  | INSp
   6  7,3  | INSp
   6  2,5  - INSp
-  6  5,3  | INSt
-  6  2,5  - INSt
   6  5,4  | INT
   6  2,5  - INT
   6  4,5  | INTIRe
@@ -4225,7 +4201,6 @@
   6  2,5  - INkS
   6  2,5  - INnS
   6  4,5  | INsIST
-  6  2,5  - INsT
   6  2,5  - INtR
   6  2,5  - INvT
   6  5,6  - IORTN
@@ -4269,7 +4244,6 @@
   6  5,4  | InN
   6  7,4  | InN
   6  8,7  - InNS
-  6  5,3  | InST
   6  7,2  | InSTR
   6  7,3  | InTR
   6  5,4  | IoN
@@ -4831,7 +4805,6 @@
   6  8,4  | iNSIST
   6  8,6  | iNSIST
   6  4,10 - iNSIST
-  6  5,3  | iNST
   6  8,7  - iNT
   6  8,9  - iNT
   6  7,3  | iNTR
@@ -5037,9 +5010,6 @@
   5  4,8  | INIT
   5  4,6  - INORb
   5  4,6  - INORg
-  5  8,6  | INST
-  5  4,8  | INST
-  5  4,10 - INST
   5  8,6  | INSTr
   5  4,10 - INSTr
   5  8,6  | INSeT
@@ -5142,7 +5112,6 @@
   5  4,8  | InF
   5  8,7  - InN
   5  8,9  - InN
-  5  8,7  - InST
   5  8,7  - InTR
   5  3,1  | Io
   5  8,7  - IoN
@@ -5796,8 +5765,6 @@
   5  5,6  - pORNS
   5  4,6  | pRINT
   5  4,6  - pROSIT
-  5  8,7  | pSF
-  5  5,10 - pSF
   5  8,6  | rFS
   5  4,10 - rFS
   5  5,3  | rIST
@@ -5953,9 +5920,6 @@
   4  8,6  | INSp
   4  4,8  | INSp
   4  4,10 - INSp
-  4  8,6  | INSt
-  4  4,8  | INSt
-  4  4,10 - INSt
   4  4,8  | INT
   4  4,8  | INTa
   4  4,8  | INTl
@@ -5976,7 +5940,6 @@
   4  3,10 - INnS
   4  5,4  | INs
   4  7,4  | INs
-  4  4,8  | INsT
   4  5,4  | INt
   4  4,8  | INtR
   4  4,8  | INvT
@@ -6142,7 +6105,6 @@
   4  8,5  | NIeS
   4  4,7  | NIeS
   4  3,10 - NIeS
-  4  5,4  | NIg
   4  5,4  | NIl
   4  8,5  | NIlS
   4  4,7  | NIlS
@@ -6426,7 +6388,6 @@
   4  8,8  | SIoN
   4  6,10 - SIoN
   4  3,7  | SLa
-  4  3,7  | SLd
   4  3,7  | SLt
   4  3,7  | SLy
   4  4,6  | SNIb
@@ -6797,8 +6758,6 @@
   4  8,7  | aSSN
   4  4,10 - aSSN
   4  5,10 - aSSN
-  4  5,4  | aST
-  4  8,7  - aST
   4  4,5  | aSTIR
   4  8,7  | aSTIR
   4  5,10 - aSTIR
@@ -6893,7 +6852,6 @@
   4  7,4  | dSR
   4  7,4  | eIR
   4  8,7  - eIR
-  4  3,7  | eLI
   4  3,7  | eLS
   4  3,7  | eLT
   4  4,6  - eNOS
@@ -6996,8 +6954,6 @@
   4  7,4  | hTS
   4  8,9  - hTS
   4  4,6  | iNIT
-  4  8,6  | iNST
-  4  4,10 - iNST
   4  5,6  - iONI
   4  5,6  - iONS
   4  4,6  - iRON
@@ -7125,7 +7081,6 @@
   4  7,4  | pRS
   4  5,4  | pSI
   4  7,4  | pSI
-  4  5,4  | pST
   4  5,4  | pTS
   4  7,4  | pTS
   4  5,4  | qIS
@@ -7209,9 +7164,6 @@
   4  5,4  | uRS
   4  7,4  | uRS
   4  8,7  - uRS
-  4  5,4  | uTI
-  4  7,4  | uTI
-  4  8,7  - uTI
   4  5,4  | uTS
   4  7,4  | uTS
   4  8,7  - uTS
@@ -7280,7 +7232,6 @@
   3  2,2  - DIt
   3  2,2  - DIv
   3  2,2  - DRy
-  3  2,2  - DSp
   3  2,2  - DSr
   3  2,2  - DTd
   3  2,2  - DaR
@@ -7299,7 +7250,6 @@
   3  2,2  - DoR
   3  2,2  - DoS
   3  2,2  - DoT
-  3  2,2  - DpT
   3  2,2  - DsR
   3  2,2  - DuI
   3  2,2  - DuR
@@ -7407,10 +7357,6 @@
   3  3,10 - ITyS
   3  2,5  - IaN
   3  4,8  | IaN
-  3  8,7  - Ib
-  3  8,9  - Ib
-  3  5,10 | Ib
-  3  7,10 | Ib
   3  2,5  - IbIS
   3  4,6  | IbIS
   3  4,8  | IbIS
@@ -7437,10 +7383,6 @@
   3  4,8  | InIT
   3  2,5  - InN
   3  4,8  | InN
-  3  2,5  - InST
-  3  8,6  | InST
-  3  4,8  | InST
-  3  4,10 - InST
   3  2,5  - InTR
   3  4,8  | InTR
   3  8,7  - Io
@@ -7489,7 +7431,6 @@
   3  3,8  | LuT
   3  3,8  | LyS
   3  4,7  | NIb
-  3  4,7  | NIg
   3  4,7  | NIl
   3  4,7  | NIm
   3  4,7  | NIp
@@ -7786,8 +7727,6 @@
   3  8,8  | SIcS
   3  3,10 - SIcS
   3  6,10 - SIcS
-  3  5,4  | SId
-  3  7,4  | SId
   3  4,5  | SIdI
   3  4,7  | SIdI
   3  5,4  | SIe
@@ -8069,8 +8008,6 @@
   3  8,5  | TIcS
   3  4,7  | TIcS
   3  3,10 - TIcS
-  3  5,4  | TId
-  3  7,4  | TId
   3  4,5  | TIdI
   3  4,7  | TIdI
   3  5,4  | TIe
@@ -8192,8 +8129,6 @@
   3  8,7  | TSkS
   3  3,10 - TSkS
   3  5,10 - TSkS
-  3  5,4  | TSp
-  3  7,4  | TSp
   3  5,4  | TSs
   3  7,4  | TSs
   3  5,4  | TSt
@@ -8675,7 +8610,6 @@
   3  4,7  | zITS
   3  3,10 - zITS
   3  5,6  - zORI
-  2  2,8  | Ab
   2  2,8  | Ad
   2  2,8  | An
   2  2,8  | As
@@ -8721,9 +8655,6 @@
   2  4,8  | ITa
   2  4,8  | ITd
   2  4,8  | ITs
-  2  4,6  - IaO
-  2  5,5  | Ib
-  2  1,9  - Ib
   2  4,6  - IbO
   2  5,5  | Id
   2  7,5  | Id
@@ -8800,7 +8731,6 @@
   2  6,6  - ORl
   2  6,6  - ORs
   2  6,6  - ORt
-  2  6,6  - ORy
   2  6,6  - OS
   2  6,6  - OSc
   2  6,6  - OSe
@@ -8890,9 +8820,6 @@
   2  4,7  | SIc
   2  8,8  | SIc
   2  6,10 - SIc
-  2  4,7  | SId
-  2  8,8  | SId
-  2  6,10 - SId
   2  4,7  | SIe
   2  8,8  | SIe
   2  6,10 - SIe
@@ -9052,7 +8979,6 @@
   2  4,7  | TI
   2  4,7  | TIb
   2  4,7  | TIc
-  2  4,7  | TId
   2  4,7  | TIe
   2  4,7  | TIg
   2  4,7  | TIl
@@ -9084,8 +9010,6 @@
   2  5,6  - TOy
   2  8,7  | TSk
   2  5,10 - TSk
-  2  8,7  | TSp
-  2  5,10 - TSp
   2  8,7  | TSs
   2  5,10 - TSs
   2  8,7  | TSt
@@ -9096,8 +9020,6 @@
   2  4,10 - TaS
   2  8,6  | TbS
   2  4,10 - TbS
-  2  5,5  | Td
-  2  7,5  | Td
   2  5,5  | Te
   2  7,5  | Te
   2  5,5  | Th
@@ -9143,8 +9065,6 @@
   2  8,7  | aSS
   2  4,10 - aSS
   2  5,10 - aSS
-  2  8,7  | aST
-  2  5,10 - aST
   2  5,10 | aT
   2  4,6  | aTI
   2  4,6  - bIO
@@ -9315,8 +9235,6 @@
   2  4,6  | pSI
   2  8,7  | pSI
   2  5,10 - pSI
-  2  8,7  | pST
-  2  5,10 - pST
   2  8,6  | pTS
   2  4,10 - pTS
   2  8,6  | qIS
@@ -9367,7 +9285,6 @@
   2  4,10 - uRS
   2  5,10 | uS
   2  5,10 | uT
-  2  4,6  | uTI
   2  8,6  | uTS
   2  4,10 - uTS
   2  4,6  | vII
@@ -9398,8 +9315,6 @@
   2  8,6  | yRS
   2  4,10 - yRS
   2  4,7  | zIT
-  1  2,5  - Ib
-  1  4,8  | Ib
   1  2,5  - Id
   1  4,8  | Id
   1  2,5  - If

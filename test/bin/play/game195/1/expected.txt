@@ -253,7 +253,6 @@
  16  5,6  | DSECT
  16  7,6  | DSECT
  16  3,7  - EATS
- 16  7,3  | ELA
  16  2,6  - ELATED
  16  6,6  - ELATED
  16  6,6  - ELDEST
@@ -290,7 +289,6 @@
  16  7,4  | SELD
  16  6,7  - SETA
  16  2,6  - SLATED
- 16  6,7  - SLD
  16  1,6  - STADLE
  16  2,6  - STALED
  16  7,4  | TALD
@@ -374,7 +372,6 @@
  14  7,5  | AESC
  14  5,6  | ALEC
  14  5,3  - ARCES
- 14  5,7  - AST
  14  2,6  - ATELES
  14  4,5  - CABLES
  14  4,5  - CABLET
@@ -594,7 +591,6 @@
  12  7,6  | ECTAD
  12  5,6  | ECTAL
  12  7,6  | ECTAL
- 12  7,5  | ELA
  12  2,6  - ELATE
  12  6,6  - ELATE
  12  6,4  - ELDEST
@@ -755,7 +751,6 @@
  11  5,6  | TACES
  11  7,6  | TACES
  11  5,1  | TAE
- 11  7,5  | TD
  11  7,5  | TEAS
  11  7,5  | TED
  11  3,6  - TEDESCA
@@ -779,7 +774,6 @@
  10  3,3  - ALERTS
  10  5,3  - ARLES
  10  5,3  - ARTEL
- 10  7,5  | AST
  10  5,5  | ATE
  10  7,5  | ATE
  10  2,4  - ATLEE
@@ -1480,7 +1474,6 @@
   7  5,4  - SETAE
   7  5,2  - SGAD
   7  3,2  - SLAG
-  7  7,6  | SLD
   7  4,4  - SLEE
   7  3,2  - STAGE
   7  4,6  - STELAE
@@ -1559,9 +1552,6 @@
   6  3,6  - EASEL
   6  6,4  - EAST
   6  6,4  - EATS
-  6  6,4  - ELA
-  6  5,6  | ELA
-  6  7,6  | ELA
   6  6,6  - ELDS
   6  6,4  - ELS
   6  5,6  | ELS
@@ -1701,7 +1691,6 @@
   5  5,3  - ARE
   5  5,3  - ARS
   5  5,3  - ART
-  5  5,6  | AST
   5  4,4  - ATE
   5  5,6  | ATE
   5  3,6  - ATEES
@@ -1805,8 +1794,6 @@
   5  3,6  - TALE
   5  5,6  | TAS
   5  7,6  | TAS
-  5  5,6  | TD
-  5  7,6  | TD
   5  5,6  | TEA
   5  7,6  | TEA
   5  5,6  - TEAD
@@ -1847,7 +1834,6 @@
   4  5,4  - EEL
   4  5,6  - EEL
   4  6,6  - EEL
-  4  6,6  - ELA
   4  6,6  - ELS
   4  6,6  - ELT
   4  5,6  | ES

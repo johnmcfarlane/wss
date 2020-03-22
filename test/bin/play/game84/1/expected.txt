@@ -187,8 +187,6 @@
  22  3,7  - LAhAR
  22  3,3  | cAZA
  22  3,5  | cAZA
- 22  3,3  | dAZA
- 22  3,5  | dAZA
  22  3,3  | mAZA
  22  3,5  | mAZA
  21  3,1  | ALARiA
@@ -219,9 +217,9 @@
  21  1,6  | SAvARA
  21  3,5  | ZA
  21  3,5  | ZAc
- 21  3,5  | ZAd
  21  3,5  | ZAg
  21  3,5  | ZAp
+ 21  3,5  | ZAs
  21  3,5  | ZAt
  21  3,5  | ZAx
  21  2,7  - aLAR
@@ -376,8 +374,6 @@
  16  5,2  | LAZiER
  16  2,7  - LAi
  16  5,2  | bLAZE
- 16  5,5  - dAZA
- 16  5,7  - dAZA
  16  5,2  | dRAZEL
  16  5,2  | gLAZE
  16  5,5  - mAZA
@@ -513,7 +509,6 @@
  15  1,3  | sALSA
  15  1,2  | tALAS
  15  3,7  - tARA
- 15  6,5  - tZAR
  15  1,3  | vALSA
  15  5,5  - wAZ
  15  5,7  - wAZ
@@ -546,13 +541,11 @@
  14  1,5  - AlL
  14  4,7  - AmAL
  14  4,7  - AmARA
- 14  5,2  | AmAZER
  14  4,7  - AnAL
  14  4,7  - ArARA
  14  4,7  - AxAL
  14  6,6  | DALAR
  14  6,6  | DALAgA
- 14  6,6  | DAZA
  14  5,6  | EZRA
  14  4,6  | KALwAR
  14  2,1  | LARvAL
@@ -641,10 +634,8 @@
  13  4,4  | AnKARA
  13  4,7  - ArAR
  13  4,7  - AtAR
- 13  6,6  | DAZa
  13  6,6  | DAZe
  13  6,6  | DAZy
- 13  6,6  | DaZA
  13  5,6  | EZbA
  13  5,6  | EZrA
  13  4,6  | KALA
@@ -665,7 +656,6 @@
  13  3,7  - RAx
  13  3,5  | RAzZ
  13  5,3  | RaZE
- 13  6,4  | ZAD
  13  5,5  | ZEaL
  13  2,3  | ZeAL
  13  2,4  | ZiLA
@@ -758,7 +748,6 @@
  12  6,6  | DRAwL
  12  6,6  | DZo
  12  6,6  | DaLAR
- 12  6,6  | DoZ
  12  6,6  | DuALA
  12  6,6  | DuRAL
  12  5,6  | EZRa
@@ -868,11 +857,11 @@
  12  1,6  | SkAL
  12  1,6  | SoLA
  12  1,6  | SuLA
+ 12  1,4  | ZAS
  12  5,5  | ZEAl
  12  5,5  | ZER
  12  5,5  | ZERo
  12  5,5  | ZEtA
- 12  6,4  | ZaD
  12  6,4  | ZeD
  12  5,4  | ZoEA
  12  2,4  | ZoL
@@ -886,7 +875,6 @@
  12  1,3  | bLAS
  12  1,3  | cALS
  12  5,3  | dAZE
- 12  1,5  - eLA
  12  5,3  | fAZE
  12  4,3  | fLAK
  12  1,3  | gALS
@@ -899,7 +887,6 @@
  12  1,5  - iLA
  12  1,7  - iLA
  12  4,7  - iRA
- 12  1,4  | jASZ
  12  5,3  | lAZE
  12  1,2  | mAARS
  12  1,2  | mARAS
@@ -958,6 +945,7 @@
  11  5,5  | ZEk
  11  5,5  | ZEn
  11  5,5  | ZEr
+ 11  1,4  | ZaS
  11  5,4  | ZeE
  11  3,4  | ZoA
  11  2,5  - aL
@@ -1540,13 +1528,11 @@
   8  3,5  | sALAR
   8  3,7  - tA
   8  5,5  - tAAL
-  8  6,5  - tAAL
   8  5,7  - tAAL
   8  5,5  - tALA
   8  5,7  - tALA
   8  3,3  | tALAR
   8  3,5  | tALAR
-  8  6,5  - tALAR
   8  5,5  - wARL
   8  5,7  - wARL
   8  3,7  - yA
@@ -1695,7 +1681,6 @@
   7  6,7  - ArAR
   7  4,3  | AsAK
   7  5,4  | AsELAR
-  7  5,5  - AtAR
   7  6,5  - AtAR
   7  6,7  - AtAR
   7  3,3  | AuLA
@@ -1876,7 +1861,6 @@
   7  4,4  | tAKA
   7  5,5  - tAL
   7  5,7  - tAL
-  7  6,5  - tALA
   7  5,5  - tARA
   7  5,7  - tARA
   7  6,3  | tRADAL
@@ -2180,12 +2164,10 @@
   6  2,4  | sALAL
   6  5,5  - tAA
   6  5,7  - tAA
-  6  6,5  - tAAR
   6  3,3  | tALA
   6  3,5  | tALA
   6  5,5  - tAR
   6  5,7  - tAR
-  6  6,5  - tARA
   6  5,5  | tELAR
   6  5,5  | vELAR
   6  2,3  | wALLA
@@ -2422,7 +2404,6 @@
   5  2,7  - As
   5  5,2  | AsALE
   5  2,5  - At
-  5  5,5  - At
   5  2,7  - At
   5  5,3  | AtLE
   5  3,6  | AuLA
@@ -2584,9 +2565,6 @@
   5  5,3  | dALEA
   5  5,3  | dALER
   5  3,5  | eARL
-  5  3,4  | eLA
-  5  6,5  - eLA
-  5  6,7  - eLA
   5  2,4  | eLLA
   5  2,5  | eLLA
   5  5,5  - fA
@@ -2667,13 +2645,11 @@
   5  3,5  | tAAL
   5  3,4  | tAAR
   5  3,5  | tAL
-  5  6,5  - tAL
   5  2,4  | tALAR
   5  6,3  | tALD
   5  5,3  | tALER
   5  2,3  | tALL
   5  2,4  | tALL
-  5  6,5  - tLR
   5  6,5  | uDAL
   5  3,4  | uLA
   5  2,4  | uLLA
@@ -2880,7 +2856,6 @@
   4  6,6  | DArR
   4  6,6  | DAtA
   4  6,6  | DAuR
-  4  6,6  | DAzA
   4  6,6  | DLr
   4  6,6  | DRAb
   4  6,6  | DRAd
@@ -2898,7 +2873,6 @@
   4  6,6  | DoL
   4  6,6  | DoRA
   4  6,6  | DuRA
-  4  5,6  | ELA
   4  5,6  | ELAn
   4  5,6  | ERAvA
   4  5,6  | ERiA
@@ -3186,20 +3160,16 @@
   4  6,3  | sARD
   4  5,5  | sEAL
   4  5,3  | sLAE
-  4  6,4  | sLD
-  4  6,5  - tAA
   4  2,3  | tAAL
   4  3,5  | tAAR
   4  5,4  | tAEL
   4  2,4  | tALA
   4  5,3  | tALE
-  4  6,5  - tAR
   4  3,3  | tARA
   4  3,5  | tARA
   4  5,3  | tAREA
   4  5,5  | tEAL
   4  5,5  | tELA
-  4  6,5  - tRA
   4  6,3  | tRAD
   4  2,4  | uLL
   4  2,5  | uLL
@@ -3354,11 +3324,9 @@
   3  5,6  | EARn
   3  5,6  | EARs
   3  5,6  | EL
-  3  5,6  | ELa
   3  5,6  | ELb
   3  5,6  | ELd
   3  5,6  | ELf
-  3  5,6  | ELi
   3  5,6  | ELk
   3  5,6  | ELl
   3  5,6  | ELm
@@ -3471,7 +3439,6 @@
   3  6,4  | RwD
   3  1,6  | SAA
   3  1,6  | SLa
-  3  1,6  | SLd
   3  1,6  | SLt
   3  1,6  | SLy
   3  1,6  | SaL
@@ -3524,7 +3491,6 @@
   3  2,5  | dLR
   3  3,5  | eAR
   3  5,5  | eEL
-  3  2,5  | eLA
   3  1,4  | eLS
   3  6,5  - eR
   3  6,7  - eR
@@ -3611,7 +3577,6 @@
   3  5,5  | sEL
   3  5,5  | sERA
   3  2,5  | sLA
-  3  6,5  - tA
   3  3,4  | tAA
   3  3,5  | tAA
   3  6,4  | tAD
@@ -3646,7 +3611,6 @@
   3  3,5  | yAR
   3  5,3  | yARE
   3  5,5  | yEAR
-  3  6,4  | zAD
   2  5,5  | AE
   2  5,5  | AEr
   2  5,5  | AEs
@@ -3657,7 +3621,6 @@
   2  1,5  | ASk
   2  1,5  | ASp
   2  1,5  | ASs
-  2  1,5  | ASt
   2  3,4  | AaA
   2  3,6  | AaA
   2  1,4  | AaS
@@ -3731,7 +3694,6 @@
   2  5,6  | EaR
   2  5,6  | EeR
   2  5,6  | EiR
-  2  5,6  | ElA
   2  5,6  | EpA
   2  5,6  | ErA
   2  5,6  | ErR
@@ -3887,7 +3849,6 @@
   2  5,5  | sER
   2  5,4  | tAE
   2  1,4  | tAS
-  2  6,5  | tD
   2  5,5  | tEA
   2  1,4  | tRS
   2  1,4  | uRS
@@ -3899,6 +3860,7 @@
   2  5,5  | yEA
   2  5,5  | yER
   2  1,4  | yRS
+  2  1,4  | zAS
   2  5,5  | zER
   1  3,6  | Aa
   1  3,6  | Ab

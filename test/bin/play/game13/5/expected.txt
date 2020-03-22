@@ -71,6 +71,7 @@
  32  2,1  | OoFIER
  31 10,4  | GaURE
  31 10,4  | GiF
+ 31 10,4  | sERGIU
  30  1,3  - ERUcIN
  30  1,3  - EbURIN
  30 10,4  | GEIR
@@ -97,8 +98,8 @@
  30  1,3  - nEURIN
  29 10,4  | GaUR
  29 10,4  | GnEU
- 29 10,4  | dIGUE
  29 10,4  | gIGUE
+ 29 10,4  | sERIF
  28 10,4  | GEIc
  28 10,4  | GEIn
  28 10,4  | GEIr
@@ -158,13 +159,12 @@
  27  1,3  - UnREIN
  27  1,3  - UpREIN
  27  9,1  | aUCAN
- 27 10,4  | dEFI
- 27 10,4  | dEGU
- 27 10,4  | dERF
- 27 10,4  | dIRGE
  27  9,1  | lUCAN
  27  1,3  - mUREIN
  27 10,4  | pERF
+ 27 10,4  | sEIF
+ 27 10,4  | sERF
+ 27 10,4  | sIFE
  27 10,4  | tIGER
  27 10,4  | tIGRE
  26 10,4  | GEb
@@ -196,9 +196,9 @@
  25 10,4  | GiE
  25 10,4  | GtE
  25 10,4  | GyE
- 25 10,4  | dEF
- 25 10,4  | dIF
  25 10,4  | gIF
+ 25 10,4  | sERG
+ 25 10,4  | sIEUR
  25 10,4  | tIGE
  24  9,3  - CFd
  24  9,3  - CFh
@@ -234,7 +234,6 @@
  24  1,1  | TUgGER
  24  1,1  | ThURGI
  24  9,1  | dECAN
- 24  1,2  - dEFI
  24  1,2  - oRFE
  24  9,1  | pECAN
  23  1,2  - EFf
@@ -242,7 +241,6 @@
  23  1,2  - EFt
  23  1,2  - ERF
  23  4,4  | FEAGUe
- 23  2,2  - FbI
  23  4,4  | FeAGUE
  23  2,2  - FoE
  23  4,4  | GRAfF
@@ -250,11 +248,12 @@
  23  1,2  - IFf
  23  1,2  - IFs
  23 10,4  | cIG
- 23 10,4  | dIG
  23 10,4  | gIG
  23 10,4  | pEG
  23 10,4  | pERU
  23 10,4  | pIG
+ 23 10,4  | sEG
+ 23 10,4  | sIG
  23 10,4  | tEG
  23 10,4  | tIG
  22  1,2  - EF
@@ -307,13 +306,14 @@
  21  1,1  | ToGUE
  21  1,1  | TuGUI
  21 10,4  | cIRE
- 21 10,4  | dIER
- 21 10,4  | dIRE
  21 10,4  | gEIR
  21 10,4  | gIRE
  21 10,4  | pERI
  21 10,4  | pIER
  21 10,4  | pIU
+ 21 10,4  | sERI
+ 21 10,4  | sIER
+ 21 10,4  | sIRE
  21 10,4  | tERI
  21 10,4  | tIER
  21 10,4  | tIRE
@@ -328,8 +328,6 @@
  20  2,2  - IFe
  20  8,4  | ZAstRUGI
  20  1,2  - aRF
- 20  1,2  - dEF
- 20  1,2  - dIF
  20  1,2  - eRF
  20  1,2  - oRF
  19  2,2  - EF
@@ -368,10 +366,6 @@
  19  2,4  - RaFIK
  19 10,4  | cIE
  19 10,4  | cIR
- 19 10,4  | dEI
- 19 10,4  | dER
- 19 10,4  | dIE
- 19 10,4  | dIR
  19  1,2  - eF
  19 10,4  | gIE
  19  1,2  - iF
@@ -380,6 +374,10 @@
  19 10,4  | pER
  19 10,4  | pIE
  19 10,4  | pIR
+ 19 10,4  | sEI
+ 19 10,4  | sER
+ 19 10,4  | sIE
+ 19 10,4  | sIR
  19  9,2  - sUF
  19 10,4  | tIE
  18  5,6  | BUmFEG
@@ -462,19 +460,15 @@
  17  2,7  - FERU
  17  3,7  - FIE
  17  2,7  - FIGo
- 17  4,5  - FIL
  17  4,4  | FRAG
  17  4,4  | FRAGs
  17  4,4  | FRAmE
- 17  4,4  | FRApE
  17  4,4  | FRAsE
  17  4,4  | FRAtE
  17  4,4  | FRAzE
  17  4,3  | FUGAtE
  17  4,3  | FUmAGE
- 17  2,5  - FUzIL
  17  2,7  - FaGE
- 17  3,5  - FaIL
  17  3,7  - FeU
  17  4,4  | FlAIR
  17  4,4  | FlARE
@@ -482,7 +476,6 @@
  17  2,7  - FoGE
  17  4,5  | GAfFE
  17  1,5  - GRUF
- 17  2,2  - IbERI
  17  2,2  - InERI
  17  1,7  - REFIt
  17  1,7  - RIFlE
@@ -535,7 +528,6 @@
  16  3,2  - FERIa
  16  3,2  - FERIe
  16  3,2  - FERIo
- 16  1,5  - FERtIL
  16  2,3  - FEUiNG
  16  2,3  - FEeING
  16  2,3  - FEtING
@@ -572,13 +564,12 @@
  16  4,4  | UnAFIRE
  16  8,4  - ZARF
  16  1,7  - aIGRE
- 16 10,4  | dE
- 16 10,4  | dI
  16  1,7  - dIRGE
  16 10,4  | gI
  16  1,7  - nIGRE
  16 10,4  | pE
  16 10,4  | pI
+ 16 10,4  | sI
  16 10,4  | tE
  16 10,4  | tI
  16  1,7  - tIGRE
@@ -638,7 +629,6 @@
  15  3,7  - FEu
  15  3,7  - FEy
  15  4,4  | FIAR
- 15  4,4  | FIARd
  15  4,4  | FIARs
  15  2,7  - FIRE
  15  2,3  - FIRiNG
@@ -646,11 +636,9 @@
  15  3,2  - FIfIE
  15  3,7  - FIt
  15  4,4  | FRAE
- 15  4,4  | FRAId
  15  4,4  | FRAIk
  15  4,4  | FRAIl
  15  3,7  - FRa
- 15  2,5  - FRaIL
  15  2,7  - FRaU
  15  3,7  - FRo
  15  3,7  - FRt
@@ -680,13 +668,11 @@
  15  2,7  - FeRU
  15  3,7  - FiE
  15  1,7  - FiERI
- 15  4,5  - FiL
  15  2,3  - FiRING
  15  2,3  - FlEING
  15  1,7  - FlRIE
  15  4,4  | FrAU
  15  1,7  - FrUG
- 15  1,5  - GERbIL
  15  4,4  | GIArRE
  15  3,7  - GIE
  15  4,4  | GRAF
@@ -695,7 +681,6 @@
  15  3,7  - GRE
  15  1,7  - GRUmE
  15  3,4  - GURK
- 15  3,5  - GaIL
  15  3,7  - GaU
  15  4,4  | GlAIRE
  15  4,4  | GlAUR
@@ -919,7 +904,6 @@
  14  4,4  | GRAtE
  14  4,4  | GRAvE
  14  4,4  | GRAzE
- 14  2,5  - GRaIL
  14  4,4  | GUARrI
  14  4,3  | GUFA
  14  1,5  - GUFa
@@ -1177,7 +1161,6 @@
  13  4,4  | UsAGE
  13  8,2  - UsE
  13  1,7  - UtERI
- 13  3,5  - UtIL
  13  4,2  - aFIRE
  13  3,7  - aGE
  13 10,5  | aGER
@@ -1679,9 +1662,7 @@
  11  1,2  - ERn
  11  1,2  - ERs
  11  3,7  - EaU
- 11  3,5  - EmIL
  11  3,7  - EmU
- 11  3,5  - EpIL
  11  3,7  - EsU
  11  4,5  | FAGE
  11  4,5  | FAGEr
@@ -1833,7 +1814,6 @@
  11  2,3  - RUbINE
  11  2,3  - RUgINE
  11  2,3  - RUsINE
- 11  3,5  - RaIL
  11  2,3  - ReFINE
  11  2,2  - RoE
  11  2,2  - RoI
@@ -1885,12 +1865,11 @@
  11  3,7  - UrI
  11  3,7  - UsE
  11  3,7  - UtE
- 11  3,7  - UtI
  11  2,7  - UvRE
  11  8,4  - ZAc
- 11  8,4  - ZAd
  11  8,4  - ZAg
  11  8,4  - ZAp
+ 11  8,4  - ZAs
  11  8,4  - ZAt
  11  8,4  - ZAx
  11 10,5  | aGE
@@ -1914,7 +1893,6 @@
  11  2,7  - bREI
  11  2,7  - bRIE
  11  3,3  - bRING
- 11  7,2  | bU
  11  2,7  - bUG
  11  1,7  - bUGI
  11  1,7  - bURG
@@ -1985,13 +1963,11 @@
  11  2,7  - mFR
  11  4,3  | mIRAGE
  11  2,7  - mIRE
- 11  3,7  - mRU
  11  2,7  - mUG
  11  2,3  - mURINE
  11  4,5  | nAIG
  11  2,5  - nEF
  11  2,7  - nERI
- 11 10,5  | nIG
  11 10,5  | nIUE
  11  7,2  | nU
  11  4,3  | nUGAE
@@ -2419,7 +2395,6 @@
   9  3,4  - ERiK
   9  7,6  | EfFEIR
   9  2,3  - ElFIN
-  9  3,7  - ElI
   9  4,2  - EmIGR
   9  7,6  | EmIGR
   9  2,3  - EnFIN
@@ -2715,7 +2690,6 @@
   9 10,5  | aG
   9  2,7  - aGE
   9  2,7  - aGR
-  9  4,5  - aIL
   9 10,5  | aIRE
   9  3,7  - aRE
   9  2,7  - aRG
@@ -2747,7 +2721,6 @@
   9  3,7  - dIE
   9 10,5  | dIER
   9  2,7  - dIG
-  9  4,5  - dIL
   9 10,5  | dIRE
   9  3,4  - dIRK
   9  3,4  - dREK
@@ -2764,7 +2737,6 @@
   9  3,5  - fF
   9  3,7  - fIE
   9  2,7  - fIG
-  9  4,5  - fIL
   9  3,4  - fIRK
   9  4,4  | fUAGE
   9  2,7  - gGR
@@ -2793,13 +2765,10 @@
   9  2,7  - mGR
   9  3,4  - mIEK
   9  2,7  - mIG
-  9  4,5  - mIL
   9  3,4  - mIRK
   9  4,7  - mU
   9  3,7  - nEI
   9 10,5  | nERI
-  9  2,7  - nIG
-  9  4,5  - nIL
   9  4,7  - nU
   9  3,5  - oF
   9  1,7  - oFER
@@ -2810,7 +2779,6 @@
   9  2,3  - pERUN
   9  3,7  - pIE
   9  2,7  - pIG
-  9  4,5  - pIL
   9  3,7  - pRE
   9  3,3  - pRUNE
   9  2,3  - pURIN
@@ -2842,7 +2810,6 @@
   9  3,7  - tIE
   9 10,5  | tIER
   9  2,7  - tIG
-  9  4,5  - tIL
   9 10,5  | tIRE
   9 10,5  | tIU
   9  3,4  - tREK
@@ -2969,8 +2936,6 @@
   8  2,7  - EgG
   8 10,5  | EiR
   8  5,1  | EkE
-  8  5,1  | ElI
-  8 10,5  | ElI
   8  4,4  - ElK
   8  5,1  | EmE
   8  2,7  - EnG
@@ -3288,9 +3253,7 @@
   8  4,5  | bARU
   8  4,3  | bEGAR
   8  4,3  - bENU
-  8  3,2  - bERI
   8  4,3  | bIGAE
-  8  3,2  - bIRI
   8  2,3  - bRUIN
   8  4,3  | bURA
   8  4,5  | cAFE
@@ -3673,7 +3636,6 @@
   7  4,2  - IRIs
   7  3,3  - IReNE
   7  3,3  - IRoNE
-  7  2,2  - Ib
   7  2,2  - Id
   7  2,2  - If
   7  2,2  - In
@@ -3762,7 +3724,6 @@
   7 10,5  | aRE
   7  4,4  - aUK
   7  4,5  | bAURE
-  7  7,2  | bE
   7  4,7  - bE
   7  4,7  - bI
   7  4,3  | bIGA
@@ -3781,12 +3742,10 @@
   7  2,7  - cUR
   7  1,7  - cURE
   7  4,5  | dAURI
-  7  1,2  - dE
   7  7,2  | dE
   7  4,7  - dE
   7 10,5  | dEI
   7 10,5  | dER
-  7  1,2  - dI
   7  4,7  - dI
   7 10,5  | dIE
   7 10,5  | dIR
@@ -3870,7 +3829,6 @@
   7  2,7  - oUR
   7  4,5  | pAGE
   7  4,5  | pAREU
-  7  4,3  | pEGA
   7  4,3  | pERAU
   7  3,3  - pRINE
   7  1,7  - pUIR
@@ -4160,7 +4118,6 @@
   6  2,5  - IUd
   6  2,7  - IUd
   6  1,7  - IaRE
-  6 10,5  | Ib
   6  3,1  | IbERI
   6  3,1  | IcIER
   6  1,2  - Id
@@ -4276,7 +4233,6 @@
   6  4,1  | TIRE
   6  1,1  | TIb
   6  1,1  | TIc
-  6  1,1  | TId
   6  1,1  | TIe
   6  1,1  | TIg
   6  1,1  | TIl
@@ -4386,7 +4342,6 @@
   6  5,2  - dIF
   6  4,3  - dINE
   6  1,7  - dIRE
-  6  4,2  - dRIE
   6  1,7  - dRIE
   6  4,3  - dUN
   6  3,3  - dURN
@@ -4540,7 +4495,6 @@
   5  4,6  | AcRE
   5  4,6  | AfER
   5  4,6  | AgER
-  5  4,6  | AhIR
   5  4,6  | AiRE
   5  4,6  | AkER
   5  4,6  | AkRE
@@ -4636,7 +4590,6 @@
   5  7,6  | EeRIE
   5  7,6  | EfF
   5  7,6  | ElF
-  5  4,2  - ElI
   5  7,6  | EmF
   5  7,6  | ErF
   5  7,6  | EtUI
@@ -4899,7 +4852,6 @@
   5  3,5  - Ut
   5  3,7  - Ut
   5  2,7  - UtE
-  5  2,7  - UtI
   5 10,5  | aE
   5  2,7  - aER
   5  4,4  | aGAR
@@ -4937,7 +4889,6 @@
   5  4,5  | dARE
   5  4,5  | dARI
   5 10,5  | dE
-  5  4,2  - dEI
   5  2,7  - dEI
   5  4,3  | dEIA
   5  2,7  - dER
@@ -5021,7 +4972,6 @@
   5  2,7  - nEI
   5  3,3  - nEIN
   5  4,4  | nGAI
-  5  5,2  - nIG
   5  5,2  - nIUE
   5  4,5  | oAF
   5  2,7  - oER
@@ -5133,7 +5083,6 @@
   4  4,6  | ARdU
   4  4,6  | ARkIE
   4  4,6  | ARrIE
-  4  4,6  | ARtIE
   4  4,6  | AUgE
   4  4,6  | AUnE
   4  4,6  | AUtE
@@ -5208,9 +5157,6 @@
   4  2,7  - EiR
   4  7,6  | EiRE
   4  7,6  | EkER
-  4  4,4  | ElA
-  4  2,7  - ElI
-  4  7,6  | EmER
   4  7,6  | EmIR
   4  7,6  | EnG
   4  4,4  | EpA
@@ -5284,7 +5230,6 @@
   4  3,1  | ItER
   4  4,4  | IvA
   4  2,7  - IvE
-  4  4,4  | IwA
   4  6,3  - NE
   4  2,1  | OE
   4  2,1  | OEr
@@ -5302,7 +5247,6 @@
   4  2,1  | ORl
   4  2,1  | ORs
   4  2,1  | ORt
-  4  2,1  | ORy
   4  2,1  | OaR
   4  2,1  | ObE
   4  2,1  | ObI
@@ -5431,10 +5375,8 @@
   4  5,3  - aNI
   4  4,3  - aRN
   4  4,5  | bAG
-  4  3,2  - bE
   4  4,4  | bEAU
   4  4,3  - bEN
-  4  3,2  - bI
   4  4,3  - bIN
   4  4,5  | cAG
   4  4,5  | dAG
@@ -5603,8 +5545,6 @@
   3  3,1  | IUd
   3  6,2  - IUd
   3  4,3  - IaN
-  3  3,5  - Ib
-  3  3,7  - Ib
   3  3,1  | IcE
   3  3,5  - Id
   3  3,7  - Id
@@ -5835,7 +5775,6 @@
   2  7,6  | EiR
   2  7,6  | EkE
   2  5,1  | El
-  2  7,6  | ElI
   2  5,1  | Em
   2  7,6  | EmE
   2  5,1  | Eo
@@ -5853,7 +5792,6 @@
   2  7,6  | EyE
   2  7,6  | EyR
   2  4,5  | IAn
-  2  4,5  | IAo
   2  3,1  | IIi
   2  6,2  - IIi
   2  3,1  | IRa
@@ -5925,7 +5863,6 @@
   2  4,1  | TI
   2  4,1  | TIb
   2  4,1  | TIc
-  2  4,1  | TId
   2  4,1  | TIe
   2  4,1  | TIg
   2  4,1  | TIl
@@ -6068,8 +6005,6 @@
   1  7,6  | Et
   1  7,6  | Ew
   1  7,6  | Ex
-  1  3,1  | Ib
-  1  6,2  - Ib
   1  3,1  | Id
   1  6,2  - Id
   1  3,1  | If
@@ -6084,8 +6019,6 @@
   1  6,2  - It
   1  1,1  | Ta
   1  4,1  | Ta
-  1  1,1  | Td
-  1  4,1  | Td
   1  1,1  | Te
   1  4,1  | Te
   1  1,1  | Th

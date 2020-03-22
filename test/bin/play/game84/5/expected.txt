@@ -19,6 +19,7 @@
  36  1,10 - RIPEST
  36  1,11 - YEX
  35  5,4  | EXES
+ 35  5,5  | SETPFX
  35  3,8  - SPIF
  34  7,3  - EPIST
  34  5,3  - EXIST
@@ -26,7 +27,6 @@
  33  7,1  - EPIST
  33  7,1  - EXT
  33  3,8  - SPITE
- 33  7,1  - TEX
  32  6,6  | DEFIX
  32  5,3  - EXIT
  32  6,1  - FEIST
@@ -87,8 +87,6 @@
  24  1,8  - NIST
  24  5,5  | PEISE
  24  5,5  | PESTE
- 24  7,1  - TIPE
- 24  7,1  - TIPS
  24  6,3  - XES
  24  6,3  - XIS
  24  1,11 - YEP
@@ -96,10 +94,10 @@
  23  7,3  - EXPT
  23  6,3  - FIX
  23  3,8  - SEIT
+ 23  5,5  | SEXT
  23  3,8  - SITE
  23  6,3  - XI
  22  7,3  - EXP
- 22  1,1  - FIAT
  22  5,7  - FIXE
  22  5,7  - FIXT
  22  5,5  | PEES
@@ -108,6 +106,7 @@
  22  5,5  | PETS
  22  3,8  - SEI
  22  3,8  - SET
+ 22  5,5  | SEX
  22  3,8  - SIE
  22  3,8  - SIT
  22  5,5  | TEX
@@ -116,7 +115,6 @@
  21  7,1  - EFS
  21  7,1  - EFT
  21  7,1  - EPI
- 21  7,1  - ESP
  21  6,1  - FIX
  21  5,7  - FIX
  21  7,1  - IFE
@@ -127,16 +125,13 @@
  21  5,5  | PES
  21  5,5  | PET
  21  6,1  - PIX
+ 21  5,5  | SEPTI
  21  3,8  - SI
  21  1,9  - TEXTS
- 21  7,1  - TIP
- 21  7,1  - TPI
- 21  7,1  - TPS
- 21  7,1  - TSP
  21  5,7  - XI
  21  1,11 - YETIS
- 20  5,1  - EFTS
  20  5,1  - EPIT
+ 20  5,4  | ESE
  20  1,3  - FEc
  20  5,5  | PE
  20  1,3  - PIc
@@ -144,12 +139,13 @@
  20  6,3  - SIXTE
  20  3,5  - ZAP
  19  3,1  - ATEF
- 19  5,1  - EFT
  19  5,1  - EPI
  19  6,3  - FEIST
  19  6,3  - FETIS
  19  6,3  - FIP
- 19  1,1  - PIA
+ 19  5,5  | SEEP
+ 19  5,5  | SEIF
+ 19  5,5  | SEPT
  19  6,3  - SEXT
  19  5,5  | TEPE
  19  1,9  - TEXT
@@ -164,6 +160,7 @@
  18  6,3  - FIST
  18  6,3  - FITS
  18  6,3  - SEIF
+ 18  5,5  | SEP
  18  5,7  - SIXTE
  18  5,5  | TEISE
  18  1,9  - TEX
@@ -199,11 +196,11 @@
  16  1,10 - RETIP
  16  1,10 - RIFTS
  16  1,10 - RIPES
+ 16  5,5  | SEIT
  16  6,3  - SEPTI
  16  5,7  - SEXT
  16  5,5  | TEES
  15  5,1  - EF
- 15  7,3  - ESP
  15  6,5  - EXIT
  15  6,7  - EXIT
  15  5,6  | EXPT
@@ -215,7 +212,10 @@
  15  5,7  - FISE
  15  5,7  - FIST
  15  5,7  - FITS
+ 15  5,5  | SEE
+ 15  5,5  | SEI
  15  6,3  - SEPT
+ 15  5,5  | SET
  15  5,7  - SEX
  15  6,3  - SIFE
  15  6,3  - SIFT
@@ -224,7 +224,6 @@
  15  5,5  | TEE
  15  6,1  - TEX
  15  5,7  - TEX
- 15  7,1  - TIES
  15  6,3  - TIPE
  15  6,3  - TIPS
  15  1,11 - YES
@@ -242,14 +241,11 @@
  14  6,1  - PIE
  14  6,1  - PIS
  14  6,1  - PIT
- 14  6,1  - PTE
- 14  6,1  - PTS
  14  1,10 - REFS
  14  1,10 - REFT
  14  1,10 - REIF
  14  1,10 - REPS
  14  1,10 - REPT
- 14  1,10 - RESP
  14  1,10 - RIFE
  14  1,10 - RIFS
  14  1,10 - RIFT
@@ -278,7 +274,6 @@
  13  6,1  - PI
  13  6,3  - SEP
  13  6,3  - SIP
- 13  6,5  - TEX
  13  6,3  - TIP
  13  5,1  | TWIE
  13  5,1  | TWP
@@ -315,16 +310,13 @@
  12  5,7  - SIFT
  12  5,7  - SIPE
  12  6,3  - SITE
- 12  7,1  - TIE
  12  6,3  - TIES
  12  5,7  - TIPE
  12  5,7  - TIPS
- 12  7,1  - TIS
  12  5,2  | WET
  12  5,2  | WIT
  11  6,6  | DEX
  11  7,2  | DFT
- 11  7,2  | DPT
  11  7,1  | EDP
  11  6,5  - EFTS
  11  6,7  - EFTS
@@ -345,9 +337,7 @@
  11  1,9  - TIFT
  11  6,1  - TIP
  11  5,7  - TIP
- 11  6,5  - TIPE
  11  1,9  - TIPE
- 11  6,5  - TIPS
  11  1,9  - TIPS
  11  1,3  - TIc
  11  6,4  | XED
@@ -369,14 +359,12 @@
  10  6,3  - SEI
  10  6,3  - SET
  10  6,1  | SEX
- 10  1,1  - SIA
  10  6,3  - SIE
  10  6,3  - SIT
  10  6,1  | TEX
  10  6,3  - TIE
  10  1,9  - TIP
  10  6,3  - TIS
- 10  1,9  - TSP
  10  6,1  | XES
   9  7,2  | DEFI
   9  7,2  | DEFS
@@ -393,8 +381,6 @@
   9  6,5  - EPI
   9  6,7  - EPI
   9  5,6  | EPIST
-  9  6,5  - ESP
-  9  6,7  - ESP
   9  7,3  - EST
   9  5,1  - ET
   9  6,2  | EX
@@ -420,10 +406,6 @@
   9  6,3  - TE
   9  6,3  - TI
   9  5,7  - TIES
-  9  6,5  - TIP
-  9  6,5  - TPI
-  9  6,5  - TPS
-  9  6,5  - TSP
   8  7,2  | DEF
   8  6,6  | DEFI
   8  6,6  | DEFS
@@ -436,7 +418,6 @@
   8  6,6  | DIPS
   8  6,6  | DIPT
   8  6,6  | DISP
-  8  7,2  | DSP
   8  7,1  - EF
   8  6,5  - EF
   8  6,7  - EF
@@ -463,7 +444,6 @@
   8  5,7  - SIT
   8  6,1  - TIE
   8  5,7  - TIE
-  8  6,5  - TIES
   8  6,1  - TIS
   8  5,7  - TIS
   7  3,4  - AGIST
@@ -472,12 +452,9 @@
   7  6,6  | DFT
   7  6,6  | DIF
   7  6,6  | DIP
-  7  6,6  | DPT
-  7  6,6  | DSP
   7  7,1  | EDITS
   7  6,5  | EDP
   7  7,3  - ES
-  7  6,1  - ET
   7  7,3  - ET
   7  6,4  | FED
   7  6,1  | FEES
@@ -505,7 +482,6 @@
   7  6,1  | TEPE
   7  6,1  - TI
   7  5,7  - TI
-  7  6,4  | TPD
   7  1,9  - TPI
   7  1,9  - TPS
   7  5,1  | TWI
@@ -532,8 +508,6 @@
   6  5,6  | EPE
   6  6,2  | EPI
   6  5,6  | EPI
-  6  6,2  | ESP
-  6  5,6  | ESP
   6  6,5  - EST
   6  6,7  - EST
   6  6,1  | FEE
@@ -561,8 +535,6 @@
   6  1,4  - STAG
   6  2,4  - TAGS
   6  6,4  | TIDES
-  6  6,5  - TIE
-  6  6,5  - TIS
   6  5,2  | WE
   6  5,2  | WT
   5  3,4  - AGE
@@ -604,12 +576,8 @@
   5  2,4  - SAG
   5  6,4  | SIDE
   5  2,4  - TAG
-  5  7,1  - TE
-  5  6,5  - TE
   5  6,4  | TEDS
   5  1,9  - TEST
-  5  7,1  - TI
-  5  6,5  - TI
   5  6,4  | TIDE
   5  1,9  - TIES
   5  1,9  - TITE
@@ -628,12 +596,10 @@
   4  1,10 - RE
   4  6,4  | SED
   4  6,1  | SEIT
-  4  6,4  | SID
   4  6,4  | STD
   4  4,1  | TA
   4  6,4  | TED
   4  6,1  | TEES
-  4  6,4  | TID
   4  1,9  - TIE
   4  1,9  - TIS
   4  1,9  - TIT
@@ -654,8 +620,6 @@
   3  6,1  | SEE
   3  6,1  | SEI
   3  6,1  | SET
-  3  7,1  | TD
-  3  6,5  | TD
   3  6,1  | TEE
   2  6,1  | EE
   2  6,2  | EE

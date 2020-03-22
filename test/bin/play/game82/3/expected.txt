@@ -1,17 +1,28 @@
  57 11,7  | LUNCH
+ 55 11,2  | LUVISH
  54 11,7  | LINCH
  51 11,7  | SLICH
+ 49 11,2  | VULNS
  48 11,8  | INCH
  48 11,8  | LICH
  48 11,8  | SUCH
  45 11,8  | SICH
+ 43 11,3  | LUVS
  42 11,9  | ICH
+ 40 11,2  | HILUS
+ 40 11,3  | VINS
  39 11,9  | HCL
  39 11,8  | INCL
+ 37 11,3  | HUNS
+ 37 11,2  | LINUS
  36 11,7  | SULCI
  36 11,7  | UVIC
+ 34 11,3  | HINS
  33 11,8  | UNCI
  33 11,8  | UNCS
+ 31 11,3  | LINS
+ 31 11,3  | LUIS
+ 31 11,3  | NILS
  30 11,7  | HUIC
  30 11,8  | SUCI
  30 11,8  | SVC
@@ -38,31 +49,50 @@
  22  3,11 - USH
  21 11,8  | INC
  21 11,8  | LSC
+ 21 11,4  | LUSH
+ 20 11,4  | HISN
  20  3,11 - HUI
+ 20 11,4  | LISH
  20  6,2  | LUSHEI
  20  6,2  | SLIVE
+ 20 11,4  | VIS
  20  6,2  | VISNE
  19  3,11 - ISH
- 19  5,5  - SHIN
- 19  4,5  - SUNIL
+ 19 11,6  | SHU
+ 19 11,4  | UHS
+ 19 11,5  | USH
  19  3,5  - VULN
  19  3,7  - VULN
- 18  6,5  - HIN
+ 18 11,4  | HIS
+ 18 11,5  | HSI
  18  6,2  | HUILE
+ 18 11,4  | IHS
+ 18 11,5  | ISH
  18  6,2  | LUNIES
+ 18 11,4  | NUS
+ 18 11,6  | SHI
  18  2,9  - SHLU
  18  6,2  | SHUNE
  18 11,8  | SIC
+ 18 11,6  | SUN
  18  6,9  - UH
+ 18 11,4  | UNS
  17  3,11 - HSI
+ 17 11,4  | INS
+ 17 11,5  | ISL
+ 17 11,5  | ISN
+ 17 11,4  | LIS
  17  3,11 - LUI
+ 17 11,4  | NIS
+ 17 11,6  | SH
  17  3,11 - SHI
  17  4,7  - SHLU
  17  3,9  - SHUI
+ 17 11,6  | SIL
+ 17 11,6  | SIN
+ 17 11,6  | SUI
  17  3,11 - UNI
  16  7,6  | BUSHEL
- 16  6,5  - HIS
- 16  6,5  - NIL
  16  4,11 - SHIN
  16  6,2  | SHINE
  16  5,7  - SHU
@@ -72,15 +102,18 @@
  16 10,5  | SKI
  16  5,9  - UH
  16  6,2  | UNLIE
+ 16 11,5  | US
  16  3,7  - VINS
  16  2,7  - VULNS
  16  9,7  - XIS
  15  5,11 - HIN
  15  4,9  - HUI
  15  8,8  | ILA
+ 15 11,5  | IS
  15 10,6  | KI
  15  5,7  | LUVS
  15  5,8  - SHILF
+ 15 11,6  | SI
  15  7,4  | SUBLINE
  15  9,7  - XI
  14  7,11 - HLD
@@ -90,8 +123,6 @@
  14  3,5  - LUSH
  14  3,7  - LUSH
  14  3,7  - LUVS
- 14  6,5  - NIS
- 14  5,5  - SHI
  14  5,7  - SHI
  14  3,9  - SHU
  14  2,9  - SHUI
@@ -101,7 +132,7 @@
  14  6,9  - UN
  14  6,2  | USINE
  13 11,10 | CH
- 13  6,5  - HI
+ 13  6,6  - EBOOKS
  13  6,7  - HI
  13  5,11 - HIS
  13  3,5  - HISN
@@ -117,7 +148,6 @@
  13  6,7  - NU
  13  4,9  - SUI
  13  2,7  - SUNIL
- 13  5,5  - UNI
  13  5,7  - UNI
  13 10,8  | UNI
  13  6,3  | UNVEIL
@@ -149,7 +179,6 @@
  11  6,3  | HIVES
  11 10,3  | HUSK
  11  8,3  | HUSO
- 11  7,5  - IN
  11  7,8  - INF
  11  6,7  - LI
  11  2,7  - LINUS
@@ -193,7 +222,6 @@
  10  7,8  | SHEN
  10  3,9  - SHI
  10 10,3  | SHIK
- 10  7,11 - SLD
  10  7,3  | SLUB
  10  7,3  | SNUB
  10  6,4  | SUEVI
@@ -211,7 +239,6 @@
   9  7,4  | HUB
   9  7,8  | HUES
   9  5,8  | HUSS
-  9  7,5  - IS
   9  4,5  - ISH
   9  4,7  - ISH
   9  8,9  | LAI
@@ -287,7 +314,6 @@
   8  4,11 - SH
   8  7,8  | SHE
   8  6,3  | SHIEL
-  8  7,11 - SID
   8 10,4  | SUK
   8  4,5  - SUN
   8  4,7  - SUN
@@ -428,7 +454,6 @@
   5  6,4  | HIE
   5  6,8  | HIT
   5  6,9  | HTS
-  5  7,5  | IB
   5  8,11 - ID
   5  5,9  | ISL
   5  6,3  | ISLE
@@ -467,7 +492,6 @@
   5  7,8  | USE
   4  6,6  | EH
   4  7,10 | EH
-  4  6,6  | ELI
   4  6,6  | ELS
   4  6,6  | ENS
   4  6,6  | ESU
@@ -498,7 +522,6 @@
   4  6,10 | TH
   4  6,8  | UIT
   4  6,4  | USE
-  4  6,9  | UTI
   4  6,9  | UTS
   3  6,6  | EL
   3  7,10 | EL

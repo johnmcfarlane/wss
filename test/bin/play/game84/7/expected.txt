@@ -30,6 +30,7 @@
  26  4,9  - TPS
  26  3,5  - ZAPOTE
  25  5,5  | CETUS
+ 25  5,5  | SETUP
  24  6,3  - CEP
  24  6,3  - CSP
  24  5,9  - POET
@@ -44,7 +45,6 @@
  23  5,9  - POE
  23  5,9  - POS
  23  5,9  - POT
- 23  5,9  - PST
  23  5,9  - PTE
  23  5,9  - PTS
  23  6,9  - SCOVE
@@ -68,12 +68,12 @@
  21  6,9  - SPECT
  21  7,3  - SVCE
  20  5,7  - CEP
+ 20  5,4  | ESE
  20  4,9  - ESTOC
  20  4,9  - ESTOP
  20  6,9  - OPEC
+ 20  5,4  | OSE
  20  5,5  | PE
- 20  4,9  - PST
- 20  4,9  - PTS
  20  1,10 - RCPT
  20 10,1  | SCOP
  20  6,9  - SCOP
@@ -93,7 +93,6 @@
  19  5,9  - TOV
  18  5,7  - CEST
  18  6,3  - ESC
- 18  6,3  - ESP
  18  1,10 - ROVES
  18  1,10 - ROVET
  18  7,3  - SEV
@@ -108,7 +107,6 @@
  18  9,2  - TOP
  18  5,9  - TOPE
  18  5,9  - TOPS
- 18  6,3  - TSP
  18  1,11 - YESO
  18  1,11 - YEST
  18  1,11 - YOTE
@@ -126,9 +124,7 @@
  17  6,9  - STOVE
  17  6,9  - SVC
  17  5,9  - TOP
- 17  5,9  - TSP
  16  7,3  - ESC
- 16  7,3  - ESP
  16  7,3  - ETC
  16  1,10 - RECTO
  16  1,10 - REPOT
@@ -179,7 +175,6 @@
  14  1,10 - RECT
  14  1,10 - REPS
  14  1,10 - REPT
- 14  1,10 - RESP
  14  1,10 - REV
  14  1,10 - ROCS
  14  1,10 - ROPE
@@ -254,7 +249,6 @@
  12  6,9  - STOEP
  12  9,2  - TOE
  12  5,9  - TOES
- 12  6,5  - TOPES
  12  6,9  - TOPES
  12  9,2  - TOS
  12  6,9  - TPS
@@ -280,13 +274,10 @@
  11  6,9  - SOPE
  11  5,9  - SOT
  11  1,3  - SOc
- 11  6,5  - TECO
  11  6,9  - TECO
  11  1,3  - TEc
  11  5,9  - TOE
- 11  6,5  - TOPE
  11  6,9  - TOPE
- 11  6,5  - TOPS
  11  6,9  - TOPS
  11  5,9  - TOS
  11  5,8  | UPO
@@ -297,8 +288,6 @@
  10  9,2  - EO
  10  9,1  | ESC
  10  6,7  - ESC
- 10  9,1  | ESP
- 10  6,7  - ESP
  10  7,3  - EST
  10  9,1  | ETC
  10  6,7  - ETC
@@ -316,7 +305,6 @@
  10  7,3  - SOT
  10  6,9  - SOV
  10  9,2  - TO
- 10  6,5  - TOV
  10  6,9  - TOV
  10  5,8  | UP
  10  2,4  - VAGE
@@ -324,7 +312,6 @@
   9  6,5  - ECO
   9  5,6  | ECUS
   9  6,5  - ESC
-  9  6,5  - ESP
   9  6,5  - ETC
   9  9,1  | EVES
   9  9,1  | EVOE
@@ -350,14 +337,9 @@
   9  6,9  - SOC
   9  6,9  - SOP
   9  1,4  - SPAG
-  9  6,5  - TEC
   9  6,9  - TEC
   9  5,9  - TO
-  9  6,5  - TOP
   9  6,9  - TOP
-  9  6,5  - TPS
-  9  6,5  - TSP
-  9  6,9  - TSP
   9  2,4  - VAG
   8  2,4  - CAG
   8  7,3  - EO
@@ -380,7 +362,6 @@
   8 10,1  | SETS
   8  7,3  - SO
   8 10,1  | SOTS
-  8  6,5  - TOES
   8  6,9  - TOES
   7  6,4  | COD
   7  9,1  | ECO
@@ -392,14 +373,12 @@
   7  6,1  | FEST
   7  6,1  | FETE
   7  6,1  | FETS
-  7  4,8  | HP
   7  7,1  | IDEST
   7  7,1  | IDOSE
   7  1,4  - OSAGE
   7  6,4  | PED
   7  6,4  | POD
   7  1,4  - STAGE
-  7  6,4  | TPD
   6  3,4  - AGES
   6  3,4  - AGET
   6  3,4  - AGOS
@@ -443,9 +422,7 @@
   6  1,4  - STAG
   6  2,4  - TAGS
   6  1,4  - TOAG
-  6  6,5  - TOE
   6  6,9  - TOE
-  6  6,5  - TOS
   6  6,9  - TOS
   6  5,2  | WE
   6  5,2  | WO
@@ -472,9 +449,7 @@
   5  2,4  - SAG
   5  6,9  - SO
   5  2,4  - TAG
-  5  6,5  - TE
   5  6,9  - TE
-  5  6,5  - TO
   5  6,9  - TO
   5  5,8  | USE
   5  5,8  | UTE
@@ -501,7 +476,6 @@
   4  1,11 - YO
   3  6,5  | ED
   3  6,5  | OD
-  3  6,5  | TD
   2  9,1  | EE
   2  9,1  | EO
   2  9,1  | ES

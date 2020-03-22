@@ -305,7 +305,6 @@
  26  8,7  - SPa
  26  7,7  - SSP
  26  7,7  - TIP
- 26  7,7  - TSP
  26  8,7  - ePA
  26  8,7  - ePI
  26  8,7  - oPA
@@ -425,13 +424,11 @@
  24  7,7  - TiP
  24  7,7  - ToP
  24  7,7  - TrP
- 24  7,7  - TsP
  24  7,7  - TwP
  24  7,7  - TyP
  24  1,2  - aPAISE
  24  1,2  - cAPITE
  24  7,7  - dIP
- 24  7,7  - dSP
  24  7,7  - fIP
  24  1,2  - lIPASE
  24  7,7  - nIP
@@ -439,7 +436,6 @@
  24  7,7  - sIP
  24  7,7  - sSP
  24  7,7  - tIP
- 24  7,7  - tSP
  23  1,2  - ASPIdE
  23  1,2  - ASPIrE
  23  1,2  - PATInE
@@ -644,7 +640,6 @@
  21  1,3  - cISTAE
  21  1,3  - dASSIE
  21  8,7  - fP
- 21  8,7  - hP
  21  1,3  - iSSITE
  21  1,3  - lAISSE
  21  1,3  - lASSIE
@@ -1070,7 +1065,6 @@
  17  1,2  - PISa
  17  1,2  - PITa
  17  3,5  - PIpETS
- 17  4,4  - PSF
  17  7,4  | PSIA
  17  7,4  | PSIS
  17  1,2  - PSIa
@@ -1212,7 +1206,6 @@
  16  4,4  - PrF
  16  3,3  - PrIESTS
  16  7,4  | PrISS
- 16  4,4  - PsF
  16  2,2  - PsI
  16  2,2  - PtA
  16  2,2  - PuA
@@ -1799,7 +1792,6 @@
  14  9,2  - ePA
  14  9,2  - ePI
  14  5,4  | ePI
- 14  9,2  - eSP
  14  2,3  - eTAPES
  14  3,2  - fATES
  14  3,5  - gAPES
@@ -1845,7 +1837,6 @@
  14  3,2  - rASES
  14  3,2  - rATES
  14  5,2  - rEPS
- 14  5,2  - rESP
  14  3,5  - rIPES
  14  3,2  - rISES
  14  3,2  - rITES
@@ -1912,8 +1903,6 @@
  13  6,2  - EPI
  13  6,5  - EPI
  13  6,3  - EPIST
- 13  6,2  - ESP
- 13  6,5  - ESP
  13  3,3  - InSEP
  13  2,3  - InSTEP
  13  4,1  | KIPS
@@ -2038,7 +2027,6 @@
  13  3,2  - PaTE
  13  3,3  - PaTES
  13  8,2  - Pe
- 13  8,7  - Ph
  13  3,3  - PhAET
  13  3,3  - PhIES
  13  8,4  | PhO
@@ -2304,7 +2292,6 @@
  13  5,3  - gETSPA
  13  9,7  - hAP
  13  9,7  - hIP
- 13  7,3  | hP
  13  2,5  - jASPE
  13  1,7  - lAPIS
  13  2,5  - lAPSES
@@ -2542,7 +2529,6 @@
  12  3,3  - PIpET
  12  8,3  | PIvOTS
  12  3,3  - PIxES
- 12  3,7  - PST
  12  3,7  - PTS
  12  3,5  - PaSE
  12  2,5  - PaSTES
@@ -2621,7 +2607,6 @@
  12  1,2  - SItA
  12 10,2  | SIxTY
  12  9,3  | SPACe
- 12  9,3  | SPACk
  12  9,3  | SPACy
  12  2,5  - SPAdE
  12  2,5  - SPAkE
@@ -3019,7 +3004,6 @@
  11  3,5  - ASSETh
  11  3,5  - ASSETs
  11  1,2  - ASSi
- 11  9,2  - AST
  11  1,2  - ASTa
  11  3,5  - ASbEST
  11  3,5  - ASsETS
@@ -3058,8 +3042,6 @@
  11  6,5  - EmP
  11  6,3  - EnAPT
  11  6,2  - ErIA
- 11  6,2  - EsP
- 11  6,5  - EsP
  11  6,2  - ExP
  11  6,5  - ExP
  11  6,4  - FPS
@@ -3067,7 +3049,6 @@
  11  6,4  - FlIP
  11  6,4  - FrAP
  11  8,2  - IAn
- 11  8,2  - IAo
  11  2,7  - IPSo
  11  4,2  - ISE
  11  7,4  | ISIAc
@@ -3246,7 +3227,6 @@
  11  1,5  - PrAISE
  11  3,3  - PrIE
  11  3,7  - PrS
- 11  3,7  - PsT
  11  3,7  - PtS
  11  3,7  - PtT
  11  3,7  - PuS
@@ -3304,7 +3284,6 @@
  11  8,2  - SIa
  11  8,2  - SIb
  11  8,2  - SIc
- 11  8,2  - SId
  11  3,5  - SIdEST
  11  8,2  - SIe
  11  8,2  - SIg
@@ -3639,13 +3618,11 @@
  10  2,2  - IrA
  10  2,2  - ItA
  10  2,2  - IvA
- 10  2,2  - IwA
  10  7,4  | IxIAS
  10  4,1  | KAPa
  10  4,1  | KAPh
  10  4,1  | KAPp
  10  4,1  | KASSu
- 10  4,1  | KATIe
  10  4,1  | KATIk
  10  4,1  | KATS
  10  4,1  | KAdIS
@@ -3762,7 +3739,6 @@
  10  5,3  - PEdA
  10  5,3  - PEdS
  10  5,3  - PEeS
- 10  5,3  - PEgA
  10  5,3  - PEgS
  10  5,3  - PElT
  10  5,3  - PEnS
@@ -3869,9 +3845,7 @@
  10  4,3  - PSEtTA
  10  2,7  - PSIS
  10  2,7  - PSST
- 10  3,7  - PSf
  10  2,5  - PSoAE
- 10  3,7  - PSt
  10  4,3  - PTErIS
  10 10,4  | PTYxIS
  10  3,7  - PTs
@@ -4118,7 +4092,6 @@
  10  8,5  | TOPIS
  10  8,5  | TOPIcS
  10  8,5  | TOSSuP
- 10  7,7  - TSp
  10  2,2  - TaA
  10  2,2  - TaI
  10  8,3  | TaPOSA
@@ -4302,10 +4275,8 @@
  10  3,3  - uPSETS
  10  1,7  - uPSIT
  10  2,2  - uTA
- 10  2,2  - uTI
  10  8,4  | uTOPIA
  10  2,2  - vAI
- 10  5,3  - vEPS
  10  2,2  - vIA
  10  8,2  - wAS
  10  1,7  - wASPS
@@ -4369,7 +4340,6 @@
   9  8,3  | ASlOP
   9  9,2  - ASp
   9  9,2  - ASs
-  9  9,2  - ASt
   9  9,2  - AT
   9  8,4  | ATOP
   9  8,4  | ATOPy
@@ -4426,7 +4396,6 @@
   9  9,2  - AsS
   9  3,5  - AsSES
   9  3,5  - AsSET
-  9  9,2  - AsT
   9  4,2  - AtE
   9  9,2  - AtI
   9  7,4  | AtIS
@@ -4519,7 +4488,6 @@
   9  6,4  - FrIST
   9  6,4  - FrITS
   9  9,2  - IAn
-  9  9,2  - IAo
   9  9,5  | ICASm
   9  3,7  - IPS
   9  3,3  - IPSE
@@ -4573,7 +4541,6 @@
   9  9,2  - ItA
   9  9,2  - ItS
   9  9,2  - IvA
-  9  9,2  - IwA
   9  5,4  | IwIS
   9  7,4  | IwIS
   9  7,4  | IxIA
@@ -4626,7 +4593,6 @@
   9  4,1  | KuSA
   9  4,1  | KvAS
   9  4,1  | KyAT
-  9  9,1  | MAwP
   9  9,1  | MImP
   9  9,1  | MPbS
   9  8,6  | OPATa
@@ -5822,7 +5788,6 @@
   8  9,2  - aSS
   8  1,5  - aSSATE
   8  3,5  - aSSET
-  8  9,2  - aST
   8  9,2  - aTI
   8  7,4  | aTI
   8  9,4  | bACT
@@ -6021,8 +5986,6 @@
   8  9,2  - uIT
   8 10,3  | uPSY
   8  9,2  - uTA
-  8  9,2  - uTI
-  8  7,4  | uTI
   8  9,2  - uTS
   8  3,5  - vASES
   8  3,5  - vATES
@@ -6207,7 +6170,6 @@
   7  9,6  | CyST
   7  6,3  - EASTS
   7  6,5  - EAT
-  7  6,3  - ESP
   7  6,3  - ESPy
   7  6,2  - ESS
   7  6,5  - ESS
@@ -6253,7 +6215,6 @@
   7  3,3  - ISlETS
   7  2,3  - ITAvES
   7  9,4  | ITCh
-  7  9,2  - Ib
   7  9,2  - Id
   7  9,2  - If
   7  4,4  - IfF
@@ -6275,7 +6236,6 @@
   7  9,2  - Is
   7  9,2  - It
   7  4,1  | KAI
-  7  4,1  | KAId
   7  4,1  | KAIf
   7  4,1  | KAIk
   7  4,1  | KAIl
@@ -6677,7 +6637,6 @@
   7  8,5  | TObIAS
   7  8,5  | TOpASS
   7  8,5  | TOwAIS
-  7  3,7  - TPd
   7  3,3  - TPkE
   7  3,7  - TPs
   7  2,3  - TSAdES
@@ -6758,7 +6717,6 @@
   7  5,5  | dISP
   7  7,5  | dISP
   7  1,7  - dITAS
-  7  3,7  - dPT
   7  1,7  - eASTS
   7  4,5  - eSES
   7  3,2  - fA
@@ -6903,7 +6861,6 @@
   7  2,5  - rASSE
   7  5,3  - rEAP
   7  5,3  - rESIST
-  7  5,3  - rESP
   7  5,3  - rESTIS
   7  5,5  | rIPS
   7  7,5  | rIPS
@@ -6946,7 +6903,6 @@
   7  3,7  - uPS
   7  4,5  - uSES
   7  1,7  - vASTS
-  7  5,3  - vESP
   7  5,3  - vESTAS
   7  1,7  - vISAS
   7  2,5  - vITAE
@@ -7015,7 +6971,6 @@
   6  1,7  - ASSIs
   6  8,3  | ASSOc
   6  8,3  | ASSOt
-  6  3,7  - AST
   6  3,3  - ASTEl
   6  3,3  - ASTEr
   6  8,3  | ASTOr
@@ -7932,13 +7887,11 @@
   6  3,3  - iSSEI
   6  9,2  - iT
   6  3,3  - jASES
-  6  2,7  - jASS
   6  8,3  | jATOS
   6  9,5  | jCT
   6  5,3  - jESTS
   6  8,5  | jOIST
   6  8,5  | jOTAS
-  6  2,3  - kATIE
   6  2,7  - kATS
   6  5,3  - kEATS
   6  5,3  - kEIST
@@ -8265,7 +8218,6 @@
   5  9,4  | AbC
   5  4,3  - AbETS
   5  3,3  - AbIE
-  5  2,7  - AbIT
   5  8,4  | AbOS
   5  3,7  - AbS
   5  3,7  - AbT
@@ -8338,7 +8290,6 @@
   5  3,3  - ArSE
   5  3,7  - ArT
   5  3,3  - ArTE
-  5  2,3  - ArTIE
   5  2,7  - ArTS
   5 10,3  | ArTY
   5 10,5  - As
@@ -8346,7 +8297,6 @@
   5  3,7  - AsS
   5  3,3  - AsSE
   5  2,7  - AsST
-  5  3,7  - AsT
   5 10,5  - At
   5 10,7  - At
   5  2,7  - AtIS
@@ -8404,8 +8354,6 @@
   5  6,2  - ESe
   5  6,5  - ESe
   5  6,3  - ESeS
-  5  6,2  - ESp
-  5  6,5  - ESp
   5  6,2  - ESs
   5  6,5  - ESs
   5  6,5  - ESt
@@ -8424,7 +8372,6 @@
   5  6,2  - EfS
   5  6,5  - EfS
   5  6,5  - EfT
-  5  6,5  - ElI
   5  6,3  - ElIAS
   5  6,5  - ElS
   5  6,5  - ElT
@@ -8438,7 +8385,6 @@
   5  6,5  - EpI
   5  6,3  - EpIST
   5  6,2  - ErS
-  5  6,3  - EsP
   5  6,2  - EsS
   5  6,5  - EsS
   5  6,5  - EsT
@@ -8473,7 +8419,6 @@
   5  6,4  - FIx
   5  6,4  - FIz
   5  6,4  - FTh
-  5  8,4  | IAO
   5  8,3  | IAgO
   5  5,4  - IF
   5  5,4  - IFe
@@ -8517,7 +8462,6 @@
   5  8,3  | ITmO
   5 10,3  | ITsY
   5 10,5  | IYAr
-  5 10,7  - Ib
   5 10,7  - Id
   5  4,3  - IdEAS
   5  4,3  - IdEST
@@ -8540,7 +8484,6 @@
   5 10,7  - In
   5  9,4  | InC
   5  3,7  - InS
-  5  2,7  - InST
   5  3,7  - InT
   5 10,7  - Io
   5  5,6  | IoTAS
@@ -8690,7 +8633,6 @@
   5  8,5  | POw
   5  8,5  | POx
   5  8,5  | POy
-  5  8,5  | POz
   5  4,3  - PeE
   5  4,3  - PiE
   5  4,7  - Po
@@ -8848,7 +8790,6 @@
   5  8,5  | SOwT
   5  8,5  | SOyA
   5  8,5  | SOyS
-  5  2,7  - STAb
   5  2,7  - STAd
   5  2,3  - STAdE
   5  2,3  - STAgE
@@ -8867,7 +8808,6 @@
   5  4,3  - STErI
   5  4,3  - STEtS
   5  4,3  - STEwS
-  5  2,7  - STIb
   5  2,7  - STId
   5  2,3  - STIfE
   5  2,3  - STIlE
@@ -9388,7 +9328,6 @@
   5  8,5  | pOST
   5  8,5  | pOTI
   5  8,5  | pOTS
-  5  4,4  - pSF
   5 10,5  | pYAS
   5  3,5  - rASE
   5  3,5  - rATE
@@ -9481,10 +9420,8 @@
   4  4,7  - AS
   4  4,3  - ASEa
   4  4,3  - ASEm
-  4  3,7  - ASb
   4  3,7  - ASs
   4  3,3  - ASsE
-  4  3,7  - ASt
   4  5,1  | AT
   4  4,7  - AT
   4  4,3  - ATE
@@ -9582,7 +9519,6 @@
   4  6,4  - Fp
   4  6,4  - Fu
   4  3,7  - IAn
-  4  3,7  - IAo
   4  3,3  - IArE
   4  8,5  | IOTaS
   4  4,7  - IS
@@ -9620,7 +9556,6 @@
   4  7,6  | ITyS
   4  5,6  | ITzA
   4  7,6  | ITzA
-  4  8,4  | IaO
   4  5,6  | IbIS
   4  7,6  | IbIS
   4  8,4  | IbO
@@ -9639,8 +9574,6 @@
   4  7,6  | InIA
   4  5,6  | InIT
   4  7,6  | InIT
-  4  5,6  | InST
-  4  7,6  | InST
   4  5,6  | InTA
   4  7,6  | InTA
   4  5,6  | IoTA
@@ -9702,7 +9635,6 @@
   4  8,6  | OwT
   4  8,6  | OzS
   4  4,3  - SAE
-  4  3,7  - SAb
   4  3,3  - SAbE
   4  3,7  - SAd
   4  3,3  - SAdE
@@ -9749,11 +9681,8 @@
   4  4,3  - SIEr
   4  7,5  | SIa
   4  7,5  | SIb
-  4  3,7  - SIb
   4  7,5  | SIc
   4  3,3  - SIcE
-  4  7,5  | SId
-  4  3,7  - SId
   4  3,3  - SIdE
   4  7,5  | SIe
   4  3,3  - SIfE
@@ -9829,7 +9758,6 @@
   4  4,3  - TAE
   4  4,3  - TAEl
   4  4,3  - TAEn
-  4  3,7  - TAb
   4  3,3  - TAcE
   4  3,7  - TAd
   4  3,3  - TAdE
@@ -9872,13 +9800,9 @@
   4  4,3  - TIEs
   4  5,5  | TIb
   4  7,5  | TIb
-  4  3,7  - TIb
   4  5,5  | TIc
   4  7,5  | TIc
   4  3,3  - TIcE
-  4  5,5  | TId
-  4  7,5  | TId
-  4  3,7  - TId
   4  3,3  - TIdE
   4  5,5  | TIe
   4  7,5  | TIe
@@ -9922,7 +9846,6 @@
   4 10,5  | TYt
   4  8,4  | TaO
   4 10,4  | TaY
-  4  7,7  - Td
   4  7,7  - Te
   4  4,3  - TeES
   4  7,7  - Th
@@ -9981,7 +9904,6 @@
   4 10,7  - aS
   4  3,7  - aSS
   4  3,3  - aSSE
-  4  3,7  - aST
   4 10,5  - aT
   4 10,7  - aT
   4  4,5  - aTE
@@ -10000,7 +9922,6 @@
   4  5,3  - bETA
   4  5,3  - bETS
   4 10,5  - bI
-  4  7,7  - bI
   4  5,5  | bIAS
   4  3,7  - bIS
   4  3,3  - bISE
@@ -10238,7 +10159,6 @@
   4  3,7  - pIT
   4  5,5  | pITA
   4  5,5  | pITS
-  4  3,7  - pST
   4  4,5  - pTE
   4  3,7  - pTS
   4 10,4  | pTY
@@ -10355,6 +10275,7 @@
   4  5,3  - yETI
   4  3,7  - yIS
   4  3,3  - yITE
+  4  3,7  - zAS
   4  3,7  - zAT
   4  5,3  - zEST
   4  5,3  - zETA
@@ -10382,7 +10303,6 @@
   3  6,3  - ES
   3  6,3  - ESc
   3  6,3  - ESe
-  3  6,3  - ESp
   3  6,3  - ESq
   3  6,3  - ESs
   3  6,3  - ESt
@@ -10667,7 +10587,6 @@
   2  8,5  | AOr
   2  5,1  | Aa
   2  5,1  | Ab
-  2  4,7  - Ab
   2  4,3  - AcE
   2  5,1  | Ad
   2  4,7  - Ad
@@ -10704,8 +10623,6 @@
   2  6,2  - Eh
   2  6,5  - Eh
   2  6,5  - El
-  2  6,3  - ElA
-  2  6,3  - ElI
   2  6,3  - ElS
   2  6,3  - ElT
   2  6,2  - Em
@@ -10733,8 +10650,6 @@
   2  6,3  - ExT
   2  5,6  | IAn
   2  7,6  | IAn
-  2  5,6  | IAo
-  2  7,6  | IAo
   2  5,6  | IIi
   2  7,6  | IIi
   2  8,5  | IO
@@ -10764,7 +10679,6 @@
   2  7,6  | ITd
   2  5,6  | ITs
   2  7,6  | ITs
-  2  4,7  - Ib
   2  5,6  | IbA
   2  7,6  | IbA
   2  4,3  - IcE
@@ -10811,8 +10725,6 @@
   2  5,6  | IvA
   2  7,6  | IvA
   2  4,3  - IvE
-  2  5,6  | IwA
-  2  7,6  | IwA
   2  5,6  | IwI
   2  7,6  | IwI
   2  8,1  | OAd
@@ -10930,7 +10842,6 @@
   2  8,5  | TOx
   2  8,5  | TOy
   2  4,3  - TaE
-  2  4,7  - Td
   2  4,3  - TeE
   2  4,3  - ThE
   2  4,3  - TiE
@@ -10975,7 +10886,6 @@
   2  7,5  | hI
   2  8,5  | hOI
   2  8,5  | hOT
-  2  8,4  | iAO
   2  8,5  | jOT
   2  8,5  | kOA
   2  8,5  | kOI
@@ -11047,8 +10957,6 @@
   1  6,3  - Et
   1  6,3  - Ew
   1  6,3  - Ex
-  1  5,6  | Ib
-  1  7,6  | Ib
   1  5,6  | Id
   1  7,6  | Id
   1  5,6  | If
