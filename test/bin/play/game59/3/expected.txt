@@ -85,7 +85,6 @@
  28  6,11 - ISED
  28  6,11 - SEID
  28  6,11 - SIDE
- 27  5,2  | CFD
  27  8,10 - FED
  27  8,8  - HED
  27  9,7  | SERIC
@@ -324,8 +323,6 @@
  17  6,11 - SED
  17  6,11 - SH
  17  2,3  - SHICE
- 17  5,11 - SID
- 17  6,11 - SID
  17  6,7  - lISH
  16  8,8  | CEDE
  16  3,3  - CEDES
@@ -362,14 +359,12 @@
  16 10,8  | FIDE
  16  3,3  - FIDES
  16 10,8  | FIDS
- 16  5,1  | FIED
  16 10,8  | FIED
  16 10,5  | HEIDI
  16 10,7  | HEIDI
  16  2,10 - HEIST
  16 10,8  | HIC
  16  3,10 - HISTED
- 16  5,1  | ICED
  16  8,7  | ICED
  16 10,9  | ICH
  16  6,11 - ID
@@ -405,7 +400,6 @@
  15  5,3  | EF
  15  5,11 - ES
  15 11,8  | FASH
- 15  5,2  | FED
  15  8,8  | FED
  15  5,3  - FEEDS
  15  8,8  | FEES
@@ -413,7 +407,6 @@
  15  8,8  | FEIS
  15  4,4  - FEU
  15  9,4  | FISHER
- 15  5,1  | HIED
  15  8,7  | ICES
  15  9,8  | IRED
  15  5,11 - IS
@@ -425,7 +418,6 @@
  15 11,8  | SAIC
  15  4,3  - SEECH
  15  5,3  - SEECH
- 15  5,1  | SHED
  15  5,11 - SI
  15  6,11 - SI
  15  3,10 - SIDTH
@@ -478,7 +470,6 @@
  14 10,8  | FID
  14  3,3  - FIDE
  14 10,8  | FISE
- 14  5,2  | HED
  14 10,8  | HIDE
  14  9,5  | HIDERS
  14  3,3  - HIDES
@@ -532,7 +523,6 @@
  13  9,5  | HIDER
  13  7,1  | HIES
  13  5,8  - HYE
- 13  5,1  | ISED
  13 11,8  | SADH
  13  7,3  | SH
  13  8,7  | SHED
@@ -555,6 +545,7 @@
  12 10,8  | CIE
  12 10,8  | CIS
  12  3,3  - CISE
+ 12 11,6  | DECAF
  12  3,4  - DECUS
  12  8,8  | DEFI
  12  8,8  | DEFS
@@ -593,7 +584,6 @@
  12  4,10 - ISTH
  12  9,9  | RED
  12  9,9  | RID
- 12  5,2  | SED
  12  8,7  | SEECH
  12  4,10 - SETH
  12  4,3  - SHED
@@ -630,7 +620,6 @@
  11  5,4  - DUCI
  11  5,4  - DUCS
  11  5,8  - DYE
- 11  5,3  | ED
  11  4,4  - EDUC
  11  5,10 - ETH
  11  5,3  - FEE
@@ -648,7 +637,6 @@
  11  4,3  - HEEDS
  11  8,8  | HEI
  11  8,8  | HES
- 11  7,8  | ITD
  11  4,4  - SCUD
  11  5,3  - SEC
  11  8,8  | SECH
@@ -657,8 +645,6 @@
  11  8,7  | SHE
  11  2,4  - SHEDU
  11  9,6  | SHERD
- 11  5,1  | SID
- 11  7,1  | SID
  11 11,6  | SIFAC
  11  6,10 - THE
  11  6,4  - UDIC
@@ -784,7 +770,6 @@
   9  8,7  | IDEE
   9  8,7  | IDES
   9  7,1  | IHS
-  9  5,10 - ITD
   9  9,9  | RES
   9  9,9  | RIE
   9 11,8  | SAFE
@@ -799,10 +784,8 @@
   9  4,10 - SHT
   9  4,4  - SHUI
   9  9,5  | SIDER
-  9  5,10 - STD
   9  6,10 - TED
   9  7,9  | THE
-  9  6,10 - TID
   9  6,4  - UFS
   8 11,9  | ACE
   8  5,9  | AH
@@ -868,7 +851,6 @@
   8  3,3  - SHEE
   8  3,10 - SHIT
   8  4,4  - SHU
-  8 10,8  | SID
   8  3,3  - SIDE
   8  4,10 - SITE
   8  5,4  - SUDE
@@ -991,10 +973,7 @@
   6 11,6  | SHIA
   6  9,7  | SHR
   6 10,8  | SIE
-  6  7,9  | TD
-  6  6,10 - TD
   6  7,9  | TED
-  6  7,9  | TID
   6  6,4  - USE
   6  6,8  - YE
   6  6,8  - YI
@@ -1053,7 +1032,6 @@
   4 11,7  | DEA
   4 10,7  | DEI
   4 11,7  | DIA
-  4  5,4  - DU
   4  8,8  | EE
   4  8,9  | EH
   4  9,7  | EIR

@@ -1,28 +1,18 @@
  50  2,10 - PROBIT
  30  3,10 - PROBIT
- 27  5,5  - BOP
- 27  6,10 - BOP
  27  6,10 - BPT
  25  4,10 - PROB
  24  3,5  - PIROT
  23 10,9  | BOA
  23  5,10 - BOP
  23  7,10 - BOP
- 23  7,10 - BPT
- 23  7,7  - ORB
  23 10,9  | PIA
  23  5,10 - POB
  23  7,10 - POB
- 23  7,7  - RIB
- 23  7,7  - TIB
- 23  5,10 - TRIP
- 23  5,10 - TROP
  22  3,5  - BITO
  22  6,10 - BITO
- 22  9,7  - BOO
  22  3,7  - BORI
  22  3,7  - BOTI
- 22  9,7  - BRO
  22  4,10 - ORBIT
  22  4,10 - ORPIT
  22  3,5  - PIRO
@@ -30,23 +20,11 @@
  22  3,7  - POTI
  22  4,7  - PRIOR
  22 10,2  | PROBE
- 22  4,7  - TRIP
- 22  4,5  - TROP
  21  5,5  - BOT
- 21  8,7  - IB
  21  6,10 - IBO
- 21  6,7  - IPR
- 21  6,5  - OPT
  21  6,10 - OPT
  21  5,5  - POT
- 21  7,7  - PROTO
- 21  5,7  - RIP
- 21  6,10 - RIP
  21  6,10 - RPT
- 21  5,7  - TIP
- 21  6,10 - TIP
- 21  5,5  - TOP
- 21  6,10 - TOP
  20  5,10 - BITO
  20  5,10 - BPI
  20  5,10 - BPT
@@ -79,7 +57,6 @@
  18  8,4  | BOART
  18  3,5  - BOP
  18  6,10 - BOT
- 18  6,5  - OP
  18  3,10 - ORBIT
  18 10,1  | ORBITE
  18  3,10 - ORPIT
@@ -97,13 +74,11 @@
  17  4,5  - BRO
  17  7,7  - IBO
  17  7,7  - OBI
- 17  7,10 - OPT
  17  5,10 - ORB
  17  8,8  | PITH
  17  4,7  - POI
  17  7,10 - POT
  17  4,5  - PRO
- 17  7,7  - PRO
  17  5,10 - RIB
  17  5,10 - RIP
  17  5,10 - ROB
@@ -159,10 +134,8 @@
  15  3,5  - BPT
  15  3,7  - BPT
  15  8,4  | BRAT
- 15  6,10 - IB
  15  8,3  | OBIA
  15  6,10 - OP
- 15  9,8  - POZ
  15  8,4  | PRAO
  15  8,4  | PRAT
  15  8,5  | RAOB
@@ -184,7 +157,6 @@
  14  7,10 - BT
  14  5,10 - IBO
  14  5,10 - OBI
- 14  7,10 - OP
  14  8,10 - OP
  14  5,10 - OPT
  14  1,5  - ORBIT
@@ -195,7 +167,6 @@
  14  8,4  | PIA
  14  5,10 - PIT
  14  7,10 - PO
- 14  8,10 - PO
  14  5,10 - POI
  14  5,10 - POT
  14  6,3  | PRIX
@@ -309,13 +280,11 @@
  11  5,3  | BOTE
  11  5,3  | BRIE
  11  9,2  | BROIL
- 11  7,7  - IB
  11  9,4  | IPL
  11  9,4  | OBL
  11  7,5  - OP
  11  6,9  - ORBITE
  11  6,4  | OTXI
- 11  7,7  - PI
  11  5,4  | PIERROT
  11  9,4  | PILOT
  11  1,5  - PIOTR
@@ -371,9 +340,7 @@
  10  2,5  - BROT
  10  2,7  - BROT
  10  5,6  | EPIROT
- 10  4,5  - IB
  10  8,2  | IBOTA
- 10  9,6  | LB
  10  9,6  | LIBR
  10  9,6  | LOBI
  10  4,5  - OP
@@ -430,7 +397,6 @@
  10  7,9  - TROPE
  10  5,2  | TROPER
   9  8,6  | ABIR
-  9  8,6  | ABIT
   9  8,6  | ABRI
   9  8,6  | ATIP
   9  8,6  | ATOP
@@ -602,7 +568,6 @@
   7  5,5  | PERT
   7  5,5  | PETO
   7  5,5  | PETR
-  7  8,10 | PH
   7  5,4  | PIER
   7  5,4  | PIET
   7  4,5  - PO
@@ -800,7 +765,6 @@
   4  9,9  - ORE
   4  7,3  | ORTh
   4  7,9  | OTO
-  4  7,5  | Ph
   4  5,5  | REIT
   4  9,9  - RIE
   4  5,4  | RIER
@@ -831,10 +795,8 @@
   4  7,6  | hOIT
   4  7,6  | hORT
   4  7,6  | hOTI
-  4  7,6  | hP
   3  5,6  | EIR
   3  5,6  | ERR
-  3  8,5  | IAO
   3  5,4  | IRE
   3 10,4  | IRE
   3  8,5  | OAR

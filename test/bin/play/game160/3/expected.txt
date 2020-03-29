@@ -414,6 +414,7 @@
  23  8,2  | LEAFy
  23  4,4  | LEGACy
  23  8,5  | LyCEA
+ 23  1,5  - dECAF
  22  8,2  | ACIEs
  22  8,4  | ACyL
  22  8,4  | AIsLE
@@ -1308,7 +1309,6 @@
  16  5,8  - cALCI
  16  2,8  - dAFLA
  16  2,5  - dEAF
- 16  9,10 - dEF
  16  4,8  - eLAIC
  16  9,10 - fAC
  16  9,10 - fEC
@@ -1521,6 +1521,7 @@
  15  5,8  - cALC
  15  5,8  - cALF
  15  5,8  - dALF
+ 15  5,3  | dECAF
  15  3,8  - dEFAIL
  15  5,7  - dEICE
  15  2,8  - fACIA
@@ -2506,9 +2507,8 @@
  12  4,4  | cIGALE
  12 10,8  | dACE
  12  5,8  - dAFLA
- 12  9,10 - dAL
  12  2,5  - dEAL
- 12  9,10 - dEL
+ 12  3,8  - dECAF
  12  2,5  - dIAL
  12 10,8  | dICE
  12 10,8  | fACE
@@ -3263,10 +3263,8 @@
  10  6,7  - EIrE
  10  7,5  | EKoI
  10 10,10 - EL
- 10  2,5  - ELA
  10 10,7  | ELAtE
  10  2,10 - ELAtE
- 10  2,7  - ELI
  10  1,5  - ELIA
  10 10,7  | ELIdE
  10  2,10 - ELIdE
@@ -3454,7 +3452,6 @@
  10  9,10 - La
  10  7,3  | LaIK
  10  7,4  | LaKE
- 10  9,10 - Lb
  10  7,3  | LeAK
  10  7,3  | LeEK
  10  4,4  | LeGE
@@ -3512,10 +3509,8 @@
  10  4,3  | cLEG
  10  3,5  - dAL
  10  1,7  - dALI
- 10  9,10 - dEA
  10  3,8  - dECAL
  10  7,3  | dECK
- 10  9,10 - dEI
  10  5,7  - dEIA
  10  1,7  - dELI
  10  7,3  | dICK
@@ -4082,8 +4077,6 @@
   9  4,9  - dIVE
   9  4,4  | eAGLE
   9  4,9  - eAVE
-  9  2,5  - eLA
-  9  2,7  - eLI
   9  1,5  - eLIA
   9  5,9  - eVAL
   9  5,9  - eVIL
@@ -4397,9 +4390,7 @@
   8  1,5  - ELIa
   8  9,7  | ELIhU
   8  7,4  | ELK
-  8  2,5  - ELa
   8  1,7  - ELhI
-  8  2,7  - ELi
   8  1,5  - ELiA
   8  3,8  - ELiA
   8  1,5  - ELlA
@@ -4410,7 +4401,6 @@
   8  3,8  - ELsA
   8 10,8  | ELsE
   8 10,8  | ELvE
-  8  5,9  - EVeA
   8  7,3  | EfIK
   8  1,5  - ElIA
   8 10,8  | ElLE
@@ -4655,16 +4645,13 @@
   8  3,8  - cECA
   8 10,8  | cELE
   8 10,8  | cLEE
-  8  9,10 - dA
   8  5,8  - dACE
   8 10,8  | dALE
   8  7,3  | dALK
-  8  9,10 - dE
   8  1,5  - dEIA
   8 10,8  | dELE
   8  7,5  | eKE
   8  3,8  - eLIA
-  8  5,9  - eVEA
   8  9,10 - fA
   8  5,8  - fACE
   8  5,2  | fACIA
@@ -5101,7 +5088,6 @@
   7  6,9  - VIn
   7  6,9  - VIp
   7  6,9  - VIs
-  7  6,9  - VIz
   7  6,9  - VaL
   7  6,9  - VeL
   7  6,9  - ViL
@@ -5320,7 +5306,6 @@
   6 10,10 - Ab
   6  6,8  - AbEL
   6 10,8  | AbIE
-  6  4,9  - AbV
   6  3,8  - AcCA
   6  3,10 - AcCE
   6  7,4  | AcK
@@ -5451,7 +5436,6 @@
   6 10,8  | EIdE
   6 10,8  | EIrE
   6  6,10 - EL
-  6  4,8  - ELA
   6  4,8  - ELAn
   6  5,3  | ELIA
   6  3,8  - EcCA
@@ -5463,8 +5447,6 @@
   6  4,4  | EgG
   6 10,10 - Eh
   6 10,10 - El
-  6  2,5  - ElA
-  6  2,7  - ElI
   6  7,4  | ElK
   6 10,10 - Em
   6 10,10 - En
@@ -5566,7 +5548,6 @@
   6  4,6  | GtE
   6  4,6  | GuE
   6  4,6  | GyE
-  6  2,7  - IAo
   6 10,8  | IArE
   6  4,10 - ICE
   6  4,10 - IFE
@@ -5586,7 +5567,6 @@
   6  2,5  - ItA
   6  4,8  - ItAL
   6  2,5  - IvA
-  6  2,5  - IwA
   6  1,8  - LAElIA
   6  5,8  - LAElIA
   6  5,2  | LAbIA
@@ -6134,7 +6114,6 @@
   5  3,5  - pA
   5  5,8  - pAC
   5  4,4  | pAGE
-  5  4,4  | pEGA
   5  3,7  - pI
   5  3,7  - qI
   5  4,4  | rAGE
@@ -6291,7 +6270,6 @@
   4  4,5  | EGg
   4  4,5  | EGo
   4  5,3  | EIlA
-  4  5,4  | ELA
   4  3,10 - ELlE
   4  3,10 - ELnE
   4  3,10 - ELsE
@@ -6301,7 +6279,6 @@
   4  9,9  | EcU
   4  3,8  - EiLA
   4 10,9  | EkE
-  4  4,8  - ElA
   4  5,3  | ElIA
   4  3,8  - ElLA
   4  3,10 - ElLE
@@ -6384,7 +6361,6 @@
   4  5,3  | ItEA
   4  4,8  - IvA
   4 10,9  | IvE
-  4  4,8  - IwA
   4  3,10 - IzLE
   4  5,8  - LAEn
   4  5,8  - LAEt
@@ -6601,7 +6577,6 @@
   4 10,9  | nEE
   4  5,10 - nEE
   4  5,10 - nEI
-  4  4,4  | nIG
   4  3,10 - nILE
   4 10,10 - oE
   4 10,10 - oI
@@ -6765,7 +6740,6 @@
   3  4,6  | Gi
   3  4,6  | Go
   3  5,5  | IAn
-  3  5,5  | IAo
   3  3,10 - IArE
   3  3,8  - IdEA
   3  3,10 - IdEE
@@ -6809,8 +6783,6 @@
   3  9,9  | dAU
   3  5,3  | dEIA
   3  9,9  | eAU
-  3  5,4  | eLA
-  3  4,8  - eLA
   3  9,9  | fEU
   3  5,3  | gAEA
   3  5,3  | gAIA
@@ -6922,7 +6894,6 @@
   2  6,10 - Eh
   2  4,10 - EkE
   2  6,10 - El
-  2  5,4  | ElA
   2  6,10 - Em
   2  4,10 - EmE
   2  6,10 - En
@@ -6941,7 +6912,6 @@
   2  4,10 - EwE
   2  4,10 - EyE
   2  5,8  - IAn
-  2  5,8  - IAo
   2  5,4  | IbA
   2  4,10 - IcE
   2  4,10 - IdE
@@ -6955,7 +6925,6 @@
   2  5,4  | ItA
   2  5,4  | IvA
   2  4,10 - IvE
-  2  5,4  | IwA
   2  5,4  | aAA
   2  4,8  - aAA
   2  5,8  - aAA
@@ -6987,7 +6956,6 @@
   2  4,8  - dIA
   2  4,10 - dIE
   2  7,10 | dO
-  2  9,10 | dU
   2  5,7  - eE
   2 10,10 | eE
   2  7,10 | eO

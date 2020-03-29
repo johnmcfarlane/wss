@@ -135,7 +135,6 @@
  19  3,7  - jIG
  19  3,7  - lIG
  19  3,7  - mIG
- 19  3,7  - nIG
  19  3,7  - pIG
  19  3,7  - rIG
  19  3,7  - sIG
@@ -154,7 +153,6 @@
  18  2,7  - POI
  18  7,3  | POISInG
  18  3,7  - Pi
- 18  4,6  | QuIPO
  18  6,6  | TOPoG
  18  6,6  | ToPOG
  18  1,7  - aPII
@@ -186,7 +184,6 @@
  16  1,7  - GOlI
  16  3,7  - Gi
  16  4,7  - IIi
- 16  4,7  - IaO
  16  4,7  - IbO
  16  4,7  - IiI
  16  4,7  - ImI
@@ -340,7 +337,6 @@
  13  5,7  - GOIs
  13  7,3  | GOsSIP
  13  2,7  - IIi
- 13  4,7  - Ib
  13  4,7  - Id
  13  2,7  - IiI
  13  2,7  - ImI
@@ -376,7 +372,6 @@
  13  7,6  | SPeC
  13  7,6  | SPiC
  13  7,2  | bIOPSIC
- 13  6,7  - dIOC
  13  7,5  | eSOPGI
  13  7,1  | lOGICS
  13  5,5  | mAGIC
@@ -418,7 +413,6 @@
  12  7,5  | PSOCId
  12  7,5  | PSOrIC
  12  5,3  | PaGA
- 12  5,3  | PeGA
  12  7,3  | PeGS
  12  7,3  | PiGS
  12  7,3  | PkGS
@@ -500,7 +494,6 @@
  11  7,2  | ICOnS
  11  7,2  | IPhIS
  11  7,5  | ISIaC
- 11  5,7  - IdIC
  11  7,5  - IhP
  11  7,7  - IhP
  11  7,5  - ImP
@@ -705,7 +698,6 @@
  10  7,3  | PaIS
  10  5,5  - Pe
  10  7,2  | PeCOS
- 10  5,5  - Ph
  10  7,3  | PhIS
  10  5,2  | PhOCA
  10  7,3  | PhOS
@@ -990,9 +982,6 @@
   8  5,2  | cOPIA
   8  7,2  | cOPIS
   8  6,3  | dIOTIC
-  8  6,7  - dIP
-  8  6,7  - dOC
-  8  6,7  - dOP
   8  6,5  - hIC
   8  6,7  - hIC
   8  6,5  - hIP
@@ -1058,7 +1047,6 @@
   7  7,7  - IPr
   7  7,5  - IPs
   7  7,7  - IPs
-  7  5,7  - IaO
   7  5,4  | IcACO
   7  5,2  | IcICA
   7  6,4  | IcTIC
@@ -1135,11 +1123,9 @@
   7  6,5  - bOG
   7  6,5  - bOII
   7  7,4  | cISCO
-  7  6,7  - dIG
   7  7,3  | dIPSO
   7  7,4  | dISCI
   7  7,4  | dISCO
-  7  6,7  - dOG
   7  7,5  - eCO
   7  7,5  - ePI
   7  5,7  - gIO
@@ -1644,9 +1630,6 @@
   5  5,4  | IGAd
   5  7,5  - IOnI
   5  7,7  - IOnI
-  5  6,5  - IaO
-  5  7,5  - IaO
-  5  7,7  - IaO
   5  7,5  - IbO
   5  7,7  - IbO
   5  6,5  - IiI
@@ -1680,9 +1663,7 @@
   5  5,5  | PAw
   5  5,5  | PAx
   5  5,5  | PAy
-  5  7,5  | PSf
   5  7,5  | PSi
-  5  7,5  | PSt
   5  7,5  | PSw
   5  6,5  | PTa
   5  6,5  | PTe
@@ -1708,7 +1689,6 @@
   5  7,4  | PpS
   5  6,4  | PpT
   5  7,4  | PrS
-  5  6,4  | PsT
   5  5,4  | PtA
   5  7,4  | PtS
   5  6,4  | PtT
@@ -1760,7 +1740,6 @@
   5  6,6  | TOaG
   5  6,6  | TOnG
   5  6,6  | TOuG
-  5  6,6  | TPd
   5  6,6  | TPh
   5  6,6  | TPi
   5  6,6  | TPk
@@ -1777,7 +1756,6 @@
   5  6,6  | TrIG
   5  6,6  | TrOG
   5  6,6  | TrP
-  5  6,6  | TsP
   5  6,6  | TuP
   5  6,6  | TwIG
   5  6,6  | TwP
@@ -1806,13 +1784,10 @@
   5  5,4  | dIAG
   5  7,3  | dIGS
   5  7,3  | dOGS
-  5  6,4  | dPT
-  5  7,5  | dSP
   5  7,3  | eGIS
   5  7,3  | eGOS
   5  5,4  | ePA
   5  7,5  | eSC
-  5  7,5  | eSP
   5  6,5  | eTC
   5  5,5  | fAC
   5  7,4  | fCS
@@ -1829,7 +1804,6 @@
   5  7,3  | hOGS
   5  6,5  - hOI
   5  6,7  - hOI
-  5  7,7  - hP
   5  5,5  | iAGO
   5  6,5  - iII
   5  6,7  - iII
@@ -1891,7 +1865,6 @@
   5  7,3  | tOGS
   5  6,3  | tOGT
   5  7,4  | tPS
-  5  7,5  | tSP
   5  5,4  | uCA
   5  7,5  - uP
   5  7,4  | uPS
@@ -1971,7 +1944,6 @@
   4  7,5  - IOu
   4  7,7  - IOu
   4  7,3  | IbIS
-  4  5,7  - Id
   4  5,3  | IlIA
   4  5,3  | InIA
   4  6,5  - Io
@@ -2037,10 +2009,8 @@
   4  5,5  | dAG
   4  5,5  - dI
   4  5,7  - dI
-  4  6,7  - dI
   4  6,3  | dIOTI
   4  5,7  - dO
-  4  6,7  - dO
   4  6,5  - eO
   4  5,7  - eO
   4  6,7  - eO
@@ -2104,14 +2074,11 @@
   4  5,7  - yO
   4  5,5  | zAG
   3  5,6  | AIOn
-  3  5,5  | IAO
   3  5,5  | IAgO
   3  6,4  | IOTa
   3  7,5  | ISIs
   3  6,5  | ITaI
   3  6,5  | ITmO
-  3  7,5  - Ib
-  3  7,7  - Ib
   3  7,5  - Id
   3  7,7  - Id
   3  7,5  - If
@@ -2245,7 +2212,6 @@
   2  5,6  | AvO
   2  5,6  | AzO
   2  5,5  | IAn
-  2  5,5  | IAo
   2  7,5  | IS
   2  7,5  | ISe
   2  7,5  | ISh
@@ -2272,7 +2238,6 @@
   2  5,4  | ItA
   2  7,4  | ItS
   2  5,4  | IvA
-  2  5,4  | IwA
   2  5,5  | OAd
   2  5,5  | OAf
   2  5,5  | OAk
@@ -2315,7 +2280,6 @@
   2  7,6  | SIa
   2  7,6  | SIb
   2  7,6  | SIc
-  2  7,6  | SId
   2  7,6  | SIe
   2  7,6  | SIg
   2  7,6  | SIl
@@ -2357,7 +2321,6 @@
   2  6,6  | TI
   2  6,6  | TIb
   2  6,6  | TIc
-  2  6,6  | TId
   2  6,6  | TIe
   2  6,6  | TIg
   2  6,6  | TIl
@@ -2439,7 +2402,6 @@
   2  7,7  - hO
   2  6,4  | hOT
   2  7,5  | hSI
-  2  5,5  | iAO
   2  7,5  - iO
   2  7,7  - iO
   2  5,5  | jAI
@@ -2501,7 +2463,6 @@
   2  7,4  | tOS
   2  6,4  | tOT
   2  6,4  | uIT
-  2  6,5  | uTI
   2  5,5  | vAI
   2  5,4  | vIA
   2  7,4  | vIS
@@ -2534,7 +2495,6 @@
   1  7,6  | Si
   1  7,6  | So
   1  6,6  | Ta
-  1  6,6  | Td
   1  6,6  | Te
   1  6,6  | Th
   1  6,6  | Ti

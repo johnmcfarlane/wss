@@ -287,7 +287,6 @@
  16  5,2  | ASsOC
  16  8,10 - AeSC
  16  7,4  | AlOW
- 16  8,10 - AtWO
  16  7,4  | AvOW
  16  7,2  | CAnSOS
  16  7,2  | CAtSOS
@@ -335,7 +334,6 @@
  16  8,10 - dAWS
  16  8,10 - dOCS
  16  8,10 - dOWS
- 16  7,7  | dOZ
  16  5,4  | eSCA
  16  8,10 - fASC
  16  7,7  | gAZ
@@ -411,10 +409,6 @@
  15  7,2  | SCASe
  15  2,7  - SChWAS
  15  5,4  | SOCk
- 15  5,2  | SWASh
- 15  7,2  | SWASh
- 15  5,2  | SWOSh
- 15  7,2  | SWOSh
  15  3,6  | SWoOSH
  15  2,9  - Si
  15  5,3  | SrAC
@@ -477,14 +471,10 @@
  14  6,7  - AWaCS
  14  7,3  | CASa
  14  7,3  | CASe
- 14  5,3  | CASh
- 14  7,3  | CASh
  14  2,8  - CAfOY
  14  5,7  - CAhOW
  14  2,7  | CArEX
  14  7,3  | COSe
- 14  5,3  | COSh
- 14  7,3  | COSh
  14  3,7  - COWAl
  14  3,7  - COWAn
  14  9,6  | COWArD
@@ -506,7 +496,6 @@
  14  5,4  | OSC
  14  7,3  | OSCAn
  14  7,3  | OSCAr
- 14  8,10 - OtC
  14  6,6  - PASSe
  14  6,6  - PASSo
  14  6,6  - PASSu
@@ -558,8 +547,6 @@
  14  7,5  | SeW
  14  7,5  | SoW
  14  7,3  | WASe
- 14  5,3  | WASh
- 14  7,3  | WASh
  14  5,3  | WASp
  14  7,3  | WASp
  14  3,7  - WOCAs
@@ -818,8 +805,6 @@
  12  3,7  | SWOSH
  12  5,4  | SWOb
  12  7,4  | SWOb
- 12  5,4  | SWOm
- 12  7,4  | SWOm
  12  5,4  | SWOp
  12  5,4  | SWOt
  12  7,4  | SWOt
@@ -842,14 +827,9 @@
  12  3,6  | cOCASH
  12  9,10 - eCO
  12  9,10 - eSC
- 12  9,10 - iWA
  12  9,10 - oCA
  12  9,10 - oSC
  12  9,7  | sCAWD
- 12  9,10 - tAW
- 12  9,10 - tOW
- 12  9,10 - tWA
- 12  9,10 - tWO
  11  2,7  - ACOmA
  11  5,3  | ACOp
  11  7,3  | ACOp
@@ -927,10 +907,7 @@
  11  7,5  | COy
  11  5,5  | COz
  11  3,7  - CaSAS
- 11  5,5  | ChA
- 11  7,5  | ChA
  11  3,6  - ChOPAS
- 11  7,5  | ChS
  11  7,5  | CiA
  11  7,5  | CiS
  11  7,5  | CoS
@@ -1019,13 +996,9 @@
  11  7,5  | WOw
  11  7,5  | WaS
  11  8,10 - We
- 11  5,5  | WhA
- 11  7,5  | WhA
- 11  7,5  | WhS
  11  7,5  | WiS
  11  8,10 - Wo
  11  7,5  | WoS
- 11  8,10 - Wt
  11  9,8  | aCAD
  11  7,3  | bASOS
  11  7,3  | bOCA
@@ -1183,7 +1156,6 @@
  10  7,5  | SOS
  10  7,2  | SOSiA
  10  5,6  - SPACe
- 10  5,6  - SPACk
  10  5,6  - SPACy
  10  5,6  - SPAWl
  10  5,6  - SPAWn
@@ -1281,8 +1253,6 @@
  10  7,4  | gOAS
  10  5,7  | hAF
  10  8,10 - hOSS
- 10  7,4  | iWA
- 10  8,10 - jASS
  10  8,10 - jOSS
  10  5,7  | kAF
  10  7,4  | kOAS
@@ -1331,8 +1301,6 @@
   9  4,6  - ACPt
   9  5,4  | ACc
   9  7,4  | ACe
-  9  5,4  | ACh
-  9  7,4  | ACh
   9  3,6  - ACoP
   9  6,7  - ACrOSS
   9  8,10 - AOb
@@ -1433,8 +1401,6 @@
   9  8,10 - OAr
   9  8,10 - OAt
   9  7,4  | OCa
-  9  5,4  | OCh
-  9  7,4  | OCh
   9  9,7  | OCtAD
   9  5,8  | OF
   9  5,6  - OPeC
@@ -1539,8 +1505,6 @@
   9  5,4  | WAc
   9  7,4  | WAe
   9  5,4  | WAf
-  9  5,4  | WAh
-  9  7,4  | WAh
   9  3,6  - WAmP
   9  5,4  | WAp
   9  7,4  | WAp
@@ -1551,7 +1515,6 @@
   9  9,8  | WOAD
   9  4,6  - WOPs
   9  7,4  | WOe
-  9  3,6  - WOmP
   9  5,4  | WOo
   9  7,4  | WOo
   9  4,7  - WaAC
@@ -1590,7 +1553,6 @@
   9  7,5  | hAS
   9  2,9  | hEX
   9  4,8  - hOY
-  9  3,6  - jAWP
   9  4,8  - jOY
   9  7,5  | kAS
   9  2,9  | kEX
@@ -1604,7 +1566,6 @@
   9  4,8  - lOY
   9  3,6  - lWOP
   9  7,5  | mAS
-  9  3,6  - mAWP
   9  5,5  | mOA
   9  7,5  | mOA
   9  7,5  | mOS
@@ -1646,6 +1607,7 @@
   9  2,9  | yEX
   9  4,8  - yOY
   9  3,7  - yWCA
+  9  7,5  | zAS
   9  5,5  | zOA
   9  7,5  | zOA
   8  6,7  - ACASt
@@ -1674,7 +1636,6 @@
   8  8,10 - AaS
   8  7,5  | AeS
   8  8,10 - AeS
-  8  7,5  | AhS
   8  7,5  | AiS
   8  8,10 - AiS
   8  6,7  - ArCOS
@@ -1725,8 +1686,6 @@
   8  3,8  | CaSH
   8  5,5  | Cc
   8  4,6  - CeP
-  8  5,5  | Ch
-  8  7,5  | Ch
   8  4,6  - CoP
   8  3,8  | CoSH
   8  5,5  | Cp
@@ -1749,7 +1708,6 @@
   8  3,7  - OcCAS
   8  7,5  | OeS
   8  8,10 - OeS
-  8  7,5  | OhS
   8  7,5  | OoS
   8  8,10 - OoS
   8  5,5  | OpA
@@ -1776,8 +1734,6 @@
   8  5,4  | SAO
   8  7,4  | SAO
   8  4,6  - SAPOrS
-  8  5,3  | SASh
-  8  7,3  | SASh
   8  3,7  - SAWAh
   8  3,7  - SAWAn
   8  7,5  | SAa
@@ -1798,8 +1754,6 @@
   8  3,6  - SOAPS
   8  5,3  | SOAp
   8  7,3  | SOAp
-  8  5,3  | SOSh
-  8  7,3  | SOSh
   8  5,3  | SOSo
   8  7,3  | SOSo
   8  3,7  - SOWAn
@@ -1827,8 +1781,6 @@
   8  7,5  | SOy
   8  7,5  | SaA
   8  7,5  | SeA
-  8  5,5  | ShA
-  8  7,5  | ShA
   8  7,5  | SiA
   8  7,5  | SiS
   8  3,7  | SlASH
@@ -1955,7 +1907,6 @@
   7  9,10 - ASk
   7  9,10 - ASp
   7  9,10 - ASs
-  7  9,10 - ASt
   7  4,7  - AWASh
   7  4,7  - AWAcS
   7  6,7  - AWAcS
@@ -2218,13 +2169,9 @@
   7  5,6  | fA
   7  3,6  - gASPS
   7  7,4  | gOA
-  7  5,6  | hA
-  7  7,6  | hA
   7  5,4  | hAO
   7  7,4  | hAO
   7  3,6  - hASPS
-  7  5,4  | iAO
-  7  7,4  | iAO
   7  7,6  | iS
   7  3,7  - iSAAC
   7  4,7  - iSAAC
@@ -2270,8 +2217,6 @@
   6  4,6  - ASPs
   6  4,6  - ASPy
   6  3,6  - ASaP
-  6  5,4  | ASh
-  6  7,4  | ASh
   6  3,6  - ASoP
   6  5,4  | ASp
   6  7,4  | ASp
@@ -2422,8 +2367,6 @@
   6  7,4  | SAa
   6  5,4  | SAc
   6  7,4  | SAe
-  6  5,4  | SAh
-  6  7,4  | SAh
   6  7,4  | SAi
   6  5,7  - SAiC
   6  3,6  - SAiP
@@ -2451,8 +2394,6 @@
   6  3,6  - SOaP
   6  5,4  | SOc
   6  7,4  | SOe
-  6  5,4  | SOh
-  6  7,4  | SOh
   6  5,4  | SOp
   6  7,4  | SOp
   6  5,4  | SOu
@@ -2601,12 +2542,10 @@
   6  7,5  | hO
   6  4,6  - hOPS
   6  3,6  - hOSP
-  6  9,10 - iAO
   6  5,5  | iO
   6  7,5  | iO
   6  5,6  - iPSO
   6  7,5  | jA
-  6  3,6  - jASP
   6  5,7  - jAWS
   6  5,5  | jO
   6  7,5  | jO
@@ -2679,20 +2618,15 @@
   6  5,6  - sPAS
   6  7,5  | tA
   6  5,7  - tACO
-  6  9,10 - tAO
   6  4,6  - tAPS
-  6  9,10 - tAS
   6  3,8  | tASH
   6  3,7  - tAWA
   6  5,7  - tAWA
   6  5,7  - tAWS
   6  5,5  | tO
   6  7,5  | tO
-  6  9,10 - tOA
   6  4,6  - tOPS
-  6  9,10 - tOS
   6  3,8  | tOSH
-  6  9,10 - tSS
   6  4,7  - tWAS
   6  5,6  - uPAS
   6  5,7  - vAWS
@@ -2762,8 +2696,6 @@
   5  8,10 - Ae
   5  9,10 - Ae
   5  9,10 - Ag
-  5  5,5  | Ah
-  5  7,5  | Ah
   5  9,10 - Ah
   5  7,5  | Ai
   5  8,10 - Ai
@@ -2785,7 +2717,6 @@
   5  6,7  - ArC
   5  9,10 - As
   5  4,6  - AsP
-  5  8,10 - At
   5  9,10 - At
   5  9,10 - Aw
   5  9,10 - Ax
@@ -2828,8 +2759,6 @@
   5  9,10 - Oe
   5  5,5  | Of
   5  9,10 - Of
-  5  5,5  | Oh
-  5  7,5  | Oh
   5  9,10 - Oh
   5  7,5  | Oi
   5  8,10 - Oi
@@ -2880,10 +2809,7 @@
   5  6,6  - POw
   5  6,6  - POx
   5  6,6  - POy
-  5  6,6  - POz
-  5  6,6  - PSf
   5  6,6  - PSi
-  5  6,6  - PSt
   5  6,6  - PSw
   5  6,6  - PaS
   5  6,6  - PeA
@@ -2940,8 +2866,6 @@
   5  4,6  - SaP
   5  3,8  | SaSH
   5  4,6  - SeP
-  5  5,5  | Sh
-  5  7,5  | Sh
   5  4,6  - ShP
   5  7,5  | Si
   5  4,6  - SiP
@@ -2998,10 +2922,8 @@
   5  4,7  - dCA
   5  8,10 - dO
   5  4,6  - dOP
-  5  4,6  - dSP
   5  8,10 - eO
   5  5,6  - ePA
-  5  4,6  - eSP
   5  8,10 - fA
   5  5,7  - fAC
   5  4,6  - fOP
@@ -3015,7 +2937,6 @@
   5  8,10 - hO
   5  4,6  - hOP
   5  5,6  - iPS
-  5  4,7  - iWA
   5  8,10 - jA
   5  5,7  - jAW
   5  8,10 - jO
@@ -3072,7 +2993,6 @@
   5  9,8  | tOAD
   5  4,6  - tOP
   5  5,6  - tPS
-  5  4,6  - tSP
   5  4,7  - tWA
   5  4,7  - uCA
   5  5,6  - uPO
@@ -3148,7 +3068,6 @@
   4  9,9  | OwD
   4  6,6  - Pa
   4  6,6  - Pe
-  4  6,6  - Ph
   4  6,6  - Pi
   4  6,6  - Po
   4  6,6  - Pp
@@ -3179,9 +3098,7 @@
   4  9,8  | ShAD
   4  3,7  - ShOA
   4  9,8  | ShOD
-  4  9,9  | SiD
   4  9,8  | SlAD
-  4  9,9  | SlD
   4  9,8  | SlOD
   4  9,8  | SnOD
   4  9,9  | SoD
@@ -3202,7 +3119,6 @@
   4  9,10 - eO
   4  9,10 - eS
   4  5,6  - fP
-  4  5,6  - hP
   4  9,10 - iO
   4  9,10 - iS
   4  3,9  | iSH
@@ -3212,8 +3128,6 @@
   4  9,10 - oS
   4  5,6  - pP
   4  3,7  - pSOAS
-  4  9,10 - tA
-  4  9,10 - tO
   4  5,6  - uP
   4  3,9  | uSH
   3  5,7  - AAS
@@ -3307,7 +3221,6 @@
   3  9,9  | hAD
   3  9,9  | hOD
   3  9,9  | jAD
-  3  5,7  - jASS
   3  4,7  - kAAS
   3  5,7  - kAAS
   3  3,7  - kASA
@@ -3356,7 +3269,6 @@
   3  9,9  | wAD
   3  9,9  | yAD
   3  9,9  | yOD
-  3  9,9  | zAD
   2  5,7  - AA
   2  6,7  - AA
   2  5,7  - AAa
@@ -3378,7 +3290,6 @@
   2  6,7  - ASk
   2  6,7  - ASp
   2  6,7  - ASs
-  2  6,7  - ASt
   2  4,7  - AaA
   2  6,7  - AaA
   2  6,7  - AaS
@@ -3482,7 +3393,6 @@
   2  4,7  - gOA
   2  5,7  - hAO
   2  5,7  - hAS
-  2  5,7  - iAO
   2  9,10 | iD
   2  5,7  - kAS
   2  4,7  - kOA
@@ -3504,11 +3414,11 @@
   2  5,7  - tAA
   2  5,7  - tAO
   2  5,7  - tAS
-  2  9,10 | tD
   2  4,7  - tOA
   2  5,7  - vAS
   2  5,7  - wAS
   2  5,7  - yAS
+  2  5,7  - zAS
   2  4,7  - zOA
   1  6,7  - Aa
   1  6,7  - Ab

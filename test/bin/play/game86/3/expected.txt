@@ -332,7 +332,6 @@
  20  6,4  - ZAGs
  20  6,4  - ZaGS
  20  6,4  - ZiGS
- 20  6,4  - ZyGA
  20  3,4  - aGAZ
  20  2,6  | aTLAS
  20  2,6  | hALTS
@@ -400,7 +399,6 @@
  18  6,3  - OuTSAT
  18  1,7  - SAG
  18  7,5  | SANt
- 18  7,3  | SAb
  18  7,3  | SAd
  18  1,9  - SAfT
  18  7,3  | SAn
@@ -448,7 +446,6 @@
  18  1,6  - TuSCAN
  18  7,6  | aNTAS
  18  5,6  | aSEA
- 18  7,5  | bANT
  18  7,5  | fANT
  18  7,5  | nANT
  18  7,5  | sANT
@@ -716,7 +713,6 @@
  16  5,1  | zAG
  15  7,6  | ANt
  15  7,4  | AS
- 15  2,9  - AST
  15  7,4  | AT
  15  8,6  | AVG
  15  5,1  | AuG
@@ -842,6 +838,7 @@
  15  1,9  - vAS
  15  1,9  - wAS
  15  1,9  - yAS
+ 15  1,9  - zAS
  14  2,6  | ACLu
  14  2,2  - ACToS
  14  2,2  - ACTuS
@@ -870,7 +867,6 @@
  14  9,5  | ASYnC
  14  1,9  - AaS
  14  9,6  - AbC
- 14  1,9  - AbS
  14  9,6  - AcC
  14  3,3  - AcCOST
  14  3,5  | AcCOST
@@ -1112,10 +1108,10 @@
  14  2,4  | TaGAL
  14  2,6  | TaLC
  14  1,9  - TaS
- 14  1,9  - TbS
  14  1,9  - TiS
  14  1,9  - ToS
  14  4,4  - TuZA
+ 14  6,4  - ZAS
  14  6,4  - ZAT
  14  6,4  - ZATi
  14  6,4  - ZeST
@@ -1131,7 +1127,6 @@
  14  2,2  - fACTS
  14  2,7  | fLAGS
  14  4,3  - iSOTAC
- 14  3,4  - jASZ
  14  2,5  | kCAL
  14  2,3  - mASCOT
  14  3,4  | mASCOT
@@ -1148,9 +1143,7 @@
  13  3,6  | ACOST
  13  3,5  - ACTInGS
  13  9,4  | AClYS
- 13  2,9  - ASt
  13  2,7  - ATe
- 13  7,4  | Ab
  13  7,4  | Ad
  13  4,4  - AdZ
  13  7,4  | An
@@ -1166,8 +1159,6 @@
  13  3,3  | CASTrO
  13  1,7  - CAT
  13  9,5  | CAYS
- 13  3,3  - CAbOTS
- 13  3,5  | CAbOTS
  13  9,3  | CAnTY
  13  2,3  - CArGO
  13  3,4  | CArGO
@@ -1227,13 +1218,13 @@
  13  3,5  | TaCOS
  13  4,4  - TeZ
  13  8,7  | VATiC
+ 13  6,4  - ZaS
  13  6,4  - ZaT
  13  6,4  - ZiT
  13  6,4  - ZoA
  13  9,6  - aCT
  13  9,4  | aGCY
  13  7,4  | aS
- 13  2,9  - aST
  13  7,4  | aT
  13  9,6  - bAC
  13  7,3  | dA
@@ -1625,7 +1616,6 @@
  11  3,3  - ArGOT
  11  3,5  | ArGOT
  11  2,9  - ArT
- 11  2,9  - AsT
  11  8,5  | CAVeS
  11  8,5  | CAVuS
  11  3,5  - CAdIS
@@ -1779,9 +1769,9 @@
  11  8,7  | VoCAT
  11  6,4  - ZA
  11  6,4  - ZAc
- 11  6,4  - ZAd
  11  6,4  - ZAg
  11  6,4  - ZAp
+ 11  6,4  - ZAs
  11  6,4  - ZAt
  11  6,4  - ZAx
  11  9,6  - aGA
@@ -1821,7 +1811,6 @@
  10  2,7  | ALToS
  10  2,7  | ALTuS
  10  2,7  | ALiST
- 10  9,6  - AST
  10  1,5  - ASTaTIC
  10  2,4  | ASTeL
  10  2,5  - ASTrICT
@@ -2683,6 +2672,7 @@
   9  1,7  - yAS
   9  1,7  - yAT
   9  4,7  | yWCA
+  9  1,7  - zAS
   9  1,7  - zAT
   8  3,5  - ACTIn
   8  9,8  - AG
@@ -2729,7 +2719,6 @@
   8  9,6  - ASp
   8  3,5  - ASpIC
   8  9,6  - ASs
-  8  9,6  - ASt
   8  5,2  | AT
   8  9,6  - AT
   8  2,6  | ATLe
@@ -2784,7 +2773,6 @@
   8  3,5  - ArTIC
   8  9,3  | ArTSY
   8  9,6  - AsS
-  8  9,6  - AsT
   8  9,6  - AtT
   8  3,5  - AtTIC
   8  9,8  - AuG
@@ -3389,8 +3377,8 @@
   8  5,1  | yAT
   8  5,3  - yOGA
   8  3,7  | yOGA
+  8  5,1  | zAS
   8  5,1  | zAT
-  8  9,6  | zYGA
   7  4,5  - ACIS
   7  4,5  - ACIdS
   7  4,5  - ACIeS
@@ -3406,7 +3394,6 @@
   7  5,2  - ASCuS
   7  4,2  - ASSoC
   7  5,2  - ASSoC
-  7  9,8  - AST
   7  9,8  - ATT
   7  9,4  | ATTY
   7  8,6  | AVeS
@@ -3606,7 +3593,6 @@
   7  6,3  - OrCS
   7  3,2  - SACS
   7  6,2  - SACS
-  7  2,5  - SAGaI
   7  4,5  - SAIC
   7  4,5  - SAICe
   7  9,4  | SATYr
@@ -3717,7 +3703,6 @@
   7  4,6  - TaNA
   7  5,1  | TaS
   7  5,1  | TaT
-  7  4,9  - Td
   7  4,9  - Te
   7  7,5  | TeN
   7  4,9  - Th
@@ -3762,14 +3747,12 @@
   7  9,8  - aGT
   7  2,7  - aS
   7  2,9  - aS
-  7  9,6  - aST
   7  9,3  | aSTAY
   7  2,7  - aT
   7  9,6  - aTT
   7  3,5  - aTTIC
   7  3,7  - bA
   7  3,5  - bACIS
-  7  7,5  | bAN
   7  9,6  - bAS
   7  3,5  - bASIC
   7  9,6  - bAT
@@ -3925,7 +3908,6 @@
   6  9,8  - ASs
   6  3,3  - ASsOT
   6  3,5  | ASsOT
-  6  9,8  - ASt
   6  9,8  - AT
   6  4,5  - ATInG
   6  3,5  - ATTIcS
@@ -3955,7 +3937,6 @@
   6  2,6  | AbL
   6  9,8  - AbS
   6  9,8  - AbT
-  6  8,5  | AbV
   6  9,5  | AbYS
   6  9,8  - AcT
   6  9,6  - Ad
@@ -3994,7 +3975,6 @@
   6  3,5  - ArTIST
   6  9,6  - As
   6  9,8  - AsS
-  6  9,8  - AsT
   6  9,6  - At
   6  9,8  - AtT
   6  2,6  | AuL
@@ -4302,7 +4282,6 @@
   6  9,6  | SYsT
   6  3,2  - SaCS
   6  6,2  - SaCS
-  6  2,5  - SaGAI
   6  4,5  - SaIC
   6  4,5  - SaIGA
   6  2,6  | SaL
@@ -4719,7 +4698,6 @@
   5  1,9  - Aa
   5  2,7  - Ab
   5  9,8  - Ab
-  5  1,9  - Ab
   5  3,5  - AbSIT
   5  9,5  | AbY
   5  4,3  - AcOST
@@ -4828,7 +4806,6 @@
   5  5,8  | ErGS
   5  5,8  | EsC
   5  5,8  | EtC
-  5  5,8  | ExTG
   5  4,5  - GAIa
   5  4,5  - GAIl
   5  4,5  - GAIn
@@ -5261,7 +5238,6 @@
   5  4,2  - aGST
   5  2,7  | aLG
   5  9,6  - aS
-  5  9,8  - aST
   5  9,6  - aT
   5  9,8  - aTT
   5  4,7  | aWA
@@ -5318,7 +5294,6 @@
   5  9,8  - iTA
   5  9,8  - iTS
   5  9,5  | iTYS
-  5  4,7  | iWA
   5  3,2  - jAGS
   5  4,6  | jAW
   5  9,5  | jAYS
@@ -5544,7 +5519,6 @@
   4  6,5  - ITyS
   4  6,5  - ITzA
   4  6,5  - IkAT
-  4  6,5  - InST
   4  6,5  - InTA
   4  6,5  - IoTA
   4  6,6  - Na
@@ -5975,7 +5949,6 @@
   4  3,3  - nATO
   4  3,5  | nATO
   4  9,5  | nAY
-  4  5,5  - nIG
   4  5,3  - nOTA
   4  3,7  | nOTA
   4  5,3  - nOTS
@@ -6093,7 +6066,6 @@
   3  5,2  - ASSn
   3  4,2  - ASSt
   3  5,2  - ASSt
-  3  5,2  - AST
   3  5,2  - ASTa
   3  5,2  - ASTr
   3  3,2  - ASkS
@@ -6108,7 +6080,6 @@
   3  3,2  - ATeS
   3  3,2  - ATiS
   3  1,7  - Aa
-  3  4,5  - AbIT
   3  4,5  - AcIS
   3  3,2  - AcTS
   3  4,5  - AdIT
@@ -6142,7 +6113,6 @@
   3  5,8  | ES
   3  5,8  | ESc
   3  5,8  | ESe
-  3  5,8  | ESp
   3  5,8  | ESq
   3  5,8  | ESs
   3  5,8  | ESt
@@ -6253,7 +6223,6 @@
   3  5,5  - SIsT
   3  5,5  - SItA
   3  2,7  | SLa
-  3  2,7  | SLd
   3  2,7  | SLt
   3  2,7  | SLy
   3  5,3  - SO
@@ -6545,7 +6514,6 @@
   3  3,7  | dOT
   3  4,2  - eAST
   3  3,2  - eATS
-  3  2,7  | eLA
   3  2,7  | eLS
   3  2,7  | eLT
   3  3,2  - eTAS
@@ -6584,14 +6552,10 @@
   3  5,3  - hOT
   3  3,7  | hOT
   3  4,6  - iAN
-  3  4,3  - iAO
-  3  3,6  | iAO
   3  2,7  | iLA
   3  4,6  - iSN
   3  3,5  - iTAI
   3  5,1  | jA
-  3  3,2  - jASS
-  3  4,2  - jASS
   3  3,5  - jATI
   3  5,3  - jOT
   3  3,7  | jOT
@@ -6772,7 +6736,6 @@
   2  5,2  - ASk
   2  5,2  - ASp
   2  5,2  - ASs
-  2  5,2  - ASt
   2  5,1  | Aa
   2  4,2  - AaS
   2  4,3  - AbO
@@ -6813,7 +6776,6 @@
   2  5,8  | EaT
   2  5,8  | EfS
   2  5,8  | EfT
-  2  5,8  | ElA
   2  5,8  | ElS
   2  5,8  | ElT
   2  5,8  | EmS
@@ -6827,7 +6789,6 @@
   2  5,8  | EvA
   2  5,8  | ExT
   2  6,5  - IAn
-  2  6,5  - IAo
   2  6,5  - IS
   2  6,5  - ISe
   2  6,5  - ISh
@@ -6854,9 +6815,7 @@
   2  6,5  - ItA
   2  6,5  - ItS
   2  6,5  - IvA
-  2  6,5  - IwA
   2  2,8  | La
-  2  2,8  | Lb
   2  2,8  | Li
   2  2,8  | Ll
   2  2,8  | Lo
@@ -6941,7 +6900,6 @@
   2  5,5  - SIa
   2  5,5  - SIb
   2  5,5  - SIc
-  2  5,5  - SId
   2  5,5  - SIe
   2  5,5  - SIg
   2  5,5  - SIl
@@ -7011,7 +6969,6 @@
   2  5,5  - TI
   2  5,5  - TIb
   2  5,5  - TIc
-  2  5,5  - TId
   2  5,5  - TIe
   2  5,5  - TIg
   2  5,5  - TIl
@@ -7022,7 +6979,6 @@
   2  5,5  - TIt
   2  5,5  - TIu
   2  5,2  - TSk
-  2  5,2  - TSp
   2  5,2  - TSs
   2  5,2  - TSt
   2  5,1  | Ta
@@ -7063,7 +7019,6 @@
   2  5,6  - aN
   2  4,2  - aSS
   2  5,2  - aSS
-  2  5,2  - aST
   2  4,5  - aTI
   2  4,5  - bAI
   2  4,2  - bAS
@@ -7125,7 +7080,6 @@
   2  5,5  - pIS
   2  5,5  - pIT
   2  4,5  - pSI
-  2  5,2  - pST
   2  4,2  - pTS
   2  5,5  - qIS
   2  4,2  - qTS
@@ -7147,7 +7101,6 @@
   2  5,2  - tST
   2  5,5  - uIT
   2  5,6  - uN
-  2  4,5  - uTI
   2  4,2  - uTS
   2  4,5  - vAI
   2  4,2  - vAS
@@ -7161,6 +7114,7 @@
   2  5,5  - xIS
   2  4,2  - yAS
   2  5,5  - yIS
+  2  4,2  - zAS
   2  5,5  - zIT
   1  5,8  | Ed
   1  5,8  | Ee
@@ -7175,7 +7129,6 @@
   1  5,8  | Et
   1  5,8  | Ew
   1  5,8  | Ex
-  1  6,5  - Ib
   1  6,5  - Id
   1  6,5  - If
   1  6,5  - In

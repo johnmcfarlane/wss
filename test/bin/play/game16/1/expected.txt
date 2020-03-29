@@ -53,7 +53,6 @@
  32  6,2  | ZAPaS
  32  6,2  | ZAPuS
  32  6,2  | ZaPAS
- 32  8,5  | jASZ
  31  8,6  | AdZ
  31  8,4  | QuA
  31  8,4  | ZoA
@@ -295,7 +294,6 @@
  18  5,7  - zIPA
  18  5,7  - zIPS
  17  8,4  | AZAnS
- 17  8,4  | AgASP
  17  7,6  | CAfIZ
  17  7,6  | CAhIZ
  17  7,6  | CIZAr
@@ -757,7 +755,6 @@
  14  8,3  | ZIlA
  14  8,3  | ZIpA
  14  8,3  | ZIrA
- 14 11,5  | ZYgA
  14  7,4  | ZaC
  14  9,4  | ZiRAI
  14  9,4  | ZoRIS
@@ -767,8 +764,6 @@
  14  6,2  | aSPIS
  14  8,3  | cAZA
  14  8,5  | cAZA
- 14  8,3  | dAZA
- 14  8,5  | dAZA
  14  8,5  | gASP
  14  6,2  | gASPS
  14  3,5  - gAZI
@@ -778,7 +773,6 @@
  14  6,2  | hASPS
  14 11,4  | hAYZ
  14  8,5  | jAAP
- 14  8,5  | jASP
  14  3,5  - kAZI
  14  8,5  | kAZI
  14  3,7  - kAZI
@@ -856,7 +850,6 @@
  13  8,4  | PeA
  13  8,5  - PeA
  13  9,3  | PeARS
- 13  7,7  - Ph
  13  7,7  - Pi
  13  8,4  | PiA
  13  8,4  | PpA
@@ -913,7 +906,6 @@
  13  9,3  | cZAR
  13 10,3  | cZARS
  13  9,5  | fRIZ
- 13  6,7  - hP
  13  9,5  | iRAQ
  13 10,5  | iRAQI
  13  9,3  | iZAR
@@ -1039,6 +1031,8 @@
  12  6,6  | SwIZ
  12  8,5  | ZAIn
  12 10,4  | ZARf
+ 12  6,4  | ZAS
+ 12  8,5  | ZAS
  12  6,3  | ZAgS
  12  6,3  | ZApS
  12 10,4  | ZIRa
@@ -1060,7 +1054,6 @@
  12  9,4  | hARPS
  12 10,5  | iRAQ
  12 10,3  | iZAR
- 12  6,4  | jASZ
  12  4,6  - mISCARRY
  12  9,3  | pIPRA
  12  9,2  | sPAIR
@@ -1141,7 +1134,6 @@
  11 10,6  | RfZ
  11  7,5  | SCoPA
  11  7,3  | SPACe
- 11  7,3  | SPACk
  11  7,3  | SPACy
  11  9,3  | SPARId
  11  9,2  | SPAeR
@@ -1169,12 +1161,13 @@
  11  6,6  | SuZ
  11  8,5  | ZA
  11  8,5  | ZAc
- 11  8,5  | ZAd
  11  8,5  | ZAg
  11  8,5  | ZAp
+ 11  8,5  | ZAs
  11  8,5  | ZAt
  11  8,5  | ZAx
  11  5,5  - Za
+ 11  6,4  | ZaS
  11  9,4  | ZeR
  11 10,4  | ZeR
  11  7,2  | aSPIC
@@ -1260,12 +1253,10 @@
  10  7,4  | PaCAS
  10  8,5  - Pe
  10  9,4  | PeRSIA
- 10  8,5  - Ph
  10  7,4  | PiCAS
  10  8,5  - Po
  10  9,6  | RaSP
  10  9,6  | ReAP
- 10  9,6  | ReSP
  10  9,6  | RiSP
  10  8,5  | SAPIAo
  10  9,4  | SARIP
@@ -1313,7 +1304,6 @@
   9  8,6  | ASAP
   9  8,4  | ASAPh
   9  8,6  | ASAPh
-  9  8,6  | AgASP
   9  8,6  | AlAPS
   9  8,6  | AlISP
   9  7,6  | CAP
@@ -2481,7 +2471,6 @@
   6 10,6  | RaSP
   6 10,6  | ReAP
   6 10,6  | RePS
-  6 10,6  | ReSP
   6 10,6  | RiPS
   6 10,6  | RiSP
   6 10,6  | RuPA
@@ -2513,8 +2502,6 @@
   6  3,7  - SAdI
   6  3,5  - SAfI
   6  3,7  - SAfI
-  6  8,3  | SAgAI
-  6  8,5  | SAgAI
   6  6,6  | SAiP
   6  8,3  | SAkAI
   6  8,5  | SAkAI
@@ -2675,7 +2662,6 @@
   6  8,5  - jA
   6  8,4  | jAAP
   6 10,4  | jARP
-  6  6,4  | jASP
   6  8,5  - kA
   6  6,3  | kIPS
   6  9,3  | kISRA
@@ -2825,7 +2811,6 @@
   5  9,2  | AeSIR
   5  8,4  | AgAS
   5  8,6  | AgAS
-  5  9,3  | AhIR
   5  8,4  | AiAS
   5  8,6  | AiAS
   5  8,6  | AkIA
@@ -2934,9 +2919,7 @@
   5 10,5  | PRp
   5 10,5  | PRs
   5 10,5  | PRy
-  5  6,5  | PSf
   5  6,5  | PSi
-  5  6,5  | PSt
   5  6,5  | PSw
   5  5,5  - Pa
   5  9,4  | PaR
@@ -2946,7 +2929,6 @@
   5  9,4  | PeR
   5 10,4  | PeR
   5  6,4  | PeS
-  5  5,7  - Ph
   5  9,4  | PhR
   5 10,4  | PhR
   5  5,5  - Pi
@@ -3125,13 +3107,11 @@
   5  7,5  | dCA
   5  8,3  | dISA
   5  3,5  - dISA
-  5  6,5  | dSP
   5  9,4  | dSRI
   5 11,5  | dYAS
   5  9,4  | eARS
   5  8,4  | ePA
   5  7,4  | eSC
-  5  6,5  | eSP
   5 11,5  | eYAS
   5  7,4  | fAC
   5 11,4  | fAYS
@@ -3241,7 +3221,6 @@
   5 10,5  | tRP
   5  8,3  | tSIA
   5  3,5  - tSIA
-  5  6,5  | tSP
   5  7,5  | uCA
   5  6,4  | uPS
   5  7,4  | vAC
@@ -3403,8 +3382,6 @@
   4  8,4  | IvA
   4  4,5  - IvA
   4 11,4  | IvY
-  4  8,4  | IwA
-  4  4,5  - IwA
   4 10,3  | IzARS
   4 10,6  | RAIS
   4  9,6  | RAIa
@@ -3771,7 +3748,6 @@
   3 10,4  | AbRI
   3  6,4  | AbSI
   3  6,3  | AcIS
-  3 10,3  | AhIR
   3 10,4  | AiRS
   3  8,3  | AkIA
   3  8,3  | AlIA
@@ -3790,8 +3766,6 @@
   3  6,3  | AvIS
   3  6,3  | AxIS
   3 10,4  | IARe
-  3  4,5  - IAo
-  3  4,7  - IAo
   3 10,5  | IRA
   3 10,5  | IRAn
   3 10,5  | IRAq
@@ -4141,8 +4115,6 @@
   3  5,5  - jA
   3  9,4  | jAR
   3 10,4  | jARS
-  3  6,3  | jASS
-  3  6,4  | jASS
   3  5,5  - kA
   3  8,4  | kAAS
   3 10,4  | kARI
@@ -4344,8 +4316,6 @@
   2  8,6  | ASp
   2  6,5  | ASs
   2  8,6  | ASs
-  2  6,5  | ASt
-  2  8,6  | ASt
   2  5,5  - Aa
   2  6,4  | AaS
   2  9,4  | AbR
@@ -4378,7 +4348,6 @@
   2  6,4  | AuS
   2  6,4  | AyS
   2  8,5  | IAn
-  2  8,5  | IAo
   2 10,5  | IRa
   2 10,5  | IRe
   2 10,5  | IRk
@@ -4498,7 +4467,6 @@
   2  6,6  | SIa
   2  6,6  | SIb
   2  6,6  | SIc
-  2  6,6  | SId
   2  6,6  | SIe
   2  6,6  | SIg
   2  6,6  | SIl
@@ -4703,6 +4671,8 @@
   2  8,5  | yAS
   2  6,4  | yIS
   2 10,5  | yRS
+  2  6,4  | zAS
+  2  8,5  | zAS
   1  8,6  | Aa
   1  8,6  | Ab
   1  8,6  | Ad

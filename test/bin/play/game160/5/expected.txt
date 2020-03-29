@@ -1,4 +1,5 @@
 104 11,1  | ZER
+100 11,1  | ZaS
 100 11,1  | ZeE
 100 11,1  | ZeR
  98 11,1  | ZEd
@@ -24,15 +25,15 @@
  69  7,3  - ZEtAS
  69  7,3  - ZOeAE
  69  7,3  - ZOeAS
- 69  7,3  - ZOnAR
  66  8,3  - OZAn
+ 66  9,3  - ZAS
  66  8,3  - cZAR
  66  8,3  - iZAR
  66  8,3  - tZAR
  63  9,3  - ZAc
- 63  9,3  - ZAd
  63  9,3  - ZAg
  63  9,3  - ZAp
+ 63  9,3  - ZAs
  63  9,3  - ZAt
  63  9,3  - ZAx
  50  8,4  | ZOStER
@@ -56,6 +57,7 @@
  45  8,6  | SeZ
  45  8,6  | SuZ
  45  9,3  | Za
+ 45  8,4  | ZaS
  44  8,6  | sEZ
  44  8,6  | yEZ
  42  7,3  - OZiAS
@@ -77,10 +79,8 @@
  34  4,6  | GEZ
  34  4,6  | GaZE
  34  4,6  | GuZE
- 34  4,4  | ZOGo
  34  4,4  | ZaGS
  34  4,4  | ZiGS
- 34  4,4  | ZoGO
  34  2,8  - bEZOAR
  33  3,8  - EZRA
  33  4,6  | GaZ
@@ -108,7 +108,6 @@
  32  8,8  - ZOrI
  32  8,8  - ZoRI
  32  3,8  - eZRA
- 32  5,8  - jASZ
  31  6,8  - AdZ
  31  1,10 - SEROZEm
  31  9,1  | Za
@@ -128,7 +127,6 @@
  30  8,1  | aZORES
  30  2,10 - aZORES
  30  2,10 - cROZES
- 30  9,5  | dOZ
  30  8,1  | dOZERS
  29  1,7  - REZOnE
  29  2,10 - ZEROEd
@@ -185,7 +183,6 @@
  26  2,10 - tOZEE
  25  9,6  | OZs
  25  5,3  | ZOeAE
- 25  5,3  | ZOnAR
  25  2,7  - aZO
  25  2,7  - dZO
  25  8,5  | iSZ
@@ -551,8 +548,6 @@
  19  8,5  | OSeS
  19  8,5  | OSsE
  19 11,1  | OaR
- 19 11,1  | OdE
- 19 11,1  | OdS
  19 11,1  | OeR
  19 11,1  | OeS
  19 11,1  | OhS
@@ -563,7 +558,6 @@
  19  8,5  | OyERS
  19  8,4  | RES
  19  8,4  | RESh
- 19  8,4  | RESp
  19  8,4  | RESt
  19  8,3  | REbS
  19  8,3  | REcS
@@ -664,7 +658,6 @@
  19  8,6  | SSEd
  19 11,1  | SaE
  19  8,6  | SaRE
- 19 11,1  | SdS
  19 11,1  | SeE
  19  8,6  | SeER
  19  8,6  | SeES
@@ -942,7 +935,6 @@
  17 11,1  | OEs
  17  8,4  | OEs
  17  8,4  | ORs
- 17  8,4  | ORy
  17  8,5  | OSE
  17  8,5  | OSEs
  17  8,5  | OSSa
@@ -1094,7 +1086,6 @@
  17  8,4  | hOSE
  17  8,4  | hOSS
  17  8,4  | jESS
- 17  8,4  | jOSE
  17  8,4  | jOSS
  17  8,4  | kOSS
  17  8,4  | lESS
@@ -1131,7 +1122,6 @@
  16  8,5  | ES
  16  8,5  | ESc
  16  8,5  | ESe
- 16  8,5  | ESp
  16  8,5  | ESq
  16  8,5  | ESs
  16  8,5  | ESt
@@ -1315,7 +1305,6 @@
  15  8,6  | So
  15  8,5  | SyE
  15  8,5  | SyR
- 15  6,9  - ViZ
  15  5,5  | ZARf
  15  5,8  - ZAiRE
  15  5,8  - ZAxES
@@ -1328,12 +1317,10 @@
  15  3,8  - ZOEAe
  15  3,8  - ZOEAl
  15  3,8  - ZOEAs
- 15  2,8  - ZOSmA
  15  2,5  - ZOa
  15  6,3  - ZOaEA
  15  3,8  - ZOeAE
  15  3,8  - ZOeAS
- 15  3,8  - ZOnAR
  15  3,10 - ZOnES
  15  2,7  - ZOo
  15  7,4  | ZeK
@@ -1434,7 +1421,6 @@
  14  7,3  | SOcKER
  14  1,10 - SOiREES
  14  1,10 - SOtERES
- 14  8,8  | ShOQ
  14  3,9  - ShOVERS
  14  7,3  | SmOKER
  14  7,3  | SmOKES
@@ -1457,8 +1443,6 @@
  14  9,8  | ZEnU
  14  3,8  - ZEtA
  14  8,9  - ZOEA
- 14  5,2  | ZOSmA
- 14  6,3  - ZOSmA
  14  5,2  | ZOaEA
  14  3,8  - ZOeA
  14  3,8  - ZOnA
@@ -1740,7 +1724,7 @@
  12  3,9  - StOVES
  12  7,4  | SyKES
  12  5,8  - ZARf
- 12  5,5  | ZAd
+ 12  5,8  - ZAS
  12  5,5  | ZAp
  12  5,5  | ZAt
  12  4,10 - ZEE
@@ -1779,9 +1763,7 @@
  12  4,8  - cZAR
  12  8,3  - dEAR
  12  8,3  - dEAS
- 12  9,10 - dEL
  12  9,5  | dOE
- 12  9,10 - dOL
  12  9,5  | dOR
  12  9,5  | dOS
  12  3,10 - dOZE
@@ -1988,9 +1970,9 @@
  11  5,8  - ZA
  11 10,9  - ZA
  11  5,8  - ZAc
- 11  5,8  - ZAd
  11  5,8  - ZAg
  11  5,8  - ZAp
+ 11  5,8  - ZAs
  11  5,8  - ZAt
  11  5,8  - ZAx
  11  8,2  - ZaT
@@ -2224,7 +2206,6 @@
  10  6,2  - cRESTS
  10  5,2  - cROSET
  10  1,10 - cROSSE
- 10 11,2  | dE
  10  7,3  | dESKS
  10  5,4  - dESORB
  10  9,5  | dO
@@ -2564,7 +2545,6 @@
   9  6,9  - VEeR
   9  6,9  - VEeS
   9  6,9  - VElO
-  9  6,9  - VEpS
   9  6,9  - VErS
   9  6,9  - VEtO
   9  6,9  - VEtS
@@ -2605,8 +2585,6 @@
   9  4,9  - hOVE
   9  7,4  | iRKS
   9  7,4  | jOKE
-  9  3,7  - jOSE
-  9  4,9  - jOVE
   9  3,7  - kORE
   9  7,4  | lEKS
   9  4,9  - lEVO
@@ -3043,7 +3021,6 @@
   8  6,9  - VERt
   8  6,9  - VERy
   8  6,9  - VESe
-  8  6,9  - VESp
   8  6,9  - VESt
   8  6,9  - VOE
   8  6,9  - VOEs
@@ -3335,7 +3312,6 @@
   7  9,6  | ORl
   7  9,6  | ORs
   7  9,6  | ORt
-  7  9,6  | ORy
   7  9,6  | OS
   7  6,3  - OSSEA
   7  2,8  - OSSEA
@@ -4084,7 +4060,6 @@
   6  6,3  - hOSEA
   6  2,8  - hOSEA
   6  3,10 - hOSES
-  6  9,3  - iAO
   6  9,6  | iRE
   6  7,4  | iRK
   6  9,6  | iRS
@@ -4236,6 +4211,7 @@
   6  3,10 - yESES
   6  7,4  | yOK
   6  3,10 - yORES
+  6  9,3  - zAS
   6  7,4  | zEK
   6  3,8  - zOEAS
   5  6,8  - AEOn
@@ -4813,7 +4789,6 @@
   5  4,10 - iRES
   5  9,6  | iS
   5  5,8  - jARS
-  5  5,8  - jASS
   5  9,1  | jE
   5  4,10 - jEES
   5  9,8  | jESU
@@ -5059,7 +5034,6 @@
   4  9,9  | EaU
   4  9,8  | EcRU
   4  9,9  | EcU
-  4 11,1  | Ed
   4  9,2  | Ed
   4  9,1  | Ee
   4 11,1  | Ee
@@ -5068,7 +5042,6 @@
   4 11,1  | Eh
   4  9,2  | Eh
   4  9,2  | El
-  4  4,8  - ElA
   4  5,3  | ElSA
   4  9,2  | Em
   4  9,9  | EmU
@@ -5152,7 +5125,6 @@
   4  4,8  - ObA
   4  4,8  - OcA
   4  5,2  | OcREA
-  4 11,1  | Od
   4 10,8  | Od
   4  4,8  - OdA
   4  5,3  | OdEA
@@ -5476,8 +5448,6 @@
   4  7,3  - hORA
   4  8,9  - hORA
   4  7,2  - hOSTS
-  4  5,5  | iAO
-  4  9,4  - iB
   4  5,5  | jAR
   4  5,10 - jEE
   4  7,2  - jESTS
@@ -5490,7 +5460,6 @@
   4  8,9  - kORA
   4  5,5  | lAO
   4  5,5  | lAR
-  4  9,4  - lB
   4  5,10 - lEE
   4  4,4  | lEG
   4  4,4  | lOG
@@ -5668,7 +5637,6 @@
   3  8,2  - EfTS
   3  3,10 - EgRE
   3  3,10 - EiRE
-  3  9,9  - ElA
   3  3,8  - ElSA
   3  8,9  - ElSA
   3  3,10 - ElSE
@@ -6124,7 +6092,6 @@
   3  8,2  - jETS
   3  9,9  | jEU
   3 11,1  | jO
-  3  3,10 - jOSE
   3  8,2  - jOTS
   3  8,3  - kEA
   3  4,8  - kEAS
@@ -6179,7 +6146,6 @@
   3  8,2  - mOTE
   3  8,2  - mOTS
   3  9,9  | mOU
-  3  9,9  | mRU
   3 11,1  | nE
   3  8,3  - nEA
   3  4,8  - nEAR
@@ -6362,7 +6328,6 @@
   2  6,8  - ASk
   2  6,8  - ASp
   2  6,8  - ASs
-  2  6,8  - ASt
   2  5,6  | Aa
   2  5,6  | Ab
   2  5,6  | Ad
@@ -6391,9 +6356,6 @@
   2  6,10 - Eh
   2  4,10 - EkE
   2  6,10 - El
-  2  8,3  - ElA
-  2  5,4  | ElA
-  2  9,8  - ElI
   2  8,2  - ElT
   2  6,10 - Em
   2  4,10 - EmE
@@ -6588,7 +6550,6 @@
   2  8,2  - aET
   2  4,10 - aRE
   2  8,2  - aRT
-  2  8,2  - aST
   2  9,2  - aTE
   2  5,8  - bAE
   2  5,8  - bAR
@@ -6635,7 +6596,6 @@
   2  9,9  - dOA
   2  4,10 - dOE
   2  8,2  - dOT
-  2  9,10 | dU
   2  5,8  - eAR
   2  5,7  - eE
   2  7,10 | eO
@@ -6685,7 +6645,6 @@
   2  8,2  - hOT
   2  9,8  - hSI
   2  9,2  - hTS
-  2  5,8  - iAO
   2  5,4  | iRA
   2  4,8  - iRA
   2  9,9  - iRA
@@ -6783,7 +6742,6 @@
   2  8,2  - pOT
   2  4,10 - pRE
   2  9,8  - pSI
-  2  8,2  - pST
   2  9,2  - pTE
   2  9,2  - pTS
   2  9,2  - qTR
@@ -6868,6 +6826,7 @@
   2  4,10 - yEE
   2  8,2  - yET
   2  8,2  - yOT
+  2  5,8  - zAS
   2  4,10 - zEE
   2  5,4  | zOA
   2  4,8  - zOA
@@ -6889,7 +6848,6 @@
   1  6,8  - Ax
   1  6,8  - Ay
   1 10,2  - Ta
-  1 10,2  - Td
   1 10,2  - Te
   1 10,2  - Th
   1 10,2  - Ti

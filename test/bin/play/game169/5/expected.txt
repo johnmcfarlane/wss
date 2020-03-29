@@ -400,6 +400,7 @@
  30  9,11 - vAS
  30  9,11 - wAS
  30  9,11 - yAS
+ 30  9,11 - zAS
  29  7,2  | SQUeAK
  29  4,8  - qUACKS
  28  6,2  | AQUaE
@@ -446,8 +447,6 @@
  28  6,4  | wAESUCK
  28  6,2  - yUCKEL
  28  5,8  - yUCKS
- 28  6,2  | zAQUE
- 28  7,10 - zAQUE
  27  5,8  - CAcKS
  27  5,8  - CAlKS
  27  5,8  - CArKS
@@ -548,8 +547,6 @@
  24  3,7  - QUAl
  24  3,5  - QUAm
  24  3,7  - QUAm
- 24  3,5  - QUAn
- 24  3,7  - QUAn
  24  3,5  - QUAr
  24  3,7  - QUAr
  24  3,5  - QUAt
@@ -975,7 +972,6 @@
  16  4,5  - QUAd
  16  4,5  - QUAl
  16  4,5  - QUAm
- 16  4,5  - QUAn
  16  4,5  - QUAt
  16  7,2  | QUAtA
  16  4,5  - QUAy
@@ -1419,7 +1415,6 @@
  13  6,8  - KAeS
  13  7,8  - KAf
  13  7,3  | KAkAS
- 13  7,3  | KAmAS
  13  7,3  | KAnAS
  13  6,8  - KAnS
  13  7,3  | KApAS
@@ -1445,7 +1440,6 @@
  13  7,4  | QUAi
  13  7,4  | QUAl
  13  7,4  | QUAm
- 13  7,4  | QUAn
  13  7,4  | QUAr
  13  7,4  | QUAt
  13  7,4  | QUAw
@@ -1497,7 +1491,6 @@
  13  7,8  - bUS
  13  7,3  | dUSACK
  13  7,8  - gUS
- 13  8,9  - jASZ
  13  7,8  - jUS
  13  2,7  - lUKAS
  13  7,8  - mUS
@@ -1836,7 +1829,6 @@
  11  7,4  | SmACK
  11  7,4  | SnACK
  11  6,4  | SnECK
- 11  7,4  | SpACK
  11  6,4  | SpECK
  11  7,4  | StACK
  11  5,5  | SwA
@@ -1852,7 +1844,6 @@
  11  2,7  - dACUS
  11  5,6  | dAS
  11  6,5  | dECKS
- 11  5,6  | dU
  11  6,5  | fECKS
  11  9,9  - gAZ
  11  6,5  | gECKS
@@ -2104,6 +2095,7 @@
  10  7,8  - yAS
  10  3,7  - yUKS
  10  7,5  | zACK
+ 10  7,8  - zAS
   9  7,6  | ACArUS
   9  7,3  | ACUAn
   9  7,6  | ACUAn
@@ -2124,7 +2116,6 @@
   9  3,7  - ASKs
   9  7,2  | ASoKA
   9  7,8  - ASs
-  9  7,8  - ASt
   9  7,3  | AUCA
   9  7,6  | AUCA
   9  7,3  | AUCAn
@@ -2183,7 +2174,6 @@
   9  7,5  | KAkAS
   9  5,5  - KAl
   9  5,5  - KAm
-  9  7,5  | KAmAS
   9  7,2  - KAmEL
   9  7,5  | KAnAS
   9  7,2  | KAnSA
@@ -2332,14 +2322,12 @@
   8  7,2  | ASpCA
   8  7,6  | AUK
   8  7,6  | AUKs
-  8  8,10 - AUbE
   8  8,10 - AUgE
   8  8,10 - AUnE
   8  8,10 - AUtE
   8  7,8  - AaS
   8  7,4  | AbASK
   8  7,8  - AbS
-  8  8,4  | AbV
   8  7,2  - AcCEL
   8  7,8  - AdS
   8  8,4  | AdV
@@ -3291,7 +3279,6 @@
   6  9,5  | dEF
   6  6,5  | dESC
   6  9,5  - dO
-  6 10,10 | dU
   6  9,10 - dUE
   6  8,10 - eASE
   6  6,4  | eKE
@@ -3389,7 +3376,6 @@
   5  5,7  - ASb
   5  5,7  - ASh
   5  5,7  - ASs
-  5  5,7  - ASt
   5  7,2  - AStEL
   5  7,3  | AUcA
   5  7,6  | AUcA
@@ -3584,7 +3570,6 @@
   4  7,6  | AStA
   4  7,6  | AUS
   4  7,6  | AUSu
-  4  6,3  | AUbE
   4  4,5  - AUd
   4  4,7  - AUd
   4  4,5  - AUf
@@ -3837,6 +3822,7 @@
   4  6,5  - yA
   4 10,10 | yA
   4  4,7  - yAS
+  4  4,7  - zAS
   4  6,5  | zEUS
   3  7,5  | AAS
   3  7,6  | AAS
@@ -3856,8 +3842,6 @@
   3  4,5  - ASp
   3  4,7  - ASs
   3  6,3  | ASsE
-  3  4,5  - ASt
-  3  4,7  - ASt
   3  7,6  | AUd
   3  7,6  | AUf
   3  7,6  | AUg
@@ -4116,7 +4100,6 @@
   2  7,6  | ASk
   2  7,6  | ASp
   2  7,6  | ASs
-  2  7,6  | ASt
   2  5,5  - Aa
   2  7,4  | AaA
   2  7,6  | AaA
@@ -4192,13 +4175,11 @@
   2  6,6  | ES
   2  6,6  | ESc
   2  6,6  | ESe
-  2  6,6  | ESp
   2  6,6  | ESq
   2  6,6  | ESs
   2  6,6  | ESt
   2  6,6  | ESu
   2  6,6  | EfS
-  2  6,6  | ElA
   2  6,6  | ElS
   2  6,6  | EmS
   2  6,6  | EnS
@@ -4340,6 +4321,7 @@
   2 10,10 - yE
   2  6,5  | yEA
   2  6,5  | yES
+  2  7,5  | zAS
   1  7,6  | Aa
   1  7,6  | Ab
   1  7,6  | Ad

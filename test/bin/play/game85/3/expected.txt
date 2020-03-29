@@ -2,6 +2,8 @@
  44  6,2  - EGOISM
  41  9,8  | OKES
  38  2,2  | GEMSBOK
+ 36 10,4  | SEQ
+ 36 10,4  | SMOKE
  34  1,7  - KOME
  33  3,5  - GEOM
  33  3,5  - GOME
@@ -10,23 +12,32 @@
  32 10,4  | GEOM
  32 10,4  | GOME
  32  1,7  - GOME
+ 32 10,4  | SKEG
  31 10,2  | SEG
  31 10,2  | SOG
  30 10,4  | GEM
  30  3,5  - GEM
+ 30 10,4  | SMOG
  30  1,7  - SOME
  29 10,3  | EGOS
  29  2,7  - EMO
  28  3,5  - MEO
  28  3,7  - MEO
+ 28 10,4  | SOKE
+ 27 10,3  | ESQ
  26  1,7  - GEM
  26 10,4  | GOES
+ 26 10,4  | SOK
+ 26 10,4  | SOME
+ 25 10,2  | OES
  25  3,5  - SOME
  24 10,4  | GEO
  24  3,5  - GEO
  24 10,4  | GES
  24  9,3  - NEK
  24  8,2  - QIS
+ 24 10,4  | SEGO
+ 24 10,4  | SEM
  24  1,7  - SEM
  24  7,2  - SKIME
  24  7,2  - SKIMO
@@ -48,8 +59,10 @@
  22  8,2  - MIKE
  22  3,5  | MOKES
  22  6,2  - MOKI
+ 22 10,4  | SEG
  22  3,5  - SEM
  22  7,2  - SKIM
+ 22 10,4  | SOG
  21  1,7  - MESO
  21  1,7  - MOSE
  21  4,4  | MOWSE
@@ -81,16 +94,19 @@
  18  4,4  | MOWS
  18  9,3  - NOG
  18 10,1  | OSE
+ 18 10,3  | OSE
  18  9,1  - PKG
  18  4,3  | SMEW
  18  5,2  | SMOKY
- 18  4,5  | SWOM
+ 18 10,4  | SOE
  17  4,5  - EM
+ 17 10,3  | ES
  17  3,4  | GOOKS
  17  4,4  | MEW
  17  5,3  | MOKY
  17  4,4  | MOW
  17  4,5  - OM
+ 17 10,3  | OS
  17  2,7  - OSE
  17  9,1  - POM
  17  3,4  | SMOOGE
@@ -162,6 +178,7 @@
  14  6,2  - SEMI
  14  8,2  - SIME
  14  3,4  | SKOO
+ 14 10,4  | SO
  14  3,5  | SOKE
  14  3,3  | SOKO
  14  3,5  | SOKO
@@ -217,6 +234,7 @@
  12  3,5  | SOOKE
  12  3,4  | SOOM
  12  5,6  | YOKES
+ 12  8,4  - ZAS
  11  2,6  | BOKE
  11  2,6  | BOSK
  11  7,8  | EGOS
@@ -448,7 +466,6 @@
   6  6,6  | EMO
   6  6,6  | EMS
   6  6,8  - EMS
-  6  7,1  - ESP
   6  6,4  | GEES
   6  6,5  | GEES
   6  3,4  | GEO

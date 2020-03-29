@@ -33,7 +33,6 @@
  23  5,1  | BURO
  23  5,1  | BURT
  23  3,8  - TOAT
- 23 10,8  | TOWBAR
  22  5,1  | BART
  22  5,1  | BOAR
  22  5,1  | BOAT
@@ -55,13 +54,10 @@
  21  7,5  - HANDBOW
  21  4,8  - OAT
  21  4,8  - RAT
- 21 10,8  | TABOUR
  21  4,8  - TAT
  20  5,1  | BU
  20  6,1  | ROUB
  20  2,3  - TOWBAR
- 20 10,8  | TUBAR
- 19 10,2  - ABOUT
  19 11,3  | AR
  19 11,3  | AT
  19  5,1  | BA
@@ -69,10 +65,6 @@
  19  5,2  | BORUCA
  19 10,8  | BRUTA
  19  5,1  | BT
- 19 10,7  | BTU
- 19 10,8  | TABOR
- 19 10,8  | TABU
- 19 10,8  | TUBA
  18 10,8  | BOUR
  18 10,8  | BOUT
  18 10,8  | BRAW
@@ -83,19 +75,11 @@
  18  6,1  | RAOB
  18  6,1  | ROWT
  18  2,6  | TAROK
- 18 10,8  | TOBA
  18  2,6  | TROAK
- 18 10,8  | TUB
- 17 10,2  - ABORT
  17  5,8  | AJOG
  17  5,8  - AT
- 17 10,7  | BT
  17 10,8  | BTU
  17 10,8  | BURAO
- 17 10,8  | TAB
- 17 10,8  | TAW
- 17 10,8  | TOB
- 17 10,8  | TOW
  17  5,2  | TURACO
  17  6,13 - ZABRA
  16 10,8  | BARU
@@ -126,16 +110,12 @@
  15 10,8  | BUT
  15  3,3  - TABOR
  15  2,3  - TABOUR
- 15 10,8  | TRUB
  15  5,3  | TURCO
  15  2,12 | TURF
  15 12,2  - WAB
  15  5,4  | WACO
  15 12,2  - WOB
  15  1,14 - WOT
- 14 10,2  - ABO
- 14 10,2  - ABR
- 14 10,2  - ABT
  14 10,8  | BAR
  14 10,8  | BAT
  14 10,8  | BOA
@@ -149,16 +129,13 @@
  14  6,1  | ROUT
  14  8,13 | TA
  14  8,13 | TO
- 14 10,8  | TRABU
  14  5,3  | TROCA
- 14 10,8  | TURBO
  14 12,2  - WAUR
  14 12,2  - WUT
  13 10,2  - AUTOR
  13  5,3  - BAR
  13  5,3  - BOR
  13  7,5  - HANDOUT
- 13 10,8  | TURB
  13  2,13 | WAF
  13  5,3  - WAR
  13 12,2  - WART
@@ -184,10 +161,7 @@
  12  6,1  | ROTA
  12  5,4  | TACO
  12  3,14 - TALI
- 12 10,8  | TAUR
  12  1,14 - TOA
- 12 10,8  | TOUR
- 12 10,8  | TROW
  12 12,2  - TUBA
  12 12,2  - TURB
  12 12,2  - TWA
@@ -202,25 +176,19 @@
  12 12,2  - WRO
  12  7,8  | WT
  12  6,13 - ZAT
- 11 10,2  - AB
  11 10,2  - AORTA
  11 10,8  | BA
  11  2,7  | BARK
  11 10,8  | BO
  11  4,3  - BOAR
  11 10,8  | BT
- 11 11,1  | LB
  11  5,5  | OCA
  11 12,2  - OW
  11 12,2  - ROUB
  11 12,2  - RUB
  11 12,2  - TABU
- 11 10,8  | TAU
- 11 10,8  | TOU
  11 12,2  - TRUB
  11 12,2  - TUB
- 11 10,8  | TWA
- 11 10,8  | TWO
  11  2,7  | WARK
  11 12,2  - WO
  11  2,7  | WOAK
@@ -245,7 +213,6 @@
  10  6,1  | ROT
  10 12,2  - ROWT
  10 12,2  - TOBA
- 10 10,8  | TORU
  10 12,2  - TROW
  10  5,4  | UBC
  10  1,14 - WO
@@ -265,16 +232,12 @@
   9 12,2  - RTW
   9 12,2  - RUTA
   9 12,2  - TAB
-  9 10,8  | TARO
   9  5,2  | TAROC
   9  4,3  - TAUR
   9 12,2  - TAW
   9 12,2  - TOB
-  9 10,8  | TORA
   9  4,3  - TOUR
   9 12,2  - TOW
-  9 10,8  | TUA
-  9 10,8  | TUR
   9  2,7  | TURK
   9  2,13 | URF
   9  5,4  | WAC
@@ -293,16 +256,11 @@
   8 12,2  - RUA
   8 12,2  - RUT
   8  2,12 | TA
-  8 10,8  | TAO
-  8 10,8  | TAR
   8 12,2  - TAUR
   8  2,12 | TO
-  8 10,8  | TOA
-  8 10,8  | TOR
   8  5,3  | TORC
   8 12,2  - TORU
   8 12,2  - TOUR
-  8 10,8  | TRA
   8  5,3  | TRAC
   8 12,2  - TUA
   8 12,2  - TUR
@@ -365,10 +323,8 @@
   5  6,3  - OR
   5  2,12 - RHE
   5 12,2  - TA
-  5 10,8  | TA
   5  2,12 - THE
   5 12,2  - TO
-  5 10,8  | TO
   5  8,1  | UT
   4  8,8  - ASOR
   4  8,8  - ASTA
@@ -379,7 +335,6 @@
   4  7,12 - ET
   4  4,10 | TIER
   3  3,14 | AI
-  3  8,8  - AST
   3 12,1  | EAR
   3 12,1  | EAT
   3 12,1  | ERA
