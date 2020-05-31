@@ -8,7 +8,7 @@ general:
 jobs:
   "coverage-gcc":
     docker:
-      - image: johnmcfarlane/cnl_ci:base-19.10
+      - image: johnmcfarlane/cnl_ci:gcc-10
     steps:
       - checkout
       - run:
@@ -27,19 +27,19 @@ jobs:
             - ~/.ccache
             - ~/.conan/data
 
-  "clang-static-analyzer-gcc":
+  "clang-static-analyzer":
     docker:
-      - image: johnmcfarlane/cnl_ci:gcc-9
+      - image: johnmcfarlane/cnl_ci:clang-10
     steps:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh clang-tools
+          command: /root/project/.circleci/setup.sh
       - restore_cache:
           key: cache
       - run:
           name: Run analyzer
-          command: bash -c /root/project/scripts/clang-static-analyzer.sh
+          command: /root/project/scripts/clang-static-analyzer.sh
       - store_artifacts:
           path: scan-build
       - save_cache:
@@ -50,7 +50,7 @@ jobs:
 
   "cppcheck-gcc":
     docker:
-      - image: johnmcfarlane/cnl_ci:gcc-9
+      - image: johnmcfarlane/cnl_ci:gcc-10
     steps:
       - checkout
       - run:
@@ -74,7 +74,7 @@ jobs:
 
   "sanitize-gcc":
     docker:
-      - image: johnmcfarlane/cnl_ci:gcc-9
+      - image: johnmcfarlane/cnl_ci:gcc-10
     steps:
       - checkout
       - run:
@@ -93,7 +93,7 @@ jobs:
 
   "valgrind-gcc":
     docker:
-      - image: johnmcfarlane/cnl_ci:gcc-9
+      - image: johnmcfarlane/cnl_ci:gcc-10
     steps:
       - checkout
       - run:
@@ -112,7 +112,7 @@ jobs:
 
   "clang-tidy":
     docker:
-      - image: johnmcfarlane/cnl_ci:clang-9
+      - image: johnmcfarlane/cnl_ci:clang-10
     steps:
       - checkout
       - run:
@@ -122,7 +122,7 @@ jobs:
           key: cache
       - run:
           name: Run Clang-Tidy
-          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/scripts/clang-tidy.sh
+          command: /root/project/scripts/clang-tidy.sh
       - save_cache:
           key: cache
           paths:
@@ -131,7 +131,7 @@ jobs:
 
   "sanitize-clang":
     docker:
-      - image: johnmcfarlane/cnl_ci:clang-9
+      - image: johnmcfarlane/cnl_ci:clang-10
     steps:
       - checkout
       - run:
@@ -141,7 +141,7 @@ jobs:
           key: cache
       - run:
           name: Run sanitizer
-          command: CXX=/usr/bin/clang++-9 CC=/usr/bin/clang-9 /root/project/scripts/sanitize.sh
+          command: /root/project/scripts/sanitize.sh
       - save_cache:
           key: cache
           paths:
@@ -150,7 +150,7 @@ jobs:
 
   "shellcheck":
     docker:
-      - image: johnmcfarlane/cnl_ci:base-19.10
+      - image: johnmcfarlane/cnl_ci:base-20.04
     steps:
       - checkout
       - run:
@@ -168,7 +168,7 @@ workflows:
   test:
     jobs:
       - "coverage-gcc"
-      - "clang-static-analyzer-gcc"
+      - "clang-static-analyzer"
       - "cppcheck-gcc"
       - "sanitize-gcc"
       - "valgrind-gcc"
