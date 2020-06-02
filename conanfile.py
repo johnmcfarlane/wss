@@ -5,4 +5,4 @@ class WssConan(ConanFile):
     requires = "fmt/6.0.0@bincrafters/stable", \
                "gsl_microsoft/2.0.0@bincrafters/stable", \
                "lyra/1.3.0@_/_"
-    generators = "cmake", "gcc", "txt"
+    generators = "cmake"
