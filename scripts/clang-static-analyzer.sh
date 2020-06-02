@@ -11,6 +11,8 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/..; pwd)
 scan-build \
   -o /tmp/scan-build \
   --status-bugs \
+  --use-c++=c++ \
+  --use-cc=cc \
     cmake \
       "${PROJECT_DIR}" \
       -DCMAKE_CXX_FLAGS="-DNDEBUG"
@@ -20,6 +22,8 @@ set +e
 scan-build \
   -o scan-build \
   --status-bugs \
+  --use-c++=c++ \
+  --use-cc=cc \
     "${PROJECT_DIR}/scripts/bits/build.sh" \
       --clean-first
 
