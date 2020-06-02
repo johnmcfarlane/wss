@@ -48,7 +48,7 @@ public:
         return *_node;
     }
 
-    friend auto operator*(const_node_iterator& rhs) {
+    friend auto operator*(const_node_iterator const& rhs) {
         WSS_ASSERT(rhs._node);
         return *rhs._letter;
     }
