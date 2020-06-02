@@ -7,5 +7,5 @@ set -eo pipefail
 
 apt update --yes --quiet
 apt upgrade --yes --quiet
-apt install --yes --quiet ccache cmake python3-pip "$@"
+apt install --auto-remove --no-install-recommends --yes --quiet "$@"
 ccache --show-stats
