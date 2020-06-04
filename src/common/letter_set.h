@@ -68,12 +68,6 @@ public:
         return _bits;
     }
 
-    [[nodiscard]] friend constexpr auto operator|(
-            letter_set const& l, letter_set const& r)
-    {
-        return letter_set::from_bits(l.bits() | r.bits());
-    }
-
     [[nodiscard]] static constexpr letter_set from_bits(rep bits) noexcept
     {
         letter_set letters;
@@ -101,6 +95,12 @@ private:
 
     rep _bits;
 };
+
+[[nodiscard]] inline constexpr auto operator|(
+        letter_set const& l, letter_set const& r)
+{
+    return letter_set::from_bits(l.bits() | r.bits());
+}
 
 class letter_set::const_iterator {
 public:
