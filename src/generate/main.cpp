@@ -140,7 +140,7 @@ void dump_word(
     }
     source_cpp << "},\n";
 #else
-    source_cpp << "  letter_set::from_bits(0x" << std::hex << letters.bits() << "U),\n";
+    source_cpp << "  from_bits(0x" << std::hex << letters.bits() << "U),\n";
 #endif
     
     // node::edges
