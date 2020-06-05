@@ -62,7 +62,7 @@ namespace {
             unbounded_lexicon
     };
     node const unbounded_lexicon = {
-            letter_set::from_bits(0x7ffffffU),
+            from_bits(0x7ffffffU),
             unbounded_edges //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
     };
 } // namespace

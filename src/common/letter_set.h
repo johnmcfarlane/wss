@@ -23,6 +23,9 @@
 #include <numeric>
 #include <ostream>
 
+class letter_set;
+constexpr letter_set from_bits(std::uint32_t) noexcept;
+
 class letter_set {
 public:
     using rep = std::uint32_t;
@@ -68,13 +71,7 @@ public:
         return _bits;
     }
 
-    [[nodiscard]] friend constexpr auto operator|(
-            letter_set const& l, letter_set const& r)
-    {
-        return letter_set::from_bits(l.bits() | r.bits());
-    }
-
-    [[nodiscard]] static constexpr letter_set from_bits(rep bits) noexcept
+    [[nodiscard]] friend constexpr letter_set from_bits(rep bits) noexcept
     {
         letter_set letters;
         letters._bits = bits;
@@ -101,6 +98,12 @@ private:
 
     rep _bits;
 };
+
+[[nodiscard]] inline constexpr auto operator|(
+        letter_set const& l, letter_set const& r)
+{
+    return from_bits(l.bits() | r.bits());
+}
 
 class letter_set::const_iterator {
 public:
