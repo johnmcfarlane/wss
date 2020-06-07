@@ -31,6 +31,9 @@
  25  8,4  | FuNNY
  25  6,7  - OFO
  25  7,5  - lIFO
+ 25  7,5  - mOFO
+ 25  5,7  - mOFO
+ 25  7,7  - mOFO
  24  8,4  | FINdY
  24  8,4  | FINnY
  24  2,7  - FOIsON
@@ -466,6 +469,7 @@
  17  3,7  - lIFO
  17  7,5  - lINO
  17  7,5  - mINO
+ 17  3,7  - mOFO
  17  5,7  - mON
  17  7,5  - mONO
  17  7,7  - mONO
@@ -2374,6 +2378,8 @@
   6  9,7  - mIN
   6  9,3  | mINE
   6  8,4  | mINY
+  6  7,3  | mOFO
+  6  7,5  | mOFO
   6 10,3  | mOISON
   6  9,5  - mON
   6  9,7  - mON
@@ -3612,7 +3618,6 @@
   2  7,4  | cOO
   2  7,5  | cOO
   2 10,4  | cOS
-  2 10,5  | cSI
   2 10,4  | dIS
   2  7,4  | dOO
   2  7,5  | dOO
