@@ -130,7 +130,6 @@
  32  2,11 - PORiTE
  32  9,11 - REN
  32  9,11 - TEN
- 32  9,3  | sTOWP
  31  6,9  - NEEbOR
  31  1,11 - NEcRO
  31  1,11 - NEgRO
@@ -325,7 +324,6 @@
  24  9,3  | ReOWN
  24  2,11 - TENOR
  24  6,2  - TORErO
- 24  9,4  | TOWN
  24  4,5  - TOuPEE
  24  3,11 - TRONa
  24  3,11 - TRONe
@@ -429,7 +427,6 @@
  22  2,11 - sETON
  22  2,5  - sPERONE
  22  2,11 - tETON
- 22  9,4  | tOWN
  22  9,5  | tWP
  21  8,9  - EPE
  21  4,7  - EPiROT
@@ -528,7 +525,6 @@
  20  2,11 - TENoR
  20  3,11 - TROdE
  20  3,11 - TROnE
- 20  9,4  | ToWN
  20  6,7  - aROON
  20  6,2  | aRTEMON
  20  5,5  - dONEE
@@ -954,7 +950,6 @@
  16  4,9  - RaNEE
  16  2,11 - ReNO
  16  2,9  - TERaP
- 16  9,4  | TEWs
  16  4,5  - TEmPE
  16  5,2  - TEmPO
  16  7,7  - TOON
@@ -963,10 +958,6 @@
  16  5,2  - TOPeE
  16  5,2  - TOPhE
  16  2,7  - TORPEdO
- 16  9,4  | TOWd
- 16  9,4  | TOWn
- 16  9,4  | TOWs
- 16  9,4  | TOWy
  16 11,8  | TOs
  16  5,2  - TRiPE
  16  5,2  - TRoPE
@@ -1188,11 +1179,9 @@
  15  5,5  - RoPE
  15  3,11 - RyOT
  15  9,9  | TEE
- 15  9,4  | TEW
  15  3,9  - TEaP
  15  4,11 - TONE
  15  5,2  - TOPEe
- 15  9,4  | TOW
  15  5,2  - TROPe
  15  3,9  - TRaP
  15  3,5  - TRiENE
@@ -1228,9 +1217,7 @@
  15 10,3  | nEPa
  15  2,5  - pRENOTE
  15  3,11 - sEOR
- 15  9,3  | sTEW
  15  3,11 - sTOR
- 15  9,3  | sTOW
  15  3,11 - tROT
  15  1,5  - uNROPE
  15  1,7  - uNROPE
@@ -1851,8 +1838,6 @@
  13  2,5  - sTOPE
  13  2,7  - sTOPE
  13  6,9  - tEET
- 13  9,4  | tEW
- 13  9,4  | tOW
  13  4,5  - tRONE
  13  2,5  - tROPE
  13  2,7  - tROPE
@@ -2122,7 +2107,6 @@
  12  6,4  | TEMPuRA
  12  1,5  - TENORe
  12  1,7  - TENORe
- 12  9,1  | TENT
  12  5,2  - TENdO
  12  5,2  - TENiO
  12  5,2  - TENnO
@@ -2612,8 +2596,6 @@
  11  9,1  | TaNO
  11  5,7  - TaNO
  11  8,2  - TaRO
- 11  9,1  | TeNT
- 11  9,4  | TeW
  11  8,2  - ThEO
  11  4,7  - ThORO
  11  8,2  - ThRO
@@ -2622,7 +2604,6 @@
  11  9,1  | TiNE
  11  9,1  | TiNO
  11  5,7  - TiNO
- 11  9,1  | TiNT
  11  4,11 - TiRE
  11  8,2  - TiRO
  11  4,11 - TiRO
@@ -2631,7 +2612,6 @@
  11  4,11 - ToRE
  11  8,2  - ToRO
  11  4,11 - ToRO
- 11  9,4  | ToW
  11  6,3  | TrOMPE
  11  9,1  | TuNE
  11  5,5  - TuNE
@@ -3077,7 +3057,6 @@
  10  6,4  | TEMPo
  10  6,4  | TEMPs
  10  6,4  | TEMPt
- 10  9,1  | TENt
  10  2,9  - TEPa
  10  6,3  | TERMON
  10  2,5  - TERNa
@@ -3097,7 +3076,6 @@
  10  3,5  - TORE
  10  3,7  - TORE
  10  6,3  | TORMEN
- 10  9,1  | TORT
  10  5,2  - TORsE
  10  2,5  - TORsE
  10  2,7  - TORsE
@@ -3115,12 +3093,10 @@
  10  8,2  - TOtO
  10  4,4  - TOuRBE
  10  8,2  - TOyO
- 10  9,1  | TRET
  10  2,5  - TRONa
  10  2,7  - TRONa
  10  2,5  - TRONe
  10  2,7  - TRONe
- 10  9,1  | TROT
  10  5,2  - TROdE
  10  2,5  - TROdE
  10  4,5  - TROdE
@@ -3846,11 +3822,9 @@
   9  3,5  - TaRO
   9  3,7  - TaRO
   9  5,7  - TaRO
-  9  9,1  | TaRT
   9  9,1  | TaTE
   9 10,5  | TamPER
   9 10,5  | TapPER
-  9  9,1  | TeET
   9  6,4  | TeMP
   9  6,3  | TeRMEN
   9  6,3  | TeRMON
@@ -3878,7 +3852,6 @@
   9  5,7  - TiRO
   9  9,1  | TiTE
   9  4,11 - ToN
-  9  9,1  | ToOT
   9  9,1  | ToP
   9  9,1  | ToRE
   9  3,5  - ToRE
@@ -3888,12 +3861,9 @@
   9  3,5  - ToRO
   9  3,7  - ToRO
   9  5,7  - ToRO
-  9  9,1  | ToRT
   9  9,1  | ToTE
   9  9,1  | ToTO
-  9  9,1  | TrET
   9  5,8  - TrEVOR
-  9  9,1  | TrOT
   9  5,8  - TrOVER
   9  9,1  | TrP
   9  6,4  | TuMP
@@ -4032,7 +4002,6 @@
   8 10,4  | ERaTo
   8 10,4  | ERatO
   8  6,2  - ERgO
-  8  9,3  | ET
   8 10,9  - ET
   8  2,9  - ETNa
   8  7,8  - EVaN
@@ -4297,16 +4266,10 @@
   8  3,7  - TERm
   8  9,1  | TETe
   8  7,5  - TEa
-  8  9,1  | TEaT
   8  9,1  | TEcO
   8  6,2  - TEcO
   8  7,5  - TEe
-  8  9,1  | TEeT
-  8  9,1  | TElT
-  8  9,1  | TEnT
   8  6,3  | TErMOR
-  8  9,1  | TEsT
-  8  9,1  | TExT
   8 10,2  - TO
   8  9,3  | TO
   8  4,5  - TOE
@@ -4334,7 +4297,6 @@
   8  9,1  | TORo
   8  3,5  - TORo
   8  3,7  - TORo
-  8  9,1  | TORt
   8  9,1  | TORu
   8  3,5  - TORu
   8  3,7  - TORu
@@ -4345,65 +4307,50 @@
   8  9,1  | TOTy
   8  6,8  - TOVEt
   8  6,8  - TOVaR
-  8  9,1  | TOaT
   8  9,1  | TObE
   8  6,2  - TObE
   8  9,1  | TOdE
   8  6,2  - TOdE
   8  7,7  - TOe
-  8  9,1  | TOfT
-  8  9,1  | TOgT
-  8  9,1  | TOiT
   8  9,1  | TOkE
   8  6,2  - TOkE
   8  9,1  | TOlE
   8  6,2  - TOlE
-  8  9,1  | TOlT
   8  9,1  | TOmE
   8  6,2  - TOmE
   8  6,3  | TOmMER
   8  9,1  | TOnE
   8  6,2  - TOnE
   8  7,7  - TOo
-  8  9,1  | TOoT
   8  9,1  | TOpE
   8  6,2  - TOpE
   8  9,1  | TOrE
   8  6,2  - TOrE
-  8  9,1  | TOrT
   8  5,8  - TOrVE
-  8  9,1  | TOsT
   8  7,7  - TOt
   8  9,1  | TOtE
   8  6,2  - TOtE
-  8  9,1  | TOuT
   8  9,1  | TOzE
   8  6,2  - TOzE
   8  6,3  | TREMOr
   8  9,1  | TREe
   8  3,5  - TREe
   8  3,7  - TREe
-  8  9,1  | TREt
   8  9,1  | TREy
   8  3,7  - TREy
   8  6,3  | TROMbE
   8  6,3  | TROMpE
   8  5,8  - TROVe
-  8  9,1  | TROt
   8  9,1  | TROy
   8  3,7  - TROy
   8  5,8  - TRaVE
   8  9,1  | TReE
   8  6,2  - TReE
-  8  9,1  | TReT
   8  9,1  | TRiO
   8  6,2  - TRiO
-  8  9,1  | TRiT
-  8  9,1  | TRoT
   8  5,8  - TRoVE
   8  9,1  | TRuE
   8  6,2  - TRuE
-  8  9,1  | TRyT
   8  5,7  | TaNG
   8 10,5  | TaPE
   8  6,2  - TaRE
@@ -5473,7 +5420,6 @@
   6  6,4  - EgBO
   6  9,3  | Eo
   6 10,4  | EraT
-  6  9,3  | Et
   6  6,8  | EvAP
   6  6,6  | MEO
   6  6,6  | MER
@@ -5880,7 +5826,6 @@
   6 10,6  | aPtER
   6  5,7  | aREG
   6  5,8  | aRGO
-  6  9,3  | aT
   6  5,9  - aT
   6  6,8  | aTAP
   6  6,4  | aTMO
@@ -5903,7 +5848,6 @@
   6  5,7  | bORG
   6  5,4  - bROB
   6  5,7  | bROG
-  6  9,3  | bT
   6 10,5  | baNTER
   6 10,5  | baPT
   6  6,4  | cOME
@@ -5940,7 +5884,6 @@
   6  5,8  | eRGO
   6  6,4  | eRME
   6 10,4  | eRaT
-  6  9,3  | eT
   6  7,8  - eVE
   6 10,5  | eaRNER
   6  9,3  | fE
@@ -5976,13 +5919,11 @@
   6  5,5  - hO
   6  5,7  - hO
   6  6,4  | hOME
-  6  9,3  | hT
   6 10,5  | haRP
   6  6,5  | iMER
   6  9,3  | iO
   6  5,5  - iO
   6  5,7  - iO
-  6  9,3  | iT
   6  5,11 - iT
   6  6,3  | iTEM
   6  6,4  | iTMO
@@ -6114,7 +6055,6 @@
   6 10,5  | taPE
   6 10,5  | taRP
   6  5,8  | uRGE
-  6  9,3  | uT
   6  5,4  - vERB
   6  5,8  | vOGT
   6  9,3  | wE
@@ -6125,7 +6065,6 @@
   6  5,7  - wO
   6  6,3  | wORM
   6  6,8  | wRAP
-  6  9,3  | wT
   6 10,5  | waNTER
   6 10,5  | waRNER
   6 10,5  | waRP
@@ -6140,7 +6079,6 @@
   6 10,5  | yaRNER
   5  8,4  - BE
   5  8,4  - BO
-  5  8,4  - BT
   5  7,5  | EAm
   5  7,5  | EAt
   5  7,4  - EBb
@@ -6735,7 +6673,6 @@
   4  8,4  - Be
   4  8,4  - Bi
   4  8,4  - Bo
-  4  8,4  - Bt
   4  8,4  - Bu
   4  8,4  - By
   4  6,8  | ENAm

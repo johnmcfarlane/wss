@@ -32,14 +32,10 @@
  24  2,6  - FCP
  24  1,10 - FLEWS
  24  1,9  - FPs
- 24  3,3  - LIFTS
  24  2,6  - PCF
  24  1,6  - PFC
  24  1,10 - SWELP
- 24  2,3  - SWIFT
- 24  3,3  - WILTS
  23  4,3  | FLIP
- 23  3,3  - FLITS
  23  6,3  - IF
  22  1,10 - FLEW
  22  4,4  | LWP
@@ -57,33 +53,24 @@
  20  1,6  - PICT
  20  7,9  - SIFT
  20  4,3  | SLIP
- 20  2,3  - SLIPT
  20  1,10 - SPEW
  20  7,9  - SPIF
- 20  2,3  - SPILT
  20  1,10 - SWEP
  20  2,10 - WEFT
  20  2,10 - WEPT
  20  4,3  | WISP
- 19  3,3  - FILT
- 19  3,3  - LIFT
  19  4,4  | LIP
  19  5,3  - PIS
- 19  5,3  - PTS
  19  7,9  - SIP
- 19  2,3  - SPLIT
  19  4,4  | TWP
- 19  3,3  - WILT
  19  5,3  - WIS
  18  2,6  - FCS
  18  2,10 - FEW
- 18  3,3  - FLIT
  18  4,3  | LISP
  18  2,6  - PCT
  18  2,10 - PEW
  18  1,6  - PIC
  18  1,10 - PLEIS
- 18  4,3  - PWT
  18  2,6  - SCF
  18  1,10 - SLEPT
  18  7,9  - SLIP
@@ -94,15 +81,8 @@
  18  1,10 - TWEIL
  18  3,9  - sIS
  18  3,9  - sIT
- 17  3,3  - FIST
- 17  4,3  - FITS
- 17  3,3  - PIST
- 17  4,3  - PITS
  17  1,11 - PWR
- 17  3,3  - SIFT
  17  7,9  - SPIT
- 17  3,3  - WIST
- 17  4,3  - WITS
  16  3,10 - EPIL
  16  3,10 - EPIST
  16  2,10 - FEIL
@@ -135,13 +115,11 @@
  15  1,9  - IFs
  15  1,9  - IPs
  15  5,3  - LIS
- 15  4,3  - LITS
  15  1,9  - PIs
  15  1,9  - PTs
  15  4,8  | QIS
  15  7,9  - SIL
  15  7,9  - SLIT
- 15  4,3  - SPT
  15  4,3  - TPI
  15  1,9  - TPs
  15  4,3  - TWI
@@ -169,7 +147,6 @@
  14  2,10 - SEPT
  14  7,9  - SLT
  14  1,10 - SPET
- 14  3,3  - SPIT
  14  1,10 - STEP
  14  1,10 - STEW
  14  2,10 - TEWS
@@ -177,19 +154,14 @@
  14  2,10 - WEST
  14  2,10 - WETS
  14  1,11 - WIR
- 14  5,3  - WT
  14  5,7  | WUP
  13  7,1  | FOP
- 13  5,3  - ITS
- 13  3,3  - LIST
  13  7,1  | POW
- 13  3,3  - SILT
  13  7,9  - SIT
  13  2,9  - SsI
  13  5,3  - TIS
  12  2,10 - FET
  12  1,10 - FIE
- 12  4,3  - FIT
  12  1,10 - IFE
  12  6,8  | IFS
  12  6,8  | IPS
@@ -198,7 +170,6 @@
  12  2,10 - PES
  12  2,10 - PET
  12  1,10 - PIE
- 12  4,3  - PIT
  12  4,3  - PSI
  12  1,10 - PTE
  12  5,7  | PULIS
@@ -208,7 +179,6 @@
  12  2,10 - SEP
  12  2,10 - SEW
  12  1,6  - SIC
- 12  3,3  - SLIT
  12  5,7  | SUFI
  12  5,7  | SUPT
  12  2,10 - TEW
@@ -219,7 +189,6 @@
  12  5,7  | TUWI
  12  2,10 - WEI
  12  2,10 - WET
- 12  4,3  - WIT
  12  5,7  | WUSP
  12  3,9  - sI
  11  5,7  | FUSIL
@@ -231,10 +200,8 @@
  11  5,7  | PULI
  11  5,7  | PULS
  11  7,9  - SI
- 11  4,3  - SLT
  11  5,7  | SUF
  11  5,7  | SUP
- 11  6,3  - TI
  11  5,7  | TUP
  11  5,8  | UFS
  11  5,8  | UPS
@@ -246,8 +213,6 @@
  10  2,10 - LETS
  10  5,3  - LI
  10  1,10 - LIES
- 10  4,3  - LIT
- 10  4,3  - LST
  10  2,10 - PE
  10  5,7  | PUIST
  10  5,7  | PUL
@@ -270,7 +235,6 @@
   9  6,1  | FBI
   9  7,1  | FOL
   9  5,7  | FUST
-  9  4,3  - IST
   9  2,9  | IT
   9  1,9  - LIs
   9  7,2  | OF
@@ -279,7 +243,6 @@
   9  7,1  | POL
   9  2,11 - PRF
   9  5,7  | PUTS
-  9  4,3  - SIT
   9  2,11 - TRIPL
   9  5,7  | TULSI
   9  5,7  | WUST
@@ -291,7 +254,6 @@
   8  1,10 - ILE
   8  1,11 - IPR
   8  6,8  | ISL
-  8  5,3  - IT
   8  2,10 - LEI
   8  2,10 - LET
   8  1,10 - LIE
@@ -378,7 +340,6 @@
   6  1,9  - TSs
   6  5,7  | TUIS
   5  6,2  | BI
-  5  6,2  | BT
   5 10,4  | DEEsS
   5  3,10 - EF
   5  3,10 - EW

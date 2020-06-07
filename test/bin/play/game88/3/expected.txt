@@ -425,7 +425,6 @@
  18  3,8  - HSIEn
  18  1,8  - HoISE
  18  2,8  - HoSEA
- 18  5,2  | IStHM
  18  3,3  - SAHIb
  18  4,8  - SAHIb
  18  4,8  - SAIcE
@@ -931,7 +930,6 @@
  16  2,8  - InSEA
  16  5,1  | InSEAM
  16  2,8  - InSEE
- 16  5,3  | ItEMS
  16 10,1  | SAIpH
  16 10,1  | SAItH
  16  3,3  - SAdHE
@@ -976,7 +974,6 @@
  16  4,8  - ShH
  16 10,1  | ShIAH
  16  4,8  - SoH
- 16  5,3  | StIME
  16  3,3  - aAHS
  16  2,8  - aHS
  16  3,8  - aSH
@@ -1490,13 +1487,10 @@
  15  4,8  - sHEAS
  15  4,8  - sHIES
  15  2,8  - sISE
- 15  5,4  | tAMES
  15  1,8  - tEAS
  15  1,8  - tEES
- 15  5,4  | tEMSE
  15  2,3  - tHA
  15  1,8  - tIES
- 15  5,4  | tIMES
  15  3,8  - tSIA
  15  3,8  - uSEE
  15  2,8  - vASE
@@ -1799,7 +1793,6 @@
  14 10,2  | SAsH
  14  3,3  - SAsH
  14  4,8  - SAt
- 14  5,2  | SAtEM
  14  4,8  - SAu
  14  4,8  - SAv
  14  4,8  - SAw
@@ -2042,8 +2035,6 @@
  14  3,8  - sSI
  14  3,5  - tAHA
  14  3,3  - tAISE
- 14  5,4  | tAME
- 14  5,4  | tAMS
  14  2,8  - tAS
  14 10,2  | tASH
  14  3,3  - tASH
@@ -2054,7 +2045,6 @@
  14  8,2  | tHEEK
  14 10,1  | tHESE
  14  6,1  | tHIASI
- 14  5,4  | tIME
  14  2,8  - tIS
  14  3,8  - uSE
  14  2,8  - vAS
@@ -2199,7 +2189,6 @@
  13 10,7  | IrS
  13 10,7  | IsE
  13 10,7  | ItA
- 13  5,3  | ItEM
  13 10,7  | ItS
  13 10,7  | IvA
  13 10,7  | IvE
@@ -2270,9 +2259,6 @@
  13  5,3  | SiAM
  13  4,8  - So
  13  5,3  | SoAM
- 13  5,3  | StAM
- 13  5,3  | StEM
- 13  5,3  | StIM
  13  4,3  - aH
  13  2,3  - aIAS
  13  3,8  - aS
@@ -2752,7 +2738,6 @@
  11  5,2  | AHi
  11  5,2  | AHo
  11  2,8  - AHs
- 11  5,2  | AHt
  11  5,2  | AHu
  11  4,3  - AI
  11  4,3  - AId
@@ -2991,7 +2976,6 @@
  11  5,2  | SHo
  11  2,8  - SHr
  11  1,7  - SHrEE
- 11  5,2  | SHt
  11  5,2  | SHu
  11  5,2  | SHy
  11  2,8  - SIrEE
@@ -3112,17 +3096,14 @@
  11  8,3  | sIAK
  11  3,3  - tAE
  11  3,3  - tAI
- 11  5,4  | tAM
  11  3,3  - tAS
  11  2,3  - tEA
  11  8,3  | tEAK
- 11  5,4  | tEM
  11  5,1  | tHAE
  11  5,1  | tHAI
  11  5,1  | tHEA
  11  1,4  - tHEBAIS
  11  5,1  | tHEE
- 11  5,4  | tIM
  11  3,3  - vAI
  11  3,3  - vAS
  11  2,3  - vIA
@@ -3155,7 +3136,6 @@
  10 10,1  | AErIE
  10  6,5  - AH
  10  3,7  | AHEm
- 10  5,1  | AHEt
  10  3,7  | AHEt
  10  5,1  | AHEy
  10  3,7  | AHEy
@@ -3280,7 +3260,6 @@
  10  7,3  | HAEREs
  10  7,3  | HAEReS
  10  2,7  - HAEm
- 10  5,1  | HAEt
  10  7,3  | HAIRE
  10  7,3  | HAIREd
  10  7,3  | HAIREn
@@ -3288,8 +3267,6 @@
  10  7,3  | HAIRSe
  10  7,3  | HAIRSt
  10  7,3  | HAIRsE
- 10  5,1  | HAIt
- 10  5,1  | HASt
  10  5,1  | HAbE
  10  5,1  | HAdE
  10  7,3  | HAeRES
@@ -3317,11 +3294,9 @@
  10  7,3  | HEARSt
  10  7,3  | HEARsE
  10  7,3  | HEARtS
- 10  5,1  | HEAt
  10  7,3  | HEIREd
  10  7,3  | HEIRS
  10  5,1  | HEIi
- 10  5,1  | HESt
  10  7,3  | HEaRSE
  10  5,1  | HEbE
  10  5,1  | HEhE
@@ -3335,7 +3310,6 @@
  10  5,1  | HExA
  10  7,3  | HIERA
  10  7,3  | HIERoS
- 10  5,1  | HISt
  10  5,1  | HIdE
  10  7,3  | HIjRAS
  10  5,1  | HIkE
@@ -3357,7 +3331,6 @@
  10  5,3  | Ho
  10  7,3  | HoARSE
  10  3,8  - Hr
- 10  5,3  | Ht
  10  2,8  - IArE
  10  3,4  - IBErES
  10  3,4  - IBExES
@@ -3491,7 +3464,6 @@
  10  7,2  | SHAIRn
  10  7,3  | SHARpIE
  10  5,1  | SHAi
- 10  5,1  | SHAt
  10  7,2  | SHAuRI
  10  5,1  | SHAy
  10  7,2  | SHEAR
@@ -3514,7 +3486,6 @@
  10  5,1  | SHIa
  10  7,2  | SHIkRA
  10  7,2  | SHIrRA
- 10  5,1  | SHIt
  10  5,1  | SHaI
  10  5,1  | SHeA
  10  5,1  | SHeE
@@ -3880,7 +3851,6 @@
   9  7,3  | HAoRI
   9  1,4  - HArBI
   9  7,3  | HArRE
-  9  5,2  | HAt
   9  5,2  | HAu
   9  5,2  | HAy
   9  7,3  | HEAR
@@ -3912,7 +3882,6 @@
   9  7,2  | HEjIRAS
   9  1,4  - HErBA
   9  1,4  - HErBS
-  9  5,2  | HEt
   9  7,2  | HExERIS
   9  5,2  | HEy
   9  2,4  - HIBlA
@@ -3922,7 +3891,6 @@
   9  5,2  | HIe
   9  7,3  | HIeRA
   9  7,3  | HIjRA
-  9  5,2  | HIt
   9  5,2  | HSi
   9  7,3  | HaARS
   9  5,2  | HaE
@@ -4405,7 +4373,6 @@
   8  7,4  | EARtHS
   8  5,1  | EASe
   8  3,7  | EASe
-  8  5,1  | EASt
   8  3,7  | EASt
   8  5,1  | EASy
   8  3,7  | EASy
@@ -4718,11 +4685,9 @@
   8  7,3  | SEARcH
   8  2,5  - SEAh
   8  2,5  - SEAm
-  8  5,1  | SEAt
   8  2,4  - SEBAIt
   8  2,4  - SEBAtE
   8  2,7  - SEEm
-  8  5,1  | SEIt
   8  5,1  | SEbA
   8  5,1  | SElE
   8 10,2  | SElE
@@ -5170,7 +5135,6 @@
   7  7,4  | AERIES
   7  7,4  | AERIESt
   7  7,4  | AERIdES
-  7  5,2  | AEt
   7  7,1  | AEtHER
   7 10,3  | AHS
   7 10,2  | AIEl
@@ -5185,7 +5149,6 @@
   7  3,7  | AIrE
   7  6,3  | AIrISH
   7  3,7  | AIrS
-  7  5,2  | AIt
   7  3,7  | AItS
   7  5,5  | AM
   7  7,5  | ARcHE
@@ -5300,7 +5263,6 @@
   7  3,5  - EAm
   7  3,7  | EArS
   7  3,7  | EAsE
-  7  5,2  | EAt
   7  3,7  | EAtS
   7  5,2  | EAu
   7  3,5  - EAu
@@ -5321,7 +5283,6 @@
   7  5,2  | ESe
   7  3,7  | ESnE
   7  3,7  | ESsE
-  7  5,2  | ESt
   7  7,1  | EStHER
   7  5,2  | ESu
   7  3,7  | EfS
@@ -5426,7 +5387,6 @@
   7  6,3  | ISaIAH
   7  7,1  | IScHAR
   7  5,2  | ISe
-  7  5,2  | ISt
   7  3,2  | IbA
   7  5,2  | IbA
   7  5,2  | IcE
@@ -5512,7 +5472,6 @@
   7  3,5  - SAm
   7  5,2  | SAo
   7  3,5  - SAo
-  7  5,2  | SAt
   7  5,2  | SAu
   7  3,5  - SAu
   7  5,2  | SAy
@@ -5547,7 +5506,6 @@
   7  5,2  | SEi
   7  3,7  - SEi
   7  3,7  - SEm
-  7  5,2  | SEt
   7  7,3  | SHARd
   7  7,3  | SHARe
   7  7,3  | SHARi
@@ -5585,7 +5543,6 @@
   7  5,2  | SIe
   7  7,1  | SIgHER
   7  1,4  - SImBA
-  7  5,2  | SIt
   7  3,2  | SaA
   7  5,2  | SaA
   7  2,4  - SaBIA
@@ -5859,7 +5816,6 @@
   6  6,4  | ArISH
   6  7,2  | AsHER
   6  7,2  | AsHIR
-  6  5,3  | At
   6  7,3  | AvERSE
   6  7,2  | AwHIR
   6  5,3  | Ay
@@ -6047,7 +6003,6 @@
   6  5,3  | Eo
   6  7,4  | EpRISE
   6  7,1  | ErASER
-  6  5,3  | Et
   6  7,2  | EtHER
   6  7,4  | EyRIES
   6  2,4  - EzBA
@@ -6179,7 +6134,6 @@
   6  6,3  | IpHIS
   6  6,4  | IrISH
   6  2,4  - IsBA
-  6  5,3  | It
   6  7,2  | ItHER
   6  5,6  | MeA
   6  5,6  | MeS
@@ -7561,7 +7515,6 @@
   4  4,4  - Be
   4  4,4  - Bi
   4  4,4  - Bo
-  4  4,4  - Bt
   4  4,4  - Bu
   4  4,4  - By
   4  7,4  | EAREd
