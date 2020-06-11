@@ -594,7 +594,6 @@
  23  7,2  | ILEOn
  23  7,2  | OLEIn
  23  5,1  | TELOi
- 23  5,1  | TELcO
  23  5,1  | TELoI
  23  7,1  | TaLIO
  23  5,1  | TeLOI
@@ -1887,7 +1886,6 @@
  15  3,3  - bOVATE
  15  2,1  - cEILE
  15  5,1  - cEILE
- 15  5,4  | cITOLE
  15  2,1  - cLITE
  15  2,1  - cLOTE
  15  3,1  - cOLET
@@ -2197,7 +2195,6 @@
  14  5,3  - VATIc
  14  5,3  - VAlET
  14  5,3  - VArIO
- 14  3,3  - VETA
  14  2,3  - VEnIAL
  14  2,3  - VEnTAIL
  14  2,3  - VEsTAL
@@ -2313,7 +2310,6 @@
  13  4,7  - ELd
  13  4,7  - ELs
  13  5,4  - EPILOg
- 13  5,2  | ETc
  13  5,6  | EVIL
  13  7,6  | EVIL
  13  5,6  | EVILs
@@ -2368,7 +2364,6 @@
  13  4,7  - OLd
  13  5,4  - OPELeT
  13  5,4  - OPeLET
- 13  7,2  | OTo
  13  4,3  - OVAnT
  13  4,3  - OVAtE
  13  2,5  - OVEnS
@@ -2477,7 +2472,6 @@
  13  1,5  - VOLTES
  13  2,3  - VOLvATE
  13  3,5  - VOuST
- 13  3,3  - VeTA
  13  3,3  - ViTA
  13  2,3  - ViTIAL
  13  3,5  - VoLS
@@ -2505,7 +2499,6 @@
  13  5,3  | mOET
  13  5,3  | mOIT
  13  7,3  | mOIT
- 13  7,2  | oTO
  13  7,4  | pILE
  13  5,3  | pOET
  13  7,4  | pOLE
@@ -2922,7 +2915,6 @@
  12  3,3  - VEnA
  12  3,3  - VErA
  12  3,5  - VErS
- 12  3,3  - VEtA
  12  3,5  - VEtS
  12  4,3  - VIAL
  12  4,3  - VIALs
@@ -3382,15 +3374,12 @@
  11  5,6  | bEVIL
  11  3,4  - bLIP
  11  5,3  - cAV
- 11  5,4  | cETI
- 11  5,4  | cITE
  11  3,4  - cLEP
  11  1,5  - cLEVIS
  11  3,4  - cLIP
  11  3,4  - cLOP
  11  1,5  - cLOVES
  11  4,3  - cOALITE
- 11  5,4  | cOTE
  11  6,7  - dE
  11  5,6  | dEVIL
  11  7,6  | dEVIL
@@ -3921,13 +3910,9 @@
  10  5,3  | bOE
  10  2,2  - bOTEL
  10  2,6  - cEILE
- 10  5,4  | cIE
- 10  5,4  | cIT
  10  2,6  - cLITE
  10  2,6  - cLOTE
- 10  5,4  | cOE
  10  2,3  - cOITAL
- 10  5,4  | cOT
  10  7,3  | dEI
  10  5,1  | dET
  10  5,6  | dEVOT
@@ -5583,7 +5568,6 @@
   8  3,3  - cITAL
   8  2,6  - cITEE
   8  3,6  - cIVET
-  8  5,2  - cLIV
   8  4,3  - cOATIE
   8  3,3  - cOLAT
   8  1,5  - cOLIES
@@ -6354,8 +6338,6 @@
   7  4,5  - VESt
   7  5,1  - VET
   7  5,6  - VET
-  7  5,1  - VETa
-  7  5,6  - VETa
   7  5,1  - VETo
   7  5,6  - VETo
   7  5,1  - VETs
@@ -6840,7 +6822,6 @@
   7  7,3  | wO
   7  3,6  - wOVE
   7  7,3  | xI
-  7  7,6  | xVI
   7  7,3  | yE
   7  7,3  | yI
   7  5,3  | yO
@@ -7305,8 +7286,6 @@
   6  2,5  - OTIoSE
   6  5,5  | OTc
   6  7,5  | OTc
-  6  5,5  | OTo
-  6  7,5  | OTo
   6  5,6  | OTxI
   6  7,6  | OTxI
   6  5,5  | ObIT
@@ -7331,8 +7310,6 @@
   6  4,3  - OpAL
   6  4,6  - OpELET
   6  4,3  - OrAL
-  6  5,5  | OrL
-  6  7,5  | OrL
   6  3,2  - OuTLIE
   6  4,3  - OvAL
   6  5,5  | OwL
@@ -7457,7 +7434,6 @@
   6  6,5  - STaIL
   6  6,5  - STeEL
   6  6,5  - SToOL
-  6  6,5  - SVc
   6  6,5  - SaIL
   6  6,5  - SaLET
   6  6,5  - SaV
@@ -8107,8 +8083,6 @@
   6  5,3  - wALE
   6  5,3  - wALI
   6  5,3  - wALT
-  6  5,6  | wELI
-  6  7,6  | wELI
   6  5,6  | wELT
   6  7,6  | wELT
   6  2,5  - wELTS
@@ -8609,8 +8583,6 @@
   5  5,5  | OrE
   5  7,5  | OrE
   5  3,6  - OrIEL
-  5  5,6  | OrL
-  5  7,6  | OrL
   5  2,5  - OrLES
   5  4,2  - OrLET
   5  3,6  - OrLET
@@ -9312,8 +9284,6 @@
   5  7,5  | oOT
   5  5,4  - oPE
   5  5,4  - oPT
-  5  5,5  | oTO
-  5  7,5  | oTO
   5  5,3  - pAIL
   5  5,3  - pAL
   5  5,1  | pE
@@ -10033,8 +10003,6 @@
   4  5,6  | OTc
   4  7,6  | OTc
   4  3,5  - OTiS
-  4  5,6  | OTo
-  4  7,6  | OTo
   4  3,5  - OTuS
   4  5,6  | OaT
   4  7,6  | OaT
@@ -10666,7 +10634,6 @@
   4  4,2  - cOLT
   4  4,5  - cOSET
   4  4,5  - cOSIE
-  4  5,4  - cP
   4  5,3  - dATE
   4  5,3  - dATO
   4  3,3  - dEIA
@@ -10851,7 +10818,6 @@
   4  3,6  - jOLE
   4  3,5  - jOLS
   4  4,2  - jOLT
-  4  4,5  - jOSIE
   4  3,3  - jOTA
   4  5,3  - kATE
   4  4,1  - kEEL
@@ -11101,7 +11067,6 @@
   4  5,1  - vELO
   4  4,2  - vELO
   4  5,6  - vELO
-  4  3,3  - vETA
   4  4,2  - vILE
   4  3,6  - vILE
   4  3,2  - vIOL
@@ -11120,9 +11085,6 @@
   4  5,1  - wEEL
   4  4,6  - wEEL
   4  5,6  - wEEL
-  4  5,1  - wELI
-  4  4,2  - wELI
-  4  5,6  - wELI
   4  3,5  - wELS
   4  5,1  - wELT
   4  4,2  - wELT
@@ -11459,7 +11421,6 @@
   3  7,6  | Op
   3  5,6  | Or
   3  7,6  | Or
-  3  4,2  - OrL
   3  5,6  | Os
   3  7,6  | Os
   3  4,5  - OsSE
@@ -11527,7 +11488,6 @@
   3  6,5  - SaL
   3  6,5  - SeL
   3  6,5  - SiL
-  3  6,5  - SmL
   3  6,5  - SoL
   3  6,5  - SpL
   3  6,5  - SyL
@@ -11983,7 +11943,6 @@
   3  7,6  | mOT
   3  3,6  - mOTE
   3  3,5  - mOTS
-  3  5,5  - mSL
   3  5,3  - nAE
   3  5,3  - nAT
   3  4,3  - nEA
@@ -12028,8 +11987,6 @@
   3  7,6  | oOT
   3  3,5  - oOTS
   3  3,5  - oTIS
-  3  5,6  | oTO
-  3  7,6  | oTO
   3  5,3  - pAT
   3  4,3  - pEA
   3  4,5  - pESO

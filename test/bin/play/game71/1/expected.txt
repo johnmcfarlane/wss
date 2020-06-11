@@ -341,8 +341,6 @@
  21  3,11 - OlPES
  21  5,11 - PEEOy
  21  5,7  | PEES
- 21  2,11 - PEEkE
- 21  5,11 - PEEkE
  21  5,11 - PEEkS
  21  2,11 - PEElE
  21  5,11 - PEElE
@@ -1664,7 +1662,6 @@
  15  5,6  | SlOE
  15  5,4  | SlOP
  15  7,4  | SlOP
- 15  5,6  | SmEE
  15  4,8  - SmOOGE
  15  5,6  | SnEE
  15  5,4  | SnOP
@@ -1937,6 +1934,7 @@
  14  5,3  | PEgS
  14  5,3  | PEhO
  14  7,3  | PEhO
+ 14  5,3  | PEhS
  14  7,4  | PEiSE
  14  5,3  | PEkE
  14  7,3  | PEkE
@@ -2394,6 +2392,8 @@
  13  5,5  | PEgS
  13  5,5  | PEhO
  13  7,5  | PEhO
+ 13  5,5  | PEhS
+ 13  7,5  | PEhS
  13  5,5  | PElE
  13  5,5  | PEnS
  13  7,5  | PEnS
@@ -2560,7 +2560,6 @@
  13  5,9  - bLEEP
  13  5,3  | cEPES
  13  7,3  | cEPES
- 13  5,6  | cGS
  13  5,6  | cOG
  13  5,3  | cOPES
  13  7,3  | cOPES
@@ -3092,7 +3091,6 @@
  12  5,2  | cOPES
  12  5,2  | cOPSE
  12  7,2  | cOPSE
- 12  5,6  | cP
  12  5,2  | dEEPS
  12  3,8  - dEPOSE
  12  5,5  | dOG
@@ -4170,7 +4168,6 @@
  10  5,7  | SiE
  10  5,2  | SiEGE
  10  7,2  | SiEGE
- 10  7,5  | SmEE
  10  5,7  | SoE
  10  5,3  | StGE
  10  7,3  | StGE
@@ -4685,6 +4682,7 @@
   9  3,8  - PEEOy
   9  5,11 - PEGS
   9  4,6  - PEHO
+  9  4,6  - PEHS
   9  4,9  - PELeS
   9  4,9  - PELfS
   9  4,9  - PELtS
@@ -4908,9 +4906,6 @@
   9  5,4  | SlOE
   9  7,4  | SlOE
   9  3,11 - SlOE
-  9  5,4  | SmEE
-  9  7,4  | SmEE
-  9  3,11 - SmEE
   9  3,8  - SmOOGE
   9  5,4  | SnEE
   9  7,4  | SnEE
@@ -5470,6 +5465,7 @@
   8  5,11 - PEGs
   8  4,6  - PEH
   8  4,6  - PEHo
+  8  4,6  - PEHs
   8  4,10 - PEISE
   8  4,10 - PEISEd
   8  4,10 - PEISEr
@@ -5604,6 +5600,7 @@
   8  4,9  - PaLS
   8  3,6  - PaSH
   8  4,6  - PeHO
+  8  4,6  - PeHS
   8  4,9  - PeLE
   8  3,6  - PhOH
   8  4,9  - PiLE
@@ -5745,8 +5742,6 @@
   8  7,3  | SlOE
   8  3,7  - SlOOP
   8  4,8  - SlOP
-  8  5,3  | SmEE
-  8  7,3  | SmEE
   8  3,7  - SmOOGE
   8  4,7  - SmOOGE
   8  5,3  | SnEE
@@ -5785,7 +5780,6 @@
   8  7,5  | bOS
   8  5,5  | cEE
   8  7,5  | cEE
-  8  5,4  | cGS
   8  5,6  - cHEGO
   8  5,6  - cHOP
   8  5,9  - cLEP
@@ -6279,7 +6273,6 @@
   7  4,11 - PEEOy
   7  4,11 - PEES
   7  5,11 - PEES
-  7  4,11 - PEEkE
   7  4,11 - PEEkS
   7  4,11 - PEElE
   7  4,11 - PEElS
@@ -7174,6 +7167,7 @@
   6  5,11 - PEeS
   6  5,11 - PEgS
   6  5,11 - PEhO
+  6  5,11 - PEhS
   6  5,11 - PEkE
   6  5,11 - PElE
   6  5,11 - PEnS
@@ -7726,7 +7720,6 @@
   6  5,4  | rEE
   6  7,4  | rEE
   6  3,10 - rEGIE
-  6  4,6  - rEHOE
   6  5,11 - rEPS
   6  5,4  | rES
   6  5,10 - rIPE
@@ -8657,6 +8650,7 @@
   5  3,9  - pEEL
   5  5,11 - pEGS
   5  4,6  - pEHO
+  5  4,6  - pEHS
   5  5,11 - pEP
   5  3,8  - pESO
   5  5,6  - pHOS
@@ -9072,8 +9066,6 @@
   4  6,8  - OsE
   4  6,7  - OsES
   4  6,7  - OsSE
-  4  4,8  - OtO
-  4  6,8  - OtO
   4  5,7  | Ow
   4  7,7  | Ow
   4  5,10 | Ow
@@ -9252,7 +9244,6 @@
   4  5,7  | jO
   4  5,7  - jOG
   4  5,8  - jOG
-  4  3,10 - jOSIE
   4  5,11 - kEG
   4  4,9  - kOL
   4  4,11 - lEESE
@@ -9280,7 +9271,6 @@
   4  4,10 - mOISE
   4  4,9  - mOL
   4  4,7  - mOOSE
-  4  4,9  - mSL
   4  5,7  | nE
   4  7,7  | nE
   4  7,10 | nE
@@ -9497,7 +9487,6 @@
   3  4,11 - OnES
   3  4,11 - OpES
   3  4,11 - OrES
-  3  4,9  - OrL
   3  4,11 - OsES
   3  4,10 - OtIS
   3  4,10 - OvIS
@@ -9600,8 +9589,6 @@
   3  3,8  - SkOO
   3  4,11 - SlEE
   3  4,7  - SlOE
-  3  4,11 - SmEE
-  3  4,9  - SmL
   3  4,11 - SnEE
   3  4,9  - SoL
   3  4,9  - SpL
@@ -9910,8 +9897,6 @@
   2  6,7  - OrS
   2  6,7  - OsE
   2  4,11 - OsE
-  2  4,7  - OtO
-  2  6,7  - OtO
   2  4,10 - OuI
   2  6,7  - OwE
   2  4,11 - OwE

@@ -17,18 +17,13 @@
  42  9,1  | APHEsES
  42  7,11 - ZAs
  42  7,11 - ZAt
- 41  7,11 - HAsP
  40  7,11 - PAsH
  40  7,11 - PAtH
  40  8,11 - PoH
- 40  9,11 - oPA
- 40  9,11 - sPA
  39  5,11 - HEAPs
  39 11,6  | HoPAK
  39  9,1  | PEAHEnS
  39 11,8  | PEKE
- 39 11,7  | PEeKE
- 39 11,7  | PeEKE
  39  9,1  | sPAHEES
  39 11,7  | sPAKE
  36 11,6  | APEEK
@@ -72,7 +67,6 @@
  33 11,7  | PEAKy
  33  1,3  | PEAcHES
  33 11,7  | PEEK
- 33 11,7  | PEEKe
  33 11,7  | PEEKs
  33  6,11 - PHAt
  33 11,6  | aPEAK
@@ -80,8 +74,6 @@
  33 11,6  | sAPEK
  33  1,3  | sPAHEES
  33 11,6  | sPEAK
- 32  8,11 - AdP
- 32  8,11 - AsP
  32  3,8  - EPA
  32  3,8  - EPE
  32  9,2  | PHiZES
@@ -241,7 +233,6 @@
  24  7,5  - wAZ
  24  7,5  - yEZ
  23  1,11 - HAYZ
- 23 10,11 - PA
  23  7,5  - PEiZE
  23  4,4  | PiZE
  23  9,3  | ZAxES
@@ -251,13 +242,11 @@
  23  9,3  | dAZES
  23  9,3  | fAZES
  23  9,3  | fEZES
- 23  9,11 - fP
  23  9,3  | gAZES
  23  9,3  | hAZES
  23  9,3  | lAZES
  23  9,3  | mAZES
  23  9,3  | mEZES
- 23  9,11 - oP
  23  9,3  | rAZES
  22  7,5  - HEAZy
  22  7,5  - HEEZe
@@ -375,6 +364,7 @@
  18  1,11 - PAYEEs
  18  7,5  - PEH
  18  7,5  - PEHo
+ 18  7,5  - PEHs
  18  4,3  | PEiZE
  18  1,11 - PHYs
  18  7,5  - PaHA
@@ -443,11 +433,9 @@
  17  7,5  - PHEAl
  17  7,5  - PHEbE
  17  7,5  - PHEnE
- 17 10,11 - Pa
  17  7,5  - PaH
  17  1,11 - PaYEE
  17  7,5  - PeH
- 17 10,11 - Pi
  17  7,5  - PoH
  17  7,5  - PpH
  17  7,11 - ZA
@@ -609,7 +597,6 @@
  15  5,11 - nEAP
  15  5,11 - nEEP
  15  4,3  | nEEZE
- 15 10,11 - pA
  15  5,11 - pEEP
  15  4,3  | rAZEE
  15  5,11 - rEAP
@@ -805,6 +792,7 @@
  13  9,3  | PAtHS
  13  7,5  - PAvE
  13  5,11 - PEHo
+ 13  5,11 - PEHs
  13  7,5  - PEbA
  13  9,3  | PEcHS
  13  7,5  - PEdA
@@ -861,7 +849,6 @@
  13  7,5  - aHEAP
  13  7,5  - aPH
  13  9,3  | cAPHS
- 13  7,11 - cP
  13  1,5  | dAZES
  13  7,5  - dEPA
  13  7,5  - dEPE
@@ -1133,8 +1120,6 @@
  11  1,4  | EmPHASE
  11  5,11 - EpHA
  11  1,4  | EpHAPSE
- 11  4,4  | HAbE
- 11  7,5  - HAbE
  11  4,4  | HAdE
  11  7,5  - HAdE
  11  4,4  | HAjE
@@ -1438,6 +1423,7 @@
  10  6,11 - PAw
  10  6,11 - PAy
  10  9,2  | PAyEES
+ 10  9,4  | PEHS
  10  9,5  | PES
  10  9,5  | PESa
  10  9,5  | PESo
@@ -1650,9 +1636,9 @@
   9  9,2  | PEAsES
   9 10,8  | PECh
   9 10,8  | PECk
-  9  4,3  | PEEkE
   9  4,3  | PEElE
   9  4,3  | PEEvE
+  9  1,6  | PEHS
   9  1,7  | PEStE
   9  1,5  | PEcHS
   9  4,3  | PEdEE
@@ -1744,7 +1730,6 @@
   8  7,5  - AlEE
   8 10,8  | ArCH
   8  7,5  - AwEE
-  8 10,10 | CP
   8  4,4  | EPeE
   8  9,3  | EPeES
   8  9,3  | EPhAS
@@ -1895,6 +1880,8 @@
   8  2,11 - PYrE
   8 10,8  | PaC
   8  1,7  | PaSH
+  8  9,4  | PeHS
+  8  1,6  | PeHS
   8 10,8  | PfC
   8 10,8  | PiC
   8  1,7  | PiSH
@@ -2144,6 +2131,7 @@
   7  9,4  | PEdS
   7  9,4  | PEeS
   7  9,4  | PEgS
+  7  9,4  | PEhS
   7  1,6  | PEiSE
   7  1,5  | PEkES
   7  1,5  | PElES
@@ -2511,6 +2499,7 @@
   6  1,6  | PEdS
   6  1,6  | PEeS
   6  1,6  | PEgS
+  6  1,6  | PEhS
   6  1,6  | PEnS
   6  1,6  | PEpS
   6  1,6  | PErS
@@ -2618,6 +2607,7 @@
   6  1,11 - pAYEE
   6  7,5  - pEA
   6  7,5  - pEE
+  6  9,4  | pEHS
   6  1,6  | pEPS
   6  1,6  | pHASE
   6  2,10 - pTA
@@ -2956,6 +2946,7 @@
   5  9,5  | pASH
   5  1,7  | pASH
   5  9,4  | pEASE
+  5  1,6  | pEHS
   5  9,5  | pPS
   5  1,7  | pPS
   5  9,5  | rASH
@@ -3038,7 +3029,6 @@
   4  7,4  | AyIN
   4 10,10 | Cc
   4 10,10 | Ch
-  4 10,10 | Cp
   4  1,7  | EASE
   4  1,7  | EASEd
   4  1,7  | EASEl

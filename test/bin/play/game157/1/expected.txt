@@ -31,7 +31,6 @@
  27  8,2  | BEGAd
  27  8,2  | CAGEd
  27  8,2  | CAGEs
- 27  8,4  | CGs
  26  8,3  | ABEd
  26  8,3  | ACEd
  26  8,3  | ACEs
@@ -137,15 +136,11 @@
  22  8,4  | GAs
  22  8,4  | GEd
  22  8,4  | GEs
- 22  6,6  | SABECa
  22  6,6  | SCAiFE
  22  6,6  | SCAlFE
  22  6,6  | SCArFE
  22  6,6  | SCrABE
- 22  6,6  | SaBECA
  22  8,6  | dAG
- 22  2,1  | sABECA
- 22  2,5  | sABECA
  22  8,6  | sAG
  22  8,6  | sCAG
  22  8,6  | sEG
@@ -1120,7 +1115,6 @@
  13  7,7  - sCF
  13  4,4  | sCUBA
  13  4,5  | sUBAGE
- 13  3,5  | sVC
  13  4,5  | tUBAGE
  12  6,5  - AB
  12  4,4  | ABUnE
@@ -1641,8 +1635,6 @@
  11  3,5  | eVG
  11  7,5  - fACE
  11  7,7  - fACE
- 11  7,5  - hABE
- 11  7,7  - hABE
  11  6,5  - iBA
  11  6,5  - iFE
  11  6,7  - iFE
@@ -1676,8 +1668,6 @@
  11  7,7  - tACE
  11  7,5  - tECA
  11  7,7  - tECA
- 11  7,5  - wABE
- 11  7,7  - wABE
  11  7,5  - wACE
  11  7,7  - wACE
  10  1,5  - AB
@@ -2260,7 +2250,6 @@
   9  5,2  | CApEL
   9  2,5  | CArF
   9  2,5  | CArGA
-  9  5,2  | CAsEL
   9  5,2  | CAtEL
   9  2,5  | CAuF
   9  5,2  | CAvEL
@@ -2472,7 +2461,6 @@
   9  3,6  | VElA
   9  3,6  | VEnA
   9  3,6  | VErA
-  9  3,6  | VEtA
   9  3,6  | VaC
   9  3,6  | ViC
   9  3,6  | VoC
@@ -2688,7 +2676,6 @@
   8  7,2  | CEAsE
   8  7,5  | CEAsE
   8  5,4  | CELlA
-  8  6,4  | CGS
   8  5,5  | CLAEs
   8  5,5  | CLEAd
   8  5,5  | CLEAm
@@ -3103,7 +3090,6 @@
   7  5,4  | CALx
   7  6,4  | CASE
   7  6,4  | CASEd
-  7  6,4  | CASEl
   7  6,4  | CASEr
   7  6,4  | CASEs
   7  6,4  | CASEy
@@ -4156,8 +4142,6 @@
   6  2,5  | hAAB
   6  2,4  | hAAF
   6  2,5  | hAAF
-  6  7,3  | hABE
-  6  2,5  | hABE
   6  7,4  | hAEC
   6  2,5  | hAEC
   6  5,4  | hCL
@@ -4270,14 +4254,11 @@
   6  4,3  | vEAU
   6  2,4  | wAAC
   6  2,5  | wAAC
-  6  7,3  | wABE
-  6  2,5  | wABE
   6  6,3  | wABS
   6  7,3  | wACE
   6  2,5  | wACE
   6  6,3  | wACS
   6  6,3  | wEBS
-  6  5,4  | xCL
   6  2,3  | yABA
   6  2,5  | yABA
   5  2,6  | AB
@@ -4481,7 +4462,6 @@
   5  6,5  | CSw
   5  7,4  | CeE
   5  6,4  | CfS
-  5  6,4  | CgS
   5  1,5  - Ch
   5  1,7  - Ch
   5  2,4  | ChA
@@ -4492,7 +4472,6 @@
   5  6,4  | CiS
   5  7,4  | CoE
   5  6,4  | CoS
-  5  1,5  - Cp
   5  7,4  | CrE
   5  6,4  | CrS
   5  7,4  | CtE
@@ -4776,7 +4755,6 @@
   5  6,6  | StGE
   5  6,6  | SuB
   5  6,6  | SuF
-  5  6,6  | SvC
   5  6,6  | SwAG
   5  4,6  | UGh
   5  4,6  | UGt
@@ -5128,7 +5106,6 @@
   4  5,5  | bLAE
   4  5,5  | bLEA
   4  2,5  | cAG
-  4  6,4  | cGS
   4  2,5  | dAG
   4  5,4  | dALE
   4  7,5  - dEA

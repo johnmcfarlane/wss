@@ -192,7 +192,6 @@
  32 10,6  | sPEEL
  32 10,6  | sPEEN
  31  4,8  - QtR
- 31  8,10 - SPL
  31  8,3  | SQq
  31 11,9  | SeQ
  31 11,9  | SqQ
@@ -230,7 +229,6 @@
  28 10,6  | PElES
  28 10,6  | PEnES
  28 10,6  | PErES
- 28  8,10 - PpL
  28 10,6  | PrEES
  28 10,7  | QuEEN
  28 10,6  | SELENa
@@ -259,15 +257,13 @@
  28 10,6  | ePEES
  28 10,6  | kNEELS
  28 10,5  | mESLEN
- 28  8,10 - pPL
- 28  8,10 - sPL
  28 10,5  | uNSEEL
  28 10,6  | uNSEEL
  27  9,9  | CEP
  27  9,9  | CSP
  27  9,1  | ESHiN
  27  8,2  - EsQ
- 27  9,10 - PLi
+ 27  9,1  | PEHS
  27  7,2  - QiS
  27  7,2  - QuE
  27  9,8  | SCaP
@@ -329,6 +325,7 @@
  24 10,6  | NpEEL
  24  9,1  | PEH
  24  9,1  | PEHo
+ 24  9,1  | PEHs
  24  7,2  - PEaL
  24  7,2  - PEaN
  24  7,2  - PEeL
@@ -339,8 +336,8 @@
  24  1,2  - PaNEL
  24  7,2  - PeEL
  24  7,2  - PeEN
+ 24  9,1  | PeHS
  24  7,2  - PiEN
- 24  8,10 - PpS
  24 10,6  | QErE
  24 10,8  | QErE
  24  3,7  - QuEEN
@@ -361,8 +358,6 @@
  24  1,2  - iNSEP
  24 10,6  | kNEEL
  24  9,7  | oNCES
- 24  8,10 - pPS
- 24  8,10 - tPS
  23  1,2  - NEPaL
  23  4,8  - NERaL
  23  1,2  - NPEeL
@@ -372,14 +367,10 @@
  23  7,2  - PESo
  23  7,2  - PESs
  23  7,2  - PESt
- 23  9,10 - PEh
  23  1,2  - PLEoN
- 23  9,10 - PSi
  23  7,1  | QuIPS
  23  1,2  - SLEeP
  23  1,2  - SNEaP
- 23  8,10 - SPl
- 23  8,10 - SPt
  22 10,9  | EsQ
  22  7,2  - LEaP
  22  7,2  - LEeP
@@ -387,7 +378,6 @@
  22  7,2  - LeEP
  22  7,2  - LiSP
  22  2,2  - NeEP
- 22  9,10 - PE
  22  7,2  - PEaS
  22  7,2  - PEeS
  22  7,2  - PEsS
@@ -558,7 +548,6 @@
  19  3,8  - SPuRL
  19  3,8  - SPuRN
  19  7,2  - SeEP
- 19  8,10 - SpL
  18  9,9  | CLi
  18  9,9  | CLk
  18  9,9  | CLo
@@ -596,10 +585,6 @@
  18 10,4  | PENSeE
  18 10,4  | PEStLE
  18  5,5  - PIQuES
- 18  7,6  | PLEAS
- 18  7,6  | PLEASe
- 18  7,6  | PLEAdS
- 18  7,6  | PLEAtS
  18 10,7  | PLENa
  18 10,7  | PLENy
  18 10,4  | PLEaSE
@@ -609,12 +594,10 @@
  18  2,2  - PLEw
  18 10,5  | PLaNE
  18  2,2  - PLiE
- 18  9,10 - Pe
  18 10,4  | PeNSEE
  18  4,8  - PeRN
  18  4,8  - PiRL
  18  4,8  - PiRN
- 18  9,10 - Po
  18  4,8  - PoRN
  18 10,4  | PuNESE
  18  4,8  - PuRL
@@ -645,8 +628,6 @@
  17  8,7  | EPULo
  17  3,5  - EQuIP
  17  5,8  - ERaL
- 17  7,10 - EmP
- 17  7,3  | INSP
  17  3,4  - LENOs
  17  8,6  | LEPUs
  17  4,8  - LERP
@@ -671,11 +652,6 @@
  17  3,4  - PEpOS
  17  3,4  - PEsOS
  17  5,5  - PIQuE
- 17  7,6  | PLEA
- 17  7,6  | PLEAd
- 17  7,6  | PLEAs
- 17  7,6  | PLEAt
- 17  7,6  | PLeASE
  17  1,2  - PLiE
  17  8,8  | PULE
  17  8,8  | PULS
@@ -708,13 +684,8 @@
  17  8,7  | SPUNk
  17  8,7  | SPUrL
  17  8,7  | SPUrN
- 17  7,10 - SPp
  17  4,7  - ShEQEL
- 17  7,10 - ShP
- 17  7,10 - SpP
- 17  7,10 - SsP
  17  2,2  - aPES
- 17  7,10 - aSP
  17  8,2  | aSPENS
  17  8,6  | bEPUN
  17  3,4  - gENOS
@@ -724,7 +695,6 @@
  17  1,2  - oLPE
  17  2,2  - oPES
  17  3,8  - sNERP
- 17  7,10 - sSP
  17  3,4  - xENOS
  16  4,3  | DESPiN
  16  5,1  | ELOPS
@@ -799,7 +769,6 @@
  16 10,7  | PLEbE
  16 10,7  | PLEbS
  16 10,7  | PLEiS
- 16  7,6  | PLeAS
  16 10,7  | PSENd
  16  8,8  | PUL
  16  8,8  | PULe
@@ -885,7 +854,6 @@
  16 10,7  | SPElL
  16  2,2  - SPEt
  16  2,2  - SPEw
- 16  7,5  | SPL
  16  8,3  | SPLEt
  16  2,6  - SPLicE
  16  8,7  | SPUE
@@ -949,7 +917,6 @@
  15  9,9  | CSw
  15  9,9  | CeE
  15  9,9  | CfS
- 15  9,9  | CgS
  15  9,9  | ChE
  15  9,9  | ChS
  15  9,9  | CiE
@@ -973,7 +940,6 @@
  15  9,4  - EsQ
  15  9,1  | EtHS
  15  4,4  - ExON
- 15  7,3  | INsP
  15  3,2  - LEP
  15  2,2  - LEaN
  15  3,4  - LEnOS
@@ -1004,7 +970,6 @@
  15  7,2  - PEt
  15  5,5  - PIQu
  15  8,5  | PLENUm
- 15  7,6  | PLeA
  15  5,4  - PON
  15  8,8  | PUS
  15  8,8  | PUSh
@@ -1029,7 +994,6 @@
  15  1,2  - PaSE
  15  7,2  - PeE
  15  7,2  - PeS
- 15  7,6  | PhEAL
  15  7,2  - PiE
  15  7,2  - PiS
  15  1,2  - PiSE
@@ -1110,6 +1074,7 @@
  15  5,1  | kNOSP
  15  9,2  - oLP
  15  8,7  | oPUS
+ 15  9,1  | pEHS
  15  5,1  | pLOPS
  15  7,1  | sLIPS
  15  5,1  | sLOPS
@@ -1259,12 +1224,10 @@
  14  3,5  - PiLINE
  14  1,4  - PiNE
  14 10,6  | PiNE
- 14  7,6  | PlEAS
  14  1,4  - PoLE
  14 10,6  | PoLE
  14  1,4  - PoNE
  14 10,6  | PoNE
- 14  8,10 - Pp
  14 10,7  | PrEES
  14 10,5  | PrESE
  14 10,7  | PrESE
@@ -1394,13 +1357,11 @@
  14 10,7  | oPEN
  14 10,7  | pEEPS
  14  8,5  | pEPLUS
- 14  8,10 - pP
  14  3,4  - rENO
  14 10,8  | rEPL
  14 10,7  | sEEPS
  14 10,8  | sEPN
  14  9,6  | sPECS
- 14  7,5  | sPL
  14  2,7  - sPLEEN
  14 10,7  | vEEPS
  14 10,5  | vEPSE
@@ -1421,7 +1382,6 @@
  13  9,3  | HEPS
  13  9,3  | HeLPS
  13  7,3  | IPS
- 13  7,3  | InSP
  13  7,7  | LEAP
  13  7,7  | LEAPs
  13  7,7  | LEAPt
@@ -1524,7 +1484,6 @@
  13  5,1  | PiONS
  13  4,8  - PiR
  13  1,4  - PiSE
- 13  7,6  | PlEA
  13  2,2  - PoE
  13  3,5  - PoLIES
  13  3,5  - PoNIES
@@ -1611,7 +1570,6 @@
  13  9,2  - cEP
  13  5,5  - cINQ
  13  5,2  | cOPS
- 13  9,8  - cP
  13  8,2  | cSP
  13  9,2  - cSP
  13  3,2  - dEP
@@ -1828,6 +1786,7 @@
  12  2,2  - PEe
  12 10,8  | PEeS
  12 10,8  | PEgS
+ 12 10,8  | PEhS
  12 10,6  | PEkE
  12 10,8  | PEkE
  12  3,5  - PEkIN
@@ -2007,9 +1966,7 @@
  12  2,7  - SPaNE
  12  2,7  - SPiLE
  12  2,7  - SPiNE
- 12  7,5  | SPl
  12  2,7  - SPoLE
- 12  7,5  | SPt
  12 10,6  | SPuE
  12  9,1  | SaH
  12  3,2  - SaP
@@ -2074,7 +2031,6 @@
  12  9,1  | fEH
  12  7,1  | fLIP
  12  5,1  | fLOP
- 12  7,5  | fPS
  12  5,7  - gENEP
  12  5,5  - gINEP
  12 10,7  | gLEEN
@@ -2107,9 +2063,7 @@
  12 10,8  | nEEP
  12  8,5  | oLENUS
  12  2,4  - oPE
- 12  7,5  | oPE
  12 10,7  | oPES
- 12  7,5  | oPS
  12 10,7  | pEEP
  12 10,8  | pEEP
  12  9,1  | pEH
@@ -2134,7 +2088,6 @@
  12  8,8  | sUQ
  12 10,6  | tEPE
  12 10,8  | tEPE
- 12  7,5  | tPS
  12  2,7  - uNPEEL
  12  3,5  - uNPILES
  12  2,5  - uNSLIP
@@ -2238,7 +2191,6 @@
  11  5,3  | OPt
  11  5,3  | OlP
  11  5,3  | OpP
- 11  7,6  | PE
  11  7,1  | PEIN
  11  5,7  - PELoN
  11  1,7  - PENSeE
@@ -2459,7 +2411,6 @@
  11  7,6  | cLEAN
  11  2,7  - cLEPES
  11  5,1  | cLONS
- 11  9,2  - cP
  11  5,5  - dISPLE
  11  8,2  - eEL
  11  8,2  - eEN
@@ -2916,7 +2867,6 @@
  10 10,7  | SkEEN
  10 10,5  | SkENE
  10 10,7  | SkENE
- 10  9,2  - SmL
  10  9,2  - SoL
  10  9,2  - SoN
  10 10,7  | SpEEL
@@ -3023,7 +2973,6 @@
  10  2,4  - oLE
  10  2,4  - oNE
  10  4,5  - oPINES
- 10  9,10 - pE
  10 10,7  | pEELS
  10 10,7  | pEENS
  10  7,1  | pEINS
@@ -3032,7 +2981,6 @@
  10 10,8  | pEP
  10  2,5  - pEPSIN
  10  7,2  | pIP
- 10  7,6  | pLEAS
  10  5,2  | pOP
  10  5,8  - pRP
  10  7,7  | rEAPS
@@ -3128,7 +3076,6 @@
   9  9,3  | HeEP
   9  9,3  | HoSP
   9  7,3  | INS
-  9  7,3  | INSp
   9  6,5  - INStEP
   9  6,5  - INgLES
   9  6,5  - INkLES
@@ -3400,7 +3347,6 @@
   9 11,7  | PaSES
   9  8,1  | PaSSE
   9 11,7  | PaSSE
-  9  7,6  | Pe
   9  4,1  | PeDS
   9  3,2  - PeE
   9  2,7  - PeNSEE
@@ -3408,7 +3354,6 @@
   9  3,2  - PeS
   9  3,2  - PiE
   9  3,2  - PiS
-  9  7,6  | Po
   9  4,1  | PoDS
   9  3,2  - PoE
   9  2,5  - PoLEIS
@@ -3637,7 +3582,6 @@
   9  8,7  | cLUE
   9  5,2  | cOLS
   9  5,2  | cONS
-  9  5,6  | cP
   9  3,2  - dEL
   9  3,2  - dEN
   9  7,2  | dINS
@@ -3662,7 +3606,6 @@
   9  8,7  | fLUE
   9  8,7  | fLUS
   9  5,2  | fONS
-  9  7,5  | fP
   9  3,2  - gEL
   9  3,2  - gEN
   9  3,5  - gENIPS
@@ -3724,7 +3667,6 @@
   9  9,2  - oNS
   9  8,7  | oNUS
   9  5,2  | oONS
-  9  7,5  | oP
   9  8,2  - oSE
   9  2,4  - oSE
   9  8,6  | pELU
@@ -3732,7 +3674,6 @@
   9  7,2  - pES
   9  7,2  | pIEN
   9  7,2  | pINS
-  9  7,6  | pLEA
   9  7,1  | pLIES
   9  8,7  | pLUS
   9  5,2  | pOLS
@@ -3793,7 +3734,6 @@
   9  3,2  - zEN
   9  8,6  | zENU
   9  5,2  | zOLS
-  8  9,9  | CP
   8  4,3  | DELS
   8  4,3  | DELeS
   8  4,3  | DELfS
@@ -4599,7 +4539,6 @@
   8 10,6  | SoLE
   8  3,2  - SoN
   8 10,6  | SoNE
-  8  7,5  | SpL
   8  3,7  - SpLEEN
   8  3,5  - SpLINE
   8  3,7  - StEEP
@@ -4683,7 +4622,6 @@
   8  6,6  - cSNEt
   8  8,8  | cULP
   8  6,6  - caNES
-  8  6,6  - caSEL
   8  6,6  - ceNSE
   8  6,6  - ciNES
   8  6,6  - coLES
@@ -5586,7 +5524,6 @@
   7  4,5  - SlIPE
   7  5,1  | SlON
   7  8,7  | SlUP
-  7 11,9  | SmL
   7  4,5  - SnIPE
   7  8,7  | SnUP
   7 10,10 - So
@@ -5753,7 +5690,6 @@
   7  5,7  - mESEL
   7  5,4  - mON
   7  9,6  | mSEC
-  7  8,2  | mSL
   7  7,7  | nEAL
   7  4,7  - nEEPS
   7  7,1  | nEIN
@@ -6295,6 +6231,8 @@
   6  5,7  - PEeS
   6 11,6  | PEgS
   6  5,7  - PEgS
+  6 11,6  | PEhS
+  6  5,7  - PEhS
   6  5,7  - PEkE
   6  5,7  - PElE
   6 11,6  | PEnS
@@ -6629,8 +6567,6 @@
   6 10,6  | SlEE
   6 10,7  | SlEE
   6  4,5  - SlIP
-  6 10,6  | SmEE
-  6 10,7  | SmEE
   6 10,6  | SnEE
   6 10,7  | SnEE
   6  4,5  - SnIP
@@ -6655,7 +6591,6 @@
   6  3,8  - SuPR
   6  8,3  | SuPS
   6 11,6  | SuPS
-  6  9,7  | SvC
   6  8,3  | SwEP
   6  4,7  - SwEP
   6  8,9  | UNL
@@ -6893,7 +6828,6 @@
   6  5,5  - mIPS
   6  5,2  | mOL
   6  5,2  | mON
-  6  9,4  - mSL
   6  4,7  - nEEP
   6  5,7  - nEEP
   6  5,7  - nENES
@@ -6913,7 +6847,6 @@
   6  9,4  - oNS
   6 11,6  | oPES
   6  4,7  - oPES
-  6  5,8  - oRL
   6  8,2  - oS
   6  4,1  | pEDS
   6  5,7  - pEELS
@@ -7047,7 +6980,6 @@
   6  5,5  - wISP
   6  5,2  | wON
   6  8,8  | wUP
-  6  9,8  | xCL
   6  5,5  - xIPE
   6 10,7  | yEES
   6 10,8  | yEES
@@ -8021,7 +7953,6 @@
   4  7,9  | ANS
   4  9,9  | Cc
   4  9,9  | Ch
-  4  9,9  | Cp
   4  4,3  | DaL
   4  4,3  | DaN
   4  4,3  | DaSE
@@ -8656,7 +8587,6 @@
   4  4,5  - SkIN
   4  3,7  - SlEE
   4  8,7  | SlUE
-  4  3,7  - SmEE
   4  3,7  - SnEE
   4  7,2  - So
   4 11,9  | SoE
@@ -8777,7 +8707,6 @@
   4  6,6  - cLoN
   4  5,2  | cOE
   4  5,2  | cOS
-  4  6,6  - cP
   4  6,6  - cPu
   4  8,8  | cUES
   4  8,8  | cUL
@@ -9133,7 +9062,6 @@
   4  5,7  - wEEL
   4  4,7  - wEEN
   4  5,7  - wEEN
-  4  3,5  - wELI
   4 11,6  | wELS
   4  5,7  - wELS
   4  3,7  - wENE
@@ -9527,8 +9455,6 @@
   3  4,7  - SkEE
   3  3,8  - SkER
   3  4,7  - SlEE
-  3  4,7  - SmEE
-  3  8,3  | SmL
   3  4,7  - SnEE
   3  3,2  - So
   3  3,4  - So
@@ -9736,7 +9662,6 @@
   3  5,5  - mIL
   3  5,5  - mIN
   3  5,5  - mISE
-  3 11,8  | mSL
   3  8,8  | mUS
   3  4,1  | nED
   3  3,7  - nESE
@@ -9760,7 +9685,6 @@
   3  4,6  - oNcE
   3 11,6  | oSES
   3 11,7  | oSSE
-  3  7,6  | pE
   3  4,1  | pED
   3  4,7  - pEES
   3  5,7  - pEES
@@ -10399,7 +10323,6 @@
   2 11,7  | xES
   2  5,5  - xIS
   2  8,8  | xU
-  2  5,6  - xcL
   2  4,7  - yEE
   2  5,7  - yEE
   2 10,7  | yEE
@@ -10467,7 +10390,6 @@
   1  8,3  | So
   1 11,9  | So
   1  4,6  - Soc
-  1  4,6  - Svc
   1  5,7  - aE
   1 10,8  | aE
   1  7,2  | aI
@@ -10492,7 +10414,6 @@
   1  6,6  - cSw
   1  6,6  - ceE
   1  6,6  - cfS
-  1  6,6  - cgS
   1  6,6  - chE
   1  6,6  - chS
   1  6,6  - ciE
@@ -10596,4 +10517,3 @@
   0  5,6  - cc
   0  6,6  - cc
   0  6,6  - ch
-  0  6,6  - cp

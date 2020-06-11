@@ -134,7 +134,6 @@
  42 12,1  | uPSET
  42 12,1  | wEEDS
  41 12,1  | PESTs
- 41 10,1  | PrESIDED
  41 12,1  | SEEDs
  41 12,1  | SEPTs
  40  6,2  - DEPArTS
@@ -190,7 +189,6 @@
  37 12,4  | ESPiED
  37 12,3  | PESaDE
  37 12,3  | PETtED
- 37 10,1  | PrESIDE
  37 12,4  | STiPED
  37 12,4  | SToPED
  37 12,4  | STuPED
@@ -534,13 +532,11 @@
  29 12,4  | ETuDE
  29 12,2  | EqPT
  29 12,2  | ExPT
- 29 10,1  | PEE
  29  1,2  | PEaSES
  29  1,2  | PEiSES
  29  1,2  | PErSES
  29 12,4  | PSEc
  29 12,4  | PSsT
- 29 10,1  | PTE
  29 12,4  | PTE
  29 12,4  | PTS
  29  1,2  | PToSES
@@ -888,19 +884,13 @@
  26  1,4  | PEES
  26 10,9  - PEStLE
  26 10,9  - PETtLE
- 26 10,1  | PEa
  26  1,3  | PEdES
- 26 10,1  | PEe
  26  1,3  | PEkES
  26  1,3  | PElES
  26  1,3  | PEnES
  26  1,3  | PErES
  26 10,9  - PEsTLE
  26 10,9  - PEtTLE
- 26 10,1  | PSi
- 26 10,1  | PTa
- 26 10,1  | PTe
- 26 10,1  | PTy
  26 12,2  | PaDS
  26  1,3  | PaSES
  26 12,2  | PaSTED
@@ -945,14 +935,9 @@
  25  1,3  | PESoS
  25  1,3  | PEToS
  25 12,2  | PETtED
- 25 10,1  | PeE
  25 10,9  - PeSTLE
- 25 10,1  | PiE
  25 10,9  - PiSTLE
- 25 10,1  | PrE
  25 12,2  | PrESET
- 25 10,1  | PtE
- 25 10,1  | PyE
  25 12,5  | SEDEr
  25 12,5  | SEDaT
  25 12,5  | SEDgE
@@ -1376,7 +1361,6 @@
  22  8,2  - PAtTED
  22  8,2  - PAuSED
  22  8,2  - PAvEED
- 22 10,1  | PE
  22 12,2  | PEEs
  22 12,2  | PESs
  22 12,2  | PESt
@@ -1598,6 +1582,7 @@
  21 12,2  | PEdS
  21 12,2  | PEeS
  21 12,2  | PEgS
+ 21 12,2  | PEhS
  21 12,2  | PElT
  21 12,2  | PEnS
  21 12,2  | PEnT
@@ -1711,7 +1696,6 @@
  21 12,2  | SkETE
  21 12,5  | SlEE
  21 12,2  | SlETE
- 21 12,5  | SmEE
  21 12,5  | SnEE
  21 12,5  | SpET
  21 12,2  | SpETE
@@ -2555,14 +2539,11 @@
  18 11,7  | PETrEL
  18 11,1  | PETuNSE
  18 10,8  - PSETTA
- 18 10,1  | Pa
  18  7,1  - PaCES
  18  7,1  - PaCTS
  18 11,7  | PaSTEL
- 18 10,1  | Pe
  18 11,2  | PeENED
  18  7,2  - PhASED
- 18 10,1  | Pi
  18  7,2  - PlATED
  18 11,7  | PoSTEL
  18  7,2  - PrATED
@@ -2948,9 +2929,7 @@
  17  1,4  | oDES
  17  6,1  - oPEC
  17 12,4  | oSE
- 17 10,1  | pEE
  17  6,13 | pPM
- 17 10,1  | pTE
  17 12,4  | pTE
  17 12,4  | pTS
  17 12,4  | qTS
@@ -3477,7 +3456,6 @@
  15 11,4  - aPE
  15 11,4  - aPT
  15 11,1  | cEDENS
- 15 13,7  | cP
  15  5,8  - eE
  15 11,4  - ePE
  15 13,7  | fP
@@ -4188,7 +4166,6 @@
  13  8,13 - bEE
  13 13,7  | cEE
  13  8,13 - cEE
- 13  8,1  | cP
  13  8,1  | cTE
  13  4,6  - dEE
  13 13,7  | dEE
@@ -5563,7 +5540,6 @@
  10  8,2  - cASED
  10 11,3  | cENE
  10  5,5  | cENSED
- 10  7,13 - cP
  10  8,2  - dAP
  10  8,2  - dATED
  10  7,2  - dEADS
@@ -5628,7 +5604,6 @@
  10  6,3  | oPTED
  10  8,2  - pAP
  10  8,2  - pATED
- 10 10,1  | pE
  10  8,11 | pEDEE
  10 11,3  | pENS
  10  4,2  - pESETA
@@ -6179,7 +6154,6 @@
   8  9,2  - AwED
   8  8,8  - AwEST
   8  9,2  - AxED
-  8  9,1  - CP
   8  9,1  - CPu
   8  9,1  - CaP
   8  9,1  - CeP
@@ -6547,7 +6521,6 @@
   8 11,8  - SErTA
   8 10,4  | SIDEsT
   8 10,4  | SIDeD
-  8  8,3  - SMEE
   8  8,3  - SMEEk
   8  8,3  - SMEEr
   8  8,3  - SMETh
@@ -7277,7 +7250,6 @@
   7 10,4  | SIDhE
   7 10,4  | SIDlE
   7  8,3  - SMElT
-  7  8,3  - SMeE
   7  8,3  - SMiT
   7  8,3  - SMuT
   7 12,9  - SPL
@@ -7350,7 +7322,6 @@
   7 12,4  - StEG
   7 10,10 | SuB
   7 10,7  - SuD
-  7  7,1  - SvC
   7  5,2  | SwEDEN
   7 10,7  - SyD
   7  7,13 - SyE
@@ -7522,7 +7493,6 @@
   7  5,3  - mESEM
   7  6,3  | mETED
   7 13,4  - mPG
-  7 11,10 | mSL
   7  7,8  | mUDS
   7  7,8  | mUSET
   7  7,8  | mUTES
@@ -7554,7 +7524,6 @@
   7  5,4  | sEPN
   7 10,4  | sIDED
   7 10,4  | sIDEST
-  7  8,3  - sMEE
   7 10,7  - sTD
   7  6,3  | sTEED
   7  5,3  - sTEEM
@@ -8006,7 +7975,6 @@
   6 10,4  | SIDi
   6 10,4  | SIDy
   6 13,10 - SIP
-  6  8,3  - SMEe
   6  8,3  - SMEw
   6  5,6  | SNEEr
   6  7,2  - SPA
@@ -8097,7 +8065,6 @@
   6  6,4  | SlED
   6  8,12 | SlEE
   6 10,7  - SlT
-  6  8,12 | SmEE
   6 12,7  - SnAB
   6 10,9  | SnEB
   6  6,4  | SnED
@@ -8537,8 +8504,6 @@
   6  8,2  - vASE
   6  8,2  - vAST
   6  8,2  - vATS
-  6  6,2  - vETA
-  6 12,8  - vETA
   6  8,2  - wAD
   6  8,2  - wAES
   6  8,2  - wASE
@@ -8589,13 +8554,11 @@
   5  9,1  - CTf
   5  9,1  - CTg
   5  9,1  - CTn
-  5  9,1  - CTo
   5  9,1  - CTr
   5  9,1  - CTs
   5  9,1  - CaT
   5  9,1  - CeE
   5  9,1  - CfS
-  5  9,1  - CgS
   5  3,7  | Ch
   5  9,1  - ChE
   5  9,1  - ChS
@@ -8725,7 +8688,6 @@
   5  9,3  - MEu
   5  9,3  - MEw
   5  9,3  - MSg
-  5  9,3  - MSl
   5  9,3  - MSs
   5  9,3  - MTg
   5  9,3  - MTn
@@ -8791,7 +8753,6 @@
   5 11,1  | SEwEN
   5 11,2  | SEwN
   5  8,3  - SMa
-  5  8,3  - SMl
   5  5,6  | SNEE
   5  6,3  | STEaD
   5  6,3  | STEeD
@@ -9192,7 +9153,6 @@
   4  9,2  - AyS
   4  9,1  - Cc
   4  9,1  - Ch
-  4  9,1  - Cp
   4  7,2  - DEA
   4  8,13 | DEE
   4 13,10 - DIE
@@ -9726,7 +9686,6 @@
   3  7,13 - Sh
   3 12,9  - SiL
   3  5,5  | SiN
-  3 12,9  - SmL
   3  6,5  | SoD
   3 12,9  - SoL
   3  5,5  | SoN
@@ -9820,7 +9779,6 @@
   3  5,5  | mEN
   3  4,4  | mESO
   3 13,10 - mID
-  3 12,9  - mSL
   3 11,3  | mTN
   3  5,5  | mTN
   3  7,8  | mU
@@ -9951,7 +9909,6 @@
   2  5,13 - OSc
   2  5,13 - OSe
   2  5,13 - OTc
-  2  5,13 - OTo
   2  5,13 - OaT
   2  5,13 - ObE
   2  5,13 - ObS
@@ -10067,7 +10024,6 @@
   2 13,10 - cIE
   2 13,10 - cIS
   2 13,10 - cIT
-  2  4,5  | cTO
   2  7,2  - dEA
   2  8,13 | dEE
   2 13,10 - dIE
@@ -10127,7 +10083,6 @@
   2  5,6  | oN
   2  9,13 | oN
   2 14,15 - oS
-  2  4,5  | oTO
   2  7,2  - pEA
   2  8,13 | pEE
   2 13,10 - pIE
