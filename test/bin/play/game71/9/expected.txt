@@ -19,21 +19,18 @@
  18  1,9  | GAR
  18  1,9  | GAT
  18  2,2  | NARY
- 18  7,3  | NATTY
  18  2,8  - NOM
  18  2,8  | NOX
  18  2,1  | RATTY
  18  5,5  | VAN
  18  7,4  | VARY
  17  5,7  | NAE
- 17  7,3  | RANTY
  17  2,2  | YARN
  16  2,2  | ARTY
  16  8,10 - ASAK
  16  2,2  | ATRY
  16  7,3  | ATTRY
  16  2,2  | ATTY
- 16  7,3  | RATTY
  16  2,8  - ROM
  16  2,8  | ROX
  16  2,2  | RYNT
@@ -45,9 +42,7 @@
  15  5,4  | TRAN
  15  7,5  | VAN
  14  1,6  - ANC
- 14  7,4  | ARTY
  14  7,4  | ATRY
- 14  7,4  | ATTY
  14  7,5  | NAY
  14  5,5  | RAN
  14  5,5  | TAN
@@ -56,7 +51,6 @@
  14  2,2  | TRYT
  14  4,2  | TRYT
  14  5,1  | TYRANT
- 14  7,1  | TYRANT
  14  7,5  - VAYU
  14  7,4  | YARN
  13  5,6  | AN
@@ -68,20 +62,17 @@
  13  7,5  | TAY
  13  2,2  | TRAN
  13  7,5  | TRY
- 13  7,5  | TTY
  13  4,3  | TYR
  13  4,3  | TYT
  13  4,3  | VAN
  13  7,5  | VAR
  12  1,6  - ARC
- 12  7,4  | ATTN
  12  1,5  - AVENY
  12  7,6  | AY
  12  2,2  | NATR
  12  2,2  | NATT
  12  2,2  | RANT
  12  5,3  | RYNT
- 12  7,3  | RYNT
  12  7,4  | TARN
  12  7,4  | TRAN
  12  4,1  | TRANT
@@ -91,23 +82,18 @@
  11  2,3  | AVN
  11  6,6  - HVY
  11  7,3  | NATR
- 11  7,4  | NATR
  11  5,3  | NATT
- 11  7,3  | NATT
  11  7,5  | RAN
  11  4,2  | RANT
  11  7,5  | TAN
  11  5,2  | TRANT
- 11  7,2  | TRANT
  11  5,3  | TRYT
- 11  7,3  | TRYT
  11  2,3  | VAN
  11  1,6  | VANG
  11  4,3  | VAR
  11  7,4  | VAR
  11  4,3  | VAT
  11  5,4  | VAT
- 11  7,4  | VAT
  11  2,5  - VENY
  11  7,5  | YAR
  10  7,6  | AN
@@ -119,7 +105,6 @@
  10  7,5  | NAR
  10  2,3  | NAY
  10  5,3  | RANT
- 10  7,3  | RANT
  10  4,2  | TARN
  10  2,2  | TART
  10  4,3  | TNT
@@ -145,13 +130,11 @@
   9  4,3  | TAN
   9  7,5  | TAR
   9  5,3  | TART
-  9  7,3  | TART
   9  2,3  | TAY
   9  2,3  | TRY
   9  2,3  | TTY
   9  7,4  | TYR
   9  5,4  | TYT
-  9  7,4  | TYT
   9  1,7  | VAG
   9  2,3  | VAR
   9  2,3  | VAT
@@ -164,10 +147,8 @@
   9  7,4  | YAR
   9  4,3  | YAT
   9  5,4  | YAT
-  9  7,4  | YAT
   8  4,4  | AN
   8  5,4  | ANT
-  8  7,4  | ANT
   8  7,6  | AR
   8  1,5  - AVER
   8  2,4  | AY
@@ -176,10 +157,8 @@
   8  7,4  | NAR
   8  4,3  | NAT
   8  5,4  | NAT
-  8  7,4  | NAT
   8  4,2  | TART
   8  5,4  | TNT
-  8  7,4  | TNT
   8  2,5  - VERA
   8  2,5  - VERT
   8  2,5  - VETA
@@ -191,10 +170,8 @@
   7  2,3  | ARN
   7  4,3  | ART
   7  5,4  | ART
-  7  7,4  | ART
   7  4,3  | ATT
   7  5,4  | ATT
-  7  7,4  | ATT
   7  1,5  - AVE
   7  6,6  - HAY
   7  5,5  | NA
@@ -208,7 +185,6 @@
   7  1,6  | RANG
   7  4,3  | RAT
   7  5,4  | RAT
-  7  7,4  | RAT
   7  8,5  - RAUN
   7  2,5  - REV
   7  2,3  | RYA
@@ -219,7 +195,6 @@
   7  7,4  | TAR
   7  4,3  | TAT
   7  5,4  | TAT
-  7  7,4  | TAT
   7  8,5  - TAUN
   7  5,6  - THAN
   7  5,6  - THY
@@ -227,7 +202,6 @@
   7  7,4  | TRA
   7  4,3  | TRT
   7  5,4  | TRT
-  7  7,4  | TRT
   7  8,5  - TRUN
   7  9,5  - TUY
   7  1,7  | TYG
@@ -249,7 +223,6 @@
   6  1,5  - ARENT
   6  4,4  | AT
   6  5,5  | AT
-  6  7,5  | AT
   6  3,5  - EYN
   6  6,6  - HAN
   6  3,7  - LINO
@@ -332,7 +305,6 @@
   4  3,5  - ERN
   4  6,6  - HA
   4  6,6  - HR
-  4  6,6  - HT
   4  1,5  - NAE
   4  2,5  - NEA
   4  2,5  - NET

@@ -1809,7 +1809,6 @@
  15  4,4  | PRIn
  15  4,4  | PRIo
  15  4,4  | PRIx
- 15  4,5  - PhARE
  15  5,1  - PlF
  15  7,6  | RAb
  15  7,6  | RAd
@@ -2149,7 +2148,6 @@
  14  4,5  - PeER
  14  1,11 - PeER
  14  4,5  - PeRE
- 14  4,5  - PhAR
  14  4,5  - PiER
  14  1,11 - PiER
  14  1,11 - PlEA
@@ -2523,7 +2521,6 @@
  13  5,1  - PeRE
  13  6,5  - PhARE
  13  4,4  | PhI
- 13  4,5  - PhR
  13  4,5  - PiA
  13  4,5  - PiE
  13  1,11 - PiE
@@ -3269,7 +3266,6 @@
  11  4,5  - hEAP
  11  6,5  - hEAP
  11  6,7  - hEAP
- 11  5,5  - hEPAR
  11  5,7  - hEPAR
  11  4,5  - hERP
  11  6,5  - hERP
@@ -4149,16 +4145,12 @@
   9  5,1  | hAF
   9  5,1  - hAP
   9  5,1  | hAP
-  9  5,5  - hARP
   9  3,1  - hE
-  9  5,5  - hEAF
   9  5,7  - hEAF
-  9  5,5  - hEAP
   9  5,7  - hEAP
   9  5,1  - hEP
   9  6,5  - hEPAR
   9  6,7  - hEPAR
-  9  5,5  - hERP
   9  5,7  - hERP
   9  3,1  | hOE
   9  3,1  | hOR
@@ -4588,13 +4580,10 @@
   8  4,5  - gARE
   8  4,5  - gEAR
   8  2,11 - gEREFA
-  8  5,5  - hAF
-  8  5,5  - hAP
   8  5,3  - hARE
   8  4,5  - hARE
   8  2,11 - hEAPER
   8  4,5  - hEAR
-  8  5,5  - hEP
   8  5,7  - hEP
   8  4,5  - hERA
   8  2,10 - hIRE
@@ -6061,12 +6050,10 @@
   6  6,7  - hAF
   6  6,5  - hAP
   6  6,7  - hAP
-  6  5,5  - hARE
   6  6,5  | hEAF
   6  2,11 - hEAF
   6  6,5  | hEAP
   6  2,11 - hEAP
-  6  5,5  - hEAR
   6  5,7  - hEAR
   6  6,4  | hEEP
   6  6,5  | hEEP
@@ -6075,7 +6062,6 @@
   6  6,5  - hEP
   6  6,7  - hEP
   6  5,1  - hER
-  6  5,5  - hERA
   6  5,7  - hERA
   6  6,5  | hERP
   6  2,11 - hERP
@@ -6889,7 +6875,6 @@
   5  5,1  - hA
   5  3,3  - hA
   5  5,3  - hA
-  5  5,5  - hAE
   5  4,4  | hAIR
   5  6,5  - hARE
   5  6,7  - hARE
@@ -6900,7 +6885,6 @@
   5  4,4  | hEIR
   5  6,5  | hEP
   5  2,11 - hEP
-  5  5,5  - hER
   5  5,7  - hER
   5  6,5  - hERA
   5  6,7  - hERA
@@ -7133,7 +7117,6 @@
   4  6,5  - AgR
   4  6,1  - Ah
   4  6,3  - Ah
-  4  4,5  - Ah
   4  5,5  - Ah
   4  5,7  - Ah
   4  4,4  | AhI
@@ -7627,18 +7610,15 @@
   4  4,5  | gIE
   4  6,1  | gLAR
   4  4,5  - hA
-  4  5,5  - hA
   4  5,1  | hAAR
   4  5,1  | hARE
   4  5,4  | hATER
   4  4,5  - hE
-  4  5,5  - hE
   4  5,7  - hE
   4  2,10 - hI
   4  4,5  | hIE
   4  4,5  | hIR
   4  6,1  | hLER
-  4  5,5  - hR
   4  5,7  - hR
   4  5,1  | iARE
   4  6,1  | iLEA
@@ -9299,7 +9279,6 @@
   1  6,5  | hE
   1  2,11 - hE
   1  4,5  | hI
-  1  5,5  | hT
   1  5,5  | iT
   1  5,1  | jA
   1  6,5  | jE

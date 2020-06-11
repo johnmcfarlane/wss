@@ -940,7 +940,6 @@
  17  5,3  | EStOP
  17  7,3  | EStOP
  17  5,4  | EStOP
- 17  7,4  | EStOP
  17  5,3  | ExPOSE
  17  7,3  | ExPOSE
  17  5,7  | GEEd
@@ -1260,7 +1259,6 @@
  16  5,3  | PESOs
  16  7,3  | PESOs
  16  5,3  | PEStE
- 16  7,3  | PEStE
  16  5,8  | PEa
  16  5,8  | PEd
  16  5,8  | PEg
@@ -1281,7 +1279,6 @@
  16  2,10 - POEsIE
  16  2,10 - POEsIS
  16  5,3  | POEtS
- 16  7,3  | POEtS
  16  5,3  | POSEd
  16  7,3  | POSEd
  16  7,3  | POSEr
@@ -1373,9 +1370,7 @@
  16  7,5  | SoPE
  16  2,6  - StEGH
  16  5,5  | StEP
- 16  7,5  | StEP
  16  5,5  | StOP
- 16  7,5  | StOP
  16  5,5  | SuPE
  16  5,4  | SwEGO
  16  5,8  - cOOPEE
@@ -1783,11 +1778,9 @@
  15  5,5  | tEGS
  15  5,5  | tOGS
  15  5,6  | tOP
- 15  7,6  | tOP
  15  5,2  | tOPEES
  15  7,2  | tOPEES
  15  5,6  | tPS
- 15  7,6  | tPS
  15  4,9  - uPLEG
  15  5,6  | uPO
  15  5,6  | uPS
@@ -1843,7 +1836,6 @@
  14  1,7  - GEPeOO
  14  5,3  | GESsO
  14  5,3  | GEStE
- 14  7,3  | GEStE
  14  2,10 - GEStIO
  14  5,8  | GEb
  14  5,8  | GEd
@@ -1973,7 +1965,6 @@
  14  5,3  | PEtO
  14  7,3  | PEtO
  14  5,4  | PEtOS
- 14  7,4  | PEtOS
  14  5,3  | PEtS
  14  5,3  | PEwS
  14  5,9  - PLEaS
@@ -2392,7 +2383,6 @@
  13  5,5  | PESs
  13  7,5  | PESs
  13  5,3  | PESt
- 13  7,3  | PESt
  13  5,5  | PESt
  13  3,9  - PEaLS
  13  5,5  | PEdS
@@ -2432,7 +2422,6 @@
  13  5,5  | POEm
  13  7,5  | POEm
  13  5,3  | POEt
- 13  7,3  | POEt
  13  5,5  | POEt
  13  3,7  - POGO
  13  5,4  | POSE
@@ -2446,7 +2435,6 @@
  13  5,5  | POSs
  13  7,5  | POSs
  13  5,3  | POSt
- 13  7,3  | POSt
  13  5,5  | POSt
  13  5,5  | POSy
  13  7,5  | POSy
@@ -2537,7 +2525,6 @@
  13  5,3  | SPEcE
  13  7,3  | SPErE
  13  5,3  | SPEtE
- 13  7,3  | SPEtE
  13  4,9  - SPLEt
  13  7,3  | SPOrE
  13  2,9  - SPeEL
@@ -2651,7 +2638,6 @@
  13  5,8  | yESE
  13  5,8  | yESO
  12  5,2  | EGESt
- 12  7,2  | EGESt
  12  5,3  | EGESt
  12  7,3  | EGErS
  12  5,4  | EGOS
@@ -3255,7 +3241,6 @@
  11  7,3  | GEEr
  11  5,3  | GEEs
  11  5,3  | GEEt
- 11  7,3  | GEEt
  11  4,9  - GELEeS
  11  4,9  - GELOSiE
  11  4,9  - GELOsE
@@ -3279,7 +3264,6 @@
  11  5,2  | GESsO
  11  7,2  | GESsO
  11  5,3  | GESt
- 11  7,3  | GESt
  11  5,2  | GEStE
  11  7,2  | GEStE
  11  5,2  | GEaSE
@@ -3399,7 +3383,6 @@
  11  7,4  | OPeS
  11  5,3  | OPtS
  11  5,4  | OPtS
- 11  7,4  | OPtS
  11  5,3  | OPuS
  11  5,4  | OPuS
  11  5,6  | OSE
@@ -3455,12 +3438,9 @@
  11  3,7  - PEsOS
  11  5,4  | PEsS
  11  5,4  | PEtE
- 11  7,4  | PEtE
  11  5,4  | PEtO
- 11  7,4  | PEtO
  11  3,7  - PEtOS
  11  5,4  | PEtS
- 11  7,4  | PEtS
  11  3,9  - PEuL
  11  5,6  - PHaGE
  11  5,9  - PLiE
@@ -3499,9 +3479,7 @@
  11  5,4  | POsE
  11  5,4  | POsS
  11  5,4  | POtE
- 11  7,4  | POtE
  11  5,4  | POtS
- 11  7,4  | POtS
  11  5,8  | Pa
  11  7,8  | Pa
  11  5,2  | PaSEO
@@ -3813,7 +3791,6 @@
  10  5,2  | GEESe
  10  7,2  | GEESe
  10  5,2  | GEESt
- 10  7,2  | GEESt
  10  5,4  | GEEd
  10  7,4  | GEEd
  10  7,4  | GEEr
@@ -3843,7 +3820,6 @@
  10  7,4  | GErS
  10  5,4  | GEsS
  10  5,4  | GEtS
- 10  7,4  | GEtS
  10  5,9  - GLEd
  10  5,9  - GLEe
  10  5,9  - GLEg
@@ -3886,7 +3862,6 @@
  10  7,4  | GOrE
  10  5,4  | GOsS
  10  5,4  | GOtE
- 10  7,4  | GOtE
  10  4,6  - GPH
  10  7,4  | GPm
  10  3,9  - GaEL
@@ -4094,9 +4069,7 @@
  10  3,7  - PrOO
  10  7,5  | PrS
  10  5,5  | PtE
- 10  7,5  | PtE
  10  5,5  | PtS
- 10  7,5  | PtS
  10  3,6  - PuGH
  10  5,5  | PuS
  10  5,2  | SEEGe
@@ -4121,7 +4094,6 @@
  10  3,6  - SEPHEn
  10  5,3  | SEPs
  10  5,3  | SEPt
- 10  7,3  | SEPt
  10  5,8  | SEa
  10  5,8  | SEd
  10  5,8  | SEg
@@ -4150,7 +4122,6 @@
  10  5,9  - SLyPE
  10  7,2  | SOGEr
  10  5,2  | SOGEt
- 10  7,2  | SOGEt
  10  4,9  - SOLfGE
  10  3,6  - SOPHEr
  10  5,3  | SOPe
@@ -4174,14 +4145,12 @@
  10  3,9  - SPELt
  10  5,3  | SPEc
  10  5,3  | SPEt
- 10  7,3  | SPEt
  10  4,6  - SPHEnE
  10  4,6  - SPHErE
  10  4,10 - SPIGOt
  10  4,7  - SPOGEl
  10  3,9  - SPOLe
  10  5,3  | SPOt
- 10  7,3  | SPOt
  10  3,6  - SPaHEE
  10  3,9  - SPaLE
  10  3,9  - SPiLE
@@ -4591,7 +4560,6 @@
   9  4,7  - GrOPE
   9  7,5  | GrS
   9  5,5  | GtE
-  9  7,5  | GtE
   9  5,5  | GuE
   9  5,5  | GuS
   9  6,6  - HEEP
@@ -5130,13 +5098,11 @@
   9  3,6  - sOPHS
   9  5,6  | sOS
   9  5,6  | tEE
-  9  7,6  | tEE
   9  5,4  | tEES
   9  7,4  | tEES
   9  5,3  | tEGS
   9  4,9  - tELEG
   9  5,6  | tOE
-  9  7,6  | tOE
   9  5,4  | tOES
   9  7,4  | tOES
   9  5,3  | tOGS
@@ -5149,7 +5115,6 @@
   9  3,8  - tOPOS
   9  5,8  - tOPOS
   9  5,6  | tOS
-  9  7,6  | tOS
   9  5,4  | tPS
   9  5,4  | uPO
   9  7,4  | uPO
@@ -5459,7 +5424,6 @@
   8  6,8  - OPpOSE
   8  5,4  | OPs
   8  5,4  | OPt
-  8  7,4  | OPt
   8  5,6  | OS
   8  7,6  | OS
   8  3,9  - OSELlE
@@ -5530,7 +5494,6 @@
   8  5,4  | PEs
   8  3,8  - PEsO
   8  5,4  | PEt
-  8  7,4  | PEt
   8  3,8  - PEtO
   8  5,6  - PHEw
   8  5,6  - PHO
@@ -5630,7 +5593,6 @@
   8  5,8  - POsS
   8  5,7  - POsSE
   8  5,4  | POt
-  8  7,4  | POt
   8  5,8  - POtE
   8  5,8  - POtS
   8  5,8  - POwS
@@ -5763,7 +5725,6 @@
   8  5,4  | SPa
   8  7,4  | SPa
   8  5,4  | SPt
-  8  7,4  | SPt
   8  5,8  | SaO
   8  7,8  | SaO
   8  3,7  - ScOOP
@@ -6107,7 +6068,6 @@
   7  5,4  | GEs
   7  2,7  - GEsSO
   7  5,4  | GEt
-  7  7,4  | GEt
   7  5,6  - GHEe
   7  5,6  - GHEg
   7  5,6  - GHeE
@@ -6167,7 +6127,6 @@
   7  3,6  - GOsH
   7  5,8  - GOsS
   7  5,4  | GOt
-  7  7,4  | GOt
   7  5,8  - GOtE
   7  3,6  - GOtH
   7  3,8  - GOtO
@@ -7806,7 +7765,6 @@
   6  5,7  - sOPS
   6  5,4  | sOS
   6  5,6  | tE
-  6  7,6  | tE
   6  5,4  | tEE
   6  7,4  | tEE
   6  4,9  - tELE
@@ -7817,7 +7775,6 @@
   6  5,10 - tIPE
   6  5,10 - tIPS
   6  5,6  | tO
-  6  7,6  | tO
   6  5,4  | tOE
   6  7,4  | tOE
   6  4,9  - tOLE
@@ -7905,7 +7862,6 @@
   5  7,4  | ESe
   5  5,4  | ESs
   5  5,4  | ESt
-  5  7,4  | ESt
   5  3,6  - EStH
   5  5,4  | ESu
   5  4,8  - EbOE
@@ -8367,7 +8323,6 @@
   5  5,11 - SErG
   5  3,8  - SErO
   5  5,4  | SEt
-  5  7,4  | SEt
   5  3,6  - SEtH
   5  5,6  - SHE
   5  5,6  - SHEa
@@ -8452,7 +8407,6 @@
   5  3,8  - SOsO
   5  5,8  - SOsO
   5  5,4  | SOt
-  5  7,4  | SOt
   5  3,6  - SOtH
   5  5,4  | SOu
   5  3,9  - SOuL
@@ -8850,7 +8804,6 @@
   4  7,7  | Es
   4  3,10 - EsSIE
   4  5,5  | Et
-  4  7,5  | Et
   4  5,7  | Et
   4  4,6  - EtH
   4  4,11 - EvESE
@@ -9474,7 +9427,6 @@
   3  6,6  - Hm
   3  6,6  - Ho
   3  6,6  - Hr
-  3  6,6  - Ht
   3  6,10 - IOcS
   3  6,10 - IOdE
   3  6,10 - IOnE

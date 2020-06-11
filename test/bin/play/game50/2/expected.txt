@@ -2209,7 +2209,6 @@
  12 12,4  - DAIs
  12 13,5  | DAL
  12  2,1  | DALI
- 12  2,1  | DALT
  12 13,5  | DALe
  12 13,5  | DALf
  12 13,5  | DALi
@@ -2873,7 +2872,6 @@
  11 13,5  | DaIS
  11 13,5  | DaL
  11  2,1  | DaLI
- 11  2,1  | DaLT
  11 13,5  | DaSI
  11 13,5  | DaTA
  11 13,5  | DbL
@@ -2900,13 +2898,11 @@
  11 13,5  | DoL
  11  2,1  | DoLA
  11  2,1  | DoLI
- 11  2,1  | DoLT
  11 13,5  | DoSA
  11 13,5  | DoST
  11 13,5  | DoTS
  11 13,5  | DrAT
  11 13,5  | DuIT
- 11  2,1  | DuLT
  11 13,5  | DuST
  11 13,5  | DyAS
  11 10,12 - Es
@@ -3118,7 +3114,6 @@
  11  2,13 | SAL
  11  5,13 | SAL
  11 13,5  | SALDId
- 11  2,1  | SALT
  11 13,5  | SALTeD
  11 13,5  | SALdID
  11 13,5  | SALpID
@@ -3146,7 +3141,6 @@
  11  2,1  | SIDA
  11  2,13 | SIL
  11  3,13 - SIL
- 11  2,1  | SILT
  11 13,5  | SILTeD
  11 12,6  - SIa
  11 12,6  - SIb
@@ -3323,10 +3317,7 @@
  11  3,13 - vITA
  11  1,3  - wAD
  11  1,3  - wID
- 10  2,1  | ADIT
  10  2,1  | ALDm
- 10  2,1  | ALIT
- 10  2,2  | ALT
  10 13,4  | ASIa
  10  9,5  - ASSE
  10  9,5  - ASSEs
@@ -3348,7 +3339,6 @@
  10 13,4  | ATlI
  10  6,13 - Aa
  10  6,13 - Ah
- 10  2,1  | AmDT
  10 13,4  | AmIDST
  10  2,1  | AmLI
  10  2,1  | AnDI
@@ -3358,7 +3348,6 @@
  10  5,13 | DA
  10  2,1  | DALe
  10  2,1  | DALi
- 10  2,1  | DALt
  10  2,1  | DASI
  10 13,5  | DAb
  10 13,5  | DAd
@@ -3380,7 +3369,6 @@
  10 12,8  | DI
  10  2,1  | DILo
  10  2,1  | DISA
- 10  2,1  | DIST
  10  2,1  | DITA
  10 13,5  | DIa
  10 13,5  | DIb
@@ -3511,9 +3499,7 @@
  10 13,4  | IoDAL
  10 13,5  | LA
  10  2,1  | LADe
- 10  2,1  | LAIT
  10  2,1  | LASI
- 10  2,1  | LAST
  10  2,1  | LATI
  10 13,5  | LAb
  10 13,5  | LAc
@@ -3539,7 +3525,6 @@
  10  2,1  | LIDe
  10  2,1  | LIDo
  10  2,1  | LISA
- 10  2,1  | LIST
  10 13,5  | LIb
  10 13,5  | LId
  10 13,5  | LIe
@@ -3602,11 +3587,8 @@
  10 13,5  | SLAD
  10 13,5  | SLADe
  10 13,5  | SLAIT
- 10  2,1  | SLAT
  10 13,5  | SLID
  10 13,5  | SLIDe
- 10  2,1  | SLIT
- 10  2,2  | SLT
  10 13,5  | SLoID
  10 13,5  | STADIa
  10 13,5  | STADIc
@@ -3625,16 +3607,13 @@
  10  2,1  | SaDI
  10  2,1  | SaLA
  10 13,5  | SaLAD
- 10  2,1  | SaLT
  10 13,5  | ScALD
- 10  2,1  | SeLT
  10 10,7  - Sh
  10 12,11 | Sh
  10 10,7  - Si
  10 12,11 | Si
  10  2,1  | SiDA
  10  2,1  | SiDI
- 10  2,1  | SiLT
  10 13,5  | SkALD
  10 13,5  | SmALTI
  10 10,7  - So
@@ -3699,13 +3678,11 @@
  10  2,1  | aTLI
  10 13,4  | aTLI
  10  2,1  | bALI
- 10  2,1  | bALT
  10  3,13 - bID
  10  2,1  | cADI
  10  3,13 - cID
  10 12,7  | cLI
  10  2,1  | dALI
- 10  2,1  | dALT
  10 12,6  - dAS
  10 12,6  - dAT
  10 12,6  - dIA
@@ -3720,38 +3697,28 @@
  10  3,13 - fID
  10  3,13 - fIL
  10  2,1  | fILA
- 10  2,1  | fILT
  10  2,1  | gADI
  10  2,1  | gALI
- 10  2,1  | gALT
  10  3,13 - gID
  10  3,13 - gIL
  10  2,1  | gILA
- 10  2,1  | gILT
- 10  2,1  | hALT
  10  3,13 - hID
  10  2,1  | hILA
- 10  2,1  | hILT
  10  9,5  - iSLETA
  10  9,5  - iSLETS
  10  5,12 | iTA
  10 13,4  | iTAL
- 10  2,1  | jILT
  10  2,1  | kADI
  10  2,1  | kALI
  10  3,13 - kID
- 10  2,1  | kILT
  10  3,13 - lID
  10  2,1  | lIDA
  10  2,1  | lILA
- 10  2,1  | lILT
  10  2,1  | mADI
  10  2,1  | mALI
- 10  2,1  | mALT
  10  3,13 - mID
  10  3,13 - mIL
  10  2,1  | mILA
- 10  2,1  | mILT
  10  3,13 - nIL
  10  3,13 - oIL
  10  9,5  - oSTEAL
@@ -3764,13 +3731,11 @@
  10  3,13 - rID
  10  2,1  | sADI
  10 12,6  - sAI
- 10  2,1  | sALT
  10 12,6  - sAT
  10 10,7  - sI
  10 12,6  - sIA
  10  2,1  | sIDA
  10  3,13 - sIL
- 10  2,1  | sILT
  10 12,6  - sIS
  10 12,6  - sIT
  10 12,6  - sSI
@@ -3779,22 +3744,18 @@
  10  2,1  | tALI
  10 10,7  - tI
  10  3,13 - tIL
- 10  2,1  | tILT
  10 12,7  | uDI
  10  5,12 | uTA
  10  3,13 - vID
  10  3,13 - vIL
  10  2,1  | wADI
  10  2,1  | wALI
- 10  2,1  | wALT
  10  1,3  - wAS
  10  1,3  - wAT
  10  3,13 - wID
- 10  2,1  | wILT
  10  1,3  - wIS
  10  1,3  - wIT
  10  2,1  | yALI
- 10  2,1  | yILT
  10  2,1  | zILA
   9 12,7  | ADo
   9  2,1  | AIDe
@@ -3823,12 +3784,10 @@
   9 13,4  | AtTID
   9 13,4  | AxILS
   9  2,3  | DA
-  9  2,2  | DAT
   9 12,7  | DAo
   9  2,3  | DI
   9  2,2  | DIA
   9  2,15 - DIEL
-  9  2,2  | DIT
   9  3,9  | DITe
   9  3,13 - DIkA
   9  3,13 - DItA
@@ -3844,16 +3803,9 @@
   9  2,1  | DhAI
   9 13,5  | Di
   9  2,1  | DiSA
-  9  2,1  | DiST
   9  2,1  | DiTA
   9 13,5  | Do
-  9  2,1  | DoAT
-  9  2,1  | DoIT
   9  2,1  | DoSA
-  9  2,1  | DoST
-  9  2,1  | DrAT
-  9  2,1  | DuIT
-  9  2,1  | DuST
   9  1,13 - ELDIn
   9  1,13 - EnDIA
   9 10,13 - FADS
@@ -4008,41 +3960,31 @@
   9  5,3  - KAIl
   9  2,3  | LA
   9  2,2  | LAI
-  9  2,2  | LAT
   9 12,7  | LAi
   9 12,7  | LAo
   9  2,3  | LI
   9  2,15 - LIED
-  9  2,2  | LIT
   9  3,13 - LIdA
   9  3,13 - LIlA
   9  3,13 - LImA
   9  3,13 - LInA
   9  3,13 - LIpA
   9  3,13 - LIzA
-  9  2,2  | LST
   9  1,7  - LSd
   9  1,7  - LSt
   9  1,7  - LTr
   9 13,5  | La
-  9  2,1  | LaIT
   9  2,1  | LaSA
   9  2,1  | LaSI
-  9  2,1  | LaST
   9  2,1  | LaTI
-  9  2,1  | LeAT
-  9  2,1  | LeST
   9 13,5  | Li
   9  2,1  | LiSA
-  9  2,1  | LiST
   9  2,1  | LiTI
   9 13,5  | Ll
   9 13,5  | Lo
-  9  2,1  | LoST
   9  2,1  | LoTA
   9  1,7  - LsT
   9 13,5  | Lu
-  9  2,1  | LuST
   9  8,11 - NEEMS
   9  1,11 - OAd
   9  1,11 - OAf
@@ -4080,7 +4022,6 @@
   9 13,5  | SALeT
   9  2,1  | SALm
   9 13,5  | SALmI
-  9  2,1  | SALt
   9  5,13 | SAT
   9 13,5  | SATD
   9  2,1  | SATI
@@ -4128,7 +4069,6 @@
   9 13,5  | SILTy
   9  2,1  | SILe
   9  2,1  | SILo
-  9  2,1  | SILt
   9 13,5  | SILvA
   9  2,1  | SITA
   9 13,5  | SITeD
@@ -4300,7 +4240,6 @@
   9 13,5  | TILeS
   9 13,5  | TILiA
   9 13,5  | TILlS
-  9  2,1  | TILt
   9 13,5  | TILtS
   9  2,13 | TIb
   9  2,13 | TIc
@@ -4353,36 +4292,23 @@
   9  2,6  | ULA
   9  2,6  | ULT
   9  2,1  | aDAI
-  9  2,1  | aDIT
   9  2,2  | aLA
   9  2,1  | aLAI
   9  2,1  | aLIA
-  9  2,1  | aLIT
-  9  2,2  | aLT
   9 13,4  | aSIA
   9 13,4  | aSTA
   9 13,4  | aTIS
-  9  2,1  | bLAT
-  9  2,1  | bLIT
   9  9,13 - cFI
   9  9,13 - cFS
-  9  2,1  | cLAT
   9  2,2  | cLI
-  9  2,1  | cLIT
-  9  2,2  | dDT
   9  1,8  - eD
   9  3,12 | eD
-  9  2,1  | eDIT
   9  1,8  - eL
   9  3,12 | eL
   9  2,1  | eLIA
   9  2,1  | eLSA
-  9  2,2  | eLT
   9 13,4  | eTAS
-  9  2,1  | fLAT
-  9  2,1  | fLIT
   9  2,1  | gLIA
-  9  2,2  | gLT
   9  3,12 | iD
   9  2,2  | iLA
   9  2,1  | iLIA
@@ -4395,31 +4321,20 @@
   9  2,2  | oDA
   9  2,2  | oLA
   9 13,4  | oTIS
-  9  2,1  | pLAT
   9  2,2  | pLI
   9  2,2  | sLA
-  9  2,1  | sLAT
-  9  2,1  | sLIT
-  9  2,2  | sLT
   9  2,2  | uDI
   9  2,2  | uLA
-  9  2,2  | uLT
   9  2,1  | uLTA
   9  1,3  - wT
-  8  2,1  | ADIt
   8  2,1  | ADaI
-  8  2,1  | ADiT
-  8  2,1  | ADjT
   8  2,1  | ADmI
   8  2,2  | ADo
-  8  2,1  | ADvT
   8  3,12 - AFfILe
   8 12,8  | AI
   8  2,15 - AIEL
-  8  2,2  | AIT
   8  2,1  | ALIa
   8  2,1  | ALIi
-  8  2,1  | ALIt
   8  2,1  | ALSo
   8  2,1  | ALTo
   8  2,2  | ALa
@@ -4427,25 +4342,18 @@
   8  2,1  | ALbI
   8  2,2  | ALe
   8  2,1  | ALiI
-  8  2,1  | ALiT
-  8  2,2  | ALt
   8  9,5  - AS
   8  2,2  | ATI
   8  2,1  | AbSI
   8 13,4  | AdDS
-  8  2,1  | AdIT
   8 13,4  | AdITS
-  8  2,1  | AgIT
-  8  2,1  | AgST
   8 12,7  | AhI
   8 13,4  | AlIST
-  8  2,1  | AlIT
   8 13,4  | AlLS
   8 13,4  | AmDT
   8 12,7  | AmI
   8 13,4  | AmID
   8 13,4  | AmIL
-  8  2,1  | AmIT
   8 13,4  | AmLI
   8  5,12 | AnA
   8 13,4  | AnDI
@@ -4460,7 +4368,6 @@
   8 13,4  | ArIL
   8 13,4  | ArIST
   8  2,1  | AsSI
-  8  2,1  | AsST
   8 12,7  | AtI
   8 13,4  | AtLI
   8 13,4  | AwLS
@@ -4470,35 +4377,21 @@
   8  2,1  | DATa
   8  2,1  | DATe
   8  2,1  | DATo
-  8  2,1  | DAfT
   8  2,1  | DAhI
   8  2,1  | DAlI
-  8  2,1  | DAlT
   8  2,1  | DAnI
   8  2,1  | DArI
-  8  2,1  | DArT
   8  2,1  | DAsI
-  8  2,1  | DAuT
-  8  2,1  | DAwT
   8  3,15 - DEL
   8  3,13 - DIA
   8  2,1  | DIAm
   8  2,1  | DISa
-  8  2,1  | DISt
   8  3,13 - DIT
   8  2,1  | DITa
   8  2,1  | DITe
-  8  2,1  | DITt
-  8  2,1  | DIcT
-  8  2,1  | DIeT
   8  2,1  | DIkA
-  8  2,1  | DInT
-  8  2,1  | DIpT
-  8  2,1  | DIrT
   8  2,1  | DIsA
-  8  2,1  | DIsT
   8  2,1  | DItA
-  8  2,1  | DItT
   8  2,1  | DIvA
   8  2,1  | DSrI
   8  2,15 - DiEL
@@ -4626,13 +4519,10 @@
   8  2,1  | ILeA
   8  2,1  | ILiA
   8  2,1  | ILkA
-  8  2,1  | ILoT
   8  2,1  | ILyA
   8  9,5  - IS
   8  2,15 - ISED
-  8  2,2  | IST
   8  2,2  | ITA
-  8  2,1  | IkAT
   8 13,4  | IlLS
   8  2,1  | InTA
   8 13,4  | InTL
@@ -4642,40 +4532,28 @@
   8  5,12 | ItA
   8 13,4  | ItAL
   8  2,1  | LAIr
-  8  2,1  | LAIt
   8  2,1  | LASa
   8  2,1  | LASe
   8  2,1  | LASi
-  8  2,1  | LASt
   8  2,1  | LATe
   8  2,1  | LATi
-  8  2,1  | LAeT
-  8  2,1  | LAfT
-  8  2,1  | LAiT
-  8  2,1  | LAnT
   8  2,1  | LArI
   8  2,1  | LAsI
-  8  2,1  | LAsT
   8  2,1  | LAtI
   8  3,15 - LED
   8  2,1  | LIAr
   8  2,1  | LISa
   8  2,1  | LISe
-  8  2,1  | LISt
   8  3,13 - LIT
   8  2,1  | LITe
   8  2,1  | LITi
   8  2,1  | LIdA
-  8  2,1  | LIfT
   8  2,1  | LIlA
-  8  2,1  | LIlT
   8  2,1  | LImA
   8  2,1  | LInA
-  8  2,1  | LInT
   8  2,1  | LIpA
   8  2,1  | LIrA
   8  2,1  | LIsA
-  8  2,1  | LIsT
   8  2,1  | LIzA
   8  2,15 - LeED
   8  2,15 - LiED
@@ -4705,7 +4583,6 @@
   8 13,5  | SALs
   8 13,5  | SALt
   8  9,8  | SAMEk
-  8  2,2  | SAT
   8 13,5  | SATI
   8 13,5  | SATIn
   8 13,5  | SATIs
@@ -4734,7 +4611,6 @@
   8 13,5  | SILl
   8 13,5  | SILo
   8 13,5  | SILt
-  8  2,2  | SIT
   8 13,5  | SITA
   8 13,5  | SITAo
   8 13,5  | SITAr
@@ -4760,7 +4636,6 @@
   8  2,1  | SLAm
   8 13,5  | SLAm
   8 13,5  | SLAp
-  8  2,1  | SLAt
   8 13,5  | SLAt
   8 13,5  | SLAv
   8 13,5  | SLAw
@@ -4772,18 +4647,12 @@
   8  2,1  | SLIm
   8 13,5  | SLIm
   8 13,5  | SLIp
-  8  2,1  | SLIt
   8 13,5  | SLIt
   8 13,5  | SLT
   8  2,2  | SLa
-  8  2,1  | SLaT
   8 13,5  | SLaT
-  8  2,1  | SLiT
   8 13,5  | SLiT
-  8  2,1  | SLoT
   8 13,5  | SLoT
-  8  2,2  | SLt
-  8  2,1  | SLuT
   8 13,5  | SLuT
   8  2,2  | STA
   8 13,5  | STAIa
@@ -4829,17 +4698,14 @@
   8 13,5  | SaTD
   8  2,1  | SaTI
   8 13,5  | ScAD
-  8  2,1  | ScAT
   8 12,7  | ScI
   8 13,5  | ScIL
   8 13,5  | ScTD
   8  2,13 | SeA
   8 13,5  | SeAL
-  8  2,1  | SeAT
   8 12,7  | SeI
   8  2,13 | SeI
   8 13,5  | SeID
-  8  2,1  | SeIT
   8 13,5  | SeLT
   8  2,13 | SeT
   8  2,1  | SeTA
@@ -4847,12 +4713,10 @@
   8 12,6  - Sh
   8 13,5  | ShAD
   8  2,1  | ShAI
-  8  2,1  | ShAT
   8 10,5  - ShELD
   8 10,5  - ShELTA
   8 12,7  | ShI
   8  2,1  | ShIA
-  8  2,1  | ShIT
   8 13,5  | ShITA
   8 12,6  - Si
   8  2,13 | SiA
@@ -4864,19 +4728,13 @@
   8  2,1  | SiTA
   8  2,1  | SiTI
   8 13,5  | SkAL
-  8  2,1  | SkAT
   8 12,7  | SkI
   8 13,5  | SkID
   8 13,5  | SkIL
-  8  2,1  | SkIT
   8 13,5  | SlAD
   8 13,5  | SlAIT
-  8  2,1  | SlAT
   8 13,5  | SlID
-  8  2,1  | SlIT
   8 10,5  - SmELTS
-  8  2,1  | SmIT
-  8  2,1  | SnIT
   8 12,6  - So
   8 13,5  | SoDA
   8 13,5  | SoIL
@@ -4885,21 +4743,16 @@
   8  2,13 | SoT
   8 13,5  | SpAD
   8 13,5  | SpAIT
-  8  2,1  | SpAT
   8 10,5  - SpELTS
-  8  2,1  | SpIT
   8 12,7  | SrI
   8 12,7  | SsI
   8 13,5  | StAD
-  8  2,1  | StAT
   8 10,5  - StELAI
   8 13,5  | StID
   8 12,7  | SuI
   8 13,5  | SuID
-  8  2,1  | SuIT
   8 13,5  | SuLA
   8 13,5  | SwAD
-  8  2,1  | SwAT
   8 13,5  | SwATI
   8 13,5  | TAD
   8 13,5  | TADa
@@ -5006,39 +4859,22 @@
   8 13,4  | aTI
   8 12,7  | aTI
   8 12,7  | bAI
-  8  2,1  | bAIT
-  8  2,1  | bAST
-  8  2,1  | bIST
   8  2,15 - bLED
   8 12,7  | cAI
-  8  2,1  | cAST
-  8  2,1  | cIST
   8  2,15 - cLED
   8  2,1  | dASI
   8  2,1  | dISA
-  8  2,1  | dIST
   8  2,1  | dITA
-  8  2,1  | eAST
   8 13,5  | eDITAL
   8  1,8  - eS
   8 13,4  | eST
   8  1,8  - eT
   8 13,4  | eTA
   8  8,12 - ekE
-  8  2,1  | fAIT
-  8  2,1  | fAST
-  8  2,1  | fIAT
-  8  2,1  | fIST
   8  2,15 - fLED
-  8  2,1  | gAIT
-  8  2,1  | gAST
-  8  2,1  | gIST
   8  2,15 - gLED
-  8  2,1  | hAIT
   8 13,5  | hALIDS
-  8  2,1  | hAST
   8  2,1  | hATI
-  8  2,1  | hIST
   8 12,7  | hSI
   8  9,5  - iSSEI
   8 13,4  | iST
@@ -5048,69 +4884,47 @@
   8 12,7  | jAI
   8  2,1  | jATI
   8 12,7  | kAI
-  8  2,1  | kIST
   8 12,7  | kSI
   8 12,7  | lAI
-  8  2,1  | lAIT
   8  2,1  | lASI
-  8  2,1  | lAST
   8  2,1  | lATI
   8  2,1  | lISA
-  8  2,1  | lIST
-  8  2,1  | mAST
-  8  2,1  | mIST
   8  2,1  | nASI
-  8  2,1  | nAST
-  8  2,1  | nIST
-  8  2,1  | oAST
   8  2,15 - oDEL
   8  9,5  - oSSEA
   8  9,5  - oSSET
   8  2,1  | pASI
-  8  2,1  | pAST
   8  2,1  | pISA
-  8  2,1  | pIST
   8  2,1  | pITA
   8  2,15 - pLED
   8 12,7  | pSI
   8  2,1  | pSIA
-  8  2,1  | rIST
   8  2,1  | rITA
   8 12,7  | rTI
   8 12,7  | sAI
   8  2,1  | sATI
   8  1,8  - sI
-  8  2,1  | sIST
   8  2,1  | sITA
   8  2,15 - sLED
   8 12,7  | sSI
   8 12,7  | tAI
-  8  2,1  | tAIT
   8  2,1  | tSIA
   8  2,1  | uTAI
   8 12,7  | vAI
-  8  2,1  | vAST
   8  2,1  | vISA
   8  2,1  | vITA
-  8  2,1  | wAIT
-  8  2,1  | wAST
-  8  2,1  | wIST
   8  2,1  | yATI
   8  2,1  | zATI
   7  3,12 - AFD
   7  3,12 - AFrITe
   7  2,3  | AI
   7  3,13 - AIT
-  7  2,1  | AInT
-  7  2,1  | AIrT
   7  2,15 - ALES
   7  2,1  | ASIa
   7  2,1  | ASTa
   7  2,1  | ASTr
   7  2,1  | AScI
   7  2,1  | ASsI
-  7  2,1  | ASsT
-  7  2,3  | AT
   7 12,7  | ATi
   7  2,1  | ATlI
   7  2,15 - AbED
@@ -5152,7 +4966,6 @@
   7  2,2  | DAm
   7  2,2  | DAo
   7  2,2  | DAr
-  7  2,2  | DAt
   7  3,12 - DFT
   7  6,11 | DIAG
   7  3,9  | DID
@@ -5163,28 +4976,20 @@
   7  2,2  | DIe
   7  2,2  | DIm
   7  2,2  | DIr
-  7  2,2  | DIt
   7  2,2  | DSr
   7  2,3  | Da
-  7  2,2  | DaT
   7  2,2  | DcA
-  7  2,2  | DdT
   7  2,3  | De
   7  2,2  | DeA
   7  2,2  | DeI
-  7  2,2  | DeT
-  7  2,2  | DfT
   7  2,2  | DhA
   7  2,3  | Di
   7 12,8  | Di
   7  2,2  | DiA
-  7  2,2  | DiT
   7  2,3  | Do
   7 12,8  | Do
   7  2,2  | DoA
-  7  2,2  | DoT
   7  2,2  | DuI
-  7  2,2  | DwT
   7 12,5  - EDIT
   7 12,5  - EILD
   7 12,5  - ELD
@@ -5332,8 +5137,6 @@
   7  2,15 - IDES
   7  2,15 - ILEA
   7  2,1  | ISbA
-  7  2,1  | ISnT
-  7  2,3  | IT
   7  2,1  | ITAi
   7  2,1  | ITeA
   7  2,1  | ITzA
@@ -5359,32 +5162,23 @@
   7  2,2  | LAm
   7  2,2  | LAo
   7  2,2  | LAr
-  7  2,2  | LAt
   7  6,12 | LDG
   7  2,15 - LIES
   7  2,2  | LIe
   7  2,2  | LIm
   7  2,2  | LIr
-  7  2,2  | LIt
-  7  2,2  | LSt
   7  2,2  | LTr
   7  2,3  | La
   7  2,2  | LaI
-  7  2,2  | LaT
   7  2,2  | LeA
   7  2,2  | LeI
-  7  2,2  | LeT
   7  2,3  | Li
   7 12,8  | Li
-  7  2,2  | LiT
   7  6,11 | LnDG
   7  2,3  | Lo
   7 12,8  | Lo
   7  2,2  | LoA
-  7  2,2  | LoT
-  7  2,2  | LsT
   7  2,2  | LuI
-  7  2,2  | LuT
   7 11,1  - NEeLD
   7 10,2  - PIRnS
   7 10,2  - PIRoT
@@ -5412,32 +5206,26 @@
   7  5,13 | SAe
   7  2,1  | SAfI
   7 13,5  | SAfI
-  7  2,1  | SAfT
   7 13,5  | SAfT
   7  5,13 | SAh
   7 12,7  | SAi
   7  2,1  | SAkI
   7 13,5  | SAkI
   7  5,13 | SAl
-  7  2,1  | SAlT
   7 13,5  | SAlT
   7  5,13 | SAm
   7  5,13 | SAn
-  7  2,1  | SAnT
   7 13,5  | SAnT
   7 12,7  | SAo
   7  5,13 | SAo
   7  2,1  | SArI
   7 13,5  | SArI
-  7  2,1  | SArT
   7 13,5  | SArT
   7  5,13 | SAt
   7  2,1  | SAtI
   7 13,5  | SAtI
-  7  2,1  | SAuT
   7 13,5  | SAuT
   7  5,13 | SAw
-  7  2,1  | SAwT
   7 13,5  | SAwT
   7  5,13 | SAx
   7 10,5  - SDEATh
@@ -5466,17 +5254,14 @@
   7 13,5  | SITz
   7  2,1  | SIdA
   7 13,5  | SIdA
-  7  2,1  | SIfT
   7 13,5  | SIfT
   7  2,1  | SIkA
   7 13,5  | SIkA
-  7  2,1  | SIlT
   7 13,5  | SIlT
   7  2,1  | SImA
   7 13,5  | SImA
   7  2,1  | SInA
   7 13,5  | SInA
-  7  2,1  | SIsT
   7 13,5  | SIsT
   7  2,1  | SItA
   7 13,5  | SItA
@@ -5495,7 +5280,6 @@
   7 13,5  | STAp
   7  2,1  | STAr
   7 13,5  | STAr
-  7  2,1  | STAt
   7 13,5  | STAt
   7 13,5  | STAw
   7 13,5  | STAy
@@ -5590,7 +5374,6 @@
   7 13,5  | TAIg
   7 13,5  | TAIl
   7 13,5  | TAIn
-  7  2,1  | TAIt
   7 13,5  | TAIt
   7 13,5  | TAS
   7 13,5  | TASh
@@ -5686,27 +5469,20 @@
   7 13,5  | TwAS
   7  2,6  | UIT
   7  2,15 - aIEL
-  7  2,2  | aIT
   7 13,4  | aS
   7 13,4  | aT
   7  2,2  | aTI
   7  2,15 - bAEL
   7  2,2  | bAI
-  7  2,2  | bAT
-  7  2,2  | bIT
   7  6,11 | bLDG
   7  2,5  | bU
   7  2,2  | cAI
-  7  2,2  | cAT
   7  2,2  | cIA
-  7  2,2  | cIT
-  7  2,2  | cST
   7 12,6  - dA
   7  2,13 | dAD
   7  5,13 | dAD
   7  2,13 | dAL
   7  5,13 | dAL
-  7  2,2  | dAT
   7 12,6  - dI
   7  2,2  | dIA
   7  2,13 | dID
@@ -5716,96 +5492,71 @@
   7  2,13 | dIL
   7 13,5  | dISTAD
   7 13,5  | dISTAL
-  7  2,2  | dIT
-  7  2,2  | eAT
   7 13,4  | eS
   7  3,12 | eS
-  7  2,2  | eST
   7 13,4  | eT
   7  3,12 | eT
   7  2,2  | eTA
   7  3,12 | fA
   7  2,13 | fAD
   7  5,13 | fAD
-  7  2,2  | fAT
   7  2,13 | fID
   7  2,15 - fIED
   7  2,15 - fIEL
   7  2,13 | fIL
-  7  2,2  | fIT
   7  2,15 - gAED
   7  2,15 - gAEL
-  7  2,2  | gAT
   7  2,15 - gIED
-  7  2,2  | gIT
   7  2,13 | hAD
   7  2,15 - hAED
   7  2,13 | hAL
   7 13,5  | hALID
-  7  2,2  | hAT
   7  2,2  | hIA
   7  2,13 | hID
   7  2,15 - hIED
   7 13,5  | hILDA
-  7  2,2  | hIT
   7  2,2  | hSI
   7  2,15 - hTEL
   7 13,4  | iS
   7  3,12 | iS
   7  2,15 - iSED
   7  9,5  - iSLE
-  7  2,2  | iST
   7 13,4  | iT
   7  3,12 | iT
   7  2,2  | iTA
   7  2,2  | jAI
   7  2,2  | kAI
-  7  2,2  | kAT
   7  2,15 - kIEL
-  7  2,2  | kIT
   7  2,2  | kSI
   7  2,13 | lAD
   7  2,2  | lAI
-  7  2,2  | lAT
   7  2,13 | lID
   7  2,15 - lIED
-  7  2,2  | lIT
-  7  2,2  | lST
   7  2,13 | mAD
   7  2,15 - mAED
   7  2,13 | mAL
   7 13,5  | mALIST
-  7  2,2  | mAT
   7  2,2  | mIA
   7  2,13 | mID
   7  2,13 | mIL
   7 13,5  | mISTAL
-  7  2,2  | mIT
   7  2,5  | mU
-  7  2,2  | nAT
   7 13,5  | nIDAL
   7  2,13 | nIL
-  7  2,2  | nIT
   7  2,5  | nU
   7  2,13 | oAD
   7  5,13 | oAD
-  7  2,2  | oAT
   7  2,13 | oIL
   7 13,4  | oS
   7  3,12 | oS
-  7  2,2  | pAT
   7  2,2  | pIA
   7  2,15 - pIED
-  7  2,2  | pIT
   7  2,2  | pSI
   7  2,2  | pTA
-  7  2,2  | qAT
   7  2,13 | rAD
-  7  2,2  | rAT
   7  2,2  | rIA
   7  2,13 | rID
   7  2,15 - rIEL
-  7  2,2  | rIT
   7  2,2  | rTI
   7  2,13 | sAD
   7  5,13 | sAD
@@ -5813,12 +5564,10 @@
   7  2,2  | sAI
   7  2,13 | sAL
   7  5,13 | sAL
-  7  2,2  | sAT
   7 12,6  - sI
   7  2,2  | sIA
   7  2,13 | sIL
   7 13,5  | sILDS
-  7  2,2  | sIT
   7  2,15 - sSED
   7  2,2  | sSI
   7  2,2  | sTA
@@ -5828,37 +5577,26 @@
   7  2,2  | tAI
   7  2,13 | tAL
   7  5,13 | tAL
-  7  2,2  | tAT
   7 13,5  | tIDAL
   7  2,15 - tIED
   7  2,13 | tIL
   7 13,5  | tILDA
-  7  2,2  | tIT
-  7  2,2  | tST
-  7  2,2  | uIT
   7  2,15 - uSED
   7  2,2  | uTA
   7  2,2  | vAI
-  7  2,2  | vAT
   7  2,2  | vIA
   7  2,15 - vIED
   7  2,13 | wAD
-  7  2,2  | wAT
   7  1,3  | wHARL
   7  2,13 | wID
   7  2,15 - wIED
   7 13,5  | wILDS
-  7  2,2  | wIT
-  7  2,2  | yAT
-  7  2,2  | zAT
-  7  2,2  | zIT
   6  2,14 | AD
   6  5,14 | AD
   6  3,12 - AFT
   6  3,12 - AFfT
   6  2,2  | AIm
   6  2,2  | AIr
-  6  2,2  | AIt
   6  2,14 | AL
   6  5,14 | AL
   6  6,12 | ALG
@@ -5866,43 +5604,29 @@
   6  2,2  | ATe
   6  2,2  | ATi
   6  2,2  | ATm
-  6  2,2  | ATt
   6  7,13 | AUH
-  6  2,2  | AbT
-  6  2,2  | AcT
   6 13,4  | AdS
   6 13,4  | AeS
-  6  2,2  | AeT
   6 13,4  | AeT
-  6  2,2  | AfT
   6 13,4  | AfT
-  6  2,2  | AgT
   6  2,2  | AhI
   6 13,4  | AhI
   6 13,4  | AhS
-  6  2,2  | AhT
   6 13,4  | AhT
-  6  2,2  | AiT
   6 13,4  | AlS
-  6  2,2  | AlT
   6 13,4  | AlT
   6  2,2  | AmI
   6 13,4  | AmI
-  6  2,2  | AmT
   6 13,4  | AmT
   6  2,2  | AnI
   6 13,4  | AnI
   6 13,4  | AnS
-  6  2,2  | AnT
   6 13,4  | AnT
-  6  2,2  | ApT
   6 13,4  | ArS
-  6  2,2  | ArT
   6 13,4  | ArT
   6 13,4  | AsS
   6  2,2  | AtI
   6 13,4  | AtI
-  6  2,2  | AtT
   6 13,4  | AtT
   6  6,12 | DAG
   6  6,11 | DAnG
@@ -6131,7 +5855,6 @@
   6  3,12 - IFS
   6  2,2  | ISe
   6  2,2  | ISm
-  6  2,2  | ISt
   6  4,13 - IT
   6  2,15 - ITEA
   6  2,2  | ITa
@@ -6142,12 +5865,10 @@
   6  2,2  | IlA
   6 13,4  | IlA
   6 13,4  | InS
-  6  2,2  | InT
   6 13,4  | InT
   6  2,2  | IrA
   6 13,4  | IrA
   6 13,4  | IrS
-  6  2,2  | IsT
   6 13,4  | IsT
   6  2,2  | ItA
   6 13,4  | ItA
@@ -6201,7 +5922,6 @@
   6  2,2  | SAo
   6 13,5  | SAo
   6 13,5  | SAp
-  6  2,2  | SAt
   6 13,5  | SAt
   6 13,5  | SAu
   6 13,5  | SAv
@@ -6227,7 +5947,6 @@
   6  2,2  | SIr
   6 13,5  | SIr
   6 13,5  | SIs
-  6  2,2  | SIt
   6 13,5  | SIt
   6 13,5  | SIx
   6 10,5  - SLETe
@@ -6263,11 +5982,9 @@
   6 13,5  | SaA
   6  2,2  | SaI
   6 13,5  | SaI
-  6  2,2  | SaT
   6 13,5  | SaT
   6  2,2  | ScI
   6 13,5  | ScI
-  6  2,2  | ScT
   6 13,5  | ScT
   6  2,2  | SeA
   6 13,5  | SeA
@@ -6275,7 +5992,6 @@
   6 10,5  - SeEL
   6  2,2  | SeI
   6 13,5  | SeI
-  6  2,2  | SeT
   6 13,5  | SeT
   6  2,2  | ShA
   6 13,5  | ShA
@@ -6284,12 +6000,10 @@
   6 10,5  - ShEL
   6  2,2  | ShI
   6 13,5  | ShI
-  6  2,2  | ShT
   6 13,5  | ShT
   6  2,2  | SiA
   6 13,5  | SiA
   6 10,5  - SiESTA
-  6  2,2  | SiT
   6 13,5  | SiT
   6 10,5  - SkED
   6 10,5  - SkEL
@@ -6298,20 +6012,17 @@
   6  2,2  | SlA
   6 13,5  | SlA
   6 10,5  - SlED
-  6  2,2  | SlT
   6 13,5  | SlT
   6  2,2  | SmA
   6 13,5  | SmA
   6 10,5  - SnEAD
   6 10,5  - SnED
-  6  2,2  | SoT
   6 13,5  | SoT
   6  2,2  | SpA
   6 13,5  | SpA
   6 10,5  - SpEAL
   6 10,5  - SpED
   6 10,5  - SpEIL
-  6  2,2  | SpT
   6 13,5  | SpT
   6  2,2  | SrI
   6 13,5  | SrI
@@ -6355,7 +6066,6 @@
   6  2,2  | TAr
   6 13,5  | TAr
   6 13,5  | TAs
-  6  2,2  | TAt
   6 13,5  | TAt
   6 13,5  | TAu
   6 13,5  | TAv
@@ -6375,12 +6085,10 @@
   6 13,5  | TIn
   6 13,5  | TIp
   6 13,5  | TIs
-  6  2,2  | TIt
   6 13,5  | TIt
   6 13,5  | TIu
   6 13,5  | TSk
   6 13,5  | TSs
-  6  2,2  | TSt
   6 13,5  | TSt
   6  2,2  | TaA
   6 13,5  | TaA
@@ -6664,7 +6372,6 @@
   5  2,15 - ArES
   5  2,15 - ArET
   5 13,4  | As
-  5  2,3  | At
   5 13,4  | At
   5  2,15 - AtES
   5  2,15 - AvES
@@ -6894,7 +6601,6 @@
   5 12,8  | Io
   5  2,15 - IrES
   5 13,4  | Is
-  5  2,3  | It
   5 13,4  | It
   5  2,15 - ItEA
   5  2,15 - LAEn
@@ -7062,7 +6768,6 @@
   5  2,3  | aI
   5  6,12 | aLG
   5  2,15 - aSEA
-  5  2,3  | aT
   5  2,15 - aTES
   5  7,13 | aUH
   5  2,3  | bA
@@ -7093,7 +6798,6 @@
   5 13,5  | eLD
   5 13,5  | eLIA
   5 13,5  | eLSA
-  5  2,3  | eT
   5  2,3  | fA
   5  2,13 | fA
   5 13,5  | fADS
@@ -7130,10 +6834,8 @@
   5 13,5  | hILA
   5 13,5  | hILT
   5 13,5  | hLD
-  5  2,3  | hT
   5  7,13 | hUH
   5  3,12 - iFS
-  5  2,3  | iT
   5  2,15 - iTEA
   5  2,3  | jA
   5  2,3  | kA
@@ -7232,7 +6934,6 @@
   5 13,5  | tILS
   5 13,5  | tILT
   5  3,12 - uFS
-  5  2,3  | uT
   5  2,15 - vIES
   5 13,5  | wADI
   5 13,5  | wADS
@@ -7243,7 +6944,6 @@
   5 13,5  | wALI
   5 13,5  | wALT
   5 13,5  | wILT
-  5  2,3  | wT
   5  2,3  | xI
   5  2,13 | xI
   5  2,3  | yA
@@ -7430,7 +7130,6 @@
   4 11,9  - GuT
   4  1,4  - HA
   4  1,4  - HI
-  4  1,4  - HT
   4  2,10 | He
   4  2,10 | Hi
   4  2,10 | Hm
@@ -7897,7 +7596,6 @@
   3  1,4  - Hm
   3  1,4  - Ho
   3  1,4  - Hr
-  3  1,4  - Ht
   3  6,12 - IDe
   3  6,12 - ILe
   3  2,15 - ISE
@@ -8195,7 +7893,6 @@
   2  2,15 - hAE
   2 13,5  | hI
   2  2,15 - hIE
-  2 13,5  | hT
   2  6,12 - iDe
   2  6,12 - iLe
   2  2,15 - iSE
