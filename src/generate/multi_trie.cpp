@@ -26,22 +26,22 @@ namespace {
     using std::end;
     using std::string_view;
 
-    auto find(node& n, char l)
+    auto find(node::edge_vector& e, char l)
     {
-        return std::find_if(begin(n.edges), end(n.edges),
+        return std::find_if(begin(e), end(e),
                 [l](auto const& edge) { return edge==l; });
     }
 
-    auto insert(int index, node& n, char l) -> node&
+    auto insert(int index, node::edge_vector& e, char l) -> node&
     {
-        auto found = find(n, l);
-        if (found!=end(n.edges)) {
+        auto found = find(e, l);
+        if (found!=end(e)) {
             return found->get_next();
         }
 
-        n.edges.emplace_back(l,
+        e.emplace_back(l,
                 std::make_unique<node>(node::edge_vector{}, index, false));
-        return n.edges.back().get_next();
+        return e.back().get_next();
     }
 
     auto insert(
@@ -62,7 +62,7 @@ namespace {
             return true;
         }
         auto letter = *pos;
-        auto& next_node = insert(index, n, letter);
+        auto& next_node = insert(index, n.edges, letter);
         return insert(index, next_node, pos+1, end);
     }
 }  // namespace
