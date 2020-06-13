@@ -26,22 +26,19 @@ namespace {
     using std::end;
     using std::string_view;
 
-    auto find(node::edge_vector& e, char l)
-    {
-        return std::find_if(begin(e), end(e),
-                [l](auto const& edge) { return edge==l; });
-    }
-
     auto insert(int index, node::edge_vector& e, char l) -> node&
     {
-        auto found = find(e, l);
-        if (found!=end(e)) {
-            return found->get_next();
+        auto const [found_first, found_last] = std::equal_range(begin(e), end(e), l);
+
+        auto const num_found = std::distance(found_first, found_last);
+        if (num_found != 0) {
+            WSS_ASSERT(num_found == 1);
+            return found_first->get_next();
         }
 
-        e.emplace_back(l,
-                std::make_unique<node>(node::edge_vector{}, index, false));
-        return e.back().get_next();
+        return e.emplace(found_first, 
+                l,
+                std::make_unique<node>(node::edge_vector{}, index, false))->get_next();
     }
 
     auto insert(
