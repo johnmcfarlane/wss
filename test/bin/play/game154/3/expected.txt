@@ -397,7 +397,6 @@
  20  1,2  - GaIA
  20  5,7  - GeISA
  20  1,2  - GlIA
- 20  1,2  - GuAO
  20  6,2  - IYAr
  20  2,7  - OSAGe
  20  5,7  - OSAGe
@@ -1094,10 +1093,10 @@
  16  4,7  - SAtA
  16  4,7  - SAtI
  16  6,7  - SAu
- 16  6,7  - SAv
  16  6,7  - SAw
  16  6,7  - SAx
  16  6,7  - SAy
+ 16  6,7  - SAz
  16  6,7  - SI
  16  2,2  - SIA
  16  1,6  - SIGnAL
@@ -1275,7 +1274,6 @@
  16  4,7  - wOS
  16  4,7  - xIS
  16  4,7  - yAS
- 16  4,7  - yIS
  16  4,7  - zAS
  15  3,2  - AAS
  15  4,7  - AAl
@@ -1367,7 +1365,6 @@
  15  5,6  - aLSO
  15  5,7  - aS
  15  4,6  - bALS
- 15  5,5  | bASOGA
  15  4,6  - cALS
  15  4,6  - cOLS
  15  4,6  - dOLS
@@ -1643,7 +1640,6 @@
  13  3,2  - aAA
  13  3,2  - aAS
  13  3,2  - aIS
- 13  5,5  | bAGIOS
  13  5,5  | lAOGAI
  13  5,5  | sAIGAS
  13  5,5  | tAIGAS
@@ -1701,7 +1697,6 @@
  12  5,5  | dAGOS
  12  5,5  | hAGIA
  12  4,4  - hAJE
- 12  5,6  | lAOGAI
  12  1,6  - nASIAL
  12  5,5  | rAGAS
  12  5,5  | rAGIS
@@ -1811,7 +1806,6 @@
  10  1,2  - AwA
  10  2,6  - AxIAL
  10  7,3  - CaG
- 10  7,3  - CdG
  10  7,3  - ChG
  10  7,3  - CiG
  10  7,3  - CoG
@@ -1908,8 +1902,6 @@
  10  1,2  - SkI
  10  2,6  - SkOAL
  10  1,2  - SlA
- 10  5,5  | SlAG
- 10  5,5  | SlOG
  10  1,2  - SmA
  10  2,6  - SnAIL
  10  8,5  | SoGA
@@ -1958,8 +1950,6 @@
  10  4,2  - aG
  10  3,2  - aI
  10  1,2  - bAA
- 10  5,5  | bAGA
- 10  5,5  | bAGS
  10  1,2  - bAI
  10  2,6  - bASAL
  10  2,6  - bASIL
@@ -2161,15 +2151,11 @@
   9  8,5  | StAIO
   9  8,5  | StOAI
   9  5,6  | aGIOS
-  9  5,5  | bAG
   9  5,5  | cAG
   9  5,5  | dAG
   9  5,5  | hAG
   9  5,5  | jAG
   9  5,5  | lAG
-  9  5,6  | lIGAS
-  9  5,6  | lOGIA
-  9  5,6  | lOGIS
   9  5,5  | rAG
   9  8,5  | rAGA
   9  8,5  | rAGI
@@ -2328,11 +2314,11 @@
   8  8,5  | SAtA
   8  8,5  | SAtI
   8  5,5  | SAu
-  8  5,5  | SAv
   8  5,5  | SAw
   8  5,5  | SAx
   8  5,5  | SAy
   8  8,5  | SAyA
+  8  5,5  | SAz
   8  8,5  | SGAd
   8  8,5  | SIG
   8  8,5  | SIGh
@@ -2365,8 +2351,6 @@
   8  5,6  | aGOS
   8  2,2  - aI
   8  2,2  - bA
-  8  5,5  | bAAS
-  8  5,5  | bAIS
   8  2,2  - bI
   8  5,5  | cASA
   8  2,2  - dA
@@ -2384,12 +2368,10 @@
   8  2,2  - kA
   8  2,2  - kI
   8  2,2  - lA
-  8  5,6  | lAGS
   8  5,5  | lAOS
   8  5,5  | lASA
   8  5,5  | lASI
   8  2,2  - lI
-  8  5,6  | lOGS
   8  2,2  - mA
   8  2,2  - mI
   8  2,2  - nA
@@ -2670,12 +2652,8 @@
   7  5,5  | SeI
   7  2,2  - Si
   7  8,5  | SiG
-  7  5,5  | SlA
   7  8,5  | SoG
   7  8,5  | StG
-  7  5,5  | bAA
-  7  5,5  | bAI
-  7  5,5  | bAS
   7  5,5  | cAI
   7  3,5  - dAGOES
   7  5,5  | dAO
@@ -2687,7 +2665,6 @@
   7  5,5  | lAI
   7  5,5  | lAO
   7  5,5  | lAS
-  7  5,6  | lOASA
   7  3,5  - lOGOES
   7  5,5  | pAS
   7  8,5  | rAIA
@@ -2916,7 +2893,6 @@
   6  5,6  | aIAS
   6  4,2  - aS
   6  5,6  | aSIA
-  6  5,5  | bA
   6  5,5  | dA
   6  3,6  - eGAL
   6  5,6  | eGO
@@ -2927,15 +2903,6 @@
   6  4,2  - iS
   6  5,5  | jA
   6  5,5  | lA
-  6  5,6  | lAG
-  6  5,6  | lAOS
-  6  5,6  | lASA
-  6  5,6  | lASI
-  6  5,6  | lIAS
-  6  5,6  | lIG
-  6  5,6  | lISA
-  6  5,6  | lOG
-  6  5,6  | lOIS
   6  4,2  - mA
   6  3,6  - mGAL
   6  4,2  - mI
@@ -3110,10 +3077,10 @@
   5  8,5  | SAp
   5  8,5  | SAt
   5  8,5  | SAu
-  5  8,5  | SAv
   5  8,5  | SAw
   5  8,5  | SAx
   5  8,5  | SAy
+  5  8,5  | SAz
   5  8,5  | SI
   5  3,6  - SIAL
   5  3,6  - SIOL
@@ -3169,7 +3136,6 @@
   5  8,5  | SuI
   5  8,5  | SwA
   5  7,2  - YAS
-  5  7,2  - YIS
   5  5,6  | aG
   5  5,5  - dOEG
   5  5,5  - zOEAS
@@ -3207,7 +3173,6 @@
   4  3,6  - ArIL
   4  5,6  | As
   4  5,6  | At
-  4  3,6  - AvAL
   4  5,6  | Aw
   4  3,6  - AwOL
   4  5,6  | Ax
@@ -3326,7 +3291,6 @@
   4  7,2  - YI
   4  7,2  - YIn
   4  7,2  - YIp
-  4  7,2  - YIs
   4  7,2  - YO
   4  7,2  - YOb
   4  7,2  - YOd
@@ -3342,7 +3306,6 @@
   4  7,2  - YaS
   4  7,2  - YeA
   4  7,2  - YeS
-  4  7,2  - YiS
   4  7,2  - YnO
   4  7,2  - YrS
   4  7,2  - YuS
@@ -3368,11 +3331,6 @@
   4  3,6  - kAIL
   4  4,5  - kIOEA
   4  3,6  - kOIL
-  4  5,6  | lAI
-  4  5,6  | lAO
-  4  5,6  | lAS
-  4  5,6  | lIS
-  4  5,6  | lOA
   4  3,6  - mAIL
   4  3,6  - mOIL
   4  3,6  - nAIL
@@ -3507,9 +3465,6 @@
   3  5,5  - jOES
   3  4,6  - kAL
   3  4,6  - kOL
-  3  5,6  | lA
-  3  5,6  | lI
-  3  5,6  | lO
   3  4,6  - mAL
   3  4,6  - mIL
   3  4,6  - mOL
@@ -3564,14 +3519,12 @@
   2  6,5  - OEr
   2  6,5  - OEs
   2  5,6  - aL
-  2  5,5  - bOE
   2  5,5  - cOE
   2  5,5  - dOE
   2  5,6  - eL
   2  5,5  - fOE
   2  5,5  - hOE
   2  5,5  - jOE
-  2  5,6  - lL
   2  5,5  - lOE
   2  5,5  - pOE
   2  5,5  - rOE

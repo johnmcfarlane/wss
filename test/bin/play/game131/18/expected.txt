@@ -2274,7 +2274,6 @@
  19  6,1  - SPECiE
  19 11,2  | SPENsE
  19 13,7  | SPa
- 19 13,7  | SPl
  19 12,5  | STD
  19 12,2  | STEt
  19 12,4  | STa
@@ -2442,7 +2441,6 @@
  18 13,7  | DEaS
  18  6,2  | DEbTED
  18 13,7  | DEeS
- 18 13,7  | DElS
  18  6,2  | DEnTED
  18 12,3  | DaS
  18 12,3  | DaT
@@ -2564,7 +2562,6 @@
  18  6,2  | SEeDED
  18  1,4  | SEiSE
  18 12,2  | SEiT
- 18 13,7  | SElD
  18 12,2  | SElT
  18 12,2  | SEnT
  18 12,2  | SEpT
@@ -2736,7 +2733,6 @@
  17  1,3  | EsSES
  17 12,3  | EsT
  17 12,4  | Et
- 17 12,3  | ExT
  17  2,6  - FcP
  17  8,5  - JOINTS
  17  9,3  - MoPEDS
@@ -2830,6 +2826,7 @@
  17 12,3  | SaT
  17 12,5  | SaT
  17  1,3  | SaTES
+ 17  3,10 | SaZ
  17 12,3  | ScT
  17 12,5  | ScT
  17 12,5  | SeE
@@ -3133,7 +3130,6 @@
  16  6,2  - SEbAT
  16  6,2  - SEdAT
  16 11,2  | SEiNED
- 16 13,7  | SElT
  16  6,2  - SEtAE
  16 11,4  | SNaP
  16 11,4  | SNiP
@@ -3313,7 +3309,6 @@
  15 13,7  | DEe
  15  8,13 - DEe
  15  3,4  | DEiCE
- 15 13,7  | DEl
  15 11,2  | DEnNET
  15  8,13 - DEr
  15  3,4  | DEuCE
@@ -3513,7 +3508,6 @@
  14  9,2  - AnTEED
  14  9,2  - ApPD
  14  8,8  - ApPET
- 14  9,2  - AvDP
  14  9,2  - AxSEED
  14  8,2  - DAP
  14  8,2  - DAPs
@@ -3981,13 +3975,11 @@
  13 11,3  | ErNST
  13  6,3  - ExEMPTS
  13  3,3  | ExSEC
- 13 15,4  | GLEBAl
  13  9,4  - IDEaS
  13  9,4  - IDEnT
  13  9,4  - IDEsT
  13  9,4  - IDeE
  13  9,4  - IDeS
- 13 14,9  - Ll
  13  9,3  - MESPoT
  13  9,3  - METoPE
  13  9,3  - MaPS
@@ -4063,7 +4055,6 @@
  13  8,13 - SEe
  13  1,4  | SEeS
  13  1,4  | SEiS
- 13 13,7  | SEl
  13  8,13 - SEr
  13 11,4  | SNiDE
  13  5,1  - SPEECe
@@ -4124,7 +4115,6 @@
  13 13,7  | TEe
  13  8,13 - TEe
  13  1,4  | TEeS
- 13 13,7  | TEl
  13  4,11 - TEnSED
  13  4,11 - TEnTED
  13  4,11 - TEsTED
@@ -4809,7 +4799,6 @@
  11 11,4  | ENSuE
  11 11,4  | ENaTE
  11  5,3  - EPSoM
- 11 13,8  | ElD
  11  3,4  | ElEC
  11 11,3  | ElNE
  11 11,3  | EoNS
@@ -5560,7 +5549,6 @@
  10  8,2  - gATED
  10 11,3  | gENE
  10 11,3  | gENS
- 10  7,1  - gPCD
  10  8,2  - hADES
  10  8,2  - hADST
  10  8,2  - hAP
@@ -5745,8 +5733,6 @@
   9  7,1  - EbCD
   9 10,7  - EdP
   9  9,13 - Ee
-  9 13,8  | ElS
-  9 13,8  | ElT
   9 10,10 | EmBER
   9  7,3  - EmMETS
   9 10,7  - EmP
@@ -5915,7 +5901,6 @@
   9  1,5  | SiSE
   9 11,8  | SkEEL
   9 11,9  | SkEL
-  9 13,8  | SlT
   9 10,10 | SoBER
   9 10,7  - SoP
   9 11,8  | SpEEL
@@ -6160,7 +6145,6 @@
   8  9,1  - CoP
   8  9,1  - CsP
   8  9,1  - CuP
-  8  9,1  - CyP
   8  8,2  - DAEr
   8  8,2  - DAS
   8  8,2  - DASe
@@ -6278,7 +6262,6 @@
   8  6,1  - DsECT
   8  7,2  - DyAS
   8  7,13 - DyE
-  8  8,2  - EADi
   8  8,2  - EASE
   8  8,2  - EASEd
   8  8,2  - EASEl
@@ -6942,7 +6925,6 @@
   7  2,12 | AmY
   7  8,8  - ApPD
   7  2,12 | ArY
-  7  8,8  - AvDP
   7 10,12 | BDRm
   7 10,12 | BERE
   7 10,12 | BERT
@@ -7482,6 +7464,7 @@
   7  7,8  - lASED
   7  7,8  - lATED
   7  6,3  | lESED
+  7  7,8  | lUDS
   7  7,8  | lUTES
   7 11,15 - lYE
   7 11,15 - lYS
@@ -7548,7 +7531,6 @@
   7  1,5  | yES
   7  7,8  | yUP
   6  9,2  - AD
-  6  9,2  - ADc
   6  9,2  - ADd
   6  9,2  - ADo
   6  9,2  - ADp
@@ -7669,7 +7651,6 @@
   6 10,12 | BuRT
   6 10,12 | ByRE
   6  9,1  - CDf
-  6  9,1  - CDg
   6  9,1  - CDr
   6  9,1  - CEE
   6  9,1  - CST
@@ -7773,7 +7754,6 @@
   6 10,7  - EfT
   6 10,7  - EkE
   6  6,4  | EkED
-  6 13,8  | El
   6 11,4  - ElD
   6  6,1  - ElEC
   6  6,3  - ElEM
@@ -7803,7 +7783,6 @@
   6 10,7  - EvE
   6 10,7  - EwE
   6  6,1  - ExEC
-  6 10,7  - ExT
   6  6,2  - ExTA
   6 12,8  - ExTA
   6  7,2  - EyAS
@@ -8245,7 +8224,6 @@
   6  8,1  - aCES
   6  8,1  - aCTS
   6  7,13 - aD
-  6  7,1  - aDC
   6 11,4  - aES
   6 11,4  - aET
   6 15,11 | aR
@@ -8659,7 +8637,6 @@
   5 11,4  - EwE
   5 10,7  - Ex
   5 13,9  | Ex
-  5 11,4  - ExT
   5 11,4  - EyE
   5 10,5  | IDEE
   5 10,5  | IDES
@@ -8681,7 +8658,6 @@
   5  9,3  - MEl
   5  9,3  - MEm
   5  9,3  - MEn
-  5  9,3  - MEo
   5  9,3  - MEr
   5  9,3  - MEs
   5  9,3  - MEt
@@ -8878,7 +8854,6 @@
   5  7,8  | bUD
   5 13,7  - cAB
   5  7,6  - cAND
-  5 13,4  - cDG
   5  5,5  | cENSE
   5  7,1  - cSC
   5 13,7  - dAB
@@ -9120,7 +9095,6 @@
   4  8,8  - AiDS
   4  9,2  - AiS
   4  9,2  - AiT
-  4  9,2  - AkE
   4  8,8  - AkED
   4  9,2  - AlE
   4  9,2  - AlS
@@ -9262,10 +9236,10 @@
   4  8,2  - SAp
   4  8,2  - SAt
   4  8,2  - SAu
-  4  8,2  - SAv
   4  8,2  - SAw
   4  8,2  - SAx
   4  8,2  - SAy
+  4  8,2  - SAz
   4 12,9  - SEL
   4  5,5  | SEN
   4  5,4  | SEaN
@@ -9355,7 +9329,6 @@
   4 13,4  - TuG
   4 11,3  | TuN
   4 13,4  - TyG
-  4  7,9  | UDi
   4  7,9  | UDo
   4  7,9  | UDs
   4  7,9  | USeE
@@ -9533,7 +9506,6 @@
   4  8,2  - zAS
   4  8,2  - zAT
   3  8,8  - AD
-  3  8,8  - ADc
   3  8,8  - ADd
   3  8,8  - ADo
   3  8,8  - ADp
@@ -9849,7 +9821,6 @@
   2  9,2  - Ai
   2  8,8  - AiS
   2  8,8  - AiT
-  2  8,8  - AkE
   2  9,2  - Al
   2  8,8  - AlE
   2  8,8  - AlS
@@ -10067,9 +10038,7 @@
   2 13,10 - lIE
   2 13,10 - lIS
   2 13,10 - lIT
-  2 13,9  - lL
   2  7,2  - mEA
-  2  4,5  | mEO
   2 13,10 - mIS
   2 13,10 - mIT
   2  7,2  - nEA
@@ -10122,7 +10091,6 @@
   2 13,10 - xIS
   2  7,2  - yEA
   2  8,13 | yEE
-  2 13,10 - yIS
   2  8,13 | zEE
   2 13,10 - zIT
   1  8,8  - Aa

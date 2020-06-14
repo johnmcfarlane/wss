@@ -427,7 +427,6 @@
  23  7,6  | ABp
  23  7,6  | ABs
  23  7,6  | ABt
- 23  3,7  | ADC
  23  4,10 - AFTEr
  23  1,10 - ARlE
  23  3,4  | ASEa
@@ -869,7 +868,6 @@
  19  7,3  | ADzES
  19  7,6  | AES
  19  3,4  | ASB
- 19  3,7  | AdC
  19  7,3  | AeDES
  19  7,3  | AiDES
  19  3,7  | AnC
@@ -973,7 +971,6 @@
  19  5,8  - SUABlE
  19  7,6  | aB
  19  7,4  | aBAS
- 19  3,7  | aDC
  19  7,6  | aDS
  19  7,3  | bASED
  19  7,3  | cASED
@@ -1287,7 +1284,6 @@
  17  3,2  | BlASE
  17  3,3  | BlS
  17  7,5  | BoA
- 17  7,5  | BoE
  17  3,3  | BoS
  17  7,5  | BoS
  17  3,3  | BpS
@@ -1505,7 +1501,6 @@
  16  7,4  | BeA
  16  7,4  | BeE
  16  7,4  | BoA
- 16  7,4  | BoE
  16  7,4  | BrA
  16  7,4  | ByE
  16  7,4  | DAEr
@@ -2291,7 +2286,6 @@
  13  7,4  | AgE
  13  7,6  | Ah
  13  7,6  | Ai
- 13  7,4  | AkE
  13  7,6  | Al
  13  7,4  | AlE
  13  7,6  | Am
@@ -2391,7 +2385,6 @@
  13  5,8  - FUSeE
  13  6,6  - JAD
  13  6,6  - JADe
- 13  6,6  - JADy
  13  6,6  - JEeD
  13  6,6  - JaDE
  13  6,6  - JeED
@@ -2601,7 +2594,6 @@
  12  1,2  - EFS
  12  1,2  - EFfS
  12  1,2  - EFtS
- 12  5,6  - EJAm
  12  1,10 - ERr
  12  2,1  | ES
  12  4,8  - ESU
@@ -2996,10 +2988,10 @@
  11  5,7  - SArAF
  11  1,6  - SAt
  11  1,6  - SAu
- 11  1,6  - SAv
  11  1,6  - SAw
  11  1,6  - SAx
  11  1,6  - SAy
+ 11  1,6  - SAz
  11  4,7  - SEABeD
  11  1,8  | SPaE
  11  5,10 - STBD
@@ -3640,7 +3632,6 @@
   8  5,8  - DUSt
   8  4,7  - DrABA
   8  4,7  - DrABS
-  8  1,2  - EADi
   8  1,2  - EASE
   8  1,2  - EASEd
   8  1,2  - EASEl
@@ -3667,7 +3658,6 @@
   8  1,2  - EiDE
   8  1,2  - EkED
   8  2,1  | El
-  8  2,2  | El
   8  1,2  - ElDS
   8  2,1  | Em
   8  1,2  - EmDA
@@ -3854,6 +3844,7 @@
   8  5,8  - fUDS
   8  5,8  - gUDE
   8  5,7  - hAAFS
+  8  5,8  - lUDS
   8  5,8  - mUDS
   8  1,8  | oPA
   8  1,8  | oPE
@@ -4067,6 +4058,7 @@
   7  1,3  - LiDE
   7  1,3  - LiDS
   7  1,3  - LoDE
+  7  1,3  - LuDS
   7  1,3  - LyASE
   7  1,5  - OMAn
   7  1,5  - OMAo
@@ -4253,7 +4245,6 @@
   6  6,7  - AbED
   6  6,7  - AcAD
   6  6,7  - AcED
-  6  6,7  - AdAD
   6  6,7  - AdEAD
   6  6,7  - AeDES
   6  6,7  - AgAD
@@ -4268,7 +4259,6 @@
   6  5,7  | AnI
   6  6,7  - ApED
   6  4,7  - ArAB
-  6  6,7  - ArAD
   6  6,7  - ArDEA
   6  6,7  - ArEAD
   6  6,7  - ArED
@@ -4537,7 +4527,6 @@
   6  5,8  - SUEs
   6  5,8  - SUEt
   6  5,8  - SUEy
-  6  5,8  - SUEz
   6  4,7  - ScAB
   6  4,5  | ScEAT
   6  4,7  - ShAB
@@ -4567,7 +4556,6 @@
   6  6,10 - TuBE
   6  6,10 - TuBS
   6  6,10 - TuFA
-  6  6,8  - UBc
   6  6,8  - UBi
   6  6,8  - UFo
   6  6,8  - UFs
@@ -5052,8 +5040,6 @@
   5  4,6  | zEST
   4  6,7  - AAhS
   4  6,7  - AAlS
-  4  4,7  - ADAd
-  4  6,7  - ADAd
   4  4,7  - ADAi
   4  6,7  - ADAi
   4  4,7  - ADAm
@@ -5082,7 +5068,6 @@
   4  4,7  - AbASE
   4  4,7  - AcAD
   4  6,7  - AcES
-  4  4,7  - AdAD
   4  4,7  - AgAD
   4  6,7  - AgAS
   4  6,7  - AgES
@@ -5097,7 +5082,6 @@
   4  6,7  - AnSA
   4  6,7  - ApES
   4  6,7  - ApSE
-  4  4,7  - ArAD
   4  4,7  - ArASE
   4  6,7  - ArEA
   4  6,7  - ArES
@@ -5157,7 +5141,6 @@
   4  4,7  - DeAS
   4  4,7  - DiAS
   4  4,7  - DyAS
-  4  5,7  - EADi
   4  1,2  - EAm
   4  1,2  - EAr
   4  1,2  - EAt
@@ -5295,7 +5278,6 @@
   4  6,10 - ToDS
   4  6,10 - ToED
   4  6,10 - TrAD
-  4  6,8  - UDi
   4  6,8  - UDo
   4  6,8  - UDs
   4  6,8  - USeE
@@ -5416,8 +5398,6 @@
   3  5,7  - AAlS
   3  2,6  - AD
   3  6,7  - AD
-  3  2,6  - ADc
-  3  6,7  - ADc
   3  2,6  - ADd
   3  6,7  - ADd
   3  2,6  - ADo
@@ -5813,8 +5793,6 @@
   2  2,6  - AkA
   2  4,7  - AkA
   2  6,7  - AkA
-  2  2,6  - AkE
-  2  6,7  - AkE
   2  2,6  - AlA
   2  4,7  - AlA
   2  6,7  - AlA
@@ -5893,10 +5871,8 @@
   2  4,7  - EtA
   2  1,2  - Ew
   2  1,2  - Ex
-  2  4,7  | ExT
   2  1,3  - La
   2  1,3  - Li
-  2  1,3  - Ll
   2  1,3  - Lo
   2  1,3  - Lu
   2  5,7  - SAa
@@ -5915,10 +5891,10 @@
   2  5,7  - SAp
   2  5,7  - SAt
   2  5,7  - SAu
-  2  5,7  - SAv
   2  5,7  - SAw
   2  5,7  - SAx
   2  5,7  - SAy
+  2  5,7  - SAz
   2  4,7  - SaA
   2  4,7  | SaT
   2  4,7  | ScT

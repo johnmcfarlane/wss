@@ -211,7 +211,6 @@
  39  9,1  | VeLATE
  39  9,1  | sILVAE
  38 10,5  | ALITY
- 38 10,3  | AVaL
  38 10,3  | ITALY
  38 10,6  | LAV
  38 10,6  | LAVa
@@ -254,7 +253,6 @@
  38 10,4  | ViLI
  38 10,4  | VoLT
  38 10,3  | VrIL
- 38 10,3  | aVAL
  38 10,6  | dATIL
  38 10,3  | dAYLIT
  38 10,6  | dITAL
@@ -461,6 +459,7 @@
  32 10,3  | TAILs
  32 10,3  | TAILy
  32 10,4  | TALI
+ 32 10,4  | TALIk
  32 10,4  | TALIo
  32 10,4  | TALIs
  32 10,4  | TALlI
@@ -698,7 +697,6 @@
  30 10,3  | rIAL
  30 10,3  | sAIL
  30 10,4  | sALT
- 30 10,6  | sAV
  30 10,3  | sIAL
  30 10,4  | sILT
  30 10,5  | sLAT
@@ -889,7 +887,6 @@
  26 10,4  | LIsT
  26 10,6  | La
  26 10,6  | Li
- 26 10,6  | Ll
  26 10,6  | Lo
  26 10,6  | Lu
  26 10,3  | TALd
@@ -903,7 +900,6 @@
  26  3,7  - VITiAL
  26 10,4  | YAd
  26 10,4  | YAs
- 26 10,4  | YIs
  26 10,5  | aL
  26 10,6  | dALI
  26 10,6  | dALT
@@ -913,7 +909,6 @@
  26 10,6  | lAY
  26 10,6  | lILA
  26 10,6  | lILT
- 26 10,5  | lL
  26 10,6  | sAIL
  26 10,6  | sALT
  26 10,6  | sAY
@@ -1033,7 +1028,6 @@
  22  6,6  | KiLTY
  22  8,5  | LEAVY
  22  8,2  | LIVYEr
- 22 10,5  | Ll
  22 10,4  | TAd
  22 10,4  | TAl
  22 10,4  | TAs
@@ -1063,7 +1057,6 @@
  22 10,6  | lAI
  22 10,6  | lAT
  22 10,6  | lIT
- 22 10,6  | lL
  22 10,6  | sAI
  22 10,6  | sAT
  22 10,6  | sIA
@@ -1132,7 +1125,6 @@
  20  5,6  | ALVIa
  20  5,6  | ALVIn
  20  5,6  | AVaIL
- 20  5,6  | AVaL
  20 10,5  | Ad
  20 10,5  | Al
  20  7,5  - AmYL
@@ -1167,6 +1159,7 @@
  20  5,5  | LaTVIA
  20  5,3  | LaVA
  20  5,3  | LeVA
+ 20  6,2  | TALIK
  20  5,5  | TALkY
  20  5,5  | TALlY
  20  5,5  | TAVY
@@ -1295,7 +1288,6 @@
  19  5,6  | aLVIA
  19  5,4  | aVAIL
  19  5,6  | aVAIL
- 19  5,6  | aVAL
  19  5,5  | cAVY
  19  5,4  | cLAVI
  19  5,5  | dAVIT
@@ -1378,6 +1370,7 @@
  18  5,5  | TAIYaL
  18  6,2  | TALaK
  18  6,2  | TALcK
+ 18  6,2  | TALiK
  18  6,2  | TALuK
  18  7,4  | TANtIVY
  18  9,3  | TAVELl
@@ -1387,6 +1380,7 @@
  18  5,2  | TaIYAL
  18  5,5  | TaIYAL
  18  6,2  | TaLAK
+ 18  6,2  | TaLIK
  18  5,5  | TaVY
  18  6,2  | ThILK
  18  6,2  | TiLAK
@@ -1431,7 +1425,6 @@
  18  5,6  | aLAY
  18  3,7  - aLVIA
  18  5,4  | aTAVI
- 18  5,4  | aVAL
  18  9,3  | cAVEY
  18  8,2  | cAVIE
  18  6,2  | cLAIK
@@ -1452,6 +1445,7 @@
  18  9,3  | sAVEY
  18  5,4  | sLAV
  18  6,2  | sTALK
+ 18  6,2  | tALIK
  18  7,4  | tANTIVY
  18  6,2  | tILAK
  18  5,3  | uLVA
@@ -1472,7 +1466,6 @@
  17  5,6  | AVId
  17  5,6  | AVIe
  17  5,6  | AVIs
- 17  5,4  | AVaL
  17  8,3  | AViE
  17  8,5  - AYIn
  17  5,6  | AYLeT
@@ -1605,7 +1598,6 @@
  16  7,7  - ATLi
  16  9,4  | AVELl
  16  5,6  | AVa
- 16  9,2  | AVaLE
  16  5,6  | AVe
  16  5,6  | AVg
  16  9,2  | AViLE
@@ -1695,6 +1687,7 @@
  16  9,3  | TAVElL
  16  8,5  - TAVY
  16  5,5  | TAYIr
+ 16  6,2  | TAlIK
  16  5,5  | TAlLI
  16  8,3  | TAmELY
  16  5,5  | TAuLI
@@ -1783,7 +1776,6 @@
  16  5,6  | aLYA
  16  7,5  - aTAVI
  16  5,4  | aVA
- 16  9,2  | aVALE
  16  9,2  | aVILE
  16  5,5  | bALTI
  16  6,2  | bATIK
@@ -1831,7 +1823,6 @@
  16  8,3  | rITELY
  16  9,3  | rIVEL
  16  5,4  | rYAL
- 16  5,5  | sAV
  16  5,7  - sIAL
  16  8,4  | sIEVY
  16  9,4  | sIEVY
@@ -1922,6 +1913,7 @@
  15  5,5  | TAILy
  15  9,2  | TAIVEr
  15  5,5  | TALI
+ 15  5,5  | TALIk
  15  5,5  | TALIo
  15  5,5  | TALIs
  15  5,5  | TAY
@@ -2242,7 +2234,6 @@
  14  9,5  - YI
  14  9,5  - YIn
  14  9,5  - YIp
- 14  9,5  - YIs
  14  9,5  - YaT
  14  5,5  | YaTI
  14  3,7  - YaTI
@@ -3380,7 +3371,6 @@
  11  8,2  | aLIVE
  11  7,5  | aNALITY
  11  5,6  | aTI
- 11  8,2  | aVALE
  11  9,4  | aVE
  11  8,1  | aVIATE
  11  8,2  | aVILE
@@ -3863,7 +3853,6 @@
  10  8,1  | kYLITE
  10  9,5  | lEALTY
  10  3,7  - lILA
- 10  8,7  - lL
  10  3,7  - mALI
  10  9,3  | mATEY
  10  8,5  - mATY
@@ -3952,7 +3941,6 @@
   9  8,4  | AVEr
   9  8,4  | AVEs
   9  8,1  | AVIaTE
-  9  8,2  | AVaLE
   9  8,2  | AViLE
   9  8,4  | AYELp
   9  6,7  - Aa
@@ -4076,7 +4064,6 @@
   9  8,7  - LeY
   9  9,7  - Li
   9  7,2  | LiTANY
-  9  9,7  - Ll
   9  7,3  | LlYN
   9  9,7  - Lo
   9  4,7  - LoA
@@ -4308,7 +4295,6 @@
   9  8,5  - mAIL
   9  7,3  | mAINLY
   9  8,5  - mALI
-  9  8,2  | mALIE
   9  8,5  - mALT
   9  8,5  - mAY
   9  8,5  - nAIL
@@ -4475,7 +4461,6 @@
   8  9,6  | EAVe
   8  8,6  | EAsILY
   8  8,6  | EILa
-  8  8,6  | EILd
   8  9,6  | ELAIc
   8  9,6  | ELAIn
   8  9,6  | ELATe
@@ -5742,7 +5727,6 @@
   7  5,7  - mA
   7  8,2  | mAILE
   7  6,4  | mAKI
-  7  9,2  | mALIE
   7  7,4  | mANTY
   7  8,5  - mAT
   7  7,3  | mAYNT
@@ -5798,7 +5782,6 @@
   7  6,4  | sAKI
   7  8,3  | sALET
   7  7,4  | sANTY
-  7  9,7  - sAV
   7  8,5  | sETAL
   7  5,7  - sI
   7  6,3  | sIAK
@@ -5854,7 +5837,6 @@
   6  9,5  - AIs
   6  9,5  - AIt
   6  6,5  | AKa
-  6  6,5  | AKe
   6  6,5  | AKo
   6  8,4  | ALE
   6  9,4  | ALE
@@ -6132,7 +6114,6 @@
   6  9,4  | LaETI
   6  7,4  | LaNAI
   6  7,2  | LaTIN
-  6  8,7  - Ll
   6  8,7  - Lo
   6  7,2  | LoTAN
   6  7,2  | LuIAN
@@ -6688,11 +6669,9 @@
   5  8,6  | EAT
   5  8,6  | EATh
   5  8,6  | EATs
-  5  9,6  | EAdI
   5  9,6  | EAsT
   5  8,6  | EAsY
   5  9,6  | EILa
-  5  9,6  | EILd
   5  9,6  | EIlA
   5  9,6  | EInA
   5  8,6  | EIrY
@@ -7225,7 +7204,6 @@
   4  9,4  | AhET
   4  8,3  | AiLE
   4  7,4  | AiNT
-  4  8,4  | AkE
   4  8,4  | AlE
   4  8,3  | AlIET
   4  8,3  | AlLE
@@ -7282,7 +7260,6 @@
   4  9,6  | EtTA
   4  9,6  | EtY
   4  9,6  | ExIT
-  4  8,6  | ExT
   4  9,6  | ExTA
   4  7,4  | IAN
   4  9,3  | IArE
@@ -7714,7 +7691,6 @@
   3  8,3  | AvIE
   3  7,4  | AvN
   3  7,4  | AwN
-  3  8,6  | EAdI
   3  9,6  | EAm
   3  9,6  | EAr
   3  8,6  | EAsT
@@ -7939,7 +7915,6 @@
   3  9,4  | lIE
   3  7,4  | lIN
   3  9,7  - lIT
-  3  9,7  - lL
   3  9,4  | mAE
   3  7,4  | mAN
   3  9,5  - mAT
@@ -8051,7 +8026,6 @@
   2  8,5  | AEt
   2  9,4  | AcE
   2  9,4  | AgE
-  2  9,4  | AkE
   2  9,4  | AlE
   2  9,4  | AnE
   2  9,4  | ApE
@@ -8079,7 +8053,6 @@
   2  9,6  | ErA
   2  9,6  | EsT
   2  9,6  | EtA
-  2  9,6  | ExT
   2  9,4  | IcE
   2  9,4  | IdE
   2  9,4  | IfE

@@ -73,7 +73,6 @@
  32  7,1  - OKAyS
  32  7,1  - OKrAS
  32  7,1  - OSaKA
- 32  7,1  - OXAn
  32  7,1  - OXId
  32  7,1  - OXIm
  32  7,1  - OXeA
@@ -227,7 +226,6 @@
  24  6,6  | NInOX
  24  6,6  | NOXAl
  24  6,6  | NyXIS
- 24  5,1  - OXAn
  24  5,1  - OXId
  24  5,1  - OXIm
  24  2,2  | RAX
@@ -300,6 +298,7 @@
  23  1,7  - pASO
  23  1,7  - pISA
  23  1,7  - pISO
+ 23  4,4  | tALIK
  23  1,7  - vISA
  22  2,4  - AIKIdOS
  22  4,5  | ALIKe
@@ -352,7 +351,6 @@
  22  5,1  - xXI
  21  5,1  - AX
  21  4,7  - AX
- 21  2,7  - ISl
  21  2,4  | KAFIrS
  21  1,1  - KASa
  21  1,1  - KOSo
@@ -375,7 +373,6 @@
  21  2,7  - pSI
  20  1,7  - AIS
  20  7,1  - AKa
- 20  7,1  - AKe
  20  7,1  - AKo
  20  6,5  | ANKOlI
  20  7,1  - ASkOI
@@ -419,7 +416,6 @@
  20  7,1  - OStIA
  20  7,1  - OaK
  20  7,1  - ObIAS
- 20  7,1  - OcK
  20  7,1  - OhIAS
  20  7,1  - OiK
  20  7,1  - OrIAS
@@ -529,7 +525,6 @@
  19  1,7  - xIS
  19  5,1  - xX
  19  1,7  - yAS
- 19  1,7  - yIS
  19  1,7  - zAS
  18  1,7  - AaS
  18  1,7  - AeS
@@ -813,11 +808,9 @@
  15  7,7  - OIKS
  15  7,5  - OSKAr
  15  7,7  - OSKAr
- 15  7,3  - OXAn
  15  7,3  - OXId
  15  7,3  - OXIm
  15  7,3  - OaK
- 15  7,3  - OcK
  15  5,3  - OhIAS
  15  7,3  - OiK
  15  7,3  - OlAX
@@ -1055,8 +1048,6 @@
  13  5,6  | OSAKa
  13  5,6  | OSaKA
  13  7,3  - OX
- 13  7,5  - OXAn
- 13  7,7  - OXAn
  13  7,5  - OXId
  13  7,7  - OXId
  13  7,5  - OXIm
@@ -1065,8 +1056,6 @@
  13  7,3  - OXy
  13  7,5  - OaK
  13  7,7  - OaK
- 13  7,5  - OcK
- 13  7,7  - OcK
  13  5,3  - OhIA
  13  7,5  - OiK
  13  7,7  - OiK
@@ -1795,7 +1784,6 @@
  10  2,1  | ORA
  10  7,5  - OSaKA
  10  7,7  - OSaKA
- 10  5,6  | OXAn
  10  1,4  - OXId
  10  5,6  | OXId
  10  1,4  - OXIm
@@ -2367,7 +2355,6 @@
   9  2,4  | lIF
   9  6,4  | lINKS
   9  2,4  - lISK
-  9  4,7  - lOA
   9  2,4  | lOF
   9  5,5  - lOIS
   9  5,5  | lOKAO
@@ -2461,7 +2448,6 @@
   8  7,1  - AIs
   8  7,1  - AIt
   8  7,5  - AKa
-  8  7,5  - AKe
   8  7,5  - AKo
   8  4,5  | ALIaS
   8  4,5  | ALIdS
@@ -3845,7 +3831,6 @@
   6  7,7  - ObIS
   6  7,5  - OcAS
   6  7,7  - OcAS
-  6  5,6  | OcK
   6  6,5  - OeS
   6  7,5  - OhIA
   6  7,7  - OhIA
@@ -4587,13 +4572,11 @@
   5  5,5  - lA
   5  6,1  - lI
   5  5,5  - lI
-  5  4,7  - lI
   5  2,4  - lIAS
   5  6,4  | lINOS
   5  2,4  - lISA
   5  6,1  - lO
   5  5,5  - lO
-  5  4,7  - lO
   5  1,4  - lOIS
   5  6,1  - mA
   5  5,5  - mA
@@ -5297,7 +5280,6 @@
   4  2,4  - gIO
   4  2,4  - gIS
   4  6,4  | gONA
-  4  6,1  | gUAO
   4  6,4  | hANO
   4  6,4  | hANS
   4  7,3  - hAO
@@ -5453,7 +5435,6 @@
   4  2,4  - xIS
   4  1,1  - yAS
   4  6,4  | yINS
-  4  2,4  - yIS
   4  6,4  | yONI
   4  1,1  - zAS
   4  6,4  | zONA
@@ -5853,10 +5834,10 @@
   3  7,2  | SAp
   3  7,2  | SAt
   3  7,2  | SAu
-  3  7,2  | SAv
   3  7,2  | SAw
   3  7,2  | SAx
   3  7,2  | SAy
+  3  7,2  | SAz
   3  7,2  | SI
   3  7,6  | SIA
   3  7,6  | SIAk
@@ -6014,7 +5995,6 @@
   3  6,2  | USu
   3  6,2  | UbI
   3  6,2  | UcA
-  3  6,2  | UdI
   3  6,2  | UdO
   3  6,2  | UdS
   3  6,2  | UfO
@@ -6252,7 +6232,6 @@
   3  6,1  | wUS
   3  5,1  | xIS
   3  6,4  | yIN
-  3  5,1  | yIS
   3  6,5  | yNO
   3  6,4  | yON
   3  6,1  | yUS
@@ -6378,7 +6357,6 @@
   2  3,4  - IwI
   2  4,6  | La
   2  4,6  | Li
-  2  4,6  | Ll
   2  4,6  | Lo
   2  4,6  | Lu
   2  6,6  | Na
@@ -6477,10 +6455,10 @@
   2  7,6  | SAp
   2  7,6  | SAt
   2  7,6  | SAu
-  2  7,6  | SAv
   2  7,6  | SAw
   2  7,6  | SAx
   2  7,6  | SAy
+  2  7,6  | SAz
   2  5,1  | SI
   2  2,4  - SI
   2  7,6  | SI
@@ -6826,7 +6804,6 @@
   2  7,4  | xIS
   2  6,1  | xU
   2  7,4  | yAS
-  2  7,4  | yIS
   2  7,4  | zAS
   2  5,5  | zOA
   2  5,4  | zOO

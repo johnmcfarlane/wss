@@ -154,7 +154,6 @@
  28 10,6  | OoBIT
  28 10,6  | OrBIT
  28  5,8  - XEBEc
- 28  3,8  - aLBE
  28 10,6  | dEBIT
  28 10,6  | dOBIE
  28  7,6  | eXEAT
@@ -189,9 +188,7 @@
  25  7,6  | EXlA
  25  7,6  | EXtA
  25  7,5  | LEX
- 25  3,8  - aLEE
  25  7,4  | aLEX
- 25  3,8  - aLOE
  25  8,7  | bXS
  25  7,6  | eXTA
  25  7,4  | fLEX
@@ -277,7 +274,6 @@
  23  7,5  | LuX
  23  4,7  - TEABoX
  23  4,7  - TeABOX
- 23  3,8  - aL
  23  7,5  | dEX
  23  7,5  | hEX
  23  7,5  | kEX
@@ -296,7 +292,6 @@
  22  6,8  - EBOE
  22  9,8  - EX
  22  7,7  | EXAm
- 22 10,7  | EXIOn
  22 10,7  | EXIT
  22 10,7  | EXITe
  22 10,7  | EXITs
@@ -434,7 +429,6 @@
  20 10,7  | TrIX
  20 10,6  | TwEIL
  20 10,8  | XIpE
- 20  3,8  - aTLE
  20  9,8  - aX
  20 10,6  | cLOIT
  20 10,6  | dELIT
@@ -662,7 +656,6 @@
  17  5,5  | ToBE
  17 10,8  - Xi
  17 10,8  - Xu
- 17  3,8  - aT
  17  5,2  | bEBLOT
  17  5,4  | bLEB
  17  7,4  | bLEB
@@ -2071,8 +2064,6 @@
  11 10,8  - BO
  11  4,7  - BOATeL
  11  4,7  - BOAtEL
- 11  5,4  | BOE
- 11  7,4  | BOE
  11  8,5  | BOLES
  11  2,7  - BOLTAgE
  11  8,5  | BOLTS
@@ -2085,7 +2076,6 @@
  11  5,5  | BOd
  11  5,5  | BOh
  11  5,5  | BOl
- 11  5,5  | BOm
  11  5,5  | BOn
  11  5,5  | BOp
  11  5,5  | BOt
@@ -2480,8 +2470,6 @@
  10  3,7  - BlEA
  10  5,4  | BlO
  10  5,7  | Bo
- 10  5,4  | BoE
- 10  7,4  | BoE
  10  8,5  | BoLES
  10  8,5  | BoLOS
  10  8,5  | BoLTS
@@ -2587,7 +2575,6 @@
  10  8,5  | OBtEST
  10  5,4  | OLEa
  10  7,4  | OLEa
- 10  7,4  | OLEg
  10  7,4  | OLEs
  10 10,7  | OLIvE
  10  9,8  - OLa
@@ -2595,7 +2582,6 @@
  10  5,3  | OLpE
  10  7,3  | OLpE
  10  7,4  | OLpE
- 10  4,7  - OXAn
  10 11,6  | OXEs
  10  1,6  | OXeR
  10  8,6  | OXeS
@@ -2881,8 +2867,6 @@
   9  7,4  | BOa
   9  8,5  | BOaTS
   9  8,5  | BOdES
-  9  5,4  | BOe
-  9  7,4  | BOe
   9  3,6  - BOfF
   9  1,4  | BOiLER
   9  8,5  | BOlES
@@ -3192,6 +3176,7 @@
   9  5,5  | mET
   9  7,5  | mET
   9  9,10 - mO
+  9  8,5  | mOBES
   9  5,3  | mOLE
   9  7,3  | mOLE
   9  5,5  | mOT
@@ -3415,7 +3400,6 @@
   8  5,7  - EABLy
   8  8,5  | EBLiS
   8 10,8  | EILa
-  8 10,8  | EILd
   8 11,4  | ELBOws
   8 10,7  | ELIa
   8 10,7  | ELIx
@@ -4452,8 +4436,6 @@
   7 11,5  | bLOBs
   7  8,5  | bLOTS
   7  8,7  | bLS
-  7  5,4  | bOE
-  7  7,4  | bOE
   7  8,5  | bOLES
   7  8,5  | bOLTS
   7  5,7  - cATEL
@@ -4526,7 +4508,6 @@
   7  7,8  | mAL
   7  8,5  | mELOS
   7  8,5  | mELTS
-  7  5,4  | mEO
   7  9,6  | mETHO
   7  8,5  | mOLES
   7  8,5  | mOLTS
@@ -5253,6 +5234,7 @@
   6 10,8  | mIL
   6 10,8  | mITE
   6  5,5  | mO
+  6 11,5  | mOBEs
   6 10,7  | mOIT
   6  1,4  | mOLTER
   6  4,8  | mOPE
@@ -5707,7 +5689,6 @@
   5  8,7  | OrSEL
   5  9,6  | OrTH
   5  8,6  | OrTS
-  5  2,7  - OsELA
   5  8,6  | OsES
   5 11,7  | OssET
   5  4,6  - OuF
@@ -5820,7 +5801,6 @@
   5  4,7  - aBA
   5 11,6  | aBOs
   5  1,7  | aBR
-  5  3,8  | aDAD
   5  5,6  - aFT
   5  4,7  - aLATE
   5  1,5  | aLTER
@@ -7206,7 +7186,6 @@
   2  7,9  | Ai
   2  6,10 - Ai
   2  6,7  - AiT
-  2  6,7  - AkE
   2  6,7  - AkO
   2  7,9  | Al
   2  6,10 - Al

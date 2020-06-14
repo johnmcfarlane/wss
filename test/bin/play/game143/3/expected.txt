@@ -44,7 +44,6 @@
  32  3,3  | IMBE
  32  3,1  | MDSE
  31  7,7  | BIM
- 31  7,7  | BOM
  31  7,7  | DIMES
  31  7,7  | DOMES
  31  6,11 - SEMI
@@ -137,7 +136,6 @@
  23  2,9  - IBIDEM
  23  3,1  | IDEO
  23  7,7  | MED
- 23  3,5  | MEO
  23  7,7  | MID
  23  7,7  | MOD
  22  3,2  | BEODE
@@ -162,7 +160,6 @@
  21  5,2  | IBM
  21  7,8  | IDEM
  21  3,9  | ME
- 21  7,9  | MEO
  21  7,9  | MES
  21  3,9  | MI
  21  5,3  | MISC
@@ -186,11 +183,9 @@
  20  2,6  | VOIDS
  19  7,7  | BIO
  19  7,7  | BIS
- 19  7,7  | BOE
  19  5,1  | BOMI
  19  7,7  | BOS
  19  5,1  | IMBE
- 19  7,7  | MEO
  19  7,7  | MES
  19  7,7  | MIS
  19  5,4  | MOC
@@ -200,8 +195,6 @@
  18  3,5  | BE
  18  3,2  | BIM
  18  5,2  | BIM
- 18  3,2  | BOM
- 18  5,2  | BOM
  18  2,10 - BONER
  18  1,9  - DESI
  18  2,11 - DIG
@@ -388,6 +381,7 @@
  13  4,4  - MIMES
  13  5,1  | MISE
  13  5,1  | MISO
+ 13  4,4  - MOBES
  13  4,4  - MOMES
  13  5,1  | MOSE
  13  2,4  | MOVED
@@ -408,8 +402,6 @@
  12  5,2  | BIO
  12  1,4  - BIOMES
  12  3,9  - BISE
- 12  3,2  | BOE
- 12  5,2  | BOE
  12  7,9  | DE
  12  2,4  - DEMOB
  12  1,10 - DION
@@ -419,8 +411,6 @@
  12  3,4  - IMBED
  12  5,1  | IODE
  12  1,10 - ISDN
- 12  3,2  | MEO
- 12  5,2  | MEO
  12  2,4  - MIMED
  12  2,4  - MIMEOS
  12  3,9  - MISE
@@ -555,7 +545,6 @@
   9  6,7  - AMIES
   9  3,9  - BI
   9  2,4  - BIM
-  9  2,4  - BOM
   9  3,8  - BREY
   9  2,4  - DEMOS
   9  2,4  | DEVI
@@ -720,7 +709,6 @@
   7  2,6  | VIS
   7  2,6  | VOE
   7  6,8  - YES
-  7  6,8  - YIS
   6  6,7  - ABO
   6  6,7  - ABS
   6  6,7  - ADOS
@@ -742,7 +730,6 @@
   6  3,6  | EO
   6  4,9  - IDE
   6  2,4  - ISM
-  6  4,4  - MEO
   6  2,8  - MER
   6  4,4  - MES
   6  2,8  - MIR

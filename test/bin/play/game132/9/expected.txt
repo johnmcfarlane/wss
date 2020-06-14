@@ -28,12 +28,10 @@
  42 10,2  | TaFIA
  41 10,2  | dEFAT
  41 10,2  | rEFIT
- 39  6,3  - APIDaE
  39  6,3  - EPIDiA
  39  6,3  - EPiDIA
  39  7,3  - FEDIA
  39  6,3  - IPiDAE
- 39  6,3  - aPIDAE
  39  6,3  - iPIDAE
  38 10,5  | PATEsI
  38 10,5  | PATInE
@@ -398,16 +396,6 @@
  23  9,8  | aTAP
  23  9,8  | aTEF
  23  9,8  | aTIP
- 23  9,8  | lAFT
- 23  9,8  | lEAF
- 23  9,8  | lEAP
- 23  9,8  | lEFT
- 23  9,8  | lEIF
- 23  9,8  | lEPA
- 23  9,8  | lIEF
- 23  9,8  | lIFE
- 23  9,8  | lIFT
- 23  9,8  | lIPA
  23 10,4  | oPIATE
  22 10,3  | ATEF
  22 10,3  | ATIP
@@ -498,7 +486,6 @@
  21  8,3  - bDFT
  21 10,3  | eTAPE
  21  7,1  - lAMPF
- 21  6,3  - oTIDAE
  21 10,4  | sPAIT
  21 10,4  | sPATE
  21 10,4  | sPITE
@@ -997,7 +984,6 @@
  17 10,5  | AoIFE
  17 10,5  | ApPET
  17 10,2  | EATs
- 17 10,2  | EAdI
  17 10,2  | EAsT
  17 10,3  | EFT
  17 10,2  | EInA
@@ -1801,14 +1787,9 @@
  14  9,8  | iTEA
  14 10,5  | jAPE
  14  4,2  | kAPA
- 14  9,8  | lAET
  14 10,5  | lAFT
- 14  9,8  | lAIT
- 14  9,8  | lATE
- 14  9,8  | lATI
  14 10,5  | lEAF
  14 10,5  | lEAP
- 14  9,8  | lEAT
  14 10,5  | lEFT
  14 10,5  | lEIF
  14  4,2  | lEPA
@@ -1818,7 +1799,6 @@
  14 10,5  | lIFT
  14  4,2  | lIPA
  14 10,5  | lIPA
- 14  9,8  | lITE
  14 10,4  | nAF
  14 10,5  | nAIF
  14 10,4  | nAP
@@ -3233,7 +3213,6 @@
   9 10,5  | EAT
   9 10,5  | EATh
   9 10,5  | EATs
-  9 10,5  | EAdI
   9 10,5  | EAsT
   9 10,5  | EIlA
   9 10,5  | EInA
@@ -3548,7 +3527,6 @@
   9  7,1  - hEMP
   9  7,1  - hIMP
   9 10,3  | iTA
-  9  7,1  - jAMIE
   9  7,1  - jIMP
   9  4,1  | kAFTA
   9  7,1  - kEMP
@@ -3612,7 +3590,6 @@
   8  5,2  - ArITE
   8  9,8  | AsP
   8  9,8  | AuF
-  8  7,3  - AvDP
   8  5,2  - AxITE
   8  1,2  - EDIFy
   8  8,1  - EMdA
@@ -3808,13 +3785,9 @@
   8 10,5  | lAET
   8  7,2  - lAETI
   8 10,5  | lAIT
-  8  9,8  | lAP
   8 10,5  | lATE
   8 10,5  | lATI
   8 10,5  | lEAT
-  8  9,8  | lEP
-  8  9,8  | lIF
-  8  9,8  | lIP
   8 10,5  | lITE
   8 10,5  | mATE
   8  5,2  - mATIE
@@ -3963,7 +3936,6 @@
   7 10,5  | AhI
   7 10,5  | AhT
   7 10,5  | AiT
-  7 10,5  | AkE
   7 10,5  | AlE
   7 10,5  | AlT
   7  8,1  | Am
@@ -4033,7 +4005,6 @@
   7 10,5  | EtA
   7  5,1  - EtIAM
   7  8,1  | Ew
-  7 10,5  | ExT
   7  4,1  | FAEnA
   7  4,1  | FATwA
   7  4,1  | FETwA
@@ -4405,7 +4376,6 @@
   6  6,2  - AwEE
   6  7,2  - AwEE
   6  7,1  - AyME
-  6  7,3  - EADI
   6  7,1  - EAM
   6  9,2  - EAT
   6  6,2  - EAsE
@@ -4426,7 +4396,6 @@
   6  6,1  - EdAM
   6  7,2  - EdEA
   6  3,1  | Eh
-  6  6,1  - EjAM
   6  6,1  - EmIM
   6  7,1  - EmMA
   6  6,1  - EnAM
@@ -4488,7 +4457,6 @@
   6  7,2  - IdEE
   6  6,1  - IdEM
   6  4,1  | IdETA
-  6  7,1  - IjMA
   6  7,2  - IlEA
   6  6,1  - ImAM
   6  3,1  | Io
@@ -4778,7 +4746,6 @@
   6  7,2  - iTEA
   6  6,1  - iTEM
   6 10,5  | jAI
-  6  7,1  - jAMI
   6 10,5  | jET
   6  6,2  - jETE
   6  8,2  - jETE
@@ -5020,7 +4987,6 @@
   5  7,3  - AiDE
   5  7,1  - AiM
   5  9,8  | AiT
-  5  9,8  | AkE
   5  4,2  | AkIA
   5 10,5  | Al
   5  9,8  | AlE
@@ -5073,7 +5039,6 @@
   5 10,5  | Ay
   5  9,8  | AyE
   5  6,3  - AzIDE
-  5  7,3  - EADi
   5  1,2  - EDEA
   5  1,2  - EDEmA
   5  1,2  - EDIT
@@ -5084,7 +5049,6 @@
   5  1,2  - EDIyA
   5  1,2  - EDdIE
   5  7,3  - EIDe
-  5  6,3  - EIlD
   5  8,1  - EM
   5  8,1  - EMe
   5  8,1  - EMf
@@ -5094,7 +5058,6 @@
   5  8,1  - EMs
   5  8,1  - EMu
   5  4,3  | ETA
-  5  7,3  - EaDI
   5  7,1  - EaM
   5 10,3  | Ed
   5 10,5  | Ed
@@ -5235,7 +5198,6 @@
   5  9,1  - MEl
   5  9,1  - MEm
   5  9,1  - MEn
-  5  9,1  - MEo
   5  9,1  - MEr
   5  9,1  - MEs
   5  9,1  - MEt
@@ -5411,18 +5373,11 @@
   5  6,3  - kEID
   5  4,2  | kETA
   5  7,1  - kIM
-  5  9,8  | lAI
   5  6,3  - lAID
   5  7,1  - lAM
-  5  9,8  | lAT
-  5  9,8  | lEA
   5  6,3  - lEAD
-  5  9,8  | lEI
-  5  9,8  | lET
-  5  9,8  | lIE
   5  6,3  - lIED
   5  7,1  - lIM
-  5  9,8  | lIT
   5  8,2  | mA
   5  6,3  - mAED
   5  4,2  | mAIA
@@ -5603,7 +5558,6 @@
   4  9,2  - EtA
   4  9,2  - EvE
   4  9,2  - EwE
-  4  9,2  - ExT
   4  9,2  - EyE
   4  1,3  - GOa
   4  1,3  - GOb
@@ -5826,7 +5780,6 @@
   4  8,2  - dET
   4 10,5  | dI
   4  4,3  | dIA
-  4  7,3  - eADI
   4 10,5  | eE
   4  7,3  - eIDE
   4  8,1  - eM
@@ -5861,7 +5814,6 @@
   4  4,3  | kEA
   4  8,2  - kET
   4 10,5  | lA
-  4  9,8  | lA
   4  7,3  - lADE
   4  8,2  - lEA
   4  4,3  | lEA
@@ -5870,7 +5822,6 @@
   4  8,2  - lEI
   4  8,2  - lET
   4 10,5  | lI
-  4  9,8  | lI
   4  7,3  - lIDA
   4  7,3  - lIDE
   4 10,5  | mA
@@ -5969,7 +5920,6 @@
   4 10,5  | yI
   4  8,2  - zEE
   3  8,3  - AD
-  3  8,3  - ADc
   3  8,3  - ADd
   3  8,3  - ADo
   3  8,3  - ADp
@@ -6201,7 +6151,6 @@
   3  7,3  - sTD
   3  7,3  - tAD
   3  7,3  - tED
-  3  8,3  - uDI
   3  7,3  - vID
   3  7,3  - wAD
   3  7,3  - wED
@@ -6217,7 +6166,6 @@
   2  7,2  - AgE
   2  4,3  | AhA
   2  4,3  | AkA
-  2  7,2  - AkE
   2  4,3  | AlA
   2  7,2  - AlE
   2  4,3  | AmA
@@ -6301,7 +6249,6 @@
   2  9,4  - IwI
   2  8,8  - La
   2  8,8  - Li
-  2  8,8  - Ll
   2  8,8  - Lo
   2  8,8  - Lu
   2  8,5  - TAa

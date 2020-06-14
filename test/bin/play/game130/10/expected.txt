@@ -74,7 +74,6 @@
  26 14,10 | lEVEE
  26 14,9  | pEEVE
  26 14,9  | rEEVE
- 26  6,15 - sAV
  26  6,15 - sEV
  25  3,6  - AVEnAGE
  25  3,6  - AVErAGE
@@ -88,7 +87,6 @@
  24  4,15 - AAs
  24 14,10 | AEViA
  24  4,15 - AEs
- 24 14,7  | AVAlE
  24  2,7  | AWAVE
  24 14,7  | AbAVE
  24 14,7  | AgAVE
@@ -263,7 +261,6 @@
  21  5,6  - pEAGE
  21 12,10 | sUE
  20  4,6  - AErAGE
- 20  4,12 - AVAlE
  20 13,12 - AVa
  20 13,12 - AVe
  20 13,12 - AVg
@@ -441,13 +438,11 @@
  18  6,6  - rAGE
  18  6,6  - sAGA
  18  6,6  - sAGE
- 18 14,11 | sAV
  18 14,11 | sEV
  18  6,6  - vAGE
  18  6,6  - wAGE
  17  5,7  | AEVIa
  17  2,11 - AVA
- 17 13,4  | AVAlE
  17  2,11 - AVE
  17 13,4  | AVEnA
  17 13,4  | AVErA
@@ -502,7 +497,6 @@
  16  7,6  - AGo
  16 13,4  | AVA
  16 13,10 - AVA
- 16 13,4  | AVAl
  16 13,4  | AVAr
  16 13,4  | AVE
  16 13,10 - AVE
@@ -617,7 +611,6 @@
  14  4,12 - AEAEAn
  14  7,1  | AEs
  14  6,12 - AVA
- 14  6,12 - AVAl
  14  6,12 - AVAr
  14  6,12 - AVE
  14  6,12 - AVEr
@@ -726,7 +719,6 @@
  13  3,4  | AVEnA
  13  3,4  | AVErA
  13  6,4  - AVIAn
- 13  6,4  - AVIlE
  13  6,5  - AVN
  13  5,13 - AZAn
  13  5,13 - AZhA
@@ -736,7 +728,6 @@
  13  4,5  - AdVENAE
  13  5,4  | AgAVE
  13  3,13 - AgAZ
- 13  2,7  - AkE
  13  2,7  - AlE
  13  7,13 | An
  13  2,7  - AnE
@@ -841,7 +832,6 @@
  12  4,13 - AdZE
  12 13,4  | AgAVE
  12 14,9  | AgE
- 12 14,9  | AkE
  12 14,9  | AlE
  12  2,5  | AlEW
  12 14,9  | AnE
@@ -936,7 +926,6 @@
  12  1,11 - VEsE
  12  7,4  - VIAl
  12  7,4  - VIAs
- 12  7,4  - VIlE
  12  3,14 - VlEI
  12  2,8  | WAAc
  12  2,8  | WAAg
@@ -1080,6 +1069,7 @@
  12 14,1  | rOVE
  12 14,9  | sAE
  12  5,5  | sAVE
+ 12  4,13 - sAZ
  12 14,10 | sEA
  12 14,9  | sEE
  12 14,10 | sEE
@@ -1217,7 +1207,6 @@
  10  9,9  - AImEE
  10  7,5  - ANoVA
  10 13,10 | ATVEEn
- 10  5,4  - AVAIl
  10  5,5  - AVANt
  10  4,4  - AVAhI
  10  5,5  - AVENa
@@ -1416,7 +1405,6 @@
  10  2,6  | rEW
  10 14,11 | sAA
  10 14,11 | sAE
- 10 12,12 - sAV
  10  2,6  | sAW
  10  7,3  - sBLOOD
  10 14,11 | sEA
@@ -1452,7 +1440,6 @@
   9  9,9  - AIrE
   9  4,12 - AVA
   9  3,14 - AVAIl
-  9  4,12 - AVAl
   9  4,12 - AVAr
   9  4,5  - AVErN
   9 13,7  | AVEsTA
@@ -1481,7 +1468,6 @@
   9  4,12 - EVAl
   9  4,12 - EVAn
   9  4,12 - EVAp
-  9  6,4  - EVIl
   9 14,11 | Ed
   9  1,11 - EdEA
   9 14,10 | Ee
@@ -1519,7 +1505,6 @@
   9  8,5  - NEVo
   9 13,11 | TAVE
   9 13,11 | TAVEr
-  9  6,4  - VAIl
   9  4,14 - VAIrEE
   9  6,5  - VAN
   9  6,5  - VANe
@@ -1530,7 +1515,6 @@
   9  3,12 - VArA
   9  3,12 - VAsA
   9  3,4  | VEEnA
-  9  6,4  - VEIl
   9  6,5  - VENa
   9  6,5  - VENd
   9  6,5  - VENt
@@ -1649,12 +1633,10 @@
   8  7,6  - AG
   8  7,4  - AIAs
   8  5,14 - AIVEr
-  8  7,4  - AIlE
   8  9,9  - AIm
   8  9,9  - AIr
   8  7,6  | ANE
   8 13,10 | ATAVi
-  8  5,4  | AVAlE
   8 13,7  | AVAnT
   8 13,7  | AVAsT
   8 13,7  | AVErT
@@ -1672,7 +1654,6 @@
   8  3,4  | AjAVA
   8  4,14 - AjIVA
   8 13,12 - AkA
-  8 13,12 - AkE
   8 13,12 - AlA
   8 13,12 - AlE
   8  4,14 - AlIVE
@@ -1704,7 +1685,6 @@
   8 13,12 - EEl
   8 13,12 - EEn
   8 13,12 - EEr
-  8  7,4  - EIlA
   8  5,4  | EVAdE
   8  5,4  | EVAsE
   8  5,4  | EVEnE
@@ -1856,7 +1836,6 @@
   8  5,14 - VIAgE
   8  7,4  - VIa
   8  7,4  - VIi
-  8  7,4  - VIl
   8  5,14 - VInEA
   8  5,14 - VItAE
   8 14,1  | VOAr
@@ -1877,7 +1856,6 @@
   8  3,14 - cAVIE
   8  2,11 - cEE
   8  6,6  - dAG
-  8  4,14 - dAIVA
   8  2,11 - dEA
   8  2,11 - dEE
   8 14,11 | eE
@@ -1970,7 +1948,6 @@
   7  7,5  - ANEAr
   7  7,5  - ANElE
   7  3,6  | AVA
-  7  3,6  | AVAl
   7  3,6  | AVAr
   7  4,14 - AVId
   7  4,14 - AVIe
@@ -1997,7 +1974,6 @@
   7  3,7  - Ai
   7 13,4  | AjEE
   7  2,11 - AkA
-  7  2,11 - AkE
   7 13,4  | AkEE
   7  5,5  - AkENE
   7  2,7  - Al
@@ -2114,8 +2090,6 @@
   7  6,14 - IVA
   7  6,14 - IVAn
   7  6,14 - IVE
-  7  8,4  - IlA
-  7  8,4  - IlE
   7  5,10 | ItA
   7  8,5  - NoV
   7 10,11 - SHUTe
@@ -2329,8 +2303,6 @@
   6  6,12 - AjEE
   6 13,4  | AkA
   6 13,10 - AkA
-  6 13,4  | AkE
-  6 13,10 - AkE
   6  6,12 - AkEE
   6  6,4  - AkIA
   6  6,5  - AkNEE
@@ -2681,8 +2653,6 @@
   6 12,12 - sAA
   6 12,12 - sAE
   6  6,5  - sANE
-  6  3,7  | sAV
-  6  5,12 - sAV
   6 12,12 - sEA
   6 12,12 - sEE
   6  6,5  - sENA
@@ -3012,7 +2982,6 @@
   4 13,7  | AEtAT
   4  9,9  - AI
   4  9,9  | AI
-  4  7,4  - AIl
   4  5,14 - AImEE
   4  5,14 - AInEE
   4  7,5  - AN
@@ -3057,7 +3026,6 @@
   4  5,5  | AjEE
   4  4,12 - AkA
   4  6,12 - AkA
-  4  6,12 - AkE
   4  5,5  | AkEE
   4 13,10 - Al
   4  4,12 - AlA
@@ -3104,7 +3072,6 @@
   4  6,12 - AyE
   4 13,9  | EATEn
   4 13,9  | EATEr
-  4  3,14 - EAdI
   4  5,5  - EArN
   4 14,1  - EE
   4 13,12 - EE
@@ -3411,7 +3378,6 @@
   3 13,9  | EAT
   3 13,9  | EATh
   3 13,9  | EATs
-  3  5,4  - EAdI
   3  5,5  | EAsE
   3 13,8  | EAsT
   3  5,5  | EAvE
@@ -3574,7 +3540,6 @@
   3 13,9  | bETA
   3 13,9  | bETE
   3 14,1  | bOA
-  3 14,1  | bOE
   3 13,9  | cATE
   3  5,6  | cEE
   3 13,9  | cETE
@@ -3637,11 +3602,9 @@
   3 13,9  | mATE
   3 13,8  | mEAT
   3 13,8  | mEET
-  3 11,1  | mEO
   3 13,9  | mETA
   3 13,9  | mETE
   3  5,14 - mIAE
-  3 11,1  - mO
   3 14,1  | mOA
   3  5,6  | nAE
   3 13,9  | nATE
@@ -3749,7 +3712,6 @@
   2 13,9  | AhT
   2 13,9  | AiT
   2  3,6  | AkA
-  2  5,6  | AkE
   2  3,6  | AlA
   2  5,6  | AlE
   2 13,9  | AlT
@@ -3810,7 +3772,6 @@
   2  3,6  | EtA
   2  5,6  | EvE
   2  5,6  | EwE
-  2 13,9  | ExT
   2  5,6  | EyE
   2  6,14 - IAn
   2  6,14 - IbA
@@ -3828,7 +3789,6 @@
   2  6,14 - IvE
   2  8,10 | La
   2  8,10 | Li
-  2  8,10 | Ll
   2  8,10 | Lo
   2  8,10 | Lu
   2  8,5  - Na

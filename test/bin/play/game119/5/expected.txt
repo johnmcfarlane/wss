@@ -36,7 +36,6 @@
  40  3,1  - PAnE
  40  3,1  - PApE
  40  3,1  - PAtE
- 40  3,1  - PEAl
  40  3,1  - PEbA
  40  3,1  - PEdA
  40  2,10 - PIQu
@@ -155,25 +154,16 @@
  32  3,1  - tEPA
  31  1,3  - CaF
  31  1,3  - CaP
- 31  6,5  - FREQ
- 31  6,7  - FREQ
  31  1,11 - QuE
  31  4,4  | QuI
  30  6,1  - EFPh
- 30  3,3  - FARlE
  30  3,3  - FERAe
  30  3,3  - FERAl
  30  3,3  - FERiA
  30  4,5  | FIREs
- 30  6,5  - FReQ
- 30  6,7  - FReQ
  30  3,3  - FeRAE
- 30  6,5  - FrEQ
- 30  6,7  - FrEQ
- 30  3,3  - PARlE
  30  3,3  - PERAi
  30  3,3  - PERAu
- 30  3,3  - PERlA
  30  3,1  | ROPe
  30  3,1  | ROPp
  30  3,1  | ROPy
@@ -218,7 +208,6 @@
  29  5,1  - FERAl
  29  5,1  - FERiA
  29  5,1  - FEuAR
- 29  7,5  | FREQ
  29  4,4  | FlIPE
  29  5,1  - PAREd
  29  5,1  - PAREl
@@ -254,21 +243,15 @@
  29  3,1  - Pi
  29  3,1  - Po
  29  5,3  - wAQF
- 28  3,3  - FARl
  28  3,3  - FARo
- 28  3,3  - FEAl
  28  3,3  - FERu
  28  2,10 - FIP
  28  7,5  | FRApPE
- 28  7,5  | FReQ
  28  5,1  - FeRAE
- 28  5,1  - FlARE
- 28  5,1  - FlEAR
  28  3,3  - FoRA
  28  3,3  - PARa
  28  3,3  - PARi
  28  3,3  - PEAi
- 28  3,3  - PEAl
  28  3,3  - PERi
  28  3,3  - PERu
  28  2,10 - PIFf
@@ -277,7 +260,6 @@
  28  5,3  - tAREQ
  27  1,10 - AoIFE
  27  7,5  | FRApP
- 27  7,5  | FrEQ
  27  5,1  | PAQuET
  27  3,1  | POoF
  27  3,1  | POuF
@@ -361,7 +343,6 @@
  25  4,5  - QuE
  25  7,3  | REQd
  25  7,6  | REQd
- 25  7,5  | fREQ
  25  5,1  - hEPAR
  25  2,8  | hOPE
  25  6,3  - iRAQ
@@ -401,7 +382,6 @@
  24  3,1  | FORE
  24  7,5  | FRAPlE
  24  7,5  | FRAPpE
- 24  1,11 - FREQ
  24  3,3  - FaE
  24  3,3  - FaR
  24  3,3  - FeE
@@ -469,7 +449,6 @@
  23  7,3  | FeAR
  23  7,3  | FeER
  23  7,3  | FiAR
- 23  1,11 - FrEQ
  23  7,3  | PARdE
  23  7,3  | PARsE
  23  7,3  | PAaR
@@ -502,9 +481,6 @@
  23  7,6  | ReEF
  23  6,1  - aFEAR
  23  7,6  | dRAPE
- 23  6,5  - fREQ
- 23  6,7  - fREQ
- 23  6,1  - lEPRA
  23  7,6  | sEQ
  22  4,8  | Eo
  22  4,8  | Es
@@ -866,11 +842,7 @@
  20  7,4  | cARPE
  20  1,10 - eRIA
  20  1,10 - eRIE
- 20  6,1  - lEAF
- 20  6,1  - lEAP
- 20  6,1  - lEPA
  20  7,3  | lEPRA
- 20  6,1  - lERP
  20  7,3  | oPERA
  20  7,6  | rAPER
  20  7,6  | sAFER
@@ -930,7 +902,6 @@
  19  1,11 - FREEsP
  19  7,5  | FREe
  19  7,5  | FREn
- 19  7,5  | FREq
  19  7,5  | FREt
  19  7,5  | FREy
  19  7,5  | FRaE
@@ -1382,7 +1353,6 @@
  16  7,4  | AnRE
  16  7,4  | AyRE
  16  7,4  | EAR
- 16  3,3  - EARl
  16  7,4  | EARl
  16  7,4  | EARn
  16  7,3  | EARs
@@ -1427,9 +1397,7 @@
  16  6,5  | FERiAE
  16  6,5  - FRApPE
  16  6,7  - FRApPE
- 16  6,4  | FREQ
  16  4,4  | FaIR
- 16  5,1  - FlAP
  16  3,10 - IFREAl
  16  3,10 - InFARE
  16  6,2  | LEQuEAR
@@ -1480,7 +1448,6 @@
  16  7,3  | REAd
  16  7,6  | REAd
  16  7,6  | REAk
- 16  3,3  - REAl
  16  7,6  | REAl
  16  7,6  | REAm
  16  7,6  | REAp
@@ -1626,7 +1593,6 @@
  15  7,4  | AbR
  15  7,4  | AeR
  15  7,4  | AiR
- 15  5,3  - AlP
  15  7,4  | AoR
  15  7,4  | ApR
  15  7,4  | ArR
@@ -1648,7 +1614,6 @@
  15  7,4  | EaR
  15  7,4  | EeR
  15  7,4  | EiR
- 15  5,3  - ElF
  15  7,4  | ErR
  15  7,4  | ExR
  15  7,4  | EyR
@@ -1718,7 +1683,6 @@
  15  1,11 - FlEAR
  15  1,11 - FlEER
  15  1,11 - FrEER
- 15  6,4  | FrEQ
  15  1,11 - FrERE
  15  1,9  - JOBo
  15  1,9  - JOBs
@@ -1808,7 +1772,6 @@
  15  4,4  | PRIn
  15  4,4  | PRIo
  15  4,4  | PRIx
- 15  5,1  - PlF
  15  7,6  | RAb
  15  7,6  | RAd
  15  5,3  - RAfFE
@@ -2022,7 +1985,6 @@
  14  4,5  | FIP
  14  1,11 - FREe
  14  1,11 - FREn
- 14  1,11 - FREq
  14  1,11 - FREt
  14  1,11 - FREy
  14  4,5  - FaRE
@@ -2255,11 +2217,9 @@
  13  5,5  - APsE
  13  6,5  - AREFy
  13  4,4  | ARIsE
- 13  4,3  - ARlE
  13  2,5  | AXe
  13  7,5  | Ad
  13  4,1  - AlEF
- 13  5,3  - AlEF
  13  6,3  - AlEF
  13  4,4  | AlIF
  13  7,5  | Ar
@@ -2401,7 +2361,6 @@
  13  4,5  - FiR
  13  6,5  - FlARE
  13  6,7  - FlARE
- 13  5,1  - FlEA
  13  6,5  - FlEAR
  13  6,7  - FlEAR
  13  1,11 - FoE
@@ -2524,7 +2483,6 @@
  13  4,5  - PiE
  13  1,11 - PiE
  13  4,5  - PiR
- 13  5,1  - PlEA
  13  6,5  - PlF
  13  4,4  | PlI
  13  1,11 - PoE
@@ -2592,10 +2550,7 @@
  13  4,5  - kEP
  13  5,3  - lAP
  13  4,5  - lAP
- 13  6,3  - lEAF
- 13  6,3  - lEAP
  13  4,5  - lEP
- 13  6,3  - lERP
  13  5,3  - mAP
  13  4,5  - mAP
  13  5,3  - nAF
@@ -2695,7 +2650,6 @@
  12  5,7  - EFs
  12  5,5  - EFt
  12  5,7  - EFt
- 12  1,8  | EJAm
  12  4,1  | ENFRAI
  12  3,1  | EOAn
  12  5,5  - EPa
@@ -2950,8 +2904,6 @@
  12  2,10 - fIP
  12  3,1  | fORA
  12  3,1  | fORE
- 12  6,4  | fREQ
- 12  1,11 - fREQ
  12  3,1  | gOAR
  12  3,1  | gOER
  12  3,1  | gORA
@@ -3098,8 +3050,6 @@
  11  6,7  - FREe
  11  6,5  - FREn
  11  6,7  - FREn
- 11  6,5  - FREq
- 11  6,7  - FREq
  11  6,5  - FREt
  11  6,7  - FREt
  11  6,5  - FREy
@@ -3280,14 +3230,11 @@
  11  4,4  | kAIF
  11  4,5  - kEAP
  11  4,5  - kERF
- 11  6,1  - lARE
  11  4,5  - lEAF
  11  6,7  - lEAF
  11  4,5  - lEAP
  11  6,7  - lEAP
- 11  6,1  - lEAR
  11  4,4  | lEIF
- 11  6,3  - lEPRA
  11  4,5  - lERP
  11  6,7  - lERP
  11  4,5  | lIRE
@@ -3385,7 +3332,6 @@
  10  4,1  - AfER
  10  5,3  - AiRE
  10  4,1  - AkER
- 10  5,1  - AlEF
  10  6,5  - AmPER
  10  4,1  - ApER
  10  6,5  - AsPER
@@ -3775,7 +3721,6 @@
  10  5,1  - lEAF
  10  5,1  - lEAP
  10  5,1  - lEPA
- 10  6,3  - lEPA
  10  5,1  - lERP
  10  4,5  | lIF
  10  4,5  | lIP
@@ -3880,11 +3825,8 @@
   9  5,2  | AdAPTER
   9  1,11 - AdEEP
   9  5,3  - AiR
-  9  4,1  - AkE
   9  4,1  - AlE
-  9  5,3  - AlE
   9  5,7  - AlEF
-  9  5,1  - AlP
   9  4,1  - AnE
   9  5,3  - AoR
   9  4,1  - ApE
@@ -4086,7 +4028,6 @@
   9  6,7  - RiFE
   9  6,5  - RiPE
   9  6,7  - RiPE
-  9  5,3  - RlE
   9  5,3  - RoE
   9  6,5  - RoPE
   9  6,7  - RoPE
@@ -4116,7 +4057,6 @@
   9  5,1  | bAP
   9  3,1  - bE
   9  3,1  | bOA
-  9  3,1  | bOE
   9  3,1  | bOR
   9  5,1  | cAF
   9  5,1  | cAP
@@ -4589,13 +4529,11 @@
   8  2,10 - hIRE
   8  5,3  - iARE
   8  6,5  - jAPE
-  8  6,3  - lAP
   8  5,3  - lARE
   8  4,5  - lARE
   8  2,11 - lEAFER
   8  2,11 - lEAPER
   8  4,5  - lEAR
-  8  6,3  - lEP
   8  6,7  - lEPA
   8  5,3  - mARE
   8  4,5  - mARE
@@ -4760,7 +4698,6 @@
   7  6,3  - AiRE
   7  6,3  - AkER
   7  6,3  - AkRE
-  7  5,3  - Al
   7  5,2  | AlEFT
   7  5,2  | AlFET
   7  6,5  - AlP
@@ -4824,7 +4761,6 @@
   7  3,3  - Ee
   7  6,5  - EfF
   7  6,7  - EfF
-  7  5,3  - El
   7  6,5  - ElF
   7  6,7  - ElF
   7  6,5  - EmF
@@ -5224,15 +5160,11 @@
   7  4,5  - kAE
   7  4,5  - kEA
   7  4,5  - kER
-  7  6,1  - lAP
   7  5,3  - lAR
   7  4,5  - lAR
   7  5,1  - lARE
-  7  6,3  - lARE
   7  4,5  - lEA
   7  5,1  - lEAR
-  7  6,3  - lEAR
-  7  6,1  - lEP
   7  6,5  | lEPER
   7  2,11 - lEPER
   7  6,5  | lEPRA
@@ -5418,7 +5350,6 @@
   6  6,5  - AiRE
   6  6,5  - AkER
   6  6,5  - AkRE
-  6  5,1  - AlE
   6  6,4  | AlEF
   6  1,11 - AmEER
   6  5,5  - AnRE
@@ -5589,7 +5520,6 @@
   6  6,1  | FLy
   6  6,4  | FREe
   6  6,4  | FREn
-  6  6,4  | FREq
   6  6,4  | FREt
   6  6,4  | FREy
   6  5,4  | FRT
@@ -6346,12 +6276,9 @@
   5  6,1  - AiR
   5  6,3  - AiR
   5  1,11 - AjEE
-  5  6,1  - AkE
-  5  6,3  - AkE
   5  1,11 - AkEE
   5  1,11 - AkER
   5  4,1  - Al
-  5  5,1  - Al
   5  4,3  - Al
   5  6,1  - AlE
   5  6,3  - AlE
@@ -6907,13 +6834,10 @@
   5  5,1  - lA
   5  5,3  - lA
   5  4,4  | lAIR
-  5  6,3  - lAR
   5  6,7  - lARE
-  5  6,3  - lEA
   5  6,7  - lEAR
   5  6,5  | lEP
   5  2,11 - lEP
-  5  6,3  - lER
   5  5,1  - mA
   5  3,3  - mA
   5  5,3  - mA
@@ -7121,8 +7045,6 @@
   4  6,3  - Ai
   4  4,5  - Ai
   4  6,5  - AiR
-  4  6,5  - AkE
-  4  1,11 - AkE
   4  6,1  - Al
   4  6,3  - Al
   4  5,7  - Al
@@ -7622,13 +7544,9 @@
   4  5,1  | jARA
   4  4,5  - kA
   4  4,5  | kIE
-  4  6,3  - lA
   4  4,5  - lA
-  4  6,1  - lAR
   4  5,1  | lARE
   4  5,4  | lATER
-  4  6,1  - lEA
-  4  6,1  - lER
   4  4,5  | lIE
   4  4,5  | lIR
   4  6,1  | lLER
@@ -8333,7 +8251,6 @@
   3  5,1  | kAE
   3  5,4  | kATE
   3  5,4  | kETA
-  3  6,1  - lA
   3  5,1  | lAR
   3  6,7  - lAR
   3  5,4  | lATE
@@ -8553,8 +8470,6 @@
   2  5,2  | AiR
   2  5,4  | AiT
   2  5,2  | AkA
-  2  5,2  | AkE
-  2  6,4  | AkE
   2  5,2  | AlA
   2  5,2  | AlE
   2  6,4  | AlE
@@ -8680,7 +8595,6 @@
   2  3,11 - EwE
   2  6,6  | ExR
   2  3,11 - ExR
-  2  5,4  | ExT
   2  6,4  | EyE
   2  6,6  | EyE
   2  3,11 - EyE
@@ -8712,7 +8626,6 @@
   2  3,10 - IvE
   2  6,2  | La
   2  6,2  | Li
-  2  6,2  | Ll
   2  6,2  | Lo
   2  6,2  | Lu
   2  4,2  | Na
@@ -9032,7 +8945,6 @@
   2  6,5  | lER
   2  2,11 - lER
   2  5,4  | lET
-  2  6,1  | lL
   2  5,5  | lTR
   2  6,5  - mA
   2  6,7  - mA

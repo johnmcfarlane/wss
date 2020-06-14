@@ -555,6 +555,7 @@
  21 11,3  | LaDS
  21 11,3  | LeDS
  21 11,3  | LiDS
+ 21 11,3  | LuDS
  21 11,6  | SDLc
  21 11,6  | SEID
  21 11,6  | SELlI
@@ -1085,7 +1086,6 @@
  15  7,5  | DOJoS
  15  7,5  | DOrJE
  15  7,3  | DoJO
- 15  8,7  - EILD
  15 11,3  | EgIS
  15  7,4  | EmOJIS
  15 11,3  | ErIS
@@ -1515,7 +1515,6 @@
  13  8,5  - EIDe
  13  8,7  - EIDe
  13  8,7  - EILa
- 13  8,7  - EILd
  13  7,4  | EmOJI
  13  7,4  | IJOrE
  13  3,5  - ISLED
@@ -1633,7 +1632,6 @@
  13  4,5  - eDILE
  13  2,5  - eDILES
  13  2,7  - eDILES
- 13  8,7  - eILD
  13  4,5  - eLIDE
  13  4,7  - eLIDE
  13  2,5  - eLIDES
@@ -2221,12 +2219,10 @@
  11  3,5  - DrIES
  11  3,7  - DrIES
  11  8,4  | DuRES
- 11  8,7  - EIlD
  11  8,2  | ELDeRS
  11  9,7  - ELS
  11 11,4  | ELSIn
  11  8,4  | EgRID
- 11  8,7  - EiLD
  11  6,5  - IDE
  11  9,5  - IDE
  11  6,7  - IDE
@@ -2637,8 +2633,6 @@
  10 10,6  | ELvIS
  10  3,7  - ELvIS
  10 10,6  | ESsED
- 10  8,5  - EaDI
- 10  8,7  - EaDI
  10 10,6  | EaSED
  10 10,6  | EaSEL
  10  3,5  - EbLIS
@@ -4722,7 +4716,6 @@
   8 11,4  | xES
   8 11,4  | xIS
   8 11,4  | yES
-  8 11,4  | yIS
   8  7,5  | yODEL
   8  7,5  | yODLES
   8  5,5  - zED
@@ -4884,8 +4877,6 @@
   7  6,7  - ESe
   7 11,4  | ESs
   7  7,3  | EStOIL
-  7  3,5  - EaDI
-  7  3,7  - EaDI
   7  9,3  | EdITS
   7  5,5  - EeL
   7  9,5  - EfS
@@ -5127,7 +5118,7 @@
   7  7,6  | OLIvED
   7  7,6  | OLdIES
   7  7,6  | OLiD
-  7  7,6  | OSELa
+  7  7,6  | OLlIES
   7  7,6  | OSIDe
   7  7,6  | OSiDE
   7  7,6  | ObELI
@@ -5135,6 +5126,7 @@
   7  7,6  | OgLED
   7  7,6  | OiLED
   7  7,6  | OlDIES
+  7  7,6  | OlLIES
   7  7,6  | OnSIDE
   7  7,6  | OrIELS
   7  7,6  | OsIDE
@@ -5587,7 +5579,6 @@
   7  7,5  | tOILES
   7  7,5  | tOISED
   7  8,5  | tRIED
-  7  9,5  - uDI
   7  9,5  - uDS
   7  8,5  | uREID
   7  8,5  | uRIEL
@@ -5825,7 +5816,6 @@
   6  7,3  | EIDOs
   6  3,5  - EIDe
   6  3,7  - EIDe
-  6 10,6  | EILD
   6  3,5  - EILa
   6  3,7  - EILa
   6 10,3  | EISELl
@@ -6788,8 +6778,6 @@
   6  9,4  | yETIS
   6 10,4  | yIELD
   6  9,3  | yILT
-  6  5,5  - yIS
-  6  5,7  - yIS
   6  9,2  | zEIST
   5  5,5  - DE
   5  5,7  - DE
@@ -7031,7 +7019,6 @@
   5  7,4  | EcOID
   5  7,3  | EdDO
   5  9,3  | EdIT
-  5 10,6  | EiLD
   5  7,2  | EjIDO
   5  9,3  | EmIT
   5 10,4  | EnEID
@@ -7247,7 +7234,6 @@
   5  6,4  | LiTES
   5  9,4  | LiTI
   5  9,4  | LiTS
-  5 10,7  - Ll
   5 10,7  - Lo
   5 10,3  | LoDE
   5  4,5  - LoE
@@ -8057,8 +8043,6 @@
   5  7,5  | tOISE
   5  7,5  | tOLD
   5  8,5  | tRES
-  5  4,5  - uDI
-  5  4,7  - uDI
   5  4,5  - uLE
   5  4,7  - uLE
   5  9,4  | uLT
@@ -8297,8 +8281,6 @@
   4 10,5  | EEmIS
   4 10,6  | EIDe
   4 10,6  | EILa
-  4 10,6  | EILd
-  4 10,6  | EIlD
   4 10,4  | ELEc
   4 10,6  | ELEc
   4 10,4  | ELEm
@@ -8334,7 +8316,6 @@
   4  9,5  | EThS
   4  9,5  | ETuI
   4  6,5  | ETuIS
-  4 10,6  | EaDI
   4  8,4  | EaR
   4  9,4  | EaTS
   4  7,4  | EcOD
@@ -8672,7 +8653,6 @@
   4  7,6  | OIlS
   4  7,6  | OLE
   4  7,6  | OLEa
-  4  7,6  | OLEg
   4  7,6  | OLEo
   4  7,6  | OLEs
   4  7,6  | OLId
@@ -10367,7 +10347,6 @@
   3  9,4  | lIT
   3  6,4  | lITE
   3  6,4  | lITS
-  3 10,7  - lL
   3  7,5  | lOD
   3  7,5  | lOIS
   3  7,5  | lOSE
@@ -10660,8 +10639,6 @@
   2  5,5  - Ew
   2 10,4  | EwE
   2 10,6  | EwE
-  2  6,4  | ExT
-  2  9,4  | ExT
   2 10,4  | EyE
   2 10,6  | EyE
   2  7,5  | IO
@@ -10914,7 +10891,6 @@
   2 10,5  - bI
   2  7,4  | bIO
   2  6,4  | bIT
-  2  7,5  | bOE
   2  7,5  | bOS
   2 10,4  | cEE
   2 10,5  | cEE
@@ -11026,7 +11002,6 @@
   2  6,4  | lST
   2 10,5  - mE
   2 10,7  - mE
-  2  7,4  | mEO
   2  8,4  | mER
   2 10,5  | mES
   2  6,4  | mET

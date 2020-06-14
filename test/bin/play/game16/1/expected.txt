@@ -911,6 +911,8 @@
  12  9,6  | RISP
  12 10,6  | RItZ
  12  9,4  | SARPo
+ 12  8,5  | SAZ
+ 12  6,6  | SAZ
  12  6,6  | SIZe
  12  6,6  | SIZy
  12  6,6  | SIZz
@@ -1056,6 +1058,7 @@
  11  9,2  | SPIeR
  11  7,3  | SPiCA
  11  6,6  | SQq
+ 11  6,6  | SaZ
  11  6,6  | SeQ
  11  6,6  | SeZ
  11  8,4  | SoAPI
@@ -1082,6 +1085,7 @@
  11  9,4  | jARP
  11  6,4  | oZS
  11  7,2  | rAPIC
+ 11  8,5  | sAZ
  11  7,3  | sPICAS
  11  9,2  | tAPIRS
  11  9,4  | tARP
@@ -1442,7 +1446,6 @@
   8  7,6  | CoP
   8  7,6  | CsP
   8  7,6  | CuP
-  8  7,6  | CyP
   8  3,5  - IPSe
   8  3,5  - IPSo
   8  3,7  - IPSo
@@ -2038,7 +2041,6 @@
   7  9,5  | cRIP
   7 10,5  | cRIPS
   7 10,5  | cRISP
-  7 11,5  | cYP
   7  9,5  | dRIP
   7 10,5  | dRIPS
   7  4,5  - ePA
@@ -2702,7 +2704,6 @@
   5  8,6  | AcIS
   5  8,4  | AdAI
   5  8,6  | AdAI
-  5  7,4  | AdC
   5  9,2  | AeSIR
   5  8,4  | AgAS
   5  8,6  | AgAS
@@ -2965,7 +2966,6 @@
   5  9,4  | StRIA
   5  6,6  | SuP
   5 11,6  | YAS
-  5 11,6  | YIS
   5  9,4  | aIRA
   5  9,4  | aIRS
   5  8,4  | aPA
@@ -3407,11 +3407,9 @@
   4 11,6  | YI
   4 11,6  | YIn
   4 11,6  | YIp
-  4 11,6  | YIs
   4 11,6  | YaS
   4 11,6  | YeA
   4 11,6  | YeS
-  4 11,6  | YiS
   4 11,6  | YrS
   4 11,6  | YuS
   4  9,5  - aA
@@ -4340,14 +4338,14 @@
   2  6,6  | SAt
   2  8,5  | SAu
   2  6,6  | SAu
-  2  8,5  | SAv
-  2  6,6  | SAv
   2  8,5  | SAw
   2  6,6  | SAw
   2  8,5  | SAx
   2  6,6  | SAx
   2  8,5  | SAy
   2  6,6  | SAy
+  2  8,5  | SAz
+  2  6,6  | SAz
   2  6,6  | SI
   2  6,6  | SIa
   2  6,6  | SIb
@@ -4553,7 +4551,6 @@
   2 10,4  | yAR
   2  6,4  | yAS
   2  8,5  | yAS
-  2  6,4  | yIS
   2 10,5  | yRS
   2  6,4  | zAS
   2  8,5  | zAS

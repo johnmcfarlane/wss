@@ -14,6 +14,7 @@
  86  9,1  | sEZ
  86  9,1  | tEZ
  86  9,1  | yEZ
+ 85  9,1  | SaZ
  85  9,1  | SeZ
  85  9,1  | SuZ
  75  7,3  - ZOEAS
@@ -54,6 +55,7 @@
  46  8,4  | ZESt
  46  8,3  | dZOS
  45  8,5  | OyEZ
+ 45  8,6  | SaZ
  45  8,6  | SeZ
  45  8,6  | SuZ
  45  9,3  | Za
@@ -63,6 +65,7 @@
  42  7,3  - OZiAS
  42 10,8  | mZEE
  41 10,9  | ZEE
+ 39  9,3  - SAZ
  39  8,3  - ZEAl
  39  4,4  | ZyGOSES
  38  4,4  | ZyGOSE
@@ -94,6 +97,7 @@
  33  9,5  | dOZER
  33  9,5  | dOZES
  33  9,3  - gAZ
+ 33  9,3  - sAZ
  33  9,3  - wAZ
  32  6,8  - AdZE
  32  3,8  - EZbA
@@ -145,7 +149,6 @@
  28  8,4  | OZS
  28  1,10 - RESiZE
  28  1,10 - REZOnE
- 28  8,6  | SuEZ
  28  6,2  - ZEROTh
  28  8,2  | ZEROs
  28  8,3  | ZEdS
@@ -171,6 +174,7 @@
  26  9,6  | OyEZ
  26  2,10 - RaZEE
  26  2,10 - SEiZE
+ 26  3,5  - SaZ
  26  5,3  - ScORZA
  26  6,2  - ZEiST
  26  2,10 - ZOEaE
@@ -1448,7 +1452,6 @@
  14 11,1  | aOR
  14  5,8  - bAZE
  14 11,1  | bER
- 14 11,1  | bOE
  14 11,1  | bOR
  14 11,1  | bOS
  14 11,1  | cOE
@@ -1657,6 +1660,7 @@
  12  7,4  | RyKES
  12  9,3  - SAE
  12  9,3  - SAO
+ 12  5,8  - SAZ
  12  8,3  - SEAh
  12  8,3  - SEAk
  12  8,3  - SEAl
@@ -1772,7 +1776,6 @@
  12  5,2  - fORESTS
  12  2,10 - fORSEE
  12  8,3  - fRAE
- 12  8,8  | fREQ
  12  8,3  - gEAR
  12  8,3  - gOAR
  12  8,3  - gOAS
@@ -2006,6 +2009,7 @@
  11 10,9  | pEE
  11  2,7  - pROSE
  11  3,9  - pROVES
+ 11  5,8  - sAZ
  11  8,9  | sEQ
  11  3,9  - sERVOS
  11  7,5  | sKER
@@ -2457,10 +2461,10 @@
   9  9,3  - SAp
   9  9,3  - SAt
   9  9,3  - SAu
-  9  9,3  - SAv
   9  9,3  - SAw
   9  9,3  - SAx
   9  9,3  - SAy
+  9  9,3  - SAz
   9  4,8  - SEARS
   9  4,8  - SEASOn
   9  3,8  - SERAcS
@@ -3036,7 +3040,6 @@
   8  6,9  - VoES
   8  1,7  - aERO
   8  4,5  | aGERS
-  8  7,5  | aKE
   8  7,5  | aKO
   8  6,2  - aREST
   8  4,4  | aRGOS
@@ -3503,7 +3506,6 @@
   7  4,5  | jGER
   7  8,5  - lEIF
   7  4,9  - lEV
-  7  2,7  - mEO
   7  7,3  | mERK
   7  4,3  | mORG
   7  7,3  | mOSK
@@ -3653,7 +3655,6 @@
   6  5,4  | OSAR
   6  4,8  - OSAR
   6  4,10 - OSES
-  6  2,8  - OSElA
   6  7,3  - OSSA
   6  3,8  - OSSA
   6  3,8  - OSSAl
@@ -3670,7 +3671,6 @@
   6  9,6  | ObE
   6  9,6  | ObS
   6  4,9  - ObV
-  6  7,4  | OcK
   6  2,8  - OcREA
   6  9,6  | OdE
   6  5,1  | OdESSA
@@ -3890,7 +3890,6 @@
   6  3,10 - SaREE
   6  4,3  | SaRGE
   6  4,3  | SaRGO
-  6  4,9  - SaV
   6  7,4  - ScOB
   6  3,10 - ScREE
   6  4,4  | SeG
@@ -4375,8 +4374,6 @@
   5  3,8  - ORnA
   5  3,8  - ORrA
   5  4,8  - OSAr
-  5  5,2  | OSElA
-  5  6,3  - OSElA
   5  5,3  | OSSA
   5  8,9  - OSSA
   5  3,10 - OSSEt
@@ -4405,7 +4402,6 @@
   5  4,10 - OkES
   5  7,3  - OkRA
   5  7,3  - OlEA
-  5  4,3  | OlEG
   5  4,10 - OlES
   5  9,6  | Om
   5  5,4  | OmAR
@@ -4966,7 +4962,6 @@
   4  6,8  - AhS
   4  6,8  - AiR
   4  6,8  - AiS
-  4  6,8  - AkE
   4  6,8  - AkO
   4  6,8  - AlE
   4  6,8  - AlS
@@ -5451,7 +5446,6 @@
   4  5,5  | mAE
   4  5,5  | mAR
   4  4,4  | mEG
-  4  5,10 - mEO
   4  5,10 - mES
   4  7,3  - mESA
   4  8,9  - mESA
@@ -6358,7 +6352,6 @@
   2  4,10 - EvE
   2  6,10 - Ew
   2  4,10 - EwE
-  2  8,2  - ExT
   2  4,10 - EyE
   2  5,8  - OAd
   2  5,8  - OAf
@@ -6467,10 +6460,10 @@
   2  5,8  - SAp
   2  5,8  - SAt
   2  5,8  - SAu
-  2  5,8  - SAv
   2  5,8  - SAw
   2  5,8  - SAx
   2  5,8  - SAy
+  2  5,8  - SAz
   2 10,8  - SI
   2  9,2  - STa
   2  9,2  - STd
@@ -6541,7 +6534,6 @@
   2  5,4  | bOA
   2  4,8  - bOA
   2  9,9  - bOA
-  2  4,10 - bOE
   2  8,2  - bOT
   2  5,4  | bRA
   2  4,8  - bRA

@@ -31,8 +31,6 @@
  25 11,3  | LIDiA
  24  2,5  | PERKIn
  24  3,9  - Qi
- 24  4,3  | SLAe
- 24  4,3  | SLAt
  23 11,3  | DoRIA
  23  1,9  - DsR
  23 11,3  | LaRIA
@@ -51,7 +49,6 @@
  22 11,3  | RADIi
  22 11,3  | RADIo
  22 11,3  | RADiI
- 22  4,3  | SLA
  22 11,2  | aDLAI
  21  9,2  | QIbLA
  21  7,1  | QIs
@@ -62,8 +59,6 @@
  20  1,9  - RyA
  20  4,3  | SADe
  20  4,3  | SIDe
- 20  4,3  | SLa
- 20  4,3  | SLt
  19 11,7  | AIDeR
  19 11,2  | ARDrI
  19 11,2  | ArDRI
@@ -112,13 +107,11 @@
  18  7,3  | sAD
  18  7,3  | sAL
  18  7,3  | sIL
- 17 11,8  | ADaD
  17  2,2  - AXAL
  17  2,2  - AXIL
  17  4,5  | DeRMA
  17  7,7  | IZARD
  17  7,2  | LsD
- 17 11,8  | aDAD
  17  8,6  | bRENDA
  17 11,8  | oDAL
  17  8,6  | oRENDA
@@ -174,7 +167,6 @@
  16 11,3  | cADI
  16 11,3  | dALI
  16  8,7  | dENDA
- 16 11,3  | eADI
  16 11,8  | eDDA
  16  5,4  - fAQIR
  16 11,3  | gADI
@@ -685,7 +677,6 @@
  10  4,3  | SaA
  10  4,3  | SiA
  10  4,3  | SiR
- 10  4,3  | SlA
  10  4,3  | SuR
  10  9,6  | aA
  10  4,7  - aDO
@@ -1000,7 +991,6 @@
   8  4,7  | AMIDs
   8  4,7  | AMIL
   8  4,7  | AMLI
-  8  4,7  | AMaDI
   8  1,5  - APED
   8  6,4  - ARADId
   8  6,4  - ARALIa
@@ -1014,8 +1004,6 @@
   8  9,3  | ARIa
   8  8,4  | ARIsEN
   8  6,4  - ARLe
-  8  5,6  - AVDp
-  8  5,6  - AVaL
   8  5,6  - AViD
   8  9,6  | Aa
   8  9,6  | Ab
@@ -1045,7 +1033,6 @@
   8 10,8  - BA
   8 10,8  - BI
   8  5,4  - DAIrA
-  8  5,4  - DAIvA
   8  5,4  - DAL
   8  5,4  - DALe
   8  5,4  - DALf
@@ -1081,7 +1068,6 @@
   8  3,9  - Do
   8  5,1  | DoOL
   8 11,9  | DsR
-  8  6,5  - EILD
   8  2,1  - HEADeR
   8  2,1  - HEALeR
   8  2,1  - HEARD
@@ -1179,9 +1165,7 @@
   8  6,6  - VIL
   8  9,3  | aIRA
   8  5,1  | aLOD
-  8  4,7  | aMADI
   8  9,3  | aRIA
-  8  5,6  - aVAL
   8  5,6  - aVID
   8  8,4  | bALDEN
   8  8,7  - bAY
@@ -1267,7 +1251,6 @@
   8  9,3  | zIRA
   7  6,4  - ADAI
   7  6,4  - ADAR
-  7  6,4  - ADAtI
   7  6,4  - ADRAd
   7  6,4  - ADRIp
   7  6,11 - ADaW
@@ -1313,8 +1296,6 @@
   7  4,7  | AMiL
   7  4,7  | AMyL
   7  1,5  - APER
-  7  6,4  - ARAD
-  7  6,4  - ARADo
   7  6,4  - ARID
   7  6,4  - ARIL
   7  6,4  - ARILs
@@ -1339,7 +1320,6 @@
   7  6,4  - AlIDA
   7  6,4  - AlL
   7  5,1  | AlOD
-  7  6,4  - AmADI
   7  6,4  - AnD
   7  6,4  - ApAID
   7  5,1  | ApOD
@@ -1417,7 +1397,6 @@
   7  6,5  - EARL
   7  6,5  - ELoD
   7  6,5  - ERAL
-  7  6,5  - EiLD
   7  2,1  - HEAD
   7  2,1  - HEADs
   7  2,1  - HEADy
@@ -1654,7 +1633,6 @@
   7  5,4  - dALI
   7  9,4  | dIA
   7  5,1  | dIOL
-  7  5,4  - eADI
   7  4,6  | eAM
   7  4,7  | eMDA
   7  4,7  | eMIL
@@ -1723,7 +1701,6 @@
   7  4,6  | tIM
   7  9,4  | tRA
   7  5,1  | tROD
-  7 11,4  | uDI
   7  9,4  | uRA
   7  5,1  | uROL
   7  9,4  | vIA
@@ -1736,7 +1713,6 @@
   7  1,1  - wHEAL
   7  5,4  - yALI
   7  5,5  - yEARD
-  6  6,4  - ADAd
   6  6,4  - ADAi
   6  6,4  - ADAm
   6  6,4  - ADAr
@@ -1825,7 +1801,6 @@
   6  6,4  - AcAD
   6  6,4  - AcARI
   6  6,4  - AcID
-  6  6,4  - AdAD
   6  3,9  - Ae
   6  6,4  - AgAD
   6  6,4  - AgAL
@@ -1845,13 +1820,11 @@
   6 11,4  | AnI
   6  6,4  - AnIL
   6  6,4  - ApAIR
-  6  6,4  - ArAD
   6  6,4  - ArID
   6  6,4  - ArIL
   6  8,6  - AsGD
   6 11,4  | AtI
   6  6,4  - AtRIA
-  6  6,4  - AvAL
   6  6,4  - AvID
   6  6,4  - AxAL
   6  6,4  - AxIL
@@ -1918,10 +1891,8 @@
   6  7,11 - DeW
   6  7,4  | Do
   6  7,11 - DoW
-  6  6,5  - EADI
   6  6,5  - EArL
   6  6,5  - EILA
-  6  6,5  - EIlD
   6  6,5  - ELIA
   6  8,8  | ENd
   6  8,8  | ENg
@@ -2014,7 +1985,6 @@
   6  5,2  | LOA
   6  7,11 - LaW
   6  7,11 - LbW
-  6  7,4  | Ll
   6  7,4  | Lo
   6  8,5  | LoREN
   6  7,11 - LoW
@@ -2237,7 +2207,6 @@
   6  5,5  - lEILA
   6  5,5  - lELIA
   6  3,9  - lI
-  6  7,4  | lL
   6  5,2  | lOD
   6  3,9  - mA
   6  5,4  - mAAR
@@ -2345,7 +2314,6 @@
   5  4,7  | AMu
   5  4,7  | AMy
   5  6,4  - ARAb
-  5  6,4  - ARAd
   5  6,4  - ARAk
   5  6,4  - ARAr
   5  8,6  | AREN
@@ -2453,7 +2421,6 @@
   5  6,5  - ELlA
   5  6,5  - ELsA
   5  6,5  - ERIA
-  5  6,5  - EaDI
   5  6,5  - EdDA
   5  6,5  - EiLA
   5  6,5  - ElLA
@@ -2667,7 +2634,6 @@
   5 11,5  | bI
   5  8,6  - bIGA
   5  7,11 - cAW
-  5  8,6  - cDG
   5  5,5  - cERIA
   5  1,1  - cHER
   5  9,7  - cYL
@@ -2791,7 +2757,6 @@
   4  6,4  - ALmA
   4  6,4  - ALuR
   4  6,4  - ALyA
-  4  6,4  - ARaD
   4  6,4  - AReD
   4  6,4  - ARiD
   4  6,4  - ARiL
@@ -2887,13 +2852,10 @@
   4  5,2  | DOn
   4  5,2  | DOp
   4  5,2  | DOt
-  4  6,5  - EADi
-  4  6,5  - EAdI
   4  6,5  - EDAm
   4  6,5  - EDIt
   4  6,5  - EIDe
   4  6,5  - EILa
-  4  6,5  - EILd
   4  6,5  - EIlA
   4  6,5  - EInA
   4  6,5  - ELAn
@@ -3185,7 +3147,6 @@
   4  5,2  | zOA
   3  6,4  - AAnI
   3  6,4  - AD
-  3  6,4  - ADc
   3  6,4  - ADd
   3  6,4  - ADo
   3  6,4  - ADp

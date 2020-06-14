@@ -29,7 +29,6 @@
  41  7,1  | SEXt
  41  7,1  | SEXy
  40  7,2  | EXr
- 40  7,2  | EXt
  40  7,1  | SEX
  39  5,3  - DELlIES
  39  7,1  | DeX
@@ -753,7 +752,6 @@
  21  6,7  - DuLSE
  21  1,7  - EDILeS
  21  5,7  - EDILeS
- 21  3,7  - EILD
  21  3,7  - ELIDe
  21  1,7  - ELIDeS
  21  6,3  - ELiX
@@ -986,7 +984,6 @@
  20  2,3  - EXdIE
  20  6,3  - EXdIE
  20  6,3  - EXiES
- 20  3,7  - EiLD
  20  5,6  | ElIX
  20  7,6  | ElIX
  20  2,7  - IDEaS
@@ -1032,6 +1029,7 @@
  20  2,7  - LeSED
  20  3,7  - LiDS
  20  4,7  - LoDES
+ 20  3,7  - LuDS
  20  2,7  - LySED
  20  3,7  - SEID
  20  6,7  - SEID
@@ -1335,7 +1333,6 @@
  19  6,7  - DyES
  19  2,7  - EIDoS
  19  4,7  - EIDoS
- 19  3,7  - EIlD
  19  4,7  - ELD
  19  4,7  - ELDs
  19  4,4  - EXAuDI
@@ -1431,6 +1428,7 @@
  19  4,7  - LoDE
  19  2,7  - LoDES
  19  3,7  - LoIS
+ 19  4,7  - LuDS
  19  3,7  - LuES
  19  3,7  - LuIS
  19  3,7  - LyES
@@ -1564,7 +1562,6 @@
  19  2,7  - dEILS
  19  6,7  - dEILS
  19  2,7  - dELIS
- 19  3,7  - eILD
  19  4,7  - eLDS
  19  4,3  - eXES
  19  2,7  - fELIS
@@ -1702,7 +1699,6 @@
  18  5,6  | EXILeD
  18  7,6  | EXILeD
  18  6,3  - EXIt
- 18  4,7  - EaDI
  18  2,7  - EbLIS
  18  3,7  - EeLS
  18  3,7  - ElDS
@@ -2059,7 +2055,6 @@
  17  5,7  - EDh
  17  5,7  - EDo
  17  5,7  - EDp
- 17  3,7  - EILd
  17  4,7  - ELS
  17  4,7  - ELSa
  17  4,7  - ELSe
@@ -2068,7 +2063,6 @@
  17  7,6  | EXILeS
  17  6,3  - EXp
  17  6,3  - EXr
- 17  6,3  - EXt
  17  7,1  | EeLS
  17  3,7  - EgIS
  17  4,7  - ElD
@@ -2289,7 +2283,6 @@
  17  3,7  - tEDS
  17  5,3  - tEX
  17  3,7  - tILS
- 17  5,7  - uDI
  17  5,7  - uDS
  17  5,7  - uSED
  17  5,3  - vEX
@@ -2878,7 +2871,6 @@
  15  4,7  - xES
  15  4,7  - xIS
  15  4,7  - yES
- 15  4,7  - yIS
  15  5,1  | zED
  15  7,1  | zED
  14  6,4  - ALEX
@@ -3953,8 +3945,6 @@
  11  7,6  | EXp
  11  5,6  | EXr
  11  7,6  | EXr
- 11  5,6  | EXt
- 11  7,6  | EXt
  11  6,6  - EXuL
  11  4,4  - EmAIL
  11  4,4  - EnALID
@@ -4428,8 +4418,6 @@
  10  6,3  - EDiLE
  10  6,6  - EIDEr
  10  6,6  - EIDoS
- 10  5,6  | EILD
- 10  7,6  | EILD
  10  3,3  - EISELl
  10  5,3  | EL
  10  7,3  | EL
@@ -4581,7 +4569,6 @@
  10  7,6  | LiED
  10  4,5  - LiVED
  10  4,5  - LiVID
- 10  7,3  | Ll
  10  7,6  | LoDES
  10  7,6  | LoED
  10  7,6  | LoID
@@ -5068,7 +5055,6 @@
   9  2,3  - EDIlES
   9  2,4  - EDItAL
   9  3,3  - EIDErS
-  9  6,3  - EILD
   9  4,4  - ELAnS
   9  4,4  - ELApS
   9  3,3  - ELDEr
@@ -5099,13 +5085,10 @@
   9  6,6  - EX
   9  6,6  - EXp
   9  6,6  - EXr
-  9  6,6  - EXt
   9  3,3  - EaSED
   9  3,3  - EaSEL
   9  2,3  - EdILES
   9  4,4  - EgADS
-  9  5,6  | EiLD
-  9  7,6  | EiLD
   9  2,4  - EjIDAL
   9  2,3  - ElIDES
   9  2,4  - EnDIA
@@ -5239,6 +5222,7 @@
   9  7,6  | LoDE
   9  4,5  - LoVES
   9  4,2  - LoWED
+  9  7,6  | LuDS
   9  2,4  - LuSIAD
   9  5,4  - SAID
   9  5,4  - SAIDi
@@ -5892,8 +5876,6 @@
   8  3,3  - EIDE
   8  3,3  - EIDEr
   8  3,3  - EISElL
-  8  5,6  | EIlD
-  8  7,6  | EIlD
   8  4,4  - ELAInS
   8  1,4  - ELIShA
   8  1,4  - ELISsA
@@ -6411,8 +6393,6 @@
   8  3,4  - dIDAL
   8  4,5  - dIVES
   8  3,4  - eDEA
-  8  5,6  | eILD
-  8  7,6  | eILD
   8  4,4  - eLAEIS
   8  3,4  - eLIA
   8  3,4  - eLSA
@@ -6837,7 +6817,6 @@
   7  3,3  - DrIE
   7  4,3  - DuEL
   7  2,3  - DuLSE
-  7  5,4  - EADI
   7  2,3  - EDIlE
   7  6,3  - EDIlE
   7  6,3  - EDItS
@@ -6859,7 +6838,6 @@
   7  5,6  | EIDoS
   7  7,6  | EIDoS
   7  3,4  - EILA
-  7  6,3  - EIlD
   7  4,4  - ELAIc
   7  4,4  - ELAIn
   7  6,3  - ELD
@@ -6906,8 +6884,6 @@
   7  6,3  - ESsED
   7  5,5  - EVIl
   7  5,5  - EVeS
-  7  5,6  | EaDI
-  7  7,6  | EaDI
   7  5,2  | Ed
   7  7,2  | Ed
   7  2,3  - EdILE
@@ -6921,7 +6897,6 @@
   7  5,2  | Eh
   7  7,2  | Eh
   7  3,3  - EiDE
-  7  6,3  - EiLD
   7  7,2  | El
   7  5,6  | ElDS
   7  7,6  | ElDS
@@ -7492,7 +7467,6 @@
   7  4,5  - lIVE
   7  3,2  - lLEW
   7  5,4  - mALES
-  7  5,4  - mALIE
   7  4,4  - mEADS
   7  4,4  - mEALS
   7  4,3  - mEED
@@ -7519,7 +7493,6 @@
   7  5,6  | oLDS
   7  7,6  | oLDS
   7  4,3  - oLES
-  7  2,4  - oSELA
   7  5,5  - oVIS
   7  5,2  - oWED
   7  5,2  - oWLS
@@ -7956,11 +7929,8 @@
   6  5,6  | EIDe
   6  7,6  | EIDe
   6  6,3  - EIDoS
-  6  6,6  - EILD
   6  5,6  | EILa
   6  7,6  | EILa
-  6  5,6  | EILd
-  6  7,6  | EILd
   6  3,6  - EISELl
   6  3,6  - EISElL
   6  4,4  - ELAn
@@ -8356,7 +8326,6 @@
   6  4,4  - SaAD
   6  2,3  - SaDIE
   6  3,4  - SaLAD
-  6  4,5  - SaV
   6  4,4  - ScAD
   6  4,4  - SeAL
   6  4,3  - SeED
@@ -8556,7 +8525,6 @@
   6  4,2  - dEWS
   6  4,6  - dIESEL
   6  4,5  - dIV
-  6  5,4  - eADI
   6  5,3  | eD
   6  7,3  | eD
   6  5,1  | eE
@@ -8668,7 +8636,6 @@
   6  3,3  - lILE
   6  7,6  | lILE
   6  4,5  - lIV
-  6  7,3  | lL
   6  5,2  - lWEI
   6  5,2  - lWL
   6  5,4  - mADE
@@ -9053,7 +9020,6 @@
   5  4,3  - DyES
   5  5,4  - EASeD
   5  5,4  - EASeL
-  5  5,4  - EAdI
   5  5,4  - EArS
   5  5,4  - EAtS
   5  6,3  - ED
@@ -9081,7 +9047,6 @@
   5  3,6  - EIDEr
   5  6,3  - EIDe
   5  6,3  - EILa
-  5  6,3  - EILd
   5  6,3  - EIdE
   5  3,4  - EIlA
   5  3,4  - EInA
@@ -9133,7 +9098,6 @@
   5  3,6  - ESsED
   5  5,2  - EW
   5  5,2  - EWe
-  5  6,3  - EaDI
   5  3,3  - EaSE
   5  3,6  - EaSED
   5  3,6  - EaSEL
@@ -9143,7 +9107,6 @@
   5  7,6  | EeL
   5  6,3  - EeLS
   5  6,3  - EiDE
-  5  6,6  - EiLD
   5  5,6  | ElD
   5  7,6  | ElD
   5  6,3  - ElDS
@@ -9313,7 +9276,6 @@
   5  3,6  - LiDE
   5  4,6  - LiED
   5  4,3  - LiES
-  5  7,6  | Ll
   5  7,6  | Lo
   5  3,6  - LoDE
   5  4,6  - LoED
@@ -9921,7 +9883,6 @@
   4  6,4  - AhI
   4  6,4  - AhS
   4  6,4  - AiS
-  4  6,4  - AkE
   4  6,4  - AlE
   4  6,4  - AlS
   4  6,4  - AmI
@@ -10032,7 +9993,6 @@
   4  3,6  - DrIE
   4  4,6  - DuES
   4  4,6  - DyES
-  4  5,4  - EADi
   4  4,6  - EDEa
   4  6,6  - EDEa
   4  4,6  - EDEn
@@ -10051,9 +10011,7 @@
   4  5,6  - EEmIS
   4  6,6  - EIDe
   4  6,6  - EILa
-  4  6,6  - EILd
   4  3,3  - EIdE
-  4  6,6  - EIlD
   4  5,6  | EIr
   4  7,6  | EIr
   4  3,3  - EIrE
@@ -10099,7 +10057,6 @@
   4  7,6  | ESt
   4  5,6  | ESu
   4  7,6  | ESu
-  4  6,6  - EaDI
   4  6,3  - EaSE
   4  3,4  - EdDA
   4  6,6  - EeLS
@@ -10835,7 +10792,6 @@
   4  5,6  - zEED
   4  5,3  - zEES
   3  6,4  - AD
-  3  6,4  - ADc
   3  6,4  - ADd
   3  6,4  - ADo
   3  6,4  - ADp
@@ -11297,7 +11253,6 @@
   3  4,6  - lIES
   3  7,6  | lIS
   3  3,6  - lISE
-  3  7,6  | lL
   3  5,4  - mAD
   3  5,4  - mAL
   3  4,4  - mEAS
@@ -11453,7 +11408,6 @@
   3  5,6  | yES
   3  3,6  - yESE
   3  5,6  - yESE
-  3  5,6  | yIS
   3  5,6  - zED
   3  4,3  - zEE
   3  5,3  - zEE
@@ -11577,10 +11531,10 @@
   2  5,4  - SAp
   2  5,4  - SAt
   2  5,4  - SAu
-  2  5,4  - SAv
   2  5,4  - SAw
   2  5,4  - SAx
   2  5,4  - SAy
+  2  5,4  - SAz
   2  5,6  - SEa
   2  5,6  - SEc
   2  5,6  - SEd

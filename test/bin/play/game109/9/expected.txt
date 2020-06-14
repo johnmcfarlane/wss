@@ -164,6 +164,7 @@
  24 10,8  | HAeM
  24 10,8  | HArM
  24 10,8  | HAwM
+ 24  7,2  | HEAd
  24  9,10 - HEE
  24  7,2  | HEEd
  24  1,7  | HEIAu
@@ -177,7 +178,6 @@
  23  3,10 - BAHoE
  23  3,10 - BAcHE
  23  3,10 - BAtHE
- 23  5,10 - BHIl
  23  3,10 - BHIlI
  23  3,10 - BIHaI
  23  6,9  | BaA
@@ -187,7 +187,6 @@
  23  9,10 - BeE
  23  3,10 - BiHAI
  23  6,9  | BoA
- 23  9,10 - BoE
  23  6,9  | BrA
  23  1,8  | ElHI
  23  1,8  | EpHA
@@ -314,8 +313,11 @@
  22  1,6  | nAIB
  22  1,8  | oHIA
  22  4,10 - rEBIA
+ 22  7,1  | rHEA
  22  6,10 - sEAH
+ 22  7,1  | sHEA
  22  7,1  | sHEE
+ 22  7,1  | tHEA
  22  7,1  | tHEE
  22  4,10 - tIBIA
  22  7,1  | wHEE
@@ -330,7 +332,6 @@
  21  6,10 - BEAm
  21  6,10 - BEAn
  21  6,10 - BEAt
- 21  6,10 - BElA
  21  6,10 - BIEn
  21  6,10 | HA
  21 10,2  | HABEAs
@@ -454,7 +455,6 @@
  20  9,4  | aILIE
  20  5,10 - oBIA
  20 10,1  | rHIBIA
- 19  5,10 - ABEl
  19  4,10 - ABIE
  19  3,10 - ABIdE
  19  3,10 - ABIdI
@@ -472,8 +472,6 @@
  19  5,6  | AdIB
  19  3,10 - AkEBI
  19  3,10 - AlIBI
- 19  5,10 - BAEl
- 19  5,10 - BAIl
  19  3,10 - BAIlE
  19  3,10 - BAIzE
  19  3,10 - BAgIE
@@ -500,7 +498,6 @@
  19  6,10 - HEAp
  19  6,10 - HEAt
  19  6,10 - HIEd
- 19  6,10 - HIlA
  19  3,8  | HeII
  19  3,8  | HuIA
  19  3,10 - IAmBE
@@ -670,7 +667,6 @@
  17  4,10 - BAzE
  17  6,10 - BEa
  17  6,10 - BEe
- 17  6,10 - BEl
  17  4,10 - BEnI
  17  4,10 - BErI
  17  8,8  | BHiL
@@ -691,14 +687,12 @@
  17  6,10 - BeE
  17  4,10 - BlAE
  17  6,10 - BoA
- 17  6,10 - BoE
  17  4,10 - BoII
  17  4,10 - BrAE
  17  4,10 - BrEI
  17  4,10 - BrIE
  17  8,8  | BuHL
  17  5,6  | EAcH
- 17  1,8  | EAdI
  17  5,6  | EAtH
  17  1,8  | EBb
  17  5,6  | EIgH
@@ -707,7 +701,6 @@
  17  1,8  | EbB
  17  1,8  | EcB
  17  1,8  | ElB
- 17  7,10 - ElB
  17  1,8  | ElIA
  17  6,9  | EpA
  17  6,9  | ErA
@@ -719,14 +712,12 @@
  17  7,9  - HABIT
  17 10,5  | HABbE
  17 10,5  | HABlE
- 17  5,10 - HAIl
  17  3,10 - HAInE
  17  3,10 - HAIrE
  17  3,10 - HAItI
  17 10,5  | HAbBE
  17  4,10 - HEII
  17  3,10 - HEIdI
- 17  5,10 - HEIl
  17  3,10 - HIAtE
  17  9,5  | HLEr
  17  1,7  | HaE
@@ -752,6 +743,7 @@
  17  6,9  | IrA
  17  6,9  | ItA
  17  1,8  | ItAI
+ 17  7,1  | ItEA
  17  1,8  | ItEA
  17  6,9  | IvA
  17  1,8  | IxIA
@@ -833,6 +825,7 @@
  16  8,8  | BAIL
  16 10,5  | BAtHE
  16  8,8  | BEAL
+ 16  7,3  | EAm
  16  5,6  | EgBA
  16  5,6  | EzBA
  16  7,9  - HABeT
@@ -865,16 +858,21 @@
  16  5,5  | lAB
  16  5,5  | lEAH
  16  5,5  | lEHI
+ 16  7,2  | mEA
+ 16  7,2  | nEA
  16  7,2  | nEE
  16  1,8  | oBA
  16  1,8  | oBE
  16  1,8  | oBI
+ 16  7,2  | pEA
  16  7,2  | pEE
  16  5,5  | rAB
  16  5,5  | rEB
  16  5,5  | sAB
+ 16  7,2  | sEA
  16  5,5  | sEAH
  16  7,2  | sEE
+ 16  7,2  | tEA
  16  7,2  | tEE
  16  1,8  | uBI
  15  5,6  | ABEd
@@ -919,12 +917,10 @@
  15  8,8  | BeAL
  15  5,10 - BeE
  15  8,8  | BhIL
- 15  5,10 - BoE
  15  8,8  | BoIL
  15  5,10 - BpI
  15  8,8  | BuAL
  15  5,10 - ByE
- 15  6,10 - EIlA
  15  9,5  | ELB
  15  5,6  | ElHI
  15  4,10 - ElHI
@@ -950,7 +946,6 @@
  15  3,6  | HEIdI
  15  6,10 - HEe
  15  4,10 - HEiI
- 15  6,10 - HEl
  15  6,9  - HEnBIT
  15  5,10 - HIE
  15  6,10 - HIa
@@ -1238,7 +1233,6 @@
  13  5,6  | AHt
  13  5,6  | AHu
  13  1,7  | AIEl
- 13  5,10 - AIEl
  13  5,6  | AIdE
  13  1,7  | AIdE
  13  5,6  | AIlE
@@ -1267,8 +1261,6 @@
  13 10,3  | BElAH
  13  7,9  - BIgHT
  13 10,3  | BImAH
- 13  5,6  | EAdI
- 13  1,7  | EAdI
  13  5,6  | EH
  13  5,6  | EIlA
  13  1,7  | EIlA
@@ -1399,7 +1391,6 @@
  12  7,9  | BnF
  12  6,10 - Bo
  12  1,6  | BoA
- 12  1,6  | BoE
  12  7,9  | BsF
  12  6,5  - EBOE
  12  3,7  | EH
@@ -1537,7 +1528,6 @@
  11  4,10 - AIdE
  11  5,6  | AIk
  11  5,6  | AIl
- 11  6,10 - AIl
  11  4,10 - AIlE
  11  5,6  | AIm
  11  5,6  | AIn
@@ -1553,7 +1543,6 @@
  11  5,6  | AgE
  11 10,4  | AhAB
  11  5,6  | AhI
- 11  5,6  | AkE
  11 10,6  | AlB
  11  5,6  | AlE
  11  4,10 - AlII
@@ -1596,7 +1585,6 @@
  11 10,3  | BaHAI
  11 10,3  | BiHAI
  11  7,7  | BrIEF
- 11  4,10 - EAdI
  11  5,6  | EAm
  11  7,10 - EAm
  11  5,6  | EAr
@@ -1643,7 +1631,6 @@
  11  1,8  - IStH
  11  3,8  | IdEA
  11  6,10 - IfE
- 11  7,10 - IlA
  11  3,8  | IlEA
  11  3,8  | IlIA
  11  3,8  | InIA
@@ -1938,7 +1925,6 @@
   9  5,10 - AcE
   9  5,10 - AgE
   9  5,10 - AhI
-  9  5,10 - AkE
   9  6,9  - AlBEIT
   9  5,10 - AlE
   9 10,4  | AmAH
@@ -2218,7 +2204,6 @@
   8  9,7  - AgO
   8  1,8  | AhI
   8  9,7  - AhO
-  8  1,8  | AkE
   8 10,6  | AlAE
   8 10,6  | AlAI
   8  8,8  - AlBA
@@ -2293,7 +2278,6 @@
   8  6,5  - EbOE
   8  7,10 - Ee
   8  8,8  - EgBA
-  8  7,10 - El
   8  1,8  | EpA
   8  1,8  | EpI
   8  1,8  | ErA
@@ -3028,7 +3012,6 @@
   6  9,6  | LlB
   6  9,6  | LoB
   6  9,6  | LuB
-  6  8,5  - OlA
   6  2,7  - RAH
   6  2,7  - RAcH
   6  2,7  - RAkH
@@ -3086,7 +3069,6 @@
   6  9,5  | iLIA
   6  1,6  | jAI
   6  9,8  | kAHA
-  6  9,7  - lAO
   6 10,3  | mABA
   6  8,8  - mABA
   6  1,6  | mAE
@@ -3452,7 +3434,6 @@
   5  8,8  - kAHA
   5  7,9  | kEF
   5  7,9  | kIF
-  5  8,10 - lA
   5  7,9  | lIF
   5 10,3  | mAHA
   5  8,8  - mAHA
@@ -4065,7 +4046,6 @@
   3  9,9  - EsT
   3  9,9  | EtA
   3  8,9  - ExIT
-  3  9,9  - ExT
   3  8,9  | EyL
   3  1,6  - He
   3  1,6  - Hed
@@ -4449,7 +4429,6 @@
   2  4,5  - IvE
   2  9,6  | La
   2  9,6  | Li
-  2  9,6  | Ll
   2  9,6  | Lo
   2  9,6  | Lu
   2  2,7  - ReA
@@ -4483,10 +4462,10 @@
   2  2,8  - SAp
   2  2,8  - SAt
   2  2,8  - SAu
-  2  2,8  - SAv
   2  2,8  - SAw
   2  2,8  - SAx
   2  2,8  - SAy
+  2  2,8  - SAz
   2  2,8  - SEa
   2  2,8  - SEc
   2  2,8  - SEd
@@ -4584,7 +4563,6 @@
   2  9,9  | lEA
   2  9,9  - lET
   2  9,9  - lIT
-  2  8,10 | lL
   2 10,7  - lO
   2  9,9  - mAT
   2 10,4  | mEA

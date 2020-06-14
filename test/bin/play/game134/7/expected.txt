@@ -47,6 +47,7 @@
  21  8,1  - LiDE
  21  8,1  - LiDS
  21  8,1  - LoDE
+ 21  8,1  - LuDS
  21  9,5  - QI
  21  9,5  - QIs
  21  8,7  - QuE
@@ -176,7 +177,6 @@
  15  6,1  - ESSeD
  15 11,6  | ESSeS
  15 11,6  | EeLS
- 15  7,1  - EiLD
  15 11,6  | ElLS
  15  8,1  - LED
  15  8,1  - LEDa
@@ -291,19 +291,14 @@
  14  9,5  | LEeS
  14  8,7  - LEeS
  14 11,2  | LEeSE
- 14  7,5  - LEgIS
  14  9,5  | LEgS
  14  9,5  | LEiS
  14  9,5  | LEkS
- 14  7,5  - LEnIS
  14  9,5  | LEnS
  14 11,2  | LEnSE
  14  9,5  | LEoS
  14  9,5  | LEsS
  14  9,5  | LEtS
- 14  7,5  - LEvIS
- 14  7,5  - LEwIS
- 14  7,5  - LExIS
  14  9,5  | LEyS
  14  9,5  | LaSE
  14  9,5  | LaSS
@@ -348,9 +343,7 @@
  14 11,6  | aLES
  14  7,7  - aSSE
  14 11,6  | aSSES
- 14  7,5  - bELIS
  14 11,2  | bESSEL
- 14  7,5  - dELIS
  14 11,6  | eELS
  14 11,6  | eLSE
  14  8,7  - eSES
@@ -359,7 +352,6 @@
  14 11,6  | eSSES
  14 11,6  | iSLE
  14 11,6  | iSLS
- 14  7,5  - mELIS
  14 11,6  | oLES
  14  8,7  - oSES
  14  7,7  - oSSE
@@ -386,7 +378,6 @@
  13  9,5  | LEe
  13  8,7  - LEe
  13  9,5  | LEg
- 13  7,5  - LEhI
  13  9,5  | LEi
  13  9,5  | LEk
  13  9,5  | LEp
@@ -394,7 +385,6 @@
  13  9,5  | LEt
  13  9,5  | LEu
  13  9,5  | LEv
- 13  7,5  - LEvI
  13  9,5  | LEx
  13  9,5  | LEy
  13  9,5  | LaS
@@ -416,7 +406,6 @@
  13  9,5  | SELl
  13  9,5  | SELs
  13  9,5  | SELt
- 13  7,5  - SESIa
  13  9,7  - SEa
  13  9,5  | SEaLS
  13  9,7  - SEc
@@ -454,7 +443,6 @@
  13  9,7  - bEL
  13 11,2  | bESSES
  13  9,7  - dEL
- 13  7,5  - dELI
  13  9,7  - eEL
  13  8,7  - eSE
  13 11,6  | eSQ
@@ -471,7 +459,6 @@
  13  9,7  - rEL
  13  9,7  - sEL
  13  9,7  - tEL
- 13  7,5  - tELI
  13  8,7  - uSE
  13  9,7  - vEL
  13 11,2  | yESSES
@@ -481,8 +468,6 @@
  12  8,3  | BOwLESS
  12 11,2  | EELS
  12  7,5  - EL
- 12  8,5  - ELIa
- 12  8,5  - ELIx
  12 11,3  | ELSeS
  12 11,3  | ELsES
  12 10,7  - ES
@@ -517,7 +502,6 @@
  12  7,1  - SEiD
  12 11,2  | SEiSE
  12  7,1  - SElD
- 12  7,5  - SEmIS
  12  7,1  - SEnD
  12 11,2  | SEnSE
  12  7,1  - SEpD
@@ -569,7 +553,6 @@
  12  8,1  - hLD
  12  7,1  - iSED
  12  9,7  - kES
- 12  1,4  - mEO
  12  9,7  - mES
  12 11,2  | mESSE
  12  9,7  - oES
@@ -625,8 +608,6 @@
  11  9,5  | SEaL
  11  9,5  | SEeL
  11  9,5  | SElL
- 11  7,5  - SEmI
- 11  7,5  - SErI
  11  9,5  | SaL
  11  9,5  | SeEL
  11  9,5  | SeL
@@ -640,7 +621,6 @@
  11  7,5  - aSSI
  11  9,7  - bE
  11  9,7  - dE
- 11  7,5  - dESI
  11  9,7  - eE
  11 10,7  - eL
  11 11,6  | eSES
@@ -688,13 +668,10 @@
  10 11,3  | EaSES
  10 11,3  | ElSES
  10 11,1  | EmE
- 10  8,5  - EmIL
- 10  8,5  - EpIL
  10 11,1  | ErE
  10 11,3  | ErSES
  10 11,1  | EsE
  10 11,3  | EsSES
- 10  8,5  - EvIL
  10 11,1  | EwE
  10 11,1  | EyE
  10 11,2  | LEEd
@@ -715,7 +692,6 @@
  10  7,5  - La
  10  8,5  - LaI
  10  8,5  - LeI
- 10  7,5  - Ll
  10  7,5  - Lo
  10  8,5  - LuI
  10 11,2  | SEES
@@ -771,7 +747,6 @@
  10  9,5  | gELS
  10  8,5  - hEIL
  10  6,7  - iSE
- 10  7,5  - lL
  10 11,2  | mELS
  10  9,5  | mELS
  10  8,5  - nEIL
@@ -806,12 +781,10 @@
   9 11,3  | ESnE
   9 11,3  | ESsE
   9 11,3  | EaSE
-  9  8,5  - EgIS
   9  8,1  - ElD
   9 11,3  | ElSE
   9  8,1  - EnD
   9 11,3  | EnSE
-  9  8,5  - ErIS
   9 11,3  | ErSE
   9 11,3  | EsSE
   9 11,2  | LEE
@@ -941,16 +914,13 @@
   8  9,6  | ESSeS
   8  9,6  | ESeS
   8  7,5  - Ed
-  8  7,5  - Ee
   8  9,6  | EeLS
   8  7,5  - Eh
   8  7,5  - El
   8  9,6  | ElLS
-  8  7,5  - Em
   8  8,1  | EmBOSS
   8  7,5  - En
   8  7,5  - Eo
-  8  8,5  - EpI
   8  7,5  - Er
   8  7,5  - Es
   8  7,5  - Et
@@ -1010,23 +980,19 @@
   8  6,6  | Xi
   8  6,6  | Xu
   8  6,6  | Xx
-  8  7,5  - aE
   8 11,1  | aLE
   8  7,5  - aS
   8  9,6  | aSSES
-  8  7,5  - bE
   8  8,1  | bEBOSS
   8 11,2  | bEES
   8 11,2  | bESS
   8  9,5  | bESS
-  8  7,5  - dE
   8  8,1  | dEBOSS
   8 11,2  | dEES
   8  8,5  - dEI
   8 11,5  | dELS
   8 11,2  | dESS
   8  9,5  | dESS
-  8  7,5  - eE
   8  9,6  | eELS
   8  7,5  - eS
   8  9,6  | eSSES
@@ -1035,7 +1001,6 @@
   8 11,2  | gEES
   8 11,2  | gESS
   8  9,5  | gESS
-  8  7,5  - hE
   8  8,5  - hEI
   8  8,5  - hSI
   8 11,1  | iLE
@@ -1046,10 +1011,8 @@
   8  8,5  - lEI
   8 11,2  | lESS
   8  9,5  | lESS
-  8  7,5  - mE
   8 11,2  | mESS
   8  9,5  | mESS
-  8  7,5  - nE
   8  8,5  - nEI
   8 11,2  | nESS
   8  8,2  | oBOLE
@@ -1057,7 +1020,6 @@
   8 11,1  | oLE
   8  9,5  | pESS
   8  8,5  - pSI
-  8  7,5  - rE
   8 11,2  | rEES
   8 11,2  | sEES
   8  8,5  - sEI
@@ -1065,14 +1027,11 @@
   8 11,2  | sESS
   8  9,5  | sESS
   8  8,5  - sSI
-  8  7,5  - tE
   8 11,2  | tEES
   8 11,2  | tESS
   8  9,5  | tESS
-  8  7,5  - wE
   8 11,2  | wEES
   8  8,5  - wEI
-  8  7,5  - yE
   8 11,2  | yEES
   7  8,3  | BOErS
   7  8,3  | BOL
@@ -1209,7 +1168,6 @@
   7  9,5  | xES
   7  9,5  | yES
   6 10,4  - AL
-  6  8,3  | BOE
   6  8,3  | BOEr
   6  8,3  | BOS
   6  8,3  | BOSc
@@ -1323,11 +1281,9 @@
   5  8,3  | BOb
   5  8,3  | BOc
   5  8,3  | BOd
-  5  8,3  | BOe
   5  8,3  | BOg
   5  8,3  | BOh
   5  8,3  | BOl
-  5  8,3  | BOm
   5  8,3  | BOn
   5  8,3  | BOo
   5  8,3  | BOp
@@ -1398,6 +1354,7 @@
   5  8,6  - LiDE
   5  8,6  - LiDS
   5  8,6  - LoDE
+  5  8,6  - LuDS
   5  1,3  | ME
   5  1,3  | MEa
   5  1,3  | MEd
@@ -1406,7 +1363,6 @@
   5  1,3  | MEl
   5  1,3  | MEm
   5  1,3  | MEn
-  5  1,3  | MEo
   5  1,3  | MEr
   5  1,3  | MEs
   5  1,3  | MEt
@@ -1821,7 +1777,6 @@
   2  9,2  - yA
   2  9,2  | yA
   2 11,2  | yE
-  2  9,5  - yIS
   2  9,2  - zA
   2  9,2  | zA
   1  7,4  | Aa

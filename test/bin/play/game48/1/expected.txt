@@ -444,6 +444,7 @@
  25  7,5  | iSBAS
  25  7,2  | lOBES
  25  7,2  | mEBOS
+ 25  7,2  | mOBES
  25  7,6  | rEBOSA
  25  7,2  | rOBES
  25  7,2  | sABES
@@ -729,7 +730,6 @@
  22  7,2  | OAvES
  22  7,5  | OSAgE
  22  7,3  | OSES
- 22  7,5  | OSElA
  22  7,4  | OSSEA
  22  7,5  | OSSeA
  22  7,5  | OSSiA
@@ -1581,10 +1581,10 @@
  19  7,4  | SAsS
  19  7,6  | SAt
  19  7,6  | SAu
- 19  7,6  | SAv
  19  7,6  | SAw
  19  7,6  | SAx
  19  7,6  | SAy
+ 19  7,6  | SAz
  19  7,6  | SEa
  19  7,6  | SEc
  19  7,6  | SEd
@@ -1776,7 +1776,6 @@
  18  6,5  | BESSErA
  18  6,5  | BEcASSE
  18  4,4  | BOISE
- 18  4,4  | BOIdAE
  18  4,4  | BOItES
  18  6,1  | BOlASES
  18  1,7  - BaS
@@ -1955,7 +1954,6 @@
  16  6,2  | BOShES
  16  6,2  | BOSsES
  16  1,7  - BOh
- 16  1,7  - BOm
  16  1,7  - BOn
  16  1,7  - BOp
  16  1,7  - BOs
@@ -2091,7 +2089,6 @@
  15  5,3  | BEACOn
  15  4,4  | BEISa
  15  5,3  | BESCAb
- 15  2,3  | BEnJ
  15  4,4  | BOIS
  15  4,4  | BOISe
  15  4,4  | BOISt
@@ -2667,7 +2664,6 @@
  12  5,6  | COBAEa
  12  5,6  | CaSABE
  12  5,6  | CoBOSS
- 12  2,5  | EJAm
  12  5,4  | ESCoBA
  12  2,7  - Eh
  12  2,7  - Em
@@ -2892,7 +2888,6 @@
  11  6,5  - BOAr
  11  6,5  - BOAs
  11  6,5  - BOAt
- 11  6,5  - BOE
  11  6,5  - BOEr
  11  6,5  - BOS
  11  4,2  | BOSSIEr
@@ -3183,11 +3178,9 @@
  10  6,5  - BOb
  10  6,5  - BOc
  10  6,5  - BOd
- 10  6,5  - BOe
  10  6,5  - BOg
  10  6,5  - BOh
  10  6,5  - BOl
- 10  6,5  - BOm
  10  6,5  - BOn
  10  4,1  | BOnSAI
  10  6,5  - BOo
@@ -3225,7 +3218,6 @@
  10  6,5  - BlO
  10  6,5  - BlS
  10  6,5  - BoA
- 10  6,5  - BoE
  10  6,5  - BoO
  10  6,5  - BoS
  10  6,5  - BpS
@@ -3754,6 +3746,8 @@
   9  3,5  | luBE
   9  6,5  - mEBOS
   9  6,7  - mEBOS
+  9  6,5  - mOBES
+  9  6,7  - mOBES
   9  4,3  | nABIS
   9  3,3  | nABu
   9  4,3  | nOBIS
@@ -4311,8 +4305,6 @@
   8  6,7  - tOBE
   8  3,5  | tuB
   8  3,6  | uAyEB
-  8  5,4  | uBC
-  8  3,6  | uBc
   8  3,6  | uBi
   8  4,5  | vIBE
   8  4,3  | wABI
@@ -4720,7 +4712,6 @@
   7  5,4  | SECS
   7  5,4  | SECcO
   7  5,4  | SECtS
-  7  5,4  | SECuS
   7  4,3  | SESIA
   7  4,2  | SEStIA
   7  6,7  - SEgOS
@@ -4818,6 +4809,7 @@
   7  6,5  | mEBOS
   7  4,4  | mEISSA
   7  4,5  | mIOSES
+  7  6,3  | mOBES
   7  4,2  | mOSSIE
   7  3,4  | mOuSES
   7  3,4  | mOuSSE
@@ -5018,7 +5010,6 @@
   6  4,5  | BISh
   6  4,5  | BISk
   6  4,5  | BISt
-  6  6,4  | BOE
   6  6,4  | BOEr
   6  6,3  | BOcE
   6  6,3  | BOdE
@@ -5171,8 +5162,6 @@
   6  6,5  - OSAgE
   6  6,7  - OSAgE
   6  5,4  | OSC
-  6  6,5  - OSElA
-  6  6,7  - OSElA
   6  4,4  | OSIEr
   6  4,3  | OSSIa
   6  6,5  - OSSeA
@@ -5727,7 +5716,6 @@
   5  4,4  | AbIE
   5  5,4  | AcC
   5  4,4  | AcIS
-  5  5,4  | AdC
   5  4,4  | AgIO
   5  4,4  | AmIE
   5  4,4  | AmIS
@@ -5765,7 +5753,6 @@
   5  4,5  | BIz
   5  6,4  | BaE
   5  6,4  | BeE
-  5  6,4  | BoE
   5  6,4  | ByE
   5  5,6  | CAb
   5  5,6  | CAd
@@ -5833,7 +5820,6 @@
   5  6,7  - EASt
   5  6,5  - EASy
   5  6,7  - EASy
-  5  4,3  | EAdI
   5  6,6  | EBb
   5  5,5  | ECb
   5  5,5  | ECo
@@ -5883,7 +5869,6 @@
   5  6,7  - OASt
   5  5,5  | OCa
   5  5,5  | OCh
-  5  5,5  | OCk
   5  5,5  | OCt
   5  6,5  - OES
   5  6,7  - OES
@@ -5961,7 +5946,6 @@
   5  6,7  - SEOr
   5  3,3  | SEOul
   5  6,7  - SESs
-  5  3,3  | SEcuS
   5  3,2  | SEgOu
   5  4,3  | SEmI
   5  4,2  | SEmOIS
@@ -6368,7 +6352,6 @@
   4  6,5  - AhO
   4  6,5  - AhS
   4  6,5  - AiS
-  4  6,5  - AkE
   4  6,3  | AkEES
   4  6,4  | AkEES
   4  6,5  - AkO
@@ -6535,7 +6518,6 @@
   4  6,5  - OS
   4  6,7  - OS
   4  6,4  | OSES
-  4  6,4  | OSElA
   4  6,3  | OSSE
   4  6,3  | OSSEa
   4  6,3  | OSSEt
@@ -6645,13 +6627,13 @@
   4  3,4  | SAulS
   4  3,4  | SAutE
   4  3,4  | SAuvE
-  4  6,7  - SAv
   4  6,3  | SAvES
   4  6,7  - SAw
   4  6,7  - SAx
   4  6,3  | SAxES
   4  6,7  - SAy
   4  6,3  | SAyEE
+  4  6,7  - SAz
   4  6,5  | SEAS
   4  6,5  | SEAlS
   4  6,5  | SEAmS
@@ -6793,7 +6775,6 @@
   4  3,5  | SuEs
   4  3,5  | SuEt
   4  3,5  | SuEy
-  4  3,5  | SuEz
   4  4,4  | SuI
   4  3,5  | SuS
   4  6,7  - SuS
@@ -7288,7 +7269,6 @@
   3  6,5  | bESS
   3  3,5  - bO
   3  6,5  - bOA
-  3  6,5  - bOE
   3  4,4  | bOIS
   3  6,5  - bOS
   3  6,3  | bOSE
@@ -7353,7 +7333,6 @@
   3  6,5  | gESS
   3  6,4  | gOES
   3  4,4  | gOIS
-  3  3,5  | guAO
   3  3,5  | guSS
   3  6,5  - hAE
   3  6,7  - hAE
@@ -7418,8 +7397,6 @@
   3  6,7  - mEA
   3  6,5  | mEAS
   3  4,4  | mEIO
-  3  6,5  - mEO
-  3  6,7  - mEO
   3  6,5  - mES
   3  6,7  - mES
   3  6,5  | mESA
@@ -7622,7 +7599,6 @@
   2  4,5  | AIt
   2  6,4  | AcE
   2  6,4  | AgE
-  2  6,4  | AkE
   2  6,4  | AlE
   2  6,4  | AnE
   2  6,4  | ApE
@@ -7791,7 +7767,6 @@
   2  4,5  | bIO
   2  4,5  | bIS
   2  6,5  - bO
-  2  6,4  | bOE
   2  3,5  | buS
   2  4,4  | cAI
   2  6,4  | cEE
@@ -7911,7 +7886,6 @@
   2  6,5  - mE
   2  6,7  - mE
   2  6,5  | mEA
-  2  6,5  | mEO
   2  6,5  | mES
   2  3,4  | mEu
   2  4,5  | mIA
@@ -8048,7 +8022,6 @@
   2  6,4  | yEE
   2  6,5  | yEE
   2  6,5  | yES
-  2  4,5  | yIS
   2  6,5  - yO
   2  3,4  | yOu
   2  3,5  | yuS

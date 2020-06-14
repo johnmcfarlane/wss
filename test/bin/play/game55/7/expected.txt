@@ -11,6 +11,7 @@
  38  9,7  | LUDO
  37  9,7  | LUD
  37  9,7  | LUDo
+ 37  9,7  | LUDs
  37  9,7  | NUDa
  37  9,7  | NUDd
  37  9,7  | NUDe
@@ -97,7 +98,6 @@
  29  9,7  | sUD
  29  9,7  | wUD
  28  9,3  | NODULi
- 28  9,8  | UDi
  28  9,8  | UDo
  28  9,8  | UDs
  28  5,11 - ULNaD
@@ -178,6 +178,7 @@
  24  8,10 - LOON
  24  8,10 - LUD
  24  8,10 - LUDo
+ 24  8,10 - LUDs
  24  8,10 - LUNa
  24  8,10 - LUNe
  24  8,10 - LUNg
@@ -477,7 +478,6 @@
  19  7,7  | NoVO
  19  7,2  | ODOUr
  19  7,4  | OUrN
- 19  9,6  | UDi
  19  9,3  | ULNaD
  19  9,6  | ULu
  19  9,2  | UNLOaD
@@ -901,7 +901,6 @@
  14  6,2  | LaNDE
  14  6,2  | LaUDE
  14  8,10 - Li
- 14  8,10 - Ll
  14  8,10 - Lo
  14  8,10 - Lu
  14  9,5  | NOD
@@ -1306,7 +1305,6 @@
  12  6,2  | jOULE
  12  2,2  | kNOUT
  12  6,2  | kONDE
- 12  8,10 - lL
  12  9,4  | lOOD
  12  9,4  | lOON
  12  8,10 - lU
@@ -1773,6 +1771,7 @@
   9  2,4  - LOGiON
   9  5,2  | LOO
   9  2,4  | LOTh
+  9  9,4  | LUDs
   9  1,4  - LUNG
   9  1,4  - LUNGe
   9  1,4  - LUNGi
@@ -1821,7 +1820,6 @@
   9  5,11 - UDOm
   9  5,11 - UDOn
   9  5,11 - UDOs
-  9  5,2  | UDi
   9  5,2  | UDo
   9  9,4  | ULNa
   9  3,2  | ULa
@@ -1884,7 +1882,6 @@
   9  9,6  | iN
   9  2,4  - iNGLU
   9  7,7  - lAUND
-  9  9,6  | lL
   9  6,7  - lLANO
   9  5,2  | lUO
   9  7,7  - mANUL
@@ -2062,12 +2059,10 @@
   8  6,7  - OrAL
   8  6,7  - OrAON
   8  6,7  - OvAL
-  8  6,7  - OxAN
   8  6,7  - OzAN
   8  9,4  | UDOm
   8  9,4  | UDOn
   8  9,4  | UDOs
-  8  5,11 - UDi
   8  5,11 - UDo
   8  5,11 - UDs
   8  5,11 - ULa
@@ -2538,7 +2533,6 @@
   7  6,4  | OrENDA
   7  6,5  - OrLO
   7  7,7  - UANg
-  7  9,5  | UDi
   7  9,5  | UDs
   7  3,4  - UGLi
   7  3,4  - UGLy
@@ -2894,7 +2888,6 @@
   6  4,4  - GOwD
   6  4,4  - GOwL
   6  4,4  - GOwN
-  6  4,4  - GUaO
   6  4,4  - GUlO
   6  4,4  - GaOL
   6  4,4  - GaON
@@ -3037,7 +3030,6 @@
   6  6,5  - OLOf
   6  6,5  - OLOr
   6  6,3  | OLdEN
-  6  1,4  - OLeG
   6  6,7  - ONA
   6  6,7  - ONAn
   6  6,5  - ONO
@@ -3174,7 +3166,6 @@
   6  6,3  | yODEL
   6  6,3  | zONED
   5  8,7  - AD
-  5  8,7  - ADc
   5  8,7  - ADd
   5  8,7  - ADo
   5  8,7  - ADp
@@ -3540,7 +3531,6 @@
   5  7,7  - cAL
   5  7,7  - cAN
   5  7,7  - cAON
-  5  2,4  - cDG
   5  6,4  | cLED
   5  5,11 - cLO
   5  6,3  | cLUE
@@ -3882,7 +3872,6 @@
   4  6,4  | ODEs
   4  6,4  | OLE
   4  6,4  | OLEa
-  4  6,4  | OLEg
   4  6,4  | OLEo
   4  6,4  | OLEs
   4  6,3  | OLpE
@@ -4226,7 +4215,6 @@
   3  9,6  | Li
   3  6,4  | LiE
   3  2,4  | LiT
-  3  9,6  | Ll
   3  6,4  | LoE
   3  2,4  | LoT
   3  2,4  | LsT
@@ -4496,7 +4484,6 @@
   2  9,6  | Ox
   2  9,6  | Oy
   2  6,5  - bO
-  2  6,4  | bOE
   2  2,4  | bOT
   2  6,4  | cOE
   2  2,4  | cOT
@@ -4516,7 +4503,6 @@
   2  2,4  | jOT
   2  6,4  | lOE
   2  2,4  | lOT
-  2  6,5  | mEO
   2  6,5  - mO
   2  2,4  | mOT
   2  6,5  | nEO
