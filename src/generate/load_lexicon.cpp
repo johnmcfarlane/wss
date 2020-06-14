@@ -29,6 +29,8 @@ auto load_lexicon(std::vector<std::string> const& filenames)
     auto num_root_nodes = int(filenames.size());
     auto lexicon = multi_trie{num_root_nodes};
 
+    fmt::print("loading...\n");
+
     for (auto i = 0; i!=num_root_nodes; ++i) {
         auto const& filename = filenames[i];
 
@@ -81,6 +83,7 @@ auto load_lexicon(std::vector<std::string> const& filenames)
         }
     }
 
+    fmt::print("compressing...\n");
     lexicon.compress();
 
     return lexicon;

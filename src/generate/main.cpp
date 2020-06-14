@@ -152,6 +152,8 @@ void dump_lexicon(
         std::vector<std::string> const& names,
         std::string_view source_filename)
 {
+    fmt::print("saving...\n");
+
     auto const source_cpp_filename{fmt::format("{}.cpp", source_filename)};
     auto const source_h_filename{fmt::format("{}.h", source_filename)};
 
