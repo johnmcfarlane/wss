@@ -690,6 +690,7 @@
  26  1,3  - ANOSIa
  26  1,3  - ANSEIs
  26  1,3  - ASONIa
+ 26  1,2  - EINA
  26  1,3  - ENOSIs
  26  1,2  - IONE
  26  1,3  - NASIOn
@@ -968,6 +969,7 @@
  24  1,2  - dONA
  24  1,2  - dONE
  24  1,2  - dONI
+ 24  1,2  - eINA
  24  6,10 - eNOLS
  24  1,2  - fANE
  24  1,2  - fANO
@@ -1071,6 +1073,7 @@
  24  1,2  - zONE
  23  1,2  - AINe
  23  8,2  | COINMAtE
+ 23  1,2  - EINa
  23  1,2  - IONe
  23  1,2  - IONi
  23  8,6  | MANa
@@ -1104,6 +1107,7 @@
  22  1,2  - AiNE
  22  1,2  - AuNE
  22  1,2  - AyNE
+ 22  1,2  - EiNA
  22  9,1  - ElF
  22  9,1  - EmF
  22  8,5  | IMAN
@@ -1500,6 +1504,7 @@
  20  1,2  - EAdI
  20  6,10 - EArLS
  20  1,2  - EIlA
+ 20  1,2  - EInA
  20  6,10 - EnOLS
  20  6,10 - EvILS
  20  1,2  - IAgO
@@ -2156,6 +2161,7 @@
  17  4,5  - AvINE
  17  4,5  - AxONE
  17  4,5  - AzINE
+ 17  5,5  - EINA
  17  5,7  - EOSIN
  17  4,7  - EdISON
  17  1,2  - EeN
@@ -2747,6 +2753,7 @@
  16  5,5  - dONA
  16  5,5  - dONE
  16  1,2  - dOS
+ 16  5,5  - eINA
  16  5,7  - eOSIN
  16  2,3  - eOSINE
  16  1,2  - fAE
@@ -3069,6 +3076,7 @@
  15  1,2  - EAm
  15  1,2  - EAr
  15  1,2  - EAt
+ 15  5,5  - EINa
  15  1,2  - EIr
  15  8,9  - ELIA
  15  8,9  - ELNe
@@ -3083,6 +3091,7 @@
  15  9,1  | ERIS
  15  9,1  | EROS
  15  3,3  - EbONS
+ 15  5,5  - EiNA
  15  2,3  - ElAINS
  15  3,3  - ElANS
  15  2,3  - ElOINS
@@ -4590,6 +4599,7 @@
  13  3,7  - EIkON
  13  4,8  - EIkONES
  13  5,5  - EIlA
+ 13  5,5  - EInA
  13  6,3  - EN
  13  2,7  - ENOSIs
  13  3,8  - ENOlASE
@@ -6539,6 +6549,7 @@
  11  4,1  | DwINES
  11  2,3  - EArNS
  11  8,1  | ECoN
+ 11  3,3  - EINA
  11  3,7  - EIdOS
  11  2,3  - EIkON
  11  3,5  - ENOIl
@@ -7926,6 +7937,7 @@
  10  6,11 - EdISON
  10  3,3  - EdNA
  10  1,2  - Ee
+ 10  3,3  - EiNA
  10  2,3  - ElAIN
  10  3,3  - ElAN
  10  2,3  - ElANS
@@ -9470,6 +9482,9 @@
   9  4,1  | DuAN
   9  3,3  - EArN
   9  8,9  | EAu
+  9  3,5  - EINA
+  9  3,7  - EINA
+  9  3,3  - EINa
   9  2,3  - EIdOS
   9  5,8  - EIgNE
   9  8,5  | EMO
@@ -10660,6 +10675,7 @@
   9  2,7  - dONIA
   9  3,3  - dONS
   9  7,4  | dOUANES
+  9  3,3  - eINA
   9  8,7  - eNS
   9  3,3  - eOAN
   9  3,3  - eONS
@@ -11917,6 +11933,8 @@
   8  6,10 - EgOL
   8  3,3  - EgOS
   8  7,10 - EiLA
+  8  3,5  - EiNA
+  8  3,7  - EiNA
   8  6,4  - ElAINS
   8  3,3  - ElIA
   8  2,3  - ElIAS
@@ -14015,10 +14033,15 @@
   7  3,3  - EAtS
   7  6,5  | EDONI
   7 10,1  - EF
+  7  3,5  - EINa
+  7  3,7  - EINa
   7  5,9  - EIdOLA
   7  3,3  - EIlA
   7  3,5  - EIlA
   7  3,7  - EIlA
+  7  3,3  - EInA
+  7  3,5  - EInA
+  7  3,7  - EInA
   7  8,5  | EMe
   7  8,5  | EMo
   7  8,5  | EMu
@@ -15088,6 +15111,8 @@
   7  3,3  - eASE
   7  6,4  - eASIES
   7  6,3  - eE
+  7  3,5  - eINA
+  7  3,7  - eINA
   7  5,9  - eNOIL
   7  6,9  - eNOL
   7  3,5  - eNSE
@@ -24028,7 +24053,6 @@
   2  8,11 - ISm
   2  8,11 - ISn
   2  8,11 - ISt
-  2  8,11 - ISz
   2  7,8  - IcE
   2  7,8  - IdE
   2  9,4  - IdS

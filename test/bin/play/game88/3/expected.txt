@@ -521,6 +521,7 @@
  17  2,8  - EASIEs
  17  3,3  - EAdISH
  17  1,3  - EIlA
+ 17  1,3  - EInA
  17  1,3  - EScA
  17  3,8  - EStH
  17  3,1  | EdEA
@@ -1576,6 +1577,7 @@
  14  3,3  - EAvES
  14 10,2  | EIgH
  14  3,1  | EIlA
+ 14  3,1  | EInA
  14  3,8  - ES
  14  3,8  - ESc
  14  3,1  | EScA
@@ -1745,7 +1747,6 @@
  14  3,8  - ISn
  14  3,8  - ISt
  14 10,2  | IStH
- 14  3,8  - ISz
  14  5,2  | IcASM
  14  2,8  - IdS
  14  2,8  - IfS
@@ -2167,7 +2168,6 @@
  13 10,7  | ISm
  13 10,7  | ISn
  13 10,7  | ISt
- 13 10,7  | ISz
  13 10,7  | IbA
  13 10,7  | IcE
  13 10,7  | IdE
@@ -4381,6 +4381,7 @@
   8  5,1  | EIdE
   8 10,2  | EIdE
   8  5,1  | EIlA
+  8  5,1  | EInA
   8  5,1  | EIrE
   8 10,2  | EIrE
   8  5,5  | EMe
@@ -5257,6 +5258,7 @@
   7  3,7  | EElS
   7  3,7  | EIdE
   7  3,7  | EIlA
+  7  3,7  | EInA
   7  3,7  | EIrE
   7  7,1  | EItHER
   7  5,5  | EM
@@ -8408,6 +8410,8 @@
   3  1,7  - EIdE
   3  1,5  - EIlA
   3  6,5  | EIlA
+  3  1,5  - EInA
+  3  6,5  | EInA
   3 10,3  | EIr
   3  6,5  | EIrE
   3  1,7  - EIrE
@@ -9102,7 +9106,6 @@
   2  7,4  | AeR
   2  2,5  - AgA
   2  2,7  - AgE
-  2  7,4  | AgR
   2 10,4  | Ah
   2  2,5  - AhA
   2  6,4  | AhI
@@ -9227,7 +9230,6 @@
   2  6,6  | ISm
   2  6,6  | ISn
   2  6,6  | ISt
-  2  6,6  | ISz
   2  2,5  - IbA
   2  6,6  | IbA
   2  6,6  | IcE
