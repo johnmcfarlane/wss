@@ -192,8 +192,9 @@ void dump_lexicon(
 
 auto main(int argc, char const* const* argv) -> int
 {
-    auto lexicon_filenames = std::vector<std::string>{2};
-    auto names = std::vector<std::string>{2};
+    constexpr auto num_lexicons{2};
+    auto lexicon_filenames = std::vector<std::string>{num_lexicons};
+    auto names = std::vector<std::string>{num_lexicons};
     auto source_filename = std::string{};
     bool help{false};
     auto cli{
