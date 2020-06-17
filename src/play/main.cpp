@@ -82,7 +82,7 @@ auto main(int argc, char const* const* argv) -> int
     auto game_name{string{wwf_name}};
     auto cli{
         lyra::help(help)
-        | lyra::opt(game_name, "-g")["--game"]
+        | lyra::opt(game_name, "game")["-g"]["--game"]
                 .choices(scrabble_name, wwf_name)
         | lyra::opt(unbounded)["-u"]["--unbounded"]("ignore lexicon and use any combination of letters")
         | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")

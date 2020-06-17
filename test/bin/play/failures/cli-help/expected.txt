@@ -3,7 +3,7 @@ wss scrabble board suggester
 
 play [options] <rack> <board>
       -?, -h, --help   Display usage information.
-         --game <-g>   
+   -g, --game <game>   
      -u, --unbounded   ignore lexicon and use any combination of letters
                        Letter "rack" including wildcards as ? and blanks as _
                        text file containing played letters
