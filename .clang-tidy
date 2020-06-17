@@ -1,6 +1,7 @@
 ---
 Checks: >
   *,
+  alpha*,
   -android-cloexec-fopen,
   -bugprone-exception-escape,
   -fuchsia-default-arguments,
