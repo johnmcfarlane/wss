@@ -71,6 +71,7 @@ namespace {
 auto main(int argc, char const* const* argv) -> int
 {
     using namespace std::literals;
+    auto const all_name{"all"s};
     auto const scrabble_name{"scrabble"s};
     auto const wwf_name{"wwf"s};
 
@@ -83,7 +84,7 @@ auto main(int argc, char const* const* argv) -> int
     auto cli{
         lyra::help(help)
         | lyra::opt(game_name, "game")["-g"]["--game"]
-                .choices(scrabble_name, wwf_name)
+                .choices(all_name, scrabble_name, wwf_name)
         | lyra::opt(unbounded)["-u"]["--unbounded"]("ignore lexicon and use any combination of letters")
         | lyra::arg(letters, "letters")("Letter \"rack\" including wildcards as ? and blanks as _")
         | lyra::arg(board_filename, "board")("text file containing played letters")
@@ -149,10 +150,12 @@ auto main(int argc, char const* const* argv) -> int
     auto const lexicon{unbounded
             ? unbounded_lexicon
             : std::map{
+                    std::pair{all_name, all_lexicon},
                     std::pair{scrabble_name, scrabble_lexicon},
                     std::pair{wwf_name, wwf_lexicon}
             }.at(game_name)};
     auto const scores{std::map{
+            std::pair{all_name, wwf_scores()},
             std::pair{scrabble_name, scrabble_scores()},
             std::pair{wwf_name, wwf_scores()}
     }.at(game_name)};

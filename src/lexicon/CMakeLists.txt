@@ -9,6 +9,7 @@ add_custom_command(
     COMMENT "Building lexicons"
     DEPENDS
         ${PROJECT_SOURCE_DIR}/src/lexicon/node.h
+        ${PROJECT_SOURCE_DIR}/words/all.txt
         ${PROJECT_SOURCE_DIR}/words/scrabble.txt
         ${PROJECT_SOURCE_DIR}/words/wwf.txt
         ${CMAKE_BINARY_DIR}/src/generate/generate
@@ -20,6 +21,7 @@ add_custom_command(
         mkdir -p lexicon &&
         cd lexicon &&
         ${CMAKE_BINARY_DIR}/src/generate/generate
+            ${PROJECT_SOURCE_DIR}/words/all.txt all_lexicon
             ${PROJECT_SOURCE_DIR}/words/scrabble.txt scrabble_lexicon
             ${PROJECT_SOURCE_DIR}/words/wwf.txt wwf_lexicon
             lexicon
