@@ -58,7 +58,6 @@
  34  9,8  | oTXI
  34  9,8  | sEXT
  34  9,8  | tEXT
- 32  9,8  | EFIk
  32  9,8  | EFTs
  32  9,8  | ElIX
  32  6,2  - EsTRIF
@@ -200,7 +199,6 @@
  26  4,5  | rEFIX
  26  8,9  - sEIT
  26  8,9  - sITE
- 25  9,1  - ApX
  25  9,1  - ArX
  25  9,1  - AuX
  25 10,4  | EsTH
@@ -644,7 +642,6 @@
  19  4,5  | vEX
  19  9,8  | wITH
  19  4,5  | yEX
- 18  4,6  | EFIk
  18  4,6  | EFT
  18  4,6  | EFTs
  18  4,6  | EFpH
@@ -832,7 +829,6 @@
  17 10,1  | mEH
  17  7,8  | oX
  17  9,8  | oX
- 17  7,8  | pFX
  17 10,1  | rEH
  17  8,9  - sEI
  17  8,9  - sET
@@ -1413,7 +1409,6 @@
  12  6,6  | AsHET
  12  6,6  | AwHET
  12  8,1  - EATH
- 12  7,8  | EFIk
  12  7,8  | EFT
  12  9,8  | EFT
  12  7,8  | EFTs
@@ -1498,7 +1493,6 @@
  12  8,2  - FRIs
  12  8,2  - FRIt
  12  8,2  - FRIz
- 12  8,2  - FRT
  12  8,2  - FRaE
  12  8,2  - FRaT
  12  8,2  - FReE
@@ -1635,7 +1629,6 @@
  12  7,2  - THRoE
  12  5,2  - THeER
  12  5,2  - THeIR
- 12  8,2  - TRF
  12  8,2  - TReF
  12  6,7  - TaSH
  12  7,8  | TaXI
@@ -1871,7 +1864,6 @@
  11  8,7  - SEX
  11  8,7  - SEXt
  11  8,7  - SEXy
- 11  8,7  - SEaX
  11  8,7  - SIX
  11  8,7  - STyX
  11  6,5  | TAXEd
@@ -2033,10 +2025,7 @@
  10  6,1  - FIdATE
  10  6,1  - FIlATE
  10  6,1  - FIxATE
- 10  8,2  - FRa
  10  8,2  - FRo
- 10  8,2  - FRs
- 10  8,2  - FRt
  10  8,2  - FRy
  10  8,1  | Fa
  10  7,8  | FaE
@@ -2067,8 +2056,6 @@
  10  9,8  | FoT
  10  6,3  | FrEATH
  10  6,8  - FrEITH
- 10  7,8  | FrT
- 10  9,8  | FrT
  10  7,8  | FuT
  10  9,8  | FuT
  10  8,1  | HE
@@ -2160,7 +2147,6 @@
  10  7,6  | NoH
  10  9,2  - REH
  10  9,2  - RFb
- 10  9,2  - RFs
  10  9,2  - RFz
  10  9,2  - RHE
  10  9,2  - ReF
@@ -2263,8 +2249,6 @@
  10  8,2  - pRF
  10  6,1  - rEFAIT
  10  6,5  | sAXE
- 10  7,1  - sEAX
- 10  6,4  | sEAX
  10  7,8  - sEXT
  10  6,2  - sHER
  10  5,3  | sHIVE
@@ -2272,7 +2256,6 @@
  10  6,5  | tAXI
  10  7,8  - tEXT
  10  6,2  - tHIR
- 10  8,2  - tRF
  10  8,2  - uRF
  10  7,8  - vEXT
  10  6,2  - wHIR
@@ -2280,7 +2263,6 @@
   9  6,6  | AX
   9  9,1  - AXe
   9  6,6  | AXe
-  9  6,6  | ApX
   9  6,6  | ArX
   9  6,6  | AuX
   9  4,8  - EFfIE
@@ -3018,8 +3000,6 @@
   7  7,8  | TcHI
   7  5,8  - ThIEF
   7  5,1  - TrEFA
-  7  7,8  | TrF
-  7  9,8  | TrF
   7  5,1  - TrIFA
   7  7,8  | TsHI
   7  5,6  | VEI
@@ -3123,7 +3103,6 @@
   6  6,6  | AtEF
   6  6,5  | EATH
   6  6,5  | EArTH
-  6  8,8  - EFIk
   6  8,8  - EFT
   6  8,8  - EFTs
   6  7,2  - EIRe
@@ -3596,7 +3575,6 @@
   6  5,6  | VEg
   6  5,6  | VEi
   6  5,6  | VEl
-  6  5,6  | VEr
   6  5,6  | VEt
   6  5,6  | VEx
   6  5,6  | VIa
@@ -3965,8 +3943,6 @@
   5  7,2  - FiR
   5  6,8  - FoE
   5  7,2  - FoR
-  5  7,1  - FrA
-  5  6,4  | FrA
   5  7,2  - FuR
   5  8,1  - HAE
   5  6,5  | HAE
@@ -4681,7 +4657,6 @@
   4  6,3  | TErAI
   4  5,1  - TInEA
   4  8,2  - TRa
-  4  8,2  - TRf
   4  8,2  - TRi
   4  8,2  - TRp
   4  8,2  - TRs
@@ -4767,7 +4742,6 @@
   4  9,8  | fIE
   4  7,8  | fIT
   4  9,8  | fIT
-  4  8,2  - fRT
   4  8,2  - gRE
   4  8,1  - hAH
   4  6,5  | hAH
@@ -5901,7 +5875,6 @@
   2  6,8  - vEE
   2  7,8  - vEE
   2  7,8  - vEI
-  2  7,2  - vER
   2  7,8  - vET
   2  7,1  - vIA
   2  6,4  | vIA
