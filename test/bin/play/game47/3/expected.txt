@@ -1107,7 +1107,6 @@
  17  2,3  - ReJONEo
  17  6,5  - ReJeRK
  17  9,6  - Res
- 17  9,6  - Rfs
  17  9,6  - Rms
  17  9,6  - Ros
  17  9,6  - Rus
@@ -1129,7 +1128,6 @@
  17  9,6  - dOs
  17  9,6  - eRs
  17  5,5  | emOJI
- 17  9,6  - fRs
  17  9,6  - gEs
  17  9,6  - gIs
  17  9,6  - gRs
@@ -1156,7 +1154,6 @@
  17  9,6  - pOs
  17  9,6  - pRs
  17  9,6  - qIs
- 17  9,6  - qRs
  17  9,6  - rEs
  17  9,6  - rOs
  17  3,4  - sEJErO
@@ -1291,6 +1288,8 @@
  15  3,4  - JIbERs
  15  1,4  - JIgOtE
  15  1,4  - JInEtE
+ 15  3,4  - JIvER
+ 15  3,4  - JIvERs
  15  3,6  - JOEY
  15  3,6  - JOEYes
  15  3,6  - JOEYs
@@ -1498,7 +1497,10 @@
  14  3,4  - JIbEr
  14  3,4  - JIbEs
  14  3,4  - JIvE
+ 14  2,5  - JIvER
+ 14  2,5  - JIvERs
  14  3,4  - JIvEd
+ 14  3,4  - JIvEr
  14  3,4  - JIvEs
  14  2,5  - JIvaRO
  14  1,4  - JOIndER
@@ -1703,6 +1705,7 @@
  13  1,5  - JIppER
  13  2,4  - JIttER
  13  1,5  - JIttER
+ 13  2,5  - JIveR
  13  4,5  - JOREe
  13  4,5  - JORIst
  13  4,5  - JORRam
@@ -1914,6 +1917,8 @@
  12  4,3  - JiNx
  12  3,4  - JibER
  12  2,5  - JibER
+ 12  3,4  - JivER
+ 12  2,5  - JivER
  12  2,4  - JixIE
  12  3,4  - JoIE
  12  4,3  - JoNg
@@ -4604,7 +4609,6 @@
   7  7,5  | EeRy
   7  5,3  | Ef
   7  7,3  | Ef
-  7  8,5  - EfIK
   7  1,4  - EgOIzER
   7  7,6  | EgbO
   7  7,6  | EgeR
@@ -6769,9 +6773,7 @@
   6  7,5  | Eel
   6  7,5  | Een
   6  7,5  | Eer
-  6  7,6  | EfIk
   6  3,4  - EffEIR
-  6  8,5  - EfiK
   6  7,6  | EgIs
   6  7,6  | EgO
   6  1,4  - EgOIzE
@@ -8710,7 +8712,6 @@
   6  7,6  | ebOE
   6  5,3  | edO
   6  3,3  - edONI
-  6  8,5  - efIK
   6  7,6  | egER
   6  7,6  | egRE
   6  7,5  | eiRE
@@ -12980,6 +12981,7 @@
   5  5,4  - jERId
   5  4,3  - jINgO
   5  3,4  - jIbER
+  5  3,4  - jIvER
   5  3,6  - jOEY
   5  3,6  - jOEYs
   5  3,4  - jOIE
@@ -14466,7 +14468,6 @@
   4  3,6  - EelY
   4  2,4  - EerIER
   4  3,6  - EerY
-  4  6,4  - EfIk
   4  4,4  - EgEr
   4  6,4  - EgEr
   4  6,4  - EgIs
@@ -17663,6 +17664,7 @@
   4  3,4  - jIbE
   4  2,5  - jIbER
   4  3,4  - jIvE
+  4  2,5  - jIvER
   4  5,4  | jO
   4  4,3  - jONg
   4  4,3  - jONi
@@ -17732,7 +17734,6 @@
   4  5,3  - kNEe
   4  5,3  - kNEt
   4  5,3  - kNEw
-  4  5,3  - kNEz
   4  5,3  - kNIt
   4  5,3  - kNOb
   4  5,3  - kNOp
@@ -24471,7 +24472,6 @@
   2  4,4  - kiER
   2  3,5  - kiER
   2  4,3  - kiN
-  2  4,3  - klN
   2  3,4  - knEE
   2  4,4  - knEE
   2  4,2  - koI
@@ -25384,8 +25384,6 @@
   2  5,4  - vEI
   2  5,4  - vEIl
   2  5,4  - vEIn
-  2  5,4  - vER
-  2  4,5  - vER
   2  5,4  - vERa
   2  4,5  - vERa
   2  5,4  - vERb
@@ -25711,7 +25709,6 @@
   1  6,5  - Rew
   1  6,5  - Rex
   1  6,5  - Rfb
-  1  6,5  - Rfs
   1  6,5  - Rfz
   1  6,5  - Rha
   1  6,5  - Rhb
@@ -25948,10 +25945,7 @@
   1  5,4  - fEw
   1  5,4  - fEy
   1  5,4  - fEz
-  1  5,5  - fRa
   1  5,5  - fRo
-  1  5,5  - fRs
-  1  5,5  - fRt
   1  5,5  - fRy
   1  4,4  - faE
   1  4,5  - faR
@@ -26212,7 +26206,6 @@
   1  4,5  - pwR
   1  4,4  - pyE
   1  4,5  - pyR
-  1  5,5  - qRs
   1  4,5  - qtR
   1  4,4  - quE
   1  9,3  - quO
@@ -26295,7 +26288,6 @@
   1  5,4  - tEz
   1 10,3  - tO
   1  5,5  - tRa
-  1  5,5  - tRf
   1  5,5  - tRi
   1  5,5  - tRp
   1  5,5  - tRs
@@ -26341,12 +26333,10 @@
   1  5,4  - vEg
   1  5,4  - vEi
   1  5,4  - vEl
-  1  5,4  - vEr
   1  5,4  - vEt
   1  5,4  - vEx
   1  4,5  - vaR
   1  4,4  - veE
-  1  4,5  - veR
   1  4,4  - viE
   1  4,4  - voE
   1  5,4  - wE
