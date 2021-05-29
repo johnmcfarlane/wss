@@ -30,6 +30,7 @@
  37 11,2  | sHOE
  36  1,4  - GHuZ
  36 11,3  | OKeH
+ 36  4,5  | ZErK
  35  1,4  - GAuZE
  35  1,4  - GlAZE
  35  1,4  - GlOZE
@@ -43,6 +44,7 @@
  34  9,3  - SeZ
  34  4,8  - ZOEAE
  34 11,2  | sAK
+ 34 11,2  | sKA
  34 11,2  | sOK
  33  4,8  - ZOEaE
  33  4,8  - ZOeAE
@@ -64,6 +66,7 @@
  29  4,5  | HEuK
  29  4,4  | KHEt
  29  4,4  | KuEH
+ 29  7,11 - ZAPs
  28 11,3  | AKEd
  28 11,3  | AKEe
  28 11,3  | AKEr
@@ -149,6 +152,8 @@
  25 11,2  | sH
  24  2,5  | EKAHa
  24  2,5  | EKaHA
+ 24  7,11 - KEPs
+ 24  7,11 - KOPs
  24 11,3  | KaE
  24 11,3  | KiE
  24 11,3  | KuE
@@ -170,6 +175,7 @@
  24 11,3  | uKE
  23 11,3  | EKe
  23 11,7  | HAMe
+ 23  6,11 - HEAPs
  23 11,7  | HOMe
  23 11,7  | HaME
  23 11,7  | HoME
@@ -189,6 +195,7 @@
  22 11,3  | AHEm
  22 11,3  | AHEt
  22  2,5  | AKHa
+ 22  8,11 - APsE
  22  6,6  | AcHOKE
  22  2,5  | AnKH
  22  6,6  | AsHAKE
@@ -201,9 +208,12 @@
  22 11,3  | HAEn
  22 11,3  | HAEs
  22 11,3  | HAEt
+ 22  7,11 - HAPs
+ 22  7,11 - HEPs
  22 11,3  | HOEd
  22 11,3  | HOEr
  22 11,3  | HOEs
+ 22  7,11 - HOPs
  22 11,3  | HOsE
  22  2,4  | OAK
  22  2,4  | OAKs
@@ -257,6 +267,7 @@
  21  4,5  | fEZ
  21  4,5  | gEZ
  21  4,5  | lEAH
+ 21  4,5  | lEZ
  21  2,5  | oKEH
  21  4,5  | sEAH
  21  4,5  | sEZ
@@ -331,6 +342,7 @@
  19  4,4  | OKEs
  19  4,4  | OKEt
  19  4,4  | OKEy
+ 19  8,11 - OPs
  19  2,4  | OaK
  19  2,4  | OiK
  19 11,1  | Os
@@ -437,6 +449,7 @@
  17 11,3  | HAe
  17 11,3  | HAs
  17 11,3  | HEe
+ 17  4,5  | HElO
  17  4,5  | HErA
  17  4,5  | HErO
  17 11,3  | HEs
@@ -841,6 +854,7 @@
  12  5,4  | KEVAn
  12 11,9  | MeA
  12 11,9  | MnA
+ 12  7,6  | NAH
  12  7,6  | NOH
  12  2,4  | OAd
  12  2,4  | OAf
@@ -941,6 +955,7 @@
  12  5,8  - mAZE
  12  4,5  | mEA
  12  7,8  - mEAL
+ 12  5,8  - mEZE
  12  6,4  - mOJO
  12  5,8  - mOZE
  12  5,8  - mZEE
@@ -1030,6 +1045,7 @@
  11 11,4  | HEx
  11 11,4  | HeE
  11  5,2  | IKe
+ 11  1,3  - IcK
  11  1,3  - IlK
  11  1,3  - InK
  11  1,3  - IrK
@@ -1213,6 +1229,7 @@
  10  6,11 - KlOP
  10  6,11 - KnAP
  10  6,11 - KnOP
+ 10  7,6  | NaH
  10  7,6  | NoH
  10  2,4  | OE
  10  6,1  | OXEa
@@ -1311,6 +1328,7 @@
   9  6,5  | KApH
   9  6,5  | KAtH
   9  6,4  | KHA
+  9  6,4  | KHAf
   9  6,4  | KHAn
   9  6,4  | KHAr
   9  6,4  | KHAt
@@ -1593,6 +1611,7 @@
   8  7,9  - iSLAM
   8  8,1  - lAH
   8  8,1  - mAH
+  8  8,1  - nAH
   8  5,4  | nOVAE
   8  2,4  | oE
   8  2,4  | oO
@@ -1719,6 +1738,7 @@
   7  6,5  | KApA
   7  6,5  | KArO
   7  6,5  | KAsA
+  7  6,5  | KAtA
   7  6,5  | KAtE
   7  5,8  - KAtE
   7  6,5  | KAvA
@@ -1818,6 +1838,7 @@
   7  5,5  | eVOE
   7  6,5  | fAKE
   7  5,8  - fAKE
+  7  5,4  | fAVE
   7 11,4  | fE
   7  6,4  | fEAK
   7  7,1  | fTH
@@ -1843,6 +1864,7 @@
   7  5,8  - lAKE
   7  5,4  | lAVE
   7  6,4  | lEAK
+  7  5,8  - lEKE
   7  5,4  | lEVA
   7  5,4  | lEVO
   7  5,8  - lOKE
@@ -1976,6 +1998,7 @@
   6  6,5  | HAOmA
   6  6,5  | HAkEA
   6  1,3  - IKe
+  6  5,2  | IcK
   6  5,2  | IlK
   6  5,2  | InK
   6  5,2  | IrK
@@ -2004,6 +2027,7 @@
   6  7,6  | NAb
   6  7,6  | NAe
   6  7,6  | NAf
+  6  7,6  | NAh
   6  7,6  | NAm
   6  7,6  | NAn
   6  7,6  | NAp
@@ -2161,6 +2185,7 @@
   6  6,7  - rOS
   6  6,5  | sAK
   6  5,4  | sEV
+  6  6,4  | sKA
   6  2,3  | sO
   6  6,11 - sOAP
   6  6,7  - sOS
@@ -2437,6 +2462,7 @@
   5  7,11 - tOP
   5  7,11 - wAP
   5  5,8  - wHEE
+  5  7,11 - wOP
   5  7,11 - yAP
   5  6,4  | yEAH
   5  7,11 - yEP
@@ -2642,6 +2668,7 @@
   4  6,5  | mAH
   4  8,1  - nAA
   4  8,1  - nAE
+  4  6,5  | nAH
   4  8,11 - oP
   4  6,5  | pAH
   4  8,11 - pP

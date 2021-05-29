@@ -35,6 +35,7 @@ invalid words: cpa
  45 11,3  | JAsES
  45  9,7  | JaI
  45 11,3  | hAJES
+ 45 11,3  | rAJES
  45 11,3  | tAJES
  44 11,3  | JASEs
  44 11,3  | JASEy
@@ -44,6 +45,7 @@ invalid words: cpa
  42 11,2  | AWaKES
  42 11,3  | AsKEW
  42  9,5  | JAW
+ 42  9,5  | JEW
  42 11,2  | KWElAS
  42 11,3  | WAKES
  42 11,2  | WAcKES
@@ -60,9 +62,11 @@ invalid words: cpa
  40 11,3  | JApE
  40  9,3  | JaKES
  40  9,5  | JaW
+ 40  9,5  | JeW
  40  9,3  | JoKES
  40  9,5  | JoW
  40  9,3  | JuKES
+ 40 11,3  | SoJA
  40 11,3  | dEJA
  40 11,3  | hAJE
  40 11,3  | yAJE
@@ -91,6 +95,7 @@ invalid words: cpa
  37  9,3  | JAKEs
  37  9,3  | JAKEy
  37  7,3  | JAWS
+ 37  7,3  | JEWS
  37 11,2  | KWElA
  37 11,2  | KeAWE
  37 11,2  | KiSWA
@@ -101,12 +106,14 @@ invalid words: cpa
  37 11,2  | bAWKE
  36  9,3  | JAKE
  36  7,3  | JaWS
+ 36  7,3  | JeWS
  36  7,3  | JoWS
  36 11,2  | KEAWe
  36 11,2  | WAKEr
  35  9,3  | ASKEW
  35  9,3  | JAWEd
  35  7,3  | JAWs
+ 35  7,3  | JEWs
  35  9,3  | JaKE
  35  9,3  | JoKE
  35  9,3  | JuKE
@@ -114,6 +121,7 @@ invalid words: cpa
  34  9,3  | JAKe
  34  9,3  | JAKo
  34  9,3  | JAWS
+ 34  9,3  | JEWS
  34  6,2  | JEWeL
  34  6,2  | JeWEL
  34  6,2  | JoWEL
@@ -133,8 +141,10 @@ invalid words: cpa
  33  7,3  | JEeS
  33  7,3  | JEsS
  33  7,3  | JEtS
+ 33  7,3  | JEwS
  33  9,3  | JaWS
  33  7,3  | JeES
+ 33  9,3  | JeWS
  33  7,3  | JoES
  33  9,3  | JoWS
  33  9,4  | SKAW
@@ -148,6 +158,7 @@ invalid words: cpa
  33  9,3  | aSKEW
  32  9,3  | JAWs
  32  7,3  | JESs
+ 32  9,3  | JEWs
  32  9,7  | WaIK
  32  9,4  | sKAW
  32  9,4  | sKEW
@@ -160,6 +171,7 @@ invalid words: cpa
  31  9,4  | SKaW
  31  9,4  | SKeW
  31  9,3  | hAJES
+ 31  9,3  | rAJES
  31  9,3  | tAJES
  30 11,3  | AKeES
  30 11,3  | ASkEW
@@ -261,6 +273,7 @@ invalid words: cpa
  27 11,2  | SAKEr
  27  7,6  | SEAN
  27 11,2  | SEKAr
+ 27  9,3  | SoJA
  27  9,3  | WAKaS
  27  9,3  | WAKeS
  27 11,3  | WAdES
@@ -306,6 +319,8 @@ invalid words: cpa
  26  9,3  | JEsS
  26  9,5  | JEt
  26  9,3  | JEtS
+ 26  9,5  | JEw
+ 26  9,3  | JEwS
  26  7,7  | JaNES
  26  7,2  | KWElA
  26  6,1  | KnAWEL
@@ -406,6 +421,7 @@ invalid words: cpa
  25 11,3  | lAKE
  25 11,3  | mAKE
  25 11,3  | nAKE
+ 25  7,2  | rAJES
  25 11,3  | rAKE
  25  9,3  | rESAW
  25 11,3  | sAKE
@@ -425,6 +441,7 @@ invalid words: cpa
  24  9,2  | JAKES
  24  7,2  | JASEs
  24 11,5  | JAW
+ 24 11,5  | JEW
  24  7,5  | JaW
  24  7,3  | KAES
  24 11,3  | KASa
@@ -445,6 +462,7 @@ invalid words: cpa
  24 11,3  | SKEr
  24  6,2  | SKeWL
  24 11,2  | SWEAr
+ 24  7,3  | SoJA
  24  9,7  | WAIf
  24  9,7  | WAIk
  24  9,7  | WAIl
@@ -479,6 +497,7 @@ invalid words: cpa
  23  7,3  | KAaS
  23  7,3  | KAbS
  23  7,3  | KAeS
+ 23  7,3  | KAfS
  23  7,3  | KAnS
  23  7,3  | KAtS
  23  7,3  | KAyS
@@ -568,6 +587,7 @@ invalid words: cpa
  22  9,2  | JaKES
  22  7,7  - JaKOS
  22 11,5  | JaW
+ 22 11,5  | JeW
  22  9,2  | JoKES
  22 11,5  | JoW
  22  9,2  | JuKES
@@ -625,6 +645,7 @@ invalid words: cpa
  22  9,5  | hAW
  22  9,5  | hEW
  22  9,5  | jAW
+ 22  9,5  | jEW
  22  9,5  | lAW
  22  7,7  - mAJO
  22  9,5  | mAW
@@ -787,6 +808,7 @@ invalid words: cpa
  20  7,2  | rAKES
  20  7,2  | rEAKS
  20  7,2  | sAKES
+ 20  9,4  | sKAS
  20  7,2  | tAKES
  20  7,2  | tEAKS
  20  9,4  | uKES
@@ -871,6 +893,7 @@ invalid words: cpa
  19  5,3  | WiSE
  19  9,2  | hAJES
  19  9,3  | hAWSE
+ 19  9,2  | rAJES
  19  7,3  | rEASK
  19 11,4  | sKAW
  19 11,4  | sKEW
@@ -935,9 +958,12 @@ invalid words: cpa
  18  9,3  | SAKE
  18  7,3  | SAKa
  18  6,2  | SAKeL
+ 18  7,4  | SKA
  18  7,4  | SKAg
  18  6,2  | SKAiL
  18  7,4  | SKAl
+ 18  7,3  | SKAs
+ 18  7,4  | SKAs
  18  7,4  | SKAt
  18  7,4  | SKAw
  18  5,1  | SKEAnE
@@ -1020,6 +1046,8 @@ invalid words: cpa
  18  6,2  | sAKEL
  18  7,7  | sANES
  18  7,4  | sEAK
+ 18  7,3  | sKAS
+ 18  7,4  | sKAS
  18  7,4  | tASK
  18  7,3  | tAWSE
  18  7,4  | tEAK
@@ -1105,6 +1133,7 @@ invalid words: cpa
  17  7,4  | SEaK
  17  9,4  | SKAg
  17  9,4  | SKAl
+ 17  9,4  | SKAs
  17  9,4  | SKAt
  17  9,2  | SKAtE
  17  9,3  | SKAtE
@@ -1185,6 +1214,7 @@ invalid words: cpa
  17  5,2  | hAWSE
  17  7,3  | hEWS
  17  7,3  | jAWS
+ 17  7,3  | jEWS
  17  7,5  | lAK
  17  7,3  | lAWS
  17  7,3  | mAWS
@@ -1204,6 +1234,7 @@ invalid words: cpa
  17  7,5  | sAK
  17  7,3  | sAWS
  17  7,3  | sEWS
+ 17  7,4  | sKA
  17  7,3  | tAWS
  17  5,2  | tAWSE
  17  7,3  | tEWA
@@ -1235,6 +1266,7 @@ invalid words: cpa
  16 11,5  | JAw
  16 11,5  | JAy
  16 11,5  | JEe
+ 16 11,5  | JEw
  16 11,5  | JeE
  16 11,5  | JoE
  16  8,7  - JoOK
@@ -1246,6 +1278,7 @@ invalid words: cpa
  16  9,3  | KAbS
  16  9,5  | KAe
  16  9,3  | KAeS
+ 16  9,3  | KAfS
  16  9,5  | KAi
  16  9,5  | KAl
  16  9,3  | KAlE
@@ -1286,6 +1319,8 @@ invalid words: cpa
  16  7,5  | KaS
  16  9,3  | SAKa
  16  9,3  | SAKe
+ 16  9,4  | SKA
+ 16  7,4  | SKa
  16  6,2  | SWAiL
  16  6,2  | SWEaL
  16  6,2  | SWElL
@@ -1515,6 +1550,7 @@ invalid words: cpa
  15  9,4  | oKA
  15  9,4  | oKE
  15  5,3  | oWSE
+ 15  9,4  | sKA
  15  9,4  | uKE
  14  7,4  | AES
  14  7,4  | AESc
@@ -1565,6 +1601,7 @@ invalid words: cpa
  14  7,4  | SEAs
  14  7,4  | SEAt
  14  9,3  | SEWs
+ 14  9,4  | SKa
  14  9,4  | SWA
  14  9,3  | SWEAl
  14  9,3  | SWEAt
@@ -1682,6 +1719,8 @@ invalid words: cpa
  14  9,2  | jAKES
  14 11,5  | jAW
  14  9,3  | jAWS
+ 14 11,5  | jEW
+ 14  9,3  | jEWS
  14  7,3  | kAES
  14  7,3  | kEAS
  14  7,4  | kEAS
@@ -1915,6 +1954,7 @@ invalid words: cpa
  13  7,4  | ShA
  13 11,3  | ShEA
  13  7,4  | SiA
+ 13  7,4  | SkA
  13  7,4  | SlA
  13 11,3  | SlAE
  13  7,4  | SmA
@@ -2012,6 +2052,7 @@ invalid words: cpa
  13  7,5  | sAE
  13  7,4  | sEA
  13  7,7  - sEKOS
+ 13 11,4  | sKAS
  13  9,4  | sWA
  13  7,5  | tAE
  13  7,4  | tAS
@@ -2117,6 +2158,9 @@ invalid words: cpa
  12 11,3  | SEAm
  12 11,3  | SEAr
  12  7,4  | SEa
+ 12  5,3  | SEnE
+ 12  9,3  | SKAs
+ 12 11,4  | SKAs
  12  9,3  | SKAt
  12 11,4  | SKAw
  12 11,4  | SKEd
@@ -2223,6 +2267,7 @@ invalid words: cpa
  12  5,3  | rASE
  12  9,4  | rASE
  12  9,4  | sEAS
+ 12  9,3  | sKAS
  12  7,5  | tA
  12  9,4  | tEAS
  12 11,4  | tWAE
@@ -2326,6 +2371,7 @@ invalid words: cpa
  11  2,6  - PANELS
  11  9,7  | SAI
  11  9,4  | SAtE
+ 11 11,4  | SKA
  11  8,6  | SKiV
  11 11,4  | SWAd
  11 11,4  | SWAm
@@ -2519,6 +2565,7 @@ invalid words: cpa
  10  9,5  | rAS
  10  9,5  | rES
  10  9,5  | sAE
+ 10 11,4  | sKA
  10  9,5  | tAE
  10  9,5  | tAS
  10  8,7  - tWOS
@@ -2618,6 +2665,7 @@ invalid words: cpa
   9  8,7  | SEV
   9  6,3  | SKAL
   9  6,3  | SKEL
+  9 11,4  | SKa
   9 11,4  | SKi
   9  4,4  | SYNOd
   9  4,4  | SYNOp
@@ -2640,9 +2688,11 @@ invalid words: cpa
   9  3,4  | WOADS
   9  9,7  - WOb
   9  9,7  - WOe
+  9  9,7  - WOg
   9  9,7  - WOk
   9  9,7  - WOn
   9  9,7  - WOo
+  9  9,7  - WOp
   9  9,7  - WOs
   9  9,7  - WOt
   9  9,7  - WOw
@@ -3249,6 +3299,8 @@ invalid words: cpa
   6 11,4  | SiA
   6  9,4  | SiE
   6 11,4  | SiE
+  6  9,4  | SkA
+  6 11,4  | SkA
   6  9,4  | SlA
   6 11,4  | SlA
   6  8,7  - SlOW
@@ -3456,6 +3508,7 @@ invalid words: cpa
   5 11,5  | fA
   5  9,5  | fE
   5 11,5  | fE
+  5  8,6  - fEHS
   5  4,9  | fFA
   5  9,10 - fIE
   5  3,4  | gOADS
@@ -3464,6 +3517,7 @@ invalid words: cpa
   5  8,6  - hAHS
   5  9,5  | hE
   5 11,5  | hE
+  5  8,6  - hEHS
   5  9,7  - hOW
   5  9,5  | iS
   5  9,5  | jA
@@ -3677,6 +3731,7 @@ invalid words: cpa
   4  6,3  | mEAL
   4  8,6  - mEH
   4  7,7  - mESO
+  4  8,6  - nAH
   4  8,7  - nAOS
   4  7,7  - nASO
   4  6,3  | nEAL
@@ -3793,6 +3848,8 @@ invalid words: cpa
   3  6,4  | bEL
   3  3,9  | bEL
   3  6,4  | cAL
+  3  6,4  | cEL
+  3  3,9  | cEL
   3  9,6  - cH
   3  6,4  | dAL
   3  8,7  - dAO

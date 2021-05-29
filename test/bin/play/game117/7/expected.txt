@@ -141,6 +141,7 @@
  21 11,6  | TeCA
  21 11,6  | TeCO
  21  9,5  - ZIg
+ 21  9,5  - ZIn
  21  9,5  - ZIp
  21  9,5  - ZIt
  21  5,5  | Za
@@ -187,6 +188,7 @@
  19  4,7  | ZyMIC
  19  8,1  | aZOTIC
  19  8,4  - dOXA
+ 19 11,7  | eTIC
  19 11,2  | iDIOT
  19  8,2  | lOCATIO
  19  8,4  - mOXA
@@ -271,6 +273,7 @@
  17  8,1  | ZOOnIC
  17  8,1  | ZOOtIC
  17  8,2  | ZOdIAC
+ 17  8,2  | ZOeCIA
  17  8,2  | ZOeTIC
  17  8,2  | ZOoTIC
  17  4,7  - ZeLATOR
@@ -443,13 +446,16 @@
  15  9,3  | WAx
  15  9,3  | WAy
  15  9,3  | WOb
+ 15  9,3  | WOg
  15  9,3  | WOk
  15  9,3  | WOo
+ 15  9,3  | WOp
  15  9,3  | WOs
  15  9,3  | WOt
  15  5,5  - ZAC
  15  5,5  - ZACh
  15  5,5  - ZACk
+ 15  5,5  - ZAIkAI
  15  8,2  | ZOIsT
  15  8,1  | ZOOId
  15  8,2  | ZOOId
@@ -764,6 +770,7 @@
  12  4,7  | COMAs
  12  4,7  | COMIc
  12  4,7  | COMId
+ 12  4,7  | COMIx
  12  4,7  | COMTe
  12  4,7  | COMdT
  12  4,7  | COMeT
@@ -819,6 +826,7 @@
  12  1,4  - ItA
  12  7,3  | LOgIA
  12  7,3  | LOxIA
+ 12  6,7  - LeZ
  12  6,7  - LiZ
  12  8,3  | OOeCIA
  12  9,7  | OTIC
@@ -828,6 +836,7 @@
  12  8,3  | OnZA
  12  4,8  - OpE
  12  4,8  - OrE
+ 12  8,3  | OrZO
  12  8,3  | OuZO
  12  4,8  - OwE
  12  8,6  - OyEZ
@@ -912,6 +921,7 @@
  12  2,2  - cOCT
  12  4,7  | cOMIC
  12  8,2  - dASI
+ 12  1,1  - dITZ
  12  4,7  | dOMIC
  12  8,2  - dOSA
  12  7,2  - eTAS
@@ -1098,7 +1108,9 @@
  11  9,6  - gEZ
  11  4,1  | hIA
  11  4,1  | hOI
+ 11  9,6  - lEZ
  11  9,5  - lIZ
+ 11  7,1  | mALOTI
  11  4,6  | nAOMI
  11  5,5  - sAZ
  11  9,6  - sEZ
@@ -1126,6 +1138,7 @@
  10  1,1  - ATTICs
  10  4,7  | AcMIC
  10  8,1  | AzOTIC
+ 10  7,1  | CALO
  10  9,5  - CIA
  10  9,5  - CIT
  10  5,7  - CLAmOR
@@ -1171,6 +1184,7 @@
  10  1,1  - InTACT
  10  8,1  | IsOTAC
  10  6,7  - LICORn
+ 10  7,3  | LOTI
  10  5,5  - OArITIC
  10  5,5  - OAsITIC
  10  9,6  | OAsT
@@ -1377,6 +1391,7 @@
   9  9,7  - CRs
   9  9,7  - CRu
   9  9,7  - CRy
+  9  7,1  | CaLO
   9  7,1  | CeLT
   9  4,7  | CiMA
   9  8,1  | ClOIT
@@ -1386,6 +1401,7 @@
   9  8,1  | CrOAT
   9  7,1  | CuLT
   9  4,7  | CyMA
+  9  6,8  - ETIC
   9  1,9  | GAT
   9  1,9  | GIO
   9  1,9  | GIT
@@ -1657,6 +1673,7 @@
   8  4,7  - CALIf
   8  4,7  - CALIn
   8  4,7  - CALIx
+  8  4,7  - CALO
   8  4,7  - CALOr
   8  4,7  - CALcI
   8  7,1  | CALf
@@ -1664,6 +1681,7 @@
   8  4,7  - CALlI
   8  4,7  - CALlO
   8  7,1  | CALm
+  8  7,1  | CALo
   8  7,1  | CALs
   8  7,1  | CALx
   8  8,7  - CARO
@@ -1744,6 +1762,7 @@
   8  6,8  - EmIC
   8  6,8  - EpIC
   8  6,8  - ErIC
+  8  6,8  - EtIC
   8  4,7  | IAMb
   8  4,8  | IMAm
   8  4,8  | IMAn
@@ -1761,10 +1780,13 @@
   8  6,7  - LACeR
   8  7,3  | LOA
   8  7,3  | LOT
+  8  7,3  | LOTi
   8  7,3  | LOTo
   8  7,3  | LObI
   8  7,3  | LOlI
   8  7,3  | LOrI
+  8  7,3  | LOtI
+  8  7,3  | LoTI
   8  7,3  | LoTO
   8  4,9  | MCf
   8  4,9  | MCg
@@ -1934,6 +1956,7 @@
   8  4,7  - dOLCI
   8  8,2  - dOS
   8  4,7  - eCLAT
+  8  9,7  | eTIC
   8  4,2  | fA
   8  4,7  - fALCO
   8  4,2  | fI
@@ -2104,11 +2127,13 @@
   7  4,7  - CALk
   7  4,7  - CALl
   7  4,7  - CALm
+  7  4,7  - CALo
   7  4,7  - CALp
   7  4,7  - CALs
   7  4,7  - CALx
   7  8,7  - CAR
   7  8,7  - CARa
+  7  8,7  - CARb
   7  8,7  - CARd
   7  8,7  - CARe
   7  8,7  - CARf
@@ -2206,6 +2231,7 @@
   7  2,1  - CTImO
   7  8,7  - CTR
   7  8,7  - CTRl
+  7  4,7  - CaLO
   7  4,7  - CeLT
   7  4,7  - CoLA
   7  4,7  - CoLI
@@ -2424,6 +2450,7 @@
   7  2,1  | eT
   7  4,10 - eT
   7 11,7  | eTA
+  7  8,5  - eTIC
   7  4,7  | fAM
   7  9,6  | fAT
   7  5,7  - fLIC
@@ -2633,6 +2660,7 @@
   6  5,5  - CAcA
   6  5,5  - CAcI
   6  5,5  - CAdI
+  6  5,5  - CAlO
   6  5,5  - CAnA
   6  5,5  - CAnT
   6  5,5  - CApA
@@ -2694,6 +2722,8 @@
   6  8,7  - CaRA
   6  8,7  - CaRO
   6  8,7  - CaRT
+  6  7,1  | CeL
+  6  4,7  - CeL
   6  8,7  - CeRA
   6  8,7  - CeRO
   6  8,7  - CeRT
@@ -2728,6 +2758,7 @@
   6  6,4  - EIr
   6  6,4  - EOn
   6  5,9  | ETC
+  6  6,8  - ETiC
   6  1,9  | GAb
   6  1,9  | GAd
   6  1,9  | GAe
@@ -3001,6 +3032,7 @@
   6  5,5  - cACA
   6  5,5  - cACI
   6  5,5  - cAIC
+  6  7,1  | cALO
   6  2,2  - cOAT
   6  8,2  | cOATI
   6  2,2  - cOIT
@@ -3023,6 +3055,7 @@
   6  4,8  | eMIT
   6  9,6  | eO
   6  5,4  | eTA
+  6  2,1  - eTIC
   6  9,6  | fA
   6  5,5  - fACT
   6  5,8  - fEAT
@@ -3075,6 +3108,7 @@
   6  7,1  | lILT
   6  2,2  - lOOT
   6  2,2  - lOTA
+  6  2,2  - lOTI
   6  2,2  - lOTO
   6  3,8  | lUI
   6  3,8  | lUO
@@ -3113,6 +3147,8 @@
   6  5,5  - pACT
   6  5,8  - pEAI
   6  5,8  - pEAT
+  6  5,8  - pEC
+  6  5,8  | pEC
   6  5,8  - pETO
   6  9,6  | pO
   6  7,1  | pOLT
@@ -3285,6 +3321,7 @@
   5  5,5  - CAw
   5  5,5  - CAy
   5  9,6  - CEe
+  5  9,6  - CEl
   5  9,6  - CEp
   5  8,2  | COb
   5  8,2  | COd
@@ -3344,6 +3381,7 @@
   5  6,8  - EOAn
   5  6,8  - ETA
   5  6,8  - ETAs
+  5  6,8  - ETIc
   5  6,8  - ETOn
   5  6,8  - EdIT
   5  6,8  - EkOI
@@ -3751,6 +3789,7 @@
   5  8,1  | lOOT
   5  8,2  | lOOT
   5  8,2  | lOTA
+  5  8,2  | lOTI
   5  8,2  | lOTO
   5  5,5  - mAC
   5  4,7  - mALTO
@@ -3780,6 +3819,7 @@
   5  5,5  - pAC
   5  1,1  - pCT
   5  5,4  - pEA
+  5  9,6  - pEC
   5  9,5  - pIC
   5  4,7  - pILOT
   5 11,1  | pOD
@@ -3792,6 +3832,7 @@
   5  1,1  - rCT
   5  5,4  - rEA
   5  9,6  - rEC
+  5  5,4  - rEI
   5  9,5  - rIC
   5 11,1  | rID
   5  8,1  | rIOT
@@ -3838,6 +3879,7 @@
   5  5,4  - wEI
   5 11,1  | wID
   5  5,4  - yEA
+  5 11,1  | yID
   5 11,1  | yOD
   5  5,5  - zAC
   4  3,4  - AA
@@ -4166,6 +4208,8 @@
   4  5,8  | TEm
   4  5,8  - TEn
   4  5,8  | TEn
+  4  5,8  - TEt
+  4  5,8  | TEt
   4  5,8  - TEw
   4  5,8  | TEw
   4  5,8  - TEx
@@ -4262,6 +4306,7 @@
   4 11,6  | Te
   4  4,7  - TeLA
   4  4,7  - TeLI
+  4  1,1  - TeT
   4  1,1  - TgT
   4  5,4  | Th
   4 11,5  | Th
@@ -4329,6 +4374,7 @@
   4  8,7  - bORT
   4  2,2  - bOT
   4  8,2  | bOT
+  4  4,7  - cALO
   4  8,7  - cARO
   4  8,7  - cART
   4  1,1  - cATTI
@@ -4880,7 +4926,6 @@
   3  6,7  - LIr
   3  6,7  - LIs
   3  6,7  - LIt
-  3  6,7  - LIv
   3  6,7  - LIz
   3  6,7  - LO
   3  6,7  - LOa
@@ -5345,6 +5390,8 @@
   3  8,5  - kAI
   3  7,1  | kAL
   3  4,7  - kAL
+  3  5,5  - kATA
+  3  8,7  - kIR
   3  8,5  - kOI
   3  7,1  | kOL
   3  4,7  - kOL
@@ -5365,6 +5412,7 @@
   3  4,6  | lO
   3  8,7  - lOR
   3  1,1  - lOTA
+  3  1,1  - lOTI
   3  8,7  - lTR
   3  3,8  | lU
   3  5,5  | mA
@@ -5458,6 +5506,8 @@
   3  5,5  - rATO
   3  5,8  - rEA
   3  5,8  | rEA
+  3  5,8  - rEI
+  3  5,8  | rEI
   3  5,8  - rET
   3  5,8  | rET
   3  1,1  - rITA
@@ -5494,6 +5544,8 @@
   3  8,7  - tAR
   3  5,8  - tEA
   3  5,8  | tEA
+  3  5,8  - tET
+  3  5,8  | tET
   3  7,5  | tI
   3  4,6  | tI
   3  7,1  | tIL
@@ -5890,6 +5942,7 @@
   2  9,6  - TEl
   2  9,6  - TEm
   2  9,6  - TEn
+  2  9,6  - TEt
   2  9,6  - TEw
   2  9,6  - TEx
   2  9,6  - TEz
@@ -5958,6 +6011,7 @@
   2  8,7  - TdR
   2  3,1  - TeA
   2  8,6  - TeE
+  2  3,1  - TeT
   2  8,7  - TfR
   2  3,1  - TgT
   2  3,1  - ThA
@@ -6237,6 +6291,7 @@
   2  5,8  - rE
   2  5,8  | rE
   2  9,6  - rEA
+  2  9,6  - rEI
   2  9,6  - rET
   2  9,5  - rIA
   2  8,6  - rIE
@@ -6278,6 +6333,7 @@
   2  5,8  - tE
   2  5,8  | tE
   2  9,6  - tEA
+  2  9,6  - tET
   2  8,6  - tIE
   2  1,1  - tIT
   2  9,5  - tIT

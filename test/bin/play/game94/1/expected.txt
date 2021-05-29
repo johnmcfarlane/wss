@@ -76,6 +76,7 @@
  34  8,5  | pLAZA
  33  8,6  | LAZe
  33  8,6  | LAZy
+ 33  8,6  | LEZ
  33  8,6  | LaZE
  33  8,6  | LiZA
  33  8,4  | ZiLA
@@ -84,6 +85,7 @@
  32 10,1  | EnGAZE
  32 10,6  | EnGAZE
  32 10,2  | GAZEE
+ 32  8,6  | LeZ
  32  8,6  | LiZ
  32 10,1  | ZAGAiE
  32 10,5  | ZEnAGA
@@ -97,6 +99,7 @@
  30 11,6  | DAGAmE
  30 11,6  | DAlAGA
  30 11,6  | DAmAGE
+ 30  6,1  | GAZArs
  30  6,1  | GAZErs
  30  6,2  | GAZEs
  30 10,2  | GAZeE
@@ -708,6 +711,8 @@
  12 11,3  | mAED
  12 10,3  | mAZE
  12 11,3  | mEAD
+ 12 10,3  | mEZE
+ 12 10,5  | mEZE
  12  8,3  | mGAL
  12  7,5  | mOZE
  12 10,3  | mZEE
@@ -793,10 +798,12 @@
  11  9,5  | eVG
  11 10,5  | fEZ
  11 10,5  | gEZ
+ 11 10,5  | lEZ
  11  6,6  | sAZ
  11 10,5  | sEZ
  11  6,6  | sEZ
  11  6,6  | siZE
+ 11  6,6  | spAZ
  11 10,5  | tEZ
  11 10,5  | yEZ
  10 10,5  | AEAEAn
@@ -845,6 +852,8 @@
  10  6,2  | GAlAs
  10  5,5  - GAlE
  10  6,2  | GAlEs
+ 10  5,5  - GAmA
+ 10  6,2  | GAmAs
  10  5,5  - GAmE
  10  6,2  | GAmEs
  10  5,5  - GAnE
@@ -946,6 +955,7 @@
   9  3,5  - GAlA
   9  3,5  - GAlE
   9  8,3  | GAlLA
+  9  3,5  - GAmA
   9  3,5  - GAmE
   9  3,5  - GAnE
   9  3,5  - GApA
@@ -997,6 +1007,9 @@
   9  9,4  | dEVA
   9  8,3  | eAGLE
   9  9,4  | eAVE
+  9  5,5  - fAG
+  9  9,4  | fAVA
+  9  9,4  | fAVE
   9  5,5  - gAEA
   9  5,5  - gAG
   9  8,4  | gALGA
@@ -1070,6 +1083,7 @@
   8  9,6  | VEAu
   8  9,6  | VaG
   8  9,6  | VeG
+  8  9,6  | ViG
   8  9,6  | VoG
   8  9,6  | VuG
   8  8,5  | aLGA
@@ -1467,7 +1481,6 @@
   5 11,4  | AlDEA
   5  3,5  - AlEA
   5  8,4  | AlL
-  5  8,3  | AmALA
   5 11,4  | ArDEA
   5  3,5  - ArEA
   5 10,4  | ArEG
@@ -1799,7 +1812,6 @@
   4 11,4  | AiDE
   4  8,3  | AiEL
   4  8,3  | AkAL
-  4  8,3  | AmAL
   4  8,3  | AmEL
   4  8,3  | AnAL
   4 11,4  | AnDA
@@ -2008,6 +2020,7 @@
   4  6,3  | rAGs
   4  8,4  | rALE
   4 10,5  | rEG
+  4  6,3  | rEGs
   4  7,5  | rOG
   4 11,4  | sADE
   4  6,6  | sAG
@@ -2023,6 +2036,8 @@
   4 10,5  | sEG
   4  6,6  | sEG
   4  6,6  | sEGo
+  4  6,3  | sEGs
+  4  6,6  | sEGs
   4  6,6  | sEpG
   4  6,6  | sErG
   4  6,6  | sGAd
@@ -2060,6 +2075,7 @@
   4 11,4  | wADE
   4  6,3  | wAGs
   4  8,4  | wALE
+  4  7,5  | wOG
   4 11,4  | yADE
   4  8,4  | yALE
   4  6,3  | zAGs
@@ -2272,6 +2288,7 @@
   3  8,6  | LEv
   3  8,6  | LEx
   3  8,6  | LEy
+  3  8,6  | LEz
   3  4,5  - aAA
   3  8,4  | aAL
   3  6,5  - aE
@@ -2286,6 +2303,7 @@
   3  8,4  | bEL
   3 11,4  | cAD
   3  8,4  | cAL
+  3  8,4  | cEL
   3 11,4  | dAD
   3  8,4  | dAL
   3  4,5  - dEA
@@ -2875,6 +2893,7 @@
   1  6,6  | shE
   1  6,6  | siA
   1  6,6  | siE
+  1  6,6  | skA
   1  6,6  | slA
   1  6,6  | smA
   1  6,6  | soE

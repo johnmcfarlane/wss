@@ -140,6 +140,7 @@
  22  6,6  | SCArFE
  22  6,6  | SCrABE
  22  8,6  | dAG
+ 22  6,1  | dECAFS
  22  8,6  | sAG
  22  8,6  | sCAG
  22  8,6  | sEG
@@ -207,14 +208,17 @@
  20  2,2  | CABdA
  20  6,2  | CAFeS
  20  2,2  | CAFfA
+ 20  6,2  | CAFfS
  20  6,2  | CAGES
  20  6,1  | CAGErS
  20  4,4  | CAUFlE
  20  2,2  | CAaBA
  20  6,1  | CAdGES
  20  2,2  | CAfFA
+ 20  6,2  | CAfFS
  20  6,2  | CAlFS
  20  2,2  | CAoBA
+ 20  6,2  | CArBS
  20  6,2  | CEBuS
  20  2,2  | CEiBA
  20  2,2  | CaABA
@@ -554,6 +558,8 @@
  16  5,3  | FABLEd
  16  5,3  | FABLEr
  16  5,3  | FABLEs
+ 16  7,5  - FAG
+ 16  7,7  - FAG
  16  7,5  - FAGe
  16  7,7  - FAGe
  16  7,5  - FAGs
@@ -674,6 +680,8 @@
  15  5,5  | FLAmB
  15  5,3  | FaBLE
  15  4,5  - FaE
+ 15  7,5  - FaG
+ 15  7,7  - FaG
  15  4,5  - FeE
  15  7,5  - FeEB
  15  7,7  - FeEB
@@ -865,6 +873,7 @@
  14  7,5  - FAsC
  14  7,7  - FAsC
  14  6,2  | FAtES
+ 14  6,2  | FAvES
  14  6,2  | FAxES
  14  6,2  | FAzES
  14  4,5  - FE
@@ -936,7 +945,9 @@
  14  6,2  | fACES
  14  6,2  | lACES
  14  6,2  | lEAFS
+ 14  6,2  | mABES
  14  6,2  | mACES
+ 14  6,2  | nABES
  14  6,2  | nEFAS
  14  6,2  | pACES
  14  6,2  | rACES
@@ -1035,7 +1046,9 @@
  13  5,1  | FAECaL
  13  7,3  | FAGE
  13  7,3  | FAGEr
+ 13  3,4  | FAVE
  13  3,4  | FAVEl
+ 13  3,4  | FAVEs
  13  5,2  | FAmBLE
  13  7,5  - FAnG
  13  7,7  - FAnG
@@ -1522,6 +1535,8 @@
  11  5,4  | FALCo
  11  6,4  | FASCEs
  11  6,4  | FASCEt
+ 11  3,4  | FAVa
+ 11  3,4  | FAVe
  11  3,4  | FAVi
  11  7,5  - FAcE
  11  7,7  - FAcE
@@ -1543,6 +1558,8 @@
  11  5,3  | FArL
  11  7,5  - FAtE
  11  7,7  - FAtE
+ 11  7,5  - FAvE
+ 11  7,7  - FAvE
  11  7,5  - FAzE
  11  7,7  - FAzE
  11  7,1  | FEAGuE
@@ -1561,6 +1578,8 @@
  11  5,5  | FLECt
  11  7,5  - FaE
  11  7,7  - FaE
+ 11  3,4  | FaVA
+ 11  3,4  | FaVE
  11  5,3  | FeAL
  11  5,2  | FeCAL
  11  7,5  - FeE
@@ -1604,6 +1623,7 @@
  11  5,6  | LoAF
  11  4,6  | UnG
  11  3,6  | VAC
+ 11  3,6  | VACs
  11  3,6  | VAGuE
  11  3,6  | ViBE
  11  3,6  | ViCA
@@ -1623,12 +1643,16 @@
  11  6,5  - iFE
  11  6,7  - iFE
  11  7,7  - lACE
+ 11  7,5  - mABE
+ 11  7,7  - mABE
  11  7,5  - mACE
  11  7,7  - mACE
  11  7,5  - mCG
  11  7,7  - mCG
  11  7,5  - mFG
  11  7,7  - mFG
+ 11  7,5  - nABE
+ 11  7,7  - nABE
  11  7,5  - nACE
  11  7,7  - nACE
  11  7,5  - nBG
@@ -1884,6 +1908,8 @@
  10  7,2  | FAdGE
  10  7,5  - FAe
  10  7,7  - FAe
+ 10  7,5  - FAg
+ 10  7,7  - FAg
  10  7,3  | FAgE
  10  7,5  - FAh
  10  7,7  - FAh
@@ -1903,6 +1929,7 @@
  10  7,5  - FAt
  10  7,7  - FAt
  10  7,3  | FAtE
+ 10  7,3  | FAvE
  10  7,5  - FAx
  10  7,7  - FAx
  10  7,5  - FAy
@@ -2048,6 +2075,7 @@
  10  6,5  - oF
  10  6,7  - oF
  10  7,5  - pAC
+ 10  7,5  - pEC
  10  5,4  | pFLAG
  10  7,5  - rAB
  10  7,7  - rAB
@@ -2178,6 +2206,7 @@
   9  7,5  | BEGEt
   9  6,3  | BEGS
   9  4,3  | BEaU
+  9  4,3  | BEdU
   9  7,5  | BEeF
   9  4,3  | BEnU
   9  2,3  | BEtAG
@@ -2231,6 +2260,7 @@
   9  5,2  | CAmEL
   9  5,2  | CAnEL
   9  5,2  | CApEL
+  9  2,5  | CArB
   9  2,5  | CArF
   9  2,5  | CArGA
   9  5,2  | CAtEL
@@ -2473,6 +2503,7 @@
   9  4,5  - fAE
   9  7,5  - fAGE
   9  7,7  - fAGE
+  9  3,4  | fAVE
   9  5,2  | fECAL
   9  1,5  - fF
   9  4,4  | gAUGE
@@ -2643,6 +2674,7 @@
   8  6,3  | BaGS
   8  6,3  | BeGS
   8  2,3  | BiGA
+  8  6,3  | BiGS
   8  2,3  | BoGA
   8  6,3  | BoGS
   8  2,4  | BrAG
@@ -2697,6 +2729,7 @@
   8  6,5  - ErF
   8  6,5  - EtC
   8  5,3  | ExCL
+  8  2,5  | FAG
   8  2,5  | FAGe
   8  2,5  | FAGs
   8  5,4  | FALsE
@@ -2802,6 +2835,7 @@
   8  3,6  | VEAu
   8  3,6  | VaG
   8  3,6  | VeG
+  8  3,6  | ViG
   8  3,6  | VoG
   8  3,6  | VuG
   8  2,3  | aGBA
@@ -2822,6 +2856,8 @@
   8  2,3  | eGBA
   8  4,5  | eUGE
   8  5,3  | fABLE
+  8  7,5  - fAG
+  8  7,7  - fAG
   8  5,3  | gABLE
   8  5,4  | gALBE
   8  5,3  | hABLE
@@ -3064,6 +3100,7 @@
   7  5,4  | CALk
   7  5,4  | CALl
   7  5,4  | CALm
+  7  5,4  | CALo
   7  5,4  | CALp
   7  5,4  | CALs
   7  5,4  | CALx
@@ -3081,8 +3118,10 @@
   7  2,5  | CAvAE
   7  2,5  | CAvEA
   7  6,3  | CEASe
+  7  5,4  | CEL
   7  5,4  | CELe
   7  5,4  | CELl
+  7  5,4  | CELs
   7  5,4  | CELt
   7  6,4  | CESAr
   7  6,4  | CEStA
@@ -3492,6 +3531,7 @@
   6  2,3  | ArCA
   6  2,6  | ArCA
   6  6,3  | ArCS
+  6  6,3  | ArFS
   6  7,4  | AtEF
   6  2,6  | AtEF
   6  2,3  | AuCA
@@ -3540,6 +3580,7 @@
   6  2,5  | BAnA
   6  2,5  | BAnE
   6  6,3  | BAnS
+  6  6,3  | BApS
   6  2,3  | BArA
   6  2,5  | BArA
   6  2,5  | BArE
@@ -3711,6 +3752,7 @@
   6  7,5  | CEdE
   6  6,3  | CEeS
   6  7,5  | CElE
+  6  6,3  | CElS
   6  7,5  | CEnE
   6  7,5  | CEpE
   6  6,3  | CEpS
@@ -3738,6 +3780,7 @@
   6  6,4  | CaSA
   6  6,4  | CaSE
   6  6,3  | CeES
+  6  5,4  | CeL
   6  2,3  | ChAA
   6  2,4  | ChAA
   6  7,4  | ChEE
@@ -3793,6 +3836,7 @@
   6  6,3  | EfFS
   6  2,3  | EgBA
   6  7,4  | ElEC
+  6  6,3  | EmFS
   6  7,2  | EnAGE
   6  2,3  | EsCA
   6  4,4  | EtUA
@@ -3828,6 +3872,9 @@
   6  6,3  | FAsS
   6  2,5  | FAtE
   6  6,3  | FAtS
+  6  2,3  | FAvA
+  6  2,5  | FAvA
+  6  2,5  | FAvE
   6  6,3  | FAyS
   6  2,5  | FAzE
   6  2,4  | FEAk
@@ -3857,10 +3904,12 @@
   6  6,3  | FEdS
   6  6,3  | FEeS
   6  6,3  | FEgS
+  6  6,3  | FEhS
   6  6,3  | FEiS
   6  7,5  | FElE
   6  6,3  | FElS
   6  7,5  | FEmE
+  6  6,3  | FEmS
   6  6,3  | FEnS
   6  7,5  | FErE
   6  6,3  | FErS
@@ -4131,6 +4180,7 @@
   6  7,3  | jEFE
   6  7,5  | jEFE
   6  6,3  | kABS
+  6  6,3  | kAFS
   6  7,4  | kEEF
   6  7,5  | kEEF
   6  6,3  | kEFS
@@ -4150,6 +4200,8 @@
   6  4,7  - mA
   6  2,3  | mABA
   6  2,5  | mABA
+  6  7,3  | mABE
+  6  2,5  | mABE
   6  7,3  | mACE
   6  2,5  | mACE
   6  6,3  | mACS
@@ -4159,6 +4211,8 @@
   6  6,5  | mSEC
   6  4,5  - nA
   6  4,7  - nA
+  6  7,3  | nABE
+  6  2,5  | nABE
   6  6,3  | nABS
   6  7,3  | nACE
   6  2,5  | nACE
@@ -4186,6 +4240,7 @@
   6  6,3  | pACS
   6  2,3  | pEBA
   6  7,5  | pEBA
+  6  6,3  | pECS
   6  5,5  | pLF
   6  6,5  | pSEC
   6  4,5  | pUB
@@ -4223,6 +4278,7 @@
   6  7,5  | tECA
   6  4,5  | tUB
   6  6,5  | uSAGE
+  6  6,3  | vACS
   6  4,4  | vAUG
   6  4,3  | vEAU
   6  2,4  | wAAC
@@ -4424,6 +4480,7 @@
   5  2,5  | CAw
   5  2,5  | CAy
   5  7,5  | CEe
+  5  7,5  | CEl
   5  7,5  | CEp
   5  6,5  | CSc
   5  6,5  | CSk
@@ -4501,6 +4558,7 @@
   5  2,5  | FAc
   5  2,5  | FAd
   5  2,5  | FAe
+  5  2,5  | FAg
   5  2,5  | FAh
   5  2,5  | FAm
   5  2,5  | FAn
@@ -4571,6 +4629,8 @@
   5  2,5  | GAlA
   5  2,5  | GAlE
   5  6,3  | GAlS
+  5  2,3  | GAmA
+  5  2,5  | GAmA
   5  2,5  | GAmE
   5  6,3  | GAmS
   5  2,5  | GAnE
@@ -4696,6 +4756,7 @@
   5  6,6  | SCt
   5  6,6  | SEG
   5  6,6  | SEGo
+  5  6,6  | SEGs
   5  6,6  | SEpG
   5  6,6  | SErG
   5  6,6  | SFm
@@ -4850,6 +4911,7 @@
   5  2,5  | pAGE
   5  2,4  | pEAG
   5  7,5  | pEAG
+  5  7,5  | pEC
   5  6,3  | pEGS
   5  4,5  | pUG
   5  2,5  | rAB
@@ -4861,6 +4923,7 @@
   5  7,5  | rEB
   5  7,5  | rEC
   5  7,5  | rEF
+  5  6,3  | rEGS
   5  4,5  | rUG
   5  2,5  | sAB
   5  2,5  | sAC
@@ -4870,6 +4933,7 @@
   5  2,5  | sAGE
   5  6,3  | sAGS
   5  7,5  | sEC
+  5  6,3  | sEGS
   5  2,5  | tAB
   5  6,3  | tAGS
   5  6,4  | tBS
@@ -5079,6 +5143,7 @@
   4  6,5  - eE
   4  7,5  - fAE
   4  7,7  - fAE
+  4  2,5  | fAG
   4  5,3  | fEAL
   4  5,5  | fLEA
   4  5,3  | gAEL
@@ -5317,6 +5382,7 @@
   3  5,6  | LEv
   3  5,6  | LEx
   3  5,6  | LEy
+  3  5,6  | LEz
   3  5,6  | LeA
   3  5,6  | LeE
   3  5,6  | LiE
@@ -5369,6 +5435,7 @@
   3  6,4  | bESA
   3  5,4  | cAL
   3  6,4  | cASE
+  3  5,4  | cEL
   3  4,5  | cUE
   3  1,5  - dA
   3  1,7  - dA
@@ -5708,6 +5775,7 @@
   2  6,6  | ShE
   2  6,6  | SiA
   2  6,6  | SiE
+  2  6,6  | SkA
   2  6,6  | SlA
   2  6,6  | SmA
   2  6,6  | SoE

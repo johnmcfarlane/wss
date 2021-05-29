@@ -15,6 +15,8 @@
  40  6,10 - DEMIT
  40  5,10 - DeFEIT
  39  3,11 - DEFaMES
+ 39 11,3  | EMFs
+ 39 11,3  | FEMs
  38  5,10 - DEFEIt
  38  6,10 - FElID
  38  6,10 - FEtID
@@ -87,6 +89,7 @@
  28  5,10 - DEfEIT
  28  6,1  | MEEDFUl
  28  5,10 - rEEDIT
+ 27 11,2  | DEETs
  27 10,8  | DIF
  26  6,10 - EThID
  26  6,10 - EnEID
@@ -158,6 +161,7 @@
  20  8,5  | FIeD
  20  6,5  - FMt
  20  6,5  | FUElED
+ 20  6,5  | FUTzED
  20  6,5  - FaM
  20 10,9  | IF
  20  9,10 - IF
@@ -174,6 +178,7 @@
  20  6,2  | TEDiUM
  20  6,5  | TUFtED
  20  6,5  | TUMmED
+ 20  6,5  | TUMpED
  20  6,5  | TUmMED
  20  6,5  | TUrFED
  20  6,6  | UnDEFT
@@ -187,6 +192,7 @@
  20  8,10 - lIF
  20  6,5  - mMF
  20  6,5  | oUTFED
+ 20  8,10 - rIF
  20  6,5  | tUFTED
  19  1,7  - DEFEiT
  19  6,8  - DEMIT
@@ -292,6 +298,7 @@
  16  7,5  | MADEFy
  16  5,10 - MEDiI
  16  7,3  | METAlED
+ 16 11,7  | MEZE
  16 11,7  | MEZEs
  16  5,10 - MEnDI
  16  8,8  - MIT
@@ -346,10 +353,12 @@
  15  5,6  | GEmMED
  15 10,4  | MECaTI
  15  7,3  | MEDAlET
+ 15 11,7  | MEZe
  15  5,3  | MErGED
  15  6,8  - MEtIF
  15 11,8  | MZEe
  15 11,7  | MaZE
+ 15 11,7  | MeZE
  15  5,3  | MiDGET
  15 11,7  | MiZE
  15 11,7  | MoZE
@@ -617,16 +626,19 @@
  12  5,7  - iTD
  12  8,10 - kID
  12  8,10 - lID
+ 12 11,7  | mEZE
  12  8,10 - mID
  12 11,7  | oDZ
  12  8,5  | pIET
  12  5,8  - rEEDIT
+ 12  7,3  | rEMATED
  12  6,10 - rEMI
  12  8,10 - rID
  12  6,10 - sEMI
  12  7,3  | sTEAMED
  12  8,10 - vID
  12  8,10 - wID
+ 12  8,10 - yID
  12  6,10 - zEMI
  11  7,6  | ADaM
  11  7,6  | AMEDEo
@@ -765,6 +777,7 @@
  11 11,7  | gEZ
  11  6,7  - hM
  11  7,4  | lEAFED
+ 11 11,7  | lEZ
  11  6,5  - mM
  11  6,7  - mM
  11  7,1  | oEDEMA
@@ -814,6 +827,7 @@
  10  5,8  - DEfEIT
  10  7,2  | DEsEAM
  10  6,3  | DEsUME
+ 10  8,3  | DExIE
  10  8,8  - DIT
  10  7,3  | DeFAT
  10  7,11 - DiSME
@@ -822,6 +836,7 @@
  10  7,2  | EDeMA
  10  6,3  | EFfUDE
  10  5,8  - EMErIT
+ 10  6,11 - EMFS
  10  7,10 - EdIT
  10  8,3  | EfFIE
  10  6,3  | EfFUDE
@@ -846,6 +861,7 @@
  10  7,5  | FAxED
  10  7,5  | FAyED
  10  7,5  | FAzED
+ 10  6,11 - FEMS
  10  5,11 - FEMeS
  10  7,11 - FESTE
  10  6,8  - FETId
@@ -978,6 +994,7 @@
  10  7,5  | rAFTED
  10  7,5  | rAMED
  10  7,10 - rEIT
+ 10  8,8  - rIF
  10  8,8  - rIM
  10  7,10 - sEIT
  10  8,8  - sIM
@@ -1080,6 +1097,7 @@
   9  6,5  | FUmED
   9  6,5  | FUsED
   9  6,5  | FUzED
+  9  6,11 - FeMS
   9  7,11 - FeSTE
   9  6,4  | FeUED
   9  7,4  | FlAM
@@ -1112,6 +1130,7 @@
   9  7,1  | METEpA
   9  6,4  | MEUTE
   9 10,3  | MErC
+  9  4,11 - MErDES
   9  6,8  - MErIT
   9  5,4  | MTGE
   9  6,5  | MUDEe
@@ -1139,6 +1158,7 @@
   9  7,2  | dEFEAT
   9 10,8  | dIT
   9  6,3  | eMEUTE
+  9  6,11 - eMFS
   9  7,5  | fADME
   9 10,8  | fIT
   9  6,5  | fUMED
@@ -1156,6 +1176,7 @@
   9  6,3  | rEFUTE
   9  7,8  - rEID
   9  7,3  | rEMADE
+  9  7,2  | rETEAM
   9  8,3  | rETIE
   9  6,3  | sEDUM
   9  7,8  - sEID
@@ -1476,6 +1497,7 @@
   8  6,5  | qUEME
   8  7,5  | rAMEE
   8  7,5  | rAMET
+  8  7,3  | rEMATE
   8  8,3  | rEMI
   8  6,3  | rEMUE
   8  7,3  | rETAME
@@ -1647,6 +1669,7 @@
   7  6,5  | FUEl
   7  6,5  | FUT
   7  6,5  | FUTe
+  7  6,5  | FUTz
   7  6,5  | FUmE
   7  6,5  | FUnT
   7  6,5  | FUsE
@@ -1656,6 +1679,7 @@
   7  6,5  | FUzE
   7  4,5  - Fa
   7  6,11 - FaDS
+  7  5,4  | FaG
   7  5,11 - FaTES
   7  6,4  | FaUT
   7  6,11 - FeDS
@@ -1738,6 +1762,7 @@
   7  5,11 - MElTS
   7  6,11 - MEnSE
   7  6,3  | MEnU
+  7  6,3  | MEoU
   7  5,11 - MErES
   7  6,11 - MErSE
   7  6,11 - MEsSE
@@ -1955,6 +1980,7 @@
   6  7,6  | AwED
   6  7,6  | AxED
   6  7,5  | DAnTE
+  6  5,11 - DEETS
   6  5,4  | DEGu
   6  7,8  - DEI
   6  5,11 - DETESt
@@ -2011,11 +2037,13 @@
   6  5,5  | EGaD
   6  7,11 - EMS
   6  6,11 - EMeS
+  6  6,11 - EMfS
   6  6,11 - EMuS
   6  6,11 - EMyS
   6 10,4  | ETC
   6  6,4  | ETUDe
   6  3,5  - ETa
+  6 10,3  | ETiC
   6  4,11 - ETuDES
   6  6,10 - ETuI
   6  7,3  | EcTAD
@@ -2025,6 +2053,7 @@
   6 10,3  | ElEC
   6  6,11 - ElMS
   6  6,4  | ElUDE
+  6  6,11 - EmFS
   6  7,4  | EnAM
   6  6,3  | EnDUE
   6  7,3  | EnTAD
@@ -2051,6 +2080,7 @@
   6  7,5  | FAsT
   6  7,5  | FAtE
   6  7,5  | FAuT
+  6  7,5  | FAvE
   6  7,5  | FAzE
   6  7,4  | FEAk
   6  7,4  | FEAl
@@ -2061,8 +2091,10 @@
   6  6,11 - FEdS
   6  6,11 - FEeS
   6  6,11 - FEgS
+  6  6,11 - FEhS
   6  6,11 - FEiS
   6  6,11 - FElS
+  6  6,11 - FEmS
   6  6,11 - FEnS
   6  6,11 - FErS
   6  6,11 - FEsS
@@ -2129,6 +2161,7 @@
   6  7,5  | MATt
   6  7,5  | MATy
   6  7,5  | MAaT
+  6  7,5  | MAbE
   6  7,5  | MAcE
   6  7,5  | MAdE
   6  7,5  | MAgE
@@ -2280,6 +2313,7 @@
   6  6,4  | eMU
   6  6,4  | eTUDE
   6  7,5  | fAME
+  6  6,11 - fEMS
   6  7,11 - fESTE
   6  6,4  | fEUED
   6  8,8  - fID
@@ -2364,6 +2398,7 @@
   6  7,11 - wESTE
   6  8,8  - wID
   6  6,10 - yETI
+  6  8,8  - yID
   6  6,5  | yUM
   5  7,6  | ADEpT
   5  7,6  | ADiT
@@ -2413,12 +2448,14 @@
   5  5,11 - DEEpS
   5  5,11 - DEErS
   5  5,11 - DEEsS
+  5  5,11 - DEEtS
   5  7,11 - DESEx
   5  7,11 - DESTo
   5  6,4  | DEUl
   5  6,4  | DEUs
   5  6,4  | DEUx
   5  5,11 - DEbTS
+  5  5,11 - DEeTS
   5  6,3  | DEgU
   5  6,11 - DEiST
   5  5,11 - DEkES
@@ -2453,6 +2490,7 @@
   5  5,4  | DaG
   5  5,11 - DaTES
   5  6,4  | DaUT
+  5  5,11 - DeETS
   5  4,7  - Di
   5  5,11 - DiETS
   5  5,4  | DiG
@@ -2503,6 +2541,7 @@
   5  7,5  | FAc
   5  7,5  | FAd
   5  7,5  | FAe
+  5  7,5  | FAg
   5  7,5  | FAh
   5  7,5  | FAm
   5  7,5  | FAn
@@ -2630,6 +2669,7 @@
   5  7,10 - aMI
   5  7,5  | bAM
   5 10,4  | bEC
+  5  6,3  | bEDU
   5  8,11 - bSF
   5  6,5  | bUDE
   5  7,5  | cAF
@@ -2686,6 +2726,7 @@
   5  5,4  | lEGE
   5  6,4  | lEUD
   5  8,5  | lIE
+  5  6,5  | lUDE
   5  7,5  | mAM
   5  6,7  - mE
   5  5,11 - mEEDS
@@ -2706,6 +2747,7 @@
   5  7,5  | pAM
   5  7,5  | pATEE
   5  6,7  - pE
+  5 10,4  | pEC
   5  5,11 - pEDES
   5  8,5  | pIE
   5  6,5  | qUEET
@@ -2944,6 +2986,7 @@
   4  7,4  | TEAzE
   4  6,11 - TEES
   4  6,11 - TEESt
+  4  5,11 - TEElS
   4  5,11 - TEEmS
   4  5,11 - TEEnS
   4  6,4  | TEUk
@@ -3049,6 +3092,7 @@
   4  8,10 | dE
   4  7,4  | dEAD
   4  7,3  | dEDA
+  4  5,11 - dEETS
   4  7,8  - dEI
   4  8,8  - dIT
   4  6,5  | dUD
@@ -3133,6 +3177,7 @@
   4  6,11 - rEDS
   4  6,11 - rEEST
   4  5,4  | rEG
+  4  7,8  - rEI
   4  8,8  - rIT
   4  7,8  - rTI
   4  6,5  | rUD
@@ -3298,9 +3343,11 @@
   3  6,11 - TEeS
   3  6,11 - TEgS
   3  6,8  - TElI
+  3  6,11 - TElS
   3  6,11 - TEnS
   3  6,8  - TErI
   3  6,11 - TEsS
+  3  6,11 - TEtS
   3  6,11 - TEwS
   3  6,5  | TUa
   3  6,5  | TUb
@@ -3384,6 +3431,7 @@
   3  7,5  | hATE
   3  7,4  | hEAT
   3  7,11 - hEST
+  3  6,11 - hETS
   3  6,5  | hUE
   3  6,5  | hUT
   3  7,11 - iDS
@@ -3459,6 +3507,7 @@
   3  7,4  | tEAT
   3  6,11 - tEES
   3  7,11 - tEST
+  3  6,11 - tETS
   3  6,5  | tUE
   3  6,5  | tUT
   3  7,11 - uDS
@@ -3700,6 +3749,8 @@
   2  7,11 - qTS
   2  7,5  | rAT
   2  7,4  | rEA
+  2  8,4  | rEI
+  2  7,10 - rEI
   2  7,11 - rES
   2  8,4  | rTI
   2  7,10 - rTI

@@ -3,6 +3,7 @@
  48  7,11 - OZS
  48  7,11 - POW
  48  7,11 - PSW
+ 48  7,11 - WOP
  45  8,11 - FP
  45  6,11 - SNOP
  45  6,11 - SNOW
@@ -40,6 +41,7 @@
  24  7,11 - NOS
  24  8,11 - ON
  24  7,11 - ONS
+ 23  9,7  - ZIN
  21  9,9  | DOP
  21  9,9  | DOW
  21 11,5  | FON
@@ -63,6 +65,7 @@
  18 11,5  | SON
  18  7,2  | SOW
  18  4,4  - SPAWN
+ 18  4,4  - SPAZ
  18  5,4  - WASP
  18  7,2  | WOS
  18  5,4  - ZAPS
@@ -77,6 +80,8 @@
  16  4,4  - OZAN
  16  5,4  - PAWNS
  16 11,5  | PO
+ 16  4,2  - SPAZ
+ 16  4,6  - SPAZ
  16 11,5  | WO
  16  4,4  - WOAN
  16  5,2  - ZAPS
@@ -186,6 +191,7 @@
  11  5,6  - PAWN
  11  4,6  | PFG
  11  9,7  - PIN
+ 11  4,5  | PONGS
  11  3,5  - POST
  11  7,4  | SON
  11  3,4  - SOWAN
@@ -261,6 +267,7 @@
   9  5,2  - WAP
   9  5,4  - WAP
   9  5,6  - WAP
+  9  4,6  | WOGS
   8  6,2  | ANATAsES
   8  6,2  - AWNS
   8 11,9  | EEN
@@ -313,6 +320,7 @@
   8  5,6  - WASN
   8  4,2  - WOAN
   8  4,6  - WOAN
+  8  4,6  | WOG
   8  4,3  - WON
   7  6,2  - ASOP
   7  6,2  - AWN

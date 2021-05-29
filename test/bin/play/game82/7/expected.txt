@@ -371,6 +371,7 @@
  20  2,4  | yIP
  20  2,4  | zIP
  19  2,6  - LAP
+ 19  2,8  | LOTI
  19  1,6  - LeAP
  19  1,6  - PIAL
  19  4,4  | PISOtE
@@ -411,6 +412,7 @@
  18  8,7  - IXiL
  18  4,5  - LIPa
  18  4,4  | LaIOSE
+ 18  2,3  | LePT
  18  4,4  | LuTOSE
  18  2,8  - PIS
  18  2,3  | PIST
@@ -512,9 +514,11 @@
  16  6,2  | LISTENs
  16  2,8  - LIlTS
  16  2,8  - LInTS
+ 16  5,4  | LIrI
  16  6,2  | LIsTENS
  16  2,8  - LIsTS
  16  2,8  | LOTa
+ 16  2,8  | LOTi
  16  2,8  | LOTo
  16  6,1  | LeISTEN
  16  1,9  | MaP
@@ -565,6 +569,7 @@
  16  7,2  | SaQIB
  16  2,3  | SePT
  16  2,3  | ShPT
+ 16 10,2  | ShTIK
  16 10,2  | SoTIK
  16  2,3  | SuPT
  16  2,8  | TOL
@@ -597,6 +602,7 @@
  15  2,8  | LObI
  15  2,8  | LOkI
  15  2,8  | LOlI
+ 15  2,8  | LOtI
  15  1,11 - PISS
  15  1,11 - PIST
  15  4,4  | PInO
@@ -844,6 +850,7 @@
  13  2,8  | hOTI
  13  2,8  | kOL
  13  2,8  - lIST
+ 13  2,8  | lOTI
  13  2,8  - mIST
  13  2,8  | mOL
  13  2,8  - nIST
@@ -934,6 +941,7 @@
  12  2,8  | SOlI
  12  1,6  - SPA
  12  3,11 - SPIeS
+ 12  4,2  | SPInTO
  12  2,4  | SPa
  12  2,4  | SPl
  12  2,4  | SPp
@@ -1042,6 +1050,7 @@
  12  4,5  - vIP
  12  7,11 - wIDTH
  12  2,3  | wILT
+ 12  1,7  | wIMPS
  12  2,3  | yILT
  12  4,5  - yIP
  12  4,5  - zIP
@@ -1053,6 +1062,7 @@
  11  8,8  | ItA
  11  1,6  - ItAL
  11  1,7  | LIMP
+ 11  1,7  | LIMPa
  11  1,7  | LIMPs
  11  1,7  | LIMPy
  11  1,6  | LITMuS
@@ -1396,6 +1406,7 @@
   9  6,5  | PENeST
   9  6,5  | PENtIT
   9  7,9  | PEa
+  9  7,9  | PEc
   9  7,9  | PEd
   9  7,9  | PEe
   9  7,9  | PEg
@@ -1431,6 +1442,8 @@
   9  4,3  | PaTIO
   9  4,5  - PcT
   9  4,5  - PeS
+  9  8,2  | PeSTO
+  9  4,3  | PeSTO
   9  4,5  - PeT
   9  4,5  - PhT
   9 10,4  | PiK
@@ -1440,6 +1453,7 @@
   9  1,6  | PlIM
   9 10,4  | PmK
   9  8,9  - Po
+  9  1,7  | PoMS
   9  4,5  - PoS
   9  4,5  - PoT
   9  4,5  - PpS
@@ -1556,6 +1570,7 @@
   9  4,5  - uPS
   9  6,3  | uPSENT
   9  2,6  - vAL
+  9  1,7  | wIMP
   9  8,7  - xX
   9  2,8  | yOT
   8  6,6  | ENaPT
@@ -1725,6 +1740,7 @@
   8  2,8  | SOy
   8  6,4  | SPENd
   8  6,4  | SPENt
+  8  8,1  | SPInTO
   8  6,3  | SPeEN
   8  4,5  - SPp
   8  4,5  - SPt
@@ -1844,6 +1860,7 @@
   8  6,4  | pLENIST
   8  7,4  | pPB
   8  1,7  | pPM
+  8  1,6  - rIAS
   8  6,3  | rIPEN
   8  2,4  | rIT
   8  7,11 - rLD
@@ -2093,6 +2110,7 @@
   7  1,6  | pILM
   7 10,3  | pISK
   7  1,6  | pLIM
+  7  7,8  - rIF
   7 10,3  | rISK
   7  6,3  | sILENT
   7  4,4  | sILO
@@ -2133,6 +2151,7 @@
   6  2,4  | ITd
   6  1,6  | ITeM
   6  4,4  | ITmO
+  6 10,4  | IcK
   6  4,5  - IdS
   6  3,8  - IdS
   6  4,5  - IfS
@@ -2591,6 +2610,7 @@
   5  7,9  | LEv
   5  7,9  | LEx
   5  7,9  | LEy
+  5  7,9  | LEz
   5  7,8  | LIE
   5  7,8  | LIEd
   5  7,8  | LIEf
@@ -2952,6 +2972,7 @@
   4  6,5  | SEN
   4  6,5  | SENa
   4  6,5  | SENd
+  4  6,5  | SENe
   4  6,5  | SENt
   4  7,9  | SET
   4  2,8  - SI
@@ -2987,6 +3008,7 @@
   4  1,6  - SiA
   4  8,3  | SiLO
   4  1,11 - SiS
+  4  1,6  - SkA
   4  7,8  | SkEL
   4  6,4  | SkEN
   4  3,11 - SkI
@@ -3208,6 +3230,7 @@
   3  7,9  | TEl
   3  7,9  | TEm
   3  7,9  | TEn
+  3  7,9  | TEt
   3  7,9  | TEw
   3  7,9  | TEx
   3  7,9  | TEz
@@ -3235,6 +3258,7 @@
   3  8,4  | bLO
   3  1,11 - bLS
   3  6,9  | bTL
+  3  7,9  | cEL
   3  7,8  | cIE
   3  1,11 - cIST
   3  8,4  | cLO
@@ -3482,6 +3506,7 @@
   2  1,11 - qIS
   2  6,9  | qTS
   2  1,11 - qTS
+  2  7,9  | rEI
   2  7,9  | rES
   2  7,9  | rET
   2  8,4  | rIO
@@ -3494,6 +3519,7 @@
   2  2,8  | sO
   2  2,11 - sSI
   2  2,6  - tA
+  2  7,9  | tET
   2  2,8  - tI
   2  1,11 - tIS
   2  4,6  | tO

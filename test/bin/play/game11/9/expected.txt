@@ -1,8 +1,10 @@
  48  1,9  - FaMINE
  47  9,5  | QErE
  47  9,5  | QErI
+ 47  2,8  | WaQF
  45  1,9  - EQuINE
  42  4,2  - WaQF
+ 40  2,7  | FIQuE
  39  1,9  - ErMINE
  39  1,9  - dEFINE
  39  1,9  - hEMINE
@@ -19,21 +21,29 @@
  32  4,8  | Fa
  32  4,8  | Ma
  32  4,8  | Mo
+ 32  4,8  | Wo
  31  7,5  - FEMIc
  31  2,7  | FInEW
  31  2,7  | IMmEW
  31  2,7  | ImMEW
  31  2,7  | InMEW
  31  9,5  | MEtIF
+ 31  2,7  | MEtIF
  30  3,7  | MIQrA
  30  7,5  - MoWIE
  30  2,9  | QuE
+ 29  2,9  | EMF
  29  2,9  | FEW
  29  2,8  | FlEW
+ 29  2,8  | IMpF
  29  2,9  | MEW
  29  2,8  | MEaW
  29  2,8  | MEoW
+ 29  2,8  | MIfF
  29  2,9  | QIs
+ 29  2,8  | WElF
+ 29  2,8  | WErF
+ 29  2,8  | WaIF
  29  2,8  | sMEW
  28  9,5  | FErME
  28  9,5  | FErMI
@@ -49,11 +59,17 @@
  27  1,9  - MEdINE
  27  1,9  - MElINE
  27  2,9  | MaW
+ 27  2,9  | McF
  27  2,9  | MeW
+ 27  2,9  | MmF
  27  2,9  | MoW
  27  7,9  | WEB
  27  2,7  | WIFEd
  27  2,7  | WIFEs
+ 27  2,9  | WaF
+ 27  2,9  | WhF
+ 27  2,9  | eMF
+ 27  2,9  | mMF
  26  7,8  | EF
  26  7,8  | EW
  26  2,8  | FaME
@@ -64,15 +80,19 @@
  26  2,8  | WaME
  26  2,8  | WiFE
  26  2,8  | WiME
+ 25  2,8  | EMFs
  25  2,8  | FEMe
+ 25  2,8  | FEMs
  25  9,5  | FErIE
  25  7,9  | FoB
  25  7,9  | FuB
  25  2,8  | MEWl
  25  2,8  | MEWs
+ 25  2,8  | MIFf
  25  2,8  | WEFt
  25  2,8  | WIFe
  25  2,8  | WIMe
+ 25  2,8  | WIMp
  25  7,9  | WeB
  25  7,9  | WoB
  25 10,9  | WoK
@@ -102,6 +122,7 @@
  24  7,5  - fIFIE
  24  4,2  - sWIM
  23  1,10 - EMF
+ 23  2,8  | EnIF
  23  7,5  | FAcE
  23  7,5  | FAgE
  23  7,5  | FAtE
@@ -125,8 +146,16 @@
  23  1,10 - WIM
  23  7,5  - dEFI
  23  7,5  - dEMI
+ 23  2,8  | fEIF
+ 23  2,8  | fIEF
+ 23  2,8  | kIEF
  23  7,5  - kIWI
+ 23  2,8  | lEIF
+ 23  2,8  | lIEF
  23  7,5  - mIMI
+ 23  2,8  | nEIF
+ 23  2,8  | rEIF
+ 23  2,8  | sEIF
  23 11,1  | sILE
  23 11,1  | tELI
  23 11,1  | tILE
@@ -170,11 +199,19 @@
  22  5,2  - lWM
  22  5,2  - mMF
  22  5,2  - sFM
+ 21  2,10 | EF
  21  2,10 | EW
+ 21  2,9  | EfF
+ 21  2,9  | ElF
+ 21  2,9  | EmF
+ 21  2,9  | ErF
  21  3,9  - FINEWEd
  21  1,10 - FaM
  21  1,10 - FeM
  21  1,10 - FuM
+ 21  2,10 | IF
+ 21  2,9  | IfF
+ 21  2,9  | InF
  21  3,7  - MIZAr
  21  4,8  - MOPIEr
  21  1,10 - McF
@@ -192,21 +229,33 @@
  21  1,10 - aWM
  21  1,10 - cFM
  21  1,10 - cWM
+ 21  2,9  | dEF
  21  2,9  | dEW
+ 21  2,9  | dIF
  21  1,10 - eMF
  21  2,9  | fEW
+ 21  2,9  | gIF
  21  2,9  | hEW
+ 21  2,9  | jEW
+ 21  2,9  | kEF
+ 21  2,9  | kIF
+ 21  2,9  | lIF
  21  1,10 - lWM
  21  2,9  | mEW
  21  1,10 - mMF
+ 21  2,9  | nEF
  21  2,9  | nEW
  21  3,7  - nIZAM
  21  2,9  | pEW
+ 21  2,9  | rEF
  21  2,9  | rEW
+ 21  2,9  | rIF
  21  2,9  | sEW
  21  1,10 - sFM
  21  2,9  | tEW
  21  2,9  | yEW
+ 20  4,2  - EMFs
+ 20  4,2  - FEMs
  20  2,9  | FIE
  20  3,9  - FINEW
  20  2,8  | FIcE
@@ -274,10 +323,12 @@
  19  2,8  | EMIl
  19  2,8  | EMIr
  19  2,8  | EMIt
+ 19  2,8  | FEIf
  19  2,8  | FEIl
  19  2,8  | FEIs
  19  9,5  - FIE
  19  2,8  | FIEd
+ 19  2,8  | FIEf
  19  2,8  | FIEl
  19  3,9  - FiNEW
  19  2,8  | IMEr
@@ -289,7 +340,11 @@
  19  2,8  | WIEd
  19  1,11 - WeAVE
  19  2,10 | aW
+ 19  2,10 | eF
  19  2,10 | eW
+ 19  2,10 | fF
+ 19  2,10 | iF
+ 19  2,10 | oF
  19  2,10 | oW
  19 11,1  | sEL
  19 11,1  | sIL
@@ -374,9 +429,11 @@
  18  2,8  - rEMOP
  18  4,2  - rIEM
  18  4,2  - sEIF
+ 17  2,9  | EFf
  17  2,9  | EFs
  17  2,9  | EFt
  17  2,9  | EMe
+ 17  2,9  | EMf
  17  2,9  | EMp
  17  2,9  | EMs
  17  2,9  | EWe
@@ -401,6 +458,7 @@
  17  4,8  - FOPs
  17  1,10 - FWd
  17  2,9  | IFe
+ 17  2,9  | IFf
  17  2,9  | IFs
  17  2,9  | IMp
  17  2,9  | MEd
@@ -438,6 +496,7 @@
  17  2,9  | WIs
  17  2,9  | WIt
  17  1,10 - WMk
+ 17  4,8  - WOP
  17  4,8  - WOPs
  17  7,9  | aFB
  17  7,9  | aMB
@@ -457,6 +516,7 @@
  16  5,2  - EmM
  16  5,2  - ErF
  16  7,5  | FAc
+ 16  7,5  | FAg
  16  7,5  | FAs
  16  7,5  | FAt
  16  7,5  | FAx
@@ -516,6 +576,7 @@
  16  5,2  - pIM
  16  5,2  - rEF
  16  5,2  - rEM
+ 16  5,2  - rIF
  16  5,2  - rIM
  16  5,2  - sEM
  16  5,2  - sIM
@@ -563,6 +624,7 @@
  15  7,5  - FIjI
  15  7,5  - FInI
  15  2,10 | Fe
+ 15  2,10 | Ff
  15  2,10 | Fp
  15  8,5  | IDeM
  15  2,10 - IF
@@ -608,6 +670,7 @@
  15  1,10 - pIM
  15  1,10 - rEF
  15  1,10 - rEM
+ 15  1,10 - rIF
  15  1,10 - rIM
  15  1,10 - sEM
  15  1,10 - sIM
@@ -627,6 +690,7 @@
  14  8,6  | DoM
  14  8,6  | DoW
  14  8,6  | DuM
+ 14  9,8  | EMFS
  14  4,2  - EMIl
  14  4,2  - EMIm
  14  4,2  - EMIr
@@ -702,6 +766,7 @@
  13  9,8  | cWMS
  13  2,10 - eF
  13  2,10 - eM
+ 13  9,8  | eMFS
  13  2,10 - fF
  13  2,10 - hM
  13  2,10 - iF
@@ -830,6 +895,8 @@
  11  1,10 - EMm
  11  1,10 - EMp
  11  9,6  | ErME
+ 11  2,11 - FAVE
+ 11  9,8  | FEMS
  11  1,10 - FEd
  11  3,7  | FEdIA
  11  1,10 - FEh
@@ -922,6 +989,7 @@
  10  9,8  | EFtS
  10  3,8  | EMdA
  10  9,8  | EMeS
+ 10  9,8  | EMfS
  10  8,9  - EMiT
  10  3,8  | EMmA
  10  9,8  | EMuS
@@ -999,6 +1067,7 @@
   9  8,6  | DuIM
   9  2,10 | Ed
   9  2,10 | Ee
+  9  2,10 | Ef
   9  2,10 | Eh
   9  2,10 | El
   9  2,10 | En
@@ -1012,6 +1081,7 @@
   9  9,9  | FaS
   9  9,9  - FaT
   9  9,9  | FcS
+  9  9,8  | FeMS
   9  9,9  - FeT
   9  2,10 - Ff
   9  3,9  | FfA
@@ -1024,6 +1094,7 @@
   9  9,9  - FuT
   9 11,2  | ILE
   9  2,10 | Id
+  9  2,10 | If
   9  2,10 | In
   9  2,10 | Is
   9  2,10 | It
@@ -1137,9 +1208,11 @@
   7  9,8  | FEeS
   7  8,9  - FEeT
   7  9,8  | FEgS
+  7  9,8  | FEhS
   7  9,8  | FEiS
   7  9,8  | FElS
   7  8,9  - FElT
+  7  9,8  | FEmS
   7  9,8  | FEnS
   7  8,9  - FEnT
   7  9,8  | FErS
@@ -1257,6 +1330,8 @@
   7  9,8  | dIFS
   7  9,8  | dIMS
   7  2,11 - eAVE
+  7  2,11 - fAVE
+  7  9,8  | fEMS
   7  2,11 - gAVE
   7  9,8  | gEMS
   7  8,9  - gIFT
@@ -1269,6 +1344,7 @@
   7 11,2  | iLE
   7  5,4  - iMI
   7  5,4  - iWI
+  7  9,8  | jEWS
   7  9,8  | kEFS
   7  9,8  | kIFS
   7  2,11 - lAVE
@@ -1338,6 +1414,7 @@
   6  4,9  - ENEId
   6  9,8  | EfFS
   6  9,8  | ElMS
+  6  9,8  | EmFS
   6  3,8  | EmMA
   6  8,5  - EpI
   6  3,8  - EpOP
@@ -1420,6 +1497,7 @@
   6  2,9  - pEINE
   6  9,5  - pIM
   6  4,8  - pOPE
+  6  9,5  - rIF
   6  9,5  - rIM
   6  4,8  - rOPE
   6  2,9  - sEINE
@@ -1553,6 +1631,7 @@
   5  8,9  | tWO
   5  8,9  | uFO
   5  9,9  | uFS
+  5  4,8  - wOP
   5  7,5  - yE
   5  7,5  - yI
   4  8,3  | Cc
@@ -1664,6 +1743,7 @@
   4  9,8  | pIES
   4  8,9  - pIET
   4  3,9  - pINE
+  4  5,4  - rEI
   4  9,8  | rEIS
   4  8,9  - rEIT
   4  9,8  | rIES
@@ -1671,6 +1751,7 @@
   4  5,4  - sEI
   4  9,8  | sEIS
   4  8,9  - sEIT
+  4  3,9  - sENE
   4  8,10 - sI
   4  3,9  - sINE
   4  9,2  - sO
@@ -1948,6 +2029,7 @@
   2  9,9  - sIT
   2  9,5  | tE
   2  3,9  | tEA
+  2  9,9  - tET
   2  9,5  - tI
   2  9,9  | tIS
   2  9,9  - tIT

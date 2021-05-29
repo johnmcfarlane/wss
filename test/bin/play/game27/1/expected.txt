@@ -167,6 +167,7 @@
  18  7,5  | WRO
  17  7,3  | ASOR
  17  3,6  | EX
+ 17  5,6  | GAWPS
  17  7,3  | OARS
  17  7,3  | ORAS
  17  7,3  | OSAR
@@ -216,6 +217,7 @@
  15  7,5  | ORA
  15  7,4  | ORS
  15  7,5  | ORS
+ 15  3,3  | PAREOS
  15  5,3  | PARGOS
  15  4,4  | PARR
  15  4,4  | PARS
@@ -242,11 +244,13 @@
  14  3,3  | ASPER
  14  5,5  - AW
  14  6,6  | EXPO
+ 14  5,6  | GORPS
  14  5,6  | GROWS
  14  7,5  | OR
  14  7,5  | OS
  14  5,7  - OW
  14  4,4  | PAR
+ 14  3,3  | PAREO
  14  3,3  | PARES
  14  5,3  | PARGO
  14  3,3  | PASEO
@@ -266,6 +270,7 @@
  14  3,3  | RAPES
  14  4,6  | RAW
  14  3,5  | REPAS
+ 14  3,5  | REPOS
  14  3,5  | RESAW
  14  3,5  | RESOW
  14  3,3  | ROPES
@@ -285,13 +290,17 @@
  14  4,4  | WAR
  14  3,3  | WARES
  14  3,5  | WEARS
+ 14  6,5  - WOP
+ 14  6,7  - WOP
  13  3,4  | APERS
  13  6,5  - ASOP
  13  6,6  | EXP
  13  5,6  | GASP
+ 13  5,6  | GORP
  13  5,6  | GROW
  13  3,4  | OPERA
  13  6,5  - PARS
+ 13  2,3  | PARVOS
  13  6,5  - PASO
  13  6,5  - PRAO
  13  6,5  - PROA
@@ -325,6 +334,7 @@
  12  3,4  | OWER
  12  3,4  | OWES
  12  3,3  | PARE
+ 12  2,3  | PARVO
  12  3,3  | PASE
  12  6,3  | PAWERS
  12  3,5  | PEAR
@@ -340,6 +350,7 @@
  12  6,5  - RAX
  12  6,7  - RAX
  12  6,3  | RAXES
+ 12  3,5  | REPO
  12  3,5  | REPS
  12  3,5  | RESOAP
  12  3,3  | ROPE
@@ -465,6 +476,7 @@
   9  5,7  - ORA
   9  5,7  - ORS
   9  3,3  | OWSE
+  9  6,3  | PAREOS
   9  4,3  | PARR
   9  3,5  | PE
   9  6,5  | PEW
@@ -484,6 +496,7 @@
   9  5,4  | WAGS
   9  3,5  | WE
   9  3,4  | WOES
+  9  5,4  | WOGS
   8  6,4  | APERS
   8  4,4  | APR
   8  6,5  - APR
@@ -502,6 +515,7 @@
   8  5,7  - OR
   8  5,7  - OS
   8  6,3  | OWSER
+  8  6,3  | PAREO
   8  6,3  | PARES
   8  6,3  | PASEO
   8  6,5  | PEARS
@@ -515,6 +529,7 @@
   8  6,7  - RAW
   8  6,5  | REAPS
   8  6,5  | REPAS
+  8  6,5  | REPOS
   8  6,5  | RESAW
   8  6,5  | RESOW
   8  6,3  | ROPES
@@ -536,10 +551,12 @@
   8  6,4  | SPEAR
   8  6,7  - SWA
   8  6,4  | SWEAR
+  8  2,6  | VARS
   8  2,6  | VOAR
   8  5,4  | WAG
   8  6,3  | WARES
   8  6,5  | WEARS
+  8  5,4  | WOG
   7  6,4  | APER
   7  6,4  | APES
   7  6,3  | APSE
@@ -588,6 +605,7 @@
   7  6,4  | PRES
   7  6,3  | RAPE
   7  6,5  | REAP
+  7  6,5  | REPO
   7  6,5  | REPS
   7  4,3  | ROARS
   7  4,6  | ROARS

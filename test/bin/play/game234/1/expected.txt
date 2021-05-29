@@ -228,6 +228,7 @@
  18  7,7  - RoLEO
  18  7,5  - RoY
  18 10,6  | TELLY
+ 18 10,6  | TELLYs
  18 10,6  | TOLLY
  18 10,6  | TOLYL
  18 10,6  | TOLYLs
@@ -295,6 +296,7 @@
  17  7,7  - dOLE
  17  7,7  - eOLE
  17  7,7  - fOLE
+ 17  7,7  - hELO
  17  7,7  - hOLE
  17  8,3  | iRONLY
  17  7,7  - mOLE
@@ -783,6 +785,8 @@
  13  8,3  | cRONEL
  13  9,5  | dELLY
  13  7,7  - dERO
+ 13  7,5  - dORE
+ 13  7,7  - dORE
  13  8,2  | dOYEN
  13  8,3  | dRONEL
  13  8,2  | eRYON
@@ -827,6 +831,7 @@
  13  7,7  - sORE
  13 11,6  | sYL
  13  9,5  | tELLY
+ 13  8,4  | tONEY
  13  7,5  - tORE
  13  7,7  - tORE
  13  9,2  | vOLYER
@@ -891,6 +896,7 @@
  12  9,7  - LEv
  12  9,7  - LEx
  12  9,7  - LEy
+ 12  9,7  - LEz
  12  9,7  - LO
  12  8,4  | LONeR
  12  8,4  | LONgE
@@ -1018,6 +1024,7 @@
  12 10,6  | TOYeR
  12 10,6  | TOiLER
  12 10,6  | TOlLER
+ 12 10,6  | TOnEY
  12 10,6  | TOoLER
  12 10,6  | TREYs
  12 10,6  | TREeY
@@ -1028,6 +1035,7 @@
  12 10,6  | TRiOLE
  12 10,6  | TRoLL
  12 10,6  | TRuLL
+ 12 10,6  | TYERs
  12 10,6  | TYREd
  12 10,6  | TYREs
  12 10,6  | TYROs
@@ -1091,6 +1099,7 @@
  12  5,7  - cORE
  12  6,2  | dEROG
  12  9,3  | dOLEY
+ 12  5,7  - dORE
  12  8,4  | dYNEL
  12  8,3  | eYEN
  12  8,1  | fELLON
@@ -1109,6 +1118,7 @@
  12  5,7  - lORE
  12  8,3  | lYON
  12  8,1  | mELLON
+ 12 10,1  | mERLOT
  12  5,7  - mORE
  12  9,3  | mORELLE
  12  3,7  - nEROL
@@ -1872,6 +1882,7 @@
   9  7,3  | LYREs
   9  7,3  | LYcEE
   9  8,4  | LaNE
+  9  9,3  | LaREE
   9  6,3  | LaRGY
   9 10,4  | LaTELY
   9  7,3  | LaYER
@@ -1888,6 +1899,7 @@
   9  8,6  | NEROL
   9  8,6  | NEROLi
   9  8,6  | NEROLs
+  9  8,6  | NERdY
   9  8,6  | NERvY
   9  8,6  | NEaRLY
   9  8,6  | NOL
@@ -2023,6 +2035,8 @@
   9  7,3  | YuLE
   9  6,5  | aGLEY
   9  8,3  | aLEN
+  9  9,2  | aLLEE
+  9  9,3  | aLLEE
   9  9,3  | aLLER
   9  3,7  - aLLO
   9  6,3  | aLOGY
@@ -2090,6 +2104,7 @@
   9  7,5  | pEERY
   9  8,3  | pEONY
   9  7,1  | pOLLEE
+  9  8,3  | pORNY
   9  9,4  | pREY
   9 10,3  | pROTYLE
   9  3,7  - pYRO
@@ -2107,6 +2122,7 @@
   9  9,4  | tOEY
   9  9,4  | tREY
   9  9,4  | tYEE
+  9  9,4  | tYER
   9  3,7  - tYRO
   9  9,3  | uLLER
   9  7,5  | vEERY
@@ -2411,6 +2427,8 @@
   8  9,5  - REh
   8  7,7  - REh
   8  9,7  - REh
+  8  9,5  - REi
+  8  9,7  - REi
   8  9,5  - REl
   8  7,7  - REl
   8  9,7  - REl
@@ -2429,6 +2447,7 @@
   8  9,7  - REp
   8  9,3  | REpEL
   8  9,5  | REpEL
+  8  3,7  - REpO
   8 10,2  | REpOT
   8  9,5  - REs
   8  7,7  - REs
@@ -2528,6 +2547,7 @@
   8 10,6  | TORtE
   8 10,6  | TORvE
   8 10,6  | TOhER
+  8 10,6  | TOkER
   8 10,6  | TOnER
   8 10,6  | TOpER
   8 10,6  | TOtER
@@ -2585,6 +2605,7 @@
   8  6,5  | aGLY
   8  6,4  | aLGOL
   8  6,4  | aLGY
+  8  7,2  | aLLEE
   8  7,3  | aLLEY
   8  5,7  - aOR
   8  9,3  | aREEL
@@ -2639,6 +2660,7 @@
   8  9,3  | gYLE
   8  7,2  | hELLER
   8  7,5  | hELLER
+  8  3,7  - hELO
   8  9,5  | hELOE
   8  5,7  - hOE
   8  7,2  | hOLLER
@@ -2940,6 +2962,7 @@
   7  6,4  | LaGER
   7  4,7  - LaO
   7  9,3  | LaRE
+  7  7,3  | LaREE
   7  6,3  | LaRGE
   7  6,3  | LaRGO
   7  7,4  | LeERY
@@ -3498,6 +3521,9 @@
   6  7,5  | LEgER
   6  9,5  | LEhR
   6  4,7  - LEi
+  6  7,3  | LEkE
+  6  9,3  | LEkE
+  6  9,5  | LEkE
   6  7,3  | LEmE
   6  9,3  | LEmE
   6  9,5  | LEmE
@@ -3567,6 +3593,7 @@
   6  7,4  | LYE
   6  7,4  | LYEs
   6  7,3  | LaRE
+  6  9,2  | LaREE
   6  6,4  | LeGE
   6  8,3  | LeONE
   6  7,3  | LeRE
@@ -3765,6 +3792,7 @@
   6 10,6  | TORY
   6 10,6  | TREY
   6 10,6  | TROY
+  6 10,6  | TYER
   6 10,6  | TYRE
   6 10,6  | TYRO
   6  9,4  | YEE
@@ -3802,6 +3830,7 @@
   6  8,3  | aEON
   6  9,5  | aERY
   6  6,5  | aGY
+  6  7,3  | aLLEE
   6  7,3  | aLLER
   6  8,5  | aNRE
   6  6,5  - aR
@@ -3905,6 +3934,7 @@
   6  9,7  - hEL
   6  9,3  | hELE
   6  9,5  | hELE
+  6  9,5  | hELO
   6  7,2  | hELOE
   6  7,5  | hELOE
   6  8,3  | hERN
@@ -4201,6 +4231,7 @@
   5  6,6  | GORa
   5  6,6  | GORb
   5  6,6  | GORe
+  5  6,6  | GORp
   5  6,6  | GORy
   5  6,6  | GOaR
   5  6,6  | GOdE
@@ -4275,6 +4306,7 @@
   5  9,5  | LEv
   5  9,5  | LEx
   5  9,5  | LEy
+  5  9,5  | LEz
   5  7,4  | LLEr
   5  7,4  | LLEu
   5  7,4  | LLEw
@@ -4287,6 +4319,7 @@
   5  5,5  - La
   5  8,3  | LaEN
   5  6,4  | LaG
+  5  7,2  | LaREE
   5  8,3  | LaRN
   5 10,4  | LaTER
   5 10,4  | LaTRO
@@ -4404,6 +4437,7 @@
   5  6,4  | REGd
   5  6,4  | REGo
   5  6,4  | REGr
+  5  6,4  | REGs
   5  6,4  | REGt
   5  7,5  | RELEs
   5  7,5  | RELEt
@@ -4412,8 +4446,10 @@
   5  4,5  - REa
   5  9,5  | REaL
   5  8,2  | REcON
+  5  8,2  | REdON
   5  9,5  | REeL
   5  9,5  | REfL
+  5  4,7  - REi
   5  7,5  | RElY
   5  9,5  | REpL
   5  8,2  | REwON
@@ -4471,12 +4507,14 @@
   5 10,6  | TRoY
   5 10,6  | TYE
   5 10,6  | TYEe
+  5 10,6  | TYEr
   5 10,6  | TYEs
   5 10,6  | TYR
   5 10,6  | TYRe
   5 10,6  | TYRo
   5 10,6  | TYRr
   5 10,6  | TYeE
+  5 10,6  | TYeR
   5 10,6  | TYkE
   5 10,6  | TYnE
   5 10,6  | TYpE
@@ -4580,6 +4618,7 @@
   5  7,4  | bYEE
   5  7,3  | bYRE
   5 10,4  | bYTE
+  5  9,5  | cEL
   5  7,5  | cELL
   5  9,3  | cLEE
   5 10,3  | cLOTE
@@ -4824,6 +4863,7 @@
   5 10,3  | tRYT
   5  7,3  | tYEE
   5  7,4  | tYEE
+  5  7,4  | tYER
   5  7,3  | tYRE
   5 10,4  | tYTO
   5  9,4  | uLE
@@ -5043,10 +5083,12 @@
   4 10,3  | LEfT
   4  7,5  | LEgE
   4  7,5  | LEhR
+  4  7,5  | LEkE
   4  7,5  | LEmE
   4  7,5  | LEnE
   4  7,5  | LEnO
   4 10,3  | LEnT
+  4 10,3  | LEpT
   4  7,5  | LErE
   4  7,5  | LEsE
   4 10,3  | LEsT
@@ -5059,6 +5101,7 @@
   4 10,4  | LOT
   4 10,4  | LOTa
   4 10,4  | LOTh
+  4 10,4  | LOTi
   4 10,4  | LOTo
   4 10,4  | LOTs
   4 10,3  | LOfT
@@ -5161,6 +5204,7 @@
   4  9,5  | REgO
   4  9,5  | REnO
   4  7,5  | REpL
+  4  9,5  | REpO
   4  7,3  | REtE
   4  9,3  | REtE
   4  9,5  | REtE
@@ -5223,6 +5267,7 @@
   4 10,6  | TELe
   4 10,6  | TELi
   4 10,6  | TELl
+  4 10,6  | TELs
   4 10,6  | TELt
   4 10,6  | TEaL
   4 10,6  | TEeL
@@ -5345,6 +5390,7 @@
   4  7,3  | dOLE
   4 10,3  | dOLT
   4  8,4  | dONE
+  4  9,3  | dORE
   4  7,3  | dOREE
   4 10,4  | dOTER
   4  9,3  | dREE
@@ -5406,6 +5452,7 @@
   4  9,5  | hEER
   4  7,3  | hELE
   4  7,5  | hELE
+  4  7,5  | hELO
   4  9,3  | hERE
   4  9,5  | hERE
   4  7,5  | hERL
@@ -5604,6 +5651,7 @@
   4  9,5  | wERE
   4  7,5  | wEY
   4  9,7  - wO
+  4  6,4  | wOG
   4  9,3  | wORE
   4 10,3  | wROTE
   4  7,4  | wYE
@@ -5716,6 +5764,7 @@
   3  7,5  | LEv
   3  7,5  | LEx
   3  7,5  | LEy
+  3  7,5  | LEz
   3 10,5  | LTr
   3 10,4  | LaT
   3  7,4  | LeE
@@ -5844,6 +5893,7 @@
   3  7,5  | REgO
   3 10,3  | REgT
   3  9,5  | REh
+  3  9,5  | REi
   3 10,3  | REiT
   3  9,5  | REl
   3  9,5  | REm
@@ -5851,6 +5901,7 @@
   3  7,5  | REnO
   3 10,3  | REnT
   3  9,5  | REp
+  3  7,5  | REpO
   3 10,3  | REpT
   3  9,5  | REs
   3 10,3  | REsT
@@ -5962,6 +6013,7 @@
   3 10,6  | ToL
   3 10,6  | ToRE
   3 10,6  | ToRO
+  3 10,6  | TyER
   3 10,6  | TyRE
   3 10,6  | TyRO
   3  9,5  | aER
@@ -5998,6 +6050,7 @@
   3 10,5  | bTL
   3  9,4  | cEE
   3  9,5  | cEE
+  3  7,5  | cEL
   3  7,3  | cERE
   3  7,5  | cERE
   3  7,5  | cERO
@@ -6023,6 +6076,7 @@
   3  9,4  | dOE
   3  7,4  | dOER
   3  8,4  | dON
+  3  7,3  | dORE
   3 10,3  | dORT
   3 10,4  | dOTE
   3  7,3  | dREE
@@ -6376,6 +6430,7 @@
   2  7,5  | REf
   2  7,5  | REg
   2  7,5  | REh
+  2  7,5  | REi
   2  7,5  | REl
   2  7,5  | REm
   2  7,5  | REn
@@ -6421,6 +6476,7 @@
   2 10,6  | TEl
   2 10,6  | TEm
   2 10,6  | TEn
+  2 10,6  | TEt
   2 10,6  | TEw
   2 10,6  | TEx
   2 10,6  | TEz
@@ -6586,6 +6642,7 @@
   2 10,5  | sTR
   2  7,4  | tEE
   2  7,5  | tEE
+  2 10,4  | tET
   2  7,4  | tOE
   2 10,4  | tOT
   2 10,4  | tRT

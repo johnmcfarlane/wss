@@ -47,6 +47,7 @@
  21  8,1  - LiDE
  21  8,1  - LiDS
  21  8,1  - LoDE
+ 21  8,1  - LuDE
  21  8,1  - LuDS
  21  9,5  - QI
  21  9,5  - QIs
@@ -209,6 +210,7 @@
  15  7,1  - LEwD
  15  9,7  - LEx
  15  9,7  - LEy
+ 15  9,7  - LEz
  15  8,1  - LSD
  15  7,7  - LaSE
  15  7,1  - LeED
@@ -314,6 +316,7 @@
  14  9,5  | LoSE
  14  9,5  | LoSS
  14  8,7  - LuES
+ 14  7,5  - LwEIS
  14  8,7  - LyES
  14  7,5  - LySIS
  14  9,5  | SELS
@@ -338,6 +341,7 @@
  14  9,5  | SoLES
  14  5,7  - SuES
  14  5,7  - SuSS
+ 14  7,5  - SyLIS
  14  5,6  | USQuE
  14  8,2  - aLAE
  14 11,6  | aLES
@@ -387,6 +391,7 @@
  13  9,5  | LEv
  13  9,5  | LEx
  13  9,5  | LEy
+ 13  9,5  | LEz
  13  9,5  | LaS
  13  7,5  - LaSI
  13  9,5  | LeE
@@ -440,8 +445,10 @@
  13  5,7  - SuE
  13  8,7  - SuES
  13  5,7  - SuS
+ 13  7,5  - SyLI
  13  9,7  - bEL
  13 11,2  | bESSES
+ 13  9,7  - cEL
  13  9,7  - dEL
  13  9,7  - eEL
  13  8,7  - eSE
@@ -477,6 +484,7 @@
  12  8,7  - ESe
  12 11,6  | ESeS
  12 11,3  | EaSELS
+ 12  1,4  - EgO
  12  7,2  - EiLA
  12  9,1  - LDg
  12 11,2  | LEES
@@ -709,6 +717,7 @@
  10  9,5  | SEaS
  10  9,5  | SEcS
  10  9,5  | SEeS
+ 10  9,5  | SEgS
  10  9,5  | SEiS
  10  9,5  | SElS
  10  9,5  | SEpS
@@ -754,6 +763,8 @@
  10 11,2  | sELS
  10  9,5  | sELS
  10  8,5  - tEIL
+ 10 11,2  | tELS
+ 10  9,5  | tELS
  10  6,7  - uSE
  10 11,2  | wELS
  10  6,7  - xES
@@ -879,6 +890,7 @@
   8  8,3  | BOLEd
   8  8,3  | BOLEs
   8  8,3  | BOLaS
+  8  8,3  | BOLdS
   8  8,3  | BOLeS
   8  8,3  | BOLiS
   8  8,3  | BOLlS
@@ -937,6 +949,8 @@
   8 11,5  | SEcS
   8 11,2  | SEeS
   8 11,5  | SEeS
+  8 11,2  | SEgS
+  8 11,5  | SEgS
   8 11,2  | SEiS
   8 11,5  | SEiS
   8 11,2  | SElS
@@ -1021,6 +1035,7 @@
   8  9,5  | pESS
   8  8,5  - pSI
   8 11,2  | rEES
+  8  8,5  - rEI
   8 11,2  | sEES
   8  8,5  - sEI
   8 11,5  | sELS
@@ -1028,6 +1043,7 @@
   8  9,5  | sESS
   8  8,5  - sSI
   8 11,2  | tEES
+  8 11,5  | tELS
   8 11,2  | tESS
   8  9,5  | tESS
   8 11,2  | wEES
@@ -1250,8 +1266,10 @@
   6  5,6  | USES
   6  2,2  | WOb
   6  2,2  | WOe
+  6  2,2  | WOg
   6  2,2  | WOn
   6  2,2  | WOo
+  6  2,2  | WOp
   6  2,2  | WOs
   6  2,2  | WOt
   6  2,2  | WOw
@@ -1265,6 +1283,7 @@
   6  9,6  | eL
   6  2,4  - eO
   6 11,1  | eSE
+  6  2,4  - gO
   6  9,1  - iD
   6 11,1  | iSE
   6  9,6  | iSL
@@ -1274,6 +1293,7 @@
   6 11,5  | oES
   6  2,4  - oO
   6 11,1  | oSE
+  6  2,4  - pO
   6  2,4  - sO
   6  2,4  - tO
   6  2,4  - wO
@@ -1344,7 +1364,6 @@
   5  9,5  - LIr
   5  9,5  - LIs
   5  9,5  - LIt
-  5  9,5  - LIv
   5  9,5  - LIz
   5  8,6  - LSD
   5  8,6  - LaDE
@@ -1354,6 +1373,7 @@
   5  8,6  - LiDE
   5  8,6  - LiDS
   5  8,6  - LoDE
+  5  8,6  - LuDE
   5  8,6  - LuDS
   5  1,3  | ME
   5  1,3  | MEa

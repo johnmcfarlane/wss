@@ -24,6 +24,7 @@
  23  9,10 - WaC
  23  3,9  - WaVED
  23  3,9  - WiVED
+ 22  7,5  | GAWpS
  22  9,5  | GlD
  22  2,9  - SCoWED
  22  7,5  | VAGaS
@@ -50,6 +51,7 @@
  21  3,9  - WaVES
  21  9,10 - WiG
  21  3,9  - WiVES
+ 21  9,10 - WoG
  21  7,8  | aW
  21  7,8  | eW
  21  5,8  | oW
@@ -65,6 +67,7 @@
  20  2,9  - SWaGED
  20  2,9  - SWiVE
  20  7,5  | VADiS
+ 20 10,8  | VaCS
  20 10,8  | VaWS
  20  4,8  | ViCA
  20  4,8  - ViPS
@@ -115,6 +118,7 @@
  18 10,8  | CoWS
  18  7,5  | GADeS
  18  7,5  | GADiS
+ 18 10,8  | GuVS
  18 10,7  | SCaGS
  18  4,7  | SChWA
  18 10,7  | SWaGS
@@ -122,6 +126,7 @@
  18  5,7  - VAWS
  18  8,5  | VIeW
  18  4,8  | VeDA
+ 18 10,8  | ViGS
  18  8,4  | VoID
  18 10,8  | VuGS
  18 10,8  | WaCS
@@ -158,6 +163,7 @@
  17  6,8  - PSW
  17  6,8  - PaCS
  17  6,8  - PaWS
+ 17  6,8  - PeCS
  17  6,8  - PeWS
  17  6,8  - PiCS
  17  6,8  - PoWS
@@ -231,6 +237,7 @@
  16  8,6  | InV
  16  6,8  - PaC
  16  6,8  - PaW
+ 16  6,8  - PeC
  16  6,8  - PeW
  16  6,8  - PfC
  16  6,8  - PiC
@@ -262,6 +269,8 @@
  16 10,8  | WiGS
  16  7,3  | WoCAS
  16  3,7  - WoCAS
+ 16 10,8  | WoGS
+ 16  4,8  - WoP
  16  8,4  | WrIG
  16  4,8  - WuP
  16  7,5  - aDV
@@ -297,6 +306,7 @@
  15  5,7  - DAWtS
  15  5,7  - DAtSW
  15  5,9  - DECkS
+ 15  5,9  - DECoS
  15  5,9  - DECuS
  15  5,9  - DEV
  15  5,9  - DEVa
@@ -363,6 +373,7 @@
  15  3,9  - WiDES
  15  3,9  - WiSED
  15  9,10 - Wo
+ 15  2,9  - WoDGES
  15  2,10 - WuD
  15  1,10 - aSGD
  15  2,10 - aWD
@@ -556,6 +567,7 @@
  13  2,10 - GuD
  13  3,9  - GuDES
  13  4,8  - GuP
+ 13  8,5  - GuVS
  13  4,8  - GyP
  13  8,6  | InC
  13  6,8  - PeG
@@ -687,6 +699,7 @@
  12  5,9  - GEDS
  12  4,9  - GWEn
  12 10,8  | GaDS
+ 12  3,8  - GaWPS
  12 10,8  | GeDS
  12 10,8  | GiDS
  12  4,7  - GlADS
@@ -723,6 +736,7 @@
  12  5,9  - VErS
  12  5,9  - VEtS
  12  8,5  | VICeD
+ 12  8,5  | VIGS
  12  8,5  | VIeD
  12  8,5  | VIlD
  12 10,9  | VaS
@@ -975,6 +989,7 @@
  10  7,5  | CAD
  10  5,7  - CAD
  10  5,9  - CEeS
+ 10  5,9  - CElS
  10  5,9  - CEpS
  10  5,9  - CEsS
  10  8,5  | CIV
@@ -1078,6 +1093,7 @@
  10  9,8  | SWoT
  10 10,8  | SaGS
  10  2,9  - SeDGE
+ 10 10,8  | SeGS
  10  4,8  - SePG
  10  4,9  - ShEW
  10  4,9  - SkEW
@@ -1090,6 +1106,7 @@
  10 10,8  | SvGS
  10  5,7  - VASt
  10  5,7  - VAnS
+ 10  5,7  - VArS
  10  5,7  - VAtS
  10  5,7  - VAwS
  10  8,5  | VIC
@@ -1140,6 +1157,7 @@
  10  5,9  - hEWS
  10  7,5  | jAW
  10  5,7  - jAW
+ 10  5,9  - jEWS
  10  7,5  | lAW
  10  5,7  - lAW
  10  7,5  | mAW
@@ -1152,6 +1170,7 @@
  10 10,10 - oW
  10  7,5  | pAW
  10  5,7  - pAW
+ 10  5,9  - pECS
  10  5,9  - pEWS
  10  7,5  | rAW
  10  5,7  - rAW
@@ -1196,6 +1215,7 @@
   9  5,7  - CAwS
   9  5,7  - CAyS
   9  5,9  - CEe
+  9  5,9  - CEl
   9  5,9  - CEp
   9  9,9  | CaT
   9  9,9  | CiT
@@ -1288,6 +1308,7 @@
   9  8,8  | SCuN
   9  5,9  - SEG
   9  5,9  - SEGo
+  9  5,9  - SEGs
   9  8,8  | SWaN
   9  2,10 - SaD
   9  3,9  - SaGE
@@ -1322,10 +1343,13 @@
   9  2,10 - SyD
   9  7,5  | VAS
   9  5,7  - VAS
+  9  8,5  | VIG
   9  8,5  | VIGa
+  9  8,5  | VIGs
   9  8,5  | VISeD
   9  8,5  | VIaS
   9  8,5  | VIeS
+  9  8,5  | VIgS
   9  8,5  | VImS
   9  8,5  | VInS
   9  8,5  | VIpS
@@ -1395,6 +1419,7 @@
   9  7,4  | iGAD
   9  4,7  - iGAD
   9  7,8  | iS
+  9  5,9  - jEW
   9  7,4  | kVAS
   9  4,7  - kVAS
   9  5,7  - lADS
@@ -1407,6 +1432,7 @@
   9  8,7  - oW
   9  4,9  - oWE
   9  5,7  - pADS
+  9  5,9  - pEC
   9  5,9  - pEW
   9  7,3  | pWCA
   9  3,7  - pWCA
@@ -1579,6 +1605,8 @@
   8  5,7  - cAG
   8  7,5  | dAG
   8  5,7  - dAG
+  8  7,5  | fAG
+  8  5,7  - fAG
   8  4,8  - fCP
   8  5,9  - fEGS
   8  7,5  | gAG
@@ -1606,8 +1634,10 @@
   8  8,5  | pICS
   8  7,5  | rAG
   8  5,7  - rAG
+  8  5,9  - rEGS
   8  7,5  | sAG
   8  5,7  - sAG
+  8  5,9  - sEGS
   8  8,5  | sICS
   8  8,4  | sWIG
   8  7,5  | tAG
@@ -1646,6 +1676,7 @@
   7  5,7  - DAgS
   7  5,7  - DAhS
   7  5,7  - DAiS
+  7  5,7  - DAlS
   7  5,7  - DAmS
   7  5,7  - DAwS
   7  5,7  - DAyS
@@ -1698,6 +1729,7 @@
   7  8,5  | GIlS
   7  8,5  | GInS
   7  8,5  | GIpS
+  7  8,5  | GItS
   7  5,8  - GPd
   7  5,8  - GPh
   7  5,8  - GPm
@@ -1858,6 +1890,7 @@
   7  8,4  | aVIS
   7  8,9  | aVN
   7  5,9  - bEG
+  7  8,5  | bIGS
   7  8,4  | cCID
   7  5,9  - dESC
   7  8,5  | dIGS
@@ -1890,6 +1923,7 @@
   7  8,4  | uDIC
   7  4,9  - uSED
   7  5,9  - vEG
+  7  8,5  | vIGS
   7  8,5  | wIGS
   7  8,5  | zIGS
   6  7,6  | AD
@@ -2056,6 +2090,7 @@
   6  8,5  | VIc
   6  8,5  | VId
   6  8,5  | VIe
+  6  8,5  | VIg
   6  8,5  | VIi
   6  8,5  | VIl
   6  8,5  | VIm
@@ -2163,7 +2198,6 @@
   6  5,7  - lAD
   6  5,9  - lEDS
   6  8,5  | lIDS
-  6  8,5  | lIV
   6  7,5  | mAD
   6  5,7  - mAD
   6  8,5  | mIDS
@@ -2205,6 +2239,7 @@
   6  5,9  - wEDS
   6  7,5  | yAD
   6  5,7  - yAD
+  6  8,5  | yIDS
   6  8,4  | yWIS
   6  5,9  - zEDS
   5  6,7  - ASs
@@ -2323,6 +2358,7 @@
   5  8,9  | GyN
   5  8,6  | ICe
   5  8,6  | ICh
+  5  8,6  | ICk
   5  8,6  | ICy
   5  8,6  | IWi
   5  6,8  - PSi
@@ -2628,6 +2664,7 @@
   4 10,10 - uS
   4  7,5  | vAS
   4  5,7  - vAS
+  4  8,5  | vIG
   4 10,9  | vSS
   4  7,5  | wAS
   4  5,7  - wAS
@@ -2788,6 +2825,7 @@
   3  8,5  | wID
   3  5,9  - xES
   3  5,9  - yES
+  3  8,5  | yID
   2  7,6  | Aa
   2  6,7  - Aa
   2  7,6  | Ab
@@ -2865,6 +2903,9 @@
   2  4,7  - SiA
   2  4,9  | SiA
   2  4,9  - SiE
+  2  7,4  | SkA
+  2  4,7  - SkA
+  2  4,9  | SkA
   2  7,4  | SlA
   2  4,7  - SlA
   2  4,9  | SlA

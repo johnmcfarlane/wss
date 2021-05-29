@@ -156,6 +156,7 @@
  18  9,7  - RaX
  18  5,6  | ReF
  18  4,7  - ReX
+ 18  5,6  | RiF
  18  4,7  - RoX
  18  6,2  | VeRDE
  18  8,7  - Xi
@@ -259,6 +260,7 @@
  16  6,7  - ReF
  16  5,6  | RhD
  16  5,6  | RiD
+ 16  6,7  - RiF
  16  5,6  | RlD
  16  5,6  | RnD
  16  5,6  | RoD
@@ -354,6 +356,7 @@
  14  6,7  - RaH
  14  5,6  | Re
  14  6,7  - ReH
+ 14  9,7  - RiF
  14  6,5  | VEX
  14  6,5  | VEXt
  14  8,5  | VOX
@@ -413,6 +416,7 @@
  13  8,6  | OrF
  13  8,6  | OuF
  13  5,6  - REBOOK
+ 13  5,6  - REBOOKs
  13  9,5  | ROVe
  13  9,7  - RaH
  13  9,3  | RiVO
@@ -423,6 +427,7 @@
  13  7,7  - iF
  13  8,5  | mORDV
  13  7,7  - oF
+ 13  4,6  - pREBOOK
  13  9,4  | pROV
  12  7,6  | BXs
  12  7,6  | BoX
@@ -462,6 +467,7 @@
  12  3,7  - HeRD
  12  8,4  | HoOD
  12  9,4  | HoOF
+ 12 10,6  | KHaF
  12  6,5  | REDoX
  12  6,5  | REDuX
  12  9,4  | RHODa
@@ -490,6 +496,7 @@
  11  7,6  | BoRH
  11  7,6  | BuRH
  11  6,5  | DEX
+ 11  6,5  | DEXy
  11  6,5  | DEuX
  11 10,3  | DHiKR
  11  9,5  | DOH
@@ -612,6 +619,7 @@
  10  9,4  | FROtH
  10  8,2  | FaRDO
  10  9,2  | FaRDO
+ 10  6,3  | FaVE
  10  8,7  - Fe
  10  8,7  - Ff
  10  8,7  - Fi
@@ -645,6 +653,8 @@
  10  8,5  | ROXy
  10  4,5  - ReF
  10  4,7  - ReF
+ 10  4,5  - RiF
+ 10  4,7  - RiF
  10  9,4  | RoOF
  10  9,2  | VeDRO
  10  4,5  - ViD
@@ -889,10 +899,12 @@
   8 10,3  | DiRK
   8  6,3  | DiVE
   8  8,4  | DoOR
+  8 10,3  | DoRK
   8  6,3  | DoVE
   8  6,6  | EFpH
   8  7,5  | FBi
   8  6,5  | FEH
+  8  6,5  | FEHs
   8  6,5  | FERD
   8  8,5  | FODeR
   8  8,5  | FOH
@@ -1031,7 +1043,9 @@
   7  8,5  | DOFf
   7  9,5  | DOR
   7  9,5  | DORa
+  7  9,5  | DORe
   7  9,5  | DORi
+  7  9,5  | DORk
   7  9,5  | DORm
   7  9,5  | DORp
   7  9,5  | DORr
@@ -1327,6 +1341,7 @@
   6 10,6  | KRu
   6 10,6  | KeR
   6 10,6  | KgR
+  6 10,6  | KiR
   6 10,6  | KoR
   6  8,6  | OFeR
   6  8,6  | OHeD
@@ -1701,7 +1716,9 @@
   4  6,5  | DEpR
   4  8,5  | DOR
   4  8,5  | DORa
+  4  8,5  | DORe
   4  8,5  | DORi
+  4  8,5  | DORk
   4  8,5  | DORm
   4  8,5  | DORp
   4  8,5  | DORr
@@ -1724,6 +1741,7 @@
   4  6,4  | DiER
   4  6,3  | DiRE
   4  6,4  | DoER
+  4  6,3  | DoRE
   4  6,4  | DuER
   4  6,3  | DuRE
   4  8,3  | DuRO
@@ -2052,6 +2070,7 @@
   2  6,5  | REf
   2  6,5  | REg
   2  6,5  | REh
+  2  6,5  | REi
   2  6,5  | REl
   2  6,5  | REm
   2  6,5  | REn

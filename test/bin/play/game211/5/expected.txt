@@ -1,6 +1,7 @@
  36  3,6  | DRAGOn
  36  8,8  | KInA
  36  8,8  | KInO
+ 35  8,8  | KIR
  33  8,8  - KId
  33  8,8  | KId
  33  8,8  | KIe
@@ -11,6 +12,7 @@
  33  8,8  | KIn
  33  8,8  - KIp
  33  8,8  | KIp
+ 33  8,8  | KIr
  33  8,8  - KIt
  33  8,8  | KIt
  33  3,1  | KOnRAD
@@ -254,6 +256,8 @@
  17  2,5  - KORAh
  17  4,2  - KORAi
  17  2,7  - KORAn
+ 17  2,5  - KORAt
+ 17  2,7  - KORAt
  17  3,3  | KORDAx
  17  4,2  - KOROa
  17  2,5  - KOReA
@@ -318,6 +322,7 @@
  17  4,5  | wEAK
  17 11,8  | yARK
  17  4,5  | yERK
+ 17  4,5  | zERK
  16  1,7  - AGOROt
  16  6,2  - AKO
  16  3,5  - AReG
@@ -354,6 +359,7 @@
  16  2,5  - KORA
  16  2,7  - KORA
  16  6,2  | KORaI
+ 16  5,2  - KObO
  16  5,2  - KOdA
  16  6,2  | KOeRI
  16  6,2  | KOgAI
@@ -452,6 +458,9 @@
  15  3,6  | DARKy
  15  3,6  | DKG
  15  3,6  | DOOK
+ 15  3,6  | DORK
+ 15  3,6  | DORKs
+ 15  3,6  | DORKy
  15  3,6  | DRAKe
  15  2,7  - GAROn
  15  2,7  - GAROo
@@ -527,6 +536,7 @@
  14  3,6  | DOeK
  14  3,6  | DOnK
  14  3,6  | DOoK
+ 14  3,6  | DOrK
  14  3,6  | DReK
  14  9,10 - EnG
  14  5,2  - GARO
@@ -669,6 +679,7 @@
  14  5,3  | pARtOOK
  14  4,2  - pORGO
  14  4,2  - sARGO
+ 14  6,2  - sKA
  14  1,5  - sKOO
  14  1,7  - sKOO
  14  4,2  - sORGO
@@ -688,6 +699,7 @@
  13  3,6  | DhAK
  13  3,6  | DiRK
  13  3,6  | DoOK
+ 13  3,6  | DoRK
  13  3,6  | DyAK
  13  3,3  | GARDOn
  13  4,2  - GAROo
@@ -731,6 +743,7 @@
  13  1,7  - KOAs
  13  4,3  | KORErO
  13  6,2  - KOa
+ 13  5,4  - KObO
  13  6,2  - KOi
  13  5,4  - KOkO
  13  5,4  - KOlO
@@ -1124,6 +1137,8 @@
  11  1,7  - GRAf
  11  1,5  - GRAm
  11  1,7  - GRAm
+ 11  1,5  - GRAn
+ 11  1,7  - GRAn
  11  1,7  - GRAs
  11  1,5  - GRAt
  11  1,7  - GRAt
@@ -1292,6 +1307,8 @@
  11  4,2  | rOOKER
  11  5,4  - sAGO
  11  4,5  | sERG
+ 11  1,5  - sKA
+ 11  1,7  - sKA
  11  4,2  | sOAKER
  11  2,5  - sORA
  11  2,7  - sORA
@@ -1495,6 +1512,8 @@
  10  2,7  - KeR
  10  7,11 - KeSAR
  10  7,4  | KiNG
+ 10  2,5  - KiR
+ 10  2,7  - KiR
  10  7,11 - KiSRA
  10  2,5  - KoA
  10  3,4  | KoDRO
@@ -1592,6 +1611,7 @@
  10  4,2  | dRAKE
  10  6,2  - eGO
  10  6,4  - eGO
+ 10  4,5  - fAG
  10  4,3  | fAKER
  10  4,2  - gAROO
  10  4,4  - gAROO
@@ -1642,6 +1662,7 @@
  10  4,2  | sOOKE
  10  4,5  - tAG
  10  4,3  | tAKER
+ 10  4,3  | tOKER
  10  4,2  | tROKE
  10  1,5  - uRAO
  10  1,7  - uRAO
@@ -1812,6 +1833,7 @@
   9 11,8  | KArO
   9  4,11 - KArOOS
   9 11,8  | KAsA
+  9 11,8  | KAtA
   9  4,3  | KAtE
   9 11,8  | KAvA
   9 11,8  | KAyO
@@ -1827,6 +1849,9 @@
   9  3,4  | KODa
   9  7,4  | KONA
   9  5,1  | KORAit
+  9  5,2  | KORAt
+  9  4,11 - KORAtS
+  9  5,2  | KORAts
   9  4,3  | KOaE
   9  4,3  | KOmE
   9  4,3  | KOrE
@@ -1887,6 +1912,7 @@
   9  3,7  - ORe
   9  4,1  | ORlAGE
   9  5,4  - ORlO
+  9  5,4  - ORzO
   9  4,1  | OaRAGE
   9  3,5  - ObA
   9  3,5  - OdA
@@ -1936,6 +1962,8 @@
   9  5,4  - ROtO
   9  4,4  | ReEK
   9  7,4  - RhOS
+  9  7,4  - RiAS
+  9  9,11 - SKA
   9  7,8  | aCK
   9  1,5  - aGA
   9  1,7  - aGA
@@ -2023,6 +2051,8 @@
   9  4,11 - hOOKAS
   9  2,5  - hOR
   9  2,7  - hOR
+  9  7,8  | iCK
+  9  4,11 - iROKOS
   9  4,3  | jAKE
   9 11,8  | jAKO
   9  2,5  - jAR
@@ -2338,10 +2368,12 @@
   8  7,4  | KON
   8  7,4  | KONa
   8  7,4  | KONg
+  8  7,4  | KONk
   8  5,11 - KOOkS
   8  6,3  | KORI
   8  6,3  | KORIn
   8  6,11 - KORS
+  8  5,2  | KORat
   8  5,4  - KORi
   8  7,11 - KOSO
   8  7,11 - KOSOs
@@ -2356,6 +2388,7 @@
   8  5,11 - KOlAS
   8  5,11 - KOlOS
   8  6,3  | KOnIA
+  8  5,2  | KOrAt
   8  5,11 - KOsOS
   8  5,4  | KOtAR
   8  5,11 - KOtOS
@@ -2375,6 +2408,7 @@
   8  6,11 - KRoSA
   8  7,4  | KaNA
   8  5,11 - KaROS
+  8  5,11 - KbARS
   8  7,4  | KeNO
   8  5,11 - KeROS
   8  6,3  | KhAIR
@@ -2434,6 +2468,7 @@
   8  5,2  - ORlO
   8  5,2  - ORnA
   8  5,2  - ORrA
+  8  5,2  - ORzO
   8  4,3  | OcKER
   8  6,4  - OfO
   8  6,4  - OhO
@@ -2493,6 +2528,7 @@
   8  4,5  | REGO
   8  4,5  | REbAG
   8  4,5  | REtAG
+  8  3,3  | ROADeO
   8 11,7  | ROAK
   8  4,3  | ROGEr
   8  6,2  - ROO
@@ -2582,6 +2618,7 @@
   8  7,4  | dONK
   8  6,4  - dOO
   8  5,2  - dORA
+  8  5,11 - dORKS
   8 11,7  | dRAGO
   8  4,3  | eAGER
   8  6,4  | eRIKA
@@ -2626,6 +2663,7 @@
   8  6,3  | kOKIA
   8  6,3  | kOKIO
   8  5,11 - kOKOS
+  8  7,4  | kONK
   8  5,11 - kOOKS
   8  5,2  - kORA
   8  6,2  | kORAI
@@ -2698,6 +2736,7 @@
   8  5,11 - sOAKS
   8  4,3  | sOGER
   8  7,4  | sONK
+  8  5,11 - sOOKS
   8  5,2  - sORA
   8  5,5  | stRAG
   8  6,4  | tAIKO
@@ -2748,6 +2787,7 @@
   8  6,4  - wRO
   8  4,3  | yAGER
   8  7,4  | yANK
+  8  7,4  | zONK
   8  6,4  - zOO
   8  5,11 - zOOKS
   7  7,8  | ACOR
@@ -2910,6 +2950,7 @@
   7 11,8  | GAlA
   7  4,3  | GAlE
   7  5,3  | GAlt
+  7 11,8  | GAmA
   7  4,3  | GAmE
   7  4,3  | GAnE
   7  5,3  | GAnt
@@ -2922,6 +2963,7 @@
   7  5,3  | GAst
   7 11,8  | GAtA
   7  4,3  | GAtE
+  7  4,11 - GAtORS
   7 11,8  | GAuR
   7  5,3  | GAut
   7  4,3  | GAvE
@@ -2996,6 +3038,7 @@
   7  6,11 - KAbS
   7  6,3  | KAdI
   7  6,11 - KAeS
+  7  6,11 - KAfS
   7  6,4  - KAi
   7  6,3  | KAkI
   7  6,3  | KAlI
@@ -3018,8 +3061,10 @@
   7  4,5  | KERn
   7  4,5  | KERo
   7  4,5  | KERs
+  7  6,5  | KIR
   7  6,5  | KIRk
   7  6,5  | KIRn
+  7  6,5  | KIRs
   7  6,5  | KIeR
   7  6,5  | KIlO
   7  6,5  | KInA
@@ -3039,6 +3084,7 @@
   7  7,11 - KOSs
   7  6,11 - KOaS
   7  6,3  | KObI
+  7  6,11 - KObS
   7  6,4  - KOi
   7  6,3  | KOlI
   7  6,3  | KOmI
@@ -3085,11 +3131,13 @@
   7  2,7  - Ki
   7  3,4  | KiD
   7  7,4  | KiN
+  7  6,11 - KiRS
   7  5,4  | KitAR
   7 11,7  | KnAR
   7  4,3  | KoAE
   7  6,11 - KoAS
   7  7,4  | KoN
+  7  5,2  | KoRAt
   7  4,3  | KoRE
   7  6,3  | KoRI
   7  6,11 - KoRS
@@ -3207,6 +3255,7 @@
   7  1,7  - OxO
   7  3,5  - Oy
   7  3,4  | RADOn
+  7  5,3  | RAGtOp
   7 11,8  | RAKe
   7 11,8  | RAKh
   7 11,8  | RAKi
@@ -3222,6 +3271,7 @@
   7  6,5  | RIsK
   7  3,3  | ROAD
   7  3,3  | ROADs
+  7  4,2  | ROAdEO
   7  7,4  | RONG
   7  3,3  | ROOD
   7  3,3  | ROODs
@@ -3448,6 +3498,7 @@
   7  3,3  | sGAD
   7  6,5  | sIAK
   7  6,5  | sIKA
+  7  6,11 - sKAS
   7  4,4  | sKER
   7  7,4  - sO
   7 11,7  | sOAK
@@ -3470,6 +3521,7 @@
   7  7,4  - tO
   7  1,5  - tOA
   7  1,7  - tOA
+  7  5,6  | tOKeR
   7  5,6  | tOKyO
   7  1,5  - tOO
   7  1,7  - tOO
@@ -3666,6 +3718,7 @@
   6  5,1  | GAlOOt
   6  5,1  | GArROt
   6  5,4  | GAtOR
+  6  5,4  | GAtORs
   6  4,2  | GAuRE
   6  5,11 - GAuRS
   6  5,2  | GAvOt
@@ -3698,6 +3751,7 @@
   6  6,11 - GORSt
   6  6,11 - GORSy
   6  5,11 - GOReS
+  6  5,11 - GORpS
   6  5,2  | GORst
   6  1,5  - GOa
   6  1,7  - GOa
@@ -3726,6 +3780,7 @@
   6  5,11 - GRAdS
   6  5,2  | GRAft
   6  5,11 - GRAmS
+  6  5,11 - GRAnS
   6  5,2  | GRAnt
   6  5,11 - GRAsS
   6  5,11 - GRAyS
@@ -3765,6 +3820,7 @@
   6  7,4  | GuNA
   6  5,11 - GyROS
   6  6,6  | IKe
+  6  6,6  | IcK
   6  6,6  | IlK
   6  6,6  | InK
   6  6,6  | IrK
@@ -3778,6 +3834,7 @@
   6 11,8  | KAs
   6  5,4  | KAt
   6 11,8  | KAt
+  6  5,4  | KAta
   6  5,4  | KAte
   6  5,4  | KAth
   6  5,4  | KAts
@@ -3802,6 +3859,7 @@
   6  6,5  | KIm
   6  6,5  | KIn
   6  6,5  | KIp
+  6  6,5  | KIr
   6  6,5  | KIt
   6  5,4  | KOta
   6  5,4  | KOto
@@ -3811,6 +3869,7 @@
   6  6,4  | KaI
   6  8,1  | KaS
   6  7,11 - KaS
+  6  5,4  | KatA
   6 11,7  | KeA
   6  8,1  | KeS
   6  7,11 - KeS
@@ -3970,6 +4029,7 @@
   6  4,5  - RuA
   6  7,4  | RuNG
   6  6,2  - RyA
+  6  9,11 - SKa
   6  9,11 - SKi
   6  9,11 - SKy
   6  2,5  - aA
@@ -4146,6 +4206,7 @@
   6  2,5  - pA
   6  2,7  - pA
   6  7,4  | pANG
+  6  4,3  | pAREO
   6  6,5  | pIK
   6  2,5  - pO
   6  2,7  - pO
@@ -4166,6 +4227,7 @@
   6  4,7  - sAO
   6  7,8  | sCAR
   6  4,5  | sEORA
+  6 11,7  | sKA
   6  5,3  | sKAt
   6  6,4  | sKI
   6  2,5  - sO
@@ -4376,7 +4438,9 @@
   5  3,6  | DOOr
   5  3,6  | DOR
   5  3,6  | DORa
+  5  3,6  | DORe
   5  3,6  | DORi
+  5  3,6  | DORk
   5  3,6  | DORm
   5  3,6  | DORp
   5  3,6  | DORr
@@ -4534,6 +4598,7 @@
   5 11,7  | GRAd
   5 11,7  | GRAf
   5 11,7  | GRAm
+  5 11,7  | GRAn
   5 11,7  | GRAs
   5 11,7  | GRAt
   5 11,7  | GRAv
@@ -4715,10 +4780,12 @@
   5  4,5  | REGd
   5  4,5  | REGo
   5  4,5  | REGr
+  5  4,5  | REGs
   5  4,5  | REGt
   5  4,5  | REdO
   5  4,5  | REgO
   5  4,5  | REnO
+  5  4,5  | REpO
   5  6,5  | RIG
   5  6,5  | RIGa
   5  6,5  | RIGs
@@ -4761,6 +4828,7 @@
   5  6,11 - RaGS
   5  8,1  | RaSA
   5  3,4  | ReDO
+  5  6,11 - ReGS
   5  5,3  | ReGt
   5  5,4  | RetAG
   5  4,4  | RhEA
@@ -4838,6 +4906,7 @@
   5  6,7  - dO
   5  4,4  | dOEG
   5  6,11 - dOGS
+  5  4,3  | dORE
   5  8,1  | dOSA
   5  3,3  | dRAD
   5 11,7  | dRAG
@@ -4915,6 +4984,7 @@
   5 11,8  | kARO
   5  4,11 - kAROOS
   5  4,5  | kERO
+  5  8,8  | kIR
   5  4,3  | kOAE
   5  4,3  | kORE
   5  8,1  | kOSO
@@ -5068,6 +5138,7 @@
   5  4,3  | wARE
   5  4,5  | wEAR
   5  3,3  | wOAD
+  5  6,11 - wOGS
   5  3,3  | wOOD
   5  3,3  | wORD
   5  4,3  | wORE
@@ -5425,6 +5496,7 @@
   4  9,11 - ShR
   4  9,11 - SiA
   4  9,11 - SiR
+  4  9,11 - SkA
   4  9,11 - SlA
   4  9,11 - SmA
   4  9,11 - SpA
@@ -5474,6 +5546,7 @@
   4  8,2  | dSR
   4  3,5  | eDO
   4  3,4  | fAD
+  4 11,8  | fAG
   4  7,4  | fANO
   4  6,3  | fARIO
   4  5,11 - fAROS
@@ -5499,6 +5572,7 @@
   4  5,11 - kAROS
   4  4,5  | kEG
   4  7,4  | kONA
+  4  5,2  | kORAt
   4  7,4  | kRNA
   4  6,11 - kROSA
   4  3,4  | lAD
@@ -5592,6 +5666,8 @@
   4  5,6  | tORO
   4  5,11 - tOROS
   4  5,6  | tOROs
+  4  5,2  | tOROt
+  4  5,6  | tOROt
   4  6,11 - tORSO
   4  5,6  | tOvAR
   4  5,6  | tROAd
@@ -5609,6 +5685,7 @@
   4 11,8  | vAG
   4  6,3  | vARIO
   4  4,5  | vEG
+  4  6,5  | vIG
   4  5,3  | vOGt
   4  3,4  | wAD
   4 11,8  | wAG
@@ -5658,6 +5735,7 @@
   3  6,11 - ARcS
   3  6,11 - AReS
   3  5,3  | ARet
+  3  6,11 - ARfS
   3  6,11 - ARkS
   3  6,11 - ARmS
   3  6,3  | ARnI
@@ -5916,6 +5994,7 @@
   3  4,5  | REAr
   3  6,5  | RIA
   3  6,5  | RIAl
+  3  6,5  | RIAs
   3  6,5  | RIO
   3  6,5  | RIOt
   3  6,5  | RIgA
@@ -5984,6 +6063,7 @@
   3  7,4  | ReN
   3  3,4  | RhD
   3  6,11 - RhOS
+  3  6,11 - RiAS
   3  3,4  | RiD
   3  7,4  | RiN
   3  5,3  | RiOt
@@ -6307,6 +6387,7 @@
   3  6,4  | vAIR
   3  7,4  | vAN
   3  6,3  | vARI
+  3  6,11 - vARS
   3  6,5  | vIRA
   3 11,7  | vOAR
   3  7,4  | vON
@@ -6588,6 +6669,7 @@
   2  4,5  | REf
   2  4,5  | REg
   2  4,5  | REh
+  2  4,5  | REi
   2  4,5  | REl
   2  4,5  | REm
   2  4,5  | REn
@@ -6602,6 +6684,7 @@
   2  6,5  | RIc
   2  6,5  | RId
   2  6,5  | RIe
+  2  6,5  | RIf
   2  6,5  | RIg
   2  6,5  | RIk
   2  6,5  | RIm
@@ -6623,6 +6706,7 @@
   2  5,4  | RatO
   2  7,2  - Re
   2 11,7  | ReA
+  2  6,4  | ReI
   2  8,1  | ReS
   2  7,11 - ReS
   2 11,7  | RhA
@@ -6840,6 +6924,7 @@
   2  4,5  | kER
   2  8,8  - kI
   2  8,8  | kI
+  2  6,5  | kIR
   2 11,7  | kOA
   2  6,4  | kOI
   2  8,1  | kOS

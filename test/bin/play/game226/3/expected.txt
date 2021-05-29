@@ -44,6 +44,7 @@
  28  2,6  - JEERS
  28  5,5  | JEErER
  28  5,5  | JEREEd
+ 28  2,6  - RAJES
  28  2,6  - RAJESh
  28  6,6  - SEJERo
  28  2,6  - dJERSA
@@ -80,8 +81,11 @@
  26  2,6  - JeERS
  26  5,5  | JoREE
  26  2,6  - RAJaS
+ 26  2,6  - RAJeS
  26  2,6  - RaJAS
+ 26  2,6  - RaJES
  26  2,6  - hAJES
+ 26  2,6  - rAJES
  26  2,6  - tAJES
  25  5,5  | JAR
  25  5,5  | JARa
@@ -147,6 +151,7 @@
  24  5,5  | JEt
  24 10,2  | JEtE
  24  5,5  | JEu
+ 24  5,5  | JEw
  24  2,2  - JaR
  24  5,5  | JaRA
  24  5,5  | JeER
@@ -191,10 +196,12 @@
  22  3,5  - JEtE
  22  1,2  - JEu
  22 10,2  | JEu
+ 22 10,2  | JEw
  22  5,5  | Ja
  22  5,5  | Je
  22  5,5  | Jo
  22  3,5  - JuRE
+ 22  9,3  | SoJA
  22  8,2  - aREA
  22  8,2  - oRAE
  22 10,2  | tEJ
@@ -240,6 +247,7 @@
  17  8,2  - EsE
  17  8,2  - EyE
  17  8,2  - EyR
+ 17  5,5  | RAJEs
  17  8,2  - aER
  17  8,2  - aRE
  17  8,2  - eAR
@@ -291,6 +299,7 @@
  16 10,2  | dEARE
  16 10,2  | fEERE
  16 10,2  | fERAE
+ 16 10,2  | pEREA
  16 10,2  | rEREE
  16 10,1  | sEER
  15 11,2  | ADJuRE
@@ -342,6 +351,7 @@
  14  4,6  - JESpER
  14  4,6  - JEStEE
  14  4,6  - JEStER
+ 14  3,5  - RAJEs
  14  4,4  - RAVEn
  14  4,4  - RAVEs
  14  4,4  - REVEt
@@ -389,6 +399,7 @@
  13  9,2  - REa
  13  5,1  | REb
  13  9,2  - REe
+ 13  9,2  - REi
  13  9,2  - aRE
  13  9,2  - bAE
  13  9,2  - bEA
@@ -405,6 +416,7 @@
  13  9,2  - hEE
  13  9,2  - iRA
  13  9,2  - iRE
+ 13  2,2  - lAREE
  13  9,2  - lEA
  13  9,2  - lEE
  13  9,2  - nAE
@@ -475,6 +487,7 @@
  12  3,6  - JEsS
  12  5,5  - JEtE
  12  3,6  - JEtS
+ 12  3,6  - JEwS
  12  3,6  - JaRS
  12  4,5  - JeER
  12  3,6  - JeES
@@ -497,6 +510,7 @@
  12  9,2  - RtE
  12  9,2  - RyA
  12  9,2  - RyE
+ 12  6,6  - SoJA
  12  3,5  - aJEE
  12  4,5  - aJEE
  12  3,4  - bRAVE
@@ -548,6 +562,7 @@
  11  5,5  - JEe
  11  5,5  - JEt
  11  5,5  - JEu
+ 11  5,5  - JEw
  11  4,5  - JeE
  11  4,5  - JoE
  11  4,6  - JuS
@@ -665,6 +680,7 @@
  10  1,6  - hAERES
  10  2,6  - hEARSE
  10  2,6  - kREESE
+ 10  1,6  - lAREES
  10  3,1  - lORDOMAs
  10  8,2  - oE
  10  8,2  - oR
@@ -713,6 +729,7 @@
   9  3,4  - dERV
   9  4,4  - dEVE
   9  4,4  - eAVE
+  9  4,4  - fAVE
   9  1,2  - fEAR
   9  3,4  - fERV
   9  1,2  - fRAE
@@ -804,9 +821,11 @@
   8  8,1  | MEUtE
   8  2,6  - RAcES
   8  2,6  - RAgES
+  8  2,6  - RAjES
   8  2,6  - RAkES
   8  2,6  - RAlES
   8  2,6  - RApES
+  8  2,6  - RArES
   8  2,6  - RAsES
   8  2,6  - RAtES
   8  2,6  - RAvES
@@ -988,8 +1007,10 @@
   8  2,6  - pARES
   8  2,6  - pEARS
   8  2,6  - pEERS
+  8  5,5  | pEREA
   8  2,6  - pERES
   8  2,6  - pREES
+  8  2,6  - rARES
   8  9,2  - rE
   8  2,6  - rEARS
   8  5,5  | rEREE
@@ -1423,6 +1444,7 @@
   6  5,5  | REf
   6  5,5  | REg
   6  5,5  | REh
+  6  5,5  | REi
   6  5,5  | REl
   6  5,5  | REm
   6  5,5  | REn
@@ -1549,6 +1571,8 @@
   6  5,5  | hERE
   6 10,2  | jEER
   6  5,5  | jEER
+  6  3,1  | lAREE
+  6  3,1  | lAREEs
   6  3,1  | lARrEE
   6  4,4  - lAV
   6 10,2  | lEAR
@@ -1997,6 +2021,8 @@
   5  1,2  - kRA
   5 10,4  - lA
   5 11,1  | lADER
+  5  2,5  - lAREE
+  5  3,1  | lAReE
   5  3,1  | lARgE
   5  3,1  | lARvE
   5  3,1  | lArREE
@@ -2008,6 +2034,7 @@
   5  3,6  - lEESER
   5  3,1  | lEEsE
   5  3,1  | lERwA
+  5  3,1  | laREE
   5 10,4  - mA
   5 11,1  | mADRE
   5  5,5  | mAE
@@ -2040,6 +2067,7 @@
   5  4,2  - pEE
   5  5,5  | pEE
   5  5,5  | pER
+  5  5,5  - pEREA
   5  3,6  - pERSAE
   5  3,6  - pERSEA
   5  3,6  - pRESEE
@@ -2210,6 +2238,7 @@
   4 11,3  | DEEp
   4 11,3  | DEEr
   4 11,3  | DEEs
+  4 11,3  | DEEt
   4 11,3  | DER
   4 11,3  | DERe
   4 11,3  | DERf
@@ -2257,6 +2286,7 @@
   4 11,3  | DiRE
   4 11,3  | DoER
   4 11,3  | DoRA
+  4 11,3  | DoRE
   4 11,3  | DrEE
   4 11,3  | DuER
   4 11,3  | DuRA
@@ -2443,6 +2473,8 @@
   4 10,2  | REf
   4 10,2  | REg
   4 10,2  | REh
+  4  1,2  - REi
+  4 10,2  | REi
   4 10,2  | REl
   4 10,2  | REm
   4 10,2  | REn
@@ -2607,6 +2639,8 @@
   4  4,6  - kESAR
   4 11,1  | lADE
   4  3,1  | lARE
+  4  3,5  - lAREE
+  4  3,1  | lAREe
   4  3,1  | lAREs
   4  4,6  - lASER
   4  3,1  | lAcER
@@ -2614,6 +2648,7 @@
   4  3,1  | lAgER
   4  3,1  | lAkER
   4  3,1  | lAmER
+  4  3,1  | lArEE
   4  3,1  | lAsER
   4  3,1  | lAtER
   4  3,1  | lAuRE
@@ -2671,6 +2706,7 @@
   4 11,1  | pEDA
   4 10,2  | pEE
   4 10,2  | pER
+  4  3,5  - pEREA
   4  3,6  - pERSE
   4  3,6  - pRASE
   4  3,6  - pRESA
@@ -2752,6 +2788,7 @@
   3  3,6  - ARbS
   3  3,6  - ARcS
   3  3,6  - AReS
+  3  3,6  - ARfS
   3  3,6  - ARkS
   3  3,6  - ARmS
   3  3,6  - ARtS
@@ -3022,6 +3059,7 @@
   3  3,6  - REdS
   3  3,6  - REeS
   3  3,6  - REfS
+  3  3,6  - REgS
   3  3,6  - REiS
   3  3,6  - REmS
   3  3,6  - REpS
@@ -3033,6 +3071,7 @@
   3  4,6  - RaSE
   3  3,6  - ReES
   3  4,5  - RhEA
+  3  3,6  - RiAS
   3  3,6  - RiES
   3  4,6  - RiSE
   3  3,6  - RoES
@@ -3120,6 +3159,8 @@
   3  6,6  - SEmE
   3  9,3  | SEnA
   3  6,6  - SEnA
+  3  9,3  | SEnE
+  3  6,6  - SEnE
   3  9,3  | SEoR
   3  6,6  - SEoR
   3  9,3  | SErA
@@ -3154,6 +3195,7 @@
   3  6,6  - SiER
   3  9,3  | SiR
   3  6,6  - SiRE
+  3  9,3  | SkA
   3  6,6  - SkEE
   3  6,6  - SkER
   3  9,3  | SlA
@@ -3482,6 +3524,7 @@
   3  5,6  - uSEE
   3  5,6  - uSER
   3  3,5  - vARE
+  3  3,6  - vARS
   3  4,6  - vASE
   3  4,5  - vEER
   3  5,5  - vEER
@@ -3707,6 +3750,7 @@
   2  5,5  - REf
   2  5,5  - REg
   2  5,5  - REh
+  2  5,5  - REi
   2  5,5  - REl
   2  5,5  - REm
   2  5,5  - REn
@@ -3818,6 +3862,7 @@
   2  6,6  - SiA
   2  6,6  - SiE
   2  6,6  - SiR
+  2  6,6  - SkA
   2  6,6  - SlA
   2  6,6  - SmA
   2  6,6  - SoE
@@ -3932,6 +3977,7 @@
   2  3,1  | lEeR
   2  3,1  | lEgE
   2  3,1  | lEhR
+  2  3,1  | lEkE
   2  3,1  | lEmE
   2  3,1  | lEnA
   2  3,1  | lEnE
@@ -4115,6 +4161,7 @@
   1  3,1  | lEv
   1  3,1  | lEx
   1  3,1  | lEy
+  1  3,1  | lEz
   1  5,5  - mE
   1  5,5  - nE
   1  5,5  - oE

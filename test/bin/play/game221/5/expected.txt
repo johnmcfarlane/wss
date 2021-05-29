@@ -100,6 +100,7 @@
  35  9,1  | wEFT
  34  9,1  | ExEAT
  34  9,5  | FAE
+ 34  8,8  - FAG
  34  9,5  | FAT
  34  9,5  | FEE
  34  9,5  | FET
@@ -128,6 +129,7 @@
  32  9,3  | FATEs
  32  9,2  | FEsTAE
  32  9,5  | FaE
+ 32  8,8  - FaG
  32  9,5  | FaT
  32  9,5  | FeE
  32  9,5  | FeT
@@ -158,6 +160,7 @@
  30  9,5  | FAb
  30  9,5  | FAd
  30  9,5  | FAe
+ 30  9,5  | FAg
  30  9,5  | FAh
  30  9,5  | FAm
  30  9,5  | FAn
@@ -268,6 +271,7 @@
  26  9,1  | CoAT
  26  9,1  | CrEA
  26  9,3  | EATEn
+ 26  9,1  | ETiC
  26  1,8  - FATCaKE
  26  7,3  | FEAsE
  26  3,8  - FECKET
@@ -504,6 +508,7 @@
  22  8,4  | FACETEd
  22  4,8  - FAKEd
  22  4,8  - FAKEr
+ 22  4,8  - FAKEy
  22  2,6  - FArCIE
  22  7,3  | FEAt
  22  7,3  | FEEd
@@ -514,6 +519,7 @@
  22  7,3  | FEeT
  22  8,10 - FinE
  22  8,10 - FonE
+ 22  1,6  - FrACTI
  22  6,8  - KEyAGE
  22  7,1  | TAChE
  22  9,5  | TAE
@@ -913,6 +919,7 @@
  18  7,2  | FArE
  18  7,2  | FAtE
  18  7,1  | FAuTE
+ 18  7,2  | FAvE
  18  7,2  | FAzE
  18  9,2  | FEC
  18  8,6  | FECEs
@@ -966,6 +973,7 @@
  18  9,5  | TEn
  18  8,4  | TEnACE
  18  7,1  | TErCE
+ 18  9,5  | TEt
  18  7,4  | TEtE
  18  9,5  | TEw
  18  8,8  - TeGA
@@ -1009,6 +1017,7 @@
  18  9,5  | tAT
  18  7,2  | tECA
  18  9,5  | tEE
+ 18  9,5  | tET
  18  7,2  | wACE
  18  9,5  | wAE
  18  9,5  | wAT
@@ -1131,6 +1140,7 @@
  17  9,1  | bEAT
  17  9,1  | bEET
  17  9,1  | bETA
+ 17  9,1  | dEET
  17  7,5  | eTA
  17  9,1  | fEAT
  17  9,1  | fEET
@@ -1266,6 +1276,7 @@
  16  7,3  | bEET
  16  7,3  | dCA
  16  2,6  - dECEIT
+ 16  7,3  | dEET
  16  2,6  - dEFEIT
  16  8,10 - dEnE
  16  7,3  | fEAT
@@ -1306,6 +1317,7 @@
  16  7,3  | sEAT
  16  7,1  | sETAE
  16  8,10 - sEnA
+ 16  8,10 - sEnE
  16  7,3  | tEAT
  16  7,3  | tEET
  16  7,3  | uCA
@@ -1486,6 +1498,7 @@
  15  7,4  | tAT
  15  7,2  | tATE
  15  8,6  - tELE
+ 15  7,4  | tET
  15  7,2  | tETE
  15  8,6  - vALE
  15  7,4  | vAT
@@ -1619,6 +1632,7 @@
  14  7,4  | TEn
  14  9,1  | TEpA
  14  1,8  - TEsACK
+ 14  7,4  | TEt
  14  9,1  | TEwA
  14  7,3  | TaA
  14  8,6  | TaCE
@@ -1688,6 +1702,7 @@
  14  8,6  | pACE
  14  8,8  - pAGE
  14  9,2  | pCT
+ 14  9,2  | pEC
  14  8,6  | rACE
  14  8,6  | rAFE
  14  8,8  - rAGE
@@ -1738,6 +1753,7 @@
  13  3,7  - CArNET
  13  8,8  | CEe
  13  3,7  - CEiNTE
+ 13  8,8  | CEl
  13  8,8  | CEp
  13  3,7  - CTENE
  13  2,7  - CaFENET
@@ -2118,6 +2134,7 @@
  11  6,5  - JEe
  11  6,5  - JEt
  11  6,5  - JEu
+ 11  6,5  - JEw
  11  6,5  - JcT
  11  6,5  - JeE
  11  6,5  - JeT
@@ -2306,6 +2323,7 @@
  10  9,7  | eAM
  10  7,10 - eF
  10  8,4  | fACETE
+ 10  8,8  - fAG
  10  7,10 - fF
  10  9,7  | gAM
  10  8,8  - hAG
@@ -2508,12 +2526,14 @@
   9  3,8  - gEEK
   9  4,8  - hAKE
   9  8,5  | hECTE
+  9  4,8  - iCK
   9  4,8  - jAKE
   9  3,8  - kEEK
   9  4,8  - lAKE
   9  9,5  - lAX
   9  3,8  - lEAK
   9  3,8  - lEEK
+  9  4,8  - lEKE
   9  4,8  - mAKE
   9  9,5  - mAX
   9  3,8  - mEAK
@@ -2779,9 +2799,11 @@
   8  4,7  - sENCE
   8  9,2  | sET
   8  8,10 - sEn
+  8  5,8  - sKA
   8  9,2  | sTA
   8  9,2  | tAT
   8  9,2  | tEA
+  8  9,2  | tET
   8  8,10 - tEn
   8  5,8  - uKE
   8  9,2  | uTA
@@ -2864,6 +2886,7 @@
   7  4,6  - CEIbA
   7  4,6  - CEIlE
   7  4,6  - CEInT
+  7  8,6  - CEL
   7  4,7  - CENe
   7  4,7  - CENt
   7  3,6  - CETI
@@ -2901,6 +2924,7 @@
   7  5,8  - EKe
   7  5,7  - ENCy
   7  5,7  - ENiF
+  7  4,6  - ETIC
   7  9,2  | ETa
   7  9,2  | ETc
   7  2,7  - EThANE
@@ -2993,6 +3017,7 @@
   7  9,2  | TEc
   7  9,2  | TEd
   7  3,6  - TElIC
+  7  9,2  | TEt
   7  9,2  | TEw
   7  5,6  - TICE
   7  9,2  | TaA
@@ -3143,6 +3168,7 @@
   6  8,6  | CTgE
   6  8,6  - CaL
   6  4,7  - CaN
+  6  8,6  - CeL
   6  3,6  - CeTI
   6  3,6  - ChAI
   6  8,7  | ChEE
@@ -3203,6 +3229,7 @@
   6  4,6  - ErIC
   6  9,3  | Es
   6  9,3  | Et
+  6  4,6  - EtIC
   6  3,7  - EvENT
   6  9,3  | Ew
   6  8,7  | ExEC
@@ -3219,6 +3246,7 @@
   6  8,6  | FAnE
   6  8,6  | FArE
   6  8,6  | FAtE
+  6  8,6  | FAvE
   6  3,6  - FAvI
   6  8,6  | FAzE
   6  4,6  - FEIf
@@ -3339,6 +3367,7 @@
   6  2,7  - eATEN
   6  2,7  - eETEN
   6  9,3  | eT
+  6  4,6  - eTIC
   6  9,3  | fA
   6  4,6  - fEIF
   6  5,6  - fICA
@@ -3575,6 +3604,7 @@
   5 10,8  - Go
   5  6,6  - ICe
   5  6,6  - ICh
+  5  6,6  - ICk
   5  6,6  - ICy
   5  6,6  - IF
   5  6,6  - IFe
@@ -3667,6 +3697,7 @@
   5  8,6  | dATE
   5  5,6  | dE
   5  7,6  | dE
+  5  8,7  | dEET
   5  8,8  | dEF
   5  4,7  - dENAT
   5  5,6  - dIF
@@ -3741,6 +3772,7 @@
   5  8,4  - pAHA
   5  8,6  | pATE
   5  5,6  | pE
+  5  8,8  | pEC
   5  4,7  - pENTA
   5  8,6  | pETE
   5  5,6  - pIC
@@ -3753,10 +3785,12 @@
   5  4,7  - rENTE
   5  8,6  | rETE
   5  5,6  - rIC
+  5  5,6  - rIF
   5  9,7  - rOC
   5  8,6  | sATE
   5  4,6  - sCI
   5  8,8  | sEC
+  5  4,7  - sENTE
   5  5,6  - sIC
   5  9,7  - sOC
   5  3,7  - sTANE
@@ -3907,6 +3941,7 @@
   4  8,8  | TEn
   4  3,6  - TEnIA
   4  8,6  | TEpEE
+  4  8,8  | TEt
   4  8,8  | TEw
   4  8,8  | TEx
   4  8,8  | TEz
@@ -4043,6 +4078,7 @@
   4  8,7  | sEE
   4  3,7  - sEEN
   4  4,7  - sENA
+  4  4,7  - sENE
   4  4,7  - sENT
   4  9,4  - sHA
   4  5,7  - sNEE
@@ -4155,6 +4191,7 @@
   3  9,7  - EO
   3  9,7  - EOn
   3  7,9  | ETA
+  3  4,6  - ETIc
   3  3,6  - ETuI
   3  8,7  - EbOE
   3  8,7  | EdEA
@@ -4182,6 +4219,7 @@
   3  6,7  - NAe
   3  6,7  - NAf
   3  6,7  - NAg
+  3  6,7  - NAh
   3  6,7  - NAk
   3  6,7  - NAm
   3  6,7  - NAn
@@ -4311,6 +4349,7 @@
   3  8,6  - bTL
   3  8,6  - cAL
   3  4,7  - cAN
+  3  8,6  - cEL
   3  3,6  - cETI
   3  5,6  - cITE
   3  4,7  - cTN
@@ -4367,6 +4406,7 @@
   3  4,7  - nAN
   3  8,7  - nEO
   3  3,6  - nETI
+  3  5,6  - nITE
   3  5,7  - oNA
   3  5,7  - oNE
   3  5,7  - oNT
@@ -4647,6 +4687,7 @@
   2  9,7  - pOT
   2  8,8  | rEA
   2  8,8  | rEE
+  2  4,6  - rEI
   2  8,8  | rET
   2  5,6  - rIA
   2  5,6  - rIE
@@ -4667,6 +4708,7 @@
   2  4,6  - tAI
   2  8,8  | tEA
   2  8,8  | tEE
+  2  8,8  | tET
   2  5,6  - tIE
   2  5,6  - tIT
   2  9,7  - tOA

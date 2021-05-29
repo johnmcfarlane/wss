@@ -125,9 +125,11 @@
  24 10,6  | InDAN
  24 10,5  | IsAIAN
  24 10,6  | IsNAD
+ 24 10,6  | NADAs
  24 10,6  | NAiAD
  24 10,6  | NIDAl
  24  9,8  | NIDI
+ 24 10,6  | NIcAD
  24 10,6  | NaIAD
  24 10,6  | bADAN
  24 10,5  | hAINAI
@@ -261,6 +263,7 @@
  18  7,10 - meDIA
  18  7,10 - meDII
  18  7,10 - meND
+ 18  1,1  | pADI
  18  1,1  | pAID
  18  1,1  | pAIN
  18  7,2  - pANDY
@@ -367,6 +370,7 @@
  15  7,2  - INDAn
  15  7,2  - INDIa
  15  7,2  - INDIc
+ 15  7,2  - INDIe
  15  7,2  - INDIi
  15  7,2  - INDIn
  15  7,2  - INDIv
@@ -439,6 +443,7 @@
  14 10,4  | INDAbA
  14 10,5  | INDIA
  14  1,10 - INDIc
+ 14  1,10 - INDIe
  14  2,5  | JEAN
  14  2,5  | JEANs
  14  2,5  | JEANy
@@ -521,7 +526,9 @@
  13  6,5  - DIEr
  13  6,5  - DIEs
  13  6,5  - DIEt
+ 13 11,7  | DITsY
  13 11,7  | DITtY
+ 13 11,7  | DITzY
  13  5,11 - DYAs
  13  1,7  - De
  13  9,6  | DoNI
@@ -566,6 +573,7 @@
  13  7,5  - YEN
  13  7,5  - YENi
  13  7,5  - YENs
+ 13  5,11 - YIDs
  13  5,11 - YINs
  13  6,5  - dIED
  13  6,5  - dYE
@@ -593,7 +601,9 @@
  12 10,7  | AbAND
  12  1,7  - Ae
  12 10,7  | AlAND
+ 12 10,5  | AlIYA
  12  1,7  - At
+ 12  1,7  - Aw
  12 10,8  | DAIN
  12 10,6  | DANA
  12 10,8  | DANA
@@ -667,6 +677,7 @@
  12 10,8  | NAvY
  12  7,5  - NEdDY
  12  7,5  - NEeDY
+ 12  7,5  - NErDY
  12  4,11 - NIAIs
  12  2,10 - NIDe
  12 10,7  | NYAs
@@ -796,6 +807,7 @@
  11  9,9  | INs
  11  9,9  | INt
  11  7,2  - INtA
+ 11  7,2  - INtI
  11  9,9  | INv
  11 11,8  | ITsY
  11  7,2  - IbAD
@@ -814,6 +826,7 @@
  11  2,5  | JEe
  11  2,5  | JEt
  11  2,5  | JEu
+ 11  2,5  | JEw
  11  5,11 - NAIs
  11  7,5  - NED
  11  5,11 - NIAs
@@ -918,6 +931,7 @@
  10  7,5  - DEtIN
  10  7,5  - DEwAN
  10  7,5  - DEwY
+ 10  7,5  - DExY
  10  9,6  | DI
  10 10,5  | DIAkA
  10 10,7  | DIAkA
@@ -1049,6 +1063,7 @@
  10  7,5  - mENDI
  10  7,5  - mENY
  10 10,5  | oIDIA
+ 10  7,2  - pADI
  10  7,2  - pAID
  10  7,2  - pAIN
  10 10,8  | pAND
@@ -1065,6 +1080,7 @@
  10  7,2  - sAID
  10  7,2  - sAIN
  10 10,8  | sAND
+ 10  7,1  | sATAY
  10 10,6  | sAYA
  10 10,8  | sAYA
  10  7,5  - sEDAN
@@ -1340,6 +1356,7 @@
   8 10,6  | INiA
   8  8,6  - INtA
   8 10,6  | INtA
+  8  8,6  - INtI
   8  7,7  - ISDN
   8  7,7  - ISNaD
   8 11,8  | ITeN
@@ -1371,6 +1388,8 @@
   8 10,8  | NAA
   8 10,7  | NAAm
   8 10,8  | NAAm
+  8 10,7  | NAAn
+  8 10,8  | NAAn
   8 10,8  | NAIb
   8 10,8  | NAId
   8 10,8  | NAIf
@@ -1411,6 +1430,7 @@
   8 10,7  | NgAI
   8  8,7  - SIDY
   8  8,7  - SNYe
+  8  8,7  - SYlI
   8 11,9  | TAD
   8 11,9  | TAN
   8 11,9  | TIN
@@ -1504,6 +1524,8 @@
   8 10,8  | mAY
   8 10,7  | mIAN
   8 10,6  | mINA
+  8 10,7  | nAAN
+  8 10,8  | nAAN
   8 10,6  | nADA
   8 10,8  | nADA
   8 10,8  | nAID
@@ -1513,6 +1535,7 @@
   8 10,8  | nAY
   8 10,6  | nINA
   8  9,7  | oNI
+  8 10,8  | pADI
   8 10,8  | pAID
   8 10,8  | pAIN
   8 11,5  | pAINTY
@@ -1955,6 +1978,7 @@
   6 10,8  | NAe
   6 10,8  | NAf
   6 10,8  | NAg
+  6 10,8  | NAh
   6 10,8  | NAk
   6 10,8  | NAm
   6 10,8  | NAn
@@ -2196,7 +2220,9 @@
   5 11,6  | INIT
   5  7,1  | INTA
   5 11,7  | INTA
+  5 11,7  | INTI
   5 11,7  | INTIl
+  5 11,7  | INTIs
   5  3,10 - INc
   5 11,5  | INfIT
   5 11,5  | INwIT
@@ -2336,6 +2362,7 @@
   5 11,7  | pITY
   5  7,7  - pSID
   5  7,5  - rEA
+  5  7,5  - rEI
   5 11,5  | rIANT
   5  7,2  - sAD
   5 11,5  | sAINT
@@ -2441,6 +2468,7 @@
   4 11,7  | DITe
   4 11,7  | DITs
   4 11,7  | DITt
+  4 11,7  | DITz
   4 11,6  | DIcT
   4 11,6  | DIeT
   4 11,6  | DInT
@@ -2484,6 +2512,7 @@
   4  8,6  - IIi
   4 11,7  | INT
   4 11,7  | INTa
+  4 11,7  | INTi
   4 11,7  | INTl
   4 11,7  | INTo
   4 11,7  | INTr
@@ -2522,6 +2551,7 @@
   4 11,6  | NAuT
   4 11,6  | NAwT
   4 11,7  | NIT
+  4 11,7  | NITe
   4 11,7  | NITo
   4 11,7  | NITs
   4 11,6  | NIsT
@@ -2661,6 +2691,7 @@
   4 11,6  | iNIT
   4  7,1  | iNTA
   4 11,7  | iNTA
+  4 11,7  | iNTI
   4 10,8  - jA
   4 10,8  | jAI
   4 10,8  - kA
@@ -2796,6 +2827,7 @@
   3 11,6  | InIT
   3  7,1  | InTA
   3 11,7  | InTA
+  3 11,7  | InTI
   3  7,1  | IoTA
   3 11,7  | IoTA
   3 10,8  | NA
@@ -2906,6 +2938,7 @@
   3 11,7  | jATI
   3  7,5  - jE
   3 11,7  | jITI
+  3  7,1  | kATA
   3  7,7  - kSI
   3 11,6  | lAIT
   3 11,7  | lATI
@@ -3050,6 +3083,7 @@
   2  8,7  - ShA
   2  8,7  - ShI
   2  8,7  - SiA
+  2  8,7  - SkA
   2  8,7  - SkI
   2  8,7  - SlA
   2  8,7  - SmA

@@ -32,6 +32,7 @@
  24  3,10 - EcHOS
  24  6,9  | EsQ
  24  3,10 - EtHOS
+ 24  3,10 - HElOS
  24  3,10 - HErOS
  24  4,10 - HOES
  24  3,10 - HOErS
@@ -135,11 +136,14 @@
  22  4,10 - EtHS
  22  5,10 - HES
  22  5,10 - HESt
+ 22  4,10 - HEhS
+ 22 11,6  | HElOS
  22  4,10 - HEmS
  22  4,10 - HEnS
  22  4,10 - HEpS
  22 11,6  | HErOS
  22  4,10 - HErS
+ 22  4,10 - HEtS
  22  4,10 - HEwS
  22 11,6  | HOES
  22 11,6  | HOErS
@@ -177,6 +181,7 @@
  22 11,6  | HOmES
  22 11,6  | HOmOS
  22 11,6  | HOnES
+ 22  4,10 - HOnS
  22 11,6  | HOoSE
  22 11,6  | HOpES
  22  4,10 - HOpS
@@ -240,8 +245,10 @@
  22  7,10 - SoHO
  22  5,10 - bOSH
  22  5,10 - cOSH
+ 22  4,10 - fEHS
  22  5,10 - fOSH
  22  5,10 - gOSH
+ 22  4,10 - hEHS
  22  5,10 - jOSH
  22  5,10 - lOSH
  22  5,10 - mESH
@@ -331,12 +338,15 @@
  20  6,10 - uSH
  20  5,10 - wHS
  19 11,6  | HESt
+ 19 11,6  | HEhS
+ 19 11,6  | HElO
  19 11,6  | HEmS
  19 11,6  | HEnS
  19 11,6  | HEpS
  19 11,6  | HErO
  19 11,6  | HErS
  19  5,10 - HEs
+ 19 11,6  | HEtS
  19 11,6  | HEwS
  19 11,6  | HOEd
  19 11,6  | HOEr
@@ -368,6 +378,7 @@
  19 11,6  | HOmE
  19 11,6  | HOmO
  19 11,6  | HOnE
+ 19 11,6  | HOnS
  19 11,6  | HOpE
  19 11,6  | HOpS
  19 11,6  | HOrE
@@ -557,6 +568,7 @@
  16  5,10 - dOS
  16  6,10 - eSE
  16  5,10 - gES
+ 16 11,6  | hEHS
  16  5,10 - hES
  16 11,6  | hOHE
  16 11,6  | hOHO
@@ -880,9 +892,11 @@
   9  8,8  | Ee
   9  8,8  | Eh
   9  8,8  | Eo
+  9  4,8  - ExONS
   9  5,8  - HENS
   9 11,6  | HES
   9  8,9  | HES
+  9  5,9  - HETS
   9  3,9  - HEiST
   9  3,9  - HElOT
   9  3,8  - HErON
@@ -894,6 +908,7 @@
   9  5,8  - HONEs
   9  5,8  - HONEy
   9  5,8  - HONOr
+  9  5,8  - HONS
   9 11,6  | HOO
   9  8,9  | HOO
   9  4,9  - HOOTErS
@@ -978,6 +993,7 @@
   9  6,9  | iHS
   9  6,9  | iSH
   9  4,8  - jOHNS
+  9  4,9  - kHETS
   9  3,8  - kOHEN
   9  8,8  | oH
   9  4,8  - oHONE
@@ -1010,6 +1026,7 @@
   8  5,9  - HET
   8  5,9  - HETe
   8  5,9  - HETh
+  8  5,9  - HETs
   8 11,6  | HEd
   8  8,9  | HEd
   8 11,6  | HEe
@@ -1098,6 +1115,7 @@
   8 11,6  | HeS
   8  8,9  | HeS
   8  5,9  - HeTE
+  8  5,9  - HeTS
   8 11,6  | HiE
   8  8,9  | HiE
   8  5,8  - HiNE
@@ -1108,6 +1126,7 @@
   8 11,6  | HoE
   8  8,9  | HoE
   8  5,8  - HoNE
+  8  5,8  - HoNS
   8 11,6  | HoO
   8  8,9  | HoO
   8  5,9  - HoTE
@@ -1205,6 +1224,7 @@
   7  5,8  - HONzO
   7  4,9  - HOOT
   7  4,9  - HOOTs
+  7  4,9  - HOOTy
   7  4,9  - HOST
   7  4,9  - HOSTa
   7  4,9  - HOSTs
@@ -1430,6 +1450,7 @@
   6  5,8  - HONe
   6  5,8  - HONg
   6  5,8  - HONk
+  6  5,8  - HONs
   6  5,8  - HONt
   6  4,9  - HOiT
   6  4,9  - HOlT
@@ -1547,6 +1568,7 @@
   6  5,8  - SaNE
   6  3,9  - ScOOT
   6  4,8  - SeEN
+  6  5,8  - SeNE
   6  5,9  - SeTH
   6  3,9  - SfOOT
   6  4,8  - ShEN
@@ -1623,6 +1645,7 @@
   6  5,8  - hENS
   6  4,8  - hOHN
   6  5,8  - hONE
+  6  5,8  - hONS
   6  5,8  - iONE
   6  5,8  - iONS
   6  4,8  - jOHN
@@ -1713,6 +1736,7 @@
   5  7,8  - NOw
   5  7,8  - NOx
   5  7,8  - NOy
+  5  7,8  - NaH
   5  7,8  - NoH
   5  7,8  - NoOSE
   5  7,8  - NtH
@@ -1849,6 +1873,7 @@
   5 11,6  | oOH
   5  8,9  | oOH
   5  8,1  | pE
+  5  4,9  - pESTO
   5  5,9  - pETOS
   5  8,1  | pO
   5  4,9  - pOETS
@@ -2017,6 +2042,7 @@
   4  5,8  - SEN
   4  5,8  - SENa
   4  5,8  - SENd
+  4  5,8  - SENe
   4  5,8  - SENt
   4  5,9  - SET
   4  5,9  - SETa
@@ -2309,8 +2335,10 @@
   3  7,9  - TEdS
   3  7,9  - TEeS
   3  7,9  - TEgS
+  3  7,9  - TElS
   3  7,9  - TEnS
   3  7,9  - TEsS
+  3  7,9  - TEtS
   3  7,9  - TEwS
   3  7,9  - TObE
   3  7,9  - TOcO
@@ -2394,6 +2422,7 @@
   3  5,8  - hEN
   3 11,6  | hES
   3  8,9  | hES
+  3  5,9  - hETS
   3 11,6  | hOE
   3  8,9  | hOE
   3  5,8  - hON
@@ -2450,6 +2479,7 @@
   3  5,8  - sON
   3  5,9  - sOTS
   3  5,8  - tEN
+  3  5,9  - tETS
   3  5,8  - tON
   3  5,9  - tOTE
   3  5,9  - tOTO
@@ -2499,6 +2529,7 @@
   2  7,9  - TEl
   2  7,9  - TEm
   2  7,9  - TEn
+  2  7,9  - TEt
   2  7,9  - TEw
   2  7,9  - TEx
   2  7,9  - TEz
@@ -2591,6 +2622,7 @@
   2  6,9  - rTE
   2  5,9  - sET
   2  5,9  - sOT
+  2  5,9  - tET
   2  5,9  - tOT
   2  5,9  - tST
   2  6,8  - uN

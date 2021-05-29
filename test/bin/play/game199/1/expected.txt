@@ -37,6 +37,7 @@
  30  2,10 - JOnGS
  30  2,10 - JOuGS
  30  7,3  | JuGA
+ 28  1,10 - JAlEOS
  28  2,10 - JOcOSE
  28  7,3  | JOtA
  28  6,10 - SOOJEe
@@ -70,12 +71,15 @@
  26  3,9  - JaAP
  26  3,9  - JeEP
  26  6,10 - SAJOu
+ 26  6,10 - SOJAs
  26  6,10 - SOnJA
  26  6,10 - ShOJO
  26  2,10 - dOJOS
  26  2,10 - hAJES
  26  2,10 - mAJOS
  26  2,10 - mOJOS
+ 26  2,10 - rAJES
+ 26  2,10 - sOJAS
  26  2,10 - tAJES
  25  7,5  | GArOO
  25  3,7  - JAGEr
@@ -139,6 +143,7 @@
  18  7,7  | OmAO
  18  7,3  | dEJA
  18  5,7  | pOOA
+ 18  7,3  | sOJA
  17  7,8  | AEOn
  17  5,8  | EOAn
  17  7,5  | GAEa
@@ -325,6 +330,7 @@
  14  5,8  | EO
  14  7,8  | EO
  14  4,8  - GAM
+ 14  4,8  - GAMa
  14  4,8  - GAMb
  14  4,8  - GAMe
  14  4,8  - GAMp
@@ -344,6 +350,7 @@
  14  7,3  | GOnA
  14  7,3  | GOrA
  14  7,3  | GaEA
+ 14  4,8  - GaMA
  14  4,8  - GaME
  14  4,8  - GoME
  14  3,9  - GrAPE
@@ -450,6 +457,7 @@
  13  6,9  - POnGO
  13  6,9  - POrGE
  13  6,9  - POrGO
+ 13  6,10 - SOJA
  12  2,10 - AEGiS
  12  2,10 - AGErS
  12  2,10 - AGOnS
@@ -542,6 +550,7 @@
  12  3,10 - JEsS
  12  5,7  - JEtE
  12  3,10 - JEtS
+ 12  3,10 - JEwS
  12  4,7  - JOE
  12  4,7  - JOEl
  12  4,7  - JOEs
@@ -585,9 +594,11 @@
  12  6,10 - SEGnO
  12  6,10 - SOGEr
  12  6,10 - SOGEt
+ 12  6,10 - SOJa
  12  6,10 - SOnGO
  12  6,10 - SOrGO
  12  6,10 - SnOGA
+ 12  6,10 - SoJA
  12  6,10 - StAGE
  12  6,10 - StOGA
  12  6,10 - SwAGE
@@ -672,6 +683,7 @@
  11  3,9  - GOlP
  11  3,8  - GOoMA
  11  3,9  - GOoP
+ 11  3,9  - GOrP
  11  3,9  - GOuP
  11  7,5  | GaE
  11  7,5  | GiE
@@ -684,6 +696,7 @@
  11  5,7  - JEe
  11  5,7  - JEt
  11  5,7  - JEu
+ 11  5,7  - JEw
  11  4,7  - JeE
  11  4,7  - JoE
  11  4,10 - JuS
@@ -758,6 +771,7 @@
  10  3,8  - GEuM
  10  3,6  - GOOK
  10  3,6  - GOOKs
+ 10  3,6  - GOOKy
  10  5,9  - GPd
  10  5,9  - GPh
  10  5,9  - GPm
@@ -786,6 +800,7 @@
  10  7,5  | bAE
  10  7,5  | dAO
  10  7,5  | fAE
+ 10  5,9  | fAG
  10  5,9  | fOG
  10  7,5  | gAE
  10  7,5  | hAE
@@ -904,6 +919,7 @@
   9  6,9  - PAEOn
   9  6,9  - PAGa
   9  6,9  - PAGe
+  9  6,9  - PArEO
   9  6,9  - PAsEO
   9  6,9  - PEG
   9  6,9  - PEGs
@@ -1032,6 +1048,7 @@
   8  6,8  - MEAs
   8  6,8  - MEAt
   8  6,8  - MEAw
+  8  6,8  - MEOu
   8  6,8  - MEOw
   8  6,8  - MOA
   8  6,8  - MOAi
@@ -1193,6 +1210,7 @@
   8  4,9  - rAPE
   8  7,4  | rEA
   8  3,8  - rEAM
+  8  4,9  - rEPO
   8  3,8  - rOAM
   8  3,8  - rOOM
   8  4,9  - rOPE
@@ -1321,6 +1339,7 @@
   7  6,6  - KOEl
   7  6,6  - KOOk
   7  6,6  - KOaE
+  7  6,6  - KObO
   7  6,6  - KOdA
   7  6,6  - KOkO
   7  6,6  - KOlA
@@ -1730,6 +1749,7 @@
   6  6,6  - KrA
   6  6,6  - KuE
   6  6,6  - KyE
+  6  6,8  - MAbE
   6  6,8  - MAcE
   6  6,8  - MAcO
   6  6,8  - MAdE
@@ -1834,6 +1854,7 @@
   6  6,9  - PAy
   6  6,9  - PE
   6  6,9  - PEa
+  6  6,9  - PEc
   6  6,9  - PEd
   6  6,9  - PEe
   6  6,9  - PEg
@@ -1949,6 +1970,7 @@
   6  4,8  - sAME
   6  4,9  - sAP
   6  4,9  - sEP
+  6  5,6  - sKA
   6  4,6  - sOK
   6  4,8  - sOMA
   6  4,8  - sOME
@@ -1966,6 +1988,7 @@
   6  4,8  - wAME
   6  4,9  - wAP
   6  4,6  - wOK
+  6  4,9  - wOP
   6  4,6  - yAK
   6  4,9  - yAP
   6  4,9  - yEP
@@ -2193,6 +2216,7 @@
   5  6,10 - SAnG
   5  6,10 - SEG
   5  6,10 - SEGo
+  5  6,10 - SEGs
   5  6,10 - SEpG
   5  6,10 - SErG
   5  6,10 - SGAd
@@ -2299,12 +2323,14 @@
   5  3,10 - rAGS
   5  4,8  - rAM
   5  5,7  - rEGO
+  5  3,10 - rEGS
   5  4,8  - rEM
   5  4,8  - rOM
   5  3,7  - sAGE
   5  3,10 - sAGS
   5  4,8  - sAM
   5  5,7  - sEGO
+  5  3,10 - sEGS
   5  4,8  - sEM
   5  5,8  - sMA
   5  3,10 - tAGS
@@ -2320,6 +2346,7 @@
   5  3,7  - wAGE
   5  3,10 - wAGS
   5  4,8  - wEM
+  5  3,10 - wOGS
   5  4,8  - yAM
   5  4,8  - yOM
   5  3,10 - zAGS
@@ -2647,6 +2674,7 @@
   3  6,10 - SOfA
   3  6,10 - SOgA
   3  6,10 - SOhO
+  3  6,10 - SOjA
   3  6,10 - SOkA
   3  6,10 - SOkE
   3  6,10 - SOkO
@@ -2917,6 +2945,7 @@
   2  6,10 - ShO
   2  6,10 - SiA
   2  6,10 - SiE
+  2  6,10 - SkA
   2  6,10 - SlA
   2  6,10 - SmA
   2  6,10 - SoE

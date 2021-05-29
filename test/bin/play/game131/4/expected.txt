@@ -19,6 +19,7 @@
  36  1,12 - ZEkE
  36  1,12 - bIZE
  36  1,12 - cIZE
+ 36  1,12 - mEZE
  36  1,12 - mIZE
  36  1,12 - mZEE
  36  1,12 - pIZE
@@ -101,6 +102,7 @@
  28 11,4  | gEEZ
  28  3,12 - hEEZIE
  28 11,4  | jEEZ
+ 28 11,5  | mEZE
  28 11,5  | mIZE
  28 11,5  | pIZE
  28 11,6  | sITZ
@@ -121,6 +123,7 @@
  27 11,5  | fEZ
  27 11,5  | fIZ
  27 11,5  | gEZ
+ 27 11,5  | lEZ
  27 11,5  | lIZ
  27  9,2  | mIZEN
  27 11,5  | sEZ
@@ -170,7 +173,9 @@
  24  1,10 - ZErO
  24 11,5  | ZIEGEr
  24 11,4  | ZIEGa
+ 24  7,8  | fUTZ
  24  5,4  | hEEZIE
+ 24  7,8  | lUTZ
  24  7,8  | pUTZ
  23  4,5  - GEITJiE
  23  3,10 | GEeZ
@@ -190,12 +195,14 @@
  23 11,5  | ZIGs
  23  9,3  | ZIoN
  23  3,12 | bIZE
+ 23  3,12 | mEZE
  23  3,12 | mIZE
  23  5,12 | mZEE
  23  3,12 | pIZE
  22 11,1  | EGoIZE
  22 11,6  | EThIZE
  22 11,5  | GEEZ
+ 22 11,4  | GlITZ
  22  5,6  | IZlE
  22  5,7  | ZEE
  22 11,5  | ZIEGa
@@ -286,6 +293,8 @@
  19 11,5  | ZITi
  19 11,5  | ZITs
  19  9,3  | aGEN
+ 19 11,5  | dITZ
+ 19  3,10 | dITZ
  19 11,5  | fITZ
  19 11,5  | gEEZ
  19  3,10 | gEEZ
@@ -350,9 +359,12 @@
  18 11,3  | bIZE
  18  3,10 - bOTI
  18 11,3  | cIZE
+ 18  4,13 - dITZ
  18  9,2  | eETEN
  18  3,10 - hOTI
  18  9,2  | kETEN
+ 18  3,10 - lOTI
+ 18 11,3  | mEZE
  18 11,3  | mIZE
  18 11,3  | mZEE
  18 11,3  | pIZE
@@ -365,6 +377,7 @@
  18  4,13 - sIZE
  18  9,2  | sTEEN
  18  9,2  | wITEN
+ 17 10,6  | DITZEs
  17  9,4  | EEN
  17  5,4  | EGoIZE
  17  9,3  | EbEN
@@ -402,6 +415,7 @@
  17 11,5  | ZEn
  17 11,5  | ZEr
  17 11,5  | ZIg
+ 17 11,5  | ZIn
  17 11,5  | ZIp
  17 11,5  | ZIt
  17 11,5  | ZaT
@@ -462,6 +476,7 @@
  16 10,1  | GaITED
  16 11,3  | GlEET
  16 11,3  | GlEIT
+ 16  1,11 - GlITZ
  16  6,6  - GrANDEE
  16 11,3  | GrEET
  16 11,3  | GrEIT
@@ -513,6 +528,7 @@
  16  9,4  | tEN
  16  7,5  - tJI
  16  7,5  - uJI
+ 16 11,5  | vEGIE
  16  9,4  | wEN
  16  9,4  | yEN
  16  9,4  | zEN
@@ -556,6 +572,7 @@
  15 11,3  | GITE
  15  3,10 | GITe
  15  3,10 | GITh
+ 15  3,10 | GITs
  15  1,12 - GIbE
  15  1,12 - GIlE
  15  1,12 - GIrE
@@ -628,6 +645,8 @@
  14  8,8  - AIGlET
  14  8,8  - AIGrET
  14  8,8  - AuGITE
+ 14 10,6  | DITZ
+ 14 10,6  | DITZy
  14 10,6  | DIZEn
  14 11,6  | EGEr
  14 11,6  | EGIs
@@ -747,6 +766,8 @@
  14  1,10 - bEGOT
  14 11,5  | bEIGE
  14  1,10 - bIGOT
+ 14  3,12 | dITZ
+ 14  5,12 | dITZ
  14  7,8  - fAZE
  14  5,5  | fEEZE
  14  3,12 | fITZ
@@ -767,6 +788,7 @@
  14  7,8  - mAZE
  14  5,5  | mETZE
  14  2,11 - mETZE
+ 14  5,12 | mEZE
  14  5,12 | mIZE
  14  5,7  | mZEE
  14  3,12 | mZEE
@@ -791,8 +813,10 @@
  14  5,5  | wEEZE
  14 10,3  | yEZDI
  13 10,6  | DIZz
+ 13 10,6  | DItZ
  13 10,6  | DIzZ
  13 10,6  | DaZE
+ 13 10,6  | DiTZ
  13 10,6  | DoZE
  13  5,8  - EE
  13  1,13 - EGEr
@@ -848,6 +872,7 @@
  13 11,3  | GIEs
  13 11,5  | GITE
  13 11,3  | GITe
+ 13 11,3  | GITs
  13  6,7  - GIVE
  13  3,10 | GIb
  13  3,10 | GId
@@ -926,7 +951,9 @@
  13  7,8  | bUZ
  13 11,5  | cIG
  13  5,6  | cIZE
+ 13  6,7  | dEXIE
  13 11,5  | dIG
+ 13  2,11 - dITZ
  13  6,8  | eXITE
  13  2,12 - fEEZE
  13  3,12 - fEEZE
@@ -944,12 +971,14 @@
  13 11,5  | kEG
  13 11,5  | lEG
  13 11,3  | lEGIT
+ 13  5,12 | lEZ
  13 11,2  | lIEGE
  13 11,5  | lIG
  13  2,11 - lITZ
  13  5,12 | lIZ
  13 11,5  | mEG
  13  3,12 - mETZE
+ 13  5,6  | mEZE
  13 11,5  | mIG
  13  5,6  | mIZE
  13  2,12 - nEEZE
@@ -978,6 +1007,9 @@
  13  5,12 | tEZ
  13 11,5  | tIG
  13 11,5  | vEG
+ 13 11,2  | vEGIE
+ 13 11,3  | vEGIE
+ 13 11,5  | vIG
  13  2,12 - wEEZE
  13  3,12 - wEEZE
  13 11,5  | wIG
@@ -1066,6 +1098,7 @@
  12 11,5  | GIT
  12 11,5  | GITe
  12 11,5  | GITh
+ 12 11,5  | GITs
  12  2,13 - GId
  12  2,13 - GIs
  12  2,13 - GTd
@@ -1168,6 +1201,7 @@
  12  6,10 - iT
  12  2,12 - jEEZ
  12  3,12 - jEEZ
+ 12  3,12 - mEZE
  12  6,7  | mIXT
  12  2,12 - mZEE
  12  6,7  | nEXT
@@ -1255,6 +1289,7 @@
  11 11,4  | GIEn
  11 11,4  | GIEs
  11  1,13 - GIEs
+ 11  1,13 - GITs
  11  6,7  - GIVe
  11 11,5  | GIbE
  11 11,5  | GIfT
@@ -1361,6 +1396,7 @@
  11  5,8  - hE
  11  5,8  - jE
  11 11,3  | lEGE
+ 11  3,12 - lEZ
  11  5,7  - lIEVE
  11  5,6  - lIGAND
  11 11,3  | lIGE
@@ -1414,6 +1450,7 @@
  10  3,10 | EIrE
  10  2,13 - EIrE
  10 11,6  | ETEn
+ 10 11,6  | ETIc
  10 10,2  | EThID
  10 11,3  | ETuI
  10  3,11 | ETuI
@@ -1611,6 +1648,9 @@
  10 11,5  | cITE
  10 10,2  | cITED
  10  6,7  - cIVE
+ 10 11,4  | dEET
+ 10 11,5  | dEET
+ 10  3,10 | dEET
  10 11,5  | dETI
  10  3,10 | dETI
  10  6,7  - dEVE
@@ -1669,6 +1709,8 @@
  10 11,5  | nETI
  10  3,10 | nETI
  10  6,7  - nEVE
+ 10 11,5  | nITE
+ 10  3,10 | nITE
  10 10,7  - oGEE
  10 11,5  | pETE
  10  3,10 | pETE
@@ -1766,6 +1808,8 @@
   9 11,6  | ET
   9 11,4  | ETEn
   9  3,11 | ETEn
+  9 11,4  | ETIc
+  9  3,11 | ETIc
   9 11,6  | ETa
   9 11,6  | ETc
   9 11,6  | ETh
@@ -1851,6 +1895,7 @@
   9  1,12 - TEpE
   9  5,8  | TEpEE
   9 11,5  | TErI
+  9  3,10 | TEt
   9 11,5  | TEtE
   9  1,12 - TEtE
   9  3,10 | TEw
@@ -1943,6 +1988,7 @@
   9  1,12 - cITE
   9 11,5  | dEE
   9  3,10 | dEE
+  9  4,13 - dEET
   9 11,5  | dEI
   9 11,5  | dET
   9  3,10 | dET
@@ -2034,6 +2080,8 @@
   9 11,3  | nETI
   9 11,5  | nIT
   9  3,10 | nIT
+  9 11,3  | nITE
+  9  1,12 - nITE
   9  6,7  | nIX
   9  5,12 | oGEE
   9 11,5  | pEE
@@ -2052,6 +2100,7 @@
   9  4,13 - rEET
   9  5,5  | rEGIE
   9  3,12 | rEGT
+  9 11,5  | rEI
   9  4,13 - rEIT
   9 11,5  | rET
   9 11,3  | rETE
@@ -2080,6 +2129,8 @@
   9  6,7  | sIX
   9 11,5  | tEE
   9  3,10 | tEE
+  9 11,5  | tET
+  9  3,10 | tET
   9 11,3  | tETE
   9  1,12 - tETE
   9  6,7  | tEX
@@ -2092,6 +2143,7 @@
   9  1,12 - tITE
   9 11,5  | uIT
   9 11,5  | vEE
+  9  5,5  | vEGIE
   9 11,5  | vEI
   9 11,5  | vET
   9  6,7  | vEX
@@ -2160,6 +2212,7 @@
   8  2,13 - EIr
   8  3,11 | ET
   8  5,11 | ETEn
+  8  5,11 | ETIc
   8  3,11 | ETa
   8  3,11 | ETc
   8  3,11 | ETh
@@ -2304,6 +2357,7 @@
   8 11,5  | TEn
   8  4,11 - TEnG
   8  5,12 | TEnG
+  8 11,5  | TEt
   8 11,5  | TEw
   8 11,5  | TEx
   8 11,5  | TEz
@@ -2446,6 +2500,8 @@
   8  4,13 - rEE
   8  3,12 | rEG
   8  1,11 - rEGT
+  8 11,4  | rEI
+  8  4,13 - rEI
   8  4,13 - rET
   8 11,4  | rIE
   8  4,13 - rIE
@@ -2501,6 +2557,7 @@
   7 10,6  | DEmIT
   7 10,6  | DEpIT
   7 10,6  | DEtTE
+  7 10,6  | DExIE
   7 10,6  | DIEGo
   7 10,6  | DIEnE
   7 10,6  | DIvET
@@ -2517,6 +2574,7 @@
   7 10,5  - EIrE
   7 10,7  - EIrE
   7 10,7  - ETEn
+  7 10,7  - ETIc
   7  2,10 - ETOn
   7 11,4  | ETa
   7 10,5  - ETuI
@@ -2813,6 +2871,9 @@
   6 10,5  - ETEn
   6  3,12 | ETEn
   6  5,12 | ETEn
+  6 10,5  - ETIc
+  6  3,12 | ETIc
+  6  5,12 | ETIc
   6  3,11 - ETTlE
   6 10,7  - ETa
   6  5,11 | ETa
@@ -2899,6 +2960,7 @@
   6  2,11 - GIT
   6  2,11 - GITe
   6  2,11 - GITh
+  6  2,11 - GITs
   6  5,6  | GIbE
   6 10,3  | GIeD
   6 10,3  | GIlD
@@ -3098,6 +3160,7 @@
   6  7,8  | dUIT
   6 10,5  | eDGE
   6  3,10 | eE
+  6  7,8  - fAG
   6  5,12 | fIG
   6  7,8  | fUG
   6  7,8  | fUTE
@@ -3127,7 +3190,6 @@
   6  2,12 - lIEGE
   6  5,12 | lIG
   6  5,6  | lIGE
-  6  6,7  - lIV
   6  7,8  | lUG
   6  7,8  | lUTE
   6  7,8  - mAG
@@ -3183,6 +3245,7 @@
   6  5,6  | tIGE
   6  7,8  | tUG
   6  7,8  | tUTE
+  6  3,12 - vEGIE
   6  1,10 - vETO
   6  6,6  - vIAND
   6  3,10 | wE
@@ -3216,6 +3279,8 @@
   5  8,8  - AcTG
   5  8,8  - ArEG
   5  8,8  - AuGE
+  5 10,6  | DEET
+  5 10,6  | DEETs
   5 10,6  | DEITy
   5 10,6  | DETEr
   5 10,6  | DETI
@@ -3503,6 +3568,7 @@
   5  3,12 | TEpE
   5  3,12 | TErI
   5  4,11 - TEsTE
+  5  5,12 | TEt
   5  3,12 | TEtE
   5  5,12 | TEw
   5  4,11 - TEwIT
@@ -3629,6 +3695,8 @@
   5  3,11 - cTGE
   5  7,6  - dAND
   5 10,4  | dEDIT
+  5  3,12 | dEET
+  5  5,12 | dEET
   5  3,12 | dETI
   5  5,12 | dETI
   5  1,11 - dETTE
@@ -3677,6 +3745,8 @@
   5  5,12 | nETE
   5  3,12 | nETI
   5  5,12 | nETI
+  5  3,12 | nITE
+  5  5,12 | nITE
   5  2,12 - oGEE
   5  7,6  - pAND
   5  3,12 | pETE
@@ -3744,6 +3814,7 @@
   4 10,6  | DEEp
   4 10,6  | DEEr
   4 10,6  | DEEs
+  4 10,6  | DEEt
   4 10,6  | DEI
   4 10,6  | DEIa
   4 10,6  | DEIl
@@ -3755,6 +3826,7 @@
   4 10,6  | DEbE
   4 10,6  | DEbI
   4 10,6  | DEbT
+  4 10,6  | DEeT
   4 10,6  | DEfI
   4 10,6  | DEfT
   4 10,6  | DEkE
@@ -3784,6 +3856,7 @@
   4 10,6  | DITe
   4 10,6  | DITs
   4 10,6  | DITt
+  4 10,6  | DITz
   4 10,6  | DIcE
   4 10,6  | DIcT
   4 10,6  | DIeT
@@ -3799,6 +3872,7 @@
   4 10,6  | DItT
   4 10,6  | DIvE
   4 10,6  | DaTE
+  4 10,6  | DeET
   4 10,6  | DeTI
   4 10,6  | DiET
   4 10,6  | DiTE
@@ -3829,6 +3903,7 @@
   4  5,6  | EIrE
   4  3,12 | ET
   4  3,11 - ETEn
+  4  3,11 - ETIc
   4  2,11 - ETTa
   4  3,11 - ETTa
   4  3,12 | ETa
@@ -3982,8 +4057,10 @@
   4  4,11 - TEEsT
   4  4,11 - TEIsE
   4  3,12 - TEIsE
+  4  2,11 - TET
   4  2,11 - TETe
   4  2,11 - TETh
+  4  2,11 - TETs
   4  3,12 | TEa
   4 10,3  | TEaD
   4  4,11 - TEaT
@@ -4013,6 +4090,7 @@
   4  4,11 - TErI
   4  4,11 - TEsT
   4  1,11 - TEsTE
+  4  3,12 | TEt
   4  5,6  | TEtE
   4  4,11 - TEtE
   4  3,12 | TEw
@@ -4200,6 +4278,7 @@
   4  3,12 | dEE
   4  5,12 | dEE
   4 10,3  | dEED
+  4  1,11 - dEET
   4  5,8  | dEI
   4  3,12 | dEI
   4  5,12 | dEI
@@ -4366,6 +4445,8 @@
   4 10,4  | nIDE
   4  3,12 | nIT
   4  5,12 | nIT
+  4  5,6  | nITE
+  4  2,11 - nITE
   4  3,10 - nOT
   4  7,8  | nUT
   4 10,7  - oE
@@ -4396,6 +4477,9 @@
   4 10,3  | rEED
   4  1,11 - rEET
   4  3,12 - rEG
+  4  5,8  | rEI
+  4  3,12 | rEI
+  4  5,12 | rEI
   4 10,3  | rEID
   4  1,11 - rEIT
   4  3,12 | rET
@@ -4445,6 +4529,8 @@
   4 10,3  | tEED
   4  1,11 - tEET
   4  3,12 - tEG
+  4  3,12 | tET
+  4  5,12 | tET
   4  5,6  | tETE
   4  2,11 - tETE
   4 10,4  | tIDE
@@ -4604,6 +4690,7 @@
   3  3,11 - ET
   3  2,12 - ETEn
   3  4,12 - ETEn
+  3  4,12 - ETIc
   3  3,11 - ETa
   3  3,11 - ETc
   3  3,11 - ETh
@@ -4706,8 +4793,10 @@
   3  3,12 - TEEt
   3  4,11 - TEIl
   3  3,12 - TEIl
+  3  4,11 - TET
   3  4,11 - TETe
   3  4,11 - TETh
+  3  4,11 - TETs
   3  1,11 - TEaT
   3  5,8  | TEd
   3  5,8  | TEe
@@ -4818,6 +4907,8 @@
   3  2,11 - cIT
   3 10,5  | dDT
   3  5,12 | dE
+  3  2,12 - dEET
+  3  3,12 - dEET
   3  2,11 - dET
   3  3,12 - dETI
   3  5,12 | dI
@@ -4927,6 +5018,7 @@
   3 10,4  | tED
   3  2,12 - tEET
   3  3,12 - tEET
+  3  2,11 - tET
   3  3,12 - tETE
   3  5,12 | tI
   3  2,11 - tIT
@@ -4946,6 +5038,7 @@
   3  5,12 | xI
   3  2,11 - yET
   3  3,12 - yETI
+  3 10,4  | yID
   3 10,4  | zED
   3  2,11 - zIT
   2  8,8  - AE
@@ -5093,6 +5186,8 @@
   2  3,12 - TEm
   2  4,11 - TEn
   2  3,12 - TEn
+  2  4,11 - TEt
+  2  3,12 - TEt
   2  4,11 - TEw
   2  3,12 - TEw
   2  4,11 - TEx
@@ -5120,6 +5215,8 @@
   2  4,11 - TaT
   2  4,11 - TeE
   2  2,12 - TeE
+  2  2,11 - TeT
+  2  4,11 - TeT
   2  2,11 - TgT
   2  4,11 - TgT
   2  4,11 - ThE
@@ -5265,6 +5362,7 @@
   2  5,7  | rEE
   2  2,12 - rEE
   2  3,12 - rEE
+  2  3,12 - rEI
   2  3,12 - rET
   2  5,7  | rIE
   2  2,12 - rIE
@@ -5283,6 +5381,7 @@
   2  5,7  | tEE
   2  2,12 - tEE
   2  3,12 - tEE
+  2  3,12 - tET
   2  3,12 | tI
   2  5,7  | tIE
   2  2,12 - tIE

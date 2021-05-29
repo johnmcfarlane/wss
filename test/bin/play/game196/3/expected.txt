@@ -1,4 +1,5 @@
  50  5,1  - AXIOmS
+ 50  5,1  - AXIOnS
  50  5,1  - OXAlIS
  47  5,1  - AXIOm
  47  5,1  - AXIOn
@@ -95,6 +96,7 @@
  30  4,5  | ALiX
  30  5,1  - AmOKS
  30  2,6  | FOXISh
+ 30  3,4  - IXOrAS
  30  7,3  - OIcKS
  30  7,3  - OInKS
  30  7,3  - OKrAS
@@ -394,13 +396,16 @@
  20  6,5  | INSAcK
  20  6,5  | INcASK
  20  7,1  - IOtAS
+ 20  7,1  - IcK
  20  7,1  - IlK
  20  7,1  - InK
  20  7,1  - IrK
  20  2,4  | KAFIr
  20  2,4  | KAFIz
+ 20  2,4  | KAFS
  20  1,7  - KAs
  20  2,4  | KIFS
+ 20  1,5  - KINAS
  20  2,4  | KOFtA
  20  4,6  | LAKISh
  20  4,6  | LAKISm
@@ -425,6 +430,7 @@
  20  3,7  - SAI
  20  3,7  - SAO
  20  6,3  - SIAK
+ 20  6,3  - SIcKO
  20  6,3  - SItKA
  20  6,3  - SOAK
  20  6,3  - SOAKs
@@ -436,6 +442,7 @@
  20  7,6  | StAXIS
  20  6,1  - XeS
  20  6,1  - XiS
+ 20  6,5  | eNOKIS
  20  6,5  | iNKOSI
  19  2,4  - AIKIdO
  19  2,1  | ARaK
@@ -444,6 +451,7 @@
  19  7,5  - AuX
  19  2,7  - IS
  19  2,4  | KAF
+ 19  2,4  | KAFs
  19  1,1  - KAS
  19  2,4  | KIF
  19  2,4  | KIFs
@@ -539,10 +547,14 @@
  18  1,7  - IfS
  18  1,7  - IpS
  18  1,5  - KINAh
+ 18  1,5  - KINAs
+ 18  1,5  - KINaS
  18  1,5  - KINeS
+ 18  2,4  | KaFS
  18  2,4  | KeFS
  18  1,5  - KeNAI
  18  2,4  | KiFS
+ 18  1,5  - KiNAS
  18  4,6  | LAK
  18  4,6  | LAKe
  18  4,6  | LAKh
@@ -624,6 +636,7 @@
  18  6,3  - mOXAS
  18  1,4  - pAIKS
  18  2,4  - pIKAS
+ 18  2,4  - pIKIS
  18  6,3  - pISK
  18  6,3  - sIAK
  18  6,3  - sOAK
@@ -739,6 +752,7 @@
  16  6,3  - SOKA
  16  4,4  | SOLdI
  16  4,4  | SOLeA
+ 16  4,4  | SOLeI
  16  4,4  | SOLfA
  16  6,3  - SOtIK
  16  6,3  - ShIK
@@ -785,6 +799,7 @@
  15  4,2  | DOS
  15  4,2  | DOnAL
  15  4,2  | DOtAL
+ 15  7,3  - IcK
  15  7,3  - IlK
  15  7,3  - InK
  15  7,5  - InKOS
@@ -826,6 +841,7 @@
  15  5,5  - hAIKS
  15  5,7  - hAIKS
  15  1,5  - jONAS
+ 15  1,5  - kINAS
  15  1,5  - mINAS
  15  6,3  - mIX
  15  1,5  - mONAS
@@ -854,6 +870,7 @@
  14  7,5  - AXIOm
  14  1,4  - AXIOmS
  14  7,5  - AXIOn
+ 14  1,4  - AXIOnS
  14  7,5  - AXIS
  14  7,5  - AXIlS
  14  7,5  - AXOId
@@ -876,6 +893,8 @@
  14  2,6  | FIAtS
  14  2,6  | FIdOS
  14  2,6  | FIlAO
+ 14  2,6  | FIlOS
+ 14  2,6  | FInOS
  14  2,6  | FOAlS
  14  2,6  | FOAmS
  14  2,6  | FOISm
@@ -936,6 +955,7 @@
  14  6,3  - SIKh
  14  1,5  - SINAe
  14  1,5  - SINAl
+ 14  7,6  | SIcKOS
  14  7,6  | SOAKS
  14  6,3  - SOK
  14  6,3  - SOKa
@@ -1015,8 +1035,11 @@
  13  2,6  | FlIX
  13  1,4  - IXIA
  13  1,4  - IXIAs
+ 13  5,4  | IXOrAS
  13  7,5  - IXiAS
  13  7,7  - IXiAS
+ 13  7,5  - IcK
+ 13  7,7  - IcK
  13  7,5  - IlK
  13  7,7  - IlK
  13  7,5  - InK
@@ -1077,6 +1100,7 @@
  13  1,5  - SINA
  13  2,4  - SIOuX
  13  5,5  - SIaK
+ 13  7,6  | SIcKO
  13  7,6  | SIcKS
  13  7,6  | SIlKS
  13  7,6  | SInKS
@@ -1109,8 +1133,10 @@
  13  7,6  | SOcKS
  13  5,5  - SOoK
  13  5,7  - SOoK
+ 13  7,6  | SOoKS
  13  5,5  | SOtIK
  13  5,5  - SOuK
+ 13  7,6  | SOuKS
  13  5,5  - SeAK
  13  7,6  | ShAKO
  13  5,3  - ShIA
@@ -1124,6 +1150,7 @@
  13  7,6  | SoAKS
  13  5,5  - SoOK
  13  5,7  - SoOK
+ 13  7,6  | SoOKS
  13  6,3  - SoX
  13  7,6  | SpIKS
  13  5,3  - StOA
@@ -1270,6 +1297,7 @@
  12  7,6  | SIlK
  12  7,6  | SInK
  12  6,3  - SItAO
+ 12  7,2  | SKA
  12  7,2  | SKI
  12  5,5  - SOApI
  12  2,4  | SOFA
@@ -1569,6 +1597,7 @@
  11  6,3  - SImA
  11  6,3  - SInA
  11  6,3  - SItA
+ 11  7,2  | SKa
  11  7,2  | SKi
  11  7,2  | SKy
  11  6,3  - SOApI
@@ -1579,6 +1608,7 @@
  11  6,3  - SOdA
  11  6,3  - SOfA
  11  6,3  - SOgA
+ 11  6,3  - SOjA
  11  6,3  - SOkA
  11  6,3  - SOlA
  11  6,3  - SOlI
@@ -1695,8 +1725,10 @@
  10  1,4  - IXIl
  10  7,5  - IrOK
  10  7,7  - IrOK
+ 10  5,4  | IrOKOS
  10  6,4  | KANjIS
  10  2,4  - KIAkI
+ 10  6,4  | KINAS
  10  6,4  | KINASe
  10  6,4  | KINOS
  10  6,4  | KINOoS
@@ -1736,12 +1768,14 @@
  10  6,6  | NOISe
  10  6,6  | NOISy
  10  6,6  | NOIlS
+ 10  6,6  | NOIrS
  10  6,6  | NOSIg
  10  6,6  | NObIS
  10  6,6  | NOgAI
  10  6,6  | NOmAS
  10  6,6  | NOnAS
  10  6,6  | NOrIA
+ 10  6,6  | NOrIS
  10  6,6  | NOvAS
  10  6,6  | NaIAS
  10  6,6  | NgAIO
@@ -1750,6 +1784,7 @@
  10  6,6  | NoX
  10  6,5  - OASIs
  10  6,5  - OAsIS
+ 10  2,5  | OFAyS
  10  6,4  | OINKS
  10  7,5  - OIcKS
  10  7,7  - OIcKS
@@ -1876,6 +1911,7 @@
  10  5,5  | hOAX
  10  5,4  | hOOKAS
  10  5,5  | hOOKAS
+ 10  2,4  | kAFS
  10  2,4  - kIAKI
  10  2,4  | kIFS
  10  2,4  - kIOSK
@@ -2011,6 +2047,7 @@
   9  4,7  - IOu
   9  4,7  - ISe
   9  4,7  - IrA
+  9  5,2  | IrOKOS
   9  1,4  - KAInSI
   9  1,4  - KAIrOS
   9  6,4  | KANS
@@ -2020,11 +2057,13 @@
   9  6,4  | KANjI
   9  6,4  | KINA
   9  6,4  | KINAh
+  9  6,4  | KINAs
   9  6,4  | KINO
   9  6,4  | KINOo
   9  6,4  | KINOs
   9  6,4  | KINOt
   9  6,4  | KINS
+  9  6,4  | KINaS
   9  6,4  | KINdS
   9  6,4  | KINeS
   9  6,4  | KINgS
@@ -2053,6 +2092,7 @@
   9  6,4  | KONAk
   9  6,4  | KONIa
   9  6,4  | KONiA
+  9  6,4  | KONkS
   9  5,4  | KOOSIn
   9  5,5  | KOOkA
   9  5,5  | KOOkS
@@ -2080,6 +2120,7 @@
   9  6,4  | KeNOS
   9  1,4  - KhIS
   9  1,7  - Ki
+  9  6,4  | KiNAS
   9  6,4  | KiNOS
   9  6,4  | KoNIA
   9  1,4  - KrIS
@@ -2100,6 +2141,7 @@
   9  6,5  - OAtS
   9  4,1  | ODa
   9  4,1  | ODe
+  9  2,5  | OFAy
   9  2,5  | OFfS
   9  5,6  | OIKS
   9  6,4  | OINK
@@ -2198,9 +2240,11 @@
   9  6,3  - SIx
   9  7,6  | SKAIl
   9  7,6  | SKAIr
+  9  7,6  | SKAS
   9  7,6  | SKIS
   9  7,6  | SKImOS
   9  7,6  | SKOAl
+  9  7,6  | SKOSh
   9  7,6  | SKiIS
   9  7,6  | SKuAS
   9  6,5  | SNAKe
@@ -2236,11 +2280,13 @@
   9  6,3  - SOk
   9  6,3  - SOl
   9  6,3  - SOn
+  9  7,2  | SOoKS
   9  6,3  - SOp
   9  6,3  - SOs
   9  6,3  - SOt
   9  7,6  | SOtIK
   9  6,3  - SOu
+  9  7,2  | SOuKS
   9  6,3  - SOv
   9  6,3  - SOw
   9  6,3  - SOx
@@ -2312,6 +2358,7 @@
   9  7,5  - eKOI
   9  4,5  | eLIAS
   9  4,5  | eLK
+  9  6,5  | eNOKI
   9  7,1  - eX
   9  7,5  - eX
   9  6,4  | fINKS
@@ -2342,6 +2389,7 @@
   9  5,5  | kOKIO
   9  5,5  | kOKOS
   9  6,4  | kONAK
+  9  6,4  | kONKS
   9  5,5  | kOOKA
   9  5,5  | kOOKS
   9  5,5  - lAOS
@@ -2411,6 +2459,7 @@
   9  6,4  | sINKS
   9  1,4  - sKIS
   9  5,5  | sOAKS
+  9  5,5  | sOOKS
   9  5,5  | sOX
   9  6,4  | tANKS
   9  5,5  - tAOS
@@ -2420,6 +2469,7 @@
   9  5,5  | vOX
   9  6,4  | wINKS
   9  5,5  | wOKAS
+  9  6,4  | wONKS
   9  1,4  - xXI
   9  6,4  | yANKS
   9  5,5  | yOX
@@ -2577,6 +2627,7 @@
   8  7,4  | KISwA
   8  2,4  - KIkOI
   8  2,4  - KIlOS
+  8  2,4  - KInAS
   8  2,4  - KInOS
   8  2,4  - KIvAS
   8  2,4  - KIwAI
@@ -2598,6 +2649,7 @@
   8  6,4  | KON
   8  6,4  | KONa
   8  6,4  | KONg
+  8  6,4  | KONk
   8  5,4  | KOOkA
   8  5,4  | KOOkS
   8  7,4  | KOSIn
@@ -2773,6 +2825,7 @@
   8  7,6  | SIKrA
   8  3,1  - SIS
   8  5,5  - SIa
+  8  2,4  - SIcKO
   8  5,5  - SIe
   8  2,4  - SIrKI
   8  2,4  - SItKA
@@ -2791,6 +2844,7 @@
   8  5,4  | SKOAl
   8  5,4  | SKOO
   8  5,4  | SKOOt
+  8  7,6  | SKaS
   8  7,6  | SKiS
   8  7,6  | SKoO
   8  7,6  | SKuA
@@ -2801,11 +2855,14 @@
   8  7,2  | SOK
   8  5,5  | SOKA
   8  5,5  | SOKO
+  8  5,5  | SOKOl
   8  7,6  | SOKeS
   8  5,4  | SOOK
   8  5,5  | SOOK
   8  5,4  | SOOKe
   8  5,5  | SOOKe
+  8  5,4  | SOOKs
+  8  5,5  | SOOKs
   8  5,4  | SOOKy
   8  5,5  | SOOKy
   8  3,1  - SOS
@@ -2847,6 +2904,7 @@
   8  7,6  | SoKA
   8  7,6  | SoKO
   8  6,4  | SoNK
+  8  7,2  | SoOKS
   8  7,2  | SpIKS
   8  5,4  | SpOOK
   8  5,4  | StOOK
@@ -2886,6 +2944,7 @@
   8  5,4  | cOOKS
   8  6,1  | cUSK
   8  4,4  | dALI
+  8  4,4  | dALS
   8  6,4  | dANK
   8  5,5  - dAO
   8  5,7  - dAO
@@ -2949,6 +3008,7 @@
   8  5,4  | kIOKO
   8  5,4  | kIOSK
   8  1,5  - kON
+  8  6,4  | kONK
   8  5,4  | kOOKA
   8  5,4  | kOOKS
   8  6,1  | kUKI
@@ -3037,6 +3097,7 @@
   8  4,4  | sOLS
   8  1,5  - sON
   8  6,4  | sONK
+  8  5,4  | sOOKS
   8  6,3  - sOS
   8  5,5  - tAI
   8  4,4  | tALI
@@ -3070,6 +3131,8 @@
   8  1,5  - yON
   8  6,1  | yUKI
   8  6,1  | yUKS
+  8  1,5  - zIN
+  8  6,4  | zONK
   8  5,4  | zOOKS
   7  6,5  - AI
   7  1,7  - AI
@@ -3192,6 +3255,8 @@
   7  2,4  - KInS
   7  5,1  | KIpS
   7  2,4  - KIpS
+  7  5,1  | KIrS
+  7  2,4  - KIrS
   7  5,1  | KIsS
   7  2,4  - KIsS
   7  5,1  | KItS
@@ -3220,6 +3285,8 @@
   7  5,5  | KOSs
   7  5,5  | KOaS
   7  5,5  | KObI
+  7  5,5  | KObO
+  7  5,5  | KObS
   7  5,5  | KOdA
   7  5,5  | KOkO
   7  5,5  | KOlA
@@ -3271,6 +3338,7 @@
   7  3,5  - NAb
   7  3,5  - NAe
   7  3,5  - NAg
+  7  3,5  - NAh
   7  3,5  - NAm
   7  3,5  - NAn
   7  3,5  - NAp
@@ -3384,8 +3452,10 @@
   7  2,4  - SIlK
   7  5,1  | SInK
   7  2,4  - SInK
+  7  7,6  | SKA
   7  7,6  | SKAg
   7  7,6  | SKAl
+  7  7,6  | SKAs
   7  7,6  | SKAt
   7  7,6  | SKAw
   7  1,4  - SKI
@@ -3683,6 +3753,8 @@
   6  7,3  - ISm
   6  7,3  - ISn
   6  7,3  - ISt
+  6  5,2  | IcK
+  6  3,4  - IcK
   6  5,2  | IlK
   6  3,4  - IlK
   6  5,2  | InK
@@ -3706,6 +3778,8 @@
   6  2,4  - KIn
   6  5,1  | KIp
   6  2,4  - KIp
+  6  5,1  | KIr
+  6  2,4  - KIr
   6  5,1  | KIt
   6  2,4  - KIt
   6  5,5  | KOa
@@ -3870,6 +3944,7 @@
   6  3,1  - SIs
   6  3,1  - SIt
   6  3,1  - SIx
+  6  7,6  | SKa
   6  7,6  | SKi
   6  7,6  | SKy
   6  6,4  | SONIcA
@@ -4097,6 +4172,7 @@
   5  2,6  | FAc
   5  2,6  | FAd
   5  2,6  | FAe
+  5  2,6  | FAg
   5  2,6  | FAh
   5  2,6  | FAm
   5  2,6  | FAn
@@ -4221,6 +4297,7 @@
   5  4,6  | LAcIS
   5  4,6  | LApIS
   5  4,6  | LApSI
+  5  4,6  | LArIS
   5  4,6  | LAsSO
   5  4,6  | LIdOS
   5  4,6  | LIgAS
@@ -4461,6 +4538,8 @@
   5  7,6  | SOfAS
   5  5,5  | SOfIA
   5  7,6  | SOfIA
+  5  7,2  | SOjAS
+  5  7,6  | SOjAS
   5  5,5  | SOlIO
   5  7,2  | SOmAS
   5  7,6  | SOmAS
@@ -4537,6 +4616,7 @@
   5  5,7  - fA
   5  6,4  | fANOS
   5  6,1  - fI
+  5  6,4  | fINOS
   5  5,5  - gI
   5  5,5  - gO
   5  1,4  - gOIS
@@ -4557,6 +4637,7 @@
   5  2,4  - jIAO
   5  5,5  - jO
   5  6,4  | jONAS
+  5  6,4  | kINAS
   5  6,4  | kINOS
   5  6,4  | kONIA
   5  6,1  - lA
@@ -4629,6 +4710,7 @@
   5  7,5  | pSOAS
   5  1,4  - rAIS
   5  6,4  | rANIS
+  5  2,4  - rIAS
   5  5,5  | rOOSA
   5  6,4  | sANSI
   5  5,5  - sI
@@ -4823,6 +4905,7 @@
   4  4,6  | LAtI
   4  4,6  | LAtS
   4  4,6  | LAuS
+  4  4,6  | LAvS
   4  4,6  | LAwS
   4  4,6  | LAyS
   4  4,6  | LIaS
@@ -4863,6 +4946,7 @@
   4  4,6  | LOrS
   4  4,6  | LOsS
   4  4,6  | LOtA
+  4  4,6  | LOtI
   4  4,6  | LOtS
   4  4,6  | LOwS
   4  6,6  | NAIb
@@ -4888,6 +4972,7 @@
   4  6,6  | NAiO
   4  6,6  | NAiS
   4  6,6  | NAkO
+  4  6,6  | NAnS
   4  6,6  | NAoI
   4  6,6  | NAoS
   4  6,6  | NApS
@@ -5145,6 +5230,7 @@
   4  7,6  | SOdS
   4  7,6  | SOfA
   4  7,6  | SOgA
+  4  7,6  | SOjA
   4  7,6  | SOkA
   4  7,6  | SOlA
   4  7,6  | SOlI
@@ -5187,6 +5273,7 @@
   4  5,4  | ShOOI
   4  6,4  | SiNA
   4  7,6  | SiSI
+  4  7,6  | SkAS
   4  7,6  | SkIS
   4  7,4  | SoSIA
   4  7,6  | SoSO
@@ -5287,6 +5374,7 @@
   4  7,7  - hIS
   4  7,3  - hOI
   4  7,7  - hOI
+  4  6,4  | hONS
   4  7,3  - hSI
   4  7,7  - hSI
   4  6,1  | hUIA
@@ -5338,6 +5426,7 @@
   4  7,4  | mOSSI
   4  6,1  | mUSA
   4  6,1  | mUSO
+  4  6,4  | nANS
   4  5,1  | nIAS
   4  6,4  | nINA
   4  2,4  - nIS
@@ -5365,6 +5454,7 @@
   4  2,4  - pIS
   4  5,1  | pISA
   4  5,1  | pISO
+  4  7,4  | pISOS
   4  6,4  | pONS
   4  1,1  - pOS
   4  7,1  | pSIA
@@ -5376,6 +5466,7 @@
   4  6,4  | rANI
   4  1,1  - rAS
   4  2,4  - rIA
+  4  5,1  | rIAS
   4  6,4  | rINS
   4  2,4  - rIO
   4  5,4  | rOOSA
@@ -5428,6 +5519,7 @@
   4  6,4  | yINS
   4  6,4  | yONI
   4  1,1  - zAS
+  4  6,4  | zINS
   4  6,4  | zONA
   3  5,4  | AIOn
   3  7,4  | AIS
@@ -5634,7 +5726,6 @@
   3  4,6  | LIr
   3  4,6  | LIs
   3  4,6  | LIt
-  3  4,6  | LIv
   3  4,6  | LIz
   3  4,6  | LO
   3  4,6  | LOa
@@ -5662,6 +5753,7 @@
   3  6,6  | NAe
   3  6,6  | NAf
   3  6,6  | NAg
+  3  6,6  | NAh
   3  6,6  | NAk
   3  6,6  | NAm
   3  6,6  | NAn
@@ -5924,6 +6016,7 @@
   3  5,5  | SOgA
   3  7,2  | SOh
   3  5,5  | SOhO
+  3  5,5  | SOjA
   3  7,2  | SOk
   3  5,5  | SOkA
   3  5,5  | SOkO
@@ -6226,6 +6319,7 @@
   3  6,5  | yNO
   3  6,4  | yON
   3  6,1  | yUS
+  3  6,4  | zIN
   3  5,4  | zOOS
   3  5,5  | zOOS
   2  5,1  | AI
@@ -6569,6 +6663,8 @@
   2  7,2  | SiS
   2  7,4  | SiS
   2  7,6  | SiS
+  2  7,2  | SkA
+  2  7,6  | SkA
   2  7,2  | SkI
   2  1,4  - SkI
   2  7,6  | SkI

@@ -256,9 +256,11 @@
  18  2,9  - WOIlIE
  18  5,9  - WOb
  18  5,9  - WOe
+ 18  5,9  - WOg
  18  5,9  - WOk
  18  5,9  - WOn
  18  5,9  - WOo
+ 18  5,9  - WOp
  18  5,9  - WOs
  18  5,9  - WOt
  18  5,9  - WOw
@@ -308,6 +310,7 @@
  17  2,4  | cIVIC
  17  3,9  - dIOC
  17  4,9  - sOCE
+ 17  3,4  - sQUAW
  17  3,9  - vIEW
  16  2,4  | CIViE
  16  1,9  - IOnI
@@ -341,6 +344,8 @@
  15  2,9  - COIr
  15  2,9  - COIt
  15  4,2  | COQ
+ 15  3,2  - COWPIE
+ 15  3,2  - COWPIEs
  15  4,9  - IOdE
  15  4,9  - IOnE
  15  4,9  - IOnI
@@ -372,7 +377,10 @@
  14  3,2  - COWPEa
  14  3,2  - COWPEn
  14  3,2  - COWPEr
+ 14  3,2  - COWPIe
+ 14  3,2  - COWPiE
  14  4,2  | CoQ
+ 14  3,2  - CoWPIE
  14  3,4  - EQUAl
  14  2,5  | IVIEd
  14  2,5  | IVIEs
@@ -515,6 +523,7 @@
  12  5,6  | GIEd
  12  5,6  | GIEn
  12  5,6  | GIEs
+ 12  5,6  | GhEE
  12  5,6  | GlEE
  12  5,6  | GrEE
  12  7,7  | IIWi
@@ -537,6 +546,7 @@
  12  2,6  | VIc
  12  2,6  | VId
  12  2,6  | VIe
+ 12  2,6  | VIg
  12  2,6  | VIi
  12  2,6  | VIl
  12  2,6  | VIm
@@ -559,6 +569,7 @@
  11  4,2  - COPIEr
  11  4,2  - COPIEs
  11  7,1  | COe
+ 11  3,2  - COwPIE
  11  3,2  - ClIPEI
  11  5,9  - ECO
  11  5,9  - ECOd
@@ -570,6 +581,7 @@
  11  5,9  - EpIC
  11  5,9  - ErIC
  11  4,2  | EsQ
+ 11  5,9  - EtIC
  11  3,7  - FEaSE
  11  7,7  | InC
  11  7,2  | OE
@@ -612,6 +624,7 @@
  11  7,1  | cIE
  11  7,1  | cOE
  11  4,2  | cOQ
+ 11  3,2  - cOWPIE
  11  5,9  - dECO
  11  5,9  - dICE
  11  7,1  | dIE
@@ -682,6 +695,7 @@
  10  3,2  - COuPE
  10  2,3  | ChIV
  10  4,2  - CoPEI
+ 10  3,2  - CrIPE
  10  5,8  | ECO
  10  5,8  | ECOd
  10  5,8  | ECOl
@@ -782,6 +796,7 @@
  10  5,9  - nOW
  10  2,9  - pOI
  10  5,9  - rEC
+ 10  2,9  - rEI
  10  4,2  - rEPIC
  10  5,9  - rEW
  10  5,9  - rIC
@@ -891,8 +906,10 @@
   9  7,7  | OpEC
   9  7,7  | OtIC
   9  2,9  - OuI
+  9  6,2  - PEC
   9  6,2  - PECh
   9  6,2  - PECk
+  9  6,2  - PECs
   9  6,2  - PEW
   9  6,2  - PEWs
   9  6,2  - PEWy
@@ -958,7 +975,9 @@
   9  3,2  - WEeP
   9  4,2  - WIPe
   9  4,2  - WIPs
+  9  3,2  - WImP
   9  3,2  - WIsP
+  9  4,2  - WOP
   9  4,2  - WOPs
   9  3,2  - WeEP
   9  3,2  - WhIP
@@ -1009,6 +1028,7 @@
   8  6,2  - PWt
   8  6,2  - PaC
   8  6,2  - PaW
+  8  6,2  - PeC
   8  6,2  - PeW
   8  6,2  - PfC
   8  6,2  - PiC
@@ -1055,6 +1075,7 @@
   8  7,1  | We
   8  5,1  | Wo
   8  7,1  | Wo
+  8  4,2  - WoP
   8  4,2  - WuP
   8  6,5  - Xi
   8  6,5  - Xu
@@ -1094,6 +1115,7 @@
   7  5,9  - EpI
   7  7,7  | ICe
   7  7,7  | ICh
+  7  7,7  | ICk
   7  7,7  | ICy
   7  5,1  | IO
   7  7,1  | IO
@@ -1159,6 +1181,7 @@
   7  6,7  - SCOvE
   7  6,7  - SCyE
   7  6,7  - SECcO
+  7  6,7  - SICkO
   7  6,7  - SIClE
   7  6,7  - SOCiI
   7  6,7  - SOClE
@@ -1207,6 +1230,7 @@
   6  5,8  | EpIC
   6  3,2  - EpOP
   6  5,8  | ErIC
+  6  5,8  | EtIC
   6  5,8  | ExEC
   6  4,2  - ExPO
   6  5,2  - IPId
@@ -1367,7 +1391,6 @@
   6  4,2  - kOPI
   6  2,4  | lEV
   6  7,1  | lI
-  6  2,4  | lIV
   6  5,1  | lO
   6  7,1  | lO
   6  4,2  - lOPE
@@ -1395,6 +1418,7 @@
   6  4,2  - pOPE
   6  7,1  | qI
   6  7,1  | rE
+  6  4,2  - rEPO
   6  2,4  | rEV
   6  4,2  - rIPE
   6  2,4  | rIV
@@ -1520,6 +1544,7 @@
   5  5,9  - Oy
   5  6,2  - PE
   5  6,2  - PEa
+  5  6,2  - PEc
   5  6,2  - PEd
   5  6,2  - PEe
   5  6,2  - PEg
@@ -1578,6 +1603,7 @@
   5  6,3  - REkI
   5  6,3  - REmI
   5  6,3  - REnO
+  5  6,3  - REpO
   5  6,3  - RIbE
   5  6,3  - RIcE
   5  6,3  - RIdE
@@ -1618,6 +1644,7 @@
   5  6,7  - SErIO
   5  6,7  - SItIO
   5  6,7  - SOcII
+  5  6,7  - SOlEI
   5  6,7  - SOsIE
   5  6,7  - SOtIE
   5  6,7  - SWa
@@ -1680,6 +1707,7 @@
   5  5,2  - tPI
   5  5,2  - uPO
   5  4,2  - vIP
+  5  4,2  - wOP
   5  4,2  - yEP
   5  4,2  - yIP
   5  4,2  - zIP
@@ -1701,6 +1729,7 @@
   4  6,2  - Pi
   4  6,2  - Po
   4  6,2  - Pp
+  4  6,3  - REI
   4  6,3  - REId
   4  6,3  - REIf
   4  6,3  - REIm
@@ -1779,6 +1808,7 @@
   4  5,9  - nEO
   4  5,2  - oP
   4  5,2  - pP
+  4  5,9  - rEI
   4  5,9  - rIE
   4  5,9  - rIO
   4  5,9  - rOE
@@ -1832,6 +1862,7 @@
   3  6,3  - REf
   3  6,3  - REg
   3  6,3  - REh
+  3  6,3  - REi
   3  6,3  - REl
   3  6,3  - REm
   3  6,3  - REn
@@ -1846,6 +1877,7 @@
   3  6,3  - RIc
   3  6,3  - RId
   3  6,3  - RIe
+  3  6,3  - RIf
   3  6,3  - RIg
   3  6,3  - RIk
   3  6,3  - RIm
@@ -1896,6 +1928,7 @@
   2  5,8  | EwE
   2  5,8  | EyE
   2  6,3  - ReE
+  2  6,3  - ReI
   2  6,3  - RhE
   2  6,3  - RhO
   2  6,3  - RiE

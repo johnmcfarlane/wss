@@ -1,4 +1,5 @@
  52  1,3  - NyLON
+ 49  5,3  | LENITiONS
  49  1,3  - SaLON
  49  1,3  - SiNON
  49  1,3  - SoLON
@@ -39,6 +40,7 @@
  39  3,1  | SNOOTILy
  39  3,1  | SNOOTINg
  39  3,1  | SOLONIsT
+ 39  3,1  | TyLOSIN
  36  3,1  | SOLONIc
  36  1,3  - STiON
  36  1,3  - SToON
@@ -94,6 +96,7 @@
  27  3,6  | INSTOp
  27  3,6  | INSuLT
  27  3,6  | INTeNS
+ 27  3,6  | INTrON
  27  3,6  | INgOTS
  27  3,6  | INmOST
  27  1,3  - LoTO
@@ -430,6 +433,7 @@
  17  3,3  - La
  17  3,3  - Lo
  17  3,3  - Na
+ 17  7,8  | NaNS
  17  7,8  | NaNT
  17  7,8  | NaTL
  17  3,3  - Ne
@@ -456,7 +460,9 @@
  17  4,6  | ZOLs
  17  4,6  | ZONa
  17  4,6  | ZONe
+ 17  4,6  | ZONk
  17  4,6  | ZaNT
+ 17  4,6  | ZiNS
  17  4,6  | ZoLS
  17  4,3  - aN
  17  4,3  - eN
@@ -514,6 +520,7 @@
  16  4,6  | ZLOTe
  16  4,6  | ZLOTy
  16  4,6  | ZeN
+ 16  4,6  | ZiN
  16  4,6  | ZoL
  16  4,6  | ZoONS
  16  6,1  | aL
@@ -1039,6 +1046,7 @@
  10  8,10 - sO
  10  3,3  | sOLION
  10  5,3  | vENISON
+  9  5,4  | ELINTS
   9  5,4  | ELISiON
   9  7,5  - GLOAT
   9  7,5  - GOLA
@@ -1162,6 +1170,7 @@
   9  2,3  - uN
   9  4,2  | vOX
   9  4,2  | yOX
+  8  5,4  | ELINtS
   8  5,4  | ETIOLiN
   8  5,4  | EcITON
   8  5,4  | EdISON
@@ -1225,6 +1234,7 @@
   8  5,1  | LONE
   8  3,3  | LOOIe
   8  3,2  | LOOTIe
+  8  3,3  | LOTI
   8  3,3  | LOTIc
   8  3,3  | LOgIS
   8  5,1  | LOrETIN
@@ -1238,6 +1248,7 @@
   8  5,1  | NONE
   8  3,3  | NOSIg
   8  3,3  | NObIS
+  8  3,3  | NOrIS
   8  3,3  | NOrIT
   8  5,3  | OENIN
   8  3,4  | OLIO
@@ -1315,6 +1326,7 @@
   8  3,3  | eOSIN
   8  4,3  | eX
   8  3,3  | fOLIO
+  8  5,8  - gONEF
   8 10,10 | hO
   8  7,9  | iNS
   8  7,9  | iNT
@@ -1337,6 +1349,7 @@
   8  3,2  | pOOLI
   8  3,3  | pOTION
   8  6,6  | rOLeS
+  8  6,6  | rOLfS
   8  6,6  | rOLlS
   8  3,3  | rOSIN
   8  6,6  | rOSaL
@@ -1360,8 +1373,13 @@
   8  3,3  | yONIS
   7  9,1  | AOR
   7  5,4  | ELINOr
+  7  5,4  | ELINT
+  7  5,4  | ELINTs
   7  5,4  | ELITeS
+  7  5,4  | ELInTS
   7  5,4  | ENISLe
+  7  5,4  | ElINTS
+  7  7,5  - GLiAS
   7  7,5  - GLoAT
   7  7,5  - GObAN
   7  7,5  - GOnAL
@@ -1387,7 +1405,9 @@
   7  3,6  | INSeT
   7  5,6  | INSuLT
   7  5,6  | INTeNS
+  7  3,6  | INTiS
   7  3,6  | INTrO
+  7  5,6  | INTrON
   7  5,6  | INcL
   7  5,6  | INdN
   7  5,6  | INdOL
@@ -1450,6 +1470,7 @@
   7  5,2  | NOESIs
   7  5,2  | NOETIc
   7  5,2  | NOEsIS
+  7  5,11 - NONeTS
   7  5,1  | NaLE
   7  5,1  | NaNE
   7  5,1  | NeNE
@@ -1567,6 +1588,7 @@
   7  7,9  | iST
   7  7,9  | iTS
   7  6,9  - jOBO
+  7  6,9  - kOBO
   7  6,9  - lOBO
   7  5,3  | rENINS
   7  5,3  | sELION
@@ -1575,6 +1597,7 @@
   7  4,11 - uNSLOT
   7  5,3  | vENINS
   7  6,9  - zOBO
+  6  5,4  | ELINt
   6  5,4  | ELIOT
   6  5,4  | ELISOr
   6  5,4  | ELIaN
@@ -1597,6 +1620,7 @@
   6  5,6  | INTSv
   6  3,6  | INTa
   6  5,6  | INTeL
+  6  3,6  | INTi
   6  5,6  | INTiL
   6  3,6  | INTl
   6  5,6  | INTnL
@@ -1645,6 +1669,7 @@
   6  3,3  | LOkI
   6  3,3  | LOlI
   6  3,3  | LOrI
+  6  3,3  | LOtI
   6  6,11 - LeNTO
   6  6,11 - LiNTS
   6  6,11 - LuNTS
@@ -1701,6 +1726,7 @@
   6  5,1  | SaLE
   6  5,1  | SaNE
   6  5,1  | SeLE
+  6  5,1  | SeNE
   6  5,1  | SiLE
   6  5,1  | SiNE
   6  6,8  - SkEF
@@ -1806,9 +1832,11 @@
   6  5,1  | rONE
   6  3,2  | rOOTI
   6  6,6  | rOSeT
+  6  3,3  | rOTIS
   6  6,6  | rOTSe
   6  6,6  | rOTaS
   6  6,6  | rOTeS
+  6  6,6  | rOTiS
   6  6,6  | rOTlS
   6  6,6  | rOToS
   6  6,6  | rOaST
@@ -1838,7 +1866,9 @@
   5  5,4  | ELIOt
   5  5,4  | ELITe
   5  5,4  | ELIaS
+  5  5,4  | ELInT
   5  5,4  | ELIoT
+  5  5,4  | ElINT
   5  5,4  | EvILS
   5  7,5  - GOlA
   5  7,5  - GOnA
@@ -1856,6 +1886,7 @@
   5  5,6  | INNe
   5  5,6  | INNs
   5  5,6  | INSeT
+  5  5,6  | INTiS
   5  5,6  | INTrO
   5  3,6  | INc
   5  3,6  | INd
@@ -1956,6 +1987,7 @@
   5  9,5  - NAe
   5  9,5  - NAf
   5  9,5  - NAg
+  5  9,5  - NAh
   5  9,5  - NAk
   5  9,5  - NAm
   5  9,5  - NAn
@@ -1976,6 +2008,7 @@
   5  5,1  | NeSE
   5  5,1  | NeTE
   5  6,11 - NeTTS
+  5  5,1  | NiTE
   5  6,11 - NoLT
   5  5,1  | NoSE
   5  5,1  | NoTE
@@ -2146,6 +2179,7 @@
   4  5,6  | INSp
   4  5,6  | INT
   4  5,6  | INTa
+  4  5,6  | INTi
   4  5,6  | INTl
   4  5,6  | INTo
   4  5,6  | INTr
@@ -2181,6 +2215,7 @@
   4  7,11 - LOT
   4  7,11 - LOTa
   4  7,11 - LOTh
+  4  7,11 - LOTi
   4  7,11 - LOTo
   4  7,11 - LOTs
   4  5,1  | LObE
@@ -2378,6 +2413,7 @@
   4  6,11 - jOLT
   4  6,11 - kNOT
   4  5,1  | lOSE
+  4  3,3  | lOTI
   4  5,3  | mETIS
   4  6,11 - mOLT
   4  6,11 - mONT
@@ -2421,6 +2457,7 @@
   4  5,1  | yOTE
   3 10,5  - AL
   3 10,5  - AN
+  3  5,4  | ETIc
   3  5,4  | EdIT
   3  5,4  | EgIS
   3  5,4  | EmIT
@@ -2631,6 +2668,7 @@
   3  7,11 - TaTS
   3  5,7  - Te
   3  6,11 - TeST
+  3  7,11 - TeTS
   3  7,11 - TiTS
   3  6,11 - ToOT
   3  6,11 - ToST
@@ -2888,6 +2926,7 @@
   2  7,11 - TaT
   2  2,3  - Te
   2  5,2  | TeE
+  2  7,11 - TeT
   2  7,11 - TgT
   2  2,3  - Th
   2  5,2  | ThE

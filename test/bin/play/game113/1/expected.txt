@@ -40,6 +40,7 @@
  20  1,10 - CLOSES
  20  2,10 - ECLOSE
  20  1,10 - ECOLES
+ 20  1,10 - EGOLESS
  20  5,3  | OGLE
  20  1,10 - SOCLES
  20  6,10 - SOCLES
@@ -128,8 +129,11 @@
  15  4,8  - LONGS
  15  4,7  - SCOLOG
  15  7,1  | SOCLE
+ 14  5,3  | CEL
+ 14  7,3  | CEL
  14  3,9  - CELE
  14  5,9  - CELE
+ 14  5,9  - CELS
  14  7,1  | CLOGS
  14  3,8  - CLONE
  14  3,8  - CLONS
@@ -161,6 +165,7 @@
  14  2,10 - SEGOS
  14  6,10 - SEGOS
  13  6,5  - ALECS
+ 13  5,9  - CEL
  13  3,9  - CLEE
  13  3,8  - CLON
  13  1,8  - CLOSEN
@@ -188,6 +193,7 @@
  13  4,8  - LENES
  13  4,8  - LENOS
  13  4,8  - LENSE
+ 13  4,6  - LEXES
  13  7,9  | LOE
  13  7,1  | LOGES
  13  4,6  - LOXES
@@ -264,6 +270,7 @@
  11  5,5  - CAGES
  11  5,9  - CEE
  11  7,2  | CELE
+ 11  7,2  | CELS
  11  4,5  - CLAGS
  11  4,9  - CLEE
  11  4,7  - CLOGS
@@ -446,8 +453,10 @@
   9  5,7  - SOOGEE
   8  6,5  - ACES
   8  5,5  - CAG
+  8  5,5  - CALO
   8  5,5  - CALS
   8  4,5  - CEASE
+  8  3,10 - CELS
   8  4,7  - CLOS
   8  3,10 - CLOS
   8  4,5  - COAL
@@ -610,6 +619,7 @@
   7  3,8  - SEEN
   7  3,7  - SEGO
   7  5,9  - SEL
+  7  4,8  - SENE
   7  4,5  - SLAG
   7  3,9  - SLEE
   7  3,9  - SLOE
@@ -687,6 +697,8 @@
   6  6,10 - SEC
   6  7,3  | SEE
   6  6,10 - SEGO
+  6  3,10 - SEGS
+  6  6,10 - SEGS
   6  4,8  - SEN
   6  5,7  - SOC
   6  6,10 - SOC

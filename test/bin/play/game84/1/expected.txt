@@ -32,6 +32,7 @@
  42  1,2  | ZeALS
  42  1,1  | bAZARS
  42  1,1  | bRAZAS
+ 42  1,1  | gAZARS
  42  1,1  | lAZARS
  40  4,3  | mARKAZ
  39  1,2  | AZAnS
@@ -49,6 +50,7 @@
  37  4,4  | ZAKAt
  37  4,2  | kAZAK
  36  4,6  | KAZi
+ 36  1,6  | SpAZ
  36  1,3  | ZAgS
  36  1,3  | ZApS
  35  4,4  | ZeK
@@ -68,6 +70,7 @@
  30  6,2  | LAZeD
  30  3,5  | LAbAARA
  30  1,1  | LAbRAS
+ 30  1,1  | LAhARS
  30  5,7  - LAnAZ
  30  1,1  | LAuRAS
  30  1,1  | LAzARS
@@ -160,6 +163,8 @@
  24  3,5  | bAZAR
  24  3,2  | bRAZA
  24  3,4  | bRAZA
+ 24  3,3  | gAZAR
+ 24  3,5  | gAZAR
  24  3,3  | lAZAR
  24  3,5  | lAZAR
  24  3,2  | uZARA
@@ -199,7 +204,6 @@
  21  2,7  - ARAwA
  21  3,6  | AZo
  21  2,7  - AlALA
- 21  2,7  - AmALA
  21  3,7  - LARe
  21  3,7  - LARi
  21  5,7  - LAZaR
@@ -306,7 +310,6 @@
  17  5,1  | AbLAZE
  17  2,7  - AgAL
  17  3,7  - AiRA
- 17  2,7  - AmAL
  17  2,7  - AnAL
  17  2,7  - AxAL
  17  3,7  - LAd
@@ -320,6 +323,7 @@
  17  3,7  - LAw
  17  3,7  - LAx
  17  3,7  - LaR
+ 17  5,7  - LeZ
  17  3,7  - LiR
  17  5,7  - LiZ
  17  5,5  - RAZe
@@ -366,6 +370,7 @@
  16  5,3  | LAZEd
  16  5,3  | LAZEs
  16  5,2  | LAZiER
+ 16  4,3  | ZeRK
  16  5,2  | bLAZE
  16  5,2  | dRAZEL
  16  5,2  | gLAZE
@@ -408,7 +413,6 @@
  15  3,7  - AiL
  15  4,7  - AlALA
  15  2,7  - AlAR
- 15  4,7  - AmALA
  15  2,7  - AmAR
  15  5,3  | AmZEL
  15  1,2  | AnLAS
@@ -423,6 +427,7 @@
  15  1,3  | LARS
  15  1,2  | LARdS
  15  1,2  | LAReS
+ 15  1,2  | LARiS
  15  1,2  | LARkS
  15  1,2  | LARuS
  15  1,2  | LAiRS
@@ -529,7 +534,6 @@
  14  5,3  | AdZER
  14  4,7  - AfARA
  14  5,2  | AiZLE
- 14  4,7  - AmAL
  14  4,7  - AmARA
  14  4,7  - AnAL
  14  4,7  - ArARA
@@ -633,6 +637,7 @@
  13  2,6  | LAZe
  13  2,6  | LAZy
  13  5,7  - LAbARA
+ 13  5,5  | LEZ
  13  2,6  | LiZA
  13  3,7  - RAd
  13  3,7  - RAh
@@ -774,12 +779,14 @@
  12  1,3  | LAtS
  12  5,7  - LAuRA
  12  1,3  | LAuS
+ 12  1,3  | LAvS
  12  1,3  | LAwS
  12  1,3  | LAyS
  12  5,7  - LAzAR
  12  2,6  | LLAmA
  12  1,3  | LaRS
  12  1,3  | LeAS
+ 12  2,6  | LeZ
  12  6,2  | LiARD
  12  1,3  | LiAS
  12  2,6  | LiZ
@@ -849,6 +856,7 @@
  12  1,4  | ZAS
  12  5,5  | ZEAl
  12  5,5  | ZER
+ 12  5,5  | ZERk
  12  5,5  | ZERo
  12  5,5  | ZEtA
  12  6,4  | ZeD
@@ -862,6 +870,7 @@
  12  5,3  | bAZE
  12  1,3  | bLAS
  12  1,3  | cALS
+ 12  1,3  | dALS
  12  5,3  | dAZE
  12  5,3  | fAZE
  12  4,3  | fLAK
@@ -883,6 +892,7 @@
  12  6,2  | pARADA
  12  1,2  | pARAS
  12  4,3  | pLAK
+ 12  5,4  | pREZ
  12  1,3  | rALS
  12  5,3  | rAZE
  12  6,2  | sALAD
@@ -911,6 +921,7 @@
  11  4,6  | KoL
  11  4,6  | KrAAL
  11  4,6  | KyL
+ 11  5,7  - LAARi
  11  4,3  | LARK
  11  4,3  | LARKs
  11  4,3  | LARKy
@@ -943,6 +954,7 @@
  11  5,5  | gEZ
  11  4,2  | kARAKA
  11  3,7  - lAR
+ 11  5,5  | lEZ
  11  4,4  | mAKARA
  11  3,7  - mAR
  11  5,5  - mARAL
@@ -983,8 +995,6 @@
  10  6,7  - AkALA
  10  6,5  - AlALA
  10  6,7  - AlALA
- 10  6,5  - AmALA
- 10  6,7  - AmALA
  10  2,2  | AuRAL
  10  6,2  | AwARD
  10  6,6  | DARAc
@@ -1010,6 +1020,7 @@
  10  4,6  | KcAL
  10  4,6  | KeRL
  10  4,6  | KrAL
+ 10  2,6  | LAARi
  10  5,7  - LAR
  10  5,7  - LARd
  10  5,7  - LARe
@@ -1110,6 +1121,7 @@
   9  6,5  - AReAL
   9  6,7  - AReAL
   9  1,3  | AReS
+  9  1,3  | ARfS
   9  6,5  - ARgAL
   9  6,7  - ARgAL
   9  3,3  | ARgALA
@@ -1137,8 +1149,6 @@
   9  6,7  - AkAL
   9  4,4  | AkKA
   9  1,3  | AlAS
-  9  6,5  - AmAL
-  9  6,7  - AmAL
   9  1,3  | AmAS
   9  6,5  - AnAL
   9  6,7  - AnAL
@@ -1229,6 +1239,7 @@
   9  1,3  | RAwS
   9  1,3  | RAyS
   9  3,3  | ReAAL
+  9  1,3  | RiAS
   9  4,4  | RoKA
   9  1,3  | RyAS
   9  1,6  | SAAd
@@ -1290,6 +1301,7 @@
   9  1,3  | pARS
   9  4,3  | sARK
   9  1,3  | tARS
+  9  1,3  | vARS
   9  4,3  | wARK
   9  1,3  | wARS
   9  4,3  | yARK
@@ -1387,9 +1399,11 @@
   8  4,6  | KeR
   8  4,6  | KgR
   8  4,6  | KhA
+  8  4,6  | KiR
   8  4,6  | KoA
   8  4,6  | KoR
   8  4,6  | KrA
+  8  3,5  | LAARi
   8  3,5  | LAbRA
   8  3,3  | LAhAR
   8  3,5  | LAhAR
@@ -1635,9 +1649,6 @@
   7  3,6  | AlALA
   7  6,5  - AlAR
   7  6,7  - AlAR
-  7  3,2  | AmALA
-  7  3,4  | AmALA
-  7  3,6  | AmALA
   7  6,5  - AmAR
   7  6,7  - AmAR
   7  3,3  | AmLA
@@ -1670,11 +1681,14 @@
   7  4,6  | KAnA
   7  4,6  | KApA
   7  4,6  | KAsA
+  7  4,6  | KAtA
   7  4,6  | KAvA
   7  4,6  | KRnA
+  7  3,4  | LAARi
   7  5,2  | LAAgER
   7  3,5  | LAR
   7  5,3  | LARE
+  7  5,3  | LAREe
   7  5,3  | LAREs
   7  3,5  | LARd
   7  3,5  | LARe
@@ -1940,8 +1954,6 @@
   6  6,5  - AlL
   6  6,7  - AlL
   6  5,3  | AlLER
-  6  3,4  | AmAL
-  6  3,6  | AmAL
   6  3,4  | AnAL
   6  3,6  | AnAL
   6  5,5  - AoR
@@ -1978,6 +1990,7 @@
   6  6,3  | LARD
   6  6,3  | LARDs
   6  6,3  | LARDy
+  6  5,2  | LAReE
   6  5,2  | LARgE
   6  3,2  | LARiA
   6  3,2  | LARvA
@@ -2116,6 +2129,7 @@
   6  3,3  | sALA
   6  3,5  | sALA
   6  2,4  | sALAL
+  6  4,5  | sKA
   6  5,5  - tAA
   6  5,7  - tAA
   6  3,3  | tALA
@@ -2325,7 +2339,6 @@
   5  2,7  - Am
   5  6,5  - AmA
   5  6,7  - AmA
-  5  2,3  | AmALA
   5  3,2  | AmARA
   5  3,4  | AmARA
   5  3,6  | AmARA
@@ -2372,7 +2385,9 @@
   5  6,6  | DALf
   5  6,6  | DALi
   5  6,6  | DALk
+  5  6,6  | DALs
   5  6,6  | DALt
+  5  6,6  | DAhL
   5  6,6  | DLR
   5  6,6  | DeAL
   5  6,6  | DhAL
@@ -2735,7 +2750,6 @@
   4  3,6  | AlAR
   4  6,5  - Am
   4  6,7  - Am
-  4  2,3  | AmAL
   4  3,4  | AmAR
   4  3,6  | AmAR
   4  5,4  | AmEL
@@ -3305,6 +3319,7 @@
   3  5,5  | LEv
   3  5,5  | LEx
   3  5,5  | LEy
+  3  5,5  | LEz
   3  1,5  | LSc
   3  1,5  | LSd
   3  1,5  | LSt
@@ -3410,6 +3425,7 @@
   3  5,3  | cARE
   3  1,4  | cASA
   3  6,5  | cDR
+  3  5,5  | cEL
   3  5,5  | cERA
   3  2,5  | cLR
   3  5,4  | cREA
@@ -3641,6 +3657,7 @@
   2  5,5  | REf
   2  5,5  | REg
   2  5,5  | REh
+  2  5,5  | REi
   2  5,5  | REl
   2  5,5  | REm
   2  5,5  | REn
@@ -3697,6 +3714,7 @@
   2  1,6  | ShR
   2  1,6  | SiA
   2  1,6  | SiR
+  2  1,6  | SkA
   2  1,6  | SlA
   2  1,6  | SmA
   2  1,6  | SpA

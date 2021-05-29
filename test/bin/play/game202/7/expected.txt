@@ -69,6 +69,7 @@
  11  1,10 - IRE
  11  2,10 - LI
  11  1,5  - LIDIA
+ 11  1,10 - REI
  11  1,10 - RIE
  10  1,5  - AILIE
  10  5,1  | ALDERS
@@ -146,6 +147,7 @@
   9  2,5  - LIDE
   9  3,8  | LIEF
   9  3,9  | LIF
+  9  4,8  | LIRI
   9  8,2  | RADIi
   9  3,8  | RALF
   9  2,10 - RE
@@ -170,6 +172,7 @@
   8 10,4  | DAK
   8  5,2  | DALES
   8  5,2  | DALIS
+  8  5,3  | DALS
   8  7,3  | DALT
   8  2,5  - DARE
   8  2,5  - DARI
@@ -223,6 +226,8 @@
   8  3,5  - LIE
   8  2,5  - LIRA
   8  2,5  - LIRE
+  8  2,5  - LIRI
+  8  2,7  - LIRI
   8  4,7  | RADII
   8  3,8  | RAIF
   8  2,5  - RALE
@@ -277,11 +282,13 @@
   7  3,5  - IDE
   7  3,5  - ILA
   7  3,5  - ILE
+  7  5,2  | IRIDS
   7 10,4  | IRK
   7  7,3  | LAET
   7  5,2  | LAIRS
   7  7,3  | LAIT
   7  5,2  | LARES
+  7  5,2  | LARIS
   7  5,3  | LARS
   7  8,4  | LAi
   7  6,3  | LEAH
@@ -306,6 +313,7 @@
   7  5,2  | RIALS
   7  5,2  | RIDES
   7  5,2  | RIELS
+  7  3,9  | RIF
   7 10,4  | RIK
   7  5,2  | RILES
   7  3,5  - RLE
@@ -327,11 +335,14 @@
   6  3,5  - IRE
   6  6,4  | LAH
   6  8,3  | LARi
+  6  8,3  | LIRi
   6  5,3  | RADS
   6  5,3  | RAISE
   6  5,3  | RALS
   6  3,5  - REA
   6  5,3  | REDS
+  6  3,5  - REI
+  6  3,7  - REI
   6  6,5  | RHEA
   6  3,5  - RIA
   6  5,3  | RIDS
@@ -375,6 +386,7 @@
   5  6,4  | REH
   5  5,3  | REIS
   5  7,3  | REIT
+  5  5,3  | RIAS
   5  5,3  | RIES
   5  7,6  | TAG
   5  7,6  | TEG
@@ -409,6 +421,7 @@
   4  7,4  | LIT
   4  5,4  | RASE
   4  4,5  - RE
+  4  8,4  | REi
   4  5,4  | RISE
   3  5,4  | AES
   3  7,4  | AET
@@ -425,6 +438,7 @@
   3  4,10 | LI
   3  5,4  | RAS
   3  7,4  | RAT
+  3  4,9  | REI
   3  5,4  | RES
   3  7,4  | RET
   3  7,4  | RIT

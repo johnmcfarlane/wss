@@ -56,6 +56,7 @@
  22  6,2  | DEFOGs
  22  6,1  | ENClOG
  22  6,2  - FECIT
+ 22  6,2  - FOmITE
  22  6,2  - FOsITE
  22  6,2  - FOxITE
  22  6,2  | FlODGE
@@ -128,8 +129,10 @@
  18  8,4  | FNAmE
  18  8,4  | FaADE
  18  8,4  | FlANE
+ 18  6,2  | NOoDGE
  18  6,2  - NOrITE
  18  6,2  - NOsITE
+ 18  6,2  | NoODGE
  18  6,2  | bEFOG
  18  5,2  - cONFIT
  18  6,2  - cONITE
@@ -226,6 +229,7 @@
  15  8,5  | DAlF
  15  7,1  | DECOdON
  15  3,7  - DECOr
+ 15  3,7  - DECOs
  15  3,7  - DECOy
  15  3,7  - DEmON
  15  3,7  - DEvON
@@ -378,6 +382,7 @@
  13  4,5  - COaN
  13  5,7  - COdE
  13  4,7  - COiN
+ 13  7,3  | COlONE
  13  5,7  - COmE
  13  5,7  - COnE
  13  4,7  - COoN
@@ -462,6 +467,7 @@
  13  5,7  - nONE
  13  3,7  - oDEON
  13  5,7  - pONE
+ 13  3,7  - rEDON
  13  5,7  - rODE
  13  5,7  - rOED
  13  5,7  - rONE
@@ -481,6 +487,7 @@
  12  5,7  - COE
  12  7,1  | COENDOu
  12  2,7  - COENo
+ 12  7,2  | CONDOEs
  12  7,2  | CONDOlE
  12  7,2  | CONDOnE
  12  6,3  | CONGeD
@@ -591,6 +598,7 @@
  11  5,7  - DOmE
  11  5,7  - DOnE
  11  5,7  - DOpE
+ 11  5,7  - DOrE
  11  5,7  - DOsE
  11  8,4  | DeAF
  11  7,3  - DeNOM
@@ -631,6 +639,7 @@
  11  7,3  | FiDO
  11  7,3  | FiNO
  11  7,3  | FoNO
+ 11  8,2  - NITE
  11  5,7  - NOEl
  11  5,7  - NOEs
  11  5,7  - NOEx
@@ -725,6 +734,7 @@
  10  8,4  | DEANs
  10  7,3  | DECO
  10  7,3  | DECOr
+ 10  7,3  | DECOs
  10  7,3  | DECOy
  10  7,3  | DEFOg
  10  6,2  - DEbIT
@@ -941,8 +951,10 @@
   9  8,5  | NArD
   9  7,2  | NECrO
   9  4,7  - NEOn
+  9  8,2  - NITe
   9  7,3  | NODOsE
   9  6,3  | NOgGED
+  9  8,5  - NaH
   9  6,7  - OEr
   9  6,7  - OEs
   9  5,5  - OaD
@@ -979,9 +991,11 @@
   9  8,5  | mAND
   9  8,5  - mEH
   9  8,2  - mITE
+  9  8,2  - nITE
   9  4,7  - oFO
   9  8,5  | pAND
   9  8,5  - pEH
+  9  6,3  | pONGED
   9  8,5  | rAND
   9  8,2  - rITE
   9  7,2  | rONCO
@@ -1003,6 +1017,7 @@
   8  8,5  | CAfE
   8  8,5  | CAgE
   8  8,5  | CAkE
+  8  8,5  | CAlO
   8  8,5  | CAmE
   8  8,5  | CAnE
   8  8,5  | CApE
@@ -1105,6 +1120,7 @@
   8  8,5  | FArE
   8  8,5  | FArO
   8  8,5  | FAtE
+  8  8,5  | FAvE
   8  8,5  | FAzE
   8  6,4  | FEGs
   8  7,4  | FEOD
@@ -1164,6 +1180,7 @@
   8  7,3  | ODEONs
   8  3,5  - ODEa
   8  6,7  - OE
+  8  8,4  | OFAy
   8  4,7  - OFo
   8  7,5  - ON
   8  7,7  - ON
@@ -1395,6 +1412,7 @@
   7  7,5  | FOuD
   7  7,5  | FOuN
   7  5,5  - Fa
+  7  6,4  | FaG
   7  7,4  | FaON
   7  7,4  | FeOD
   7  5,7  - Fi
@@ -1623,6 +1641,7 @@
   6  6,6  | GEN
   6  6,6  | GOD
   6  6,6  | GON
+  6  8,5  | NAbE
   6  8,5  | NAcE
   6  8,5  | NAiO
   6  8,5  | NAkE
@@ -1794,6 +1813,7 @@
   6  7,4  | pOOF
   6  7,5  | pOOF
   6  8,5  | rANE
+  6  7,3  | rEDON
   6  6,4  | rEGD
   6  6,5  | rGEN
   6  7,2  | rODEO
@@ -1914,6 +1934,7 @@
   5  8,5  | FAc
   5  8,5  | FAd
   5  8,5  | FAe
+  5  8,5  | FAg
   5  8,5  | FAh
   5  8,5  | FAm
   5  8,5  | FAn
@@ -2139,6 +2160,7 @@
   4  7,5  | DOmE
   4  7,5  | DOnE
   4  7,5  | DOpE
+  4  7,5  | DOrE
   4  7,5  | DOsE
   4  7,5  | DOtE
   4  7,5  | DOtO
@@ -2485,6 +2507,7 @@
   4  8,4  | wOAD
   4  8,4  | wOAN
   4  7,5  | wODE
+  4  6,4  | wOG
   4  7,4  | wOOD
   4  7,5  | wOOD
   4  7,4  | wOON
@@ -2567,6 +2590,7 @@
   3  8,5  | NAe
   3  8,5  | NAf
   3  8,5  | NAg
+  3  8,5  | NAh
   3  8,5  | NAk
   3  8,5  | NAm
   3  8,5  | NAn

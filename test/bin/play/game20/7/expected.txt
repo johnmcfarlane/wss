@@ -12,6 +12,7 @@
  39  9,1  | FORLIE
  39  8,2  | LOF
  39 11,2  | RIFLED
+ 39 11,2  | ROLFED
  38 11,2  | FOLDER
  38  8,2  | REF
  37  8,3  | EF
@@ -111,6 +112,7 @@
  26  8,2  | RED
  26  8,2  | REL
  26  8,2  | ROD
+ 26  9,2  | ROLFED
  25  9,5  | DEF
  25  9,5  | DIF
  25  9,4  | DROF
@@ -127,6 +129,7 @@
  25  8,2  | ROED
  24  8,2  | DERO
  24  8,2  | DOER
+ 24  8,2  | DORE
  24 11,3  | FIRE
  24  9,3  | FIRED
  24  9,2  | FLORID
@@ -157,6 +160,7 @@
  23 11,3  | OILER
  23  3,11 - POLER
  23  9,5  | REF
+ 23  9,5  | RIF
  22  2,4  - DEFILER
  22  8,1  | DIER
  22  8,1  | DOER
@@ -259,6 +263,7 @@
  18 11,3  | DIRE
  18  4,5  | DOLE
  18  1,11 - DOPE
+ 18 11,3  | DORE
  18 11,3  | DORI
  18 11,3  | DRIE
  18  9,4  | ELOD
@@ -311,6 +316,7 @@
  17  9,5  | FIE
  17  9,3  | FILE
  17  9,3  | FILO
+ 17 11,5  | FILOs
  17  9,5  | FIR
  17  9,4  | FLOE
  17  4,3  | FLOOD
@@ -345,11 +351,13 @@
  17  4,5  | RODE
  17  4,5  | ROLE
  17  9,2  | ROLFE
+ 17  3,4  - ROLFED
  16  8,4  | DE
  16  6,4  - DEFI
  16  1,4  - DEFLORE
  16  6,5  - DELF
  16  8,4  | DO
+ 16  4,5  | DORE
  16  4,3  - DORJE
  16 11,4  | DROF
  16  7,8  - ED
@@ -466,6 +474,7 @@
  15  4,4  - REFEL
  15 11,4  | REIF
  15  2,4  - REOILED
+ 15  1,11 - REPO
  15  9,5  | RID
  15  9,3  | RIFE
  15  9,2  | RIFLE
@@ -519,10 +528,12 @@
  14  1,7  - REEF
  14  6,4  - REF
  14 11,5  | REF
+ 14  6,8  - REI
  14  3,4  - RELIED
  14  6,4  - RELIEF
  14  8,1  | RIE
  14  6,8  - RIE
+ 14 11,5  | RIF
  14  8,1  | RIO
  14  6,8  - RIO
  14  8,1  | ROE
@@ -683,6 +694,7 @@
  11  4,3  | DOLOR
  11  4,4  | DOOR
  11  8,7  | DOOR
+ 11  9,3  | DORE
  11  9,3  | DORI
  11  9,3  | DRIE
  11  3,4  - EDILE
@@ -881,6 +893,7 @@
   9  6,4  | DOE
   9 11,5  | DOE
   9 11,5  | DOR
+  9  4,4  - DORE
   9  5,4  | DOVE
   9 11,7  | DOs
   9  4,4  - DREE
@@ -1027,7 +1040,6 @@
   8  9,5  | LI
   8  4,3  | LIDO
   8  9,4  | LIE
-  8  5,4  | LIV
   8  9,5  | LO
   8  4,5  | LOD
   8  9,4  | LOE
@@ -1156,6 +1168,8 @@
   7  6,4  - REED
   7  6,4  - REEL
   7  9,7  - REF
+  7  9,4  | REI
+  7  2,7  - REI
   7  6,4  - REID
   7  5,4  | REV
   7  4,4  - RIDE
@@ -1260,6 +1274,7 @@
   6  6,5  | RED
   6  8,7  - REED
   6  8,7  - REEL
+  6 11,4  | REI
   6  6,5  - REL
   6  6,5  | REL
   6  1,8  - REW
@@ -1331,6 +1346,9 @@
   5  6,5  - REE
   5  6,5  | REE
   5  1,7  - REE
+  5  6,4  - REI
+  5  6,5  - REI
+  5  6,5  | REI
   5  9,7  - REL
   5  1,7  - RIE
   5  4,4  | RIO
@@ -1397,6 +1415,7 @@
   4  2,7  - RE
   4  8,7  - REE
   4  9,7  - REE
+  4  9,7  - REI
   4  8,7  - RIE
   4  5,4  - RLE
   4  8,7  - ROE

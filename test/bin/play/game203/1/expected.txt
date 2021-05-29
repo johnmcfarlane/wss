@@ -46,6 +46,7 @@
  31  8,5  - ZERO
  30 11,6  | DERO
  30 11,6  | DOER
+ 30 11,6  | DORE
  30 11,6  | DORT
  30 11,6  | DOTE
  30  9,6  | LENTOR
@@ -66,6 +67,7 @@
  27  1,7  - DOZER
  27  5,2  | DZEREN
  27  9,5  | ZLOTE
+ 26  6,2  | DETOX
  26  6,2  | REDOX
  26  5,1  | REZONE
  26  1,5  - TOZER
@@ -82,6 +84,7 @@
  24  3,7  - ZER
  24  5,3  | ZONE
  22  5,5  - DETN
+ 22 11,4  | REDON
  22  8,3  | ZONATED
  21 11,4  | NODE
  21  9,7  - ODZ
@@ -133,6 +136,7 @@
  18 11,6  | DE
  18  3,5  - DERO
  18 11,6  | DO
+ 18  3,5  - DORE
  18  3,5  - DOTE
  18  5,3  | DOZEN
  18 11,5  | ED
@@ -235,6 +239,7 @@
  15  5,5  - DO
  15  4,5  - DOE
  15  8,7  - DOER
+ 15  8,7  - DORE
  15  8,7  - DORT
  15  8,7  - DOTE
  15 10,3  | DOZER
@@ -280,6 +285,7 @@
  14 10,2  | ENODE
  14 10,6  | ENODE
  14  8,7  - EON
+ 14  9,6  | LEZ
  14  8,5  - NEO
  14  8,5  - NET
  14  8,7  - NOR
@@ -361,6 +367,8 @@
  12  8,1  | ORENDA
  12  6,5  | OXEN
  12  6,5  | OXTER
+ 12  1,5  - REDON
+ 12  1,7  - REDON
  12 10,2  | RENTE
  12  9,2  | RETOLD
  12  9,3  | RODLET
@@ -564,6 +572,7 @@
   9  6,5  | OX
   9  8,5  | RADON
   9  8,3  | REDAN
+  9  5,5  | REDON
   9  5,2  | RENTED
   9  5,5  | RENTED
   9  2,5  - RETD
@@ -638,6 +647,8 @@
   8  5,2  | DONEE
   8  3,5  - DOR
   8  3,7  - DOR
+  8  2,5  - DORE
+  8  2,7  - DORE
   8  5,3  | DOREE
   8  2,5  - DORT
   8  2,7  - DORT
@@ -763,6 +774,7 @@
   7  7,4  | DEhORT
   7 10,3  | DONEE
   7  8,3  | DORA
+  7  5,3  | DORE
   7  5,2  | DOREE
   7  5,3  | DOTE
   7  7,4  | DOhTER
@@ -819,6 +831,7 @@
   7  8,5  | RANE
   7  8,5  | RANT
   7  8,4  | READ
+  7 10,5  | REDON
   7  5,3  | RENET
   7  5,5  | RENET
   7  5,2  | RENTE
@@ -1012,6 +1025,10 @@
   5 10,4  | DEER
   5  5,5  | DEER
   5 10,5  | DEER
+  5  5,4  | DEET
+  5 10,4  | DEET
+  5  5,5  | DEET
+  5 10,5  | DEET
   5  5,5  | DEN
   5 10,5  | DEN
   5 10,3  | DERE
@@ -1023,6 +1040,7 @@
   5  4,7  - DO
   5  5,4  | DOER
   5 10,4  | DOER
+  5 10,3  | DORE
   5 10,3  | DOTE
   5 10,3  | DREE
   5  5,4  | DREE

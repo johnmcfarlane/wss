@@ -14,6 +14,8 @@
  51 11,1  | FAnES
  51 11,1  | FArES
  51 11,1  | FAtES
+ 51 11,1  | FAvAS
+ 51 11,1  | FAvES
  51 11,1  | FAxES
  51 11,1  | FAzES
  51 11,1  | FEtAS
@@ -64,6 +66,8 @@
  46 11,1  | FAnE
  46 11,1  | FArE
  46 11,1  | FAtE
+ 46 11,1  | FAvA
+ 46 11,1  | FAvE
  46 11,1  | FAzE
  46 11,1  | FEtA
  46 11,1  | FiSE
@@ -187,9 +191,13 @@
  34  9,1  | AlFA
  34  9,1  | AlPS
  34  9,1  | AmPS
+ 34  9,1  | ArFS
  34  9,1  | AsPS
  34  9,1  | EfFS
+ 34  9,1  | EmFS
  34 11,2  | FAEnAS
+ 34  8,8  - FAG
+ 34 11,2  | PAESAn
  34  8,8  - PEG
  34  9,1  | PrESA
  34 11,3  | SArAF
@@ -203,6 +211,7 @@
  34  9,1  | SoPE
  34  9,1  | SuPA
  34  9,1  | SuPE
+ 34  9,1  | bAPS
  34  9,1  | cAFE
  34  9,1  | cAPA
  34  9,1  | cAPE
@@ -217,6 +226,7 @@
  34  9,1  | hAPS
  34  9,1  | hEPS
  34  9,1  | jAPE
+ 34  9,1  | kAFS
  34  9,1  | kAPA
  34  9,1  | kEFS
  34  9,1  | kEPS
@@ -265,6 +275,7 @@
  33  6,11 - AlEFS
  33 11,1  | AlFAS
  33  6,11 - AlFAS
+ 33  6,11 - AtAPS
  33 11,1  | EPhAS
  33  6,11 - EPhAS
  33  6,11 - ElAPS
@@ -276,6 +287,8 @@
  33  6,11 - FAnES
  33  6,11 - FArES
  33  6,11 - FAtES
+ 33  6,11 - FAvAS
+ 33  6,11 - FAvES
  33  6,11 - FAxES
  33  6,11 - FAzES
  33  7,11 - FEASe
@@ -359,6 +372,7 @@
  32 11,1  | ASPEr
  32  9,2  | AgAPES
  32  9,2  | AnAPES
+ 32  8,8  - FaG
  32  8,8  - FoG
  32  8,8  - FuG
  32  6,11 - PASEs
@@ -443,12 +457,14 @@
  30  7,11 - AlPS
  30  7,11 - AmPS
  30  7,11 - ArASE
+ 30  7,11 - ArFS
  30  7,11 - AsPS
  30  8,11 - EFS
  30  7,11 - EFfS
  30  7,11 - EFtS
  30  7,11 - EPoS
  30  7,11 - EfFS
+ 30  7,11 - EmFS
  30  8,11 - FAS
  30  8,11 - FASc
  30  8,11 - FASh
@@ -465,8 +481,10 @@
  30  7,11 - FEdS
  30  7,11 - FEeS
  30  7,11 - FEgS
+ 30  7,11 - FEhS
  30  7,11 - FEiS
  30  7,11 - FElS
+ 30  7,11 - FEmS
  30  7,11 - FEnS
  30  7,11 - FErS
  30  7,11 - FEsS
@@ -502,6 +520,7 @@
  30  8,11 - PESs
  30  8,11 - PESt
  30  7,11 - PEaS
+ 30  7,11 - PEcS
  30  7,11 - PEdS
  30  7,11 - PEeS
  30  7,11 - PEgS
@@ -523,6 +542,7 @@
  30  7,11 - PyES
  30  9,6  | aPAMA
  30  7,11 - aPES
+ 30  7,11 - bAPS
  30  7,11 - cAPS
  30  7,11 - cEPS
  30  7,11 - dAPS
@@ -530,6 +550,7 @@
  30  7,11 - gAPS
  30  7,11 - hAPS
  30  7,11 - hEPS
+ 30  7,11 - kAFS
  30  7,11 - kEFS
  30  7,11 - kEPS
  30  7,11 - lAPS
@@ -703,6 +724,7 @@
  27  8,11 - eASE
  27  8,11 - eFS
  27  8,11 - fPS
+ 27  9,7  | gAMAS
  27  9,7  | gAMES
  27 11,1  | gAPES
  27  9,7  | hAMES
@@ -966,7 +988,6 @@
  23 11,2  | AFAr
  23 11,2  | AFEr
  23  9,8  | AMAh
- 23  9,8  | AMAl
  23  9,8  | AMAr
  23  9,8  | AMAs
  23  9,8  | AMAy
@@ -1011,6 +1032,7 @@
  23 11,2  | FEAt
  23 11,2  | FEeS
  23 11,2  | FEiS
+ 23 11,2  | FEmS
  23 11,2  | FErS
  23  9,3  | FEtAS
  23  7,3  | FeES
@@ -1121,6 +1143,7 @@
  22  7,1  | FAEnAS
  22  4,8  - FAKEd
  22  4,8  - FAKEr
+ 22  4,8  - FAKEy
  22  9,5  | FAb
  22  9,1  | FAbA
  22  9,1  | FAcE
@@ -1128,6 +1151,7 @@
  22  9,1  | FAdE
  22  9,1  | FAdS
  22  9,5  | FAe
+ 22  9,5  | FAg
  22  9,1  | FAgE
  22  9,1  | FAgS
  22  9,5  | FAh
@@ -1146,6 +1170,8 @@
  22  9,5  | FAt
  22  9,1  | FAtE
  22  9,1  | FAtS
+ 22  9,1  | FAvA
+ 22  9,1  | FAvE
  22  9,5  | FAy
  22  9,1  | FAyS
  22  9,1  | FAzE
@@ -1157,9 +1183,11 @@
  22  7,3  | FEeS
  22  9,1  | FEgS
  22  9,5  | FEh
+ 22  9,1  | FEhS
  22  9,1  | FEiS
  22  9,1  | FElS
  22  9,5  | FEm
+ 22  9,1  | FEmS
  22  9,5  | FEn
  22  9,1  | FEnS
  22  9,1  | FErS
@@ -1221,6 +1249,7 @@
  22  9,1  | PEaS
  22  7,3  | PEaS
  22  9,1  | PEbA
+ 22  9,1  | PEcS
  22  9,5  | PEd
  22  9,1  | PEdA
  22  9,1  | PEdS
@@ -1405,12 +1434,15 @@
  21  7,2  | FArES
  21  7,4  | FAtE
  21  7,2  | FAtES
+ 21  7,2  | FAvAS
+ 21  7,2  | FAvES
  21  7,2  | FAxES
  21  7,2  | FAzES
  21  9,5  | FE
  21  7,4  | FEtA
  21  7,2  | FEtAS
  21  9,5  | PA
+ 21  7,1  | PAESAn
  21  7,4  | PASe
  21  7,4  | PASo
  21  7,2  | PAcAS
@@ -1502,6 +1534,7 @@
  20 11,3  | FAb
  20 11,3  | FAd
  20 11,3  | FAe
+ 20 11,3  | FAg
  20 11,3  | FAh
  20 11,3  | FAm
  20 11,3  | FAn
@@ -1871,6 +1904,8 @@
  18  7,2  | FAtE
  18  9,3  | FAtE
  18  7,1  | FAuSE
+ 18  7,2  | FAvA
+ 18  7,2  | FAvE
  18  7,2  | FAzE
  18  9,3  | FAzE
  18  7,1  | FEASe
@@ -2061,6 +2096,7 @@
  17  8,10 - FAno
  17  7,4  | FAs
  17  7,4  | FAt
+ 17  8,4  - FEHS
  17  7,4  | FEd
  17  7,4  | FEn
  17  7,4  | FEt
@@ -2187,7 +2223,9 @@
  16  2,6  - FAtSIA
  16  7,4  | FE
  16  8,4  - FEH
+ 16  8,4  - FEHs
  16  9,2  | FEStA
+ 16  8,4  - FeHS
  16 11,7  | FiDE
  16  7,10 - FlAn
  16  7,10 - FrEn
@@ -2228,6 +2266,7 @@
  16  2,8  - PAShKA
  16  9,2  | PAStA
  16  9,2  | PAStE
+ 16  2,6  - PAStIE
  16  2,6  - PAlAIS
  16  1,6  - PAtESI
  16  1,6  - PAuSAI
@@ -2239,6 +2278,7 @@
  16  8,4  | PESAdE
  16  8,4  | PESAgE
  16  2,6  - PErSIA
+ 16  1,6  - PEtSAI
  16  8,4  - PSHa
  16  8,4  - PaHA
  16  9,3  | PeA
@@ -2480,6 +2520,7 @@
  15  9,2  | SPAn
  15  9,2  | SPAt
  15  9,2  | SPAy
+ 15  9,2  | SPAz
  15  8,7  | SPEAk
  15  8,7  | SPEAl
  15  8,7  | SPEAn
@@ -2698,11 +2739,13 @@
  14  8,8  | FEeS
  14  8,8  | FEgS
  14  9,3  | FEh
+ 14  8,8  | FEhS
  14  8,8  | FEiS
  14  8,8  | FElE
  14  8,8  | FElS
  14  9,3  | FEm
  14  8,8  | FEmE
+ 14  8,8  | FEmS
  14  9,3  | FEn
  14  8,8  | FEnS
  14  8,8  | FErE
@@ -2760,6 +2803,7 @@
  14  9,3  | PEa
  14  8,8  | PEaS
  14  8,8  | PEbA
+ 14  8,8  | PEcS
  14  9,3  | PEd
  14  8,8  | PEdA
  14  8,8  | PEdS
@@ -2846,6 +2890,7 @@
  14  8,6  | SiFE
  14 11,5  | SiP
  14  8,6  | SiPE
+ 14  7,3  | SkA
  14  7,3  | SlA
  14  7,2  | SlAE
  14  7,10 - SlAnE
@@ -3015,6 +3060,7 @@
  13  3,8  - PEAK
  13  3,7  - PEANS
  13  8,8  | PEa
+ 13  8,8  | PEc
  13  8,8  | PEd
  13  8,8  | PEe
  13  8,8  | PEg
@@ -3141,6 +3187,7 @@
  13  9,2  | pPA
  13  9,2  | pPS
  13  4,5  - rAJAS
+ 13  4,5  - rAJES
  13 11,1  | rASA
  13 11,1  | rASE
  13  7,3  | rEA
@@ -3290,6 +3337,7 @@
  12  2,7  - SPeEN
  12  9,2  | SPt
  12  9,7  | SaM
+ 12  4,5  - SoJA
  12  7,4  | aA
  12 11,3  | aAA
  12  9,4  | aAA
@@ -3322,6 +3370,7 @@
  12  7,4  | fE
  12 11,3  | gAE
  12  9,2  | gAEA
+ 12  9,7  | gAMA
  12  9,7  | gAME
  12 11,3  | gAS
  12 11,3  | gES
@@ -3499,11 +3548,16 @@
  11  6,5  - JEe
  11  6,5  - JEt
  11  6,5  - JEu
+ 11  6,5  - JEw
  11  6,5  - JeE
  11  6,5  - JoE
  11  6,5  - JuS
  11  2,7  - PAEANS
+ 11  1,7  - PAESAN
+ 11  1,7  - PAESANi
  11  1,7  - PAESANo
+ 11  1,7  - PAESANs
+ 11  1,7  - PAEsANS
  11  9,2  | PAS
  11  7,4  - PASH
  11  7,4  - PASHa
@@ -3565,6 +3619,7 @@
  11 11,3  | SEm
  11 11,3  | SEn
  11  8,10 - SEna
+ 11  8,10 - SEne
  11 11,3  | SEr
  11 11,3  | SEt
  11  9,2  | SEtA
@@ -3580,6 +3635,7 @@
  11 11,3  | SeA
  11 11,3  | SeE
  11  8,10 - SenA
+ 11  8,10 - SenE
  11  9,2  | ShEA
  11 11,3  | SiA
  11 11,3  | SiE
@@ -3750,8 +3806,10 @@
  10  6,5  - Jo
  10  2,7  - PAEAN
  10  2,7  - PAEANs
+ 10  1,7  - PAESaN
  10  2,7  - PAEaNS
  10  2,7  - PAEoNS
+ 10  1,7  - PAEsAN
  10  9,5  - PAS
  10  2,7  - PASAN
  10  2,7  - PASANg
@@ -3784,10 +3842,12 @@
  10  8,5  | PEnAEA
  10  7,4  - PErH
  10  8,5  | PErSEA
+ 10  5,6  - PInEALS
  10  5,8  - PKt
  10  9,6  - PLF
  10  9,7  - POE
  10  9,7  - POS
+ 10  1,7  - PaESAN
  10  3,8  - PaSK
  10  3,8  - PeAK
  10  1,7  - PeASEN
@@ -3830,6 +3890,7 @@
  10  8,5  - SPAs
  10  8,5  - SPAt
  10  8,5  - SPAy
+ 10  8,5  - SPAz
  10  8,4  | SPEAvE
  10  4,6  - SPIF
  10  4,6  - SPIFf
@@ -3859,6 +3920,8 @@
  10 11,7  | SiDA
  10 11,7  | SiDE
  10 11,2  | SiE
+ 10 11,2  | SkA
+ 10  9,4  | SkA
  10 11,2  | SlA
  10  9,4  | SlA
  10  3,8  - SlAKE
@@ -3913,6 +3976,7 @@
  10 11,2  | eSE
  10 11,2  | fAE
  10  9,5  | fAE
+ 10  8,8  - fAG
  10  9,5  | fAS
  10  7,10 - fF
  10 11,2  | gAE
@@ -4061,6 +4125,7 @@
   9  2,7  - FAdEN
   9  9,2  | FAe
   9  9,5  - FAe
+  9  9,5  - FAg
   9  9,5  - FAh
   9  1,7  - FAiSAN
   9  8,5  | FAlSE
@@ -4156,6 +4221,7 @@
   9  9,5  - PAc
   9  9,5  - PAd
   9  2,7  - PAeAN
+  9  1,7  - PAeSAN
   9  2,7  - PAgAN
   9  9,5  - PAh
   9  1,7  - PAiSAN
@@ -4196,6 +4262,7 @@
   9  9,2  | PEa
   9  8,5  | PEaSE
   9  2,7  - PEbAN
+  9  9,2  | PEc
   9  2,7  - PEcAN
   9  9,2  | PEe
   9  8,5  | PEiSE
@@ -4291,6 +4358,7 @@
   9  8,10 - SEn
   9 11,2  | SEr
   9  8,5  | SFrEE
+  9  5,8  - SKA
   9  8,6  | SPAE
   9  8,6  | SPAEd
   9  8,6  | SPAEr
@@ -4720,6 +4788,7 @@
   8 11,5  | sAE
   8  8,7  | sEEP
   8  3,6  - sEPIAS
+  8  5,8  - sKA
   8  8,6  | sPAE
   8  3,7  - sPANE
   8  3,7  - sPANS
@@ -4844,6 +4913,7 @@
   7  8,6  | FAnES
   7  8,6  | FArES
   7  8,6  | FAtES
+  7  8,6  | FAvES
   7  8,6  | FAxES
   7  8,6  | FAzES
   7  8,5  - FEAk
@@ -4939,6 +5009,7 @@
   7  8,5  | PASsE
   7  8,5  | PAStE
   7  8,6  | PAcES
+  7  3,6  - PAdIS
   7  8,6  | PAgES
   7  8,6  | PAlEA
   7  8,6  | PAlES
@@ -4989,6 +5060,7 @@
   7  8,6  | PElES
   7  8,6  | PEnES
   7  3,6  - PEnIS
+  7  8,6  | PErEA
   7  8,6  | PErES
   7  3,6  - PErIS
   7  9,4  - PHi
@@ -5030,6 +5102,7 @@
   7  8,7  | PrESE
   7  4,6  - PrIES
   7  4,6  - PrISE
+  7  8,6  - PuLA
   7  8,6  - PuLE
   7  8,6  - PuLS
   7  4,7  - PuNA
@@ -5060,6 +5133,7 @@
   7  1,7  - SEAsAN
   7  1,7  - SEAwAN
   7  4,6  - SEIF
+  7  4,6  - SEIFs
   7  3,6  - SEPIa
   7  3,6  - SEPIc
   7  7,4  - SEaH
@@ -5069,6 +5143,7 @@
   7  8,6  | SFrEE
   7  5,6  - SIFE
   7  5,6  - SIPE
+  7  5,8  - SKa
   7  5,8  - SKy
   7  5,7  - SNaP
   7  5,7  - SNiP
@@ -5269,6 +5344,7 @@
   7  9,2  | oSE
   7 11,3  | pA
   7  2,7  - pAEANS
+  7  1,7  - pAESAN
   7  8,6  - pALP
   7  9,2  | pAS
   7  7,4  - pASH
@@ -5296,6 +5372,7 @@
   7  9,2  | sEA
   7  7,4  - sEAH
   7  1,7  - sEASAN
+  7  4,6  - sEIFS
   7  8,6  - sELF
   7  3,6  - sEPIA
   7  3,7  - sEPN
@@ -5540,6 +5617,7 @@
   6  8,6  | FAnE
   6  8,6  | FArE
   6  8,6  | FAtE
+  6  8,6  | FAvE
   6  3,6  - FAvI
   6  8,6  | FAzE
   6  4,6  - FEIf
@@ -5623,6 +5701,7 @@
   6  4,6  - PAIr
   6  4,6  - PAIs
   6  8,6  | PAcE
+  6  3,6  - PAdI
   6  8,6  | PAgE
   6  3,6  - PAhI
   6  8,6  | PAlE
@@ -5803,6 +5882,7 @@
   6  9,2  | SiA
   6  9,2  | SiE
   6  3,7  - SiENA
+  6  9,2  | SkA
   6  8,7  | SkEF
   6  8,7  | SkEP
   6  4,6  - SkIP
@@ -6259,6 +6339,7 @@
   5  8,8  | SElE
   5  8,8  | SEmE
   5  8,8  | SEnA
+  5  8,8  | SEnE
   5  3,7  - SEpN
   5  8,8  | SErA
   5  8,8  | SErE
@@ -6369,6 +6450,7 @@
   5  5,6  | fE
   5  7,6  | fE
   5  8,7  | fEES
+  5  8,4  - fEHS
   5  5,6  - fIP
   5  9,7  - fOP
   5  8,7  | gAEA
@@ -6392,6 +6474,7 @@
   5  9,3  | hE
   5  9,5  | hE
   5  5,6  | hE
+  5  8,4  - hEHS
   5  8,8  | hEP
   5  5,6  - hIP
   5  9,7  - hOP
@@ -6459,6 +6542,7 @@
   5  9,5  | nA
   5 11,5  | nA
   5  7,6  | nA
+  5  3,7  - nAANS
   5  9,5  - nAF
   5  4,7  - nANAS
   5  4,7  - nANES
@@ -6503,6 +6587,7 @@
   5  8,7  | rEES
   5  8,8  | rEF
   5  8,8  | rEP
+  5  5,6  - rIF
   5  5,6  - rIP
   5  4,7  - sANES
   5  9,5  - sAP
@@ -6545,6 +6630,7 @@
   5  3,7  - wEANS
   5  8,7  | wEES
   5  8,6  | wESE
+  5  9,7  - wOP
   5  9,3  | yA
   5  9,5  | yA
   5 11,5  | yA
@@ -6799,6 +6885,7 @@
   4  4,7  - SEN
   4  4,7  - SENa
   4  4,7  - SENd
+  4  4,7  - SENe
   4  4,7  - SENt
   4  8,7  - SEOr
   4  8,8  | SEa
@@ -6848,6 +6935,7 @@
   4  4,7  - SaNE
   4  8,6  - SeLE
   4  4,7  - SeNA
+  4  4,7  - SeNE
   4  7,10 - Sh
   4  8,6  - SiLE
   4  4,7  - SiNA
@@ -6891,11 +6979,13 @@
   4  4,7  - cANE
   4  4,7  - cANS
   4  8,7  | cEE
+  4  8,6  - cELS
   4  9,4  - cHA
   4  9,4  - cHE
   4  9,4  - cHS
   4  8,4  - dAH
   4  8,6  - dALE
+  4  8,6  - dALS
   4  4,7  - dANA
   4  4,7  - dANE
   4  7,10 - dE
@@ -6991,11 +7081,14 @@
   4  8,6  - mELS
   4  4,7  - mENS
   4 10,10 - nA
+  4  3,7  - nAAN
   4  8,7  | nAE
+  4  8,4  - nAH
   4  4,6  - nAIAS
   4  8,6  - nALE
   4  4,7  - nANA
   4  4,7  - nANE
+  4  4,7  - nANS
   4  8,7  - nAOS
   4  7,10 - nE
   4 10,10 - nE
@@ -7063,6 +7156,7 @@
   4  8,5  - tEAS
   4  8,7  | tEE
   4  8,6  - tELA
+  4  8,6  - tELS
   4  4,7  - tENS
   4  9,4  - tHA
   4  9,4  - tHE
@@ -7279,6 +7373,7 @@
   3  6,7  - NAe
   3  6,7  - NAf
   3  6,7  - NAg
+  3  6,7  - NAh
   3  6,7  - NAk
   3  6,7  - NAm
   3  6,7  - NAn
@@ -7360,6 +7455,7 @@
   3  8,6  | SElE
   3  8,6  | SEmE
   3  3,6  - SEmI
+  3  8,6  | SEnE
   3  8,6  | SErE
   3  3,6  - SErI
   3  8,6  | SEvE
@@ -7458,6 +7554,7 @@
   3  8,6  - cAL
   3  4,7  - cAN
   3  8,8  | cEES
+  3  8,6  - cEL
   3  9,4  - cH
   3  5,6  - cISE
   3  4,6  - dAIS
@@ -7577,6 +7674,7 @@
   3  4,6  - rEIS
   3  8,6  - rEL
   3  4,7  - rEN
+  3  5,6  - rIAS
   3  5,6  - rIES
   3  5,6  - rISE
   3  9,6  - rLE
@@ -7827,6 +7925,7 @@
   2  8,7  - ShO
   2  8,5  - SiA
   2  8,7  | SiE
+  2  8,5  - SkA
   2  4,6  - SkI
   2  8,5  - SlA
   2  8,5  - SmA
@@ -7953,6 +8052,7 @@
   2  9,5  - rAS
   2  8,8  | rEA
   2  8,8  | rEE
+  2  4,6  - rEI
   2  8,8  | rES
   2  5,6  - rIA
   2  5,6  - rIE

@@ -67,6 +67,7 @@
  29  8,3  | AXONIa
  29  8,3  | AXONIc
  29  8,1  | AlEXIN
+ 29  8,3  | EXONIc
  29  8,5  | INAXOn
  29  8,1  | InAXON
  29  3,4  - IsOLEX
@@ -104,9 +105,11 @@
  28  8,3  | EXINe
  28  8,3  | EXINg
  28  8,3  | EXON
+ 28  8,3  | EXONs
  28  8,2  | ExXON
  28  5,4  - ILEX
  28  3,8  - IXORA
+ 28  3,8  - IXORAs
  28  3,4  - IXtLE
  28  8,6  | NEXAl
  28  8,6  | NIXE
@@ -349,6 +352,7 @@
  22  5,9  - XYlIA
  22  2,9  - cOAXY
  22  5,7  - cOXA
+ 22  2,9  - dEOXY
  22  2,9  - dIOXY
  22  5,7  - dOXA
  22  9,2  | hOAXEE
@@ -400,6 +404,8 @@
  20  6,2  - adOXA
  20  3,9  - bOXY
  20  4,3  - cALX
+ 20  9,5  | dEXIE
+ 20  3,9  - dEXY
  20  3,9  - dIXY
  20  3,9  - dOXY
  20  4,3  - eXLA
@@ -566,6 +572,7 @@
  15  5,9  | AX
  15  7,9  | AX
  15  8,2  | AXION
+ 15  8,2  | AXIONs
  15  4,4  - AXLIkE
  15  4,7  - AXOnE
  15  5,9  | AXe
@@ -693,6 +700,7 @@
  13 10,1  | cIAO
  13  8,4  | cINQ
  13  9,2  | cOXAE
+ 13  9,2  | dEXIE
  13  9,2  | dOXIE
  13  9,2  | fOXIE
  13  1,5  - hOAXEE
@@ -760,6 +768,7 @@
  12  7,1  | cIAO
  12  2,5  - cOXAE
  12  7,1  | dEIA
+ 12  2,5  - dEXIE
  12  2,5  - dOXIE
  12  5,3  - eLIX
  12  5,3  - fLAX
@@ -1547,6 +1556,7 @@
   8  5,7  - pOOA
   8  5,2  - paX
   8  7,1  | rEA
+  8  7,1  | rEI
   8  7,1  | rIA
   8  7,1  | rIO
   8  5,2  - raX
@@ -1871,6 +1881,7 @@
   7  7,9  | Oe
   7  5,9  | Of
   7  7,9  | Of
+  7  3,9  - OfAY
   7  2,8  - OgAIRE
   7  5,9  | Oh
   7  7,9  | Oh
@@ -1911,6 +1922,7 @@
   7  7,9  | Ox
   7  5,9  | Oy
   7  7,9  | Oy
+  7  6,8  - ROAdIE
   7  6,9  - YAdE
   7  6,9  - YAgI
   7  6,9  - YAjE
@@ -2063,6 +2075,8 @@
   7  8,4  | sINAE
   7  4,3  - sOLEA
   7  4,4  - sOLEA
+  7  4,3  - sOLEI
+  7  4,4  - sOLEI
   7  4,9  - sOYA
   7 10,2  | tA
   7  8,3  | tAINO
@@ -2472,6 +2486,7 @@
   6  6,3  - LOrI
   6  6,3  - LOsE
   6  6,3  - LOtA
+  6  6,3  - LOtI
   6  6,3  - LOvE
   6  6,3  - LOwE
   6  6,4  - LwEI
@@ -2597,6 +2612,7 @@
   6  6,8  - RAIsE
   6  6,8  - REInA
   6  6,8  - REOIl
+  6  6,8  - RIOjA
   6  6,8  - RaIAE
   6  6,9  - YAIr
   6  6,9  - YEA
@@ -2663,6 +2679,7 @@
   6  4,3  - bOLE
   6  8,3  | cAIN
   6  3,8  - cAIRO
+  6  4,3  - cALO
   6  8,3  | cAON
   6  3,4  - cEIL
   6  4,8  - cERIA
@@ -2771,6 +2788,7 @@
   6  3,4  - hEAL
   6  3,4  - hEIL
   6  8,3  | hEIN
+  6  4,3  - hELO
   6  7,2  | hI
   6  3,8  - hIERA
   6  4,3  - hILA
@@ -2903,6 +2921,7 @@
   6  4,3  - pALE
   6  4,3  - pALI
   6  8,3  | pAON
+  6  4,8  - pAREO
   6 10,4  | pATE
   6 10,4  | pATO
   6  5,2  | pE
@@ -3248,6 +3267,7 @@
   5  5,3  - ELlA
   5  5,3  - ELsA
   5  8,5  | ENAmI
+  5  8,5  | ENOkI
   5  4,3  - EOLe
   5  9,6  | EOlE
   5  8,2  | EOsIN
@@ -3541,6 +3561,7 @@
   5  6,8  - REAm
   5  6,8  - REAp
   5  6,8  - REAr
+  5  6,8  - REI
   5  6,8  - REId
   5  6,8  - REIf
   5  6,8  - REIm
@@ -3549,6 +3570,7 @@
   5  6,8  - REIt
   5  6,8  - RIA
   5  6,8  - RIAl
+  5  6,8  - RIAs
   5  6,8  - RIE
   5  6,8  - RIEl
   5  6,8  - RIEm
@@ -3598,6 +3620,7 @@
   5  6,9  - YEx
   5  6,9  - YEz
   5  6,9  - YI
+  5  6,9  - YId
   5  6,9  - YIn
   5  6,9  - YIp
   5  6,9  - YO
@@ -3866,6 +3889,7 @@
   5  3,8  - rEAR
   5  9,3  - rEB
   5  7,5  | rEE
+  5  7,5  | rEI
   5  9,5  - rIA
   5  3,3  - rIAL
   5  9,3  - rIB
@@ -4275,6 +4299,7 @@
   4  6,4  - LEvO
   4  6,3  - LEx
   4  6,3  - LEy
+  4  6,3  - LEz
   4  6,3  - LI
   4  6,3  - LIb
   4  6,4  - LIcE
@@ -4309,7 +4334,6 @@
   4  6,4  - LIsE
   4  6,3  - LIt
   4  6,4  - LItE
-  4  6,3  - LIv
   4  6,4  - LIvE
   4  6,3  - LIz
   4  6,4  - LIzA
@@ -4345,12 +4369,14 @@
   4  6,4  - LOsE
   4  6,3  - LOt
   4  6,4  - LOtA
+  4  6,4  - LOtI
   4  6,3  - LOu
   4  6,4  - LOvE
   4  6,3  - LOw
   4  6,4  - LOwE
   4  6,3  - LOx
   4  6,3  - LOy
+  4  8,6  | NAbE
   4  8,6  | NAcE
   4  8,6  | NAiO
   4  8,6  | NAkE
@@ -4384,6 +4410,7 @@
   4  8,6  | NInA
   4  8,6  | NInE
   4  8,6  | NIpA
+  4  8,6  | NItE
   4  8,6  | NItO
   4  8,6  | NIuE
   4  8,6  | NIxE
@@ -4481,6 +4508,7 @@
   4  6,8  - ROxIE
   4  6,8  - ReA
   4  6,8  - ReE
+  4  6,8  - ReI
   4  6,8  - RhA
   4  6,8  - RhE
   4  6,8  - RhO
@@ -4549,8 +4577,10 @@
   4  8,4  | bONI
   4  5,7  - bOO
   4  4,3  - cAL
+  4  4,4  - cALO
   4  8,4  | cANE
   4  5,5  - cEE
+  4  4,3  - cEL
   4  8,4  | cINE
   4  5,3  - cLI
   4  5,3  - cLO
@@ -4649,6 +4679,7 @@
   4  9,7  - hE
   4  5,5  - hEE
   4  4,3  - hEL
+  4  4,4  - hELO
   4  9,7  - hI
   4  4,4  - hILA
   4  4,4  - hILE
@@ -5088,6 +5119,7 @@
   3  6,4  - LEv
   3  6,4  - LEx
   3  6,4  - LEy
+  3  6,4  - LEz
   3  6,4  - LI
   3  6,4  - LIb
   3  6,4  - LId
@@ -5100,7 +5132,6 @@
   3  6,4  - LIr
   3  6,4  - LIs
   3  6,4  - LIt
-  3  6,4  - LIv
   3  6,4  - LIz
   3  6,4  - LO
   3  6,4  - LOa
@@ -5138,6 +5169,7 @@
   3  8,6  | NAe
   3  8,6  | NAf
   3  8,6  | NAg
+  3  8,6  | NAh
   3  8,6  | NAk
   3  8,6  | NAm
   3  8,6  | NAn
@@ -5252,6 +5284,7 @@
   3  6,8  - REkI
   3  6,8  - REmI
   3  6,8  - REnO
+  3  6,8  - REpO
   3  6,8  - RIbE
   3  6,8  - RIcE
   3  6,8  - RIdE
@@ -5442,6 +5475,7 @@
   3  4,8  - cARO
   3  9,4  | cEE
   3  9,5  | cEE
+  3  4,4  - cEL
   3  4,8  - cERA
   3  4,8  - cERO
   3  8,4  - cIAO
@@ -5474,6 +5508,7 @@
   3  4,4  - dOL
   3  8,4  | dON
   3  4,8  - dORA
+  3  4,8  - dORE
   3  4,8  - dORI
   3  4,4  - eEL
   3  8,4  | eEN
@@ -5657,6 +5692,7 @@
   3  9,5  | rEA
   3  9,4  | rEE
   3  9,5  | rEE
+  3  9,5  | rEI
   3  4,4  - rEL
   3  8,4  | rEN
   3  9,4  | rIE
@@ -5765,6 +5801,7 @@
   3  9,5  | zEE
   3  8,4  | zEN
   3  4,8  - zERO
+  3  8,4  | zIN
   3  4,8  - zIRA
   3  4,4  - zOL
   3  4,8  - zORI
@@ -6037,6 +6074,7 @@
   2  6,8  - REf
   2  6,8  - REg
   2  6,8  - REh
+  2  6,8  - REi
   2  6,8  - REl
   2  6,8  - REm
   2  6,8  - REn
@@ -6051,6 +6089,7 @@
   2  6,8  - RIc
   2  6,8  - RId
   2  6,8  - RIe
+  2  6,8  - RIf
   2  6,8  - RIg
   2  6,8  - RIk
   2  6,8  - RIm
@@ -6105,6 +6144,7 @@
   2 10,6  | TEl
   2 10,6  | TEm
   2 10,6  | TEn
+  2 10,6  | TEt
   2 10,6  | TEw
   2 10,6  | TEx
   2 10,6  | TEz
@@ -6329,6 +6369,7 @@
   2  4,8  - kER
   2  7,1  | kI
   2  4,5  - kIE
+  2  4,8  - kIR
   2  4,8  - kOR
   2  4,2  - kOaE
   2  5,8  - kRA

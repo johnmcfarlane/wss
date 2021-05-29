@@ -40,7 +40,9 @@
  38 10,5  | PAnTIE
  38 10,5  | PArIET
  38 10,5  | PArTIE
+ 38 10,5  | PAsTIE
  38 10,5  | PAtTIE
+ 38 10,5  | PETsAI
  38 10,5  | PIAnET
  38 10,5  | PIETAs
  38 10,5  | PIlATE
@@ -65,6 +67,7 @@
  36  7,3  - FIDiA
  36  7,3  - FeDIA
  36  7,3  - FiDIA
+ 36  7,3  - PADIs
  36  7,3  - PADgE
  36  7,3  - PADlE
  36  7,3  - PADrE
@@ -76,6 +79,7 @@
  35 10,5  | AFrITE
  35 10,5  | APlITE
  35 10,5  | EPITrA
+ 35  6,9  - PAsTIE
  35 10,5  | TAIPEi
  35 10,5  | TAPEtI
  35 10,5  | TAiPEI
@@ -233,6 +237,7 @@
  28  6,2  - PAtEE
  28  6,2  - PAyEE
  28  6,2  - PETEr
+ 28  6,2  - PErEA
  28  6,2  - PIcEA
  28  6,2  - PIlEA
  28  6,2  - PIpET
@@ -370,9 +375,11 @@
  24  9,1  | MEDIAs
  24 10,5  | PElF
  24 10,5  | PErF
+ 24 10,5  | PFfT
  24 10,5  | PFuI
  24 10,5  | PIFf
  24 10,5  | PIfF
+ 24 10,5  | PfFT
  24 10,5  | PrEF
  24  7,3  - bEDIP
  24  7,3  - rEDIP
@@ -516,6 +523,7 @@
  20 10,4  | FAsT
  20 10,4  | FAtE
  20 10,4  | FAuT
+ 20 10,4  | FAvE
  20 10,4  | FAvI
  20 10,4  | FAzE
  20 10,4  | FEAk
@@ -646,6 +654,7 @@
  20 10,2  | nEF
  20 10,2  | oAF
  20 10,2  | rEF
+ 20 10,2  | rIF
  20  9,7  | sAFE
  20  9,7  | sAFI
  20  9,7  | sAFT
@@ -768,6 +777,7 @@
  18 10,4  | FAc
  18 10,4  | FAd
  18 10,4  | FAe
+ 18 10,4  | FAg
  18 10,4  | FAh
  18 10,4  | FAm
  18 10,4  | FAn
@@ -823,6 +833,7 @@
  18 10,5  | PATy
  18 10,5  | PAcE
  18 10,5  | PAcT
+ 18 10,5  | PAdI
  18 10,5  | PAgE
  18 10,5  | PAhI
  18 10,5  | PAlE
@@ -991,6 +1002,7 @@
  17  7,8  - ELIAn
  17  7,8  - ELIAs
  17  7,8  - ELITe
+ 17  7,8  - ELInT
  17  7,8  - ELIoT
  17  7,8  - ELIzA
  17 10,5  | EPAcT
@@ -1002,6 +1014,7 @@
  17 10,5  | ETAPe
  17 10,5  | EnAPT
  17 10,5  | EnPIA
+ 17 10,5  | ExPAT
  17  6,9  - FPs
  17 10,4  | FaE
  17 10,4  | FaT
@@ -1165,6 +1178,7 @@
  16 10,5  | PAr
  16  4,2  - PArTIE
  16 10,5  | PAs
+ 16  4,2  - PAsTIE
  16 10,5  | PAt
  16  4,2  - PAtTEE
  16  4,2  - PAtTIE
@@ -1178,6 +1192,7 @@
  16  4,2  - PETItE
  16  4,2  - PETrIE
  16 10,5  | PEa
+ 16 10,5  | PEc
  16  4,2  - PEcITE
  16 10,5  | PEd
  16  4,2  - PEdATE
@@ -1325,6 +1340,7 @@
  16 10,5  | nIEPA
  16 10,4  | nIFE
  16 10,4  | nIPA
+ 16 10,2  | nITE
  16  4,2  - oPIATE
  16  6,2  - pATEE
  16 10,5  | pIPET
@@ -1603,6 +1619,7 @@
  14  4,3  | EPA
  14  5,2  - EPpIE
  14 10,3  | ETAs
+ 14 10,3  | ETIc
  14  5,2  - ETaPE
  14  5,2  - EfFIE
  14  5,2  - EpPIE
@@ -1787,6 +1804,7 @@
  14 10,5  | lEIF
  14  4,2  | lEPA
  14 10,5  | lEPA
+ 14 10,5  | lEPT
  14 10,5  | lIEF
  14 10,5  | lIFE
  14 10,5  | lIFT
@@ -1979,6 +1997,7 @@
  13  5,3  - FrIED
  13  1,3  - GOFEr
  13  1,3  - GOPAk
+ 13  1,3  - GOnEF
  13  1,3  - GOnIF
  13 10,3  | IF
  13 10,5  | IF
@@ -2166,6 +2185,7 @@
  12  5,3  - FArED
  12  6,2  - FAtE
  12  5,3  - FAtED
+ 12  6,2  - FAvE
  12  5,3  - FAxED
  12  5,3  - FAyED
  12  6,2  - FAzE
@@ -2269,6 +2289,7 @@
  12  9,8  | InTA
  12  9,8  | IoTA
  12  9,8  | ItEA
+ 12  7,3  - PADI
  12  6,2  - PAcE
  12  5,3  - PAcED
  12  6,2  - PAgE
@@ -2379,6 +2400,7 @@
  12  8,2  - TEmP
  12 10,2  | TEn
  12  8,2  - TErP
+ 12 10,2  | TEt
  12 10,2  | TIn
  12 10,2  | TIs
  12 10,2  | TIt
@@ -2481,9 +2503,11 @@
  12 10,5  | lEP
  12  8,2  - lEPA
  12  5,3  - lEPID
+ 12  8,2  - lEPT
  12  7,2  - lIEF
  12 10,5  | lIF
  12  6,2  - lIFE
+ 12  7,1  - lIMPA
  12 10,5  | lIP
  12 10,5  | mAP
  12 10,5  | nAF
@@ -2530,6 +2554,7 @@
  12 10,5  | rEP
  12  5,3  - rEPAD
  12  8,2  - rEPT
+ 12 10,5  | rIF
  12  6,2  - rIFE
  12 10,5  | rIP
  12  6,2  - rIPE
@@ -2656,6 +2681,7 @@
  11  5,1  - InFAME
  11 10,5  | IrATE
  11  7,3  - PAD
+ 11  7,3  - PADi
  11  7,3  - PADs
  11  5,1  - PAnIME
  11  4,3  - PAnTED
@@ -2681,6 +2707,7 @@
  11  4,3  - PItTED
  11  6,9  - PTs
  11  8,2  | Pa
+ 11  7,3  - PaDI
  11  8,2  | Pe
  11  7,3  - PeDA
  11  8,2  | Pi
@@ -2844,6 +2871,7 @@
  11  6,3  - sPAD
  11  6,3  - sPED
  11 10,2  | tAT
+ 11 10,2  | tET
  11 10,2  | tIT
  11  5,1  - uPTIME
  11  8,1  | uTA
@@ -2935,6 +2963,7 @@
  10  1,6  | PE
  10  5,1  - PETuM
  10  8,2  - PEa
+ 10  8,2  - PEc
  10  8,2  - PEd
  10  8,2  - PEe
  10  8,2  - PEg
@@ -3024,6 +3053,7 @@
  10 10,4  | nEAT
  10  8,2  - nEF
  10 10,4  | nETI
+ 10 10,4  | nITE
  10 10,1  | oE
  10 10,5  | oF
  10  9,8  | oF
@@ -3207,11 +3237,13 @@
   9 10,5  | EIlA
   9 10,5  | EInA
   9  8,1  - EMF
+  9  8,1  - EMFs
   9  8,1  - EMIT
   9  8,1  - EMP
   9  8,1  | ET
   9 10,5  | ETA
   9 10,5  | ETAs
+  9 10,5  | ETIc
   9 10,3  | ETa
   9 10,5  | ETnA
   9 10,5  | ETtA
@@ -3256,6 +3288,7 @@
   9  6,1  - FArM
   9  7,1  - FEM
   9  7,1  - FEMe
+  9  7,1  - FEMs
   9  4,2  | FETA
   9  4,1  | FEdIA
   9  4,1  | FErIA
@@ -3448,6 +3481,7 @@
   9 10,4  | TEn
   9 10,5  | TEpA
   9 10,5  | TErI
+  9 10,4  | TEt
   9 10,4  | TEw
   9 10,5  | TEwA
   9 10,4  | TEx
@@ -3549,6 +3583,7 @@
   9  7,1  - vAMP
   9  6,3  - vIFDA
   9  7,1  - wAMP
+  9  7,1  - wIMP
   9  7,1  - yAMP
   8  5,2  - AErIE
   8  6,9  - AEs
@@ -3626,6 +3661,7 @@
   8  1,3  - GOlP
   8  1,3  - GOoF
   8  1,3  - GOoP
+  8  1,3  - GOrP
   8  1,3  - GOuP
   8  1,3  - GOwF
   8  8,1  - IMbE
@@ -3644,6 +3680,7 @@
   8  8,8  - LEFT
   8  8,8  - LEIF
   8  8,8  - LEPA
+  8  8,8  - LEPT
   8  8,8  - LIEF
   8  8,8  - LIFE
   8  8,8  - LIFT
@@ -3796,6 +3833,7 @@
   8 10,4  | nET
   8 10,5  | nETI
   8 10,4  | nIT
+  8 10,5  | nITE
   8  9,8  | oAF
   8 10,4  | oAT
   8  8,1  - oMIT
@@ -3855,6 +3893,7 @@
   8  5,2  - tATIE
   8 10,4  | tEA
   8 10,5  | tEAT
+  8 10,4  | tET
   8 10,4  | tIE
   8 10,4  | tIT
   8 10,5  | tITE
@@ -4049,6 +4088,7 @@
   7  8,8  - LEFt
   7  8,8  - LEP
   7  8,8  - LEPa
+  7  8,8  - LEPt
   7  8,8  - LEaF
   7  8,8  - LEaP
   7  8,8  - LEeF
@@ -4073,6 +4113,7 @@
   7  8,8  - LeFT
   7  8,8  - LeIF
   7  8,8  - LePA
+  7  8,8  - LePT
   7  8,8  - LiEF
   7  8,8  - LiFE
   7  8,8  - LiFT
@@ -4170,6 +4211,7 @@
   7 10,5  | TEm
   7 10,5  | TEn
   7  6,1  - TErMA
+  7 10,5  | TEt
   7 10,5  | TEw
   7 10,5  | TEx
   7 10,5  | TEz
@@ -4400,6 +4442,7 @@
   6  4,2  | FAlA
   6  4,2  | FAmA
   6  4,2  | FAnA
+  6  4,2  | FAvA
   6  7,2  - FEE
   6  4,2  | FEtA
   6  7,2  - FIE
@@ -4679,6 +4722,8 @@
   6  6,2  - dATE
   6  5,3  - dATED
   6 10,5  | dEA
+  6  7,2  - dEET
+  6  8,2  - dEET
   6 10,5  | dEI
   6  8,2  - dEIA
   6  7,1  - dEMI
@@ -4804,6 +4849,7 @@
   6  8,2  - nETI
   6  4,1  | nIATA
   6 10,5  | nIT
+  6  6,2  - nITE
   6 10,5  | oAT
   6 10,5  | pAT
   6  6,2  - pATE
@@ -4836,6 +4882,7 @@
   6  4,1  | rEATA
   6  7,2  - rEET
   6  8,2  - rEET
+  6 10,5  | rEI
   6  6,1  - rEIM
   6  8,2  - rEIT
   6  7,1  - rEMI
@@ -4898,6 +4945,7 @@
   6  7,2  - tEET
   6  8,2  - tEET
   6  7,1  - tEMA
+  6 10,5  | tET
   6  6,2  - tETE
   6  8,2  - tETE
   6  6,1  - tIAM
@@ -5359,6 +5407,7 @@
   5  8,2  | jE
   5  7,1  - jIM
   5  7,1  - kAM
+  5  4,2  | kATA
   5  6,3  - kEID
   5  4,2  | kETA
   5  7,1  - kIM
@@ -5637,6 +5686,7 @@
   4  8,8  - LEnA
   4  8,8  - LEnT
   4  8,8  - LEpA
+  4  8,8  - LEpT
   4  8,8  - LEsT
   4  8,8  - LEtT
   4  8,8  - LEvA
@@ -5690,6 +5740,7 @@
   4  8,8  - LiTE
   4  8,8  - LiTI
   4  8,8  - LoTA
+  4  8,8  - LoTI
   4  8,8  - LuTE
   4  8,8  - LwEI
   4  9,1  - Ma
@@ -5714,6 +5765,7 @@
   4  8,2  - TEl
   4  8,2  - TEm
   4  8,2  - TEn
+  4  8,2  - TEt
   4  8,2  - TEw
   4  8,2  - TEx
   4  8,2  - TEz
@@ -5839,6 +5891,7 @@
   4  9,8  | oI
   4  8,1  - oM
   4 10,5  | pA
+  4  7,3  - pADI
   4 10,5  | pE
   4  8,2  - pEA
   4  4,3  | pEA
@@ -5853,6 +5906,7 @@
   4  8,2  - rEA
   4  4,3  | rEA
   4  8,2  - rEE
+  4  8,2  - rEI
   4  8,2  - rET
   4  4,3  | rIA
   4  7,3  - rIDE
@@ -5877,6 +5931,7 @@
   4  4,3  | tEA
   4  7,3  - tEDA
   4  8,2  - tEE
+  4  8,2  - tET
   4 10,5  | tI
   4  7,3  - tIDE
   4  8,1  - uM
@@ -5991,6 +6046,7 @@
   3  8,8  - LEv
   3  8,8  - LEx
   3  8,8  - LEy
+  3  8,8  - LEz
   3  8,8  - LI
   3  8,8  - LIb
   3  8,8  - LId
@@ -6003,7 +6059,6 @@
   3  8,8  - LIr
   3  8,8  - LIs
   3  8,8  - LIt
-  3  8,8  - LIv
   3  8,8  - LIz
   3  8,8  - LTr
   3  8,8  - LaI
@@ -6145,6 +6200,7 @@
   3  7,3  - wED
   3  7,3  - wID
   3  7,3  - yAD
+  3  7,3  - yID
   3  7,3  - zED
   2  8,2  - AE
   2  1,6  - AI

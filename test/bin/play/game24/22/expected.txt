@@ -24,6 +24,7 @@
  30  4,1  | COPS
  30  4,1  | COWS
  30 10,7  | EPIC
+ 30  4,1  | PECS
  30  4,1  | PEWS
  30  4,1  | PICS
  30  3,14 - PILIS
@@ -41,12 +42,25 @@
  27  1,14 - CEP
  27  1,14 - COP
  27  1,12 - ECHE
+ 27 13,1  | SCOPE
+ 27 13,1  | SEPIC
+ 27 13,1  | SPICE
+ 27 13,1  | SWIPE
+ 27  1,14 - WOP
  26  3,3  | CRPE
  25  3,2  | CORSIE
  25 10,8  | PECOS
  25  3,2  | PERSIO
+ 25 13,1  | SCOP
+ 25 13,1  | SCOW
+ 25 13,1  | SPEC
+ 25 13,1  | SPEW
+ 25 13,1  | SPIC
+ 25 13,1  | SWEP
+ 25 13,1  | SWOP
  24  8,8  - ASPICS
  24  4,1  | COSSE
+ 24 10,8  | PECS
  24 10,8  | PEWS
  24 10,8  | PICE
  24 10,8  | PICO
@@ -63,6 +77,7 @@
  24  4,1  | SPISE
  24  4,1  | WISSE
  23  2,14 - OP
+ 23 10,8  | PEC
  23 10,8  | PEW
  23 10,8  | PIC
  23 10,8  | POW
@@ -96,6 +111,7 @@
  21  4,1  | POIS
  21  4,1  | POSS
  21  4,1  | PSIS
+ 21 13,1  | SCI
  21  4,1  | SECS
  21  4,1  | SEPS
  21  4,1  | SEWS
@@ -149,9 +165,13 @@
  19 11,5  | SEP
  19 11,5  | SEW
  19 11,5  | SIC
+ 19 13,1  | SICE
  19 11,5  | SIP
+ 19 13,1  | SIPE
  19 11,5  | SOC
+ 19 13,1  | SOCE
  19 11,5  | SOP
+ 19 13,1  | SOPE
  19 11,5  | SOW
  19  2,12 | SPIF
  19  3,2  | WORSE
@@ -161,10 +181,18 @@
  18  4,3  - IOCS
  18 10,7  | IPS
  18 10,8  | PSEC
+ 18 13,1  | SEC
+ 18 13,1  | SEP
+ 18 13,1  | SEW
+ 18 13,1  | SIC
  18 10,8  | SICE
+ 18 13,1  | SIP
  18 10,8  | SIPE
+ 18 13,1  | SOC
  18 10,8  | SOCE
+ 18 13,1  | SOP
  18 10,8  | SOPE
+ 18 13,1  | SOW
  17  1,13 - IPS
  17  9,3  - MYOPIES
  17  1,13 - OPS
@@ -232,6 +260,9 @@
  15 10,8  | POSE
  15 10,8  | SCOP
  15 10,8  | SCOW
+ 15 13,1  | SEI
+ 15 13,1  | SIE
+ 15 13,1  | SOE
  15 10,8  | SPEC
  15 10,8  | SPEW
  15 10,8  | SPIC
@@ -239,6 +270,7 @@
  15 10,8  | SWOP
  15  8,7  - WEEPS
  15  1,14 - WIS
+ 15 12,2  - WOP
  15  1,14 - WOS
  15  6,13 - ZAC
  15  6,13 - ZAP
@@ -269,7 +301,9 @@
  14  1,8  - SAIC
  14  1,8  - SAIP
  14  1,8  - SAPO
+ 14 13,1  | SI
  14  8,13 | SI
+ 14 13,1  | SO
  14  8,13 | SO
  14  1,8  - WAES
  14  1,8  - WASE
@@ -348,6 +382,7 @@
  11 10,8  | PI
  11 10,8  | PO
  11  3,3  | PRS
+ 11  6,1  - ROUILLES
  11 10,8  | SCI
  11 11,5  | SI
  11 11,5  | SO
@@ -368,6 +403,7 @@
  10  1,14 - PI
  10  3,2  | PIR
  10  1,14 - PO
+ 10  6,1  | REI
  10  6,1  | RES
  10  6,1  | ROE
  10  6,1  | ROI
@@ -463,6 +499,7 @@
   8  3,1  | WEIR
   8  8,7  - WESE
   8  1,2  | WIG
+  8  1,2  | WOG
   7  8,8  - ASCI
   7  8,8  - ASOP
   7  8,8  - ASPS

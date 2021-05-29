@@ -31,6 +31,7 @@
  36  1,10 - JOSS
  36  2,10 - JOSS
  36  1,10 - JuSSI
+ 36  4,10 - SOJaS
  36  4,10 - ShOJI
  36  4,10 - ShOJO
  35  3,3  | JObO
@@ -52,6 +53,7 @@
  34  2,10 - JeSS
  34  1,10 - JoSS
  34  2,10 - JoSS
+ 34  4,10 - SOJa
  34  4,10 - SuJI
  33  1,10 - JOIe
  33  1,10 - JOSs
@@ -73,6 +75,7 @@
  30  3,1  | SmOOS
  30  3,1  | kOSOS
  30  3,1  | mISOS
+ 30  3,1  | pISOS
  30  1,10 - sISSOO
  30  2,10 - sISSOO
  30  1,10 - zOOSIS
@@ -99,6 +102,7 @@
  26  1,6  - JoON
  26  2,10 - OSSIa
  26  2,10 - OaSIS
+ 26  6,6  - SOJaS
  26  2,10 - SOSIa
  26  2,10 - SOSIe
  26  6,6  - ShOJI
@@ -109,6 +113,7 @@
  26  2,10 - mISOS
  26  2,10 - mOSSI
  26  2,10 - mOSSO
+ 26  2,10 - pISOS
  25  3,3  | Jo
  24  1,9  - ISOLOg
  24  2,6  - JiN
@@ -151,6 +156,7 @@
  20  4,10 - SIsSOO
  19  3,10 - Je
  19  3,3  | OOSe
+ 19  5,8  | SOJa
  19  3,3  | SOSo
  19  3,3  | SoSO
  19  3,3  | SuSI
@@ -174,6 +180,7 @@
  18  3,5  | SOIl
  18  4,10 - SOIlS
  18  1,9  - SOOL
+ 18  4,10 - SOOkS
  18  4,10 - SOOtS
  18  4,10 - SOSIa
  18  4,10 - SOSIe
@@ -708,6 +715,7 @@
  12  1,9  - SIoL
  12  3,5  | SO
  12  4,10 - SO
+ 12  6,6  - SOJa
  12  1,9  - SOiL
  12  1,9  - SOoL
  12  1,9  - SOuL
@@ -868,6 +876,7 @@
   9  5,3  - MUSO
   9  5,3  - MUSS
   9  5,3  - MUSSy
+  9  5,3  - MUnIS
   9  3,6  | OI
   9  5,8  | OI
   9  5,8  | OIk
@@ -1007,6 +1016,7 @@
   8  2,9  - SOLISt
   8  2,9  - SOLOS
   8  2,6  - SON
+  8  6,6  - SOOkS
   8  6,6  - SOOtS
   8  6,6  - SOSIa
   8  6,6  - SOSIe
@@ -1139,6 +1149,7 @@
   7  5,3  - MUdS
   7  5,3  - MUgS
   7  5,3  - MUmS
+  7  5,3  - MUnI
   7  5,3  - MUnS
   7  5,3  - MUsO
   7  5,3  - MUsS
@@ -1215,6 +1226,7 @@
   7  6,2  - VISs
   7  6,2  - VIaS
   7  6,2  - VIeS
+  7  6,2  - VIgS
   7  6,2  - VImS
   7  6,2  - VInO
   7  6,2  - VInS
@@ -1243,6 +1255,7 @@
   7  2,9  - dOLOS
   7  3,3  | eO
   7  5,8  | fI
+  7  2,9  - fILOS
   7  3,9  - fLOSS
   7  2,9  - fOLIO
   7  3,9  - gLISS
@@ -1287,6 +1300,7 @@
   7  3,3  | yO
   6  4,4  - DALI
   6  4,4  - DALIs
+  6  4,4  - DALS
   6  3,9  - ILOt
   6  5,7  | IO
   6  7,6  | IOcS
@@ -1357,6 +1371,7 @@
   6  4,9  - LOrO
   6  4,9  - LOrS
   6  4,9  - LOsS
+  6  4,9  - LOtI
   6  4,9  - LOtO
   6  4,9  - LOtS
   6  4,9  - LOwS
@@ -1433,6 +1448,7 @@
   6  3,9  - SLOw
   6  2,9  - SOLdI
   6  2,9  - SOLdO
+  6  2,9  - SOLeI
   6  2,9  - SOLeS
   6  2,9  - SOLiO
   6  2,9  - SOLoS
@@ -1458,11 +1474,13 @@
   6  2,6  - SuN
   6  5,8  | SuS
   6  2,5  - SwEENS
+  6  2,9  - SyLIS
   6  2,6  - SyN
   6  6,2  - VIa
   6  6,2  - VIc
   6  6,2  - VId
   6  6,2  - VIe
+  6  6,2  - VIg
   6  6,2  - VIi
   6  6,2  - VIl
   6  6,2  - VIm
@@ -1565,11 +1583,13 @@
   6  2,6  - wON
   6  2,6  - yIN
   6  2,6  - yON
+  6  2,6  - zIN
   6  2,9  - zOLS
   5  4,4  - DALe
   5  4,4  - DALf
   5  4,4  - DALi
   5  4,4  - DALk
+  5  4,4  - DALs
   5  4,4  - DALt
   5  3,9  - ILkS
   5  3,9  - ILlS
@@ -1692,6 +1712,7 @@
   5  2,5  - StEEN
   5  1,7  - SuITS
   5  1,7  - SwOTS
+  5  2,9  - SyLI
   5  3,9  - aLSO
   5  1,7  - bOOTS
   5  1,7  - cISTS
@@ -1779,7 +1800,6 @@
   4  4,9  - LIr
   4  4,9  - LIs
   4  4,9  - LIt
-  4  4,9  - LIv
   4  4,9  - LIz
   4  4,9  - LO
   4  4,9  - LOa
@@ -1957,6 +1977,7 @@
   4  1,7  - fOOT
   4  2,9  - gIL
   4  1,7  - gIST
+  4  2,7  - gITS
   4  2,9  - gOL
   4  2,7  - gOTO
   4  1,8  - hISIS
@@ -1985,6 +2006,7 @@
   4  2,7  - lITS
   4  1,7  - lOOT
   4  1,7  - lOST
+  4  2,7  - lOTI
   4  2,7  - lOTO
   4  2,7  - lOTS
   4  2,9  - mIL
@@ -2009,6 +2031,7 @@
   4  5,7  | oS
   4  3,5  - pEEN
   4  2,9  - pIL
+  4  3,8  - pISOS
   4  1,7  - pIST
   4  2,7  - pITS
   4  3,9  - pLI

@@ -12,6 +12,7 @@
  35  1,3  | KAaS
  35  1,3  | KAbS
  35  1,3  | KAeS
+ 35  1,3  | KAfS
  35  1,3  | KAnS
  35  1,3  | KAtS
  35  1,3  | KAyS
@@ -23,8 +24,10 @@
  35  1,3  | dAKS
  35  1,3  | oAKS
  35  1,3  | oKAS
+ 35  1,3  | sKAS
  35  1,3  | yAKS
  34  1,3  | ASKs
+ 34  1,3  | SKAs
  34  1,3  | SKAt
  28  1,7  | ASK
  28  1,7  | ASKr
@@ -73,8 +76,10 @@
  23  1,6  | SAx
  23  1,6  | SAy
  23  1,6  | SAz
+ 22  4,8  - SKA
  22  4,8  - SKAg
  22  4,8  - SKAl
+ 22  4,8  - SKAs
  22  4,8  - SKAt
  22  4,8  - SKAw
  22  4,8  - SKuA
@@ -85,6 +90,7 @@
  21  4,8  - AKo
  21  5,8  - ASaK
  21  1,4  | KAS
+ 21  4,8  - SKa
  21  4,8  - SKi
  21  4,8  - SKy
  21  1,6  | tA
@@ -125,6 +131,7 @@
  18  4,8  - SAnK
  18  4,8  - SArK
  18  4,5  | cORKS
+ 18  4,5  | dORKS
  18  4,5  | fORKS
  18  4,5  | pORKS
  18  4,5  | wORKS
@@ -132,6 +139,7 @@
  17  5,8  - KAaS
  17  5,8  - KAbS
  17  5,8  - KAeS
+ 17  5,8  - KAfS
  17  5,8  - KAnS
  17  5,8  - KAtS
  17  5,8  - KAyS
@@ -149,9 +157,11 @@
  17  4,8  - SoAK
  17  4,8  - SoKA
  17  4,5  | cORK
+ 17  4,5  | dORK
  17  4,5  | fORK
  17  4,5  | nORK
  17  4,5  | pORK
+ 17  4,8  - sKAS
  17  4,5  | wORK
  17  4,5  | yORK
  16  1,5  | AS
@@ -199,6 +209,7 @@
  16  6,2  | mASKS
  16  1,4  | pAS
  16  1,4  | rAS
+ 16  4,8  - sKA
  16  1,4  | tAS
  16  6,2  | tASKS
  16  1,4  | vAS
@@ -252,6 +263,7 @@
  14  5,8  - KrS
  14  5,6  | NEcKS
  14  5,6  | NErKA
+ 14  5,6  | NEuKS
  14  1,6  - SAXONS
  14  5,5  | SNEaK
  14  5,5  | SNEcK
@@ -317,6 +329,7 @@
  12  4,8  - SaA
  12  4,8  - SeA
  12  4,8  - SiA
+ 12  4,8  - SkA
  12  4,8  - StA
  12  4,8  - SwA
  12  1,7  | aAS
@@ -339,6 +352,7 @@
  11  4,8  - At
  11  5,5  - AuK
  11  4,8  - Aw
+ 11  4,5  | KORAtS
  11  4,8  - Si
  11  4,8  - So
  11  5,3  | StANEK
@@ -379,6 +393,7 @@
  10  4,5  | KORAh
  10  4,5  | KORAi
  10  4,5  | KORAn
+ 10  4,5  | KORAt
  10  4,5  | KORS
  10  2,4  | KhALSA
  10  2,4  | KoALAS
@@ -495,6 +510,7 @@
   8  5,4  | KiNE
   8  2,4  | KrAL
   8  5,6  | NEK
+  8  6,3  | SKAS
   8  6,6  | SdS
   8  4,4  | SeORA
   8  4,8  - aAS
@@ -523,6 +539,7 @@
   7  6,3  | KAaS
   7  6,3  | KAbS
   7  6,3  | KAeS
+  7  6,3  | KAfS
   7  6,3  | KAnS
   7  6,3  | KAtS
   7  6,3  | KAyS
@@ -540,6 +557,7 @@
   7  6,3  | KoSS
   7  6,3  | KrAS
   7  6,3  | KvAS
+  7  6,3  | SKaS
   7  6,3  | SKiS
   7  6,3  | SKyS
   7  4,5  - aA
@@ -566,6 +584,7 @@
   7  6,3  | oAKS
   7  6,5  - oKA
   7  6,3  | oKAS
+  7  6,3  | sKAS
   7  4,5  - tA
   7  4,8  - tA
   7  6,3  | tSKS
@@ -845,7 +864,6 @@
   4  1,8  - Al
   4  6,5  - AlS
   4  1,5  - Am
-  4  2,4  | AmAL
   4  2,4  | AnAL
   4  5,4  | AnNE
   4  6,5  - AnS
@@ -892,6 +910,7 @@
   4  4,5  | SORvA
   4  5,4  | SaNE
   4  2,4  | SeAL
+  4  5,4  | SeNE
   4  1,5  - Sh
   4  2,4  | SiAL
   4  5,4  | SiNE
@@ -911,6 +930,7 @@
   4  2,5  | cALS
   4  5,4  | cANE
   4  5,8  - dA
+  4  2,5  | dALS
   4  5,4  | dANE
   4  5,8  - eS
   4  5,4  | eSNE
@@ -1014,6 +1034,7 @@
   3  4,5  | SORt
   3  4,5  | SORy
   3  6,3  | SeAS
+  3  6,3  | SkAS
   3  6,3  | SpAS
   3  2,5  | aAL
   3  6,5  - aAS

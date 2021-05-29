@@ -63,6 +63,7 @@
  30  2,8  - pOP
  30  2,8  - sOP
  30  2,8  - tOP
+ 30  2,8  - wOP
  29  1,6  - GLOP
  29  5,3  | cOQ
  28  1,8  - QuOD
@@ -212,6 +213,7 @@
  19  2,5  | GOaD
  19  2,5  | GOaL
  19  2,8  - GOoP
+ 19  2,8  - GOrP
  19  2,8  - GaD
  19  1,6  - GaOL
  19  2,6  | GaOL
@@ -252,6 +254,7 @@
  19  2,6  - pOP
  19  2,6  - sOP
  19  2,6  - tOP
+ 19  2,6  - wOP
  18  7,5  | DOeG
  18  2,8  - DOrP
  18  2,8  - DOwP
@@ -475,6 +478,7 @@
  16  4,4  - uPHOLD
  16  2,6  - vOG
  16  5,4  - wHOP
+ 16  2,6  - wOG
  15  4,1  | ALaP
  15  4,1  | ALoP
  15  6,3  - CLOG
@@ -831,6 +835,7 @@
  13  2,6  - tOL
  13  4,6  | tOP
  13  2,6  - vOL
+ 13  4,6  | wOP
  13  2,6  - yOD
  13  2,6  - zOL
  12  4,1  | APOD
@@ -979,6 +984,7 @@
  12  2,1  | ROpP
  12  2,1  | ROuP
  12  2,1  | ReGD
+ 12  2,1  | RePO
  12  2,1  | RoOP
  12  3,1  | SLoOP
  12  3,1  | SeGOL
@@ -1035,6 +1041,7 @@
  11  2,6  - DOt
  11  2,6  - DOw
  11  2,6  | Da
+ 11  4,4  - DaHL
  11  2,6  - DaO
  11  4,2  - DeEP
  11  4,2  - DiEGO
@@ -1223,6 +1230,7 @@
  10  4,1  | AsLOP
  10  6,3  - CODaL
  10  6,3  - CODoL
+ 10  6,3  - COLeD
  10  6,3  - COP
  10  6,3  - COPe
  10  6,3  - COPr
@@ -1333,6 +1341,7 @@
  10  6,4  - HOLw
  10  6,4  - HOLy
  10  6,4  - HaLO
+ 10  6,4  - HeLO
  10  6,4  - HoOP
  10  5,6  - LNDg
  10  2,6  - LO
@@ -1397,6 +1406,7 @@
  10  2,8  - POx
  10  2,8  - POy
  10  3,6  | PYOiD
+ 10  3,5  - PaDi
  10  3,5  - PaLi
  10  4,3  - PiCO
  10  5,5  - PiLeD
@@ -1516,6 +1526,7 @@
  10  1,6  - uDO
  10  4,6  | vOG
  10  5,4  - wHOD
+ 10  4,6  | wOG
  10  3,3  | wOLDY
  10  4,5  | wOOLD
  10  5,5  | yOUP
@@ -1810,6 +1821,7 @@
   8  6,3  - COLs
   8  6,3  - COLt
   8  6,3  - COLy
+  8  6,3  - CaLO
   8  6,3  - CaP
   8  6,3  - CeP
   8  6,3  - CoDO
@@ -1859,6 +1871,7 @@
   8  4,6  | GOlP
   8  3,4  | GOnY
   8  4,6  | GOoP
+  8  4,6  | GOrP
   8  3,4  | GOrY
   8  4,6  | GOuP
   8  3,6  | GYLe
@@ -1967,6 +1980,7 @@
   8  2,5  - POoLi
   8  4,3  - PaC
   8  4,3  | PaOLO
+  8  4,3  - PeC
   8  4,3  - PfC
   8  3,4  - PhOH
   8  4,5  | PhOO
@@ -2314,6 +2328,7 @@
   7  5,7  | UpDO
   7  3,7  - YOUSe
   7  3,7  | YaD
+  7  3,7  | YiD
   7  3,7  | YoD
   7  5,4  | aD
   7  7,4  | aD
@@ -2440,6 +2455,7 @@
   6  6,3  - COz
   6  6,3  - CaD
   6  6,3  - CaL
+  6  6,3  - CeL
   6  6,3  - CfD
   6  6,3  - CiD
   6  6,3  - CmD
@@ -2927,6 +2943,7 @@
   5  4,6  | LOoD
   5  4,6  | LOrD
   5  3,5  - LOri
+  5  3,5  - LOti
   5  4,6  | LOuD
   5  4,6  | LOyD
   5  3,6  | LYc
@@ -3070,6 +3087,7 @@
   5  4,4  | fOGO
   5  2,8  - gO
   5  4,4  | gOGO
+  5  5,2  - hELO
   5  5,4  - hHD
   5  2,8  - hO
   5  4,2  - hOE
@@ -3722,6 +3740,7 @@
   3  4,5  | uDO
   3  5,4  - uH
   3  4,5  - vOiD
+  3  5,5  - viG
   3  5,5  - viOL
   3  5,5  - wiG
   3  4,5  - zOiD
@@ -3774,7 +3793,6 @@
   2  5,5  - Lir
   2  5,5  - Lis
   2  5,5  - Lit
-  2  5,5  - Liv
   2  5,5  - Liz
   2  4,5  - Lui
   2  6,6  - Na
@@ -3878,6 +3896,7 @@
   2  5,5  - viL
   2  4,5  | wOO
   2  5,5  - wiD
+  2  5,5  - yiD
   2  4,5  | zOO
   1  4,1  | Aa
   1  4,1  | Ab

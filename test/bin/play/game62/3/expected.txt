@@ -7,6 +7,7 @@
  34  4,6  | TiM
  34  4,6  | TuM
  34  4,8  | WoMB
+ 33  2,1  | WIMp
  33  2,2  | aWM
  32  4,8  | MIB
  32  4,8  | MIBs
@@ -16,6 +17,7 @@
  32  6,1  | WIMBLEs
  32  6,1  | WIMBrEL
  32  4,8  | WIMe
+ 32  4,8  | WIMp
  32  6,1  | sWIMBEL
  31  2,1  | BIM
  31  2,1  | QIs
@@ -130,6 +132,7 @@
  24  6,1  | LiMBIE
  24  4,8  | LoQ
  24  6,2  | MILdEW
+ 24  6,2  | MILnEB
  24  6,1  | MImBLE
  24  6,1  | MoBILE
  24  4,6  | TIL
@@ -376,7 +379,6 @@
  16  4,8  | LIr
  16  4,8  | LIs
  16  4,8  | LIt
- 16  4,8  | LIv
  16  4,8  | LIz
  16  5,1  | LaMBIE
  16  6,2  | LeWIE
@@ -529,6 +531,8 @@
  14  5,3  | WIME
  14  6,5  - WIMe
  14  6,7  - WIMe
+ 14  6,5  - WIMp
+ 14  6,7  - WIMp
  14  6,5  - WIlL
  14  6,7  - WIlL
  14  6,5  - WIrL
@@ -552,6 +556,7 @@
  14  1,2  - YoM
  14  1,2  - YoW
  14  1,2  - YuM
+ 14  3,5  - ZIn
  14  3,5  - ZIp
  14  3,5  - ZIt
  14  5,2  | aBIME
@@ -607,10 +612,12 @@
  13  6,5  - MBd
  13  6,7  - MBd
  13  5,2  | MILdEW
+ 13  5,2  | MILnEB
  13  7,4  | MId
  13  7,4  | MIs
  13  6,5  - MWa
  13  6,7  - MWa
+ 13  5,3  | MaBE
  13  5,5  - MaIL
  13  5,5  - MaLI
  13  6,5  - MaLI
@@ -718,7 +725,6 @@
  12  2,8  | LIr
  12  2,8  | LIs
  12  2,8  | LIt
- 12  2,8  | LIv
  12  2,8  | LIz
  12  6,5  - MIL
  12  6,7  - MIL
@@ -787,6 +793,7 @@
  12  6,5  - fILM
  12  6,7  - fILM
  12  5,5  | jELIB
+ 12  5,5  | kELIM
  12  4,8  | lIMB
  12  5,7  - lWL
  12  4,8  | nIMB
@@ -1228,6 +1235,7 @@
   9  5,2  | MIlLE
   9  6,5  - Ma
   9  6,7  - Ma
+  9  6,3  | MaBE
   9  6,5  - Me
   9  6,7  - Me
   9  6,5  - Mi
@@ -1383,6 +1391,8 @@
   8  6,3  | LIMEy
   8  5,4  | LWEI
   8  6,4  | LWEI
+  8  5,4  | LWEIs
+  8  6,4  | LWEIs
   8  5,2  | LeWIE
   8  5,5  | MEILe
   8  6,5  | MEILe
@@ -1408,6 +1418,7 @@
   8  6,3  | WILEs
   8  5,2  | WhILE
   8  1,2  - YI
+  8  1,2  - YId
   8  1,2  - YIn
   8  1,2  - YIp
   8  6,5  | cEBIL
@@ -1423,6 +1434,7 @@
   8  6,3  | gIMEL
   8  4,8  | hIM
   8  6,5  | jELIB
+  8  6,5  | kELIM
   8  4,8  | lIB
   8  5,3  | lIBEL
   8  6,3  | lIBEL
@@ -1777,7 +1789,6 @@
   6  5,3  | LIsE
   6  6,7  - LIt
   6  5,3  | LItE
-  6  6,7  - LIv
   6  5,3  | LIvE
   6  6,7  - LIz
   6  6,7  - LaI
@@ -1820,6 +1831,7 @@
   6  3,9  - SIbB
   6  3,9  - SIuM
   6  3,9  - SoLI
+  6  3,9  - SyLI
   6  1,4  - UM
   6  5,5  | WEI
   6  6,5  | WEI
@@ -2180,6 +2192,8 @@
   5  6,7  - hM
   5  4,9  | hM
   5  2,9  - iSM
+  5  5,5  | jEW
+  5  6,5  | jEW
   5  5,5  | kEB
   5  6,5  | kEB
   5  2,8  | lI
@@ -2448,6 +2462,8 @@
   3  6,5  | LEx
   3  5,5  | LEy
   3  6,5  | LEy
+  3  5,5  | LEz
+  3  6,5  | LEz
   3  2,9  - LSc
   3  2,9  - LSd
   3  2,9  - LSt
@@ -2491,6 +2507,8 @@
   3  6,4  | aLE
   3  5,5  | bEL
   3  6,5  | bEL
+  3  5,5  | cEL
+  3  6,5  | cEL
   3  5,5  | dEL
   3  6,5  | dEL
   3  5,5  | eEL
@@ -2623,6 +2641,8 @@
   2  5,4  | pIE
   2  6,4  | pIE
   2  2,9  - pSI
+  2  5,5  | rEI
+  2  6,5  | rEI
   2  5,4  | rIE
   2  6,4  | rIE
   2  5,5  | sEI

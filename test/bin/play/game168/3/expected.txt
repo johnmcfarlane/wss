@@ -1,5 +1,6 @@
  42  1,3  - CEPS
  42  1,3  | INCEPTS
+ 42  1,3  - PECS
  42  1,3  | PECTINS
  42  1,3  - PICS
  40  2,10 - TIYIN
@@ -39,11 +40,13 @@
  23  8,7  - PICI
  23  8,7  - PICT
  22  2,7  | EPACT
+ 22  8,7  - PEC
  22  8,7  - PIC
  22  8,2  | PICTUN
  22  6,1  | PINTID
  22  6,1  | PTINID
  21  4,8  - ENTICE
+ 21  6,7  - INTI
  21  3,5  - PEE
  21  8,7  - PEIN
  21  8,7  - PENT
@@ -157,6 +160,7 @@
  16  2,7  | NEAP
  16  8,5  - NETI
  16  8,7  - NETI
+ 16  8,7  - NITE
  16  1,8  | NSEC
  16  2,8  | PAIN
  16  2,8  | PANE
@@ -227,6 +231,7 @@
  14  8,3  | INPUT
  14  2,3  - INSECT
  14  2,3  - INSP
+ 14  2,7  - INTI
  14  9,2  | INTIME
  14  2,4  - INVECT
  14  2,4  - INVICT
@@ -369,6 +374,7 @@
  11  5,8  | NAE
  11  7,3  | NEPIT
  11  2,7  - NETI
+ 11  2,7  - NITE
  11  3,3  - NSEC
  11  8,5  | NUPE
  11  3,10 - NYE
@@ -427,6 +433,7 @@
  10  7,3  | NICI
  10  8,4  | NIUE
  10  3,8  - PE
+ 10  1,6  | PECS
  10  2,7  - PET
  10  7,5  | PICE
  10  7,5  | PICI
@@ -473,6 +480,7 @@
   9  6,7  - EN
   9  9,5  - ET
   9  9,7  - ET
+  9  4,8  - ETIC
   9  1,5  | ICIEST
   9  9,5  | IMIT
   9  6,7  - IN
@@ -488,6 +496,7 @@
   9  1,5  - NETE
   9  1,7  - NETT
   9  2,4  - NEVI
+  9  1,5  - NITE
   9  3,2  | PE
   9  1,5  | PEINS
   9  6,3  | PEND
@@ -605,9 +614,11 @@
   7  6,5  - ET
   7  6,7  - ET
   7  4,8  - ETEN
+  7  7,4  | ETIC
   7  8,4  | ETUI
   7  1,6  | ICES
   7  7,6  | INC
+  7  6,4  | INDIE
   7  1,7  | IPSE
   7  3,3  - ISN
   7  1,8  | ISNT
@@ -644,6 +655,7 @@
   7  4,3  - SIP
   7  2,8  - TEE
   7  9,4  | TEM
+  7  2,7  - TET
   7  7,5  | TICE
   7  1,6  | TICS
   7  2,8  - TIE
@@ -690,6 +702,9 @@
   6  6,4  | INDE
   6  7,6  | INIT
   6  2,3  - INS
+  6  7,3  | INTI
+  6  7,6  | INTI
+  6  1,5  | INTIS
   6  1,7  | IPS
   6  3,7  - IT
   6  1,8  - IT
@@ -700,6 +715,7 @@
   6  1,6  | NEIST
   6  6,4  | NIDE
   6  6,4  | NIDI
+  6  1,5  | NITES
   6  5,5  | NO
   6  3,8  | NO
   6  2,7  | PEA
@@ -751,6 +767,7 @@
   5  2,3  - NIS
   5  1,7  | NISI
   5  1,7  | NIST
+  5  7,5  | NITE
   5  1,6  | NITS
   5  8,5  | NUT
   5  2,8  | PA

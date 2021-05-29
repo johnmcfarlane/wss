@@ -1,3 +1,4 @@
+ 77  1,9  - sOJA
  72  6,2  - JACAL
  72  6,2  - JACALs
  72  5,2  - JACkAL
@@ -145,6 +146,7 @@
  25 10,2  | LAs
  25 10,2  | LAx
  25 10,2  | LOx
+ 25  4,4  | sLEAZO
  24  7,2  - AJAr
  24  9,3  - HOC
  24  2,10 - JA
@@ -168,6 +170,7 @@
  24  8,2  - nAJA
  24  6,2  - rAJA
  24  8,2  - rAJA
+ 24  6,2  - sOJA
  23  1,10 - JAb
  23  1,10 - JAd
  23  1,10 - JAg
@@ -187,6 +190,7 @@
  23  1,9  - OLgA
  23  1,9  - OLlA
  23  1,9  - pOOA
+ 22  1,10 - CALO
  22  2,10 - CLOu
  22  1,10 - COLA
  22  3,9  | JAI
@@ -224,6 +228,7 @@
  20  2,10 - CLO
  20  7,2  | COxA
  20  4,1  | CaJOLE
+ 20  1,10 - CaLO
  20  1,10 - CoLA
  20  3,4  | JOWL
  20  6,2  - LAnAO
@@ -247,6 +252,7 @@
  19  1,10 - ACLu
  19  1,10 - AlLOO
  19  4,1  | CAJOlE
+ 19  1,10 - CALo
  19  1,10 - COLa
  19  1,10 - COLe
  19  1,10 - COLi
@@ -265,6 +271,7 @@
  18  2,1  | CALlOT
  18  7,1  | CALx
  18  2,1  | CAlLOT
+ 18  4,2  - CAnOLA
  18  2,1  | CArLOT
  18  4,2  - CLOAcA
  18  2,2  | CLOOT
@@ -343,11 +350,13 @@
  16  2,10 - ALOe
  16  4,5  - AbO
  16  4,2  | AnCLE
+ 16  8,2  - CALO
  16  5,2  - CALlA
  16  1,5  - CAOn
  16  2,8  - CAZA
  16  2,1  | CAhOOT
  16  5,2  - CAlLA
+ 16  1,10 - CAlO
  16  5,2  - CAmLA
  16  1,10 - CApO
  16  3,3  | CLAW
@@ -472,6 +481,7 @@
  15  7,2  | COx
  15  1,10 - CaL
  15  2,8  - CaZA
+ 15  1,10 - CeL
  15  1,10 - CmL
  15  1,10 - CoL
  15  1,10 - CrL
@@ -515,6 +525,7 @@
  14  8,2  - CALk
  14  8,2  - CALl
  14  8,2  - CALm
+ 14  8,2  - CALo
  14  8,2  - CALp
  14  8,2  - CALs
  14  8,2  - CALx
@@ -595,6 +606,7 @@
  14  4,3  | JOlE
  14  4,2  | JOuLE
  14  3,4  | JaW
+ 14  3,4  | JeW
  14  3,4  | JoW
  14  8,2  - LAC
  14  8,2  - LACe
@@ -630,6 +642,7 @@
  14  1,10 - bOLA
  14  1,10 - bOLO
  14  8,2  - cALC
+ 14  1,10 - cALO
  14  2,2  | cOACT
  14  5,2  - cOCOA
  14  1,10 - cOLA
@@ -799,6 +812,7 @@
  12  6,2  - CAcA
  12  8,2  - CAcA
  12  3,2  | CAhOW
+ 12  8,2  - CAlO
  12  6,2  - CAnA
  12  8,2  - CAnA
  12  6,2  - CApA
@@ -991,6 +1005,7 @@
  11  4,1  | COLAgE
  11  4,1  | COLAnE
  11  4,1  | COLAtE
+ 11  4,1  | COLOnE
  11  4,1  | COLOvE
  11  1,10 - COb
  11  1,10 - COd
@@ -1160,6 +1175,7 @@
  10  5,1  - COLADa
  10  4,3  | COLE
  10  5,1  - COLaDA
+ 10  4,1  - COLeAD
  10  4,1  - COOLeD
  10  3,4  | COW
  10  3,4  | COWk
@@ -1268,6 +1284,7 @@
  10  3,3  | sCOW
  10  2,2  | sLOAT
  10  2,2  | sLOOT
+ 10  6,5  - sLY
  10  3,4  | sOWL
  10  6,4  - tAXI
  10  8,2  - vAC
@@ -1333,6 +1350,7 @@
   9  5,1  - CLeAD
   9  6,1  - COLD
   9  6,1  - COLDs
+  9  5,1  - COLeD
   9  4,2  | COOeE
   9  2,4  | COTuLA
   9  2,4  | COTyLA
@@ -1465,10 +1483,12 @@
   9  1,10 - sAL
   9  2,10 - sAO
   9  3,10 - sAO
+  9  6,5  - sAY
   9  5,1  - sCALD
   9  5,1  - sCOLD
   9  2,3  | sCOTAL
   9  1,10 - sOL
+  9  6,5  - sOY
   9  1,10 - tAL
   9  2,10 - tAO
   9  3,10 - tAO
@@ -1531,7 +1551,6 @@
   8  7,2  - AkAL
   8  2,10 - AkO
   8  3,3  | AlOW
-  8  7,2  - AmAL
   8  6,2  - AmLA
   8  7,2  - AnAL
   8  6,2  - AuLA
@@ -1709,6 +1728,7 @@
   8  6,2  - bOLA
   8  5,5  | cABAA
   8  4,3  | cACE
+  8  8,2  - cALO
   8  3,3  | cLAW
   8  1,10 - cLO
   8  3,3  | cLOW
@@ -2533,6 +2553,7 @@
   5  2,4  | rOTAL
   5  3,9  | sCI
   5  2,4  | sCT
+  5  6,5  | sKa
   5  6,1  - sLAD
   5  6,1  - sLOD
   5  3,10 - sO
@@ -2637,6 +2658,7 @@
   4  2,4  | LOT
   4  2,4  | LOTa
   4  2,4  | LOTh
+  4  2,4  | LOTi
   4  2,4  | LOTo
   4  2,4  | LOTs
   4  2,3  | LOfT

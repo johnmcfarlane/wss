@@ -106,10 +106,12 @@
  27  4,8  | FEdS
  27  4,8  | FEeS
  27  4,8  | FEgS
+ 27  4,8  | FEhS
  27  4,8  | FEiS
  27  4,8  | FElE
  27  4,8  | FElS
  27  4,8  | FEmE
+ 27  4,8  | FEmS
  27  4,8  | FEnS
  27  4,8  | FErE
  27  4,8  | FErS
@@ -122,12 +124,14 @@
  27  4,10 - FIBrE
  27  9,3  - FTh
  27  8,3  - FUTe
+ 27  8,3  - FUTz
  27  9,5  | FeEB
  27  9,5  | FeU
  27  9,5  | FoU
  27  3,8  - IBa
  27  3,8  - IBo
  27  3,8  - IFe
+ 27 11,5  | SEIFs
  27  2,8  - bIB
  27  2,8  - dIB
  27  2,8  - dIF
@@ -161,6 +165,7 @@
  26  3,8  - IF
  26 11,5  | nEIFS
  26 11,5  | rEIFS
+ 26 11,5  | sEIFS
  25  9,5  | BEId
  25  9,5  | BEIn
  25  9,5  | BEaUS
@@ -216,6 +221,7 @@
  23  2,8  | FAB
  23  2,8  | FABa
  23  4,10 - FIcUS
+ 23  4,10 - FIqUE
  23  3,1  | FUm
  23  3,1  | FUt
  23  9,5  | FaE
@@ -301,6 +307,7 @@
  20  1,7  | FUZES
  20  1,6  | FUlZIE
  20  1,6  | FUrZES
+ 20  1,6  | FUtZES
  20  1,6  | FUzZES
  20  4,10 - FoSIE
  20 11,7  | IBEx
@@ -346,6 +353,7 @@
  19  2,8  | BAlU
  19  2,8  | BArU
  19  1,7  | BIZES
+ 19  1,6  | BIzZES
  19  1,6  | BaIZES
  19  2,8  | FAUn
  19  2,8  | FAUt
@@ -511,6 +519,7 @@
  17  2,8  | BAnE
  17  2,8  | BAnI
  17  2,8  | BAnS
+ 17  2,8  | BApS
  17  2,8  | BArE
  17  2,8  | BArI
  17  2,8  | BArS
@@ -546,6 +555,7 @@
  17  2,8  | FAsS
  17  2,8  | FAtE
  17  2,8  | FAtS
+ 17  2,8  | FAvE
  17  2,8  | FAvI
  17  2,8  | FAyS
  17  2,8  | FAzE
@@ -610,6 +620,7 @@
  16  8,4  - FUTE
  16  1,7  | FUZe
  16  1,7  | FUZz
+ 16  1,6  | FUtZ
  16  1,6  | FUzZ
  16  4,10 - FiE
  16  4,10 - FoE
@@ -716,6 +727,7 @@
  15  2,8  | FAc
  15  2,8  | FAd
  15  2,8  | FAe
+ 15  2,8  | FAg
  15  2,8  | FAh
  15  2,8  | FAm
  15  2,8  | FAn
@@ -736,6 +748,7 @@
  15  1,6  | FIzZ
  15  8,4  - FUT
  15  8,4  - FUTe
+ 15  8,4  - FUTz
  15  1,7  | FaZE
  15  1,6  | FrIZ
  15  1,7  | FuZE
@@ -810,6 +823,7 @@
  15  4,10 - nIBS
  15  4,10 - nIFE
  15  5,10 - oBUS
+ 15 11,2  | rEI
  15  9,5  | rEIFS
  15  4,10 - rIBE
  15  4,10 - rIBS
@@ -871,10 +885,12 @@
  14  8,4  - ByTE
  14  9,7  | EbBS
  14  9,7  | EfFS
+ 14  9,7  | EmFS
  14  8,4  - FET
  14  8,4  - FETa
  14  8,4  - FETe
  14  8,4  - FETs
+ 14 11,5  | FEhS
  14 11,5  | FEiS
  14  8,4  - FIT
  14  8,4  - FITs
@@ -1051,12 +1067,14 @@
  13  1,6  | iSIZE
  13  9,5  | jEU
  13  2,8  | kABS
+ 13  2,8  | kAFS
  13  2,8  | kAIF
  13  2,8  | lABS
  13  4,10 - lIB
  13  4,10 - lIEUS
  13  4,10 - lIF
  13  8,7  | lUBE
+ 13  2,8  | mABE
  13  2,8  | mABI
  13  9,5  | mEU
  13  4,10 - mIB
@@ -1072,6 +1090,7 @@
  13  1,6  | qUIZ
  13  9,5  | rEIF
  13  4,10 - rIB
+ 13  4,10 - rIF
  13  2,8  | sABE
  13  2,8  | sABS
  13  2,8  | sAFE
@@ -1170,7 +1189,9 @@
  12  8,3  - fITS
  12  8,3  - gETS
  12  8,3  - gITE
+ 12  8,3  - gITS
  12  1,7  | gUZ
+ 12  8,3  - hETS
  12  8,3  - hITS
  12  8,3  - jETS
  12  8,3  - kITE
@@ -1184,6 +1205,7 @@
  12  1,7  | mIZE
  12  8,3  - nETI
  12  8,3  - nETS
+ 12  8,3  - nITE
  12  8,3  - nITS
  12  8,3  - pETS
  12  8,3  - pITS
@@ -1195,6 +1217,7 @@
  12  8,3  - sITS
  12  1,7  | sIZE
  12  1,7  | sUZ
+ 12  8,3  - tETS
  12  8,3  - tITE
  12  8,3  - tITS
  12  8,3  - vETS
@@ -1284,6 +1307,7 @@
  11  1,9  | ZEn
  11  1,9  | ZEr
  11  1,9  | ZIg
+ 11  1,9  | ZIn
  11  1,9  | ZIp
  11  1,9  | ZIt
  11  8,2  - aIAS
@@ -1310,6 +1334,7 @@
  11  8,7  | kIEFS
  11  2,8  | lAB
  11 11,5  | lEIF
+ 11  1,7  | lEZ
  11  4,10 - lIEU
  11  1,7  | lIZ
  11  2,6  | mESA
@@ -1400,6 +1425,7 @@
  10  8,1  | NISUs
  10  8,1  | NIdUS
  10  8,1  | NIsUS
+ 10  8,1  | NaBES
  10  8,1  | NaBIS
  10  8,1  | NoBIS
  10  2,8  | SAU
@@ -1543,6 +1569,7 @@
   9  9,3  - ITs
   9  9,7  | ImU
   9  9,7  | IoU
+  9  8,1  | NaBE
   9  8,1  | NaBS
   9  8,1  | NeBS
   9  8,1  | NiBS
@@ -1572,6 +1599,7 @@
   9  4,8  | SElE
   9  4,8  | SEmE
   9  4,8  | SEmI
+  9  4,8  | SEnE
   9  4,8  | SErE
   9  4,8  | SErI
   9  4,8  | SEvE
@@ -1645,6 +1673,7 @@
   9  5,10 - oF
   9  8,3  - oFT
   9  2,8  - pIE
+  9  9,5  | rEI
   9  4,10 - rIES
   9  4,10 - rISE
   9  4,10 - sISE
@@ -1959,6 +1988,7 @@
   7  8,1  | NIdES
   7  8,1  | NInES
   7  8,1  | NIsSE
+  7  8,1  | NItES
   7  8,1  | NIxES
   7  8,1  | NUbS
   7  8,1  | NUdE
@@ -2024,6 +2054,7 @@
   7  2,8  | gAES
   7  2,8  | gAU
   7  2,8  | hAES
+  7  3,3  - hAHAS
   7  2,8  | hAU
   7 11,5  | hEI
   7  9,6  | hEI
@@ -2080,6 +2111,7 @@
   7  2,8  | pAU
   7  1,7  - pELF
   7  8,5  - rEEF
+  7 11,5  | rEI
   7  4,10 - rIE
   7  2,8  | sAU
   7 11,5  | sEI
@@ -2204,6 +2236,7 @@
   6  5,10 - IvE
   6  9,1  | Ka
   6  8,1  | NBg
+  6  8,1  | NEUkS
   6  8,1  | NEUmS
   6  8,1  | NEbS
   6  8,1  | NErI
@@ -2224,6 +2257,7 @@
   6  8,1  | NImS
   6  8,1  | NInE
   6  8,1  | NIpS
+  6  8,1  | NItE
   6  8,1  | NItS
   6  8,1  | NIuE
   6  8,1  | NIxE
@@ -2810,6 +2844,7 @@
   4  1,7  - SoLI
   4  8,4  - SoT
   4  8,4  - SpT
+  4  1,7  - SyLI
   4  2,7  - ULa
   4  2,7  - ULe
   4  2,7  - ULl
@@ -2857,6 +2892,7 @@
   4  8,4  - bUTE
   4  8,4  - bUTS
   4  8,5  - cEES
+  4  1,7  - cELS
   4  1,7  - cUL
   4  8,4  - cUTE
   4  8,4  - cUTS
@@ -2973,6 +3009,7 @@
   4  8,5  - tEES
   4  4,8  | tEES
   4  1,7  - tELI
+  4  1,7  - tELS
   4  4,10 - tI
   4  8,5  - tIES
   4  1,7  - tILE
@@ -3207,6 +3244,7 @@
   3  9,4  - bTU
   3  8,4  - bUT
   3  8,5  - cEE
+  3  1,7  - cEL
   3  8,4  - cETI
   3  8,5  - cIE
   3  8,3  - cIT
@@ -3252,11 +3290,13 @@
   3  1,7  - gIL
   3  8,3  - gIT
   3  8,4  - gITE
+  3  8,4  - gITS
   3  8,4  - gUT
   3  5,10 - hE
   3  8,5  - hEE
   3  1,7  - hEL
   3  8,3  - hET
+  3  8,4  - hETS
   3  5,10 - hI
   3  8,5  - hIE
   3  8,3  - hIT
@@ -3305,6 +3345,7 @@
   3  8,4  - nETS
   3  1,7  - nIL
   3  8,3  - nIT
+  3  8,4  - nITE
   3  8,4  - nITS
   3  8,4  - nUT
   3  5,10 - oE
@@ -3353,6 +3394,8 @@
   3  8,5  - tEE
   3  4,8  | tEE
   3  1,7  - tEL
+  3  8,3  - tET
+  3  8,4  - tETS
   3  8,5  - tIE
   3  1,7  - tIL
   3  8,3  - tIT
@@ -3591,6 +3634,7 @@
   2  8,3  - SiT
   2  1,6  - Sia
   2  5,9  | SkI
+  2  1,6  - Ska
   2  8,3  - SlT
   2  1,6  - Sla
   2  1,6  - Sma
@@ -3759,6 +3803,7 @@
   2  9,4  - pTS
   2  9,4  - qTS
   2  9,5  - rEE
+  2  9,5  - rEI
   2  9,5  - rES
   2  8,4  - rET
   2  1,6  - rEa
@@ -3778,6 +3823,7 @@
   2  2,8  | tA
   2  4,8  | tE
   2  9,5  - tEE
+  2  8,4  - tET
   2  1,6  - tEa
   2  2,8  - tI
   2  8,4  - tIT

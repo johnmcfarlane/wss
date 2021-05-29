@@ -103,6 +103,8 @@
  15  3,6  | DOXIE
  15  4,2  | EXILE
  15  4,6  | EXILE
+ 15  4,3  | LEXES
+ 15  4,5  | LEXES
  15  4,5  | LEXIS
  15  4,3  | LOXES
  15  8,5  | LUXE
@@ -152,6 +154,8 @@
  14  4,3  | SIXER
  14  3,3  | SOLDIER
  14  2,7  - SOLE
+ 14  4,2  - SOLEI
+ 14  4,4  - SOLEI
  14  2,7  - SOLI
  14  4,3  | SOREX
  14  4,3  | XERES
@@ -173,6 +177,7 @@
  13  2,5  - LORI
  13  2,7  - LORI
  13  2,7  - LOSE
+ 13  8,5  - LOTI
  13  8,5  - LOTS
  13  7,6  | NIXE
  13  6,5  - OIL
@@ -260,6 +265,7 @@
  12  2,7  - SOL
  12  3,3  | SOLDER
  12  5,2  - SOLE
+ 12  6,2  | SOLEI
  12  5,2  - SOLI
  12  3,2  | SOLIDER
  12  2,5  - SORE
@@ -480,6 +486,7 @@
   9  3,3  | OSIDE
   9  8,5  | OUSEL
   9  4,5  | REEL
+  9  6,4  - REI
   9  4,5  | RELIES
   9  4,1  | RELOSE
   9  4,5  | RELOSE
@@ -591,6 +598,9 @@
   8  1,7  - OSE
   8  8,5  | OURIE
   8  3,4  | REDOS
+  8  6,2  - REI
+  8  1,5  - REI
+  8  1,7  - REI
   8  4,3  | RELES
   8  4,5  | RELES
   8  5,1  | RELISt
@@ -599,6 +609,7 @@
   8  4,5  - RES
   8  4,7  - RES
   8  3,2  | RESID
+  8  3,2  | RESOD
   8  3,4  | RIDES
   8  6,2  - RIE
   8  1,5  - RIE
@@ -640,6 +651,7 @@
   8  1,7  - SOE
   8  4,1  | SOIREE
   8  4,2  | SOIREE
+  8  4,3  | SOLEI
   8  4,3  | SOLER
   8  5,1  | SOLERt
   8  7,4  | SONERI
@@ -660,6 +672,7 @@
   7  3,6  | DLR
   7  3,6  | DOER
   7  3,6  | DOES
+  7  3,6  | DORE
   7  3,6  | DORI
   7  3,6  | DORS
   7  3,6  | DOSE
@@ -727,8 +740,10 @@
   7  7,6  | NILE
   7  7,6  | NILS
   7  7,6  | NOIRE
+  7  7,6  | NOIRS
   7  7,6  | NOISE
   7  7,6  | NORIE
+  7  7,6  | NORIS
   7  7,6  | NORSE
   7  7,6  | NOSER
   7  3,5  | ODES
@@ -975,6 +990,8 @@
   5  6,5  | LIES
   5  7,4  | LIN
   5  6,5  | LIRE
+  5  6,3  | LIRI
+  5  6,5  | LIRI
   5  6,5  | LISE
   5  5,4  | LItER
   5  5,4  | LItES
@@ -1049,6 +1066,7 @@
   5  5,5  | StIRE
   5  5,5  | StORE
   5  5,6  | tELI
+  5  5,6  | tELS
   5  5,6  | tIERS
   5  5,6  | tILE
   5  5,6  | tILS
@@ -1100,6 +1118,7 @@
   4  6,5  | LIS
   4  5,4  | LItE
   4  5,4  | LItS
+  4  5,4  | LOtI
   4  5,4  | LOtS
   4  8,5  | LU
   4  7,6  | NEI
@@ -1131,6 +1150,7 @@
   4  5,3  | ROIt
   4  7,4  | RON
   4  5,4  | ROtES
+  4  5,4  | ROtIS
   4  5,4  | ROtL
   4  5,4  | ROtSE
   4  8,5  | RUE
@@ -1201,6 +1221,8 @@
   3  5,4  | ORtS
   3  5,5  | OtIS
   3  4,5  | REE
+  3  6,4  | REI
+  3  4,5  | REI
   3  8,1  | RES
   3  4,5  | RES
   3  5,4  | REtS

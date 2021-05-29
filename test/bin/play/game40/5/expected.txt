@@ -14,6 +14,7 @@
  46  1,11 - SNiFT
  46  1,11 - SyFTN
  45  3,7  | FLINT
+ 43  3,1  | NITeS
  43  1,11 - SIFT
  43  1,11 - SIFTs
  43  1,11 - STIFe
@@ -124,6 +125,7 @@
  35  3,1  | FoN
  35  3,3  | ReF
  35  3,6  | uNLIST
+ 34  3,1  | NITe
  34  3,3  | NeST
  34  3,3  | NeTS
  34  3,3  | ReNT
@@ -344,6 +346,7 @@
  27  3,1  | vIN
  27  3,1  | wIN
  27  3,1  | yIN
+ 27  3,1  | zIN
  26  3,5  | FaIL
  26  3,5  | FaRL
  26  3,5  | FuRL
@@ -387,6 +390,7 @@
  23  3,1  | FIt
  23  4,9  - FoHN
  23  8,9  - INTR
+ 23  7,3  | NuTSIER
  23  3,3  | ReS
  23  3,3  | ReT
  23  7,3  | SToNIER
@@ -446,6 +450,7 @@
  21  3,7  | aLTIN
  21  7,3  | aNTSIER
  21  3,7  | cLINT
+ 21  3,7  | eLINT
  21  3,7  | eLSIN
  21  3,4  | eST
  21  3,7  | fLINT
@@ -472,6 +477,7 @@
  20  8,9  - INRo
  20  8,9  - INSp
  20  8,9  - INTa
+ 20  8,9  - INTi
  20  8,9  - INTl
  20  8,9  - INTo
  20  8,9  - INTr
@@ -492,6 +498,7 @@
  20  7,4  | TINiER
  20  7,3  | TRoFIE
  20  4,9  - TaHSIN
+ 20  5,6  - cONFITS
  19  6,7  - KRaFTS
  19  1,11 - Sh
  19  1,11 - Si
@@ -517,7 +524,9 @@
  19  3,1  | hIS
  19  3,1  | hIT
  19  8,9  - iNIT
+ 19  8,9  - iNTI
  19  8,9  - iNTR
+ 19  3,1  | kIR
  19  3,1  | kIT
  19  3,1  | lIR
  19  3,1  | lIS
@@ -630,6 +639,7 @@
  18  4,10 - ReSIFTS
  18  3,1  | ReT
  18  3,1  | RiT
+ 18  3,6  | RoLFS
  18  3,1  | RoS
  18  3,1  | RoT
  18  7,6  | SIER
@@ -650,6 +660,7 @@
  18  3,1  | SiR
  18  3,1  | SiT
  18  3,1  | SoT
+ 18  4,6  - SpORTIF
  18  5,6  - TOFoRN
  18  5,6  - TONIFy
  18  3,1  | TaR
@@ -741,6 +752,7 @@
  16  8,4  | FINiS
  16  8,4  | FINkS
  16  8,4  | FINnS
+ 16  8,4  | FINoS
  16  4,4  | FISTIc
  16  8,4  | FISTS
  16  8,4  | FInNS
@@ -883,6 +895,7 @@
  15  6,7  - KRIToN
  15  3,8  | LIRa
  15  3,8  | LIRe
+ 15  3,8  | LIRi
  15  3,8  | LISa
  15  3,8  | LISe
  15  3,8  | LISh
@@ -1045,6 +1058,7 @@
  14  7,6  | RIEr
  14  5,1  | RIFeST
  14  3,1  | RIa
+ 14  3,1  | RIc
  14  3,1  | RId
  14  3,1  | RIe
  14  3,1  | RIg
@@ -1060,6 +1074,7 @@
  14  4,10 - SISTReN
  14  4,10 - SISTeRN
  14  3,1  | SIa
+ 14  3,1  | SIc
  14  3,1  | SIe
  14  3,1  | SIg
  14  3,1  | SIn
@@ -1075,6 +1090,7 @@
  14  4,6  - STORINg
  14  3,5  | SaIL
  14  6,10 - SaRIF
+ 14  6,10 - SeIFS
  14  6,10 - SeRFS
  14  6,10 - SeRIF
  14  6,10 - ShIFT
@@ -1085,6 +1101,7 @@
  14  6,10 - SoFTS
  14  6,10 - SuRFS
  14  6,10 - SwIFT
+ 14  3,1  | TIc
  14  3,1  | TIe
  14  3,1  | TIg
  14  3,1  | TIn
@@ -1112,6 +1129,7 @@
  14  3,6  | uNLIT
  13  1,4  - AXIS
  13  1,4  - AXITe
+ 13  1,4  - AXIoNS
  13  7,8  | ERIN
  13  5,1  | FINeST
  13  5,3  | FIRS
@@ -1436,6 +1454,7 @@
  12  3,8  | LeIS
  12  3,8  | LeST
  12  3,8  | LeTS
+ 12  3,8  | LiRI
  12  3,8  | LiST
  12  3,8  | LiTI
  12  3,8  | LiTS
@@ -1444,6 +1463,7 @@
  12  3,8  | LoRI
  12  3,8  | LoRS
  12  3,8  | LoST
+ 12  3,8  | LoTI
  12  3,8  | LoTS
  12  3,8  | LuIS
  12  3,8  | LuRI
@@ -1485,6 +1505,7 @@
  12  1,3  - PERSIsT
  12  1,3  - PERmITS
  12  1,3  - PERsIST
+ 12  1,3  - PESTIeR
  12  1,3  - PETRINe
  12  1,3  - PEcTINS
  12  4,4  | RIFTINg
@@ -1510,6 +1531,7 @@
  12  6,10 - SNoRTS
  12  5,6  - SONRaI
  12  5,6  - SONeRI
+ 12  5,6  - SORINg
  12  5,6  - SORbIN
  12  5,6  - SOTNIa
  12  5,6  - SOTNIk
@@ -1606,6 +1628,8 @@
  11  7,2  | FINkS
  11  5,2  | FINnS
  11  7,2  | FINnS
+ 11  5,2  | FINoS
+ 11  7,2  | FINoS
  11  5,2  | FIRST
  11  8,3  | FIRSTS
  11  5,1  | FIRThS
@@ -1738,6 +1762,7 @@
  11  1,3  - PEkINS
  11  1,3  - PElFS
  11  7,6  | RIE
+ 11  7,4  | RIF
  11  5,2  | RIFTS
  11  7,2  | RIFTS
  11  3,6  | RILe
@@ -1771,6 +1796,7 @@
  11  5,1  | StRIFT
  11  5,2  | SyFTN
  11  7,2  | SyFTN
+ 11  3,6  | SyLI
  11  4,4  | TIFfIN
  11  3,6  | TIL
  11  3,6  | TILe
@@ -1781,6 +1807,7 @@
  11  8,4  | TRaNSF
  11  3,6  | TaLI
  11  3,6  | TeLI
+ 11  3,6  | TeLS
  11  3,6  | TiLS
  11  5,1  | aFRITS
  11  7,1  | aFRITS
@@ -1883,6 +1910,7 @@
  10  2,2  - DISTr
  10  2,2  - DISTy
  10  2,2  - DIStR
+ 10  2,2  - DITSy
  10  2,2  - DITaS
  10  2,2  - DITeR
  10  2,2  - DITeS
@@ -2049,6 +2077,7 @@
  10  4,4  | NITRIc
  10  4,4  | NITRId
  10  4,4  | NITRIl
+ 10  4,9  - NaH
  10  5,2  | NaIFS
  10  7,2  | NaIFS
  10  5,2  | NeIFS
@@ -2116,6 +2145,7 @@
  10  5,2  | RIfFS
  10  7,2  | RIfFS
  10  7,4  | ReF
+ 10  7,4  | RiF
  10  5,3  | SIFT
  10  8,4  | SIFTS
  10  7,1  | SINTeR
@@ -2216,6 +2246,7 @@
  10  5,6  - TORIeS
  10  5,6  - TORtIS
  10  4,4  | TRIFId
+ 10  5,10 - TSoRIS
  10  5,10 - TSuRIS
  10  3,5  | Ta
  10  1,1  | TaPA
@@ -2267,6 +2298,7 @@
  10  7,4  | oRF
  10  3,7  | pLF
  10  7,4  | pRF
+ 10  7,4  | rIF
  10  5,2  | rIFTS
  10  7,2  | rIFTS
  10  5,2  | sIFTS
@@ -2398,6 +2430,8 @@
   9  7,2  | INTeR
   9  5,1  | INTeRS
   9  7,1  | INTeRS
+  9  5,2  | INTiS
+  9  7,2  | INTiS
   9  5,2  | INeRT
   9  7,2  | INsTR
   9  5,2  | INuST
@@ -2440,11 +2474,14 @@
   9  7,3  | NITS
   9  5,1  | NITeRS
   9  7,1  | NITeRS
+  9  8,4  | NITeS
   9  8,4  | NIToS
   9  8,4  | NaRIS
   9  8,4  | NeRTS
   9  8,4  | NeSTS
   9  8,4  | NiRIS
+  9  8,4  | NoIRS
+  9  8,4  | NoRIS
   9  1,3  - PEIN
   9  1,3  - PEINe
   9  1,3  - PEINs
@@ -2465,6 +2502,7 @@
   9  1,3  - PERmS
   9  1,3  - PESTeR
   9  1,3  - PETItS
+  9  1,3  - PETSaI
   9  1,3  - PETeR
   9  1,3  - PEToS
   9  1,3  - PETtI
@@ -2511,6 +2549,8 @@
   9  5,2  | RiFTS
   9  7,2  | RiFTS
   9  8,4  | RiFTS
+  9  5,1  | RuTINS
+  9  7,1  | RuTINS
   9  1,2  - SDs
   9  3,1  | SI
   9  5,2  | SIFTs
@@ -2552,6 +2592,7 @@
   9  4,5  | SaFINI
   9  5,3  | SaFT
   9  3,6  | SaL
+  9  8,4  | SeIFS
   9  3,6  | SeL
   9  8,4  | SeRFS
   9  5,2  | ShIFT
@@ -2613,6 +2654,8 @@
   9  8,7  - iNF
   9  8,9  - iNF
   9  7,2  | iNSTR
+  9  5,2  | iNTIS
+  9  7,2  | iNTIS
   9  5,2  | kNITS
   9  7,2  | kNITS
   9  4,3  | kRISTIN
@@ -2660,6 +2703,7 @@
   8  4,7  | FINiS
   8  4,7  | FINkS
   8  4,7  | FINnS
+  8  4,7  | FINoS
   8  4,6  - FIORdS
   8  7,4  | FIR
   8  4,7  | FIRN
@@ -2775,6 +2819,7 @@
   8  5,2  | INTRo
   8  7,2  | INTRo
   8  8,7  - INTa
+  8  8,7  - INTi
   8  8,7  - INTl
   8  8,7  - INTo
   8  8,7  - INTr
@@ -2828,6 +2873,8 @@
   8  8,3  | NITRoS
   8  7,2  | NITeR
   8  8,3  | NITeRS
+  8  5,2  | NITeS
+  8  7,2  | NITeS
   8  5,2  | NIToS
   8  7,2  | NIToS
   8  5,3  | NIaS
@@ -2899,7 +2946,9 @@
   8  1,3  - PERTy
   8  1,3  - PEST
   8  1,3  - PESTe
+  8  1,3  - PESTo
   8  1,3  - PESTs
+  8  1,3  - PESTy
   8  1,3  - PETIt
   8  1,3  - PETR
   8  1,3  - PETRe
@@ -3142,6 +3191,9 @@
   8  5,2  | aIRNS
   8  7,2  | aIRNS
   8  3,7  | aLIF
+  8  5,3  | aRFS
+  8  7,3  | aRFS
+  8  8,7  - aRFS
   8  5,2  | bINTS
   8  7,2  | bINTS
   8  5,2  | bRINS
@@ -3267,6 +3319,8 @@
   7  4,7  | FIrST
   7  3,10 - FIrST
   7  4,7  | FIsTS
+  7  4,5  | FIxIT
+  7  4,7  | FIxIT
   7  5,6  - FOISm
   7  5,6  - FOISt
   7  5,6  - FOIlS
@@ -3436,7 +3490,9 @@
   7  4,8  | INFl
   7  4,8  | INFo
   7  2,5  - INIT
+  7  2,5  - INTI
   7  2,5  - INTR
+  7  8,4  | INTiS
   7  8,7  - INc
   7  8,9  - INc
   7  7,3  | INcR
@@ -3516,6 +3572,8 @@
   7  7,2  | NITRe
   7  5,2  | NITRo
   7  7,2  | NITRo
+  7  5,3  | NITe
+  7  7,3  | NITe
   7  5,3  | NITo
   7  7,3  | NITo
   7  5,3  | NITs
@@ -3530,6 +3588,10 @@
   7  7,2  | NeRTS
   7  5,2  | NiRIS
   7  7,2  | NiRIS
+  7  5,2  | NoIRS
+  7  7,2  | NoIRS
+  7  5,2  | NoRIS
+  7  7,2  | NoRIS
   7  5,2  | NoRIT
   7  1,3  - PEIn
   7  1,3  - PER
@@ -3589,6 +3651,7 @@
   7  7,2  | RIfTS
   7  5,2  | RIoTS
   7  7,2  | RIoTS
+  7  5,6  - ROlFS
   7  5,6  - ROoFS
   7  5,2  | RaINS
   7  7,2  | RaINS
@@ -3761,6 +3824,7 @@
   7  7,2  | TRoIS
   7  5,2  | TSINe
   7  7,2  | TSINe
+  7  8,3  | TSoRIS
   7  8,3  | TSuRIS
   7  5,2  | TaINS
   7  7,2  | TaINS
@@ -3871,6 +3935,7 @@
   7  7,4  | iFS
   7  3,9  - iN
   7  8,7  - iNIT
+  7  8,7  - iNTI
   7  8,7  - iNTR
   7  5,3  | kIRN
   7  7,3  | kIRN
@@ -4132,8 +4197,12 @@
   6  5,4  | INT
   6  2,5  - INT
   6  4,5  | INTIRe
+  6  4,5  | INTIS
   6  4,5  | INTISy
   6  2,5  - INTa
+  6  5,3  | INTi
+  6  7,3  | INTi
+  6  2,5  - INTi
   6  5,3  | INTl
   6  2,5  - INTl
   6  5,3  | INTo
@@ -4148,6 +4217,7 @@
   6  2,5  - INkS
   6  2,5  - INnS
   6  4,5  | INsIST
+  6  2,5  - INtI
   6  2,5  - INtR
   6  2,5  - INvT
   6  5,6  - IORTN
@@ -4246,6 +4316,8 @@
   6  5,4  | NIS
   6  7,4  | NIS
   6  5,4  | NIT
+  6  5,6  - NOIRS
+  6  5,6  - NORIS
   6  5,6  - NORIT
   6  6,6  - OFT
   6  6,6  - OFeR
@@ -4258,6 +4330,7 @@
   6  1,3  - PEaR
   6  1,3  - PEaS
   6  1,3  - PEaT
+  6  1,3  - PEcS
   6  1,3  - PEdS
   6  1,3  - PEeR
   6  1,3  - PEeS
@@ -4276,6 +4349,7 @@
   6  1,3  - PEtS
   6  1,3  - PEwS
   6  5,4  | RFb
+  6  4,7  | RIF
   6  4,7  | RIFe
   6  4,7  | RIFf
   6  4,7  | RIFi
@@ -4297,6 +4371,8 @@
   6  8,4  | RISuS
   6  8,4  | RITeS
   6  8,4  | RITuS
+  6  5,3  | RIaS
+  6  7,3  | RIaS
   6  5,3  | RIbS
   6  7,3  | RIbS
   6  4,5  | RIcINS
@@ -4366,12 +4442,17 @@
   6  4,10 - RoSINS
   6  5,3  | RoTI
   6  7,3  | RoTI
+  6  5,2  | RoTIS
+  6  7,2  | RoTIS
+  6  8,4  | RoTIS
   6  5,3  | RoTS
   6  7,3  | RoTS
   6  5,4  | RuN
   6  7,4  | RuN
   6  5,3  | RuST
   6  8,4  | RuSTS
+  6  8,3  | RuTINS
+  6  4,5  | RuTINS
   6  5,3  | RuTS
   6  7,3  | RuTS
   6  5,4  | SFm
@@ -4677,6 +4758,8 @@
   6  4,5  | aNTISI
   6  5,3  | aNTS
   6  7,3  | aNTS
+  6  8,5  | aRFS
+  6  3,10 - aRFS
   6  5,4  | aRN
   6  7,4  | aRN
   6  5,3  | aRNI
@@ -4750,6 +4833,8 @@
   6  4,10 - iNSIST
   6  8,7  - iNT
   6  8,9  - iNT
+  6  5,3  | iNTI
+  6  7,3  | iNTI
   6  7,3  | iNTR
   6  4,4  | iRISIN
   6  4,6  | iRISIN
@@ -4863,6 +4948,10 @@
   6  7,4  | yIN
   6  5,3  | yINS
   6  7,3  | yINS
+  6  5,4  | zIN
+  6  7,4  | zIN
+  6  5,3  | zINS
+  6  7,3  | zINS
   5  2,2  - DIN
   5  2,2  - DINe
   5  2,2  - DINg
@@ -4956,7 +5045,10 @@
   5  4,10 - INSeT
   5  8,6  | INStR
   5  4,10 - INStR
+  5  4,5  | INTI
+  5  4,8  | INTI
   5  4,5  | INTIl
+  5  4,5  | INTIs
   5  4,8  | INTR
   5  8,5  | INTSv
   5  3,10 - INTSv
@@ -4968,6 +5060,7 @@
   5  2,5  - INn
   5  2,5  - INs
   5  2,5  - INt
+  5  4,5  | INtIS
   5  8,5  | INuST
   5  3,10 - INuST
   5  2,5  - INv
@@ -5102,6 +5195,7 @@
   5  4,7  | NITS
   5  3,10 - NITS
   5  4,7  | NITeR
+  5  4,7  | NITeS
   5  4,7  | NIToS
   5  4,5  | NIaIS
   5  4,7  | NIaIS
@@ -5109,18 +5203,22 @@
   5  4,7  | NIrIS
   5  5,6  - NOIR
   5  5,6  - NOIRe
+  5  5,6  - NOIRs
   5  5,6  - NOISe
   5  5,6  - NOISy
   5  5,6  - NOIlS
   5  5,6  - NOInT
+  5  5,6  - NOIrS
   5  5,6  - NORI
   5  5,6  - NORIa
   5  5,6  - NORIc
   5  5,6  - NORIe
+  5  5,6  - NORIs
   5  5,6  - NORIt
   5  5,6  - NORSe
   5  5,6  - NORSk
   5  5,6  - NORTh
+  5  5,6  - NORiS
   5  5,6  - NORiT
   5  5,6  - NORmS
   5  5,6  - NOSIg
@@ -5131,6 +5229,8 @@
   5  5,6  - NOTeS
   5  5,6  - NOTuS
   5  5,6  - NObIS
+  5  5,6  - NOiRS
+  5  5,6  - NOrIS
   5  5,6  - NOrIT
   5  5,6  - NOwTS
   5  7,4  | NaR
@@ -5148,7 +5248,9 @@
   5  5,4  | NiS
   5  7,4  | NiS
   5  5,4  | NiT
+  5  4,6  | NoIRS
   5  7,4  | NoR
+  5  4,5  | NoRIS
   5  4,5  | NoRIT
   5  5,4  | NoS
   5  7,4  | NoS
@@ -5167,6 +5269,7 @@
   5  6,6  - OrF
   5  6,6  - OuF
   5  1,3  - PEa
+  5  1,3  - PEc
   5  1,3  - PEd
   5  1,3  - PEe
   5  1,3  - PEg
@@ -5208,6 +5311,7 @@
   5  5,6  - RONIn
   5  5,6  - RONnI
   5  5,6  - ROSiN
+  5  5,6  - ROTIS
   5  5,6  - ROTaN
   5  5,6  - ROaNS
   5  5,6  - RObIN
@@ -5435,6 +5539,7 @@
   5  4,6  | TSINe
   5  8,7  | TSINe
   5  5,10 - TSINe
+  5  4,6  - TSORIs
   5  3,1  | Ta
   5  4,6  | TaINS
   5  4,6  | TaIRN
@@ -5448,6 +5553,7 @@
   5  3,1  | Ti
   5  3,1  | To
   5  4,6  - ToONS
+  5  4,6  - TsORIS
   5  4,5  | TuNIS
   5  4,6  | TwINS
   5  5,9  - aH
@@ -5500,6 +5606,8 @@
   5  3,7  | bLIT
   5  8,4  | bRINS
   5  4,6  | bRINS
+  5  5,3  | bRIS
+  5  7,3  | bRIS
   5  5,3  | bRIT
   5  8,7  | bSF
   5  5,10 - bSF
@@ -5580,6 +5688,8 @@
   5  4,7  | gIRNS
   5  5,3  | gIRT
   5  5,3  | gIST
+  5  5,3  | gITS
+  5  7,3  | gITS
   5  3,7  | gLIS
   5  5,4  | gNS
   5  7,4  | gNS
@@ -5613,6 +5723,8 @@
   5  8,6  | iNSTR
   5  4,10 - iNSTR
   5  5,4  | iNT
+  5  8,4  | iNTIS
+  5  4,5  | iNTIS
   5  5,6  - iORTN
   5  5,3  | iRIS
   5  7,3  | iRIS
@@ -5629,6 +5741,8 @@
   5  4,7  | kIF
   5  8,4  | kIRNS
   5  4,7  | kIRNS
+  5  5,3  | kIRS
+  5  7,3  | kIRS
   5  5,3  | kIST
   5  5,3  | kITS
   5  7,3  | kITS
@@ -5702,6 +5816,7 @@
   5  5,6  - pORNS
   5  4,6  | pRINT
   5  4,6  - pROSIT
+  5  4,7  | rIF
   5  5,3  | rIST
   5  5,6  - rOSIN
   5  5,3  | sIRS
@@ -5778,6 +5893,7 @@
   4  2,2  - DITe
   4  2,2  - DITs
   4  2,2  - DITt
+  4  2,2  - DITz
   4  2,2  - DIaS
   4  2,2  - DIbS
   4  2,2  - DIcT
@@ -5855,6 +5971,7 @@
   4  4,10 - INSp
   4  4,8  | INT
   4  4,8  | INTa
+  4  4,8  | INTi
   4  4,8  | INTl
   4  4,8  | INTo
   4  4,8  | INTr
@@ -5874,6 +5991,8 @@
   4  5,4  | INs
   4  7,4  | INs
   4  5,4  | INt
+  4  4,5  | INtI
+  4  4,8  | INtI
   4  4,8  | INtR
   4  4,8  | INvT
   4  5,6  - ION
@@ -5886,6 +6005,7 @@
   4  4,8  | IRIS
   4  4,6  | IRISh
   4  2,5  - IRId
+  4  4,6  | IRIdS
   4  2,5  - IRIs
   4  4,6  - IROnS
   4  4,6  - IROuS
@@ -5957,6 +6077,7 @@
   4  5,4  | InT
   4  8,7  - InT
   4  8,9  - InT
+  4  4,5  | InTIS
   4  2,5  - IoNI
   4  4,5  | IoNI
   4  4,8  | IoNI
@@ -6001,7 +6122,6 @@
   4  3,8  | LIr
   4  3,8  | LIs
   4  3,8  | LIt
-  4  3,8  | LIv
   4  3,8  | LIz
   4  3,8  | LSc
   4  3,8  | LSd
@@ -6021,6 +6141,7 @@
   4  4,7  | NISt
   4  4,10 - NISt
   4  4,7  | NIT
+  4  4,7  | NITe
   4  4,7  | NITo
   4  4,7  | NITs
   4  8,5  | NIaS
@@ -6195,10 +6316,12 @@
   4  5,6  - ROSeT
   4  5,6  - ROShI
   4  5,6  - ROTI
+  4  5,6  - ROTIs
   4  5,6  - ROTS
   4  5,6  - ROTSe
   4  5,6  - ROTaS
   4  5,6  - ROTeS
+  4  5,6  - ROTiS
   4  5,6  - ROTlS
   4  5,6  - ROToS
   4  5,6  - ROaN
@@ -6209,6 +6332,7 @@
   4  5,6  - ROoST
   4  5,6  - ROoTI
   4  5,6  - ROoTS
+  4  5,6  - ROtIS
   4  5,6  - ROuN
   4  5,6  - ROuST
   4  5,6  - ROuTS
@@ -6218,6 +6342,8 @@
   4  7,4  | RaS
   4  5,4  | RaT
   4  5,4  | RcT
+  4  5,4  | ReI
+  4  7,4  | ReI
   4  4,6  | ReIN
   4  8,5  | ReIST
   4  4,6  | ReIST
@@ -6249,6 +6375,7 @@
   4  5,4  | RoS
   4  7,4  | RoS
   4  5,4  | RoT
+  4  4,5  | RoTIS
   4  5,4  | RpT
   4  5,4  | RtI
   4  7,4  | RtI
@@ -6866,6 +6993,7 @@
   4  5,4  | hIT
   4  8,9  - hIT
   4  5,6  - hOIST
+  4  5,6  - hONS
   4  5,6  - hONT
   4  5,6  - hORN
   4  5,6  - hORST
@@ -6879,6 +7007,7 @@
   4  7,4  | hTS
   4  8,9  - hTS
   4  4,6  | iNIT
+  4  4,5  | iNTI
   4  5,6  - iONI
   4  5,6  - iONS
   4  4,6  - iRON
@@ -6905,6 +7034,7 @@
   4  8,5  | kINS
   4  4,7  | kINS
   4  3,10 - kINS
+  4  7,4  | kIR
   4  4,7  | kIRN
   4  8,4  | kISTS
   4  8,6  | kISTS
@@ -6967,6 +7097,8 @@
   4  5,4  | nIS
   4  7,4  | nIS
   4  5,4  | nIT
+  4  5,6  - nOIRS
+  4  5,6  - nORIS
   4  5,6  - nORIT
   4  5,6  - nORN
   4  4,7  | oINT
@@ -7020,6 +7152,7 @@
   4  5,4  | rIT
   4  5,6  - rOIN
   4  5,6  - rOIST
+  4  5,6  - rOTIS
   4  5,4  | rTI
   4  7,4  | rTI
   4  8,5  | sINS
@@ -7131,6 +7264,9 @@
   4  5,6  - yONT
   4  5,4  | yRS
   4  7,4  | yRS
+  4  8,5  | zINS
+  4  4,7  | zINS
+  4  3,10 - zINS
   4  4,6  - zION
   4  5,4  | zIT
   4  4,5  | zITIS
@@ -7302,6 +7438,9 @@
   3  4,8  | InIT
   3  2,5  - InN
   3  4,8  | InN
+  3  2,5  - InTI
+  3  4,5  | InTI
+  3  4,8  | InTI
   3  2,5  - InTR
   3  4,8  | InTR
   3  8,7  - Io
@@ -7451,6 +7590,9 @@
   3  4,7  | RITa
   3  4,7  | RITe
   3  4,7  | RITz
+  3  8,5  | RIaS
+  3  4,7  | RIaS
+  3  3,10 - RIaS
   3  5,4  | RIb
   3  8,5  | RIbS
   3  4,7  | RIbS
@@ -7465,6 +7607,7 @@
   3  8,5  | RIeS
   3  4,7  | RIeS
   3  3,10 - RIeS
+  3  7,4  | RIf
   3  4,5  | RIfI
   3  4,7  | RIfI
   3  8,5  | RIfS
@@ -8141,6 +8284,9 @@
   3  5,6  - bORT
   3  5,6  - bOTI
   3  5,6  - bOTS
+  3  8,5  | bRIS
+  3  4,6  | bRIS
+  3  3,10 - bRIS
   3  4,6  | bRIT
   3  4,6  - bROS
   3  4,6  - bROT
@@ -8227,6 +8373,9 @@
   3  8,6  | gIST
   3  4,7  | gIST
   3  4,10 - gIST
+  3  8,5  | gITS
+  3  4,7  | gITS
+  3  3,10 - gITS
   3  8,6  | gNS
   3  4,10 - gNS
   3  5,6  - gOIS
@@ -8288,6 +8437,9 @@
   3  5,5  | kI
   3  7,5  | kI
   3  4,7  | kIN
+  3  8,5  | kIRS
+  3  4,7  | kIRS
+  3  3,10 - kIRS
   3  8,5  | kISS
   3  8,6  | kISS
   3  3,10 - kISS
@@ -8307,6 +8459,8 @@
   3  5,5  | lI
   3  7,5  | lI
   3  4,7  | lIN
+  3  4,5  | lIRI
+  3  4,7  | lIRI
   3  8,5  | lISS
   3  8,6  | lISS
   3  3,10 - lISS
@@ -8324,6 +8478,7 @@
   3  5,6  - lORI
   3  5,6  - lORS
   3  5,6  - lOST
+  3  5,6  - lOTI
   3  5,6  - lOTS
   3  5,5  | mI
   3  7,5  | mI
@@ -8519,6 +8674,7 @@
   3  4,7  | yIN
   3  4,6  - yNO
   3  5,6  - yON
+  3  4,7  | zIN
   3  4,5  | zITI
   3  4,7  | zITI
   3  8,5  | zITS
@@ -8675,6 +8831,7 @@
   2  4,7  | RIc
   2  4,7  | RId
   2  4,7  | RIe
+  2  4,7  | RIf
   2  4,7  | RIg
   2  4,7  | RIk
   2  4,7  | RIm
@@ -8702,6 +8859,7 @@
   2  4,10 - RaS
   2  5,5  | Re
   2  7,5  | Re
+  2  4,6  | ReI
   2  8,6  | ReS
   2  4,10 - ReS
   2  4,6  - RhO
@@ -9067,6 +9225,7 @@
   2  8,6  | iTS
   2  4,10 - iTS
   2  5,6  - jOT
+  2  4,7  | kIR
   2  4,7  | kIT
   2  5,6  - kOI
   2  5,6  - kOR

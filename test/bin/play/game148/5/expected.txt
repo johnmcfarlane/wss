@@ -126,7 +126,6 @@
  25  7,1  - AMLi
  25  7,1  - AMU
  25  7,1  - AMUs
- 25  7,1  - AMaL
  25  7,1  - AMeL
  25  7,1  - AMiD
  25  7,1  - AMiL
@@ -161,6 +160,7 @@
  24  5,6  | LAi
  24  5,1  | LIMbA
  24  5,1  | LIMmA
+ 24  5,1  | LIMpA
  24  5,4  | LaMA
  24  5,4  | LiMA
  24  5,4  | LoMA
@@ -179,7 +179,6 @@
  24  7,1  - aDAM
  24  7,1  - aLFA
  24  7,1  - aLMA
- 24  7,1  - aMAL
  24  7,1  - aMLA
  24  2,6  | cFM
  24  2,6  | cLUM
@@ -317,6 +316,7 @@
  20  5,8  | iMU
  20  5,4  | kULA
  20  5,4  | lULA
+ 20  5,4  | pULA
  20  2,6  | rUM
  20  2,6  | sLUD
  20  2,6  | sUF
@@ -404,6 +404,7 @@
  19  7,6  | MALUm
  19  7,6  | MALUs
  19  7,6  | MAUD
+ 19  7,6  | MAUDs
  19  7,6  | MAUL
  19  7,6  | MAULs
  19  7,6  | MAiDU
@@ -443,6 +444,8 @@
  18  7,7  | ALMUD
  18  5,4  - DIAMyL
  18  5,4  - DIsMAL
+ 18  7,6  | DoLMA
+ 18  7,6  | DoUMA
  18  6,6  - EMULe
  18  6,6  - EMULs
  18  5,1  | FILAo
@@ -928,6 +931,7 @@
  13  5,4  | DAb
  13  7,6  | DAdU
  13  5,4  | DAh
+ 13  7,6  | DAhL
  13  5,4  | DAl
  13  5,4  | DAm
  13  5,4  | DAr
@@ -941,11 +945,14 @@
  13  5,3  - DOo
  13  7,6  | DaMA
  13  7,6  | DeUL
+ 13  6,7  - DoLMA
+ 13  6,7  - DoUMA
  13  7,6  | FA
  13  7,6  | FAb
  13  7,6  | FAc
  13  7,6  | FAd
  13  7,6  | FAe
+ 13  7,6  | FAg
  13  7,6  | FAh
  13  7,6  | FAm
  13  7,6  | FAn
@@ -1211,6 +1218,7 @@
  11  7,6  | DALf
  11  7,6  | DALi
  11  7,6  | DALk
+ 11  7,6  | DALs
  11  7,6  | DALt
  11  7,6  | DAU
  11  7,6  | DAUb
@@ -1352,7 +1360,6 @@
  10  7,7  | ALmUD
  10  7,7  | ALoUD
  10  7,7  | ALuM
- 10  7,7  | AMaL
  10  7,7  | AMeL
  10  7,7  | AMiD
  10  7,7  | AMiL
@@ -1376,6 +1383,7 @@
  10  5,3  - DO
  10  6,7  - DUMA
  10  6,7  - DUMAs
+ 10  6,7  - DUnAM
  10  6,7  - DeMAL
  10  6,7  - DoMAL
  10  5,4  - FIDAc
@@ -1452,7 +1460,6 @@
  10  5,1  | aID
  10  5,1  | aIL
  10  5,5  | aL
- 10  7,7  | aMAL
  10  7,7  | aMU
  10  7,7  | aULD
  10  5,6  | bA
@@ -1504,6 +1511,7 @@
  10  5,4  - vIDUA
  10  5,1  | vIL
  10  5,1  | wID
+ 10  5,1  | yID
   9  4,1  - AD
   9  4,1  - AL
   9  7,1  - AM
@@ -1557,6 +1565,7 @@
   9  7,6  | DiL
   9  7,6  | DoL
   9  6,6  - EMF
+  9  6,6  - EMFs
   9  5,4  - FIDeL
   9  5,4  - FILeD
   9  5,1  | FIlA
@@ -1751,6 +1760,7 @@
   8  5,4  - LIDAr
   8  5,4  - LIMbA
   8  5,4  - LIMmA
+  8  5,4  - LIMpA
   8  7,6  | LeA
   8  7,6  | LoA
   8  7,1  | MGr
@@ -1846,6 +1856,7 @@
   7  6,7  - DAMp
   7  6,7  - DAMs
   7  6,7  - DAdU
+  7  6,7  - DAhL
   7  6,7  - DAnD
   7  6,7  - DArD
   7  6,7  - DAuD
@@ -2285,6 +2296,7 @@
   5  6,7  - DALf
   5  6,7  - DALi
   5  6,7  - DALk
+  5  6,7  - DALs
   5  6,7  - DALt
   5  6,7  - DAU
   5  6,7  - DAUb
@@ -2462,6 +2474,7 @@
   5  5,4  - nIM
   5  2,4  | pA
   5  5,4  - pIM
+  5  5,4  - rIF
   5  5,4  - rIM
   5  5,4  - sIM
   5  7,6  | tA
@@ -2755,7 +2768,6 @@
   3  5,4  - LIr
   3  5,4  - LIs
   3  5,4  - LIt
-  3  5,4  - LIv
   3  5,4  - LIz
   3  5,5  - LSc
   3  5,5  - LSd
@@ -2852,6 +2864,7 @@
   3  5,4  - vID
   3  5,4  - vIL
   3  5,4  - wID
+  3  5,4  - yID
   2  5,1  | AI
   2  5,4  - AI
   2  5,4  - AId
@@ -2910,6 +2923,7 @@
   2  6,5  - SeA
   2  6,5  - ShA
   2  6,5  - SiA
+  2  6,5  - SkA
   2  6,5  - SlA
   2  6,5  - SmA
   2  6,5  - SpA

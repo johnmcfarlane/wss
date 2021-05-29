@@ -106,6 +106,7 @@
  33 15,4  | AGES
  33  9,1  - CADGE
  33  9,1  - CAGED
+ 33  9,1  - CLADES
  33  9,1  - CLAGS
  33 15,5  | DAB
  33 15,5  | DEB
@@ -222,6 +223,7 @@
  24  9,1  - CADE
  24  9,1  - CADS
  24  9,1  - CALS
+ 24  9,1  - CELS
  24 15,5  | DALE
  24 15,7  | DEA
  24 11,5  | DEBAG
@@ -902,6 +904,7 @@
  15  7,11 - LEDA
  15 11,5  | LEG
  15 11,3  | LEGS
+ 15  9,3  - MABES
  15  5,13 - OSAGE
  15 11,6  | SABE
  15  4,6  - SAE
@@ -986,6 +989,8 @@
  14  8,2  - DALEA
  14  8,2  - DALES
  14 11,2  | DALES
+ 14 11,3  | DALS
+ 14 11,5  | DALS
  14 15,10 | DARE
  14 11,4  | DEAL
  14  7,2  - DEALS
@@ -1057,6 +1062,8 @@
  14 11,8  | LEGAL
  14 10,9  | LEGBAR
  14  7,8  | LUBES
+ 14  7,8  | LUGED
+ 14  9,3  - MABE
  14  9,3  - MEDALS
  14  9,3  - MELBA
  14 13,7  - SAB
@@ -1264,6 +1271,7 @@
  12 13,7  - DAG
  12  8,2  - DALE
  12 11,9  - DALLE
+ 12  8,2  - DALS
  12 11,8  - DALT
  12  7,3  - DAMSEL
  12 11,4  | DASE
@@ -1336,6 +1344,7 @@
  12 10,8  - LEAST
  12  6,2  - LEDA
  12  5,5  | LENSED
+ 12  7,8  | LUDES
  12  7,8  | LUGE
  12  7,8  | LUGS
  12  9,3  - MAGE
@@ -1472,6 +1481,7 @@
  11 11,5  | LEA
  11  7,1  - LSC
  11  7,8  | LUB
+ 11  7,8  | LUDE
  11  7,8  | LUDS
  11 11,15 - LYE
  11 11,15 - LYS
@@ -1679,6 +1689,7 @@
  10  4,11 - TEDA
  10  4,11 - TEDS
  10  4,11 - TELA
+ 10  4,11 - TELS
   9 12,7  - ABAS
   9 11,9  - ABEL
   9 13,9  | AD
@@ -1840,6 +1851,7 @@
   8 13,7  | DA
   8 10,6  | DABS
   8 12,9  - DALE
+  8 12,9  - DALS
   8  7,3  - DAME
   8  7,3  - DAMS
   8  7,6  - DANDA
@@ -1972,6 +1984,7 @@
   7 13,8  - BTL
   7  9,1  - CAD
   7  9,1  - CAL
+  7  9,1  - CEL
   7 10,6  | DAB
   7  6,5  | DAD
   7 10,6  | DAGS
@@ -2074,6 +2087,7 @@
   6 10,6  | DADS
   6 10,6  | DAG
   6 10,6  | DALE
+  6 10,6  | DALS
   6 13,7  - DAS
   6 10,6  | DEAD
   6 10,6  | DEAL

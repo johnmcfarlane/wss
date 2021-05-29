@@ -2,6 +2,7 @@
  83  9,4  | eSCAPIST
  74  1,3  - PASTIESt
  74  1,3  - PAStIEST
+ 74  1,3  - SPAcIEST
  74  4,3  - STEAPSIn
  74  1,3  - ShAPIEST
  74  1,3  - SoAPIEST
@@ -15,10 +16,12 @@
  55  8,4  | PrOSAIST
  55  8,4  | PrOTASIS
  55  5,4  | ePITASIS
+ 52  9,3  | SPACIeST
  51  1,5  - PIrATESS
  51  9,5  | SCrIPTS
  49  8,4  | APOSTIlS
  48  9,6  | CAmPIT
+ 48  5,3  - PETSAIS
  48  1,3  - TAPISES
  45  1,3  - AsPISES
  45  9,6  | CoAPTS
@@ -27,6 +30,10 @@
  45  5,3  - PESeTAS
  45  5,3  - PETASoS
  45  5,3  - PETASuS
+ 45  5,3  - PETSAIs
+ 45  5,3  - PETSAiS
+ 45  5,3  - PETsAIS
+ 45  1,3  - SAPoTES
  45  5,3  - SEPTIcS
  45  1,3  - STIrPES
  45  1,3  - SoPITES
@@ -39,7 +46,9 @@
  42  1,3  - ASPISEs
  42  1,3  - ASPIrES
  42  1,3  - ASPIsES
+ 42  5,3  - PETSaIS
  42  5,3  - PErSIST
+ 42  5,3  - PEtSAIS
  42  5,3  - SEPIoST
  42  5,3  - SErAPIS
  42  1,3  - STrIPES
@@ -100,6 +109,7 @@
  33  1,3  - APSIdES
  33  1,3  - APlITES
  33  1,3  - AToPIES
+ 33  1,3  - PASTIE
  33  1,3  - PASTIEr
  33  1,3  - PASTIEs
  33  1,3  - PASTiES
@@ -142,9 +152,11 @@
  30  6,3  - ESPIAl
  30  6,3  - ESPIeS
  30  6,3  - ESTAmP
+ 30  1,3  - PAStIE
  30  1,3  - PATiSE
  30  1,3  - PATtIE
  30  1,3  - PISoTE
+ 30  1,3  - PaSTIE
  30  1,3  - PaTISE
  30  1,3  - PlATIE
  30  1,3  - PlISSE
@@ -212,12 +224,16 @@
  27  6,2  - EPoIST
  27  6,3  - ESPrIT
  27  6,3  - ESToPS
+ 27  6,2  - ExPATS
+ 27  6,3  - ExPATS
  27  1,3  - PASSeE
+ 27  1,3  - PASTiE
  27  1,3  - PATInE
  27  1,2  - PATInES
  27  1,3  - PATIsE
  27  1,3  - PAnTIE
  27  1,3  - PArTIE
+ 27  1,3  - PAsTIE
  27  1,3  - PAtISE
  27  1,3  - PAtTIE
  27  1,3  - PAvISE
@@ -239,6 +255,7 @@
  27  1,2  - TAPiSES
  27  1,3  - TASsIES
  27  1,3  - TAwPIE
+ 27  1,3  - nASTIES
  27  1,3  - pASTIES
  27  1,3  - pATSIES
  26  1,2  - PATISE
@@ -257,6 +274,7 @@
  25  6,2  - EPhAS
  25  6,2  - EPrIS
  25  6,2  - EnPIA
+ 25  6,2  - ExPAT
  25  5,3  | PIpI
  25  5,3  | PeAI
  25  5,3  | PoTI
@@ -318,6 +336,7 @@
  24  1,2  - cAPITE
  24  1,2  - lIPASE
  24  1,2  - oPIATE
+ 24  5,3  - pETSAIS
  23  1,2  - ASPIdE
  23  1,2  - ASPIrE
  23  1,2  - PATInE
@@ -354,6 +373,7 @@
  22  8,2  - PAaS
  22  8,2  - PAcS
  22  8,2  - PAcT
+ 22  8,2  - PAdI
  22  8,2  - PAdS
  22  8,2  - PAhI
  22  8,2  - PAiS
@@ -493,6 +513,7 @@
  21  2,2  - SPAnE
  21  2,2  - SPArE
  21  2,2  - SPAtE
+ 21  3,4  - SPIFfS
  21  2,2  - SPIlE
  21  2,2  - SPInE
  21  2,2  - SPIrE
@@ -521,6 +542,7 @@
  21  1,3  - lAISSE
  21  1,3  - lASSIE
  21  1,3  - mISATE
+ 21  1,3  - pASTIE
  21  1,3  - pATISE
  21  1,3  - tASSIE
  21  1,3  - wASSIE
@@ -712,6 +734,7 @@
  18 10,2  | PATlY
  18 10,2  | PATsY
  18 10,2  | PATtY
+ 18  1,2  - PAdI
  18  1,2  - PAhI
  18  1,2  - PAlI
  18 10,2  | PAlSY
@@ -755,6 +778,7 @@
  18 10,2  | PeASY
  18 10,2  | PeATY
  18  1,2  - PeSA
+ 18 10,2  | PeSTY
  18  8,7  - PhI
  18  8,4  | PhOSIS
  18  1,2  - PiSA
@@ -944,6 +968,7 @@
  17  8,4  | PSOaI
  17  8,4  | PSOaS
  17  8,4  | PSOrA
+ 17  4,4  - PfFT
  17  8,4  | PhOSS
  17  8,4  | PhOTS
  17  9,3  | PiSCIS
@@ -956,6 +981,7 @@
  17  8,4  | PsOAI
  17  8,4  | PsOAS
  17  1,2  - SAPa
+ 17  1,5  - SAPoTES
  17  1,2  - SASInE
  17  1,2  - SATInE
  17  1,2  - SATIrE
@@ -1050,6 +1076,7 @@
  16  5,5  - PETS
  16  9,3  | PISCeS
  16  9,3  | PISCiS
+ 16  9,3  | PISCoS
  16  3,2  - PIlES
  16  3,2  - PInES
  16  3,2  - PIxES
@@ -1255,6 +1282,7 @@
  15  3,3  - PATESI
  15  3,3  - PArESIS
  15  5,3  - PESTIS
+ 15  5,3  - PETSAI
  15  8,2  - PI
  15  5,5  | PIAnIST
  15  5,5  | PIArIST
@@ -1469,9 +1497,11 @@
  14  5,5  - PESs
  14  5,5  - PESt
  14  5,3  - PEStIS
+ 14  5,3  - PETSAi
  14  5,5  - PETe
  14  5,5  - PETo
  14  5,5  - PETs
+ 14  5,3  - PETsAI
  14  5,5  - PEaI
  14  5,5  - PEaS
  14  5,5  - PEaT
@@ -1486,6 +1516,7 @@
  14  5,5  | PIAST
  14  5,5  | PIAtTI
  14  8,4  | PIOn
+ 14  2,5  - PISTES
  14  5,5  | PISTIa
  14  5,5  | PISTIc
  14  5,5  | PISTIl
@@ -1526,6 +1557,7 @@
  14  1,7  - SAPIT
  14  1,5  - SAPoTE
  14  1,2  - SATI
+ 14 10,2  | SATaYS
  14  7,3  | SAdIS
  14  3,5  - SAlEP
  14  7,3  | SAnIT
@@ -1608,6 +1640,7 @@
  14 10,2  | STrAYS
  14  2,3  - STuPES
  14 10,5  | SYrTIS
+ 14 10,2  | SaTAYS
  14  7,3  | SaTIS
  14  1,5  - SePIAE
  14  7,3  | SeSIA
@@ -1685,6 +1718,7 @@
  14  3,2  - kITES
  14  3,2  - lASES
  14  5,5  - lEAP
+ 14  5,5  - lEPT
  14  1,5  - lIPASE
  14  3,2  - lITES
  14  9,2  - mAP
@@ -1694,6 +1728,7 @@
  14 10,5  | mYASIS
  14  3,5  - nAPES
  14  3,2  - nATES
+ 14  3,2  - nITES
  14  3,2  - oASES
  14  9,2  - oPA
  14  1,5  - oPIATES
@@ -1849,6 +1884,7 @@
  13  5,5  - PET
  13  5,3  - PETAlS
  13  5,3  - PETItS
+ 13  5,3  - PETSaI
  13  5,3  - PEToS
  13  5,3  - PETtI
  13  5,3  - PElIAS
@@ -1857,6 +1893,7 @@
  13  5,3  - PErSIS
  13  5,3  - PEsTIS
  13  5,3  - PEtITS
+ 13  5,3  - PEtSAI
  13  5,3  - PEwITS
  13  5,5  | PIATtI
  13  5,5  | PIAnS
@@ -1865,7 +1902,9 @@
  13  9,4  | PICoTS
  13  5,5  | PIITiS
  13  3,5  - PISE
+ 13  5,5  | PISTeS
  13  5,5  | PISTiA
+ 13  5,5  | PISoS
  13  5,5  | PITIeS
  13  5,5  | PITaS
  13  5,5  | PIThS
@@ -1875,6 +1914,7 @@
  13  5,5  | PIeST
  13  5,5  | PIeTA
  13  5,5  | PIkAS
+ 13  5,5  | PIkIS
  13  3,2  - PIlE
  13  5,5  | PIlIS
  13  5,5  | PImAS
@@ -1888,6 +1928,7 @@
  13  1,5  - PIrATES
  13  3,2  - PIsE
  13  2,5  - PIsSES
+ 13  2,5  - PIsTES
  13  5,5  | PItAS
  13  5,5  | PItTA
  13  9,3  | PSeC
@@ -2051,6 +2092,7 @@
  13  2,3  - SPITEd
  13  2,3  - SPITEs
  13  2,3  - SPIcES
+ 13  2,4  - SPIfFS
  13  2,3  - SPIkES
  13  2,3  - SPIlES
  13  2,3  - SPInES
@@ -2338,7 +2380,9 @@
  12  5,3  - PESS
  12  5,3  - PEST
  12  5,3  - PESTe
+ 12  5,3  - PESTo
  12  5,3  - PESTs
+ 12  5,3  - PESTy
  12  5,3  - PETAl
  12  5,3  - PETIt
  12  5,3  - PETS
@@ -2372,9 +2416,12 @@
  12  2,5  - PISSEd
  12  2,5  - PISSEs
  12  5,5  | PIST
+ 12  2,3  - PISTES
+ 12  2,5  - PISTEs
  12  5,5  | PISTe
  12  2,5  - PIShES
  12  2,5  - PISsES
+ 12  2,5  - PIStES
  12  3,7  - PIT
  12  5,5  | PITA
  12  5,5  | PITAs
@@ -2389,6 +2436,7 @@
  12  3,3  - PIlES
  12  8,3  | PIlOTS
  12  3,3  - PInES
+ 12  8,3  | PInOTS
  12  3,3  - PIpES
  12  3,3  - PIpET
  12  8,3  | PIvOTS
@@ -2402,6 +2450,7 @@
  12  3,5  - PeTE
  12  2,5  - PhASES
  12  3,5  - PiSE
+ 12  2,5  - PiSTES
  12  2,5  - PlATES
  12  4,5  - PlEAS
  12  4,5  - PlEAT
@@ -2428,6 +2477,7 @@
  12  8,3  | SAPOrS
  12 10,2  | SASsY
  12  3,2  - SATE
+ 12 10,2  | SATaY
  12  1,2  - SAdI
  12  1,2  - SAfI
  12  1,2  - SAkI
@@ -2544,6 +2594,7 @@
  12  2,3  - STuPE
  12  1,2  - SaTA
  12  8,2  - SaTA
+ 12 10,2  | SaTAY
  12  1,2  - SaTI
  12  8,2  - SaTI
  12  2,5  - ScAPE
@@ -2670,6 +2721,7 @@
  12  1,2  - dITA
  12  8,2  - dITA
  12  8,2  - dITS
+ 12 10,2  | dITSY
  12  8,2  - eAST
  12  8,2  - eATS
  12  9,3  | ePACT
@@ -2777,6 +2829,7 @@
  12  8,2  - rATS
  12  5,3  - rEPAS
  12  5,3  - rETIP
+ 12  8,2  - rIAS
  12  3,3  - rIPES
  12  8,3  | rIPOST
  12  8,2  - rISS
@@ -2899,6 +2952,7 @@
  11  6,3  - EPiT
  11  6,3  - EPoS
  11  6,2  - ESSe
+ 11  6,5  - ETIc
  11  6,2  - EdP
  11  6,5  - EdP
  11  6,3  - ElAPS
@@ -2989,6 +3043,7 @@
  11  5,5  - PEp
  11  5,5  - PEs
  11  5,5  - PEt
+ 11  5,4  - PFfT
  11  5,4  - PFuI
  11  3,2  - PI
  11  5,5  | PIA
@@ -3048,6 +3103,7 @@
  11  5,5  | PIsS
  11  2,3  - PIsSES
  11  5,5  | PIsT
+ 11  2,3  - PIsTES
  11  5,5  | PItA
  11  5,5  | PItS
  11  5,5  | PIuS
@@ -3102,6 +3158,7 @@
  11  2,3  - SAPIEnS
  11  2,3  - SAPIEnT
  11  8,3  | SAPOTaS
+ 11  8,3  | SAPOTeS
  11  1,4  - SATISFy
  11  1,2  - SATa
  11  1,2  - SATi
@@ -3325,6 +3382,7 @@
  11  7,3  | nASI
  11  3,2  - nATE
  11  7,3  | nISI
+ 11  3,2  - nITE
  11  4,3  - oPES
  11  1,5  - oPIATE
  11  3,5  - pAPE
@@ -3508,9 +3566,11 @@
  10  4,1  | KITS
  10  4,1  | KIaAT
  10  4,1  | KIlTS
+ 10  4,1  | KInAS
  10  4,1  | KIsTS
  10  4,1  | KIvAS
  10  4,1  | KIyAS
+ 10  4,1  | KaTAS
  10  4,1  | KeATS
  10  4,1  | KeIST
  10  4,1  | KeITA
@@ -3600,6 +3660,7 @@
  10  5,3  - PEaS
  10  5,3  - PEaT
  10  5,3  - PEbA
+ 10  5,3  - PEcS
  10  5,3  - PEdA
  10  5,3  - PEdS
  10  5,3  - PEeS
@@ -3635,16 +3696,21 @@
  10  4,3  - PIETA
  10  4,3  - PIETAs
  10  4,3  - PIEtAS
+ 10  8,3  | PISOS
  10  8,3  | PISOTe
  10  2,7  - PISS
  10  2,3  - PISSEd
+ 10  2,3  - PISSEr
  10  2,3  - PISSEs
  10  2,7  - PIST
  10  2,3  - PISTE
+ 10  2,3  - PISTEs
  10  1,5  - PISTlE
  10  2,3  - PIScES
  10  2,3  - PIShES
+ 10  1,7  - PISoS
  10  2,3  - PISsES
+ 10  2,3  - PIStES
  10  2,7  - PITS
  10  1,7  - PITaS
  10  2,3  - PIThES
@@ -3683,6 +3749,7 @@
  10  5,5  | PIx
  10  3,3  - PIzE
  10  8,5  | POISeS
+ 10  8,5  | POIShA
  10  8,5  | POSIT
  10  8,5  | POSITs
  10  8,5  | POSIeS
@@ -3725,6 +3792,7 @@
  10  8,3  | PaTOIS
  10  2,3  - PeASES
  10  1,7  - PeATS
+ 10  9,4  | PeCS
  10  2,3  - PeISES
  10  1,7  - PeSTS
  10  2,3  - PhASES
@@ -3735,6 +3803,7 @@
  10  9,4  | PiCS
  10  9,4  | PiCT
  10  4,3  - PiETAS
+ 10  2,3  - PiSTES
  10  1,7  - PiTAS
  10  2,3  - PiTIES
  10  1,7  - PlAIT
@@ -3889,6 +3958,7 @@
  10  3,2  - SiSE
  10  8,2  - SiT
  10  3,2  - SiTE
+ 10  2,2  - SkA
  10  4,3  - SkEP
  10  2,2  - SkI
  10  1,7  - SkIPS
@@ -3979,6 +4049,7 @@
  10  8,4  | aPOSIA
  10  1,7  - aPSIS
  10  4,4  - aSFAST
+ 10  1,7  - aTAPS
  10  2,2  - aTI
  10  2,2  - bAI
  10  2,5  - bASSET
@@ -4057,6 +4128,7 @@
  10  2,5  - lAPSE
  10  2,5  - lASSET
  10  5,3  - lEPA
+ 10  5,3  - lEPT
  10  2,5  - lIPSE
  10  1,7  - lISPS
  10  2,5  - lITSEA
@@ -4086,6 +4158,7 @@
  10  3,3  - pIPE
  10  5,5  | pIPITS
  10  8,2  - pIS
+ 10  2,5  - pISTES
  10  8,2  - pIT
  10  2,2  - pSI
  10  2,2  - pTA
@@ -4200,6 +4273,7 @@
   9  8,4  | ATOPy
   9  8,4  | ATOSSa
   9 10,4  | ATYPy
+  9  1,7  - ATaPS
   9  9,2  - ATe
   9  2,2  - ATi
   9  9,2  - ATi
@@ -4402,6 +4476,7 @@
   9  4,1  | KAbS
   9  4,1  | KAdI
   9  4,1  | KAeS
+  9  4,1  | KAfS
   9  4,1  | KAkI
   9  4,1  | KAlI
   9  4,1  | KAmI
@@ -4419,6 +4494,7 @@
   9  4,1  | KInA
   9  4,1  | KInS
   9  4,1  | KIpS
+  9  4,1  | KIrS
   9  4,1  | KIsS
   9  4,1  | KIsT
   9  4,1  | KItS
@@ -4426,6 +4502,7 @@
   9  4,1  | KPc
   9  4,1  | KaAS
   9  4,1  | KaSA
+  9  4,1  | KaTA
   9  4,1  | KaTS
   9  4,1  | KeAS
   9  4,1  | KeAT
@@ -4477,6 +4554,7 @@
   9  2,7  - PAcS
   9  2,7  - PAcT
   9  1,7  - PAcTS
+  9  1,7  - PAdIS
   9  2,7  - PAdS
   9  8,3  | PAhOS
   9  2,7  - PAiS
@@ -4513,6 +4591,7 @@
   9  2,7  - PAyT
   9  5,3  - PE
   9  5,3  - PEa
+  9  5,3  - PEc
   9  5,3  - PEd
   9  5,3  - PEe
   9  5,3  - PEg
@@ -4532,6 +4611,7 @@
   9  4,3  - PIETy
   9  1,7  - PISAn
   9  8,3  | PISO
+  9  8,3  | PISOs
   9  2,5  - PIStE
   9  1,7  - PITAs
   9  8,3  | PITOn
@@ -4559,6 +4639,7 @@
   9  1,7  - PInTS
   9  2,7  - PIpS
   9  8,3  | PIrOT
+  9  8,3  | PIsOS
   9  2,7  - PIsS
   9  2,7  - PIsT
   9  2,3  - PIsTE
@@ -4754,6 +4835,8 @@
   9  1,7  - SToPS
   9  8,3  | STrOP
   9  9,3  | STyCA
+  9 10,5  | SYPhS
+  9 10,5  | SYSoP
   9  3,5  - SaTES
   9  8,4  | ScOTIA
   9  4,5  - ShEAS
@@ -4822,6 +4905,7 @@
   9  8,5  | TOPSy
   9  3,7  - TPS
   9  2,5  - TSAdES
+  9  8,4  | TSOrIS
   9  8,4  | TSOtSI
   9 10,5  | TYPAl
   9 10,5  | TYPIc
@@ -4850,6 +4934,7 @@
   9  4,2  - aTE
   9  7,4  | aTIS
   9  9,4  | bACIS
+  9  2,7  - bAPS
   9  2,7  - bAPT
   9  9,4  | cACTI
   9  8,3  | cAPOS
@@ -5021,6 +5106,7 @@
   8  7,4  | AnI
   8  3,3  - AnSEIS
   8  2,7  - ApPT
+  8  4,4  - ArFS
   8  1,5  - ArISTE
   8  8,4  | AsOP
   8  2,7  - AsPS
@@ -5093,6 +5179,7 @@
   8  9,6  | CySTS
   8  6,3  - ESToP
   8  6,3  - EnPIA
+  8  6,3  - ExPAT
   8  6,4  - FAIl
   8  6,4  - FAIn
   8  6,4  - FAIr
@@ -5164,6 +5251,7 @@
   8  4,1  | KAIlS
   8  4,1  | KAInS
   8  4,1  | KAShI
+  8  4,1  | KATaS
   8  4,1  | KIAaT
   8  4,1  | KISrA
   8  4,1  | KIStS
@@ -5249,6 +5337,7 @@
   8  8,5  | POiS
   8  8,5  | POlS
   8  8,5  | POlT
+  8  8,5  | POmS
   8  8,5  | POnS
   8  8,5  | POnT
   8  8,5  | POoA
@@ -5291,6 +5380,7 @@
   8  2,7  - PeAS
   8  2,3  - PeASE
   8  2,7  - PeAT
+  8  9,4  | PeC
   8  2,3  - PeISE
   8  2,7  - PeSS
   8  2,7  - PeST
@@ -5406,6 +5496,7 @@
   8  5,5  - SEaS
   8  5,5  - SEaT
   8  5,2  - SEeS
+  8  5,5  - SEgS
   8  5,2  - SEiS
   8  5,5  - SElS
   8  5,5  - SElT
@@ -5561,10 +5652,12 @@
   8  5,2  - TEeS
   8  5,5  - TEgS
   8  5,5  - TElI
+  8  5,5  - TElS
   8  5,2  - TEnS
   8  5,2  - TErI
   8  5,2  - TEsS
   8  5,5  - TEsS
+  8  5,5  - TEtS
   8  5,2  - TEwS
   8  3,2  - TI
   8  9,4  | TICcA
@@ -5625,6 +5718,7 @@
   8 10,6  | YaPA
   8 10,6  | YaPS
   8 10,6  | YiPS
+  8 10,6  | YuPS
   8  9,2  - aAS
   8  9,2  - aIS
   8  9,2  - aIT
@@ -5709,6 +5803,7 @@
   8  3,5  - hATES
   8  5,5  - hEAT
   8  5,5  - hEST
+  8  5,5  - hETS
   8  8,5  | hOPI
   8  8,5  | hOPS
   8 10,5  | hYPS
@@ -5768,6 +5863,7 @@
   8  3,4  - nAIF
   8  3,5  - nATES
   8  5,2  - nESS
+  8  3,5  - nITES
   8  3,5  - oASES
   8  9,2  - oAT
   8  8,5  | oOPS
@@ -5791,6 +5887,7 @@
   8  9,4  | pICT
   8  4,3  - pIETAS
   8 10,3  | pIPY
+  8  2,3  - pISTES
   8  8,5  | pOPS
   8  7,4  | pSI
   8  3,4  - rAIF
@@ -5827,6 +5924,7 @@
   8  5,2  - tESS
   8  5,5  - tESS
   8  5,5  - tEST
+  8  5,5  - tETS
   8  9,4  | tICS
   8  8,5  | tOPI
   8  8,5  | tOPS
@@ -5834,6 +5932,7 @@
   8 10,3  | uPSY
   8  9,2  - uTA
   8  9,2  - uTS
+  8  9,4  | vACS
   8  3,5  - vASES
   8  3,5  - vATES
   8  9,4  | vICA
@@ -6086,6 +6185,7 @@
   7  4,1  | KASa
   7  4,1  | KASm
   7  4,1  | KAT
+  7  4,1  | KATa
   7  4,1  | KATe
   7  4,1  | KATh
   7  4,1  | KATs
@@ -6176,6 +6276,7 @@
   7  8,6  | OSTIA
   7  8,6  | OSTSIs
   7  8,6  | OSTsIS
+  7  8,6  | OdISTS
   7  7,1  | OdS
   7  7,1  | OeS
   7  7,1  | OfT
@@ -6214,6 +6315,7 @@
   7  8,3  | PeTOS
   7  4,3  - PiES
   7  4,3  - PiET
+  7  8,3  | PiSOS
   7  4,3  - PlEA
   7 10,4  | PlY
   7  4,3  - PoET
@@ -6266,12 +6368,14 @@
   7  5,3  - SEArS
   7  5,3  - SEAtS
   7  5,2  - SEI
+  7  5,3  - SEIfS
   7  5,3  - SESTiA
   7  5,3  - SESiA
   7  5,3  - SESmA
   7  5,3  - SESsA
   7  5,3  - SEStI
   7  5,5  - SET
+  7  5,3  - SETtS
   7  5,3  - SEbAIT
   7  5,3  - SEeP
   7  5,3  - SEmITA
@@ -6364,6 +6468,7 @@
   7  1,7  - SeATS
   7  9,4  | SeCS
   7  9,4  | SeCT
+  7  3,4  - SeIFS
   7  8,7  - Sh
   7  3,4  - ShAFT
   7  3,3  - ShIES
@@ -6409,6 +6514,7 @@
   7  1,7  - SwATS
   7  4,3  - SwEATS
   7  3,4  - SwIFT
+  7  8,3  | SySOP
   7  9,4  | TACe
   7  9,4  | TACh
   7  9,4  | TACk
@@ -6558,6 +6664,7 @@
   7  1,7  - dITAS
   7  1,7  - eASTS
   7  4,5  - eSES
+  7  9,3  | eTIC
   7  3,2  - fA
   7  8,2  - fA
   7  7,3  | fA
@@ -6602,6 +6709,7 @@
   7  7,5  | hIPS
   7  1,7  - hISTS
   7  8,5  | hOISTS
+  7  8,5  | hOSTAS
   7 10,5  | hYP
   7  3,7  - iPS
   7  3,3  - iPSE
@@ -6680,6 +6788,7 @@
   7  1,7  - pASTS
   7  3,3  - pATESI
   7  5,3  - pESTIS
+  7  5,3  - pETSAI
   7  3,2  - pI
   7  8,2  - pI
   7  5,3  | pI
@@ -6938,6 +7047,7 @@
   6  6,4  - FIxT
   6  9,5  | ICe
   6  9,5  | ICh
+  6  9,5  | ICk
   6  9,5  | ICy
   6  5,4  - IFS
   6  8,5  | IOTA
@@ -7015,6 +7125,7 @@
   6  4,1  | KIm
   6  4,1  | KIn
   6  4,1  | KIp
+  6  4,1  | KIr
   6  4,1  | KIt
   6  4,1  | KSi
   6  4,1  | KaI
@@ -7266,6 +7377,7 @@
   6  5,3  - SEsIA
   6  5,3  - SEsSA
   6  5,3  - SEsTI
+  6  5,3  - SEtTS
   6  5,3  - SExTS
   6  7,7  - SI
   6  4,3  - SIESt
@@ -7334,6 +7446,7 @@
   6  8,5  | SOfIA
   6  8,5  | SOfTA
   6  8,5  | SOfTS
+  6  8,5  | SOjAS
   6  8,5  | SOmAS
   6  8,5  | SOoTS
   6  8,5  | SOrAS
@@ -7393,6 +7506,7 @@
   6  3,3  - STyES
   6 10,5  | SYSIn
   6 10,5  | SYST
+  6 10,5  | SYlIS
   6  2,5  - SaITE
   6  8,3  | SaPO
   6  3,5  - SaTE
@@ -7691,6 +7805,7 @@
   6  5,3  - gETAS
   6  4,4  - gIFT
   6  2,7  - gIST
+  6  2,7  - gITS
   6  8,5  | gOATS
   6  9,4  | gTC
   6  4,3  - hAETS
@@ -7729,6 +7844,7 @@
   6  5,3  - jESTS
   6  8,5  | jOIST
   6  8,5  | jOTAS
+  6  4,4  - kAFS
   6  2,7  - kATS
   6  5,3  - kEATS
   6  5,3  - kEIST
@@ -7810,6 +7926,7 @@
   6  7,5  | nIP
   6  2,3  - nISSE
   6  2,7  - nIST
+  6  3,3  - nITES
   6  8,3  | nITOS
   6  2,7  - nITS
   6 10,5  | nYSSA
@@ -7845,6 +7962,7 @@
   6  4,3  - pIEST
   6  4,3  - pIETA
   6  5,5  | pIP
+  6  8,3  | pISOS
   6  2,7  - pISS
   6  2,7  - pIST
   6  2,3  - pISTE
@@ -7872,6 +7990,7 @@
   6  5,3  - rESIT
   6  5,3  - rESTS
   6  5,3  - rETIA
+  6  2,7  - rIAS
   6  9,4  | rIC
   6  4,4  - rIFS
   6  4,4  - rIFT
@@ -7885,6 +8004,7 @@
   6  8,5  | rOAST
   6  8,5  | rOIST
   6  8,5  | rOTAS
+  6  8,5  | rOTIS
   6  9,4  | sAC
   6  4,4  - sAFI
   6  4,4  - sAFT
@@ -8230,6 +8350,7 @@
   5  6,4  - FAc
   5  6,4  - FAd
   5  6,4  - FAe
+  5  6,4  - FAg
   5  6,4  - FAh
   5  6,4  - FAm
   5  6,4  - FAn
@@ -8317,6 +8438,8 @@
   5  9,4  | InC
   5  3,7  - InS
   5  3,7  - InT
+  5  5,6  | InTIS
+  5  7,6  | InTIS
   5 10,7  - Io
   5  5,6  | IoTAS
   5  7,6  | IoTAS
@@ -8600,6 +8723,7 @@
   5  8,5  | SOfA
   5  8,5  | SOfT
   5  8,5  | SOgA
+  5  8,5  | SOjA
   5  8,5  | SOkA
   5  8,5  | SOlA
   5  8,5  | SOlI
@@ -8662,6 +8786,7 @@
   5  3,5  - STgE
   5  3,5  - STyE
   5 10,5  | SYSt
+  5 10,5  | SYlI
   5 10,5  | SYrT
   5 10,5  | SYsT
   5  9,4  | SaC
@@ -8703,6 +8828,7 @@
   5  3,7  - SiT
   5  3,3  - SiTE
   5  2,7  - SiTS
+  5  2,7  - SkAS
   5  2,7  - SkAT
   5  2,3  - SkATE
   5  4,3  - SkEAT
@@ -8805,6 +8931,7 @@
   5  5,2  - TEm
   5  5,5  - TEm
   5  5,2  - TEn
+  5  5,5  - TEt
   5  5,2  - TEw
   5  5,2  - TEx
   5  5,5  - TEx
@@ -8926,7 +9053,9 @@
   5 10,6  | YApS
   5 10,6  | YAtI
   5 10,6  | YAwS
+  5 10,6  | YAyS
   5 10,6  | YITe
+  5 10,6  | YIdS
   5 10,6  | YIlT
   5 10,6  | YInS
   5 10,6  | YIpS
@@ -9088,6 +9217,7 @@
   5  8,5  | lOSS
   5  8,5  | lOST
   5  8,5  | lOTA
+  5  8,5  | lOTI
   5  8,5  | lOTS
   5 10,5  | lYAS
   5  4,3  - mAES
@@ -9122,6 +9252,7 @@
   5 10,4  | nAYS
   5  5,2  - nEI
   5  4,3  - nIES
+  5  3,5  - nITE
   5  8,3  | nITO
   5  8,5  | nOTA
   5  8,5  | nOTS
@@ -9159,8 +9290,10 @@
   5  3,5  - rATE
   5  8,3  | rATO
   5 10,4  | rAYS
+  5  5,2  - rEI
   5  5,2  - rES
   5  4,3  - rIES
+  5  4,4  - rIF
   5  3,5  - rISE
   5  3,5  - rITE
   5  8,5  | rOIT
@@ -9184,6 +9317,7 @@
   5 10,5  | sYST
   5  3,5  - tATE
   5  5,5  - tEA
+  5  5,5  - tET
   5  8,3  | tIAO
   5  4,3  - tIES
   5  3,5  - tITE
@@ -9208,6 +9342,7 @@
   5  5,2  - wEI
   5  3,5  - wISE
   5  3,5  - wITE
+  5  8,5  | wOP
   5  8,5  | wOST
   5  8,5  | wOTS
   5 10,5  | wYSS
@@ -9215,6 +9350,7 @@
   5  5,5  - xES
   5 10,5  | xYST
   5  3,5  - yATE
+  5 10,4  | yAYS
   5  5,5  - yEA
   5  5,2  - yES
   5  5,5  - yES
@@ -9317,6 +9453,7 @@
   4  6,5  - ET
   4  6,3  - ETA
   4  6,3  - ETAs
+  4  6,3  - ETIc
   4  6,3  - EaST
   4  6,3  - EaTS
   4  6,3  - EdIT
@@ -9400,6 +9537,8 @@
   4  7,6  | InIT
   4  5,6  | InTA
   4  7,6  | InTA
+  4  5,6  | InTI
+  4  7,6  | InTI
   4  5,6  | IoTA
   4  7,6  | IoTA
   4  4,3  - IrES
@@ -9481,6 +9620,7 @@
   4  5,3  - SEcS
   4  5,3  - SEcT
   4  5,3  - SEeS
+  4  5,3  - SEgS
   4  5,3  - SEiS
   4  5,3  - SEiT
   4  5,3  - SElS
@@ -9608,11 +9748,13 @@
   4  5,3  - TEgS
   4  5,3  - TElA
   4  5,3  - TElI
+  4  5,3  - TElS
   4  5,3  - TEmA
   4  5,3  - TEnS
   4  5,3  - TEpA
   4  5,3  - TErI
   4  5,3  - TEsS
+  4  5,3  - TEtS
   4  5,3  - TEwA
   4  5,3  - TEwS
   4  5,5  | TI
@@ -9703,6 +9845,7 @@
   4 10,6  | YAw
   4 10,6  | YAy
   4 10,6  | YI
+  4 10,6  | YId
   4 10,6  | YIn
   4 10,6  | YIp
   4 10,6  | YaS
@@ -9849,6 +9992,7 @@
   4 10,4  | hAY
   4  5,3  - hEAT
   4  5,3  - hEST
+  4  5,3  - hETS
   4  3,7  - hIS
   4  5,5  | hISS
   4  7,5  | hISS
@@ -9947,6 +10091,7 @@
   4  5,5  | nIST
   4  7,5  | nIST
   4  3,7  - nIT
+  4  3,3  - nITE
   4  5,5  | nITS
   4  7,5  | nITS
   4  3,7  - oAT
@@ -9997,6 +10142,8 @@
   4  5,3  - rEIT
   4  5,3  - rEST
   4  5,3  - rETS
+  4  5,5  | rIAS
+  4  7,5  | rIAS
   4  3,3  - rISE
   4  5,5  | rISS
   4  7,5  | rISS
@@ -10040,6 +10187,7 @@
   4  5,3  - tEAT
   4  5,3  - tESS
   4  5,3  - tEST
+  4  5,3  - tETS
   4  7,7  - tI
   4  3,7  - tIS
   4  3,7  - tIT
@@ -10223,6 +10371,7 @@
   3  5,3  - TEl
   3  5,3  - TEm
   3  5,3  - TEn
+  3  5,3  - TEt
   3  5,3  - TEw
   3  5,3  - TEx
   3  5,3  - TEz
@@ -10352,6 +10501,7 @@
   3  5,5  | pIT
   3  4,3  - pTE
   3  5,3  - rEA
+  3  5,3  - rEI
   3  5,3  - rES
   3  5,3  - rET
   3  5,5  | rIA
@@ -10373,6 +10523,7 @@
   3  4,3  - tAE
   3  8,4  | tAOS
   3  5,3  - tEA
+  3  5,3  - tET
   3  4,3  - tIE
   3  5,5  | tIS
   3  7,5  | tIS

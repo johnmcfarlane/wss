@@ -5,6 +5,7 @@
  36  6,7  - MOSQuE
  36  1,3  - aJEE
  35  4,1  | MOtS
+ 35  4,1  | MOwS
  35  4,1  | MaES
  32  6,5  | SHEQEl
  32  2,7  - SaE
@@ -25,6 +26,7 @@
  27  3,1  - AwESOME
  27  4,1  | MOt
  27  4,1  | MOu
+ 27  4,1  | MOw
  27  4,1  | MaE
  27  3,7  - aSEM
  26  4,2  | OeS
@@ -79,6 +81,7 @@
  21  4,1  | SOe
  21  4,1  | SOt
  21  4,1  | SOu
+ 21  4,1  | SOw
  21  4,1  | SaE
  21  4,1  | SoE
  21  4,1  | SuE
@@ -125,12 +128,14 @@
  20  6,2  | SMEtHE
  20  3,6  | ZOoM
  20  3,6  | ZoOMS
+ 20  6,5  | cHEMOS
  20  6,5  | sHMOES
  20  6,5  | tHEMES
  19  4,7  - EEMiS
  19  5,7  - EMOtE
  19  2,3  - JErM
  19  2,3  - JErOME
+ 19  4,5  - MEOuS
  19  4,7  - MEmOS
  19  4,7  - MErOS
  19  4,5  - MEtES
@@ -178,6 +183,7 @@
  18  6,6  | HoMOS
  18  6,2  | MEEcH
  18  6,2  | MEEtH
+ 18  4,5  - MEOu
  18  4,5  - MESa
  18  4,5  - MESe
  18  4,5  - MESo
@@ -197,6 +203,7 @@
  18  4,5  - MuSO
  18  4,2  | Oe
  18  1,7  - Os
+ 18  4,2  | Ow
  18  4,7  - SEMi
  18  6,2  | SEMiH
  18  6,5  - SEQ
@@ -257,6 +264,7 @@
  16  6,7  - MOStE
  16  6,7  - MOaS
  16  6,7  - MObS
+ 16  6,7  - MOcS
  16  6,7  - MOdE
  16  6,7  - MOdS
  16  6,7  - MOgS
@@ -281,6 +289,7 @@
  16  6,7  - MOwS
  16  6,7  - MOzE
  16  6,7  - MoOSE
+ 16  4,6  | OSMOlE
  16  4,6  | OSMOsE
  16  4,6  | OsMOSE
  16  6,5  - SEaM
@@ -494,6 +503,7 @@
  13  2,3  - JEsS
  13  2,3  - JEtE
  13  2,3  - JEtS
+ 13  2,3  - JEwS
  13  6,7  - MhO
  13  6,7  - MiS
  13  6,7  - MoO
@@ -542,7 +552,9 @@
  12  5,7  - ErOSE
  12  6,6  | HEEdS
  12  6,6  | HEElS
+ 12  6,6  | HEbES
  12  6,6  | HElOE
+ 12  6,6  | HElOS
  12  6,6  | HEmES
  12  6,6  | HErES
  12  6,6  | HErOS
@@ -693,6 +705,8 @@
  11  2,3  - JEe
  11  2,3  - JEt
  11  2,3  - JEu
+ 11  2,3  - JEw
+ 11  1,2  - MABES
  11  7,3  | MEESe
  11  5,3  | MEET
  11  5,3  | MEETh
@@ -836,7 +850,10 @@
  10  2,4  - ITEMEd
  10  2,4  - ITEMS
  10  2,4  - ITOiSM
+ 10  1,2  - MABE
  10  1,2  - MABEl
+ 10  1,2  - MABEs
+ 10  1,2  - MABeS
  10  6,3  | MESHEd
  10  6,3  | MESHEs
  10  7,1  | MEStESO
@@ -867,6 +884,7 @@
  10  7,3  | MOaS
  10  5,3  | MOaT
  10  7,3  | MObS
+ 10  7,3  | MOcS
  10  7,3  | MOdS
  10  5,3  | MOeT
  10  7,3  | MOgS
@@ -932,6 +950,7 @@
  10  6,5  - SEgO
  10  6,5  - SElE
  10  6,5  - SEmE
+ 10  6,5  - SEnE
  10  6,5  - SErE
  10  6,5  - SErO
  10  6,5  - SEvE
@@ -990,7 +1009,9 @@
  10  1,4  - mITOME
  10  6,7  - mOM
  10  6,4  | rEHEMS
+ 10  5,2  | rEMOTES
  10  6,7  - rOM
+ 10  4,5  | rOMEOS
  10  6,5  - sEM
  10  6,5  - tEM
  10  6,5  - tOM
@@ -1033,6 +1054,7 @@
   9  2,4  - ITEMs
   9  2,4  - ITEMy
   9  1,2  - MABa
+  9  1,2  - MABe
   9  1,2  - MABi
   9  7,1  | MEEbOS
   9  6,3  | MESH
@@ -1046,6 +1068,8 @@
   9  5,1  | MESOsT
   9  7,1  | MEShES
   9  7,4  | MEShES
+  9  7,1  | MESnES
+  9  7,4  | MESnES
   9  5,1  | MESpOT
   9  7,1  | MESsES
   9  7,4  | MESsES
@@ -1221,6 +1245,7 @@
   9  4,5  | bOMOS
   9  4,5  | bOSOM
   9  6,5  - cEES
+  9  6,5  | cHEMO
   9  6,5  - cOES
   9  4,5  | cOMES
   9  5,2  | cOMETS
@@ -1326,6 +1351,7 @@
   8  5,1  | EMbOST
   8  7,5  - EMeS
   8  7,1  | EMeSES
+  8  7,5  - EMfS
   8  5,3  | EMiTS
   8  5,3  | EMoTE
   8  5,1  | EMpEST
@@ -1380,6 +1406,7 @@
   8  7,2  | MEEkS
   8  7,2  | MEEtS
   8  6,4  | MEH
+  8  7,2  | MEOuS
   8  7,2  | MEOwS
   8  7,4  | MESOSt
   8  7,4  | MESSE
@@ -1424,6 +1451,7 @@
   8  4,5  | MOaS
   8  7,2  | MObES
   8  4,5  | MObS
+  8  4,5  | MOcS
   8  4,5  | MOdE
   8  7,2  | MOdES
   8  5,1  | MOdEST
@@ -1653,6 +1681,7 @@
   8  4,5  | pOME
   8  7,2  | pOMES
   8  4,5  | pOMO
+  8  4,5  | pOMS
   8  5,2  | rEMET
   8  5,3  | rESTEM
   8  4,5  | rOME
@@ -1708,6 +1737,7 @@
   7  7,5  - EMe
   7  7,3  | EMeS
   7  7,5  - EMf
+  7  7,3  | EMfS
   7  5,3  | EMiT
   7  7,5  - EMm
   7  7,5  - EMo
@@ -1724,9 +1754,11 @@
   7  7,5  - ErOSE
   7  7,5  - ErSOE
   7  6,6  | HM
+  7  6,6  | HMm
   7  6,6  | HaM
   7  6,6  | HeM
   7  6,6  | HiM
+  7  6,6  | HmM
   7  6,6  | HoM
   7  6,6  | HuM
   7  2,4  - ITeMS
@@ -1920,8 +1952,10 @@
   7  1,1  | eS
   7  1,2  - fABES
   7  1,1  | iS
+  7  1,2  - mABES
   7  7,4  | mESEM
   7  6,7  - mOS
+  7  1,2  - nABES
   7  6,5  - oES
   7  6,5  | oHM
   7  7,5  - oMS
@@ -2274,6 +2308,7 @@
   6  5,7  - eO
   6  6,7  - eO
   6  5,5  - eS
+  6  7,3  | fEMS
   6  1,2  - gABE
   6  1,2  - gABS
   6  7,3  | gEMS
@@ -2299,12 +2334,15 @@
   6  1,2  - lABS
   6  1,4  - lITES
   6  4,5  | lOOSE
+  6  1,2  - mABE
   6  7,3  | mEMS
   6  1,4  - mITES
   6  6,7  - mO
   6  7,3  | mOMS
   6  4,5  | mOOSE
+  6  1,2  - nABE
   6  1,2  - nABS
+  6  1,4  - nITES
   6  1,4  - nITOS
   6  7,3  | nOMS
   6  4,5  | nOOSE
@@ -2314,6 +2352,7 @@
   6  5,7  - oO
   6  6,7  - oO
   6  6,5  | pHOSE
+  6  7,3  | pOMS
   6  7,3  | rEMS
   6  1,4  - rITES
   6  7,3  | rOMS
@@ -2415,7 +2454,9 @@
   5  6,6  | HESt
   5  6,6  | HEbE
   5  6,6  | HEhE
+  5  6,6  | HEhS
   5  6,6  | HElE
+  5  6,6  | HElO
   5  6,6  | HEmE
   5  6,6  | HEmS
   5  6,6  | HEnS
@@ -2424,6 +2465,7 @@
   5  6,6  | HErO
   5  6,6  | HErS
   5  6,6  | HEtE
+  5  6,6  | HEtS
   5  6,6  | HEwE
   5  6,6  | HEwS
   5  6,6  | HOE
@@ -2445,6 +2487,7 @@
   5  6,6  | HOlS
   5  6,6  | HOmE
   5  6,6  | HOnE
+  5  6,6  | HOnS
   5  6,6  | HOpE
   5  6,6  | HOpS
   5  6,6  | HOrE
@@ -2612,6 +2655,7 @@
   5  7,6  | SEnSE
   5  7,3  | SEnSO
   5  7,6  | SEnSO
+  5  5,3  | SEnTE
   5  7,2  | SErES
   5  7,6  | SErES
   5  6,3  | SEtH
@@ -2789,6 +2833,7 @@
   5  7,5  | eSSEE
   5  1,2  - fAB
   5  5,2  | fEEST
+  5  6,4  | fEHS
   5  1,4  - fITS
   5  5,4  | fMT
   5  4,5  | fOES
@@ -2797,10 +2842,12 @@
   5  5,2  | gEEST
   5  6,5  | gHEE
   5  1,4  - gITE
+  5  1,4  - gITS
   5  4,5  | gOES
   5  4,5  | gOOS
   5  6,3  | gOSH
   5  6,4  | hEHE
+  5  6,4  | hEHS
   5  1,4  - hITS
   5  7,7  - hM
   5  4,5  | hOES
@@ -2836,6 +2883,7 @@
   5  7,2  | mOSES
   5  1,2  - nAB
   5  6,3  | nESH
+  5  1,4  - nITE
   5  1,4  - nITO
   5  1,4  - nITS
   5  4,5  | nOES
@@ -3123,6 +3171,8 @@
   4  7,3  | SEeS
   4  7,6  | SEeS
   4  7,6  | SEgO
+  4  7,3  | SEgS
+  4  7,6  | SEgS
   4  7,3  | SEiS
   4  7,6  | SEiS
   4  5,3  | SEiT
@@ -3131,6 +3181,7 @@
   4  7,6  | SElS
   4  5,3  | SElT
   4  7,6  | SEmE
+  4  7,6  | SEnE
   4  5,3  | SEnT
   4  7,3  | SEpS
   4  7,6  | SEpS
@@ -3248,6 +3299,7 @@
   4  5,3  | SuET
   4  5,2  | SwEET
   4  5,3  | SwOT
+  4  5,6  | TEElS
   4  5,6  | TEEmS
   4  5,6  | TEEnS
   4  5,6  | TEStE
@@ -3257,10 +3309,12 @@
   4  5,6  | TEeS
   4  5,6  | TEgS
   4  5,6  | TElE
+  4  5,6  | TElS
   4  5,6  | TEnS
   4  5,6  | TEpE
   4  5,6  | TEsS
   4  5,6  | TEtE
+  4  5,6  | TEtS
   4  5,6  | TEwS
   4  5,6  | TObE
   4  5,6  | TOdE
@@ -3317,6 +3371,7 @@
   4  4,5  - dE
   4  4,7  - dE
   4  7,3  | dEESS
+  4  5,3  | dEETS
   4  5,3  | dESTO
   4  4,7  - dO
   4  6,4  | dOH
@@ -3398,6 +3453,7 @@
   4  6,4  | pEH
   4  7,4  | pESOS
   4  5,3  | pESTE
+  4  5,3  | pESTO
   4  5,4  | pETOS
   4  6,5  | pHO
   4  4,7  - pO
@@ -3696,6 +3752,7 @@
   3  5,4  | cOTE
   3  5,4  | cOTS
   3  7,3  | dEES
+  3  5,3  | dEET
   3  7,3  | dESS
   3  7,4  | dESS
   3  7,3  | dOES
@@ -3732,6 +3789,7 @@
   3  5,4  | gOTE
   3  5,3  | hEST
   3  5,4  | hETE
+  3  5,4  | hETS
   3  7,3  | hOES
   3  7,4  | hOSE
   3  7,3  | hOSS
@@ -3840,6 +3898,7 @@
   3  7,4  | tESS
   3  5,3  | tEST
   3  5,4  | tETE
+  3  5,4  | tETS
   3  6,5  | tH
   3  7,3  | tOES
   3  7,3  | tOSS
@@ -4086,6 +4145,7 @@
   2  5,6  | TEl
   2  5,6  | TEm
   2  5,6  | TEn
+  2  5,6  | TEt
   2  5,6  | TEw
   2  5,6  | TEx
   2  5,6  | TEz
@@ -4261,6 +4321,7 @@
   2  7,4  | sOS
   2  4,5  | sOS
   2  5,4  | sOT
+  2  5,4  | tET
   2  1,4  - tIT
   2  4,5  | tOE
   2  4,5  | tOO

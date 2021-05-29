@@ -196,6 +196,7 @@
  17  5,8  - WaGS
  17  4,4  | WhORT
  17  5,8  - WiGS
+ 17  5,8  - WoGS
  17  5,8  - aCTG
  17  1,10 - sCR
  17  1,10 - sCT
@@ -232,6 +233,7 @@
  16  2,2  | TRaGAL
  16  5,8  - TRiGS
  16  5,8  - TRoGS
+ 16  5,8  - TRuGS
  16  4,8  - TaWS
  16  2,2  | TeRGAL
  16  4,8  - TeWS
@@ -380,6 +382,7 @@
  14  5,8  - WiG
  14  6,4  | WiSS
  14  6,2  | WiSTS
+ 14  5,8  - WoG
  14  6,2  | WoRTS
  14  6,4  | WuSS
  14  6,4  | WySS
@@ -483,6 +486,7 @@
  12  6,3  | TReSS
  12  6,2  | TRiGS
  12  6,2  | TRoGS
+ 12  6,2  | TRuGS
  12  6,3  | TRuSS
  12  5,8  - TWaS
  12  5,3  | TWiNERS
@@ -624,6 +628,7 @@
   9  6,3  | CoWS
   9  4,5  | GORST
   9  4,5  | GORiC
+  9  4,3  | GaTORS
   9  5,4  | GeNETS
   9  4,2  | GeSTOR
   9  5,4  | GoNERS
@@ -679,6 +684,7 @@
   9  2,9  | iRS
   9  2,9  | iST
   9  2,9  | iTS
+  8  2,5  | CALo
   8  4,5  | COReRS
   8  2,3  | CRaAL
   8  2,3  | CRyAL
@@ -704,6 +710,7 @@
   8  1,9  - KaRT
   8  1,9  - KaTS
   8  1,9  - KeRS
+  8  1,9  - KiRS
   8  1,9  - KiST
   8  1,9  - KiTS
   8  1,9  - KoRS
@@ -748,6 +755,7 @@
   8  6,3  | WiGS
   8  5,4  | WiNER
   8  5,4  | WiNES
+  8  6,3  | WoGS
   8  5,4  | aCNES
   8  5,8  - aCT
   8  6,5  - aCTS
@@ -807,6 +815,7 @@
   7  1,9  - KeS
   7  1,9  - KeT
   7  1,9  - KgR
+  7  1,9  - KiR
   7  1,9  - KiT
   7  1,9  - KoR
   7  1,9  - KoS
@@ -823,6 +832,7 @@
   7  4,5  | RORiC
   7  2,3  | ReGAL
   7  5,4  | ReNEG
+  7  5,4  | ReNEST
   7  4,3  | ReSORT
   7  4,3  | RoTORS
   7  2,3  | RuGAL
@@ -917,6 +927,7 @@
   6  5,5  | GNEu
   6  4,5  | GOReR
   6  4,5  | GOReS
+  6  4,5  | GORpS
   6  4,5  | GORsT
   6  5,4  | GaNE
   6  4,3  | GaTOR
@@ -1072,6 +1083,7 @@
   5  4,5  | GORa
   5  4,5  | GORb
   5  4,5  | GORe
+  5  4,5  | GORp
   5  4,5  | GORy
   5  6,4  | GRS
   5  6,3  | GRaS
@@ -1084,6 +1096,7 @@
   5  6,3  | GeRS
   5  6,3  | GeSS
   5  6,3  | GeTS
+  5  6,3  | GiTS
   5  6,3  | GoSS
   5  6,3  | GpSS
   5  6,3  | GuSS
@@ -1115,6 +1128,7 @@
   5  4,6  | ORiG
   5  6,3  | RaGS
   5  2,3  | RaTAL
+  5  6,3  | ReGS
   5  5,4  | ReNES
   5  5,4  | ReNET
   5  2,3  | ReTAL
@@ -1127,6 +1141,7 @@
   5  2,3  | STeAL
   5  6,3  | SaGS
   5  5,4  | SaNER
+  5  6,3  | SeGS
   5  4,4  | SeOR
   5  2,3  | SeRAL
   5  2,3  | SeTAL
@@ -1250,6 +1265,7 @@
   4  4,5  | SOReR
   4  5,4  | SaNE
   4  2,4  | SeAL
+  4  5,4  | SeNE
   4  2,4  | SiAL
   4  5,4  | SiNE
   4  2,4  | SkAL

@@ -63,6 +63,7 @@
  14  4,4  | BlET
  14  4,2  | BoNNET
  14  4,4  | BrET
+ 14  5,3  | FaVA
  14  4,4  | FeET
  14  4,4  | FlET
  14  4,4  | FrET
@@ -212,10 +213,13 @@
  10  4,3  | BoVE
  10  6,4  | BsKT
  10  4,5  - By
+ 10  5,5  | FAVa
+ 10  5,5  | FAVe
  10  5,5  | FAVi
  10  4,5  | FENT
  10  4,5  - Fa
  10  4,7  - Fa
+ 10  4,3  | FaVE
  10  4,7  - Fe
  10  5,3  | FeTA
  10  4,5  - Ff
@@ -230,6 +234,7 @@
  10  4,3  | NeVEN
  10  5,2  | NoNFAT
  10  5,3  | NoVA
+ 10  5,5  | TABuN
  10  4,5  | TENNe
  10  4,5  | TENNo
  10  4,5  | TENNu
@@ -325,6 +330,7 @@
   9  3,7  - oN
   9  5,4  | oVANT
   9  4,5  | rENN
+  9  5,3  | uNBAN
   8  5,6  | ABNeT
   8  5,6  | ANeNT
   8  5,6  | AVN
@@ -515,6 +521,7 @@
   7  6,6  | KiN
   7  6,6  | KoN
   7  5,5  | NAB
+  7  5,5  | NABe
   7  5,5  | NABk
   7  5,5  | NABs
   7  5,5  | NABu
@@ -525,6 +532,7 @@
   7  4,5  | NEB
   7  4,5  | NEBs
   7  4,5  | NEF
+  7  4,3  | NaBE
   7  4,4  | NaE
   7  6,4  | NaK
   7  5,3  | NaNA
@@ -887,6 +895,7 @@
   5  5,5  | FAc
   5  5,5  | FAd
   5  5,5  | FAe
+  5  5,5  | FAg
   5  5,5  | FAh
   5  5,5  | FAm
   5  5,5  | FAn
@@ -928,9 +937,12 @@
   5  5,5  | NAN
   5  5,5  | NANa
   5  5,5  | NANe
+  5  5,5  | NANs
   5  5,5  | NANt
+  5  5,5  | NAaN
   5  5,5  | NAiN
   5  4,5  | NENe
+  5  5,4  | NaAN
   5  4,3  | NaNE
   5  2,3  | NaNT
   5  4,3  | NeNE
@@ -1040,6 +1052,7 @@
   4  4,3  | NeTE
   4  2,3  | NeTT
   4  2,4  | NeTT
+  4  4,3  | NiTE
   4  4,3  | NoTE
   4  5,5  | TAN
   4  5,5  | TANa
@@ -1150,6 +1163,7 @@
   3  5,5  | NAe
   3  5,5  | NAf
   3  5,5  | NAg
+  3  5,5  | NAh
   3  5,5  | NAk
   3  5,5  | NAm
   3  5,5  | NAn
@@ -1289,6 +1303,7 @@
   2  4,5  | TEl
   2  4,5  | TEm
   2  4,5  | TEn
+  2  4,5  | TEt
   2  4,5  | TEw
   2  4,5  | TEx
   2  4,5  | TEz
@@ -1302,6 +1317,8 @@
   2  1,5  - Te
   2  1,7  - Te
   2  5,4  | TeA
+  2  2,4  | TeT
+  2  2,6  | TeT
   2  2,4  | TgT
   2  2,6  | TgT
   2  1,7  - Th
@@ -1373,6 +1390,7 @@
   2  4,5  | sET
   2  5,4  | sTA
   2  5,5  | tAT
+  2  4,5  | tET
   2  5,4  | uTA
   2  4,4  | uTE
   2  5,5  | vAT

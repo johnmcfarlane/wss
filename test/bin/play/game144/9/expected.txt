@@ -25,6 +25,7 @@
  39  3,1  | HuSPEL
  39  3,1  | HuSPIL
  36  3,1  | HESPeL
+ 36  3,6  | LIcHES
  36  3,6  | LYSInE
  36  3,1  | tEHSIL
  33  7,1  | HYPE
@@ -304,6 +305,7 @@
  20  2,6  | CoPES
  20  2,6  | CoPIS
  20  2,6  | CoPSE
+ 20  2,6  | CrIPE
  20  2,6  | CrIPS
  20  2,6  | CrISP
  20  2,6  | CuSHIE
@@ -373,6 +375,7 @@
  19  3,2  | PoSHLY
  19  7,1  | PrIE
  19  7,1  | SEP
+ 19  3,4  | SHLEpP
  19  8,9  | SHP
  19  7,1  | SIP
  19  3,2  | SImPLY
@@ -749,6 +752,7 @@
  16  3,2  | rIPELY
  16  7,1  | rISE
  16  1,7  - sHI
+ 16  3,4  | sHLEPS
  16  7,1  | sHY
  16  8,9  | sHY
  16  7,1  | sISE
@@ -838,6 +842,8 @@
  15  3,3  | SHILY
  15  3,2  | SHIrLEY
  15  3,4  | SHLEP
+ 15  3,4  | SHLEPp
+ 15  3,4  | SHLEPs
  15  8,9  | SHa
  15  8,9  | SHe
  15  7,1  | SHeE
@@ -982,6 +988,7 @@
  14  3,5  | PLEaS
  14  3,5  | PLEbS
  14  3,5  | PLEiS
+ 14  3,5  | PLEwS
  14  3,5  | PLIErS
  14  3,5  | PLISsE
  14  3,5  | PLIeS
@@ -1031,6 +1038,7 @@
  14  3,2  | SPIEL
  14  3,2  | SPIELs
  14  4,4  | SPIcEY
+ 14  4,4  | SPIkEY
  14  3,4  | SPLaY
  14  7,1  | SaH
  14  3,3  | SaPLE
@@ -1107,6 +1115,7 @@
  13  7,3  | Eo
  13  7,3  | Ex
  13  3,3  | HEILS
+ 13  4,4  | HEIShI
  13  3,2  | HExYL
  13  3,2  | HIPpLE
  13  4,2  | HIpPIES
@@ -1234,6 +1243,7 @@
  13  3,3  | SPILtH
  13  3,4  | SPLEt
  13  3,4  | SPLIt
+ 13  2,3  | SPaCEY
  13  3,2  | SPaIL
  13  3,2  | SPeEL
  13  3,2  | SPeIL
@@ -1273,6 +1283,7 @@
  13  2,7  - cIS
  13  3,3  | dIPLE
  13  7,2  | eH
+ 13  4,4  | hEISHI
  13  3,4  | hELPS
  13  2,7  - hIS
  13  3,4  | kELPS
@@ -1339,7 +1350,6 @@
  12  5,3  - PESO
  12  2,3  | PEaCH
  12  2,3  | PErCH
- 12  2,3  | PErCY
  12  3,2  | PErILS
  12  7,1  | PHI
  12  5,3  - PHoO
@@ -1399,6 +1409,7 @@
  12  3,2  | SHIELs
  12  3,3  | SHILlY
  12  3,3  - SHIPpO
+ 12  3,3  | SHaLEY
  12  4,5  | SIdHE
  12  4,5  | SItHE
  12  3,5  | SLIPE
@@ -1644,8 +1655,11 @@
  11  4,4  | SPItE
  11  3,4  | SPL
  11  2,3  | SPeCIE
+ 11  3,4  | SYLI
  11  3,4  | SYLId
+ 11  3,4  | SYLIs
  11  3,2  | SYbIL
+ 11  4,3  | SYlI
  11  2,3  | SYnCH
  11  3,4  | SaLP
  11  5,3  - SaPO
@@ -1737,6 +1751,7 @@
  11  3,5  | sLISH
  11  2,3  | sPICES
  11  3,3  | sPILES
+ 11  3,4  | sYLIS
  11  7,3  | tE
  11  2,4  | tECHY
  11  4,5  | tIPSY
@@ -1815,6 +1830,7 @@
  10  3,6  | LYeS
  10  3,6  | LYrE
  10  3,6  | LYsE
+ 10  2,4  | PECS
  10  2,4  | PEChS
  10  2,4  | PECkS
  10  2,4  | PECoS
@@ -1951,8 +1967,10 @@
  10  3,4  | hYLI
  10  3,4  | iPL
  10  3,4  | kYLE
+ 10  2,4  | lICHES
  10  3,4  | lILY
  10  2,4  | lYCH
+ 10  2,4  | mICHES
  10  2,4  | nICHES
  10  1,7  - oH
  10  3,4  | oILY
@@ -1962,6 +1980,7 @@
  10  3,4  | pPL
  10  2,4  | rECIP
  10  3,4  | rELY
+ 10  5,3  - rEPO
  10  2,4  | rICHES
  10  1,7  - sH
  10  3,3  | sISLEY
@@ -1973,6 +1992,7 @@
  10  2,3  | sPICS
  10  3,3  | sPILE
  10  3,4  | sPL
+ 10  3,4  | sYLI
  10  1,7  - tH
  10  1,7  - uH
  10  3,4  | uILY
@@ -2017,6 +2037,7 @@
   9  3,4  | EeLY
   9  2,4  | HECkS
   9  7,1  | HEI
+  9  4,1  | HEIShI
   9  3,4  | HELIo
   9  3,4  | HELIx
   9  7,1  | HES
@@ -2077,8 +2098,10 @@
   9  3,6  | LuPIS
   9  3,6  | LuSH
   9  7,2  | PE
+  9  2,4  | PEC
   9  2,4  | PECh
   9  2,4  | PECk
+  9  2,4  | PECs
   9  3,4  | PELeS
   9  3,4  | PELfS
   9  3,4  | PELtS
@@ -2106,6 +2129,8 @@
   9  4,5  | PISkY
   9  4,2  | PIcHI
   9  4,5  | PIkES
+  9  4,3  | PIkIS
+  9  4,5  | PIkIS
   9  4,5  | PIlEI
   9  4,5  | PIlES
   9  4,3  | PIlIS
@@ -2122,6 +2147,7 @@
   9  3,4  | PaLES
   9  3,4  | PaLIS
   9  7,1  | PaS
+  9  2,4  | PeCS
   9  7,1  | PeE
   9  3,4  | PeLES
   9  7,1  | PeS
@@ -2212,6 +2238,7 @@
   9  2,4  | SYCeE
   9  7,1  | SYE
   9  3,4  | SYL
+  9  3,4  | SYLi
   9  3,4  | SYLl
   9  5,3  - SaHO
   9  3,4  | SaLEP
@@ -2256,6 +2283,7 @@
   9  7,1  | fPS
   9  2,4  | fYCES
   9  3,5  | gLEYS
+  9  4,1  | hEISHI
   9  7,1  | iPS
   9  3,3  | jHILS
   9  4,3  | kEPIS
@@ -2367,8 +2395,10 @@
   8  3,4  | HELaS
   8  3,4  | HELlS
   8  3,4  | HELmS
+  8  3,4  | HELoS
   8  3,4  | HELpS
   8  4,3  - HElIO
+  8  5,3  - HElO
   8  5,3  - HErO
   8  7,2  | HI
   8  2,4  | HIC
@@ -2444,6 +2474,7 @@
   8  3,6  | LEItH
   8  3,6  | LEP
   8  3,6  | LEPa
+  8  3,6  | LEPt
   8  3,6  | LESgH
   8  3,6  | LHb
   8  3,6  | LHd
@@ -2471,6 +2502,7 @@
   8  3,4  | PELl
   8  3,4  | PELt
   8  3,4  | PELu
+  8  4,3  - PEStO
   8  4,3  | PEaI
   8  4,3  | PErI
   8  7,1  | PHi
@@ -2516,6 +2548,7 @@
   8  3,4  | PaLI
   8  3,4  | PaLS
   8  4,3  - PaSEO
+  8  2,4  | PeC
   8  3,4  | PeLE
   8  2,4  | PfC
   8  2,4  | PiC
@@ -2759,6 +2792,7 @@
   7  3,4  | HELe
   7  3,4  | HELl
   7  3,4  | HELm
+  7  3,4  | HELo
   7  3,4  | HELp
   7  4,3  | HEiI
   7  3,4  | HILa
@@ -2902,6 +2936,7 @@
   7  4,3  | YEtI
   7  3,4  | YILl
   7  3,4  | YILt
+  7  4,5  | YIdS
   7  4,5  | YIkE
   7  4,5  | YInS
   7  4,5  | YIpE
@@ -2987,6 +3022,7 @@
   6  2,6  | CESt
   6  2,6  | CEdI
   6  2,6  | CEeS
+  6  2,6  | CElS
   6  2,6  | CEpS
   6  2,6  | CEsS
   6  2,6  | CEtI
@@ -3034,6 +3070,7 @@
   6  2,3  | ErIC
   6  7,1  | ErS
   6  7,1  | EsS
+  6  2,3  | EtIC
   6  3,3  | EvIL
   6  4,5  | HIEmS
   6  2,5  | ICE
@@ -3116,6 +3153,7 @@
   6  3,6  | LeP
   6  3,6  | LiP
   6  3,6  | LoP
+  6  3,6  | LwEIS
   6  3,6  | LwP
   6  7,1  | PEd
   6  7,1  | PEe
@@ -3218,6 +3256,7 @@
   6  2,4  | SoCE
   6  7,1  | SoE
   6  3,3  | SoIL
+  6  3,4  | SoLEI
   6  2,3  | SpEC
   6  3,2  | SpEIL
   6  2,3  | SpIC
@@ -3246,6 +3285,7 @@
   6  7,1  | bIS
   6  4,3  | bISIE
   6  4,5  | bISIE
+  6  3,4  | cELS
   6  7,1  | cIE
   6  7,1  | cIS
   6  7,1  | dEI
@@ -3309,6 +3349,7 @@
   6  5,3  - oHIO
   6  3,4  | oILS
   6  7,1  | oSE
+  6  2,4  | pECS
   6  7,1  | pES
   6  2,4  | pICE
   6  2,4  | pICS
@@ -3319,6 +3360,7 @@
   6  7,1  | pSI
   6  7,1  | qIS
   6  2,4  | rECS
+  6  7,1  | rEI
   6  7,1  | rES
   6  5,3  - rHEO
   6  2,4  | rICE
@@ -3334,6 +3376,7 @@
   6  7,1  | sIS
   6  7,1  | sSI
   6  3,4  | tELI
+  6  3,4  | tELS
   6  5,3  - tHEO
   6  5,3  - tHIO
   6  2,4  | tICE
@@ -3362,6 +3405,7 @@
   5  7,6  | AAH
   5  7,6  | AAHs
   5  2,6  | CEe
+  5  2,6  | CEl
   5  2,6  | CEp
   5  2,6  | CIa
   5  2,6  | CId
@@ -3448,6 +3492,7 @@
   5  3,4  | HoL
   5  2,5  | ICe
   5  2,5  | ICh
+  5  2,5  | ICk
   5  2,5  | ICy
   5  7,1  | IHp
   5  7,1  | IHs
@@ -3625,6 +3670,7 @@
   5  2,4  | SoC
   5  3,4  | SoLE
   5  3,4  | SoLI
+  5  3,4  | SyLI
   5  7,1  | YEe
   5  7,1  | YEh
   5  7,1  | YEn
@@ -3632,6 +3678,7 @@
   5  7,1  | YEs
   5  7,1  | YEt
   5  7,1  | YEw
+  5  7,1  | YId
   5  7,1  | YIn
   5  7,1  | YIp
   5  2,5  | aCE
@@ -3714,6 +3761,7 @@
   5  3,7  - oS
   5  2,4  | oSC
   5  7,2  | pE
+  5  2,4  | pEC
   5  4,4  | pHIS
   5  7,2  | pI
   5  2,4  | pIC
@@ -3838,6 +3886,7 @@
   4  3,6  | LEv
   4  3,6  | LEx
   4  3,6  | LEy
+  4  3,6  | LEz
   4  3,6  | LI
   4  3,6  | LIb
   4  3,6  | LId
@@ -3850,7 +3899,6 @@
   4  3,6  | LIr
   4  3,6  | LIs
   4  3,6  | LIt
-  4  3,6  | LIv
   4  3,6  | LIz
   4  3,6  | LSc
   4  3,6  | LSd
@@ -3870,6 +3918,7 @@
   4  4,4  | SsI
   4  4,4  | SuI
   4  4,5  | YI
+  4  4,5  | YId
   4  4,5  | YIn
   4  4,5  | YIp
   4  7,2  | Ye
@@ -3883,6 +3932,7 @@
   4  3,4  | bEL
   4  3,5  | bLS
   4  2,5  | cC
+  4  3,4  | cEL
   4  4,4  | cHI
   4  3,5  | cLI
   4  3,4  | dEL
@@ -4083,6 +4133,7 @@
   2  4,5  | pIS
   2  4,4  | pSI
   2  4,5  | qIS
+  2  4,4  | rEI
   2  4,5  | rIE
   2  4,4  | sEI
   2  4,5  | sIE

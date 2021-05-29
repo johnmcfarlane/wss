@@ -88,6 +88,7 @@
  27  5,3  | QI
  27  2,8  - aIL
  27  2,8  - bEL
+ 27  2,8  - cEL
  27  2,8  - dEL
  27  2,8  - dIL
  27  2,8  - eEL
@@ -131,6 +132,7 @@
  24  3,8  - IsL
  24  6,5  | VAGILe
  24  6,5  | VAGiLE
+ 24  6,5  | mAGLEV
  23  5,8  - LEVI
  23  5,8  - LoQ
  23  1,5  - VEINaL
@@ -234,6 +236,7 @@
  15  3,7  | BEVy
  15  3,7  | BoVE
  15  3,5  - ENId
+ 15  3,5  - ENIf
  15  3,8  - El
  15  3,8  - Es
  15  3,5  - INIt
@@ -253,6 +256,7 @@
  15  5,8  - LEv
  15  5,8  - LEx
  15  5,8  - LEy
+ 15  5,8  - LEz
  15  5,6  | MIrV
  15  4,5  - NiL
  15  5,1  | VELa
@@ -352,6 +356,7 @@
  12  5,8  - lEI
  12  5,8  - nEI
  12  5,1  | pILI
+ 12  5,8  - rEI
  12  5,8  - sEI
  12  9,8  - sEV
  12  5,1  | tELI
@@ -434,6 +439,7 @@
  10  4,4  | KNARlE
  10  5,1  | LEhI
  10  5,1  | LEvI
+ 10  5,1  | LIrI
  10  5,1  | LItI
  10  5,6  | MILIEu
  10  5,6  | MILIcE
@@ -537,6 +543,7 @@
   9  1,5  - oVEN
   9  2,4  - pIKEL
   9  2,4  - pIKLE
+  9  5,2  | rEI
   9  5,2  | sEI
   9  9,8  - sEL
   9  9,8  - sIL
@@ -595,7 +602,9 @@
   8  2,4  - InKIE
   8  5,2  | IwI
   8  2,4  - LEK
+  8  2,4  - LEKe
   8  2,4  - LEKs
+  8  2,4  - LEKu
   8  1,4  - LEaK
   8  1,4  - LEcK
   8  1,4  - LEeK
@@ -612,6 +621,7 @@
   8  1,8  - LeE
   8  1,4  - LeEK
   8  1,8  - LeI
+  8  2,4  - LeKE
   8  1,8  - LiE
   8  2,4  - LiKE
   8  1,8  - LoE
@@ -804,6 +814,7 @@
   7  2,4  - pIKI
   7  6,4  | pLAGE
   7  5,3  | qI
+  7  1,8  - rEI
   7  2,4  - rEKI
   7  1,8  - rIE
   7  1,8  - sEI
@@ -883,6 +894,7 @@
   6  6,8  - Ex
   6  1,8  - IIi
   6  3,4  - IKe
+  6  2,4  - IcK
   6  2,4  - IlK
   6  6,4  | ImAGE
   6  2,4  - InK
@@ -906,6 +918,7 @@
   6  4,4  - KIm
   6  4,4  - KIn
   6  4,4  - KIp
+  6  4,4  - KIr
   6  4,4  - KIt
   6  4,4  - KaE
   6  4,4  - KaI
@@ -931,6 +944,7 @@
   6  2,8  - Lu
   6  5,6  | MIEk
   6  5,6  | MIEn
+  6  9,7  - REI
   6  9,7  - RIE
   6  9,1  | ShOOTERs
   6  2,8  - aE
@@ -1077,6 +1091,7 @@
   5  9,7  - REf
   5  9,7  - REg
   5  9,7  - REh
+  5  9,7  - REi
   5  9,7  - REl
   5  9,7  - REm
   5  9,7  - REn
@@ -1091,6 +1106,7 @@
   5  9,7  - RIc
   5  9,7  - RId
   5  9,7  - RIe
+  5  9,7  - RIf
   5  9,7  - RIg
   5  9,7  - RIk
   5  9,7  - RIm
@@ -1161,6 +1177,7 @@
   4  2,5  - LiN
   4  2,5  - LyN
   4  9,7  - ReE
+  4  9,7  - ReI
   4  9,7  - RiE
   4  9,7  - RoE
   4  9,7  - RoI
@@ -1174,6 +1191,7 @@
   4  2,5  - dEN
   4  2,5  - dIN
   4  2,5  - eEN
+  4  6,5  | fAG
   4  2,5  - fEN
   4  2,5  - fIN
   4  6,5  | gAG
@@ -1215,6 +1233,7 @@
   4  2,5  - yIN
   4  6,5  | zAG
   4  2,5  - zEN
+  4  2,5  - zIN
   3 10,6  | De
   3  2,5  - EeN
   3  2,5  - EoN

@@ -76,6 +76,8 @@
  23  7,5  - MALE
  23  7,5  - MANE
  23  7,5  - MANS
+ 23  3,9  - MESNES
+ 23  6,9  - MESNES
  23  9,3  | MESS
  23  5,9  - MESS
  23  8,9  - SEEM
@@ -156,6 +158,7 @@
  20  9,6  | SELS
  20  8,9  - SEME
  20  4,8  - SEMNAE
+ 20  9,6  | SENE
  20  6,5  - SLAM
  20  6,5  - SMA
  19  9,5  | ESE
@@ -209,6 +212,7 @@
  18  5,9  - SELS
  18  8,9  - SELS
  18  8,9  - SEM
+ 18  8,9  - SENE
  18  8,9  - SLEE
  18  8,9  - SNEE
  17  8,5  - ANSELM
@@ -224,6 +228,8 @@
  17  9,1  | LEME
  17  6,9  - LESE
  17  6,9  - LESS
+ 17  7,8  | MESNES
+ 17  9,8  | MESNES
  17  6,7  - MEWL
  17  6,9  - NESE
  17  6,9  - NESS
@@ -397,6 +403,8 @@
  12  9,1  | SELE
  12  9,8  | SEMEL
  12  9,8  | SEMEN
+ 12  7,1  | SENE
+ 12  9,1  | SENE
  12  4,8  - SENSA
  12  6,7  - SEWEN
  12  6,5  - SLA
@@ -451,13 +459,16 @@
  10  8,5  - ALME
  10  8,5  - ALMS
  10  5,6  | CELE
+ 10  5,6  | CELS
  10  5,6  | CENE
  10  5,6  - CoATEE
  10  9,8  | EMES
+ 10  6,4  - EMFS
  10  5,8  - ENMASS
  10  9,7  | ESE
  10  9,7  | ESS
  10  8,4  - FEME
+ 10  8,4  - FEMS
  10  8,4  - FESSE
  10  7,5  - LA
  10  7,5  | LA
@@ -555,6 +566,7 @@
   8  8,8  - AMEL
   8  8,8  - AMEN
   8  8,5  - ASEM
+  8  5,6  | CEL
   8  9,8  | EELS
   8  9,8  | ELSE
   8  9,8  | EME
@@ -603,6 +615,7 @@
   8  5,4  - SELF
   8  9,8  | SELS
   8  9,8  | SEM
+  8  9,8  | SENE
   8  6,8  - SLAM
   8  9,8  | SLEE
   8  9,8  | SNEE

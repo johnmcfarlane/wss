@@ -196,6 +196,7 @@
  29 10,2  | WEt
  29 10,2  | WEy
  29 10,2  | WOe
+ 29 10,2  | WOg
  29 10,2  | WOn
  29 10,2  | WOt
  29 10,2  | WaE
@@ -424,6 +425,7 @@
  23  7,2  | oXO
  22  2,6  | AXOnE
  22 10,4  | CEe
+ 22 10,4  | CEl
  22 10,4  | CEp
  22 10,5  | CFd
  22 10,5  | CFh
@@ -476,6 +478,7 @@
  22 10,4  | EFs
  22 10,4  | EFt
  22  6,5  | ESCrOW
+ 22  6,2  | EXOnS
  22  7,1  - EXSeC
  22  6,2  | EXpOS
  22 10,5  | FCp
@@ -951,6 +954,7 @@
  17  1,7  - xX
  17  9,8  | xX
  16 10,5  | CEe
+ 16 10,5  | CEl
  16 10,5  | CEp
  16  4,4  | COUE
  16  5,3  | COWLE
@@ -1355,6 +1359,7 @@
  14  7,8  - XEbEC
  14 10,5  | bOCE
  14 10,5  | cOEF
+ 14  6,2  | dECOS
  14  2,3  | dEWAX
  14  5,3  | eXCL
  14  5,1  - eXECS
@@ -1532,6 +1537,7 @@
  12  8,2  - CAfE
  12  8,2  - CAgE
  12  8,2  - CAkE
+ 12  8,2  - CAlO
  12  8,2  - CAmE
  12  8,2  - CAnE
  12  8,2  - CApE
@@ -1609,6 +1615,7 @@
  12  8,2  - FArE
  12  8,2  - FArO
  12  8,2  - FAtE
+ 12  8,2  - FAvE
  12  8,2  - FAzE
  12  7,2  - FEAk
  12  7,2  - FEAl
@@ -1647,6 +1654,7 @@
  12  6,9  - OEr
  12  6,9  - OEs
  12  8,1  | OF
+ 12  7,2  - OFAy
  12  7,8  | OFEr
  12  5,5  | OLEiC
  12  7,8  | OWE
@@ -1881,6 +1889,7 @@
  11  7,8  | EWe
  11  9,8  | EWe
  11  5,4  | EXLa
+ 11  5,1  - EXOnS
  11  5,1  - EXpOS
  11  7,9  - Ed
  11  7,9  - Er
@@ -1975,6 +1984,7 @@
  11  7,8  | FOy
  11  9,8  | FOy
  11  5,4  | FaLCO
+ 11  3,4  | FaVE
  11  5,3  | FeEL
  11  4,1  - FiCOES
  11  5,3  | FiEL
@@ -2093,6 +2103,8 @@
  11  9,8  | WOb
  11  7,8  | WOe
  11  9,8  | WOe
+ 11  7,8  | WOg
+ 11  9,8  | WOg
  11  7,8  | WOk
  11  9,8  | WOk
  11  7,8  | WOn
@@ -2101,6 +2113,8 @@
  11  7,8  | WOo
  11  9,8  | WOo
  11  5,3  | WOoL
+ 11  7,8  | WOp
+ 11  9,8  | WOp
  11  7,8  | WOs
  11  9,8  | WOs
  11  7,8  | WOt
@@ -2299,6 +2313,7 @@
  10  8,2  - FAc
  10  8,2  - FAd
  10  8,2  - FAe
+ 10  8,2  - FAg
  10  8,2  - FAh
  10  2,5  | FAlCO
  10  8,2  - FAm
@@ -2400,6 +2415,7 @@
  10  2,5  | WACE
  10  2,5  | WACO
  10  2,5  | WACkE
+ 10  2,5  | WACkO
  10  2,5  | WAEFu
  10  2,5  | WAFEr
  10  8,2  - WAb
@@ -2846,6 +2862,7 @@
   8  5,4  | CELlO
   8  5,5  | CLOEs
   8  5,4  | COLE
+  8  5,4  | COLEd
   8  5,4  | COLEn
   8  5,4  | COLEs
   8  5,4  | COLEt
@@ -2956,8 +2973,10 @@
   7  8,5  - AREW
   7  2,5  | CAmEO
   7  2,5  | CAnOE
+  7  5,4  | CEL
   7  5,4  | CELe
   7  5,4  | CELl
+  7  5,4  | CELs
   7  5,4  | CELt
   7  5,1  - CErOS
   7  5,5  | CLEd
@@ -3036,6 +3055,7 @@
   7  4,5  | CUEd
   7  4,5  | CUEs
   7  4,5  | CUOn
+  7  5,4  | CaLO
   7  5,4  | CeLE
   7  5,1  - ChOES
   7  6,1  - ChOSE
@@ -3262,6 +3282,7 @@
   7  6,4  | cOSEC
   7  5,3  | cOWL
   7  5,3  | dECL
+  7  5,1  - dECOS
   7  7,8  | dEF
   7  9,8  | dEF
   7  5,4  | dELF
@@ -3310,6 +3331,7 @@
   7  5,3  | hOWL
   7  7,3  | iO
   7  3,5  | iVE
+  7  7,8  | jEW
   7  7,3  | jO
   7  7,8  | jOW
   7  5,3  | jOWL
@@ -3351,6 +3373,7 @@
   7  7,8  | oOF
   7  9,8  | oOF
   7  7,5  - pARC
+  7  7,8  | pEC
   7  5,1  - pECOS
   7  5,4  | pELF
   7  7,8  | pEW
@@ -3428,6 +3451,7 @@
   6  8,5  - ARCo
   6  8,5  - ARCs
   6  8,5  - ARF
+  6  8,5  - ARFs
   6  8,5  - AReW
   6  2,6  | AWE
   6  2,6  | AWEd
@@ -3469,6 +3493,7 @@
   6  2,5  | CAfE
   6  2,5  | CAgE
   6  2,5  | CAkE
+  6  2,5  | CAlO
   6  2,5  | CAmE
   6  2,5  | CAnE
   6  2,5  | CApE
@@ -3493,6 +3518,8 @@
   6  6,3  | CEeS
   6  5,8  - CElE
   6  7,8  - CElE
+  6  6,1  - CElS
+  6  6,3  | CElS
   6  5,8  - CEnE
   6  7,8  - CEnE
   6  5,8  - CEpE
@@ -3591,6 +3618,7 @@
   6  6,4  | CaSE
   6  6,1  - CeES
   6  6,3  | CeES
+  6  5,4  | CeL
   6  2,4  | ChAO
   6  5,8  - ChEE
   6  6,8  - ChEE
@@ -3665,6 +3693,8 @@
   6  6,3  | EfFS
   6  6,8  - ElEC
   6  8,8  - ElEC
+  6  6,1  - EmFS
+  6  6,3  | EmFS
   6  6,8  - EnEW
   6  8,8  - EnEW
   6  8,8  - EnOW
@@ -3684,6 +3714,7 @@
   6  2,5  | FArE
   6  2,5  | FArO
   6  2,5  | FAtE
+  6  2,5  | FAvE
   6  2,5  | FAzE
   6  2,4  | FEAk
   6  2,4  | FEAl
@@ -3714,6 +3745,8 @@
   6  6,3  | FEeS
   6  6,1  - FEgS
   6  6,3  | FEgS
+  6  6,1  - FEhS
+  6  6,3  | FEhS
   6  6,1  - FEiS
   6  6,3  | FEiS
   6  5,8  - FElE
@@ -3722,6 +3755,8 @@
   6  6,3  | FElS
   6  5,8  - FEmE
   6  7,8  - FEmE
+  6  6,1  - FEmS
+  6  6,3  | FEmS
   6  6,1  - FEnS
   6  6,3  | FEnS
   6  5,8  - FErE
@@ -3842,6 +3877,7 @@
   6  6,1  - OCaS
   6  6,3  | OCaS
   6  7,8  - OECi
+  6  2,4  | OFAy
   6  6,8  - OFEr
   6  6,1  - OFfS
   6  6,3  | OFfS
@@ -4040,6 +4076,8 @@
   6  5,8  - WOdE
   6  6,1  - WOeS
   6  6,3  | WOeS
+  6  6,1  - WOgS
+  6  6,3  | WOgS
   6  5,8  - WOkE
   6  6,1  - WOkS
   6  6,3  | WOkS
@@ -4155,6 +4193,8 @@
   6  5,4  | jCL
   6  5,8  - jEFE
   6  7,8  - jEFE
+  6  6,1  - jEWS
+  6  6,3  | jEWS
   6  6,1  - jOWS
   6  6,3  | jOWS
   6  6,8  - kEEF
@@ -4178,11 +4218,14 @@
   6  2,5  | mACO
   6  4,5  - mE
   6  2,4  | mEAW
+  6  4,3  | mEOU
   6  7,8  - mEOW
   6  6,1  - mEWS
   6  6,3  | mEWS
   6  4,7  - mO
   6  2,3  | mOCA
+  6  6,1  - mOCS
+  6  6,3  | mOCS
   6  6,1  - mOWS
   6  6,3  | mOWS
   6  6,5  | mSEC
@@ -4205,6 +4248,8 @@
   6  7,1  - oWSE
   6  6,4  | oWSE
   6  2,5  | pACE
+  6  6,1  - pECS
+  6  6,3  | pECS
   6  6,1  - pEWS
   6  6,3  | pEWS
   6  5,5  | pLF
@@ -4323,6 +4368,7 @@
   5  2,5  | CAw
   5  2,5  | CAy
   5  7,8  - CEe
+  5  7,8  - CEl
   5  7,8  - CEp
   5  8,1  - CSc
   5  6,5  | CSc
@@ -4411,6 +4457,7 @@
   5  2,5  | FAc
   5  2,5  | FAd
   5  2,5  | FAe
+  5  2,5  | FAg
   5  2,5  | FAh
   5  2,5  | FAm
   5  2,5  | FAn
@@ -4638,6 +4685,7 @@
   5  6,4  | iFS
   5  5,7  - iO
   5  2,5  | jAW
+  5  7,8  - jEW
   5  2,5  | kAF
   5  7,8  - kEF
   5  2,5  | lAC
@@ -4662,7 +4710,9 @@
   5  6,5  | oSC
   5  6,8  - oWE
   5  2,5  | pAC
+  5  7,5  - pAREO
   5  2,5  | pAW
+  5  7,8  - pEC
   5  7,8  - pEW
   5  8,1  - pSW
   5  6,5  | pSW
@@ -4836,6 +4886,7 @@
   4  8,2  - hAE
   4  8,2  - hAO
   4  7,5  - hARE
+  4  5,4  | hELO
   4  7,8  | hOE
   4  9,8  | hOE
   4  5,4  | hOLE
@@ -4985,6 +5036,7 @@
   3  5,6  | LEv
   3  5,6  | LEx
   3  5,6  | LEy
+  3  5,6  | LEz
   3  5,6  | LO
   3  5,6  | LOa
   3  5,6  | LOb
@@ -5124,6 +5176,7 @@
   3  5,4  | bOL
   3  7,1  - bOSE
   3  6,4  | bOSE
+  3  5,4  | cEL
   3  5,5  | cLO
   3  6,1  - cOES
   3  6,3  | cOES

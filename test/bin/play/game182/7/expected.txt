@@ -78,6 +78,7 @@
  27 11,6  | dAVITS
  27 11,6  | dIVOTS
  27 11,6  | gAVOTS
+ 27 11,6  | lOVATS
  27 11,6  | pAVOIS
  27 11,6  | pIVOTS
  27 10,4  | uVITO
@@ -110,6 +111,7 @@
  24 11,7  | VAIrS
  24 11,8  | VATS
  24 11,7  | VATeS
+ 24 11,7  | VATuS
  24 11,7  | VAdIS
  24 11,7  | VAgAS
  24 11,7  | VAmOS
@@ -133,7 +135,9 @@
  24  5,7  | dATA
  24 11,7  | dAVIS
  24 11,7  | dIVAS
+ 24 11,7  | fAVAS
  24 11,7  | jAVAS
+ 24  5,7  | kATA
  24 11,7  | kAVAS
  24 11,7  | kIVAS
  24 11,7  | lAVAS
@@ -166,7 +170,9 @@
  21 11,8  | OViS
  21 11,8  | TaVS
  21 11,9  | VAS
+ 21 11,8  | VAcS
  21 11,8  | VAnS
+ 21 11,8  | VArS
  21 11,8  | VAtS
  21 11,8  | VAuS
  21 11,8  | VAvS
@@ -175,6 +181,7 @@
  21  3,3  - VITtA
  21 11,8  | VIaS
  21 11,8  | VIeS
+ 21 11,8  | VIgS
  21 11,8  | VImS
  21 11,8  | VInS
  21  3,3  - VInTA
@@ -196,6 +203,7 @@
  21 11,8  | dIVS
  21  5,7  | kAT
  21 11,8  | kVAS
+ 21 11,8  | lAVS
  21 11,8  | oVIS
  21  5,7  | rAT
  21 10,4  | tAOTAI
@@ -368,6 +376,7 @@
  17 10,4  | tOIT
  17 10,4  | uTAI
  17  3,3  - uVITO
+ 17 10,4  | wAIT
  16  5,8  | ATe
  16  5,8  | ATi
  16  2,3  - AVAnT
@@ -597,6 +606,9 @@
  15 10,4  | tOT
  15 10,4  | uIT
  15 10,4  | uTA
+ 15 10,4  | wAT
+ 15 10,4  | wIT
+ 15 10,4  | wOT
  14  8,10 - AIT
  14  8,10 - AIrA
  14  5,4  | ATAr
@@ -682,6 +694,7 @@
  14 10,8  | dOVE
  14 10,8  | eAVE
  14 10,8  | eVOE
+ 14 10,8  | fAVE
  14 10,8  | fIVE
  14 10,8  | gAVE
  14 10,8  | gIVE
@@ -756,6 +769,7 @@
  12  7,4  - AJEe
  12 11,7  | AOTuS
  12  1,6  - AOrTAL
+ 12 11,7  | ATApS
  12 11,8  | ATIS
  12  1,6  - ATOkAL
  12 11,7  | ATOmS
@@ -1014,6 +1028,8 @@
  12  4,3  - jOTA
  12 11,7  | jOTAS
  12  5,7  | kA
+ 12  4,3  - kATA
+ 12 11,7  | kATAS
  12  4,3  - kOTA
  12 11,7  | lITAS
  12  4,3  - lOTA
@@ -1038,6 +1054,7 @@
  12  4,3  - rITA
  12  4,3  - rOTA
  12 11,7  | rOTAS
+ 12 11,7  | rOTIS
  12  4,3  - sATA
  12 11,7  | sATIS
  12  4,3  - sITA
@@ -1050,6 +1067,8 @@
  12  4,3  - vITA
  12  4,3  - vOTA
  12 11,7  | wAITS
+ 12 10,4  | wO
+ 12 10,4  | wT
  11  3,1  - AIOn
  11  3,1  - ATOm
  11  4,3  - ATmA
@@ -1112,6 +1131,7 @@
  11  8,4  - JEe
  11  8,4  - JEt
  11  8,4  - JEu
+ 11  8,4  - JEw
  11  3,3  - OVIs
  11  8,10 - ObA
  11  8,10 - OdA
@@ -1543,6 +1563,7 @@
   9 11,8  | fITS
   9 11,8  | gATS
   9  2,5  - gAVIA
+  9 11,8  | gITS
   9 11,8  | gOAS
   9 11,8  | gOIS
   9 11,8  | hATS
@@ -1583,6 +1604,7 @@
   9 11,8  | qATS
   9 11,8  | rAIS
   9 11,8  | rATS
+  9 11,8  | rIAS
   9 11,8  | rOTS
   9  2,5  - sAIVA
   9 11,8  | sITS
@@ -1772,6 +1794,7 @@
   8  5,3  | iVA
   8  5,9  | jA
   8  5,3  | jOTA
+  8  5,3  | kATA
   8  2,10 - kATAT
   8  2,10 - kIAAT
   8  5,3  | kOTA
@@ -1939,6 +1962,7 @@
   7  9,10 - eT
   7  5,4  | eTA
   7  3,3  - fAIT
+  7  3,5  - fAVA
   7  5,5  - fAVI
   7  3,3  - fIAT
   7  3,3  - fIOT
@@ -1971,6 +1995,7 @@
   7  9,10 - lO
   7  8,9  | lOR
   7  8,9  | lTR
+  7  6,1  | lUV
   7  9,10 - mA
   7  3,3  - mAAT
   7  9,10 - mO
@@ -2304,6 +2329,7 @@
   6 10,8  | nATE
   6 11,9  | nIS
   6  4,3  - nIT
+  6 10,8  | nITE
   6  6,1  - nO
   6 10,10 - nO
   6 11,9  | nOS
@@ -2638,7 +2664,6 @@
   4  3,5  - AlIA
   4  5,3  - Am
   4  8,10 - Am
-  4  3,6  - AmAL
   4  4,5  - AmATI
   4  3,5  - AmIA
   4  3,6  - AmIL
@@ -3339,6 +3364,7 @@
   3  6,1  | jUT
   3  5,4  | kA
   3  4,6  - kAL
+  3  3,5  - kATA
   3  4,6  - kOL
   3  3,5  - kOTA
   3  6,1  | kUI
@@ -3520,6 +3546,7 @@
   2  4,5  - TaA
   2  4,10 - TaT
   2  4,5  - TeA
+  2  4,10 - TeT
   2  4,10 - TgT
   2  5,4  | Th
   2  4,5  - ThA

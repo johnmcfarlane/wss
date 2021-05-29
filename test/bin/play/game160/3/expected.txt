@@ -133,6 +133,7 @@
  36 10,6  | CArLIE
  36 10,6  | CELItE
  36 10,6  | CELlAE
+ 36 11,8  | CELs
  36 11,8  | CELt
  36 10,6  | CEcILE
  36 10,6  | CElLAE
@@ -420,6 +421,7 @@
  22  1,10 - CALIpEE
  22  8,3  | CALs
  22  7,3  | CAcKLE
+ 22  8,3  | CELs
  22  1,10 - EFfACE
  22  1,10 - EfFACE
  22  1,10 - EnFACE
@@ -571,6 +573,7 @@
  20  9,10 - FAd
  20  9,10 - FAe
  20  5,8  - FAeCAL
+ 20  9,10 - FAg
  20  9,10 - FAh
  20  9,10 - FAm
  20  9,10 - FAn
@@ -608,6 +611,7 @@
  20  7,3  | FLAKEd
  20  7,3  | FLAKEr
  20  7,3  | FLAKEs
+ 20  7,3  | FLAKEy
  20  2,8  - FaCIAL
  20 10,7  | FaCIE
  20  2,10 - FaCIE
@@ -1178,6 +1182,7 @@
  16  8,5  | EyL
  16  5,1  | FACuLA
  16  1,10 - FAErIE
+ 16  4,4  | FAG
  16  4,4  | FAGe
  16  4,4  | FAGs
  16  7,3  | FALK
@@ -1464,6 +1469,7 @@
  15  2,7  - FLItE
  15  7,3  | FLaK
  15  3,9  - FLaV
+ 15  4,4  | FaG
  15  7,3  | FaLK
  15  4,9  - FaVELA
  15  4,8  - FeAL
@@ -1692,6 +1698,7 @@
  14  7,4  | FAKEd
  14  7,4  | FAKEr
  14  7,4  | FAKEs
+ 14  7,4  | FAKEy
  14  3,5  - FAb
  14 10,7  | FAcIE
  14  2,10 - FAcIE
@@ -1828,6 +1835,7 @@
  14  9,10 - LEv
  14  9,10 - LEx
  14  9,10 - LEy
+ 14  9,10 - LEz
  14  7,3  | LICK
  14  1,7  - LIFo
  14  3,8  - LImACEA
@@ -2035,7 +2043,9 @@
  13  2,7  - FAIrE
  13  7,4  | FAKE
  13  5,8  - FALlACE
+ 13  4,9  - FAVE
  13  4,9  - FAVEl
+ 13  4,9  - FAVEs
  13  4,9  - FAVI
  13  4,9  - FAVeL
  13  7,1  | FAaILK
@@ -2232,6 +2242,7 @@
  12  3,8  - CALAItE
  12  5,8  - CALAItE
  12  2,8  - CALlA
+ 12  1,7  - CALo
  12  4,9  - CAVaE
  12  4,9  - CAViE
  12  5,8  - CAbLE
@@ -2349,6 +2360,7 @@
  12  5,8  - FArLE
  12 10,8  | FAtE
  12  2,8  - FAuCAL
+ 12 10,8  | FAvE
  12 10,8  | FAzE
  12  2,5  - FEAk
  12  2,5  - FEAl
@@ -2405,6 +2417,7 @@
  12  4,6  | GAElIC
  12  4,6  | GALEI
  12  4,6  | GALEId
+ 12  4,6  | GELAtI
  12  4,6  | GLACe
  12  4,6  | GLACk
  12  4,6  | GLICk
@@ -2743,6 +2756,8 @@
  11  5,2  | FACiA
  11  2,8  - FAEcAL
  11  7,4  | FAKe
+ 11  4,9  - FAVa
+ 11  4,9  - FAVe
  11  4,9  - FAVi
  11  5,8  - FAcIAL
  11  5,8  - FAcILE
@@ -2776,6 +2791,8 @@
  11  2,7  - FLo
  11  3,5  - Fa
  11  5,3  | FaLA
+ 11  4,9  - FaVA
+ 11  4,9  - FaVE
  11  4,9  - FaVI
  11  3,8  - FeCAL
  11  3,7  - Fi
@@ -2832,6 +2849,7 @@
  11  2,5  - ItAL
  11  7,6  | KEA
  11  7,6  | KoL
+ 11  4,8  - LAArI
  11  5,8  - LACIEr
  11  5,8  - LAFItE
  11  4,4  | LAGEn
@@ -2882,6 +2900,7 @@
  11  4,8  - LeAF
  11  4,8  - LoAF
  11  6,9  - VAC
+ 11  6,9  - VACs
  11  6,9  - VALE
  11  6,9  - VALEs
  11  6,9  - VALEt
@@ -3101,6 +3120,8 @@
  10  2,10 - ALIvE
  10 10,7  | ALbEE
  10  2,10 - ALbEE
+ 10 10,7  | ALlEE
+ 10  2,10 - ALlEE
  10 10,7  | ALlIE
  10  2,10 - ALlIE
  10  9,6  | ALpIEU
@@ -3120,6 +3141,8 @@
  10 10,7  | AiLIE
  10  2,10 - AiLIE
  10  5,3  | AlCAE
+ 10 10,7  | AlLEE
+ 10  2,10 - AlLEE
  10 10,7  | AlLIE
  10  2,10 - AlLIE
  10  1,8  - AmELIA
@@ -3176,6 +3199,7 @@
  10  5,8  - CAvEL
  10  5,8  - CAvIL
  10  5,3  | CAzA
+ 10  5,10 - CEL
  10  5,3  | CEcA
  10  1,5  - CEcA
  10  3,8  - CEcAL
@@ -3262,6 +3286,7 @@
  10  3,8  - FAtAL
  10  5,8  - FAtAL
  10  5,8  - FAtIL
+ 10  5,3  | FAvA
  10  5,8  - FAvEL
  10  1,7  - FAvI
  10  3,8  - FAyAL
@@ -3344,6 +3369,7 @@
  10  4,6  | GuLA
  10  4,6  | GuLE
  10  4,6  | GyLE
+ 10  7,4  | ICK
  10  7,5  | IKEy
  10  7,5  | IKrA
  10  2,5  - ILA
@@ -3371,6 +3397,8 @@
  10  3,5  - LAn
  10  7,3  | LAnK
  10  3,5  - LAp
+ 10 10,7  | LArEE
+ 10  2,10 - LArEE
  10  7,3  | LArK
  10  7,3  | LAsK
  10  3,5  - LAt
@@ -3421,6 +3449,7 @@
  10  7,3  | LeAK
  10  7,3  | LeEK
  10  4,4  | LeGE
+ 10  7,4  | LeKE
  10  4,4  | LiGE
  10  7,4  | LiKE
  10  9,10 - Lo
@@ -3834,6 +3863,7 @@
   9  4,6  | GLEbA
   9  4,6  | GLIA
   9  4,6  | GLIAl
+  9  4,6  | GLIAs
   9  4,6  | GLIdE
   9  4,6  | GLIkE
   9  4,6  | GLImE
@@ -3890,6 +3920,7 @@
   9  4,9  - LAV
   9  4,9  - LAVa
   9  4,9  - LAVe
+  9  4,9  - LAVs
   9  4,9  - LAVy
   9  5,2  | LAcCA
   9  5,2  | LAmIAE
@@ -3898,6 +3929,7 @@
   9  2,5  - LEA
   9  2,7  - LEI
   9  4,3  | LEIGh
+  9  7,4  | LEKe
   9  7,4  | LEKs
   9  4,9  - LEV
   9  4,9  - LEVa
@@ -3915,7 +3947,6 @@
   9  3,10 - LIFEn
   9  3,10 - LIFEy
   9  7,4  | LIKe
-  9  4,9  - LIV
   9  4,9  - LIVe
   9  5,2  | LIcCA
   9  4,3  | LIeGE
@@ -4033,6 +4064,7 @@
   9  5,8  - fACIA
   9  5,8  - fACIE
   9  7,4  | fAKE
+  9  4,9  - fAVE
   9  4,9  - fAVI
   9  7,4  | fIKE
   9  2,8  - fILEA
@@ -4050,6 +4082,7 @@
   9  5,7  - hEI
   9  7,4  | hIKE
   9  4,9  - hIVE
+  9  7,4  | iCK
   9  2,5  - iLA
   9  4,7  - iLE
   9  1,5  - iLEA
@@ -4103,6 +4136,7 @@
   9  4,9  - rAVI
   9  5,7  - rEA
   9  4,8  - rEAAL
+  9  5,7  - rEI
   9  4,9  - rIVA
   9  4,9  - rIVE
   9  5,3  | sACAE
@@ -4379,6 +4413,9 @@
   8  5,8  - FAnE
   8  5,8  - FArE
   8  5,8  - FAtE
+  8  3,8  - FAvA
+  8  5,8  - FAvA
+  8  5,8  - FAvE
   8  5,8  - FAvI
   8  5,8  - FAzE
   8  5,10 - FEE
@@ -4498,6 +4535,7 @@
   8 10,8  | LEdE
   8 10,8  | LEgE
   8  1,7  - LEhI
+  8 10,8  | LEkE
   8 10,8  | LEmE
   8  1,5  - LEnA
   8  2,8  - LEnCA
@@ -4764,11 +4802,15 @@
   7  6,8  - ALInE
   7  6,8  - ALItE
   7  6,8  - ALIvE
+  7  5,2  | ALIyA
+  7  2,8  - ALIyA
+  7  6,8  - ALIyA
   7  3,10 - ALbEE
   7  5,2  | ALdEA
   7  6,8  - ALeC
   7  6,8  - ALeF
   7  6,8  - ALiF
+  7  3,10 - ALlEE
   7  5,2  | ALvIA
   7  5,9  - AVa
   7  5,9  - AVe
@@ -4801,6 +4843,7 @@
   7  3,8  - AlCAE
   7  5,3  | AlFA
   7  6,8  - AlL
+  7  3,10 - AlLEE
   7  4,10 - AmEL
   7  5,1  | AmELIA
   7  6,8  - AnILE
@@ -4830,6 +4873,7 @@
   7  5,8  - CALk
   7  5,8  - CALl
   7  5,8  - CALm
+  7  5,8  - CALo
   7  5,8  - CALp
   7  5,8  - CALs
   7  5,8  - CALx
@@ -4972,6 +5016,7 @@
   7  3,8  - LAnAI
   7  5,8  - LAnAI
   7  2,7  - LAo
+  7  3,10 - LArEE
   7  5,8  - LArIA
   7  5,8  - LAuIA
   7  5,8  - LAyIA
@@ -4994,13 +5039,13 @@
   7  3,7  - Li
   7  3,10 - LiCE
   7  3,10 - LiFE
-  7  4,9  - LiV
   7  3,7  - Lo
   7  2,5  - LoA
   7  4,8  - LoA
   7  3,8  - LoCA
   7  3,10 - LuCE
   7  2,7  - LuI
+  7  4,9  - LuV
   7  6,9  - VAc
   7  6,9  - VAg
   7  6,9  - VAi
@@ -5022,6 +5067,7 @@
   7  6,9  - VIc
   7  6,9  - VId
   7  6,9  - VIe
+  7  6,9  - VIg
   7  6,9  - VIi
   7  6,9  - VIl
   7  6,9  - VIm
@@ -5103,7 +5149,6 @@
   7  2,7  - lEI
   7  2,8  - lEILA
   7  4,9  - lEV
-  7  4,9  - lIV
   7  9,8  | lLEU
   7  3,10 - mALEE
   7  4,4  | mCG
@@ -5134,6 +5179,7 @@
   7  7,3  | rEAK
   7  5,1  | rEALIA
   7  4,10 - rEEL
+  7  2,7  - rEI
   7  4,9  - rEV
   7  2,5  - rIA
   7  4,10 - rIEL
@@ -5273,8 +5319,6 @@
   6  4,4  | AlG
   6  4,5  - Am
   6 10,10 - Am
-  6  4,8  - AmAL
-  6  6,8  - AmAL
   6  6,8  - AmEL
   6  2,7  - AmI
   6 10,8  | AmIE
@@ -5341,6 +5385,7 @@
   6  4,10 - CEE
   6  3,10 - CEdE
   6  5,10 - CEe
+  6  5,10 - CEl
   6  3,10 - CElE
   6  3,10 - CEnE
   6  5,10 - CEp
@@ -5424,6 +5469,7 @@
   6  3,10 - FArE
   6  5,5  | FAt
   6  3,10 - FAtE
+  6  3,10 - FAvE
   6  5,5  | FAy
   6  3,10 - FAzE
   6  4,10 - FEE
@@ -5488,6 +5534,7 @@
   6  4,8  - ILA
   6  5,3  | ILEA
   6  2,5  - IbA
+  6  7,4  | IcK
   6 10,8  | IdEE
   6  2,5  - IlA
   6  7,4  | IlK
@@ -5538,6 +5585,7 @@
   6  5,2  | LEIlA
   6  5,3  | LEdA
   6  3,8  - LEdA
+  6  9,8  | LEkU
   6  5,2  | LElIA
   6  5,3  | LEnA
   6  3,8  - LEnA
@@ -5605,6 +5653,7 @@
   6  3,10 - cACE
   6  3,10 - cAFE
   6  5,3  | cECA
+  6  5,10 - cEL
   6  4,10 - cLEE
   6  3,10 - dACE
   6  7,4  | dAK
@@ -5899,6 +5948,7 @@
   5  5,8  - FAc
   5  5,8  - FAd
   5  5,8  - FAe
+  5  5,8  - FAg
   5  5,8  - FAh
   5  5,8  - FAm
   5  5,8  - FAn
@@ -5953,6 +6003,7 @@
   5  3,8  - IlEAL
   5  3,7  - Io
   5  5,2  | ItALA
+  5  5,8  - LAArI
   5  4,10 - LAEn
   5  4,10 - LAEt
   5  5,8  - LAEtI
@@ -6329,6 +6380,7 @@
   4  5,10 - LEg
   4  3,10 - LEgE
   4  5,10 - LEi
+  4  3,10 - LEkE
   4  3,10 - LEmE
   4  3,10 - LEnE
   4  5,10 - LEp
@@ -6411,6 +6463,7 @@
   4 10,10 - fA
   4  5,5  | fAE
   4 10,9  | fAE
+  4  4,4  | fAG
   4  5,3  | fALA
   4 10,10 - fE
   4  4,8  - fEAL
@@ -6535,6 +6588,7 @@
   4 10,9  | rEE
   4  5,10 - rEE
   4  4,4  | rEG
+  4  5,10 - rEI
   4  4,8  - rIAL
   4 10,9  | rIE
   4  4,4  | rIG
@@ -6588,6 +6642,7 @@
   4  5,3  | vELA
   4  4,8  - vIAL
   4 10,9  | vIE
+  4  4,4  | vIG
   4  3,10 - vILE
   4  5,5  | wAE
   4 10,9  | wAE

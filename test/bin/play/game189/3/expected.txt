@@ -78,6 +78,7 @@
  33  1,3  - lIEVER
  33  1,3  - lOOVER
  33  9,1  | nIEVES
+ 33  9,1  | pOOVES
  33  1,3  - rEIVER
  33  9,1  | rEIVES
  33  1,3  - rIEVER
@@ -99,6 +100,7 @@
  30  4,10 - OOsE
  30  9,1  | OVOIdS
  30  9,6  | SnOOVE
+ 30  9,1  | VEgIES
  30  1,3  - VErIER
  30  1,3  - VEtOER
  30  9,1  | VEtOES
@@ -179,6 +181,7 @@
  21  8,5  | aMOVE
  21  3,6  | bOODIE
  21  9,1  | cOOEES
+ 21  3,6  | fOODIE
  21  3,6  | gOODIE
  21  1,3  - gOOIER
  21  3,6  | hOODIE
@@ -423,6 +426,7 @@
  16  6,4  - RiV
  16  6,8  - TaV
  16  6,8  - ToV
+ 16  2,5  | VEgIE
  16  2,5  | VEnIE
  16  2,5  | VOIcE
  16  2,5  | VOIlE
@@ -478,6 +482,7 @@
  15  6,3  - REIVE
  15  6,3  - ROOVE
  15  9,6  | SIEVE
+ 15  3,5  - VEgIE
  15  3,7  - VEnAE
  15  3,5  - VEnIE
  15  3,5  - VIsIE
@@ -665,6 +670,7 @@
  14  2,8  | nEVI
  14  2,8  | nEVO
  14  1,10 - rEE
+ 14  1,10 - rEI
  14  2,6  | rEVE
  14  2,8  | rEVE
  14  2,6  | rIVE
@@ -815,6 +821,7 @@
  13  2,8  - pOE
  13  2,8  - pOI
  13  2,8  - rEE
+ 13  2,8  - rEI
  13  2,8  - rIE
  13  2,8  - rIO
  13  2,8  - rOE
@@ -932,6 +939,7 @@
  12  3,3  - VIeR
  12  9,3  | VIeS
  12  3,7  - VIgA
+ 12  9,3  | VIgS
  12  3,5  - VIiI
  12  3,5  - VIlI
  12  9,3  | VImS
@@ -1014,6 +1022,8 @@
  12  2,10 - nOO
  12  7,9  | rEE
  12  2,10 - rEE
+ 12  7,9  | rEI
+ 12  2,10 - rEI
  12  4,4  | rEIVED
  12  2,8  | rEV
  12  9,2  | rEVISE
@@ -1780,13 +1790,13 @@
   8  1,10 - It
   8  8,4  | ItMO
   8  5,9  | LEV
-  8  5,9  | LIV
   8  8,6  | MEEd
   8  8,6  | MEEk
   8  8,6  | MEEr
   8  8,6  | MEEt
   8  8,6  | MEIn
   8  8,6  | MEIo
+  8  8,6  | MEOu
   8  8,6  | MEOw
   8  8,6  | MIEk
   8  8,6  | MIEn
@@ -1901,6 +1911,7 @@
   8  4,3  - VERy
   8  9,4  | VESe
   8  9,4  | VESt
+  8  3,2  - VEgIE
   8  4,6  | VElD
   8  4,6  | VEnD
   8  3,2  - VEnIE
@@ -1982,6 +1993,7 @@
   8  5,1  | fOE
   8  7,1  | fOE
   8  5,1  | fOO
+  8  4,6  | fOODIE
   8  8,3  | gEOM
   8  5,1  | gOO
   8  4,6  | gOODIE
@@ -2127,7 +2139,7 @@
   7  8,4  | IsM
   7  5,9  | LaV
   7  5,9  | LeV
-  7  5,9  | LiV
+  7  5,9  | LuV
   7  8,6  | MEdIO
   7  8,6  | MElOE
   7  8,6  | MImEO
@@ -2310,6 +2322,7 @@
   7  1,4  - gOOIER
   7  2,10 - hE
   7  5,7  | hELE
+  7  5,7  | hELO
   7  2,10 - hI
   7  5,7  | hILE
   7  5,2  - hIVE
@@ -2456,6 +2469,7 @@
   6  5,4  - ERsOE
   6  9,5  | ESsIE
   6  5,8  - ETEn
+  6  5,8  - ETIc
   6  5,8  - ETOn
   6  2,6  | EbOE
   6  9,5  - EcO
@@ -2588,6 +2602,7 @@
   6  8,6  | MEsE
   6  8,6  | MEsO
   6  8,6  | MEtE
+  6  8,6  | MEzE
   6  8,6  | MIaE
   6  8,6  | MIaO
   6  8,6  | MIcE
@@ -2781,6 +2796,7 @@
   6  9,6  | SIrEE
   6  9,6  | SOOEy
   6  9,6  | SOdIO
+  6  9,6  | SOlEI
   6  9,6  | SOlIO
   6  9,6  | SOrEE
   6  9,6  | SOsIE
@@ -2794,6 +2810,7 @@
   6  5,2  - VIc
   6  5,2  - VId
   6  5,2  - VIe
+  6  5,2  - VIg
   6  5,2  - VIi
   6  5,2  - VIl
   6  5,2  - VIm
@@ -2952,7 +2969,6 @@
   6  4,6  | lIED
   6  8,4  | lIME
   6  8,4  | lIMO
-  6  5,2  - lIV
   6  5,2  | lO
   6  4,7  | lODE
   6  4,6  | lOED
@@ -3349,6 +3365,7 @@
   5  5,4  - ORfE
   5  5,4  - ORlE
   5  5,4  - ORlO
+  5  5,4  - ORzO
   5  9,5  | OSE
   5  9,5  | OSEs
   5  9,3  | ObES
@@ -3435,6 +3452,7 @@
   5  6,4  - REEn
   5  6,4  - REEs
   5  6,4  - REEt
+  5  6,4  - REI
   5  6,3  - REIcE
   5  6,4  - REId
   5  6,4  - REIf
@@ -3449,6 +3467,7 @@
   5  6,3  - REkI
   5  6,3  - REmI
   5  6,3  - REnO
+  5  6,3  - REpO
   5  6,3  - REtE
   5  6,3  - REvE
   5  6,4  - RIE
@@ -3516,6 +3535,7 @@
   5  9,6  | SElE
   5  9,6  | SEmE
   5  9,6  | SEmI
+  5  9,6  | SEnE
   5  9,6  | SErE
   5  9,6  | SErI
   5  9,6  | SErO
@@ -3659,6 +3679,7 @@
   5  3,4  - dOER
   5  8,4  | dOM
   5  3,4  - dOOR
+  5  4,3  - dORE
   5  4,3  - dORI
   5  9,4  | dOSE
   5  5,4  - dREE
@@ -3949,6 +3970,7 @@
   5  9,4  | yESE
   5  9,4  | yESO
   5  2,8  - yI
+  5  4,7  | yID
   5  2,8  - yO
   5  4,7  | yOD
   5  1,7  | yOHO
@@ -4180,6 +4202,7 @@
   4  5,3  - ORfE
   4  5,3  - ORlE
   4  5,3  - ORlO
+  4  5,3  - ORzO
   4  9,5  | OSsE
   4  3,7  | OaD
   4  4,4  - OaR
@@ -4235,6 +4258,7 @@
   4  6,3  - REEn
   4  6,3  - REEs
   4  6,3  - REEt
+  4  6,3  - REI
   4  6,3  - REId
   4  6,3  - REIf
   4  6,3  - REIm
@@ -4276,6 +4300,7 @@
   4  6,4  - ROmEO
   4  6,4  - ROxIE
   4  6,4  - ReE
+  4  6,4  - ReI
   4  6,4  - RhE
   4  6,3  - RhEO
   4  6,4  - RhO
@@ -4549,6 +4574,7 @@
   4  2,8  | rEE
   4  9,3  | rEES
   4  1,7  | rEH
+  4  2,8  | rEI
   4  9,3  | rEIS
   4  1,8  | rHE
   4  1,8  | rHO
@@ -4784,6 +4810,7 @@
   3  5,9  | LEv
   3  5,9  | LEx
   3  5,9  | LEy
+  3  5,9  | LEz
   3  5,9  | LI
   3  5,9  | LIb
   3  5,9  | LId
@@ -4796,7 +4823,6 @@
   3  5,9  | LIr
   3  5,9  | LIs
   3  5,9  | LIt
-  3  5,9  | LIv
   3  5,9  | LIz
   3  5,9  | LO
   3  5,9  | LOa
@@ -4886,6 +4912,7 @@
   3  6,3  - REg
   3  6,4  - REgO
   3  6,3  - REh
+  3  6,3  - REi
   3  6,4  - REkI
   3  6,3  - REl
   3  6,3  - REm
@@ -4893,6 +4920,7 @@
   3  6,3  - REn
   3  6,4  - REnO
   3  6,3  - REp
+  3  6,4  - REpO
   3  6,3  - REs
   3  6,3  - REt
   3  6,4  - REtE
@@ -4908,6 +4936,7 @@
   3  6,3  - RId
   3  6,4  - RIdE
   3  6,3  - RIe
+  3  6,3  - RIf
   3  6,4  - RIfE
   3  6,3  - RIg
   3  6,3  - RIk
@@ -5101,6 +5130,7 @@
   3  7,1  | dO
   3  3,7  | dOD
   3  4,3  - dOR
+  3  4,4  - dORE
   3  4,4  - dORI
   3  9,4  | dOS
   3  3,8  | eDO
@@ -5178,6 +5208,7 @@
   3  4,4  - kERO
   3  9,4  | kES
   3  3,7  | kID
+  3  4,3  - kIR
   3  4,3  - kOR
   3  4,4  - kORE
   3  4,4  - kORI
@@ -5325,6 +5356,7 @@
   3  4,3  - yER
   3  4,4  - yERE
   3  9,4  | yES
+  3  3,7  | yID
   3  5,1  | yO
   3  7,1  | yO
   3  3,7  | yOD
@@ -5571,6 +5603,7 @@
   2  6,4  - REf
   2  6,4  - REg
   2  6,4  - REh
+  2  6,4  - REi
   2  6,4  - REl
   2  6,4  - REm
   2  6,4  - REn
@@ -5585,6 +5618,7 @@
   2  6,4  - RIc
   2  6,4  - RId
   2  6,4  - RIe
+  2  6,4  - RIf
   2  6,4  - RIg
   2  6,4  - RIk
   2  6,4  - RIm
@@ -5609,6 +5643,7 @@
   2  6,4  - ROx
   2  6,4  - ROy
   2  6,3  - ReE
+  2  6,3  - ReI
   2  6,3  - RhE
   2  6,3  - RhO
   2  6,3  - RiE
@@ -5648,6 +5683,7 @@
   2  6,8  - TEl
   2  6,8  - TEm
   2  6,8  - TEn
+  2  6,8  - TEt
   2  6,8  - TEw
   2  6,8  - TEx
   2  6,8  - TEz
@@ -5776,6 +5812,7 @@
   2  4,4  - kER
   2  5,2  - kIE
   2  2,7  | kIE
+  2  4,4  - kIR
   2  4,7  - kOA
   2  4,2  - kOI
   2  4,5  - kOI
@@ -5831,6 +5868,8 @@
   2  5,4  - pRO
   2  4,7  - rEA
   2  2,7  | rEE
+  2  4,2  - rEI
+  2  4,5  - rEI
   2  4,7  - rIA
   2  5,2  - rIE
   2  2,7  | rIE

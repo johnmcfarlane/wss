@@ -64,6 +64,7 @@
  33  9,1  | JeeS
  33  9,1  | JesS
  33  9,1  | JetS
+ 33  9,1  | JewS
  33  9,1  | JibS
  33  9,1  | JigS
  33  9,1  | JinS
@@ -90,6 +91,7 @@
  33  4,2  | fIJIAn
  33  9,1  | flUSH
  33  9,1  | frUSH
+ 33  4,5  | gAIJIn
  33  9,1  | grUSH
  33  9,1  | plUSH
  33  9,1  | shUSH
@@ -133,6 +135,7 @@
  30  9,1  | bUkSHI
  30  9,1  | hUaSHI
  30  9,1  | hUbSHI
+ 30  9,1  | heISHI
  30  9,1  | mUnSHI
  29  7,3  - DHoUl
  29  3,3  | JUnKIe
@@ -270,6 +273,7 @@
  21  2,7  - HIro
  21  9,1  | HUaShI
  21  9,1  | HUbShI
+ 21  9,1  | HeIShI
  21  4,5  | JAgHIr
  21  3,4  | JUKIng
  21  1,7  - JoIe
@@ -281,7 +285,9 @@
  21  9,1  | daHS
  21  9,1  | edHS
  21  9,1  | etHS
+ 21  9,1  | feHS
  21  9,1  | haHS
+ 21  9,1  | heHS
  21  9,1  | icHS
  21  3,2  | mUJIK
  21  3,2  | mUJIKs
@@ -308,6 +314,8 @@
  20  4,4  | kHAJUr
  20  6,2  | maGHI
  20  4,4  | pHAJUs
+ 20  4,3  | pUJAH
+ 20  4,3  | pUJAHs
  20  4,3  | pUJArI
  20  4,2  | tHUJA
  20  4,2  | tHUJAs
@@ -323,6 +331,8 @@
  19  9,2  | JoSHUa
  19  9,2  | JoSIaH
  19  3,6  | KIlIJ
+ 19  5,6  | PUJaH
+ 19  5,6  | PUJaHs
  19  9,4  | SHohJI
  19  9,4  | ShoHJI
  19  1,7  - UmIrI
@@ -446,6 +456,7 @@
  17  3,6  | KIliJ
  17  3,6  | KilIJ
  17  5,6  | PUJarI
+ 17  5,6  | PuJaH
  17  9,4  | SUJI
  17  9,3  - Ubi
  17  9,3  - Uca
@@ -532,6 +543,7 @@
  17  1,7  - pHIt
  17  2,7  - pIlI
  17  4,3  | pUJA
+ 17  4,3  | pUJAh
  17  4,3  | pUJAs
  17  3,4  | pUKIsH
  17  1,7  - sHIa
@@ -556,6 +568,7 @@
  17  1,7  - wHIn
  17  1,7  - wHIr
  17  1,7  - wHIt
+ 16  6,4  | GaIJIn
  16  6,5  - HEii
  16  2,7  - HI
  16  3,4  | HIKUlI
@@ -584,6 +597,7 @@
  16  8,2  | JiM
  16  8,1  | JooM
  16  5,6  | PUJa
+ 16  5,6  | PUJah
  16  5,6  | PUJas
  16  5,5  | UPJet
  16  1,7  - aHI
@@ -684,6 +698,7 @@
  15  3,4  | JoKy
  15  4,2  | JosIAH
  15  3,4  | JuKe
+ 15  3,6  | KHoUm
  15  3,6  | KUeH
  15  3,6  | KUsHa
  15  9,4  | SIJIll
@@ -875,6 +890,7 @@
  14  2,4  | kHOJa
  14  4,2  | kHaJA
  14  4,2  | kHoJA
+ 14  4,3  | puJAH
  14  4,5  | rAJIv
  14  4,5  | rAJaH
  14  4,3  | raJAH
@@ -987,6 +1003,7 @@
  13  2,7  - Hit
  13  9,5  - Hld
  13  9,5  - Hm
+ 13  9,5  - Hmm
  13  9,5  - Hny
  13  9,5  - Ho
  13  1,7  - HoI
@@ -1128,17 +1145,20 @@
  13  9,2  | lUSHaI
  13  9,2  | lUSHeI
  13  2,7  - maH
+ 13  2,7  - naH
  13  2,7  - paH
  13  2,7  - raH
  13  4,5  | sAJoU
  13  3,2  | sHUcK
  13  3,2  | sHeIK
+ 13  3,2  | sHtIK
  13  3,4  | sIKH
  13  3,4  | sIKHs
  13  4,3  | sUrAHI
  13  2,7  - saH
  13  2,3  | saJOU
  13  8,2  | saMH
+ 13  3,2  | tHUnK
  13  1,7  - vIIi
  13  9,2  | vISHnU
  13  1,7  - viII
@@ -1188,6 +1208,7 @@
  12  9,1  | HawS
  12  9,1  | HayS
  12  4,7  - Hed
+ 12  9,1  | HehS
  12  1,7  - HeiI
  12  9,1  | HemS
  12  4,7  - Hen
@@ -1196,6 +1217,7 @@
  12  9,1  | HerS
  12  4,7  - Hes
  12  4,7  - Het
+ 12  9,1  | HetS
  12  9,1  | HewS
  12  2,7  - Hi
  12  4,7  - Hid
@@ -1215,6 +1237,7 @@
  12  9,1  | HogS
  12  9,1  | HolS
  12  4,7  - Hon
+ 12  9,1  | HonS
  12  4,7  - Hoo
  12  9,1  | HopS
  12  9,1  | HorS
@@ -1317,6 +1340,7 @@
  12  5,6  | PrUH
  12  5,6  | PraHU
  12  9,4  | SUsHI
+ 12  9,4  | SUsHIs
  12  9,3  - UH
  12  4,3  | UHlAn
  12  2,2  | UHllO
@@ -1387,6 +1411,8 @@
  12  1,7  - rHa
  12  9,1  | rHoS
  12  9,1  | rHuS
+ 12  2,4  | rIOJa
+ 12  4,2  | rIoJA
  12  4,4  | rUAcH
  12  4,5  | sAdHU
  12  4,3  | sHIAI
@@ -1399,6 +1425,7 @@
  12  9,1  | sHeS
  12  1,7  - sHi
  12  9,2  | sUSHI
+ 12  9,2  | sUSHIs
  12  2,4  | shOJI
  12  3,2  | tHIcK
  12  3,2  | tHIlK
@@ -1619,6 +1646,7 @@
  11  4,3  | JurA
  11  4,3  | JuzA
  11  3,6  | KHa
+ 11  3,6  | KHaf
  11  3,6  | KHan
  11  3,6  | KHar
  11  3,6  | KHat
@@ -1673,6 +1701,7 @@
  11  9,4  | SUgH
  11  9,4  | SUgHs
  11  9,4  | SUsHi
+ 11  9,4  | SoJa
  11  9,4  | SqUIsH
  11  9,4  | SuJi
  11  5,5  | UPwHIr
@@ -1711,6 +1740,7 @@
  11  9,2  | cUSH
  11  9,2  | cUSHy
  11  6,1  | crIG
+ 11  4,5  | dAsHI
  11  6,2  | dIG
  11  2,7  - dIa
  11  2,7  - dIb
@@ -1871,9 +1901,11 @@
  11  2,7  - sIs
  11  2,7  - sIt
  11  2,7  - sIx
+ 11  2,5  | sOJa
  11  9,2  | sUSHi
  11  3,4  | siKH
  11  6,1  | snIG
+ 11  4,3  | soJA
  11  6,1  | spIG
  11  6,1  | swIG
  11  4,5  | tAJ
@@ -1891,6 +1923,7 @@
  11  6,1  | thIG
  11  6,1  | trIG
  11  6,1  | twIG
+ 11  6,2  | vIG
  11  1,7  - vIiI
  11  4,5  | wAkHI
  11  8,1  | wHIM
@@ -1909,6 +1942,7 @@
  11  2,7  - xIs
  11  2,7  - xIx
  11  4,5  | yAJe
+ 11  2,7  - yId
  11  2,7  - yIn
  11  3,4  | yUKI
  11  6,2  | zIG
@@ -2188,6 +2222,7 @@
  10  4,5  | pAsH
  10  4,5  | pAtH
  10  2,7  - pI
+ 10  4,3  | pUjAH
  10  1,7  - phI
  10  1,7  - poI
  10  1,7  - ppI
@@ -2205,6 +2240,7 @@
  10  4,3  | rHeA
  10  9,2  | rISHI
  10  9,2  | rISHIs
+ 10  1,7  - reI
  10  1,7  - roI
  10  4,5  | sAdH
  10  4,5  | sAhH
@@ -2284,6 +2320,7 @@
   9  9,3  - Ibo
   9  9,3  - Ice
   9  9,3  - Ich
+  9  9,3  - Ick
   9  9,3  - Icy
   9  9,3  - Ide
   9  9,3  - Ids
@@ -2393,6 +2430,7 @@
   9  5,6  | PHIlIp
   9  5,6  | PHU
   9  5,6  | PHUt
+  9  5,6  | PHUts
   9  5,6  | PIcUl
   9  5,6  | PIcUs
   9  5,6  | PIlUm
@@ -2405,6 +2443,7 @@
   9  5,6  | PIsUm
   9  5,6  | PItcHI
   9  5,6  | PIwUt
+  9  5,6  | PUjaH
   9  5,6  | PUncH
   9  5,6  | PUrIrI
   9  5,6  | PaHI
@@ -2441,6 +2480,7 @@
   9  9,4  | SHrI
   9  9,4  | SHrIp
   9  9,4  | SHrIs
+  9  9,4  | SHtIk
   9  9,4  | SHuI
   9  9,4  | SIcH
   9  9,4  | SIcHt
@@ -2456,6 +2496,7 @@
   9  9,4  | SIsH
   9  9,4  | SItH
   9  9,4  | SItHe
+  9  9,4  | SUrImI
   9  9,4  | SadHU
   9  9,4  | ScHUIt
   9  1,5  - UH
@@ -2522,6 +2563,7 @@
   9  3,3  | baUK
   9  9,1  | boIS
   9  3,3  | boUK
+  9  9,1  | brIS
   9  4,4  | cHAUI
   9  8,1  | cHaM
   9  8,1  | cHeM
@@ -2577,6 +2619,7 @@
   9  9,1  | gUnS
   9  9,1  | gUsS
   9  9,1  | gUtS
+  9  9,1  | gUvS
   9  9,1  | gUyS
   9  3,3  | gaUK
   9  9,1  | ghIS
@@ -2636,6 +2679,7 @@
   9  9,1  | lUmS
   9  9,1  | lUvS
   9  9,1  | leIS
+  9  3,4  | leKU
   9  3,3  | leUK
   9  9,1  | loIS
   9  3,3  | loUK
@@ -2669,6 +2713,7 @@
   9  9,1  | otIS
   9  9,1  | ovIS
   9  3,4  | pIKI
+  9  3,4  | pIKIs
   9  9,2  | pISH
   9  9,2  | pISHu
   9  4,1  | pIqUIA
@@ -2771,6 +2816,7 @@
   9  3,4  | yUKi
   9  3,4  | yUKs
   9  9,1  | yUkS
+  9  9,1  | yUpS
   9  3,3  | yeUK
   9  9,1  | ywIS
   9  3,3  | zoUK
@@ -2831,6 +2877,7 @@
   8  9,5  - IsH
   8  6,6  | IzUmI
   8  3,6  | KIakI
+  8  3,6  | KIbbI
   8  3,6  | KIbeI
   8  3,6  | KIkkI
   8  3,6  | KIkoI
@@ -3021,12 +3068,14 @@
   8  2,2  | dUrIO
   8  2,2  | dUsIO
   8  6,2  | daG
+  8  9,2  | daSHI
   8  6,2  | diG
   8  6,2  | doG
   8  8,1  | duIM
   8  9,3  | eSHIn
   8  8,1  | emIM
   8  2,2  | fUgIO
+  8  6,2  | faG
   8  6,2  | fiG
   8  6,2  | foG
   8  8,1  | frIM
@@ -3130,6 +3179,7 @@
   8  8,2  | rIM
   8  1,7  - rIa
   8  4,7  - rId
+  8  4,7  - rIf
   8  4,7  - rIn
   8  4,7  - rIo
   8  4,7  - rIt
@@ -3162,6 +3212,7 @@
   8  8,1  | stIM
   8  9,2  | suSHI
   8  8,1  | swIM
+  8  4,5  | tAHInI
   8  4,5  | tAHItI
   8  3,3  | tHaK
   8  8,2  | tIM
@@ -3184,6 +3235,7 @@
   8  1,7  - vIi
   8  6,2  | vaG
   8  6,2  | veG
+  8  6,2  | viG
   8  6,2  | voG
   8  8,2  | wIM
   8  4,7  - wId
@@ -3193,8 +3245,10 @@
   8  6,2  | waG
   8  8,1  | whIM
   8  6,2  | wiG
+  8  6,2  | woG
   8  4,7  - xIs
   8  4,5  | yAqUI
+  8  4,7  - yId
   8  4,7  - yIn
   8  6,2  | zaG
   8  6,2  | ziG
@@ -3342,8 +3396,10 @@
   7  3,6  | KIns
   7  3,6  | KIp
   7  3,6  | KIps
+  7  3,6  | KIr
   7  3,6  | KIrk
   7  3,6  | KIrn
+  7  3,6  | KIrs
   7  3,6  | KIsh
   7  3,6  | KIss
   7  3,6  | KIst
@@ -3410,6 +3466,7 @@
   7  5,6  | PIUte
   7  5,6  | PIcI
   7  5,6  | PIkI
+  7  5,6  | PIkIs
   7  5,6  | PIlI
   7  5,6  | PIlIn
   7  5,6  | PIlIs
@@ -3880,6 +3937,7 @@
   7  3,3  | pUcK
   7  4,3  | pUjA
   7  4,3  | pUkA
+  7  4,3  | pUlA
   7  3,3  | pUlK
   7  4,3  | pUmA
   7  4,3  | pUnA
@@ -4113,6 +4171,7 @@
   6  4,3  - IbaD
   6  9,1  | IbiS
   6  6,6  | IcHU
+  6  3,4  | IcK
   6  3,4  | IcKy
   6  9,1  | IceS
   6  9,1  | IchS
@@ -4207,6 +4266,7 @@
   6  5,6  | PUku
   6  5,6  | PUky
   6  5,6  | PUl
+  6  5,6  | PUla
   6  5,6  | PUle
   6  5,6  | PUli
   6  5,6  | PUlk
@@ -4252,6 +4312,7 @@
   6  5,6  | PaUl
   6  5,6  | PaUp
   6  5,6  | PaUt
+  6  5,6  | PadI
   6  5,6  | PahI
   6  5,6  | PalI
   6  5,6  | PanI
@@ -4379,6 +4440,7 @@
   6  9,1  | bIbS
   6  3,3  | bIcK
   6  9,1  | bIdS
+  6  9,1  | bIgS
   6  2,2  | bIlIO
   6  3,3  | bIlK
   6  3,3  | bInK
@@ -4464,6 +4526,7 @@
   6  3,3  | gInK
   6  9,1  | gInS
   6  9,1  | gIpS
+  6  9,1  | gItS
   6  4,2  | gUIbA
   6  8,2  | gaM
   6  8,2  | geM
@@ -4501,6 +4564,7 @@
   6  4,5  | kAItHI
   6  4,5  | kAUcH
   6  4,4  | kHAIkI
+  6  2,4  | kHOUm
   6  3,3  | kIcK
   6  9,1  | kIdS
   6  9,1  | kIfS
@@ -4508,6 +4572,7 @@
   6  9,1  | kInS
   6  9,1  | kIpS
   6  3,3  | kIrK
+  6  9,1  | kIrS
   6  9,1  | kIsS
   6  9,1  | kItS
   6  2,5  | kOHUa
@@ -4612,6 +4677,7 @@
   6  4,2  | qUIrA
   6  2,4  | qUOtH
   6  4,1  | rHIbIA
+  6  9,1  | rIaS
   6  9,1  | rIbS
   6  3,3  | rIcK
   6  9,1  | rIdS
@@ -4687,6 +4753,7 @@
   6  9,1  | vIaS
   6  3,3  | vIcK
   6  9,1  | vIeS
+  6  9,1  | vIgS
   6  9,1  | vImS
   6  9,1  | vInS
   6  9,1  | vIpS
@@ -4711,6 +4778,7 @@
   6  8,2  | weM
   6  8,2  | wiM
   6  2,7  - xi
+  6  9,1  | yIdS
   6  9,1  | yInS
   6  9,1  | yIpS
   6  3,3  | yIrK
@@ -4720,6 +4788,7 @@
   6  2,7  - yi
   6  8,2  | yoM
   6  9,1  | zIgS
+  6  9,1  | zInS
   6  9,1  | zIpS
   6  9,1  | zItS
   5  4,6  | AIrtH
@@ -4845,6 +4914,7 @@
   5  4,2  | IcIcA
   5  9,5  - Ice
   5  9,5  - Ich
+  5  9,5  - Ick
   5  9,5  - Icy
   5  9,3  - Id
   5  9,5  - Id
@@ -4948,6 +5018,7 @@
   5  3,6  | Kim
   5  3,6  | Kin
   5  3,6  | Kip
+  5  3,6  | Kir
   5  3,6  | Kit
   5  3,6  | Koa
   5  3,6  | Kob
@@ -5371,6 +5442,7 @@
   5  3,5  | iKe
   5  5,5  | iPId
   5  5,5  | iPIl
+  5  3,4  | icK
   5  5,7  - id
   5  5,7  - if
   5  3,4  | ilK
@@ -5496,6 +5568,7 @@
   5  2,3  | sHoOI
   5  9,2  | sISI
   5  9,2  | sISsU
+  5  3,5  | sKa
   5  3,5  | sKi
   5  3,5  | sKy
   5  5,5  | sPIc
@@ -5822,6 +5895,7 @@
   4  2,5  | HOne
   4  2,5  | HOng
   4  2,5  | HOnk
+  4  2,5  | HOns
   4  2,5  | HOnt
   4  2,5  | HOo
   4  2,5  | HOod
@@ -5880,6 +5954,7 @@
   4  1,7  - He
   4  9,2  | HeS
   4  9,2  | HeSt
+  4  2,3  | HelO
   4  4,3  | HerA
   4  2,3  | HerO
   4  4,3  | HexA
@@ -6016,6 +6091,7 @@
   4  5,6  | Pdq
   4  5,6  | Pe
   4  5,6  | Pea
+  4  5,6  | Pec
   4  5,6  | Ped
   4  5,6  | Pee
   4  5,6  | Peg
@@ -6144,6 +6220,7 @@
   4  4,3  | UrIAh
   4  4,3  | UrIAl
   4  4,3  | UrIAn
+  4  4,2  | UrbIA
   4  2,3  | UvIOl
   4  4,5  | aAH
   4  4,5  | aAHs
@@ -6248,6 +6325,7 @@
   4  2,4  | crOH
   4  4,5  | dAH
   4  4,5  | dAHi
+  4  4,5  | dAHl
   4  4,5  | dAHs
   4  4,5  | dAUrI
   4  4,5  | dAhI
@@ -6374,6 +6452,7 @@
   4  4,5  | kAvI
   4  4,5  | kAzI
   4  4,4  | kHA
+  4  4,4  | kHAf
   4  4,4  | kHAn
   4  4,4  | kHAr
   4  4,4  | kHAt
@@ -6446,6 +6525,7 @@
   4  4,3  | maHA
   4  4,3  | moHA
   4  2,3  | moHO
+  4  4,5  | nAH
   4  4,5  | nAoI
   4  4,5  | nAsI
   4  4,5  | nAvI
@@ -6492,6 +6572,7 @@
   4  4,5  | pAHi
   4  4,5  | pAHo
   4  4,5  | pAUxI
+  4  4,5  | pAdI
   4  4,5  | pAhI
   4  4,5  | pAlI
   4  4,5  | pAnI
@@ -7007,6 +7088,7 @@
   3  9,4  | SwUm
   3  9,4  | SyUd
   3  9,4  | SyUn
+  3  9,4  | SylI
   3  4,5  | UAng
   3  2,4  | UdO
   3  2,4  | UdOm
@@ -7330,6 +7412,7 @@
   3  2,4  | mUOn
   3  2,3  | mUsO
   3  2,3  | mUzO
+  3  2,4  | meOU
   3  4,5  | nAUr
   3  4,5  | nAUt
   3  4,4  | nIAIs
@@ -7632,6 +7715,7 @@
   2  4,3  | IniA
   2  2,3  | InrO
   2  4,3  | IntA
+  2  6,6  | IntI
   2  2,3  | IntO
   2  1,5  - Io
   2  1,7  - Io
@@ -7962,6 +8046,7 @@
   2  2,5  | lOkI
   2  2,5  | lOlI
   2  2,5  | lOrI
+  2  2,5  | lOtI
   2  4,5  | mAIa
   2  4,5  | mAId
   2  4,5  | mAIl
@@ -8063,6 +8148,7 @@
   2  4,5  | rAIs
   2  4,4  | rIA
   2  4,4  | rIAl
+  2  4,4  | rIAs
   2  2,4  | rIO
   2  2,4  | rIOt
   2  2,3  | rIvO
@@ -8312,6 +8398,7 @@
   1  6,6  | Ibo
   1  6,6  | Ice
   1  6,6  | Ich
+  1  6,6  | Ick
   1  6,6  | Icy
   1  6,6  | Id
   1  6,6  | Ide
@@ -8530,6 +8617,7 @@
   1  9,4  | Sis
   1  9,4  | Sit
   1  9,4  | Six
+  1  9,4  | Ska
   1  9,4  | Ski
   1  9,4  | Sky
   1  9,4  | Sla
@@ -8911,6 +8999,7 @@
   1  4,5  | fAc
   1  4,5  | fAd
   1  4,5  | fAe
+  1  4,5  | fAg
   1  4,5  | fAh
   1  4,5  | fAm
   1  4,5  | fAn
@@ -9272,6 +9361,7 @@
   1  4,5  | nAe
   1  4,5  | nAf
   1  4,5  | nAg
+  1  4,5  | nAh
   1  4,5  | nAk
   1  4,5  | nAm
   1  4,5  | nAn
@@ -9558,6 +9648,7 @@
   1  1,7  - si
   1  4,4  | siA
   1  9,2  | siS
+  1  4,4  | skA
   1  4,4  | slA
   1  4,4  | smA
   1  1,5  - so
@@ -9718,9 +9809,11 @@
   1  2,5  | wO
   1  2,5  | wOb
   1  2,5  | wOe
+  1  2,5  | wOg
   1  2,5  | wOk
   1  2,5  | wOn
   1  2,5  | wOo
+  1  2,5  | wOp
   1  2,5  | wOs
   1  2,5  | wOt
   1  2,5  | wOw

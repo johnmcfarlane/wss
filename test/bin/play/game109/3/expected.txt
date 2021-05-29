@@ -44,6 +44,7 @@
  33  2,2  | DANTe
  33  2,2  | DANeS
  33  2,2  | DANgS
+ 33  2,2  | NADaS
  33  2,2  | NADiR
  32  2,2  | DARNs
  32  2,2  | DARST
@@ -207,6 +208,7 @@
  22  4,3  | INTRoD
  22  2,2  | RATeS
  22  2,2  | RAToS
+ 22  2,4  - RENeST
  22  3,5  - SCyE
  22  4,2  | SINToC
  22  3,5  - SNyED
@@ -234,6 +236,7 @@
  21  2,3  | ADCoN
  21  2,3  | ADuNC
  21  2,3  | ANTiCS
+ 21  4,7  - CRyST
  21  2,5  - CSc
  21  2,5  - CSk
  21  2,5  - CSp
@@ -256,6 +259,8 @@
  21  2,2  | RAfTS
  21  2,2  | RAnTS
  21  4,2  | RINCh
+ 21  5,7  - RyNDS
+ 21  3,7  - SCRy
  21  4,2  | SINCe
  21  4,2  | SINiC
  21  3,5  - SNeER
@@ -273,6 +278,7 @@
  21  3,5  - SiREN
  21  3,5  - SiTED
  21  3,5  - SuRED
+ 21  5,7  - SyNC
  21  3,5  - SyREN
  21  2,2  | TAhRS
  21  4,2  | TINC
@@ -298,6 +304,7 @@
  21  2,4  - wENDS
  20  2,3  | ARCSiN
  20  2,3  | ARCTaN
+ 20  5,7  - CyST
  20  2,2  | DARN
  20  4,2  | DINS
  20  4,2  | DINT
@@ -332,6 +339,7 @@
  20  4,2  | RIDeNT
  20  4,2  | RINDS
  20  4,2  | RINSeD
+ 20  4,7  - SCyT
  20  4,2  | SINDRy
  20  4,2  | SINDeR
  20  3,5  - SNeE
@@ -345,6 +353,7 @@
  20  3,5  - STeER
  20  3,5  - SaDE
  20  3,5  - SaNE
+ 20  3,5  - SeNE
  20  3,5  - SiDE
  20  3,5  - SiNE
  20  3,5  - SoNE
@@ -374,6 +383,7 @@
  20  2,2  | wARTS
  19  2,3  | ANCoR
  19  2,3  | ANTiC
+ 19  4,7  - CRy
  19  2,2  | DAN
  19  2,2  | DANa
  19  2,2  | DANd
@@ -432,6 +442,7 @@
  19  1,5  - ReST
  19  1,5  - RiST
  19  1,5  - RuST
+ 19  5,7  - RyND
  19  2,4  - SENdS
  19  4,2  | SIND
  19  4,2  | SINTeR
@@ -447,11 +458,13 @@
  19  3,5  - SoRE
  19  3,5  - StRE
  19  3,5  - SuRE
+ 19  5,7  - SyND
  19  3,5  - SyRE
  19  2,4  - TENdS
  19  4,2  | TIND
  19  4,2  | TINeD
  19  1,5  - TRS
+ 19  5,7  - TyND
  19  1,5  - aDS
  19  1,5  - aNS
  19  2,2  | bANC
@@ -479,6 +492,7 @@
  18  2,2  | DART
  18  2,4  - DESiST
  18  4,2  | DIReCT
+ 18  4,7  - DRyS
  18  5,5  | DaRNS
  18  5,5  | DaSNT
  18  5,5  | DeNTS
@@ -492,6 +506,7 @@
  18  7,5  | DuNST
  18  7,5  | DuNTS
  18  7,5  | DuRNS
+ 18  5,7  - DyN
  18  4,3  | IDiC
  18  4,3  | INC
  18  4,3  | INCa
@@ -504,6 +519,7 @@
  18  5,5  | NaRDS
  18  1,1  - NeJD
  18  5,5  | NeRDS
+ 18  7,5  | NuRDS
  18  4,2  | RIDS
  18  4,2  | RIDeS
  18  4,2  | RINS
@@ -516,6 +532,7 @@
  18  1,5  - RmS
  18  1,5  - RoS
  18  1,5  - RuS
+ 18  5,7  - RyNT
  18  4,2  | SIDTh
  18  4,2  | SIDeR
  18  4,2  | SINTo
@@ -583,6 +600,7 @@
  17  4,2  | DISCo
  17  4,2  | DISCs
  17  4,2  | DITCh
+ 17  4,7  - DRy
  17  5,5  | DaRST
  17  5,5  | DaRTS
  17  7,5  | DiRTS
@@ -591,6 +609,7 @@
  17  5,5  | DoRTS
  17  7,5  | DuC
  17  7,5  | DuRST
+ 17  5,7  - DyS
  17  4,3  | IDaNT
  17  4,3  | IDeNT
  17  4,3  | INDRa
@@ -634,6 +653,9 @@
  17  3,5  - Sh
  17  3,5  - Si
  17  3,5  - So
+ 17  5,7  - SyD
+ 17  5,7  - SyN
+ 17  5,7  - SyRT
  17  2,2  | TADS
  17  2,2  | TANS
  17  2,4  - TED
@@ -743,6 +765,7 @@
  16  4,3  | INTRo
  16  4,3  | INTSv
  16  4,3  | INTeR
+ 16  4,3  | INTiS
  16  4,3  | INeRT
  16  4,3  | INsTR
  16  4,3  | INuST
@@ -767,6 +790,7 @@
  16  5,5  | NaRD
  16  5,5  | NeRD
  16  5,5  | NoDS
+ 16  7,5  | NuRD
  16  2,4  - RESiST
  16  2,4  - REToSS
  16  5,5  | RaNTS
@@ -776,8 +800,11 @@
  16  5,5  | RoCS
  16  7,5  | RuNTS
  16  1,5  - SDs
+ 16  4,7  - STy
  16  5,2  - SUDiC
+ 16  5,7  - SyR
  16  2,2  | TARN
+ 16  4,7  - TRy
  16  5,2  - TUNiC
  16  5,5  | TaRNS
  16  5,5  | TeRNS
@@ -785,6 +812,7 @@
  16  5,5  | ToRC
  16  7,5  | TuRDS
  16  7,5  | TuRNS
+ 16  5,7  - TyR
  16  6,2  | UNSEXeD
  16  6,2  - UReNT
  16  4,1  | aNI
@@ -817,6 +845,7 @@
  16  7,6  | uNCT
  16  4,2  | wINS
  16  4,2  | wINT
+ 16  6,7  - yRS
  15  2,3  | ADoRN
  15  2,3  | ANDRe
  15  2,3  | ANDS
@@ -878,6 +907,7 @@
  15  4,3  | INSp
  15  4,3  | INT
  15  4,3  | INTa
+ 15  4,3  | INTi
  15  4,3  | INTl
  15  4,3  | INTo
  15  4,3  | INTr
@@ -890,6 +920,7 @@
  15  3,1  - JCT
  15  3,1  | JETES
  15  2,2  | NAbS
+ 15  2,2  | NAnS
  15  2,2  | NAnT
  15  2,2  | NAoS
  15  2,2  | NApS
@@ -1040,6 +1071,7 @@
  14  4,2  | DISTy
  14  4,2  | DIStR
  14  4,2  | DITS
+ 14  4,2  | DITSy
  14  4,2  | DITaS
  14  4,2  | DITeR
  14  4,2  | DITeS
@@ -1082,6 +1114,7 @@
  14  4,2  | NITRo
  14  4,2  | NITS
  14  4,2  | NITeR
+ 14  4,2  | NITeS
  14  4,2  | NIToS
  14  5,2  - NUDa
  14  5,2  - NUDe
@@ -1126,6 +1159,7 @@
  14  7,5  | TuNS
  14  7,5  | TuRD
  14  7,5  | TuRN
+ 14  6,2  | UNSEXy
  14  8,2  - aCTS
  14  8,2  - aNC
  14  5,6  | aNC
@@ -1217,6 +1251,7 @@
  13  4,2  | DITe
  13  4,2  | DITs
  13  4,2  | DITt
+ 13  4,2  | DITz
  13  5,2  - DURaS
  13  5,2  - DUReS
  13  5,2  - DUReT
@@ -1233,6 +1268,7 @@
  13  2,2  | NAb
  13  2,2  | NAe
  13  2,2  | NAf
+ 13  2,2  | NAh
  13  2,2  | NAm
  13  2,2  | NAn
  13  2,2  | NAp
@@ -1252,6 +1288,7 @@
  13  4,2  | NISi
  13  4,2  | NISt
  13  4,2  | NIT
+ 13  4,2  | NITe
  13  4,2  | NITo
  13  4,2  | NITs
  13  5,5  | Na
@@ -1339,6 +1376,7 @@
  13  2,2  | mADS
  13  2,2  | mANS
  13  4,2  | mISC
+ 13  2,2  | nANS
  13  2,2  | nANT
  13  5,6  | oCT
  13  1,2  - oDE
@@ -1537,6 +1575,7 @@
  11  6,5  - EDuC
  11  6,5  - EReCT
  11  6,5  - ERuCT
+ 11  4,3  | IRiDS
  11  4,3  | IRoNS
  11  4,3  | ISNT
  11  3,1  - JaR
@@ -1750,6 +1789,7 @@
  10  6,5  - ESCRoD
  10  3,4  - ESeS
  10  3,4  - EThS
+ 10  6,5  - ETiC
  10  4,3  | IRaN
  10  4,3  | IReD
  10  4,3  | IRiD
@@ -1773,6 +1813,7 @@
  10  4,6  - NiX
  10  4,6  - NoX
  10  8,1  | NuDD
+ 10  1,1  | NuRDS
  10  5,5  - RECoN
  10  8,1  | ReDDS
  10  8,1  | RuDDS
@@ -1923,6 +1964,7 @@
   9  8,3  | DDT
   9  5,5  - DECkS
   9  5,5  - DECoR
+  9  5,5  - DECoS
   9  5,5  - DECuS
   9  4,2  | DIdN
   9  4,2  | DIdST
@@ -1969,6 +2011,7 @@
   9  1,1  | NaRD
   9  1,1  | NeRD
   9  1,1  | NeRTS
+  9  1,1  | NuRD
   9  2,2  | RAb
   9  2,2  | RAd
   9  2,2  | RAh
@@ -1983,6 +2026,7 @@
   9  5,5  - RECoST
   9  5,5  - RECuTS
   9  5,5  - REDaNS
+  9  5,5  - REDoNS
   9  5,5  - RESCaN
   9  5,5  - RESeND
   9  5,5  - RETuND
@@ -2034,6 +2078,7 @@
   9  5,5  - TEiNDS
   9  2,2  - TEl
   9  2,2  - TEm
+  9  2,2  - TEt
   9  2,2  - TEx
   9  4,2  | TInC
   9  4,5  - TRENCh
@@ -2110,6 +2155,7 @@
   9  4,2  | sIR
   9  4,2  | sIS
   9  4,2  | sIT
+  9  2,4  - tET
   9  4,2  | tIS
   9  4,2  | tIT
   9  7,6  | uS
@@ -2132,6 +2178,7 @@
   8  2,3  | ARcS
   8  2,3  | AReS
   8  2,3  | AReT
+  8  2,3  | ARfS
   8  2,3  | ARkS
   8  2,3  | ARmS
   8  2,3  | ARtS
@@ -2267,6 +2314,7 @@
   8  5,5  - RECpT
   8  5,5  - RECuT
   8  5,5  - REDaN
+  8  5,5  - REDoN
   8  5,5  - RENDS
   8  5,5  - RESeNT
   8  5,5  - REaCT
@@ -2405,6 +2453,7 @@
   8  5,2  - sUN
   8  2,2  | tAR
   8  2,2  | tAT
+  8  2,2  - tET
   8  4,5  - tRENDS
   8  5,2  - tUN
   8  4,5  - uSEDNT
@@ -2577,8 +2626,10 @@
   7  5,5  - REDuST
   7  5,5  - RENTS
   7  5,5  - RENTeD
+  7  5,5  - RENeST
   7  5,5  - RESiD
   7  5,5  - RESiN
+  7  5,5  - RESoD
   7  5,5  - RESuN
   7  5,5  - RETCh
   7  5,5  - RETaN
@@ -2718,6 +2769,7 @@
   6  5,5  - CETe
   6  5,5  - CETi
   6  5,5  - CEeS
+  6  5,5  - CElS
   6  5,5  - CElT
   6  5,5  - CEnT
   6  5,5  - CEpS
@@ -2767,6 +2819,7 @@
   6  5,5  - DEaRS
   6  5,5  - DEbTS
   6  5,5  - DEeRS
+  6  5,5  - DEeTS
   6  5,5  - DEiST
   6  5,5  - DEnTS
   6  4,2  | DI
@@ -2823,6 +2876,7 @@
   6  2,4  - NE
   6  5,5  - NERD
   6  5,5  - NERDs
+  6  5,5  - NERDy
   6  5,5  - NERdS
   6  5,5  - NERtS
   6  5,5  - NESTeR
@@ -3030,6 +3084,7 @@
   6  8,2  - oRT
   6  5,2  - oUR
   6  5,2  - oUT
+  6  5,5  - pECS
   6  4,5  - pREC
   6  4,5  - pSEC
   6  4,5  - pSEND
@@ -3057,6 +3112,7 @@
   5  2,3  | ARS
   5  2,3  | ART
   5  5,5  - CEe
+  5  5,5  - CEl
   5  5,5  - CEp
   5  1,2  | CRc
   5  1,2  | CRe
@@ -3103,6 +3159,7 @@
   5  8,3  | DaRST
   5  8,3  | DaRTS
   5  4,5  - DeERS
+  5  4,5  - DeETS
   5  8,3  | DeNS
   5  8,3  | DeNT
   5  8,3  | DeRN
@@ -3199,6 +3256,7 @@
   5  2,4  - REt
   5  4,2  | RId
   5  4,2  | RIe
+  5  4,2  | RIf
   5  4,2  | RIm
   5  4,2  | RIn
   5  4,2  | RIo
@@ -3219,6 +3277,7 @@
   5  1,3  | RuNTS
   5  1,3  | RyND
   5  5,5  - SENT
+  5  5,5  - SENTe
   5  5,5  - SENTi
   5  5,5  - SENTs
   5  5,5  - SERgT
@@ -3280,6 +3339,7 @@
   5  5,5  - TEaRS
   5  2,4  - TEd
   5  2,4  - TEn
+  5  2,4  - TEt
   5  4,2  | TIe
   5  4,2  | TIl
   5  4,2  | TIm
@@ -3368,6 +3428,7 @@
   5  1,2  | oRDN
   5  8,4  - oRTS
   5  7,1  | oSE
+  5  5,5  - pEC
   5  5,5  - pEND
   5  7,1  | pTE
   5  5,5  - rEC
@@ -3445,6 +3506,7 @@
   4  5,5  - DEbT
   4  5,5  - DEeR
   4  5,5  - DEeS
+  4  5,5  - DEeT
   4  5,5  - DEfS
   4  5,5  - DEfT
   4  5,5  - DEiS
@@ -3472,6 +3534,7 @@
   4  8,3  | DaRT
   4  4,5  - DeER
   4  4,5  - DeES
+  4  4,5  - DeET
   4  8,3  | DeN
   4  8,1  | DiD
   4  8,3  | DiD
@@ -3627,6 +3690,7 @@
   4  5,5  - SEN
   4  5,5  - SENa
   4  5,5  - SENd
+  4  5,5  - SENe
   4  5,5  - SENt
   4  5,5  - SERT
   4  5,5  - SERTa
@@ -3726,6 +3790,7 @@
   4  4,5  - ToED
   4  1,1  | ToR
   4  1,1  | TuR
+  4  4,5  - TyERS
   4  1,1  | TyR
   4  2,2  | aA
   4  8,2  - aD
@@ -3992,6 +4057,7 @@
   3  5,5  - REeT
   3  5,5  - REfS
   3  5,5  - REfT
+  3  5,5  - REgS
   3  5,5  - REgT
   3  5,5  - REiS
   3  5,5  - REiT
@@ -4109,9 +4175,11 @@
   3  5,5  - TEdS
   3  5,5  - TEeS
   3  5,5  - TEgS
+  3  5,5  - TElS
   3  5,5  - TEnS
   3  5,5  - TErR
   3  5,5  - TEsS
+  3  5,5  - TEtS
   3  5,5  - TEwS
   3  4,5  - TREe
   3  4,5  - TREf
@@ -4129,6 +4197,7 @@
   3  8,1  | ToD
   3  4,5  - ToES
   3  4,5  - TrES
+  3  4,5  - TyER
   3  4,5  - TyES
   3  6,2  - Uh
   3  6,2  - Um
@@ -4193,6 +4262,7 @@
   3  5,5  - hERS
   3  5,5  - hERT
   3  5,5  - hEST
+  3  5,5  - hETS
   3  4,5  - iDE
   3  4,5  - iRES
   3  8,2  - iS
@@ -4264,6 +4334,7 @@
   3  5,5  - tED
   3  5,5  - tEN
   3  5,5  - tEST
+  3  5,5  - tETS
   3  4,5  - tRES
   3  4,5  - tRET
   3  8,1  | uRD
@@ -4371,6 +4442,7 @@
   2  5,5  - REf
   2  5,5  - REg
   2  5,5  - REh
+  2  5,5  - REi
   2  5,5  - REl
   2  5,5  - REm
   2  5,5  - REn
@@ -4440,6 +4512,7 @@
   2  5,5  - TEl
   2  5,5  - TEm
   2  5,5  - TEn
+  2  5,5  - TEt
   2  5,5  - TEw
   2  5,5  - TEx
   2  5,5  - TEz
@@ -4553,6 +4626,7 @@
   2  4,2  | sI
   2  1,1  | sTR
   2  2,4  - tE
+  2  5,5  - tET
   2  4,2  | tI
   2  1,2  | tRS
   2  1,2  | tRT

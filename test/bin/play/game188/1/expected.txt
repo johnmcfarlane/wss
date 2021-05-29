@@ -12,7 +12,9 @@
  32  6,6  | JINnY
  32  6,6  | JInNY
  32  5,7  - tOYON
+ 30  9,1  | FOOdIE
  30  9,1  | FOOtIE
+ 30  9,1  | FlOOIE
  30  9,1  | lOOFIE
  28  6,6  | JINgO
  28  6,6  | JOINs
@@ -30,10 +32,12 @@
  25  8,4  | FiNNY
  25  8,4  | FuNNY
  25  6,7  - OFO
+ 25  8,5  - OFaY
  25  7,5  - lIFO
  25  7,5  - mOFO
  25  5,7  - mOFO
  25  7,7  - mOFO
+ 24  3,7  - FINOs
  24  8,4  | FINdY
  24  8,4  | FINnY
  24  2,7  - FOIsON
@@ -91,6 +95,7 @@
  22  8,5  - IFe
  22  7,5  - NOY
  22  4,7  - NYOrO
+ 22  4,7  - OFaY
  22  8,5  - OFo
  22  8,7  - OFo
  22  5,7  - OOF
@@ -264,6 +269,7 @@
  20  3,7  - OrION
  20  8,3  | OzONIFY
  20 10,6  | SYFtN
+ 20 10,6  | SpOOFY
  20  7,5  - YIN
  20  7,5  - YON
  20  5,7  - YON
@@ -318,6 +324,7 @@
  19  8,4  | tONIFY
  19  5,7  - tOY
  19  5,7  - yOY
+ 18 10,2  | FINOS
  18 10,2  | FOINS
  18  7,7  - FOO
  18  4,7  - FOOd
@@ -342,6 +349,7 @@
  18  8,4  | NINnY
  18  8,4  | NONlY
  18  8,4  | NONnY
+ 18 10,2  | OFaYS
  18  3,7  - ONIOn
  18 10,6  | SINgFO
  18 10,6  | SOFtY
@@ -488,11 +496,13 @@
  17  7,5  - yONI
  17  7,7  - yONI
  16  8,4  | FINO
+ 16  8,4  | FINOs
  16 10,2  | FINdS
  16 10,2  | FINeS
  16 10,2  | FINiS
  16 10,2  | FINkS
  16 10,2  | FINnS
+ 16 10,2  | FINoS
  16  9,3  | FIkEY
  16 10,2  | FInNS
  16 10,2  | FIrNS
@@ -508,6 +518,7 @@
  16 10,2  | FaNOS
  16 10,2  | FiNIS
  16  8,4  | FiNN
+ 16 10,2  | FiNOS
  16  4,7  - FlO
  16 10,2  | FoINS
  16  4,7  - FoO
@@ -548,6 +559,7 @@
  16 10,6  | SpOONY
  16 10,6  | SwOONY
  16  9,5  - YI
+ 16  9,5  - YId
  16  9,5  - YIn
  16  9,5  - YIp
  16  9,5  - YO
@@ -720,6 +732,8 @@
  14  9,3  | FINEw
  14  8,3  | FINNY
  14 10,2  | FIdOS
+ 14 10,2  | FIlOS
+ 14 10,2  | FInOS
  14 10,2  | FOIlS
  14 10,2  | FOInS
  14  9,3  | FONE
@@ -833,6 +847,7 @@
  14  7,5  - gIN
  14  8,4  | gINNY
  14  7,5  - gON
+ 14  9,3  | gONEF
  14 10,2  | gONYS
  14 10,2  | gOOFS
  14  9,2  | gOONEY
@@ -869,6 +884,7 @@
  14  8,4  | pINNY
  14  7,5  - pON
  14  7,7  - pON
+ 14 10,2  | pOOFS
  14 10,2  | pYINS
  14  7,7  - rON
  14 10,2  | rOOFS
@@ -1011,6 +1027,7 @@
  12  9,5  | FErIO
  12  8,3  | FINNOc
  12  7,3  | FINO
+ 12  7,3  | FINOs
  12  8,3  | FInNY
  12  9,2  | FOINEd
  12  7,3  | FONO
@@ -1141,6 +1158,7 @@
  12  9,5  | YENI
  12  8,4  | YIN
  12  8,4  | YINs
+ 12  7,5  - YId
  12  7,5  - YIn
  12  7,5  - YIp
  12  8,4  | YON
@@ -1207,10 +1225,12 @@
  12  9,3  | pINEY
  12  5,7  - pO
  12  9,3  | pONEY
+ 12  7,5  | pOOFY
  12  8,3  | pYIN
  12  7,5  | rOOFY
  12  5,7  - sO
  12  5,7  - tO
+ 12  9,3  | tONEY
  12 10,2  | tOYOS
  12  9,3  | wINEY
  12  5,7  - wO
@@ -1274,6 +1294,7 @@
  11  9,5  - NoO
  11  9,7  - NoO
  11  8,6  | NoY
+ 11  7,6  | OFaY
  11  9,3  | OFtEN
  11  8,2  | ONIoNY
  11  8,3  | ONONIs
@@ -1393,6 +1414,7 @@
  10 10,2  | NItOS
  10 10,2  | NOIlS
  10  7,5  | NOIlY
+ 10 10,2  | NOIrS
  10  7,5  | NOIsY
  10  8,4  | NONIc
  10  8,6  | NONIc
@@ -1419,6 +1441,7 @@
  10  7,7  - NOo
  10  7,5  - NOr
  10  7,7  - NOr
+ 10 10,2  | NOrIS
  10  7,7  - NOs
  10  7,5  - NOt
  10  7,7  - NOt
@@ -1495,6 +1518,7 @@
  10  8,5  | eNNOY
  10  9,3  | fIFE
  10  8,3  | fINNY
+ 10 10,2  | fINOS
  10 10,2  | fOINS
  10  7,7  - fOO
  10  8,3  | gINNY
@@ -1707,6 +1731,7 @@
   9  9,5  | nEF
   9  8,1  | nONION
   9  8,4  | nONION
+  9  7,4  | pOOFY
   9  9,5  | rEF
   9  9,4  | rOEY
   9  8,1  | rONION
@@ -1863,6 +1888,8 @@
   8  9,5  - oOF
   8  9,7  - oOF
   8  7,5  | oOFY
+  8  9,5  - rIF
+  8  9,7  - rIF
   8  8,3  | rONNI
   8  8,4  | rONNI
   8 10,4  | rOSINY
@@ -1874,6 +1901,7 @@
   8  9,5  | vENY
   8  9,3  | wYNE
   7  9,6  | EIkON
+  7  9,6  | ENOkI
   7  9,6  | ENkI
   7  9,6  | EOaN
   7  9,6  | EOsIN
@@ -2162,6 +2190,7 @@
   6  9,3  | NInE
   6  8,2  | NInON
   6  8,6  | NInON
+  6  9,3  | NItE
   6  7,3  | NItO
   6  8,2  | NItON
   6  8,6  | NItON
@@ -2612,8 +2641,10 @@
   5 10,6  | SOdY
   5 10,6  | SOrY
   5 10,6  | SYbO
+  5 10,6  | SYlI
   5 10,6  | ScF
   5 10,6  | SuF
+  5 10,3  | YIdS
   5 10,3  | YInS
   5 10,3  | YIpS
   5  8,5  | YNo
@@ -3051,6 +3082,7 @@
   4 10,4  | hISN
   4  9,5  - hO
   4  9,7  - hO
+  4 10,3  | hONS
   4  7,4  | hOON
   4  7,5  | hOON
   4  7,5  | hOY
@@ -3164,6 +3196,7 @@
   4  8,4  | yONI
   4  7,5  | yONI
   4  7,5  | yOY
+  4 10,3  | zINS
   4  7,4  | zION
   4  7,4  | zOON
   4  7,5  | zOON
@@ -3431,6 +3464,7 @@
   3 10,3  | pOIS
   3  8,4  | pON
   3  7,5  | pON
+  3  9,5  | rEI
   3  9,4  | rIE
   3  8,4  | rIN
   3  9,4  | rOE
@@ -3468,6 +3502,7 @@
   3  8,5  | yNO
   3  8,4  | yON
   3  7,5  | yON
+  3  8,4  | zIN
   3 10,3  | zOOS
   2  9,6  | EcO
   2  9,6  | EdO

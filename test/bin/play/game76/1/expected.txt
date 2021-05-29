@@ -127,6 +127,7 @@
  18  6,2  | IKoNS
  18  6,2  | INKoS
  18  5,3  | KINDlY
+ 18  6,2  | KINaS
  18  6,2  | KINdS
  18  6,2  | KINeS
  18  6,2  | KINgS
@@ -188,6 +189,7 @@
  18  4,5  | hONK
  18  6,2  | jINKS
  18  6,2  | kINKS
+ 18  4,5  | kONK
  18  6,2  | lINKS
  18  4,5  | lONK
  18  6,2  | mINKS
@@ -201,6 +203,7 @@
  18  4,5  | tONK
  18  6,2  | wINKS
  18  4,5  | wONK
+ 18  4,5  | zONK
  17  5,6  | DiNKY
  17  1,5  - IcY
  17  3,5  | KOINoN
@@ -260,6 +263,7 @@
  16  2,7  - aY
  16  3,5  | cONKY
  16  3,3  | eIKON
+ 16  3,4  | eNOKI
  16  3,5  | hONKY
  16  3,2  | lIKNON
  16  2,7  - mY
@@ -289,6 +293,7 @@
  15  3,5  | KON
  15  3,5  | KONa
  15  3,5  | KONg
+ 15  3,5  | KONk
  15  4,5  | KOrY
  15  4,3  | KYlO
  15  3,3  | KeNO
@@ -408,6 +413,7 @@
  14  1,7  - wIN
  14  1,7  - yIN
  14  3,5  | yOKY
+ 14  1,7  - zIN
  13  5,6  | DIcK
  13  5,6  | DInK
  13  5,6  | DIrK
@@ -562,6 +568,7 @@
  12  2,5  - uN
  12  5,2  | uNKID
  12  6,5  - uNKIN
+ 11  5,6  | DIKeY
  11  5,6  | DaNNY
  11  5,6  | DoNNY
  11  5,6  | DuNNY
@@ -596,6 +603,7 @@
  11  1,7  - KIm
  11  1,7  - KIn
  11  1,7  - KIp
+ 11  1,7  - KIr
  11  4,5  | KONIa
  11  4,5  | KONiNI
  11  4,5  | KOYaN
@@ -644,6 +652,7 @@
  11  4,5  | cOINY
  11  4,5  | cOQ
  11  4,3  | eIKON
+ 11  4,4  | eNOKI
  11  6,4  | eNSKY
  11  6,5  | eSQ
  11  6,7  - hINNY
@@ -658,6 +667,7 @@
  11  3,5  | yOK
  10  5,6  | DYINg
  10  5,6  | DYKe
+ 10  5,6  | DYNeIN
  10  5,6  | DeNY
  10  5,6  | DuNY
  10  2,6  | HaNK
@@ -727,6 +737,7 @@
  10  3,5  | gONK
  10  3,5  | hONK
  10  4,3  | iNION
+ 10  3,5  | kONK
  10  3,5  | lONK
  10  4,5  | lOYN
  10  6,4  | mISKY
@@ -747,6 +758,7 @@
  10  3,5  | tONK
  10  4,3  | uNION
  10  3,5  | wONK
+ 10  3,5  | zONK
   9  5,6  | DIdY
   9  5,6  | DIxY
   9  5,6  | DjINN
@@ -809,6 +821,7 @@
   9  6,6  | SKYs
   9  6,6  | SKeY
   9  6,6  | SYKe
+  9  1,7  - YId
   9  1,7  - YIn
   9  1,7  - YIp
   9  5,3  | YIrD
@@ -876,6 +889,8 @@
   8  4,3  | INfO
   8  4,3  | INrO
   8  4,3  | INtO
+  8  6,5  - IcK
+  8  6,7  - IcK
   8  6,5  - IlK
   8  6,7  - IlK
   8  6,5  - InK
@@ -890,6 +905,7 @@
   8  4,5  | KON
   8  4,5  | KONa
   8  4,5  | KONg
+  8  4,5  | KONk
   8  1,5  - Ka
   8  1,7  - Ka
   8  5,4  | KaDI
@@ -1018,6 +1034,7 @@
   7  6,3  | KIfS
   7  6,3  | KInS
   7  6,3  | KIpS
+  7  6,3  | KIrS
   7  6,3  | KIsS
   7  6,3  | KItS
   7  4,5  | KOI
@@ -1233,6 +1250,7 @@
   6  4,6  | ONlY
   6  3,6  | OaK
   6  3,6  | OiK
+  6  6,6  | SKa
   6  6,6  | SKi
   6  6,6  | SKy
   6  6,6  | SNYe
@@ -1245,6 +1263,8 @@
   6  6,6  | SoK
   6  6,6  | StK
   6  6,6  | SuK
+  6  5,4  | YID
+  6  5,4  | YIDs
   6  4,5  | YON
   6  4,5  | YONd
   6  4,5  | YONi
@@ -1421,6 +1441,8 @@
   5  3,5  | NOy
   5  1,5  - Na
   5  1,7  - Na
+  5  2,4  | NaH
+  5  6,3  | NaNS
   5  3,4  | NaOI
   5  1,5  - Ne
   5  1,7  - Ne
@@ -1447,10 +1469,13 @@
   5  3,6  | OmNI
   5  6,6  | SIdY
   5  6,6  | SIzY
+  5  6,6  | SYlI
   5  6,6  | SuNN
+  5  6,3  | YIdS
   5  6,3  | YInS
   5  6,3  | YIpS
   5  5,4  | YaD
+  5  5,4  | YiD
   5  5,4  | YoD
   5  6,3  | YwIS
   5  5,5  | aDY
@@ -1749,6 +1774,7 @@
   4  3,7  - yI
   4  6,3  | yINS
   4  4,5  | yOY
+  4  6,3  | zINS
   4  4,4  | zION
   3  5,6  | DI
   3  5,6  | DIa
@@ -1897,6 +1923,7 @@
   3  4,5  | vON
   3  5,4  | wID
   3  4,5  | wON
+  3  5,4  | yID
   3  4,4  | yNO
   3  4,5  | yON
   2  5,6  | Da

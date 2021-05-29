@@ -7,9 +7,12 @@
  39  9,1  | kIOSK
  36  8,7  | EQuES
  36 10,2  | KIEkIE
+ 36 10,2  | KIbEIS
+ 36 10,2  | SIcKEE
  36 10,2  | SIcKIE
  36 10,2  | SIlKIE
  36 10,1  | SKIvIE
+ 36 10,2  | bIKIES
  36 10,2  | kIEKIE
  34 11,1  | QaDIS
  33 11,1  | QaDI
@@ -49,6 +52,7 @@
  32  8,2  - pEKE
  32  8,2  - pIKE
  32 10,2  | pIKES
+ 32 10,2  | pIKIS
  32  8,2  - rEKI
  32 10,2  | sIKES
  32  8,2  - tIKE
@@ -60,6 +64,7 @@
  31  9,2  - EKE
  31  9,2  - IKE
  31  9,2  - SKI
+ 30  9,1  | EnOKIS
  30  9,1  | EvOKES
  30  5,5  | SEQ
  30  9,1  | SoOKIE
@@ -68,6 +73,7 @@
  28  9,2  - EKe
  28  9,2  - IKe
  28  5,3  | QErE
+ 28  9,2  - SKa
  28  9,2  - SKi
  28  5,5  | SeQ
  28  9,2  - eKE
@@ -75,6 +81,7 @@
  28  9,2  - oKE
  28  9,2  - sKI
  27  8,2  - ElK
+ 27  9,1  | EnOKI
  27  9,1  | EvOKE
  27  9,1  | IKOnS
  27 10,2  - KI
@@ -186,6 +193,7 @@
  19  5,4  | SEaK
  19  5,4  | SEeK
  19  5,4  | SIaK
+ 19  5,2  | SIcKEE
  19  5,2  | SKEnE
  19  5,2  | SKErE
  19  5,2  | SKEtE
@@ -255,6 +263,7 @@
  17  5,3  | SIKEr
  17  5,3  | SIKEs
  17  5,3  | SIKEt
+ 17  3,4  - SIcKEE
  17  5,4  | SKEE
  17  5,3  | SKEEd
  17  5,3  | SKEEg
@@ -325,6 +334,7 @@
  16  5,6  - SWEEsE
  16 10,1  | SpIKE
  16  6,6  - WEEnIE
+ 16  6,6  - WEEpIE
  16  5,4  | aKEE
  16  5,4  - aKEES
  16  8,2  - bISE
@@ -383,6 +393,7 @@
  15  6,4  - QErE
  15  6,4  - QErI
  15  5,3  | SIKE
+ 15  5,1  | SIcKEE
  15  5,3  | SKEE
  15  5,4  - SKEEd
  15  5,4  - SKEEn
@@ -453,6 +464,7 @@
  14 10,2  | KInE
  14 10,2  | KInS
  14 10,2  | KIpS
+ 14 10,2  | KIrS
  14 10,2  | KIsS
  14 10,2  | KItE
  14 10,2  | KItS
@@ -624,6 +636,7 @@
  13  5,7  - kATIK
  13  5,3  | kIKE
  13  8,1  | lEESE
+ 13  5,3  | lEKE
  13  5,3  | lIKE
  13  8,1  | mEESE
  13  8,6  | mESE
@@ -693,6 +706,7 @@
  12 10,2  | KIm
  12 10,2  | KIn
  12 10,2  | KIp
+ 12 10,2  | KIr
  12 10,2  | KIt
  12  5,4  | KaE
  12 10,1  | KaI
@@ -888,6 +902,7 @@
  11  4,4  - SKIEd
  11  4,4  - SKIEr
  11  4,4  - SKIEs
+ 11  5,4  | SKa
  11  9,2  - SaE
  11  9,2  - SaI
  11  9,2  - ShE
@@ -932,6 +947,7 @@
  11  5,5  | lEE
  11  6,4  - lEES
  11  6,4  - lESE
+ 11  4,8  - lEZ
  11  4,8  - lIZ
  11  9,2  | lOQ
  11  8,7  | mEEK
@@ -1054,6 +1070,7 @@
  10  5,5  | SEm
  10  5,3  | SEmE
  10  5,5  | SEn
+ 10  5,3  | SEnE
  10  5,5  | SEp
  10  5,5  | SEq
  10  5,5  | SEr
@@ -1092,6 +1109,7 @@
  10  6,6  - WEeK
  10  6,6  - WElK
  10  4,4  - bESEE
+ 10  5,7  - lATKES
  10  4,4  - rESEE
  10  4,7  - sKATES
  10  8,7  | tSK
@@ -1111,6 +1129,7 @@
   9 11,3  | DIKEd
   9 11,3  | DIKEr
   9 11,3  | DIKEs
+  9 11,3  | DIKEy
   9 11,3  | DIKeS
   9 11,3  | DISK
   9 11,3  | DISKs
@@ -1182,6 +1201,7 @@
   9  5,4  | ISE
   9  8,1  | IcES
   9  5,4  - IcES
+  9  8,7  | IcK
   9  8,1  | IdEE
   9  5,4  - IdEE
   9  8,1  | IdES
@@ -1192,11 +1212,13 @@
   9  5,4  - IrES
   9  8,7  | IrK
   9  8,6  | It
+  9  5,7  - KATaS
   9  4,7  - KEATS
   9  9,2  | KOSIn
   9  9,2  | KOlIS
   9  9,2  | KOpIS
   9  7,5  - NEcKS
+  9  7,5  - NEuKS
   9  7,5  - NIcKS
   9  7,5  - NaIK
   9  9,3  | OIcKS
@@ -1211,6 +1233,7 @@
   9  5,4  | SIE
   9  9,1  | SIOl
   9  9,1  | SIOn
+  9  2,4  - SIcKEE
   9  4,7  - SKATE
   9  4,7  - SKATEd
   9  4,7  - SKATEr
@@ -1458,6 +1481,7 @@
   8  9,2  | KOaE
   8  9,2  | KOaS
   8  9,2  | KObI
+  8  9,2  | KObS
   8  9,2  | KOlI
   8  9,2  | KOmE
   8  9,2  | KOmI
@@ -1687,6 +1711,7 @@
   7  8,7  | ISt
   7  8,7  | InSEE
   7  5,7  - KAT
+  7  5,7  - KATa
   7  5,7  - KATe
   7  5,7  - KATh
   7  5,7  - KATs
@@ -1732,6 +1757,7 @@
   7  5,4  | SEe
   7  8,2  | SElE
   7  8,2  | SEmE
+  7  8,2  | SEnE
   7  8,2  | SErE
   7  2,7  - SErIATE
   7 10,4  - SI
@@ -1784,8 +1810,10 @@
   7  5,5  | jE
   7 10,2  - kI
   7  4,4  - kIKE
+  7  4,4  - lEKE
   7 10,2  - lI
   7  4,4  - lIKE
+  7  5,6  - lWEIS
   7 10,2  - mE
   7  5,5  | mE
   7  8,7  | mESE
@@ -1920,6 +1948,7 @@
   6  9,1  | IbO
   6 10,3  | IcES
   6  8,7  | IcES
+  6 10,3  | IcK
   6  9,2  - Id
   6  3,7  - IdEATE
   6 10,3  | IdEE
@@ -2006,6 +2035,7 @@
   6  3,4  - SEmEE
   6  6,4  - SEmI
   6  3,7  - SEnATE
+  6  6,4  - SEnE
   6  6,4  - SErE
   6  6,4  - SErI
   6 11,1  | SIDa
@@ -2161,6 +2191,7 @@
   5 11,3  | DEEpS
   5 11,3  | DEErS
   5 11,3  | DEEsS
+  5 11,3  | DEEtS
   5 11,3  | DEIS
   5 11,3  | DEISm
   5 11,3  | DEISt
@@ -2177,6 +2208,7 @@
   5 11,3  | DEnIS
   5 11,3  | DEnSE
   5 11,3  | DExES
+  5 11,3  | DExIE
   5 11,3  | DIES
   5 11,3  | DIEnE
   5 11,3  | DIEtS
@@ -2288,6 +2320,7 @@
   5  7,5  - NIdES
   5  7,5  - NInES
   5  7,5  - NIsSE
+  5  7,5  - NItES
   5  7,5  - NIxES
   5  7,5  - NSEc
   5  7,5  - NaIS
@@ -2308,6 +2341,7 @@
   5  3,7  - SEdAT
   5  4,4  - SElE
   5  4,4  - SEmE
+  5  4,4  - SEnE
   5  4,4  - SErE
   5  4,4  - SEvE
   5  4,4  - SIcE
@@ -2322,6 +2356,7 @@
   5  4,4  - SIsE
   5  4,4  - SItE
   5  4,4  - SIzE
+  5  9,2  | SOlEI
   5  9,2  | SOrEE
   5  9,2  | SOsIE
   5  9,2  | SOtIE
@@ -2424,6 +2459,7 @@
   4 11,3  | DEEp
   4 11,3  | DEEr
   4 11,3  | DEEs
+  4 11,3  | DEEt
   4 11,3  | DEI
   4 11,3  | DEIa
   4 11,3  | DEIl
@@ -2614,6 +2650,7 @@
   4  7,5  - NImS
   4  7,5  - NInE
   4  7,5  - NIpS
+  4  7,5  - NItE
   4  7,5  - NItS
   4  7,5  - NIuE
   4  7,5  - NIxE
@@ -2823,6 +2860,7 @@
   4  8,2  - rE
   4 11,1  | rEDE
   4 11,1  | rEDS
+  4 10,1  | rEI
   4  3,7  - rESAT
   4 11,1  | rIDE
   4 11,1  | rIDS
@@ -2861,6 +2899,7 @@
   4  8,2  - yE
   4 11,1  | yEDE
   4  8,2  - yI
+  4 11,1  | yIDS
   4 11,1  | zEDS
   3  6,7  - ATE
   3  6,7  - ATEf
@@ -3122,6 +3161,7 @@
   3  5,7  - yATI
   3  4,7  - yEAT
   3  4,4  - yESE
+  3 11,1  | yID
   3  5,7  - zATI
   3 11,1  | zED
   2  6,7  - ATe

@@ -285,6 +285,7 @@
  21  1,8  - MsS
  21  1,8  - MtS
  21  1,8  - MuS
+ 21  4,8  - MuTONS
  21  1,3  - NOW
  21  1,3  - NOWs
  21  1,3  - NOWt
@@ -402,6 +403,7 @@
  20  7,7  | MoRON
  20  4,8  - MoTON
  20  5,9  | MuN
+ 20  4,8  - MuTON
  20  1,8  - NOS
  20  1,8  - NOSe
  20  1,8  - NOSh
@@ -431,6 +433,7 @@
  20  2,2  | VaS
  20  3,9  - VeNEROS
  20  4,8  - ViTRO
+ 20  3,3  - WOVeNS
  20  2,9  - aMOVE
  20  2,8  - dSR
  20  3,9  - nOVEM
@@ -763,6 +766,7 @@
  17  2,8  - oS
  17  4,3  | tORI
  17  2,8  - uS
+ 17  3,9  - wOVENS
  16  6,5  - AMOVe
  16  6,9  - EVaNS
  16  6,9  - EVeNS
@@ -917,6 +921,7 @@
  15  6,9  - EVaN
  15  6,9  - EVeN
  15  3,4  - HM
+ 15  3,4  - HMm
  15  5,9  - MENdS
  15  5,9  - MENuS
  15  5,9  - MERlON
@@ -954,6 +959,7 @@
  15  5,9  - NEVi
  15  5,9  - NEVo
  15  3,9  - NOMEuS
+ 15  7,7  | NORiS
  15  3,9  - NaMER
  15  3,9  - NaMES
  15  3,9  - NaVE
@@ -1133,6 +1139,7 @@
  14  4,8  - MOTt
  14  2,9  - MOViES
  14  2,1  | MOa
+ 14  2,9  - MOaNERS
  14  5,3  | MOaTS
  14  3,9  - MOdERN
  14  5,3  | MOlTS
@@ -1225,6 +1232,7 @@
  14  2,10 - ROoMS
  14  2,9  - ROoVE
  14  7,7  | RaSON
+ 14  3,9  - RoMEOS
  14  4,2  | RoO
  14  2,10 - RoOMS
  14  6,10 - SMORe
@@ -1347,6 +1355,7 @@
  13  5,9  - MENt
  13  5,9  - MENu
  13  5,9  - MENy
+ 13  5,9  - MEOuS
  13  5,9  - MEOwS
  13  5,9  - MEROpS
  13  5,9  - MEReS
@@ -1361,6 +1370,7 @@
  13  2,9  - MOReENS
  13  2,9  - MORgENS
  13  4,2  | MOa
+ 13  2,9  - MOaNER
  13  7,7  | MOd
  13  4,2  | MOi
  13  7,7  | MOl
@@ -1438,6 +1448,7 @@
  13  5,9  - REVe
  13  5,9  - REVs
  13  4,4  | ROI
+ 13  3,9  - ROMEoS
  13  7,1  | ROMpS
  13  7,7  | RaN
  13  3,9  - RaVE
@@ -1706,6 +1717,7 @@
  12  2,2  | OoS
  12  5,9  - REMOp
  12  5,9  - REMS
+ 12  4,5  | RIaS
  12  1,7  - ROK
  12  7,3  | ROM
  12  5,9  | ROM
@@ -1853,6 +1865,7 @@
  11  6,5  - AViONS
  11  6,5  - AtOMS
  11  6,9  - EMeS
+ 11  6,9  - EMfS
  11  6,9  - EMiR
  11  6,9  - EMuS
  11  6,9  - EMyS
@@ -1861,6 +1874,7 @@
  11  6,9  - ENtOM
  11  6,9  - EVe
  11  6,9  - EVg
+ 11  5,9  - MEOu
  11  5,9  - MEOw
  11  5,9  - MER
  11  5,9  - MERc
@@ -1996,6 +2010,7 @@
  11  7,3  | RaM
  11  3,9  - RaME
  11  5,3  | RaNTS
+ 11  4,4  | ReI
  11  7,3  | ReM
  11  5,3  | ReNTS
  11  5,9  | ReV
@@ -2057,6 +2072,7 @@
  11  7,2  | VeRN
  11  2,9  - ViSNE
  11  7,1  | ViSOR
+ 11  3,3  - WONkS
  11  3,3  - WONtS
  11  3,3  - WORM
  11  3,3  - WORMs
@@ -2200,12 +2216,14 @@
  10  5,9  - NEStOR
  10  7,1  | NORMa
  10  7,1  | NORMs
+ 10  2,10 - NORiS
  10  2,10 - NORmS
  10  3,9  - NOSER
  10  2,10 - NOSeS
  10  7,2  | NOVa
  10  2,9  - NOVaE
  10  2,1  | NOa
+ 10  2,10 - NOiRS
  10  2,1  | NOo
  10  7,1  | NOrMS
  10  5,9  | Na
@@ -2278,6 +2296,8 @@
  10  6,10 - SNORt
  10  2,10 - SNObS
  10  6,10 - SNObS
+ 10  2,10 - SNOgS
+ 10  6,10 - SNOgS
  10  2,10 - SNOtS
  10  6,10 - SNOtS
  10  2,10 - SNOwS
@@ -2394,6 +2414,7 @@
  10  3,9  - eRME
  10  5,8  | eROS
  10  7,8  | eROS
+ 10  5,9  - fEMS
  10  5,4  | fMT
  10  1,4  - fOHN
  10  5,3  | fONTS
@@ -2503,6 +2524,7 @@
   9  7,1  | MORSe
   9  7,2  | MOaS
   9  7,2  | MObS
+  9  7,2  | MOcS
   9  7,2  | MOdS
   9  7,2  | MOgS
   9  7,2  | MOhR
@@ -2609,6 +2631,7 @@
   9  5,9  - RESuN
   9  5,9  - REaMS
   9  5,9  - REcONS
+  9  5,9  - REdONS
   9  4,5  | RIa
   9  7,3  | RMS
   9  5,9  | ROS
@@ -2702,6 +2725,7 @@
   9  6,8  - TeNSO
   9  6,8  - TeRMS
   9  7,2  | VROw
+  9  7,2  | VaRS
   9  4,9  - VeERS
   9  7,2  | VeRS
   9  2,9  - VeRSE
@@ -2800,6 +2824,7 @@
   9  7,1  | oRSON
   9  2,3  | oS
   9  5,9  - pERMS
+  9  7,2  | pOMS
   9  7,7  | pOS
   9  2,1  | pRO
   9  5,9  - rEM
@@ -2923,6 +2948,7 @@
   8  3,9  - NORE
   8  2,9  - NORSE
   8  2,9  - NORSEl
+  8  7,1  | NORiS
   8  7,1  | NORmS
   8  7,3  | NOS
   8  3,9  - NOSE
@@ -2991,6 +3017,7 @@
   8  5,9  - RESOwN
   8  5,9  - REaSON
   8  5,9  - REcON
+  8  5,9  - REdON
   8  5,9  - REwON
   8  5,9  - REySON
   8  2,4  - RHOS
@@ -3001,6 +3028,7 @@
   8  2,10 - ROSeS
   8  4,8  - ROTaS
   8  4,8  - ROTeS
+  8  4,8  - ROTiS
   8  4,8  - ROTlS
   8  4,8  - ROToS
   8  7,2  | ROaN
@@ -3377,11 +3405,13 @@
   7  6,9  - EaRNS
   7  6,9  - EbONS
   7  6,9  - ElMS
+  7  6,9  - ExONS
   7  3,4  - HOR
   7  3,4  - HRS
   7  3,4  - HaM
   7  3,4  - HeM
   7  3,4  - HiM
+  7  3,4  - HmM
   7  3,4  - HoM
   7  3,4  - HuM
   7  2,4  - MHo
@@ -3435,6 +3465,7 @@
   7  7,2  | NOgS
   7  7,2  | NOiR
   7  2,9  - NOiRE
+  7  7,1  | NOiRS
   7  2,9  - NOiSE
   7  5,3  | NOlT
   7  7,2  | NOmS
@@ -3568,6 +3599,7 @@
   7  5,9  - SEN
   7  5,9  - SENa
   7  5,9  - SENd
+  7  5,9  - SENe
   7  5,9  - SENt
   7  5,9  - SERiO
   7  5,9  - SERmO
@@ -3630,6 +3662,7 @@
   7  4,1  | SaO
   7  2,9  - ScONE
   7  7,3  | SeN
+  7  3,9  - SeNE
   7  6,10 - SeRV
   7  4,1  | ShO
   7  7,9  | ShO
@@ -3682,6 +3715,7 @@
   7  3,10 - VOwS
   7  4,10 - VSS
   7  5,10 - VSS
+  7  3,10 - VaRS
   7  5,4  | VaT
   7  3,10 - VeRS
   7  3,10 - ViSS
@@ -3743,6 +3777,7 @@
   7  2,2  | hO
   7  5,7  - hOMO
   7  5,7  - hONOR
+  7  7,2  | hONS
   7  5,3  | hONT
   7  5,7  - hOOM
   7  5,7  - hORNS
@@ -3898,6 +3933,7 @@
   6  4,10 - MOSt
   6  3,10 - MOaS
   6  3,10 - MObS
+  6  3,10 - MOcS
   6  3,10 - MOdS
   6  3,10 - MOgS
   6  3,10 - MOlS
@@ -4041,8 +4077,10 @@
   6  4,9  - OwEN
   6  7,2  | OwNS
   6  4,9  - OxEN
+  6  5,9  - RESOd
   6  5,9  - RESOw
   6  5,9  - REdOS
+  6  5,9  - REpOS
   6  4,10 - RMS
   6  4,9  - ROES
   6  7,2  | RONd
@@ -4216,6 +4254,7 @@
   6  4,9  - VoE
   6  4,10 - VsS
   6  3,3  - WOeS
+  6  3,3  - WOgS
   6  3,3  - WOkS
   6  3,3  - WOnS
   6  3,3  - WOoS
@@ -4382,6 +4421,7 @@
   6  2,4  - pHO
   6  2,4  - pHR
   6  4,2  | pO
+  6  3,10 - pOMS
   6  7,3  | pON
   6  5,9  | pON
   6  3,9  - pONE
@@ -4548,6 +4588,7 @@
   5  4,10 - NOSeR
   5  4,10 - NOSeS
   5  4,9  - NSEc
+  5  1,4  - NaH
   5  4,9  - NeER
   5  4,9  - NiES
   5  4,9  - NoES
@@ -4815,9 +4856,11 @@
   5  3,3  - WO
   5  3,3  - WOb
   5  3,3  - WOe
+  5  3,3  - WOg
   5  3,3  - WOk
   5  3,3  - WOn
   5  3,3  - WOo
+  5  3,3  - WOp
   5  3,3  - WOs
   5  3,3  - WOt
   5  3,3  - WOw
@@ -4878,6 +4921,7 @@
   5  7,10 | hM
   5  4,9  - hOER
   5  4,9  - hOES
+  5  5,7  - hONS
   5  5,7  - hOON
   5  5,9  | hOR
   5  7,9  | hOR
@@ -4977,6 +5021,7 @@
   4  6,5  - ARcO
   4  6,5  - ARcS
   4  6,5  - AReS
+  4  6,5  - ARfS
   4  6,5  - ARgO
   4  6,5  - ARkS
   4  6,5  - ARmS
@@ -5085,6 +5130,7 @@
   4  7,3  | ORs
   4  7,3  | ORt
   4  6,7  - ORtS
+  4  6,7  - ORzO
   4  7,4  | OS
   4  5,10 | OS
   4  7,10 | OS
@@ -5154,9 +5200,11 @@
   4  5,9  - REeS
   4  5,9  - REfS
   4  5,9  - REgO
+  4  5,9  - REgS
   4  5,9  - REiS
   4  5,9  - REmS
   4  5,9  - REnO
+  4  5,9  - REpO
   4  5,9  - REpS
   4  5,9  - REtS
   4  5,9  - REvS
@@ -5371,6 +5419,7 @@
   4  1,4  - dOH
   4  3,10 - dONS
   4  7,3  | dOR
+  4  3,9  - dORE
   4  7,3  | dOS
   4  3,9  - dOSE
   4  3,10 - dROSS
@@ -5404,6 +5453,7 @@
   4  5,9  | hO
   4  7,9  | hO
   4  5,7  - hON
+  4  3,10 - hONS
   4  7,3  | hOR
   4  3,9  - hORE
   4  5,7  - hORS
@@ -5638,6 +5688,7 @@
   3  5,9  - REf
   3  5,9  - REg
   3  5,9  - REh
+  3  5,9  - REi
   3  5,9  - REl
   3  5,9  - REm
   3  5,9  - REn

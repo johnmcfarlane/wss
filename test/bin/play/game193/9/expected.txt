@@ -87,6 +87,7 @@
  31  5,2  - COmME
  31  5,2  - COmMO
  31  5,2  - CaMEO
+ 31  5,2  - ChEMO
  31  5,2  - ChIME
  31  5,2  - ClIME
  31  5,2  - CrIME
@@ -153,6 +154,7 @@
  27  4,2  - COOtIE
  27  3,10 - COmMO
  27  3,10 - CaMEO
+ 27  3,10 - ChEMO
  27  3,10 - CtIMO
  27  7,2  - ECOlE
  27  7,2  - EMOtE
@@ -226,6 +228,7 @@
  24  5,2  - COOEe
  24  2,5  - EM
  24  4,10 - MICo
+ 24  4,10 - MOCs
  24  2,5  - OM
  24  6,10 - OOsE
  24  1,5  - aIM
@@ -681,6 +684,7 @@
  16  9,3  | eCO
  16  7,2  - eME
  16  7,2  - eMO
+ 16  6,4  - fOMITE
  16  6,4  - gEMOTE
  16  7,1  - hIJAB
  16  7,2  - iCE
@@ -730,6 +734,7 @@
  15  3,5  | MASClE
  15  8,4  - METE
  15  7,2  - MEa
+ 15  7,1  | MIChES
  15  7,1  | MICrOS
  15  8,4  - MITE
  15  7,2  - MIa
@@ -769,10 +774,12 @@
  14  2,6  | FuME
  14  9,3  | ICe
  14  9,3  | ICh
+ 14  9,3  | ICk
  14  9,3  | ICy
  14  9,1  | JCl
  14  9,1  | JCt
  14  3,5  | MASC
+ 14  7,3  | MOCS
  14  8,2  - Ma
  14  8,4  - MaTE
  14  8,2  - Me
@@ -827,6 +834,7 @@
  13  3,5  | MASkOI
  13  5,1  | MIsCOIN
  13  7,3  | MaCS
+ 13  7,3  | MoCS
  13  8,2  - OE
  13  8,2  - OO
  13  7,2  - ObE
@@ -901,6 +909,7 @@
  12  3,5  | CAScO
  12  3,5  | CASsE
  12  3,5  | CAStE
+ 12  1,5  - CEl
  12  1,5  - CEp
  12  5,3  | CErIN
  12  5,3  | CEtIN
@@ -944,6 +953,7 @@
  12  9,4  | Ch
  12  5,2  | ChEMIN
  12  7,1  | ChEMIS
+ 12  7,1  | ChEMOS
  12  3,3  | ChIAS
  12  4,11 - ChIMED
  12  7,1  | ChIMES
@@ -1038,6 +1048,7 @@
  12  8,10 - pE
  12  8,2  - pO
  12  8,2  - rE
+ 12  7,1  | rOMEOS
  12  7,1  | sEMOIS
  12  8,2  - sO
  12  7,1  | sOCIES
@@ -1098,6 +1109,7 @@
  11  9,1  | JEe
  11  9,1  | JEt
  11  9,1  | JEu
+ 11  9,1  | JEw
  11  9,1  | JIb
  11  9,1  | JIg
  11  9,1  | JIm
@@ -1198,6 +1210,7 @@
  10  7,11 - CEDrY
  10  6,4  - CEInTE
  10  7,3  | CEeS
+ 10  7,3  | CElS
  10  7,3  | CEpS
  10  3,2  | CErIAS
  10  7,3  | CEsS
@@ -1287,6 +1300,7 @@
  10  1,5  - MO
  10  7,3  | MOaS
  10  7,3  | MObS
+ 10  7,3  | MOcS
  10  7,3  | MOdS
  10  7,3  | MOgS
  10  7,3  | MOlS
@@ -1322,6 +1336,7 @@
  10  4,4  | fIKIE
  10  5,2  | hEIMIN
  10  4,4  | kOKIO
+ 10  5,2  | lOMEIN
  10  4,4  | mIKIE
  10 11,7  | mISLY
  10  3,4  | oCAS
@@ -1361,7 +1376,9 @@
   9  4,11 - COpIED
   9  4,11 - COrEID
   9  2,3  | COrF
+  9  4,11 - COsIED
   9  7,4  - COtTE
+  9  4,11 - COzIED
   9  2,3  | ChEF
   9  2,3  | ClEF
   9  4,11 - ClEOID
@@ -1507,6 +1524,7 @@
   8  7,2  | COhOS
   8  5,11 - COkED
   8  7,2  | COkES
+  8  5,11 - COlED
   8  7,2  | COlES
   8  7,1  | COlIES
   8  7,2  | COmES
@@ -1562,6 +1580,7 @@
   8 10,9  | El
   8  9,10 - ElL
   8  2,5  - Em
+  8  4,3  | EnOKI
   8  6,10 - Eo
   8  2,5  - Er
   8  6,10 - Es
@@ -1586,6 +1605,7 @@
   8  3,4  | MEASe
   8  8,5  - MEAT
   8  5,4  | MEIN
+  8  7,2  | MEOuS
   8  7,2  | MEOwS
   8  7,2  | MEbOS
   8  7,2  | MElIS
@@ -1687,6 +1707,7 @@
   8  7,2  | cOCOS
   8  7,2  | cOMES
   8  5,11 - cOMID
+  8  7,2  | dECOS
   8  7,2  | dEMOS
   8  5,11 - dICED
   8  7,2  | dICES
@@ -1794,6 +1815,7 @@
   7  7,3  | ECuS
   7  7,5  - EM
   7  7,3  | EMeS
+  7  7,3  | EMfS
   7  1,8  - EMp
   7  1,8  - EMs
   7  7,3  | EMuS
@@ -1808,6 +1830,7 @@
   7  7,3  | ICeS
   7  1,8  - ICh
   7  7,3  | IChS
+  7  1,8  - ICk
   7  6,11 - ICoD
   7  6,11 - IMiD
   7  1,8  - IMp
@@ -1935,6 +1958,7 @@
   6  4,6  | KIm
   6  4,6  | KIn
   6  4,6  | KIp
+  6  4,6  | KIr
   6  4,6  | KIt
   6  7,4  | MES
   6  7,4  | MIS
@@ -1995,6 +2019,7 @@
   6  3,5  | fASC
   6  1,5  - fE
   6  2,3  | fEIF
+  6  7,3  | fEMS
   6  1,5  - fI
   6  2,3  | fIEF
   6  7,3  | gEMS
@@ -2026,6 +2051,7 @@
   6  7,3  | mEMS
   6  1,5  - mI
   6  1,5  - mO
+  6  7,3  | mOCS
   6  7,3  | mOMS
   6  1,5  - nE
   6  2,3  | nEIF
@@ -2036,10 +2062,12 @@
   6  1,5  - oI
   6  1,5  - oO
   6  1,5  - pE
+  6  7,3  | pECS
   6  1,5  - pI
   6  7,3  | pICS
   6  7,4  - pIETE
   6  1,5  - pO
+  6  7,3  | pOMS
   6  2,3  | pOOF
   6  1,5  - qI
   6  7,11 - rCD
@@ -2149,6 +2177,7 @@
   5  2,4  | oOF
   5  3,5  | pASEO
   5  2,4  | rEF
+  5  2,4  | rIF
   5  7,4  | rMS
   5  5,11 - rOOED
   5  7,5  - uM
@@ -2333,6 +2362,7 @@
   4 10,2  - rE
   4  6,11 - rEID
   4  5,4  | rEIN
+  4  3,4  | rIAS
   4  6,11 - rOED
   4  6,11 - rOID
   4  5,4  | rOIN
@@ -2534,6 +2564,7 @@
   3  7,11 - nED
   3  8,4  - nETE
   3  7,3  | nIES
+  3  8,4  - nITE
   3  7,11 - nOD
   3  7,3  | nOES
   3  8,4  - nOTE
@@ -2586,11 +2617,13 @@
   3  7,3  | wOES
   3  7,3  | wOOS
   3  8,4  - wOTE
+  3  7,11 - yID
   3  5,5  | yIN
   3  8,4  - yITE
   3  7,11 - yOD
   3  8,4  - yOTE
   3  7,11 - zED
+  3  5,5  | zIN
   3  7,3  | zOOS
   2  3,6  | ASb
   2  3,6  | ASh

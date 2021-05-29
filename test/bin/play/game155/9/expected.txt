@@ -108,6 +108,7 @@
  30  7,1  - MEnOW
  30  8,1  - MORW
  30  7,1  - MiAOW
+ 30  4,6  | fEMS
  29  2,7  | AbIME
  29  2,7  | AnIME
  29  2,7  | AnIMO
@@ -377,6 +378,7 @@
  17  1,9  | KaM
  17  1,9  | KiM
  17  9,3  - MAX
+ 17  4,4  - MAbE
  17  4,4  - MAcE
  17  4,4  - MAdE
  17  4,4  - MAgE
@@ -444,6 +446,7 @@
  16  4,4  - MEAs
  16 10,4  | MENE
  16 10,4  | MENO
+ 16  4,4  - MEOu
  16  4,4  - MERe
  16  4,4  - MOAi
  16  4,4  - MOAs
@@ -537,6 +540,7 @@
  15  8,11 - iDEM
  15  9,1  - jAW
  15 11,8  | jEER
+ 15  9,1  - jEW
  15  9,1  - jOW
  15  9,1  - lAW
  15 11,8  | lEAR
@@ -769,6 +773,7 @@
  13 11,8  | MEEr
  13  5,8  | MEEt
  13 11,8  | MEEt
+ 13  5,8  | MEOu
  13  5,8  | MEOw
  13 11,8  | MEOw
  13  7,2  | MEhTAR
@@ -1028,6 +1033,7 @@
  12  7,3  - fEROX
  12  4,6  | fERS
  12  1,6  - fRIM
+ 12  8,2  - gAMA
  12  1,6  - gRIM
  12  8,2  - iRMA
  12  8,2  - kAMA
@@ -1400,6 +1406,7 @@
  10  1,7  | tAKER
  10  2,6  - tIM
  10  5,7  | tOEA
+ 10  1,7  | tOKER
  10  2,6  - vIM
  10  1,7  | wAKER
  10  2,6  - wIM
@@ -1698,6 +1705,7 @@
   8  1,9  | KgR
   8  1,9  | KhA
   8  1,9  | KiE
+  8  1,9  | KiR
   8  1,9  | KoA
   8  1,9  | KoR
   8  1,9  | KrA
@@ -2170,6 +2178,7 @@
   7  1,7  | dOKE
   7  1,7  | dOKO
   7  1,6  | dOOK
+  7  1,6  | dORK
   7  1,5  - dOVE
   7 11,7  | dREE
   7  1,6  | dREK
@@ -2179,6 +2188,7 @@
   7  2,5  - eVOE
   7  7,11 - fADER
   7  1,7  | fAKE
+  7  1,5  - fAVE
   7  1,6  | fEAK
   7  7,11 - fODER
   7  1,6  | fORK
@@ -2322,6 +2332,7 @@
   7  1,7  | yOKE
   7  1,6  | yOOK
   7  1,6  | yORK
+  7  1,6  | zERK
   7  5,7  - zHO
   7 11,7  | zOEA
   6  1,11 - AESiR
@@ -2578,6 +2589,7 @@
   6 11,7  | REEf
   6 11,7  | REEk
   6 11,7  | REEt
+  6  1,6  - REI
   6  1,6  - REId
   6  1,6  - REIf
   6  1,6  - REIm
@@ -2588,6 +2600,7 @@
   6  1,11 - RESAt
   6  1,11 - RESAw
   6  1,11 - RESAy
+  6  1,11 - RESOd
   6  1,11 - RESOw
   6  5,7  - RHa
   6  5,7  - RHb
@@ -2711,6 +2724,7 @@
   6  5,8  - dIM
   6  2,6  | dO
   6  8,2  - dORA
+  6  4,4  - dORE
   6  1,7  - dORM
   6  1,6  - dRIE
   6  8,4  | dUP
@@ -2878,6 +2892,7 @@
   6  5,8  | sEOR
   6  8,2  - sERA
   6  1,5  - sEV
+  6  1,8  | sKA
   6  2,6  | sO
   6  1,6  - sOIR
   6  1,7  | sOK
@@ -3061,6 +3076,7 @@
   5 11,8  | REd
   5 11,8  | REe
   5 11,8  | REf
+  5 11,8  | REi
   5  7,1  | RElATA
   5  3,7  - REsH
   5 11,8  | REt
@@ -3355,6 +3371,7 @@
   4  5,4  - RAp
   4  5,4  - RAs
   4  5,4  - REe
+  4  5,4  - REi
   4  5,4  - REp
   4  5,4  - REs
   4  2,6  - RIa
@@ -3367,6 +3384,8 @@
   4  5,8  - RId
   4  2,6  - RIe
   4  5,8  - RIe
+  4  2,6  - RIf
+  4  5,8  - RIf
   4  2,6  - RIg
   4  5,8  - RIg
   4  2,6  - RIk
@@ -3391,6 +3410,7 @@
   4  9,2  - ReA
   4  7,2  | ReATA
   4  7,11 - ReDE
+  4  1,6  - ReI
   4  1,11 - ReS
   4  9,2  - RhA
   4  9,2  - RiA
@@ -3494,6 +3514,7 @@
   4  9,2  - kEA
   4  1,11 - kESAR
   4  2,6  - kIE
+  4  2,6  - kIR
   4  9,2  - kOA
   4  1,6  - kOI
   4  9,2  - kRA
@@ -3548,6 +3569,7 @@
   4 10,4  - rE
   4  9,2  - rEA
   4  7,11 - rEDE
+  4  1,6  - rEI
   4 10,4  | rEN
   4  2,6  - rIA
   4  2,6  - rIE
@@ -3758,6 +3780,7 @@
   3  5,8  - dIE
   3  5,8  - dIR
   3  1,7  - dORA
+  3  1,7  - dORE
   3  1,7  - dORR
   3  1,11 - dOSA
   3  1,11 - dOSE
@@ -3797,6 +3820,7 @@
   3  7,3  | iOTA
   3  7,3  | jOTA
   3  1,7  - kARO
+  3  7,3  | kATA
   3  1,7  - kERO
   3  7,3  | kETA
   3  1,7  - kORA
@@ -4083,6 +4107,7 @@
   2  3,11 - SiA
   2  3,11 - SiE
   2  3,11 - SiR
+  2  3,11 - SkA
   2  3,11 - SlA
   2  3,11 - SmA
   2  4,9  | So
