@@ -42,11 +42,14 @@
  30 11,2  | AMIGA
  30 11,6  | AMIGA
  30 11,3  | FAMA
+ 30 11,3  | GAMAS
+ 30 11,5  | GAMAS
  30 11,2  | GRAMA
  30 11,3  | MAGAS
  30 11,5  | MAGAS
  30 11,2  | MARGA
  30 11,5  | MARGA
+ 30  6,7  - RIF
  30 11,2  | SIGMA
  29  8,7  - FAIR
  29  4,7  - MARIS
@@ -65,6 +68,7 @@
  27  4,4  - FAIRM
  27  8,4  | FAIRM
  27  3,7  - FIGS
+ 27 11,3  | GAMA
  27  5,7  - GRAS
  27  5,7  - GRIS
  27 11,3  | MAGA
@@ -161,6 +165,7 @@
  22  3,7  - AIMS
  22  3,7  - AMIR
  22  3,7  - AMIS
+ 22  3,7  - ARFS
  22  3,7  - ARMS
  22 10,5  | GOMARI
  22  5,7  - IRA
@@ -187,6 +192,7 @@
  21 11,6  | AMIS
  21 11,3  | AMRA
  21 11,6  | AMRA
+ 21 11,6  | ARFS
  21 11,3  | ARGAS
  21 11,6  | ARGAS
  21 11,6  | ARMS
@@ -248,6 +254,7 @@
  19  9,4  | MIZAR
  19  3,7  - RAIS
  19  9,4  | RFZ
+ 19  3,7  - RIAS
  19  3,7  - SAIR
  19  9,6  | ZAMIS
  19  9,6  | ZIRAM
@@ -365,6 +372,7 @@
  13  3,3  - GIRLS
  13  3,3  - GISLA
  13  5,3  - GLAIR
+ 13  5,3  - GLIAS
  13  5,4  | MA
  13  3,3  - MAIL
  13  1,5  - MARGIN
@@ -491,6 +499,7 @@
  10  2,3  - GRAIL
  10 11,4  | GRAMA
  10 11,4  | GRAMS
+ 10  3,5  - GRAN
  10  3,5  - GRIN
  10 10,4  | GROMA
  10  2,5  - IRFAN
@@ -549,6 +558,7 @@
   9 10,4  | FROG
   9  4,3  - GALI
   9  4,3  - GALS
+  9 11,5  | GAMA
   9 11,5  | GAMS
   9  4,3  - GILA
   9  4,3  - GILS
@@ -624,6 +634,7 @@
   8  4,4  - AMI
   8  8,4  | AMI
   8  4,2  - AMY
+  8 11,5  | FAG
   8 10,3  | FAROS
   8  4,2  - FAY
   8 11,4  | FIARS
@@ -647,6 +658,7 @@
   8  8,6  | IMI
   8  6,3  - LAIRS
   8  6,3  - LAM
+  8  6,3  - LARIS
   8  6,3  - LIARS
   8  6,3  - LIF
   8  6,3  - LIM
@@ -695,6 +707,7 @@
   8  8,1  | aMIR
   8  8,1  | aMIS
   8  8,1  | aMRA
+  8  8,1  | aRFS
   8  8,1  | aRMS
   7 11,4  | AFAR
   7 10,3  | AFRO
@@ -859,6 +872,10 @@
   6  4,4  - RAIS
   6  8,4  | RAIS
   6 11,5  | RAM
+  6  5,4  - RIAS
+  6  8,5  | RIAS
+  6  5,4  - RIF
+  6  8,5  | RIF
   6  5,4  - RIM
   6  8,5  | RIM
   6 10,5  | ROM
@@ -971,6 +988,7 @@
   4 11,5  | RAIS
   4  4,5  - RAN
   4 11,5  | RASA
+  4 11,4  | RIAS
   4  4,5  - RIN
   4 10,5  | ROSA
   4 11,5  | SAIR

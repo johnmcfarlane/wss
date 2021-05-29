@@ -146,6 +146,7 @@
  21 11,3  | gOBO
  21 11,3  | hOBO
  21 11,3  | jOBO
+ 21 11,3  | kOBO
  21 11,2  | kYOTO
  21 11,3  | lOBO
  21  3,5  | rYOT
@@ -189,6 +190,7 @@
  20  3,4  | gOBO
  20  3,4  | hOBO
  20  3,4  | jOBO
+ 20  3,4  | kOBO
  20  3,3  | kYOTO
  20  3,4  | lOBO
  20  3,4  | zOBO
@@ -390,6 +392,7 @@
  15  1,8  - BUsY
  15  1,9  - INT
  15  1,9  - INTa
+ 15  1,9  - INTi
  15  1,9  - INTl
  15  1,9  - INTo
  15  1,9  - INTr
@@ -421,6 +424,7 @@
  15  1,8  - gUIB
  15  3,5  | hOO
  15  1,9  - iNIT
+ 15  1,9  - iNTI
  15  1,9  - iNTO
  15  1,9  - kNIT
  15  1,9  - kNOT
@@ -997,6 +1001,7 @@
   8  2,5  - jOBO
   8  6,5  | kIBY
   8  2,5  - kOBI
+  8  2,5  - kOBO
   8  1,5  - kYOTO
   8  2,5  - lOBI
   8  2,5  - lOBO
@@ -1332,6 +1337,8 @@
   6  2,8  - UnTO
   6  2,8  - UrOO
   6  2,5  - YITe
+  6  4,5  - YId
+  6  4,7  - YId
   6  4,7  - YIn
   6  4,5  - YIp
   6  2,5  - YOTe
@@ -1623,6 +1630,7 @@
   5 11,4  | lOO
   5  4,5  - lOO
   5  4,5  - lOT
+  5  2,5  - lOTI
   5  2,5  - lOTO
   5  5,4  | lOfTY
   5  6,5  | mIB
@@ -1648,6 +1656,7 @@
   5  4,5  - pIT
   5  4,7  - pIT
   5  6,5  | pITY
+  5  5,3  | pOOfY
   5  4,5  - pOT
   5  2,5  - pOTI
   5  1,8  - pUY
@@ -1687,6 +1696,7 @@
   5 11,6  | uT
   5  4,5  - wIT
   5  4,7  - wIT
+  5  5,4  | wIfTY
   5 11,7  | wOE
   5 11,4  | wOO
   5  4,5  - wOO
@@ -1783,6 +1793,7 @@
   4  4,7  - OfO
   4  4,5  - OfT
   4  4,7  - OfT
+  4  5,5  | OfaY
   4  2,5  - OhIO
   4  3,5  - OhO
   4  2,5  - OlIO
@@ -1848,6 +1859,7 @@
   4  3,5  - TwO
   4  2,8  - UTaI
   4  6,5  | YI
+  4  6,5  | YId
   4  6,5  | YIn
   4  6,5  | YIp
   4  5,4  | YufT
@@ -1897,6 +1909,7 @@
   3  6,4  | ImIT
   3  5,7  - In
   3  6,4  | InIT
+  3  6,3  | InTI
   3  5,5  - Io
   3 11,5  | Io
   3  5,7  - Io
@@ -2053,6 +2066,7 @@
   3  6,3  | lITI
   3  6,5  | lITI
   3  3,5  - lOO
+  3  6,3  | lOTI
   3  1,8  - lUI
   3  1,8  - lUO
   3  1,8  - lUT
@@ -2428,6 +2442,7 @@
   1  5,5  | ofT
   1  6,5  | pI
   1  6,5  | qI
+  1  5,4  | rIf
   1  6,5  | sI
   1  6,5  | tI
   1  5,5  | ufO

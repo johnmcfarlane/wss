@@ -1,6 +1,7 @@
 invalid words: aix
  41 11,1  | RIFS
  41 11,1  | RIV
+ 38 11,1  | RIF
  35 11,1  | RIDS
  32 11,1  | RID
  29 11,1  | SIR
@@ -20,12 +21,14 @@ invalid words: aix
  18  7,3  - DID
  18  7,3  - DIRD
  18  9,2  - ID
+ 18  7,3  - RIF
  18 11,1  | SI
  17  7,3  - DSRI
  16  7,3  - DIR
  16  7,3  - DIS
  16  7,3  - DSR
  16  9,2  - IRS
+ 15  4,6  | ARFS
  15  9,1  | KIFS
  15  7,3  - RIDS
  14  4,6  | ARF
@@ -65,6 +68,7 @@ invalid words: aix
   9  4,6  | AIDS
   9  2,6  | CFI
   9  2,6  | CFS
+  9  9,1  | KIRS
   9  9,1  | KRIS
   9  7,1  | MED
   9  7,1  | MERD
@@ -72,8 +76,10 @@ invalid words: aix
   9  5,6  | YIRD
   8  4,6  | AID
   8 10,1  | ERIS
+  8  2,4  - FAG
   8  6,5  - IFS
   8  6,7  - IFS
+  8  9,1  | KIR
   8  9,1  | KRS
   8  9,1  | KSI
   8  2,5  | SCI
@@ -81,6 +87,7 @@ invalid words: aix
   8 10,2  - SI
   8  4,7  - SI
   8  6,4  | VISS
+  8  5,6  | YIDS
   7  4,6  | ARID
   7  2,6  | CDR
   7  2,6  | CID
@@ -107,6 +114,7 @@ invalid words: aix
   6  6,4  | IFS
   6  9,1  | KI
   6  5,5  | SYD
+  6  5,6  | YID
   5  4,6  | AIR
   5  4,6  | AIS
   5  4,6  | ARS

@@ -148,6 +148,8 @@
  14  6,10 - SNaGS
  14  2,10 - SNiGS
  14  6,10 - SNiGS
+ 14  2,10 - SNoGS
+ 14  6,10 - SNoGS
  14  2,10 - SNuGS
  14  6,10 - SNuGS
  14  6,10 - SSiNG
@@ -347,11 +349,13 @@
   9  5,7  - FILeS
   9  5,7  - FILlS
   9  5,7  - FILmS
+  9  5,7  - FILoS
   9  5,7  - FINdS
   9  5,7  - FINeS
   9  5,7  - FINiS
   9  5,7  - FINkS
   9  5,7  - FINnS
+  9  5,7  - FINoS
   9  5,7  - FIlLS
   9  5,7  - FInNS
   9  5,7  - FIrNS
@@ -384,6 +388,8 @@
   9  3,7  - LoGIS
   9  2,7  - LuNGIS
   9  5,7  - NIFLe
+  9  4,8  - NaNS
+  9  6,8  - NaNS
   9  6,8  - NiLS
   9  3,7  - NoSIG
   9  4,8  - NuNS
@@ -531,6 +537,7 @@
   7  6,6  - CaG
   7  6,6  - CaLS
   7  6,6  - CaNS
+  7  6,6  - CeLS
   7  6,6  - ChG
   7  6,6  - CiG
   7  6,6  - CoG
@@ -583,6 +590,7 @@
   7  4,7  - GLISk
   7  4,7  - GLISs
   7  4,7  - GLISt
+  7  4,7  - GLIaS
   7  4,7  - GLImS
   7  4,7  - GLIsS
   7  3,10 - GLaSS
@@ -691,6 +699,7 @@
   6  6,6  - CLy
   6  6,6  - CaL
   6  6,6  - CaN
+  6  6,6  - CeL
   6  6,6  - ChN
   6  6,6  - CmL
   6  6,6  - CoL
@@ -892,6 +901,7 @@
   5  5,7  - GIlS
   5  5,7  - GInS
   5  5,7  - GIpS
+  5  5,7  - GItS
   5  5,8  - GNs
   5  5,8  - GNu
   5  3,10 - GeSS
@@ -970,6 +980,8 @@
   5  4,8  - SaN
   5  6,10 - ScF
   5  4,6  - SeC
+  5  3,10 - SeGS
+  5  6,10 - SeGS
   5  4,8  - SeN
   5  7,5  | Sh
   5  5,7  | Si
@@ -990,9 +1002,11 @@
   5  3,10 - SvGS
   5  6,10 - SvGS
   5  4,7  - SwIG
+  5  3,7  - SyLI
   5  4,8  - SyN
   5  4,7  - aLIN
   5  4,7  - aNIL
+  5  5,7  - bIGS
   5  4,7  - bLIN
   5  5,10 - bSF
   5  4,7  - cFI
@@ -1027,10 +1041,12 @@
   5  4,6  - oSC
   5  5,7  - pIGS
   5  4,7  - pSIG
+  5  5,7  - rIF
   5  5,7  - rIGS
   5  4,8  - tGN
   5  4,10 - uFS
   5  5,8  - uNG
+  5  5,7  - vIGS
   5  5,7  - wIGS
   5  5,7  - zIGS
   4  6,6  - Cc
@@ -1214,11 +1230,13 @@
   4  5,8  - uNL
   4  4,8  - uNN
   4  5,8  - uNN
+  4  5,7  - vIG
   4  5,7  - vINS
   4  5,7  - wIG
   4  5,7  - wINS
   4  5,7  - yINS
   4  5,7  - zIG
+  4  5,7  - zINS
   3  6,7  - ILa
   3  6,7  - ILe
   3  6,7  - ILk
@@ -1252,7 +1270,6 @@
   3  5,7  - LIr
   3  5,7  - LIs
   3  5,7  - LIt
-  3  5,7  - LIv
   3  5,7  - LIz
   3  5,10 - LSc
   3  5,10 - LSd
@@ -1350,6 +1367,7 @@
   3  5,7  - vIN
   3  5,7  - wIN
   3  5,7  - yIN
+  3  5,7  - zIN
   2  6,7  - IS
   2  6,7  - ISe
   2  6,7  - ISh

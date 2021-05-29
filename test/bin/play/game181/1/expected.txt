@@ -97,6 +97,7 @@
  20  2,7  - OrIG
  20  3,7  - PI
  20  6,2  | PICoT
+ 20  6,1  | PIGOuT
  20  6,2  | PiCOT
  20  6,6  | TIGlIC
  20  6,6  | TOPInG
@@ -139,6 +140,7 @@
  19  3,7  - rIG
  19  3,7  - sIG
  19  3,7  - tIG
+ 19  3,7  - vIG
  19  3,7  - wIG
  19  1,7  - yOGI
  19  3,7  - zIG
@@ -354,6 +356,7 @@
  13  7,4  | POSInG
  13  5,3  | PaCA
  13  7,3  | PaCS
+ 13  7,3  | PeCS
  13  5,3  | PiCA
  13  7,3  | PiCS
  13  5,3  | PuCA
@@ -526,9 +529,11 @@
  11  7,4  | PISCId
  11  7,4  | PISCIs
  11  7,4  | PISCO
+ 11  7,4  | PISCOs
  11  6,4  | PITChI
  11  6,3  | PIeTIC
  11  7,1  | PIsCIS
+ 11  7,1  | PIsCOS
  11  6,3  | PIsTIC
  11  7,2  | POCkS
  11  7,2  | POCuS
@@ -638,6 +643,7 @@
  10  6,4  | GOThIC
  10  6,3  | GOeTIC
  10  7,2  | GOoPS
+ 10  7,2  | GOrPS
  10  6,3  | GeOTIC
  10  6,5  - IOCs
  10  6,7  - IOCs
@@ -680,7 +686,9 @@
  10  5,3  | POhA
  10  7,3  | POiS
  10  7,3  | POlS
+ 10  7,3  | POmS
  10  5,2  | POnGA
+ 10  7,2  | POnGS
  10  7,3  | POnS
  10  5,3  | POoA
  10  7,3  | POpS
@@ -879,6 +887,7 @@
   8  7,3  | GIlS
   8  7,3  | GInS
   8  7,3  | GIpS
+  8  7,3  | GItS
   8  7,3  | GOaS
   8  7,3  | GObS
   8  7,3  | GOdS
@@ -930,7 +939,9 @@
   8  7,2  | PIOnS
   8  7,2  | PIOuS
   8  6,4  | PIThOI
+  8  7,2  | PIkIS
   8  7,2  | PIlIS
+  8  7,2  | PIsOS
   8  5,2  | POdIA
   8  7,2  | POlIS
   8  5,2  | POrIA
@@ -987,6 +998,7 @@
   8  7,2  | tIPIS
   8  7,2  | tOPIS
   8  5,2  | vICIA
+  8  6,5  - wOP
   7  5,6  | ACInI
   7  5,6  | AGIO
   7  5,6  | AGIOs
@@ -1018,6 +1030,8 @@
   7  7,5  - ICh
   7  7,7  - ICh
   7  7,3  | IChS
+  7  7,5  - ICk
+  7  7,7  - ICk
   7  7,5  - ICy
   7  7,7  - ICy
   7  5,7  - IIi
@@ -1081,6 +1095,7 @@
   7  5,4  | PIAnO
   7  6,3  | PIOTr
   7  7,4  | PISO
+  7  7,4  | PISOs
   7  7,4  | PIScO
   7  6,4  | PITOn
   7  6,3  | PInTO
@@ -1089,6 +1104,7 @@
   7  6,4  | POTtI
   7  6,3  | POtTI
   7  6,4  | PaTIO
+  7  7,6  | SICkO
   7  7,6  | SIGIl
   7  7,6  | SIGlOI
   7  7,6  | SIGnOI
@@ -1130,6 +1146,7 @@
   7  7,5  - uPO
   7  5,2  | vIGIA
   7  6,5  - wIG
+  7  6,5  - wOG
   7  7,2  | yOGIS
   6  5,6  | ACId
   6  5,6  | ACIs
@@ -1149,6 +1166,7 @@
   6  5,5  | CAOn
   6  5,5  | CAcI
   6  5,5  | CAdI
+  6  5,5  | CAlO
   6  5,5  | CApO
   6  5,5  | CArO
   6  5,4  | CIA
@@ -1248,6 +1266,7 @@
   6  5,5  | PAIr
   6  5,5  | PAIs
   6  5,5  | PAOn
+  6  5,5  | PAdI
   6  5,5  | PAhI
   6  5,5  | PAhO
   6  5,5  | PAlI
@@ -1410,6 +1429,7 @@
   6  7,5  - eGO
   6  6,3  | ePIT
   6  7,3  | ePOS
+  6  6,5  | eTIC
   6  5,3  | fICA
   6  6,3  | fICT
   6  7,4  | fISC
@@ -1438,6 +1458,7 @@
   6  7,4  | mISC
   6  7,4  | mISGO
   6  5,3  | mOCA
+  6  7,3  | mOCS
   6  7,3  | mOPS
   6  5,4  | nGAIO
   6  5,3  | nIPA
@@ -1571,6 +1592,7 @@
   5  6,4  | GIT
   5  6,4  | GITe
   5  6,4  | GITh
+  5  6,4  | GITs
   5  6,3  | GIfT
   5  6,3  | GIlT
   5  6,3  | GIrT
@@ -1739,6 +1761,7 @@
   5  5,5  | bAC
   5  5,5  | bAP
   5  5,3  | bIGA
+  5  7,3  | bIGS
   5  5,3  | bOGA
   5  7,3  | bOGS
   5  7,4  | bPS
@@ -1839,10 +1862,12 @@
   5  5,5  | vAC
   5  5,5  | vAGI
   5  5,3  | vIGA
+  5  7,3  | vIGS
   5  6,3  | vOGT
   5  5,5  | wAC
   5  5,5  | wAP
   5  7,3  | wIGS
+  5  7,3  | wOGS
   5  5,5  | yAGI
   5  5,5  | yAP
   5  5,3  | yOGA
@@ -1978,6 +2003,7 @@
   4  6,5  - eO
   4  5,7  - eO
   4  6,7  - eO
+  4  5,5  | fAG
   4  5,5  - fI
   4  5,5  | gAG
   4  5,7  - gI
@@ -2050,6 +2076,7 @@
   3  7,5  - In
   3  7,7  - In
   3  6,3  | InIT
+  3  6,4  | InTI
   3  6,4  | InTO
   3  7,5  - Io
   3  7,7  - Io
@@ -2129,6 +2156,7 @@
   3  6,4  | jITI
   3  6,4  | lITI
   3  7,3  | lOIS
+  3  6,4  | lOTI
   3  5,4  | mIAO
   3  7,4  | mISO
   3  5,4  | mOAI

@@ -34,6 +34,8 @@
  23  3,7  - CADS
  23  3,7  - CALS
  23  4,7  - CASTED
+ 23  3,7  - CELS
+ 23  1,7  - CLADES
  23  2,7  - CLADS
  23  1,7  - ECLATS
  23  6,7  - SCALD
@@ -44,6 +46,7 @@
  22  4,7  - CASTLE
  22  3,7  - CATS
  22  5,6  - CELESTA
+ 22  2,6  - CLADES
  22  2,7  - CLAES
  22  4,4  - CLEAD
  22  4,4  - CLEATED
@@ -110,6 +113,7 @@
  19  4,7  - CESTA
  19  4,4  - CLEAT
  19  2,7  - DALES
+ 19  3,7  - DALS
  19  2,7  - DEALS
  19  3,7  - DELS
  19  7,4  | DESALT
@@ -192,6 +196,7 @@
  17  5,7  - CST
  17  4,7  - CTS
  17  7,4  | DALE
+ 17  7,4  | DALS
  17  7,4  | DALT
  17  7,4  | DELS
  17  5,7  - ESC
@@ -218,6 +223,7 @@
  17  7,4  | TALED
  17  4,3  - TARCEL
  17  3,7  - TEDS
+ 17  3,7  - TELS
  17  4,7  - TESLA
  16  5,5  | ADLET
  16  7,5  | ADLET
@@ -356,6 +362,7 @@
  15  7,4  | TEDA
  15  7,4  | TEDS
  15  7,4  | TELA
+ 15  7,4  | TELS
  15  7,4  | TESLA
  14  4,3  - ACRED
  14  1,6  - ADESTE
@@ -468,6 +475,7 @@
  13  2,5  - CALEB
  13  2,3  - CEDARS
  13  5,4  - CELESTA
+ 13  2,4  - CLADES
  13  3,4  - CLAES
  13  3,3  - CLAR
  13  5,3  - CRL
@@ -560,6 +568,7 @@
  12  5,4  - DECAST
  12  1,4  - DECATE
  12  5,4  - DECATE
+ 12  4,4  - DEETS
  12  5,6  | DELTAS
  12  7,6  | DELTAS
  12  5,6  | DESALT
@@ -791,6 +800,7 @@
  10  5,4  - CEDE
  10  3,4  - CELE
  10  5,4  - CELE
+ 10  5,4  - CELS
  10  5,4  - CELT
  10  4,3  - CERAS
  10  4,3  - CERAT
@@ -807,6 +817,8 @@
  10  3,4  - DACE
  10  5,6  | DALE
  10  7,6  | DALE
+ 10  5,6  | DALS
+ 10  7,6  | DALS
  10  5,6  | DALT
  10  7,6  | DALT
  10  2,3  - DATERS
@@ -908,6 +920,8 @@
  10  2,6  - TEASE
  10  5,6  | TECA
  10  7,6  | TECA
+ 10  4,4  - TEELS
+ 10  5,4  - TEELS
  10  2,4  - TELAE
  10  5,4  - TESLA
  10  5,6  | TESLA
@@ -999,6 +1013,7 @@
   9  4,5  - DEBTS
   9  5,6  - DECL
   9  4,4  - DEES
+  9  4,4  - DEET
   9  3,4  - DELES
   9  5,4  - DELES
   9  5,4  - DELTA
@@ -1150,6 +1165,7 @@
   8  5,6  - CEDE
   8  3,6  - CELE
   8  5,6  - CELE
+  8  5,6  - CELS
   8  5,6  - CELT
   8  5,6  - CESTA
   8  5,6  - CESTE
@@ -1174,6 +1190,7 @@
   8  4,5  - DEBS
   8  4,5  - DEBT
   8  4,4  - DEE
+  8  5,4  - DEETS
   8  4,2  - DEGAS
   8  5,6  | DEL
   8  7,6  | DEL
@@ -1293,6 +1310,8 @@
   8  2,3  - TELAR
   8  3,4  - TELES
   8  5,4  - TELES
+  8  5,6  | TELS
+  8  7,6  | TELS
   8  5,3  - TREAS
   8  2,4  - TSADE
   7  5,5  - ABET
@@ -1325,6 +1344,8 @@
   7  3,6  - CATE
   7  4,6  - CEES
   7  5,6  - CEES
+  7  5,4  - CEL
+  7  5,6  - CEL
   7  5,6  - CEST
   7  3,6  - CETE
   7  5,6  - CETE
@@ -1348,6 +1369,7 @@
   7  5,4  - DEAS
   7  4,5  - DEB
   7  5,4  - DEES
+  7  5,4  - DEET
   7  3,6  - DELES
   7  5,6  - DELES
   7  5,6  - DELTA
@@ -1467,6 +1489,7 @@
   7  5,4  - TELA
   7  3,4  - TELE
   7  5,4  - TELE
+  7  5,4  - TELS
   7  4,3  - TERAS
   7  5,3  - TRAD
   6  5,5  - ABS
@@ -1510,6 +1533,8 @@
   6  5,6  | DE
   6  7,6  | DE
   6  5,6  - DEAL
+  6  4,6  - DEETS
+  6  5,6  - DEETS
   6  3,6  - DELE
   6  5,6  - DELE
   6  5,6  - DELS
@@ -1633,6 +1658,8 @@
   6  5,6  - TEC
   6  5,6  | TED
   6  7,6  | TED
+  6  4,6  - TEELS
+  6  5,6  - TEELS
   6  4,4  - TEES
   6  5,4  - TEES
   6  4,2  - TEGA
@@ -1672,6 +1699,8 @@
   5  5,6  - DEAS
   5  4,6  - DEES
   5  5,6  - DEES
+  5  4,6  - DEET
+  5  5,6  - DEET
   5  5,4  - DEL
   5  5,6  - DEL
   5  4,3  - DER
@@ -1777,6 +1806,7 @@
   5  5,6  - TELA
   5  3,6  - TELE
   5  5,6  - TELE
+  5  5,6  - TELS
   5  5,3  - TRA
   5  5,3  - TRS
   4  5,6  | AE

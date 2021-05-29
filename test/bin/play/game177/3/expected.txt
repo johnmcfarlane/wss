@@ -58,6 +58,7 @@
  22  3,5  - TILE
  22  3,5  - TIP
  21  4,8  - EPIT
+ 21  4,8  - IPL
  21  2,9  | IPR
  21  7,5  | JE
  21  5,5  - PERIL
@@ -67,6 +68,7 @@
  21  7,1  | TRIPLE
  20  4,8  - EPI
  20  7,6  | EPIL
+ 20  4,8  - IPR
  20  3,5  - LER
  20  3,5  - LET
  20  3,5  - LIR
@@ -94,6 +96,7 @@
  19  7,2  | TRIPE
  18  7,6  | EPIT
  18  2,5  - IRE
+ 18  7,5  | LEPT
  18  7,5  | LERP
  18  7,3  | LITER
  18  2,6  | MIRI
@@ -141,6 +144,7 @@
  16  7,6  | EPI
  16  4,5  | EREPT
  16  1,7  | HEXER
+ 16  5,5  - LEPT
  16  5,5  - LERP
  16  5,1  | LIPREAD
  16  1,5  - LIR
@@ -238,6 +242,7 @@
  13  5,2  | PLEIAD
  13  5,8  - PRE
  13  5,8  - PTE
+ 13  7,5  | REI
  13  5,5  - REP
  13  7,5  | RET
  13  7,4  | RIE
@@ -290,6 +295,7 @@
  10  5,5  | PADRE
  10  5,5  | PADRI
  10  4,3  | PETRE
+ 10  5,5  - REI
  10  4,6  | RELET
  10  4,6  | RELIT
  10  2,4  | REMIT
@@ -332,6 +338,7 @@
   8  2,6  | MIR
   8  2,6  | MIT
   8  3,6  | ODEL
+  8  5,5  | PADI
   8  6,3  | PIRL
   8  5,4  | PRAD
   8  4,6  | REITER
@@ -388,6 +395,7 @@
   5  5,5  | LAD
   5  5,4  | READ
   5  4,6  | REE
+  5  4,6  | REI
   5  4,6  | RET
   5  6,3  | RIEL
   5  3,5  | ROD

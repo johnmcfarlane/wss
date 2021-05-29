@@ -102,6 +102,7 @@
  25  5,6  | HEAF
  25  9,1  | HEx
  25  5,6  | HaAFS
+ 25  5,5  | KHAF
  25  5,5  | KHAFs
  25  5,3  | KHEdAS
  25  3,7  - KHaFS
@@ -140,6 +141,7 @@
  24  5,3  | KHEdA
  24  5,5  | KHEdAS
  24  8,4  | KHVAt
+ 24  5,5  | KHaF
  24  8,4  | KaVAS
  24  8,4  | KiVAS
  24  5,2  | SEbKHA
@@ -175,12 +177,15 @@
  23  3,7  - KEeFS
  23  3,5  - KEnAF
  23  3,7  - KErFS
+ 23  3,5  - KHAF
+ 23  3,7  - KHAF
  23  5,5  | KHAfS
  23  5,5  | KHAnS
  23  5,3  | KHAr
  23  5,5  | KHAsS
  23  5,5  | KHAtS
  23  5,5  | KHEdA
+ 23  5,5  | KHEtS
  23  5,5  | KHaSA
  23  3,7  - KeEFS
  23  3,7  - KhAFS
@@ -210,6 +215,7 @@
  22  8,5  | AVoKE
  22  5,3  | AnKH
  22  5,2  | FAKErS
+ 22  8,4  | FAVES
  22  5,1  | FErASH
  22  5,4  | FErASH
  22  9,5  - FOd
@@ -218,6 +224,7 @@
  22  9,5  - FOu
  22  6,2  | FlAKE
  22  5,5  | FlAKES
+ 22  8,4  | FoVEAS
  22  6,2  | HAKEEm
  22  5,6  | HAKeS
  22  6,1  | HAcKEE
@@ -236,6 +243,8 @@
  22  5,5  | KHASa
  22  5,5  | KHASi
  22  5,5  | KHASs
+ 22  3,5  - KHaF
+ 22  3,7  - KHaF
  22  6,2  | SAKiEH
  22  9,7  - SEa
  22  6,5  | SEbKHA
@@ -296,7 +305,12 @@
  21  5,3  | EFpH
  21  5,2  | FAKEd
  21  5,2  | FAKEr
+ 21  8,4  | FAVaS
+ 21  8,4  | FAVeS
  21  8,4  | FAVuS
+ 21  5,4  | FEHS
+ 21  8,4  | FaVAS
+ 21  8,4  | FaVES
  21  8,4  | FiVES
  21  5,5  | FlAKE
  21  5,2  | FlASH
@@ -325,6 +339,7 @@
  21  3,7  - KAnEH
  21  3,7  - KApHS
  21  5,5  | KHA
+ 21  5,5  | KHAf
  21  5,5  | KHAn
  21  5,5  | KHAr
  21  5,5  | KHAt
@@ -389,7 +404,9 @@
  20  6,2  | FAsHES
  20  5,3  | FEArS
  20  5,4  | FEH
+ 20  5,4  | FEHs
  20  6,5  | FErASH
+ 20  5,4  | FeHS
  20  3,5  - FiKH
  20  3,7  - FiKH
  20  5,6  | HAF
@@ -414,12 +431,15 @@
  20  3,5  - KErF
  20  3,7  - KErF
  20  5,4  | KErFS
+ 20  4,5  - KHAF
  20  5,5  | KHa
  20  5,5  | KHi
  20  5,5  | KHu
  20  8,5  | KVAH
  20  3,5  - KeEF
  20  3,7  - KeEF
+ 20  3,5  - KhAF
+ 20  3,7  - KhAF
  20  3,5  - KiEF
  20  3,7  - KiEF
  20  1,5  - SAKiEH
@@ -434,6 +454,7 @@
  20  6,2  | cHAFES
  20  5,5  | cHEF
  20  6,2  | cHEKE
+ 20  5,5  | kHAF
  20  5,6  | lEAFS
  20  6,2  | sHAKE
  20  2,7  - sHEAFS
@@ -443,7 +464,9 @@
  19  5,2  | EArSH
  19  1,7  - FAKErS
  19  5,3  | FASh
+ 19  8,4  | FAVE
  19  8,4  | FAVEl
+ 19  8,4  | FAVEs
  19  5,4  | FAlK
  19  9,1  | FE
  19  4,5  - FEAK
@@ -493,6 +516,7 @@
  19  2,7  - KHAFS
  19  3,7  - KHaSA
  19  8,5  | KVaH
+ 19  5,5  | KhAF
  19  5,3  | SAdHE
  19  5,3  | SEAH
  19  5,2  | SElAH
@@ -573,8 +597,14 @@
  18  3,7  - FAKEd
  18  3,7  - FAKEr
  18  3,7  - FAKEs
+ 18  3,5  - FAKEy
+ 18  3,7  - FAKEy
  18  3,7  - FAKeS
+ 18  8,4  | FAVa
+ 18  8,4  | FAVe
  18  8,4  | FAVi
+ 18  8,4  | FaVA
+ 18  8,4  | FaVE
  18  4,5  - FeAK
  18  8,4  | FiVE
  18  4,5  - FlAK
@@ -623,12 +653,14 @@
  18  9,5  | HEElS
  18  8,4  | HEVeA
  18  9,5  | HEaF
+ 18  5,6  | HEhS
  18  9,5  | HEmASE
  18  5,6  | HEmS
  18  5,6  | HEnS
  18  5,6  | HEpS
  18  5,6  | HErA
  18  5,6  | HErS
+ 18  5,6  | HEtS
  18  5,6  | HEwS
  18  5,6  | HExA
  18  9,5  - HOd
@@ -643,6 +675,8 @@
  18  5,6  | HoSE
  18  5,6  | HuES
  18  5,6  | HuSE
+ 18  3,7  - KAFS
+ 18  4,7  - KAFS
  18  5,2  | KASEr
  18  3,5  - KApH
  18  3,7  - KApH
@@ -660,6 +694,8 @@
  18  3,7  - KHAtS
  18  3,5  - KHEdA
  18  3,7  - KHEdA
+ 18  3,7  - KHEtS
+ 18  4,5  - KHaF
  18  2,7  - KHaFS
  18  3,5  - KiSH
  18  3,7  - KiSH
@@ -822,6 +858,7 @@
  17  5,6  | HEAt
  17  5,6  | HES
  17  5,6  | HESt
+ 17  9,5  | HEbES
  17  9,5  | HElAS
  17  9,5  | HEmES
  17  9,5  | HErES
@@ -844,9 +881,12 @@
  17  2,7  - KEnAF
  17  7,3  | KEnAFS
  17  2,7  - KHAFs
+ 17  3,7  - KaFS
+ 17  4,7  - KaFS
  17  4,5  - KeEF
  17  3,7  - KeFS
  17  4,7  - KeFS
+ 17  4,5  - KhAF
  17  4,5  - KiEF
  17  3,7  - KiFS
  17  4,7  - KiFS
@@ -939,11 +979,13 @@
  17  5,6  | dASH
  17  4,5  - dHAK
  17  5,3  | fASH
+ 17  5,4  | fEHS
  17  5,3  | gASH
  17  5,4  | hAHS
  17  5,6  | hAKE
  17  5,3  | hASH
  17  5,6  | hASH
+ 17  5,4  | hEHS
  17  5,6  | lAKE
  17  5,3  | lASH
  17  5,6  | lASH
@@ -956,6 +998,7 @@
  17  5,3  | nASH
  17  5,3  | nESH
  17  2,7  - oKEHS
+ 17  7,1  | pAKEHAS
  17  5,3  | pASH
  17  5,4  | pEHS
  17  5,4  | pSHA
@@ -1160,6 +1203,8 @@
  16  5,6  | HtS
  16  5,6  | HuE
  16  5,6  | HyE
+ 16  3,7  - KAFs
+ 16  4,7  - KAFs
  16  3,7  - KASEr
  16  5,4  | KAlE
  16  3,7  - KEAtS
@@ -1274,6 +1319,7 @@
  16  3,7  - lEKHA
  16  5,4  | mAH
  16  5,4  | mEH
+ 16  5,4  | nAH
  16  5,5  | oHS
  16  3,7  - oKEHS
  16  5,4  | pAH
@@ -1317,6 +1363,7 @@
  15  2,7  - ASHKEy
  15  5,5  | AlEF
  15  3,7  - AlEFS
+ 15  5,5  | ArFS
  15  5,5  | ArK
  15  5,5  | AwK
  15  5,4  | EArSH
@@ -1344,9 +1391,13 @@
  15  2,7  - FAsHES
  15  3,7  - FAtES
  15  3,7  - FAuSE
+ 15  3,7  - FAvES
  15  3,7  - FAxES
  15  3,7  - FAzES
+ 15  3,7  - FEHS
+ 15  4,7  - FEHS
  15  5,4  | FEdS
+ 15  5,4  | FEhS
  15  5,4  | FElS
  15  5,4  | FErS
  15  9,1  | Fe
@@ -1375,6 +1426,7 @@
  15  3,7  - HEFtS
  15  9,5  | HEbE
  15  9,5  | HEhE
+ 15  9,5  | HEhS
  15  5,4  | HElAS
  15  9,5  | HElE
  15  9,5  | HEmE
@@ -1385,6 +1437,7 @@
  15  9,5  | HErE
  15  9,5  | HErS
  15  9,5  | HEtE
+ 15  9,5  | HEtS
  15  9,5  | HEwE
  15  9,5  | HEwS
  15  9,5  | HExA
@@ -1420,6 +1473,8 @@
  15  5,4  | KEr
  15  5,5  - KHA
  15  5,7  - KHA
+ 15  3,5  - KHAf
+ 15  3,7  - KHAf
  15  2,7  - KHAfS
  15  3,5  - KHAn
  15  3,7  - KHAn
@@ -1433,6 +1488,7 @@
  15  2,5  - KHEdA
  15  3,5  - KHEt
  15  3,7  - KHEt
+ 15  2,7  - KHEtS
  15  2,5  - KHaSA
  15  8,5  | KVASEs
  15  5,5  - KaF
@@ -1502,6 +1558,8 @@
  15  4,5  - fEAK
  15  5,6  | hAHS
  15  5,6  | hAK
+ 15  5,6  | hEHS
+ 15  4,5  - kHAF
  15  8,5  | kVAH
  15  5,6  | lAK
  15  4,5  - lEAK
@@ -1511,6 +1569,7 @@
  15  5,5  | oH
  15  4,5  - oKEH
  15  4,7  - oKEH
+ 15  7,5  | pAKEHAS
  15  4,5  - pEAK
  15  9,5  | pEKES
  15  4,5  - rEAK
@@ -1597,6 +1656,8 @@
  14  5,4  | FEw
  14  4,7  - FaSH
  14  6,2  | FeASE
+ 14  3,7  - FeHS
+ 14  4,7  - FeHS
  14  4,7  - FiSH
  14  6,2  | FnESE
  14  4,7  - FoSH
@@ -1626,6 +1687,7 @@
  14  9,5  | HEd
  14  9,5  | HEe
  14  9,5  | HEh
+ 14  5,4  | HEhS
  14  9,5  | HEi
  14  9,5  | HEl
  14  9,5  | HEm
@@ -1662,6 +1724,7 @@
  14  3,7  - KAaS
  14  3,7  - KAbS
  14  3,7  - KAeS
+ 14  3,7  - KAfS
  14  2,7  - KAiFS
  14  3,5  - KAlE
  14  3,7  - KAlE
@@ -1803,6 +1866,7 @@
  13  7,6  | AnKHS
  13  7,6  | ArAKE
  13  7,6  | ArAKS
+ 13  4,7  - ArFS
  13  5,5  - ArK
  13  7,6  | AtAKE
  13  4,5  - AtEF
@@ -1820,6 +1884,7 @@
  13  9,4  | ESEs
  13  5,5  | EdH
  13  4,7  - EfFS
+ 13  4,7  - EmFS
  13  5,5  - ErK
  13  7,3  | FAHAm
  13  6,3  | FAKEErS
@@ -1829,11 +1894,14 @@
  13  2,5  - FAKEr
  13  2,7  - FAKEr
  13  2,7  - FAKEs
+ 13  2,5  - FAKEy
  13  7,5  | FAiKES
  13  4,7  - FAsH
  13  4,5  - FAtH
  13  4,7  - FAtH
  13  8,3  | FAuVE
+ 13  3,7  - FEHs
+ 13  4,7  - FEHs
  13  2,7  - FaKES
  13  2,5  - FlAKE
  13  2,7  - FlAKE
@@ -1904,12 +1972,14 @@
  13  7,3  | KApAS
  13  2,7  - KApHS
  13  7,4  - KApPE
+ 13  7,3  | KAtAS
  13  7,3  | KAvAS
  13  3,5  - KEAp
  13  3,7  - KEAs
  13  3,5  - KEAt
  13  3,7  - KEAt
  13  7,3  | KESAr
+ 13  7,4  | KHAF
  13  7,4  | KHAFs
  13  7,2  | KHAjA
  13  7,2  | KHAsA
@@ -1985,7 +2055,10 @@
  13  4,5  - hEAF
  13  5,6  | hEH
  13  9,5  | jEFES
+ 13  4,7  - kAFS
  13  4,7  - kEFS
+ 13  3,5  - kHAF
+ 13  3,7  - kHAF
  13  5,6  | lAH
  13  3,5  - lAKH
  13  3,7  - lAKH
@@ -1993,6 +2066,7 @@
  13  5,6  | lASE
  13  4,5  - lEAF
  13  5,6  | lEAS
+ 13  9,5  | lEKE
  13  2,5  - lEKHA
  13  9,5  | lEKS
  13  7,5  | mAKAH
@@ -2100,6 +2174,8 @@
  12  3,5  - FAtE
  12  3,7  - FAtE
  12  3,7  - FAtS
+ 12  3,5  - FAvE
+ 12  3,7  - FAvE
  12  3,7  - FAyS
  12  3,5  - FAzE
  12  3,7  - FAzE
@@ -2109,8 +2185,10 @@
  12  3,7  - FEdS
  12  3,7  - FEeS
  12  3,7  - FEgS
+ 12  3,7  - FEhS
  12  3,7  - FEiS
  12  3,7  - FElS
+ 12  3,7  - FEmS
  12  3,7  - FEnS
  12  3,7  - FErS
  12  8,3  | FErV
@@ -2208,10 +2286,12 @@
  12  7,3  | KAsA
  12  7,2  | KAsHAS
  12  7,5  | KAsHAS
+ 12  7,3  | KAtA
  12  7,3  | KAvA
  12  6,4  | KEEFS
  12  6,5  | KEEFS
  12  7,3  | KEtA
+ 12  4,5  - KHAf
  12  7,1  | KHAlSA
  12  7,4  | KHAlSA
  12  4,5  - KHAn
@@ -2424,6 +2504,8 @@
  11  7,5  | FAKEr
  11  6,3  | FAKEs
  11  7,5  | FAKEs
+ 11  6,3  | FAKEy
+ 11  7,5  | FAKEy
  11  7,5  | FASHEd
  11  7,5  | FASHEr
  11  7,5  | FASHEs
@@ -2433,6 +2515,7 @@
  11  3,5  - FASt
  11  3,7  - FASt
  11  7,5  | FAsHES
+ 11  7,3  | FAvAS
  11  7,4  | FEAK
  11  6,5  | FEAK
  11  3,7  - FEAl
@@ -2485,6 +2568,7 @@
  11  8,3  | HArV
  11  7,5  | HAwKS
  11  2,7  - HaAFS
+ 11  7,5  | KAFS
  11  7,5  | KASHgA
  11  7,2  | KAcHA
  11  7,5  | KAcHA
@@ -2638,6 +2722,7 @@
  11  9,4  | eSE
  11  2,7  - fAKES
  11  4,7  - fASH
+ 11  4,7  - fEHS
  11  4,7  - gASH
  11  9,5  | gEEKS
  11  5,6  | hAE
@@ -2647,6 +2732,7 @@
  11  4,7  - hASH
  11  3,5  - hEAF
  11  3,7  - hEAF
+ 11  4,7  - hEHS
  11  5,6  | hES
  11  2,7  - jAKES
  11  9,5  | jEFE
@@ -2850,6 +2936,8 @@
  10  2,7  - FAtES
  10  2,5  - FAuSE
  10  2,7  - FAuSE
+ 10  7,3  | FAvA
+ 10  2,7  - FAvES
  10  2,7  - FAxES
  10  2,7  - FAzES
  10  2,7  - FEArS
@@ -2931,11 +3019,13 @@
  10  3,7  - HAzE
  10  6,7  - HE
  10  6,5  | HEcKS
+ 10  3,7  - HEhS
  10  3,7  - HEmS
  10  3,7  - HEnS
  10  3,7  - HEpS
  10  3,5  - HErA
  10  3,7  - HErS
+ 10  3,7  - HEtS
  10  3,7  - HEwS
  10  3,5  - HExA
  10  3,7  - HaES
@@ -2955,6 +3045,7 @@
  10  3,7  - HuSE
  10  4,7  - KAEs
  10  7,5  | KAF
+ 10  7,5  | KAFs
  10  7,5  | KAHA
  10  7,5  | KAHAr
  10  7,5  | KAHAu
@@ -2965,6 +3056,7 @@
  10  4,7  - KASa
  10  4,7  - KASm
  10  4,7  - KAeS
+ 10  4,7  - KAfS
  10  7,5  | KAiF
  10  4,7  - KAlE
  10  4,7  - KAmE
@@ -3004,8 +3096,10 @@
  10  7,4  | KHAtS
  10  7,4  | KHAyA
  10  6,4  | KHEdA
+ 10  6,4  | KHEtS
  10  7,2  | KaSHA
  10  6,4  | KeEF
+ 10  7,4  | KhAF
  10  6,4  | KiEF
  10  7,2  | KoSHA
  10  7,2  | KuSHA
@@ -3208,6 +3302,7 @@
  10  7,4  | eKAHA
  10  8,5  | eVASE
  10  5,5  - fAH
+ 10  8,4  | fAVES
  10  5,5  - fEH
  10  5,7  - fEH
  10  6,5  - fF
@@ -3239,6 +3334,7 @@
  10  5,7  - mEH
  10  4,5  - nAF
  10  4,7  - nAF
+ 10  5,5  - nAH
  10  8,4  | nAVES
  10  4,5  - nEF
  10  9,5  | nEF
@@ -3352,6 +3448,7 @@
   9  7,3  | ApEAK
   9  7,6  | ApEAK
   9  5,5  - ApH
+  9  3,7  - ArFS
   9  5,7  - AsH
   9  9,4  | AtE
   9  9,4  | AwE
@@ -3377,6 +3474,7 @@
   9  5,7  - EdH
   9  3,7  - EfFS
   9  9,4  | EmE
+  9  3,7  - EmFS
   9  9,4  | EpE
   9  9,4  | EsE
   9  5,5  - EtH
@@ -3406,11 +3504,14 @@
   9  4,5  - FEAk
   9  4,5  - FEAl
   9  4,5  - FEAt
+  9  6,5  | FEHS
   9  4,7  - FESs
   9  4,7  - FESt
   9  4,7  - FEdS
   9  4,7  - FEeS
+  9  4,7  - FEhS
   9  4,7  - FElS
+  9  4,7  - FEmS
   9  4,7  - FEnS
   9  4,7  - FErS
   9  4,7  - FEsS
@@ -3457,6 +3558,7 @@
   9  7,5  | HAaK
   9  7,5  | HAcK
   9  2,7  - HAdES
+  9  7,3  | HAhAS
   9  7,5  | HAiK
   9  2,7  - HAjES
   9  2,7  - HAkES
@@ -3546,6 +3648,7 @@
   9  7,5  | KApH
   9  7,2  - KArEL
   9  5,5  - KAt
+  9  7,5  | KAtAS
   9  7,5  | KAtH
   9  7,5  | KAvAS
   9  5,5  - KAy
@@ -3573,6 +3676,7 @@
   9  5,5  - KEy
   9  5,7  - KEy
   9  7,4  | KHA
+  9  7,4  | KHAf
   9  7,4  | KHAn
   9  7,4  | KHAr
   9  7,4  | KHAt
@@ -3648,7 +3752,9 @@
   9  5,7  - SHt
   9  5,5  - SHy
   9  5,7  - SHy
+  9  4,5  - SKA
   9  3,7  - SKAl
+  9  3,7  - SKAs
   9  3,5  - SKAt
   9  3,7  - SKAt
   9  3,5  - SKAw
@@ -3757,6 +3863,7 @@
   9  3,7  - hASH
   9  5,6  - hEAVES
   9  9,5  | hEHE
+  9  9,5  | hEHS
   9  5,5  - iF
   9  5,7  - iF
   9  3,5  - jAKE
@@ -3839,6 +3946,7 @@
   9  7,3  | sHEAF
   9  6,4  | sHEAF
   9  4,7  - sHES
+  9  3,7  - sKAS
   9  7,2  - sKEEL
   9  3,5  - tAKE
   9  3,7  - tAKE
@@ -4026,13 +4134,16 @@
   8  7,5  | FAtES
   8  7,5  | FAtH
   8  7,5  | FAuSE
+  8  7,5  | FAvAS
   8  7,2  - FAvEL
+  8  7,5  | FAvES
   8  7,5  | FAxES
   8  5,5  - FAy
   8  7,5  | FAzES
   8  6,5  | FEASE
   8  8,2  - FEEL
   8  6,5  | FEH
+  8  6,5  | FEHs
   8  7,2  | FEStA
   8  5,5  - FEd
   8  5,7  - FEd
@@ -4098,12 +4209,14 @@
   8  6,5  | HEFt
   8  4,7  - HESt
   8  6,5  | HEaF
+  8  4,7  - HEhS
   8  4,7  - HEmS
   8  4,7  - HEnS
   8  7,3  | HErA
   8  4,5  - HErA
   8  4,7  - HErA
   8  4,7  - HErS
+  8  4,7  - HEtS
   8  4,7  - HEwS
   8  7,3  | HExA
   8  4,7  - HExA
@@ -4413,10 +4526,12 @@
   8  4,5  - iSH
   8  4,7  - iSH
   8  6,3  | jAKES
+  8  3,7  - kAFS
   8  7,3  | kAKAS
   8  6,4  | kEEKS
   8  6,5  | kEEKS
   8  3,7  - kEFS
+  8  7,4  | kHAF
   8  4,5  - lAH
   8  4,7  - lAH
   8  6,3  | lAKES
@@ -4438,6 +4553,8 @@
   8  4,7  - mEH
   8  4,7  - mKS
   8  9,5  - mOS
+  8  4,5  - nAH
+  8  4,7  - nAH
   8  9,5  | nEAF
   8  9,5  - nOS
   8  3,7  - oAFS
@@ -4489,6 +4606,7 @@
   8  6,4  | sEEKS
   8  6,5  | sEEKS
   8  6,7  - sH
+  8  4,5  - sKA
   8  6,3  | sKEES
   8  6,4  | sKEES
   8  8,2  - sKEL
@@ -4591,6 +4709,7 @@
   7  4,7  - ApSE
   7  7,4  | ArAK
   7  4,7  - ArES
+  7  7,6  | ArFS
   7  4,7  - ArSE
   7  7,4  | AsAK
   7  7,6  | AsHES
@@ -4625,6 +4744,7 @@
   7  6,6  | EkKA
   7  6,6  | ElKS
   7  4,7  - ElSA
+  7  9,6  | EmFS
   7  7,3  | EpHAS
   7  9,6  | EpHAS
   7  6,3  | ErKE
@@ -4641,6 +4761,7 @@
   7  6,3  | FAnES
   7  6,3  | FArES
   7  6,3  | FAtES
+  7  6,3  | FAvES
   7  6,3  | FAxES
   7  6,3  | FAzES
   7  5,5  - FE
@@ -4719,6 +4840,7 @@
   7  7,5  | HAdES
   7  5,5  - HAf
   7  5,5  - HAh
+  7  7,5  | HAhAS
   7  5,5  - HAj
   7  7,5  | HAjES
   7  5,5  - HAk
@@ -4802,6 +4924,7 @@
   7  7,5  | KAeS
   7  4,5  - KAf
   7  4,7  - KAf
+  7  7,5  | KAfS
   7  7,5  | KAhA
   7  7,5  | KAkA
   7  4,7  - KAl
@@ -4822,6 +4945,7 @@
   7  7,5  | KAsA
   7  4,5  - KAt
   7  4,7  - KAt
+  7  7,5  | KAtA
   7  6,3  | KAtE
   7  7,5  | KAtE
   7  7,5  | KAtS
@@ -4930,6 +5054,7 @@
   7  9,5  | SElE
   7  9,5  | SEmE
   7  9,5  | SEnA
+  7  9,5  | SEnE
   7  9,5  | SErA
   7  9,5  | SErE
   7  9,5  | SEtA
@@ -4979,8 +5104,10 @@
   7  3,7  - SHEw
   7  7,2  - SHeEL
   7  7,2  - SHiEL
+  7  7,4  | SKA
   7  7,4  | SKAg
   7  7,4  | SKAl
+  7  7,4  | SKAs
   7  7,4  | SKAt
   7  7,4  | SKAw
   7  6,4  | SKEd
@@ -4994,6 +5121,7 @@
   7  6,4  | SKEt
   7  6,4  | SKEw
   7  6,4  | SKEy
+  7  4,5  - SKa
   7  6,3  | SKeE
   7  4,5  - SKy
   7  6,3  | SKyE
@@ -5017,12 +5145,14 @@
   7  7,4  | SpAK
   7  7,4  - SwAPE
   7  6,3  | SyKE
+  7  8,6  | VAcS
   7  8,6  | VAdE
   7  8,6  | VAgE
   7  8,6  | VAlE
   7  8,6  | VAnE
   7  8,6  | VAnS
   7  8,6  | VArE
+  7  8,6  | VArS
   7  8,6  | VAsE
   7  8,6  | VAtS
   7  8,6  | VAuS
@@ -5094,9 +5224,11 @@
   7  9,1  | eS
   7  6,3  | fAKE
   7  7,5  | fAKE
+  7  8,4  | fAVE
   7  9,1  | fE
   7  7,4  | fEAK
   7  6,5  | fEAK
+  7  3,7  - fEHS
   7  4,5  - fFA
   7 11,1  | fLIES
   7  4,7  - gAES
@@ -5108,12 +5240,14 @@
   7  7,4  | hAAK
   7  7,5  | hAAK
   7  4,7  - hAES
+  7  7,5  | hAHAS
   7  3,7  - hAHS
   7  6,3  | hAKE
   7  7,5  | hAKE
   7  7,5  | hASK
   7  8,4  | hAVE
   7  9,1  | hE
+  7  3,7  - hEHS
   7  4,5  - iFE
   7  4,7  - iFE
   7  4,7  - iFS
@@ -5138,6 +5272,7 @@
   7  4,7  - lASE
   7  7,5  | lASK
   7  8,4  | lAVE
+  7  8,4  | lAVS
   7  7,4  | lEAFS
   7  6,5  | lEAFS
   7  9,5  | lEAH
@@ -5146,6 +5281,8 @@
   7  9,5  | lEASE
   7  6,4  | lEEK
   7  6,5  | lEEK
+  7  6,3  | lEKE
+  7  6,5  | lEKE
   7  6,5  | lEKS
   7  8,4  | lEVA
   7  4,7  - mAES
@@ -5225,6 +5362,7 @@
   7  3,5  - sHEA
   7  7,2  - sHEEL
   7  3,7  - sHES
+  7  7,4  | sKAS
   7  6,3  | sKEE
   7  6,4  | sKEE
   7  7,3  | tAKA
@@ -5412,6 +5550,7 @@
   6  9,6  | ElK
   6  3,5  - ElSA
   6  9,1  | Em
+  6  6,6  | EmFS
   6  7,3  | EpHA
   6  9,6  | EpHA
   6  9,1  | Er
@@ -5471,6 +5610,9 @@
   6  6,3  | FAtE
   6  7,5  | FAtE
   6  7,5  | FAtS
+  6  7,5  | FAvA
+  6  6,3  | FAvE
+  6  7,5  | FAvE
   6  4,7  - FAx
   6  4,5  - FAy
   6  7,5  | FAyS
@@ -5509,6 +5651,7 @@
   6  6,5  | FEgS
   6  4,5  - FEh
   6  4,7  - FEh
+  6  6,5  | FEhS
   6  6,5  | FEiS
   6  6,3  | FElE
   6  6,5  | FElE
@@ -5517,6 +5660,7 @@
   6  4,7  - FEm
   6  6,3  | FEmE
   6  6,5  | FEmE
+  6  6,5  | FEmS
   6  4,5  - FEn
   6  4,7  - FEn
   6  6,5  | FEnS
@@ -5583,6 +5727,8 @@
   6  6,4  | HEElS
   6  6,5  | HEElS
   6  9,2  - HEL
+  6  6,3  | HEbES
+  6  6,5  | HEbES
   6  6,5  | HElAS
   6  6,3  | HEmES
   6  6,5  | HEmES
@@ -5835,6 +5981,7 @@
   6  6,4  | gHEES
   6  7,4  | hAAF
   6  7,5  | hAAF
+  6  7,3  | hAHAS
   6  7,5  | hAK
   6  8,4  | hAV
   6  7,4  | hEAF
@@ -5848,6 +5995,7 @@
   6  8,4  - jAPE
   6  6,3  | jEFE
   6  6,5  | jEFE
+  6  7,5  | kAFS
   6  5,5  - kEA
   6  5,7  - kEA
   6  6,4  | kEEF
@@ -5923,6 +6071,7 @@
   6  7,3  | sHEAS
   6  6,4  | sHEAS
   6  8,2  - sHEL
+  6  7,4  | sKA
   6  8,4  - tAPE
   6  8,4  | tAV
   6  5,5  - tEA
@@ -6083,6 +6232,7 @@
   5  7,5  | FAc
   5  7,5  | FAd
   5  7,5  | FAe
+  5  7,5  | FAg
   5  7,5  | FAh
   5  7,5  | FAm
   5  7,5  | FAn
@@ -6233,6 +6383,7 @@
   5  4,7  - HEh
   5  6,3  | HEhE
   5  6,5  | HEhE
+  5  6,5  | HEhS
   5  4,7  - HEl
   5  6,3  | HElE
   5  6,5  | HElE
@@ -6257,6 +6408,7 @@
   5  4,7  - HEt
   5  6,3  | HEtE
   5  6,5  | HEtE
+  5  6,5  | HEtS
   5  4,5  - HEw
   5  4,7  - HEw
   5  6,3  | HEwE
@@ -6436,6 +6588,7 @@
   5  7,2  - eASEL
   5  9,4  - ePE
   5  7,5  | fASH
+  5  6,5  | fEHS
   5  7,4  | fFA
   5  3,7  - gAES
   5  7,5  | gASH
@@ -6450,6 +6603,7 @@
   5  7,5  | hASH
   5  6,3  | hEHE
   5  6,5  | hEHE
+  5  6,5  | hEHS
   5  6,4  | iFE
   5  9,5  | jEES
   5  3,7  - kAES
@@ -6810,6 +6964,7 @@
   4  4,5  - SiA
   4  4,5  - SiE
   4  4,7  - SiE
+  4  4,5  - SkA
   4  8,2  - SkEL
   4  4,5  - SlA
   4  4,5  - SmA
@@ -6918,6 +7073,7 @@
   4  6,7  - nA
   4  4,5  - nAE
   4  4,7  - nAE
+  4  7,5  | nAH
   4  6,7  - nE
   4  4,5  - nEA
   4  9,5  | nEA
@@ -7252,6 +7408,8 @@
   3  4,5  - SEn
   3  4,7  - SEn
   3  6,5  | SEnA
+  3  6,3  | SEnE
+  3  6,5  | SEnE
   3  4,5  - SEp
   3  4,5  - SEr
   3  4,7  - SEr
@@ -7303,6 +7461,7 @@
   3  7,5  | cASE
   3  6,4  | cEES
   3  6,5  | cEES
+  3  9,2  - cEL
   3  5,5  - dA
   3  6,3  | dASE
   3  7,5  | dASE
@@ -7700,6 +7859,7 @@
   2  6,4  | ShE
   2  7,4  | SiA
   2  6,4  | SiE
+  2  7,4  | SkA
   2  7,4  | SlA
   2  7,4  | SmA
   2  5,5  - So

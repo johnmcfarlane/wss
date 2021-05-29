@@ -48,6 +48,7 @@
  24  2,4  | FODDERS
  24  4,7  - REDE
  24  4,7  - RIDE
+ 24  2,2  - RIF
  24  4,7  - RODE
  24  1,7  - ROED
  24  4,7  - ROSED
@@ -325,6 +326,7 @@
  15  4,5  | REEF
  15  4,5  | REIF
  15  5,8  - RESID
+ 15  5,8  - RESOD
  15  3,8  - RIDES
  15  2,2  - RIO
  15  2,2  - ROS
@@ -380,8 +382,10 @@
  14  6,8  - OSIER
  14  4,8  - REDS
  14  9,2  - REF
+ 14  8,2  - REI
  14  8,2  - RES
  14  4,8  - RIDS
+ 14  9,2  - RIF
  14  4,8  - RODS
  14  8,2  - ROE
  14  8,2  - ROI
@@ -425,6 +429,7 @@
  13  4,4  | OREIDE
  13  4,8  - ORES
  13  9,5  | OSIER
+ 13  1,2  - REI
  13  4,8  - REIS
  13  4,4  - REPAYS
  13  4,8  - RIES
@@ -437,6 +442,7 @@
  13  1,2  - SEI
  13  7,8  - SEOR
  13  7,8  - SERI
+ 13  4,5  | SERIFED
  13  9,5  | SERIO
  13  7,8  - SERO
  13  9,5  | SIDE
@@ -616,6 +622,7 @@
  10  1,2  - DO
  10  8,7  | DOER
  10  8,7  | DOES
+ 10  8,7  | DORE
  10  8,7  | DORI
  10  8,7  | DORS
  10  8,7  | DOSE
@@ -675,8 +682,10 @@
  10  8,7  | REF
  10  5,8  - RES
  10  8,7  | RESID
+ 10  8,7  | RESOD
  10  9,2  - RID
  10  8,7  | RIDES
+ 10  8,7  | RIF
  10  9,2  - ROD
  10  5,8  - ROS
  10  8,7  | ROSED
@@ -754,6 +763,7 @@
   9  4,3  | FROE
   9  3,2  - ID
   9  4,3  | IDEE
+  9  4,1  | IODISE
   9  4,1  | IRED
   9  4,4  | IREOS
   9  4,1  | IRID
@@ -813,6 +823,7 @@
   8  5,6  | BREI
   8  5,6  | BRIE
   8  5,6  | BRIO
+  8  5,6  | BRIS
   8  5,6  | BROS
   8  8,7  | DE
   8  4,4  | DEE
@@ -891,9 +902,11 @@
   8  4,3  | REDES
   8  4,5  | REDES
   8  4,5  | REDOS
+  8  9,2  - REI
   8  8,7  | REIS
   8  9,2  - RES
   8  4,5  | RESID
+  8  4,5  | RESOD
   8  8,7  | RID
   8  4,3  | RIDES
   8  9,2  - RIE
@@ -953,6 +966,7 @@
   7  2,6  | DIF
   7  2,3  | DIODE
   7  4,3  | DIRE
+  7  4,3  | DORE
   7  4,3  | DOSE
   7  4,3  | DREE
   7  4,3  | DRIE
@@ -1007,6 +1021,7 @@
   7  4,5  | REDO
   7  4,5  | REDS
   7  4,4  | REED
+  7  8,7  | REI
   7  8,7  | RES
   7  4,3  | RIDE
   7  8,7  | RIE
@@ -1161,6 +1176,7 @@
   5  2,6  | DOD
   5  2,6  | DOER
   5  2,6  | DOES
+  5  2,6  | DORE
   5  2,6  | DORI
   5  2,6  | DORS
   5  2,6  | DOSE
@@ -1295,6 +1311,7 @@
   3  4,5  | OER
   3  4,5  | OES
   3  4,5  | REE
+  3  4,5  | REI
   3  4,5  | RES
   3  4,5  | SEE
   3  4,5  | SEI

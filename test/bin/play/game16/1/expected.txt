@@ -205,6 +205,7 @@
  24 11,6  | YaPA
  24 11,6  | YaPS
  24 11,6  | YiPS
+ 24 11,6  | YuPS
  24  9,3  | ZAIRe
  24  3,5  - ZAtI
  24  3,7  - ZAtI
@@ -234,6 +235,7 @@
  20  3,5  - PIZe
  19  2,5  - PIZzA
  19  2,5  - PIzZA
+ 19  9,5  | PReZ
  19  8,2  | PlAZAS
  19  8,3  | ZAPAS
  19  8,5  | ZAPAS
@@ -246,6 +248,7 @@
  18 11,2  | SAIlY
  18 11,2  | SAImY
  18 11,2  | SAIrY
+ 18  8,4  | SPAZ
  18 11,6  | YAgIS
  18  8,3  | ZAPAs
  18  8,5  | ZAPAs
@@ -322,6 +325,7 @@
  16  6,6  | SPAIlS
  16  6,1  | SPAItS
  16  6,6  | SPAItS
+ 16  6,6  | SPAZ
  16  6,1  | SPAhIS
  16  6,6  | SPAhIS
  16  6,1  | SPIcAS
@@ -369,6 +373,7 @@
  15  8,5  - PAh
  15  8,4  | PIAS
  15  8,4  | PIASt
+ 15 10,5  | PReZ
  15  8,5  | QAdIS
  15  2,5  - QuASI
  15  2,7  - QuASI
@@ -390,6 +395,7 @@
  15  8,3  | SPIAl
  15  4,5  - SPIcA
  15  4,7  - SPIcA
+ 15  6,6  | SPaZ
  15  8,2  | SePIA
  15 11,3  | ShAY
  15 11,3  | SlAY
@@ -406,6 +412,8 @@
  15 11,6  | YApS
  15 11,6  | YAtI
  15 11,6  | YAwS
+ 15 11,6  | YAyS
+ 15 11,6  | YIdS
  15 11,6  | YInS
  15 11,6  | YIpS
  15 11,6  | YeAS
@@ -444,6 +452,7 @@
  15  8,5  | nAZIS
  15  9,2  | rIZAR
  15  9,2  | sIZAR
+ 15  8,4  | sPAZ
  15  8,2  | tAPIA
  15  8,5  | tAZIA
  15  9,4  | tIRAZ
@@ -502,6 +511,7 @@
  14  6,2  | PASeS
  14  6,2  | PASiS
  14  6,2  | PAStS
+ 14  6,2  | PAdIS
  14  6,2  | PAlIS
  14 10,2  | PAmIR
  14  6,2  | PArIS
@@ -513,6 +523,7 @@
  14  6,2  | PIAnS
  14  8,4  | PIAs
  14  7,3  | PISCo
+ 14  6,2  | PISoS
  14  5,5  - PIcA
  14  5,7  - PIcA
  14  6,2  | PIcAS
@@ -651,6 +662,7 @@
  14  6,6  | SoAPI
  14  6,2  | SoAPS
  14  6,6  | SoAPS
+ 14  8,4  | SpAZ
  14  6,6  | StIPA
  14  6,6  | SuPAI
  14  6,2  | SwAPS
@@ -843,6 +855,8 @@
  12  9,3  | PAIR
  12  9,3  | PAIRs
  12  9,3  | PAIRt
+ 12  3,5  - PAdI
+ 12  3,7  - PAdI
  12  9,3  | PAdRI
  12  3,5  - PAhI
  12  3,7  - PAhI
@@ -930,6 +944,7 @@
  12  9,2  | SPaIR
  12  9,2  | SPeAR
  12  9,2  | SPeIR
+ 12  6,6  | SpAZ
  12  6,3  | SuQS
  12  6,6  | SuQS
  12  6,6  | SwIZ
@@ -941,6 +956,7 @@
  12  6,3  | ZApS
  12 10,4  | ZIRa
  12  6,3  | ZIgS
+ 12  6,3  | ZInS
  12  6,3  | ZIpS
  12  6,3  | ZItS
  12 10,4  | ZiRA
@@ -971,6 +987,7 @@
  11  8,6  | AZo
  11  8,4  | AlAPS
  11  7,2  | AsPICS
+ 11  8,4  | AtAPS
  11  7,6  | CAPS
  11  7,6  | CAPSa
  11  7,6  | CAPrIS
@@ -1207,6 +1224,7 @@
   9  8,6  | ASAPh
   9  8,6  | AlAPS
   9  8,6  | AlISP
+  9  8,6  | AtAPS
   9  7,6  | CAP
   9  7,6  | CAPa
   9  7,6  | CAPe
@@ -1243,6 +1261,7 @@
   9 11,4  | PAYnI
   9  8,3  | PAcAS
   9  8,5  | PAcAS
+  9  8,5  | PAdIS
   9  8,5  | PAiSA
   9  8,3  | PAlAS
   9  8,5  | PAlAS
@@ -1294,6 +1313,7 @@
   9  7,4  | PaCS
   9  8,2  | PaISA
   9  2,5  - PaISA
+  9  7,4  | PeCS
   9 11,4  | PhYSA
   9  7,4  | PiCA
   9  7,4  | PiCI
@@ -1488,6 +1508,7 @@
   8  8,3  | PAcA
   8  8,5  | PAcA
   8  8,5  | PAcS
+  8  8,5  | PAdI
   8  8,5  | PAdS
   8  8,3  | PAgA
   8  8,5  | PAgA
@@ -1549,6 +1570,7 @@
   8  9,4  | PaRIS
   8  9,4  | PaRSI
   8 11,4  | PaYS
+  8  7,4  | PeC
   8  9,4  | PeRAI
   8  9,4  | PeRIS
   8 10,4  | PeRSIA
@@ -1640,6 +1662,7 @@
   8  8,4  | SPAs
   8  8,4  | SPAt
   8  8,4  | SPAy
+  8  8,4  | SPAz
   8 10,3  | SPIRA
   8 10,3  | SPIRAe
   8 10,3  | SPIRAl
@@ -1672,6 +1695,7 @@
   8  8,4  | SwAP
   8 11,6  | YAP
   8 11,6  | YIP
+  8  8,5  | bAPS
   8  7,2  | bASIC
   8  6,2  | bASIS
   8  8,3  | cAPA
@@ -1866,6 +1890,7 @@
   7  6,4  | PISAy
   7  6,3  | PISS
   7  6,4  | PISS
+  7  6,4  | PISoS
   7 10,3  | PIcRA
   7 10,3  | PIeRS
   7 10,3  | PIpRA
@@ -2354,6 +2379,7 @@
   6 10,6  | RAmP
   6  9,6  | RAnIS
   6 10,6  | RAsP
+  6  9,6  | RIAS
   6 10,6  | RIP
   6 10,6  | RIPe
   6 10,6  | RIPs
@@ -2454,6 +2480,7 @@
   6  6,6  | SPAs
   6  6,6  | SPAt
   6  6,6  | SPAy
+  6  6,6  | SPAz
   6  6,6  | SPIc
   6  6,6  | SPIf
   6  6,6  | SPIg
@@ -2513,6 +2540,7 @@
   6  6,3  | aSPS
   6  6,5  | aSPS
   6  8,5  - bA
+  6  6,3  | bAPS
   6  9,4  | bARIS
   6  9,5  | bRISA
   6  7,4  | cACI
@@ -2564,6 +2592,7 @@
   6  7,3  | lAIC
   6  9,3  | lAIRS
   6  6,3  | lAPS
+  6  9,4  | lARIS
   6  9,3  | lIARS
   6  6,3  | lIPS
   6  9,4  | lIRAS
@@ -2627,6 +2656,7 @@
   6 10,5  | tRIP
   6  6,3  | uPAS
   6  8,4  | uPAS
+  6  7,4  | vACS
   6  9,3  | vAIRS
   6  7,4  | vICA
   6  6,3  | vIPS
@@ -2772,6 +2802,7 @@
   5  7,6  | CtS
   5  7,5  | ICe
   5  7,5  | ICh
+  5  7,5  | ICk
   5  7,5  | ICy
   5  9,5  | IRA
   5  9,5  | IRAn
@@ -2858,6 +2889,7 @@
   5  9,6  | RAwS
   5  9,6  | RAyS
   5  9,6  | RIAlS
+  5  9,6  | RIaS
   5  9,6  | RIbS
   5  9,6  | RIdS
   5  9,6  | RIeS
@@ -2931,6 +2963,7 @@
   5  9,5  | SRAc
   5  9,5  | SRI
   5  9,5  | SRIs
+  5 11,5  | SYlI
   5  7,4  | SaC
   5  9,3  | SaIR
   5  6,6  | SaP
@@ -3020,6 +3053,7 @@
   5  8,3  | kASA
   5  8,5  | kASA
   5 11,4  | kAYS
+  5  9,4  | kIRS
   5  7,4  | lAC
   5  8,5  | lAP
   5  9,4  | lARI
@@ -3110,6 +3144,7 @@
   5  6,4  | uPS
   5  7,4  | vAC
   5  9,4  | vARI
+  5  9,4  | vARS
   5  8,3  | vASA
   5  8,5  | vASA
   5  7,4  | vIC
@@ -3121,6 +3156,7 @@
   5  9,4  | wARS
   5 11,4  | wAYS
   5  8,5  | yAP
+  5 11,4  | yAYS
   5  7,4  | zAC
   5  8,5  | zAP
   5  9,4  | zIRA
@@ -3147,6 +3183,7 @@
   4  9,5  | ARbS
   4  9,5  | ARcS
   4  9,5  | AReS
+  4  9,5  | ARfS
   4  9,5  | ARkS
   4  9,5  | ARmS
   4  9,5  | ARnI
@@ -3280,7 +3317,9 @@
   4  9,6  | RASh
   4  9,6  | RASp
   4  9,6  | RIA
+  4 10,6  | RIAS
   4  9,6  | RIAl
+  4  9,6  | RIAs
   4  9,6  | RISe
   4  9,6  | RISk
   4  9,6  | RISp
@@ -3290,6 +3329,7 @@
   4  9,6  | RaIS
   4  9,6  | RaSA
   4  9,6  | ReIS
+  4  9,6  | RiAS
   4  9,6  | RoSA
   4  9,6  | RuSA
   4  9,6  | RyAS
@@ -3356,6 +3396,8 @@
   4 11,4  | ShY
   4  8,4  | SiA
   4  4,5  - SiA
+  4  8,4  | SkA
+  4  4,5  - SkA
   4  4,5  - SkI
   4  4,7  - SkI
   4 11,4  | SkY
@@ -3399,6 +3441,7 @@
   4 11,6  | YAw
   4 11,6  | YAy
   4 11,6  | YI
+  4 11,6  | YId
   4 11,6  | YIn
   4 11,6  | YIp
   4 11,6  | YaS
@@ -3420,6 +3463,7 @@
   4  6,4  | bASSI
   4 11,4  | bAY
   4  9,5  | bRAS
+  4  9,5  | bRIS
   4 10,5  | bRISA
   4 11,5  | bYS
   4  4,5  - cAI
@@ -3471,6 +3515,7 @@
   4  4,7  - lAI
   4  9,3  | lAIR
   4 10,3  | lAIRS
+  4 10,4  | lARIS
   4 11,4  | lAY
   4  9,3  | lIAR
   4 10,3  | lIARS
@@ -3580,6 +3625,7 @@
   3  9,5  | ARe
   3 10,5  | AReS
   3  9,5  | ARf
+  3 10,5  | ARfS
   3  9,5  | ARg
   3  9,5  | ARk
   3 10,5  | ARkS
@@ -3711,12 +3757,14 @@
   3 10,6  | RAyS
   3 10,6  | RIA
   3 10,6  | RIAl
+  3 10,6  | RIAs
   3 10,6  | RISe
   3 10,6  | RISk
   3 10,6  | RISp
   3 10,6  | RISs
   3 10,6  | RISt
   3  9,6  | RIa
+  3 10,6  | RIaS
   3  9,6  | RIb
   3 10,6  | RIbS
   3  9,6  | RIc
@@ -3724,6 +3772,7 @@
   3 10,6  | RIdS
   3  9,6  | RIe
   3 10,6  | RIeS
+  3  9,6  | RIf
   3 10,6  | RIfS
   3  9,6  | RIg
   3 10,6  | RIgA
@@ -3746,6 +3795,7 @@
   3 10,6  | RaIS
   3 10,6  | RaSA
   3 10,6  | ReIS
+  3 10,6  | RiAS
   3 10,6  | RoSA
   3 10,6  | RuSA
   3 10,6  | RyAS
@@ -3876,6 +3926,8 @@
   3 10,4  | ShRI
   3  6,4  | SiSI
   3  6,6  | SiSI
+  3  6,3  | SkAS
+  3  6,6  | SkAS
   3  6,3  | SkIS
   3  6,6  | SkIS
   3 10,3  | SoAR
@@ -3925,6 +3977,7 @@
   3  8,4  | bIAS
   3  9,5  | bRA
   3 10,5  | bRAS
+  3 10,5  | bRIS
   3 11,5  | bY
   3 10,3  | cAIR
   3  9,4  | cAR
@@ -3998,6 +4051,8 @@
   3 10,4  | kARI
   3  5,5  - kI
   3  5,7  - kI
+  3  9,4  | kIR
+  3 10,4  | kIRS
   3  6,3  | kISS
   3  6,4  | kISS
   3  9,5  | kRA
@@ -4085,6 +4140,8 @@
   3  5,5  - qI
   3  5,7  - qI
   3  6,3  | rAIS
+  3  6,3  | rIAS
+  3  8,4  | rIAS
   3  6,3  | rISS
   3  6,4  | rISS
   3 10,3  | sAIR
@@ -4122,6 +4179,7 @@
   3 10,3  | vAIR
   3  9,4  | vAR
   3 10,4  | vARI
+  3 10,4  | vARS
   3  6,3  | vIAS
   3  8,4  | vIAS
   3 10,4  | vIRA
@@ -4263,6 +4321,7 @@
   2 10,6  | RIc
   2 10,6  | RId
   2 10,6  | RIe
+  2 10,6  | RIf
   2 10,6  | RIg
   2 10,6  | RIk
   2 10,6  | RIm
@@ -4275,6 +4334,8 @@
   2 10,6  | RaS
   2  9,6  | ReA
   2 10,6  | ReA
+  2  9,6  | ReI
+  2 10,6  | ReI
   2  9,6  | ReS
   2 10,6  | ReS
   2  9,6  | RhA
@@ -4379,6 +4440,7 @@
   2 10,4  | SiR
   2  6,4  | SiS
   2  6,6  | SiS
+  2  6,6  | SkA
   2  6,6  | SkI
   2  6,6  | SlA
   2  6,6  | SmA
@@ -4460,6 +4522,7 @@
   2  8,5  | kAI
   2  6,4  | kAS
   2  8,5  | kAS
+  2 10,4  | kIR
   2 10,5  | kRA
   2 10,5  | kRS
   2  6,5  | kSI

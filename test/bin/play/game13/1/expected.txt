@@ -86,6 +86,7 @@
  25  7,5  - ADZe
  25  7,2  | AZRaEL
  25  7,2  | AZuRED
+ 25  7,7  - LeZ
  25  7,7  - LiZ
  25  1,5  - LiZA
  25  1,7  - LiZA
@@ -127,6 +128,7 @@
  24  7,7  - oNZA
  23  7,2  | AZuRE
  23  7,5  - AdZ
+ 23  2,5  - LeZ
  23  2,5  - LiZ
  23  4,3  | NAZARD
  23  1,7  - RAZe
@@ -148,8 +150,10 @@
  22  4,3  | ALDAZiN
  22  4,4  | AZANDe
  22  2,5  - AdZ
+ 22  6,4  | DRYLANd
  22  4,3  | NAZArD
  22  2,5  - RfZ
+ 22  6,4  | dRYLAND
  22  7,7  - sAZ
  22  7,5  - wAZ
  22  7,7  - wAZ
@@ -392,6 +396,7 @@
  16  6,7  - AdZ
  16  5,6  | BAZaR
  16  6,2  | DALlY
+ 16  8,3  | DALs
  16  1,7  - DANLi
  16  6,2  | DANcY
  16  6,2  | DANdY
@@ -443,6 +448,7 @@
  16  6,2  | NAiLY
  16  4,3  | NAmAZ
  16  4,5  | NAmAZ
+ 16  6,2  | NeRDY
  16  6,2  | NuRLY
  16  7,3  | RAZED
  16  7,3  | RAZEeD
@@ -576,6 +582,8 @@
  15  2,5  - ZeN
  15  2,7  - ZeN
  15  4,2  | ZiARA
+ 15  2,5  - ZiN
+ 15  2,7  - ZiN
  15  1,5  - ZiRA
  15  1,7  - ZiRA
  15  2,5  - ZoL
@@ -599,6 +607,8 @@
  15  1,5  - eZRA
  15  1,7  - eZRA
  15  4,2  | gARLAND
+ 15  4,3  | gAZAR
+ 15  4,5  | gAZAR
  15  7,3  | hALERZ
  15  7,2  | hAZLE
  15  1,7  - iNDRA
@@ -880,6 +890,7 @@
  13  2,7  - LANe
  13  4,5  | LAZe
  13  4,5  | LAZy
+ 13  7,5  | LEZ
  13  2,5  - LaNA
  13  2,7  - LaNA
  13  2,5  - LeDA
@@ -1142,6 +1153,7 @@
  12  4,5  | ZARf
  12  7,5  | ZEAl
  12  7,5  | ZER
+ 12  7,5  | ZERk
  12  7,5  | ZERo
  12  7,5  | ZEtA
  12  4,3  | ZiRA
@@ -1170,6 +1182,7 @@
  12  6,7  - oRDN
  12  4,2  | pANDAL
  12  4,5  | pANDAL
+ 12  7,4  | pREZ
  12  4,2  | rANDAL
  12  4,5  | rANDAL
  12  7,3  | rAZE
@@ -1403,6 +1416,7 @@
  11  6,7  - iRAN
  11  7,4  | iRELAND
  11  7,1  | lANDLER
+ 11  7,5  | lEZ
  11  4,2  | mANDAR
  11  4,5  | mANDAR
  11  4,1  | mANDRA
@@ -1522,6 +1536,7 @@
  10  7,2  | ANgLED
  10  6,5  - ANi
  10  6,7  - ANi
+ 10  7,2  | ANkLED
  10  6,5  - ANn
  10  6,7  - ANn
  10  4,3  | ANnAL
@@ -1601,6 +1616,8 @@
  10  7,7  - DALi
  10  7,5  - DALk
  10  7,7  - DALk
+ 10  7,5  - DALs
+ 10  7,7  - DALs
  10  7,5  - DALt
  10  7,7  - DALt
  10  7,5  - DAN
@@ -2064,6 +2081,7 @@
   9  4,2  | DARdAN
   9  4,2  | DARwAN
   9  5,3  | DAbB
+  9  4,5  | DAhL
   9  4,5  | DAiN
   9  4,5  | DAmN
   9  5,3  | DArB
@@ -2189,6 +2207,7 @@
   9  7,6  | EARNeD
   9  7,6  | ELaND
   9  7,6  | ENLArD
+  9  4,4  | LAARi
   9  5,4  | LABaN
   9  2,5  - LAD
   9  2,7  - LAD
@@ -2352,6 +2371,10 @@
   9  1,7  - NuDA
   9  7,5  - NuL
   9  7,7  - NuL
+  9  1,5  - NuRD
+  9  7,5  - NuRD
+  9  1,7  - NuRD
+  9  7,7  - NuRD
   9  1,5  - NuRL
   9  7,5  - NuRL
   9  1,7  - NuRL
@@ -2794,6 +2817,7 @@
   8  1,7  - DALi
   8  1,5  - DALk
   8  4,5  | DALlAN
+  8  1,7  - DALs
   8  1,5  - DALt
   8  1,7  - DALt
   8  4,3  | DANA
@@ -2849,6 +2873,10 @@
   8  7,1  | DARtLE
   8  6,4  | DAYaL
   8  6,4  | DAYaN
+  8  1,5  - DAhL
+  8  7,5  - DAhL
+  8  1,7  - DAhL
+  8  7,7  - DAhL
   8  1,5  - DAiN
   8  7,5  - DAiN
   8  1,7  - DAiN
@@ -3130,8 +3158,11 @@
   8  7,7  - LyRA
   8  4,4  | NAA
   8  4,4  | NAAm
+  8  4,4  | NAAn
   8  4,3  | NADA
   8  4,5  | NADA
+  8  4,3  | NADAs
+  8  4,5  | NADAs
   8  1,5  - NADa
   8  1,7  - NADa
   8  7,2  | NADdER
@@ -3274,6 +3305,7 @@
   8  7,5  | REDaN
   8  7,5  | REDeAL
   8  7,5  | REDiAL
+  8  7,5  | REDoN
   8  7,5  | RELeAD
   8  7,5  | RELoAD
   8  7,5  | RELoAN
@@ -3445,6 +3477,8 @@
   8  7,2  | gLADE
   8  1,5  - gRAD
   8  1,7  - gRAD
+  8  1,5  - gRAN
+  8  1,7  - gRAN
   8  7,1  | gRANDE
   8  4,3  | hADAL
   8  4,5  | hADAL
@@ -3518,6 +3552,7 @@
   8  7,5  | mEDAL
   8  7,5  | mEDLAR
   8  7,5  | mENAD
+  8  4,5  | nAAN
   8  1,5  - nARD
   8  4,5  | nARD
   8  1,7  - nARD
@@ -4037,6 +4072,7 @@
   7  7,6  | ERAL
   7  3,5  - LA
   7  3,7  - LA
+  7  4,5  | LAARi
   7  5,4  | LAB
   7  5,4  | LABs
   7  4,5  | LADeN
@@ -4046,6 +4082,7 @@
   7  7,2  | LANdE
   7  2,7  - LAR
   7  7,3  | LARE
+  7  7,3  | LAREe
   7  7,3  | LAREs
   7  4,2  | LARiA
   7  4,2  | LARvA
@@ -4148,6 +4185,7 @@
   7  5,4  | LuBA
   7  2,5  - LuD
   7  2,7  - LuD
+  7  7,3  | LuDE
   7  7,3  | LuNE
   7  6,3  | LuNY
   7  7,7  - LuR
@@ -4160,6 +4198,7 @@
   7  3,5  - NA
   7  3,7  - NA
   7  5,4  | NAB
+  7  5,4  | NABe
   7  5,4  | NABk
   7  5,4  | NABs
   7  5,4  | NABu
@@ -4948,8 +4987,6 @@
   6  6,3  | AlLY
   6  6,5  - Am
   6  6,7  - Am
-  6  4,4  | AmAL
-  6  4,6  | AmAL
   6  7,4  | AmEND
   6  6,4  | AmYL
   6  6,5  - An
@@ -5197,6 +5234,7 @@
   6  7,3  | DiRE
   6  5,4  | DoB
   6  4,3  | DoNAR
+  6  7,3  | DoRE
   6  6,3  | DoRY
   6  6,3  | DrAY
   6  7,2  | DuANE
@@ -5236,6 +5274,7 @@
   6  1,5  - LARd
   6  1,7  - LARd
   6  1,7  - LARe
+  6  7,2  | LAReE
   6  7,2  | LARgE
   6  1,7  - LARi
   6  4,5  | LARiD
@@ -5352,6 +5391,7 @@
   6  7,7  - NAa
   6  7,5  - NAb
   6  7,7  - NAb
+  6  7,3  | NAbE
   6  4,2  | NAbLA
   6  7,3  | NAcE
   6  7,2  | NAcRE
@@ -5365,6 +5405,8 @@
   6  7,7  - NAg
   6  4,3  | NAgA
   6  4,5  | NAgA
+  6  7,5  - NAh
+  6  7,7  - NAh
   6  4,5  | NAiR
   6  1,7  - NAiR
   6  4,3  | NAjA
@@ -5416,6 +5458,7 @@
   6  7,5  | NEAL
   6  7,5  | NERD
   6  7,5  | NERDs
+  6  7,5  | NERDy
   6  7,5  | NERkA
   6  7,5  | NEwAR
   6  6,5  | NYAs
@@ -5462,6 +5505,7 @@
   6  7,5  - RAnN
   6  7,7  - RAnN
   6  7,3  | RApED
+  6  7,3  | RArED
   6  7,3  | RAsED
   6  7,3  | RAsEN
   6  7,3  | RAtED
@@ -5623,6 +5667,7 @@
   6  7,3  | cANED
   6  7,3  | cANEL
   6  6,3  | cANY
+  6  5,3  | cARB
   6  7,2  | cARLE
   6  7,2  | cARNE
   6  7,5  | cEDAR
@@ -6107,6 +6152,7 @@
   5  4,5  | DALf
   5  4,5  | DALi
   5  4,5  | DALk
+  5  4,5  | DALs
   5  4,5  | DALt
   5  4,5  | DAN
   5  4,5  | DANa
@@ -6345,6 +6391,8 @@
   5  2,7  - NAe
   5  2,5  - NAf
   5  2,7  - NAg
+  5  2,5  - NAh
+  5  2,7  - NAh
   5  4,2  | NAiRA
   5  2,5  - NAk
   5  2,5  - NAm
@@ -6494,6 +6542,7 @@
   5  6,6  | YaD
   5  6,6  | YeAR
   5  6,6  | YeN
+  5  6,6  | YiD
   5  6,6  | YiN
   5  6,6  | YoD
   5  6,6  | YoN
@@ -6705,6 +6754,7 @@
   5  5,4  | rAB
   5  4,3  | rARA
   5  4,5  | rARA
+  5  7,3  | rARED
   5  7,5  | rEND
   5  6,4  | rLY
   5  5,4  | sAB
@@ -7025,6 +7075,7 @@
   4  4,3  | LyRA
   4  4,5  | NAA
   4  4,5  | NAAm
+  4  4,5  | NAAn
   4  7,4  | NAE
   4  4,5  | NAR
   4  4,5  | NARc
@@ -7286,6 +7337,7 @@
   4  4,4  | gLAR
   4  4,4  | gNAR
   4  4,4  | gRAD
+  4  4,4  | gRAN
   4  6,4  | gRY
   4  7,3  | hADE
   4  7,4  | hAED
@@ -7342,6 +7394,7 @@
   4  7,5  | mERD
   4  7,5  | mERL
   4  6,5  | mYA
+  4  4,4  | nAAN
   4  7,3  | nALE
   4  7,3  | nANE
   4  7,5  - nAR
@@ -7647,6 +7700,7 @@
   3  7,5  | LEv
   3  7,5  | LEx
   3  7,5  | LEy
+  3  7,5  | LEz
   3  7,4  | LeE
   3  7,4  | LiE
   3  7,4  | LoE
@@ -7658,6 +7712,7 @@
   3  4,5  | NAe
   3  4,5  | NAf
   3  4,5  | NAg
+  3  4,5  | NAh
   3  4,5  | NAk
   3  4,5  | NAm
   3  4,5  | NAn
@@ -7726,6 +7781,7 @@
   3  4,5  | cAL
   3  4,5  | cAN
   3  7,3  | cARE
+  3  7,5  | cEL
   3  7,5  | cERA
   3  7,4  | cREA
   3  3,5  - dA
@@ -7983,6 +8039,7 @@
   2  7,5  | REf
   2  7,5  | REg
   2  7,5  | REh
+  2  7,5  | REi
   2  7,5  | REl
   2  7,5  | REm
   2  7,5  | REn

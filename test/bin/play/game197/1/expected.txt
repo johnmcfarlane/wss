@@ -155,6 +155,7 @@
  32  2,6  | JaSPE
  32  2,6  | JeEPS
  32  2,6  | JuPES
+ 30  3,6  | ALATES
  30  3,1  | ALThEAS
  30  3,6  | ASLeEP
  30  3,6  | ASLoPE
@@ -168,6 +169,7 @@
  30  3,6  | ApPELS
  30  3,1  | ESTAdAL
  30  2,6  | JALET
+ 30  2,6  | JALEoS
  30  2,6  | JoSTLE
  30  2,6  | JuSTLE
  30  3,5  | LAcTASE
@@ -209,11 +211,14 @@
  28  2,6  | JuLES
  28  1,7  - PALi
  27  3,6  | ALATEd
+ 27  3,6  | ALATEs
+ 27  3,6  | ALATeS
  27  3,6  | ALESAn
  27  3,6  | ALETAp
  27  3,6  | ALTArS
  27  3,6  | ALTErS
  27  3,6  | ALTEzA
+ 27  3,6  | ALaTES
  27  3,6  | ALgATE
  27  3,6  | ALyTES
  27  3,1  | APTErA
@@ -263,6 +268,7 @@
  24  3,6  | ALAiTE
  24  3,6  | ALAnTS
  24  3,6  | ALArES
+ 24  3,6  | ALAtES
  24  3,1  | ALErTA
  24  3,6  | ALErTA
  24  3,6  | ALErTS
@@ -398,6 +404,7 @@
  21  1,7  - bAL
  21  1,7  - bEL
  21  1,7  - cAL
+ 21  1,7  - cEL
  21  1,7  - dAL
  21  1,7  - dEL
  21  1,7  - eEL
@@ -443,6 +450,7 @@
  20  6,2  | PAtLY
  20  6,2  | PEASY
  20  6,2  | PEATY
+ 20  6,2  | PESTY
  20  6,1  | PETAlY
  20  6,1  | PETArY
  20  6,2  | PLAtY
@@ -457,6 +465,7 @@
  20  6,1  | PrATEY
  20  6,1  | PrESAY
  20  6,2  | SLoPY
+ 20  6,1  | SPAcEY
  20  6,1  | SPEArY
  20  6,2  | SPLaY
  20  6,1  | STEePY
@@ -467,6 +476,7 @@
  20  6,1  | TAPErY
  20  6,1  | TEAPoY
  20  6,1  | TEPArY
+ 20  6,2  | TEPoYS
  20  6,5  | TYPEeS
  20  6,5  | TYPeES
  20  1,7  - TaL
@@ -530,6 +540,7 @@
  18  6,2  | AcETYLS
  18  3,6  | AgATES
  18  6,2  | AiLSYTE
+ 18  3,6  | AlATES
  18  3,6  | AnSATE
  18  3,6  | AsSATE
  18  3,6  | AvESTA
@@ -564,12 +575,14 @@
  18  6,2  | PEAvY
  18  4,2  | PELAGeS
  18  6,2  | PESkY
+ 18  6,2  | PEStY
  18  3,3  | PETALiA
  18  6,2  | PETtY
  18  6,2  | PEaSY
  18  6,2  | PEaTY
  18  6,2  | PEnSY
  18  6,2  | PErTY
+ 18  6,2  | PEsTY
  18  6,2  | PEtTY
  18  4,3  | PLAGES
  18  4,3  | PLAGaTE
@@ -582,6 +595,7 @@
  18  6,2  | PeASY
  18  6,2  | PeATY
  18  4,2  | PeLAGES
+ 18  6,2  | PeSTY
  18  6,2  | PiETY
  18  6,2  | PiSAY
  18  6,2  | PlATY
@@ -596,6 +610,7 @@
  18  6,2  | SEPoY
  18  1,7  - SET
  18  6,2  | SEePY
+ 18  6,1  | SLATEY
  18  6,2  | SPAcY
  18  6,2  | SPArY
  18  6,2  | SPEwY
@@ -791,6 +806,7 @@
  17  1,7  - tAS
  17  1,7  - tAT
  17  1,7  - tEA
+ 17  1,7  - tET
  17  1,7  - vAS
  17  1,7  - vAT
  17  1,7  - vET
@@ -949,9 +965,13 @@
  16  3,3  | SEPAL
  16  3,3  | SEPALs
  16  6,2  | SLATY
+ 16  6,1  | SLATeY
+ 16  6,1  | SLAnTY
+ 16  6,1  | SLAtEY
  16  6,1  | SLAvEY
  16  6,1  | SLEAzY
  16  6,1  | SLEeTY
+ 16  6,1  | SLaTEY
  16  6,1  | SLeETY
  16  3,4  | SPAThAL
  16  3,4  | SPATiAL
@@ -980,6 +1000,7 @@
  16  1,7  - SeE
  16  6,1  | SeLETY
  16  1,7  - SeT
+ 16  6,1  | ShALEY
  16  6,1  | ShELTY
  16  1,7  - SoE
  16  1,7  - SoT
@@ -990,8 +1011,10 @@
  16  6,2  | TAiLYE
  16  6,1  | TAmELY
  16  6,1  | TELArY
+ 16  6,2  | TELlYS
  16  3,3  | TEPAL
  16  3,3  | TEPALs
+ 16  6,2  | TElLYS
  16  6,5  | TYLoSE
  16  1,7  - TaA
  16  1,7  - TaE
@@ -1037,6 +1060,7 @@
  16  6,1  | rEALTY
  16  6,2  | rELAYS
  16  6,1  | rESLAY
+ 16  6,1  | sLATEY
  16  4,3  | sPAG
  16  3,4  | sPALES
  16  3,4  | sTAPLES
@@ -1062,6 +1086,8 @@
  15  6,7  - APpLES
  15  6,5  - APuLSE
  15  6,7  - APuLSE
+ 15  6,5  - ATaPS
+ 15  6,7  - ATaPS
  15  6,5  - AdEPS
  15  6,7  - AdEPS
  15  6,5  - AdEPT
@@ -1303,6 +1329,7 @@
  14  3,4  | ETAPeS
  14  6,2  | EnLAY
  14  6,7  - EvAP
+ 14  3,3  | ExPATS
  14  4,6  | GALP
  14  4,6  | GALoP
  14  4,6  | GoLPE
@@ -1349,6 +1376,7 @@
  14  6,2  | LiSTY
  14  6,2  | LuSTY
  14  3,5  | PAELlA
+ 14  3,5  | PAESAn
  14  3,3  | PALA
  14  3,5  | PALA
  14  3,3  | PALAr
@@ -1510,6 +1538,7 @@
  14  6,2  | SeELY
  14  6,2  | ShALY
  14  6,2  | SiLTY
+ 14  6,1  | SlATEY
  14  6,2  | SoLAY
  14  6,2  | SpLAY
  14  3,4  | StAPLE
@@ -1556,6 +1585,7 @@
  14  1,7  - TEm
  14  1,7  - TEn
  14  4,3  | TErGAL
+ 14  1,7  - TEt
  14  1,7  - TEw
  14  6,2  | TEwLY
  14  1,7  - TEx
@@ -1578,6 +1608,8 @@
  14  3,2  | aLAPA
  14  3,4  | aLAPA
  14  3,4  | aLAPS
+ 14  6,5  - aTAPS
+ 14  6,7  - aTAPS
  14  6,2  | aTELY
  14  3,3  | bELAP
  14  6,2  | bELAY
@@ -1682,6 +1714,8 @@
  13  6,5  - ASTEeP
  13  6,7  - ASTEeP
  13  3,3  | AScAPE
+ 13  3,4  | ATAPS
+ 13  3,6  | ATAPS
  13  2,7  - Aa
  13  2,7  - Ab
  13  2,7  - Ad
@@ -1729,6 +1763,8 @@
  13  2,7  - Et
  13  2,7  - Ew
  13  2,7  - Ex
+ 13  3,3  | ExPAT
+ 13  6,7  - ExPATS
  13  6,7  - ExPTL
  13  4,6  | GETSPA
  13  4,6  | GaLP
@@ -1785,6 +1821,7 @@
  13  3,5  | PALp
  13  3,5  | PALs
  13  3,5  | PALy
+ 13  3,5  | PASTiE
  13  3,5  | PAShA
  13  3,5  | PASsE
  13  3,5  | PAStA
@@ -1868,6 +1905,7 @@
  13  3,3  | PlEAT
  13  4,1  | PoSTAGE
  13  3,4  | PsALTES
+ 13  3,3  | PuLA
  13  3,3  | PyLA
  13  3,5  | SALPA
  13  3,5  | SALPAe
@@ -1939,6 +1977,7 @@
  13  6,5  - oPALS
  13  6,7  - oPALS
  13  3,4  | pLAP
+ 13  2,4  | rAJES
  13  3,3  | rEPAST
  13  3,2  | sALPA
  13  3,5  | sAPLE
@@ -2005,9 +2044,12 @@
  12  6,7  - ASTeEP
  12  3,4  | ATAP
  12  3,6  | ATAP
+ 12  3,4  | ATAPs
+ 12  3,6  | ATAPs
  12  6,5  - ATELeS
  12  6,7  - ATELeS
  12  6,2  | ATElY
+ 12  3,6  | ATaPS
  12  6,5  - ATeLES
  12  6,7  - ATeLES
  12  3,3  | AbLATES
@@ -2033,6 +2075,7 @@
  12  6,3  | EcTYPAL
  12  6,2  | EsSAY
  12  6,7  - ExALTS
+ 12  6,7  - ExPAT
  12  3,2  | ExPLAT
  12  6,3  | ExTYPAL
  12  4,6  | GALES
@@ -2043,6 +2086,8 @@
  12  4,6  | GASPEd
  12  4,6  | GASPEr
  12  4,6  | GELATe
+ 12  4,6  | GELATi
+ 12  4,6  | GELATo
  12  4,6  | GELAnT
  12  4,6  | GELTS
  12  4,6  | GETSPa
@@ -2076,6 +2121,7 @@
  12  2,6  | JEsS
  12  2,6  | JEsT
  12  2,6  | JEtS
+ 12  2,6  | JEwS
  12  2,6  | JcL
  12  2,6  | JeES
  12  2,6  | JeST
@@ -2248,6 +2294,7 @@
  12  3,3  | SAPAn
  12  3,5  | SAPAn
  12  3,5  | SAPEk
+ 12  6,2  | SATaY
  12  3,5  | SAlEP
  12  3,2  | SAlPA
  12  6,2  | SAlTY
@@ -2295,9 +2342,11 @@
  12  6,2  | STrEY
  12  3,2  | STuPA
  12  3,2  | SaLPA
+ 12  6,2  | SaTAY
  12  3,2  | SePTAL
  12  4,2  | SiLAGE
  12  6,2  | SlATY
+ 12  2,4  | SoJA
  12  6,2  | SuETY
  12  4,4  | TAGLEt
  12  2,4  | TAJ
@@ -2354,6 +2403,7 @@
  12  1,7  - aA
  12  1,7  - aE
  12  6,2  | aSTAY
+ 12  3,4  | aTAPS
  12  1,7  - bA
  12  3,4  | bAAPS
  12  4,4  | bAGELS
@@ -2425,6 +2475,7 @@
  12  1,7  - pE
  12  6,2  | pEASY
  12  6,2  | pEATY
+ 12  6,2  | pESTY
  12  3,5  | rAPES
  12  6,2  | rASTY
  12  1,7  - rE
@@ -2469,6 +2520,7 @@
  11  4,5  | AGLETS
  11  4,5  | AGiLE
  11  3,4  | ALASTEr
+ 11  3,4  | ALATES
  11  4,4  | ALGaE
  11  4,4  | ALGaS
  11  6,5  - ALP
@@ -2480,6 +2532,8 @@
  11  6,7  - ALPs
  11  6,5  - ALTErS
  11  6,7  - ALTErS
+ 11  6,5  - ALaTES
+ 11  6,7  - ALaTES
  11  3,6  | ALiSP
  11  6,5  - ALyTES
  11  6,7  - ALyTES
@@ -2577,6 +2631,8 @@
  11  6,7  - ArTELS
  11  6,5  - AsPS
  11  6,7  - AsPS
+ 11  3,4  | AtAPS
+ 11  3,6  | AtAPS
  11  6,5  - AtTLE
  11  6,7  - AtTLE
  11  6,5  - AxELS
@@ -2659,6 +2715,7 @@
  11  2,6  | JEe
  11  2,6  | JEt
  11  2,6  | JEu
+ 11  2,6  | JEw
  11  2,6  | JcT
  11  2,6  | JeE
  11  2,6  | JeT
@@ -2670,6 +2727,7 @@
  11  4,4  | LAGEr
  11  4,4  | LAGS
  11  4,1  | LASTaGE
+ 11  6,4  | LAYuPS
  11  3,5  | LAmPS
  11  3,5  | LApPA
  11  3,5  | LApPS
@@ -2913,6 +2971,7 @@
  10  4,5  | AGLETs
  10  4,5  | AGLEtS
  10  4,5  | AGaL
+ 10  3,4  | ALATeS
  10  6,5  - ALES
  10  6,7  - ALES
  10  6,5  - ALErTS
@@ -3137,6 +3196,8 @@
  10  3,5  | LASsET
  10  3,5  | LATESt
  10  3,5  | LAThES
+ 10  3,5  | LATkES
+ 10  3,5  | LATtES
  10  6,4  | LAYuP
  10  3,2  | LAcTASE
  10  4,4  | LEG
@@ -3153,6 +3214,7 @@
  10  4,4  | LuGE
  10  4,4  | LuGS
  10  3,3  | LySATE
+ 10  3,2  | PAESAn
  10  5,1  | PALEog
  10  6,3  | PALY
  10  3,2  | PASEAr
@@ -3219,6 +3281,7 @@
  10  5,3  | PEAge
  10  5,3  | PEAgs
  10  5,2  | PELAgeS
+ 10  3,2  | PETSAi
  10  4,3  | PEaG
  10  5,3  | PEagS
  10  3,3  | PEbA
@@ -3319,6 +3382,7 @@
  10  3,4  | SPAs
  10  3,4  | SPAt
  10  3,4  | SPAy
+ 10  3,4  | SPAz
  10  5,2  | SPrAg
  10  3,2  | STALAcE
  10  3,4  | STALAcE
@@ -3371,6 +3435,9 @@
  10  6,6  | YELP
  10  4,5  | aGAL
  10  4,5  | aGLETS
+ 10  3,4  | aLATES
+ 10  6,5  - aLATES
+ 10  6,7  - aLATES
  10  4,4  | aLGATE
  10  6,5  - aPES
  10  6,7  - aPES
@@ -3381,6 +3448,8 @@
  10  6,5  - aSALE
  10  6,7  - aSALE
  10  6,5  | aYELP
+ 10  3,5  | bAPS
+ 10  6,5  - bAPS
  10  3,5  | bAPT
  10  6,5  - bAPT
  10  6,5  - bELAST
@@ -3412,6 +3481,7 @@
  10  5,6  | gASPy
  10  5,6  | gAmPS
  10  5,6  | gAsPS
+ 10  5,6  | gAwPS
  10  4,3  | gLEG
  10  5,6  | gLoP
  10  5,6  | gaLP
@@ -3492,9 +3562,11 @@
   9  3,4  | ALATE
   9  3,6  | ALATE
   9  3,4  | ALATEd
+  9  3,4  | ALATEs
   9  3,4  | ALAiTE
   9  3,4  | ALAnTS
   9  3,4  | ALArES
+  9  3,4  | ALAtES
   9  3,2  | ALESAn
   9  3,2  | ALETAp
   9  6,5  - ALEcS
@@ -3708,6 +3780,7 @@
   9  4,6  | GATES
   9  4,6  | GAmPS
   9  4,6  | GAsPS
+  9  4,6  | GAwPS
   9  4,6  | GEAL
   9  4,6  | GEAST
   9  4,6  | GEATaS
@@ -3757,6 +3830,7 @@
   9  3,5  | LAThE
   9  3,5  | LAThS
   9  3,5  | LATkE
+  9  3,5  | LATtE
   9  3,5  | LATuS
   9  3,5  | LAmEST
   9  3,5  | LAmP
@@ -3770,6 +3844,7 @@
   9  5,3  | LArgEST
   9  3,5  | LAsSET
   9  3,5  | LAtEST
+  9  3,5  | LAtTES
   9  3,3  | LAxATE
   9  3,5  | LAxATE
   9  3,5  | LAxEST
@@ -3907,6 +3982,7 @@
   9  3,4  | SLATEd
   9  3,4  | SLATEr
   9  3,4  | SLATEs
+  9  3,4  | SLATEy
   9  4,2  | SLAnG
   9  3,3  | SPAAd
   9  6,3  | SPAY
@@ -4117,6 +4193,7 @@
   9  3,3  | rELAST
   9  3,3  | rELATA
   9  3,3  | rESALT
+  9  4,2  | rETAGS
   9  4,4  | sAGEST
   9  3,5  | sALP
   9  3,5  | sAP
@@ -4490,6 +4567,7 @@
   8  3,5  | LArES
   8  3,5  | LAsES
   8  3,5  | LAsTS
+  8  3,5  | LAtTE
   8  3,3  | LAvAS
   8  3,5  | LAvAS
   8  3,5  | LAvES
@@ -4760,6 +4838,7 @@
   8  6,6  | YaPS
   8  6,6  | YiPE
   8  6,6  | YiPS
+  8  6,6  | YuPS
   8  5,5  - aALS
   8  6,5  - aALS
   8  6,7  - aALS
@@ -5172,6 +5251,7 @@
   7  5,4  | AigLETS
   7  3,2  | AkELA
   7  3,6  | AkELA
+  7  3,4  | AlATES
   7  6,5  - AlL
   7  6,7  - AlL
   7  3,6  | AlPS
@@ -5289,6 +5369,7 @@
   7  4,6  | GEnAL
   7  4,6  | GLeES
   7  4,6  | GLeET
+  7  4,6  | GLiAS
   7  4,6  | GLiST
   7  4,6  | GLoAT
   7  4,6  | GLoEA
@@ -5317,6 +5398,7 @@
   7  4,6  | GiSE
   7  4,6  | GiST
   7  4,6  | GiTE
+  7  4,6  | GiTS
   7  4,6  | GnAT
   7  4,6  | GoAS
   7  4,6  | GoAT
@@ -5459,6 +5541,7 @@
   7  3,5  | SAvATE
   7  4,4  | SEG
   7  4,4  | SEGo
+  7  4,4  | SEGs
   7  5,3  | SEPg
   7  5,4  | SEgeTAL
   7  4,3  | SEpG
@@ -5901,8 +5984,6 @@
   6  6,7  - AlS
   6  6,5  - AlT
   6  6,7  - AlT
-  6  3,4  | AmAL
-  6  3,6  | AmAL
   6  3,6  | AmEL
   6  3,6  | AmLET
   6  3,6  | AmSEL
@@ -6129,6 +6210,7 @@
   6  3,3  | LAvA
   6  3,5  | LAvA
   6  3,5  | LAvE
+  6  3,5  | LAvS
   6  6,3  | LAvY
   6  3,5  | LAwS
   6  3,5  | LAyS
@@ -6203,6 +6285,8 @@
   6  3,5  | SATAi
   6  3,3  | SATAn
   6  3,5  | SATAn
+  6  3,3  | SATAy
+  6  3,5  | SATAy
   6  3,5  | SATE
   6  3,5  | SATEd
   6  3,5  | SATEm
@@ -6278,6 +6362,7 @@
   6  3,3  | STrAE
   6  4,2  | STrAG
   6  6,5  | SYL
+  6  6,5  | SYLi
   6  6,5  | SYLl
   6  6,5  | SYlL
   6  4,4  | SaG
@@ -6340,6 +6425,7 @@
   6  3,3  | TExAS
   6  6,5  | TYES
   6  6,5  | TYEeS
+  6  6,5  | TYErS
   6  6,5  | TYStE
   6  6,5  | TYeES
   6  6,5  | TYkES
@@ -6438,6 +6524,7 @@
   6  6,3  | cLAY
   6  3,5  - dA
   6  3,5  | dALE
+  6  3,5  | dALS
   6  3,5  | dALT
   6  3,5  | dATES
   6  6,3  | dELY
@@ -6484,6 +6571,8 @@
   6  5,6  | gEAL
   6  3,4  | gEAST
   6  5,6  | gELATe
+  6  5,6  | gELATi
+  6  5,6  | gELATo
   6  5,6  | gELAnT
   6  5,6  | gELTS
   6  3,3  | gETAS
@@ -6535,6 +6624,8 @@
   6  3,3  | kALA
   6  3,5  | kALA
   6  3,5  | kALE
+  6  3,3  | kATAS
+  6  3,5  | kATAS
   6  3,4  | kEATS
   6  6,5  | kYATS
   6  6,5  | kYLE
@@ -6691,6 +6782,8 @@
   5  3,6  | ATAkE
   5  3,4  | ATAmE
   5  3,6  | ATAmE
+  5  3,4  | ATApS
+  5  3,6  | ATApS
   5  3,2  | ATEbA
   5  3,6  | ATEbA
   5  3,6  | ATEeS
@@ -7111,6 +7204,7 @@
   5  3,4  | TSAdE
   5  6,5  | TYE
   5  6,5  | TYEe
+  5  6,5  | TYEr
   5  6,5  | TYEs
   5  6,5  | TYeE
   5  6,5  | TYeS
@@ -7145,6 +7239,7 @@
   5  6,6  | YArE
   5  6,6  | YAtE
   5  6,6  | YAwS
+  5  6,6  | YAyS
   5  6,6  | YEA
   5  6,6  | YEAh
   5  6,6  | YEAn
@@ -7309,6 +7404,7 @@
   5  5,6  | gLEeTS
   5  5,6  | gLeES
   5  5,6  | gLeET
+  5  5,6  | gLiAS
   5  5,6  | gLiST
   5  5,6  | gLoAT
   5  5,6  | gLoEA
@@ -7432,7 +7528,9 @@
   5  4,4  | rAGE
   5  4,4  | rAGS
   5  6,4  | rAYS
+  5  4,4  | rEGS
   5  4,4  | rEGT
+  5  5,2  | rETAgS
   5  6,4  | rLY
   5  6,5  | rYAS
   5  6,5  | rYES
@@ -7443,6 +7541,7 @@
   5  5,4  | sAgEST
   5  3,4  | sEAS
   5  3,4  | sEAT
+  5  4,4  | sEGS
   5  5,3  | sEPg
   5  3,4  | sLA
   5  6,4  | sLY
@@ -7475,6 +7574,7 @@
   5  6,5  | wYES
   5  6,5  | wYTE
   5  6,5  | xYST
+  5  6,4  | yAYS
   5  3,4  | yEAS
   5  3,4  | yEAT
   5  4,4  | zAGS
@@ -7975,6 +8075,7 @@
   4  6,4  | eTY
   4  6,5  | eYE
   4  5,5  | egEST
+  4  4,4  | fAG
   4  3,5  | fAST
   4  3,5  | fATE
   4  3,5  | fATS
@@ -8131,6 +8232,8 @@
   4  3,5  | kAES
   4  3,3  | kASA
   4  3,5  | kASA
+  4  3,3  | kATA
+  4  3,5  | kATA
   4  3,5  | kATE
   4  3,5  | kATS
   4  6,4  | kAY
@@ -8544,6 +8647,7 @@
   3  5,6  | giSE
   3  5,6  | giST
   3  5,6  | giTE
+  3  5,6  | giTS
   3  5,6  | gnAT
   3  5,6  | goAS
   3  5,6  | goAT
@@ -8731,6 +8835,7 @@
   2  5,4  | SAgy
   2  5,4  | SEg
   2  5,4  | SEgo
+  2  5,4  | SEgs
   2  5,4  | STg
   2  5,4  | STge
   2  3,4  | SaA
@@ -8740,6 +8845,7 @@
   2  5,5  | SgAd
   2  3,4  | ShA
   2  3,4  | SiA
+  2  3,4  | SkA
   2  3,4  | SlA
   2  3,4  | SmA
   2  5,4  | SogA
@@ -8830,9 +8936,11 @@
   2  5,4  | pEgS
   2  5,4  | rAgE
   2  5,4  | rAgS
+  2  5,4  | rEgS
   2  5,4  | rEgT
   2  5,4  | sAgE
   2  5,4  | sAgS
+  2  5,4  | sEgS
   2  5,3  | sTAg
   2  5,3  | sTEg
   2  5,4  | sTgE
@@ -8902,6 +9010,7 @@
   1  3,5  | dA
   1  5,4  | dAg
   1  3,5  | fA
+  1  5,4  | fAg
   1  5,6  | gAb
   1  5,6  | gAd
   1  5,6  | gAe

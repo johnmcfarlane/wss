@@ -129,6 +129,7 @@
  48  8,11 - UKeS
  48  8,11 - aUKS
  48  7,11 - dACUS
+ 48  7,11 - yUCAS
  48  8,11 - yUKS
  46  6,1  | QUACKEd
  45  8,11 - ArKS
@@ -148,6 +149,7 @@
  45  8,11 - KAaS
  45  8,11 - KAbS
  45  8,11 - KAeS
+ 45  8,11 - KAfS
  45  8,11 - KAnS
  45  8,11 - KAtS
  45  8,11 - KAyS
@@ -165,6 +167,7 @@
  45  8,11 - eCUS
  45  8,11 - oAKS
  45  8,11 - oKAS
+ 45  8,11 - sKAS
  45  8,11 - yAKS
  44  4,8  - QUACkS
  42  8,11 - ACeS
@@ -196,6 +199,7 @@
  42  8,11 - oCAS
  42  8,11 - pACS
  42  8,11 - sACS
+ 42  8,11 - vACS
  42  8,11 - wACS
  40  6,2  | QUAKES
  40  6,2  | QUAKErS
@@ -281,6 +285,7 @@
  36  8,11 - SCUr
  36  6,5  | SECQUe
  36  8,11 - SKAl
+ 36  8,11 - SKAs
  36  2,5  - SQUArK
  36  2,5  - SQUAwK
  36  6,1  | SaCQUE
@@ -322,6 +327,7 @@
  33  8,11 - SCAd
  33  8,11 - SCAr
  33  5,2  | SQUAd
+ 33  5,2  | SQUAw
  33  9,11 - UdS
  33  9,11 - UfS
  33  9,11 - UhS
@@ -509,6 +515,8 @@
  25  2,7  - SQUAm
  25  2,5  - SQUAt
  25  2,7  - SQUAt
+ 25  2,5  - SQUAw
+ 25  2,7  - SQUAw
  25  5,5  | ShACK
  25  5,5  | SlACK
  25  5,5  | SwACK
@@ -698,6 +706,7 @@
  20  6,8  - sACS
  20  8,9  - sCUZ
  20  6,3  | sQUEAKS
+ 20  6,8  - vACS
  20  6,8  - wACS
  19  6,4  - ASCaPE
  19  5,8  - AnKUS
@@ -724,6 +733,7 @@
  19  3,5  - UShAK
  19  6,4  - aSCAPE
  19  1,7  - bACKUS
+ 19  9,1  | cC
  19  5,6  | dACUS
  19  6,4  - eSCAPE
  19  7,8  - fCS
@@ -1033,6 +1043,7 @@
  16  6,2  | uKASE
  16  7,10 - uKASE
  16  5,6  | wACS
+ 16  5,8  - yUCAS
  16  2,7  - yUCKS
  16  8,10 - yUKE
  15  7,3  | AQUA
@@ -1065,6 +1076,7 @@
  15  5,4  | CUl
  15  5,4  | CUr
  15  7,8  - CUt
+ 15  9,1  | Cc
  15  9,1  | Ch
  15  5,5  | CrU
  15 11,7  | HAZEd
@@ -1099,6 +1111,7 @@
  15  7,3  | SQUAd
  15  7,3  | SQUAm
  15  7,3  | SQUAt
+ 15  7,3  | SQUAw
  15  6,3  | SQUEAk
  15  6,3  | SQUEAl
  15  6,3  | SQUEAm
@@ -1126,6 +1139,7 @@
  15  5,6  | lUC
  15  6,8  - oKAS
  15  8,4  | qQV
+ 15  6,8  - sKAS
  15  3,7  - sUQS
  15  7,2  | tAQUA
  15  7,5  | tAQUA
@@ -1195,6 +1209,7 @@
  14  3,7  - KAaS
  14  3,7  - KAbS
  14  3,7  - KAeS
+ 14  3,7  - KAfS
  14  7,3  | KAhAU
  14  8,10 - KAlE
  14  8,10 - KAmE
@@ -1267,6 +1282,7 @@
  14  6,2  | SCrAE
  14  7,10 - SCrAE
  14  6,5  | SEQUa
+ 14  6,8  - SKAs
  14  6,8  - SKAt
  14  8,10 - SKeE
  14  8,10 - SKyE
@@ -1400,6 +1416,7 @@
  13  6,8  - KAbS
  13  6,8  - KAeS
  13  7,8  - KAf
+ 13  6,8  - KAfS
  13  7,3  | KAkAS
  13  7,3  | KAnAS
  13  6,8  - KAnS
@@ -1407,6 +1424,7 @@
  13  7,4  - KApPE
  13  7,8  - KAs
  13  7,8  - KAt
+ 13  7,3  | KAtAS
  13  6,8  - KAtS
  13  7,3  | KAvAS
  13  6,8  - KAyS
@@ -1605,6 +1623,7 @@
  12  7,3  | KAnA
  12  7,3  | KApA
  12  7,3  | KAsA
+ 12  7,3  | KAtA
  12  7,3  | KAvA
  12  2,5  - KUSAm
  12  2,7  - KUSAm
@@ -1646,6 +1665,7 @@
  12  5,5  | ShU
  12  8,10 - SiCE
  12  8,10 - SoCE
+ 12  8,9  - SpAZ
  12  9,9  - SuZ
  12  8,10 - SvCE
  12  8,10 - SyCE
@@ -1703,6 +1723,7 @@
  12  2,7  - wAUKS
  12  5,6  | wUS
  12  7,5  | yACKS
+ 12  2,7  - yUCAS
  11  6,3  | ACKEe
  11  6,3  | ACKEr
  11  6,3  | ACKEy
@@ -1958,6 +1979,7 @@
  10  4,7  - KASa
  10  4,7  - KASm
  10  4,7  - KAeS
+ 10  4,7  - KAfS
  10  7,5  | KAgUS
  10  4,7  - KAnS
  10  4,7  - KAtS
@@ -2164,6 +2186,7 @@
   9  7,5  | KApAS
   9  7,2  - KArEL
   9  5,5  - KAt
+  9  7,5  | KAtAS
   9  7,5  | KAvAS
   9  5,5  - KAy
   9  5,7  - KSi
@@ -2207,7 +2230,9 @@
   9  3,7  - SCUr
   9  3,5  - SCUt
   9  3,7  - SCUt
+  9  4,5  - SKA
   9  3,7  - SKAl
+  9  3,7  - SKAs
   9  3,5  - SKAt
   9  3,7  - SKAt
   9  3,5  - SKAw
@@ -2259,6 +2284,7 @@
   9  5,6  - lEAVES
   9  7,3  | lUKAS
   9  9,5  | nEFAS
+  9  6,5  | nEUKS
   9  6,3  | nUKES
   9  3,7  - oAKS
   9  3,7  - oKAS
@@ -2268,6 +2294,7 @@
   9  6,4  | qUEAK
   9  5,6  - rEAVES
   9  7,2  - sAKEL
+  9  3,7  - sKAS
   9  7,3  | sKUAS
   9  7,2  | vACUA
   9  7,5  | vACUA
@@ -2539,6 +2566,7 @@
   8  3,7  - lACS
   8  6,3  | lAKES
   8  6,5  | lEAKS
+  8  6,5  | lEKU
   8  6,5  | lEUK
   8  6,3  | lUCES
   8  6,3  | lUKE
@@ -2570,6 +2598,7 @@
   8  8,10 - rUSE
   8  3,7  - sACS
   8  6,3  | sAKES
+  8  4,5  - sKA
   8  8,2  - sKEL
   8  7,3  | sKUA
   8  6,3  | tAKES
@@ -2577,12 +2606,14 @@
   8  6,5  | tEAKS
   8  6,5  | tEUK
   8  6,3  | tUKE
+  8  3,7  - vACS
   8  3,7  - wACS
   8  7,3  | wAKAS
   8  6,3  | wAKES
   8  7,5  | wAUK
   8  6,5  | wEKAS
   8  6,5  | yEUK
+  8  7,3  | yUCAS
   8  6,3  | yUKE
   7  7,4  | ACASt
   7  6,4  | ACES
@@ -2667,6 +2698,7 @@
   7  6,3  | CAvES
   7  7,5  | CAvU
   7  6,5  | CEASe
+  7  9,2  - CEL
   7  6,5  | CESAr
   7  6,5  | CEStA
   7  6,5  | CErAS
@@ -2734,6 +2766,7 @@
   7  7,5  | KAeS
   7  4,5  - KAf
   7  4,7  - KAf
+  7  7,5  | KAfS
   7  7,5  | KAhA
   7  7,5  | KAkA
   7  4,7  - KAl
@@ -2751,6 +2784,7 @@
   7  7,5  | KAsA
   7  4,5  - KAt
   7  4,7  - KAt
+  7  7,5  | KAtA
   7  6,3  | KAtE
   7  7,5  | KAtS
   7  7,5  | KAvA
@@ -2798,8 +2832,10 @@
   7  6,5  | SEcK
   7  6,5  | SEeK
   7  6,5  | SErAC
+  7  7,4  | SKA
   7  7,4  | SKAg
   7  7,4  | SKAl
+  7  7,4  | SKAs
   7  7,4  | SKAt
   7  7,4  | SKAw
   7  6,4  | SKEd
@@ -2813,6 +2849,7 @@
   7  6,4  | SKEt
   7  6,4  | SKEw
   7  6,4  | SKEy
+  7  4,5  - SKa
   7  6,3  | SKeE
   7  4,5  - SKy
   7  6,3  | SKyE
@@ -2897,6 +2934,7 @@
   7  6,5  | lEKS
   7  6,3  | lUCE
   7  8,4  - lUPE
+  7  8,4  | lUV
   7  6,3  | mACES
   7  6,3  | mAKE
   7  7,5  | mASK
@@ -2924,6 +2962,7 @@
   7  7,5  | sAKA
   7  6,3  | sAKE
   7  6,5  | sEAK
+  7  7,4  | sKAS
   7  8,4  - sUPE
   7  6,3  | tACES
   7  7,3  | tAKA
@@ -3079,6 +3118,7 @@
   6  6,5  | CESt
   6  6,5  | CEcA
   6  6,5  | CEeS
+  6  6,5  | CElS
   6  6,5  | CEpS
   6  6,5  | CErA
   6  6,5  | CEsS
@@ -3304,6 +3344,7 @@
   6  7,5  | pACS
   6  8,4  - pAPE
   6  8,10 - pASE
+  6  6,5  | pECS
   6  6,4  | pSEC
   6  9,10 - qUE
   6  6,3  | rACE
@@ -3315,6 +3356,7 @@
   6  7,5  | sACS
   6  7,5  | sAK
   6  6,5  | sECS
+  6  7,4  | sKA
   6  9,10 - sUE
   6  6,3  | tACE
   6  8,4  - tAPE
@@ -3323,6 +3365,7 @@
   6  6,5  | tECA
   6  9,10 - tUE
   6  6,4  | uKE
+  6  7,5  | vACS
   6  8,10 - vASE
   6  3,7  - vAUS
   6  8,4  | vAV
@@ -3391,6 +3434,7 @@
   5  7,5  | CAw
   5  7,5  | CAy
   5  6,5  | CEe
+  5  6,5  | CEl
   5  6,5  | CEp
   5  6,4  | CeE
   5  5,5  - Ch
@@ -3501,6 +3545,7 @@
   5  7,4  | oCA
   5  9,4  - oPE
   5  7,5  | pAC
+  5  6,5  | pEC
   5  4,5  - pUA
   5  4,7  - pUS
   5  4,5  - qUA
@@ -3654,6 +3699,7 @@
   4  6,7  - Si
   4  4,5  - SiA
   4  9,10 - SiE
+  4  4,5  - SkA
   4  8,2  - SkEL
   4  4,5  - SlA
   4  6,3  | SlUE
@@ -3947,6 +3993,7 @@
   3  7,3  | cASA
   3  7,5  | cASA
   3  6,3  | cASE
+  3  9,2  - cEL
   3  6,4  | cUE
   3  5,5  - dA
   3  6,3  | dASE
@@ -4193,6 +4240,7 @@
   2  6,4  | ShE
   2  7,4  | SiA
   2  6,4  | SiE
+  2  7,4  | SkA
   2  7,4  | SlA
   2  7,4  | SmA
   2  5,5  - So

@@ -112,12 +112,15 @@
  54  7,3  | EpILaTE
  54  7,3  | EvILEsT
  54  7,3  | ImpLETE
+ 54  7,3  | LIcEnTE
  54  7,3  | LIfElET
  54  7,3  | LInEaTE
  54  7,3  | LInElET
  54  7,3  | LIsETtE
+ 54  7,3  | LIsEnTE
  54  7,3  | LIsEtTE
  54  7,3  | LowEITE
+ 54  7,3  | TEaLIkE
  54  7,3  | TEnLInE
  54  7,3  | TItLEnE
  54  7,3  | TaILzEE
@@ -190,6 +193,7 @@
  53  7,4  | hELvITE
  53  7,5  | iLEsITE
  53  7,4  | ihLEITE
+ 53  7,3  | jETLIkE
  53  7,2  | lIfELET
  53  7,2  | lInELET
  53  7,4  | mELETIn
@@ -215,6 +219,8 @@
  53  7,3  | quELITE
  53  7,2  | rETILEd
  53  7,5  | rETILEd
+ 53  7,2  | rETILEs
+ 53  7,5  | rETILEs
  53  7,1  | rETIcLE
  53  7,1  | rETItLE
  53  7,3  | sETLInE
@@ -275,10 +281,12 @@
  52  7,5  | LEwnITE
  52  7,2  | LIEfEsT
  52  7,2  | LIEvEsT
+ 52  7,2  | LIsTEEs
  52  7,4  | TELEmbI
  52  7,3  | TELEsIa
  52  7,3  | TELEsIs
  52  7,5  | TELlIEs
+ 52  7,5  | TEaLIkE
  52  7,5  | TElLIEs
  52  7,1  | TEnIbLE
  52  7,5  | TEnLInE
@@ -335,6 +343,7 @@
  52  7,5  | hELvITE
  52  7,4  | iLEsITE
  52  7,3  | ihLEITE
+ 52  7,5  | jETLIkE
  52  7,1  | lEnTILE
  52  7,5  | lEnTILE
  52  7,3  | lIfELET
@@ -361,6 +370,7 @@
  52  7,4  | peELITE
  52  7,4  | quELITE
  52  7,1  | rETILEd
+ 52  7,1  | rETILEs
  52  7,1  | rEpTILE
  52  7,5  | rEpTILE
  52  7,1  | rEtITLE
@@ -420,7 +430,10 @@
  51  7,2  | LIfElET
  51  7,1  | LInElET
  51  7,2  | LInElET
+ 51  7,4  | LIsEnTE
  51  7,4  | LIsEtTE
+ 51  7,1  | LIsTEEs
+ 51  7,4  | LIsTEEs
  51  7,5  | TELEmbI
  51  7,2  | TELEsIa
  51  7,5  | TELEsIa
@@ -715,6 +728,7 @@
  46  3,3  | LeERIEsT
  46  3,3  | LhERzITE
  46  5,7  - TELlIEs
+ 46  5,7  - TEaLIkE
  46  5,7  - TElLIEs
  46  5,7  - TEnLInE
  46  5,7  - TEnsILE
@@ -770,6 +784,7 @@
  45  3,2  | LItERaTE
  45  3,2  | LaETRIlE
  45  3,2  | LaTERItE
+ 45  3,2  | LaTERIzE
  45  3,2  | LatERITE
  45  4,2  | LavENITE
  45  3,2  | LedERITE
@@ -891,6 +906,7 @@
  42  5,1  | TIdELIkE
  42  5,1  | TIlELIkE
  42  5,1  | TImELIEr
+ 42  5,1  | TImELInE
  42  5,1  | cEcILITE
  42  5,1  | gIbELITE
  42  5,1  | mElILITE
@@ -1133,6 +1149,7 @@
  27  3,1  | bELIER
  27  3,1  | bELIERs
  27  3,1  | bELTER
+ 27  3,1  | bELTERs
  27  3,1  | bELTIR
  27  3,5  | bRIoLET
  27  1,5  | cHEEzIT
@@ -1277,6 +1294,7 @@
  24  3,1  | LEIsuRE
  24  1,3  | LETHE
  24  1,3  | LETHEs
+ 24  1,2  | LETcHEd
  24  1,2  | LETcHEs
  24  3,1  | LETtER
  24  3,1  | LETtERn
@@ -1350,6 +1368,7 @@
  24  3,6  | REgLuE
  24  3,6  | REmELT
  24  3,6  | REpILE
+ 24  3,6  | REpLEd
  24  3,6  | REpLoT
  24  3,6  | REsILE
  24  3,6  | REsLoT
@@ -1555,8 +1574,10 @@
  24  3,1  | pILgER
  24  3,1  | pILlER
  24  3,5  | pRELEcT
+ 24  3,5  | pRELIfE
  24  3,5  | pRETELl
  24  3,5  | pRETElL
+ 24  3,5  | pREfILE
  24  3,5  | pRItTLE
  24  3,1  | paLIER
  24  3,1  | paLTER
@@ -1565,6 +1586,7 @@
  24  1,1  | rELIgHT
  24  3,1  | rELiER
  24  3,1  | reLIER
+ 24  3,1  | ruLIER
  24  3,1  | sELlER
  24  3,1  | sELtER
  24  1,5  | sHELTEr
@@ -1798,6 +1820,7 @@
  21  1,2  | LEaTH
  21  1,3  | LEcHE
  21  1,3  | LEcHEa
+ 21  1,3  | LEcHEd
  21  1,3  | LEcHEr
  21  1,3  | LEcHEs
  21  1,3  | LEcHwE
@@ -1835,6 +1858,7 @@
  21  1,2  | LITcHi
  21  1,3  | LIcHEe
  21  1,3  | LIcHEn
+ 21  1,3  | LIcHEs
  21  1,3  | LIcHT
  21  1,3  | LIcHTs
  21  1,3  | LIcHeE
@@ -1867,6 +1891,7 @@
  21  1,3  | LaTHEs
  21  1,3  | LaTHI
  21  1,3  | LaTHIe
+ 21  1,3  | LaTHIs
  21  1,3  | LaTHeE
  21  1,3  | LaTHiE
  21  3,1  | LaThER
@@ -1931,6 +1956,7 @@
  21  3,6  | RETIEs
  21  3,6  | RETIlE
  21  3,6  | RETImE
+ 21  3,6  | RETInE
  21  3,6  | RETIrE
  21  3,6  | RETaIL
  21  3,6  | RETiLE
@@ -1975,6 +2001,7 @@
  21  3,6  | REsEaL
  21  3,6  | REsElL
  21  3,6  | REsILe
+ 21  3,6  | REsITE
  21  3,6  | REtELl
  21  3,6  | REtElL
  21  3,6  | REtILe
@@ -2482,7 +2509,9 @@
  18  1,6  | HELly
  18  1,6  | HELm
  18  1,6  | HELms
+ 18  1,6  | HELo
  18  1,6  | HELoe
+ 18  1,6  | HELos
  18  1,6  | HELot
  18  1,6  | HELp
  18  1,6  | HELps
@@ -2733,6 +2762,7 @@
  18  3,1  | LIppER
  18  3,1  | LIquER
  18  1,3  | LIsH
+ 18  7,6  | LIsTEE
  18  3,1  | LIspER
  18  3,1  | LIstER
  18  1,3  | LItH
@@ -2856,6 +2886,7 @@
  18  3,6  | RELucE
  18  3,6  | RELucT
  18  3,6  | RELumE
+ 18  3,6  | RETEam
  18  3,6  | RETEar
  18  3,6  | RETEll
  18  3,6  | RETEms
@@ -2870,6 +2901,7 @@
  18  3,6  | RETIll
  18  3,6  | RETIme
  18  3,6  | RETIna
+ 18  3,6  | RETIne
  18  3,6  | RETInt
  18  3,6  | RETIre
  18  3,6  | RETaLk
@@ -2958,6 +2990,7 @@
  18  3,6  | REmaIL
  18  3,6  | REmbLE
  18  3,6  | REmeLT
+ 18  3,6  | REnEsT
  18  3,6  | REnTEd
  18  3,6  | REnTEe
  18  3,6  | REnTEr
@@ -2980,10 +3013,12 @@
  18  3,6  | REsEaT
  18  3,6  | REsEcT
  18  3,6  | REsEnT
+ 18  3,6  | REsITe
  18  3,6  | REsIdE
  18  3,6  | REsIfT
  18  3,6  | REsIlE
  18  3,6  | REsIsT
+ 18  3,6  | REsItE
  18  3,6  | REsIzE
  18  3,6  | REsTEd
  18  3,6  | REsTEm
@@ -3007,6 +3042,7 @@
  18  3,6  | REtIEs
  18  3,6  | REtIlE
  18  3,6  | REtImE
+ 18  3,6  | REtInE
  18  3,6  | REtInT
  18  3,6  | REtIrE
  18  3,6  | REtTEd
@@ -3027,6 +3063,7 @@
  18  3,6  | REveIL
  18  3,6  | REviLE
  18  3,6  | REvoLT
+ 18  3,6  | REwETs
  18  3,6  | REwIrE
  18  3,6  | RILlEd
  18  3,6  | RILlEs
@@ -3101,6 +3138,7 @@
  18  3,6  | RooTLE
  18  3,6  | RosTEL
  18  3,6  | RotTLE
+ 18  3,6  | RuLIEr
  18  3,6  | RuTILe
  18  3,6  | RusTLE
  18  3,6  | RutILE
@@ -3134,6 +3172,7 @@
  18  1,5  | THEIsm
  18  1,5  | THEIst
  18  1,5  | THEavE
+ 18  1,5  | THEbE
  18  1,5  | THEcIa
  18  1,5  | THEcaE
  18  1,5  | THEinE
@@ -3644,6 +3683,7 @@
  18  1,5  - spEIL
  18  1,5  - stEEL
  18  1,2  | stITHE
+ 18  3,1  | suITER
  18  1,2  | swITHE
  18  1,2  | tEETH
  18  1,2  | tEETHe
@@ -3791,6 +3831,8 @@
  17  7,5  | ELIdEd
  17  7,2  | ELIdEs
  17  7,5  | ELIdEs
+ 17  7,5  | ELInT
+ 17  7,5  | ELInTs
  17  7,5  | ELIoT
  17  7,2  | ELItE
  17  7,5  | ELItE
@@ -3913,6 +3955,7 @@
  17  7,6  | LEEpIT
  17  7,6  | LEITh
  17  2,7  - LEafIT
+ 17  7,6  | LEcTIn
  17  7,6  | LEcThI
  17  7,6  | LEeTlE
  17  2,7  - LEeTlE
@@ -3964,10 +4007,13 @@
  17  7,6  | LInTiE
  17  7,3  | LIsErE
  17  7,6  | LIsErE
+ 17  7,2  | LIsTEE
  17  7,6  | LIsTEd
+ 17  7,6  | LIsTEe
  17  7,6  | LIsTEl
  17  7,6  | LIsTEn
  17  7,6  | LIsTEr
+ 17  7,6  | LIsTeE
  17  7,6  | LItTEn
  17  7,6  | LItTEr
  17  7,6  | LItTlE
@@ -3990,6 +4036,7 @@
  17  7,6  | LeETlE
  17  7,6  | LevITE
  17  7,6  | LinTIE
+ 17  7,6  | LisTEE
  17  7,6  | LoITEr
  17  7,6  | LooTIE
  17  7,6  | LotTIE
@@ -4003,6 +4050,7 @@
  17  7,6  | LydITE
  17  7,3  | TEEL
  17  2,5  - TEEL
+ 17  7,3  | TEELs
  17  7,2  | TEEdLe
  17  7,5  | TEEdLe
  17  7,3  | TEIL
@@ -4272,6 +4320,7 @@
  17  7,4  | fiLITE
  17  7,1  | gELaTE
  17  7,4  | gELaTE
+ 17  7,4  | gELaTI
  17  7,2  | gEnTLE
  17  7,5  | gEnTLE
  17  7,1  | gIEsEL
@@ -4549,6 +4598,8 @@
  17  7,2  | vItTLE
  17  7,1  | wEEvIL
  17  7,4  | wEEvIL
+ 17  7,1  | wELlIE
+ 17  7,4  | wELlIE
  17  7,2  | wEnTLE
  17  7,5  | wEnTLE
  17  7,4  | wILlET
@@ -4620,6 +4671,7 @@
  16  7,6  | ELiTEs
  16  7,2  | ELidE
  16  7,5  | ELidE
+ 16  7,5  | ELinT
  16  7,5  | ELioT
  16  7,2  | ELitE
  16  7,5  | ELitE
@@ -4833,6 +4885,7 @@
  16  7,3  | LEbEs
  16  7,6  | LEbEs
  16  7,6  | LEcT
+ 16  7,5  | LEcTIn
  16  7,3  | LEdE
  16  7,6  | LEdE
  16  7,3  | LEdEn
@@ -4869,6 +4922,8 @@
  16  7,6  | LEgaTI
  16  7,6  | LEhI
  16  7,6  | LEiTh
+ 16  7,3  | LEkE
+ 16  7,6  | LEkE
  16  7,6  | LElIa
  16  7,3  | LEmE
  16  7,6  | LEmE
@@ -4892,6 +4947,7 @@
  16  7,3  | LEpEr
  16  7,6  | LEpEr
  16  7,6  | LEpId
+ 16  7,6  | LEpT
  16  7,5  | LEpTId
  16  7,6  | LEpTa
  16  7,3  | LErE
@@ -4949,9 +5005,13 @@
  16  7,6  | LEwIs
  16  7,6  | LEwTh
  16  7,6  | LEwTy
+ 16  7,3  | LExEs
+ 16  7,6  | LExEs
  16  7,6  | LExIa
  16  7,6  | LExIc
  16  7,6  | LExIs
+ 16  7,5  | LEzzIE
+ 16  7,6  | LEzzIE
  16  7,2  | LIEdEr
  16  7,6  | LIEdEr
  16  7,2  | LIEfEr
@@ -5107,12 +5167,17 @@
  16  7,3  | LIsE
  16  7,6  | LIsE
  16  7,6  | LIsT
+ 16  7,1  | LIsTEE
+ 16  7,4  | LIsTEE
  16  7,2  | LIsTEd
+ 16  7,2  | LIsTEe
  16  7,2  | LIsTEl
  16  7,2  | LIsTEn
  16  7,2  | LIsTEr
  16  7,6  | LIsTs
  16  7,6  | LIsTy
+ 16  7,2  | LIstEE
+ 16  7,6  | LIstEE
  16  7,3  | LItE
  16  7,6  | LItE
  16  7,3  | LItEr
@@ -5159,6 +5224,9 @@
  16  7,6  | LacET
  16  7,6  | LaeTI
  16  7,6  | LakIE
+ 16  7,3  | LarEE
+ 16  7,6  | LarEE
+ 16  7,6  | LatTE
  16  7,6  | LeET
  16  7,1  | LeETlE
  16  7,4  | LeETlE
@@ -5188,6 +5256,7 @@
  16  7,6  | LinET
  16  7,6  | LinIE
  16  7,6  | LoEIl
+ 16  7,6  | LoTI
  16  7,6  | LoTIc
  16  7,1  | LoTtIE
  16  7,6  | LoTtIE
@@ -5220,6 +5289,7 @@
  16  7,3  | LunET
  16  7,6  | LunET
  16  7,6  | LwEI
+ 16  7,6  | LwEIs
  16  7,6  | LyTIc
  16  7,3  | LycEE
  16  7,6  | LycEE
@@ -5291,6 +5361,7 @@
  16  7,5  | TEazEL
  16  7,3  | TEcLa
  16  7,3  | TEeL
+ 16  7,3  | TEeLs
  16  7,1  | TEhsIL
  16  7,5  | TEhsIL
  16  7,3  | TEiL
@@ -5407,6 +5478,7 @@
  16  7,3  | TalLI
  16  7,3  | TauLI
  16  7,3  | TeEL
+ 16  7,3  | TeELs
  16  7,1  | TeEdLE
  16  7,2  | TeEdLE
  16  7,4  | TeEdLE
@@ -5508,6 +5580,8 @@
  16  7,5  | aLiET
  16  7,2  | aLiTE
  16  7,5  | aLiTE
+ 16  7,2  | aLlEE
+ 16  7,5  | aLlEE
  16  7,2  | aLlIE
  16  7,5  | aLlIE
  16  1,5  - aTEEs
@@ -5737,6 +5811,7 @@
  16  7,5  | eLEvE
  16  7,2  | eLIdE
  16  7,5  | eLIdE
+ 16  7,5  | eLInT
  16  7,5  | eLIoT
  16  7,2  | eLItE
  16  7,5  | eLItE
@@ -5807,6 +5882,7 @@
  16  7,1  | fuTILE
  16  7,2  | fuTILE
  16  7,5  | gELaTE
+ 16  7,5  | gELaTI
  16  7,2  | gEmEL
  16  7,5  | gEmEL
  16  7,1  | gEnTIL
@@ -6375,8 +6451,11 @@
  16  7,2  | wELTEr
  16  7,4  | wELTEr
  16  7,5  | wELTEr
+ 16  7,5  | wELlIE
  16  7,2  | wEdEL
  16  7,5  | wEdEL
+ 16  7,3  | wElLIE
+ 16  7,5  | wElLIE
  16  7,2  | wILTEd
  16  7,4  | wILTEd
  16  7,2  | wILTEr
@@ -6469,6 +6548,10 @@
  15  7,2  | ELIde
  15  7,5  | ELIde
  15  7,5  | ELIhu
+ 15  7,6  | ELInT
+ 15  7,1  | ELInTs
+ 15  7,6  | ELInTs
+ 15  7,5  | ELInt
  15  7,6  | ELIoT
  15  7,5  | ELIot
  15  7,6  | ELItE
@@ -6770,6 +6853,7 @@
  15  1,6  | HETe
  15  1,6  | HETh
  15  1,6  | HEThs
+ 15  1,6  | HETs
  15  1,6  | HETty
  15  1,6  | HEaT
  15  1,6  | HEaTh
@@ -6778,6 +6862,7 @@
  15  1,6  | HEavE
  15  1,6  | HEbE
  15  1,6  | HEbEn
+ 15  1,6  | HEbEs
  15  1,6  | HEcTe
  15  1,6  | HEchT
  15  1,6  | HEctE
@@ -6929,6 +7014,7 @@
  15  1,6  | HeLe
  15  1,6  | HeLl
  15  1,6  | HeLm
+ 15  1,6  | HeLo
  15  1,6  | HeLp
  15  1,6  | HeTE
  15  1,6  | HeaL
@@ -7218,6 +7304,7 @@
  15  7,2  | LEwiE
  15  7,5  | LEwiE
  15  7,6  | LEwiE
+ 15  7,1  | LEzzIE
  15  7,6  | LIE
  15  7,6  | LIEd
  15  7,4  | LIEdEr
@@ -7331,10 +7418,15 @@
  15  7,6  | LIroT
  15  7,1  | LIsErE
  15  7,4  | LIsErE
+ 15  7,1  | LIsTeE
+ 15  7,2  | LIsTeE
+ 15  7,4  | LIsTeE
  15  3,1  | LIsTeR
  15  7,2  | LIslE
  15  7,3  | LIslE
  15  7,6  | LIslE
+ 15  7,1  | LIstEE
+ 15  7,4  | LIstEE
  15  7,6  | LIszT
  15  3,1  | LItTeR
  15  7,1  | LItTlE
@@ -7355,6 +7447,7 @@
  15  7,2  | LaThEE
  15  7,6  | LaThI
  15  7,6  | LaTkE
+ 15  7,6  | LaTtE
  15  7,1  | LabITE
  15  7,3  | LacE
  15  7,6  | LacE
@@ -7407,11 +7500,14 @@
  15  7,3  | LegE
  15  7,6  | LegE
  15  7,6  | LehI
+ 15  7,3  | LekE
+ 15  7,6  | LekE
  15  7,3  | LemE
  15  7,6  | LemE
  15  7,3  | LenE
  15  7,6  | LenE
  15  7,6  | LenT
+ 15  7,6  | LepT
  15  7,3  | LerE
  15  7,6  | LerE
  15  7,3  | LesE
@@ -7457,10 +7553,14 @@
  15  7,1  | LinTIE
  15  7,3  | LirE
  15  7,6  | LirE
+ 15  7,6  | LirI
  15  7,3  | LisE
  15  7,6  | LisE
  15  1,3  | LisH
  15  7,6  | LisT
+ 15  7,1  | LisTEE
+ 15  7,2  | LisTEE
+ 15  7,4  | LisTEE
  15  7,3  | LitE
  15  7,6  | LitE
  15  1,3  | LitH
@@ -7497,6 +7597,7 @@
  15  1,3  | LosH
  15  7,6  | LosT
  15  1,3  | LotH
+ 15  7,6  | LotI
  15  7,1  | LotTIE
  15  7,6  | LouT
  15  7,3  | LovE
@@ -7511,6 +7612,8 @@
  15  7,3  | LucE
  15  7,6  | LucE
  15  7,1  | LucITE
+ 15  7,3  | LudE
+ 15  7,6  | LudE
  15  7,3  | LugE
  15  7,6  | LugE
  15  7,3  | LukE
@@ -7563,6 +7666,7 @@
  15  3,6  | RETiEs
  15  3,6  | RETilE
  15  3,6  | RETimE
+ 15  3,6  | RETinE
  15  3,6  | RETirE
  15  3,6  | RETlEd
  15  3,6  | RETorE
@@ -7599,6 +7703,7 @@
  15  3,6  | REkhTI
  15  3,6  | REknIT
  15  3,6  | RElaTE
+ 15  3,6  | REmaTE
  15  3,6  | REmeET
  15  3,6  | REmoTE
  15  3,6  | REnaTE
@@ -7608,6 +7713,7 @@
  15  3,6  | REpuTE
  15  3,6  | REquIT
  15  3,6  | REraTE
+ 15  3,6  | REsiTE
  15  3,6  | REsuIT
  15  3,6  | REveTE
  15  3,6  | REvoTE
@@ -7638,6 +7744,7 @@
  15  3,6  | ReTIEs
  15  3,6  | ReTIlE
  15  3,6  | ReTImE
+ 15  3,6  | ReTInE
  15  3,6  | ReTIrE
  15  3,6  | ReTaIL
  15  3,6  | ReTiLE
@@ -7647,6 +7754,7 @@
  15  3,6  | RehETE
  15  3,6  | RemEET
  15  3,6  | RenTEE
+ 15  3,6  | ResITE
  15  3,6  | RevETE
  15  3,6  | RiLlET
  15  3,6  | RoTtLE
@@ -7660,6 +7768,9 @@
  15  3,6  | RutTEE
  15  7,4  | TEEL
  15  7,5  | TEEL
+ 15  7,2  | TEELs
+ 15  7,4  | TEELs
+ 15  7,5  | TEELs
  15  7,1  | TEEdLe
  15  7,4  | TEEdLe
  15  3,1  | TEEmeR
@@ -7721,6 +7832,7 @@
  15  7,4  | TELoi
  15  7,5  | TELomE
  15  7,4  | TELos
+ 15  7,4  | TELs
  15  7,4  | TELt
  15  7,4  | TELyn
  15  2,5  - TEaL
@@ -7790,6 +7902,7 @@
  15  3,1  | TEwtER
  15  1,5  | THEah
  15  1,5  | THEat
+ 15  1,5  | THEbe
  15  1,5  | THEca
  15  1,5  | THEek
  15  1,5  | THEer
@@ -7835,6 +7948,7 @@
  15  1,5  | THeEt
  15  1,5  | THeIn
  15  1,5  | THeIr
+ 15  1,5  | THebE
  15  1,5  | THemE
  15  1,5  | THerE
  15  1,5  | THesE
@@ -8157,6 +8271,7 @@
  15  7,4  | agLEE
  15  7,4  | agLET
  15  7,4  | aiLIE
+ 15  7,4  | alLEE
  15  7,4  | alLIE
  15  7,2  | amELET
  15  7,4  | amLET
@@ -8646,6 +8761,7 @@
  15  7,4  | gLEIT
  15  7,5  | gLEIr
  15  7,5  | gLEIt
+ 15  7,5  | gLITz
  15  7,4  | gaLEE
  15  7,4  | gaLEI
  15  7,4  | gaLET
@@ -8758,6 +8874,7 @@
  15  7,4  | kELEk
  15  7,4  | kELEp
  15  7,4  | kELIa
+ 15  7,4  | kELIm
  15  7,4  | kELT
  15  7,5  | kELTiE
  15  7,5  | kELToI
@@ -8777,6 +8894,8 @@
  15  7,1  | kEnTLE
  15  7,5  | kErITE
  15  7,1  | kEtTLE
+ 15  1,5  | kHETh
+ 15  1,5  | kHETs
  15  7,3  | kIEL
  15  7,4  | kILEh
  15  7,4  | kILEy
@@ -8799,6 +8918,7 @@
  15  7,5  | keELIE
  15  1,2  | keITH
  15  7,5  | keLTIE
+ 15  1,2  | khETH
  15  1,3  | kiTHE
  15  7,2  | knEEL
  15  7,3  | knELT
@@ -8856,6 +8976,7 @@
  15  7,2  | lIsLE
  15  7,3  | lIsLE
  15  7,6  | lIsLE
+ 15  7,2  | lIsTEE
  15  7,6  | lIsTEL
  15  3,1  | lIsTER
  15  1,3  | lItHE
@@ -9172,6 +9293,7 @@
  15  7,2  | rETIlL
  15  7,5  | rETIlL
  15  7,1  | rETImE
+ 15  7,1  | rETInE
  15  7,1  | rETIrE
  15  1,2  | rETcH
  15  7,5  | rEbITE
@@ -9190,6 +9312,7 @@
  15  7,1  | rEpILE
  15  7,1  | rEsILE
  15  7,4  | rEsILE
+ 15  7,5  | rEsITE
  15  3,1  | rEsTER
  15  3,1  | rEsTIR
  15  1,3  | rEtHE
@@ -9310,6 +9433,7 @@
  15  1,5  | sHIrT
  15  1,5  | sHIsT
  15  1,5  | sHIvE
+ 15  1,5  | sHTIk
  15  1,5  | sHeET
  15  1,5  | sHoTE
  15  1,5  | sHrEE
@@ -9460,6 +9584,7 @@
  15  7,6  | smILE
  15  7,2  | smILET
  15  1,2  | smITH
+ 15  7,4  | soLEI
  15  7,2  | spEEL
  15  7,2  | spEIL
  15  7,3  | spELT
@@ -9492,6 +9617,7 @@
  15  1,2  | swITH
  15  7,3  | tEEL
  15  2,5  - tEEL
+ 15  7,3  | tEELs
  15  3,1  | tEETeR
  15  1,2  | tEEtH
  15  7,3  | tEIL
@@ -9543,6 +9669,7 @@
  15  1,5  | tHETa
  15  1,5  | tHETe
  15  1,5  | tHEaT
+ 15  1,5  | tHEbE
  15  1,5  | tHEeT
  15  1,5  | tHEfT
  15  1,5  | tHEmE
@@ -9651,6 +9778,8 @@
  15  7,4  | wELTs
  15  7,3  | wETLy
  15  1,3  | wEcHT
+ 15  7,1  | wElLIE
+ 15  7,4  | wElLIE
  15  3,1  | wElTER
  15  7,1  | wEnTLE
  15  3,1  | wEsTER
@@ -9719,6 +9848,7 @@
  15  7,3  | yIELd
  15  7,4  | yILT
  15  1,2  | yIrTH
+ 15  3,1  | zEsTER
  15  3,1  | zItTER
  14  3,5  - EEL
  14  7,5  | EEL
@@ -9777,6 +9907,7 @@
  14  7,6  | ELIas
  14  7,6  | ELIde
  14  7,6  | ELIhu
+ 14  7,6  | ELInt
  14  7,6  | ELIot
  14  7,6  | ELIte
  14  7,6  | ELIx
@@ -9803,6 +9934,7 @@
  14  7,1  | ELiTEs
  14  7,5  | ELia
  14  7,6  | ELidE
+ 14  7,6  | ELinT
  14  7,6  | ELioT
  14  7,6  | ELitE
  14  7,5  | ELix
@@ -10182,8 +10314,12 @@
  14  7,3  | LEis
  14  7,6  | LEis
  14  7,6  | LEk
+ 14  7,5  | LEkE
+ 14  7,3  | LEke
+ 14  7,6  | LEke
  14  7,3  | LEks
  14  7,6  | LEks
+ 14  7,6  | LEku
  14  7,5  | LElIa
  14  7,5  | LEmE
  14  7,2  | LEmEl
@@ -10216,8 +10352,10 @@
  14  7,6  | LEp
  14  7,5  | LEpEr
  14  7,5  | LEpId
+ 14  7,5  | LEpT
  14  7,5  | LEpTa
  14  7,6  | LEpa
+ 14  7,6  | LEpt
  14  7,6  | LEr
  14  7,5  | LErE
  14  7,3  | LEre
@@ -10270,6 +10408,8 @@
  14  7,5  | LEwTy
  14  7,6  | LEwd
  14  7,6  | LEx
+ 14  7,2  | LExEs
+ 14  7,5  | LExEs
  14  7,5  | LExIa
  14  7,5  | LExIc
  14  7,2  | LExIs
@@ -10277,6 +10417,7 @@
  14  7,6  | LEy
  14  7,3  | LEys
  14  7,6  | LEys
+ 14  7,6  | LEz
  14  7,6  | LI
  14  7,4  | LIE
  14  7,4  | LIEd
@@ -10392,8 +10533,11 @@
  14  7,6  | LIra
  14  7,3  | LIre
  14  7,6  | LIre
+ 14  7,6  | LIri
  14  7,6  | LIs
  14  7,4  | LIsTEd
+ 14  7,1  | LIsTEe
+ 14  7,4  | LIsTEe
  14  7,1  | LIsTEl
  14  7,4  | LIsTEl
  14  7,4  | LIsTEn
@@ -10418,7 +10562,6 @@
  14  7,6  | LIts
  14  7,6  | LItu
  14  7,6  | LItz
- 14  7,6  | LIv
  14  7,2  | LIvEs
  14  7,3  | LIve
  14  7,6  | LIve
@@ -10447,7 +10590,10 @@
  14  7,2  | LaTkE
  14  7,3  | LaTs
  14  7,6  | LaTs
+ 14  7,2  | LaTtE
  14  7,2  | LakIE
+ 14  7,2  | LarEE
+ 14  7,2  | LatTE
  14  7,6  | LeE
  14  7,4  | LeET
  14  7,2  | LeETlE
@@ -10524,6 +10670,7 @@
  14  7,6  | LoT
  14  7,6  | LoTa
  14  7,6  | LoTh
+ 14  7,6  | LoTi
  14  7,6  | LoTo
  14  7,3  | LoTs
  14  7,6  | LoTs
@@ -10544,8 +10691,10 @@
  14  7,6  | LuT
  14  7,3  | LuTe
  14  7,6  | LuTe
+ 14  7,6  | LuTz
  14  7,2  | LuiTE
  14  7,4  | LwEI
+ 14  7,4  | LwEIs
  14  7,6  | LwEi
  14  7,6  | LyE
  14  7,3  | LyEs
@@ -10553,6 +10702,7 @@
  14  7,2  | LyThE
  14  7,2  | LycEE
  14  6,5  | TAILzEE
+ 14  6,4  | TEALIkE
  14  7,4  | TEEIng
  14  7,5  | TEEIng
  14  7,1  | TEEnIe
@@ -10601,6 +10751,8 @@
  14  7,5  | TELoi
  14  7,2  | TELos
  14  7,5  | TELos
+ 14  7,3  | TELs
+ 14  7,5  | TELs
  14  7,5  | TELt
  14  7,5  | TELyn
  14  7,3  | TEaEy
@@ -10621,6 +10773,8 @@
  14  7,2  | TEdgE
  14  7,5  | TEdgE
  14  7,5  | TEeL
+ 14  7,2  | TEeLs
+ 14  7,5  | TEeLs
  14  7,1  | TEenIE
  14  7,4  | TEenIE
  14  7,3  | TEhEe
@@ -10787,6 +10941,7 @@
  14  7,3  | TaLlI
  14  7,2  | TabLE
  14  7,4  | TeEL
+ 14  7,4  | TeELs
  14  7,5  | TeEnIE
  14  7,4  | TeL
  14  7,4  | TeLa
@@ -10798,6 +10953,7 @@
  14  7,4  | TeLi
  14  7,4  | TeLl
  14  7,5  | TeLoI
+ 14  7,4  | TeLs
  14  7,4  | TeLt
  14  7,3  | TehEE
  14  7,3  | TelEI
@@ -10917,6 +11073,7 @@
  14  7,5  | aLiI
  14  7,5  | aLiT
  14  7,5  | aLlE
+ 14  7,3  | aLlEE
  14  7,5  | aLmE
  14  7,5  | aLoE
  14  7,4  | aTELo
@@ -10944,6 +11101,9 @@
  14  7,4  | aiLE
  14  7,2  | aiLIE
  14  7,4  | alLE
+ 14  7,2  | alLEE
+ 14  7,3  | alLEE
+ 14  7,5  | alLEE
  14  7,2  | alLIE
  14  7,5  | alLIE
  14  7,3  | amEL
@@ -11121,6 +11281,7 @@
  14  7,2  | cEIlE
  14  7,5  | cEIlE
  14  7,5  | cEInT
+ 14  7,4  | cEL
  14  7,3  | cELE
  14  7,5  | cELE
  14  7,3  | cELEb
@@ -11130,6 +11291,7 @@
  14  7,5  | cELTs
  14  7,4  | cELe
  14  7,4  | cELl
+ 14  7,4  | cELs
  14  7,4  | cELt
  14  7,3  | cEiL
  14  7,1  | cElITE
@@ -11194,6 +11356,7 @@
  14  7,2  | crILE
  14  7,3  | cuLET
  14  7,4  | cuLT
+ 14  2,7  - dEETs
  14  7,5  | dEIL
  14  7,2  | dEILs
  14  7,5  | dEILs
@@ -11244,6 +11407,8 @@
  14  7,5  | dEtTE
  14  7,3  | dEuL
  14  7,3  | dEvEL
+ 14  7,2  | dExIE
+ 14  7,5  | dExIE
  14  7,4  | dIEL
  14  7,4  | dIETEd
  14  7,4  | dIETEr
@@ -11565,6 +11730,7 @@
  14  7,4  | hELe
  14  7,4  | hELl
  14  7,4  | hELm
+ 14  7,4  | hELo
  14  7,4  | hELp
  14  7,3  | hEaL
  14  7,2  | hEcTE
@@ -11683,6 +11849,7 @@
  14  7,3  | kELEp
  14  7,5  | kELEp
  14  7,5  | kELIa
+ 14  7,5  | kELIm
  14  7,5  | kELT
  14  7,2  | kELTs
  14  7,5  | kELTs
@@ -11786,6 +11953,9 @@
  14  7,6  | lIbEL
  14  7,3  | lIlL
  14  7,6  | lIlL
+ 14  7,1  | lIsTEE
+ 14  7,4  | lIsTEE
+ 14  7,6  | lIsTEE
  14  7,5  | lLEr
  14  7,5  | lLEu
  14  7,5  | lLEw
@@ -12114,6 +12284,7 @@
  14  7,2  | rETIlE
  14  7,5  | rETIlE
  14  7,5  | rETImE
+ 14  7,5  | rETInE
  14  7,5  | rETIrE
  14  7,2  | rEThE
  14  7,5  | rEThE
@@ -12144,6 +12315,8 @@
  14  7,3  | rEpL
  14  7,5  | rEsET
  14  7,5  | rEsIT
+ 14  7,1  | rEsITE
+ 14  7,4  | rEsITE
  14  7,2  | rEtIE
  14  7,5  | rEtIE
  14  7,3  | rEuEL
@@ -12230,6 +12403,8 @@
  14  7,1  | sEmITE
  14  7,6  | sEmITE
  14  7,5  | sEnIT
+ 14  7,2  | sEnTE
+ 14  7,5  | sEnTE
  14  7,5  | sEnTI
  14  7,5  | sEpTI
  14  7,5  | sEsTI
@@ -12387,6 +12562,8 @@
  14  7,3  | soIL
  14  7,6  | soIL
  14  7,4  | soLE
+ 14  7,3  | soLEI
+ 14  7,6  | soLEI
  14  7,4  | soLI
  14  7,3  | spEEL
  14  7,4  | spEEL
@@ -12408,8 +12585,12 @@
  14  7,2  | stILE
  14  7,4  | swELT
  14  7,2  | swILE
+ 14  7,4  | syLI
  14  7,4  | tEEL
  14  7,5  | tEEL
+ 14  7,2  | tEELs
+ 14  7,4  | tEELs
+ 14  7,5  | tEELs
  14  2,5  - tEETh
  14  2,7  - tEETh
  14  2,5  - tEETy
@@ -12440,6 +12621,7 @@
  14  7,4  | tELe
  14  7,4  | tELi
  14  7,4  | tELl
+ 14  7,4  | tELs
  14  7,4  | tELt
  14  7,3  | tEaL
  14  7,5  | tEbET
@@ -12521,6 +12703,8 @@
  14  7,4  | vELo
  14  7,3  | vEaL
  14  7,5  | vEdET
+ 14  7,2  | vEgIE
+ 14  7,5  | vEgIE
  14  7,3  | vEiL
  14  7,3  | vElL
  14  7,2  | vElTE
@@ -12577,6 +12761,7 @@
  14  7,4  | wELf
  14  7,4  | wELk
  14  7,4  | wELl
+ 14  7,3  | wELlIE
  14  7,4  | wELs
  14  7,4  | wELt
  14  7,5  | wETLy
@@ -12725,6 +12910,7 @@
  13  7,6  | ETEn
  13  4,2  | ETErNaL
  13  7,6  | ETIam
+ 13  7,6  | ETIc
  13  7,6  | ETapE
  13  7,2  | EThEl
  13  7,3  | ETtlE
@@ -12806,6 +12992,8 @@
  13  7,2  | ElIdE
  13  7,5  | ElIdE
  13  7,6  | ElIdE
+ 13  7,5  | ElInT
+ 13  7,6  | ElInT
  13  7,5  | ElIoT
  13  7,6  | ElIoT
  13  7,2  | ElItE
@@ -13107,7 +13295,9 @@
  13  7,5  | LEif
  13  7,5  | LEis
  13  7,5  | LEk
+ 13  7,5  | LEke
  13  7,5  | LEks
+ 13  7,5  | LEku
  13  7,4  | LElIa
  13  7,5  | LEme
  13  7,5  | LEna
@@ -13123,6 +13313,7 @@
  13  2,7  - LEos
  13  7,5  | LEp
  13  7,5  | LEpa
+ 13  7,5  | LEpt
  13  7,5  | LEr
  13  7,5  | LEre
  13  7,5  | LErp
@@ -13149,6 +13340,7 @@
  13  7,5  | LEx
  13  7,5  | LEy
  13  7,5  | LEys
+ 13  7,5  | LEz
  13  4,4  | LINET
  13  4,4  | LINTEl
  13  4,4  | LINTEls
@@ -13234,6 +13426,7 @@
  13  7,6  | Lev
  13  7,6  | Lex
  13  7,6  | Ley
+ 13  7,6  | Lez
  13  7,6  | Lhb
  13  7,6  | Lhd
  13  7,6  | Li
@@ -13259,7 +13452,6 @@
  13  7,6  | Lir
  13  7,6  | Lis
  13  7,6  | Lit
- 13  7,6  | Liv
  13  7,6  | Liz
  13  7,4  | LlEr
  13  7,4  | LlEu
@@ -13307,7 +13499,9 @@
  13  7,6  | Luo
  13  7,6  | Lur
  13  7,6  | Lut
+ 13  7,6  | Luv
  13  7,6  | Lux
+ 13  7,2  | LwEIs
  13  7,4  | LwEi
  13  7,6  | Lwl
  13  7,6  | Lwm
@@ -13332,6 +13526,10 @@
  13  7,4  | TEEl
  13  2,5  - TEEl
  13  7,5  | TEEl
+ 13  7,2  | TEEls
+ 13  7,3  | TEEls
+ 13  7,4  | TEEls
+ 13  7,5  | TEEls
  13  7,4  | TEEm
  13  2,5  - TEEm
  13  7,5  | TEEm
@@ -13376,6 +13574,7 @@
  13  7,3  | TEasE
  13  7,5  | TEbEt
  13  7,4  | TEeL
+ 13  7,4  | TEeLs
  13  7,2  | TEhEe
  13  7,5  | TEhEe
  13  7,3  | TEheE
@@ -13478,6 +13677,8 @@
  13  7,3  | TchE
  13  2,5  - TeEL
  13  7,5  | TeEL
+ 13  7,2  | TeELs
+ 13  7,5  | TeELs
  13  2,7  - TeEnIE
  13  2,5  - TeIL
  13  7,5  | TeIL
@@ -13495,6 +13696,7 @@
  13  7,5  | TeLIc
  13  7,3  | TeLe
  13  7,3  | TeLl
+ 13  7,3  | TeLs
  13  7,2  | TehEE
  13  7,5  | TehEE
  13  7,3  | TelE
@@ -13510,6 +13712,8 @@
  13  7,4  | ThEIn
  13  7,4  | ThEIr
  13  1,5  - ThEa
+ 13  7,2  | ThEbE
+ 13  7,4  | ThEbE
  13  1,5  - ThEe
  13  7,2  | ThEmE
  13  7,4  | ThEmE
@@ -13655,6 +13859,7 @@
  13  7,5  | aLg
  13  7,5  | aLl
  13  7,3  | aLlE
+ 13  7,4  | aLlEE
  13  7,4  | aLlIE
  13  7,3  | aLmE
  13  7,3  | aLoE
@@ -13789,9 +13994,11 @@
  13  7,4  | brL
  13  7,4  | btL
  13  7,4  | buL
+ 13  7,5  | cEL
  13  7,5  | cELe
  13  7,5  | cELl
  13  7,3  | cELlI
+ 13  7,5  | cELs
  13  7,5  | cELt
  13  7,3  | cETE
  13  7,5  | cETE
@@ -13831,6 +14038,7 @@
  13  7,4  | cTEnE
  13  7,2  | caITE
  13  7,4  | caL
+ 13  7,4  | ceL
  13  7,3  | ceLE
  13  1,5  - chEE
  13  7,3  | chEET
@@ -13849,6 +14057,13 @@
  13  7,4  | cuL
  13  7,2  | cuTIE
  13  7,4  | cyL
+ 13  7,4  | dEET
+ 13  2,5  - dEET
+ 13  7,5  | dEET
+ 13  2,7  - dEET
+ 13  7,2  | dEETs
+ 13  7,4  | dEETs
+ 13  7,5  | dEETs
  13  7,5  | dEITy
  13  7,5  | dEL
  13  7,5  | dELe
@@ -13908,6 +14123,7 @@
  13  7,6  | eLEuT
  13  7,6  | eLEvE
  13  7,6  | eLIdE
+ 13  7,6  | eLInT
  13  7,6  | eLIoT
  13  7,6  | eLItE
  13  4,5  - eLTImE
@@ -14083,6 +14299,7 @@
  13  7,5  | hELl
  13  7,5  | hELm
  13  3,5  - hELmET
+ 13  7,5  | hELo
  13  7,5  | hELp
  13  7,3  | hETE
  13  7,5  | hETE
@@ -14305,7 +14522,10 @@
  13  7,5  | nElL
  13  7,4  | nIEcE
  13  7,4  | nIEvE
+ 13  7,3  | nITE
  13  7,3  | nITEr
+ 13  7,2  | nITEs
+ 13  7,3  | nITEs
  13  7,3  | naLE
  13  7,4  | niL
  13  7,3  | niLE
@@ -14473,6 +14693,7 @@
  13  7,4  | sElLE
  13  7,4  | sElLI
  13  7,6  | sEnIT
+ 13  7,6  | sEnTE
  13  7,6  | sEnTI
  13  7,6  | sEpTI
  13  7,6  | sEsTI
@@ -14642,6 +14863,7 @@
  13  7,4  | swEET
  13  7,6  | swEET
  13  7,4  | syL
+ 13  7,6  | syLI
  13  7,4  | tEET
  13  2,5  - tEET
  13  7,5  | tEET
@@ -14658,6 +14880,7 @@
  13  7,5  | tELi
  13  7,5  | tELl
  13  7,3  | tELlT
+ 13  7,5  | tELs
  13  7,5  | tELt
  13  7,3  | tETE
  13  7,5  | tETE
@@ -14970,6 +15193,7 @@
  12  4,3  | EThNoL
  12  7,3  | EThs
  12  7,6  | EThs
+ 12  7,6  | ETic
  12  7,6  | ETna
  12  2,1  | EToILE
  12  2,6  | EToILE
@@ -15131,6 +15355,7 @@
  12  1,3  | EstH
  12  7,4  | EtEn
  12  7,6  | EtEn
+ 12  7,6  | EtIc
  12  7,6  | EtTa
  12  1,3  | EtcH
  12  2,2  | EusTELE
@@ -15220,6 +15445,7 @@
  12  1,6  | HEer
  12  1,6  | HEft
  12  1,6  | HEhe
+ 12  1,6  | HEhs
  12  1,6  | HEii
  12  1,6  | HEil
  12  1,6  | HEin
@@ -15228,6 +15454,7 @@
  12  1,6  | HEle
  12  1,6  | HEll
  12  1,6  | HElm
+ 12  1,6  | HElo
  12  1,6  | HElp
  12  1,6  | HEme
  12  1,6  | HEml
@@ -15254,6 +15481,7 @@
  12  1,6  | HEst
  12  1,6  | HEte
  12  1,6  | HEth
+ 12  1,6  | HEts
  12  1,6  | HEuk
  12  1,6  | HEwe
  12  1,6  | HEwn
@@ -15341,6 +15569,7 @@
  12  1,6  | HeIr
  12  1,6  | HeTe
  12  1,6  | HeTh
+ 12  1,6  | HeTs
  12  1,6  | HeaT
  12  1,6  | HebE
  12  1,6  | HefT
@@ -15697,6 +15926,10 @@
  12  6,2  | LIneATE
  12  6,2  | LIquATE
  12  7,4  | LIs
+ 12  2,1  | LIsTEE
+ 12  2,2  | LIsTEE
+ 12  2,1  | LIsTEEs
+ 12  2,2  | LIsTEEs
  12  7,4  | LIsa
  12  7,4  | LIse
  12  7,4  | LIsh
@@ -15745,10 +15978,12 @@
  12  7,5  | LefT
  12  7,5  | LegE
  12  7,5  | LehI
+ 12  7,5  | LekE
  12  7,5  | LemE
  12  7,5  | LenE
  12  6,2  | LenIATE
  12  7,5  | LenT
+ 12  7,5  | LepT
  12  7,5  | LerE
  12  7,4  | LesE
  12  7,5  | LesE
@@ -15845,6 +16080,8 @@
  12  7,5  | TE
  12  6,4  | TEALEry
  12  6,4  | TEALEss
+ 12  6,4  | TEALIke
+ 12  6,4  | TEALikE
  12  6,4  | TEArILy
  12  6,4  | TEArLEt
  12  6,4  | TEAsELs
@@ -15889,6 +16126,7 @@
  12  4,4  | TENLInE
  12  4,4  | TENsILE
  12  7,5  | TEa
+ 12  2,5  | TEaLIkE
  12  4,3  | TEaNaL
  12  7,5  | TEad
  12  7,5  | TEak
@@ -15960,6 +16198,8 @@
  12  7,3  | TEll
  12  7,5  | TEll
  12  7,4  | TEloI
+ 12  7,3  | TEls
+ 12  7,5  | TEls
  12  7,5  | TElt
  12  7,5  | TEm
  12  7,5  | TEma
@@ -15989,9 +16229,12 @@
  12  7,5  | TEss
  12  7,5  | TEst
  12  7,4  | TEstE
+ 12  7,5  | TEt
  12  7,3  | TEte
  12  7,5  | TEte
  12  7,5  | TEth
+ 12  7,3  | TEts
+ 12  7,5  | TEts
  12  7,5  | TEuk
  12  7,5  | TEw
  12  7,5  | TEwa
@@ -16063,6 +16306,7 @@
  12  1,3  | TanH
  12  1,3  | TasH
  12  1,3  | TatH
+ 12  6,4  | TeALIkE
  12  7,4  | TeE
  12  7,4  | TeEd
  12  7,3  | TeEl
@@ -16079,6 +16323,7 @@
  12  7,5  | TeLe
  12  7,5  | TeLi
  12  7,5  | TeLl
+ 12  7,5  | TeLs
  12  7,5  | TeLt
  12  7,5  | TeaL
  12  1,3  | TecH
@@ -16166,6 +16411,7 @@
  12  7,2  | TyEEs
  12  7,3  | TyEe
  12  7,4  | TyEe
+ 12  7,4  | TyEr
  12  7,3  | TyEs
  12  7,4  | TyEs
  12  7,5  | aET
@@ -16424,6 +16670,7 @@
  12  7,3  | cELe
  12  7,3  | cELl
  12  2,5  | cELlITE
+ 12  7,3  | cELs
  12  7,5  | cETe
  12  7,5  | cETi
  12  7,3  | cEdE
@@ -16510,6 +16757,8 @@
  12  2,5  | dEErLET
  12  7,4  | dEEs
  12  7,5  | dEEs
+ 12  7,4  | dEEt
+ 12  7,5  | dEEt
  12  7,5  | dEI
  12  7,5  | dEIa
  12  7,5  | dEIl
@@ -16538,6 +16787,7 @@
  12  7,5  | dEbE
  12  7,5  | dEbI
  12  7,5  | dEbT
+ 12  7,5  | dEeT
  12  7,5  | dEfI
  12  6,2  | dEfLATE
  12  7,5  | dEfT
@@ -16596,6 +16846,7 @@
  12  7,3  | dItE
  12  7,3  | dIvE
  12  7,3  | daTE
+ 12  7,4  | deET
  12  7,5  | deIL
  12  7,5  | deLE
  12  7,5  | deLI
@@ -16895,6 +17146,7 @@
  12  7,5  | hET
  12  7,5  | hETe
  12  7,5  | hETh
+ 12  7,5  | hETs
  12  7,5  | hEaT
  12  7,3  | hEbE
  12  7,5  | hEbE
@@ -16985,6 +17237,7 @@
  12  7,5  | jEEz
  12  7,3  | jELl
  12  7,5  | jET
+ 12  2,5  | jETLIkE
  12  7,5  | jETe
  12  7,5  | jETs
  12  7,4  | jEeL
@@ -17127,6 +17380,9 @@
  12  7,6  | lEgE
  12  7,5  | lEhI
  12  7,6  | lEhI
+ 12  7,3  | lEkE
+ 12  7,5  | lEkE
+ 12  7,6  | lEkE
  12  7,3  | lEmE
  12  7,5  | lEmE
  12  7,6  | lEmE
@@ -17136,6 +17392,8 @@
  12  7,5  | lEnT
  12  7,6  | lEnT
  12  2,5  | lEnTILE
+ 12  7,5  | lEpT
+ 12  7,6  | lEpT
  12  7,3  | lErE
  12  7,5  | lErE
  12  7,6  | lErE
@@ -17229,6 +17487,7 @@
  12  1,3  | liTH
  12  7,6  | liTI
  12  1,3  | loTH
+ 12  7,6  | loTI
  12  7,3  | luTE
  12  7,6  | luTE
  12  7,4  | lwEI
@@ -17265,6 +17524,7 @@
  12  2,5  | mELlITE
  12  7,3  | mELs
  12  7,5  | mET
+ 12  6,1  | mETIcAL
  12  7,5  | mETa
  12  7,5  | mETe
  12  7,5  | mETh
@@ -17291,6 +17551,8 @@
  12  7,3  | mEtE
  12  7,5  | mEtE
  12  1,3  | mEtH
+ 12  7,3  | mEzE
+ 12  7,5  | mEzE
  12  7,4  | mIEk
  12  7,4  | mIEn
  12  6,2  | mILEAgE
@@ -17390,6 +17652,7 @@
  12  7,3  | nIlE
  12  7,4  | nIlL
  12  7,3  | nInE
+ 12  7,3  | nItE
  12  7,3  | nIuE
  12  7,3  | nIxE
  12  7,3  | naTE
@@ -17397,6 +17660,7 @@
  12  7,5  | neIL
  12  7,3  | neTE
  12  1,3  | neTH
+ 12  7,3  | niTE
  12  7,3  | noTE
  12  7,4  | nyET
  12  6,5  | oATLIkE
@@ -17479,6 +17743,7 @@
  12  7,5  | pETe
  12  7,5  | pETo
  12  7,5  | pETr
+ 12  6,2  | pETrALE
  12  7,5  | pETs
  12  7,5  | pEaI
  12  7,5  | pEaT
@@ -17608,6 +17873,7 @@
  12  2,5  | rEEsTLE
  12  7,4  | rEEt
  12  7,5  | rEEt
+ 12  7,5  | rEI
  12  7,5  | rEId
  12  7,5  | rEIf
  12  7,5  | rEIm
@@ -17624,6 +17890,8 @@
  12  2,5  | rETILE
  12  2,1  | rETILEd
  12  2,5  | rETILEd
+ 12  2,1  | rETILEs
+ 12  2,5  | rETILEs
  12  2,5  | rETIcLE
  12  6,1  | rETInAL
  12  6,1  | rETIrAL
@@ -17799,6 +18067,9 @@
  12  7,5  | sEmI
  12  7,6  | sEmI
  12  6,1  | sEmITAL
+ 12  7,3  | sEnE
+ 12  7,5  | sEnE
+ 12  7,6  | sEnE
  12  7,5  | sEnT
  12  7,6  | sEnT
  12  7,5  | sEpT
@@ -17993,6 +18264,7 @@
  12  6,5  | tAILzEE
  12  6,5  | tALITE
  12  6,5  | tAcTILE
+ 12  6,4  | tEALIkE
  12  6,4  | tEArLET
  12  7,4  | tEE
  12  7,5  | tEE
@@ -18016,8 +18288,11 @@
  12  2,5  | tELETEx
  12  7,3  | tELe
  12  7,3  | tELl
+ 12  7,3  | tELs
+ 12  7,5  | tET
  12  7,5  | tETe
  12  7,5  | tETh
+ 12  7,5  | tETs
  12  7,5  | tEaT
  12  1,3  | tEcH
  12  7,4  | tEeL
@@ -18331,6 +18606,8 @@
  11  7,4  | EIla
  11  3,5  - EIla
  11  4,3  | ELENchI
+ 11  4,3  | ELINT
+ 11  4,3  | ELINTs
  11  4,5  - ELaIc
  11  4,5  - ELaIn
  11  4,5  - ELaTe
@@ -18654,6 +18931,7 @@
  11  7,5  | Lev
  11  7,5  | Lex
  11  7,5  | Ley
+ 11  7,5  | Lez
  11  4,4  | LiNEaTE
  11  4,4  | LiNElET
  11  4,4  | LiNeT
@@ -18734,6 +19012,7 @@
  11  7,4  | TEle
  11  7,4  | TEli
  11  7,4  | TEll
+ 11  7,4  | TEls
  11  7,4  | TElt
  11  5,7  - TEmpLE
  11  4,1  | TEnLINe
@@ -18950,6 +19229,7 @@
  11  7,3  | cEIl
  11  7,3  | cETe
  11  7,5  | cEe
+ 11  7,5  | cEl
  11  7,4  | cElE
  11  7,4  | cElT
  11  7,5  | cEp
@@ -18960,6 +19240,7 @@
  11  1,5  - cTE
  11  4,1  | caTLINE
  11  7,4  | ceE
+ 11  7,5  | ceL
  11  7,5  | ceTE
  11  7,5  | ceTI
  11  7,4  | chE
@@ -18982,6 +19263,8 @@
  11  7,3  | dEEs
  11  2,5  - dEEs
  11  2,7  - dEEs
+ 11  2,5  - dEEt
+ 11  2,7  - dEEt
  11  2,5  - dEIa
  11  7,3  | dEIl
  11  2,5  - dEIl
@@ -18992,6 +19275,9 @@
  11  7,5  | dEb
  11  4,1  | dEcLINE
  11  7,5  | dEe
+ 11  7,4  | dEeT
+ 11  2,5  - dEeT
+ 11  2,7  - dEeT
  11  7,5  | dEf
  11  7,5  | dEi
  11  7,5  | dEl
@@ -19014,6 +19300,7 @@
  11  7,4  | dIeT
  11  7,4  | dIsT
  11  7,4  | deE
+ 11  7,5  | deET
  11  2,5  - deIL
  11  7,5  | deL
  11  7,5  | deTI
@@ -19042,6 +19329,7 @@
  11  7,6  | eLt
  11  4,5  | eNaLITE
  11  7,6  | eTEn
+ 11  7,6  | eTIc
  11  7,5  | eeL
  11  7,6  | eeL
  11  7,4  | ekE
@@ -19144,6 +19432,7 @@
  11  7,5  | gEz
  11  7,3  | gIEs
  11  7,3  | gITe
+ 11  7,3  | gITs
  11  7,4  | gIlE
  11  7,4  | gIlT
  11  7,4  | gIsE
@@ -19173,6 +19462,7 @@
  11  3,5  - hELm
  11  3,5  - hELp
  11  7,3  | hETe
+ 11  7,3  | hETs
  11  3,5  - hETtIE
  11  3,5  - hEaL
  11  2,5  - hEaT
@@ -19247,6 +19537,7 @@
  11  7,4  | jEsT
  11  7,5  | jEt
  11  7,5  | jEu
+ 11  7,5  | jEw
  11  4,4  | jINgLET
  11  7,4  | jIlT
  11  2,5  - jaIL
@@ -19324,6 +19615,7 @@
  11  7,5  | lEv
  11  7,5  | lEx
  11  7,5  | lEy
+ 11  7,5  | lEz
  11  7,6  | lIE
  11  7,6  | lIEd
  11  7,6  | lIEf
@@ -19434,6 +19726,7 @@
  11  7,5  | nEw
  11  4,1  | nEwLINE
  11  7,3  | nIEs
+ 11  7,3  | nITe
  11  7,3  | nITs
  11  7,4  | nIlE
  11  7,4  | nIsT
@@ -19480,6 +19773,7 @@
  11  7,3  | pETs
  11  7,5  | pEa
  11  2,5  - pEaT
+ 11  7,5  | pEc
  11  7,5  | pEd
  11  7,5  | pEe
  11  7,5  | pEg
@@ -19561,6 +19855,7 @@
  11  7,5  | rEf
  11  7,5  | rEg
  11  7,5  | rEh
+ 11  7,5  | rEi
  11  2,5  - rEiT
  11  7,5  | rEl
  11  7,5  | rEm
@@ -19731,6 +20026,7 @@
  11  4,4  | tENTLEt
  11  4,4  | tENtLET
  11  7,3  | tETe
+ 11  7,3  | tETs
  11  7,5  | tEa
  11  2,5  - tEaT
  11  2,7  - tEaT
@@ -19751,6 +20047,7 @@
  11  4,1  | tEnLINE
  11  4,3  | tErNLET
  11  7,4  | tEsT
+ 11  7,5  | tEt
  11  7,5  | tEw
  11  7,5  | tEx
  11  7,5  | tEz
@@ -19976,6 +20273,7 @@
  10  6,6  | ALItEr
  10  6,6  | ALIvE
  10  6,6  | ALIvEs
+ 10  6,6  | ALIyoT
  10  6,6  | ALTEr
  10  6,6  | ALTErn
  10  6,6  | ALTErs
@@ -19992,6 +20290,7 @@
  10  6,6  | ALaItE
  10  6,6  | ALaTE
  10  6,6  | ALaTEd
+ 10  6,6  | ALaTEs
  10  6,6  | ALahEE
  10  6,6  | ALaiTE
  10  6,6  | ALbEE
@@ -20024,6 +20323,8 @@
  10  6,6  | ALkIEs
  10  6,6  | ALkIdE
  10  6,6  | ALkInE
+ 10  6,6  | ALlEE
+ 10  6,6  | ALlEEs
  10  6,6  | ALlEcT
  10  6,6  | ALlEgE
  10  6,6  | ALlElE
@@ -20111,6 +20412,8 @@
  10  6,6  | AigLET
  10  6,6  | AkELEy
  10  6,6  | AlIbLE
+ 10  6,6  | AlLEE
+ 10  6,6  | AlLEEs
  10  6,6  | AlLEcT
  10  6,6  | AlLEgE
  10  6,6  | AlLElE
@@ -20259,6 +20562,8 @@
  10  2,2  | ELEvEn
  10  2,6  | ELEvEn
  10  4,3  | ELINor
+ 10  4,3  | ELINt
+ 10  4,3  | ELINts
  10  2,6  | ELITe
  10  2,6  | ELITes
  10  2,6  | ELIciT
@@ -20269,6 +20574,8 @@
  10  2,2  | ELIdEs
  10  2,6  | ELIdEs
  10  6,2  | ELIjAh
+ 10  2,6  | ELInT
+ 10  2,6  | ELInTs
  10  2,6  | ELIoT
  10  6,1  | ELIshA
  10  6,1  | ELIssA
@@ -20310,6 +20617,8 @@
  10  2,6  | ELegIT
  10  4,5  - ELf
  10  4,5  - ELhi
+ 10  4,3  | ELiNT
+ 10  4,3  | ELiNTs
  10  2,2  | ELiTE
  10  2,6  | ELiTE
  10  2,2  | ELiTEs
@@ -20369,6 +20678,7 @@
  10  4,7  - ETEn
  10  6,1  | ETEsIAn
  10  4,7  - ETIam
+ 10  4,7  - ETIc
  10  4,1  | ETaLoN
  10  2,6  | EThEL
  10  4,5  - EThaL
@@ -20429,6 +20739,8 @@
  10  6,2  | EjIdAL
  10  2,4  | EkErITE
  10  7,4  | Eke
+ 10  2,1  | EkuELE
+ 10  2,6  | EkuELE
  10  7,5  | El
  10  6,4  | ElATInE
  10  6,4  | ElATIvE
@@ -20700,14 +21012,17 @@
  10  6,5  | LAThEr
  10  6,5  | LAThEs
  10  6,5  | LAThIe
+ 10  6,5  | LAThIs
  10  6,5  | LATheE
  10  6,5  | LAThiE
  10  6,5  | LATitE
  10  6,5  | LATivE
+ 10  6,5  | LATkEs
  10  6,5  | LATrIa
  10  6,5  | LATrIs
  10  6,5  | LATtEn
  10  6,5  | LATtEr
+ 10  6,5  | LATtEs
  10  6,5  | LATtIn
  10  6,5  | LATvIa
  10  6,5  | LAbITe
@@ -20745,6 +21060,7 @@
  10  6,5  | LApITh
  10  6,5  | LAppET
  10  6,5  | LAquEI
+ 10  6,5  | LArEEs
  10  6,5  | LArIaT
  10  6,5  | LArInE
  10  6,5  | LArgET
@@ -20764,6 +21080,7 @@
  10  6,5  | LAtIvE
  10  6,5  | LAtTEn
  10  6,5  | LAtTEr
+ 10  6,5  | LAtTEs
  10  6,5  | LAtTIn
  10  6,5  | LAthEE
  10  6,5  | LAthIE
@@ -20834,6 +21151,7 @@
  10  2,5  | LETtEr
  10  2,5  | LETtIc
  10  2,5  | LEafIT
+ 10  2,5  | LEcTIn
  10  2,5  | LEcThI
  10  6,1  | LEchEA
  10  2,2  | LEdgET
@@ -20908,6 +21226,8 @@
  10  2,5  | LExEmE
  10  6,2  | LExIA
  10  6,1  | LExIcA
+ 10  2,1  | LEzzIE
+ 10  2,5  | LEzzIE
  10  2,2  | LIEdEr
  10  2,2  | LIEfEr
  10  2,2  | LIEgE
@@ -20971,6 +21291,7 @@
  10  2,2  | LIbbET
  10  2,2  | LIbgET
  10  6,2  | LIbrAE
+ 10  4,2  | LIcENTE
  10  2,1  | LIchEE
  10  2,2  | LIchEE
  10  4,3  | LIeNeE
@@ -21003,11 +21324,18 @@
  10  2,2  | LIplET
  10  2,2  | LIquET
  10  2,1  | LIraTE
+ 10  4,2  | LIsENTE
  10  2,1  | LIsErE
+ 10  6,5  - LIsTEE
+ 10  6,7  - LIsTEE
  10  2,2  | LIsTEd
+ 10  2,2  | LIsTEe
  10  2,2  | LIsTEl
  10  2,2  | LIsTEn
  10  2,2  | LIsTEr
+ 10  2,1  | LIsTeE
+ 10  2,1  | LIstEE
+ 10  2,2  | LIstEE
  10  2,2  | LItTEn
  10  2,2  | LItTEr
  10  2,1  | LItTlE
@@ -21055,6 +21383,8 @@
  10  6,1  | LiThIA
  10  6,1  | LiTsEA
  10  2,1  | LinTIE
+ 10  2,1  | LisTEE
+ 10  2,2  | LisTEE
  10  2,2  | LoITEr
  10  2,1  | LoTtIE
  10  6,1  | LogEIA
@@ -21120,6 +21450,7 @@
  10  6,5  | TAbLEs
  10  6,5  | TAbLEt
  10  6,5  | TAbuLE
+ 10  6,5  | TAbuLI
  10  6,5  | TAckLE
  10  6,5  | TAffLE
  10  6,5  | TAgLEt
@@ -21163,6 +21494,7 @@
  10  6,5  | TAvELl
  10  6,5  | TAvElL
  10  6,5  | TAwnLE
+ 10  6,4  | TEAlIkE
  10  6,4  | TEArIEr
  10  6,4  | TEAtImE
  10  2,5  | TEEdLe
@@ -21215,6 +21547,7 @@
  10  4,2  | TELyN
  10  4,4  | TENIbLE
  10  4,4  | TENlInE
+ 10  4,4  | TENnIEs
  10  4,4  | TENsIlE
  10  4,4  | TENsIvE
  10  4,4  | TENtIE
@@ -21270,6 +21603,7 @@
  10  2,5  | TEmpLE
  10  6,2  | TEnIAE
  10  6,2  | TEnLA
+ 10  4,3  | TEnNIEs
  10  2,5  | TEnaIL
  10  5,7  - TEnaIL
  10  5,7  - TEpaL
@@ -21426,6 +21760,7 @@
  10  4,1  | TelLIN
  10  7,5  | Tem
  10  7,5  | Ten
+ 10  7,5  | Tet
  10  7,5  | Tew
  10  7,5  | Tex
  10  7,5  | Tez
@@ -21568,6 +21903,7 @@
  10  6,1  | aLdEIA
  10  4,5  - aLfET
  10  4,5  - aLhET
+ 10  4,5  - aLlEE
  10  4,5  - aLlIE
  10  2,1  | aLvITE
  10  5,5  - aLvITE
@@ -21612,6 +21948,7 @@
  10  4,5  - agLET
  10  4,2  | agLINT
  10  7,5  | alE
+ 10  4,5  - alLEE
  10  4,2  | alLENE
  10  4,5  - alLIE
  10  7,5  | alT
@@ -21838,6 +22175,7 @@
  10  2,1  | cEcILE
  10  2,5  | cEcILE
  10  7,4  | cEe
+ 10  7,4  | cEl
  10  6,2  | cElLAE
  10  6,2  | cEnTAL
  10  6,2  | cErEAL
@@ -21986,6 +22324,8 @@
  10  7,6  | eEr
  10  2,2  | eILEEn
  10  7,6  | eIr
+ 10  4,3  | eLINT
+ 10  4,3  | eLINTs
  10  2,2  | eLITE
  10  2,2  | eLITEs
  10  4,5  - eLT
@@ -22128,6 +22468,7 @@
  10  4,2  | gELaNT
  10  2,1  | gELaTE
  10  2,5  | gELaTE
+ 10  2,5  | gELaTI
  10  4,4  | gENTILE
  10  4,4  | gENTLe
  10  4,4  | gENTLy
@@ -22381,6 +22722,7 @@
  10  4,3  | lEwNITE
  10  7,6  | lEx
  10  7,6  | lEy
+ 10  7,6  | lEz
  10  7,6  | lI
  10  6,2  | lIEnAL
  10  2,2  | lILTEd
@@ -22405,7 +22747,6 @@
  10  2,2  | lIsTEL
  10  7,6  | lIt
  10  2,1  | lItTLE
- 10  7,6  | lIv
  10  7,6  | lIz
  10  7,6  | lTr
  10  6,1  | laELIA
@@ -22447,6 +22788,7 @@
  10  6,5  | mALlEE
  10  6,5  | mALlEI
  10  6,5  | mALlET
+ 10  6,5  | mALoTI
  10  6,5  | mATELy
  10  6,5  | mATInEE
  10  6,5  | mAiLIE
@@ -22612,6 +22954,7 @@
  10  2,1  | ouTLIE
  10  3,3  | ovERLET
  10  3,3  | ovERLIE
+ 10  3,3  | ovERLIT
  10  2,2  | oyELET
  10  4,5  - oyLET
  10  6,5  | pAEgEL
@@ -22772,6 +23115,7 @@
  10  2,5  | rEEsLE
  10  2,1  | rEEtLE
  10  2,5  | rEEtLE
+ 10  2,5  - rEI
  10  4,3  | rEINTEr
  10  6,2  | rELEAd
  10  6,2  | rELEAp
@@ -22884,6 +23228,7 @@
  10  4,1  | raTLIN
  10  7,5  | reE
  10  2,1  | reETLE
+ 10  7,5  | reI
  10  4,2  | reLENT
  10  4,2  | reLINE
  10  7,5  | reT
@@ -23080,6 +23425,7 @@
  10  5,7  - sTIfLE
  10  2,2  | sTIpEL
  10  3,4  | sTREEL
+ 10  3,4  | sTREELs
  10  7,6  | sTa
  10  4,1  | sTaLIN
  10  7,6  | sTd
@@ -23250,6 +23596,7 @@
  10  4,4  | taNTLE
  10  7,5  | teE
  10  6,1  | teLEIA
+ 10  7,5  | teT
  10  2,2  | toILET
  10  2,1  | toLITE
  10  7,5  | tsT
@@ -23371,10 +23718,14 @@
  10  2,2  | wELTEr
  10  2,5  | wELTEr
  10  6,2  | wELlAT
+ 10  2,1  | wELlIE
+ 10  2,5  | wELlIE
  10  4,4  | wENTLe
  10  4,4  | wENtLE
  10  7,4  | wEe
  10  6,2  | wElLAT
+ 10  2,1  | wElLIE
+ 10  2,5  | wElLIE
  10  2,1  | wEnTLE
  10  2,5  | wEnTLE
  10  2,2  | wILTEd
@@ -23438,6 +23789,7 @@
   9  4,1  | ELaTINe
   9  4,1  | ELaTINg
   9  4,1  | ELaTiNE
+  9  4,3  | ELiNt
   9  4,2  | ELlINgE
   9  4,3  | ELoN
   9  4,3  | ELoNg
@@ -23620,6 +23972,10 @@
   9  4,4  | LENto
   9  4,3  | LEaNEsT
   9  3,3  | LEaRIEr
+  9  4,1  | LEcTIN
+  9  4,1  | LEcTINs
+  9  6,5  - LEcTIn
+  9  6,7  - LEcTIn
   9  6,5  - LEcThI
   9  6,7  - LEcThI
   9  3,3  | LEeRIEr
@@ -23746,8 +24102,10 @@
   9  3,3  | LIbRaTE
   9  4,2  | LIcENcE
   9  4,2  | LIcENsE
+  9  4,2  | LIcENtE
   9  6,5  - LIcET
   9  6,7  - LIcET
+  9  4,2  | LIceNTE
   9  6,5  - LIfTEd
   9  6,7  - LIfTEd
   9  6,5  - LIfTEr
@@ -23771,6 +24129,7 @@
   9  6,7  - LInTEr
   9  6,5  - LInTiE
   9  6,7  - LInTiE
+  9  4,2  | LIsENtE
   9  3,2  | LIsERE
   9  6,5  - LIsErE
   9  6,7  - LIsErE
@@ -23779,6 +24138,8 @@
   9  4,1  | LIsTENs
   9  6,5  - LIsTEd
   9  6,7  - LIsTEd
+  9  6,5  - LIsTEe
+  9  6,7  - LIsTEe
   9  6,5  - LIsTEl
   9  6,7  - LIsTEl
   9  6,5  - LIsTEn
@@ -23786,6 +24147,9 @@
   9  6,5  - LIsTEr
   9  6,7  - LIsTEr
   9  3,2  | LIsTREd
+  9  6,5  - LIsTeE
+  9  6,7  - LIsTeE
+  9  4,2  | LIseNTE
   9  4,1  | LItTEN
   9  6,5  - LItTEn
   9  6,7  - LItTEn
@@ -23829,6 +24193,7 @@
   9  5,5  - LaThE
   9  5,5  - LaThI
   9  5,5  - LaTkE
+  9  5,5  - LaTtE
   9  6,5  - LabITE
   9  6,7  - LabITE
   9  5,5  - LacET
@@ -23838,8 +24203,10 @@
   9  5,5  - LakIE
   9  6,5  - LanETE
   9  6,7  - LanETE
+  9  5,5  - LarEE
   9  6,5  - LatITE
   9  6,7  - LatITE
+  9  5,5  - LatTE
   9  3,3  | LeEREd
   9  6,5  - LeETlE
   9  6,7  - LeETlE
@@ -23871,10 +24238,14 @@
   9  4,4  | LiNTy
   9  3,3  | LiTRE
   9  3,3  | LiTREs
+  9  4,2  | LicENTE
   9  4,3  | LigNITE
   9  4,3  | LimNITE
   9  6,5  - LinTIE
   9  6,7  - LinTIE
+  9  4,2  | LisENTE
+  9  6,5  - LisTEE
+  9  6,7  - LisTEE
   9  6,5  - LoITEr
   9  6,7  - LoITEr
   9  4,4  | LoNE
@@ -23924,6 +24295,9 @@
   9  6,5  - TEEL
   9  5,7  - TEEL
   9  6,7  - TEEL
+  9  6,5  - TEELs
+  9  5,7  - TEELs
+  9  6,7  - TEELs
   9  4,3  | TEENfuL
   9  5,7  - TEEnIe
   9  6,5  - TEIL
@@ -24267,6 +24641,7 @@
   9  4,3  | aLiNE
   9  5,5  - aLiTE
   9  4,5  - aLlE
+  9  5,5  - aLlEE
   9  5,5  - aLlIE
   9  4,5  - aLmE
   9  4,3  | aLoNE
@@ -24441,17 +24816,22 @@
   9  5,7  - dILaTE
   9  5,7  - dILuTE
   9  5,7  - dITaL
+  9  4,3  | dIpNET
   9  5,7  - dIvEL
   9  4,3  | dTENtE
   9  4,4  | daNIELE
   9  7,5  | de
+  9  2,5  - deET
+  9  2,7  - deET
   9  4,4  | deNTILE
   9  2,5  - doIT
   9  4,4  | dyNEL
   9  4,1  | eILEEN
+  9  4,3  | eLINt
   9  4,1  | eLaTINE
   9  3,2  | eLbERT
   9  4,5  - eLhI
+  9  4,3  | eLiNT
   9  4,5  - eLlE
   9  4,5  - eLnE
   9  4,5  | eNTItLE
@@ -24679,6 +25059,7 @@
   9  4,3  | mEINiE
   9  4,1  | mELTINg
   9  4,2  | mELoN
+  9  3,4  | mERLoT
   9  4,3  | mEaNIE
   9  4,3  | mEiNIE
   9  4,2  | mILaN
@@ -25072,6 +25453,7 @@
   8  6,6  | ALIte
   8  6,6  | ALIty
   8  6,6  | ALIve
+  8  6,6  | ALIya
   8  6,6  | ALTar
   8  6,6  | ALTer
   8  6,6  | ALTho
@@ -25124,11 +25506,13 @@
   8  6,6  | ALivE
   8  6,6  | ALkEs
   8  6,6  | ALkIn
+  8  6,6  | ALlEe
   8  6,6  | ALlEn
   8  6,6  | ALlEr
   8  6,6  | ALlEy
   8  6,6  | ALlIe
   8  6,6  | ALlIs
+  8  6,6  | ALleE
   8  6,6  | ALliE
   8  6,6  | ALloT
   8  6,6  | ALmEh
@@ -25246,11 +25630,13 @@
   8  6,6  | AlIEnE
   8  6,6  | AlITE
   8  6,6  | AlITEr
+  8  6,6  | AlLEe
   8  6,6  | AlLEn
   8  6,6  | AlLEr
   8  6,6  | AlLEy
   8  6,6  | AlLIe
   8  6,6  | AlLIs
+  8  6,6  | AlLeE
   8  6,6  | AlLiE
   8  6,6  | AlLoT
   8  6,6  | AlaITE
@@ -25459,6 +25845,7 @@
   8  2,6  | ELIde
   8  4,1  | ELIgENT
   8  2,6  | ELIhu
+  8  2,6  | ELInt
   8  2,6  | ELIot
   8  5,2  | ELItIsT
   8  2,6  | ELIte
@@ -25505,6 +25892,7 @@
   8  2,6  | ELiTe
   8  2,2  | ELidE
   8  2,6  | ELidE
+  8  2,6  | ELinT
   8  2,6  | ELioT
   8  2,2  | ELitE
   8  2,6  | ELitE
@@ -25616,6 +26004,7 @@
   8  4,5  - EThs
   8  4,7  - EThs
   8  2,6  | EThyL
+  8  4,7  - ETic
   8  6,2  | ETnEAn
   8  4,5  - ETna
   8  4,7  - ETna
@@ -25840,6 +26229,7 @@
   8  4,7  - EsTh
   8  4,7  - EssIE
   8  4,7  - EtEn
+  8  4,7  - EtIc
   8  2,6  | EtTLe
   8  6,7  - EtTLe
   8  4,5  - EtTa
@@ -26046,6 +26436,7 @@
   8  6,7  - LEbEs
   8  6,5  - LEcT
   8  6,7  - LEcT
+  8  4,1  | LEcTiN
   8  2,2  | LEchE
   8  6,5  - LEdE
   8  6,7  - LEdE
@@ -26094,6 +26485,8 @@
   8  6,5  - LEiTh
   8  6,7  - LEiTh
   8  6,2  | LEilA
+  8  6,5  - LEkE
+  8  6,7  - LEkE
   8  6,2  | LEkhA
   8  6,5  - LElIa
   8  6,7  - LElIa
@@ -26135,6 +26528,8 @@
   8  3,3  | LEpRE
   8  3,3  | LEpRIc
   8  3,3  | LEpRId
+  8  6,5  - LEpT
+  8  6,7  - LEpT
   8  6,5  - LEpTa
   8  6,7  - LEpTa
   8  4,1  | LEpToN
@@ -26199,6 +26594,8 @@
   8  6,5  - LEwTy
   8  6,7  - LEwTy
   8  2,2  | LEwiE
+  8  6,5  - LExEs
+  8  6,7  - LExEs
   8  6,5  - LExIa
   8  6,7  - LExIa
   8  6,5  - LExIc
@@ -26206,6 +26603,8 @@
   8  6,5  - LExIs
   8  6,7  - LExIs
   8  6,2  | LExiA
+  8  6,5  - LEzzIE
+  8  6,7  - LEzzIE
   8  4,3  | LIEN
   8  4,3  | LIENal
   8  4,3  | LIENee
@@ -26366,6 +26765,7 @@
   8  4,3  | LImNEr
   8  6,2  | LImbA
   8  6,2  | LImmA
+  8  6,2  | LImpA
   8  6,5  - LImpET
   8  6,7  - LImpET
   8  6,5  - LInE
@@ -26429,6 +26829,8 @@
   8  6,5  - LIsTy
   8  6,7  - LIsTy
   8  2,2  | LIslE
+  8  6,5  - LIstEE
+  8  6,7  - LIstEE
   8  6,5  - LItE
   8  6,7  - LItE
   8  6,5  - LItEr
@@ -26515,6 +26917,7 @@
   8  6,5  - LaThIE
   8  6,7  - LaThIE
   8  2,2  | LaTkE
+  8  2,2  | LaTtE
   8  6,2  | LabIA
   8  3,3  | LabRET
   8  6,5  - LacET
@@ -26525,9 +26928,15 @@
   8  6,5  - LakIE
   8  6,7  - LakIE
   8  6,2  | LamIA
+  8  2,2  | LarEE
+  8  6,5  - LarEE
+  8  6,7  - LarEE
   8  6,2  | LarIA
   8  3,3  | LarREE
   8  4,1  | LatEEN
+  8  2,2  | LatTE
+  8  6,5  - LatTE
+  8  6,7  - LatTE
   8  4,1  | LatTEN
   8  4,1  | LatTIN
   8  6,2  | LauIA
@@ -26557,6 +26966,7 @@
   8  4,4  | LeNt
   8  2,2  | LeThE
   8  2,7  - Lea
+  8  4,1  | LecTIN
   8  2,7  - Lee
   8  6,5  - LegIT
   8  6,7  - LegIT
@@ -26633,6 +27043,8 @@
   8  3,4  | LoRETIn
   8  3,4  | LoRElEI
   8  3,4  | LoRIlET
+  8  6,5  - LoTI
+  8  6,7  - LoTI
   8  6,5  - LoTIc
   8  6,7  - LoTIc
   8  4,1  | LoTIoN
@@ -26646,6 +27058,7 @@
   8  6,7  - LogIE
   8  6,5  - LokET
   8  6,7  - LokET
+  8  4,1  | LomEIN
   8  6,2  | LomTA
   8  2,2  | LooIE
   8  6,5  - LooIE
@@ -26705,6 +27118,8 @@
   8  4,1  | LutEIN
   8  6,5  - LwEI
   8  6,7  - LwEI
+  8  6,5  - LwEIs
+  8  6,7  - LwEIs
   8  4,4  | LyN
   8  4,4  | LyNn
   8  4,4  | LyNx
@@ -26923,6 +27338,7 @@
   8  5,7  - TELly
   8  5,7  - TELoi
   8  5,7  - TELos
+  8  5,7  - TELs
   8  5,7  - TELt
   8  5,7  - TELyn
   8  4,4  | TENIaE
@@ -26955,6 +27371,9 @@
   8  6,5  - TEeL
   8  5,7  - TEeL
   8  6,7  - TEeL
+  8  6,5  - TEeLs
+  8  5,7  - TEeLs
+  8  6,7  - TEeLs
   8  2,1  | TEenIE
   8  2,5  | TEenIE
   8  2,1  | TEepEE
@@ -27251,6 +27670,8 @@
   8  2,7  - TeE
   8  6,5  - TeEL
   8  6,7  - TeEL
+  8  6,5  - TeELs
+  8  6,7  - TeELs
   8  4,3  | TeENIE
   8  4,3  | TeENIEr
   8  2,1  | TeEnIE
@@ -27424,6 +27845,7 @@
   8  2,2  | aLInE
   8  2,2  | aLItE
   8  2,2  | aLIvE
+  8  6,2  | aLIyA
   8  4,4  | aLNEIn
   8  3,2  | aLTER
   8  3,2  | aLTERn
@@ -27444,6 +27866,7 @@
   8  4,3  | aLiN
   8  2,2  | aLiTE
   8  4,5  - aLl
+  8  2,2  | aLlEE
   8  2,2  | aLlIE
   8  4,1  | aLnEIN
   8  4,5  - aLp
@@ -27506,6 +27929,7 @@
   8  3,3  | akERITE
   8  4,3  | akINETE
   8  4,5  - alL
+  8  2,2  | alLEE
   8  2,2  | alLIE
   8  5,5  - amELET
   8  6,5  - amELET
@@ -27836,6 +28260,7 @@
   8  4,5  | eNsILE
   8  4,5  | eNvEIL
   8  4,7  - eTEn
+  8  4,7  - eTIc
   8  2,2  | eTtLE
   8  4,7  - eTwEE
   8  3,4  | eaRLET
@@ -28001,6 +28426,7 @@
   8  2,2  | gLEbE
   8  2,2  | gLEdE
   8  2,2  | gLEnE
+  8  5,5  - gLITz
   8  2,2  | gLIdE
   8  2,2  | gLIkE
   8  2,2  | gLImE
@@ -28212,11 +28638,15 @@
   8  4,4  | lINtEL
   8  3,2  | lITERaL
   8  6,1  | lITsEA
+  8  4,2  | lIcENTE
   8  5,5  | lIfELET
   8  5,5  | lInELET
   8  6,5  - lIpLET
   8  6,7  - lIpLET
+  8  4,2  | lIsENTE
   8  2,2  | lIsLE
+  8  2,1  | lIsTEE
+  8  2,2  | lIsTEE
   8  4,3  | lLyN
   8  6,2  | leILA
   8  6,2  | leLIA
@@ -28272,6 +28702,7 @@
   8  2,5  | mEsTEE
   8  2,5  - mEu
   8  2,7  - mEu
+  8  4,3  | mILNEb
   8  4,3  | mILNEr
   8  4,1  | mILToN
   8  6,2  | mILhA
@@ -28395,6 +28826,7 @@
   8  6,5  | pAnTIE
   8  6,5  | pArIET
   8  6,5  | pArTIE
+  8  6,5  | pAsTIE
   8  6,5  | pAtTEE
   8  6,5  | pAtTIE
   8  3,3  | pEERLy
@@ -28426,9 +28858,11 @@
   8  3,3  | pETREL
   8  3,3  | pETRELs
   8  3,3  | pETRInE
+  8  3,3  | pETRaLE
   8  6,1  | pETrEA
   8  2,1  | pETrIE
   8  2,5  | pETrIE
+  8  6,2  | pETsAI
   8  2,5  - pEa
   8  2,1  | pEcITE
   8  2,5  | pEcITE
@@ -28524,6 +28958,7 @@
   8  3,4  | rERIvET
   8  3,4  | rERaIL
   8  3,4  | rEReEL
+  8  6,2  | rETEAm
   8  6,2  | rETEAr
   8  2,1  | rETEnE
   8  2,5  | rETEnE
@@ -28537,6 +28972,8 @@
   8  2,2  | rETIEs
   8  2,5  | rETIEs
   8  6,7  - rETILE
+  8  4,2  | rETINE
+  8  4,2  | rETINEs
   8  3,2  | rETIRE
   8  3,2  | rETIREd
   8  3,2  | rETIREe
@@ -28548,6 +28985,8 @@
   8  2,1  | rETImE
   8  2,5  | rETImE
   8  6,1  | rETInA
+  8  2,1  | rETInE
+  8  2,5  | rETInE
   8  2,1  | rETIrE
   8  2,5  | rETIrE
   8  6,7  - rETLEd
@@ -28573,6 +29012,7 @@
   8  6,2  | rEhEAT
   8  2,1  | rEhETE
   8  2,5  | rEhETE
+  8  2,5  - rEi
   8  2,2  | rEmEET
   8  2,5  | rEmEET
   8  2,1  | rEnTEE
@@ -28580,6 +29020,8 @@
   8  2,5  | rEnTEE
   8  6,2  | rEpEAT
   8  6,2  | rEsEAT
+  8  2,1  | rEsITE
+  8  2,5  | rEsITE
   8  2,1  | rEvETE
   8  2,5  | rEvETE
   8  2,2  | rILlE
@@ -28991,6 +29433,7 @@
   8  4,4  | vENnEL
   8  4,4  | vENtIL
   8  3,4  | vERITE
+  8  3,4  | vERITEs
   8  3,4  | vERmEIL
   8  3,4  | vERrEL
   8  3,4  | vERvEL
@@ -29031,6 +29474,8 @@
   8  4,1  | wEETINg
   8  2,1  | wEEnIE
   8  2,5  | wEEnIE
+  8  2,1  | wEEpIE
+  8  2,5  | wEEpIE
   8  4,4  | wENzEL
   8  3,4  | wERgIL
   8  3,4  | wERvEL
@@ -29038,6 +29483,7 @@
   8  2,5  - wEe
   8  2,7  - wEe
   8  2,5  - wEi
+  8  6,7  - wElLIE
   8  4,1  | wILToN
   8  6,2  | wILgA
   8  4,4  | wINdEL
@@ -29117,6 +29563,8 @@
   7  6,7  - ELIdEs
   7  4,1  | ELIgENt
   7  4,1  | ELIgeNT
+  7  6,7  - ELInT
+  7  6,7  - ELInTs
   7  6,7  - ELIoT
   7  6,7  - ELItE
   7  6,7  - ELItEs
@@ -29830,6 +30278,7 @@
   7  3,3  | LIbRaE
   7  6,5  - LIbrE
   7  6,7  - LIbrE
+  7  4,2  | LIcENTe
   7  5,3  | LIcIT
   7  6,5  - LIceT
   7  6,7  - LIceT
@@ -29855,6 +30304,7 @@
   7  3,2  | LIfER
   7  3,2  | LIfERs
   7  3,2  | LIgER
+  7  3,2  | LIgERs
   7  4,3  | LIgNe
   7  6,5  - LIggE
   7  6,7  - LIggE
@@ -29919,9 +30369,12 @@
   7  6,7  - LIpsE
   7  6,5  - LIroT
   7  6,7  - LIroT
+  7  4,2  | LIsENTe
   7  3,2  | LIsERe
   7  5,5  | LIsETtE
   7  5,5  | LIsIErE
+  7  5,5  | LIsTEE
+  7  5,5  | LIsTEEs
   7  3,2  | LIseRE
   7  6,5  - LIslE
   7  6,7  - LIslE
@@ -29986,6 +30439,9 @@
   7  4,2  | LaToN
   7  4,1  | LaTrINE
   7  5,5  - LaTs
+  7  6,5  - LaTtE
+  7  6,7  - LaTtE
+  7  3,3  | LaaRI
   7  5,3  | LabITE
   7  5,5  - LacE
   7  6,5  - LacE
@@ -30068,6 +30524,8 @@
   7  6,7  - LegE
   7  6,5  - LehI
   7  6,7  - LehI
+  7  6,5  - LekE
+  7  6,7  - LekE
   7  6,5  - LemE
   7  6,7  - LemE
   7  6,5  - LenE
@@ -30075,6 +30533,8 @@
   7  6,5  - LenT
   7  6,7  - LenT
   7  3,3  | LepRE
+  7  6,5  - LepT
+  7  6,7  - LepT
   7  6,5  - LerE
   7  6,7  - LerE
   7  6,5  - LesE
@@ -30138,6 +30598,8 @@
   7  6,7  - LinT
   7  6,5  - LirE
   7  6,7  - LirE
+  7  6,5  - LirI
+  7  6,7  - LirI
   7  6,5  - LisE
   7  6,7  - LisE
   7  3,2  | LisERE
@@ -30192,6 +30654,8 @@
   7  6,7  - LosE
   7  6,5  - LosT
   7  6,7  - LosT
+  7  6,5  - LotI
+  7  6,7  - LotI
   7  6,5  - LouT
   7  6,7  - LouT
   7  3,2  | LouTRE
@@ -30210,6 +30674,8 @@
   7  6,7  - LucE
   7  5,3  | LucITE
   7  3,3  | LucRE
+  7  6,5  - LudE
+  7  6,7  - LudE
   7  6,5  - LugE
   7  6,7  - LugE
   7  6,5  - LukE
@@ -30269,10 +30735,12 @@
   7  4,6  | NIEcEs
   7  4,6  | NIEvE
   7  4,6  | NIEvEs
+  7  4,6  | NITE
   7  4,6  | NITEnt
   7  4,6  | NITEr
   7  4,6  | NITErs
   7  4,6  | NITEry
+  7  4,6  | NITEs
   7  4,6  | NIThEr
   7  4,6  | NITrE
   7  4,6  | NITrEd
@@ -30354,6 +30822,7 @@
   7  6,7  - TEEdLe
   7  4,2  | TEEiNg
   7  5,7  - TEEl
+  7  5,7  - TEEls
   7  5,7  - TEEm
   7  5,7  - TEEms
   7  5,7  - TEEn
@@ -30423,6 +30892,7 @@
   7  3,4  | TERrIEs
   7  3,4  | TERtIaL
   7  5,7  - TEaEy
+  7  5,2  | TEaLIkE
   7  3,3  | TEaRIEr
   7  6,5  - TEagLE
   7  6,7  - TEagLE
@@ -30670,6 +31140,7 @@
   7  3,5  | TRIjEt
   7  3,5  | TRIkE
   7  3,5  | TRIkEr
+  7  3,5  | TRIkEs
   7  3,5  | TRImEr
   7  3,5  | TRInE
   7  3,5  | TRInEd
@@ -30799,6 +31270,7 @@
   7  4,3  | TawNIE
   7  4,2  | TeEINg
   7  5,7  - TeEL
+  7  5,7  - TeELs
   7  4,3  | TeENiE
   7  3,3  | TeEREr
   7  6,5  - TeEdLE
@@ -30865,6 +31337,8 @@
   7  3,3  | ThEREd
   7  3,3  | ThEREs
   7  3,3  | ThERIa
+  7  5,5  - ThEbE
+  7  5,7  - ThEbE
   7  4,2  | ThEiNE
   7  5,5  - ThEmE
   7  5,7  - ThEmE
@@ -31082,6 +31556,7 @@
   7  5,5  - aLEs
   7  5,5  - aLEw
   7  5,5  - aLEx
+  7  4,1  | aLExINE
   7  1,4  | aLHET
   7  6,5  - aLIET
   7  6,7  - aLIET
@@ -31202,6 +31677,7 @@
   7  6,5  - agILE
   7  6,7  - agILE
   7  4,2  | alIENE
+  7  5,5  - alLEE
   7  5,5  - alLIE
   7  5,5  - amLET
   7  5,5  - anELE
@@ -31595,6 +32071,7 @@
   7  5,7  - dEtTE
   7  4,1  | dEvEIN
   7  5,3  | dEvILET
+  7  5,7  - dExIE
   7  6,5  - dIEL
   7  5,7  - dIEL
   7  6,7  - dIEL
@@ -31852,6 +32329,7 @@
   7  3,4  | fuRILE
   7  6,5  - fuTILE
   7  4,2  | gEEINg
+  7  5,1  | gELaTI
   7  4,4  | gENET
   7  4,4  | gENETs
   7  4,4  | gENIE
@@ -32002,6 +32480,7 @@
   7  4,4  | jENnET
   7  4,4  | jENnIE
   7  3,4  | jERL
+  7  5,2  | jETLIkE
   7  5,5  | jILTEE
   7  6,5  - jILTEd
   7  6,5  - jILTEe
@@ -32091,6 +32570,7 @@
   7  4,4  | lENTIc
   7  4,4  | lENTIl
   7  4,4  | lENTiLE
+  7  4,1  | lEcTIN
   7  6,5  - lEeTLE
   7  6,7  - lEeTLE
   7  4,1  | lEnTEN
@@ -32257,6 +32737,7 @@
   7  4,4  | nINETy
   7  3,4  | nIRLs
   7  4,2  | nITENt
+  7  3,2  | nITERiE
   7  5,7  - nITrE
   7  5,2  | nITrILE
   7  5,5  | nITrILE
@@ -32266,6 +32747,7 @@
   7  5,7  - neELE
   7  6,7  - neELE
   7  3,4  | neREITE
+  7  3,2  | niTERIE
   7  3,3  | niTRIL
   7  3,3  | nyTRIL
   7  5,4  | oEILlET
@@ -32465,6 +32947,7 @@
   7  6,7  - rETILl
   7  4,2  | rETIN
   7  4,2  | rETINa
+  7  4,2  | rETINe
   7  4,2  | rETINt
   7  3,2  | rETIReE
   7  6,7  - rETIaL
@@ -32475,6 +32958,7 @@
   7  3,3  | rETRIEr
   7  3,3  | rETRIEs
   7  4,2  | rETeNE
+  7  4,2  | rETiNE
   7  4,2  | rETuNE
   7  1,7  - rEe
   7  6,7  - rEeTLE
@@ -32511,6 +32995,7 @@
   7  4,4  | reNTEE
   7  4,2  | reTENE
   7  6,7  - reTILE
+  7  4,2  | reTINE
   7  3,2  | reTIREE
   7  4,4  | ruNITE
   7  4,4  | ruNTEE
@@ -32540,6 +33025,7 @@
   7  6,7  - sELTEr
   7  4,4  | sENIT
   7  4,4  | sENITi
+  7  4,4  | sENTE
   7  4,4  | sENTI
   7  4,4  | sENaTE
   7  4,4  | sENiTI
@@ -32561,6 +33047,7 @@
   7  6,7  - sElLI
   7  6,7  - sEnILE
   7  5,7  - sEnIT
+  7  5,7  - sEnTE
   7  5,7  - sEnTI
   7  5,7  - sEpTI
   7  5,2  | sEpTILE
@@ -32796,6 +33283,9 @@
   7  6,5  - tEEL
   7  5,7  - tEEL
   7  6,7  - tEEL
+  7  6,5  - tEELs
+  7  5,7  - tEELs
+  7  6,7  - tEELs
   7  4,3  | tEENIe
   7  4,3  | tEENTy
   7  4,1  | tEETaN
@@ -33219,6 +33709,7 @@
   6  6,6  | AlhET
   6  6,6  | AliET
   6  6,6  | AliTE
+  6  6,6  | AllEE
   6  6,6  | AllIE
   6  6,6  | AmEEd
   6  6,6  | AmEEn
@@ -33414,6 +33905,7 @@
   6  6,7  - ELIde
   6  5,4  | ELIgEnT
   6  6,7  - ELIhu
+  6  6,7  - ELInt
   6  6,7  - ELIot
   6  5,4  | ELItIsT
   6  6,7  - ELIte
@@ -33445,6 +33937,7 @@
   6  4,2  | ELfINs
   6  4,1  | ELfkIN
   6  6,7  - ELidE
+  6  6,7  - ELinT
   6  6,7  - ELioT
   6  6,7  - ELitE
   6  4,2  | ELlEN
@@ -33693,6 +34186,7 @@
   6  2,2  | ElIdE
   6  2,6  | ElIdE
   6  4,1  | ElIgENT
+  6  2,6  | ElInT
   6  2,6  | ElIoT
   6  2,2  | ElItE
   6  2,6  | ElItE
@@ -34269,12 +34763,14 @@
   6  4,1  | LEavEN
   6  4,2  | LEbEN
   6  4,2  | LEbENs
+  6  5,2  | LEcTIn
   6  6,5  - LEch
   6  6,7  - LEch
   6  6,5  - LEck
   6  6,7  - LEck
   6  6,5  - LEct
   6  6,7  - LEct
+  6  4,1  | LEctIN
   6  6,5  - LEd
   6  6,7  - LEd
   6  4,2  | LEdEN
@@ -34342,8 +34838,12 @@
   6  6,5  - LEk
   6  6,7  - LEk
   6  4,2  | LEkaNE
+  6  6,5  - LEke
+  6  6,7  - LEke
   6  6,5  - LEks
   6  6,7  - LEks
+  6  6,5  - LEku
+  6  6,7  - LEku
   6  5,3  | LElIa
   6  6,5  - LEme
   6  6,7  - LEme
@@ -34382,6 +34882,8 @@
   6  5,2  | LEpTId
   6  6,5  - LEpa
   6  6,7  - LEpa
+  6  6,5  - LEpt
+  6  6,7  - LEpt
   6  6,5  - LEr
   6  6,7  - LEr
   6  6,5  - LEre
@@ -34449,6 +34951,9 @@
   6  4,1  | LEydEN
   6  6,5  - LEys
   6  6,7  - LEys
+  6  6,5  - LEz
+  6  6,7  - LEz
+  6  5,2  | LEzzIE
   6  6,5  - LI
   6  6,7  - LI
   6  5,2  | LIEbIg
@@ -34519,6 +35024,8 @@
   6  6,5  - LIbs
   6  6,7  - LIbs
   6  5,5  | LIcET
+  6  2,3  | LIcEnTE
+  6  5,5  | LIcEnTE
   6  5,5  | LIcIT
   6  5,3  | LIcIt
   6  6,5  - LIce
@@ -34697,17 +35204,23 @@
   6  6,5  - LIr
   6  6,7  - LIr
   6  6,3  | LIrATE
+  6  5,3  | LIrI
   6  6,5  - LIra
   6  6,7  - LIra
   6  5,5  | LIraTE
   6  6,5  - LIre
   6  6,7  - LIre
+  6  6,5  - LIri
+  6  6,7  - LIri
   6  6,5  - LIs
   6  6,7  - LIs
   6  2,3  | LIsETtE
+  6  2,3  | LIsEnTE
+  6  5,5  | LIsEnTE
   6  2,3  | LIsEtTE
   6  5,5  | LIsEtTE
   6  5,5  | LIsTEd
+  6  5,5  | LIsTEe
   6  5,5  | LIsTEl
   6  5,5  | LIsTEn
   6  5,5  | LIsTEr
@@ -34725,6 +35238,7 @@
   6  6,7  - LIss
   6  6,5  - LIst
   6  6,7  - LIst
+  6  5,5  | LIstEE
   6  4,1  | LIstEN
   6  6,5  - LIt
   6  6,7  - LIt
@@ -34746,8 +35260,6 @@
   6  6,7  - LItu
   6  6,5  - LItz
   6  6,7  - LItz
-  6  6,5  - LIv
-  6  6,7  - LIv
   6  4,2  | LIvEN
   6  4,2  | LIvENs
   6  5,5  | LIvETh
@@ -34787,6 +35299,8 @@
   6  6,7  - LaIr
   6  6,5  - LaIt
   6  6,7  - LaIt
+  6  3,4  | LaREE
+  6  3,4  | LaREEs
   6  3,4  | LaRgET
   6  3,4  | LaRrEE
   6  6,5  - LaT
@@ -34943,11 +35457,14 @@
   6  3,4  | LoRaTE
   6  6,5  - LoT
   6  6,7  - LoT
+  6  5,3  | LoTI
   6  5,3  | LoTIc
   6  6,5  - LoTa
   6  6,7  - LoTa
   6  6,5  - LoTh
   6  6,7  - LoTh
+  6  6,5  - LoTi
+  6  6,7  - LoTi
   6  6,5  - LoTo
   6  6,7  - LoTo
   6  6,5  - LoTs
@@ -34976,10 +35493,13 @@
   6  6,7  - LuTe
   6  4,1  | LuTeIN
   6  4,1  | LuTrIN
+  6  6,5  - LuTz
+  6  6,7  - LuTz
   6  4,2  | LucENT
   6  4,2  | LumINE
   6  4,2  | LupINE
   6  5,3  | LwEI
+  6  5,3  | LwEIs
   6  6,5  - LwEi
   6  6,7  - LwEi
   6  6,5  - LyE
@@ -35059,7 +35579,9 @@
   6  4,6  | NIEve
   6  4,6  | NIT
   6  4,6  | NITch
+  6  4,6  | NITe
   6  4,6  | NITer
+  6  4,6  | NITes
   6  4,6  | NITid
   6  4,6  | NITo
   6  4,6  | NITon
@@ -35102,7 +35624,9 @@
   6  4,6  | NetTLE
   6  4,6  | NiEcE
   6  4,6  | NiEvE
+  6  4,6  | NiTE
   6  4,6  | NiTEr
+  6  4,6  | NiTEs
   6  4,6  | NiTId
   6  4,6  | NiTrE
   6  4,6  | NoEmI
@@ -35260,6 +35784,8 @@
   6  6,7  - TELoi
   6  6,5  - TELos
   6  6,7  - TELos
+  6  6,5  - TELs
+  6  6,7  - TELs
   6  4,1  | TELsoN
   6  6,5  - TELt
   6  6,7  - TELt
@@ -35406,6 +35932,7 @@
   6  5,7  - TEli
   6  6,2  | TEliA
   6  5,7  - TEll
+  6  5,7  - TEls
   6  5,7  - TElt
   6  5,7  - TEm
   6  6,5  - TEmIn
@@ -35505,6 +36032,7 @@
   6  5,7  - TEst
   6  6,2  | TEstA
   6  2,2  | TEstE
+  6  5,7  - TEt
   6  6,5  - TEtE
   6  6,7  - TEtE
   6  6,5  - TEtEl
@@ -35518,6 +36046,7 @@
   6  6,7  - TEteL
   6  5,7  - TEth
   6  6,2  | TEtrA
+  6  5,7  - TEts
   6  3,2  | TEucRI
   6  5,7  - TEuk
   6  5,7  - TEw
@@ -35984,6 +36513,7 @@
   6  4,1  | TeLlIN
   6  6,5  - TeLoI
   6  6,7  - TeLoI
+  6  5,7  - TeLs
   6  5,7  - TeLt
   6  4,4  | TeNEt
   6  4,4  | TeNEz
@@ -36036,6 +36566,7 @@
   6  5,7  - ThEIr
   6  6,7  - ThEIr
   6  3,3  | ThERmE
+  6  2,2  | ThEbE
   6  6,2  | ThEcA
   6  4,2  | ThEgN
   6  4,2  | ThEiN
@@ -36114,6 +36645,7 @@
   6  4,4  | ToNEd
   6  4,4  | ToNEr
   6  4,4  | ToNEs
+  6  4,4  | ToNEy
   6  4,4  | ToNIc
   6  3,4  | ToRfLE
   6  3,4  | ToRuLI
@@ -36367,6 +36899,8 @@
   6  4,2  | aLkENE
   6  4,2  | aLkINE
   6  5,5  - aLl
+  6  6,5  - aLlEE
+  6  6,7  - aLlEE
   6  4,2  | aLlENE
   6  6,5  - aLlIE
   6  6,7  - aLlIE
@@ -36482,6 +37016,8 @@
   6  5,5  - alIET
   6  2,2  | alITE
   6  5,5  - alITE
+  6  6,5  - alLEE
+  6  6,7  - alLEE
   6  6,5  - alLIE
   6  6,7  - alLIE
   6  4,5  - alT
@@ -36904,6 +37440,8 @@
   6  2,5  - dE
   6  2,7  - dE
   6  4,3  | dEENy
+  6  5,7  - dEET
+  6  5,7  - dEETs
   6  4,3  | dEINk
   6  4,3  | dEINo
   6  5,2  | dEITIEs
@@ -37007,6 +37545,7 @@
   6  6,7  - dEvEL
   6  6,5  - dEvIL
   6  6,7  - dEvIL
+  6  2,2  | dExIE
   6  4,3  | dEyNT
   6  5,5  | dIELEc
   6  4,3  | dIENe
@@ -37385,6 +37924,7 @@
   6  6,3  | gELATE
   6  6,3  | gELATEd
   6  6,3  | gELATEs
+  6  6,3  | gELATI
   6  6,3  | gELATIa
   6  6,3  | gELATIn
   6  6,7  - gELEe
@@ -37392,6 +37932,7 @@
   6  6,7  - gELT
   6  6,7  - gELTs
   6  6,7  - gELaTE
+  6  6,7  - gELaTI
   6  4,4  | gENEaL
   6  4,4  | gENIaL
   6  4,4  | gENTiL
@@ -37461,6 +38002,7 @@
   6  6,7  - gLEIr
   6  6,7  - gLEIt
   6  3,2  | gLEiR
+  6  6,7  - gLITz
   6  5,5  - gLb
   6  5,5  - gLd
   6  6,7  - gLeET
@@ -37630,8 +38172,11 @@
   6  4,5  | iNIsLE
   6  4,5  | iNTEl
   6  4,5  | iNTEr
+  6  4,5  | iNTI
   6  4,5  | iNTIl
+  6  4,5  | iNTIs
   6  4,5  | iNTaIL
+  6  4,5  | iNdIE
   6  4,5  | iNfIT
   6  4,5  | iNkIE
   6  4,5  | iNlET
@@ -37710,6 +38255,7 @@
   6  6,5  - kELEk
   6  6,5  - kELEp
   6  6,5  - kELIa
+  6  6,5  - kELIm
   6  6,5  - kELT
   6  5,2  | kELTIc
   6  5,2  | kELTIe
@@ -37759,6 +38305,8 @@
   6  6,5  - kILTy
   6  5,5  | kILdEE
   6  6,5  - kILdEE
+  6  5,2  | kILlIE
+  6  5,5  | kILlIE
   6  5,2  | kILtIE
   6  5,5  | kILtIE
   6  4,4  | kINoT
@@ -37773,6 +38321,8 @@
   6  5,5  | kIdLET
   6  6,5  - kIeL
   6  6,5  - kIlL
+  6  5,2  | kIlLIE
+  6  5,5  | kIlLIE
   6  6,2  | kIoEA
   6  5,5  | kItTEL
   6  5,5  | kIzIL
@@ -37887,6 +38437,8 @@
   6  4,3  | lInNE
   6  5,5  | lInTEL
   6  5,5  | lIpLET
+  6  6,5  - lIsTEE
+  6  6,7  - lIsTEE
   6  5,5  | lIsTEL
   6  5,5  - lLb
   6  5,5  - laETI
@@ -38031,6 +38583,7 @@
   6  4,4  | mINcE
   6  4,4  | mINgE
   6  4,4  | mINiE
+  6  4,4  | mINkE
   6  4,4  | mINoT
   6  3,4  | mIRaTE
   6  3,2  | mITER
@@ -38162,10 +38715,13 @@
   6  5,7  - nILl
   6  5,7  - nILs
   6  4,4  | nINuT
+  6  5,7  - nITE
   6  3,2  | nITER
   6  3,2  | nITERs
   6  3,2  | nITERy
   6  5,7  - nITEr
+  6  5,1  | nITErIE
+  6  5,7  - nITEs
   6  3,3  | nITRE
   6  3,3  | nITREd
   6  3,3  | nITREs
@@ -38296,6 +38852,7 @@
   6  4,4  | pENToL
   6  4,4  | pENTyL
   6  4,4  | pENcE
+  6  4,4  | pENnE
   6  4,4  | pENnI
   6  4,4  | pENsE
   6  3,4  | pEREIa
@@ -38332,8 +38889,10 @@
   6  6,5  - pElITE
   6  6,5  - pElL
   6  6,2  | pElTA
+  6  4,3  | pEnNE
   6  4,3  | pEnNI
   6  6,2  | pEnTA
+  6  6,2  | pErEA
   6  6,5  - pErIL
   6  6,5  - pErITE
   6  2,2  | pEsTE
@@ -38514,9 +39073,11 @@
   6  6,7  - rETIEs
   6  5,3  | rETILE
   6  5,3  | rETILEd
+  6  5,3  | rETILEs
   6  3,2  | rETIRe
   6  6,7  - rETIlE
   6  6,7  - rETImE
+  6  6,7  - rETInE
   6  6,7  - rETIrE
   6  3,3  | rETREe
   6  3,3  | rETRIm
@@ -38555,6 +39116,7 @@
   6  6,7  - rEpL
   6  2,2  | rErEE
   6  2,2  | rEsEE
+  6  6,7  - rEsITE
   6  6,2  | rEtIA
   6  2,2  | rEtIE
   6  6,7  - rEuEL
@@ -38590,6 +39152,7 @@
   6  2,5  - reE
   6  2,7  - reE
   6  6,7  - reEL
+  6  2,5  - reI
   6  6,7  - reLET
   6  6,7  - reLIT
   6  4,4  | reNET
@@ -38640,6 +39203,7 @@
   6  4,4  | sENgI
   6  4,4  | sENiT
   6  4,4  | sENsE
+  6  4,4  | sENtE
   6  4,4  | sENtI
   6  3,4  | sEREIn
   6  3,4  | sERIEs
@@ -38663,6 +39227,7 @@
   6  2,2  | sEmEE
   6  6,7  - sEmEL
   6  6,7  - sEmITE
+  6  2,2  | sEnTE
   6  6,2  | sEpIA
   6  6,2  | sEpTA
   6  6,2  | sErTA
@@ -38874,6 +39439,7 @@
   6  2,7  - seE
   6  6,7  - seEL
   6  4,4  | seNIT
+  6  4,4  | seNTE
   6  4,4  | seNTI
   6  6,7  - shEEL
   6  4,2  | shEEN
@@ -38910,6 +39476,7 @@
   6  5,7  - snITE
   6  6,7  - soIL
   6  3,3  | soIREE
+  6  6,7  - soLEI
   6  3,4  | soRITE
   6  3,4  | soRTIE
   6  2,2  | soTIE
@@ -38979,6 +39546,7 @@
   6  5,7  - tELl
   6  4,1  | tELlEN
   6  4,1  | tELlIN
+  6  5,7  - tELs
   6  5,7  - tELt
   6  4,4  | tENaI
   6  4,4  | tENeT
@@ -39272,6 +39840,7 @@
   6  3,4  | vERsTE
   6  3,4  | vERvET
   6  3,2  | vETER
+  6  2,2  | vEgIE
   6  2,2  | vElTE
   6  2,2  | vEnIE
   6  6,2  | vEnTA
@@ -39317,6 +39886,8 @@
   6  6,7  - wELT
   6  6,7  - wELTs
   6  4,1  | wELkIN
+  6  5,2  | wELlIE
+  6  6,7  - wELlIE
   6  4,4  | wENdE
   6  4,4  | wENdI
   6  3,4  | wERsTE
@@ -39326,6 +39897,7 @@
   6  4,3  | wEeNT
   6  2,2  | wEhEE
   6  6,7  - wElL
+  6  5,2  | wElLIE
   6  2,2  | wEsTE
   6  6,7  - wILE
   6  6,7  - wILEd
@@ -39499,6 +40071,8 @@
   5  5,4  | ELIdE
   5  5,4  | ELIdEd
   5  5,4  | ELIdEs
+  5  5,4  | ELInT
+  5  5,4  | ELInTs
   5  5,4  | ELIoT
   5  5,4  | ELItE
   5  5,4  | ELItEs
@@ -39633,6 +40207,7 @@
   5  1,4  | ETHs
   5  1,4  | ETHyl
   5  6,7  - ETIam
+  5  6,7  - ETIc
   5  3,4  | ETRiEr
   5  4,1  | ETamIN
   5  6,7  - ETapE
@@ -39719,6 +40294,7 @@
   5  6,7  - EjEcT
   5  3,3  | EkER
   5  6,7  - EkoI
+  5  2,3  | EkuELE
   5  4,5  - El
   5  6,3  | ElEATIc
   5  6,7  - ElEcT
@@ -39727,8 +40303,11 @@
   5  4,1  | ElEuIN
   5  6,7  - ElEuT
   5  1,4  | ElHI
+  5  4,3  | ElINT
+  5  4,3  | ElINTs
   5  5,4  | ElIcIT
   5  6,7  - ElIdE
+  5  6,7  - ElInT
   5  6,7  - ElIoT
   5  6,7  - ElItE
   5  6,7  - ElL
@@ -40026,6 +40605,7 @@
   5  4,5  | INfrEE
   5  4,5  | INgaTE
   5  4,5  | INiaL
+  5  4,5  | INkjET
   5  4,5  | INmaTE
   5  4,5  | INnaTE
   5  4,5  | INroL
@@ -40281,9 +40861,12 @@
   5  6,5  | LAThE
   5  6,5  | LAThI
   5  6,5  | LATkE
+  5  6,5  | LATtE
   5  6,5  | LAcET
   5  6,5  | LAeTI
   5  6,5  | LAkIE
+  5  6,5  | LArEE
+  5  6,5  | LAtTE
   5  6,4  | LEAT
   5  6,4  | LEATh
   5  6,4  | LEAdEd
@@ -40405,6 +40988,7 @@
   5  3,4  | LIRa
   5  3,4  | LIRas
   5  3,4  | LIRe
+  5  3,4  | LIRi
   5  3,4  | LIRot
   5  6,3  | LITAi
   5  6,3  | LITAny
@@ -40490,6 +41074,7 @@
   5  5,5  | LIroT
   5  2,3  | LIsErE
   5  5,5  | LIsErE
+  5  5,5  | LIsTeE
   5  5,5  | LIslE
   5  5,5  | LIszT
   5  6,3  | LItATu
@@ -40524,11 +41109,13 @@
   5  4,3  | LaIN
   5  4,3  | LaINe
   5  3,4  | LaRE
+  5  3,4  | LaREe
   5  3,4  | LaREs
   5  3,4  | LaRI
   5  3,4  | LaRIa
   5  3,4  | LaRId
   5  3,4  | LaRIn
+  5  3,4  | LaRIs
   5  3,4  | LaRIx
   5  2,3  | LaTEEn
   5  5,2  | LaThIE
@@ -40662,6 +41249,8 @@
   5  6,7  - Lex
   5  6,5  - Ley
   5  6,7  - Ley
+  5  6,5  - Lez
+  5  6,7  - Lez
   5  6,5  - Lhb
   5  6,7  - Lhb
   5  6,5  - Lhd
@@ -40674,6 +41263,7 @@
   5  2,4  | LiEnEE
   5  4,3  | LiIN
   5  3,4  | LiRE
+  5  3,4  | LiRI
   5  6,3  | LiTAI
   5  4,3  | LiaNE
   5  3,3  | LiaR
@@ -40716,14 +41306,13 @@
   5  6,5  - Lir
   5  6,7  - Lir
   5  6,3  | LirATE
+  5  5,3  | LirI
   5  6,5  - Lis
   5  6,7  - Lis
   5  6,5  - Lit
   5  6,7  - Lit
   5  3,2  | LitER
   5  5,3  | LitI
-  5  6,5  - Liv
-  5  6,7  - Liv
   5  4,2  | LivEN
   5  3,2  | LivER
   5  6,5  - Liz
@@ -40789,6 +41378,7 @@
   5  3,2  | LosER
   5  6,5  - Lot
   5  6,7  - Lot
+  5  5,3  | LotI
   5  5,2  | LotTIE
   5  6,5  - Lou
   5  6,7  - Lou
@@ -40852,6 +41442,8 @@
   5  6,5  - Lut
   5  6,7  - Lut
   5  3,2  | LutER
+  5  6,5  - Luv
+  5  6,7  - Luv
   5  6,5  - Lux
   5  6,7  - Lux
   5  6,3  | LuxATE
@@ -40928,6 +41520,7 @@
   5  4,6  | NEwLy
   5  4,6  | NEwbIE
   5  4,6  | NEweL
+  5  4,6  | NEwsIE
   5  4,6  | NExaL
   5  4,6  | NIaLl
   5  4,6  | NIalL
@@ -40998,6 +41591,7 @@
   5  4,6  | NewEL
   5  4,6  | NiEs
   5  4,6  | NiT
+  5  4,6  | NiTe
   5  4,6  | NiTo
   5  4,6  | NiTs
   5  4,6  | NifLE
@@ -41302,11 +41896,15 @@
   5  5,3  | TEEIng
   5  2,4  | TEEL
   5  2,5  | TEEL
+  5  2,4  | TEELs
+  5  2,5  | TEELs
   5  6,5  - TEEd
   5  6,7  - TEEd
   5  2,4  | TEEdLe
   5  6,5  - TEEl
   5  6,7  - TEEl
+  5  6,5  - TEEls
+  5  6,7  - TEEls
   5  6,5  - TEEm
   5  6,7  - TEEm
   5  6,5  - TEEms
@@ -41899,6 +42497,8 @@
   5  6,7  - TeLi
   5  6,5  - TeLl
   5  6,7  - TeLl
+  5  6,5  - TeLs
+  5  6,7  - TeLs
   5  6,5  - TeLt
   5  6,7  - TeLt
   5  4,4  | TeN
@@ -41946,6 +42546,8 @@
   5  5,7  - ThEa
   5  5,5  - ThEb
   5  5,7  - ThEb
+  5  6,5  - ThEbE
+  5  6,7  - ThEbE
   5  5,5  - ThEd
   5  5,7  - ThEd
   5  5,5  - ThEe
@@ -42309,8 +42911,12 @@
   5  3,3  | TwiRE
   5  5,5  - TyE
   5  5,7  - TyE
+  5  3,3  | TyER
+  5  3,3  | TyERs
   5  5,5  - TyEe
   5  5,7  - TyEe
+  5  5,5  - TyEr
+  5  5,7  - TyEr
   5  5,5  - TyEs
   5  5,7  - TyEs
   5  6,3  | TyLArI
@@ -42384,6 +42990,7 @@
   5  6,4  | aLAItE
   5  6,4  | aLATE
   5  6,4  | aLATEd
+  5  6,4  | aLATEs
   5  6,4  | aLAhEE
   5  6,4  | aLAiTE
   5  3,3  | aLERt
@@ -42985,6 +43592,7 @@
   5  3,5  | cRIlE
   5  3,5  | cRImE
   5  3,5  | cRInE
+  5  3,5  | cRIpE
   5  3,5  | cRL
   5  3,5  | cRiLE
   5  5,1  | cTEnII
@@ -43008,12 +43616,17 @@
   5  6,4  | dEALT
   5  6,4  | dEAsIL
   5  5,7  - dEE
+  5  6,5  - dEET
+  5  6,7  - dEET
+  5  6,5  - dEETs
+  5  6,7  - dEETs
   5  5,7  - dEEd
   5  5,7  - dEEk
   5  5,7  - dEEm
   5  5,7  - dEEp
   5  5,7  - dEEr
   5  5,7  - dEEs
+  5  5,7  - dEEt
   5  5,7  - dEI
   5  6,5  - dEITy
   5  6,7  - dEITy
@@ -43076,6 +43689,7 @@
   5  4,2  | dEcINE
   5  6,5  - dEdIT
   5  6,7  - dEdIT
+  5  5,7  - dEeT
   5  6,3  | dEfAIL
   5  5,2  | dEfEIT
   5  3,2  | dEfER
@@ -43118,6 +43732,8 @@
   5  5,7  - dEvI
   5  3,2  | dEwER
   5  3,3  | dEwRET
+  5  6,5  - dExIE
+  5  6,7  - dExIE
   5  1,5  | dHaL
   5  6,4  | dIALEd
   5  6,4  | dIALEr
@@ -43171,6 +43787,7 @@
   5  5,7  - dITe
   5  5,7  - dITs
   5  5,7  - dITt
+  5  5,7  - dITz
   5  4,2  | dIaENE
   5  4,3  | dIaN
   5  5,7  - dIcE
@@ -43215,6 +43832,7 @@
   5  3,5  | dRIfT
   5  3,5  | dRIpT
   5  3,5  | dRIvE
+  5  1,4  | daHL
   5  3,3  | daIRT
   5  5,5  - daLE
   5  6,5  - daLE
@@ -43287,6 +43905,7 @@
   5  5,4  | eLITE
   5  5,4  | eLITEs
   5  6,7  - eLIdE
+  5  6,7  - eLInT
   5  6,7  - eLIoT
   5  6,7  - eLItE
   5  4,4  | eLNE
@@ -43571,8 +44190,11 @@
   5  6,7  - gEET
   5  1,4  | gEHEy
   5  6,3  | gELATe
+  5  6,3  | gELATi
+  5  6,3  | gELATo
   5  6,3  | gELAnT
   5  6,3  | gELAtE
+  5  6,3  | gELAtI
   5  2,3  | gELEE
   5  2,5  | gELEE
   5  2,3  | gELEEm
@@ -43688,6 +44310,7 @@
   5  5,5  - gaLT
   5  6,7  - gaLT
   5  6,3  | geLATE
+  5  6,3  | geLATI
   5  6,7  - geLT
   5  6,7  - giLE
   5  6,7  - giLT
@@ -43819,6 +44442,7 @@
   5  4,5  | iNdE
   5  4,5  | iNiT
   5  4,5  | iNnE
+  5  4,5  | iNtI
   5  4,5  | iNvT
   5  3,5  | iREnE
   5  3,5  | iRrITE
@@ -44021,6 +44645,7 @@
   5  5,5  | lInTIE
   5  4,3  | lIoN
   5  5,5  | lIsLE
+  5  5,5  | lIsTEE
   5  3,2  | lItER
   5  3,2  | lIvER
   5  3,3  | lLER
@@ -44289,8 +44914,14 @@
   5  6,5  - nILoT
   5  6,7  - nILoT
   5  5,7  - nIT
+  5  6,5  - nITE
+  5  6,7  - nITE
   5  6,5  - nITEr
   5  6,7  - nITEr
+  5  5,5  | nITErIE
+  5  6,5  - nITEs
+  5  6,7  - nITEs
+  5  5,7  - nITe
   5  5,7  - nITo
   5  5,7  - nITs
   5  5,7  - nIcE
@@ -44303,6 +44934,7 @@
   5  5,7  - nIlE
   5  5,7  - nInE
   5  5,7  - nIsT
+  5  5,7  - nItE
   5  4,2  | nItENT
   5  3,2  | nItER
   5  5,7  - nIuE
@@ -44404,6 +45036,7 @@
   5  4,4  | pENIdE
   5  4,4  | pENIlE
   5  3,4  | pERE
+  5  3,4  | pEREa
   5  3,4  | pEREs
   5  3,4  | pERI
   5  3,4  | pERIl
@@ -44635,6 +45268,7 @@
   5  6,7  - rELeT
   5  6,7  - rELiT
   5  6,7  - rELoT
+  5  4,4  | rENEsT
   5  4,4  | rENTeE
   5  3,4  | rEREe
   5  3,4  | rERIg
@@ -44711,6 +45345,7 @@
   5  4,2  | rEtENT
   5  6,7  - rEtIE
   5  5,3  | rEtILE
+  5  4,2  | rEtINE
   5  4,2  | rEtINT
   5  2,3  | rEvEIL
   5  4,2  | rEvENT
@@ -44818,9 +45453,11 @@
   5  4,2  | sEmENT
   5  5,7  - sEmI
   5  6,3  | sEnAITE
+  5  5,7  - sEnE
   5  5,3  | sEnILE
   5  6,7  - sEnIT
   5  5,7  - sEnT
+  5  6,7  - sEnTE
   5  6,7  - sEnTI
   5  4,3  | sEpN
   5  5,7  - sEpT
@@ -44918,7 +45555,9 @@
   5  6,4  | sLATEd
   5  6,4  | sLATEr
   5  6,4  | sLATEs
+  5  6,4  | sLATEy
   5  6,3  | sLEAvE
+  5  6,3  | sLEAzE
   5  2,3  | sLEET
   5  2,4  | sLEET
   5  2,3  | sLEETs
@@ -45140,6 +45779,9 @@
   5  6,7  - swEET
   5  2,3  | swEETIE
   5  3,3  | swIRE
+  5  5,5  - syLI
+  5  5,7  - syLI
+  5  6,7  - syLI
   5  6,4  | tEAgLE
   5  6,4  | tEAsEL
   5  6,4  | tEAsLE
@@ -45189,6 +45831,7 @@
   5  3,4  | tEREs
   5  3,4  | tEREu
   5  3,4  | tERI
+  5  5,7  - tET
   5  6,5  - tETE
   5  6,7  - tETE
   5  2,3  | tETEL
@@ -45199,6 +45842,7 @@
   5  6,5  - tETeL
   5  6,7  - tETeL
   5  5,7  - tETh
+  5  5,7  - tETs
   5  4,3  | tEaN
   5  5,7  - tEaT
   5  6,5  - tEbET
@@ -45743,6 +46387,7 @@
   4  5,4  | ELIas
   4  5,4  | ELIde
   4  5,4  | ELIhu
+  4  5,4  | ELInt
   4  5,4  | ELIot
   4  5,4  | ELIte
   4  5,4  | ELIx
@@ -45802,6 +46447,7 @@
   4  4,5  | ENhaT
   4  4,5  | ENnuI
   4  4,5  | ENodE
+  4  4,5  | ENokI
   4  4,5  | ENruT
   4  4,5  | ENsuE
   4  4,5  | ENtrE
@@ -45846,6 +46492,7 @@
   4  4,2  | EThaN
   4  3,2  | ETheR
   4  6,7  - EThs
+  4  6,7  - ETic
   4  6,7  - ETna
   4  6,7  - ETon
   4  6,7  - ETta
@@ -45939,6 +46586,7 @@
   4  2,4  | ElEgIT
   4  6,7  - ElEm
   4  1,4  | ElHi
+  4  4,3  | ElINt
   4  5,4  | ElITE
   4  5,4  | ElITEs
   4  6,7  - ElIa
@@ -45954,6 +46602,7 @@
   4  3,2  | EldER
   4  4,2  | EldIN
   4  4,2  | ElfIN
+  4  4,3  | EliNT
   4  4,2  | EllEN
   4  3,2  | ElmER
   4  4,2  | EloIN
@@ -46067,6 +46716,7 @@
   4  6,7  - EtEn
   4  1,4  | EtH
   4  1,4  | EtHs
+  4  6,7  - EtIc
   4  6,7  - EtTa
   4  6,3  | EthAL
   4  2,3  | EthEL
@@ -46248,7 +46898,9 @@
   4  4,5  | INTa
   4  4,5  | INTel
   4  4,5  | INTer
+  4  4,5  | INTi
   4  4,5  | INTil
+  4  4,5  | INTis
   4  4,5  | INTl
   4  4,5  | INTnl
   4  4,5  | INTo
@@ -46263,6 +46915,7 @@
   4  4,5  | INbyE
   4  4,5  | INclE
   4  4,5  | INcuT
+  4  4,5  | INdiE
   4  4,5  | INduE
   4  4,5  | INepT
   4  4,5  | INerT
@@ -46412,17 +47065,24 @@
   4  6,3  | InTAkE
   4  5,6  | InTEl
   4  5,6  | InTEr
+  4  5,3  | InTI
+  4  5,6  | InTI
   4  5,3  | InTIl
   4  5,6  | InTIl
+  4  5,3  | InTIs
+  4  5,6  | InTIs
   4  4,3  | InTNl
   4  6,7  - InTa
   4  5,6  | InTeL
+  4  6,7  - InTi
   4  5,6  | InTiL
   4  6,7  - InTl
   4  5,6  | InTnL
   4  6,7  - InTo
   4  6,7  - InTr
   4  4,3  | InaNE
+  4  5,3  | IndIE
+  4  5,6  | IndIE
   4  3,2  | InfER
   4  5,3  | InfIT
   4  5,6  | InfIT
@@ -46542,7 +47202,9 @@
   4  6,5  | LATon
   4  6,5  | LATro
   4  6,5  | LATs
+  4  6,5  | LATte
   4  6,5  | LATus
+  4  6,5  | LAarI
   4  6,5  | LAbEl
   4  6,5  | LAbIa
   4  6,5  | LAbIs
@@ -46604,12 +47266,15 @@
   4  6,5  | LApsE
   4  6,5  | LApsI
   4  6,5  | LArE
+  4  6,5  | LArEe
   4  6,5  | LArEs
   4  6,5  | LArI
   4  6,5  | LArIa
   4  6,5  | LArId
   4  6,5  | LArIn
+  4  6,5  | LArIs
   4  6,5  | LArIx
+  4  6,5  | LAreE
   4  6,5  | LArgE
   4  6,5  | LArvE
   4  6,5  | LAsE
@@ -46627,9 +47292,11 @@
   4  6,5  | LAtEx
   4  6,5  | LAtI
   4  6,5  | LAtIn
+  4  6,5  | LAtTe
   4  6,5  | LAthE
   4  6,5  | LAthI
   4  6,5  | LAtkE
+  4  6,5  | LAttE
   4  6,5  | LAuIa
   4  6,5  | LAuTu
   4  6,5  | LAudE
@@ -46774,6 +47441,8 @@
   4  6,3  | LEhAy
   4  2,5  | LEhI
   4  2,5  | LEiTh
+  4  2,3  | LEkE
+  4  2,5  | LEkE
   4  2,5  | LElIa
   4  6,3  | LEmAn
   4  2,3  | LEmE
@@ -46799,6 +47468,7 @@
   4  2,3  | LEpEr
   4  2,5  | LEpEr
   4  2,5  | LEpId
+  4  2,5  | LEpT
   4  2,5  | LEpTa
   4  2,5  | LEprE
   4  2,3  | LErE
@@ -46833,6 +47503,8 @@
   4  2,5  | LEwTh
   4  2,5  | LEwTy
   4  2,5  | LEwiE
+  4  2,3  | LExEs
+  4  2,5  | LExEs
   4  2,5  | LExIa
   4  2,5  | LExIc
   4  2,5  | LExIs
@@ -46996,6 +47668,7 @@
   4  6,3  | LIrAs
   4  2,3  | LIrE
   4  5,5  | LIrE
+  4  5,5  | LIrI
   4  6,3  | LIsA
   4  2,3  | LIsE
   4  5,5  | LIsE
@@ -47026,6 +47699,7 @@
   4  6,3  | LIzA
   4  4,5  | LNdg
   4  4,5  | LNr
+  4  6,4  | LaArI
   4  2,4  | LaET
   4  2,4  | LaETi
   4  5,2  | LaEtI
@@ -47034,6 +47708,7 @@
   4  5,4  | LaITh
   4  5,4  | LaITy
   4  5,4  | LaInE
+  4  3,4  | LaReE
   4  3,4  | LaRgE
   4  3,4  | LaRvE
   4  6,3  | LaTAh
@@ -47050,6 +47725,7 @@
   4  5,2  | LaeTI
   4  4,3  | LaiN
   4  6,3  | LanAI
+  4  2,3  | LarEE
   4  4,3  | LarN
   4  4,3  | LauN
   4  4,3  | LawN
@@ -47130,6 +47806,7 @@
   4  2,3  | LunET
   4  4,3  | LunN
   4  2,4  | LwEI
+  4  2,4  | LwEIs
   4  6,4  | LyArT
   4  6,4  | LyAsE
   4  2,3  | LycEE
@@ -47213,7 +47890,9 @@
   4  4,6  | NIsEi
   4  4,6  | NIsT
   4  4,6  | NIssE
+  4  4,6  | NItE
   4  4,6  | NItEr
+  4  4,6  | NItEs
   4  4,6  | NItTa
   4  4,6  | NItTy
   4  4,6  | NItrE
@@ -47265,6 +47944,7 @@
   4  3,6  | REEst
   4  3,6  | REEt
   4  3,6  | REEve
+  4  3,6  | REI
   4  3,6  | REIce
   4  3,6  | REIch
   4  3,6  | REId
@@ -47438,6 +48118,7 @@
   4  3,6  | RoTEr
   4  3,6  | RoTEs
   4  3,6  | RoTI
+  4  3,6  | RoTIs
   4  3,6  | RoTaL
   4  3,6  | RokEE
   4  3,6  | RooTI
@@ -47578,6 +48259,7 @@
   4  2,5  | TELly
   4  2,5  | TELoi
   4  2,5  | TELos
+  4  2,5  | TELs
   4  2,5  | TELt
   4  2,5  | TELyn
   4  3,4  | TERai
@@ -47654,6 +48336,7 @@
   4  6,5  - TEe
   4  6,7  - TEe
   4  2,5  | TEeL
+  4  2,5  | TEeLs
   4  6,5  - TEed
   4  6,7  - TEed
   4  6,5  - TEel
@@ -47712,6 +48395,8 @@
   4  6,5  - TEll
   4  6,7  - TEll
   4  5,2  | TEloI
+  4  6,5  - TEls
+  4  6,7  - TEls
   4  6,5  - TElt
   4  6,7  - TElt
   4  4,2  | TElyN
@@ -47783,6 +48468,8 @@
   4  6,7  - TEss
   4  6,5  - TEst
   4  6,7  - TEst
+  4  6,5  - TEt
+  4  6,7  - TEt
   4  3,3  | TEtRa
   4  6,5  - TEte
   4  6,7  - TEte
@@ -47790,6 +48477,8 @@
   4  6,5  - TEth
   4  6,7  - TEth
   4  4,2  | TEtoN
+  4  6,5  - TEts
+  4  6,7  - TEts
   4  6,5  - TEuk
   4  6,7  - TEuk
   4  6,5  - TEw
@@ -48221,6 +48910,7 @@
   4  6,5  - TeE
   4  6,7  - TeE
   4  2,4  | TeEL
+  4  2,4  | TeELs
   4  4,3  | TeEN
   4  4,3  | TeENs
   4  4,3  | TeENy
@@ -48275,6 +48965,7 @@
   4  4,3  | TenNE
   4  6,3  | TepAL
   4  4,3  | TerNE
+  4  5,7  - Tet
   4  2,3  | TetEL
   4  5,7  - Tew
   4  3,2  | TewER
@@ -48453,6 +49144,7 @@
   4  3,4  | ToRaL
   4  3,2  | TohER
   4  4,2  | TokEN
+  4  3,2  | TokER
   4  4,2  | TomIN
   4  6,3  | TonAL
   4  3,2  | TonER
@@ -48617,6 +49309,8 @@
   4  6,7  - TyE
   4  6,5  - TyEe
   4  6,7  - TyEe
+  4  6,5  - TyEr
+  4  6,7  - TyEr
   4  6,5  - TyEs
   4  6,7  - TyEs
   4  4,3  | TyINg
@@ -48769,6 +49463,7 @@
   4  6,3  | aLgAE
   4  2,3  | aLhET
   4  2,3  | aLiET
+  4  2,3  | aLlEE
   4  5,3  | aLlIE
   4  4,5  | aNElE
   4  4,5  | aNEnT
@@ -48902,6 +49597,7 @@
   4  6,5  - alIT
   4  6,7  - alIT
   4  5,5  - alL
+  4  2,3  | alLEE
   4  5,3  | alLIE
   4  3,2  | alTER
   4  1,5  - am
@@ -49744,6 +50440,8 @@
   4  2,5  | dEcIL
   4  6,3  | dEdAL
   4  5,7  - dEe
+  4  6,5  - dEeT
+  4  6,7  - dEeT
   4  5,7  - dEf
   4  2,3  | dEfEIT
   4  6,5  - dEfI
@@ -49917,6 +50615,9 @@
   4  5,5  - dbL
   4  5,7  - dbL
   4  6,4  | deALT
+  4  6,5  - deET
+  4  5,7  - deET
+  4  6,7  - deET
   4  5,7  - deL
   4  5,3  | deLIT
   4  3,2  | deTER
@@ -49993,6 +50694,7 @@
   4  5,4  | eLITe
   4  6,7  - eLIa
   4  5,4  | eLIdE
+  4  5,4  | eLInT
   4  5,4  | eLIoT
   4  5,4  | eLItE
   4  6,7  - eLIx
@@ -50028,6 +50730,7 @@
   4  1,7  - eh
   4  1,7  - el
   4  1,4  | elHI
+  4  4,3  | elINT
   4  1,5  - em
   4  1,7  - em
   4  6,4  | emAIL
@@ -50087,6 +50790,7 @@
   4  2,4  | fEErIE
   4  6,5  - fEEsT
   4  1,4  | fEH
+  4  1,4  | fEHs
   4  5,4  | fEIL
   4  2,5  | fEIL
   4  6,5  - fEInT
@@ -50229,6 +50933,7 @@
   4  5,7  - fIx
   4  6,3  | fIxATE
   4  6,5  - fIxE
+  4  5,5  | fIxIT
   4  6,5  - fIxT
   4  5,7  - fIz
   4  6,4  | fLAIl
@@ -50433,6 +51138,7 @@
   4  6,7  - gEaT
   4  6,7  - gEeT
   4  6,3  | gElATE
+  4  6,3  | gElATI
   4  6,7  - gElT
   4  2,3  | gEmEL
   4  2,5  | gEmEL
@@ -50532,6 +51238,8 @@
   4  6,7  - gLEy
   4  6,3  | gLIA
   4  6,3  | gLIAl
+  4  6,3  | gLIAs
+  4  5,4  | gLITz
   4  6,7  - gLIa
   4  6,7  - gLIb
   4  5,4  | gLIdE
@@ -50659,6 +51367,7 @@
   4  2,4  | hEEzIE
   4  1,4  | hEH
   4  1,4  | hEHe
+  4  1,4  | hEHs
   4  5,4  | hEIL
   4  2,5  | hEIL
   4  5,4  | hEILd
@@ -50694,6 +51403,8 @@
   4  6,7  - hELl
   4  6,5  - hELm
   4  6,7  - hELm
+  4  6,5  - hELo
+  4  6,7  - hELo
   4  2,5  | hELoE
   4  2,5  | hELoT
   4  6,5  - hELp
@@ -50888,6 +51599,7 @@
   4  2,3  | inLET
   4  2,3  | inTEL
   4  3,2  | inTER
+  4  6,7  - inTI
   4  5,3  | inTIL
   4  1,7  - io
   4  4,3  | irENE
@@ -50975,6 +51687,8 @@
   4  2,5  | kELEp
   4  5,3  | kELIa
   4  2,5  | kELIa
+  4  5,3  | kELIm
+  4  2,5  | kELIm
   4  2,5  | kELT
   4  2,5  | kELTs
   4  2,5  | kELTy
@@ -51073,6 +51787,7 @@
   4  4,5  | kNEzI
   4  4,5  | kNIfE
   4  4,5  | kNIvE
+  4  3,5  | kREEp
   4  3,5  | kREIl
   4  3,5  | kREIs
   4  3,5  | kRaIT
@@ -51156,6 +51871,8 @@
   4  6,7  - lEgE
   4  6,5  - lEhI
   4  6,7  - lEhI
+  4  6,5  - lEkE
+  4  6,7  - lEkE
   4  6,5  - lEmE
   4  6,7  - lEmE
   4  2,3  | lEmEL
@@ -51167,6 +51884,8 @@
   4  6,7  - lEnT
   4  6,3  | lEpAL
   4  3,3  | lEpRE
+  4  6,5  - lEpT
+  4  6,7  - lEpT
   4  6,5  - lErE
   4  6,7  - lErE
   4  6,5  - lEsE
@@ -51311,6 +52030,7 @@
   4  5,5  - laIT
   4  6,5  - laIT
   4  6,7  - laIT
+  4  3,4  | laREE
   4  5,5  - laTE
   4  6,5  - laTE
   4  6,7  - laTE
@@ -51328,6 +52048,8 @@
   4  6,7  - liTI
   4  5,3  | loEIL
   4  2,4  | loEIL
+  4  6,5  - loTI
+  4  6,7  - loTI
   4  6,5  - luTE
   4  6,7  - luTE
   4  3,2  | luTER
@@ -51481,6 +52203,8 @@
   4  2,5  | mEtEL
   4  4,2  | mEtIN
   4  3,3  | mEtRE
+  4  6,5  - mEzE
+  4  6,7  - mEzE
   4  6,4  | mIAuL
   4  6,5  - mIL
   4  6,7  - mIL
@@ -51770,6 +52494,8 @@
   4  6,5  - nIsT
   4  6,7  - nIsT
   4  5,7  - nIt
+  4  6,5  - nItE
+  4  6,7  - nItE
   4  3,3  | nItRE
   4  6,5  - nIuE
   4  6,7  - nIuE
@@ -51796,6 +52522,9 @@
   4  5,7  - neTI
   4  6,7  - neTI
   4  5,7  - niL
+  4  6,5  - niTE
+  4  5,7  - niTE
+  4  6,7  - niTE
   4  3,2  | niTER
   4  4,3  | noINT
   4  3,4  | noRIE
@@ -52310,6 +53039,7 @@
   4  5,3  | rETIEs
   4  5,3  | rETIlE
   4  5,3  | rETImE
+  4  5,3  | rETInE
   4  5,3  | rETIrE
   4  3,3  | rETRo
   4  3,3  | rETRy
@@ -52344,6 +53074,7 @@
   4  6,7  - rEiT
   4  6,7  - rEkI
   4  6,3  | rElATE
+  4  6,3  | rEmATE
   4  2,3  | rEmEET
   4  4,2  | rEmEN
   4  6,7  - rEmI
@@ -52360,6 +53091,7 @@
   4  6,7  - rEpT
   4  6,3  | rErATE
   4  4,2  | rEsIN
+  4  5,3  | rEsITE
   4  6,7  - rEsT
   4  6,3  | rEtAL
   4  6,7  - rEtE
@@ -52507,9 +53239,11 @@
   4  2,5  | sELlI
   4  6,7  - sELs
   4  6,7  - sELt
+  4  4,4  | sENE
   4  4,4  | sENEx
   4  4,4  | sENIt
   4  4,4  | sENT
+  4  4,4  | sENTe
   4  4,4  | sENTi
   4  4,4  | sENTs
   4  3,4  | sERaI
@@ -52549,6 +53283,7 @@
   4  5,7  - sEn
   4  6,3  | sEnAL
   4  6,3  | sEnATE
+  4  6,7  - sEnE
   4  5,1  | sEnITI
   4  5,3  | sEnITI
   4  6,7  - sEnT
@@ -52928,6 +53663,8 @@
   4  5,7  - snIT
   4  6,7  - snIT
   4  1,5  - so
+  4  5,2  | soLEI
+  4  2,3  | soLEI
   4  4,3  | soLN
   4  3,4  | soREE
   4  3,2  | soTER
@@ -53022,6 +53759,8 @@
   4  6,4  | tEAThE
   4  2,4  | tEEL
   4  2,5  | tEEL
+  4  2,4  | tEELs
+  4  2,5  | tEELs
   4  2,4  | tEETEe
   4  2,4  | tEETEr
   4  2,4  | tEETeE
@@ -53068,6 +53807,8 @@
   4  6,7  - tELl
   4  2,5  | tELlT
   4  2,5  | tELoI
+  4  6,5  - tELs
+  4  6,7  - tELs
   4  6,5  - tELt
   4  6,7  - tELt
   4  4,4  | tENEt
@@ -53121,6 +53862,7 @@
   4  5,1  | tErTII
   4  6,5  - tEsT
   4  6,7  - tEsT
+  4  5,7  - tEt
   4  6,5  - tEtE
   4  6,7  - tEtE
   4  2,3  | tEtEL
@@ -53542,6 +54284,7 @@
   4  2,4  | wEETEd
   4  2,4  | wEEnIE
   4  6,7  - wEEnT
+  4  2,4  | wEEpIE
   4  6,7  - wEEsT
   4  3,3  | wEIR
   4  3,3  | wEIRd
@@ -53888,7 +54631,6 @@
   3  6,6  | AmIT
   3  6,6  | AmLa
   3  6,6  | AmLi
-  3  6,6  | AmaL
   3  6,6  | AmeL
   3  6,6  | AmiL
   3  6,6  | AmyL
@@ -54056,6 +54798,8 @@
   3  2,4  | ETEn
   3  2,6  | ETEn
   3  5,4  | ETIam
+  3  5,4  | ETIc
+  3  2,6  | ETIc
   3  6,3  | EThAl
   3  6,3  | EThAn
   3  2,3  | EThEl
@@ -54152,6 +54896,7 @@
   3  6,3  | ElIAs
   3  5,4  | ElITe
   3  5,4  | ElIdE
+  3  5,4  | ElInT
   3  5,4  | ElIoT
   3  5,4  | ElItE
   3  2,6  | ElL
@@ -54330,6 +55075,7 @@
   3  4,3  | ExoN
   3  3,3  | ExoR
   3  6,7  - Exp
+  3  6,3  | ExpAT
   3  6,7  - Exr
   3  2,6  | ExuL
   3  2,6  | EyL
@@ -54393,6 +55139,7 @@
   3  1,6  | Hit
   3  1,6  | Hld
   3  1,6  | Hm
+  3  1,6  | Hmm
   3  1,6  | Hny
   3  1,6  | Ho
   3  1,6  | Hob
@@ -54479,6 +55226,7 @@
   3  4,5  | INsp
   3  4,5  | INt
   3  4,5  | INta
+  3  4,5  | INti
   3  4,5  | INtl
   3  4,5  | INto
   3  4,5  | INtr
@@ -54536,6 +55284,7 @@
   3  5,4  | IcIEr
   3  6,7  - Ice
   3  6,7  - Ich
+  3  6,7  - Ick
   3  4,3  | IcoN
   3  6,7  - Icy
   3  6,7  - Id
@@ -54653,6 +55402,8 @@
   3  2,3  | InsEE
   3  2,3  | InsET
   3  6,7  - Int
+  3  5,3  | IntI
+  3  5,6  | IntI
   3  3,3  | IntR
   3  6,7  - Inv
   3  5,6  | InvT
@@ -54806,6 +55557,7 @@
   3  6,5  | LAv
   3  6,5  | LAva
   3  6,5  | LAve
+  3  6,5  | LAvs
   3  6,5  | LAvy
   3  6,5  | LAw
   3  6,5  | LAwk
@@ -54853,7 +55605,9 @@
   3  2,5  | LEif
   3  2,5  | LEis
   3  2,5  | LEk
+  3  2,5  | LEke
   3  2,5  | LEks
+  3  2,5  | LEku
   3  2,5  | LEme
   3  2,5  | LEna
   3  2,5  | LEnd
@@ -54866,6 +55620,7 @@
   3  2,5  | LEos
   3  2,5  | LEp
   3  2,5  | LEpa
+  3  2,5  | LEpt
   3  2,5  | LEr
   3  2,5  | LEre
   3  2,5  | LErp
@@ -54888,6 +55643,7 @@
   3  2,5  | LEx
   3  2,5  | LEy
   3  2,5  | LEys
+  3  2,5  | LEz
   3  5,5  | LI
   3  5,5  | LIar
   3  5,5  | LIas
@@ -54949,6 +55705,7 @@
   3  5,5  | LIr
   3  5,5  | LIra
   3  5,5  | LIre
+  3  5,5  | LIri
   3  5,5  | LIs
   3  5,5  | LIsa
   3  5,5  | LIse
@@ -54964,7 +55721,6 @@
   3  5,5  | LIts
   3  5,5  | LItu
   3  5,5  | LItz
-  3  5,5  | LIv
   3  5,5  | LIve
   3  5,5  | LIz
   3  5,5  | LIza
@@ -55027,6 +55783,7 @@
   3  6,3  | LedA
   3  2,3  | LedE
   3  2,3  | LegE
+  3  2,3  | LekE
   3  2,3  | LemE
   3  6,3  | LenA
   3  2,3  | LenE
@@ -55048,6 +55805,7 @@
   3  3,4  | LiR
   3  3,4  | LiRa
   3  3,4  | LiRe
+  3  3,4  | LiRi
   3  2,3  | LicE
   3  6,3  | LidA
   3  2,3  | LidE
@@ -55123,6 +55881,7 @@
   3  6,3  | LubA
   3  2,3  | LubE
   3  2,3  | LucE
+  3  2,3  | LudE
   3  2,3  | LugE
   3  2,3  | LukE
   3  6,3  | LulA
@@ -55228,6 +55987,7 @@
   3  4,6  | NIsi
   3  4,6  | NIst
   3  4,6  | NIt
+  3  4,6  | NIte
   3  4,6  | NIto
   3  4,6  | NIts
   3  4,6  | NIue
@@ -55236,6 +55996,7 @@
   3  4,6  | NIxy
   3  4,6  | NIzy
   3  4,6  | NTh
+  3  4,6  | NabE
   3  4,6  | NacE
   3  4,6  | NakE
   3  4,6  | NalE
@@ -55281,6 +56042,7 @@
   3  4,6  | NinE
   3  4,6  | NisI
   3  4,6  | NisT
+  3  4,6  | NitE
   3  4,6  | NiuE
   3  4,6  | NixE
   3  4,6  | NodE
@@ -55337,8 +56099,10 @@
   3  3,6  | REgd
   3  3,6  | REgo
   3  3,6  | REgr
+  3  3,6  | REgs
   3  3,6  | REgt
   3  3,6  | REh
+  3  3,6  | REi
   3  3,6  | REid
   3  3,6  | REif
   3  3,6  | REim
@@ -55360,6 +56124,7 @@
   3  3,6  | REnu
   3  3,6  | REp
   3  3,6  | REpl
+  3  3,6  | REpo
   3  3,6  | REpp
   3  3,6  | REpr
   3  3,6  | REps
@@ -55380,6 +56145,7 @@
   3  3,6  | REx
   3  3,6  | RIa
   3  3,6  | RIal
+  3  3,6  | RIas
   3  3,6  | RIb
   3  3,6  | RIbe
   3  3,6  | RIbs
@@ -55395,6 +56161,7 @@
   3  3,6  | RIem
   3  3,6  | RIer
   3  3,6  | RIes
+  3  3,6  | RIf
   3  3,6  | RIfe
   3  3,6  | RIff
   3  3,6  | RIfi
@@ -55717,6 +56484,8 @@
   3  2,5  | TEEd
   3  2,4  | TEEl
   3  2,5  | TEEl
+  3  2,4  | TEEls
+  3  2,5  | TEEls
   3  2,4  | TEEm
   3  2,5  | TEEm
   3  2,4  | TEEms
@@ -56122,6 +56891,8 @@
   3  5,3  | TerI
   3  4,3  | TerN
   3  3,3  | TerR
+  3  6,5  - Tet
+  3  6,7  - Tet
   3  6,5  - Tew
   3  6,7  - Tew
   3  6,5  - Tex
@@ -56154,6 +56925,7 @@
   3  2,4  | ThEEt
   3  2,4  | ThEIn
   3  2,4  | ThEIr
+  3  2,4  | ThEbE
   3  3,2  | ThEeR
   3  3,2  | ThEiR
   3  2,4  | ThEmE
@@ -56448,6 +57220,7 @@
   3  2,4  | TyEEs
   3  6,5  - Tye
   3  6,7  - Tye
+  3  3,3  | TyeR
   3  6,5  - Tyg
   3  6,7  - Tyg
   3  6,5  - Typ
@@ -56687,7 +57460,6 @@
   3  2,3  | alLE
   3  5,5  - alT
   3  4,5  - am
-  3  6,4  | amAL
   3  6,4  | amATE
   3  6,4  | amATI
   3  2,4  | amEL
@@ -57035,6 +57807,7 @@
   3  3,5  | bRIm
   3  3,5  | bRIn
   3  3,5  | bRIo
+  3  3,5  | bRIs
   3  3,5  | bRIt
   3  5,4  | bTIsE
   3  3,4  | bTRy
@@ -57131,6 +57904,7 @@
   3  6,5  | cALk
   3  6,5  | cALl
   3  6,5  | cALm
+  3  6,5  | cALo
   3  6,5  | cALp
   3  6,5  | cALs
   3  6,5  | cALx
@@ -57160,8 +57934,10 @@
   3  2,5  | cEIlE
   3  5,4  | cEInT
   3  2,5  | cEInT
+  3  2,5  | cEL
   3  2,5  | cELe
   3  2,5  | cELl
+  3  2,5  | cELs
   3  2,5  | cELt
   3  4,4  | cENe
   3  4,4  | cENt
@@ -57321,12 +58097,14 @@
   3  6,5  | dALf
   3  6,5  | dALi
   3  6,5  | dALk
+  3  6,5  | dALs
   3  6,5  | dALt
   3  6,5  | dATE
   3  6,5  | dATEd
   3  6,5  | dATEr
   3  6,5  | dATEs
   3  6,5  | dATIl
+  3  6,5  | dAhL
   3  6,5  | dAmIE
   3  6,5  | dAnTE
   3  6,5  | dAvIT
@@ -57337,6 +58115,10 @@
   3  6,4  | dEAvE
   3  6,5  - dEE
   3  6,7  - dEE
+  3  2,4  | dEET
+  3  2,5  | dEET
+  3  2,4  | dEETs
+  3  2,5  | dEETs
   3  6,5  - dEEd
   3  6,7  - dEEd
   3  6,5  - dEEk
@@ -57349,6 +58131,8 @@
   3  6,7  - dEEr
   3  6,5  - dEEs
   3  6,7  - dEEs
+  3  6,5  - dEEt
+  3  6,7  - dEEt
   3  6,5  - dEI
   3  6,7  - dEI
   3  6,3  | dEIA
@@ -57423,6 +58207,8 @@
   3  6,3  | dEtAT
   3  2,5  | dEtTE
   3  2,5  | dEuL
+  3  5,3  | dExIE
+  3  2,5  | dExIE
   3  1,5  | dHa
   3  1,5  | dHu
   3  6,4  | dIAcT
@@ -57485,6 +58271,8 @@
   3  6,7  - dITs
   3  6,5  - dITt
   3  6,7  - dITt
+  3  6,5  - dITz
+  3  6,7  - dITz
   3  5,5  | dIaL
   3  5,3  | dIdIE
   3  5,5  | dIeL
@@ -57565,6 +58353,7 @@
   3  4,4  | doNE
   3  4,4  | doNI
   3  4,4  | doNT
+  3  3,4  | doRE
   3  3,4  | doRI
   3  3,4  | doRT
   3  6,4  | drATE
@@ -57639,6 +58428,7 @@
   3  6,4  | eTApE
   3  6,7  - eTEn
   3  6,3  | eTIAm
+  3  6,7  - eTIc
   3  4,4  | eTNa
   3  2,3  | eTwEE
   3  4,3  | ebEN
@@ -57839,6 +58629,7 @@
   3  5,3  | fIkIE
   3  2,3  | fIlET
   3  5,5  | fIlL
+  3  5,3  | fIxIT
   3  6,4  | fLAb
   3  6,4  | fLAg
   3  6,4  | fLAk
@@ -58076,6 +58867,7 @@
   3  5,5  | gITIm
   3  6,7  - gITe
   3  6,7  - gITh
+  3  6,7  - gITs
   3  2,3  | gIlET
   3  5,5  | gIlL
   3  5,5  | gIrL
@@ -58263,6 +59055,7 @@
   3  2,5  | hELe
   3  2,5  | hELl
   3  2,5  | hELm
+  3  2,5  | hELo
   3  2,5  | hELp
   3  4,4  | hEN
   3  4,4  | hENd
@@ -58291,6 +59084,8 @@
   3  6,7  - hETe
   3  6,5  - hETh
   3  6,7  - hETh
+  3  6,5  - hETs
+  3  6,7  - hETs
   3  2,5  | hEaL
   3  2,5  | hEcTE
   3  2,5  | hEeL
@@ -58419,6 +59214,7 @@
   3  4,5  | iNIt
   3  4,5  | iNT
   3  4,5  | iNTa
+  3  4,5  | iNTi
   3  4,5  | iNTl
   3  4,5  | iNTo
   3  4,5  | iNTr
@@ -58621,8 +59417,10 @@
   3  4,4  | kINk
   3  4,4  | kINo
   3  4,4  | kINs
+  3  3,4  | kIR
   3  3,4  | kIRk
   3  3,4  | kIRn
+  3  3,4  | kIRs
   3  6,5  - kIT
   3  6,3  | kITAb
   3  6,3  | kITAn
@@ -58711,10 +59509,13 @@
   3  6,5  | lAThE
   3  6,5  | lAThI
   3  6,5  | lATkE
+  3  6,5  | lATtE
   3  6,5  | lAcET
   3  6,5  | lAeTI
   3  6,5  | lAkIE
   3  6,5  | lAlL
+  3  6,5  | lArEE
+  3  6,5  | lAtTE
   3  6,4  | lEAT
   3  6,4  | lEATh
   3  6,4  | lEAnT
@@ -58817,6 +59618,7 @@
   3  3,4  | lIR
   3  3,4  | lIRa
   3  3,4  | lIRe
+  3  3,4  | lIRi
   3  6,5  - lIT
   3  6,7  - lIT
   3  6,3  | lITAi
@@ -58879,6 +59681,7 @@
   3  4,4  | liNE
   3  4,4  | liNT
   3  3,4  | liRE
+  3  3,4  | liRI
   3  6,3  | liTAI
   3  3,3  | llER
   3  4,3  | loIN
@@ -59169,6 +59972,7 @@
   3  1,4  | mpH
   3  3,3  | muIR
   3  2,3  | muLE
+  3  4,4  | muNI
   3  4,4  | muNT
   3  3,4  | muRE
   3  6,4  | myAL
@@ -59261,10 +60065,16 @@
   3  4,4  | nINg
   3  6,5  - nIT
   3  6,7  - nIT
+  3  2,3  | nITE
+  3  5,5  | nITE
   3  2,3  | nITEr
   3  5,5  | nITEr
+  3  2,3  | nITEs
+  3  5,5  | nITEs
   3  5,3  | nITId
   3  5,5  | nITId
+  3  6,5  - nITe
+  3  6,7  - nITe
   3  6,5  - nITo
   3  6,7  - nITo
   3  6,5  - nITs
@@ -59272,6 +60082,7 @@
   3  5,5  | nIlL
   3  5,3  | nIxIE
   3  5,7  - naE
+  3  1,4  | naH
   3  5,4  | naIL
   3  4,3  | naIN
   3  3,3  | naIR
@@ -59641,6 +60452,7 @@
   3  3,5  | pREv
   3  3,5  | pREx
   3  3,5  | pREy
+  3  3,5  | pREz
   3  3,5  | pRIa
   3  3,5  | pRIe
   3  3,5  | pRIg
@@ -59717,6 +60529,7 @@
   3  5,5  - ptT
   3  3,3  | puIR
   3  6,5  - puL
+  3  6,3  | puLA
   3  2,3  | puLE
   3  5,3  | puLI
   3  4,4  | puNT
@@ -59788,6 +60601,7 @@
   3  6,7  - rEEt
   3  2,4  | rEEvE
   3  2,5  | rEEvE
+  3  6,7  - rEI
   3  5,4  | rEIT
   3  2,5  | rEIT
   3  5,4  | rEIcE
@@ -60030,6 +60844,7 @@
   3  4,4  | sEN
   3  4,4  | sENa
   3  4,4  | sENd
+  3  4,4  | sENe
   3  4,4  | sENt
   3  3,4  | sER
   3  3,4  | sERa
@@ -60060,6 +60875,7 @@
   3  2,5  | sEmEE
   3  5,3  | sEnIT
   3  2,5  | sEnIT
+  3  2,5  | sEnTE
   3  2,5  | sEnTI
   3  2,5  | sEpTI
   3  6,3  | sErAI
@@ -60267,6 +61083,7 @@
   3  5,7  - seI
   3  6,7  - seL
   3  2,3  | seLE
+  3  4,4  | seNE
   3  4,4  | seNT
   3  3,4  | seRE
   3  3,4  | seRI
@@ -60358,6 +61175,7 @@
   3  5,5  - syE
   3  5,7  - syE
   3  6,7  - syL
+  3  5,3  | syLI
   3  4,4  | syNE
   3  3,4  | syRE
   3  3,4  | syRT
@@ -60432,6 +61250,7 @@
   3  2,5  | tELe
   3  2,5  | tELi
   3  2,5  | tELl
+  3  2,5  | tELs
   3  2,5  | tELt
   3  4,4  | tEN
   3  4,4  | tENd
@@ -60443,6 +61262,8 @@
   3  3,4  | tERn
   3  3,4  | tERp
   3  3,4  | tERr
+  3  6,5  - tET
+  3  6,7  - tET
   3  2,3  | tETE
   3  2,5  | tETE
   3  2,3  | tETEl
@@ -60451,6 +61272,8 @@
   3  6,7  - tETe
   3  6,5  - tETh
   3  6,7  - tETh
+  3  6,5  - tETs
+  3  6,7  - tETs
   3  2,5  | tEaL
   3  2,3  | tEbET
   3  2,5  | tEbET
@@ -60586,6 +61409,7 @@
   3  5,3  | teLI
   3  4,4  | teNT
   3  3,4  | teRI
+  3  5,7  - teT
   3  5,7  - tgT
   3  5,5  - thE
   3  5,7  - thE
@@ -60642,6 +61466,7 @@
   3  5,4  | twITE
   3  5,5  - tyE
   3  5,7  - tyE
+  3  3,3  | tyER
   3  4,4  | tyNE
   3  3,4  | tyRE
   3  5,5  - tyT
@@ -60741,6 +61566,8 @@
   3  2,5  | vEaL
   3  2,3  | vEdET
   3  2,5  | vEdET
+  3  5,3  | vEgIE
+  3  2,5  | vEgIE
   3  2,5  | vEiL
   3  2,5  | vElL
   3  2,5  | vElTE
@@ -61066,6 +61893,7 @@
   3  4,4  | zEN
   3  4,4  | zENu
   3  3,4  | zER
+  3  3,4  | zERk
   3  3,4  | zERo
   3  6,3  | zETA
   3  6,3  | zETAs
@@ -61074,8 +61902,10 @@
   3  1,5  | zHo
   3  5,5  | zILa
   3  5,5  | zILl
+  3  4,4  | zIN
   3  4,4  | zINc
   3  4,4  | zINg
+  3  4,4  | zINs
   3  3,4  | zIRa
   3  6,5  - zIT
   3  5,3  | zITI
@@ -61472,6 +62302,7 @@
   2  2,6  | ETen
   2  2,6  | ETh
   2  2,6  | EThs
+  2  2,6  | ETic
   2  2,6  | ETna
   2  2,6  | ETon
   2  2,6  | ETta
@@ -61679,6 +62510,8 @@
   2  6,4  | EtAs
   2  2,4  | EtEn
   2  2,6  | EtEn
+  2  5,4  | EtIc
+  2  2,6  | EtIc
   2  2,6  | EtTa
   2  6,3  | EtnA
   2  6,3  | EttA
@@ -61862,6 +62695,7 @@
   2  3,4  | InRo
   2  5,6  | InT
   2  5,6  | InTa
+  2  5,6  | InTi
   2  5,6  | InTl
   2  5,6  | InTo
   2  5,6  | InTr
@@ -61942,6 +62776,7 @@
   2  4,6  | Nae
   2  4,6  | Naf
   2  4,6  | Nag
+  2  4,6  | Nah
   2  4,6  | Nak
   2  4,6  | Nam
   2  4,6  | Nan
@@ -62018,6 +62853,7 @@
   2  3,6  | ReEn
   2  3,6  | ReEs
   2  3,6  | ReEt
+  2  3,6  | ReI
   2  3,6  | ReId
   2  3,6  | ReIf
   2  3,6  | ReIm
@@ -62219,6 +63055,7 @@
   2  2,5  | TEle
   2  2,5  | TEli
   2  2,5  | TEll
+  2  2,5  | TEls
   2  2,5  | TElt
   2  2,5  | TEm
   2  2,5  | TEma
@@ -62237,8 +63074,10 @@
   2  2,5  | TErr
   2  2,5  | TEss
   2  2,5  | TEst
+  2  2,5  | TEt
   2  2,5  | TEte
   2  2,5  | TEth
+  2  2,5  | TEts
   2  2,5  | TEuk
   2  2,5  | TEw
   2  2,5  | TEwa
@@ -62554,6 +63393,7 @@
   2  2,3  | TwiE
   2  2,4  | TyE
   2  2,4  | TyEe
+  2  2,4  | TyEr
   2  2,4  | TyEs
   2  3,4  | TyR
   2  3,4  | TyRe
@@ -63212,6 +64052,8 @@
   2  2,5  | dEEr
   2  2,4  | dEEs
   2  2,5  | dEEs
+  2  2,4  | dEEt
+  2  2,5  | dEEt
   2  5,4  | dEI
   2  2,5  | dEI
   2  5,4  | dEIa
@@ -63238,6 +64080,7 @@
   2  6,5  - dEe
   2  6,7  - dEe
   2  3,3  | dEeR
+  2  2,5  | dEeT
   2  6,5  - dEf
   2  6,7  - dEf
   2  5,3  | dEfI
@@ -63326,6 +64169,7 @@
   2  5,5  | dITe
   2  5,5  | dITs
   2  5,5  | dITt
+  2  5,5  | dITz
   2  6,5  - dIa
   2  6,7  - dIa
   2  6,5  - dIb
@@ -63402,6 +64246,7 @@
   2  5,7  - de
   2  6,5  - deE
   2  6,7  - deE
+  2  2,4  | deET
   2  6,5  - deI
   2  6,7  - deI
   2  6,3  | deIA
@@ -63479,6 +64324,7 @@
   2  6,4  | eTA
   2  6,4  | eTAs
   2  2,4  | eTEn
+  2  5,4  | eTIc
   2  6,7  - eTa
   2  6,7  - eTc
   2  6,7  - eTh
@@ -63547,6 +64393,7 @@
   2  6,5  | fAsT
   2  6,5  | fAtE
   2  6,5  | fAuT
+  2  6,5  | fAvE
   2  6,5  | fAvI
   2  6,5  | fAzE
   2  6,5  - fE
@@ -63822,6 +64669,7 @@
   2  5,5  | gIT
   2  5,5  | gITe
   2  5,5  | gITh
+  2  5,5  | gITs
   2  6,7  - gIb
   2  2,3  | gIbE
   2  5,5  | gIbE
@@ -63989,6 +64837,7 @@
   2  2,5  | hET
   2  2,5  | hETe
   2  2,5  | hETh
+  2  2,5  | hETs
   2  3,3  | hEaR
   2  2,5  | hEaT
   2  2,3  | hEbE
@@ -64210,6 +65059,7 @@
   2  4,4  | inN
   2  6,7  - inT
   2  6,3  | inTA
+  2  5,3  | inTI
   2  4,4  | ioN
   2  6,3  | ioTA
   2  6,7  - irE
@@ -64260,6 +65110,7 @@
   2  2,3  | jEtE
   2  2,5  | jEtE
   2  6,5  - jEu
+  2  6,5  - jEw
   2  6,4  | jIAo
   2  5,5  | jITi
   2  6,5  - jIb
@@ -64302,6 +65153,7 @@
   2  6,5  | kAIl
   2  6,5  | kAIn
   2  6,5  | kAT
+  2  6,5  | kATa
   2  6,5  | kATe
   2  6,5  | kATh
   2  6,5  | kATs
@@ -64400,6 +65252,7 @@
   2  2,3  | kInE
   2  5,5  | kInE
   2  6,5  - kIp
+  2  6,5  - kIr
   2  5,5  | kIsT
   2  6,5  - kIt
   2  2,3  | kItE
@@ -64413,6 +65266,7 @@
   2  6,5  - kaE
   2  6,5  - kaI
   2  6,5  - kaT
+  2  6,3  | kaTA
   2  2,3  | kaTE
   2  6,4  | keAT
   2  2,4  | keET
@@ -64538,6 +65392,8 @@
   2  6,7  - lEi
   2  6,5  - lEk
   2  6,7  - lEk
+  2  2,3  | lEkE
+  2  2,5  | lEkE
   2  2,3  | lEmE
   2  2,5  | lEmE
   2  6,3  | lEnA
@@ -64547,6 +65403,7 @@
   2  6,5  - lEp
   2  6,7  - lEp
   2  6,3  | lEpA
+  2  2,5  | lEpT
   2  6,5  - lEr
   2  6,7  - lEr
   2  2,3  | lErE
@@ -64570,6 +65427,8 @@
   2  6,7  - lEx
   2  6,5  - lEy
   2  6,7  - lEy
+  2  6,5  - lEz
+  2  6,7  - lEz
   2  6,5  - lI
   2  6,7  - lI
   2  6,4  | lIAr
@@ -64645,6 +65504,8 @@
   2  6,3  | lIrA
   2  2,3  | lIrE
   2  5,5  | lIrE
+  2  5,3  | lIrI
+  2  5,5  | lIrI
   2  6,5  - lIs
   2  6,7  - lIs
   2  6,3  | lIsA
@@ -64657,8 +65518,6 @@
   2  5,5  | lItE
   2  5,3  | lItI
   2  5,5  | lItI
-  2  6,5  - lIv
-  2  6,7  - lIv
   2  2,3  | lIvE
   2  5,5  | lIvE
   2  6,5  - lIz
@@ -64697,6 +65556,7 @@
   2  6,5  - loT
   2  6,7  - loT
   2  6,3  | loTA
+  2  5,3  | loTI
   2  6,5  - lsT
   2  6,7  - lsT
   2  6,5  - luE
@@ -64727,6 +65587,7 @@
   2  6,5  | mATt
   2  6,5  | mATy
   2  6,5  | mAaT
+  2  6,5  | mAbE
   2  6,5  | mAbI
   2  6,5  | mAcE
   2  6,5  | mAdE
@@ -64824,6 +65685,8 @@
   2  6,7  - mEu
   2  6,5  - mEw
   2  6,7  - mEw
+  2  2,3  | mEzE
+  2  2,5  | mEzE
   2  6,5  - mI
   2  6,7  - mI
   2  6,4  | mIA
@@ -64980,6 +65843,7 @@
   2  6,5  | nATr
   2  6,5  | nATt
   2  6,5  | nATu
+  2  6,5  | nAbE
   2  6,5  | nAcE
   2  6,5  | nAkE
   2  6,5  | nAlE
@@ -65084,6 +65948,7 @@
   2  2,4  | nIEs
   2  5,5  | nIEs
   2  5,5  | nIT
+  2  5,5  | nITe
   2  5,5  | nITo
   2  5,5  | nITs
   2  6,5  - nIb
@@ -65119,6 +65984,8 @@
   2  5,5  | nIsT
   2  6,5  - nIt
   2  6,7  - nIt
+  2  2,3  | nItE
+  2  5,5  | nItE
   2  2,3  | nIuE
   2  5,5  | nIuE
   2  6,5  - nIx
@@ -65151,6 +66018,7 @@
   2  6,4  | ngAI
   2  6,5  - niT
   2  6,7  - niT
+  2  2,3  | niTE
   2  2,5  - no
   2  4,4  | noN
   2  6,5  - noT
@@ -65244,6 +66112,7 @@
   2  6,5  | pATy
   2  6,5  | pAcE
   2  6,5  | pAcT
+  2  6,5  | pAdI
   2  6,5  | pAgE
   2  6,5  | pAhI
   2  6,5  | pAlE
@@ -65302,6 +66171,7 @@
   2  3,3  | pEaR
   2  2,5  | pEaT
   2  6,3  | pEbA
+  2  6,5  - pEc
   2  6,5  - pEd
   2  6,3  | pEdA
   2  6,5  - pEe
@@ -65550,6 +66420,8 @@
   2  2,5  | rEEs
   2  2,4  | rEEt
   2  2,5  | rEEt
+  2  5,4  | rEI
+  2  2,5  | rEI
   2  5,4  | rEId
   2  2,5  | rEId
   2  5,4  | rEIf
@@ -65583,6 +66455,7 @@
   2  3,3  | rEgR
   2  2,5  | rEgT
   2  6,7  - rEh
+  2  6,7  - rEi
   2  2,5  | rEiT
   2  5,3  | rEkI
   2  2,5  | rEkI
@@ -65607,6 +66480,7 @@
   2  6,7  - rEx
   2  6,4  | rIA
   2  6,4  | rIAl
+  2  6,4  | rIAs
   2  2,4  | rIE
   2  5,5  | rIE
   2  2,4  | rIEl
@@ -65633,6 +66507,7 @@
   2  5,5  | rIdE
   2  6,7  - rIe
   2  3,3  | rIeR
+  2  6,7  - rIf
   2  2,3  | rIfE
   2  5,5  | rIfE
   2  5,3  | rIfI
@@ -65682,6 +66557,7 @@
   2  2,7  - re
   2  6,7  - reE
   2  2,4  | reET
+  2  6,7  - reI
   2  5,4  | reIT
   2  4,4  | reN
   2  6,7  - reT
@@ -65813,6 +66689,8 @@
   2  2,5  | sEmI
   2  6,7  - sEn
   2  6,3  | sEnA
+  2  2,3  | sEnE
+  2  2,5  | sEnE
   2  2,5  | sEnT
   2  3,3  | sEoR
   2  6,7  - sEp
@@ -66077,8 +66955,10 @@
   2  2,5  | tEEt
   2  5,4  | tEIl
   2  2,5  | tEIl
+  2  2,5  | tET
   2  2,5  | tETe
   2  2,5  | tETh
+  2  2,5  | tETs
   2  6,5  - tEa
   2  6,7  - tEa
   2  3,3  | tEaR
@@ -66118,6 +66998,8 @@
   2  2,5  | tErI
   2  3,3  | tErR
   2  2,5  | tEsT
+  2  6,5  - tEt
+  2  6,7  - tEt
   2  2,3  | tEtE
   2  2,5  | tEtE
   2  6,5  - tEw
@@ -66233,6 +67115,8 @@
   2  6,7  - teE
   2  2,4  | teET
   2  4,4  | teN
+  2  6,5  - teT
+  2  6,7  - teT
   2  2,3  | teTE
   2  4,4  | tgN
   2  6,5  - tgT
@@ -66727,6 +67611,8 @@
   2  6,5  - yI
   2  6,7  - yI
   2  5,5  | yITe
+  2  6,5  - yId
+  2  6,7  - yId
   2  2,3  | yIkE
   2  5,5  | yIkE
   2  5,5  | yIlT
@@ -66797,6 +67683,7 @@
   2  5,5  | zITs
   2  6,5  - zIg
   2  6,3  | zIlA
+  2  6,5  - zIn
   2  6,5  - zIp
   2  6,3  | zIpA
   2  6,3  | zIrA
@@ -66808,6 +67695,7 @@
   2  6,5  - zeE
   2  4,4  | zeN
   2  6,3  | zeTA
+  2  4,4  | ziN
   2  6,5  - ziT
   2  5,3  | ziTI
   2  6,3  | zoEA
@@ -67057,6 +67945,7 @@
   1  5,6  | Ibo
   1  5,6  | Ice
   1  5,6  | Ich
+  1  5,6  | Ick
   1  5,6  | Icy
   1  5,6  | Id
   1  5,6  | Ide
@@ -67138,6 +68027,7 @@
   1  3,6  | Ref
   1  3,6  | Reg
   1  3,6  | Reh
+  1  3,6  | Rei
   1  3,6  | Rel
   1  3,6  | Rem
   1  3,6  | Ren
@@ -67159,6 +68049,7 @@
   1  3,6  | Ric
   1  3,6  | Rid
   1  3,6  | Rie
+  1  3,6  | Rif
   1  3,6  | Rig
   1  3,6  | Rik
   1  3,6  | Rim
@@ -67387,6 +68278,7 @@
   1  6,5  | cAw
   1  6,5  | cAy
   1  2,5  | cEe
+  1  2,5  | cEl
   1  2,5  | cEp
   1  5,5  | cIa
   1  5,5  | cId
@@ -67553,6 +68445,7 @@
   1  6,5  | fAc
   1  6,5  | fAd
   1  6,5  | fAe
+  1  6,5  | fAg
   1  6,5  | fAh
   1  6,5  | fAm
   1  6,5  | fAn
@@ -67784,6 +68677,7 @@
   1  2,5  | jEe
   1  2,5  | jEt
   1  2,5  | jEu
+  1  2,5  | jEw
   1  5,5  | jIb
   1  5,5  | jIg
   1  5,5  | jIm
@@ -67825,6 +68719,7 @@
   1  5,5  | kIm
   1  5,5  | kIn
   1  5,5  | kIp
+  1  5,5  | kIr
   1  5,5  | kIt
   1  3,5  | kRa
   1  3,5  | kRs
@@ -67839,6 +68734,7 @@
   1  5,4  | khI
   1  6,5  - ki
   1  2,4  | kiE
+  1  3,4  | kiR
   1  6,4  | koA
   1  5,4  | koI
   1  3,4  | koR
@@ -67879,6 +68775,7 @@
   1  2,5  | lEv
   1  2,5  | lEx
   1  2,5  | lEy
+  1  2,5  | lEz
   1  5,5  | lI
   1  5,5  | lIb
   1  5,5  | lId
@@ -67891,7 +68788,6 @@
   1  5,5  | lIr
   1  5,5  | lIs
   1  5,5  | lIt
-  1  5,5  | lIv
   1  5,5  | lIz
   1  6,5  - la
   1  6,7  - la
@@ -67995,6 +68891,7 @@
   1  6,5  | nAe
   1  6,5  | nAf
   1  6,5  | nAg
+  1  6,5  | nAh
   1  6,5  | nAk
   1  6,5  | nAm
   1  6,5  | nAn
@@ -68099,6 +68996,7 @@
   1  6,5  | pAy
   1  2,5  | pE
   1  2,5  | pEa
+  1  2,5  | pEc
   1  2,5  | pEd
   1  2,5  | pEe
   1  2,5  | pEg
@@ -68190,6 +69088,7 @@
   1  2,5  | rEf
   1  2,5  | rEg
   1  2,5  | rEh
+  1  2,5  | rEi
   1  2,5  | rEl
   1  2,5  | rEm
   1  2,5  | rEn
@@ -68204,6 +69103,7 @@
   1  5,5  | rIc
   1  5,5  | rId
   1  5,5  | rIe
+  1  5,5  | rIf
   1  5,5  | rIg
   1  5,5  | rIk
   1  5,5  | rIm
@@ -68215,6 +69115,7 @@
   1  6,7  - re
   1  6,4  | reA
   1  2,4  | reE
+  1  5,4  | reI
   1  6,4  | rhA
   1  2,4  | rhE
   1  6,4  | riA
@@ -68298,6 +69199,7 @@
   1  6,4  | siA
   1  2,4  | siE
   1  3,4  | siR
+  1  6,4  | skA
   1  5,4  | skI
   1  6,4  | slA
   1  6,4  | smA
@@ -68345,6 +69247,7 @@
   1  2,5  | tEl
   1  2,5  | tEm
   1  2,5  | tEn
+  1  2,5  | tEt
   1  2,5  | tEw
   1  2,5  | tEx
   1  2,5  | tEz
@@ -68449,6 +69352,7 @@
   1  5,5  | vIc
   1  5,5  | vId
   1  5,5  | vIe
+  1  5,5  | vIg
   1  5,5  | vIi
   1  5,5  | vIl
   1  5,5  | vIm
@@ -68542,6 +69446,7 @@
   1  2,5  | yEx
   1  2,5  | yEz
   1  5,5  | yI
+  1  5,5  | yId
   1  5,5  | yIn
   1  5,5  | yIp
   1  3,5  | yRs
@@ -68571,6 +69476,7 @@
   1  2,5  | zEn
   1  2,5  | zEr
   1  5,5  | zIg
+  1  5,5  | zIn
   1  5,5  | zIp
   1  5,5  | zIt
   1  6,5  - za

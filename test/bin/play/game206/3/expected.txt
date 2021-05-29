@@ -221,6 +221,7 @@
  21  1,9  - rIG
  21  1,9  - sIG
  21  1,9  - tIG
+ 21  1,9  - vIG
  21  1,9  - wIG
  21  1,9  - zIG
  20  5,6  - GOLOcH
@@ -327,6 +328,7 @@
  18  1,9  - GIT
  18  1,9  - GITe
  18  1,9  - GITh
+ 18  1,9  - GITs
  18  1,9  - GIlL
  18  1,9  - GIrL
  18  8,9  | GOt
@@ -470,6 +472,7 @@
  17  8,9  | OrT
  17  8,9  | OuT
  17  8,9  | OwT
+ 17  2,8  - PiGOUT
  17  6,10 - RiGHT
  17  4,8  - THUnG
  17  5,3  | TOuGH
@@ -1100,6 +1103,7 @@
  12  5,4  | HOLT
  12  7,4  | HOOL
  12  7,4  | HOOTs
+ 12  5,3  | HOOTy
  12  4,8  - HOUr
  12  4,8  - HOUt
  12  4,9  - HOVeL
@@ -1424,6 +1428,9 @@
  11  5,4  | HaLT
  11  4,8  - HaU
  11  3,6  | He
+ 11  5,3  | HeLO
+ 11  7,3  | HeLO
+ 11  5,4  | HeLO
  11  3,6  | Hi
  11  5,3  | HiLT
  11  5,4  | HiLT
@@ -1996,6 +2003,7 @@
   9  6,7  - ETHnOG
   9  6,7  - ETHrOG
   9  1,7  - GALT
+  9  5,7  - GELaTO
   9  4,6  - GHOLe
   9  4,6  - GHOuL
   9  5,4  | GLOb
@@ -2118,7 +2126,6 @@
   9  1,9  - LIr
   9  1,9  - LIs
   9  1,9  - LIt
-  9  1,9  - LIv
   9  1,9  - LIz
   9  5,2  | LOGOi
   9  7,2  | LOGOi
@@ -2275,6 +2282,7 @@
   9  7,4  | cOOL
   9  5,3  | cOTH
   9  7,3  | cOTH
+  9  1,7  - dAHL
   9  1,9  - dIT
   9  5,4  | dOLT
   9  7,4  | dOOL
@@ -2467,6 +2475,8 @@
   8  5,6  - HOGO
   8  5,2  | HOOTs
   8  7,2  | HOOTs
+  8  5,2  | HOOTy
+  8  7,2  | HOOTy
   8  5,4  | HOOd
   8  7,4  | HOOd
   8  5,4  | HOOf
@@ -2720,6 +2730,7 @@
   8  6,9  - VaG
   8  6,9  - VeG
   8  6,9  - VeTO
+  8  6,9  - ViG
   8  6,9  - VoG
   8  6,9  - VuG
   8  1,6  - aCTG
@@ -2865,6 +2876,7 @@
   8  7,5  | vOL
   8  5,2  | vOLTO
   8  7,2  | vOLTO
+  8  5,4  | wOG
   8  4,7  | wOOLD
   8  7,6  | wOT
   8  7,6  | yOT
@@ -3001,7 +3013,9 @@
   7  1,6  - HCb
   7  1,6  - HCf
   7  1,6  - HCl
+  7  5,7  - HELO
   7  5,7  - HELOe
+  7  5,7  - HELOs
   7  5,7  - HELOt
   7  5,7  - HElOT
   7  5,7  - HEnG
@@ -3115,6 +3129,8 @@
   7  5,3  | LOTh
   7  7,3  | LOTh
   7  5,4  | LOTh
+  7  5,3  | LOTi
+  7  7,3  | LOTi
   7  5,3  | LOTo
   7  7,3  | LOTo
   7  5,4  | LOTo
@@ -3141,7 +3157,7 @@
   7  5,8  - LUsT
   7  4,9  - LaV
   7  4,9  - LeV
-  7  4,9  - LiV
+  7  4,9  - LuV
   7  1,7  - OATH
   7  7,3  | OGOr
   7  4,7  - OHELo
@@ -3329,6 +3345,7 @@
   7  7,5  | eH
   7  5,7  | eL
   7  3,7  | eO
+  7  1,7  - fAG
   7  1,7  - fAH
   7  5,3  | fOGO
   7  7,3  | fOGO
@@ -3394,6 +3411,7 @@
   7  1,8  - mPH
   7  5,8  - mULT
   7  1,7  - nAG
+  7  1,7  - nAH
   7  1,7  | nO
   7  3,7  | nO
   7  4,9  - nOV
@@ -3497,6 +3515,7 @@
   6  2,6  - COO
   6  2,6  - COT
   6  2,6  - CaL
+  6  2,6  - CeL
   6  2,6  - CmL
   6  2,6  - CoL
   6  2,6  - CrL
@@ -3613,6 +3632,7 @@
   6  5,7  - HELe
   6  5,7  - HELl
   6  5,7  - HELm
+  6  5,7  - HELo
   6  5,7  - HELp
   6  5,7  - HEaL
   6  5,7  - HEeL
@@ -3643,6 +3663,8 @@
   6  5,6  - HOOT
   6  4,6  - HOOTs
   6  5,6  - HOOTs
+  6  4,6  - HOOTy
+  6  5,6  - HOOTy
   6  5,6  - HOlL
   6  5,6  - HOoL
   6  5,6  - HOwL
@@ -3919,6 +3941,7 @@
   6  5,10 - bROO
   6  5,10 - bROT
   6  5,4  | bTL
+  6  1,7  - cALO
   6  1,7  - cATH
   6  4,8  - cHUT
   6  4,7  - cLEG
@@ -4282,8 +4305,10 @@
   5  5,7  - HET
   5  5,7  - HETe
   5  5,7  - HETh
+  5  5,7  - HETs
   5  5,7  - HEaT
   5  5,7  - HEfT
+  5  5,7  - HElO
   5  5,7  - HEnT
   5  5,7  - HErO
   5  5,7  - HErT
@@ -4400,6 +4425,7 @@
   5  5,8  - LUO
   5  5,8  - LUT
   5  5,8  - LUTe
+  5  5,8  - LUTz
   5  5,4  | LaO
   5  7,4  | LaO
   5  5,4  | LaT
@@ -5045,6 +5071,7 @@
   4  5,7  - LEfT
   4  5,7  - LEnO
   4  5,7  - LEnT
+  4  5,7  - LEpT
   4  5,7  - LEsT
   4  5,7  - LEtT
   4  5,7  - LEvO
@@ -5073,6 +5100,7 @@
   4  5,6  - LOT
   4  5,6  - LOTa
   4  5,6  - LOTh
+  4  5,6  - LOTi
   4  5,6  - LOTo
   4  5,6  - LOTs
   4  5,4  | LOb
@@ -5115,6 +5143,7 @@
   4  5,8  - LUo
   4  5,8  - LUr
   4  5,8  - LUt
+  4  5,8  - LUv
   4  5,8  - LUx
   4  4,9  | LaD
   4  4,7  - LaET
@@ -5241,6 +5270,7 @@
   4  5,7  - TELe
   4  5,7  - TELi
   4  5,7  - TELl
+  4  5,7  - TELs
   4  5,7  - TELt
   4  5,7  - TEaL
   4  5,7  - TEeL
@@ -5372,6 +5402,7 @@
   4  4,8  - gOUT
   4  5,8  - gUL
   4  5,7  - hEH
+  4  5,7  - hELO
   4  4,9  | hLD
   4  5,6  | hO
   4  7,6  | hO
@@ -5516,6 +5547,7 @@
   4  4,6  - wHO
   4  5,6  | wO
   4  7,6  | wO
+  4  5,6  - wOG
   4  5,4  | wOO
   4  7,4  | wOO
   4  4,8  | wOOD
@@ -5600,6 +5632,7 @@
   3  5,7  - LEv
   3  5,7  - LEx
   3  5,7  - LEy
+  3  5,7  - LEz
   3  5,6  - LO
   3  5,6  - LOa
   3  5,6  - LOb
@@ -5776,6 +5809,7 @@
   3  4,8  - bTU
   3  5,8  - bUT
   3  1,7  - cAT
+  3  5,7  - cEL
   3  4,6  - cLO
   3  4,9  | cOD
   3  5,6  - cOL
@@ -6097,6 +6131,7 @@
   2  5,7  - TEl
   2  5,7  - TEm
   2  5,7  - TEn
+  2  5,7  - TEt
   2  5,7  - TEw
   2  5,7  - TEx
   2  5,7  - TEz
@@ -6226,6 +6261,7 @@
   2  5,7  - sET
   2  4,7  - sOE
   2  5,6  - sOT
+  2  5,7  - tET
   2  4,7  - tOE
   2  4,6  - tOO
   2  5,6  - tOO

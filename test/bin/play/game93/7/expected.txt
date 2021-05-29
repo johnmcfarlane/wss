@@ -112,7 +112,6 @@
  35  2,2  | sAMOA
  35  2,2  | yAMEO
  34  2,1  | AMAh
- 34  2,1  | AMAl
  34  2,1  | AMAr
  34  2,1  | AMAs
  34  2,1  | OMAn
@@ -134,6 +133,7 @@
  33  1,1  - JEe
  33  1,1  - JEt
  33  1,1  - JEu
+ 33  1,1  - JEw
  33  1,1  - JIb
  33  1,1  - JIg
  33  1,1  - JIm
@@ -148,17 +148,20 @@
  33  1,1  - JeE
  33  1,1  - JoE
  33  6,4  - MAZE
+ 33  6,4  - MEZE
  33  6,4  - MIZE
  33  6,4  - MOZE
  33  9,6  | YAMpEE
  32  2,1  | EnAMI
  32  6,4  - MaZE
+ 32  6,4  - MeZE
  32  6,4  - MiZE
  32  6,4  - MoZE
  32  2,2  | hAOMA
  32  2,2  | nAOMI
  31  6,4  - MAZe
  31  6,4  - MAZy
+ 31  6,4  - MEZe
  31  6,4  - MIZe
  31  6,4  - MOZe
  30  2,1  | AdAM
@@ -191,9 +194,11 @@
  25  6,4  - gAZE
  25  6,4  - lAZE
  25  6,4  - mAZE
+ 25  6,4  - mEZE
  25  6,4  - mIZE
  25  6,4  - mOZE
  25  6,4  - nAZE
+ 25  6,4  - tOZE
  24  3,1  | AMIcE
  24  3,1  | AMIcI
  24  3,1  | AMIdE
@@ -434,6 +439,7 @@
  19  2,3  | AMOvE
  19  4,4  - AMa
  19  2,3  | AMnIA
+ 19  4,4  - AMt
  19  4,4  - AaM
  19  4,4  - AiM
  19  4,4  - ArM
@@ -449,6 +455,7 @@
  19  3,1  - MAIr
  19  3,1  - MEAr
  19  3,1  - MEEr
+ 19  3,1  - MEOu
  19  3,1  - MOIr
  19  6,4  - MhZ
  19  3,1  - OMAr
@@ -542,7 +549,6 @@
  18  3,1  | rEIM
  18  3,1  | sAIM
  17  2,3  | AMAh
- 17  2,3  | AMAl
  17  2,3  | AMAr
  17  2,3  | AMAs
  17  2,3  | AMAy
@@ -645,6 +651,7 @@
  16  6,6  | REMAIn
  16  6,6  | REMAdE
  16  6,6  | REMAkE
+ 16  6,6  | REMAtE
  16  6,6  | REMIcA
  16  6,6  | REMIsE
  16  6,6  | REMOrA
@@ -659,6 +666,7 @@
  16  6,6  | REnAME
  16  6,6  | REsEAM
  16  6,6  | REtAME
+ 16  6,6  | REtEAM
  16  6,6  | REtIME
  16  6,6  | RIMAtE
  16  6,6  | RIMOsE
@@ -812,11 +820,13 @@
  14  1,5  - yE
  14  1,5  - yI
  14  1,5  - yO
+ 13  4,4  - AEt
  13  3,7  - AIMEE
  13  4,4  - AId
  13  4,4  - AIl
  13  4,4  - AIm
  13  4,4  - AIn
+ 13  4,4  - AIt
  13  2,5  - AMEnE
  13  2,7  - AMEnE
  13  2,5  - AMIcE
@@ -863,6 +873,7 @@
  13  2,3  | AtOM
  13  5,1  - EAM
  13  4,4  - EAm
+ 13  4,4  - EAt
  13  4,4  - EEl
  13  4,4  - EEn
  13  2,5  - EMAnE
@@ -913,6 +924,7 @@
  13  3,5  - MIAO
  13  4,4  - OAd
  13  3,4  - OAr
+ 13  4,4  - OAt
  13 10,2  | OE
  13  3,4  - OEr
  13 10,2  | OI
@@ -1047,6 +1059,8 @@
  12  4,4  - IO
  12  3,3  | IdIOM
  12  3,2  - MA
+ 12  3,5  - MAbE
+ 12  3,7  - MAbE
  12  3,5  - MAcE
  12  3,7  - MAcE
  12  3,5  - MAcO
@@ -1097,6 +1111,8 @@
  12  3,5  - MEtA
  12  3,5  - MEtE
  12  3,7  - MEtE
+ 12  3,5  - MEzE
+ 12  3,7  - MEzE
  12  3,2  - MI
  12  3,5  - MIaE
  12  3,7  - MIaE
@@ -1221,6 +1237,7 @@
  12  5,1  - jAM
  12  5,1  - kAM
  12  5,1  - lAM
+ 12  6,4  - lEZ
  12  6,4  - lIZ
  12  9,5  | lYM
  12  5,1  - mAM
@@ -1244,6 +1261,7 @@
  12  5,1  - tAM
  12 10,4  | tEEM
  12  5,7  - tEM
+ 12  6,4  - tEZ
  12  6,4  - wAZ
  12 10,4  | wEEM
  12  5,7  - wEM
@@ -1315,6 +1333,7 @@
  11  7,5  | MEIn
  11  3,5  - MEIo
  11  7,5  | MEIo
+ 11  7,5  | MEOu
  11  7,5  | MEOw
  11  4,1  | METOpAE
  11  7,5  | MEdE
@@ -1331,6 +1350,7 @@
  11  7,5  | MEsO
  11  7,5  | MEtA
  11  7,5  | MEtE
+ 11  7,5  | MEzE
  11  3,5  - MIAe
  11  3,7  - MIAe
  11  3,5  - MIAo
@@ -1547,6 +1567,7 @@
  10  4,1  | OpTIME
  10  4,4  - Or
  10  6,6  | REdIAE
+ 10  6,6  | ROAdIE
  10  4,3  | TAIMEn
  10  4,3  | TAMEIn
  10  4,3  | TEAMEd
@@ -1586,6 +1607,7 @@
  10  2,5  - rAMIE
  10  2,7  - rAMIE
  10  4,1  | rETAME
+ 10  4,1  | rETEAM
  10  4,1  | rETIME
  10  3,2  | rIEM
  10  3,2  | sIAM
@@ -1695,6 +1717,7 @@
   9  4,1  | MATEy
   9  4,1  | MATIe
   9  4,1  | MATIn
+  9  5,5  - MAbE
   9  5,5  - MAdE
   9  5,5  - MAnE
   9  5,5  - MArE
@@ -2021,6 +2044,7 @@
   8  6,6  | REtIA
   8  6,6  | REtIE
   8  6,6  | REvIE
+  8  6,6  | RIOjA
   8  6,6  | ROkEE
   8  6,6  | ROxIE
   8  6,6  | RaIAE
@@ -2278,9 +2302,11 @@
   7  7,6  | ErMA
   7  7,6  | ErME
   7  5,3  | HM
+  7  5,3  | HMm
   7  5,3  | HaM
   7  5,3  | HeM
   7  5,3  | HiM
+  7  5,3  | HmM
   7  5,3  | HoM
   7  5,3  | HuM
   7  3,3  | IMAm
@@ -2554,6 +2580,7 @@
   6  5,4  - An
   6  3,1  | AnI
   6  2,3  | ArM
+  6  5,4  - At
   6  3,1  | AtI
   6  2,3  | AtM
   6  3,5  - AvIE
@@ -2634,6 +2661,7 @@
   6  3,7  - ErIE
   6 10,6  | ErMA
   6 10,6  | ErME
+  6  5,4  - Et
   6  3,5  - EvOE
   6  3,7  - EvOE
   6  5,4  - Ew
@@ -2670,6 +2698,7 @@
   6  3,5  - IlEA
   6  3,1  | ImI
   6  5,4  - In
+  6  5,4  - It
   6  3,5  - ItEA
   6  3,1  | IwI
   6  4,1  | MAT
@@ -2951,6 +2980,7 @@
   6  4,1  | rATIO
   6  5,4  - rE
   6  5,7  - rEE
+  6  3,1  | rEI
   6  7,5  | rEM
   6  4,1  | rETIA
   6  4,1  | rETIE
@@ -3046,6 +3076,7 @@
   5  4,2  | ETA
   5  4,2  | ETAs
   5  4,2  | ETEn
+  5  4,2  | ETIc
   5  4,2  | ETOn
   5  7,6  | EaM
   5 10,6  | EaM
@@ -3293,6 +3324,7 @@
   5  9,6  | YEx
   5  9,6  | YEz
   5  9,6  | YI
+  5  9,6  | YId
   5  9,6  | YIn
   5  9,6  | YIp
   5  9,6  | YO
@@ -3381,6 +3413,7 @@
   5  3,2  | lIM
   5  4,1  | lITE
   5  4,1  | lOTA
+  5  4,1  | lOTI
   5  4,1  | mATE
   5  3,5  - mEIO
   5  4,1  | mETA
@@ -3397,6 +3430,7 @@
   5  4,1  | nETE
   5  4,1  | nETI
   5  3,2  | nIM
+  5  4,1  | nITE
   5  4,1  | nITO
   5  4,1  | nOTA
   5  4,1  | nOTE
@@ -3833,6 +3867,7 @@
   4  4,3  | TEl
   4  4,3  | TEm
   4  4,3  | TEn
+  4  4,3  | TEt
   4  4,3  | TEw
   4  4,3  | TEx
   4  4,3  | TEz
@@ -4327,6 +4362,7 @@
   3  6,6  | REEn
   3  6,6  | REEs
   3  6,6  | REEt
+  3  6,6  | REI
   3  6,6  | REId
   3  6,6  | REIf
   3  6,6  | REIm
@@ -4339,10 +4375,12 @@
   3  6,6  | REkI
   3  6,6  | REmI
   3  6,6  | REnO
+  3  6,6  | REpO
   3  6,6  | REtE
   3  6,6  | REvE
   3  6,6  | RIA
   3  6,6  | RIAl
+  3  6,6  | RIAs
   3  6,6  | RIE
   3  6,6  | RIEl
   3  6,6  | RIEm
@@ -4523,6 +4561,7 @@
   3  5,7  - rE
   3  7,5  | rEA
   3  7,5  | rEE
+  3  7,5  | rEI
   3  5,5  - sO
   3  5,1  - tA
   3  5,5  - tA
@@ -4780,6 +4819,7 @@
   2  6,6  | REf
   2  6,6  | REg
   2  6,6  | REh
+  2  6,6  | REi
   2  6,6  | REl
   2  6,6  | REm
   2  6,6  | REn
@@ -4794,6 +4834,7 @@
   2  6,6  | RIc
   2  6,6  | RId
   2  6,6  | RIe
+  2  6,6  | RIf
   2  6,6  | RIg
   2  6,6  | RIk
   2  6,6  | RIm
@@ -4819,6 +4860,7 @@
   2  6,6  | ROy
   2  6,6  | ReA
   2  6,6  | ReE
+  2  6,6  | ReI
   2  6,6  | RhA
   2  6,6  | RhE
   2  6,6  | RhO
@@ -4990,6 +5032,7 @@
   2  4,1  | tAT
   2  7,5  - tE
   2  7,5  | tE
+  2  4,1  | tET
   2  3,2  | tIE
   2  4,1  | tIT
   2  4,1  | tOT
@@ -5062,6 +5105,7 @@
   1  6,2  | Tel
   1  6,2  | Tem
   1  6,2  | Ten
+  1  6,2  | Tet
   1  6,2  | Tew
   1  6,2  | Tex
   1  6,2  | Tez

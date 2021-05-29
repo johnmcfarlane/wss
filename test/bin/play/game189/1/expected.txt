@@ -114,6 +114,7 @@
  18  9,1  | TRAIlS
  18  9,1  | TRAInS
  18  9,1  | TRAItS
+ 18  9,1  | TRIAcS
  18  9,1  | TRIAdS
  18  9,1  | TRIAlS
  18  5,5  - TaRAI
@@ -230,6 +231,7 @@
  14  7,7  - hAITI
  14  5,7  - jITI
  14  5,7  - lIRA
+ 14  5,7  - lIRI
  14  5,7  - lITI
  14  5,7  - mIRA
  14  5,7  - mIRI
@@ -414,12 +416,15 @@
  12  8,4  | RAMTIl
  12  8,4  | RIMATe
  12  7,5  - ReA
+ 12  7,5  - ReI
+ 12  7,7  - ReI
  12  6,2  | ReRIG
  12  6,2  | ReTAG
  12  7,5  - RhA
  12  7,5  - RoI
  12  7,7  - RoI
  12  7,5  - RuA
+ 12  8,4  | TAMaRI
  12  7,5  - TAuRI
  12  6,2  | TIAnG
  12  8,4  | TIMAR
@@ -430,6 +435,7 @@
  12  7,5  - TaA
  12  7,5  - TaI
  12  7,7  - TaI
+ 12  8,4  | TaMARI
  12  7,5  - TeA
  12  7,5  - ThA
  12  7,5  - ToA
@@ -550,6 +556,7 @@
  10  3,7  - ARIoT
  10  3,7  - ARRIe
  10  3,7  - ARRIs
+ 10  9,3  | ARTSIeR
  10  3,5  - ARTaR
  10  8,1  | ATRIuM
  10  8,5  | IMAReT
@@ -1038,6 +1045,7 @@
   8  8,4  | ImMI
   8  3,5  - InIA
   8  3,5  - InTA
+  8  3,7  - InTI
   8  2,5  - InTRA
   8  3,5  - IoTA
   8  8,4  | IrMA
@@ -1288,6 +1296,7 @@
   8  8,5  | iMIT
   8  5,5  - jAR
   8  5,5  - kAT
+  8  5,7  - kIR
   8  5,7  - kIT
   8  5,5  - lAR
   8  5,5  - lAT
@@ -1389,6 +1398,7 @@
   7  7,3  | ARTERIn
   7  7,2  | ARTIER
   7  9,2  | ARTISt
+  7  7,1  | ARTsIER
   7  9,5  | ASTReR
   7  9,5  | ASTeR
   7  9,5  | ASTiR
@@ -1517,6 +1527,7 @@
   7  7,1  | RITzIER
   7  5,7  - RId
   7  5,7  - RIe
+  7  5,7  - RIf
   7  5,7  - RIm
   7  5,7  - RIn
   7  5,7  - RIo
@@ -1678,6 +1689,7 @@
   7  3,7  - lATI
   7  7,7  - lI
   7  3,5  - lIRA
+  7  3,7  - lIRI
   7  3,7  - lITI
   7  7,5  - mA
   7  7,7  - mA
@@ -1691,6 +1703,7 @@
   7  3,5  - oRRA
   7  7,5  - pA
   7  3,7  - pARI
+  7  7,1  | pARTIER
   7  3,5  - pITA
   7  7,3  | pITEIRA
   7  3,5  - pRIA
@@ -2069,6 +2082,7 @@
   6  7,5  | REpAIR
   6  7,5  | REpART
   6  7,5  | REsTIR
+  6  9,3  | RIAS
   6  6,4  | RIGA
   6  6,4  | RIGId
   6  6,4  | RIGhT
@@ -2076,6 +2090,7 @@
   6  9,4  | RIST
   6  9,3  | RITSu
   6  7,2  | RITtER
+  6  7,2  | RIbIER
   6  7,2  | RIfTER
   6  9,2  | RIfTS
   6  9,2  | RImAS
@@ -2087,6 +2102,7 @@
   6  4,5  - ReA
   6  8,3  | ReAM
   6  6,4  | ReGIA
+  6  4,7  - ReI
   6  8,3  | ReIM
   6  7,1  | ReRATE
   6  7,1  | ReTARE
@@ -2430,6 +2446,7 @@
   6  7,2  | kRATER
   6  4,7  - lAI
   6  9,2  | lAIRS
+  6  9,2  | lARIS
   6  9,2  | lIARS
   6  8,4  | lIMA
   6  9,2  | lIRAS
@@ -2741,6 +2758,7 @@
   5  6,6  | GIT
   5  6,6  | GITe
   5  6,6  | GITh
+  5  6,6  | GITs
   5  6,6  | GIfT
   5  6,6  | GIgA
   5  6,6  | GIgI
@@ -2754,6 +2772,7 @@
   5  6,6  | GRAd
   5  6,6  | GRAf
   5  6,6  | GRAm
+  5  6,6  | GRAn
   5  6,6  | GRAs
   5  6,6  | GRAt
   5  6,6  | GRAv
@@ -2805,6 +2824,7 @@
   5  8,5  | IMu
   5  7,2  | IRAdE
   5  7,2  | IRAtE
+  5  9,2  | IRIdS
   5  7,3  | IRREd
   5  7,3  | IRREg
   5  4,5  - IRa
@@ -2829,6 +2849,7 @@
   5  6,4  | InGA
   5  9,4  | InSTR
   5  7,3  | InTER
+  5  9,2  | InTIS
   5  9,5  - Io
   5  9,7  - Io
   5  9,2  | IoTAS
@@ -2887,7 +2908,10 @@
   5  9,2  | RAInS
   5  7,2  | RAIsE
   5  7,3  | RARE
+  5  7,3  | RAREd
   5  7,3  | RAREr
+  5  7,3  | RAREs
+  5  9,2  | RAReS
   5  9,4  | RASeR
   5  7,3  | RATE
   5  7,3  | RATEd
@@ -2978,10 +3002,12 @@
   5  9,4  | ReSTR
   5  7,2  | ReTIER
   5  9,3  | ReTS
+  5  9,3  | RiAS
   5  6,4  | RiGA
   5  9,2  | RoARS
   5  9,2  | RoTAS
   5  7,3  | RoTER
+  5  9,2  | RoTIS
   5  9,3  | RoTS
   5  6,4  | RuGA
   5  9,3  | RuTS
@@ -3473,6 +3499,7 @@
   4  9,3  | ARbS
   4  9,3  | ARcS
   4  9,3  | AReS
+  4  9,3  | ARfS
   4  9,3  | ARkS
   4  7,3  | ARlE
   4  9,3  | ARmS
@@ -3691,6 +3718,7 @@
   4  9,4  | RISp
   4  9,4  | RISs
   4  9,4  | RISt
+  4  9,3  | RIaS
   4  7,3  | RIbE
   4  9,3  | RIbS
   4  7,3  | RIcE
@@ -3951,6 +3979,7 @@
   4  9,3  | bITS
   4  9,3  | bRAS
   4  7,3  | bRIER
+  4  9,3  | bRIS
   4  6,4  | cAG
   4  7,3  | cARER
   4  7,3  | cARET
@@ -3987,6 +4016,7 @@
   4  9,3  | eRIS
   4  9,3  | eRRS
   4  9,3  | eTAS
+  4  6,4  | fAG
   4  7,3  | fARER
   4  9,3  | fATS
   4  7,4  | fIERI
@@ -4004,6 +4034,7 @@
   4  9,3  | gATS
   4  6,5  | gGR
   4  6,4  | gIG
+  4  9,3  | gITS
   4  9,3  | gRAS
   4  7,4  | gREAT
   4  7,4  | gREIT
@@ -4023,6 +4054,7 @@
   4  6,4  | jIG
   4  9,3  | kATS
   4  6,5  | kGR
+  4  9,3  | kIRS
   4  7,3  | kITER
   4  9,3  | kITS
   4  9,3  | kRAS
@@ -4083,6 +4115,7 @@
   4  7,3  | rARER
   4  7,3  | rATER
   4  9,3  | rATS
+  4  9,3  | rIAS
   4  6,4  | rIG
   4  6,4  | sAG
   4  6,4  | sIG
@@ -4111,8 +4144,10 @@
   4  9,3  | uTAS
   4  7,4  | uTERI
   4  6,4  | vAG
+  4  9,3  | vARS
   4  9,3  | vATS
   4  9,3  | vIAS
+  4  6,4  | vIG
   4  6,4  | wAG
   4  9,3  | wARS
   4  7,3  | wATER
@@ -4185,6 +4220,7 @@
   3  7,6  | ERTh
   3  7,6  | ETA
   3  7,6  | ETAs
+  3  7,6  | ETIc
   3  6,6  | Gi
   3  6,6  | Go
   3  7,4  | IRE
@@ -4213,6 +4249,7 @@
   3  7,5  | REAm
   3  7,5  | REAp
   3  7,5  | REAr
+  3  7,5  | REI
   3  7,5  | REId
   3  7,5  | REIf
   3  7,5  | REIm
@@ -4339,6 +4376,7 @@
   3  7,4  | ThEA
   3  7,4  | TiER
   3  7,4  | ToEA
+  3  7,4  | TyER
   3  9,4  | aAS
   3  6,5  | aG
   3  9,5  - aIR
@@ -4499,6 +4537,7 @@
   3  7,5  | nERI
   3  7,5  | nETI
   3  9,4  | nIS
+  3  7,3  | nITE
   3  9,5  - oAR
   3  9,7  - oAR
   3  9,5  - oAT
@@ -4689,6 +4728,7 @@
   2  7,5  | REf
   2  7,5  | REg
   2  7,5  | REh
+  2  7,5  | REi
   2  7,5  | REl
   2  7,5  | REm
   2  7,5  | REn
@@ -4728,6 +4768,7 @@
   2  9,6  | SiA
   2  9,6  | SiR
   2  9,6  | SiT
+  2  9,6  | SkA
   2  9,6  | SkI
   2  9,6  | SlA
   2  9,6  | SlT
@@ -4753,6 +4794,7 @@
   2  7,5  | TEl
   2  7,5  | TEm
   2  7,5  | TEn
+  2  7,5  | TEt
   2  7,5  | TEw
   2  7,5  | TEx
   2  7,5  | TEz
@@ -4846,6 +4888,7 @@
   2  7,4  | pRE
   2  7,4  | pTE
   2  7,5  | rEA
+  2  7,5  | rEI
   2  7,5  | rET
   2  7,4  | rIE
   2  7,4  | rTE
@@ -4857,6 +4900,7 @@
   2  7,4  | sIE
   2  7,4  | tAE
   2  7,5  | tEA
+  2  7,5  | tET
   2  7,4  | tIE
   2  9,5  - uT
   2  7,4  | uTE

@@ -122,6 +122,7 @@
  21  3,7  - Qi
  21  3,9  - Qi
  21  9,9  | SAK
+ 21  9,9  | SKA
  21  9,9  | SKI
  21  9,9  | SOK
  21  6,10 - mOAI
@@ -143,6 +144,7 @@
  18  1,6  - OKApIS
  18  6,6  - SAKkOI
  18  6,6  - SAkKOI
+ 18  9,9  | SKa
  18  9,9  | SKi
  18  9,9  | SKy
  18  9,9  | SaK
@@ -199,6 +201,7 @@
  16  2,6  - KArOS
  16  2,6  - KAyOS
  16  2,6  - KIlOS
+ 16  2,6  - KInAS
  16  2,6  - KInOS
  16  2,6  - KIvAS
  16  2,6  - KIwIS
@@ -222,6 +225,7 @@
  16  6,6  - SAbIK
  16  6,6  - SIKAr
  16  6,6  - SIKrA
+ 16  6,6  - SIcKO
  16  6,6  - SIrKI
  16  6,6  - SItKA
  16  6,6  - SKAIl
@@ -251,6 +255,7 @@
  16  2,6  - pAIKS
  16  8,10 - pIK
  16  2,6  - pIKAS
+ 16  2,6  - pIKIS
  16  2,6  - rAKIS
  16  8,10 - rIK
  16  8,10 - rOK
@@ -335,6 +340,7 @@
  14  9,10 - IKe
  14  6,10 - IO
  14  5,10 - IbO
+ 14  9,10 - IcK
  14  9,10 - IlK
  14  9,10 - InK
  14  9,10 - IrK
@@ -386,6 +392,7 @@
  14  5,3  | KInO
  14  7,3  | KInO
  14  8,7  - KIp
+ 14  8,7  - KIr
  14  8,7  - KIt
  14  5,3  | KIvA
  14  5,3  | KIwI
@@ -511,6 +518,7 @@
  13  9,10 - oAK
  13  9,10 - oIK
  13  9,10 - oKA
+ 13  8,7  - sKA
  13  2,7  - sKI
  13  8,7  - sKI
  13  2,9  - sKI
@@ -853,6 +861,7 @@
   8  4,5  | KInOO
   8  2,7  - KIp
   8  2,9  - KIp
+  8  2,9  - KIr
   8  2,7  - KIt
   8  3,6  - KOAS
   8  4,7  | KOAlI
@@ -1005,6 +1014,7 @@
   8  8,10 - rIO
   8  8,10 - rOI
   8  8,10 - sIA
+  8  5,4  | sKA
   8  5,4  | sKI
   8  7,4  | sKI
   8  4,4  | tAIKO
@@ -1057,6 +1067,7 @@
   7  3,6  - KAbS
   7  5,4  | KAe
   7  3,6  - KAeS
+  7  3,6  - KAfS
   7  4,5  | KAgO
   7  5,4  | KAi
   7  7,4  | KAi
@@ -1076,6 +1087,7 @@
   7  4,5  | KInO
   7  3,6  - KInS
   7  3,6  - KIpS
+  7  3,6  - KIrS
   7  3,6  - KIsS
   7  3,6  - KItS
   7  4,7  | KOA
@@ -1092,6 +1104,9 @@
   7  5,4  | KOa
   7  3,6  - KOaS
   7  4,7  | KObI
+  7  4,5  | KObO
+  7  4,7  | KObO
+  7  3,6  - KObS
   7  4,7  | KOdA
   7  5,4  | KOi
   7  7,4  | KOi
@@ -1190,8 +1205,10 @@
   7  8,8  | SIlK
   7  6,6  - SInK
   7  8,8  | SInK
+  7  6,6  - SKA
   7  6,6  - SKAg
   7  6,6  - SKAl
+  7  6,6  - SKAs
   7  6,6  - SKAt
   7  6,6  - SKAw
   7  6,6  - SKI
@@ -1298,6 +1315,7 @@
   7  4,7  | rOKA
   7  4,6  | rOOK
   7  4,7  | rOOK
+  7  3,6  - sKAS
   7  3,6  - sKIS
   7  4,5  | sKOO
   7  4,6  | sKOO
@@ -1451,6 +1469,7 @@
   6  9,9  | SIs
   6  9,9  | SIt
   6  9,9  | SIx
+  6  6,6  - SKa
   6  6,6  - SKi
   6  6,6  - SKy
   6  9,9  | SOb
@@ -1481,6 +1500,7 @@
   6  9,9  | ShI
   6  9,9  | ShO
   6  9,9  | SiA
+  6  9,9  | SkA
   6  9,9  | SkI
   6  9,9  | SlA
   6  9,9  | SmA
@@ -1873,6 +1893,7 @@
   4  5,8  | RAvI
   4  5,8  | RIA
   4  5,8  | RIAl
+  4  5,8  | RIAs
   4  5,8  | RIO
   4  5,8  | RIOt
   4  5,8  | RIfI
@@ -2144,6 +2165,7 @@
   3  5,8  | RIc
   3  5,8  | RId
   3  5,8  | RIe
+  3  5,8  | RIf
   3  5,8  | RIg
   3  5,8  | RIk
   3  5,8  | RIm
@@ -2226,6 +2248,7 @@
   3  6,6  - SOdA
   3  6,6  - SOfA
   3  6,6  - SOgA
+  3  6,6  - SOjA
   3  6,6  - SOkA
   3  6,6  - SOlA
   3  6,6  - SOlI
@@ -2406,6 +2429,7 @@
   3  3,7  - qI
   3  3,9  - qI
   3  3,6  - rAIS
+  3  3,6  - rIAS
   3  4,6  - rOSA
   3  5,5  | sI
   3  7,5  | sI
@@ -2561,6 +2585,7 @@
   2  4,8  | OxO
   2  4,6  - OzS
   2  5,8  | ReA
+  2  5,8  | ReI
   2  5,8  | RhA
   2  5,8  | RhO
   2  5,8  | RiA
@@ -2647,6 +2672,7 @@
   2  6,6  - ShI
   2  6,6  - ShO
   2  6,6  - SiA
+  2  6,6  - SkA
   2  6,6  - SkI
   2  6,6  - SlA
   2  6,6  - SmA

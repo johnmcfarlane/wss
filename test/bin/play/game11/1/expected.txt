@@ -26,6 +26,7 @@
  58 10,6  | SOLDI
  58 10,6  | SOLID
  52 10,4  | OLDISH
+ 51  9,1  | HONDLES
  50 10,3  | HINDS
  50 10,3  | HOLDS
  50 10,4  | INDOLS
@@ -46,6 +47,7 @@
  46 10,3  | SHOD
  46 10,3  | SOLDI
  45  9,6  | ELSHIN
+ 45  9,1  | HONDLE
  45  9,1  | INDOLES
  44 10,6  | DILO
  44 10,6  | DINO
@@ -64,6 +66,7 @@
  44 10,4  | HOD
  44 10,3  | HODS
  44 10,3  | HOLS
+ 44 10,3  | HONS
  44 10,5  | IDOL
  44 10,4  | INSOL
  44 10,4  | ISDN
@@ -214,6 +217,8 @@
  21  7,7  - HODS
  21  7,7  - HOLI
  21  7,7  - HOLS
+ 21  7,5  - HONS
+ 21  7,7  - HONS
  21  7,5  - LINDO
  21  7,7  - LINDO
  21  5,7  - NOH
@@ -418,6 +423,7 @@
  14  5,7  - DO
  14  7,7  - DOS
  14  9,5  | HELIO
+ 14  9,5  | HELOS
  14  9,5  - HI
  14  9,7  - HI
  14  9,3  | HIDES
@@ -522,6 +528,7 @@
  12  9,7  - DON
  12  7,5  | HALIDS
  12  7,5  | HALOIDS
+ 12  9,5  | HELO
  12  9,5  | HENS
  12  8,4  | HID
  12  9,3  | HIDE
@@ -641,6 +648,7 @@
  11  8,2  | SOLID
  10  7,6  | ADONIS
  10  7,6  | ANOLIS
+ 10  7,5  | DAHLS
  10  9,5  | DELI
  10  9,5  | DELS
  10  9,5  | DENS
@@ -734,6 +742,7 @@
  10  8,3  | SNOD
  10  7,3  | SOLAND
  10  7,2  | SOLDAN
+ 10  9,3  | SOLEI
  10  9,2  | SONDE
   9  7,6  | ALIDS
   9  7,6  | ALISH
@@ -744,9 +753,11 @@
   9  7,6  | ANOLI
   9  7,5  | DANIOS
   9  7,5  | DANLI
+  9  7,5  | DASHI
   9  9,5  | DEIL
   9  9,5  | DEL
   9  9,5  | DEN
+  9  7,4  | DHALS
   9  7,5  - DI
   9  7,7  - DI
   9  8,4  | DID
@@ -828,6 +839,7 @@
   8  7,6  | ALOIN
   8  7,6  | ANIL
   8  7,6  | ANOIL
+  8  7,5  | DAHL
   8  7,5  | DALIS
   8  7,5  | DANIO
   8  9,5  | DEIS
@@ -984,6 +996,7 @@
   6  7,5  | DAH
   6  7,5  | DAIN
   6  7,5  | DALI
+  6  7,5  | DALS
   6  7,5  | DANI
   6  7,4  | DHA
   6  7,4  | DIAL
@@ -1006,6 +1019,7 @@
   6  7,5  | LAIN
   6  7,4  | LOAD
   6  7,4  | LOAN
+  6  7,5  | NAH
   6  7,5  | NAID
   6  7,5  | NAIL
   6  7,4  | ODAL

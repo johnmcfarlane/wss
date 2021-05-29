@@ -134,6 +134,7 @@
  29  8,7  | BXS
  29  7,6  | EXLA
  29  8,8  - OTXi
+ 29  4,8  - ThEBE
  28  6,10 - ABOrT
  28 10,6  | BETIs
  28 10,6  | BEfIT
@@ -1267,6 +1268,7 @@
  14  5,3  | LOkET
  14  7,3  | LOkET
  14  3,7  - LaTAX
+ 14  8,5  | LeXES
  14  5,3  | LoBE
  14  7,3  | LoBE
  14 10,6  | LoBI
@@ -1345,6 +1347,7 @@
  14  7,3  | gOBET
  14  8,3  | gOBLETS
  14  8,6  | gOBS
+ 14  5,5  | hELO
  14  8,6  | hOBS
  14  5,5  | hOLE
  14  5,5  | hOLT
@@ -1352,6 +1355,7 @@
  14  5,5  | jOLE
  14  5,5  | jOLT
  14  5,5  | kELT
+ 14  8,6  | kOBS
  14  8,6  | lOBS
  14  5,5  | mELT
  14  5,2  | mOBLE
@@ -1596,6 +1600,7 @@
  13  8,5  | gOXES
  13  4,8  - hEEL
  13  5,8  - hELE
+ 13  5,8  - hELO
  13  8,10 - hET
  13  8,10 - hOT
  13  5,3  | hOTEL
@@ -1761,6 +1766,7 @@
  12 11,4  | EXToLs
  12 11,4  | EXaLTs
  12  3,7  - EXeAT
+ 12  3,7  - EXpAT
  12 11,4  | EXtOLs
  12 11,4  | EXuLTs
  12  5,4  | EcOL
@@ -1822,12 +1828,14 @@
  12  5,7  - LAXEr
  12  7,7  | LEAT
  12  5,5  | LETt
+ 12  8,5  | LEXeS
  12  8,5  | LEXiS
  12  5,5  | LEaT
  12  5,5  | LEfT
  12  5,5  | LEnO
  12  5,5  | LEnT
  12  8,4  | LEnTOS
+ 12  5,5  | LEpT
  12  5,5  | LEtT
  12  3,7  - LOBATE
  12  3,7  - LOBATEd
@@ -1835,6 +1843,7 @@
  12  5,5  | LOTa
  12  5,5  | LOTh
  12  5,5  | LOTo
+ 12  8,4  | LOTtES
  12 11,5  | LOXEs
  12  8,5  | LOXeS
  12  5,5  | LObE
@@ -1843,6 +1852,7 @@
  12  5,5  | LOkE
  12  5,5  | LOnE
  12  5,5  | LOpE
+ 12  8,4  | LOtTES
  12  1,5  | LaXER
  12 11,5  | LaXEsT
  12  5,5  | LiTE
@@ -1859,6 +1869,7 @@
  12  7,3  | OBLi
  12  5,4  | OBiT
  12  7,4  | OBiT
+ 12  8,4  | OBjETS
  12 10,6  | OBlI
  12  5,3  | OBoE
  12  7,3  | OBoE
@@ -2115,6 +2126,7 @@
  11  4,7  - EXAcT
  11  4,7  - EXAlT
  11  1,6  | EXOR
+ 11  8,5  | EXOnS
  11 11,4  | EXTOls
  11  1,5  | EXTeR
  11  8,6  | EXiST
@@ -2130,8 +2142,10 @@
  11  5,7  - LAnX
  11  5,5  | LET
  11  7,5  | LET
+ 11 11,5  | LEXes
  11 11,5  | LEXis
  11  5,8  - LEdE
+ 11  5,8  - LEkE
  11  5,8  - LEmE
  11  5,8  - LEnE
  11  5,3  | LEnO
@@ -2176,6 +2190,7 @@
  11  7,3  | LaTE
  11  5,4  | LeET
  11  7,4  | LeET
+ 11 11,5  | LeXEs
  11  3,7  - LiBATE
  11  5,3  | LiTE
  11  7,3  | LiTE
@@ -2258,12 +2273,15 @@
  11  5,5  | bOL
  11  1,5  | bOXER
  11  5,7  - cALX
+ 11  5,5  | cEL
+ 11  7,5  | cEL
  11  5,8  - cETE
  11  5,4  | cLOT
  11  8,4  | cOBLES
  11  5,5  | cOL
  11  3,7  - cOXAE
  11  7,8  | dAB
+ 11  4,8  - dEET
  11  5,5  | dEL
  11  7,5  | dEL
  11  3,7  - dETAX
@@ -2482,6 +2500,7 @@
  10  7,7  | ELAn
  10 10,7  | ELIOt
  10 10,7  | ELITe
+ 10 10,7  | ELInT
  10 10,7  | ELIoT
  10  5,4  | ELOd
  10  5,4  | ELOn
@@ -2489,6 +2508,7 @@
  10  5,6  | ETh
  10  5,6  | ETy
  10  4,7  - EXAm
+ 10 11,5  | EXOns
  10  1,7  | EXR
  10  8,6  | EXeS
  10 11,5  | EXiTs
@@ -2538,6 +2558,7 @@
  10  7,4  | LEeT
  10  5,4  | LEfT
  10  7,4  | LEfT
+ 10  7,4  | LEpT
  10 10,8  | LITE
  10  7,7  | LOAd
  10  7,7  | LOAm
@@ -2546,8 +2567,11 @@
  10  3,7  - LOBAr
  10  5,4  | LOEd
  10  7,4  | LOEd
+ 10 10,6  | LOTI
  10  7,3  | LOTa
  10  9,5  | LOTaH
+ 10  5,3  | LOTi
+ 10  7,3  | LOTi
  10  5,3  | LOTo
  10  9,5  | LOaTHE
  10  5,4  | LOfT
@@ -2727,6 +2751,7 @@
  10 10,8  | jIB
  10  5,7  - kABEL
  10  5,8  - kEB
+ 10  8,4  | kETOLS
  10  5,7  - lABEL
  10  7,7  | lEAL
  10 10,8  | lIB
@@ -2762,6 +2787,7 @@
  10  7,7  | sLAE
  10  7,7  | sLAT
  10 10,7  | sLITE
+ 10 10,5  | sOLEI
  10  4,7  - sTABLE
  10 10,7  | sTILE
  10  5,7  - tABEL
@@ -2965,6 +2991,7 @@
   9  7,5  | LEx
   9  5,5  | LEy
   9  7,5  | LEy
+  9  5,5  | LEz
   9  9,8  | LHB
   9  7,7  | LOA
   9  1,4  | LOBbER
@@ -3022,6 +3049,7 @@
   9  8,9  | SoX
   9  7,8  | TAL
   9  4,6  - TEFLOn
+  9  8,6  | TELS
   9  7,3  | TELa
   9  5,3  | TELe
   9  7,3  | TELe
@@ -3029,6 +3057,7 @@
   9  7,3  | TELi
   9  8,5  | TEaLS
   9  5,3  | TEcO
+  9  8,5  | TEeLS
   9  8,5  | TElLS
   9  5,4  | TLO
   9 10,10 - TO
@@ -3077,6 +3106,7 @@
   9  8,5  | TaBES
   9  1,4  | TaBLER
   9  8,5  | TaELS
+  9  8,5  | TeELS
   9  5,3  | ThEO
   9  8,5  | ToOLS
   9  3,7  - TuBAL
@@ -3144,6 +3174,7 @@
   9  7,5  | gET
   9  5,5  | gOT
   9  5,7  - hABLE
+  9  5,3  | hELO
   9  5,5  | hET
   9  7,5  | hET
   9  5,3  | hOLE
@@ -3217,6 +3248,8 @@
   9  4,7  | sTOPE
   9  5,7  - tABLE
   9  5,7  - tAX
+  9  5,5  | tET
+  9  7,5  | tET
   9  5,3  | tOLE
   9  7,3  | tOLE
   9  5,5  | tOT
@@ -3335,6 +3368,7 @@
   8 11,5  | BOLTs
   8  1,5  | BOLaR
   8  8,5  | BOLaS
+  8  8,5  | BOLdS
   8  8,5  | BOLeS
   8  8,5  | BOLiS
   8  8,5  | BOLlS
@@ -3519,6 +3553,7 @@
   8 10,6  | LOlI
   8  3,7  - LOrATE
   8 10,6  | LOrI
+  8 10,6  | LOtI
   8  8,5  | LOwEST
   8  8,8  | LST
   8  1,5  | LaBOR
@@ -3536,6 +3571,7 @@
   8  7,4  | LoE
   8  5,4  | LoO
   8  4,7  | LoOPE
+  8 10,6  | LoTI
   8  5,4  | LuE
   8  7,4  | LuE
   8  5,4  | LuO
@@ -3616,6 +3652,8 @@
   8  7,5  | TEm
   8  5,5  | TEn
   8  7,5  | TEn
+  8  5,5  | TEt
+  8  7,5  | TEt
   8  7,5  | TEw
   8  7,5  | TEx
   8  5,5  | TEz
@@ -3662,6 +3700,7 @@
   8  7,5  | TeE
   8 10,7  | TeIL
   8 10,6  | TeLI
+  8  8,6  | TeLS
   8  7,7  | ThAE
   8  9,8  - ThE
   8  9,8  - ThO
@@ -3714,6 +3753,7 @@
   8  5,7  - cABOT
   8  4,8  - cEE
   8 10,7  | cEIL
+  8  8,6  | cELS
   8  3,6  - cLEFT
   8 10,7  | cLIT
   8  5,4  | cLO
@@ -3879,6 +3919,7 @@
   8  4,8  - tEE
   8 10,7  | tEIL
   8 10,6  | tELI
+  8  8,6  | tELS
   8 10,8  | tILE
   8 10,8  | tILT
   8  5,4  | tLO
@@ -4040,6 +4081,7 @@
   7  1,6  | BOER
   7  8,5  | BOErS
   7 11,5  | BOLas
+  7 11,5  | BOLds
   7 11,5  | BOLes
   7 11,5  | BOLis
   7 11,5  | BOLls
@@ -4308,6 +4350,7 @@
   7 11,5  | OBTusE
   7  8,6  | OBeSE
   7  3,7  - OBiA
+  7 11,4  | OBjETs
   7 11,5  | OBoLs
   7 11,5  | OBtEsT
   7  5,5  | OE
@@ -4483,6 +4526,7 @@
   7  7,4  | gTE
   7  7,8  | hAL
   7  5,7  - hATEL
+  7  8,5  | hELOS
   7  5,4  | hOE
   7  7,4  | hOE
   7  8,5  | hOLES
@@ -4780,6 +4824,7 @@
   6  4,7  - ETALOn
   6  9,7  | ETH
   6  9,7  | ETHs
+  6 10,7  | ETIc
   6  7,4  | ETa
   6  9,6  | ETcH
   6  3,7  - EThAL
@@ -4857,8 +4902,10 @@
   6  5,7  - LAThE
   6  5,7  - LATkE
   6  5,7  - LATrO
+  6  5,7  - LATtE
   6  5,7  - LAcET
   6  5,7  - LAcTO
+  6  5,7  - LAtTE
   6 11,7  | LBs
   6  2,7  - LEOrA
   6  8,7  | LESe
@@ -4883,7 +4930,6 @@
   6 10,8  | LIr
   6 10,8  | LIs
   6 10,8  | LIt
-  6 10,8  | LIv
   6 10,8  | LIz
   6  8,7  | LOSe
   6  8,7  | LOSh
@@ -5125,6 +5171,7 @@
   6  1,4  | bOLTER
   6  9,6  | bOTH
   6 10,6  | bOTI
+  6  5,8  - cEL
   6 10,6  | cETI
   6 10,8  | cITE
   6  8,6  | cLOS
@@ -5175,6 +5222,7 @@
   6  5,7  - gABE
   6  5,7  - gALET
   6  5,8  - gEL
+  6  3,7  - gELATO
   6 10,8  | gIL
   6 10,8  | gITE
   6  8,6  | gLOS
@@ -5217,6 +5265,8 @@
   6  4,6  - lOFT
   6  4,8  | lOPE
   6  9,6  | lOTH
+  6 10,6  | lOTI
+  6  5,7  - mABE
   6  5,7  - mALEO
   6  5,7  - mALTO
   6  5,7  - mATLO
@@ -5237,12 +5287,14 @@
   6  8,7  | mOSTE
   6  8,5  | mOTES
   6  9,6  | mOTH
+  6  5,7  - nABE
   6  5,5  | nE
   6  7,5  | nE
   6  2,8  | nEMO
   6  9,6  | nETH
   6 10,6  | nETI
   6 10,8  | nIL
+  6 10,8  | nITE
   6 10,8  | nITO
   6  5,5  | nO
   6  4,8  | nOPE
@@ -5263,6 +5315,7 @@
   6  7,5  | pE
   6  3,7  - pEBA
   6  2,7  - pELTA
+  6  8,7  | pESTO
   6  8,5  | pETOS
   6 10,8  | pIET
   6 10,8  | pIL
@@ -5606,11 +5659,13 @@
   5 11,5  | LOTasE
   5  1,5  | LOToR
   5  8,5  | LOToS
+  5 11,4  | LOTtEs
   5  8,5  | LOTuS
   5  1,5  | LOnER
   5  8,6  | LOoSE
   5  1,5  | LOpER
   5  1,5  | LOsER
+  5 11,4  | LOtTEs
   5  8,6  | LOuSE
   5  1,5  | LOvER
   5  1,5  | LOwER
@@ -5867,6 +5922,7 @@
   5  7,8  | hAT
   5 11,4  | hELOTs
   5  8,7  | hEST
+  5  8,6  | hETS
   5 11,6  | hOBs
   5  8,6  | hOES
   5  9,7  | hOHE
@@ -5887,6 +5943,8 @@
   5  5,7  - kAB
   5  4,6  - kEF
   5  3,7  - kETAL
+  5 11,4  | kETOLs
+  5 11,6  | kOBs
   5  3,7  - kOTAL
   5  5,7  - lAB
   5  7,8  | lAT
@@ -5946,6 +6004,7 @@
   5  8,7  | pEST
   5  3,7  - pETAL
   5  8,6  | pETS
+  5 11,7  | pEsTO
   5  4,7  - pLATE
   5  4,7  - pLATO
   5  3,7  - pLEAT
@@ -5991,6 +6050,7 @@
   5  7,8  | tAT
   5  7,7  | tEA
   5  8,7  | tEST
+  5  8,6  | tETS
   5 10,10 - tO
   5  7,7  | tOA
   5  8,6  | tOES
@@ -6196,6 +6256,7 @@
   4  8,6  | LEtS
   4  5,8  - LEy
   4  8,6  | LEyS
+  4  5,8  - LEz
   4  4,7  - LOA
   4  4,7  - LOAd
   4  4,7  - LOAf
@@ -6325,9 +6386,11 @@
   4 11,5  | TELes
   4 11,5  | TELls
   4 11,5  | TELos
+  4 11,6  | TELs
   4 11,5  | TEaLs
   4  3,7  - TEcA
   4  3,7  - TEdA
+  4 11,5  | TEeLs
   4  3,7  - TEgA
   4  3,7  - TElA
   4 11,5  | TElLs
@@ -6366,6 +6429,7 @@
   4  1,5  | TOhER
   4 11,5  | TOiLs
   4  8,6  | TOiSE
+  4  1,5  | TOkER
   4  3,7  - TOlA
   4 11,5  | TOlLs
   4  3,7  - TOmA
@@ -6390,6 +6454,7 @@
   4 11,5  | TaLEs
   4  5,7  | Te
   4  4,7  - TeAL
+  4 11,5  | TeELs
   4 11,5  | TeLEs
   4 11,5  | TeLOs
   4  5,7  | Th
@@ -6439,6 +6504,7 @@
   4 11,5  | bOLEs
   4 11,5  | bOLTs
   4  8,7  | bOS
+  4  5,7  - cALO
   4 11,5  | cELTs
   4  9,8  | cHE
   4 10,8  | cIE
@@ -6509,6 +6575,7 @@
   4  5,7  | hE
   4  4,7  - hEAL
   4  9,7  | hEH
+  4 11,5  | hELOs
   4  8,7  | hES
   4  5,8  - hET
   4 10,8  | hIE
@@ -6653,6 +6720,7 @@
   4  4,7  - tEAL
   4  3,7  - tELA
   4 11,5  | tELOs
+  4  5,8  - tET
   4  9,8  | tHE
   4  9,8  | tHO
   4 10,8  | tIE
@@ -6915,12 +6983,15 @@
   3  5,8  - TEj
   3  5,8  - TEl
   3 11,5  | TElOs
+  3  8,6  | TElS
   3  5,8  - TEm
   3  5,8  - TEn
   3  8,6  | TEnS
   3 11,6  | TEnsO
   3  1,6  | TErR
   3  8,6  | TEsS
+  3  5,8  - TEt
+  3  8,6  | TEtS
   3  8,6  | TEwS
   3  5,8  - TEz
   3  4,7  - TOA
@@ -6955,6 +7026,7 @@
   3  8,6  | TOyS
   3 10,8  - Ta
   3 10,8  - Te
+  3 11,6  | TeLs
   3  4,7  - ThAE
   3 11,5  | ThEOs
   3  1,6  | ThOR
@@ -6966,6 +7038,7 @@
   3 10,8  - To
   3  4,7  - TwAE
   3 11,5  | TwOEs
+  3  1,6  | TyER
   3  5,7  - aAL
   3 10,8  - aE
   3  9,8  | aH
@@ -6985,6 +7058,7 @@
   3  3,7  - bOTA
   3  5,7  - cAL
   3  5,7  - cATE
+  3 11,6  | cELs
   3  9,8  | cH
   3 10,7  | cLI
   3 11,6  | cLOs
@@ -7120,6 +7194,7 @@
   3  5,7  - tATE
   3 10,8  - tE
   3  4,7  - tEAT
+  3 11,6  | tELs
   3  9,8  | tH
   3  1,7  | tLR
   3 10,8  - tO
@@ -7417,10 +7492,12 @@
   2 11,6  | TEds
   2 11,6  | TEes
   2 11,6  | TEgs
+  2 11,6  | TEls
   2 11,6  | TEns
   2 11,6  | TEss
   2 11,7  | TEss
   2 11,7  | TEst
+  2 11,6  | TEts
   2 11,6  | TEws
   2 10,8  | TI
   2 11,6  | TOds
@@ -7541,6 +7618,7 @@
   2  5,7  - hAT
   2 10,7  | hEI
   2  1,7  | hER
+  2 11,6  | hETs
   2 11,7  | hEsT
   2 11,6  | hOEs
   2 10,7  | hOI
@@ -7625,6 +7703,7 @@
   2  1,7  | qTR
   2  5,7  - rAT
   2  4,7  - rEA
+  2 10,7  | rEI
   2 11,6  | rETs
   2 11,7  | rEsT
   2 11,6  | rOEs
@@ -7650,6 +7729,7 @@
   2  5,7  - tAO
   2  5,7  - tAT
   2  4,7  - tEA
+  2 11,6  | tETs
   2 11,7  | tEsT
   2  4,7  - tOA
   2 11,6  | tOEs

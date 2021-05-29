@@ -37,6 +37,7 @@
  40 11,2  | EMBEAm
  39  2,11 - BEAMs
  39  2,11 - BEMAs
+ 39  2,11 - MABEs
  39 11,1  | nEEMBA
  37  7,11 - BAMs
  37 11,3  | BEMAd
@@ -166,6 +167,7 @@
  25  8,11 - EAsE
  25  1,10 - EMcEED
  25  8,11 - EMs
+ 25  1,10 - MABE
  25  8,11 - MAs
  25  8,11 - MEs
  25  1,10 - sEMEED
@@ -211,6 +213,7 @@
  23  2,10 - BrEED
  23 11,4  | EnAMEL
  23  1,10 - MaBA
+ 23  1,10 - MaBE
  23 11,6  | aBELE
  23  1,10 - aMBA
  23  1,10 - aMBE
@@ -248,6 +251,7 @@
  22  2,10 - EMEnD
  22  9,11 - EsE
  22  1,10 - MABa
+ 22  1,10 - MABe
  22  1,10 - MABi
  22  9,7  | MAra
  22  9,7  | MAre
@@ -300,7 +304,6 @@
  20 11,6  | ABeL
  20  2,6  - ABrEGE
  20  5,2  | AMEBaE
- 20 11,6  | AMaL
  20 11,6  | AMeL
  20 11,5  | BAM
  20  3,10 - BArDEE
@@ -321,7 +324,6 @@
  20  4,8  | MPB
  20  4,8  | MPBs
  20 11,6  | aBEL
- 20 11,6  | aMAL
  20 11,6  | aMEL
  19  9,7  | AEriE
  19 11,8  | ALeM
@@ -412,7 +414,9 @@
  18  8,6  | EMBEr
  18  4,7  | EMPEo
  18  4,5  | ElAMP
+ 18  8,6  | MABE
  18  8,6  | MABEl
+ 18  8,6  | MABEs
  18 11,7  | MALE
  18 11,7  | MALEe
  18 11,7  | MALEo
@@ -519,6 +523,7 @@
  17 11,9  | LAB
  17 11,9  | LAM
  17  2,10 - MAE
+ 17  1,10 - MAbE
  17  1,10 - MAcE
  17  1,10 - MAdE
  17  1,10 - MAgE
@@ -541,7 +546,9 @@
  17  1,10 - MEtA
  17  5,3  | MEtAE
  17  1,10 - MEtE
+ 17  1,10 - MEzE
  17  5,3  | MaBA
+ 17  8,6  | MaBE
  17  1,10 - MiAE
  17  1,10 - MzEE
  17  8,6  | aMBE
@@ -572,6 +579,8 @@
  17  4,6  | lAMP
  17 11,4  | lEAM
  17  1,10 - lEME
+ 17  1,10 - mABE
+ 17  1,10 - nABE
  17  1,10 - nAME
  17  1,10 - nEMA
  17  1,10 - pEBA
@@ -779,10 +788,12 @@
  15  2,10 - iBA
  15  1,7  - jAMBER
  15  1,7  - lAMBER
+ 15  9,7  | lArEE
  15  1,7  - mEMBER
  15  2,10 - oBA
  15  2,10 - oBE
  15  5,7  | oBOE
+ 15  9,7  | pErEA
  15  8,6  | rAMEE
  15  8,6  | sEMEE
  15  2,10 - sMA
@@ -909,6 +920,7 @@
  14  5,3  | MEtA
  14  8,8  | MEtA
  14  8,8  | MEtE
+ 14  8,8  | MEzE
  14  5,8  - MIA
  14  5,8  | MOA
  14  5,8  | MOAi
@@ -944,6 +956,8 @@
  14  8,6  | kAME
  14  8,6  | lAME
  14  8,6  | lEME
+ 14  8,6  | mABE
+ 14  8,6  | nABE
  14  8,6  | nAME
  14  4,8  - oBI
  14  2,7  - oMBER
@@ -1192,6 +1206,7 @@
  11 11,5  | BA
  11  8,6  - BAKE
  11  4,7  | BAP
+ 11  4,7  | BAPs
  11  4,7  | BAPt
  11  3,7  - BAgRE
  11  3,7  - BArRE
@@ -1314,7 +1329,6 @@
  10 11,8  | ALoE
  10  8,7  - AMA
  10  8,7  - AMAh
- 10  8,7  - AMAl
  10  8,7  - AMAr
  10  8,7  - AMAs
  10  8,7  - AMAy
@@ -1700,6 +1714,7 @@
   9  6,7  - REBEAr
   9  6,7  - REBEAt
   9  6,7  - REsEAM
+  9  6,7  - REtEAM
   9  5,4  | aBA
   9  8,7  - aBA
   9  5,4  | aMA
@@ -2330,6 +2345,7 @@
   7  8,6  - lAKE
   7  4,7  | lAP
   7  8,7  - lEAM
+  7  8,6  - lEKE
   7  4,7  | lEP
   7 11,5  | mA
   7  8,7  - mAAM
@@ -2583,6 +2599,7 @@
   6  4,7  - MARu
   6  4,7  - MARx
   6  4,7  - MARy
+  6  8,6  | MAbE
   6  8,6  | MAcE
   6  8,6  | MAdE
   6  8,6  | MAgE
@@ -2606,6 +2623,7 @@
   6  8,6  | MErE
   6  8,6  | MEsE
   6  8,6  | MEtE
+  6  8,6  | MEzE
   6  5,7  - MREm
   6  4,7  - MaRA
   6  4,7  - MaRE
@@ -2650,6 +2668,7 @@
   6  5,8  | bOA
   6  5,7  - bRAB
   6  5,7  - bRAM
+  6  4,7  - cARB
   6  5,7  - cRAB
   6  5,7  - cRAM
   6  3,10 - dA
@@ -2770,6 +2789,7 @@
   6  4,7  - sERB
   6  5,8  - sIA
   6  5,8  - sIE
+  6  9,6  - sKA
   6  5,8  | sOE
   6  4,8  | sPAE
   6  3,10 - tA
@@ -2937,6 +2957,7 @@
   5 11,9  | LEv
   5 11,9  | LEx
   5 11,9  | LEy
+  5 11,9  | LEz
   5  5,7  - MRs
   5  8,7  | MaE
   5  4,7  - MaR
@@ -2976,6 +2997,7 @@
   5  4,9  | PAy
   5  4,9  | PE
   5  4,9  | PEa
+  5  4,9  | PEc
   5  4,9  | PEd
   5  4,9  | PEe
   5  4,9  | PEg
@@ -3144,6 +3166,7 @@
   5  9,9  | rEf
   5  9,9  | rEg
   5  9,9  | rEh
+  5  9,9  | rEi
   5  9,9  | rEl
   5  9,9  | rEm
   5  9,9  | rEn
@@ -3300,6 +3323,7 @@
   4  8,10 - dET
   4 11,8  | eL
   4  8,7  | fAE
+  4  4,6  - fAG
   4  8,7  | fEE
   4  3,7  - fEERE
   4  4,7  - fERAE
@@ -3317,6 +3341,7 @@
   4  8,7  | kAE
   4  4,6  - kEG
   4  4,6  - lAG
+  4  4,7  - lAREE
   4  8,7  | lEE
   4  4,6  - lEG
   4  8,10 - lET
@@ -3331,6 +3356,7 @@
   4  4,8  | oP
   4  8,7  | pEE
   4  4,6  - pEG
+  4  4,7  - pEREA
   4  4,8  | pP
   4  4,6  - rAG
   4  8,7  | rEE
@@ -3353,6 +3379,7 @@
   4  4,6  - tAG
   4  8,7  | tEE
   4  4,6  - tEG
+  4  8,10 - tET
   4  4,8  | uP
   4  4,6  - vAG
   4  8,7  | vEE
@@ -3656,6 +3683,7 @@
   2  6,7  - REf
   2  6,7  - REg
   2  6,7  - REh
+  2  6,7  - REi
   2  6,7  - REl
   2  6,7  - REm
   2  6,7  - REn

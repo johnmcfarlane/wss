@@ -151,6 +151,7 @@
  12  6,6  - AnTEED
  12  6,6  - AxSEED
  12  7,6  | DEAThS
+ 12  7,6  | DEETS
  12  7,6  | DESAlT
  12  7,6  | DESEAm
  12  7,6  | DESErT
@@ -233,6 +234,8 @@
  11  7,6  | DEAvES
  11  7,6  | DEES
  11  7,6  | DEESs
+ 11  7,6  | DEET
+ 11  7,6  | DEETs
  11  7,6  | DESEx
  11  7,6  | DESTo
  11  7,6  | DETAr
@@ -241,6 +244,7 @@
  11  7,6  | DETEr
  11  7,6  | DEbAT
  11  7,6  | DEbTS
+ 11  7,6  | DEeTS
  11  7,6  | DEfAT
  11  7,6  | DEgAS
  11  7,6  | DEiST
@@ -331,6 +335,7 @@
  11  7,6  | TEED
  11  2,5  | TEES
  11  2,5  | TEESt
+ 11  2,5  | TEElS
  11  2,5  | TEEmS
  11  2,5  | TEEnS
  11  2,5  | TESlA
@@ -465,6 +470,7 @@
  10  6,6  - AgATES
  10  6,6  - AhEAD
  10  6,6  - AiDES
+ 10  6,6  - AlATES
  10  6,6  - AlDEA
  10  6,6  - AmEED
  10  6,6  - AnDES
@@ -487,11 +493,14 @@
  10  7,6  | DEArE
  10  7,6  | DEArS
  10  7,6  | DEAvE
+ 10  5,7  | DEETS
+ 10  7,7  | DEETS
  10  7,6  | DEEdS
  10  7,6  | DEEmS
  10  7,6  | DEEpS
  10  7,6  | DEErS
  10  7,6  | DEEsS
+ 10  7,6  | DEEtS
  10  7,6  | DESmA
  10  7,6  | DESsA
  10  7,6  | DETtE
@@ -501,6 +510,7 @@
  10  7,6  | DEbT
  10  7,6  | DEdA
  10  7,6  | DEeS
+ 10  7,6  | DEeT
  10  7,6  | DEfS
  10  7,6  | DEfT
  10  7,6  | DEiA
@@ -525,6 +535,7 @@
  10  7,6  | DEwS
  10  7,6  | DEyS
  10  7,6  | DSEcT
+ 10  7,6  | DeETS
  10  7,6  | DoATS
  10  7,6  | DoEST
  10  7,6  | DoTES
@@ -859,6 +870,10 @@
   9  7,7  | DEES
   9  5,7  | DEESs
   9  7,7  | DEESs
+  9  5,7  | DEET
+  9  7,7  | DEET
+  9  5,7  | DEETs
+  9  7,7  | DEETs
   9  7,6  | DEEd
   9  5,7  | DEEdS
   9  7,7  | DEEdS
@@ -875,6 +890,9 @@
   9  7,6  | DEEs
   9  5,7  | DEEsS
   9  7,7  | DEEsS
+  9  7,6  | DEEt
+  9  5,7  | DEEtS
+  9  7,7  | DEEtS
   9  5,7  | DESEx
   9  7,7  | DESEx
   9  5,7  | DESTo
@@ -909,6 +927,9 @@
   9  7,7  | DaTES
   9  7,6  | DeAS
   9  7,6  | DeES
+  9  7,6  | DeET
+  9  5,7  | DeETS
+  9  7,7  | DeETS
   9  5,7  | DiETS
   9  7,7  | DiETS
   9  5,7  | DiTAS
@@ -988,6 +1009,7 @@
   9  7,6  | SETAl
   9  7,6  | SEbAT
   9  7,6  | SEdAT
+  9  7,6  | SEnTE
   9  7,6  | SEpTA
   9  7,6  | SErTA
   9  7,6  | SEtAE
@@ -1114,6 +1136,7 @@
   9  7,6  | TElAE
   9  2,5  | TElE
   9  7,6  | TElES
+  9  2,5  | TElS
   9  2,5  | TEmA
   9  7,6  | TEmSE
   9  2,5  | TEnS
@@ -1126,6 +1149,7 @@
   9  7,6  | TErSE
   9  2,5  | TEsS
   9  2,5  | TEtE
+  9  2,5  | TEtS
   9  2,5  | TEwA
   9  2,5  | TEwS
   9  7,6  | TExAS
@@ -1285,6 +1309,7 @@
   8  7,6  | ASsT
   8  6,6  - ATAkE
   8  6,6  - ATAmE
+  8  6,6  - ATApS
   8  5,7  | ATEES
   8  6,6  - ATEEs
   8  6,6  - ATEbA
@@ -1421,6 +1446,8 @@
   8  7,7  | DEEr
   8  5,7  | DEEs
   8  7,7  | DEEs
+  8  5,7  | DEEt
+  8  7,7  | DEEt
   8  5,7  | DESc
   8  7,7  | DESc
   8  5,7  | DESi
@@ -1447,6 +1474,8 @@
   8  7,7  | DEbTS
   8  5,7  - DEcEASE
   8  7,6  | DEe
+  8  5,7  | DEeTS
+  8  7,7  | DEeTS
   8  7,6  | DEf
   8  5,7  | DEfAT
   8  7,7  | DEfAT
@@ -1487,6 +1516,7 @@
   8  7,6  | DEr
   8  5,7  | DErAT
   8  7,7  | DErAT
+  8  5,7  - DErATES
   8  5,7  | DEsSA
   8  7,7  | DEsSA
   8  7,6  | DEt
@@ -1514,6 +1544,8 @@
   8  7,7  | DeAS
   8  5,7  | DeES
   8  7,7  | DeES
+  8  5,7  | DeET
+  8  7,7  | DeET
   8  5,7  | DiAS
   8  7,7  | DiAS
   8  5,7  | DiES
@@ -1663,6 +1695,7 @@
   8  7,6  | SElT
   8  7,6  | SEmE
   8  7,6  | SEnA
+  8  7,6  | SEnE
   8  7,6  | SEnT
   8  7,6  | SEpT
   8  7,6  | SErA
@@ -1765,6 +1798,7 @@
   8  7,7  | TEDs
   8  5,7  | TEED
   8  7,7  | TEED
+  8  7,6  | TEElS
   8  7,6  | TEEmS
   8  7,6  | TEEnS
   8  7,6  | TESlA
@@ -1779,12 +1813,14 @@
   8  7,6  | TEgS
   8  7,6  | TElA
   8  7,6  | TElE
+  8  7,6  | TElS
   8  7,6  | TEmA
   8  7,6  | TEnS
   8  7,6  | TEpA
   8  7,6  | TEpE
   8  7,6  | TEsS
   8  7,6  | TEtE
+  8  7,6  | TEtS
   8  7,6  | TEwA
   8  7,6  | TEwS
   8  5,7  | TSADe
@@ -1837,12 +1873,15 @@
   8  6,5  - VADe
   8  6,5  - VADy
   8  6,5  - VATeS
+  8  6,5  - VATuS
+  8  6,5  - VAcS
   8  6,5  - VAdE
   8  6,5  - VAgE
   8  6,5  - VAlE
   8  6,5  - VAnE
   8  6,5  - VAnS
   8  6,5  - VArE
+  8  6,5  - VArS
   8  6,5  - VAsE
   8  6,5  - VAsT
   8  6,5  - VAtS
@@ -1903,6 +1942,7 @@
   8  2,4  - cOPAL
   8  5,7  - dEADEST
   8  7,6  | dEDA
+  8  7,6  | dEETS
   8  5,7  | fADES
   8  7,7  | fADES
   8  5,7  - fEASTED
@@ -1944,6 +1984,7 @@
   8  2,5  | hED
   8  2,5  | hEST
   8  2,5  | hETE
+  8  2,5  | hETS
   8  5,7  | jADES
   8  2,5  | kAES
   8  2,5  | kATE
@@ -2047,6 +2088,7 @@
   8  7,6  | tESTA
   8  7,6  | tESTE
   8  2,5  | tETE
+  8  2,5  | tETS
   8  5,7  | wADES
   8  7,7  | wADES
   8  7,6  | wEDE
@@ -2150,6 +2192,8 @@
   7  7,7  | DAkS
   7  5,7  | DAlE
   7  7,7  | DAlE
+  7  5,7  | DAlS
+  7  7,7  | DAlS
   7  5,7  | DAlT
   7  7,7  | DAlT
   7  5,7  | DAmE
@@ -2182,6 +2226,7 @@
   7  7,7  | DAzE
   7  5,7  - DEAvES
   7  5,7  - DEESEs
+  7  5,7  - DEETS
   7  5,7  - DEEsES
   7  5,7  - DESEAm
   7  5,7  - DESEEd
@@ -2204,6 +2249,8 @@
   7  7,7  | DEdA
   7  5,7  | DEeS
   7  7,7  | DEeS
+  7  5,7  | DEeT
+  7  7,7  | DEeT
   7  5,7  - DEfATS
   7  5,7  - DEfEAT
   7  5,7  | DEfS
@@ -2706,6 +2753,8 @@
   7  7,7  | TEESt
   7  7,6  | TEEd
   7  7,6  | TEEl
+  7  5,7  | TEElS
+  7  7,7  | TEElS
   7  7,6  | TEEm
   7  5,7  - TEEmED
   7  5,7  | TEEmS
@@ -2737,6 +2786,7 @@
   7  5,7  | TEnDS
   7  7,7  | TEnDS
   7  5,7  - TEnSED
+  7  2,5  | TEt
   7  2,5  | TEw
   7  5,7  - TEwED
   7  5,7  | TEwED
@@ -2881,6 +2931,7 @@
   7  5,7  | dEEDS
   7  7,7  | dEEDS
   7  7,6  | dEES
+  7  7,6  | dEET
   7  5,7  - dESEED
   7  5,7  | eASED
   7  7,7  | eASED
@@ -2919,6 +2970,7 @@
   7  7,7  | hEEDS
   7  7,6  | hEST
   7  7,6  | hETE
+  7  7,6  | hETS
   7  7,6  | iDE
   7  7,6  | iDS
   7  7,6  | iTEA
@@ -3041,6 +3093,7 @@
   7  7,6  | tEST
   7  5,7  - tESTED
   7  7,6  | tETE
+  7  7,6  | tETS
   7  5,7  | tSADE
   7  7,7  | tSADE
   7  5,7  - vESTED
@@ -3202,6 +3255,7 @@
   6  5,7  - DEEpS
   6  5,7  - DEErS
   6  5,7  - DEEsS
+  6  5,7  - DEEtS
   6  5,7  - DESAlT
   6  5,7  - DESErT
   6  5,7  - DESmA
@@ -3216,6 +3270,7 @@
   6  5,7  - DEbTS
   6  5,7  | DEe
   6  7,7  | DEe
+  6  5,7  - DEeTS
   6  5,7  | DEf
   6  7,7  | DEf
   6  5,7  - DEfAT
@@ -3484,6 +3539,7 @@
   6  7,6  | SEn
   6  5,7  - SEnATE
   6  7,7  | SEnD
+  6  7,7  | SEnTE
   6  7,6  | SEp
   6  7,7  | SEpD
   6  7,7  | SEpTA
@@ -3692,6 +3748,7 @@
   6  5,7  - TErESA
   6  5,7  | TErSE
   6  7,7  | TErSE
+  6  7,6  | TEt
   6  7,6  | TEw
   6  7,6  | TEx
   6  5,7  | TExAS
@@ -3790,6 +3847,8 @@
   6  5,7  | dEED
   6  7,7  | dEED
   6  5,7  - dEEDS
+  6  5,7  | dEETS
+  6  7,7  | dEETS
   6  5,7  | dETD
   6  7,7  | dETD
   6  7,6  | dTD
@@ -4038,6 +4097,7 @@
   6  5,7  | tESTE
   6  7,7  | tESTE
   6  5,7  - tESTEE
+  6  2,5  | tET
   6  2,5  | tST
   6  5,7  - vEDET
   6  5,7  - vESTEE
@@ -4139,6 +4199,8 @@
   5  5,7  - DEATh
   5  5,7  - DEES
   5  5,7  - DEESs
+  5  5,7  - DEET
+  5  5,7  - DEETs
   5  5,7  - DESEx
   5  5,7  - DESTo
   5  5,7  - DETAr
@@ -4337,7 +4399,9 @@
   5  7,7  | SEmE
   5  5,7  - SEmEE
   5  7,7  | SEnA
+  5  7,7  | SEnE
   5  7,7  | SEnT
+  5  5,7  - SEnTE
   5  7,7  | SEpT
   5  5,7  - SEpTA
   5  7,7  | SErA
@@ -4374,6 +4438,7 @@
   5  7,7  | SiA
   5  7,7  | SiE
   5  7,7  | SiT
+  5  7,7  | SkA
   5  7,6  | SlA
   5  7,7  | SlA
   5  7,6  | SlT
@@ -4453,6 +4518,7 @@
   5  5,7  - TEDA
   5  5,7  - TEDS
   5  5,7  - TEED
+  5  5,7  - TEElS
   5  5,7  - TEEmS
   5  5,7  - TEEnS
   5  5,7  - TESlA
@@ -4481,6 +4547,8 @@
   5  5,7  | TElE
   5  7,7  | TElE
   5  5,7  - TElES
+  5  5,7  | TElS
+  5  7,7  | TElS
   5  5,7  | TEmA
   5  7,7  | TEmA
   5  5,7  - TEmSE
@@ -4500,6 +4568,8 @@
   5  7,7  | TEsS
   5  5,7  | TEtE
   5  7,7  | TEtE
+  5  5,7  | TEtS
+  5  7,7  | TEtS
   5  5,7  | TEwA
   5  7,7  | TEwA
   5  5,7  | TEwS
@@ -4614,6 +4684,9 @@
   5  7,6  | dEE
   5  5,7  | dEES
   5  7,7  | dEES
+  5  5,7  | dEET
+  5  7,7  | dEET
+  5  5,7  - dEETS
   5  7,6  | dET
   5  5,7  | eASE
   5  7,7  | eASE
@@ -4685,6 +4758,8 @@
   5  7,6  | hET
   5  5,7  | hETE
   5  7,7  | hETE
+  5  5,7  | hETS
+  5  7,7  | hETS
   5  7,6  | hTS
   5  7,6  | iSE
   5  7,6  | iST
@@ -4861,8 +4936,11 @@
   5  7,7  | tEST
   5  5,7  - tESTA
   5  5,7  - tESTE
+  5  7,6  | tET
   5  5,7  | tETE
   5  7,7  | tETE
+  5  5,7  | tETS
+  5  7,7  | tETS
   5  7,6  | tST
   5  5,7  - vESTA
   5  5,7  | wAES
@@ -4980,6 +5058,7 @@
   4  5,7  - DEEp
   4  5,7  - DEEr
   4  5,7  - DEEs
+  4  5,7  - DEEt
   4  5,7  - DESc
   4  5,7  - DESi
   4  5,7  - DESk
@@ -4994,6 +5073,7 @@
   4  5,7  - DEbT
   4  5,7  - DEdA
   4  5,7  - DEeS
+  4  5,7  - DEeT
   4  5,7  - DEfS
   4  5,7  - DEfT
   4  5,7  - DEiA
@@ -5249,6 +5329,8 @@
   4  5,7  | TEn
   4  7,7  | TEn
   4  5,7  - TEnD
+  4  5,7  | TEt
+  4  7,7  | TEt
   4  5,7  | TEw
   4  7,7  | TEw
   4  5,7  | TEx
@@ -5455,6 +5537,8 @@
   4  5,7  | tEE
   4  7,7  | tEE
   4  5,7  - tEED
+  4  5,7  | tET
+  4  7,7  | tET
   4  5,7  | tST
   4  7,7  | tST
   4  5,7  - vEDA
@@ -5697,6 +5781,7 @@
   3  5,7  - SElT
   3  5,7  - SEmE
   3  5,7  - SEnA
+  3  5,7  - SEnE
   3  5,7  - SEnT
   3  5,7  - SEpT
   3  5,7  - SErA
@@ -5737,12 +5822,14 @@
   3  5,7  - TEgS
   3  5,7  - TElA
   3  5,7  - TElE
+  3  5,7  - TElS
   3  5,7  - TEmA
   3  5,7  - TEnS
   3  5,7  - TEpA
   3  5,7  - TEpE
   3  5,7  - TEsS
   3  5,7  - TEtE
+  3  5,7  - TEtS
   3  5,7  - TEwA
   3  5,7  - TEwS
   3  2,5  - TOI
@@ -5774,6 +5861,7 @@
   3  5,7  - cETE
   3  5,7  - dEAS
   3  5,7  - dEES
+  3  5,7  - dEET
   3  5,7  | eD
   3  7,7  | eD
   3  4,1  | eL
@@ -5796,6 +5884,7 @@
   3  5,7  - hED
   3  5,7  - hEST
   3  5,7  - hETE
+  3  5,7  - hETS
   3  5,7  - jEES
   3  5,7  - jEST
   3  5,7  - jETE
@@ -5861,6 +5950,7 @@
   3  5,7  - tEET
   3  5,7  - tEST
   3  5,7  - tETE
+  3  5,7  - tETS
   3  5,7  - vEES
   3  5,7  - vESE
   3  5,7  - vEST
@@ -6026,6 +6116,7 @@
   2  5,7  - TEl
   2  5,7  - TEm
   2  5,7  - TEn
+  2  5,7  - TEt
   2  5,7  - TEw
   2  5,7  - TEx
   2  5,7  - TEz
@@ -6127,6 +6218,7 @@
   2  7,7  | tE
   2  5,7  - tEA
   2  5,7  - tEE
+  2  5,7  - tET
   2  2,5  - tOI
   2  5,7  - vEE
   2  5,7  - vET

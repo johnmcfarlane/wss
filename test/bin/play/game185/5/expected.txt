@@ -47,6 +47,7 @@
  31  4,4  | ZOl
  31  4,4  | ZOo
  30  5,6  - SOZInE
+ 29  5,1  | BIZzES
  29  7,8  | EZBa
  29  4,2  | Za
  29  5,7  | oBV
@@ -157,7 +158,9 @@
  20  2,8  - dIVEY
  20  2,8  - gIVEY
  20  5,4  | hEBE
+ 20  2,8  - jIVEY
  19  5,1  | BEViES
+ 19  5,1  | BIzZES
  19  4,4  | BOVE
  19  4,4  | BOVEy
  19  4,4  | BOVId
@@ -427,6 +430,7 @@
  14  5,8  | BIcE
  14  5,8  | BIdE
  14  5,8  | BIdS
+ 14  5,8  | BIgS
  14  5,8  | BIkE
  14  5,8  | BIlE
  14  5,8  | BInE
@@ -604,6 +608,7 @@
  13  5,8  | BoSE
  13  5,8  | BrEI
  13  5,8  | BrIE
+ 13  5,8  | BrIS
  13  5,8  | ByES
  13  7,8  | EBb
  13  5,7  | Em
@@ -619,6 +624,7 @@
  13  5,1  | SEiZE
  13  5,4  | SElE
  13  5,4  | SEmE
+ 13  5,4  | SEnE
  13  7,6  | SI
  13  2,8  - SIEVY
  13  3,1  - SIZE
@@ -653,6 +659,7 @@
  13  5,6  - dOZE
  13  3,7  - iBEX
  13  7,8  | iBIS
+ 13  5,2  | mEZE
  13  5,2  | mIZE
  13  5,6  - mOZE
  13  5,6  - nOZI
@@ -819,6 +826,7 @@
  11  3,7  - SpEX
  11  4,6  - StOVE
  11  3,1  - SuZ
+ 11  5,1  | VEgIES
  11  3,8  - VEnY
  11  3,8  - VErY
  11  5,2  | VExES
@@ -961,6 +969,7 @@
  10  5,2  | gIBES
  10  4,4  | gOBIES
  10  5,8  - gYBE
+ 10  5,2  | hEBES
  10  5,2  | jIBES
  10  5,4  | kEB
  10  5,2  | kIBES
@@ -1182,6 +1191,7 @@
   8  5,6  - SOB
   8  4,4  | SOBs
   8  5,6  - SOBs
+  8  4,4  | SOlEI
   8  4,4  | SOrB
   8  5,6  - SOrB
   8  4,4  | SOsIE
@@ -1200,6 +1210,7 @@
   8  3,1  - SuEVI
   8  3,1  - SwIVE
   8  1,3  - TALIpES
+  8  5,1  | VEgIE
   8  5,1  | VEnIE
   8  5,1  | VEpSE
   8  5,1  | VErSE
@@ -1356,6 +1367,7 @@
   7  3,1  - SVgS
   7  5,8  - SYcE
   7  5,8  - SYkE
+  7  5,8  - SYlI
   7  5,8  - SYnE
   7  5,8  - SYrE
   7  3,1  - SaBES
@@ -1489,10 +1501,12 @@
   6  2,2  - FEdS
   6  2,2  - FEeS
   6  2,2  - FEgS
+  6  2,2  - FEhS
   6  2,2  - FEiS
   6  2,2  - FElE
   6  2,2  - FElS
   6  2,2  - FEmE
+  6  2,2  - FEmS
   6  2,2  - FEnS
   6  2,2  - FErE
   6  2,2  - FErS
@@ -1558,6 +1572,7 @@
   6  3,1  - SIBb
   6  3,1  - SIBs
   6  3,1  - SIbB
+  6  5,6  - SOlEI
   6  5,6  - SOsIE
   6  5,6  - SOtIE
   6  3,1  - SaBE
@@ -1629,6 +1644,7 @@
   6  5,3  | iVE
   6  4,4  | jOBS
   6  4,4  | kOBI
+  6  4,4  | kOBS
   6  5,6  - lOB
   6  4,4  | lOBE
   6  4,4  | lOBI
@@ -1813,6 +1829,7 @@
   5  6,8  - YEnS
   5  6,8  - YEtI
   5  6,8  - YEwS
+  5  6,8  - YIdS
   5  6,8  - YIkE
   5  6,8  - YInS
   5  6,8  - YIpE
@@ -1924,11 +1941,13 @@
   4  3,1  - SEIS
   4  3,1  - SEISe
   4  3,1  - SEISm
+  4  3,1  - SEIfS
   4  3,1  - SESIa
   4  3,1  - SEStI
   4  5,2  | SElE
   4  5,2  | SEmE
   4  3,1  - SEmIS
+  4  5,2  | SEnE
   4  5,2  | SErE
   4  5,2  | SEvE
   4  5,3  | SIE
@@ -2030,6 +2049,7 @@
   4  6,8  - YEx
   4  6,8  - YEz
   4  6,8  - YI
+  4  6,8  - YId
   4  6,8  - YIn
   4  6,8  - YIp
   4  5,4  | aES
@@ -2105,6 +2125,7 @@
   4  5,2  | pISE
   4  5,8  - pYE
   4  5,4  | rEE
+  4  5,4  | rEI
   4  5,4  | rES
   4  5,2  | rISE
   4  5,6  - rOES
@@ -2203,6 +2224,7 @@
   3  5,4  | SEe
   3  3,1  - SEeS
   3  5,4  | SEg
+  3  3,1  - SEgS
   3  5,4  | SEi
   3  3,1  - SEiS
   3  5,4  | SEl

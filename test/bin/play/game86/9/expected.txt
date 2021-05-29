@@ -127,6 +127,7 @@
  20  3,3  | ARB
  20  3,3  | ASB
  20 10,5  | BA
+ 20  8,10 - BAPS
  20 10,5  | BI
  20 10,1  | BIGAS
  20  1,3  | BRA
@@ -143,6 +144,7 @@
  20  3,3  | SIB
  20  1,3  | SPA
  19  1,4  | ABP
+ 19  1,4  | BAPS
  19  5,7  | SERED
  18  3,4  | AB
  18  9,1  | ABA
@@ -155,6 +157,7 @@
  18 10,1  | BAGS
  18  8,10 - BAP
  18 10,1  | BIGA
+ 18 10,1  | BIGS
  18  1,7  - BOR
  18  1,7  - BOS
  18  9,1  | BRA
@@ -178,6 +181,7 @@
  17  3,3  | BPI
  17  3,3  | BPS
  17  3,3  | BRAS
+ 17  3,3  | BRIS
  17  3,3  | PAIR
  17  3,3  | PAIS
  17  3,3  | PARS
@@ -214,6 +218,7 @@
  15  1,5  | ARB
  15  3,2  | ASPIS
  15  1,5  | BAI
+ 15  3,2  | BAPS
  15  3,2  | BARIS
  15  1,5  | BAS
  15  3,2  | BASIS
@@ -251,6 +256,7 @@
  14  8,10 - BAAS
  14  3,3  | BAI
  14  8,10 - BAIS
+ 14  1,5  - BAPS
  14  3,3  | BAR
  14  8,10 - BARA
  14  8,10 - BARI
@@ -366,6 +372,7 @@
  12  3,2  | BIAS
  12  3,4  | BIS
  12  3,2  | BRAS
+ 12  3,2  | BRIS
  12  3,2  | ISBA
  12  9,6  - MAR
  12  9,6  - MAS
@@ -402,6 +409,8 @@
  12 10,1  | RAGS
  12  8,10 - RAP
  12  3,2  | RAPS
+ 12  9,1  | RIAS
+ 12  8,9  - RIAS
  12  3,2  | RIBS
  12 10,1  | RIGA
  12 10,1  | RIGS
@@ -426,11 +435,13 @@
  11  7,9  - BAIS
  11  4,6  - BANI
  11  7,11 - BIDAR
+ 11  7,9  - BRIS
  11  3,3  | IBA
  11  3,3  | IPR
  11  3,3  | IPS
  11  1,3  | IRA
  11  5,1  | PAC
+ 11  7,11 - PADIS
  11  7,11 - PADRI
  11  7,9  - PAIR
  11  7,9  - PAIS
@@ -446,6 +457,7 @@
  11  3,3  | RAIS
  11  1,5  - RAPS
  11  1,3  | RIA
+ 11  3,3  | RIAS
  11  3,3  | RISS
  11  1,5  - SABA
  11  1,5  - SABS
@@ -536,6 +548,7 @@
   9  3,2  | RAIS
   9  3,4  | RAS
   9  9,1  | RIA
+  9  3,2  | RIAS
   9  3,2  | RISS
   9 11,2  | ReBASIS
   9  9,1  | SAA
@@ -589,6 +602,7 @@
   8  3,5  | IS
   8  1,5  - PAAR
   8  1,5  - PAAS
+  8  7,11 - PADI
   8  7,11 - PADS
   8  1,5  - PAIR
   8  4,5  - PAIRS
@@ -666,6 +680,7 @@
   7  7,11 - BID
   7  4,6  - BIN
   7  5,5  - BIRI
+  7  4,5  - BRIS
   7 11,2  | BeARS
   7 11,2  | BeIRA
   7 11,2  | BeISA
@@ -936,6 +951,7 @@
   4  4,6  - RAN
   4  1,5  - RAS
   4  1,6  - REIS
+  4  5,5  - RIAS
   4  7,11 - RID
   4  4,6  - RIN
   4  5,5  - RISS
@@ -998,6 +1014,7 @@
   3  9,8  - RAS
   3  8,1  | RAT
   3  1,6  - REA
+  3  1,6  - REI
   3  1,6  - RES
   3  5,5  - RIA
   3  9,8  - RIA
@@ -1051,6 +1068,7 @@
   2  8,2  | IT
   2  1,6  - RE
   2 11,2  | ReA
+  2 11,2  | ReI
   2 11,2  | ReS
   2  5,5  - SI
   2  8,9  - SI

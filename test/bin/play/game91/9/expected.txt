@@ -8,6 +8,7 @@
  32  5,2  - ESPIAl
  32  5,2  - PElIAS
  32  5,2  - PErSAE
+ 32  5,2  - PEtSAI
  32  5,2  - PIEtAS
  32  5,2  - SEPIAe
  32  5,2  - SEPIAn
@@ -153,6 +154,7 @@
  20  1,5  | SEdILE
  20  1,5  | SEnILE
  20  5,2  - SEpIAE
+ 20  1,7  | SoLEI
  20  1,5  | StEELE
  20  1,5  | cISELE
  20  1,5  | rESILE
@@ -295,6 +297,7 @@
  14  8,8  | PEbA
  14  8,8  | PEdA
  14  1,4  | PEnSIL
+ 14  5,2  - PErEA
  14  8,8  | PEsA
  14  7,2  - PIAS
  14  7,5  | PIE
@@ -374,6 +377,7 @@
  14 10,2  | xI
  14 10,2  | yI
  14  7,5  - yIN
+ 14  7,5  - zIN
  13 10,1  | EE
  13  1,6  | EPIL
  13 10,1  | ES
@@ -456,6 +460,7 @@
  12  1,9  | LEv
  12  1,9  | LEx
  12  1,9  | LEy
+ 12  1,9  | LEz
  12  8,2  - PAS
  12  7,2  - PEAg
  12  7,2  - PEAi
@@ -524,6 +529,7 @@
  12  7,2  - SPAs
  12  7,2  - SPAt
  12  7,2  - SPAy
+ 12  7,2  - SPAz
  12  1,5  | SPEeL
  12  1,5  | SPEiL
  12  3,6  - SPIKE
@@ -571,6 +577,7 @@
  12  7,1  - tEMPS
  12  6,2  - tEPA
  12  7,2  - uPAS
+ 12  7,1  - wIMPS
  12  6,2  - zIPA
  11  3,6  - EPIKy
  11  6,1  - EPIMEr
@@ -616,6 +623,7 @@
  11  5,7  - POlE
  11  5,7  - POlS
  11  5,7  - POmE
+ 11  5,7  - POmS
  11  5,7  - POnE
  11  5,7  - POnS
  11  5,7  - POpE
@@ -846,6 +854,7 @@
   9 10,1  | Is
   9 10,1  | It
   9  6,6  - KEySET
+  9  8,7  | PErEA
   9  6,1  - PErM
   9  8,7  | PIEtA
   9  7,1  - PIM
@@ -865,6 +874,7 @@
   9  4,6  - PmK
   9  6,1  - PoEM
   9  7,1  - PoME
+  9  7,1  - PoMS
   9  6,1  - PrEM
   9  6,1  - PrIM
   9  7,1  - PuME
@@ -957,11 +967,13 @@
   9  1,6  | vEIL
   9  8,7  | vESPA
   9  1,6  | wEEL
+  9  7,1  - wIMP
   9  1,6  | yEEL
   8  5,1  - EESoME
   8  1,8  - EF
   8  1,8  | EL
   8  8,1  - EMeS
+  8  8,1  - EMfS
   8  8,1  - EMuS
   8  8,1  - EMyS
   8  8,8  | EPhA
@@ -1014,6 +1026,7 @@
   8  5,2  - bEISA
   8  1,7  | bEL
   8  4,1  - bESEEM
+  8  1,7  | cEL
   8  1,7  | dEL
   8  1,7  | dIL
   8  5,1  - dISEME
@@ -1093,6 +1106,7 @@
   7  8,7  | PaISA
   7  8,9  - PaLA
   7  8,7  | PrESA
+  7  8,9  - PuLA
   7  8,9  - PyLA
   7  6,9  - REP
   7  6,9  - RIP
@@ -1175,6 +1189,7 @@
   7  7,5  | kI
   7  4,6  - kIKE
   7  3,6  - lEEK
+  7  4,6  - lEKE
   7  4,6  - lEKS
   7  7,5  | lI
   7  4,6  - lIKE
@@ -1263,6 +1278,7 @@
   6  7,1  - ISMs
   6  7,1  - ISMy
   6  6,2  - ISbA
+  6  4,6  - IcK
   6  6,2  - IdEA
   6  6,1  - IdEM
   6  6,2  - IlEA
@@ -1317,6 +1333,7 @@
   6  6,2  - SInA
   6  6,2  - SItA
   6  6,1  - SIuM
+  6  5,6  - SKa
   6  5,6  - SKi
   6  5,6  - SKy
   6  8,1  - SMEw
@@ -1378,6 +1395,7 @@
   6  5,6  - eKE
   6  1,8  | eL
   6  7,1  - fEME
+  6  7,1  - fEMS
   6  5,7  - fOP
   6  8,7  | gEISA
   6  7,1  - gEMS
@@ -1424,6 +1442,7 @@
   6  6,1  - rEIM
   6  7,1  - rEMI
   6  7,1  - rEMS
+  6  7,2  - rIAS
   6  6,1  - rIEM
   6  4,6  - rIK
   6  7,1  - rIME
@@ -1449,6 +1468,7 @@
   6  6,2  - vISA
   6  6,1  - wEEM
   6  7,1  - wIME
+  6  5,7  - wOP
   6  7,2  - yEAS
   6  4,6  - zEK
   6  7,1  - zEMI
@@ -1650,6 +1670,7 @@
   4  9,1  - Mu
   4  9,1  - My
   4  6,9  - REE
+  4  6,9  - REI
   4  6,9  - RES
   4  6,9  - RIE
   4  8,2  - SAa
@@ -1745,6 +1766,7 @@
   3  6,9  - REf
   3  6,9  - REg
   3  6,9  - REh
+  3  6,9  - REi
   3  6,9  - REl
   3  6,9  - REm
   3  6,9  - REn
@@ -1759,6 +1781,7 @@
   3  6,9  - RIc
   3  6,9  - RId
   3  6,9  - RIe
+  3  6,9  - RIf
   3  6,9  - RIg
   3  6,9  - RIk
   3  6,9  - RIm
@@ -1877,6 +1900,7 @@
   2  6,7  - OzS
   2  6,9  - RaS
   2  6,9  - ReE
+  2  6,9  - ReI
   2  6,9  - ReS
   2  6,9  - RhE
   2  6,9  - RiE
@@ -1899,6 +1923,8 @@
   2  8,9  | ShA
   2  7,2  - SiA
   2  8,9  | SiA
+  2  7,2  - SkA
+  2  8,9  | SkA
   2  7,2  - SlA
   2  8,9  | SlA
   2  7,2  - SmA

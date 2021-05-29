@@ -2,6 +2,7 @@
  37  1,3  - SKIcE
  36  8,6  | dEXIES
  35  8,6  | dEXES
+ 35  8,6  | dEXIE
  35  8,6  | mIXES
  35  8,6  | nIXES
  34  4,8  - XyZ
@@ -72,6 +73,7 @@
  21  2,7  - EXpIATE
  21  8,2  | KELEbE
  21 11,1  | KIDdIES
+ 21  5,3  | KREEp
  21  5,4  | REEK
  21  5,3  | aREEK
  21  5,3  | bREEK
@@ -141,6 +143,7 @@
  16  1,5  - SIKh
  16  5,6  - SWEEsE
  16  6,6  - WEEnIE
+ 16  6,6  - WEEpIE
  16  5,6  - sWEESE
  16  5,6  - tWEESE
  15  5,3  | ERKE
@@ -168,6 +171,7 @@
  15  4,2  | eXCISE
  15  8,7  | mIXES
  15  5,2  | sERIES
+ 15  4,2  | sICKEES
  15  5,2  | sIREES
  14  4,4  | ChIKEE
  14  5,3  | ERnES
@@ -233,6 +237,7 @@
  13  4,2  | EXCl
  13  3,7  - EXEAT
  13  4,1  | EXeC
+ 13  3,7  - EXpATS
  13  8,7  | ElIX
  13  2,7  - ElIXATE
  13  8,6  | EmES
@@ -244,6 +249,8 @@
  13  7,5  - NSEc
  13  5,4  | REES
  13  5,4  | RIES
+ 13  4,2  | SICKEE
+ 13  4,2  | SICKEEs
  13  5,1  | SIKRa
  13  4,8  - SaZ
  13  4,8  - SeZ
@@ -292,6 +299,7 @@
  12  8,3  | ELEm
  12  5,1  | EXERt
  12  3,7  - EXeAT
+ 12  3,7  - EXpAT
  12  8,6  | EmE
  12  8,6  | EmS
  12  4,1  | EvICKE
@@ -311,9 +319,11 @@
  12  5,4  | RyES
  12  4,2  | SECKEl
  12  4,2  | SICKEd
+ 12  4,2  | SICKEe
  12  4,2  | SICKEn
  12  4,2  | SICKEr
  12  4,2  | SICKEt
+ 12  4,2  | SICKeE
  12  4,2  | SICKiE
  12  4,2  | SICKlE
  12  5,2  | SIREE
@@ -321,6 +331,7 @@
  12  3,6  - SKEWEd
  12  3,6  - SKEWEr
  12  4,1  | SKICE
+ 12  4,2  | SiCKEE
  12  4,2  | SiCKIE
  12  5,1  | SoIREE
  12  3,8  - SwIZ
@@ -345,6 +356,7 @@
  12  8,6  | nIS
  12  3,7  - oXEATE
  12  4,2  | pICKEE
+ 12  4,2  | sICKEE
  12  8,6  | tEE
  12  8,6  | tIE
  12  8,7  | tIKES
@@ -390,12 +402,14 @@
  11  5,4  | RIEm
  11  5,4  | RIEr
  11  5,4  | RIEs
+ 11  5,4  | RIaS
  11  5,4  | RIeS
  11  4,3  | SCoKE
  11  4,2  | SECK
  11  5,2  | SERgE
  11  5,2  | SERvE
  11  4,2  | SICK
+ 11  4,2  | SICKo
  11  4,2  | SICKs
  11  5,2  | SIReE
  11  5,1  | SIrREE
@@ -436,6 +450,7 @@
  11  5,2  | hIRSE
  11  4,2  | kECKS
  11  4,2  | kICKS
+ 11  4,8  - lEZ
  11  4,2  | lICKS
  11  4,8  - lIZ
  11  8,7  | mEEK
@@ -487,6 +502,7 @@
  10  8,7  | ErKE
  10  5,2  | ExRX
  10  5,2  | EyRIE
+ 10  4,3  | ICK
  10  4,3  | ICKy
  10  5,2  | IfREE
  10  8,7  | IlKS
@@ -534,6 +550,7 @@
  10  4,2  | hICK
  10  4,2  | kECK
  10  4,2  | kICK
+ 10  5,7  - lATKES
  10  4,2  | lECK
  10  4,2  | lICK
  10  4,2  | mICK
@@ -600,10 +617,12 @@
   9  5,6  | Ew
   9  4,7  - IKATS
   9  3,5  - IcE
+  9  8,7  | IcK
   9  8,7  | IlK
   9  8,7  | InK
   9  8,7  | IrK
   9  8,6  | It
+  9  5,7  - KATaS
   9  4,7  - KEATS
   9  8,1  | KEEL
   9  5,1  | KEIR
@@ -612,6 +631,7 @@
   9  8,1  | KIEL
   9  5,1  | KIER
   9  5,1  | KIERs
+  9  5,2  | KIRS
   9  5,1  | KISRa
   9  5,1  | KeIRS
   9  5,1  | KiERS
@@ -660,6 +680,7 @@
   9  5,3  | fREE
   9  5,3  | gREE
   9  5,3  | gRX
+  9  4,3  | iCK
   9  5,7  - jATKI
   9  5,7  - lATKE
   9  8,6  | mE
@@ -713,8 +734,10 @@
   8  5,2  | KERs
   8  5,1  | KEiRS
   8  5,1  | KErRI
+  8  5,2  | KIR
   8  5,2  | KIRk
   8  5,2  | KIRn
+  8  5,2  | KIRs
   8  5,1  | KIeRS
   8  4,7  - KeATS
   8  8,1  | KeEL
@@ -738,6 +761,7 @@
   8  4,1  | SEIChE
   8  8,2  | SELE
   8  3,6  - SEeWEE
+  8  4,2  | SICkEE
   8  4,1  | SIEClE
   8  4,7  - SKAT
   8  4,7  - SKATe
@@ -779,6 +803,7 @@
   8  8,7  | tEISE
   8  5,2  | yERK
   8  5,2  | yIRK
+  8  5,2  | zERK
   7  6,7  - ATKa
   7  4,4  | CEES
   7  4,4  | CISE
@@ -849,6 +874,7 @@
   7  8,7  | ISt
   7  8,7  | InSEE
   7  5,7  - KAT
+  7  5,7  - KATa
   7  5,7  - KATe
   7  5,7  - KATh
   7  5,7  - KATs
@@ -860,6 +886,7 @@
   7  4,7  - KeAT
   7  5,2  | KeRS
   7  4,7  - KhAT
+  7  5,2  | KiRS
   7  5,2  | KoRE
   7  5,2  | KoRI
   7  5,2  | KoRS
@@ -929,6 +956,7 @@
   7  8,2  | hELE
   7  4,7  - iKAT
   7  8,2  | kELE
+  7  5,6  - lWEIS
   7  8,2  | mELE
   7  8,7  | mESE
   7  4,1  | mISCE
@@ -956,6 +984,7 @@
   6  4,4  | CEdI
   6  4,4  | CEeS
   6  4,4  | CElE
+  6  4,4  | CElS
   6  4,4  | CEnE
   6  4,4  | CEpE
   6  4,4  | CEpS
@@ -1027,6 +1056,7 @@
   6  8,7  | EsES
   6  8,7  | EsSE
   6  9,5  - Et
+  6  4,1  | EtIC
   6  8,7  | EvES
   6  9,5  - Ew
   6  8,7  | EwES
@@ -1050,6 +1080,7 @@
   6  8,7  | IrES
   6  5,2  | KeR
   6  5,2  | KgR
+  6  5,2  | KiR
   6  5,2  | KoR
   6  9,3  | OSIErS
   6  9,3  | OSIdE
@@ -1157,6 +1188,7 @@
   6  5,6  - oWES
   6  5,7  - pATESI
   6  5,7  - pATISE
+  6  4,2  | pECS
   6  4,2  | pICE
   6  4,2  | pICS
   6  4,1  | pSEC
@@ -1183,6 +1215,7 @@
   5  6,7  - ATeES
   5  6,7  - ATlEE
   5  4,4  | CEe
+  5  4,4  | CEl
   5  4,4  | CEp
   5  4,4  | CIa
   5  4,4  | CId
@@ -1245,6 +1278,7 @@
   5  5,1  | EyERS
   5  4,3  | ICe
   5  4,3  | ICh
+  5  4,3  | ICk
   5  4,3  | ICy
   5 11,2  | IDEE
   5 11,2  | IDES
@@ -1369,6 +1403,7 @@
   5  5,6  - oWE
   5  5,7  - pATEE
   5  5,7  - pATES
+  5  4,2  | pEC
   5  5,1  | pEERS
   5  4,2  | pIC
   5  5,1  | pIERS
@@ -1575,6 +1610,7 @@
   4 11,1  | kIDS
   4  8,1  | kIEL
   4  5,1  | kIER
+  4  5,2  | kIRS
   4  5,1  | lEER
   4  5,2  | lERE
   4 11,1  | lIDE
@@ -1644,6 +1680,7 @@
   4  5,2  | wIRE
   4  8,1  | yEEL
   4  5,2  | yERE
+  4 11,1  | yIDS
   3  6,7  - ATE
   3  6,7  - ATEf
   3  6,7  - ATEn
@@ -1721,6 +1758,7 @@
   3 11,1  | bID
   3  5,7  - cATE
   3  5,7  - cATS
+  3  8,2  | cEL
   3 11,1  | cID
   3  5,2  | cIR
   3  5,7  - dATE
@@ -1761,6 +1799,7 @@
   3  4,7  - kEAT
   3  5,2  | kER
   3 11,1  | kID
+  3  5,2  | kIR
   3  5,7  - lATE
   3  5,7  - lATI
   3  5,7  - lATS
@@ -1809,6 +1848,7 @@
   3  5,7  - yATI
   3  4,7  - yEAT
   3  5,2  | yER
+  3 11,1  | yID
   3  5,7  - zATI
   3  5,2  | zER
   2  6,7  - ATe

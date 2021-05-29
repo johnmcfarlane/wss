@@ -10,6 +10,7 @@
  48  5,10 - COVErS
  48  5,10 - COVEtS
  48  5,10 - COVEyS
+ 48  5,10 - FOVEaS
  48  8,9  - UViC
  45  7,9  - CUfFS
  45  7,9  - CUiFS
@@ -69,6 +70,7 @@
  32  1,10 - StOOF
  32  3,7  | VOC
  32  3,7  | VOCe
+ 32  3,7  | VaCS
  31  7,11 - SeC
  31  3,7  | VaC
  31  3,7  | ViC
@@ -112,6 +114,7 @@
  28  1,10 - SoC
  28  1,10 - SuF
  28  8,11 - eF
+ 28  3,6  | wOOFS
  27 10,5  | COFfS
  27 10,5  | COOF
  27 10,5  | COOFs
@@ -123,6 +126,7 @@
  27 10,5  | COrV
  27 10,5  | ClOOF
  27 10,5  | CoOFS
+ 27 11,2  | DOOFuS
  27 11,2  | DOVeS
  27 11,1  | ODiC
  27  4,11 - SCOVe
@@ -130,7 +134,9 @@
  27  9,9  | SFm
  27  9,9  | SOC
  27  7,9  - SUlFO
+ 27  3,7  | pOOFS
  27  1,10 - sOC
+ 27  3,6  | wOOF
  26  5,11 - COVe
  26  3,5  | OeS
  26  5,11 - SVCe
@@ -165,6 +171,7 @@
  24 11,2  | DOFfS
  24 11,2  | DOVe
  24 11,2  | DOfFS
+ 24 11,2  | DeCOS
  24 11,2  | DeVS
  24 11,2  | DiSCO
  24 11,2  | DiVS
@@ -226,6 +233,7 @@
  22  7,9  | FOO
  22  5,10 - FOVEa
  22  4,10 - FOrCES
+ 22  5,10 - FaVES
  22  5,9  - FaVUS
  22  4,10 - FiCOES
  22  5,10 - FiVES
@@ -331,6 +339,7 @@
  21  4,9  - VaCOUF
  21 11,1  | aDV
  21  1,10 - sOS
+ 21  3,6  | wOOS
  20  6,10 - COEF
  20  4,9  - COrVUS
  20  7,9  - CUVe
@@ -347,6 +356,7 @@
  20  4,10 - FOrCE
  20  5,10 - FaCES
  20  7,9  | FaS
+ 20  5,10 - FaVE
  20  7,11 - Fe
  20  5,10 - FeCES
  20  5,10 - FiCES
@@ -414,6 +424,7 @@
  19 10,4  | OCt
  19  5,11 - OOSe
  19  3,5  | Oe
+ 19  3,5  | Ow
  19  3,7  | SCF
  19  3,7  | SCFh
  19  3,7  | SCFm
@@ -428,6 +439,8 @@
  19  9,9  | sOC
  19  3,6  | tOO
  19  3,6  | tOS
+ 19  3,6  | wOO
+ 19  3,6  | wOS
  19  1,10 - yO
  18  6,9  - COUVe
  18  7,9  - CUFf
@@ -471,8 +484,10 @@
  18  3,6  | eO
  18  3,6  | eS
  18  4,10 - hOOVES
+ 18  4,10 - pOOVES
  18  3,6  | tO
  18  3,6  | uS
+ 18  3,6  | wO
  17 10,5  | COb
  17 10,5  | COd
  17 10,5  | COe
@@ -681,8 +696,10 @@
  15 10,5  | cOCO
  15 10,5  | cOOF
  15  4,9  - cOOSUC
+ 15  4,9  - dOOFUS
  15 10,5  | gOOF
  15 10,5  | gOV
+ 15 10,5  | mOCS
  15 10,5  | mOFO
  15  5,9  - nOVUS
  15  8,3  - oXO
@@ -808,6 +825,7 @@
  14  5,10 - bOVE
  14  5,10 - cOSEC
  14  5,10 - cOVE
+ 14  7,10 - dECOS
  14  7,10 - dEVS
  14  5,10 - dOVE
  14  8,1  | eGO
@@ -874,6 +892,7 @@
  13  9,10 | eF
  13  9,10 | fF
  13  5,9  - fOCUS
+ 13  7,9  - gUVS
  13  5,9  - hOCUS
  13  5,9  - lOCUS
  13  7,9  - lUVS
@@ -893,6 +912,7 @@
  12  7,10 - CESs
  12  7,10 - CESt
  12  7,10 - CEeS
+ 12  7,10 - CElS
  12  7,10 - CEpS
  12  7,10 - CErO
  12  7,10 - CEsS
@@ -968,14 +988,17 @@
  12  8,10 - EVe
  12  8,10 - EVg
  12  8,10 - EfFS
+ 12  8,10 - EmFS
  12  7,10 - FEOd
  12  7,10 - FESs
  12  7,10 - FESt
  12  7,10 - FEdS
  12  7,10 - FEeS
  12  7,10 - FEgS
+ 12  7,10 - FEhS
  12  7,10 - FEiS
  12  7,10 - FElS
+ 12  7,10 - FEmS
  12  7,10 - FEnS
  12  7,10 - FErS
  12  7,10 - FEsS
@@ -1019,6 +1042,7 @@
  12  1,6  - JEeS
  12  1,6  - JEsS
  12  1,6  - JEtS
+ 12  1,6  - JEwS
  12  2,9  | OCa
  12  3,7  | OCaS
  12  2,9  | OCh
@@ -1118,11 +1142,14 @@
  12  6,10 - iVE
  12  7,9  - jUV
  12  7,10 - kEFS
+ 12  7,9  - lUV
  12  6,10 - mSEC
  12  6,10 - nSEC
  12 11,1  | oDSO
  12  3,7  | oOF
  12  3,7  | oSC
+ 12  7,10 - pECS
+ 12  5,6  | pOOFS
  12  6,9  - pOUF
  12  6,10 - pSEC
  12  7,10 - rECS
@@ -1178,6 +1205,7 @@
  11  1,6  - JEe
  11  1,6  - JEt
  11  1,6  - JEu
+ 11  1,6  - JEw
  11  3,7  | OCa
  11  3,7  | OCh
  11  3,7  | OCt
@@ -1248,6 +1276,7 @@
  11  2,9  | oSC
  11  8,3  - oX
  11  5,6  | pOOF
+ 11  5,5  | pOOFS
  11  2,9  | rOC
  11  5,6  | rOOF
  11  2,9  | sOC
@@ -1287,6 +1316,7 @@
  10  1,9  - EfFS
  10  8,10 - ElF
  10  8,10 - EmF
+ 10  1,9  - EmFS
  10  8,10 - ErF
  10  8,10 - EsC
  10  8,10 - EtC
@@ -1517,6 +1547,7 @@
   9  5,5  | lOOF
   9  5,6  | mCF
   9  7,9  | mOC
+  9  5,5  | mOCS
   9  5,5  | mOFO
   9 10,5  | mOOS
   9  5,5  | nOV
@@ -1644,6 +1675,7 @@
   8  5,5  | lOF
   8  4,10 - lOOSE
   8  5,5  | mOC
+  8  5,6  | mOCS
   8  5,6  | mOFO
   8  4,10 - mOOSE
   8  4,10 - nOOSE
@@ -1683,6 +1715,7 @@
   7  4,3  | HOhO
   7  4,3  | HOlS
   7  4,3  | HOmO
+  7  4,3  | HOnS
   7  4,3  | HOpS
   7  4,3  | HOrS
   7  4,3  | HOsS
@@ -2071,6 +2104,7 @@
   5  2,5  - BxS
   5  2,5  - ByS
   5  7,10 - CEe
+  5  7,10 - CEl
   5  7,10 - CEp
   5  4,6  - CeE
   5  4,6  - ChE
@@ -2211,6 +2245,7 @@
   5  7,10 - dEF
   5  5,5  | dOO
   5  2,9  | dOO
+  5  5,5  - dOOmY
   5  5,5  | dOS
   5  2,9  | dOS
   5  7,9  - dUOS
@@ -2258,6 +2293,7 @@
   5  5,5  | oOS
   5  2,9  | oOS
   5  5,1  | oWE
+  5  7,10 - pEC
   5  9,9  | pO
   5  5,5  | pOS
   5  7,10 - rEC

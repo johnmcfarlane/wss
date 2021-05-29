@@ -82,6 +82,7 @@
  22  5,3  | JEfE
  22  3,5  - JEt
  22  5,3  | JEtE
+ 22  3,5  - JEw
  22  7,1  - JaCKS
  22  7,1  - JoCKS
  22  6,2  - KEtU
@@ -268,6 +269,7 @@
  16 11,1  | KyE
  16  4,5  - KyE
  16  5,4  - QuE
+ 16  5,2  - SKa
  16  5,3  | SQuEG
  16  2,8  - aIK
  16  2,8  - oIK
@@ -421,6 +423,7 @@
  13  8,5  - KIm
  13  8,5  - KIn
  13  8,5  - KIp
+ 13  8,5  - KIr
  13  8,5  - KIt
  13  2,7  - KVaS
  13  3,5  - KaE
@@ -514,6 +517,7 @@
  12  5,5  | JEsS
  12  5,5  | JEtE
  12  5,5  | JEtS
+ 12  5,5  | JEwS
  12  2,8  - JIbE
  12  2,8  - JIbS
  12  2,8  - JIgS
@@ -610,6 +614,8 @@
  11  5,5  | JEt
  11 11,2  | JEu
  11  5,5  | JEu
+ 11 11,2  | JEw
+ 11  5,5  | JEw
  11  2,8  - JIb
  11  2,8  - JIg
  11  2,8  - JIm
@@ -675,6 +681,7 @@
  11  5,5  - bE
  11 10,9  | bEA
  11  8,2  | bEE
+ 11  2,8  - bIGS
  11  5,5  - dE
  11 10,9  | dEA
  11  2,8  - dIGS
@@ -724,6 +731,7 @@
  11  6,8  | uJI
  11  9,9  | uJI
  11  5,4  - uKE
+ 11  2,8  - vIGS
  11  5,5  - wE
  11  2,8  - wIGS
  11  5,5  - yE
@@ -741,6 +749,7 @@
  10  5,4  | GEEK
  10  5,5  | GEEK
  10  5,4  | GEEKs
+ 10  5,4  | GEEKy
  10  2,8  - GInKS
  10 11,1  | GaE
  10 11,1  | GeE
@@ -768,6 +777,7 @@
  10  5,8  | KaBS
  10  7,1  | KaME
  10  5,8  | KiBE
+ 10  5,8  | KoBS
  10  7,1  | KoME
  10  3,11 - OSE
  10  8,5  | SAbE
@@ -787,6 +797,7 @@
  10  1,8  - SKIEr
  10  1,8  - SKIEs
  10  1,8  - SKIEy
+ 10  5,4  - SKa
  10  5,4  - SKi
  10  5,4  - SKy
  10  2,7  - SVGs
@@ -842,6 +853,7 @@
  10  1,8  - sKIES
  10  7,1  - tECK
  10  2,8  - tIG
+ 10  2,8  - vIG
  10  2,8  - wIG
  10  2,8  - zIG
   9  9,1  - CKw
@@ -886,6 +898,7 @@
   9  3,5  - GtE
   9  5,4  - GuE
   9  3,5  - GuE
+  9  1,7  - GuVS
   9  5,4  - GyE
   9  3,5  - GyE
   9  1,7  - GyVE
@@ -972,6 +985,7 @@
   9  2,7  - eVES
   9  2,8  - fISK
   9  6,4  | hEX
+  9  8,1  - iCK
   9  5,2  - iSE
   9  6,4  | kEX
   9  6,4  | lEX
@@ -1102,6 +1116,7 @@
   8  1,8  - SKImE
   8  1,8  - SKItE
   8  1,8  - SKIvE
+  8  3,5  - SKa
   8  5,3  | SKeE
   8  3,5  - SKy
   8  5,3  | SKyE
@@ -1150,6 +1165,7 @@
   8  5,4  | kEEKS
   8  2,8  | kEP
   8  5,4  | lEEKS
+  8  8,9  - lEKE
   8  2,8  | lEP
   8  5,4  | mEEKS
   8  8,9  - oGEE
@@ -1280,6 +1296,7 @@
   7  2,8  - KInE
   7  2,8  - KInS
   7  2,8  - KIpS
+  7  2,8  - KIrS
   7  2,8  - KIsS
   7  2,8  - KItE
   7  2,8  - KItS
@@ -1406,6 +1423,8 @@
   7 11,1  | lEEK
   7  5,4  | lEEK
   7  5,5  | lEEK
+  7  5,3  | lEKE
+  7  5,5  | lEKE
   7  5,5  | lEKS
   7  8,1  - mCG
   7  6,2  - mE
@@ -1497,6 +1516,7 @@
   6  5,4  | GhEES
   6  5,4  | GlEES
   6  5,4  | GrEES
+  6  3,8  - IcK
   6  3,8  - IlK
   6  3,8  - InK
   6  3,8  - IrK
@@ -1533,6 +1553,7 @@
   6  2,8  - KIm
   6  2,8  - KIn
   6  2,8  - KIp
+  6  2,8  - KIr
   6  2,8  - KIt
   6  4,5  - Ka
   6  5,4  | KaE
@@ -1611,6 +1632,7 @@
   6  9,9  - eKE
   6  2,7  - eVE
   6  6,4  - fE
+  6  7,1  | fEMS
   6  5,8  | gEB
   6  7,1  | gEMS
   6  6,4  - hE
@@ -1641,6 +1663,7 @@
   6  5,4  | oKE
   6  9,9  - oKE
   6  6,4  - pE
+  6  7,1  - pECS
   6  6,1  - pSEC
   6  6,4  - rE
   6  5,8  | rEB
@@ -1664,6 +1687,7 @@
   6  5,5  | zEK
   5  5,10 | BE
   5  9,1  - CEe
+  5  9,1  - CEl
   5  9,1  - CEp
   5  9,1  - CSc
   5  9,1  - CSk
@@ -1753,6 +1777,7 @@
   5  2,8  - GIrE
   5  2,8  - GIsE
   5  2,8  - GItE
+  5  2,8  - GItS
   5  2,8  - GIvE
   5  5,4  | GaES
   5  5,4  | GeES
@@ -1800,6 +1825,7 @@
   5 11,2  | SEG
   5  5,5  | SEG
   5  5,5  | SEGo
+  5  5,5  | SEGs
   5  5,5  | SEpG
   5  5,5  | SErG
   5  2,8  - SIE
@@ -1903,18 +1929,21 @@
   5  2,11 - oO
   5  4,9  | oOS
   5  7,1  - oSC
+  5  7,1  - pEC
   5  5,5  | pEGS
   5  8,5  - pIE
   5  2,8  - pIES
   5  2,8  - pISE
   5  2,11 - pO
   5  7,1  - rEC
+  5  5,5  | rEGS
   5  1,8  - rEIS
   5  7,1  | rEM
   5  2,8  - rIES
   5  2,8  - rISE
   5  7,2  | rMS
   5  7,1  - sEC
+  5  5,5  | sEGS
   5  1,8  - sEIS
   5  7,1  | sEM
   5  2,8  - sISE
@@ -2057,6 +2086,8 @@
   4  5,3  | SEmE
   4  8,9  - SEmE
   4  3,5  - SEn
+  4  5,3  | SEnE
+  4  8,9  - SEnE
   4  3,5  - SEp
   4  3,5  - SEr
   4  5,3  | SErE
@@ -2217,6 +2248,7 @@
   3  1,8  - SEIt
   3  5,5  | SElE
   3  5,5  | SEmE
+  3  5,5  | SEnE
   3  5,5  | SErE
   3  5,5  | SEvE
   3  2,8  - SIcE
@@ -2669,6 +2701,9 @@
   2  5,4  | rEE
   2  5,5  | rEE
   2  9,9  - rEE
+  2  1,8  - rEI
+  2  6,8  | rEI
+  2  9,9  | rEI
   2 11,2  | rES
   2  5,5  | rES
   2 11,1  | sEE

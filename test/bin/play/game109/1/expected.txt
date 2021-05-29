@@ -28,6 +28,7 @@
  27  1,3  - RATION
  27  1,3  - RETAIN
  26  2,6  - DETAX
+ 26  2,6  - DETOX
  26  2,6  - DIREX
  26  5,3  | IODATE
  26  2,6  - RADIX
@@ -71,6 +72,7 @@
  19  5,4  | OREAD
  19  5,5  | RATED
  19  7,5  | RIOTED
+ 19  5,5  | ROADIE
  19  5,5  | TARED
  19  7,5  | TIRED
  19  5,5  | TOADER
@@ -123,6 +125,7 @@
  17  5,5  | DOER
  17  5,5  | DOIT
  17  5,5  | DORA
+ 17  5,5  | DORE
  17  5,5  | DORI
  17  5,5  | DORT
  17  5,5  | DOTE
@@ -292,6 +295,7 @@
  14  5,6  | ORAE
  14  5,5  | RAT
  14  5,5  | REA
+ 14  5,5  | REI
  14  5,5  | RET
  14  7,5  | RIA
  14  7,5  | RIE
@@ -417,6 +421,7 @@
  12  4,3  - RANTED
  12  4,4  - RASED
  12  4,4  - RESID
+ 12  4,4  - RESOD
  12  4,4  - RESTIAD
  12  3,4  - ROASTED
  12  4,4  - ROSATED
@@ -659,6 +664,7 @@
   9  1,5  - REDATE
   9  1,5  - REDIAE
   9  1,4  - REDIAS
+  9  2,3  - REDON
   9  3,3  - REINA
   9  4,3  - REND
   9  4,4  - RESAT
@@ -830,6 +836,7 @@
   8  2,3  - RETIN
   8  2,5  - RIOTED
   8  5,3  - RND
+  8  1,5  - ROADIE
   8  2,4  - ROADS
   8  2,3  - ROTAN
   8  4,2  - ROUTED
@@ -931,6 +938,7 @@
   7  3,5  - DITE
   7  3,4  - DITS
   7  3,4  - DOES
+  7  3,5  - DORE
   7  2,5  - DOREE
   7  3,4  - DORS
   7  3,5  - DOTE
@@ -981,6 +989,7 @@
   7  6,3  - NEAT
   7  6,3  - NERI
   7  6,3  - NETI
+  7  6,3  - NITE
   7  6,3  - NITO
   7  6,3  - NOIR
   7  6,3  - NORA
@@ -1026,6 +1035,7 @@
   7  4,3  - RONE
   7  2,4  - ROTAS
   7  2,4  - ROTES
+  7  2,4  - ROTIS
   7  3,4  - ROTSE
   7  6,4  - SAID
   7  6,4  - SAITE
@@ -1214,6 +1224,7 @@
   6  2,5  - RETIE
   6  5,5  - RETIE
   6  3,4  - RETS
+  6  3,4  - RIAS
   6  3,5  - RIDE
   6  3,4  - RIES
   6  4,4  - RISE
@@ -1299,6 +1310,8 @@
   5  5,5  - DEAR
   5  4,5  - DEER
   5  5,5  - DEER
+  5  4,5  - DEET
+  5  5,5  - DEET
   5  5,5  - DEIA
   5  5,5  - DERE
   5  5,5  - DERO
@@ -1505,6 +1518,7 @@
   3  5,5  - REA
   3  4,5  - REE
   3  5,5  - REE
+  3  5,5  - REI
   3  5,5  - RET
   3  4,5  - RIE
   3  4,5  - ROE

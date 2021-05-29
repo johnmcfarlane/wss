@@ -50,6 +50,7 @@
  22  6,6  - PACOS
  22  6,6  - POSCA
  22  6,6  - PShAWS
+ 22  6,6  - PiSCOS
  22  2,6  - SACOPe
  22  2,6  - SCAlPS
  22  2,6  - SCAmPS
@@ -153,6 +154,7 @@
  20  8,10 - WOS
  20  8,10 - WOSt
  20  8,10 - WOeS
+ 20  8,10 - WOgS
  20  8,10 - WOkS
  20  8,10 - WOnS
  20  8,10 - WOoS
@@ -173,6 +175,7 @@
  19  7,2  | SChWA
  19  5,3  | WACO
  19  7,3  | WACO
+ 19  7,2  | WACkOS
  19  4,8  - WeY
  19  8,10 - WiSS
  19  8,10 - WoOS
@@ -218,10 +221,12 @@
  18  8,10 - WOb
  18  7,3  | WOcAS
  18  8,10 - WOe
+ 18  8,10 - WOg
  18  8,10 - WOk
  18  7,3  | WOkAS
  18  8,10 - WOn
  18  8,10 - WOo
+ 18  8,10 - WOp
  18  8,10 - WOs
  18  8,10 - WOt
  18  8,10 - WOw
@@ -305,6 +310,8 @@
  16  7,4  | StAW
  16  7,4  | StOW
  16  7,4  | SwOW
+ 16  5,2  | WACkO
+ 16  7,2  | WACkO
  16  5,2  | WAsCO
  16  7,2  | WAsCO
  16  8,10 - bOCA
@@ -324,6 +331,7 @@
  16  8,10 - mASC
  16  8,10 - mAWS
  16  8,10 - mOCA
+ 16  8,10 - mOCS
  16  8,10 - mOWS
  16  8,10 - nOWS
  16  8,10 - pACS
@@ -351,6 +359,8 @@
  15  7,2  | CASSOn
  15  2,8  - CASeY
  15  5,7  - CAhOWS
+ 15  5,3  | CAlO
+ 15  7,3  | CAlO
  15  5,3  | CApO
  15  7,3  | CApO
  15  5,3  | CArO
@@ -482,6 +492,7 @@
  14  6,6  - PaSSO
  14  6,6  - PeSOS
  14  6,6  - PhOSS
+ 14  6,6  - PiSOS
  14  6,6  - PlASS
  14  6,6  - PrAOS
  14  6,6  - PrOAS
@@ -501,6 +512,7 @@
  14  7,5  | SaW
  14  7,5  | SeW
  14  7,5  | SoW
+ 14  2,6  - SySOP
  14  7,3  | WASe
  14  5,3  | WASp
  14  7,3  | WASp
@@ -703,6 +715,7 @@
  12  4,8  - SOY
  12  7,3  | SOdAS
  12  7,3  | SOfAS
+ 12  7,3  | SOjAS
  12  7,3  | SOmAS
  12  7,3  | SOrAS
  12  7,3  | SOyAS
@@ -726,6 +739,7 @@
  12  7,3  | SaCO
  12  7,3  | ShWA
  12  7,3  | StOAS
+ 12  5,7  - WACkOS
  12  5,7  - WASCO
  12  7,4  | WAeS
  12  7,4  | WApS
@@ -875,6 +889,7 @@
  11  9,8  | SWaD
  11  3,6  | SiWASH
  11  5,7  - WACAgO
+ 11  5,7  - WACkO
  11  5,7  - WACkS
  11  9,9  | WAD
  11  3,7  - WASAt
@@ -898,10 +913,12 @@
  11  7,5  | WOb
  11  3,7  - WOcAS
  11  7,5  | WOe
+ 11  7,5  | WOg
  11  5,5  | WOk
  11  3,7  - WOkAS
  11  5,5  | WOn
  11  7,5  | WOn
+ 11  5,5  | WOp
  11  7,5  | WOs
  11  5,5  | WOt
  11  7,5  | WOt
@@ -1092,6 +1109,7 @@
  10  5,4  | ShOA
  10  7,4  | ShOA
  10  9,7  | ShOWD
+ 10  7,4  | SkAS
  10  4,8  - SoY
  10  7,4  | SpAS
  10  2,8  | SpEX
@@ -1160,6 +1178,7 @@
  10  8,10 - fASS
  10  8,10 - fOSS
  10  7,2  | fOSSA
+ 10  3,6  - gAWPS
  10  7,4  | gOAS
  10  5,7  | hAF
  10  8,10 - hOSS
@@ -1342,6 +1361,7 @@
   9  6,6  - PaCA
   9  6,6  - PaCS
   9  6,6  - PaWS
+  9  6,6  - PeCS
   9  6,6  - PeWS
   9  6,6  - PiCA
   9  6,6  - PiCO
@@ -1381,6 +1401,7 @@
   9  7,3  | SOfA
   9  5,4  | SOfA
   9  7,3  | SOgA
+  9  7,3  | SOjA
   9  7,3  | SOkA
   9  7,3  | SOlA
   9  7,3  | SOmA
@@ -1418,10 +1439,13 @@
   9  3,6  - WAsP
   9  3,6  - WAuP
   9  9,8  | WOAD
+  9  4,6  - WOP
   9  4,6  - WOPs
   9  7,4  | WOe
   9  5,4  | WOo
   9  7,4  | WOo
+  9  5,4  | WOp
+  9  7,4  | WOp
   9  4,7  - WaAC
   9  4,6  - WaPS
   9  3,6  - WaSP
@@ -1620,6 +1644,7 @@
   8  6,6  - PWt
   8  6,6  - PaC
   8  6,6  - PaW
+  8  6,6  - PeC
   8  6,6  - PeW
   8  6,6  - PfC
   8  6,6  - PiC
@@ -1682,6 +1707,7 @@
   8  7,5  | SeA
   8  7,5  | SiA
   8  7,5  | SiS
+  8  3,7  | SkOSH
   8  3,7  | SlASH
   8  3,7  | SlOSH
   8  3,7  | SmASH
@@ -1715,6 +1741,7 @@
   8  3,8  | WiSH
   8  5,5  | Wo
   8  7,5  | Wo
+  8  4,6  - WoP
   8  4,6  - WuP
   8  3,8  | WuSH
   8  8,10 - aAS
@@ -2029,6 +2056,7 @@
   7  3,6  - ShOPS
   7  3,7  - ShWA
   7  7,4  | SiA
+  7  7,4  | SkA
   7  7,4  | SlA
   7  3,6  - SlAPS
   7  4,7  - SlAWS
@@ -2146,6 +2174,7 @@
   6  5,7  - CAbS
   6  5,7  - CAcA
   6  5,7  - CAdS
+  6  5,7  - CAlO
   6  5,7  - CAlS
   6  5,7  - CAmS
   6  5,7  - CAnA
@@ -2221,6 +2250,7 @@
   6  6,6  - POhA
   6  6,6  - POiS
   6  6,6  - POlS
+  6  6,6  - POmS
   6  6,6  - POnS
   6  6,6  - POoA
   6  6,6  - POpS
@@ -2268,6 +2298,7 @@
   6  5,7  - SAiC
   6  3,6  - SAiP
   6  3,6  - SAlP
+  6  5,7  - SAmOSA
   6  3,6  - SAmP
   6  5,4  | SAo
   6  7,4  | SAo
@@ -2305,6 +2336,7 @@
   6  5,6  - SPAs
   6  5,6  - SPAt
   6  5,6  - SPAy
+  6  5,6  - SPAz
   6  5,6  - SPOt
   6  5,6  - SPaS
   6  4,6  - SSP
@@ -2387,6 +2419,7 @@
   6  9,10 - aSS
   6  9,9  | aWD
   6  7,5  | bA
+  6  4,6  - bAPS
   6  3,8  | bASH
   6  9,9  | bCD
   6  5,5  | bO
@@ -2525,6 +2558,7 @@
   6  3,8  | tOSH
   6  4,7  - tWAS
   6  5,6  - uPAS
+  6  5,7  - vACS
   6  5,7  - vAWS
   6  4,7  - wAAC
   6  5,7  - wAAC
@@ -2736,6 +2770,7 @@
   5  5,7  - SAmAS
   5  2,7  - SAmOA
   5  5,7  - SAmOA
+  5  1,7  - SAmOSA
   5  9,8  | SAnD
   5  9,8  | SArD
   5  5,7  - SArOS
@@ -2744,6 +2779,7 @@
   5  2,7  - SOSiA
   5  3,7  - SOdAS
   5  3,7  - SOfAS
+  5  3,7  - SOjAS
   5  9,8  | SOlD
   5  3,7  - SOmAS
   5  9,8  | SOnD
@@ -2898,6 +2934,7 @@
   5  5,7  - wAW
   5  8,10 - wO
   5  9,8  | wOAD
+  5  4,6  - wOP
   5  8,10 - yA
   5  4,6  - yAP
   5  5,7  - yAW
@@ -2978,6 +3015,7 @@
   4  3,7  - SOdA
   4  3,7  - SOfA
   4  3,7  - SOgA
+  4  3,7  - SOjA
   4  3,7  - SOkA
   4  3,7  - SOlA
   4  3,7  - SOmA
@@ -3089,6 +3127,7 @@
   3  4,7  - SOAp
   3  4,7  - SOAr
   3  4,7  - SeAS
+  3  4,7  - SkAS
   3  4,7  - SpAS
   3  4,7  - bAAS
   3  5,7  - bAAS
@@ -3263,6 +3302,7 @@
   2  4,7  - SeA
   2  4,7  - ShA
   2  4,7  - SiA
+  2  4,7  - SkA
   2  4,7  - SlA
   2  4,7  - SmA
   2  4,7  - SpA

@@ -857,6 +857,7 @@
  13  4,8  - DAINTy
  13  4,8  - DAImEN
  13  5,8  | DAuT
+ 13  5,8  | DEeT
  13  5,8  | DEiA
  13  4,9  - DeLFT
  13  3,4  | EARN
@@ -957,6 +958,7 @@
  13  2,8  - RETzIAN
  13  2,8  - ReF
  13  2,8  - ReTAINED
+ 13  2,8  - RiF
  13  3,4  | TARN
  13  3,3  | TAiRN
  13  4,8  - TEIND
@@ -1118,6 +1120,7 @@
  12  1,9  - MYrTAL
  12  4,8  - NAIF
  12  4,8  - NAIFs
+ 12  7,8  | NAh
  12  4,8  - NEIF
  12  4,8  - NEIFs
  12  3,4  | NaRD
@@ -1127,6 +1130,7 @@
  12  3,3  | NiTRE
  12  3,3  | NoTRE
  12  6,2  - NoW
+ 12  3,4  | NuRD
  12  2,8  - RANDIE
  12  2,8  - RANDIEr
  12  2,8  - RANDIEs
@@ -1393,10 +1397,12 @@
  11  4,9  - DELiAN
  11  4,4  | DEOtA
  11  5,8  - DIANE
+ 11  5,8  - DIpNET
  11  3,5  | DREe
  11 11,1  | DTENtE
  11 10,2  - Da
  11 10,2  - De
+ 11  5,8  | DeET
  11  4,4  | DeOTA
  11  4,4  | DiOTA
  11 10,2  - Do
@@ -1497,6 +1503,7 @@
  11  6,8  - INDEnT
  11  6,8  - INDiTE
  11  7,6  | INTa
+ 11  7,6  | INTi
  11  7,6  | INTo
  11  6,8  - InDANE
  11  6,8  - InDENT
@@ -1844,6 +1851,7 @@
  10  6,8  - INDEw
  10  6,8  - INDEx
  10  6,8  - INDiA
+ 10  6,8  - INDiE
  10  6,8  - INDrA
  10  6,8  - INDuE
  10  6,8  - InDAN
@@ -1925,6 +1933,7 @@
  10  6,10 - SEDaT
  10  6,10 - SENAl
  10  6,10 - SENAm
+ 10  6,10 - SENTe
  10  6,10 - SENTi
  10  6,10 - SENTs
  10  6,10 - SENiT
@@ -1988,6 +1997,7 @@
  10  6,10 - ScENA
  10  6,10 - ScENT
  10  6,10 - SeDAT
+ 10  6,10 - SeNTE
  10  6,10 - ShADE
  10  6,10 - ShANE
  10  6,10 - ShANT
@@ -2088,6 +2098,7 @@
  10  4,9  - gELANT
  10  5,9  - gLADEN
  10  5,9  - gLAND
+ 10  4,5  | gONEF
  10  5,8  | hAE
  10  6,2  - hAW
  10  6,2  - hEW
@@ -2097,6 +2108,7 @@
  10  3,3  | iNERT
  10  3,3  | iNTRA
  10  6,2  - jAW
+ 10  6,2  - jEW
  10  5,8  | kAE
  10  5,8  | kEA
  10  4,2  | kENDO
@@ -2274,6 +2286,8 @@
   9  3,3  | DEARs
   9  3,3  | DEARy
   9  4,2  | DEAcON
+  9 11,1  | DEET
+  9 11,1  | DEETs
   9 11,2  | DEFAT
   9 11,2  | DEFATs
   9 11,2  | DEFAcE
@@ -2362,6 +2376,7 @@
   9  9,7  - EeN
   9  5,9  | EeN
   9  9,7  - ElD
+  9  4,8  - ElINT
   9  9,7  - EnD
   9 11,3  | EnFANT
   9  9,7  - EoN
@@ -2865,6 +2880,7 @@
   8 11,1  | DEEp
   8 11,1  | DEEr
   8 11,1  | DEEs
+  8 11,1  | DEEt
   8 11,2  | DEFAt
   8 11,2  | DEFEr
   8 11,2  | DEFT
@@ -2924,6 +2940,7 @@
   8  4,9  - DaLAN
   8  3,4  | DaRE
   8  3,4  | DaRT
+  8 11,1  | DeET
   8  4,8  - DeIA
   8  3,4  | DeRE
   8 11,1  | DiET
@@ -2931,6 +2948,7 @@
   8  3,4  | DiRT
   8  4,8  - DoIT
   8  3,4  | DoRA
+  8  3,4  | DoRE
   8  3,4  | DoRT
   8 11,1  | DrEE
   8  4,8  - DrIE
@@ -2953,6 +2971,7 @@
   8  5,9  - ELD
   8  5,9  - ELDs
   8  5,9  - ELNe
+  8  5,9  - ELiNT
   8  3,3  | ENARm
   8  3,2  | ENDeR
   8 11,1  | ENED
@@ -3076,6 +3095,7 @@
   8  4,9  - FuLA
   8  4,10 - FuSATE
   8  4,10 - FuSED
+  8  4,3  | FuTON
   8  9,6  | HADiT
   8  9,6  | HADnT
   8  9,6  | HADsT
@@ -3248,6 +3268,7 @@
   8  5,8  - NIDEd
   8  5,8  - NIDEs
   8  5,8  - NIFlE
+  8  5,8  - NIcAD
   8  5,8  - NIdED
   8  5,8  - NIxED
   8  4,5  | NODAl
@@ -3275,6 +3296,7 @@
   8  4,6  | OATEN
   8  4,6  | OAThED
   8  4,6  | ODEoN
+  8  4,6  | OFAy
   8  4,6  | OFEr
   8  4,6  | OFT
   8  4,6  | OFfED
@@ -3298,6 +3320,7 @@
   8  2,8  - RETaIN
   8  2,8  - ReEDIT
   8  2,8  - ReTAIN
+  8  2,8  - RoADIE
   8  6,10 - SAETa
   8  6,10 - SATEd
   8  6,10 - SATEm
@@ -3528,6 +3551,7 @@
   8  5,9  - pLENA
   8  4,3  | rADON
   8  3,4  | rARE
+  8  4,3  | rEDON
   8  9,7  - rEF
   8 11,2  | rEFAN
   8 11,2  | rEFED
@@ -3754,6 +3778,7 @@
   7 11,2  | DETAiN
   7 11,2  | DETENt
   7 11,2  | DETENu
+  7  4,3  | DETOx
   7 11,2  | DETuNE
   7 11,2  | DEaF
   7  3,2  | DEbAR
@@ -4112,6 +4137,7 @@
   7  6,9  - LATiN
   7  6,9  - LAToN
   7  6,9  - LAcET
+  7  6,9  - LAtTE
   7  6,9  - LEAT
   7  6,9  - LEATh
   7  6,9  - LEArN
@@ -4157,7 +4183,9 @@
   7  5,8  - NIDgET
   7  5,8  - NIFe
   7  5,8  - NIFf
+  7  5,8  - NITE
   7  5,8  - NITEr
+  7  5,8  - NITEs
   7  5,8  - NITrED
   7  5,8  - NIaTA
   7  5,8  - NIoTA
@@ -4302,6 +4330,7 @@
   7  4,5  | TONEd
   7  4,5  | TONEr
   7  4,5  | TONEs
+  7  4,5  | TONEy
   7  4,5  | TONaDA
   7  4,5  | TONgED
   7  4,5  | TOgED
@@ -4623,6 +4652,7 @@
   6  4,9  - DALf
   6  4,9  - DALi
   6  4,9  - DALk
+  6  4,9  - DALs
   6  4,9  - DALt
   6  3,4  | DARb
   6  3,4  | DARd
@@ -4736,6 +4766,7 @@
   6  4,5  | DOpA
   6  4,5  | DOpE
   6  4,5  | DOrA
+  6  4,5  | DOrE
   6  4,5  | DOrT
   6  4,5  | DOsA
   6  4,5  | DOsE
@@ -4935,6 +4966,7 @@
   6  9,6  | HET
   6  9,6  | HETe
   6  9,6  | HETh
+  6  9,6  | HETs
   6  9,6  | HTEl
   6  9,6  | HaET
   6  9,6  | HaTE
@@ -4958,6 +4990,7 @@
   6  6,8  - INEz
   6  6,8  - INT
   6  6,8  - INTa
+  6  6,8  - INTi
   6  6,8  - INTl
   6  6,8  - INTo
   6  6,8  - INTr
@@ -4995,6 +5028,7 @@
   6  6,9  - LANx
   6  6,9  - LAThE
   6  6,9  - LATkE
+  6  6,9  - LATtE
   6  6,9  - LAcE
   6  6,9  - LAdE
   6  6,9  - LAeT
@@ -5033,6 +5067,7 @@
   6  6,9  - LEnA
   6  6,9  - LEnT
   6  6,9  - LEpA
+  6  6,9  - LEpT
   6  6,9  - LEsT
   6  6,9  - LEtT
   6  6,9  - LEvA
@@ -5056,6 +5091,7 @@
   6  6,9  - LoDE
   6  6,9  - LoF
   6  6,9  - LoNE
+  6  6,9  - LuDE
   6  6,9  - LuNA
   6  6,9  - LuNE
   6  6,9  - LuNT
@@ -5105,6 +5141,7 @@
   6  5,8  - NInE
   6  5,8  - NIpA
   6  5,8  - NIsT
+  6  5,8  - NItE
   6  5,8  - NIuE
   6  5,8  - NIxE
   6  4,5  | NOTeD
@@ -5799,6 +5836,8 @@
   5 11,2  | DEAlT
   5 11,2  | DEArE
   5 11,2  | DEAvE
+  5 11,2  | DEET
+  5 11,2  | DEETs
   5 11,2  | DEN
   5 11,2  | DENe
   5 11,2  | DENs
@@ -5903,6 +5942,7 @@
   5 11,3  | ETANg
   5 11,3  | ETEN
   5 11,1  | ETEn
+  5  4,8  - ETIc
   5 11,3  | ETNA
   5 11,3  | ETNAs
   5  4,4  | ETOn
@@ -6227,6 +6267,7 @@
   5  4,9  - TELe
   5  4,9  - TELi
   5  4,9  - TELl
+  5  4,9  - TELs
   5  4,9  - TELt
   5 11,2  | TENAi
   5 11,2  | TENEt
@@ -6326,6 +6367,7 @@
   5 11,1  | TwEE
   5  4,8  - TwIE
   5 11,1  | TyEE
+  5  3,3  | TyER
   5  3,3  | TzAR
   5  5,9  | aA
   5  9,7  - aD
@@ -6460,6 +6502,7 @@
   5  4,3  | nATO
   5 11,2  | nEF
   5 11,2  | nENTA
+  5  5,8  - nITE
   5  4,5  | nOTA
   5  4,5  | nOTE
   5  9,7  - oAT
@@ -6494,6 +6537,7 @@
   5 11,2  | rENTE
   5  9,7  - rET
   5 11,2  | rETAN
+  5  5,8  - rIF
   5  5,8  - rITA
   5  5,8  - rITE
   5  4,5  | rOTA
@@ -6501,6 +6545,7 @@
   5  9,7  - rTE
   5 11,2  | sEDAT
   5 11,2  | sEND
+  5 11,2  | sENTE
   5  5,8  - sITA
   5  5,8  - sITE
   5  5,9  - sLAE
@@ -6658,6 +6703,7 @@
   4 11,2  | DEEp
   4 11,2  | DEEr
   4 11,2  | DEEs
+  4 11,2  | DEEt
   4  4,10 - DESc
   4  4,10 - DESi
   4  4,10 - DESk
@@ -6669,6 +6715,7 @@
   4 11,2  | DEbE
   4 11,2  | DEbT
   4 11,2  | DEdA
+  4 11,2  | DEeT
   4 11,2  | DEfT
   4 11,2  | DEiA
   4 11,2  | DEjA
@@ -6703,6 +6750,7 @@
   4  5,8  - DITe
   4  5,8  - DITs
   4  5,8  - DITt
+  4  5,8  - DITz
   4  4,5  | DOA
   4  4,5  | DOAb
   4  4,5  | DOAt
@@ -6908,6 +6956,7 @@
   4  6,9  - LEv
   4  6,9  - LEx
   4  6,9  - LEy
+  4  6,9  - LEz
   4  6,9  - LTr
   4  6,9  - LaD
   4  6,9  - LaN
@@ -6965,6 +7014,7 @@
   4  5,8  - NIAs
   4  5,8  - NIEs
   4  5,8  - NIT
+  4  5,8  - NITe
   4  5,8  - NITo
   4  5,8  - NITs
   4  4,5  | NOA
@@ -7069,6 +7119,7 @@
   4  6,10 - SEN
   4  6,10 - SENa
   4  6,10 - SENd
+  4  6,10 - SENe
   4  6,10 - SENt
   4  6,10 - SETA
   4  6,10 - SEaN
@@ -7113,6 +7164,7 @@
   4  6,10 - SeED
   4  6,10 - SeEN
   4  6,10 - SeNA
+  4  6,10 - SeNE
   4  6,10 - SeNT
   4  6,10 - SgAD
   4  6,10 - ShAD
@@ -7285,6 +7337,7 @@
   4  4,10 - cASTE
   4 11,2  | cEDE
   4 10,1  | cEE
+  4  4,9  - cEL
   4 11,2  | cENE
   4 11,2  | cENT
   4  4,10 - cESTA
@@ -7496,6 +7549,7 @@
   4  4,8  - sEID
   4  4,9  - sEL
   4 11,2  | sENA
+  4 11,2  | sENE
   4 11,2  | sENT
   4 11,2  | sETAE
   4  5,9  - sLA
@@ -8033,6 +8087,8 @@
   3  3,4  | cTR
   3  3,4  | dAR
   3  4,10 - dASE
+  3 11,1  | dEET
+  3 11,2  | dEET
   3  4,8  - dEIA
   3 11,2  | dEN
   3  3,4  | dER
@@ -8256,6 +8312,7 @@
   3  3,4  | yER
   3  4,10 - yEST
   3 11,2  | yETA
+  3  5,8  - yID
   3  5,8  - yIN
   3  4,4  | yNO
   3  4,5  | yOD
@@ -8265,6 +8322,7 @@
   3  3,4  | zER
   3  4,10 - zEST
   3 11,2  | zETA
+  3  5,8  - zIN
   2  1,7  - AA
   2 11,2  | AE
   2 11,2  | AEr
@@ -8411,6 +8469,7 @@
   2  2,8  - REf
   2  2,8  - REg
   2  2,8  - REh
+  2  2,8  - REi
   2  2,8  - REl
   2  2,8  - REm
   2  2,8  - REn
@@ -8482,6 +8541,7 @@
   2  6,10 - SiA
   2  6,10 - SiE
   2  6,10 - SiT
+  2  6,10 - SkA
   2  6,10 - SlA
   2  6,10 - SlT
   2  6,10 - SmA
@@ -8504,6 +8564,7 @@
   2 11,2  | TEl
   2 11,2  | TEm
   2 11,2  | TEn
+  2 11,2  | TEt
   2 11,2  | TEw
   2 11,2  | TEx
   2 11,2  | TEz
@@ -8731,6 +8792,7 @@
   2 11,2  | rEA
   2 11,1  | rEE
   2 11,2  | rEE
+  2  4,8  - rEI
   2  4,10 - rES
   2 11,2  | rET
   2  5,8  - rIA
@@ -8761,6 +8823,7 @@
   2 11,2  | tEA
   2 11,1  | tEE
   2 11,2  | tEE
+  2 11,2  | tET
   2  5,8  - tIE
   2  5,8  - tIT
   2  4,5  | tOA

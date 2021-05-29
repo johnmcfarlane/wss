@@ -10,6 +10,7 @@
  39  9,5  | UNLiD
  38  9,7  | LUDO
  37  9,7  | LUD
+ 37  9,7  | LUDe
  37  9,7  | LUDo
  37  9,7  | LUDs
  37  9,7  | NUDa
@@ -35,6 +36,7 @@
  31  9,6  | LaUD
  31  9,6  | LeUD
  31  9,7  | NUdD
+ 31  9,7  | NUrD
  31  9,7  | NUrL
  31  5,11 - UNLOaD
  31  5,11 - UNLOrD
@@ -177,6 +179,7 @@
  24  8,10 - LOOD
  24  8,10 - LOON
  24  8,10 - LUD
+ 24  8,10 - LUDe
  24  8,10 - LUDo
  24  8,10 - LUDs
  24  8,10 - LUNa
@@ -387,6 +390,7 @@
  20  8,10 - LUo
  20  8,10 - LUr
  20  8,10 - LUt
+ 20  8,10 - LUv
  20  8,10 - LUx
  20  8,10 - LaD
  20  8,10 - LaN
@@ -409,6 +413,7 @@
  20  7,7  | NOVa
  20  7,7  | NOVo
  20  6,1  | NOdULED
+ 20  7,4  | NUrD
  20  7,4  | NUrL
  20  6,1  | ONDULE
  20  6,1  | UNLObED
@@ -645,6 +650,7 @@
  17  9,9  | sOL
  17  9,9  | sON
  17  9,9  | sOU
+ 17  9,2  | vODOUN
  16  2,1  | DOLeNT
  16  6,1  | DOLiNE
  16  6,2  | DOLmEN
@@ -741,6 +747,7 @@
  16  9,3  | gLUON
  16  6,2  | gOLDEN
  16  6,2  | hOLDEN
+ 16  6,1  | hONDLE
  16  9,3  | hOUND
  16  9,3  | iNDOL
  16  6,1  | iNDOLE
@@ -805,6 +812,7 @@
  15  9,5  | NUL
  15  9,4  | NUdD
  15  9,4  | NUlL
+ 15  9,4  | NUrD
  15  9,4  | NUrL
  15  7,4  | NUt
  15  7,8  | OVa
@@ -878,6 +886,7 @@
  14  2,2  | DoNUT
  14  2,2  | DrUNT
  14  4,4  - GLUON
+ 14  4,4  - GLUONs
  14  4,4  - GODfUL
  14  4,4  - GrOUND
  14  9,5  | LOD
@@ -908,6 +917,7 @@
  14  6,5  - NODULe
  14  6,5  - NODULi
  14  9,5  | NOL
+ 14  6,1  | NOODgE
  14  6,1  | NOODlE
  14  6,1  | NOOdLE
  14  6,2  | NOOkED
@@ -956,6 +966,7 @@
  14  2,2  | bUNDT
  14  9,4  | cLOD
  14  9,4  | cLON
+ 14  6,1  | cOLONE
  14  6,2  | cOOLED
  14  9,4  | cUON
  14  9,9  | dOO
@@ -1395,6 +1406,7 @@
  11  1,4  - NOnGOLD
  11  6,5  - NUdD
  11  6,5  - NUlL
+ 11  6,5  - NUrD
  11  6,5  - NUrL
  11  6,5  - NoLD
  11  5,1  | NoLO
@@ -1770,7 +1782,9 @@
   9  2,4  - LOGiON
   9  5,2  | LOO
   9  2,4  | LOTh
+  9  9,4  | LUDe
   9  9,4  | LUDs
+  9  2,4  - LUGeD
   9  1,4  - LUNG
   9  1,4  - LUNGe
   9  1,4  - LUNGi
@@ -2201,6 +2215,7 @@
   7  7,7  - DALf
   7  7,7  - DALi
   7  7,7  - DALk
+  7  7,7  - DALs
   7  7,7  - DALt
   7  7,7  - DAN
   7  7,7  - DANa
@@ -2416,6 +2431,8 @@
   7  3,2  | LOa
   7  5,2  | LOo
   7  1,5  - LU
+  7  6,3  | LUDE
+  7  6,3  | LUDEs
   7  2,4  - LUG
   7  2,4  - LUGe
   7  2,4  - LUGs
@@ -2428,6 +2445,7 @@
   7  9,5  | LUd
   7  9,5  | LUe
   7  9,5  | LUg
+  7  6,3  | LUgED
   7  9,5  | LUi
   7  9,5  | LUm
   7  6,3  | LUmEN
@@ -2485,6 +2503,7 @@
   7  6,3  | NUDEs
   7  6,5  - NUb
   7  9,5  | NUb
+  7  6,3  | NUkED
   7  6,5  - NUl
   7  9,5  | NUl
   7  6,5  - NUm
@@ -3075,9 +3094,11 @@
   6  6,3  | bONED
   6  1,4  - bONG
   6  6,5  - bONO
+  6  7,7  - cALO
   6  1,4  - cLOG
   6  6,3  | cODEN
   6  5,11 - cODO
+  6  6,3  | cOLED
   6  6,3  | cOLEN
   6  6,3  | cONED
   6  1,4  - cONG
@@ -3215,6 +3236,7 @@
   5  8,7  - AuLU
   5  7,7  - DAO
   5  7,7  - DAdU
+  5  7,7  - DAhL
   5  7,7  - DAiN
   5  7,7  - DAmN
   5  7,7  - DArN
@@ -3346,6 +3368,7 @@
   5  2,4  | LUT
   5  6,3  | LUbE
   5  6,3  | LUcE
+  5  6,3  | LUdE
   5  6,3  | LUgE
   5  6,3  | LUkE
   5  6,3  | LUnE
@@ -3379,6 +3402,7 @@
   5  2,4  - LoG
   5  6,3  | LoNE
   5  2,3  | LoUT
+  5  6,3  | LuDE
   5  2,4  - LuG
   5  6,3  | LuNE
   5  2,3  | LuNT
@@ -3635,6 +3659,7 @@
   5  2,4  - lOGO
   5  6,3  | lOOED
   5  1,5  - lU
+  5  6,3  | lUDE
   5  2,4  - lUG
   5  6,3  | lUNE
   5  2,3  | lUNT
@@ -3784,6 +3809,7 @@
   4  6,3  | DOnE
   4  2,3  | DOnT
   4  6,3  | DOpE
+  4  6,3  | DOrE
   4  2,3  | DOrT
   4  6,3  | DOsE
   4  2,3  | DOsT
@@ -4078,6 +4104,7 @@
   4  6,3  | vOLE
   4  2,3  | vOLT
   4  6,3  | wODE
+  4  2,4  - wOG
   4  6,5  - wON
   4  2,3  | wONT
   4  6,5  - yNO
@@ -4205,6 +4232,7 @@
   3  6,5  | LEv
   3  6,5  | LEx
   3  6,5  | LEy
+  3  6,5  | LEz
   3  1,5  - La
   3  9,6  | La
   3  2,4  | LaT
@@ -4228,6 +4256,7 @@
   3  7,7  - NAe
   3  7,7  - NAf
   3  7,7  - NAg
+  3  7,7  - NAh
   3  7,7  - NAk
   3  7,7  - NAm
   3  7,7  - NAn
@@ -4309,6 +4338,7 @@
   3  2,3  | bOOT
   3  6,5  - bU
   3  2,4  | bUT
+  3  6,5  | cEL
   3  2,3  | cOOT
   3  6,4  | cUE
   3  2,4  | cUT

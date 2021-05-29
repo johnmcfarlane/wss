@@ -14,6 +14,7 @@
  37  9,3  | VIMPA
  35  1,9  - PISA
  35  1,9  - PSIA
+ 33  9,3  | PIMAN
  33  9,4  | SAMP
  33  9,4  | SIMP
  33  9,4  | SPAM
@@ -26,6 +27,7 @@
  32  1,9  - SINA
  29  9,4  | INSP
  29  9,3  | PIMAS
+ 29  9,3  | SIVAN
  29  9,4  | SNAP
  29  9,3  | VAMP
  28  9,5  | NAM
@@ -34,12 +36,16 @@
  28  7,2  | SVAMIN
  27  9,4  | AMPS
  27  9,4  | IMPS
+ 27  9,4  | IVAN
  27  9,2  | MAVINS
  27  9,2  | PAVINS
+ 27  9,3  | PISAN
  27  9,4  | SIAM
  27  7,2  | SPAVIN
+ 27  9,4  | SVAN
  27  9,3  | VINAS
  26  9,5  | ASP
+ 26  9,5  | AVN
  26  9,3  | IMPV
  26  9,5  | ISM
  26  7,3  | MAVIN
@@ -49,6 +55,8 @@
  26  9,5  | SAP
  26  2,6  - SPANK
  26  2,6  - SPINK
+ 26  9,5  | VAN
+ 25  9,4  | IMAN
  25  9,3  | MAINS
  25  9,3  | MINAS
  25  9,3  | NIPAS
@@ -56,13 +64,16 @@
  25  9,3  | PIANS
  25  7,3  | PIMAN
  25  9,3  | PINAS
+ 25  9,4  | SPAN
  25  9,4  | VIMS
  25  9,4  | VIPS
  24  9,6  | AM
+ 24  9,5  | MAN
  24  9,4  | MAPS
  24  7,3  | MAVIS
  24  9,4  | MIPS
  24  9,4  | PAMS
+ 24  9,5  | PAN
  24  7,3  | PAVIS
  24  9,4  | PIMA
  24  2,6  - SMAIK
@@ -77,12 +88,14 @@
  22  9,3  | AMINS
  22  9,2  | APISM
  22  9,5  | IVA
+ 22  9,4  | MIAN
  22  9,5  | MNA
  22  9,4  | NAPS
  22  9,4  | NIMS
  22  9,4  | NIPA
  22  9,4  | NIPS
  22  2,10 - PASMO
+ 22  9,4  | PIAN
  22  7,3  | PISAN
  22  9,3  | SPINA
  22  9,5  | VAS
@@ -169,7 +182,9 @@
  18  9,3  | AMPS
  18  2,10 - ANIMO
  18  2,10 - AVISO
+ 18  9,5  | IAN
  18  9,3  | IMPS
+ 18  9,5  | ISN
  18  7,4  | IVAN
  18  9,6  | MA
  18  7,3  | MANI
@@ -202,6 +217,7 @@
  18  7,4  | SAIM
  18  7,4  | SAIP
  18  7,2  | SAMPI
+ 18  9,5  | SAN
  18  5,7  | SEAM
  18  7,4  | SIAM
  18  9,2  | SPAIN
@@ -264,6 +280,7 @@
  17  9,4  | VIP
  17  9,3  | VISA
  16  7,6  | AM
+ 16  9,6  | AN
  16  9,3  | ANIM
  16  9,5  | ANS
  16  7,3  - ASPIC
@@ -323,6 +340,7 @@
  15  9,3  | PISA
  15  8,8  | PISA
  15  9,2  | PISAN
+ 15  5,7  - POMS
  15  9,3  | PSIA
  15  8,8  | PSIA
  15  9,3  | SAIM
@@ -568,6 +586,7 @@
   8  9,4  - MAY
   8  3,10 - MINO
   8  9,5  | NA
+  8  9,7  - NAH
   8  4,6  - NAK
   8  9,4  | NIS
   8  9,4  - PAY
@@ -611,6 +630,7 @@
   7  9,4  | SIA
   7  9,3  - SIC
   7  8,8  | SINA
+  7  5,6  - SKA
   7  5,6  - SKI
   7  8,6  - SPET
   7  9,6  - VET

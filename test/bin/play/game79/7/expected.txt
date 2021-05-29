@@ -32,6 +32,7 @@
  36 11,5  | MaTHE
  36 11,2  | THEMa
  36  3,7  | WHaME
+ 36  3,7  | WHaMO
  36  3,7  | WHeEM
  36 11,6  | aHMET
  35  4,8  - MI
@@ -317,6 +318,7 @@
  23 10,6  | COMEt
  23 10,6  | COMIc
  23 10,6  | COMId
+ 23 10,6  | COMIx
  23 10,6  | COMTe
  23 10,6  | COMaE
  23 10,6  | COMbE
@@ -340,6 +342,7 @@
  23  2,8  - dETI
  23  3,8  - eH
  23  2,8  - hOTI
+ 23  2,8  - lOTI
  23  2,8  - nETI
  23  3,8  - oH
  23  2,8  - pOTI
@@ -614,6 +617,7 @@
  17  1,6  - sHOT
  17  2,6  - sOH
  17  4,5  | wHAME
+ 17  4,5  | wHAMO
  17  1,6  - wHET
  17  2,6  - yEH
  16  4,7  | AHMET
@@ -1054,12 +1058,14 @@
  14  1,8  - lITE
  14  5,5  - lITHO
  14  4,5  | lOAM
+ 14  1,8  - lOTI
  14  4,6  | mAMO
  14  1,8  - mITE
  14  1,8  - mOET
  14  1,8  - mOTE
  14  4,6  | nAME
  14  1,8  - nETI
+ 14  1,8  - nITE
  14  4,5  | nOAM
  14  1,8  - nOTE
  14 10,1  | pET
@@ -1186,6 +1192,7 @@
  13  3,7  | WHOM
  13  3,7  | WIM
  13  3,7  | WIMe
+ 13  3,7  | WIMp
  13  3,7  | WOMb
  13  3,7  | WaME
  13  3,7  | WiME
@@ -1267,6 +1274,7 @@
  13  2,8  - pOT
  13  2,8  - pTE
  13  4,6  | rAM
+ 13  2,8  - rEI
  13  4,5  - rEIM
  13  2,5  - rEOMIT
  13  2,8  - rET
@@ -1288,6 +1296,7 @@
  13  4,5  - sTIM
  13  3,6  | sWIM
  13  4,6  | tAM
+ 13  2,8  - tET
  13  1,6  - tHE
  13  1,6  - tHO
  13  2,8  - tOE
@@ -1522,6 +1531,7 @@
  11  4,6  | HAOMa
  11  1,8  - HETe
  11  1,8  - HETh
+ 11  1,8  - HETs
  11  3,5  | HEW
  11  3,5  | HEWe
  11  3,5  | HEWn
@@ -1711,6 +1721,7 @@
  11  4,8  - sI
  11  2,6  - sOT
  11  3,8  - tE
+ 11  2,6  - tET
  11  3,5  | tEWHIT
  11  3,5  | tHWITE
  11  3,8  - tI
@@ -1870,6 +1881,7 @@
  10  2,6  - TEl
  10  2,6  - TEm
  10  2,6  - TEn
+ 10  2,6  - TEt
  10  2,6  - TEz
  10  1,8  - THE
  10  3,5  - THEIn
@@ -1926,6 +1938,7 @@
  10  4,5  - iMIT
  10  4,6  | lAH
  10  4,6  | mAH
+ 10  4,6  | nAH
  10 10,1  | oE
  10  4,5  - oMIT
  10  8,2  - oRTH
@@ -2098,6 +2111,7 @@
   9  4,6  | MATtE
   9  4,6  | MATtI
   9  4,6  | MATzO
+  9  4,6  | MAcHE
   9  4,6  | MAcHI
   9  4,6  | MAcHO
   9  4,6  | MAgHI
@@ -2433,6 +2447,7 @@
   8  4,6  | MATt
   8  4,6  | MATy
   8  4,6  | MAcH
+  8  4,6  | MAlOTI
   8  4,6  | MAnITO
   8  4,6  | MArIET
   8  4,6  | MAsH
@@ -2523,6 +2538,7 @@
   8  2,8  - TEl
   8  2,8  - TEm
   8  2,8  - TEn
+  8  2,8  - TEt
   8  2,8  - TEw
   8  2,8  - TEx
   8  4,5  | THAE
@@ -3155,6 +3171,7 @@
   7  4,6  | tATH
   7 10,3  | tE
   7  2,6  - tE
+  7  1,8  - tET
   7  4,5  | tHAE
   7  4,5  | tHAI
   7  4,5  | tHAT
@@ -3262,6 +3279,7 @@
   6  8,2  - ERaT
   6  8,2  - ERgO
   6  8,2  - ERsT
+  6  4,5  - ETIc
   6  9,3  - ETa
   6  9,3  - ETc
   6  9,3  - ETh
@@ -3317,6 +3335,7 @@
   6  4,5  | IrATE
   6  4,3  | IrOHA
   6  4,6  | MAaT
+  6  4,6  | MAbE
   6  4,6  | MAbI
   6  4,6  | MAcE
   6  4,6  | MAcO
@@ -3407,6 +3426,7 @@
   6  4,5  | OrATE
   6  4,5  | OtATE
   6  4,5  | OvATE
+  6  9,2  - REI
   6  9,2  - RET
   6  9,2  - RIE
   6  9,2  - RIO
@@ -3439,6 +3459,7 @@
   6  4,5  | TEAcH
   6  4,5  - TEIl
   6  1,8  - TEe
+  6  1,8  - TEt
   6  4,5  | THAnE
   6  4,5  | THAvE
   6  3,5  - THaI
@@ -3936,6 +3957,7 @@
   5  4,5  | OrAE
   5  9,1  - PE
   5  9,1  - PEa
+  5  9,1  - PEc
   5  9,1  - PEd
   5  9,1  - PEe
   5  9,1  - PEg
@@ -4070,9 +4092,11 @@
   5  3,7  | WO
   5  3,7  | WOb
   5  3,7  | WOe
+  5  3,7  | WOg
   5  3,7  | WOk
   5  3,7  | WOn
   5  3,7  | WOo
+  5  3,7  | WOp
   5  3,7  | WOs
   5  3,7  | WOt
   5  3,7  | WOw
@@ -4138,6 +4162,7 @@
   5  3,6  | iWI
   5  4,6  | jATI
   5  4,6  | jATO
+  5  3,5  | jEW
   5  4,5  | jIAO
   5  3,5  | jOW
   5  4,6  | kATE
@@ -4336,6 +4361,7 @@
   4  4,3  | IdETA
   4  6,5  - If
   4  6,5  - In
+  4  3,5  - InTI
   4  4,3  | IpH
   4  6,5  - Is
   4  4,3  | IsH
@@ -4367,6 +4393,7 @@
   4  9,2  - REf
   4  9,2  - REg
   4  9,2  - REh
+  4  9,2  - REi
   4  9,2  - REl
   4  9,2  - REm
   4  9,2  - REn
@@ -4381,6 +4408,7 @@
   4  9,2  - RIc
   4  9,2  - RId
   4  9,2  - RIe
+  4  9,2  - RIf
   4  9,2  - RIg
   4  9,2  - RIk
   4  9,2  - RIm
@@ -4410,6 +4438,7 @@
   4  9,2  - RaT
   4  9,2  - RcT
   4  9,2  - ReE
+  4  9,2  - ReI
   4  9,2  - ReT
   4  9,2  - RhE
   4  9,2  - RhO
@@ -4635,6 +4664,7 @@
   3  3,5  - jITI
   3  5,2  - lI
   3  3,5  - lITI
+  3  3,5  - lOTI
   3  5,2  - mI
   3  3,5  - nETI
   3  3,5  - pOTI
@@ -4812,6 +4842,7 @@
   2  4,5  - pOI
   2  4,5  | pTA
   2  4,5  | rEA
+  2  4,5  - rEI
   2  4,5  | rIA
   2  4,5  - rOI
   2  4,5  - rTI

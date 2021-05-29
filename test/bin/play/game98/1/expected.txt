@@ -30,6 +30,8 @@
  26 11,6  | SToND
  26 11,2  | TeNDS
  25  3,7  - QaTS
+ 25  7,5  | TRaNQS
+ 24  7,5  | TRaNQ
  23 11,3  | DeNS
  23 11,3  | DiNS
  23 11,3  | DoNS
@@ -45,7 +47,9 @@
  23 11,3  | aNDS
  23 11,3  | eNDS
  22 10,5  | DOVeNS
+ 22  6,5  | DUVeTS
  22  6,6  | UNVeST
+ 22 10,5  | VODuNS
  22  9,5  | pDQ
  20 11,3  | DiTS
  20 11,3  | DoTS
@@ -173,6 +177,8 @@
  14  8,3  | SeQED
  14 11,6  | SeV
  14 11,6  | SoV
+ 14 10,5  | TONDoS
+ 14 10,2  | ToNDOS
  14  6,6  | UNSaD
  14  6,6  | UTeND
  14  8,5  | VEND
@@ -244,6 +250,7 @@
  12 11,4  | DoST
  12  8,4  | DrENT
  12 11,4  | DuST
+ 12  8,3  | DuVETS
  12  8,6  | EQpT
  12 11,4  | NaST
  12  6,5  - NeD
@@ -302,6 +309,7 @@
  12  8,5  | VErN
  12  2,7  - VeNTS
  12  8,2  | VeSTED
+ 12  6,3  | VoDUNS
  12  9,5  - aDV
  12  9,5  | aDV
  12  9,7  - aDV
@@ -316,6 +324,7 @@
  11  8,4  | DSEcT
  11 11,5  | DSr
  11 11,4  | DaS
+ 11  8,4  | DeETS
  11  8,2  | DeNTES
  11  3,5  - DeTN
  11  3,7  - DeTN
@@ -685,6 +694,7 @@
   9  8,3  | SaVED
   9  8,4  | ScENT
   9  8,3  | SeDENT
+  9  8,2  | SeNTE
   9  8,3  | SeVEN
   9 11,6  | Sh
   9  8,4  | ShENT
@@ -727,6 +737,7 @@
   9  8,3  | VaNES
   9  4,7  - VaS
   9  4,7  - VaT
+  9  6,3  | VaTUS
   9  8,3  | VeDET
   9  4,7  - VeT
   9  6,3  | VeTUS
@@ -795,6 +806,7 @@
   8  6,4  | DaUNTS
   8  8,3  | DaVE
   8  8,4  | DeES
+  8  8,4  | DeET
   8  4,5  - DeN
   8  4,7  - DeN
   8  7,4  | DeRV
@@ -958,6 +970,7 @@
   8  9,7  - eNS
   8  8,3  | eNSE
   8  8,4  | eVEN
+  8  6,5  | gUVS
   8  8,4  | iDENT
   8  9,5  - iDS
   8  9,7  - iDS
@@ -985,6 +998,7 @@
   7  9,6  | DDT
   7  8,5  | DESTo
   7  8,5  | DEbTS
+  7  8,5  | DEeTS
   7  8,5  | DEiST
   7  8,5  | DEnTS
   7  7,5  | DRaNT
@@ -1050,6 +1064,7 @@
   7  8,5  | NEtTS
   7  8,5  | NEwTS
   7  6,5  | NUDeS
+  7  6,5  | NUrDS
   7  6,5  - Na
   7  8,5  - Na
   7  8,7  - Na
@@ -1074,6 +1089,7 @@
   7  7,6  | RyND
   7  8,5  | SEDeNT
   7  8,5  | SENT
+  7  8,5  | SENTe
   7  8,5  | SENTi
   7  8,5  | SENTs
   7  8,5  | SEV
@@ -1156,6 +1172,7 @@
   7 10,5  | VOlT
   7 10,5  | VOwS
   7  6,5  | VUg
+  7  7,4  | VaRS
   7  8,3  | VaSE
   7  6,4  | VaU
   7  7,4  | VeRS
@@ -1207,6 +1224,7 @@
   7  3,7  - iSNT
   7  9,5  - iTD
   7  6,5  | jUV
+  7  6,5  | lUV
   7  9,5  | mDNT
   7  4,5  - mTN
   7  4,7  - mTN
@@ -1232,6 +1250,7 @@
   6  8,5  | DEbS
   6  8,5  | DEbT
   6  8,5  | DEeS
+  6  8,5  | DEeT
   6  8,5  | DEfS
   6  8,5  | DEfT
   6  8,5  | DEiS
@@ -1339,6 +1358,7 @@
   6  6,5  | NUTS
   6  6,5  | NUTSy
   6  6,5  | NUdD
+  6  6,5  | NUrD
   6  7,4  | NaRDS
   6  4,7  - NaT
   6  7,3  | NaTR
@@ -1356,6 +1376,7 @@
   6  8,3  | NoTED
   6  6,3  | NoTUS
   6  8,3  | NuDES
+  6  7,4  | NuRDS
   6  4,7  - NuS
   6  4,7  - NuT
   6 10,6  | OVa
@@ -1714,6 +1735,7 @@
   5  7,4  | NeRTS
   5  6,4  | NeUT
   5  8,3  | NiDE
+  5  8,3  | NiTES
   5 10,3  | NiTOS
   5 10,5  - No
   5 10,7  - No
@@ -1724,6 +1746,7 @@
   5 10,5  - Nu
   5 10,7  - Nu
   5  8,3  | NuDE
+  5  7,4  | NuRD
   5 10,6  | ONDy
   5 10,6  | OrDN
   5  7,6  | RND
@@ -1854,8 +1877,10 @@
   5  8,5  | TEdS
   5  8,5  | TEeS
   5  8,5  | TEgS
+  5  8,5  | TElS
   5  8,5  | TEnS
   5  8,5  | TEsS
+  5  8,5  | TEtS
   5  8,5  | TEwS
   5  4,7  - TNt
   5 10,5  | TODS
@@ -1980,6 +2005,7 @@
   5 10,5  | gOND
   5  6,5  | gUNS
   5  8,5  | hEST
+  5  8,5  | hETS
   5 10,5  | hOND
   5  4,7  - hTS
   5  6,5  | hUNS
@@ -2039,6 +2065,7 @@
   5  6,5  | sUNS
   5  6,5  | sUNT
   5  8,5  | tEST
+  5  8,5  | tETS
   5  4,7  - tST
   5  6,4  | tSUN
   5  6,5  | tUNS
@@ -2200,6 +2227,7 @@
   4  9,4  | NeD
   4  8,3  | NeSE
   4  8,3  | NeTE
+  4  8,3  | NiTE
   4 10,3  | NiTO
   4  9,4  | NoD
   4  8,3  | NoSE
@@ -2234,6 +2262,7 @@
   4  8,5  | SEN
   4  8,5  | SENa
   4  8,5  | SENd
+  4  8,5  | SENe
   4  8,5  | SENt
   4 10,4  | SNOb
   4 10,4  | SNOd
@@ -2287,6 +2316,7 @@
   4  6,4  | SaUT
   4  6,4  | ScUT
   4  8,4  | SeE
+  4  8,3  | SeNE
   4  8,4  | ShE
   4 10,4  | ShOD
   4  6,4  | ShUT
@@ -2469,6 +2499,7 @@
   4  6,5  | gUST
   4  6,5  | gUTS
   4 10,5  | hODS
+  4 10,5  | hONS
   4 10,5  | hONT
   4  6,5  | hUD
   4  6,5  | hUN
@@ -3103,6 +3134,7 @@
   2  8,5  | TEl
   2  8,5  | TEm
   2  8,5  | TEn
+  2  8,5  | TEt
   2  8,5  | TEw
   2  8,5  | TEx
   2  8,5  | TEz
@@ -3240,6 +3272,7 @@
   2 10,5  | sOS
   2 10,5  | sOT
   2  7,4  | sTR
+  2  8,5  | tET
   2 10,5  | tOS
   2 10,5  | tOT
   2  7,5  | tRS

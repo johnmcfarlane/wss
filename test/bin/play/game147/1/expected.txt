@@ -109,6 +109,7 @@
  27  1,4  | TALLIER
  27  1,3  | TELLIN
  27  1,4  | TELLIN
+ 26  2,7  - ELINT
  25  1,7  - ALTIN
  25  1,5  - ENTAL
  25  2,7  - LAINER
@@ -164,6 +165,7 @@
  21  1,7  - ATLI
  21  1,5  | ELAIN
  21  1,5  | ELIAN
+ 21  1,5  | ELINT
  21  7,4  | ENRAIL
  21  1,2  | ENTAL
  21  1,5  - ETNA
@@ -193,6 +195,7 @@
  21  1,3  | NELL
  21  1,2  | NERAL
  21  1,3  | NILL
+ 21  3,7  - NITE
  21  1,3  | RANLI
  21  7,6  | RATLIN
  21  1,2  | RENAL
@@ -658,6 +661,8 @@
  14  6,6  | ELEAN
  14  2,6  | ELIAN
  14  6,6  | ELIAN
+ 14  2,6  | ELINT
+ 14  6,6  | ELINT
  14  2,6  | ENTAL
  14  6,6  | ENTAL
  14  2,6  | ENTERA
@@ -729,6 +734,7 @@
  14  4,4  | REGAL
  14  4,4  | REGIN
  14  4,4  | REGNAL
+ 14  7,6  | REI
  14  2,1  | RELATE
  14  6,1  | RELATE
  14  2,5  | RELATE
@@ -750,6 +756,10 @@
  14  6,5  | RETILE
  14  2,5  | RETINA
  14  6,5  | RETINA
+ 14  2,1  | RETINE
+ 14  6,1  | RETINE
+ 14  2,5  | RETINE
+ 14  6,5  | RETINE
  14  7,6  | RIA
  14  7,6  | RIE
  14  4,4  | RIGEL
@@ -794,6 +804,7 @@
  13  7,5  | ER
  13  2,5  - ETA
  13  4,6  | GALEN
+ 13  4,6  | GELATI
  13  4,6  | GENAL
  13  4,4  | INGATE
  13  4,4  | INGLE
@@ -816,6 +827,7 @@
  13  7,6  | RE
  13  4,4  | REGAIN
  13  4,4  | REGIAN
+ 13  2,7  - REI
  13  3,2  | RELIANT
  13  4,4  | RIGLET
  13  2,7  - RTI
@@ -938,6 +950,8 @@
  12  3,2  | LANIATE
  12  6,7  - LANIER
  12  5,5  - LANT
+ 12  2,2  | LAREE
+ 12  6,2  | LAREE
  12  3,5  | LARIN
  12  6,7  - LARINE
  12  5,5  - LARN
@@ -1042,6 +1056,8 @@
  11  4,1  | EATING
  11  4,5  | EGAL
  11  3,3  | ELIAN
+ 11  6,5  - ELINT
+ 11  6,7  - ELINT
  11  3,3  | ENRAIL
  11  6,5  - ENRAIL
  11  6,7  - ENRAIL
@@ -1266,6 +1282,7 @@
  10  6,2  | IRATE
  10  5,5  | IURANT
  10  2,7  - LA
+ 10  3,5  | LAARI
  10  3,5  | LAETI
  10  6,7  - LAETI
  10  4,4  | LAG
@@ -1503,6 +1520,7 @@
   9  4,6  | GLIA
   9  4,6  | GNAR
   9  4,6  | GNAT
+  9  4,6  | GRAN
   9  4,6  | GRATE
   9  4,6  | GREAT
   9  4,6  | GREIT
@@ -1568,6 +1586,8 @@
   9  6,5  - NETI
   9  6,7  - NETI
   9  4,5  | NGAI
+  9  6,5  - NITE
+  9  6,7  - NITE
   9  5,5  | NUTRIA
   9  6,5  - RAIL
   9  6,7  - RAIL
@@ -1794,6 +1814,7 @@
   8  5,4  | INULA
   8  3,4  | IRAN
   8  3,4  | ITAL
+  8  3,4  | LAARI
   8  3,5  | LAET
   8  3,5  | LAIR
   8  3,5  | LAIT
@@ -2267,6 +2288,8 @@
   6  6,4  | LAETI
   6  2,3  | LANE
   6  6,3  | LANE
+  6  2,3  | LAREE
+  6  6,3  | LAREE
   6  2,3  | LATER
   6  6,3  | LATER
   6  5,4  | LAUR
@@ -2628,6 +2651,8 @@
   5  2,5  | NETI
   5  6,5  | NETI
   5  1,4  | NIL
+  5  2,3  | NITE
+  5  6,3  | NITE
   5  5,5  | NUT
   5  2,3  | RALE
   5  6,3  | RALE
@@ -2649,6 +2674,8 @@
   5  6,4  | REEN
   5  2,5  | REEN
   5  6,5  | REEN
+  5  6,5  - REI
+  5  6,7  - REI
   5  2,5  | REIN
   5  6,5  | REIN
   5  2,5  | RENT
@@ -2985,6 +3012,8 @@
   3  6,4  | REE
   3  2,5  | REE
   3  6,5  | REE
+  3  2,5  | REI
+  3  6,5  | REI
   3  2,5  | RET
   3  6,5  | RET
   3  2,4  | RIE

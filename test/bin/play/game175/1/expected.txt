@@ -54,6 +54,8 @@
  29  1,5  - CInQ
  29  4,5  | MInX
  28  4,4  | ClIMAX
+ 28  2,2  | MAXeS
+ 28  6,2  | MAXeS
  28  2,2  | MAXiS
  28  6,2  | MAXiS
  28  2,2  | MIXeS
@@ -483,6 +485,7 @@
  17  5,5  | CLImAX
  17  3,3  | CiMA
  17  3,3  | CoMA
+ 17  4,3  | CoMIX
  17  4,4  | CrIM
  17  3,3  | CyMA
  17  4,4  | IlIAC
@@ -1228,8 +1231,6 @@
  10  3,6  | AMA
  10  3,4  | AMAh
  10  3,6  | AMAh
- 10  3,4  | AMAl
- 10  3,6  | AMAl
  10  3,4  | AMAr
  10  3,6  | AMAr
  10  3,4  | AMAs
@@ -1394,6 +1395,8 @@
  10  3,3  | fAMA
  10  3,5  | fAMA
  10  3,3  | fICA
+ 10  3,3  | gAMA
+ 10  3,5  | gAMA
  10  3,5  | hAMI
  10  3,3  | hIMA
  10  3,5  - hM
@@ -1558,6 +1561,8 @@
   9  6,4  | MaSC
   9  2,4  | MiSC
   9  6,4  | MiSC
+  9  2,3  | MoCS
+  9  6,3  | MoCS
   9  2,6  | SCaM
   9  6,6  | SCaM
   9  2,6  | SCfM
@@ -1683,7 +1688,6 @@
   8  4,4  | AMIt
   8  6,5  - AMIt
   8  5,4  | AMLI
-  8  5,3  | AMaL
   8  5,3  | AMeL
   8  5,3  | AMiL
   8  5,3  | AMyL
@@ -1757,6 +1761,7 @@
   8  5,6  | LICcA
   8  5,6  | LIMbA
   8  5,6  | LIMmA
+  8  5,6  | LIMpA
   8  5,6  | LaMA
   8  5,6  | LiMA
   8  5,6  | LoCA
@@ -1990,6 +1995,7 @@
   7  5,4  | CALk
   7  5,4  | CALl
   7  5,4  | CALm
+  7  5,4  | CALo
   7  5,4  | CALp
   7  5,4  | CALs
   7  5,4  | CALx
@@ -2021,6 +2027,8 @@
   7  6,7  - ICe
   7  6,5  - ICh
   7  6,7  - ICh
+  7  6,5  - ICk
+  7  6,7  - ICk
   7  6,5  - ICy
   7  6,7  - ICy
   7  6,5  - IMi
@@ -2140,7 +2148,6 @@
   7  6,6  | SIMA
   7  5,5  | aLCA
   7  5,5  | aLMA
-  7  5,3  | aMAL
   7  3,3  | aMIA
   7  5,3  | aMIL
   7  5,4  | aMLA
@@ -2291,6 +2298,7 @@
   6  5,4  | CaL
   6  2,4  | CaSA
   6  6,4  | CaSA
+  6  5,4  | CeL
   6  4,3  | ChAI
   6  2,3  | ChIS
   6  6,3  | ChIS
@@ -2655,6 +2663,8 @@
   6  2,3  | tICS
   6  6,3  | tICS
   6  6,5  - uCA
+  6  2,3  | vACS
+  6  6,3  | vACS
   6  2,3  | vIMS
   6  6,3  | vIMS
   6  2,3  | wACS
@@ -2743,6 +2753,7 @@
   5  1,5  - IAn
   5  4,6  | ICe
   5  4,6  | ICh
+  5  4,6  | ICk
   5  4,6  | ICy
   5  4,6  | IMi
   5  4,6  | IMp
@@ -3232,7 +3243,6 @@
   3  5,6  | LIr
   3  5,6  | LIs
   3  5,6  | LIt
-  3  5,6  | LIv
   3  5,6  | LIz
   3  5,6  | LaI
   3  5,6  | LeA
@@ -3404,6 +3414,8 @@
   3  2,3  | rAIS
   3  6,3  | rAIS
   3  3,4  | rIA
+  3  2,3  | rIAS
+  3  6,3  | rIAS
   3  3,4  | sAA
   3  3,5  | sAA
   3  3,5  | sAI
@@ -3640,6 +3652,8 @@
   2  6,6  | ShI
   2  2,6  | SiA
   2  6,6  | SiA
+  2  2,6  | SkA
+  2  6,6  | SkA
   2  2,6  | SkI
   2  6,6  | SkI
   2  2,6  | SlA

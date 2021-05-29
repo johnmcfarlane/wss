@@ -4,6 +4,8 @@
  48 10,5  | InWORK
  44 10,6  | aWORK
  41 11,3  | DIRKs
+ 41 11,3  | DORKs
+ 41 11,2  | IROKOs
  41 11,7  | sOORD
  39  1,5  | IRKsOME
  39  1,5  | KIOtOME
@@ -54,6 +56,7 @@
  24  8,10 - DOKO
  24  1,8  | DOME
  24  8,10 - DOOK
+ 24  8,10 - DORK
  24  8,4  | DRISK
  24  1,7  | DRaME
  24 10,4  | DRaWK
@@ -87,6 +90,7 @@
  22  8,10 - DOeK
  22  8,10 - DOnK
  22  8,10 - DOoK
+ 22  8,10 - DOrK
  22 10,5  | DaWK
  22 11,4  | KIDs
  22 10,4  | KORWa
@@ -107,10 +111,12 @@
  21  8,10 - DoKO
  21  1,8  | DoME
  21  8,10 - DoOK
+ 21  8,10 - DoRK
  21  6,10 - EIDe
  21  8,6  - IDeO
  21 11,4  | IRKs
  21  8,8  - IROK
+ 21 11,4  | KIRs
  21 11,4  | KORs
  21 11,5  | KOsO
  21 11,4  | KRIs
@@ -222,6 +228,7 @@
  18  8,8  - IDOl
  18  8,3  | IKOnS
  18  8,4  | KIOSk
+ 18  8,4  | KIRS
  18  7,3  | KIlOS
  18  7,3  | KInOS
  18  8,4  | KORS
@@ -265,6 +272,7 @@
  18  8,10 - dOKO
  18  1,8  | dOME
  18  8,10 - dOOK
+ 18  8,10 - dORK
  18  8,4  | dRISK
  18  1,8  | eRME
  18  8,10 - fIRK
@@ -307,6 +315,7 @@
  18  8,10 - yOOK
  18  8,10 - yORK
  17 11,5  | DIs
+ 17  5,1  | DORKIeR
  17 11,5  | DOs
  17  2,9  - Da
  17  5,3  | DaKIR
@@ -327,10 +336,12 @@
  17  8,4  | KIfS
  17  8,4  | KInS
  17  8,4  | KIpS
+ 17  8,4  | KIrS
  17  8,4  | KIsS
  17  8,4  | KItS
  17  9,3  | KODRO
  17  8,4  | KOaS
+ 17  8,4  | KObS
  17  8,4  | KOpS
  17  8,4  | KOrS
  17  8,4  | KOsS
@@ -338,6 +349,7 @@
  17  8,4  | KRiS
  17  8,4  | KeRS
  17  8,4  | KhIS
+ 17  8,4  | KiRS
  17  8,4  | KoRS
  17  8,4  | KrIS
  17  8,8  - ODoR
@@ -390,6 +402,7 @@
  16  9,6  - IO
  16  9,6  - IOn
  16  9,6  - IOu
+ 16  7,2  | IROKOS
  16  8,8  - IROk
  16  8,8  - IROn
  16  8,8  - IReD
@@ -447,6 +460,8 @@
  15  6,10 - EaR
  15  6,10 - EiR
  15  9,10 - IKe
+ 15  7,2  | IRoKOS
+ 15  9,10 - IcK
  15  9,10 - IlK
  15  9,10 - InK
  15  9,10 - IrK
@@ -482,6 +497,7 @@
  15  8,8  - hOOK
  15  9,6  - hOR
  15  8,8  - iROK
+ 15  7,2  | iROKOS
  15  9,6  - lOO
  15  9,6  - lOR
  15  9,6  - mOI
@@ -520,8 +536,11 @@
  14  8,10 - DOOm
  14  8,10 - DOOr
  14  8,10 - DOR
+ 14  9,6  | DORK
  14  8,10 - DORa
+ 14  8,10 - DORe
  14  8,10 - DORi
+ 14  8,10 - DORk
  14  8,10 - DORm
  14  8,10 - DORp
  14  8,10 - DORr
@@ -552,8 +571,10 @@
  14 10,4  | DRoW
  14 10,4  | DhOW
  14 10,4  | DrOW
+ 14  7,2  | IROKoS
  14  8,8  - IRe
  14  7,3  | InKOS
+ 14  7,2  | IrOKOS
  14  2,9  | KEX
  14  8,2  | KIDdOS
  14  9,3  | KIOkO
@@ -626,12 +647,14 @@
  13  9,6  | DOeK
  13  9,6  | DOnK
  13  9,6  | DOoK
+ 13  9,6  | DOrK
  13  8,10 - DaRI
  13  8,10 - DeRO
  13  8,10 - DoOR
  13  8,10 - DoRI
  13  3,3  | DuROC
  13  9,9  | KID
+ 13  5,5  | KIR
  13  9,3  | KInOO
  13  9,2  | KOODoO
  13  9,5  | KOORg
@@ -712,6 +735,7 @@
  12  8,10 - DIv
  12  9,8  - DOO
  12  9,8  - DOR
+ 12  8,3  | DORKS
  12  8,4  | DORSI
  12  8,10 - DOa
  12  8,10 - DOb
@@ -749,6 +773,7 @@
  12 10,5  | DoW
  12  7,3  | DuROS
  12  8,8  - ID
+ 12  8,2  | IROKOS
  12  9,6  - Io
  12  5,4  | KIeR
  12  9,5  | KOOk
@@ -848,6 +873,7 @@
  12  8,10 - dIRD
  12  8,10 - dODO
  12  9,6  | dOOK
+ 12  9,6  | dORK
  12 10,4  | dROW
  12 10,6  - eD
  12  8,10 - fIDO
@@ -934,6 +960,7 @@
  11  9,8  - DOo
  11  9,8  - DOp
  11  9,8  - DOr
+ 11  8,3  | DOrKS
  11  8,4  | DOrSI
  11  9,8  - DOs
  11  9,8  - DOt
@@ -954,6 +981,10 @@
  11  8,4  | DoRSI
  11  9,3  | IROKO
  11  9,5  | IROKO
+ 11  9,3  | IROKOs
+ 11  8,2  | IROKoS
+ 11  7,2  | IROkOS
+ 11  8,2  | IrOKOS
  11  8,3  | KInDS
  11  7,4  | KIpS
  11  9,6  | KODkOD
@@ -968,6 +999,7 @@
  11  8,2  | KaIROS
  11  8,2  | KaROOS
  11  5,5  | KeR
+ 11  5,5  | KiR
  11  8,2  | KyRIOS
  11  9,3  | OKROOg
  11  7,4  | OKaS
@@ -1017,6 +1049,7 @@
  11  7,3  | ReDOS
  11  8,2  | bROOKS
  11  8,2  | cROOKS
+ 11  8,2  | iROKOS
  11  7,2  | pOORIS
  11  9,3  | sKIDOO
  11  9,4  | tIKOOR
@@ -1096,6 +1129,7 @@
  10  9,8  - ROO
  10  8,3  | ROcKS
  10  8,3  | ROoKS
+ 10  7,3  | ROtIS
  10  7,3  | ROtOS
  10 10,6  | RWd
  10 10,6  | RWy
@@ -1134,6 +1168,7 @@
  10  7,3  | dODOS
  10  8,10 - dOOR
  10  8,10 - dORI
+ 10  8,3  | dORKS
  10 10,5  | dOW
  10  7,3  | eIDOS
  10 10,6  - eO
@@ -1192,6 +1227,7 @@
  10  8,10 - rORI
  10 10,5  | rOW
  10  3,3  | sIROC
+ 10  8,3  | sOOKS
  10 10,5  | sOW
  10  8,10 - tIRO
  10  8,10 - tOD
@@ -1204,6 +1240,7 @@
  10  8,10 - wID
  10  8,3  | wORKS
  10 10,5  | wOW
+ 10  8,10 - yID
  10  8,10 - yOD
  10 10,5  | yOW
  10  8,3  | zOOKS
@@ -1230,6 +1267,7 @@
   9  8,3  | DiRKS
   9  9,8  - Do
   9  3,5  | DoC
+  9  8,3  | DoRKS
   9  7,4  | DuOS
   9  7,4  | DzOS
   9  9,10 - ID
@@ -1242,6 +1280,7 @@
   9  9,5  | IROK
   9  9,5  | IROKo
   9  9,3  | IRoKO
+  9  8,2  | IRoKOS
   9  8,4  | IlKS
   9  9,10 - InD
   9  9,3  | InDOOR
@@ -1301,6 +1340,7 @@
   9  8,10 - RIc
   9  8,10 - RId
   9  8,10 - RIe
+  9  8,10 - RIf
   9  8,10 - RIg
   9  8,10 - RIk
   9  8,10 - RIm
@@ -1345,6 +1385,7 @@
   9  9,8  - ROy
   9  8,10 - ROy
   9  9,8  - ReD
+  9  4,6  - RePO
   9  9,8  - RoD
   9 10,7  | WmK
   9 10,7  | WoK
@@ -1382,6 +1423,7 @@
   9  5,4  | mOIR
   9  9,8  - nOD
   9  5,4  | nOIR
+  9  7,3  | nORIS
   9  8,3  | oDORS
   9  9,8  - pOD
   9  7,3  | pOROS
@@ -1479,6 +1521,8 @@
   8  9,4  | KInO
   8  9,6  | KODa
   8  9,6  | KObI
+  8  9,4  | KObO
+  8  9,6  | KObO
   8  9,4  | KOkO
   8  9,6  | KOkO
   8  9,6  | KOlI
@@ -1545,6 +1589,8 @@
   8  9,3  | RaDIO
   8  7,4  | RaIS
   8  8,3  | RaKIS
+  8  9,8  - ReI
+  8  8,10 - ReI
   8  7,4  | ReIS
   8  7,4  | RhOS
   8  8,10 - RiO
@@ -1573,6 +1619,7 @@
   8  8,10 - bOO
   8  7,4  | bOOS
   8  8,10 - bOR
+  8  7,4  | bRIS
   8  8,2  | bROODS
   8  7,4  | bROS
   8  5,5  | cIR
@@ -1615,6 +1662,7 @@
   8  9,8  - hOR
   8  8,10 - hOR
   8  7,4  | iRIS
+  8  5,5  | kIR
   8  9,4  | kOKO
   8  9,6  | kOKO
   8  7,4  | kRIS
@@ -1684,6 +1732,7 @@
   7  8,3  | DOOmS
   7  8,3  | DOOrS
   7  8,3  | DORiS
+  7  8,3  | DORkS
   7  8,3  | DORmS
   7  8,3  | DORpS
   7  8,3  | DORrS
@@ -1720,9 +1769,11 @@
   7  9,10 - IO
   7  9,10 - IOn
   7  9,10 - IOu
+  7  8,2  | IROkOS
   7  9,10 - IRa
   7  9,10 - IRe
   7  7,4  | IReS
+  7  8,3  | IRiDS
   7  7,4  | IRiS
   7  9,10 - IRk
   7  9,10 - IRs
@@ -1804,6 +1855,7 @@
   7  6,6  - PO
   7  8,4  | RIDS
   7  8,3  | RIDeS
+  7  7,4  | RIaS
   7  7,4  | RIeS
   7  8,3  | RInDS
   7  7,4  | RIpS
@@ -1862,6 +1914,7 @@
   7  8,3  | hOODS
   7  9,5  | hOOK
   7  9,8  - iO
+  7  8,3  | iRIDS
   7  8,4  | iRKS
   7  9,5  | iROK
   7  9,5  | jOOK
@@ -2061,6 +2114,7 @@
   6  9,3  | ROnDO
   6  8,2  | ROnDOS
   6  9,6  | ROoD
+  6  8,3  | ROtIS
   6  8,3  | ROtOS
   6  9,6  | ROuD
   6  8,4  | RaDS
@@ -2129,6 +2183,8 @@
   6  8,3  | mOORS
   6  9,6  | mORD
   6  9,4  | nIDOR
+  6  8,3  | nOIRS
+  6  8,3  | nORIS
   6  8,6  - oD
   6  8,8  - oD
   6 10,8  - oD
@@ -2252,6 +2308,7 @@
   5  6,6  - Pi
   5  6,6  - Po
   5  9,9  | RID
+  5  8,4  | RIaS
   5  8,4  | RIbS
   5  8,4  | RIdS
   5  8,4  | RIeS
@@ -2290,9 +2347,11 @@
   5 10,7  | WO
   5 10,7  | WOb
   5 10,7  | WOe
+  5 10,7  | WOg
   5 10,7  | WOk
   5 10,7  | WOn
   5 10,7  | WOo
+  5 10,7  | WOp
   5 10,7  | WOs
   5 10,7  | WOt
   5 10,7  | WOw
@@ -2375,7 +2434,9 @@
   4  9,6  | DOOr
   4  9,6  | DOR
   4  9,6  | DORa
+  4  9,6  | DORe
   4  9,6  | DORi
+  4  9,6  | DORk
   4  9,6  | DORm
   4  9,6  | DORp
   4  9,6  | DORr
@@ -2412,6 +2473,7 @@
   4  9,6  | OOoO
   4  9,4  | ORdO
   4  9,4  | ORlO
+  4  9,4  | ORzO
   4  9,9  | OaD
   4  8,6  - Od
   4  9,9  | OdD
@@ -2582,6 +2644,7 @@
   4  9,4  | uROO
   4  3,9  | uSH
   4  9,5  | wOOD
+  4  8,4  | yIDS
   4  8,4  | yODS
   4  9,6  | zORI
   3  8,10 | DE
@@ -2683,6 +2746,7 @@
   3  9,5  | bOOR
   3  8,4  | bOOS
   3  8,4  | bORS
+  3  8,4  | bRIS
   3  9,5  | bROO
   3  8,4  | bROS
   3  9,9  | cID
@@ -2718,6 +2782,7 @@
   3  8,5  | iDS
   3  8,4  | iRIS
   3  9,9  | kID
+  3  8,4  | kIRS
   3  8,4  | kORS
   3  8,4  | kRIS
   3  9,5  | kROO
@@ -2763,6 +2828,7 @@
   3  9,9  | vID
   3  9,9  | wID
   3  8,4  | wOOS
+  3  9,9  | yID
   3  9,6  | yOD
   3  9,9  | yOD
   3  8,4  | zOOS

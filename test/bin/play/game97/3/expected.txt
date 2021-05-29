@@ -191,10 +191,12 @@
  29  2,6  | LATeN
  29  2,10 - NATES
  29  2,10 - TAELS
+ 29  1,10 - aLATES
  29  1,10 - eLATES
  29  1,10 - eNATES
  29  1,10 - pLATES
  29  1,10 - sLATES
+ 28  1,10 - ALaTES
  28  1,10 - ALyTES
  28  2,10 - AyENST
  28  4,10 - EASTLiN
@@ -256,6 +258,7 @@
  26  2,4  | FANkLE
  26  2,10 - FAb
  26  2,10 - FAe
+ 26  2,10 - FAg
  26  2,10 - FAt
  26  2,10 - FAy
  26  2,10 - FEe
@@ -290,11 +293,13 @@
  26  2,6  | LuTEA
  26  2,10 - LuTES
  26  2,6  | NATEs
+ 26  2,10 - NAbES
  26  2,10 - NAtES
  26  2,6  | NAvET
  26  2,10 - NEtTS
  26  2,10 - NEwTS
  26  2,10 - NaTES
+ 26  2,10 - NiTES
  26  2,10 - NoTES
  26  2,6  | TALEd
  26  2,6  | TALEr
@@ -304,8 +309,10 @@
  26  2,6  | TAgEL
  26  2,6  | TAkEN
  26  2,6  | TApEN
+ 26  2,10 - TEeLS
  26  2,10 - TEeNS
  26  2,10 - TaELS
+ 26  2,10 - TeELS
  26  2,10 - TeENS
  26  2,10 - TiENS
  26  2,6  | TiNEA
@@ -641,6 +648,7 @@
  21  2,10 - sET
  21  2,10 - tAE
  21  2,10 - tAT
+ 21  2,10 - tET
  21  1,9  - uLMO
  21  2,10 - vAT
  21  2,10 - vET
@@ -789,6 +797,7 @@
  20  2,10 - TAy
  20  2,10 - TEe
  20  2,10 - TEg
+ 20  2,10 - TEt
  20  2,10 - TEw
  20  2,10 - TaE
  20  2,10 - TeE
@@ -976,6 +985,7 @@
  18  2,6  | FAnE
  18  2,6  | FArE
  18  2,6  | FAtE
+ 18  2,6  | FAvE
  18  2,6  | FAzE
  18  2,8  | FEAk
  18  2,8  | FEAl
@@ -1358,6 +1368,8 @@
  16  2,6  | LATE
  16  2,5  | LAThE
  16  2,5  | LATkE
+ 16  2,5  | LATtE
+ 16  2,5  | LAtTE
  16  2,8  | LEAT
  16  2,8  | LENa
  16  2,8  | LENd
@@ -1489,6 +1501,7 @@
  15  8,4  | FArTS
  15  8,4  | FAsTS
  15  8,4  | FAtES
+ 15  8,4  | FAvES
  15  8,4  | FAxES
  15  8,4  | FAzES
  15  2,10 - FE
@@ -1723,6 +1736,7 @@
  14  2,8  | LEnA
  14  2,8  | LEnT
  14  2,8  | LEpA
+ 14  2,8  | LEpT
  14  2,8  | LEsT
  14  2,8  | LEtT
  14  2,8  | LEvA
@@ -1731,6 +1745,7 @@
  14  2,7  | LeET
  14  2,6  | LiTE
  14  2,6  | LuTE
+ 14  2,6  | NAbE
  14  2,6  | NAcE
  14  2,6  | NAkE
  14  2,6  | NAlE
@@ -1766,6 +1781,7 @@
  14  2,6  | NaTE
  14  2,7  | NeET
  14  2,6  | NeTE
+ 14  2,6  | NiTE
  14  2,6  | NoTE
  14  2,7  | NyET
  14  6,10 - SAFEn
@@ -1786,6 +1802,7 @@
  14  6,10 - SLANE
  14  6,10 - SLANT
  14  6,10 - SLANTs
+ 14  6,10 - SLANTy
  14  6,10 - SLENT
  14  6,10 - SLiNTE
  14  6,10 - SNAvEL
@@ -1815,6 +1832,7 @@
  14  2,8  | TELe
  14  2,8  | TELi
  14  2,8  | TELl
+ 14  2,8  | TELs
  14  2,8  | TELt
  14  2,8  | TEN
  14  2,8  | TENd
@@ -2198,6 +2216,7 @@
  12  2,8  | LEv
  12  2,8  | LEx
  12  2,8  | LEy
+ 12  2,8  | LEz
  12  8,4  | LeAFS
  12  8,4  | LeFTS
  12  8,4  | LiFTS
@@ -2260,6 +2279,7 @@
  12  6,10 - SLATEd
  12  6,10 - SLATEr
  12  6,10 - SLATEs
+ 12  6,10 - SLATEy
  12  6,10 - SLAiN
  12  6,10 - SLENt
  12  6,10 - SLaNE
@@ -2366,6 +2386,7 @@
  12  2,8  | bETA
  12  8,2  | cANTLES
  12  2,6  | cATE
+ 12  2,8  | cEL
  12  8,2  | cENTALS
  12  2,6  | dATE
  12  2,8  | dEL
@@ -2465,6 +2486,7 @@
  11  8,3  | ELANuS
  11  8,3  | ELAiNS
  11  8,7  - ELF
+ 11  8,3  | ELiNTS
  11  8,7  - ENiF
  11  1,10 - ETA
  11  2,8  | EeL
@@ -2597,6 +2619,7 @@
  10  8,4  | ALFaS
  10  8,3  | ALTErS
  10  1,10 - ALa
+ 10  8,3  | ALaTES
  10  1,10 - ALe
  10  8,4  | ALeFS
  10  8,4  | ALiFS
@@ -2628,6 +2651,7 @@
  10  8,3  | ENAcTS
  10  8,2  | ENTAiLS
  10  2,9  | ET
+ 10  8,2  | ETALoNS
  10  2,9  | ETa
  10  2,9  | ETc
  10  2,9  | ETh
@@ -2708,6 +2732,7 @@
  10  8,3  | LEANeST
  10  7,2  | LEATh
  10  7,3  | LEAh
+ 10  4,6  - LECTiN
  10  8,5  | LEFSeN
  10  3,6  - LENCA
  10  3,6  - LENCAn
@@ -2796,6 +2821,7 @@
  10  6,10 - SELvA
  10  6,10 - SENAl
  10  6,10 - SENAm
+ 10  6,10 - SENTe
  10  6,10 - SENTi
  10  6,10 - SENTs
  10  6,10 - SENiT
@@ -2898,6 +2924,7 @@
  10  6,10 - ScENA
  10  6,10 - ScENT
  10  6,10 - ScLAT
+ 10  6,10 - SeNTE
  10  6,10 - SeTAL
  10  6,10 - ShALE
  10  6,10 - ShALT
@@ -2947,6 +2974,7 @@
  10  2,8  | TEl
  10  2,8  | TEm
  10  2,8  | TEn
+ 10  2,8  | TEt
  10  2,8  | TEw
  10  2,8  | TEx
  10  2,8  | TEz
@@ -2958,6 +2986,7 @@
  10  2,8  | aET
  10  3,6  - aFACE
  10  8,7  - aFT
+ 10  8,3  | aLATES
  10  8,7  - aLEF
  10  8,7  - aLFA
  10  2,8  | bEA
@@ -3006,6 +3035,7 @@
  10  8,3  | sLATES
  10  3,6  - tANCEL
  10  2,8  | tEA
+ 10  2,8  | tET
  10  8,6  | uNSELF
  10  2,8  | vET
  10  2,8  | wET
@@ -3172,6 +3202,7 @@
   9  8,3  | NATaLS
   9  8,4  | NATeS
   9  8,4  | NATuS
+  9  8,4  | NAbES
   9  8,4  | NAmES
   9  8,4  | NAnES
   9  8,4  | NAnTS
@@ -3199,6 +3230,7 @@
   9  8,4  | NaTES
   9  8,4  | NeATS
   9  2,7  | NeE
+  9  8,4  | NiTES
   9  8,4  | NoTES
   9  4,6  - NuCAL
   9  4,6  - NyCTEA
@@ -3499,10 +3531,13 @@
   8  3,6  - LATCh
   8  8,3  | LATEnS
   8  8,3  | LAThES
+  8  8,3  | LATkES
+  8  8,3  | LATtES
   8  8,2  | LAmENTS
   8  3,6  - LAnCE
   8  8,2  | LAtENTS
   8  8,2  | LAtTENS
+  8  8,3  | LAtTES
   8  3,6  - LEACh
   8  8,3  | LEAsTS
   8  4,6  - LECT
@@ -3791,6 +3826,7 @@
   7  6,6  - CALk
   7  6,6  - CALl
   7  6,6  - CALm
+  7  6,6  - CALo
   7  6,6  - CALp
   7  6,6  - CALs
   7  6,6  - CALx
@@ -3814,8 +3850,10 @@
   7  6,6  - CArN
   7  6,6  - CAuL
   7  6,6  - CAwL
+  7  6,6  - CEL
   7  6,6  - CELe
   7  6,6  - CELl
+  7  6,6  - CELs
   7  6,6  - CELt
   7  6,6  - CENe
   7  6,6  - CENt
@@ -3977,6 +4015,7 @@
   7  8,3  | LuNETS
   7  4,6  - NACe
   7  4,6  - NACh
+  7  7,4  | NAh
   7  3,6  - NArC
   7  4,6  - NECk
   7  8,6  | NESLiA
@@ -4024,6 +4063,7 @@
   7  8,4  | TENtS
   7  8,4  | TEaLS
   7  2,7  | TEe
+  7  8,4  | TEeLS
   7  8,4  | TEeNS
   7  8,4  | TElLS
   7  8,4  | TErNS
@@ -4033,6 +4073,7 @@
   7  8,4  | TaLES
   7  8,5  | TaNSEL
   7  8,4  | TeALS
+  7  8,4  | TeELS
   7  8,4  | TeENS
   7  8,4  | TeLES
   7  3,6  - ThECA
@@ -4231,6 +4272,7 @@
   6  8,7  - AnNE
   6  8,4  | AnTES
   6  8,7  - ArEN
+  6  8,5  | ArFS
   6  8,7  - ArLE
   6  8,7  - ArNE
   6  8,3  | ArTELS
@@ -4281,6 +4323,7 @@
   6  6,6  - CaL
   6  6,6  - CaN
   6  6,6  - CaTE
+  6  6,6  - CeL
   6  6,6  - CeTE
   6  6,6  - ChAT
   6  6,6  - ChET
@@ -4323,6 +4366,7 @@
   6  5,4  | ETc
   6  7,4  | ETc
   6  7,4  | ETh
+  6  3,6  - ETiC
   6  8,7  - ETnA
   6  8,4  | ETnAS
   6  8,7  - ETtA
@@ -4340,6 +4384,7 @@
   6  8,7  - ElAN
   6  8,7  - ElLA
   6  2,10 - Em
+  6  8,5  | EmFS
   6  2,10 - Eo
   6  8,7  - EoAN
   6  8,7  - ErAL
@@ -4365,8 +4410,10 @@
   6  8,5  | FEdS
   6  8,5  | FEeS
   6  8,5  | FEgS
+  6  8,5  | FEhS
   6  8,5  | FEiS
   6  8,5  | FElS
+  6  8,5  | FEmS
   6  8,5  | FEnS
   6  8,5  | FErS
   6  8,5  | FEsS
@@ -4564,6 +4611,7 @@
   6  8,7  - iTAL
   6  8,7  - iTEN
   6  5,6  - jCL
+  6  8,5  | kAFS
   6  8,5  | kEFS
   6  8,4  | kLANS
   6  4,6  - lACE
@@ -4697,6 +4745,7 @@
   5  6,6  - CAw
   5  6,6  - CAy
   5  6,6  - CEe
+  5  6,6  - CEl
   5  6,6  - CEp
   5  6,6  - CTe
   5  6,6  - CTf
@@ -4825,6 +4874,7 @@
   5  8,5  | TANSy
   5  5,6  - TCh
   5  5,6  - TCk
+  5  8,5  | TELS
   5  8,5  | TENS
   5  8,5  | TENSe
   5  8,5  | TENSo
@@ -4973,6 +5023,7 @@
   5  5,6  - pCT
   5  8,4  | pEALS
   5  8,4  | pEANS
+  5  4,6  - pEC
   5  8,4  | pELTS
   5  8,4  | pLATS
   5  8,4  | pLEAS
@@ -5150,6 +5201,7 @@
   4  8,5  | LAsS
   4  8,5  | LAtS
   4  8,5  | LAuS
+  4  8,5  | LAvS
   4  8,5  | LAwS
   4  8,5  | LAyS
   4  8,6  | LESe
@@ -5206,6 +5258,7 @@
   4  8,5  | NAbS
   4  8,5  | NAgS
   4  8,5  | NAiS
+  4  8,5  | NAnS
   4  8,5  | NAoS
   4  8,5  | NApS
   4  8,5  | NAyS
@@ -5299,6 +5352,8 @@
   4  6,10 - SENa
   4  8,8  | SENd
   4  6,10 - SENd
+  4  8,8  | SENe
+  4  6,10 - SENe
   4  8,8  | SENt
   4  6,10 - SENt
   4  8,8  | SETA
@@ -5425,6 +5480,8 @@
   4  6,10 - SeLT
   4  8,8  | SeNA
   4  6,10 - SeNA
+  4  8,8  | SeNE
+  4  6,10 - SeNE
   4  8,8  | SeNT
   4  6,10 - SeNT
   4  8,8  | ShAN
@@ -5490,6 +5547,7 @@
   4  5,10 - TSuN
   4  8,5  | TaNS
   4  8,5  | TeASE
+  4  8,5  | TeLS
   4  8,5  | TeNS
   4  8,5  | TiLS
   4  8,5  | TiNS
@@ -5520,7 +5578,9 @@
   4  8,6  | cASTE
   4  8,4  | cATES
   4  5,6  - cC
+  4  8,5  | cELS
   4  8,6  | cESTA
+  4  8,5  | dALS
   4  8,4  | dATES
   4  8,5  | dELS
   4  8,5  | dENS
@@ -5574,6 +5634,7 @@
   4  8,5  | mELS
   4  8,5  | mENS
   4  8,4  | mETAS
+  4  8,5  | nANS
   4  8,4  | nATES
   4  8,4  | nEATS
   4  8,7  - oAT
@@ -5599,6 +5660,7 @@
   4  8,6  | tASTE
   4  8,4  | tATES
   4  8,4  | tEATS
+  4  8,5  | tELS
   4  8,5  | tENS
   4  8,6  | tESTA
   4  8,7  - uTA
@@ -5990,8 +6052,10 @@
   3  8,5  | TEdS
   3  8,5  | TEeS
   3  8,5  | TEgS
+  3  8,5  | TElS
   3  8,5  | TEnS
   3  8,5  | TEsS
+  3  8,5  | TEtS
   3  8,5  | TEwS
   3  8,7  | TSAr
   3  5,10 - TSAr
@@ -6055,6 +6119,7 @@
   3  8,5  | hATS
   3  8,9  - hE
   3  8,6  | hEST
+  3  8,5  | hETS
   3  5,10 | iN
   3  7,10 | iN
   3  8,6  | iNS
@@ -6109,6 +6174,7 @@
   3  8,5  | tATS
   3  8,5  | tEAS
   3  8,6  | tEST
+  3  8,5  | tETS
   3  5,10 | uN
   3  8,6  | uNS
   3  8,7  - uT
@@ -6287,6 +6353,8 @@
   2  6,10 - SiE
   2  8,8  | SiT
   2  6,10 - SiT
+  2  8,8  | SkA
+  2  6,10 - SkA
   2  8,8  | SlA
   2  6,10 - SlA
   2  8,8  | SlT

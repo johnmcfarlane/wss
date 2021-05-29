@@ -290,6 +290,7 @@
  21  1,1  | TRIGaE
  21  1,1  | TRIaGE
  21  1,1  | TRUG
+ 21  1,1  | TRUGs
  21  1,1  | TUFa
  21  1,1  | TUFf
  21  1,1  | TUFt
@@ -572,6 +573,7 @@
  15  5,6  | BUfFE
  15  5,6  | BUfFI
  15  9,3  - CEe
+ 15  9,3  - CEl
  15  9,3  - CEp
  15  9,3  - CIa
  15  9,3  - CId
@@ -780,6 +782,7 @@
  14  4,6  | AGRUFE
  14  4,6  | AGRUIF
  14  4,6  | ARF
+ 14  4,6  | ARFs
  14  4,6  | ARGUE
  14  4,6  | ARGUEd
  14  4,6  | ARGUEr
@@ -1006,6 +1009,7 @@
  13  5,6  | BEeF
  13  5,6  | BIfF
  13  5,6  | BIgGER
+ 13  5,6  | BInGER
  13  5,6  | BRIGuE
  13  5,6  | BRUGh
  13  5,6  | BURG
@@ -1391,6 +1395,7 @@
  12  2,3  - REIGN
  12  2,3  - REIGNs
  12  2,7  - REnU
+ 12  2,5  - RIF
  12  2,7  - RImU
  12  1,5  - RUFf
  12  2,7  - RUG
@@ -1673,6 +1678,7 @@
  11  2,3  - FURaN
  11  4,3  | FUlA
  11  7,2  | Fa
+ 11  2,7  - FaG
  11  2,3  - FaGIN
  11  2,3  - FaRINE
  11  7,2  | Fe
@@ -1707,6 +1713,7 @@
  11  4,4  | GRAd
  11  4,4  | GRAf
  11  4,4  | GRAm
+ 11  4,4  | GRAn
  11  4,4  | GRAs
  11  4,4  | GRAt
  11  4,4  | GRAv
@@ -1758,6 +1765,7 @@
  11  1,5  - REFt
  11  1,7  - REFt
  11  3,3  - REGNa
+ 11  3,7  - REI
  11  1,5  - REeF
  11  1,5  - REiF
  11  2,3  - REiGN
@@ -1943,6 +1951,7 @@
  11  2,4  - qUIRK
  11  2,5  - rEF
  11  2,3  - rEIGN
+ 11  2,5  - rIF
  11  2,7  - rUG
  11  4,3  | rUGAE
  11  4,5  | sARIGUE
@@ -2222,6 +2231,7 @@
  10  2,5  - ReF
  10  2,3  - ReIGN
  10  3,3  - ReUNE
+ 10  2,5  - RiF
  10  2,3  - RuGINE
  10  4,1  | TIGREAn
  10  4,1  | TIpURA
@@ -2309,6 +2319,7 @@
   9  5,6  | BEGaR
   9  5,6  | BEInG
   9  5,6  | BEaU
+  9  5,6  | BEdU
   9  5,6  | BEnU
   9  5,6  | BIFf
   9  5,6  | BIGaE
@@ -2462,6 +2473,7 @@
   9  1,7  - GRUn
   9  1,7  - GRUs
   9  2,3  - GRaIN
+  9  3,3  - GRaN
   9  2,3  - GReEN
   9  2,3  - GReIN
   9  3,3  - GRiN
@@ -2505,6 +2517,7 @@
   9  1,5  - REGd
   9  1,7  - REGd
   9  1,7  - REGr
+  9  1,7  - REGs
   9  1,5  - REGt
   9  1,7  - REGt
   9  4,3  - RENU
@@ -2514,6 +2527,7 @@
   9  3,4  - REcK
   9  3,7  - REe
   9  3,4  - REeK
+  9  3,7  - REi
   9  3,4  - REnK
   9  2,3  - RErUN
   9  2,3  - REsUN
@@ -2540,6 +2554,7 @@
   9  2,3  - RUtIN
   9  4,3  - RaNG
   9  3,7  - ReE
+  9  3,7  - ReI
   9  3,7  - RhE
   9  3,7  - RiE
   9  4,3  - RiNG
@@ -2625,6 +2640,7 @@
   9  1,1  | ToU
   9  1,1  | TuRI
   9  1,1  | TwIE
+  9  1,1  | TyER
   9  1,1  | TyRE
   9  1,7  - UFEr
   9  1,7  - UFeR
@@ -2737,6 +2753,7 @@
   9  2,3  - qUERN
   9  2,7  - rEG
   9  2,3  - rEGIN
+  9  3,7  - rEI
   9  2,3  - rERUN
   9  3,7  - rIE
   9  2,7  - rIG
@@ -2774,12 +2791,14 @@
   9  2,7  - vEG
   9  3,7  - vEI
   9  3,7  - vIE
+  9  2,7  - vIG
   9  4,5  | wAFER
   9  3,7  - wEI
   9  2,7  - wIG
   9  4,7  - xU
   9  3,4  - yERK
   9  3,4  - yIRK
+  9  3,4  - zERK
   9  2,7  - zIG
   8  4,6  | AFEr
   8  4,6  | AFRo
@@ -2821,6 +2840,7 @@
   8  5,6  | BIG
   8  5,6  | BIGa
   8  5,6  | BIGg
+  8  5,6  | BIGs
   8  5,6  | BIUnE
   8  5,6  | BIdER
   8  5,6  | BIfER
@@ -2904,6 +2924,7 @@
   8 10,5  | ExR
   8  5,1  | EyE
   8 10,5  | EyR
+  8  4,5  | FAG
   8  4,5  | FAGe
   8  4,5  | FAGs
   8  4,5  | FAInER
@@ -2922,6 +2943,7 @@
   8  4,5  | FAnE
   8  4,5  | FArE
   8  4,5  | FAtE
+  8  4,5  | FAvE
   8  4,5  | FAvI
   8  4,5  | FAzE
   8  1,5  - FEIf
@@ -3088,6 +3110,7 @@
   8 10,5  | IRk
   8 10,5  | IRs
   8 10,5  | IcE
+  8  4,4  - IcK
   8 10,5  | IdE
   8  3,3  - IeRNE
   8 10,5  | IfE
@@ -3136,6 +3159,7 @@
   8 10,1  | REc
   8 10,1  | REh
   8  4,3  | REtAG
+  8  5,2  - RIF
   8  5,2  - RIFe
   8  5,2  - RIFf
   8  5,2  - RIFi
@@ -3237,6 +3261,7 @@
   8  4,5  | mARU
   8  4,3  - mENU
   8  4,4  | mIAUER
+  8  4,3  - mUNI
   8  4,3  | mURA
   8  3,2  - nERI
   8  1,7  - nIUE
@@ -3891,6 +3916,7 @@
   6  5,6  | BRIm
   6  5,6  | BRIn
   6  5,6  | BRIo
+  6  5,6  | BRIs
   6  5,6  | BRIt
   6  5,6  | BU
   6  5,6  | BUb
@@ -4105,6 +4131,7 @@
   6  4,5  | RAFt
   6  4,5  | RAGeE
   6  4,5  | RAmIE
+  6  2,7  - REI
   6  2,3  - REIgN
   6  2,7  - RIE
   6  5,2  - RImU
@@ -4161,6 +4188,7 @@
   6  1,1  | TEl
   6  1,1  | TEm
   6  1,1  | TEn
+  6  1,1  | TEt
   6  1,1  | TEw
   6  1,1  | TEx
   6  1,1  | TEz
@@ -4344,6 +4372,7 @@
   6  4,4  | qUAG
   6  3,3  - qUIN
   6  1,7  - rIER
+  6  5,2  - rIF
   6  4,4  - rIK
   6  4,3  - rINE
   6  3,3  - rUEN
@@ -4535,6 +4564,7 @@
   5  4,5  | FAc
   5  4,5  | FAd
   5  4,5  | FAe
+  5  4,5  | FAg
   5  4,5  | FAh
   5  4,5  | FAm
   5  4,5  | FAn
@@ -4663,6 +4693,7 @@
   5  3,3  - REnN
   5  4,4  | RIA
   5  4,4  | RIAl
+  5  4,4  | RIAs
   5  5,2  - RIE
   5  5,2  - RIEl
   5  1,5  - RIEl
@@ -4754,6 +4785,7 @@
   5  4,1  | ToRI
   5  4,1  | TuRI
   5  4,1  | TwIE
+  5  4,1  | TyER
   5  4,1  | TyRE
   5  2,5  - UIt
   5  2,7  - UIt
@@ -4877,6 +4909,7 @@
   5  2,7  - kER
   5  3,3  - kERN
   5  2,7  - kIE
+  5  2,7  - kIR
   5  3,3  - kIRN
   5  4,4  | kRAG
   5  4,5  | lAIR
@@ -4925,6 +4958,7 @@
   5  4,3  | pRIA
   5  3,3  - pRIN
   5  4,5  | rARE
+  5  2,7  - rEI
   5  3,3  - rEIN
   5  2,7  - rIE
   5  5,2  - rIG
@@ -5204,6 +5238,7 @@
   4  2,7  - REg
   4  2,5  - REh
   4  2,7  - REh
+  4  2,7  - REi
   4  2,5  - REl
   4  2,7  - REl
   4  2,5  - REm
@@ -5228,6 +5263,8 @@
   4  2,7  - RId
   4  5,2  - RIe
   4  2,7  - RIe
+  4  5,2  - RIf
+  4  2,5  - RIf
   4  5,2  - RIg
   4  2,7  - RIg
   4  5,2  - RIk
@@ -5249,6 +5286,7 @@
   4  4,3  | RaIAE
   4  4,4  | ReA
   4  2,7  - ReE
+  4  2,7  - ReI
   4  4,4  | RhA
   4  2,7  - RhE
   4  4,4  | RiA
@@ -5316,6 +5354,7 @@
   4  4,3  - eEN
   4  5,2  - eIRE
   4  4,3  - eRN
+  4  4,5  | fAG
   4  3,2  - fE
   4  4,3  - fEN
   4  3,2  - fI
@@ -5339,6 +5378,7 @@
   4  5,2  - lIER
   4  4,3  - lIN
   4  5,2  - lIRE
+  4  5,2  - lIRI
   4  5,3  - lNR
   4  4,5  | mAG
   4  4,3  - mEN
@@ -5389,6 +5429,7 @@
   4  4,3  - yIN
   4  4,5  | zAG
   4  4,3  - zEN
+  4  4,3  - zIN
   3  4,6  | AIdE
   3  4,6  | AIlE
   3  4,6  | AInE
@@ -5782,6 +5823,7 @@
   2  4,1  | TEl
   2  4,1  | TEm
   2  4,1  | TEn
+  2  4,1  | TEt
   2  4,1  | TEw
   2  4,1  | TEx
   2  4,1  | TEz

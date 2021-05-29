@@ -44,6 +44,7 @@
  22  2,2  - PLAGA
  22  2,6  - PLAGA
  22  7,2  | WAG
+ 22  7,2  | WOG
  21  5,1  | ALOP
  21  7,1  | ALOW
  21  2,3  - AMLONG
@@ -118,6 +119,7 @@
  19  7,4  | WAG
  19  5,8  | WAMP
  19  7,8  | WAMP
+ 19  7,4  | WOG
  18  6,2  - ALAMO
  18  6,6  - ALAMO
  18  2,2  - ALOMA
@@ -268,6 +270,8 @@
  15  7,8  | WAP
  15  7,2  | WO
  15  4,3  - WONGA
+ 15  5,8  | WOP
+ 15  7,8  | WOP
  15  6,7  - sLAMP
  15  6,7  - sPAWL
  14  6,4  - AAM
@@ -319,6 +323,8 @@
  14  3,8  - WAMEL
  14  4,3  - WANG
  14  4,8  - WOE
+ 14  5,8  | WOG
+ 14  7,8  | WOG
  14  2,3  - WOMAN
  14  4,3  - WONG
  13  7,3  | AG
@@ -331,6 +337,7 @@
  13  5,4  - GALOP
  13  1,7  - GALOPs
  13  2,7  - GAMPs
+ 13  2,7  - GAWPs
  13  2,8  - GLOME
  13  7,2  | GO
  13  7,4  | GOA
@@ -366,6 +373,7 @@
  13  3,5  - PLATO
  13  2,7  - PLOWs
  13  5,8  | POL
+ 13  3,7  - POMs
  13  3,7  - POWs
  13  2,3  - WAGON
  13  5,2  - WAMP
@@ -453,6 +461,7 @@
  12  3,8  - WAME
  12  5,8  - WEAL
  12  7,4  | WO
+ 12  3,7  - WOGs
  12  6,7  - sALMO
  11  5,3  | AL
  11  7,3  | AL
@@ -476,6 +485,8 @@
  11  4,8  - GAE
  11  5,2  - GALOP
  11  5,6  - GALOP
+ 11  3,4  - GAMA
+ 11  5,4  - GAMA
  11  3,8  - GAME
  11  3,7  - GAMs
  11  5,4  - GAOL
@@ -587,8 +598,6 @@
  10  6,4  - ALOW
  10  5,1  | AM
  10  7,1  | AM
- 10  4,4  - AMAL
- 10  6,4  - AMAL
  10  4,8  - AMEL
  10  3,7  - AMPs
  10  7,1  | AW
@@ -663,6 +672,10 @@
   9  5,4  - GALA
   9  3,8  - GALE
   9  3,7  - GALs
+  9  3,2  - GAMA
+  9  5,2  - GAMA
+  9  3,6  - GAMA
+  9  5,6  - GAMA
   9  3,2  - GAPA
   9  5,2  - GAPA
   9  3,6  - GAPA
@@ -750,10 +763,6 @@
   8  3,7  - ALPs
   8  4,4  - AMA
   8  6,4  - AMA
-  8  4,2  - AMAL
-  8  6,2  - AMAL
-  8  4,6  - AMAL
-  8  6,6  - AMAL
   8  3,2  - AMLA
   8  6,2  - AMLA
   8  3,6  - AMLA

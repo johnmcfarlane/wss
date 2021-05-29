@@ -77,6 +77,8 @@
  32  3,5  - JURaL
  32  7,5  - JoWER
  32  7,5  - JoWL
+ 31  7,5  - JEW
+ 31  7,5  - JEWs
  31  7,5  - JEWy
  31  5,3  | WIm
  31  5,3  | WIn
@@ -88,6 +90,7 @@
  30  9,7  | GWInE
  30  3,3  - JAWEd
  30  7,5  - JaW
+ 30  7,5  - JeW
  30  7,5  - JoW
  30  3,7  | VEILs
  30  3,7  | VEILy
@@ -112,6 +115,7 @@
  28  3,3  - JARbLE
  28  3,3  - JARgLE
  28  7,5  - JELIb
+ 28  5,1  | JEW
  28  7,5  - JuLIE
  27  1,3  - EcLAIR
  27  9,7  | GELId
@@ -130,6 +134,7 @@
  27  7,5  - JILl
  27  7,5  - JILt
  27  5,1  | JaW
+ 27  5,1  | JeW
  27  7,5  - JoLE
  27  5,1  | JoW
  27  7,5  - JuLE
@@ -194,6 +199,7 @@
  25  7,5  - JoIE
  25  7,5  - JuRE
  25  7,5  - JuRI
+ 25  5,1  | LWEIs
  25  5,1  | RELIt
  25  5,1  | WaLI
  25  9,3  | bEJIG
@@ -231,6 +237,7 @@
  24  7,5  - JeE
  24  7,5  - JoE
  24  7,5  - JuR
+ 24  3,3  - RAJEs
  24  3,3  - RAJIv
  24  3,7  | VIlER
  24  3,7  | VInER
@@ -278,6 +285,7 @@
  23  7,5  - JEe
  23  7,5  - JEt
  23  7,5  - JEu
+ 23  7,5  - JEw
  23  7,5  - JIb
  23  7,5  - JIg
  23  7,5  - JIm
@@ -430,6 +438,7 @@
  20  3,1  | bEL
  20  6,8  - bREI
  20  3,1  | bRL
+ 20  3,1  | cEL
  20  3,1  | cRL
  20  3,1  | dEL
  20  3,1  | dIL
@@ -467,6 +476,7 @@
  19  5,1  | LaW
  19  5,1  | LbW
  19  5,3  | Li
+ 19  5,1  | LiRI
  19  5,1  | LoRI
  19  5,1  | LoW
  19  5,1  | LuRI
@@ -501,12 +511,14 @@
  18  9,4  | JaRGLE
  18  1,3  - LIRA
  18  1,3  - LIRAs
+ 18  5,1  | LIRi
  18  1,3  - LIdAR
  18  7,5  - LInJE
  18  5,8  - LWl
  18  5,8  - LWm
  18  4,4  - QuERL
  18  4,4  - QuIRL
+ 18  5,2  | REI
  18  7,8  - REoIL
  18  1,3  - RaIAE
  18  5,1  | RaW
@@ -541,6 +553,7 @@
  18  6,5  - gLEW
  18  5,1  | hEW
  18  1,3  - hILA
+ 18  5,1  | jEW
  18  1,3  - lILA
  18  5,8  - lWL
  18  1,3  - mELA
@@ -575,6 +588,7 @@
  17  5,2  | LEi
  17  7,8  - LEi
  17  3,5  | LaVE
+ 17  7,8  - REI
  17  7,8  - REId
  17  7,8  - REIf
  17  7,8  - REIm
@@ -600,6 +614,7 @@
  17  5,2  | nEI
  17  7,8  - nEIL
  17  5,2  | oW
+ 17  5,2  | rEI
  17  5,2  | sEI
  17  5,2  | sRI
  17  7,8  - tEIL
@@ -634,6 +649,7 @@
  16  6,5  | RALLIEr
  16  6,5  | RALLIEs
  16  6,5  | RALLInE
+ 16  5,2  | REi
  16  6,1  | REpLIAL
  16  3,1  | RWd
  16  5,8  - RWd
@@ -718,6 +734,7 @@
  15  8,7  | NEJd
  15  4,4  - QuIRE
  15  7,3  | REJAIl
+ 15  7,8  - REi
  15  5,1  | REmI
  15  3,3  - WAILEd
  15  3,3  - WAILEr
@@ -750,6 +767,7 @@
  15  1,3  - oLEA
  15  1,3  - pLEA
  15  6,8  - pRE
+ 15  7,8  - rEI
  15  7,3  | rEJAIL
  15  7,8  - sEI
  15  5,1  | tJI
@@ -800,6 +818,7 @@
  14  6,5  | RALLyE
  14  3,3  - RAWnIE
  14  5,8  - REL
+ 14  5,2  | ReI
  14  5,2  | RtI
  14  3,3  - WAILeR
  14  3,3  - WAIREd
@@ -872,6 +891,7 @@
  13  9,2  | LEWInG
  13  8,3  | LIWaN
  13  7,5  - LWEI
+ 13  7,5  - LWEIs
  13  7,8  - LaI
  13  7,8  - LeI
  13  7,8  - LuI
@@ -950,11 +970,13 @@
  12  5,7  | AJeE
  12  6,6  | ALInER
  12  6,6  | ALItER
+ 12  6,6  | ALLEe
  12  6,6  | ALLEn
  12  6,6  | ALLEr
  12  6,6  | ALLEy
  12  6,6  | ALLIe
  12  6,6  | ALLIs
+ 12  6,6  | ALLeE
  12  6,6  | ALLeR
  12  6,6  | ALLiE
  12  4,3  - AREW
@@ -1004,6 +1026,7 @@
  12  7,5  | JAIn
  12  5,1  | JEe
  12  5,1  | JEt
+ 12  5,1  | JEw
  12  5,1  | JIb
  12  5,1  | JIg
  12  5,1  | JIm
@@ -1149,6 +1172,7 @@
  11  5,2  | Je
  11  8,4  | LEaN
  11  9,5  | LIGER
+ 11  9,5  | LIGERs
  11  9,5  | LIGgER
  11  9,5  | LIGuRE
  11  8,4  | LImN
@@ -1175,6 +1199,7 @@
  11  9,5  | RIGEL
  11  9,5  | RIGoLE
  11  9,4  | RIdGEL
+ 11  7,8  - ReI
  11  7,8  - RoI
  11  3,7  | VILE
  11  3,7  | ViEW
@@ -1218,6 +1243,7 @@
  11  9,5  | WaG
  11  8,5  | WaNE
  11  9,5  | WiG
+ 11  9,5  | WoG
  11  8,6  | aNEW
  11  9,6  - aW
  11  3,3  - bAWL
@@ -1227,6 +1253,7 @@
  11  2,3  - dRAW
  11  8,5  | eLNE
  11  3,3  - hALWE
+ 11  7,5  - jEW
  11  2,3  - mEAW
  11  3,3  - pAWL
  11  2,4  - sEQ
@@ -1304,6 +1331,7 @@
  10  3,1  | LEp
  10  3,1  | LEt
  10  3,1  | LEy
+ 10  3,1  | LEz
  10  9,4  | LIEGeR
  10  7,5  - LIER
  10  7,5  - LIERs
@@ -1420,6 +1448,7 @@
  10  6,3  | bEWALL
  10  7,5  - bLEW
  10  5,1  | bRL
+ 10  5,1  | cEL
  10  2,3  - cLAIRE
  10  7,5  - cLEW
  10  6,5  - cLI
@@ -1511,6 +1540,7 @@
   9  3,3  - LAEtI
   9  3,3  - LAInE
   9  3,3  - LARInE
+  9  3,3  - LAReE
   9  3,3  - LARgE
   9  3,3  - LARvE
   9  3,3  - LAcIER
@@ -1540,6 +1570,7 @@
   9  7,5  - LIR
   9  7,5  - LIRa
   9  7,5  - LIRe
+  9  7,5  - LIRi
   9  7,5  - LIbER
   9  7,5  - LIbRE
   9  7,5  - LIfER
@@ -1560,6 +1591,7 @@
   9  7,5  - LeRE
   9  7,5  - LiER
   9  7,5  - LiRE
+  9  7,5  - LiRI
   9  7,5  - LlER
   9  7,5  - LoIR
   9  7,5  - LoRE
@@ -1768,12 +1800,15 @@
   8  3,3  - LAIRs
   8  3,3  - LAIRy
   8  3,3  - LARE
+  8  3,3  - LAREe
   8  3,3  - LAREs
   8  3,3  - LARI
   8  3,3  - LARIa
   8  3,3  - LARId
   8  3,3  - LARIn
+  8  3,3  - LARIs
   8  3,3  - LARIx
+  8  3,3  - LAaRI
   8  3,3  - LAcER
   8  3,3  - LAdER
   8  3,3  - LAgER
@@ -2170,6 +2205,7 @@
   7  7,5  - LEv
   7  7,5  - LEx
   7  7,5  - LEy
+  7  7,5  - LEz
   7  5,2  | LI
   7  7,5  - LI
   7  7,4  | LIAIsE
@@ -2193,7 +2229,6 @@
   7  7,5  - LIs
   7  7,5  - LIt
   7  7,3  | LItAI
-  7  7,5  - LIv
   7  7,5  - LIz
   7  3,5  - LUE
   7  3,5  - LUI
@@ -2254,6 +2289,7 @@
   7  9,5  | REGIa
   7  9,5  | REGIe
   7  9,5  | REGIn
+  7  5,1  | REI
   7  9,4  | REIGn
   7  7,3  | RELAId
   7  7,3  | RELAIs
@@ -2287,6 +2323,7 @@
   7  3,1  | RIb
   7  3,1  | RId
   7  9,4  | RIdGE
+  7  3,1  | RIf
   7  3,1  | RIk
   7  3,1  | RIm
   7  3,1  | RIn
@@ -2369,6 +2406,7 @@
   7  3,3  - cARLE
   7  3,3  - cARLI
   7  7,5  - cEIL
+  7  7,5  - cEL
   7  7,5  - cIRL
   7  7,4  | cLAIRE
   7  2,3  - cLAR
@@ -2720,8 +2758,10 @@
   6  3,5  - LUo
   6  3,5  - LUr
   6  3,5  - LUt
+  6  3,5  - LUv
   6  3,5  - LUx
   6  7,5  - La
+  6  2,3  - LaARI
   6  8,5  | LaN
   6  7,5  - Li
   6  1,5  - LiEU
@@ -2750,6 +2790,7 @@
   6  8,7  | NIkE
   6  8,7  | NIlE
   6  8,7  | NInE
+  6  8,7  | NItE
   6  8,7  | NIuE
   6  8,7  | NIxE
   6  8,7  | NaW
@@ -2766,6 +2807,7 @@
   6  9,5  | REGd
   6  9,5  | REGo
   6  9,5  | REGr
+  6  9,5  | REGs
   6  9,5  | REGt
   6  9,5  | RIG
   6  9,5  | RIGa
@@ -2779,6 +2821,7 @@
   6  7,8  - Re
   6  2,3  - ReAL
   6  5,1  | ReE
+  6  5,1  | ReI
   6  5,1  | RhE
   6  2,3  - RiAL
   6  5,1  | RiE
@@ -2805,6 +2848,7 @@
   6  3,7  | VIc
   6  3,7  | VId
   6  3,7  | VIe
+  6  3,7  | VIg
   6  3,7  | VIi
   6  3,7  | VIl
   6  3,7  | VIm
@@ -2916,6 +2960,7 @@
   6  5,1  | kER
   6  5,1  | kIE
   6  7,5  - kIER
+  6  5,1  | kIR
   6  5,1  | lEI
   6  5,1  | lER
   6  5,1  | lIE
@@ -2954,6 +2999,7 @@
   6  9,4  | pRIG
   6  3,3  - rALE
   6  5,8  - rE
+  6  5,1  | rEI
   6  7,3  | rERAIL
   6  5,1  | rIE
   6  3,3  - sALE
@@ -3234,6 +3280,7 @@
   5  2,3  - LEAr
   5  2,3  - LEAs
   5  2,3  - LEAt
+  5  1,5  - LEkU
   5  2,3  - LIAr
   5  2,3  - LIAs
   5  1,5  - LIeU
@@ -3399,6 +3446,7 @@
   5  7,5  - kER
   5  5,2  | kI
   5  7,5  - kIE
+  5  7,5  - kIR
   5  6,5  | lALL
   5  2,3  - lEAR
   5  7,5  - lEI
@@ -3770,6 +3818,7 @@
   4  1,5  - REnU
   4  2,3  - RIA
   4  2,3  - RIAl
+  4  2,3  - RIAs
   4  1,5  - RImU
   4  5,1  | RLd
   4  5,1  | RLe
@@ -3930,6 +3979,7 @@
   4  6,4  | vEAL
   4  9,5  | vEG
   4  6,4  | vIAL
+  4  9,5  | vIG
   4  3,3  - wAER
   4  7,5  | wAIL
   4  3,3  - wAIR
@@ -4102,6 +4152,7 @@
   3  5,1  | REe
   3  5,1  | REg
   3  5,1  | REh
+  3  5,1  | REi
   3  5,1  | REl
   3  5,1  | REm
   3  5,1  | REn

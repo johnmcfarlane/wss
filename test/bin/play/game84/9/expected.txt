@@ -418,6 +418,7 @@
  14  9,5  | NaTO
  14  9,5  | NeET
  14  9,5  | NeTE
+ 14  9,5  | NiTE
  14  9,5  | NiTO
  14  9,5  | NoTE
  14  5,9  - NoTE
@@ -447,6 +448,7 @@
  14  6,3  - TEl
  14  6,3  - TEm
  14  6,3  - TEn
+ 14  6,3  - TEt
  14  6,3  - TEw
  14  6,3  - TEx
  14  6,3  - TEz
@@ -454,6 +456,7 @@
  14  5,9  - TONEd
  14  5,9  - TONEr
  14  5,9  - TONEs
+ 14  5,9  - TONEy
  14  5,9  - TOkEN
  14  8,6  - VaST
  14  8,6  - VeST
@@ -590,6 +593,7 @@
  13  6,3  - rET
  13  5,7  - sEV
  13  6,9  - tEJ
+ 13  6,3  - tET
  13  6,3  - wET
  13  6,3  - yET
  12  6,6  | DEINk
@@ -797,6 +801,7 @@
  10  1,10 - RETaN
  10  1,10 - RETiN
  10  1,10 - REcON
+ 10  1,10 - REdON
  10  1,10 - REwON
  10  1,10 - RONE
  10  1,10 - RONdE
@@ -943,6 +948,7 @@
   9  6,9  - TONEd
   9  6,9  - TONEr
   9  6,9  - TONEs
+  9  6,9  - TONEy
   9  8,4  - TOPO
   9  8,6  - TOSs
   9  8,6  - TOSt
@@ -1045,6 +1051,7 @@
   8  6,8  | INEz
   8  6,8  | INT
   8  6,8  | INTa
+  8  6,8  | INTi
   8  6,8  | INTl
   8  6,8  | INTo
   8  6,8  | INTr
@@ -1086,6 +1093,7 @@
   8  6,9  - NaTO
   8  6,9  - NeET
   8  6,9  - NeTE
+  8  6,9  - NiTE
   8  6,9  - NiTO
   8  6,9  - NoTE
   8  6,9  - NyET
@@ -1227,6 +1235,7 @@
   8  6,9  - nOV
   8  9,6  | oNTO
   8  6,9  - oNTO
+  8  1,3  - pEc
   8  5,9  - pOET
   8  5,9  - pOTE
   8  1,3  - rEc
@@ -1552,6 +1561,7 @@
   6  4,8  | HONe
   6  4,8  | HONg
   6  4,8  | HONk
+  6  4,8  | HONs
   6  4,8  | HONt
   6  4,8  | HOTE
   6  4,8  | HOhN
@@ -1643,6 +1653,7 @@
   6  1,10 - REiT
   6  1,10 - REnO
   6  1,10 - REnT
+  6  1,10 - REpO
   6  1,10 - REpT
   6  1,10 - REsT
   6  1,10 - RNd
@@ -1736,6 +1747,7 @@
   6  9,6  | oNT
   6  6,9  - oNT
   6  8,4  - pEPO
+  6  8,4  - rEPO
   6  1,4  - sNAG
   6  1,4  - sTAGE
   6  6,9  - tNT
@@ -1820,8 +1832,10 @@
   5  4,8  | HET
   5  4,8  | HETe
   5  4,8  | HETh
+  5  4,8  | HETs
   5  4,8  | HEaT
   5  4,8  | HEfT
+  5  4,8  | HElO
   5  4,8  | HEnT
   5  4,8  | HErO
   5  4,8  | HErT
@@ -1926,6 +1940,7 @@
   5  6,9  - TEl
   5  6,9  - TEm
   5  6,9  - TEn
+  5  6,9  - TEt
   5  6,9  - TEw
   5  6,9  - TEx
   5  6,9  - TEz
@@ -2200,6 +2215,7 @@
   4  1,10 - REf
   4  1,10 - REg
   4  1,10 - REh
+  4  1,10 - REi
   4  1,10 - REl
   4  1,10 - REm
   4  1,10 - REn
@@ -2294,6 +2310,7 @@
   4  6,7  - eO
   4  7,3  - eT
   4  6,7  - eT
+  4  2,4  - fAG
   4  6,9  - fET
   4  6,9  - fOE
   4  6,9  - fOT
@@ -2321,6 +2338,7 @@
   4  6,9  - sOE
   4  6,9  - sOT
   4  2,4  - tAG
+  4  6,9  - tET
   4  6,9  - tOE
   4  6,9  - tOT
   4  6,7  - uT

@@ -2,8 +2,10 @@
  68  1,1  | KeG
  66  1,1  | KATE
  66  1,1  | KETA
+ 62  1,1  | KATa
  62  1,1  | KATe
  62  1,1  | KETa
+ 62  1,1  | KaTA
  62  1,1  | KaTE
  62  1,1  | KeTA
  62  1,1  | KiTE
@@ -99,6 +101,7 @@
  39  1,3  - TOKE
  39  1,3  - TOKEd
  39  1,3  - TOKEn
+ 39  1,3  - TOKEr
  39  1,3  - TOKEs
  38  1,1  | GaE
  38  1,1  | GaT
@@ -278,6 +281,7 @@
  27  1,3  - KOfTA
  27  1,3  - KOlEA
  27  1,3  - KOnG
+ 27  1,3  - KOrAT
  27  1,3  - KOrEA
  27  1,3  - TOGA
  27  1,3  - TOGAe
@@ -290,6 +294,7 @@
  27  1,1  | bEG
  27  1,1  | cAG
  27  1,1  | dAG
+ 27  1,1  | fAG
  27  1,1  | gAG
  27  1,1  | hAG
  27  1,1  | jAG
@@ -526,6 +531,7 @@
  21  1,3  - tOG
  21  1,3  - vOG
  21  1,1  | wETA
+ 21  1,3  - wOG
  21  1,1  | yATE
  21  1,1  | yETA
  21  1,1  | zETA
@@ -637,6 +643,7 @@
  18  9,1  | TElAE
  18  1,1  | TEm
  18  1,1  | TEn
+ 18  1,1  | TEt
  18  1,1  | TEw
  18  1,3  - aOTEA
  18  1,3  - dOEG
@@ -730,6 +737,8 @@
  16  4,3  | oKA
  16  9,2  | oKEE
  16  9,2  | oKTA
+ 16  4,3  | sKA
+ 16  8,9  - sKA
  16  9,2  | sKEE
  15  1,2  | AE
  15  1,3  - AOTEa
@@ -884,6 +893,7 @@
  15  1,1  | tAT
  15  1,1  | tEE
  15  3,1  | tEE
+ 15  1,1  | tET
  15  7,8  - uLTA
  15  1,1  | vAT
  15  1,1  | vEE
@@ -1057,6 +1067,7 @@
  12  1,3  - kOAE
  12  1,3  - kOTA
  12  9,2  | lAKE
+ 12  9,2  | lEKE
  12  1,3  - lOTA
  12  9,2  | mAKE
  12  1,3  - mOAT
@@ -1113,6 +1124,7 @@
  11  9,3  | GyE
  11  9,2  | KAGo
  11  1,6  | Ka
+ 11  9,2  | KaTA
  11  9,2  | KaTE
  11  9,2  | KeTA
  11  1,6  | Ki
@@ -1172,6 +1184,7 @@
  10  2,2  - DEAlT
  10  2,2  - DEArE
  10  2,2  - DEAvE
+ 10  2,2  - DEETs
  10  2,2  - DETAr
  10  2,2  - DETAt
  10  2,2  - DETAx
@@ -1211,6 +1224,7 @@
  10  6,9  - GEs
  10  9,2  | GEtA
  10  9,4  | KA
+ 10  4,2  | KATA
  10  4,1  | KAfTA
  10  4,2  | KETA
  10  4,1  | KEiTA
@@ -1258,6 +1272,7 @@
  10  8,9  - sAG
  10  9,2  | sAGE
  10  8,9  - sEG
+ 10  9,3  | sKA
  10  8,9  - sTG
  10  9,2  | sTGE
  10  9,2  | tEGA
@@ -1318,16 +1333,19 @@
   9  9,2  | GoTE
   9  9,2  | GrEE
   9  9,2  | GyTE
+  9  9,2  | KATa
   9  9,2  | KATe
   9  9,2  | KATh
   9  4,3  | KEA
   9  9,2  | KETa
   9  9,2  | KETo
+  9  4,2  | KaTA
   9  4,2  | KeTA
   9  4,2  | KoTA
   9  8,8  - LAKE
   9  8,8  - LEAK
   9  8,8  - LEEK
+  9  8,8  - LEKE
   9  2,3  - OGeE
   9  2,3  - OGlE
   9  2,3  - OGrE
@@ -1495,7 +1513,9 @@
   8  8,8  - LAsK
   8  8,8  - LAwK
   8  8,8  - LEK
+  8  8,8  - LEKe
   8  8,8  - LEKs
+  8  8,8  - LEKu
   8  8,8  - LEaK
   8  8,8  - LEcK
   8  8,8  - LEeK
@@ -1503,6 +1523,7 @@
   8  8,8  - LaKE
   8  8,8  - LeAK
   8  8,8  - LeEK
+  8  8,8  - LeKE
   8  8,8  - LiKE
   8  8,8  - LoKA
   8  8,8  - LoKE
@@ -1670,6 +1691,7 @@
   7  4,2  | KAnA
   7  4,2  | KApA
   7  4,2  | KAsA
+  7  4,2  | KAtA
   7  4,2  | KAvA
   7  4,2  | KEtA
   7  8,8  - LEGE
@@ -1965,6 +1987,7 @@
   5  3,2  | Ay
   5  9,8  | AyE
   5  2,2  - DATE
+  5  2,2  - DEET
   5  2,2  - DaG
   5  2,2  - DiG
   5  2,2  - DkG
@@ -1997,6 +2020,7 @@
   5  4,2  | GAgA
   5  4,2  | GAiA
   5  4,2  | GAlA
+  5  4,2  | GAmA
   5  4,2  | GApA
   5  4,2  | GArA
   5  4,2  | GAtA
@@ -2066,6 +2090,7 @@
   5  9,4  | jA
   5  9,4  | jE
   5  9,4  | kA
+  5  4,2  | kATA
   5  4,2  | kETA
   5  9,4  | lA
   5  1,2  - lDG
@@ -2155,6 +2180,7 @@
   4  2,2  - DEEp
   4  2,2  - DEEr
   4  2,2  - DEEs
+  4  2,2  - DEEt
   4  2,2  - DET
   4  2,2  - DETd
   4  2,2  - DETi
@@ -2162,6 +2188,7 @@
   4  2,2  - DEbE
   4  2,2  - DEbT
   4  2,2  - DEdA
+  4  2,2  - DEeT
   4  2,2  - DEfT
   4  2,2  - DEiA
   4  2,2  - DEjA
@@ -2178,6 +2205,7 @@
   4  2,2  - DEvE
   4  2,2  - DaTA
   4  2,2  - DaTE
+  4  2,2  - DeET
   4  2,2  - DiET
   4  2,2  - DiTA
   4  2,2  - DiTE
@@ -2253,11 +2281,13 @@
   4  8,8  - LEeT
   4  8,8  - LEfT
   4  8,8  - LEgE
+  4  8,8  - LEkE
   4  8,8  - LEmE
   4  8,8  - LEnA
   4  8,8  - LEnE
   4  8,8  - LEnT
   4  8,8  - LEpA
+  4  8,8  - LEpT
   4  8,8  - LErE
   4  8,8  - LEsE
   4  8,8  - LEsT
@@ -2331,8 +2361,10 @@
   4  8,5  - TEEn
   4  8,5  - TEEs
   4  8,5  - TEEt
+  4  8,5  - TET
   4  8,5  - TETe
   4  8,5  - TETh
+  4  8,5  - TETs
   4  9,3  | TEa
   4  8,5  - TEaT
   4  8,5  - TEcA
@@ -2538,6 +2570,7 @@
   3  8,8  - LEv
   3  8,8  - LEx
   3  8,8  - LEy
+  3  8,8  - LEz
   3  8,8  - LTr
   3  8,8  - LaT
   3  8,8  - LeA
@@ -2609,6 +2642,7 @@
   3  4,2  | TEmA
   3  8,5  - TEn
   3  4,2  | TEpA
+  3  8,5  - TEt
   3  8,5  - TEw
   3  4,2  | TEwA
   3  8,5  - TEx
@@ -2725,6 +2759,7 @@
   2  4,3  | TeA
   2  8,5  - TeA
   2  8,5  - TeE
+  2  8,5  - TeT
   2  8,5  - TgT
   2  9,4  | Th
   2  4,3  | ThA

@@ -26,6 +26,7 @@
  26  2,7  - TENSER
  25  8,4  | NE
  24  5,6  - BINDERS
+ 24  7,6  | DEETS
  24  5,10 - DENS
  24  2,7  - DENSE
  24  5,10 - DENT
@@ -40,6 +41,8 @@
  24  3,7  - RESET
  24 10,6  | TENTS
  24  4,10 - TERNS
+ 23  7,6  | DEET
+ 23  7,6  | NEET
  23  3,7  - NESE
  23  5,7  - SED
  23  5,7  - SEN
@@ -82,27 +85,40 @@
  18  5,6  - BISTRE
  18  5,6  - BITERS
  18  5,6  - BITSER
+ 18  7,7  | DETER
+ 18  7,7  | DETN
  18  6,10 - ERS
  18  6,10 - EST
  18  5,4  - JAIN
  18 10,6  | KENT
  18 10,6  | KNET
+ 18  7,7  | NETER
  18  5,5  - OMS
  18  7,3  | QIS
  18  6,10 - RES
  18  6,10 - RET
  18  6,10 - SET
  18  6,10 - TRS
+ 17  7,7  | NETE
+ 17  7,7  | NETS
  17  7,10 - RTE
+ 16  7,7  | DET
+ 16  7,7  | NET
+ 16  7,7  | RETD
  16 10,6  | SKET
  16 11,7  | SKYED
  16  8,10 - TE
+ 15  7,7  | RETE
+ 15  7,7  | RETS
  15  9,9  | RND
  15  8,5  | SENZA
  14 10,5  | DRENT
  14  7,10 - ES
  14  7,10 - ET
+ 14  7,8  | ETEN
  14 11,5  | KENDYR
+ 14  7,7  | RET
+ 14  7,7  | SET
  14 10,8  | STK
  14 10,4  | STRENT
  14  8,5  | TERZA
@@ -154,10 +170,12 @@
  11  2,5  - DENOM
  11 11,7  | DEYNT
  11  2,5  - ENTOM
+ 11  7,8  | ET
  11  3,6  - REBIND
  11 11,8  | RYEN
  11  7,6  | SEE
  11 11,8  | SYED
+ 11  7,9  - TARTY
  11  7,6  | TEE
  10  5,6  - BINDS
  10  3,6  - DEBITS
@@ -199,6 +217,7 @@
   9 11,8  | DYES
   9 11,7  | KEY
   9 11,8  | KYE
+  9 11,5  | NERDY
   9 11,8  | NYET
   9  3,6  - REBID
   9  9,9  | RES
@@ -245,8 +264,10 @@
   8 10,9  | TED
   8 10,9  | TEN
   8 10,6  | TEST
+  8 10,7  | TETS
   8 10,9  | TNT
   8 10,6  | TRET
+  8 11,8  | TYER
   8 11,8  | TYES
   8 11,8  | TYRE
   7  5,6  - BID
@@ -291,6 +312,7 @@
   6 11,7  | STYE
   6 11,8  | SYD
   6 11,8  | SYN
+  6 10,9  | TET
   6  4,5  - TOM
   6 11,6  | TREY
   6 10,9  | TRS
@@ -319,6 +341,7 @@
   3 10,7  | EST
   3 10,7  | RET
   3 10,7  | SET
+  3 10,7  | TET
   3 10,7  | TRT
   3 10,7  | TST
   2 10,8  | ET

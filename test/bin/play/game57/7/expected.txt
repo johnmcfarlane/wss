@@ -219,6 +219,7 @@
  16  6,1  | ArABIS
  16  2,9  - ArO
  16  2,9  - AvO
+ 16  6,1  | BAAsES
  16  2,1  | BAErIA
  16  5,2  | BAIERA
  16  2,1  | BAIErA
@@ -453,8 +454,10 @@
  14  2,7  - lANE
  14  8,6  | lIBR
  14  2,7  - lINE
+ 14  6,2  | mABES
  14  2,7  - mANE
  14  2,7  - mINE
+ 14  6,2  | nABES
  14  6,2  | nABIS
  14  2,7  - nANE
  14  2,7  - nINE
@@ -515,6 +518,7 @@
  13  4,8  - JAw
  13  4,8  - JAy
  13  4,8  - JEt
+ 13  4,8  - JEw
  13  4,8  - JIb
  13  4,8  - JIg
  13  4,8  - JIm
@@ -1429,8 +1433,10 @@
   7  6,5  - ElB
   7  5,3  | EmIR
   7  1,9  - En
+  7  8,10 - EpE
   7  1,9  - Er
   7  1,9  - Es
+  7  8,10 - EsE
   7  1,9  - Et
   7  1,9  - Ew
   7  6,5  - IBa
@@ -1476,6 +1482,8 @@
   7  1,4  | eAVE
   7  5,5  | eRA
   7  5,5  | eRE
+  7  1,4  | fAVA
+  7  1,4  | fAVE
   7  1,4  | fAVI
   7  1,4  | fIVE
   7  1,4  | gAVE
@@ -1664,6 +1672,7 @@
   6  2,5  | BAnE
   6  2,5  | BAnI
   6  6,3  | BAnS
+  6  6,3  | BApS
   6  2,3  | BArA
   6  2,5  | BArA
   6  2,5  | BArE
@@ -1716,6 +1725,7 @@
   6  6,3  | BIdS
   6  8,6  | BIeR
   6  2,3  | BIgA
+  6  6,3  | BIgS
   6  2,3  | BIjA
   6  2,3  | BImA
   6  6,3  | BInS
@@ -1744,6 +1754,7 @@
   6  6,4  | BoSE
   6  2,4  | BrAE
   6  6,3  | BrAS
+  6  6,3  | BrIS
   6  8,7  - BrL
   6  8,7  - BtL
   6  7,7  | BtU
@@ -1824,6 +1835,7 @@
   6  1,6  | VIc
   6  1,6  | VId
   6  1,6  | VIe
+  6  1,6  | VIg
   6  1,6  | VIi
   6  1,6  | VIl
   6  1,6  | VIm
@@ -1928,11 +1940,11 @@
   6  6,3  | lIBS
   6  8,6  - lICE
   6  5,3  | lIER
-  6  1,4  | lIV
   6  9,7  - lLB
   6  5,3  | mAAR
   6  2,3  | mABA
   6  2,5  | mABA
+  6  2,5  | mABE
   6  2,5  | mABI
   6  8,6  - mACE
   6  7,7  - mAILE
@@ -1941,6 +1953,7 @@
   6  6,3  | mIBS
   6  8,6  - mICA
   6  8,6  - mICE
+  6  2,5  | nABE
   6  6,3  | nABS
   6  8,6  - nACE
   6  2,5  | nAIB
@@ -2060,6 +2073,7 @@
   5  9,7  - ALA
   5  9,7  - ALE
   5  5,5  | AR
+  5  6,5  | ASAnAS
   5  2,9  | AYE
   5  2,6  | AbB
   5  8,6  - AbC
@@ -2082,7 +2096,6 @@
   5  8,6  | AkER
   5  8,6  | AlAR
   5  2,6  | AlB
-  5  7,7  - AmAL
   5  8,6  | AmAR
   5  2,6  | AmB
   5  7,7  - AmEL
@@ -2166,6 +2179,7 @@
   5  7,7  - EvIL
   5  9,6  - ICe
   5  9,6  - ICh
+  5  9,6  - ICk
   5  9,6  - ICy
   5  9,7  - ILA
   5  9,7  - ILE
@@ -2296,6 +2310,7 @@
   5  5,4  | kER
   5  7,7  - kIEL
   5  8,6  | kIER
+  5  5,4  | kIR
   5  9,8  - kOA
   5  9,8  - kOI
   5  2,5  | lAB
@@ -2355,6 +2370,7 @@
   5  5,4  | pAR
   5  7,7  - pEAL
   5  8,6  | pEAR
+  5  8,6  - pEC
   5  5,4  | pER
   5  8,7  | pERAi
   5  7,7  - pIAL
@@ -2625,6 +2641,7 @@
   4  8,7  - cAL
   4  8,7  | cAR
   4  9,6  - cC
+  4  8,7  - cEL
   4  8,7  | cIR
   4  8,7  - dAL
   4  8,7  | dAR
@@ -2657,6 +2674,7 @@
   4  8,7  | jAR
   4  8,7  - kAL
   4  8,7  | kER
+  4  8,7  | kIR
   4  2,9  | kYE
   4  8,7  | lAR
   4  8,7  | lER
@@ -2979,6 +2997,7 @@
   3  6,4  | rASA
   3  6,4  | rASE
   3  6,3  | rEIS
+  3  6,3  | rIAS
   3  6,3  | rIES
   3  6,4  | rISE
   3  9,7  - rLE
@@ -3144,6 +3163,7 @@
   2 10,8  - Oe
   2 10,8  - Oi
   2 10,8  - Ow
+  2  8,9  | REi
   2  6,6  | SI
   2  6,5  - aA
   2  2,4  | aAA
@@ -3325,6 +3345,7 @@
   1  5,10 | Io
   1  5,10 | Is
   1  5,10 | It
+  1  8,9  | Rei
   1  8,9  | Roi
   1  8,9  | Rti
   1  6,6  | Sh

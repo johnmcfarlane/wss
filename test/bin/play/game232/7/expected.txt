@@ -50,6 +50,7 @@
  36  1,7  | QErI
  36  1,5  | SErOLIN
  36  9,1  | SOFANE
+ 36  3,1  | SOJa
  36  1,6  | SOLEIN
  36  1,5  | gELOSIN
  36  2,1  | iNDOLES
@@ -78,6 +79,7 @@
  33  7,11 - LEmON
  33  7,11 - LEsSN
  33  7,11 - LOdEN
+ 33  1,6  | LOmEIN
  33  7,9  - LOoSE
  33  7,11 - LOrEN
  33  1,6  | LOwSIN
@@ -285,6 +287,7 @@
  28  2,2  | oDEONS
  28  2,1  | oODLES
  28  7,9  - pEONS
+ 28  2,1  | rEDONS
  28  7,11 - rOSEL
  28  2,1  | uNDOES
  28  2,1  | uNDOSE
@@ -392,6 +395,7 @@
  26  1,4  - NoES
  26  1,11 - OhS
  26 10,1  | QuESO
+ 26  4,1  | QuILES
  26  7,11 - SLaNE
  26  7,11 - SLiNE
  26  7,11 - SLoNE
@@ -404,9 +408,11 @@
  25  3,4  - EN
  25  3,4  - ON
  25  3,8  | aEON
+ 25  4,2  | cINQS
  25  7,11 - eNOLS
  25  7,11 - sLONE
  24  2,2  | EDONi
+ 24  1,6  | ENOkIS
  24  1,6  | ENOsIS
  24  1,6  | ENvOIS
  24  9,6  | ESTOiL
@@ -531,6 +537,7 @@
  24  2,2  | iDOLS
  24  9,6  | jETONS
  24  1,8  | jOIN
+ 24  9,6  | kETOLS
  24  1,8  | kOIL
  24  1,6  | lEONIS
  24  1,4  - lEOS
@@ -538,6 +545,7 @@
  24 10,2  | lESSON
  24  1,8  | lOIN
  24  1,8  | mEIN
+ 24 10,2  | mESNES
  24 10,2  | mESOLE
  24 10,2  | mESONS
  24  1,8  | mOIL
@@ -581,6 +589,7 @@
  23  8,9  - EOaN
  23  7,11 - EbONS
  23  7,11 - EnOLS
+ 23  7,11 - ExONS
  23  7,9  - LEON
  23  7,9  - NOEL
  23  2,4  - OES
@@ -655,6 +664,7 @@
  22  8,9  - eOLE
  22  8,9  - eONS
  22  7,11 - fLOES
+ 22  7,11 - hELOS
  22  7,11 - hOLES
  22  7,11 - hONES
  22  8,9  - iONE
@@ -715,6 +725,7 @@
  21  7,11 - LONE
  21  7,11 - LONEr
  21  9,6  | LOTaSE
+ 21  9,6  | LOTtES
  21  1,7  | LOgIE
  21  1,7  | LOgIS
  21  1,7  | LOoIE
@@ -728,6 +739,7 @@
  21  1,7  | LoOIE
  21  7,9  - LoON
  21  9,6  | LuTOSE
+ 21  1,7  | LwEIS
  21  7,9  - LyON
  21  1,4  - NEO
  21  7,9  - NEO
@@ -742,6 +754,7 @@
  21  3,9  | NOL
  21  1,7  | NObIS
  21  1,7  | NOrIE
+ 21  1,7  | NOrIS
  21  7,9  - NoEL
  21  1,6  | OLENId
  21  1,7  | OLdIE
@@ -846,6 +859,7 @@
  21  1,9  | wIN
  21  1,9  | yIN
  21  1,7  | yONIS
+ 21  1,9  | zIN
  20  7,11 - ELON
  20  7,11 - ELONg
  20  2,6  | ENLOCk
@@ -957,6 +971,7 @@
  19  8,9  - mOSE
  19  8,9  - oOSE
  19  8,9  - yESO
+ 18  4,1  | ELINtS
  18  9,9  - ELS
  18  1,6  | ENOSIs
  18  9,9  - ENS
@@ -986,6 +1001,8 @@
  18  7,11 - LEoN
  18  7,9  - LEoS
  18  1,9  | LIE
+ 18  4,2  | LINES
+ 18  4,2  | LINOS
  18  1,9  | LIS
  18  3,9  | LOE
  18  7,11 - LOESs
@@ -1075,6 +1092,7 @@
  18  1,7  | SErIO
  18  9,5  - SEt
  18  2,6  - SLoKA
+ 18  1,6  | SOLEI
  18  1,6  | SOLEIl
  18  1,6  | SOLEIn
  18  2,6  | SOLaCE
@@ -1112,6 +1130,7 @@
  18  9,1  | SoFA
  18  9,5  - SuE
  18  2,6  - SuLKA
+ 18  9,8  | TELS
  18  9,8  | TENS
  18  6,5  - TEaS
  18  6,5  - TEeS
@@ -1121,17 +1140,20 @@
  18  6,5  - TaOS
  18  6,5  - TeES
  18  6,5  - TrES
+ 18  4,1  | aLINES
  18  1,8  | aNIS
  18  1,6  | aNOLI
  18  9,7  | aTELO
  18  9,7  | aTOLE
  18  9,7  | aTONE
  18  9,5  - bEN
+ 18  4,1  | cLINES
  18  1,6  | cONLI
  18  1,7  | cOSIE
  18  9,5  - dEN
  18  9,5  - eEN
  18  1,7  | fOSIE
+ 18  9,5  - gEN
  18  1,8  | gLIS
  18  9,5  - hEN
  18  9,5  - mEN
@@ -1189,7 +1211,14 @@
  17  7,9  - LEe
  17  7,9  - LEi
  17  4,2  | LINdO
+ 17  4,2  | LINeS
  17  4,2  | LINgO
+ 17  4,2  | LINgS
+ 17  4,2  | LINkS
+ 17  4,2  | LINnS
+ 17  4,2  | LINoS
+ 17  4,2  | LINtS
+ 17  4,2  | LINuS
  17  7,6  | LOANEd
  17  7,6  | LOANEr
  17  7,7  - LOESs
@@ -1198,12 +1227,14 @@
  17  7,9  - LOa
  17  7,9  - LOe
  17  7,9  - LOo
+ 17  4,2  - LaVS
  17  7,6  | LiANES
  17  9,5  - NE
  17  7,9  - NEa
  17  7,9  - NEe
  17  7,9  - NEi
  17  7,9  - NEo
+ 17  4,2  | NILlS
  17  7,7  - NOES
  17  7,7  - NOElS
  17  7,9  - NOa
@@ -1219,6 +1250,8 @@
  17  7,11 - ONSEt
  17  8,5  - OSc
  17  8,5  - OSe
+ 17  4,1  | OpINES
+ 17  4,1  | OvINES
  17  4,1  | QuIN
  17  7,11 - SENOr
  17  3,5  | SENa
@@ -1231,6 +1264,7 @@
  17  7,11 - SOLE
  17  7,11 - SOLEa
  17  7,11 - SOLEd
+ 17  7,11 - SOLEi
  17  7,11 - SOLEn
  17  7,11 - SOLEr
  17  7,11 - SOLEs
@@ -1249,6 +1283,7 @@
  17  8,5  - aN
  17  3,4  - aS
  17  4,2  | cINQ
+ 17  4,1  | dEINOS
  17  1,4  - dOE
  17  8,5  - eN
  17  3,4  - eO
@@ -1258,7 +1293,10 @@
  17  1,4  - hOE
  17  8,5  - iN
  17  8,5  - iSE
+ 17  4,2  | kILNS
+ 17  4,1  | kOINES
  17  1,4  - lOE
+ 17  4,1  | mOILES
  17  1,4  - nEO
  17  8,5  - oES
  17  8,5  - oN
@@ -1269,6 +1307,8 @@
  17  1,4  - rOE
  17  1,4  - sOE
  17  1,4  - tOE
+ 17  4,1  | tOILES
+ 17  4,1  | vOILES
  17  1,4  - wOE
  16  5,11 - AaL
  16  2,3  | DOLENt
@@ -1277,6 +1317,7 @@
  16  2,3  | DOLvEN
  16  2,3  | DONzEL
  16  2,3  | DrONEL
+ 16  2,3  | DyNELS
  16  7,6  | ELANEt
  16  3,5  | ELSa
  16  2,4  - EO
@@ -1289,7 +1330,11 @@
  16  3,3  | JOdEL
  16  3,3  | JOwEL
  16  3,9  - LER
+ 16  4,2  | LIENS
  16  4,2  | LINEa
+ 16  4,2  | LINEs
+ 16  4,2  | LINOs
+ 16  4,2  | LIONS
  16  7,9  - LO
  16  2,1  | LODEN
  16  7,7  - LOE
@@ -1298,6 +1343,7 @@
  16  7,7  - LaEN
  16  7,6  | LiANE
  16  7,9  - NE
+ 16  4,2  | NIELS
  16  7,9  - NO
  16  7,7  - NOEl
  16  7,7  - NOEs
@@ -1306,30 +1352,69 @@
  16  7,7  - NoEL
  16 10,2  - OE
  16  2,4  - OE
+ 16  4,2  | OINkS
  16  2,1  | OLDEN
  16  3,5  | OLEa
  16  2,6  | OLEiC
  16  2,6  - OSaKA
+ 16  4,6  | SEDaN
  16  4,2  | SINtO
  16  7,6  | SLANE
  16  4,5  | SOND
  16  2,6  | SONiC
  16  2,6  - SlOKA
+ 16  4,1  | aLIENS
  16  2,6  - aSOKA
+ 16  4,2  | bILES
+ 16  4,2  | bILOS
+ 16  4,2  | bINES
+ 16  4,2  | cINES
+ 16  4,2  | dILOS
+ 16  4,2  | dINES
+ 16  4,2  | dINOS
  16  2,6  | dONEC
  16  7,11 - eLNE
  16  7,11 - eLON
  16  7,11 - eNOL
  16  9,5  - eSE
  16 10,2  | fESSE
+ 16  4,2  | fILES
+ 16  4,2  | fILOS
+ 16  4,2  | fINES
+ 16  4,2  | fINOS
  16  7,11 - fLON
  16 10,2  | gESSO
+ 16  4,2  | gILES
  16 10,2  | jESSE
  16 10,2  | kESSE
+ 16  4,2  | kILOS
+ 16  4,2  | kINES
+ 16  4,2  | kINOS
+ 16  4,2  | lILES
+ 16  4,2  | lINES
+ 16  4,2  | lINOS
  16 10,2  | mESSE
+ 16  4,2  | mILES
+ 16  4,2  | mILOS
+ 16  4,2  | mINES
+ 16  4,2  | mINOS
+ 16  4,2  | nINES
+ 16  4,2  | nINOS
  16 10,2  | pESOS
+ 16  4,2  | pILES
+ 16  4,2  | pINES
+ 16  4,2  | rILES
+ 16  4,2  | sILOS
+ 16  4,2  | sINES
  16  7,11 - sLON
  16  7,11 - sOLN
+ 16  4,2  | tILES
+ 16  4,2  | tINES
+ 16  4,2  | vINES
+ 16  4,2  | vINOS
+ 16  4,2  | wILES
+ 16  4,2  | wINES
+ 16  4,2  | wINOS
  16 10,2  | yESES
  16 10,2  | yESSO
  15  1,7  | ELOIn
@@ -1343,6 +1428,7 @@
  15  9,9  - ELs
  15  9,9  - ELt
  15  1,7  | ENOIl
+ 15  1,6  | ENOkI
  15  9,9  - ENd
  15  9,9  - ENg
  15  9,9  - ENs
@@ -1365,7 +1451,11 @@
  15  8,5  - EsS
  15  9,9  - EyL
  15  9,9  - EyN
+ 15  4,3  | ILkS
+ 15  4,3  | ILlS
  15  4,3  | INfO
+ 15  4,3  | INkS
+ 15  4,3  | INnS
  15  4,3  | INrO
  15  4,3  | INtO
  15  3,3  | JELl
@@ -1597,6 +1687,7 @@
  15  8,5  - OnS
  15  8,9  - OoSE
  15  8,5  - OrE
+ 15  4,1  | OrIELS
  15  8,5  - OrS
  15  8,5  - OsE
  15  1,8  | OtIS
@@ -1614,6 +1705,8 @@
  15  1,6  | SEgNI
  15  1,6  | SElLI
  15  1,9  | SIE
+ 15  4,2  | SILOs
+ 15  4,2  | SINEs
  15  7,3  | SIOL
  15  1,7  | SLOId
  15  3,6  | SLa
@@ -1622,13 +1715,16 @@
  15  1,7  | SOLId
  15  1,7  | SOLIo
  15  1,6  | SOLdI
+ 15  1,6  | SOLeI
  15  3,9  | SON
  15  1,7  | SONIc
  15  7,6  | ShALEE
+ 15  1,6  | SoLEI
  15  9,8  | TELa
  15  9,8  | TELe
  15  9,8  | TELi
  15  9,8  | TELl
+ 15  9,8  | TELs
  15  9,8  | TELt
  15  9,8  | TENd
  15  9,8  | TENg
@@ -1693,6 +1789,7 @@
  15  1,8  | rEIS
  15  4,5  | rOND
  15  1,8  | sEIS
+ 15  1,6  | sOLEI
  15  4,5  | sOND
  15  1,6  | tELOI
  15  4,5  | yOND
@@ -1768,6 +1865,7 @@
  14  9,3  | FALSETtO
  14  9,3  | FANjETS
  14  4,3  | ILEa
+ 14  4,3  | IONS
  14  3,3  | JOES
  14  3,3  | JOSEy
  14  3,3  | JOkES
@@ -1785,6 +1883,12 @@
  14  2,1  | LEDeN
  14  3,6  | LEa
  14  7,7  - LEaN
+ 14  4,2  | LIENs
+ 14  4,2  | LIEnS
+ 14  4,2  | LIErS
+ 14  4,2  | LIEuS
+ 14  4,2  | LIONs
+ 14  4,2  | LIOnS
  14  7,6  | LOAvES
  14  2,1  | LODES
  14  2,1  | LODeN
@@ -1819,8 +1923,11 @@
  14  3,6  | NEa
  14  7,7  - NEaL
  14  7,7  - NEiL
+ 14  4,2  | NIELs
+ 14  4,2  | NIElS
  14  2,1  | NODES
  14  2,1  | NODaL
+ 14  4,1  | NOISEs
  14 11,1  | NOWEL
  14  3,6  | NOa
  14  7,7  - NOeL
@@ -1877,6 +1984,7 @@
  14  7,11 - SEN
  14  7,11 - SENa
  14  7,11 - SENd
+ 14  7,11 - SENe
  14  7,11 - SENt
  14  7,11 - SEaL
  14  7,11 - SEaN
@@ -1947,6 +2055,7 @@
  14  7,11 - SeEL
  14  7,11 - SeEN
  14  7,11 - SeLE
+ 14  7,11 - SeNE
  14  7,6  | ShALE
  14  7,6  | ShANE
  14  7,11 - ShEL
@@ -1976,8 +2085,11 @@
  14  7,11 - SyNE
  14  2,4  - aE
  14  2,1  | aLDEN
+ 14  4,2  | bIENS
+ 14  4,2  | cIONS
  14  7,9  - cOES
  14  2,6  | cOSEC
+ 14  4,2  | dIOLS
  14  2,4  - eE
  14  2,4  - eO
  14  7,6  | fLANE
@@ -1987,14 +2099,22 @@
  14  7,7  - jOEL
  14  7,7  - kOEL
  14  7,9  - lEOS
+ 14  4,2  | lIENS
+ 14  4,2  | lIONS
+ 14  4,2  | mIENS
+ 14  4,2  | nIELS
  14  7,7  - nOEL
  14  7,9  - nOES
  14  2,4  - oE
  14  2,1  | oLDEN
  14  2,4  - oO
+ 14  4,2  | pIONS
+ 14  4,2  | rIELS
  14  7,9  - rOES
  14  7,6  | sLANE
+ 14  4,2  | tIENS
  14  7,9  - tOES
+ 14  4,2  | vIOLS
  14  7,9  - vOES
  14  7,9  - wOES
  13  7,6  | ELAtES
@@ -2038,6 +2158,10 @@
  13  7,7  - LEaS
  13  7,7  - LEeS
  13  7,7  - LEiS
+ 13  4,2  | LIeNS
+ 13  4,2  | LImNS
+ 13  4,2  | LInNS
+ 13  4,2  | LIoNS
  13  7,6  | LOAvE
  13 11,1  | LOWES
  13 11,1  | LOWESt
@@ -2057,11 +2181,17 @@
  13 11,1  | NEWESt
  13 11,1  | NEWElS
  13  7,7  - NEwS
+ 13  4,2  | NIeLS
+ 13  4,2  | NIlLS
+ 13  4,2  | NIrLS
+ 13  4,1  | NOIrES
+ 13  4,1  | NOIsES
  13  7,7  - NOeS
  13  7,7  - NOuS
  13  7,7  - NOwS
  13 11,1  | NeWEL
  13 11,1  | NoWEL
+ 13  4,1  | OLIvES
  13  3,4  - Od
  13 10,2  - Oe
  13  3,4  - Of
@@ -2071,11 +2201,13 @@
  13  3,4  - Os
  13  9,6  | QaTS
  13  7,6  | SEAmEN
+ 13  4,6  | SED
  13  3,6  | SEa
  13  4,2  | SIENa
  13  7,3  | SIaL
  13  7,3  | SIoL
  13  7,6  | SOAkEN
+ 13  4,6  | SOD
  13  6,5  - TLO
  13  8,5  - aE
  13  4,6  | aND
@@ -2107,6 +2239,7 @@
  13  7,11 - fONS
  13  7,9  - gEO
  13  2,11 - hE
+ 13  7,11 - hELO
  13  7,11 - hENS
  13  2,11 - hO
  13  4,5  | hOED
@@ -2114,7 +2247,9 @@
  13  7,11 - hOLE
  13  7,11 - hOLS
  13  7,11 - hONE
+ 13  7,11 - hONS
  13  8,5  - iS
+ 13  4,5  | iSED
  13  7,7  - jOES
  13  7,11 - lENO
  13  7,11 - lENS
@@ -2154,7 +2289,9 @@
  13  7,11 - sOLS
  13  7,11 - sONE
  13  7,11 - sONS
+ 13  4,5  | sSED
  13  7,6  | tEASEL
+ 13  7,11 - tELS
  13  7,11 - tENS
  13  7,11 - tLN
  13  7,9  - tOE
@@ -2163,6 +2300,7 @@
  13  7,11 - tOLE
  13  7,11 - tONE
  13  7,11 - tONS
+ 13  4,5  | uSED
  13  7,9  - vOE
  13  7,11 - wELS
  13  7,11 - wENS
@@ -2278,9 +2416,14 @@
  12  7,6  | EvASE
  12  9,3  | FANgOT
  12  9,3  | FANjET
+ 12  4,3  | IONs
+ 12  4,3  | IOcS
+ 12  4,3  | IOnS
+ 12  4,3  | ISLs
  12  3,3  | JEeS
  12  3,3  | JEsS
  12  3,3  | JEtS
+ 12  3,3  | JEwS
  12  3,3  | JNd
  12  3,3  | JObS
  12  3,3  | JOeS
@@ -2321,6 +2464,16 @@
  12  1,7  | LEvI
  12  7,11 - LEx
  12  7,11 - LEy
+ 12  7,11 - LEz
+ 12  4,2  | LIdOS
+ 12  4,2  | LIkES
+ 12  4,2  | LIlES
+ 12  4,2  | LImES
+ 12  4,2  | LImOS
+ 12  4,2  | LInES
+ 12  4,2  | LInOS
+ 12  4,2  | LItES
+ 12  4,2  | LIvES
  12  2,1  | LNDg
  12  7,6  | LOA
  12  1,1  | LOANErS
@@ -2357,6 +2510,7 @@
  12  7,11 - LOr
  12  1,7  | LOrI
  12  7,11 - LOt
+ 12  1,7  | LOtI
  12  7,7  - LOu
  12  7,11 - LOu
  12  7,7  - LOw
@@ -2379,6 +2533,7 @@
  12  7,11 - LoE
  12  7,11 - LoO
  12 11,1  | LoWES
+ 12  2,1  | LuDES
  12  7,11 - LuE
  12  7,11 - LuO
  12  1,7  | LwEI
@@ -2407,6 +2562,12 @@
  12  1,7  | NEvI
  12  7,7  - NEw
  12  7,11 - NEw
+ 12  4,2  | NIdES
+ 12  4,2  | NInES
+ 12  4,2  | NInOS
+ 12  4,2  | NItES
+ 12  4,2  | NItOS
+ 12  4,2  | NIxES
  12  2,1  | NODE
  12  2,1  | NODEd
  12  2,1  | NODEs
@@ -2516,10 +2677,13 @@
  12  1,8  | SNIp
  12  1,8  | SNIt
  12  3,9  | SOE
+ 12  1,6  | SOlEI
  12  4,5  | SOnD
  12  4,5  | SOrD
  12  2,1  | SiDLE
  12  1,7  | SoLI
+ 12  4,5  | SsED
+ 12  1,7  | SyLI
  12  9,8  | TESs
  12  9,8  | TESt
  12  9,8  | TEaS
@@ -2527,8 +2691,10 @@
  12  9,8  | TEdS
  12  9,8  | TEeS
  12  9,8  | TEgS
+ 12  9,8  | TElS
  12  9,8  | TEnS
  12  9,8  | TEsS
+ 12  9,8  | TEtS
  12  9,8  | TEwS
  12  9,8  | TOEa
  12  9,8  | TOEd
@@ -2569,6 +2735,7 @@
  12  9,8  | TeEL
  12  9,8  | TeEN
  12  9,8  | TeLE
+ 12  9,8  | TeLS
  12  9,8  | TeNS
  12  9,8  | ThEN
  12  9,8  | ThON
@@ -2626,6 +2793,7 @@
  12 10,2  - gO
  12  1,7  | gOLI
  12 10,2  - hE
+ 12  8,7  - hELO
  12  8,7  - hENS
  12  1,9  | hIE
  12  1,9  | hIS
@@ -2667,6 +2835,7 @@
  12  1,9  | qIS
  12 10,2  - rE
  12  3,11 - rEA
+ 12  2,1  | rEDON
  12  1,9  | rIE
  12  1,9  | rIO
  12  3,11 - sEA
@@ -2692,6 +2861,7 @@
  12  2,1  | yODLE
  12  1,7  | yONI
  11  5,11 - Aa
+ 11  4,2  | EIdOS
  11  7,11 - ELb
  11  7,11 - ELd
  11  7,11 - ELf
@@ -2730,10 +2900,15 @@
  11  7,11 - EyL
  11  7,11 - EyN
  11  9,3  | FANOuT
+ 11  4,3  | IlLS
+ 11  4,3  | InNS
+ 11  4,3  | IoNS
+ 11  4,3  | IsLS
  11  3,3  | JE
  11  3,3  | JEe
  11  3,3  | JEt
  11  3,3  | JEu
+ 11  3,3  | JEw
  11  3,3  | JO
  11  3,3  | JOb
  11  3,3  | JOe
@@ -2855,8 +3030,10 @@
  11  7,11 - SOnE
  11  7,11 - SOpE
  11  7,11 - SOrE
+ 11  4,6  | SaD
  11  7,11 - SaL
  11  7,11 - SaN
+ 11  4,6  | SeD
  11  7,11 - SeL
  11  7,11 - SeN
  11  1,11 - Sh
@@ -2864,10 +3041,13 @@
  11  7,11 - SiL
  11  7,11 - SiN
  11  7,11 - SlOE
+ 11  4,6  | SoD
  11  7,11 - SoL
  11  7,11 - SoN
  11  7,11 - SpL
+ 11  4,6  | StD
  11  7,11 - SuN
+ 11  4,6  | SyD
  11  7,11 - SyL
  11  7,11 - SyN
  11  6,5  - TLo
@@ -2893,6 +3073,9 @@
  11  8,7  - mESO
  11  8,9  - mOL
  11  8,9  - mON
+ 11  2,8  - rEDREAMT
+ 11  4,6  | sED
+ 11  4,6  | sOD
  11  7,6  | tEASE
  11 10,5  - uN
  11  8,9  - yEN
@@ -2911,6 +3094,7 @@
  10  2,3  | DEaL
  10  2,3  | DEaN
  10  2,3  | DEcL
+ 10  2,3  | DEcOS
  10  2,3  | DEiL
  10  2,3  | DElL
  10  2,3  | DEmOS
@@ -2959,6 +3143,7 @@
  10  2,3  | DOwSE
  10  2,3  | DOzES
  10  2,3  | DaLE
+ 10  2,3  | DaLS
  10  2,3  | DaNE
  10  2,3  | DeLE
  10  2,3  | DeLS
@@ -2986,6 +3171,7 @@
  10  2,2  | EDeN
  10  2,1  | ELD
  10  2,1  | ELDs
+ 10  4,1  | ELINt
  10  2,1  | END
  10  2,1  | ENDe
  10  2,1  | ENDs
@@ -2995,13 +3181,17 @@
  10  3,9  - EeR
  10  2,1  | EiDOS
  10  3,9  - EiR
+ 10  1,1  | EtALONS
  10  3,9  - EyR
  10  9,3  | FANE
  10  9,3  | FANO
  10  9,3  | FANS
  10  9,3  | FAScET
+ 10  4,3  | IcES
  10  4,3  | IdEO
+ 10  4,3  | IdES
  10  4,3  | IpSO
+ 10  4,3  | IrES
  10  3,3  | Ja
  10  3,3  | Je
  10  3,3  | Jo
@@ -3053,6 +3243,7 @@
  10  2,1  | LoDE
  10 10,1  | LoESS
  10  4,1  | LoINS
+ 10  2,1  | LuDE
  10  2,1  | LuDO
  10  2,1  | LuDS
  10  3,6  - LuKAN
@@ -3259,6 +3450,7 @@
   9  1,1  | ELAiNS
   9  4,5  | EO
   9  3,9  | EOn
+  9  4,5  | ES
   9 10,5  - Ed
   9 10,5  - Ee
   9  8,7  - EeL
@@ -3353,7 +3545,6 @@
   9  1,9  | LIr
   9  1,9  | LIs
   9  1,9  | LIt
-  9  1,9  | LIv
   9  1,9  | LIz
   9  1,4  - LO
   9  1,1  | LOASa
@@ -3416,6 +3607,7 @@
   9  3,9  | OOh
   9  3,9  | OOs
   9  3,9  | OOt
+  9  4,5  | OS
   9  8,7  - OiL
   9  8,9  - OiL
   9  4,1  | OpINE
@@ -3484,6 +3676,7 @@
   9  4,1  | ShINE
   9 10,5  - Si
   9  7,6  | SiA
+  9  7,6  | SkA
   9  7,6  | SlA
   9  4,1  | SlINE
   9  7,6  | SmA
@@ -3725,6 +3918,7 @@
   8  2,3  | DOnE
   8  2,3  | DOnS
   8  2,3  | DOpE
+  8  2,3  | DOrE
   8  2,3  | DOrS
   8  2,3  | DOsE
   8  2,3  | DOsS
@@ -3855,6 +4049,7 @@
   8  1,1  | LOAm
   8  1,1  | LOAn
   8  1,7  - LOvEE
+  8 11,2  | LWEiS
   8  4,5  | La
   8  2,1  | LaD
   8  2,1  | LcD
@@ -4104,6 +4299,7 @@
   8  2,1  | aND
   8 10,1  | aNES
   8  9,6  | aNTES
+  8  4,5  | aS
   8 11,2  | aWEEL
   8  2,2  | bDL
   8  7,6  | bEA
@@ -4152,6 +4348,7 @@
   8  2,1  | eLD
   8  2,1  | eND
   8  4,5  | eO
+  8  4,5  | eS
   8  2,1  | fEDS
   8  4,1  | fEIL
   8  4,2  | fILE
@@ -4199,6 +4396,7 @@
   8  2,1  | iND
   8  4,5  | iO
   8  2,1  | iODE
+  8  4,5  | iS
   8  9,6  | iSTLE
   8 11,1  | jEWEL
   8  4,2  | jINS
@@ -4264,6 +4462,7 @@
   8 10,1  | oLES
   8 10,1  | oNES
   8  4,5  | oO
+  8  4,5  | oS
   8  7,7  | pANEL
   8  2,2  | pDL
   8  2,2  | pDN
@@ -4329,6 +4528,7 @@
   8 11,2  | tWEEN
   8  2,2  | uDOS
   8  4,6  - uKASE
+  8  4,5  | uS
   8  4,1  | vEIL
   8  4,1  | vEIN
   8  4,2  | vILE
@@ -4358,6 +4558,7 @@
   8  3,9  - yOR
   8  2,1  | zEDS
   8  4,1  | zEIN
+  8  4,2  | zINS
   7  7,8  | ALEE
   7  7,8  | ALES
   7  1,3  | ALESaN
@@ -4435,6 +4636,7 @@
   7  8,9  - Eo
   7  9,7  - EoN
   7  9,7  - ErN
+  7  4,5  | Es
   7  1,1  | EvANS
   7  8,7  - Ew
   7  2,8  | ExCL
@@ -4477,6 +4679,7 @@
   7  5,6  - KAaS
   7  5,6  - KAbS
   7  5,6  - KAeS
+  7  5,6  - KAfS
   7  5,6  - KAgO
   7  5,6  - KAlE
   7  5,6  - KAlO
@@ -4585,6 +4788,7 @@
   7  8,6  | NoME
   7  8,6  | NoMS
   7  2,7  | NsEC
+  7  9,2  | OFAyS
   7  4,6  - OKA
   7  4,6  - OKAs
   7  4,6  - OKAy
@@ -4606,6 +4810,7 @@
   7  1,1  | OrALS
   7  1,1  | OrANS
   7  4,1  | OrIEL
+  7  4,5  | Os
   7  1,1  | OvALS
   7  8,7  - Ow
   7  1,1  | OxANE
@@ -4638,8 +4843,10 @@
   7  2,7  | SEcCO
   7  4,2  | SIOL
   7  4,2  | SION
+  7  4,6  - SKA
   7  4,6  - SKAg
   7  4,6  - SKAl
+  7  4,6  - SKAs
   7  4,6  - SKAt
   7  4,6  - SKAw
   7  1,1  | SLAE
@@ -4863,6 +5070,7 @@
   7  9,6  | sETON
   7  4,2  | sIL
   7  4,2  | sIN
+  7  4,6  - sKAS
   7  4,1  | sNIES
   7  7,11 - sOE
   7  3,6  - sOKA
@@ -4898,6 +5106,7 @@
   7  4,2  | yIN
   7  7,7  - yO
   7 11,1  | yOWES
+  7  4,2  | zIN
   6  1,3  | AEOLiS
   6  1,3  | AEOLuS
   6  1,3  | AEONS
@@ -5051,6 +5260,7 @@
   6  9,3  | FAsS
   6  9,3  | FAtE
   6  9,3  | FAtS
+  6  9,3  | FAvE
   6  9,3  | FAyS
   6  9,3  | FAzE
   6  4,3  | ION
@@ -5161,6 +5371,7 @@
   6  8,6  | NaM
   6  9,6  | NaTES
   6  8,6  | NiM
+  6  9,6  | NiTES
   6  9,6  | NiTOS
   6  8,6  | NoM
   6  9,6  | NoTES
@@ -5178,6 +5389,7 @@
   6  3,10 | OE
   6  2,8  | OECi
   6 10,2  | OES
+  6  9,2  | OFAy
   6  1,9  | OI
   6  1,9  | OIk
   6  1,9  | OIl
@@ -5464,6 +5676,7 @@
   6  7,7  | fANE
   6  2,1  | fED
   6 10,1  | fEES
+  6  8,6  | fEMS
   6 10,2  | fESS
   6  4,2  | fIEL
   6  1,1  | fLANE
@@ -5511,6 +5724,7 @@
   6  2,2  | iDS
   6  2,8  | iNC
   6  2,8  | iOCS
+  6  1,2  | jALEOS
   6  7,7  | jANE
   6  2,9  | jCL
   6 10,1  | jEES
@@ -5553,6 +5767,7 @@
   6 10,2  | mESO
   6 10,2  | mESS
   6  4,2  | mIEN
+  6  2,8  | mOCS
   6  2,1  | mOD
   6  1,8  | mOI
   6  4,1  | mOISE
@@ -5591,6 +5806,7 @@
   6  7,7  | pANE
   6  1,2  | pANEL
   6  1,1  | pEASON
+  6  2,8  | pECS
   6  2,1  | pED
   6 10,1  | pEES
   6 10,2  | pESO
@@ -5607,6 +5823,7 @@
   6  1,8  | pOI
   6  4,1  | pOISE
   6  8,6  | pOME
+  6  8,6  | pOMS
   6  3,9  | pOS
   6  2,7  | pSEC
   6  1,8  | pSI
@@ -5617,6 +5834,7 @@
   6  2,8  | rECS
   6  2,1  | rED
   6 10,1  | rEES
+  6  1,8  | rEI
   6  8,6  | rEMS
   6  4,2  | rIEL
   6  2,8  | rOCS
@@ -5642,6 +5860,7 @@
   6 10,2  | sESS
   6  4,2  | sIOL
   6  4,2  | sION
+  6  4,6  - sKA
   6  1,1  | sLANE
   6  2,8  | sOCE
   6  2,1  | sOD
@@ -5867,6 +6086,7 @@
   5  9,3  | FAc
   5  9,3  | FAd
   5  9,3  | FAe
+  5  9,3  | FAg
   5  9,3  | FAh
   5  9,3  | FAm
   5  9,3  | FAn
@@ -5904,6 +6124,7 @@
   5  1,2  | LAnES
   5  7,7  | LAnES
   5  1,2  | LApSE
+  5  7,7  | LArEE
   5  1,2  | LArES
   5  7,7  | LArES
   5  1,2  | LArN
@@ -5930,6 +6151,7 @@
   5  9,6  | LOT
   5  9,6  | LOTa
   5  9,6  | LOTh
+  5  9,6  | LOTi
   5  9,6  | LOTo
   5  9,6  | LOTs
   5  9,6  | LST
@@ -5951,6 +6173,8 @@
   5  1,2  | NALe
   5  1,2  | NAOS
   5  1,2  | NASO
+  5  1,2  | NAbES
+  5  7,7  | NAbES
   5  1,2  | NAiL
   5  1,2  | NAmES
   5  7,7  | NAmES
@@ -5976,6 +6200,7 @@
   5  3,9  | NO
   5  4,1  | NOIlS
   5  4,1  | NOIrE
+  5  4,1  | NOIrS
   5  4,1  | NOIsE
   5  9,6  | NOT
   5  9,6  | NOTa
@@ -5988,6 +6213,7 @@
   5  7,11 - Ne
   5  9,6  | NeTE
   5  9,6  | NeTS
+  5  9,6  | NiTE
   5  9,6  | NiTO
   5  9,6  | NiTS
   5  7,11 - No
@@ -6041,6 +6267,7 @@
   5  9,9  - Oy
   5  8,4  | PE
   5  8,4  | PEa
+  5  8,4  | PEc
   5  8,4  | PEd
   5  8,4  | PEe
   5  8,4  | PEg
@@ -6318,6 +6545,7 @@
   5  1,1  | hEALS
   5  3,7  - hEE
   5  8,6  | hEM
+  5  9,6  | hETS
   5  4,2  | hIES
   5  1,4  - hO
   5  2,8  | hOC
@@ -6406,6 +6634,7 @@
   5  7,7  | pASEO
   5  1,1  | pEALS
   5  1,1  | pEANS
+  5  2,8  | pEC
   5  3,7  - pEE
   5  9,6  | pETO
   5  9,6  | pETS
@@ -6459,6 +6688,7 @@
   5  2,8  | tEC
   5  3,7  - tEE
   5  8,6  | tEM
+  5  9,6  | tETS
   5  4,2  | tIES
   5  9,6  | tNT
   5  1,4  - tO
@@ -6709,6 +6939,7 @@
   4  1,2  | LAuS
   4  1,2  | LAvE
   4  7,7  | LAvE
+  4  1,2  | LAvS
   4  1,2  | LAwS
   4  1,2  | LAyS
   4  1,2  | LAzE
@@ -6759,6 +6990,8 @@
   4  1,2  | NASi
   4  1,2  | NASo
   4  1,2  | NASt
+  4  1,2  | NAbE
+  4  7,7  | NAbE
   4  1,2  | NAbS
   4  1,2  | NAcE
   4  7,7  | NAcE
@@ -6774,6 +7007,7 @@
   4  7,7  | NAmE
   4  1,2  | NAnE
   4  7,7  | NAnE
+  4  1,2  | NAnS
   4  1,2  | NAoS
   4  1,2  | NApE
   4  7,7  | NApE
@@ -6805,6 +7039,7 @@
   4  4,2  | NImS
   4  4,2  | NInE
   4  4,2  | NIpS
+  4  4,2  | NItE
   4  4,2  | NItO
   4  4,2  | NItS
   4  4,2  | NIuE
@@ -6899,6 +7134,7 @@
   4  1,1  | ShA
   4  1,1  | SiA
   4  9,6  | SiTE
+  4  1,1  | SkA
   4  1,1  | SlA
   4  1,1  | SmA
   4  1,1  | SpA
@@ -6932,6 +7168,7 @@
   4  4,2  | bIS
   4  1,1  | bLAE
   4  1,1  | bLAS
+  4  1,2  | cALO
   4  1,2  | cALS
   4  1,2  | cANE
   4  1,2  | cANS
@@ -6943,6 +7180,7 @@
   4  1,1  | cOAL
   4  1,1  | cOAN
   4  1,2  | dALE
+  4  1,2  | dALS
   4  1,2  | dANE
   4  7,7  | dASE
   4  1,1  | dEAL
@@ -7031,6 +7269,7 @@
   4  1,1  | mOAN
   4  1,2  | nALE
   4  1,2  | nANE
+  4  1,2  | nANS
   4  1,1  | nEAL
   4  4,2  | nIS
   4  2,2  | oD
@@ -7299,7 +7538,6 @@
   3  4,2  | LIr
   3  4,2  | LIs
   3  4,2  | LIt
-  3  4,2  | LIv
   3  4,2  | LIz
   3  4,1  | LaI
   3  9,6  | LaT
@@ -7317,6 +7555,7 @@
   3  1,2  | NAe
   3  1,2  | NAf
   3  1,2  | NAg
+  3  1,2  | NAh
   3  1,2  | NAk
   3  1,2  | NAm
   3  1,2  | NAn
@@ -7451,6 +7690,7 @@
   3  9,8  | TEl
   3  9,8  | TEm
   3  9,8  | TEn
+  3  9,8  | TEt
   3  9,8  | TEw
   3  9,8  | TEx
   3  9,8  | TEz
@@ -7634,6 +7874,7 @@
   3  1,2  | tAN
   3  1,2  | tAOS
   3  1,1  | tEAS
+  3  9,6  | tET
   3  1,9  | tI
   3  9,6  | tOT
   3  9,6  | tST
@@ -7926,6 +8167,7 @@
   2  1,2  | rAS
   2  7,11 - rE
   2  1,1  | rEA
+  2  4,1  | rEI
   2  4,1  | rOI
   2  1,2  | sAE
   2  1,2  | sAO

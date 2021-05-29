@@ -19,15 +19,19 @@
  42  9,1  | dISLIKE
  42  9,1  | mISLIKE
  39  9,6  | KISLEv
+ 39  9,6  | KIlLIE
  39  9,1  | SIcLIKE
  39  9,1  | SInLIKE
  39  9,1  | dELISK
+ 36  9,6  | KELImS
  36  9,6  | KEvILS
  36  9,6  | KILEyS
  36  9,6  | KILImS
  36  9,6  | KIsSEL
+ 33  9,6  | KILlIE
  33  9,6  | KILtIE
  33  9,6  | KISsEL
+ 33  9,6  | KIbEIS
  33  9,6  | KyLIES
  26  6,4  | IWBELlS
  26  6,4  | IWBElLS
@@ -58,6 +62,7 @@
  22  5,7  - SElLI
  22  9,2  | SWILKIE
  22  7,7  - SWaIL
+ 22  5,7  - SoLEI
  22  9,3  | WELKInS
  22  3,7  - WISELy
  22  3,7  - WaLIES
@@ -98,6 +103,7 @@
  20  4,7  - fLEWS
  20  5,7  - kEWL
  20  5,7  - mEWL
+ 20  4,7  - pLEWS
  20  6,2  | rISIBLE
  20  4,7  - sLEWS
  20  6,2  | vISIBLE
@@ -160,6 +166,8 @@
  18  3,7  - LEWIS
  18 10,2  | LEWISt
  18  5,7  - LEWd
+ 18 10,2  | LWEIS
+ 18  3,7  - LWEIS
  18  5,7  - LaWS
  18  5,7  - LoWE
  18  5,7  - LoWS
@@ -234,6 +242,7 @@
  18  5,7  - dEWS
  18  5,7  - hEWS
  18  5,7  - iIWI
+ 18  5,7  - jEWS
  18  5,7  - kIWI
  18  5,7  - mEWS
  18  5,7  - nEWS
@@ -258,6 +267,7 @@
  17  8,7  - LIIn
  17  3,7  - LIaISE
  17  3,7  - LIlIES
+ 17  3,7  - LWeIS
  17  9,3  | LaWK
  17  3,7  - LeWIE
  17  3,7  - LeWIS
@@ -350,6 +360,7 @@
  16  6,6  | BISIE
  16  6,6  | BIaLI
  16  6,6  | BIbLE
+ 16  6,6  | BIkIES
  16  6,6  | BIlLS
  16  6,6  | BIrLE
  16  6,6  | BIrLS
@@ -393,6 +404,10 @@
  16  3,7  - LEWIs
  16 10,2  | LEWiS
  16  3,7  - LEWiS
+ 16  3,7  - LWEIs
+ 16 10,2  | LWEiS
+ 16  3,7  - LWEiS
+ 16 10,2  | LWeIS
  16 10,2  | LeWIS
  16 10,2  | LoWES
  16  5,7  - SEW
@@ -522,6 +537,7 @@
  16  6,2  | jELIB
  16 10,2  | mEWLS
  16  6,7  - oWE
+ 16 10,2  | pLEWS
  16 10,2  | sLEWS
  16  8,3  | sWEAL
  16  3,7  - tWEIL
@@ -546,6 +562,7 @@
  15  3,7  - SILEnI
  15  9,3  | SILKIE
  15  9,3  | SILKIEr
+ 15  9,3  | SILKIEs
  15  8,7  - SIoL
  15  9,5  | SKeWL
  15  8,4  | SWAIL
@@ -606,6 +623,7 @@
  15  5,7  - fEW
  15  4,7  - hEILS
  15  5,7  - hEW
+ 15  5,7  - jEW
  15  8,5  | kAIWI
  15  3,7  - lILIES
  15  5,7  - mEW
@@ -617,6 +635,7 @@
  15  5,7  - rEW
  15  4,7  - rIELS
  15  5,7  - sEW
+ 15  9,3  | sILKIES
  15  9,5  | sKEWL
  15  5,7  - tEW
  15  4,7  - vEILS
@@ -684,6 +703,7 @@
  14  3,7  - LIvES
  14  3,7  - LWeI
  14  3,7  - LoWE
+ 14  3,7  - LwEIS
  14  8,5  | SAWLIkE
  14 10,6  | SEWIn
  14  3,7  - SEWIn
@@ -822,6 +842,7 @@
  14  9,2  | aLSIKE
  14  5,7  - bELS
  14  5,7  - bILE
+ 14  5,7  - cELS
  14  5,7  - dELI
  14  5,7  - dELS
  14  5,7  - dIEL
@@ -847,6 +868,8 @@
  14  3,7  - lEWIS
  14  5,7  - lILE
  14  2,7  - lILIES
+ 14 10,2  | lWEIS
+ 14  3,7  - lWEIS
  14  5,7  - mELS
  14  5,7  - mILE
  14  5,7  - mILS
@@ -867,6 +890,7 @@
  14  5,7  - sILE
  14 10,2  | sWISS
  14  5,7  - tELI
+ 14  5,7  - tELS
  14  5,7  - tILE
  14  5,7  - tILS
  14 10,2  | vIEWS
@@ -963,6 +987,7 @@
  13  2,7  - SoWLE
  13  7,7  - SrI
  13  7,7  - SsI
+ 13  5,7  - SyLI
  13  8,5  | WAILEd
  13  8,5  | WAILEr
  13  8,5  | WAILS
@@ -996,6 +1021,7 @@
  13  9,4  | aWK
  13  9,3  | bILKIS
  13  9,5  | cKW
+ 13  4,6  - dEBEAKS
  13  7,7  - dEI
  13  6,7  - eW
  13  4,7  - eWES
@@ -1010,6 +1036,7 @@
  13  6,7  - oW
  13  4,7  - oWES
  13  8,3  | pILAWS
+ 13  7,7  - rEI
  13  7,7  - sEI
  13  9,3  | sILKIE
  13  3,7  - sISEL
@@ -1130,6 +1157,7 @@
  12  9,3  | LInKS
  12  5,7  - LInS
  12  5,7  - LIrE
+ 12  5,7  - LIrI
  12  5,7  - LIsE
  12  5,7  - LIsS
  12 10,1  | LIsSES
@@ -1259,6 +1287,7 @@
  12  6,7  - aLS
  12  8,5  | bAWLS
  12  3,7  - bELIS
+ 12  9,4  | bIKIES
  12  3,7  - bILES
  12  9,3  | bILKS
  12  5,7  - bISE
@@ -1300,6 +1329,7 @@
  12  1,7  - mISLIE
  12  8,5  | nAWLE
  12  4,7  - nEIL
+ 12  7,1  | nEWSIE
  12  5,7  - nIES
  12  5,7  - nISI
  12  6,7  - oLE
@@ -1356,6 +1386,7 @@
  11  9,4  | InKLE
  11  8,3  | InWALE
  11  9,6  | KELIa
+ 11  9,6  | KELIm
  11  9,6  | KEWl
  11  9,6  | KEeL
  11  9,6  | KElL
@@ -1411,6 +1442,7 @@
  11  2,7  - LInIE
  11  2,7  - LIpSE
  11  3,7  - LIrE
+ 11  3,7  - LIrI
  11  3,7  - LIsE
  11  3,7  - LItE
  11  3,7  - LItI
@@ -1468,6 +1500,7 @@
  11  9,5  | SKEL
  11  9,5  | SKELf
  11  9,5  | SKELl
+ 11  9,5  | SKELm
  11  9,5  | SKELp
  11  9,5  | SKIL
  11  9,5  | SKILl
@@ -1530,6 +1563,7 @@
  11  4,7  - WEI
  11  9,4  | WEKa
  11  9,4  | WEKi
+ 11  7,1  | WELlIE
  11  7,5  | WELlIES
  11  7,3  | WESE
  11  5,7  - WEd
@@ -1594,6 +1628,7 @@
  11  7,5  | bESEW
  11  3,7  - bISIE
  11  8,5  | cAWL
+ 11  5,7  - cEL
  11  8,5  | dAILIES
  11  5,7  - dEL
  11  5,7  - dIL
@@ -1650,6 +1685,7 @@
  10  6,6  | BLoW
  10  6,6  | BaWL
  10  6,6  | BoWL
+ 10  7,2  | EISWEIn
  10  8,4  | ELAeIS
  10  8,3  | ELIAS
  10 10,2  | ELIaS
@@ -1819,6 +1855,7 @@
  10 10,2  | LoESS
  10 10,2  | LoSES
  10  7,3  | LoWES
+ 10 10,2  | LwEIS
  10 10,2  | LySES
  10 10,2  | LySIS
  10  8,5  | SAILEd
@@ -1951,6 +1988,8 @@
  10 10,6  | SoILS
  10  5,7  - SoL
  10  3,7  - SoLE
+ 10 10,6  | SoLEI
+ 10  2,7  - SoLEI
  10 10,2  | SoLES
  10 10,6  | SoLES
  10  3,7  - SoLI
@@ -1963,6 +2002,9 @@
  10 10,6  | SwILE
  10  2,7  - SwILE
  10  5,7  - SyL
+ 10  3,7  - SyLI
+ 10 10,2  | SyLIS
+ 10 10,6  | SyLIS
  10  8,5  | WAISE
  10  8,5  | WALE
  10  8,5  | WALEd
@@ -1981,6 +2023,7 @@
  10  5,7  - WE
  10  6,4  | WEBS
  10  7,5  | WEEvIL
+ 10  7,5  | WELlIE
  10  7,2  | WESLEy
  10  7,5  | WESLEy
  10  7,2  | WESsEL
@@ -1989,6 +2032,7 @@
  10  7,5  | WEaSEL
  10  7,3  | WEdE
  10  7,5  | WEdEL
+ 10  7,5  | WElLIE
  10  7,1  | WElLIES
  10  7,3  | WEnE
  10  7,3  | WErE
@@ -2129,6 +2173,7 @@
  10  8,2  | pELIAS
  10  4,7  - pIES
  10  9,4  | pIKES
+ 10  9,4  | pIKIS
  10  8,3  | pILAW
  10 10,2  | pILES
  10 10,2  | pILIS
@@ -2268,6 +2313,7 @@
   9  9,6  | KInE
   9  9,6  | KInS
   9  9,6  | KIpS
+  9  9,6  | KIrS
   9  9,6  | KIsS
   9  9,6  | KItE
   9  9,6  | KItS
@@ -2287,7 +2333,9 @@
   9  8,4  | LEASt
   9  4,7  - LEI
   9  9,4  | LEK
+  9  9,4  | LEKe
   9  9,4  | LEKs
+  9  9,4  | LEKu
   9  6,3  | LESBIa
   9  7,2  | LEWiE
   9  7,5  | LEWiE
@@ -2313,9 +2361,11 @@
   9  5,7  - LIr
   9  5,7  - LIs
   9  5,7  - LIt
+  9  7,4  | LWEIS
   9  9,4  | LaKE
   9  5,7  - LaS
   9  5,7  - LeE
+  9  9,4  | LeKE
   9  9,4  | LeKS
   9  5,7  - LiE
   9  9,4  | LiKE
@@ -2464,6 +2514,7 @@
   9  4,7  - WEe
   9  4,7  - WEi
   9  8,3  | WEkAS
+  9  7,1  | WElLIE
   9  7,5  | WElLS
   9  4,7  - WEy
   9  7,1  | WIEnIE
@@ -2537,6 +2588,7 @@
   9  3,7  - gILE
   9  8,2  | gILIA
   9  5,7  - gIS
+  9  8,3  | gLIAS
   9  8,5  | hAILS
   9  8,5  | hAWSE
   9  5,7  - hES
@@ -2580,6 +2632,7 @@
   9  7,3  | nEWELS
   9  7,2  | nEWIES
   9  7,5  | nEWIES
+  9  7,5  | nEWSIE
   9  9,4  | nIKE
   9  3,7  - nILE
   9  5,7  - nIS
@@ -2786,6 +2839,8 @@
   8  6,3  | LImBS
   8  8,1  | LItSEA
   8  7,4  | LWEI
+  8  7,4  | LWEIs
+  8  7,4  | LWEiS
   8  6,4  | LaBIS
   8  4,7  - LaI
   8  8,4  | LeAS
@@ -2816,6 +2871,8 @@
   8  4,7  - SEI
   8 10,6  | SEISe
   8 10,6  | SEISm
+  8 10,2  | SEIfS
+  8 10,6  | SEIfS
   8  8,1  | SELInA
   8  7,1  | SELlIE
   8 10,6  | SESIa
@@ -3094,6 +3151,7 @@
   8  8,5  | jAWS
   8  7,3  | jEWEL
   8  8,5  | kAIL
+  8  6,4  | kIBEIS
   8  8,5  | lAWS
   8  6,5  | lBW
   8 10,2  | lEISS
@@ -3127,6 +3185,7 @@
   8  9,3  | pISK
   8  8,3  | pLEA
   8  6,3  | pLEBS
+  8  7,4  | pLEWS
   8  4,7  - pLI
   8  8,5  | rAIL
   8  8,5  | rAWS
@@ -3362,6 +3421,7 @@
   7  9,6  | KIm
   7  9,6  | KIn
   7  9,6  | KIp
+  7  9,6  | KIr
   7  9,6  | KIt
   7  9,6  | KSi
   7  9,6  | KaL
@@ -3390,6 +3450,7 @@
   7  8,5  | LApSE
   7  8,5  | LApSI
   7  8,5  | LArES
+  7  8,5  | LArIS
   7  8,5  | LAsES
   7  8,5  | LAvES
   7  8,5  | LAzES
@@ -3412,6 +3473,7 @@
   7  4,7  - LEu
   7  7,2  | LEvIES
   7  7,5  | LEvIES
+  7  7,3  | LExES
   7  4,7  - LEy
   7  6,4  | LIB
   7  6,4  | LIBr
@@ -3421,6 +3483,8 @@
   7  8,3  | LISA
   7  7,3  | LISE
   7  7,1  | LISErE
+  7  7,1  | LIStEE
+  7  7,2  | LIStEE
   7  4,7  - LIe
   7  8,3  | LIgAS
   7  7,3  | LIkES
@@ -3492,6 +3556,7 @@
   7  8,3  | SInAL
   7  8,3  | SIsAL
   7  8,3  | SIzAL
+  7  9,5  | SKa
   7  9,5  | SKi
   7  9,5  | SKy
   7  8,4  | SLAE
@@ -3694,6 +3759,7 @@
   7  8,3  | lILAS
   7  7,2  | lILIES
   7  7,4  | lLEW
+  7  7,4  | lWEIS
   7  8,5  | mALES
   7  8,4  | mEALS
   7  8,3  | mELAS
@@ -3724,6 +3790,7 @@
   7  4,7  - pSI
   7  8,5  | rALES
   7  8,4  | rEALS
+  7  4,7  - rEI
   7  7,2  | rELIES
   7  7,5  | rELIES
   7  7,3  | rESEW
@@ -3850,6 +3917,7 @@
   6  6,6  | BIdE
   6  6,6  | BIdI
   6  6,6  | BIdS
+  6  6,6  | BIgS
   6  6,6  | BIkE
   6  6,6  | BIlE
   6  6,6  | BInE
@@ -3880,6 +3948,7 @@
   6  6,6  | BoSE
   6  6,6  | BrEI
   6  6,6  | BrIE
+  6  6,6  | BrIS
   6  6,6  | BrL
   6  6,6  | BtL
   6  6,6  | BuL
@@ -3946,6 +4015,7 @@
   6  4,7  - ISe
   6  7,2  | IStLE
   6 10,3  | IWiS
+  6  9,4  | IcK
   6  7,3  | IdLES
   6  9,4  | IlK
   6  6,4  | ImBE
@@ -3994,6 +4064,7 @@
   6  8,5  | LAtS
   6  8,5  | LAuS
   6  8,5  | LAvE
+  6  8,5  | LAvS
   6  8,5  | LAwS
   6  8,5  | LAyS
   6  8,5  | LAzE
@@ -4017,6 +4088,7 @@
   6  7,3  | LEgE
   6  7,5  | LEgES
   6  7,5  | LEgIS
+  6  7,3  | LEkE
   6  7,3  | LEmE
   6  8,3  | LEnA
   6  7,3  | LEnE
@@ -4033,6 +4105,7 @@
   6  7,2  | LEwIE
   6  7,5  | LEwIE
   6  7,5  | LEwIS
+  6  7,5  | LExES
   6  7,5  | LExIS
   6  7,2  | LIEgE
   6  7,2  | LIEuE
@@ -4196,6 +4269,7 @@
   6 10,6  | SnEW
   6  6,3  | SnIB
   6  9,4  | SoK
+  6  7,3  | SoLEI
   6 10,3  | SoWS
   6 10,6  | SoWS
   6  7,3  | SpEEL
@@ -4341,6 +4415,7 @@
   6  7,3  | cISELE
   6  8,5  | dALE
   6  8,5  | dALI
+  6  8,5  | dALS
   6  6,5  | dBL
   6  5,7  - dE
   6  6,4  | dEBI
@@ -4397,6 +4472,8 @@
   6  6,5  | iBIS
   6 10,3  | iWIS
   6  5,7  - jE
+  6 10,3  | jEWS
+  6  7,5  | jEWS
   6  6,4  | jIBE
   6  6,4  | jIBS
   6  8,5  | kALE
@@ -4485,6 +4562,7 @@
   6  8,5  | tALE
   6  8,5  | tALI
   6  5,7  - tE
+  6  7,5  | tEELS
   6  8,3  | tELA
   6  7,5  | tELEI
   6  7,5  | tELES
@@ -4764,6 +4842,7 @@
   5 10,3  | LeISS
   5 10,3  | LoESS
   5 10,4  | LoSES
+  5  7,4  | LwEIS
   5 10,4  | LySES
   5 10,4  | LySIS
   5  8,5  | SALlE
@@ -4978,6 +5057,7 @@
   5  7,5  | hEW
   5 10,5  | iSLES
   5  8,5  | jAW
+  5  7,5  | jEW
   5  6,4  | jIB
   5  8,5  | kAES
   5  6,4  | kEB
@@ -5052,6 +5132,7 @@
   5  8,4  | sWA
   5  8,5  | tAW
   5  6,5  | tBS
+  5  7,4  | tEELS
   5  7,2  | tEISE
   5  7,5  | tEISE
   5  7,3  | tELEI
@@ -5304,6 +5385,7 @@
   4  7,5  | LEhI
   4 10,3  | LEiS
   4  7,5  | LEiS
+  4  7,5  | LEkE
   4 10,3  | LEkS
   4  7,5  | LEkS
   4  7,5  | LEmE
@@ -5412,6 +5494,7 @@
   4  7,5  | SElL
   4 10,6  | SElL
   4  7,3  | SEmE
+  4  7,3  | SEnE
   4  8,2  | SEpIA
   4  7,3  | SErE
   4  8,2  | SEsIA
@@ -5491,6 +5574,7 @@
   4  7,7  - Si
   4  8,4  | SiA
   4 10,6  | SiLE
+  4  8,4  | SkA
   4  7,3  | SkEE
   4  7,4  | SkEL
   4 10,6  | SkEL
@@ -5512,6 +5596,7 @@
   4  8,3  | SuLA
   4 10,4  | SuSIE
   4  8,4  | SwA
+  4 10,6  | SyLI
   4  6,5  | aB
   4  7,4  | aIEL
   4  7,3  | aILE
@@ -5538,6 +5623,8 @@
   4  7,5  | cEIL
   4  7,3  | cELE
   4  7,5  | cELE
+  4 10,3  | cELS
+  4  7,5  | cELS
   4  7,3  | cLEE
   4  7,4  | cLEE
   4  7,7  - dE
@@ -5672,6 +5759,8 @@
   4  7,3  | tELE
   4  7,5  | tELE
   4  7,5  | tELI
+  4 10,3  | tELS
+  4  7,5  | tELS
   4  7,7  - tI
   4  7,3  | tILE
   4 10,3  | tILS
@@ -5847,6 +5936,7 @@
   3  7,5  | LEv
   3  7,5  | LEx
   3  7,5  | LEy
+  3  7,5  | LEz
   3 10,5  | LSc
   3 10,5  | LSd
   3 10,5  | LSt
@@ -5904,6 +5994,8 @@
   3 10,6  | SEcS
   3 10,3  | SEeS
   3 10,6  | SEeS
+  3 10,3  | SEgS
+  3 10,6  | SEgS
   3 10,3  | SEiS
   3 10,6  | SEiS
   3  7,5  | SElE
@@ -5912,6 +6004,7 @@
   3  7,5  | SEmE
   3  7,5  | SEmI
   3 10,6  | SEmI
+  3  7,5  | SEnE
   3 10,3  | SEpS
   3 10,6  | SEpS
   3  7,5  | SErE
@@ -6033,6 +6126,7 @@
   3  8,5  | cAL
   3  7,4  | cEES
   3  7,5  | cEES
+  3  7,5  | cEL
   3 10,3  | cESS
   3 10,4  | cESS
   3  7,3  | cISE
@@ -6164,6 +6258,7 @@
   3 10,3  | rEIS
   3  7,5  | rEIS
   3  7,5  | rEL
+  3  8,4  | rIAS
   3 10,3  | rIES
   3  7,4  | rIES
   3  7,3  | rISE
@@ -6558,6 +6653,7 @@
   2  8,4  | rEA
   2  7,4  | rEE
   2  7,5  | rEE
+  2  7,5  | rEI
   2 10,4  | rES
   2  7,5  | rES
   2  8,4  | rIA

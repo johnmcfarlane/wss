@@ -26,6 +26,7 @@
  54  2,11 - ZoNER
  54  4,11 - cORTEZ
  54  5,11 - gROZET
+ 54  1,11 - pOTZER
  53  2,11 - ZONEd
  53  2,11 - ZONEr
  53  2,11 - ZONEs
@@ -146,6 +147,7 @@
  32  7,4  | ZONiTE
  32  1,6  - cOZENER
  32  1,10 - cOZENER
+ 32  5,8  - dITZ
  32  5,8  - fITZ
  32  5,8  - lITZ
  32  4,6  - pREZONE
@@ -357,6 +359,10 @@
  28  5,10 - ZEROTh
  28  5,3  | ZEiN
  28  7,3  | ZEiN
+ 28  2,6  - ZEsTER
+ 28  5,6  - ZEsTER
+ 28  2,10 - ZEsTER
+ 28  5,10 - ZEsTER
  28  3,9  - ZONNaR
  28  5,3  | ZOoN
  28  7,3  | ZOoN
@@ -374,6 +380,8 @@
  28  2,10 - gROZET
  28  2,6  - oZONE
  28  2,10 - oZONE
+ 28  2,6  - pOTZER
+ 28  2,10 - pOTZER
  28  2,6  - tERZET
  28  5,6  - tERZET
  28  2,10 - tERZET
@@ -404,6 +412,7 @@
  27  6,9  - NEkTON
  27  6,9  - NEuRON
  27  6,9  - NEwTON
+ 27  6,9  - NONETs
  27  6,9  - NONEnT
  27  3,11 - NOTRe
  27  2,11 - NOTeR
@@ -438,6 +447,7 @@
  27  6,11 - RETaN
  27  6,11 - RETiN
  27  6,11 - REcON
+ 27  6,11 - REdON
  27  6,11 - REwON
  27  6,11 - RONE
  27  6,11 - RONdE
@@ -486,6 +496,7 @@
  27  2,11 - iNTER
  27  1,9  - iNTERN
  27  3,11 - iNTRO
+ 27  1,9  - iNTRON
  27  5,11 - iRONE
  27  5,11 - kRONE
  27  1,9  - kRONEN
@@ -594,6 +605,7 @@
  25  6,7  - FRuZ
  25  6,7  - FiTZ
  25  6,7  - FoRZ
+ 25  6,7  - FuTZ
  25  6,9  - NEOZa
  25  4,11 - NErTZ
  25  7,3  | OZENa
@@ -638,6 +650,7 @@
  24  6,9  - NEsTOR
  24  1,9  - NEuRON
  24  1,9  - NEwTON
+ 24  6,9  - NONaRT
  24  6,9  - NOTERs
  24  1,9  - NOcTEN
  24  3,11 - NOiR
@@ -648,6 +661,7 @@
  24  5,9  - ONZa
  24  3,11 - ONeR
  24  5,11 - ORTEt
+ 24  5,11 - ORZo
  24  5,11 - ORaTE
  24  5,11 - ORlET
  24  5,11 - ORtET
@@ -718,6 +732,7 @@
  24  1,9  - TORmEN
  24  1,9  - TORtEN
  24  2,11 - TOhER
+ 24  2,11 - TOkER
  24  2,11 - TOnER
  24  2,11 - TOpER
  24  2,11 - TOtER
@@ -738,6 +753,7 @@
  24  4,11 - ZER
  24  3,5  - ZERDa
  24  5,4  | ZEROs
+ 24  4,11 - ZERk
  24  4,11 - ZERo
  24  4,11 - ZORi
  24  5,3  | ZeE
@@ -766,8 +782,10 @@
  24  2,11 - nOTER
  24  3,11 - nOTRE
  24  3,11 - oNER
+ 24  5,11 - oRZO
  24  3,11 - pETRO
  24  2,11 - pOTER
+ 24  5,11 - pREZ
  24  5,11 - pROTE
  24  1,9  - pTERON
  24  1,9  - rETORN
@@ -782,6 +800,7 @@
  24  3,11 - uTERO
  24  2,11 - vOTER
  24  5,11 - wROTE
+ 23  6,5  - DiTZ
  23  3,11 - ENOs
  23  3,11 - ENTr
  23  3,11 - EONs
@@ -913,6 +932,8 @@
  21  6,11 - RETs
  21  6,11 - REcT
  21  6,11 - REdO
+ 21  5,6  | REdON
+ 21  7,6  | REdON
  21  6,11 - REeT
  21  6,11 - REfT
  21  6,11 - REgO
@@ -920,6 +941,7 @@
  21  6,11 - REiT
  21  6,11 - REnO
  21  6,11 - REnT
+ 21  6,11 - REpO
  21  6,11 - REpT
  21  6,11 - REsT
  21  6,11 - ROEd
@@ -982,6 +1004,7 @@
  21  3,11 - ThOR
  21  3,11 - TiER
  21  7,6  | TuNER
+ 21  3,11 - TyER
  21  5,4  | ZERo
  21  7,4  | ZETa
  21  5,4  | ZErO
@@ -1056,6 +1079,7 @@
  20  2,8  - aZOTINE
  20  6,11 - dERO
  20  6,11 - dOER
+ 20  6,11 - dORE
  20  6,11 - dORT
  20  6,11 - dOTE
  20  2,9  - eNZONE
@@ -1065,6 +1089,8 @@
  20  7,1  | gROZET
  20  3,8  - iONIZER
  20  2,8  - iRONIZE
+ 20  5,1  | pOTZER
+ 20  7,1  | pOTZER
  20  6,11 - rOER
  20  6,11 - rORT
  20  6,11 - rOTE
@@ -1109,6 +1135,7 @@
  19  5,6  | TEpOR
  19  2,8  - TORyIZE
  19  5,6  | TOhER
+ 19  5,6  | TOkER
  19  5,6  | TOpER
  19  5,6  | TOtER
  19  5,6  | TOyER
@@ -1137,6 +1164,7 @@
  19  4,9  - ZeNTNER
  19  5,2  | ZoNER
  19  7,2  | ZoNER
+ 19  2,8  - ZoOTIER
  19  7,7  | aTONE
  19  5,3  | aZON
  19  7,3  | aZON
@@ -1185,6 +1213,8 @@
  18  7,6  | NaTO
  18  5,6  | NeTE
  18  7,6  | NeTE
+ 18  5,6  | NiTE
+ 18  7,6  | NiTE
  18  5,6  | NiTO
  18  7,6  | NiTO
  18  5,6  | NoTE
@@ -1317,6 +1347,7 @@
  17  7,4  | TONEd
  17  5,4  | TONEs
  17  7,4  | TONEs
+ 17  5,4  | TONEy
  17  4,11 - TORN
  17  7,4  | TORaN
  17  4,11 - TORaN
@@ -1351,9 +1382,12 @@
  17  4,9  - ZONiTE
  17  4,9  - ZONuRE
  17  2,8  - ZOaRITE
+ 17  2,8  - ZOoTIER
  17  3,8  - ZaNIER
  17  5,4  | ZeN
  17  7,4  | ZeN
+ 17  5,4  | ZiN
+ 17  7,4  | ZiN
  17  5,1  | ZlOTE
  17  7,1  | ZlOTE
  17  3,8  - ZoNITE
@@ -1483,8 +1517,10 @@
  16  7,6  | RENu
  16  5,6  | REdO
  16  7,6  | REdO
+ 16  4,11 - REdON
  16  5,6  | REgO
  16  7,6  | REnO
+ 16  5,6  | REpO
  16  6,11 - RON
  16  5,4  | RONE
  16  7,4  | RONE
@@ -1646,6 +1682,8 @@
  16  5,6  | nOTE
  16  5,2  | oOZE
  16  7,2  | oOZE
+ 16  5,2  | oRZO
+ 16  7,2  | oRZO
  16  3,9  - oZONE
  16  4,11 - pERN
  16  5,6  | pETO
@@ -1731,6 +1769,8 @@
  15  5,11 - ORT
  15  5,11 - ORTh
  15  5,11 - ORTs
+ 15  5,2  | ORZo
+ 15  7,2  | ORZo
  15  5,11 - ORaE
  15  4,11 - ORdN
  15  5,11 - ORfE
@@ -1901,6 +1941,7 @@
  15  4,11 - dERO
  15  5,4  | dONE
  15  7,4  | dONE
+ 15  4,11 - dORE
  15  4,11 - dORT
  15  2,5  - dOZED
  15  4,6  - dZEREN
@@ -2112,6 +2153,7 @@
  14  6,11 - REf
  14  6,11 - REg
  14  6,11 - REh
+ 14  6,11 - REi
  14  6,11 - REl
  14  6,11 - REm
  14  6,11 - REn
@@ -2299,6 +2341,7 @@
  14  3,10 - ZONEs
  14  4,9  - ZONa
  14  4,9  - ZONe
+ 14  4,9  - ZONk
  14  3,8  - ZOrI
  14  4,9  - ZaNT
  14  4,9  - ZoNE
@@ -2482,6 +2525,8 @@
  13  7,4  | NeRE
  13  5,4  | NeTE
  13  7,4  | NeTE
+ 13  5,4  | NiTE
+ 13  7,4  | NiTE
  13  5,4  | NiTO
  13  5,4  | NoRE
  13  7,4  | NoRE
@@ -2600,8 +2645,10 @@
  13  5,10 - ZEROs
  13  5,6  - ZEiN
  13  5,10 - ZEiN
+ 13  5,8  - ZIN
  13  5,8  - ZINc
  13  5,8  - ZINg
+ 13  5,8  - ZINs
  13  4,6  - ZOEaE
  13  4,10 - ZOEaE
  13  3,6  - ZOnER
@@ -2643,6 +2690,8 @@
  13  5,8  | dONT
  13  7,8  | dONT
  13  6,11 - dOR
+ 13  5,4  | dORE
+ 13  7,4  | dORE
  13  6,11 - dOT
  13  5,4  | dOTE
  13  7,4  | dOTE
@@ -3068,6 +3117,8 @@
  12  4,6  - OyEZ
  12  4,10 - OyEZ
  12  4,7  - REFrONT
+ 12  5,6  - RENEsT
+ 12  5,10 - RENEsT
  12  1,6  - RENOnE
  12  5,6  - RENOnE
  12  1,10 - RENOnE
@@ -3124,6 +3175,10 @@
  12  5,6  - RETeNE
  12  1,10 - RETeNE
  12  5,10 - RETeNE
+ 12  1,6  - RETiNE
+ 12  5,6  - RETiNE
+ 12  1,10 - RETiNE
+ 12  5,10 - RETiNE
  12  1,6  - RETuNE
  12  5,6  - RETuNE
  12  1,10 - RETuNE
@@ -3139,6 +3194,8 @@
  12  5,2  | REcON
  12  7,2  | REcON
  12  5,4  | REdO
+ 12  5,2  | REdON
+ 12  7,2  | REdON
  12  1,6  - REdONE
  12  5,6  - REdONE
  12  1,10 - REdONE
@@ -3167,6 +3224,7 @@
  12  5,10 - REnONE
  12  5,6  - REpENT
  12  5,10 - REpENT
+ 12  5,4  | REpO
  12  1,6  - REpONE
  12  5,6  - REpONE
  12  1,10 - REpONE
@@ -3527,6 +3585,8 @@
  12  5,10 - ZEEs
  12  5,6  - ZER
  12  5,10 - ZER
+ 12  5,6  - ZERk
+ 12  5,10 - ZERk
  12  5,6  - ZERo
  12  5,10 - ZERo
  12  5,6  - ZETa
@@ -3553,6 +3613,7 @@
  12  3,8  - ZaTI
  12  4,5  - ZeD
  12  4,9  - ZeN
+ 12  4,9  - ZiN
  12  3,8  - ZiTI
  12  3,8  - ZoRI
  12  5,5  - aDZ
@@ -3730,6 +3791,10 @@
  12  5,10 - mERTON
  12  5,6  - mETRON
  12  5,10 - mETRON
+ 12  3,6  - mEZE
+ 12  5,6  - mEZE
+ 12  3,10 - mEZE
+ 12  5,10 - mEZE
  12  5,8  | mON
  12  1,6  - mONTRE
  12  1,10 - mONTRE
@@ -3750,6 +3815,8 @@
  12  3,10 - oOZE
  12  5,8  | pEN
  12  5,8  | pEON
+ 12  5,6  - pEREON
+ 12  5,10 - pEREON
  12  5,8  | pERN
  12  1,6  - pERONE
  12  5,6  - pERONE
@@ -3767,6 +3834,8 @@
  12  5,8  | pORN
  12  2,6  - pOTEEN
  12  2,10 - pOTEEN
+ 12  4,6  - pREZ
+ 12  4,10 - pREZ
  12  6,11 - rE
  12  6,3  | rEDEFINE
  12  4,7  - rEFRONT
@@ -4128,6 +4197,7 @@
  11  5,6  - ZEr
  11  5,10 - ZEr
  11  5,8  - ZIg
+ 11  5,8  - ZIn
  11  5,8  - ZIp
  11  5,8  - ZIt
  11  4,6  - ZeE
@@ -4160,6 +4230,8 @@
  11  7,8  | dERO
  11  5,8  | dOER
  11  7,8  | dOER
+ 11  5,8  | dORE
+ 11  7,8  | dORE
  11  5,8  | dORT
  11  7,8  | dORT
  11  5,8  | dOTE
@@ -4199,6 +4271,8 @@
  11  5,8  | kERO
  11  5,8  | kETO
  11  5,8  | kORE
+ 11  5,6  - lEZ
+ 11  5,10 - lEZ
  11  5,8  - lIZ
  11  5,2  | lONER
  11  7,2  | lONER
@@ -4712,6 +4786,10 @@
  10  7,2  | TEpOR
  10  2,6  - TErNE
  10  2,10 - TErNE
+ 10  5,6  | TEt
+ 10  7,6  | TEt
+ 10  5,8  | TEt
+ 10  7,8  | TEt
  10  5,8  | TEw
  10  7,8  | TEw
  10  5,6  | TEx
@@ -4725,6 +4803,7 @@
  10  5,2  | TONEr
  10  7,2  | TONEr
  10  7,2  | TONEs
+ 10  5,2  | TONEy
  10  3,8  - TONIeR
  10  3,8  - TONItE
  10  4,9  - TONNE
@@ -4750,6 +4829,8 @@
  10  5,6  | TOg
  10  5,2  | TOhER
  10  7,2  | TOhER
+ 10  5,2  | TOkER
+ 10  7,2  | TOkER
  10  5,6  | TOl
  10  7,8  | TOl
  10  5,6  | TOm
@@ -5105,6 +5186,8 @@
  10  5,2  | rOTER
  10  7,2  | rOTER
  10  3,8  - sENIOR
+ 10  2,6  - sENTE
+ 10  2,10 - sENTE
  10  5,8  | sER
  10  7,8  | sER
  10  7,6  | sET
@@ -5125,6 +5208,10 @@
  10  2,10 - sTONE
  10  2,6  - tERNE
  10  2,10 - tERNE
+ 10  5,6  | tET
+ 10  7,6  | tET
+ 10  5,8  | tET
+ 10  7,8  | tET
  10  5,8  - tIENTO
  10  5,8  | tOE
  10  7,8  | tOE
@@ -5238,6 +5325,7 @@
   9  5,9  | EeN
   9  7,9  | EeN
   9  4,7  - EfFORT
+  9  4,8  - ElINT
   9  4,7  - EnFORT
   9  5,9  | EoN
   9  7,9  | EoN
@@ -5292,6 +5380,7 @@
   9  6,7  - FrEN
   9  6,7  - FrEON
   9  6,7  - FsTORE
+  9  6,7  - FuTON
   9  6,8  - IONE
   9  6,8  - InNER
   9  6,8  - InNET
@@ -5310,8 +5399,11 @@
   9  3,7  - NEiF
   9  4,8  - NOIR
   9  4,8  - NOIRe
+  9  4,8  - NOIRs
   9  4,9  - NONET
   9  6,9  - NONET
+  9  4,9  - NONETs
+  9  4,9  - NONaRT
   9  5,4  | NOR
   9  7,4  | NOR
   9  5,2  | NORE
@@ -5578,6 +5670,8 @@
   9  3,8  - TuEIRON
   9  4,8  - TwINE
   9  3,7  - TwOFER
+  9  5,3  | TyER
+  9  7,3  | TyER
   9  5,5  - aDRENO
   9  5,5  - aDRENT
   9  7,7  | aN
@@ -5653,6 +5747,7 @@
   9  2,9  - gERONT
   9  5,4  | gON
   9  7,4  | gON
+  9  2,7  - gONEF
   9  3,9  - gONNE
   9  4,9  - gONNE
   9  5,4  | hEN
@@ -5672,6 +5767,7 @@
   9  7,2  | iNTO
   9  5,1  | iNTRO
   9  7,1  | iNTRO
+  9  5,9  - iNTRON
   9  5,4  | iON
   9  7,4  | iON
   9  5,1  | iRONE
@@ -5973,6 +6069,7 @@
   8  6,8  - INTOnE
   8  6,8  - INTRO
   8  6,8  - INTROd
+  8  6,8  - INTROn
   8  6,8  - INTROs
   8  6,8  - INTiRE
   8  6,8  - ION
@@ -5987,6 +6084,7 @@
   8  6,8  - InNE
   8  6,8  - InTERN
   8  6,8  - InTONE
+  8  6,8  - InTRON
   8  6,8  - IoNE
   8  6,8  - IrONER
   8  6,8  - IsNT
@@ -5998,6 +6096,7 @@
   8  6,9  - NENTa
   8  3,5  - NERD
   8  3,5  - NERDs
+  8  3,5  - NERDy
   8  3,8  - NERITa
   8  3,8  - NERITe
   8  2,8  - NEROIc
@@ -6163,6 +6262,7 @@
   8  7,4  | RET
   8  3,8  - RETIN
   8  3,8  - RETINa
+  8  3,8  - RETINe
   8  3,8  - RETINt
   8  2,8  - RETaIN
   8  2,6  - REThE
@@ -6236,6 +6336,7 @@
   8  7,4  | ReN
   8  3,9  - ReNN
   8  4,9  - ReNNE
+  8  3,8  - ReTINE
   8  4,5  - RiDENT
   8  5,4  | RiN
   8  7,4  | RiN
@@ -6590,6 +6691,7 @@
   8  3,9  - iNONE
   8  5,9  - iNONE
   8  5,9  | iNT
+  8  3,8  - iNTI
   8  1,5  - iNTOED
   8  1,5  - iNTROD
   8  5,2  | iONE
@@ -6801,6 +6903,7 @@
   7  3,5  - ENODe
   7  5,9  - ENORm
   7  5,9  - ENORn
+  7  2,8  - ENOkI
   7  5,9  - ENROl
   7  3,6  - ENTEROn
   7  3,10 - ENTEROn
@@ -7035,7 +7138,9 @@
   7  5,4  | NEw
   7  7,4  | NEw
   7  5,8  - NIOTa
+  7  5,8  - NITE
   7  5,8  - NITEr
+  7  5,8  - NITEs
   7  5,8  - NITO
   7  5,8  - NITOn
   7  5,8  - NITOs
@@ -7059,6 +7164,7 @@
   7  3,8  - NORIa
   7  3,8  - NORIc
   7  3,8  - NORIe
+  7  3,8  - NORIs
   7  3,8  - NORIt
   7  6,9  - NORTh
   7  5,2  | NORa
@@ -7156,6 +7262,8 @@
   7  4,7  - NiFE
   7  5,4  | NiT
   7  7,4  | NiT
+  7  5,2  | NiTE
+  7  7,2  | NiTE
   7  5,2  | NiTO
   7  7,2  | NiTO
   7  2,9  - NiTON
@@ -7176,6 +7284,7 @@
   7  5,2  | NoTE
   7  7,2  | NoTE
   7  7,8  | Nu
+  7  3,5  - NuRD
   7  5,5  | OE
   7  7,5  | OE
   7  3,8  - OENIn
@@ -7258,7 +7367,9 @@
   7  7,9  | Ox
   7  5,7  | Oy
   7  5,9  | Oy
+  7  4,5  - REDON
   7  4,5  - REDONe
+  7  4,5  - REDONs
   7  4,5  - REDOuT
   7  4,7  - REFT
   7  4,7  - REFfO
@@ -7289,6 +7400,7 @@
   7  7,1  | REcTO
   7  5,2  | REdO
   7  7,2  | REdO
+  7  2,9  - REdON
   7  3,7  - REeF
   7  3,8  - REgIN
   7  5,2  | REgO
@@ -7298,6 +7410,8 @@
   7  5,2  | REnO
   7  7,2  | REnO
   7  3,8  - REpIN
+  7  5,2  | REpO
+  7  7,2  | REpO
   7  3,8  - REsIN
   7  3,8  - REtIN
   7  3,8  - REwIN
@@ -7430,6 +7544,7 @@
   7  4,9  - TONEd
   7  4,9  - TONEr
   7  4,9  - TONEs
+  7  4,9  - TONEy
   7  3,8  - TONIc
   7  5,2  | TONe
   7  7,2  | TONe
@@ -7634,6 +7749,8 @@
   7  3,9  - dONN
   7  5,4  | dOR
   7  7,4  | dOR
+  7  5,2  | dORE
+  7  7,2  | dORE
   7  5,4  | dOT
   7  7,4  | dOT
   7  5,2  | dOTE
@@ -7960,6 +8077,8 @@
   7  3,8  - tENIO
   7  4,9  - tENOR
   7  2,8  - tERTIO
+  7  5,4  | tET
+  7  7,4  | tET
   7  2,9  - tETON
   7  5,6  | tO
   7  5,8  | tO
@@ -8050,6 +8169,7 @@
   6  6,5  - DERO
   6  6,5  - DEROg
   6  6,5  - DERTh
+  6  6,5  - DETOx
   6  6,5  - DETiN
   6  6,5  - DEcOR
   6  6,5  - DEmOT
@@ -8066,6 +8186,7 @@
   6  6,5  - DONnE
   6  6,5  - DONoR
   6  6,5  - DONuT
+  6  6,5  - DORE
   6  6,5  - DOREe
   6  6,5  - DOREy
   6  6,5  - DORT
@@ -8211,6 +8332,7 @@
   6  6,8  - INRo
   6  6,8  - INT
   6  6,8  - INTa
+  6  6,8  - INTi
   6  6,8  - INTl
   6  6,8  - INTo
   6  6,8  - INTr
@@ -8270,6 +8392,7 @@
   6  5,8  - NIlE
   6  5,8  - NInE
   6  5,8  - NIsT
+  6  5,8  - NItE
   6  5,8  - NItO
   6  5,8  - NIuE
   6  5,8  - NIxE
@@ -8421,6 +8544,7 @@
   6  3,9  - OxEN
   6  4,5  - REDTOp
   6  4,5  - REDaN
+  6  4,5  - REDoN
   6  4,7  - REF
   6  4,7  - REFl
   6  4,7  - REFr
@@ -8431,6 +8555,8 @@
   6  5,6  - RENET
   6  3,10 - RENET
   6  5,10 - RENET
+  6  3,6  - RENEsT
+  6  3,10 - RENEsT
   6  5,6  - RENTE
   6  5,10 - RENTE
   6  4,9  - RENeT
@@ -8489,6 +8615,7 @@
   6  3,6  - REsENT
   6  3,10 - REsENT
   6  3,8  - REsIT
+  6  2,5  - REsOD
   6  5,4  | REt
   6  7,4  | REt
   6  3,6  - REtENT
@@ -8507,6 +8634,7 @@
   6  4,8  - ROIT
   6  4,9  - RONdE
   6  3,8  - ROTI
+  6  3,8  - ROTIs
   6  5,2  | ROTa
   6  7,2  | ROTa
   6  2,9  - ROTaN
@@ -8561,6 +8689,7 @@
   6  3,10 - RaTEEN
   6  5,2  | RaTO
   6  7,2  | RaTO
+  6  4,5  - ReDON
   6  5,3  | ReE
   6  7,3  | ReE
   6  5,4  | ReE
@@ -8661,6 +8790,8 @@
   6  7,4  | TEn
   6  3,5  - TEnDO
   6  3,8  - TEnIO
+  6  5,4  | TEt
+  6  7,4  | TEt
   6  5,4  | TEw
   6  7,4  | TEw
   6  7,4  | TEx
@@ -9083,6 +9214,8 @@
   6  5,9  | oRT
   6  7,9  | oRT
   6  4,9  - pENT
+  6  3,6  - pEREON
+  6  3,10 - pEREON
   6  3,7  - pERF
   6  5,8  - pIERT
   6  5,8  - pINE
@@ -9100,6 +9233,7 @@
   6  3,7  - pROF
   6  4,6  - pTERON
   6  4,10 - pTERON
+  6  4,5  - rEDON
   6  4,7  - rEFR
   6  4,7  - rEFT
   6  4,9  - rENO
@@ -9196,6 +9330,7 @@
   5  6,5  - DEcO
   5  6,5  - DEdO
   5  6,5  - DEeR
+  5  6,5  - DEeT
   5  6,5  - DEfT
   5  6,5  - DEmO
   5  6,5  - DEnT
@@ -9229,6 +9364,7 @@
   5  6,5  - DOnT
   5  6,5  - DOoR
   5  6,5  - DOpE
+  5  6,5  - DOrE
   5  6,5  - DOrR
   5  6,5  - DOrT
   5  6,5  - DOsE
@@ -9255,6 +9391,7 @@
   5  6,5  - DaTO
   5  6,5  - DcOR
   5  6,5  - DeER
+  5  6,5  - DeET
   5  6,5  - DeRE
   5  6,5  - DeRO
   5  6,5  - DiER
@@ -9264,6 +9401,7 @@
   5  6,5  - DiTE
   5  6,5  - DoER
   5  6,5  - DoOR
+  5  6,5  - DoRE
   5  6,5  - DoRT
   5  6,5  - DoTE
   5  6,5  - DoTO
@@ -9328,6 +9466,7 @@
   5  6,6  - ETEN
   5  4,10 - ETEN
   5  6,10 - ETEN
+  5  4,8  - ETIc
   5  4,9  - ETNa
   5  6,6  - ETON
   5  6,10 - ETON
@@ -9585,6 +9724,7 @@
   5  3,6  - NeTER
   5  3,10 - NeTER
   5  4,5  - NiDE
+  5  6,9  - NiTE
   5  3,6  - NiTER
   5  3,10 - NiTER
   5  6,9  - NiTO
@@ -9704,12 +9844,14 @@
   5  5,4  | RE
   5  7,4  | RE
   5  4,5  - REDO
+  5  4,5  - REDOn
   5  4,5  - REDOs
   5  4,5  - REDOx
   5  4,6  - REEN
   5  5,6  - REEN
   5  4,10 - REEN
   5  5,10 - REEN
+  5  4,8  - REI
   5  4,8  - REId
   5  4,8  - REIf
   5  4,8  - REIm
@@ -9766,11 +9908,15 @@
   5  5,6  - REcON
   5  5,10 - REcON
   5  3,5  - REdD
+  5  5,6  - REdON
+  5  5,10 - REdON
   5  5,3  | REe
   5  7,3  | REe
   5  3,5  - REeD
   5  3,9  - REeN
   5  3,5  - REgD
+  5  5,3  | REi
+  5  7,3  | REi
   5  3,5  - REiD
   5  3,9  - REiN
   5  3,8  - REkI
@@ -9885,6 +10031,7 @@
   5  3,10 - RhEEN
   5  4,10 - RhEEN
   5  3,8  - RhEIN
+  5  4,7  - RiF
   5  4,9  - RiNE
   5  4,5  - RoDEO
   5  3,5  - RoED
@@ -10019,6 +10166,8 @@
   5  3,10 - TONEr
   5  3,6  - TONEs
   5  3,10 - TONEs
+  5  3,6  - TONEy
+  5  3,10 - TONEy
   5  4,9  - TONe
   5  4,9  - TONg
   5  4,9  - TONk
@@ -10400,6 +10549,7 @@
   5  3,10 - lOREN
   5  3,8  - lORI
   5  3,9  - lORN
+  5  3,8  - lOTI
   5  5,5  - mDNT
   5  3,5  - mEND
   5  3,6  - mETEOR
@@ -10418,6 +10568,7 @@
   5  3,9  - nEON
   5  3,8  - nERI
   5  3,8  - nETI
+  5  5,8  - nITE
   5  5,8  - nITO
   5  3,6  - nONET
   5  3,10 - nONET
@@ -10491,6 +10642,8 @@
   5  3,5  - sEND
   5  5,6  - sENOR
   5  5,10 - sENOR
+  5  5,6  - sENTE
+  5  5,10 - sENTE
   5  3,8  - sERI
   5  5,6  - sERON
   5  5,10 - sERON
@@ -10620,7 +10773,9 @@
   4  6,5  - DOEs
   4  6,5  - DOR
   4  6,5  - DORa
+  4  6,5  - DORe
   4  6,5  - DORi
+  4  6,5  - DORk
   4  6,5  - DORm
   4  6,5  - DORp
   4  6,5  - DORr
@@ -10917,6 +11072,7 @@
   4  5,8  - NIEs
   4  5,8  - NIOg
   4  5,8  - NIT
+  4  5,8  - NITe
   4  5,8  - NITo
   4  5,8  - NITs
   4  6,9  - NO
@@ -10980,6 +11136,8 @@
   4  3,6  - NeTE
   4  3,10 - NeTE
   4  3,8  - NeTI
+  4  3,6  - NiTE
+  4  3,10 - NiTE
   4  5,4  | No
   4  7,4  | No
   4  4,5  - NoD
@@ -11193,6 +11351,7 @@
   4  4,5  - ReDO
   4  4,6  - ReEN
   4  4,10 - ReEN
+  4  4,8  - ReI
   4  3,8  - ReTIE
   4  4,6  - RgEN
   4  4,10 - RgEN
@@ -11298,6 +11457,8 @@
   4  3,10 - TOREt
   4  3,6  - TOhER
   4  3,10 - TOhER
+  4  3,6  - TOkER
+  4  3,10 - TOkER
   4  3,6  - TOnER
   4  3,10 - TOnER
   4  3,6  - TOpEE
@@ -11773,6 +11934,10 @@
   4  4,10 - sEEN
   4  5,10 - sEEN
   4  4,9  - sEN
+  4  3,6  - sENE
+  4  5,6  - sENE
+  4  3,10 - sENE
+  4  5,10 - sENE
   4  5,6  - sENT
   4  5,10 - sENT
   4  3,6  - sNEE
@@ -12334,6 +12499,8 @@
   3  5,10 - REnO
   3  5,6  - REnT
   3  5,10 - REnT
+  3  5,6  - REpO
+  3  5,10 - REpO
   3  5,6  - REpT
   3  5,10 - REpT
   3  5,6  - REsT
@@ -12596,6 +12763,8 @@
   3  4,6  - TyEE
   3  3,10 - TyEE
   3  4,10 - TyEE
+  3  4,6  - TyER
+  3  4,10 - TyER
   3  3,6  - TyRE
   3  3,10 - TyRE
   3  5,5  - aDO
@@ -12678,6 +12847,10 @@
   3  5,6  - dEER
   3  4,10 - dEER
   3  5,10 - dEER
+  3  4,6  - dEET
+  3  5,6  - dEET
+  3  4,10 - dEET
+  3  5,10 - dEET
   3  5,6  - dEN
   3  5,10 - dEN
   3  3,6  - dERE
@@ -12691,6 +12864,8 @@
   3  4,6  - dOER
   3  4,10 - dOER
   3  4,8  - dOIT
+  3  3,6  - dORE
+  3  3,10 - dORE
   3  3,6  - dOTE
   3  3,10 - dOTE
   3  3,6  - dREE
@@ -13082,6 +13257,7 @@
   3  5,10 - zEN
   3  5,6  - zERO
   3  5,10 - zERO
+  3  5,8  - zIN
   2  6,5  - Da
   2  6,5  - De
   2  6,5  - Di
@@ -13255,6 +13431,8 @@
   2  5,10 - REg
   2  5,6  - REh
   2  5,10 - REh
+  2  5,6  - REi
+  2  5,10 - REi
   2  5,6  - REl
   2  5,10 - REl
   2  5,6  - REm
@@ -13278,6 +13456,7 @@
   2  5,8  - RIc
   2  5,8  - RId
   2  5,8  - RIe
+  2  5,8  - RIf
   2  5,8  - RIg
   2  5,8  - RIk
   2  5,8  - RIm
@@ -13322,6 +13501,8 @@
   2  5,10 - TEm
   2  5,6  - TEn
   2  5,10 - TEn
+  2  5,6  - TEt
+  2  5,10 - TEt
   2  5,6  - TEw
   2  5,10 - TEw
   2  5,6  - TEx
@@ -13499,6 +13680,7 @@
   2  5,6  - kET
   2  5,10 - kET
   2  5,8  - kIE
+  2  5,8  - kIR
   2  5,8  - kIT
   2  4,8  - kOI
   2  4,6  - lEE
@@ -13579,6 +13761,7 @@
   2  5,6  - rEE
   2  4,10 - rEE
   2  5,10 - rEE
+  2  4,8  - rEI
   2  5,6  - rET
   2  5,10 - rET
   2  5,8  - rIE
@@ -13612,6 +13795,8 @@
   2  5,6  - tEE
   2  4,10 - tEE
   2  5,10 - tEE
+  2  5,6  - tET
+  2  5,10 - tET
   2  5,8  - tIE
   2  5,8  - tIT
   2  5,10 | tO

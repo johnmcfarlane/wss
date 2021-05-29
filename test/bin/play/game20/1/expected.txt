@@ -3,6 +3,7 @@
  26  6,2  | WAIREPO
  26  2,5  | WAIREPO
  26  2,7  - WAP
+ 26  2,7  - WOP
  24  1,7  - PROW
  24  1,7  - WRAP
  21  1,7  - AREW
@@ -74,10 +75,10 @@
  16  3,6  | BEPAW
  16  2,2  | OPERA
  16  5,3  | PARVE
+ 16  5,3  | PARVO
  16  6,2  | POIRE
  16  2,2  | PORIA
  16  5,3  | PROVE
- 16  5,6  | VERPA
  16  5,3  | WAIVE
  16  5,3  | WARVE
  16  6,5  - WIPE
@@ -117,6 +118,7 @@
  14  5,5  | AVOWER
  14  2,7  - EAR
  14  2,7  - EIR
+ 14  6,5  - PAREO
  14  5,4  | PAVIER
  14  5,4  | PAVIOR
  14  6,5  - PAW
@@ -128,6 +130,7 @@
  14  4,4  | PRO
  14  6,5  - PWR
  14  5,3  | REAVOW
+ 14  2,7  - REI
  14  2,7  - RIE
  14  2,7  - RIO
  14  2,7  - ROE
@@ -137,6 +140,8 @@
  14  6,7  - WAP
  14  5,4  | WAVIER
  14  4,4  | WOO
+ 14  6,5  - WOP
+ 14  6,7  - WOP
  14  4,4  | WRO
  13  6,5  - AREW
  13  5,5  | AVOWE
@@ -190,6 +195,7 @@
  12  5,4  | PAVER
  12  3,4  | PEBA
  12  1,7  - REA
+ 12  1,7  - REI
  12  1,7  - RIA
  12  1,7  - RIE
  12  1,7  - RIO
@@ -267,6 +273,7 @@
  10  6,5  - OWER
  10  6,7  - OWER
  10  6,5  - PA
+ 10  4,2  | PAREO
  10  6,5  - PE
  10  6,5  - PI
  10  6,5  - PO
@@ -277,6 +284,8 @@
  10  6,5  - RAPE
  10  6,7  - RAPE
  10  3,4  | REBIA
+ 10  6,5  - REPO
+ 10  6,7  - REPO
  10  6,5  - RIPE
  10  6,7  - RIPE
  10  6,5  - ROPE
@@ -335,6 +344,7 @@
   9  4,3  | PROO
   9  3,4  | RABI
   9  3,3  | RAOB
+  9  4,3  | REPO
   9  3,4  | RIBE
   9  3,4  | ROBE
   9  4,4  | ROOP
@@ -349,6 +359,7 @@
   9  5,6  | VIRE
   9  5,6  | VOAR
   9  2,5  | WAP
+  9  4,5  | WOP
   9  4,5  | WORE
   8  3,5  | ABO
   8  3,5  | ABR
@@ -383,8 +394,12 @@
   8  6,7  - OWE
   8  2,3  | PARAO
   8  2,5  | PARAO
+  8  6,3  | PAREO
+  8  2,5  | PAREO
   8  2,3  | PERAI
   8  6,5  | PERAI
+  8  6,3  | PEREA
+  8  6,5  | PEREA
   8  6,5  - RAP
   8  6,7  - RAP
   8  5,4  | RAVE
@@ -482,6 +497,7 @@
   7  2,4  | REAP
   7  6,5  | REAP
   7  3,4  | REB
+  7  6,5  | REPO
   7  5,4  | REV
   7  3,4  | RIB
   7  6,3  | RIPE
@@ -602,6 +618,8 @@
   5  2,5  | RAIAE
   5  6,5  - REA
   5  6,7  - REA
+  5  6,5  - REI
+  5  6,7  - REI
   5  6,5  - RIA
   5  6,7  - RIA
   5  6,5  - RIE
@@ -688,6 +706,7 @@
   3  6,5  | REA
   3  6,4  | REE
   3  6,5  | REE
+  3  6,5  | REI
   3  2,4  | RIA
   3  6,4  | RIE
   3  6,4  | ROE

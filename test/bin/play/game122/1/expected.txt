@@ -158,6 +158,7 @@
  25  7,5  | WiZEN
  25  5,2  | WoRN
  25  5,5  | ZER
+ 25  5,5  | ZERk
  25  5,5  | ZERo
  25  5,2  | hERB
  25  7,3  | uNBE
@@ -188,6 +189,7 @@
  24  5,5  | ZEn
  24  5,5  | ZEr
  24  5,5  | ZeN
+ 24  5,5  | ZiN
  24  5,1  | aREW
  24  5,1  | bREW
  24  5,1  | cREW
@@ -288,6 +290,7 @@
  22  2,2  - hEBREW
  22  5,2  - hEBREW
  22  5,2  | hEW
+ 22  5,2  | jEW
  22  5,2  | mEW
  22  5,2  | nEB
  22  5,2  | nEW
@@ -548,6 +551,8 @@
  18  3,4  - aWBER
  18  5,2  | bEN
  18  5,2  | dEN
+ 18  3,4  - dWEEB
+ 18  4,4  - dWEEB
  18  5,2  | eEN
  18  5,2  | fEN
  18  5,2  | hEN
@@ -1155,7 +1160,11 @@
  14  3,3  - iBEX
  14  7,3  | iRE
  14  5,4  - kERB
+ 14  5,5  | lEZ
+ 14  7,5  | lEZ
  14  5,5  - mAZER
+ 14  3,4  - mEZE
+ 14  5,4  - mEZE
  14  3,3  - oBEX
  14  7,4  | oWER
  14  5,5  - rAZER
@@ -1504,6 +1513,7 @@
  12  3,5  - REBAWl
  12  5,1  | REa
  12  5,1  | REe
+ 12  7,1  | REi
  12  5,1  | REx
  12  7,1  | REx
  12  3,2  - RaZE
@@ -1573,6 +1583,8 @@
  12  5,4  - ZEEs
  12  5,2  - ZER
  12  5,4  - ZER
+ 12  5,2  - ZERk
+ 12  5,4  - ZERk
  12  5,2  - ZERo
  12  5,4  - ZERo
  12  4,6  - ZETa
@@ -1602,11 +1614,15 @@
  12  4,4  - jEEZ
  12  5,5  - lAZE
  12  5,5  - mAZE
+ 12  3,2  - mEZE
+ 12  5,2  - mEZE
  12  3,2  - mZEE
  12  4,2  - mZEE
  12  4,4  - mZEE
  12  5,5  - nAZE
  12  5,3  - oXEN
+ 12  4,2  - pREZ
+ 12  4,4  - pREZ
  12  5,5  - rAZE
  12  4,4  - tWEEN
  12  4,5  - tZAR
@@ -1679,6 +1695,8 @@
  11  3,5  - NEWARk
  11  3,4  - NEWER
  11  5,4  - NEWER
+ 11  5,5  | NaBE
+ 11  7,5  | NaBE
  11  5,5  | NaRW
  11  7,5  | NaRW
  11  3,4  - REBENd
@@ -1770,6 +1788,8 @@
  11  3,3  - gREX
  11  7,6  | hERB
  11  5,4  - hEWN
+ 11  5,2  - lEZ
+ 11  5,4  - lEZ
  11  5,3  | oE
  11  5,3  | oR
  11  5,3  - oXER
@@ -2041,6 +2061,8 @@
  10  5,4  - dENEB
  10  4,3  - dEX
  10  2,6  - dRENT
+ 10  3,2  - dWEEB
+ 10  4,2  - dWEEB
  10  5,6  | eBEN
  10  7,6  | eBEN
  10  7,4  | eW
@@ -2472,6 +2494,8 @@
   8  6,4  - ErNE
   8  6,4  - EsNE
   8  6,4  - EyNE
+  8  5,5  - NABE
+  8  5,5  - NABEs
   8  5,5  - NARW
   8  7,4  | NE
   8  5,5  | NE
@@ -2555,6 +2579,7 @@
   8  3,5  - REbAB
   8  5,4  - REeN
   8  7,5  | REeN
+  8  3,5  - REhAB
   8  5,4  - REiN
   8  7,5  | REiN
   8  5,4  - REnN
@@ -2681,6 +2706,7 @@
   8  7,5  | hEW
   8  3,4  - hEWE
   8  5,4  - hEWE
+  8  5,5  | jEW
   8  5,5  | kEB
   8  5,4  - kEEN
   8  5,4  - kERN
@@ -2925,6 +2951,7 @@
   7  6,4  - EyREN
   7  3,5  - EzBA
   7  5,5  - NAB
+  7  5,5  - NABe
   7  5,5  - NABk
   7  5,5  - NABs
   7  5,5  - NABu
@@ -2958,6 +2985,8 @@
   7  3,5  - NEwAR
   7  3,4  - NEwER
   7  5,4  - NEwER
+  7  3,2  - NaBE
+  7  3,4  - NaBE
   7  4,4  - NaE
   7  5,5  | NaE
   7  7,5  | NaE
@@ -3002,6 +3031,7 @@
   7  2,4  - REbBE
   7  7,4  | REe
   7  7,4  | REh
+  7  7,4  | REi
   7  3,4  - REmEN
   7  5,4  - REmEN
   7  3,2  - REnEW
@@ -3534,6 +3564,7 @@
   6  7,5  | REg
   6  2,5  - REgNA
   6  7,5  | REh
+  6  7,5  | REi
   6  2,5  - REiNA
   6  7,5  | REl
   6  7,5  | REm
@@ -3744,6 +3775,7 @@
   6  4,2  - bREW
   6  4,4  - bREW
   6  5,5  - cANER
+  6  5,5  - cARB
   6  5,5  - cARNE
   6  3,4  - cENE
   6  5,4  - cENE
@@ -3806,11 +3838,13 @@
   6  5,2  - kERB
   6  3,4  - lENE
   6  5,4  - lENE
+  6  5,5  - mABE
   6  4,5  - mEAW
   6  5,5  | mEN
   6  7,5  | mEN
   6  3,4  - mENE
   6  5,4  - mENE
+  6  5,5  - nABE
   6  5,5  - nARW
   6  3,4  - nENE
   6  5,4  - nENE
@@ -3830,6 +3864,8 @@
   6  5,5  - sANER
   6  3,5  - sEBA
   6  7,5  | sEN
+  6  3,4  - sENE
+  6  5,4  - sENE
   6  5,2  - sERB
   6  5,6  - sTEW
   6  5,5  | tEN
@@ -4286,6 +4322,8 @@
   5  5,5  - jAB
   5  5,5  - jAW
   5  5,4  - jEER
+  5  5,2  - jEW
+  5  5,4  - jEW
   5  5,5  - kAB
   5  4,5  - kEARN
   5  5,2  - kEB
@@ -4555,6 +4593,7 @@
   4  5,5  - NARr
   4  5,5  - NARw
   4  5,5  - NARy
+  4  5,5  - NAbE
   4  5,5  - NAcE
   4  5,5  - NAiR
   4  5,5  - NAkE
@@ -4634,6 +4673,7 @@
   4  3,2  - NeRE
   4  3,4  - NeRE
   4  4,6  - NeTE
+  4  4,6  - NiTE
   4  3,2  - NoRE
   4  3,4  - NoRE
   4  4,6  - NoTE
@@ -4797,6 +4837,7 @@
   4  5,2  - gENE
   4  3,6  - gENT
   4  4,5  - gNAR
+  4  4,5  - gRAN
   4  5,5  - hAEN
   4  5,5  - hARN
   4  7,4  | hE
@@ -4875,6 +4916,8 @@
   4  5,2  - sEEN
   4  4,4  - sEEN
   4  3,5  - sENA
+  4  3,2  - sENE
+  4  5,2  - sENE
   4  3,6  - sENT
   4  3,2  - sNEE
   4  4,2  - sNEE
@@ -5054,6 +5097,7 @@
   3  5,5  - NAe
   3  5,5  - NAf
   3  5,5  - NAg
+  3  5,5  - NAh
   3  5,5  - NAk
   3  5,5  - NAm
   3  5,5  - NAn
@@ -5200,6 +5244,7 @@
   3  6,6  - ToN
   3  6,6  - ToRE
   3  6,6  - TuN
+  3  6,6  - TyER
   3  6,6  - TyRE
   3  5,1  | aE
   3  7,1  | aE
@@ -5633,6 +5678,8 @@
   2  5,4  - REg
   2  5,2  - REh
   2  5,4  - REh
+  2  5,2  - REi
+  2  5,4  - REi
   2  5,2  - REl
   2  5,4  - REl
   2  5,2  - REm
@@ -5686,6 +5733,7 @@
   2  6,6  - TEl
   2  6,6  - TEm
   2  6,6  - TEn
+  2  6,6  - TEt
   2  6,6  - TEw
   2  6,6  - TEx
   2  6,6  - TEz
@@ -5874,6 +5922,7 @@
   2  5,2  - tEE
   2  4,4  - tEE
   2  5,4  - tEE
+  2  4,6  - tET
   2  4,5  - tRA
   2  4,6  - tRT
   2  4,5  - uRA

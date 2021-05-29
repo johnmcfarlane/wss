@@ -162,6 +162,7 @@
  20  6,6  | LECHe
  20  6,6  | LEaCH
  20  6,6  | LEeCH
+ 20  6,6  | LEkVAR
  20  6,6  | LEnCH
  20  6,6  | LEtCH
  20  6,6  | LEuCH
@@ -754,6 +755,7 @@
  13 11,1  | kETA
  13  2,5  - lACHE
  13 11,1  | lATE
+ 13  2,5  - mACHE
  13 11,1  | mATE
  13 11,1  | mETA
  13  2,5  - nACHE
@@ -873,8 +875,6 @@
  12  2,5  - VARvE
  12  2,5  - VAiRE
  12  6,4  | VELiC
- 12  2,5  - VERpA
- 12  2,7  - VERpA
  12  2,5  - VERsA
  12  2,7  - VERsA
  12  6,5  | VLACh
@@ -1085,9 +1085,8 @@
  11  6,3  | mEAL
  11  6,3  | mERL
  11  2,5  - nACRE
+ 11  5,7  - nAH
  11  5,7  - pAH
- 11  2,5  - pERCA
- 11  2,7  - pERCA
  11  5,7  - rAH
  11  4,5  - rHEAE
  11 11,2  | rTE
@@ -1172,7 +1171,9 @@
  10  2,5  - HERmA
  10  2,7  - HERmA
  10  3,7  - HERo
+ 10  6,6  | LAREe
  10  6,6  | LAREs
+ 10  6,6  | LAReE
  10  6,6  | LARgE
  10  6,6  | LARvE
  10  6,6  | LAcER
@@ -1251,6 +1252,7 @@
  10  3,5  - dEVA
  10  3,7  - dEVA
  10  3,5  - eAVE
+ 10  3,5  - fAVE
  10  6,5  | fLCHE
  10  4,4  - fREAK
  10  3,5  - gAVE
@@ -1514,6 +1516,8 @@
   9  5,4  - tEAK
   9  3,5  - tECA
   9  3,7  - tECA
+  9 11,1  | tET
+  9  5,1  - tHEBE
   9  5,4  - tREK
   9 11,1  | tRT
   9  6,7  - uH
@@ -1532,6 +1536,7 @@
   9  5,4  - yERK
   9 11,1  | yET
   9 11,1  | zAT
+  9  5,4  - zERK
   8  4,1  - AERoBE
   8  6,5  | ALCE
   8  6,5  | ALCEs
@@ -1622,6 +1627,7 @@
   8  6,6  | LAV
   8  6,6  | LAVa
   8  6,6  | LAVe
+  8  6,6  | LAVs
   8  6,6  | LAVy
   8  6,6  | LEV
   8  6,6  | LEVa
@@ -1704,6 +1710,7 @@
   8  7,6  | SHRAmE
   8  7,6  | SHRApE
   8  7,6  | SHRAvE
+  8  7,6  | SHmEAR
   8  7,6  | SHoREA
   8  7,6  | SVcE
   8  7,6  | SaCAE
@@ -1822,12 +1829,15 @@
   7  6,4  | CALk
   7  6,4  | CALl
   7  6,4  | CALm
+  7  6,4  | CALo
   7  6,4  | CALp
   7  6,4  | CALs
   7  6,4  | CALx
   7  4,7  - CAi
+  7  6,4  | CEL
   7  6,4  | CELe
   7  6,4  | CELl
+  7  6,4  | CELs
   7  6,4  | CELt
   7  4,5  - CEe
   7  6,5  | CLAd
@@ -1914,9 +1924,9 @@
   7  6,6  | LaV
   7  6,6  | LeV
   7  6,6  | LiCE
-  7  6,6  | LiV
   7  6,6  | LoCA
   7  6,6  | LuCE
+  7  6,6  | LuV
   7  6,4  | RALpH
   7  3,5  - RAcE
   7  3,5  - RAfE
@@ -2066,6 +2076,7 @@
   6  6,5  | CLr
   6  6,5  | CLy
   6  6,4  | CaL
+  6  6,4  | CeL
   6  6,4  | CmL
   6  6,4  | CoL
   6  6,4  | CrL
@@ -2095,6 +2106,7 @@
   6  6,4  | HELe
   6  6,4  | HELl
   6  6,4  | HELm
+  6  6,4  | HELo
   6  6,4  | HELp
   6  4,5  - HEe
   6  4,7  - HEi
@@ -2202,6 +2214,7 @@
   6 11,3  | TEl
   6 11,3  | TEm
   6 11,3  | TEn
+  6 11,3  | TEt
   6 11,3  | TEw
   6 11,3  | TEx
   6 11,3  | TaE
@@ -2237,7 +2250,9 @@
   6  3,5  - iARE
   6  6,4  | jCL
   6  3,5  - lARE
+  6  6,1  - mABE
   6  3,5  - mARE
+  6  6,1  - nABE
   6  3,5  - nARE
   6  3,5  - oRAE
   6  7,5  | oSC
@@ -2612,6 +2627,7 @@
   4  4,5  - REa
   4  4,7  - REa
   4  4,5  - REe
+  4  4,7  - REi
   4  6,5  | RLE
   4  6,4  | RaLE
   4  6,4  | RiLE
@@ -2842,6 +2858,7 @@
   3  6,6  | LEv
   3  6,6  | LEx
   3  6,6  | LEy
+  3  6,6  | LEz
   3  6,6  | LaR
   3  6,6  | LeA
   3  6,6  | LeE
@@ -2899,6 +2916,7 @@
   3  6,4  | bEL
   3  6,4  | bRL
   3  6,4  | cAL
+  3  6,4  | cEL
   3  6,5  | cLR
   3  6,4  | cRL
   3  6,4  | dAL
@@ -2996,6 +3014,7 @@
   2  7,6  | SiA
   2  7,6  | SiE
   2  7,6  | SiR
+  2  7,6  | SkA
   2  7,6  | SlA
   2  7,6  | SmA
   2  7,6  | SoE

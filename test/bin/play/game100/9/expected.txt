@@ -187,6 +187,7 @@
  26 11,8  | mASA
  26 11,6  | mEADS
  26 11,8  | mESA
+ 26 11,6  | nADAS
  26 11,8  | nASA
  26 11,8  | pASE
  26 11,8  | pESA
@@ -251,12 +252,14 @@
  24  8,6  - JEeS
  24  8,6  - JEsS
  24  8,6  - JEtS
+ 24  8,6  - JEwS
  24  8,6  - JaD
  24  8,6  - JeES
  24  8,6  - JnD
  24  8,6  - JoES
  24  8,6  - JuD
  24  2,2  - Qi
+ 24  5,11 - Qi
  24  9,4  | SAAD
  24  9,3  | SAbED
  24  9,3  | SAlAD
@@ -298,6 +301,7 @@
  23 11,7  | DAhS
  23 11,7  | DAiS
  23 11,7  | DAkS
+ 23 11,7  | DAlS
  23 11,7  | DAmS
  23  9,5  | DAnA
  23  9,5  | DAnE
@@ -444,6 +448,7 @@
  22  8,6  - JEe
  22  8,6  - JEt
  22  8,6  - JEu
+ 22  8,6  - JEw
  22  8,6  - JeE
  22  8,6  - JoE
  22  8,6  - JuS
@@ -480,6 +485,7 @@
  22  9,3  | hADES
  22  9,3  | jADES
  22  9,3  | lADES
+ 22  9,3  | nADAS
  22  9,3  | sADES
  22  9,3  | wADES
  21  7,1  | AAS
@@ -1109,6 +1115,7 @@
  14  1,5  - QuAD
  14  2,11 - SEQq
  14 10,7  | SeQED
+ 14  5,11 - SiDY
  14  6,4  - ZAS
  14  6,4  - ZAnDE
  14  6,4  - ZEAl
@@ -1247,6 +1254,7 @@
  13  9,4  | ShE
  13  9,4  | SiA
  13  9,4  | SiE
+ 13  9,4  | SkA
  13  9,4  | SlA
  13  9,4  | SmA
  13  9,4  | SoE
@@ -1315,6 +1323,7 @@
  12  1,11 - DEEpS
  12  1,11 - DEErS
  12  1,11 - DEEsS
+ 12  1,11 - DEEtS
  12  6,11 - DEY
  12 10,5  | DEbASE
  12  1,11 - DrEES
@@ -1528,6 +1537,7 @@
  10 10,6  | DEAvE
  10  2,11 - DEESs
  10  2,11 - DEEsS
+ 10  2,11 - DEEtS
  10  2,11 - DESEx
  10  2,11 - DESsA
  10  1,2  - DEa
@@ -1581,6 +1591,7 @@
  10  1,7  | lAKES
  10  1,7  | lAKSA
  10  2,11 - lEASE
+ 10  4,2  - mABES
  10  1,7  | mAKES
  10  2,11 - mEASE
  10  2,11 - pEASE
@@ -1691,6 +1702,7 @@
   9  2,9  | NAb
   9  2,9  | NAe
   9  2,9  | NAf
+  9  2,9  | NAh
   9  2,9  | NAm
   9  2,9  | NAn
   9  2,9  | NAp
@@ -1722,6 +1734,7 @@
   9  9,7  | Si
   9  1,2  - SiA
   9  1,2  - SiE
+  9  1,2  - SkA
   9  1,2  - SlA
   9  1,2  - SmA
   9  9,7  | So
@@ -1747,6 +1760,7 @@
   9  1,2  - eSE
   9  1,2  - fAE
   9  1,2  - gAE
+  9  6,8  - gAMAS
   9  6,8  - gAMES
   9  1,2  - hAE
   9  1,2  - iSE
@@ -1755,6 +1769,7 @@
   9  1,2  - lEA
   9  2,5  | lSD
   9  4,2  - mABA
+  9  4,2  - mABE
   9  1,2  - mAE
   9  1,2  - mEA
   9  1,2  - nAA
@@ -1771,6 +1786,7 @@
   9  1,2  - sAA
   9  1,2  - sAE
   9  1,2  - sEA
+  9  1,8  | sKAS
   9  1,2  - tAA
   9  1,2  - tAE
   9  1,2  - tEA
@@ -1845,6 +1861,7 @@
   8  1,11 - DEEp
   8  1,11 - DEEr
   8  1,11 - DEEs
+  8  1,11 - DEEt
   8  1,7  | DEKe
   8  2,2  - Da
   8  1,7  | DaKS
@@ -1957,6 +1974,7 @@
   8 10,6  | fEASE
   8  1,11 - fEEDS
   8  6,11 - fEY
+  8  6,8  - gAMA
   8  6,8  - gAME
   8  6,8  - gAMS
   8  6,11 - gAY
@@ -2148,8 +2166,10 @@
   7  7,7  - SIDhE
   7  7,7  - SIDiA
   7  7,7  - SIDlE
+  7  1,8  | SKA
   7  1,8  | SKAg
   7  1,8  | SKAl
+  7  1,8  | SKAs
   7  1,8  | SKAt
   7  1,8  | SKAw
   7  1,8  | SKEd
@@ -2366,7 +2386,6 @@
   6  1,8  | AKo
   6  7,8  - AMA
   6  7,8  - AMAh
-  6  7,8  - AMAl
   6  7,8  - AMAr
   6  7,8  - AMAs
   6  7,8  - AMAy
@@ -2417,6 +2436,7 @@
   6  7,1  | Ay
   6  2,11 - DEAs
   6  2,11 - DEEs
+  6  2,11 - DEEt
   6  2,11 - DESc
   6  2,11 - DESs
   6  7,7  - DIAS
@@ -2440,6 +2460,7 @@
   6  7,8  - EMS
   6  7,8  - EMdA
   6  7,8  - EMeS
+  6  7,8  - EMfS
   6  7,8  - EMmA
   6  7,8  - EMuS
   6  7,8  - EMyS
@@ -2519,6 +2540,7 @@
   6  8,8  - MASt
   6  8,8  - MASu
   6  8,8  - MAbA
+  6  8,8  - MAbE
   6  8,8  - MAcE
   6  8,8  - MAcS
   6  8,8  - MAdE
@@ -2600,12 +2622,14 @@
   6  3,7  - Os
   6  2,11 - SElE
   6  2,11 - SEmE
+  6  2,11 - SEnE
   6  2,11 - SErE
   6  2,11 - SEvE
   6  7,7  - SIDa
   6  7,7  - SIDe
   6  7,7  - SIDi
   6  7,7  - SIDy
+  6  1,8  | SKa
   6  1,8  | SKi
   6  1,8  | SKy
   6  7,8  - SMA
@@ -2615,6 +2639,7 @@
   6  5,11 - Sh
   6  1,11 - ShED
   6  2,2  - Si
+  6  5,11 - Si
   6  1,11 - SkED
   6  1,11 - SlED
   6  1,11 - SnED
@@ -2713,6 +2738,7 @@
   6  2,11 - sEES
   6  7,7  - sIDA
   6  7,7  - sIDE
+  6  1,8  | sKA
   6  5,11 - tA
   6  5,11 - tE
   6  1,5  - tEAD
@@ -2737,6 +2763,7 @@
   6  2,11 - yEAS
   6  2,11 - yEES
   6  2,11 - yESE
+  6  7,7  - yIDS
   6  2,11 - zEES
   6  1,7  | zEK
   5 10,7  | AAhED
@@ -3082,6 +3109,7 @@
   5 10,7  | wADES
   5  7,7  - wID
   5  7,7  - wIED
+  5  7,7  - yID
   4 10,8  | ADEn
   4 10,7  | ADzE
   4 10,7  | AEdES
@@ -3141,6 +3169,7 @@
   4 10,8  | DEEp
   4 10,8  | DEEr
   4 10,8  | DEEs
+  4 10,8  | DEEt
   4  5,8  | DESc
   4  5,8  | DESi
   4  5,8  | DESk
@@ -3424,6 +3453,7 @@
   4 10,7  | rEDE
   4 10,8  | rEED
   4  1,11 - rEED
+  4  7,7  - rIAS
   4  7,7  - rIES
   4  7,7  - rISE
   4 10,7  | sADE
@@ -3661,6 +3691,7 @@
   3  5,8  | SESs
   3 10,7  | SElE
   3 10,7  | SEmE
+  3 10,7  | SEnE
   3 10,7  | SErE
   3 10,7  | SEvE
   3  7,7  - SIcE
@@ -3956,6 +3987,7 @@
   2  6,9  | REf
   2  6,9  | REg
   2  6,9  | REh
+  2  6,9  | REi
   2  6,9  | REl
   2  6,9  | REm
   2  6,9  | REn

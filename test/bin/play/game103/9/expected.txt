@@ -3,6 +3,7 @@
  40  6,2  - DECORE
  40  6,2  - RECODE
  40  6,2  - nEGOCE
+ 40  5,2  - pRECODE
  36  6,2  - DECOdE
  36  6,2  - DECOkE
  36  6,2  - DECOrE
@@ -65,6 +66,7 @@
  22  6,1  | WEDGeS
  22  6,1  | WRECkS
  22  6,1  | WeDGES
+ 22  6,1  | WoDGES
  22 10,1  | aW
  22 11,7  | bREDE
  22 10,1  | eW
@@ -153,6 +155,7 @@
  18  6,1  | CoDERS
  18  6,1  | CyDERS
  18  6,1  | DECoRS
+ 18  6,1  | DEWaRS
  18  6,1  | DRECkS
  18  6,2  | DRoWSE
  18  6,1  | DiCERS
@@ -202,6 +205,7 @@
  16  4,10 - CuRET
  16  6,2  - DECO
  16  6,2  | DECkS
+ 16  6,2  | DECoS
  16  6,2  | DECuS
  16  6,1  | DEGRaS
  16  6,8  - DEJa
@@ -278,6 +282,7 @@
  14  6,2  | DRaGS
  14  6,2  | DReGS
  14  6,2  | DRuGS
+ 14  5,3  - DWEeB
  14  5,2  - DaRGO
  14  6,2  - DeCO
  14  5,2  - DiEGO
@@ -348,6 +353,7 @@
  13  5,7  - ChEN
  13  3,5  - CoDE
  13 11,7  | DREW
+ 13  5,3  - DWeEB
  13  4,10 - EGReT
  13 10,1  | ER
  13 11,9  | ERe
@@ -568,6 +574,7 @@
  10  6,10 - DET
  10  6,2  | DEaRS
  10  6,2  | DEeRS
+ 10  8,2  - DORE
  10  3,7  - DRCh
  10  6,2  | DREeS
  10  6,2  | DREgS
@@ -580,6 +587,7 @@
  10  6,2  | DRiES
  10  6,2  | DaRES
  10  6,2  | DeERS
+ 10  5,10 - DeET
  10  5,10 - DiET
  10  6,2  | DoERS
  10  3,5  - DoGE
@@ -667,6 +675,7 @@
  10  6,2  | hERDS
  10 11,8  | hEW
  10 11,7  | iCED
+ 10 11,8  | jEW
  10  8,2  - lOGE
  10 11,8  | mEW
  10  6,2  | nERDS
@@ -692,6 +701,7 @@
   9  6,3  | CWmS
   9  4,5  - CWo
   9  4,7  - CWo
+  9  6,3  - CaRB
   9  6,3  | CaWS
   9  6,3  | CcWS
   9  5,1  - CeDED
@@ -704,6 +714,7 @@
   9  5,1  - DECaD
   9  3,5  - DEGu
   9  5,1  - DEWeD
+  9  5,10 - DEeT
   9  8,2  | Da
   9  5,1  - DaWED
   9  5,1  - DeWED
@@ -787,6 +798,7 @@
   8  8,2  - DOmE
   8  8,2  - DOnE
   8  8,2  - DOpE
+  8  8,2  - DOrE
   8  8,2  - DOsE
   8  8,2  - DOtE
   8  8,2  - DOvE
@@ -806,6 +818,7 @@
   8  7,3  - DiB
   8  3,5  - DiRE
   8  7,3  - DoB
+  8  3,5  - DoRE
   8  6,1  - DoWD
   8  6,3  | DoWSE
   8  7,3  - DuB
@@ -859,6 +872,7 @@
   8  6,3  | WiGS
   8  5,1  - WiRED
   8  6,4  | WiSED
+  8  6,3  | WoGS
   8 11,7  | aCER
   8  3,5  - aCRE
   8  5,1  - aCRED
@@ -1108,6 +1122,7 @@
   6  4,5  - CEe
   6 11,8  | CEe
   6  6,3  | CEeS
+  6  6,3  | CElS
   6 11,8  | CEp
   6  6,3  | CEpS
   6  6,3  | CEsS
@@ -1237,11 +1252,13 @@
   6  5,1  - REDiD
   6  3,5  - REDo
   6  3,7  - REDo
+  6  6,3  | REGS
   6  5,1  - REaDD
   6  6,1  - REaDD
   6  6,2  - REdO
   6  6,2  - REgO
   6  6,2  - REnO
+  6  6,2  - REpO
   6 11,7  | RGEn
   6  8,2  - RObE
   6  8,2  - ROdE
@@ -1331,6 +1348,7 @@
   6  6,4  | dESC
   6  6,10 - dET
   6  6,3  | dEWS
+  6  8,2  - dORE
   6  7,7  - eN
   6  6,3  | eWES
   6 11,8  | fED
@@ -1349,6 +1367,7 @@
   6 11,7  | iDEE
   6  7,7  - iN
   6  6,10 - jET
+  6  6,3  | jEWS
   6 11,8  | kED
   6  6,2  - kERO
   6  6,10 - kET
@@ -1373,6 +1392,7 @@
   6  7,1  - oWD
   6  6,3  | oWES
   6  6,4  | oWSE
+  6  6,3  | pECS
   6 11,8  | pED
   6  6,10 - pET
   6  6,3  | pEWS
@@ -1391,6 +1411,7 @@
   6  6,3  | sEWS
   6  8,2  - sORE
   6 11,8  | tED
+  6  6,10 - tET
   6  6,3  | tEWS
   6  8,2  - tORE
   6  3,5  - uRDE
@@ -1548,12 +1569,14 @@
   5  6,3  | REDS
   5 11,8  | REE
   5  6,4  | RESiD
+  5  6,4  | RESoD
   5  7,9  | RaG
   5  6,3  | RaGS
   5  6,4  | RaSED
   5  6,1  - ReDD
   5  7,1  - ReDD
   5  7,9  | ReG
+  5  6,3  | ReGS
   5  6,10 - ReT
   5  7,9  | RiG
   5  6,3  | RiGS
@@ -1652,7 +1675,9 @@
   5  7,3  - rEB
   5  6,1  - rEDD
   5  7,1  - rEDD
+  5  6,3  | rEGS
   5 11,7  | sEER
+  5  6,3  | sEGS
   5  6,3  | tEGS
   5 11,7  | tREE
   5  7,2  - tWO
@@ -1779,6 +1804,7 @@
   4  7,9  | REg
   4  6,1  - REgD
   4  7,9  | REh
+  4  7,9  | REi
   4  6,1  - REiD
   4  7,9  | REl
   4  7,9  | REm
@@ -1958,8 +1984,12 @@
   3  6,3  | REeS
   3 11,8  | REf
   3  6,3  | REfS
+  3  6,3  | REgS
   3  4,7  - REh
   3 11,8  | REh
+  3  4,5  - REi
+  3  4,7  - REi
+  3 11,8  | REi
   3  6,3  | REiS
   3 11,8  | REm
   3  6,3  | REmS

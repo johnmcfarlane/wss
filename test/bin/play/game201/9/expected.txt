@@ -49,7 +49,9 @@
  15 10,1  | SCI
  15  6,3  - SCORED
  15  6,3  - SCREED
+ 15  6,3  - SCRIED
  15  4,3  | SECRE
+ 15  1,6  | SICKEE
  15  1,6  | SICKER
  15  1,6  | SOCKER
  14  1,11 - CEE
@@ -97,6 +99,7 @@
  12  6,3  - COREID
  12  1,6  | CORKE
  12  1,6  | CORKS
+ 12  6,3  - COSIED
  12  1,5  | CREEK
  12  8,3  - ECOD
  12  2,10 - EL
@@ -116,6 +119,7 @@
  12  1,6  | SCOKE
  12  8,1  | SERIEMA
  12  4,3  | SERIO
+ 12  1,6  | SICKO
  12  4,3  | SIREE
  12  4,3  | SOREE
  11 10,6  | AS
@@ -175,6 +179,7 @@
  10  1,8  | EKER
  10  1,8  | EKES
  10  1,8  | EKOI
+ 10  1,7  | ICK
  10  8,6  | MAED
  10  8,6  | MAID
  10  1,8  | OKEE
@@ -199,6 +204,7 @@
   9  1,9  | KER
   9  1,9  | KES
   9  1,9  | KIE
+  9  1,9  | KIR
   9  1,9  | KOI
   9  1,9  | KOR
   9  1,9  | KOS
@@ -211,6 +217,7 @@
   9 10,1  | REE
   9  1,6  | REEKS
   9  1,5  | REESK
+  9 10,1  | REI
   9  9,4  | REIFS
   9 10,1  | RIE
   9  8,4  | RIMA
@@ -243,9 +250,11 @@
   8  9,3  - RCD
   8  4,5  | REE
   8  1,6  | REEK
+  8  4,5  | REI
   8  9,4  | REIF
   8  1,7  | REKI
   8  7,3  - RESID
+  8  7,3  - RESOD
   8  4,5  | RIE
   8  9,5  | RIFE
   8  9,5  | RIFI
@@ -295,6 +304,7 @@
   7  1,7  - REBS
   7  1,7  - RIBE
   7  1,7  - RIBS
+  7  9,5  | RIF
   7  1,7  | RIK
   7  1,7  - ROBE
   7  1,7  - ROBS
@@ -393,6 +403,8 @@
   3  2,11 - OER
   3  2,11 - OES
   3  2,11 - REE
+  3  9,4  - REI
+  3  2,11 - REI
   3  2,11 - RES
   3  9,4  - ROI
   3  7,5  | SAE

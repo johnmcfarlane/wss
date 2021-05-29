@@ -61,6 +61,8 @@
  26  1,6  - CHAMpE
  26  2,6  - CHeKE
  26  2,6  - CHoKE
+ 26  2,6  - MACHE
+ 26  2,6  - MACHEs
  26  1,6  - MAnCHE
  26  3,4  - fAHAM
  26  3,4  - nATAK
@@ -86,6 +88,7 @@
  24  7,6  | MATKaH
  24  1,6  - MAToKE
  24  2,6  - MArKET
+ 24  2,6  - MaCHE
  24  5,6  | MaTKAH
  24  7,6  | MaTKAH
  24  2,6  - MiCHE
@@ -272,12 +275,15 @@
  20  2,6  - KyTHE
  20  5,6  | MACH
  20  7,6  | MACH
+ 20  5,6  | MACHe
+ 20  7,6  | MACHe
  20  5,6  | MACHi
  20  7,6  | MACHi
  20  5,6  | MACHo
  20  7,6  | MACHo
  20  5,6  | MACHs
  20  7,6  | MACHs
+ 20  2,6  - MAChE
  20  2,6  - MAClE
  20  2,6  - MATHE
  20  2,6  - MATHEr
@@ -385,7 +391,6 @@
  19  1,4  - tA
  19  1,4  - zA
  18  4,4  - ACAd
- 18  4,4  - AMAl
  18  4,4  - AMAr
  18  4,4  - AMAs
  18  5,5  - AZoTH
@@ -430,6 +435,7 @@
  18  2,6  - MAHoE
  18  5,6  | MAKaH
  18  7,6  | MAKaH
+ 18  2,6  - MAcHE
  18  5,6  | MArC
  18  7,6  | MArC
  18  5,6  | MAsC
@@ -458,6 +464,7 @@
  18  2,6  - cHACE
  18  2,6  - hACHE
  18  2,6  - lACHE
+ 18  2,6  - mACHE
  18  2,6  - nACHE
  18  2,6  - rACHE
  18  2,6  - sAHME
@@ -619,6 +626,7 @@
  15  4,5  - CaZA
  15  5,4  - HAM
  15  3,3  | ICAsM
+ 15  3,3  | ICK
  15  3,3  | ICKy
  15  3,3  | IMCnT
  15  3,3  | IMpACT
@@ -942,6 +950,7 @@
  12  1,2  | BIrCH
  12  1,2  | BItCH
  12  4,6  - CHEM
+ 12  4,6  - CHEMo
  12  6,6  - EArTH
  12  6,6  - ETHAl
  12  6,6  - ETHAn
@@ -1047,6 +1056,7 @@
  12  7,6  | TrAM
  12  4,5  - TuZA
  12  8,3  | VAC
+ 12  8,3  | VACs
  12  8,3  | VAMp
  12  6,5  - ZAT
  12  6,5  - ZATi
@@ -1126,6 +1136,8 @@
  11  7,6  | HCl
  11  5,6  | HM
  11  7,6  | HM
+ 11  5,6  | HMm
+ 11  7,6  | HMm
  11  5,6  | HaM
  11  7,6  | HaM
  11  5,6  | HeM
@@ -1134,6 +1146,8 @@
  11  7,6  | HiC
  11  5,6  | HiM
  11  7,6  | HiM
+ 11  5,6  | HmM
+ 11  7,6  | HmM
  11  5,6  | HoC
  11  7,6  | HoC
  11  5,6  | HoM
@@ -1144,6 +1158,7 @@
  11  3,3  | ICHo
  11  3,3  | ICHs
  11  3,3  | ICHu
+ 11  3,3  | IcK
  11  3,3  | IlK
  11  3,3  | InK
  11  3,3  | IrK
@@ -1287,10 +1302,13 @@
  10  5,6  - KETcH
  10  5,6  - KEiTH
  10  4,6  - KHET
+ 10  4,6  - KHETh
+ 10  4,6  - KHETs
  10  4,6  - KHEdA
  10  4,6  - KMEl
  10  4,6  - KMEt
  10  3,6  - KaME
+ 10  4,6  - KhETH
  10  3,6  - KoME
  10  5,6  | MA
  10  7,6  | MA
@@ -2140,6 +2158,7 @@
   7  4,6  - sCEAT
   7  5,6  - sEAK
   7  7,6  | sHAT
+  7  7,6  | sKA
   7  4,6  - sKET
   7  4,6  - sTEAM
   7  4,6  - sTEMA
@@ -2254,6 +2273,7 @@
   6  6,6  - EMmA
   6  6,6  - ETC
   6  6,6  - ETCh
+  6  6,6  - ETiC
   6  6,6  - ETyM
   6  6,6  - EcCA
   6  6,6  - EdAM
@@ -2302,6 +2322,7 @@
   6  4,6  - MAE
   6  4,6  - MAEd
   6  4,6  - MAEs
+  6  3,6  - MAbE
   6  3,6  - MAcE
   6  3,6  - MAdE
   6  3,6  - MAgE
@@ -2526,6 +2547,7 @@
   5  1,2  | BIt
   5  1,2  | BIz
   5  5,6  - CEe
+  5  5,6  - CEl
   5  5,6  - CEp
   5  4,6  - CeE
   5  4,6  - ChE
@@ -2587,6 +2609,7 @@
   5  5,6  - HET
   5  5,6  - HETe
   5  5,6  - HETh
+  5  5,6  - HETs
   5  5,6  - HEaT
   5  5,6  - HEfT
   5  5,6  - HEnT
@@ -2603,6 +2626,7 @@
   5  3,6  - HyTE
   5  3,3  | ICe
   5  3,3  | ICh
+  5  3,3  | ICk
   5  3,3  | ICy
   5  3,3  | IMi
   5  3,3  | IMp
@@ -2691,12 +2715,15 @@
   5  5,6  - mETH
   5  5,6  | mM
   5  7,6  | mM
+  5  5,6  | nAH
+  5  7,6  | nAH
   5  5,6  - nETH
   5  5,6  | nTH
   5  7,6  | nTH
   5  5,6  | oM
   5  7,6  | oM
   5  5,6  | pAH
+  5  5,6  - pEC
   5  5,6  | pHT
   5  5,6  | rAH
   5  7,6  | rAH
@@ -3083,6 +3110,7 @@
   2  5,6  - TEl
   2  5,6  - TEm
   2  5,6  - TEn
+  2  5,6  - TEt
   2  5,6  - TEw
   2  5,6  - TEx
   2  5,6  - TEz
@@ -3151,6 +3179,7 @@
   2  7,6  | tA
   2  4,6  - tAE
   2  5,6  - tEA
+  2  5,6  - tET
   2  4,6  - uTE
   2  5,6  - vET
   2  4,6  - wAE

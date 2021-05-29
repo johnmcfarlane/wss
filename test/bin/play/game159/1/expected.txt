@@ -157,12 +157,14 @@
  13  9,4  | JOE
  13  6,3  | JOTA
  13  7,7  - OES
+ 13  6,3  | SOJA
  13  2,7  - SOTIE
  12  8,7  - ESE
  12  5,6  - FANNERS
  12  6,5  | JAI
  12  8,7  - OSE
  12  3,7  - OTIS
+ 12 10,6  | RESITE
  12 10,6  | RESTIO
  12 10,6  | RETIES
  12  3,5  - SEIT
@@ -206,10 +208,12 @@
  10 10,6  | ROIST
  10 10,6  | ROSET
  10 10,6  | ROTES
+ 10 10,6  | ROTIS
  10 10,6  | ROTSE
  10  4,7  - SEE
  10  4,7  - SEI
  10  8,4  | SENIT
+ 10  8,4  | SENTE
  10  8,4  | SENTI
  10  4,5  - SET
  10  4,7  - SET
@@ -322,6 +326,7 @@
   8  7,5  - IO
   8  8,6  | NEIST
   8  7,6  | NESIOT
+  8  8,6  | NITES
   8  8,6  | NITOS
   8  8,6  | NOISE
   8  7,6  | NOSITE
@@ -383,6 +388,8 @@
   7  8,6  | NETS
   7  8,6  | NIES
   7  8,6  | NIST
+  7  8,6  | NITE
+  7  7,6  | NITES
   7  8,6  | NITO
   7  7,6  | NITOS
   7  8,6  | NITS
@@ -401,6 +408,7 @@
   7  7,5  | ONSET
   7  8,3  | SEEN
   7  7,3  | SEINE
+  7  8,4  | SENE
   7  8,4  | SENT
   7  7,2  | SETON
   7  4,5  - SI
@@ -479,6 +487,7 @@
   6  8,6  | NIS
   6  7,6  | NIST
   6  8,6  | NIT
+  6  7,6  | NITE
   6  7,6  | NITO
   6  7,6  | NITS
   6  7,6  | NOES
@@ -492,6 +501,7 @@
   6  9,5  | SEIT
   6  8,4  | SEN
   6  7,4  | SENIT
+  6  7,4  | SENTE
   6  7,4  | SENTI
   6  8,4  | SIN
   6  7,4  | SINTO
@@ -543,6 +553,7 @@
   5  6,5  | SAITE
   5  9,5  | SEE
   5  9,5  | SEI
+  5  7,4  | SENE
   5  7,4  | SENT
   5 10,4  | SERIO
   5  9,5  | SET
@@ -753,6 +764,7 @@
   3 10,5  | ORS
   3 10,5  | ORT
   3 10,6  | REE
+  3 10,6  | REI
   3 10,6  | RES
   3 10,6  | RET
   3 10,6  | RIE

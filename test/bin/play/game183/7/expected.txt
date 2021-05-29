@@ -291,6 +291,8 @@
  17  6,4  - FCHAr
  17  7,1  | FICa
  17  7,1  | FICt
+ 17  2,5  - FIXiT
+ 17  2,7  - FIXiT
  17  7,1  | FIsC
  17  7,8  | FiT
  17  7,8  | FoT
@@ -342,6 +344,8 @@
  16  7,2  | FeC
  16  6,2  - FeTAL
  16  7,8  | Fi
+ 16  2,5  - FiXIT
+ 16  2,7  - FiXIT
  16  6,4  | FrAXIN
  16  6,1  - FrIJA
  16  6,2  | INCrA
@@ -380,6 +384,7 @@
  16  6,2  - pICAL
  16  7,8  | rIC
  16 10,9  | rIE
+ 16  7,8  | rIF
  16  7,8  | sIC
  16  7,8  | tIC
  16  6,2  - tICAL
@@ -420,6 +425,7 @@
  15  6,4  | aTAXIC
  15  7,1  | dICT
  15  7,8  | dINT
+ 15  7,1  | eTIC
  15  7,1  | fICT
  15  7,1  | gIFT
  15  7,8  | hINT
@@ -598,6 +604,7 @@
  13  3,7  - FoNT
  13  3,5  - FuNT
  13  3,7  - FuNT
+ 13  7,2  | ICk
  13  7,2  | IFs
  13  7,9  | INC
  13  7,9  | INF
@@ -786,9 +793,11 @@
  11  7,1  | FIoT
  11  7,1  | FIsT
  11  7,1  | FIxT
+ 11  6,4  | FrACTI
  11  6,4  | FrANC
  11  7,9  | ICe
  11  7,9  | ICh
+ 11  7,9  | ICk
  11  3,5  - ICoN
  11  3,7  - ICoN
  11  7,9  | ICy
@@ -998,6 +1007,7 @@
  10  6,5  | mAXI
  10  7,2  | oNT
  10  6,2  | pINTA
+ 10  4,5  - rIF
  10  6,3  | sIFAC
  10  7,1  | sNIT
  10  6,5  | tAXI
@@ -1207,6 +1217,7 @@
   8  6,5  | NAIFs
   8  6,5  | NATCh
   8  6,5  | NArIC
+  8  6,3  | NICAd
   8  7,2  | NIs
   8  3,5  - NIsT
   8  3,7  - NIsT
@@ -1307,6 +1318,7 @@
   7  8,2  - CALk
   7  8,2  - CALl
   7  8,2  - CALm
+  7  8,2  - CALo
   7  8,2  - CALp
   7  8,2  - CALs
   7  8,2  - CALx
@@ -1435,6 +1447,7 @@
   7  6,5  | NAiF
   7  6,5  | NArC
   7  6,9  - NIDE
+  7  3,7  - NITe
   7  3,7  - NITs
   7  6,4  | NeAF
   7  6,8  - NeEM
@@ -1607,6 +1620,7 @@
   6  4,7  - ICe
   6  4,5  - ICh
   6  4,7  - ICh
+  6  4,5  - ICk
   6  4,5  - ICy
   6  4,7  - ICy
   6  4,7  - IFe
@@ -1618,6 +1632,7 @@
   6  4,7  - INT
   6  3,5  - INTa
   6  3,7  - INTa
+  6  3,7  - INTi
   6  3,5  - INTl
   6  3,7  - INTl
   6  3,7  - INTr
@@ -1724,6 +1739,7 @@
   6  3,5  - iNIT
   6  3,7  - iNIT
   6  7,9  | iNT
+  6  3,7  - iNTI
   6  7,3  | iT
   6  6,8  - iTEM
   6  4,5  - jIN
@@ -1794,6 +1810,8 @@
   6  7,3  | wT
   6  4,5  - yIN
   6  4,7  - yIN
+  6  4,5  - zIN
+  6  4,7  - zIN
   5  6,6  | ACc
   5  6,6  | ACe
   5  6,6  | ACh
@@ -1836,6 +1854,7 @@
   5  6,5  | FAc
   5  6,5  | FAd
   5  6,5  | FAe
+  5  6,5  | FAg
   5  6,5  | FAh
   5  6,5  | FAm
   5  6,5  | FAn
@@ -2339,6 +2358,7 @@
   3  6,5  | NAe
   3  6,5  | NAf
   3  6,5  | NAg
+  3  6,5  | NAh
   3  6,5  | NAk
   3  6,5  | NAm
   3  6,5  | NAn

@@ -34,6 +34,7 @@
  62  8,2  | mUSSIER
  62  8,2  | pUSSIER
  62  8,3  | uSURIES
+ 62  8,2  | wUSSIER
  60  8,2  | ISSUERs
  60  8,1  | REISSUe
  60  8,2  | RISUSEs
@@ -51,6 +52,7 @@
  60  8,1  | mUSSIER
  60  8,1  | pUSSIER
  60  8,1  | sURSISE
+ 60  8,1  | wUSSIER
  57  8,2  | ISsUERS
  57  8,3  | IsSUERS
  57  8,2  | RIsUSES
@@ -130,6 +132,7 @@
  26  8,4  | SIlURE
  26  8,4  | SUERS
  26  8,4  | SUIsSE
+ 26  8,4  | SUItER
  26  8,4  | SUItES
  26  8,4  | SURES
  26  8,4  | SURESh
@@ -193,6 +196,7 @@
  25  8,4  | SUrES
  25  8,4  | SUsIE
  25  8,4  | SaRUS
+ 25  8,4  | ScRIES
  25  8,4  | ScUSE
  25  8,4  | SeISER
  25  8,4  | SeRIES
@@ -250,6 +254,7 @@
  24  8,1  | RhESUS
  24  8,1  | RhUSES
  24  8,1  | RoUSES
+ 24  8,4  | SEIfS
  24  8,4  | SERUmS
  24  8,4  | SERaI
  24  8,4  | SEReS
@@ -509,6 +514,8 @@
  23  8,2  | nISUS
  23  8,1  | nURSE
  23  8,1  | pERSIS
+ 23  8,1  | pISSER
+ 23  8,2  | pISSER
  23  8,1  | pRISES
  23  8,1  | pURSE
  23  8,2  | pUSES
@@ -868,6 +875,7 @@
  21  8,1  | REdS
  21  8,1  | REeS
  21  8,1  | REfS
+ 21  8,1  | REgS
  21  8,1  | REiS
  21  8,1  | REmS
  21  8,1  | REpS
@@ -878,6 +886,7 @@
  21  8,2  | RISp
  21  8,2  | RISs
  21  8,2  | RISt
+ 21  8,1  | RIaS
  21  8,1  | RIbS
  21  8,1  | RIdS
  21  8,1  | RIeS
@@ -930,6 +939,8 @@
  21  8,4  | SEeR
  21  8,1  | SEeS
  21  8,4  | SEeS
+ 21  8,1  | SEgS
+ 21  8,4  | SEgS
  21  8,1  | SEiS
  21  8,4  | SEiS
  21  8,1  | SElS
@@ -1085,6 +1096,7 @@
  21  8,1  | bESS
  21  8,2  | bESS
  21  8,2  | bISE
+ 21  8,1  | bRIS
  21  8,2  | bUS
  21  8,1  | cESS
  21  8,2  | cESS
@@ -1133,6 +1145,7 @@
  21  8,2  | jESS
  21  8,2  | jUS
  21  8,1  | kERS
+ 21  8,1  | kIRS
  21  8,1  | kISS
  21  8,2  | kISS
  21  8,1  | kRIS
@@ -1571,6 +1584,7 @@
  15  8,2  | SIs
  15  4,7  - SUISsE
  15  4,7  - SUIsSE
+ 15  4,7  - SUItER
  15  4,7  - SUItES
  15  8,3  | SsI
  15  8,3  | Us
@@ -1738,6 +1752,7 @@
  12  5,5  - EaRS
  12  1,7  - Ee
  12  1,7  - Et
+ 12  1,7  - Ew
  12  6,5  - IRiSES
  12  6,2  | ISLES
  12  6,1  | IStLES
@@ -1772,10 +1787,12 @@
  12  2,5  | JEsS
  12  2,5  | JEtE
  12  2,5  | JEtS
+ 12  2,5  | JEwS
  12  6,2  | RELISh
  12  6,2  | RELISt
  12  5,3  - REnU
  12  6,2  | RILES
+ 12  5,5  - RIaS
  12  5,5  - RIbE
  12  5,5  - RIbS
  12  5,5  - RIdE
@@ -1825,8 +1842,10 @@
  12  4,7  - SUId
  12  6,6  | SUIsSE
  12  4,7  - SUIt
+ 12  6,6  | SUItER
  12  6,6  | SUItES
  12  6,2  | SULkS
+ 12  6,2  | SULuS
  12  6,6  | SURES
  12  6,6  | SURESh
  12  6,6  | SURESt
@@ -1834,7 +1853,10 @@
  12  6,6  | SURgES
  12  6,6  | SUSIE
  12  6,6  | SUSSEd
+ 12  6,6  | SUSSEs
  12  6,6  | SUSSEx
+ 12  6,6  | SUShIS
+ 12  6,6  | SUSsES
  12  6,6  | SUbERS
  12  6,6  | SUcRES
  12  6,6  | SUdSER
@@ -1842,6 +1864,7 @@
  12  6,6  | SUiSSE
  12  6,6  | SUpERI
  12  6,6  | SUpERS
+ 12  6,6  | SUsSES
  12  6,2  | SaLUS
  12  4,7  - SeISER
  12  6,6  | SiEURS
@@ -1857,6 +1880,7 @@
  12  6,1  | StILES
  12  6,6  | StRUIS
  12  6,6  | StRUSE
+ 12  6,2  | SuLUS
  12  6,2  | UaLIS
  12  6,2  | UgLIS
  12  6,1  | aISLES
@@ -1895,6 +1919,7 @@
  11  2,5  | JEe
  11  2,5  | JEt
  11  2,5  | JEu
+ 11  2,5  | JEw
  11  5,3  | REINfUSE
  11  4,7  - REIS
  11  4,7  - REISt
@@ -1923,6 +1948,7 @@
  11  4,7  - SEIS
  11  4,7  - SEISe
  11  4,7  - SEISm
+ 11  4,7  - SEIfS
  11  6,5  - aRISES
  11  6,5  - aSURI
  11  6,5  - bIRSES
@@ -1961,6 +1987,7 @@
  10  6,5  - ItERS
  10  4,6  | OnUSES
  10  4,6  | OpUSES
+ 10  4,7  - REI
  10  5,3  | REINSUrE
  10  5,3  | REINdUE
  10  5,3  | REINlESS
@@ -2079,6 +2106,7 @@
  10  6,2  | SaLES
  10  6,6  | SaRUS
  10  6,1  | SaUL
+ 10  6,6  | ScRIES
  10  6,6  | ScUSE
  10  4,7  - SeISE
  10  6,6  | SeISER
@@ -2114,6 +2142,7 @@
  10  6,6  | StUSS
  10  6,6  | SuISSE
  10  6,6  | SwURE
+ 10  6,2  | SyLIS
  10  6,6  | SyRUS
  10  6,1  | URaL
  10  6,1  | URoL
@@ -2251,6 +2280,7 @@
   9  6,5  - bISE
   9  6,5  - bREI
   9  6,5  - bRIE
+  9  6,5  - bRIS
   9  4,7  - dEIS
   9  4,3  - eE
   9  4,3  - eR
@@ -2359,6 +2389,7 @@
   8  6,1  | REeL
   8  6,1  | REfL
   8  4,7  - REh
+  8  4,7  - REi
   8  6,1  | REpL
   8  7,5  - RISES
   8  7,5  - RISUs
@@ -2381,6 +2412,7 @@
   8  7,5  - RUStS
   8  6,1  | RaIL
   8  6,1  | ReEL
+  8  4,7  - ReI
   8  7,5  - ReSUE
   8  7,5  - RhUS
   8  6,1  | RiEL
@@ -2397,6 +2429,7 @@
   8  5,3  | SEINES
   8  6,6  | SEISe
   8  6,6  | SEISm
+  8  6,6  | SEIfS
   8  6,2  | SEL
   8  5,1  | SEREIN
   8  5,1  | SEREINs
@@ -2603,6 +2636,7 @@
   8  6,2  | pUL
   8  5,2  | qUEEN
   8  5,2  | qUERN
+  8  4,7  - rEI
   8  6,1  | rIEL
   8  4,7  - sEI
   8  5,3  | sEINERS
@@ -2730,6 +2764,7 @@
   7  5,3  | REINEd
   7  5,3  | REINEr
   7  5,3  | REINS
+  7  5,3  | REINkS
   7  7,5  - REIS
   7  7,5  - REISt
   7  7,5  - REIfS
@@ -2796,6 +2831,7 @@
   7  7,5  - SEIS
   7  7,5  - SEISe
   7  7,5  - SEISm
+  7  7,5  - SEIfS
   7  7,1  | SERAU
   7  5,1  | SEREaN
   7  5,1  | SEREiN
@@ -3113,6 +3149,7 @@
   6  5,6  | NERI
   6  5,6  | NEReIS
   6  5,6  | NESS
+  6  5,6  | NEUkS
   6  5,6  | NEUmS
   6  5,6  | NEaRS
   6  5,6  | NIES
@@ -3125,9 +3162,11 @@
   6  5,6  | NInES
   6  5,6  | NIsSE
   6  5,6  | NItER
+  6  5,6  | NItES
   6  5,6  | NItRE
   6  5,6  | NIxER
   6  5,6  | NIxES
+  6  5,6  | NURdS
   6  5,6  | NURlS
   6  5,6  | NURsE
   6  5,6  | NUbS
@@ -3144,8 +3183,10 @@
   6  5,6  | NiSSE
   6  5,6  | NiUE
   6  5,6  | NoIRE
+  6  5,6  | NoIRS
   6  5,6  | NoISE
   6  5,6  | NoRIE
+  6  5,6  | NoRIS
   6  5,6  | NoRSE
   6  5,6  | NoSER
   6  5,6  | NoSES
@@ -3182,6 +3223,7 @@
   6  4,6  | OwSER
   6  4,6  | OyERS
   6  5,3  | REEN
+  6  7,5  - REI
   6  5,3  | REIN
   6  5,3  | REINa
   6  5,3  | REINk
@@ -3456,6 +3498,7 @@
   6  7,5  - bURS
   6  7,3  - bUSS
   6  7,5  - bUSS
+  6  6,2  | cEL
   6  5,2  | cREEN
   6  4,1  | cREW
   6  6,2  | cRL
@@ -3547,6 +3590,7 @@
   6  7,3  - lURI
   6  7,5  - lURI
   6  6,2  | mEL
+  6  5,3  | mESNES
   6  7,3  - mEU
   6  7,5  - mEU
   6  5,3  | mEUNI
@@ -3780,9 +3824,11 @@
   5  5,6  | NImS
   5  5,6  | NInE
   5  5,6  | NIpS
+  5  5,6  | NItE
   5  5,6  | NItS
   5  5,6  | NIuE
   5  5,6  | NIxE
+  5  5,6  | NURd
   5  5,6  | NURl
   5  5,6  | NUS
   5  5,6  | NaIR
@@ -3860,6 +3906,7 @@
   5  5,3  | REeN
   5  7,5  - REeS
   5  7,5  - REfS
+  5  7,5  - REgS
   5  5,3  | REiN
   5  7,5  - REiS
   5  7,5  - REkI
@@ -3869,7 +3916,9 @@
   5  7,5  - REpS
   5  7,5  - REtS
   5  7,5  - REvS
+  5  7,2  | RIAS
   5  5,1  | RISE
+  5  7,5  - RIaS
   5  7,5  - RIbE
   5  7,5  - RIbS
   5  7,5  - RIcE
@@ -3907,6 +3956,7 @@
   5  4,2  | RaW
   5  4,7  - Re
   5  7,5  - ReE
+  5  7,5  - ReI
   5  7,5  - ReS
   5  4,2  | ReW
   5  7,5  - RhE
@@ -3944,6 +3994,7 @@
   5  5,3  | SEeN
   5  7,5  - SEeR
   5  7,5  - SEeS
+  5  7,5  - SEgS
   5  7,5  - SEiS
   5  7,5  - SElS
   5  7,5  - SEmI
@@ -4107,6 +4158,8 @@
   5  7,5  - bREI
   5  7,3  - bRIE
   5  7,5  - bRIE
+  5  7,3  - bRIS
+  5  7,5  - bRIS
   5  7,3  - bUR
   5  7,5  - bUR
   5  7,1  | bURA
@@ -4227,6 +4280,7 @@
   5  6,7  - iSIS
   5  5,3  - jE
   5  7,3  - jESS
+  5  4,2  | jEW
   5  7,3  - jUR
   5  7,1  | jURA
   5  5,1  | jURE
@@ -4238,6 +4292,7 @@
   5  7,3  - kERS
   5  7,1  | kESAR
   5  7,3  - kIER
+  5  7,3  - kIRS
   5  7,3  - kISS
   5  7,3  - kRIS
   5  5,2  | kUE
@@ -4637,6 +4692,7 @@
   4  7,5  - REf
   4  7,5  - REg
   4  7,5  - REh
+  4  7,5  - REi
   4  7,5  - REl
   4  7,5  - REm
   4  7,5  - REn
@@ -4649,12 +4705,14 @@
   4  7,5  - REx
   4  7,2  | RIA
   4  7,2  | RIAl
+  4  7,2  | RIAs
   4  5,2  | RIE
   4  7,5  - RIa
   4  7,5  - RIb
   4  7,5  - RIc
   4  7,5  - RId
   4  7,5  - RIe
+  4  7,5  - RIf
   4  7,5  - RIg
   4  7,5  - RIk
   4  7,5  - RIm
@@ -4992,6 +5050,7 @@
   4  5,3  | kERN
   4  7,3  - kES
   4  7,3  - kIE
+  4  7,3  - kIR
   4  7,2  | kRAS
   4  7,3  - kRS
   4  7,2  | kSAR
@@ -5083,8 +5142,10 @@
   4  5,1  | qERE
   4  7,2  | rEAR
   4  5,3  | rEEN
+  4  7,5  - rEI
   4  5,3  | rEIN
   4  7,5  - rES
+  4  7,2  | rIAS
   4  7,5  - rIE
   4  5,1  | rISE
   4  7,2  | sEAR
@@ -5301,6 +5362,7 @@
   3  7,1  | RIvA
   3  5,1  | RIvE
   3  7,5  - Re
+  3  7,2  | RiAS
   3  7,2  | RyAS
   3  7,3  | SAa
   3  7,3  | SAb
@@ -5345,12 +5407,14 @@
   3  6,6  | SEcS
   3  6,6  | SEeR
   3  6,6  | SEeS
+  3  6,6  | SEgS
   3  6,6  | SEiS
   3  5,1  | SElE
   3  6,6  | SElS
   3  5,1  | SEmE
   3  6,6  | SEmI
   3  7,1  | SEnA
+  3  5,1  | SEnE
   3  6,6  | SEoR
   3  6,6  | SEpS
   3  7,1  | SErA
@@ -5458,6 +5522,7 @@
   3  6,6  | SiSE
   3  6,6  | SiSI
   3  6,6  | SiSS
+  3  7,2  | SkAS
   3  6,6  | SkER
   3  6,6  | SkIS
   3  7,2  | SlAE
@@ -5717,6 +5782,7 @@
   2  6,6  | SiE
   2  6,6  | SiR
   2  6,6  | SiS
+  2  7,2  | SkA
   2  6,6  | SkI
   2  7,2  | SlA
   2  7,2  | SmA

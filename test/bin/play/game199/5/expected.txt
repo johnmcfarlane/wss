@@ -8,10 +8,12 @@
  25  9,3  | SYLID
  24  9,5  | WID
  24  9,1  - WIG
+ 24  9,1  - WOG
  23  9,3  | SOLID
  23  9,4  | YWIS
  22  7,8  | OOID
  22  9,3  | SLOID
+ 22  9,5  | YID
  22  2,10 - YOWLS
  22  8,7  - YWIS
  21  9,1  - LDG
@@ -36,6 +38,7 @@
  19  9,4  | SOIL
  19  7,3  | SYLID
  19  9,7  - WIS
+ 19  9,7  - YID
  18  9,1  - DIG
  18  9,1  - DOG
  18  4,8  - DOMY
@@ -69,6 +72,8 @@
  16  1,10 - SLOIDS
  16  9,2  | SOLDI
  16  1,10 - SOLIDS
+ 16  9,3  | SYLI
+ 16  2,10 - SYLIS
  16  7,5  | WID
  16  8,4  - WILT
  16  3,7  - WISELY
@@ -89,6 +94,7 @@
  15  5,7  | WO
  15  8,4  - WOST
  15  3,7  - WYLES
+ 15  7,5  | YID
  15  8,4  - YOWT
  14  7,5  | DIL
  14  2,10 - DILOS
@@ -115,6 +121,7 @@
  14  8,4  | SOLIDO
  14  6,10 - SYD
  14  6,10 - SYL
+ 14  7,3  | SYLI
  14  3,7  - WILED
  14  7,5  | WIS
  14  5,6  - WKLY
@@ -267,6 +274,7 @@
   9  3,7  - LODES
   9  4,6  - LOKI
   9  8,4  - LOST
+  9  4,7  - LWEIS
   9  3,7  - LYSE
   9  9,5  | OI
   9  2,7  - OLDIE
@@ -384,6 +392,7 @@
   7  8,8  | SODA
   7  4,6  - SOK
   7  8,8  | SOLA
+  7  3,7  - SOLEI
   7  3,10 - SOWS
   7  8,3  - SOYA
   7  9,3  - SWA
@@ -392,6 +401,7 @@
   7  3,10 - WISS
   7  4,7  - WOES
   7  9,7  - YI
+  7  3,10 - YIDS
   7  3,10 - YODS
   6  5,7  - DEIL
   6  5,7  - DELI

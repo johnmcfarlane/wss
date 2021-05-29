@@ -583,6 +583,7 @@
  17  5,7  - LUo
  17  5,7  - LUr
  17  5,7  - LUt
+ 17  5,7  - LUv
  17  5,7  - LUx
  17  3,5  | LYCOsA
  17  3,5  | LYCUs
@@ -655,8 +656,6 @@
  16  4,5  - AkAL
  16  6,5  - AlCA
  16  6,5  - AlCO
- 16  2,5  - AmAL
- 16  4,5  - AmAL
  16  4,5  - AnAL
  16  4,2  | AnCORA
  16  6,5  - AoUL
@@ -836,7 +835,6 @@
  15  6,5  - AgAU
  15  6,5  - AkAL
  15  4,2  | AlCOR
- 15  6,5  - AmAL
  15  6,5  - AnAL
  15  4,2  | AnCOR
  15  4,5  - AnOA
@@ -1100,6 +1098,7 @@
  14  5,3  | CALAlU
  14  4,4  | CAR
  14  4,4  | CARa
+ 14  4,4  | CARb
  14  4,4  | CARd
  14  4,4  | CARe
  14  4,4  | CARf
@@ -1423,6 +1422,7 @@
  13  6,7  - UvA
  13  3,6  | YACAL
  13  3,6  | YUCA
+ 13  3,6  | YUCAs
  13  2,5  - aAA
  13  5,5  - aAL
  13  5,5  - bAL
@@ -1834,6 +1834,7 @@
  11  2,3  | CAcHUA
  11  3,2  | CAfOY
  11  3,2  | CAmAY
+ 11  5,5  | CAnOLA
  11  2,3  | CAsHOU
  11  5,2  | CAsUAL
  11  5,5  | CAsUAL
@@ -2309,6 +2310,7 @@
   9  3,2  | ALOgY
   9  5,2  | ALOyAU
   9  4,4  | ALRUnA
+  9  3,3  | ALiYA
   9  5,1  | ALpACA
   9  1,5  - AOb
   9  4,5  | ARAUa
@@ -2374,6 +2376,7 @@
   9  5,5  | CAlLO
   9  5,2  | CAmLA
   9  5,5  | CAmLA
+  9  5,1  | CAnOLA
   9  4,3  | CApRA
   9  5,5  | CArLO
   9  5,2  | CArUA
@@ -2727,6 +2730,7 @@
   8  5,2  | CAAmA
   8  5,5  | CAAmA
   8  5,5  | CALAs
+  8  5,5  | CALO
   8  5,5  | CALOr
   8  5,2  | CAObA
   8  5,5  | CAObA
@@ -3069,7 +3073,6 @@
   7  5,3  | AlCA
   7  5,6  | AlCA
   7  5,6  | AlCO
-  7  5,6  | AmALA
   7  3,3  | AmAY
   7  4,2  | AmOUR
   7  3,3  | AmOY
@@ -3097,6 +3100,7 @@
   7  5,5  | CALk
   7  5,5  | CALl
   7  5,5  | CALm
+  7  5,5  | CALo
   7  5,5  | CALp
   7  5,5  | CALs
   7  5,5  | CALx
@@ -3172,6 +3176,7 @@
   7  2,6  | HuLU
   7  1,5  - LA
   7  1,7  - LA
+  7  4,3  | LAARi
   7  5,5  | LAC
   7  5,5  | LACe
   7  5,5  | LACk
@@ -3220,6 +3225,7 @@
   7  3,3  | OLdY
   7  4,5  | ORgAL
   7  5,3  | OULAp
+  7  3,3  | OfAY
   7  3,3  | OkAY
   7  5,3  | OnCA
   7  5,3  | OrCA
@@ -3227,6 +3233,7 @@
   7  4,6  | RAnULA
   7  4,6  | ROtULA
   7  4,6  | RUAnA
+  7  4,6  | RUgOLA
   7  4,6  | ReAAL
   7  4,6  | ReL
   7  5,4  | UCA
@@ -3407,7 +3414,6 @@
   6  2,3  | AlOHA
   6  5,2  | AlULA
   6  3,4  | AlYA
-  6  5,6  | AmAL
   6  5,2  | AmULA
   6  5,6  | AnAL
   6  4,2  | ArOAR
@@ -3418,6 +3424,7 @@
   6  5,5  | CAAm
   6  5,5  | CAOn
   6  5,5  | CAcA
+  6  5,5  | CAlO
   6  5,5  | CAnA
   6  5,5  | CApA
   6  5,5  | CApO
@@ -3502,6 +3509,7 @@
   6  2,6  | HaLA
   6  2,6  | HaLO
   6  2,6  | HeAL
+  6  2,6  | HeLO
   6  2,6  | HiLA
   6  2,6  | HoLA
   6  2,6  | HoOL
@@ -3593,6 +3601,7 @@
   6  2,5  | cHOU
   6  5,2  | cOALA
   6  5,3  | cOCA
+  6  2,4  | dAHL
   6  4,3  | dAUR
   6  2,5  | dHAL
   6  4,3  | dOUR
@@ -3753,8 +3762,6 @@
   5  5,4  | AlALA
   5  5,6  | AlLO
   5  2,3  | AmAH
-  5  5,2  | AmALA
-  5  5,4  | AmALA
   5  5,3  | AmLA
   5  5,6  | AmLA
   5  4,4  | AmRA
@@ -4063,6 +4070,7 @@
   5  3,4  | pOY
   5  4,5  | pRAO
   5  4,5  | pROA
+  5  5,3  | pULA
   5  4,4  | pURL
   5  3,5  | pYA
   5  5,4  | qUAL
@@ -4179,7 +4187,6 @@
   4  4,3  | AlUR
   4  4,5  - Am
   4  1,7  - Am
-  4  5,4  | AmAL
   4  4,3  | AmORA
   4  3,4  | AmY
   4  4,5  - An
@@ -4336,6 +4343,7 @@
   4  5,3  | bOLA
   4  4,4  | bURA
   4  4,4  | bURO
+  4  5,5  | cALO
   4  4,4  | cARL
   4  2,5  | cHA
   4  5,4  | cOAL
@@ -4390,6 +4398,7 @@
   4  2,5  | mHO
   4  5,3  | mOLA
   4  4,4  | mURA
+  4  2,4  | nAH
   4  2,4  | nOH
   4  2,5  | oHO
   4  2,4  | oOH

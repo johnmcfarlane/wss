@@ -1,4 +1,6 @@
+ 35  6,8  | wOAK
  33  6,8  | tOV
+ 33  6,8  | wOK
  26  3,2  - DAIKOn
  26  6,2  | KAVAS
  26  6,2  | KAVASs
@@ -30,6 +32,7 @@
  22  3,3  - ZOhAK
  22  6,8  | eO
  22  6,8  | tO
+ 22  6,8  | wO
  21  3,2  - DOoK
  21  3,2  - DoOK
  21  4,10 - ErK
@@ -40,16 +43,17 @@
  21  6,9  | yAK
  21  6,9  | yOK
  20  6,5  - AVIKOm
- 20  4,3  | AmAL
  20  4,3  | AmIL
  20  4,3  | AnAL
  20  4,3  | AnIL
  20  4,3  | ArIL
  20  4,3  | AwOL
  20  4,8  - JErVIA
+ 20  3,3  - ZAIKAi
  20  3,3  - ZeK
  19  6,5  - AKOV
  19  6,5  - AVOKe
+ 19  3,3  - ZAiKAI
  18  6,2  | AKOASm
  18  6,5  - AKoV
  18  6,2  | AdVISO
@@ -110,9 +114,11 @@
  16  6,2  | KAnAS
  16  6,2  | KApAS
  16  6,2  | KArOS
+ 16  6,2  | KAtAS
  16  6,2  | KAvAS
  16  6,2  | KAyOS
  16  6,2  | KIlOS
+ 16  6,2  | KInAS
  16  6,2  | KInOS
  16  6,2  | KIvAS
  16  6,2  | KIyAS
@@ -163,9 +169,11 @@
  16  6,2  | VObIS
  16  3,3  - ZAcK
  16  3,3  - ZOArIA
+ 16  3,3  - ZOnK
  16  3,3  - ZOuK
  16  6,2  | dAVIS
  16  6,2  | dIVAS
+ 16  6,2  | fAVAS
  16  6,2  | hAIKS
  16  6,2  | jAKOS
  16  6,2  | jAVAS
@@ -227,6 +235,7 @@
  14  5,2  - IVa
  14  5,2  - IVe
  14  5,2  - IVy
+ 14  5,2  - IcK
  14  5,2  - IlK
  14  5,2  - InK
  14  5,2  - InV
@@ -293,6 +302,7 @@
  13  6,6  | SAe
  13  6,6  | SAt
  13  6,6  | SAu
+ 13  6,6  | SAw
  13  5,1  | SIKA
  13  6,6  | SIe
  13  6,6  | SIt
@@ -302,6 +312,7 @@
  13  6,6  | SOe
  13  6,6  | SOt
  13  6,6  | SOu
+ 13  6,6  | SOw
  13  3,3  - ZAIn
  13  3,3  - ZIOn
  13  3,3  - ZOA
@@ -425,6 +436,7 @@
  11  4,8  - JEe
  11  4,8  - JEt
  11  4,8  - JEu
+ 11  4,8  - JEw
  11  6,3  | KVaS
  11  5,5  - OAK
  11  5,5  - OAKs
@@ -453,6 +465,7 @@
  11  3,3  - ZAt
  11  3,3  - ZAx
  11  3,3  - ZIg
+ 11  3,3  - ZIn
  11  3,3  - ZIp
  11  3,3  - ZIt
  11  3,3  - ZOa
@@ -511,6 +524,7 @@
  10  5,5  - dIKA
  10  5,5  - dIVA
  10  5,5  - fAKI
+ 10  5,5  - fAVA
  10  5,5  - fAVI
  10  5,5  - hAAK
  10  5,5  - hAIK
@@ -713,6 +727,8 @@
   8  6,7  - IVe
   8  6,5  - IVy
   8  6,7  - IVy
+  8  6,5  - IcK
+  8  6,7  - IcK
   8  6,5  - IlK
   8  6,7  - IlK
   8  6,5  - InK
@@ -757,8 +773,10 @@
   8  5,2  - OkIA
   8  6,2  | OrIAS
   8  6,2  | OzIAS
+  8  5,1  | SKA
   8  5,1  | SKAg
   8  5,1  | SKAl
+  8  5,1  | SKAs
   8  5,1  | SKAt
   8  5,1  | SKAw
   8  5,1  | SKI
@@ -847,6 +865,7 @@
   7  6,3  | KAaS
   7  6,3  | KAbS
   7  6,3  | KAeS
+  7  6,3  | KAfS
   7  6,3  | KAnS
   7  6,3  | KAtS
   7  6,3  | KAyS
@@ -858,12 +877,14 @@
   7  6,3  | KIfS
   7  6,3  | KInS
   7  6,3  | KIpS
+  7  6,3  | KIrS
   7  6,3  | KIsS
   7  6,3  | KItS
   7  6,4  | KOS
   7  6,4  | KOSo
   7  6,4  | KOSs
   7  6,3  | KOaS
+  7  6,3  | KObS
   7  6,3  | KOpS
   7  6,3  | KOrS
   7  6,3  | KOsS
@@ -903,7 +924,9 @@
   7  6,4  | VASe
   7  6,4  | VASt
   7  6,4  | VASu
+  7  6,3  | VAcS
   7  6,3  | VAnS
+  7  6,3  | VArS
   7  6,3  | VAtS
   7  6,3  | VAuS
   7  6,3  | VAvS
@@ -915,6 +938,7 @@
   7  6,4  | VISs
   7  6,3  | VIaS
   7  6,3  | VIeS
+  7  6,3  | VIgS
   7  6,3  | VImS
   7  6,3  | VInS
   7  6,3  | VIpS
@@ -963,6 +987,7 @@
   7  5,3  | eAVE
   7  5,3  | eVOE
   7  5,3  | fAKE
+  7  5,3  | fAVE
   7  5,3  | fIKE
   7  6,4  | fISK
   7  5,3  | fIVE
@@ -991,6 +1016,7 @@
   7  1,7  - lAO
   7  6,4  | lASK
   7  5,3  | lAVE
+  7  6,3  | lAVS
   7  5,3  | lIKE
   7  6,4  | lISK
   7  5,3  | lIVE
@@ -1034,6 +1060,7 @@
   7  1,7  - sAO
   7  5,3  | sAVE
   7  5,3  | sIKE
+  7  6,3  | sKAS
   7  6,3  | sKIS
   7  5,3  | sOKE
   7  1,7  - tAI
@@ -1147,6 +1174,7 @@
   6  5,2  - OrA
   6  5,2  - OuI
   6  5,2  - OvA
+  6  5,1  | SKa
   6  5,1  | SKi
   6  5,1  | SKy
   6  6,5  | VSs
@@ -1609,6 +1637,7 @@
   3  5,1  | SOdA
   3  5,1  | SOfA
   3  5,1  | SOgA
+  3  5,1  | SOjA
   3  5,1  | SOkA
   3  5,1  | SOlA
   3  5,1  | SOlI
@@ -1626,6 +1655,7 @@
   3  5,1  | ShI
   3  5,1  | ShO
   3  5,1  | SiA
+  3  5,1  | SkA
   3  5,1  | SkI
   3  5,1  | SlA
   3  5,1  | SmA
@@ -1692,6 +1722,7 @@
   3  6,3  | pOIS
   3  6,3  | rAIS
   3  6,4  | rASA
+  3  6,3  | rIAS
   3  6,4  | rOSA
   3  6,3  | tAOS
   3  6,4  | vASA

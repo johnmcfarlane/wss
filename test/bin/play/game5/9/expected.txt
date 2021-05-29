@@ -72,6 +72,8 @@
  36  7,11 - SErEH
  36  5,11 - SHAKOEs
  36  4,11 - rESHAKE
+ 36  4,10 - sKOSH
+ 35  4,10 - SKOsH
  34  3,10 - HAKES
  34  3,10 - HOKES
  34  5,10 - KiSH
@@ -129,6 +131,7 @@
  32  3,10 - KHAnS
  32  3,10 - KHAsS
  32  3,10 - KHAtS
+ 32  3,10 - KHEtS
  32  3,10 - KOHlS
  32  3,10 - KOpHS
  32  3,10 - OKeHS
@@ -357,6 +360,7 @@
  26  4,10 - KAaS
  26  4,10 - KAbS
  26  4,10 - KAeS
+ 26  4,10 - KAfS
  26  4,10 - KAnS
  26  4,10 - KAtS
  26  4,10 - KAyS
@@ -372,6 +376,7 @@
  26  4,8  - KOANS
  26  5,10 - KOS
  26  4,10 - KOaS
+ 26  4,10 - KObS
  26  4,10 - KOpS
  26  4,10 - KOrS
  26  4,10 - KOsS
@@ -422,6 +427,7 @@
  26  5,10 - rASH
  26  5,10 - rESH
  26  5,10 - sASH
+ 26  4,10 - sKAS
  26  3,8  - sKEANS
  26  5,10 - sOSH
  26  5,10 - tASH
@@ -462,6 +468,7 @@
  25  4,10 - OKAs
  25  4,10 - OKEs
  25  5,10 - SAsH
+ 25  4,10 - SKAs
  25  5,10 - SOsH
  24  3,10 - AHEmS
  24  7,11 - AKEE
@@ -518,7 +525,9 @@
  24  3,10 - HEApS
  24  3,10 - HEArS
  24  3,10 - HEAtS
+ 24  7,11 - HEbES
  24  3,10 - HElAS
+ 24  3,10 - HElOS
  24  7,11 - HEmES
  24  7,11 - HErES
  24  3,10 - HErOS
@@ -545,6 +554,7 @@
  24  7,11 - HOwEA
  24  3,10 - HOwES
  24  7,11 - HOwES
+ 24  3,10 - HOyAS
  24  5,10 - HoSE
  24  7,11 - HoSEA
  24  5,10 - HuSE
@@ -662,16 +672,19 @@
  22  4,10 - HAwS
  22  4,10 - HAyS
  22  5,10 - HES
+ 22  4,10 - HEhS
  22  4,10 - HEmS
  22  4,10 - HEnS
  22  4,10 - HEpS
  22  4,10 - HErS
+ 22  4,10 - HEtS
  22  4,10 - HEwS
  22  4,10 - HObS
  22  4,10 - HOdS
  22  4,10 - HOeS
  22  4,10 - HOgS
  22  4,10 - HOlS
+ 22  4,10 - HOnS
  22  4,10 - HOpS
  22  4,10 - HOrS
  22  4,10 - HOsS
@@ -694,7 +707,9 @@
  22  5,8  - SiNH
  22  4,10 - aAHS
  22  4,10 - dAHS
+ 22  4,10 - fEHS
  22  4,10 - hAHS
+ 22  4,10 - hEHS
  22  4,10 - mHOS
  22  4,10 - oOHS
  22  4,10 - pEHS
@@ -808,6 +823,7 @@
  21  7,11 - jAKE
  21  7,11 - jOKE
  21  7,11 - lAKE
+ 21  7,11 - lEKE
  21  7,11 - lOKE
  21  7,11 - mAKE
  21  7,11 - mOKE
@@ -1502,6 +1518,7 @@
  13  4,8  - ElANS
  13  6,10 - Es
  13  4,8  - EvANS
+ 13  4,8  - ExONS
  13  4,8  - HAEN
  13  5,8  - HANO
  13  5,8  - HANS
@@ -1509,6 +1526,7 @@
  13  5,8  - HENS
  13  3,8  - HOKaN
  13  5,8  - HONE
+ 13  5,8  - HONS
  13 10,8  - JA
  13 10,8  - JE
  13 10,8  - JO
@@ -1668,6 +1686,7 @@
  12  4,8  - HiSN
  12  8,11 - HoE
  12  5,8  - HoNE
+ 12  5,8  - HoNS
  12  4,8  - HoON
  12  8,11 - HuE
  12  5,8  - HuNS
@@ -1875,6 +1894,7 @@
  10  4,8  - SKuN
  10  2,8  - SOaKEN
  10  5,8  - SaNE
+ 10  5,8  - SeNE
  10  5,8  - SiNE
  10  5,8  - SoNE
  10  5,8  - SuNE
@@ -1911,6 +1931,7 @@
  10  5,8  - hANS
  10  5,8  - hENS
  10  5,8  - hONE
+ 10  5,8  - hONS
  10  5,8  - iONE
  10  5,8  - iONS
  10  5,8  - jANE
@@ -1930,6 +1951,7 @@
  10  5,8  - mONE
  10  5,8  - mONS
  10  5,8  - nANE
+ 10  5,8  - nANS
  10  5,8  - nONE
  10  5,8  - oONS
  10  5,8  - pANE
@@ -2062,6 +2084,7 @@
   9  8,11 - SEEs
   9  7,11 - SElE
   9  7,11 - SEmE
+  9  7,11 - SEnE
   9  7,11 - SErE
   9  7,11 - SEvE
   9  4,8  - SHAN
@@ -2188,6 +2211,7 @@
   7  5,8  - HONd
   7  5,8  - HONe
   7  5,8  - HONg
+  7  5,8  - HONs
   7  5,8  - HONt
   7 11,6  | Ha
   7  3,8  - HaSAN
@@ -2455,6 +2479,7 @@
   5  5,8  - SANs
   5  5,8  - SANt
   5  5,8  - SENd
+  5  5,8  - SENe
   5  5,8  - SENt
   5  5,8  - SONd
   5  5,8  - SONe

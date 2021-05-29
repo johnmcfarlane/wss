@@ -94,11 +94,13 @@
  26 11,1  | uHLLO
  26  9,5  | wHOLE
  25 11,6  | EOLe
+ 25  9,6  | HELO
  25  9,6  | HOLE
  25 11,2  | HeLOE
  25  9,3  | QuE
  25 11,2  | cHLOE
  24 11,2  | HELOe
+ 24 11,2  | HELOs
  24 11,2  | HELiO
  24  8,9  - HERL
  24 11,8  | HEe
@@ -113,6 +115,7 @@
  24  5,10 - pDQ
  24  8,9  - tHRO
  23 11,3  | ELHi
+ 23 11,2  | HELO
  23 11,2  | HOLE
  23 11,3  | LEHi
  23 11,3  | LEHr
@@ -144,8 +147,11 @@
  22 11,7  | oLE
  22  3,8  - sHOVEL
  21 11,3  | EcHO
+ 21  9,4  | HELO
  21  9,6  | HELe
+ 21  9,6  | HELo
  21  8,9  - HERO
+ 21  9,6  | HElO
  21 11,3  | HLEr
  21  9,6  | HOLa
  21  9,6  | HOLe
@@ -163,6 +169,7 @@
  21  9,6  | HaLO
  21  4,8  - HaVEL
  21  9,6  | HeLE
+ 21  9,6  | HeLO
  21  2,10 - HiELD
  21  9,6  | HoLE
  21  4,8  - HoVEL
@@ -196,6 +203,7 @@
  20 11,2  | HaLE
  20 11,2  | HaLO
  20 11,2  | HeLE
+ 20 11,2  | HeLO
  20 11,2  | HiLE
  20 11,2  | HoLE
  20 11,2  | HyLE
@@ -221,6 +229,7 @@
  19  9,5  | EgOL
  19  9,5  | EnOL
  19 11,2  | HELe
+ 19 11,2  | HELo
  19 11,5  | HEeL
  19 11,2  | HOLa
  19 11,2  | HOLe
@@ -247,6 +256,7 @@
  19  9,6  | bOLE
  19  9,6  | dOLE
  19  9,6  | eOLE
+ 19  9,6  | hELO
  19  9,6  | hOLE
  19  9,6  | jOLE
  19  9,6  | mOLE
@@ -293,6 +303,7 @@
  18  8,9  - HORy
  18  3,10 - HOdDLE
  18 11,3  | HOhE
+ 18  3,10 - HOnDLE
  18  3,10 - HOoDLE
  18 11,4  | HOsEL
  18 11,4  | HOwEL
@@ -316,12 +327,16 @@
  18 11,7  | OsE
  18 11,7  | OwE
  18  8,9  - bORH
+ 18  9,4  | hELO
  18  8,9  - pERH
  18  2,10 - sHOED
  18  9,4  | vELO
  17  9,6  | EOLe
  17 11,2  | EcHO
  17  9,4  | HELe
+ 17  9,4  | HELo
+ 17 11,2  | HElO
+ 17  9,4  | HElO
  17 11,2  | HErO
  17  4,10 - HODgE
  17 11,3  | HOE
@@ -347,6 +362,7 @@
  17  9,4  | HaLE
  17  9,4  | HaLO
  17  9,4  | HeLE
+ 17  9,4  | HeLO
  17  9,4  | HiLE
  17 11,4  | LEdOL
  17  2,10 - LLOyD
@@ -371,6 +387,7 @@
  16 11,2  | ELLe
  16 11,3  | EdH
  16 11,3  | EtH
+ 16  1,10 - HELO
  16  2,6  - HELOE
  16  9,6  | HEd
  16  9,6  | HEh
@@ -623,6 +640,7 @@
  14 11,6  | HeE
  14  1,10 - HeLE
  14  8,6  | HeLLEN
+ 14  1,10 - HeLO
  14  2,6  - HeLOE
  14 11,3  | HiE
  14 11,5  | HiE
@@ -650,6 +668,7 @@
  14  2,6  - LEtHE
  14 11,2  | LEvO
  14  9,6  | LEy
+ 14  9,6  | LEz
  14 11,3  | LOE
  14  5,9  | LOO
  14  9,6  | LOa
@@ -733,6 +752,7 @@
  14  9,6  | gOL
  14 11,6  | hEH
  14  9,6  | hEL
+ 14 11,2  | hELO
  14  7,3  | hOHE
  14  9,6  | hOL
  14 11,2  | hOLE
@@ -803,6 +823,7 @@
  13  1,10 - HELe
  13  8,6  | HELiON
  13  1,10 - HELm
+ 13  1,10 - HELo
  13  1,10 - HELp
  13  9,3  | HEaL
  13 11,3  | HEe
@@ -925,6 +946,7 @@
  12  3,5  - HEcCO
  12  8,8  | HEiN
  12  3,5  - HElCO
+ 12  1,10 - HElO
  12  2,6  - HElOE
  12  8,8  | HErN
  12  1,10 - HErO
@@ -1038,6 +1060,7 @@
  12  6,8  - VOL
  12  8,9  - aERO
  12  1,10 - aLLE
+ 12  2,6  - aLLEE
  12  1,10 - aLLO
  12  5,10 - bDLE
  12  2,6  - bELLE
@@ -1054,6 +1077,7 @@
  12  8,9  - dERO
  12  2,10 - dOH
  12 11,6  | dOL
+ 12  8,9  - dORE
  12 11,6  | eEL
  12  1,10 - eLLE
  12  9,4  | fEH
@@ -1232,13 +1256,13 @@
  11  3,9  - LeHI
  11  4,8  - LeV
  11 11,3  | LiE
- 11  4,8  - LiV
  11 11,3  | LoE
  11  3,9  - LoEIL
  11 11,3  | LoO
  11  3,5  - LrECL
  11 11,3  | LuE
  11 11,3  | LuO
+ 11  4,8  - LuV
  11 11,3  | LyE
  11  9,6  | OE
  11  7,4  | OH
@@ -1482,6 +1506,7 @@
  10  7,4  | aH
  10 11,4  | aHO
  10  2,10 - aHO
+ 10  4,7  | aLLEE
  10  9,2  | aLOE
  10  1,10 - aLOE
  10 11,8  | bE
@@ -1494,6 +1519,7 @@
  10 11,4  | bOH
  10  3,10 - bOLD
  10  1,10 - bOLE
+ 10  9,4  | cEL
  10  7,4  | cH
  10 11,4  | cHE
  10  2,10 - cHE
@@ -1532,6 +1558,7 @@
  10 11,4  | hEH
  10  9,4  | hEL
  10  3,10 - hELD
+ 10  1,10 - hELO
  10  2,6  - hELOE
  10  4,10 - hHD
  10  5,9  - hILLER
@@ -2052,6 +2079,7 @@
   8  9,4  | LEg
   8  4,8  | LEgE
   8  9,4  | LEi
+  8  4,8  | LEkE
   8  4,8  | LEmE
   8  8,7  | LEmON
   8  3,10 - LEnD
@@ -2267,6 +2295,7 @@
   8  4,5  - yECH
   8  8,7  - yOWL
   8  4,7  | zOLLE
+  7  6,5  - CEL
   7  6,5  - CH
   7  6,5  - CHa
   7  6,5  - CHe
@@ -2333,6 +2362,7 @@
   7  3,6  - HELE
   7  5,6  - HELE
   7  3,6  - HELEn
+  7  5,6  - HELO
   7  4,7  - HERL
   7  4,7  - HERLs
   7 11,4  | HEd
@@ -2646,6 +2676,7 @@
   7  5,9  - sILL
   7 11,6  | sO
   7  4,9  - sOIL
+  7  2,9  - sOLEI
   7  5,5  - tCH
   7 11,7  | tE
   7  4,9  - tEIL
@@ -2681,6 +2712,7 @@
   6  6,5  - CLy
   6  6,5  - COE
   6  6,5  - CaL
+  6  6,5  - CeL
   6  6,5  - CmL
   6  6,5  - CoL
   6  6,5  - CrL
@@ -2758,6 +2790,7 @@
   6  5,6  - HELe
   6  5,6  - HELl
   6  5,6  - HELm
+  6  5,6  - HELo
   6  5,6  - HELp
   6  8,9  | HEN
   6  8,9  - HER
@@ -2768,6 +2801,7 @@
   6  8,5  - HET
   6  8,5  - HETe
   6  8,5  - HETh
+  6  8,5  - HETs
   6  5,6  - HEaL
   6  5,6  - HEeL
   6  5,6  - HEiL
@@ -2868,6 +2902,7 @@
   6  3,9  - LOrI
   6  3,6  - LOsEL
   6  2,7  - LOsER
+  6  3,9  - LOtI
   6  9,3  | LOu
   6  3,7  - LOuR
   6  2,7  - LOvER
@@ -2971,6 +3006,7 @@
   6  9,8  | aE
   6  5,9  - aILE
   6  9,5  | aL
+  6  3,6  - aLLEE
   6  8,5  - aLTO
   6  3,9  - aOLI
   6  9,9  - aRE
@@ -3070,6 +3106,7 @@
   6  5,8  - iVE
   6  5,5  - jCL
   6  9,8  | jE
+  6  8,7  - jEW
   6  9,8  | jO
   6  9,3  | jOE
   6 11,4  | jOE
@@ -3200,6 +3237,7 @@
   6  4,10 - yOD
   6  8,7  - yOW
   5  6,5  - CEe
+  5  6,5  - CEl
   5  6,5  - CEp
   5  6,5  - COb
   5  6,5  - COd
@@ -3294,6 +3332,7 @@
   5  5,6  - HEhE
   5  3,6  - HElE
   5  5,6  - HElE
+  5  5,6  - HElO
   5  3,6  - HEmE
   5  5,6  - HEmE
   5  3,6  - HErE
@@ -3379,7 +3418,6 @@
   5  5,9  - LIr
   5  5,9  - LIs
   5  5,9  - LIt
-  5  5,9  - LIv
   5  5,9  - LIz
   5  4,6  - LLEr
   5  4,6  - LLEu
@@ -3399,6 +3437,7 @@
   5  8,5  - LOT
   5  8,5  - LOTa
   5  8,5  - LOTh
+  5  8,5  - LOTi
   5  8,5  - LOTo
   5  8,5  - LOTs
   5  3,6  - LOvEE
@@ -3547,6 +3586,7 @@
   5  9,7  - oWE
   5  9,10 - pDL
   5  9,4  | pE
+  5  4,5  - pEC
   5  5,6  - pEHO
   5  5,6  - pELL
   5  4,7  - pERH
@@ -3783,6 +3823,8 @@
   4  5,6  - LEdE
   4  3,6  - LEgE
   4  5,6  - LEgE
+  4  3,6  - LEkE
+  4  5,6  - LEkE
   4  3,6  - LEmE
   4  5,6  - LEmE
   4  3,6  - LEnE
@@ -4032,6 +4074,7 @@
   4  3,6  - hELE
   4  5,6  - hELE
   4  4,8  | hELE
+  4  5,6  - hELO
   4  4,7  - hERL
   4  3,7  - hLER
   4 11,5  | hO
@@ -4079,6 +4122,7 @@
   4  4,8  | mOLE
   4  8,6  - mOOL
   4  8,5  - mOTE
+  4  9,8  - nAH
   4  5,6  | nE
   4  7,6  | nE
   4  8,8  - nEAL
@@ -4279,6 +4323,7 @@
   3  5,6  - LEv
   3  5,6  - LEx
   3  5,6  - LEy
+  3  5,6  - LEz
   3  9,6  - LO
   3  9,6  - LOa
   3  9,6  - LOb
@@ -4399,6 +4444,7 @@
   3  5,7  - bRL
   3  9,5  - bTL
   3  9,8  - cAL
+  3  5,6  - cEL
   3  4,7  - cERO
   3  5,9  - cIE
   3  8,6  - cLO
@@ -4426,6 +4472,7 @@
   3  9,6  - dOL
   3  8,9  | dON
   3  8,9  - dOR
+  3  4,7  - dORE
   3  8,5  - dOT
   3  5,10 - eD
   3  9,10 - eD
@@ -4578,6 +4625,7 @@
   3  8,5  - pOT
   3 11,4  | rE
   3  3,10 - rE
+  3  4,9  - rEI
   3  5,6  - rEL
   3  8,9  | rEN
   3  8,5  - rET
@@ -4610,6 +4658,7 @@
   3  3,10 - tE
   3  5,6  - tEL
   3  8,9  | tEN
+  3  8,5  - tET
   3  5,9  - tIE
   3  8,6  - tLO
   3  4,7  - tLR
@@ -4852,6 +4901,7 @@
   2  6,7  - REf
   2  6,7  - REg
   2  6,7  - REh
+  2  6,7  - REi
   2  6,7  - REl
   2  6,7  - REm
   2  6,7  - REn

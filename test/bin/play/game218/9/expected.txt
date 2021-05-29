@@ -49,7 +49,10 @@
  21  9,5  | FAH
  21  7,5  - FED
  21  7,5  - FEdS
+ 21  7,5  - FEhS
  21  7,5  - FElS
+ 21  7,5  - FEmS
+ 21  7,5  - FEnS
  21  7,5  - FErS
  21  7,5  - FEsS
  21  3,4  - JARSFUl
@@ -72,6 +75,7 @@
  18  9,11 - SyN
  18  7,8  | aS
  18  7,8  | eS
+ 18  9,5  | hAHAS
  18  7,8  | iS
  18  9,5  | lAHAR
  18  9,5  | mAHAR
@@ -186,12 +190,14 @@
  13  8,5  - EfS
  13  8,5  - ElS
  13  8,5  - EmS
+ 13  8,5  - EnS
  13  8,5  - ErS
  13  8,5  - EsS
  13  3,5  | FARSI
  13  7,5  - FEd
  13  7,5  - FEh
  13  7,5  - FEm
+ 13  7,5  - FEn
  13  7,5  - FEr
  13  7,5  - FEw
  13  7,5  - FEy
@@ -314,6 +320,7 @@
  11  3,7  | tJI
  11  9,4  | tRAH
  11  3,7  | uJI
+ 10  4,7  | FAG
  10  2,7  - FARDO
  10  6,4  - FAURD
  10  6,4  - FAUReD
@@ -402,6 +409,7 @@
   9  5,7  | SwORE
   9  6,8  - TaLA
   9  6,8  - TeLA
+  9  6,8  - TeLS
   9  6,8  - TiLS
   9  6,8  - ToLA
   9  6,8  - TuLA
@@ -432,6 +440,7 @@
   8  4,7  | DAG
   8  3,5  | DARcI
   8  3,5  | DARiI
+  8  3,5  | DAShI
   8  5,10 - DEA
   8  5,10 - DEAd
   8  5,10 - DEAf
@@ -620,6 +629,7 @@
   7  7,4  - FUnS
   7  7,4  - FUrS
   7  7,4  - FUsS
+  7  4,7  | FaG
   7  5,4  - FeRU
   7  6,4  - FeUS
   7  4,7  | FiG
@@ -818,6 +828,7 @@
   6  5,10 - REdS
   6  5,10 - REeS
   6  5,10 - REfS
+  6  5,10 - REgS
   6  5,10 - REiS
   6  5,10 - REmS
   6  5,10 - REpS
@@ -901,6 +912,7 @@
   6  5,10 - dEDA
   6  7,4  - dUADS
   6  4,7  | eRG
+  6  4,7  | fAG
   6  2,7  - fARDO
   6  6,4  - fAURD
   6  5,4  - fRAUD
@@ -920,12 +932,14 @@
   6  5,10 - lEDS
   6  4,7  | mAG
   6  3,5  | mARDI
+  6  6,4  - mAUDS
   6  4,7  | mSG
   6  7,4  - mUDAR
   6  7,4  - mUDRA
   6  4,7  | nAG
   6  4,4  - nARDU
   6  5,10 - nERD
+  6  7,4  - nURDS
   6  7,4  - oUF
   6  5,4  - pADUS
   6  3,5  | pARDI
@@ -1042,6 +1056,7 @@
   5  6,10 - ElF
   5  8,5  - Em
   5  6,10 - EmF
+  5  8,5  - En
   5  8,5  - Er
   5  6,10 - ErF
   5  8,5  - Es
@@ -1062,6 +1077,7 @@
   5  5,10 - REf
   5  5,10 - REg
   5  5,10 - REh
+  5  5,10 - REi
   5  5,10 - REl
   5  5,10 - REm
   5  5,10 - REn
@@ -1228,14 +1244,17 @@
   5  7,4  - mUDS
   5  7,4  - mURAS
   5  7,4  - mUSAR
+  5  9,5  | nAH
   5  5,10 - nEAR
   5  5,10 - nED
   5  4,8  | nGAI
   5  9,9  - nOW
   5  7,4  - nUDA
+  5  7,4  - nURD
   5  4,7  - oFO
   5  5,4  - oRDU
   5  7,4  - oUDS
+  5  3,6  | pADI
   5  3,5  | pARSI
   5  5,4  - pARUS
   5  5,10 - pEAR
@@ -1602,6 +1621,7 @@
   3  7,4  - RUn
   3  7,4  - RUs
   3  7,4  - RUt
+  3  3,7  | ReI
   3  3,7  | RoI
   3  3,7  | RtI
   3  4,7  - SAO

@@ -11,6 +11,7 @@
  34  9,10 - LABRID
  34  9,10 - LIBARD
  34  2,6  | LIDAR
+ 33  2,11 | DHALS
  32  2,8  | BLASH
  32  9,10 - DISBAR
  32  9,10 - LIBRAS
@@ -50,6 +51,7 @@
  25 14,7  | BRAILS
  25 12,8  - BRAS
  25 14,7  | BRASIL
+ 25 12,8  - BRIS
  25 14,5  | CADIS
  25 14,7  | LABRID
  25 14,7  | LIBARD
@@ -85,6 +87,7 @@
  23 14,5  | CADI
  23 14,5  | CADS
  23 14,5  | CALS
+ 23 12,8  - DALS
  23  9,12 - DARBS
  23  3,7  - DEBI
  23 14,7  | DISBAR
@@ -209,6 +212,7 @@
  19  3,2  | BILDAR
  19 11,9  | BIS
  19 14,7  | BRAS
+ 19 14,7  | BRIS
  19 14,7  | DABS
  19 14,7  | DARB
  19  9,10 - DARBS
@@ -229,6 +233,7 @@
  19 14,7  | LIDARS
  19 12,8  - RAIS
  19  7,13 | RAS
+ 19 12,8  - RIAS
  19 11,11 | SAB
  19 11,11 | SIB
  18  2,8  | ABR
@@ -285,6 +290,7 @@
  18 10,10 | SNAIL
  18 10,10 | SNARL
  18 10,10 | SNIRL
+ 18  8,11 | URBIA
  17 13,8  - ABS
  17 11,9  | ABSI
  17 11,3  - AHI
@@ -395,6 +401,7 @@
  16  9,12 - DABS
  16  6,13 | DAK
  16  9,10 - DALI
+ 16  9,10 - DALS
  16 11,9  | DASI
  16  4,3  - DBL
  16  3,6  | DBL
@@ -416,6 +423,7 @@
  16  6,13 | LAK
  16  9,10 - LARD
  16  9,12 - LARD
+ 16  9,10 - LARIS
  16 11,9  | LASI
  16  2,7  | LIAR
  16  9,10 - LIARS
@@ -483,6 +491,7 @@
  15  9,10 - DAL
  15 14,7  | DALI
  15  9,12 - DALIS
+ 15 14,7  | DALS
  15  3,3  - DARB
  15  9,10 - DARI
  15 13,8  - DAS
@@ -514,6 +523,7 @@
  15 14,7  | LARD
  15  9,10 - LARI
  15  9,12 - LARID
+ 15 14,7  | LARIS
  15  9,10 - LARS
  15 13,8  - LAS
  15 11,9  | LAS
@@ -589,6 +599,7 @@
  14  3,6  | DAB
  14  4,3  - DALI
  14  9,12 - DALI
+ 14  9,12 - DALS
  14  2,8  | DAR
  14  9,10 - DAR
  14  3,4  | DARB
@@ -620,6 +631,7 @@
  14  9,12 - LAIRS
  14  2,8  | LAR
  14  9,10 - LAR
+ 14  9,12 - LARIS
  14  9,10 - LAS
  14 10,1  - LAUR
  14 10,1  - LAUS
@@ -1113,6 +1125,7 @@
   9  3,7  - BED
   9  3,7  - BEL
   9  2,7  - BLEA
+  9  1,14 - BRIS
   9  9,12 - DA
   9  9,10 | DARBS
   9  1,7  - DARE
@@ -1157,6 +1170,7 @@
   9  1,7  - RALES
   9 13,4  | READS
   9 13,4  | REALS
+  9  3,5  | RIAS
   9  1,7  - RIBE
   9  1,7  - RIDES
   9  1,7  - RILES
@@ -1468,6 +1482,8 @@
   6  2,7  - DAER
   6  9,10 | DAIRA
   6  9,10 | DALI
+  6  9,10 | DALS
+  6 12,6  - DI
   6 14,7  | DI
   6  4,14 | DI
   6  2,14 - DIA
@@ -1490,11 +1506,13 @@
   6  1,14 - IRIS
   6 10,9  - IS
   6 14,7  | LA
+  6  9,10 | LAARI
   6  9,10 | LADS
   6  9,10 | LAID
   6  9,10 | LAIRS
   6  9,10 | LARD
   6  9,10 | LARIA
+  6  9,10 | LARIS
   6 14,7  | LI
   6  1,8  - LIDO
   6  2,7  - LIER
@@ -1511,6 +1529,7 @@
   6  1,7  - RASE
   6 13,4  | REA
   6  3,7  - RED
+  6 13,4  | REI
   6  3,7  - REL
   6  3,5  | RIA
   6  1,7  - RISE
@@ -1707,6 +1726,7 @@
   4  9,10 | RASA
   4  1,10 | RATS
   4  3,7  - REA
+  4  3,7  - REI
   4  3,7  - RES
   4  7,2  | RIN
   4  1,10 | RITA

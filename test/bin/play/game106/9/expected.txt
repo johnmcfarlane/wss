@@ -255,6 +255,7 @@
  27 10,3  | PaDRE
  27 10,3  | PaRDE
  27 10,3  | PaRDO
+ 27 10,4  | PaREO
  27  8,8  | Pe
  27 10,3  | PeDRO
  27  8,8  | Pi
@@ -290,6 +291,7 @@
  26 10,4  | POREs
  26 10,4  | PYRe
  26 10,4  | PYRo
+ 26 10,4  | REPOs
  26 10,4  | REPOt
  26 10,4  | ROPEd
  26 10,4  | ROPEs
@@ -339,9 +341,11 @@
  25 10,3  | PROtE
  25 10,3  | PROvE
  25 10,6  | PaD
+ 25 10,3  | PaREO
  25 10,6  | PeD
  25 10,6  | PoD
  25 10,3  | PrORE
+ 25 10,4  | REPO
  25 10,3  | REPrO
  25  6,4  | REQD
  25 10,4  | ROPE
@@ -383,6 +387,7 @@
  25 10,3  | tROPE
  25 10,4  | uPDO
  25 10,6  | wODE
+ 25  5,9  - wOP
  25 10,6  | yODE
  24  1,1  | ADo
  24  6,1  | COPY
@@ -426,6 +431,7 @@
  24 10,3  | REDYe
  24 10,6  | REDe
  24 10,6  | REDo
+ 24 10,4  | REsOD
  24 10,6  | RODe
  24 10,5  | ROED
  24  7,2  - ROPEY
@@ -508,6 +514,7 @@
  23 10,4  | PyRO
  23  6,4  | REQd
  23 10,4  | RaPE
+ 23 10,4  | RePO
  23  6,4  | ReQD
  23 10,4  | RiPE
  23 10,4  | RoDEO
@@ -535,6 +542,7 @@
  23 10,4  | pEPO
  23  7,9  - pONEY
  23 10,4  | pOPE
+ 23 10,4  | rEPO
  23 10,4  | rOPE
  23 10,4  | sOPE
  23 10,4  | tOPE
@@ -584,7 +592,9 @@
  22  7,9  - PiND
  22  7,9  - PoND
  22 10,6  | RED
+ 22 10,4  | REDOn
  22 10,4  | REDOs
+ 22 10,4  | REPo
  22 10,6  | ROD
  22 10,4  | RODEo
  22  7,2  - ROPED
@@ -631,6 +641,7 @@
  21  7,2  - DOPEs
  21  7,2  - DOPEy
  21  7,2  - DOPeR
+ 21 10,4  | DORE
  21  7,2  - DOREY
  21  7,2  - DORP
  21  7,2  - DORPs
@@ -852,6 +863,7 @@
  19  7,2  - DORY
  19  7,2  - DORaY
  19  7,2  - DOReY
+ 19  7,2  - DORkY
  19  7,2  - DORmY
  19  7,2  - DORtY
  19  1,9  - DOUb
@@ -870,6 +882,7 @@
  19 10,4  | DOnE
  19 10,4  | DOpE
  19  7,2  - DOpEY
+ 19 10,4  | DOrE
  19  7,2  - DOrEY
  19  7,2  - DOrP
  19 10,4  | DOsE
@@ -888,6 +901,7 @@
  19 10,4  | DeRO
  19 10,4  | DiRE
  19 10,8  | DoO
+ 19 10,4  | DoRE
  19 10,8  | DuO
  19 10,4  | DuRE
  19 10,4  | DuRO
@@ -1022,6 +1036,7 @@
  18  1,3  - DFt
  18  6,8  - DOPIER
  18 10,4  | DORa
+ 18 10,4  | DORe
  18 10,6  | DOd
  18 10,6  | DOn
  18 10,6  | DOo
@@ -1135,6 +1150,7 @@
  17 10,4  | REdO
  17 10,4  | REgO
  17 10,4  | REnO
+ 17 10,4  | REpO
  17 10,5  | ROE
  17 10,4  | RObE
  17 10,4  | ROdE
@@ -1173,6 +1189,7 @@
  17 10,4  | cORE
  17 10,4  | dERO
  17  7,2  - dOPER
+ 17 10,4  | dORE
  17 10,5  | eDO
  17  1,3  | eO
  17  7,2  - fORDY
@@ -1335,6 +1352,7 @@
  15  5,9  - DO
  15  7,2  - DOER
  15  7,2  - DOERs
+ 15  7,2  - DORE
  15  7,2  - DOREe
  15  7,2  - DOREy
  15  7,2  - DOReE
@@ -1648,7 +1666,9 @@
  13  7,2  - DOEs
  13  7,7  - DOJo
  13  7,2  - DORa
+ 13  7,2  - DORe
  13  7,2  - DORi
+ 13  7,2  - DORk
  13  7,2  - DORm
  13  7,2  - DORp
  13  7,2  - DORr
@@ -1664,6 +1684,7 @@
  13  7,2  - DOnE
  13  7,2  - DOoR
  13  7,2  - DOpE
+ 13  7,2  - DOrE
  13  7,2  - DOrR
  13  7,2  - DOsE
  13  7,2  - DOtE
@@ -1877,6 +1898,7 @@
  12  7,2  - DiRE
  12  7,2  - DoER
  12  7,2  - DoOR
+ 12  7,2  - DoRE
  12  8,9  - ENOl
  12  8,9  - ENOs
  12  8,9  - ENOw
@@ -1987,6 +2009,8 @@
  12  2,7  | YE
  12  2,7  - YESE
  12  2,7  - YESO
+ 12  8,8  - YID
+ 12  8,8  - YIDs
  12  8,8  - YIrD
  12  2,7  | YO
  12  1,11 - YeE
@@ -2039,6 +2063,7 @@
  11  9,7  - JEe
  11  9,7  - JEt
  11  9,7  - JEu
+ 11  9,7  - JEw
  11  9,7  - JO
  11  9,7  - JOb
  11  9,7  - JOe
@@ -2071,6 +2096,7 @@
  11  6,8  - PYOId
  11  6,8  - PYRIc
  11  5,8  - PYRoID
+ 11  6,8  - PaDI
  11  6,8  - PeRIOD
  11  5,8  - PhORID
  11  5,8  - PiERID
@@ -2107,6 +2133,7 @@
  11  8,1  | SPuD
  11  8,1  | SYED
  11  8,1  | SYnOP
+ 11  8,1  | SYsOP
  11  8,1  | ScRY
  11  8,1  | SeEDY
  11  8,1  | SePD
@@ -2177,6 +2204,7 @@
  10  2,2  - AdOD
  10  2,2  - AlOD
  10  6,1  | CEe
+ 10  6,1  | CEl
  10  6,1  | CEp
  10  6,1  | COb
  10  6,1  | COd
@@ -2308,6 +2336,7 @@
  10  7,2  - ROEr
  10  7,2  - ROEs
  10  7,2  - ROEy
+ 10  5,8  - ROaDIE
  10  7,2  - RObE
  10  7,2  - ROdE
  10  7,2  - ROkE
@@ -2347,6 +2376,7 @@
  10  2,7  - YESo
  10  2,7  - YESt
  10  8,8  - YI
+ 10  8,8  - YId
  10  8,8  - YIn
  10  8,8  - YIp
  10  2,7  | Ya
@@ -2556,7 +2586,9 @@
   9  2,9  - aUD
   9  5,8  - bREDI
   9  5,8  - cOPEI
+  9  7,8  - cRIPE
   9  7,2  - dOER
+  9  7,2  - dORE
   9  7,2  - fORE
   9  6,8  - gERIP
   9  7,8  - gRIPE
@@ -2905,6 +2937,7 @@
   8  7,2  - tOP
   8  7,8  - tRIP
   8  6,8  - uREIDO
+  8  7,2  - wOP
   7  2,2  - ADo
   7  5,1  | APE
   7  5,1  | APR
@@ -3032,6 +3065,7 @@
   7  7,8  - PrIER
   7  7,8  - PrIOR
   7  7,8  - PsID
+  7  6,8  | PuLA
   7  6,8  | PyLA
   7  7,8  - REID
   7  6,8  - REcIP
@@ -3550,6 +3584,7 @@
   5  1,2  - RAt
   5  1,2  - RAw
   5  1,2  - RAx
+  5  7,8  - REI
   5  5,8  | REIT
   5  7,8  - REId
   5  7,8  - REIf
@@ -3975,6 +4010,7 @@
   4  8,8  - RIc
   4  8,8  - RId
   4  8,8  - RIe
+  4  8,8  - RIf
   4  8,8  - RIg
   4  8,8  - RIk
   4  8,8  - RIm
@@ -4082,6 +4118,7 @@
   4  1,8  - pDN
   4  8,8  - pIED
   4  7,8  - pOI
+  4  7,8  - rEI
   4  5,8  | rEIT
   4  8,8  - rIDE
   4  8,9  - rND
@@ -4430,6 +4467,7 @@
   3  1,8  - wON
   3  1,7  - yEES
   3  1,8  - yEN
+  3  8,8  - yID
   3  8,9  - yNO
   3  1,8  - yON
   3  1,7  - zEES
@@ -4528,6 +4566,7 @@
   2  7,8  - ObI
   2  7,8  - OnI
   2  7,8  - OuI
+  2  7,8  - ReI
   2  7,8  - RoI
   2  7,8  - RtI
   2  8,1  | SEa
@@ -4623,6 +4662,7 @@
   2  8,2  - iO
   2  2,7  - kES
   2  8,8  - kIE
+  2  8,8  - kIR
   2  5,9  | kIT
   2  7,9  | kSI
   2  1,2  - lA

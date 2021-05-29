@@ -55,6 +55,7 @@
  36  6,10 - ThIEVE
  36  7,11 - UVEAs
  36  6,10 - VAIrEE
+ 36  7,11 - VATUs
  36  7,11 - VETUs
  36  6,10 - VElATE
  36  6,10 - VEnITE
@@ -547,6 +548,7 @@
  16  3,7  - VAULT
  16  3,7  - VAULTs
  16  3,7  - VAULTy
+ 16  7,10 - VEgIE
  16  7,10 - VElTE
  16  7,10 - VEnAE
  16  7,10 - VEnIE
@@ -690,6 +692,7 @@
  15  9,6  | TEl
  15  9,6  | TEm
  15  9,6  | TEn
+ 15  9,6  | TEt
  15  9,6  | TEw
  15  9,6  | TEx
  15  9,6  | TEz
@@ -855,6 +858,7 @@
  14  8,10 - dIVE
  14  5,7  | eAVE
  14  8,10 - eAVE
+ 14  8,10 - fAVE
  14  8,10 - fIVE
  14  8,10 - gAVE
  14  8,10 - gIVE
@@ -889,6 +893,7 @@
  14  9,6  | rAT
  14  8,10 - rAVE
  14  9,6  | rEA
+ 14  9,6  | rEI
  14  9,6  | rET
  14  8,10 - rEVE
  14  8,10 - rIVE
@@ -899,6 +904,7 @@
  14  9,6  | tAT
  14  8,10 - tAVE
  14  9,6  | tEA
+ 14  9,6  | tET
  14  2,7  - uVEAL
  14  8,10 - vIVE
  14  8,10 - wAVE
@@ -1295,6 +1301,7 @@
  11  9,7  | EATs
  11  9,7  | ETA
  11  9,7  | ETAs
+ 11  9,7  | ETIc
  11  2,5  - ETUVE
  11  9,7  | EUdA
  11  1,5  - EVAcUE
@@ -1324,6 +1331,7 @@
  11  8,3  | EXdIE
  11  8,3  | EXeAT
  11  8,3  | EXiTE
+ 11  8,3  | EXpAT
  11  9,5  | Ed
  11  9,7  | EdIT
  11  9,5  | Eh
@@ -1362,6 +1370,7 @@
  11  3,3  - TEd
  11  5,5  | TEe
  11  3,3  - TEn
+ 11  3,3  - TEt
  11  7,6  | TIAm
  11  7,6  | TIAo
  11  7,6  | TIAr
@@ -1439,7 +1448,6 @@
  11  2,5  - jUVIE
  11  3,3  - lET
  11 10,9  | lEU
- 11  5,1  | lIV
  11  3,5  - lUTEA
  11  3,7  - lVALUE
  11  5,5  | mAE
@@ -1475,6 +1483,7 @@
  11  7,6  | tATE
  11 10,9  | tAU
  11  5,5  | tEA
+ 11  3,3  - tET
  11  7,6  | tITE
  11  7,6  | tUA
  11  7,6  | tUE
@@ -1694,6 +1703,7 @@
  10 10,9  | TEm
  10 10,9  | TEn
  10  7,10 - TEnUE
+ 10 10,9  | TEt
  10 10,9  | TEw
  10 10,9  | TEx
  10 10,9  | TEz
@@ -1901,6 +1911,7 @@
   9  3,1  | DOUAnE
   9  3,1  | DOUbT
   9  3,1  | DOUcE
+  9  3,1  | DOUmA
   9  3,1  | DOUrA
   9  3,1  | DOUsE
   9  5,7  | EAU
@@ -1944,6 +1955,7 @@
   9  7,7  | InTUE
   9  4,5  - ItEA
   9  6,7  - LAtIGO
+  9  6,7  - LUV
   9  6,7  - LaTIGO
   9 11,6  | MONIEd
   9 11,6  | MONIEr
@@ -2015,6 +2027,7 @@
   9  4,7  - VELIc
   9  4,7  - VELTe
   9  4,7  - VELdT
+  9  2,5  - VEgIE
   9  1,5  - VElATE
   9  2,5  - VElTE
   9  2,5  - VEnAE
@@ -2159,6 +2172,7 @@
   9 10,9  | tAT
   9 10,9  | tEA
   9  2,5  - tEAVE
+  9 10,9  | tET
   9  7,6  | tIE
   9  7,6  | tIT
   9  2,7  - tUTELA
@@ -2336,7 +2350,6 @@
   8  6,7  - LATiGO
   8  6,7  - LAV
   8  6,7  - LEV
-  8  6,7  - LIV
   8  4,2  | RAUk
   8  4,2  | RAUl
   8  4,2  | RAUn
@@ -2361,6 +2374,7 @@
   8  7,9  - TAUrI
   8  4,6  - TAWIE
   8  2,7  - TAbULE
+  8  2,7  - TAbULI
   8  7,10 - TArIE
   8  7,10 - TAtIE
   8  7,10 - TAwIE
@@ -2710,6 +2724,7 @@
   7  5,5  - EEr
   7  5,7  | ETA
   7  5,7  | ETAs
+  7  5,7  | ETIc
   7  4,6  - ETWAs
   7  5,7  | EUdA
   7  4,5  - EVE
@@ -2746,7 +2761,7 @@
   7  7,7  | ItEA
   7  6,7  - LaV
   7  6,7  - LeV
-  7  6,7  - LiV
+  7  6,7  - LuV
   7  4,2  | RATInE
   7  4,2  | RATItE
   7  4,2  | RETAIl
@@ -2879,6 +2894,7 @@
   7  9,7  | eTA
   7  5,5  | fA
   7 10,9  | fA
+  7  3,5  - fAVE
   7  5,5  | fE
   7 10,9  | fE
   7  1,7  - fETIAL
@@ -3471,6 +3487,7 @@
   6  5,1  | VIc
   6  5,1  | VId
   6  5,1  | VIe
+  6  5,1  | VIg
   6  5,1  | VIi
   6  5,1  | VIl
   6  5,1  | VIm
@@ -3595,6 +3612,7 @@
   6  3,3  - nE
   6  8,10 - nETE
   6  4,6  - nEWT
+  6  8,10 - nITE
   6 10,10 | nU
   6  3,3  - oE
   6  7,7  | oUI
@@ -3881,6 +3899,7 @@
   5  4,2  | REAm
   5  4,2  | REAp
   5  4,2  | REAr
+  5  4,2  | REI
   5  4,2  | REId
   5  4,2  | REIf
   5  4,2  | REIm
@@ -3897,6 +3916,7 @@
   5  4,2  | REfAIT
   5  4,2  | RIA
   5  4,2  | RIAl
+  5  4,2  | RIAs
   5  4,2  | RIE
   5  4,2  | RIEl
   5  4,2  | RIEm
@@ -4169,6 +4189,7 @@
   5  5,6  - iWI
   5  4,7  - jALET
   5  4,6  - jAW
+  5  4,6  - jEW
   5  4,7  - jULE
   5  4,7  - kELIA
   5  4,7  - kULA
@@ -4213,6 +4234,7 @@
   5  5,1  | pIU
   5  9,6  - pOM
   5  9,2  | pP
+  5  4,7  - pULA
   5  4,7  - pULE
   5  4,7  - pULI
   5  5,6  - pWT
@@ -4409,6 +4431,7 @@
   4  3,1  | DOpA
   4  3,1  | DOpE
   4  3,1  | DOrA
+  4  3,1  | DOrE
   4  3,1  | DOrI
   4  3,1  | DOrT
   4  3,1  | DOsA
@@ -4544,6 +4567,7 @@
   4  6,7  - LUo
   4  6,7  - LUr
   4  6,7  - LUt
+  4  6,7  - LUv
   4  6,7  - LUx
   4  6,7  - LeU
   4  6,7  - LoU
@@ -4586,6 +4610,7 @@
   4  4,2  | RcT
   4  4,2  | ReA
   4  4,2  | ReE
+  4  4,2  | ReI
   4  4,2  | ReT
   4  4,2  | RhA
   4  4,2  | RhE
@@ -4633,6 +4658,7 @@
   4  4,7  - TELe
   4  4,7  - TELi
   4  4,7  - TELl
+  4  4,7  - TELs
   4  4,7  - TELt
   4  3,5  - TElE
   4  8,9  - TElI
@@ -5072,6 +5098,7 @@
   3  9,9  - IiI
   3  4,7  - IlL
   3  9,9  - ImI
+  3  8,9  - InTI
   3  4,7  - IpL
   3  4,7  - IsL
   3  8,9  - ItAI
@@ -5108,6 +5135,7 @@
   3  6,7  - LEv
   3  6,7  - LEx
   3  6,7  - LEy
+  3  6,7  - LEz
   3  6,7  - LI
   3  6,7  - LIb
   3  6,7  - LId
@@ -5120,7 +5148,6 @@
   3  6,7  - LIr
   3  6,7  - LIs
   3  6,7  - LIt
-  3  6,7  - LIv
   3  6,7  - LIz
   3  6,7  - LTr
   3  6,7  - LaI
@@ -5245,6 +5272,7 @@
   3  4,7  - bTL
   3  4,7  - cAL
   3  3,5  - cATE
+  3  4,7  - cEL
   3  3,5  - cETE
   3  5,1  | cIA
   3  5,1  | cIE
@@ -5322,6 +5350,7 @@
   3  3,5  - nETE
   3  4,7  - nIL
   3  5,1  | nIT
+  3  3,5  - nITE
   3  7,7  | oE
   3  7,7  | oI
   3  4,7  - oIL
@@ -5459,6 +5488,7 @@
   2  4,2  | REf
   2  4,2  | REg
   2  4,2  | REh
+  2  4,2  | REi
   2  4,2  | REl
   2  4,2  | REm
   2  4,2  | REn
@@ -5473,6 +5503,7 @@
   2  4,2  | RIc
   2  4,2  | RId
   2  4,2  | RIe
+  2  4,2  | RIf
   2  4,2  | RIg
   2  4,2  | RIk
   2  4,2  | RIm
@@ -5563,6 +5594,7 @@
   2  4,5  - pTE
   2 10,10 - rE
   2  4,5  - rEE
+  2  9,9  - rEI
   2  4,5  - rIE
   2  4,5  - rTE
   2  9,9  - rTI

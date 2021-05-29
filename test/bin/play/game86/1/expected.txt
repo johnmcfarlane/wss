@@ -73,6 +73,7 @@
  21  6,7  - SYE
  21  5,7  - TENS
  21  5,7  - TENT
+ 21  3,7  - TETS
  21  4,7  - TYE
  21  4,7  - YES
  21  5,7  - YES
@@ -89,6 +90,7 @@
  20  5,7  - TEN
  20  4,7  - TEST
  20  5,7  - TEST
+ 20  5,7  - TETS
  20  2,2  - VENTS
  20  5,7  - YE
  20  4,4  - YEZ
@@ -99,6 +101,7 @@
  19  5,7  - SET
  19  6,7  - SET
  19  4,3  - STOVEN
+ 19  5,7  - TET
  19  5,7  - TST
  18  5,7  - ES
  18  6,7  - ES
@@ -146,6 +149,7 @@
  14  2,2  - STYES
  14  6,2  - STYES
  14  4,4  - TEZ
+ 14  5,3  - TONEY
  14  3,3  - VETO
  14  5,5  - VISNEY
  14  5,3  - VOES
@@ -218,6 +222,8 @@
  10  5,5  | SENT
  10  7,5  | SENT
  10  3,3  - SETON
+ 10  2,2  - SETTS
+ 10  6,2  - SETTS
  10  2,2  - STETS
  10  6,2  - STETS
  10  5,5  | TENS
@@ -256,6 +262,9 @@
   9  7,5  | TEN
   9  5,5  | TEST
   9  7,5  | TEST
+  9  5,1  | TET
+  9  5,5  | TETS
+  9  7,5  | TETS
   9  5,3  - TOY
   9  4,5  - VEIN
   9  4,6  - VENT
@@ -288,6 +297,8 @@
   8  5,3  - SONE
   8  2,3  - TENSO
   8  4,6  - TENTY
+  8  5,5  | TET
+  8  7,5  | TET
   8  5,3  - TOEY
   8  5,3  - TONE
   8  5,3  - TONS
@@ -311,6 +322,7 @@
   7  6,5  - ITYS
   7  6,5  - IVE
   7  3,5  - NETI
+  7  5,5  - NITES
   7  5,3  - NOS
   7  5,3  - NOT
   7  6,6  - NYET
@@ -394,6 +406,7 @@
   5  6,6  - NETT
   5  5,5  - NIES
   5  5,5  - NIST
+  5  5,5  - NITE
   5  5,5  - NITS
   5  5,3  - NO
   5  6,3  - ON
@@ -443,6 +456,7 @@
   4  3,2  - TESS
   4  4,2  - TESS
   4  4,2  - TEST
+  4  3,2  - TETS
   4  5,5  - TIES
   4  5,5  - TIN
   4  5,5  - TITE
