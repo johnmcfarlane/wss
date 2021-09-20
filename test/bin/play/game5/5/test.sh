@@ -7,6 +7,6 @@ PROJECT_DIR=$1
 shift
 
 "$@" ./src/play/play \
-  oiqeo_z \
+  qoytter \
   "${SCRIPT_DIR}/tiles.txt" \
   "${PROJECT_DIR}/boards/wwf_challenge.txt" 
