@@ -29,12 +29,17 @@ jobs:
 
   "clang-static-analyzer":
     docker:
-      - image: johnmcfarlane/cnl_ci:clang-10
+      - image: johnmcfarlane/cnl_ci:clang-head-libstdcpp
     steps:
       - checkout
       - run:
           name: Set up system
-          command: /root/project/.circleci/setup.sh
+          command: |
+            /root/project/.circleci/setup.sh
+            conan search
+            conan config install /root/project/.circleci/conan/settings.yml
+            sudo update-alternatives --set cc /usr/bin/clang
+            sudo update-alternatives --set c++ /usr/bin/clang++
       - restore_cache:
           key: cache
       - run:
