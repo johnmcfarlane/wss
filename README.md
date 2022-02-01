@@ -20,8 +20,7 @@ suite, run the following commands from the *wss* project directory:
 mkdir -p build
 cd build/
 conan install --build=missing ..
-cmake ..
-cmake --build .
+conan build ..
 src/play/play abcd_ef ../test/bin/play/game1/1/tiles.txt ../boards/wwf_regular.txt
 ```
 

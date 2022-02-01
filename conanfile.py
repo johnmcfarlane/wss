@@ -6,3 +6,8 @@ class WssConan(ConanFile):
                "ms-gsl/2.0.0", \
                "lyra/1.3.0"
     generators = "cmake"
+
+    def build(self):
+        cmake = CMake(self)
+        cmake.configure()
+        cmake.build()
