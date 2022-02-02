@@ -169,9 +169,3 @@ workflows:
     jobs:
       - "coverage-gcc"
       - "clang-static-analyzer"
-      - "cppcheck-gcc"
-      - "sanitize-gcc"
-      - "valgrind-gcc"
-      - "clang-tidy"
-      - "sanitize-clang"
-      - "shellcheck"
