@@ -5,7 +5,7 @@ set -euo pipefail
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 TEST=$1
 TEST_DIR="$(dirname "$TEST")"
-PATH_TO_BINARIES="$(pwd)/src/generate:$(pwd)/src/play:$(pwd)/src/rack:"
+PATH_TO_BINARIES="$(pwd)/src/generate:$(pwd)/src/play:$(pwd)/src/rack:$(pwd)/src/wordle:"
 
 # print repro command
 echo testing \"cd "$TEST_DIR" \&\& PATH=\""${PATH_TO_BINARIES}"\$PATH\" "${TEST}" "${PROJECT_DIR}" \&\> "${TEST_DIR}/expected.txt"\" ...

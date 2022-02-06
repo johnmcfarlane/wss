@@ -8,6 +8,7 @@ Wordscapes Solver is a collection of word puzzle solvers written in C++.
 It serves two purposes:
 
 1. To help users find words in games such as
+   * [Wordle](https://www.powerlanguage.co.uk/wordle/),
    * [Wordscapes](https://www.peoplefun.com/games),
    * [Words With Friends](https://www.zynga.com/games/words-with-friends-2/) and
    * [Scrabble](https://scrabble.hasbro.com).
@@ -47,7 +48,7 @@ and other development tools.
 
 Multiple CMake targets and thousands of lines of code are presented here.
 Yet, the essential configuration amounts to a 15-line conanfile and
-97 lines of CMake that can be built and tested with just two commands.
+110 lines of CMake that can be built and tested with just two commands.
 This is possible because the build system is separate
 from other aspects of project management, such as toolchain configuration and
 dependency management. It does one thing well: describing binaries.
@@ -87,6 +88,8 @@ It is designed to be easy to build and to run with:
 * CMake build system generator,
 * A C++20-compatible GCC or Clang compiler.
 
+### Build and Test
+
 To generate an example word list using the _rack_ program
 
 1. create an empty build directory,
@@ -108,19 +111,33 @@ To generate an example word list using the _rack_ program
    conan build <path-to-wss>
    ```
 
-1. You can now run the programs, e.g.
+The programs are now in the _package/bin/_ directory.
 
-   ```sh
-   package/bin/rack abc
-   ```
+### Run Wordle
 
-   ...which prints a list of words from the given letters:
+The _package/bin/wordle_ program suggests words to play in Wordle. For example,
+after playing the following two moves,
 
-   > ABC  
-   > BAC  
-   > CAB  
-   > AB  
-   > BA
+![Image](docs/wordle.png)
+
+you can search for possible WORDLEs:
+
+```sh
+package/bin/wordle TALES20010,TEMPO21001
+```
+
+Output:
+
+> THROE
+> TOGUE
+> TONNE
+> TOQUE
+> TORTE
+> TOWIE
+> TRODE
+> TROKE
+> TRONE
+> TROVE
 
 ### Troubleshooting
 

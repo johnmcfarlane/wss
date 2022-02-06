@@ -7,4 +7,4 @@ add_test(NAME approval-tests
 
 add_subdirectory(src)
 
-install(TARGETS play rack EXPORT WssTargets)
+install(TARGETS play rack wordle EXPORT WssTargets)

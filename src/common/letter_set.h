@@ -65,6 +65,16 @@ public:
         return (_bits & bit(letter)) != 0;
     }
 
+    auto operator==(letter_set const& that) const
+    {
+        return _bits == that._bits;
+    }
+
+    auto operator!=(letter_set const& that) const
+    {
+        return _bits != that._bits;
+    }
+
     [[nodiscard]] constexpr auto bits() const
     {
         return _bits;
@@ -97,10 +107,27 @@ private:
     rep _bits{};
 };
 
+[[nodiscard]] inline constexpr auto operator~(letter_set const& letters)
+{
+    return from_bits(~letters.bits());
+}
+
+[[nodiscard]] inline constexpr auto operator&(
+        letter_set const& l, letter_set const& r)
+{
+    return from_bits(l.bits() & r.bits());
+}
+
 [[nodiscard]] inline constexpr auto operator|(
         letter_set const& l, letter_set const& r)
 {
     return from_bits(l.bits() | r.bits());
+}
+
+[[nodiscard]] inline constexpr auto operator^(
+        letter_set const& l, letter_set const& r)
+{
+    return from_bits(l.bits() ^ r.bits());
 }
 
 class letter_set::const_iterator {
