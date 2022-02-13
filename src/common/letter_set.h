@@ -34,17 +34,21 @@ public:
     static const letter_set none;
 
     explicit constexpr letter_set() noexcept
-            :_bits{0} { }
+        : _bits{0}
+    {
+    }
 
     constexpr letter_set(letter_set const&) noexcept = default;
 
     explicit letter_set(std::initializer_list<char> const& letters) noexcept
-            :_bits{std::accumulate(
-                    std::begin(letters), std::end(letters),
-                    rep{0},
-                    [](auto bits, auto letter) {
-                        return bits | bit(letter);
-                    })} { }
+        : _bits{std::accumulate(
+                std::begin(letters), std::end(letters),
+                rep{0},
+                [](auto bits, auto letter) {
+                    return bits | bit(letter);
+                })}
+    {
+    }
 
     void reset(char letter)
     {
@@ -63,7 +67,7 @@ public:
 
     [[nodiscard]] auto operator[](char letter) const
     {
-        return (_bits & bit(letter))!=0;
+        return (_bits & bit(letter)) != 0;
     }
 
     [[nodiscard]] constexpr auto bits() const
@@ -90,9 +94,7 @@ private:
 
     [[nodiscard]] static int index(char letter)
     {
-        WSS_ASSERT(letter=='\0'
-                || std::isalpha(letter)
-                || std::isalpha(letter-1));
+        WSS_ASSERT(letter == '\0' || std::isalpha(letter) || std::isalpha(letter - 1));
         return letter & 0x1f;
     }
 
@@ -117,20 +119,23 @@ public:
 
 private:
     constexpr const_iterator(char l, letter_set::rep b) noexcept
-            :_letter(l), _bits(b) { }
+        : _letter(l)
+        , _bits(b)
+    {
+    }
 
 public:
     friend auto operator*(const_iterator const& rhs)
     {
         WSS_ASSERT(isupper(rhs._letter));
         WSS_ASSERT(rhs._bits & 1);
-        WSS_ASSERT(rhs._bits>1);
+        WSS_ASSERT(rhs._bits > 1);
         return rhs._letter;
     }
 
     friend auto& operator++(const_iterator& rhs)
     {
-        WSS_ASSERT(rhs._bits>1);
+        WSS_ASSERT(rhs._bits > 1);
         auto const inc{__builtin_ctz(rhs._bits & ~letter_set::rep{1})};
         rhs._letter += inc;
         rhs._bits = rhs._bits >> inc;
@@ -140,24 +145,24 @@ public:
     [[nodiscard]] friend auto operator-(
             const_iterator const& lhs, const_iterator const& rhs)
     {
-        WSS_ASSERT((lhs._bits & 1)==(rhs._bits & 1));
+        WSS_ASSERT((lhs._bits & 1) == (rhs._bits & 1));
         auto const lhs_num_bits{__builtin_popcount(lhs._bits)};
         auto const rhs_num_bits{__builtin_popcount(rhs._bits)};
-        return rhs_num_bits-lhs_num_bits;
+        return rhs_num_bits - lhs_num_bits;
     }
 
     friend constexpr auto operator==(
             const_iterator const& lhs,
             const_iterator const& rhs)
     {
-        return lhs._letter==rhs._letter;
+        return lhs._letter == rhs._letter;
     }
 
     friend constexpr auto operator!=(
             const_iterator const& lhs,
             const_iterator const& rhs)
     {
-        return lhs._letter!=rhs._letter;
+        return lhs._letter != rhs._letter;
     }
 
     friend auto begin(letter_set const&) -> letter_set::const_iterator;
@@ -168,7 +173,7 @@ public:
 
 private:
     friend auto sentinel(letter_set const&) -> letter_set::const_iterator;
-    
+
     char _letter;
     letter_set::rep _bits;
 };
@@ -177,4 +182,4 @@ private:
 
 [[nodiscard]] auto end(letter_set const&) -> letter_set::const_iterator;
 
-#endif //WSS_LETTER_SET_H
+#endif  // WSS_LETTER_SET_H

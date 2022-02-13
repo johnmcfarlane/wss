@@ -25,7 +25,11 @@ struct node {
     using edge_vector = std::vector<edge>;
 
     node(edge_vector e, int i, bool t)
-            :edges(std::move(e)), root_index(i), is_terminator(t) { }
+        : edges(std::move(e))
+        , root_index(i)
+        , is_terminator(t)
+    {
+    }
 
     auto begin() const -> edge_vector::const_iterator;
 
@@ -69,20 +73,19 @@ public:
     void compress();
 
 private:
-
     std::vector<node> roots;
 };
 
 inline bool operator<(edge const& lhs, edge const& rhs)
 {
     return std::tie(static_cast<char const&>(lhs), lhs.ptr())
-            <std::tie(static_cast<char const&>(rhs), rhs.ptr());
+         < std::tie(static_cast<char const&>(rhs), rhs.ptr());
 }
 
 inline bool operator<(node const& lhs, node const& rhs)
 {
     return std::tie(lhs.edges, lhs.is_terminator)
-            <std::tie(rhs.edges, rhs.is_terminator);
+         < std::tie(rhs.edges, rhs.is_terminator);
 }
 
-#endif //WSS_MULTI_TRIE_H
+#endif  // WSS_MULTI_TRIE_H

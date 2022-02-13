@@ -18,7 +18,7 @@
 #include <array>
 #include <limits>
 
-using letter_values = std::array<int, std::numeric_limits<char>::max()+1>;
+using letter_values = std::array<int, std::numeric_limits<char>::max() + 1>;
 
 constexpr auto full_rack_score_index = '\0';
 
@@ -145,4 +145,4 @@ constexpr letter_values wwf_scores()
     return scores;
 }
 
-#endif //WSS_SCORES_H
+#endif  // WSS_SCORES_H

@@ -21,16 +21,15 @@
 #include "letter_set.h"
 #include "result.h"
 
+#include <node.h>
 #include <scores.h>
 #include <wss_assert.h>
-#include <node.h>
 
 #include <array>
 #include <utility>
 #include <vector>
 
-struct crosswords
-{
+struct crosswords {
     // letters which may be played in the tile, given cross words that match
     letter_set filter;
 
@@ -77,8 +76,8 @@ auto word_extent(
         coord const& part_start,
         int const part_length,
         coord const& cross_direction)
--> std::pair<int, int>;
+        -> std::pair<int, int>;
 
 void search(search_state state);
 
-#endif //WSS_SEARCH_H
+#endif  // WSS_SEARCH_H

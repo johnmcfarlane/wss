@@ -19,17 +19,17 @@ struct result {
 inline auto operator==(result const& a, result const& b)
 {
     return tie(a.score, a.pos.start[0], a.pos.start[1],
-            a.pos.direction[0], a.pos.direction[1], a.word)
-            ==tie(b.score, b.pos.start[0], b.pos.start[1],
-                    b.pos.direction[0], b.pos.direction[1], b.word);
+               a.pos.direction[0], a.pos.direction[1], a.word)
+        == tie(b.score, b.pos.start[0], b.pos.start[1],
+               b.pos.direction[0], b.pos.direction[1], b.word);
 }
 
 inline auto operator<(result const& a, result const& b)
 {
     return tie(b.score, a.word, a.pos.start[1], a.pos.start[0],
-            a.pos.direction[1], a.pos.direction[0])
-            <tie(a.score, b.word, b.pos.start[1], b.pos.start[0],
-                    b.pos.direction[1], b.pos.direction[0]);
+               a.pos.direction[1], a.pos.direction[0])
+         < tie(a.score, b.word, b.pos.start[1], b.pos.start[0],
+               b.pos.direction[1], b.pos.direction[0]);
 }
 
-#endif //WSS_RESULT_H
+#endif  // WSS_RESULT_H

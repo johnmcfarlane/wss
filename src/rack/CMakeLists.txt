@@ -1,3 +1,3 @@
 add_executable(rack
-        main.cpp)
+  main.cpp)
 target_link_libraries(rack common lexicon)

@@ -25,4 +25,4 @@
 
 std::optional<board<char>> load_board_tiles(gsl::cstring_span<> filename);
 
-#endif //WSS_BOARD_TILES_H
+#endif  // WSS_BOARD_TILES_H

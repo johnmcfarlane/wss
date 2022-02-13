@@ -20,15 +20,14 @@
 #include <unordered_map>
 
 auto load_board_premiums(gsl::cstring_span<> filename)
--> std::optional<board<premium>>
+        -> std::optional<board<premium>>
 {
     std::unordered_map<char, premium> const token_to_premium{
             {' ', premium::normal},
             {'d', premium::dl},
             {'t', premium::tl},
             {'D', premium::dw},
-            {'T', premium::tw}
-    };
+            {'T', premium::tw}};
 
     if (filename.empty()) {
         return std::nullopt;
@@ -37,10 +36,10 @@ auto load_board_premiums(gsl::cstring_span<> filename)
     return load_board<premium>(
             filename,
             [&token_to_premium](auto field) -> std::optional<premium> {
-        auto found{token_to_premium.find(field)};
-        if (found==std::end(token_to_premium)) {
-            return std::nullopt;
-        }
-        return found->second;
-    });
+                auto found{token_to_premium.find(field)};
+                if (found == std::end(token_to_premium)) {
+                    return std::nullopt;
+                }
+                return found->second;
+            });
 }

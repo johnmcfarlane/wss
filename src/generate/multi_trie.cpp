@@ -36,21 +36,19 @@ namespace {
             return found_first->get_next();
         }
 
-        return e.emplace(found_first, 
-                l,
-                std::make_unique<node>(node::edge_vector{}, index, false))->get_next();
+        return e.emplace(found_first, l, std::make_unique<node>(node::edge_vector{}, index, false))->get_next();
     }
 
     auto insert(
             int index,
             node& n,
             string_view::const_iterator
-            pos,
+                    pos,
             string_view::const_iterator end)
     {
-        WSS_ASSERT(pos<=end);
+        WSS_ASSERT(pos <= end);
 
-        if (pos==end) {
+        if (pos == end) {
             if (n.is_terminator) {
                 return false;
             }
@@ -60,30 +58,51 @@ namespace {
         }
         auto letter = *pos;
         auto& next_node = insert(index, n.edges, letter);
-        return insert(index, next_node, pos+1, end);
+        return insert(index, next_node, pos + 1, end);
     }
 }  // namespace
 
 // node
 
 auto node::begin() const
--> node::edge_vector::const_iterator { return edges.begin(); }
+        -> node::edge_vector::const_iterator
+{
+    return edges.begin();
+}
 
 auto node::end() const
--> node::edge_vector::const_iterator { return edges.end(); }
+        -> node::edge_vector::const_iterator
+{
+    return edges.end();
+}
 
 // edge
 
 edge::edge(char l, std::unique_ptr<node> n)
-        :letter(l), next(std::move(n)) { }
+    : letter(l)
+    , next(std::move(n))
+{
+}
 
-edge::operator char() const { return letter; }
+edge::operator char() const
+{
+    return letter;
+}
 
-auto edge::ptr() const -> std::shared_ptr<node> const& { return next; }
+auto edge::ptr() const -> std::shared_ptr<node> const&
+{
+    return next;
+}
 
-auto edge::get_next() -> node& { return *next; }
+auto edge::get_next() -> node&
+{
+    return *next;
+}
 
-auto edge::get_next() const -> node const& { return *next; }
+auto edge::get_next() const -> node const&
+{
+    return *next;
+}
 
 void edge::set_next(std::shared_ptr<node> n)
 {
@@ -95,10 +114,10 @@ void edge::set_next(std::shared_ptr<node> n)
 
 multi_trie::multi_trie(int num_root_nodes)
 {
-    for (auto i = 0; i!=num_root_nodes; ++i) {
+    for (auto i = 0; i != num_root_nodes; ++i) {
         roots.push_back({{}, i, true});
     }
-    WSS_ASSERT(num_root_nodes>=0);
+    WSS_ASSERT(num_root_nodes >= 0);
 }
 
 auto multi_trie::root_nodes() const -> std::vector<node> const&
@@ -121,10 +140,9 @@ auto compress(node& n, node_map& nodes) -> int
         sum += compress(child, nodes);
 
         auto found{nodes.equal_range(child)};
-        if (found.first==found.second) {
+        if (found.first == found.second) {
             WSS_ASSERT(edge.ptr());
-            nodes.emplace_hint(found.first,
-                    std::pair{edge.get_next(), edge.ptr()});
+            nodes.emplace_hint(found.first, std::pair{edge.get_next(), edge.ptr()});
             continue;
         }
 

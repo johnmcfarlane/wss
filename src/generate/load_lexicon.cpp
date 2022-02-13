@@ -24,14 +24,14 @@
 #include <string_view>
 
 auto load_lexicon(std::vector<std::string> const& filenames)
--> std::optional<multi_trie>
+        -> std::optional<multi_trie>
 {
     auto num_root_nodes = int(filenames.size());
     auto lexicon = multi_trie{num_root_nodes};
 
     fmt::print("loading...\n");
 
-    for (auto i = 0; i!=num_root_nodes; ++i) {
+    for (auto i = 0; i != num_root_nodes; ++i) {
         auto const& filename = filenames[i];
 
         auto f{std::unique_ptr<std::FILE, decltype(&fclose)>{
@@ -43,41 +43,33 @@ auto load_lexicon(std::vector<std::string> const& filenames)
         }
 
         constexpr auto max_word{1024};
-        std::array<char, max_word+1> line{};
-        while (std::fgets(line.data(), max_word, f.get())!=nullptr) {
+        std::array<char, max_word + 1> line{};
+        while (std::fgets(line.data(), max_word, f.get()) != nullptr) {
             auto* const line_start{std::begin(line)};
             auto* const line_end{std::end(line)};
-            
+
             auto* const word_start{line_start};
             auto* const word_end{std::find(line_start, line_end, '\n')};
 
-            if (word_end==line_end) {
-                fmt::print(stderr,
-                        "error: missing newline at end of '{}' in {}\n",
-                        line_start,
-                        filename);
+            if (word_end == line_end) {
+                fmt::print(stderr, "error: missing newline at end of '{}' in {}\n", line_start, filename);
                 return std::nullopt;
             }
-                        
+
             auto const word{std::string_view{
-                word_start,
-                std::size_t(std::distance(word_start, word_end))}};
+                    word_start,
+                    std::size_t(std::distance(word_start, word_end))}};
 
             auto const* const invalid_character{
-                std::find_if(word_start, word_end, [](auto c) {
-                    return !std::islower(c);
-                })}; 
+                    std::find_if(word_start, word_end, [](auto c) {
+                        return !std::islower(c);
+                    })};
             if (invalid_character != word_end) {
-                fmt::print(stderr,
-                        "error: invalid character, {}, in wordform '{}' in {}\n",
-                        int{*invalid_character},
-                        word,
-                        filename);
+                fmt::print(stderr, "error: invalid character, {}, in wordform '{}' in {}\n", int{*invalid_character}, word, filename);
                 return std::nullopt;
             }
 
-            std::transform(word_start, word_end, word_start,
-                    [](auto c) { return std::toupper(c); });
+            std::transform(word_start, word_end, word_start, [](auto c) { return std::toupper(c); });
 
             lexicon.insert(word, i);
         }
