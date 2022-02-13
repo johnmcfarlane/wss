@@ -1,0 +1,5 @@
+add_subdirectory(common)
+add_subdirectory(generate)
+add_subdirectory(lexicon)
+add_subdirectory(play)
+add_subdirectory(rack)

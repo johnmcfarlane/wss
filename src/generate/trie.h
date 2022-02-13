@@ -24,9 +24,8 @@ class edge;
 struct node {
     using edge_vector = std::vector<edge>;
 
-    node(edge_vector e, int i, bool t)
+    node(edge_vector e, bool t)
         : edges(std::move(e))
-        , root_index(i)
         , is_terminator(t)
     {
     }
@@ -36,7 +35,6 @@ struct node {
     edge_vector::const_iterator end() const;
 
     edge_vector edges;
-    int root_index;
     bool is_terminator{false};
 };
 
@@ -58,22 +56,22 @@ private:
     std::shared_ptr<node> next;
 };
 
-class multi_trie {
+class trie {
     using string_view = std::string_view;
 
 public:
     using size_type = std::ptrdiff_t;
 
-    explicit multi_trie(int num_root_nodes);
+    explicit trie();
 
-    std::vector<node> const& root_nodes() const;
+    node const& root_node() const;
 
-    void insert(string_view word, int index);
+    void insert(string_view word);
 
     void compress();
 
 private:
-    std::vector<node> roots;
+    node root;
 };
 
 inline bool operator<(edge const& lhs, edge const& rhs)

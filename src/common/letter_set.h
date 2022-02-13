@@ -38,8 +38,6 @@ public:
     {
     }
 
-    constexpr letter_set(letter_set const&) noexcept = default;
-
     explicit letter_set(std::initializer_list<char> const& letters) noexcept
         : _bits{std::accumulate(
                 std::begin(letters), std::end(letters),

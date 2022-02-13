@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+
+# Conan settings sometimes lack the latest compiler versions.
+conan config install "$PROJECT_DIR/.github/workflows/conan/settings.yml"
+
+conan profile new --detect default
+conan profile update settings.compiler.libcxx=libstdc++11 default

@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+NUM_CPUS=$(nproc)
+
+conan install \
+  --build=missing \
+  "${PROJECT_DIR}" \
+  "$@"
+
+scan-build \
+  -o /tmp/scan-build \
+  --status-bugs \
+  --use-c++=c++ \
+  --use-cc=cc \
+    cmake \
+      "${PROJECT_DIR}" \
+      -DCMAKE_MODULE_PATH="$(pwd)" \
+      -DCMAKE_CXX_FLAGS="-DNDEBUG"
+
+scan-build \
+  -o scan-build \
+  --status-bugs \
+  --use-c++=c++ \
+  --use-cc=cc \
+    cmake \
+      --build . \
+      --clean-first \
+      -- \
+      --jobs "${NUM_CPUS}"

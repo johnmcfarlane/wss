@@ -17,8 +17,10 @@
 #include "board_premiums.h"
 #include "board_tiles.h"
 
-#include <lexicon.h>
+#include <all_lexicon.h>
 #include <scores.h>
+#include <scrabble_lexicon.h>
+#include <wwf_lexicon.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
@@ -90,7 +92,7 @@ auto main(int argc, char const* const* argv) -> int
     auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {
-        fmt::fprintf(stderr, "error: in command line: %s\n", result.errorMessage().c_str());
+        fmt::fprintf(stderr, "error: in command line: %s\n", result.message());
         return EXIT_FAILURE;
     }
 
@@ -98,9 +100,7 @@ auto main(int argc, char const* const* argv) -> int
         fmt::printf("wss scrabble board suggester\n"
                     "(C)2019 John McFarlane\n\n"
                     "play [options] <rack> <board>\n");
-        for (auto const& help_column : cli.get_help_text()) {
-            fmt::printf("%20s   %s\n", help_column.option, help_column.description);
-        }
+        std::cout << cli;
         return EXIT_FAILURE;
     }
 

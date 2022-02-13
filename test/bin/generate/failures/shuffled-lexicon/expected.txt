@@ -3,106 +3,94 @@ compressing...
 saving...
 #include "lexicon.h"
 namespace {
-node const nLESS0 = {
+node const nLESS = {
   from_bits(0x1U),
   nullptr
 };
-node const nLES0e[] {nLESS0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nLES0 = {
+node const nLESe[] {nLESS};
+node const nLES = {
   from_bits(0x80000U),
-  nLES0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nLESe
 };
-node const nLE0e[] {nLES0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nLE0 = {
+node const nLEe[] {nLES};
+node const nLE = {
   from_bits(0x80000U),
-  nLE0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nLEe
 };
-node const nL0e[] {nLE0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nL0 = {
+node const nLe[] {nLE};
+node const nL = {
   from_bits(0x20U),
-  nL0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nLe
 };
-node const nSPA0 = {
+node const nSPA = {
   from_bits(0x100000U),
-  nLES0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nLESe
 };
-node const nSPOTLESSNESS0 = {
+node const nSPOTLESSNESS = {
   from_bits(0x20U),
-  nLE0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nLEe
 };
-node const nSPOTLESSNES0e[] {nSPOTLESSNESS0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTLESSNES0 = {
+node const nSPOTLESSNESe[] {nSPOTLESSNESS};
+node const nSPOTLESSNES = {
   from_bits(0x80000U),
-  nSPOTLESSNES0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLESSNESe
 };
-node const nSPOTLESSNE0e[] {nSPOTLESSNES0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTLESSNE0 = {
+node const nSPOTLESSNEe[] {nSPOTLESSNES};
+node const nSPOTLESSNE = {
   from_bits(0x80000U),
-  nSPOTLESSNE0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLESSNEe
 };
-node const nSPOTLESSN0e[] {nSPOTLESSNE0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTLESSN0 = {
+node const nSPOTLESSNe[] {nSPOTLESSNE};
+node const nSPOTLESSN = {
   from_bits(0x20U),
-  nSPOTLESSN0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLESSNe
 };
-node const nSPOTLESS0e[] {nSPOTLESSN0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTLESS0 = {
+node const nSPOTLESSe[] {nSPOTLESSN};
+node const nSPOTLESS = {
   from_bits(0x4000U),
-  nSPOTLESS0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLESSe
 };
-node const nSPOTLES0e[] {nSPOTLESS0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTLES0 = {
+node const nSPOTLESe[] {nSPOTLESS};
+node const nSPOTLES = {
   from_bits(0x80000U),
-  nSPOTLES0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLESe
 };
-node const nSPOTLE0e[] {nSPOTLES0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTLE0 = {
+node const nSPOTLEe[] {nSPOTLES};
+node const nSPOTLE = {
   from_bits(0x80000U),
-  nSPOTLE0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLEe
 };
-node const nSPOTL0e[] {nSPOTLE0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOTL0 = {
+node const nSPOTLe[] {nSPOTLE};
+node const nSPOTL = {
   from_bits(0x20U),
-  nSPOTL0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTLe
 };
-node const nSPOT0e[] {nSPOTL0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPOT0 = {
+node const nSPOTe[] {nSPOTL};
+node const nSPOT = {
   from_bits(0x1000U),
-  nSPOT0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOTe
 };
-node const nSPO0e[] {nSPOT0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSPO0 = {
+node const nSPOe[] {nSPOT};
+node const nSPO = {
   from_bits(0x100000U),
-  nSPO0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPOe
 };
-node const nSP0e[] {nSPA0,nSPO0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nSP0 = {
+node const nSPe[] {nSPA,nSPO};
+node const nSP = {
   from_bits(0x8002U),
-  nSP0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSPe
 };
-node const nS0e[] {nSP0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const nS0 = {
+node const nSe[] {nSP};
+node const nS = {
   from_bits(0x10000U),
-  nS0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  nSe
 };
-node const root_node0e[] {nL0,nS0}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
-node const root_node0 = {
+node const root_nodee[] {nL,nS};
+node const root_node = {
   from_bits(0x81001U),
-  root_node0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
-};
-node const root_node1 = {
-  from_bits(0x81001U),
-  root_node0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
-};
-node const root_node2 = {
-  from_bits(0x81001U),
-  root_node0e //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)
+  root_nodee
 };
 } //namespace
-node const& lexicon{root_node0};
-node const& lexicon{root_node1};
-node const& lexicon{root_node2};
+node const& lexicon{root_node};
 #include <node.h>
-extern node const& lexicon;
-extern node const& lexicon;
 extern node const& lexicon;

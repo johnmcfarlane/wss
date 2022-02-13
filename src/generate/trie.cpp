@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "multi_trie.h"
+#include "trie.h"
 
 #include <ssize.h>
 #include <wss_assert.h>
@@ -26,7 +26,7 @@ namespace {
     using std::end;
     using std::string_view;
 
-    auto insert(int index, node::edge_vector& e, char l) -> node&
+    auto insert(node::edge_vector& e, char l) -> node&
     {
         auto const [found_first, found_last] = std::equal_range(begin(e), end(e), l);
 
@@ -36,11 +36,10 @@ namespace {
             return found_first->get_next();
         }
 
-        return e.emplace(found_first, l, std::make_unique<node>(node::edge_vector{}, index, false))->get_next();
+        return e.emplace(found_first, l, std::make_unique<node>(node::edge_vector{}, false))->get_next();
     }
 
     auto insert(
-            int index,
             node& n,
             string_view::const_iterator
                     pos,
@@ -57,8 +56,8 @@ namespace {
             return true;
         }
         auto letter = *pos;
-        auto& next_node = insert(index, n.edges, letter);
-        return insert(index, next_node, pos + 1, end);
+        auto& next_node = insert(n.edges, letter);
+        return insert(next_node, pos + 1, end);
     }
 }  // namespace
 
@@ -110,24 +109,21 @@ void edge::set_next(std::shared_ptr<node> n)
     next = move(n);
 }
 
-// multi_trie
+// trie
 
-multi_trie::multi_trie(int num_root_nodes)
+trie::trie()
+    : root{{}, true}
 {
-    for (auto i = 0; i != num_root_nodes; ++i) {
-        roots.push_back({{}, i, true});
-    }
-    WSS_ASSERT(num_root_nodes >= 0);
 }
 
-auto multi_trie::root_nodes() const -> std::vector<node> const&
+auto trie::root_node() const -> node const&
 {
-    return roots;
+    return root;
 }
 
-void multi_trie::insert(string_view word, int index)
+void trie::insert(string_view word)
 {
-    ::insert(index, roots[index], begin(word), end(word));
+    ::insert(root, begin(word), end(word));
 }
 
 using node_map = std::map<node, std::shared_ptr<node>>;
@@ -152,10 +148,8 @@ auto compress(node& n, node_map& nodes) -> int
     return sum;
 }
 
-void multi_trie::compress()
+void trie::compress()
 {
     node_map nodes;
-    for (auto& root_node : roots) {
-        ::compress(root_node, nodes);
-    }
+    ::compress(root, nodes);
 }

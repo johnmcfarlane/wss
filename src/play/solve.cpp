@@ -270,5 +270,5 @@ auto solve(node const& lexicon, letter_values const& letter_scores, std::string_
     // sort results
     sort(begin(results), end(results));
 
-    return std::tuple(results, invalid_words);
+    return {results, invalid_words};
 }

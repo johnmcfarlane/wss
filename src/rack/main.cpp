@@ -12,10 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <lexicon.h>
+#include <all_lexicon.h>
 #include <scores.h>
+#include <scrabble_lexicon.h>
 #include <ssize.h>
 #include <tile.h>
+#include <wwf_lexicon.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
@@ -85,6 +87,7 @@ void refine_results(vector<pair<string, int>>& finds)
 {
     // group by words, highest-scoring first
     sort(begin(finds), end(finds), [](auto a, auto b) {
+        // NOLINTNEXTLINE(hicpp-use-nullptr,modernize-use-nullptr)
         return tie(a.first, b.second) < tie(b.first, a.second);
     });
 
@@ -95,8 +98,8 @@ void refine_results(vector<pair<string, int>>& finds)
     finds.erase(first_erased, end(finds));
 
     sort(begin(finds), end(finds), [](auto a, auto b) {
-        return tie(b.second, a.first)
-             < tie(a.second, b.first);
+        // NOLINTNEXTLINE(hicpp-use-nullptr,modernize-use-nullptr)
+        return tie(b.second, a.first) < tie(a.second, b.first);
     });
 }
 
@@ -129,16 +132,14 @@ auto main(int argc, char const* const* argv) -> int
     auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {
-        fmt::print(stderr, "Error in command line: {}\n", result.errorMessage().c_str());
+        fmt::print(stderr, "Error in command line: {}\n", result.message());
         return EXIT_FAILURE;
     }
 
     if (help) {
         fmt::printf("wss scrabble word suggester\n"
                     "(C)2019 John McFarlane\n\n");
-        for (auto const& help_column : cli.get_help_text()) {
-            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
-        }
+        std::cout << cli;
         return EXIT_FAILURE;
     }
 

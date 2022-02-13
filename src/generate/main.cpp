@@ -39,7 +39,6 @@ using edge_map = std::unordered_map<
         std::tuple<std::string, int>>;
 
 void dump_word(
-        int const root_node_index,
         node const& n,
         std::string& word,
         node_map& nodes,
@@ -63,14 +62,14 @@ void dump_word(
             word_parts.push_back(found.first->second);
         } else {
             nodes.emplace_hint(found.first, std::pair{next_node, word});
-            dump_word(root_node_index, next_node, word, nodes, edges, source_cpp);
+            dump_word(next_node, word, nodes, edges, source_cpp);
             word_parts.push_back(word);
         }
 
         word.pop_back();
     }
 
-    auto const id{word.empty() ? fmt::format("root_node{}", root_node_index) : fmt::format("n{}{}", word, n.root_index)};
+    auto const id{word.empty() ? fmt::format("root_node") : fmt::format("n{}", word)};
     auto edges_line{std::string{}};
 
     // edge array
@@ -80,23 +79,22 @@ void dump_word(
             if (i != 0) {
                 node_edges += ',';
             }
-            node_edges += fmt::format("n{}{}", word_parts[i], n.edges[i].ptr()->root_index);
+            node_edges += fmt::format("n{}", word_parts[i]);
         }
 
         auto found_edge = edges.find(node_edges);
         if (found_edge != std::end(edges)) {
             auto [edges_id, element_index] = found_edge->second;
             if (element_index != 0) {
-                edges_line = edges_id + '+' + std::to_string(element_index) + " //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,cppcoreguidelines-pro-bounds-pointer-arithmetic,hicpp-no-array-decay)";
+                edges_line = edges_id + '+' + std::to_string(element_index);
             } else {
-                edges_line = edges_id
-                           + " //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)";
+                edges_line = edges_id;
             }
         } else {
             auto sub_array{std::string{}};
             auto const edges_id = id + 'e';
             for (auto i{ssize(word_parts) - 1}; i >= 0; --i) {
-                sub_array = fmt::format("n{}{}{}", word_parts[i], n.edges[i].ptr()->root_index, sub_array);
+                sub_array = fmt::format("n{}{}", word_parts[i], sub_array);
                 edges[sub_array] = make_tuple(edges_id, i);
                 if (i != 0) {
                     sub_array = ","s.append(sub_array);
@@ -104,9 +102,8 @@ void dump_word(
             }
             source_cpp << "node const " << edges_id << "[] {";
             source_cpp << sub_array
-                       << "}; //NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)\n";
-            edges_line = edges_id
-                       + " //NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,hicpp-no-array-decay)";
+                       << "};\n";
+            edges_line = edges_id;
         }
     } else {
         edges_line = "nullptr";
@@ -137,8 +134,8 @@ void dump_word(
 }
 
 void dump_lexicon(
-        multi_trie const& lexicon,
-        std::vector<std::string> const& names,
+        trie const& lexicon,
+        std::string const& name,
         std::string_view source_filename)
 {
     fmt::print("saving...\n");
@@ -154,66 +151,51 @@ void dump_lexicon(
     std::string word;
     node_map nodes;
     edge_map edges;
-    auto const& root_nodes = lexicon.root_nodes();
-    for (auto index = 0;
-         index != int(root_nodes.size());
-         ++index) {
-        dump_word(index, root_nodes[index], word, nodes, edges, source_cpp);
-    }
+    auto const& root_node = lexicon.root_node();
+    dump_word(root_node, word, nodes, edges, source_cpp);
 
     source_cpp << "} //namespace\n";
 
     std::ofstream source_h(source_h_filename);
     source_h << "#include <node.h>\n";
-    for (auto index = 0;
-         index != int(root_nodes.size());
-         ++index) {
-        auto const name = names[index];
-        source_cpp
-                << fmt::format(
-                           "node const& {}{{root_node{}}};\n",
-                           name,
-                           index);
+    source_cpp
+            << fmt::format(
+                       "node const& {}{{root_node}};\n",
+                       name);
 
-        source_h << "extern node const& " << name << ";\n";
-    }
+    source_h << "extern node const& " << name << ";\n";
 }
 
 auto main(int argc, char const* const* argv) -> int
 {
-    constexpr auto num_lexicons{3};
-    auto lexicon_filenames = std::vector<std::string>{num_lexicons};
-    auto names = std::vector<std::string>{num_lexicons};
+    auto lexicon_filename = std::string{};
+    auto name = std::string{};
     auto source_filename = std::string{};
     bool help{false};
     auto cli{
             lyra::help(help)
-            | lyra::arg(lexicon_filenames[0], "lexicon1")(
-                    "text file containing 1st list of words")
-            | lyra::arg(names[0], "name1")("Name of 1st lexicon")
-            | lyra::arg(lexicon_filenames[1], "lexicon2")(
-                    "text file containing 2nd list of words")
-            | lyra::arg(names[1], "name2")("Name of 2st lexicon")
-            | lyra::arg(lexicon_filenames[2], "lexicon3")(
-                    "text file containing 3nd list of words")
-            | lyra::arg(names[2], "name3")("Name of 3st lexicon")
+            | lyra::arg(lexicon_filename, "lexicon")(
+                    "text file containing list of words")
+            | lyra::arg(name, "name")("Name of lexicon")
             | lyra::arg(source_filename, "source")("source filename")};
     auto result = cli.parse(lyra::args(argc, argv));
-    WSS_ASSERT(result);
+
+    if (!result) {
+        fmt::print(stderr, "Command line error: {}\n", result.message());
+        return EXIT_FAILURE;
+    }
 
     if (help) {
         fmt::printf("wss lexicon source file generator\n"
                     "(C)2019 John McFarlane\n\n");
-        for (auto const& help_column : cli.get_help_text()) {
-            fmt::printf("%.10s   %s\n", help_column.option, help_column.description);
-        }
+        std::cout << cli;
         return EXIT_FAILURE;
     }
 
-    auto const lexicon = load_lexicon(lexicon_filenames);
+    auto const lexicon = load_lexicon(lexicon_filename);
     if (!lexicon) {
         return EXIT_FAILURE;
     }
 
-    dump_lexicon(*lexicon, names, source_filename);
+    dump_lexicon(*lexicon, name, source_filename);
 }
