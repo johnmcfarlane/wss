@@ -14,6 +14,7 @@ jobs:
         name:
           [
             "gcc-head",
+            "coverage",
             "clang-tidy",
             "clang-head-libstdcpp",
             "clang-head-libcpp",
@@ -26,6 +27,9 @@ jobs:
           - name: gcc-head
             container: johnmcfarlane/cnl_ci:gcc-head
             script: test-gcc
+          - name: coverage
+            container: johnmcfarlane/cnl_ci:gcc-head
+            script: coverage
           - name: clang-tidy
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
             script: clang-tidy
@@ -94,6 +98,14 @@ jobs:
         with:
           name: report
           path: ${{github.workspace}}/scan-build
+          if-no-files-found: error
+
+      - name: Upload code coverage report
+        uses: actions/upload-artifact@v2
+        if: ${{ matrix.name == 'coverage' && failure() }}
+        with:
+          name: report
+          path: ${{github.workspace}}/coverage-report
           if-no-files-found: error
 
       - name: Report Caches
