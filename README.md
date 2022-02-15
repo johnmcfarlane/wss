@@ -1,6 +1,6 @@
 # WSS - Wordscapes Solver
 
-![Tests](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml)
 
 ## Introduction
 
