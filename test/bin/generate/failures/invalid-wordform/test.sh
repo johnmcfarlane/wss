@@ -8,7 +8,6 @@ cd "${SCRIPT_DIR}" || exit
 
 "$@" "${BUILD_DIR}/src/generate/generate" \
   lexicon.txt lexicon \
-  lexicon.txt lexicon \
   lexicon
 
 if [[ $? -ne 1 ]] ; then

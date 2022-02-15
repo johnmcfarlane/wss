@@ -20,6 +20,6 @@
 #include <vector>
 
 auto parse_grid(gsl::cstring_span<> buffer)
--> std::vector<std::vector<char>>;
+        -> std::vector<std::vector<char>>;
 
-#endif //WSS_GRID_H
+#endif  // WSS_GRID_H

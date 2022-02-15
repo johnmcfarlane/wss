@@ -19,9 +19,8 @@
 #include <string_view>
 #include <vector>
 
-#include "multi_trie.h"
+#include "trie.h"
 
-auto load_lexicon(std::vector<std::string> const& filenames)
--> std::optional<multi_trie>;
+auto load_lexicon(std::string const& filename) -> std::optional<trie>;
 
-#endif //WSS_LOAD_LEXICON_H
+#endif  // WSS_LOAD_LEXICON_H

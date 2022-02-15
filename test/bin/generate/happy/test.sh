@@ -1,13 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -eo pipefail
+set -euo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
 shift
 
 "$@" ./src/generate/generate \
-  "${SCRIPT_DIR}"/lexicon.txt lexicon \
-  "${SCRIPT_DIR}"/lexicon.txt lexicon \
   "${SCRIPT_DIR}"/lexicon.txt lexicon \
   lexicon
 

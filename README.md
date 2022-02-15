@@ -1,67 +1,115 @@
 # WSS - Wordscapes Solver
 
-[![CircleCI](https://circleci.com/gh/johnmcfarlane/wss.svg?style=svg)](https://circleci.com/gh/johnmcfarlane/wss)
+![Tests](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)
 
 ## Introduction
 
-These utilities are designed to help users cheat at word games such as
-[Wordscapes](https://www.peoplefun.com/games), 
-[Words With Friends](https://www.zynga.com/games/words-with-friends-2/) and
-[Scrabble](http://www.scrabble.com/).
+Wordscapes Solver is a collection of word puzzle solvers written in C++.
+It serves two purposes:
 
-## Instructions
+1. To help users cheat at word games such as
+   * [Wordscapes](https://www.peoplefun.com/games),
+   * [Words With Friends](https://www.zynga.com/games/words-with-friends-2/) and
+   * [Scrabble](https://scrabble.hasbro.com).
 
-WSS is built and tested on Linux.
+1. To provide the template for a modern C++ project.
 
-To quickly run an example Words With Friends move using input data from the test
-suite, run the following commands from the *wss* project directory:
+## Versatility Through Simplicity
 
-```sh
-mkdir -p build
-cd build/
-conan install --build=missing ..
-cmake ..
-cmake --build .
-src/play/play abcd_ef ../test/bin/play/game1/1/tiles.txt ../boards/wwf_regular.txt
-```
+WSS makes effective use of CMake and Conan by keeping configuration scripts
+minimal, declarative and decoupled. In this way, the code can be configured,
+built and tested against the widest variety of compilers, analysers and other
+development tools.
 
-Results
-
->  44  4,4  - JABBED  
->  42  4,4  - JABBeD  
->  40  4,4  - JABBEd  
->  40  4,4  - JABBEr  
->  36  8,15 - BAsED  
->  36  8,15 - CAsED  
->  36  4,4  - JABbED  
-> ...
-
-signify:
-
-* word score
-* column and row number,
-* horizontal (`-`) or vertical (`|`) move 
-* word to play, with lower-case letters for blanks
+WSS consists of multiple CMake targets and thousands of lines of code.
+Yet, the essential configuration files amounts to a 15-line conanfile and
+only 97 lines of CMake. This is possible because the build system is separated
+from other aspects of project management, such as toolchain configuration and
+dependency management. It does one thing well: describing binaries.
 
 ## Continuous Integration
 
-The project is intended to demonstrate how to write safe, modern C++ using free
-tools to help prevent bugs. Tools used to help verify the
-correctness of the code include:
+The project's CI pipeline demonstrates how to maintain high-quality C++ by
+running automated tests against tools such as:
 
 * [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html),
+* [CppCheck](http://cppcheck.net/) static analyser,
 * [Clang](https://clang.llvm.org/) and [GCC](https://gcc.gnu.org/) compilers,
 * [Clang Static Analyzer](https://clang-analyzer.llvm.org/),
 * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) C++ linter and static
   analyser,
-* [LCOV](http://ltp.sourceforge.net/coverage/lcov.php) /
-  [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html) code coverage tester, and
-* [ShellCheck](https://www.shellcheck.net/) shell script linter
+* [pre-commit](https://pre-commit.com/) linting framework with
+  formatting and correctness checks for:
+  * Bash
+  * C++
+  * CMake
+  * JSON
+  * Markdown
+  * Python
+  * YAML
 * [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
+* [Valgrind](https://valgrind.org).
 
-These tools are available via scripts in the *scripts* directory and are used as
-part of a continuous integration pipeline built from 
-[CircleCI](https://circleci.com/gh/johnmcfarlane/wss) and
-[GitHub repository](https://github.com/johnmcfarlane/wss). Developers are
-encouraged to fork or clone this project as the basis for their own C++
-projects. 
+Developers are invited to add their favourite tools, or to use this project as
+the starting point for their own C++ projects.
+
+## Instructions
+
+WSS is built and tested on Linux.
+It is designed to be easy to build and to run with:
+
+* Conan package manager,
+* CMake build system generator,
+* A C++20-compatible GCC or Clang compiler.
+
+To generate an example word list using the _rack_ program
+
+1. create an empty build directory,
+
+   ```sh
+   mkdir -p build
+   cd build/
+   ```
+
+1. install package dependencies,
+
+   ```sh
+   conan install --build=missing <path-to-wss>
+   ```
+
+1. then configure, build, test and install the programs:
+
+   ```sh
+   conan build <path-to-wss>
+   ```
+
+1. You can now run the programs, e.g.
+
+   ```sh
+   package/bin/rack abc
+   ```
+
+   ...which prints a list of words from the given letters:
+
+   > ABC  
+   > BAC  
+   > CAB  
+   > AB  
+   > BA
+
+### Troubleshooting
+
+Conan maintains backward ABI compatibility with GCC v5.
+Pay attention to warnings emitted by `conan` while initialising your environment.
+And if you see errors that mention `abi:cxx11` such as...
+
+> main.cpp:(.text+0x53a2): undefined reference to
+  `fmt::v8::vformat[abi:cxx11](fmt::v8::basic_string_view<char>,
+  fmt::v8::basic_format_args<fmt::v8::basic_format_context<fmt::v8::appender,
+  char> >)'
+
+...then try the following command:
+
+```sh
+conan profile update settings.compiler.libcxx=libstdc++11 default
+```

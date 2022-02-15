@@ -35,7 +35,10 @@ public:
     board(board&&) = default;
 
     explicit board(int init_edge)
-            :edge{init_edge}, cells{std::make_unique<T[]>(edge*edge)} { }
+        : edge{init_edge}
+        , cells{std::make_unique<T[]>(edge * edge)}
+    {
+    }
 
     int size() const
     {
@@ -44,22 +47,22 @@ public:
 
     T const& cell(coord c) const
     {
-        WSS_ASSERT(c[0]>=0);
-        WSS_ASSERT(c[0]<edge);
-        WSS_ASSERT(c[1]>=0);
-        WSS_ASSERT(c[1]<edge);
+        WSS_ASSERT(c[0] >= 0);
+        WSS_ASSERT(c[0] < edge);
+        WSS_ASSERT(c[1] >= 0);
+        WSS_ASSERT(c[1] < edge);
 
-        return cells.get()[c[0]+c[1]*edge];
+        return cells.get()[c[0] + c[1] * edge];
     }
 
     T& cell(coord c)
     {
-        WSS_ASSERT(c[0]>=0);
-        WSS_ASSERT(c[0]<edge);
-        WSS_ASSERT(c[1]>=0);
-        WSS_ASSERT(c[1]<edge);
+        WSS_ASSERT(c[0] >= 0);
+        WSS_ASSERT(c[0] < edge);
+        WSS_ASSERT(c[1] >= 0);
+        WSS_ASSERT(c[1] < edge);
 
-        return cells.get()[c[0]+c[1]*edge];
+        return cells.get()[c[0] + c[1] * edge];
     }
 
 private:
@@ -75,29 +78,27 @@ std::optional<board<CellType>> make_board(
     auto edge{ssize(lines)};
     board<CellType> result{int(edge)};
 
-    for (auto row_index{0}; row_index!=edge; ++row_index) {
+    for (auto row_index{0}; row_index != edge; ++row_index) {
         auto const& line{lines[row_index]};
         auto const num_fields{ssize(line)};
-        if (num_fields!=edge) {
-            fmt::print(stderr,
-                    "error: input row #{} has {} fields, expected {}.\n",
-                    row_index+1, num_fields, edge);
+        if (num_fields != edge) {
+            fmt::print(stderr, "error: input row #{} has {} fields, expected {}.\n", row_index + 1, num_fields, edge);
             return std::nullopt;
         }
 
-        for (auto column_index{0}; column_index!=edge; ++column_index) {
+        for (auto column_index{0}; column_index != edge; ++column_index) {
             auto const field{line[column_index]};
             auto const cell_found{mapping(field)};
             if (!cell_found) {
                 fmt::print(
                         stderr,
                         "Unrecognised field, '{}', in row #{}, column #{}.\n",
-						(char)field,
-                        row_index+1, column_index+1);
+                        (char)field,
+                        row_index + 1, column_index + 1);
                 return std::nullopt;
             }
 
-            result.cell(coord{column_index,row_index}) = *cell_found;
+            result.cell(coord{column_index, row_index}) = *cell_found;
         }
     }
 
@@ -113,9 +114,9 @@ std::optional<board<CellType>> load_board(
     if (!buffer) {
         return std::nullopt;
     }
-    
+
     auto const fields{parse_grid(*buffer)};
-    
+
     return make_board<CellType>(fields, mapping);
 }
 
@@ -123,13 +124,11 @@ template<typename T>
 void transpose(board<T>& b)
 {
     auto const edge = ssize(b);
-    for (auto row = 0; row != edge; ++row)
-    {
-        for (auto column = 0; column != row; ++ column)
-        {
+    for (auto row = 0; row != edge; ++row) {
+        for (auto column = 0; column != row; ++column) {
             std::swap(b.cell(coord{column, row}), b.cell(coord{row, column}));
         }
     }
 }
 
-#endif //WSS_BOARD_H
+#endif  // WSS_BOARD_H

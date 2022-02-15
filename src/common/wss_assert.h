@@ -39,4 +39,4 @@
 
 #endif
 
-#endif //WSS_ASSERT_H
+#endif  // WSS_ASSERT_H

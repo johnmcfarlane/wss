@@ -23,4 +23,4 @@ inline auto ssize(Container&& c)
     return int(c.size());
 }
 
-#endif //WSS_SSIZE_H
+#endif  // WSS_SSIZE_H

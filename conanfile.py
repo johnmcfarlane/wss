@@ -1,8 +1,15 @@
 from conans import ConanFile, CMake
 
+
 class WssConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "fmt/6.0.0@bincrafters/stable", \
-               "gsl_microsoft/2.0.0@bincrafters/stable", \
-               "lyra/1.3.0@_/_"
-    generators = "cmake"
+    requires = "fmt/[8.x]", "ms-gsl/[3.x]", "lyra/[1.6.x]"
+    generators = "cmake_find_package"
+
+    def build(self):
+        cmake = CMake(self)
+        cmake.verbose = False
+        cmake.configure()
+        cmake.build()
+        cmake.test(output_on_failure=True)
+        cmake.install()

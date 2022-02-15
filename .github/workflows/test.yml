@@ -1,0 +1,102 @@
+---
+name: test
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  # Build and test many combinations on Linux/OS X using Conan
+  test:
+    strategy:
+      matrix:
+        name:
+          [
+            "gcc-head",
+            "clang-tidy",
+            "clang-head-libstdcpp",
+            "clang-head-libcpp",
+            "clang-static-analyzer",
+            "valgrind",
+            "cppcheck",
+            "lint",
+          ]
+        include:
+          - name: gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-head
+            script: test-gcc
+          - name: clang-tidy
+            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            script: clang-tidy
+          - name: clang-head-libstdcpp
+            container: johnmcfarlane/cnl_ci:clang-head-libstdcpp
+            script: test-clang
+          - name: clang-head-libcpp
+            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            script: test-clang
+          - name: clang-static-analyzer
+            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            script: clang-static-analyzer
+          - name: valgrind
+            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            script: valgrind
+          - name: cppcheck
+            container: johnmcfarlane/cnl_ci:gcc-head
+            script: cppcheck
+          - name: lint
+            container: johnmcfarlane/cnl_ci:clang-head
+            script: lint
+
+    container: ${{matrix.container}}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Clone WSS
+        uses: actions/checkout@v2
+
+      - name: Load package caches
+        uses: actions/cache@v2
+        env:
+          CACHE_SLUG: ${{ github.job }}-${{ matrix.name }}
+        with:
+          path: |
+            /github/home/.conan/data
+            /github/home/.cache/pre-commit
+          key: ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
+          restore-keys: |
+            ${{ env.CACHE_SLUG }}-main
+            ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
+            ${{ env.CACHE_SLUG }}-
+
+      - name: Load compiler cache
+        uses: hendrikmuhs/ccache-action@v1
+        env:
+          CACHE_SLUG: ${{ github.job }}-${{ matrix.name }}
+        with:
+          key: ${{ env.CACHE_SLUG }}
+
+      - name: Report Caches
+        run: |
+          ccache -s
+          conan search
+
+      - name: Initialise Conan
+        run: |
+          $GITHUB_WORKSPACE/.github/workflows/scripts/init-conan
+
+      - name: Perform Test
+        run: |
+          $GITHUB_WORKSPACE/.github/workflows/scripts/${{ matrix.script }}
+
+      - name: Upload Clang Static Analyzer report
+        uses: actions/upload-artifact@v2
+        if: ${{ matrix.name == 'clang-static-analyzer' && failure() }}
+        with:
+          name: report
+          path: ${{github.workspace}}/scan-build
+          if-no-files-found: error
+
+      - name: Report Caches
+        run: |
+          ccache -s
+          conan search

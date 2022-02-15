@@ -29,6 +29,6 @@ auto solve(
         node const& lexicon, letter_values const& letter_scores,
         std::string_view letters, board<char> tiles,
         board<premium> premiums)
--> std::tuple<std::vector<result>, std::vector<std::string>>;
+        -> std::tuple<std::vector<result>, std::vector<std::string>>;
 
-#endif //WSS_SOLVE_H
+#endif  // WSS_SOLVE_H

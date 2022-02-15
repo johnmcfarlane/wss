@@ -21,6 +21,6 @@
 #include <vector>
 
 auto load_buffer(gsl::cstring_span<> filename)
--> std::optional<std::vector<char>>;
+        -> std::optional<std::vector<char>>;
 
-#endif //WSS_LOAD_BUFFER_H
+#endif  // WSS_LOAD_BUFFER_H

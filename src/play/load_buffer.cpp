@@ -22,14 +22,13 @@
 #include <vector>
 
 auto load_buffer(gsl::cstring_span<> filename)
--> std::optional<std::vector<char>>
+        -> std::optional<std::vector<char>>
 {
     auto f{std::unique_ptr<std::FILE, decltype(&fclose)>{
             std::fopen(filename.data(), "r"), &fclose}};
 
     if (!f) {
-        fmt::print(stderr, "error: Could not open '{}'.\n",
-                gsl::to_string(filename));
+        fmt::print(stderr, "error: Could not open '{}'.\n", gsl::to_string(filename));
         return std::nullopt;
     }
 
@@ -42,9 +41,8 @@ auto load_buffer(gsl::cstring_span<> filename)
             std::fread(buffer.data(), 1, file_size, f.get()))};
 
     // LCOV_EXCL_START - can only happen if file changes size mid-test
-    if (read!=file_size) {
-        fmt::print(stderr, "error: could not read, '{}'.\n",
-                gsl::to_string(filename));
+    if (read != file_size) {
+        fmt::print(stderr, "error: could not read, '{}'.\n", gsl::to_string(filename));
         return std::nullopt;
     }
     // LCOV_EXCL_STOP

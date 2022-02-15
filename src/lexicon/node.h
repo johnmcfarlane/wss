@@ -21,8 +21,7 @@
 #include <cstring>
 #include <iterator>
 
-struct node
-{
+struct node {
     letter_set letters;
     node const* edges;
 };
@@ -38,37 +37,47 @@ public:
     const_node_iterator(const_node_iterator const&) = default;
 
     const_node_iterator(letter_set::const_iterator l, node const* n) noexcept
-            : _letter(l), _node(n) {}
+        : _letter(l)
+        , _node(n)
+    {
+    }
 
-    char letter() const {
+    char letter() const
+    {
         return *_letter;
     }
 
-    node const& child() const {
+    node const& child() const
+    {
         return *_node;
     }
 
-    friend auto operator*(const_node_iterator const& rhs) {
+    friend auto operator*(const_node_iterator const& rhs)
+    {
         WSS_ASSERT(rhs._node);
         return *rhs._letter;
     }
-    friend auto& operator++(const_node_iterator& rhs) {
+    friend auto& operator++(const_node_iterator& rhs)
+    {
         WSS_ASSERT(rhs._node);
-        ++ rhs._letter;
-        ++ rhs._node;
+        ++rhs._letter;
+        ++rhs._node;
         return rhs;
     }
 
     friend auto operator==(
             const_node_iterator const& lhs,
-            const_node_iterator const& rhs) {
-        return lhs._letter==rhs._letter;
+            const_node_iterator const& rhs)
+    {
+        return lhs._letter == rhs._letter;
     }
     friend auto operator!=(
             const_node_iterator const& lhs,
-            const_node_iterator const& rhs) {
-        return lhs._letter!=rhs._letter;
+            const_node_iterator const& rhs)
+    {
+        return lhs._letter != rhs._letter;
     }
+
 private:
     letter_set::const_iterator _letter;
     node const* _node;
@@ -85,8 +94,7 @@ inline const_node_iterator end(node const& n)
 {
     return const_node_iterator{
             end(n.letters),
-            nullptr
-    };
+            nullptr};
 }
 
-#endif // WSS_NODE_H
+#endif  // WSS_NODE_H

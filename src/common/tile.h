@@ -19,4 +19,4 @@ constexpr auto wildcard{'?'};
 constexpr auto blank{'_'};
 constexpr auto vacant{'.'};
 
-#endif //WSS_TILE_H
+#endif  // WSS_TILE_H

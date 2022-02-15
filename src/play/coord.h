@@ -21,31 +21,31 @@ using coord = std::array<int, 2>;
 
 constexpr coord operator+(coord const& lhs, coord const& rhs)
 {
-    return {lhs[0]+rhs[0], lhs[1]+rhs[1]};
+    return {lhs[0] + rhs[0], lhs[1] + rhs[1]};
 }
 
 constexpr coord operator-(coord const& lhs, coord const& rhs)
 {
-    return {lhs[0]-rhs[0], lhs[1]-rhs[1]};
+    return {lhs[0] - rhs[0], lhs[1] - rhs[1]};
 }
 
 template<typename Scalar>
 constexpr coord operator*(coord const& lhs, Scalar const& rhs)
 {
-    return {lhs[0]*rhs, lhs[1]*rhs};
+    return {lhs[0] * rhs, lhs[1] * rhs};
 }
 
 constexpr coord& operator+=(coord& lhs, coord const& rhs)
 {
-    lhs[0]+=rhs[0];
-    lhs[1]+=rhs[1];
+    lhs[0] += rhs[0];
+    lhs[1] += rhs[1];
     return lhs;
 }
 
 constexpr coord& operator-=(coord& lhs, coord const& rhs)
 {
-    lhs[0]-=rhs[0];
-    lhs[1]-=rhs[1];
+    lhs[0] -= rhs[0];
+    lhs[1] -= rhs[1];
     return lhs;
 }
 
@@ -54,4 +54,4 @@ inline void transpose(coord& c)
     std::swap(c[0], c[1]);
 }
 
-#endif //WSS_COORD_H
+#endif  // WSS_COORD_H

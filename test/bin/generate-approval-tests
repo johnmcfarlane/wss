@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+BIN_DIR=$(cd "$(dirname "$0")"; pwd)
+
+"${BIN_DIR}/invoke-approval-tests" \
+  "${BIN_DIR}/generate-approval-test"

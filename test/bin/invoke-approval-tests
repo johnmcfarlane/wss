@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+NUM_CPUS=$(nproc)
+SCRIPT=$1
+BIN_DIR=$(cd "$(dirname "$0")"; pwd)
+
+find "${BIN_DIR}" -name "test.sh" | \
+  parallel \
+    -j "${NUM_CPUS}" \
+    "${SCRIPT}"
+
+echo success

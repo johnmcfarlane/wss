@@ -1,15 +1,10 @@
-cmake_minimum_required(VERSION 3.10.2)
+cmake_minimum_required(VERSION 3.16.3)
 project(wss)
 
-set(CONAN_SYSTEM_INCLUDES ON)
+include(CTest)
+add_test(NAME approval-tests
+         COMMAND ${PROJECT_SOURCE_DIR}/test/bin/run-approval-tests)
 
-# hint: cd wss/build && rm -rf * && ../scripts/bits/init.sh
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup(NO_OUTPUT_DIRS)
+add_subdirectory(src)
 
-add_subdirectory(src/common)
-
-add_subdirectory(src/generate)
-add_subdirectory(src/lexicon)
-add_subdirectory(src/play)
-add_subdirectory(src/rack)
+install(TARGETS play rack EXPORT WssTargets)
