@@ -42,12 +42,12 @@ public:
     {
     }
 
-    char letter() const
+    [[nodiscard]] char letter() const
     {
         return *_letter;
     }
 
-    node const& child() const
+    [[nodiscard]] node const& child() const
     {
         return *_node;
     }

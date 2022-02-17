@@ -40,12 +40,12 @@ public:
     {
     }
 
-    int size() const
+    [[nodiscard]] int size() const
     {
         return edge;
     }
 
-    T const& cell(coord c) const
+    [[nodiscard]] T const& cell(coord c) const
     {
         WSS_ASSERT(c[0] >= 0);
         WSS_ASSERT(c[0] < edge);

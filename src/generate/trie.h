@@ -30,9 +30,9 @@ struct node {
     {
     }
 
-    auto begin() const -> edge_vector::const_iterator;
+    [[nodiscard]] auto begin() const -> edge_vector::const_iterator;
 
-    edge_vector::const_iterator end() const;
+    [[nodiscard]] edge_vector::const_iterator end() const;
 
     edge_vector edges;
     bool is_terminator{false};
@@ -44,10 +44,10 @@ public:
 
     operator char() const;
 
-    std::shared_ptr<node> const& ptr() const;
+    [[nodiscard]] std::shared_ptr<node> const& ptr() const;
 
     node& get_next();
-    node const& get_next() const;
+    [[nodiscard]] node const& get_next() const;
 
     void set_next(std::shared_ptr<node> n);
 
@@ -64,7 +64,7 @@ public:
 
     explicit trie();
 
-    node const& root_node() const;
+    [[nodiscard]] node const& root_node() const;
 
     void insert(string_view word);
 
