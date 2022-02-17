@@ -36,7 +36,7 @@ public:
 
     explicit board(int init_edge)
         : edge{init_edge}
-        , cells{std::make_unique<T[]>(edge * edge)}
+        , cells{std::make_unique<T[]>(edge * edge)}  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
     {
     }
 
@@ -67,7 +67,7 @@ public:
 
 private:
     int edge;
-    std::unique_ptr<T[]> cells;
+    std::unique_ptr<T[]> cells;  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
 };
 
 template<typename CellType, typename TextToCell>
