@@ -6,10 +6,7 @@ Checks: >
   -android-cloexec-fopen,
   -bugprone-exception-escape,
   -cppcoreguidelines-pro-bounds-constant-array-index,
-  -fuchsia-default-arguments,
-  -fuchsia-default-arguments-calls,
-  -fuchsia-statically-constructed-objects,
-  -fuchsia-trailing-return,
+  -fuchsia-*,
   -google-runtime-references,
   -hicpp-signed-bitwise,
   -llvmlibc-*,
@@ -22,8 +19,33 @@ Checks: >
   -cert-err33-c,
   -cppcoreguidelines-narrowing-conversions,
   -google-readability-casting,
+
+  -cppcoreguidelines-avoid-c-arrays,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-macro-usage,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-special-member-functions,
+  -google-explicit-constructor,
+  -hicpp-avoid-c-arrays,
+  -hicpp-explicit-conversions,
+  -hicpp-named-parameter,
+  -hicpp-noexcept-move,
+  -hicpp-special-member-functions,
+  -hicpp-use-nullptr,
+  -llvm-header-guard,
+  -misc-non-private-member-variables-in-classes,
+  -modernize-avoid-c-arrays,
+  -modernize-use-default-member-init,
+  -modernize-use-nodiscard,
+  -modernize-use-nullptr,
+  -modernize-use-trailing-return-type,
+  -performance-noexcept-move-constructor,
+  -readability-avoid-const-params-in-decls,
+  -readability-identifier-naming,
+  -readability-magic-numbers,
+  -readability-named-parameter,
 WarningsAsErrors: '*'
-HeaderFilterRegex: ''
+HeaderFilterRegex: '.*'
 FormatStyle: none
 CheckOptions:
   - key: cert-dcl16-c.NewSuffixes
