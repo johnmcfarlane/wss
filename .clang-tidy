@@ -9,6 +9,7 @@ Checks: >
   -fuchsia-*,
   -google-runtime-references,
   -hicpp-signed-bitwise,
+  -llvm-header-guard,
   -llvmlibc-*,
   -misc-no-recursion,
   -readability-function-cognitive-complexity,
