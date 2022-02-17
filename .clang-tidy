@@ -45,7 +45,7 @@ Checks: >
   -readability-identifier-naming,
   -readability-magic-numbers,
   -readability-named-parameter,
-WarningsAsErrors: '*'
+WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 FormatStyle: none
 CheckOptions:
