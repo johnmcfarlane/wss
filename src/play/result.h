@@ -28,7 +28,7 @@ inline auto operator<(result const& a, result const& b)
 {
     return tie(b.score, a.word, a.pos.start[1], a.pos.start[0],
                a.pos.direction[1], a.pos.direction[0])
-         < tie(a.score, b.word, b.pos.start[1], b.pos.start[0],
+         < tie(a.score, b.word, b.pos.start[1], b.pos.start[0],  // NOLINT(hicpp-use-nullptr,modernize-use-nullptr)
                b.pos.direction[1], b.pos.direction[0]);
 }
 
