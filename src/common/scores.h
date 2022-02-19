@@ -22,7 +22,7 @@ using letter_values = std::array<int, std::numeric_limits<char>::max() + 1>;
 
 constexpr auto full_rack_score_index = '\0';
 
-constexpr letter_values scrabble_scores()
+constexpr auto scrabble_scores() -> letter_values
 {
     constexpr auto full_rack_bonus = 0;
     constexpr auto letter_score_a = 1;
@@ -83,7 +83,7 @@ constexpr letter_values scrabble_scores()
     return scores;
 }
 
-constexpr letter_values wwf_scores()
+constexpr auto wwf_scores() -> letter_values
 {
     constexpr auto full_rack_bonus = 35;
     constexpr auto letter_score_a = 1;

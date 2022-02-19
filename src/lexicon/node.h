@@ -40,12 +40,12 @@ public:
     {
     }
 
-    [[nodiscard]] char letter() const
+    [[nodiscard]] auto letter() const -> char
     {
         return *_letter;
     }
 
-    [[nodiscard]] node const& child() const
+    [[nodiscard]] auto child() const -> node const&
     {
         return *_node;
     }
@@ -55,7 +55,7 @@ public:
         WSS_ASSERT(rhs._node);
         return *rhs._letter;
     }
-    friend auto& operator++(const_node_iterator& rhs)
+    friend auto operator++(const_node_iterator& rhs) -> auto&
     {
         WSS_ASSERT(rhs._node);
         ++rhs._letter;
@@ -81,14 +81,14 @@ private:
     node const* _node;
 };
 
-inline const_node_iterator begin(node const& n)
+inline auto begin(node const& n) -> const_node_iterator
 {
     return const_node_iterator{
             begin(n.letters),
             n.edges};
 }
 
-inline const_node_iterator end(node const& n)
+inline auto end(node const& n) -> const_node_iterator
 {
     return const_node_iterator{
             end(n.letters),

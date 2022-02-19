@@ -23,6 +23,6 @@
 
 #include <optional>
 
-std::optional<board<char>> load_board_tiles(gsl::cstring_span<> filename);
+auto load_board_tiles(gsl::cstring_span<> filename) -> std::optional<board<char>>;
 
 #endif  // WSS_BOARD_TILES_H

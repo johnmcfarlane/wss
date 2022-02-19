@@ -19,30 +19,30 @@
 
 using coord = std::array<int, 2>;
 
-constexpr coord operator+(coord const& lhs, coord const& rhs)
+constexpr auto operator+(coord const& lhs, coord const& rhs) -> coord
 {
     return {lhs[0] + rhs[0], lhs[1] + rhs[1]};
 }
 
-constexpr coord operator-(coord const& lhs, coord const& rhs)
+constexpr auto operator-(coord const& lhs, coord const& rhs) -> coord
 {
     return {lhs[0] - rhs[0], lhs[1] - rhs[1]};
 }
 
 template<typename Scalar>
-constexpr coord operator*(coord const& lhs, Scalar const& rhs)
+constexpr auto operator*(coord const& lhs, Scalar const& rhs) -> coord
 {
     return {lhs[0] * rhs, lhs[1] * rhs};
 }
 
-constexpr coord& operator+=(coord& lhs, coord const& rhs)
+constexpr auto operator+=(coord& lhs, coord const& rhs) -> coord&
 {
     lhs[0] += rhs[0];
     lhs[1] += rhs[1];
     return lhs;
 }
 
-constexpr coord& operator-=(coord& lhs, coord const& rhs)
+constexpr auto operator-=(coord& lhs, coord const& rhs) -> coord&
 {
     lhs[0] -= rhs[0];
     lhs[1] -= rhs[1];

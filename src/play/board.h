@@ -38,12 +38,12 @@ public:
     {
     }
 
-    [[nodiscard]] int size() const
+    [[nodiscard]] auto size() const -> int
     {
         return edge;
     }
 
-    [[nodiscard]] T const& cell(coord c) const
+    [[nodiscard]] auto cell(coord c) const -> T const&
     {
         WSS_ASSERT(c[0] >= 0);
         WSS_ASSERT(c[0] < edge);
@@ -53,7 +53,7 @@ public:
         return cells.get()[c[0] + c[1] * edge];
     }
 
-    T& cell(coord c)
+    auto cell(coord c) -> T&
     {
         WSS_ASSERT(c[0] >= 0);
         WSS_ASSERT(c[0] < edge);
@@ -69,9 +69,9 @@ private:
 };
 
 template<typename CellType, typename TextToCell>
-std::optional<board<CellType>> make_board(
+auto make_board(
         std::vector<std::vector<char>> const& lines,
-        TextToCell const& mapping)
+        TextToCell const& mapping) -> std::optional<board<CellType>>
 {
     auto edge{ssize(lines)};
     board<CellType> result{int(edge)};
@@ -104,9 +104,9 @@ std::optional<board<CellType>> make_board(
 }
 
 template<typename CellType, typename TextToCell>
-std::optional<board<CellType>> load_board(
+auto load_board(
         gsl::cstring_span<> filename,
-        TextToCell const& mapping)
+        TextToCell const& mapping) -> std::optional<board<CellType>>
 {
     auto const buffer{load_buffer(filename)};
     if (!buffer) {

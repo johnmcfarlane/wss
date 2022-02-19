@@ -37,10 +37,10 @@ public:
 
     operator char() const;  // NOLINT(google-explicit-constructor,hicpp-explicit-conversions)
 
-    [[nodiscard]] std::shared_ptr<node> const& ptr() const;
+    [[nodiscard]] auto ptr() const -> std::shared_ptr<node> const&;
 
-    node& get_next();
-    [[nodiscard]] node const& get_next() const;
+    auto get_next() -> node&;
+    [[nodiscard]] auto get_next() const -> node const&;
 
     void set_next(std::shared_ptr<node> n);
 
@@ -57,7 +57,7 @@ public:
 
     explicit trie();
 
-    [[nodiscard]] node const& root_node() const;
+    [[nodiscard]] auto root_node() const -> node const&;
 
     void insert(string_view word);
 
@@ -67,13 +67,13 @@ private:
     node root;
 };
 
-inline bool operator<(edge const& lhs, edge const& rhs)
+inline auto operator<(edge const& lhs, edge const& rhs) -> bool
 {
     return std::tie(static_cast<char const&>(lhs), lhs.ptr())
          < std::tie(static_cast<char const&>(rhs), rhs.ptr());
 }
 
-inline bool operator<(node const& lhs, node const& rhs)
+inline auto operator<(node const& lhs, node const& rhs) -> bool
 {
     return std::tie(lhs.edges, lhs.is_terminator)
          < std::tie(rhs.edges, rhs.is_terminator);

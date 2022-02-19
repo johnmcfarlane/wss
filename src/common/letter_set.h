@@ -24,7 +24,7 @@
 #include <ostream>
 
 class letter_set;
-constexpr letter_set from_bits(std::uint32_t /*bits*/) noexcept;
+constexpr auto from_bits(std::uint32_t /*bits*/) noexcept -> letter_set;
 
 class letter_set {
 public:
@@ -70,7 +70,7 @@ public:
         return _bits;
     }
 
-    [[nodiscard]] friend constexpr letter_set from_bits(rep bits) noexcept
+    [[nodiscard]] friend constexpr auto from_bits(rep bits) noexcept -> letter_set
     {
         letter_set letters;
         letters._bits = bits;
@@ -79,15 +79,15 @@ public:
 
     class const_iterator;
 
-    [[nodiscard]] const_iterator find(char l) const;
+    [[nodiscard]] auto find(char l) const -> const_iterator;
 
 private:
-    [[nodiscard]] static int bit(char letter)
+    [[nodiscard]] static auto bit(char letter) -> int
     {
         return rep{1} << index(letter);
     }
 
-    [[nodiscard]] static int index(char letter)
+    [[nodiscard]] static auto index(char letter) -> int
     {
         constexpr auto letter_mask{0x1f};
         WSS_ASSERT(letter == '\0' || std::isalpha(letter) || std::isalpha(letter - 1));
@@ -127,7 +127,7 @@ public:
         return rhs._letter;
     }
 
-    friend auto& operator++(const_iterator& rhs)
+    friend auto operator++(const_iterator& rhs) -> auto&
     {
         WSS_ASSERT(rhs._bits > 1);
         auto const inc{__builtin_ctz(rhs._bits & ~letter_set::rep{1})};
@@ -163,7 +163,7 @@ public:
 
     friend auto end(letter_set const& /*unused*/) -> letter_set::const_iterator;
 
-    friend const_iterator letter_set::find(char l) const;
+    friend auto letter_set::find(char l) const -> const_iterator;
 
 private:
     friend auto sentinel(letter_set const& /*letters*/) -> letter_set::const_iterator;
