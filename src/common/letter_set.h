@@ -38,7 +38,7 @@ public:
     {
     }
 
-    explicit letter_set(std::initializer_list<char> const& letters) noexcept
+    letter_set(std::initializer_list<char> const& letters) noexcept
         : _bits{std::accumulate(
                 std::begin(letters), std::end(letters),
                 rep{0},

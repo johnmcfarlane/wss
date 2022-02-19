@@ -42,7 +42,7 @@ class edge {
 public:
     edge(char l, std::unique_ptr<node> n);
 
-    operator char() const;
+    operator char() const;  // NOLINT(google-explicit-constructor)
 
     [[nodiscard]] std::shared_ptr<node> const& ptr() const;
 
