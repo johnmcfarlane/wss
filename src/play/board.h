@@ -32,8 +32,6 @@
 template<typename T>
 class board {
 public:
-    board(board&&) = default;
-
     explicit board(int init_edge)
         : edge{init_edge}
         , cells{std::make_unique<T[]>(edge * edge)}  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)

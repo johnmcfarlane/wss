@@ -114,8 +114,6 @@ public:
     using reference = char const&;
     using iterator_category = std::forward_iterator_tag;
 
-    constexpr const_iterator(const_iterator const&) = default;
-
 private:
     constexpr const_iterator(char l, letter_set::rep b) noexcept
         : _letter(l)

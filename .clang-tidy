@@ -21,12 +21,10 @@ Checks: >
   -cppcoreguidelines-narrowing-conversions,
   -google-readability-casting,
 
-  -cppcoreguidelines-special-member-functions,
   -google-explicit-constructor,
   -hicpp-explicit-conversions,
   -hicpp-named-parameter,
   -hicpp-noexcept-move,
-  -hicpp-special-member-functions,
   -misc-non-private-member-variables-in-classes,
   -modernize-use-default-member-init,
   -modernize-use-trailing-return-type,

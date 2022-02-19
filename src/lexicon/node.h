@@ -34,8 +34,6 @@ public:
     using reference = char const&;
     using iterator_category = std::forward_iterator_tag;
 
-    const_node_iterator(const_node_iterator const&) = default;
-
     const_node_iterator(letter_set::const_iterator l, node const* n) noexcept
         : _letter(l)
         , _node(n)
