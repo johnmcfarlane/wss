@@ -102,7 +102,7 @@ jobs:
 
       - name: Upload code coverage report
         uses: actions/upload-artifact@v2
-        if: ${{ matrix.name == 'coverage' && failure() }}
+        if: ${{ matrix.name == 'coverage' }}
         with:
           name: report
           path: ${{github.workspace}}/coverage-report
