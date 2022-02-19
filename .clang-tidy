@@ -5,6 +5,8 @@ Checks: >
   -altera-*,
   -android-cloexec-fopen,
   -bugprone-exception-escape,
+  -bugprone-narrowing-conversions,
+  -cppcoreguidelines-narrowing-conversions,
   -cppcoreguidelines-pro-bounds-constant-array-index,
   -fuchsia-*,
   -google-runtime-references,
@@ -14,9 +16,6 @@ Checks: >
   -misc-no-recursion,
   -readability-function-cognitive-complexity,
   -readability-identifier-length,
-
-  -bugprone-narrowing-conversions,
-  -cppcoreguidelines-narrowing-conversions,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 FormatStyle: none
