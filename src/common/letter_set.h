@@ -92,8 +92,9 @@ private:
 
     [[nodiscard]] static int index(char letter)
     {
+        constexpr auto letter_mask{0x1f};
         WSS_ASSERT(letter == '\0' || std::isalpha(letter) || std::isalpha(letter - 1));
-        return letter & 0x1f;
+        return letter & letter_mask;
     }
 
     rep _bits;

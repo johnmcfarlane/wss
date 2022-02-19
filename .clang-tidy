@@ -21,7 +21,6 @@ Checks: >
   -cppcoreguidelines-narrowing-conversions,
   -google-readability-casting,
 
-  -cppcoreguidelines-avoid-magic-numbers,
   -cppcoreguidelines-macro-usage,
   -cppcoreguidelines-pro-bounds-pointer-arithmetic,
   -cppcoreguidelines-special-member-functions,
@@ -36,7 +35,6 @@ Checks: >
   -performance-noexcept-move-constructor,
   -readability-avoid-const-params-in-decls,
   -readability-identifier-naming,
-  -readability-magic-numbers,
   -readability-named-parameter,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
