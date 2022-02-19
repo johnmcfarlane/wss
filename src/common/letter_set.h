@@ -112,6 +112,7 @@ public:
     using iterator_category = std::forward_iterator_tag;
 
 private:
+    // NOLINTNEXTLINE(bugprone-easily-swappable-parameters)
     constexpr const_iterator(char l, letter_set::rep b) noexcept
         : _letter(l)
         , _bits(b)

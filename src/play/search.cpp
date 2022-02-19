@@ -64,7 +64,7 @@ namespace {
 
     void search(node const& n, search_state state, score_accumulator score);
 
-    void recurse(node const& n, char letter, int qualifying_cells_count, search_state state, score_accumulator score)
+    void recurse(char letter, node const& n, int qualifying_cells_count, search_state state, score_accumulator score)
     {
         *state.step.word_end++ = letter;
         state.step.num_qualifying_cells += qualifying_cells_count;
@@ -117,7 +117,7 @@ namespace {
         score.word_multiplier *= word_multipliers[cell_premium];  // NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
         score.crossword_scores += crossword_scores[letter];
 
-        recurse(edge, letter, qualifying_cells_count, state, score);
+        recurse(letter, edge, qualifying_cells_count, state, score);
 
         ++counter;
     }
@@ -172,7 +172,7 @@ namespace {
 
         auto const letter_index{found - begin(n.letters)};
         auto const& child_edge{n.edges[letter_index]};  // NOLINT(cppcoreguidelines-pro-bounds-pointer-arithmetic)
-        recurse(child_edge, board_tile, qualifying_cells_count, state, score);
+        recurse(board_tile, child_edge, qualifying_cells_count, state, score);
     }
 }  // namespace
 

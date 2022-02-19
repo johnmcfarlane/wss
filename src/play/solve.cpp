@@ -98,11 +98,10 @@ namespace {
         // returns end-point of word in lexicon and tile score
         auto travel_word_portion = [pos, &letter_scores, &tiles = tiles, column](
                                            node const* n,
-                                           int row_delta_first,
-                                           int row_delta_last)
+                                           std::array<int, 2> row_delta_range)
                 -> std::optional<std::tuple<node const*, int>> {
-            auto const row_first = pos[1] + row_delta_first;
-            auto const row_last = pos[1] + row_delta_last;
+            auto const row_first = pos[1] + row_delta_range[0];
+            auto const row_last = pos[1] + row_delta_range[1];
 
             auto score = 0;
             for (auto row = row_first; row != row_last; ++row) {
@@ -121,15 +120,13 @@ namespace {
             return std::tuple{n, score};
         };
 
-        auto travel_word = [&](
-                                   int row_delta_first,
-                                   int row_delta_last) {
-            auto upper_portion = travel_word_portion(&lexicon, row_delta_first, row_delta_last);
+        auto travel_word = [&](std::array<int, 2> row_delta_range) {
+            auto upper_portion = travel_word_portion(&lexicon, row_delta_range);
             if (!upper_portion) {
                 std::string invalid_word;
 
-                for (auto row = pos[1] + row_delta_first,
-                          row_last = pos[1] + row_delta_last;
+                for (auto row = pos[1] + row_delta_range[0],
+                          row_last = pos[1] + row_delta_range[1];
                      row != row_last;
                      ++row) {
                     invalid_word.push_back(
@@ -142,10 +139,10 @@ namespace {
         };
 
         // Travel through the lexicon for letters above the cell.
-        auto [upper_node, upper_score] = travel_word(extents.first, 0);
+        auto [upper_node, upper_score] = travel_word({extents.first, 0});
 
         // Travel through the lexicon for letters below the cell.
-        auto [lower_node, lower_score] = travel_word(1, extents.second);
+        auto [lower_node, lower_score] = travel_word({1, extents.second});
 
         // Travel through lexicon for letters on the cell.
         for (auto edge = begin(*upper_node), edge_end = end(*upper_node);
@@ -158,7 +155,7 @@ namespace {
                 continue;
             }
 
-            auto lower_result = travel_word_portion(&edge.child(), 1, extents.second);
+            auto lower_result = travel_word_portion(&edge.child(), {1, extents.second});
             if (!lower_result || !std::get<0>(*lower_result)->letters['\0']) {
                 // With this letter, no word can be joined from the upper and lower portions.
                 continue;

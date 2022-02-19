@@ -48,7 +48,7 @@ struct search_state {
     vector<pair<string, int>> finds{};
 };
 
-void search(node const& n, search_state& state, int score, int min_length) noexcept
+void search(node const& n, int score, search_state& state, int min_length) noexcept
 {
     --min_length;
     auto const recurse{
@@ -65,7 +65,7 @@ void search(node const& n, search_state& state, int score, int min_length) noexc
                 }
 
                 --counter;
-                ::search(n, state, score, min_length);
+                ::search(n, score, state, min_length);
                 ++counter;
             }};
 
@@ -114,7 +114,7 @@ auto solve(node const& node, letter_values const& letter_scores, string_view let
 
     state.word.reserve(letters.size());
 
-    search(node, state, 0, min_length);
+    search(node, 0, state, min_length);
 
     refine_results(state.finds);
     return move(state.finds);
