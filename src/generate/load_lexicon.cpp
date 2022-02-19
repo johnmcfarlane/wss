@@ -54,7 +54,7 @@ auto load_lexicon(std::string const& filename)
 
         auto const word{std::string_view{
                 word_start,
-                std::size_t(std::distance(word_start, word_end))}};
+                static_cast<std::size_t>(std::distance(word_start, word_end))}};
 
         auto const* const invalid_character{
                 std::find_if(word_start, word_end, [](auto c) {

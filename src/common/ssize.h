@@ -20,7 +20,7 @@
 template<typename Container>
 inline auto ssize(Container&& c)
 {
-    return int(c.size());
+    return static_cast<int>(c.size());
 }
 
 #endif  // WSS_SSIZE_H

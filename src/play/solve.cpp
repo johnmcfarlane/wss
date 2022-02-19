@@ -88,7 +88,7 @@ namespace {
             return result;
         }
 
-        auto const cell_premium_index = int(premiums.cell(pos));
+        auto const cell_premium_index = static_cast<int>(premiums.cell(pos));
         WSS_ASSERT(cell_premium_index >= 0 && cell_premium_index < ssize(word_multipliers));
 
         auto const word_multiplier = word_multipliers[cell_premium_index];  // NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)

@@ -111,7 +111,7 @@ namespace {
 
         --counter;
 
-        auto const cell_premium = int(state.init.premiums.cell(state.step.pos));
+        auto const cell_premium = static_cast<int>(state.init.premiums.cell(state.step.pos));
         score.word_score += state.init.letter_scores[letter]
                           * letter_multipliers[cell_premium];  // NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
         score.word_multiplier *= word_multipliers[cell_premium];  // NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
@@ -154,7 +154,7 @@ namespace {
                 }
 
                 fill_square(state, edge, qualifying_cells_count, letter_count, crossword_cell.filter, crossword_cell.letter_scores, letter, score);
-                fill_square(state, edge, qualifying_cells_count, blank_count, crossword_cell.filter, crossword_cell.blank_scores, char(std::tolower(letter)), score);
+                fill_square(state, edge, qualifying_cells_count, blank_count, crossword_cell.filter, crossword_cell.blank_scores, static_cast<char>(std::tolower(letter)), score);
                 fill_square(state, edge, qualifying_cells_count, wildcard_count, crossword_cell.filter, crossword_cell.letter_scores, letter, score);
             } while (i != n_end);
 

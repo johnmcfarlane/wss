@@ -76,5 +76,5 @@ auto end(letter_set const& /*letters*/)
     }
 
     auto s{sentinel(*this)};
-    return letter_set::const_iterator{char(s._letter + i), s._bits >> i};
+    return letter_set::const_iterator{static_cast<char>(s._letter + i), s._bits >> i};
 }

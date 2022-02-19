@@ -19,7 +19,6 @@ Checks: >
   -bugprone-narrowing-conversions,
   -cert-err33-c,
   -cppcoreguidelines-narrowing-conversions,
-  -google-readability-casting,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 FormatStyle: none

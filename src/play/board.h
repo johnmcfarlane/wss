@@ -73,8 +73,8 @@ auto make_board(
         std::vector<std::vector<char>> const& lines,
         TextToCell const& mapping) -> std::optional<board<CellType>>
 {
-    auto edge{ssize(lines)};
-    board<CellType> result{int(edge)};
+    auto edge{::ssize(lines)};
+    board<CellType> result{edge};
 
     for (auto row_index{0}; row_index != edge; ++row_index) {
         auto const& line{lines[row_index]};
@@ -91,7 +91,7 @@ auto make_board(
                 fmt::print(
                         stderr,
                         "Unrecognised field, '{}', in row #{}, column #{}.\n",
-                        (char)field,
+                        static_cast<char>(field),
                         row_index + 1, column_index + 1);
                 return std::nullopt;
             }
