@@ -45,8 +45,8 @@ public:
     void set_next(std::shared_ptr<node> n);
 
 private:
-    char letter;
-    std::shared_ptr<node> next;
+    char _letter;
+    std::shared_ptr<node> _next;
 };
 
 class trie {
@@ -64,7 +64,7 @@ public:
     void compress();
 
 private:
-    node root;
+    node _root;
 };
 
 inline auto operator<(edge const& lhs, edge const& rhs) -> bool

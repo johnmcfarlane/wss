@@ -20,8 +20,6 @@ Checks: >
   -cert-err33-c,
   -cppcoreguidelines-narrowing-conversions,
   -google-readability-casting,
-
-  -readability-identifier-naming,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 FormatStyle: none

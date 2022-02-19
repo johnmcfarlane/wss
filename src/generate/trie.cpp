@@ -78,52 +78,52 @@ auto end(node const& n)
 // edge
 
 edge::edge(char l, std::unique_ptr<node> n)
-    : letter(l)
-    , next(std::move(n))
+    : _letter(l)
+    , _next(std::move(n))
 {
 }
 
 edge::operator char() const
 {
-    return letter;
+    return _letter;
 }
 
 auto edge::ptr() const -> std::shared_ptr<node> const&
 {
-    return next;
+    return _next;
 }
 
 auto edge::get_next() -> node&
 {
-    return *next;
+    return *_next;
 }
 
 auto edge::get_next() const -> node const&
 {
-    return *next;
+    return *_next;
 }
 
 void edge::set_next(std::shared_ptr<node> n)
 {
     WSS_ASSERT(n);
-    next = move(n);
+    _next = move(n);
 }
 
 // trie
 
 trie::trie()
-    : root{{}, true}
+    : _root{{}, true}
 {
 }
 
 auto trie::root_node() const -> node const&
 {
-    return root;
+    return _root;
 }
 
 void trie::insert(string_view word)
 {
-    ::insert(root, begin(word), end(word));
+    ::insert(_root, begin(word), end(word));
 }
 
 using node_map = std::map<node, std::shared_ptr<node>>;
@@ -151,5 +151,5 @@ auto compress(node& n, node_map& nodes) -> int
 void trie::compress()
 {
     node_map nodes;
-    ::compress(root, nodes);
+    ::compress(_root, nodes);
 }

@@ -33,39 +33,39 @@ template<typename T>
 class board {
 public:
     explicit board(int init_edge)
-        : edge{init_edge}
-        , cells{std::make_unique<T[]>(edge * edge)}  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
+        : _edge{init_edge}
+        , _cells{std::make_unique<T[]>(_edge * _edge)}  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
     {
     }
 
     [[nodiscard]] auto size() const -> int
     {
-        return edge;
+        return _edge;
     }
 
     [[nodiscard]] auto cell(coord c) const -> T const&
     {
         WSS_ASSERT(c[0] >= 0);
-        WSS_ASSERT(c[0] < edge);
+        WSS_ASSERT(c[0] < _edge);
         WSS_ASSERT(c[1] >= 0);
-        WSS_ASSERT(c[1] < edge);
+        WSS_ASSERT(c[1] < _edge);
 
-        return cells.get()[c[0] + c[1] * edge];
+        return _cells.get()[c[0] + c[1] * _edge];
     }
 
     auto cell(coord c) -> T&
     {
         WSS_ASSERT(c[0] >= 0);
-        WSS_ASSERT(c[0] < edge);
+        WSS_ASSERT(c[0] < _edge);
         WSS_ASSERT(c[1] >= 0);
-        WSS_ASSERT(c[1] < edge);
+        WSS_ASSERT(c[1] < _edge);
 
-        return cells.get()[c[0] + c[1] * edge];
+        return _cells.get()[c[0] + c[1] * _edge];
     }
 
 private:
-    int edge;
-    std::unique_ptr<T[]> cells;  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
+    int _edge;
+    std::unique_ptr<T[]> _cells;  // NOLINT(cppcoreguidelines-avoid-c-arrays,hicpp-avoid-c-arrays,modernize-avoid-c-arrays)
 };
 
 template<typename CellType, typename TextToCell>
