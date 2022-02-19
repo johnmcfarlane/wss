@@ -74,7 +74,7 @@ struct search_state {
 auto word_extent(
         board<char> const& board_tiles,
         coord const& part_start,
-        int const part_length,
+        int part_length,
         coord const& cross_direction)
         -> std::pair<int, int>;
 
