@@ -24,7 +24,7 @@
 #include <ostream>
 
 class letter_set;
-constexpr letter_set from_bits(std::uint32_t) noexcept;
+constexpr letter_set from_bits(std::uint32_t /*bits*/) noexcept;
 
 class letter_set {
 public:
@@ -162,21 +162,21 @@ public:
         return lhs._letter != rhs._letter;
     }
 
-    friend auto begin(letter_set const&) -> letter_set::const_iterator;
+    friend auto begin(letter_set const& /*letters*/) -> letter_set::const_iterator;
 
-    friend auto end(letter_set const&) -> letter_set::const_iterator;
+    friend auto end(letter_set const& /*unused*/) -> letter_set::const_iterator;
 
     friend const_iterator letter_set::find(char l) const;
 
 private:
-    friend auto sentinel(letter_set const&) -> letter_set::const_iterator;
+    friend auto sentinel(letter_set const& /*letters*/) -> letter_set::const_iterator;
 
     char _letter;
     letter_set::rep _bits;
 };
 
-[[nodiscard]] auto begin(letter_set const&) -> letter_set::const_iterator;
+[[nodiscard]] auto begin(letter_set const& /*letters*/) -> letter_set::const_iterator;
 
-[[nodiscard]] auto end(letter_set const&) -> letter_set::const_iterator;
+[[nodiscard]] auto end(letter_set const& /*unused*/) -> letter_set::const_iterator;
 
 #endif  // WSS_LETTER_SET_H

@@ -21,7 +21,6 @@ Checks: >
   -cppcoreguidelines-narrowing-conversions,
   -google-readability-casting,
 
-  -hicpp-named-parameter,
   -hicpp-noexcept-move,
   -misc-non-private-member-variables-in-classes,
   -modernize-use-default-member-init,
@@ -29,7 +28,6 @@ Checks: >
   -performance-noexcept-move-constructor,
   -readability-avoid-const-params-in-decls,
   -readability-identifier-naming,
-  -readability-named-parameter,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 FormatStyle: none
