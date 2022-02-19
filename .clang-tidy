@@ -21,7 +21,6 @@ Checks: >
   -cppcoreguidelines-narrowing-conversions,
   -google-readability-casting,
 
-  -performance-noexcept-move-constructor,
   -readability-avoid-const-params-in-decls,
   -readability-identifier-naming,
 WarningsAsErrors: ''
