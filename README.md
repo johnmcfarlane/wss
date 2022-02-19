@@ -7,23 +7,48 @@
 Wordscapes Solver is a collection of word puzzle solvers written in C++.
 It serves two purposes:
 
-1. To help users cheat at word games such as
+1. To help users find words in games such as
    * [Wordscapes](https://www.peoplefun.com/games),
    * [Words With Friends](https://www.zynga.com/games/words-with-friends-2/) and
    * [Scrabble](https://scrabble.hasbro.com).
 
 1. To provide the template for a modern C++ project.
 
+## Word Search
+
+WSS is a collection of command-line tools which produce solutions to problems
+posed by English-language word games. For example, _rack_ is useful for finding
+words that might be valid moves in the game of Wordscapes.
+
+WSS builds the tools by first consuming a number of lexicons,
+converting them into C++-encoded data,
+and then using them in programs which solve game-specific problems.
+
+The data structures are a Directed Acyclic Word-Graph (DAWG),
+similar to the one described in the paper,
+[The World's Fastest Scrabble Program](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s06/www/lectures/scrabble.pdf)
+(Andrew W. Appel, Guy J. Jacobson, 1988).
+It allows the tools to search through the lexicon in a way that avoids much of
+the duplication one typically finds in a word list.
+This helps to find solutions in a shorter time.
+
 ## Versatility Through Simplicity
 
-WSS makes effective use of CMake and Conan by keeping configuration scripts
-minimal, declarative and decoupled. In this way, the code can be configured,
-built and tested against the widest variety of compilers, analysers and other
-development tools.
+WSS also aims to demonstrate a simpler way of organising C++ projects.
 
-WSS consists of multiple CMake targets and thousands of lines of code.
-Yet, the essential configuration files amounts to a 15-line conanfile and
-only 97 lines of CMake. This is possible because the build system is separated
+Many CMake projects employ a 'kitchen sink' approach to scripting,
+braking the rules of good engineering by trying to make a single tool perform
+many tasks. The result is often complex and brittle.
+
+WSS makes effective use of CMake and Conan by keeping configuration
+scripts minimal, declarative and decoupled. In this way, the code can be
+configured, built and tested against the widest variety of compilers, analysers
+and other development tools.
+
+Multiple CMake targets and thousands of lines of code are presented here.
+Yet, the essential configuration amounts to a 15-line conanfile and
+97 lines of CMake that can be built and tested with just two commands.
+This is possible because the build system is separate
 from other aspects of project management, such as toolchain configuration and
 dependency management. It does one thing well: describing binaries.
 
@@ -50,8 +75,8 @@ running automated tests against tools such as:
 * [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
 * [Valgrind](https://valgrind.org).
 
-Developers are invited to add their favourite tools, or to use this project as
-the starting point for their own C++ projects.
+Developers are invited to suggest or add their favourite tools,
+or to use this project as the starting point for their own C or C++ projects.
 
 ## Instructions
 
