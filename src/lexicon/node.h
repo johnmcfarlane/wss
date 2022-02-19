@@ -61,7 +61,7 @@ public:
     {
         WSS_ASSERT(rhs._node);
         ++rhs._letter;
-        ++rhs._node;
+        ++rhs._node;  // NOLINT(cppcoreguidelines-pro-bounds-pointer-arithmetic)
         return rhs;
     }
 
