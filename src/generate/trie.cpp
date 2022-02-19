@@ -36,7 +36,7 @@ namespace {
             return found_first->get_next();
         }
 
-        return e.emplace(found_first, l, std::make_unique<node>(node::edge_vector{}, false))->get_next();
+        return e.emplace(found_first, l, std::make_unique<node>())->get_next();
     }
 
     auto insert(
@@ -63,16 +63,16 @@ namespace {
 
 // node
 
-auto node::begin() const
+auto begin(node const& n)
         -> node::edge_vector::const_iterator
 {
-    return edges.begin();
+    return std::begin(n.edges);
 }
 
-auto node::end() const
+auto end(node const& n)
         -> node::edge_vector::const_iterator
 {
-    return edges.end();
+    return std::end(n.edges);
 }
 
 // edge

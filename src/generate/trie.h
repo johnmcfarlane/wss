@@ -24,19 +24,12 @@ class edge;
 struct node {
     using edge_vector = std::vector<edge>;
 
-    node(edge_vector e, bool t)
-        : edges(std::move(e))
-        , is_terminator(t)
-    {
-    }
-
-    [[nodiscard]] auto begin() const -> edge_vector::const_iterator;
-
-    [[nodiscard]] edge_vector::const_iterator end() const;
-
     edge_vector edges;
     bool is_terminator{false};
 };
+
+auto begin(node const& n) -> node::edge_vector::const_iterator;
+auto end(node const& n) -> node::edge_vector::const_iterator;
 
 class edge {
 public:
