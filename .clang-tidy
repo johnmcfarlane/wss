@@ -16,7 +16,6 @@ Checks: >
   -readability-identifier-length,
 
   -bugprone-narrowing-conversions,
-  -cert-err33-c,
   -cppcoreguidelines-narrowing-conversions,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
