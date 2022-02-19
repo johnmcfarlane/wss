@@ -27,6 +27,7 @@
 
 // In optimised GCC builds, optimise/sanitize accordingly.
 #elif defined(__GNUC__)
+// NOLINTNEXTLINE(cppcoreguidelines-macro-usage)
 #define WSS_ASSERT(cond) ((cond) ? static_cast<void>(0) : __builtin_unreachable())
 
 // In optimised MSVC builds, optimise/sanitize accordingly.
