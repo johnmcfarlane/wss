@@ -33,10 +33,7 @@ public:
     static const letter_set all;
     static const letter_set none;
 
-    explicit constexpr letter_set() noexcept
-        : _bits{0}
-    {
-    }
+    explicit constexpr letter_set() noexcept = default;
 
     letter_set(std::initializer_list<char> const& letters) noexcept
         : _bits{std::accumulate(
@@ -97,7 +94,7 @@ private:
         return letter & letter_mask;
     }
 
-    rep _bits;
+    rep _bits{};
 };
 
 [[nodiscard]] inline constexpr auto operator|(
