@@ -38,7 +38,7 @@ using edge_map = std::unordered_map<
         std::string,
         std::tuple<std::string, int>>;
 
-void dump_word(
+void write_nodes(
         node const& n,
         std::string& word,
         node_map& nodes,
@@ -62,7 +62,7 @@ void dump_word(
             word_parts.push_back(found.first->second);
         } else {
             nodes.emplace_hint(found.first, std::pair{next_node, word});
-            dump_word(next_node, word, nodes, edges, source_cpp);
+            write_nodes(next_node, word, nodes, edges, source_cpp);
             word_parts.push_back(word);
         }
 
@@ -133,7 +133,7 @@ void dump_word(
     source_cpp << "  " << edges_line << "\n};\n";
 }
 
-void dump_lexicon(
+void write_lexicon(
         trie const& lexicon,
         std::string const& name,
         std::string_view source_filename)
@@ -152,7 +152,7 @@ void dump_lexicon(
     node_map nodes;
     edge_map edges;
     auto const& root_node = lexicon.root_node();
-    dump_word(root_node, word, nodes, edges, source_cpp);
+    write_nodes(root_node, word, nodes, edges, source_cpp);
 
     source_cpp << "} //namespace\n";
 
@@ -197,5 +197,5 @@ auto main(int argc, char const* const* argv) -> int
         return EXIT_FAILURE;
     }
 
-    dump_lexicon(*lexicon, name, source_filename);
+    write_lexicon(*lexicon, name, source_filename);
 }
