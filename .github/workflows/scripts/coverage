@@ -7,8 +7,6 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
 conan install \
   --build=missing \
   --env CONAN_CMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}/.github/workflows/toolchains/coverage.cmake" \
-  --profile default \
-  --profile "${PROJECT_DIR}/.github/workflows/conan/linux-profile" \
   --settings build_type=Coverage \
   "${PROJECT_DIR}" \
   "$@"
