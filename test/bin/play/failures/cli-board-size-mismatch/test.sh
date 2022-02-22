@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -uo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
 shift

@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -uo pipefail
 
 BUILD_DIR=$(pwd)
 SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
