@@ -21,6 +21,7 @@
 #include "wss_assert.h"
 
 #include <node.h>
+#include <scores.h>
 
 #include <gsl/gsl_util>
 

@@ -1,4 +1,4 @@
-// Copyright 2020 John McFarlane
+// Copyright 2019 John McFarlane
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,23 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef WSS_SOLVE_H
-#define WSS_SOLVE_H
+#ifndef WSS_LETTER_VALUES_H
+#define WSS_LETTER_VALUES_H
 
-#include "board.h"
-#include "board_premiums.h"
-#include "result.h"
+#include <array>
+#include <limits>
 
-#include <letter_values.h>
-#include <node.h>
+using letter_values = std::array<int, std::numeric_limits<char>::max() + 1>;
 
-#include <string_view>
-#include <vector>
-
-auto solve(
-        node const& lexicon, letter_values const& letter_scores,
-        std::string_view letters, board<char> tiles,
-        board<premium> premiums)
-        -> std::tuple<std::vector<result>, std::vector<std::string>>;
-
-#endif  // WSS_SOLVE_H
+#endif  // WSS_LETTER_VALUES_H

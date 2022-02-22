@@ -15,10 +15,7 @@
 #ifndef WSS_SCORES_H
 #define WSS_SCORES_H
 
-#include <array>
-#include <limits>
-
-using letter_values = std::array<int, std::numeric_limits<char>::max() + 1>;
+#include "letter_values.h"
 
 constexpr auto full_rack_score_index = '\0';
 

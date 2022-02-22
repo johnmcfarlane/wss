@@ -21,8 +21,8 @@
 #include "search.h"
 #include "tile.h"
 
+#include <letter_values.h>
 #include <node.h>
-#include <scores.h>
 
 #include <cctype>
 #include <iterator>

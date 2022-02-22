@@ -21,8 +21,8 @@
 #include "letter_set.h"
 #include "result.h"
 
+#include <letter_values.h>
 #include <node.h>
-#include <scores.h>
 #include <wss_assert.h>
 
 #include <array>
