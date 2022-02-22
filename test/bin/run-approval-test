@@ -5,13 +5,18 @@ set -euo pipefail
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 TEST=$1
 TEST_DIR="$(dirname "$TEST")"
-RELATIVE_PATH=$(realpath "$TEST_DIR" --relative-to "$PROJECT_DIR")
+PATH_TO_BINARIES="$(pwd)/src/generate:$(pwd)/src/play:$(pwd)/src/rack:"
 
-echo testing "$RELATIVE_PATH" ...
+# print repro command
+echo testing \"cd "$TEST_DIR" \&\& PATH=\""${PATH_TO_BINARIES}"\$PATH\" "${TEST}" "${PROJECT_DIR}" \&\> "${TEST_DIR}/expected.txt"\" ...
 
-if ! "${TEST}" "${PROJECT_DIR}" |& diff "${TEST_DIR}/expected.txt" -
+# make sure script can find wss binaries
+export PATH="${PATH_TO_BINARIES}${PATH}"
+cd "$TEST_DIR"
+
+if ! "${TEST}" "${PROJECT_DIR}" &> "${TEST_DIR}/expected.txt"
 then
-  printf "\033[0;31mFAILED\033[0m %s\n" "$RELATIVE_PATH"
+  printf "\033[0;31mFAILED\033[0m\n"
   exit 1
 fi
 

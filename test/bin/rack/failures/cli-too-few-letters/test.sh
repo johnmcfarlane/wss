@@ -2,9 +2,7 @@
 
 set -uo pipefail
 
-shift
-
-"$@" ./src/rack/rack z
+rack z
 
 if [[ $? -ne 1 ]] ; then
     exit 1

@@ -2,11 +2,6 @@
 
 set -euo pipefail
 
-SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
-PROJECT_DIR=$1
-shift
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../../../..; pwd)
 
-"$@" ./src/play/play \
-  qoihiaf \
-  "${SCRIPT_DIR}/tiles.txt" \
-  "${PROJECT_DIR}/boards/wwf_regular.txt"
+play qoihiaf tiles.txt "${PROJECT_DIR}/boards/wwf_regular.txt"

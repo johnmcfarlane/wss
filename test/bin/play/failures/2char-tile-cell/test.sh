@@ -2,13 +2,7 @@
 
 set -uo pipefail
 
-BUILD_DIR=$(pwd)
-SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
-shift
-
-cd "${SCRIPT_DIR}" || exit
-
-"$@" "${BUILD_DIR}/src/play/play" \
+play \
   "?" \
   tiles.txt \
   premiums.txt

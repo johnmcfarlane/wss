@@ -2,7 +2,15 @@
 
 set -euo pipefail
 
+NUM_CPUS=$(nproc)
 BIN_DIR=$(cd "$(dirname "$0")"; pwd)
 
-"${BIN_DIR}/invoke-approval-tests" \
-  "${BIN_DIR}/run-approval-test"
+find "${BIN_DIR}" -name "test.sh" | \
+  parallel \
+    -j "${NUM_CPUS}" \
+    "${BIN_DIR}/run-approval-test"
+
+cd "${BIN_DIR}"
+git diff --exit-code .
+
+echo success

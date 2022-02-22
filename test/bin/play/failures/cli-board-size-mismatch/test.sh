@@ -3,11 +3,10 @@
 set -uo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
-shift
 
-"$@" ./src/play/play \
+play \
   "?" \
-  "${SCRIPT_DIR}/tiles.txt" \
+  tiles.txt \
   "${SCRIPT_DIR}/premiums.txt"
 
 if [[ $? -ne 1 ]] ; then

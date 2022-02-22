@@ -2,9 +2,7 @@
 
 set -uo pipefail
 
-shift
-
-"$@" ./src/generate/generate --help
+generate --help
 
 if [[ $? -ne 1 ]] ; then
     exit 1

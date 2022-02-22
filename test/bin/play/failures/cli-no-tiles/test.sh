@@ -2,9 +2,7 @@
 
 set -uo pipefail
 
-shift
-
-"$@" ./src/play/play abcd
+play abcd
 
 if [[ $? -ne 1 ]] ; then
     exit 1

@@ -1,7 +1,4 @@
-loading...
-compressing...
-saving...
-#include "lexicon.h"
+#include "expected_source.h"
 namespace {
 node const nLESS = {
   from_bits(0x1U),
@@ -92,5 +89,3 @@ node const root_node = {
 };
 } //namespace
 node const& lexicon{root_node};
-#include <node.h>
-extern node const& lexicon;

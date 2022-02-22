@@ -2,9 +2,7 @@
 
 set -uo pipefail
 
-shift
-
-"$@" ./src/generate/generate missing_file.txt
+generate missing_file.txt
 
 if [[ $? -ne 1 ]] ; then
     exit 1
