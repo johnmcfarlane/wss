@@ -42,6 +42,7 @@ jobs:
   # Build and test on Linux
   linux:
     strategy:
+      fail-fast: false
       matrix:
         name:
           [

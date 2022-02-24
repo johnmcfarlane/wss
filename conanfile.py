@@ -9,7 +9,7 @@ class WssConan(ConanFile):
 
     def build(self):
         cmake = CMake(self)
-        cmake.verbose = False
+        cmake.verbose = True
         cmake.configure()
         cmake.build()
         cmake.test(output_on_failure=True)

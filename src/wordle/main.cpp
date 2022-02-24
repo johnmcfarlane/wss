@@ -22,6 +22,7 @@
 
 #include <algorithm>
 #include <iterator>
+#include <valarray>
 #include <variant>
 #include <vector>
 
