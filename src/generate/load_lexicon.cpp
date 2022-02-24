@@ -14,13 +14,17 @@
 
 #include "load_lexicon.h"
 
-#include <ssize.h>
+#include "trie.h"
 
 #include <fmt/printf.h>
 
 #include <algorithm>
 #include <array>
 #include <cctype>
+#include <cstdio>
+#include <iosfwd>
+#include <iterator>
+#include <memory>
 #include <string_view>
 
 auto load_lexicon(std::string const& filename)

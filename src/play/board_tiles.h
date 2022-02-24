@@ -15,13 +15,12 @@
 #ifndef WSS_BOARD_TILES_H
 #define WSS_BOARD_TILES_H
 
-#include "board.h"
-
-#include <tile.h>
-
 #include <gsl/string_span>
 
 #include <optional>
+
+template<typename T>
+class board;
 
 auto load_board_tiles(gsl::cstring_span<> filename) -> std::optional<board<char>>;
 

@@ -21,6 +21,7 @@ jobs:
             "clang-static-analyzer",
             "valgrind",
             "cppcheck",
+            "include-what-you-use",
             "lint",
           ]
         include:
@@ -48,6 +49,9 @@ jobs:
           - name: cppcheck
             container: johnmcfarlane/cnl_ci:gcc-head
             script: cppcheck
+          - name: include-what-you-use
+            container: johnmcfarlane/cnl_ci:clang-11
+            script: iwyu
           - name: lint
             container: johnmcfarlane/cnl_ci:clang-head
             script: lint

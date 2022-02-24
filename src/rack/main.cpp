@@ -12,6 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#include <letter_set.h>
+#include <letter_values.h>
+#include <node.h>
 #include <scores.h>
 #include <ssize.h>
 #include <tile.h>
@@ -22,11 +25,16 @@
 
 #include <algorithm>
 #include <cctype>
+#include <compare>
+#include <cstdio>
 #include <cstdlib>
+#include <iostream>
 #include <iterator>
-#include <numeric>
+#include <memory>
 #include <string>
 #include <string_view>
+#include <tuple>
+#include <utility>
 #include <vector>
 
 using std::begin;
@@ -115,7 +123,7 @@ auto solve(node const& node, letter_values const& letter_scores, string_view let
     search(node, 0, state, min_length);
 
     refine_results(state.finds);
-    return move(state.finds);
+    return std::move(state.finds);
 }
 
 auto main(int argc, char const* const* argv) -> int

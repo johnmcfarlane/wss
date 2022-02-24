@@ -16,10 +16,9 @@
 #define WSS_LOAD_LEXICON_H
 
 #include <optional>
-#include <string_view>
-#include <vector>
+#include <string>
 
-#include "trie.h"
+class trie;
 
 auto load_lexicon(std::string const& filename) -> std::optional<trie>;
 

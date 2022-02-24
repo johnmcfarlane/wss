@@ -14,22 +14,39 @@
 
 #include "solve.h"
 
+#include "board.h"
 #include "board_premiums.h"
 #include "board_tiles.h"
+#include "coord.h"
+#include "result.h"
 
 #include <all_lexicon.h>
+#include <letter_set.h>
+#include <letter_values.h>
+#include <node.h>
 #include <scores.h>
 #include <scrabble_lexicon.h>
+#include <ssize.h>
 #include <wwf_lexicon.h>
 
+#include <fmt/format.h>
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
 
 #include <algorithm>
 #include <cctype>
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+#include <iterator>
 #include <map>
+#include <memory>
+#include <optional>
 #include <string>
+#include <string_view>
+#include <tuple>
 #include <utility>
+#include <vector>
 
 namespace {
     using std::string;

@@ -17,7 +17,11 @@
 
 #include <gsl/string_span>
 
-#include "board.h"
+#include <array>
+#include <optional>
+
+template<typename T>
+class board;
 
 enum class premium {
     normal,

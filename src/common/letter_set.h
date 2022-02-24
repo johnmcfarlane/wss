@@ -17,11 +17,11 @@
 
 #include "wss_assert.h"
 
-#include <cstddef>
+#include <cctype>
 #include <cstdint>
 #include <initializer_list>
+#include <iterator>
 #include <numeric>
-#include <ostream>
 
 class letter_set;
 constexpr auto from_bits(std::uint32_t /*bits*/) noexcept -> letter_set;

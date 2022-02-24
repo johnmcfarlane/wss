@@ -1,5 +1,8 @@
-set(CMAKE_CXX_CPPCHECK "")
+# Nearly all source in this directory is in huge, auto-generated files. Static
+# analysis is of less utility here and takes much longer too.
 set(CMAKE_CXX_CLANG_TIDY "")
+set(CMAKE_CXX_CPPCHECK "")
+set(CMAKE_CXX_INCLUDE_WHAT_YOU_USE "")
 
 # Convert the given list of words into C++ code and compile into a library
 function(make_lexicon_library library_name wordlist)

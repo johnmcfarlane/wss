@@ -1,0 +1,13 @@
+[
+    { include: ["<lyra/arg.hpp>", "private", "<lyra/lyra.hpp>", "public"] },
+    { include: ["<lyra/args.hpp>", "private", "<lyra/lyra.hpp>", "public"] },
+    { include: ["<lyra/cli.hpp>", "private", "<lyra/lyra.hpp>", "public"] },
+    { include: ["<lyra/help.hpp>", "private", "<lyra/lyra.hpp>", "public"] },
+    { include: ["<lyra/opt.hpp>", "private", "<lyra/lyra.hpp>", "public"] },
+    { include: ["<lyra/parser.hpp>", "private", "<lyra/lyra.hpp>", "public"] },
+    { symbol: ["fmt::format_to", "private", "<fmt/format.h>", "public"] },
+    { symbol: ["fmt::format", "private", "<fmt/format.h>", "public"] },
+    { symbol: ["fmt::formatter", "private", "<fmt/format.h>", "public"] },
+    { symbol: ["fmt::print", "private", "<fmt/printf.h>", "public"] },
+    { symbol: ["std::ofstream", "private", "<fstream>", "public"] }
+]

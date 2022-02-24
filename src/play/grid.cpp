@@ -14,6 +14,7 @@
 
 #include "grid.h"
 
+#include <gsl/span>
 #include <gsl/string_span>
 
 #include <algorithm>

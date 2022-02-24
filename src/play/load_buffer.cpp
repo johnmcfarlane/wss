@@ -17,6 +17,7 @@
 #include <fmt/printf.h>
 #include <gsl/string_span>
 
+#include <cstddef>
 #include <cstdio>
 #include <memory>
 #include <vector>

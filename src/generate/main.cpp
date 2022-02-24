@@ -13,21 +13,27 @@
 // limitations under the License.
 
 #include "load_lexicon.h"
+#include "trie.h"
 
 #include <letter_set.h>
 #include <ssize.h>
-#include <wss_assert.h>
 
+#include <fmt/format.h>
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
 
-#include <array>
+#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <fstream>
-#include <ios>
 #include <iostream>
+#include <iterator>
 #include <map>
-#include <memory>
+#include <optional>
 #include <string>
+#include <string_view>
+#include <tuple>
+#include <unordered_map>
 #include <utility>
 #include <vector>
 

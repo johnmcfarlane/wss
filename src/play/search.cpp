@@ -17,21 +17,18 @@
 #include "board.h"
 #include "coord.h"
 #include "letter_set.h"
+#include "result.h"
 #include "tile.h"
 #include "wss_assert.h"
 
+#include <letter_values.h>
 #include <node.h>
 #include <scores.h>
 
-#include <gsl/gsl_util>
-
+#include <array>
 #include <cctype>
 #include <cstdlib>
-#include <iterator>
-#include <optional>
 #include <string>
-#include <string_view>
-#include <tuple>
 #include <utility>
 #include <vector>
 

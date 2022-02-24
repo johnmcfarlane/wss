@@ -13,9 +13,10 @@
 // limitations under the License.
 
 #include "board_tiles.h"
+#include "board.h"
+#include "tile.h"
 
 #include <cctype>
-#include <unordered_map>
 
 auto load_board_tiles(gsl::cstring_span<> filename)
         -> std::optional<board<char>>

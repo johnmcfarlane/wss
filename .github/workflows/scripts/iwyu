@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+
+conan install \
+  --build=missing \
+  --env "CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/.github/workflows/toolchains/linux-iwyu.cmake" \
+  "${PROJECT_DIR}" \
+  "$@"
+
+conan build \
+  "${PROJECT_DIR}" | tee iwyu-output.txt
+
+# CMake doesn't treat iwyu-related warnings as errors.
+# Instead grep for warning from iwyu and exit with an error
+if grep "Warning: include-what-you-use reported diagnostics:" iwyu-output.txt > /dev/null
+then
+  echo error: include-what-you-use issued warnings
+  cmake --build . --target clean
+  exit 1
+fi

@@ -15,8 +15,10 @@
 #ifndef WSS_MULTI_TRIE_H
 #define WSS_MULTI_TRIE_H
 
+#include <cstddef>
 #include <memory>
 #include <string_view>
+#include <tuple>
 #include <vector>
 
 class edge;

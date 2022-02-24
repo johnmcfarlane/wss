@@ -14,12 +14,12 @@
 
 #include "trie.h"
 
-#include <ssize.h>
 #include <wss_assert.h>
 
 #include <algorithm>
-#include <fmt/printf.h>
+#include <iterator>
 #include <map>
+#include <utility>
 
 namespace {
     using std::begin;
@@ -106,7 +106,7 @@ auto edge::get_next() const -> node const&
 void edge::set_next(std::shared_ptr<node> n)
 {
     WSS_ASSERT(n);
-    _next = move(n);
+    _next = std::move(n);
 }
 
 // trie

@@ -16,6 +16,7 @@
 
 #include "board.h"
 
+#include <iterator>
 #include <optional>
 #include <unordered_map>
 

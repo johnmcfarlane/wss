@@ -19,15 +19,14 @@
 #include "board_premiums.h"
 #include "coord.h"
 #include "letter_set.h"
-#include "result.h"
 
 #include <letter_values.h>
 #include <node.h>
-#include <wss_assert.h>
 
-#include <array>
 #include <utility>
 #include <vector>
+
+struct result;
 
 struct crosswords {
     // letters which may be played in the tile, given cross words that match
