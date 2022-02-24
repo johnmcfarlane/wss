@@ -12,9 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <all_lexicon.h>
 #include <scores.h>
-#include <scrabble_lexicon.h>
 #include <ssize.h>
 #include <tile.h>
 #include <wwf_lexicon.h>

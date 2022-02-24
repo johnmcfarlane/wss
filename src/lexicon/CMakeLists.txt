@@ -9,7 +9,7 @@ function(make_lexicon_library library_name wordlist)
     ${library_name} PUBLIC ${CMAKE_CURRENT_LIST_DIR}
                            ${CMAKE_BINARY_DIR}/src/lexicon)
   set_target_properties(${library_name} PROPERTIES CXX_STANDARD 20)
-  target_link_libraries(${library_name} common)
+  target_link_libraries(${library_name} PRIVATE common)
   add_dependencies(${library_name} generate)
 
   add_custom_command(

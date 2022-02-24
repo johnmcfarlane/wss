@@ -13,11 +13,11 @@ add_executable(
   solve.cpp)
 target_link_libraries(
   play
-  all_lexicon
-  bfg::lyra
-  common
-  fmt::fmt
-  Microsoft.GSL::GSL
-  scrabble_lexicon
-  wwf_lexicon)
+  PRIVATE all_lexicon
+          bfg::lyra
+          common
+          fmt::fmt
+          Microsoft.GSL::GSL
+          scrabble_lexicon
+          wwf_lexicon)
 set_target_properties(play PROPERTIES CXX_STANDARD 20)
