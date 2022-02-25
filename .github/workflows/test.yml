@@ -96,6 +96,11 @@ jobs:
         run: |
           $GITHUB_WORKSPACE/.github/workflows/scripts/${{ matrix.script }}
 
+      - name: Check Working Directory Preservation
+        run: |
+          cd $GITHUB_WORKSPACE
+          git diff --exit-code .
+
       - name: Upload Clang Static Analyzer report
         uses: actions/upload-artifact@v2
         if: ${{ matrix.name == 'clang-static-analyzer' && failure() }}

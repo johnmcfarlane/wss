@@ -11,7 +11,7 @@ repos:
         exclude: |
           (?x)^(
           boards/(.*).txt|
-          test/bin/(.*)|
+          test/approval/(.*)|
           (.*).md
           )$
 
@@ -36,7 +36,7 @@ repos:
     hooks:
       - id: clang-format
         args: [-style=file]
-        exclude: ^(test/bin/(.*))
+        exclude: ^(test/approval/(.*))
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.30.0

@@ -48,7 +48,7 @@ and other development tools.
 
 Multiple CMake targets and thousands of lines of code are presented here.
 Yet, the essential configuration amounts to a 15-line conanfile and
-110 lines of CMake that can be built and tested with just two commands.
+168 lines of CMake that can be built and tested with just two commands.
 This is possible because the build system is separate
 from other aspects of project management, such as toolchain configuration and
 dependency management. It does one thing well: describing binaries.
