@@ -128,30 +128,13 @@ package/bin/wordle TALES20010,TEMPO21001
 
 Output:
 
-> THROE
-> TOGUE
-> TONNE
-> TOQUE
-> TORTE
-> TOWIE
-> TRODE
-> TROKE
-> TRONE
-> TROVE
-
-### Troubleshooting
-
-Conan maintains backward ABI compatibility with GCC v5.
-Pay attention to warnings emitted by `conan` while initialising your environment.
-And if you see errors that mention `abi:cxx11` such as...
-
-> main.cpp:(.text+0x53a2): undefined reference to
-  `fmt::v8::vformat[abi:cxx11](fmt::v8::basic_string_view<char>,
-  fmt::v8::basic_format_args<fmt::v8::basic_format_context<fmt::v8::appender,
-  char> >)'
-
-...then try the following command:
-
-```sh
-conan profile update settings.compiler.libcxx=libstdc++11 default
-```
+> THROE  
+> TOGUE  
+> TONNE  
+> TOQUE  
+> TORTE  
+> TOWIE  
+> TRODE  
+> TROKE  
+> TRONE  
+> TROVE  
