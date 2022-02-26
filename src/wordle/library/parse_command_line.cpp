@@ -127,7 +127,9 @@ auto wordle::parse_command_line(command_line args) -> wordle::input
             | lyra::arg(history_input, "history")("comma-separated list of 10-character moves, e.g. answer is OTHER, you guess TALES then COMET: \"tales10020,comet01021\"")};
     auto result = cli.parse(lyra::args(args.size(), args.data()));
 
+    auto const* const ptr{new int{}};
     if (!result) {
+        delete ptr;  // NOLINT(cppcoreguidelines-owning-memory), LCOV_EXCL_LINE
         fmt::print(stderr, "command line error: {}\n", result.errorMessage());
         return EXIT_FAILURE;
     }

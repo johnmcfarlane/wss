@@ -42,41 +42,42 @@ jobs:
   # Build and test on Linux
   linux:
     strategy:
+      fail-fast: false
       matrix:
         name:
           [
-            "vcpkg-gcc",
+            "breakit-vcpkg-gcc",
             "conan-clang-tidy",
-            "conan-fuzzer",
-            "conan-gcc",
-            "conan-clang-libcpp",
-            "conan-clang-libstdcpp",
+            "breakit-conan-fuzzer",
+            "breakit-conan-gcc",
+            "breakit-conan-clang-libcpp",
+            "breakit-conan-clang-libstdcpp",
             "conan-clang-static-analyzer",
             "conan-coverage-functional",
             "conan-coverage-unit",
-            "conan-valgrind",
+            "breakit-conan-valgrind",
             "conan-cppcheck",
             "conan-include-what-you-use",
             "conan-graphviz",
             "lint",
           ]
         include:
-          - name: vcpkg-gcc
+          - name: breakit-vcpkg-gcc
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/vcpkg/test-gcc
           - name: conan-clang-tidy
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/clang-tidy
-          - name: conan-fuzzer
+          - name: breakit-conan-fuzzer
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/libfuzzer
-          - name: conan-gcc
+          - name: breakit-conan-gcc
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/test-gcc
-          - name: conan-clang-libcpp
+          - name: breakit-conan-clang-libcpp
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/test-clang
-          - name: conan-clang-libstdcpp
+          - name: breakit-conan-clang-libstdcpp
             container: johnmcfarlane/cnl_ci:clang-14-libstdcpp
             test-script: workflows/conan/test-clang
           - name: conan-clang-static-analyzer
@@ -88,7 +89,7 @@ jobs:
           - name: conan-coverage-unit
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/coverage-unit
-          - name: conan-valgrind
+          - name: breakit-conan-valgrind
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/valgrind
           - name: conan-cppcheck
@@ -175,7 +176,7 @@ jobs:
 
       - name: Upload Valgrind report
         uses: actions/upload-artifact@v3
-        if: ${{ matrix.name == 'conan-valgrind' && failure() }}
+        if: ${{ matrix.name == 'breakit-conan-valgrind' && failure() }}
         with:
           name: valgrind-logs
           path: ${{github.workspace}}/Testing/Temporary
