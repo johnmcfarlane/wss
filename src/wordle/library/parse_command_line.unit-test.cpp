@@ -88,7 +88,7 @@ SCENARIO("Wordle --help command line parameters")
 {
     GIVEN("command-line parameter, \"--help\"")
     {
-        constexpr auto params{std::array{"wordle", "--help"}};
+        constexpr auto params{std::array{"wordle", "--halp"}};
 
         WHEN("wordle::parse_command_line is called")
         {
