@@ -45,22 +45,23 @@ auto load_lexicon(std::string const& filename)
     constexpr auto max_word{1024};
     std::array<char, max_word + 1> line{};
     while (std::fgets(line.data(), max_word, f.get()) != nullptr) {
-        auto* const line_start{std::begin(line)};
-        auto* const line_end{std::end(line)};
+        auto const line_start{std::begin(line)};  // NOLINT(llvm-qualified-auto,readability-qualified-auto)
+        auto const line_end{std::end(line)};  // NOLINT(llvm-qualified-auto,readability-qualified-auto)
 
-        auto* const word_start{line_start};
-        auto* const word_end{std::find(line_start, line_end, '\n')};
+        auto const word_start{line_start};  // NOLINT(llvm-qualified-auto,readability-qualified-auto)
+        auto const word_end{std::find(line_start, line_end, '\n')};  // NOLINT(llvm-qualified-auto,readability-qualified-auto)
 
         if (word_end == line_end) {
-            fmt::print(stderr, "error: missing newline at end of '{}' in {}\n", line_start, filename);
+            fmt::print(stderr, "error: missing newline at end of '{}' in {}\n", line.data(), filename);
             return std::nullopt;
         }
 
         auto const word{std::string_view{
-                word_start,
+                line.data(),
                 static_cast<std::size_t>(std::distance(word_start, word_end))}};
 
-        auto const* const invalid_character{
+        // NOLINTNEXTLINE(llvm-qualified-auto,readability-qualified-auto)
+        auto const invalid_character{
                 std::find_if(word_start, word_end, [](auto c) {
                     return !std::islower(c);
                 })};

@@ -140,3 +140,46 @@ jobs:
       - name: Report Caches
         run: |
           ccache -s
+
+  windows:
+    runs-on: windows-2022
+    steps:
+      - name: Clone WSS
+        uses: actions/checkout@v2
+
+      - name: Load package caches
+        uses: actions/cache@v2
+        env:
+          CACHE_SLUG: ${{ github.job }}-${{ matrix.name }}
+        with:
+          path: |
+            ~\.conan\data
+            ~\AppData\Local\pip\Cache
+          key: ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
+          restore-keys: |
+            ${{ env.CACHE_SLUG }}-main
+            ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
+            ${{ env.CACHE_SLUG }}-
+
+      - name: Install Conan
+        run: pip.exe install conan;
+
+      - name: LOOOOK
+        run: dir D:/a/wss/wss/test/approval/generate/duplicate/test-success
+
+      - name: LOOOooooOK
+        run: dir test/approval/generate/duplicate/test-success
+
+      - name: Install dependencies
+        run: |
+          conan install `
+            --build=missing `
+            --settings `
+            compiler.cppstd=20 `
+            $env:GITHUB_WORKSPACE
+
+      - name: Perform Test
+        run: conan build $env:GITHUB_WORKSPACE
+
+      - name: Report Caches
+        run: conan search

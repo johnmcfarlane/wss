@@ -84,16 +84,16 @@ or to use this project as the starting point for their own C or C++ projects.
 
 ## Instructions
 
-WSS is built and tested on Linux.
+WSS is built and tested on Linux and Windows.
 It is designed to be easy to build and to run with:
 
 * Conan package manager,
 * CMake build system generator,
-* A C++20-compatible GCC or Clang compiler.
+* A C++20-compatible compiler such as Clang, GCC or MSVC.
 
 ### Build and Test (Conan)
 
-To build all three utilities using Conan on Ubuntu,
+To build all three utilities using Conan on Linux,
 
 1. create an empty build directory,
 

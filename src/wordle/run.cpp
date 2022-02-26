@@ -207,8 +207,8 @@ namespace {
     void dump(constraints const& c)
     {
         auto const dump_limit{[](auto const& limit, auto const* name, auto ignorable) {
-            auto const* const first{std::next(std::cbegin(limit), int{'A'})};
-            auto const* const last{std::next(std::cbegin(limit), int{'Z'} + 1)};
+            auto const first{std::next(std::cbegin(limit), int{'A'})};  // NOLINT(llvm-qualified-auto,readability-qualified-auto)
+            auto const last{std::next(std::cbegin(limit), int{'Z'} + 1)};  // NOLINT(llvm-qualified-auto,readability-qualified-auto)
             if (std::all_of(first, last, [&](auto const letter_limit) {
                     return letter_limit == ignorable;
                 })) {
@@ -216,8 +216,8 @@ namespace {
             }
 
             fmt::print("{}:\n", name);
-            // NOLINTNEXTLINE(cppcoreguidelines-pro-bounds-pointer-arithmetic);
-            for (auto const* it{first}; it != last; it++) {
+            // NOLINTNEXTLINE(cppcoreguidelines-pro-bounds-pointer-arithmetic,llvm-qualified-auto,readability-qualified-auto)
+            for (auto it{first}; it != last; it++) {
                 auto const letter_limit{*it};
                 if (letter_limit != ignorable) {
                     auto const index{std::distance(std::cbegin(limit), it)};
