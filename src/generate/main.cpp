@@ -39,13 +39,13 @@
 
 using namespace std::literals;
 
-using node_map = std::map<node, std::string>;
+using node_map = std::map<gen_node, std::string>;
 using edge_map = std::unordered_map<
         std::string,
         std::tuple<std::string, int>>;
 
 void write_nodes(
-        node const& n,
+        gen_node const& n,
         std::string& word,
         node_map& nodes,
         edge_map& edges,

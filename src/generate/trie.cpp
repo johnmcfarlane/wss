@@ -26,7 +26,7 @@ namespace {
     using std::end;
     using std::string_view;
 
-    auto insert(node::edge_vector& e, char l) -> node&
+    auto insert(gen_node::edge_vector& e, char l) -> gen_node&
     {
         auto const [found_first, found_last] = std::equal_range(begin(e), end(e), l);
 
@@ -36,11 +36,11 @@ namespace {
             return found_first->get_next();
         }
 
-        return e.emplace(found_first, l, std::make_unique<node>())->get_next();
+        return e.emplace(found_first, l, std::make_unique<gen_node>())->get_next();
     }
 
     auto insert(
-            node& n,
+            gen_node& n,
             string_view::const_iterator
                     pos,
             string_view::const_iterator end)
@@ -61,23 +61,23 @@ namespace {
     }
 }  // namespace
 
-// node
+// gen_node
 
-auto begin(node const& n)
-        -> node::edge_vector::const_iterator
+auto begin(gen_node const& n)
+        -> gen_node::edge_vector::const_iterator
 {
     return std::begin(n.edges);
 }
 
-auto end(node const& n)
-        -> node::edge_vector::const_iterator
+auto end(gen_node const& n)
+        -> gen_node::edge_vector::const_iterator
 {
     return std::end(n.edges);
 }
 
 // edge
 
-edge::edge(char l, std::unique_ptr<node> n)
+edge::edge(char l, std::unique_ptr<gen_node> n)
     : _letter(l)
     , _next(std::move(n))
 {
@@ -88,22 +88,22 @@ edge::operator char() const
     return _letter;
 }
 
-auto edge::ptr() const -> std::shared_ptr<node> const&
+auto edge::ptr() const -> std::shared_ptr<gen_node> const&
 {
     return _next;
 }
 
-auto edge::get_next() -> node&
+auto edge::get_next() -> gen_node&
 {
     return *_next;
 }
 
-auto edge::get_next() const -> node const&
+auto edge::get_next() const -> gen_node const&
 {
     return *_next;
 }
 
-void edge::set_next(std::shared_ptr<node> n)
+void edge::set_next(std::shared_ptr<gen_node> n)
 {
     WSS_ASSERT(n);
     _next = std::move(n);
@@ -116,7 +116,7 @@ trie::trie()
 {
 }
 
-auto trie::root_node() const -> node const&
+auto trie::root_node() const -> gen_node const&
 {
     return _root;
 }
@@ -126,9 +126,9 @@ void trie::insert(string_view word)
     ::insert(_root, begin(word), end(word));
 }
 
-using node_map = std::map<node, std::shared_ptr<node>>;
+using node_map = std::map<gen_node, std::shared_ptr<gen_node>>;
 
-auto compress(node& n, node_map& nodes) -> int
+auto compress(gen_node& n, node_map& nodes) -> int
 {
     auto sum{0};
     for (auto& edge : n.edges) {

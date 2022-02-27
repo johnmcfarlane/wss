@@ -23,32 +23,32 @@
 
 class edge;
 
-struct node {
+struct gen_node {
     using edge_vector = std::vector<edge>;
 
     edge_vector edges;
     bool is_terminator{false};
 };
 
-auto begin(node const& n) -> node::edge_vector::const_iterator;
-auto end(node const& n) -> node::edge_vector::const_iterator;
+auto begin(gen_node const& n) -> gen_node::edge_vector::const_iterator;
+auto end(gen_node const& n) -> gen_node::edge_vector::const_iterator;
 
 class edge {
 public:
-    edge(char l, std::unique_ptr<node> n);
+    edge(char l, std::unique_ptr<gen_node> n);
 
     operator char() const;  // NOLINT(google-explicit-constructor,hicpp-explicit-conversions)
 
-    [[nodiscard]] auto ptr() const -> std::shared_ptr<node> const&;
+    [[nodiscard]] auto ptr() const -> std::shared_ptr<gen_node> const&;
 
-    auto get_next() -> node&;
-    [[nodiscard]] auto get_next() const -> node const&;
+    auto get_next() -> gen_node&;
+    [[nodiscard]] auto get_next() const -> gen_node const&;
 
-    void set_next(std::shared_ptr<node> n);
+    void set_next(std::shared_ptr<gen_node> n);
 
 private:
     char _letter;
-    std::shared_ptr<node> _next;
+    std::shared_ptr<gen_node> _next;
 };
 
 class trie {
@@ -59,14 +59,14 @@ public:
 
     explicit trie();
 
-    [[nodiscard]] auto root_node() const -> node const&;
+    [[nodiscard]] auto root_node() const -> gen_node const&;
 
     void insert(string_view word);
 
     void compress();
 
 private:
-    node _root;
+    gen_node _root;
 };
 
 inline auto operator<(edge const& lhs, edge const& rhs) -> bool
@@ -75,7 +75,7 @@ inline auto operator<(edge const& lhs, edge const& rhs) -> bool
          < std::tie(static_cast<char const&>(rhs), rhs.ptr());
 }
 
-inline auto operator<(node const& lhs, node const& rhs) -> bool
+inline auto operator<(gen_node const& lhs, gen_node const& rhs) -> bool
 {
     return std::tie(lhs.edges, lhs.is_terminator)
          < std::tie(rhs.edges, rhs.is_terminator);
