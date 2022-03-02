@@ -2,12 +2,13 @@
 function(generate_approval_test approval_test_command will_fail)
   get_filename_component(approval_test_directory ${approval_test_command}
                          DIRECTORY)
+  file(RELATIVE_PATH test_name ${CMAKE_SOURCE_DIR} ${approval_test_command})
   add_test(
-    NAME ${approval_test_command}
+    NAME ${test_name}
     COMMAND ${approval_test_command}
     WORKING_DIRECTORY ${approval_test_directory})
   set_tests_properties(
-    ${approval_test_command}
+    ${test_name}
     PROPERTIES
       ENVIRONMENT
       "\

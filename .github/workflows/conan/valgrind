@@ -6,6 +6,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 
 conan install \
   --build=missing \
+  --settings build_type=Debug \
   "${PROJECT_DIR}" \
   "$@"
 
@@ -14,6 +15,7 @@ conan build \
   "${PROJECT_DIR}"
 
 ctest \
+  --exclude-regex "test/approval" \
   --output-on-failure \
   --overwrite MemoryCheckCommandOptions="-q --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=50 --error-exitcode=1" \
   --parallel "$(nproc)" \

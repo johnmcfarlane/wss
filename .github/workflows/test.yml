@@ -50,7 +50,7 @@ jobs:
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/clang-static-analyzer
           - name: conan-valgrind
-            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            container: johnmcfarlane/cnl_ci:gcc-head
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/valgrind
           - name: conan-cppcheck
@@ -122,6 +122,14 @@ jobs:
         with:
           name: coverage-report
           path: ${{github.workspace}}/coverage-report
+          if-no-files-found: error
+
+      - name: Upload Valgrind report
+        uses: actions/upload-artifact@v2
+        if: ${{ matrix.name == 'conan-valgrind' && failure() }}
+        with:
+          name: valgrind-logs
+          path: ${{github.workspace}}/Testing/Temporary
           if-no-files-found: error
 
       - name: Report Caches
