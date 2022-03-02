@@ -1,1 +1,1 @@
-play eeajm_t tiles.txt ../../../../../boards/wwf_challenge.txt
+play eeajm_t tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

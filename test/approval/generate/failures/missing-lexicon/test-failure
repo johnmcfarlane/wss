@@ -1,1 +1,1 @@
-generate missing_file.txt
+generate missing_file.txt > stdout 2> stderr

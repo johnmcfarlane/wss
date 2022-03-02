@@ -1,1 +1,1 @@
-play IZCO_TA tiles.txt ../../../../../boards/wwf_challenge.txt
+play IZCO_TA tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

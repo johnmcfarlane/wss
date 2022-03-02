@@ -1,1 +1,1 @@
-generate lexicon.txt lexicon expected_source
+generate lexicon.txt lexicon expected_source > stdout 2> stderr

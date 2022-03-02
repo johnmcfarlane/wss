@@ -1,1 +1,1 @@
-play EEEPIAR tiles.txt ../../../../../boards/wwf_challenge.txt
+play EEEPIAR tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

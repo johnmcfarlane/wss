@@ -1,1 +1,1 @@
-play VSIQATA tiles.txt ../../../../../boards/wwf_challenge.txt
+play VSIQATA tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

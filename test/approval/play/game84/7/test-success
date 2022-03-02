@@ -1,1 +1,1 @@
-play PTEVCOS tiles.txt ../../../../../boards/wwf_challenge.txt
+play PTEVCOS tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

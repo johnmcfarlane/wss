@@ -1,1 +1,1 @@
-play LOEWDNA tiles.txt ../../../../../boards/wwf_challenge.txt
+play LOEWDNA tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

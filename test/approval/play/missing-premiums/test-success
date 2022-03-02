@@ -1,1 +1,1 @@
-play "?" tiles.txt
+play "?" tiles.txt > stdout 2> stderr

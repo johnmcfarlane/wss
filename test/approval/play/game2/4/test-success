@@ -1,1 +1,1 @@
-play toraqrl tiles.txt ../../../../../boards/wwf_challenge.txt
+play toraqrl tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

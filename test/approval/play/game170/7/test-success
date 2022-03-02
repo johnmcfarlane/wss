@@ -1,1 +1,1 @@
-play ICDEASX tiles.txt ../../../../../boards/wwf_challenge.txt
+play ICDEASX tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

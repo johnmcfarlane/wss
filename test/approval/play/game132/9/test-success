@@ -1,1 +1,1 @@
-play AT_EFIP tiles.txt ../../../../../boards/wwf_challenge.txt
+play AT_EFIP tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

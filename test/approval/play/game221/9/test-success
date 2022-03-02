@@ -1,1 +1,1 @@
-play eivyqdo tiles.txt ../../../../../boards/wwf_challenge.txt
+play eivyqdo tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

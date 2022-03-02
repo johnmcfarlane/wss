@@ -1,1 +1,1 @@
-play OVOFS_C tiles.txt ../../../../../boards/wwf_challenge.txt
+play OVOFS_C tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

@@ -1,1 +1,1 @@
-play SADTNIF tiles.txt ../../../../../boards/wwf_regular.txt
+play SADTNIF tiles.txt ../../../../../boards/wwf_regular.txt > stdout 2> stderr

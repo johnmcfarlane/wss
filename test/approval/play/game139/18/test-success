@@ -1,1 +1,1 @@
-play NYSICTE tiles.txt ../../../../../boards/scrabble.txt --game=scrabble
+play NYSICTE tiles.txt ../../../../../boards/scrabble.txt --game=scrabble > stdout 2> stderr

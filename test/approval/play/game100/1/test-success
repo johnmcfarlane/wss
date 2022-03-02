@@ -1,1 +1,1 @@
-play _VEOIRA tiles.txt ../../../../../boards/wwf_challenge.txt
+play _VEOIRA tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

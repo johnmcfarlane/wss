@@ -1,1 +1,1 @@
-play tdef_em tiles.txt ../../../../../boards/wwf_challenge.txt
+play tdef_em tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

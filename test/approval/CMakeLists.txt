@@ -4,8 +4,7 @@ function(generate_approval_test approval_test_command will_fail)
                          DIRECTORY)
   add_test(
     NAME ${approval_test_command}
-    COMMAND ${CMAKE_COMMAND} -DWSS_TEST_COMMAND=${approval_test_command} -P
-            ${CMAKE_CURRENT_LIST_DIR}/run_test.cmake
+    COMMAND ${approval_test_command}
     WORKING_DIRECTORY ${approval_test_directory})
   set_tests_properties(
     ${approval_test_command}

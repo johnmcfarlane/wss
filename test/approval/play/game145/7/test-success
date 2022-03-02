@@ -1,1 +1,1 @@
-play wdsitar tiles.txt ../../../../../boards/wwf_challenge.txt
+play wdsitar tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

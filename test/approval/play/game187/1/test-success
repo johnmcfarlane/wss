@@ -1,1 +1,1 @@
-play bv_ntfn tiles.txt ../../../../../boards/wwf_challenge.txt
+play bv_ntfn tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

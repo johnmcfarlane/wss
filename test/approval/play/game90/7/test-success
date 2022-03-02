@@ -1,1 +1,1 @@
-play LEILOEX tiles.txt ../../../../../boards/wwf_challenge.txt
+play LEILOEX tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

@@ -1,2 +1,1 @@
-
-rack abcdefghijklmnopqrstuvwxyz? --min-length 8
+rack abcdefghijklmnopqrstuvwxyz? --min-length 8 > stdout 2> stderr

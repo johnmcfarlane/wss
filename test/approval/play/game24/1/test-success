@@ -1,1 +1,1 @@
-play c_at tiles.txt ../../../../../boards/wwf_regular.txt
+play c_at tiles.txt ../../../../../boards/wwf_regular.txt > stdout 2> stderr

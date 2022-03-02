@@ -1,1 +1,1 @@
-play ISPATS_ tiles.txt ../../../../../boards/wwf_challenge.txt
+play ISPATS_ tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

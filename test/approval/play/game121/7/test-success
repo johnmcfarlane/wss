@@ -1,1 +1,1 @@
-play CHJLR_N tiles.txt ../../../../../boards/wwf_challenge.txt
+play CHJLR_N tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

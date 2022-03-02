@@ -1,1 +1,1 @@
-play APR_QFE tiles.txt ../../../../../boards/wwf_challenge.txt
+play APR_QFE tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

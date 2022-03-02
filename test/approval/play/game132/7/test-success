@@ -1,1 +1,1 @@
-play GAKT_EE tiles.txt ../../../../../boards/wwf_challenge.txt
+play GAKT_EE tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

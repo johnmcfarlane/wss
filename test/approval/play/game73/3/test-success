@@ -1,1 +1,1 @@
-play JBDRELI tiles.txt ../../../../../boards/wwf_challenge.txt
+play JBDRELI tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

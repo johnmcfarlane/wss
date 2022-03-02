@@ -1,1 +1,1 @@
-play RIWDENN tiles.txt ../../../../../boards/scrabble.txt --game=scrabble
+play RIWDENN tiles.txt ../../../../../boards/scrabble.txt --game=scrabble > stdout 2> stderr

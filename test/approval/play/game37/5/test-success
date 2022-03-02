@@ -1,1 +1,1 @@
-play IIEIBLM tiles.txt ../../../../../boards/wwf_regular.txt
+play IIEIBLM tiles.txt ../../../../../boards/wwf_regular.txt > stdout 2> stderr

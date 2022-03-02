@@ -1,1 +1,1 @@
-play DLT_SIA tiles.txt ../../../../../boards/wwf_regular.txt
+play DLT_SIA tiles.txt ../../../../../boards/wwf_regular.txt > stdout 2> stderr

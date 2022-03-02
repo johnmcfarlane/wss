@@ -1,1 +1,1 @@
-play FDSCEIH tiles.txt ../../../../../boards/wwf_challenge.txt
+play FDSCEIH tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

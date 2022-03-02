@@ -1,1 +1,1 @@
-play GHEIDLI tiles.txt ../../../../../boards/wwf_challenge.txt
+play GHEIDLI tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr

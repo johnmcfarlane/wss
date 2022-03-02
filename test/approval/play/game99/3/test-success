@@ -1,1 +1,1 @@
-play DAIAFSV tiles.txt ../../../../../boards/wwf_challenge.txt
+play DAIAFSV tiles.txt ../../../../../boards/wwf_challenge.txt > stdout 2> stderr
