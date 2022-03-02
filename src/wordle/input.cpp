@@ -125,7 +125,7 @@ auto wordle::parse_command_line(command_line args) -> input
     auto result = cli.parse(lyra::args(args.size(), args.data()));
 
     if (!result) {
-        fmt::print(stderr, "Error in command line: {}\n", result.message());
+        fmt::print(stderr, "command line error: {}\n", result.errorMessage());
         return EXIT_FAILURE;
     }
 

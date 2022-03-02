@@ -109,7 +109,7 @@ auto main(int argc, char const* const* argv) -> int
     auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {
-        fmt::fprintf(stderr, "error: in command line: %s\n", result.message());
+        fmt::print(stderr, "command line error: {}\n", result.errorMessage());
         return EXIT_FAILURE;
     }
 
