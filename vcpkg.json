@@ -1,0 +1,19 @@
+{
+    "name": "wss",
+    "version-string": "0.0.0",
+    "dependencies": [
+        {
+            "name": "bfgroup-lyra",
+            "version>=": "1.5.1"
+        },
+        "fmt",
+        {
+            "name": "ms-gsl",
+            "version>=": "3.1.0"
+        }
+    ],
+    "overrides": [
+        { "name": "ms-gsl", "version": "3.1.0" }
+    ],
+    "builtin-baseline": "5326d84423aca4532a3140364e74a92afb9555d3"
+}

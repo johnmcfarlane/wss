@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+NUM_CPUS=$(nproc)
+
+cmake \
+  -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake \
+  -G Ninja \
+  "${PROJECT_DIR}"
+
+cmake \
+  --build .
+
+ctest \
+  --output-on-error \
+  --parallel "${NUM_CPUS}"

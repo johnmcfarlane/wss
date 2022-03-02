@@ -13,6 +13,7 @@ jobs:
       matrix:
         name:
           [
+            "vcpkg-gcc-head",
             "conan-gcc-head",
             "conan-coverage",
             "conan-clang-tidy",
@@ -25,6 +26,10 @@ jobs:
             "lint",
           ]
         include:
+          - name: vcpkg-gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-head
+            init-script: .github/workflows/vcpkg/init
+            test-script: .github/workflows/vcpkg/test-gcc
           - name: conan-gcc-head
             container: johnmcfarlane/cnl_ci:gcc-head
             init-script: .github/workflows/conan/init

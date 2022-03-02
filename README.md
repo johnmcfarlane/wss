@@ -41,14 +41,14 @@ Many CMake projects employ a 'kitchen sink' approach to scripting,
 braking the rules of good engineering by trying to make a single tool perform
 many tasks. The result is often complex and brittle.
 
-WSS makes effective use of CMake and Conan by keeping configuration
-scripts minimal, declarative and decoupled. In this way, the code can be
-configured, built and tested against the widest variety of compilers, analysers
+WSS makes effective use of CMake by keeping configuration scripts minimal,
+declarative and decoupled. In this way, the code can be configured,
+built and tested against the widest variety of toolchains, package managers,
 and other development tools.
 
-Multiple CMake targets and thousands of lines of code are presented here.
-Yet, the essential configuration amounts to a 15-line conanfile and
-168 lines of CMake that can be built and tested with just two commands.
+The codebase represents multiple CMake targets and thousands of lines of code.
+Yet, the essential build configuration amounts to just 154 lines of CMake, and
+everything is built and tested with just 2 Conan commands or 5 vcpkg commands.
 This is possible because the build system is separate
 from other aspects of project management, such as toolchain configuration and
 dependency management. It does one thing well: describing binaries.
@@ -64,6 +64,7 @@ running automated tests against tools such as:
 * [Clang Static Analyzer](https://clang-analyzer.llvm.org/),
 * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) C++ linter and static
   analyser,
+* [Conan](https://conan.io/) Python-based C++ package manager,
 * [pre-commit](https://pre-commit.com/) linting framework with
   formatting and correctness checks for:
   * Bash
@@ -74,7 +75,8 @@ running automated tests against tools such as:
   * Python
   * YAML
 * [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
-* [Valgrind](https://valgrind.org).
+* [Valgrind](https://valgrind.org),
+* [vcpkg](https://vcpkg.io/) CMake-based C++ package manager.
 
 Developers are invited to suggest or add their favourite tools,
 or to use this project as the starting point for their own C or C++ projects.
@@ -88,9 +90,9 @@ It is designed to be easy to build and to run with:
 * CMake build system generator,
 * A C++20-compatible GCC or Clang compiler.
 
-### Build and Test
+### Build and Test (Conan)
 
-To generate an example word list using the _rack_ program
+To build all three utilities using Conan on Ubuntu,
 
 1. create an empty build directory,
 
@@ -105,17 +107,41 @@ To generate an example word list using the _rack_ program
    conan install --build=missing <path-to-wss>
    ```
 
-1. then configure, build, test and install the programs:
+1. then configure, build, test, and install the programs:
 
    ```sh
    conan build <path-to-wss>
    ```
 
-The programs are now in the _package/bin/_ directory.
+### Build and Test (vcpkg)
+
+To build all three utilities using vcpkg on Linux,
+
+1. create an empty build directory,
+
+   ```sh
+   mkdir -p build
+   cd build/
+   ```
+
+1. install vcpkg using [these instructions](https://vcpkg.io/en/getting-started.html),
+
+   ```sh
+   git clone https://github.com/Microsoft/vcpkg.git
+   ./vcpkg/bootstrap-vcpkg.sh
+   ```
+
+1. then configure, build, and test the programs:
+
+   ```sh
+   cmake -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake <path-to-wss>
+   cmake --build .
+   ctest
+   ```
 
 ### Run Wordle
 
-The _package/bin/wordle_ program suggests words to play in Wordle. For example,
+The _src/wordle/wordle_ program suggests words to play in Wordle. For example,
 after playing the following two moves,
 
 ![Image](docs/wordle.png)
@@ -123,7 +149,7 @@ after playing the following two moves,
 you can search for possible WORDLEs:
 
 ```sh
-package/bin/wordle TALES20010,TEMPO21001
+src/wordle/wordle TALES20010,TEMPO21001
 ```
 
 Output:
