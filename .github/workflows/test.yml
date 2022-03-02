@@ -110,17 +110,17 @@ jobs:
 
       - name: Upload Clang Static Analyzer report
         uses: actions/upload-artifact@v2
-        if: ${{ matrix.name == 'clang-static-analyzer' && failure() }}
+        if: ${{ matrix.name == 'conan-clang-static-analyzer' && failure() }}
         with:
-          name: report
+          name: csa-report
           path: ${{github.workspace}}/scan-build
           if-no-files-found: error
 
       - name: Upload code coverage report
         uses: actions/upload-artifact@v2
-        if: ${{ matrix.name == 'coverage' && always() }}
+        if: ${{ matrix.name == 'conan-coverage' && always() }}
         with:
-          name: report
+          name: coverage-report
           path: ${{github.workspace}}/coverage-report
           if-no-files-found: error
 
