@@ -13,48 +13,58 @@ jobs:
       matrix:
         name:
           [
-            "gcc-head",
-            "coverage",
-            "clang-tidy",
-            "clang-head-libstdcpp",
-            "clang-head-libcpp",
-            "clang-static-analyzer",
-            "valgrind",
-            "cppcheck",
-            "include-what-you-use",
+            "conan-gcc-head",
+            "conan-coverage",
+            "conan-clang-tidy",
+            "conan-clang-head-libstdcpp",
+            "conan-clang-head-libcpp",
+            "conan-clang-static-analyzer",
+            "conan-valgrind",
+            "conan-cppcheck",
+            "conan-include-what-you-use",
             "lint",
           ]
         include:
-          - name: gcc-head
+          - name: conan-gcc-head
             container: johnmcfarlane/cnl_ci:gcc-head
-            script: test-gcc
-          - name: coverage
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/test-gcc
+          - name: conan-coverage
             container: johnmcfarlane/cnl_ci:gcc-head
-            script: coverage
-          - name: clang-tidy
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/coverage
+          - name: conan-clang-tidy
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
-            script: clang-tidy
-          - name: clang-head-libstdcpp
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/clang-tidy
+          - name: conan-clang-head-libstdcpp
             container: johnmcfarlane/cnl_ci:clang-head-libstdcpp
-            script: test-clang
-          - name: clang-head-libcpp
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/test-clang
+          - name: conan-clang-head-libcpp
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
-            script: test-clang
-          - name: clang-static-analyzer
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/test-clang
+          - name: conan-clang-static-analyzer
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
-            script: clang-static-analyzer
-          - name: valgrind
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/clang-static-analyzer
+          - name: conan-valgrind
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
-            script: valgrind
-          - name: cppcheck
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/valgrind
+          - name: conan-cppcheck
             container: johnmcfarlane/cnl_ci:gcc-head
-            script: cppcheck
-          - name: include-what-you-use
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/cppcheck
+          - name: conan-include-what-you-use
             container: johnmcfarlane/cnl_ci:clang-11
-            script: iwyu
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/iwyu
           - name: lint
             container: johnmcfarlane/cnl_ci:clang-head
-            script: lint
+            init-script: .github/workflows/pre-commit/init
+            test-script: .github/workflows/pre-commit/lint
 
     container: ${{matrix.container}}
     runs-on: ubuntu-20.04
@@ -86,15 +96,12 @@ jobs:
       - name: Report Caches
         run: |
           ccache -s
-          conan search
 
-      - name: Initialise Conan
-        run: |
-          $GITHUB_WORKSPACE/.github/workflows/scripts/init-conan
+      - name: Initialise System
+        run: $GITHUB_WORKSPACE/${{ matrix.init-script }}
 
       - name: Perform Test
-        run: |
-          $GITHUB_WORKSPACE/.github/workflows/scripts/${{ matrix.script }}
+        run: $GITHUB_WORKSPACE/${{ matrix.test-script }}
 
       - name: Check Working Directory Preservation
         run: |
@@ -120,4 +127,3 @@ jobs:
       - name: Report Caches
         run: |
           ccache -s
-          conan search
