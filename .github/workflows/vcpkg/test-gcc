@@ -6,12 +6,15 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 NUM_CPUS=$(nproc)
 
 cmake \
+  -DCMAKE_BUILD_TYPE=Test \
   -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake \
+  -DVCPKG_CHAINLOAD_TOOLCHAIN_FILE="${PROJECT_DIR}/.github/workflows/toolchains/linux-gcc.cmake" \
   -G Ninja \
   "${PROJECT_DIR}"
 
 cmake \
-  --build .
+  --build . \
+  --parallel "${NUM_CPUS}"
 
 ctest \
   --output-on-error \
