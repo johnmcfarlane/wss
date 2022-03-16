@@ -65,6 +65,7 @@ running automated tests against tools such as:
 * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) C++ linter and static
   analyser,
 * [Conan](https://conan.io/) Python-based C++ package manager,
+* [Include what you use](https://include-what-you-use.org/) tool to analyze `#include`s,
 * [pre-commit](https://pre-commit.com/) linting framework with
   formatting and correctness checks for:
   * Bash
