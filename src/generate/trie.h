@@ -15,6 +15,7 @@
 #ifndef WSS_MULTI_TRIE_H
 #define WSS_MULTI_TRIE_H
 
+#include <compare>
 #include <cstddef>
 #include <memory>
 #include <string_view>
@@ -38,6 +39,8 @@ public:
     edge(char l, std::unique_ptr<gen_node> n);
 
     operator char() const;  // NOLINT(google-explicit-constructor,hicpp-explicit-conversions)
+
+    [[nodiscard]] auto operator<=>(edge const&) const = default;  // NOLINT(hicpp-use-nullptr,modernize-use-nullptr)
 
     [[nodiscard]] auto ptr() const -> std::shared_ptr<gen_node> const&;
 
@@ -68,12 +71,6 @@ public:
 private:
     gen_node _root;
 };
-
-inline auto operator<(edge const& lhs, edge const& rhs) -> bool
-{
-    return std::tie(static_cast<char const&>(lhs), lhs.ptr())
-         < std::tie(static_cast<char const&>(rhs), rhs.ptr());
-}
 
 inline auto operator<(gen_node const& lhs, gen_node const& rhs) -> bool
 {

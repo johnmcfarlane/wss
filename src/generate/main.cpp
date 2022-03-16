@@ -22,7 +22,6 @@
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
 
-#include <algorithm>
 #include <cstdio>
 #include <cstdlib>
 #include <fstream>
