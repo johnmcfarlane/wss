@@ -23,7 +23,6 @@
 #include <letter_set.h>
 #include <letter_values.h>
 #include <node.h>
-#include <ssize.h>
 #include <tile.h>
 #include <wss_assert.h>
 
@@ -31,6 +30,7 @@
 #include <array>
 #include <cctype>
 #include <iterator>
+#include <limits>
 #include <optional>
 #include <string_view>
 #include <utility>
@@ -51,7 +51,7 @@ namespace {
 
     auto make_qualifying_cells(board<char> const& board_tiles) -> board<bool>
     {
-        auto const edge{ssize(board_tiles)};
+        auto const edge{static_cast<int>(std::ssize(board_tiles))};
         board<bool> qualifying_cells(edge);
 
         if (edge > 0) {  // LCOV_EXCL_LINE - TODO: unit tests or fix GSL
@@ -95,7 +95,7 @@ namespace {
         }
 
         auto const cell_premium_index = static_cast<int>(premiums.cell(pos));
-        WSS_ASSERT(cell_premium_index >= 0 && cell_premium_index < ssize(word_multipliers));
+        WSS_ASSERT(cell_premium_index >= 0 && cell_premium_index < std::ssize(word_multipliers));
 
         auto const word_multiplier = word_multipliers[cell_premium_index];  // NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
         auto const letter_multiplier = letter_multipliers[cell_premium_index];  // NOLINT(cppcoreguidelines-pro-bounds-constant-array-index)
@@ -221,7 +221,10 @@ namespace {
 auto solve(node const& lexicon, letter_values const& letter_scores, std::string_view letters, board<char> tiles, board<premium> premiums)
         -> std::tuple<std::vector<result>, std::vector<std::string>>
 {
-    auto const edge{ssize(tiles)};
+    WSS_ASSERT(std::ssize(letters) < std::numeric_limits<int>::max());
+    WSS_ASSERT(std::ssize(tiles) < std::numeric_limits<int>::max());
+
+    auto const edge{static_cast<int>(std::ssize(tiles))};
     std::vector<char> word(edge + 1);
     std::vector<result> finds;
     letter_values rack{};
@@ -235,7 +238,7 @@ auto solve(node const& lexicon, letter_values const& letter_scores, std::string_
             std::move(qualifying_cells),
             std::begin(word),
             lexicon,
-            ssize(letters),
+            static_cast<int>(std::ssize(letters)),
             board<crosswords>{edge}};
     step_state step{
             std::begin(word),

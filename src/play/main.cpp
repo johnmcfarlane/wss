@@ -26,7 +26,6 @@
 #include <node.h>
 #include <scores.h>
 #include <scrabble_lexicon.h>
-#include <ssize.h>
 #include <wwf_lexicon.h>
 
 #include <fmt/format.h>
@@ -149,8 +148,8 @@ auto main(int argc, char const* const* argv) -> int
         }
     }
 
-    if (ssize(*board_premiums) != ssize(*board_tiles)) {
-        fmt::print(stderr, "error: premium and tile boards are different sizes ({} and {})\n", ssize(*board_premiums), ssize(*board_tiles));
+    if (std::ssize(*board_premiums) != std::ssize(*board_tiles)) {
+        fmt::print(stderr, "error: premium and tile boards are different sizes ({} and {})\n", std::ssize(*board_premiums), std::ssize(*board_tiles));
         return EXIT_FAILURE;
     }
 

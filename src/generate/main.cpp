@@ -16,7 +16,6 @@
 #include "trie.h"
 
 #include <letter_set.h>
-#include <ssize.h>
 
 #include <fmt/format.h>
 #include <fmt/printf.h>
@@ -32,6 +31,7 @@
 #include <string>
 #include <string_view>
 #include <tuple>
+#include <type_traits>
 #include <unordered_map>
 #include <utility>
 #include <vector>

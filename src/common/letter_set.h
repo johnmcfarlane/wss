@@ -17,6 +17,7 @@
 
 #include "wss_assert.h"
 
+#include <bit>
 #include <cctype>
 #include <cstdint>
 #include <initializer_list>
@@ -158,7 +159,7 @@ public:
     friend auto operator++(const_iterator& rhs) -> auto&
     {
         WSS_ASSERT(rhs._bits > 1);
-        auto const inc{__builtin_ctz(rhs._bits & ~letter_set::rep{1})};
+        auto const inc{std::countr_zero(rhs._bits & ~letter_set::rep{1})};
         rhs._letter += inc;
         rhs._bits = rhs._bits >> inc;
         return rhs;
@@ -168,8 +169,8 @@ public:
             const_iterator const& lhs, const_iterator const& rhs)
     {
         WSS_ASSERT((lhs._bits & 1) == (rhs._bits & 1));
-        auto const lhs_num_bits{__builtin_popcount(lhs._bits)};
-        auto const rhs_num_bits{__builtin_popcount(rhs._bits)};
+        auto const lhs_num_bits{std::popcount(lhs._bits)};
+        auto const rhs_num_bits{std::popcount(rhs._bits)};
         return rhs_num_bits - lhs_num_bits;
     }
 

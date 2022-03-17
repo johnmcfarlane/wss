@@ -19,7 +19,6 @@
 #include "grid.h"
 #include "load_buffer.h"
 
-#include <ssize.h>
 #include <wss_assert.h>
 
 #include <fmt/printf.h>
@@ -73,7 +72,17 @@ auto make_board(
         std::vector<std::vector<char>> const& lines,
         TextToCell const& mapping) -> std::optional<board<CellType>>
 {
-    auto edge{::ssize(lines)};
+    auto const num_lines{ssize(lines)};
+    constexpr auto max_num_lines{std::numeric_limits<int>::max()};
+
+    // LCOV_EXCL_START - input would bloat repo
+    if (num_lines > max_num_lines) {
+        fmt::print(stderr, "error: board is too big; lines={}; maximum={}\n", num_lines, max_num_lines);
+        return std::nullopt;
+    }
+    // LCOV_EXCL_STOP
+
+    auto edge{static_cast<int>(num_lines)};
     board<CellType> result{edge};
 
     for (auto row_index{0}; row_index != edge; ++row_index) {
@@ -121,7 +130,7 @@ auto load_board(
 template<typename T>
 void transpose(board<T>& b)
 {
-    auto const edge = ssize(b);
+    auto const edge = std::ssize(b);
     for (auto row = 0; row != edge; ++row) {
         for (auto column = 0; column != row; ++column) {
             std::swap(b.cell(coord{column, row}), b.cell(coord{row, column}));

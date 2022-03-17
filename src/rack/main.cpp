@@ -16,7 +16,6 @@
 #include <letter_values.h>
 #include <node.h>
 #include <scores.h>
-#include <ssize.h>
 #include <tile.h>
 #include <wwf_lexicon.h>
 
