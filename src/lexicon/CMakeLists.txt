@@ -19,12 +19,11 @@ function(make_lexicon_library library_name wordlist)
     OUTPUT ${CMAKE_BINARY_DIR}/src/lexicon/${library_name}.cpp
            ${CMAKE_BINARY_DIR}/src/lexicon/${library_name}.h
     DEPENDS ${PROJECT_SOURCE_DIR}/src/lexicon/node.h ${wordlist}
-            ${CMAKE_BINARY_DIR}/src/generate/generate
+            $<TARGET_FILE:generate>
     WORKING_DIRECTORY ${CMAKE_BINARY_DIR}/src
-    COMMAND
-      mkdir -p lexicon && cd lexicon &&
-      ${CMAKE_BINARY_DIR}/src/generate/generate ${wordlist} ${library_name}
-      ${library_name}
+    COMMAND ${CMAKE_COMMAND} -E make_directory lexicon
+    COMMAND ${CMAKE_COMMAND} -E chdir lexicon $<TARGET_FILE:generate>
+            ${wordlist} ${library_name} ${library_name}
     COMMENT "Building ${library_name}")
 endfunction(make_lexicon_library)
 
