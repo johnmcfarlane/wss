@@ -34,9 +34,9 @@ public:
     static const letter_set all;
     static const letter_set none;
 
-    explicit constexpr letter_set() noexcept = default;
+    constexpr letter_set() noexcept = default;
 
-    letter_set(std::initializer_list<char> const& letters) noexcept
+    constexpr letter_set(std::initializer_list<char> const& letters) noexcept
         : _bits{std::accumulate(
                 std::begin(letters), std::end(letters),
                 rep{0},
@@ -46,32 +46,32 @@ public:
     {
     }
 
-    void reset(char letter)
+    constexpr void reset(char letter)
     {
         _bits &= ~bit(letter);
     }
 
-    auto set(char letter)
+    constexpr auto set(char letter)
     {
         _bits |= bit(letter);
     }
 
-    auto set(char letter, bool value)
+    constexpr auto set(char letter, bool value)
     {
         return value ? set(letter) : reset(letter);
     }
 
-    [[nodiscard]] auto operator[](char letter) const
+    [[nodiscard]] constexpr auto operator[](char letter) const
     {
         return (_bits & bit(letter)) != 0;
     }
 
-    auto operator==(letter_set const& that) const
+    constexpr auto operator==(letter_set const& that) const
     {
         return _bits == that._bits;
     }
 
-    auto operator!=(letter_set const& that) const
+    constexpr auto operator!=(letter_set const& that) const
     {
         return _bits != that._bits;
     }
@@ -93,15 +93,20 @@ public:
     [[nodiscard]] auto find(char l) const -> const_iterator;
 
 private:
-    [[nodiscard]] static auto bit(char letter) -> int
+    static constexpr auto isalpha(char letter)
+    {
+        return (letter >= 'A' && letter <= 'Z') || (letter >= 'a' && letter <= 'z');
+    }
+
+    [[nodiscard]] static constexpr auto bit(char letter) -> int
     {
         return rep{1} << index(letter);
     }
 
-    [[nodiscard]] static auto index(char letter) -> int
+    [[nodiscard]] static constexpr auto index(char letter) -> int
     {
         constexpr auto letter_mask{0x1f};
-        WSS_ASSERT(letter == '\0' || std::isalpha(letter) || std::isalpha(letter - 1));
+        WSS_ASSERT(letter == '\0' || isalpha(letter) || isalpha(letter - 1));
         return letter & letter_mask;
     }
 
