@@ -20,4 +20,3 @@ target_link_libraries(
           Microsoft.GSL::GSL
           scrabble_lexicon
           wwf_lexicon)
-set_target_properties(play PROPERTIES CXX_STANDARD 20)

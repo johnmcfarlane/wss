@@ -3,7 +3,6 @@ find_package(lyra REQUIRED)
 find_package(Microsoft.GSL REQUIRED)
 
 add_executable(wordle input.cpp main.cpp run.cpp)
-set_target_properties(wordle PROPERTIES CXX_STANDARD 20)
 target_link_libraries(wordle common fmt::fmt Microsoft.GSL::GSL bfg::lyra
                       wordle_lexicon)
 
