@@ -15,6 +15,5 @@
 #include <command_line.h>
 
 namespace wordle {
-    // auto solve(problem p) -> solution;
     auto run(command_line args) -> int;
 }  // namespace wordle
