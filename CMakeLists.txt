@@ -4,9 +4,6 @@ project(wss)
 include(CTest)
 
 add_subdirectory(src)
-
-if(NOT ${CMAKE_HOST_SYSTEM_NAME} STREQUAL Windows)
-  add_subdirectory(test/approval)
-endif()
+add_subdirectory(test/approval)
 
 install(TARGETS play rack wordle EXPORT WssTargets)

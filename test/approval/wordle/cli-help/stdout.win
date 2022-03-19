@@ -1,0 +1,12 @@
+Wordle cheater
+(C)2022 John McFarlane
+
+USAGE:
+  wordle.exe [-?|-h|--help] [-d|--debug] [<history>]
+
+Display usage information.
+
+OPTIONS, ARGUMENTS:
+  -?, -h, --help          
+  -d, --debug             display internal search data for command
+  <history>               comma-separated list of 10-character moves, e.g. answer is OTHER, you guess TALES then COMET: "tales10020,comet01021"
