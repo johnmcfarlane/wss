@@ -20,20 +20,19 @@ $<TARGET_FILE_DIR:wordle>"
       ${will_fail})
 endfunction()
 
+# Create a test which executes the test-failure or test-success command
+function(generate_approval_tests globbing_expression will_fail)
+  file(
+    GLOB_RECURSE approval_test_commands
+    LIST_DIRECTORIES false
+    ${globbing_expression})
+  foreach(approval_test_command ${approval_test_commands})
+    generate_approval_test(${approval_test_command} ${will_fail})
+  endforeach()
+endfunction()
+
 # Turn all commands called "test-success" into passing tests.
-file(
-  GLOB_RECURSE approval_test_success_commands
-  LIST_DIRECTORIES false
-  "test-success")
-foreach(approval_test_command ${approval_test_success_commands})
-  generate_approval_test(${approval_test_command} OFF)
-endforeach()
+generate_approval_tests("test-success" OFF)
 
 # Turn all commands called "test-failure" into failing tests.
-file(
-  GLOB_RECURSE approval_test_fail_commands
-  LIST_DIRECTORIES false
-  "test-failure")
-foreach(approval_test_command ${approval_test_fail_commands})
-  generate_approval_test(${approval_test_command} ON)
-endforeach()
+generate_approval_tests("test-failure" ON)
