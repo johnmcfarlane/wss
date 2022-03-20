@@ -14,6 +14,8 @@
 
 #include "load_buffer.h"
 
+#include <open_file.h>
+
 #include <fmt/printf.h>
 #include <gsl/string_span>
 
@@ -25,8 +27,7 @@
 auto load_buffer(gsl::cstring_span<> filename)
         -> std::optional<std::vector<char>>
 {
-    auto f{std::unique_ptr<std::FILE, decltype(&fclose)>{
-            std::fopen(filename.data(), "r"), &fclose}};
+    auto f{wss::open_file(filename.data())};
 
     if (!f) {
         fmt::print(stderr, "error: Could not open '{}'.\n", gsl::to_string(filename));
