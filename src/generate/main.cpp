@@ -19,6 +19,7 @@
 
 #include <fmt/format.h>
 #include <fmt/printf.h>
+#include <gsl/gsl_util>
 #include <lyra/lyra.hpp>
 
 #include <cstdio>
@@ -98,7 +99,7 @@ void write_nodes(
         } else {
             auto sub_array{std::string{}};
             auto const edges_id = id + 'e';
-            for (auto i{ssize(word_parts) - 1}; i >= 0; --i) {
+            for (auto i{gsl::narrow_cast<int>(ssize(word_parts)) - 1}; i >= 0; --i) {
                 sub_array = fmt::format("n{}{}", word_parts[i], sub_array);
                 edges[sub_array] = make_tuple(edges_id, i);
                 if (i != 0) {

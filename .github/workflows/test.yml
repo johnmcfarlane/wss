@@ -161,25 +161,12 @@ jobs:
             ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
             ${{ env.CACHE_SLUG }}-
 
-      - name: Install Conan
-        run: pip.exe install conan;
-
-      - name: LOOOOK
-        run: dir D:/a/wss/wss/test/approval/generate/duplicate/test-success
-
-      - name: LOOOooooOK
-        run: dir test/approval/generate/duplicate/test-success
-
-      - name: Install dependencies
-        run: |
-          conan install `
-            --build=missing `
-            --settings `
-            compiler.cppstd=20 `
-            $env:GITHUB_WORKSPACE
+      - name: Initialise System
+        run: .github\\workflows\\conan\\init.ps1
 
       - name: Perform Test
-        run: conan build $env:GITHUB_WORKSPACE
+        run: .github\\workflows\\conan\\test-msvc.ps1
 
-      - name: Report Caches
-        run: conan search
+      - name: Check Working Directory Preservation
+        run: |
+          git diff --exit-code .
