@@ -163,15 +163,19 @@ auto main(int argc, char const* const* argv) -> int
             solve(lexicon, scores, letters, std::move(*board_tiles),
                   std::move(*board_premiums))};
 
+    for (auto const& find : finds) {
+        fmt::print("{1:3} {2:5} {3} {0}\n", find.word.c_str(), find.score, fmt::format("{:2},{:1}", find.pos.start[0] + 1, find.pos.start[1] + 1), (find.pos.direction[0] != 0) ? '-' : '|');
+    };
+
     if (!invalid_words.empty()) {
         fmt::print(stderr, "invalid words:");
         for (auto const& invalid_word : invalid_words) {
             fmt::print(stderr, " {}", invalid_word);
         }
         fmt::print(stderr, "\n");
+
+        return EXIT_FAILURE;
     }
 
-    for (auto const& find : finds) {
-        fmt::print("{1:3} {2:5} {3} {0}\n", find.word.c_str(), find.score, fmt::format("{:2},{:1}", find.pos.start[0] + 1, find.pos.start[1] + 1), (find.pos.direction[0] != 0) ? '-' : '|');
-    };
+    return EXIT_SUCCESS;
 }
