@@ -16,6 +16,7 @@
 #include "trie.h"
 
 #include <letter_set.h>
+#include <open_file.h>
 
 #include <fmt/format.h>
 #include <fmt/printf.h>
@@ -24,10 +25,10 @@
 
 #include <cstdio>
 #include <cstdlib>
-#include <fstream>
 #include <iostream>
 #include <iterator>
 #include <map>
+#include <memory>
 #include <optional>
 #include <string>
 #include <string_view>
@@ -49,7 +50,7 @@ void write_nodes(
         std::string& word,
         node_map& nodes,
         edge_map& edges,
-        std::ofstream& source_cpp)
+        FILE* source_cpp)
 {
     letter_set letters;
     if (n.is_terminator) {
@@ -106,9 +107,8 @@ void write_nodes(
                     sub_array = ","s.append(sub_array);
                 }
             }
-            source_cpp << "node const " << edges_id << "[] {";
-            source_cpp << sub_array
-                       << "};\n";
+            fmt::print(source_cpp, "node const {}[] {{", edges_id);
+            fmt::print(source_cpp, "{}}};\n", sub_array);
             edges_line = edges_id;
         }
     } else {
@@ -116,27 +116,27 @@ void write_nodes(
     }
 
     // node
-    source_cpp << "node const " << id << " = {\n";
+    fmt::print(source_cpp, "node const {} = {{\n", id);
 
     // node::letters
 #if defined(WSS_SHOW_LETTERS)
-    source_cpp << "  letter_set{";
+    fmt::print(source_cpp, "  letter_set{{";
     auto first_letter{true};
     for (auto letter : n) {
         if (!first_letter) {
-            source_cpp << ", ";
+            fmt::print(source_cpp, ", ");
         } else {
             first_letter = false;
         }
-        source_cpp << '\'' << letter << '\'';
+        fmt::print(source_cpp, "\'{}\'", letter);
     }
-    source_cpp << "},\n";
+    fmt::print(source_cpp, "},\n");
 #else
-    source_cpp << "  from_bits(0x" << std::hex << letters.bits() << "U),\n";
+    fmt::print(source_cpp, "  from_bits(0x{:x}U),\n", letters.bits());
 #endif
 
     // node::edges
-    source_cpp << "  " << edges_line << "\n};\n";
+    fmt::print(source_cpp, "  {}\n}};\n", edges_line);
 }
 
 void write_lexicon(
@@ -149,27 +149,24 @@ void write_lexicon(
     auto const source_cpp_filename{fmt::format("{}.cpp", source_filename)};
     auto const source_h_filename{fmt::format("{}.h", source_filename)};
 
-    std::ofstream source_cpp(source_cpp_filename);
+    auto const source_cpp{wss::open_file(source_cpp_filename.c_str(), "wb")};
 
-    source_cpp << "#include \"" << source_h_filename << "\"\n";
-    source_cpp << "namespace {\n";
+    fmt::print(source_cpp.get(), "#include \"{}\"\n", source_h_filename);
+    fmt::print(source_cpp.get(), "namespace {{\n");
 
     std::string word;
     node_map nodes;
     edge_map edges;
     auto const& root_node = lexicon.root_node();
-    write_nodes(root_node, word, nodes, edges, source_cpp);
+    write_nodes(root_node, word, nodes, edges, source_cpp.get());
 
-    source_cpp << "} //namespace\n";
+    fmt::print(source_cpp.get(), "}} //namespace\n");
 
-    std::ofstream source_h(source_h_filename);
-    source_h << "#include <node.h>\n";
-    source_cpp
-            << fmt::format(
-                       "node const& {}{{root_node}};\n",
-                       name);
+    auto const source_h{wss::open_file(source_h_filename.c_str(), "wb")};
+    fmt::print(source_h.get(), "#include <node.h>\n");
+    fmt::print(source_cpp.get(), "node const& {}{{root_node}};\n", name);
 
-    source_h << "extern node const& " << name << ";\n";
+    fmt::print(source_h.get(), "extern node const& {};\n", name);
 }
 
 auto main(int argc, char const* const* argv) -> int
