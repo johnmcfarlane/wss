@@ -22,14 +22,13 @@
 #include <stdio.h>
 #endif
 
-auto wss::open_file(char const* filename)
-        -> std::unique_ptr<std::FILE, decltype(&std::fclose)>
+auto wss::open_file(char const* filename, char const* mode) -> file_handle
 {
 #if defined(_MSC_VER)
     FILE* f{};
-    fopen_s(&f, filename, "r");
+    fopen_s(&f, filename, mode);
 #else
-    auto* const f{gsl::owner<FILE*>{std::fopen(filename, "r")}};
+    auto* const f{gsl::owner<FILE*>{std::fopen(filename, mode)}};
 #endif
     return {f, &fclose};
 }

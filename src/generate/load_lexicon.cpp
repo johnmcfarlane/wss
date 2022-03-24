@@ -16,6 +16,8 @@
 
 #include "trie.h"
 
+#include "open_file.h"
+
 #include <fmt/printf.h>
 
 #include <algorithm>
@@ -34,8 +36,7 @@ auto load_lexicon(std::string const& filename)
 
     fmt::print("loading...\n");
 
-    auto f{std::unique_ptr<std::FILE, decltype(&fclose)>{
-            std::fopen(filename.data(), "r"), &fclose}};
+    auto const f{wss::open_file(filename.data(), "r")};
 
     if (!f) {
         fmt::print(stderr, "error: Could not open '{}'.\n", filename);

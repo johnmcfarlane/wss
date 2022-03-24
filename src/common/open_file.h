@@ -19,8 +19,9 @@
 #include <memory>
 
 namespace wss {
-    auto open_file(char const* filename)
-            -> std::unique_ptr<std::FILE, decltype(&std::fclose)>;
+    using file_handle = std::unique_ptr<std::FILE, decltype(&std::fclose)>;
+
+    auto open_file(char const* filename, char const* mode) -> file_handle;
 }  // namespace wss
 
 #endif  // WSS_COMMON_OPEN_FILE_H

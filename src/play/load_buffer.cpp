@@ -27,7 +27,7 @@
 auto load_buffer(gsl::cstring_span<> filename)
         -> std::optional<std::vector<char>>
 {
-    auto f{wss::open_file(filename.data())};
+    auto f{wss::open_file(filename.data(), "rb")};
 
     if (!f) {
         fmt::print(stderr, "error: Could not open '{}'.\n", gsl::to_string(filename));
