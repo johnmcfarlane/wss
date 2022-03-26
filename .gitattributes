@@ -1,3 +1,4 @@
-*.txt text eol=cr
-*.ps1 text eol=crlf
-*.png -text
+*          text eol=lf
+*.ps1      text eol=crlf
+stdout.win text eol=crlf
+*.png      binary
