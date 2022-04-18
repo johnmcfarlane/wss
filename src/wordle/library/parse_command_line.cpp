@@ -12,15 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "input.h"
+#include "parse_command_line.h"
 
-#include "command_line.h"
-#include "wss_assert.h"
+#include <wordle/word.h>
+
+#include <command_line.h>
+#include <wss_assert.h>
 
 #include <fmt/printf.h>
 #include <lyra/lyra.hpp>
 
 #include <algorithm>
+#include <array>
 #include <cctype>
 #include <cstdio>
 #include <cstdlib>
@@ -29,9 +32,9 @@
 #include <optional>
 #include <string>
 #include <string_view>
+#include <vector>
 
 namespace {
-
     auto generate_history(std::string const& input) -> std::optional<wordle::attempts>
     {
         auto result{wordle::attempts{}};
@@ -112,7 +115,7 @@ namespace {
     }
 }  // namespace
 
-auto wordle::parse_command_line(command_line args) -> input
+auto wordle::parse_command_line(command_line args) -> wordle::input
 {
     using namespace std::literals::string_literals;
     auto help{false};

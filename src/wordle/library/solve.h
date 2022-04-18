@@ -12,8 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <command_line.h>
+#ifndef WSS_WORDLE_SOLVE_H
+#define WSS_WORDLE_SOLVE_H
+
+#include <wordle/word.h>
 
 namespace wordle {
-    auto run(command_line args) -> int;
+    struct constraints;
+
+    auto solve(constraints c) -> words;
 }  // namespace wordle
+
+#endif  // WSS_WORDLE_SOLVE_H

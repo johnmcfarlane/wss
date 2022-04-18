@@ -15,35 +15,37 @@
 #include <wordle/run.h>
 #include <wordle/word.h>
 
+#include "generate_constraints.h"
+#include "input.h"
+#include "parse_command_line.h"
+#include "solve.h"
+
 #include <command_line.h>
+#include <letter_set.h>
 
 #include <fmt/printf.h>
 
-#include <algorithm>
-#include <iterator>
-#include <variant>
-#include <vector>
+#include <cstdlib>
+#include <optional>
 
-namespace {
-    auto print(wordle::words const& suggestions)
-    {
-        std::for_each(
-                std::cbegin(suggestions), std::cend(suggestions),
-                [](auto const& match) {
-                    fmt::print("{}\n", match);
-                });
-    }
-}  // namespace
-
-auto main(int argc, char const* const* argv) -> int
+auto wordle::run(command_line args) -> std::variant<int, words>
 {
-    auto const cl{command_line{argv, static_cast<unsigned>(argc)}};
-    auto const result{wordle::run(cl)};
+    auto const input{parse_command_line(args)};
 
-    if (auto const* exit_status = std::get_if<int>(&result)) {
+    if (auto const* exit_status = std::get_if<int>(&input)) {
         return *exit_status;
     }
 
-    auto const& suggestions{std::get<wordle::words>(result)};
-    print(suggestions);
+    auto const& query{std::get<wordle::query>(input)};
+    auto const constraints{generate_constraints(query.history)};
+    if (!constraints) {
+        return EXIT_FAILURE;
+    }
+
+    if (query.debug) {
+        fmt::print("{}\n", *constraints);
+        return EXIT_SUCCESS;
+    }
+
+    return solve(*constraints);
 }
