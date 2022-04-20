@@ -15,6 +15,11 @@ It serves two purposes:
 
 1. To provide the template for a modern C++ project.
 
+## Requirements
+
+* C++20 compiler
+* CMake 3.16
+
 ## Word Search
 
 WSS is a collection of command-line tools which produce solutions to problems
@@ -37,25 +42,26 @@ This helps to find solutions in a shorter time.
 
 WSS also aims to demonstrate a simpler way of organising C++ projects.
 
-Many CMake projects employ a 'kitchen sink' approach to scripting,
-braking the rules of good engineering by trying to make a single tool perform
-many tasks. The result is often complex and brittle.
+Many CMake projects couple tools to the build system explicitly.
+This approach is often brittle, inflexible and overly-complex.
+In some cases, the projects' CMake scripts becomes such a maintenance burden
+that they spill out into their own repository or docker container!
 
 WSS makes effective use of CMake by keeping configuration scripts minimal,
 declarative and decoupled. In this way, the code can be configured,
-built and tested against the widest variety of toolchains, package managers,
+built and tested against an unlimited set of toolchains, package managers,
 and other development tools.
 
 The codebase represents multiple CMake targets and thousands of lines of code.
-Yet, the essential build configuration amounts to just 154 lines of CMake, and
-everything is built and tested with just 2 Conan commands or 5 vcpkg commands.
-This is possible because the build system is separate
+Yet, the essential build configuration amounts to just a few hundred lines of
+CMake, and everything can be built and tested with just two Conan commands,
+or five vcpkg commands. This is possible because the build system is separate
 from other aspects of project management, such as toolchain configuration and
 dependency management. It does one thing well: describing binaries.
 
 ## Continuous Integration
 
-The project's CI pipeline demonstrates how to maintain high-quality C++ by
+The project's CI pipeline demonstrates how to develop maintainable C++ by
 running automated tests against tools such as:
 
 * [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html),
