@@ -1,4 +1,4 @@
-add_subdirectory(unit-test)
+add_subdirectory(test)
 add_subdirectory(common)
 add_subdirectory(generate)
 add_subdirectory(lexicon)
