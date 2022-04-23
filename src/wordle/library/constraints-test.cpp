@@ -16,13 +16,10 @@
 
 #include "letter_set.h"
 #include "letter_values.h"
-#include <wordle/word.h>
 
 #include <catch2/catch.hpp>
 #include <fmt/format.h>
 
-#include <algorithm>
-#include <iterator>
 #include <string>
 
 SCENARIO("Wordle compare constraints")
@@ -105,9 +102,7 @@ SCENARIO("Wordle format constraints")
 
     GIVEN("an open constraints object")
     {
-        auto c{wordle::constraints{}};
-        std::fill(std::begin(c.maximum), std::end(c.maximum), wordle::word_size);
-        std::fill(std::begin(c.allowed), std::end(c.allowed), letter_set::all);
+        auto c{wordle::open_constraints()};
 
         WHEN("formatted with {fmt}")
         {

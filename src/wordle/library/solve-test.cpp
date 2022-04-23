@@ -15,7 +15,6 @@
 #include "solve.h"
 
 #include "constraints.h"
-#include "letter_set.h"
 #include "letter_values.h"
 #include <wordle/word.h>
 
@@ -28,27 +27,9 @@
 
 SCENARIO("Wordle", "solver")
 {
-    GIVEN("default-initialised constraints")
-    {
-        auto const p{wordle::constraints{}};
-
-        WHEN("asked to solve")
-        {
-            auto const actual{wordle::solve(p)};
-
-            THEN("result is an empty list of words")
-            {
-                auto const expected{wordle::words{}};
-                REQUIRE(expected == actual);
-            }
-        }
-    }
-
     GIVEN("open constraints")
     {
-        auto p{wordle::constraints{}};
-        std::fill(std::begin(p.maximum), std::end(p.maximum), wordle::word_size);
-        std::fill(std::begin(p.allowed), std::end(p.allowed), letter_set::all);
+        auto p{wordle::open_constraints()};
 
         WHEN("asked to solve")
         {
@@ -71,13 +52,16 @@ SCENARIO("Wordle", "solver")
 
     GIVEN("constraints that each of 'Z', 'Y', 'M', 'E' and 'S' occurs at most once")
     {
-        auto p{wordle::constraints{}};
+        auto p{wordle::open_constraints()};
+        auto const first{std::begin(p.maximum)};
+        auto const last{std::end(p.maximum)};
+        std::fill(first, last, 0);
+
         p.maximum['Z'] = 1;
         p.maximum['Y'] = 1;
         p.maximum['M'] = 1;
         p.maximum['E'] = 1;
         p.maximum['S'] = 1;
-        std::fill(std::begin(p.allowed), std::end(p.allowed), letter_set::all);
 
         WHEN("asked to solve")
         {
@@ -94,13 +78,11 @@ SCENARIO("Wordle", "solver")
 
     GIVEN("constraints that each of 'Y', 'M', 'E' and 'S' occurs at least once")
     {
-        auto p{wordle::constraints{}};
+        auto p{wordle::open_constraints()};
         p.minimum['Z'] = 1;
         p.minimum['Y'] = 1;
         p.minimum['M'] = 1;
         p.minimum['E'] = 1;
-        std::fill(std::begin(p.maximum), std::end(p.maximum), wordle::word_size);
-        std::fill(std::begin(p.allowed), std::end(p.allowed), letter_set::all);
 
         WHEN("asked to solve")
         {

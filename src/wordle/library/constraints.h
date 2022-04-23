@@ -20,6 +20,7 @@
 #include <command_line.h>
 #include <letter_set.h>
 #include <letter_values.h>
+#include <wss_assert.h>
 
 #include <fmt/format.h>
 
@@ -41,6 +42,45 @@ namespace wordle {
 
         friend auto operator==(constraints const& l, constraints const& r) noexcept -> bool = default;
     };
+
+    [[nodiscard]] constexpr auto open_constraints()
+    {
+        constraints c;
+
+        std::fill(begin(c.minimum), end(c.minimum), 0);
+
+        auto const first{std::begin(c.maximum)};
+        auto const alpha_first{std::next(first, 'A')};
+        auto const alpha_last{std::next(first, 'Z' + 1)};
+        auto const last{std::end(c.maximum)};
+        std::fill(first, alpha_first, 0);
+        std::fill(alpha_first, alpha_last, wordle::word_size);
+        std::fill(alpha_last, last, 0);
+        std::fill(begin(c.allowed), end(c.allowed), letter_set::all);
+
+        return c;
+    }
+
+    [[nodiscard]] constexpr auto validate(constraints const& c)
+    {
+        for (auto i{0}; i != static_cast<int>(letter_values{}.size()); ++i) {
+            auto const minimum{c.minimum[i]};
+            auto const maximum{c.maximum[i]};
+            (void)minimum;
+            (void)maximum;
+            if (i >= 'A' && i <= 'Z') {
+                WSS_ASSERT(minimum >= 0 && minimum <= word_size);
+                WSS_ASSERT(maximum >= 0 && maximum <= word_size);
+                WSS_ASSERT(minimum <= maximum);
+            } else {
+                WSS_ASSERT(minimum == 0);
+                WSS_ASSERT(maximum == 0);
+            }
+        }
+        for (auto i{0}; i != word_size; ++i) {
+            WSS_ASSERT((c.allowed[i] & letter_set::all) == c.allowed[i]);
+        }
+    }
 }  // namespace wordle
 
 template<>

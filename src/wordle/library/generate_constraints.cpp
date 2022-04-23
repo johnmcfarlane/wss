@@ -27,7 +27,6 @@
 #include <array>
 #include <cctype>
 #include <cstdint>
-#include <iterator>
 #include <optional>
 #include <vector>
 
@@ -40,11 +39,7 @@ namespace {
 
 auto wordle::generate_constraints(wordle::attempts const& history) -> std::optional<constraints>
 {
-    constraints result;
-
-    std::fill(begin(result.minimum), end(result.minimum), 0);
-    std::fill(begin(result.maximum), end(result.maximum), wordle::word_size);
-    std::fill(begin(result.allowed), end(result.allowed), letter_set::all);
+    auto result{open_constraints()};
 
     for (auto const play : history) {
         std::array<letter_values, static_cast<int>(wordle::letter_score_bound)> present{};
@@ -126,5 +121,7 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
             }
         }
     }
+
+    validate(result);
     return result;
 }

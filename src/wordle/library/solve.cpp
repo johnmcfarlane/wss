@@ -61,6 +61,8 @@ namespace {
 
 auto wordle::solve(constraints c) -> wordle::words
 {
+    validate(c);
+
     wordle::words suggestions;
     wordle::word suggestion;
     ::solve(wordle_lexicon, c, suggestion, 0, suggestions);

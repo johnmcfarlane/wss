@@ -16,7 +16,6 @@
 
 #include "constraints.h"
 #include "input.h"
-#include <wordle/word.h>
 
 #include "letter_set.h"
 #include "letter_values.h"
@@ -24,9 +23,7 @@
 #include <catch2/catch.hpp>
 #include <fmt/format.h>
 
-#include <algorithm>
 #include <array>
-#include <iterator>
 #include <optional>
 #include <string>
 #include <vector>
@@ -53,9 +50,7 @@ SCENARIO("Generate Wordle constraints from well-formed attempts")
 
             THEN("function returns open constraints")
             {
-                auto expected{wordle::constraints{}};
-                std::fill(std::begin(expected.maximum), std::end(expected.maximum), wordle::word_size);
-                std::fill(std::begin(expected.allowed), std::end(expected.allowed), letter_set::all);
+                auto expected{wordle::open_constraints()};
 
                 REQUIRE(expected == actual);
             }
@@ -79,16 +74,14 @@ SCENARIO("Generate Wordle constraints from well-formed attempts")
 
             THEN("returned constraints force T for first letter and exclude the other four from the attempted positions")
             {
-                auto expected{wordle::constraints{}};
+                auto expected{wordle::open_constraints()};
 
-                std::fill(std::begin(expected.maximum), std::end(expected.maximum), wordle::word_size);
                 expected.minimum['T'] = 1;
                 expected.maximum['A'] = 0;
                 expected.maximum['L'] = 0;
                 expected.maximum['E'] = 0;
                 expected.maximum['S'] = 0;
 
-                std::fill(std::begin(expected.allowed), std::end(expected.allowed), letter_set::all);
                 expected.allowed[0] = letter_set({'T'});
                 expected.allowed[1].reset('A');
                 expected.allowed[2].reset('L');
@@ -122,13 +115,11 @@ SCENARIO("Generate Wordle constraints from well-formed attempts")
 
             THEN("function succeeds")
             {
-                auto expected{wordle::constraints{}};
+                auto expected{wordle::open_constraints()};
 
-                std::fill(std::begin(expected.maximum), std::end(expected.maximum), wordle::word_size);
                 expected.maximum['A'] = 1;
                 expected.minimum['B'] = 1;
 
-                std::fill(std::begin(expected.allowed), std::end(expected.allowed), letter_set::all);
                 expected.allowed[0] = letter_set({'A'});
                 expected.allowed[1].reset('B');
                 expected.allowed[2].reset('A');
@@ -162,13 +153,11 @@ SCENARIO("Generate Wordle constraints from well-formed attempts")
 
             THEN("function succeeds")
             {
-                auto expected{wordle::constraints{}};
+                auto expected{wordle::open_constraints()};
 
-                std::fill(std::begin(expected.maximum), std::end(expected.maximum), wordle::word_size);
                 expected.maximum['A'] = 0;
                 expected.minimum['B'] = 2;
 
-                std::fill(std::begin(expected.allowed), std::end(expected.allowed), letter_set::all);
                 expected.allowed[0] = letter_set({'A'});
                 expected.allowed[1].reset('B');
                 expected.allowed[2].reset('A');
@@ -202,14 +191,12 @@ SCENARIO("Generate Wordle constraints from well-formed attempts")
 
             THEN("function succeeds")
             {
-                auto expected{wordle::constraints{}};
+                auto expected{wordle::open_constraints()};
 
-                std::fill(std::begin(expected.maximum), std::end(expected.maximum), wordle::word_size);
                 expected.maximum['A'] = 0;
                 expected.minimum['B'] = 1;
                 expected.maximum['B'] = 1;
 
-                std::fill(std::begin(expected.allowed), std::end(expected.allowed), letter_set::all);
                 expected.allowed[0] = letter_set({'A'});
                 expected.allowed[1].reset('B');
                 expected.allowed[2].reset('A');
