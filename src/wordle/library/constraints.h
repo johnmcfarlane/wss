@@ -92,7 +92,7 @@ struct fmt::formatter<wordle::constraints> {
     }
 
     template<typename FormatContext>
-    auto format(wordle::constraints const c, FormatContext& ctx)
+    auto format(wordle::constraints const& c, FormatContext& ctx)
     {
         format_to(ctx.out(), "{{.limits={{");
 
