@@ -23,7 +23,6 @@
 
 #include <fmt/printf.h>
 
-#include <algorithm>
 #include <array>
 #include <cctype>
 #include <cstdint>
@@ -114,10 +113,27 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
             auto const nears{present[static_cast<int>(wordle::letter_score::near)][letter]};
             auto const hits{present[static_cast<int>(wordle::letter_score::hit)][letter]};
 
+            auto& minimum{result.minimum[letter]};
+            auto& maximum{result.maximum[letter]};
+
             if (misses != 0) {
-                result.maximum[letter] = std::min(result.maximum[letter], nears + hits);
+                auto const new_maximum{nears + hits};
+                if (new_maximum < maximum) {
+                    if (new_maximum < minimum) {
+                        fmt::print("guess, \"{}\", implies there are no more than {} occurrences of {:c}, but previous guesses imply there are at least {}\n", play.guess, new_maximum, letter, minimum);
+                        return std::nullopt;
+                    }
+                    maximum = new_maximum;
+                }
             } else {
-                result.minimum[letter] = std::max(result.minimum[letter], nears + hits);
+                auto const new_minimum{nears + hits};
+                if (new_minimum > minimum) {
+                    if (new_minimum > maximum) {
+                        fmt::print("guess, \"{}\", implies there are at least {} occurrences of {:c}, but previous guesses imply there are no more than {}\n", play.guess, new_minimum, letter, maximum);
+                        return std::nullopt;
+                    }
+                    minimum = new_minimum;
+                }
             }
         }
     }

@@ -352,4 +352,62 @@ SCENARIO("Fail to generate Wordle constraints from ill-formed attempts")
             }
         }
     }
+
+    GIVEN("duplicate attempt with letter x5, but one letter is scored miss, then near")
+    {
+        auto const history{wordle::attempts{
+                {{'A', 'A', 'A', 'A', 'A'},
+                 {wordle::letter_score::miss,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit}},
+                {{'A', 'A', 'A', 'A', 'A'},
+                 {wordle::letter_score::near,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit}}}};
+
+        WHEN("wordle::generate_constraints is called")
+        {
+            auto const actual{wordle::generate_constraints(history)};
+
+            THEN("function returns failure")
+            {
+                auto expected{std::nullopt};
+
+                REQUIRE(expected == actual);
+            }
+        }
+    }
+
+    GIVEN("duplicate attempt with letter x5, but one letter is scored near, then miss")
+    {
+        auto const history{wordle::attempts{
+                {{'A', 'A', 'A', 'A', 'A'},
+                 {wordle::letter_score::near,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit}},
+                {{'A', 'A', 'A', 'A', 'A'},
+                 {wordle::letter_score::miss,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit,
+                  wordle::letter_score::hit}}}};
+
+        WHEN("wordle::generate_constraints is called")
+        {
+            auto const actual{wordle::generate_constraints(history)};
+
+            THEN("function returns failure")
+            {
+                auto expected{std::nullopt};
+
+                REQUIRE(expected == actual);
+            }
+        }
+    }
 }
