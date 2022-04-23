@@ -23,6 +23,7 @@ jobs:
             "conan-valgrind",
             "conan-cppcheck",
             "conan-include-what-you-use",
+            "conan-fuzzer",
             "lint",
           ]
         include:
@@ -66,6 +67,10 @@ jobs:
             container: johnmcfarlane/cnl_ci:clang-11
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/iwyu
+          - name: conan-fuzzer
+            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/libfuzzer
           - name: lint
             container: johnmcfarlane/cnl_ci:clang-head
             init-script: .github/workflows/pre-commit/init

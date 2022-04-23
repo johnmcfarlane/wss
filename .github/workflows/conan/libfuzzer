@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+
+conan install \
+  --build=missing \
+  --env "CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/.github/workflows/toolchains/linux-libfuzzer.cmake" \
+  --settings build_type=Release \
+  "${PROJECT_DIR}" \
+  "$@"
+
+conan build \
+  --configure \
+  "${PROJECT_DIR}"
+
+cmake \
+  --build . \
+  --parallel "$(nproc)" \
+  --target fuzz-tests
+
+ctest \
+  --output-on-failure \
+  -R fuzz

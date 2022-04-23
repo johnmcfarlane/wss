@@ -71,7 +71,10 @@ running automated tests against tools such as:
 * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) C++ linter and static
   analyser,
 * [Conan](https://conan.io/) Python-based C++ package manager,
+* [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)+
+  [lcov](http://ltp.sourceforge.net/coverage/lcov.php) reporting 100% code coverage,
 * [Include what you use](https://include-what-you-use.org/) tool to analyze `#include`s,
+* [libfuzzer](https://www.llvm.org/docs/LibFuzzer.html) coverage-guided fuzz testing,
 * [pre-commit](https://pre-commit.com/) linting framework with
   formatting and correctness checks for:
   * Bash

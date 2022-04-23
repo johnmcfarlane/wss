@@ -358,4 +358,6 @@ CheckOptions:
     value: ''
   - key: readability-identifier-naming.ObjcIvarSuffix
     value: ''
+  - key: readability-identifier-naming.GlobalFunctionIgnoredRegexp
+    value: "LLVMFuzzerTestOneInput"
 ...
