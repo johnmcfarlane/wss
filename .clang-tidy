@@ -13,10 +13,12 @@ Checks: >
   -hicpp-multiway-paths-covered,
   -hicpp-signed-bitwise,
   -llvm-header-guard,
+  -llvm-qualified-auto,
   -llvmlibc-*,
   -misc-no-recursion,
   -readability-function-cognitive-complexity,
   -readability-identifier-length,
+  -readability-qualified-auto,
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*'
 FormatStyle: none

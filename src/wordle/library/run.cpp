@@ -32,7 +32,7 @@ auto wordle::run(command_line args) -> std::variant<int, words>
 {
     auto const input{parse_command_line(args)};
 
-    if (auto const* exit_status = std::get_if<int>(&input)) {
+    if (auto const exit_status{std::get_if<int>(&input)}) {
         return *exit_status;
     }
 

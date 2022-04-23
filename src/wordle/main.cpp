@@ -40,7 +40,7 @@ auto main(int argc, char const* const* argv) -> int
     auto const cl{command_line{argv, static_cast<unsigned>(argc)}};
     auto const result{wordle::run(cl)};
 
-    if (auto const* exit_status = std::get_if<int>(&result)) {
+    if (auto const exit_status{std::get_if<int>(&result)}) {
         return *exit_status;
     }
 
