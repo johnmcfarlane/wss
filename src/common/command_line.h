@@ -12,6 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <gsl/span>
+#include <span>
 
-using command_line = gsl::span<char const* const>;
+using command_line = std::span<char const* const>;
