@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
+
+conan info \
+  --graph packages.dot \
+  "${PROJECT_DIR}"
+
+dot -Tpng -o packages.png packages.dot
+
+conan install \
+  --build=missing \
+  "${PROJECT_DIR}"
+
+conan build \
+  --configure \
+  "${PROJECT_DIR}"
+
+cmake \
+  --graphviz=targets.dot \
+  "${PROJECT_DIR}"
+
+dot -Tpng -o targets.png targets.dot

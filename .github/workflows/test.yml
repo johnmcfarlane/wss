@@ -56,6 +56,7 @@ jobs:
             "conan-valgrind",
             "conan-cppcheck",
             "conan-include-what-you-use",
+            "conan-graphviz",
             "lint",
           ]
         include:
@@ -107,6 +108,10 @@ jobs:
             container: johnmcfarlane/cnl_ci:clang-11
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/iwyu
+          - name: conan-graphviz
+            container: johnmcfarlane/cnl_ci:gcc-12
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/graphviz
           - name: lint
             container: johnmcfarlane/cnl_ci:clang-14
             init-script: .github/workflows/pre-commit/init
@@ -186,6 +191,18 @@ jobs:
         with:
           name: valgrind-logs
           path: ${{github.workspace}}/Testing/Temporary
+          if-no-files-found: error
+
+      - name: Upload graphs
+        uses: actions/upload-artifact@v2
+        if: ${{ matrix.name == 'conan-graphviz' }}
+        with:
+          name: graphs
+          path: |
+            packages.dot
+            packages.png
+            targets.dot
+            targets.png
           if-no-files-found: error
 
       - name: Report Caches
