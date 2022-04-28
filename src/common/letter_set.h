@@ -115,7 +115,7 @@ private:
 
 [[nodiscard]] inline constexpr auto operator~(letter_set const& letters)
 {
-    return from_bits(~letters.bits());
+    return from_bits(~letters.bits() & letter_set::all.bits());
 }
 
 [[nodiscard]] inline constexpr auto operator&(
