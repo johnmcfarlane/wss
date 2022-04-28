@@ -19,7 +19,7 @@ Checks: >
   -readability-function-cognitive-complexity,
   -readability-identifier-length,
   -readability-qualified-auto,
-WarningsAsErrors: ''
+WarningsAsErrors: '*'
 HeaderFilterRegex: '.*'
 FormatStyle: none
 CheckOptions:
