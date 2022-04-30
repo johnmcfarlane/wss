@@ -54,14 +54,14 @@ namespace Catch {
 }  // namespace Catch
 
 namespace wordle {
-    auto operator==(wordle::query const& l, wordle::query const& r) -> bool
-    {
-        return std::tie(l.history, l.debug) == std::tie(r.history, r.debug);
-    }
-
     auto operator==(wordle::attempt const& l, wordle::attempt const& r) -> bool
     {
         return std::tie(l.guess, l.feedback) == std::tie(r.guess, r.feedback);
+    }
+
+    auto operator==(wordle::query const& l, wordle::query const& r) -> bool
+    {
+        return std::tie(l.history, l.debug) == std::tie(r.history, r.debug);
     }
 }  // namespace wordle
 
