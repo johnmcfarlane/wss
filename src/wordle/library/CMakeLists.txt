@@ -12,14 +12,14 @@ target_link_libraries(
 target_include_directories(common PUBLIC include)
 
 # Wordle library unit tests
-add_unit_test(wordle-constraints-unit-test constraints-test.cpp wordle)
-add_unit_test(wordle-generate_constraints-unit-test
-              generate_constraints-test.cpp wordle)
-add_unit_test(wordle-parse_command_line-unit-test parse_command_line-test.cpp
-              wordle)
-add_unit_test(wordle-run-unit-test run-test.cpp wordle)
-add_unit_test(wordle-solve-unit-test solve-test.cpp wordle)
-add_unit_test(wordle-word-unit-test word-test.cpp wordle)
+add_unit_test(wordle-constraints.unit-test constraints.unit-test.cpp wordle)
+add_unit_test(wordle-generate_constraints.unit-test
+              generate_constraints.unit-test.cpp wordle)
+add_unit_test(wordle-parse_command_line.unit-test
+              parse_command_line.unit-test.cpp wordle)
+add_unit_test(wordle-run.unit-test run.unit-test.cpp wordle)
+add_unit_test(wordle-solve.unit-test solve.unit-test.cpp wordle)
+add_unit_test(wordle-word.unit-test word.unit-test.cpp wordle)
 
 # Wordle library fuzz tests
 add_fuzz_test(wordle-generate_constraints-fuzz-test

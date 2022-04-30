@@ -29,7 +29,7 @@ lcov \
   --directory . \
   --exclude "${PROJECT_DIR}/src/test/*" \
   --exclude "*-fuzz.cpp" \
-  --exclude "*-test.cpp" \
+  --exclude "*.unit-test.cpp" \
   --include "${PROJECT_DIR}/*" \
   --rc lcov_branch_coverage=1 \
   --output-file coverage-info
