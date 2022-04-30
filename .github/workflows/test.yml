@@ -7,23 +7,54 @@ on:
       - "**"
 
 jobs:
-  # Build and test many combinations on Linux/OS X using Conan
-  test:
+  # Build and test on Windows
+  windows:
+    runs-on: windows-2022
+    steps:
+      - name: Clone WSS
+        uses: actions/checkout@v2
+
+      - name: Load package caches
+        uses: actions/cache@v2
+        env:
+          CACHE_SLUG: ${{ github.job }}-${{ matrix.name }}
+        with:
+          path: |
+            ~\.conan\data
+            ~\AppData\Local\pip\Cache
+          key: ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
+          restore-keys: |
+            ${{ env.CACHE_SLUG }}-main
+            ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
+            ${{ env.CACHE_SLUG }}-
+
+      - name: Initialise System
+        run: .github\\workflows\\conan\\init.ps1
+
+      - name: Perform Test
+        run: .github\\workflows\\conan\\test-msvc.ps1
+
+      - name: Check Working Directory Preservation
+        run: |
+          git diff --exit-code .
+
+  # Build and test on Linux
+  linux:
     strategy:
       matrix:
         name:
           [
             "vcpkg-gcc-head",
-            "conan-gcc-head",
-            "conan-coverage",
             "conan-clang-tidy",
-            "conan-clang-head-libstdcpp",
+            "conan-fuzzer",
+            "conan-gcc-head",
             "conan-clang-head-libcpp",
+            "conan-clang-head-libstdcpp",
             "conan-clang-static-analyzer",
+            "conan-coverage",
             "conan-valgrind",
             "conan-cppcheck",
             "conan-include-what-you-use",
-            "conan-fuzzer",
             "lint",
           ]
         include:
@@ -31,30 +62,34 @@ jobs:
             container: johnmcfarlane/cnl_ci:gcc-head
             init-script: .github/workflows/vcpkg/init
             test-script: .github/workflows/vcpkg/test-gcc
-          - name: conan-gcc-head
-            container: johnmcfarlane/cnl_ci:gcc-head
-            init-script: .github/workflows/conan/init
-            test-script: .github/workflows/conan/test-gcc
-          - name: conan-coverage
-            container: johnmcfarlane/cnl_ci:gcc-head
-            init-script: .github/workflows/conan/init
-            test-script: .github/workflows/conan/coverage
           - name: conan-clang-tidy
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/clang-tidy
-          - name: conan-clang-head-libstdcpp
-            container: johnmcfarlane/cnl_ci:clang-head-libstdcpp
+          - name: conan-fuzzer
+            container: johnmcfarlane/cnl_ci:clang-head-libcpp
             init-script: .github/workflows/conan/init
-            test-script: .github/workflows/conan/test-clang
+            test-script: .github/workflows/conan/libfuzzer
+          - name: conan-gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-head
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/test-gcc
           - name: conan-clang-head-libcpp
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/test-clang
+          - name: conan-clang-head-libstdcpp
+            container: johnmcfarlane/cnl_ci:clang-head-libstdcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/test-clang
           - name: conan-clang-static-analyzer
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/clang-static-analyzer
+          - name: conan-coverage
+            container: johnmcfarlane/cnl_ci:gcc-head
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/coverage
           - name: conan-valgrind
             container: johnmcfarlane/cnl_ci:gcc-head
             init-script: .github/workflows/conan/init
@@ -67,10 +102,6 @@ jobs:
             container: johnmcfarlane/cnl_ci:clang-11
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/iwyu
-          - name: conan-fuzzer
-            container: johnmcfarlane/cnl_ci:clang-head-libcpp
-            init-script: .github/workflows/conan/init
-            test-script: .github/workflows/conan/libfuzzer
           - name: lint
             container: johnmcfarlane/cnl_ci:clang-head
             init-script: .github/workflows/pre-commit/init
@@ -145,33 +176,3 @@ jobs:
       - name: Report Caches
         run: |
           ccache -s
-
-  windows:
-    runs-on: windows-2022
-    steps:
-      - name: Clone WSS
-        uses: actions/checkout@v2
-
-      - name: Load package caches
-        uses: actions/cache@v2
-        env:
-          CACHE_SLUG: ${{ github.job }}-${{ matrix.name }}
-        with:
-          path: |
-            ~\.conan\data
-            ~\AppData\Local\pip\Cache
-          key: ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
-          restore-keys: |
-            ${{ env.CACHE_SLUG }}-main
-            ${{ env.CACHE_SLUG }}-${{ github.ref_name }}
-            ${{ env.CACHE_SLUG }}-
-
-      - name: Initialise System
-        run: .github\\workflows\\conan\\init.ps1
-
-      - name: Perform Test
-        run: .github\\workflows\\conan\\test-msvc.ps1
-
-      - name: Check Working Directory Preservation
-        run: |
-          git diff --exit-code .
