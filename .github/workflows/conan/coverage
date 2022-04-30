@@ -28,7 +28,7 @@ lcov \
   --base-directory "${PROJECT_DIR}" \
   --directory . \
   --exclude "${PROJECT_DIR}/src/test/*" \
-  --exclude "*-fuzz.cpp" \
+  --exclude "*.fuzz-test.cpp" \
   --exclude "*.unit-test.cpp" \
   --include "${PROJECT_DIR}/*" \
   --rc lcov_branch_coverage=1 \

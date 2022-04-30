@@ -23,8 +23,8 @@ add_unit_test(wordle-word.unit-test word.unit-test.cpp wordle)
 
 # Wordle library fuzz tests
 add_fuzz_test(wordle-generate_constraints-fuzz-test
-              generate_constraints-fuzz.cpp wordle)
-add_fuzz_test(wordle-parse_command_line-fuzz-test parse_command_line-fuzz.cpp
-              wordle)
-add_fuzz_test(wordle-run-fuzz-test run-fuzz.cpp wordle)
-add_fuzz_test(wordle-solve-fuzz-test solve-fuzz.cpp wordle)
+              generate_constraints.fuzz-test.cpp wordle)
+add_fuzz_test(wordle-parse_command_line-fuzz-test
+              parse_command_line.fuzz-test.cpp wordle)
+add_fuzz_test(wordle-run-fuzz-test run.fuzz-test.cpp wordle)
+add_fuzz_test(wordle-solve-fuzz-test solve.fuzz-test.cpp wordle)
