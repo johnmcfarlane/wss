@@ -51,7 +51,7 @@ public:
         _bits &= ~bit(letter);
     }
 
-    constexpr auto set(char letter)
+    constexpr void set(char letter)
     {
         _bits |= bit(letter);
     }

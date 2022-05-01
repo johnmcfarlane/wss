@@ -159,9 +159,9 @@ auto main(int argc, char const* const* argv) -> int
             std::pair{scrabble_name, scrabble_scores()},
             std::pair{wwf_name, wwf_scores()}}
                               .at(game_name)};
-    auto [finds, invalid_words]{
+    auto [finds, invalid_words] =
             solve(lexicon, scores, letters, std::move(*board_tiles),
-                  std::move(*board_premiums))};
+                  std::move(*board_premiums));
 
     for (auto const& find : finds) {
         fmt::print("{1:3} {2:5} {3} {0}\n", find.word.c_str(), find.score, fmt::format("{:2},{:1}", find.pos.start[0] + 1, find.pos.start[1] + 1), (find.pos.direction[0] != 0) ? '-' : '|');
