@@ -2,21 +2,23 @@ find_package(Catch2 REQUIRED)
 find_package(fmt REQUIRED)
 
 add_library(unit-test unit-test.cpp)
-target_link_libraries(unit-test PUBLIC Catch2::Catch2)
+target_link_libraries(unit-test PRIVATE Catch2::Catch2 common)
 
 # add unit test executable target and test
 function(add_unit_test name source_file)
   add_executable(${name} ${source_file})
-  target_link_libraries(${name} PRIVATE ${ARGN} unit-test)
+
+  find_package(Catch2 REQUIRED)
+  target_link_libraries(${name} PRIVATE ${ARGN} Catch2::Catch2 common unit-test)
 
   add_test(${name} ${name})
 endfunction()
 
 # add fuzz test executable target and test
-function(add_fuzz_test name source_file library)
+function(add_fuzz_test name source_file)
   add_executable(${name} ${source_file})
   target_compile_options(${name} PRIVATE ${WSS_FUZZER_FLAGS})
-  target_link_libraries(${name} PRIVATE fuzz-test wordle
+  target_link_libraries(${name} PRIVATE ${ARGN} common fuzz-test
                                         ${WSS_FUZZER_LINKER_FLAGS})
   add_dependencies(fuzz-tests ${name})
 

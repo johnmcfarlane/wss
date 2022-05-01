@@ -17,4 +17,4 @@ target_link_libraries(
 target_include_directories(common INTERFACE "${CMAKE_CURRENT_LIST_DIR}")
 
 # common library unit tests
-add_unit_test(common-letter_set.unit-test letter_set.unit-test.cpp wordle)
+add_unit_test(common-letter_set.unit-test letter_set.unit-test.cpp)
