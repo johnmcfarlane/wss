@@ -1,19 +1,14 @@
-# WSS - Wordscapes Solver
+# Wordle Set Solver
 
 [![test](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml)
 
 ## Introduction
 
-Wordscapes Solver is a collection of word puzzle solvers written in C++.
-It serves two purposes:
+WSS is a tool written in C++ for suggesting wordles. It serves two purposes:
 
-1. To help users find words in games such as
-   * [Wordle](https://www.powerlanguage.co.uk/wordle/),
-   * [Wordscapes](https://www.peoplefun.com/games),
-   * [Words With Friends](https://www.zynga.com/games/words-with-friends-2/) and
-   * [Scrabble](https://scrabble.hasbro.com).
-
-1. To provide the template for a modern C++ project.
+1. to provide [Wordle](https://www.nytimes.com/games/wordle/) players with a
+   list of possible moves, and
+1. to provide the template for a maintainable CMake project.
 
 ## Requirements
 
@@ -22,19 +17,45 @@ It serves two purposes:
 
 ## Word Search
 
-WSS is a collection of command-line tools which produce solutions to problems
-posed by English-language word games. For example, _rack_ is useful for finding
-words that might be valid moves in the game of Wordscapes.
+WSS produces a command-line tool, `wordle`, which takes a history of previous
+attempts and lists all potentially-winning words.
 
-WSS builds the tools by first consuming a number of lexicons,
-converting them into C++-encoded data,
-and then using them in programs which solve game-specific problems.
+### Example
 
-The data structures are a Directed Acyclic Word-Graph (DAWG),
+After playing the following two moves,
+
+![Image](docs/wordle.png)
+
+you can search for possible WORDLEs:
+
+```sh
+wordle TALES20010,TEMPO21001
+```
+
+Output:
+
+> THROE  
+> TOGUE  
+> TONNE  
+> TOQUE  
+> TORTE  
+> TOWIE  
+> TRODE  
+> TROKE  
+> TRONE  
+> TROVE  
+
+### Implementation
+
+WSS builds the `wordle` program by consuming a lexicon of 5-letter words,
+converting them into C++-encoded data, and then
+building them into a program which searches through them for suggestions.
+
+The encoded data takes the form of a Directed Acyclic Word-Graph (DAWG),
 similar to the one described in the paper,
 [The World's Fastest Scrabble Program](https://www.cs.cmu.edu/afs/cs/academic/class/15451-s06/www/lectures/scrabble.pdf)
 (Andrew W. Appel, Guy J. Jacobson, 1988).
-It allows the tools to search through the lexicon in a way that avoids much of
+It allows algorithms to search through the lexicon in a way that avoids much of
 the duplication one typically finds in a word list.
 This helps to find solutions in a shorter time.
 
@@ -44,12 +65,10 @@ WSS also aims to demonstrate a simpler way of organising C++ projects.
 
 Many CMake projects couple tools to the build system explicitly.
 This approach is often brittle, inflexible and overly-complex.
-In some cases, the projects' CMake scripts becomes such a maintenance burden
-that they spill out into their own repository or docker container!
 
 WSS makes effective use of CMake by keeping configuration scripts minimal,
 declarative and decoupled. In this way, the code can be configured,
-built and tested against an unlimited set of toolchains, package managers,
+built and tested against an open set of toolchains, package managers,
 and other development tools.
 
 The codebase represents multiple CMake targets and thousands of lines of code.
@@ -102,7 +121,7 @@ It is designed to be easy to build and to run with:
 
 ### Build and Test (Conan)
 
-To build all three utilities using Conan on Linux,
+To build `wordle` using Conan on Linux,
 
 1. create an empty build directory,
 
@@ -117,15 +136,21 @@ To build all three utilities using Conan on Linux,
    conan install --build=missing <path-to-wss>
    ```
 
-1. then configure, build, test, and install the programs:
+1. then configure, build, test, and install the program:
 
    ```sh
    conan build <path-to-wss>
    ```
 
+1. The program can be found in `package/bin`:
+
+   ```sh
+   ./package/bin/wordle
+   ```
+
 ### Build and Test (vcpkg)
 
-To build all three utilities using vcpkg on Linux,
+To build `wordle` using vcpkg on Linux,
 
 1. create an empty build directory,
 
@@ -141,36 +166,10 @@ To build all three utilities using vcpkg on Linux,
    ./vcpkg/bootstrap-vcpkg.sh
    ```
 
-1. then configure, build, and test the programs:
+1. then configure, build, and test the program:
 
    ```sh
    cmake -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake <path-to-wss>
    cmake --build .
    ctest
    ```
-
-### Run Wordle
-
-The _src/wordle/wordle_ program suggests words to play in Wordle. For example,
-after playing the following two moves,
-
-![Image](docs/wordle.png)
-
-you can search for possible WORDLEs:
-
-```sh
-src/wordle/wordle TALES20010,TEMPO21001
-```
-
-Output:
-
-> THROE  
-> TOGUE  
-> TONNE  
-> TOQUE  
-> TORTE  
-> TOWIE  
-> TRODE  
-> TROKE  
-> TRONE  
-> TROVE  

@@ -26,7 +26,4 @@ function(make_lexicon_library library_name wordlist)
     COMMENT "Building ${library_name}")
 endfunction(make_lexicon_library)
 
-make_lexicon_library(all_lexicon ${PROJECT_SOURCE_DIR}/words/all.txt)
-make_lexicon_library(scrabble_lexicon ${PROJECT_SOURCE_DIR}/words/scrabble.txt)
 make_lexicon_library(wordle_lexicon ${PROJECT_SOURCE_DIR}/words/wordle.txt)
-make_lexicon_library(wwf_lexicon ${PROJECT_SOURCE_DIR}/words/wwf.txt)

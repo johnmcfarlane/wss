@@ -51,6 +51,4 @@ function(generate_approval_tests_for_exectuable executable)
 endfunction()
 
 add_subdirectory(generate)
-add_subdirectory(play)
-add_subdirectory(rack)
 add_subdirectory(wordle)

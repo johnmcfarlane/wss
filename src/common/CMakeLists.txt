@@ -8,8 +8,7 @@ function(add_wss_library name)
   target_compile_options(${name} PRIVATE ${WSS_FUZZER_FLAGS})
 endfunction()
 
-add_wss_library(common letter_set.cpp letter_set.h open_file.cpp scores.h
-                tile.h)
+add_wss_library(common letter_set.cpp open_file.cpp)
 target_link_libraries(
   common
   PUBLIC Microsoft.GSL::GSL
