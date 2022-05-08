@@ -1,9 +1,6 @@
 find_package(Catch2 REQUIRED)
 find_package(fmt REQUIRED)
 
-add_library(unit-test unit-test.cpp)
-target_link_libraries(unit-test PRIVATE Catch2::Catch2 common)
-
 # helper to add unit test
 function(add_unit_test name source_file)
   add_executable(${name} ${source_file})
@@ -13,6 +10,9 @@ function(add_unit_test name source_file)
 
   add_test(${name} ${name})
 endfunction()
+
+add_library(unit-test unit-test.cpp)
+target_link_libraries(unit-test PRIVATE Catch2::Catch2 common)
 
 # helper to add fuzz test
 function(add_fuzz_test name source_file)
