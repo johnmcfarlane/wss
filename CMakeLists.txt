@@ -6,4 +6,4 @@ include(CTest)
 add_subdirectory(src)
 add_subdirectory(test/approval)
 
-install(TARGETS play rack wordle EXPORT WssTargets)
+install(TARGETS play rack wordle-main EXPORT WssTargets)
