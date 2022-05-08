@@ -1,6 +1,6 @@
 with section("parse"):
-  additional_commands = { 'foo': { 'flags': ['BAR', 'BAZ'],
-             'kwargs': {'DEPENDS': '*', 'HEADERS': '*', 'SOURCES': '*'}}}
+  additional_commands = { 'add_functional_tests': { 'flags': ['EXIT_FAILURE'],
+             'kwargs': {'NAME': '*', 'COMMAND': '*', 'EXPECTED_OUTPUT': '*', 'EXPECTED_FILES': '*'}}}
   override_spec = {}
   vartags = []
   proptags = []

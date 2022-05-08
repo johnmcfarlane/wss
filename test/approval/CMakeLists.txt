@@ -56,5 +56,4 @@ function(generate_approval_tests_for_exectuable executable)
   )
 endfunction()
 
-add_subdirectory(generate)
 add_subdirectory(wordle)
