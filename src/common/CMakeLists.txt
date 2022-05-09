@@ -12,7 +12,8 @@ add_wss_library(common letter_set.cpp open_file.cpp)
 target_link_libraries(
   common
   PUBLIC Microsoft.GSL::GSL
-  PRIVATE fmt::fmt)
+  PRIVATE fmt::fmt
+)
 target_include_directories(common INTERFACE "${CMAKE_CURRENT_LIST_DIR}")
 
 # common library unit tests

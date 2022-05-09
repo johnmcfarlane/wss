@@ -16,12 +16,14 @@ function(generate_approval_test executable param_file will_fail)
       COMMAND
         ${PWSH} -Command
         "${executable} ${parameters} | Out-File -Encoding ascii stdout.win"
-      WORKING_DIRECTORY ${approval_test_directory})
+      WORKING_DIRECTORY ${approval_test_directory}
+    )
   elseif(BASH)
     add_test(
       NAME ${test_name}
       COMMAND ${BASH} -c "${executable} ${parameters} > stdout 2> stderr"
-      WORKING_DIRECTORY ${approval_test_directory})
+      WORKING_DIRECTORY ${approval_test_directory}
+    )
   else()
     message(FATAL_ERROR "Unknown shell command for ${CMAKE_HOST_SYSTEM_NAME}")
   endif()
@@ -33,7 +35,8 @@ function(generate_approval_tests executable globbing_expression will_fail)
   file(
     GLOB_RECURSE param_files
     LIST_DIRECTORIES false
-    ${globbing_expression})
+    ${globbing_expression}
+  )
   foreach(param_file ${param_files})
     generate_approval_test(${executable} ${param_file} ${will_fail})
   endforeach()
@@ -42,12 +45,14 @@ endfunction()
 # Create tests for the given executable
 function(generate_approval_tests_for_exectuable executable)
   # Turn all files called "test-success" into happy tests.
-  generate_approval_tests(${executable}
-                          "${CMAKE_CURRENT_LIST_DIR}/test-success" OFF)
+  generate_approval_tests(
+    ${executable} "${CMAKE_CURRENT_LIST_DIR}/test-success" OFF
+  )
 
   # Turn all files called "test-failure" into sad tests.
-  generate_approval_tests(${executable}
-                          "${CMAKE_CURRENT_LIST_DIR}/test-failure" ON)
+  generate_approval_tests(
+    ${executable} "${CMAKE_CURRENT_LIST_DIR}/test-failure" ON
+  )
 endfunction()
 
 add_subdirectory(generate)

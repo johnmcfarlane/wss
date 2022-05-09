@@ -16,7 +16,7 @@ with section("format"):
   max_rows_cmdline = 2
   separate_ctrl_name_with_space = False
   separate_fn_name_with_space = False
-  dangle_parens = False
+  dangle_parens = True
   dangle_align = 'prefix'
   min_prefix_chars = 4
   max_prefix_chars = 10

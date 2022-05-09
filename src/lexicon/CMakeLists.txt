@@ -6,11 +6,13 @@ set(CMAKE_CXX_INCLUDE_WHAT_YOU_USE "")
 
 # Convert the given list of words into C++ code and compile into a library
 function(make_lexicon_library library_name wordlist)
-  add_library(${library_name}
-              ${CMAKE_BINARY_DIR}/src/lexicon/${library_name}.cpp)
+  add_library(
+    ${library_name} ${CMAKE_BINARY_DIR}/src/lexicon/${library_name}.cpp
+  )
   target_include_directories(
     ${library_name} PUBLIC ${CMAKE_CURRENT_LIST_DIR}
-                           ${CMAKE_BINARY_DIR}/src/lexicon)
+                           ${CMAKE_BINARY_DIR}/src/lexicon
+  )
   target_link_libraries(${library_name} PRIVATE common)
   add_dependencies(${library_name} generate)
 
@@ -23,7 +25,8 @@ function(make_lexicon_library library_name wordlist)
     COMMAND ${CMAKE_COMMAND} -E make_directory lexicon
     COMMAND ${CMAKE_COMMAND} -E chdir lexicon $<TARGET_FILE:generate>
             ${wordlist} ${library_name} ${library_name}
-    COMMENT "Building ${library_name}")
+    COMMENT "Building ${library_name}"
+  )
 endfunction(make_lexicon_library)
 
 make_lexicon_library(wordle_lexicon ${PROJECT_SOURCE_DIR}/words/wordle.txt)

@@ -18,8 +18,9 @@ target_link_libraries(unit-test PRIVATE Catch2::Catch2 common)
 function(add_fuzz_test name source_file)
   add_executable(${name} ${source_file})
   target_compile_options(${name} PRIVATE ${WSS_FUZZER_FLAGS})
-  target_link_libraries(${name} PRIVATE ${ARGN} common fuzz-test
-                                        ${WSS_FUZZER_LINKER_FLAGS})
+  target_link_libraries(
+    ${name} PRIVATE ${ARGN} common fuzz-test ${WSS_FUZZER_LINKER_FLAGS}
+  )
   add_dependencies(fuzz-tests ${name})
 
   add_test(${name} ${name} ${WSS_FUZZER_TEST_PARAMETERS})
@@ -31,6 +32,7 @@ target_compile_options(fuzz-test PUBLIC ${WSS_FUZZER_FLAGS})
 target_link_libraries(
   fuzz-test
   PRIVATE common ${WSS_FUZZER_LINKER_FLAGS}
-  PUBLIC fmt::fmt)
+  PUBLIC fmt::fmt
+)
 
 add_custom_target(fuzz-tests COMMENT "building fuzz tests")
