@@ -26,6 +26,7 @@
 #include <array>
 #include <cctype>
 #include <cstdint>
+#include <cstdio>
 #include <optional>
 #include <vector>
 
@@ -57,7 +58,7 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
                 switch (position_score) {
                 case wordle::letter_score::hit:
                     if (!allowed_letters[position_letter]) {
-                        fmt::print("letter {} of play, \"{}\", already cannot be {}!\n", position + 1, play.guess, position_letter);
+                        fmt::print(stderr, "letter {} of play, \"{}\", already cannot be {}!\n", position + 1, play.guess, position_letter);
                         return std::nullopt;
                     }
 
@@ -82,14 +83,14 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
                 switch (position_score) {
                 case wordle::letter_score::hit:
                     if (!allowed_letters[position_letter]) {
-                        fmt::print("letter {} of play, \"{}\", is not allowed to be {}!\n", position + 1, play.guess, position_letter);
+                        fmt::print(stderr, "letter {} of play, \"{}\", is not allowed to be {}!\n", position + 1, play.guess, position_letter);
                         return std::nullopt;
                     }
                     break;
 
                 case wordle::letter_score::near:
                     if (allowed_letters[position_letter]) {
-                        fmt::print("letter {} of play, \"{}\", is not allowed to not be {}!\n", position + 1, play.guess, position_letter);
+                        fmt::print(stderr, "letter {} of play, \"{}\", is not allowed to not be {}!\n", position + 1, play.guess, position_letter);
                         return std::nullopt;
                     }
                     break;
@@ -98,7 +99,7 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
                     WSS_ASSERT(position_score == wordle::letter_score::miss);
 
                     if (allowed_letters[position_letter]) {
-                        fmt::print("letter {} of play, \"{}\", cannot not be {}!\n", position + 1, play.guess, position_letter);
+                        fmt::print(stderr, "letter {} of play, \"{}\", cannot not be {}!\n", position + 1, play.guess, position_letter);
                         return std::nullopt;
                     }
                     break;
@@ -120,7 +121,7 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
                 auto const new_maximum{nears + hits};
                 if (new_maximum < maximum) {
                     if (new_maximum < minimum) {
-                        fmt::print("guess, \"{}\", implies there are no more than {} occurrences of {:c}, but previous guesses imply there are at least {}\n", play.guess, new_maximum, letter, minimum);
+                        fmt::print(stderr, "guess, \"{}\", implies there are no more than {} occurrences of {:c}, but previous guesses imply there are at least {}\n", play.guess, new_maximum, letter, minimum);
                         return std::nullopt;
                     }
                     maximum = new_maximum;
@@ -129,7 +130,7 @@ auto wordle::generate_constraints(wordle::attempts const& history) -> std::optio
                 auto const new_minimum{nears + hits};
                 if (new_minimum > minimum) {
                     if (new_minimum > maximum) {
-                        fmt::print("guess, \"{}\", implies there are at least {} occurrences of {:c}, but previous guesses imply there are no more than {}\n", play.guess, new_minimum, letter, maximum);
+                        fmt::print(stderr, "guess, \"{}\", implies there are at least {} occurrences of {:c}, but previous guesses imply there are no more than {}\n", play.guess, new_minimum, letter, maximum);
                         return std::nullopt;
                     }
                     minimum = new_minimum;
