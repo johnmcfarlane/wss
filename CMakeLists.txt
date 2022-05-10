@@ -4,6 +4,5 @@ project(wss)
 include(CTest)
 
 add_subdirectory(src)
-add_subdirectory(test/approval)
 
 install(TARGETS wordle-main EXPORT WssTargets)

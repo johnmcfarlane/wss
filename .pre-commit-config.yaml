@@ -8,11 +8,7 @@ repos:
       - id: check-merge-conflict
       - id: check-yaml
       - id: trailing-whitespace
-        exclude: |
-          (?x)^(
-          test/approval/(.*)|
-          (.*).md
-          )$
+        exclude: ^(.*).md$
 
   - repo: https://github.com/pre-commit/mirrors-autopep8
     rev: v1.5.7
@@ -35,11 +31,7 @@ repos:
     hooks:
       - id: clang-format
         args: ["-style=file", "-i"]
-        exclude: |
-          (?x)^(
-          test/approval/(.*)|
-          src/generate/functional-tests/(.*)
-          )$
+        exclude: ^src/generate/functional-tests/(.*)$
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.30.0
@@ -55,4 +47,4 @@ repos:
     rev: v1.25.0
     hooks:
       - id: yamllint
-        exclude: ^(.github/workflows/conan/settings.yml)
+        exclude: ^\.github/workflows/conan/settings.yml$
