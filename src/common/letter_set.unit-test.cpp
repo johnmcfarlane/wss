@@ -93,10 +93,3 @@ TEST_CASE("letter_set iterator indifference")
     constexpr auto ls{from_bits(0b0)};
     REQUIRE(begin(ls) == end(ls));
 }
-
-TEST_CASE("letter_set find")
-{
-    constexpr auto ls{from_bits(0b1010)};
-    REQUIRE(begin(ls) == ls.find('A'));
-    REQUIRE(end(ls) == ls.find('B'));
-}
