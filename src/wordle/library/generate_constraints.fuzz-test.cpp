@@ -39,26 +39,26 @@ struct fmt::formatter<wordle::attempts> {
     template<typename FormatContext>
     auto format(wordle::attempts const& attempts, FormatContext& ctx)
     {
-        format_to(ctx.out(), "{{");
+        fmt::format_to(ctx.out(), "{{");
 
         bool need_comma = false;
         for (auto const& attempt : attempts) {
             if (need_comma) {
-                format_to(ctx.out(), ",");
+                fmt::format_to(ctx.out(), ",");
             }
             need_comma = true;
 
-            format_to(ctx.out(), "\"");
+            fmt::format_to(ctx.out(), "\"");
             for (auto i{0}; i != wordle::word_size; ++i) {
-                format_to(ctx.out(), "{}", attempt.guess[i]);
+                fmt::format_to(ctx.out(), "{}", attempt.guess[i]);
             }
             for (auto i{0}; i != wordle::word_size; ++i) {
-                format_to(ctx.out(), "{}", static_cast<int>(attempt.feedback[i]));
+                fmt::format_to(ctx.out(), "{}", static_cast<int>(attempt.feedback[i]));
             }
-            format_to(ctx.out(), "\"");
+            fmt::format_to(ctx.out(), "\"");
         }
 
-        format_to(ctx.out(), "}}");
+        fmt::format_to(ctx.out(), "}}");
         return ctx.out();
     }
 };

@@ -38,19 +38,19 @@ struct fmt::formatter<command_line> {
     template<typename FormatContext>
     auto format(command_line const& c, FormatContext& ctx)
     {
-        format_to(ctx.out(), "{{");
+        fmt::format_to(ctx.out(), "{{");
 
         bool need_comma = false;
         for (auto const& parameter : c) {
             if (need_comma) {
-                format_to(ctx.out(), ",");
+                fmt::format_to(ctx.out(), ",");
             }
             need_comma = true;
 
-            format_to(ctx.out(), "\"{}\"", parameter);
+            fmt::format_to(ctx.out(), "\"{}\"", parameter);
         }
 
-        format_to(ctx.out(), "}}");
+        fmt::format_to(ctx.out(), "}}");
         return ctx.out();
     }
 };

@@ -34,20 +34,20 @@ namespace Catch {
         {
             auto out{fmt::memory_buffer{}};
             auto it{std::back_inserter(out)};
-            format_to(it, "{{attempts=(");
+            fmt::format_to(it, "{{attempts=(");
             auto need_comma{false};
             for (auto const& attempt : value.history) {
                 if (need_comma) {
-                    format_to(it, ",");
+                    fmt::format_to(it, ",");
                 }
                 need_comma = true;
-                format_to(it, "{{\"{}\",", attempt.guess);
+                fmt::format_to(it, "{{\"{}\",", attempt.guess);
                 for (auto score : attempt.feedback) {
-                    format_to(it, "{}", static_cast<int>(score));
+                    fmt::format_to(it, "{}", static_cast<int>(score));
                 }
-                format_to(it, "}}");
+                fmt::format_to(it, "}}");
             }
-            format_to(it, ")}}");
+            fmt::format_to(it, ")}}");
             return to_string(out);
         }
     };

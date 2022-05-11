@@ -94,7 +94,7 @@ struct fmt::formatter<wordle::constraints> {
     template<typename FormatContext>
     auto format(wordle::constraints const& c, FormatContext& ctx)
     {
-        format_to(ctx.out(), "{{.limits={{");
+        fmt::format_to(ctx.out(), "{{.limits={{");
 
         bool need_comma = false;
         for (auto l{'A'}; l <= 'Z'; ++l) {
@@ -105,37 +105,37 @@ struct fmt::formatter<wordle::constraints> {
             }
 
             if (need_comma) {
-                format_to(ctx.out(), ",");
+                fmt::format_to(ctx.out(), ",");
             }
             need_comma = true;
 
             if (limited[0]) {
-                format_to(ctx.out(), "{}<=", limits[0]);
+                fmt::format_to(ctx.out(), "{}<=", limits[0]);
             }
-            format_to(ctx.out(), "{}", l);
+            fmt::format_to(ctx.out(), "{}", l);
             if (limited[1]) {
-                format_to(ctx.out(), "<={}", limits[1]);
+                fmt::format_to(ctx.out(), "<={}", limits[1]);
             }
         }
-        format_to(ctx.out(), "}},");
+        fmt::format_to(ctx.out(), "}},");
 
-        format_to(ctx.out(), " .disallowed=(");
+        fmt::format_to(ctx.out(), " .disallowed=(");
         need_comma = false;
         for (auto pos{0}; pos != wordle::word_size; pos++) {
             if (need_comma) {
-                format_to(ctx.out(), ",");
+                fmt::format_to(ctx.out(), ",");
             }
             need_comma = true;
 
             auto const disallowed{c.allowed[pos] ^ letter_set::all};
 
-            format_to(ctx.out(), "\"");
+            fmt::format_to(ctx.out(), "\"");
             for (auto l : disallowed) {
-                format_to(ctx.out(), "{}", l);
+                fmt::format_to(ctx.out(), "{}", l);
             }
-            format_to(ctx.out(), "\"");
+            fmt::format_to(ctx.out(), "\"");
         }
-        format_to(ctx.out(), ")}}");
+        fmt::format_to(ctx.out(), ")}}");
 
         return ctx.out();
     }

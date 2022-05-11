@@ -43,7 +43,7 @@ struct fmt::formatter<wordle::word> {
     template<typename FormatContext>
     auto format(wordle::word const w, FormatContext& ctx)
     {
-        return format_to(ctx.out(), "{}", std::string_view{w.data(), w.size()});
+        return fmt::format_to(ctx.out(), "{}", std::string_view{w.data(), w.size()});
     }
 };
 
