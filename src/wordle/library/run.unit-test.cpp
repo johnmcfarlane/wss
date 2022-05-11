@@ -76,23 +76,6 @@ SCENARIO("Wordle entry point")
         }
     }
 
-    GIVEN("help flag")
-    {
-        constexpr auto params{std::array{"wordle", "--help"}};
-
-        WHEN("run")
-        {
-            auto const result{wordle::run(params)};
-
-            THEN("program exits with success code")
-            {
-                auto const expected{EXIT_SUCCESS};
-                auto const actual{std::get<int>(result)};
-                REQUIRE(expected == actual);
-            }
-        }
-    }
-
     GIVEN("an ill-formed attempt")
     {
         constexpr auto params{std::array{"wordle", "x"}};

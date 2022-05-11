@@ -84,25 +84,6 @@ SCENARIO("Empty Wordle command line parameters")
     }
 }
 
-SCENARIO("Wordle --help command line parameters")
-{
-    GIVEN("command-line parameter, \"--help\"")
-    {
-        constexpr auto params{std::array{"wordle", "--help"}};
-
-        WHEN("wordle::parse_command_line is called")
-        {
-            auto const actual{wordle::parse_command_line(params)};
-
-            THEN("the function returns just a successful exit code")
-            {
-                auto const expected{wordle::input{EXIT_SUCCESS}};
-                REQUIRE(expected == actual);
-            }
-        }
-    }
-}
-
 SCENARIO("Wordle regular command line parameters")
 {
     GIVEN("an attempt passed in as a command-line parameter")

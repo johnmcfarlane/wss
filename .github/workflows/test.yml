@@ -42,6 +42,7 @@ jobs:
   # Build and test on Linux
   linux:
     strategy:
+      fail-fast: false
       matrix:
         name:
           [
@@ -53,7 +54,7 @@ jobs:
             "conan-clang-libstdcpp",
             "conan-clang-static-analyzer",
             "conan-coverage-functional",
-            "conan-coverage-unit",
+            "breakit-conan-coverage-unit",
             "conan-valgrind",
             "conan-cppcheck",
             "conan-include-what-you-use",
@@ -85,7 +86,7 @@ jobs:
           - name: conan-coverage-functional
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/coverage-functional
-          - name: conan-coverage-unit
+          - name: breakit-conan-coverage-unit
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/coverage-unit
           - name: conan-valgrind
@@ -167,7 +168,7 @@ jobs:
 
       - name: Upload unit test code coverage report
         uses: actions/upload-artifact@v3
-        if: ${{ matrix.name == 'conan-coverage-unit' && always() }}
+        if: ${{ matrix.name == 'breakit-conan-coverage-unit' && always() }}
         with:
           name: coverage-unit-report
           path: ${{github.workspace}}/coverage-report
