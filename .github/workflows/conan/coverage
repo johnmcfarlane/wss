@@ -37,13 +37,12 @@ lcov \
   --exclude "*.unit-test.cpp" \
   --include "${PROJECT_DIR}/*" \
   --rc lcov_branch_coverage=1 \
-  --output-file coverage-info
+  --output-file "${TEST_LABEL}"-test-coverage
 
 genhtml \
-  coverage-info \
+  "${TEST_LABEL}"-test-coverage \
   --branch-coverage \
   --output-directory coverage-report | tee coverage-log
-
 SUCCESS=1
 
 if ! grep "functions..: ${FUNCTION_COVERAGE_PERCENT}%" coverage-log

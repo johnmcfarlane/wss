@@ -162,11 +162,19 @@ jobs:
           path: ${{github.workspace}}/scan-build
           if-no-files-found: error
 
-      - name: Upload code coverage report
+      - name: Upload functional test code coverage report
         uses: actions/upload-artifact@v2
-        if: ${{ matrix.name == 'conan-coverage' && always() }}
+        if: ${{ matrix.name == 'conan-coverage-functional' && always() }}
         with:
-          name: coverage-report
+          name: coverage-functional-report
+          path: ${{github.workspace}}/coverage-report
+          if-no-files-found: error
+
+      - name: Upload unit test code coverage report
+        uses: actions/upload-artifact@v2
+        if: ${{ matrix.name == 'conan-coverage-unit' && always() }}
+        with:
+          name: coverage-unit-report
           path: ${{github.workspace}}/coverage-report
           if-no-files-found: error
 
