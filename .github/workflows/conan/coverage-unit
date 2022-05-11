@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+SCRIPT_DIR=$(cd "$(dirname "$0")" || exit; pwd)
+
+"${SCRIPT_DIR}"/coverage unit 100.0 100.0 100.0

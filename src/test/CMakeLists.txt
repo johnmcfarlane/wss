@@ -9,6 +9,7 @@ function(add_unit_test name source_file)
   target_link_libraries(${name} PRIVATE ${ARGN} Catch2::Catch2 common unit-test)
 
   add_test(${name} ${name})
+  set_tests_properties(${name} PROPERTIES LABELS unit)
 endfunction()
 
 add_library(unit-test unit-test.cpp)

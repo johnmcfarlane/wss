@@ -51,7 +51,8 @@ jobs:
             "conan-clang-head-libcpp",
             "conan-clang-head-libstdcpp",
             "conan-clang-static-analyzer",
-            "conan-coverage",
+            "conan-coverage-functional",
+            "conan-coverage-unit",
             "conan-valgrind",
             "conan-cppcheck",
             "conan-include-what-you-use",
@@ -86,10 +87,14 @@ jobs:
             container: johnmcfarlane/cnl_ci:clang-head-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/clang-static-analyzer
-          - name: conan-coverage
+          - name: conan-coverage-functional
             container: johnmcfarlane/cnl_ci:gcc-head
             init-script: .github/workflows/conan/init
-            test-script: .github/workflows/conan/coverage
+            test-script: .github/workflows/conan/coverage-functional
+          - name: conan-coverage-unit
+            container: johnmcfarlane/cnl_ci:gcc-head
+            init-script: .github/workflows/conan/init
+            test-script: .github/workflows/conan/coverage-unit
           - name: conan-valgrind
             container: johnmcfarlane/cnl_ci:gcc-head
             init-script: .github/workflows/conan/init

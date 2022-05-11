@@ -27,6 +27,7 @@ function(generate_approval_test executable param_file will_fail)
   else()
     message(FATAL_ERROR "Unknown shell command for ${CMAKE_HOST_SYSTEM_NAME}")
   endif()
+  set_tests_properties(${test_name} PROPERTIES LABELS functional)
   set_tests_properties(${test_name} PROPERTIES WILL_FAIL ${will_fail})
 endfunction()
 

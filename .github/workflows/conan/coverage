@@ -2,14 +2,18 @@
 
 set -euo pipefail
 
+TEST_LABEL=$1
+FUNCTION_COVERAGE_PERCENT=$2
+LINE_COVERAGE_PERCENT=$3
+BRANCH_COVERAGE_PERCENT=$4
+
 PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
 
 conan install \
   --build=missing \
   --env CONAN_CMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}/.github/workflows/toolchains/linux-gcc.cmake" \
   --settings build_type=Coverage \
-  "${PROJECT_DIR}" \
-  "$@"
+  "${PROJECT_DIR}"
 
 conan build \
   --configure --build \
@@ -19,9 +23,10 @@ conan build \
 find . -name "*.gcda" -delete
 
 # collect only coverage numbers from testing
-conan build \
-  --test \
-  "${PROJECT_DIR}"
+ctest \
+  --label-regex "${TEST_LABEL}" \
+  --output-on-error \
+  --parallel "$(nproc)"
 
 lcov \
   --capture \
@@ -41,19 +46,19 @@ genhtml \
 
 SUCCESS=1
 
-if ! grep "functions..: 100.0%" coverage-log
+if ! grep "functions..: ${FUNCTION_COVERAGE_PERCENT}%" coverage-log
 then
   echo error: missing function coverage
   SUCCESS=0
 fi
 
-if ! grep "lines......: 100.0%" coverage-log
+if ! grep "lines......: ${LINE_COVERAGE_PERCENT}%" coverage-log
 then
   echo error: missing line coverage
   SUCCESS=0
 fi
 
-if ! grep "branches...: 100.0%" coverage-log
+if ! grep "branches...: ${BRANCH_COVERAGE_PERCENT}%" coverage-log
 then
   echo error: missing branch coverage
   SUCCESS=0
