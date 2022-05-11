@@ -42,6 +42,7 @@ jobs:
   # Build and test on Linux
   linux:
     strategy:
+      fail-fast: false
       matrix:
         name:
           [
@@ -52,7 +53,7 @@ jobs:
             "conan-clang-libcpp",
             "conan-clang-libstdcpp",
             "conan-clang-static-analyzer",
-            "conan-coverage-functional",
+            "breakit-conan-coverage-functional",
             "conan-coverage-unit",
             "conan-valgrind",
             "conan-cppcheck",
@@ -82,7 +83,7 @@ jobs:
           - name: conan-clang-static-analyzer
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/clang-static-analyzer
-          - name: conan-coverage-functional
+          - name: breakit-conan-coverage-functional
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/coverage-functional
           - name: conan-coverage-unit
@@ -159,7 +160,8 @@ jobs:
 
       - name: Upload functional test code coverage report
         uses: actions/upload-artifact@v3
-        if: ${{ matrix.name == 'conan-coverage-functional' && always() }}
+        if: "${{ matrix.name == 'breakit-conan-coverage-functional' \
+            && always() }}"
         with:
           name: coverage-functional-report
           path: ${{github.workspace}}/coverage-report

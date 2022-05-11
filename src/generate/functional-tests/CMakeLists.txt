@@ -93,11 +93,3 @@ add_functional_tests(
   EXPECTED_OUTPUT "^loading\\.\\.\\.\ncompressing\\.\\.\\.\nsaving\\.\\.\\.\n\$"
   EXPECTED_FILES simple-source.h simple-source.cpp
 )
-
-add_functional_tests(
-  NAME generate-sub-node-compression
-  COMMAND generate ${CMAKE_CURRENT_LIST_DIR}/sub-node-compression-lexicon.txt
-          lexicon sub-node-compression-source
-  EXPECTED_OUTPUT "^loading\\.\\.\\.\ncompressing\\.\\.\\.\nsaving\\.\\.\\.\n\$"
-  EXPECTED_FILES sub-node-compression-source.h sub-node-compression-source.cpp
-)
