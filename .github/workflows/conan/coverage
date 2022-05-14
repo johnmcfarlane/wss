@@ -20,7 +20,9 @@ conan build \
   "${PROJECT_DIR}"
 
 # delete coverage numbers accumulated during build step
-find . -name "*.gcda" -delete
+lcov \
+  --directory . \
+  --zerocounters
 
 # collect only coverage numbers from testing
 ctest \
