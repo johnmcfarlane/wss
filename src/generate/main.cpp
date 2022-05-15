@@ -119,21 +119,7 @@ void write_nodes(
     fmt::print(source_cpp, "node const {} = {{\n", id);
 
     // node::letters
-#if defined(WSS_SHOW_LETTERS)
-    fmt::print(source_cpp, "  letter_set{{";
-    auto first_letter{true};
-    for (auto letter : n) {
-        if (!first_letter) {
-            fmt::print(source_cpp, ", ");
-        } else {
-            first_letter = false;
-        }
-        fmt::print(source_cpp, "\'{}\'", letter);
-    }
-    fmt::print(source_cpp, "},\n");
-#else
     fmt::print(source_cpp, "  from_bits(0x{:x}U),\n", letters.bits());
-#endif
 
     // node::edges
     fmt::print(source_cpp, "  {}\n}};\n", edges_line);
