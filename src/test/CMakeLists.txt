@@ -61,7 +61,6 @@ function(add_fuzz_test name source_file)
   target_link_libraries(
     ${name} PRIVATE ${ARGN} common fuzz-test ${WSS_FUZZER_LINKER_FLAGS}
   )
-  add_dependencies(fuzz-tests ${name})
 
   add_test(${name} ${name} ${WSS_FUZZER_TEST_PARAMETERS})
 endfunction()
@@ -74,5 +73,3 @@ target_link_libraries(
   PRIVATE common ${WSS_FUZZER_LINKER_FLAGS}
   PUBLIC fmt::fmt
 )
-
-add_custom_target(fuzz-tests COMMENT "building fuzz tests")

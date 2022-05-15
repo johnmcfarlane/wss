@@ -17,8 +17,7 @@ conan build \
 
 cmake \
   --build . \
-  --parallel "$(nproc)" \
-  --target fuzz-tests
+  --parallel "$(nproc)"
 
 ctest \
   --output-on-failure \
