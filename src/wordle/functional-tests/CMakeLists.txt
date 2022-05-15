@@ -101,8 +101,8 @@ add_functional_tests(
   NAME wordle-debug-move
   COMMAND wordle-main --debug abcde01210
   EXPECTED_OUTPUT
-    "^{.limits={A<=0,1<=B,1<=C,1<=D,E<=0}, .disallowed=\\(\\"A\\",\\"B\\",\
-\\"ABDEFGHIJKLMNOPQRSTUVWXYZ","D","E")}\n$"
+    "^{.limits={A<=0,1<=B,1<=C,1<=D,E<=0}, .disallowed=\\("A","B",\
+"ABDEFGHIJKLMNOPQRSTUVWXYZ","D","E")}\n$"
 )
 
 add_functional_tests(
