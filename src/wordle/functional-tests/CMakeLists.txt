@@ -122,7 +122,7 @@ ZYMES\n$"
 
 add_functional_tests(
   NAME wordle-help
-  COMMAND wordle-main --help
+  COMMAND wordle-main --halp
   EXPECTED_OUTPUT
     "^Wordle cheater
 \\(C\\)2022 John McFarlane

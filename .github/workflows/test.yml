@@ -9,7 +9,7 @@ on:
 
 jobs:
   # Build and test on Windows
-  windows:
+  breakit-windows:
     runs-on: windows-2022
     steps:
       - name: Clone WSS
@@ -42,59 +42,60 @@ jobs:
   # Build and test on Linux
   linux:
     strategy:
+      fail-fast: false
       matrix:
         name:
           [
-            "vcpkg-gcc",
-            "conan-clang-tidy",
+            "breakit-vcpkg-gcc-head",
+            "breakit-conan-clang-tidy",
             "conan-fuzzer",
-            "conan-gcc",
-            "conan-clang-libcpp",
-            "conan-clang-libstdcpp",
+            "breakit-conan-gcc-head",
+            "breakit-conan-clang-head-libcpp",
+            "breakit-conan-clang-head-libstdcpp",
             "conan-clang-static-analyzer",
-            "conan-coverage-functional",
+            "breakit-conan-coverage-functional",
             "conan-coverage-unit",
-            "conan-valgrind",
-            "conan-cppcheck",
-            "conan-include-what-you-use",
+            "breakit-conan-valgrind",
+            "breakit-conan-cppcheck",
+            "breakit-conan-include-what-you-use",
             "conan-graphviz",
             "lint",
           ]
         include:
-          - name: vcpkg-gcc
+          - name: breakit-vcpkg-gcc-head
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/vcpkg/test-gcc
-          - name: conan-clang-tidy
+          - name: breakit-conan-clang-tidy
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/clang-tidy
           - name: conan-fuzzer
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/libfuzzer
-          - name: conan-gcc
+          - name: breakit-conan-gcc-head
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/test-gcc
-          - name: conan-clang-libcpp
+          - name: breakit-conan-clang-head-libcpp
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/test-clang
-          - name: conan-clang-libstdcpp
+          - name: breakit-conan-clang-head-libstdcpp
             container: johnmcfarlane/cnl_ci:clang-14-libstdcpp
             test-script: workflows/conan/test-clang
           - name: conan-clang-static-analyzer
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
             test-script: workflows/conan/clang-static-analyzer
-          - name: conan-coverage-functional
+          - name: breakit-conan-coverage-functional
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/coverage-functional
           - name: conan-coverage-unit
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/coverage-unit
-          - name: conan-valgrind
+          - name: breakit-conan-valgrind
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/valgrind
-          - name: conan-cppcheck
+          - name: breakit-conan-cppcheck
             container: johnmcfarlane/cnl_ci:gcc-12
             test-script: workflows/conan/cppcheck
-          - name: conan-include-what-you-use
+          - name: breakit-conan-include-what-you-use
             container: johnmcfarlane/cnl_ci:clang-14-libcpp-iwyu
             test-script: workflows/conan/iwyu
           - name: conan-graphviz
@@ -159,7 +160,8 @@ jobs:
 
       - name: Upload functional test code coverage report
         uses: actions/upload-artifact@v3
-        if: ${{ matrix.name == 'conan-coverage-functional' && always() }}
+        if: "${{ matrix.name == 'breakit-conan-coverage-functional'
+            && always() }}"
         with:
           name: coverage-functional-report
           path: ${{github.workspace}}/coverage-report
@@ -167,7 +169,7 @@ jobs:
 
       - name: Upload unit test code coverage report
         uses: actions/upload-artifact@v3
-        if: ${{ matrix.name == 'conan-coverage-unit' && always() }}
+        if: ${{ matrix.name == 'breakit-conan-coverage-unit' && always() }}
         with:
           name: coverage-unit-report
           path: ${{github.workspace}}/coverage-report
@@ -175,7 +177,7 @@ jobs:
 
       - name: Upload Valgrind report
         uses: actions/upload-artifact@v3
-        if: ${{ matrix.name == 'conan-valgrind' && failure() }}
+        if: ${{ matrix.name == 'breakit-conan-valgrind' && failure() }}
         with:
           name: valgrind-logs
           path: ${{github.workspace}}/Testing/Temporary
