@@ -93,7 +93,7 @@ void write_nodes(
         if (found_edge != std::end(edges)) {
             auto [edges_id, element_index] = found_edge->second;
             if (element_index != 0) {
-                edges_line = edges_id + '+' + std::to_string(element_index);
+                edges_line = edges_id + " + " + std::to_string(element_index);
             } else {
                 edges_line = edges_id;
             }
@@ -104,10 +104,10 @@ void write_nodes(
                 sub_array = fmt::format("n{}{}", word_parts[i], sub_array);
                 edges[sub_array] = make_tuple(edges_id, i);
                 if (i != 0) {
-                    sub_array = ","s.append(sub_array);
+                    sub_array = ", "s.append(sub_array);
                 }
             }
-            fmt::print(source_cpp, "node const {}[] {{", edges_id);
+            fmt::print(source_cpp, "    node const {}[]{{", edges_id);
             fmt::print(source_cpp, "{}}};\n", sub_array);
             edges_line = edges_id;
         }
@@ -116,13 +116,13 @@ void write_nodes(
     }
 
     // node
-    fmt::print(source_cpp, "node const {} = {{\n", id);
+    fmt::print(source_cpp, "    node const {} = {{\n", id);
 
     // node::letters
-    fmt::print(source_cpp, "  from_bits(0x{:x}U),\n", letters.bits());
+    fmt::print(source_cpp, "            from_bits(0x{:x}U),\n", letters.bits());
 
     // node::edges
-    fmt::print(source_cpp, "  {}\n}};\n", edges_line);
+    fmt::print(source_cpp, "            {}}};\n", edges_line);
 }
 
 void write_lexicon(
@@ -146,7 +146,7 @@ void write_lexicon(
     auto const& root_node = lexicon.root_node();
     write_nodes(root_node, word, nodes, edges, source_cpp.get());
 
-    fmt::print(source_cpp.get(), "}} //namespace\n");
+    fmt::print(source_cpp.get(), "}}  // namespace\n");
 
     auto const source_h{wss::open_file(source_h_filename.c_str(), "wb")};
     fmt::print(source_h.get(), "#include <node.h>\n");

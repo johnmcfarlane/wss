@@ -31,7 +31,6 @@ repos:
     hooks:
       - id: clang-format
         args: ["-style=file", "-i"]
-        exclude: ^src/generate/functional-tests/(.*)$
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.30.0
