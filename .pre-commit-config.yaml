@@ -34,7 +34,7 @@ repos:
     rev: v1.1.1
     hooks:
       - id: clang-format
-        args: [-style=file]
+        args: ["-style=file", "-i"]
         exclude: ^(test/approval/(.*))
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
