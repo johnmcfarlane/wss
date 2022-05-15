@@ -11,8 +11,9 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
 
 conan install \
   --build=missing \
-  --env CONAN_CMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}/.github/workflows/toolchains/linux-gcc.cmake" \
-  --settings build_type=Coverage \
+  --env wss:CXXFLAGS="-coverage -DNDEBUG -DWSS_DISABLE_ASSERTS -fno-exceptions \
+-pedantic -Wall -Werror -Wextra -Wno-maybe-uninitialized -Wno-restrict" \
+  --settings build_type=Debug \
   "${PROJECT_DIR}"
 
 conan build \

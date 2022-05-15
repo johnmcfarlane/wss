@@ -7,8 +7,8 @@ $PROJECT_DIR="$PSScriptRoot\..\..\.."
 
 conan install `
   --build=missing `
-  --env CONAN_CMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}\.github\workflows\toolchains\windows-msvc.cmake" `
-  --settings build_type=Test `
+  --env CXXFLAGS="/bigobj /D_ITERATOR_DEBUG_LEVEL=1 /DNDEBUG /O2" `
+  --env wss:CXXFLAGS="/bigobj /D_ITERATOR_DEBUG_LEVEL=1 /DNDEBUG /O2 /W2 /WX" `
   "${PROJECT_DIR}"
 
 conan build `

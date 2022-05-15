@@ -6,7 +6,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 
 conan install \
   --build=missing \
-  --env "CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/.github/workflows/toolchains/linux-clang-tidy-fix.cmake" \
+  --env wss:"CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/.github/workflows/toolchains/linux-clang-tidy-fix.cmake" \
   "${PROJECT_DIR}" \
   "$@"
 

@@ -7,7 +7,7 @@ $PROJECT_DIR="$PSScriptRoot\..\..\.."
 
 conan install `
   --build=missing `
-  --env CONAN_CMAKE_TOOLCHAIN_FILE="${PROJECT_DIR}\.github\workflows\toolchains\windows-msvc.cmake" `
+  --env wss:CXXFLAGS="/W2 /WX /O2" `
   --settings build_type=Release `
   "${PROJECT_DIR}"
 
