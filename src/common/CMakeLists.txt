@@ -14,7 +14,7 @@ target_link_libraries(
   PUBLIC Microsoft.GSL::GSL
   PRIVATE fmt::fmt
 )
-target_include_directories(common INTERFACE "${CMAKE_CURRENT_LIST_DIR}")
+target_include_directories(common INTERFACE .)
 
 # common library unit tests
 add_unit_test(common-letter_set.unit-test letter_set.unit-test.cpp)
