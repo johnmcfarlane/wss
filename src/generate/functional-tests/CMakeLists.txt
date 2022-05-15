@@ -9,7 +9,6 @@ add_functional_tests(
 add_functional_tests(
   NAME generate-cli-help
   COMMAND generate --help
-  EXIT_FAILURE
   EXPECTED_OUTPUT
     "^wss lexicon source file generator
 \\(C\\)2019 John McFarlane

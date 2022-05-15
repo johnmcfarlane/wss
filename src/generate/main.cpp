@@ -178,7 +178,7 @@ auto main(int argc, char const* const* argv) -> int
         fmt::printf("wss lexicon source file generator\n"
                     "(C)2019 John McFarlane\n\n");
         std::cout << cli;
-        return EXIT_FAILURE;
+        return EXIT_SUCCESS;
     }
 
     auto const lexicon = load_lexicon(lexicon_filename);
