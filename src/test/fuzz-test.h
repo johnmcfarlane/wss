@@ -76,7 +76,7 @@ public:
     fuzzer_input(std::uint8_t const* data, std::size_t size);
 
     template<typename T>
-        requires std::is_trivially_copyable_v<T>
+    requires std::is_trivially_copyable_v<T>
     [[nodiscard]] auto read_object() -> std::optional<T>
     {
         T object;

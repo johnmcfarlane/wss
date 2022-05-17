@@ -44,12 +44,12 @@ jobs:
       matrix:
         name:
           [
-            "vcpkg-gcc-head",
+            "vcpkg-gcc",
             "conan-clang-tidy",
             "conan-fuzzer",
-            "conan-gcc-head",
-            "conan-clang-head-libcpp",
-            "conan-clang-head-libstdcpp",
+            "conan-gcc",
+            "conan-clang-libcpp",
+            "conan-clang-libstdcpp",
             "conan-clang-static-analyzer",
             "conan-coverage-functional",
             "conan-coverage-unit",
@@ -59,48 +59,48 @@ jobs:
             "lint",
           ]
         include:
-          - name: vcpkg-gcc-head
-            container: johnmcfarlane/cnl_ci:gcc-head
+          - name: vcpkg-gcc
+            container: johnmcfarlane/cnl_ci:gcc-12
             init-script: .github/workflows/vcpkg/init
             test-script: .github/workflows/vcpkg/test-gcc
           - name: conan-clang-tidy
-            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            container: johnmcfarlane/cnl_ci:clang-14-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/clang-tidy
           - name: conan-fuzzer
-            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            container: johnmcfarlane/cnl_ci:clang-14-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/libfuzzer
-          - name: conan-gcc-head
-            container: johnmcfarlane/cnl_ci:gcc-head
+          - name: conan-gcc
+            container: johnmcfarlane/cnl_ci:gcc-12
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/test-gcc
-          - name: conan-clang-head-libcpp
-            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+          - name: conan-clang-libcpp
+            container: johnmcfarlane/cnl_ci:clang-14-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/test-clang
-          - name: conan-clang-head-libstdcpp
-            container: johnmcfarlane/cnl_ci:clang-head-libstdcpp
+          - name: conan-clang-libstdcpp
+            container: johnmcfarlane/cnl_ci:clang-14-libstdcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/test-clang
           - name: conan-clang-static-analyzer
-            container: johnmcfarlane/cnl_ci:clang-head-libcpp
+            container: johnmcfarlane/cnl_ci:clang-14-libcpp
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/clang-static-analyzer
           - name: conan-coverage-functional
-            container: johnmcfarlane/cnl_ci:gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-12
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/coverage-functional
           - name: conan-coverage-unit
-            container: johnmcfarlane/cnl_ci:gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-12
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/coverage-unit
           - name: conan-valgrind
-            container: johnmcfarlane/cnl_ci:gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-12
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/valgrind
           - name: conan-cppcheck
-            container: johnmcfarlane/cnl_ci:gcc-head
+            container: johnmcfarlane/cnl_ci:gcc-12
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/cppcheck
           - name: conan-include-what-you-use
@@ -108,7 +108,7 @@ jobs:
             init-script: .github/workflows/conan/init
             test-script: .github/workflows/conan/iwyu
           - name: lint
-            container: johnmcfarlane/cnl_ci:clang-head
+            container: johnmcfarlane/cnl_ci:clang-14
             init-script: .github/workflows/pre-commit/init
             test-script: .github/workflows/pre-commit/lint
 
@@ -144,7 +144,9 @@ jobs:
           ccache -s
 
       - name: Initialise System
-        run: $GITHUB_WORKSPACE/${{ matrix.init-script }}
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          $GITHUB_WORKSPACE/${{ matrix.init-script }}
 
       - name: Perform Test
         run: $GITHUB_WORKSPACE/${{ matrix.test-script }}
