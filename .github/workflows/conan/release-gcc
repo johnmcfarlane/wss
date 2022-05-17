@@ -6,7 +6,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 
 conan install \
   --build=missing \
-  --env wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wno-maybe-uninitialized -Wno-restrict" \
+  --env wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra" \
   --settings build_type=Release \
   "${PROJECT_DIR}" \
   "$@"

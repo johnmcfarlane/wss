@@ -12,7 +12,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
 conan install \
   --build=missing \
   --env wss:CXXFLAGS="-coverage -DNDEBUG -DWSS_DISABLE_ASSERTS -fno-exceptions \
--pedantic -Wall -Werror -Wextra -Wno-maybe-uninitialized -Wno-restrict" \
+-pedantic -Wall -Werror -Wextra" \
   --settings build_type=Debug \
   "${PROJECT_DIR}"
 
