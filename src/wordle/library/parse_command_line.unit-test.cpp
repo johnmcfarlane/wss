@@ -69,11 +69,11 @@ SCENARIO("Empty Wordle command line parameters")
 {
     GIVEN("empty command-line parameters")
     {
-        constexpr auto command_line{std::array{"wordle"}};
+        constexpr auto params{std::array{"wordle"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const actual{wordle::parse_command_line(command_line)};
+            auto const actual{wordle::parse_command_line(params)};
 
             THEN("function returns input with empty list of queries")
             {
@@ -88,11 +88,11 @@ SCENARIO("Wordle --help command line parameters")
 {
     GIVEN("command-line parameter, \"--help\"")
     {
-        constexpr auto command_line{std::array{"wordle", "--help"}};
+        constexpr auto params{std::array{"wordle", "--help"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const actual{wordle::parse_command_line(command_line)};
+            auto const actual{wordle::parse_command_line(params)};
 
             THEN("the function returns just a successful exit code")
             {
@@ -107,11 +107,11 @@ SCENARIO("Wordle regular command line parameters")
 {
     GIVEN("an attempt passed in as a command-line parameter")
     {
-        constexpr auto command_line{std::array{"wordle", "ABCDE01210"}};
+        constexpr auto params{std::array{"wordle", "ABCDE01210"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<wordle::query>(result)};
 
             THEN("the function returns a query")
@@ -135,11 +135,11 @@ SCENARIO("Wordle regular command line parameters")
 
     GIVEN("two attempts passed in as command-line parameters")
     {
-        constexpr auto command_line{std::array{"wordle", "ABCDE01210,ABCDE01210"}};
+        constexpr auto params{std::array{"wordle", "ABCDE01210,ABCDE01210"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<wordle::query>(result)};
 
             THEN("the function returns a query")
@@ -171,11 +171,11 @@ SCENARIO("Wordle regular command line parameters")
 
     GIVEN("an attempt passed in as a command-line parameter with debug flag")
     {
-        constexpr auto command_line{std::array{"wordle", "ABCDE01210", "--debug"}};
+        constexpr auto params{std::array{"wordle", "ABCDE01210", "--debug"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<wordle::query>(result)};
 
             THEN("the function returns a query with debug flag set")
@@ -201,11 +201,11 @@ SCENARIO("Wordle ill-formed regular command line parameters")
 {
     GIVEN("command-line parameters with an unrecognised flag")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAAA00000", "--this-is-wrong"}};
+        constexpr auto params{std::array{"wordle", "AAAAA00000", "--this-is-wrong"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<int>(result)};
 
             THEN("the function returns a failure exit code")
@@ -218,11 +218,11 @@ SCENARIO("Wordle ill-formed regular command line parameters")
 
     GIVEN("an attempt as a command-line parameter with a bad letter")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAA!00000"}};
+        constexpr auto params{std::array{"wordle", "AAAA!00000"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<int>(result)};
 
             THEN("the function returns a failure exit code")
@@ -235,11 +235,11 @@ SCENARIO("Wordle ill-formed regular command line parameters")
 
     GIVEN("an attempt as a command-line parameter with an above-limit score")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAAA00009"}};
+        constexpr auto params{std::array{"wordle", "AAAAA00009"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<int>(result)};
 
             THEN("the function returns a failure exit code")
@@ -252,11 +252,11 @@ SCENARIO("Wordle ill-formed regular command line parameters")
 
     GIVEN("an attempt as a command-line parameter with an below-limit score")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAAA0000 "}};
+        constexpr auto params{std::array{"wordle", "AAAAA0000 "}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<int>(result)};
 
             THEN("the function returns a failure exit code")
@@ -269,11 +269,11 @@ SCENARIO("Wordle ill-formed regular command line parameters")
 
     GIVEN("an attempt as a command-line parameter with a missing character")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAAA0000"}};
+        constexpr auto params{std::array{"wordle", "AAAAA0000"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<int>(result)};
 
             THEN("the function returns a failure exit code")
@@ -286,11 +286,11 @@ SCENARIO("Wordle ill-formed regular command line parameters")
 
     GIVEN("an attempt as a command-line parameter with a stray comma")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAAA0,000"}};
+        constexpr auto params{std::array{"wordle", "AAAAA0,000"}};
 
         WHEN("wordle::parse_command_line is called")
         {
-            auto const result{wordle::parse_command_line(command_line)};
+            auto const result{wordle::parse_command_line(params)};
             auto const& actual{std::get<int>(result)};
 
             THEN("the function returns a failure exit code")

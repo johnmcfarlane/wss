@@ -75,7 +75,7 @@ auto read_attempts(fuzzer_input in, int max_attempts)
     for (auto i{0}; i != *num_attempts; ++i) {
         auto attempt{wordle::attempt{}};
 
-        for (auto i{0}; i != wordle::word_size; ++i) {
+        for (auto j{0}; j != wordle::word_size; ++j) {
             auto const guess{in.read_integer<char>('A', 'Z')};
             if (!guess) {
                 return std::nullopt;
@@ -86,8 +86,8 @@ auto read_attempts(fuzzer_input in, int max_attempts)
                 return std::nullopt;
             }
 
-            attempt.guess[i] = *guess;
-            attempt.feedback[i] = static_cast<wordle::letter_score>(*feedback);
+            attempt.guess[j] = *guess;
+            attempt.feedback[j] = static_cast<wordle::letter_score>(*feedback);
         }
 
         attempts.push_back(attempt);

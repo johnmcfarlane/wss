@@ -8,7 +8,7 @@ NUM_CPUS=$(nproc)
 cmake \
   -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake \
   -DCMAKE_CXX_FLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined \
--pedantic -Wall -Werror -Wextra" \
+-pedantic -Wall -Werror -Wextra -Wshadow" \
   -G Ninja \
   "${PROJECT_DIR}"
 

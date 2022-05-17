@@ -7,7 +7,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 conan install \
   --build=missing \
   --env wss:CONAN_CMAKE_TOOLCHAIN_FILE="$PROJECT_DIR"/.github/workflows/toolchains/linux-libfuzzer.cmake \
-  --env wss:CXXFLAGS="-Wall -Werror -Wextra -fsanitize=address,undefined -g -pedantic" \
+  --env wss:CXXFLAGS="-Wall -Werror -Wextra -Wshadow -fsanitize=address,undefined -g -pedantic" \
   --settings build_type=Release \
   "${PROJECT_DIR}" \
   "$@"

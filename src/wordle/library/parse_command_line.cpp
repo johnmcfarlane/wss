@@ -43,10 +43,10 @@ namespace {
         }
 
         auto const submit{[&result](auto const m) {
-            auto const parse_guess{[](auto const m) -> std::optional<wordle::word> {
-                WSS_ASSERT(m.size() == wordle::word_size);
+            auto const parse_guess{[](auto const n) -> std::optional<wordle::word> {
+                WSS_ASSERT(n.size() == wordle::word_size);
                 auto guess{wordle::word{}};
-                std::copy(std::begin(m), std::end(m), std::begin(guess));
+                std::copy(std::begin(n), std::end(n), std::begin(guess));
 
                 auto const bad_letter{std::find_if(std::cbegin(guess), std::cend(guess), [](auto const letter) {
                     return !std::isalpha(letter);
@@ -55,23 +55,23 @@ namespace {
                     fmt::print(
                             stderr,
                             "guess, \"{}\" contains invalid letter, '{}'\n",
-                            m,
+                            n,
                             *bad_letter);
                     return std::nullopt;
                 }
                 return guess;
             }};
-            auto const parse_feedback{[](auto const m) -> std::optional<wordle::scores> {
+            auto const parse_feedback{[](auto const n) -> std::optional<wordle::scores> {
                 auto feedback{wordle::scores{}};
                 constexpr auto index_to_score{std::array<wordle::letter_score, wordle::letter_score_bound>{
                         wordle::letter_score::miss, wordle::letter_score::near, wordle::letter_score::hit}};
                 for (auto position{0}; position != wordle::word_size; position++) {
-                    auto const digit{m[position]};
+                    auto const digit{n[position]};
                     if (digit < '0' || digit > '2') {
                         fmt::print(
                                 stderr,
                                 "guess, \"{}\" contains invalid score, {}, at position, {}; range is [0..2]\n",
-                                m, digit, position);
+                                n, digit, position);
                         return std::nullopt;
                     }
                     feedback[position] = index_to_score[digit - '0'];

@@ -33,10 +33,10 @@ extern "C" auto LLVMFuzzerTestOneInput(std::uint8_t const* data, std::size_t siz
         return 0;
     }
 
-    auto const command_line{command_line_data->command_line()};
+    auto const params{command_line_data->command_line()};
 
-    fmt::print("calling wordle::run({})\n", command_line);
-    wordle::run(command_line);
+    fmt::print("calling wordle::run({})\n", params);
+    wordle::run(params);
 
     return 0;  // Non-zero return values are reserved for future use.
 }

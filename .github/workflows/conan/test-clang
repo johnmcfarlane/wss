@@ -7,7 +7,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 conan install \
   --build=missing \
   --env wss:CXXFLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined \
--pedantic -Wall -Werror -Wextra" \
+-pedantic -Wall -Werror -Wextra -Wshadow" \
   "${PROJECT_DIR}" \
   "$@"
 

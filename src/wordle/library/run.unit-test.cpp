@@ -26,11 +26,11 @@ SCENARIO("Wordle entry point")
 {
     GIVEN("no command-line parameters")
     {
-        constexpr auto command_line{std::array{"wordle"}};
+        constexpr auto params{std::array{"wordle"}};
 
         WHEN("run")
         {
-            auto const result{wordle::run(command_line)};
+            auto const result{wordle::run(params)};
 
             THEN("a list of many words is returned")
             {
@@ -43,11 +43,11 @@ SCENARIO("Wordle entry point")
 
     GIVEN("a query")
     {
-        constexpr auto command_line{std::array{"wordle", "XYMES02222"}};
+        constexpr auto params{std::array{"wordle", "XYMES02222"}};
 
         WHEN("run")
         {
-            auto const result{wordle::run(command_line)};
+            auto const result{wordle::run(params)};
 
             THEN("a list of two words is returned")
             {
@@ -60,11 +60,11 @@ SCENARIO("Wordle entry point")
 
     GIVEN("a query with debug flag")
     {
-        constexpr auto command_line{std::array{"wordle", "XYMES02222", "--debug"}};
+        constexpr auto params{std::array{"wordle", "XYMES02222", "--debug"}};
 
         WHEN("run")
         {
-            auto const result{wordle::run(command_line)};
+            auto const result{wordle::run(params)};
 
             THEN("program exits with success code")
             {
@@ -77,11 +77,11 @@ SCENARIO("Wordle entry point")
 
     GIVEN("help flag")
     {
-        constexpr auto command_line{std::array{"wordle", "--help"}};
+        constexpr auto params{std::array{"wordle", "--help"}};
 
         WHEN("run")
         {
-            auto const result{wordle::run(command_line)};
+            auto const result{wordle::run(params)};
 
             THEN("program exits with success code")
             {
@@ -94,11 +94,11 @@ SCENARIO("Wordle entry point")
 
     GIVEN("an ill-formed attempt")
     {
-        constexpr auto command_line{std::array{"wordle", "x"}};
+        constexpr auto params{std::array{"wordle", "x"}};
 
         WHEN("run")
         {
-            auto const result{wordle::run(command_line)};
+            auto const result{wordle::run(params)};
 
             THEN("a list of two words is returned")
             {
@@ -111,11 +111,11 @@ SCENARIO("Wordle entry point")
 
     GIVEN("impossible attempts")
     {
-        constexpr auto command_line{std::array{"wordle", "AAAAA22222,BBBBB22222"}};
+        constexpr auto params{std::array{"wordle", "AAAAA22222,BBBBB22222"}};
 
         WHEN("run")
         {
-            auto const result{wordle::run(command_line)};
+            auto const result{wordle::run(params)};
 
             THEN("a list of two words is returned")
             {
