@@ -32,7 +32,8 @@ add_functional_tests(
   NAME wordle-bad-score2
   COMMAND wordle-main abcde00!00
   EXIT_FAILURE
-  EXPECTED_OUTPUT "^guess, "00!00" contains invalid score, !, at position, 2; \
+  EXPECTED_OUTPUT
+    "^guess, \"00!00\" contains invalid score, !, at position, 2; \
 range is [0..2]\n$"
 )
 
@@ -94,15 +95,16 @@ but previous guesses imply there are no more than 4\n$"
 add_functional_tests(
   NAME wordle-debug
   COMMAND wordle-main --debug
-  EXPECTED_OUTPUT "^{.limits={}, .disallowed=\\("","","","","")}\n$"
+  EXPECTED_OUTPUT
+    "^{.limits={}, .disallowed=\\(\\"\\",\\"\\",\\"\\",\\"\\",\\"\\")}\n$"
 )
 
 add_functional_tests(
   NAME wordle-debug-move
   COMMAND wordle-main --debug abcde01210
   EXPECTED_OUTPUT
-    "^{.limits={A<=0,1<=B,1<=C,1<=D,E<=0}, .disallowed=\\("A","B",\
-"ABDEFGHIJKLMNOPQRSTUVWXYZ","D","E")}\n$"
+    "^{.limits={A<=0,1<=B,1<=C,1<=D,E<=0}, .disallowed=\\(\\"A\\",\\"B\\",\
+\\"ABDEFGHIJKLMNOPQRSTUVWXYZ\\",\\"D\\",\\"E\\")}\n$"
 )
 
 add_functional_tests(
@@ -134,7 +136,7 @@ OPTIONS, ARGUMENTS:
   -?, -h, --help
   -d, --debug             display internal search data for command
   <history>               comma-separated list of 10-character moves, e.g. \
-answer is OTHER, you guess TALES then COMET: "tales10020,comet01021"
+answer is OTHER, you guess TALES then COMET: \"tales10020,comet01021\"
 \n$"
 )
 
