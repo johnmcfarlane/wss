@@ -46,4 +46,3 @@ repos:
     rev: v1.25.0
     hooks:
       - id: yamllint
-        exclude: ^\.github/workflows/conan/settings.yml$
