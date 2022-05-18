@@ -5,6 +5,9 @@ set -euo pipefail
 PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
 NUM_CPUS=$(nproc)
 
+git clone https://github.com/Microsoft/vcpkg.git
+./vcpkg/bootstrap-vcpkg.sh
+
 cmake \
   -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake \
   -DCMAKE_CXX_FLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined \

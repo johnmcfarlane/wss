@@ -8,6 +8,7 @@ conan install \
   --build=missing \
   --env wss:CXXFLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined \
 -pedantic -Wall -Werror -Wextra -Wno-maybe-uninitialized -Wshadow" \
+  --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}" \
   "$@"
 

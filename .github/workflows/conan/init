@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-set -euo pipefail
-
-conan profile new --detect default
-conan profile update settings.compiler.libcxx=libstdc++11 default
-conan profile update env.CMAKE_CXX_COMPILER_LAUNCHER=ccache default
-conan profile update env.CONAN_CMAKE_GENERATOR=Ninja default

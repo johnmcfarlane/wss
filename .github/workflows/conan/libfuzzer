@@ -9,6 +9,7 @@ conan install \
   --env wss:CONAN_CMAKE_TOOLCHAIN_FILE="$PROJECT_DIR"/.github/workflows/toolchains/linux-libfuzzer.cmake \
   --env wss:CXXFLAGS="-Wall -Werror -Wextra -Wshadow -fsanitize=address,undefined -g -pedantic" \
   --settings build_type=Release \
+  --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}" \
   "$@"
 

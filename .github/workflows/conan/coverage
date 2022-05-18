@@ -14,6 +14,7 @@ conan install \
   --env wss:CXXFLAGS="-coverage -DNDEBUG -DWSS_DISABLE_ASSERTS -fno-exceptions \
 -pedantic -Wall -Werror -Wextra -Wshadow" \
   --settings build_type=Debug \
+  --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}"
 
 conan build \
