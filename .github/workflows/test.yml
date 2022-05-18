@@ -157,7 +157,7 @@ jobs:
           git diff --exit-code .
 
       - name: Upload Clang Static Analyzer report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: ${{ matrix.name == 'conan-clang-static-analyzer' && failure() }}
         with:
           name: csa-report
@@ -165,7 +165,7 @@ jobs:
           if-no-files-found: error
 
       - name: Upload functional test code coverage report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: ${{ matrix.name == 'conan-coverage-functional' && always() }}
         with:
           name: coverage-functional-report
@@ -173,7 +173,7 @@ jobs:
           if-no-files-found: error
 
       - name: Upload unit test code coverage report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: ${{ matrix.name == 'conan-coverage-unit' && always() }}
         with:
           name: coverage-unit-report
@@ -181,7 +181,7 @@ jobs:
           if-no-files-found: error
 
       - name: Upload Valgrind report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: ${{ matrix.name == 'conan-valgrind' && failure() }}
         with:
           name: valgrind-logs
