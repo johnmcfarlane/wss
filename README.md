@@ -1,4 +1,4 @@
-# Wordle Set Solver
+# WSS
 
 [![test](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml)
 
@@ -81,7 +81,7 @@ dependency management. It does one thing well: describing binaries.
 ## Continuous Integration
 
 The project's CI pipeline demonstrates how to develop maintainable C++ by
-running automated tests against tools such as:
+applying the build system to tools such as:
 
 * [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html),
 * [CppCheck](http://cppcheck.net/) static analyser,
@@ -92,6 +92,7 @@ running automated tests against tools such as:
 * [Conan](https://conan.io/) Python-based C++ package manager,
 * [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)+
   [lcov](http://ltp.sourceforge.net/coverage/lcov.php) reporting 100% code coverage,
+* [graphviz](https://graphviz.org/) representation of package and target dependencies,
 * [Include what you use](https://include-what-you-use.org/) tool to analyze `#include`s,
 * [libfuzzer](https://www.llvm.org/docs/LibFuzzer.html) coverage-guided fuzz testing,
 * [pre-commit](https://pre-commit.com/) linting framework with
