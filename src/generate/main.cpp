@@ -164,9 +164,10 @@ auto main(int argc, char const* const* argv) -> int
     auto cli{
             lyra::help(help)
             | lyra::arg(lexicon_filename, "lexicon")(
-                    "text file containing list of words")
-            | lyra::arg(name, "name")("Name of lexicon")
-            | lyra::arg(source_filename, "source")("source filename")};
+                      "text file containing list of words")
+                      .required()
+            | lyra::arg(name, "name")("Name of lexicon").required()
+            | lyra::arg(source_filename, "source")("source filename").required()};
     auto result = cli.parse(lyra::args(argc, argv));
 
     if (!result) {

@@ -42,8 +42,29 @@ ${CMAKE_CURRENT_LIST_DIR}/invalid-wordform-lexicon.txt\n"
 )
 
 add_functional_tests(
+  NAME generate-missing-lexicon-parameter
+  COMMAND generate
+  EXIT_FAILURE
+  EXPECTED_OUTPUT "^command line error: Expected: <lexicon>\n"
+)
+
+add_functional_tests(
+  NAME generate-missing-name-parameter
+  COMMAND generate ${CMAKE_CURRENT_LIST_DIR}/happy-lexicon.txt
+  EXIT_FAILURE
+  EXPECTED_OUTPUT "^command line error: Expected: <name>\n"
+)
+
+add_functional_tests(
+  NAME generate-missing-source-parameter
+  COMMAND generate ${CMAKE_CURRENT_LIST_DIR}/happy-lexicon.txt lexicon
+  EXIT_FAILURE
+  EXPECTED_OUTPUT "^command line error: Expected: <source>\n"
+)
+
+add_functional_tests(
   NAME generate-missing-lexicon
-  COMMAND generate missing_file.txt
+  COMMAND generate missing_file.txt some-name some-source
   EXIT_FAILURE
   EXPECTED_OUTPUT "^error: Could not open 'missing_file.txt'.\n"
 )
@@ -51,6 +72,7 @@ add_functional_tests(
 add_functional_tests(
   NAME generate-missing-newline
   COMMAND generate ${CMAKE_CURRENT_LIST_DIR}/missing-newline-lexicon.txt
+          some-name some-source
   EXIT_FAILURE
   EXPECTED_OUTPUT "^error: missing newline at end of 'a' in \
 ${CMAKE_CURRENT_LIST_DIR}/missing-newline-lexicon.txt\n"
