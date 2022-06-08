@@ -28,4 +28,5 @@ function(make_lexicon_library library_name wordlist)
   )
 endfunction(make_lexicon_library)
 
+make_lexicon_library(scrabble_lexicon ${PROJECT_SOURCE_DIR}/words/scrabble.txt)
 make_lexicon_library(wordle_lexicon ${PROJECT_SOURCE_DIR}/words/wordle.txt)

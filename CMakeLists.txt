@@ -5,4 +5,4 @@ include(CTest)
 
 add_subdirectory(src)
 
-install(TARGETS wordle-main EXPORT WssTargets)
+install(TARGETS wordle-main spelling-bee-main EXPORT WssTargets)
