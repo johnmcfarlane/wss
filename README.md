@@ -101,7 +101,7 @@ Collaboration and CI:
   demonstrates [CI](https://github.com/johnmcfarlane/wss/actions) via
   [a GitHub repository](https://github.com/johnmcfarlane/wss)
 * [GitLab](https://gitlab.com/) demonstrates [CI](https://gitlab.com/johnmcfarlane/wss/-/pipelines)
-  via [a GitLab repository](https://gitlab.com/johnmcfarlane/wss/-/pipelines)
+  via [a GitLab repository](https://gitlab.com/johnmcfarlane/wss)
 
 Analysers:
 
