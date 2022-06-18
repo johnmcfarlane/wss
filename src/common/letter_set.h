@@ -106,7 +106,7 @@ private:
     [[nodiscard]] static constexpr auto index(char letter) -> int
     {
         constexpr auto letter_mask{0x1f};
-        WSS_ASSERT(letter == '\0' || isalpha(letter) || isalpha(letter - 1));
+        WSS_ASSERT(letter == '\0' || isalpha(letter) || letter == 'Z' + 1 || letter == 'z' + 1);
         return letter & letter_mask;
     }
 
