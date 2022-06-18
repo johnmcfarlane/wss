@@ -3,7 +3,7 @@
 Set-StrictMode -Version latest
 $ErrorActionPreference = "Stop"
 
-$PROJECT_DIR="$PSScriptRoot\..\..\.."
+$PROJECT_DIR="$PSScriptRoot\..\.."
 
 conan install `
   --build=missing `

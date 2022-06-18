@@ -7,7 +7,7 @@ FUNCTION_COVERAGE_PERCENT=$2
 LINE_COVERAGE_PERCENT=$3
 BRANCH_COVERAGE_PERCENT=$4
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan install \
   --build=missing \

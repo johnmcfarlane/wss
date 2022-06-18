@@ -2,11 +2,11 @@
 
 set -euo pipefail
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan install \
   --build=missing \
-  --env wss:CONAN_CMAKE_TOOLCHAIN_FILE="$PROJECT_DIR"/.github/workflows/toolchains/linux-libfuzzer.cmake \
+  --env wss:CONAN_CMAKE_TOOLCHAIN_FILE="$PROJECT_DIR"/workflows/conan/toolchains/linux-libfuzzer.cmake \
   --env wss:CXXFLAGS="-Wall -Werror -Wextra -Wshadow -fsanitize=address,undefined -g -pedantic" \
   --settings build_type=Release \
   --settings compiler.libcxx=libstdc++11 \

@@ -32,7 +32,7 @@ jobs:
         run: pip.exe install conan
 
       - name: Perform Test
-        run: .github\\workflows\\conan\\test-msvc.ps1
+        run: workflows\\conan\\test-msvc.ps1
 
       - name: Check Working Directory Preservation
         run: |
@@ -62,46 +62,46 @@ jobs:
         include:
           - name: vcpkg-gcc
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/vcpkg/test-gcc
+            test-script: workflows/vcpkg/test-gcc
           - name: conan-clang-tidy
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
-            test-script: .github/workflows/conan/clang-tidy
+            test-script: workflows/conan/clang-tidy
           - name: conan-fuzzer
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
-            test-script: .github/workflows/conan/libfuzzer
+            test-script: workflows/conan/libfuzzer
           - name: conan-gcc
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/conan/test-gcc
+            test-script: workflows/conan/test-gcc
           - name: conan-clang-libcpp
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
-            test-script: .github/workflows/conan/test-clang
+            test-script: workflows/conan/test-clang
           - name: conan-clang-libstdcpp
             container: johnmcfarlane/cnl_ci:clang-14-libstdcpp
-            test-script: .github/workflows/conan/test-clang
+            test-script: workflows/conan/test-clang
           - name: conan-clang-static-analyzer
             container: johnmcfarlane/cnl_ci:clang-14-libcpp
-            test-script: .github/workflows/conan/clang-static-analyzer
+            test-script: workflows/conan/clang-static-analyzer
           - name: conan-coverage-functional
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/conan/coverage-functional
+            test-script: workflows/conan/coverage-functional
           - name: conan-coverage-unit
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/conan/coverage-unit
+            test-script: workflows/conan/coverage-unit
           - name: conan-valgrind
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/conan/valgrind
+            test-script: workflows/conan/valgrind
           - name: conan-cppcheck
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/conan/cppcheck
+            test-script: workflows/conan/cppcheck
           - name: conan-include-what-you-use
             container: johnmcfarlane/cnl_ci:clang-11
-            test-script: .github/workflows/conan/iwyu
+            test-script: workflows/conan/iwyu
           - name: conan-graphviz
             container: johnmcfarlane/cnl_ci:gcc-12
-            test-script: .github/workflows/conan/graphviz
+            test-script: workflows/conan/graphviz
           - name: lint
             container: johnmcfarlane/cnl_ci:clang-14
-            test-script: .github/workflows/pre-commit/lint
+            test-script: workflows/pre-commit/lint
 
     container: ${{matrix.container}}
     runs-on: ubuntu-20.04

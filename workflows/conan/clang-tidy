@@ -2,11 +2,11 @@
 
 set -euo pipefail
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan install \
   --build=missing \
-  --env wss:"CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/.github/workflows/toolchains/linux-cppcheck.cmake" \
+  --env wss:"CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/workflows/conan/toolchains/linux-clang-tidy.cmake" \
   --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}" \
   "$@"

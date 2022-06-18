@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/../../.. || exit; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan info \
   --graph packages.dot \

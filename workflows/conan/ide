@@ -2,12 +2,12 @@
 
 set -euo pipefail
 
-PROJECT_DIR=$(cd "$(dirname "$0")"/../../..; pwd)
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan install \
   --build=missing \
-  --env wss:CXXFLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined \
--pedantic -Wall -Werror -Wextra -Wshadow" \
+  --env wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wshadow" \
+  --settings build_type=Debug \
   --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}" \
   "$@"
