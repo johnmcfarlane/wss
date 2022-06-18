@@ -1,6 +1,7 @@
 # WSS
 
 [![GitHub](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml)
+[![GitLab](https://gitlab.com/johnmcfarlane/wss/badges/main/pipeline.svg)](https://gitlab.com/johnmcfarlane/wss/-/commits/main)
 
 ## Introduction
 
@@ -80,7 +81,7 @@ dependency management. It does one thing well: describing binaries.
 
 ## Continuous Integration
 
-The project's CI pipeline demonstrates how to develop maintainable C++ by
+The project's CI pipelines demonstrate how to develop maintainable C++ by
 applying the build system to many tools...
 
 Toolchains:
@@ -99,6 +100,8 @@ Collaboration and CI:
 * [GitHub](https://github.com/)+[Actions](https://github.com/features/actions)
   demonstrates [CI](https://github.com/johnmcfarlane/wss/actions) via
   [a GitHub repository](https://github.com/johnmcfarlane/wss)
+* [GitLab](https://gitlab.com/) demonstrates [CI](https://gitlab.com/johnmcfarlane/wss/-/pipelines)
+  via [a GitLab repository](https://gitlab.com/johnmcfarlane/wss/-/pipelines)
 
 Analysers:
 

@@ -1,0 +1,71 @@
+---
+linux:
+  parallel:
+    matrix:
+      - NAME: vcpkg-gcc
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/vcpkg/test-gcc
+      - NAME: conan-clang-tidy
+        IMAGE: johnmcfarlane/cnl_ci:clang-14-libcpp
+        SCRIPT: workflows/conan/clang-tidy
+      - NAME: conan-fuzzer
+        IMAGE: johnmcfarlane/cnl_ci:clang-14-libcpp
+        SCRIPT: workflows/conan/libfuzzer
+      - NAME: conan-gcc
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/conan/test-gcc
+      - NAME: conan-clang-libcpp
+        IMAGE: johnmcfarlane/cnl_ci:clang-14-libcpp
+        SCRIPT: workflows/conan/test-clang
+      - NAME: conan-clang-libstdcpp
+        IMAGE: johnmcfarlane/cnl_ci:clang-14-libstdcpp
+        SCRIPT: workflows/conan/test-clang
+      - NAME: conan-clang-static-analyzer
+        IMAGE: johnmcfarlane/cnl_ci:clang-14-libcpp
+        SCRIPT: workflows/conan/clang-static-analyzer
+        ARTIFACTS: scan-build
+      - NAME: conan-coverage-functional
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/conan/coverage-functional
+        ARTIFACTS: coverage-report
+      - NAME: conan-coverage-unit
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/conan/coverage-unit
+        ARTIFACTS: coverage-report
+      - NAME: conan-valgrind
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/conan/valgrind
+        ARTIFACTS: Testing/Temporary
+      - NAME: conan-cppcheck
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/conan/cppcheck
+      - NAME: conan-include-what-you-use
+        IMAGE: johnmcfarlane/cnl_ci:clang-11
+        SCRIPT: workflows/conan/iwyu
+      - NAME: conan-graphviz
+        IMAGE: johnmcfarlane/cnl_ci:gcc-12
+        SCRIPT: workflows/conan/graphviz
+        ARTIFACTS: |
+          packages.dot
+          packages.png
+          targets.dot
+          targets.png
+      - NAME: lint
+        IMAGE: johnmcfarlane/cnl_ci:clang-14
+        SCRIPT: workflows/pre-commit/lint
+  image: $IMAGE
+  variables:
+    CCACHE_DIR: /cache/ccache
+    CMAKE_CXX_COMPILER_LAUNCHER: ccache
+    CONAN_CMAKE_GENERATOR: Ninja
+    CONAN_USER_HOME: /cache/conan
+  script:
+    - $CI_PROJECT_DIR/$SCRIPT
+  artifacts:
+    paths:
+      - $ARTIFACTS
+
+sast:
+  stage: test
+include:
+  - template: Security/SAST.gitlab-ci.yml
