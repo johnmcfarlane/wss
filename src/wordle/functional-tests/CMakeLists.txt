@@ -127,17 +127,7 @@ add_functional_tests(
     "^Wordle cheater
 \\(C\\)2022 John McFarlane
 
-USAGE:
-  wordle \\[-?|-h|--help] \\[-d|--debug] \\[<history>]
-
-Display usage information.
-
-OPTIONS, ARGUMENTS:
-  -?, -h, --help
-  -d, --debug             display internal search data for command
-  <history>               comma-separated list of 10-character moves, e.g. \
-answer is OTHER, you guess TALES then COMET: \"tales10020,comet01021\"
-\n$"
+USAGE:\n"
 )
 
 add_functional_tests(
