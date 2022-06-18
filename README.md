@@ -1,6 +1,6 @@
 # WSS
 
-[![test](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml)
+[![GitHub](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml/badge.svg)](https://github.com/johnmcfarlane/wss/actions/workflows/test.yml)
 
 ## Introduction
 
@@ -81,20 +81,37 @@ dependency management. It does one thing well: describing binaries.
 ## Continuous Integration
 
 The project's CI pipeline demonstrates how to develop maintainable C++ by
-applying the build system to tools such as:
+applying the build system to many tools...
 
-* [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html),
-* [CppCheck](http://cppcheck.net/) static analyser,
-* [Clang](https://clang.llvm.org/) and [GCC](https://gcc.gnu.org/) compilers,
-* [Clang Static Analyzer](https://clang-analyzer.llvm.org/),
+Toolchains:
+
+* [Clang](https://clang.llvm.org/)
+* [GCC](https://gcc.gnu.org/)
+* [MSVC](https://visualstudio.microsoft.com/vs/features/cplusplus/)
+
+Package Managers:
+
+* [Conan](https://conan.io/) Python-based C++ package manager
+* [vcpkg](https://vcpkg.io/) CMake-based C++ package manager
+
+Collaboration and CI:
+
+* [GitHub](https://github.com/)+[Actions](https://github.com/features/actions)
+  demonstrates [CI](https://github.com/johnmcfarlane/wss/actions) via
+  [a GitHub repository](https://github.com/johnmcfarlane/wss)
+
+Analysers:
+
+* [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+* [CppCheck](http://cppcheck.net/) static analyser
+* [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
 * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) C++ linter and static
-  analyser,
-* [Conan](https://conan.io/) Python-based C++ package manager,
+  analyser
 * [gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)+
-  [lcov](http://ltp.sourceforge.net/coverage/lcov.php) reporting 100% code coverage,
-* [graphviz](https://graphviz.org/) representation of package and target dependencies,
-* [Include what you use](https://include-what-you-use.org/) tool to analyze `#include`s,
-* [libfuzzer](https://www.llvm.org/docs/LibFuzzer.html) coverage-guided fuzz testing,
+  [lcov](http://ltp.sourceforge.net/coverage/lcov.php) reporting 100% code coverage
+* [graphviz](https://graphviz.org/) representation of package and target dependencies
+* [Include what you use](https://include-what-you-use.org/) tool to analyze `#include`s
+* [libfuzzer](https://www.llvm.org/docs/LibFuzzer.html) coverage-guided fuzz testing
 * [pre-commit](https://pre-commit.com/) linting framework with
   formatting and correctness checks for:
   * Bash
@@ -104,12 +121,8 @@ applying the build system to tools such as:
   * Markdown
   * Python
   * YAML
-* [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html).
-* [Valgrind](https://valgrind.org),
-* [vcpkg](https://vcpkg.io/) CMake-based C++ package manager.
-
-Developers are invited to suggest or add their favourite tools,
-or to use this project as the starting point for their own C or C++ projects.
+* [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+* [Valgrind](https://valgrind.org)
 
 ## Instructions
 
@@ -174,3 +187,10 @@ To build `wordle` using vcpkg on Linux,
    cmake --build .
    ctest
    ```
+
+### Use WSS as a Template
+
+You can use WSS as the starting-off point for your own C++ project.
+From the [WSS GitHub repository](https://github.com/johnmcfarlane/wss),
+click the "Use this template" button in order to
+[generate](https://github.com/johnmcfarlane/wss/generate) your own repository.
