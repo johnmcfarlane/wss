@@ -11,7 +11,7 @@ target_link_libraries(
   PUBLIC common fmt::fmt
   PRIVATE bfg::lyra wordle_lexicon
 )
-target_include_directories(common PUBLIC include)
+target_include_directories(wordle PUBLIC include)
 
 # Wordle library unit tests
 add_unit_test(wordle-constraints.unit-test constraints.unit-test.cpp wordle)
