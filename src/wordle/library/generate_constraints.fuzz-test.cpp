@@ -22,7 +22,6 @@
 #include <fmt/format.h>
 #include <fmt/printf.h>
 
-#include <cstddef>
 #include <cstdint>
 #include <cstdio>
 #include <optional>

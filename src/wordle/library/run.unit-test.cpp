@@ -18,6 +18,7 @@
 
 #include <catch2/catch.hpp>
 
+#include <array>
 #include <cstdlib>
 #include <variant>
 #include <vector>

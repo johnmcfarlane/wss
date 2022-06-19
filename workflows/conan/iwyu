@@ -6,7 +6,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan install \
   --build=missing \
-  --env "CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/workflows/conan/toolchains/linux-iwyu.cmake" \
+  --env wss:"CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/workflows/conan/toolchains/linux-iwyu.cmake" \
   --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}" \
   "$@"

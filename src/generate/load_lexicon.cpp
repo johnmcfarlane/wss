@@ -24,7 +24,6 @@
 #include <array>
 #include <cctype>
 #include <cstdio>
-#include <iosfwd>
 #include <iterator>
 #include <memory>
 #include <string_view>
