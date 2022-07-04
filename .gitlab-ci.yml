@@ -40,7 +40,7 @@ linux:
         IMAGE: johnmcfarlane/cnl_ci:gcc-12
         SCRIPT: workflows/conan/cppcheck
       - NAME: conan-include-what-you-use
-        IMAGE: johnmcfarlane/cnl_ci:clang-14-libcpp
+        IMAGE: johnmcfarlane/cnl_ci:clang-14-libcpp-iwyu
         SCRIPT: workflows/conan/iwyu
       - NAME: conan-graphviz
         IMAGE: johnmcfarlane/cnl_ci:gcc-12
