@@ -6,7 +6,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 conan install \
   --build=missing \
-  --env wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wno-restrict -Wshadow" \
+  --env wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wshadow" \
   --settings build_type=Release \
   --settings compiler.libcxx=libstdc++11 \
   "${PROJECT_DIR}" \
