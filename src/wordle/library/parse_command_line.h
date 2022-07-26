@@ -20,6 +20,7 @@
 #include <command_line.h>
 
 namespace wordle {
+    // requires args[0] is program name
     auto parse_command_line(command_line args) -> input;
 }  // namespace wordle
 

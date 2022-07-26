@@ -16,6 +16,7 @@
 #include <wordle/word.h>
 
 #include <command_line.h>
+#include <wss_assert.h>
 
 #include <fmt/printf.h>
 
@@ -37,6 +38,9 @@ namespace {
 
 auto main(int argc, char const* const* argv) -> int
 {
+    // requires args[0] is the program name
+    WSS_ASSERT(argc > 0);
+
     auto const cl{command_line{argv, static_cast<unsigned>(argc)}};
     auto const result{wordle::run(cl)};
 
