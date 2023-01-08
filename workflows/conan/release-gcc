@@ -3,14 +3,9 @@
 set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
+export CXX=g++
 
-conan install \
-  --build=missing \
-  --env wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wshadow" \
-  --settings build_type=Release \
-  --settings compiler.libcxx=libstdc++11 \
-  "${PROJECT_DIR}" \
-  "$@"
+"$PROJECT_DIR"/workflows/conan/install release-gcc
 
 conan build \
   "${PROJECT_DIR}"

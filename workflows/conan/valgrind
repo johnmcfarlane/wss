@@ -4,12 +4,7 @@ set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
-conan install \
-  --build=missing \
-  --settings build_type=Debug \
-  --settings compiler.libcxx=libstdc++11 \
-  "${PROJECT_DIR}" \
-  "$@"
+"$PROJECT_DIR"/workflows/conan/install valgrind
 
 conan build \
   --configure --build \

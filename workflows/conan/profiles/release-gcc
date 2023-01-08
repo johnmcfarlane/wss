@@ -1,0 +1,6 @@
+[settings]
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++11
+[env]
+wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wshadow"

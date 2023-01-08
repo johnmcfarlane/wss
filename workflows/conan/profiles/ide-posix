@@ -1,0 +1,5 @@
+[settings]
+build_type=Debug
+compiler.libcxx=libstdc++11
+[env]
+wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wshadow"

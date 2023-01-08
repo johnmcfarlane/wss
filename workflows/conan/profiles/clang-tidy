@@ -1,0 +1,4 @@
+[settings]
+compiler.libcxx=libstdc++11
+[env]
+wss:CONAN_CMAKE_TOOLCHAIN_FILE=$PROFILE_DIR/../toolchains/linux-clang-tidy.cmake

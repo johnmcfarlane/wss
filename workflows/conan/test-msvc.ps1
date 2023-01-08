@@ -5,10 +5,15 @@ $ErrorActionPreference = "Stop"
 
 $PROJECT_DIR="$PSScriptRoot\..\.."
 
+conan profile new `
+  --detect `
+  --force `
+  ./detected
+
 conan install `
   --build=missing `
-  --env CXXFLAGS="/bigobj /D_ITERATOR_DEBUG_LEVEL=1 /DNDEBUG /O2" `
-  --env wss:CXXFLAGS="/bigobj /D_ITERATOR_DEBUG_LEVEL=1 /DNDEBUG /O2 /W2 /WX" `
+  --profile=./detected `
+  --profile="${PROJECT_DIR}/workflows/conan/profiles/test-msvc" `
   "${PROJECT_DIR}"
 
 conan build `

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROFILE=$1
+PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
+
+conan profile new \
+  --detect \
+  --force \
+  ./detected
+
+conan install \
+  --build=missing \
+  --profile=./detected \
+  --profile="$PROJECT_DIR"/workflows/conan/profiles/"$PROFILE" \
+  "${PROJECT_DIR}"

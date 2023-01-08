@@ -3,14 +3,9 @@
 set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
+export CXX=clang++
 
-conan install \
-  --build=missing \
-  --env wss:CXXFLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined \
--pedantic -Wall -Werror -Wextra -Wshadow" \
-  --settings compiler.libcxx=libstdc++11 \
-  "${PROJECT_DIR}" \
-  "$@"
+"$PROJECT_DIR"/workflows/conan/install test-clang
 
 conan build \
   "${PROJECT_DIR}"

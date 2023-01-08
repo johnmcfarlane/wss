@@ -4,12 +4,9 @@ set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 NUM_CPUS=$(nproc)
+export CXX=clang++
 
-conan install \
-  --build=missing \
-  --settings compiler.libcxx=libstdc++11 \
-  "${PROJECT_DIR}" \
-  "$@"
+"$PROJECT_DIR"/workflows/conan/install clang-static-analyzer
 
 scan-build \
   -o /tmp/scan-build \

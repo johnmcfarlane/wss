@@ -4,11 +4,7 @@ set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
-conan install \
-  --build=missing \
-  --env wss:"CONAN_CMAKE_TOOLCHAIN_FILE=$PROJECT_DIR/workflows/conan/toolchains/linux-clang-tidy-fix.cmake" \
-  "${PROJECT_DIR}" \
-  "$@"
+"$PROJECT_DIR"/workflows/conan/install clang-tidy-fix
 
 conan build \
   --configure \
