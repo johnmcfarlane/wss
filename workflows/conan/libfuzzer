@@ -3,6 +3,7 @@
 set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
+export CC=clang
 export CXX=clang++
 
 "$PROJECT_DIR"/workflows/conan/install libfuzzer

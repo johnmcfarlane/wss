@@ -30,7 +30,7 @@ jobs:
             ${{ env.CACHE_SLUG }}-
 
       - name: Initialise System
-        run: pip.exe install conan
+        run: pip.exe install conan==1.59.0
 
       - name: Perform Test
         run: workflows\\conan\\test-msvc.ps1

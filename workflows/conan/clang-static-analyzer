@@ -4,6 +4,7 @@ set -euo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 NUM_CPUS=$(nproc)
+export CC=clang
 export CXX=clang++
 
 "$PROJECT_DIR"/workflows/conan/install clang-static-analyzer
