@@ -1,4 +1,4 @@
 [settings]
-[env]
+[buildenv]
 CXXFLAGS="/bigobj /D_ITERATOR_DEBUG_LEVEL=1 /DNDEBUG /O2"
 wss:CXXFLAGS="/bigobj /D_ITERATOR_DEBUG_LEVEL=1 /DNDEBUG /O2 /W2 /WX"

@@ -6,9 +6,8 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 "$PROJECT_DIR"/workflows/conan/install valgrind
 
-conan build \
-  --configure --build \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build valgrind \
+  --configure --build
 
 ctest \
   --output-on-failure \

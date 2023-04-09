@@ -2,5 +2,5 @@
 build_type=Release
 compiler=clang
 compiler.libcxx=libstdc++11
-[env]
+[buildenv]
 wss:CXXFLAGS="-pedantic -Wall -Werror -Wextra -Wshadow"

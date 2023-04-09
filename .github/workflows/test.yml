@@ -134,6 +134,7 @@ jobs:
       - name: Report Caches
         run: |
           ccache -s
+          pip install -U conan
 
       - name: Initialise System
         run: git config --global --add safe.directory $GITHUB_WORKSPACE

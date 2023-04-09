@@ -7,6 +7,4 @@ export CC=clang
 export CXX=clang++
 
 "$PROJECT_DIR"/workflows/conan/install release-clang
-
-conan build \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build release-clang

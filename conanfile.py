@@ -1,16 +1,17 @@
-from conans import ConanFile, CMake
+from conan import ConanFile
+from conan.tools.cmake import CMake, CMakeDeps
 
 
 class WssConan(ConanFile):
     name = "wss"
     settings = "os", "compiler", "build_type", "arch"
-    requires = "catch2/[2.x]", "fmt/[8.x]", "ms-gsl/[3.x]", "lyra/[1.5.x]"
-    generators = "cmake_find_package"
+    requires = "catch2/[>=2 <3]", "fmt/[>=8]", "ms-gsl/[>=3]", "lyra/[>=1.5]"
+    generators = ["CMakeDeps", "CMakeToolchain"]
 
     def build(self):
         cmake = CMake(self)
         cmake.verbose = False
         cmake.configure()
         cmake.build()
-        cmake.test(output_on_failure=True)
+        cmake.test()
         cmake.install()

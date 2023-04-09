@@ -6,9 +6,8 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 "$PROJECT_DIR"/workflows/conan/install clang-tidy-fix
 
-conan build \
-  --configure \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build clang-tidy-fix \
+  --configure
 
 cmake \
   --build . \

@@ -2,6 +2,6 @@
 build_type=Release
 compiler=clang
 compiler.libcxx=libstdc++11
-[env]
+[buildenv]
 wss:CONAN_CMAKE_TOOLCHAIN_FILE=$PROFILE_DIR/../toolchains/linux-libfuzzer.cmake
 wss:CXXFLAGS="-Wall -Werror -Wextra -Wshadow -fsanitize=address,undefined -g -pedantic"

@@ -5,13 +5,13 @@ set -euo pipefail
 PROFILE=$1
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
-conan profile detect --name ./detected
+shift
 
-conan install \
-  --build=missing \
+conan build \
   --output-folder=. \
   --profile:build=./detected \
   --profile:build="$PROJECT_DIR"/workflows/conan/profiles/"$PROFILE" \
   --profile:host=./detected \
   --profile:host="$PROJECT_DIR"/workflows/conan/profiles/"$PROFILE" \
+  "$@" \
   "${PROJECT_DIR}"

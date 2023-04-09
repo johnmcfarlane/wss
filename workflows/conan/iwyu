@@ -6,8 +6,7 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 "$PROJECT_DIR"/workflows/conan/install iwyu
 
-conan build \
-  "${PROJECT_DIR}" | tee iwyu-output.txt
+"$PROJECT_DIR"/workflows/conan/build iwyu | tee iwyu-output.txt
 
 # CMake doesn't treat iwyu-related warnings as errors.
 # Instead grep for warning from iwyu and exit with an error

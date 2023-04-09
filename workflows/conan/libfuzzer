@@ -8,9 +8,8 @@ export CXX=clang++
 
 "$PROJECT_DIR"/workflows/conan/install libfuzzer
 
-conan build \
-  --configure \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build libfuzzer \
+  --configure
 
 cmake \
   --build . \

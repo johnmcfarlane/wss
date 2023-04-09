@@ -147,19 +147,25 @@ To build `wordle` using Conan on Linux,
    cd build/
    ```
 
-1. install package dependencies,
+1. create a default profile:
 
    ```sh
-   conan install --build=missing <path-to-wss>
+   conan profile detect
    ```
 
-1. then configure, build, test, and install the program:
+2. install package dependencies,
 
    ```sh
-   conan build <path-to-wss>
+   conan install --build=missing --output-folder=. <path-to-wss>
    ```
 
-1. The program can be found in `package/bin`:
+3. then configure, build, test, and install the program:
+
+   ```sh
+   conan build --output-folder=. <path-to-wss>
+   ```
+
+4. The program can be found in `package/bin`:
 
    ```sh
    ./package/bin/wordle

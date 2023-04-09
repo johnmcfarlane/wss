@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -exuo pipefail
 
 PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 export CC=gcc
 export CXX=g++
 
 "$PROJECT_DIR"/workflows/conan/install release-gcc
-
-conan build \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build release-gcc

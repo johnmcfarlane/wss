@@ -1,5 +1,5 @@
 [settings]
 build_type=Debug
 compiler.libcxx=libstdc++11
-[env]
+[buildenv]
 wss:CXXFLAGS="-coverage -DNDEBUG -DWSS_DISABLE_ASSERTS -fno-exceptions -pedantic -Wall -Werror -Wextra -Wshadow"

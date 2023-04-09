@@ -11,9 +11,8 @@ PROJECT_DIR=$(cd "$(dirname "$0")"/../..; pwd)
 
 "$PROJECT_DIR"/workflows/conan/install coverage
 
-conan build \
-  --configure --build \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build coverage \
+  --configure --build
 
 # delete coverage numbers accumulated during build step
 lcov \

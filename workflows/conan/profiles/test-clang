@@ -1,5 +1,5 @@
 [settings]
 compiler=clang
 compiler.libcxx=libstdc++11
-[env]
+[buildenv]
 wss:CXXFLAGS="-D_GLIBCXX_ASSERTIONS -fsanitize=address,undefined -pedantic -Wall -Werror -Wextra -Wshadow"

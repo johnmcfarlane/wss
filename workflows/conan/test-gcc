@@ -8,5 +8,4 @@ export CXX=g++
 
 "$PROJECT_DIR"/workflows/conan/install test-gcc
 
-conan build \
-  "${PROJECT_DIR}"
+"$PROJECT_DIR"/workflows/conan/build test-gcc
